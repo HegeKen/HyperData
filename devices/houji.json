@@ -1,8 +1,76 @@
 {
-  "codename": "houji",
-  "name":{
-    "zh-CN":"小米 14",
-    "en-US":"Xiaomi 14"
+  "device": "houji",
+  "name": {
+    "zh-CN": "小米 14",
+    "en-US": "Xiaomi 14"
   },
-  "image":"https://data.hyperos.fans/images/houji.png"
+  "image": "https://data.hyperos.fans/images/houji.png",
+  "type": "phone",
+  "miui": "no",
+  "branches": [
+    {
+      "name": {
+        "zh-CN": "小米澎湃 OS 开发版",
+        "en-US": "Xiaomi HyperOS DEV"
+      },
+      "branchCode":"houji",
+      "branchtag":"X",
+      "region":"cn",
+      "roms":{
+        "OS1.0.23.11.8.DEV":{
+          "os": "OS1.0.23.11.8.DEV",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.23.11.8.DEV_ae3ae896e0_14.0.zip",
+          "fastboot": ""
+        },
+        "OS1.0.23.10.25.DEV":{
+          "os": "OS1.0.23.10.25.DEV",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.23.10.25.DEV_e8d956b7dd_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-CN": "小米澎湃 OS",
+        "en-US": "Xiaomi HyperOS"
+      },
+      "branchCode":"houji",
+      "branchtag":"X",
+      "region":"cn",
+      "roms":{
+        "OS1.0.16.0.UNCCNXM":{
+          "os": "OS1.0.16.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.16.0.UNCCNXM_5740a43ba8_14.0.zip",
+          "fastboot": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_eb34b99573.tgz"
+        },
+        "OS1.0.14.0.UNCCNXM":{
+          "os": "OS1.0.14.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.14.0.UNCCNXM_8cdf08a0dc_14.0.zip",
+          "fastboot": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_351331f7e8.tgz"
+        },
+        "OS1.0.11.0.UNCCNXM":{
+          "os": "OS1.0.11.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.11.0.UNCCNXM_8541c46b8d_14.0.zip",
+          "fastboot": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_56450e8e69.tgz"
+        },
+        "OS1.0.9.0.UNCCNXM":{
+          "os": "OS1.0.9.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.9.0.UNCCNXM_e5644d702d_14.0.zip",
+          "fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_f1003ae985.tgz"
+        },
+        "OS1.0.6.0.UNCCNXM":{
+          "os": "OS1.0.6.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.6.0.UNCCNXM_3461cbcbc7_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
 }
