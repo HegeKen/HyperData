@@ -23,6 +23,12 @@
           "recovery": "miui_HOUJI_OS1.0.23.11.8.DEV_ae3ae896e0_14.0.zip",
           "fastboot": ""
         },
+        "OS1.0.23.11.4.DEV":{
+          "os": "OS1.0.23.11.4.DEV",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.23.11.4.DEV_913d4e0f5d_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.23.10.25.DEV":{
           "os": "OS1.0.23.10.25.DEV",
           "android": "14.0",
@@ -33,13 +39,19 @@
     },
     {
       "name": {
-        "zh": "小米澎湃 OS",
-        "en": "Xiaomi HyperOS"
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
       },
       "branchCode":"houji",
-      "branchtag":"X",
+      "branchtag":"F",
       "region":"cn",
       "roms":{
+        "OS1.0.19.0.UNCCNXM":{
+          "os": "OS1.0.19.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.19.0.UNCCNXM_7abc50d61d_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.16.0.UNCCNXM":{
           "os": "OS1.0.16.0.UNCCNXM",
           "android": "14.0",
@@ -69,6 +81,41 @@
           "android": "14.0",
           "recovery": "miui_HOUJI_OS1.0.6.0.UNCCNXM_3461cbcbc7_14.0.zip",
           "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode":"houji",
+      "branchtag":"F",
+      "region":"cn",
+      "roms":{
+        "OS1.0.16.0.UNCCNXM":{
+          "os": "OS1.0.16.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.16.0.UNCCNXM_5740a43ba8_14.0.zip",
+          "fastboot": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_chinatelecom_390762285b.tgz"
+        },
+        "OS1.0.14.0.UNCCNXM":{
+          "os": "OS1.0.14.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.14.0.UNCCNXM_8cdf08a0dc_14.0.zip",
+          "fastboot": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_chinatelecom_c79025dc55.tgz"
+        },
+        "OS1.0.11.0.UNCCNXM":{
+          "os": "OS1.0.11.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.11.0.UNCCNXM_8541c46b8d_14.0.zip",
+          "fastboot": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_chinatelecom_68ae90d90f.tgz"
+        },
+        "OS1.0.9.0.UNCCNXM":{
+          "os": "OS1.0.9.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.9.0.UNCCNXM_e5644d702d_14.0.zip",
+          "fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_chinatelecom_3a7f003707.tgz"
         }
       }
     }

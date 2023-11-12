@@ -17,6 +17,12 @@
       "branchtag":"X",
       "region":"cn",
       "roms":{
+        "OS1.0.23.11.4.DEV":{
+          "os": "OS1.0.23.11.1.DEV",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.23.11.4.DEV_e5248cafd8_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.23.11.1.DEV":{
           "os": "OS1.0.23.11.1.DEV",
           "android": "14.0",
@@ -33,13 +39,25 @@
     },
     {
       "name": {
-        "zh": "小米澎湃 OS",
-        "en": "Xiaomi HyperOS"
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
       },
       "branchCode":"houji",
-      "branchtag":"X",
+      "branchtag":"F",
       "region":"cn",
       "roms":{
+        "OS1.0.21.0.UNBCNXM":{
+          "os": "OS1.0.21.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.21.0.UNBCNXM_c72d682b7d_14.0.zip",
+          "fastboot": ""
+        },
+        "OS1.0.20.0.UNBCNXM":{
+          "os": "OS1.0.20.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.20.0.UNBCNXM_2f69d1cc03_14.0.zip",
+          "fastboot": "shennong_images_OS1.0.20.0.UNBCNXM_20231110.0000.00_14.0_cn_0cb7fa7902.tgz"
+        },
         "OS1.0.18.0.UNBCNXM":{
           "os": "OS1.0.18.0.UNBCNXM",
           "android": "14.0",
@@ -81,6 +99,41 @@
           "android": "14.0",
           "recovery": "miui_SHENNONG_OS1.0.6.0.UNBCNXM_071034c0d5_14.0.zip",
           "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode":"houji",
+      "branchtag":"F",
+      "region":"cn",
+      "roms":{
+        "OS1.0.20.0.UNBCNXM":{
+          "os": "OS1.0.20.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.20.0.UNBCNXM_2f69d1cc03_14.0.zip",
+          "fastboot": "shennong_images_OS1.0.20.0.UNBCNXM_20231110.0000.00_14.0_cn_chinatelecom_aa59137448.tgz"
+        },
+        "OS1.0.14.0.UNBCNXM":{
+          "os": "OS1.0.14.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.14.0.UNBCNXM_1769ea28b5_14.0.zip",
+          "fastboot": "shennong_images_OS1.0.14.0.UNBCNXM_20231031.0000.00_14.0_cn_chinatelecom_a974733add.tgz"
+        },
+        "OS1.0.10.0.UNCCNXM":{
+          "os": "OS1.0.10.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.10.0.UNBCNXM_979a847396_14.0.zip",
+          "fastboot": "shennong_images_OS1.0.10.0.UNBCNXM_20231028.0000.00_14.0_cn_chinatelecom_76f1859704.tgz"
+        },
+        "OS1.0.9.0.UNBCNXM":{
+          "os": "OS1.0.9.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.9.0.UNBCNXM_856989d73f_14.0.zip",
+          "fastboot": "shennong_images_OS1.0.9.0.UNBCNXM_20231025.0000.00_14.0_cn_chinatelecom_2b3e0011af.tgz"
         }
       }
     }
