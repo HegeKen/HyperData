@@ -1,0 +1,270 @@
+{
+  "week": "619",
+  "title": {
+    "zh": "开发版第619周发布公告（小米澎湃OS开发版多机型推送）",
+    "en": "DEV for week 619 (HyperOS DEV released for various devices.)"
+  },
+  "postId":"43014971",
+  "update": "2023.11.14 21:49:21",
+  "versions": "OS1.0.23.11.8.DEV, OS1.0.23.11.13.DEV",
+  "description": [
+    {
+      "zh": "Xiaomi 14 Pro、Xiaomi 14 的小米澎湃OS开发版，本周发版时间提前至11月14日起陆续推送更新，欢迎升级至最新版本体验。",
+      "en": "HyperOS DEV for Xiaomi 14 & Pro has been adjusted to Nov.14, welcome to the Hyper updates."
+    },
+    {
+      "zh": "原定于11月中下旬发布小米澎湃OS开发版的5款机型，已提前完成开发测试工作，将于11月14日起陆续推送开发版，具体机型如下：Xiaomi 13 Ultra、Xiaomi 13 Pro、Xiaomi 13、Redmi K60 Pro、Redmi K60。由于上述机型开发版人数较多，逐步推送中，如尚未收到更新请耐心等待。",
+      "en": "HyperOS DEV for Xiaomi 13 Ultra, Xiaomi 13 Pro,Xiaomi 13, Redmi K60 Pro, Redmi K60 release date has also been adjusted to Nov.14, with the amount of DEV user, you may will have to wait for some time, please be pation with us."
+    },
+    {
+      "zh": "原定于11月中下旬发布小米澎湃OS开发版的Xiaomi MIX Fold 3、Xiaomi MIX Fold 2目前进展正常，将按原定计划进行推送，请密切关注小米社区的相关公告",
+      "en": "HyperOS DEV for Xiaomi MIX Fold 3 & Xiaomi MIX Fold 2 will stick to the original plan ,please tune in to the Community announcements for updates."
+    }
+  ],
+  "attention": [
+    {
+      "zh": "升级前请您务必备份好重要数据",
+      "en": "Please make sure you've backed up your data before the update."
+    },
+    {
+      "zh": "具体功能请以手机端展示日志为准",
+      "en": "Please refer to the logs on the phone for specific updates."
+    }
+  ],
+  "logs": [
+    {
+      "module": {
+        "zh": "小米澎湃OS",
+        "en": "Xiaomi HyperOS"
+      },
+      "log": [
+        {
+          "zh": "小米澎湃OS 打造「人车家全生态」操作系统",
+          "en": "Xiaomi HyperOS, a full on Eco-System connecting 「People, Vehicles, and Home」"
+        }
+      ]
+    },
+    {
+      "module": {
+        "zh": "底层重构",
+        "en": "Rewrites the underlying architecture"
+      },
+      "log": [
+        {
+          "zh": "小米澎湃OS底层重构，发挥卓越的硬件性能",
+          "en": "Xiaomi HyperOS rewrites the underlying architecture, impowers the best out of hradware performence."
+        },
+        {
+          "zh": "关键任务识别染色技术，根据任务重要程度动态管控资源分配，更强性能更低功耗",
+          "en": "Key task identification technology, dynamically controlles resource allocation according to task importance, making higher performance with lower power consumption."
+        },
+        {
+          "zh": "超低功耗渲染框架，提升续航能力并提供更流畅的动画效果",
+          "en": "Ultra-low power rendering framework, improving battery life and providing smoother animation effects."
+        },
+        {
+          "zh": "SOC一体化调频，串联整机硬件资源，更快响应算力需求变化，丢帧更少更流畅",
+          "en": "SOC integrated scheduling system, connecting all compute resorces, faster responds on task changes, brings fewer frame drops and smoother performance."
+        },
+        {
+          "zh": "智慧IO引擎，焦点IO优先执行，避免抢占更流畅",
+          "en": "Intelligent IO engine, focuses on IO priority execution, avoid preempting to make smoother experience."
+        },
+        {
+          "zh": "焕新存储技术，减少存储碎片化，让手机久用如新",
+          "en": "Brand new storage technology, reduces storage fragmentation, keep phones responsive all the time."
+        },
+        {
+          "zh": "智能选网能力升级，弱网环境网络更流畅",
+          "en": "Better intelegent network swelection capabilty, more smooth Internet experience in waek network situations."
+        },
+        {
+          "zh": "信号智选引擎，动态调整天线策略，提升信号稳定性",
+          "en": "Intelligent signal selection engine, dynamically adjusts antenna strategy, improves signal stability."
+        }
+      ]
+    },
+    {
+      "module": {
+        "zh": "跨端智联",
+        "en": "Cross-platform connection"
+      },
+      "log": [
+        {
+          "zh": "Xiaomi HyperConnect 跨端互联框架，让设备高效连接，极致协同",
+          "en": "Xiaomi HyperConnect cross-platform framework, enabling efficient connection and ultimate collaboration between devices."
+        },
+        {
+          "zh": "跨设备体验全面升级，支持跨设备调用摄像头、屏幕、通信等多种硬件能力",
+          "en": "Brand new cross-platform experience, supporting cross-platform calling of camera, screen, communication and other hardware capabilities."
+        },
+        {
+          "zh": "应用、音视频、剪贴板等数据和服务，支持在多设备间自由流转",
+          "en": "New free flow services among multiple devices, such as applications, audio and video, and clipboard."
+        }
+      ]
+    },
+    {
+      "module": {
+        "zh": "全域安全",
+        "en": "Secure to the edge"
+      },
+      "log": [
+        {
+          "zh": "面向设备互联的安全隐私架构",
+          "en": "Privacy oriented secutiry platform for cross-platform connections."
+        },
+        {
+          "zh": "设备间通过TEE相互校验安全，数据传输硬件级加密",
+          "en": "TEE security validation between devices, hardware level data transfers encryption."
+        },
+        {
+          "zh": "跨端隐私体系，包含互联权限管理、互联行为提醒和互联行为记录",
+          "en": "Cross-platform privacy system, including interconnection authority management, interconnection behavior reminder, and interconnection behavior records."
+        }
+      ]
+    },
+    {
+      "module": {
+        "zh": "生命感美学",
+        "en": "Aesthetics of life sense"
+      },
+      "log": [
+        {
+          "zh": "面向全球化的生命感美学，营造出细腻舒适的视觉和轻盈连贯的动效，多元融合的表达式带来全新的系统美学体验",
+          "en": "Globalized aesthetic life creates exquisite and comfortable visual effects, light, continuous animations, and the diverse integrated expression brings new aesthetic system experience."
+        },
+        {
+          "zh": "全新动效语言，带来轻盈连贯的全局动效体验",
+          "en": "Brand new animation system brings lightweight, coherent animation experience."
+        },
+        {
+          "zh": "生命力色彩系统，富有生命气息的自然色，让界面焕然一新",
+          "en": "Vitality color system, rich in natural colors of life, makes the interface look brand new."
+        },
+        {
+          "zh": "统一的系统字体，为全球而设计",
+          "en": "Unified System font, designed for the whole world."
+        },
+        {
+          "zh": "全新天气设计，实时气象引擎创造超现实的视觉体验",
+          "en": "Brand new weather design, real-time weather engine makes surreal visual experience."
+        },
+        {
+          "zh": "全局焦点通知体系，动态展示关键信息变化",
+          "en": "Global notification focus system, dynamically displaying changesin key informations."
+        },
+        {
+          "zh": "全新艺术锁屏，让你的每张照片都变成海报，更有动态玻璃材质，亮屏瞬间精美绝伦",
+          "en": "Brand new art lockscreen, turns every photo into posters, and dynamic glass material add-on makes stunning appeareance when screen lights on."
+        },
+        {
+          "zh": "桌面图标设计升级，色彩造型全面焕新",
+          "en": "Icons redisnged, brand new and colorful."
+        },
+        {
+          "zh": "自研多重渲染技术，呈现细腻舒适的自然视效",
+          "en": "Self-developed multi-layer rendering system, presenting exquisite and comfortable natural visual effects."
+        },
+        {
+          "zh": "重构多任务窗口管理，统一交互，高效易用",
+          "en": "Redesigned multi-task window management system, unifies interaction, efficient and easy to use."
+        }
+      ]
+    }
+  ],
+  "show":"yes",
+  "roms":[
+    {
+      "device": "fuxi",
+      "name": {
+        "zh": "小米 13",
+        "en": "Xiaomi 13"
+      },
+      "rom":{
+        "os": "OS1.0.23.11.8.DEV",
+        "android": "14.0",
+        "recovery": "miui_FUXI_OS1.0.23.11.8.DEV_64e5e9dc12_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "nuwa",
+      "name": {
+        "zh": "小米 13 Pro",
+        "en": "Xiaomi 13 Pro"
+      },
+      "rom":{
+        "os": "OS1.0.23.11.8.DEV",
+        "android": "14.0",
+        "recovery": "miui_NUWA_OS1.0.23.11.8.DEV_bee30be1cd_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "ishtar",
+      "name": {
+        "zh": "小米 13 Ultra",
+        "en": "Xiaomi 13 Ultra"
+      },
+      "rom":{
+        "os": "OS1.0.23.11.8.DEV",
+        "android": "14.0",
+        "recovery": "miui_ISHTAR_OS1.0.23.11.8.DEV_b8a5193d86_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "houji",
+      "name": {
+        "zh": "小米 14",
+        "en": "Xiaomi 14"
+      },
+      "rom":{
+        "os": "OS1.0.23.11.13.DEV",
+        "android": "14.0",
+        "recovery": "miui_HOUJI_OS1.0.23.11.13.DEV_d60d299f07_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "shennong",
+      "name": {
+        "zh": "小米 14 Pro",
+        "en": "Xiaomi 14 Pro"
+      },
+      "rom":{
+        "os": "OS1.0.23.11.13.DEV",
+        "android": "14.0",
+        "recovery": "miui_SHENNONG_OS1.0.23.11.13.DEV_c776cc46d4_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "mondrian",
+      "name": {
+        "zh": "Redmi K60",
+        "en": "Redmi K60"
+      },
+      "rom":{
+        "os": "OS1.0.23.11.8.DEV",
+        "android": "14.0",
+        "recovery": "miui_MONDRIAN_OS1.0.23.11.8.DEV_afb8edb5c9_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "socrates",
+      "name": {
+        "zh": "Redmi K60 Pro",
+        "en": "Redmi K60 Pro"
+      },
+      "rom":{
+        "os": "OS1.0.23.11.8.DEV",
+        "android": "14.0",
+        "recovery": "miui_SOCRATES_OS1.0.23.11.8.DEV_ed16b5a983_14.0.zip",
+        "fastboot": ""
+      }
+    }
+  ]
+}

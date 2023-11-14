@@ -15,8 +15,16 @@
       },
       "branchCode":"houji",
       "branchtag":"X",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "show":"1",
       "region":"cn",
       "roms":{
+        "OS1.0.23.11.13.DEV":{
+          "os": "OS1.0.23.11.13.DEV",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.23.11.13.DEV_c776cc46d4_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.23.11.4.DEV":{
           "os": "OS1.0.23.11.1.DEV",
           "android": "14.0",
@@ -44,13 +52,14 @@
       },
       "branchCode":"houji",
       "branchtag":"F",
+      "show":"1",
       "region":"cn",
       "roms":{
         "OS1.0.21.0.UNBCNXM":{
           "os": "OS1.0.21.0.UNBCNXM",
           "android": "14.0",
           "recovery": "miui_SHENNONG_OS1.0.21.0.UNBCNXM_c72d682b7d_14.0.zip",
-          "fastboot": ""
+          "fastboot": "shennong_images_OS1.0.21.0.UNBCNXM_20231110.0000.00_14.0_cn_ebfc18df90.tgz"
         },
         "OS1.0.20.0.UNBCNXM":{
           "os": "OS1.0.20.0.UNBCNXM",
@@ -110,7 +119,14 @@
       "branchCode":"houji",
       "branchtag":"F",
       "region":"cn",
+      "show":"1",
       "roms":{
+        "OS1.0.21.0.UNBCNXM":{
+          "os": "OS1.0.21.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.21.0.UNBCNXM_c72d682b7d_14.0.zip",
+          "fastboot": "shennong_images_OS1.0.21.0.UNBCNXM_20231110.0000.00_14.0_cn_chinatelecom_91f00cb756.tgz"
+        },
         "OS1.0.20.0.UNBCNXM":{
           "os": "OS1.0.20.0.UNBCNXM",
           "android": "14.0",

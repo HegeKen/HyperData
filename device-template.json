@@ -1,0 +1,67 @@
+{
+  "device": "",
+  "name": {
+    "zh": "",
+    "en": ""
+  },
+  "image": "https://data.hyperos.fans/assets/images/xxx.png",
+  "type": "phone",
+  "miui": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 开发版",
+        "en": "Xiaomi HyperOS DEV"
+      },
+      "branchCode":"",
+      "branchtag":"X",
+      "show":"1",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "region":"cn",
+      "roms":{
+        "":{
+          "os": "",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode":"",
+      "branchtag":"F",
+      "show":"1",
+      "region":"cn",
+      "roms":{
+        "":{
+          "os": "",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode":"",
+      "branchtag":"F",
+      "show":"1",
+      "region":"cn",
+      "roms":{
+        "":{
+          "os": "",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}

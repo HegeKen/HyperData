@@ -1,0 +1,36 @@
+{
+  "device": "mondrian",
+  "name": {
+    "zh": "Redmi K60/POCO F5 Pro",
+    "en": "Redmi K60/POCO F5 Pro"
+  },
+  "image": "https://data.hyperos.fans/assets/images/mondrian.png",
+  "type": "phone",
+  "miui": "yes",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 开发版",
+        "en": "Xiaomi HyperOS DEV"
+      },
+      "branchCode": "mondrian",
+      "branchtag": "X",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "roms": {
+        "OS1.0.23.11.8.DEV": {
+          "os": "OS1.0.23.11.8.DEV",
+          "android": "14.0",
+          "recovery": "miui_MONDRIAN_OS1.0.23.11.8.DEV_afb8edb5c9_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}

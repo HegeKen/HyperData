@@ -1,0 +1,36 @@
+{
+  "device": "ishtar",
+  "name": {
+    "zh": "小米 13 Ultra",
+    "en": "Xiaomi 13 Ultra"
+  },
+  "image": "https://data.hyperos.fans/assets/images/ishtar.png",
+  "type": "phone",
+  "miui": "yes",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 开发版",
+        "en": "Xiaomi HyperOS DEV"
+      },
+      "branchCode": "ishtar",
+      "branchtag": "X",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "roms": {
+        "OS1.0.23.11.8.DEV": {
+          "os": "OS1.0.23.11.8.DEV",
+          "android": "14.0",
+          "recovery": "miui_ISHTAR_OS1.0.23.11.8.DEV_b8a5193d86_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}
