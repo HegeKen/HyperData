@@ -24,6 +24,12 @@
       ],
       "region": "cn",
       "roms": {
+        "OS1.0.23.11.17.DEV":{
+          "os": "OS1.0.23.11.17.DEV",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.23.11.17.DEV_29392fdef6_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.23.11.13.DEV": {
           "os": "OS1.0.23.11.13.DEV",
           "android": "14.0",
@@ -60,11 +66,17 @@
       "show": "1",
       "region": "cn",
       "roms": {
+        "OS1.0.24.0.UNCCNXM":{
+          "os": "OS1.0.24.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.24.0.UNCCNXM_491d1bbdd1_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.20.0.UNCCNXM": {
           "os": "OS1.0.20.0.UNCCNXM",
           "android": "14.0",
           "recovery": "miui_HOUJI_OS1.0.20.0.UNCCNXM_c1cd2893e8_14.0.zip",
-          "fastboot": ""
+          "fastboot": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_011f071c0c.tgz"
         },
         "OS1.0.19.0.UNCCNXM": {
           "os": "OS1.0.19.0.UNCCNXM",
@@ -114,6 +126,12 @@
       "show": "1",
       "region": "cn",
       "roms": {
+        "OS1.0.20.0.UNCCNXM": {
+          "os": "OS1.0.20.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.20.0.UNCCNXM_c1cd2893e8_14.0.zip",
+          "fastboot": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_chinatelecom_edabb5a52a.tgz"
+        },
         "OS1.0.19.0.UNCCNXM": {
           "os": "OS1.0.19.0.UNCCNXM",
           "android": "14.0",
