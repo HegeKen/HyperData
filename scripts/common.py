@@ -15,7 +15,7 @@ sdk = {
 
 currentBeta = ["houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "zizhan", "babylon", "dagu",
                "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["houji", "shennong", "fuxi","nuwa", "ishtar", "mondrian", "socrates"]
+currentStable = ["houji", "shennong", "fuxi","nuwa", "ishtar", "mondrian", "socrates","zizhan","babylon"]
 newDevices = ["houji", "shennong", "duchamp", "manet", "vermeer"]
 flags = {
     "HOUJI": "houji",
