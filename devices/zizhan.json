@@ -13,11 +13,13 @@
         "zh": "小米澎湃 OS 开发版",
         "en": "Xiaomi HyperOS DEV"
       },
-      "branchCode":"",
+      "branchCode":"zizhan",
       "branchtag":"X",
       "show":"1",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "region":"cn",
+      "zone":"1",
+      "ep":"0",
       "roms":{
         "OS1.0.23.11.19.DEV":{
           "os": "OS1.0.23.11.19.DEV",
@@ -32,10 +34,13 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode":"",
+      "branchCode":"zizhan",
       "branchtag":"F",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "show":"0",
       "region":"cn",
+      "zone":"1",
+      "ep":"0",
       "roms":{
         "":{
           "os": "",
@@ -50,10 +55,13 @@
         "zh": "小米澎湃 OS 中国电信定制版",
         "en": "Xiaomi HyperOS China Telecom Carrier Edition"
       },
-      "branchCode":"",
+      "branchCode":"zizhan",
       "branchtag":"F",
       "show":"0",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "region":"cn",
+      "zone":"1",
+      "ep":"0",
       "roms":{
         "":{
           "os": "",

@@ -16,13 +16,10 @@
       "branchCode": "houji",
       "branchtag": "X",
       "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "region": "cn",
+      "zone":"1",
+      "ep":"0",
       "roms": {
         "OS1.0.23.11.17.DEV":{
           "os": "OS1.0.23.11.17.DEV",
@@ -65,6 +62,9 @@
       "branchtag": "F",
       "show": "1",
       "region": "cn",
+      "zone":"1",
+      "ep":"0",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "roms": {
         "OS1.0.24.0.UNCCNXM":{
           "os": "OS1.0.24.0.UNCCNXM",
@@ -124,7 +124,10 @@
       "branchCode": "houji",
       "branchtag": "F",
       "show": "1",
+      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "region": "cn",
+      "zone":"1",
+      "ep":"0",
       "roms": {
         "OS1.0.20.0.UNCCNXM": {
           "os": "OS1.0.20.0.UNCCNXM",
