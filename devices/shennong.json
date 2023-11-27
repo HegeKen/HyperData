@@ -6,7 +6,7 @@
   },
   "image": "https://data.hyperos.fans/assets/images/shennong.png",
   "type": "phone",
-  "miui": "no",
+  "os":  "no",
   "branches": [
     {
       "name": {
@@ -88,7 +88,7 @@
           "os": "OS1.0.25.0.UNBCNXM",
           "android": "14.0",
           "recovery": "miui_SHENNONG_OS1.0.25.0.UNBCNXM_b525a4f877_14.0.zip",
-          "fastboot": ""
+          "fastboot": "shennong_images_OS1.0.25.0.UNBCNXM_20231119.0000.00_14.0_cn_6ad7cae32b.tgz"
         },
         "OS1.0.21.0.UNBCNXM":{
           "os": "OS1.0.21.0.UNBCNXM",
@@ -159,6 +159,12 @@
       "ep":"0",
       "show":"1",
       "roms":{
+        "OS1.0.25.0.UNBCNXM":{
+          "os": "OS1.0.25.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.25.0.UNBCNXM_b525a4f877_14.0.zip",
+          "fastboot": "shennong_images_OS1.0.25.0.UNBCNXM_20231119.0000.00_14.0_cn_chinatelecom_477816f1f3.tgz"
+        },
         "OS1.0.21.0.UNBCNXM":{
           "os": "OS1.0.21.0.UNBCNXM",
           "android": "14.0",
@@ -188,6 +194,41 @@
           "android": "14.0",
           "recovery": "miui_SHENNONG_OS1.0.9.0.UNBCNXM_856989d73f_14.0.zip",
           "fastboot": "shennong_images_OS1.0.9.0.UNBCNXM_20231025.0000.00_14.0_cn_chinatelecom_2b3e0011af.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode":"",
+      "branchtag":"F",
+      "show":"0",
+      "region":"cn",
+      "zone":"1",
+      "ep":"0",
+      "roms":{
+        "OS1.0.5.0.UNBCNDM":{
+          "os":  "OS1.0.5.0.UNBCNDM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONGDEMO_OS1.0.5.0.UNBCNDM_b08ec2950a_14.0.zip",
+          "fastboot": "shennong_demo_images_OS1.0.5.0.UNBCNDM_20231101.0000.00_14.0_cn_8b0c460551.tgz",
+          "ctelecom": "shennong_demo_images_OS1.0.5.0.UNBCNDM_20231101.0000.00_14.0_cn_chinatelecom_91a74b123e.tgz"
+        },
+        "OS1.0.3.0.UNBCNDM":{
+          "os":  "OS1.0.3.0.UNBCNDM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONGDEMO_OS1.0.3.0.UNBCNDM_7cbceffe21_14.0.zip",
+          "fastboot": "shennong_demo_images_OS1.0.3.0.UNBCNDM_20231030.0000.00_14.0_cn_05dcadada2.tgz",
+          "ctelecom": "shennong_demo_images_OS1.0.3.0.UNBCNDM_20231030.0000.00_14.0_cn_chinatelecom_ea70619f6f.tgz"
+        },
+        "OS1.0.2.0.UNBCNDM":{
+          "os":  "OS1.0.2.0.UNBCNDM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONGDEMO_OS1.0.2.0.UNBCNDM_3667503284_14.0.zip",
+          "fastboot": "shennong_demo_images_OS1.0.2.0.UNBCNDM_20231024.0000.00_14.0_cn_7089d8bf41.tgz",
+          "ctelecom": "shennong_demo_images_OS1.0.2.0.UNBCNDM_20231024.0000.00_14.0_cn_chinatelecom_0e1e19a28e.tgz"
         }
       }
     }

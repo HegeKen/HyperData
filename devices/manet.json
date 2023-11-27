@@ -42,8 +42,8 @@
       "zone":"1",
       "ep":"0",
       "roms":{
-        "":{
-          "os": "",
+        "OS1.0.0.1.UNMCNXM":{
+          "os": "OS1.0.0.1.UNMCNXM",
           "android": "14.0",
           "recovery": "",
           "fastboot": ""
@@ -63,8 +63,28 @@
       "zone":"1",
       "ep":"0",
       "roms":{
-        "":{
-          "os": "",
+        "OS1.0.0.1.UNMCNXM":{
+          "os": "OS1.0.0.1.UNMCNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode":"manet_demo",
+      "branchtag":"F",
+      "show":"0",
+      "region":"cn",
+      "zone":"1",
+      "ep":"0",
+      "roms":{
+        "OS1.0.0.1.UNMCNDM":{
+          "os": "OS1.0.0.1.UNMCNDM",
           "android": "14.0",
           "recovery": "",
           "fastboot": ""

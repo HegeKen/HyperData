@@ -19,9 +19,9 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "zizhan", "babylon", "dagu",
                "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["houji", "shennong", "fuxi", "nuwa",
+currentStable = ["duchamp", "vermeer", "manet","houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "mondrian", "socrates", "zizhan", "babylon"]
-newDevices = ["houji", "shennong", "duchamp", "manet", "vermeer"]
+newDevices = ["houji", "shennong", "duchamp", "vermeer", "manet"]
 flags = {
     "HOUJI": "houji",
     "HOUJIDEMO": "houji",
@@ -35,10 +35,25 @@ flags = {
     "FUXI": "fuxi",
     "fuxi": "fuxi",
     "nuwa": "nuwa",
+    "nuwa_demo": "nuwa",
     "MONDRIAN": "mondrian",
-    "MONDRIAN": "mondrian",
+    "MONDRIANDEMO": "mondrian",
+    "mondrian_demo": "mondrian",
+    "mondrian": "mondrian",
+    "VERMEER": "vermeer",
+    "VERMEERDEMO": "vermeer",
+    "vermeer_demo": "vermeer",
+    "vermeer": "vermeer",
+    "DUCHAMP": "duchamp",
+    "DUCHAMPDEMO": "duchamp",
+    "duchamp_demo": "duchamp",
+    "duchamp": "duchamp",
+    "MANET": "manet",
+    "MANETDEMO": "manet",
+    "manet_demo": "manet",
+    "manet": "manet",
     "SOCRATES": "socrates",
-    "SOCRATES": "socrates",
+    "socrates": "socrates",
     "ZIZHAN": "zizhan",
     "BABYLON": "babylon",
     "babylon": "babylon",
