@@ -6,7 +6,7 @@
   },
   "image": "https://data.hyperos.fans/assets/images/houji.png",
   "type": "phone",
-  "os": "no",
+  "miui": "no",
   "branches": [
     {
       "name": {
@@ -78,6 +78,12 @@
       "ep":"0",
       "carrier":["","chinatelecom","chinamobile","chinaunicom"],
       "roms": {
+        "OS1.0.25.0.UNCCNXM":{
+          "os": "OS1.0.25.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.25.0.UNCCNXM_f46161631e_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.24.0.UNCCNXM":{
           "os": "OS1.0.24.0.UNCCNXM",
           "android": "14.0",

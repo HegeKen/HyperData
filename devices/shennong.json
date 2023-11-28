@@ -6,7 +6,7 @@
   },
   "image": "https://data.hyperos.fans/assets/images/shennong.png",
   "type": "phone",
-  "os":  "no",
+  "miui":  "no",
   "branches": [
     {
       "name": {
@@ -84,6 +84,12 @@
       "zone":"1",
       "ep":"0",
       "roms":{
+        "OS1.0.26.0.UNBCNXM":{
+          "os": "OS1.0.26.0.UNBCNXM",
+          "android": "14.0",
+          "recovery": "miui_SHENNONG_OS1.0.26.0.UNBCNXM_57d288267f_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.25.0.UNBCNXM":{
           "os": "OS1.0.25.0.UNBCNXM",
           "android": "14.0",
