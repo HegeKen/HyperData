@@ -182,7 +182,7 @@ MiOTAForm = {
         "ab": "0",
         "previewPlan": "0",
         "sv": 3,
-        "av": "8.3.1",
+        "av": "8.2.1",
         "cv": "V14.0.23.9.12.DEV"
     }
 }
@@ -214,13 +214,16 @@ def getFromApi(encrypted_data, device):
         data = miui_decrypt(response.text.split("q=")[0])
         if "LatestRom" in data:
             package = data["LatestRom"]["filename"].split("?")[0]
+            print(package)
             checkExit(package)
             return 1
-        elif "CrossRom" in data:
+        if "CrossRom" in data:
             package = data["CrossRom"]["filename"].split("?")[0]
+            print(package)
             checkExit(package)
             return 1
         else:
+            print(data["Code"])
             return 0
     response.close()
 

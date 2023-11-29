@@ -30,4 +30,4 @@ for device in common.currentStable:
         common.MiOTAForm["v"] = "MIUI-"+ current["os"]
         common.getFromApi(common.miui_encrypt(json.dumps(common.MiOTAForm)),device)
         latest = current["android"]
-      print("\r"+devdata["name"]["zh"]+"已完成                            ",end="")
+  print("\r"+devdata["name"]["zh"]+"已完成                            ",end="")

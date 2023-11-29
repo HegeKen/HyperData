@@ -15,17 +15,17 @@
         },
         "branchCode":"duchamp",
         "branchtag":"F",
-        "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-        "show":"0",
+        "carrier":["","chinamobile","chinaunicom"],
+        "show":"1",
         "region":"cn",
       "zone":"1",
       "ep":"0",
         "roms":{
-          "OS1.0.0.1.UNLCNXM":{
-            "os": "OS1.0.0.1.UNLCNXM",
+          "OS1.0.0.5.UNLCNXM":{
+            "os": "OS1.0.0.5.UNLCNXM",
             "android": "14.0",
-            "recovery": "",
-            "fastboot": ""
+            "recovery": "miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip",
+            "fastboot": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_8525102b04.tgz"
           }
         }
       },
@@ -36,17 +36,17 @@
         },
         "branchCode":"duchamp",
         "branchtag":"F",
-        "show":"0",
-        "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+        "show":"1",
+        "carrier":["chinatelecom"],
         "region":"cn",
       "zone":"1",
       "ep":"0",
         "roms":{
-          "OS1.0.0.1.UNLCNXM":{
-            "os": "OS1.0.0.1.UNLCNXM",
+          "OS1.0.0.5.UNLCNXM":{
+            "os": "OS1.0.0.5.UNLCNXM",
             "android": "14.0",
-            "recovery": "",
-            "fastboot": ""
+            "recovery": "miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip",
+            "fastboot": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_chinatelecom_9113e5bd0e.tgz"
           }
         }
       },

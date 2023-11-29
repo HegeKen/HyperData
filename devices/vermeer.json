@@ -36,17 +36,17 @@
       },
       "branchCode":"vermeer",
       "branchtag":"F",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "show":"0",
+      "carrier":["","chinamobile","chinaunicom"],
+      "show":"1",
       "region":"cn",
       "zone":"1",
       "ep":"0",
       "roms":{
-        "OS.1.0.0.1.UNKCNXM":{
-          "os": "OS.1.0.0.1.UNKCNXM",
+        "OS1.0.5.0.UNKCNXM":{
+          "os": "OS1.0.5.0.UNKCNXM",
           "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
+          "recovery": "miui_VERMEER_OS1.0.5.0.UNKCNXM_164e6600c7_14.0.zip",
+          "fastboot": "vermeer_images_OS1.0.5.0.UNKCNXM_20231124.0000.00_14.0_cn_c24a27d1e9.tgz"
         }
       }
     },
@@ -57,17 +57,17 @@
       },
       "branchCode":"vermeer",
       "branchtag":"F",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "show":"0",
+      "carrier":["chinatelecom"],
+      "show":"1",
       "region":"cn",
       "zone":"1",
       "ep":"0",
       "roms":{
-        "OS.1.0.0.1.UNKCNXM":{
-          "os": "OS.1.0.0.1.UNKCNXM",
+        "OS1.0.5.0.UNKCNXM":{
+          "os": "OS1.0.5.0.UNKCNXM",
           "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
+          "recovery": "miui_VERMEER_OS1.0.5.0.UNKCNXM_164e6600c7_14.0.zip",
+          "fastboot": "vermeer_images_OS1.0.5.0.UNKCNXM_20231124.0000.00_14.0_cn_chinatelecom_c43e87dea2.tgz"
         }
       }
     },
@@ -87,7 +87,7 @@
         "OS1.0.2.0.UNKCNDM":{
           "os": "OS1.0.2.0.UNKCNDM",
           "android": "14.0",
-          "recovery": "",
+          "recovery": "miui_VERMEERDEMO_OS1.0.2.0.UNKCNDM_35dde43b69_14.0.zip",
           "fastboot": "vermeer_demo_images_OS1.0.2.0.UNKCNDM_20231125.0000.00_14.0_cn_a6f9ffb826.tgz",
           "ctelecom": "vermeer_demo_images_OS1.0.2.0.UNKCNDM_20231125.0000.00_14.0_cn_chinatelecom_e2edbc7368.tgz"
         }

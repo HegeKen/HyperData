@@ -1,17 +1,17 @@
 {
-  "siteVer":"0.0.4",
-  "date":"2023.11.29",
-  "latest":"620",
-  "recent":{
-    "time":"2023.11.29 12:55:55",
-    "roms":[
+  "siteVer": "0.0.4",
+  "date": "2023.11.29",
+  "latest": "620",
+  "recent": {
+    "time": "2023.11.29 20:48:50",
+    "roms": [
       {
         "code": "houji",
         "name": {
           "zh": "小米 14",
           "en": "Xiaomi 14"
         },
-        "rom":"OS1.0.25.0.UNCCNXM"
+        "rom": "OS1.0.25.0.UNCCNXM"
       },
       {
         "code": "shennong",
@@ -19,7 +19,23 @@
           "zh": "小米 14 Pro",
           "en": "Xiaomi 14 Pro"
         },
-        "rom":"OS1.0.26.0.UNBCNXM"
+        "rom": "OS1.0.26.0.UNBCNXM"
+      },
+      {
+        "code": "duchamp",
+        "name": {
+          "zh": "Redmi K70E",
+          "en": "Redmi K70E"
+        },
+        "rom": "OS1.0.0.5.UNLCNXM"
+      },
+      {
+        "code": "vermeer",
+        "name": {
+          "zh": "Redmi K70",
+          "en": "Redmi K70"
+        },
+        "rom": "OS1.0.5.0.UNKCNXM"
       }
     ]
   }

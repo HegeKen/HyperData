@@ -37,7 +37,7 @@
       "branchCode":"manet",
       "branchtag":"F",
       "show":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "carrier":["","chinamobile","chinaunicom"],
       "region":"cn",
       "zone":"1",
       "ep":"0",
@@ -58,7 +58,7 @@
       "branchCode":"manet",
       "branchtag":"F",
       "show":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "carrier":["chinatelecom"],
       "region":"cn",
       "zone":"1",
       "ep":"0",
@@ -84,11 +84,12 @@
       "zone":"1",
       "ep":"0",
       "roms":{
-        "OS1.0.0.1.UNMCNDM":{
-          "os": "OS1.0.0.1.UNMCNDM",
+        "OS1.0.2.0.UNMCNDM":{
+          "os": "OS1.0.2.0.UNMCNDM",
           "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
+          "recovery": "miui_MANETDEMO_OS1.0.2.0.UNMCNDM_aac6a2ea20_14.0.zip",
+          "fastboot": "manet_demo_images_OS1.0.2.0.UNMCNDM_20231127.0000.00_14.0_cn_d08f9ff8ee.tgz",
+          "ctelecom": "manet_demo_images_OS1.0.2.0.UNMCNDM_20231127.0000.00_14.0_cn_chinatelecom_f0ff22dbc5.tgz"
         }
       }
     }
