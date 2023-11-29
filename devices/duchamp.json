@@ -58,15 +58,17 @@
         "branchCode":"duchamp_demo",
         "branchtag":"F",
         "show":"0",
+        "carrier":["","chinatelecom","chinamobile","chinaunicom"],
         "region":"cn",
         "zone":"1",
         "ep":"0",
         "roms":{
-          "OS1.0.0.1.UNLCNDM":{
-            "os": "OS1.0.0.1.UNLCNDM",
+          "OS1.0.2.0.UNLCNDM":{
+            "os": "OS1.0.2.0.UNLCNDM",
             "android": "14.0",
             "recovery": "",
-            "fastboot": ""
+            "fastboot": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_25d52b4af4.tgz",
+            "ctelecom": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_chinatelecom_29e7a5afe1.tgz"
           }
         }
       }
