@@ -8,7 +8,4 @@ c = conn.cursor()
 query = """SELECT dl_rom_name from download_storage"""
 cursor = c.execute(query)
 for row in cursor:
-  if "OS" in row[0]:
-    common.checkExit(row[0])
-  else:
-    i = 0
+  common.checkExit(row[0])

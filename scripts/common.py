@@ -121,15 +121,18 @@ def getDeviceCode(filename):
 
 
 def checkExit(filename):
-    if "blockota" in filename:
-        i = 0
+    if "OS" in filename:
+      if "blockota" in filename:
+          i = 0
+      else:
+          if getDeviceCode(filename) == 0:
+              writeData(filename)
+          elif filename in localData(getDeviceCode(filename)).__str__():
+              i = 0
+          else:
+              writeData(filename)
     else:
-        if getDeviceCode(filename) == 0:
-            writeData(filename)
-        elif filename in localData(getDeviceCode(filename)).__str__():
-            i = 0
-        else:
-            writeData(filename)
+      i = 0
 
 
 def miui_decrypt(encrypted_response):
@@ -275,10 +278,7 @@ def getFastboot(url):
         else:
             data = json.loads(content)["LatestFullRom"]
             if len(data) > 0:
-                if "OS" in data["filename"]:
-                    checkExit(data["filename"])
-                else:
-                    i = 0
+                checkExit(data["filename"])
             else:
                 i = 0
     else:
