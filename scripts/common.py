@@ -19,7 +19,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "zizhan", "babylon", "dagu",
                "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["duchamp", "vermeer", "manet","houji", "shennong", "fuxi", "nuwa",
+currentStable = ["corot","duchamp", "vermeer", "manet","houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "mondrian", "socrates", "zizhan", "babylon"]
 newDevices = ["houji", "shennong", "duchamp", "vermeer", "manet"]
 flags = {
