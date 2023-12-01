@@ -1,115 +1,115 @@
 {
-  "week":"620",
+  "week": "620",
   "title": {
     "zh": "开发版第620周发布公告（小米澎湃OS开发版多机型推送）",
     "en": "DEV for week 620 (HyperOS DEV released for various devices.)"
   },
-  "postId":"41841640",
-  "update":"2023.11.21 23:46:08",
-  "versions":"OS1.0.23.11.17.DEV, OS1.0.23.11.19.DEV",
-  "description":[
+  "postId": "41841640",
+  "update": "2023.11.21 23:46:08",
+  "versions": "OS1.0.23.11.17.DEV, OS1.0.23.11.19.DEV",
+  "description": [
     {
-      "zh":"Xiaomi 14 Pro、Xiaomi 14 的小米澎湃OS开发版，本周发版时间已由11月24日提前至11月20日起陆续推送更新，欢迎升级至最新版本体验。",
-      "en":" This week's HyperOS DEV release date for Xiaomi 14 & Pro has been adjusted to Nov.20, welcome to the Hyper updates."
+      "zh": "Xiaomi 14 Pro、Xiaomi 14 的小米澎湃OS开发版，本周发版时间已由11月24日提前至11月20日起陆续推送更新，欢迎升级至最新版本体验。",
+      "en": " This week's HyperOS DEV release date for Xiaomi 14 & Pro has been adjusted to Nov.20, welcome to the Hyper updates."
     },
     {
-      "zh":"Xiaomi 13 Ultra、Xiaomi 13 Pro、Xiaomi 13、Redmi K60 Pro、Redmi K60的小米澎湃OS开发版，本周发版时间已由11月24日提前至11月21日起陆续推送更新，欢迎升级至最新版本体验。",
-      "en":"This week's HyperOS DEV release date for for Xiaomi 13 Ultra, Xiaomi 13 Pro,Xiaomi 13, Redmi K60 Pro, Redmi K60 has been adjusted to Nov.21, welcome to the Hyper updates."
+      "zh": "Xiaomi 13 Ultra、Xiaomi 13 Pro、Xiaomi 13、Redmi K60 Pro、Redmi K60的小米澎湃OS开发版，本周发版时间已由11月24日提前至11月21日起陆续推送更新，欢迎升级至最新版本体验。",
+      "en": "This week's HyperOS DEV release date for for Xiaomi 13 Ultra, Xiaomi 13 Pro,Xiaomi 13, Redmi K60 Pro, Redmi K60 has been adjusted to Nov.21, welcome to the Hyper updates."
     },
     {
-      "zh":"Xiaomi MIX Fold 3、Xiaomi MIX Fold 2的小米澎湃OS开发版，已按期完成开发测试工作，将于11月21日起陆续推送开发版更新，欢迎升级体验",
-      "en":"HyperOS DEV release date for Xiaomi MIX Fold 3 and Xiaomi MIX Fold 2 has been adjusted to Nov.21, releases will be ready soon, welcome to the Hyper updates."
+      "zh": "Xiaomi MIX Fold 3、Xiaomi MIX Fold 2的小米澎湃OS开发版，已按期完成开发测试工作，将于11月21日起陆续推送开发版更新，欢迎升级体验",
+      "en": "HyperOS DEV release date for Xiaomi MIX Fold 3 and Xiaomi MIX Fold 2 has been adjusted to Nov.21, releases will be ready soon, welcome to the Hyper updates."
     }
   ],
-  "attention":[
+  "attention": [
     {
-      "zh":"升级前请您务必备份好重要数据",
-      "en":"Please make sure you've backed up your data before the update."
+      "zh": "升级前请您务必备份好重要数据",
+      "en": "Please make sure you've backed up your data before the update."
     },
     {
-      "zh":"具体功能请以手机端展示日志为准",
-      "en":"Please refer to the logs on the phone for specific updates."
+      "zh": "具体功能请以手机端展示日志为准",
+      "en": "Please refer to the logs on the phone for specific updates."
     }
   ],
-  "logs":[
+  "logs": [
     {
-      "module":{
-        "zh":"状态栏、通知栏",
-        "en":"Status bar & Notification bar"
+      "module": {
+        "zh": "状态栏、通知栏",
+        "en": "Status bar & Notification bar"
       },
-      "log":[
+      "log": [
         {
-          "zh":"修复 部分场景下状态栏颜色显示异常的问题",
-          "en":"Fixed the issue of abnormal color display in the status bar in some scenarios"
+          "zh": "修复 部分场景下状态栏颜色显示异常的问题",
+          "en": "Fixed the issue of abnormal color display in the status bar in some scenarios"
         }
       ]
     },
     {
-      "module":{
-        "zh":"桌面",
-        "en":"Home"
+      "module": {
+        "zh": "桌面",
+        "en": "Home"
       },
-      "log":[
+      "log": [
         {
-          "zh":"修复 部分场景下打开应用图标异常放大的问题",
-          "en":"Fixed the issue of abnormal enlargement of the application icon when opening it in some scenarios"
+          "zh": "修复 部分场景下打开应用图标异常放大的问题",
+          "en": "Fixed the issue of abnormal enlargement of the application icon when opening it in some scenarios"
         }
       ]
     },
     {
-      "module":{
-        "zh":"设置",
-        "en":"Setting"
+      "module": {
+        "zh": "设置",
+        "en": "Setting"
       },
-      "log":[
+      "log": [
         {
-          "zh":"修复 触感演示动画与振动不同步的问题",
-          "en":"Fixed the issue causing touch demonstration is not synchronized with vibrations"
+          "zh": "修复 触感演示动画与振动不同步的问题",
+          "en": "Fixed the issue causing touch demonstration is not synchronized with vibrations"
         }
       ]
     },
     {
-      "module":{
-        "zh":"自由窗口",
-        "en":"Mi FreeForm"
+      "module": {
+        "zh": "自由窗口",
+        "en": "Mi FreeForm"
       },
-      "log":[
+      "log": [
         {
-          "zh":"修复 部分场景下开启迷你小窗后黑屏的问题",
-          "en":"Fixed the black screen issue after opening mini window in some scenarios"
+          "zh": "修复 部分场景下开启迷你小窗后黑屏的问题",
+          "en": "Fixed the black screen issue after opening mini window in some scenarios"
         }
       ]
     },
     {
-      "module":{
-        "zh":"控制中心",
-        "en":"Controll center"
+      "module": {
+        "zh": "控制中心",
+        "en": "Controll center"
       },
-      "log":[
+      "log": [
         {
-          "zh":"修复 部分主题下控制中心亮度和音量控制组件丢失的问题",
-          "en":"Fixed the issue of missing brightness and volume control components in the Control center while applying some themes"
+          "zh": "修复 部分主题下控制中心亮度和音量控制组件丢失的问题",
+          "en": "Fixed the issue of missing brightness and volume control components in the Control center while applying some themes"
         },
         {
-          "zh":"修复 经典控制中心样式下亮度条显示异常的问题",
-          "en":"Fix the issue of abnormal display of the brightness controller under the classic Control center style"
+          "zh": "修复 经典控制中心样式下亮度条显示异常的问题",
+          "en": "Fix the issue of abnormal display of the brightness controller under the classic Control center style"
         },
         {
-          "zh":"修复 控制中心和通知栏切换动画卡顿的问题",
-          "en":"Fix the problem of stuttering animation while switching between Control center and Notification bar"
+          "zh": "修复 控制中心和通知栏切换动画卡顿的问题",
+          "en": "Fix the problem of stuttering animation while switching between Control center and Notification bar"
         }
       ]
     }
   ],
-  "show":"yes",
-  "roms":[
+  "show": "yes",
+  "roms": [
     {
       "device": "fuxi",
       "name": {
         "zh": "小米 13",
         "en": "Xiaomi 13"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.19.DEV",
         "android": "14.0",
         "recovery": "miui_FUXI_OS1.0.23.11.19.DEV_cb9309bfb0_14.0.zip",
@@ -122,7 +122,7 @@
         "zh": "小米 13 Pro",
         "en": "Xiaomi 13 Pro"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.19.DEV",
         "android": "14.0",
         "recovery": "miui_NUWA_OS1.0.23.11.19.DEV_6b6144d20a_14.0.zip",
@@ -135,7 +135,7 @@
         "zh": "小米 13 Ultra",
         "en": "Xiaomi 13 Ultra"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.19.DEV",
         "android": "14.0",
         "recovery": "miui_ISHTAR_OS1.0.23.11.19.DEV_ffe3075ca2_14.0.zip",
@@ -148,7 +148,7 @@
         "zh": "小米 14",
         "en": "Xiaomi 14"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.17.DEV",
         "android": "14.0",
         "recovery": "miui_HOUJI_OS1.0.23.11.17.DEV_29392fdef6_14.0.zip",
@@ -161,7 +161,7 @@
         "zh": "小米 14 Pro",
         "en": "Xiaomi 14 Pro"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.17.DEV",
         "android": "14.0",
         "recovery": "miui_SHENNONG_OS1.0.23.11.17.DEV_0b8a7b4f83_14.0.zip",
@@ -174,7 +174,7 @@
         "zh": "小米 MIX FOLD 2",
         "en": "Xiaomi MIX Fold 2"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.19.DEV",
         "android": "14.0",
         "recovery": "miui_ZIZHAN_OS1.0.23.11.19.DEV_438fe40030_14.0.zip",
@@ -187,7 +187,7 @@
         "zh": "小米 MIX FOLD 3",
         "en": "Xiaomi MIX Fold 3"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.19.DEV",
         "android": "14.0",
         "recovery": "miui_BABYLON_OS1.0.23.11.19.DEV_ae432b65d8_14.0.zip",
@@ -200,7 +200,7 @@
         "zh": "Redmi K60",
         "en": "Redmi K60"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.19.DEV",
         "android": "14.0",
         "recovery": "miui_MONDRIAN_OS1.0.23.11.19.DEV_8ad81c67a2_14.0.zip",
@@ -213,7 +213,7 @@
         "zh": "Redmi K60 Pro",
         "en": "Redmi K60 Pro"
       },
-      "rom":{
+      "rom": {
         "os": "OS1.0.23.11.19.DEV",
         "android": "14.0",
         "recovery": "miui_SOCRATES_OS1.0.23.11.19.DEV_dec1d42947_14.0.zip",
