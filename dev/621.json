@@ -5,7 +5,7 @@
     "en": "DEV for week 620 (HyperOS DEV released for various devices.)"
   },
   "postId": "42054580",
-  "update": "2023.12.01 16:57:24",
+  "update": "2023.12.01 18:09:16",
   "versions": "OS1.0.23.11.27.DEV, OS1.0.23.11.30.DEV",
   "description": [
     {
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "show": "no",
+  "show": "yes",
   "roms": [
     {
       "device": "fuxi",
@@ -50,9 +50,9 @@
         "en": "Xiaomi 13"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.27.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_FUXI_OS1.0.23.11.27.DEV_d3a016440b_14.0.zip",
         "fastboot": ""
       }
     },
@@ -63,9 +63,9 @@
         "en": "Xiaomi 13 Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.27.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_NUWA_OS1.0.23.11.27.DEV_4684fad253_14.0.zip",
         "fastboot": ""
       }
     },
@@ -76,9 +76,9 @@
         "en": "Xiaomi 13 Ultra"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.27.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_ISHTAR_OS1.0.23.11.27.DEV_12021bcb05_14.0.zip",
         "fastboot": ""
       }
     },
@@ -89,9 +89,9 @@
         "en": "Xiaomi 14"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.30.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_HOUJI_OS1.0.23.11.30.DEV_0946571126_14.0.zip",
         "fastboot": ""
       }
     },
@@ -102,9 +102,9 @@
         "en": "Xiaomi 14 Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.30.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_SHENNONG_OS1.0.23.11.30.DEV_d3e02f4d7f_14.0.zip",
         "fastboot": ""
       }
     },
@@ -115,9 +115,9 @@
         "en": "Xiaomi MIX Fold 2"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.27.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_ZIZHAN_OS1.0.23.11.27.DEV_3d6c583719_14.0.zip",
         "fastboot": ""
       }
     },
@@ -128,9 +128,9 @@
         "en": "Xiaomi MIX Fold 3"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.27.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_BABYLON_OS1.0.23.11.27.DEV_9f0ef4bcf2_14.0.zip",
         "fastboot": ""
       }
     },
@@ -141,9 +141,9 @@
         "en": "Redmi K60"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.27.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_MONDRIAN_OS1.0.23.11.27.DEV_b3bcbba6a7_14.0.zip",
         "fastboot": ""
       }
     },
@@ -154,7 +154,7 @@
         "en": "Redmi K60 Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.11.27.DEV",
         "android": "14.0",
         "recovery": "",
         "fastboot": ""
