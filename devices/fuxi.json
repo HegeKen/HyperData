@@ -14,11 +14,17 @@
         "en": "Xiaomi HyperOS DEV"
       },
       "branchCode": "fuxi",
+      "idtag": "Dev",
       "branchtag": "X",
       "show": "1",
-      "zone":"1",
-      "ep":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "zone": "1",
+      "ep": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "region": "cn",
       "roms": {
         "OS1.0.23.11.27.DEV": {
@@ -27,7 +33,7 @@
           "recovery": "miui_FUXI_OS1.0.23.11.27.DEV_d3a016440b_14.0.zip",
           "fastboot": ""
         },
-        "OS1.0.23.11.19.DEV":{
+        "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
           "recovery": "miui_FUXI_OS1.0.23.11.19.DEV_cb9309bfb0_14.0.zip",

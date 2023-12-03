@@ -13,15 +13,21 @@
         "zh": "小米澎湃 OS 开发版",
         "en": "Xiaomi HyperOS DEV"
       },
-      "branchCode":"vermeer",
-      "branchtag":"X",
-      "show":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "":{
+      "branchCode": "vermeer",
+      "idtag": "Dev",
+      "branchtag": "X",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
           "os": "",
           "android": "14.0",
           "recovery": "",
@@ -34,15 +40,20 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode":"vermeer",
-      "branchtag":"F",
-      "carrier":["","chinamobile","chinaunicom"],
-      "show":"1",
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "OS1.0.5.0.UNKCNXM":{
+      "branchCode": "vermeer",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "carrier": [
+        "",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "show": "1",
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.5.0.UNKCNXM": {
           "os": "OS1.0.5.0.UNKCNXM",
           "android": "14.0",
           "recovery": "miui_VERMEER_OS1.0.5.0.UNKCNXM_164e6600c7_14.0.zip",
@@ -55,15 +66,18 @@
         "zh": "小米澎湃 OS 中国电信定制版",
         "en": "Xiaomi HyperOS China Telecom Carrier Edition"
       },
-      "branchCode":"vermeer",
-      "branchtag":"F",
-      "carrier":["chinatelecom"],
-      "show":"1",
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "OS1.0.5.0.UNKCNXM":{
+      "branchCode": "vermeer",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "show": "1",
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.5.0.UNKCNXM": {
           "os": "OS1.0.5.0.UNKCNXM",
           "android": "14.0",
           "recovery": "miui_VERMEER_OS1.0.5.0.UNKCNXM_164e6600c7_14.0.zip",
@@ -76,15 +90,21 @@
         "zh": "小米澎湃 OS 演示机系统",
         "en": "Xiaomi HyperOS China MiStore Demo"
       },
-      "branchCode":"vermeer_demo",
-      "branchtag":"F",
-      "show":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "OS1.0.2.0.UNKCNDM":{
+      "branchCode": "vermeer_demo",
+      "idtag": "CnOD",
+      "branchtag": "F",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UNKCNDM": {
           "os": "OS1.0.2.0.UNKCNDM",
           "android": "14.0",
           "recovery": "miui_VERMEERDEMO_OS1.0.2.0.UNKCNDM_35dde43b69_14.0.zip",

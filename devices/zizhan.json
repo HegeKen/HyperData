@@ -13,21 +13,27 @@
         "zh": "小米澎湃 OS 开发版",
         "en": "Xiaomi HyperOS DEV"
       },
-      "branchCode":"zizhan",
-      "branchtag":"X",
-      "show":"1",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
+      "branchCode": "zizhan",
+      "idtag": "Dev",
+      "branchtag": "X",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
         "OS1.0.23.11.27.DEV": {
           "os": "OS1.0.23.11.27.DEV",
           "android": "14.0",
           "recovery": "miui_ZIZHAN_OS1.0.23.11.27.DEV_3d6c583719_14.0.zip",
           "fastboot": ""
         },
-        "OS1.0.23.11.19.DEV":{
+        "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
           "recovery": "miui_ZIZHAN_OS1.0.23.11.19.DEV_438fe40030_14.0.zip",
@@ -40,15 +46,21 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode":"zizhan",
-      "branchtag":"F",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "show":"0",
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "":{
+      "branchCode": "zizhan",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "show": "0",
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
           "os": "",
           "android": "14.0",
           "recovery": "",
@@ -61,15 +73,21 @@
         "zh": "小米澎湃 OS 中国电信定制版",
         "en": "Xiaomi HyperOS China Telecom Carrier Edition"
       },
-      "branchCode":"zizhan",
-      "branchtag":"F",
-      "show":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "":{
+      "branchCode": "zizhan",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
           "os": "",
           "android": "14.0",
           "recovery": "",

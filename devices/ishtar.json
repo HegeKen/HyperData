@@ -15,10 +15,16 @@
       },
       "branchCode": "ishtar",
       "branchtag": "X",
+      "idtag": "Dev",
       "show": "1",
-      "zone":"1",
-      "ep":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
+      "zone": "1",
+      "ep": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
       "region": "cn",
       "roms": {
         "OS1.0.23.11.27.DEV": {
@@ -27,7 +33,7 @@
           "recovery": "miui_ISHTAR_OS1.0.23.11.27.DEV_12021bcb05_14.0.zip",
           "fastboot": ""
         },
-        "OS1.0.23.11.19.DEV":{
+        "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
           "recovery": "miui_ISHTAR_OS1.0.23.11.19.DEV_ffe3075ca2_14.0.zip",
@@ -46,15 +52,20 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode":"ishtar",
-      "branchtag":"F",
-      "show":"1",
-      "carrier":["","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "OS1.0.3.0.UMACNXM":{
+      "branchCode": "ishtar",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.3.0.UMACNXM": {
           "os": "OS1.0.3.0.UMACNXM",
           "android": "14.0",
           "recovery": "miui_ISHTAR_OS1.0.3.0.UMACNXM_0c07956c1f_14.0.zip",

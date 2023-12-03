@@ -13,15 +13,21 @@
         "zh": "小米澎湃 OS 开发版",
         "en": "Xiaomi HyperOS DEV"
       },
-      "branchCode":"manet",
-      "branchtag":"X",
-      "show":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "":{
+      "branchCode": "manet",
+      "idtag": "Dev",
+      "branchtag": "X",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
           "os": "",
           "android": "14.0",
           "recovery": "",
@@ -34,21 +40,26 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode":"manet",
-      "branchtag":"F",
-      "show":"1",
-      "carrier":["","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "OS1.0.4.0.UNMCNXM":{
+      "branchCode": "manet",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.4.0.UNMCNXM": {
           "os": "OS1.0.4.0.UNMCNXM",
           "android": "14.0",
           "recovery": "miui_MANET_OS1.0.4.0.UNMCNXM_013c13dda0_14.0.zip",
           "fastboot": "manet_images_OS1.0.4.0.UNMCNXM_20231124.0000.00_14.0_cn_5fbc0eb96e.tgz"
         },
-        "OS1.0.1.0.UNMCNXM":{
+        "OS1.0.1.0.UNMCNXM": {
           "os": "OS1.0.1.0.UNMCNXM",
           "android": "14.0",
           "recovery": "miui_MANET_OS1.0.1.0.UNMCNXM_188b587020_14.0.zip",
@@ -61,21 +72,24 @@
         "zh": "小米澎湃 OS 中国电信定制版",
         "en": "Xiaomi HyperOS China Telecom Carrier Edition"
       },
-      "branchCode":"manet",
-      "branchtag":"F",
-      "show":"1",
-      "carrier":["chinatelecom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "OS1.0.4.0.UNMCNXM":{
+      "branchCode": "manet",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.4.0.UNMCNXM": {
           "os": "OS1.0.4.0.UNMCNXM",
           "android": "14.0",
           "recovery": "miui_MANET_OS1.0.4.0.UNMCNXM_013c13dda0_14.0.zip",
           "fastboot": "manet_images_OS1.0.4.0.UNMCNXM_20231124.0000.00_14.0_cn_chinatelecom_9222a698f8.tgz"
         },
-        "OS1.0.1.0.UNMCNXM":{
+        "OS1.0.1.0.UNMCNXM": {
           "os": "OS1.0.1.0.UNMCNXM",
           "android": "14.0",
           "recovery": "miui_MANET_OS1.0.1.0.UNMCNXM_188b587020_14.0.zip",
@@ -88,15 +102,21 @@
         "zh": "小米澎湃 OS 演示机系统",
         "en": "Xiaomi HyperOS China MiStore Demo"
       },
-      "branchCode":"manet_demo",
-      "branchtag":"F",
-      "show":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "OS1.0.2.0.UNMCNDM":{
+      "branchCode": "manet_demo",
+      "idtag": "CnOD",
+      "branchtag": "F",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UNMCNDM": {
           "os": "OS1.0.2.0.UNMCNDM",
           "android": "14.0",
           "recovery": "miui_MANETDEMO_OS1.0.2.0.UNMCNDM_aac6a2ea20_14.0.zip",

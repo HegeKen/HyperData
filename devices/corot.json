@@ -13,21 +13,26 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode":"corot",
-      "branchtag":"F",
-      "show":"1",
-      "carrier":["","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "OS1.0.5.0.UMLCNXM":{
+      "branchCode": "corot",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.5.0.UMLCNXM": {
           "os": "OS1.0.5.0.UMLCNXM",
           "android": "14.0",
           "recovery": "miui_COROT_OS1.0.5.0.UMLCNXM_a2e2e5f060_14.0.zip",
           "fastboot": ""
         },
-        "OS1.0.4.0.UMLCNXM":{
+        "OS1.0.4.0.UMLCNXM": {
           "os": "OS1.0.4.0.UMLCNXM",
           "android": "14.0",
           "recovery": "miui_COROT_OS1.0.4.0.UMLCNXM_a5903dd20a_14.0.zip",
@@ -40,15 +45,18 @@
         "zh": "小米澎湃 OS 中国电信定制版",
         "en": "Xiaomi HyperOS China Telecom Carrier Edition"
       },
-      "branchCode":"corot",
-      "branchtag":"F",
-      "show":"0",
-      "region":"cn",
-      "carrier":["chinatelecom"],
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "":{
+      "branchCode": "corot",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
           "os": "",
           "android": "14.0",
           "recovery": "",
@@ -61,15 +69,21 @@
         "zh": "小米澎湃 OS 演示机系统",
         "en": "Xiaomi HyperOS China MiStore Demo"
       },
-      "branchCode":"corot_demo",
-      "branchtag":"F",
-      "show":"0",
-      "region":"cn",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "":{
+      "branchCode": "corot_demo",
+      "idtag": "CnOD",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
           "os": "",
           "android": "14.0",
           "recovery": "",

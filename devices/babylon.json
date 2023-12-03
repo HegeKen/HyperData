@@ -13,21 +13,27 @@
         "zh": "小米澎湃 OS 开发版",
         "en": "Xiaomi HyperOS DEV"
       },
-      "branchCode":"babylon",
-      "branchtag":"X",
-      "show":"1",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
+      "branchCode": "babylon",
+      "idtag": "Dev",
+      "branchtag": "X",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
         "OS1.0.23.11.27.DEV": {
           "os": "OS1.0.23.11.27.DEV",
           "android": "14.0",
           "recovery": "miui_BABYLON_OS1.0.23.11.27.DEV_9f0ef4bcf2_14.0.zip",
           "fastboot": ""
         },
-        "OS1.0.23.11.19.DEV":{
+        "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
           "recovery": "miui_BABYLON_OS1.0.23.11.19.DEV_ae432b65d8_14.0.zip",
@@ -40,15 +46,21 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode":"babylon",
-      "branchtag":"F",
-      "show":"0",
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "roms":{
-        "":{
+      "branchCode": "babylon",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "roms": {
+        "": {
           "os": "",
           "android": "14.0",
           "recovery": "",
@@ -61,15 +73,21 @@
         "zh": "小米澎湃 OS 中国电信定制版",
         "en": "Xiaomi HyperOS China Telecom Carrier Edition"
       },
-      "branchCode":"babylon",
-      "branchtag":"F",
-      "show":"0",
-      "carrier":["","chinatelecom","chinamobile","chinaunicom"],
-      "region":"cn",
-      "zone":"1",
-      "ep":"0",
-      "roms":{
-        "":{
+      "branchCode": "babylon",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
           "os": "",
           "android": "14.0",
           "recovery": "",
