@@ -276,6 +276,34 @@
           "ctelecom": "shennong_demo_images_OS1.0.2.0.UNBCNDM_20231024.0000.00_14.0_cn_chinatelecom_0e1e19a28e.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 企业定制版",
+        "en": "Xiaomi HyperOS Enterprise"
+      },
+      "branchCode": "shennong_ep_stdee",
+      "idtag": "EPSTD",
+      "branchtag": "F",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "1",
+      "roms": {
+        "OS1.0.23.11.21.EP.STDEE.N2": {
+          "os": "OS1.0.23.11.21.EP.STDEE.N2",
+          "android": "14.0",
+          "recovery": "miui_SHENNONGEPSTDEE_OS1.0.23.11.21.EP.STDEE.N2_d437b864c1_14.0.zip",
+          "fastboot": "shennong_ep_stdee_images_OS1.0.23.11.21.EP.STDEE.N2_20231121.0000.00_14.0_cn_33bf4f62cd.tgz",
+          "ctelecom": "shennong_ep_stdee_images_OS1.0.23.11.21.EP.STDEE.N2_20231121.0000.00_14.0_cn_chinatelecom_1718e5ea15.tgz"
+        }
+      }
     }
   ]
 }

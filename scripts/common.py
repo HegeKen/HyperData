@@ -36,6 +36,8 @@ flags = {
     "fuxi": "fuxi",
     "nuwa": "nuwa",
     "nuwa_demo": "nuwa",
+    "shennong_ep_stdee":"shennong",
+    "SHENNONGEPSTDEE":"shennong",
     "MONDRIAN": "mondrian",
     "MONDRIANDEMO": "mondrian",
     "mondrian_demo": "mondrian",
