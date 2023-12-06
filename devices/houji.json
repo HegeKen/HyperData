@@ -95,11 +95,17 @@
         "chinaunicom"
       ],
       "roms": {
+        "OS1.0.26.0.UNCCNXM": {
+          "os": "OS1.0.26.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        },
         "OS1.0.25.0.UNCCNXM": {
           "os": "OS1.0.25.0.UNCCNXM",
           "android": "14.0",
           "recovery": "miui_HOUJI_OS1.0.25.0.UNCCNXM_f46161631e_14.0.zip",
-          "fastboot": ""
+          "fastboot": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_505769914d.tgz"
         },
         "OS1.0.24.0.UNCCNXM": {
           "os": "OS1.0.24.0.UNCCNXM",
@@ -167,6 +173,12 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS1.0.25.0.UNCCNXM": {
+          "os": "OS1.0.25.0.UNCCNXM",
+          "android": "14.0",
+          "recovery": "miui_HOUJI_OS1.0.25.0.UNCCNXM_f46161631e_14.0.zip",
+          "fastboot": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_chinatelecom_32cf23459b.tgz"
+        },
         "OS1.0.24.0.UNCCNXM": {
           "os": "OS1.0.24.0.UNCCNXM",
           "android": "14.0",

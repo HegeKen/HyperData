@@ -21,7 +21,7 @@ currentBeta = ["houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unico
                "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
 currentStable = ["corot","duchamp", "vermeer", "manet","houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "mondrian", "socrates", "zizhan", "babylon"]
-newDevices = ["houji", "shennong", "duchamp", "vermeer", "manet"]
+newDevices = ["aurora","sheng","amber","houji", "shennong", "duchamp", "vermeer", "manet"]
 flags = {
     "HOUJI": "houji",
     "HOUJIDEMO": "houji",
@@ -173,7 +173,7 @@ MiOTAForm = {
     "n": "",
     "p": "fuxi",
     "r": "CN",
-    "bv": "12",
+    "bv": "816",
     "v": "MIUI-V14.0.23.9.12.DEV",
     "id": "",
     "sn": "0x77309938",
