@@ -3,8 +3,24 @@
   "date": "2023.11.29",
   "latest": "621",
   "recent": {
-    "time": "2023.12.07 15:51:40",
+    "time": "2023.12.07 17:35:21",
     "roms": [
+      {
+        "code": "fuxi",
+        "name": {
+          "zh": "小米 13",
+          "en": "Xiaomi 13"
+        },
+        "rom": "OS1.0.3.0.UMCCNXM"
+      },
+      {
+        "code": "nuwa",
+        "name": {
+          "zh": "小米 13 Pro",
+          "en": "Xiaomi 13 Pro"
+        },
+        "rom": "OS1.0.2.0.UMBCNXM"
+      },
       {
         "code": "houji",
         "name": {
@@ -20,6 +36,30 @@
           "en": "Xiaomi 14 Pro"
         },
         "rom": "OS1.0.27.0.UNBCNXM"
+      },
+      {
+        "code": "yudi",
+        "name": {
+          "zh": "小米平板 6 Max 14",
+          "en": "Xiaomi Pad 6 Max 14"
+        },
+        "rom": "OS1.0.2.0.UMHCNXM"
+      },
+      {
+        "code": "mondrian",
+        "name": {
+          "zh": "Redmi K60",
+          "en": "Redmi K60"
+        },
+        "rom": "OS1.0.2.0.UMNCNXM"
+      },
+      {
+        "code": "socrates",
+        "name": {
+          "zh": "Redmi K60 Pro",
+          "en": "Redmi K60 Pro"
+        },
+        "rom": "OS1.0.3.0.UMKCNXM"
       },
       {
         "code": "manet",

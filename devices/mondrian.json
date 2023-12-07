@@ -46,6 +46,56 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "mondrian",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UMNCNXM": {
+          "os": "OS1.0.2.0.UMNCNXM",
+          "android": "14.0",
+          "recovery": "miui_MONDRIAN_OS1.0.2.0.UMNCNXM_39d36cb035_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode": "mondrian",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UMNCNXM": {
+          "os": "OS1.0.2.0.UMNCNXM",
+          "android": "14.0",
+          "recovery": "miui_MONDRIAN_OS1.0.2.0.UMNCNXM_39d36cb035_14.0.zip",
+          "fastboot": ""
+        }
+      }
     }
   ]
 }

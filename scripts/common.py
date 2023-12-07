@@ -32,6 +32,8 @@ flags = {
     "SHENNONGDEMO": "shennong",
     "shennong": "shennong",
     "FUXIDEMO": "fuxi",
+    "yudi":"yudi",
+    "YUDI":"yudi",
     "FUXI": "fuxi",
     "fuxi": "fuxi",
     "nuwa": "nuwa",

@@ -1,0 +1,89 @@
+{
+  "device": "yudi",
+  "name": {
+    "zh": "小米平板 6 Max 14",
+    "en": "Xiaomi Pad 6 Max 14"
+  },
+  "image": "https://data.hyperos.fans/assets/images/yudi.png",
+  "type": "phone",
+  "miui": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "yudi",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UMHCNXM": {
+          "os": "OS1.0.2.0.UMHCNXM",
+          "android": "14.0",
+          "recovery": "miui_YUDI_OS1.0.2.0.UMHCNXM_34efc69cc0_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode": "yudi",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "yudi_demo",
+      "idtag": "CnOD",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}
