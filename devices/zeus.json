@@ -1,0 +1,39 @@
+{
+  "device": "zeus",
+  "name": {
+    "zh": "小米 12 Pro",
+    "en": "Xiaomi 12 Pro"
+  },
+  "image": "https://data.hyperos.fans/assets/images/zeus.png",
+  "type": "phone",
+  "miui": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 开发版",
+        "en": "Xiaomi HyperOS DEV"
+      },
+      "branchCode": "zeus",
+      "idtag": "Dev",
+      "branchtag": "X",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.23.12.4.DEV": {
+          "os": "OS1.0.23.12.4.DEV",
+          "android": "14.0",
+          "recovery": "miui_ZEUS_OS1.0.23.12.4.DEV_a06d33665c_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "device": "unicorn",
+  "name": {
+    "zh": "小米 12S Pro",
+    "en": "Xiaomi 12S Pro"
+  },
+  "image": "https://data.hyperos.fans/assets/images/unicorn.png",
+  "type": "phone",
+  "miui": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 开发版",
+        "en": "Xiaomi HyperOS DEV"
+      },
+      "branchCode": "unicorn",
+      "idtag": "Dev",
+      "branchtag": "X",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.23.12.4.DEV": {
+          "os": "OS1.0.23.12.4.DEV",
+          "android": "14.0",
+          "recovery": "miui_UNICORN_OS1.0.23.12.4.DEV_726bd6eecc_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}
