@@ -17,9 +17,9 @@ miui_key = b"miuiotavalided11"
 miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
-currentBeta = ["houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "zizhan", "babylon", "dagu",
+currentBeta = ["cupid","zeus","mayfly","unicorn","thor","houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "zizhan", "babylon", "dagu",
                "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["corot","duchamp", "vermeer", "manet","houji", "shennong", "fuxi", "nuwa",
+currentStable = ["cupid","zeus","mayfly","unicorn","thor","corot","duchamp", "vermeer", "manet","houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "mondrian", "socrates", "zizhan", "babylon"]
 newDevices = ["aurora","sheng","amber","houji", "shennong", "duchamp", "vermeer", "manet"]
 flags = {
@@ -53,6 +53,18 @@ flags = {
     "duchamp_demo": "duchamp",
     "duchamp": "duchamp",
     "MANET": "manet",
+    "CUPID": "cupid",
+    "ZEUS": "zeus",
+    "MAYFLY": "mayfly",
+    "UNICORN": "unicorn",
+    "THOR": "thor",
+    "COROT": "corot",
+    "cupid": "cupid",
+    "zeus": "zeus",
+    "mayfly": "mayfly",
+    "unicorn": "unicorn",
+    "thor": "thor",
+    "corot": "corot",
     "MANETDEMO": "manet",
     "manet_demo": "manet",
     "manet": "manet",
