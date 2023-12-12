@@ -1,40 +1,13 @@
 {
   "device": "vermeer",
   "name": {
-    "zh": "Redmi K70",
-    "en": "Redmi K70"
+    "zh": "Redmi K70/ POCO F6 Pro",
+    "en": "Redmi K70/ POCO F6 Pro"
   },
   "image": "https://data.hyperos.fans/assets/images/vermeer.png",
   "type": "phone",
   "miui": "no",
   "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "vermeer",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "0",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
     {
       "name": {
         "zh": "小米澎湃 OS 正式版",
