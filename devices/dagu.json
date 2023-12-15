@@ -1,19 +1,19 @@
 {
-  "device": "zeus",
+  "device": "dagu",
   "name": {
-    "zh": "小米 12 Pro",
-    "en": "Xiaomi 12 Pro"
+    "zh": "小米平板 5 Pro 12.4",
+    "en": "Xiaomi Pad 5 Pro 12.4"
   },
-  "image": "https://data.hyperos.fans/assets/images/zeus.png",
+  "image": "https://data.hyperos.fans/assets/images/dagu.png",
   "type": "phone",
-  "miui": "yes",
+  "miui": "no",
   "branches": [
     {
       "name": {
         "zh": "小米澎湃 OS 开发版",
         "en": "Xiaomi HyperOS DEV"
       },
-      "branchCode": "zeus",
+      "branchCode": "",
       "idtag": "Dev",
       "branchtag": "X",
       "show": "1",
@@ -30,13 +30,7 @@
         "OS1.0.23.12.11.DEV": {
           "os": "OS1.0.23.12.11.DEV",
           "android": "14.0",
-          "recovery": "miui_ZEUS_OS1.0.23.12.11.DEV_55ee54f881_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.4.DEV": {
-          "os": "OS1.0.23.12.4.DEV",
-          "android": "14.0",
-          "recovery": "miui_ZEUS_OS1.0.23.12.4.DEV_a06d33665c_14.0.zip",
+          "recovery": "miui_DAGU_OS1.0.23.12.11.DEV_87eabfc6dc_14.0.zip",
           "fastboot": ""
         }
       }

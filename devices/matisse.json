@@ -1,19 +1,19 @@
 {
-  "device": "zeus",
+  "device": "matisse",
   "name": {
-    "zh": "小米 12 Pro",
-    "en": "Xiaomi 12 Pro"
+    "zh": "Redmi K50 Pro",
+    "en": "Redmi K50 Pro"
   },
-  "image": "https://data.hyperos.fans/assets/images/zeus.png",
+  "image": "https://data.hyperos.fans/assets/images/matisse.png",
   "type": "phone",
-  "miui": "yes",
+  "miui": "no",
   "branches": [
     {
       "name": {
         "zh": "小米澎湃 OS 开发版",
         "en": "Xiaomi HyperOS DEV"
       },
-      "branchCode": "zeus",
+      "branchCode": "",
       "idtag": "Dev",
       "branchtag": "X",
       "show": "1",
@@ -30,13 +30,7 @@
         "OS1.0.23.12.11.DEV": {
           "os": "OS1.0.23.12.11.DEV",
           "android": "14.0",
-          "recovery": "miui_ZEUS_OS1.0.23.12.11.DEV_55ee54f881_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.4.DEV": {
-          "os": "OS1.0.23.12.4.DEV",
-          "android": "14.0",
-          "recovery": "miui_ZEUS_OS1.0.23.12.4.DEV_a06d33665c_14.0.zip",
+          "recovery": "miui_MATISSE_OS1.0.23.12.11.DEV_1b742f14fb_14.0.zip",
           "fastboot": ""
         }
       }
