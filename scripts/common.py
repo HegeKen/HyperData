@@ -17,11 +17,12 @@ miui_key = b"miuiotavalided11"
 miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
-currentBeta = ["cupid","zeus","mayfly","unicorn","thor","houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", "ishtar", "zizhan", "babylon", "dagu",
-               "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["cupid","zeus","mayfly","unicorn","thor","corot","duchamp", "vermeer", "manet","houji", "shennong", "fuxi", "nuwa",
-                 "ishtar", "mondrian", "socrates", "zizhan", "babylon"]
-newDevices = ["aurora","sheng","amber","houji", "shennong", "duchamp", "vermeer", "manet"]
+currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", 
+               "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
+currentStable = ["cupid", "zeus", "mayfly", "unicorn", "thor", "corot", "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
+                 "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
+newDevices = ["aurora", "sheng", "amber", "houji",
+              "shennong", "duchamp", "vermeer", "manet"]
 flags = {
     "HOUJI": "houji",
     "HOUJIDEMO": "houji",
@@ -30,16 +31,26 @@ flags = {
     "shennong_demo": "shennong",
     "SHENNONG": "shennong",
     "SHENNONGDEMO": "shennong",
+    "DAUMIER": "daumier",
+    "RUBENS": "rubens",
+    "MATISSE": "matisse",
+    "INGRES": "ingres",
+    "DITING": "diting",
+    "DAUMIER": "daumier",
+    "rubens": "rubens",
+    "matisse": "matisse",
+    "ingres": "ingres",
+    "diting": "diting",
     "shennong": "shennong",
     "FUXIDEMO": "fuxi",
-    "yudi":"yudi",
-    "YUDI":"yudi",
+    "yudi": "yudi",
+    "YUDI": "yudi",
     "FUXI": "fuxi",
     "fuxi": "fuxi",
     "nuwa": "nuwa",
     "nuwa_demo": "nuwa",
-    "shennong_ep_stdee":"shennong",
-    "SHENNONGEPSTDEE":"shennong",
+    "shennong_ep_stdee": "shennong",
+    "SHENNONGEPSTDEE": "shennong",
     "MONDRIAN": "mondrian",
     "MONDRIANDEMO": "mondrian",
     "mondrian_demo": "mondrian",
@@ -73,7 +84,7 @@ flags = {
     "ZIZHAN": "zizhan",
     "BABYLON": "babylon",
     "babylon": "babylon",
-    "zizhan":"zizhan",
+    "zizhan": "zizhan",
     "NUWA": "nuwa",
     "NUWADEMO": "nuwa",
     "ISHTAR": "ishtar",
@@ -121,7 +132,7 @@ def getDeviceCode(filename):
             codename = flags[flag]
             return codename
         else:
-            writeFlag(flag,"")
+            writeFlag(flag, "")
             return 0
     elif ".tgz" in filename:
         flag = filename.split('_images')[0]
@@ -130,7 +141,7 @@ def getDeviceCode(filename):
             codename = flags[flag]
             return codename
         else:
-            writeFlag(flag,"")
+            writeFlag(flag, "")
             return 0
     else:
         return 0
@@ -138,17 +149,17 @@ def getDeviceCode(filename):
 
 def checkExit(filename):
     if "OS" in filename:
-      if "blockota" in filename:
-          i = 0
-      else:
-          if getDeviceCode(filename) == 0:
-              writeData(filename)
-          elif filename in localData(getDeviceCode(filename)).__str__():
-              i = 0
-          else:
-              writeData(filename)
+        if "blockota" in filename:
+            i = 0
+        else:
+            if getDeviceCode(filename) == 0:
+                writeData(filename)
+            elif filename in localData(getDeviceCode(filename)).__str__():
+                i = 0
+            else:
+                writeData(filename)
     else:
-      i = 0
+        i = 0
 
 
 def miui_decrypt(encrypted_response):
