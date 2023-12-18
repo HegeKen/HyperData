@@ -1,218 +1,230 @@
 {
-  "mi": [
-    {
-      "code": "cupid",
-      "name": {
-        "zh": "小米 12",
-        "en": "Xiaomi 12"
+  "mi": {
+    "zh":"小米手机",
+    "en":"Xiaomi Phones",
+    "devices":[
+      {
+        "code": "cupid",
+        "name": {
+          "zh": "小米 12",
+          "en": "Xiaomi 12"
+        }
+      },
+      {
+        "code": "zeus",
+        "name": {
+          "zh": "小米 12 Pro",
+          "en": "Xiaomi 12 Pro"
+        }
+      },
+      {
+        "code": "daumier",
+        "name": {
+          "zh": "小米 12 Pro 天玑版",
+          "en": "Xiaomi 12 Pro Dimensity"
+        }
+      },
+      {
+        "code": "mayfly",
+        "name": {
+          "zh": "小米 12S",
+          "en": "Xiaomi 12S"
+        }
+      },
+      {
+        "code": "unicorn",
+        "name": {
+          "zh": "小米 12S Pro",
+          "en": "Xiaomi 12S Pro"
+        }
+      },
+      {
+        "code": "thor",
+        "name": {
+          "zh": "小米 12S Ultra",
+          "en": "Xiaomi 12S Ultra"
+        }
+      },
+      {
+        "code": "diting",
+        "name": {
+          "zh": "小米 12T Pro",
+          "en": "Xiaomi 12T Pro"
+        }
+      },
+      {
+        "code": "fuxi",
+        "name": {
+          "zh": "小米 13",
+          "en": "Xiaomi 13"
+        }
+      },
+      {
+        "code": "nuwa",
+        "name": {
+          "zh": "小米 13 Pro",
+          "en": "Xiaomi 13 Pro"
+        }
+      },
+      {
+        "code": "ishtar",
+        "name": {
+          "zh": "小米 13 Ultra",
+          "en": "Xiaomi 13 Ultra"
+        }
+      },
+      {
+        "code": "corot",
+        "name": {
+          "zh": "小米 13T Pro",
+          "en": "Xiaomi 13T Pro"
+        }
+      },
+      {
+        "code": "houji",
+        "name": {
+          "zh": "小米 14",
+          "en": "Xiaomi 14"
+        }
+      },
+      {
+        "code": "shennong",
+        "name": {
+          "zh": "小米 14 Pro",
+          "en": "Xiaomi 14 Pro"
+        }
+      },
+      {
+        "code": "dagu",
+        "name": {
+          "zh": "小米平板 5 Pro 12.4",
+          "en": "Xiaomi Pad 5 Pro 12.4"
+        }
+      },
+      {
+        "code": "yudi",
+        "name": {
+          "zh": "小米平板 6 Max 14",
+          "en": "Xiaomi Pad 6 Max 14"
+        }
+      },
+      {
+        "code": "zizhan",
+        "name": {
+          "zh": "小米 MIX FOLD 2",
+          "en": "Xiaomi MIX Fold 2"
+        }
+      },
+      {
+        "code": "babylon",
+        "name": {
+          "zh": "小米 MIX FOLD 3",
+          "en": "Xiaomi MIX Fold 3"
+        }
       }
-    },
-    {
-      "code": "zeus",
-      "name": {
-        "zh": "小米 12 Pro",
-        "en": "Xiaomi 12 Pro"
+    ]
+  },
+  "redmi": {
+    "zh":"Redmi 手机",
+    "en":"Redmi Phones",
+    "devices":[
+      {
+        "code": "rubens",
+        "name": {
+          "zh": "Redmi K50",
+          "en": "Redmi K50"
+        }
+      },
+      {
+        "code": "matisse",
+        "name": {
+          "zh": "Redmi K50 Pro",
+          "en": "Redmi K50 Pro"
+        }
+      },
+      {
+        "code": "ingres",
+        "name": {
+          "zh": "Redmi K50 电竞版",
+          "en": "Redmi K50G"
+        }
+      },
+      {
+        "code": "diting",
+        "name": {
+          "zh": "Redmi K50 至尊版",
+          "en": "Redmi K50 Ultra"
+        }
+      },
+      {
+        "code": "mondrian",
+        "name": {
+          "zh": "Redmi K60",
+          "en": "Redmi K60"
+        }
+      },
+      {
+        "code": "socrates",
+        "name": {
+          "zh": "Redmi K60 Pro",
+          "en": "Redmi K60 Pro"
+        }
+      },
+      {
+        "code": "corot",
+        "name": {
+          "zh": "Redmi K60 至尊版",
+          "en": "Redmi K60 Ultra"
+        }
+      },
+      {
+        "code": "duchamp",
+        "name": {
+          "zh": "Redmi K70E",
+          "en": "Redmi K70E"
+        }
+      },
+      {
+        "code": "vermeer",
+        "name": {
+          "zh": "Redmi K70",
+          "en": "Redmi K70"
+        }
+      },
+      {
+        "code": "manet",
+        "name": {
+          "zh": "Redmi K70 Pro",
+          "en": "Redmi K70 Pro"
+        }
       }
-    },
-    {
-      "code": "daumier",
-      "name": {
-        "zh": "小米 12 Pro 天玑版",
-        "en": "Xiaomi 12 Pro Dimensity"
+    ]
+  },
+  "poco": {
+    "zh":"POCO 手机",
+    "en":"POCO Phones",
+    "devices":[
+      {
+        "code": "ingres",
+        "name": {
+          "zh": "POCO F4 GT",
+          "en": "POCO F4 GT"
+        }
+      },
+      {
+        "code": "mondrian",
+        "name": {
+          "zh": "POCO F5 Pro",
+          "en": "POCO F5 Pro"
+        }
+      },
+      {
+        "code": "vermeer",
+        "name": {
+          "zh": "POCO F6 Pro",
+          "en": "POCO F6 Pro"
+        }
       }
-    },
-    {
-      "code": "mayfly",
-      "name": {
-        "zh": "小米 12S",
-        "en": "Xiaomi 12S"
-      }
-    },
-    {
-      "code": "unicorn",
-      "name": {
-        "zh": "小米 12S Pro",
-        "en": "Xiaomi 12S Pro"
-      }
-    },
-    {
-      "code": "thor",
-      "name": {
-        "zh": "小米 12S Ultra",
-        "en": "Xiaomi 12S Ultra"
-      }
-    },
-    {
-      "code": "diting",
-      "name": {
-        "zh": "小米 12T Pro",
-        "en": "Xiaomi 12T Pro"
-      }
-    },
-    {
-      "code": "fuxi",
-      "name": {
-        "zh": "小米 13",
-        "en": "Xiaomi 13"
-      }
-    },
-    {
-      "code": "nuwa",
-      "name": {
-        "zh": "小米 13 Pro",
-        "en": "Xiaomi 13 Pro"
-      }
-    },
-    {
-      "code": "ishtar",
-      "name": {
-        "zh": "小米 13 Ultra",
-        "en": "Xiaomi 13 Ultra"
-      }
-    },
-    {
-      "code": "corot",
-      "name": {
-        "zh": "小米 13T Pro",
-        "en": "Xiaomi 13T Pro"
-      }
-    },
-    {
-      "code": "houji",
-      "name": {
-        "zh": "小米 14",
-        "en": "Xiaomi 14"
-      }
-    },
-    {
-      "code": "shennong",
-      "name": {
-        "zh": "小米 14 Pro",
-        "en": "Xiaomi 14 Pro"
-      }
-    },
-    {
-      "code": "dagu",
-      "name": {
-        "zh": "小米平板 5 Pro 12.4",
-        "en": "Xiaomi Pad 5 Pro 12.4"
-      }
-    },
-    {
-      "code": "yudi",
-      "name": {
-        "zh": "小米平板 6 Max 14",
-        "en": "Xiaomi Pad 6 Max 14"
-      }
-    },
-    {
-      "code": "zizhan",
-      "name": {
-        "zh": "小米 MIX FOLD 2",
-        "en": "Xiaomi MIX Fold 2"
-      }
-    },
-    {
-      "code": "babylon",
-      "name": {
-        "zh": "小米 MIX FOLD 3",
-        "en": "Xiaomi MIX Fold 3"
-      }
-    }
-  ],
-  "redmi": [
-    {
-      "code": "rubens",
-      "name": {
-        "zh": "Redmi K50",
-        "en": "Redmi K50"
-      }
-    },
-    {
-      "code": "matisse",
-      "name": {
-        "zh": "Redmi K50 Pro",
-        "en": "Redmi K50 Pro"
-      }
-    },
-    {
-      "code": "ingres",
-      "name": {
-        "zh": "Redmi K50 电竞版",
-        "en": "Redmi K50G"
-      }
-    },
-    {
-      "code": "diting",
-      "name": {
-        "zh": "Redmi K50 至尊版",
-        "en": "Redmi K50 Ultra"
-      }
-    },
-    {
-      "code": "mondrian",
-      "name": {
-        "zh": "Redmi K60",
-        "en": "Redmi K60"
-      }
-    },
-    {
-      "code": "socrates",
-      "name": {
-        "zh": "Redmi K60 Pro",
-        "en": "Redmi K60 Pro"
-      }
-    },
-    {
-      "code": "corot",
-      "name": {
-        "zh": "Redmi K60 至尊版",
-        "en": "Redmi K60 Ultra"
-      }
-    },
-    {
-      "code": "duchamp",
-      "name": {
-        "zh": "Redmi K70E",
-        "en": "Redmi K70E"
-      }
-    },
-    {
-      "code": "vermeer",
-      "name": {
-        "zh": "Redmi K70",
-        "en": "Redmi K70"
-      }
-    },
-    {
-      "code": "manet",
-      "name": {
-        "zh": "Redmi K70 Pro",
-        "en": "Redmi K70 Pro"
-      }
-    }
-  ],
-  "poco": [
-    {
-      "code": "ingres",
-      "name": {
-        "zh": "POCO F4 GT",
-        "en": "POCO F4 GT"
-      }
-    },
-    {
-      "code": "mondrian",
-      "name": {
-        "zh": "POCO F5 Pro",
-        "en": "POCO F5 Pro"
-      }
-    },
-    {
-      "code": "vermeer",
-      "name": {
-        "zh": "POCO F6 Pro",
-        "en": "POCO F6 Pro"
-      }
-    }
-  ]
+    ]
+  }
 }
