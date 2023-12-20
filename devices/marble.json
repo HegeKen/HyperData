@@ -1,0 +1,34 @@
+{
+  "device": "marble",
+  "name": {
+    "zh": "Redmi Note 12 Turbo/POCO F5",
+    "en": "Redmi Note 12 Turbo/POCO F5"
+  },
+  "image": "https://data.hyperos.fans/assets/images/marble.png",
+  "type": "phone",
+  "miui": "yes",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "marble_eea_global",
+      "idtag": "EEAO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [""],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS1.0.4.0.UMREUXM": {
+          "os": "OS1.0.4.0.UMREUXM",
+          "android": "14.0",
+          "recovery": "miui_MARBLEEEAGlobal_OS1.0.4.0.UMREUXM_733c4626e6_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}

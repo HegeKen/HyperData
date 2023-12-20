@@ -6,7 +6,10 @@ from Crypto.Cipher import AES
 import json
 from Crypto.Util.Padding import pad
 import requests
-
+import requests
+from selenium import webdriver
+from selenium.webdriver.edge.options import Options
+from bs4 import BeautifulSoup
 
 sdk = {
     "14": "34",
@@ -17,9 +20,10 @@ miui_key = b"miuiotavalided11"
 miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
-currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "cupid", "zeus", "daumier", "mayfly", "unicorn", "thor", "fuxi", "nuwa", 
+currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["cupid", "zeus", "mayfly", "unicorn", "thor", "corot", "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
+currentStable = ["liuqin", "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
+                 "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
 newDevices = ["aurora", "sheng", "amber", "houji",
               "shennong", "duchamp", "vermeer", "manet"]
@@ -28,10 +32,28 @@ flags = {
     "HOUJIDEMO": "houji",
     "houji": "houji",
     "houji_demo": "houji",
+    "DAGU": "dagu",
+    "dagu": "dagu",
     "shennong_demo": "shennong",
     "SHENNONG": "shennong",
     "SHENNONGDEMO": "shennong",
+    "LIUQIN":"liuqin",
+    "liuqin":"liuqin",
     "DAUMIER": "daumier",
+    "MARBLEEEAGlobal": "marble",
+    "SEAGlobal": "sea",
+    "PLATOEEAGlobal": "plato",
+    "TOPAZGlobal": "topaz",
+    "FUXIEEAGlobal": "fuxi",
+    "FUXIGlobal": "fuxi",
+    "ISHTAREEAGlobal": "ishtar",
+    "marble_eea_global": "marble",
+    "sea_global": "sea",
+    "plato_eea_global": "plato",
+    "topaz_global": "topaz",
+    "fuxi_eea_global": "fuxi",
+    "fuxi_global": "fuxi",
+    "ishtar_eea_global": "ishtar",
     "RUBENS": "rubens",
     "MATISSE": "matisse",
     "INGRES": "ingres",
@@ -256,6 +278,28 @@ def getFromApi(encrypted_data, device):
             print(data["Code"])
             return 0
     response.close()
+
+
+def MiFirm(url):
+    options = Options()
+    driver = webdriver.Edge(options=options)
+    driver.get(url)
+    soup = BeautifulSoup(driver.page_source, 'lxml')
+    lists = soup.find_all(
+        'a', class_='elementor-button elementor-button-link elementor-size-xs')
+    for list in lists:
+        link = list.attrs['href']
+        if 'mifirmware' in link:
+            i = 0
+        elif 'telegram' in link:
+            i = 0
+        else:
+            if '.zip' in link:
+                checkExit(link.split('/')[4])
+            elif '.tgz' in link:
+                checkExit(link.split('/')[4])
+            else:
+                writeData(link)
 
 
 def getChangelog(encrypted_data, device):

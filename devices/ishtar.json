@@ -90,6 +90,28 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "ishtar_eea_global",
+      "idtag": "EEAO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [""],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS1.0.5.0.UMAEUXM": {
+          "os": "OS1.0.5.0.UMAEUXM",
+          "android": "14.0",
+          "recovery": "miui_ISHTAREEAGlobal_OS1.0.5.0.UMAEUXM_70d6c1e142_14.0.zip",
+          "fastboot": ""
+        }
+      }
     }
   ]
 }

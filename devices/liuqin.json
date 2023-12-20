@@ -1,0 +1,39 @@
+{
+  "device": "liuqin",
+  "name": {
+    "zh": "小米平板 6 Pro",
+    "en": "Xiaomi Pad 6 Pro"
+  },
+  "image": "https://data.hyperos.fans/assets/images/liuqin.png",
+  "type": "phone",
+  "miui": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "liuqin",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UMYCNXM": {
+          "os": "OS1.0.2.0.UMYCNXM",
+          "android": "14.0",
+          "recovery": "miui_LIUQIN_OS1.0.2.0.UMYCNXM_f2c7b6c511_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}
