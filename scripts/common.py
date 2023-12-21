@@ -22,7 +22,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["liuqin", "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
+currentStable = ["agate", "liuqin", "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
                  "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
 newDevices = ["aurora", "sheng", "amber", "houji",
@@ -282,11 +282,10 @@ def MiFirm(url):
     driver = webdriver.Edge(options=options)
     driver.get(url)
     soup = BeautifulSoup(driver.page_source, 'lxml')
-    lists = soup.find_all(
-        'a', class_='elementor-button elementor-button-link elementor-size-xs')
+    lists = soup.find_all('a')
     for list in lists:
         link = list.attrs['href']
-        if 'mifirmware' in link:
+        if 'firmware' in link:
             i = 0
         elif 'telegram' in link:
             i = 0

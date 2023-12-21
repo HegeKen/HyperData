@@ -108,6 +108,28 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "",
+      "idtag": "GBOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [""],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS1.0.1.0.UMNMIXM": {
+          "os": "OS1.0.1.0.UMNMIXM",
+          "android": "14.0",
+          "recovery": "miui_MONDRIANGlobal_OS1.0.1.0.UMNMIXM_aca25f526d_14.0.zip",
+          "fastboot": ""
+        }
+      }
     }
   ]
 }
