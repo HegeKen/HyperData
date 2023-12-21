@@ -266,16 +266,13 @@ def getFromApi(encrypted_data, device):
         data = miui_decrypt(response.text.split("q=")[0])
         if "LatestRom" in data:
             package = data["LatestRom"]["filename"].split("?")[0]
-            print(package)
             checkExit(package)
             return 1
         if "CrossRom" in data:
             package = data["CrossRom"]["filename"].split("?")[0]
-            print(package)
             checkExit(package)
             return 1
         else:
-            print(data["Code"])
             return 0
     response.close()
 
@@ -295,9 +292,9 @@ def MiFirm(url):
             i = 0
         else:
             if '.zip' in link:
-                checkExit(link.split('/')[4])
+                checkExit(link.split('/')[4].strip('?t=')[0])
             elif '.tgz' in link:
-                checkExit(link.split('/')[4])
+                checkExit(link.split('/')[4].strip('?t=')[0])
             else:
                 writeData(link)
 
