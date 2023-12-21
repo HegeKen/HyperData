@@ -1,0 +1,39 @@
+{
+  "device": "pipa",
+  "name": {
+    "zh": "小米平板 6",
+    "en": "Xiaomi Pad 6"
+  },
+  "image": "https://data.hyperos.fans/assets/images/pipa.png",
+  "type": "phone",
+  "miui": "yes",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "pipa",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UMZCNXM": {
+          "os": "OS1.0.2.0.UMZCNXM",
+          "android": "14.0",
+          "recovery": "miui_PIPA_OS1.0.2.0.UMZCNXM_55ebca72a7_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}
