@@ -71,11 +71,11 @@
         "chinaunicom"
       ],
       "roms": {
-        "": {
+        "OS1.0.2.0.UMVCNXM": {
           "os": "OS1.0.2.0.UMVCNXM",
           "android": "14.0",
           "recovery": "miui_BABYLON_OS1.0.2.0.UMVCNXM_d95abfe6ba_14.0.zip",
-          "fastboot": ""
+          "fastboot": "babylon_images_OS1.0.2.0.UMVCNXM_20231206.0000.00_14.0_cn_a302fa60d7.tgz"
         }
       }
     },
@@ -89,20 +89,17 @@
       "branchtag": "F",
       "show": "0",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        "chinatelecom"
       ],
       "region": "cn",
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS1.0.2.0.UMVCNXM": {
+          "os": "OS1.0.2.0.UMVCNXM",
           "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
+          "recovery": "miui_BABYLON_OS1.0.2.0.UMVCNXM_d95abfe6ba_14.0.zip",
+          "fastboot": "babylon_images_OS1.0.2.0.UMVCNXM_20231206.0000.00_14.0_cn_chinatelecom_9e4d69b4db.tgz"
         }
       }
     }
