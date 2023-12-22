@@ -6,7 +6,6 @@ from Crypto.Cipher import AES
 import json
 from Crypto.Util.Padding import pad
 import requests
-import requests
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
@@ -22,7 +21,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["agate", "liuqin", "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
+currentStable = ["tapas", "pipa", "agate", "liuqin", "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
                  "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
 newDevices = ["aurora", "sheng", "amber", "houji",
@@ -34,6 +33,12 @@ flags = {
     "houji_demo": "houji",
     "DAGU": "dagu",
     "dagu": "dagu",
+    "PIPA": "pipa",
+    "AGATEGlobal": "agate",
+    "MONDRIANGlobal": "mondrian",
+    "pipa": "pipa",
+    "agate_global": "agate",
+    "mondrian_global": "mondrian",
     "shennong_demo": "shennong",
     "SHENNONG": "shennong",
     "SHENNONGDEMO": "shennong",
@@ -82,6 +87,8 @@ flags = {
     "vermeer_demo": "vermeer",
     "vermeer": "vermeer",
     "DUCHAMP": "duchamp",
+    "TAPASGlobal":"tapas",
+    "tapas_global":"tapas",
     "DUCHAMPDEMO": "duchamp",
     "duchamp_demo": "duchamp",
     "duchamp": "duchamp",
@@ -282,20 +289,12 @@ def MiFirm(url):
     driver = webdriver.Edge(options=options)
     driver.get(url)
     soup = BeautifulSoup(driver.page_source, 'lxml')
-    lists = soup.find_all('a')
-    for list in lists:
-        link = list.attrs['href']
-        if 'firmware' in link:
-            i = 0
-        elif 'telegram' in link:
-            i = 0
-        else:
-            if '.zip' in link:
-                checkExit(link.split('/')[4].strip('?t=')[0])
-            elif '.tgz' in link:
-                checkExit(link.split('/')[4].strip('?t=')[0])
-            else:
-                writeData(link)
+    td_tags = soup.find_all("td")
+    filtered_td_tags = [td for td in td_tags if "zip" in td.text or "tgz" in td.text]
+    for tag in filtered_td_tags:  
+        print(tag.text)
+        checkExit(tag.text)
+
 
 
 def getChangelog(encrypted_data, device):
