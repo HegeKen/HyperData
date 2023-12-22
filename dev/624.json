@@ -1,16 +1,16 @@
 {
-  "week": "",
+  "week": "624",
   "title": {
-    "zh": "",
-    "en": ""
+    "zh": "开发版第624周发布公告（小米澎湃OS开发版多机型推送）",
+    "en": "DEV for week 624 (HyperOS DEV released for various devices.)"
   },
-  "postId": "",
-  "update": "",
-  "versions": "",
+  "postId": "44069906",
+  "update": "2023.12.22 19:22:57",
+  "versions": "OS1.0.23.12.18.DEV, OS1.0.23.12.19.DEV",
   "description": [
     {
       "zh": "小米 12、小米 12 Pro、小米 12 Pro 天玑版、小米 12S、小米 12S Pro、小米 12S Ultra、小米 13、小米 13 Pro、小米 13 Ultra、小米 14、小米 14 Pro、小米 MIX Fold 3、小米 MIX Fold 2、小米平板5 Pro 12.4、Redmi K50、Redmi K50 Pro、Redmi K50 至尊版、Redmi K50 电竞版、Redmi K60、Redmi K60 Pro的小米澎湃OS开发版，将于今天24点前推送完毕，欢迎大家升级至最新版本体验",
-      "en": "This week's HyperOS DEV for Xiaomi 12、Xiaomi 12 Pro、Xiaomi 12S、Xiaomi 12S Pro、Xiaomi 12S Ultra、Xiaomi 13、Xiaomi 13 Pro、Xiaomi 13 Ultra、Xiaomi MIX Fold 2、Xiaomi MIX Fold 3、 Xiaomi Pad 5 12.4、 Redmi K50、Redmi K50 Pro、Redmi K50G、Redmi K50 Ultra、Redmi K60、Redmi K60 Pro will be awailable before 24:00(GMT+8) today."
+      "en": "This week's HyperOS DEV for Xiaomi 12、Xiaomi 12 Pro、Xiaomi 12S、Xiaomi 12S Pro、Xiaomi 12S Ultra、Xiaomi 13、Xiaomi 13 Pro、Xiaomi 13 Ultra、Xiaomi MIX Fold 2、Xiaomi MIX Fold 3、 Xiaomi Pad 5 Pro 12.4、 Redmi K50、Redmi K50 Pro、Redmi K50G、Redmi K50 Ultra、Redmi K60、Redmi K60 Pro will be awailable before 24:00(GMT+8) today."
     }
   ],
   "attention": [
@@ -26,17 +26,13 @@
   "logs": [
     {
       "module": {
-        "zh": "",
-        "en": ""
+        "zh": "系统",
+        "en": "System"
       },
       "log": [
         {
-          "zh": "",
-          "en": ""
-        },
-        {
-          "zh": "",
-          "en": ""
+          "zh": "修复 部分场景下控制中心与通知栏重叠的问题",
+          "en": "Fixed the issue of overlap between the control center and notification bar in some scenes"
         }
       ]
     }
@@ -50,9 +46,9 @@
         "en": "Xiaomi 12"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_CUPID_OS1.0.23.12.18.DEV_9376008656_14.0.zip",
         "fastboot": ""
       }
     },
@@ -63,9 +59,9 @@
         "en": "Xiaomi 12 Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_ZEUS_OS1.0.23.12.18.DEV_b3985bb358_14.0.zip",
         "fastboot": ""
       }
     },
@@ -76,9 +72,9 @@
         "en": "Xiaomi 12 Pro Dimensity"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_DAUMIER_OS1.0.23.12.18.DEV_4174b9f85e_14.0.zip",
         "fastboot": ""
       }
     },
@@ -89,9 +85,9 @@
         "en": "Xiaomi 12S"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_MAYFLY_OS1.0.23.12.18.DEV_ebb5b20d5e_14.0.zip",
         "fastboot": ""
       }
     },
@@ -102,9 +98,9 @@
         "en": "Xiaomi 12S Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_UNICORN_OS1.0.23.12.18.DEV_c088f2809e_14.0.zip",
         "fastboot": ""
       }
     },
@@ -115,9 +111,9 @@
         "en": "Xiaomi 12S Ultra"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_THOR_OS1.0.23.12.18.DEV_c4feaf9a95_14.0.zip",
         "fastboot": ""
       }
     },
@@ -128,9 +124,9 @@
         "en": "Xiaomi 13"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_FUXI_OS1.0.23.12.18.DEV_c74fb51943_14.0.zip",
         "fastboot": ""
       }
     },
@@ -141,9 +137,9 @@
         "en": "Xiaomi 13 Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_NUWA_OS1.0.23.12.18.DEV_032d3dd705_14.0.zip",
         "fastboot": ""
       }
     },
@@ -154,9 +150,9 @@
         "en": "Xiaomi 13 Ultra"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_ISHTAR_OS1.0.23.12.18.DEV_caeb412ffa_14.0.zip",
         "fastboot": ""
       }
     },
@@ -167,9 +163,9 @@
         "en": "Xiaomi 14"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.19.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_HOUJI_OS1.0.23.12.19.DEV_e445aabccb_14.0.zip",
         "fastboot": ""
       }
     },
@@ -180,9 +176,9 @@
         "en": "Xiaomi 14 Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.19.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_SHENNONG_OS1.0.23.12.19.DEV_c4a2965031_14.0.zip",
         "fastboot": ""
       }
     },
@@ -193,9 +189,9 @@
         "en": "Xiaomi MIX Fold 2"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_ZIZHAN_OS1.0.23.12.18.DEV_98446f7440_14.0.zip",
         "fastboot": ""
       }
     },
@@ -206,9 +202,9 @@
         "en": "Xiaomi MIX Fold 3"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_BABYLON_OS1.0.23.12.18.DEV_93b364c0f5_14.0.zip",
         "fastboot": ""
       }
     },
@@ -219,9 +215,9 @@
         "en": "Xiaomi Pad 5 Pro 12.4"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_DAGU_OS1.0.23.12.18.DEV_ee8a855c2f_14.0.zip",
         "fastboot": ""
       }
     }
@@ -233,9 +229,9 @@
         "en": "Redmi K50"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_RUBENS_OS1.0.23.12.18.DEV_45a2977bd9_14.0.zip",
         "fastboot": ""
       }
     },
@@ -246,22 +242,9 @@
         "en": "Redmi K50 Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "ingres",
-      "name": {
-        "zh": "Redmi K50 电竞版",
-        "en": "Redmi K50G"
-      },
-      "rom": {
-        "os": "",
-        "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_MATISSE_OS1.0.23.12.18.DEV_65b685bd24_14.0.zip",
         "fastboot": ""
       }
     },
@@ -272,9 +255,9 @@
         "en": "Redmi K50 Ultra"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_DITING_OS1.0.23.12.18.DEV_47cd4660dc_14.0.zip",
         "fastboot": ""
       }
     },
@@ -285,9 +268,9 @@
         "en": "Redmi K60"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_MONDRIAN_OS1.0.23.12.18.DEV_1e02bf4741_14.0.zip",
         "fastboot": ""
       }
     },
@@ -298,9 +281,9 @@
         "en": "Redmi K60 Pro"
       },
       "rom": {
-        "os": "",
+        "os": "OS1.0.23.12.18.DEV",
         "android": "14.0",
-        "recovery": "",
+        "recovery": "miui_SOCRATES_OS1.0.23.12.18.DEV_81a15fd8a8_14.0.zip",
         "fastboot": ""
       }
     }

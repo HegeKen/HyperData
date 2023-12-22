@@ -291,8 +291,7 @@ def MiFirm(url):
     soup = BeautifulSoup(driver.page_source, 'lxml')
     td_tags = soup.find_all("td")
     filtered_td_tags = [td for td in td_tags if "zip" in td.text or "tgz" in td.text]
-    for tag in filtered_td_tags:  
-        print(tag.text)
+    for tag in filtered_td_tags:
         checkExit(tag.text)
 
 
