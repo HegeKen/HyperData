@@ -99,6 +99,30 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode": "ishtar",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "1",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.4.0.UMACNXM": {
+          "os": "OS1.0.4.0.UMACNXM",
+          "android": "14.0",
+          "recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
+          "fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_chinatelecom_2d6b6880e6.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 欧洲EEA正式版",
         "en": "Xiaomi HyperOS Europe EEA Stable"
       },

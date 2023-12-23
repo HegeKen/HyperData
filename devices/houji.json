@@ -294,6 +294,34 @@
           "ctelecom": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_chinatelecom_36f7b6dc15.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 企业定制版",
+        "en": "Xiaomi HyperOS Enterprise Standard"
+      },
+      "branchCode": "houji_ep_stdee",
+      "idtag": "EPSTD",
+      "branchtag": "F",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "1",
+      "roms": {
+        "OS1.0.23.12.21.EP.STDEE.N3": {
+          "os": "OS1.0.23.12.21.EP.STDEE.N3",
+          "android": "14.0",
+          "recovery": "miui_HOUJIEPSTDEE_OS1.0.23.12.21.EP.STDEE.N3_377fa1abbb_14.0.zip",
+          "fastboot": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_21c76335ba.tgz",
+          "ctelecom": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_chinatelecom_bac315cbed.tgz"
+        }
+      }
     }
   ]
 }

@@ -108,6 +108,34 @@
           "fastboot": "babylon_images_OS1.0.2.0.UMVCNXM_20231206.0000.00_14.0_cn_chinatelecom_9e4d69b4db.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "babylon_demo",
+      "idtag": "CnOD",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.1.0.UMVCNDM": {
+          "os": "OS1.0.1.0.UMVCNDM",
+          "android": "14.0",
+          "recovery": "miui_BABYLONDEMO_OS1.0.1.0.UMVCNDM_2371ba369e_14.0.zip",
+          "fastboot": "babylon_demo_images_OS1.0.1.0.UMVCNDM_20231212.0000.00_14.0_cn_50d7fce6c0.tgz",
+          "ctelecom": "babylon_demo_images_OS1.0.1.0.UMVCNDM_20231212.0000.00_14.0_cn_chinatelecom_92eb4befa8.tgz"
+        }
+      }
     }
   ]
 }

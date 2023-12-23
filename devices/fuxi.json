@@ -164,6 +164,34 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "fuxi_demo",
+      "idtag": "CnOD",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.1.0.UMCCNDM": {
+          "os": "OS1.0.1.0.UMCCNDM",
+          "android": "14.0",
+          "recovery": "miui_FUXIDEMO_OS1.0.1.0.UMCCNDM_eb1d1870d7_14.0.zip",
+          "fastboot": "fuxi_demo_images_OS1.0.1.0.UMCCNDM_20231215.0000.00_14.0_cn_5c897cd499.tgz",
+          "ctelecom": "fuxi_demo_images_OS1.0.1.0.UMCCNDM_20231215.0000.00_14.0_cn_chinatelecom_0c88e01bcf.tgz"
+        }
+      }
     }
   ]
 }
