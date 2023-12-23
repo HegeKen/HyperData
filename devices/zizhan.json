@@ -69,19 +69,18 @@
       "branchtag": "F",
       "carrier": [
         "",
-        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
-      "show": "0",
+      "show": "1",
       "region": "cn",
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS1.0.2.0.ULRCNXM": {
+          "os": "OS1.0.2.0.ULRCNXM",
           "android": "14.0",
-          "recovery": "",
+          "recovery": "miui_ZIZHAN_OS1.0.2.0.ULRCNXM_145e69abdf_14.0.zip",
           "fastboot": ""
         }
       }
@@ -96,10 +95,7 @@
       "branchtag": "F",
       "show": "0",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        "chinatelecom"
       ],
       "region": "cn",
       "zone": "1",
