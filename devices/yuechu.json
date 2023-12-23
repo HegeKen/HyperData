@@ -1,0 +1,39 @@
+{
+  "device": "yuechu",
+  "name": {
+    "zh": "小米 Civi 3",
+    "en": "Xiaomi Civi 3"
+  },
+  "image": "https://data.hyperos.fans/assets/images/yuechu.png",
+  "type": "phone",
+  "miui": "yes",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "yuechu",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.3.0.UMICNXM": {
+          "os": "OS1.0.3.0.UMICNXM",
+          "android": "14.0",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}

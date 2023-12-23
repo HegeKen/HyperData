@@ -21,7 +21,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["tapas", "pipa", "agate", "liuqin", "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
+currentStable = ["yuechu", "tapas", "pipa", "agate", "liuqin", "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
                  "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
 newDevices = ["aurora", "sheng", "amber", "houji",
@@ -34,6 +34,8 @@ flags = {
     "DAGU": "dagu",
     "dagu": "dagu",
     "PIPA": "pipa",
+    "YUECHU":"yuechu",
+    "yuechu":"yuechu",
     "AGATEGlobal": "agate",
     "MONDRIANGlobal": "mondrian",
     "pipa": "pipa",
