@@ -26,33 +26,45 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS1.0.9.0.UNMCNXM": {
+          "os": "OS1.0.9.0.UNMCNXM",
+          "android": "14.0",
+          "release": "2023-12-25",
+          "recovery": "miui_MANET_OS1.0.9.0.UNMCNXM_4a4df85ffb_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.8.0.UNMCNXM": {
           "os": "OS1.0.8.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-12-17",
           "recovery": "miui_MANET_OS1.0.8.0.UNMCNXM_6b6b949c3a_14.0.zip",
           "fastboot": "manet_images_OS1.0.8.0.UNMCNXM_20231212.0000.00_14.0_cn_c6760f43b7.tgz"
         },
         "OS1.0.7.0.UNMCNXM": {
           "os": "OS1.0.7.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-12-15",
           "recovery": "miui_MANET_OS1.0.7.0.UNMCNXM_8dba150437_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.6.0.UNMCNXM": {
           "os": "OS1.0.6.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-12-05",
           "recovery": "miui_MANET_OS1.0.6.0.UNMCNXM_c89eece155_14.0.zip",
           "fastboot": "manet_images_OS1.0.6.0.UNMCNXM_20231202.0000.00_14.0_cn_03b7236fc9.tgz"
         },
         "OS1.0.4.0.UNMCNXM": {
           "os": "OS1.0.4.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-11-29",
           "recovery": "miui_MANET_OS1.0.4.0.UNMCNXM_013c13dda0_14.0.zip",
           "fastboot": "manet_images_OS1.0.4.0.UNMCNXM_20231124.0000.00_14.0_cn_5fbc0eb96e.tgz"
         },
         "OS1.0.1.0.UNMCNXM": {
           "os": "OS1.0.1.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-11-29",
           "recovery": "miui_MANET_OS1.0.1.0.UNMCNXM_188b587020_14.0.zip",
           "fastboot": "manet_images_OS1.0.1.0.UNMCNXM_20231110.0000.00_14.0_cn_710ca6907d.tgz"
         }
@@ -77,30 +89,35 @@
         "OS1.0.9.0.UNMCNXM": {
           "os": "OS1.0.9.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-12-25",
           "recovery": "miui_MANET_OS1.0.9.0.UNMCNXM_4a4df85ffb_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.8.0.UNMCNXM": {
           "os": "OS1.0.8.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-12-17",
           "recovery": "miui_MANET_OS1.0.8.0.UNMCNXM_6b6b949c3a_14.0.zip",
           "fastboot": "manet_images_OS1.0.8.0.UNMCNXM_20231212.0000.00_14.0_cn_chinatelecom_750b5d3aab.tgz"
         },
         "OS1.0.6.0.UNMCNXM": {
           "os": "OS1.0.6.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-12-05",
           "recovery": "miui_MANET_OS1.0.6.0.UNMCNXM_c89eece155_14.0.zip",
           "fastboot": "manet_images_OS1.0.6.0.UNMCNXM_20231202.0000.00_14.0_cn_chinatelecom_41499ceae4.tgz"
         },
         "OS1.0.4.0.UNMCNXM": {
           "os": "OS1.0.4.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-11-29",
           "recovery": "miui_MANET_OS1.0.4.0.UNMCNXM_013c13dda0_14.0.zip",
           "fastboot": "manet_images_OS1.0.4.0.UNMCNXM_20231124.0000.00_14.0_cn_chinatelecom_9222a698f8.tgz"
         },
         "OS1.0.1.0.UNMCNXM": {
           "os": "OS1.0.1.0.UNMCNXM",
           "android": "14.0",
+          "release": "2023-11-29",
           "recovery": "miui_MANET_OS1.0.1.0.UNMCNXM_188b587020_14.0.zip",
           "fastboot": "manet_images_OS1.0.1.0.UNMCNXM_20231110.0000.00_14.0_cn_chinatelecom_a67c231ef4.tgz"
         }
@@ -128,6 +145,7 @@
         "OS1.0.4.0.UNMCNDM": {
           "os": "OS1.0.4.0.UNMCNDM",
           "android": "14.0",
+          "release": "2023-12-02",
           "recovery": "miui_MANETDEMO_OS1.0.4.0.UNMCNDM_aaa713de28_14.0.zip",
           "fastboot": "manet_demo_images_OS1.0.4.0.UNMCNDM_20231202.0000.00_14.0_cn_ebb38145b7.tgz",
           "ctelecom": "manet_demo_images_OS1.0.4.0.UNMCNDM_20231202.0000.00_14.0_cn_chinatelecom_45c1b2e2fc.tgz"
@@ -135,6 +153,7 @@
         "OS1.0.2.0.UNMCNDM": {
           "os": "OS1.0.2.0.UNMCNDM",
           "android": "14.0",
+          "release": "2023-11-27",
           "recovery": "miui_MANETDEMO_OS1.0.2.0.UNMCNDM_aac6a2ea20_14.0.zip",
           "fastboot": "manet_demo_images_OS1.0.2.0.UNMCNDM_20231127.0000.00_14.0_cn_d08f9ff8ee.tgz",
           "ctelecom": "manet_demo_images_OS1.0.2.0.UNMCNDM_20231127.0000.00_14.0_cn_chinatelecom_f0ff22dbc5.tgz"

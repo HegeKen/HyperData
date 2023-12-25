@@ -30,30 +30,35 @@
         "OS1.0.23.12.18.DEV": {
           "os": "OS1.0.23.12.18.DEV",
           "android": "14.0",
+          "release": "2023-12-22",
           "recovery": "miui_ZIZHAN_OS1.0.23.12.18.DEV_98446f7440_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.11.DEV": {
           "os": "OS1.0.23.12.11.DEV",
           "android": "14.0",
+          "release": "2023-12-15",
           "recovery": "miui_ZIZHAN_OS1.0.23.12.11.DEV_11f6bbc1ea_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.4.DEV": {
           "os": "OS1.0.23.12.4.DEV",
           "android": "14.0",
+          "release": "2023-12-08",
           "recovery": "miui_ZIZHAN_OS1.0.23.12.4.DEV_f16ec82d2e_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.27.DEV": {
           "os": "OS1.0.23.11.27.DEV",
           "android": "14.0",
+          "release": "2023-12-01",
           "recovery": "miui_ZIZHAN_OS1.0.23.11.27.DEV_3d6c583719_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
+          "release": "2023-11-21",
           "recovery": "miui_ZIZHAN_OS1.0.23.11.19.DEV_438fe40030_14.0.zip",
           "fastboot": ""
         }
@@ -69,6 +74,7 @@
       "branchtag": "F",
       "carrier": [
         "",
+        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
@@ -80,31 +86,8 @@
         "OS1.0.2.0.ULRCNXM": {
           "os": "OS1.0.2.0.ULRCNXM",
           "android": "14.0",
+          "release": "2023-12-22",
           "recovery": "miui_ZIZHAN_OS1.0.2.0.ULRCNXM_145e69abdf_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "zizhan",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "0",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "recovery": "",
           "fastboot": ""
         }
       }

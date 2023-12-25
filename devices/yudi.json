@@ -19,6 +19,7 @@
       "show": "1",
       "carrier": [
         "",
+        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
@@ -29,59 +30,9 @@
         "OS1.0.2.0.UMHCNXM": {
           "os": "OS1.0.2.0.UMHCNXM",
           "android": "14.0",
+          "release": "2023-12-07",
           "recovery": "miui_YUDI_OS1.0.2.0.UMHCNXM_34efc69cc0_14.0.zip",
           "fastboot": "yudi_images_OS1.0.2.0.UMHCNXM_20231124.0000.00_14.0_cn_ff52b125c5.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "yudi",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "yudi_demo",
-      "idtag": "CnOD",
-      "branchtag": "F",
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "recovery": "",
-          "fastboot": ""
         }
       }
     }

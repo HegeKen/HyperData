@@ -30,42 +30,49 @@
         "OS1.0.23.12.18.DEV": {
           "os": "OS1.0.23.12.18.DEV",
           "android": "14.0",
+          "release": "2023-12-22",
           "recovery": "miui_FUXI_OS1.0.23.12.18.DEV_c74fb51943_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.11.DEV": {
           "os": "OS1.0.23.12.11.DEV",
           "android": "14.0",
+          "release": "2023-12-15",
           "recovery": "miui_FUXI_OS1.0.23.12.11.DEV_fdff67814e_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.4.DEV": {
           "os": "OS1.0.23.12.4.DEV",
           "android": "14.0",
+          "release": "2023-12-08",
           "recovery": "miui_FUXI_OS1.0.23.12.4.DEV_79171abbc7_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.2.DEV": {
           "os": "OS1.0.23.12.2.DEV",
           "android": "14.0",
+          "release": "2023-12-03",
           "recovery": "miui_FUXI_OS1.0.23.12.2.DEV_c7aec77610_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.27.DEV": {
           "os": "OS1.0.23.11.27.DEV",
           "android": "14.0",
+          "release": "2023-12-01",
           "recovery": "miui_FUXI_OS1.0.23.11.27.DEV_d3a016440b_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
+          "release": "2023-11-21",
           "recovery": "miui_FUXI_OS1.0.23.11.19.DEV_cb9309bfb0_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.8.DEV": {
           "os": "OS1.0.23.11.8.DEV",
           "android": "14.0",
+          "release": "2023-11-08",
           "recovery": "miui_FUXI_OS1.0.23.11.8.DEV_64e5e9dc12_14.0.zip",
           "fastboot": ""
         }
@@ -82,6 +89,7 @@
       "show": "1",
       "carrier": [
         "",
+        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
@@ -92,37 +100,15 @@
         "OS1.0.5.0.UMCCNXM": {
           "os": "OS1.0.5.0.UMCCNXM",
           "android": "14.0",
+          "release": "2023-12-24",
           "recovery": "miui_FUXI_OS1.0.5.0.UMCCNXM_84b08e9053_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.3.0.UMCCNXM": {
           "os": "OS1.0.3.0.UMCCNXM",
           "android": "14.0",
+          "release": "2023-12-07",
           "recovery": "miui_FUXI_OS1.0.3.0.UMCCNXM_e0bcc18a25_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "fuxi",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "recovery": "",
           "fastboot": ""
         }
       }
@@ -136,7 +122,9 @@
       "idtag": "GBOO",
       "branchtag": "F",
       "show": "1",
-      "carrier": [""],
+      "carrier": [
+        ""
+      ],
       "region": "global",
       "zone": "2",
       "ep": "0",
@@ -144,6 +132,7 @@
         "OS1.0.1.0.UMCMIXM": {
           "os": "OS1.0.1.0.UMCMIXM",
           "android": "14.0",
+          "release": "2023-12-20",
           "recovery": "miui_FUXIGlobal_OS1.0.1.0.UMCMIXM_ab366ba8f8_14.0.zip",
           "fastboot": ""
         }
@@ -158,7 +147,9 @@
       "idtag": "EEAO",
       "branchtag": "F",
       "show": "1",
-      "carrier": [""],
+      "carrier": [
+        ""
+      ],
       "region": "eea",
       "zone": "2",
       "ep": "0",
@@ -166,6 +157,7 @@
         "OS1.0.1.0.UMCEUXM": {
           "os": "OS1.0.1.0.UMCEUXM",
           "android": "14.0",
+          "release": "2023-12-20",
           "recovery": "miui_FUXIEEAGlobal_OS1.0.1.0.UMCEUXM_0332150a82_14.0.zip",
           "fastboot": ""
         }
@@ -193,6 +185,7 @@
         "OS1.0.1.0.UMCCNDM": {
           "os": "OS1.0.1.0.UMCCNDM",
           "android": "14.0",
+          "release": "2023-12-15",
           "recovery": "miui_FUXIDEMO_OS1.0.1.0.UMCCNDM_eb1d1870d7_14.0.zip",
           "fastboot": "fuxi_demo_images_OS1.0.1.0.UMCCNDM_20231215.0000.00_14.0_cn_5c897cd499.tgz",
           "ctelecom": "fuxi_demo_images_OS1.0.1.0.UMCCNDM_20231215.0000.00_14.0_cn_chinatelecom_0c88e01bcf.tgz"

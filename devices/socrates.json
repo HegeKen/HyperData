@@ -30,36 +30,42 @@
         "OS1.0.23.12.18.DEV": {
           "os": "OS1.0.23.12.18.DEV",
           "android": "14.0",
+          "release": "2023-12-22",
           "recovery": "miui_SOCRATES_OS1.0.23.12.18.DEV_81a15fd8a8_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.11.DEV": {
           "os": "OS1.0.23.12.11.DEV",
           "android": "14.0",
+          "release": "2023-12-15",
           "recovery": "miui_SOCRATES_OS1.0.23.12.11.DEV_fd996bdf8f_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.4.DEV": {
           "os": "OS1.0.23.12.4.DEV",
           "android": "14.0",
+          "release": "2023-12-08",
           "recovery": "miui_SOCRATES_OS1.0.23.12.4.DEV_51cb723d41_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.27.DEV": {
           "os": "OS1.0.23.11.27.DEV",
           "android": "14.0",
+          "release": "2023-12-01",
           "recovery": "miui_SOCRATES_OS1.0.23.11.27.DEV_86d11abfa0_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
+          "release": "2023-11-21",
           "recovery": "miui_SOCRATES_OS1.0.23.11.19.DEV_dec1d42947_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.8.DEV": {
           "os": "OS1.0.23.11.8.DEV",
           "android": "14.0",
+          "release": "2023-11-08",
           "recovery": "miui_SOCRATES_OS1.0.23.11.8.DEV_ed16b5a983_14.0.zip",
           "fastboot": ""
         }
@@ -76,6 +82,7 @@
       "show": "1",
       "carrier": [
         "",
+        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
@@ -86,31 +93,8 @@
         "OS1.0.3.0.UMKCNXM": {
           "os": "OS1.0.3.0.UMKCNXM",
           "android": "14.0",
+          "release": "2023-12-07",
           "recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "socrates",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "recovery": "",
           "fastboot": ""
         }
       }

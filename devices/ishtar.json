@@ -30,36 +30,42 @@
         "OS1.0.23.12.18.DEV": {
           "os": "OS1.0.23.12.18.DEV",
           "android": "14.0",
+          "release": "2023-12-22",
           "recovery": "miui_ISHTAR_OS1.0.23.12.18.DEV_caeb412ffa_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.11.DEV": {
           "os": "OS1.0.23.12.11.DEV",
           "android": "14.0",
+          "release": "2023-12-15",
           "recovery": "miui_ISHTAR_OS1.0.23.12.11.DEV_73d2cc9d6b_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.4.DEV": {
           "os": "OS1.0.23.12.4.DEV",
           "android": "14.0",
+          "release": "2023-12-08",
           "recovery": "miui_ISHTAR_OS1.0.23.12.4.DEV_87ecdce7b8_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.27.DEV": {
           "os": "OS1.0.23.11.27.DEV",
           "android": "14.0",
+          "release": "2023-12-01",
           "recovery": "miui_ISHTAR_OS1.0.23.11.27.DEV_12021bcb05_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
+          "release": "2023-11-21",
           "recovery": "miui_ISHTAR_OS1.0.23.11.19.DEV_ffe3075ca2_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.8.DEV": {
           "os": "OS1.0.23.11.8.DEV",
           "android": "14.0",
+          "release": "2023-11-08",
           "recovery": "miui_ISHTAR_OS1.0.23.11.8.DEV_b8a5193d86_14.0.zip",
           "fastboot": ""
         }
@@ -86,12 +92,14 @@
         "OS1.0.4.0.UMACNXM": {
           "os": "OS1.0.4.0.UMACNXM",
           "android": "14.0",
+          "release": "2023-12-08",
           "recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
           "fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_7c393332f6.tgz"
         },
         "OS1.0.3.0.UMACNXM": {
           "os": "OS1.0.3.0.UMACNXM",
           "android": "14.0",
+          "release": "2023-12-01",
           "recovery": "miui_ISHTAR_OS1.0.3.0.UMACNXM_0c07956c1f_14.0.zip",
           "fastboot": ""
         }
@@ -116,6 +124,7 @@
         "OS1.0.4.0.UMACNXM": {
           "os": "OS1.0.4.0.UMACNXM",
           "android": "14.0",
+          "release": "2023-12-08",
           "recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
           "fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_chinatelecom_2d6b6880e6.tgz"
         }
@@ -130,7 +139,9 @@
       "idtag": "EEAO",
       "branchtag": "F",
       "show": "1",
-      "carrier": [""],
+      "carrier": [
+        ""
+      ],
       "region": "eea",
       "zone": "2",
       "ep": "0",
@@ -138,6 +149,7 @@
         "OS1.0.5.0.UMAEUXM": {
           "os": "OS1.0.5.0.UMAEUXM",
           "android": "14.0",
+          "release": "2023-12-18",
           "recovery": "miui_ISHTAREEAGlobal_OS1.0.5.0.UMAEUXM_70d6c1e142_14.0.zip",
           "fastboot": "ishtar_eea_global_images_OS1.0.5.0.UMAEUXM_20231216.0000.00_14.0_eea_46e868df60.tgz"
         }

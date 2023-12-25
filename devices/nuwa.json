@@ -30,36 +30,42 @@
         "OS1.0.23.12.18.DEV": {
           "os": "OS1.0.23.12.18.DEV",
           "android": "14.0",
+          "release": "2023-12-22",
           "recovery": "miui_NUWA_OS1.0.23.12.18.DEV_032d3dd705_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.11.DEV": {
           "os": "OS1.0.23.12.11.DEV",
           "android": "14.0",
+          "release": "2023-12-15",
           "recovery": "miui_NUWA_OS1.0.23.12.11.DEV_dae9cb0c6e_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.12.4.DEV": {
           "os": "OS1.0.23.12.4.DEV",
           "android": "14.0",
+          "release": "2023-12-08",
           "recovery": "miui_NUWA_OS1.0.23.12.4.DEV_f41c7d1212_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.27.DEV": {
           "os": "OS1.0.23.11.27.DEV",
           "android": "14.0",
+          "release": "2023-12-01",
           "recovery": "miui_NUWA_OS1.0.23.11.27.DEV_4684fad253_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.19.DEV": {
           "os": "OS1.0.23.11.19.DEV",
           "android": "14.0",
+          "release": "2023-11-21",
           "recovery": "miui_NUWA_OS1.0.23.11.19.DEV_6b6144d20a_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.23.11.8.DEV": {
           "os": "OS1.0.23.11.8.DEV",
           "android": "14.0",
+          "release": "2023-11-08",
           "recovery": "miui_NUWA_OS1.0.23.11.8.DEV_bee30be1cd_14.0.zip",
           "fastboot": ""
         }
@@ -76,6 +82,7 @@
       "show": "1",
       "carrier": [
         "",
+        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
@@ -86,37 +93,15 @@
         "OS1.0.4.0.UMBCNXM": {
           "os": "OS1.0.4.0.UMBCNXM",
           "android": "14.0",
+          "release": "2023-12-24",
           "recovery": "miui_NUWA_OS1.0.4.0.UMBCNXM_903b6aa354_14.0.zip",
           "fastboot": ""
         },
         "OS1.0.2.0.UMBCNXM": {
           "os": "OS1.0.2.0.UMBCNXM",
           "android": "14.0",
+          "release": "2023-12-07",
           "recovery": "miui_NUWA_OS1.0.2.0.UMBCNXM_65b5cbc206_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "nuwa",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "recovery": "",
           "fastboot": ""
         }
       }
