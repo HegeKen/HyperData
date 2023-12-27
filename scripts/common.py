@@ -32,6 +32,8 @@ flags = {
     "houji": "houji",
     "houji_demo": "houji",
     "DAGU": "dagu",
+    "ARISTOTLEEEAGlobal":"aristotle",
+    "aristotle_eea_global":"aristotle",
     "babylon_demo":"babylon",
     "BABYLONDEMO":"babylon",
     "fuxi_demo":"fuxi",
