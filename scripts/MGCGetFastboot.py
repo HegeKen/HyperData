@@ -24,7 +24,7 @@ def getFastboot(region):
       else:
         for package in packages:
           fastboot = package['package_url'].split('/')[4].split('?')[0]
-          common.checkExit(fastboot)
+          common.checkExist(fastboot)
     response.close()
 
 

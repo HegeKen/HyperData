@@ -19,6 +19,6 @@ for link in download_links:
       urls.append(link["href"])
   else:
       filename = link["href"].split('/')[4]
-      common.checkExit(filename)
+      common.checkExist(filename)
 for url in urls:
   common.MiFirm(url)

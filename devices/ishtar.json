@@ -132,6 +132,35 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "ishtar_demo",
+      "idtag": "CnOD",
+      "branchtag": "F",
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.1.0.UMACNDM": {
+          "os": "OS1.0.1.0.UMACNDM",
+          "android": "14.0",
+          "release": "2023-12-27",
+          "recovery": "miui_ISHTARDEMO_OS1.0.1.0.UMACNDM_03ddb52acc_14.0.zip",
+          "fastboot": "ishtar_demo_images_OS1.0.1.0.UMACNDM_20231218.0000.00_14.0_cn_347b0be2aa.tgz",
+          "ctelecom": "ishtar_demo_images_OS1.0.1.0.UMACNDM_20231218.0000.00_14.0_cn_chinatelecom_97e1dcc2c8.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 欧洲EEA正式版",
         "en": "Xiaomi HyperOS Europe EEA Stable"
       },

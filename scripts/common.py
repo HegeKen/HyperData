@@ -185,7 +185,7 @@ def getDeviceCode(filename):
         return 0
 
 
-def checkExit(filename):
+def checkExist(filename):
     if "OS" in filename:
         if "blockota" in filename:
             i = 0
@@ -282,11 +282,11 @@ def getFromApi(encrypted_data, device):
         data = miui_decrypt(response.text.split("q=")[0])
         if "LatestRom" in data:
             package = data["LatestRom"]["filename"].split("?")[0]
-            checkExit(package)
+            checkExist(package)
             return 1
         if "CrossRom" in data:
             package = data["CrossRom"]["filename"].split("?")[0]
-            checkExit(package)
+            checkExist(package)
             return 1
         else:
             return 0
@@ -301,7 +301,7 @@ def MiFirm(url):
     td_tags = soup.find_all("td")
     filtered_td_tags = [td for td in td_tags if "zip" in td.text or "tgz" in td.text]
     for tag in filtered_td_tags:
-        checkExit(tag.text)
+        checkExist(tag.text)
 
 
 
@@ -352,7 +352,7 @@ def getFastboot(url):
         else:
             data = json.loads(content)["LatestFullRom"]
             if len(data) > 0:
-                checkExit(data["filename"])
+                checkExist(data["filename"])
             else:
                 i = 0
     else:
