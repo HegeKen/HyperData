@@ -1,0 +1,37 @@
+{
+  "device": "earth",
+  "name": {
+    "zh": "Redmi 12C/ POCO C55",
+    "en": "Redmi 12C/ POCO C55"
+  },
+  "image": "https://data.hyperos.fans/assets/images/earth.png",
+  "type": "phone",
+  "miui": "yes",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "earth_global",
+      "idtag": "GBOO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UCVMIXM": {
+          "os": "OS1.0.2.0.UCVMIXM",
+          "android": "14.0",
+          "release": "2023-12-28",
+          "recovery": "miui_EARTHGlobal_OS1.0.2.0.UCVMIXM_594f88abfe_14.0.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}

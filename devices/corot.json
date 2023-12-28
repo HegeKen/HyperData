@@ -49,6 +49,31 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "corot_eea_global",
+      "idtag": "EEAO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS1.0.3.0.UMLEUXM": {
+          "os": "OS1.0.3.0.UMLEUXM",
+          "android": "14.0",
+          "release": "2023-12-28",
+          "recovery": "miui_COROTEEAGlobal_OS1.0.3.0.UMLEUXM_47a27150be_14.0.zip",
+          "fastboot": ""
+        }
+      }
     }
   ]
 }
