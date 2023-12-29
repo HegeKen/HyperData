@@ -5,7 +5,7 @@
     "en": "DEV for week 625 (HyperOS DEV released for various devices)"
   },
   "postId": "42876115",
-  "update": "2023.12.29 18:34:11",
+  "update": "2023.12.29 16:23:18",
   "versions": "OS1.0.23.12.25.DEV, OS1.0.23.12.26.DEV",
   "description": [
     {
@@ -82,6 +82,48 @@
         "android": "14.0",
         "release": "2023-12-29",
         "recovery": "miui_HOUJI_OS1.0.23.12.26.DEV_460c816414_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "shennong",
+      "name": {
+        "zh": "小米 14 Pro",
+        "en": "Xiaomi 14 Pro"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.26.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_SHENNONG_OS1.0.23.12.26.DEV_835f80182e_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "ingres",
+      "name": {
+        "zh": "Redmi K50 电竞版",
+        "en": "Redmi K50G"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.25.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_INGRES_OS1.0.23.12.25.DEV_74c3551093_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "diting",
+      "name": {
+        "zh": "Redmi K50 至尊版",
+        "en": "Redmi K50 Ultra"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.25.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_DITING_OS1.0.23.12.25.DEV_ac1881aa68_14.0.zip",
         "fastboot": ""
       }
     }
