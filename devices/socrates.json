@@ -82,11 +82,42 @@
       "show": "1",
       "carrier": [
         "",
-        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
       "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.4.0.UMKCNXM": {
+          "os": "OS1.0.4.0.UMKCNXM",
+          "android": "14.0",
+          "release":"2023-12-27",
+          "recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
+          "fastboot": ""
+        },
+        "OS1.0.3.0.UMKCNXM": {
+          "os": "OS1.0.3.0.UMKCNXM",
+          "android": "14.0",
+          "release": "2023-12-07",
+          "recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
+          "fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_09047fbce8.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode": "socrates",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "1",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
       "zone": "1",
       "ep": "0",
       "roms": {
@@ -95,7 +126,7 @@
           "android": "14.0",
           "release": "2023-12-07",
           "recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
-          "fastboot": ""
+          "fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_chinatelecom_b338139b01.tgz"
         }
       }
     }
