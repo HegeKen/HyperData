@@ -38,6 +38,8 @@ flags = {
     "BABYLONDEMO":"babylon",
     "earth_global":"earth",
     "EARTHGlobal":"earth",
+    "ISHTARGlobal":"ishtar",
+    "ishtar_global":"ishtar",
     "corot_eea_global":"corot",
     "COROTEEAGlobal":"corot",
     "fuxi_demo":"fuxi",
