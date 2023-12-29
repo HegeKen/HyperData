@@ -5,8 +5,8 @@
     "en": "DEV for week 625 (HyperOS DEV released for various devices)"
   },
   "postId": "42876115",
-  "update": "2023.12.29 20:45:49",
-  "versions": "OS1.0.23.12.25.DEV, OS1.0.23.12.26.DEV",
+  "update": "2023.12.29 22:55:16",
+  "versions": "OS1.0.23.12.25.DEV, OS1.0.23.12.26.DEV, OS1.0.23.12.28.DEV",
   "description": [
     {
       "zh": "小米 12、小米 12 Pro、小米 14、小米 14 Pro/Ti、Redmi K50 至尊版、Redmi K50 电竞版的小米澎湃OS开发版，将于今天24点前推送完毕，欢迎大家升级至最新版本体验",
@@ -76,6 +76,48 @@
       }
     },
     {
+      "device": "fuxi",
+      "name": {
+        "zh": "小米 13",
+        "en": "Xiaomi 13"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.28.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_FUXI_OS1.0.23.12.28.DEV_fe04e499fc_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "nuwa",
+      "name": {
+        "zh": "小米 13 Pro",
+        "en": "Xiaomi 13 Pro"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.28.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_NUWA_OS1.0.23.12.28.DEV_0400296b76_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "ishtar",
+      "name": {
+        "zh": "小米 13 Ultra",
+        "en": "Xiaomi 13 Ultra"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.28.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_ISHTAR_OS1.0.23.12.28.DEV_1c92ec69ef_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
       "device": "houji",
       "name": {
         "zh": "小米 14",
@@ -104,6 +146,48 @@
       }
     },
     {
+      "device": "zizhan",
+      "name": {
+        "zh": "小米 MIX FOLD 2",
+        "en": "Xiaomi MIX Fold 2"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.28.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_ZIZHAN_OS1.0.23.12.28.DEV_e13f8f2a53_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "babylon",
+      "name": {
+        "zh": "小米 MIX FOLD 3",
+        "en": "Xiaomi MIX Fold 3"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.28.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_BABYLON_OS1.0.23.12.28.DEV_8127e9cc6b_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "dagu",
+      "name": {
+        "zh": "小米平板 5 Pro 12.4",
+        "en": "Xiaomi Pad 5 Pro 12.4"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.28.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_DAGU_OS1.0.23.12.28.DEV_19b3bcf8b5_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
       "device": "ingres",
       "name": {
         "zh": "Redmi K50 电竞版",
@@ -128,6 +212,34 @@
         "android": "14.0",
         "release": "2023-12-29",
         "recovery": "miui_DITING_OS1.0.23.12.25.DEV_ac1881aa68_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "mondrian",
+      "name": {
+        "zh": "Redmi K60",
+        "en": "Redmi K60"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.28.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_MONDRIAN_OS1.0.23.12.28.DEV_6f4a8c01d2_14.0.zip",
+        "fastboot": ""
+      }
+    },
+    {
+      "device": "socrates",
+      "name": {
+        "zh": "Redmi K60 Pro",
+        "en": "Redmi K60 Pro"
+      },
+      "rom": {
+        "os": "OS1.0.23.12.28.DEV",
+        "android": "14.0",
+        "release": "2023-12-29",
+        "recovery": "miui_SOCRATES_OS1.0.23.12.28.DEV_589de7205f_14.0.zip",
         "fastboot": ""
       }
     }
