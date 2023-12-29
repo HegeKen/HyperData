@@ -82,7 +82,6 @@
       "show": "1",
       "carrier": [
         "",
-        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
@@ -102,7 +101,32 @@
           "android": "14.0",
           "release": "2023-12-07",
           "recovery": "miui_NUWA_OS1.0.2.0.UMBCNXM_65b5cbc206_14.0.zip",
-          "fastboot": ""
+          "fastboot": "nuwa_images_OS1.0.2.0.UMBCNXM_20231126.0000.00_14.0_cn_e876df02d2.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode": "nuwa",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "1",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.2.0.UMBCNXM": {
+          "os": "OS1.0.2.0.UMBCNXM",
+          "android": "14.0",
+          "release": "2023-12-07",
+          "recovery": "miui_NUWA_OS1.0.2.0.UMBCNXM_65b5cbc206_14.0.zip",
+          "fastboot": "nuwa_images_OS1.0.2.0.UMBCNXM_20231126.0000.00_14.0_cn_chinatelecom_931ec6a538.tgz"
         }
       }
     },

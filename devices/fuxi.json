@@ -89,7 +89,6 @@
       "show": "1",
       "carrier": [
         "",
-        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
@@ -109,7 +108,32 @@
           "android": "14.0",
           "release": "2023-12-07",
           "recovery": "miui_FUXI_OS1.0.3.0.UMCCNXM_e0bcc18a25_14.0.zip",
-          "fastboot": ""
+          "fastboot": "fuxi_images_OS1.0.3.0.UMCCNXM_20231204.0000.00_14.0_cn_e180f539f3.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode": "fuxi",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "1",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.3.0.UMCCNXM": {
+          "os": "OS1.0.3.0.UMCCNXM",
+          "android": "14.0",
+          "release": "2023-12-07",
+          "recovery": "miui_FUXI_OS1.0.3.0.UMCCNXM_e0bcc18a25_14.0.zip",
+          "fastboot": "fuxi_images_OS1.0.3.0.UMCCNXM_20231204.0000.00_14.0_cn_chinatelecom_35fe1b5c28.tgz"
         }
       }
     },

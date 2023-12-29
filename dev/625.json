@@ -5,7 +5,7 @@
     "en": "DEV for week 625 (HyperOS DEV released for various devices)"
   },
   "postId": "42876115",
-  "update": "2023.12.29 16:23:18",
+  "update": "2023.12.29 18:34:11",
   "versions": "OS1.0.23.12.25.DEV, OS1.0.23.12.26.DEV",
   "description": [
     {
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "show": "no",
+  "show": "yes",
   "roms": [
     {
       "device": "cupid",
@@ -52,8 +52,8 @@
       "rom": {
         "os": "OS1.0.23.12.25.DEV",
         "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
+        "release": "2023-12-29",
+        "recovery": "miui_CUPID_OS1.0.23.12.25.DEV_e4b2fda6fe_14.0.zip",
         "fastboot": ""
       }
     },
@@ -66,106 +66,8 @@
       "rom": {
         "os": "OS1.0.23.12.25.DEV",
         "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "daumier",
-      "name": {
-        "zh": "小米 12 Pro 天玑版",
-        "en": "Xiaomi 12 Pro Dimensity"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "mayfly",
-      "name": {
-        "zh": "小米 12S",
-        "en": "Xiaomi 12S"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "unicorn",
-      "name": {
-        "zh": "小米 12S Pro",
-        "en": "Xiaomi 12S Pro"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "thor",
-      "name": {
-        "zh": "小米 12S Ultra",
-        "en": "Xiaomi 12S Ultra"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "fuxi",
-      "name": {
-        "zh": "小米 13",
-        "en": "Xiaomi 13"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "nuwa",
-      "name": {
-        "zh": "小米 13 Pro",
-        "en": "Xiaomi 13 Pro"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "ishtar",
-      "name": {
-        "zh": "小米 13 Ultra",
-        "en": "Xiaomi 13 Ultra"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
+        "release": "2023-12-29",
+        "recovery": "miui_ZEUS_OS1.0.23.12.25.DEV_6b7cf74863_14.0.zip",
         "fastboot": ""
       }
     },
@@ -178,148 +80,8 @@
       "rom": {
         "os": "OS1.0.23.12.26.DEV",
         "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "shennong",
-      "name": {
-        "zh": "小米 14 Pro",
-        "en": "Xiaomi 14 Pro"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.26.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "zizhan",
-      "name": {
-        "zh": "小米 MIX FOLD 2",
-        "en": "Xiaomi MIX Fold 2"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "babylon",
-      "name": {
-        "zh": "小米 MIX FOLD 3",
-        "en": "Xiaomi MIX Fold 3"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "dagu",
-      "name": {
-        "zh": "小米平板 5 Pro 12.4",
-        "en": "Xiaomi Pad 5 Pro 12.4"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "rubens",
-      "name": {
-        "zh": "Redmi K50",
-        "en": "Redmi K50"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "matisse",
-      "name": {
-        "zh": "Redmi K50 Pro",
-        "en": "Redmi K50 Pro"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "ingres",
-      "name": {
-        "zh": "Redmi K50 电竞版",
-        "en": "Redmi K50G"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "diting",
-      "name": {
-        "zh": "Redmi K50 至尊版",
-        "en": "Redmi K50 Ultra"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "mondrian",
-      "name": {
-        "zh": "Redmi K60",
-        "en": "Redmi K60"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
-        "fastboot": ""
-      }
-    },
-    {
-      "device": "socrates",
-      "name": {
-        "zh": "Redmi K60 Pro",
-        "en": "Redmi K60 Pro"
-      },
-      "rom": {
-        "os": "OS1.0.23.12.25.DEV",
-        "android": "14.0",
-        "release": "2023-12-22",
-        "recovery": "",
+        "release": "2023-12-29",
+        "recovery": "miui_HOUJI_OS1.0.23.12.26.DEV_460c816414_14.0.zip",
         "fastboot": ""
       }
     }
