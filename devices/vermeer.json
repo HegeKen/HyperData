@@ -26,12 +26,19 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS1.0.11.0.UNKCNXM": {
+          "os": "OS1.0.11.0.UNKCNXM",
+          "android": "14.0",
+          "release":"2023-12-30",
+          "recovery": "miui_VERMEER_OS1.0.11.0.UNKCNXM_2316bc4e67_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.9.0.UNKCNXM": {
           "os": "OS1.0.9.0.UNKCNXM",
           "android": "14.0",
           "release": "2023-12-23",
           "recovery": "miui_VERMEER_OS1.0.9.0.UNKCNXM_0b5a5cb3a0_14.0.zip",
-          "fastboot": ""
+          "fastboot": "vermeer_images_OS1.0.9.0.UNKCNXM_20231219.0000.00_14.0_cn_0a33d3dc51.tgz"
         },
         "OS1.0.8.0.UNKCNXM": {
           "os": "OS1.0.8.0.UNKCNXM",
@@ -86,6 +93,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS1.0.9.0.UNKCNXM": {
+          "os": "OS1.0.9.0.UNKCNXM",
+          "android": "14.0",
+          "release": "2023-12-23",
+          "recovery": "miui_VERMEER_OS1.0.9.0.UNKCNXM_0b5a5cb3a0_14.0.zip",
+          "fastboot": "vermeer_images_OS1.0.9.0.UNKCNXM_20231219.0000.00_14.0_cn_chinatelecom_be7e9c373a.tgz"
+        },
         "OS1.0.8.0.UNKCNXM": {
           "os": "OS1.0.8.0.UNKCNXM",
           "android": "14.0",
