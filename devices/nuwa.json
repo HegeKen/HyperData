@@ -193,6 +193,31 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度正式版",
+        "en": "Xiaomi HyperOS India Stable"
+      },
+      "branchCode": "nuwa_in_global",
+      "idtag": "INSO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "in",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS1.0.1.0.UMBINXM": {
+          "os": "OS1.0.1.0.UMBINXM",
+          "android": "14.0",
+          "release": "2024-01-02",
+          "recovery": "miui_NUWAINGlobal_OS1.0.1.0.UMBINXM_59d6d72371_14.0.zip",
+          "fastboot": ""
+        }
+      }
     }
   ]
 }

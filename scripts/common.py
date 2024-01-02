@@ -101,6 +101,8 @@ flags = {
     "VERMEERDEMO": "vermeer",
     "vermeer_demo": "vermeer",
     "vermeer": "vermeer",
+    "NUWAINGlobal":"nuwa",
+    "nuwa_in_global":"nuwa",
     "DUCHAMP": "duchamp",
     "TAPASGlobal":"tapas",
     "tapas_global":"tapas",
