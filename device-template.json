@@ -147,6 +147,31 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 中国台湾地区正式版",
+        "en": "Xiaomi HyperOS China Taiwan Stable"
+      },
+      "branchCode": "",
+      "idtag": "CNTP",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "14.0",
+          "release": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 国际正式版",
         "en": "Xiaomi HyperOS Global Stable"
       },
@@ -183,6 +208,31 @@
         ""
       ],
       "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "14.0",
+          "release": "",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "",
+      "idtag": "RUSO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
       "zone": "2",
       "ep": "0",
       "roms": {
