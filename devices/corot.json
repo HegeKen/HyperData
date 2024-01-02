@@ -19,7 +19,6 @@
       "show": "1",
       "carrier": [
         "",
-        "chinatelecom",
         "chinamobile",
         "chinaunicom"
       ],
@@ -32,7 +31,7 @@
           "android": "14.0",
           "release":"2023-12-26",
           "recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
-          "fastboot": ""
+          "fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_fb02072a37.tgz"
         },
         "OS1.0.5.0.UMLCNXM": {
           "os": "OS1.0.5.0.UMLCNXM",
@@ -47,6 +46,31 @@
           "release": "2023-12-01",
           "recovery": "miui_COROT_OS1.0.4.0.UMLCNXM_a5903dd20a_14.0.zip",
           "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国电信定制版",
+        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
+      },
+      "branchCode": "corot",
+      "idtag": "CnOT",
+      "branchtag": "F",
+      "show": "1",
+      "region": "cn",
+      "carrier": [
+        "chinatelecom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.7.0.UMLCNXM": {
+          "os": "OS1.0.7.0.UMLCNXM",
+          "android": "14.0",
+          "release":"2023-12-26",
+          "recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
+          "fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_chinatelecom_25652c4a14.tgz"
         }
       }
     },
