@@ -1,0 +1,40 @@
+{
+  "device": "sky",
+  "name": {
+    "zh": "Redmi 12/12R 5G/Redmi Note 12R/POCO M6 Pro 5G",
+    "en": "Redmi 12/12R 5G/Redmi Note 12R/POCO M6 Pro 5G"
+  },
+  "image": "https://data.hyperos.fans/assets/images/sky.png",
+  "type": "phone",
+  "miui": "yes",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "sky",
+      "idtag": "CnOO",
+      "branchtag": "F",
+      "show": "0",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS1.0.1.0.UMWCNXM": {
+          "os": "OS1.0.1.0.UMWCNXM",
+          "android": "14.0",
+          "release": "2024-01-03",
+          "recovery": "",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}
