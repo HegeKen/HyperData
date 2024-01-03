@@ -1,10 +1,10 @@
 {
-  "device": "sky",
+  "device": "ruby",
   "name": {
-    "zh": "Redmi 12/12R 5G/Redmi Note 12R/POCO M6 Pro 5G",
-    "en": "Redmi 12/12R 5G/Redmi Note 12R/POCO M6 Pro 5G"
+    "zh": "Redmi Note 12 Pro/Pro+/探索版",
+    "en": "Redmi Note 12 Pro/Pro+/Discovery 5G"
   },
-  "image": "https://data.hyperos.fans/assets/images/sky.png",
+  "image": "https://data.hyperos.fans/assets/images/ruby.png",
   "type": "phone",
   "miui": "yes",
   "branches": [
@@ -13,7 +13,7 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode": "sky",
+      "branchCode": "ruby",
       "idtag": "CnOO",
       "branchtag": "F",
       "show": "1",
@@ -27,11 +27,11 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "OS1.0.5.0.UMWCNXM": {
-          "os": "OS1.0.5.0.UMWCNXM",
+        "OS1.0.2.0.UMOCNXM": {
+          "os": "OS1.0.2.0.UMOCNXM",
           "android": "14.0",
           "release": "2024-01-03",
-          "recovery": "miui_SKY_OS1.0.5.0.UMWCNXM_eeb6f6c209_14.0.zip",
+          "recovery": "miui_RUBY_OS1.0.2.0.UMOCNXM_1d9030d6e5_14.0.zip",
           "fastboot": ""
         }
       }
