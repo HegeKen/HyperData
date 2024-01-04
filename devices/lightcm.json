@@ -1,10 +1,10 @@
 {
-  "device": "light",
+  "device": "lightcm",
   "name": {
-    "zh": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G",
-    "en": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G"
+    "zh": "Redmi Note 11R",
+    "en": "Redmi Note 11R"
   },
-  "image": "https://data.hyperos.fans/assets/images/light.png",
+  "image": "https://data.hyperos.fans/assets/images/lightcm.png",
   "type": "phone",
   "miui": "yes",
   "branches": [
@@ -13,10 +13,10 @@
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
-      "branchCode": "light",
+      "branchCode": "lightcm",
       "idtag": "CnOO",
       "branchtag": "F",
-      "show": "0",
+      "show": "1",
       "carrier": [
         "",
         "chinatelecom",
@@ -27,11 +27,11 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "OS1.0.5.0.ULSCNXM": {
-          "os": "OS1.0.5.0.ULSCNXM",
+        "OS1.0.6.0.ULSCNXM": {
+          "os": "OS1.0.6.0.ULSCNXM",
           "android": "14.0",
           "release": "2024-01-04",
-          "recovery": "miui_LIGHT_OS1.0.5.0.ULSCNXM_d259f29a72_14.0.zip",
+          "recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
           "fastboot": ""
         }
       }
