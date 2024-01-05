@@ -27,6 +27,13 @@
       ],
       "region": "cn",
       "roms": {
+        "OS1.0.24.1.1.DEV": {
+          "os": "OS1.0.24.1.1.DEV",
+          "android": "14.0",
+          "release": "2024-01-05",
+          "recovery": "miui_SOCRATES_OS1.0.24.1.1.DEV_93325cfd31_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.23.12.28.DEV": {
           "os": "OS1.0.23.12.28.DEV",
           "android": "14.0",
@@ -99,9 +106,9 @@
         "OS1.0.4.0.UMKCNXM": {
           "os": "OS1.0.4.0.UMKCNXM",
           "android": "14.0",
-          "release":"2023-12-27",
+          "release": "2023-12-27",
           "recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
-          "fastboot": ""
+          "fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_f8f6f8035d.tgz"
         },
         "OS1.0.3.0.UMKCNXM": {
           "os": "OS1.0.3.0.UMKCNXM",
@@ -128,6 +135,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS1.0.4.0.UMKCNXM": {
+          "os": "OS1.0.4.0.UMKCNXM",
+          "android": "14.0",
+          "release": "2023-12-27",
+          "recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
+          "fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_chinatelecom_05d2a52058.tgz"
+        },
         "OS1.0.3.0.UMKCNXM": {
           "os": "OS1.0.3.0.UMKCNXM",
           "android": "14.0",

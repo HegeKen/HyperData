@@ -27,10 +27,17 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS1.0.24.1.2.DEV": {
+          "os": "OS1.0.24.1.1.DEV",
+          "android": "14.0",
+          "release": "2024-01-05",
+          "recovery": "miui_DAUMIER_OS1.0.24.1.1.DEV_b11c66b672_14.0.zip",
+          "fastboot": ""
+        },
         "OS1.0.23.12.29.DEV": {
           "os": "OS1.0.23.12.29.DEV",
           "android": "14.0",
-          "release":"2023-12-30",
+          "release": "2023-12-30",
           "recovery": "miui_DAUMIER_OS1.0.23.12.29.DEV_5fb8a19e49_14.0.zip",
           "fastboot": ""
         },
