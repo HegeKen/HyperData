@@ -1,383 +1,362 @@
 {
-  "device": "houji",
-  "name": {
-    "zh": "小米 14",
-    "en": "Xiaomi 14"
-  },
-  "image": "https://data.hyperos.fans/assets/images/houji.png",
-  "type": "phone",
-  "miui": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "houji",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.24.1.3.DEV": {
-          "os": "OS1.0.24.1.3.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_HOUJI_OS1.0.24.1.3.DEV_2db3744471_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.26.DEV": {
-          "os": "OS1.0.23.12.26.DEV",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_HOUJI_OS1.0.23.12.26.DEV_460c816414_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.19.DEV": {
-          "os": "OS1.0.23.12.19.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_HOUJI_OS1.0.23.12.19.DEV_e445aabccb_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.13.DEV": {
-          "os": "OS1.0.23.12.13.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_HOUJI_OS1.0.23.12.13.DEV_586d99bdd3_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.9.DEV": {
-          "os": "OS1.0.23.12.9.DEV",
-          "android": "14.0",
-          "release": "2023-12-10",
-          "recovery": "miui_HOUJI_OS1.0.23.12.9.DEV_70cf9970e7_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.5.DEV": {
-          "os": "OS1.0.23.12.5.DEV",
-          "android": "14.0",
-          "release": "2023-12-08",
-          "recovery": "miui_HOUJI_OS1.0.23.12.5.DEV_5c74241c01_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.30.DEV": {
-          "os": "OS1.0.23.11.30.DEV",
-          "android": "14.0",
-          "release": "2023-12-01",
-          "recovery": "miui_HOUJI_OS1.0.23.11.30.DEV_0946571126_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.24.DEV": {
-          "os": "OS1.0.23.11.24.DEV",
-          "android": "14.0",
-          "release": "2023-11-26",
-          "recovery": "miui_HOUJI_OS1.0.23.11.24.DEV_9e9a3eda3c_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.21.DEV": {
-          "os": "OS1.0.23.11.21.DEV",
-          "android": "14.0",
-          "release": "2023-11-25",
-          "recovery": "miui_HOUJI_OS1.0.23.11.21.DEV_4f98371eb4_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.17.DEV": {
-          "os": "OS1.0.23.11.17.DEV",
-          "android": "14.0",
-          "release": "2023-11-21",
-          "recovery": "miui_HOUJI_OS1.0.23.11.17.DEV_29392fdef6_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.13.DEV": {
-          "os": "OS1.0.23.11.13.DEV",
-          "android": "14.0",
-          "release": "2023-11-14",
-          "recovery": "miui_HOUJI_OS1.0.23.11.13.DEV_d60d299f07_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.8.DEV": {
-          "os": "OS1.0.23.11.8.DEV",
-          "android": "14.0",
-          "release": "2023-11-08",
-          "recovery": "miui_HOUJI_OS1.0.23.11.8.DEV_ae3ae896e0_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.4.DEV": {
-          "os": "OS1.0.23.11.4.DEV",
-          "android": "14.0",
-          "release": "2023-11-06",
-          "recovery": "miui_HOUJI_OS1.0.23.11.4.DEV_913d4e0f5d_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.10.25.DEV": {
-          "os": "OS1.0.23.10.25.DEV",
-          "android": "14.0",
-          "release": "2023-10-31",
-          "recovery": "miui_HOUJI_OS1.0.23.10.25.DEV_e8d956b7dd_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "houji",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "carrier": [
-        "",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "roms": {
-        "OS1.0.28.0.UNCCNXM": {
-          "os": "OS1.0.28.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-12-28",
-          "recovery": "miui_HOUJI_OS1.0.28.0.UNCCNXM_7da71e0992_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.26.0.UNCCNXM": {
-          "os": "OS1.0.26.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-12-05",
-          "recovery": "miui_HOUJI_OS1.0.26.0.UNCCNXM_63c66c445c_14.0.zip",
-          "fastboot": "houji_images_OS1.0.26.0.UNCCNXM_20231129.0000.00_14.0_cn_5aa85646c7.tgz"
-        },
-        "OS1.0.25.0.UNCCNXM": {
-          "os": "OS1.0.25.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-28",
-          "recovery": "miui_HOUJI_OS1.0.25.0.UNCCNXM_f46161631e_14.0.zip",
-          "fastboot": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_505769914d.tgz"
-        },
-        "OS1.0.24.0.UNCCNXM": {
-          "os": "OS1.0.24.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-21",
-          "recovery": "miui_HOUJI_OS1.0.24.0.UNCCNXM_491d1bbdd1_14.0.zip",
-          "fastboot": "houji_images_OS1.0.24.0.UNCCNXM_20231119.0000.00_14.0_cn_6026623c0c.tgz"
-        },
-        "OS1.0.20.0.UNCCNXM": {
-          "os": "OS1.0.20.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-14",
-          "recovery": "miui_HOUJI_OS1.0.20.0.UNCCNXM_c1cd2893e8_14.0.zip",
-          "fastboot": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_011f071c0c.tgz"
-        },
-        "OS1.0.19.0.UNCCNXM": {
-          "os": "OS1.0.19.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-11",
-          "recovery": "miui_HOUJI_OS1.0.19.0.UNCCNXM_7abc50d61d_14.0.zip",
-          "fastboot": "houji_images_OS1.0.19.0.UNCCNXM_20231108.0000.00_14.0_cn_4bb0ad3595.tgz"
-        },
-        "OS1.0.16.0.UNCCNXM": {
-          "os": "OS1.0.16.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-05",
-          "recovery": "miui_HOUJI_OS1.0.16.0.UNCCNXM_5740a43ba8_14.0.zip",
-          "fastboot": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_eb34b99573.tgz"
-        },
-        "OS1.0.14.0.UNCCNXM": {
-          "os": "OS1.0.14.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-02",
-          "recovery": "miui_HOUJI_OS1.0.14.0.UNCCNXM_8cdf08a0dc_14.0.zip",
-          "fastboot": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_351331f7e8.tgz"
-        },
-        "OS1.0.11.0.UNCCNXM": {
-          "os": "OS1.0.11.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-10-31",
-          "recovery": "miui_HOUJI_OS1.0.11.0.UNCCNXM_8541c46b8d_14.0.zip",
-          "fastboot": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_56450e8e69.tgz"
-        },
-        "OS1.0.9.0.UNCCNXM": {
-          "os": "OS1.0.9.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-10-26",
-          "recovery": "miui_HOUJI_OS1.0.9.0.UNCCNXM_e5644d702d_14.0.zip",
-          "fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_f1003ae985.tgz"
-        },
-        "OS1.0.6.0.UNCCNXM": {
-          "os": "OS1.0.6.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-10-26",
-          "recovery": "miui_HOUJI_OS1.0.6.0.UNCCNXM_3461cbcbc7_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "houji",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.26.0.UNCCNXM": {
-          "os": "OS1.0.26.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-12-05",
-          "recovery": "miui_HOUJI_OS1.0.26.0.UNCCNXM_63c66c445c_14.0.zip",
-          "fastboot": "houji_images_OS1.0.26.0.UNCCNXM_20231129.0000.00_14.0_cn_chinatelecom_6e5db33a40.tgz"
-        },
-        "OS1.0.25.0.UNCCNXM": {
-          "os": "OS1.0.25.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-28",
-          "recovery": "miui_HOUJI_OS1.0.25.0.UNCCNXM_f46161631e_14.0.zip",
-          "fastboot": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_chinatelecom_32cf23459b.tgz"
-        },
-        "OS1.0.24.0.UNCCNXM": {
-          "os": "OS1.0.24.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-21",
-          "recovery": "miui_HOUJI_OS1.0.24.0.UNCCNXM_491d1bbdd1_14.0.zip",
-          "fastboot": "houji_images_OS1.0.24.0.UNCCNXM_20231119.0000.00_14.0_cn_chinatelecom_a60ff07b8a.tgz"
-        },
-        "OS1.0.20.0.UNCCNXM": {
-          "os": "OS1.0.20.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-14",
-          "recovery": "miui_HOUJI_OS1.0.20.0.UNCCNXM_c1cd2893e8_14.0.zip",
-          "fastboot": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_chinatelecom_edabb5a52a.tgz"
-        },
-        "OS1.0.19.0.UNCCNXM": {
-          "os": "OS1.0.19.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-11",
-          "recovery": "miui_HOUJI_OS1.0.19.0.UNCCNXM_7abc50d61d_14.0.zip",
-          "fastboot": "houji_images_OS1.0.19.0.UNCCNXM_20231108.0000.00_14.0_cn_chinatelecom_3d711663c0.tgz"
-        },
-        "OS1.0.16.0.UNCCNXM": {
-          "os": "OS1.0.16.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-05",
-          "recovery": "miui_HOUJI_OS1.0.16.0.UNCCNXM_5740a43ba8_14.0.zip",
-          "fastboot": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_chinatelecom_390762285b.tgz"
-        },
-        "OS1.0.14.0.UNCCNXM": {
-          "os": "OS1.0.14.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-11-02",
-          "recovery": "miui_HOUJI_OS1.0.14.0.UNCCNXM_8cdf08a0dc_14.0.zip",
-          "fastboot": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_chinatelecom_c79025dc55.tgz"
-        },
-        "OS1.0.11.0.UNCCNXM": {
-          "os": "OS1.0.11.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-10-31",
-          "recovery": "miui_HOUJI_OS1.0.11.0.UNCCNXM_8541c46b8d_14.0.zip",
-          "fastboot": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_chinatelecom_68ae90d90f.tgz"
-        },
-        "OS1.0.9.0.UNCCNXM": {
-          "os": "OS1.0.9.0.UNCCNXM",
-          "android": "14.0",
-          "release": "2023-10-26",
-          "recovery": "miui_HOUJI_OS1.0.9.0.UNCCNXM_e5644d702d_14.0.zip",
-          "fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_chinatelecom_3a7f003707.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "houji",
-      "idtag": "CnOD",
-      "branchtag": "F",
-      "show": "0",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.5.0.UNCCNDM": {
-          "os": "OS1.0.5.0.UNCCNDM",
-          "android": "14.0",
-          "release": "2023-11-01",
-          "recovery": "miui_HOUJIDEMO_OS1.0.5.0.UNCCNDM_20b7f5532c_14.0.zip",
-          "fastboot": "houji_demo_images_OS1.0.5.0.UNCCNDM_20231101.0000.00_14.0_cn_5432e2ba63.tgz",
-          "ctelecom": "houji_demo_images_OS1.0.5.0.UNCCNDM_20231101.0000.00_14.0_cn_chinatelecom_385c291e85.tgz"
-        },
-        "OS1.0.3.0.UNCCNDM": {
-          "os": "OS1.0.3.0.UNCCNDM",
-          "android": "14.0",
-          "release": "2023-10-30",
-          "recovery": "miui_HOUJIDEMO_OS1.0.3.0.UNCCNDM_685fca3573_14.0.zip",
-          "fastboot": "houji_demo_images_OS1.0.3.0.UNCCNDM_20231030.0000.00_14.0_cn_a9a11f9ed7.tgz",
-          "ctelecom": "houji_demo_images_OS1.0.3.0.UNCCNDM_20231030.0000.00_14.0_cn_chinatelecom_8a3901317e.tgz"
-        },
-        "OS1.0.2.0.UNCCNDM": {
-          "os": "OS1.0.2.0.UNCCNDM",
-          "android": "14.0",
-          "release": "2023-10-24",
-          "recovery": "miui_HOUJIDEMO_OS1.0.2.0.UNCCNDM_70b4b0894b_14.0.zip",
-          "fastboot": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_e802ade132.tgz",
-          "ctelecom": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_chinatelecom_36f7b6dc15.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 企业定制版",
-        "en": "Xiaomi HyperOS Enterprise Standard"
-      },
-      "branchCode": "houji_ep_stdee",
-      "idtag": "EPSTD",
-      "branchtag": "F",
-      "show": "0",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "1",
-      "roms": {
-        "OS1.0.23.12.21.EP.STDEE.N3": {
-          "os": "OS1.0.23.12.21.EP.STDEE.N3",
-          "android": "14.0",
-          "release": "2023-12-20",
-          "recovery": "miui_HOUJIEPSTDEE_OS1.0.23.12.21.EP.STDEE.N3_377fa1abbb_14.0.zip",
-          "fastboot": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_21c76335ba.tgz",
-          "ctelecom": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_chinatelecom_bac315cbed.tgz"
-        }
-      }
-    }
-  ]
+	"device": "houji",
+	"name": {
+		"zh": "小米 14",
+		"en": "Xiaomi 14"
+	},
+	"image": "https://data.hyperos.fans/assets/images/houji.png",
+	"type": "phone",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "houji",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.24.1.3.DEV": {
+					"os": "OS1.0.24.1.3.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_HOUJI_OS1.0.24.1.3.DEV_2db3744471_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.26.DEV": {
+					"os": "OS1.0.23.12.26.DEV",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_HOUJI_OS1.0.23.12.26.DEV_460c816414_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.19.DEV": {
+					"os": "OS1.0.23.12.19.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_HOUJI_OS1.0.23.12.19.DEV_e445aabccb_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.13.DEV": {
+					"os": "OS1.0.23.12.13.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_HOUJI_OS1.0.23.12.13.DEV_586d99bdd3_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.9.DEV": {
+					"os": "OS1.0.23.12.9.DEV",
+					"android": "14.0",
+					"release": "2023-12-10",
+					"recovery": "miui_HOUJI_OS1.0.23.12.9.DEV_70cf9970e7_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.5.DEV": {
+					"os": "OS1.0.23.12.5.DEV",
+					"android": "14.0",
+					"release": "2023-12-08",
+					"recovery": "miui_HOUJI_OS1.0.23.12.5.DEV_5c74241c01_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.30.DEV": {
+					"os": "OS1.0.23.11.30.DEV",
+					"android": "14.0",
+					"release": "2023-12-01",
+					"recovery": "miui_HOUJI_OS1.0.23.11.30.DEV_0946571126_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.24.DEV": {
+					"os": "OS1.0.23.11.24.DEV",
+					"android": "14.0",
+					"release": "2023-11-26",
+					"recovery": "miui_HOUJI_OS1.0.23.11.24.DEV_9e9a3eda3c_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.21.DEV": {
+					"os": "OS1.0.23.11.21.DEV",
+					"android": "14.0",
+					"release": "2023-11-25",
+					"recovery": "miui_HOUJI_OS1.0.23.11.21.DEV_4f98371eb4_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.17.DEV": {
+					"os": "OS1.0.23.11.17.DEV",
+					"android": "14.0",
+					"release": "2023-11-21",
+					"recovery": "miui_HOUJI_OS1.0.23.11.17.DEV_29392fdef6_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.13.DEV": {
+					"os": "OS1.0.23.11.13.DEV",
+					"android": "14.0",
+					"release": "2023-11-14",
+					"recovery": "miui_HOUJI_OS1.0.23.11.13.DEV_d60d299f07_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.8.DEV": {
+					"os": "OS1.0.23.11.8.DEV",
+					"android": "14.0",
+					"release": "2023-11-08",
+					"recovery": "miui_HOUJI_OS1.0.23.11.8.DEV_ae3ae896e0_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.4.DEV": {
+					"os": "OS1.0.23.11.4.DEV",
+					"android": "14.0",
+					"release": "2023-11-06",
+					"recovery": "miui_HOUJI_OS1.0.23.11.4.DEV_913d4e0f5d_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.10.25.DEV": {
+					"os": "OS1.0.23.10.25.DEV",
+					"android": "14.0",
+					"release": "2023-10-31",
+					"recovery": "miui_HOUJI_OS1.0.23.10.25.DEV_e8d956b7dd_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "houji",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"roms": {
+				"OS1.0.28.0.UNCCNXM": {
+					"os": "OS1.0.28.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-12-28",
+					"recovery": "miui_HOUJI_OS1.0.28.0.UNCCNXM_7da71e0992_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.26.0.UNCCNXM": {
+					"os": "OS1.0.26.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-12-05",
+					"recovery": "miui_HOUJI_OS1.0.26.0.UNCCNXM_63c66c445c_14.0.zip",
+					"fastboot": "houji_images_OS1.0.26.0.UNCCNXM_20231129.0000.00_14.0_cn_5aa85646c7.tgz"
+				},
+				"OS1.0.25.0.UNCCNXM": {
+					"os": "OS1.0.25.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-28",
+					"recovery": "miui_HOUJI_OS1.0.25.0.UNCCNXM_f46161631e_14.0.zip",
+					"fastboot": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_505769914d.tgz"
+				},
+				"OS1.0.24.0.UNCCNXM": {
+					"os": "OS1.0.24.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-21",
+					"recovery": "miui_HOUJI_OS1.0.24.0.UNCCNXM_491d1bbdd1_14.0.zip",
+					"fastboot": "houji_images_OS1.0.24.0.UNCCNXM_20231119.0000.00_14.0_cn_6026623c0c.tgz"
+				},
+				"OS1.0.20.0.UNCCNXM": {
+					"os": "OS1.0.20.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-14",
+					"recovery": "miui_HOUJI_OS1.0.20.0.UNCCNXM_c1cd2893e8_14.0.zip",
+					"fastboot": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_011f071c0c.tgz"
+				},
+				"OS1.0.19.0.UNCCNXM": {
+					"os": "OS1.0.19.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-11",
+					"recovery": "miui_HOUJI_OS1.0.19.0.UNCCNXM_7abc50d61d_14.0.zip",
+					"fastboot": "houji_images_OS1.0.19.0.UNCCNXM_20231108.0000.00_14.0_cn_4bb0ad3595.tgz"
+				},
+				"OS1.0.16.0.UNCCNXM": {
+					"os": "OS1.0.16.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-05",
+					"recovery": "miui_HOUJI_OS1.0.16.0.UNCCNXM_5740a43ba8_14.0.zip",
+					"fastboot": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_eb34b99573.tgz"
+				},
+				"OS1.0.14.0.UNCCNXM": {
+					"os": "OS1.0.14.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-02",
+					"recovery": "miui_HOUJI_OS1.0.14.0.UNCCNXM_8cdf08a0dc_14.0.zip",
+					"fastboot": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_351331f7e8.tgz"
+				},
+				"OS1.0.11.0.UNCCNXM": {
+					"os": "OS1.0.11.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-10-31",
+					"recovery": "miui_HOUJI_OS1.0.11.0.UNCCNXM_8541c46b8d_14.0.zip",
+					"fastboot": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_56450e8e69.tgz"
+				},
+				"OS1.0.9.0.UNCCNXM": {
+					"os": "OS1.0.9.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-10-26",
+					"recovery": "miui_HOUJI_OS1.0.9.0.UNCCNXM_e5644d702d_14.0.zip",
+					"fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_f1003ae985.tgz"
+				},
+				"OS1.0.6.0.UNCCNXM": {
+					"os": "OS1.0.6.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-10-26",
+					"recovery": "miui_HOUJI_OS1.0.6.0.UNCCNXM_3461cbcbc7_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "houji",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["chinatelecom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.26.0.UNCCNXM": {
+					"os": "OS1.0.26.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-12-05",
+					"recovery": "miui_HOUJI_OS1.0.26.0.UNCCNXM_63c66c445c_14.0.zip",
+					"fastboot": "houji_images_OS1.0.26.0.UNCCNXM_20231129.0000.00_14.0_cn_chinatelecom_6e5db33a40.tgz"
+				},
+				"OS1.0.25.0.UNCCNXM": {
+					"os": "OS1.0.25.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-28",
+					"recovery": "miui_HOUJI_OS1.0.25.0.UNCCNXM_f46161631e_14.0.zip",
+					"fastboot": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_chinatelecom_32cf23459b.tgz"
+				},
+				"OS1.0.24.0.UNCCNXM": {
+					"os": "OS1.0.24.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-21",
+					"recovery": "miui_HOUJI_OS1.0.24.0.UNCCNXM_491d1bbdd1_14.0.zip",
+					"fastboot": "houji_images_OS1.0.24.0.UNCCNXM_20231119.0000.00_14.0_cn_chinatelecom_a60ff07b8a.tgz"
+				},
+				"OS1.0.20.0.UNCCNXM": {
+					"os": "OS1.0.20.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-14",
+					"recovery": "miui_HOUJI_OS1.0.20.0.UNCCNXM_c1cd2893e8_14.0.zip",
+					"fastboot": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_chinatelecom_edabb5a52a.tgz"
+				},
+				"OS1.0.19.0.UNCCNXM": {
+					"os": "OS1.0.19.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-11",
+					"recovery": "miui_HOUJI_OS1.0.19.0.UNCCNXM_7abc50d61d_14.0.zip",
+					"fastboot": "houji_images_OS1.0.19.0.UNCCNXM_20231108.0000.00_14.0_cn_chinatelecom_3d711663c0.tgz"
+				},
+				"OS1.0.16.0.UNCCNXM": {
+					"os": "OS1.0.16.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-05",
+					"recovery": "miui_HOUJI_OS1.0.16.0.UNCCNXM_5740a43ba8_14.0.zip",
+					"fastboot": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_chinatelecom_390762285b.tgz"
+				},
+				"OS1.0.14.0.UNCCNXM": {
+					"os": "OS1.0.14.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-11-02",
+					"recovery": "miui_HOUJI_OS1.0.14.0.UNCCNXM_8cdf08a0dc_14.0.zip",
+					"fastboot": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_chinatelecom_c79025dc55.tgz"
+				},
+				"OS1.0.11.0.UNCCNXM": {
+					"os": "OS1.0.11.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-10-31",
+					"recovery": "miui_HOUJI_OS1.0.11.0.UNCCNXM_8541c46b8d_14.0.zip",
+					"fastboot": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_chinatelecom_68ae90d90f.tgz"
+				},
+				"OS1.0.9.0.UNCCNXM": {
+					"os": "OS1.0.9.0.UNCCNXM",
+					"android": "14.0",
+					"release": "2023-10-26",
+					"recovery": "miui_HOUJI_OS1.0.9.0.UNCCNXM_e5644d702d_14.0.zip",
+					"fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_chinatelecom_3a7f003707.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "houji",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UNCCNDM": {
+					"os": "OS1.0.5.0.UNCCNDM",
+					"android": "14.0",
+					"release": "2023-11-01",
+					"recovery": "miui_HOUJIDEMO_OS1.0.5.0.UNCCNDM_20b7f5532c_14.0.zip",
+					"fastboot": "houji_demo_images_OS1.0.5.0.UNCCNDM_20231101.0000.00_14.0_cn_5432e2ba63.tgz",
+					"ctelecom": "houji_demo_images_OS1.0.5.0.UNCCNDM_20231101.0000.00_14.0_cn_chinatelecom_385c291e85.tgz"
+				},
+				"OS1.0.3.0.UNCCNDM": {
+					"os": "OS1.0.3.0.UNCCNDM",
+					"android": "14.0",
+					"release": "2023-10-30",
+					"recovery": "miui_HOUJIDEMO_OS1.0.3.0.UNCCNDM_685fca3573_14.0.zip",
+					"fastboot": "houji_demo_images_OS1.0.3.0.UNCCNDM_20231030.0000.00_14.0_cn_a9a11f9ed7.tgz",
+					"ctelecom": "houji_demo_images_OS1.0.3.0.UNCCNDM_20231030.0000.00_14.0_cn_chinatelecom_8a3901317e.tgz"
+				},
+				"OS1.0.2.0.UNCCNDM": {
+					"os": "OS1.0.2.0.UNCCNDM",
+					"android": "14.0",
+					"release": "2023-10-24",
+					"recovery": "miui_HOUJIDEMO_OS1.0.2.0.UNCCNDM_70b4b0894b_14.0.zip",
+					"fastboot": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_e802ade132.tgz",
+					"ctelecom": "houji_demo_images_OS1.0.2.0.UNCCNDM_20231024.0000.00_14.0_cn_chinatelecom_36f7b6dc15.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 企业定制版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "houji_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.23.12.21.EP.STDEE.N3": {
+					"os": "OS1.0.23.12.21.EP.STDEE.N3",
+					"android": "14.0",
+					"release": "2023-12-20",
+					"recovery": "miui_HOUJIEPSTDEE_OS1.0.23.12.21.EP.STDEE.N3_377fa1abbb_14.0.zip",
+					"fastboot": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_21c76335ba.tgz",
+					"ctelecom": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_chinatelecom_bac315cbed.tgz"
+				}
+			}
+		}
+	]
 }

@@ -1,88 +1,79 @@
 {
-  "device": "diting",
-  "name": {
-    "zh": "Redmi K50 至尊版/ 小米 12T Pro",
-    "en": "Redmi K50 Ultra/ Xiaomi 12T Pro"
-  },
-  "image": "https://data.hyperos.fans/assets/images/diting.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "diting",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.24.1.2.DEV": {
-          "os": "OS1.0.24.1.2.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_DITING_OS1.0.24.1.2.DEV_b34d55640c_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.25.DEV": {
-          "os": "OS1.0.23.12.25.DEV",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_DITING_OS1.0.23.12.25.DEV_ac1881aa68_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_DITING_OS1.0.23.12.18.DEV_47cd4660dc_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_DITING_OS1.0.23.12.11.DEV_839b5177fe_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "diting",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.ULFCNXM": {
-          "os": "OS1.0.2.0.ULFCNXM",
-          "android": "14.0",
-          "release": "2024-01-02",
-          "recovery": "miui_DITING_OS1.0.2.0.ULFCNXM_10cb54f830_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "diting",
+	"name": {
+		"zh": "Redmi K50 至尊版/ 小米 12T Pro",
+		"en": "Redmi K50 Ultra/ Xiaomi 12T Pro"
+	},
+	"image": "https://data.hyperos.fans/assets/images/diting.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "diting",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.24.1.2.DEV": {
+					"os": "OS1.0.24.1.2.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_DITING_OS1.0.24.1.2.DEV_b34d55640c_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.25.DEV": {
+					"os": "OS1.0.23.12.25.DEV",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_DITING_OS1.0.23.12.25.DEV_ac1881aa68_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_DITING_OS1.0.23.12.18.DEV_47cd4660dc_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_DITING_OS1.0.23.12.11.DEV_839b5177fe_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "diting",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULFCNXM": {
+					"os": "OS1.0.2.0.ULFCNXM",
+					"android": "14.0",
+					"release": "2024-01-02",
+					"recovery": "miui_DITING_OS1.0.2.0.ULFCNXM_10cb54f830_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

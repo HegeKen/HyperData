@@ -1,62 +1,58 @@
 {
-  "device": "aristotle",
-  "name": {
-    "zh": "小米 13T",
-    "en": "Xiaomi 13T"
-  },
-  "image": "https://data.hyperos.fans/assets/images/aristotle.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "aristotle_global",
-      "idtag": "GBOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.1.0.UMFMIXM": {
-          "os": "OS1.0.1.0.UMFMIXM",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_ARISTOTLEGlobal_OS1.0.1.0.UMFMIXM_ad04bfe71b_14.0..zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "aristotle_eea_global",
-      "idtag": "EEAO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.UMFEUXM": {
-          "os": "OS1.0.2.0.UMFEUXM",
-          "android": "14.0",
-          "release": "2023-12-26",
-          "recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.2.0.UMFEUXM_ca0b73db89_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "aristotle",
+	"name": {
+		"zh": "小米 13T",
+		"en": "Xiaomi 13T"
+	},
+	"image": "https://data.hyperos.fans/assets/images/aristotle.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "aristotle_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMFMIXM": {
+					"os": "OS1.0.1.0.UMFMIXM",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_ARISTOTLEGlobal_OS1.0.1.0.UMFMIXM_ad04bfe71b_14.0..zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "aristotle_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMFEUXM": {
+					"os": "OS1.0.2.0.UMFEUXM",
+					"android": "14.0",
+					"release": "2023-12-26",
+					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.2.0.UMFEUXM_ca0b73db89_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

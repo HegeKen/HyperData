@@ -1,61 +1,56 @@
 {
-  "device": "ingres",
-  "name": {
-    "zh": "Redmi K50 电竞版/ POCO F4 GT",
-    "en": "Redmi K50G/ POCO F4 GT"
-  },
-  "image": "https://data.hyperos.fans/assets/images/ingres.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "ingres",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.24.1.2.DEV": {
-          "os": "OS1.0.24.1.2.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_INGRES_OS1.0.24.1.2.DEV_c051c8ad39_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.25.DEV": {
-          "os": "OS1.0.23.12.25.DEV",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_INGRES_OS1.0.23.12.25.DEV_74c3551093_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_INGRES_OS1.0.23.12.18.DEV_a0340f1519_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_INGRES_OS1.0.23.12.11.DEV_bd19e284bd_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "ingres",
+	"name": {
+		"zh": "Redmi K50 电竞版/ POCO F4 GT",
+		"en": "Redmi K50G/ POCO F4 GT"
+	},
+	"image": "https://data.hyperos.fans/assets/images/ingres.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "ingres",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.24.1.2.DEV": {
+					"os": "OS1.0.24.1.2.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_INGRES_OS1.0.24.1.2.DEV_c051c8ad39_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.25.DEV": {
+					"os": "OS1.0.23.12.25.DEV",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_INGRES_OS1.0.23.12.25.DEV_74c3551093_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_INGRES_OS1.0.23.12.18.DEV_a0340f1519_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_INGRES_OS1.0.23.12.11.DEV_bd19e284bd_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

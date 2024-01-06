@@ -1,37 +1,35 @@
 {
-  "device": "tapas",
-  "name": {
-    "zh": "Redmi Note 12 4G 国际",
-    "en": "Redmi Note 12 4G"
-  },
-  "image": "https://data.hyperos.fans/assets/images/tapas.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "tapas_global",
-      "idtag": "GBOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.UMTMIXM": {
-          "os": "OS1.0.2.0.UMTMIXM",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_TAPASGlobal_OS1.0.2.0.UMTMIXM_9d39c3791b_14.0.zip",
-          "fastboot": "tapas_global_images_OS1.0.2.0.UMTMIXM_20231210.0000.00_14.0_global_ec388df263.tgz"
-        }
-      }
-    }
-  ]
+	"device": "tapas",
+	"name": {
+		"zh": "Redmi Note 12 4G 国际",
+		"en": "Redmi Note 12 4G"
+	},
+	"image": "https://data.hyperos.fans/assets/images/tapas.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "tapas_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMTMIXM": {
+					"os": "OS1.0.2.0.UMTMIXM",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_TAPASGlobal_OS1.0.2.0.UMTMIXM_9d39c3791b_14.0.zip",
+					"fastboot": "tapas_global_images_OS1.0.2.0.UMTMIXM_20231210.0000.00_14.0_global_ec388df263.tgz"
+				}
+			}
+		}
+	]
 }

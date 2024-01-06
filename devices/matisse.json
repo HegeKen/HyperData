@@ -1,61 +1,56 @@
 {
-  "device": "matisse",
-  "name": {
-    "zh": "Redmi K50 Pro",
-    "en": "Redmi K50 Pro"
-  },
-  "image": "https://data.hyperos.fans/assets/images/matisse.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "matisse",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.24.1.1.DEV": {
-          "os": "OS1.0.24.1.1.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_MATISSE_OS1.0.24.1.1.DEV_d2fb251fa1_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.29.DEV": {
-          "os": "OS1.0.23.12.29.DEV",
-          "android": "14.0",
-          "release": "2023-12-30",
-          "recovery": "miui_MATISSE_OS1.0.23.12.29.DEV_2dff2b60ab_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_MATISSE_OS1.0.23.12.18.DEV_65b685bd24_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_MATISSE_OS1.0.23.12.11.DEV_1b742f14fb_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "matisse",
+	"name": {
+		"zh": "Redmi K50 Pro",
+		"en": "Redmi K50 Pro"
+	},
+	"image": "https://data.hyperos.fans/assets/images/matisse.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "matisse",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.24.1.1.DEV": {
+					"os": "OS1.0.24.1.1.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_MATISSE_OS1.0.24.1.1.DEV_d2fb251fa1_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.29.DEV": {
+					"os": "OS1.0.23.12.29.DEV",
+					"android": "14.0",
+					"release": "2023-12-30",
+					"recovery": "miui_MATISSE_OS1.0.23.12.29.DEV_2dff2b60ab_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_MATISSE_OS1.0.23.12.18.DEV_65b685bd24_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_MATISSE_OS1.0.23.12.11.DEV_1b742f14fb_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

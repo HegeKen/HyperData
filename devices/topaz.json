@@ -1,37 +1,35 @@
 {
-  "device": "topaz",
-  "name": {
-    "zh": "Redmi Note 12 4G NFC 国际",
-    "en": "Redmi Note 12 4G NFC"
-  },
-  "image": "https://data.hyperos.fans/assets/images/topaz.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "topaz_global",
-      "idtag": "GBOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.UMGMIXM": {
-          "os": "OS1.0.2.0.UMGMIXM",
-          "android": "14.0",
-          "release": "2023-12-18",
-          "recovery": "miui_TOPAZGlobal_OS1.0.2.0.UMGMIXM_0d2645dd48_14.0.zip",
-          "fastboot": "topaz_global_images_OS1.0.2.0.UMGMIXM_20231210.0000.00_14.0_global_7e99fdad86.tgz"
-        }
-      }
-    }
-  ]
+	"device": "topaz",
+	"name": {
+		"zh": "Redmi Note 12 4G NFC 国际",
+		"en": "Redmi Note 12 4G NFC"
+	},
+	"image": "https://data.hyperos.fans/assets/images/topaz.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "topaz_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMGMIXM": {
+					"os": "OS1.0.2.0.UMGMIXM",
+					"android": "14.0",
+					"release": "2023-12-18",
+					"recovery": "miui_TOPAZGlobal_OS1.0.2.0.UMGMIXM_0d2645dd48_14.0.zip",
+					"fastboot": "topaz_global_images_OS1.0.2.0.UMGMIXM_20231210.0000.00_14.0_global_7e99fdad86.tgz"
+				}
+			}
+		}
+	]
 }

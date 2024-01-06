@@ -1,61 +1,56 @@
 {
-  "device": "daumier",
-  "name": {
-    "zh": "小米 12 Pro 天玑版",
-    "en": "Xiaomi 12 Pro Dimensity"
-  },
-  "image": "https://data.hyperos.fans/assets/images/daumier.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "daumier",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.24.1.2.DEV": {
-          "os": "OS1.0.24.1.1.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_DAUMIER_OS1.0.24.1.1.DEV_b11c66b672_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.29.DEV": {
-          "os": "OS1.0.23.12.29.DEV",
-          "android": "14.0",
-          "release": "2023-12-30",
-          "recovery": "miui_DAUMIER_OS1.0.23.12.29.DEV_5fb8a19e49_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_DAUMIER_OS1.0.23.12.18.DEV_4174b9f85e_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_DAUMIER_OS1.0.23.12.11.DEV_44b95b9c89_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "daumier",
+	"name": {
+		"zh": "小米 12 Pro 天玑版",
+		"en": "Xiaomi 12 Pro Dimensity"
+	},
+	"image": "https://data.hyperos.fans/assets/images/daumier.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "daumier",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.24.1.2.DEV": {
+					"os": "OS1.0.24.1.1.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_DAUMIER_OS1.0.24.1.1.DEV_b11c66b672_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.29.DEV": {
+					"os": "OS1.0.23.12.29.DEV",
+					"android": "14.0",
+					"release": "2023-12-30",
+					"recovery": "miui_DAUMIER_OS1.0.23.12.29.DEV_5fb8a19e49_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_DAUMIER_OS1.0.23.12.18.DEV_4174b9f85e_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_DAUMIER_OS1.0.23.12.11.DEV_44b95b9c89_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

@@ -1,277 +1,253 @@
 {
-  "device": "ishtar",
-  "name": {
-    "zh": "小米 13 Ultra",
-    "en": "Xiaomi 13 Ultra"
-  },
-  "image": "https://data.hyperos.fans/assets/images/ishtar.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "ishtar",
-      "branchtag": "X",
-      "idtag": "Dev",
-      "show": "1",
-      "zone": "1",
-      "ep": "0",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "roms": {
-        "OS1.0.24.1.1.DEV": {
-          "os": "OS1.0.24.1.1.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_ISHTAR_OS1.0.24.1.1.DEV_cabefcb2a8_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.28.DEV": {
-          "os": "OS1.0.23.12.28.DEV",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_ISHTAR_OS1.0.23.12.28.DEV_1c92ec69ef_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_ISHTAR_OS1.0.23.12.18.DEV_caeb412ffa_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_ISHTAR_OS1.0.23.12.11.DEV_73d2cc9d6b_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.4.DEV": {
-          "os": "OS1.0.23.12.4.DEV",
-          "android": "14.0",
-          "release": "2023-12-08",
-          "recovery": "miui_ISHTAR_OS1.0.23.12.4.DEV_87ecdce7b8_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.27.DEV": {
-          "os": "OS1.0.23.11.27.DEV",
-          "android": "14.0",
-          "release": "2023-12-01",
-          "recovery": "miui_ISHTAR_OS1.0.23.11.27.DEV_12021bcb05_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.19.DEV": {
-          "os": "OS1.0.23.11.19.DEV",
-          "android": "14.0",
-          "release": "2023-11-21",
-          "recovery": "miui_ISHTAR_OS1.0.23.11.19.DEV_ffe3075ca2_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.8.DEV": {
-          "os": "OS1.0.23.11.8.DEV",
-          "android": "14.0",
-          "release": "2023-11-08",
-          "recovery": "miui_ISHTAR_OS1.0.23.11.8.DEV_b8a5193d86_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "ishtar",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.4.0.UMACNXM": {
-          "os": "OS1.0.4.0.UMACNXM",
-          "android": "14.0",
-          "release": "2023-12-08",
-          "recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
-          "fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_7c393332f6.tgz"
-        },
-        "OS1.0.3.0.UMACNXM": {
-          "os": "OS1.0.3.0.UMACNXM",
-          "android": "14.0",
-          "release": "2023-12-01",
-          "recovery": "miui_ISHTAR_OS1.0.3.0.UMACNXM_0c07956c1f_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "ishtar",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "1",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.4.0.UMACNXM": {
-          "os": "OS1.0.4.0.UMACNXM",
-          "android": "14.0",
-          "release": "2023-12-08",
-          "recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
-          "fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_chinatelecom_2d6b6880e6.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "ishtar_demo",
-      "idtag": "CnOD",
-      "branchtag": "F",
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.1.0.UMACNDM": {
-          "os": "OS1.0.1.0.UMACNDM",
-          "android": "14.0",
-          "release": "2023-12-27",
-          "recovery": "miui_ISHTARDEMO_OS1.0.1.0.UMACNDM_03ddb52acc_14.0.zip",
-          "fastboot": "ishtar_demo_images_OS1.0.1.0.UMACNDM_20231218.0000.00_14.0_cn_347b0be2aa.tgz",
-          "ctelecom": "ishtar_demo_images_OS1.0.1.0.UMACNDM_20231218.0000.00_14.0_cn_chinatelecom_97e1dcc2c8.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾地区正式版",
-        "en": "Xiaomi HyperOS China Taiwan Stable"
-      },
-      "branchCode": "ishtar_tw_global",
-      "idtag": "CNTP",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.1.0.UMATWXM": {
-          "os": "OS1.0.1.0.UMATWXM",
-          "android": "14.0",
-          "release": "2024-01-02",
-          "recovery": "miui_ISHTARTWGlobal_OS1.0.1.0.UMATWXM_a0944d81ad_14.0.zip",
-          "fastboot": "ishtar_tw_global_images_OS1.0.1.0.UMATWXM_20231215.0000.00_14.0_tw_ac8520c5ed.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "ishtar_global",
-      "idtag": "GBOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.4.0.UMAMIXM": {
-          "os": "OS1.0.4.0.UMAMIXM",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_ISHTARGlobal_OS1.0.4.0.UMAMIXM_2835e1645d_14.0.zip",
-          "fastboot": "ishtar_global_images_OS1.0.4.0.UMAMIXM_20231216.0000.00_14.0_global_6fec907a05.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "ishtar_eea_global",
-      "idtag": "EEAO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.5.0.UMAEUXM": {
-          "os": "OS1.0.5.0.UMAEUXM",
-          "android": "14.0",
-          "release": "2023-12-18",
-          "recovery": "miui_ISHTAREEAGlobal_OS1.0.5.0.UMAEUXM_70d6c1e142_14.0.zip",
-          "fastboot": "ishtar_eea_global_images_OS1.0.5.0.UMAEUXM_20231216.0000.00_14.0_eea_46e868df60.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "ishtar_ru_global",
-      "idtag": "RUSO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.1.0.UMARUXM": {
-          "os": "OS1.0.1.0.UMARUXM",
-          "android": "14.0",
-          "release": "2024-01-02",
-          "recovery": "miui_ISHTARRUGlobal_OS1.0.1.0.UMARUXM_01b4b76de1_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "ishtar",
+	"name": {
+		"zh": "小米 13 Ultra",
+		"en": "Xiaomi 13 Ultra"
+	},
+	"image": "https://data.hyperos.fans/assets/images/ishtar.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "ishtar",
+			"branchtag": "X",
+			"idtag": "Dev",
+			"show": "1",
+			"zone": "1",
+			"ep": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"roms": {
+				"OS1.0.24.1.1.DEV": {
+					"os": "OS1.0.24.1.1.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_ISHTAR_OS1.0.24.1.1.DEV_cabefcb2a8_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.28.DEV": {
+					"os": "OS1.0.23.12.28.DEV",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_ISHTAR_OS1.0.23.12.28.DEV_1c92ec69ef_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_ISHTAR_OS1.0.23.12.18.DEV_caeb412ffa_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_ISHTAR_OS1.0.23.12.11.DEV_73d2cc9d6b_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.4.DEV": {
+					"os": "OS1.0.23.12.4.DEV",
+					"android": "14.0",
+					"release": "2023-12-08",
+					"recovery": "miui_ISHTAR_OS1.0.23.12.4.DEV_87ecdce7b8_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.27.DEV": {
+					"os": "OS1.0.23.11.27.DEV",
+					"android": "14.0",
+					"release": "2023-12-01",
+					"recovery": "miui_ISHTAR_OS1.0.23.11.27.DEV_12021bcb05_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.19.DEV": {
+					"os": "OS1.0.23.11.19.DEV",
+					"android": "14.0",
+					"release": "2023-11-21",
+					"recovery": "miui_ISHTAR_OS1.0.23.11.19.DEV_ffe3075ca2_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.8.DEV": {
+					"os": "OS1.0.23.11.8.DEV",
+					"android": "14.0",
+					"release": "2023-11-08",
+					"recovery": "miui_ISHTAR_OS1.0.23.11.8.DEV_b8a5193d86_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "ishtar",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMACNXM": {
+					"os": "OS1.0.4.0.UMACNXM",
+					"android": "14.0",
+					"release": "2023-12-08",
+					"recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
+					"fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_7c393332f6.tgz"
+				},
+				"OS1.0.3.0.UMACNXM": {
+					"os": "OS1.0.3.0.UMACNXM",
+					"android": "14.0",
+					"release": "2023-12-01",
+					"recovery": "miui_ISHTAR_OS1.0.3.0.UMACNXM_0c07956c1f_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "ishtar",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMACNXM": {
+					"os": "OS1.0.4.0.UMACNXM",
+					"android": "14.0",
+					"release": "2023-12-08",
+					"recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
+					"fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_chinatelecom_2d6b6880e6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "ishtar_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMACNDM": {
+					"os": "OS1.0.1.0.UMACNDM",
+					"android": "14.0",
+					"release": "2023-12-27",
+					"recovery": "miui_ISHTARDEMO_OS1.0.1.0.UMACNDM_03ddb52acc_14.0.zip",
+					"fastboot": "ishtar_demo_images_OS1.0.1.0.UMACNDM_20231218.0000.00_14.0_cn_347b0be2aa.tgz",
+					"ctelecom": "ishtar_demo_images_OS1.0.1.0.UMACNDM_20231218.0000.00_14.0_cn_chinatelecom_97e1dcc2c8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "ishtar_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMATWXM": {
+					"os": "OS1.0.1.0.UMATWXM",
+					"android": "14.0",
+					"release": "2024-01-02",
+					"recovery": "miui_ISHTARTWGlobal_OS1.0.1.0.UMATWXM_a0944d81ad_14.0.zip",
+					"fastboot": "ishtar_tw_global_images_OS1.0.1.0.UMATWXM_20231215.0000.00_14.0_tw_ac8520c5ed.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "ishtar_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMAMIXM": {
+					"os": "OS1.0.4.0.UMAMIXM",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_ISHTARGlobal_OS1.0.4.0.UMAMIXM_2835e1645d_14.0.zip",
+					"fastboot": "ishtar_global_images_OS1.0.4.0.UMAMIXM_20231216.0000.00_14.0_global_6fec907a05.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "ishtar_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UMAEUXM": {
+					"os": "OS1.0.5.0.UMAEUXM",
+					"android": "14.0",
+					"release": "2023-12-18",
+					"recovery": "miui_ISHTAREEAGlobal_OS1.0.5.0.UMAEUXM_70d6c1e142_14.0.zip",
+					"fastboot": "ishtar_eea_global_images_OS1.0.5.0.UMAEUXM_20231216.0000.00_14.0_eea_46e868df60.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "ishtar_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMARUXM": {
+					"os": "OS1.0.1.0.UMARUXM",
+					"android": "14.0",
+					"release": "2024-01-02",
+					"recovery": "miui_ISHTARRUGlobal_OS1.0.1.0.UMARUXM_01b4b76de1_14.0.zip",
+					"fastboot": "ishtar_ru_global_images_OS1.0.1.0.UMARUXM_20231215.0000.00_14.0_ru_c011d31aae.tgz"
+				}
+			}
+		}
+	]
 }

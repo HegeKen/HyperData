@@ -1,173 +1,160 @@
 {
-  "device": "mondrian",
-  "name": {
-    "zh": "Redmi K60/POCO F5 Pro",
-    "en": "Redmi K60/POCO F5 Pro"
-  },
-  "image": "https://data.hyperos.fans/assets/images/mondrian.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "mondrian",
-      "branchtag": "X",
-      "idtag": "Dev",
-      "show": "1",
-      "zone": "1",
-      "ep": "0",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "roms": {
-        "OS1.0.24.1.1.DEV": {
-          "os": "OS1.0.24.1.1.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_MONDRIAN_OS1.0.24.1.1.DEV_db621272bb_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.28.DEV": {
-          "os": "OS1.0.23.12.28.DEV",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_MONDRIAN_OS1.0.23.12.28.DEV_6f4a8c01d2_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_MONDRIAN_OS1.0.23.12.18.DEV_1e02bf4741_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_MONDRIAN_OS1.0.23.12.11.DEV_2cec8ee214_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.4.DEV": {
-          "os": "OS1.0.23.12.4.DEV",
-          "android": "14.0",
-          "release": "2023-12-08",
-          "recovery": "miui_MONDRIAN_OS1.0.23.12.4.DEV_70832723f8_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.27.DEV": {
-          "os": "OS1.0.23.11.27.DEV",
-          "android": "14.0",
-          "release": "2023-12-01",
-          "recovery": "miui_MONDRIAN_OS1.0.23.11.27.DEV_b3bcbba6a7_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.19.DEV": {
-          "os": "OS1.0.23.11.19.DEV",
-          "android": "14.0",
-          "release": "2023-11-21",
-          "recovery": "miui_MONDRIAN_OS1.0.23.11.19.DEV_8ad81c67a2_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.8.DEV": {
-          "os": "OS1.0.23.11.8.DEV",
-          "android": "14.0",
-          "release": "2023-11-08",
-          "recovery": "miui_MONDRIAN_OS1.0.23.11.8.DEV_afb8edb5c9_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "mondrian",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.3.0.UMNCNXM": {
-          "os": "OS1.0.3.0.UMNCNXM",
-          "android": "14.0",
-          "release": "2023-12-27",
-          "recovery": "miui_MONDRIAN_OS1.0.3.0.UMNCNXM_c4746e114f_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.2.0.UMNCNXM": {
-          "os": "OS1.0.2.0.UMNCNXM",
-          "android": "14.0",
-          "release": "2023-12-07",
-          "recovery": "miui_MONDRIAN_OS1.0.2.0.UMNCNXM_39d36cb035_14.0.zip",
-          "fastboot": "mondrian_images_OS1.0.2.0.UMNCNXM_20231129.0000.00_14.0_cn_b39e8c8e9a.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "mondrian",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "1",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.UMNCNXM": {
-          "os": "OS1.0.2.0.UMNCNXM",
-          "android": "14.0",
-          "release": "2023-12-07",
-          "recovery": "miui_MONDRIAN_OS1.0.2.0.UMNCNXM_39d36cb035_14.0.zip",
-          "fastboot": "mondrian_images_OS1.0.2.0.UMNCNXM_20231129.0000.00_14.0_cn_chinatelecom_ee13fc2cc9.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "mondrian_global",
-      "idtag": "GBOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.1.0.UMNMIXM": {
-          "os": "OS1.0.1.0.UMNMIXM",
-          "android": "14.0",
-          "release": "2023-12-21",
-          "recovery": "miui_MONDRIANGlobal_OS1.0.1.0.UMNMIXM_aca25f526d_14.0.zip",
-          "fastboot": "mondrian_global_images_OS1.0.1.0.UMNMIXM_20231207.0000.00_14.0_global_a19974f415.tgz"
-        }
-      }
-    }
-  ]
+	"device": "mondrian",
+	"name": {
+		"zh": "Redmi K60/POCO F5 Pro",
+		"en": "Redmi K60/POCO F5 Pro"
+	},
+	"image": "https://data.hyperos.fans/assets/images/mondrian.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "mondrian",
+			"branchtag": "X",
+			"idtag": "Dev",
+			"show": "1",
+			"zone": "1",
+			"ep": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"roms": {
+				"OS1.0.24.1.1.DEV": {
+					"os": "OS1.0.24.1.1.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_MONDRIAN_OS1.0.24.1.1.DEV_db621272bb_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.28.DEV": {
+					"os": "OS1.0.23.12.28.DEV",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_MONDRIAN_OS1.0.23.12.28.DEV_6f4a8c01d2_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_MONDRIAN_OS1.0.23.12.18.DEV_1e02bf4741_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_MONDRIAN_OS1.0.23.12.11.DEV_2cec8ee214_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.4.DEV": {
+					"os": "OS1.0.23.12.4.DEV",
+					"android": "14.0",
+					"release": "2023-12-08",
+					"recovery": "miui_MONDRIAN_OS1.0.23.12.4.DEV_70832723f8_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.27.DEV": {
+					"os": "OS1.0.23.11.27.DEV",
+					"android": "14.0",
+					"release": "2023-12-01",
+					"recovery": "miui_MONDRIAN_OS1.0.23.11.27.DEV_b3bcbba6a7_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.19.DEV": {
+					"os": "OS1.0.23.11.19.DEV",
+					"android": "14.0",
+					"release": "2023-11-21",
+					"recovery": "miui_MONDRIAN_OS1.0.23.11.19.DEV_8ad81c67a2_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.8.DEV": {
+					"os": "OS1.0.23.11.8.DEV",
+					"android": "14.0",
+					"release": "2023-11-08",
+					"recovery": "miui_MONDRIAN_OS1.0.23.11.8.DEV_afb8edb5c9_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "mondrian",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMNCNXM": {
+					"os": "OS1.0.3.0.UMNCNXM",
+					"android": "14.0",
+					"release": "2023-12-27",
+					"recovery": "miui_MONDRIAN_OS1.0.3.0.UMNCNXM_c4746e114f_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.2.0.UMNCNXM": {
+					"os": "OS1.0.2.0.UMNCNXM",
+					"android": "14.0",
+					"release": "2023-12-07",
+					"recovery": "miui_MONDRIAN_OS1.0.2.0.UMNCNXM_39d36cb035_14.0.zip",
+					"fastboot": "mondrian_images_OS1.0.2.0.UMNCNXM_20231129.0000.00_14.0_cn_b39e8c8e9a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "mondrian",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMNCNXM": {
+					"os": "OS1.0.2.0.UMNCNXM",
+					"android": "14.0",
+					"release": "2023-12-07",
+					"recovery": "miui_MONDRIAN_OS1.0.2.0.UMNCNXM_39d36cb035_14.0.zip",
+					"fastboot": "mondrian_images_OS1.0.2.0.UMNCNXM_20231129.0000.00_14.0_cn_chinatelecom_ee13fc2cc9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "mondrian_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMNMIXM": {
+					"os": "OS1.0.1.0.UMNMIXM",
+					"android": "14.0",
+					"release": "2023-12-21",
+					"recovery": "miui_MONDRIANGlobal_OS1.0.1.0.UMNMIXM_aca25f526d_14.0.zip",
+					"fastboot": "mondrian_global_images_OS1.0.1.0.UMNMIXM_20231207.0000.00_14.0_global_a19974f415.tgz"
+				}
+			}
+		}
+	]
 }

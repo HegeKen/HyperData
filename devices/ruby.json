@@ -1,40 +1,35 @@
 {
-  "device": "ruby",
-  "name": {
-    "zh": "Redmi Note 12 Pro/Pro+/探索版",
-    "en": "Redmi Note 12 Pro/Pro+/Discovery 5G"
-  },
-  "image": "https://data.hyperos.fans/assets/images/ruby.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "ruby",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.UMOCNXM": {
-          "os": "OS1.0.2.0.UMOCNXM",
-          "android": "14.0",
-          "release": "2024-01-03",
-          "recovery": "miui_RUBY_OS1.0.2.0.UMOCNXM_1d9030d6e5_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "ruby",
+	"name": {
+		"zh": "Redmi Note 12 Pro/Pro+/探索版",
+		"en": "Redmi Note 12 Pro/Pro+/Discovery 5G"
+	},
+	"image": "https://data.hyperos.fans/assets/images/ruby.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "ruby",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMOCNXM": {
+					"os": "OS1.0.2.0.UMOCNXM",
+					"android": "14.0",
+					"release": "2024-01-03",
+					"recovery": "miui_RUBY_OS1.0.2.0.UMOCNXM_1d9030d6e5_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

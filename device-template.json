@@ -1,274 +1,243 @@
 {
-  "device": "",
-  "name": {
-    "zh": "",
-    "en": ""
-  },
-  "image": "https://data.hyperos.fans/assets/images/xxx.png",
-  "type": "phone",
-  "miui": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "1",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "",
-      "idtag": "CnOD",
-      "branchtag": "F",
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 企业定制版",
-        "en": "Xiaomi HyperOS Enterprise Standard"
-      },
-      "branchCode": "",
-      "idtag": "EPSTD",
-      "branchtag": "F",
-      "show": "0",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "1",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾地区正式版",
-        "en": "Xiaomi HyperOS China Taiwan Stable"
-      },
-      "branchCode": "",
-      "idtag": "CNTP",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "",
-      "idtag": "GBOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "",
-      "idtag": "EEAO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "",
-      "idtag": "RUSO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度正式版",
-        "en": "Xiaomi HyperOS India Stable"
-      },
-      "branchCode": "",
-      "idtag": "INSO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "in",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "14.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "",
+	"name": {
+		"zh": "",
+		"en": ""
+	},
+	"image": "https://data.hyperos.fans/assets/images/xxx.png",
+	"type": "phone",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 企业定制版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

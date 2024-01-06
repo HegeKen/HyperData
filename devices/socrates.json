@@ -1,155 +1,144 @@
 {
-  "device": "socrates",
-  "name": {
-    "zh": "Redmi K60 Pro",
-    "en": "Redmi K60 Pro"
-  },
-  "image": "https://data.hyperos.fans/assets/images/socrates.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "socrates",
-      "branchtag": "X",
-      "idtag": "Dev",
-      "show": "1",
-      "zone": "1",
-      "ep": "0",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "roms": {
-        "OS1.0.24.1.1.DEV": {
-          "os": "OS1.0.24.1.1.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_SOCRATES_OS1.0.24.1.1.DEV_93325cfd31_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.28.DEV": {
-          "os": "OS1.0.23.12.28.DEV",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_SOCRATES_OS1.0.23.12.28.DEV_589de7205f_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_SOCRATES_OS1.0.23.12.18.DEV_81a15fd8a8_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_SOCRATES_OS1.0.23.12.11.DEV_fd996bdf8f_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.4.DEV": {
-          "os": "OS1.0.23.12.4.DEV",
-          "android": "14.0",
-          "release": "2023-12-08",
-          "recovery": "miui_SOCRATES_OS1.0.23.12.4.DEV_51cb723d41_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.27.DEV": {
-          "os": "OS1.0.23.11.27.DEV",
-          "android": "14.0",
-          "release": "2023-12-01",
-          "recovery": "miui_SOCRATES_OS1.0.23.11.27.DEV_86d11abfa0_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.19.DEV": {
-          "os": "OS1.0.23.11.19.DEV",
-          "android": "14.0",
-          "release": "2023-11-21",
-          "recovery": "miui_SOCRATES_OS1.0.23.11.19.DEV_dec1d42947_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.8.DEV": {
-          "os": "OS1.0.23.11.8.DEV",
-          "android": "14.0",
-          "release": "2023-11-08",
-          "recovery": "miui_SOCRATES_OS1.0.23.11.8.DEV_ed16b5a983_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "socrates",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.4.0.UMKCNXM": {
-          "os": "OS1.0.4.0.UMKCNXM",
-          "android": "14.0",
-          "release": "2023-12-27",
-          "recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
-          "fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_f8f6f8035d.tgz"
-        },
-        "OS1.0.3.0.UMKCNXM": {
-          "os": "OS1.0.3.0.UMKCNXM",
-          "android": "14.0",
-          "release": "2023-12-07",
-          "recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
-          "fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_09047fbce8.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "socrates",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "1",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.4.0.UMKCNXM": {
-          "os": "OS1.0.4.0.UMKCNXM",
-          "android": "14.0",
-          "release": "2023-12-27",
-          "recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
-          "fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_chinatelecom_05d2a52058.tgz"
-        },
-        "OS1.0.3.0.UMKCNXM": {
-          "os": "OS1.0.3.0.UMKCNXM",
-          "android": "14.0",
-          "release": "2023-12-07",
-          "recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
-          "fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_chinatelecom_b338139b01.tgz"
-        }
-      }
-    }
-  ]
+	"device": "socrates",
+	"name": {
+		"zh": "Redmi K60 Pro",
+		"en": "Redmi K60 Pro"
+	},
+	"image": "https://data.hyperos.fans/assets/images/socrates.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "socrates",
+			"branchtag": "X",
+			"idtag": "Dev",
+			"show": "1",
+			"zone": "1",
+			"ep": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"roms": {
+				"OS1.0.24.1.1.DEV": {
+					"os": "OS1.0.24.1.1.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_SOCRATES_OS1.0.24.1.1.DEV_93325cfd31_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.28.DEV": {
+					"os": "OS1.0.23.12.28.DEV",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_SOCRATES_OS1.0.23.12.28.DEV_589de7205f_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_SOCRATES_OS1.0.23.12.18.DEV_81a15fd8a8_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_SOCRATES_OS1.0.23.12.11.DEV_fd996bdf8f_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.4.DEV": {
+					"os": "OS1.0.23.12.4.DEV",
+					"android": "14.0",
+					"release": "2023-12-08",
+					"recovery": "miui_SOCRATES_OS1.0.23.12.4.DEV_51cb723d41_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.27.DEV": {
+					"os": "OS1.0.23.11.27.DEV",
+					"android": "14.0",
+					"release": "2023-12-01",
+					"recovery": "miui_SOCRATES_OS1.0.23.11.27.DEV_86d11abfa0_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.19.DEV": {
+					"os": "OS1.0.23.11.19.DEV",
+					"android": "14.0",
+					"release": "2023-11-21",
+					"recovery": "miui_SOCRATES_OS1.0.23.11.19.DEV_dec1d42947_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.8.DEV": {
+					"os": "OS1.0.23.11.8.DEV",
+					"android": "14.0",
+					"release": "2023-11-08",
+					"recovery": "miui_SOCRATES_OS1.0.23.11.8.DEV_ed16b5a983_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "socrates",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMKCNXM": {
+					"os": "OS1.0.4.0.UMKCNXM",
+					"android": "14.0",
+					"release": "2023-12-27",
+					"recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
+					"fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_f8f6f8035d.tgz"
+				},
+				"OS1.0.3.0.UMKCNXM": {
+					"os": "OS1.0.3.0.UMKCNXM",
+					"android": "14.0",
+					"release": "2023-12-07",
+					"recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
+					"fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_09047fbce8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "socrates",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMKCNXM": {
+					"os": "OS1.0.4.0.UMKCNXM",
+					"android": "14.0",
+					"release": "2023-12-27",
+					"recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
+					"fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_chinatelecom_05d2a52058.tgz"
+				},
+				"OS1.0.3.0.UMKCNXM": {
+					"os": "OS1.0.3.0.UMKCNXM",
+					"android": "14.0",
+					"release": "2023-12-07",
+					"recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
+					"fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_chinatelecom_b338139b01.tgz"
+				}
+			}
+		}
+	]
 }

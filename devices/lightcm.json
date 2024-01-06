@@ -1,40 +1,35 @@
 {
-  "device": "lightcm",
-  "name": {
-    "zh": "Redmi Note 11R",
-    "en": "Redmi Note 11R"
-  },
-  "image": "https://data.hyperos.fans/assets/images/lightcm.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "lightcm",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.6.0.ULSCNXM": {
-          "os": "OS1.0.6.0.ULSCNXM",
-          "android": "14.0",
-          "release": "2024-01-04",
-          "recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "lightcm",
+	"name": {
+		"zh": "Redmi Note 11R",
+		"en": "Redmi Note 11R"
+	},
+	"image": "https://data.hyperos.fans/assets/images/lightcm.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "lightcm",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.ULSCNXM": {
+					"os": "OS1.0.6.0.ULSCNXM",
+					"android": "14.0",
+					"release": "2024-01-04",
+					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

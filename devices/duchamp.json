@@ -1,128 +1,117 @@
-  {
-    "device": "duchamp",
-    "name": {
-      "zh": "Redmi K70E/ POCO X6 Pro 5G",
-      "en": "Redmi K70E/ POCO X6 Pro 5G"
-    },
-    "image": "https://data.hyperos.fans/assets/images/duchamp.png",
-    "type": "phone",
-    "miui": "no",
-    "branches": [
-      {
-        "name": {
-          "zh": "小米澎湃 OS 正式版",
-          "en": "Xiaomi HyperOS Stable"
-        },
-        "branchCode": "duchamp",
-        "idtag": "CnOO",
-        "branchtag": "F",
-        "carrier": [
-          "",
-          "chinamobile",
-          "chinaunicom"
-        ],
-        "show": "1",
-        "region": "cn",
-        "zone": "1",
-        "ep": "0",
-        "roms": {
-          "OS1.0.8.0.UNLCNXM": {
-            "os": "OS1.0.8.0.UNLCNXM",
-            "android": "14.0",
-            "release":"2023-12-28",
-            "recovery": "miui_DUCHAMP_OS1.0.8.0.UNLCNXM_9062417d30_14.0.zip",
-            "fastboot": ""
-          },
-          "OS1.0.7.0.UNLCNXM": {
-            "os": "OS1.0.7.0.UNLCNXM",
-            "android": "14.0",
-            "release": "2023-12-13",
-            "recovery": "miui_DUCHAMP_OS1.0.7.0.UNLCNXM_376a47cb7e_14.0.zip",
-            "fastboot": "duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_1cc1eed443.tgz"
-          },
-          "OS1.0.5.0.UNLCNXM": {
-            "os": "OS1.0.5.0.UNLCNXM",
-            "android": "14.0",
-            "release": "2023-11-29",
-            "recovery": "miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip",
-            "fastboot": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_8525102b04.tgz"
-          },
-          "OS1.0.4.0.UNLCNXM": {
-            "os": "OS1.0.4.0.UNLCNXM",
-            "android": "14.0",
-            "release": "2023-11-29",
-            "recovery": "miui_DUCHAMP_OS1.0.4.0.UNLCNXM_6e77720de1_14.0.zip",
-            "fastboot": ""
-          },
-          "OS1.0.1.0.UNLCNXM": {
-            "os": "OS1.0.1.0.UNLCNXM",
-            "android": "14.0",
-            "release": "2023-11-29",
-            "recovery": "miui_DUCHAMP_OS1.0.1.0.UNLCNXM_30ab04a3fe_14.0.zip",
-            "fastboot": ""
-          }
-        }
-      },
-      {
-        "name": {
-          "zh": "小米澎湃 OS 中国电信定制版",
-          "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-        },
-        "branchCode": "duchamp",
-        "idtag": "CnOT",
-        "branchtag": "F",
-        "show": "1",
-        "carrier": [
-          "chinatelecom"
-        ],
-        "region": "cn",
-        "zone": "1",
-        "ep": "0",
-        "roms": {
-          "OS1.0.7.0.UNLCNXM": {
-            "os": "OS1.0.7.0.UNLCNXM",
-            "android": "14.0",
-            "release": "2023-12-13",
-            "recovery": "miui_DUCHAMP_OS1.0.7.0.UNLCNXM_376a47cb7e_14.0.zip",
-            "fastboot": "duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_chinatelecom_d70a818dee.tgz"
-          },
-          "OS1.0.5.0.UNLCNXM": {
-            "os": "OS1.0.5.0.UNLCNXM",
-            "android": "14.0",
-            "release": "2023-11-29",
-            "recovery": "miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip",
-            "fastboot": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_chinatelecom_9113e5bd0e.tgz"
-          }
-        }
-      },
-      {
-        "name": {
-          "zh": "小米澎湃 OS 演示机系统",
-          "en": "Xiaomi HyperOS China MiStore Demo"
-        },
-        "branchCode": "duchamp_demo",
-        "idtag": "CnOD",
-        "branchtag": "F",
-        "show": "0",
-        "carrier": [
-          "",
-          "chinatelecom",
-          "chinamobile",
-          "chinaunicom"
-        ],
-        "region": "cn",
-        "zone": "1",
-        "ep": "0",
-        "roms": {
-          "OS1.0.2.0.UNLCNDM": {
-            "os": "OS1.0.2.0.UNLCNDM",
-            "android": "14.0",
-            "release": "2023-11-27",
-            "recovery": "miui_DUCHAMPDEMO_OS1.0.2.0.UNLCNDM_d1b8361509_14.0.zip",
-            "fastboot": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_25d52b4af4.tgz",
-            "ctelecom": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_chinatelecom_29e7a5afe1.tgz"
-          }
-        }
-      }
-    ]
-  }
+{
+	"device": "duchamp",
+	"name": {
+		"zh": "Redmi K70E/ POCO X6 Pro 5G",
+		"en": "Redmi K70E/ POCO X6 Pro 5G"
+	},
+	"image": "https://data.hyperos.fans/assets/images/duchamp.png",
+	"type": "phone",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "duchamp",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"show": "1",
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.8.0.UNLCNXM": {
+					"os": "OS1.0.8.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-12-28",
+					"recovery": "miui_DUCHAMP_OS1.0.8.0.UNLCNXM_9062417d30_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.7.0.UNLCNXM": {
+					"os": "OS1.0.7.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-12-13",
+					"recovery": "miui_DUCHAMP_OS1.0.7.0.UNLCNXM_376a47cb7e_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_1cc1eed443.tgz"
+				},
+				"OS1.0.5.0.UNLCNXM": {
+					"os": "OS1.0.5.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-11-29",
+					"recovery": "miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_8525102b04.tgz"
+				},
+				"OS1.0.4.0.UNLCNXM": {
+					"os": "OS1.0.4.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-11-29",
+					"recovery": "miui_DUCHAMP_OS1.0.4.0.UNLCNXM_6e77720de1_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.1.0.UNLCNXM": {
+					"os": "OS1.0.1.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-11-29",
+					"recovery": "miui_DUCHAMP_OS1.0.1.0.UNLCNXM_30ab04a3fe_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "duchamp",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["chinatelecom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UNLCNXM": {
+					"os": "OS1.0.7.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-12-13",
+					"recovery": "miui_DUCHAMP_OS1.0.7.0.UNLCNXM_376a47cb7e_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_chinatelecom_d70a818dee.tgz"
+				},
+				"OS1.0.5.0.UNLCNXM": {
+					"os": "OS1.0.5.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-11-29",
+					"recovery": "miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_chinatelecom_9113e5bd0e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "duchamp_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNLCNDM": {
+					"os": "OS1.0.2.0.UNLCNDM",
+					"android": "14.0",
+					"release": "2023-11-27",
+					"recovery": "miui_DUCHAMPDEMO_OS1.0.2.0.UNLCNDM_d1b8361509_14.0.zip",
+					"fastboot": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_25d52b4af4.tgz",
+					"ctelecom": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_chinatelecom_29e7a5afe1.tgz"
+				}
+			}
+		}
+	]
+}

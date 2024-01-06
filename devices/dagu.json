@@ -1,61 +1,56 @@
 {
-  "device": "dagu",
-  "name": {
-    "zh": "小米平板 5 Pro 12.4",
-    "en": "Xiaomi Pad 5 Pro 12.4"
-  },
-  "image": "https://data.hyperos.fans/assets/images/dagu.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "dagu",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.24.1.1.DEV": {
-          "os": "OS1.0.24.1.1.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_DAGU_OS1.0.24.1.1.DEV_e7e3f87a81_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.28.DEV": {
-          "os": "OS1.0.23.12.28.DEV",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_DAGU_OS1.0.23.12.28.DEV_19b3bcf8b5_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_DAGU_OS1.0.23.12.18.DEV_ee8a855c2f_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_DAGU_OS1.0.23.12.11.DEV_87eabfc6dc_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "dagu",
+	"name": {
+		"zh": "小米平板 5 Pro 12.4",
+		"en": "Xiaomi Pad 5 Pro 12.4"
+	},
+	"image": "https://data.hyperos.fans/assets/images/dagu.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "dagu",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.24.1.1.DEV": {
+					"os": "OS1.0.24.1.1.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_DAGU_OS1.0.24.1.1.DEV_e7e3f87a81_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.28.DEV": {
+					"os": "OS1.0.23.12.28.DEV",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_DAGU_OS1.0.23.12.28.DEV_19b3bcf8b5_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_DAGU_OS1.0.23.12.18.DEV_ee8a855c2f_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_DAGU_OS1.0.23.12.11.DEV_87eabfc6dc_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }

@@ -1,40 +1,35 @@
 {
-  "device": "yudi",
-  "name": {
-    "zh": "小米平板 6 Max 14",
-    "en": "Xiaomi Pad 6 Max 14"
-  },
-  "image": "https://data.hyperos.fans/assets/images/yudi.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "yudi",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.UMHCNXM": {
-          "os": "OS1.0.2.0.UMHCNXM",
-          "android": "14.0",
-          "release": "2023-12-07",
-          "recovery": "miui_YUDI_OS1.0.2.0.UMHCNXM_34efc69cc0_14.0.zip",
-          "fastboot": "yudi_images_OS1.0.2.0.UMHCNXM_20231124.0000.00_14.0_cn_ff52b125c5.tgz"
-        }
-      }
-    }
-  ]
+	"device": "yudi",
+	"name": {
+		"zh": "小米平板 6 Max 14",
+		"en": "Xiaomi Pad 6 Max 14"
+	},
+	"image": "https://data.hyperos.fans/assets/images/yudi.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "yudi",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMHCNXM": {
+					"os": "OS1.0.2.0.UMHCNXM",
+					"android": "14.0",
+					"release": "2023-12-07",
+					"recovery": "miui_YUDI_OS1.0.2.0.UMHCNXM_34efc69cc0_14.0.zip",
+					"fastboot": "yudi_images_OS1.0.2.0.UMHCNXM_20231124.0000.00_14.0_cn_ff52b125c5.tgz"
+				}
+			}
+		}
+	]
 }

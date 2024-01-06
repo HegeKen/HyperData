@@ -1,134 +1,123 @@
 {
-  "device": "zizhan",
-  "name": {
-    "zh": "小米 MIX FOLD 2",
-    "en": "Xiaomi MIX Fold 2"
-  },
-  "image": "https://data.hyperos.fans/assets/images/zizhan.png",
-  "type": "foldable",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 开发版",
-        "en": "Xiaomi HyperOS DEV"
-      },
-      "branchCode": "zizhan",
-      "idtag": "Dev",
-      "branchtag": "X",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.24.1.1.DEV": {
-          "os": "OS1.0.24.1.1.DEV",
-          "android": "14.0",
-          "release": "2024-01-05",
-          "recovery": "miui_ZIZHAN_OS1.0.24.1.1.DEV_4cfb1a4ed8_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.28.DEV": {
-          "os": "OS1.0.23.12.28.DEV",
-          "android": "14.0",
-          "release": "2023-12-29",
-          "recovery": "miui_ZIZHAN_OS1.0.23.12.28.DEV_e13f8f2a53_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.18.DEV": {
-          "os": "OS1.0.23.12.18.DEV",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_ZIZHAN_OS1.0.23.12.18.DEV_98446f7440_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.11.DEV": {
-          "os": "OS1.0.23.12.11.DEV",
-          "android": "14.0",
-          "release": "2023-12-15",
-          "recovery": "miui_ZIZHAN_OS1.0.23.12.11.DEV_11f6bbc1ea_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.12.4.DEV": {
-          "os": "OS1.0.23.12.4.DEV",
-          "android": "14.0",
-          "release": "2023-12-08",
-          "recovery": "miui_ZIZHAN_OS1.0.23.12.4.DEV_f16ec82d2e_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.27.DEV": {
-          "os": "OS1.0.23.11.27.DEV",
-          "android": "14.0",
-          "release": "2023-12-01",
-          "recovery": "miui_ZIZHAN_OS1.0.23.11.27.DEV_3d6c583719_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.23.11.19.DEV": {
-          "os": "OS1.0.23.11.19.DEV",
-          "android": "14.0",
-          "release": "2023-11-21",
-          "recovery": "miui_ZIZHAN_OS1.0.23.11.19.DEV_438fe40030_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "zizhan",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "carrier": [
-        "",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "show": "1",
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.ULRCNXM": {
-          "os": "OS1.0.2.0.ULRCNXM",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_ZIZHAN_OS1.0.2.0.ULRCNXM_145e69abdf_14.0.zip",
-          "fastboot": "zizhan_images_OS1.0.2.0.ULRCNXM_20231215.0000.00_14.0_cn_528c8cbe90.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "zizhan",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "1",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.ULRCNXM": {
-          "os": "OS1.0.2.0.ULRCNXM",
-          "android": "14.0",
-          "release": "2023-12-22",
-          "recovery": "miui_ZIZHAN_OS1.0.2.0.ULRCNXM_145e69abdf_14.0.zip",
-          "fastboot": "zizhan_images_OS1.0.2.0.ULRCNXM_20231215.0000.00_14.0_cn_chinatelecom_2ec41c857b.tgz"
-        }
-      }
-    }
-  ]
+	"device": "zizhan",
+	"name": {
+		"zh": "小米 MIX FOLD 2",
+		"en": "Xiaomi MIX Fold 2"
+	},
+	"image": "https://data.hyperos.fans/assets/images/zizhan.png",
+	"type": "foldable",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "zizhan",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.24.1.1.DEV": {
+					"os": "OS1.0.24.1.1.DEV",
+					"android": "14.0",
+					"release": "2024-01-05",
+					"recovery": "miui_ZIZHAN_OS1.0.24.1.1.DEV_4cfb1a4ed8_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.28.DEV": {
+					"os": "OS1.0.23.12.28.DEV",
+					"android": "14.0",
+					"release": "2023-12-29",
+					"recovery": "miui_ZIZHAN_OS1.0.23.12.28.DEV_e13f8f2a53_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.18.DEV": {
+					"os": "OS1.0.23.12.18.DEV",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_ZIZHAN_OS1.0.23.12.18.DEV_98446f7440_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.11.DEV": {
+					"os": "OS1.0.23.12.11.DEV",
+					"android": "14.0",
+					"release": "2023-12-15",
+					"recovery": "miui_ZIZHAN_OS1.0.23.12.11.DEV_11f6bbc1ea_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.12.4.DEV": {
+					"os": "OS1.0.23.12.4.DEV",
+					"android": "14.0",
+					"release": "2023-12-08",
+					"recovery": "miui_ZIZHAN_OS1.0.23.12.4.DEV_f16ec82d2e_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.27.DEV": {
+					"os": "OS1.0.23.11.27.DEV",
+					"android": "14.0",
+					"release": "2023-12-01",
+					"recovery": "miui_ZIZHAN_OS1.0.23.11.27.DEV_3d6c583719_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.23.11.19.DEV": {
+					"os": "OS1.0.23.11.19.DEV",
+					"android": "14.0",
+					"release": "2023-11-21",
+					"recovery": "miui_ZIZHAN_OS1.0.23.11.19.DEV_438fe40030_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "zizhan",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"show": "1",
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULRCNXM": {
+					"os": "OS1.0.2.0.ULRCNXM",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_ZIZHAN_OS1.0.2.0.ULRCNXM_145e69abdf_14.0.zip",
+					"fastboot": "zizhan_images_OS1.0.2.0.ULRCNXM_20231215.0000.00_14.0_cn_528c8cbe90.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "zizhan",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULRCNXM": {
+					"os": "OS1.0.2.0.ULRCNXM",
+					"android": "14.0",
+					"release": "2023-12-22",
+					"recovery": "miui_ZIZHAN_OS1.0.2.0.ULRCNXM_145e69abdf_14.0.zip",
+					"fastboot": "zizhan_images_OS1.0.2.0.ULRCNXM_20231215.0000.00_14.0_cn_chinatelecom_2ec41c857b.tgz"
+				}
+			}
+		}
+	]
 }

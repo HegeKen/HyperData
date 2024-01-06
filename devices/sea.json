@@ -1,37 +1,35 @@
 {
-  "device": "sea",
-  "name": {
-    "zh": "Redmi Note 12S 国际",
-    "en": "Redmi Note 12S"
-  },
-  "image": "https://data.hyperos.fans/assets/images/sea.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "sea_global",
-      "idtag": "GBOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.3.0.UHZMIXM": {
-          "os": "OS1.0.3.0.UHZMIXM",
-          "android": "14.0",
-          "release": "2023-12-19",
-          "recovery": "miui_SEAGlobal_OS1.0.3.0.UHZMIXM_d4c318c44e_14.0.zip",
-          "fastboot": "sea_global_images_OS1.0.3.0.UHZMIXM_20231214.0000.00_14.0_global_a0e96201a5.tgz"
-        }
-      }
-    }
-  ]
+	"device": "sea",
+	"name": {
+		"zh": "Redmi Note 12S 国际",
+		"en": "Redmi Note 12S"
+	},
+	"image": "https://data.hyperos.fans/assets/images/sea.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "sea_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UHZMIXM": {
+					"os": "OS1.0.3.0.UHZMIXM",
+					"android": "14.0",
+					"release": "2023-12-19",
+					"recovery": "miui_SEAGlobal_OS1.0.3.0.UHZMIXM_d4c318c44e_14.0.zip",
+					"fastboot": "sea_global_images_OS1.0.3.0.UHZMIXM_20231214.0000.00_14.0_global_a0e96201a5.tgz"
+				}
+			}
+		}
+	]
 }

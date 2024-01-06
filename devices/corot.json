@@ -1,103 +1,95 @@
 {
-  "device": "corot",
-  "name": {
-    "zh": "Redmi K60 至尊版/小米 13T Pro",
-    "en": "Redmi K60 Ultra/Xiaomi 13T Pro"
-  },
-  "image": "https://data.hyperos.fans/assets/images/corot.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "corot",
-      "idtag": "CnOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        "",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.7.0.UMLCNXM": {
-          "os": "OS1.0.7.0.UMLCNXM",
-          "android": "14.0",
-          "release":"2023-12-26",
-          "recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
-          "fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_fb02072a37.tgz"
-        },
-        "OS1.0.5.0.UMLCNXM": {
-          "os": "OS1.0.5.0.UMLCNXM",
-          "android": "14.0",
-          "release": "2023-12-02",
-          "recovery": "miui_COROT_OS1.0.5.0.UMLCNXM_a2e2e5f060_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.4.0.UMLCNXM": {
-          "os": "OS1.0.4.0.UMLCNXM",
-          "android": "14.0",
-          "release": "2023-12-01",
-          "recovery": "miui_COROT_OS1.0.4.0.UMLCNXM_a5903dd20a_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国电信定制版",
-        "en": "Xiaomi HyperOS China Telecom Carrier Edition"
-      },
-      "branchCode": "corot",
-      "idtag": "CnOT",
-      "branchtag": "F",
-      "show": "1",
-      "region": "cn",
-      "carrier": [
-        "chinatelecom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.7.0.UMLCNXM": {
-          "os": "OS1.0.7.0.UMLCNXM",
-          "android": "14.0",
-          "release":"2023-12-26",
-          "recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
-          "fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_chinatelecom_25652c4a14.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "corot_eea_global",
-      "idtag": "EEAO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.3.0.UMLEUXM": {
-          "os": "OS1.0.3.0.UMLEUXM",
-          "android": "14.0",
-          "release": "2023-12-27",
-          "recovery": "miui_COROTEEAGlobal_OS1.0.3.0.UMLEUXM_47a27150be_14.0.zip",
-          "fastboot": "corot_eea_global_images_OS1.0.3.0.UMLEUXM_20231219.0000.00_14.0_eea_2c92a9c89a.tgz"
-        }
-      }
-    }
-  ]
+	"device": "corot",
+	"name": {
+		"zh": "Redmi K60 至尊版/小米 13T Pro",
+		"en": "Redmi K60 Ultra/Xiaomi 13T Pro"
+	},
+	"image": "https://data.hyperos.fans/assets/images/corot.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "corot",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UMLCNXM": {
+					"os": "OS1.0.7.0.UMLCNXM",
+					"android": "14.0",
+					"release": "2023-12-26",
+					"recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
+					"fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_fb02072a37.tgz"
+				},
+				"OS1.0.5.0.UMLCNXM": {
+					"os": "OS1.0.5.0.UMLCNXM",
+					"android": "14.0",
+					"release": "2023-12-02",
+					"recovery": "miui_COROT_OS1.0.5.0.UMLCNXM_a2e2e5f060_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.4.0.UMLCNXM": {
+					"os": "OS1.0.4.0.UMLCNXM",
+					"android": "14.0",
+					"release": "2023-12-01",
+					"recovery": "miui_COROT_OS1.0.4.0.UMLCNXM_a5903dd20a_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "corot",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UMLCNXM": {
+					"os": "OS1.0.7.0.UMLCNXM",
+					"android": "14.0",
+					"release": "2023-12-26",
+					"recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
+					"fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_chinatelecom_25652c4a14.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "corot_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMLEUXM": {
+					"os": "OS1.0.3.0.UMLEUXM",
+					"android": "14.0",
+					"release": "2023-12-27",
+					"recovery": "miui_COROTEEAGlobal_OS1.0.3.0.UMLEUXM_47a27150be_14.0.zip",
+					"fastboot": "corot_eea_global_images_OS1.0.3.0.UMLEUXM_20231219.0000.00_14.0_eea_2c92a9c89a.tgz"
+				}
+			}
+		}
+	]
 }

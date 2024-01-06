@@ -1,37 +1,35 @@
 {
-  "device": "agate",
-  "name": {
-    "zh": "小米 11T",
-    "en": "Xiaomi 11T"
-  },
-  "image": "https://data.hyperos.fans/assets/images/agate.png",
-  "type": "phone",
-  "miui": "yes",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "agate_global",
-      "idtag": "GBOO",
-      "branchtag": "F",
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.UKWMIXM": {
-          "os": "OS1.0.2.0.UKWMIXM",
-          "android": "14.0",
-          "release": "2023-12-21",
-          "recovery": "miui_AGATEGlobal_OS1.0.2.0.UKWMIXM_83e4108ef0_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "agate",
+	"name": {
+		"zh": "小米 11T",
+		"en": "Xiaomi 11T"
+	},
+	"image": "https://data.hyperos.fans/assets/images/agate.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "agate_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKWMIXM": {
+					"os": "OS1.0.2.0.UKWMIXM",
+					"android": "14.0",
+					"release": "2023-12-21",
+					"recovery": "miui_AGATEGlobal_OS1.0.2.0.UKWMIXM_83e4108ef0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }
