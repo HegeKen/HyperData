@@ -37,6 +37,8 @@ flags = {
     "DAGU": "dagu",
     "SKY": "sky",
     "LIGHT": "light",
+    "SEAEEAGlobal": "sea",
+    "sea_eea_global": "sea",
     "LIGHTCM": "lightcm",
     "sky": "sky",
     "light": "light",
