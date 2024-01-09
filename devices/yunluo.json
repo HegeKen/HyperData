@@ -1,0 +1,35 @@
+{
+	"device": "yunluo",
+	"name": {
+		"zh": "",
+		"en": ""
+	},
+	"image": "https://data.hyperos.fans/assets/images/yunluo.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "yunluo",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULYCNXM": {
+					"os": "OS1.0.2.0.ULYCNXM",
+					"android": "14.0",
+					"release": "2024-01-08",
+					"recovery": "miui_YUNLUO_OS1.0.2.0.ULYCNXM_b72482c1f6_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

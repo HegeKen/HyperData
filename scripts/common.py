@@ -21,7 +21,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["aristotle", "sky", "light", "lightcm", "earth", "yuechu", "tapas", "pipa", "agate", "liuqin", 
+currentStable = ["yunluo", "aristotle", "sky", "light", "lightcm", "earth", "yuechu", "tapas", "pipa", "agate", "liuqin", 
                  "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
                  "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
@@ -40,7 +40,13 @@ flags = {
     "SEAEEAGlobal": "sea",
     "sea_eea_global": "sea",
     "LIGHTCM": "lightcm",
+    "sunstone_eea_global":"sunstone",
+    "SUNSTONEEEAGlobal":"sunstone",
     "sky": "sky",
+    "yunluo": "yunluo",
+    "YUNLUO": "yunluo",
+    "corot_global": "corot",
+    "COROTGlobal": "corot",
     "light": "light",
     "lightcm": "lightcm",
     "MARBLEGlobal":"marble",

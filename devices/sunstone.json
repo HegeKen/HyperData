@@ -1,0 +1,35 @@
+{
+	"device": "sunstone",
+	"name": {
+		"zh": "Redmi Note 12 5G/Redmi Note 12R Pro",
+		"en": "Redmi Note 12 5G/Redmi Note 12R Pro"
+	},
+	"image": "https://data.hyperos.fans/assets/images/sunstone.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "sunstone_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMQEUXM": {
+					"os": "OS1.0.2.0.UMQEUXM",
+					"android": "14.0",
+					"release": "2024-01-09",
+					"recovery": "miui_SUNSTONEEEAGlobal_OS1.0.2.0.UMQEUXM_c59a8d3a4c_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
