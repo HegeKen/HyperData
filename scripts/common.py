@@ -42,6 +42,8 @@ flags = {
     "LIGHTCM": "lightcm",
     "sunstone_eea_global":"sunstone",
     "SUNSTONEEEAGlobal":"sunstone",
+    "PLATOGlobal":"plato",
+    "plato_global":"plato",
     "sky": "sky",
     "yunluo": "yunluo",
     "YUNLUO": "yunluo",
