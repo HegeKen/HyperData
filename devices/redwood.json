@@ -1,0 +1,35 @@
+{
+	"device": "redwood",
+	"name": {
+		"zh": "Redmi Note 12 Pro 极速版/POCO X5 Pro 5G",
+		"en": "Redmi Note 12 Pro Speed/POCO X5 Pro 5G"
+	},
+	"image": "https://data.hyperos.fans/assets/images/redwood.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "redwood",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMSCNXM": {
+					"os": "OS1.0.3.0.UMSCNXM",
+					"android": "14.0",
+					"release": "2024-01-11",
+					"recovery": "miui_REDWOOD_OS1.0.3.0.UMSCNXM_964b907423_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
