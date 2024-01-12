@@ -119,6 +119,144 @@
 					"ctelecom": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_chinatelecom_29e7a5afe1.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "duchamp_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNLTWXM": {
+					"os": "OS1.0.2.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.2.0.UNLTWXM_eea97f99a2_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.2.0.UNLTWXM_20240101.0000.00_14.0_tw_a14aaad30e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "duchamp_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNLMIXM": {
+					"os": "OS1.0.2.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.2.0.UNLMIXM_eeaccaffa2_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.2.0.UNLMIXM_20231221.0000.00_14.0_global_33cdc27f06.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "duchamp_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNLEUXM": {
+					"os": "OS1.0.1.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.1.0.UNLEUXM_eade9919a5_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.1.0.UNLEUXM_20231209.0000.00_14.0_eea_abeb98a92f.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "duchamp_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNLRUXM": {
+					"os": "OS1.0.1.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.1.0.UNLRUXM_f2d86e43b8_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.1.0.UNLRUXM_20231209.0000.00_14.0_ru_4b6081bdf9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "duchamp_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNLINXM": {
+					"os": "OS1.0.1.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.1.0.UNLINXM_e60a91dccd_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.1.0.UNLINXM_20231215.0000.00_14.0_in_32d880a0f5.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "duchamp_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNLIDXM": {
+					"os": "OS1.0.1.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.1.0.UNLIDXM_c01d2ed98b_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.1.0.UNLIDXM_20231226.0000.00_14.0_id_f3aebe8002.tgz"
+				}
+			}
 		}
 	]
 }
