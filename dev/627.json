@@ -5,7 +5,7 @@
 		"en": "DEV for week 627 (HyperOS DEV released for various devices)"
 	},
 	"postId": "44452261",
-	"update": "2024.01.12 15:45:37",
+	"update": "2024.01.12 21:51:22",
 	"versions": "OS1.0.24.1.8.DEV, OS1.0.24.1.11.DEV",
 	"description": [
 		{
@@ -260,6 +260,20 @@
 				"android": "14.0",
 				"release": "2024-01-12",
 				"recovery": "miui_MATISSE_OS1.0.24.1.8.DEV_774f5e5767_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "ingres",
+			"name": {
+				"zh": "Redmi K50 电竞版",
+				"en": "Redmi K50G"
+			},
+			"rom": {
+				"os": "OS1.0.24.1.8.DEV",
+				"android": "14.0",
+				"release": "2024-01-12",
+				"recovery": "miui_INGRES_OS1.0.24.1.8.DEV_97c3def302_14.0.zip",
 				"fastboot": ""
 			}
 		},
