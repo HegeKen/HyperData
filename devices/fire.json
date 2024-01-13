@@ -1,0 +1,35 @@
+{
+	"device": "fire",
+	"name": {
+		"zh": "Redmi 12 国际",
+		"en": "Redmi 12"
+	},
+	"image": "https://data.hyperos.fans/assets/images/fire.png",
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "fire_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMXMIXM": {
+					"os": "OS1.0.1.0.UMXMIXM",
+					"android": "14.0",
+					"release": "2024-01-13",
+					"recovery": "miui_FIREGlobal_OS1.0.1.0.UMXMIXM_3984ea57a0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

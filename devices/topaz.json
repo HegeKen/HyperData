@@ -30,6 +30,29 @@
 					"fastboot": "topaz_global_images_OS1.0.2.0.UMGMIXM_20231210.0000.00_14.0_global_7e99fdad86.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "topaz_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMGEUXM": {
+					"os": "OS1.0.2.0.UMGEUXM",
+					"android": "14.0",
+					"release": "2024-01-13",
+					"recovery": "miui_TOPAZEEAGlobal_OS1.0.2.0.UMGEUXM_8f6a8b7267_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
