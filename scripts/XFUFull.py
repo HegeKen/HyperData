@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import common
 
-directory = "D:\\Projects\\MIUIROMS\\XFU\\pages\\miui"
+directory = "D:\\Projects\\MIUIROMS\\XFU\\pages\\\hyperos"
 
 for root, dirs, files in os.walk(directory):
   for file in files:

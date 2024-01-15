@@ -71,6 +71,8 @@ flags = {
     "lightcm": "lightcm",
     "MARBLEGlobal": "marble",
     "marble_global": "marble",
+    "marble_id_global":"marble",
+    "MARBLEIDGlobal":"marble",
     "ARISTOTLEEEAGlobal": "aristotle",
     "aristotle_eea_global": "aristotle",
     "ARISTOTLEGlobal": "aristotle",
