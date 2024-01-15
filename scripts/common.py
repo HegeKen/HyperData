@@ -152,6 +152,8 @@ flags = {
     "nuwa_in_global": "nuwa",
     "DUCHAMP": "duchamp",
     "TAPASGlobal": "tapas",
+    "TAPASINGlobal":"tapas",
+    "tapas_in_global":"tapas",
     "tapas_global": "tapas",
     "DUCHAMPDEMO": "duchamp",
     "duchamp_demo": "duchamp",

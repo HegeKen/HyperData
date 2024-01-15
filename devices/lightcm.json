@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [""],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,76 @@
 					"android": "14.0",
 					"release": "2024-01-04",
 					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_efff67dbb0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "lightcm",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.ULSCNXM": {
+					"os": "OS1.0.6.0.ULSCNXM",
+					"android": "14.0",
+					"release": "2024-01-04",
+					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
+					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinatelecom_07e372051f.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国移动定制版",
+				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
+			},
+			"branchCode": "lightcm",
+			"idtag": "CnOM",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.ULSCNXM": {
+					"os": "OS1.0.6.0.ULSCNXM",
+					"android": "14.0",
+					"release": "2024-01-04",
+					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
+					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinamobile_cd7723a063.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国联通定制版",
+				"en": "Xiaomi HyperOS China Unicom Carrier Edition"
+			},
+			"branchCode": "lightcm",
+			"idtag": "CnOU",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.ULSCNXM": {
+					"os": "OS1.0.6.0.ULSCNXM",
+					"android": "14.0",
+					"release": "2024-01-04",
+					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
+					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinaunicom_a659a05fca.tgz"
 				}
 			}
 		}

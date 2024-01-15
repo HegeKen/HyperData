@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [""],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,76 @@
 					"android": "14.0",
 					"release": "2024-01-04",
 					"recovery": "miui_LIGHT_OS1.0.5.0.ULSCNXM_d259f29a72_14.0.zip",
-					"fastboot": ""
+					"fastboot": "light_images_OS1.0.5.0.ULSCNXM_20231226.0000.00_14.0_cn_65e1f09417.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "light",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.ULSCNXM": {
+					"os": "OS1.0.5.0.ULSCNXM",
+					"android": "14.0",
+					"release": "2024-01-04",
+					"recovery": "miui_LIGHT_OS1.0.5.0.ULSCNXM_d259f29a72_14.0.zip",
+					"fastboot": "light_images_OS1.0.5.0.ULSCNXM_20231226.0000.00_14.0_cn_chinatelecom_16f69004e8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国移动定制版",
+				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
+			},
+			"branchCode": "light",
+			"idtag": "CnOM",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.ULSCNXM": {
+					"os": "OS1.0.5.0.ULSCNXM",
+					"android": "14.0",
+					"release": "2024-01-04",
+					"recovery": "miui_LIGHT_OS1.0.5.0.ULSCNXM_d259f29a72_14.0.zip",
+					"fastboot": "light_images_OS1.0.5.0.ULSCNXM_20231226.0000.00_14.0_cn_chinamobile_b18e186c58.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国联通定制版",
+				"en": "Xiaomi HyperOS China Unicom Carrier Edition"
+			},
+			"branchCode": "light",
+			"idtag": "CnOU",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.ULSCNXM": {
+					"os": "OS1.0.5.0.ULSCNXM",
+					"android": "14.0",
+					"release": "2024-01-04",
+					"recovery": "miui_LIGHT_OS1.0.5.0.ULSCNXM_d259f29a72_14.0.zip",
+					"fastboot": "light_images_OS1.0.5.0.ULSCNXM_20231226.0000.00_14.0_cn_chinaunicom_578ff307bd.tgz"
 				}
 			}
 		}
