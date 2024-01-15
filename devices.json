@@ -1,10 +1,12 @@
 {
 	"mi": {
 		"zh": "小米手机",
+		"brand":"xiaomi",
 		"en": "Xiaomi Phones",
 		"devices": [
 			{
 				"code": "agate",
+				"image": "agate.png",
 				"name": {
 					"zh": "小米 11T",
 					"en": "Xiaomi 11T"
@@ -12,6 +14,7 @@
 			},
 			{
 				"code": "cupid",
+				"image": "cupid.png",
 				"name": {
 					"zh": "小米 12",
 					"en": "Xiaomi 12"
@@ -19,6 +22,7 @@
 			},
 			{
 				"code": "zeus",
+				"image": "zeus.png",
 				"name": {
 					"zh": "小米 12 Pro",
 					"en": "Xiaomi 12 Pro"
@@ -26,6 +30,7 @@
 			},
 			{
 				"code": "daumier",
+				"image": "daumier.png",
 				"name": {
 					"zh": "小米 12 Pro 天玑版",
 					"en": "Xiaomi 12 Pro Dimensity"
@@ -33,6 +38,7 @@
 			},
 			{
 				"code": "mayfly",
+				"image": "mayfly.png",
 				"name": {
 					"zh": "小米 12S",
 					"en": "Xiaomi 12S"
@@ -40,6 +46,7 @@
 			},
 			{
 				"code": "unicorn",
+				"image": "unicorn.png",
 				"name": {
 					"zh": "小米 12S Pro",
 					"en": "Xiaomi 12S Pro"
@@ -47,6 +54,7 @@
 			},
 			{
 				"code": "thor",
+				"image": "thor.png",
 				"name": {
 					"zh": "小米 12S Ultra",
 					"en": "Xiaomi 12S Ultra"
@@ -54,6 +62,7 @@
 			},
 			{
 				"code": "plato",
+				"image": "plato.png",
 				"name": {
 					"zh": "小米 12T",
 					"en": "Xiaomi 12T"
@@ -61,6 +70,7 @@
 			},
 			{
 				"code": "diting",
+				"image": "xiaomi_diting.png",
 				"name": {
 					"zh": "小米 12T Pro",
 					"en": "Xiaomi 12T Pro"
@@ -68,6 +78,7 @@
 			},
 			{
 				"code": "fuxi",
+				"image": "fuxi.png",
 				"name": {
 					"zh": "小米 13",
 					"en": "Xiaomi 13"
@@ -75,6 +86,7 @@
 			},
 			{
 				"code": "nuwa",
+				"image": "nuwa.png",
 				"name": {
 					"zh": "小米 13 Pro",
 					"en": "Xiaomi 13 Pro"
@@ -82,6 +94,7 @@
 			},
 			{
 				"code": "ishtar",
+				"image": "ishtar.png",
 				"name": {
 					"zh": "小米 13 Ultra",
 					"en": "Xiaomi 13 Ultra"
@@ -89,6 +102,7 @@
 			},
 			{
 				"code": "aristotle",
+				"image": "aristotle.png",
 				"name": {
 					"zh": "小米 13T",
 					"en": "Xiaomi 13T"
@@ -96,6 +110,7 @@
 			},
 			{
 				"code": "corot",
+				"image": "xiaomi_corot.png",
 				"name": {
 					"zh": "小米 13T Pro",
 					"en": "Xiaomi 13T Pro"
@@ -103,6 +118,7 @@
 			},
 			{
 				"code": "houji",
+				"image": "houji.png",
 				"name": {
 					"zh": "小米 14",
 					"en": "Xiaomi 14"
@@ -110,6 +126,7 @@
 			},
 			{
 				"code": "shennong",
+				"image": "shennong.png",
 				"name": {
 					"zh": "小米 14 Pro/Ti",
 					"en": "Xiaomi 14 Pro/Ti"
@@ -117,6 +134,7 @@
 			},
 			{
 				"code": "dagu",
+				"image": "dagu.png",
 				"name": {
 					"zh": "小米平板 5 Pro 12.4",
 					"en": "Xiaomi Pad 5 Pro 12.4"
@@ -124,6 +142,7 @@
 			},
 			{
 				"code": "pipa",
+				"image": "pipa.png",
 				"name": {
 					"zh": "小米平板 6",
 					"en": "Xiaomi Pad 6"
@@ -131,6 +150,7 @@
 			},
 			{
 				"code": "liuqin",
+				"image": "liuqin.png",
 				"name": {
 					"zh": "小米平板 6 Pro",
 					"en": "Xiaomi Pad 6 Pro"
@@ -138,6 +158,7 @@
 			},
 			{
 				"code": "yudi",
+				"image": "yudi.png",
 				"name": {
 					"zh": "小米平板 6 Max 14",
 					"en": "Xiaomi Pad 6 Max 14"
@@ -145,6 +166,7 @@
 			},
 			{
 				"code": "zizhan",
+				"image": "zizhan.png",
 				"name": {
 					"zh": "小米 MIX FOLD 2",
 					"en": "Xiaomi MIX Fold 2"
@@ -152,6 +174,7 @@
 			},
 			{
 				"code": "babylon",
+				"image": "babylon.png",
 				"name": {
 					"zh": "小米 MIX FOLD 3",
 					"en": "Xiaomi MIX Fold 3"
@@ -159,6 +182,7 @@
 			},
 			{
 				"code": "yuechu",
+				"image": "yuechu.png",
 				"name": {
 					"zh": "小米 Civi 3",
 					"en": "Xiaomi Civi 3"
@@ -168,17 +192,28 @@
 	},
 	"redmi": {
 		"zh": "Redmi 手机",
+		"brand":"redmi",
 		"en": "Redmi Phones",
 		"devices": [
 			{
 				"code": "light",
+				"image": "light_105g.png",
 				"name": {
 					"zh": "Redmi 10 5G",
 					"en": "Redmi 10 5G"
 				}
 			},
 			{
+				"code": "rock",
+				"image": "redmi_rock.png",
+				"name": {
+					"zh": "Redmi 11 Prime 4G",
+					"en": "Redmi 11 Prime 4G"
+				}
+			},
+			{
 				"code": "light",
+				"image": "light_105g.png",
 				"name": {
 					"zh": "Redmi 11 Prime 5G",
 					"en": "Redmi 11 Prime 5G"
@@ -186,6 +221,7 @@
 			},
 			{
 				"code": "fire",
+				"image": "fire.png",
 				"name": {
 					"zh": "Redmi 12 国际",
 					"en": "Redmi 12"
@@ -193,6 +229,7 @@
 			},
 			{
 				"code": "earth",
+				"image": "earth.png",
 				"name": {
 					"zh": "Redmi 12C",
 					"en": "Redmi 12C"
@@ -200,6 +237,7 @@
 			},
 			{
 				"code": "sky",
+				"image": "sky.png",
 				"name": {
 					"zh": "Redmi 12/12R 5G",
 					"en": "Redmi 12/12R 5G"
@@ -207,6 +245,7 @@
 			},
 			{
 				"code": "light",
+				"image": "light.png",
 				"name": {
 					"zh": "Redmi Note 11E",
 					"en": "Redmi Note 11E"
@@ -214,6 +253,7 @@
 			},
 			{
 				"code": "lightcm",
+				"image": "lightcm.png",
 				"name": {
 					"zh": "Redmi Note 11R",
 					"en": "Redmi Note 11R"
@@ -221,6 +261,7 @@
 			},
 			{
 				"code": "sky",
+				"image": "sky.png",
 				"name": {
 					"zh": "Redmi Note 12R",
 					"en": "Redmi Note 12R"
@@ -228,6 +269,7 @@
 			},
 			{
 				"code": "sunstone",
+				"image": "sunstone.png",
 				"name": {
 					"zh": "Redmi Note 12 5G/12R Pro",
 					"en": "Redmi Note 12 5G/12R Pro"
@@ -236,6 +278,7 @@
 			},
 			{
 				"code": "ruby",
+				"image": "ruby.png",
 				"name": {
 					"zh": "Redmi Note 12 Pro/Pro+/探索版",
 					"en": "Redmi Note 12 Pro/Pro+/Discovery 5G"
@@ -243,6 +286,7 @@
 			},
 			{
 				"code": "redwood",
+				"image": ".png",
 				"name": {
 					"zh": "Redmi Note 12 Pro 极速版",
 					"en": "Redmi Note 12 Pro Speed"
@@ -250,6 +294,7 @@
 			},
 			{
 				"code": "marble",
+				"image": "marble.png",
 				"name": {
 					"zh": "Redmi Note 12 Turbo",
 					"en": "Redmi Note 12 Turbo"
@@ -257,6 +302,7 @@
 			},
 			{
 				"code": "tapas",
+				"image": "tapas.png",
 				"name": {
 					"zh": "Redmi Note 12 4G 国际",
 					"en": "Redmi Note 12 4G"
@@ -264,6 +310,7 @@
 			},
 			{
 				"code": "topaz",
+				"image": "topaz.png",
 				"name": {
 					"zh": "Redmi Note 12 4G NFC 国际",
 					"en": "Redmi Note 12 4G NFC"
@@ -271,6 +318,7 @@
 			},
 			{
 				"code": "sea",
+				"image": "sea.png",
 				"name": {
 					"zh": "Redmi Note 12S 国际",
 					"en": "Redmi Note 12S"
@@ -278,6 +326,7 @@
 			},
 			{
 				"code": "rubens",
+				"image": "rubens.png",
 				"name": {
 					"zh": "Redmi K50",
 					"en": "Redmi K50"
@@ -285,6 +334,7 @@
 			},
 			{
 				"code": "matisse",
+				"image": "matisse.png",
 				"name": {
 					"zh": "Redmi K50 Pro",
 					"en": "Redmi K50 Pro"
@@ -292,6 +342,7 @@
 			},
 			{
 				"code": "ingres",
+				"image": "ingres.png",
 				"name": {
 					"zh": "Redmi K50 电竞版",
 					"en": "Redmi K50G"
@@ -299,6 +350,7 @@
 			},
 			{
 				"code": "diting",
+				"image": "diting.png",
 				"name": {
 					"zh": "Redmi K50 至尊版",
 					"en": "Redmi K50 Ultra"
@@ -306,6 +358,7 @@
 			},
 			{
 				"code": "mondrian",
+				"image": "mondrian.png",
 				"name": {
 					"zh": "Redmi K60",
 					"en": "Redmi K60"
@@ -313,6 +366,7 @@
 			},
 			{
 				"code": "socrates",
+				"image": "socrates.png",
 				"name": {
 					"zh": "Redmi K60 Pro",
 					"en": "Redmi K60 Pro"
@@ -320,6 +374,7 @@
 			},
 			{
 				"code": "corot",
+				"image": "corot.png",
 				"name": {
 					"zh": "Redmi K60 至尊版",
 					"en": "Redmi K60 Ultra"
@@ -327,6 +382,7 @@
 			},
 			{
 				"code": "duchamp",
+				"image": "duchamp.png",
 				"name": {
 					"zh": "Redmi K70E",
 					"en": "Redmi K70E"
@@ -334,6 +390,7 @@
 			},
 			{
 				"code": "vermeer",
+				"image": "vermeer.png",
 				"name": {
 					"zh": "Redmi K70",
 					"en": "Redmi K70"
@@ -341,6 +398,7 @@
 			},
 			{
 				"code": "manet",
+				"image": "manet.png",
 				"name": {
 					"zh": "Redmi K70 Pro",
 					"en": "Redmi K70 Pro"
@@ -348,6 +406,7 @@
 			},
 			{
 				"code": "yunluo",
+				"image": "yunluo.png",
 				"name": {
 					"zh": "Redmi 平板",
 					"en": "Redmi Pad"
@@ -357,10 +416,12 @@
 	},
 	"poco": {
 		"zh": "POCO 手机",
+		"brand":"poco",
 		"en": "POCO Phones",
 		"devices": [
 			{
 				"code": "earth",
+				"image": "poco_earth.png",
 				"name": {
 					"zh": "POCO C55",
 					"en": "POCO C55"
@@ -368,6 +429,7 @@
 			},
 			{
 				"code": "ingres",
+				"image": "poco_ingres.png",
 				"name": {
 					"zh": "POCO F4 GT",
 					"en": "POCO F4 GT"
@@ -375,6 +437,7 @@
 			},
 			{
 				"code": "marble",
+				"image": "poco_marble.png",
 				"name": {
 					"zh": "POCO F5",
 					"en": "POCO F5"
@@ -382,6 +445,7 @@
 			},
 			{
 				"code": "mondrian",
+				"image": "poco_mondrian.png",
 				"name": {
 					"zh": "POCO F5 Pro",
 					"en": "POCO F5 Pro"
@@ -389,6 +453,7 @@
 			},
 			{
 				"code": "vermeer",
+				"image": "poco_vermeer.png",
 				"name": {
 					"zh": "POCO F6 Pro",
 					"en": "POCO F6 Pro"
@@ -396,13 +461,23 @@
 			},
 			{
 				"code": "light",
+				"image": "poco_light.png",
 				"name": {
 					"zh": "POCO M4 5G",
 					"en": "POCO M4 5G"
 				}
 			},
 			{
+				"code": "rock",
+				"image": "poco_rock.png",
+				"name": {
+					"zh": "POCO M5",
+					"en": "POCO M5"
+				}
+			},
+			{
 				"code": "redwood",
+				"image": "poco_redwood.png",
 				"name": {
 					"zh": "POCO X5 Pro 5G",
 					"en": "POCO X5 Pro 5G"
@@ -410,6 +485,7 @@
 			},
 			{
 				"code": "duchamp",
+				"image": "poco_duchamp.png",
 				"name": {
 					"zh": "POCO X6 Pro 5G",
 					"en": "POCO X6 Pro 5G"
