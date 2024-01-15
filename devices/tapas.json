@@ -30,6 +30,29 @@
 					"fastboot": "tapas_global_images_OS1.0.2.0.UMTMIXM_20231210.0000.00_14.0_global_ec388df263.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "tapas_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMTINXM": {
+					"os": "OS1.0.1.0.UMTINXM",
+					"android": "14.0",
+					"release": "2024-01-15",
+					"recovery": "miui_TAPASINGlobal_OS1.0.1.0.UMTINXM_f868289c5c_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
