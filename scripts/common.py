@@ -147,6 +147,8 @@ flags = {
     "VERMEER": "vermeer",
     "VERMEERDEMO": "vermeer",
     "mondrian_eea_global" :"mondrian",
+    "pipa_eea_global": "pipa",
+    "PIPAEEAGlobal": "pipa",
     "MONDRIANEEAGlobal" :"mondrian",
     "vermeer_demo": "vermeer",
     "vermeer": "vermeer",
