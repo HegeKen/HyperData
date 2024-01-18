@@ -149,6 +149,8 @@ flags = {
     "mondrian_eea_global" :"mondrian",
     "pipa_eea_global": "pipa",
     "PIPAEEAGlobal": "pipa",
+    "plato_tw_global": "plato",
+    "plato_tw_global": "plato",
     "MONDRIANEEAGlobal" :"mondrian",
     "vermeer_demo": "vermeer",
     "vermeer": "vermeer",
