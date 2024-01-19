@@ -150,7 +150,7 @@ flags = {
     "pipa_eea_global": "pipa",
     "PIPAEEAGlobal": "pipa",
     "plato_tw_global": "plato",
-    "plato_tw_global": "plato",
+    "PLATOTWGlobal": "plato",
     "MONDRIANEEAGlobal" :"mondrian",
     "vermeer_demo": "vermeer",
     "vermeer": "vermeer",
