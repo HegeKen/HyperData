@@ -21,6 +21,13 @@
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"roms": {
+				"OS1.0.24.1.15.DEV": {
+					"os": "OS1.0.24.1.15.DEV",
+					"android": "14.0",
+					"release": "2024-01-19",
+					"recovery": "miui_FUXI_OS1.0.24.1.15.DEV_43caa9f971_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.24.1.8.DEV": {
 					"os": "OS1.0.24.1.8.DEV",
 					"android": "14.0",
@@ -169,6 +176,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "fuxi_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMCTWXM": {
+					"os": "OS1.0.1.0.UMCTWXM",
+					"android": "14.0",
+					"release": "2024-01-19",
+					"recovery": "miui_FUXITWGlobal_OS1.0.1.0.UMCTWXM_4c679f91c9_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -210,6 +240,29 @@
 					"release": "2023-12-20",
 					"recovery": "miui_FUXIEEAGlobal_OS1.0.1.0.UMCEUXM_0332150a82_14.0.zip",
 					"fastboot": "fuxi_eea_global_images_OS1.0.1.0.UMCEUXM_20231207.0000.00_14.0_eea_992a740dba.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "fuxi_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMCRUXM": {
+					"os": "OS1.0.2.0.UMCRUXM",
+					"android": "14.0",
+					"release": "2024-01-19",
+					"recovery": "miui_FUXIRUGlobal_OS1.0.2.0.UMCRUXM_681a71520b_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},
