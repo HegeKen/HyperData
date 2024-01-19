@@ -40,7 +40,7 @@ flags = {
     "DUCHAMPIDGlobal": "duchamp",
     "duchamp_id_global": "duchamp",
     "fuxi_ru_global": "fuxi",
-    "fuxi_ru_global": "fuxi",
+    "FUXIRUGlobal": "fuxi",
     "DUCHAMPTWGlobal": "duchamp",
     "duchamp_tw_global": "duchamp",
     "DUCHAMPGlobal": "duchamp",
