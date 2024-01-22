@@ -110,6 +110,29 @@
 					"fastboot": "diting_images_OS1.0.2.0.ULFCNXM_20231225.0000.00_14.0_cn_chinatelecom_006de2b380.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "diting_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULFEUXM": {
+					"os": "OS1.0.1.0.ULFEUXM",
+					"android": "14.0",
+					"release": "2024-01-22",
+					"recovery": "miui_DITINGEEAGlobal_OS1.0.1.0.ULFEUXM_10053329d1_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

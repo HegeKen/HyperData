@@ -75,6 +75,8 @@ flags = {
     "COROTGlobal": "corot",
     "light": "light",
     "lightcm": "lightcm",
+    "diting_eea_global": "diting",
+    "DITINGEEAGlobal": "diting",
     "MARBLEGlobal": "marble",
     "marble_global": "marble",
     "marble_id_global":"marble",
