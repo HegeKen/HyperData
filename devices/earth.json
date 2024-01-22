@@ -29,6 +29,29 @@
 					"fastboot": "earth_global_images_OS1.0.2.0.UCVMIXM_20231221.0000.00_14.0_global_edec452727.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "earth_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UCVINXM": {
+					"os": "OS1.0.2.0.UCVINXM",
+					"android": "14.0",
+					"release": "2024-01-22",
+					"recovery": "miui_EARTHINGlobal_OS1.0.2.0.UCVINXM_d3d972cf43_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
