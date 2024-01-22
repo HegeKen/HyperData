@@ -32,6 +32,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "pipa_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMZMIXM": {
+					"os": "OS1.0.4.0.UMZMIXM",
+					"android": "14.0",
+					"release": "2024-01-22",
+					"recovery": "miui_PIPAGlobal_OS1.0.4.0.UMZMIXM_55c8110a52_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -49,6 +72,29 @@
 					"android": "14.0",
 					"release": "2024-01-17",
 					"recovery": "miui_PIPAEEAGlobal_OS1.0.3.0.UMZEUXM_a9b435c82f_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "pipa_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMZINXM": {
+					"os": "OS1.0.2.0.UMZINXM",
+					"android": "14.0",
+					"release": "2024-01-22",
+					"recovery": "miui_PIPAINGlobal_OS1.0.2.0.UMZINXM_c1b291134f_14.0.zip",
 					"fastboot": ""
 				}
 			}

@@ -52,6 +52,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "tapas_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMTTRXM": {
+					"os": "OS1.0.1.0.UMTTRXM",
+					"android": "14.0",
+					"release": "2024-01-22",
+					"recovery": "miui_TAPASTRGlobal_OS1.0.1.0.UMTTRXM_edcf142044_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
