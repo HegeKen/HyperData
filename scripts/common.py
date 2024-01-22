@@ -55,6 +55,8 @@ flags = {
     "EARTHINGlobal": "earth",
     "marble_tw_global": "marble",
     "MARBLETWGlobal": "marble",
+    "marble_ru_global": "marble",
+    "MARBLERUGlobal": "marble",
     "DUCHAMPGlobal": "duchamp",
     "duchamp_global": "duchamp",
     "DUCHAMPEEAGlobal": "duchamp",
