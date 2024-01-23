@@ -52,6 +52,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "topaz_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMGIDXM": {
+					"os": "OS1.0.1.0.UMGIDXM",
+					"android": "14.0",
+					"release": "2024-01-23",
+					"recovery": "miui_TOPAZIDGlobal_OS1.0.1.0.UMGIDXM_1a5f28cd7a_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

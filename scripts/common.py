@@ -21,7 +21,8 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["fire", "redwood", "yunluo", "aristotle", "sky", "light", "lightcm", "earth", "yuechu", "tapas", "pipa", "agate", "liuqin",
+currentStable = ["taoyao", "moonstone", "fire", "redwood", 
+                 "yunluo", "aristotle", "sky", "light", "lightcm", "earth", "yuechu", "tapas", "pipa", "agate", "liuqin",
                  "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
                  "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
@@ -57,6 +58,14 @@ flags = {
     "MARBLETWGlobal": "marble",
     "marble_ru_global": "marble",
     "MARBLERUGlobal": "marble",
+    "sunstone_global": "sunstone",
+    "SUNSTONEGlobal": "sunstone",
+    "moonstone_global": "moonstone",
+    "MOONSTONEGlobal": "moonstone",
+    "taoyao_global": "taoyao",
+    "taoyao_global": "taoyao",
+    "topaz_id_global": "topaz",
+    "TOPAZIDGlobal": "topaz",
     "DUCHAMPGlobal": "duchamp",
     "duchamp_global": "duchamp",
     "DUCHAMPEEAGlobal": "duchamp",

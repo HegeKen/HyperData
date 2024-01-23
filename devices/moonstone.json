@@ -1,0 +1,34 @@
+{
+	"device": "moonstone",
+	"name": {
+		"zh": "POCO X5 5G",
+		"en": "POCO X5 5G"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "moonstone_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMPMIXM": {
+					"os": "OS1.0.3.0.UMPMIXM",
+					"android": "14.0",
+					"release": "2024-01-23",
+					"recovery": "miui_MOONSTONEGlobal_OS1.0.3.0.UMPMIXM_9531a81bb0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
