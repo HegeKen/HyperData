@@ -67,7 +67,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -77,7 +77,30 @@
 					"android": "14.0",
 					"release": "2024-01-15",
 					"recovery": "miui_INGRES_OS1.0.1.0.ULJCNXM_fde249c2db_14.0.zip",
-					"fastboot": ""
+					"fastboot": "ingres_images_OS1.0.1.0.ULJCNXM_20240103.0000.00_14.0_cn_e5dec1983d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "ingres",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULJCNXM": {
+					"os": "OS1.0.1.0.ULJCNXM",
+					"android": "14.0",
+					"release": "2024-01-15",
+					"recovery": "miui_INGRES_OS1.0.1.0.ULJCNXM_fde249c2db_14.0.zip",
+					"fastboot": "ingres_images_OS1.0.1.0.ULJCNXM_20240103.0000.00_14.0_cn_chinatelecom_4e4671bd3f.tgz"
 				}
 			}
 		}
