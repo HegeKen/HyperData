@@ -98,6 +98,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "pipa_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMZTRXM": {
+					"os": "OS1.0.2.0.UMZTRXM",
+					"android": "14.0",
+					"release": "2024-01-24",
+					"recovery": "miui_PIPATRGlobal_OS1.0.2.0.UMZTRXM_d5041ca518_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
