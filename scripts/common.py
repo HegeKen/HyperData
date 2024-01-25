@@ -54,6 +54,8 @@ flags = {
     "PLATOTRGlobal": "plato",
     "earth_in_global": "earth",
     "EARTHINGlobal": "earth",
+    "earth": "earth",
+    "": "earth",
     "marble_tw_global": "marble",
     "MARBLETWGlobal": "marble",
     "marble_ru_global": "marble",
