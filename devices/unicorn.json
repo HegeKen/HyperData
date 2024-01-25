@@ -71,6 +71,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "unicorn",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULECNXM": {
+					"os": "OS1.0.3.0.ULECNXM",
+					"android": "14.0",
+					"release": "2024-01-25",
+					"recovery": "miui_UNICORN_OS1.0.3.0.ULECNXM_fc52202e28_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

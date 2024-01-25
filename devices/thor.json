@@ -9,29 +9,6 @@
 	"branches": [
 		{
 			"name": {
-				"zh": "小米澎湃 OS 正式版",
-				"en": "Xiaomi HyperOS Stable"
-			},
-			"branchCode": "thor",
-			"idtag": "CnOO",
-			"branchtag": "F",
-			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"region": "cn",
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.4.0.ULACNXM": {
-					"os": "OS1.0.4.0.ULACNXM",
-					"android": "14.0",
-					"release": "2024-01-25",
-					"recovery": "miui_THOR_OS1.0.4.0.ULACNXM_12b58f6ae6_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
 				"zh": "小米澎湃 OS 开发版",
 				"en": "Xiaomi HyperOS DEV"
 			},
@@ -91,6 +68,29 @@
 					"android": "14.0",
 					"release": "2023-12-08",
 					"recovery": "miui_THOR_OS1.0.23.12.4.DEV_59fed40211_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "thor",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.ULACNXM": {
+					"os": "OS1.0.4.0.ULACNXM",
+					"android": "14.0",
+					"release": "2024-01-25",
+					"recovery": "miui_THOR_OS1.0.4.0.ULACNXM_12b58f6ae6_14.0.zip",
 					"fastboot": ""
 				}
 			}
