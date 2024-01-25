@@ -60,6 +60,8 @@ flags = {
     "SEARUGlobal": "sea",
     "vermeer_ep_stdee": "vermeer",
     "VERMEEREPSTDEE": "vermeer",
+    "rock_eea_global": "rock",
+    "ROCKEEAGlobal": "rock",
     "marble_tw_global": "marble",
     "MARBLETWGlobal": "marble",
     "marble_ru_global": "marble",
