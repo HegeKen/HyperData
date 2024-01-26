@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,30 @@
 					"android": "14.0",
 					"release": "2024-01-11",
 					"recovery": "miui_REDWOOD_OS1.0.3.0.UMSCNXM_964b907423_14.0.zip",
-					"fastboot": ""
+					"fastboot": "redwood_images_OS1.0.3.0.UMSCNXM_20231229.0000.00_14.0_cn_0d71144cc6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "redwood",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMSCNXM": {
+					"os": "OS1.0.3.0.UMSCNXM",
+					"android": "14.0",
+					"release": "2024-01-11",
+					"recovery": "miui_REDWOOD_OS1.0.3.0.UMSCNXM_964b907423_14.0.zip",
+					"fastboot": "redwood_images_OS1.0.3.0.UMSCNXM_20231229.0000.00_14.0_cn_chinatelecom_8934abf40a.tgz"
 				}
 			}
 		}
