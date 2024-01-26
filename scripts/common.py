@@ -48,6 +48,8 @@ flags = {
     "PIPAINGlobal": "pipa",
     "pipa_global": "pipa",
     "PIPAGlobal": "pipa",
+    "aristotle_id_global": "aristotle",
+    "ARISTOTLEIDGlobal": "aristotle",
     "tapas_tr_global": "tapas",
     "TAPASTRGlobal": "tapas",
     "plato_tr_global": "plato",

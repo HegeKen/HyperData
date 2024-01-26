@@ -52,6 +52,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "aristotle_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMFIDXM": {
+					"os": "OS1.0.2.0.UMFIDXM",
+					"android": "14.0",
+					"release": "2024-01-26",
+					"recovery": "miui_ARISTOTLEIDGlobal_OS1.0.2.0.UMFIDXM_b9ccc74619_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
