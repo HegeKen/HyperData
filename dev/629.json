@@ -5,7 +5,7 @@
 		"en": "DEV for week 629 (HyperOS DEV released for various devices)"
 	},
 	"postId": "44156213",
-	"update": "2024.01.26 21:17:59",
+	"update": "2024.01.26 22:40:42",
 	"versions": "OS1.0.24.1.22.DEV",
 	"description": [
 		{
@@ -78,6 +78,20 @@
 				"android": "14.0",
 				"release": "2024-01-26",
 				"recovery": "miui_DAUMIER_OS1.0.24.1.22.DEV_8152e5e48a_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "mayfly",
+			"name": {
+				"zh": "小米 12S",
+				"en": "Xiaomi 12S"
+			},
+			"rom": {
+				"os": "OS1.0.24.1.22.DEV",
+				"android": "14.0",
+				"release": "2024-01-26",
+				"recovery": "miui_MAYFLY_OS1.0.24.1.22.DEV_5c7a529596_14.0.zip",
 				"fastboot": ""
 			}
 		},
