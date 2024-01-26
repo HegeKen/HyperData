@@ -62,6 +62,8 @@ flags = {
     "VERMEEREPSTDEE": "vermeer",
     "rock_eea_global": "rock",
     "ROCKEEAGlobal": "rock",
+    "yunluo_global": "yunluo",
+    "YUNLUOGlobal": "yunluo",
     "marble_tw_global": "marble",
     "MARBLETWGlobal": "marble",
     "marble_ru_global": "marble",
