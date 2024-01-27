@@ -52,6 +52,29 @@
 					"fastboot": "sky_images_OS1.0.5.0.UMWCNXM_20231225.0000.00_14.0_cn_chinatelecom_7c7a75b462.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "sky_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMWMIXM": {
+					"os": "OS1.0.3.0.UMWMIXM",
+					"android": "14.0",
+					"release": "2023-01-26",
+					"recovery": "miui_SKYGlobal_OS1.0.3.0.UMWMIXM_1e2037e27c_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

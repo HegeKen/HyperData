@@ -33,6 +33,8 @@ flags = {
     "HOUJIDEMO": "houji",
     "houji": "houji",
     "houji_demo": "houji",
+    "sky_global": "sky",
+    "SKYGlobal": "sky",
     "marble_in_global": "marble",
     "MARBLEINGlobal": "marble",
     "REDWOOD": "redwood",
