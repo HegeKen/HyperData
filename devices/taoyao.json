@@ -29,6 +29,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "taoyao_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULIEUXM": {
+					"os": "OS1.0.2.0.ULIEUXM",
+					"android": "14.0",
+					"release": "2024-01-27",
+					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.2.0.ULIEUXM_bc84777c39_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
