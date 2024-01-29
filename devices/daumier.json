@@ -78,6 +78,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "daumier",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULGCNXM": {
+					"os": "OS1.0.2.0.ULGCNXM",
+					"android": "14.0",
+					"release": "2024-01-29",
+					"recovery": "miui_DAUMIER_OS1.0.2.0.ULGCNXM_d84b64c895_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

@@ -21,7 +21,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["xun", "taoyao", "moonstone", "fire", "redwood", 
+currentStable = ["psyche","xun", "taoyao", "moonstone", "fire", "redwood", 
                  "yunluo", "aristotle", "sky", "light", "lightcm", "earth", "yuechu", "tapas", "pipa", "agate", "liuqin",
                  "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
                  "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
@@ -48,6 +48,8 @@ flags = {
     "duchamp_tw_global": "duchamp",
     "taoyao_eea_global": "taoyao",
     "TAOYAOEEAGlobal": "taoyao",
+    "psyche": "psyche",
+    "PSYCHE": "psyche",
     "aristotle_tw_global": "aristotle",
     "ARISTOTLETWGlobal": "aristotle",
     "cupid_eea_global": "cupid",
@@ -76,6 +78,10 @@ flags = {
     "PLATOTRGlobal": "plato",
     "earth_in_global": "earth",
     "EARTHINGlobal": "earth",
+    "plato_id_global": "plato",
+    "PLATOIDGlobal": "plato",
+    "taoyao_id_global": "taoyao",
+    "TAOYAOIDGlobal": "taoyao",
     "earth": "earth",
     "EARTH": "earth",
     "sea_ru_global": "sea",

@@ -1,0 +1,34 @@
+{
+	"device": "psyche",
+	"name": {
+		"zh": "小米 12X",
+		"en": "Xiaomi 12X"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "psyche",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TLDCNXM": {
+					"os": "OS1.0.2.0.TLDCNXM",
+					"android": "14.0",
+					"release": "2024-01-29",
+					"recovery": "miui_PSYCHE_OS1.0.2.0.TLDCNXM_e3e99fe3af_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
