@@ -78,6 +78,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "mayfly",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULTCNXM": {
+					"os": "OS1.0.3.0.ULTCNXM",
+					"android": "14.0",
+					"release": "2024-01-29",
+					"recovery": "miui_MAYFLY_OS1.0.3.0.ULTCNXM_2d7643fb8d_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
