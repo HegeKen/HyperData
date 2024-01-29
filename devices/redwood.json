@@ -59,6 +59,29 @@
 					"fastboot": "redwood_images_OS1.0.3.0.UMSCNXM_20231229.0000.00_14.0_cn_chinatelecom_8934abf40a.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "redwood_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMSIDXM": {
+					"os": "OS1.0.2.0.UMSIDXM",
+					"android": "14.0",
+					"release": "2024-01-29",
+					"recovery": "miui_REDWOODIDGlobal_OS1.0.2.0.UMSIDXM_8576487413_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

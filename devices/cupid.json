@@ -78,6 +78,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "cupid_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULCEUXM": {
+					"os": "OS1.0.3.0.ULCEUXM",
+					"android": "14.0",
+					"release": "2024-01-29",
+					"recovery": "miui_CUPIDEEAGlobal_OS1.0.3.0.ULCEUXM_df8db6d1bf_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

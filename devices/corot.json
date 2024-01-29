@@ -126,6 +126,29 @@
 					"fastboot": "corot_eea_global_images_OS1.0.3.0.UMLEUXM_20231219.0000.00_14.0_eea_2c92a9c89a.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "corot_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMLTRXM": {
+					"os": "OS1.0.2.0.UMLTRXM",
+					"android": "14.0",
+					"release": "2024-01-29",
+					"recovery": "miui_COROTTRGlobal_OS1.0.2.0.UMLTRXM_87286c6d23_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

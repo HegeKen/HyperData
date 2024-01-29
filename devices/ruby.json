@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,7 @@
 					"android": "14.0",
 					"release": "2024-01-18",
 					"recovery": "miui_RUBY_OS1.0.3.0.UMOCNXM_c06e478636_14.0.zip",
-					"fastboot": ""
+					"fastboot": "ruby_images_OS1.0.3.0.UMOCNXM_20240112.0000.00_14.0_cn_7c13483d86.tgz"
 				},
 				"OS1.0.2.0.UMOCNXM": {
 					"os": "OS1.0.2.0.UMOCNXM",
@@ -34,6 +34,29 @@
 					"release": "2024-01-03",
 					"recovery": "miui_RUBY_OS1.0.2.0.UMOCNXM_1d9030d6e5_14.0.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "ruby",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMOCNXM": {
+					"os": "OS1.0.3.0.UMOCNXM",
+					"android": "14.0",
+					"release": "2024-01-18",
+					"recovery": "miui_RUBY_OS1.0.3.0.UMOCNXM_c06e478636_14.0.zip",
+					"fastboot": "ruby_images_OS1.0.3.0.UMOCNXM_20240112.0000.00_14.0_cn_chinatelecom_d1d73787a0.tgz"
 				}
 			}
 		}
