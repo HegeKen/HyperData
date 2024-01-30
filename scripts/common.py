@@ -21,7 +21,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["psyche","xun", "taoyao", "moonstone", "fire", "redwood", 
+currentStable = ["sweet_k6a", "psyche", "xun", "taoyao", "moonstone", "fire", "redwood", 
                  "yunluo", "aristotle", "sky", "light", "lightcm", "earth", "yuechu", "tapas", "pipa", "agate", "liuqin",
                  "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
                  "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
@@ -50,6 +50,10 @@ flags = {
     "TAOYAOEEAGlobal": "taoyao",
     "psyche": "psyche",
     "PSYCHE": "psyche",
+    "ingres_global": "ingres",
+    "INGRESGlobal": "ingres",
+    "sweet_k6a_global": "sweet_k6a",
+    "SWEETK6AGlobal": "sweet_k6a",
     "aristotle_tw_global": "aristotle",
     "ARISTOTLETWGlobal": "aristotle",
     "cupid_eea_global": "cupid",

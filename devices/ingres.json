@@ -110,6 +110,29 @@
 					"fastboot": "ingres_images_OS1.0.1.0.ULJCNXM_20240103.0000.00_14.0_cn_chinatelecom_4e4671bd3f.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "ingres_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULJMIXM": {
+					"os": "OS1.0.1.0.ULJMIXM",
+					"android": "14.0",
+					"release": "2024-01-30",
+					"recovery": "miui_INGRESGlobal_OS1.0.1.0.ULJMIXM_a21c48ed3d_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
