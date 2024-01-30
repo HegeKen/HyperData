@@ -1,0 +1,34 @@
+{
+	"device": "garnet",
+	"name": {
+		"zh": "Redmi Note 13 Pro / POCO X6 5G",
+		"en": "Redmi Note 13 Pro / POCO X6 5G"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "garnet",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNRCNXM": {
+					"os": "OS1.0.1.0.UNRCNXM",
+					"android": "14.0",
+					"release": "2024-01-30",
+					"recovery": "miui_GARNET_OS1.0.1.0.UNRCNXM_e7be0367c7_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
