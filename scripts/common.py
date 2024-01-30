@@ -44,6 +44,8 @@ flags = {
     "duchamp_id_global": "duchamp",
     "fuxi_ru_global": "fuxi",
     "FUXIRUGlobal": "fuxi",
+    "pipa_tw_global": "pipa",
+    "PIPATWGlobal": "pipa",
     "DUCHAMPTWGlobal": "duchamp",
     "duchamp_tw_global": "duchamp",
     "taoyao_eea_global": "taoyao",

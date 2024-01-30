@@ -6,8 +6,12 @@
 	},
 	"postId": "44156213",
 	"update": "2024.01.27 13:02:19",
-	"versions": "OS1.0.24.1.22.DEV",
+	"versions": "OS1.0.24.1.22.DEV, OS1.0.24.1.27.DEV",
 	"description": [
+		{
+			"zh": "为给大家更好的使用体验，Xiaomi 12 Pro、Xiaomi 12、Xiaomi 12 Pro 天玑版、Redmi K50 至尊版、Redmi K50 电竞版、Redmi K50 Pro、Redmi K50 已发布开发版OS1.0.24.1.27.DEV版本，该版本已修复“蓝牙耳机设置页无法打开”的问题，欢迎大家升级至最新版本体验",
+			"en": "We've fixed the issue that makes Bloototh Settings fails to launch in DEV OS1.0.24.1.27.DEV for Xiaomi 12、Xiaomi 12 Pro、Xiaomi 12 Pro Dimensity、 Redmi K50、Redmi K50 Pro、Redmi K50G、Redmi K50 Ultra, please upgrade to the newer version for better user experience."
+		},
 		{
 			"zh": "小米 12、小米 12 Pro、小米 12 Pro 天玑版、小米 12S、小米 12S Pro、小米 12S Ultra、小米 13、小米 13 Pro、小米 13 Ultra、小米 14、小米 14 Pro/Ti、小米 MIX Fold 3、小米 MIX Fold 2、小米平板5 Pro 12.4、Redmi K50、Redmi K50 Pro、Redmi K50 至尊版、Redmi K50 电竞版、Redmi K60、Redmi K60 Pro的小米澎湃OS开发版，将于今天24点前推送完毕，欢迎大家升级至最新版本体验",
 			"en": "This week's HyperOS DEV for Xiaomi 12、Xiaomi 12 Pro、Xiaomi 12 Pro Dimensity、Xiaomi 12S、Xiaomi 12S Pro、Xiaomi 12S Ultra、Xiaomi 13、Xiaomi 13 Pro、Xiaomi 13 Ultra、Xiaomi 14、Xiaomi 14 Pro/Ti、Xiaomi MIX Fold 2、Xiaomi MIX Fold 3、 Xiaomi Pad 5 Pro 12.4、 Redmi K50、Redmi K50 Pro、Redmi K50G、Redmi K50 Ultra、Redmi K60、Redmi K60 Pro will be awailable before 24:00(GMT+8) today."
@@ -54,6 +58,20 @@
 			}
 		},
 		{
+			"device": "cupid",
+			"name": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
+			"rom": {
+				"os": "OS1.0.24.1.27.DEV",
+				"android": "14.0",
+				"release": "2024-01-29",
+				"recovery": "miui_CUPID_OS1.0.24.1.27.DEV_e6142bba51_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
 			"device": "zeus",
 			"name": {
 				"zh": "小米 12 Pro",
@@ -68,6 +86,20 @@
 			}
 		},
 		{
+			"device": "zeus",
+			"name": {
+				"zh": "小米 12 Pro",
+				"en": "Xiaomi 12 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.1.27.DEV",
+				"android": "14.0",
+				"release": "2024-01-29",
+				"recovery": "miui_ZEUS_OS1.0.24.1.27.DEV_95a0148f67_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
 			"device": "daumier",
 			"name": {
 				"zh": "小米 12 Pro 天玑版",
@@ -78,6 +110,20 @@
 				"android": "14.0",
 				"release": "2024-01-26",
 				"recovery": "miui_DAUMIER_OS1.0.24.1.22.DEV_8152e5e48a_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "daumier",
+			"name": {
+				"zh": "小米 12 Pro 天玑版",
+				"en": "Xiaomi 12 Pro Dimensity"
+			},
+			"rom": {
+				"os": "OS1.0.24.1.27.DEV",
+				"android": "14.0",
+				"release": "2024-01-29",
+				"recovery": "miui_DAUMIER_OS1.0.24.1.27.DEV_bc1e376e35_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -250,6 +296,20 @@
 			}
 		},
 		{
+			"device": "rubens",
+			"name": {
+				"zh": "Redmi K50",
+				"en": "Redmi K50"
+			},
+			"rom": {
+				"os": "OS1.0.24.1.27.DEV",
+				"android": "14.0",
+				"release": "2024-01-29",
+				"recovery": "miui_RUBENS_OS1.0.24.1.27.DEV_320aa8551b_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
 			"device": "matisse",
 			"name": {
 				"zh": "Redmi K50 Pro",
@@ -260,6 +320,20 @@
 				"android": "14.0",
 				"release": "2024-01-26",
 				"recovery": "miui_MATISSE_OS1.0.24.1.22.DEV_d1549d7489_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "matisse",
+			"name": {
+				"zh": "Redmi K50 Pro",
+				"en": "Redmi K50 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.1.27.DEV",
+				"android": "14.0",
+				"release": "2024-01-29",
+				"recovery": "miui_MATISSE_OS1.0.24.1.27.DEV_a320e357aa_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -288,6 +362,20 @@
 				"android": "14.0",
 				"release": "2024-01-26",
 				"recovery": "miui_DITING_OS1.0.24.1.22.DEV_cd8cc88692_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "diting",
+			"name": {
+				"zh": "Redmi K50 至尊版",
+				"en": "Redmi K50 Ultra"
+			},
+			"rom": {
+				"os": "OS1.0.24.1.27.DEV",
+				"android": "14.0",
+				"release": "2024-01-29",
+				"recovery": "miui_DITING_OS1.0.24.1.27.DEV_979de11484_14.0.zip",
 				"fastboot": ""
 			}
 		},

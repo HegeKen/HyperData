@@ -21,6 +21,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.24.1.27.DEV": {
+					"os": "OS1.0.24.1.27.DEV",
+					"android": "14.0",
+					"release": "2024-01-29",
+					"recovery": "miui_MATISSE_OS1.0.24.1.27.DEV_a320e357aa_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.24.1.22.DEV": {
 					"os": "OS1.0.24.1.22.DEV",
 					"android": "14.0",
@@ -68,6 +75,29 @@
 					"android": "14.0",
 					"release": "2023-12-15",
 					"recovery": "miui_MATISSE_OS1.0.23.12.11.DEV_1b742f14fb_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "matisse",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULKCNXM": {
+					"os": "OS1.0.2.0.ULKCNXM",
+					"android": "14.0",
+					"release": "2024-01-29",
+					"recovery": "miui_MATISSE_OS1.0.2.0.ULKCNXM_1defcda6ec_14.0.zip",
 					"fastboot": ""
 				}
 			}
