@@ -62,6 +62,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "redwood_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMSMIXM": {
+					"os": "OS1.0.2.0.UMSMIXM",
+					"android": "14.0",
+					"release": "2024-01-19",
+					"recovery": "miui_REDWOODGlobal_OS1.0.2.0.UMSMIXM_373f1d03de_14.0.zip",
+					"fastboot": "redwood_global_images_OS1.0.2.0.UMSMIXM_20240112.0000.00_14.0_global_ad1bdb2dec.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonisia Stable"
 			},

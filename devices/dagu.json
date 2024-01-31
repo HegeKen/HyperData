@@ -71,6 +71,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "dagu",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULZCNXM": {
+					"os": "OS1.0.1.0.ULZCNXM",
+					"android": "14.0",
+					"release": "2024-01-31",
+					"recovery": "miui_DAGU_OS1.0.1.0.ULZCNXM_eda29421b4_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
