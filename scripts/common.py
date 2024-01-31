@@ -110,6 +110,8 @@ flags = {
     "SUNSTONEGlobal": "sunstone",
     "moonstone_global": "moonstone",
     "MOONSTONEGlobal": "moonstone",
+    "moonstone_in_global": "moonstone",
+    "MOONSTONEINGlobal": "moonstone",
     "taoyao_global": "taoyao",
     "TAOYAOGlobal": "taoyao",
     "xun": "xun",
