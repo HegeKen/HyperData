@@ -50,6 +50,8 @@ flags = {
     "REDWOODGlobal": "redwood",
     "ruby_eea_global": "ruby",
     "RUBYEEAGlobal": "ruby",
+    "sky_eea_global": "sky",
+    "SKYEEAGlobal": "sky",
     "ruby": "ruby",
     "RUBY": "ruby",
     "fuxi_ru_global": "fuxi",
