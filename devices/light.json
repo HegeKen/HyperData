@@ -98,6 +98,29 @@
 					"fastboot": "light_images_OS1.0.5.0.ULSCNXM_20231226.0000.00_14.0_cn_chinaunicom_578ff307bd.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "light_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULSMIXM": {
+					"os": "OS1.0.2.0.ULSMIXM",
+					"android": "14.0",
+					"release": "2024-02-02",
+					"recovery": "miui_LIGHTGlobal_OS1.0.2.0.ULSMIXM_b89aee5aea_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
