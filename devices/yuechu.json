@@ -59,6 +59,30 @@
 					"fastboot": "yuechu_images_OS1.0.4.0.UMICNXM_20231219.0000.00_14.0_cn_chinatelecom_a666ca4b3c.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "yuechu_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMICNDM": {
+					"os": "OS1.0.2.0.UMICNDM",
+					"android": "14.0",
+					"release": "2023-12-19",
+					"recovery": "miui_YUECHUDEMO_OS1.0.2.0.UMICNDM_2706007e85_14.0.zip",
+					"fastboot": "yuechu_demo_images_OS1.0.2.0.UMICNDM_20231219.0000.00_14.0_cn_88acef7007.tgz",
+					"ctelecom": "yuechu_demo_images_OS1.0.2.0.UMICNDM_20231219.0000.00_14.0_cn_chinatelecom_a8dfd84a64.tgz"
+				}
+			}
 		}
 	]
 }

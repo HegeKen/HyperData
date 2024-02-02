@@ -39,6 +39,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "pipa_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMZCNDM": {
+					"os": "OS1.0.2.0.UMZCNDM",
+					"android": "14.0",
+					"release": "2023-12-19",
+					"recovery": "miui_PIPADEMO_OS1.0.2.0.UMZCNDM_a663b5c25d_14.0.zip",
+					"fastboot": "pipa_demo_images_OS1.0.2.0.UMZCNDM_20231219.0000.00_14.0_cn_511733fd2d.tgz",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾地区正式版",
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},
