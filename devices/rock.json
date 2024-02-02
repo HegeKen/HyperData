@@ -49,6 +49,29 @@
 					"android": "14.0",
 					"release": "2024-01-25",
 					"recovery": "miui_ROCKEEAGlobal_OS1.0.1.0.ULUEUXM_319d8dd16f_14.0.zip",
+					"fastboot": "rock_eea_global_images_OS1.0.1.0.ULUEUXM_20240112.0000.00_14.0_eea_d7772cbdcc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "rock_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULUINXM": {
+					"os": "OS1.0.3.0.ULUINXM",
+					"android": "14.0",
+					"release": "2024-02-02",
+					"recovery": "miui_ROCKINGlobal_OS1.0.3.0.ULUINXM_435f52bbbb_14.0.zip",
 					"fastboot": ""
 				}
 			}

@@ -26,7 +26,7 @@
 					"android": "14.0",
 					"release": "2024-01-26",
 					"recovery": "miui_REDWOOD_OS1.0.4.0.UMSCNXM_33c3abb2d0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "redwood_images_OS1.0.4.0.UMSCNXM_20240122.0000.00_14.0_cn_148a67254a.tgz"
 				},
 				"OS1.0.3.0.UMSCNXM": {
 					"os": "OS1.0.3.0.UMSCNXM",
@@ -51,6 +51,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.UMSCNXM": {
+					"os": "OS1.0.4.0.UMSCNXM",
+					"android": "14.0",
+					"release": "2024-01-26",
+					"recovery": "miui_REDWOOD_OS1.0.4.0.UMSCNXM_33c3abb2d0_14.0.zip",
+					"fastboot": "redwood_images_OS1.0.4.0.UMSCNXM_20240122.0000.00_14.0_cn_chinatelecom_e76a225f43.tgz"
+				},
 				"OS1.0.3.0.UMSCNXM": {
 					"os": "OS1.0.3.0.UMSCNXM",
 					"android": "14.0",
@@ -85,6 +92,52 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "redwood_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMSEUXM": {
+					"os": "OS1.0.2.0.UMSEUXM",
+					"android": "14.0",
+					"release": "",
+					"recovery": "miui_REDWOODEEAGlobal_OS1.0.2.0.UMSEUXM_77a01d0e42_14.0.zip",
+					"fastboot": "redwood_eea_global_images_OS1.0.2.0.UMSEUXM_20240118.0000.00_14.0_eea_a09863e2c9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "redwood_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMSINXM": {
+					"os": "OS1.0.2.0.UMSINXM",
+					"android": "14.0",
+					"release": "2024-02-02",
+					"recovery": "miui_REDWOODINGlobal_OS1.0.2.0.UMSINXM_d0b56250f3_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonisia Stable"
 			},
@@ -102,7 +155,7 @@
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_REDWOODIDGlobal_OS1.0.2.0.UMSIDXM_8576487413_14.0.zip",
-					"fastboot": ""
+					"fastboot": "redwood_id_global_images_OS1.0.2.0.UMSIDXM_20240119.0000.00_14.0_id_f9ad98d6ec.tgz"
 				}
 			}
 		}

@@ -21,6 +21,13 @@
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"roms": {
+				"OS1.0.24.1.29.DEV": {
+					"os": "OS1.0.24.1.29.DEV",
+					"android": "14.0",
+					"release": "2024-02-02",
+					"recovery": "miui_MONDRIAN_OS1.0.24.1.29.DEV_fa229554c9_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.24.1.22.DEV": {
 					"os": "OS1.0.24.1.22.DEV",
 					"android": "14.0",
@@ -262,7 +269,7 @@
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_MONDRIANRUGlobal_OS1.0.2.0.UMNRUXM_e9af0b70a7_14.0.zip",
-					"fastboot": ""
+					"fastboot": "mondrian_ru_global_images_OS1.0.2.0.UMNRUXM_20240122.0000.00_14.0_ru_6badbac7ca.tgz"
 				}
 			}
 		},
@@ -285,7 +292,7 @@
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_MONDRIANTRGlobal_OS1.0.2.0.UMNTRXM_5fc8a88535_14.0.zip",
-					"fastboot": ""
+					"fastboot": "mondrian_tr_global_images_OS1.0.2.0.UMNTRXM_20240122.0000.00_14.0_tr_0e2ac31a39.tgz"
 				}
 			}
 		}

@@ -36,6 +36,52 @@
 					"fastboot": "agate_global_images_OS1.0.2.0.UKWMIXM_20231213.0000.00_14.0_global_a678e5cd35.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "agate_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKWEUXM": {
+					"os": "OS1.0.2.0.UKWEUXM",
+					"android": "14.0",
+					"release": "2024-02-02",
+					"recovery": "miui_AGATEEEAGlobal_OS1.0.2.0.UKWEUXM_adccc0e057_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "agate_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKWRUXM": {
+					"os": "OS1.0.2.0.UKWRUXM",
+					"android": "14.0",
+					"release": "2024-02-02",
+					"recovery": "miui_AGATERUGlobal_OS1.0.2.0.UKWRUXM_cd75580137_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
