@@ -1,8 +1,8 @@
 {
 	"device": "duchamp",
 	"name": {
-		"zh": "Redmi K70E/ POCO X6 Pro 5G",
-		"en": "Redmi K70E/ POCO X6 Pro 5G"
+		"zh": "Redmi K70E / POCO X6 Pro 5G",
+		"en": "Redmi K70E / POCO X6 Pro 5G"
 	},
 	"type": "phone",
 	"miui": "no",
@@ -21,6 +21,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.11.0.UNLCNXM": {
+					"os": "OS1.0.11.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2024-02-03",
+					"recovery": "miui_DUCHAMP_OS1.0.11.0.UNLCNXM_00244a3963_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.10.0.UNLCNXM": {
 					"os": "OS1.0.10.0.UNLCNXM",
 					"android": "14.0",
