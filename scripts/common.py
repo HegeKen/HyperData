@@ -44,6 +44,8 @@ flags = {
     "REDWOOD": "redwood",
     "redwood": "redwood",
     "DAGU": "dagu",
+    "fire_eea_global": "fire",
+    "FIREEEAGlobal": "fire",
     "DUCHAMPIDGlobal": "duchamp",
     "duchamp_id_global": "duchamp",
     "redwood_global": "redwood",
