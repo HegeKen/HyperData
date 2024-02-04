@@ -55,6 +55,8 @@ flags = {
     "sky_eea_global": "sky",
     "SKYEEAGlobal": "sky",
     "ruby": "ruby",
+    "topaz_ru_global": "topaz",
+    "TOPAZRUGlobal": "topaz",
     "marble": "marble",
     "MARBLE": "marble",
     "light_global": "light",
