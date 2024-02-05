@@ -78,6 +78,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "plato_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULQRUXM": {
+					"os": "OS1.0.2.0.ULQRUXM",
+					"android": "14.0",
+					"release": "2024-02-01",
+					"recovery": "miui_PLATORUGlobal_OS1.0.2.0.ULQRUXM_1e6f28810f_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonisia Stable"
 			},
