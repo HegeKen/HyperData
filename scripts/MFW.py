@@ -1,6 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import common
+import OScommon
 
 
 urls = []
@@ -19,6 +19,6 @@ for link in download_links:
       urls.append(link["href"])
   else:
       filename = link["href"].split('/')[4]
-      common.checkExist(filename)
+      OScommon.checkExist(filename)
 for url in urls:
-  common.MiFirm(url)
+  OScommon.MiFirm(url)

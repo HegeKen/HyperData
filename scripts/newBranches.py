@@ -1,4 +1,4 @@
-import common
+import OScommon
 
 base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
 
@@ -24,100 +24,100 @@ jpbranches = ["_jp_global","_jp_sb_global","_jp_kd_global","_jp_rk_global"]
 onedevices=["tissot","jasmine","laurel","tiare","ice","water"]
 
 
-for device in common.newDevices:
+for device in OScommon.newDevices:
   if device in onedevices:
     for branch in gfbranches:
       print("\r"+base_url+device+branch+"&b=F&r=cn&n=                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=&n=")
   else:
     for branch in cnbranches:
       for carrier in carriers:
         print("\r"+base_url+device+branch+"&b=F&r=cn&n="+carrier+"                                      ",end="")
-        common.getFastboot(base_url+device+branch+"&b=F&r=cn&n="+carrier)
+        OScommon.getFastboot(base_url+device+branch+"&b=F&r=cn&n="+carrier)
     for branch in gbbranches:
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in eeabranches:
       print("\r"+base_url+device+branch+"&b=F&r=eea&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=eea&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=eea&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in rubranches:
       print("\r"+base_url+device+branch+"&b=F&r=ru&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=ru&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=ru&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in inbranches:
       print("\r"+base_url+device+branch+"&b=F&r=in&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=in&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=in&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in idbranches:
       print("\r"+base_url+device+branch+"&b=F&r=id&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=id&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=id&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in trbranches:
       print("\r"+base_url+device+branch+"&b=F&r=tr&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=tr&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=tr&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in krbranches:
       print("\r"+base_url+device+branch+"&b=F&r=kr&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=kr&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=kr&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in jpbranches:
       print("\r"+base_url+device+branch+"&b=F&r=jp&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=jp&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=jp&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
 
-for device in common.currentStable:
+for device in OScommon.currentStable:
   if device in onedevices:
     for branch in gfbranches:
       print("\r"+base_url+device+branch+"&b=F&r=cn&n=                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=&n=")
   else:
     for branch in cnbranches:
       for carrier in carriers:
         print("\r"+base_url+device+branch+"&b=F&r=cn&n="+carrier+"                                      ",end="")
-        common.getFastboot(base_url+device+branch+"&b=F&r=cn&n="+carrier)
+        OScommon.getFastboot(base_url+device+branch+"&b=F&r=cn&n="+carrier)
     for branch in gbbranches:
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in eeabranches:
       print("\r"+base_url+device+branch+"&b=F&r=eea&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=eea&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=eea&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in rubranches:
       print("\r"+base_url+device+branch+"&b=F&r=ru&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=ru&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=ru&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in inbranches:
       print("\r"+base_url+device+branch+"&b=F&r=in&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=in&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=in&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in idbranches:
       print("\r"+base_url+device+branch+"&b=F&r=id&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=id&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=id&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in trbranches:
       print("\r"+base_url+device+branch+"&b=F&r=tr&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=tr&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=tr&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in krbranches:
       print("\r"+base_url+device+branch+"&b=F&r=kr&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=kr&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=kr&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
     for branch in jpbranches:
       print("\r"+base_url+device+branch+"&b=F&r=jp&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=jp&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=jp&n=")
       print("\r"+base_url+device+branch+"&b=F&r=global&n="+"                                      ",end="")
-      common.getFastboot(base_url+device+branch+"&b=F&r=global&n=")
+      OScommon.getFastboot(base_url+device+branch+"&b=F&r=global&n=")

@@ -1,10 +1,10 @@
 import json
 from sys import platform
-import common
+import OScommon
 
 base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
-for device in common.currentStable:
-  devdata = common.localData(device)
+for device in OScommon.currentStable:
+  devdata = OScommon.localData(device)
   for branch in devdata["branches"]:
     code = branch["branchCode"]
     if code == "":
@@ -17,20 +17,20 @@ for device in common.currentStable:
     if region == "cn":
       if len(carriers)==0:
         print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
-        common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
+        OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
       else:
         for carrier in carriers:
           print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")
-          common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n="+carrier)
+          OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n="+carrier)
     elif region == "global":
       print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
-      common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
+      OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
     else:
       print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
-      common.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
+      OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
       print("\r"+base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n="+"                                   ",end="")
       print("\r"+base_url+code+"&b="+btag+"&r=eea&n="+"                                   ",end="")
-      common.getFastboot(base_url+code+"&b="+btag+"&r=eea&n=")
-      common.getFastboot(base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n=")
+      OScommon.getFastboot(base_url+code+"&b="+btag+"&r=eea&n=")
+      OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n=")
       print("\r"+base_url+code+"&b="+btag+"&r=global"+"&n="+"                                   ",end="")
-      common.getFastboot(base_url+code+"&b="+btag+"&r=global"+"&n=")
+      OScommon.getFastboot(base_url+code+"&b="+btag+"&r=global"+"&n=")

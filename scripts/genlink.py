@@ -1,7 +1,7 @@
-import common
+import OScommon
 
 
-devdata = common.localData("shennong")
+devdata = OScommon.localData("shennong")
 branchids = []
 for i in range(0,len(devdata["branches"])):
   if devdata["branches"][i]["idtag"] == "Dev" or devdata["branches"][i]["idtag"] == "CnOO":

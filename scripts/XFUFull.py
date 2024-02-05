@@ -1,7 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 import re
-import common
+import OScommon
 
 directory = "D:\\Projects\\MIUIROMS\\XFU\\pages\\\hyperos"
 
@@ -29,6 +29,6 @@ for root, dirs, files in os.walk(directory):
               i = 0
             else:
               package = link.split('/')[4]
-              common.checkExist(package)
+              OScommon.checkExist(package)
           else:
             i = 0
