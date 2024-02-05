@@ -44,6 +44,8 @@ flags = {
     "REDWOOD": "redwood",
     "redwood": "redwood",
     "DAGU": "dagu",
+    "sky_in_global": "sky",
+    "SKYINGlobal": "sky",
     "fire_eea_global": "fire",
     "FIREEEAGlobal": "fire",
     "DUCHAMPIDGlobal": "duchamp",
@@ -420,6 +422,45 @@ def miui_encrypt(json_request):
     encrypted_request = urllib.parse.quote(base64.b64encode(
         cipher_text).decode("utf-8")).replace("/", "%2F")
     return encrypted_request
+
+
+HyperOSForm = {
+    "obv": "OS1.0",
+    "channel": "",
+    "sys": "0",
+    "bv": "816",
+    "id": "",
+    "sn": "0x0000043b716a25f1",
+    "a": "0",
+    "b": "F",
+    "c": "14",
+    "unlock": "0",
+    "d":"marble",
+    "lockZoneChannel": "normal",
+    "f": "1",
+    "ov": "OS1.0.2.0.UMRCNXM",
+    "g": "9b65722a06722e8d8dffa35a9fd58586",
+    "i": "14db85f96df2efc324323fa7679f0d847ff53f3bff7179ea0c778ce5d980bc03",
+    "i2": "2cd7c24f21e33b236fc63f26d044227b96d8b39a80400654f88182322688793b",
+    "isR": "0",
+    "l": "zh_CN",
+    "n": "ct",
+    "p": "marble",
+    "pb": "Redmi",
+    "r": "CN",
+    "v": "MIUI-V816.0.2.0.UMRCNXM",
+    "sdk": "34",
+    "pn": "marble",
+    "options": 
+        {"zone": 1,
+         "hashId": "dae7d50f696d7403",
+         "ab": "1",
+         "previewPlan":"0",
+         "sv": 3,
+         "av": "8.4.7",
+         "cv": ""
+        }
+    }
 
 
 MiOTAForm = {
