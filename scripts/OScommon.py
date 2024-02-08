@@ -166,6 +166,8 @@ flags = {
     "MONDRIANTWGlobal": "mondrian",
     "pipa_tr_global": "pipa",
     "PIPATRGlobal": "pipa",
+    "pipa_ru_global": "pipa",
+    "PIPARUGlobal": "pipa",
     "DUCHAMPGlobal": "duchamp",
     "duchamp_global": "duchamp",
     "DUCHAMPEEAGlobal": "duchamp",
