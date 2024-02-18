@@ -56,6 +56,31 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "fire_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMXRUXM": {
+					"os": "OS1.0.2.0.UMXRUXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-18",
+					"recovery": "miui_FIRERUGlobal_OS1.0.2.0.UMXRUXM_9ff894d5eb_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

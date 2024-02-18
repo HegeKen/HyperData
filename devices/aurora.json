@@ -1,0 +1,61 @@
+{
+	"device": "aurora",
+	"name": {
+		"zh": "小米 14 Ultra",
+		"en": "Xiaomi 14 Ultra"
+	},
+	"type": "phone",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 开发版",
+				"en": "Xiaomi HyperOS DEV"
+			},
+			"branchCode": "aurora",
+			"idtag": "Dev",
+			"branchtag": "X",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "aurora",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.0.1.UNACNXM": {
+					"os": "OS1.0.0.1.UNACNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

@@ -21,12 +21,12 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["gold","sweet_k6a", "psyche", "xun", "taoyao", "moonstone", "fire", "redwood", 
+currentStable = ["ruyi", "aurora", "sheng", "gold","sweet_k6a", "psyche", "xun", "taoyao", "moonstone", "fire", "redwood", 
                  "yunluo", "aristotle", "sky", "light", "lightcm", "earth", "yuechu", "tapas", "pipa", "agate", "liuqin",
                  "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
                  "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
                  "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
-newDevices = ["aurora", "sheng", "amber", "houji",
+newDevices = ["ruyi", "aurora", "sheng", "amber", "houji",
               "shennong", "duchamp", "vermeer", "manet"]
 flags = {
     "HOUJI": "houji",
@@ -35,8 +35,16 @@ flags = {
     "houji_demo": "houji",
     "zircon": "zircon",
     "ZIRCON": "zircon",
+    "aurora": "aurora",
+    "AURORA": "aurora",
+    "ruyi": "ruyi",
+    "RUYI": "ruyi",
+    "sheng": "sheng",
+    "SHENG": "sheng",
     "garnet": "garnet",
     "GARNET": "garnet",
+    "rock_global": "rock",
+    "ROCKGlobal": "rock",
     "sky_global": "sky",
     "SKYGlobal": "sky",
     "marble_in_global": "marble",

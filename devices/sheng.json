@@ -1,0 +1,36 @@
+{
+	"device": "sheng",
+	"name": {
+		"zh": "小米平板 7 Pro",
+		"en": "Xiaomi Pad 7 Pro"
+	},
+	"type": "pad",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "sheng",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-01-31",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
