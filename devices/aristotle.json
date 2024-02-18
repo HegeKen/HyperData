@@ -84,6 +84,31 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "aristotle_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMFRUXM": {
+					"os": "OS1.0.1.0.UMFRUXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-18",
+					"recovery": "miui_ARISTOTLERUGlobal_OS1.0.1.0.UMFRUXM_863685c368_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonisia Stable"
 			},
@@ -104,6 +129,31 @@
 					"release": "2024-01-26",
 					"recovery": "miui_ARISTOTLEIDGlobal_OS1.0.2.0.UMFIDXM_b9ccc74619_14.0.zip",
 					"fastboot": "aristotle_id_global_images_OS1.0.2.0.UMFIDXM_20240115.0000.00_14.0_id_b931188d28.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "aristotle_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMFTRXM": {
+					"os": "OS1.0.1.0.UMFTRXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-18",
+					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.1.0.UMFTRXM_14deef6595_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

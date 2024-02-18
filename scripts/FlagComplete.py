@@ -1,6 +1,6 @@
 import OScommon
 import sys
-sys.path.append("D:\\Projects\\MIUIROMS\\NuxtMR\\static\\data\\scripts\\")
+sys.path.append("D:\\Projects\\HyperOS.fans\\public\\MRData\\data\\scripts\\")
 import common
 
 
