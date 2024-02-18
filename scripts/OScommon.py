@@ -21,11 +21,11 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
                "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["ruyi", "aurora", "sheng", "gold", "sweet_k6a", "psyche", "xun", "taoyao", "moonstone", "fire", "redwood",
-                 "yunluo", "aristotle", "sky", "light", "lightcm", "earth", "yuechu", "tapas", "pipa", "agate", "liuqin",
-                 "yudi", "marble", "sea", "plato", "topaz", "dagu", "cupid", "zeus", "mayfly", "unicorn", "thor", "corot",
-                 "duchamp", "daumier", "vermeer", "manet", "houji", "shennong", "fuxi", "nuwa",
-                 "ishtar", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates", "zizhan", "babylon"]
+currentStable = ["ruyi", "aurora", "sheng", "agate","aristotle","aurora","babylon","corot","cupid","dagu","daumier",
+                 "diting","duchamp","earth","fire","fuxi","garnet","gold","houji","ingres","ishtar","light","lightcm",
+                 "liuqin","manet","marble","matisse","mayfly","mondrian","moonstone","nuwa","pipa","plato","psyche",
+                 "redwood","rock","rubens","ruby","ruyi","sea","sheng","shennong","sky","socrates","sunstone","sweet_k6a",
+                 "taoyao","tapas","thor","topaz","unicorn","vermeer","xun","yudi","yuechu","yunluo","zeus","zircon","zizhan"]
 newDevices = ["ruyi", "aurora", "sheng", "amber", "houji",
               "shennong", "duchamp", "vermeer", "manet"]
 flags = {

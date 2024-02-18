@@ -4,7 +4,6 @@ for device in OScommon.currentStable:
   devdata = OScommon.localData(device)
   for i in range(0,len(devdata['branches'])):
     j = i -1
-    print(devdata['branches'][j]['branchCode'])
     if devdata['branches'][j]['branchCode'] == '':
       print("请修补机型： "+device+"文件中未指定的区域代码\n")
     elif devdata['branches'][j]['branchCode'] in OScommon.flags:
