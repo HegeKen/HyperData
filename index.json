@@ -1,7 +1,15 @@
 {
 	"recent": {
-		"time": "2024.02.18 12:16:00",
+		"time": "2024.02.18 18:09:51",
 		"roms": [
+			{
+				"code": "nuwa",
+				"name": {
+					"zh": "小米 13 Pro",
+					"en": "Xiaomi 13 Pro"
+				},
+				"rom": "OS1.0.4.0.UMBMIXM"
+			},
 			{
 				"code": "pipa",
 				"name": {
@@ -24,25 +32,41 @@
 					"zh": "Redmi 12 国际",
 					"en": "Redmi 12"
 				},
-				"rom": "OS1.0.2.0.UMXRUXM"
+				"rom": "OS1.0.2.0.UMXRUXM; OS1.0.3.0.UMXIDXM"
 			},
-			
-		{
-			"code": "tapas",
-			"name": {
-				"zh": "Redmi Note 12 4G 国际",
-				"en": "Redmi Note 12 4G"
+
+			{
+				"code": "tapas",
+				"name": {
+					"zh": "Redmi Note 12 4G 国际",
+					"en": "Redmi Note 12 4G"
+				},
+				"rom": "OS1.0.4.0.UMTMIXM"
 			},
-			"rom": "OS1.0.4.0.UMTMIXM"
-		},
-		{
-			"code": "topaz",
-			"name": {
-				"zh": "Redmi Note 12 4G NFC 国际",
-				"en": "Redmi Note 12 4G NFC"
+			{
+				"code": "topaz",
+				"name": {
+					"zh": "Redmi Note 12 4G NFC 国际",
+					"en": "Redmi Note 12 4G NFC"
+				},
+				"rom": "OS1.0.4.0.UMGMIXM"
 			},
-			"rom": "OS1.0.4.0.UMGMIXM"
-		}
+			{
+				"code": "diting",
+				"name": {
+					"zh": "Redmi K50 至尊版",
+					"en": "Redmi K50 Ultra"
+				},
+				"rom": "OS1.0.2.0.ULFTWXM; OS1.0.2.0.ULFMIXM"
+			},
+			{
+				"code": "moonstone",
+				"name": {
+					"zh": "POCO X5 5G",
+					"en": "POCO X5 5G"
+				},
+				"rom": ""
+			}
 		]
 	}
 }

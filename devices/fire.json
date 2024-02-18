@@ -81,6 +81,31 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "fire_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMXIDXM": {
+					"os": "OS1.0.3.0.UMXIDXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-18",
+					"recovery": "miui_FIREIDGlobal_OS1.0.3.0.UMXIDXM_fbe712cb0e_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
