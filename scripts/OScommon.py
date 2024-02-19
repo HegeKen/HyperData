@@ -19,9 +19,11 @@ miui_key = b"miuiotavalided11"
 miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
+
+
 currentBeta = ["cupid", "zeus", "mayfly", "unicorn", "thor", "houji", "shennong", "daumier", "fuxi", "nuwa",
 			   "ishtar", "zizhan", "babylon", "dagu", "rubens", "matisse", "ingres", "diting", "mondrian", "socrates"]
-currentStable = ["ruyi", "aurora", "sheng", "agate", "aristotle", "aurora", "babylon", "corot", "cupid", "dagu", "daumier",
+currentStable = ["lisa", "pissarro", "ruyi", "aurora", "sheng", "agate", "aristotle", "aurora", "babylon", "corot", "cupid", "dagu", "daumier",
 				 "diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm",
 				 "liuqin", "manet", "marble", "matisse", "mayfly", "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche",
 				 "redwood", "rock", "rubens", "ruby", "ruyi", "sea", "sheng", "shennong", "sky", "socrates", "sunstone", "sweet_k6a",
