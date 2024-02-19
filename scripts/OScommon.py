@@ -387,8 +387,8 @@ def writeData(filename):
 		file = open("public/data/scripts/NewROMs.txt", "a", encoding='utf-8')
 	else:
 		file = open("/sdcard/Codes/HyperOS.fans/public/data/scripts/NewROMs.txt", "a", encoding='utf-8')
-		file.write(filename+"\n")
-		file.close()
+	file.write(filename+"\n")
+	file.close()
 
 
 def writeFlag(flag, device):
@@ -396,8 +396,8 @@ def writeFlag(flag, device):
 		file = open("public/data/scripts/Flags.json", "a", encoding='utf-8')
 	else:
 		file = open("/sdcard/Codes/HyperOS.fans/public/data/scripts/Flags.json", "a", encoding='utf-8')
-		file.write("\""+flag+"\":\""+device+"\",\n")
-		file.close()
+	file.write("\""+flag+"\":\""+device+"\",\n")
+	file.close()
 
 
 def getDeviceCode(filename):
