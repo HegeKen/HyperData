@@ -1,0 +1,36 @@
+{
+	"device": "lisa",
+	"name": {
+		"zh": "小米 11 青春活力版",
+		"en": "Mi 11 LE/Xiaomi 11 Lite 5G NE"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "lisa",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKOCNXM": {
+					"os": "OS1.0.1.0.UKOCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-19",
+					"recovery": "miui_LISA_OS1.0.1.0.UKOCNXM_d2eb96aaa6_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

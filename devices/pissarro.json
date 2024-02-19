@@ -1,0 +1,36 @@
+{
+	"device": "pissarro",
+	"name": {
+		"zh": "Redmi Note 11 Pro/Pro+/Pro+ 5G",
+		"en": "Redmi Note 11 Pro/Pro+/Pro+ 5G"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "pissarro",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKTCNXM": {
+					"os": "OS1.0.2.0.TKTCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-19",
+					"recovery": "miui_PISSARRO_OS1.0.2.0.TKTCNXM_13f7d12d41_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
