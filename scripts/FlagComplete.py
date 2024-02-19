@@ -1,6 +1,6 @@
 import OScommon
 import sys
-sys.path.append("D:\\Projects\\HyperOS.fans\\public\\MRData\\data\\scripts\\")
+sys.path.append("D:\\Projects\\HyperOS.fans\\Nuxt3MR\\public\\MRData\\scripts\\")
 import common
 
 

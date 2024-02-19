@@ -578,6 +578,21 @@ def MiFirm(url):
     for tag in filtered_td_tags:
         checkExist(tag.text)
 
+def MiFirm2(url):
+  response = requests.post(url)
+  if (response.status_code == 200):
+    content = response.content.decode("utf8")
+    if content == "":
+        i = 0
+    else:
+      soup = BeautifulSoup(content, 'lxml')
+      table_tags = soup.find_all("table", class_="firm_data")
+      for tag in table_tags:
+        tdtags = BeautifulSoup(str(tag), 'lxml')
+        tds = tdtags.find_all("td")
+        for td in tds:
+          if ".tgz" in td.text or ".zip" in td.text:
+            print(td.text)
 
 def getChangelog(encrypted_data, device):
     headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
