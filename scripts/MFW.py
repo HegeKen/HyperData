@@ -1,6 +1,7 @@
 from selenium import webdriver
 import OScommon
 from selenium.webdriver.common.by import By
+import os
 
 
 urls = []
@@ -20,5 +21,8 @@ for element in elements:
   else:
     i = 0
 driver.quit()
+
+os.system('cls')
 for url in urls:
+  print('\r'+url + '              ',end='')
   OScommon.MiFirm2(url)
