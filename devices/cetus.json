@@ -1,0 +1,36 @@
+{
+	"device": "cetus",
+	"name": {
+		"zh": "小米 MIX FOLD",
+		"en": "Mi MIX FOLD"
+	},
+	"type": "foldable",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "cetus",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TJTCNXM": {
+					"os": "OS1.0.1.0.TJTCNXM",
+					"android": "13.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-20",
+					"recovery": "miui_CETUS_OS1.0.1.0.TJTCNXM_c5477967cc_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

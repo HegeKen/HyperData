@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["lisa", "pissarro", "ruyi", "aurora", "sheng", "agate", "aristotle", "aurora", "babylon", "corot", "cupid", "dagu", "daumier",
+currentStable = ["cetus","lisa", "pissarro", "ruyi", "aurora", "sheng", "agate", "aristotle", "aurora", "babylon", "corot", "cupid", "dagu", "daumier",
 				 "diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm",
 				 "liuqin", "manet", "marble", "matisse", "mayfly", "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche",
 				 "redwood", "rock", "rubens", "ruby", "ruyi", "sea", "sheng", "shennong", "sky", "socrates", "sunstone", "sweet_k6a",
@@ -50,6 +50,8 @@ flags = {
 	"SHENG": "sheng",
 	"garnet": "garnet",
 	"GARNET": "garnet",
+	"cetus":"cetus",
+	"CETUS":"cetus",
 	"fire_ru_global": "fire",
 	"earth_eea_global": "earth",
 	"FIRERUGlobal": "fire",
@@ -337,7 +339,7 @@ flags = {
 	"lisa":"lisa",
 	"LISA":"lisa",
 	"pissarro": "pissarro",
-	"pissarro": "PISSARRO",
+	"PISSARRO": "PISSARRO",
 	"MAYFLY": "mayfly",
 	"UNICORN": "unicorn",
 	"THOR": "thor",
