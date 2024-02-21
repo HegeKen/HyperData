@@ -113,7 +113,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -125,7 +125,32 @@
 					"bv": "816",
 					"release": "2024-01-29",
 					"recovery": "miui_DAUMIER_OS1.0.2.0.ULGCNXM_d84b64c895_14.0.zip",
-					"fastboot": ""
+					"fastboot": "daumier_images_OS1.0.2.0.ULGCNXM_20240125.0000.00_14.0_cn_aae9916992.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "daumier",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULGCNXM": {
+					"os": "OS1.0.2.0.ULGCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-01-29",
+					"recovery": "miui_DAUMIER_OS1.0.2.0.ULGCNXM_d84b64c895_14.0.zip",
+					"fastboot": "daumier_images_OS1.0.2.0.ULGCNXM_20240125.0000.00_14.0_cn_chinatelecom_4ee30712e8.tgz"
 				}
 			}
 		}
