@@ -77,6 +77,31 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "redwood_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMSTWXM": {
+					"os": "OS1.0.1.0.UMSTWXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-21",
+					"recovery": "miui_REDWOODTWGlobal_OS1.0.1.0.UMSTWXM_af87e479e8_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -127,6 +152,31 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "redwood_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMSRUXM": {
+					"os": "OS1.0.1.0.UMSRUXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-21",
+					"recovery": "miui_REDWOODRUGlobal_OS1.0.1.0.UMSRUXM_ab75a6f4df_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -172,6 +222,31 @@
 					"release": "2024-01-29",
 					"recovery": "miui_REDWOODIDGlobal_OS1.0.2.0.UMSIDXM_8576487413_14.0.zip",
 					"fastboot": "redwood_id_global_images_OS1.0.2.0.UMSIDXM_20240119.0000.00_14.0_id_f9ad98d6ec.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "redwood_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMSTRXM": {
+					"os": "OS1.0.1.0.UMSTRXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "",
+					"recovery": "miui_REDWOODTRGlobal_OS1.0.1.0.UMSTRXM_177a24bab4_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
