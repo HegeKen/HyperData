@@ -3,8 +3,13 @@ import OScommon
 base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
 
 carriers = ["","chinatelecom","chinaunicom","chinamobile"]
-cnbranches = ["","_demo","_ep_yunke","_ep_stdee","_ep_xy","_ep_kywl","_ep_cqrcb","_ep_ec","_ep_sxht","_ep_yfan","_ep_yx","_ep_stdce",
-              "_ep_xdja","_ep_litee","_ep_yy","_ep_tly","_ep_sdlybjcg","_tl","_ep_tl","_ep_tkgwdl"]
+cnbranches = ['','_demo','_ep_yunke','_ep_stdee','_ep_xy','_ep_kywl','_ep_cqrcb','_ep_ec','_ep_sxht','_ep_yfan','_ep_yx','_ep_stdce',
+              '_ep_xdja','_ep_litee','_ep_yy','_ep_tly','_ep_sdlybjcg','_tl','_ep_tl','_ep_tkgwdl', '_ep_dhao', '_ep_by', '_ep_qiy',
+              '_ep_ui','_ep_tlkj', '_ep_tq', '_ep_wosq', '_ep_xzm', '_ep_zc360', '_ep_zdjt', '_ep_zzyglkg', '_soter', '_pre_wechat',
+              '_ep_justsafe', '_ep_nio', '_ep_txzx', '_factory', '_pre_7475vbl', '_ep_dameng', '_ep_yxyun', '_ep_hujing', '_ep_jwm',
+              '_ep_yfd', '_ep_zzybp', '_ep_daote', '_ep_jd', '_ep_tjzf', '_ep_tpybx', '_ep_bds', '_ep_hfwd', '_ep_hn', '_ep_jyrj',
+              '_cm', '_ct', '_pfc', '_ep_byd', '_miui_factory', '_stable_cmcc01', '_fs', '_liuniu', '_ep_mjwxns', '_ep_czht',
+              '_ep_sbgl', '_y002_pre']
 twbranches = ["_tw_global"]
 gfbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_in_global","in_global","_in_fk_global","_kr_global",
               "in_in_global","_tr_global","_jp_global","_mx_global","_lm_global","_th_global","_pe_global","_za_global","_jp_kd_global",

@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.02.22 17:55:30",
+		"time": "2024.02.22 20:44:06",
 		"roms": [
 			{
 				"code": "lisa",
@@ -51,12 +51,20 @@
 				"rom": "OS1.0.1.0.TJTCNXM"
 			},
 			{
+				"code": "mona",
+				"name": {
+					"zh": "小米 Civi",
+					"en": "Xiaomi Civi"
+				},
+				"rom": "OS1.0.2.0.TKVCNXM"
+			},
+			{
 				"code": "earth",
 				"name": {
 					"zh": "Redmi 12C",
 					"en": "Redmi 12C"
 				},
-				"rom": "OS1.0.1.0.UCVTWXM"
+				"rom": "OS1.0.1.0.UCVTWXM; OS1.0.1.0.UCVIDXM"
 			},
 			{
 				"code": "pissarro",
@@ -104,7 +112,15 @@
 					"zh": "POCO M5",
 					"en": "POCO M5"
 				},
-				"rom": "OS1.0.1.0.ULUTWXM; OS1.0.1.0.ULURUXM; OS1.0.1.0.ULUTRXM"
+				"rom": "OS1.0.1.0.ULUTWXM; OS1.0.1.0.ULURUXM; OS1.0.1.0.ULUIDXM; OS1.0.1.0.ULUTRXM"
+			},
+			{
+				"code": "moonstone",
+				"name": {
+					"zh": "POCO X5 5G",
+					"en": "POCO X5 5G"
+				},
+				"rom": "OS1.0.1.0.UMPRUXM"
 			}
 		]
 	}
