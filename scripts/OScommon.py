@@ -36,6 +36,8 @@ flags = {
 	"ZIRCON": "zircon",
 	"aurora": "aurora",
 	"AURORA": "aurora",
+	"aurora_demo": "aurora",
+	"AURORADEMO": "aurora",
 	"ruyi": "ruyi",
 	"RUYI": "ruyi",
 	"aristotle_ru_global": "aristotle",

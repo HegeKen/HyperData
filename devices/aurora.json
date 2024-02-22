@@ -56,6 +56,32 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "aurora_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNACNDM": {
+					"os": "OS1.0.1.0.UNACNDM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
 		}
 	]
 }
