@@ -58,6 +58,8 @@ flags = {
 	"REDWOODTWGlobal": "redwood",
 	"redwood_tr_global": "redwood",
 	"REDWOODTRGlobal": "redwood",
+	"earth_tw_global": "eatrh",
+	"EARTHTWGlobal": "eatrh",
 	"sweet_k6a_ru_global": "sweet_k6a",
 	"SWEETK6ARUGlobal": "sweet_k6a",
 	"sweet_k6a_eea_global": "sweet_k6a",
