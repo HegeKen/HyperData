@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["aurora", "cetus" ,"lisa", "pissarro", "ruyi", "sheng", "agate", "aristotle", "babylon", "corot", "cupid", "dagu", "daumier",
+currentStable = ["aurora", "sheng", "cetus" ,"lisa", "pissarro", "ruyi", "agate", "aristotle", "babylon", "corot", "cupid", "dagu", "daumier",
 				 "diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm",
 				 "liuqin", "manet", "marble", "matisse", "mayfly", "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche",
 				 "redwood", "rock", "rubens", "ruby", "sea", "shennong", "sky", "socrates", "sunstone", "sweet_k6a",
