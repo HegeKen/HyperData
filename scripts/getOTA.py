@@ -32,5 +32,5 @@ for device in OScommon.currentStable:
       OScommon.HyperOSForm["obv"] = current["obv"]
       OScommon.HyperOSForm["bv"] = current["bv"]
       OScommon.getFromApi(OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm)),device)
-    print("\r"+devdata["name"]["zh"]+"已完成                                                       ",end="")
+    print("\r"+devdata["name"]["zh"]+"("+devdata["device"]+")"+"已完成                                                       ",end="")
   

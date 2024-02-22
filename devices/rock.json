@@ -9,6 +9,31 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "rock_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULUTWXM": {
+					"os": "OS1.0.1.0.ULUTWXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-22",
+					"recovery": "miui_ROCKTWGlobal_OS1.0.1.0.ULUTWXM_28124dfc08_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -59,6 +84,31 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "rock_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULURUXM": {
+					"os": "OS1.0.1.0.ULURUXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-22",
+					"recovery": "miui_ROCKRUGlobal_OS1.0.1.0.ULURUXM_14e0b33d91_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -78,6 +128,31 @@
 					"bv": "816",
 					"release": "2024-02-02",
 					"recovery": "miui_ROCKINGlobal_OS1.0.3.0.ULUINXM_435f52bbbb_14.0.zip",
+					"fastboot": "rock_in_global_images_OS1.0.3.0.ULUINXM_20240125.0000.00_14.0_in_a8bddf498b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "rock_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULUTRXM": {
+					"os": "OS1.0.1.0.ULUTRXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-22",
+					"recovery": "miui_ROCKTRGlobal_OS1.0.1.0.ULUTRXM_c29a71a3de_14.0.zip",
 					"fastboot": ""
 				}
 			}
