@@ -21,6 +21,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.24.2.20.DEV": {
+					"os": "OS1.0.24.2.20.DEV",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-23",
+					"recovery": "miui_CUPID_OS1.0.24.2.20.DEV_7c5115e008_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.24.1.29.DEV": {
 					"os": "OS1.0.24.1.29.DEV",
 					"android": "14.0",
@@ -122,7 +131,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -134,7 +143,32 @@
 					"bv": "816",
 					"release": "2024-01-29",
 					"recovery": "miui_CUPID_OS1.0.2.0.ULCCNXM_75f6040d02_14.0.zip",
-					"fastboot": ""
+					"fastboot": "cupid_images_OS1.0.2.0.ULCCNXM_20240113.0000.00_14.0_cn_34b0f51666.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "cupid",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULCCNXM": {
+					"os": "OS1.0.2.0.ULCCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-01-29",
+					"recovery": "miui_CUPID_OS1.0.2.0.ULCCNXM_75f6040d02_14.0.zip",
+					"fastboot": "cupid_images_OS1.0.2.0.ULCCNXM_20240113.0000.00_14.0_cn_chinatelecom_b9644fdd6e.tgz"
 				}
 			}
 		},

@@ -93,6 +93,31 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 正式版每日构建版本",
+				"en": "Xiaomi HyperOS Stable Daily Build"
+			},
+			"branchCode": "aurora",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS.0.24.2.20.UNACNXM": {
+					"os": "OS.0.24.2.20.UNACNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-23",
+					"recovery": "miui_AURORA_OS.0.24.2.20.UNACNXM_56165b22a0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},

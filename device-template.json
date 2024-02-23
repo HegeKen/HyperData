@@ -34,6 +34,31 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 正式版每日构建版本",
+				"en": "Xiaomi HyperOS Stable Daily Build"
+			},
+			"branchCode": "",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},

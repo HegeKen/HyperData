@@ -5,7 +5,7 @@
 		"en": "DEV for week 631 (HyperOS DEV released for various devices)"
 	},
 	"postId": "45561254",
-	"update": "2024.02.23 17:09:31",
+	"update": "2024.02.23 19:50:24",
 	"versions": "OS1.0.24.2.19.DEV, OS1.0.24.2.20.DEV",
 	"description": [
 		{
@@ -41,7 +41,7 @@
 			]
 		}
 	],
-	"show": "no",
+	"show": "yes",
 	"roms": [
 		{
 			"device": "cupid",
@@ -50,12 +50,12 @@
 				"en": "Xiaomi 12"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_CUPID_OS1.0.24.2.20.DEV_7c5115e008_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -66,12 +66,12 @@
 				"en": "Xiaomi 12 Pro"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_ZEUS_OS1.0.24.2.20.DEV_65012b75ec_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -82,12 +82,12 @@
 				"en": "Xiaomi 12 Pro Dimensity"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_DAUMIER_OS1.0.24.2.20.DEV_74c03f7083_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -98,12 +98,12 @@
 				"en": "Xiaomi 12S"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_MAYFLY_OS1.0.24.2.20.DEV_75db47b979_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -114,12 +114,12 @@
 				"en": "Xiaomi 12S Pro"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_UNICORN_OS1.0.24.2.20.DEV_38d5687927_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -130,12 +130,12 @@
 				"en": "Xiaomi 12S Ultra"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_THOR_OS1.0.24.2.20.DEV_e1c96b5be0_14.0",
 				"fastboot": ""
 			}
 		},
@@ -146,12 +146,12 @@
 				"en": "Xiaomi 13"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_FUXI_OS1.0.24.2.20.DEV_c29ba54fa8_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -162,12 +162,12 @@
 				"en": "Xiaomi 13 Pro"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_NUWA_OS1.0.24.2.20.DEV_3537c0589a_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -178,12 +178,12 @@
 				"en": "Xiaomi 13 Ultra"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_ISHTAR_OS1.0.24.2.20.DEV_18abad3d28_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -199,7 +199,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_HOUJI_OS1.0.24.2.19.DEV_8c3aa0b487_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -215,7 +215,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_SHENNONG_OS1.0.24.2.19.DEV_b19146975c_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -226,12 +226,12 @@
 				"en": "Xiaomi MIX Fold 2"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_ZIZHAN_OS1.0.24.2.20.DEV_957765349d_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -242,12 +242,12 @@
 				"en": "Xiaomi MIX Fold 3"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_BABYLON_OS1.0.24.2.20.DEV_0f4f36a5d8_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -263,7 +263,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_DAGU_OS1.0.24.2.19.DEV_fe8adbf68d_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -274,12 +274,12 @@
 				"en": "Redmi K50"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_RUBENS_OS1.0.24.2.20.DEV_5646626358_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -290,12 +290,12 @@
 				"en": "Redmi K50 Pro"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_MATISSE_OS1.0.24.2.20.DEV_d55737ac37_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -306,12 +306,12 @@
 				"en": "Redmi K50G"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_INGRES_OS1.0.24.2.20.DEV_9b9717561a_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -322,12 +322,12 @@
 				"en": "Redmi K50 Ultra"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_DITING_OS1.0.24.2.20.DEV_434025f1da_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -338,12 +338,12 @@
 				"en": "Redmi K60"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_MONDRIAN_OS1.0.24.2.20.DEV_eaa3735eb4_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -354,12 +354,12 @@
 				"en": "Redmi K60 Pro"
 			},
 			"rom": {
-				"os": "OS1.0.24.2.19.DEV",
+				"os": "OS1.0.24.2.20.DEV",
 				"android": "14.0",
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-02-23",
-				"recovery": "",
+				"recovery": "miui_SOCRATES_OS1.0.24.2.20.DEV_dd70c1ec04_14.0.zip",
 				"fastboot": ""
 			}
 		}
