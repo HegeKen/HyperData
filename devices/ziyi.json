@@ -1,0 +1,36 @@
+{
+	"device": "ziyi",
+	"name": {
+		"zh": "小米 Civi 2",
+		"en": "Xiaomi Civi 2"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "ziyi",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+        "OS1.0.1.0.ULLCNXM": {
+          "os": "OS1.0.1.0.ULLCNXM",
+          "android": "14.0",
+          "obv": "OS1.0",
+          "bv": "816",
+          "release": "2024-02-23",
+          "recovery": "miui_ZIYI_OS1.0.1.0.ULLCNXM_89dd31358d_14.0.zip",
+          "fastboot": ""
+        }
+			}
+		}
+	]
+}
