@@ -27,6 +27,12 @@ currentStable = ["aurora", "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "ruyi",
 				 "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "xun", "yudi", "yuechu", "yunluo", "zeus", "zircon", "zizhan"]
 newDevices = ["ruyi", "aurora", "sheng", "amber", "houji",
 			  "shennong", "duchamp", "vermeer", "manet"]
+
+cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
+gb_devices = ['agate', 'aristotle', 'fire', 'moonstone', 'plato', 'rock', 'sea', 'sunstone', 'sweet_k6a', 'taoyao', 'tapas', 'topaz']
+both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi', 'ingres', 'ishtar', 'light', 'marble', 'mondrian', 'nuwa', 'pipa', 'redwood', 'ruby', 'sky', 'yunluo', 'zeus']
+
+
 flags = {
 	"HOUJI": "houji",
 	"HOUJIDEMO": "houji",
