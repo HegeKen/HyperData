@@ -25,8 +25,8 @@ currentStable = ["aurora", "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "ruyi",
 				 "liuqin", "manet", "marble", "matisse", "mayfly", "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche",
 				 "redwood", "rock", "rubens", "ruby", "sea", "shennong", "sky", "socrates", "sunstone", "sweet_k6a",
 				 "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "xun", "yudi", "yuechu", "yunluo", "zeus", "zircon", "zizhan"]
-newDevices = ["ruyi", "aurora", "sheng", "amber", "houji",
-			  "shennong", "duchamp", "vermeer", "manet"]
+newDevices = ["houji", "shennong", "ruyi", "aurora", "sheng", 
+			  "duchamp", "vermeer", "manet"]
 
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
 gb_devices = ['agate', 'aristotle', 'fire', 'moonstone', 'plato', 'rock', 'sea', 'sunstone', 'sweet_k6a', 'taoyao', 'tapas', 'topaz']
@@ -56,6 +56,8 @@ flags = {
 	"YUNLUOINGlobal": "yunluo",
 	"yunluo_eea_global": "yunluo",
 	"YUNLUOEEAGlobal": "yunluo",
+	"houji_eea_global": "houji",
+	"HOUJIEEAGlobal": "houji",
 	"corot_tw_global": "corot",
 	"COROTTWGlobal": "corot",
 	"corot_ru_global": "corot",
