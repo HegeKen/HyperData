@@ -56,6 +56,8 @@ flags = {
 	"YUNLUOINGlobal": "yunluo",
 	"yunluo_eea_global": "yunluo",
 	"YUNLUOEEAGlobal": "yunluo",
+	"taoyao_ru_global": "taoyao",
+	"TAOYAORUGlobal": "taoyao",
 	"houji_eea_global": "houji",
 	"HOUJIEEAGlobal": "houji",
 	"corot_tw_global": "corot",
