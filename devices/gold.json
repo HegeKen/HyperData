@@ -31,6 +31,31 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "gold_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNQMIXM": {
+					"os": "OS1.0.2.0.UNQMIXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-25",
+					"recovery": "miui_GOLDGlobal_OS1.0.2.0.UNQMIXM_da2a25942a_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
