@@ -72,6 +72,8 @@ flags = {
 	"COROTRUGlobal": "corot",
 	"earth_tr_global": "earth",
 	"EARTHTRGlobal": "earth",
+	"light_eea_global": "light",
+	"LIGHTEEAGlobal": "light",
 	"sheng": "sheng",
 	"SHENG": "sheng",
 	"garnet": "garnet",
