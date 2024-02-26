@@ -196,6 +196,31 @@
 					"fastboot": "cupid_eea_global_images_OS1.0.3.0.ULCEUXM_20240121.0000.00_14.0_eea_6b99024d28.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "cupid_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULCIDXM": {
+					"os": "OS1.0.1.0.ULCIDXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-26",
+					"recovery": "miui_CUPIDIDGlobal_OS1.0.1.0.ULCIDXM_2a70fefc3e_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

@@ -48,6 +48,8 @@ flags = {
 	"FIRETRGlobal": "fire",
 	"gold_global": "gold",
 	"GOLDGlobal": "gold",
+	"cupid_id_global": "cupid",
+	"CUPIDIDGlobal": "cupid",
 	"ziyi":"ziyi",
 	"ZIYI":"ziyi",
 	"ruyi": "ruyi",
