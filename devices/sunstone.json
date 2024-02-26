@@ -9,6 +9,31 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMQCNXM": {
+					"os": "OS1.0.1.0.UMQCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-26",
+					"recovery": "miui_SUNSTONE_OS1.0.1.0.UMQCNXM_ecc6daa1f6_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},

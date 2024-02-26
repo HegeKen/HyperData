@@ -1,0 +1,36 @@
+{
+	"device": "evergo",
+	"name": {
+		"zh": "Redmi Note 11 5G/11T 5G",
+		"en": "Redmi Note 11 5G/11T 5G"
+	},
+	"type": "foldable",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "evergo",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGBCNXM": {
+					"os": "OS1.0.1.0.TGBCNXM",
+					"android": "13.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-26",
+					"recovery": "miui_EVERGO_OS1.0.1.0.TGBCNXM_30dc3f8271_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
