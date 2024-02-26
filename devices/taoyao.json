@@ -9,6 +9,31 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "taoyao_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULITWXM": {
+					"os": "OS1.0.1.0.ULITWXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-26",
+					"recovery": "miui_TAOYAOTWGlobal_OS1.0.1.0.ULITWXM_2396b5ff20_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -104,6 +129,31 @@
 					"release": "2024-01-29",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.2.0.ULIIDXM_2d3a0beb65_14.0.zip",
 					"fastboot": "taoyao_id_global_images_OS1.0.2.0.ULIIDXM_20240119.0000.00_14.0_id_c4d00cd9f4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "taoyao_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULITRXM": {
+					"os": "OS1.0.1.0.ULITRXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-26",
+					"recovery": "miui_TAOYAOTRGlobal_OS1.0.1.0.ULITRXM_f87e358731_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
