@@ -70,6 +70,8 @@ flags = {
 	"COROTTWGlobal": "corot",
 	"corot_ru_global": "corot",
 	"COROTRUGlobal": "corot",
+	"earth_tr_global": "earth",
+	"EARTHTRGlobal": "earth",
 	"sheng": "sheng",
 	"SHENG": "sheng",
 	"garnet": "garnet",

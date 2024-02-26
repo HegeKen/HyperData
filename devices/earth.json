@@ -181,6 +181,31 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "earth_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UCVTRXM": {
+					"os": "OS1.0.1.0.UCVTRXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-26",
+					"recovery": "miui_EARTHTRGlobal_OS1.0.1.0.UCVTRXM_4a38abbaf9_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
