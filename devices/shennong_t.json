@@ -1,0 +1,61 @@
+{
+	"device": "shennong_t",
+	"name": {
+		"zh": "小米 14 Pro 钛金属卫星通讯版",
+		"en": "Xiaomi 14 Pro Ti Satellite Communication Edition"
+	},
+	"type": "phone",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "shennong_t",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNDCNXM": {
+					"os": "OS1.0.2.0.UNDCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-27",
+					"recovery": "miui_SHENNONGT_OS1.0.2.0.UNDCNXM_3036941359_14.0.zip",
+					"fastboot": "shennong_t_images_OS1.0.2.0.UNDCNXM_20240126.0000.00_14.0_cn_a773221614.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNDCNXM": {
+					"os": "OS1.0.2.0.UNDCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-27",
+					"recovery": "miui_SHENNONGT_OS1.0.2.0.UNDCNXM_3036941359_14.0.zip",
+					"fastboot": "shennong_t_images_OS1.0.2.0.UNDCNXM_20240126.0000.00_14.0_cn_chinatelecom_0c4f8d0843.tgz"
+				}
+			}
+		}
+	]
+}
