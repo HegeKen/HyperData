@@ -1,0 +1,36 @@
+{
+	"device": "veux",
+	"name": {
+		"zh": "Redmi Note 11 Pro 5G / Redmi Note 11E Pro 5G / POCO X4 Pro 5G",
+		"en": "Redmi Note 11 Pro 5G / Redmi Note 11E Pro 5G / POCO X4 Pro 5G"
+	},
+	"type": "tablet",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "veux",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCCNXM": {
+					"os": "OS1.0.1.0.TKCCNXM",
+					"android": "13.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-01-24",
+					"recovery": "miui_VEUX_OS1.0.1.0.TKCCNXM_ed2e1d34ba_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

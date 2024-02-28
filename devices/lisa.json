@@ -28,7 +28,57 @@
 					"bv": "816",
 					"release": "2024-02-19",
 					"recovery": "miui_LISA_OS1.0.1.0.UKOCNXM_d2eb96aaa6_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_images_OS1.0.1.0.UKOCNXM_20240201.0000.00_14.0_cn_161084d9fb.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKOCNXM": {
+					"os": "OS1.0.1.0.UKOCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-19",
+					"recovery": "miui_LISA_OS1.0.1.0.UKOCNXM_d2eb96aaa6_14.0.zip",
+					"fastboot": "lisa_images_OS1.0.1.0.UKOCNXM_20240201.0000.00_14.0_cn_chinatelecom_3bb134e256.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国移动定制版",
+				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
+			},
+			"branchCode": "",
+			"idtag": "CnOM",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKOCNXM": {
+					"os": "OS1.0.1.0.UKOCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-19",
+					"recovery": "miui_LISA_OS1.0.1.0.UKOCNXM_d2eb96aaa6_14.0.zip",
+					"fastboot": "lisa_images_OS1.0.1.0.UKOCNXM_20240201.0000.00_14.0_cn_chinamobile_5af471fc3f.tgz"
 				}
 			}
 		}

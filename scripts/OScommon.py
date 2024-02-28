@@ -47,6 +47,8 @@ flags = {
 	"aurora_demo": "aurora",
 	"shennong_t": "shennong_t",
 	"SHENNONGT": "shennong_t",
+	"veux": "veux",
+	"VEUX": "veux",
 	"zijin": "zijin",
 	"ZIJIN": "zijin",
 	"AURORADEMO": "aurora",
