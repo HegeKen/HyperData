@@ -57,6 +57,8 @@ flags = {
 	"viva_global": "viva",
 	"light_in_global": "light",
 	"LIGHTINGlobal": "light",
+	"elish": "elish",
+	"ELISH": "elish",
 	"AURORADEMO": "aurora",
 	"fire_tr_global": "fire",
 	"FIRETRGlobal": "fire",

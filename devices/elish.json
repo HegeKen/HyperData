@@ -1,10 +1,10 @@
 {
-	"device": "veux",
+	"device": "elish",
 	"name": {
-		"zh": "Redmi Note 11 Pro 5G / Redmi Note 11E Pro 5G / POCO X4 Pro 5G",
-		"en": "Redmi Note 11 Pro 5G / Redmi Note 11E Pro 5G / POCO X4 Pro 5G"
+		"zh": "小米平板 5 Pro Wi-Fi",
+		"en": "Xiaomi Pad 5 Pro Wi-Fi"
 	},
-	"type": "phone",
+	"type": "tablet",
 	"miui": "yes",
 	"branches": [
 		{
@@ -12,7 +12,7 @@
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
-			"branchCode": "veux",
+			"branchCode": "elish",
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
@@ -21,13 +21,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS1.0.1.0.TKCCNXM": {
-					"os": "OS1.0.1.0.TKCCNXM",
+				"OS1.0.1.0.TKYCNXM": {
+					"os": "OS1.0.1.0.TKYCNXM",
 					"android": "13.0",
 					"obv": "OS1.0",
 					"bv": "816",
 					"release": "2024-01-24",
-					"recovery": "miui_VEUX_OS1.0.1.0.TKCCNXM_ed2e1d34ba_13.0.zip",
+					"recovery": "miui_ELISH_OS1.0.1.0.TKYCNXM_3bbd2d29c2_13.0.zip",
 					"fastboot": ""
 				}
 			}
