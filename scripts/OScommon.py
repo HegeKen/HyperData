@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["shennong_t", 
+currentStable = ["zijin", "shennong_t", 
 								 "evergo", "aurora", "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "ruyi", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier","diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
 								 "houji", "ingres", "ishtar", "light", "lightcm","liuqin", "manet", "marble", "matisse", "mayfly",
@@ -47,6 +47,8 @@ flags = {
 	"aurora_demo": "aurora",
 	"shennong_t": "shennong_t",
 	"SHENNONGT": "shennong_t",
+	"zijin": "zijin",
+	"ZIJIN": "zijin",
 	"AURORADEMO": "aurora",
 	"fire_tr_global": "fire",
 	"FIRETRGlobal": "fire",

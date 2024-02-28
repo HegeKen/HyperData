@@ -1,0 +1,36 @@
+{
+	"device": "zijin",
+	"name": {
+		"zh": "小米 Civi 1S",
+		"en": "Xiaomi Civi 1S"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "zijin",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+        "OS1.0.1.0.ULPCNXM": {
+          "os": "OS1.0.1.0.ULPCNXM",
+          "android": "14.0",
+          "obv": "OS1.0",
+          "bv": "816",
+          "release": "2024-02-28",
+          "recovery": "miui_ZIJIN_OS1.0.1.0.ULPCNXM_356a223b5b_14.0.zip",
+          "fastboot": ""
+        }
+			}
+		}
+	]
+}
