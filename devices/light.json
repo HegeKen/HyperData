@@ -156,6 +156,31 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "light_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULSINXM": {
+					"os": "OS1.0.1.0.ULSINXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-28",
+					"recovery": "miui_LIGHTINGlobal_OS1.0.1.0.ULSINXM_f802900128_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

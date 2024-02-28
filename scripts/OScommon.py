@@ -55,6 +55,8 @@ flags = {
 	"SPESGlobal": "spes",
 	"viva_global": "viva",
 	"viva_global": "viva",
+	"light_in_global": "light",
+	"LIGHTINGlobal": "light",
 	"AURORADEMO": "aurora",
 	"fire_tr_global": "fire",
 	"FIRETRGlobal": "fire",
