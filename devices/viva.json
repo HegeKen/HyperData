@@ -1,0 +1,36 @@
+{
+	"device": "viva",
+	"name": {
+		"zh": "Redmi Note 11 Pro 4G",
+		"en": "Redmi Note 11 Pro 4G"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "viva_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TGDMIXM": {
+					"os": "OS1.0.2.0.TGDMIXM",
+					"android": "13.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-22",
+					"recovery": "miui_VIVAGlobal_OS1.0.2.0.TGDMIXM_b2b4099a55_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
