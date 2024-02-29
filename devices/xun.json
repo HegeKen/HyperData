@@ -31,6 +31,31 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "xun_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMUMIXM": {
+					"os": "OS1.0.1.0.UMUMIXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-29",
+					"recovery": "miui_XUNGlobal_OS1.0.1.0.UMUMIXM_a627c20c99_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
