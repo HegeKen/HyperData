@@ -518,6 +518,56 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "houji_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNCTWXM": {
+					"os": "OS1.0.1.0.UNCTWXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-29",
+					"recovery": "miui_HOUJITWGlobal_OS1.0.1.0.UNCTWXM_5f7e922bc4_14.0.zip",
+					"fastboot": "houji_tw_global_images_OS1.0.1.0.UNCTWXM_20231217.0000.00_14.0_tw_302122295c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "houji_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNCMIXM": {
+					"os": "OS1.0.2.0.UNCMIXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-29",
+					"recovery": "miui_HOUJIGlobal_OS1.0.2.0.UNCMIXM_484000c3c2_14.0.zip",
+					"fastboot": "houji_global_images_OS1.0.2.0.UNCMIXM_20231213.0000.00_14.0_global_7d5eed51bf.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -535,9 +585,84 @@
 					"android": "14.0",
 					"obv": "OS1.0",
 					"bv": "816",
-					"release": "",
+					"release": "2024-02-29",
 					"recovery": "miui_HOUJIEEAGlobal_OS1.0.14.0.UNCEUXM_d0dc61697d_14.0.zip",
 					"fastboot": "houji_eea_global_images_OS1.0.14.0.UNCEUXM_20240130.0000.00_14.0_eea_7c7721b9f7.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "houji_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNCINXM": {
+					"os": "OS1.0.2.0.UNCINXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-29",
+					"recovery": "miui_HOUJIINGlobal_OS1.0.2.0.UNCINXM_a054e6ddb8_14.0.zip",
+					"fastboot": "houji_in_global_images_OS1.0.2.0.UNCINXM_20231226.0000.00_14.0_in_5e68a35c2d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "houji_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNCIDXM": {
+					"os": "OS1.0.1.0.UNCIDXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-29",
+					"recovery": "miui_HOUJIIDGlobal_OS1.0.1.0.UNCIDXM_ff110adf85_14.0.zip",
+					"fastboot": "houji_id_global_images_OS1.0.1.0.UNCIDXM_20231217.0000.00_14.0_id_d464310a70.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "houji_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNCTRXM": {
+					"os": "OS1.0.1.0.UNCTRXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-29",
+					"recovery": "miui_HOUJITRGlobal_OS1.0.1.0.UNCTRXM_98f8e61a8f_14.0.zip",
+					"fastboot": "houji_tr_global_images_OS1.0.1.0.UNCTRXM_20231208.0000.00_14.0_tr_06ee22deb0.tgz"
 				}
 			}
 		}

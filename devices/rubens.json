@@ -134,7 +134,32 @@
 					"bv": "816",
 					"release": "2024-01-29",
 					"recovery": "miui_RUBENS_OS1.0.2.0.ULNCNXM_96bcefdc4e_14.0.zip",
-					"fastboot": ""
+					"fastboot": "rubens_images_OS1.0.2.0.ULNCNXM_20240125.0000.00_14.0_cn_d30718cea9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "rubens",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULNCNXM": {
+					"os": "OS1.0.2.0.ULNCNXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-01-29",
+					"recovery": "miui_RUBENS_OS1.0.2.0.ULNCNXM_96bcefdc4e_14.0.zip",
+					"fastboot": "rubens_images_OS1.0.2.0.ULNCNXM_20240125.0000.00_14.0_cn_chinatelecom_5945b4c179.tgz"
 				}
 			}
 		}

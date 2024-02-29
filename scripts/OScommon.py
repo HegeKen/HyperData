@@ -20,10 +20,10 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["nabu", "elish", "spes", "viva", "veux", "zijin", "shennong_t", 
-								 "evergo", "aurora", "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "ruyi", "agate", "aristotle", "babylon",
+currentStable = ["aurora", "houji", "nabu", "elish", "spes", "viva", "veux", "zijin", "shennong_t", 
+								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "ruyi", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier","diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
-								 "houji", "ingres", "ishtar", "light", "lightcm","liuqin", "manet", "marble", "matisse", "mayfly",
+								"ingres", "ishtar", "light", "lightcm","liuqin", "manet", "marble", "matisse", "mayfly",
 								 "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche","redwood", "rock", "rubens", "ruby", "sea",
 								 "shennong", "sky", "socrates", "sunstone", "sweet_k6a","taoyao", "tapas", "thor", "topaz", "unicorn",
 								 "vermeer", "xun", "yudi", "yuechu", "yunluo", "zeus", "zircon", "zizhan"]
@@ -40,6 +40,16 @@ flags = {
 	"HOUJIDEMO": "houji",
 	"houji": "houji",
 	"houji_demo": "houji",
+	"houji_global": "houji",
+	"HOUJIGlobal": "houji",
+	"houji_in_global": "houji",
+	"HOUJIINGlobal": "houji",
+	"houji_id_global": "houji",
+	"HOUJIIDGlobal": "houji",
+	"houji_tw_global": "houji",
+	"HOUJITWGlobal": "houji",
+	"houji_tr_global": "houji",
+	"HOUJITRGlobal": "houji",
 	"SPESGlobal":"spes",
 	"VIVAGlobal":"viva",
 	"zircon": "zircon",
@@ -492,15 +502,16 @@ def getDeviceCode(filename):
 			codename = flags[flag]
 			return codename
 		else:
+			writeData(filename)
 			writeFlag(flag, "")
 			return 0
 	elif ".tgz" in filename:
 		flag = filename.split('_images')[0]
-		codename = flags[flag]
 		if flag in flags:
 			codename = flags[flag]
 			return codename
 		else:
+			writeData(filename)
 			writeFlag(flag, "")
 			return 0
 	else:
