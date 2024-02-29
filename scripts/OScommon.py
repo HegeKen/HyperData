@@ -110,6 +110,8 @@ flags = {
 	"LIGHTEEAGlobal": "light",
 	"sheng": "sheng",
 	"SHENG": "sheng",
+	"sheng_demo": "sheng",
+	"SHENGDEMO": "sheng",
 	"garnet": "garnet",
 	"GARNET": "garnet",
 	"earth_id_global": "earth",

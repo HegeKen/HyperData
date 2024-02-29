@@ -49,6 +49,32 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "sheng_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.UNXCNDM": {
+					"os": "OS1.0.6.0.UNXCNDM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-02-26",
+					"recovery": "miui_SHENGDEMO_OS1.0.6.0.UNXCNDM_5d41d721a9_14.0.zip",
+					"fastboot": "sheng_demo_images_OS1.0.6.0.UNXCNDM_20240226.0000.00_14.0_cn_07da264683.tgz",
+					"ctelecom": ""
+				}
+			}
 		}
 	]
 }
