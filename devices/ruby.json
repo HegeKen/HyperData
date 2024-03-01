@@ -115,6 +115,31 @@
 					"fastboot": "ruby_eea_global_images_OS1.0.1.0.UMOEUXM_20240117.0000.00_14.0_eea_ba6a264004.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "ruby_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMOIDXM": {
+					"os": "OS1.0.2.0.UMOIDXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-03-01",
+					"recovery": "miui_RUBYIDGlobal_OS1.0.2.0.UMOIDXM_aa62998cb8_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

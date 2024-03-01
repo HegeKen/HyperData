@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["aurora", "houji", "nabu", "elish", "spes", "viva", "veux", "zijin", "shennong_t", 
+currentStable = ["blue", "aurora", "houji", "nabu", "elish", "spes", "viva", "veux", "zijin", "shennong_t", 
 								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "ruyi", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier","diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
 								"ingres", "ishtar", "light", "lightcm","liuqin", "manet", "marble", "matisse", "mayfly",
@@ -30,6 +30,7 @@ currentStable = ["aurora", "houji", "nabu", "elish", "spes", "viva", "veux", "zi
 newDevices = ["houji", "shennong", "ruyi", "aurora", "sheng", 
 			  "duchamp", "vermeer", "manet"]
 
+onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
 gb_devices = ['agate', 'aristotle', 'fire', 'moonstone', 'plato', 'rock', 'sea', 'sunstone', 'sweet_k6a', 'taoyao', 'tapas', 'topaz']
 both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi', 'ingres', 'ishtar', 'light', 'marble', 'mondrian', 'nuwa', 'pipa', 'redwood', 'ruby', 'sky', 'yunluo', 'zeus']
@@ -62,6 +63,7 @@ flags = {
 	"AURORA": "aurora",
 	"aurora_demo": "aurora",
 	"houji_ru_global": "houji",
+	"HOUJIRUGlobal": "houji",
 	"shennong_t": "shennong_t",
 	"SHENNONGT": "shennong_t",
 	"veux": "veux",
@@ -202,6 +204,14 @@ flags = {
 	"AGATERUGlobal": "agate",
 	"rock_in_global": "rock",
 	"ROCKINGlobal": "rock",
+	"blue_ru_global": "blue",
+	"BLUERUGlobal": "blue",
+	"blue_global": "blue",
+	"BLUEGlobal": "blue",
+	"blue_id_global": "blue",
+	"BLUEIDGlobal": "blue",
+	"RUBYIDGlobal": "ruby",
+	"ruby_id_global": "ruby",
 	"LIUQINDEMO": "liuqin",
 	"YUDIDEMO": "yudi",
 	"pipa_demo": "pipa",

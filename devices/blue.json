@@ -1,0 +1,86 @@
+{
+	"device": "blue",
+	"name": {
+		"zh": "Redmi A3",
+		"en": "Redmi A3"
+	},
+	"type": "phone",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "blue_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"V816.0.3.0.UGRMIXM": {
+					"os": "V816.0.3.0.UGRMIXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-03-01",
+					"recovery": "",
+					"fastboot": "blue_global_images_V816.0.3.0.UGRMIXM_20240202.0000.00_14.0_b43157e2f9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "blue_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"V816.0.6.0.UGRRUXM": {
+					"os": "V816.0.6.0.UGRRUXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-03-01",
+					"recovery": "",
+					"fastboot": "blue_ru_global_images_V816.0.6.0.UGRRUXM_20240222.0000.00_14.0_158e2e33be.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "blue_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"V816.0.3.0.UGRIDXM": {
+					"os": "V816.0.3.0.UGRIDXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-03-01",
+					"recovery": "",
+					"fastboot": "blue_id_global_images_V816.0.3.0.UGRIDXM_20240204.0000.00_14.0_ff9671c256.tgz"
+				}
+			}
+		}
+	]
+}
