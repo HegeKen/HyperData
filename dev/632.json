@@ -5,7 +5,7 @@
 		"en": "DEV for week 632 (HyperOS DEV released for various devices)"
 	},
 	"postId": "45641899",
-	"update": "2024.03.01 17:21:47",
+	"update": "2024.03.01 18:15:24",
 	"versions": "OS1.0.24.2.26.DEV",
 	"description": [
 		{
@@ -41,7 +41,7 @@
 			]
 		}
 	],
-	"show": "no",
+	"show": "yes",
 	"roms": [
 		{
 			"device": "cupid",
@@ -55,7 +55,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_CUPID_OS1.0.24.2.26.DEV_ad50cf3869_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -71,7 +71,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_ZEUS_OS1.0.24.2.26.DEV_b9f46885b4_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -87,7 +87,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_DAUMIER_OS1.0.24.2.26.DEV_e717b5ff45_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -103,7 +103,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_MAYFLY_OS1.0.24.2.26.DEV_23916c8c9b_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -119,7 +119,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_UNICORN_OS1.0.24.2.26.DEV_dc81b30a65_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -135,7 +135,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_THOR_OS1.0.24.2.26.DEV_13dbc175f7_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -151,7 +151,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_FUXI_OS1.0.24.2.26.DEV_5833b647b9_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -167,7 +167,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_NUWA_OS1.0.24.2.26.DEV_1c47805b39_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -183,7 +183,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_ISHTAR_OS1.0.24.2.26.DEV_830e82b1a2_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -199,7 +199,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_HOUJI_OS1.0.24.2.26.DEV_3f099c2382_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -215,7 +215,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_SHENNONG_OS1.0.24.2.26.DEV_bbb36e5ce3_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -231,7 +231,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_ZIZHAN_OS1.0.24.2.26.DEV_c79c0d8c4c_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -247,7 +247,7 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_BABYLON_OS1.0.24.2.26.DEV_a77c0c885b_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -263,10 +263,76 @@
 				"obv": "OS1.0",
 				"bv": "816",
 				"release": "2024-03-01",
-				"recovery": "",
+				"recovery": "miui_DAGU_OS1.0.24.2.26.DEV_c0e349c06c_14.0.zip",
 				"fastboot": ""
 			}
 		},
+		{
+			"device": "ingres",
+			"name": {
+				"zh": "Redmi K50 电竞版",
+				"en": "Redmi K50G"
+			},
+			"rom": {
+				"os": "OS1.0.24.2.26.DEV",
+				"android": "14.0",
+				"obv": "OS1.0",
+				"bv": "816",
+				"release": "2024-03-01",
+				"recovery": "miui_INGRES_OS1.0.24.2.26.DEV_2c1ab03208_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "diting",
+			"name": {
+				"zh": "Redmi K50 至尊版",
+				"en": "Redmi K50 Ultra"
+			},
+			"rom": {
+				"os": "OS1.0.24.2.26.DEV",
+				"android": "14.0",
+				"obv": "OS1.0",
+				"bv": "816",
+				"release": "2024-03-01",
+				"recovery": "miui_DITING_OS1.0.24.2.26.DEV_d5a35d374f_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "mondrian",
+			"name": {
+				"zh": "Redmi K60",
+				"en": "Redmi K60"
+			},
+			"rom": {
+				"os": "OS1.0.24.2.26.DEV",
+				"android": "14.0",
+				"obv": "OS1.0",
+				"bv": "816",
+				"release": "2024-03-01",
+				"recovery": "miui_MONDRIAN_OS1.0.24.2.26.DEV_4693296297_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "socrates",
+			"name": {
+				"zh": "Redmi K60 Pro",
+				"en": "Redmi K60 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.2.26.DEV",
+				"android": "14.0",
+				"obv": "OS1.0",
+				"bv": "816",
+				"release": "2024-03-01",
+				"recovery": "miui_SOCRATES_OS1.0.24.2.26.DEV_6b4fa98e8a_14.0.zip",
+				"fastboot": ""
+			}
+		}
+	],
+	"suspended": [
 		{
 			"device": "rubens",
 			"name": {
@@ -288,104 +354,6 @@
 			"name": {
 				"zh": "Redmi K50 Pro",
 				"en": "Redmi K50 Pro"
-			},
-			"rom": {
-				"os": "OS1.0.24.2.26.DEV",
-				"android": "14.0",
-				"obv": "OS1.0",
-				"bv": "816",
-				"release": "2024-03-01",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "ingres",
-			"name": {
-				"zh": "Redmi K50 电竞版",
-				"en": "Redmi K50G"
-			},
-			"rom": {
-				"os": "OS1.0.24.2.26.DEV",
-				"android": "14.0",
-				"obv": "OS1.0",
-				"bv": "816",
-				"release": "2024-03-01",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "diting",
-			"name": {
-				"zh": "Redmi K50 至尊版",
-				"en": "Redmi K50 Ultra"
-			},
-			"rom": {
-				"os": "OS1.0.24.2.26.DEV",
-				"android": "14.0",
-				"obv": "OS1.0",
-				"bv": "816",
-				"release": "2024-03-01",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "mondrian",
-			"name": {
-				"zh": "Redmi K60",
-				"en": "Redmi K60"
-			},
-			"rom": {
-				"os": "OS1.0.24.2.26.DEV",
-				"android": "14.0",
-				"obv": "OS1.0",
-				"bv": "816",
-				"release": "2024-03-01",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "socrates",
-			"name": {
-				"zh": "Redmi K60 Pro",
-				"en": "Redmi K60 Pro"
-			},
-			"rom": {
-				"os": "OS1.0.24.2.26.DEV",
-				"android": "14.0",
-				"obv": "OS1.0",
-				"bv": "816",
-				"release": "2024-03-01",
-				"recovery": "",
-				"fastboot": ""
-			}
-		}
-	],
-	"suspended": [
-		{
-			"device": "cupid",
-			"name": {
-				"zh": "小米 12",
-				"en": "Xiaomi 12"
-			},
-			"rom": {
-				"os": "OS1.0.24.2.26.DEV",
-				"android": "14.0",
-				"obv": "OS1.0",
-				"bv": "816",
-				"release": "2024-03-01",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "zeus",
-			"name": {
-				"zh": "小米 12 Pro",
-				"en": "Xiaomi 12 Pro"
 			},
 			"rom": {
 				"os": "OS1.0.24.2.26.DEV",
