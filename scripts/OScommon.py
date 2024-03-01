@@ -61,6 +61,7 @@ flags = {
 	"aurora": "aurora",
 	"AURORA": "aurora",
 	"aurora_demo": "aurora",
+	"houji_ru_global": "houji",
 	"shennong_t": "shennong_t",
 	"SHENNONGT": "shennong_t",
 	"veux": "veux",
@@ -479,12 +480,17 @@ def localData(codename):
 
 
 def writeData(filename):
-	print("发现未收录版本")
+	
 	if platform == "win32":
 		file = open("public/data/scripts/NewROMs.txt", "a", encoding='utf-8')
 	else:
 		file = open("/sdcard/Codes/HyperOS.fans/public/data/scripts/NewROMs.txt", "a", encoding='utf-8')
 	file.write(filename+"\n")
+	if ".zip" in filename:
+		flag = filename.split('_')[1]
+	elif ".tgz" in filename:
+		flag = filename.split('_images')[0]
+	print("发现\t"+flag+"\t发现未收录版本")
 	file.close()
 
 
@@ -641,15 +647,7 @@ def getFromApi(encrypted_data, device):
 			   "Cookie": "serviceToken=;"
 			   }
 	data = "q=" + encrypted_data + "&s=1&t="
-	if platform == "win32":
-		devdata = json.loads(
-			open("public/data/devices/"+device+".json", 'r', encoding='utf-8').read())
-	else:
-		devdata = json.loads(open(
-			"/sdcard/Codes/HyperOS.fans/public/data/devices/"+device+".json", 'r', encoding='utf-8').read())
 	response = requests.post(check_url, headers=headers, data=data)
-	print("\r"+"正在抓取"+devdata["name"]["zh"]+"(" +
-		  devdata["device"]+")				  ", end="")
 	if "code" in response.text:
 		print(json.loads(response.text))
 	else:

@@ -593,6 +593,31 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "houji_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNCRUXM": {
+					"os": "OS1.0.1.0.UNCRUXM",
+					"android": "14.0",
+					"obv": "OS1.0",
+					"bv": "816",
+					"release": "2024-03-01",
+					"recovery": "miui_HOUJIRUGlobal_OS1.0.1.0.UNCRUXM_a25c18a432_14.0.zip",
+					"fastboot": "houji_ru_global_images_OS1.0.1.0.UNCRUXM_20231208.0000.00_14.0_ru_924ff649ec.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
