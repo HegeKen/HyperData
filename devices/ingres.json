@@ -141,6 +141,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "ingres_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULJTWXM": {
+					"os": "OS1.0.1.0.ULJTWXM",
+					"android": "14.0",
+					"release": "2024-03-02",
+					"recovery": "miui_INGRESTWGlobal_OS1.0.1.0.ULJTWXM_2da0c7869a_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -159,6 +182,29 @@
 					"release": "2024-01-30",
 					"recovery": "miui_INGRESGlobal_OS1.0.1.0.ULJMIXM_a21c48ed3d_14.0.zip",
 					"fastboot": "ingres_global_images_OS1.0.1.0.ULJMIXM_20240119.0000.00_14.0_global_fa7918d3b8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "ingres_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULJEUXM": {
+					"os": "OS1.0.1.0.ULJEUXM",
+					"android": "14.0",
+					"release": "2024-03-02",
+					"recovery": "miui_INGRESEEAGlobal_OS1.0.1.0.ULJEUXM_ababc8e39e_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
