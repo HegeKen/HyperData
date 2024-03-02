@@ -1,0 +1,34 @@
+{
+	"device": "spesn",
+	"name": {
+		"zh": "Redmi Note 11 NFC",
+		"en": "Redmi Note 11 NFC"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "spesn_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TGKMIXM": {
+					"os": "OS1.0.3.0.TGKMIXM",
+					"android": "13.0",
+					"release": "2024-03-02",
+					"recovery": "miui_SPESNGlobal_OS1.0.3.0.TGKMIXM_21b3b58697_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
