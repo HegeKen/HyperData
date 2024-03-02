@@ -128,6 +128,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 韩国正式版",
+				"en": "Xiaomi HyperOS North Korea Stable"
+			},
+			"branchCode": "ruby_kr_global",
+			"idtag": "NKSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMOKRXM": {
+					"os": "OS1.0.1.0.UMOKRXM",
+					"android": "14.0",
+					"release": "2024-03-02",
+					"recovery": "miui_RUBYKRGlobal_OS1.0.1.0.UMOKRXM_17fa26a30e_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

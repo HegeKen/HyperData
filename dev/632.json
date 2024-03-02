@@ -5,7 +5,7 @@
 		"en": "DEV for week 632 (HyperOS DEV released for various devices)"
 	},
 	"postId": "45641899",
-	"update": "2024.03.01 18:15:24",
+	"update": "2024.03.02 23:31:09",
 	"versions": "OS1.0.24.2.26.DEV",
 	"description": [
 		{
@@ -240,6 +240,20 @@
 			}
 		},
 		{
+			"device": "rubens",
+			"name": {
+				"zh": "Redmi K50",
+				"en": "Redmi K50"
+			},
+			"rom": {
+				"os": "OS1.0.24.2.26.DEV",
+				"android": "14.0",
+				"release": "2024-03-01",
+				"recovery": "miui_RUBENS_OS1.0.24.2.26.DEV_38e76a1f5a_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
 			"device": "matisse",
 			"name": {
 				"zh": "Redmi K50 Pro",
@@ -310,20 +324,5 @@
 			}
 		}
 	],
-	"suspended": [
-		{
-			"device": "rubens",
-			"name": {
-				"zh": "Redmi K50",
-				"en": "Redmi K50"
-			},
-			"rom": {
-				"os": "OS1.0.24.2.26.DEV",
-				"android": "14.0",
-				"release": "2024-03-01",
-				"recovery": "",
-				"fastboot": ""
-			}
-		}
-	]
+	"suspended": []
 }
