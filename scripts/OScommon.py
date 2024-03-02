@@ -21,7 +21,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 currentStable = ["blue", "aurora", "houji", "nabu", "elish", "spes", "viva", "veux", "zijin", "shennong_t", 
-								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "ruyi", "agate", "aristotle", "babylon",
+								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier","diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
 								"ingres", "ishtar", "light", "lightcm","liuqin", "manet", "marble", "matisse", "mayfly",
 								 "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche","redwood", "rock", "rubens", "ruby", "sea",
@@ -70,6 +70,8 @@ flags = {
 	"VEUX": "veux",
 	"zijin": "zijin",
 	"ZIJIN": "zijin",
+	"garnet_eea_global": "garnet",
+	"GARNETEEAGlobal": "garnet",
 	"spes_global": "spes",
 	"SPESGlobal": "spes",
 	"viva_global": "viva",

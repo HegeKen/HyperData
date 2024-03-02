@@ -2,6 +2,13 @@ import OScommon
 import json
 
 
+settings = {
+  "OS1.0":"816",
+  "V816.":"816"
+}
+  
+
+
 for device in OScommon.currentStable:
   branchids = []
   devdata = OScommon.localData(device)
@@ -29,8 +36,8 @@ for device in OScommon.currentStable:
       else:
         OScommon.HyperOSForm["c"] = current["android"].split(".0")[0]
       OScommon.HyperOSForm["v"] = "MIUI-"+ current["os"].replace('OS1','V816')
-      OScommon.HyperOSForm["obv"] = current["obv"]
-      OScommon.HyperOSForm["bv"] = current["bv"]
+      OScommon.HyperOSForm["obv"] = current["os"][:5]
+      OScommon.HyperOSForm["bv"] = settings[current["os"][:5]]
       OScommon.getFromApi(OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm)),device)
     print("\r"+devdata["name"]["zh"]+"("+devdata["branches"][id]["branchCode"]+")"+"已完成                                                       ",end="")
   

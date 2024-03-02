@@ -24,8 +24,6 @@
 				"OS1.0.1.0.UNRCNXM": {
 					"os": "OS1.0.1.0.UNRCNXM",
 					"android": "14.0",
-					"obv": "OS1.0",
-					"bv": "816",
 					"release": "2024-01-30",
 					"recovery": "miui_GARNET_OS1.0.1.0.UNRCNXM_e7be0367c7_14.0.zip",
 					"fastboot": "garnet_images_OS1.0.1.0.UNRCNXM_20240121.0000.00_14.0_cn_5aaaf0981d.tgz"
@@ -49,11 +47,32 @@
 				"OS1.0.1.0.UNRCNXM": {
 					"os": "OS1.0.1.0.UNRCNXM",
 					"android": "14.0",
-					"obv": "OS1.0",
-					"bv": "816",
 					"release": "2024-01-30",
 					"recovery": "miui_GARNET_OS1.0.1.0.UNRCNXM_e7be0367c7_14.0.zip",
 					"fastboot": "garnet_images_OS1.0.1.0.UNRCNXM_20240121.0000.00_14.0_cn_chinatelecom_29af262732.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "garnet_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.8.0.UNREUXM": {
+					"os": "OS1.0.8.0.UNREUXM",
+					"android": "14.0",
+					"release": "2024-03-02",
+					"recovery": "miui_GARNETEEAGlobal_OS1.0.8.0.UNREUXM_a7c059e451_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
