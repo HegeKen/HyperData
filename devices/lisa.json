@@ -75,6 +75,29 @@
 					"fastboot": "lisa_images_OS1.0.1.0.UKOCNXM_20240201.0000.00_14.0_cn_chinamobile_5af471fc3f.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "lisa_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKOEUXM": {
+					"os": "OS1.0.1.0.UKOEUXM",
+					"android": "14.0",
+					"release": "2024-03-04",
+					"recovery": "miui_LISAEEAGlobal_OS1.0.1.0.UKOEUXM_3f709c9a4c_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
