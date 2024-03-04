@@ -1,0 +1,34 @@
+{
+	"device": "enuma",
+	"name": {
+		"zh": "小米平板 5 Pro 5G",
+		"en": "Xiaomi Pad 5 Pro 5G"
+	},
+	"type": "tablet",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "enuma",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKZCNXM": {
+					"os": "OS1.0.1.0.TKZCNXM",
+					"android": "13.0",
+					"release": "2024-03-05",
+					"recovery": "miui_ENUMA_OS1.0.1.0.TKZCNXM_4488f26875_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
