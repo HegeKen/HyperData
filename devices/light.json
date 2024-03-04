@@ -190,6 +190,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "light_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULSIDXM": {
+					"os": "OS1.0.1.0.ULSIDXM",
+					"android": "14.0",
+					"release": "2024-03-04",
+					"recovery": "miui_LIGHTIDGlobal_OS1.0.1.0.ULSIDXM_57232ccd1d_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
