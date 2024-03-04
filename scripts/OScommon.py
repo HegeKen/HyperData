@@ -54,6 +54,8 @@ flags = {
 	"SPESGlobal":"spes",
 	"fleur_global": "fleur",
 	"FLEURGlobal": "fleur",
+	"psyche_global": "psyche",
+	"PSYCHEGlobal": "psyche",
 	"VIVAGlobal":"viva",
 	"zircon": "zircon",
 	"ZIRCON": "zircon",
