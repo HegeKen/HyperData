@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["enuma",
+currentStable = ["ares", "enuma",
 								 "blue", "aurora", "houji", "nabu", "elish", "spesn", "spes", "viva", "veux", "zijin", "shennong_t", 
 								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier","diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
@@ -52,6 +52,8 @@ flags = {
 	"HOUJITWGlobal": "houji",
 	"houji_tr_global": "houji",
 	"HOUJITRGlobal": "houji",
+	"ares": "ares",
+	"ares": "ares",
 	"SPESGlobal":"spes",
 	"fleur_global": "fleur",
 	"FLEURGlobal": "fleur",
