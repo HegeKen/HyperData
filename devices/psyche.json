@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,7 @@
 					"android": "13.0",
 					"release": "2024-02-19",
 					"recovery": "miui_PSYCHE_OS1.0.3.0.TLDCNXM_254eae0105_13.0.zip",
-					"fastboot": ""
+					"fastboot": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_d34d88abb5.tgz"
 				},
 				"OS1.0.2.0.TLDCNXM": {
 					"os": "OS1.0.2.0.TLDCNXM",
@@ -34,6 +34,29 @@
 					"release": "2024-01-29",
 					"recovery": "miui_PSYCHE_OS1.0.2.0.TLDCNXM_e3e99fe3af_13.0.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "psyche",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TLDCNXM": {
+					"os": "OS1.0.3.0.TLDCNXM",
+					"android": "13.0",
+					"release": "2024-02-19",
+					"recovery": "miui_PSYCHE_OS1.0.3.0.TLDCNXM_254eae0105_13.0.zip",
+					"fastboot": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_chinatelecom_4b9e013419.tgz"
 				}
 			}
 		},
