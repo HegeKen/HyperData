@@ -75,6 +75,29 @@
 					"fastboot": "blue_id_global_images_V816.0.3.0.UGRIDXM_20240204.0000.00_14.0_ff9671c256.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Claro运营商定制版",
+				"en": "Latin America Claro Carrier Edition"
+			},
+			"branchCode": "blue_lm_cr_global",
+			"idtag": "LMCR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"V816.0.1.0.UGRLMCR": {
+					"os": "V816.0.1.0.UGRLMCR",
+					"android": "14.0",
+					"release": "2024-03-05",
+					"recovery": "",
+					"fastboot": "blue_lm_cr_global_images_V816.0.1.0.UGRLMCR_20240204.0000.00_14.0_5f67094a43.tgz"
+				}
+			}
 		}
 	]
 }

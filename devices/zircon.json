@@ -59,6 +59,29 @@
 					"fastboot": "zircon_images_OS1.0.2.0.UNOCNXM_20240202.0000.00_14.0_cn_chinatelecom_b16e687c62.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "zircon_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNOINXM": {
+					"os": "OS1.0.3.0.UNOINXM",
+					"android": "14.0",
+					"release": "2024-03-05",
+					"recovery": "miui_ZIRCONINGlobal_OS1.0.3.0.UNOINXM_52a1f3fb64_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
