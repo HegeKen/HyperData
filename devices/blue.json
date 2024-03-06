@@ -55,6 +55,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "blue_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"V816.0.3.0.UGRINXM": {
+					"os": "V816.0.3.0.UGRINXM",
+					"android": "14.0",
+					"release": "2024-03-06",
+					"recovery": "",
+					"fastboot": "blue_in_global_images_V816.0.3.0.UGRINXM_20240219.0000.00_14.0_c19d9cfc8c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonisia Stable"
 			},
@@ -90,6 +113,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"V816.0.2.0.UGRLMCR": {
+					"os": "V816.0.2.0.UGRLMCR",
+					"android": "14.0",
+					"release": "2024-03-06",
+					"recovery": "",
+					"fastboot": "blue_lm_cr_global_images_V816.0.2.0.UGRLMCR_20240228.0000.00_14.0_ee676b7c63.tgz"
+				},
 				"V816.0.1.0.UGRLMCR": {
 					"os": "V816.0.1.0.UGRLMCR",
 					"android": "14.0",

@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,30 @@
 					"android": "13.0",
 					"release": "2024-02-19",
 					"recovery": "miui_PISSARRO_OS1.0.2.0.TKTCNXM_13f7d12d41_13.0.zip",
-					"fastboot": ""
+					"fastboot": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_000a30c6b6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "pissarro",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKTCNXM": {
+					"os": "OS1.0.2.0.TKTCNXM",
+					"android": "13.0",
+					"release": "2024-02-19",
+					"recovery": "miui_PISSARRO_OS1.0.2.0.TKTCNXM_13f7d12d41_13.0.zip",
+					"fastboot": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_chinatelecom_52a18ab3f9.tgz"
 				}
 			}
 		}
