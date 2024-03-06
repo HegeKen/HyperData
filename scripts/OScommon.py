@@ -67,6 +67,8 @@ flags = {
 	"blue_lm_cr_global": "blue",
 	"zeus_in_global":"zeus",
 	"ZEUSINGlobal":"zeus",
+	"ingres_id_global": "ingres",
+	"INGRESIDGlobal": "ingres",
 	"ZIRCONINGlobal":"zircon",
 	"zircon_in_global":"zircon",
 	"light_id_global": "light",
