@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,30 @@
 					"android": "14.0",
 					"release": "2024-02-26",
 					"recovery": "miui_SUNSTONE_OS1.0.1.0.UMQCNXM_ecc6daa1f6_14.0.zip",
-					"fastboot": ""
+					"fastboot": "sunstone_images_OS1.0.1.0.UMQCNXM_20240202.0000.00_14.0_cn_847bb5dd27.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "sunstone",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMQCNXM": {
+					"os": "OS1.0.1.0.UMQCNXM",
+					"android": "14.0",
+					"release": "2024-02-26",
+					"recovery": "miui_SUNSTONE_OS1.0.1.0.UMQCNXM_ecc6daa1f6_14.0.zip",
+					"fastboot": "sunstone_images_OS1.0.1.0.UMQCNXM_20240202.0000.00_14.0_cn_chinatelecom_9bfd3bebd3.tgz"
 				}
 			}
 		},
@@ -49,7 +72,7 @@
 					"android": "14.0",
 					"release": "2024-03-04",
 					"recovery": "miui_SUNSTONETWGlobal_OS1.0.1.0.UMQTWXM_8abb60f4f1_14.0.zip",
-					"fastboot": ""
+					"fastboot": "sunstone_tw_global_images_OS1.0.1.0.UMQTWXM_20240204.0000.00_14.0_tw_7b09189eed.tgz"
 				}
 			}
 		},

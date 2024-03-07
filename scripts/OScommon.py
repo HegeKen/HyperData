@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["ares", "enuma",
+currentStable = ["ares", "enuma","mona",
 								 "blue", "aurora", "houji", "nabu", "elish", "spesn", "spes", "viva", "veux", "zijin", "shennong_t", 
 								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier","diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
@@ -55,6 +55,8 @@ flags = {
 	"agate_eea_vf_global": "agate",
 	"AGATEEEAVFGlobal": "agate",
 	"ares": "ares",
+	"mona":"mona",
+	"MONA":"mona",
 	"ARES":"ares",
 	"SPESGlobal":"spes",
 	"fleur_global": "fleur",
