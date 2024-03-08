@@ -588,16 +588,18 @@ def getDeviceCode(filename):
 def checkExist(filename):
 	if "OS" in filename:
 		if "blockota" in filename:
-			i = 0
+			return "OTA ROM"
 		else:
 			if getDeviceCode(filename) == 0:
 				writeData(filename)
+				return "New ROM"
 			elif filename in localData(getDeviceCode(filename)).__str__():
-				i = 0
+				return "Already Exist"
 			else:
 				writeData(filename)
+				return "New ROM"
 	else:
-		i = 0
+		return "UI Maybe"
 
 
 def miui_decrypt(encrypted_response):
