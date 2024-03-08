@@ -5,7 +5,7 @@
 		"en": "DEV for week 633 (HyperOS DEV released for various devices)"
 	},
 	"postId": "44728538",
-	"update": "2024.03.08 18:08:52",
+	"update": "2024.03.08 18:34:37",
 	"versions": "OS1.0.24.3.4.DEV",
 	"description": [
 		{
@@ -226,6 +226,34 @@
 			}
 		},
 		{
+			"device": "rubens",
+			"name": {
+				"zh": "Redmi K50",
+				"en": "Redmi K50"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.4.DEV",
+				"android": "14.0",
+				"release": "2024-03-08",
+				"recovery": "miui_RUBENS_OS1.0.24.3.4.DEV_5c4ca3b64e_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "matisse",
+			"name": {
+				"zh": "Redmi K50 Pro",
+				"en": "Redmi K50 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.4.DEV",
+				"android": "14.0",
+				"release": "2024-03-08",
+				"recovery": "miui_MATISSE_OS1.0.24.3.4.DEV_b4e0a21fb3_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
 			"device": "ingres",
 			"name": {
 				"zh": "Redmi K50 电竞版",
@@ -288,34 +316,6 @@
 			"name": {
 				"zh": "小米 12 Pro",
 				"en": "Xiaomi 12 Pro"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.4.DEV",
-				"android": "14.0",
-				"release": "2024-03-08",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "rubens",
-			"name": {
-				"zh": "Redmi K50",
-				"en": "Redmi K50"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.4.DEV",
-				"android": "14.0",
-				"release": "2024-03-08",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "matisse",
-			"name": {
-				"zh": "Redmi K50 Pro",
-				"en": "Redmi K50 Pro"
 			},
 			"rom": {
 				"os": "OS1.0.24.3.4.DEV",
