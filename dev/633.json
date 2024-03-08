@@ -5,7 +5,7 @@
 		"en": "DEV for week 633 (HyperOS DEV released for various devices)"
 	},
 	"postId": "44728538",
-	"update": "2024.03.08 18:34:37",
+	"update": "2024.03.08 18:48:17",
 	"versions": "OS1.0.24.3.4.DEV",
 	"description": [
 		{
@@ -54,6 +54,20 @@
 				"android": "14.0",
 				"release": "2024-03-08",
 				"recovery": "miui_CUPID_OS1.0.24.3.4.DEV_ddb8cd0bce_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "zeus",
+			"name": {
+				"zh": "小米 12 Pro",
+				"en": "Xiaomi 12 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.4.DEV",
+				"android": "14.0",
+				"release": "2024-03-08",
+				"recovery": "miui_ZEUS_OS1.0.24.3.4.DEV_31c8e7ba59_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -310,20 +324,5 @@
 			}
 		}
 	],
-	"suspended": [
-		{
-			"device": "zeus",
-			"name": {
-				"zh": "小米 12 Pro",
-				"en": "Xiaomi 12 Pro"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.4.DEV",
-				"android": "14.0",
-				"release": "2024-03-08",
-				"recovery": "",
-				"fastboot": ""
-			}
-		}
-	]
+	"suspended": []
 }
