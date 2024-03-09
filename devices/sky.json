@@ -144,6 +144,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "sky_jp_global",
+			"idtag": "JAPS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.8.0.UMWJPXM": {
+					"os": "OS1.0.8.0.UMWJPXM",
+					"android": "14.0",
+					"release": "2024-03-09",
+					"recovery": "miui_SKYJPGlobal_OS1.0.8.0.UMWJPXM_a401eb6022_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

@@ -54,6 +54,8 @@ flags = {
 	"HOUJITRGlobal": "houji",
 	"agate_eea_vf_global": "agate",
 	"AGATEEEAVFGlobal": "agate",
+	"sky_jp_global": "sky",
+	"SKYJPGlobal": "sky",
 	"ares": "ares",
 	"mona":"mona",
 	"MONA":"mona",
