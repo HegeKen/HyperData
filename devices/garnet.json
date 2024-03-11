@@ -75,6 +75,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "garnet_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNRINXM": {
+					"os": "OS1.0.3.0.UNRINXM",
+					"android": "14.0",
+					"release": "2024-03-11",
+					"recovery": "miui_GARNETINGlobal_OS1.0.3.0.UNRINXM_414a4dd7e7_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
