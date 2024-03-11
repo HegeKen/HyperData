@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["ares", "enuma","mona",
+currentStable = ["ruby", "ares", "enuma","mona",
 								 "blue", "aurora", "houji", "nabu", "elish", "spesn", "spes", "viva", "veux", "zijin", "shennong_t", 
 								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier","diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
@@ -60,6 +60,8 @@ flags = {
 	"GARNETINGlobal": "garnet",
 	"ruby_in_global": "ruby",
 	"RUBYINGlobal": "ruby",
+	"ruby_ep_stdee": "ruby",
+	"RUBYEPSTDEE": "ruby",
 	"ares": "ares",
 	"mona":"mona",
 	"MONA":"mona",

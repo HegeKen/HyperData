@@ -69,6 +69,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "ruby_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.2.26.EP.STDEE.M16": {
+					"os": "OS1.0.24.2.26.EP.STDEE.M16",
+					"android": "14.0",
+					"release": "2024-03-11",
+					"recovery": "miui_RUBYEPSTDEE_OS1.0.24.2.26.EP.STDEE.M16_9023739f91_14.0.zip",
+					"fastboot": "ruby_ep_stdee_images_OS1.0.24.2.26.EP.STDEE.M16_20240226.0000.00_14.0_cn_73c716a736.tgz",
+					"ctelecom": "ruby_ep_stdee_images_OS1.0.24.2.26.EP.STDEE.M16_20240226.0000.00_14.0_cn_chinatelecom_229fe78c88.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾地区正式版",
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},
