@@ -28,7 +28,7 @@ currentStable = ["emerald", "ruby", "ares", "enuma","mona",
 								 "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche","redwood", "rock", "rubens", "ruby", "sea",
 								 "shennong", "sky", "socrates", "sunstone", "sweet_k6a","taoyao", "tapas", "thor", "topaz", "unicorn",
 								 "vermeer", "xun", "yudi", "yuechu", "yunluo", "zeus", "zircon", "zizhan"]
-newDevices = ["houji", "shennong", "ruyi", "aurora", "sheng", 
+newDevices = ["chenfeng", "dizi", "goku", "peridot", "ruan", "ruyi", "houji", "shennong", "aurora", "sheng", 
 			  "duchamp", "vermeer", "manet"]
 
 onedevices = ["blue"]
@@ -58,6 +58,16 @@ flags = {
 	"AGATEEEAVFGlobal": "agate",
 	"sky_jp_global": "sky",
 	"SKYJPGlobal": "sky",
+	"chenfeng":"chenfeng",
+	"dizi":"dizi",
+	"goku":"goku",
+	"peridot":"peridot",
+	"ruan":"ruan",
+	"CHENFENG":"chenfeng",
+	"DIZI":"dizi",
+	"GOKU":"goku",
+	"PERIDOT":"peridot",
+	"RUAN":"ruan",
 	"garnet_in_global": "garnet",
 	"GARNETINGlobal": "garnet",
 	"ruby_in_global": "ruby",
