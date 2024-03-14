@@ -26,7 +26,30 @@
 					"android": "13.0",
 					"release": "2024-03-05",
 					"recovery": "miui_ENUMA_OS1.0.1.0.TKZCNXM_4488f26875_13.0.zip",
-					"fastboot": ""
+					"fastboot": "enuma_images_OS1.0.1.0.TKZCNXM_20240206.0000.00_13.0_cn_71ead6a87c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "enuma",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKZCNXM": {
+					"os": "OS1.0.1.0.TKZCNXM",
+					"android": "13.0",
+					"release": "2024-03-05",
+					"recovery": "miui_ENUMA_OS1.0.1.0.TKZCNXM_4488f26875_13.0.zip",
+					"fastboot": "enuma_images_OS1.0.1.0.TKZCNXM_20240206.0000.00_13.0_cn_chinatelecom_1816cfc44b.tgz"
 				}
 			}
 		}
