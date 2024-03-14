@@ -21,13 +21,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-					"OS1.0.4.0.UNACNXM": {
-						"os": "OS1.0.4.0.UNACNXM",
-						"android": "14.0",
-						"release": "2024-03-09",
-						"recovery": "miui_AURORA_OS1.0.4.0.UNACNXM_57ce65c302_14.0.zip",
-						"fastboot": ""
-					},
+				"OS1.0.4.0.UNACNXM": {
+					"os": "OS1.0.4.0.UNACNXM",
+					"android": "14.0",
+					"release": "2024-03-09",
+					"recovery": "miui_AURORA_OS1.0.4.0.UNACNXM_57ce65c302_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UNACNXM": {
 					"os": "OS1.0.3.0.UNACNXM",
 					"android": "14.0",
@@ -125,6 +125,29 @@
 					"recovery": "miui_AURORADEMO_OS1.0.2.0.UNACNDM_7866948cd0_14.0.zip",
 					"fastboot": "aurora_demo_images_OS1.0.2.0.UNACNDM_20240223.0000.00_14.0_cn_4d2d610dde.tgz",
 					"ctelecom": "aurora_demo_images_OS1.0.2.0.UNACNDM_20240223.0000.00_14.0_cn_chinatelecom_a9ccf3b014.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "aurora_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNAMIXM": {
+					"os": "OS1.0.2.0.UNAMIXM",
+					"android": "14.0",
+					"release": "2024-03-14",
+					"recovery": "miui_AURORAGlobal_OS1.0.2.0.UNAMIXM_b85e5a0c9b_14.0.zip",
+					"fastboot": "aurora_global_images_OS1.0.2.0.UNAMIXM_20240305.0000.00_14.0_global_94c671e24c.tgz"
 				}
 			}
 		}

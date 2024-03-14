@@ -61,6 +61,8 @@ flags = {
 	"chenfeng":"chenfeng",
 	"dizi":"dizi",
 	"goku":"goku",
+	"aurora_global": "aurora",
+	"AURORAGlobal": "aurora",
 	"peridot":"peridot",
 	"ruan":"ruan",
 	"CHENFENG":"chenfeng",
