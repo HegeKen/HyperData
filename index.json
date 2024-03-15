@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.03.15 17:48:02",
+		"time": "2024.03.15 19:57:18",
 		"roms": [
 			{
 				"code": "aurora",
@@ -32,7 +32,7 @@
 					"zh": "Redmi 12C",
 					"en": "Redmi 12C"
 				},
-				"rom": "OS1.0.1.0.UCVEUBY"
+				"rom": "OS1.0.1.0.UCVEUBY; OS1.0.1.0.UCVEUTF"
 			},
 			{
 				"code": "ruby",
@@ -40,7 +40,15 @@
 					"zh": "Redmi Note 12 Pro / Pro+ / 探索版",
 					"en": "Redmi Note 12 Pro /Pro+ / Discovery 5G"
 				},
-				"rom": "OS1.0.4.0.UMOCNXM; OS1.0.1.0.UMOINXM"
+				"rom": "OS1.0.4.0.UMOCNXM; OS1.0.2.0.UMOMIXM; OS1.0.1.0.UMOINXM"
+			},
+			{
+				"code": "tapas",
+				"name": {
+					"zh": "Redmi Note 12 4G 国际",
+					"en": "Redmi Note 12 4G"
+				},
+				"rom": "OS1.0.3.0.UMTINXM"
 			},
 			{
 				"code": "topaz",
@@ -88,7 +96,7 @@
 					"zh": "Redmi K70E",
 					"en": "Redmi K70E"
 				},
-				"rom": "OS1.0.6.0.UNLINXM"
+				"rom": "OS1.0.13.0.UNLCNXM; OS1.0.6.0.UNLINXM"
 			},
 			{
 				"code": "manet",
@@ -97,6 +105,14 @@
 					"en": "Redmi K70 Pro"
 				},
 				"rom": "OS1.0.13.0.UNMCNXM"
+			},
+			{
+				"code": "xun",
+				"name": {
+					"zh": "Redmi 平板 SE",
+					"en": "Redmi Pad SE"
+				},
+				"rom": "OS1.0.1.0.UMUEUXM"
 			}
 		]
 	}

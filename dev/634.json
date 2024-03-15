@@ -5,7 +5,7 @@
 		"en": "DEV for week 634 (HyperOS DEV released for various devices)"
 	},
 	"postId": "45777499",
-	"update": "2024.03.15 17:19:29",
+	"update": "2024.03.15 19:45:50",
 	"versions": "OS1.0.24.3.11.DEV",
 	"description": [
 		{
@@ -58,6 +58,20 @@
 			}
 		},
 		{
+			"device": "zeus",
+			"name": {
+				"zh": "小米 12 Pro",
+				"en": "Xiaomi 12 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.11.DEV",
+				"android": "14.0",
+				"release": "2024-03-15",
+				"recovery": "miui_ZEUS_OS1.0.24.3.11.DEV_52d806b148_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
 			"device": "daumier",
 			"name": {
 				"zh": "小米 12 Pro 天玑版",
@@ -72,6 +86,20 @@
 			}
 		},
 		{
+			"device": "mayfly",
+			"name": {
+				"zh": "小米 12S",
+				"en": "Xiaomi 12S"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.11.DEV",
+				"android": "14.0",
+				"release": "2024-03-15",
+				"recovery": "miui_MAYFLY_OS1.0.24.3.11.DEV_f58ed4a184_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
 			"device": "unicorn",
 			"name": {
 				"zh": "小米 12S Pro",
@@ -82,6 +110,20 @@
 				"android": "14.0",
 				"release": "2024-03-15",
 				"recovery": "miui_UNICORN_OS1.0.24.3.11.DEV_50f50f522a_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "thor",
+			"name": {
+				"zh": "小米 12S Ultra",
+				"en": "Xiaomi 12S Ultra"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.11.DEV",
+				"android": "14.0",
+				"release": "2024-03-15",
+				"recovery": "miui_THOR_OS1.0.24.3.11.DEV_1a169c76b1_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -198,6 +240,48 @@
 			}
 		},
 		{
+			"device": "matisse",
+			"name": {
+				"zh": "Redmi K50 Pro",
+				"en": "Redmi K50 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.11.DEV",
+				"android": "14.0",
+				"release": "2024-03-15",
+				"recovery": "miui_MATISSE_OS1.0.24.3.11.DEV_81d0c307d6_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "ingres",
+			"name": {
+				"zh": "Redmi K50 电竞版",
+				"en": "Redmi K50G"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.11.DEV",
+				"android": "14.0",
+				"release": "2024-03-15",
+				"recovery": "miui_INGRES_OS1.0.24.3.11.DEV_bdbae5d067_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "diting",
+			"name": {
+				"zh": "Redmi K50 至尊版",
+				"en": "Redmi K50 Ultra"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.11.DEV",
+				"android": "14.0",
+				"release": "2024-03-15",
+				"recovery": "miui_DITING_OS1.0.24.3.11.DEV_e84c29bdb6_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
 			"device": "mondrian",
 			"name": {
 				"zh": "Redmi K60",
@@ -228,94 +312,10 @@
 	],
 	"suspended": [
 		{
-			"device": "zeus",
-			"name": {
-				"zh": "小米 12 Pro",
-				"en": "Xiaomi 12 Pro"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.11.DEV",
-				"android": "14.0",
-				"release": "2024-03-15",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "mayfly",
-			"name": {
-				"zh": "小米 12S",
-				"en": "Xiaomi 12S"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.11.DEV",
-				"android": "14.0",
-				"release": "2024-03-15",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "thor",
-			"name": {
-				"zh": "小米 12S Ultra",
-				"en": "Xiaomi 12S Ultra"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.11.DEV",
-				"android": "14.0",
-				"release": "2024-03-15",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
 			"device": "rubens",
 			"name": {
 				"zh": "Redmi K50",
 				"en": "Redmi K50"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.11.DEV",
-				"android": "14.0",
-				"release": "2024-03-15",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "matisse",
-			"name": {
-				"zh": "Redmi K50 Pro",
-				"en": "Redmi K50 Pro"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.11.DEV",
-				"android": "14.0",
-				"release": "2024-03-15",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "ingres",
-			"name": {
-				"zh": "Redmi K50 电竞版",
-				"en": "Redmi K50G"
-			},
-			"rom": {
-				"os": "OS1.0.24.3.11.DEV",
-				"android": "14.0",
-				"release": "2024-03-15",
-				"recovery": "",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "diting",
-			"name": {
-				"zh": "Redmi K50 至尊版",
-				"en": "Redmi K50 Ultra"
 			},
 			"rom": {
 				"os": "OS1.0.24.3.11.DEV",

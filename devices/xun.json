@@ -52,6 +52,29 @@
 					"fastboot": "xun_global_images_OS1.0.1.0.UMUMIXM_20240205.0000.00_14.0_global_61813c806b.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "xun_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMUEUXM": {
+					"os": "OS1.0.1.0.UMUEUXM",
+					"android": "14.0",
+					"release": "2024-03-15",
+					"recovery": "miui_XUNEEAGlobal_OS1.0.1.0.UMUEUXM_9675f5ccd4_14.0.zip",
+					"fastboot": "xun_eea_global_images_OS1.0.1.0.UMUEUXM_20240224.0000.00_14.0_eea_7af5f15873.tgz"
+				}
+			}
 		}
 	]
 }
