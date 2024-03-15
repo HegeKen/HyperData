@@ -76,6 +76,8 @@ flags = {
 	"RUBYINGlobal": "ruby",
 	"ruby_ep_stdee": "ruby",
 	"RUBYEPSTDEE": "ruby",
+	"earth_eea_by_global": "earth",
+	"EARTHEEABYGlobal": "earth",
 	"ares": "ares",
 	"mona":"mona",
 	"MONA":"mona",

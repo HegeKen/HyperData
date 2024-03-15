@@ -131,6 +131,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Bouygues Telecom运营商定制版",
+				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
+			},
+			"branchCode": "earth_eea_by_global",
+			"idtag": "EABY",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UCVEUBY": {
+					"os": "OS1.0.1.0.UCVEUBY",
+					"android": "14.0",
+					"release": "2024-03-15",
+					"recovery": "miui_EARTHEEABYGlobal_OS1.0.1.0.UCVEUBY_92f981058d_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
