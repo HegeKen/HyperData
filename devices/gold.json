@@ -52,6 +52,29 @@
 					"fastboot": "gold_global_images_OS1.0.2.0.UNQMIXM_20240220.0000.00_14.0_global_0dab2454a4.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "gold_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNQEUXM": {
+					"os": "OS1.0.1.0.UNQEUXM",
+					"android": "14.0",
+					"release": "2024-03-18",
+					"recovery": "miui_GOLDEEAGlobal_OS1.0.1.0.UNQEUXM_2fbe1f59fa_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

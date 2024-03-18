@@ -164,6 +164,29 @@
 					"fastboot": "aurora_global_images_OS1.0.2.0.UNAMIXM_20240305.0000.00_14.0_global_94c671e24c.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "aurora_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNAEUXM": {
+					"os": "OS1.0.2.0.UNAEUXM",
+					"android": "14.0",
+					"release": "2024-03-18",
+					"recovery": "miui_AURORAEEAGlobal_OS1.0.2.0.UNAEUXM_7037147be4_14.0.zip",
+					"fastboot": "aurora_eea_global_images_OS1.0.2.0.UNAEUXM_20240224.0000.00_14.0_eea_260eb6aac8.tgz"
+				}
+			}
 		}
 	]
 }
