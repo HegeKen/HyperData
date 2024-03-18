@@ -89,6 +89,8 @@ flags = {
 	"SPESGlobal":"spes",
 	"fleur_global": "fleur",
 	"FLEURGlobal": "fleur",
+	"sunstone_in_global": "sunstone",
+	"SUNSTONEINGlobal": "sunstone",
 	"emerald_global": "emerald",
 	"EMERALDGlobal": "emerald",
 	"psyche_global": "psyche",
