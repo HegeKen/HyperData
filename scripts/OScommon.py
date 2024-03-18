@@ -58,6 +58,8 @@ flags = {
 	"AGATEEEAVFGlobal": "agate",
 	"sky_jp_global": "sky",
 	"SKYJPGlobal": "sky",
+	"sky_ep_stdee": "sky",
+	"SKYEPSTDEE": "sky",
 	"chenfeng":"chenfeng",
 	"dizi":"dizi",
 	"goku":"goku",
