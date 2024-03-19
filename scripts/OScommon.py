@@ -24,7 +24,7 @@ currentStable = ["aurora", "emerald", "ares", "enuma","mona",
 								 "blue", "houji", "nabu", "elish", "spesn", "spes", "viva", "veux", "zijin", "shennong_t", 
 								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier","diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
-								 "ingres", "ishtar", "light", "lightcm","liuqin", "manet", "marble", "matisse", "mayfly",
+								 "ingres", "ishtar", "light", "lightcm", "liuqin", "manet", "marble", "matisse", "mayfly",
 								 "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche","redwood", "rock", "rubens", "ruby", "sea",
 								 "shennong", "sky", "socrates", "sunstone", "sweet_k6a","taoyao", "tapas", "thor", "topaz", "unicorn",
 								 "vermeer", "xun", "yudi", "yuechu", "yunluo", "zeus", "zircon", "zizhan"]
