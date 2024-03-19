@@ -151,6 +151,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "aurora_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNATWXM": {
+					"os": "OS1.0.2.0.UNATWXM",
+					"android": "14.0",
+					"release": "2024-03-19",
+					"recovery": "miui_AURORATWGlobal_OS1.0.2.0.UNATWXM_03cd1bef2f_14.0.zip",
+					"fastboot": "aurora_tw_global_images_OS1.0.2.0.UNATWXM_20240305.0000.00_14.0_tw_0ba0a2186b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},

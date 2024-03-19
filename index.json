@@ -1,7 +1,15 @@
 {
 	"recent": {
-		"time": "2024.03.18 20:22:29",
+		"time": "2024.03.19 16:46:25",
 		"roms": [
+			{
+				"code": "agate",
+				"name": {
+					"zh": "小米 11T",
+					"en": "Xiaomi 11T"
+				},
+				"rom": "OS1.0.1.0.UKWEUHG"
+			},
 			{
 				"code": "zeus",
 				"name": {
@@ -16,7 +24,15 @@
 					"zh": "小米 14 Ultra / Ti",
 					"en": "Xiaomi 14 Ultra / Ti"
 				},
-				"rom": "OS1.0.7.0.UNACNXM; OS1.0.2.0.UNAEUXM"
+				"rom": "OS1.0.7.0.UNACNXM; OS1.0.2.0.UNATWXM; OS1.0.2.0.UNAEUXM"
+			},
+			{
+				"code": "zizhan",
+				"name": {
+					"zh": "小米 MIX FOLD 2",
+					"en": "Xiaomi MIX Fold 2"
+				},
+				"rom": "OS1.0.3.0.ULRCNXM"
 			},
 			{
 				"code": "fire",
@@ -57,6 +73,22 @@
 					"en": "Redmi Note 13 5G"
 				},
 				"rom": "OS1.0.1.0.UNQEUXM"
+			},
+			{
+				"code": "socrates",
+				"name": {
+					"zh": "Redmi K60 Pro",
+					"en": "Redmi K60 Pro"
+				},
+				"rom": "OS1.0.8.0.UMKCNXM"
+			},
+			{
+				"code": "rock",
+				"name": {
+					"zh": "POCO M5",
+					"en": "POCO M5"
+				},
+				"rom": "OS1.0.3.0.ULUMIXM"
 			}
 		]
 	}
