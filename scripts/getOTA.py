@@ -29,6 +29,7 @@ for device in OScommon.currentStable:
         OScommon.HyperOSForm["pn"] = devdata["branches"][id]["branchCode"].split("_global")[0]
       OScommon.HyperOSForm["b"] = devdata["branches"][id]["branchtag"]
       OScommon.HyperOSForm["options"]["zone"] = devdata["branches"][id]["zone"]
+    print("\r正在完成"+devdata["name"]["zh"]+"("+devdata["branches"][id]["branchCode"]+")"+"                                                       ",end="")
     for rom in devdata["branches"][id]["roms"]:
       current = devdata['branches'][id]["roms"][rom]
       if current["android"] == "":
@@ -39,5 +40,4 @@ for device in OScommon.currentStable:
       OScommon.HyperOSForm["obv"] = current["os"][:5]
       OScommon.HyperOSForm["bv"] = settings[current["os"][:5]]
       OScommon.getFromApi(OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm)),device)
-    print("\r"+devdata["name"]["zh"]+"("+devdata["branches"][id]["branchCode"]+")"+"已完成                                                       ",end="")
   

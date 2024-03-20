@@ -97,6 +97,8 @@ flags = {
 	"xun_eea_global":"xun",
 	"earth_eea_tf_global": "earth",
 	"EARTHEEATFGlobal": "earth",
+	"earth_eea_ti_global": "earth",
+	"EARTHEEATIGlobal": "earth",
 	"ARES":"ares",
 	"SPESGlobal":"spes",
 	"fleur_global": "fleur",
