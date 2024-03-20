@@ -170,6 +170,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲TIM运营商定制版",
+				"en": "Xiaomi HyperOS Europe TIM Carrier Edition"
+			},
+			"branchCode": "light_eea_ti_global",
+			"idtag": "EATI",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULSEUTI": {
+					"os": "OS1.0.1.0.ULSEUTI",
+					"android": "14.0",
+					"release": "2024-03-20",
+					"recovery": "miui_LIGHTEEATIGlobal_OS1.0.1.0.ULSEUTI_d675f8aab0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},

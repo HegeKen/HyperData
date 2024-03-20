@@ -125,6 +125,8 @@ flags = {
 	"INGRESIDGlobal": "ingres",
 	"ZIRCONINGlobal":"zircon",
 	"zircon_in_global":"zircon",
+	"light_eea_ti_global": "light",
+	"LIGHTEEATIGlobal": "light",
 	"blue_in_global": "blue",
   "BLUEINGlobal": "blue",
 	"light_id_global": "light",
