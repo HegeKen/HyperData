@@ -65,6 +65,8 @@ flags = {
 	"chenfeng":"chenfeng",
 	"duchamp_ep_stdee": "duchamp",
   "DUCHAMPEPSTDEE": "duchamp",
+	"agate_eea_ti_global": "agate",
+	"AGATEEEATIGlobal": "agate",
 	"dizi":"dizi",
 	"goku":"goku",
 	"aurora_global": "aurora",
