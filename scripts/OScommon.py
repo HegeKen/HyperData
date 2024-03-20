@@ -60,6 +60,8 @@ flags = {
 	"SKYJPGlobal": "sky",
 	"sky_ep_stdee": "sky",
 	"SKYEPSTDEE": "sky",
+	"xun_ru_global": "xun",
+	"XUNRUGlobal": "xun",
 	"chenfeng":"chenfeng",
 	"dizi":"dizi",
 	"goku":"goku",

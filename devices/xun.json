@@ -75,6 +75,29 @@
 					"fastboot": "xun_eea_global_images_OS1.0.1.0.UMUEUXM_20240224.0000.00_14.0_eea_7af5f15873.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "xun_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMURUXM": {
+					"os": "OS1.0.1.0.UMURUXM",
+					"android": "14.0",
+					"release": "2024-03-20",
+					"recovery": "miui_XUNRUGlobal_OS1.0.1.0.UMURUXM_8fa8660659_14.0.zip",
+					"fastboot": "xun_ru_global_images_OS1.0.1.0.UMURUXM_20240301.0000.00_14.0_ru_b5c10fa30b.tgz"
+				}
+			}
 		}
 	]
 }
