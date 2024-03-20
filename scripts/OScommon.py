@@ -63,6 +63,8 @@ flags = {
 	"xun_ru_global": "xun",
 	"XUNRUGlobal": "xun",
 	"chenfeng":"chenfeng",
+	"duchamp_ep_stdee": "duchamp",
+  "DUCHAMPEPSTDEE": "duchamp",
 	"dizi":"dizi",
 	"goku":"goku",
 	"aurora_global": "aurora",

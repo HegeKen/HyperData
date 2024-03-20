@@ -179,6 +179,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "duchamp_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.3.8.EP.STDEE.N11A_": {
+					"os": "OS1.0.24.3.8.EP.STDEE.N11A_",
+					"android": "14.0",
+					"release": "2024-03-20",
+					"recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.3.8.EP.STDEE.N11A_8fdedaee5b_14.0.zip",
+					"fastboot": "duchamp_ep_stdee_images_OS1.0.24.3.8.EP.STDEE.N11A_20240308.0000.00_14.0_cn_1f738a4c51.tgz",
+					"ctelecom": "duchamp_ep_stdee_images_OS1.0.24.3.8.EP.STDEE.N11A_20240308.0000.00_14.0_cn_chinatelecom_d1e4206db9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
