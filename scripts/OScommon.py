@@ -129,6 +129,8 @@ flags = {
 	"LIGHTEEATIGlobal": "light",
 	"blue_in_global": "blue",
   "BLUEINGlobal": "blue",
+	"viva_eea_global": "viva",
+	"VIVAEEAGlobal": "viva",
 	"light_id_global": "light",
 	"LIGHTIDGlobal": "light",
 	"enuma": "enuma",
