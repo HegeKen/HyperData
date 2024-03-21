@@ -60,6 +60,8 @@ flags = {
 	"RUBYTRGlobal":"ruby",
 	"opal_tw_global":"opal",
 	"OPALTWGlobal":"opal",
+	"evergreen_tw_global": "evergreen",
+	"EVERGREENTWGlobal": "evergreen",
 	"agate_eea_vf_global": "agate",
 	"AGATEEEAVFGlobal": "agate",
 	"sky_jp_global": "sky",

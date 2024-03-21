@@ -1,0 +1,34 @@
+{
+	"device": "evergreen",
+	"name": {
+		"zh": "POCO M4 Pro 5G",
+		"en": "POCO M4 Pro 5G"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "evergreen_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGBTWXM": {
+					"os": "OS1.0.1.0.TGBTWXM",
+					"android": "13.0",
+					"release": "2024-03-22",
+					"recovery": "miui_EVERGREENTWGlobal_OS1.0.1.0.TGBTWXM_71148f3f61_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
