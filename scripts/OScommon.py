@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["chenfeng", "aurora", "emerald", "ares", "enuma","mona",
+currentStable = ["chenfeng", "opal", "sapphire", "aurora", "emerald", "ares", "enuma","mona",
 								 "houji", "nabu", "elish", "spesn", "spes", "viva", "veux", "zijin", "shennong_t", 
 								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "agate", "aristotle", "babylon",
 								 "corot","cupid", "dagu", "daumier", "diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
@@ -58,12 +58,16 @@ flags = {
 	"FIREINGlobal":"fire",
 	"ruby_tr_global":"ruby",
 	"RUBYTRGlobal":"ruby",
+	"opal_tw_global":"opal",
+	"OPALTWGlobal":"opal",
 	"agate_eea_vf_global": "agate",
 	"AGATEEEAVFGlobal": "agate",
 	"sky_jp_global": "sky",
 	"SKYJPGlobal": "sky",
 	"sky_ep_stdee": "sky",
 	"SKYEPSTDEE": "sky",
+	"sapphire_global": "sapphire",
+	"SAPPHIREGlobal": "sapphire",
 	"xun_ru_global": "xun",
 	"chenfeng_demo": "chenfeng",
 	"CHENFENGDEMO": "chenfeng",

@@ -1,0 +1,34 @@
+{
+	"device": "opal",
+	"name": {
+		"zh": "Redmi Note 11S 5G",
+		"en": "Redmi Note 11S 5G"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "opal_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGLTWXM": {
+					"os": "OS1.0.1.0.TGLTWXM",
+					"android": "13.0",
+					"release": "2024-03-21",
+					"recovery": "miui_OPALTWGlobal_OS1.0.1.0.TGLTWXM_4978707ffb_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
