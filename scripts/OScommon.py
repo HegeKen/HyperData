@@ -64,6 +64,8 @@ flags = {
 	"EVERGREENTWGlobal": "evergreen",
 	"agate_eea_vf_global": "agate",
 	"AGATEEEAVFGlobal": "agate",
+	"agate_eea_by_global":"agate",
+	"AGATEEEABYGlobal":"agate",
 	"sky_jp_global": "sky",
 	"SKYJPGlobal": "sky",
 	"sky_ep_stdee": "sky",
