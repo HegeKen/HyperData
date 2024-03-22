@@ -74,6 +74,8 @@ flags = {
 	"zeus_id_global":"zeus",
 	"ZEUSIDGlobal":"zeus",
 	"SKYEPSTDEE": "sky",
+	"ishtar_ep_stdee": "ishtar",
+	"ISHTAREPSTDEE": "ishtar",
 	"sapphire_global": "sapphire",
 	"SAPPHIREGlobal": "sapphire",
 	"xun_ru_global": "xun",
