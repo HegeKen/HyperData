@@ -66,6 +66,8 @@ flags = {
 	"AGATEEEAVFGlobal": "agate",
 	"agate_eea_by_global":"agate",
 	"AGATEEEABYGlobal":"agate",
+	"yunluo_ru_global": "yunluo",
+	"YUNLUORUGlobal": "yunluo",
 	"sky_jp_global": "sky",
 	"SKYJPGlobal": "sky",
 	"sky_ep_stdee": "sky",
