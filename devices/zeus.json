@@ -249,6 +249,29 @@
 					"fastboot": ""
 				}
 			}
-		}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "zeus_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULBIDXM": {
+					"os": "OS1.0.2.0.ULBIDXM",
+					"android": "14.0",
+					"release": "2024-03-22",
+					"recovery": "miui_ZEUSIDGlobal_OS1.0.2.0.ULBIDXM_20449ce46c_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}	
 	]
 }

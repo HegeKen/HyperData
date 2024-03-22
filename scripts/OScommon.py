@@ -71,6 +71,8 @@ flags = {
 	"sky_jp_global": "sky",
 	"SKYJPGlobal": "sky",
 	"sky_ep_stdee": "sky",
+	"zeus_id_global":"zeus",
+	"ZEUSIDGlobal":"zeus",
 	"SKYEPSTDEE": "sky",
 	"sapphire_global": "sapphire",
 	"SAPPHIREGlobal": "sapphire",
