@@ -467,6 +467,10 @@ flags = {
 	"COROTGlobal": "corot",
 	"light": "light",
 	"lightcm": "lightcm",
+	"xun_tr_global":"xun",
+	"XUNTRGlobal":"xun",
+	"xun_id_global":"xun",
+	"XUNIDGlobal":"xun",
 	"diting_eea_global": "diting",
 	"DITINGEEAGlobal": "diting",
 	"MARBLEGlobal": "marble",
@@ -627,7 +631,7 @@ def writeData(filename):
 		flag = filename.split('_')[1]
 	elif ".tgz" in filename:
 		flag = filename.split('_images')[0]
-	print("发现\t"+flag+"\t发现未收录版本")
+	print("发现\t"+flag+"\t分支有未收录的新版本")
 	file.close()
 
 

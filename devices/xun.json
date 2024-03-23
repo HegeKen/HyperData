@@ -98,6 +98,52 @@
 					"fastboot": "xun_ru_global_images_OS1.0.1.0.UMURUXM_20240301.0000.00_14.0_ru_b5c10fa30b.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "xun_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMUIDXM": {
+					"os": "OS1.0.1.0.UMUIDXM",
+					"android": "14.0",
+					"release": "2024-03-23",
+					"recovery": "miui_XUNIDGlobal_OS1.0.1.0.UMUIDXM_f92e169048_14.0.zip",
+					"fastboot": "xun_id_global_images_OS1.0.1.0.UMUIDXM_20240227.0000.00_14.0_id_fd05fcdb97.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "xun_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMUTRXM": {
+					"os": "OS1.0.1.0.UMUTRXM",
+					"android": "14.0",
+					"release": "2024-03-23",
+					"recovery": "miui_XUNTRGlobal_OS1.0.1.0.UMUTRXM_0f60117fc6_14.0.zip",
+					"fastboot": "xun_tr_global_images_OS1.0.1.0.UMUTRXM_20240306.0000.00_14.0_tr_1880927fa9.tgz"
+				}
+			}
 		}
 	]
 }
