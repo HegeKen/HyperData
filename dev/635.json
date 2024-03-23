@@ -5,8 +5,8 @@
 		"en": "DEV for week 635 (HyperOS DEV released for various devices)"
 	},
 	"postId": "44945497",
-	"update": "2024.03.22 20:59:40",
-	"versions": "OS1.0.24.3.18.DEV",
+	"update": "2024.03.23 19:59:47",
+	"versions": "OS1.0.24.3.18.DEV, OS1.0.24.3.22.DEV",
 	"description": [
 		{
 			"zh":"由于正在排查重启的问题，Redmi K60开发版本周已暂停发布",
@@ -296,6 +296,20 @@
 				"android": "14.0",
 				"release": "2024-03-22",
 				"recovery": "miui_DITING_OS1.0.24.3.18.DEV_03f9d94566_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "mondrian",
+			"name": {
+				"zh": "Redmi K60",
+				"en": "Redmi K60"
+			},
+			"rom": {
+				"os": "OS1.0.24.3.22.DEV",
+				"android": "14.0",
+				"release": "2024-03-23",
+				"recovery": "miui_MONDRIAN_OS1.0.24.3.22.DEV_0ed0b16c28_14.0.zip",
 				"fastboot": ""
 			}
 		},
