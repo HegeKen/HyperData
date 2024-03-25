@@ -197,6 +197,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "cupid_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULCTWXM": {
+					"os": "OS1.0.2.0.ULCTWXM",
+					"android": "14.0",
+					"release": "2024-03-25",
+					"recovery": "miui_CUPIDTWGlobal_OS1.0.2.0.ULCTWXM_e654e3bdab_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -215,6 +238,29 @@
 					"release": "2024-01-29",
 					"recovery": "miui_CUPIDEEAGlobal_OS1.0.3.0.ULCEUXM_df8db6d1bf_14.0.zip",
 					"fastboot": "cupid_eea_global_images_OS1.0.3.0.ULCEUXM_20240121.0000.00_14.0_eea_6b99024d28.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "cupid_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULCRUXM": {
+					"os": "OS1.0.1.0.ULCRUXM",
+					"android": "14.0",
+					"release": "2024-03-25",
+					"recovery": "miui_CUPIDRUGlobal_OS1.0.1.0.ULCRUXM_4895326afe_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},
