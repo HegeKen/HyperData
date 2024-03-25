@@ -60,6 +60,8 @@ flags = {
 	"LIGHTEEATFGlobal":"light",
 	"gale_global":"gale",
 	"GALEGlobal":"gale",
+	"XUNTWGlobal": "xun",
+	"xun_tw_global": "xun",
 	"sweet_k6a_tr_global":"sweet_k6a",
 	"SWEETK6ATRGlobal":"sweet_k6a",
 	"cupid_global":"cupid",

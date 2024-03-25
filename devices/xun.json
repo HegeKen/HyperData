@@ -32,6 +32,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "xun_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMUTWXM": {
+					"os": "OS1.0.1.0.UMUTWXM",
+					"android": "14.0",
+					"release": "2024-03-25",
+					"recovery": "miui_XUNTWGlobal_OS1.0.1.0.UMUTWXM_c082b464f1_14.0.zip",
+					"fastboot": "xun_tw_global_images_OS1.0.1.0.UMUTWXM_20240306.0000.00_14.0_tw_4c4a4b1d05.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
