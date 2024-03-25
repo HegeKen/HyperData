@@ -29,6 +29,29 @@
 					"fastboot": "fleur_global_images_OS1.0.1.0.TKEMIXM_20240220.0000.00_13.0_global_b7004d72a7.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "fleur_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKEEUXM": {
+					"os": "OS1.0.1.0.TKEEUXM",
+					"android": "13.0",
+					"release": "2024-03-25",
+					"recovery": "miui_FLEUREEAGlobal_OS1.0.1.0.TKEEUXM_836659370c_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
