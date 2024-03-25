@@ -60,6 +60,8 @@ flags = {
 	"LIGHTEEATFGlobal":"light",
 	"sweet_k6a_tr_global":"sweet_k6a",
 	"SWEETK6ATRGlobal":"sweet_k6a",
+	"cupid_global":"cupid",
+	"CUPIDGlobal":"cupid",
 	"ruby_tr_global":"ruby",
 	"RUBYTRGlobal":"ruby",
 	"opal_tw_global":"opal",
