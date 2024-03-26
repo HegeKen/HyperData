@@ -85,6 +85,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "sweet_k6a_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.THGIDXM": {
+					"os": "OS1.0.1.0.THGIDXM",
+					"android": "13.0",
+					"release": "2024-03-26",
+					"recovery": "miui_SWEETK6AIDGlobal_OS1.0.1.0.THGIDXM_d877527bdc_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},

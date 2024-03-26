@@ -55,6 +55,8 @@ flags = {
 	"garnet_global": "garnet",
 	"GARNETGlobal": "garnet",
 	"fire_in_global":"fire",
+	"sweet_k6a_id_global":"sweet_k6a",
+	"SWEETK6AIDGlobal":"sweet_k6a",
 	"FIREINGlobal":"fire",
 	"nabu_global":"nabu",
 	"NABUGlobal":"nabu",
