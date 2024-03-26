@@ -223,6 +223,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Telefonica运营商定制版",
+				"en": "Xiaomi HyperOS Europe Telefonica Carrier Edition"
+			},
+			"branchCode": "light_eea_vf_global",
+			"idtag": "EUTF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.ULSEUVF": {
+					"os": "OS1.0.4.0.ULSEUVF",
+					"android": "14.0",
+					"release": "2024-03-26",
+					"recovery": "miui_LIGHTEEAVFGlobal_OS1.0.4.0.ULSEUVF_c56230e911_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},

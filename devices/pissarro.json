@@ -52,6 +52,29 @@
 					"fastboot": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_chinatelecom_52a18ab3f9.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "pissarro_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKTMIXM": {
+					"os": "OS1.0.2.0.TKTMIXM",
+					"android": "14.0",
+					"release": "2024-03-26",
+					"recovery": "miui_PISSARROGlobal_OS1.0.2.0.TKTMIXM_5d0ada11d6_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
