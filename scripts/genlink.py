@@ -14,10 +14,10 @@ for id in ids:
   for rom in devdata["branches"][id]["roms"]:
     data = devdata['branches'][id]["roms"][rom]
     if data["recovery"] != "":
-      print("https://cdn-ota.azureedge.net/"+data["os"]+"/"+data["recovery"])
+      print("https://bn.d.miui.com/"+data["os"]+"/"+data["recovery"])
     else:
       k = 0
     if data["fastboot"] != "":
-      print("https://cdn-ota.azureedge.net/"+data["os"]+"/"+data["fastboot"])
+      print("https://bn.d.miui.com/"+data["os"]+"/"+data["fastboot"])
     else:
       k = 0
