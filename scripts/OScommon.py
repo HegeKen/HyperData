@@ -71,6 +71,8 @@ flags = {
 	"light_eea_vf_global":"light",
 	"LIGHTEEAVFGlobal":"light",
 	"agate_eea_tf_global":"agate",
+	"earth_eea_vf_global":"earth",
+	"EARTHEEAVFGlobal":"earth",
 	"AGATEEEATFGlobal":"agate",
 	"light_eea_tf_global":"light",
 	"LIGHTEEATFGlobal":"light",
