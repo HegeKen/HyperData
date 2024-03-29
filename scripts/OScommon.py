@@ -63,6 +63,8 @@ flags = {
 	"FLEUREEAGlobal":"fleur",
 	"ZIRCONEEAGlobal":"zircon",
 	"zircon_eea_global":"zircon",
+	"spesn_eea_global":"spesn",
+	"SPESNEEAGlobal":"spesn",
 	"spesn_eea_tf_global":"spesn",
 	"SPESNEEATFGlobal":"spesn",
 	"lisa_eea_tf_global":"lisa",
