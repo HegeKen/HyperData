@@ -29,6 +29,29 @@
 					"fastboot": "spes_global_images_OS1.0.3.0.TGCMIXM_20240207.0000.00_13.0_global_b81f20dcb5.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "spes_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGCINXM": {
+					"os": "OS1.0.1.0.TGCINXM",
+					"android": "14.0",
+					"release": "2024-04-01",
+					"recovery": "miui_SPESINGlobal_OS1.0.1.0.TGCINXM_468c1e6356_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

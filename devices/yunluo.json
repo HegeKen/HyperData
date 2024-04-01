@@ -197,6 +197,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "yunluo_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULYTRXM": {
+					"os": "OS1.0.1.0.ULYTRXM",
+					"android": "14.0",
+					"release": "2024-04-01",
+					"recovery": "miui_YUNLUOTRGlobal_OS1.0.1.0.ULYTRXM_6462e2617e_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
