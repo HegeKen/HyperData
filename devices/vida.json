@@ -1,0 +1,34 @@
+{
+	"device": "vida",
+	"name": {
+		"zh": "Redmi Note 11 Pro 4G 印度版",
+		"en": "Redmi Note 11 Pro 4G India"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "vida_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TGDINXM": {
+					"os": "OS1.0.3.0.TGDINXM",
+					"android": "13.0",
+					"release": "2024-04-01",
+					"recovery": "miui_VIDAINGlobal_OS1.0.3.0.TGDINXM_1004dd4f10_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

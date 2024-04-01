@@ -29,6 +29,29 @@
 					"fastboot": "opal_tw_global_images_OS1.0.1.0.TGLTWXM_20240229.0000.00_13.0_tw_8afce975fa.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "opal_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGLMIXM": {
+					"os": "OS1.0.1.0.TGLMIXM",
+					"android": "13.0",
+					"release": "2024-04-01",
+					"recovery": "miui_OPALGlobal_OS1.0.1.0.TGLMIXM_49655ebbfa_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

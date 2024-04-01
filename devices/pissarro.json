@@ -72,6 +72,29 @@
 					"android": "14.0",
 					"release": "2024-03-26",
 					"recovery": "miui_PISSARROGlobal_OS1.0.2.0.TKTMIXM_5d0ada11d6_13.0.zip",
+					"fastboot": "pissarro_global_images_OS1.0.2.0.TKTMIXM_20240312.0000.00_13.0_global_a12a97d9a1.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKTEUXM": {
+					"os": "OS1.0.2.0.TKTEUXM",
+					"android": "13.0",
+					"release": "2024-04-01",
+					"recovery": "miui_PISSARROEEAGlobal_OS1.0.2.0.TKTEUXM_d172ed0f80_13.0.zip",
 					"fastboot": ""
 				}
 			}

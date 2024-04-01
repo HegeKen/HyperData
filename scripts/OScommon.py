@@ -28,7 +28,7 @@ currentStable = ["gale", "chenfeng", "opal", "sapphire", "aurora", "emerald", "a
 								 "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche","redwood", "rock", "rubens", "ruby", "sea",
 								 "shennong", "sky", "socrates", "sunstone", "sweet_k6a","taoyao", "tapas", "thor", "topaz", "unicorn",
 								 "vermeer", "xun", "yudi", "yuechu", "yunluo", "zeus", "zircon", "zizhan"]
-newDevices = ["chenfeng", "dizi", "goku", "peridot", "ruan", "ruyi", "houji", "shennong", "aurora", "sheng", 
+newDevices = ["peridot", "chenfeng", "dizi", "goku", "ruan", "ruyi", "houji", "shennong", "aurora", "sheng", 
 			  "duchamp", "vermeer", "manet"]
 
 onedevices = ["blue"]
@@ -71,6 +71,12 @@ flags = {
 	"LISAEEATFGlobal":"lisa",
 	"pissarro_global":"pissarro",
 	"PISSARROGlobal":"pissarro",
+	"ziyi_eea_global":"ziyi",
+	"ZIYIEEAGlobal":"ziyi",
+	"cupid_tr_global":"cupid",
+	"CUPIDTRGlobal":"cupid",
+	"zeus_tw_global":"zeus",
+	"ZEUSTWGlobal":"zeus",
 	"gold_tw_global":"gold",
 	"GOLDTWGlobal":"gold",
 	"light_eea_vf_global":"light",

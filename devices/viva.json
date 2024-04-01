@@ -9,6 +9,29 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "viva_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TGDTWXM": {
+					"os": "OS1.0.3.0.TGDTWXM",
+					"android": "13.0",
+					"release": "2024-04-01",
+					"recovery": "miui_VIVATWGlobal_OS1.0.3.0.TGDTWXM_545d0a19eb_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},

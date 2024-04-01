@@ -52,6 +52,29 @@
           "fastboot": "ziyi_images_OS1.0.1.0.ULLCNXM_20240203.0000.00_14.0_cn_chinatelecom_f1d4808caf.tgz"
         }
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "ziyi_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.ULLEUXM": {
+					"os": "OS1.0.4.0.ULLEUXM",
+					"android": "14.0",
+					"release": "2024-04-01",
+					"recovery": "miui_ZIYIEEAGlobal_OS1.0.4.0.ULLEUXM_b08edd61cb_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

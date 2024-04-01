@@ -238,6 +238,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "ingres_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULJRUXM": {
+					"os": "OS1.0.1.0.ULJRUXM",
+					"android": "14.0",
+					"release": "2024-04-01",
+					"recovery": "miui_INGRESRUGlobal_OS1.0.1.0.ULJRUXM_b4d8d3325c_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonisia Stable"
 			},
@@ -256,6 +279,29 @@
 					"release": "2024-03-06",
 					"recovery": "miui_INGRESIDGlobal_OS1.0.1.0.ULJIDXM_7a8903215f_14.0.zip",
 					"fastboot": "ingres_id_global_images_OS1.0.1.0.ULJIDXM_20240201.0000.00_14.0_id_6d105bc761.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "ingres_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULJTRXM": {
+					"os": "OS1.0.1.0.ULJTRXM",
+					"android": "14.0",
+					"release": "2024-04-01",
+					"recovery": "miui_INGRESTRGlobal_OS1.0.1.0.ULJTRXM_b9ae6a2c5b_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

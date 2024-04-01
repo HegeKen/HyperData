@@ -1,30 +1,22 @@
 {
 	"recent": {
-		"time": "2024.03.30 11:31:43",
+		"time": "2024.04.01 11:03:36",
 		"roms": [
-			{
-				"code": "lisa",
-				"name": {
-					"zh": "小米 11 青春活力版",
-					"en": "Mi 11 LE/Xiaomi 11 Lite 5G NE"
-				},
-				"rom": "OS1.0.3.0.UKOMIXM; OS1.0.1.0.UKOEUTF"
-			},
-			{
-				"code": "agate",
-				"name": {
-					"zh": "小米 11T",
-					"en": "Xiaomi 11T"
-				},
-				"rom": "OS1.0.1.0.UKWEUTF"
-			},
 			{
 				"code": "cupid",
 				"name": {
 					"zh": "小米 12",
 					"en": "Xiaomi 12"
 				},
-				"rom": "OS1.0.2.0.ULCTWXM; OS1.0.2.0.ULCMIXM; OS1.0.1.0.ULCRUXM"
+				"rom": "OS1.0.1.0.ULCTRXM"
+			},
+			{
+				"code": "zeus",
+				"name": {
+					"zh": "小米 12 Pro",
+					"en": "Xiaomi 12 Pro"
+				},
+				"rom": "OS1.0.2.0.ULBTWXM"
 			},
 			{
 				"code": "taoyao",
@@ -32,79 +24,15 @@
 					"zh": "小米 12 Lite",
 					"en": "Xiaomi 12 Lite"
 				},
-				"rom": "OS1.0.5.0.ULIEUXM; OS1.0.3.0.ULIIDXM"
+				"rom": "OS1.0.2.0.ULITRXM"
 			},
 			{
-				"code": "nuwa",
+				"code": "ziyi",
 				"name": {
-					"zh": "小米 13 Pro",
-					"en": "Xiaomi 13 Pro"
+					"zh": "小米 Civi 2",
+					"en": "Xiaomi Civi 2"
 				},
-				"rom": "OS1.0.3.0.UMBRUXM"
-			},
-			{
-				"code": "houji",
-				"name": {
-					"zh": "小米 14",
-					"en": "Xiaomi 14"
-				},
-				"rom": "OS1.0.35.0.UNCCNXM; OS1.0.6.0.UNCMIXM"
-			},
-			{
-				"code": "shennong",
-				"name": {
-					"zh": "小米 14 Pro / Ti",
-					"en": "Xiaomi 14 Pro / Ti"
-				},
-				"rom": "OS1.0.37.0.UNBCNXM"
-			},
-			{
-				"code": "aurora",
-				"name": {
-					"zh": "小米 14 Ultra / Ti",
-					"en": "Xiaomi 14 Ultra / Ti"
-				},
-				"rom": "OS1.0.8.0.UNACNXM; OS1.0.3.0.UNATWXM; OS1.0.3.0.UNAMIXM; OS1.0.5.0.UNAEUXM"
-			},
-			{
-				"code": "chenfeng",
-				"name": {
-					"zh": "小米 Civi 4 Pro",
-					"en": "Xiaomi Civi 4 Pro"
-				},
-				"rom": "OS1.0.4.0.UNJCNXM"
-			},
-			{
-				"code": "nabu",
-				"name": {
-					"zh": "小米平板 5",
-					"en": "Xiaomi Pad 5"
-				},
-				"rom": "OS1.0.1.0.TKXMIXM"
-			},
-			{
-				"code": "sky",
-				"name": {
-					"zh": "Redmi 12 / 12R 5G / Redmi Note 12R",
-					"en": "Redmi 12 / 12R 5G / Redmi Note 12R"
-				},
-				"rom": "OS1.0.4.0.UMWMIXM"
-			},
-			{
-				"code": "earth",
-				"name": {
-					"zh": "Redmi 12C",
-					"en": "Redmi 12C"
-				},
-				"rom": "OS1.0.3.0.UCVEUVF"
-			},
-			{
-				"code": "gale",
-				"name": {
-					"zh": "Redmi 13C",
-					"en": "Redmi 13C"
-				},
-				"rom": "OS1.0.1.0.UGPMIXM"
+				"rom": "OS1.0.4.0.ULLEUXM"
 			},
 			{
 				"code": "pissarro",
@@ -112,15 +40,31 @@
 					"zh": "Redmi Note 11 Pro/Pro+/Pro+ 5G",
 					"en": "Redmi Note 11 Pro/Pro+/Pro+ 5G"
 				},
-				"rom": "OS1.0.2.0.TKTMIXM"
+				"rom": "OS1.0.2.0.TKTEUXM"
 			},
 			{
-				"code": "spesn",
+				"code": "viva",
 				"name": {
-					"zh": "Redmi Note 11 NFC",
-					"en": "Redmi Note 11 NFC"
+					"zh": "Redmi Note 11 Pro 4G",
+					"en": "Redmi Note 11 Pro 4G"
 				},
-				"rom": "OS1.0.1.0.TGKEUXM; OS1.0.1.0.TGKEUTF"
+				"rom": "OS1.0.3.0.TGDTWXM"
+			},
+			{
+				"code": "vida",
+				"name": {
+					"zh": "Redmi Note 11 Pro 4G 印度版",
+					"en": "Redmi Note 11 Pro 4G India"
+				},
+				"rom": "OS1.0.3.0.TGDINXM"
+			},
+			{
+				"code": "evergo",
+				"name": {
+					"zh": "Redmi Note 11 5G/11T 5G",
+					"en": "Redmi Note 11 5G/11T 5G"
+				},
+				"rom": "OS1.0.1.0.TGBMIXM"
 			},
 			{
 				"code": "light",
@@ -128,111 +72,55 @@
 					"zh": "Redmi Note 11E",
 					"en": "Redmi Note 11E"
 				},
-				"rom": "OS1.0.1.0.ULSEUTF; OS1.0.4.0.ULSEUVF"
+				"rom": "OS1.0.1.0.ULSRUXM; OS1.0.1.0.ULSTRXM"
 			},
 			{
-				"code": "fleur",
+				"code": "opal",
 				"name": {
-					"zh": "Redmi Note 11S 4G",
-					"en": "Redmi Note 11S 4G"
+					"zh": "Redmi Note 11S 5G",
+					"en": "Redmi Note 11S 5G"
 				},
-				"rom": "OS1.0.1.0.TKEEUXM"
+				"rom": ""
 			},
 			{
-				"code": "sunstone",
+				"code": "redwood",
 				"name": {
-					"zh": "Redmi Note 12 5G / 12R Pro",
-					"en": "Redmi Note 12 5G / 12R Pro"
+					"zh": "Redmi Note 12 Pro 极速版",
+					"en": "Redmi Note 12 Pro Speed"
 				},
-				"rom": "OS1.0.5.0.UMQEUXM"
+				"rom": "OS1.0.3.0.UMSEUXM"
 			},
 			{
-				"code": "sweet_k6a",
+				"code": "sea",
 				"name": {
-					"zh": "Redmi Note 12 Pro 4G",
-					"en": "Redmi Note 12 Pro 4G"
+					"zh": "Redmi Note 12S 国际",
+					"en": "Redmi Note 12S"
 				},
-				"rom": "OS1.0.3.0.THGMIXM; OS1.0.1.0.THGIDXM; OS1.0.1.0.THGTRXM"
+				"rom": "OS1.0.2.0.UHZRUXM"
 			},
 			{
-				"code": "ruby",
+				"code": "ingres",
 				"name": {
-					"zh": "Redmi Note 12 Pro / Pro+ / 探索版",
-					"en": "Redmi Note 12 Pro /Pro+ / Discovery 5G"
+					"zh": "Redmi K50 电竞版",
+					"en": "Redmi K50G"
 				},
-				"rom": "OS1.0.2.0.UMOEUXM"
+				"rom": "OS1.0.1.0.ULJRUXM; OS1.0.1.0.ULJTRXM"
 			},
 			{
-				"code": "marble",
+				"code": "mondrian",
 				"name": {
-					"zh": "Redmi Note 12 Turbo",
-					"en": "Redmi Note 12 Turbo"
+					"zh": "Redmi K60",
+					"en": "Redmi K60"
 				},
-				"rom": "OS1.0.3.0.UMRRUXM; OS1.0.7.0.UMRINXM"
+				"rom": "OS1.0.4.0.UMNTWXM"
 			},
 			{
-				"code": "gold",
+				"code": "rock",
 				"name": {
-					"zh": "Redmi Note 13 5G",
-					"en": "Redmi Note 13 5G"
+					"zh": "POCO M5",
+					"en": "POCO M5"
 				},
-				"rom": "OS1.0.1.0.UNQTWXM"
-			},
-			{
-				"code": "garnet",
-				"name": {
-					"zh": "Redmi Note 13 Pro",
-					"en": "Redmi Note 13 Pro"
-				},
-				"rom": "OS1.0.4.0.UNRINXM"
-			},
-			{
-				"code": "zircon",
-				"name": {
-					"zh": "Redmi Note 13 Pro+",
-					"en": "Redmi Note 13 Pro+"
-				},
-				"rom": "OS1.0.2.0.UNOEUXM"
-			},
-			{
-				"code": "diting",
-				"name": {
-					"zh": "Redmi K50 至尊版",
-					"en": "Redmi K50 Ultra"
-				},
-				"rom": "OS1.0.3.0.ULFMIXM"
-			},
-			{
-				"code": "corot",
-				"name": {
-					"zh": "Redmi K60 至尊版",
-					"en": "Redmi K60 Ultra"
-				},
-				"rom": "OS1.0.3.0.UMLMIXM"
-			},
-			{
-				"code": "yunluo",
-				"name": {
-					"zh": "Redmi 平板",
-					"en": "Redmi Pad"
-				},
-				"rom": "OS1.0.1.0.ULYTWXM"
-			},
-			{
-				"code": "xun",
-				"name": {
-					"zh": "Redmi 平板 SE",
-					"en": "Redmi Pad SE"
-				},
-				"rom": "OS1.0.1.0.UMUTWXM"
-			},
-			{
-				"code": "moonstone",
-				"name": {
-					"zh": "POCO X5 5G",
-					"en": "POCO X5 5G"
-				},
-				"rom": "OS1.0.1.0.UMPIDXM; OS1.0.1.0.UMPTRXM"
+				"rom": "OS1.0.2.0.ULUEUXM"
 			}
 		]
 	}
