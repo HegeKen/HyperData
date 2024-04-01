@@ -108,6 +108,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "garnet_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNRRUXM": {
+					"os": "OS1.0.2.0.UNRRUXM",
+					"android": "14.0",
+					"release": "2024-04-02",
+					"recovery": "miui_GARNETRUGlobal_OS1.0.2.0.UNRRUXM_7faa57445e_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -133,6 +156,51 @@
 					"release": "2024-03-11",
 					"recovery": "miui_GARNETINGlobal_OS1.0.3.0.UNRINXM_414a4dd7e7_14.0.zip",
 					"fastboot": "garnet_in_global_images_OS1.0.3.0.UNRINXM_20240228.0000.00_14.0_in_14e113e5a0.tgz"
+				}
+			}
+		},		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "garnet_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNRIDXM": {
+					"os": "OS1.0.2.0.UNRIDXM",
+					"android": "14.0",
+					"release": "2024-04-02",
+					"recovery": "miui_GARNETIDGlobal_OS1.0.2.0.UNRIDXM_a178ff24a0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "garnet_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNRTRXM": {
+					"os": "OS1.0.2.0.UNRTRXM",
+					"android": "14.0",
+					"release": "2024-04-02",
+					"recovery": "miui_GARNETTRGlobal_OS1.0.2.0.UNRTRXM_5176f43b0c_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
