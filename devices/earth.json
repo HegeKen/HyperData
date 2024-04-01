@@ -177,6 +177,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Orange运营商定制版",
+				"en": "Xiaomi HyperOS Europe Orange Carrier Edition"
+			},
+			"branchCode": "earth_eea_or_global",
+			"idtag": "EUOR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UCVEUOR": {
+					"os": "OS1.0.1.0.UCVEUOR",
+					"android": "14.0",
+					"release": "2024-04-01",
+					"recovery": "miui_EARTHEEAORGlobal_OS1.0.1.0.UCVEUOR_fbc7547b4a_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲Vodafone运营商定制版",
 				"en": "Xiaomi HyperOS Europe Vodafone Carrier Edition"
 			},
@@ -263,7 +286,7 @@
 					"android": "14.0",
 					"release": "2024-03-18",
 					"recovery": "miui_EARTHINGlobal_OS1.0.3.0.UCVINXM_56e9f15fb1_14.0.zip",
-					"fastboot": ""
+					"fastboot": "earth_in_global_images_OS1.0.3.0.UCVINXM_20240228.0000.00_14.0_in_201b055a22.tgz"
 				},
 				"OS1.0.2.0.UCVINXM": {
 					"os": "OS1.0.2.0.UCVINXM",

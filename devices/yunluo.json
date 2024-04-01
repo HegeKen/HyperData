@@ -90,6 +90,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.ULYMIXM": {
+					"os": "OS1.0.2.0.ULYMIXM",
+					"android": "14.0",
+					"release": "2024-04-01",
+					"recovery": "miui_YUNLUOGlobal_OS1.0.2.0.ULYMIXM_5f7f0c202a_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.1.0.ULYMIXM": {
 					"os": "OS1.0.1.0.ULYMIXM",
 					"android": "14.0",
@@ -141,7 +148,7 @@
 					"android": "14.0",
 					"release": "2024-03-22",
 					"recovery": "miui_YUNLUORUGlobal_OS1.0.1.0.ULYRUXM_3fcb6d158f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "yunluo_ru_global_images_OS1.0.1.0.ULYRUXM_20240301.0000.00_14.0_ru_91decad00a.tgz"
 				}
 			}
 		},
@@ -165,6 +172,29 @@
 					"release": "2024-02-23",
 					"recovery": "miui_YUNLUOINGlobal_OS1.0.1.0.ULYINXM_cf81adb252_14.0.zip",
 					"fastboot": "yunluo_in_global_images_OS1.0.1.0.ULYINXM_20240126.0000.00_14.0_in_f1e475ee4c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "yunluo_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULYIDXM": {
+					"os": "OS1.0.1.0.ULYIDXM",
+					"android": "14.0",
+					"release": "2024-04-01",
+					"recovery": "miui_YUNLUOIDGlobal_OS1.0.1.0.ULYIDXM_cc72bebcf0_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
