@@ -75,6 +75,29 @@
 					"fastboot": "veux_images_OS1.0.1.0.TKCCNXM_20240220.0000.00_13.0_cn_chinamobile_c2c9056747.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "veux_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TKCMIXM": {
+					"os": "OS1.0.3.0.TKCMIXM",
+					"android": "13.0",
+					"release": "2024-04-02",
+					"recovery": "miui_VEUXGlobal_OS1.0.3.0.TKCMIXM_ea9825b6d4_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
