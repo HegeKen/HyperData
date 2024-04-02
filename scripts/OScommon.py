@@ -130,6 +130,8 @@ flags = {
 	"MANETEPSTDEE":"manet",
 	"spes_in_global":"spes",
 	"SPESINGlobal":"spes",
+	"zircon_ru_global":"zircon",
+	"ZIRCONRUGlobal":"zircon",
 	"vida_id_global":"vida",
 	"VIVAIDGlobal":"vida",
 	"garnet_tr_global":"garnet",
