@@ -20,14 +20,15 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["gale", "chenfeng", "opal", "sapphire", "aurora", "emerald", "ares", "enuma","mona",
-								 "houji", "nabu", "elish", "spesn", "spes", "viva", "vida", "veux", "zijin", "shennong_t", 
-								 "evergo",  "sheng", "ziyi", "cetus" ,"lisa", "pissarro", "agate", "aristotle", "babylon",
-								 "corot","cupid", "dagu", "daumier", "diting", "duchamp", "earth", "fire", "fuxi", "garnet", "gold",
-								 "ingres", "ishtar", "light", "lightcm", "liuqin", "manet", "marble", "matisse", "mayfly",
-								 "mondrian", "moonstone", "nuwa", "pipa", "plato", "psyche","redwood", "rock", "rubens", "ruby", "sea",
-								 "shennong", "sky", "socrates", "sunstone", "sweet_k6a","taoyao", "tapas", "thor", "topaz", "unicorn",
-								 "vermeer", "xun", "yudi", "yuechu", "yunluo", "zeus", "zircon", "zizhan"]
+currentStable = ["agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
+								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
+								 "fleur", "fuxi", "gale", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm", "lisa", 
+								 "liuqin", "manet", "marble", "matisse", "mayfly", "mona", "mondrian", "moonstone", "nabu", "nuwa", 
+								 "opal", "pipa", "pissarro", "plato", "psyche", "redwood", "rock", "rubens", "ruby", 
+								 "sapphire", "sea", "sheng", "shennong_t", "shennong", "sky", "socrates", "spes", "spesn", 
+								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
+								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
+
 newDevices = ["peridot", "chenfeng", "dizi", "goku", "ruan", "ruyi", "houji", "shennong", "aurora", "sheng", 
 			  "duchamp", "vermeer", "manet"]
 
@@ -61,6 +62,9 @@ flags = {
 	"nabu_global":"nabu",
 	"NABUGlobal":"nabu",
 	"FLEUREEAGlobal":"fleur",
+	"fleur_in_global":"fleur",
+	"FLEURINGlobal":"fleur",
+	"fleur_eea_global":"fleur",
 	"ZIRCONEEAGlobal":"zircon",
 	"zircon_eea_global":"zircon",
 	"spesn_eea_global":"spesn",
