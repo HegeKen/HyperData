@@ -79,7 +79,7 @@
 					"android": "14.0",
 					"release": "2024-03-21",
 					"recovery": "miui_ZIRCONGlobal_OS1.0.1.0.UNOMIXM_57498ca87c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zircon_global_images_OS1.0.1.0.UNOMIXM_20240304.0000.00_14.0_global_706513fb7a.tgz"
 				}
 			}
 		},
@@ -102,7 +102,7 @@
 					"android": "14.0",
 					"release": "2024-03-21",
 					"recovery": "miui_ZIRCONEEAGlobal_OS1.0.2.0.UNOEUXM_dd2d069c0d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zircon_eea_global_images_OS1.0.2.0.UNOEUXM_20240206.0000.00_14.0_eea_5b2ca68607.tgz"
 				}
 			}
 		},
@@ -143,6 +143,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.UNOINXM": {
+					"os": "OS1.0.4.0.UNOINXM",
+					"android": "14.0",
+					"release": "2024-04-03",
+					"recovery": "miui_ZIRCONINGlobal_OS1.0.4.0.UNOINXM_a7be268d67_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UNOINXM": {
 					"os": "OS1.0.3.0.UNOINXM",
 					"android": "14.0",
