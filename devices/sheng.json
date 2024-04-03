@@ -81,6 +81,29 @@
 					"ctelecom": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "sheng_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNXEUXM": {
+					"os": "OS1.0.1.0.UNXEUXM",
+					"android": "14.0",
+					"release": "2024-04-03",
+					"recovery": "miui_SHENGEEAGlobal_OS1.0.1.0.UNXEUXM_d68576433f_14.0.zip",
+					"fastboot": "sheng_eea_global_images_OS1.0.1.0.UNXEUXM_20240306.0000.00_14.0_eea_0051d6d79c.tgz"
+				}
+			}
 		}
 	]
 }

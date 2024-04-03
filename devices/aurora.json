@@ -259,6 +259,29 @@
 					"fastboot": "aurora_eea_global_images_OS1.0.2.0.UNAEUXM_20240224.0000.00_14.0_eea_260eb6aac8.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "aurora_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNATRXM": {
+					"os": "OS1.0.2.0.UNATRXM",
+					"android": "14.0",
+					"release": "2024-04-03",
+					"recovery": "miui_AURORATRGlobal_OS1.0.2.0.UNATRXM_ba2ba2419b_14.0.zip",
+					"fastboot": "aurora_tr_global_images_OS1.0.2.0.UNATRXM_20240308.0000.00_14.0_tr_240b9d88e2.tgz"
+				}
+			}
 		}
 	]
 }
