@@ -269,6 +269,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "aurora_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNARUXM": {
+					"os": "OS1.0.3.0.UNARUXM",
+					"android": "14.0",
+					"release": "2024-04-04",
+					"recovery": "miui_AURORARUGlobal_OS1.0.3.0.UNARUXM_54972a0864_14.0.zip",
+					"fastboot": "aurora_ru_global_images_OS1.0.3.0.UNARUXM_20240326.0000.00_14.0_ru_4236ea789c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},

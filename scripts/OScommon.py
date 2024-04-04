@@ -54,6 +54,8 @@ flags = {
 	"houji_tr_global": "houji",
 	"HOUJITRGlobal": "houji",
 	"garnet_global": "garnet",
+	"aurora_ru_global":"aurora",
+	"AURORARUGlobal":"aurora",
 	"GARNETGlobal": "garnet",
 	"fire_in_global":"fire",
 	"sweet_k6a_id_global":"sweet_k6a",
