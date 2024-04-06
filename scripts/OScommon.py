@@ -71,6 +71,8 @@ flags = {
 	"zircon_eea_global":"zircon",
 	"spesn_eea_global":"spesn",
 	"SPESNEEAGlobal":"spesn",
+	"viva_tr_global":"viva",
+	"VIVATRGlobal":"viva",
 	"spesn_eea_tf_global":"spesn",
 	"SPESNEEATFGlobal":"spesn",
 	"lisa_eea_tf_global":"lisa",
