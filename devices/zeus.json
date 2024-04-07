@@ -221,7 +221,7 @@
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_ZEUSTWGlobal_OS1.0.2.0.ULBTWXM_77eeab16bf_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zeus_tw_global_images_OS1.0.2.0.ULBTWXM_20240226.0000.00_14.0_tw_e1b888b096.tgz"
 				}
 			}
 		},
@@ -273,6 +273,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "zeus_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULBRUXM": {
+					"os": "OS1.0.2.0.ULBRUXM",
+					"android": "14.0",
+					"release": "2024-04-07",
+					"recovery": "miui_ZEUSRUGlobal_OS1.0.2.0.ULBRUXM_5006d1f7ce_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -316,6 +339,29 @@
 					"fastboot": "zeus_id_global_images_OS1.0.2.0.ULBIDXM_20240226.0000.00_14.0_id_4bc1f1770e.tgz"
 				}
 			}
-		}	
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "zeus_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULBTRXM": {
+					"os": "OS1.0.2.0.ULBTRXM",
+					"android": "14.0",
+					"release": "2024-04-07",
+					"recovery": "miui_ZEUSTRGlobal_OS1.0.2.0.ULBTRXM_669d6f2e5d_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
 	]
 }

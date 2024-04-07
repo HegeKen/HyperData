@@ -9,6 +9,29 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "agate_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKWTWXM": {
+					"os": "OS1.0.2.0.UKWTWXM",
+					"android": "14.0",
+					"release": "2024-04-07",
+					"recovery": "miui_AGATETWGlobal_OS1.0.2.0.UKWTWXM_8885cf5cc7_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -21,6 +44,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.UKWMIXM": {
+					"os": "OS1.0.4.0.UKWMIXM",
+					"android": "14.0",
+					"release": "2024-04-07",
+					"recovery": "miui_AGATEGlobal_OS1.0.4.0.UKWMIXM_86cb23ca40_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UKWMIXM": {
 					"os": "OS1.0.3.0.UKWMIXM",
 					"android": "14.0",
@@ -218,6 +248,52 @@
 					"release": "2024-02-02",
 					"recovery": "miui_AGATERUGlobal_OS1.0.2.0.UKWRUXM_cd75580137_14.0.zip",
 					"fastboot": "agate_ru_global_images_OS1.0.2.0.UKWRUXM_20240122.0000.00_14.0_ru_9a7f1ea9a6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonisia Stable"
+			},
+			"branchCode": "agate_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKWIDXM": {
+					"os": "OS1.0.2.0.UKWIDXM",
+					"android": "14.0",
+					"release": "2024-04-07",
+					"recovery": "miui_AGATEIDGlobal_OS1.0.2.0.UKWIDXM_717f0fa73d_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "agate_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKWTRXM": {
+					"os": "OS1.0.2.0.UKWTRXM",
+					"android": "14.0",
+					"release": "2024-04-07",
+					"recovery": "miui_AGATETRGlobal_OS1.0.2.0.UKWTRXM_eac656e379_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

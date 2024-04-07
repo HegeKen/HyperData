@@ -82,6 +82,29 @@
 					"fastboot": "psyche_global_images_OS1.0.1.0.TLDMIXM_20240219.0000.00_13.0_global_ac69b18354.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "psyche_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TLDRUXM": {
+					"os": "OS1.0.1.0.TLDRUXM",
+					"android": "13.0",
+					"release": "2024-04-07",
+					"recovery": "miui_PSYCHERUGlobal_OS1.0.1.0.TLDRUXM_61487d03ed_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

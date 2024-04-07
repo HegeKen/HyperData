@@ -52,6 +52,52 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "opal_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGLEUXM": {
+					"os": "OS1.0.1.0.TGLEUXM",
+					"android": "14.0",
+					"release": "2024-04-06",
+					"recovery": "miui_OPALEEAGlobal_OS1.0.1.0.TGLEUXM_04fd0aecba_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "opal_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGLRUXM": {
+					"os": "OS1.0.1.0.TGLRUXM",
+					"android": "13.0",
+					"release": "2024-04-07",
+					"recovery": "miui_OPALRUGlobal_OS1.0.1.0.TGLRUXM_c88d472bb3_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
