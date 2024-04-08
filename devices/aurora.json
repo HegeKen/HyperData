@@ -292,6 +292,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "aurora_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNAINXM": {
+					"os": "OS1.0.3.0.UNAINXM",
+					"android": "14.0",
+					"release": "2024-04-08",
+					"recovery": "miui_AURORAINGlobal_OS1.0.3.0.UNAINXM_5fb544e967_14.0.zip",
+					"fastboot": "aurora_in_global_images_OS1.0.3.0.UNAINXM_20240326.0000.00_14.0_in_267a4fbd73.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
