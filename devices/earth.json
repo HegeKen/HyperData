@@ -131,6 +131,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲ThreeHK运营商定制版",
+				"en": "Xiaomi HyperOS Europe ThreeHK Carrier Edition"
+			},
+			"branchCode": "earth_eea_hg_global",
+			"idtag": "EUHG",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UCVEUHG": {
+					"os": "OS1.0.1.0.UCVEUHG",
+					"android": "14.0",
+					"release": "2024-04-08",
+					"recovery": "miui_EARTHEEAHGGlobal_OS1.0.1.0.UCVEUHG_842284c5a5_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲Bouygues Telecom运营商定制版",
 				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
 			},

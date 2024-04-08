@@ -62,6 +62,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "zircon_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNOTWXM": {
+					"os": "OS1.0.1.0.UNOTWXM",
+					"android": "14.0",
+					"release": "2024-04-08",
+					"recovery": "miui_ZIRCONTWGlobal_OS1.0.1.0.UNOTWXM_024b1251ea_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
