@@ -52,6 +52,29 @@
 					"fastboot": "ares_images_OS1.0.2.0.TKJCNXM_20240226.0000.00_13.0_cn_chinatelecom_98cb294630.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "ares_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKJINXM": {
+					"os": "OS1.0.2.0.TKJINXM",
+					"android": "13.0",
+					"release": "2024-04-08",
+					"recovery": "miui_ARESINGlobal_OS1.0.2.0.TKJINXM_b0c0791cac_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
