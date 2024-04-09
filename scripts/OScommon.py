@@ -20,7 +20,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["peridot", "rembrandt", "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
+currentStable = ["peridot", "rembrandt", "pearl",
+								 "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
 								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
 								 "fleur", "fuxi", "gale", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm", "lisa", 
 								 "liuqin", "manet", "marble", "matisse", "mayfly", "mona", "mondrian", "moonstone", "nabu", "nuwa", 
@@ -70,6 +71,8 @@ flags = {
 	"AGATETWGlobal":"agate",
 	"agate_id_global":"agate",
 	"AGATEIDGlobal":"agate",
+	"pearl":"pearl",
+	"PEARL":"pearl",
 	"pissarro_in_global":"pissarro",
 	"PISSARROINGlobal":"pissarro",
 	"ares_in_global":"ares",
