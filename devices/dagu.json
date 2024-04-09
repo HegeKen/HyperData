@@ -143,6 +143,30 @@
 					"fastboot": "dagu_images_OS1.0.1.0.ULZCNXM_20240122.0000.00_14.0_cn_c006de1ea7.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "dagu_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.3.25.EP.STDEE.L81A": {
+					"os": "OS1.0.24.3.25.EP.STDEE.L81A",
+					"android": "14.0",
+					"release": "2024-04-09",
+					"recovery": "miui_DAGUEPSTDEE_OS1.0.24.3.25.EP.STDEE.L81A_830a671983_14.0.zip",
+					"fastboot": "dagu_ep_stdee_images_OS1.0.24.3.25.EP.STDEE.L81A_20240325.0000.00_14.0_cn_3c990fc22c.tgz",
+					"ctelecom": ""
+				}
+			}
 		}
 	]
 }
