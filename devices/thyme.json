@@ -1,0 +1,34 @@
+{
+	"device": "thyme",
+	"name": {
+		"zh": "小米 10S",
+		"en": "Mi 10S"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "thyme",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGACNXM": {
+					"os": "OS1.0.1.0.TGACNXM",
+					"android": "13.0",
+					"release": "2024-04-09",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

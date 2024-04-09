@@ -1,0 +1,34 @@
+{
+	"device": "haydn",
+	"name": {
+		"zh": "Redmi K40 Pro/Pro+ / 小米 11i / 小米 11X Pro",
+		"en": "Redmi K40 Pro/Pro+/ Mi 11i / Mi 11X Pro"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "haydn",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKKCNXM": {
+					"os": "OS1.0.1.0.UKKCNXM",
+					"android": "14.0",
+					"release": "2024-04-09",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

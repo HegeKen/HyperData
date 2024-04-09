@@ -1,0 +1,34 @@
+{
+	"device": "air",
+	"name": {
+		"zh": "Redmi 13C/R 5G / POCO M6 5G",
+		"en": "Redmi 13C/R 5G / POCO M6 5G"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "air",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UGQCNXM": {
+					"os": "OS1.0.1.0.UGQCNXM",
+					"android": "14.0",
+					"release": "2024-04-09",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

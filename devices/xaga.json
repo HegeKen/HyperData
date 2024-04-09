@@ -1,0 +1,34 @@
+{
+	"device": "xaga",
+	"name": {
+		"zh": "Redmi Note 11T Pro/Pro+ / Redmi K50i / POCO X4 GT",
+		"en": "Redmi Note 11T Pro/Pro+ / Redmi K50i / POCO X4 GT"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "xaga",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULOCNXM": {
+					"os": "OS1.0.1.0.ULOCNXM",
+					"android": "14.0",
+					"release": "2024-04-09",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

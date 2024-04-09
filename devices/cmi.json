@@ -1,0 +1,34 @@
+{
+	"device": "cmi",
+	"name": {
+		"zh": "小米 10 Pro",
+		"en": "Mi 10 Pro"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "cmi",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TJACNXM": {
+					"os": "OS1.0.1.0.TJACNXM",
+					"android": "13.0",
+					"release": "2024-04-09",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
