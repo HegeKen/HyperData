@@ -1,0 +1,34 @@
+{
+        "device": "pearl",
+        "name": {
+                "zh": "Redmi Note 12T Pro",
+                "en": "Redmi Note 12T Pro"
+        },
+        "type": "phone",
+        "miui": "yes",
+        "branches": [
+                {
+                        "name": {
+                                "zh": "小米澎湃 OS 正式版",
+                                "en": "Xiaomi HyperOS Stable"
+                        },
+                        "branchCode": "pearl",
+                        "idtag": "CnOO",
+                        "branchtag": "F",
+                        "show": "1",
+                        "carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+                        "region": "cn",
+                        "zone": "1",
+                        "ep": "0",
+                        "roms": {
+                                "OS1.0.1.0.ULHCNXM": {
+                                        "os": "OS1.0.1.0.ULHCNXM",
+                                        "android": "14.0",
+                                        "release": "2024-04-09",
+                                        "recovery": "miui_PEARL_OS1.0.1.0.ULHCNXM_bbacc31521_14.0.zip",
+                                        "fastboot": ""
+                                }
+                        }
+                }
+        ]
+}
