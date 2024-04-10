@@ -148,7 +148,7 @@
 					"android": "14.0",
 					"release": "2024-04-02",
 					"recovery": "miui_ZIRCONRUGlobal_OS1.0.1.0.UNORUXM_4fb7bec4cc_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zircon_ru_global_images_OS1.0.1.0.UNORUXM_20240318.0000.00_14.0_ru_bff0875221.tgz"
 				}
 			}
 		},
@@ -202,6 +202,29 @@
 					"release": "2024-03-21",
 					"recovery": "miui_ZIRCONIDGlobal_OS1.0.1.0.UNOIDXM_c06ec2fe3f_14.0.zip",
 					"fastboot": "zircon_id_global_images_OS1.0.1.0.UNOIDXM_20240304.0000.00_14.0_id_c3f6545b23.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "zircon_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNOTRXM": {
+					"os": "OS1.0.1.0.UNOTRXM",
+					"android": "14.0",
+					"release": "2024-04-10",
+					"recovery": "miui_ZIRCONTRGlobal_OS1.0.1.0.UNOTRXM_b7e1a2b2f5_14.0.zip",
+					"fastboot": "zircon_tr_global_images_OS1.0.1.0.UNOTRXM_20240318.0000.00_14.0_tr_a31323dbd7.tgz"
 				}
 			}
 		}

@@ -75,6 +75,52 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "evergreen_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGBRUXM": {
+					"os": "OS1.0.1.0.TGBRUXM",
+					"android": "13.0",
+					"release": "2024-04-10",
+					"recovery": "miui_EVERGREENRUGlobal_OS1.0.1.0.TGBRUXM_6c961203aa_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "evergreen_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGBTRXM": {
+					"os": "OS1.0.1.0.TGBTRXM",
+					"android": "14.0",
+					"release": "2024-04-10",
+					"recovery": "miui_EVERGREENTRGlobal_OS1.0.1.0.TGBTRXM_63803823e1_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
