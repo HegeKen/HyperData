@@ -21,12 +21,19 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UNPCNXM": {
+					"os": "OS1.0.6.0.UNPCNXM",
+					"android": "14.0",
+					"release": "2024-04-10",
+					"recovery": "",
+					"fastboot": "peridot_images_OS1.0.6.0.UNPCNXM_20240408.0000.00_14.0_cn_41e5b4c351.tgz"
+				},
 				"OS1.0.3.0.UNPCNXM": {
 					"os": "OS1.0.3.0.UNPCNXM",
 					"android": "14.0",
 					"release": "2024-04-10",
-					"recovery": "",
-					"fastboot": ""
+					"recovery": "miui_PERIDOT_OS1.0.3.0.UNPCNXM_869ce62884_14.0.zip",
+					"fastboot": "peridot_images_OS1.0.3.0.UNPCNXM_20240327.0000.00_14.0_cn_e9bd255d1d.tgz"
 				}
 			}
 		},
@@ -44,11 +51,18 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UNPCNXM": {
+					"os": "OS1.0.6.0.UNPCNXM",
+					"android": "14.0",
+					"release": "2024-04-10",
+					"recovery": "",
+					"fastboot": "peridot_images_OS1.0.6.0.UNPCNXM_20240408.0000.00_14.0_cn_chinatelecom_c521d4b666.tgz"
+				},
 				"OS1.0.3.0.UNPCNXM": {
 					"os": "OS1.0.3.0.UNPCNXM",
 					"android": "14.0",
 					"release": "2024-04-10",
-					"recovery": "",
+					"recovery": "miui_PERIDOT_OS1.0.3.0.UNPCNXM_869ce62884_14.0.zip",
 					"fastboot": "peridot_images_OS1.0.3.0.UNPCNXM_20240327.0000.00_14.0_cn_chinatelecom_d5de5b11f3.tgz"
 				}
 			}
@@ -67,13 +81,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS1.0.1.UNPCNDM": {
-					"os": "OS1.0.1.UNPCNDM",
+				"OS1.0.4.0.UNPCNDM": {
+					"os": "OS1.0.4.0.UNPCNDM",
 					"android": "14.0",
-					"release": "",
+					"release": "2024-04-10",
 					"recovery": "",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "peridot_demo_images_OS1.0.4.0.UNPCNDM_20240408.0000.00_14.0_cn_dded35fc8d.tgz",
+					"ctelecom": "peridot_demo_images_OS1.0.4.0.UNPCNDM_20240408.0000.00_14.0_cn_chinatelecom_2a5f9a4bc6.tgz"
 				}
 			}
 		}
