@@ -15,18 +15,41 @@
 			"branchCode": "peridot",
 			"idtag": "CnOO",
 			"branchtag": "F",
-			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"show": "0",
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS1.0.1.UNPCNXM": {
-					"os": "OS1.0.1.UNPCNXM",
+				"OS1.0.3.0.UNPCNXM": {
+					"os": "OS1.0.3.0.UNPCNXM",
 					"android": "14.0",
 					"release": "2024-04-10",
 					"recovery": "",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "peridot",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNPCNXM": {
+					"os": "OS1.0.3.0.UNPCNXM",
+					"android": "14.0",
+					"release": "2024-04-10",
+					"recovery": "",
+					"fastboot": "peridot_images_OS1.0.3.0.UNPCNXM_20240327.0000.00_14.0_cn_chinatelecom_d5de5b11f3.tgz"
 				}
 			}
 		},
