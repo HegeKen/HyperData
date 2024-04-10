@@ -98,6 +98,29 @@
 					"fastboot": "ziyi_eea_global_images_OS1.0.4.0.ULLEUXM_20240313.0000.00_14.0_eea_415e7201dc.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "ziyi_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.ULLRUXM": {
+					"os": "OS1.0.4.0.ULLRUXM",
+					"android": "14.0",
+					"release": "2024-04-10",
+					"recovery": "miui_ZIYIRUGlobal_OS1.0.4.0.ULLRUXM_a07cbdcf16_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

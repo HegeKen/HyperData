@@ -1,8 +1,8 @@
 {
 	"device": "ruan",
 	"name": {
-		"zh": "小米平板 7 Pro",
-		"en": "Xiaomi Pad 7 Pro"
+		"zh": "Redmi Pad Pro 5G",
+		"en": "Redmi Pad Pro 5G"
 	},
 	"type": "tablet",
 	"miui": "no",
@@ -27,6 +27,30 @@
 					"release": "",
 					"recovery": "",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "ruan_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		}

@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["peridot", "rembrandt", 
+currentStable = ["ruan", "dizi", "peridot", "rembrandt", 
 								 "pearl", "star", "venus", "alioth", "munch", "haydn", "xaga", "thyme", "cas", "umi", "cmi",
 								 "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
 								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
@@ -68,6 +68,12 @@ flags = {
 	"OPALEEAGlobal":"opal",
 	"dagu_ep_stdee":"dagu",
 	"DAGUEPSTDEE":"dagu",
+	"dizi_demo":"dizi",
+	"DIZIDEMO":"dizi",
+	"ziyi_ru_global":"ziyi",
+	"ZIYIRUGlobal":"ziyi",
+	"ruan_demo":"ruan",
+	"RUANDEMO":"ruan",
 	"emerald_id_global":"emerald",
 	"EMERALDIDGlobal":"emerald",
 	"nabu_in_global":"nabu",

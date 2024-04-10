@@ -1,8 +1,8 @@
 {
 	"device": "dizi",
 	"name": {
-		"zh": "小米平板 7",
-		"en": "Xiaomi Pad 7"
+		"zh": "Redmi Pad Pro / 哈利·波特版",
+		"en": "Redmi Pad Pro / Special Edition featuring Harry Potter"
 	},
 	"type": "tablet",
 	"miui": "no",
@@ -15,18 +15,42 @@
 			"branchCode": "dizi",
 			"idtag": "CnOO",
 			"branchtag": "F",
-			"show": "1",
+			"show": "0",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"": {
-					"os": "",
+				"OS1.0.3.0.UNSCNXM": {
+					"os": "OS1.0.3.0.UNSCNXM",
 					"android": "14.0",
-					"release": "",
+					"release": "2024-04-10",
 					"recovery": "",
-					"fastboot": ""
+					"fastboot": "dizi_images_OS1.0.3.0.UNSCNXM_20240406.0000.00_14.0_cn_6bee913e04.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "dizi_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNSCNDM": {
+					"os": "OS1.0.4.0.UNSCNDM",
+					"android": "14.0",
+					"release": "2024-04-10",
+					"recovery": "miui_DIZIDEMO_OS1.0.4.0.UNSCNDM_12efe567ea_14.0.zip",
+					"fastboot": "dizi_demo_images_OS1.0.4.0.UNSCNDM_20240405.0000.00_14.0_cn_c698536064.tgz",
+					"ctelecom": ""
 				}
 			}
 		}
