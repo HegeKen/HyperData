@@ -75,6 +75,52 @@
 					"fastboot": "nabu_global_images_OS1.0.1.0.TKXMIXM_20240305.0000.00_13.0_global_f1ef94a3c2.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "nabu_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKXEUXM": {
+					"os": "OS1.0.1.0.TKXEUXM",
+					"android": "13.0",
+					"release": "2024-04-10",
+					"recovery": "miui_NABUEEAGlobal_OS1.0.1.0.TKXEUXM_3c8ef12514_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "nabu_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.TKXINXM": {
+					"os": "OS1.0.4.0.TKXINXM",
+					"android": "13.0",
+					"release": "2024-04-10",
+					"recovery": "miui_NABUINGlobal_OS1.0.4.0.TKXINXM_1ebb6aa52d_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
