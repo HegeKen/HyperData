@@ -55,6 +55,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "fleur_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKERUXM": {
+					"os": "OS1.0.1.0.TKERUXM",
+					"android": "13.0",
+					"release": "2024-04-11",
+					"recovery": "miui_FLEURRUGlobal_OS1.0.1.0.TKERUXM_8972de4c8f_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -72,6 +95,29 @@
 					"android": "13.0",
 					"release": "2024-04-02",
 					"recovery": "miui_FLEURINGlobal_OS1.0.2.0.TKEINXM_f8f80a48fb_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "fleur_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKETRXM": {
+					"os": "OS1.0.1.0.TKETRXM",
+					"android": "13.0",
+					"release": "2024-04-11",
+					"recovery": "miui_FLEURTRGlobal_OS1.0.1.0.TKETRXM_6027cb7d41_13.0.zip",
 					"fastboot": ""
 				}
 			}
