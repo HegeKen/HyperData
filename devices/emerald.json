@@ -32,6 +32,52 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "emerald_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNFEUXM": {
+					"os": "OS1.0.1.0.UNFEUXM",
+					"android": "14.0",
+					"release": "2024-04-12",
+					"recovery": "miui_EMERALDEEAGlobal_OS1.0.1.0.UNFEUXM_1085ee4a08_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "emerald_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNFRUXM": {
+					"os": "OS1.0.1.0.UNFRUXM",
+					"android": "14.0",
+					"release": "2024-04-12",
+					"recovery": "miui_EMERALDRUGlobal_OS1.0.1.0.UNFRUXM_7a15ac57f3_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonisia Stable"
 			},
@@ -49,6 +95,29 @@
 					"android": "14.0",
 					"release": "2024-04-10",
 					"recovery": "miui_EMERALDIDGlobal_OS1.0.1.0.UNFIDXM_91d6c19044_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "emerald_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNFTRXM": {
+					"os": "OS1.0.1.0.UNFTRXM",
+					"android": "14.0",
+					"release": "2024-04-12",
+					"recovery": "miui_EMERALDTRGlobal_OS1.0.1.0.UNFTRXM_cc7dc83793_14.0.zip",
 					"fastboot": ""
 				}
 			}
