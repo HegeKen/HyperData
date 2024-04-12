@@ -66,6 +66,8 @@ flags = {
 	"EVERGREENEEAGlobal":"evergreen",
 	"opal_eea_global":"opal",
 	"OPALEEAGlobal":"opal",
+	"sapphiren_eea_global":"sapphiren",
+	"SAPPHIRENEEAGlobal":"sapphiren",
 	"dagu_ep_stdee":"dagu",
 	"DAGUEPSTDEE":"dagu",
 	"dizi_demo":"dizi",
