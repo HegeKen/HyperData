@@ -52,6 +52,29 @@
 					"fastboot": "evergo_images_OS1.0.1.0.TGBCNXM_20240206.0000.00_13.0_cn_chinatelecom_206d4e6226.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "evergo_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGBINXM": {
+					"os": "OS1.0.1.0.TGBINXM",
+					"android": "13.0",
+					"release": "2024-04-12",
+					"recovery": "miui_EVERGOINGlobal_OS1.0.1.0.TGBINXM_64950b1fe9_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
