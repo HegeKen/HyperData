@@ -55,6 +55,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "nabu_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKXTWXM": {
+					"os": "OS1.0.2.0.TKXTWXM",
+					"android": "13.0",
+					"release": "2024-04-14",
+					"recovery": "miui_NABUTWGlobal_OS1.0.2.0.TKXTWXM_65ec6d59ce_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -101,6 +124,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "nabu_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKXRUXM": {
+					"os": "OS1.0.1.0.TKXRUXM",
+					"android": "13.0",
+					"release": "2024-04-14",
+					"recovery": "miui_NABURUGlobal_OS1.0.1.0.TKXRUXM_f78b2ca5f6_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -118,6 +164,29 @@
 					"android": "13.0",
 					"release": "2024-04-10",
 					"recovery": "miui_NABUINGlobal_OS1.0.4.0.TKXINXM_1ebb6aa52d_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "nabu_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKXTRXM": {
+					"os": "OS1.0.2.0.TKXTRXM",
+					"android": "13.0",
+					"release": "2024-04-14",
+					"recovery": "miui_NABUTRGlobal_OS1.0.2.0.TKXTRXM_2b2554c67e_13.0.zip",
 					"fastboot": ""
 				}
 			}
