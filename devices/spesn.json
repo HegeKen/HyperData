@@ -49,7 +49,7 @@
 					"android": "13.0",
 					"release": "2024-03-29",
 					"recovery": "miui_SPESNEEAGlobal_OS1.0.1.0.TGKEUXM_8dd4246ed7_13.0.zip",
-					"fastboot": ""
+					"fastboot": "spesn_eea_global_images_OS1.0.1.0.TGKEUXM_20240312.0000.00_13.0_eea_b47bd6c2c4.tgz"
 				}
 			}
 		},
@@ -72,6 +72,29 @@
 					"android": "13.0",
 					"release": "2024-03-26",
 					"recovery": "miui_SPESNEEATFGlobal_OS1.0.1.0.TGKEUTF_18cd53b3da_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "spesn_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGKIDXM": {
+					"os": "OS1.0.1.0.TGKIDXM",
+					"android": "13.0",
+					"release": "2024-04-15",
+					"recovery": "miui_SPESNIDGlobal_OS1.0.1.0.TGKIDXM_7e15109d2c_13.0.zip",
 					"fastboot": ""
 				}
 			}
