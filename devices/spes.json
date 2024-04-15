@@ -52,6 +52,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "spes_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGCTRXM": {
+					"os": "OS1.0.1.0.TGCTRXM",
+					"android": "13.0",
+					"release": "2024-04-15",
+					"recovery": "miui_SPESTRGlobal_OS1.0.1.0.TGCTRXM_78779da4b4_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

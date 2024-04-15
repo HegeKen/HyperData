@@ -78,6 +78,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "lisa_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UKOTWXM": {
+					"os": "OS1.0.3.0.UKOTWXM",
+					"android": "14.0",
+					"release": "2024-04-15",
+					"recovery": "miui_LISATWGlobal_OS1.0.3.0.UKOTWXM_31f0324322_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -194,6 +217,29 @@
 					"android": "14.0",
 					"release": "2024-04-02",
 					"recovery": "miui_LISAEEATIGlobal_OS1.0.3.0.UKOEUTI_96d95b214b_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "lisa_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UKORUXM": {
+					"os": "OS1.0.3.0.UKORUXM",
+					"android": "14.0",
+					"release": "2024-04-15",
+					"recovery": "miui_LISARUGlobal_OS1.0.3.0.UKORUXM_f4701a3a11_14.0.zip",
 					"fastboot": ""
 				}
 			}
