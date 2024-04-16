@@ -5,12 +5,12 @@
 		"en": "DEV for week 637 (HyperOS DEV released for various devices)"
 	},
 	"postId": "46086604",
-	"update": "2024.04.14 20:13:11",
-	"versions": "OS1.0.24.4.8.DEV",
+	"update": "2024.04.16 22:42:18",
+	"versions": "OS1.0.24.4.8.DEV, OS1.0.24.4.15.DEV",
 	"description": [
 		{
-			"zh":"由于正在排查部分场景信号弱的问题，Xiaomi 14 Pro、Xiaomi 14 开发版本周已暂停发布。",
-			"en":"Due to a signal strength issue in some scenarios, the DEV for Xiaomi 14 Pro、Xiaomi 14 is paused for this week."
+			"zh":" Xiaomi 14 Pro、Xiaomi 14 开发版已发布修复版本，欢迎大家升级至最新版本体验。",
+			"en":"Fix for Xiaomi 14 Pro、Xiaomi 14 China DEV has rolled out, please update to the latest version for better experience."
 		},
 		{
 			"zh": "小米 12、小米 12 Pro、小米 12 Pro 天玑版、小米 12S、小米 12S Pro、小米 12S Ultra、小米 13、小米 13 Pro、小米 13 Ultra、小米 14、小米 14 Pro / Ti、小米 MIX Fold 3、小米 MIX Fold 2、小米平板5 Pro 12.4、Redmi K50、Redmi K50 Pro、Redmi K50 至尊版、Redmi K50 电竞版、Redmi K60、Redmi K60 Pro的小米澎湃OS开发版，将于今天24点前推送完毕，欢迎大家升级至最新版本体验",
@@ -41,6 +41,10 @@
 				{
 					"zh": "优化自动亮度手动调节体验(适配机型：Redmi K60)",
 					"en": "Optimizing auto brightness manual adjustment experience (Fix for Redmi K60)"
+				},
+				{
+					"zh": "修复部分场景下信号差无服务的问题（适配机型：Xiaomi 14 Pro、Xiaomi 14）",
+					"en": "Fixed the issue of low signal in some scenarios (Fix for Xiaomi 14 Pro、Xiaomi 14)"
 				}
 			]
 		}
@@ -170,6 +174,34 @@
 				"android": "14.0",
 				"release": "2024-04-12",
 				"recovery": "miui_ISHTAR_OS1.0.24.4.8.DEV_ceef45ecad_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "houji",
+			"name": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
+			"rom": {
+				"os": "OS1.0.24.4.15.DEV",
+				"android": "14.0",
+				"release": "2024-04-16",
+				"recovery": "miui_HOUJI_OS1.0.24.4.15.DEV_4cad0bf2da_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "shennong",
+			"name": {
+				"zh": "小米 14 Pro / Ti",
+				"en": "Xiaomi 14 Pro / Ti"
+			},
+			"rom": {
+				"os": "OS1.0.24.4.15.DEV",
+				"android": "14.0",
+				"release": "2024-04-16",
+				"recovery": "miui_SHENNONG_OS1.0.24.4.15.DEV_91fd439db2_14.0.zip",
 				"fastboot": ""
 			}
 		},
