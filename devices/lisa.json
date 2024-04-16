@@ -154,6 +154,75 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Orange运营商定制版",
+				"en": "Xiaomi HyperOS Europe Orange Carrier Edition"
+			},
+			"branchCode": "lisa_eea_or_global",
+			"idtag": "EUOR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UKOEUOR": {
+					"os": "OS1.0.3.0.UKOEUOR",
+					"android": "14.0",
+					"release": "2024-04-16",
+					"recovery": "miui_LISAEEAORGlobal_OS1.0.3.0.UKOEUOR_3fc6bfda8b_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Vodafone运营商定制版",
+				"en": "Xiaomi HyperOS Europe Vodafone Carrier Edition"
+			},
+			"branchCode": "lisa_eea_vf_global",
+			"idtag": "EUVF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UKOEUVF": {
+					"os": "OS1.0.3.0.UKOEUVF",
+					"android": "14.0",
+					"release": "2024-04-16",
+					"recovery": "miui_LISAEEAVFGlobal_OS1.0.3.0.UKOEUVF_af19197e19_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Bouygues Telecom运营商定制版",
+				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
+			},
+			"branchCode": "lisa_eea_by_global",
+			"idtag": "EUBY",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKOEUBY": {
+					"os": "OS1.0.2.0.UKOEUBY",
+					"android": "14.0",
+					"release": "2024-04-16",
+					"recovery": "miui_LISAEEABYGlobal_OS1.0.2.0.UKOEUBY_f6c2731584_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲ThreeHK运营商定制版",
 				"en": "Xiaomi HyperOS Europe ThreeHK Carrier Edition"
 			},

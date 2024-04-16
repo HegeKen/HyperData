@@ -368,6 +368,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 南非Vodacom运营商定制版",
+				"en": "Xiaomi HyperOS South Africa Vodacom Carrier Edtion"
+			},
+			"branchCode": "earth_za_vc_global",
+			"idtag": "ZAVC",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UCVZAVC": {
+					"os": "OS1.0.1.0.UCVZAVC",
+					"android": "14.0",
+					"release": "2024-04-16",
+					"recovery": "miui_EARTHZAVCGlobal_OS1.0.1.0.UCVZAVC_9531f12667_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
 				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
 			},
