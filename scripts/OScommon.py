@@ -78,6 +78,8 @@ flags = {
 	"LISATRGlobal":"lisa",
 	"lisa_in_global":"lisa",
 	"LISAINGlobal":"lisa",
+	"fleur_id_global":"fleur",
+	"FLEURIDGlobal":"fleur",
 	"evergo_in_global":"evergo",
 	"EVERGOINGlobal":"evergo",
 	"nabu_tr_global":"nabu",
