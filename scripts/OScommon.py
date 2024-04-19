@@ -31,7 +31,7 @@ currentStable = ["ruan", "dizi", "peridot", "rembrandt",
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-newDevices = ["peridot", "chenfeng", "dizi", "goku", "ruan", "ruyi", "houji", "shennong", "aurora", "sheng", 
+newDevices = ["degas", "rothko", "tides", "moon", "peridot", "chenfeng", "dizi", "goku", "ruan", "ruyi", "houji", "shennong", "aurora", "sheng", 
 			  "duchamp", "vermeer", "manet"]
 
 onedevices = ["blue"]
@@ -72,6 +72,8 @@ flags = {
 	"LISAEEAVFGlobal":"lisa",
 	"lisa_eea_by_global":"lisa",
 	"LISAEEABYGlobal":"lisa",
+	"sunstone_ep_stdee": "sunstone",
+	"SUNSTONEEPSTDEE":"sunstone",
 	"evergo_in_global":"evergo",
 	"EVERGOINGlobal":"evergo",
 	"nabu_tr_global":"nabu",

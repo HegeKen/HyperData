@@ -55,6 +55,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "sunstone_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.4.12.EP.STDEE.M17": {
+					"os": "OS1.0.24.4.12.EP.STDEE.M17",
+					"android": "14.0",
+					"release": "2024-04-18",
+					"recovery": "miui_SUNSTONEEPSTDEE_OS1.0.24.4.12.EP.STDEE.M17_933623ca9a_14.0.zip",
+					"fastboot": "sunstone_ep_stdee_images_OS1.0.24.4.12.EP.STDEE.M17_20240412.0000.00_14.0_cn_1aa38d10dd.tgz",
+					"ctelecom": "sunstone_ep_stdee_images_OS1.0.24.4.12.EP.STDEE.M17_20240412.0000.00_14.0_cn_chinatelecom_db42b5541a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾地区正式版",
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},
@@ -90,6 +114,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.UMQMIXM": {
+					"os": "OS1.0.4.0.UMQMIXM",
+					"android": "14.0",
+					"release": "2024-04-19",
+					"recovery": "miui_SUNSTONEGlobal_OS1.0.4.0.UMQMIXM_fec8dcde2d_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.2.0.UMQMIXM": {
 					"os": "OS1.0.2.0.UMQMIXM",
 					"android": "14.0",
