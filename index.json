@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.04.19 11:11:16",
+		"time": "2024.04.19 17:01:29",
 		"roms": [
 			{
 				"code": "umi",
@@ -56,7 +56,7 @@
 					"zh": "小米 11 青春活力版",
 					"en": "Mi 11 LE/Xiaomi 11 Lite 5G NE"
 				},
-				"rom": "OS1.0.3.0.UKOTWXM; OS1.0.3.0.UKOEUOR; OS1.0.3.0.UKOEUVF; OS1.0.2.0.UKOEUBY; OS1.0.3.0.UKORUXM"
+				"rom": "OS1.0.3.0.UKOTWXM; OS1.0.3.0.UKOEUOR; OS1.0.3.0.UKOEUVF; OS1.0.2.0.UKOEUBY; OS1.0.3.0.UKORUXM; OS1.0.3.0.UKOINXM; OS1.0.3.0.UKOTRXM"
 			},
 			{
 				"code": "cupid",
@@ -65,6 +65,14 @@
 					"en": "Xiaomi 12"
 				},
 				"rom": "OS1.0.7.0.ULCEUXM"
+			},
+			{
+				"code": "zeus",
+				"name": {
+					"zh": "小米 12 Pro",
+					"en": "Xiaomi 12 Pro"
+				},
+				"rom": "OS1.0.2.0.ULBMIXM; OS1.0.5.0.ULBEUXM"
 			},
 			{
 				"code": "psyche",
@@ -203,12 +211,20 @@
 				"rom": "OS1.0.4.0.UMQMIXM"
 			},
 			{
+				"code": "redwood",
+				"name": {
+					"zh": "Redmi Note 12 Pro 极速版",
+					"en": "Redmi Note 12 Pro Speed"
+				},
+				"rom": "OS1.0.6.0.UMSCNXM"
+			},
+			{
 				"code": "ruby",
 				"name": {
 					"zh": "Redmi Note 12 Pro / Pro+ / 探索版",
 					"en": "Redmi Note 12 Pro /Pro+ / Discovery 5G"
 				},
-				"rom": "OS1.0.3.0.UMOEUXM"
+				"rom": "OS1.0.3.0.UMOEUXM; OS1.0.2.0.UMOINXM"
 			},
 			{
 				"code": "topaz",
@@ -257,6 +273,14 @@
 					"en": "Redmi K50 Ultra"
 				},
 				"rom": "OS1.0.3.0.ULFEUXM"
+			},
+			{
+				"code": "mondrian",
+				"name": {
+					"zh": "Redmi K60",
+					"en": "Redmi K60"
+				},
+				"rom": "OS1.0.4.0.UMNEUXM"
 			},
 			{
 				"code": "corot",

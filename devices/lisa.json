@@ -95,7 +95,7 @@
 					"android": "14.0",
 					"release": "2024-04-15",
 					"recovery": "miui_LISATWGlobal_OS1.0.3.0.UKOTWXM_31f0324322_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_tw_global_images_OS1.0.3.0.UKOTWXM_20240314.0000.00_14.0_tw_62dc2f26a8.tgz"
 				}
 			}
 		},
@@ -309,6 +309,52 @@
 					"android": "14.0",
 					"release": "2024-04-15",
 					"recovery": "miui_LISARUGlobal_OS1.0.3.0.UKORUXM_f4701a3a11_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "lisa_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UKOINXM": {
+					"os": "OS1.0.3.0.UKOINXM",
+					"android": "14.0",
+					"release": "2024-04-19",
+					"recovery": "miui_LISAINGlobal_OS1.0.3.0.UKOINXM_a24dc6426a_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "lisa_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UKOTRXM": {
+					"os": "OS1.0.3.0.UKOTRXM",
+					"android": "14.0",
+					"release": "2024-04-19",
+					"recovery": "miui_LISATRGlobal_OS1.0.3.0.UKOTRXM_c475994fb9_14.0.zip",
 					"fastboot": ""
 				}
 			}
