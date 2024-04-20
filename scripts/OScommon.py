@@ -80,6 +80,8 @@ flags = {
 	"LISAINGlobal":"lisa",
 	"fleur_id_global":"fleur",
 	"FLEURIDGlobal":"fleur",
+	"pissarro_tw_global":"pissarro",
+	"PISSARROTWGlobal":"pissarro",
 	"evergo_in_global":"evergo",
 	"EVERGOINGlobal":"evergo",
 	"nabu_tr_global":"nabu",
