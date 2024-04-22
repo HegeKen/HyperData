@@ -21,9 +21,9 @@ for device in OScommon.currentStable:
     OScommon.HyperOSForm["d"] = devdata["branches"][id]["branchCode"]
     if devdata["branches"][id]["region"] == "cn":
       OScommon.HyperOSForm["pn"] = devdata["branches"][id]["branchCode"]
-      OScommon.HyperOSForm["r"] = 'GL'
-    else:
       OScommon.HyperOSForm["r"] = 'CN'
+    else:
+      OScommon.HyperOSForm["r"] = 'GL'
       if devdata["branches"][id]["branchCode"] == devdata["device"]+"_global":
         OScommon.HyperOSForm["pn"] = devdata["branches"][id]["branchCode"]
       else:
