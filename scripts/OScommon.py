@@ -70,6 +70,8 @@ flags = {
 	"LISAEEAVFGlobal":"lisa",
 	"lisa_eea_by_global":"lisa",
 	"LISAEEABYGlobal":"lisa",
+	"pissarro_ru_global":"pissarro",
+	"PISSARRORUGlobal":"pissarro",
 	"breeze":"breeze",
 	"degas":"degas",
 	"rothko":"rothko",
