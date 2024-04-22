@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -50,6 +50,29 @@
 					"release": "2024-04-13",
 					"recovery": "miui_HAYDN_OS1.0.1.0.UKKCNXM_366ee9022b_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinatelecom_20f3055c54.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国移动定制版",
+				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
+			},
+			"branchCode": "haydn",
+			"idtag": "CnOM",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKKCNXM": {
+					"os": "OS1.0.1.0.UKKCNXM",
+					"android": "14.0",
+					"release": "2024-04-13",
+					"recovery": "miui_HAYDN_OS1.0.1.0.UKKCNXM_366ee9022b_14.0.zip",
+					"fastboot": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinamobile_4c951d9211.tgz"
 				}
 			}
 		}
