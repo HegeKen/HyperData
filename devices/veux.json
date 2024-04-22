@@ -98,6 +98,52 @@
 					"fastboot": "veux_global_images_OS1.0.3.0.TKCMIXM_20240312.0000.00_13.0_global_c3b82b32da.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "veux_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCEUXM": {
+					"os": "OS1.0.1.0.TKCEUXM",
+					"android": "13.0",
+					"release": "2024-04-22",
+					"recovery": "miui_VEUXEEAGlobal_OS1.0.1.0.TKCEUXM_0e7bce6579_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "veux_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCINXM": {
+					"os": "OS1.0.1.0.TKCINXM",
+					"android": "13.0",
+					"release": "2024-04-22",
+					"recovery": "miui_VEUXINGlobal_OS1.0.1.0.TKCINXM_76019c6c0f_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
