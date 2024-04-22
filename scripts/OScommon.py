@@ -20,7 +20,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["ruan", "dizi", "peridot", "rembrandt", 
+currentStable = ["breeze", "degas", "rothko", "tides", "moon", "ruyi", "ruan", "dizi", "peridot", "rembrandt", 
 								 "pearl", "star", "venus", "alioth", "munch", "haydn", "xaga", "thyme", "cas", "umi", "cmi",
 								 "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
 								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
@@ -31,8 +31,6 @@ currentStable = ["ruan", "dizi", "peridot", "rembrandt",
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-newDevices = ["degas", "rothko", "tides", "moon", "peridot", "chenfeng", "dizi", "goku", "ruan", "ruyi", "houji", "shennong", "aurora", "sheng", 
-			  "duchamp", "vermeer", "manet"]
 
 onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
@@ -72,6 +70,18 @@ flags = {
 	"LISAEEAVFGlobal":"lisa",
 	"lisa_eea_by_global":"lisa",
 	"LISAEEABYGlobal":"lisa",
+	"breeze":"breeze",
+	"degas":"degas",
+	"rothko":"rothko",
+	"tides":"tides",
+	"moon":"moon",
+	"BREEZE":"breeze",
+	"DEGAS":"degas",
+	"ROTHKO":"rothko",
+	"TIDES":"tides",
+	"MOON":"moon",
+	"venus_eea_global":"venus",
+	"VENUSEEAGlobal":"venus",
 	"sunstone_ep_stdee": "sunstone",
 	"SUNSTONEEPSTDEE":"sunstone",
 	"lisa_tr_global":"lisa",

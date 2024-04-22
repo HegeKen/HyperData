@@ -42,9 +42,7 @@ jpbranches = ["_jp_global","_jp_sb_global","_jp_kd_global","_jp_rk_global"]
 
 onedevices = ["blue"]
 
-devices = list(set(OScommon.newDevices + OScommon.currentStable))
-
-for device in devices:
+for device in OScommon.currentStable:
   devdata = OScommon.localData(device)
   for branch in devdata["branches"]:
     code = branch["branchCode"]

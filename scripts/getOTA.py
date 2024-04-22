@@ -33,12 +33,15 @@ for device in OScommon.currentStable:
     print("\r正在完成"+devdata["name"]["zh"]+"("+devdata["branches"][id]["branchCode"]+")"+"                                                       ",end="")
     for rom in devdata["branches"][id]["roms"]:
       current = devdata['branches'][id]["roms"][rom]
-      if current["android"] == "":
-        OScommon.HyperOSForm["c"] = "14"
+      if current["os"] == "":
+        continue
       else:
-        OScommon.HyperOSForm["c"] = current["android"].split(".0")[0]
-      OScommon.HyperOSForm["v"] = "MIUI-"+ current["os"].replace('OS1','V816')
-      OScommon.HyperOSForm["obv"] = current["os"][:5]
-      OScommon.HyperOSForm["bv"] = settings[current["os"][:5]]
-      OScommon.getFromApi(OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm)),device)
-  
+        if current["android"] == "":
+          OScommon.HyperOSForm["c"] = "14"
+        else:
+          OScommon.HyperOSForm["c"] = current["android"].split(".0")[0]
+        OScommon.HyperOSForm["v"] = "MIUI-"+ current["os"].replace('OS1','V816')
+        OScommon.HyperOSForm["obv"] = current["os"][:5]
+        OScommon.HyperOSForm["bv"] = settings[current["os"][:5]]
+        OScommon.getFromApi(OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm)),device)
+    
