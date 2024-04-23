@@ -1,0 +1,34 @@
+{
+	"device": "pissarroin",
+	"name": {
+		"zh": "小米 11i 5G 印度版",
+		"en": "Xiaomi 11i 5G India"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "pissarro_in_fk_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TKTINFK": {
+					"os": "OS1.0.3.0.TKTINFK",
+					"android": "13.0",
+					"release": "2024-04-24",
+					"recovery": "miui_PISSARROINFKGlobal_OS1.0.3.0.TKTINFK_e3a91fc733_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
