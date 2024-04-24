@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,30 @@
 					"android": "13.0",
 					"release": "2024-04-15",
 					"recovery": "miui_ALIOTH_OS1.0.3.0.TKHCNXM_eab81b6bf0_13.0.zip",
-					"fastboot": ""
+					"fastboot": "alioth_images_OS1.0.3.0.TKHCNXM_20240201.0000.00_13.0_cn_6d1ee9d6df.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "alioth",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TKHCNXM": {
+					"os": "OS1.0.3.0.TKHCNXM",
+					"android": "13.0",
+					"release": "2024-04-15",
+					"recovery": "miui_ALIOTH_OS1.0.3.0.TKHCNXM_eab81b6bf0_13.0.zip",
+					"fastboot": "alioth_images_OS1.0.3.0.TKHCNXM_20240201.0000.00_13.0_cn_chinatelecom_ce2a0f3578.tgz"
 				}
 			}
 		}
