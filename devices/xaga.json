@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,30 @@
 					"android": "14.0",
 					"release": "2024-04-10",
 					"recovery": "miui_XAGA_OS1.0.1.0.ULOCNXM_445b22a793_14.0.zip",
-					"fastboot": ""
+					"fastboot": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_b092ef90cf.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "xaga",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULOCNXM": {
+					"os": "OS1.0.1.0.ULOCNXM",
+					"android": "14.0",
+					"release": "2024-04-10",
+					"recovery": "miui_XAGA_OS1.0.1.0.ULOCNXM_445b22a793_14.0.zip",
+					"fastboot": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_chinatelecom_d86a299617.tgz"
 				}
 			}
 		}

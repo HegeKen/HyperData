@@ -20,15 +20,14 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["pissarroin",
-								 "breeze", "degas", "rothko", "tides", "moon", "ruyi", "ruan", "dizi", "peridot", "rembrandt", 
+currentStable = ["ruan", "dizi", "peridot", "rembrandt", 
 								 "pearl", "star", "venus", "alioth", "munch", "haydn", "xaga", "thyme", "cas", "umi", "cmi",
 								 "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
 								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
 								 "fleur", "fuxi", "gale", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm", "lisa", 
 								 "liuqin", "manet", "marble", "matisse", "mayfly", "mona", "mondrian", "moonstone", "nabu", "nuwa", 
-								 "opal", "pipa", "pissarro", "plato", "psyche", "redwood", "rock", "rubens", "ruby", "sapphiren",
-								 "sapphire", "sea", "sheng", "shennong_t", "shennong", "sky", "socrates", "spes", "spesn", 
+								 "opal", "pipa", "pissarro", "pissarroin", "plato", "psyche", "redwood", "rock", "rubens", "ruby", 
+								 "sapphiren", "sapphire", "sea", "sheng", "shennong_t", "shennong", "sky", "socrates", "spes", "spesn", 
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
