@@ -88,6 +88,8 @@ flags = {
 	"sheng_global":"sheng",
 	"SHENGRUGlobal":"sheng",
 	"sheng_ru_global":"sheng",
+	"GOLDINGlobal":"gold",
+	"gold_in_global":"gold",
 	"BREEZE":"breeze",
 	"DEGAS":"degas",
 	"ROTHKO":"rothko",
