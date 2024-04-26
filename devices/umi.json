@@ -75,6 +75,29 @@
 					"fastboot": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_chinamobile_1b2aaef719.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "umi_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TJBEUXM": {
+					"os": "OS1.0.1.0.TJBEUXM",
+					"android": "13.0",
+					"release": "2024-04-26",
+					"recovery": "miui_UMIEEAGlobal_OS1.0.1.0.TJBEUXM_300a8b36de_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

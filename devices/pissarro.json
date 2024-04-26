@@ -141,7 +141,7 @@
 					"android": "13.0",
 					"release": "2024-04-22",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.2.0.TKTRUXM_686a211dcf_13.0.zip",
-					"fastboot": ""
+					"fastboot": "pissarro_ru_global_images_OS1.0.2.0.TKTRUXM_20240408.0000.00_13.0_ru_33c1536c14.tgz"
 				}
 			}
 		},
@@ -165,6 +165,29 @@
 					"release": "2024-04-08",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.2.0.TKTINXM_171c178675_13.0.zip",
 					"fastboot": "pissarro_in_global_images_OS1.0.2.0.TKTINXM_20240325.0000.00_13.0_in_df1ebfd4e4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "pissarro_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKTTRXM": {
+					"os": "OS1.0.1.0.TKTTRXM",
+					"android": "13.0",
+					"release": "2024-04-26",
+					"recovery": "miui_PISSARROTRGlobal_OS1.0.1.0.TKTTRXM_c4cef84568_13.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
