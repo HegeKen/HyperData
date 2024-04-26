@@ -58,6 +58,8 @@ flags = {
 	"AURORARUGlobal":"aurora",
 	"GARNETGlobal": "garnet",
 	"fire_in_global":"fire",
+	"alioth_global":"alioth",
+	"ALIOTHGlobal":"alioth",
 	"pissarro_in_fk_global":"pissarroin",
 	"PISSARROINFKGlobal":"pissarroin",
 	"spesn_id_global":"spesn",

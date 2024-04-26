@@ -52,6 +52,29 @@
 					"fastboot": "alioth_images_OS1.0.3.0.TKHCNXM_20240201.0000.00_13.0_cn_chinatelecom_ce2a0f3578.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "alioth_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKHMIXM": {
+					"os": "OS1.0.2.0.TKHMIXM",
+					"android": "13.0",
+					"release": "",
+					"recovery": "miui_ALIOTHGlobal_OS1.0.2.0.TKHMIXM_b69e6a5400_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
