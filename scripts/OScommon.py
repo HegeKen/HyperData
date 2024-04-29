@@ -56,6 +56,8 @@ flags = {
 	"garnet_global": "garnet",
 	"aurora_ru_global":"aurora",
 	"AURORARUGlobal":"aurora",
+	"venus_global":"venus",
+	"VENUSGlobal":"venus",
 	"GARNETGlobal": "garnet",
 	"fire_in_global":"fire",
 	"alioth_global":"alioth",
