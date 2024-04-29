@@ -1,0 +1,34 @@
+{
+	"device": "odin",
+	"name": {
+		"zh": "小米 MIX 4",
+		"en": "MIX 4"
+	},
+	"type": "phone",
+	"miui": "yes",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "odin",
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKMCNXM": {
+					"os": "OS1.0.2.0.UKMCNXM",
+					"android": "14.0",
+					"release": "2024-04-29",
+					"recovery": "miui_ODIN_OS1.0.2.0.UKMCNXM_af3b0d3530_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
