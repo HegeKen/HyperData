@@ -1154,23 +1154,27 @@ def getChangelog(encrypted_data, device):
 		devdata = json.loads(open(
 			"/sdcard/Codes/HyperOS.fans/public/data/devices/"+device+".json", 'r', encoding='utf-8').read())
 	response = requests.post(check_url, headers=headers, data=data)
-	print("\r"+"正在抓取"+devdata["name"]["zh"]+"(" +
-		  devdata["codename"]+")				  ", end="")
 	if "code" in response.text:
 		print(json.loads(response.text)["desc"])
 	else:
 		data = miui_decrypt(response.text.split("q=")[0])
 		if "LatestRom" in data:
-			print("最新版本日志："+data["LatestRom"]["changelog"])
-		if "CrossRom" in data:
-			print("异常信息："+data)
+			print("最新版本更新日志：")
+			print_log(data["LatestRom"]["changelog"])
 		if "CurrentRom" in data:
-			print("最新版本日志："+data["CurrentRom"]["changelog"])
+			print("当前版本更新日志：")
+			print_log(data["CurrentRom"]["changelog"])
 		else:
-			print("异常信息："+data)
+			print(data)
 			return 0
 	response.close()
 
+def print_log(log):
+	for module in log:
+		print(module)
+		for entry in log[module]['txt']:
+			print(entry)
+		
 
 def getFastboot(url):
 	headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76",
