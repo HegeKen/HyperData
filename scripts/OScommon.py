@@ -27,7 +27,7 @@ currentStable = ["odin", "ruan", "dizi", "peridot", "rembrandt",
 								 "fleur", "fuxi", "gale", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm", "lisa", 
 								 "liuqin", "manet", "marble", "matisse", "mayfly", "mona", "mondrian", "moonstone", "nabu", "nuwa", 
 								 "opal", "pipa", "pissarro", "pissarroin", "plato", "psyche", "redwood", "rock", "rubens", "ruby", 
-								 "sapphiren", "sapphire", "sea", "sheng", "shennong_t", "shennong", "sky", "socrates", "spes", "spesn", 
+								 "sapphiren", "sapphire", "sea", "sheng", "shennong", "shennong_t", "sky", "socrates", "spes", "spesn", 
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
@@ -60,6 +60,8 @@ flags = {
 	"VENUSGlobal":"venus",
 	"odin":"odin",
 	"ODIN":"odin",
+	"SHENGIDGlobal":"sheng",
+	"sheng_id_global":"sheng",
 	"GARNETGlobal": "garnet",
 	"fire_in_global":"fire",
 	"alioth_global":"alioth",
