@@ -62,6 +62,8 @@ flags = {
 	"ODIN":"odin",
 	"haydn_eea_global":"haydn",
 	"HAYDNEEAGlobal":"haydn",
+	"munch_global":"munch",
+	"MUNCHGlobal":"munch",
 	"SHENGIDGlobal":"sheng",
 	"sheng_id_global":"sheng",
 	"GARNETGlobal": "garnet",

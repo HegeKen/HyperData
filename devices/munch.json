@@ -52,6 +52,29 @@
 					"fastboot": "munch_images_OS1.0.1.0.ULMCNXM_20240330.0000.00_14.0_cn_chinatelecom_5caf33e88b.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "munch_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULMMIXM": {
+					"os": "OS1.0.1.0.ULMMIXM",
+					"android": "14.0",
+					"release": "2024-05-06",
+					"recovery": "miui_MUNCHGlobal_OS1.0.1.0.ULMMIXM_fcd5899d29_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
