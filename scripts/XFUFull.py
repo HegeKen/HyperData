@@ -2,6 +2,10 @@ import os
 from bs4 import BeautifulSoup
 import OScommon
 
+
+false_packs = [
+  'OS1.0.4.0.UNKCNXMmiui_VERMEER_OS1.0.4.0.UNKCNXM_c3235c755f_14.0.zip'
+]
 directory = "D:\\Projects\\MIUIROMS\\XFUOrigin\\pages\\hyperos"
 
 for root, dirs, files in os.walk(directory):
@@ -12,4 +16,7 @@ for root, dirs, files in os.walk(directory):
       soup = BeautifulSoup(content, 'lxml')
       span_tags = soup.findAll('span', {'id': 'filename'})
       for tag in span_tags:
-        OScommon.checkExist(tag.text)
+        if tag.text in false_packs:
+          continue
+        else:
+          OScommon.checkExist(tag.text)

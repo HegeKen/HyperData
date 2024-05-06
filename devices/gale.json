@@ -52,6 +52,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "gale_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UGPINXM": {
+					"os": "OS1.0.2.0.UGPINXM",
+					"android": "14.0",
+					"release": "2024-05-06",
+					"recovery": "miui_GALEINGlobal_OS1.0.2.0.UGPINXM_c0fa2c2c6c_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
