@@ -75,6 +75,29 @@
 					"fastboot": "cmi_images_OS1.0.3.0.TJACNXM_20240325.0000.00_13.0_cn_chinamobile_25fa97e115.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "cmi_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TJAMIXM": {
+					"os": "OS1.0.2.0.TJAMIXM",
+					"android": "13.0",
+					"release": "2024-05-06",
+					"recovery": "miui_CMIGlobal_OS1.0.2.0.TJAMIXM_31571224b7_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
