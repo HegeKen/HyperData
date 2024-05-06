@@ -60,6 +60,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "sheng_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.4.16.EP.STDEE.N81A": {
+					"os": "OS1.0.24.4.16.EP.STDEE.N81A",
+					"android": "14.0",
+					"release": "2024-05-06",
+					"recovery": "miui_SHENGEPSTDEE_OS1.0.24.4.16.EP.STDEE.N81A_b8e830f0b6_14.0.zip",
+					"fastboot": "sheng_ep_stdee_images_OS1.0.24.4.16.EP.STDEE.N81A_20240416.0000.00_14.0_cn_698be647f8.tgz",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},

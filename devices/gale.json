@@ -1,7 +1,7 @@
 {
 	"device": "gale",
 	"name": {
-		"zh": "Redmi 13C / POCO C65",
+		"zh": "Redmi 13C 国际 / POCO C65",
 		"en": "Redmi 13C / POCO C65"
 	},
 	"type": "phone",
@@ -27,6 +27,29 @@
 					"release": "2024-03-25",
 					"recovery": "miui_GALEGlobal_OS1.0.1.0.UGPMIXM_6e2addc06f_14.0.zip",
 					"fastboot": "gale_global_images_OS1.0.1.0.UGPMIXM_20240304.0000.00_14.0_global_609839461c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "gale_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UGPEUXM": {
+					"os": "OS1.0.2.0.UGPEUXM",
+					"android": "14.0",
+					"release": "2024-05-06",
+					"recovery": "miui_GALEEEAGlobal_OS1.0.2.0.UGPEUXM_b5b926d640_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

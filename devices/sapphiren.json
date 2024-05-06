@@ -52,6 +52,29 @@
 					"fastboot": "sapphiren_eea_global_images_OS1.0.1.0.UNHEUXM_20240403.0000.00_14.0_eea_2250d7e6ee.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "sapphiren_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNHIDXM": {
+					"os": "OS1.0.1.0.UNHIDXM",
+					"android": "14.0",
+					"release": "2024-05-06",
+					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.1.0.UNHIDXM_2a97c1cdad_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
