@@ -60,6 +60,8 @@ flags = {
 	"VENUSGlobal":"venus",
 	"odin":"odin",
 	"ODIN":"odin",
+	"haydn_eea_global":"haydn",
+	"HAYDNEEAGlobal":"haydn",
 	"SHENGIDGlobal":"sheng",
 	"sheng_id_global":"sheng",
 	"GARNETGlobal": "garnet",

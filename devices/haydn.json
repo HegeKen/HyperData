@@ -75,6 +75,29 @@
 					"fastboot": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinamobile_4c951d9211.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "haydn_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKKEUXM": {
+					"os": "OS1.0.2.0.UKKEUXM",
+					"android": "14.0",
+					"release": "2024-05-05",
+					"recovery": "miui_HAYDNEEAGlobal_OS1.0.2.0.UKKEUXM_7dc6743676_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
