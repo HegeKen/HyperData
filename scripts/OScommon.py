@@ -70,6 +70,8 @@ flags = {
 	"MUNCHGlobal":"munch",
 	"cmi_global":"cmi",
 	"CMIGlobal":"cmi",
+	"alioth_eea_global":"alioth",
+	"ALIOTHEEAGlobal":"alioth",
 	"GALEINGlobal":"gale",
 	"gale_in_global":"gale",
 	"vili_eea_global":"vili",
