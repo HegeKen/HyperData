@@ -42,7 +42,7 @@ jpbranches = ["_jp_global","_jp_sb_global","_jp_kd_global","_jp_rk_global"]
 
 onedevices = ["blue"]
 
-for device in OScommon.currentStable:
+for device in OScommon.only_os:
   devdata = OScommon.localData(device)
   for branch in devdata["branches"]:
     code = branch["branchCode"]
@@ -68,7 +68,7 @@ for device in OScommon.currentStable:
       chekc_known_urls_exits(code+"&b="+btag+"&r="+code.split("_global")[0]+"&n=")
       chekc_known_urls_exits(code+"&b="+btag+"&r=global"+"&n=")
 
-for device in OScommon.currentStable:
+for device in OScommon.only_os:
   if device in onedevices:
     for branch in gfbranches:
       chekc_url_exits(device+branch+"&b=F&r=&n=")

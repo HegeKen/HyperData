@@ -31,6 +31,8 @@ currentStable = ["vili", "odin", "ruan", "dizi", "peridot", "rembrandt",
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
+only_os = ["ruan", "dizi", "peridot", "aurora", 
+					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t", "vermeer"]
 
 onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
