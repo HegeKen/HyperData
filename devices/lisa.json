@@ -292,6 +292,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Altice(SFR)运营商定制版",
+				"en": "Xiaomi HyperOS Europe Altice(SFR) Carrier Edition"
+			},
+			"branchCode": "lisa_eea_sf_global",
+			"idtag": "EUSF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UKOEUSF": {
+					"os": "OS1.0.3.0.UKOEUSF",
+					"android": "14.0",
+					"release": "2024-05-07",
+					"recovery": "miui_LISAEEASFGlobal_OS1.0.3.0.UKOEUSF_149460e996_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
