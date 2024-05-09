@@ -31,8 +31,8 @@ currentStable = ["vili", "odin", "ruan", "dizi", "peridot", "rembrandt",
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["ruan", "dizi", "peridot", "aurora", 
-					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t", "vermeer"]
+only_os = ["vermeer", "ruan", "dizi", "peridot", "aurora", 
+					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
 onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
@@ -74,6 +74,8 @@ flags = {
 	"ALIOTHEEAGlobal":"alioth",
 	"GALEINGlobal":"gale",
 	"gale_in_global":"gale",
+	"vermeer_global":"vermeer",
+	"VERMEERGlobal":"vermeer",
 	"vili_eea_global":"vili",
 	"VILIEEAGlobal":"vili",
 	"gale_eea_global":"gale",

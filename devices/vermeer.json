@@ -252,6 +252,29 @@
 					"ctelecom": "vermeer_ep_stdee_images_OS1.0.24.1.5.EP.STDEE.N11_20240105.0000.00_14.0_cn_chinatelecom_1799173cf5.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "vermeer_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNKMIXM": {
+					"os": "OS1.0.2.0.UNKMIXM",
+					"android": "14.0",
+					"release": "2024-05-09",
+					"recovery": "miui_VERMEERGlobal_OS1.0.2.0.UNKMIXM_65fd61fc62_14.0.zip",
+					"fastboot": "vermeer_global_images_OS1.0.2.0.UNKMIXM_20240328.0000.00_14.0_global_a05f14383d.tgz"
+				}
+			}
 		}
 	]
 }
