@@ -124,6 +124,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "veux_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCRUXM": {
+					"os": "OS1.0.1.0.TKCRUXM",
+					"android": "14.0",
+					"release": "2024-05-10",
+					"recovery": "miui_VEUXRUGlobal_OS1.0.1.0.TKCRUXM_1c2b549268_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -142,6 +165,29 @@
 					"release": "2024-04-22",
 					"recovery": "miui_VEUXINGlobal_OS1.0.1.0.TKCINXM_76019c6c0f_13.0.zip",
 					"fastboot": "veux_in_global_images_OS1.0.1.0.TKCINXM_20240402.0000.00_13.0_in_fa9c4e635d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "veux_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCIDXM": {
+					"os": "OS1.0.1.0.TKCIDXM",
+					"android": "14.0",
+					"release": "2024-05-10",
+					"recovery": "miui_VEUXIDGlobal_OS1.0.1.0.TKCIDXM_9c57011c76_13.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
