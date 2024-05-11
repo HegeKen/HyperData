@@ -32,6 +32,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "gold_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNQCNDM": {
+					"os": "OS1.0.1.0.UNQCNDM",
+					"android": "14.0",
+					"release": "2024-05-11",
+					"recovery": "miui_GOLDDEMO_OS1.0.1.0.UNQCNDM_0d87194f31_14.0.zip",
+					"fastboot": "gold_demo_images_OS1.0.1.0.UNQCNDM_20240506.0000.00_14.0_cn_4a29a5f8b4.tgz",
+					"ctelecom": "gold_demo_images_OS1.0.1.0.UNQCNDM_20240506.0000.00_14.0_cn_chinatelecom_6395bbc76d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾地区正式版",
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},

@@ -55,6 +55,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "gale_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UGPRUXM": {
+					"os": "OS1.0.3.0.UGPRUXM",
+					"android": "14.0",
+					"release": "2024-05-11",
+					"recovery": "miui_GALERUGlobal_OS1.0.3.0.UGPRUXM_c1d0b15ed9_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -72,6 +95,29 @@
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_GALEINGlobal_OS1.0.2.0.UGPINXM_c0fa2c2c6c_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "gale_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UGPIDXM": {
+					"os": "OS1.0.3.0.UGPIDXM",
+					"android": "14.0",
+					"release": "2024-05-11",
+					"recovery": "miui_GALEIDGlobal_OS1.0.3.0.UGPIDXM_c7a1140b9a_14.0.zip",
 					"fastboot": ""
 				}
 			}
