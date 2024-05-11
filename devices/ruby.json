@@ -1,8 +1,8 @@
 {
 	"device": "ruby",
 	"name": {
-		"zh": "Redmi Note 12 Pro/Pro+/探索版",
-		"en": "Redmi Note 12 Pro/Pro+/Discovery 5G"
+		"zh": "Redmi Note 12 Pro / Pro+ / 探索版",
+		"en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
 	},
 	"type": "phone",
 	"miui": "yes",
@@ -21,6 +21,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.5.0.UMOCNXM": {
+					"os": "OS1.0.5.0.UMOCNXM",
+					"android": "14.0",
+					"release": "2024-05-11",
+					"recovery": "miui_RUBY_OS1.0.5.0.UMOCNXM_04dda3609e_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.4.0.UMOCNXM": {
 					"os": "OS1.0.4.0.UMOCNXM",
 					"android": "14.0",
