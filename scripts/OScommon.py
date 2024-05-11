@@ -758,6 +758,8 @@ flags = {
 	"GALERUGlobal":"gale",
 	"GOLDDEMO":"gold",
 	"gold_demo":"gold",
+	"XUNDEMO":"xun",
+	"xun_demo":"xun",
 	"moonstone_global": "moonstone",
 	"MOONSTONEGlobal": "moonstone",
 	"moonstone_in_global": "moonstone",
