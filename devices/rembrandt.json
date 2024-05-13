@@ -33,7 +33,30 @@
 					"android": "14.0",
 					"release": "2024-04-08",
 					"recovery": "miui_REMBRANDT_OS1.0.1.0.UMMCNXM_72da128d65_14.0.zip",
-					"fastboot": ""
+					"fastboot": "rembrandt_images_OS1.0.1.0.UMMCNXM_20240326.0000.00_14.0_cn_8e8629d5d1.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "rembrandt",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMMCNXM": {
+					"os": "OS1.0.1.0.UMMCNXM",
+					"android": "14.0",
+					"release": "2024-04-08",
+					"recovery": "miui_REMBRANDT_OS1.0.1.0.UMMCNXM_72da128d65_14.0.zip",
+					"fastboot": "rembrandt_images_OS1.0.1.0.UMMCNXM_20240326.0000.00_14.0_cn_chinatelecom_25c1ff12e5.tgz"
 				}
 			}
 		}
