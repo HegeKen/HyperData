@@ -98,6 +98,52 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "alioth_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKHINXM": {
+					"os": "OS1.0.1.0.TKHINXM",
+					"android": "13.0",
+					"release": "2024-05-13",
+					"recovery": "miui_ALIOTHINGlobal_OS1.0.1.0.TKHINXM_37dcb3109e_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "alioth_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKHIDXM": {
+					"os": "OS1.0.1.0.TKHIDXM",
+					"android": "13.0",
+					"release": "2024-05-13",
+					"recovery": "miui_ALIOTHIDGlobal_OS1.0.1.0.TKHIDXM_1c1539a15f_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
