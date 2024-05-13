@@ -9,6 +9,29 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "gale_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UGPTWXM": {
+					"os": "OS1.0.2.0.UGPTWXM",
+					"android": "14.0",
+					"release": "2024-05-13",
+					"recovery": "miui_GALETWGlobal_OS1.0.2.0.UGPTWXM_f7e51f7326_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -49,7 +72,7 @@
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_GALEEEAGlobal_OS1.0.2.0.UGPEUXM_b5b926d640_14.0.zip",
-					"fastboot": ""
+					"fastboot": "gale_eea_global_images_OS1.0.2.0.UGPEUXM_20240416.0000.00_14.0_eea_7cde367ea9.tgz"
 				}
 			}
 		},
@@ -118,6 +141,29 @@
 					"android": "14.0",
 					"release": "2024-05-11",
 					"recovery": "miui_GALEIDGlobal_OS1.0.3.0.UGPIDXM_c7a1140b9a_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "gale_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UGPTRXM": {
+					"os": "OS1.0.2.0.UGPTRXM",
+					"android": "14.0",
+					"release": "2024-05-13",
+					"recovery": "miui_GALETRGlobal_OS1.0.2.0.UGPTRXM_db5bfd7f5f_14.0.zip",
 					"fastboot": ""
 				}
 			}
