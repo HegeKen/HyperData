@@ -78,6 +78,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "veux_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCTWXM": {
+					"os": "OS1.0.1.0.TKCTWXM",
+					"android": "13.0",
+					"release": "2024-05-13",
+					"recovery": "miui_VEUXTWGlobal_OS1.0.1.0.TKCTWXM_ca564a92d1_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -187,6 +210,29 @@
 					"android": "13.0",
 					"release": "2024-05-10",
 					"recovery": "miui_VEUXIDGlobal_OS1.0.1.0.TKCIDXM_9c57011c76_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "veux_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCTRXM": {
+					"os": "OS1.0.1.0.TKCTRXM",
+					"android": "13.0",
+					"release": "2024-05-13",
+					"recovery": "miui_VEUXTRGlobal_OS1.0.1.0.TKCTRXM_92de1abc5e_13.0.zip",
 					"fastboot": ""
 				}
 			}
