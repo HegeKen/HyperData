@@ -98,6 +98,29 @@
 					"fastboot": "cmi_global_images_OS1.0.2.0.TJAMIXM_20240325.0000.00_13.0_global_e98e8a4fda.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "cmi_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TJAEUXM": {
+					"os": "OS1.0.1.0.TJAEUXM",
+					"android": "13.0",
+					"release": "2024-05-13",
+					"recovery": "miui_CMIEEAGlobal_OS1.0.1.0.TJAEUXM_7848ef503a_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
