@@ -275,6 +275,29 @@
 					"fastboot": "vermeer_global_images_OS1.0.2.0.UNKMIXM_20240328.0000.00_14.0_global_a05f14383d.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "vermeer_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNKRUXM": {
+					"os": "OS1.0.1.0.UNKRUXM",
+					"android": "14.0",
+					"release": "2024-05-14",
+					"recovery": "miui_VERMEERRUGlobal_OS1.0.1.0.UNKRUXM_1793dd32af_14.0.zip",
+					"fastboot": "vermeer_ru_global_images_OS1.0.1.0.UNKRUXM_20240327.0000.00_14.0_ru_681c1af8f5.tgz"
+				}
+			}
 		}
 	]
 }
