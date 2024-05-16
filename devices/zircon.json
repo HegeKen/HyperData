@@ -26,7 +26,7 @@
 					"android": "14.0",
 					"release": "2024-05-07",
 					"recovery": "miui_ZIRCON_OS1.0.3.0.UNOCNXM_e09092107e_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zircon_images_OS1.0.3.0.UNOCNXM_20240422.0000.00_14.0_cn_f02b2dcee4.tgz"
 				},
 				"OS1.0.2.0.UNOCNXM": {
 					"os": "OS1.0.2.0.UNOCNXM",
@@ -58,12 +58,43 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.3.0.UNOCNXM": {
+					"os": "OS1.0.3.0.UNOCNXM",
+					"android": "14.0",
+					"release": "2024-05-07",
+					"recovery": "miui_ZIRCON_OS1.0.3.0.UNOCNXM_e09092107e_14.0.zip",
+					"fastboot": "zircon_images_OS1.0.3.0.UNOCNXM_20240422.0000.00_14.0_cn_chinatelecom_b44119a411.tgz"
+				},
 				"OS1.0.2.0.UNOCNXM": {
 					"os": "OS1.0.2.0.UNOCNXM",
 					"android": "14.0",
 					"release": "2024-02-06",
 					"recovery": "miui_ZIRCON_OS1.0.2.0.UNOCNXM_6c10262097_14.0.zip",
 					"fastboot": "zircon_images_OS1.0.2.0.UNOCNXM_20240202.0000.00_14.0_cn_chinatelecom_b16e687c62.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "zircon_demo",
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNOCNDM": {
+					"os": "OS1.0.1.0.UNOCNDM",
+					"android": "14.0",
+					"release": "2024-05-16",
+					"recovery": "miui_ZIRCONDEMO_OS1.0.1.0.UNOCNDM_aa3476ab4f_14.0.zip",
+					"fastboot": "zircon_demo_images_OS1.0.1.0.UNOCNDM_20240515.0000.00_14.0_cn_3c0a1aaf90.tgz",
+					"ctelecom": "zircon_demo_images_OS1.0.1.0.UNOCNDM_20240515.0000.00_14.0_cn_chinatelecom_faa71455af.tgz"
 				}
 			}
 		},
