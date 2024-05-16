@@ -11,6 +11,7 @@ from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
 
 sdk = {
+	"15": "35",
   "14": "34",
   "13": "33"
 }
@@ -73,6 +74,13 @@ flags = {
 	"garnet_demo": "garnet",
 	"GARNETDEMO":"garnet",
 	"veux_tr_global":"veux",
+	"corot_pre_dpp":"corot",
+	"corot_pre_dpp_global":"corot",
+	"houji_pre_dpp":"houji",
+	"houji_pre_dpp_global":"houji",
+	"sheng_pre_dpp":"sheng",
+	"sheng_pre_dpp_global":"sheng",
+	"shennong_pre_dpp":"shennong",
 	"VEUXTRGlobal":"veux",
 	"veux_tw_global":"veux",
 	"VEUXTWGlobal":"veux",

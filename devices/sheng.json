@@ -9,6 +9,54 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版大陆版",
+				"en": "Xiaomi HyperOS Android Developer Preview (China Mainland)"
+			},
+			"branchCode": "sheng_pre_dpp",
+			"idtag": "ADPC",
+			"branchtag": "X",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"24.5.10.1": {
+					"os": "24.5.10.1",
+					"android": "15.0",
+					"release": "2024-05-16",
+					"recovery": "",
+					"fastboot": "sheng_pre_dpp_images_24.5.10.1_20240510.0000.00_15.0_cn_acbb9e4acb.tgz",
+					"origin":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_24.5.10.1_20240510.0000.00_15.0_cn_acbb9e4acb.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=IOy3FMYfDuJx4JIhf0SEVR8CRSw="
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版国际版",
+				"en": "Xiaomi HyperOS Android Developer Preview Global"
+			},
+			"branchCode": "sheng_pre_dpp_global",
+			"idtag": "ADPG",
+			"branchtag": "X",
+			"show": "0",
+			"carrier": [""],
+			"region": "global",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"24.5.10": {
+					"os": "24.5.10",
+					"android": "15.0",
+					"release": "2024-05-16",
+					"recovery": "",
+					"fastboot": "sheng_pre_dpp_global_images_24.5.10_20240510.0000.00_15.0_global_8ebfe94fbe.tgz",
+					"origin":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_global_images_24.5.10_20240510.0000.00_15.0_global_8ebfe94fbe.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=rfEJKYdBrltbYycvKDFY9FCawK0="
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},

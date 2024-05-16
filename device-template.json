@@ -32,6 +32,54 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版大陆版",
+				"en": "Xiaomi HyperOS Android Developer Preview (China Mainland)"
+			},
+			"branchCode": "",
+			"idtag": "ADPC",
+			"branchtag": "X",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "15.0",
+					"release": "2024-05-16",
+					"recovery": "",
+					"fastboot": "",
+					"origin":""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版国际版",
+				"en": "Xiaomi HyperOS Android Developer Preview Global"
+			},
+			"branchCode": "",
+			"idtag": "ADPG",
+			"branchtag": "X",
+			"show": "0",
+			"carrier": [""],
+			"region": "global",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "15.0",
+					"release": "2024-05-16",
+					"recovery": "",
+					"fastboot": "",
+					"origin":""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版每日构建版本",
 				"en": "Xiaomi HyperOS Stable Daily Build"
 			},

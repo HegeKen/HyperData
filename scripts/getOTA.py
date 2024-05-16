@@ -19,6 +19,7 @@ for device in OScommon.currentStable:
   ids = list(set(branchids))
   for id in ids:
     OScommon.HyperOSForm["d"] = devdata["branches"][id]["branchCode"]
+    branchname = devdata["branches"][id]["name"]['en']
     if devdata["branches"][id]["region"] == "cn":
       OScommon.HyperOSForm["pn"] = devdata["branches"][id]["branchCode"]
       OScommon.HyperOSForm["r"] = 'CN'
@@ -40,8 +41,13 @@ for device in OScommon.currentStable:
           OScommon.HyperOSForm["c"] = "14"
         else:
           OScommon.HyperOSForm["c"] = current["android"].split(".0")[0]
-        OScommon.HyperOSForm["v"] = "MIUI-"+ current["os"].replace('OS1','V816')
-        OScommon.HyperOSForm["obv"] = current["os"][:5]
-        OScommon.HyperOSForm["bv"] = settings[current["os"][:5]]
+        if "Developer Preview" in branchname:
+          OScommon.HyperOSForm["v"] = "MIUI-V816.0."+ current["os"]
+          OScommon.HyperOSForm["obv"] = current["os"]
+          OScommon.HyperOSForm["bv"] = "V816"
+        else:
+          OScommon.HyperOSForm["v"] = "MIUI-"+ current["os"].replace('OS1','V816')
+          OScommon.HyperOSForm["obv"] = current["os"][:5]
+          OScommon.HyperOSForm["bv"] = settings[current["os"][:5]]
         OScommon.getFromApi(OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm)),device)
     
