@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,7 @@
 					"android": "14.0",
 					"release": "2024-05-09",
 					"recovery": "miui_ZIJIN_OS1.0.2.0.ULPCNXM_92b79e0991_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_336d9f614d.tgz"
 				},
         "OS1.0.1.0.ULPCNXM": {
           "os": "OS1.0.1.0.ULPCNXM",
@@ -35,6 +35,52 @@
           "recovery": "miui_ZIJIN_OS1.0.1.0.ULPCNXM_356a223b5b_14.0.zip",
           "fastboot": ""
         }
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "zijin",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULPCNXM": {
+					"os": "OS1.0.2.0.ULPCNXM",
+					"android": "14.0",
+					"release": "2024-05-09",
+					"recovery": "miui_ZIJIN_OS1.0.2.0.ULPCNXM_92b79e0991_14.0.zip",
+					"fastboot": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_chinatelecom_a4506ab029.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国移动定制版",
+				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
+			},
+			"branchCode": "zijin",
+			"idtag": "CnOM",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULPCNXM": {
+					"os": "OS1.0.2.0.ULPCNXM",
+					"android": "14.0",
+					"release": "2024-05-09",
+					"recovery": "miui_ZIJIN_OS1.0.2.0.ULPCNXM_92b79e0991_14.0.zip",
+					"fastboot": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_chinamobile_74b1e24ad1.tgz"
+				}
 			}
 		}
 	]
