@@ -67,6 +67,8 @@ flags = {
 	"SAPPHIRENTWGlobal":"sapphiren",
 	"ZIRCONDEMO":"zircon",
 	"zircon_demo":"zircon",
+	"munch_eea_global":"munch",
+	"MUNCHEEAGlobal":"munch",
 	"agate_eea_sf_global":"agate",
 	"AGATEEEASFGlobal":"agate",
 	"marble_demo":"marble",
