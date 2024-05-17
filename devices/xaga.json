@@ -52,6 +52,29 @@
 					"fastboot": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_chinatelecom_d86a299617.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "xaga_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULOMIXM": {
+					"os": "OS1.0.1.0.ULOMIXM",
+					"android": "14.0",
+					"release": "2024-05-17",
+					"recovery": "miui_XAGAGlobal_OS1.0.1.0.ULOMIXM_26ddf1e698_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
