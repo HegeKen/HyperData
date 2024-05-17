@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,53 @@
 					"android": "14.0",
 					"release": "2024-04-29",
 					"recovery": "miui_ODIN_OS1.0.2.0.UKMCNXM_af3b0d3530_14.0.zip",
-					"fastboot": ""
+					"fastboot": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_d3eb80577c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "odin",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKMCNXM": {
+					"os": "OS1.0.2.0.UKMCNXM",
+					"android": "14.0",
+					"release": "2024-04-29",
+					"recovery": "miui_ODIN_OS1.0.2.0.UKMCNXM_af3b0d3530_14.0.zip",
+					"fastboot": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_chinatelecom_dd14fa8256.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国移动定制版",
+				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
+			},
+			"branchCode": "odin",
+			"idtag": "CnOM",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinamobile"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKMCNXM": {
+					"os": "OS1.0.2.0.UKMCNXM",
+					"android": "14.0",
+					"release": "2024-04-29",
+					"recovery": "miui_ODIN_OS1.0.2.0.UKMCNXM_af3b0d3530_14.0.zip",
+					"fastboot": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_chinamobile_f3917e4df1.tgz"
 				}
 			}
 		}
