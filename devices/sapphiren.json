@@ -128,6 +128,29 @@
 					"fastboot": "sapphiren_id_global_images_OS1.0.1.0.UNHIDXM_20240419.0000.00_14.0_id_6146fce60d.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "sapphiren_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNHTRXM": {
+					"os": "OS1.0.1.0.UNHTRXM",
+					"android": "14.0",
+					"release": "2024-05-20",
+					"recovery": "miui_SAPPHIRENTRGlobal_OS1.0.1.0.UNHTRXM_928b63fcda_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

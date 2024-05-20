@@ -98,6 +98,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "munch_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULMIDXM": {
+					"os": "OS1.0.1.0.ULMIDXM",
+					"android": "14.0",
+					"release": "2024-05-20",
+					"recovery": "miui_MUNCHIDGlobal_OS1.0.1.0.ULMIDXM_8786270538_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

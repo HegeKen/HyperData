@@ -124,6 +124,52 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "umi_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TJBRUXM": {
+					"os": "OS1.0.1.0.TJBRUXM",
+					"android": "13.0",
+					"release": "2024-05-20",
+					"recovery": "miui_UMIRUGlobal_OS1.0.1.0.TJBRUXM_802205c2f1_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "umi_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TJBINXM": {
+					"os": "OS1.0.2.0.TJBINXM",
+					"android": "13.0",
+					"release": "2024-05-20",
+					"recovery": "miui_UMIINGlobal_OS1.0.2.0.TJBINXM_4f5802bf34_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonesia Stable"
 			},
@@ -142,6 +188,29 @@
 					"release": "2024-05-11",
 					"recovery": "miui_UMIIDGlobal_OS1.0.1.0.TJBIDXM_125e70a4c3_13.0.zip",
 					"fastboot": "umi_id_global_images_OS1.0.1.0.TJBIDXM_20240325.0000.00_13.0_id_aa58c45480.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "umi_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TJBTRXM": {
+					"os": "OS1.0.1.0.TJBTRXM",
+					"android": "13.0",
+					"release": "2024-05-20",
+					"recovery": "miui_UMITRGlobal_OS1.0.1.0.TJBTRXM_8d39da486a_13.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

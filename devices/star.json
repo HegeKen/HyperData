@@ -75,6 +75,29 @@
 					"fastboot": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_chinamobile_ff57f74d79.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "star_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKAINXM": {
+					"os": "OS1.0.2.0.UKAINXM",
+					"android": "14.0",
+					"release": "2024-05-20",
+					"recovery": "miui_STARINGlobal_OS1.0.2.0.UKAINXM_2c501448a3_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
