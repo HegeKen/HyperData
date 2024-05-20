@@ -9,6 +9,29 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "vili_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKDTWXM": {
+					"os": "OS1.0.1.0.UKDTWXM",
+					"android": "14.0",
+					"release": "2024-05-20",
+					"recovery": "miui_VILITWGlobal_OS1.0.1.0.UKDTWXM_12eed7cc85_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -96,6 +119,52 @@
 					"release": "2024-05-09",
 					"recovery": "miui_VILIINGlobal_OS1.0.2.0.UKDINXM_5f7f6dfacf_14.0.zip",
 					"fastboot": "vili_in_global_images_OS1.0.2.0.UKDINXM_20240423.0000.00_14.0_in_7137dcca82.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "vili_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKDIDXM": {
+					"os": "OS1.0.1.0.UKDIDXM",
+					"android": "14.0",
+					"release": "2024-05-20",
+					"recovery": "miui_VILIIDGlobal_OS1.0.1.0.UKDIDXM_31470aa673_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "vili_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKDTRXM": {
+					"os": "OS1.0.1.0.UKDTRXM",
+					"android": "14.0",
+					"release": "2024-05-20",
+					"recovery": "miui_VILITRGlobal_OS1.0.1.0.UKDTRXM_dc88f0e294_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
