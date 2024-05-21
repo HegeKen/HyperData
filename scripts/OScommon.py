@@ -61,6 +61,8 @@ flags = {
 	"AURORARUGlobal":"aurora",
 	"venus_global":"venus",
 	"VENUSGlobal":"venus",
+	"xaga_eea_global":"xaga",
+	"XAGAEEAGlobal":"xaga",
 	"odin":"odin",
 	"ODIN":"odin",
 	"sapphiren_tw_global":"sapphiren",
