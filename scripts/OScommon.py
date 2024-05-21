@@ -125,6 +125,8 @@ flags = {
 	"vili_id_global":"vili",
 	"babylon_ep_stdee": "babylon",
 	"BABYLONEPSTDEE":"babylon",
+	"light_eea_sf_global": "light",
+	"LIGHTEEASFGlobal":"light",
 	"VILIIDGlobal":"vili",
 	"sapphiren_ru_global":"sapphiren",
 	"SAPPHIRENRUGlobal":"sapphiren",
