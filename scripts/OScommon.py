@@ -96,6 +96,8 @@ flags = {
 	"VEUXTRGlobal":"veux",
 	"veux_tw_global":"veux",
 	"VEUXTWGlobal":"veux",
+	"spesn_eea_hg_global":"spesn",
+	"SPESNEEAHGGlobal":"spesn",
 	"vili_in_global":"vili",
 	"VILIINGlobal":"vili",
 	"vili_global":"vili",
