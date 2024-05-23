@@ -65,6 +65,8 @@ flags = {
 	"XAGAEEAGlobal":"xaga",
 	"odin":"odin",
 	"ODIN":"odin",
+	"munch_in_global":"munch",
+	"MUNCHINGlobal":"munch",
 	"peridot_in_global":"peridot",
 	"PERIDOTINGlobal":"peridot",
 	"peridot_global":"peridot",
