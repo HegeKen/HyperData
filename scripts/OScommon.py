@@ -75,6 +75,8 @@ flags = {
 	"AGATEEEASFGlobal":"agate",
 	"marble_demo":"marble",
 	"MARBLEDEMO":"marble",
+	"vermeer_eea_global":"vermeer",
+	"VERMEEREEAGlobal":"vermeer",
 	"venus_id_global":"venus",
 	"VENUSIDGlobal":"venus",
 	"cmi_eea_global":"cmi",

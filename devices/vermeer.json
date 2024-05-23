@@ -285,6 +285,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲ThreeHK运营商定制版",
+				"en": "Xiaomi HyperOS Europe ThreeHK Carrier Edition"
+			},
+			"branchCode": "vermeer_eea_global",
+			"idtag": "EUHG",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNKEUXM": {
+					"os": "OS1.0.2.0.UNKEUXM",
+					"android": "14.0",
+					"release": "2024-05-23",
+					"recovery": "miui_VERMEEREEAGlobal_OS1.0.2.0.UNKEUXM_9d0e404c4a_14.0.zip",
+					"fastboot": "vermeer_eea_global_images_OS1.0.2.0.UNKEUXM_20240315.0000.00_14.0_eea_36a90e58d3.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
