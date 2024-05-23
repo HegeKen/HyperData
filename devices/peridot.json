@@ -1,8 +1,8 @@
 {
 	"device": "peridot",
 	"name": {
-		"zh": "Redmi Turbo 3",
-		"en": "Redmi Turbo 3"
+		"zh": "Redmi Turbo 3 / POCO F6",
+		"en": "Redmi Turbo 3 / POCO F6"
 	},
 	"type": "phone",
 	"miui": "no",
@@ -159,6 +159,98 @@
 					"recovery": "miui_PERIDOTDEMO_OS1.0.4.0.UNPCNDM_df03cf9d40_14.0.zip",
 					"fastboot": "peridot_demo_images_OS1.0.4.0.UNPCNDM_20240408.0000.00_14.0_cn_dded35fc8d.tgz",
 					"ctelecom": "peridot_demo_images_OS1.0.4.0.UNPCNDM_20240408.0000.00_14.0_cn_chinatelecom_2a5f9a4bc6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "peridot_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNPMIXM": {
+					"os": "OS1.0.3.0.UNPMIXM",
+					"android": "14.0",
+					"release": "2024-05-23",
+					"recovery": "miui_PERIDOTGlobal_OS1.0.3.0.UNPMIXM_526df1d0da_14.0.zip",
+					"fastboot": "peridot_global_images_OS1.0.3.0.UNPMIXM_20240423.0000.00_14.0_global_def2cc80f3.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "peridot_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNPEUXM": {
+					"os": "OS1.0.1.0.UNPEUXM",
+					"android": "14.0",
+					"release": "2024-05-23",
+					"recovery": "miui_PERIDOTEEAGlobal_OS1.0.1.0.UNPEUXM_19970ce1a9_14.0.zip",
+					"fastboot": "peridot_eea_global_images_OS1.0.1.0.UNPEUXM_20240423.0000.00_14.0_eea_0d5d1b589f.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "peridot_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNPRUXM": {
+					"os": "OS1.0.2.0.UNPRUXM",
+					"android": "14.0",
+					"release": "2024-05-23",
+					"recovery": "miui_PERIDOTRUGlobal_OS1.0.2.0.UNPRUXM_96400a5ee3_14.0.zip",
+					"fastboot": "peridot_ru_global_images_OS1.0.2.0.UNPRUXM_20240426.0000.00_14.0_ru_2fed561479.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "peridot_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNPINXM": {
+					"os": "OS1.0.2.0.UNPINXM",
+					"android": "14.0",
+					"release": "2024-05-23",
+					"recovery": "miui_PERIDOTINGlobal_OS1.0.2.0.UNPINXM_b94b61097d_14.0.zip",
+					"fastboot": "peridot_in_global_images_OS1.0.2.0.UNPINXM_20240423.0000.00_14.0_in_efdbc7f157.tgz"
 				}
 			}
 		}
