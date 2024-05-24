@@ -14,6 +14,7 @@
 			},
 			"branchCode": "sheng_pre_dpp",
 			"idtag": "ADPC",
+			"url": "https://www.xiaomi.cn/post/44582045",
 			"branchtag": "X",
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -21,13 +22,23 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.240520.1.VNXCNXM.PRE-DPP": {
+					"os": "OS1.0.240520.1.VNXCNXM.PRE-DPP",
+					"android": "15.0",
+					"release": "2024-05-24",
+					"recovery": "miui_SHENGPREDPP_OS1.0.240520.1.VNXCNXM.PRE-DPP_e62fdc3584_15.0.zip",
+					"fastboot": "",
+					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_SHENGPREDPP_OS1.0.240520.1.VNXCNXM.PRE-DPP_e62fdc3584_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=zQoWgPOs4iKSmfz6JVU/gq3nyt8=",
+					"originfb":""
+				},
 				"24.5.10.1": {
 					"os": "24.5.10.1",
 					"android": "15.0",
 					"release": "2024-05-16",
 					"recovery": "",
+					"originrec": "",
 					"fastboot": "sheng_pre_dpp_images_24.5.10.1_20240510.0000.00_15.0_cn_acbb9e4acb.tgz",
-					"origin":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_24.5.10.1_20240510.0000.00_15.0_cn_acbb9e4acb.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=IOy3FMYfDuJx4JIhf0SEVR8CRSw="
+					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_24.5.10.1_20240510.0000.00_15.0_cn_acbb9e4acb.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=IOy3FMYfDuJx4JIhf0SEVR8CRSw="
 				}
 			}
 		},
@@ -38,6 +49,7 @@
 			},
 			"branchCode": "sheng_pre_dpp_global",
 			"idtag": "ADPG",
+			"url": "https://new.c.mi.com/global/post/951812",
 			"branchtag": "X",
 			"show": "1",
 			"carrier": [""],
@@ -45,13 +57,23 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.240516.1.VNCMIXM.PRE-DPP": {
+					"os": "OS1.0.240516.1.VNCMIXM.PRE-DPP",
+					"android": "15.0",
+					"release": "2024-05-24",
+					"recovery": "miui_HOUJIPREDPPGlobal_OS1.0.240516.1.VNCMIXM.PRE-DPP_a552800433_15.0.zip",
+					"fastboot": "",
+					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPPGlobal_OS1.0.240516.1.VNCMIXM.PRE-DPP_a552800433_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=MbUU5ci4w+keWAv3+a2gqXTllW8=",
+					"originfb":""
+				},
 				"24.5.10": {
 					"os": "24.5.10",
 					"android": "15.0",
 					"release": "2024-05-16",
 					"recovery": "",
+					"originrec": "",
 					"fastboot": "sheng_pre_dpp_global_images_24.5.10_20240510.0000.00_15.0_global_8ebfe94fbe.tgz",
-					"origin":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_global_images_24.5.10_20240510.0000.00_15.0_global_8ebfe94fbe.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=rfEJKYdBrltbYycvKDFY9FCawK0="
+					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_global_images_24.5.10_20240510.0000.00_15.0_global_8ebfe94fbe.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=rfEJKYdBrltbYycvKDFY9FCawK0="
 				}
 			}
 		},
