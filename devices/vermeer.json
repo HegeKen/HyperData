@@ -255,6 +255,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "vermeer_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNKTWXM": {
+					"os": "OS1.0.1.0.UNKTWXM",
+					"android": "14.0",
+					"release": "2024-05-24",
+					"recovery": "miui_VERMEERTWGlobal_OS1.0.1.0.UNKTWXM_21c9ba4d5a_14.0.zip",
+					"fastboot": "vermeer_tw_global_images_OS1.0.1.0.UNKTWXM_20240327.0000.00_14.0_tw_dbf3621eb5.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
