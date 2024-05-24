@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.05.23 20:43:09",
+		"time": "2024.05.24 11:55:32",
 		"roms": [
 			{
 				"code": "umi",
@@ -16,7 +16,7 @@
 					"zh": "小米 11 Pro / Ultra",
 					"en": "Xiaomi 11 Pro / Ultra"
 				},
-				"rom": "OS1.0.2.0.UKAINXM"
+				"rom": "OS1.0.1.0.UKAEUXM; OS1.0.2.0.UKAINXM"
 			},
 			{
 				"code": "lisa",
@@ -51,12 +51,20 @@
 				"rom": "OS1.0.7.0.ULIEUXM"
 			},
 			{
+				"code": "plato",
+				"name": {
+					"zh": "小米 12T",
+					"en": "Xiaomi 12T"
+				},
+				"rom": "OS1.0.9.0.ULQMIXM"
+			},
+			{
 				"code": "aristotle",
 				"name": {
 					"zh": "小米 13T",
 					"en": "Xiaomi 13T"
 				},
-				"rom": "OS1.0.2.0.UMFRUXM"
+				"rom": "OS1.0.2.0.UMFRUXM; OS1.0.3.0.UMFIDXM"
 			},
 			{
 				"code": "aurora",
@@ -80,7 +88,7 @@
 					"zh": "小米平板 6",
 					"en": "Xiaomi Pad 6"
 				},
-				"rom": "OS1.0.4.0.UMZINXM; OS1.0.4.0.UMZIDXM; OS1.0.4.0.UMZTRXM"
+				"rom": "OS1.0.4.0.UMZTWXM; OS1.0.6.0.UMZRUXM; OS1.0.4.0.UMZINXM; OS1.0.4.0.UMZIDXM; OS1.0.4.0.UMZTRXM"
 			},
 			{
 				"code": "earth",
@@ -123,6 +131,14 @@
 				"rom": "OS1.0.2.0.UMOTWXM; OS1.0.2.0.UMOTRXM"
 			},
 			{
+				"code": "redwood",
+				"name": {
+					"zh": "Redmi Note 12 Pro 极速版",
+					"en": "Redmi Note 12 Pro Speed"
+				},
+				"rom": "OS1.0.4.0.UMSEUXM"
+			},
+			{
 				"code": "zircon",
 				"name": {
 					"zh": "Redmi Note 13 Pro+",
@@ -145,6 +161,14 @@
 					"en": "Redmi Turbo 3"
 				},
 				"rom": "OS1.0.3.0.UNPMIXM; OS1.0.1.0.UNPEUXM; OS1.0.2.0.UNPRUXM; OS1.0.2.0.UNPINXM"
+			},
+			{
+				"code": "alioth",
+				"name": {
+					"zh": "Redmi K40",
+					"en": "Redmi K40"
+				},
+				"rom": "OS1.0.1.0.TKHTWXM"
 			},
 			{
 				"code": "munch",
