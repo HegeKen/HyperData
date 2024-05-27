@@ -105,6 +105,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "xaga_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULOINXM": {
+					"os": "OS1.0.1.0.ULOINXM",
+					"android": "14.0",
+					"release": "2024-05-27",
+					"recovery": "miui_XAGAINGlobal_OS1.0.1.0.ULOINXM_fb3b9fb999_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
