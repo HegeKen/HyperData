@@ -65,6 +65,8 @@ flags = {
 	"AURORARUGlobal":"aurora",
 	"venus_global":"venus",
 	"VENUSGlobal":"venus",
+	"peridot_id_global": "peridot",
+  "PERIDOTIDGlobal": "peridot",
 	"vermeer_tw_global":"vermeer",
 	"VERMEERTWGlobal":"vermeer",
 	"xaga_eea_global":"xaga",
