@@ -63,6 +63,8 @@ flags = {
 	"klein":"klein",
 	"xun_in_global":"xun",
 	"XUNINGlobal":"xun",
+	"vili_eea_tf_global":"vili",
+	"VILIEEATFGlobal":"vili",
 	"ALIOTHTWGlobal":"alioth",
 	"alioth_tw_global":"alioth",
 	"aurora_ru_global":"aurora",
