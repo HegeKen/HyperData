@@ -61,6 +61,8 @@ flags = {
 	"star_eea_global":"star",
 	"klein_demo":"klein",
 	"klein":"klein",
+	"fuxi_ep_stdee": "fuxi",
+	"FUXIEPSTDEE":"fuxi",
 	"xun_in_global":"xun",
 	"XUNINGlobal":"xun",
 	"vili_eea_tf_global":"vili",

@@ -309,6 +309,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "fuxi_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.3.15.EP.STDEE.M3": {
+					"os": "OS1.0.24.3.15.EP.STDEE.M3",
+					"android": "14.0",
+					"release": "2024-05-29",
+					"recovery": "miui_FUXIEPSTDEE_OS1.0.24.3.15.EP.STDEE.M3_39a59ed2b0_14.0.zip",
+					"fastboot": "fuxi_ep_stdee_images_OS1.0.24.3.15.EP.STDEE.M3_20240315.0000.00_14.0_cn_3191f7a5c3.tgz",
+					"ctelecom": "fuxi_ep_stdee_images_OS1.0.24.3.15.EP.STDEE.M3_20240315.0000.00_14.0_cn_chinatelecom_eb4211590e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},
