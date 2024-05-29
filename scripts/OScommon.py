@@ -21,7 +21,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["ruan", "breeze", "vili", "odin", "dizi", "peridot", "rembrandt", 
+currentStable = ["klein", "ruan", "breeze", "vili", "odin", "dizi", "peridot", "rembrandt", 
 								 "pearl", "star", "venus", "alioth", "munch", "haydn", "xaga", "thyme", "cas", "umi", "cmi",
 								 "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
 								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
@@ -59,6 +59,10 @@ flags = {
 	"garnet_global": "garnet",
 	"STAREEAGlobal":"star",
 	"star_eea_global":"star",
+	"klein_demo":"klein",
+	"klein":"klein",
+	"xun_in_global":"xun",
+	"XUNINGlobal":"xun",
 	"ALIOTHTWGlobal":"alioth",
 	"alioth_tw_global":"alioth",
 	"aurora_ru_global":"aurora",
