@@ -1,8 +1,8 @@
 {
 	"device": "breeze",
 	"name": {
-		"zh": "Redmi 13 5G / POCO M6 Plus 5G",
-		"en": "Redmi 13 5G / POCO M6 Plus 5G"
+		"zh": "Redmi Note 13R 5G / POCO M6 Plus 5G",
+		"en": "Redmi Note 13R 5G / POCO M6 Plus 5G"
 	},
 	"type": "phone",
 	"miui": "no",
@@ -21,12 +21,35 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"": {
-					"os": "",
+				"OS1.0.2.0.UNUCNXM": {
+					"os": "OS1.0.2.0.UNUCNXM",
+					"android": "14.0",
+					"release": "2024-05-30",
+					"recovery": "",
+					"fastboot": "breeze_images_OS1.0.2.0.UNUCNXM_20240425.0000.00_14.0_cn_3d4402831e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "breeze",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNUCNXM": {
+					"os": "OS1.0.2.0.UNUCNXM",
 					"android": "14.0",
 					"release": "",
 					"recovery": "",
-					"fastboot": ""
+					"fastboot": "breeze_images_OS1.0.2.0.UNUCNXM_20240425.0000.00_14.0_cn_chinatelecom_108fb50296.tgz"
 				}
 			}
 		},
@@ -44,10 +67,10 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"": {
-					"os": "",
+				"OS1.0.1.0.UNUCNDM": {
+					"os": "OS1.0.1.0.UNUCNDM",
 					"android": "14.0",
-					"release": "",
+					"release": "2024-05-30",
 					"recovery": "",
 					"fastboot": "",
 					"ctelecom": ""
