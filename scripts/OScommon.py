@@ -32,7 +32,7 @@ currentStable = ["klein", "ruan", "breeze", "vili", "odin", "dizi", "peridot", "
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["vermeer", "ruan", "dizi", "peridot", "aurora", 
+only_os = ["klein", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
 					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
 onedevices = ["blue"]
@@ -59,6 +59,8 @@ flags = {
 	"garnet_global": "garnet",
 	"STAREEAGlobal":"star",
 	"star_eea_global":"star",
+	"PERIDOTTWGlobal":"peridot",
+	"peridot_tw_global":"peridot",
 	"klein_demo":"klein",
 	"klein":"klein",
 	"fuxi_ep_stdee": "fuxi",

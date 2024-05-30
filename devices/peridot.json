@@ -171,6 +171,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "peridot_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNPTWXM": {
+					"os": "OS1.0.2.0.UNPTWXM",
+					"android": "14.0",
+					"release": "2024-05-30",
+					"recovery": "miui_PERIDOTTWGlobal_OS1.0.2.0.UNPTWXM_accb51eab8_14.0.zip",
+					"fastboot": "peridot_tw_global_images_OS1.0.2.0.UNPTWXM_20240524.0000.00_14.0_tw_33d280f7ac.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
