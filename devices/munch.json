@@ -55,6 +55,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "munch_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULMTWXM": {
+					"os": "OS1.0.1.0.ULMTWXM",
+					"android": "14.0",
+					"release": "2024-05-31",
+					"recovery": "miui_MUNCHTWGlobal_OS1.0.1.0.ULMTWXM_b343b95031_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -164,6 +187,29 @@
 					"android": "14.0",
 					"release": "2024-05-20",
 					"recovery": "miui_MUNCHIDGlobal_OS1.0.1.0.ULMIDXM_8786270538_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "munch_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULMTRXM": {
+					"os": "OS1.0.1.0.ULMTRXM",
+					"android": "14.0",
+					"release": "2024-05-31",
+					"recovery": "miui_MUNCHTRGlobal_OS1.0.1.0.ULMTRXM_11cbd5657d_14.0.zip",
 					"fastboot": ""
 				}
 			}
