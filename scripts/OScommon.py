@@ -67,6 +67,8 @@ flags = {
 	"MUNCHTRGlobal":"munch",
 	"munch_tw_global":"munch",
 	"MUNCHTWGlobal":"munch",
+	"veux_eea_tf_global":"veux",
+	"VEUXEEATFGlobal":"veux",
 	"fuxi_ep_stdee": "fuxi",
 	"FUXIEPSTDEE":"fuxi",
 	"xun_in_global":"xun",

@@ -147,6 +147,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Telefonica运营商定制版",
+				"en": "Xiaomi HyperOS Europe Telefonica Carrier Edition"
+			},
+			"branchCode": "veux_eea_tf_global",
+			"idtag": "EUTF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKCEUTF": {
+					"os": "OS1.0.2.0.TKCEUTF",
+					"android": "13.0",
+					"release": "2024-05-31",
+					"recovery": "miui_VEUXEEATFGlobal_OS1.0.2.0.TKCEUTF_80501f204a_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
