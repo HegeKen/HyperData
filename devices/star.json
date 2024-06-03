@@ -78,6 +78,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "star_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKAMIXM": {
+					"os": "OS1.0.2.0.UKAMIXM",
+					"android": "14.0",
+					"release": "2024-06-03",
+					"recovery": "miui_STARGlobal_OS1.0.2.0.UKAMIXM_c5850393fb_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -119,6 +142,29 @@
 					"release": "2024-05-20",
 					"recovery": "miui_STARINGlobal_OS1.0.2.0.UKAINXM_2c501448a3_14.0.zip",
 					"fastboot": "star_in_global_images_OS1.0.2.0.UKAINXM_20240430.0000.00_14.0_in_9fed91efc6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "star_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKAIDXM": {
+					"os": "OS1.0.2.0.UKAIDXM",
+					"android": "14.0",
+					"release": "2024-06-03",
+					"recovery": "miui_STARIDGlobal_OS1.0.2.0.UKAIDXM_d8e0ceb782_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
