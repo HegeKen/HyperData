@@ -259,6 +259,29 @@
 					"fastboot": "veux_tr_global_images_OS1.0.1.0.TKCTRXM_20240416.0000.00_13.0_tr_9f473075f2.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "veux_jp_global",
+			"idtag": "JAPS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCJPXM": {
+					"os": "OS1.0.1.0.TKCJPXM",
+					"android": "13.0",
+					"release": "2024-06-03",
+					"recovery": "miui_VEUXJPGlobal_OS1.0.1.0.TKCJPXM_8d8cb893dd_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

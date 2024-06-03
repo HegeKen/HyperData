@@ -73,6 +73,8 @@ flags = {
 	"MUNCHTWGlobal":"munch",
 	"veux_eea_tf_global":"veux",
 	"VEUXEEATFGlobal":"veux",
+	"veux_jp_global":"veux",
+	"VEUXJPGlobal":"veux",
 	"dizi_global":"dizi",
 	"DIZIGlobal":"dizi",
 	"fuxi_ep_stdee": "fuxi",
