@@ -75,6 +75,8 @@ flags = {
 	"MUNCHTRGlobal":"munch",
 	"munch_tw_global":"munch",
 	"MUNCHTWGlobal":"munch",
+	"opal_eea_vf_global":"opal",
+	"OPALEEAVFGlobal":"opal",
 	"veux_eea_tf_global":"veux",
 	"VEUXEEATFGlobal":"veux",
 	"veux_jp_global":"veux",
