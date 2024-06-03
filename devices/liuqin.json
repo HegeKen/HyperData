@@ -46,6 +46,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "liuqin_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.3.25.EP.STDEE.M81": {
+					"os": "OS1.0.24.3.25.EP.STDEE.M81",
+					"android": "14.0",
+					"release": "2024-06-03",
+					"recovery": "miui_LIUQINEPSTDEE_OS1.0.24.3.25.EP.STDEE.M81_ebbdaf9d83_14.0.zip",
+					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.3.25.EP.STDEE.M81_20240325.0000.00_14.0_cn_020bb98ddc.tgz",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},
