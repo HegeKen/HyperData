@@ -21,6 +21,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.12.0.UNSCNXM": {
+					"os": "OS1.0.12.0.UNSCNXM",
+					"android": "14.0",
+					"release": "2024-06-05",
+					"recovery": "miui_DIZI_OS1.0.12.0.UNSCNXM_a03b3ccfc3_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.10.0.UNSCNXM": {
 					"os": "OS1.0.10.0.UNSCNXM",
 					"android": "14.0",
@@ -109,6 +116,52 @@
 					"release": "2024-06-02",
 					"recovery": "miui_DIZIGlobal_OS1.0.2.0.UNSMIXM_6fbe279b3b_14.0.zip",
 					"fastboot": "dizi_global_images_OS1.0.2.0.UNSMIXM_20240524.0000.00_14.0_global_e9e6816b35.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "dizi_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNSRUXM": {
+					"os": "OS1.0.2.0.UNSRUXM",
+					"android": "14.0",
+					"release": "2024-06-05",
+					"recovery": "",
+					"fastboot": "dizi_ru_global_images_OS1.0.2.0.UNSRUXM_20240524.0000.00_14.0_ru_07a5055963.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "dizi_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNSIDXM": {
+					"os": "OS1.0.2.0.UNSIDXM",
+					"android": "14.0",
+					"release": "2024-06-05",
+					"recovery": "",
+					"fastboot": "dizi_id_global_images_OS1.0.2.0.UNSIDXM_20240525.0000.00_14.0_id_c14667c6f8.tgz"
 				}
 			}
 		}
