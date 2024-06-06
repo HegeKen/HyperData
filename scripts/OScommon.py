@@ -21,7 +21,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["klein", "ruan", "breeze", "vili", "odin", "dizi", "peridot", "rembrandt", 
+currentStable = ["moon", "klein", "ruan", "breeze", "vili", "odin", "dizi", "peridot", "rembrandt", 
 								 "pearl", "star", "venus", "alioth", "munch", "haydn", "xaga", "thyme", "cas", "umi", "cmi",
 								 "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
 								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
@@ -32,8 +32,9 @@ currentStable = ["klein", "ruan", "breeze", "vili", "odin", "dizi", "peridot", "
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["klein", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
-					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
+only_os = ["moon", "klein", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
+					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t",
+					 "degas", "goku", "rothko", "ruyi", "tides"]
 
 onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
@@ -71,6 +72,8 @@ flags = {
 	"LIUQINEPSTDEE":"liuqin",
 	"pipa_ep_stdee":"pipa",
 	"PIPAEPSTDEE":"pipa",
+	"MOONGlobal":"moon",
+	"moon_global":"moon",
 	"star_global":"star",
 	"STARGlobal":"star",
 	"star_id_global":"star",

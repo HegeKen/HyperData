@@ -1,56 +1,32 @@
 {
 	"device": "moon",
 	"name": {
-		"zh": "Redmi 13",
-		"en": "Redmi 13"
+		"zh": "Redmi 13 / POCO M6",
+		"en": "Redmi 13 / POCO M6"
 	},
 	"type": "phone",
 	"miui": "no",
 	"branches": [
 		{
 			"name": {
-				"zh": "小米澎湃 OS 正式版",
-				"en": "Xiaomi HyperOS Stable"
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
 			},
-			"branchCode": "moon",
-			"idtag": "CnOO",
+			"branchCode": "moon_global",
+			"idtag": "GBOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"region": "cn",
-			"zone": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
 			"ep": "0",
 			"roms": {
-				"": {
-					"os": "",
+				"OS1.0.4.0.UNTMIXM": {
+					"os": "OS1.0.4.0.UNTMIXM",
 					"android": "14.0",
-					"release": "",
-					"recovery": "",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 演示机系统",
-				"en": "Xiaomi HyperOS China MiStore Demo"
-			},
-			"branchCode": "ruan_demo",
-			"idtag": "CnOD",
-			"branchtag": "F",
-			"show": "0",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"": {
-					"os": "",
-					"android": "14.0",
-					"release": "",
-					"recovery": "",
-					"fastboot": "",
-					"ctelecom": ""
+					"release": "2024-06-06",
+					"recovery": "miui_MOONGlobal_OS1.0.4.0.UNTMIXM_9fcb952d2b_14.0.zip",
+					"fastboot": "moon_global_images_OS1.0.4.0.UNTMIXM_20240517.0000.00_14.0_global_faf28c7dd8.tgz"
 				}
 			}
 		}
