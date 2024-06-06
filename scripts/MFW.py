@@ -17,7 +17,7 @@ for element in elements:
   elif "-firmware" in link:
     urls.append(link)
   elif ".zip" in link or ".tgz" in link:
-    OScommon.checkExist(link.split('/')[4])
+    OScommon.checkExist(link.split('/')[-1])
   else:
     i = 0
 driver.quit()
