@@ -68,6 +68,8 @@ flags = {
 	"DIZIRUGlobal":"dizi",
 	"dizi_id_global":"dizi",
 	"DIZIIDGlobal":"dizi",
+	"dizi_tw_global": "dizi",
+  "DIZITWGlobal": "dizi",
 	"liuqin_ep_stdee":"liuqin",
 	"LIUQINEPSTDEE":"liuqin",
 	"pipa_ep_stdee":"pipa",
