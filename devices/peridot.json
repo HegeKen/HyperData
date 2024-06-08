@@ -139,6 +139,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "peridot_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.6.5.EP.STDEE.N16T": {
+					"os": "OS1.0.24.6.5.EP.STDEE.N16T",
+					"android": "14.0",
+					"release": "2024-06-08",
+					"recovery": "miui_PERIDOTEPSTDEE_OS1.0.24.6.5.EP.STDEE.N16T_ce54e9d982_14.0.zip",
+					"fastboot": "peridot_ep_stdee_images_OS1.0.24.6.5.EP.STDEE.N16T_20240605.0000.00_14.0_cn_c217ae0119.tgz",
+					"ctelecom": "peridot_ep_stdee_images_OS1.0.24.6.5.EP.STDEE.N16T_20240605.0000.00_14.0_cn_chinatelecom_a9a47443f7.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},

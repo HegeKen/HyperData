@@ -70,6 +70,8 @@ flags = {
 	"DIZIIDGlobal":"dizi",
 	"dizi_tw_global": "dizi",
   "DIZITWGlobal": "dizi",
+	"peridot_ep_stdee":"peridot",
+	"PERIDOTEPSTDEE":"peridot",
 	"liuqin_ep_stdee":"liuqin",
 	"LIUQINEPSTDEE":"liuqin",
 	"pipa_ep_stdee":"pipa",
