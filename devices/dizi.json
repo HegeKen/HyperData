@@ -33,7 +33,8 @@
 					"android": "14.0",
 					"release": "2024-04-30",
 					"recovery": "miui_DIZI_OS1.0.10.0.UNSCNXM_0655389e3b_14.0.zip",
-					"fastboot": "dizi_images_OS1.0.10.0.UNSCNXM_20240425.0000.00_14.0_cn_85dc89676c.tgz"
+					"fastboot": "dizi_images_OS1.0.10.0.UNSCNXM_20240425.0000.00_14.0_cn_31a9bac0e0.tgz",
+					"origin": "dizi_images_OS1.0.10.0.UNSCNXM_20240425.0000.00_14.0_cn_85dc89676c.tgz"
 				},
 				"OS1.0.7.0.UNSCNXM": {
 					"os": "OS1.0.7.0.UNSCNXM",
@@ -110,12 +111,20 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.3.0.UNSTWXM": {
+					"os": "OS1.0.3.0.UNSTWXM",
+					"android": "14.0",
+					"release": "",
+					"recovery": "miui_DIZITWGlobal_OS1.0.3.0.UNSTWXM_5dceef0e81_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.2.0.UNSTWXM": {
 					"os": "OS1.0.2.0.UNSTWXM",
 					"android": "14.0",
 					"release": "2024-06-07",
 					"recovery": "miui_DIZITWGlobal_OS1.0.2.0.UNSTWXM_ef19b002e6_14.0.zip",
-					"fastboot": "dizi_tw_global_images_OS1.0.2.0.UNSTWXM_20240514.0000.00_14.0_tw_40c4e4d4c7.tgz"
+					"fastboot": "dizi_tw_global_images_OS1.0.2.0.UNSTWXM_20240514.0000.00_14.0_tw_c1e4c617f1.tgz",
+					"origin": "dizi_tw_global_images_OS1.0.2.0.UNSTWXM_20240514.0000.00_14.0_tw_40c4e4d4c7.tgz"
 				}
 			}
 		},
@@ -138,7 +147,8 @@
 					"android": "14.0",
 					"release": "2024-06-02",
 					"recovery": "miui_DIZIGlobal_OS1.0.2.0.UNSMIXM_6fbe279b3b_14.0.zip",
-					"fastboot": "dizi_global_images_OS1.0.2.0.UNSMIXM_20240524.0000.00_14.0_global_e9e6816b35.tgz"
+					"fastboot": "dizi_global_images_OS1.0.2.0.UNSMIXM_20240524.0000.00_14.0_global_dc7f9dcaf7.tgz",
+					"origin": "dizi_global_images_OS1.0.2.0.UNSMIXM_20240524.0000.00_14.0_global_e9e6816b35.tgz"
 				},
 				"OS1.0.1.0.UNSMIXM": {
 					"os": "OS1.0.1.0.UNSMIXM",
@@ -168,7 +178,8 @@
 					"android": "14.0",
 					"release": "2024-06-05",
 					"recovery": "miui_DIZIRUGlobal_OS1.0.2.0.UNSRUXM_5c53235071_14.0.zip",
-					"fastboot": "dizi_ru_global_images_OS1.0.2.0.UNSRUXM_20240524.0000.00_14.0_ru_07a5055963.tgz"
+					"fastboot": "dizi_ru_global_images_OS1.0.2.0.UNSRUXM_20240524.0000.00_14.0_ru_cda8fddae7.tgz",
+					"origin": "dizi_ru_global_images_OS1.0.2.0.UNSRUXM_20240524.0000.00_14.0_ru_07a5055963.tgz"
 				}
 			}
 		},
@@ -191,7 +202,8 @@
 					"android": "14.0",
 					"release": "2024-06-05",
 					"recovery": "miui_DIZIIDGlobal_OS1.0.2.0.UNSIDXM_7f4b285460_14.0.zip",
-					"fastboot": "dizi_id_global_images_OS1.0.2.0.UNSIDXM_20240525.0000.00_14.0_id_c14667c6f8.tgz"
+					"fastboot": "dizi_id_global_images_OS1.0.2.0.UNSIDXM_20240525.0000.00_14.0_id_e3ba34a5ec.tgz",
+					"origin": "dizi_id_global_images_OS1.0.2.0.UNSIDXM_20240525.0000.00_14.0_id_c14667c6f8.tgz"
 				}
 			}
 		}
