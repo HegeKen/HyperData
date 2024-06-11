@@ -147,6 +147,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "venus_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKBRUXM": {
+					"os": "OS1.0.1.0.UKBRUXM",
+					"android": "14.0",
+					"release": "2024-06-11",
+					"recovery": "miui_VENUSRUGlobal_OS1.0.1.0.UKBRUXM_43b8103b30_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonesia Stable"
 			},

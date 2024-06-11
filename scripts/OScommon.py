@@ -96,6 +96,8 @@ flags = {
 	"VENUSTRGlobal":"venus",
 	"venus_tw_global":"venus",
 	"VENUSTWGlobal":"venus",
+	"venus_ru_global":"venus",
+	"VENUSRUGlobal":"venus",
 	"dizi_global":"dizi",
 	"DIZIGlobal":"dizi",
 	"fuxi_ep_stdee": "fuxi",
