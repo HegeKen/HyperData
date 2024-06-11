@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.06.11 13:58:06",
+		"time": "2024.06.11 17:05:43",
 		"roms": [
 			{
 				"code": "venus",
@@ -9,6 +9,14 @@
 					"en": "Xiaomi 11"
 				},
 				"rom": "OS1.0.1.0.UKBTWXM; OS1.0.1.0.UKBTRXM"
+			},
+			{
+				"code": "agate",
+				"name": {
+					"zh": "小米 11T",
+					"en": "Xiaomi 11T"
+				},
+				"rom": "OS1.0.3.0.UKWTWXM; OS1.0.3.0.UKWIDXM; OS1.0.3.0.UKWTRXM"
 			},
 			{
 				"code": "aurora",
@@ -27,12 +35,44 @@
 				"rom": "OS1.0.5.0.UMWMIXM"
 			},
 			{
+				"code": "light",
+				"name": {
+					"zh": "Redmi Note 11E",
+					"en": "Redmi Note 11E"
+				},
+				"rom": "OS1.0.5.0.ULSMIXM; OS1.0.4.0.ULSEUXM"
+			},
+			{
+				"code": "sweet_k6a",
+				"name": {
+					"zh": "Redmi Note 12 Pro 4G",
+					"en": "Redmi Note 12 Pro 4G"
+				},
+				"rom": "OS1.0.3.0.THGEUXM"
+			},
+			{
+				"code": "sea",
+				"name": {
+					"zh": "Redmi Note 12S 国际",
+					"en": "Redmi Note 12S"
+				},
+				"rom": "OS1.0.3.0.UHZRUXM"
+			},
+			{
 				"code": "gold",
 				"name": {
 					"zh": "Redmi Note 13 5G",
 					"en": "Redmi Note 13 5G"
 				},
 				"rom": "OS1.0.10.0.UNQEUXM"
+			},
+			{
+				"code": "rock",
+				"name": {
+					"zh": "POCO M5",
+					"en": "POCO M5"
+				},
+				"rom": "OS1.0.5.0.ULUIDXM"
 			}
 		]
 	}
