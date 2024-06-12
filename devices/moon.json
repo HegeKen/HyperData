@@ -29,6 +29,52 @@
 					"fastboot": "moon_global_images_OS1.0.4.0.UNTMIXM_20240517.0000.00_14.0_global_faf28c7dd8.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "moon_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNTEUXM": {
+					"os": "OS1.0.1.0.UNTEUXM",
+					"android": "14.0",
+					"release": "2024-06-12",
+					"recovery": "miui_MOONEEAGlobal_OS1.0.1.0.UNTEUXM_da6a18f056_14.0.zip",
+					"fastboot": "moon_eea_global_images_OS1.0.1.0.UNTEUXM_20240419.0000.00_14.0_eea_a66d6acbda.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "moon_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNTIDXM": {
+					"os": "OS1.0.1.0.UNTIDXM",
+					"android": "14.0",
+					"release": "2024-06-12",
+					"recovery": "miui_MOONIDGlobal_OS1.0.1.0.UNTIDXM_6d70191c72_14.0.zip",
+					"fastboot": "moon_id_global_images_OS1.0.1.0.UNTIDXM_20240419.0000.00_14.0_id_23ebd856a6.tgz"
+				}
+			}
 		}
 	]
 }
