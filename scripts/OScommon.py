@@ -21,7 +21,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["moon", "klein", "ruan", "breeze", "vili", "odin", "dizi", "peridot", "rembrandt", 
+currentStable = ["moon", "ruan", "breeze", "vili", "odin", "dizi", "peridot", "rembrandt", 
 								 "pearl", "star", "venus", "alioth", "munch", "haydn", "xaga", "thyme", "cas", "umi", "cmi",
 								 "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
 								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
@@ -32,7 +32,7 @@ currentStable = ["moon", "klein", "ruan", "breeze", "vili", "odin", "dizi", "per
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
 								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["moon", "klein", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
+only_os = ["moon", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
 					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t",
 					 "degas", "goku", "rothko", "ruyi", "tides"]
 
