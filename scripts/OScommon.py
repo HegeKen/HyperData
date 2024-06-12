@@ -84,6 +84,8 @@ flags = {
 	"moon_global":"moon",
 	"moon_ru_global":"moon",
 	"MOONRUGlobal":"moon",
+	"venus_eea_tf_global":"venus",
+	"VENUSEEATFGlobal":"venus",
 	"star_global":"star",
 	"STARGlobal":"star",
 	"star_id_global":"star",
