@@ -90,6 +90,8 @@ flags = {
 	"MUNCHTRGlobal":"munch",
 	"munch_tw_global":"munch",
 	"MUNCHTWGlobal":"munch",
+	"light_th_as_global":"light",
+	"LIGHTTHASGlobal":"light",
 	"opal_eea_vf_global":"opal",
 	"OPALEEAVFGlobal":"opal",
 	"veux_eea_tf_global":"veux",

@@ -472,6 +472,29 @@
 					"fastboot": "light_tr_global_images_OS1.0.1.0.ULSTRXM_20240229.0000.00_14.0_tr_a237857613.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 泰国AIS运营商定制版",
+				"en": "Xiaomi HyperOS Thailand AIS Carrier Edtion"
+			},
+			"branchCode": "light_th_as_global",
+			"idtag": "THAS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULSTHAS": {
+					"os": "OS1.0.1.0.ULSTHAS",
+					"android": "14.0",
+					"release": "",
+					"recovery": "miui_LIGHTTHASGlobal_OS1.0.1.0.ULSTHAS_92e2196b88_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
