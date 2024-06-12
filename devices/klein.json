@@ -6,53 +6,5 @@
 	},
 	"type": "phone",
 	"miui": "no",
-	"branches": [
-		{
-			"name": {
-				"zh": "小米澎湃 OS 正式版",
-				"en": "Xiaomi HyperOS Stable"
-			},
-			"branchCode": "klein",
-			"idtag": "CnOO",
-			"branchtag": "F",
-			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"region": "cn",
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"": {
-					"os": "",
-					"android": "14.0",
-					"release": "",
-					"recovery": "",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 演示机系统",
-				"en": "Xiaomi HyperOS China MiStore Demo"
-			},
-			"branchCode": "klein_demo",
-			"idtag": "CnOD",
-			"branchtag": "F",
-			"show": "0",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"": {
-					"os": "",
-					"android": "14.0",
-					"release": "",
-					"recovery": "",
-					"fastboot": "",
-					"ctelecom": ""
-				}
-			}
-		}
-	]
+	"branches": []
 }

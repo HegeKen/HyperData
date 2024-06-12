@@ -1308,10 +1308,12 @@ def getFromApi(encrypted_data, device):
 		data = miui_decrypt(response.text.split("q=")[0])
 		if "LatestRom" in data:
 			package = data["LatestRom"]["filename"].split("?")[0]
+			# print(package)
 			checkExist(package)
 			return 1
 		if "CrossRom" in data:
 			package = data["CrossRom"]["filename"].split("?")[0]
+			# print(package)
 			checkExist(package)
 			return 1
 		else:
