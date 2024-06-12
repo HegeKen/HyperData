@@ -1,8 +1,8 @@
 {
 	"device": "moon",
 	"name": {
-		"zh": "Redmi 13 / POCO M6",
-		"en": "Redmi 13 / POCO M6"
+		"zh": "Redmi 13 / POCO M6 4G",
+		"en": "Redmi 13 / POCO M6 4G"
 	},
 	"type": "phone",
 	"miui": "no",
@@ -27,6 +27,20 @@
 					"release": "2024-06-06",
 					"recovery": "miui_MOONGlobal_OS1.0.4.0.UNTMIXM_9fcb952d2b_14.0.zip",
 					"fastboot": "moon_global_images_OS1.0.4.0.UNTMIXM_20240517.0000.00_14.0_global_faf28c7dd8.tgz"
+				},
+				"OS1.0.3.0.UNTMIXM": {
+					"os": "OS1.0.3.0.UNTMIXM",
+					"android": "14.0",
+					"release": "2024-06-06",
+					"recovery": "miui_MOONGlobal_OS1.0.3.0.UNTMIXM_49d359997e_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.1.0.UNTMIXM": {
+					"os": "OS1.0.1.0.UNTMIXM",
+					"android": "14.0",
+					"release": "2024-06-06",
+					"recovery": "miui_MOONGlobal_OS1.0.1.0.UNTMIXM_cf37c262c0_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},
@@ -50,6 +64,36 @@
 					"release": "2024-06-12",
 					"recovery": "miui_MOONEEAGlobal_OS1.0.1.0.UNTEUXM_da6a18f056_14.0.zip",
 					"fastboot": "moon_eea_global_images_OS1.0.1.0.UNTEUXM_20240419.0000.00_14.0_eea_a66d6acbda.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "moon_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNTRUXM": {
+					"os": "OS1.0.3.0.UNTRUXM",
+					"android": "14.0",
+					"release": "2024-06-12",
+					"recovery": "miui_MOONRUGlobal_OS1.0.3.0.UNTRUXM_ca43592647_14.0.zip",
+					"fastboot": "moon_ru_global_images_OS1.0.3.0.UNTRUXM_20240517.0000.00_14.0_ru_89e9406d15.tgz"
+				},
+				"OS1.0.1.0.UNTRUXM": {
+					"os": "OS1.0.1.0.UNTRUXM",
+					"android": "14.0",
+					"release": "2024-06-12",
+					"recovery": "miui_MOONRUGlobal_OS1.0.1.0.UNTRUXM_fc088bae0d_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},

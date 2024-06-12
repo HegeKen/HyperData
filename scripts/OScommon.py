@@ -82,6 +82,8 @@ flags = {
 	"MOONEEAGlobal":"moon",
 	"MOONGlobal":"moon",
 	"moon_global":"moon",
+	"moon_ru_global":"moon",
+	"MOONRUGlobal":"moon",
 	"star_global":"star",
 	"STARGlobal":"star",
 	"star_id_global":"star",
