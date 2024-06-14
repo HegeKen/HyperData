@@ -9,6 +9,29 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "moon_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNTTWXM": {
+					"os": "OS1.0.1.0.UNTTWXM",
+					"android": "14.0",
+					"release": "2024-06-14",
+					"recovery": "miui_MOONTWGlobal_OS1.0.1.0.UNTTWXM_85ae8120d0_14.0.zip",
+					"fastboot": "moon_tw_global_images_OS1.0.1.0.UNTTWXM_20240514.0000.00_14.0_tw_4233868965.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},

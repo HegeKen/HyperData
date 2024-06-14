@@ -26,7 +26,7 @@
 					"android": "14.0",
 					"release": "2024-06-05",
 					"recovery": "miui_DIZI_OS1.0.12.0.UNSCNXM_a03b3ccfc3_14.0.zip",
-					"fastboot": ""
+					"fastboot": "dizi_images_OS1.0.12.0.UNSCNXM_20240528.0000.00_14.0_cn_aa8f2d7c2c.tgz"
 				},
 				"OS1.0.10.0.UNSCNXM": {
 					"os": "OS1.0.10.0.UNSCNXM",
@@ -211,6 +211,29 @@
 					"recovery": "miui_DIZIIDGlobal_OS1.0.2.0.UNSIDXM_7f4b285460_14.0.zip",
 					"fastboot": "dizi_id_global_images_OS1.0.2.0.UNSIDXM_20240525.0000.00_14.0_id_e3ba34a5ec.tgz",
 					"origin": "dizi_id_global_images_OS1.0.2.0.UNSIDXM_20240525.0000.00_14.0_id_c14667c6f8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "dizi_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNSTRXM": {
+					"os": "OS1.0.2.0.UNSTRXM",
+					"android": "14.0",
+					"release": "2024-06-14",
+					"recovery": "miui_DIZITRGlobal_OS1.0.2.0.UNSTRXM_1ebb114e08_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
