@@ -69,6 +69,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "xaga_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULOTWXM": {
+					"os": "OS1.0.1.0.ULOTWXM",
+					"android": "14.0",
+					"release": "2024-06-14",
+					"recovery": "miui_XAGATWGlobal_OS1.0.1.0.ULOTWXM_f60b6c6061_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -133,6 +156,29 @@
 					"release": "2024-05-27",
 					"recovery": "miui_XAGAINGlobal_OS1.0.1.0.ULOINXM_fb3b9fb999_14.0.zip",
 					"fastboot": "xaga_in_global_images_OS1.0.1.0.ULOINXM_20240506.0000.00_14.0_in_6e8dc6f199.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "xaga_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULOTRXM": {
+					"os": "OS1.0.1.0.ULOTRXM",
+					"android": "14.0",
+					"release": "2024-06-14",
+					"recovery": "miui_XAGATRGlobal_OS1.0.1.0.ULOTRXM_3f57a36c9d_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
