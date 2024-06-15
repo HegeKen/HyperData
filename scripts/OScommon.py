@@ -90,6 +90,8 @@ flags = {
 	"XAGATWGlobal":"xaga",
 	"xaga_tr_global":"xaga",
 	"xaga_tw_global":"xaga",
+	"chenfeng_in_global":"chenfeng",
+	"CHENFENGINGlobal":"chenfeng",
 	"dizi_tr_global":"dizi",
 	"DIZITRGlobal":"dizi",
 	"venus_eea_tf_global":"venus",

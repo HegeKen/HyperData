@@ -1,8 +1,8 @@
 {
 	"device": "chenfeng",
 	"name": {
-		"zh": "小米 Civi 4 Pro",
-		"en": "Xiaomi Civi 4 Pro"
+		"zh": "小米 Civi 4 Pro / 小米 14 Civi",
+		"en": "Xiaomi Civi 4 Pro / Xiaomi 14 Civi"
 	},
 	"type": "phone",
 	"miui": "no",
@@ -138,6 +138,29 @@
 					"recovery": "miui_CHENFENGDEMO_OS1.0.3.0.UNJCNDM_46d73e1ce1_14.0.zip",
 					"fastboot": "chenfeng_demo_images_OS1.0.3.0.UNJCNDM_20240314.0000.00_14.0_cn_3862bb6af7.tgz",
 					"ctelecom": "chenfeng_demo_images_OS1.0.3.0.UNJCNDM_20240314.0000.00_14.0_cn_chinatelecom_a46ac33855.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "chenfeng_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNJINXM": {
+					"os": "OS1.0.3.0.UNJINXM",
+					"android": "14.0",
+					"release": "2024-06-15",
+					"recovery": "miui_CHENFENGINGlobal_OS1.0.3.0.UNJINXM_815b0414b4_14.0.zip",
+					"fastboot": "chenfeng_in_global_images_OS1.0.3.0.UNJINXM_20240531.0000.00_14.0_in_46cef3c443.tgz"
 				}
 			}
 		}
