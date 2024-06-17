@@ -121,7 +121,7 @@
 				"OS1.0.3.0.UNSTWXM": {
 					"os": "OS1.0.3.0.UNSTWXM",
 					"android": "14.0",
-					"release": "",
+					"release": "2024-06-08",
 					"recovery": "miui_DIZITWGlobal_OS1.0.3.0.UNSTWXM_5dceef0e81_14.0.zip",
 					"fastboot": ""
 				},
@@ -163,6 +163,29 @@
 					"release": "2024-06-02",
 					"recovery": "miui_DIZIGlobal_OS1.0.1.0.UNSMIXM_61ffc2b631_14.0.zip",
 					"fastboot": "dizi_global_images_OS1.0.1.0.UNSMIXM_20240507.0000.00_14.0_global_4a45ae23fe.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "dizi_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNSEUXM": {
+					"os": "OS1.0.4.0.UNSEUXM",
+					"android": "14.0",
+					"release": "2024-06-17",
+					"recovery": "miui_DIZIEEAGlobal_OS1.0.4.0.UNSEUXM_4a402021d0_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},
@@ -233,7 +256,7 @@
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_DIZITRGlobal_OS1.0.2.0.UNSTRXM_1ebb114e08_14.0.zip",
-					"fastboot": ""
+					"fastboot": "dizi_tr_global_images_OS1.0.2.0.UNSTRXM_20240605.0000.00_14.0_tr_f9fa99140e.tgz"
 				}
 			}
 		}

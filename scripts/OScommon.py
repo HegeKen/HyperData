@@ -64,6 +64,8 @@ flags = {
 	"peridot_tw_global":"peridot",
 	"klein_demo":"klein",
 	"klein":"klein",
+	"dizi_eea_global":"dizi",
+	"DIZIEEAGlobal":"dizi",
 	"dizi_ru_global":"dizi",
 	"DIZIRUGlobal":"dizi",
 	"dizi_id_global":"dizi",
