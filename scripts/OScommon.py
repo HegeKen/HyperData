@@ -1190,7 +1190,27 @@ def getDeviceCode(filename):
 			return 0
 	else:
 		return 0
-
+def OTAFormer(device, code, region, branch, zone, android, version):
+    HyperOSForm['d'] = device
+    if region == 'cn':
+        HyperOSForm['pn'] = code
+        HyperOSForm["r"] = 'CN'
+    else:
+        HyperOSForm["r"] = 'GL'
+        if code == device + "_global":
+            HyperOSForm['pn'] = code
+        else:
+            HyperOSForm['pn'] = code.split('_global')[0]
+    HyperOSForm['b'] = branch
+    HyperOSForm['options']['zone'] = zone
+    if android == '':
+        print(device,version,"请补充安卓版本")
+        HyperOSForm['c'] = '14'
+    else:
+        HyperOSForm['c'] = android.split('.0')[0]
+    HyperOSForm['sdk'] = sdk[android.split('.0')[0]]
+    HyperOSForm['v'] = 'MIUI-'+ version
+    return json.dumps(HyperOSForm)
 
 def checkExist(filename):
 	if "OS" in filename:
@@ -1208,6 +1228,8 @@ def checkExist(filename):
 	else:
 		return "UI Maybe"
 
+def versionAdd(version,add):
+    return version.replace(version.split('.')[2],str(int(version.split('.')[2])+add))
 
 def miui_decrypt(encrypted_response):
 	decipher = AES.new(miui_key, AES.MODE_CBC, miui_iv)
@@ -1268,43 +1290,7 @@ HyperOSForm = {
 }
 
 
-MiOTAForm = {
-	"a": "0",
-	"b": "X",
-	"c": "14",
-	"unlock": "0",
-	"d": "fuxi",
-	"lockZoneChannel": "",
-	"f": "1",
-	"g": "a3e178346e97182fa11631a197801c4d",
-	"channel": "",
-	"i": "4178f5336815cc2a4641611c1619834817ab14bd0b4c7396a55be2f172c95a56",
-	"i2": "b92243889a47bc62dc8b5fb4f50ce60c373553e4221d3ebc4b3bd9791ccaa0a7",
-	"isR": "0",
-	"l": "zh_CN",
-	"sys": "0",
-	"n": "",
-	"p": "fuxi",
-	"r": "CN",
-	"bv": "816",
-	"v": "MIUI-V14.0.23.9.12.DEV",
-	"id": "",
-	"sn": "0x77309938",
-	"sdk": "29",
-	"pn": "fuxi",
-	"options": {
-		"zone": 1,
-		"hashId": "2371ef99a72a282c",
-		"ab": "0",
-		"previewPlan": "0",
-		"sv": 3,
-		"av": "8.2.1",
-		"cv": "V14.0.23.9.12.DEV"
-	}
-}
-
-
-def getFromApi(encrypted_data, device):
+def getFromApi(encrypted_data):
 	headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
 			   "Connection": "Keep-Alive",
 			   "Content-Type": "application/x-www-form-urlencoded",

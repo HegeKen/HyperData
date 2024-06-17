@@ -16,18 +16,18 @@ def os_replace(ver):
 
 
 device = 'zeus'
-OScommon.MiOTAForm['d'] = device + ''
-OScommon.MiOTAForm['R'] = 'CN'
-OScommon.MiOTAForm['b'] = 'F'
-OScommon.MiOTAForm['pn'] = OScommon.MiOTAForm['d'].split('_global')[0]
-OScommon.MiOTAForm['c'] = '14'
-OScommon.MiOTAForm['sdk'] = OScommon.sdk[OScommon.MiOTAForm['c']]
-OScommon.MiOTAForm['p'] = device
-OScommon.MiOTAForm['options']['zone'] = '1'
-OScommon.MiOTAForm['options']['cv'] = os_replace('OS1.0.2.0.ULBCNXM')
-OScommon.MiOTAForm['options']['previewPlan'] = '1'
-OScommon.MiOTAForm['v'] = os_replace('OS1.0.2.0.ULBCNXM')
+OScommon.HyperOSForm['d'] = device + ''
+OScommon.HyperOSForm['R'] = 'CN'
+OScommon.HyperOSForm['b'] = 'F'
+OScommon.HyperOSForm['pn'] = OScommon.HyperOSForm['d'].split('_global')[0]
+OScommon.HyperOSForm['c'] = '14'
+OScommon.HyperOSForm['sdk'] = OScommon.sdk[OScommon.HyperOSForm['c']]
+OScommon.HyperOSForm['p'] = device
+OScommon.HyperOSForm['options']['zone'] = '1'
+OScommon.HyperOSForm['options']['cv'] = os_replace('OS1.0.2.0.ULBCNXM')
+OScommon.HyperOSForm['options']['previewPlan'] = '1'
+OScommon.HyperOSForm['v'] = os_replace('OS1.0.2.0.ULBCNXM')
 
 
-encrypted_form = OScommon.miui_encrypt(json.dumps(OScommon.MiOTAForm))
+encrypted_form = OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm))
 OScommon.getChangelog(encrypted_form, device)

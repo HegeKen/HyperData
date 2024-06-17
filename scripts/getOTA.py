@@ -49,5 +49,5 @@ for device in OScommon.currentStable:
           OScommon.HyperOSForm["v"] = "MIUI-"+ current["os"].replace('OS1','V816')
           OScommon.HyperOSForm["obv"] = current["os"][:5]
           OScommon.HyperOSForm["bv"] = settings[current["os"][:5]]
-        OScommon.getFromApi(OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm)),device)
+        OScommon.getFromApi(OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm)))
     
