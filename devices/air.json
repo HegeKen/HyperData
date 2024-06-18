@@ -52,6 +52,30 @@
 					"fastboot": "air_images_OS1.0.1.0.UGQCNXM_20240510.0000.00_14.0_cn_chinatelecom_7167095577.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "air_ep_stdee",
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.6.11.EP.STDEE.C3V": {
+					"os": "OS1.0.24.6.11.EP.STDEE.C3V",
+					"android": "14.0",
+					"release": "2024-06-18",
+					"recovery": "",
+					"fastboot": "air_ep_stdee_images_OS1.0.24.6.11.EP.STDEE.C3V_20240611.0000.00_14.0_cn_43a95fe8f3.tgz",
+					"ctelecom": "air_ep_stdee_images_OS1.0.24.6.11.EP.STDEE.C3V_20240611.0000.00_14.0_cn_chinatelecom_e21278d0d8.tgz"
+				}
+			}
 		}
 	]
 }

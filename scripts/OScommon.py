@@ -21,16 +21,17 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["moon", "ruan", "breeze", "vili", "odin", "dizi", "peridot", "rembrandt", 
-								 "pearl", "star", "venus", "alioth", "munch", "haydn", "xaga", "thyme", "cas", "umi", "cmi",
-								 "agate", "ares", "aristotle", "aurora", "babylon", "cetus", "chenfeng", "corot", "cupid", "dagu", 
-								 "daumier", "diting", "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", 
-								 "fleur", "fuxi", "gale", "garnet", "gold", "houji", "ingres", "ishtar", "light", "lightcm", "lisa", 
-								 "liuqin", "manet", "marble", "matisse", "mayfly", "mona", "mondrian", "moonstone", "nabu", "nuwa", 
-								 "opal", "pipa", "pissarro", "pissarroin", "plato", "psyche", "redwood", "rock", "rubens", "ruby", 
-								 "sapphiren", "sapphire", "sea", "sheng", "shennong", "shennong_t", "sky", "socrates", "spes", "spesn", 
-								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "topaz", "unicorn", "vermeer", "veux", 
-								 "vida", "viva", "xun", "yudi", "yuechu", "yunluo", "zeus", "zijin", "zircon", "ziyi", "zizhan"]
+currentStable = ["agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
+								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
+								 "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
+								 "gale", "garnet", "gold", "haydn", "houji", "ingres", "ishtar", "light", "lightcm",
+								 "lisa", "liuqin", "manet", "marble", "matisse", "mayfly", "mona", "mondrian", "moon", "moonstone",
+								 "munch", "nabu", "nuwa", "odin", "opal", "pearl", "peridot", "pipa", "pissarro", "pissarroin", "plato",
+								 "psyche", "redwood", "rembrandt", "rock", "ruan", "rubens", "ruby", "sapphire",
+								 "sapphiren", "sea", "sheng", "shennong_t", "shennong", "sky", "socrates", "spes", "spesn", "star",
+								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "thyme", "tides", "topaz", "umi", "unicorn",
+								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
+								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
 only_os = ["moon", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
 					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t",
@@ -96,6 +97,11 @@ flags = {
 	"CHENFENGINGlobal":"chenfeng",
 	"dizi_tr_global":"dizi",
 	"DIZITRGlobal":"dizi",
+	"air_ep_stdee":"air",
+	"AIREPSTDEE":"air",
+	"degas_demo":"degas",
+	"rothko_demo":"rothko",
+	"tides_demo":"tides",
 	"venus_eea_tf_global":"venus",
 	"VENUSEEATFGlobal":"venus",
 	"star_global":"star",

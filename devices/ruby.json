@@ -274,6 +274,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.3.0.UMOINXM": {
+					"os": "OS1.0.3.0.UMOINXM",
+					"android": "14.0",
+					"release": "2024-06-18",
+					"recovery": "miui_RUBYINGlobal_OS1.0.3.0.UMOINXM_8e41e6e14c_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.2.0.UMOINXM": {
 					"os": "OS1.0.2.0.UMOINXM",
 					"android": "14.0",
@@ -287,6 +294,43 @@
 					"release": "2024-03-11",
 					"recovery": "miui_RUBYINGlobal_OS1.0.1.0.UMOINXM_3efecd9f47_14.0.zip",
 					"fastboot": "ruby_in_global_images_OS1.0.1.0.UMOINXM_20240129.0000.00_14.0_in_3ab601a5ec.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "ruby_id_global",
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMOIDXM": {
+					"os": "OS1.0.4.0.UMOIDXM",
+					"android": "14.0",
+					"release": "2024-06-18",
+					"recovery": "miui_RUBYIDGlobal_OS1.0.4.0.UMOIDXM_d1a9437093_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.3.0.UMOIDXM": {
+					"os": "OS1.0.3.0.UMOIDXM",
+					"android": "14.0",
+					"release": "2024-04-21",
+					"recovery": "miui_RUBYIDGlobal_OS1.0.3.0.UMOIDXM_0c11959182_14.0.zip",
+					"fastboot": "ruby_id_global_images_OS1.0.3.0.UMOIDXM_20240408.0000.00_14.0_id_fd04900994.tgz"
+				},
+				"OS1.0.2.0.UMOIDXM": {
+					"os": "OS1.0.2.0.UMOIDXM",
+					"android": "14.0",
+					"release": "2024-03-01",
+					"recovery": "miui_RUBYIDGlobal_OS1.0.2.0.UMOIDXM_aa62998cb8_14.0.zip",
+					"fastboot": "ruby_id_global_images_OS1.0.2.0.UMOIDXM_20240207.0000.00_14.0_id_5a041851c2.tgz"
 				}
 			}
 		},
@@ -317,36 +361,6 @@
 					"release": "2024-03-21",
 					"recovery": "miui_RUBYTRGlobal_OS1.0.1.0.UMOTRXM_3944296943_14.0.zip",
 					"fastboot": "ruby_tr_global_images_OS1.0.1.0.UMOTRXM_20240311.0000.00_14.0_tr_31e4d9063a.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 印度尼西亚正式版",
-				"en": "Xiaomi HyperOS Indonesia Stable"
-			},
-			"branchCode": "ruby_id_global",
-			"idtag": "IDSO",
-			"branchtag": "F",
-			"show": "1",
-			"carrier": [""],
-			"region": "id",
-			"zone": "2",
-			"ep": "0",
-			"roms": {
-				"OS1.0.3.0.UMOIDXM": {
-					"os": "OS1.0.3.0.UMOIDXM",
-					"android": "14.0",
-					"release": "2024-04-21",
-					"recovery": "miui_RUBYIDGlobal_OS1.0.3.0.UMOIDXM_0c11959182_14.0.zip",
-					"fastboot": "ruby_id_global_images_OS1.0.3.0.UMOIDXM_20240408.0000.00_14.0_id_fd04900994.tgz"
-				},
-				"OS1.0.2.0.UMOIDXM": {
-					"os": "OS1.0.2.0.UMOIDXM",
-					"android": "14.0",
-					"release": "2024-03-01",
-					"recovery": "miui_RUBYIDGlobal_OS1.0.2.0.UMOIDXM_aa62998cb8_14.0.zip",
-					"fastboot": "ruby_id_global_images_OS1.0.2.0.UMOIDXM_20240207.0000.00_14.0_id_5a041851c2.tgz"
 				}
 			}
 		},
