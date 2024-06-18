@@ -29,7 +29,7 @@ currentStable = ["agate", "air", "alioth", "ares", "aristotle", "aurora", "babyl
 								 "munch", "nabu", "nuwa", "odin", "opal", "pearl", "peridot", "pipa", "pissarro", "pissarroin", "plato",
 								 "psyche", "redwood", "rembrandt", "rock", "ruan", "rubens", "ruby", "sapphire",
 								 "sapphiren", "sea", "sheng", "shennong_t", "shennong", "sky", "socrates", "spes", "spesn", "star",
-								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "thyme", "tides", "topaz", "umi", "unicorn",
+								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "thyme", "topaz", "umi", "unicorn",
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
@@ -1091,6 +1091,14 @@ flags = {
 	"sea_tw_global": "sea",
 	"SEATWGlobal": "sea",
 	"PLATOTWGlobal": "plato",
+	"haydn_eea_or_global":"haydn",
+	"HAYDNEEAORGlobal":"haydn",
+	"haydn_eea_tf_global":"haydn",
+	"HAYDNEEATFGlobal":"haydn",
+	"opal_eea_or_global":"opal",
+	"OPALEEAORGlobal":"opal",
+	"vili_eea_or_global":"vili",
+	"VILIEEAORGlobal":"vili",
 	"MONDRIANEEAGlobal": "mondrian",
 	"vermeer_demo": "vermeer",
 	"vermeer": "vermeer",
@@ -1197,7 +1205,7 @@ def getDeviceCode(filename):
 	else:
 		return 0
 def OTAFormer(device, code, region, branch, zone, android, version):
-    HyperOSForm['d'] = device
+    HyperOSForm['d'] = code
     if region == 'cn':
         HyperOSForm['pn'] = code
         HyperOSForm["r"] = 'CN'

@@ -124,6 +124,52 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Orange运营商定制版",
+				"en": "Xiaomi HyperOS Europe Orange Carrier Edition"
+			},
+			"branchCode": "haydn_eea_or_global",
+			"idtag": "EUOR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKKEUOR": {
+					"os": "OS1.0.1.0.UKKEUOR",
+					"android": "14.0",
+					"release": "2024-06-18",
+					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.1.0.UKKEUOR_90f3b09b23_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Telefonica运营商定制版",
+				"en": "Xiaomi HyperOS Europe Telefonica Carrier Edition"
+			},
+			"branchCode": "haydn_eea_tf_global",
+			"idtag": "EUTF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKKEUTF": {
+					"os": "OS1.0.1.0.UKKEUTF",
+					"android": "13.0",
+					"release": "2024-06-18",
+					"recovery": "miui_HAYDNEEATFGlobal_OS1.0.1.0.UKKEUTF_4984194894_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
