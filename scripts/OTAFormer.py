@@ -1,4 +1,5 @@
 import OScommon
+from datetime import datetime
 
 for device in OScommon.currentStable:
   devdata = OScommon.localData(device)
@@ -11,7 +12,7 @@ for device in OScommon.currentStable:
     current = devdata['branches'][num]["roms"][list(devdata['branches'][num]["roms"].keys())[0]]
     android = current['android']
     version = current['os']
-    print("\r正在完成"+devdata["name"]["zh"]+"("+device+")，分支为："+devdata["branches"][num]["branchCode"]+"                                                       ",end="")
+    print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t正在完成"+devdata["name"]["zh"]+"("+device+")，分支为："+devdata["branches"][num]["branchCode"]+"                                                       ",end="")
     if branch == 'X' or branch == 'D' or "Enterprise" in devdata["branches"][num]["name"]["en"] or "EP" in devdata["branches"][num]["name"]["en"]:
       OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, version)))
     else:

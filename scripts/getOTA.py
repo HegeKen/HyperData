@@ -1,5 +1,6 @@
 import OScommon
 import json
+from datetime import datetime
 
 
 settings = {
@@ -31,7 +32,7 @@ for device in OScommon.currentStable:
         OScommon.HyperOSForm["pn"] = devdata["branches"][id]["branchCode"].split("_global")[0]
       OScommon.HyperOSForm["b"] = devdata["branches"][id]["branchtag"]
       OScommon.HyperOSForm["options"]["zone"] = devdata["branches"][id]["zone"]
-    print("\r正在完成"+devdata["name"]["zh"]+"("+devdata["branches"][id]["branchCode"]+")"+"                                                       ",end="")
+    print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t正在完成"+devdata["name"]["zh"]+"("+devdata["branches"][id]["branchCode"]+")"+"                                                       ",end="")
     for rom in devdata["branches"][id]["roms"]:
       current = devdata['branches'][id]["roms"][rom]
       if current["os"] == "":

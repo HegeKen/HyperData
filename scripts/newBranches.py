@@ -1,4 +1,5 @@
 import OScommon
+from datetime import datetime
 
 base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
 urls = []
@@ -150,5 +151,5 @@ for device in OScommon.only_os:
 #       chekc_url_exits()
 
 for url in urls:
-  print("\r"+base_url+url+"                                             ",end="")
+  print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+url+"                                             ",end="")
   OScommon.getFastboot(base_url+url)

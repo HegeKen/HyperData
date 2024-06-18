@@ -1,6 +1,5 @@
-import json
-from sys import platform
 import OScommon
+from datetime import datetime
 
 base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
 for device in OScommon.currentStable:
@@ -16,21 +15,21 @@ for device in OScommon.currentStable:
     carriers = branch["carrier"]
     if region == "cn":
       if len(carriers)==0:
-        print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
+        print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
         OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
       else:
         for carrier in carriers:
-          print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")
+          print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")
           OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n="+carrier)
     elif region == "global":
-      print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
+      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
       OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
     else:
-      print("\r"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
+      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
       OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
-      print("\r"+base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n="+"                                   ",end="")
-      print("\r"+base_url+code+"&b="+btag+"&r=eea&n="+"                                   ",end="")
-      OScommon.getFastboot(base_url+code+"&b="+btag+"&r=eea&n=")
+      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n="+"                                   ",end="")
       OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n=")
-      print("\r"+base_url+code+"&b="+btag+"&r=global"+"&n="+"                                   ",end="")
+      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r=eea&n="+"                                   ",end="")
+      OScommon.getFastboot(base_url+code+"&b="+btag+"&r=eea&n=")
+      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r=global"+"&n="+"                                   ",end="")
       OScommon.getFastboot(base_url+code+"&b="+btag+"&r=global"+"&n=")

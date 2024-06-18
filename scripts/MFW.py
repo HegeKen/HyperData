@@ -2,6 +2,7 @@ from selenium import webdriver
 import OScommon
 from selenium.webdriver.common.by import By
 import os
+from datetime import datetime
 
 
 urls = []
@@ -24,5 +25,5 @@ driver.quit()
 
 os.system('cls')
 for url in urls:
-  print('\r'+url + '              ',end='')
+  print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+url + '              ',end='')
   OScommon.MiFirm2(url)
