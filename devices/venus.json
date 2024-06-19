@@ -170,6 +170,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲TIM运营商定制版",
+				"en": "Xiaomi HyperOS Europe TIM Carrier Edition"
+			},
+			"branchCode": "venus_eea_ti_global",
+			"idtag": "EUTI",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UKBEUTI": {
+					"os": "OS1.0.1.0.UKBEUTI",
+					"android": "14.0",
+					"release": "2024-06-19",
+					"recovery": "miui_VENUSEEATIGlobal_OS1.0.1.0.UKBEUTI_9baa591832_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
