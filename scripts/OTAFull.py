@@ -18,4 +18,11 @@ for device in OScommon.currentStable:
     else:
       for rom in devdata['branches'][num]["roms"]:
         for i in range(-3,3):
-          OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, OScommon.versionAdd(devdata['branches'][num]["roms"][rom]['os'],i))))
+          if int(devdata['branches'][num]["roms"][rom]['os'].split('.')[2])+i > 0:
+            version = OScommon.versionAdd(devdata['branches'][num]["roms"][rom]['os'],i)
+            if version in devdata:
+              i = 0
+            else:
+              OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, version)))
+          else:
+            i = 0

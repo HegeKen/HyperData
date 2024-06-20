@@ -78,6 +78,8 @@ flags = {
 	"DIZIIDGlobal":"dizi",
 	"dizi_tw_global": "dizi",
   "DIZITWGlobal": "dizi",
+	"light_eea_hg_global":"light",
+	"LIGHTEEAHGGlobal":"light",
 	"peridot_ep_stdee":"peridot",
 	"PERIDOTEPSTDEE":"peridot",
 	"liuqin_ep_stdee":"liuqin",
