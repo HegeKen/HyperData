@@ -12,8 +12,8 @@ from bs4 import BeautifulSoup
 
 sdk = {
 	"15": "35",
-  "14": "34",
-  "13": "33"
+	"14": "34",
+	"13": "33"
 }
 
 miui_key = b"miuiotavalided11"
@@ -77,7 +77,9 @@ flags = {
 	"dizi_id_global":"dizi",
 	"DIZIIDGlobal":"dizi",
 	"dizi_tw_global": "dizi",
-  "DIZITWGlobal": "dizi",
+	"DIZITWGlobal": "dizi",
+	"venus_eea_or_global":"venus",
+	"VENUSEEAORGlobal":"venus",
 	"light_eea_hg_global":"light",
 	"LIGHTEEAHGGlobal":"light",
 	"peridot_ep_stdee":"peridot",
@@ -148,7 +150,7 @@ flags = {
 	"venus_global":"venus",
 	"VENUSGlobal":"venus",
 	"peridot_id_global": "peridot",
-  "PERIDOTIDGlobal": "peridot",
+	"PERIDOTIDGlobal": "peridot",
 	"vermeer_tw_global":"vermeer",
 	"VERMEERTWGlobal":"vermeer",
 	"xaga_eea_global":"xaga",
@@ -610,7 +612,7 @@ flags = {
 	"XUNRUGlobal": "xun",
 	"chenfeng":"chenfeng",
 	"duchamp_ep_stdee": "duchamp",
-  "DUCHAMPEPSTDEE": "duchamp",
+	"DUCHAMPEPSTDEE": "duchamp",
 	"agate_eea_ti_global": "agate",
 	"AGATEEEATIGlobal": "agate",
 	"zircon_id_global":"zircon",
@@ -678,7 +680,7 @@ flags = {
 	"light_eea_ti_global": "light",
 	"LIGHTEEATIGlobal": "light",
 	"blue_in_global": "blue",
-  "BLUEINGlobal": "blue",
+	"BLUEINGlobal": "blue",
 	"viva_eea_global": "viva",
 	"VIVAEEAGlobal": "viva",
 	"light_id_global": "light",
@@ -1212,26 +1214,28 @@ def getDeviceCode(filename):
 	else:
 		return 0
 def OTAFormer(device, code, region, branch, zone, android, version):
-    HyperOSForm['d'] = code
-    if region == 'cn':
-        HyperOSForm['pn'] = code
-        HyperOSForm["r"] = 'CN'
-    else:
-        HyperOSForm["r"] = 'GL'
-        if code == device + "_global":
-            HyperOSForm['pn'] = code
-        else:
-            HyperOSForm['pn'] = code.split('_global')[0]
-    HyperOSForm['b'] = branch
-    HyperOSForm['options']['zone'] = zone
-    if android == '':
-        print(device,version,"请补充安卓版本")
-        HyperOSForm['c'] = '14'
-    else:
-        HyperOSForm['c'] = android.split('.0')[0]
-    HyperOSForm['sdk'] = sdk[android.split('.0')[0]]
-    HyperOSForm['v'] = 'MIUI-'+ version
-    return json.dumps(HyperOSForm)
+		# print(device, code, region, branch, zone, android, version)
+		HyperOSForm['d'] = code
+		HyperOSForm["obv"] = version
+		if region == 'cn':
+			HyperOSForm['pn'] = code
+			HyperOSForm["r"] = 'CN'
+		else:
+			HyperOSForm["r"] = 'GL'
+			if code == device + "_global":
+				HyperOSForm['pn'] = code
+			else:
+				HyperOSForm['pn'] = code.split('_global')[0]
+		HyperOSForm['b'] = branch
+		HyperOSForm['options']['zone'] = zone
+		if android == '':
+				print(device,version,"请补充安卓版本")
+				HyperOSForm['c'] = '14'
+		else:
+				HyperOSForm['c'] = android.split('.0')[0]
+		HyperOSForm['sdk'] = sdk[android.split('.0')[0]]
+		HyperOSForm['v'] = 'MIUI-'+ version.replace('OS1','V816')
+		return json.dumps(HyperOSForm)
 
 def checkExist(filename):
 	if "OS" in filename:
@@ -1250,7 +1254,7 @@ def checkExist(filename):
 		return "UI Maybe"
 
 def versionAdd(version,add):
-    return version.replace(version.split('.')[2],str(int(version.split('.')[2])+add))
+		return version.replace(version.split('.')[2],str(int(version.split('.')[2])+add))
 
 def miui_decrypt(encrypted_response):
 	decipher = AES.new(miui_key, AES.MODE_CBC, miui_iv)
@@ -1313,14 +1317,14 @@ HyperOSForm = {
 
 def getFromApi(encrypted_data):
 	headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
-			   "Connection": "Keep-Alive",
-			   "Content-Type": "application/x-www-form-urlencoded",
-			   "Cache-Control": "no-cache",
-			   "Host": "update.miui.com",
-			   "Accept-Encoding": "gzip",
-			   "Content-Length": "795",
-			   "Cookie": "serviceToken=;"
-			   }
+				 "Connection": "Keep-Alive",
+				 "Content-Type": "application/x-www-form-urlencoded",
+				 "Cache-Control": "no-cache",
+				 "Host": "update.miui.com",
+				 "Accept-Encoding": "gzip",
+				 "Content-Length": "795",
+				 "Cookie": "serviceToken=;"
+				 }
 	data = "q=" + encrypted_data + "&s=1&t="
 	response = requests.post(check_url, headers=headers, data=data)
 	if "code" in response.text:
@@ -1375,14 +1379,14 @@ def MiFirm2(url):
 
 def getChangelog(encrypted_data, device):
 	headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
-			   "Connection": "Keep-Alive",
-			   "Content-Type": "application/x-www-form-urlencoded",
-			   "Cache-Control": "no-cache",
-			   "Host": "update.miui.com",
-			   "Accept-Encoding": "gzip",
-			   "Content-Length": "795",
-			   "Cookie": "serviceToken=;"
-			   }
+				 "Connection": "Keep-Alive",
+				 "Content-Type": "application/x-www-form-urlencoded",
+				 "Cache-Control": "no-cache",
+				 "Host": "update.miui.com",
+				 "Accept-Encoding": "gzip",
+				 "Content-Length": "795",
+				 "Cookie": "serviceToken=;"
+				 }
 	data = "q=" + encrypted_data + "&s=1&t="
 	if platform == "win32":
 		devdata = json.loads(
@@ -1415,7 +1419,7 @@ def print_log(log):
 
 def getFastboot(url):
 	headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0",
-			   "Connection": "close"}
+				 "Connection": "close"}
 	response = requests.post(url, headers=headers)
 	if (response.status_code == 200):
 		content = response.content.decode("utf8")
