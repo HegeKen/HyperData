@@ -18,16 +18,28 @@
 			"show": "1",
 			"zone": "1",
 			"ep": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"roms": {
-			"OS1.0.24.6.10.DEV": {
-				"os": "OS1.0.24.6.10.DEV",
-				"android": "14.0",
-				"release": "2024-06-14",
-				"recovery": "miui_NUWA_OS1.0.24.6.10.DEV_6570e2e3ce_14.0.zip",
-				"fastboot": ""
-			},
+				"OS1.0.24.6.17.DEV": {
+					"os": "OS1.0.24.6.17.DEV",
+					"android": "14.0",
+					"release": "2024-06-21",
+					"recovery": "miui_NUWA_OS1.0.24.6.17.DEV_bb5e1a602f_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.24.6.10.DEV": {
+					"os": "OS1.0.24.6.10.DEV",
+					"android": "14.0",
+					"release": "2024-06-14",
+					"recovery": "miui_NUWA_OS1.0.24.6.10.DEV_6570e2e3ce_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.24.6.3.DEV": {
 					"os": "OS1.0.24.6.3.DEV",
 					"android": "14.0",
@@ -221,7 +233,11 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -287,7 +303,9 @@
 			"branchtag": "F",
 			"show": "1",
 			"region": "cn",
-			"carrier": ["chinatelecom"],
+			"carrier": [
+				"chinatelecom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -330,7 +348,9 @@
 			"idtag": "CNTP",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -360,7 +380,9 @@
 			"idtag": "GBOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -397,7 +419,9 @@
 			"idtag": "EEAO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -441,7 +465,9 @@
 			"idtag": "RUSO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -478,7 +504,9 @@
 			"idtag": "INSO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

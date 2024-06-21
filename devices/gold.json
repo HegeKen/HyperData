@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -39,6 +39,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "gold",
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNQCNXM": {
+					"os": "OS1.0.2.0.UNQCNXM",
+					"android": "14.0",
+					"release": "2024-06-08",
+					"recovery": "miui_GOLD_OS1.0.2.0.UNQCNXM_98bd3203bc_14.0.zip",
+					"fastboot": "gold_images_OS1.0.2.0.UNQCNXM_20240523.0000.00_14.0_cn_chinatelecom_ff62acb903.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},
@@ -51,13 +74,6 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS1.0.2.0.UNQCNXM": {
-					"os": "OS1.0.2.0.UNQCNXM",
-					"android": "14.0",
-					"release": "2024-06-08",
-					"recovery": "miui_GOLD_OS1.0.2.0.UNQCNXM_98bd3203bc_14.0.zip",
-					"fastboot": "gold_images_OS1.0.2.0.UNQCNXM_20240523.0000.00_14.0_cn_chinatelecom_ff62acb903.tgz"
-				},
 				"OS1.0.1.0.UNQCNDM": {
 					"os": "OS1.0.1.0.UNQCNDM",
 					"android": "14.0",
@@ -214,6 +230,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UNQINXM": {
+					"os": "OS1.0.8.0.UNQINXM",
+					"android": "14.0",
+					"release": "2024-06-21",
+					"recovery": "miui_GOLDINGlobal_OS1.0.8.0.UNQINXM_be97d62402_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.6.0.UNQINXM": {
 					"os": "OS1.0.6.0.UNQINXM",
 					"android": "14.0",

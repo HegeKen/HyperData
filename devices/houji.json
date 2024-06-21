@@ -91,6 +91,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.24.6.17.DEV": {
+					"os": "OS1.0.24.6.17.DEV",
+					"android": "14.0",
+					"release": "2024-06-21",
+					"recovery": "miui_HOUJI_OS1.0.24.6.17.DEV_ba5d14f90b_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.24.6.11.DEV": {
 					"os": "OS1.0.24.6.11.DEV",
 					"android": "14.0",
@@ -642,6 +649,14 @@
 			"zone": "1",
 			"ep": "1",
 			"roms": {
+				"OS1.0.24.5.7.EP.STDEE.N3": {
+					"os": "OS1.0.24.5.7.EP.STDEE.N3",
+					"android": "14.0",
+					"release": "2024-06-21",
+					"recovery": "miui_HOUJIEPSTDEE_OS1.0.24.5.7.EP.STDEE.N3_28eba7af84_14.0.zip",
+					"fastboot": "houji_ep_stdee_images_OS1.0.24.5.7.EP.STDEE.N3_20240507.0000.00_14.0_cn_5f7ce759fa.tgz",
+					"ctelecom": "houji_ep_stdee_images_OS1.0.24.5.7.EP.STDEE.N3_20240507.0000.00_14.0_cn_chinatelecom_3cd472d303.tgz"
+				},
 				"OS1.0.24.1.16.EP.STDEE.N3": {
 					"os": "OS1.0.24.1.16.EP.STDEE.N3",
 					"android": "14.0",
