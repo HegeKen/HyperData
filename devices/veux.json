@@ -147,6 +147,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲ThreeHK运营商定制版",
+				"en": "Xiaomi HyperOS Europe ThreeHK Carrier Edition"
+			},
+			"branchCode": "veux_eea_hg_global",
+			"idtag": "EUHG",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCEUHG": {
+					"os": "OS1.0.1.0.TKCEUHG",
+					"android": "13.0",
+					"release": "2024-06-24",
+					"recovery": "miui_VEUXEEAHGGlobal_OS1.0.1.0.TKCEUHG_c269411e18_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲Telefonica运营商定制版",
 				"en": "Xiaomi HyperOS Europe Telefonica Carrier Edition"
 			},
