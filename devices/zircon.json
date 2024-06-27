@@ -335,6 +335,29 @@
 					"fastboot": "zircon_tr_global_images_OS1.0.1.0.UNOTRXM_20240318.0000.00_14.0_tr_a31323dbd7.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "zircon_jp_global",
+			"idtag": "JAPS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNOJPXM": {
+					"os": "OS1.0.3.0.UNOJPXM",
+					"android": "14.0",
+					"release": "2024-06-27",
+					"recovery": "miui_ZIRCONJPGlobal_OS1.0.3.0.UNOJPXM_f6eecacc5a_14.0.zip",
+					"fastboot": "zircon_jp_global_images_OS1.0.3.0.UNOJPXM_20240408.0000.00_14.0_jp_378b744bc2.tgz"
+				}
+			}
 		}
 	]
 }

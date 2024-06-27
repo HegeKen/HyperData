@@ -84,6 +84,8 @@ flags = {
 	"DIZIIDGlobal":"dizi",
 	"dizi_tw_global": "dizi",
 	"DIZITWGlobal": "dizi",
+	"zircon_jp_global":"zircon",
+	"ZIRCONJPGlobal":"zircon",
 	"venus_eea_or_global":"venus",
 	"VENUSEEAORGlobal":"venus",
 	"air_global":"air",
