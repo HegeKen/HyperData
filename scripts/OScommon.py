@@ -88,6 +88,8 @@ flags = {
 	"ZIRCONJPGlobal":"zircon",
 	"venus_eea_or_global":"venus",
 	"VENUSEEAORGlobal":"venus",
+	"venus_eea_hg_global":"venus",
+	"VENUSEEAHGGlobal":"venus",
 	"air_global":"air",
 	"AIRGlobal":"air",
 	"DIZIINGlobal":"dizi",
