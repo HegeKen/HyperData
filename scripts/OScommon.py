@@ -90,6 +90,8 @@ flags = {
 	"VENUSEEAORGlobal":"venus",
 	"air_global":"air",
 	"AIRGlobal":"air",
+	"DIZIINGlobal":"dizi",
+	"dizi_in_global":"dizi",
 	"light_eea_hg_global":"light",
 	"LIGHTEEAHGGlobal":"light",
 	"peridot_ep_stdee":"peridot",

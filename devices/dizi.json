@@ -215,6 +215,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "dizi_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNSINXM": {
+					"os": "OS1.0.3.0.UNSINXM",
+					"android": "14.0",
+					"release": "2024-06-28",
+					"recovery": "miui_DIZIINGlobal_OS1.0.3.0.UNSINXM_3d4839b44e_14.0.zip",
+					"fastboot": "dizi_in_global_images_OS1.0.3.0.UNSINXM_20240619.0000.00_14.0_in_27bf414659.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonesia Stable"
 			},
