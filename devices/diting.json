@@ -436,6 +436,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "diting_jp_global",
+			"idtag": "JAPS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULFJPXM": {
+					"os": "OS1.0.1.0.ULFJPXM",
+					"android": "14.0",
+					"release": "2024-07-01",
+					"recovery": "miui_DITINGJPGlobal_OS1.0.1.0.ULFJPXM_14d9be5281_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
