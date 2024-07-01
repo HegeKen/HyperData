@@ -81,6 +81,8 @@ flags = {
 	"dizi_ru_global":"dizi",
 	"DIZIRUGlobal":"dizi",
 	"dizi_id_global":"dizi",
+	"diting_jp_global":"diting",
+	"DITINGJPGlobal":"diting",
 	"DIZIIDGlobal":"dizi",
 	"dizi_tw_global": "dizi",
 	"DIZITWGlobal": "dizi",

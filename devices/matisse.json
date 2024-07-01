@@ -214,7 +214,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -224,7 +224,7 @@
 					"android": "14.0",
 					"release": "2024-06-19",
 					"recovery": "miui_MATISSE_OS1.0.5.0.ULKCNXM_384e92f006_14.0.zip",
-					"fastboot": ""
+					"fastboot": "matisse_images_OS1.0.5.0.ULKCNXM_20240531.0000.00_14.0_cn_9349037eb0.tgz"
 				},
 				"OS1.0.2.0.ULKCNXM": {
 					"os": "OS1.0.2.0.ULKCNXM",
@@ -249,6 +249,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.5.0.ULKCNXM": {
+					"os": "OS1.0.5.0.ULKCNXM",
+					"android": "14.0",
+					"release": "2024-06-19",
+					"recovery": "miui_MATISSE_OS1.0.5.0.ULKCNXM_384e92f006_14.0.zip",
+					"fastboot": "matisse_images_OS1.0.5.0.ULKCNXM_20240531.0000.00_14.0_cn_chinatelecom_a1d6be0b0c.tgz"
+				},
 				"OS1.0.2.0.ULKCNXM": {
 					"os": "OS1.0.2.0.ULKCNXM",
 					"android": "14.0",
