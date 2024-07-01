@@ -16,7 +16,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -26,7 +26,7 @@
 					"android": "13.0",
 					"release": "2024-06-12",
 					"recovery": "miui_THYME_OS1.0.4.0.TGACNXM_80dbab1cd4_13.0.zip",
-					"fastboot": ""
+					"fastboot": "thyme_images_OS1.0.4.0.TGACNXM_20240605.0000.00_13.0_cn_778cda4301.tgz"
 				},
 				"OS1.0.3.0.TGACNXM": {
 					"os": "OS1.0.3.0.TGACNXM",
@@ -58,6 +58,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.TGACNXM": {
+					"os": "OS1.0.4.0.TGACNXM",
+					"android": "13.0",
+					"release": "2024-06-12",
+					"recovery": "miui_THYME_OS1.0.4.0.TGACNXM_80dbab1cd4_13.0.zip",
+					"fastboot": "thyme_images_OS1.0.4.0.TGACNXM_20240605.0000.00_13.0_cn_chinatelecom_ef4d2bd339.tgz"
+				},
 				"OS1.0.3.0.TGACNXM": {
 					"os": "OS1.0.3.0.TGACNXM",
 					"android": "13.0",

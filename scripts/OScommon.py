@@ -1118,6 +1118,8 @@ flags = {
 	"HAYDNEEAORGlobal":"haydn",
 	"haydn_eea_tf_global":"haydn",
 	"HAYDNEEATFGlobal":"haydn",
+	"vili_eea_vf_global":"vili",
+	"VILIEEAVFGlobal":"vili",
 	"opal_eea_or_global":"opal",
 	"OPALEEAORGlobal":"opal",
 	"vili_eea_or_global":"vili",
