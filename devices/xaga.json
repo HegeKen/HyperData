@@ -104,6 +104,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.ULOMIXM": {
+					"os": "OS1.0.2.0.ULOMIXM",
+					"android": "14.0",
+					"release": "2024-07-02",
+					"recovery": "miui_XAGAGlobal_OS1.0.2.0.ULOMIXM_e525011abe_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.1.0.ULOMIXM": {
 					"os": "OS1.0.1.0.ULOMIXM",
 					"android": "14.0",
@@ -133,6 +140,29 @@
 					"release": "2024-05-21",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.2.0.ULOEUXM_626938a0a7_14.0.zip",
 					"fastboot": "xaga_eea_global_images_OS1.0.2.0.ULOEUXM_20240507.0000.00_14.0_eea_309127bfed.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "xaga_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULORUXM": {
+					"os": "OS1.0.2.0.ULORUXM",
+					"android": "14.0",
+					"release": "2024-07-02",
+					"recovery": "miui_XAGARUGlobal_OS1.0.2.0.ULORUXM_72c6fe980c_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},
