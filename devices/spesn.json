@@ -172,6 +172,29 @@
 					"fastboot": "spesn_id_global_images_OS1.0.1.0.TGKIDXM_20240321.0000.00_13.0_id_33fb1e1ccd.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 南非MTN运营商定制版",
+				"en": "Xiaomi HyperOS South Africa MTN Carrier Edtion"
+			},
+			"branchCode": "spesn_za_mt_global",
+			"idtag": "ZAMT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGKZAMT": {
+					"os": "OS1.0.1.0.TGKZAMT",
+					"android": "13.0",
+					"release": "2024-07-03",
+					"recovery": "miui_SPESNZAMTGlobal_OS1.0.1.0.TGKZAMT_fd089900bf_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

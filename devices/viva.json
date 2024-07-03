@@ -151,6 +151,29 @@
 					"fastboot": "viva_tr_global_images_OS1.0.1.0.TGDTRXM_20240321.0000.00_13.0_tr_013bbbcdb5.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 南非MTN运营商定制版",
+				"en": "Xiaomi HyperOS South Africa MTN Carrier Edtion"
+			},
+			"branchCode": "viva_za_mt_global",
+			"idtag": "ZAMT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGDZAMT": {
+					"os": "OS1.0.1.0.TGDZAMT",
+					"android": "13.0",
+					"release": "2024-07-03",
+					"recovery": "miui_VIVAZAMTGlobal_OS1.0.1.0.TGDZAMT_89eb5b6f05_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
