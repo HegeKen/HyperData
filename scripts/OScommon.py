@@ -78,6 +78,8 @@ flags = {
 	"HAYDNEEAHGGlobal":"haydn",
 	"haydn_eea_sf_global":"haydn",
 	"HAYDNEEASFGlobal":"haydn",
+	"opal_eea_hg_global":"opal",
+	"OPALEEAHGGlobal":"opal",
 	"venus_eea_sf_global":"venus",
 	"VENUSEEASFGlobal":"venus",
 	"vili_eea_sf_global":"vili",
