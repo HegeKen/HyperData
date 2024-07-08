@@ -73,6 +73,8 @@ flags = {
 	"RUANINGlobal":"ruan",
 	"HAYDNEEATIGlobal":"haydn",
 	"VENUSEEATIGlobal":"venus",
+	"diting_cl_en_global":"diting",
+	"DITINGCLENGlobal":"diting",
 	"venus_eea_vf_global":"venus",
 	"VENUSEEAVFGlobal":"venus",
 	"haydn_eea_ti_global":"haydn",

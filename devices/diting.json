@@ -493,6 +493,29 @@
 					"fastboot": "diting_tr_global_images_OS1.0.1.0.ULFTRXM_20240205.0000.00_14.0_tr_944c3e4fe0.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "diting_cl_en_global",
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULFCLEN": {
+					"os": "OS1.0.3.0.ULFCLEN",
+					"android": "14.0",
+					"release": "2024-07-08",
+					"recovery": "miui_DITINGCLENGlobal_OS1.0.3.0.ULFCLEN_b6f8fb60c2_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
