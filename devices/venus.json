@@ -118,7 +118,7 @@
 					"android": "14.0",
 					"release": "2024-07-01",
 					"recovery": "miui_VENUSGlobal_OS1.0.3.0.UKBMIXM_1eb20d7656_14.0.zip",
-					"fastboot": ""
+					"fastboot": "venus_global_images_OS1.0.3.0.UKBMIXM_20240613.0000.00_14.0_global_54687a74f7.tgz"
 				},
 				"OS1.0.2.0.UKBMIXM": {
 					"os": "OS1.0.2.0.UKBMIXM",
@@ -199,7 +199,7 @@
 				"OS1.0.1.0.UKBEUHG": {
 					"os": "OS1.0.1.0.UKBEUHG",
 					"android": "14.0",
-					"release": "",
+					"release": "2024-06-28",
 					"recovery": "miui_VENUSEEAHGGlobal_OS1.0.1.0.UKBEUHG_0b94548a6b_14.0.zip",
 					"fastboot": ""
 				}
@@ -247,6 +247,29 @@
 					"android": "14.0",
 					"release": "2024-06-19",
 					"recovery": "miui_VENUSEEATIGlobal_OS1.0.1.0.UKBEUTI_9baa591832_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Vodafone运营商定制版",
+				"en": "Xiaomi HyperOS Europe Vodafone Carrier Edition"
+			},
+			"branchCode": "venus_eea_vf_global",
+			"idtag": "EUVF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKBEUVF": {
+					"os": "OS1.0.2.0.UKBEUVF",
+					"android": "14.0",
+					"release": "2024-07-08",
+					"recovery": "miui_VENUSEEAVFGlobal_OS1.0.2.0.UKBEUVF_fe3f0ad152_14.0.zip",
 					"fastboot": ""
 				}
 			}
