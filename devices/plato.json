@@ -235,6 +235,29 @@
 					"fastboot": "plato_tr_global_images_OS1.0.1.0.ULQTRXM_20240108.0000.00_14.0_tr_d2c5c1f05f.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "plato_cl_en_global",
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULQCLEN": {
+					"os": "OS1.0.2.0.ULQCLEN",
+					"android": "14.0",
+					"release": "2024-07-08",
+					"recovery": "miui_PLATOCLENGlobal_OS1.0.2.0.ULQCLEN_48f59658d6_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

@@ -1,8 +1,8 @@
 {
 	"device": "breeze",
 	"name": {
-		"zh": "Redmi Note 13R 5G / POCO M6 Plus 5G",
-		"en": "Redmi Note 13R 5G / POCO M6 Plus 5G"
+		"zh": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G",
+		"en": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G"
 	},
 	"type": "phone",
 	"miui": "no",
@@ -95,6 +95,29 @@
 					"recovery": "",
 					"fastboot": "",
 					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "breeze_in_global",
+			"idtag": "INSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNUINXM": {
+					"os": "OS1.0.4.0.UNUINXM",
+					"android": "14.0",
+					"release": "2024-07-09",
+					"recovery": "miui_BREEZEINGlobal_OS1.0.4.0.UNUINXM_0f4314a62b_14.0.zip",
+					"fastboot": "breeze_in_global_images_OS1.0.4.0.UNUINXM_20240621.0000.00_14.0_in_84d928f9cb.tgz"
 				}
 			}
 		}
