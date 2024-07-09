@@ -33,9 +33,8 @@ currentStable = ["agate", "air", "alioth", "ares", "aristotle", "aurora", "babyl
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["moon", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
-					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t",
-					 "degas", "goku", "rothko", "ruyi", "tides"]
+only_os = ["degas", "goku", "rothko", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
+					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t",]
 
 onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
@@ -92,6 +91,8 @@ flags = {
 	"VEUXEEAHGGlobal":"veux",
 	"breeze_in_global":"breeze",
 	"BREEZEINGlobal":"breeze",
+	"ruan_global":"ruan",
+	"RUANGlobal":"ruan",
 	"plato_cl_en_global":"plato",
 	"PLATOCLENGlobal":"plato",
 	"venus_eea_ti_global":"venus",

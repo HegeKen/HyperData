@@ -26,7 +26,7 @@
 					"android": "14.0",
 					"release": "2024-07-05",
 					"recovery": "miui_RUAN_OS1.0.3.0.UFSCNXM_5885e36f01_14.0.zip",
-					"fastboot": ""
+					"fastboot": "ruan_images_OS1.0.3.0.UFSCNXM_20240624.0000.00_14.0_cn_ce537fd690.tgz"
 				},
 				"OS1.0.1.0.UFSCNXM": {
 					"os": "OS1.0.1.0.UFSCNXM",
@@ -51,6 +51,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.3.0.UFSCNXM": {
+					"os": "OS1.0.3.0.UFSCNXM",
+					"android": "14.0",
+					"release": "2024-07-05",
+					"recovery": "miui_RUAN_OS1.0.3.0.UFSCNXM_5885e36f01_14.0.zip",
+					"fastboot": "ruan_images_OS1.0.3.0.UFSCNXM_20240624.0000.00_14.0_cn_chinatelecom_1cfcddf080.tgz"
+				},
 				"OS1.0.1.0.UFSCNXM": {
 					"os": "OS1.0.1.0.UFSCNXM",
 					"android": "14.0",
@@ -81,6 +88,29 @@
 					"recovery": "miui_RUANDEMO_OS1.0.2.0.UFSCNDM_effe948a1a_14.0.zip",
 					"fastboot": "ruan_demo_images_OS1.0.2.0.UFSCNDM_20240524.0000.00_14.0_cn_f6dc560546.tgz",
 					"ctelecom": "ruan_demo_images_OS1.0.2.0.UFSCNDM_20240524.0000.00_14.0_cn_chinatelecom_c40c42f43c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "ruan_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UFSMIXM": {
+					"os": "OS1.0.2.0.UFSMIXM",
+					"android": "14.0",
+					"release": "2024-07-09",
+					"recovery": "miui_RUANGlobal_OS1.0.2.0.UFSMIXM_17a28b31a0_14.0.zip",
+					"fastboot": "ruan_global_images_OS1.0.2.0.UFSMIXM_20240704.0000.00_14.0_global_3f9ffad559.tgz"
 				}
 			}
 		},
