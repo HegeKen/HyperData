@@ -21,7 +21,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
+currentStable = ["rothko", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
 								 "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
 								 "gale", "garnet", "gold", "haydn", "houji", "ingres", "ishtar", "light", "lightcm",
