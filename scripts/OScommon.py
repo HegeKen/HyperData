@@ -61,6 +61,8 @@ flags = {
 	"STAREEAGlobal":"star",
 	"spesn_za_mt_global":"spesn",
 	"SPESNZAMTGlobal":"spesn",
+	"VILIJPGlobal":"vili",
+	"vili_jp_global":"vili",
 	"viva_za_mt_global":"viva",
 	"VIVAZAMTGlobal":"viva",
 	"star_eea_global":"star",
