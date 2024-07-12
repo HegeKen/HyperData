@@ -189,6 +189,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.UKDRUXM": {
+					"os": "OS1.0.2.0.UKDRUXM",
+					"android": "14.0",
+					"release": "2024-07-12",
+					"recovery": "miui_VILIRUGlobal_OS1.0.2.0.UKDRUXM_14df11bac2_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.1.0.UKDRUXM": {
 					"os": "OS1.0.1.0.UKDRUXM",
 					"android": "14.0",
@@ -242,6 +249,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.UKDIDXM": {
+					"os": "OS1.0.2.0.UKDIDXM",
+					"android": "14.0",
+					"release": "2024-07-12",
+					"recovery": "miui_VILIIDGlobal_OS1.0.2.0.UKDIDXM_6e70cf3b14_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.1.0.UKDIDXM": {
 					"os": "OS1.0.1.0.UKDIDXM",
 					"android": "14.0",
@@ -271,6 +285,29 @@
 					"release": "2024-05-20",
 					"recovery": "miui_VILITRGlobal_OS1.0.1.0.UKDTRXM_dc88f0e294_14.0.zip",
 					"fastboot": "vili_tr_global_images_OS1.0.1.0.UKDTRXM_20240509.0000.00_14.0_tr_7f38f70988.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "vili_jp_global",
+			"idtag": "JAPS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKDJPXM": {
+					"os": "OS1.0.2.0.UKDJPXM",
+					"android": "14.0",
+					"release": "2024-07-12",
+					"recovery": "miui_VILIJPGlobal_OS1.0.2.0.UKDJPXM_669243dde5_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

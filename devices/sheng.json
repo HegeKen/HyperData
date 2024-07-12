@@ -66,6 +66,24 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.240705.2.VNXMIXM.PRE-DPP": {
+					"os": "OS1.0.240705.2.VNXMIXM.PRE-DPP",
+					"android": "15.0",
+					"release": "2024-07-12",
+					"recovery": "miui_SHENGPREDPPGlobal_OS1.0.240705.2.VNXMIXM.PRE-DPP_337a93e7e3_15.0.zip",
+					"fastboot": "sheng_pre_dpp_global_images_OS1.0.240705.2.VNXMIXM.PRE-DPP_20240705.0000.00_15.0_global_9976c580c4.tgz",
+					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_SHENGPREDPPGlobal_OS1.0.240705.2.VNXMIXM.PRE-DPP_337a93e7e3_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=/+xKT6FX5Kxa4Nu9ItQzUnRLoBA=",
+					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_global_images_OS1.0.240705.2.VNXMIXM.PRE-DPP_20240705.0000.00_15.0_global_9976c580c4.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=Mts0M5uK5hsXHskvrADw/9Lxa7Q="
+				},
+				"OS1.0.240516.1.VNXMIXM.PRE-DPP": {
+					"os": "OS1.0.240516.1.VNXMIXM.PRE-DPP",
+					"android": "15.0",
+					"release": "2024-05-24",
+					"recovery": "miui_SHENGPREDPPGlobal_OS1.0.240516.1.VNXMIXM.PRE-DPP_0b7c5634e7_15.0.zip",
+					"fastboot": "",
+					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_SHENGPREDPPGlobal_OS1.0.240516.1.VNXMIXM.PRE-DPP_0b7c5634e7_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=KtK34UE+bgrMDlxDZkb+VuYWJ1g=",
+					"originfb":""
+				},
 				"24.5.10": {
 					"os": "24.5.10",
 					"android": "15.0",
