@@ -5,12 +5,12 @@
 		"en": "DEV for week 649 (HyperOS DEV released for various devices)"
 	},
 	"postId": "46001167",
-	"update": "2024.07.12 17:44:57",
-	"versions": "OS1.0.24.7.8.DEV",
+	"update": "2024.07.13 20:08:59",
+	"versions": "OS1.0.24.7.8.DEV, OS1.0.24.7.12.DEV",
 	"description": [
 		{
-			"zh": "由于Xiaomi 14 Pro、Xiaomi 14 开发版正在修复相册闪退的问题，为给大家更好的使用体验，Xiaomi 14 Pro、Xiaomi 14 本周开发版暂停发布",
-			"en": "This weeks China DEV is suspended for Xiaomi 14 and Xiaomi 14 Pro due to a problem causing Gallery to crash. We will resume the release next week."
+			"zh": "Xiaomi 14 Pro、Xiaomi 14 发布OS1.0.24.7.12.DEV版本，已修复相册闪退的问题，欢迎大家升级至最新版本体验",
+			"en": "A bug causing Gallery to crash has been fixed in the OS1.0.24.7.12.DEV version for Xiaomi 14 Pro and Xiaomi 14. Please feel free to update to the latest version."
 		},
 		{
 			"zh": "小米 12、小米 12 Pro、小米 12 Pro 天玑版、小米 12S、小米 12S Pro、小米 12S Ultra、小米 13、小米 13 Pro、小米 13 Ultra、小米 MIX Fold 3、小米 MIX Fold 2、小米平板5 Pro 12.4、Redmi K50、Redmi K50 Pro、Redmi K50 至尊版、Redmi K50 电竞版、Redmi K60、Redmi K60 Pro的小米澎湃OS开发版，将于今天24点前推送完毕，欢迎大家升级至最新版本体验",
@@ -174,6 +174,34 @@
 				"android": "14.0",
 				"release": "2024-07-12",
 				"recovery": "miui_ISHTAR_OS1.0.24.7.8.DEV_d62a5ef21e_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "houji",
+			"name": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.12.DEV",
+				"android": "14.0",
+				"release": "2024-07-13",
+				"recovery": "miui_HOUJI_OS1.0.24.7.12.DEV_4a11fe5c9b_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "shennong",
+			"name": {
+				"zh": "小米 14 Pro / Ti",
+				"en": "Xiaomi 14 Pro / Ti"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.12.DEV",
+				"android": "14.0",
+				"release": "2024-07-13",
+				"recovery": "miui_SHENNONG_OS1.0.24.7.12.DEV_923ba97bf8_14.0.zip",
 				"fastboot": ""
 			}
 		},
