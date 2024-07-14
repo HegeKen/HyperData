@@ -17,5 +17,8 @@ for device in OScommon.currentStable:
 			OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, version)))
 		else:
 			OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, version)))
-			for i in range(0,3):
-				OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, OScommon.versionAdd(current['os'],i))))
+			if version =="":
+				i = 0
+			else:
+				for i in range(0,3):
+					OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, OScommon.versionAdd(current['os'],i))))
