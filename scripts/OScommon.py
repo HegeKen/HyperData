@@ -82,6 +82,8 @@ flags = {
 	"haydn_eea_ti_global":"haydn",
 	"haydn_eea_hg_global":"haydn",
 	"HAYDNEEAHGGlobal":"haydn",
+	"gold_ep_stdee":"gold",
+	"GOLDEPSTDEE":"gold",
 	"haydn_eea_sf_global":"haydn",
 	"HAYDNEEASFGlobal":"haydn",
 	"opal_eea_hg_global":"opal",
