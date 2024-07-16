@@ -228,6 +228,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Bouygues Telecom 运营商定制版",
+				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
+			},
+			"branchCode": "haydn_eea_by_global",
+			"idtag": "EUBY",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKKEUBY": {
+					"os": "OS1.0.2.0.UKKEUBY",
+					"android": "14.0",
+					"release": "2024-07-16",
+					"recovery": "miui_HAYDNEEABYGlobal_OS1.0.2.0.UKKEUBY_8763e85e69_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲TIM运营商定制版",
 				"en": "Xiaomi HyperOS Europe TIM Carrier Edition"
 			},
