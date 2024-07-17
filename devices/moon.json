@@ -191,6 +191,29 @@
 					"fastboot": "moon_id_global_images_OS1.0.1.0.UNTIDXM_20240419.0000.00_14.0_id_23ebd856a6.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "moon_tr_global",
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNTTRXM": {
+					"os": "OS1.0.2.0.UNTTRXM",
+					"android": "14.0",
+					"release": "2024-07-17",
+					"recovery": "miui_MOONTRGlobal_OS1.0.2.0.UNTTRXM_c24a0422fb_14.0.zip",
+					"fastboot": "moon_tr_global_images_OS1.0.2.0.UNTTRXM_20240529.0000.00_14.0_tr_15e1d6c5b8.tgz"
+				}
+			}
 		}
 	]
 }

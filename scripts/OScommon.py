@@ -60,6 +60,8 @@ flags = {
 	"HOUJITRGlobal": "houji",
 	"garnet_global": "garnet",
 	"STAREEAGlobal":"star",
+	"MOONTRGlobal":"moon",
+	"moon_tr_global":"moon",
 	"spesn_za_mt_global":"spesn",
 	"SPESNZAMTGlobal":"spesn",
 	"VILIJPGlobal":"vili",
