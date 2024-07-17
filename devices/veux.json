@@ -200,6 +200,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Vodafone运营商定制版",
+				"en": "Xiaomi HyperOS Europe Vodafone Carrier Edition"
+			},
+			"branchCode": "veux_eea_vf_global",
+			"idtag": "EUVF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TKCEUVF": {
+					"os": "OS1.0.3.0.TKCEUVF",
+					"android": "13.0",
+					"release": "2024-07-17",
+					"recovery": "miui_VEUXEEAVFGlobal_OS1.0.3.0.TKCEUVF_407faba8f5_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

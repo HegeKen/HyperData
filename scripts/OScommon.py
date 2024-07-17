@@ -99,6 +99,8 @@ flags = {
 	"VILIEEASFGlobal":"vili",
 	"veux_eea_hg_global":"veux",
 	"VEUXEEAHGGlobal":"veux",
+	"veux_eea_vf_global":"veux",
+	"VEUXEEAVFGlobal":"veux",
 	"breeze_in_global":"breeze",
 	"BREEZEINGlobal":"breeze",
 	"ruan_global":"ruan",
