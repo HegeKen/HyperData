@@ -35,7 +35,7 @@ currentStable = ["ruyi", "goku",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
 only_os = ["degas", "goku", "rothko", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
-					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t",]
+					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
 onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
