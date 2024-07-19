@@ -1,7 +1,7 @@
 {
 	"device": "rothko",
 	"name": {
-		"zh": "Redmi K70 Ultra",
+		"zh": "Redmi K70 至尊版",
 		"en": "Redmi K70 Ultra"
 	},
 	"type": "phone",
@@ -44,13 +44,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS1.0.1.0.UNNCNDM": {
-					"os": "OS1.0.1.0.UNNCNDM",
+				"OS1.0.3.0.UNNCNDM": {
+					"os": "OS1.0.3.0.UNNCNDM",
 					"android": "14.0",
-					"release": "",
+					"release": "2024-07-19",
 					"recovery": "",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "rothko_demo_images_OS1.0.3.0.UNNCNDM_20240709.0000.00_14.0_cn_1e1aa28b46.tgz",
+					"ctelecom": "rothko_demo_images_OS1.0.3.0.UNNCNDM_20240709.0000.00_14.0_cn_chinatelecom_65355a67d4.tgz"
 				}
 			}
 		}
