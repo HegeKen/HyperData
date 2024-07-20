@@ -88,6 +88,8 @@ flags = {
 	"goku_demo":"goku",
 	"RUYIDEMO":"ruyi",
 	"GOKUDEMO":"goku",
+	"COROTJPGlobal":"corot",
+	"corot_jp_global":"corot",
 	"venus_eea_vf_global":"venus",
 	"VENUSEEAVFGlobal":"venus",
 	"haydn_eea_ti_global":"haydn",

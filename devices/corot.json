@@ -430,6 +430,29 @@
 					"fastboot": "corot_tr_global_images_OS1.0.2.0.UMLTRXM_20240119.0000.00_14.0_tr_94aa175dcd.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "corot_jp_global",
+			"idtag": "JAPS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.9.0.UMLJPXM": {
+					"os": "OS1.0.9.0.UMLJPXM",
+					"android": "14.0",
+					"release": "2024-07-20",
+					"recovery": "miui_COROTJPGlobal_OS1.0.9.0.UMLJPXM_548e82d4b7_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
