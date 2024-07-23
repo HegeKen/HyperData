@@ -197,6 +197,29 @@
 					"fastboot": "opal_ru_global_images_OS1.0.1.0.TGLRUXM_20240307.0000.00_13.0_ru_61a85c5bc1.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "opal_mx_at_global",
+			"idtag": "MXAT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TGLMXAT": {
+					"os": "OS1.0.2.0.TGLMXAT",
+					"android": "13.0",
+					"release": "2024-07-23",
+					"recovery": "miui_OPALMXATGlobal_OS1.0.2.0.TGLMXAT_9c1bb5e4db_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
