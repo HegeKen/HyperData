@@ -5,12 +5,12 @@
 		"en": "DEV for week 650 (HyperOS DEV released for various devices)"
 	},
 	"postId": "46457316",
-	"update": "2024.07.19 21:01:20",
+	"update": "2024.07.23 16:57:18",
 	"versions": "OS1.0.24.7.15.DEV, OS1.0.24.7.17.DEV, OS1.0.24.7.20.DEV",
 	"description": [
 		{
-			"zh": "Xiaomi 14 Pro、Xiaomi 14 发布OS1.0.24.7.20.DEV版本，已优化桌面图标启动动画策略，提升应用启动速度，欢迎大家升级至最新版本体验",
-			"en": "Animation strategy for app icons has been optimized to improve app launch speed in version OS1.0.24.7.20.DEV for Xiaomi 14 and Xiaomi 14 Pro. Welcome to upgrade to the latest version and experience it."
+			"zh": "由于正在排查小部件图标点击无响应的问题，Xiaomi 14 Pro、Xiaomi 14 发布OS1.0.24.7.20.DEV版本已暂停发布",
+			"en": "Version OS1.0.24.7.20.DEV for Xiaomi 14 Pro, Xiaomi 14 has been suspended due to troubleshooting the issue of the widget icon not responding to clicks."
 		},
 		{
 			"zh": "小米 12、小米 12 Pro、小米 12 Pro 天玑版、小米 12S、小米 12S Pro、小米 12S Ultra、小米 13、小米 13 Pro、小米 13 Ultra、小米 14、小米 14 Pro / Ti、小米 MIX Fold 3、小米 MIX Fold 2、小米平板5 Pro 12.4、Redmi K50、Redmi K50 Pro、Redmi K50 至尊版、Redmi K50 电竞版、Redmi K60、Redmi K60 Pro的小米澎湃OS开发版，将于今天24点前推送完毕，欢迎大家升级至最新版本体验",
@@ -182,62 +182,6 @@
 			}
 		},
 		{
-			"device": "houji",
-			"name": {
-				"zh": "小米 14",
-				"en": "Xiaomi 14"
-			},
-			"rom": {
-				"os": "OS1.0.24.7.20.DEV",
-				"android": "14.0",
-				"release": "2024-07-21",
-				"recovery": "miui_HOUJI_OS1.0.24.7.20.DEV_ae399ca4e7_14.0.zip",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "houji",
-			"name": {
-				"zh": "小米 14",
-				"en": "Xiaomi 14"
-			},
-			"rom": {
-				"os": "OS1.0.24.7.17.DEV",
-				"android": "14.0",
-				"release": "2024-07-19",
-				"recovery": "miui_HOUJI_OS1.0.24.7.17.DEV_ef697c97e7_14.0.zip",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "shennong",
-			"name": {
-				"zh": "小米 14 Pro / Ti",
-				"en": "Xiaomi 14 Pro / Ti"
-			},
-			"rom": {
-				"os": "OS1.0.24.7.20.DEV",
-				"android": "14.0",
-				"release": "2024-07-21",
-				"recovery": "miui_SHENNONG_OS1.0.24.7.20.DEV_dc56ac22e4_14.0.zip",
-				"fastboot": ""
-			}
-		},
-		{
-			"device": "shennong",
-			"name": {
-				"zh": "小米 14 Pro / Ti",
-				"en": "Xiaomi 14 Pro / Ti"
-			},
-			"rom": {
-				"os": "OS1.0.24.7.17.DEV",
-				"android": "14.0",
-				"release": "2024-07-19",
-				"recovery": "miui_SHENNONG_OS1.0.24.7.17.DEV_5744e9f71c_14.0.zip",
-				"fastboot": ""
-			}
-		},
-		{
 			"device": "zizhan",
 			"name": {
 				"zh": "小米 MIX Fold 2",
@@ -364,5 +308,62 @@
 			}
 		}
 	],
-	"suspended": []
+	"suspended": [
+		{
+			"device": "houji",
+			"name": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.20.DEV",
+				"android": "14.0",
+				"release": "2024-07-21",
+				"recovery": "miui_HOUJI_OS1.0.24.7.20.DEV_ae399ca4e7_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "houji",
+			"name": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.17.DEV",
+				"android": "14.0",
+				"release": "2024-07-19",
+				"recovery": "miui_HOUJI_OS1.0.24.7.17.DEV_ef697c97e7_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "shennong",
+			"name": {
+				"zh": "小米 14 Pro / Ti",
+				"en": "Xiaomi 14 Pro / Ti"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.20.DEV",
+				"android": "14.0",
+				"release": "2024-07-21",
+				"recovery": "miui_SHENNONG_OS1.0.24.7.20.DEV_dc56ac22e4_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "shennong",
+			"name": {
+				"zh": "小米 14 Pro / Ti",
+				"en": "Xiaomi 14 Pro / Ti"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.17.DEV",
+				"android": "14.0",
+				"release": "2024-07-19",
+				"recovery": "miui_SHENNONG_OS1.0.24.7.17.DEV_5744e9f71c_14.0.zip",
+				"fastboot": ""
+			}
+		}
+	]
 }
