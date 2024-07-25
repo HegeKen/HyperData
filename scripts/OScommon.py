@@ -80,6 +80,8 @@ flags = {
 	"HAYDNEEABYGlobal":"haydn",
 	"fleur_mx_at_global":"fleur",
 	"FLEURMXATGlobal":"fleur",
+	"xun_ep_stdee":"xun",
+	"XUNEPSTDEE":"xun",
 	"opal_mx_at_global":"opal",
 	"OPALMXATGlobal":"opal",
 	"SHENGPREDPPGlobal":"sheng",
