@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.07.26 01:03:59",
+		"time": "2024.07.26 23:40:01",
 		"roms": [
 			{
 				"code": "lisa",
@@ -8,7 +8,7 @@
 					"zh": "小米 11 青春活力版",
 					"en": "Mi 11 LE/Xiaomi 11 Lite 5G NE"
 				},
-				"rom": "OS1.0.5.0.UKOEUHG"
+				"rom": "OS1.0.4.0.UKOTWXM; OS1.0.5.0.UKOEUHG; OS1.0.4.0.UKORUXM"
 			},
 			{
 				"code": "zeus",
@@ -19,12 +19,20 @@
 				"rom": "OS1.0.4.0.ULBMIXM; OS1.0.7.0.ULBEUXM; OS1.0.4.0.ULBRUXM; OS1.0.4.0.ULBINXM"
 			},
 			{
+				"code": "psyche",
+				"name": {
+					"zh": "小米 12X",
+					"en": "Xiaomi 12X"
+				},
+				"rom": "OS1.0.3.0.TLDMIXM"
+			},
+			{
 				"code": "aristotle",
 				"name": {
 					"zh": "小米 13T",
 					"en": "Xiaomi 13T"
 				},
-				"rom": "OS1.0.3.0.UMFRUXM"
+				"rom": "OS1.0.3.0.UMFTWXM; OS1.0.3.0.UMFRUXM; OS1.0.4.0.UMFIDXM; OS1.0.3.0.UMFTRXM"
 			},
 			{
 				"code": "houji",
@@ -51,6 +59,14 @@
 				"rom": "OS1.0.8.0.UNVCNXM"
 			},
 			{
+				"code": "ruyi",
+				"name": {
+					"zh": "小米 MIX Flip",
+					"en": "Xiaomi MIX Flip"
+				},
+				"rom": "OS1.0.3.0.UNIMIXM"
+			},
+			{
 				"code": "ziyi",
 				"name": {
 					"zh": "小米 Civi 2",
@@ -72,7 +88,7 @@
 					"zh": "Redmi 12C",
 					"en": "Redmi 12C"
 				},
-				"rom": "OS1.0.3.0.UCVEUTF"
+				"rom": "OS1.0.3.0.UCVEUTF; OS1.0.5.0.UCVEUVF"
 			},
 			{
 				"code": "gale",
@@ -123,6 +139,14 @@
 				"rom": "OS1.0.5.0.UMOIDXM"
 			},
 			{
+				"code": "pearl",
+				"name": {
+					"zh": "Redmi Note 12T Pro",
+					"en": "Redmi Note 12T Pro"
+				},
+				"rom": "OS1.0.3.0.ULHCNXM"
+			},
+			{
 				"code": "topaz",
 				"name": {
 					"zh": "Redmi Note 12 4G NFC 国际",
@@ -160,7 +184,15 @@
 					"zh": "Redmi Note 13 Pro+",
 					"en": "Redmi Note 13 Pro+"
 				},
-				"rom": "OS1.0.3.0.UNOMIXM"
+				"rom": "OS1.0.3.0.UNOTWXM; OS1.0.3.0.UNOMIXM; OS1.0.3.0.UNORUXM; OS1.0.3.0.UNOIDXM"
+			},
+			{
+				"code": "emerald",
+				"name": {
+					"zh": "Redmi Note 13 Pro 4G",
+					"en": "Redmi Note 13 Pro 4G"
+				},
+				"rom": "OS1.0.3.0.UNFEUXM"
 			},
 			{
 				"code": "sapphiren",
@@ -168,7 +200,7 @@
 					"zh": "Redmi Note 13 NFC",
 					"en": "Redmi Note 13 NFC"
 				},
-				"rom": "OS1.0.3.0.UNHRUXM"
+				"rom": "OS1.0.3.0.UNHRUXM; OS1.0.4.0.UNHIDXM"
 			},
 			{
 				"code": "peridot",
@@ -200,7 +232,7 @@
 					"zh": "POCO M6 4G",
 					"en": "POCO M6 4G"
 				},
-				"rom": "OS1.0.4.0.UNTTRXM"
+				"rom": "OS1.0.6.0.UNTMIXM; OS1.0.5.0.UNTEUXM; OS1.0.4.0.UNTTRXM"
 			}
 		]
 	}

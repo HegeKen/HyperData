@@ -99,6 +99,29 @@
 					"ctelecom": "ruyi_demo_images_OS1.0.1.0.UNICNDM_20240608.0000.00_14.0_cn_chinatelecom_c41f702210.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "ruyi_global",
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNIMIXM": {
+					"os": "OS1.0.3.0.UNIMIXM",
+					"android": "14.0",
+					"release": "2024-07-26",
+					"recovery": "miui_RUYIGlobal_OS1.0.3.0.UNIMIXM_f7241946f2_14.0.zip",
+					"fastboot": "ruyi_global_images_OS1.0.3.0.UNIMIXM_20240720.0000.00_14.0_global_a797d79b00.tgz"
+				}
+			}
 		}
 	]
 }

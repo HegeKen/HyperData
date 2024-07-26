@@ -21,6 +21,13 @@
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"roms": {
+				"OS1.0.24.7.26.DEV": {
+					"os": "OS1.0.24.7.26.DEV",
+					"android": "14.0",
+					"release": "2024-07-26",
+					"recovery": "miui_FUXI_OS1.0.24.7.26.DEV_45ea9c48cb_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.24.7.25.DEV": {
 					"os": "OS1.0.24.7.25.DEV",
 					"android": "14.0",
@@ -294,7 +301,7 @@
 					"android": "14.0",
 					"release": "2024-06-15",
 					"recovery": "miui_FUXI_OS1.0.9.0.UMCCNXM_ae3430817c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "fuxi_images_OS1.0.9.0.UMCCNXM_20240604.0000.00_14.0_cn_d8728c20ab.tgz"
 				},
 				"OS1.0.8.0.UMCCNXM": {
 					"os": "OS1.0.8.0.UMCCNXM",
@@ -361,6 +368,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.9.0.UMCCNXM": {
+					"os": "OS1.0.9.0.UMCCNXM",
+					"android": "14.0",
+					"release": "2024-06-15",
+					"recovery": "miui_FUXI_OS1.0.9.0.UMCCNXM_ae3430817c_14.0.zip",
+					"fastboot": "fuxi_images_OS1.0.9.0.UMCCNXM_20240604.0000.00_14.0_cn_chinatelecom_c24e16b5b0.tgz"
+				},
 				"OS1.0.8.0.UMCCNXM": {
 					"os": "OS1.0.8.0.UMCCNXM",
 					"android": "14.0",
