@@ -21,10 +21,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["ruyi", "goku", 
-								 "rothko", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
-								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
-								 "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
+currentStable = ["earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
 								 "gale", "garnet", "gold", "haydn", "houji", "ingres", "ishtar", "light", "lightcm",
 								 "lisa", "liuqin", "manet", "marble", "matisse", "mayfly", "mona", "mondrian", "moon", "moonstone",
 								 "munch", "nabu", "nuwa", "odin", "opal", "pearl", "peridot", "pipa", "pissarro", "pissarroin", "plato",
@@ -82,6 +79,8 @@ flags = {
 	"FLEURMXATGlobal":"fleur",
 	"xun_ep_stdee":"xun",
 	"XUNEPSTDEE":"xun",
+	"ruyi_global":"ruyi",
+	"RUYIGlobal":"ruyi",
 	"opal_mx_at_global":"opal",
 	"OPALMXATGlobal":"opal",
 	"SHENGPREDPPGlobal":"sheng",
