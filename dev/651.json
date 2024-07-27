@@ -5,9 +5,13 @@
 		"en": "DEV for week 651 (HyperOS DEV released for various devices)"
 	},
 	"postId": "46148442",
-	"update": "2024.07.26 23:38:49",
-	"versions": "OS1.0.24.7.25.DEV, OS1.0.24.7.24.DEV, OS1.0.24.7.25.DEV, OS1.0.24.7.26.DEV",
+	"update": "2024.07.27 20:32:55",
+	"versions": "OS1.0.24.7.25.DEV, OS1.0.24.7.24.DEV, OS1.0.24.7.25.DEV, OS1.0.24.7.26.DEV, OS1.0.24.7.27.DEV",
 	"description": [
+		{
+			"zh": "Xiaomi 14 Pro、Xiaomi 14、Xiaomi 13 Ultra、Xiaomi 13 Pro、Xiaomi 13、Redmi K60 Pro、Redmi K60 已发布OS1.0.24.7.27.DEV版本，已修复部分场景最近任务卡片重叠的问题，欢迎大家升级至最新版本体验。",
+			"en": "Version OS1.0.24.7.27.DEV has been released for Xiaomi 14 Pro、Xiaomi 14、Xiaomi 13 Ultra、Xiaomi 13 Pro、Xiaomi 13、Redmi K60 Pro、Redmi K60, which has fixed the overlapping issue of recent task cards in some scenarios. Welcome to upgrade to the latest version and experience it."
+		},
 		{
 			"zh": "小米 12、小米 12 Pro、小米 12 Pro 天玑版、小米 12S、小米 12S Pro、小米 12S Ultra、小米 13、小米 13 Pro、小米 13 Ultra、小米 14、小米 14 Pro / Ti、小米 MIX Fold 3、小米 MIX Fold 2、小米平板5 Pro 12.4、Redmi K50、Redmi K50 Pro、Redmi K50 至尊版、Redmi K50 电竞版、Redmi K60、Redmi K60 Pro的小米澎湃OS开发版，将于今天24点前推送完毕，欢迎大家升级至最新版本体验",
 			"en": "This week's HyperOS DEV for Xiaomi 12、Xiaomi 12 Pro、Xiaomi 12 Pro Dimensity、Xiaomi 12S、Xiaomi 12S Pro、Xiaomi 12S Ultra、Xiaomi 13、Xiaomi 13 Pro、Xiaomi 13 Ultra、Xiaomi 14、Xiaomi 14 Pro / Ti、Xiaomi MIX Fold 2、Xiaomi MIX Fold 3、 Xiaomi Pad 5 Pro 12.4、 Redmi K50、Redmi K50 Pro、Redmi K50G、Redmi K50 Ultra、Redmi K60、Redmi K60 Pro will be awailable before 24:00(GMT+8) today."
@@ -138,10 +142,38 @@
 				"en": "Xiaomi 13"
 			},
 			"rom": {
+				"os": "OS1.0.24.7.27.DEV",
+				"android": "14.0",
+				"release": "2024-07-27",
+				"recovery": "miui_FUXI_OS1.0.24.7.27.DEV_86196a8e69_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "fuxi",
+			"name": {
+				"zh": "小米 13",
+				"en": "Xiaomi 13"
+			},
+			"rom": {
 				"os": "OS1.0.24.7.26.DEV",
 				"android": "14.0",
 				"release": "2024-07-26",
 				"recovery": "miui_FUXI_OS1.0.24.7.26.DEV_45ea9c48cb_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "nuwa",
+			"name": {
+				"zh": "小米 13 Pro",
+				"en": "Xiaomi 13 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.27.DEV",
+				"android": "14.0",
+				"release": "2024-07-27",
+				"recovery": "miui_NUWA_OS1.0.24.7.27.DEV_2e72116fef_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -166,6 +198,20 @@
 				"en": "Xiaomi 13 Ultra"
 			},
 			"rom": {
+				"os": "OS1.0.24.7.27.DEV",
+				"android": "14.0",
+				"release": "2024-07-27",
+				"recovery": "miui_ISHTAR_OS1.0.24.7.27.DEV_3886d50b52_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "ishtar",
+			"name": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
+			"rom": {
 				"os": "OS1.0.24.7.26.DEV",
 				"android": "14.0",
 				"release": "2024-07-26",
@@ -180,10 +226,38 @@
 				"en": "Xiaomi 14"
 			},
 			"rom": {
+				"os": "OS1.0.24.7.27.DEV",
+				"android": "14.0",
+				"release": "2024-07-27",
+				"recovery": "miui_HOUJI_OS1.0.24.7.27.DEV_a70339f232_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "houji",
+			"name": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
+			"rom": {
 				"os": "OS1.0.24.7.26.DEV",
 				"android": "14.0",
 				"release": "2024-07-26",
 				"recovery": "miui_HOUJI_OS1.0.24.7.26.DEV_825dea696d_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "shennong",
+			"name": {
+				"zh": "小米 14 Pro / Ti",
+				"en": "Xiaomi 14 Pro / Ti"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.27.DEV",
+				"android": "14.0",
+				"release": "2024-07-27",
+				"recovery": "miui_SHENNONG_OS1.0.24.7.27.DEV_c59be02a38_14.0.zip",
 				"fastboot": ""
 			}
 		},
@@ -306,10 +380,38 @@
 				"en": "Redmi K60"
 			},
 			"rom": {
+				"os": "OS1.0.24.7.27.DEV",
+				"android": "14.0",
+				"release": "2024-07-27",
+				"recovery": "miui_MONDRIAN_OS1.0.24.7.27.DEV_edbff4db21_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "mondrian",
+			"name": {
+				"zh": "Redmi K60",
+				"en": "Redmi K60"
+			},
+			"rom": {
 				"os": "OS1.0.24.7.26.DEV",
 				"android": "14.0",
 				"release": "2024-07-26",
 				"recovery": "miui_MONDRIAN_OS1.0.24.7.26.DEV_5fcb835ac7_14.0.zip",
+				"fastboot": ""
+			}
+		},
+		{
+			"device": "socrates",
+			"name": {
+				"zh": "Redmi K60 Pro",
+				"en": "Redmi K60 Pro"
+			},
+			"rom": {
+				"os": "OS1.0.24.7.27.DEV",
+				"android": "14.0",
+				"release": "2024-07-27",
+				"recovery": "miui_SOCRATES_OS1.0.24.7.27.DEV_94148c005b_14.0.zip",
 				"fastboot": ""
 			}
 		},
