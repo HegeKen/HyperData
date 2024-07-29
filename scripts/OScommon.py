@@ -76,6 +76,8 @@ flags = {
 	"peridot_tw_global":"peridot",
 	"klein_demo":"klein",
 	"klein":"klein",
+	"air_in_global":"air",
+	"AIRINGlobal":"air",
 	"ruan_in_global":"ruan",
 	"RUANINGlobal":"ruan",
 	"HAYDNEEATIGlobal":"haydn",
