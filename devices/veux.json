@@ -237,6 +237,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Orange运营商定制版",
+				"en": "Xiaomi HyperOS Europe Orange Carrier Edition"
+			},
+			"branchCode": "veux_eea_or_global",
+			"idtag": "EUOR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.TKCEUOR": {
+					"os": "OS1.0.4.0.TKCEUOR",
+					"android": "13.0",
+					"release": "2024-07-30",
+					"recovery": "miui_VEUXEEAORGlobal_OS1.0.4.0.TKCEUOR_40bff60367_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

@@ -122,6 +122,8 @@ flags = {
 	"VEUXEEAHGGlobal":"veux",
 	"veux_eea_vf_global":"veux",
 	"VEUXEEAVFGlobal":"veux",
+	"veux_eea_or_global":"veux",
+	"VEUXEEAORGlobal":"veux",
 	"breeze_in_global":"breeze",
 	"BREEZEINGlobal":"breeze",
 	"ruan_global":"ruan",
