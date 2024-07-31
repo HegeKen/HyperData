@@ -158,6 +158,8 @@ flags = {
 	"AIRGlobal":"air",
 	"aurora_ep_stdee":"aurora",
 	"AURORAEPSTDEE":"aurora",
+	"breeze_ep_stdee":"breeze",
+	"BREEZEEPSTDEE":"breeze",
 	"DIZIINGlobal":"dizi",
 	"dizi_in_global":"dizi",
 	"light_eea_hg_global":"light",
