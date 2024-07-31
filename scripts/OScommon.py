@@ -156,6 +156,8 @@ flags = {
 	"VENUSEEAHGGlobal":"venus",
 	"air_global":"air",
 	"AIRGlobal":"air",
+	"aurora_ep_stdee":"aurora",
+	"AURORAEPSTDEE":"aurora",
 	"DIZIINGlobal":"dizi",
 	"dizi_in_global":"dizi",
 	"light_eea_hg_global":"light",
