@@ -124,6 +124,8 @@ flags = {
 	"VEUXEEAVFGlobal":"veux",
 	"veux_eea_or_global":"veux",
 	"VEUXEEAORGlobal":"veux",
+	"diting_mx_at_global":"diting",
+	"DITINGMXATGlobal":"diting",
 	"breeze_in_global":"breeze",
 	"BREEZEINGlobal":"breeze",
 	"ruan_global":"ruan",
