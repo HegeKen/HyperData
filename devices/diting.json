@@ -565,6 +565,29 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "diting_mx_at_global",
+			"idtag": "MXAT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULFMXAT": {
+					"os": "OS1.0.1.0.ULFMXAT",
+					"android": "14.0",
+					"release": "2024-08-01",
+					"recovery": "miui_DITINGMXATGlobal_OS1.0.1.0.ULFMXAT_454bb6c4a3_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
