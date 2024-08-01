@@ -1325,6 +1325,7 @@ def OTAFormer(device, code, region, branch, zone, android, version):
 
 def checkExist(filename):
 	newROM = open("public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+	UInewROM = open("D:/Projects/HyperOS.fans/Nuxt3MR/public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
 	if "OS" in filename:
 		if "blockota" in filename:
 			return "OTA ROM"
@@ -1332,7 +1333,7 @@ def checkExist(filename):
 			if getDeviceCode(filename) == 0:
 				writeData(filename)
 				return "New ROM"
-			elif filename in localData(getDeviceCode(filename)).__str__() or filename in newROM:
+			elif filename in localData(getDeviceCode(filename)).__str__() or filename in newROM or filename in UInewROM:
 				return "Already Exist"
 			else:
 				writeData(filename)
