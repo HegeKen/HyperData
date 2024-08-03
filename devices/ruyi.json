@@ -26,7 +26,7 @@
 					"android": "14.0",
 					"release": "2024-07-28",
 					"recovery": "miui_RUYI_OS1.0.8.0.UNICNXM_fc66e674c8_14.0.zip",
-					"fastboot": ""
+					"fastboot": "ruyi_images_OS1.0.8.0.UNICNXM_20240726.0000.00_14.0_cn_25db220f42.tgz"
 				},
 				"OS1.0.7.0.UNICNXM": {
 					"os": "OS1.0.7.0.UNICNXM",
@@ -58,6 +58,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UNICNXM": {
+					"os": "OS1.0.8.0.UNICNXM",
+					"android": "14.0",
+					"release": "2024-07-28",
+					"recovery": "miui_RUYI_OS1.0.8.0.UNICNXM_fc66e674c8_14.0.zip",
+					"fastboot": "ruyi_images_OS1.0.8.0.UNICNXM_20240726.0000.00_14.0_cn_chinatelecom_15c6bb08da.tgz"
+				},
 				"OS1.0.7.0.UNICNXM": {
 					"os": "OS1.0.7.0.UNICNXM",
 					"android": "14.0",
@@ -112,6 +119,29 @@
 					"recovery": "miui_RUYIDEMO_OS1.0.1.0.UNICNDM_647cd84582_14.0.zip",
 					"fastboot": "ruyi_demo_images_OS1.0.1.0.UNICNDM_20240608.0000.00_14.0_cn_b7190812ff.tgz",
 					"ctelecom": "ruyi_demo_images_OS1.0.1.0.UNICNDM_20240608.0000.00_14.0_cn_chinatelecom_c41f702210.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "ruyi_tw_global",
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNITWXM": {
+					"os": "OS1.0.4.0.UNITWXM",
+					"android": "14.0",
+					"release": "2024-08-03",
+					"recovery": "miui_RUYITWGlobal_OS1.0.4.0.UNITWXM_c2f97cc622_14.0.zip",
+					"fastboot": "ruyi_tw_global_images_OS1.0.4.0.UNITWXM_20240801.0000.00_14.0_tw_25ddbe2a1c.tgz"
 				}
 			}
 		},
