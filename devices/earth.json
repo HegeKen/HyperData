@@ -596,6 +596,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "earth_cl_en_global",
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UCVCLEN": {
+					"os": "OS1.0.2.0.UCVCLEN",
+					"android": "14.0",
+					"release": "2024-08-07",
+					"recovery": "miui_EARTHCLENGlobal_OS1.0.2.0.UCVCLEN_c194d1077b_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
 				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
 			},

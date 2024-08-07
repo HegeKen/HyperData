@@ -62,6 +62,8 @@ flags = {
 	"ruyi_tw_global":"ruyi",
 	"garnet_global": "garnet",
 	"STAREEAGlobal":"star",
+	"earth_cl_en_global":"earth",
+	"EARTHCLENGlobal":"earth",
 	"MOONTRGlobal":"moon",
 	"moon_tr_global":"moon",
 	"spesn_za_mt_global":"spesn",
@@ -1452,6 +1454,9 @@ def MiFirm(url):
 
 
 def MiFirm2(url):
+	wrongs = [
+		"miui_LIUQIN_OS1.0.7.0.UMYCNXM_d618a5c980_14.0.zipp"
+	]
 	response = requests.post(url)
 	if (response.status_code == 200):
 		content = response.content.decode("utf8")
@@ -1464,7 +1469,9 @@ def MiFirm2(url):
 				tdtags = BeautifulSoup(str(tag), 'lxml')
 				tds = tdtags.find_all("td")
 				for td in tds:
-					if ".tgz" in td.text or ".zip" in td.text:
+					if td.text in wrongs:
+						i = 0
+					elif ".tgz" in td.text or ".zip" in td.text:
 						checkExist(td.text)
 					else:
 						i = 0
