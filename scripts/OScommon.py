@@ -85,6 +85,8 @@ flags = {
 	"RUANINGlobal":"ruan",
 	"RUANEEAGlobal":"ruan",
 	"ruan_eea_global":"ruan",
+	"ruan_ru_global":"ruan",
+	"RUANRUGlobal":"ruan",
 	"HAYDNEEATIGlobal":"haydn",
 	"haydn_eea_by_global":"haydn",
 	"HAYDNEEABYGlobal":"haydn",

@@ -146,6 +146,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "ruan_ru_global",
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UFSRUXM": {
+					"os": "OS1.0.3.0.UFSRUXM",
+					"android": "14.0",
+					"release": "2024-08-08",
+					"recovery": "miui_RUANRUGlobal_OS1.0.3.0.UFSRUXM_2fc6ecb90c_14.0.zip",
+					"fastboot": "ruan_ru_global_images_OS1.0.3.0.UFSRUXM_20240722.0000.00_14.0_ru_d03cb05224.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
