@@ -116,6 +116,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "ruan_eea_global",
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UFSEUXM": {
+					"os": "OS1.0.3.0.UFSEUXM",
+					"android": "14.0",
+					"release": "2024-08-08",
+					"recovery": "miui_RUANEEAGlobal_OS1.0.3.0.UFSEUXM_3695592ecf_14.0.zip",
+					"fastboot": "ruan_eea_global_images_OS1.0.3.0.UFSEUXM_20240801.0000.00_14.0_eea_d9ec4df2e3.tgz"
+				},
+				"OS1.0.2.0.UFSEUXM": {
+					"os": "OS1.0.2.0.UFSEUXM",
+					"android": "14.0",
+					"release": "2024-08-08",
+					"recovery": "miui_RUANEEAGlobal_OS1.0.2.0.UFSEUXM_9c8e25037f_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
