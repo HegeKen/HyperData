@@ -1326,10 +1326,10 @@ def OTAFormer(device, code, region, branch, zone, android, version):
 		HyperOSForm['b'] = branch
 		HyperOSForm['options']['zone'] = zone
 		if android == '':
-				print(device,version,"请补充安卓版本")
-				HyperOSForm['c'] = '14'
+			print(device,version,"请补充安卓版本")
+			HyperOSForm['c'] = '14'
 		else:
-				HyperOSForm['c'] = android.split('.0')[0]
+			HyperOSForm['c'] = android.split('.0')[0]
 		HyperOSForm['sdk'] = sdk[android.split('.0')[0]]
 		HyperOSForm['v'] = 'MIUI-'+ version.replace('OS1','V816')
 		return json.dumps(HyperOSForm)
@@ -1427,7 +1427,7 @@ def getFromApi(encrypted_data):
 	data = "q=" + encrypted_data + "&s=1&t="
 	response = requests.post(check_url, headers=headers, data=data)
 	if "code" in response.text:
-		print(json.loads(response.text))
+		i = 0
 	else:
 		data = miui_decrypt(response.text.split("q=")[0])
 		if "LatestRom" in data:
@@ -1492,12 +1492,6 @@ def getChangelog(encrypted_data, device):
 				 "Cookie": "serviceToken=;"
 				 }
 	data = "q=" + encrypted_data + "&s=1&t="
-	if platform == "win32":
-		devdata = json.loads(
-			open("public/data/devices/"+device+".json", 'r', encoding='utf-8').read())
-	else:
-		devdata = json.loads(open(
-			"/sdcard/Codes/HyperOS.fans/public/data/devices/"+device+".json", 'r', encoding='utf-8').read())
 	response = requests.post(check_url, headers=headers, data=data)
 	if "code" in response.text:
 		print(json.loads(response.text)["desc"])
