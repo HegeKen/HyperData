@@ -249,6 +249,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Vodafone运营商定制版",
+				"en": "Xiaomi HyperOS Europe Vodafone Carrier Edition"
+			},
+			"branchCode": "haydn_eea_vf_global",
+			"idtag": "EUVF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKKEUVF": {
+					"os": "OS1.0.2.0.UKKEUVF",
+					"android": "14.0",
+					"release": "2024-08-12",
+					"recovery": "miui_HAYDNEEAVFGlobal_OS1.0.2.0.UKKEUVF_9776975824_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲Bouygues Telecom 运营商定制版",
 				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
 			},

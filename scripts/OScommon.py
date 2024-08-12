@@ -167,6 +167,8 @@ flags = {
 	"VENUSEEAHGGlobal":"venus",
 	"air_global":"air",
 	"AIRGlobal":"air",
+	"haydn_eea_vf_global":"haydn",
+	"HAYDNEEAVFGlobal":"haydn",
 	"aurora_ep_stdee":"aurora",
 	"AURORAEPSTDEE":"aurora",
 	"breeze_ep_stdee":"breeze",
