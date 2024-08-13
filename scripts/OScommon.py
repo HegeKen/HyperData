@@ -21,7 +21,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["ruyi", "goku", 
+currentStable = ["spark", "ruyi", "goku", 
 								 "rothko", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
 								 "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
@@ -34,8 +34,8 @@ currentStable = ["ruyi", "goku",
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["degas", "goku", "rothko", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan", "dizi", "peridot", "aurora", 
-					 "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
+only_os = ["spark", "degas", "goku", "rothko", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan",
+					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
 onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
@@ -169,6 +169,8 @@ flags = {
 	"AIRGlobal":"air",
 	"haydn_eea_vf_global":"haydn",
 	"HAYDNEEAVFGlobal":"haydn",
+	"SPARKINGlobal":"spark",
+	"spark_in_global":"spark",
 	"aurora_ep_stdee":"aurora",
 	"AURORAEPSTDEE":"aurora",
 	"breeze_ep_stdee":"breeze",

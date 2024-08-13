@@ -1,0 +1,36 @@
+{
+  "device": "spark",
+  "name": {
+    "zh": "Redmi 平板 SE 4G 8.7",
+    "en": "Redmi Pad SE 4G 8.7"
+  },
+  "type": "tablet",
+  "miui": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度正式版",
+        "en": "Xiaomi HyperOS India Stable"
+      },
+      "branchCode": "spark_in_global",
+      "idtag": "INSO",
+      "branchtag": "F",
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "in",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS1.0.1.0.UHYINXM": {
+          "os": "OS1.0.1.0.UHYINXM",
+          "android": "14.0",
+          "release": "2024-08-13",
+          "recovery": "miui_SPARKINGlobal_OS1.0.1.0.UHYINXM_f28cb21b53_14.0.zip",
+          "fastboot": "spark_in_global_images_OS1.0.1.0.UHYINXM_20240704.0000.00_14.0_in_90bb2d2f9f.tgz"
+        }
+      }
+    }
+  ]
+}
