@@ -136,6 +136,29 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Orange运营商定制版",
+				"en": "Xiaomi HyperOS Europe Orange Carrier Edition"
+			},
+			"branchCode": "spesn_eea_or_global",
+			"idtag": "EUOR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGKEUOR": {
+					"os": "OS1.0.1.0.TGKEUOR",
+					"android": "13.0",
+					"release": "2024-08-13",
+					"recovery": "miui_SPESNEEAORGlobal_OS1.0.1.0.TGKEUOR_a4435ef903_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲Vodafone运营商定制版",
 				"en": "Xiaomi HyperOS Europe Vodafone Carrier Edition"
 			},

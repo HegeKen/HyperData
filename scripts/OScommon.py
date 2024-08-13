@@ -71,6 +71,8 @@ flags = {
 	"VILIJPGlobal":"vili",
 	"spesn_eea_vf_global":"spesn",
 	"SPESNEEAVFGlobal":"spesn",
+	"spesn_eea_or_global":"spesn",
+	"SPESNEEAORGlobal":"spesn",
 	"vili_jp_global":"vili",
 	"viva_za_mt_global":"viva",
 	"VIVAZAMTGlobal":"viva",
