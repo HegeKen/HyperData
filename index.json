@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.08.13 20:19:45",
+		"time": "2024.08.14 10:34:48",
 		"roms": [
 			{
 				"code": "venus",
@@ -35,6 +35,14 @@
 				"rom": "OS1.0.5.0.ULCTWXM; OS1.0.11.0.ULCEUXM; OS1.0.3.0.ULCRUXM; OS1.0.5.0.ULCIDXM; OS1.0.3.0.ULCTRXM"
 			},
 			{
+				"code": "daumier",
+				"name": {
+					"zh": "小米 12 Pro 天玑版",
+					"en": "Xiaomi 12 Pro Dimensity"
+				},
+				"rom": "OS1.0.5.0.ULGCNXM"
+			},
+			{
 				"code": "taoyao",
 				"name": {
 					"zh": "小米 12 Lite",
@@ -64,7 +72,7 @@
 					"zh": "小米 14 Ultra / Ti",
 					"en": "Xiaomi 14 Ultra / Ti"
 				},
-				"rom": "OS1.0.10.0.UNAMIXM; OS1.0.11.0.UNAEUXM; OS1.0.9.0.UNAINXM"
+				"rom": "OS1.0.19.0.UNACNXM; OS1.0.10.0.UNAMIXM; OS1.0.11.0.UNAEUXM; OS1.0.9.0.UNAINXM"
 			},
 			{
 				"code": "zijin",
@@ -257,6 +265,22 @@
 					"en": "Redmi K60"
 				},
 				"rom": "OS1.0.12.0.UMNCNXM; OS1.0.6.0.UMNEUXM"
+			},
+			{
+				"code": "corot",
+				"name": {
+					"zh": "Redmi K60 至尊版",
+					"en": "Redmi K60 Ultra"
+				},
+				"rom": "OS1.0.22.0.UMLCNXM"
+			},
+			{
+				"code": "manet",
+				"name": {
+					"zh": "Redmi K70 Pro",
+					"en": "Redmi K70 Pro"
+				},
+				"rom": "OS1.0.20.0.UNMCNXM"
 			},
 			{
 				"code": "rothko",
