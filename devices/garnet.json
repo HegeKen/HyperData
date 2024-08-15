@@ -131,6 +131,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "garnet_ep_cjcc",
+			"idtag": "EPCJCC",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.7.8.EP.CJCC.N16": {
+					"os": "OS1.0.24.7.8.EP.CJCC.N16",
+					"android": "14.0",
+					"release": "2024-08-15",
+					"recovery": "miui_GARNETEPCJCC_OS1.0.24.7.8.EP.CJCC.N16_d926cbaab9_14.0.zip",
+					"fastboot": "garnet_ep_cjcc_images_OS1.0.24.7.8.EP.CJCC.N16_20240708.0000.00_14.0_cn_d50336c04a.tgz",
+					"ctelecom": "garnet_ep_cjcc_images_OS1.0.24.7.8.EP.CJCC.N16_20240708.0000.00_14.0_cn_chinatelecom_01ae7c3e10.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾地区正式版",
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},

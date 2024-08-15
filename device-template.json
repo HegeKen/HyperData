@@ -247,6 +247,30 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "",
+			"idtag": "EPCJCC",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾地区正式版",
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},

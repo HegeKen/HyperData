@@ -75,6 +75,8 @@ flags = {
 	"SPESNEEAORGlobal":"spesn",
 	"spes_mx_at_global":"spes",
 	"SPESMXATGlobal":"spes",
+	"GARNETEPCJCC": "garnet",
+	"garnet_ep_cjcc": "garnet",
 	"vili_jp_global":"vili",
 	"viva_za_mt_global":"viva",
 	"VIVAZAMTGlobal":"viva",
