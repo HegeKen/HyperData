@@ -1,8 +1,8 @@
 {
 	"device": "garnet",
 	"name": {
-		"zh": "Redmi Note 13 Pro / POCO X6 5G",
-		"en": "Redmi Note 13 Pro / POCO X6 5G"
+		"zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
+		"en": "Redmi Note 13 Pro 5G / POCO X6 5G"
 	},
 	"type": "phone",
 	"miui": "yes",
@@ -13,6 +13,11 @@
 				"en": "Xiaomi HyperOS Stable"
 			},
 			"branchCode": "garnet",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G",
+        "en" :"Redmi Note 13 Pro 5G"
+      },
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
@@ -50,6 +55,11 @@
 				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
 			},
 			"branchCode": "garnet",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G",
+        "en" :"Redmi Note 13 Pro 5G"
+      },
 			"idtag": "CnOT",
 			"branchtag": "F",
 			"show": "1",
@@ -87,6 +97,11 @@
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},
 			"branchCode": "garnet_demo",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G",
+        "en" :"Redmi Note 13 Pro 5G"
+      },
 			"idtag": "CnOD",
 			"branchtag": "F",
 			"show": "0",
@@ -111,6 +126,11 @@
 				"en": "Xiaomi HyperOS Enterprise Standard"
 			},
 			"branchCode": "garnet_ep_stdee",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G",
+        "en" :"Redmi Note 13 Pro 5G"
+      },
 			"idtag": "EPSTD",
 			"branchtag": "F",
 			"show": "1",
@@ -131,10 +151,15 @@
 		},
 		{
 			"name": {
-				"zh": "小米澎湃 OS 中国大陆政企标准版",
-				"en": "Xiaomi HyperOS Enterprise Standard"
+				"zh": "小米澎湃 OS 中国 CJCC 政企定制版",
+				"en": "Xiaomi HyperOS CJCC Enterprise Edition"
 			},
 			"branchCode": "garnet_ep_cjcc",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G",
+        "en" :"Redmi Note 13 Pro 5G"
+      },
 			"idtag": "EPCJCC",
 			"branchtag": "F",
 			"show": "0",
@@ -159,6 +184,11 @@
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},
 			"branchCode": "garnet_tw_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
 			"idtag": "CNTP",
 			"branchtag": "F",
 			"show": "1",
@@ -189,6 +219,11 @@
 				"en": "Xiaomi HyperOS Global Stable"
 			},
 			"branchCode": "garnet_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
 			"idtag": "GBOO",
 			"branchtag": "F",
 			"show": "1",
@@ -233,6 +268,11 @@
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
 			"branchCode": "garnet_eea_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
 			"idtag": "EEAO",
 			"branchtag": "F",
 			"show": "1",
@@ -284,6 +324,11 @@
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
 			"branchCode": "garnet_ru_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
 			"idtag": "RUSO",
 			"branchtag": "F",
 			"show": "1",
@@ -314,6 +359,11 @@
 				"en": "Xiaomi HyperOS India Stable"
 			},
 			"branchCode": "garnet_in_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
 			"idtag": "INSO",
 			"branchtag": "F",
 			"show": "1",
@@ -364,6 +414,11 @@
 				"en": "Xiaomi HyperOS Indonesia Stable"
 			},
 			"branchCode": "garnet_id_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
 			"idtag": "IDSO",
 			"branchtag": "F",
 			"show": "1",
@@ -401,6 +456,11 @@
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
 			"branchCode": "garnet_tr_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
 			"idtag": "TRSO",
 			"branchtag": "F",
 			"show": "1",

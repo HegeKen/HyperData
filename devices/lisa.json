@@ -1,8 +1,8 @@
 {
 	"device": "lisa",
 	"name": {
-		"zh": "小米 11 青春活力版",
-		"en": "Mi 11 LE/Xiaomi 11 Lite 5G NE"
+		"zh": "小米 11 青春活力版 / 小米 11 Lite 5G NE",
+		"en": "Mi 11 LE / Xiaomi 11 Lite 5G NE"
 	},
 	"type": "phone",
 	"miui": "yes",
@@ -13,6 +13,11 @@
 				"en": "Xiaomi HyperOS Stable"
 			},
 			"branchCode": "lisa",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 青春活力版",
+        "en" :"Mi 11 LE"
+      },
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
@@ -43,6 +48,11 @@
 				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
 			},
 			"branchCode": "lisa",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 青春活力版",
+        "en" :"Mi 11 LE"
+      },
 			"idtag": "CnOT",
 			"branchtag": "F",
 			"show": "1",
@@ -73,6 +83,11 @@
 				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
 			},
 			"branchCode": "lisa",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 青春活力版",
+        "en" :"Mi 11 LE"
+      },
 			"idtag": "CnOM",
 			"branchtag": "F",
 			"show": "1",
@@ -103,6 +118,11 @@
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},
 			"branchCode": "lisa_tw_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "CNTP",
 			"branchtag": "F",
 			"show": "1",
@@ -133,6 +153,11 @@
 				"en": "Xiaomi HyperOS Global Stable"
 			},
 			"branchCode": "lisa_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "GBOO",
 			"branchtag": "F",
 			"show": "1",
@@ -163,6 +188,11 @@
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
 			"branchCode": "lisa_eea_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "EEAO",
 			"branchtag": "F",
 			"show": "1",
@@ -200,6 +230,11 @@
 				"en": "Xiaomi HyperOS Europe Orange Carrier Edition"
 			},
 			"branchCode": "lisa_eea_or_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "EUOR",
 			"branchtag": "F",
 			"show": "1",
@@ -237,6 +272,11 @@
 				"en": "Xiaomi HyperOS Europe Vodafone Carrier Edition"
 			},
 			"branchCode": "lisa_eea_vf_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "EUVF",
 			"branchtag": "F",
 			"show": "1",
@@ -274,6 +314,11 @@
 				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
 			},
 			"branchCode": "lisa_eea_by_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "EUBY",
 			"branchtag": "F",
 			"show": "1",
@@ -304,6 +349,11 @@
 				"en": "Xiaomi HyperOS Europe ThreeHK Carrier Edition"
 			},
 			"branchCode": "lisa_eea_hg_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "EUHG",
 			"branchtag": "F",
 			"show": "1",
@@ -341,6 +391,11 @@
 				"en": "Xiaomi HyperOS Europe Telefonica Carrier Edition"
 			},
 			"branchCode": "lisa_eea_tf_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "EUTF",
 			"branchtag": "F",
 			"show": "1",
@@ -378,6 +433,11 @@
 				"en": "Xiaomi HyperOS Europe TIM Carrier Edition"
 			},
 			"branchCode": "lisa_eea_ti_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "EUTI",
 			"branchtag": "F",
 			"show": "1",
@@ -401,6 +461,11 @@
 				"en": "Xiaomi HyperOS Europe Altice(SFR) Carrier Edition"
 			},
 			"branchCode": "lisa_eea_sf_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "EUSF",
 			"branchtag": "F",
 			"show": "1",
@@ -424,6 +489,11 @@
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
 			"branchCode": "lisa_ru_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "RUSO",
 			"branchtag": "F",
 			"show": "1",
@@ -454,6 +524,11 @@
 				"en": "Xiaomi HyperOS India Stable"
 			},
 			"branchCode": "lisa_in_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "INSO",
 			"branchtag": "F",
 			"show": "1",
@@ -484,6 +559,11 @@
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
 			"branchCode": "lisa_tr_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
 			"idtag": "TRSO",
 			"branchtag": "F",
 			"show": "1",
