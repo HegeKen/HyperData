@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.08.19 11:20:02",
+		"time": "2024.08.19 11:45:04",
 		"roms": [
 			{
 				"code": "lisa",
@@ -8,7 +8,23 @@
 					"zh": "小米 11 青春活力版",
 					"en": "Mi 11 LE/Xiaomi 11 Lite 5G NE"
 				},
-				"rom": "OS1.0.4.0.UKOCNXM"
+				"rom": "OS1.0.4.0.UKOCNXM; OS1.0.5.0.UKOMIXM; OS1.0.5.0.UKOINXM; OS1.0.4.0.UKOTRXM"
+			},
+			{
+				"code": "vili",
+				"name": {
+					"zh": "小米 11T Pro",
+					"en": "Xiaomi 11T Pro"
+				},
+				"rom": "OS1.0.4.0.UKDMIXM; OS1.0.4.0.UKDEUXM"
+			},
+			{
+				"code": "fuxi",
+				"name": {
+					"zh": "小米 13",
+					"en": "Xiaomi 13"
+				},
+				"rom": "OS1.0.13.0.UMCCNXM"
 			},
 			{
 				"code": "nuwa",
@@ -19,6 +35,38 @@
 				"rom": "OS1.0.11.0.UMBCNXM"
 			},
 			{
+				"code": "ishtar",
+				"name": {
+					"zh": "小米 13 Ultra",
+					"en": "Xiaomi 13 Ultra"
+				},
+				"rom": "OS1.0.15.0.UMACNXM"
+			},
+			{
+				"code": "babylon",
+				"name": {
+					"zh": "小米 MIX Fold 3",
+					"en": "Xiaomi MIX Fold 3"
+				},
+				"rom": "OS1.0.12.0.UMVCNXM"
+			},
+			{
+				"code": "spes",
+				"name": {
+					"zh": "Redmi Note 11 国际版",
+					"en": "Redmi Note 11"
+				},
+				"rom": "OS1.0.3.0.TGCTRXM"
+			},
+			{
+				"code": "spesn",
+				"name": {
+					"zh": "Redmi Note 11 NFC",
+					"en": "Redmi Note 11 NFC"
+				},
+				"rom": ""
+			},
+			{
 				"code": "fleur",
 				"name": {
 					"zh": "Redmi Note 11S 4G",
@@ -27,12 +75,36 @@
 				"rom": "OS1.0.3.0.TKEIDXM"
 			},
 			{
+				"code": "ruby",
+				"name": {
+					"zh": "Redmi Note 12 Pro / Pro+ / 探索版",
+					"en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
+				},
+				"rom": "OS1.0.4.0.UMOINXM"
+			},
+			{
+				"code": "sea",
+				"name": {
+					"zh": "Redmi Note 12S",
+					"en": "Redmi Note 12S"
+				},
+				"rom": "OS1.0.9.0.UHZMIXM"
+			},
+			{
 				"code": "garnet",
 				"name": {
 					"zh": "Redmi Note 13 Pro",
 					"en": "Redmi Note 13 Pro"
 				},
-				"rom": "OS1.0.8.0.UNRCNXM"
+				"rom": "OS1.0.8.0.UNRCNXM; OS1.0.4.0.UNRTWXM; OS1.0.6.0.UNRRUXM"
+			},
+			{
+				"code": "zircon",
+				"name": {
+					"zh": "Redmi Note 13 Pro+ 5G",
+					"en": "Redmi Note 13 Pro+ 5G"
+				},
+				"rom": "OS1.0.3.0.UNOTRXM"
 			},
 			{
 				"code": "peridot",
@@ -40,7 +112,47 @@
 					"zh": "Redmi Turbo 3",
 					"en": "Redmi Turbo 3"
 				},
-				"rom": "OS1.0.15.0.UNPCNXM"
+				"rom": "OS1.0.15.0.UNPCNXM; OS1.0.7.0.UNPMIXM; OS1.0.4.0.UNPRUXM; OS1.0.5.0.UNPINXM"
+			},
+			{
+				"code": "alioth",
+				"name": {
+					"zh": "Redmi K40",
+					"en": "Redmi K40"
+				},
+				"rom": "OS1.0.3.0.TKHEUXM"
+			},
+			{
+				"code": "munch",
+				"name": {
+					"zh": "Redmi K40S",
+					"en": "Redmi K40S"
+				},
+				"rom": "OS1.0.4.0.ULMMIXM"
+			},
+			{
+				"code": "corot",
+				"name": {
+					"zh": "Redmi K60 至尊版",
+					"en": "Redmi K60 Ultra"
+				},
+				"rom": "OS1.0.8.0.UMLTWXM; OS1.0.6.0.UMLMIXM; OS1.0.9.0.UMLEUXM; OS1.0.6.0.UMLRUXM; OS1.0.4.0.UMLTRXM"
+			},
+			{
+				"code": "duchamp",
+				"name": {
+					"zh": "Redmi K70E",
+					"en": "Redmi K70E"
+				},
+				"rom": "OS1.0.10.0.UNLMIXM"
+			},
+			{
+				"code": "yunluo",
+				"name": {
+					"zh": "Redmi 平板",
+					"en": "Redmi Pad"
+				},
+				"rom": "OS1.0.2.0.ULYTWXM; OS1.0.2.0.ULYTRXM"
 			}
 		]
 	}
