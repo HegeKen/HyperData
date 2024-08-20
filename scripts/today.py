@@ -126,99 +126,99 @@ if len(Beta) != 0:
   for i in Beta:
     file.write(i+"\n")
 if len(CnODB) != 0:
-  file.write("中国大陆正式版每日构建版本\n")
+  file.write("\n中国大陆正式版每日构建版本\n")
   for i in CnODB:
     file.write(i+"\n")
 if len(CnOO) != 0:
-  file.write("中国大陆正式版\n")
+  file.write("\n中国大陆正式版\n")
   for i in CnOO:
     file.write(i+"\n")
 if len(CNTP) != 0:
-  file.write("中国台湾地区正式版\n")
+  file.write("\n中国台湾地区正式版\n")
   for i in CNTP:
     file.write(i+"\n")
 if len(GBOO) != 0:
-  file.write("国际正式版\n")
+  file.write("\n国际正式版\n")
   for i in GBOO:
     file.write(i+"\n")
 if len(EEAO) != 0:
-  file.write("欧洲EEA正式版\n")
+  file.write("\n欧洲EEA正式版\n")
   for i in EEAO:
     file.write(i+"\n")
 if len(EUHG) != 0:
-  file.write("欧洲ThreeHK运营商定制版\n")
+  file.write("\n欧洲ThreeHK运营商定制版\n")
   for i in EUHG:
     file.write(i+"\n")
 if len(EUOR) != 0:
-  file.write("欧洲Orange运营商定制版\n")
+  file.write("\n欧洲Orange运营商定制版\n")
   for i in EUOR:
     file.write(i+"\n")
 if len(EUVF) != 0:
-  file.write("欧洲Vodafone运营商定制版\n")
+  file.write("\n欧洲Vodafone运营商定制版\n")
   for i in EUVF:
     file.write(i+"\n")
 if len(EUBY) != 0:
-  file.write("欧洲Bouygues Telecom 运营商定制版\n")
+  file.write("\n欧洲Bouygues Telecom 运营商定制版\n")
   for i in EUBY:
     file.write(i+"\n")
 if len(EUTF) != 0:
-  file.write("欧洲Telefonica运营商定制版\n")
+  file.write("\n欧洲Telefonica运营商定制版\n")
   for i in EUTF:
     file.write(i+"\n")
 if len(EUTI) != 0:
-  file.write("欧洲TIM运营商定制版\n")
+  file.write("\n欧洲TIM运营商定制版\n")
   for i in EUTI:
     file.write(i+"\n")
 if len(EUSF) != 0:
-  file.write("欧洲Altice(SFR)运营商定制版\n")
+  file.write("\n欧洲Altice(SFR)运营商定制版\n")
   for i in EUSF:
     file.write(i+"\n")
 if len(RUSO) != 0:
-  file.write("俄罗斯正式版\n")
+  file.write("\n俄罗斯正式版\n")
   for i in RUSO:
     file.write(i+"\n")
 if len(INSO) != 0:
-  file.write("印度正式版\n")
+  file.write("\n印度正式版\n")
   for i in INSO:
     file.write(i+"\n")
 if len(IDSO) != 0:
-  file.write("印度尼西亚正式版\n")
+  file.write("\n印度尼西亚正式版\n")
   for i in IDSO:
     file.write(i+"\n")
 if len(TRSO) != 0:
-  file.write("土耳其正式版\n")
+  file.write("\n土耳其正式版\n")
   for i in TRSO:
     file.write(i+"\n")
 if len(THAS) != 0:
-  file.write("泰国AIS运营商定制版\n")
+  file.write("\n泰国AIS运营商定制版\n")
   for i in THAS:
     file.write(i+"\n")
 if len(SKSO) != 0:
-  file.write("韩国正式版\n")
+  file.write("\n韩国正式版\n")
   for i in SKSO:
     file.write(i+"\n")
 if len(JAPS) != 0:
-  file.write("日本正式版\n")
+  file.write("\n日本正式版\n")
   for i in JAPS:
     file.write(i+"\n")
 if len(ZAVC) != 0:
-  file.write("南非Vodacom运营商定制版\n")
+  file.write("\n南非Vodacom运营商定制版\n")
   for i in ZAVC:
     file.write(i+"\n")
 if len(ZAMT) != 0:
-  file.write("南非MTN运营商定制版\n")
+  file.write("\n南非MTN运营商定制版\n")
   for i in ZAMT:
     file.write(i+"\n")
 if len(GTTG) != 0:
-  file.write("危地马拉Tigo运营商定制版\n")
+  file.write("\n危地马拉Tigo运营商定制版\n")
   for i in GTTG:
     file.write(i+"\n")
 if len(CLEN) != 0:
-  file.write("智利Entel运营商定制版\n")
+  file.write("\n智利Entel运营商定制版\n")
   for i in CLEN:
     file.write(i+"\n")
 if len(MXAT) != 0:
-  file.write("墨西哥AT&T运营商定制版\n")
+  file.write("\n墨西哥AT&T运营商定制版\n")
   for i in MXAT:
     file.write(i+"\n")
 file.close()
