@@ -42,6 +42,15 @@ cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', '
 gb_devices = ['agate', 'aristotle', 'fire', 'moonstone', 'plato', 'rock', 'sea', 'sunstone', 'sweet_k6a', 'taoyao', 'tapas', 'topaz']
 both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi', 'ingres', 'ishtar', 'light', 'marble', 'mondrian', 'nuwa', 'pipa', 'redwood', 'ruby', 'sky', 'yunluo', 'zeus']
 
+order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
+				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'diting', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'nabu', 'enuma', 'elish', 'dagu', 'pipa', 'liuqin', 'yudi',
+				 'sheng', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona', 'zijin', 'ziyi', 'yuechu', 'chenfeng', 
+				 'fire', 'earth', 'sky', 'breeze', 'gale', 'evergo', 'light', 'lightcm', 'veux', 'pissarro',
+				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
+				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'gold', 'sapphire', 'sapphiren', 'peridot', 'alioth',
+				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
+				 'vermeer', 'manet', 'rothko', 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
 flags = {
 	"HOUJI": "houji",
