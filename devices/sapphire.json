@@ -1,8 +1,8 @@
 {
 	"device": "sapphire",
 	"name": {
-		"zh": "Redmi Note 13 国际版",
-		"en": "Redmi Note 13"
+		"zh": "Redmi Note 13 4G",
+		"en": "Redmi Note 13 4G"
 	},
 	"type": "phone",
 	"miui": "yes",
@@ -15,8 +15,8 @@
 			"branchCode": "sapphire_global",
 			"brand": "Redmi",
       "device": {
-        "zh" :"Redmi Note 13 国际版",
-        "en" :"Redmi Note 13"
+        "zh" :"Redmi Note 13 4G",
+        "en" :"Redmi Note 13 4G"
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
@@ -26,6 +26,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UNGMIXM": {
+					"os": "OS1.0.6.0.UNGMIXM",
+					"android": "14.0",
+					"release": "2024-08-21",
+					"recovery": "miui_SAPPHIREGlobal_OS1.0.6.0.UNGMIXM_298086a98b_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.5.0.UNGMIXM": {
 					"os": "OS1.0.5.0.UNGMIXM",
 					"android": "14.0",
