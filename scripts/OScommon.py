@@ -75,6 +75,8 @@ flags = {
 	"EARTHCLENGlobal":"earth",
 	"MOONTRGlobal":"moon",
 	"moon_tr_global":"moon",
+	"fleur_eea_or_global":"fleur",
+	"FLEUREEAORGlobal":"fleur",
 	"spesn_za_mt_global":"spesn",
 	"SPESNZAMTGlobal":"spesn",
 	"VILIJPGlobal":"vili",
