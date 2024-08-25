@@ -130,7 +130,7 @@ if len(CnODB) != 0:
   for i in CnODB:
     file.write(i+"\n")
 if len(CnOO) != 0:
-  file.write("\n中国大陆正式版\n")
+  file.write("\n中国大陆正式版(内测)\n")
   for i in CnOO:
     file.write(i+"\n")
 if len(CNTP) != 0:
