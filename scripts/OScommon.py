@@ -34,7 +34,7 @@ currentStable = ["flare", "spark", "ruyi", "goku",
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["flare", "spark", "degas", "goku", "rothko", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan",
+only_os = ["uke", "muyu", "flare", "spark", "degas", "goku", "rothko", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
 onedevices = ["blue"]
