@@ -6,5 +6,62 @@
 	},
 	"type": "pad",
 	"miui": "no",
-	"branches": []
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "flare_global",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UHXMIXM": {
+					"os": "OS1.0.5.0.UHXMIXM",
+					"android": "14.0",
+					"release": "2024-08-27",
+					"recovery": "miui_FLAREGlobal_OS1.0.5.0.UHXMIXM_28120a5745_14.0.zip",
+					"fastboot": "flare_global_images_OS1.0.5.0.UHXMIXM_20240722.0000.00_14.0_global_b0254a2354.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "flare_eea_global",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UHXEUXM": {
+					"os": "OS1.0.3.0.UHXEUXM",
+					"android": "14.0",
+					"release": "2024-08-27",
+					"recovery": "",
+					"fastboot": "flare_eea_global_images_OS1.0.3.0.UHXEUXM_20240802.0000.00_14.0_eea_4c54770676.tgz"
+				}
+			}
+		}
+	]
 }
