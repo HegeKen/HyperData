@@ -9,14 +9,42 @@
   "branches": [
     {
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "spark_tw_global",
+      "brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 平板 SE 4G 8.7",
+        "en" :"Redmi Pad SE 4G 8.7"
+      },
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UHYTWXM": {
+					"os": "OS1.0.2.0.UHYTWXM",
+					"android": "14.0",
+					"release": "2024-08-27",
+					"recovery": "miui_SPARKTWGlobal_OS1.0.2.0.UHYTWXM_597e2dac3e_14.0.zip",
+					"fastboot": "spark_tw_global_images_OS1.0.2.0.UHYTWXM_20240713.0000.00_14.0_tw_c9799b96f2.tgz"
+				}
+			}
+		},
+    {
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
 			"branchCode": "spark_global",
-			"brand": "Xiaomi, Redmi, POCO",
+      "brand": "Redmi",
       "device": {
-        "zh" :"",
-        "en" :""
+        "zh" :"Redmi 平板 SE 4G 8.7",
+        "en" :"Redmi Pad SE 4G 8.7"
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
@@ -41,10 +69,10 @@
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
 			"branchCode": "spark_eea_global",
-			"brand": "Xiaomi, Redmi, POCO",
+      "brand": "Redmi",
       "device": {
-        "zh" :"",
-        "en" :""
+        "zh" :"Redmi 平板 SE 4G 8.7",
+        "en" :"Redmi Pad SE 4G 8.7"
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
@@ -58,7 +86,7 @@
 					"os": "OS1.0.4.0.UHYEUXM",
 					"android": "14.0",
 					"release": "2024-08-27",
-					"recovery": "",
+					"recovery": "miui_SPARKEEAGlobal_OS1.0.4.0.UHYEUXM_15cba1d451_14.0.zip",
 					"fastboot": "spark_eea_global_images_OS1.0.4.0.UHYEUXM_20240725.0000.00_14.0_eea_5c81967b73.tgz"
 				}
 			}

@@ -9,14 +9,42 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "flare_tw_global",
+			"brand": "Redmi",
+      "device": {
+				"zh": "Redmi Pad SE 8.7 Wi-Fi",
+				"en": "Redmi Pad SE 8.7 Wi-Fi"
+      },
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UHXTWXM": {
+					"os": "OS1.0.2.0.UHXTWXM",
+					"android": "14.0",
+					"release": "2024-08-27",
+					"recovery": "miui_FLARETWGlobal_OS1.0.2.0.UHXTWXM_591ba1d358_14.0.zip",
+					"fastboot": "flare_tw_global_images_OS1.0.2.0.UHXTWXM_20240713.0000.00_14.0_tw_fcb82a6450.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
 			"branchCode": "flare_global",
-			"brand": "Xiaomi, Redmi, POCO",
+			"brand": "Redmi",
       "device": {
-        "zh" :"",
-        "en" :""
+				"zh": "Redmi Pad SE 8.7 Wi-Fi",
+				"en": "Redmi Pad SE 8.7 Wi-Fi"
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
@@ -41,10 +69,10 @@
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
 			"branchCode": "flare_eea_global",
-			"brand": "Xiaomi, Redmi, POCO",
+			"brand": "Redmi",
       "device": {
-        "zh" :"",
-        "en" :""
+				"zh": "Redmi Pad SE 8.7 Wi-Fi",
+				"en": "Redmi Pad SE 8.7 Wi-Fi"
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
@@ -58,7 +86,7 @@
 					"os": "OS1.0.3.0.UHXEUXM",
 					"android": "14.0",
 					"release": "2024-08-27",
-					"recovery": "",
+					"recovery": "miui_FLAREEEAGlobal_OS1.0.3.0.UHXEUXM_497ec4a320_14.0.zip",
 					"fastboot": "flare_eea_global_images_OS1.0.3.0.UHXEUXM_20240802.0000.00_14.0_eea_4c54770676.tgz"
 				}
 			}
