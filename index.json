@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.08.29 21:19:25",
+		"time": "2024.08.30 10:25:18",
 		"roms": [
 			{
 				"code": "venus",
@@ -24,7 +24,7 @@
 					"zh": "小米 11T",
 					"en": "Xiaomi 11T"
 				},
-				"rom": "OS1.0.4.0.UKWEUOR; OS1.0.6.0.UKWEUVF"
+				"rom": "OS1.0.4.0.UKWEUOR; OS1.0.6.0.UKWEUVF; OS1.0.4.0.UKWEUTF"
 			},
 			{
 				"code": "zeus",
@@ -104,7 +104,7 @@
 					"zh": "Redmi 12C",
 					"en": "Redmi 12C"
 				},
-				"rom": "OS1.0.4.0.UCVTWXM"
+				"rom": "OS1.0.4.0.UCVTWXM; OS1.0.5.0.UCVEUXM; OS1.0.4.0.UCVRUXM"
 			},
 			{
 				"code": "air",
@@ -128,7 +128,7 @@
 					"zh": "Redmi Note 11E",
 					"en": "Redmi Note 11E"
 				},
-				"rom": "OS1.0.5.0.ULSEUXM"
+				"rom": "OS1.0.5.0.ULSEUXM; OS1.0.4.0.ULSEUTF"
 			},
 			{
 				"code": "veux",
@@ -163,6 +163,14 @@
 				"rom": "OS1.0.4.0.TGDTWXM"
 			},
 			{
+				"code": "fleur",
+				"name": {
+					"zh": "Redmi Note 11S 4G",
+					"en": "Redmi Note 11S 4G"
+				},
+				"rom": "OS1.0.3.0.TKETWXM"
+			},
+			{
 				"code": "sunstone",
 				"name": {
 					"zh": "Redmi Note 12 5G / Note 12R Pro",
@@ -176,7 +184,15 @@
 					"zh": "Redmi Note 12 Pro / Pro+ / 探索版",
 					"en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
 				},
-				"rom": "OS1.0.7.0.UMOCNXM; OS1.0.7.0.UMOMIXM; OS1.0.6.0.UMOEUXM"
+				"rom": "OS1.0.7.0.UMOCNXM; OS1.0.7.0.UMOMIXM; OS1.0.6.0.UMOEUXM; OS1.0.4.0.UMOKRXM"
+			},
+			{
+				"code": "redwood",
+				"name": {
+					"zh": "Redmi Note 12 Pro 极速版",
+					"en": "Redmi Note 12 Pro Speed"
+				},
+				"rom": "OS1.0.5.0.UMSTWXM"
 			},
 			{
 				"code": "marble",
@@ -217,6 +233,14 @@
 					"en": "Redmi Note 13 Pro"
 				},
 				"rom": "OS1.0.6.0.UNRTWXM; OS1.0.7.0.UNRTRXM"
+			},
+			{
+				"code": "zircon",
+				"name": {
+					"zh": "Redmi Note 13 Pro+ 5G",
+					"en": "Redmi Note 13 Pro+ 5G"
+				},
+				"rom": "OS1.0.6.0.UNOCNXM"
 			},
 			{
 				"code": "emerald",

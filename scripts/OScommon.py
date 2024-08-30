@@ -43,7 +43,7 @@ gb_devices = ['agate', 'aristotle', 'fire', 'moonstone', 'plato', 'rock', 'sea',
 both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi', 'ingres', 'ishtar', 'light', 'marble', 'mondrian', 'nuwa', 'pipa', 'redwood', 'ruby', 'sky', 'yunluo', 'zeus']
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
-				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'diting', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
+				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
 				 'houji', 'shennong', 'shennong_t', 'aurora', 'nabu', 'enuma', 'elish', 'dagu', 'pipa', 'liuqin', 'yudi',
 				 'sheng', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona', 'zijin', 'ziyi', 'yuechu', 'chenfeng', 
 				 'fire', 'earth', 'sky', 'breeze', 'gale', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
