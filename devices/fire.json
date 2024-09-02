@@ -31,7 +31,7 @@
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_FIREGlobal_OS1.0.7.0.UMXMIXM_4554eded8d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "fire_global_images_OS1.0.7.0.UMXMIXM_20240813.0000.00_14.0_global_a8194053bf.tgz"
 				},
 				"OS1.0.6.0.UMXMIXM": {
 					"os": "OS1.0.6.0.UMXMIXM",
@@ -87,7 +87,7 @@
 					"android": "14.0",
 					"release": "2024-08-23",
 					"recovery": "miui_FIREEEAGlobal_OS1.0.9.0.UMXEUXM_b8a3ce053e_14.0.zip",
-					"fastboot": ""
+					"fastboot": "fire_eea_global_images_OS1.0.9.0.UMXEUXM_20240805.0000.00_14.0_eea_1bd7b5c748.tgz"
 				},
 				"OS1.0.8.0.UMXEUXM": {
 					"os": "OS1.0.8.0.UMXEUXM",
@@ -229,6 +229,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.7.0.UMXIDXM": {
+					"os": "OS1.0.7.0.UMXIDXM",
+					"android": "14.0",
+					"release": "2024-09-02",
+					"recovery": "miui_FIREIDGlobal_OS1.0.7.0.UMXIDXM_22d7484251_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.6.0.UMXIDXM": {
 					"os": "OS1.0.6.0.UMXIDXM",
 					"android": "14.0",

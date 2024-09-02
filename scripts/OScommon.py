@@ -48,7 +48,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'a
 				 'sheng', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona', 'zijin', 'ziyi', 'yuechu', 'chenfeng', 
 				 'fire', 'earth', 'sky', 'breeze', 'gale', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
-				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'gold', 'sapphire', 'sapphiren', 'peridot', 'alioth',
+				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'sapphire', 'sapphiren', 'peridot', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
