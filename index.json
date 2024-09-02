@@ -1,7 +1,15 @@
 {
 	"recent": {
-		"time": "2024.09.02 13:43:12",
+		"time": "2024.09.02 16:49:30",
 		"roms": [
+			{
+				"code": "venus",
+				"name": {
+					"zh": "小米 11",
+					"en": "Xiaomi 11"
+				},
+				"rom": "OS1.0.6.0.UKBMIXM"
+			},
 			{
 				"code": "psyche",
 				"name": {
@@ -24,7 +32,7 @@
 					"zh": "小米平板 6",
 					"en": "Xiaomi Pad 6"
 				},
-				"rom": "OS1.0.8.0.UMZRUXM"
+				"rom": "OS1.0.6.0.UMZTWXM; OS1.0.8.0.UMZRUXM"
 			},
 			{
 				"code": "fire",
@@ -75,6 +83,22 @@
 				"rom": "OS1.0.5.0.UNHMIXM; OS1.0.5.0.UNHIDXM"
 			},
 			{
+				"code": "garnet",
+				"name": {
+					"zh": "Redmi Note 13 Pro",
+					"en": "Redmi Note 13 Pro"
+				},
+				"rom": "OS1.0.12.0.UNRMIXM; OS1.0.18.0.UNREUXM; OS1.0.8.0.UNRRUXM; OS1.0.8.0.UNRIDXM"
+			},
+			{
+				"code": "zircon",
+				"name": {
+					"zh": "Redmi Note 13 Pro+ 5G",
+					"en": "Redmi Note 13 Pro+ 5G"
+				},
+				"rom": "OS1.0.4.0.UNOMIXM; OS1.0.4.0.UNORUXM; OS1.0.10.0.UNOINXM; OS1.0.4.0.UNOIDXM; OS1.0.4.0.UNOTRXM"
+			},
+			{
 				"code": "munch",
 				"name": {
 					"zh": "Redmi K40S",
@@ -89,6 +113,14 @@
 					"en": "Redmi K60"
 				},
 				"rom": "OS1.0.7.0.UMNTWXM; OS1.0.6.0.UMNRUXM; OS1.0.7.0.UMNTRXM"
+			},
+			{
+				"code": "dizi",
+				"name": {
+					"zh": "Redmi Pad Pro / 哈利·波特版",
+					"en": "Redmi Pad Pro / Special Edition featuring Harry Potter"
+				},
+				"rom": "OS1.0.8.0.UNSTWXM; "
 			},
 			{
 				"code": "ruan",
