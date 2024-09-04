@@ -1,6 +1,6 @@
 {
 	"recent": {
-		"time": "2024.09.04 11:12:50",
+		"time": "2024.09.04 11:28:57",
 		"roms": [
 			{
 				"code": "venus",
@@ -9,6 +9,14 @@
 					"en": "Xiaomi 11"
 				},
 				"rom": "OS1.0.6.0.UKBMIXM"
+			},
+			{
+				"code": "lisa",
+				"name": {
+					"zh": "小米 11 青春活力版",
+					"en": "Mi 11 LE/Xiaomi 11 Lite 5G NE"
+				},
+				"rom": "OS1.0.6.0.UKOEUXM"
 			},
 			{
 				"code": "cupid",
@@ -48,7 +56,7 @@
 					"zh": "小米 Civi 4 Pro",
 					"en": "Xiaomi Civi 4 Pro"
 				},
-				"rom": "OS1.0.14.0.UNJCNXM"
+				"rom": "OS1.0.14.0.UNJCNXM; OS1.0.5.0.UNJINXM"
 			},
 			{
 				"code": "pipa",
@@ -64,7 +72,7 @@
 					"zh": "小米平板 6S Pro 12.4",
 					"en": "Xiaomi Pad 6S Pro 12.4"
 				},
-				"rom": "OS1.0.4.0.UNXRUXM"
+				"rom": "OS1.0.4.0.UNXMIXM; OS1.0.4.0.UNXRUXM"
 			},
 			{
 				"code": "fire",
@@ -153,6 +161,14 @@
 					"en": "Redmi Note 13 Pro+ 5G"
 				},
 				"rom": "OS1.0.4.0.UNOMIXM; OS1.0.4.0.UNORUXM; OS1.0.10.0.UNOINXM; OS1.0.4.0.UNOIDXM; OS1.0.4.0.UNOTRXM"
+			},
+			{
+				"code": "breeze",
+				"name": {
+					"zh": "Redmi Note 13R 5G",
+					"en": "Redmi Note 13R 5G"
+				},
+				"rom": "OS1.0.8.0.UNUINXM"
 			},
 			{
 				"code": "munch",
