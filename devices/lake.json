@@ -1,0 +1,53 @@
+{
+	"device": "lake",
+	"name": {
+		"zh": "Redmi 14C",
+		"en": "Redmi 14C"
+	},
+	"type": "phone",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "lake_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UGTMIXM": {
+					"os": "OS1.0.4.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-09-05",
+					"recovery": "miui_LAKEGlobal_OS1.0.4.0.UGTMIXM_3001eee04b_14.0.zip",
+					"fastboot": "lake_global_images_OS1.0.4.0.UGTMIXM_20240823.0000.00_14.0_global_d90a10b64f.tgz"
+				},
+				"OS1.0.3.0.UGTMIXM": {
+					"os": "OS1.0.3.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-09-05",
+					"recovery": "miui_LAKEGlobal_OS1.0.3.0.UGTMIXM_94a1354b94_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.1.0.UGTMIXM": {
+					"os": "OS1.0.1.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-09-05",
+					"recovery": "miui_LAKEGlobal_OS1.0.1.0.UGTMIXM_5d1787a452_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

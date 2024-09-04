@@ -21,7 +21,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["flare", "spark", "ruyi", "goku", 
+currentStable = ["lake", "flare", "spark", "ruyi", "goku", 
 								 "rothko", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
 								 "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
@@ -34,7 +34,7 @@ currentStable = ["flare", "spark", "ruyi", "goku",
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["uke", "muyu", "flare", "spark", "degas", "goku", "rothko", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan",
+only_os = ["lake", "uke", "muyu", "flare", "spark", "degas", "goku", "rothko", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
 onedevices = ["blue"]
@@ -46,7 +46,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'a
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
 				 'houji', 'shennong', 'shennong_t', 'aurora', 'nabu', 'enuma', 'elish', 'dagu', 'pipa', 'liuqin', 'yudi',
 				 'sheng', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona', 'zijin', 'ziyi', 'yuechu', 'chenfeng', 
-				 'fire', 'earth', 'sky', 'breeze', 'gale', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
+				 'fire', 'earth', 'sky', 'gale', 'lake', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'sapphire', 'sapphiren', 'peridot', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
@@ -87,6 +87,8 @@ flags = {
 	"SPARKEEAGlobal":"spark",
 	"FLAREGlobal":"flare",
 	"FLAREEEAGlobal":"flare",
+	"lake_global":"lake",
+	"LAKEGlobal":"lake",
 	"spark_global":"spark",
 	"spark_eea_global":"spark",
 	"spark_tw_global": "spark",
