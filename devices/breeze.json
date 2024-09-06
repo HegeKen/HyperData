@@ -21,7 +21,7 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,7 +31,7 @@
 					"android": "14.0",
 					"release": "2024-08-29",
 					"recovery": "miui_BREEZE_OS1.0.7.0.UNUCNXM_81824c1da9_14.0.zip",
-					"fastboot": ""
+					"fastboot": "breeze_images_OS1.0.7.0.UNUCNXM_20240822.0000.00_14.0_cn_884ce98901.tgz"
 				},
 				"OS1.0.5.0.UNUCNXM": {
 					"os": "OS1.0.5.0.UNUCNXM",
@@ -75,6 +75,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.7.0.UNUCNXM": {
+					"os": "OS1.0.7.0.UNUCNXM",
+					"android": "14.0",
+					"release": "2024-08-29",
+					"recovery": "miui_BREEZE_OS1.0.7.0.UNUCNXM_81824c1da9_14.0.zip",
+					"fastboot": "breeze_images_OS1.0.7.0.UNUCNXM_20240822.0000.00_14.0_cn_chinatelecom_cd45badbdd.tgz"
+				},
 				"OS1.0.5.0.UNUCNXM": {
 					"os": "OS1.0.5.0.UNUCNXM",
 					"android": "14.0",
