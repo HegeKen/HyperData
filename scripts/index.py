@@ -45,6 +45,4 @@ for device in OScommon.order:
 with open('public/data/index.json', 'w', encoding='utf-8') as f:
 	json.dump(updates, f, ensure_ascii=False, indent=2)
 f.close()
-time = updates['recent']['time'].replace(" " , "-")
-cmd_str = f"cd public/data && git add . && git commit -m '{time}' && git push origin main"
-os.system(f"cd public/data && git add . && git commit -m '{time}' && git push origin main")
+os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
