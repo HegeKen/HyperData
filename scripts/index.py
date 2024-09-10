@@ -11,11 +11,11 @@ for i in range(0 - weekday_number , 7):
 	weeks.append(day.strftime("%Y-%m-%d"))
 updates = {
 	"recent":{
-		"date": "",
+		"time": "",
 		"roms": []
 	}
 }
-updates["recent"]['date'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+updates["recent"]['time'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 for device in OScommon.order:
 	devdata = OScommon.localData(device)
@@ -45,5 +45,7 @@ for device in OScommon.order:
 with open('public/data/index.json', 'w', encoding='utf-8') as f:
 	json.dump(updates, f, ensure_ascii=False, indent=2)
 f.close()
-
-os.system("cd public/data && git add . && git commit -m '{updates['recent']['date']}' && git push origin main")
+time = updates['recent']['time']
+cmd_str = "cd public/data && git add . && git commit -m '{time}' && git push origin main"
+print(cmd_str.__str__())
+os.system(cmd_str.__str__())
