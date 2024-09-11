@@ -369,7 +369,7 @@
 					"android": "14.0",
 					"release": "2024-09-06",
 					"recovery": "miui_AURORAGlobal_OS1.0.11.0.UNAMIXM_92fc10bfc5_14.0.zip",
-					"fastboot": ""
+					"fastboot": "aurora_global_images_OS1.0.11.0.UNAMIXM_20240827.0000.00_14.0_global_9ecb380847.tgz"
 				},
 				"OS1.0.10.0.UNAMIXM": {
 					"os": "OS1.0.10.0.UNAMIXM",
@@ -439,7 +439,7 @@
 					"android": "14.0",
 					"release": "2024-09-06",
 					"recovery": "miui_AURORAEEAGlobal_OS1.0.12.0.UNAEUXM_6c71e9140d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "aurora_eea_global_images_OS1.0.12.0.UNAEUXM_20240827.0000.00_14.0_eea_06c86b68df.tgz"
 				},
 				"OS1.0.11.0.UNAEUXM": {
 					"os": "OS1.0.11.0.UNAEUXM",
@@ -602,6 +602,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UNATRXM": {
+					"os": "OS1.0.6.0.UNATRXM",
+					"android": "14.0",
+					"release": "2024-09-11",
+					"recovery": "miui_AURORATRGlobal_OS1.0.6.0.UNATRXM_4b05615efe_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.5.0.UNATRXM": {
 					"os": "OS1.0.5.0.UNATRXM",
 					"android": "14.0",
