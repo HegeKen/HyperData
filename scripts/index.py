@@ -28,7 +28,7 @@ for device in OScommon.order:
 	for num in range(len(devdata['branches'])):
 		tag = devdata['branches'][num]['idtag']
 		branch = devdata["branches"][num]["branchtag"]
-		if branch == 'X' or branch == 'D' or "Enterprise" in devdata["branches"][num]["name"]["en"] or "EP" in devdata["branches"][num]["name"]["en"]:
+		if branch == 'X' or branch == 'D' or "Enterprise" in devdata["branches"][num]["name"]["en"] or "EP" in devdata["branches"][num]["name"]["en"] or "Demo" in devdata["branches"][num]["name"]["en"]:
 			i = 0
 		else:
 			for rom in devdata['branches'][num]['roms']:
