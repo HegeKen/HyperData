@@ -1,0 +1,39 @@
+{
+	"device": "flame",
+	"name": {
+		"zh": "Redmi 14R 5G",
+		"en": "Redmi 14R 5G"
+	},
+	"type": "phone",
+	"miui": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "flame",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14R 5G",
+        "en" :"Redmi 14R 5G"
+      },
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
