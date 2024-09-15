@@ -1304,6 +1304,15 @@ flags = {
 }
 
 
+def ver_in_order(versions):
+  list = versions.split("; ")
+  for i in range(len(list)):
+    for j in range(i+1, len(list)):
+      if list[i] > list[j]:
+        list[i], list[j] = list[j], list[i]
+  return list
+	
+
 def localData(codename):
 	if platform == "win32":
 		devdata = json.loads(open("public/data/devices/"+codename+".json", 'r', encoding='utf-8').read())
