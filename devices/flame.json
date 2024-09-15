@@ -21,17 +21,88 @@
 			"idtag": "CnOO",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
-				"": {
-					"os": "",
-					"android": "",
-					"release": "",
-					"recovery": "",
+				"OS1.0.6.0.UGUCNXM": {
+					"os": "OS1.0.6.0.UGUCNXM",
+					"android": "14.0",
+					"release": "2024-09-15",
+					"recovery": "miui_FLAME_OS1.0.6.0.UGUCNXM_95f0ebd5ac_14.0.zip",
+					"fastboot": "flame_images_OS1.0.6.0.UGUCNXM_20240904.0000.00_14.0_cn_d01b951e9a.tgz"
+				},
+				"OS1.0.4.0.UGUCNXM": {
+					"os": "OS1.0.4.0.UGUCNXM",
+					"android": "14.0",
+					"release": "2024-09-15",
+					"recovery": "miui_FLAME_OS1.0.4.0.UGUCNXM_cbf0f6cce2_14.0.zip",
 					"fastboot": ""
+				},
+				"OS1.0.1.0.UGUCNXM": {
+					"os": "OS1.0.1.0.UGUCNXM",
+					"android": "14.0",
+					"release": "2024-09-15",
+					"recovery": "miui_FLAME_OS1.0.1.0.UGUCNXM_45315998e8_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "flame",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14R 5G",
+        "en" :"Redmi 14R 5G"
+      },
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.UGUCNXM": {
+					"os": "OS1.0.6.0.UGUCNXM",
+					"android": "14.0",
+					"release": "2024-09-15",
+					"recovery": "miui_FLAME_OS1.0.6.0.UGUCNXM_95f0ebd5ac_14.0.zip",
+					"fastboot": "flame_images_OS1.0.6.0.UGUCNXM_20240904.0000.00_14.0_cn_chinatelecom_5ccb9ab669.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "flame_demo",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14R 5G",
+        "en" :"Redmi 14R 5G"
+      },
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UGUCNDM": {
+					"os": "OS1.0.1.0.UGUCNDM",
+					"android": "14.0",
+					"release": "2024-09-15",
+					"recovery": "miui_FLAMEDEMO_OS1.0.1.0.UGUCNDM_ff2e5caeb5_14.0.zip",
+					"fastboot": "flame_demo_images_OS1.0.1.0.UGUCNDM_20240830.0000.00_14.0_cn_84d0d7cb4a.tgz",
+					"ctelecom": "flame_demo_images_OS1.0.1.0.UGUCNDM_20240830.0000.00_14.0_cn_chinatelecom_0c4de7ae78.tgz"
 				}
 			}
 		}
