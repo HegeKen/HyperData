@@ -33,7 +33,10 @@ for device in OScommon.order:
 		else:
 			for rom in devdata['branches'][num]['roms']:
 				if devdata['branches'][num]['roms'][rom]['release'] in weeks:
-					roms = roms + "; " + devdata['branches'][num]['roms'][rom]['os']
+					if devdata['branches'][num]['roms'][rom]['os'] in roms:
+						i = 0
+					else:
+						roms = roms + "; " + devdata['branches'][num]['roms'][rom]['os']
 	if roms[2:] == "":
 		i = 0
 	elif roms[2:] in updates.__str__():
