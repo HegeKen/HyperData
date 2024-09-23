@@ -116,6 +116,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 体验增强版 Beta",
+				"en": "Xiaomi HyperOS Enhanced Experience Beta"
+			},
+			"branchCode": "houji",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 14",
+        "en" :"Xiaomi 14"
+      },
+			"idtag": "Beta",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.1.3.0.VNCCNXM.BETA": {
+					"os": "OS1.1.3.0.VNCCNXM.BETA",
+					"android": "15.0",
+					"release": "2024-09-23",
+					"recovery": "houji-ota_full-OS1.1.3.0.VNCCNXM.BETA-user-15.0-31653a8aee.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 开发版",
 				"en": "Xiaomi HyperOS DEV"
 			},
