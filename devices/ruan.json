@@ -122,6 +122,35 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "ruan_ep_stdee",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.7.25.EP.STDEE.N83U": {
+					"os": "OS1.0.24.7.25.EP.STDEE.N83U",
+					"android": "14.0",
+					"release": "2024-09-23",
+					"recovery": "miui_RUANEPSTDEE_OS1.0.24.7.25.EP.STDEE.N83U_edecb574b4_14.0.zip",
+					"fastboot": "ruan_ep_stdee_images_OS1.0.24.7.25.EP.STDEE.N83U_20240725.0000.00_14.0_cn_44cf585edc.tgz",
+					"ctelecom": "ruan_ep_stdee_images_OS1.0.24.7.25.EP.STDEE.N83U_20240725.0000.00_14.0_cn_chinatelecom_bf980a7edf.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},

@@ -69,6 +69,8 @@ flags = {
 	"houji_tr_global": "houji",
 	"HOUJITRGlobal": "houji",
 	"RUYITWGlobal":"ruyi",
+	"ruan_ep_stdee":"ruan",
+	"RUANEPSTDEE": "ruan",
 	"ruyi_tw_global":"ruyi",
 	"garnet_global": "garnet",
 	"STAREEAGlobal":"star",
