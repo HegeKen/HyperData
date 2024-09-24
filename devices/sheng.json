@@ -116,6 +116,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 体验增强版 Beta",
+				"en": "Xiaomi HyperOS Enhanced Experience Beta"
+			},
+			"branchCode": "sheng",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米平板 6S Pro 12.4",
+        "en" :"Xiaomi Pad 6S Pro 12.4"
+      },
+			"idtag": "Beta",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.1.3.0.VNXCNXM.BETA": {
+					"os": "OS1.1.3.0.VNXCNXM.BETA",
+					"android": "15.0",
+					"release": "2024-09-24",
+					"recovery": "sheng-ota_full-OS1.1.3.0.VNXCNXM.BETA-user-15.0-1aa13db1d3.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
