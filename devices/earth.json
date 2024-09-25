@@ -327,6 +327,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.5.0.UCVEUTF": {
+					"os": "OS1.0.5.0.UCVEUTF",
+					"android": "14.0",
+					"release": "2024-09-25",
+					"recovery": "miui_EARTHEEATFGlobal_OS1.0.5.0.UCVEUTF_50b9728a02_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UCVEUTF": {
 					"os": "OS1.0.3.0.UCVEUTF",
 					"android": "14.0",
@@ -346,6 +353,34 @@
 					"android": "14.0",
 					"release": "2024-03-15",
 					"recovery": "miui_EARTHEEATFGlobal_OS1.0.1.0.UCVEUTF_9cf67a99e1_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Altice(SFR)运营商定制版",
+				"en": "Xiaomi HyperOS Europe Altice(SFR) Carrier Edition"
+			},
+			"branchCode": "earth_eea_sf_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 12C / POCO C55",
+        "en" :"Redmi 12C / POCO C55"
+      },
+			"idtag": "EUSF",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UCVEUSF": {
+					"os": "OS1.0.2.0.UCVEUSF",
+					"android": "14.0",
+					"release": "2024-09-25",
+					"recovery": "miui_EARTHEEASFGlobal_OS1.0.2.0.UCVEUSF_4f379c568f_14.0.zip",
 					"fastboot": ""
 				}
 			}

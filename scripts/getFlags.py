@@ -15,7 +15,10 @@ for device in OScommon.currentStable:
       if current['recovery'] == '':
         i = 0
       else:
-        flag = current['recovery'].split('_')[1]
+        if device == current['recovery'].split('-')[0]:
+          flag = device
+        else:
+          flag = current['recovery'].split('_')[1]
         if flag in OScommon.flags:
           i = 0
         else:

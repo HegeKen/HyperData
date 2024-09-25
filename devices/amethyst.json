@@ -6,5 +6,35 @@
   },
   "type": "phone",
   "miui": "no",
-  "branches": []
+  "branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "amethyst_demo",
+			"brand": "Redmi",
+      "device": {
+        "zh": "Redmi Note 14 Pro",
+        "en": "Redmi Note 14 Pro"
+      },
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOPCNDM": {
+					"os": "OS1.0.2.0.UOPCNDM",
+					"android": "14.0",
+					"release": "2024-09-25",
+					"recovery": "",
+					"fastboot": "amethyst_demo_images_OS1.0.2.0.UOPCNDM_20240920.0000.00_14.0_cn_7b8476ca47.tgz",
+					"ctelecom": "amethyst_demo_images_OS1.0.2.0.UOPCNDM_20240920.0000.00_14.0_cn_chinatelecom_d07aa6485e.tgz"
+				}
+			}
+		}
+  ]
 }
