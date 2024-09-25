@@ -382,6 +382,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际体验增强版 Beta",
+				"en": "Xiaomi HyperOS Global Enhanced Experience Beta"
+			},
+			"branchCode": "corot_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 13T Pro",
+        "en" :"Xiaomi 13T Pro"
+      },
+			"idtag": "GBEB",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.1.3.0.VMLMIXM.BETA": {
+					"os": "OS1.1.3.0.VMLMIXM.BETA",
+					"android": "15.0",
+					"release": "2024-09-26",
+					"recovery": "corot_global-ota_full-OS1.1.3.0.VMLMIXM.BETA-user-15.0-d5d7dfa920.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -426,6 +454,34 @@
 					"release": "2024-01-08",
 					"recovery": "miui_COROTGlobal_OS1.0.1.0.UMLMIXM_af2d36f698_14.0.zip",
 					"fastboot": "corot_global_images_OS1.0.1.0.UMLMIXM_20231227.0000.00_14.0_global_ab6fd19f34.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA体验增强版 Beta",
+				"en": "Xiaomi HyperOS Europe EEA Enhanced Experience Beta"
+			},
+			"branchCode": "corot_eea_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 13T Pro",
+        "en" :"Xiaomi 13T Pro"
+      },
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.1.4.0.VMLEUXM.BETA": {
+					"os": "OS1.1.4.0.VMLEUXM.BETA",
+					"android": "15.0",
+					"release": "2024-09-26",
+					"recovery": "corot_eea_global-ota_full-OS1.1.4.0.VMLEUXM.BETA-user-15.0-4a4a3d0fe0.zip",
+					"fastboot": ""
 				}
 			}
 		},
