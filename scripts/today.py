@@ -122,7 +122,7 @@ file = open("public/data/scripts/todays.txt", "a", encoding='utf-8')
 file.write("OS每日公告速递("+datetime.now().strftime("%Y.%m.%d")+")")
 
 if len(Beta) != 0:
-  file.write("\n中国大陆Beta版\n")
+  file.write("\n中国大陆体验增强版 Beta\n")
   for i in Beta:
     file.write(i+"\n")
 if len(CnODB) != 0:
