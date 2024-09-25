@@ -9,6 +9,34 @@
   "branches": [
     {
 			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "amethyst",
+			"brand": "Redmi",
+      "device": {
+        "zh": "Redmi Note 14 Pro",
+        "en": "Redmi Note 14 Pro"
+      },
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UOPCNXM": {
+					"os": "OS1.0.3.0.UOPCNXM",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+    {
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},
