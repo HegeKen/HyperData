@@ -15,8 +15,8 @@ for device in OScommon.currentStable:
       if current['recovery'] == '':
         i = 0
       else:
-        if device == current['recovery'].split('-')[0]:
-          flag = device
+        if devdata['branches'][j]['branchCode'] == current['recovery'].split('-')[0]:
+          flag = devdata['branches'][j]['branchCode']
         else:
           flag = current['recovery'].split('_')[1]
         if flag in OScommon.flags:
