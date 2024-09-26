@@ -104,6 +104,8 @@ flags = {
 	"DEGASEEAGlobal":"degas",
 	"degas_id_global": "degas",
 	"DEGASIDGlobal": "degas",
+	"degas_tr_global":"degas",
+	"DEGASTRGlobal":"degas",
 	"beryl":"beryl",
 	"BERYL":"beryl",
 	"PONDGlobal":"pond",

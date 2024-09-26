@@ -90,6 +90,34 @@
 					"fastboot": "degas_id_global_images_OS1.0.3.0.UNEIDXM_20240801.0000.00_14.0_id_95466f1030.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNETRXM": {
+					"os": "OS1.0.2.0.UNETRXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "",
+					"fastboot": "degas_tr_global_images_OS1.0.2.0.UNETRXM_20240820.0000.00_14.0_tr_2d18b7bfd3.tgz"
+				}
+			}
 		}
 	]
 }
