@@ -6,5 +6,90 @@
 	},
 	"type": "phone",
 	"miui": "no",
-	"branches": []
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "degas_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "GBOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.UNEMIXM": {
+					"os": "OS1.0.6.0.UNEMIXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "",
+					"fastboot": "degas_global_images_OS1.0.6.0.UNEMIXM_20240912.0000.00_14.0_global_6bd26d7ea8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "degas_eea_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.10.0.UNEEUXM": {
+					"os": "OS1.0.10.0.UNEEUXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "miui_DEGASEEAGlobal_OS1.0.10.0.UNEEUXM_9e74d7ddcc_14.0.zip",
+					"fastboot": "degas_eea_global_images_OS1.0.10.0.UNEEUXM_20240910.0000.00_14.0_eea_a19881c518.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "degas_id_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNEIDXM": {
+					"os": "OS1.0.3.0.UNEIDXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "miui_DEGASIDGlobal_OS1.0.3.0.UNEIDXM_586d6b8c5e_14.0.zip",
+					"fastboot": "degas_id_global_images_OS1.0.3.0.UNEIDXM_20240801.0000.00_14.0_id_95466f1030.tgz"
+				}
+			}
+		}
+	]
 }
