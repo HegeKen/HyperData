@@ -32,6 +32,13 @@
 					"release": "2024-09-27",
 					"recovery": "",
 					"fastboot": "degas_global_images_OS1.0.6.0.UNEMIXM_20240912.0000.00_14.0_global_6bd26d7ea8.tgz"
+				},
+				"OS1.0.4.0.UNEMIXM": {
+					"os": "OS1.0.4.0.UNEMIXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "miui_DEGASGlobal_OS1.0.4.0.UNEMIXM_ecc0b069d5_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},
@@ -60,6 +67,34 @@
 					"release": "2024-09-27",
 					"recovery": "miui_DEGASEEAGlobal_OS1.0.10.0.UNEEUXM_9e74d7ddcc_14.0.zip",
 					"fastboot": "degas_eea_global_images_OS1.0.10.0.UNEEUXM_20240910.0000.00_14.0_eea_a19881c518.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "degas_ru_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNERUXM": {
+					"os": "OS1.0.2.0.UNERUXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "miui_DEGASRUGlobal_OS1.0.2.0.UNERUXM_b0d4e48561_14.0.zip",
+					"fastboot": "degas_ru_global_images_OS1.0.2.0.UNERUXM_20240814.0000.00_14.0_ru_657fd939e9.tgz"
 				}
 			}
 		},
@@ -96,7 +131,7 @@
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
-			"branchCode": "",
+			"branchCode": "degas_tr_global",
 			"brand": "Xiaomi",
       "device": {
 				"zh": "小米 14T",
@@ -114,7 +149,7 @@
 					"os": "OS1.0.2.0.UNETRXM",
 					"android": "14.0",
 					"release": "2024-09-27",
-					"recovery": "",
+					"recovery": "miui_DEGASTRGlobal_OS1.0.2.0.UNETRXM_6388534426_14.0.zip",
 					"fastboot": "degas_tr_global_images_OS1.0.2.0.UNETRXM_20240820.0000.00_14.0_tr_2d18b7bfd3.tgz"
 				}
 			}

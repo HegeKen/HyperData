@@ -6,5 +6,91 @@
   },
   "type": "phone",
   "miui": "no",
-  "branches": []
+  "branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "malachite",
+			"brand": "Redmi",
+      "device": {
+        "zh": "Redmi Note 14 Pro",
+        "en": "Redmi Note 14 Pro"
+      },
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UOOCNXM": {
+					"os": "OS1.0.5.0.UOOCNXM",
+					"android": "14.0",
+					"release": "2024-09-26",
+					"recovery": "miui_MALACHITE_OS1.0.5.0.UOOCNXM_5b70511a4a_14.0.zip",
+					"fastboot": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_172f05e676.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国电信定制版",
+				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
+			},
+			"branchCode": "malachite",
+			"brand": "Redmi",
+      "device": {
+        "zh": "Redmi Note 14 Pro",
+        "en": "Redmi Note 14 Pro"
+      },
+			"idtag": "CnOT",
+			"branchtag": "F",
+			"show": "1",
+			"region": "cn",
+			"carrier": ["chinatelecom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UOOCNXM": {
+					"os": "OS1.0.5.0.UOOCNXM",
+					"android": "14.0",
+					"release": "2024-09-26",
+					"recovery": "miui_MALACHITE_OS1.0.5.0.UOOCNXM_5b70511a4a_14.0.zip",
+					"fastboot": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_chinatelecom_d13c04b767.tgz"
+				}
+			}
+		},
+    {
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "malachite_demo",
+			"brand": "Redmi",
+      "device": {
+        "zh": "Redmi Note 14 Pro",
+        "en": "Redmi Note 14 Pro"
+      },
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOOCNDM": {
+					"os": "OS1.0.2.0.UOOCNDM",
+					"android": "14.0",
+					"release": "2024-09-26",
+					"recovery": "miui_MALACHITEDEMO_OS1.0.2.0.UOOCNDM_96e8709d41_14.0.zip",
+					"fastboot": "malachite_demo_images_OS1.0.2.0.UOOCNDM_20240922.0000.00_14.0_cn_31f7b62bca.tgz",
+					"ctelecom": "malachite_demo_images_OS1.0.2.0.UOOCNDM_20240922.0000.00_14.0_cn_chinatelecom_6c78097c52.tgz"
+				}
+			}
+		}
+  ]
 }
