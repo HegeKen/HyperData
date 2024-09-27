@@ -9,6 +9,34 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "lake_tw_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "CNTP",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UGTTWXM": {
+					"os": "OS1.0.1.0.UGTTWXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "miui_LAKETWGlobal_OS1.0.1.0.UGTTWXM_ee6d01bc16_14.0.zip",
+					"fastboot": "lake_tw_global_images_OS1.0.1.0.UGTTWXM_20240828.0000.00_14.0_tw_b94052ab0e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
