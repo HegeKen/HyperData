@@ -264,6 +264,34 @@
 					"fastboot": "ruyi_global_images_OS1.0.3.0.UNIMIXM_20240720.0000.00_14.0_global_a797d79b00.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 MIX Flip",
+        "en" :"Xiaomi MIX Flip"
+      },
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNIEUXM": {
+					"os": "OS1.0.2.0.UNIEUXM",
+					"android": "14.0",
+					"release": "2024-09-28",
+					"recovery": "",
+					"fastboot": "ruyi_eea_global_images_OS1.0.2.0.UNIEUXM_20240730.0000.00_14.0_eea_ea079d952f.tgz"
+				}
+			}
 		}
 	]
 }

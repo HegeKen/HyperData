@@ -118,6 +118,8 @@ flags = {
 	"LAKETWGlobal":"lake",
 	"MALACHITE":"malachite",
 	"MALACHITEDEMO":"malachite",
+	"ruyi_eea_global":"ruyi",
+	"RUYIEEAGlobal":"ruyi",
 	"beryl":"beryl",
 	"BERYL":"beryl",
 	"PONDGlobal":"pond",
