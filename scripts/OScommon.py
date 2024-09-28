@@ -120,6 +120,8 @@ flags = {
 	"MALACHITEDEMO":"malachite",
 	"ruyi_eea_global":"ruyi",
 	"RUYIEEAGlobal":"ruyi",
+	"rothko_tr_global": "rothko",
+	"ROTHKOTRGlobal": "rothko",
 	"beryl":"beryl",
 	"BERYL":"beryl",
 	"PONDGlobal":"pond",

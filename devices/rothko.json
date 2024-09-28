@@ -394,6 +394,34 @@
 					"fastboot": "rothko_id_global_images_OS1.0.2.0.UNNIDXM_20240728.0000.00_14.0_id_fb5ecc42d4.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "rothko_tr_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 14T Pro",
+        "en" :"Xiaomi 14T Pro"
+      },
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNNTRXM": {
+					"os": "OS1.0.1.0.UNNTRXM",
+					"android": "14.0",
+					"release": "2024-09-28",
+					"recovery": "miui_ROTHKOTRGlobal_OS1.0.1.0.UNNTRXM_9585ffbaeb_14.0.zip",
+					"fastboot": "rothko_tr_global_images_OS1.0.1.0.UNNTRXM_20240801.0000.00_14.0_tr_27a880f445.tgz"
+				}
+			}
 		}
 	]
 }
