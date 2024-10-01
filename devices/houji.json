@@ -1043,6 +1043,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA体验增强版 Beta",
+				"en": "Xiaomi HyperOS Europe EEA Enhanced Experience Beta"
+			},
+			"branchCode": "houji_eea_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 14",
+        "en" :"Xiaomi 14"
+      },
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.1.2.0.VNCEUXM.BETA": {
+					"os": "OS1.1.2.0.VNCEUXM.BETA",
+					"android": "15.0",
+					"release": "2024-10-01",
+					"recovery": "houji_eea_global-ota_full-OS1.1.2.0.VNCEUXM.BETA-user-15.0-c531e5fa62.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
