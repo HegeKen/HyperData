@@ -26,7 +26,7 @@ cnbranches = ['','_demo','_ep_yunke','_ep_stdee', 'ep_cjcc', '_ep_xy','_ep_kywl'
               '_cm', '_ct', '_pfc', '_ep_byd', '_miui_factory', '_stable_cmcc01', '_fs', '_liuniu', '_ep_mjwxns', '_ep_czht',
               '_ep_sbgl', '_y002_pre']
 twbranches = ["_tw_global"]
-gfbranches = ["_global","_tw_global","_eea_global","_ru_global","_id_global","_in_global","in_global","_in_fk_global","_kr_global",
+gfbranches = ["_global", "_dc_global", "_tw_global","_eea_global","_ru_global","_id_global","_in_global","in_global","_in_fk_global","_kr_global",
               "in_in_global","_tr_global","_jp_global","_mx_global","_lm_global","_th_global","_pe_global","_za_global","_jp_kd_global",
               "_kr_gu_global","_kr_kt_global","_kr_sk_global","_h3g_global","_eea_hg_global","_eea_or_global","_eea_tf_global",
               "_eea_by_global","_eea_vf_global","_mx_tc_global","_mx_at_global","_lm_cr_global","_cl_en_global","_cl_global",

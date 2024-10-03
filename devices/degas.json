@@ -86,6 +86,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "degas_dc_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "GBDC",
+			"branchtag": "F",
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNEMIDC": {
+					"os": "OS1.0.4.0.UNEMIDC",
+					"android": "14.0",
+					"release": "2024-10-03",
+					"recovery": "miui_DEGASDCGlobal_OS1.0.4.0.UNEMIDC_b72d1e3188_14.0.zip",
+					"fastboot": "degas_dc_global_images_OS1.0.4.0.UNEMIDC_20240912.0000.00_14.0_global_dc_0e3d72aef3.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},

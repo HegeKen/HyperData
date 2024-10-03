@@ -19,6 +19,7 @@ EPCJCC = []
 CNTP = []
 GBEB = []
 GBOO = []
+GBDC = []
 EEAB = []
 EEAO = []
 RUSO = []
@@ -79,6 +80,8 @@ for device in OScommon.order:
             GBEB.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
           elif tag == "GBOO":
             GBOO.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
+          elif tag == "GBDC":
+            GBDC.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
           elif tag == "EEAB":
             EEAB.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
           elif tag == "EEAO":
@@ -150,6 +153,10 @@ if len(GBEB) != 0:
 if len(GBOO) != 0:
   file.write("\n国际正式版\n")
   for i in GBOO:
+    file.write(i+"\n")
+if len(GBDC) != 0:
+  file.write("\n国际 DC 正式版\n")
+  for i in GBDC:
     file.write(i+"\n")
 if len(EEAB) != 0:
   file.write("\n欧洲EEA体验增强版 Beta\n")

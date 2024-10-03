@@ -90,6 +90,34 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "lake_eea_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "EEAO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UGTEUXM": {
+					"os": "OS1.0.3.0.UGTEUXM",
+					"android": "14.0",
+					"release": "2024-10-03",
+					"recovery": "miui_LAKEEEAGlobal_OS1.0.3.0.UGTEUXM_0a6000233f_14.0.zip",
+					"fastboot": "lake_eea_global_images_OS1.0.3.0.UGTEUXM_20240829.0000.00_14.0_eea_a23711fd41.tgz"
+				}
+			}
 		}
 	]
 }
