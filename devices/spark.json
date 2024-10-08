@@ -119,6 +119,34 @@
 				}
 			}
 		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "spark_ru_global",
+      "brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 平板 SE 4G 8.7",
+        "en" :"Redmi Pad SE 4G 8.7"
+      },
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UHYRUXM": {
+					"os": "OS1.0.3.0.UHYRUXM",
+					"android": "14.0",
+					"release": "2024-10-08",
+					"recovery": "miui_SPARKRUGlobal_OS1.0.3.0.UHYRUXM_ed06ded932_14.0.zip",
+					"fastboot": "spark_ru_global_images_OS1.0.3.0.UHYRUXM_20240918.0000.00_14.0_ru_2a694d1f8e.tgz"
+				}
+			}
+		},
     {
       "name": {
         "zh": "小米澎湃 OS 印度正式版",

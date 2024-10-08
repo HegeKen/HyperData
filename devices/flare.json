@@ -118,6 +118,34 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "flare_ru_global",
+			"brand": "Redmi",
+      "device": {
+				"zh": "Redmi Pad SE 8.7 Wi-Fi",
+				"en": "Redmi Pad SE 8.7 Wi-Fi"
+      },
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UHXRUXM": {
+					"os": "OS1.0.3.0.UHXRUXM",
+					"android": "14.0",
+					"release": "2024-10-08",
+					"recovery": "miui_FLARERUGlobal_OS1.0.3.0.UHXRUXM_a201617904_14.0.zip",
+					"fastboot": "flare_ru_global_images_OS1.0.3.0.UHXRUXM_20240918.0000.00_14.0_ru_48450bc74f.tgz"
+				}
+			}
 		}
 	]
 }
