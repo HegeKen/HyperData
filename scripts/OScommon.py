@@ -106,6 +106,8 @@ flags = {
 	"DEGASIDGlobal": "degas",
 	"degas_tr_global":"degas",
 	"DEGASTRGlobal":"degas",
+	"lake_id_global":"lake",
+	"LAKEIDGlobal":"lake",
 	"malachite":"malachite",
 	"malachite_demo":"malachite",
 	"degas_ru_global":"degas",

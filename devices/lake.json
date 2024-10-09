@@ -125,6 +125,34 @@
 					"fastboot": "lake_eea_global_images_OS1.0.3.0.UGTEUXM_20240829.0000.00_14.0_eea_a23711fd41.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "lake_id_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "IDSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UGTIDXM": {
+					"os": "OS1.0.1.0.UGTIDXM",
+					"android": "14.0",
+					"release": "2024-10-09",
+					"recovery": "miui_LAKEIDGlobal_OS1.0.1.0.UGTIDXM_4088a484c2_14.0.zip",
+					"fastboot": "lake_id_global_images_OS1.0.1.0.UGTIDXM_20240820.0000.00_14.0_id_920ac4c67b.tgz"
+				}
+			}
 		}
 	]
 }
