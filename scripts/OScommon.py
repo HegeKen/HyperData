@@ -1401,7 +1401,6 @@ def writeFlag(flag, device):
 
 
 def getDeviceCode(filename):
-
 	if ".zip" in filename:
 		if "miui" in filename:
 			# OS With Android 14 and below uses "miui" as start, and flag is located in spot 1
@@ -1409,8 +1408,8 @@ def getDeviceCode(filename):
 			rec_spot = 1
 		else:
 			# OS With Android 15 uses "-" as a separator, and flag is located in spot 0
-			rec_seperator = "_"
-			rec_spot = 1
+			rec_seperator = "-"
+			rec_spot = 0
 		flag = filename.split(rec_seperator)[rec_spot]
 		if flag in flags:
 			codename = flags[flag]
