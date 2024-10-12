@@ -31,7 +31,7 @@
 					"android": "13.0",
 					"release": "2024-09-30",
 					"recovery": "miui_VEUX_OS1.0.6.0.TKCCNXM_88d498f7d0_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_abbd4cf66b.tgz"
 				},
 				"OS1.0.4.0.TKCCNXM": {
 					"os": "OS1.0.4.0.TKCCNXM",
@@ -75,6 +75,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.TKCCNXM": {
+					"os": "OS1.0.6.0.TKCCNXM",
+					"android": "13.0",
+					"release": "2024-09-30",
+					"recovery": "miui_VEUX_OS1.0.6.0.TKCCNXM_88d498f7d0_13.0.zip",
+					"fastboot": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_chinatelecom_373769da29.tgz"
+				},
 				"OS1.0.4.0.TKCCNXM": {
 					"os": "OS1.0.4.0.TKCCNXM",
 					"android": "13.0",
@@ -117,6 +124,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.TKCCNXM": {
+					"os": "OS1.0.6.0.TKCCNXM",
+					"android": "13.0",
+					"release": "2024-09-30",
+					"recovery": "miui_VEUX_OS1.0.6.0.TKCCNXM_88d498f7d0_13.0.zip",
+					"fastboot": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_chinamobile_316212fbcb.tgz"
+				},
 				"OS1.0.4.0.TKCCNXM": {
 					"os": "OS1.0.4.0.TKCCNXM",
 					"android": "13.0",
@@ -164,7 +178,7 @@
 					"android": "13.0",
 					"release": "2024-10-08",
 					"recovery": "miui_VEUXTWGlobal_OS1.0.5.0.TKCTWXM_48b722e469_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_tw_global_images_OS1.0.5.0.TKCTWXM_20240913.0000.00_13.0_tw_5c9ed7da34.tgz"
 				},
 				"OS1.0.3.0.TKCTWXM": {
 					"os": "OS1.0.3.0.TKCTWXM",
@@ -206,7 +220,7 @@
 					"android": "13.0",
 					"release": "2024-09-29",
 					"recovery": "miui_VEUXGlobal_OS1.0.8.0.TKCMIXM_defd90bd01_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_global_images_OS1.0.8.0.TKCMIXM_20240906.0000.00_13.0_global_0b736d1d0a.tgz"
 				},
 				"OS1.0.6.0.TKCMIXM": {
 					"os": "OS1.0.6.0.TKCMIXM",
@@ -395,6 +409,34 @@
 					"android": "13.0",
 					"release": "2024-07-17",
 					"recovery": "miui_VEUXEEAVFGlobal_OS1.0.3.0.TKCEUVF_407faba8f5_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Bouygues Telecom 运营商定制版",
+				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
+			},
+			"branchCode": "veux_eea_by_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+      },
+			"idtag": "EUBY",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCEUBY": {
+					"os": "OS1.0.1.0.TKCEUBY",
+					"android": "13.0",
+					"release": "2024-10-12",
+					"recovery": "miui_VEUXEEABYGlobal_OS1.0.1.0.TKCEUBY_48248603d5_13.0.zip",
 					"fastboot": ""
 				}
 			}
@@ -605,7 +647,7 @@
 					"android": "13.0",
 					"release": "2024-10-08",
 					"recovery": "miui_VEUXTRGlobal_OS1.0.5.0.TKCTRXM_2dc9e4df6b_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_tr_global_images_OS1.0.5.0.TKCTRXM_20240913.0000.00_13.0_tr_24f8eae1df.tgz"
 				},
 				"OS1.0.3.0.TKCTRXM": {
 					"os": "OS1.0.3.0.TKCTRXM",

@@ -306,6 +306,34 @@
 					"fastboot": "ruyi_eea_global_images_OS1.0.2.0.UNIEUXM_20240730.0000.00_14.0_eea_ea079d952f.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "ruyi_ru_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 MIX Flip",
+        "en" :"Xiaomi MIX Flip"
+      },
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNIRUXM": {
+					"os": "OS1.0.4.0.UNIRUXM",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": "ruyi_ru_global_images_OS1.0.4.0.UNIRUXM_20241007.0000.00_14.0_ru_759894fd7b.tgz"
+				}
+			}
 		}
 	]
 }

@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2024-10-12 18:01:38",
+    "time": "2024-10-12 22:22:46",
     "roms": [
       {
         "code": "pissarro_in",
@@ -24,7 +24,7 @@
           "zh": "小米 12",
           "en": "Xiaomi 12"
         },
-        "rom": "OS1.0.6.0.ULCMIXM"
+        "rom": "OS1.0.6.0.ULCMIXM; OS1.0.13.0.ULCEUXM; OS1.0.5.0.ULCRUXM; OS1.0.7.0.ULCIDXM; OS1.0.5.0.ULCTRXM"
       },
       {
         "code": "taoyao",
@@ -49,6 +49,14 @@
           "en": "Xiaomi 13"
         },
         "rom": "OS1.0.7.0.UMCRUXM"
+      },
+      {
+        "code": "ishtar",
+        "name": {
+          "zh": "小米 13 Ultra",
+          "en": "Xiaomi 13 Ultra"
+        },
+        "rom": "OS1.0.12.0.UMAEUXM"
       },
       {
         "code": "houji",
@@ -136,7 +144,7 @@
           "zh": "Redmi 12C / POCO C55",
           "en": "Redmi 12C / POCO C55"
         },
-        "rom": "OS1.0.6.0.UCVEUHG"
+        "rom": "OS1.0.6.0.UCVEUHG; OS1.0.6.0.UCVEUBY"
       },
       {
         "code": "lake",
@@ -168,7 +176,7 @@
           "zh": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G",
           "en": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G"
         },
-        "rom": "OS1.0.5.0.TKCTWXM; OS1.0.8.0.TKCEUXM; OS1.0.3.0.TKCEUHG; OS1.0.5.0.TKCRUXM; OS1.0.5.0.TKCINXM; OS1.0.5.0.TKCIDXM; OS1.0.5.0.TKCTRXM; OS1.0.5.0.TKCJPXM"
+        "rom": "OS1.0.5.0.TKCTWXM; OS1.0.8.0.TKCEUXM; OS1.0.3.0.TKCEUHG; OS1.0.1.0.TKCEUBY; OS1.0.5.0.TKCRUXM; OS1.0.5.0.TKCINXM; OS1.0.5.0.TKCIDXM; OS1.0.5.0.TKCTRXM; OS1.0.5.0.TKCJPXM"
       },
       {
         "code": "xaga",
@@ -200,7 +208,7 @@
           "zh": "Redmi Note 11S 5G",
           "en": "Redmi Note 11S 5G"
         },
-        "rom": "OS1.0.4.0.TGLEUXM"
+        "rom": "OS1.0.4.0.TGLEUXM; OS1.0.1.0.TGLEUBY"
       },
       {
         "code": "ruby",
@@ -224,7 +232,7 @@
           "zh": "Redmi Note 12 Turbo / POCO F5",
           "en": "Redmi Note 12 Turbo / POCO F5"
         },
-        "rom": "OS1.0.7.0.UMRTWXM; OS1.0.9.0.UMRMIXM; OS1.0.8.0.UMRRUXM; OS1.0.12.0.UMRINXM; OS1.0.8.0.UMRTRXM"
+        "rom": "OS1.0.7.0.UMRTWXM; OS1.0.9.0.UMRMIXM; OS1.0.8.0.UMRRUXM; OS1.0.12.0.UMRINXM; OS1.0.8.0.UMRIDXM; OS1.0.8.0.UMRTRXM"
       },
       {
         "code": "sweet_k6a",
@@ -248,7 +256,7 @@
           "zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
           "en": "Redmi Note 13 Pro 5G / POCO X6 5G"
         },
-        "rom": "OS1.0.9.0.UNRTRXM"
+        "rom": "OS1.0.8.0.UNRTWXM; OS1.0.14.0.UNRMIXM; OS1.0.20.0.UNREUXM; OS1.0.10.0.UNRRUXM; OS1.0.13.0.UNRINXM; OS1.0.9.0.UNRTRXM"
       },
       {
         "code": "emerald",
@@ -267,6 +275,14 @@
         "rom": "OS1.0.6.0.UNHTRXM"
       },
       {
+        "code": "haydn",
+        "name": {
+          "zh": "Redmi K40 Pro/Pro+ / 小米 11i / 小米 11X Pro",
+          "en": "Redmi K40 Pro/Pro+/ Mi 11i / Mi 11X Pro"
+        },
+        "rom": "OS1.0.3.0.UKKEUBY"
+      },
+      {
         "code": "munch",
         "name": {
           "zh": "Redmi K40S / POCO F4",
@@ -280,7 +296,7 @@
           "zh": "Redmi K50 电竞版 / POCO F4 GT",
           "en": "Redmi K50G / POCO F4 GT"
         },
-        "rom": "OS1.0.6.0.ULJMIXM"
+        "rom": "OS1.0.7.0.ULJTWXM; OS1.0.6.0.ULJMIXM; OS1.0.6.0.ULJEUXM; OS1.0.6.0.ULJRUXM; OS1.0.7.0.ULJIDXM; OS1.0.6.0.ULJTRXM"
       },
       {
         "code": "corot",
@@ -291,12 +307,28 @@
         "rom": "OS1.1.5.0.VMLCNXM.BETA"
       },
       {
+        "code": "vermeer",
+        "name": {
+          "zh": "Redmi K70 / POCO F6 Pro",
+          "en": "Redmi K70 / POCO F6 Pro"
+        },
+        "rom": "OS1.0.4.0.UNKTWXM; OS1.0.7.0.UNKMIXM; OS1.0.7.0.UNKEUXM; OS1.0.5.0.UNKRUXM"
+      },
+      {
         "code": "spark",
         "name": {
           "zh": "Redmi 平板 SE 4G 8.7",
           "en": "Redmi Pad SE 4G 8.7"
         },
         "rom": "OS1.0.3.0.UHYRUXM; OS1.0.3.0.UHYINXM"
+      },
+      {
+        "code": "ruan",
+        "name": {
+          "zh": "Redmi Pad Pro 5G / POCO Pad 5G",
+          "en": "Redmi Pad Pro 5G / POCO Pad 5G"
+        },
+        "rom": "OS1.0.6.0.UFSINXM"
       },
       {
         "code": "moon",
