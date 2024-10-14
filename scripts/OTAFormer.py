@@ -25,7 +25,7 @@ for device in OScommon.currentStable:
 				if version =="":
 					i = 0
 				else:
-					for i in range(0,3):
+					for i in range(0,4):
 						newVer = OScommon.versionAdd(version,i)
 						print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t正在完成 "+device+" ， 分支为："+devdata["branches"][num]["branchCode"]+"，版本为"+newVer,end="               ", flush=True)
 						OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, newVer)))
