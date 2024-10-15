@@ -146,6 +146,34 @@
 					"fastboot": "flare_ru_global_images_OS1.0.3.0.UHXRUXM_20240918.0000.00_14.0_ru_48450bc74f.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "flare_tr_global",
+			"brand": "Redmi",
+      "device": {
+				"zh": "Redmi Pad SE 8.7 Wi-Fi",
+				"en": "Redmi Pad SE 8.7 Wi-Fi"
+      },
+			"idtag": "TRSO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UHXTRXM": {
+					"os": "OS1.0.3.0.UHXTRXM",
+					"android": "14.0",
+					"release": "2024-10-15",
+					"recovery": "miui_FLARETRGlobal_OS1.0.3.0.UHXTRXM_4316d35d54_14.0.zip",
+					"fastboot": "flare_tr_global_images_OS1.0.3.0.UHXTRXM_20240926.0000.00_14.0_tr_766f73f343.tgz"
+				}
+			}
 		}
 	]
 }

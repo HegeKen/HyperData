@@ -96,6 +96,8 @@ flags = {
 	"OPALEEABYGlobal":"opal",
 	"veux_eea_by_global":"veux",
 	"VEUXEEABYGlobal":"veux",
+	"FLARETRGlobal":"flare",
+	"flare_tr_global":"flare",
 	"rothko_eea_global":"rothko",
 	"ROTHKOEEAGlobal":"rothko",
 	"rothko_global":"rothko",
