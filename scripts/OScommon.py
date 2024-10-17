@@ -114,6 +114,8 @@ flags = {
 	"DEGASIDGlobal": "degas",
 	"degas_tr_global":"degas",
 	"DEGASTRGlobal":"degas",
+	"rothko_ep_stdee":"rothko",
+	"ROTHKOEPSTDEE":"rothko",
 	"lake_id_global":"lake",
 	"LAKEIDGlobal":"lake",
 	"malachite":"malachite",
