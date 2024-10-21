@@ -86,6 +86,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Bouygues Telecom 运营商定制版",
+				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
+			},
+			"branchCode": "spesn_eea_by_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 11 NFC",
+        "en" :"Redmi Note 11 NFC"
+      },
+			"idtag": "EUBY",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGKEUBY": {
+					"os": "OS1.0.1.0.TGKEUBY",
+					"android": "13.0",
+					"release": "2024-10-21",
+					"recovery": "miui_SPESNEEABYGlobal_OS1.0.1.0.TGKEUBY_24e584a330_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲Telefonica运营商定制版",
 				"en": "Xiaomi HyperOS Europe Telefonica Carrier Edition"
 			},
@@ -264,6 +292,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.TGKRUXM": {
+					"os": "OS1.0.4.0.TGKRUXM",
+					"android": "13.0",
+					"release": "2024-10-21",
+					"recovery": "miui_SPESNRUGlobal_OS1.0.4.0.TGKRUXM_6c74533199_13.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.TGKRUXM": {
 					"os": "OS1.0.3.0.TGKRUXM",
 					"android": "13.0",

@@ -116,6 +116,8 @@ flags = {
 	"DEGASTRGlobal":"degas",
 	"rothko_ep_stdee":"rothko",
 	"ROTHKOEPSTDEE":"rothko",
+	"spesn_eea_by_global":"spesn",
+	"SPESNEEABYGlobal":"spesn",
 	"lake_id_global":"lake",
 	"LAKEIDGlobal":"lake",
 	"malachite":"malachite",
