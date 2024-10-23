@@ -6,5 +6,34 @@
   },
   "type": "phone",
   "miui": "no",
-  "branches": []
+  "branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "haotian",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15 Pro",
+        "en": "Xiaomi 15 Pro"
+      },
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.1.0.VNBCNXM": {
+					"os": "OS2.0.1.0.VNBCNXM",
+					"android": "15.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		}
+  ]
 }

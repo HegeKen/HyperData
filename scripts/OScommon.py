@@ -21,8 +21,9 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["beryl", "amethyst", "malachite", "degas", "rothko", "flame", "pond", "lake", "flare", "spark", "ruyi", "goku", 
-								 "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
+currentStable = ["dada", "haotian", 
+								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "pond", "lake", "flare", "spark", 
+								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
 								 "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
 								 "gale", "garnet", "gold", "haydn", "houji", "ingres", "ishtar", "light", "lightcm",
@@ -90,6 +91,8 @@ flags = {
 	"FLAME":"flame",
 	"flame_demo":"flame",
 	"FLAMEDEMO":"flame",
+	"dada":"dada",
+	"haotian":"haotian",
 	"ruyi_ru_global":"ruyi",
 	"RUYIRUGlobal": "ruyi",
 	"opal_eea_by_global":"opal",
