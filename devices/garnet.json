@@ -26,12 +26,19 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.13.0.UNRCNXM": {
+					"os": "OS1.0.13.0.UNRCNXM",
+					"android": "14.0",
+					"release": "2024-10-25",
+					"recovery": "miui_GARNET_OS1.0.13.0.UNRCNXM_4a743e011c_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.12.0.UNRCNXM": {
 					"os": "OS1.0.12.0.UNRCNXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_GARNET_OS1.0.12.0.UNRCNXM_5917737723_14.0.zip",
-					"fastboot": ""
+					"fastboot": "garnet_images_OS1.0.12.0.UNRCNXM_20240920.0000.00_14.0_cn_d2aa88d2ad.tgz"
 				},
 				"OS1.0.10.0.UNRCNXM": {
 					"os": "OS1.0.10.0.UNRCNXM",
@@ -89,6 +96,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.12.0.UNRCNXM": {
+					"os": "OS1.0.12.0.UNRCNXM",
+					"android": "14.0",
+					"release": "2024-10-15",
+					"recovery": "miui_GARNET_OS1.0.12.0.UNRCNXM_5917737723_14.0.zip",
+					"fastboot": "garnet_images_OS1.0.12.0.UNRCNXM_20240920.0000.00_14.0_cn_chinatelecom_5018ce3ebb.tgz"
+				},
 				"OS1.0.10.0.UNRCNXM": {
 					"os": "OS1.0.10.0.UNRCNXM",
 					"android": "14.0",
