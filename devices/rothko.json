@@ -499,12 +499,47 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.UNNTRXM": {
+					"os": "OS1.0.2.0.UNNTRXM",
+					"android": "14.0",
+					"release": "2024-10-28",
+					"recovery": "miui_ROTHKOTRGlobal_OS1.0.2.0.UNNTRXM_08ceeb0090_14.0.zip",
+					"fastboot": "rothko_tr_global_images_OS1.0.2.0.UNNTRXM_20241015.0000.00_14.0_tr_2de494c884.tgz"
+				},
 				"OS1.0.1.0.UNNTRXM": {
 					"os": "OS1.0.1.0.UNNTRXM",
 					"android": "14.0",
 					"release": "2024-09-28",
 					"recovery": "miui_ROTHKOTRGlobal_OS1.0.1.0.UNNTRXM_9585ffbaeb_14.0.zip",
 					"fastboot": "rothko_tr_global_images_OS1.0.1.0.UNNTRXM_20240801.0000.00_14.0_tr_27a880f445.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "rothko_jp_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 14T Pro",
+        "en" :"Xiaomi 14T Pro"
+      },
+			"idtag": "JAPS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": [""],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNNJPXM": {
+					"os": "OS1.0.4.0.UNNJPXM",
+					"android": "14.0",
+					"release": "2024-10-28",
+					"recovery": "miui_ROTHKOJPGlobal_OS1.0.4.0.UNNJPXM_a8ed96f0f7_14.0.zip",
+					"fastboot": "rothko_jp_global_images_OS1.0.4.0.UNNJPXM_20241015.0000.00_14.0_jp_e0ea32c097.tgz"
 				}
 			}
 		}

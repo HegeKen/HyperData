@@ -594,6 +594,62 @@
 					"fastboot": "agate_tr_global_images_OS1.0.2.0.UKWTRXM_20240308.0000.00_14.0_tr_7e2191b993.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "agate_cl_en_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 11T",
+				"en": "Xiaomi 11T"
+      },
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UKWCLEN": {
+					"os": "OS1.0.4.0.UKWCLEN",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_AGATECLENGlobal_OS1.0.4.0.UKWCLEN_d70c11d0c9_14.0.zip",
+					"fastboot": "agate_cl_en_global_images_OS1.0.4.0.UKWCLEN_20240823.0000.00_14.0_cl_en_9365547876.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "agate_mx_at_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 11T",
+				"en": "Xiaomi 11T"
+      },
+			"idtag": "MXAT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UKWMXAT": {
+					"os": "OS1.0.4.0.UKWMXAT",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "",
+					"fastboot": "agate_mx_at_global_images_OS1.0.4.0.UKWMXAT_20240812.0000.00_14.0_mx_at_bd1257bc9b.tgz"
+				}
+			}
 		}
 	]
 }

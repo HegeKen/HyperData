@@ -839,6 +839,62 @@
 					"fastboot": "lisa_tr_global_images_OS1.0.3.0.UKOTRXM_20240314.0000.00_14.0_tr_3510b5a71f.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Claro运营商定制版",
+				"en": "Latin America Claro Carrier Edition"
+			},
+			"branchCode": "lisa_cl_en_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
+			"idtag": "LMCR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UKOCLEN": {
+					"os": "OS1.0.2.0.UKOCLEN",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "",
+					"fastboot": "lisa_cl_en_global_images_OS1.0.2.0.UKOCLEN_20240618.0000.00_14.0_cl_en_6190b08d55.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "lisa_mx_at_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 11 Lite 5G NE",
+        "en" :"Xiaomi 11 Lite 5G NE"
+      },
+			"idtag": "MXAT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UKOMXAT": {
+					"os": "OS1.0.5.0.UKOMXAT",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": "lisa_mx_at_global_images_OS1.0.5.0.UKOMXAT_20240902.0000.00_14.0_mx_at_baba588478.tgz"
+				}
+			}
 		}
 	]
 }

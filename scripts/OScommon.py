@@ -95,6 +95,8 @@ flags = {
 	"BERYLEPSTDEE":"beryl",
 	"dada":"dada",
 	"haotian":"haotian",
+	"rothko_jp_global":"rothko",
+	"ROTHKOJPGlobal":"rothko",
 	"ruyi_ru_global":"ruyi",
 	"RUYIRUGlobal": "ruyi",
 	"opal_eea_by_global":"opal",

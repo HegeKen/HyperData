@@ -1023,6 +1023,62 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "MXTC",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["tc"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Claro运营商定制版",
+				"en": "Latin America Claro Carrier Edition"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "LMCR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
