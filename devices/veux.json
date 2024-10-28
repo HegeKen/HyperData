@@ -315,7 +315,7 @@
 			"idtag": "EUHG",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["h3g"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -325,7 +325,7 @@
 					"android": "13.0",
 					"release": "2024-10-09",
 					"recovery": "miui_VEUXEEAHGGlobal_OS1.0.3.0.TKCEUHG_b927d6a400_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_eea_hg_global_images_OS1.0.3.0.TKCEUHG_20240904.0000.00_13.0_eea_h3g_30fa36f7b9.tgz"
 				},
 				"OS1.0.2.0.TKCEUHG": {
 					"os": "OS1.0.2.0.TKCEUHG",
@@ -357,7 +357,7 @@
 			"idtag": "EUTF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["tf"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -367,7 +367,7 @@
 					"android": "13.0",
 					"release": "2024-09-03",
 					"recovery": "miui_VEUXEEATFGlobal_OS1.0.6.0.TKCEUTF_78dc0e79c1_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_eea_tf_global_images_OS1.0.6.0.TKCEUTF_20240809.0000.00_13.0_eea_tf_450a2fe259.tgz"
 				},
 				"OS1.0.5.0.TKCEUTF": {
 					"os": "OS1.0.5.0.TKCEUTF",
@@ -399,7 +399,7 @@
 			"idtag": "EUVF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["vodafone"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -409,7 +409,7 @@
 					"android": "13.0",
 					"release": "2024-09-03",
 					"recovery": "miui_VEUXEEAVFGlobal_OS1.0.4.0.TKCEUVF_401eee6e5f_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_eea_vf_global_images_OS1.0.4.0.TKCEUVF_20240809.0000.00_13.0_eea_vodafone_290c2ff408.tgz"
 				},
 				"OS1.0.3.0.TKCEUVF": {
 					"os": "OS1.0.3.0.TKCEUVF",
@@ -434,17 +434,24 @@
 			"idtag": "EUBY",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["by"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.TKCEUBY": {
+					"os": "OS1.0.2.0.TKCEUBY",
+					"android": "13.0",
+					"release": "2024-10-28",
+					"recovery": "miui_VEUXEEABYGlobal_OS1.0.2.0.TKCEUBY_801df6ae3c_13.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.1.0.TKCEUBY": {
 					"os": "OS1.0.1.0.TKCEUBY",
 					"android": "13.0",
 					"release": "2024-10-12",
 					"recovery": "miui_VEUXEEABYGlobal_OS1.0.1.0.TKCEUBY_48248603d5_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_eea_by_global_images_OS1.0.1.0.TKCEUBY_20240807.0000.00_13.0_eea_by_cd25e0a2f3.tgz"
 				}
 			}
 		},
@@ -462,7 +469,7 @@
 			"idtag": "EUOR",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["orange"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -472,7 +479,7 @@
 					"android": "13.0",
 					"release": "2024-08-29",
 					"recovery": "miui_VEUXEEAORGlobal_OS1.0.5.0.TKCEUOR_2bd04ee0f7_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_eea_or_global_images_OS1.0.5.0.TKCEUOR_20240814.0000.00_13.0_eea_orange_e77b41d54a.tgz"
 				},
 				"OS1.0.4.0.TKCEUOR": {
 					"os": "OS1.0.4.0.TKCEUOR",

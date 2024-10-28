@@ -119,7 +119,7 @@
 			"idtag": "EUTF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["tf"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -129,7 +129,7 @@
 					"android": "13.0",
 					"release": "2024-09-26",
 					"recovery": "miui_OPALEEATFGlobal_OS1.0.4.0.TGLEUTF_ca2df92812_13.0.zip",
-					"fastboot": ""
+					"fastboot": "opal_eea_tf_global_images_OS1.0.4.0.TGLEUTF_20240911.0000.00_13.0_eea_tf_a3ba4b01a5.tgz"
 				},
 				"OS1.0.3.0.TGLEUTF": {
 					"os": "OS1.0.3.0.TGLEUTF",
@@ -168,7 +168,7 @@
 			"idtag": "EUHG",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["h3g"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -185,7 +185,7 @@
 					"android": "13.0",
 					"release": "2024-08-30",
 					"recovery": "miui_OPALEEAHGGlobal_OS1.0.2.0.TGLEUHG_1ab80b6e0d_13.0.zip",
-					"fastboot": ""
+					"fastboot": "opal_eea_hg_global_images_OS1.0.2.0.TGLEUHG_20240806.0000.00_13.0_eea_h3g_eafd33d6d7.tgz"
 				},
 				"OS1.0.1.0.TGLEUHG": {
 					"os": "OS1.0.1.0.TGLEUHG",
@@ -210,17 +210,24 @@
 			"idtag": "EUOR",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["orange"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.TGLEUOR": {
+					"os": "OS1.0.6.0.TGLEUOR",
+					"android": "13.0",
+					"release": "2024-10-28",
+					"recovery": "miui_OPALEEAORGlobal_OS1.0.6.0.TGLEUOR_4650a85993_13.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.4.0.TGLEUOR": {
 					"os": "OS1.0.4.0.TGLEUOR",
 					"android": "13.0",
 					"release": "2024-08-09",
 					"recovery": "miui_OPALEEAORGlobal_OS1.0.4.0.TGLEUOR_74ea3730e2_13.0.zip",
-					"fastboot": ""
+					"fastboot": "opal_eea_or_global_images_OS1.0.4.0.TGLEUOR_20240731.0000.00_13.0_eea_orange_e81f86cec0.tgz"
 				},
 				"OS1.0.2.0.TGLEUOR": {
 					"os": "OS1.0.2.0.TGLEUOR",
@@ -245,7 +252,7 @@
 			"idtag": "EUVF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["vodafone"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -255,7 +262,7 @@
 					"android": "13.0",
 					"release": "2024-09-26",
 					"recovery": "miui_OPALEEAVFGlobal_OS1.0.4.0.TGLEUVF_291810ce20_13.0.zip",
-					"fastboot": ""
+					"fastboot": "opal_eea_vf_global_images_OS1.0.4.0.TGLEUVF_20240911.0000.00_13.0_eea_vodafone_5acef486d0.tgz"
 				},
 				"OS1.0.3.0.TGLEUVF": {
 					"os": "OS1.0.3.0.TGLEUVF",
@@ -287,7 +294,7 @@
 			"idtag": "EUBY",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["by"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -297,7 +304,7 @@
 					"android": "13.0",
 					"release": "2024-10-12",
 					"recovery": "miui_OPALEEABYGlobal_OS1.0.1.0.TGLEUBY_d406386101_13.0.zip",
-					"fastboot": ""
+					"fastboot": "opal_eea_by_global_images_OS1.0.1.0.TGLEUBY_20240902.0000.00_13.0_eea_by_0e7630a3c3.tgz"
 				}
 			}
 		},
@@ -343,8 +350,8 @@
 			"idtag": "MXAT",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
-			"region": "global",
+			"carrier": ["at"],
+			"region": "mx",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -353,7 +360,7 @@
 					"android": "13.0",
 					"release": "2024-07-23",
 					"recovery": "miui_OPALMXATGlobal_OS1.0.2.0.TGLMXAT_9c1bb5e4db_13.0.zip",
-					"fastboot": ""
+					"fastboot": "opal_mx_at_global_images_OS1.0.2.0.TGLMXAT_20240606.0000.00_13.0_mx_at_1f3e1f355b.tgz"
 				}
 			}
 		}

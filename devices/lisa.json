@@ -31,7 +31,7 @@
 					"android": "14.0",
 					"release": "2024-10-18",
 					"recovery": "miui_LISA_OS1.0.6.0.UKOCNXM_137f413651_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_images_OS1.0.6.0.UKOCNXM_20241010.0000.00_14.0_cn_453f935b4e.tgz"
 				},
 				"OS1.0.5.0.UKOCNXM": {
 					"os": "OS1.0.5.0.UKOCNXM",
@@ -82,6 +82,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UKOCNXM": {
+					"os": "OS1.0.6.0.UKOCNXM",
+					"android": "14.0",
+					"release": "2024-10-18",
+					"recovery": "miui_LISA_OS1.0.6.0.UKOCNXM_137f413651_14.0.zip",
+					"fastboot": "lisa_images_OS1.0.6.0.UKOCNXM_20241010.0000.00_14.0_cn_chinatelecom_5c959da38d.tgz"
+				},
 				"OS1.0.5.0.UKOCNXM": {
 					"os": "OS1.0.5.0.UKOCNXM",
 					"android": "14.0",
@@ -131,6 +138,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UKOCNXM": {
+					"os": "OS1.0.6.0.UKOCNXM",
+					"android": "14.0",
+					"release": "2024-10-18",
+					"recovery": "miui_LISA_OS1.0.6.0.UKOCNXM_137f413651_14.0.zip",
+					"fastboot": "lisa_images_OS1.0.6.0.UKOCNXM_20241010.0000.00_14.0_cn_chinamobile_22ef6c6618.tgz"
+				},
 				"OS1.0.5.0.UKOCNXM": {
 					"os": "OS1.0.5.0.UKOCNXM",
 					"android": "14.0",
@@ -364,7 +378,7 @@
 			"idtag": "EUOR",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["orange"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -374,7 +388,7 @@
 					"android": "14.0",
 					"release": "2024-09-25",
 					"recovery": "miui_LISAEEAORGlobal_OS1.0.7.0.UKOEUOR_a1953b1587_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_eea_or_global_images_OS1.0.7.0.UKOEUOR_20240822.0000.00_14.0_eea_orange_39366a1a89.tgz"
 				},
 				"OS1.0.5.0.UKOEUOR": {
 					"os": "OS1.0.5.0.UKOEUOR",
@@ -413,7 +427,7 @@
 			"idtag": "EUVF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["vodafone"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -423,7 +437,7 @@
 					"android": "14.0",
 					"release": "2024-09-30",
 					"recovery": "miui_LISAEEAVFGlobal_OS1.0.7.0.UKOEUVF_970b2b92dd_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_eea_vf_global_images_OS1.0.7.0.UKOEUVF_20240908.0000.00_14.0_eea_vodafone_35922d7a73.tgz"
 				},
 				"OS1.0.5.0.UKOEUVF": {
 					"os": "OS1.0.5.0.UKOEUVF",
@@ -462,7 +476,7 @@
 			"idtag": "EUBY",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["by"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -472,7 +486,7 @@
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_LISAEEABYGlobal_OS1.0.4.0.UKOEUBY_c40e42ec02_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_eea_by_global_images_OS1.0.4.0.UKOEUBY_20240807.0000.00_14.0_eea_by_e810551b01.tgz"
 				},
 				"OS1.0.3.0.UKOEUBY": {
 					"os": "OS1.0.3.0.UKOEUBY",
@@ -504,7 +518,7 @@
 			"idtag": "EUHG",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["h3g"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -514,7 +528,7 @@
 					"android": "14.0",
 					"release": "2024-09-19",
 					"recovery": "miui_LISAEEAHGGlobal_OS1.0.6.0.UKOEUHG_8d463a044c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_eea_hg_global_images_OS1.0.6.0.UKOEUHG_20240903.0000.00_14.0_eea_h3g_07d437efc8.tgz"
 				},
 				"OS1.0.5.0.UKOEUHG": {
 					"os": "OS1.0.5.0.UKOEUHG",
@@ -553,7 +567,7 @@
 			"idtag": "EUTF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["tf"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -563,7 +577,7 @@
 					"android": "14.0",
 					"release": "2024-09-20",
 					"recovery": "miui_LISAEEATFGlobal_OS1.0.4.0.UKOEUTF_4f90c3505c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_eea_tf_global_images_OS1.0.4.0.UKOEUTF_20240903.0000.00_14.0_eea_tf_6f76affd6d.tgz"
 				},
 				"OS1.0.3.0.UKOEUTF": {
 					"os": "OS1.0.3.0.UKOEUTF",
@@ -602,7 +616,7 @@
 			"idtag": "EUTI",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["tim"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -612,7 +626,7 @@
 					"android": "14.0",
 					"release": "2024-04-02",
 					"recovery": "miui_LISAEEATIGlobal_OS1.0.3.0.UKOEUTI_96d95b214b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_eea_ti_global_images_OS1.0.3.0.UKOEUTI_20240314.0000.00_14.0_eea_tim_99149e7b87.tgz"
 				}
 			}
 		},
@@ -630,7 +644,7 @@
 			"idtag": "EUSF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["sfr"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -640,7 +654,7 @@
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_LISAEEASFGlobal_OS1.0.4.0.UKOEUSF_17a5b58be9_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lisa_eea_sf_global_images_OS1.0.4.0.UKOEUSF_20240612.0000.00_14.0_eea_sfr_fcb3aee980.tgz"
 				},
 				"OS1.0.3.0.UKOEUSF": {
 					"os": "OS1.0.3.0.UKOEUSF",

@@ -13,23 +13,10 @@ for device in OScommon.currentStable:
     btag = branch["branchtag"]
     region = branch["region"]
     carriers = branch["carrier"]
-    if region == "cn":
-      if len(carriers)==0:
-        print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
-        OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
-      else:
-        for carrier in carriers:
-          print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")
-          OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n="+carrier)
-    elif region == "global":
+    if len(carriers)==0:
       print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
       OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
     else:
-      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+"                                   ",end="")
-      OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
-      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n="+"                                   ",end="")
-      OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+code.split("_global")[0]+"&n=")
-      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r=eea&n="+"                                   ",end="")
-      OScommon.getFastboot(base_url+code+"&b="+btag+"&r=eea&n=")
-      print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r=global"+"&n="+"                                   ",end="")
-      OScommon.getFastboot(base_url+code+"&b="+btag+"&r=global"+"&n=")
+      for carrier in carriers:
+        print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")
+        OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n="+carrier)

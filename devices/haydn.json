@@ -287,7 +287,7 @@
 			"idtag": "EUOR",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["orange"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -297,7 +297,7 @@
 					"android": "14.0",
 					"release": "2024-08-23",
 					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.3.0.UKKEUOR_8da8cfea08_14.0.zip",
-					"fastboot": ""
+					"fastboot": "haydn_eea_or_global_images_OS1.0.3.0.UKKEUOR_20240813.0000.00_14.0_eea_orange_ec4aa0c1c5.tgz"
 				},
 				"OS1.0.2.0.UKKEUOR": {
 					"os": "OS1.0.2.0.UKKEUOR",
@@ -329,7 +329,7 @@
 			"idtag": "EUTF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["tf"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -339,7 +339,7 @@
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_HAYDNEEATFGlobal_OS1.0.4.0.UKKEUTF_85f4c60e7b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "haydn_eea_tf_global_images_OS1.0.4.0.UKKEUTF_20240906.0000.00_14.0_eea_tf_24ee8387da.tgz"
 				},
 				"OS1.0.2.0.UKKEUTF": {
 					"os": "OS1.0.2.0.UKKEUTF",
@@ -371,7 +371,7 @@
 			"idtag": "EUHG",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["h3g"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -381,7 +381,7 @@
 					"android": "14.0",
 					"release": "2024-09-14",
 					"recovery": "miui_HAYDNEEAHGGlobal_OS1.0.3.0.UKKEUHG_543456b257_14.0.zip",
-					"fastboot": ""
+					"fastboot": "haydn_eea_hg_global_images_OS1.0.3.0.UKKEUHG_20240903.0000.00_14.0_eea_h3g_06da8c430f.tgz"
 				},
 				"OS1.0.2.0.UKKEUHG": {
 					"os": "OS1.0.2.0.UKKEUHG",
@@ -413,7 +413,7 @@
 			"idtag": "EUVF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["vodafone"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -423,7 +423,7 @@
 					"android": "14.0",
 					"release": "2024-09-20",
 					"recovery": "miui_HAYDNEEAVFGlobal_OS1.0.3.0.UKKEUVF_7b279f8e40_14.0.zip",
-					"fastboot": ""
+					"fastboot": "haydn_eea_vf_global_images_OS1.0.3.0.UKKEUVF_20240906.0000.00_14.0_eea_vodafone_96f21ac8ed.tgz"
 				},
 				"OS1.0.2.0.UKKEUVF": {
 					"os": "OS1.0.2.0.UKKEUVF",
@@ -448,17 +448,24 @@
 			"idtag": "EUBY",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["by"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.UKKEUBY": {
+					"os": "OS1.0.4.0.UKKEUBY",
+					"android": "14.0",
+					"release": "2024-10-28",
+					"recovery": "miui_HAYDNEEABYGlobal_OS1.0.4.0.UKKEUBY_568ead76d0_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UKKEUBY": {
 					"os": "OS1.0.3.0.UKKEUBY",
 					"android": "14.0",
 					"release": "2024-10-12",
 					"recovery": "miui_HAYDNEEABYGlobal_OS1.0.3.0.UKKEUBY_7138c6b73c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "haydn_eea_by_global_images_OS1.0.3.0.UKKEUBY_20240902.0000.00_14.0_eea_by_3347310ddc.tgz"
 				},
 				"OS1.0.2.0.UKKEUBY": {
 					"os": "OS1.0.2.0.UKKEUBY",
@@ -483,7 +490,7 @@
 			"idtag": "EUTI",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["tim"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -493,7 +500,7 @@
 					"android": "14.0",
 					"release": "2024-06-19",
 					"recovery": "miui_HAYDNEEATIGlobal_OS1.0.1.0.UKKEUTI_6516fc7d8d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "haydn_eea_ti_global_images_OS1.0.1.0.UKKEUTI_20240513.0000.00_14.0_eea_tim_55abcf090a.tgz"
 				}
 			}
 		},
@@ -511,7 +518,7 @@
 			"idtag": "EUSF",
 			"branchtag": "F",
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["sfr"],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -521,7 +528,7 @@
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_HAYDNEEASFGlobal_OS1.0.2.0.UKKEUSF_a898eeaf1f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "haydn_eea_sf_global_images_OS1.0.2.0.UKKEUSF_20240823.0000.00_14.0_eea_sfr_085a5e1ed4.tgz"
 				},
 				"OS1.0.1.0.UKKEUSF": {
 					"os": "OS1.0.1.0.UKKEUSF",
