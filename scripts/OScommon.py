@@ -1448,7 +1448,7 @@ def getDeviceCode(filename):
 def OTAFormer(device, code, region, branch, zone, android, version):
 		# print(device, code, region, branch, zone, android, version)
 		HyperOSForm['d'] = code
-		HyperOSForm["obv"] = version
+		HyperOSForm["obv"] = version[:4]
 		if region == 'cn':
 			HyperOSForm['pn'] = code
 			HyperOSForm["r"] = 'CN'
@@ -1466,7 +1466,10 @@ def OTAFormer(device, code, region, branch, zone, android, version):
 		else:
 			HyperOSForm['c'] = android.split('.0')[0]
 		HyperOSForm['sdk'] = sdk[android.split('.0')[0]]
-		HyperOSForm['v'] = 'MIUI-'+ version.replace('OS1','V816')
+		if "OS1"in version:
+			HyperOSForm['v'] = 'MIUI-'+ version.replace('OS1','V816')
+		else:
+			HyperOSForm['v'] = version
 		return json.dumps(HyperOSForm)
 
 def checkExist(filename):
