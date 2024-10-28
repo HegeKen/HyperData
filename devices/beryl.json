@@ -62,6 +62,35 @@
 					"fastboot": "beryl_images_OS1.0.2.0.UOQCNXM_20240911.0000.00_14.0_cn_chinatelecom_1b3080be9e.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "beryl",
+			"brand": "Redmi",
+      "device": {
+        "zh": "Redmi Note 14",
+        "en": "Redmi Note 14"
+      },
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.10.18.EP.STDEE.O17": {
+					"os": "OS1.0.24.10.18.EP.STDEE.O17",
+					"android": "14.0",
+					"release": "2024-10-28",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": "beryl_ep_stdee_images_OS1.0.24.10.18.EP.STDEE.O17_20241018.0000.00_14.0_cn_chinatelecom_028585df7b.tgz"
+				}
+			}
 		}
   ]
 }
