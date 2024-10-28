@@ -1448,7 +1448,7 @@ def getDeviceCode(filename):
 def OTAFormer(device, code, region, branch, zone, android, version):
 		# print(device, code, region, branch, zone, android, version)
 		HyperOSForm['d'] = code
-		HyperOSForm["obv"] = version[:4]
+		HyperOSForm["obv"] = version[:5]
 		if region == 'cn':
 			HyperOSForm['pn'] = code
 			HyperOSForm["r"] = 'CN'
