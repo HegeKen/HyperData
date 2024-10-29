@@ -212,6 +212,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Bouygues Telecom 运营商定制版",
+				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
+			},
+			"branchCode": "fleur_eea_by_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 11S 4G / POCO M4 Pro 4G",
+        "en" :"Redmi Note 11S 4G / POCO M4 Pro 4G"
+      },
+			"idtag": "EUBY",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["by"],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TKEEUBY": {
+					"os": "OS1.0.2.0.TKEEUBY",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_FLEUREEABYGlobal_OS1.0.2.0.TKEEUBY_10876c872c_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
