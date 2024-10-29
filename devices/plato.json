@@ -398,6 +398,34 @@
 					"fastboot": "plato_cl_en_global_images_OS1.0.2.0.ULQCLEN_20240523.0000.00_14.0_cl_en_f8d8134e45.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Claro运营商定制版",
+				"en": "Latin America Claro Carrier Edition"
+			},
+			"branchCode": "plato_lm_cr_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 12T",
+        "en" :"Xiaomi 12T"
+      },
+			"idtag": "LMCR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULQLMCR": {
+					"os": "OS1.0.3.0.ULQLMCR",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_PLATOLMCRGlobal_OS1.0.3.0.ULQLMCR_f5a53f1a08_14.0.zip",
+					"fastboot": "plato_lm_cr_global_images_OS1.0.3.0.ULQLMCR_20240827.0000.00_14.0_lm_cr_83980430c9.tgz"
+				}
+			}
 		}
 	]
 }

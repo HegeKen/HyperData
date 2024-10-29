@@ -1079,6 +1079,34 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Movistar运营商定制版",
+				"en": "Latin America Movistar Carrier Edition"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "LMMS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["movistar"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

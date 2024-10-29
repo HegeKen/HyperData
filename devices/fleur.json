@@ -194,6 +194,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.TKEEUOR": {
+					"os": "OS1.0.2.0.TKEEUOR",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_FLEUREEAORGlobal_OS1.0.2.0.TKEEUOR_6d18bf797e_13.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.1.0.TKEEUOR": {
 					"os": "OS1.0.1.0.TKEEUOR",
 					"android": "13.0",
@@ -410,6 +417,34 @@
 					"release": "2024-04-11",
 					"recovery": "miui_FLEURTRGlobal_OS1.0.1.0.TKETRXM_6027cb7d41_13.0.zip",
 					"fastboot": "fleur_tr_global_images_OS1.0.1.0.TKETRXM_20240319.0000.00_13.0_tr_d34f1c94cc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "fleur_cl_en_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 11S 4G / POCO M4 Pro 4G",
+        "en" :"Redmi Note 11S 4G / POCO M4 Pro 4G"
+      },
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKECLEN": {
+					"os": "OS1.0.1.0.TKECLEN",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_FLEURCLENGlobal_OS1.0.1.0.TKECLEN_c630d76838_13.0.zip",
+					"fastboot": "fleur_cl_en_global_images_OS1.0.1.0.TKECLEN_20240711.0000.00_13.0_cl_en_0f1200f9f7.tgz"
 				}
 			}
 		},

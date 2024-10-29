@@ -691,6 +691,90 @@
 					"fastboot": "ruby_kr_global_images_OS1.0.1.0.UMOKRXM_20240222.0000.00_14.0_kr_8ac1ad2c0a.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "ruby_cl_en_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
+        "en" :"Redmi Note 12 Pro / Pro+ 5G"
+      },
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMOCLEN": {
+					"os": "OS1.0.2.0.UMOCLEN",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_RUBYCLENGlobal_OS1.0.2.0.UMOCLEN_aa64002c3f_14.0.zip",
+					"fastboot": "ruby_cl_en_global_images_OS1.0.2.0.UMOCLEN_20240520.0000.00_14.0_cl_en_8cda18d1eb.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Claro运营商定制版",
+				"en": "Latin America Claro Carrier Edition"
+			},
+			"branchCode": "ruby_lm_cr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
+        "en" :"Redmi Note 12 Pro / Pro+ 5G"
+      },
+			"idtag": "LMCR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UMOLMCR": {
+					"os": "OS1.0.5.0.UMOLMCR",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_RUBYLMCRGlobal_OS1.0.5.0.UMOLMCR_ee11fbe899_14.0.zip",
+					"fastboot": "ruby_lm_cr_global_images_OS1.0.5.0.UMOLMCR_20241010.0000.00_14.0_lm_cr_0c4dbcd1ef.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Movistar运营商定制版",
+				"en": "Latin America Movistar Carrier Edition"
+			},
+			"branchCode": "ruby_lm_ms_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
+        "en" :"Redmi Note 12 Pro / Pro+ 5G"
+      },
+			"idtag": "LMMS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["movistar"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMOLMMS": {
+					"os": "OS1.0.2.0.UMOLMMS",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_RUBYLMMSGlobal_OS1.0.2.0.UMOLMMS_2028f1684b_14.0.zip",
+					"fastboot": "ruby_lm_ms_global_images_OS1.0.2.0.UMOLMMS_20240809.0000.00_14.0_lm_movistar_c341357bc5.tgz"
+				}
+			}
 		}
 	]
 }

@@ -142,6 +142,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "spes_cl_en_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 11 国际版",
+        "en" :"Redmi Note 11"
+      },
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGCCLEN": {
+					"os": "OS1.0.1.0.TGCCLEN",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_SPESCLENGlobal_OS1.0.1.0.TGCCLEN_9c83142bcf_13.0.zip",
+					"fastboot": "spes_cl_en_global_images_OS1.0.1.0.TGCCLEN_20240828.0000.00_13.0_cl_en_78859225eb.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
 				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
 			},

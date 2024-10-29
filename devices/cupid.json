@@ -762,6 +762,34 @@
 					"fastboot": "cupid_tr_global_images_OS1.0.1.0.ULCTRXM_20240304.0000.00_14.0_tr_17692a7369.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "cupid_mx_at",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 12",
+        "en" :"Xiaomi 12"
+      },
+			"idtag": "MXAT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.ULCMXAT": {
+					"os": "OS1.0.4.0.ULCMXAT",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "",
+					"fastboot": "cupid_mx_at_global_images_OS1.0.4.0.ULCMXAT_20240910.0000.00_14.0_mx_at_968561b54e.tgz"
+				}
+			}
 		}
 	]
 }

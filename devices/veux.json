@@ -474,6 +474,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.7.0.TKCEUOR": {
+					"os": "OS1.0.7.0.TKCEUOR",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_VEUXEEAORGlobal_OS1.0.7.0.TKCEUOR_42d51a92bc_13.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.5.0.TKCEUOR": {
 					"os": "OS1.0.5.0.TKCEUOR",
 					"android": "13.0",
@@ -697,6 +704,62 @@
 					"release": "2024-05-13",
 					"recovery": "miui_VEUXTRGlobal_OS1.0.1.0.TKCTRXM_92de1abc5e_13.0.zip",
 					"fastboot": "veux_tr_global_images_OS1.0.1.0.TKCTRXM_20240416.0000.00_13.0_tr_9f473075f2.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "veux_mx_at_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+      },
+			"idtag": "MXAT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.TKCMXAT": {
+					"os": "OS1.0.3.0.TKCMXAT",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_VEUXMXATGlobal_OS1.0.3.0.TKCMXAT_904095c4ab_13.0.zip",
+					"fastboot": "veux_mx_at_global_images_OS1.0.3.0.TKCMXAT_20240910.0000.00_13.0_mx_at_6e6407ab21.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "veux_cl_en_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+      },
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCCLEN": {
+					"os": "OS1.0.1.0.TKCCLEN",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_VEUXCLENGlobal_OS1.0.1.0.TKCCLEN_420224c658_13.0.zip",
+					"fastboot": "veux_cl_en_global_images_OS1.0.1.0.TKCCLEN_20240823.0000.00_13.0_cl_en_58ebba9498.tgz"
 				}
 			}
 		},

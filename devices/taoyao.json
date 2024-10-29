@@ -391,6 +391,34 @@
 					"fastboot": "taoyao_tr_global_images_OS1.0.1.0.ULITRXM_20240126.0000.00_14.0_tr_379c13ef64.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "taoyao_cl_en_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 12 Lite",
+        "en" :"Xiaomi 12 Lite"
+      },
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULICLEN": {
+					"os": "OS1.0.3.0.ULICLEN",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_TAOYAOCLENGlobal_OS1.0.3.0.ULICLEN_e3c212e35c_14.0.zip",
+					"fastboot": "taoyao_cl_en_global_images_OS1.0.3.0.ULICLEN_20240902.0000.00_14.0_cl_en_7316d04cc7.tgz"
+				}
+			}
 		}
 	]
 }

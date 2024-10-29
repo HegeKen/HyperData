@@ -338,6 +338,34 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "opal_cl_en_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 11S 5G",
+        "en" :"Redmi Note 11S 5G"
+      },
+			"idtag": "CLEN",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TGLCLEN": {
+					"os": "OS1.0.1.0.TGLCLEN",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_OPALCLENGlobal_OS1.0.1.0.TGLCLEN_cff34da5b3_13.0.zip",
+					"fastboot": "opal_cl_en_global_images_OS1.0.1.0.TGLCLEN_20240711.0000.00_13.0_cl_en_fd442c3a6a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
 				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
 			},
@@ -355,6 +383,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.TGLMXAT": {
+					"os": "OS1.0.4.0.TGLMXAT",
+					"android": "13.0",
+					"release": "2024-10-29",
+					"recovery": "miui_OPALMXATGlobal_OS1.0.4.0.TGLMXAT_56a51578d1_13.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.2.0.TGLMXAT": {
 					"os": "OS1.0.2.0.TGLMXAT",
 					"android": "13.0",

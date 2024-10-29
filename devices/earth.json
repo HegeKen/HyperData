@@ -923,6 +923,125 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "earth_mx_at_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 12C / POCO C55",
+        "en" :"Redmi 12C / POCO C55"
+      },
+			"idtag": "MXAT",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UCVMXAT": {
+					"os": "OS1.0.5.0.UCVMXAT",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_EARTHMXATGlobal_OS1.0.5.0.UCVMXAT_591e2a6a78_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.4.0.UCVMXAT": {
+					"os": "OS1.0.4.0.UCVMXAT",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "",
+					"fastboot": "earth_mx_at_global_images_OS1.0.4.0.UCVMXAT_20240801.0000.00_14.0_mx_at_8cfe3cfc29.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Claro运营商定制版",
+				"en": "Latin America Claro Carrier Edition"
+			},
+			"branchCode": "earth_lm_cr_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 12C / POCO C55",
+        "en" :"Redmi 12C / POCO C55"
+      },
+			"idtag": "LMCR",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UCVLMCR": {
+					"os": "OS1.0.5.0.UCVLMCR",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_EARTHLMCRGlobal_OS1.0.5.0.UCVLMCR_6def1fc272_14.0.zip",
+					"fastboot": "earth_lm_cr_global_images_OS1.0.5.0.UCVLMCR_20241010.0000.00_14.0_lm_cr_6bb0e84a46.tgz"
+				},
+				"OS1.0.4.0.UCVLMCR": {
+					"os": "OS1.0.4.0.UCVLMCR",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_EARTHLMCRGlobal_OS1.0.4.0.UCVLMCR_60dc89d1bc_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.3.0.UCVLMCR": {
+					"os": "OS1.0.3.0.UCVLMCR",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_EARTHLMCRGlobal_OS1.0.3.0.UCVLMCR_f48eba7f37_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.2.0.UCVLMCR": {
+					"os": "OS1.0.2.0.UCVLMCR",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_EARTHLMCRGlobal_OS1.0.2.0.UCVLMCR_3e052779af_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "拉丁美洲Movistar运营商定制版",
+				"en": "Latin America Movistar Carrier Edition"
+			},
+			"branchCode": "earth_lm_ms_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 12C / POCO C55",
+        "en" :"Redmi 12C / POCO C55"
+      },
+			"idtag": "LMMS",
+			"branchtag": "F",
+			"show": "1",
+			"carrier": ["movistar"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UCVLMMS": {
+					"os": "OS1.0.3.0.UCVLMMS",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_EARTHLMMSGlobal_OS1.0.3.0.UCVLMMS_2fb98b1917_14.0.zip",
+					"fastboot": "earth_lm_ms_global_images_OS1.0.3.0.UCVLMMS_20240819.0000.00_14.0_lm_movistar_a5583aae6d.tgz"
+				},
+				"OS1.0.1.0.UCVLMMS": {
+					"os": "OS1.0.1.0.UCVLMMS",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_EARTHLMMSGlobal_OS1.0.1.0.UCVLMMS_39e018e13b_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
