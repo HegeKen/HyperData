@@ -35,7 +35,7 @@ currentStable = ["dada", "haotian", "uke", "muyu",
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["zorn", "dada", "haotian", "uke", "muyu", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
+only_os = ["zorn", "dada", "haotian", "uke", "muyu", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "xuanyuan", "dijun", "flame", "pond", "lake","flare", "spark", "goku", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
@@ -104,7 +104,6 @@ flags = {
 	"agate_cl_en_global":"agate",
 	"AGATECLENGlobal":"agate",
 	"agate_cl_en_global":"agate",
-	"cupid_mx_at":"cupid",
 	"cupid_mx_at_global":"cupid",
 	"diting_lm_cr_global":"diting",
 	"diting_lm_cr_global":"diting",
