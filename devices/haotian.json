@@ -26,12 +26,35 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS2.0.1.0.VOBCNXM": {
-					"os": "OS2.0.1.0.VOBCNXM",
-					"android": "15.0",
-					"release": "",
+
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "haotian_demo",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15 Pro",
+        "en": "Xiaomi 15 Pro"
+      },
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.4.0.VOBCNDM": {
+					"os": "OS2.0.4.0.VOBCNDM",
+					"android": "14.0",
+					"release": "2024-10-29",
 					"recovery": "",
-					"fastboot": ""
+					"fastboot": "haotian_demo_images_OS2.0.4.0.VOBCNDM_20241026.0000.00_15.0_cn_b962c3789c.tgz",
+					"ctelecom": "haotian_demo_images_OS2.0.4.0.VOBCNDM_20241026.0000.00_15.0_cn_chinatelecom_42080a7ea0.tgz"
 				}
 			}
 		}

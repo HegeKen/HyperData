@@ -2,7 +2,8 @@ import OScommon
 from datetime import datetime
 
 btags = ['Beta','ADPC','ADPG','CnODB','CnOO','CnOT','CnOM','CnOU','CnOD','EPSTD','EPCJCC','CNTP','GBEB', 'GBOO', 'EEAB', 'EEAO','RUSO','INSO',
-         'IDSO','TRSO','THAS','SKSO','JAPS','EUHG','EUOR','EUVF','EUBY','EUTF','EUTI','EUSF','ZAVC','ZAMT','GTTG','CLEN','MXAT']
+         'IDSO','TRSO','THAS','SKSO','JAPS','EUHG','EUOR','EUVF','EUBY','EUTF','EUTI','EUSF','ZAVC','ZAMT','GTTG','CLEN','MXAT',
+         'MXTC','LMCR','LMMS']
 
 Beta = []
 ADPC = []

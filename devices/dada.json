@@ -34,6 +34,35 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "dada_demo",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.4.0.VOCCNDM": {
+					"os": "OS2.0.4.0.VOCCNDM",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "",
+					"fastboot": "dada_demo_images_OS2.0.4.0.VOCCNDM_20241026.0000.00_15.0_cn_eaabc061fb.tgz",
+					"ctelecom": "dada_demo_images_OS2.0.4.0.VOCCNDM_20241026.0000.00_15.0_cn_chinatelecom_4da10ef36d.tgz"
+				}
+			}
 		}
   ]
 }
