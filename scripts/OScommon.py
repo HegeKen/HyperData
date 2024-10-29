@@ -1501,8 +1501,8 @@ def getDeviceCode(filename):
 			rec_seperator = "_"
 			rec_spot = 1
 		else:
-			# OS With Android 15 uses "-" as a separator, and flag is located in spot 0
-			rec_seperator = "-"
+			# OS With Android 15 uses "-ota_full" as a separator, and flag is located in spot 0
+			rec_seperator = "-ota_full"
 			rec_spot = 0
 		flag = filename.split(rec_seperator)[rec_spot]
 		if flag in flags:
