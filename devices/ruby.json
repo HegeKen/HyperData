@@ -164,6 +164,14 @@
 			"zone": "1",
 			"ep": "1",
 			"roms": {
+				"OS1.0.24.5.14.EP.STDEE.M16": {
+					"os": "OS1.0.24.5.14.EP.STDEE.M16",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_RUBYEPSTDEE_OS1.0.24.5.14.EP.STDEE.M16_8dc82eabd4_14.0.zip",
+					"fastboot": "ruby_ep_stdee_images_OS1.0.24.5.14.EP.STDEE.M16_20240514.0000.00_14.0_cn_bd423a197c.tgz",
+					"ctelecom": "ruby_ep_stdee_images_OS1.0.24.5.14.EP.STDEE.M16_20240514.0000.00_14.0_cn_chinatelecom_10ab037553.tgz"
+				},
 				"OS1.0.24.2.26.EP.STDEE.M16": {
 					"os": "OS1.0.24.2.26.EP.STDEE.M16",
 					"android": "14.0",
@@ -729,8 +737,8 @@
 		},
 		{
 			"name": {
-				"zh": "拉丁美洲Claro运营商定制版",
-				"en": "Latin America Claro Carrier Edition"
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
 			},
 			"branchCode": "ruby_lm_cr_global",
 			"brand": "Redmi",
@@ -785,8 +793,8 @@
 		},
 		{
 			"name": {
-				"zh": "拉丁美洲Movistar运营商定制版",
-				"en": "Latin America Movistar Carrier Edition"
+				"zh": "小米澎湃 OS 拉丁美洲Movistar运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Movistar Carrier Edition"
 			},
 			"branchCode": "ruby_lm_ms_global",
 			"brand": "Redmi",

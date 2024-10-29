@@ -41,6 +41,9 @@ ZAMT = []
 GTTG = []
 CLEN = []
 MXAT = []
+MXTC = []
+LMCR = []
+LMMS = []
 
 for device in OScommon.order:
   devdata = OScommon.localData(device)
@@ -124,6 +127,12 @@ for device in OScommon.order:
             CLEN.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
           elif tag == "MXAT":
             MXAT.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
+          elif tag == "MXTC":
+            MXTC.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
+          elif tag == "LMCR":
+            LMCR.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
+          elif tag == "LMMS":
+            LMMS.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
           else:
             print("Error: "+tag)
 
@@ -241,5 +250,17 @@ if len(CLEN) != 0:
 if len(MXAT) != 0:
   file.write("\n墨西哥AT&T运营商定制版\n")
   for i in MXAT:
+    file.write(i.replace(":","：")+"\n")
+if len(MXTC) != 0:
+  file.write("\n墨西哥Telcel运营商定制版\n")
+  for i in MXTC:
+    file.write(i.replace(":","：")+"\n")
+if len(LMCR) != 0:
+  file.write("\n拉丁美洲Claro运营商定制版\n")
+  for i in LMCR:
+    file.write(i.replace(":","：")+"\n")
+if len(LMMS) != 0:
+  file.write("\n拉丁美洲Movistar运营商定制版\n")
+  for i in LMMS:
     file.write(i.replace(":","：")+"\n")
 file.close()
