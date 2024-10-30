@@ -14,6 +14,7 @@
 			},
 			"branchCode": "socrates",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"brand": "Redmi",
       "device": {
         "zh" :"Redmi K60 Pro",
@@ -300,8 +301,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -311,140 +313,72 @@
 					"android": "14.0",
 					"release": "2024-10-21",
 					"recovery": "miui_SOCRATES_OS1.0.13.0.UMKCNXM_9569a89d43_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.12.0.UMKCNXM": {
 					"os": "OS1.0.12.0.UMKCNXM",
 					"android": "14.0",
 					"release": "2024-09-11",
 					"recovery": "miui_SOCRATES_OS1.0.12.0.UMKCNXM_fc93fc7e30_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.12.0.UMKCNXM_20240905.0000.00_14.0_cn_f021a609c3.tgz"
+					"fastboot": "socrates_images_OS1.0.12.0.UMKCNXM_20240905.0000.00_14.0_cn_f021a609c3.tgz",
+					"ctelecom": "socrates_images_OS1.0.12.0.UMKCNXM_20240905.0000.00_14.0_cn_chinatelecom_fdfd006239.tgz"
 				},
 				"OS1.0.11.0.UMKCNXM": {
 					"os": "OS1.0.11.0.UMKCNXM",
 					"android": "14.0",
 					"release": "2024-08-14",
 					"recovery": "miui_SOCRATES_OS1.0.11.0.UMKCNXM_4bd902b273_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.11.0.UMKCNXM_20240805.0000.00_14.0_cn_b19af7aa71.tgz"
+					"fastboot": "socrates_images_OS1.0.11.0.UMKCNXM_20240805.0000.00_14.0_cn_b19af7aa71.tgz",
+					"ctelecom": "socrates_images_OS1.0.11.0.UMKCNXM_20240805.0000.00_14.0_cn_chinatelecom_4f3d4905b1.tgz"
 				},
 				"OS1.0.9.0.UMKCNXM": {
 					"os": "OS1.0.9.0.UMKCNXM",
 					"android": "14.0",
 					"release": "2024-05-31",
 					"recovery": "miui_SOCRATES_OS1.0.9.0.UMKCNXM_6cbb77eede_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.9.0.UMKCNXM_20240516.0000.00_14.0_cn_406bfc6edd.tgz"
+					"fastboot": "socrates_images_OS1.0.9.0.UMKCNXM_20240516.0000.00_14.0_cn_406bfc6edd.tgz",
+					"ctelecom": "socrates_images_OS1.0.9.0.UMKCNXM_20240516.0000.00_14.0_cn_chinatelecom_bab77b067a.tgz"
 				},
 				"OS1.0.8.0.UMKCNXM": {
 					"os": "OS1.0.8.0.UMKCNXM",
 					"android": "14.0",
 					"release": "2024-03-19",
 					"recovery": "miui_SOCRATES_OS1.0.8.0.UMKCNXM_2d0fa2cf85_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.8.0.UMKCNXM_20240312.0000.00_14.0_cn_e7316c0c01.tgz"
+					"fastboot": "socrates_images_OS1.0.8.0.UMKCNXM_20240312.0000.00_14.0_cn_e7316c0c01.tgz",
+					"ctelecom": "socrates_images_OS1.0.8.0.UMKCNXM_20240312.0000.00_14.0_cn_chinatelecom_f027332c47.tgz"
 				},
 				"OS1.0.7.0.UMKCNXM": {
 					"os": "OS1.0.7.0.UMKCNXM",
 					"android": "14.0",
 					"release": "2024-02-18",
 					"recovery": "miui_SOCRATES_OS1.0.7.0.UMKCNXM_450919a308_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.7.0.UMKCNXM_20240201.0000.00_14.0_cn_1d3ab448b1.tgz"
+					"fastboot": "socrates_images_OS1.0.7.0.UMKCNXM_20240201.0000.00_14.0_cn_1d3ab448b1.tgz",
+					"ctelecom": "socrates_images_OS1.0.7.0.UMKCNXM_20240201.0000.00_14.0_cn_chinatelecom_6fd797da7b.tgz"
 				},
 				"OS1.0.5.0.UMKCNXM": {
 					"os": "OS1.0.5.0.UMKCNXM",
 					"android": "14.0",
 					"release": "2024-01-17",
 					"recovery": "miui_SOCRATES_OS1.0.5.0.UMKCNXM_29370676f8_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.5.0.UMKCNXM_20240103.0000.00_14.0_cn_e76fe565c1.tgz"
+					"fastboot": "socrates_images_OS1.0.5.0.UMKCNXM_20240103.0000.00_14.0_cn_e76fe565c1.tgz",
+					"ctelecom": "socrates_images_OS1.0.5.0.UMKCNXM_20240103.0000.00_14.0_cn_chinatelecom_fae24efbf6.tgz"
 				},
 				"OS1.0.4.0.UMKCNXM": {
 					"os": "OS1.0.4.0.UMKCNXM",
 					"android": "14.0",
 					"release": "2023-12-27",
 					"recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_f8f6f8035d.tgz"
+					"fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_f8f6f8035d.tgz",
+					"ctelecom": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_chinatelecom_05d2a52058.tgz"
 				},
 				"OS1.0.3.0.UMKCNXM": {
 					"os": "OS1.0.3.0.UMKCNXM",
 					"android": "14.0",
 					"release": "2023-12-07",
 					"recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_09047fbce8.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "socrates",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K60 Pro",
-        "en" :"Redmi K60 Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.12.0.UMKCNXM": {
-					"os": "OS1.0.12.0.UMKCNXM",
-					"android": "14.0",
-					"release": "2024-09-11",
-					"recovery": "miui_SOCRATES_OS1.0.12.0.UMKCNXM_fc93fc7e30_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.12.0.UMKCNXM_20240905.0000.00_14.0_cn_chinatelecom_fdfd006239.tgz"
-				},
-				"OS1.0.11.0.UMKCNXM": {
-					"os": "OS1.0.11.0.UMKCNXM",
-					"android": "14.0",
-					"release": "2024-08-14",
-					"recovery": "miui_SOCRATES_OS1.0.11.0.UMKCNXM_4bd902b273_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.11.0.UMKCNXM_20240805.0000.00_14.0_cn_chinatelecom_4f3d4905b1.tgz"
-				},
-				"OS1.0.9.0.UMKCNXM": {
-					"os": "OS1.0.9.0.UMKCNXM",
-					"android": "14.0",
-					"release": "2024-05-31",
-					"recovery": "miui_SOCRATES_OS1.0.9.0.UMKCNXM_6cbb77eede_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.9.0.UMKCNXM_20240516.0000.00_14.0_cn_chinatelecom_bab77b067a.tgz"
-				},
-				"OS1.0.8.0.UMKCNXM": {
-					"os": "OS1.0.8.0.UMKCNXM",
-					"android": "14.0",
-					"release": "2024-03-19",
-					"recovery": "miui_SOCRATES_OS1.0.8.0.UMKCNXM_2d0fa2cf85_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.8.0.UMKCNXM_20240312.0000.00_14.0_cn_chinatelecom_f027332c47.tgz"
-				},
-				"OS1.0.7.0.UMKCNXM": {
-					"os": "OS1.0.7.0.UMKCNXM",
-					"android": "14.0",
-					"release": "2024-02-18",
-					"recovery": "miui_SOCRATES_OS1.0.7.0.UMKCNXM_450919a308_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.7.0.UMKCNXM_20240201.0000.00_14.0_cn_chinatelecom_6fd797da7b.tgz"
-				},
-				"OS1.0.5.0.UMKCNXM": {
-					"os": "OS1.0.5.0.UMKCNXM",
-					"android": "14.0",
-					"release": "2024-01-17",
-					"recovery": "miui_SOCRATES_OS1.0.5.0.UMKCNXM_29370676f8_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.5.0.UMKCNXM_20240103.0000.00_14.0_cn_chinatelecom_fae24efbf6.tgz"
-				},
-				"OS1.0.4.0.UMKCNXM": {
-					"os": "OS1.0.4.0.UMKCNXM",
-					"android": "14.0",
-					"release": "2023-12-27",
-					"recovery": "miui_SOCRATES_OS1.0.4.0.UMKCNXM_57d472fecf_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.4.0.UMKCNXM_20231222.0000.00_14.0_cn_chinatelecom_05d2a52058.tgz"
-				},
-				"OS1.0.3.0.UMKCNXM": {
-					"os": "OS1.0.3.0.UMKCNXM",
-					"android": "14.0",
-					"release": "2023-12-07",
-					"recovery": "miui_SOCRATES_OS1.0.3.0.UMKCNXM_3d4bfd0c54_14.0.zip",
-					"fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_chinatelecom_b338139b01.tgz"
+					"fastboot": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_09047fbce8.tgz",
+					"ctelecom": "socrates_images_OS1.0.3.0.UMKCNXM_20231127.0000.00_14.0_cn_chinatelecom_b338139b01.tgz"
 				}
 			}
 		}

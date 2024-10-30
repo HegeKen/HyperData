@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,91 +32,48 @@
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_PEARL_OS1.0.6.0.ULHCNXM_21fa036d40_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.5.0.ULHCNXM": {
 					"os": "OS1.0.5.0.ULHCNXM",
 					"android": "14.0",
 					"release": "2024-10-09",
 					"recovery": "miui_PEARL_OS1.0.5.0.ULHCNXM_43b5bc657b_14.0.zip",
-					"fastboot": "pearl_images_OS1.0.5.0.ULHCNXM_20240926.0000.00_14.0_cn_98922aba99.tgz"
+					"fastboot": "pearl_images_OS1.0.5.0.ULHCNXM_20240926.0000.00_14.0_cn_98922aba99.tgz",
+					"ctelecom": "pearl_images_OS1.0.5.0.ULHCNXM_20240926.0000.00_14.0_cn_chinatelecom_fdb241bc48.tgz"
 				},
 				"OS1.0.4.0.ULHCNXM": {
 					"os": "OS1.0.4.0.ULHCNXM",
 					"android": "14.0",
 					"release": "2024-09-06",
 					"recovery": "miui_PEARL_OS1.0.4.0.ULHCNXM_7516430224_14.0.zip",
-					"fastboot": "pearl_images_OS1.0.4.0.ULHCNXM_20240826.0000.00_14.0_cn_5c557aa0bd.tgz"
+					"fastboot": "pearl_images_OS1.0.4.0.ULHCNXM_20240826.0000.00_14.0_cn_5c557aa0bd.tgz",
+					"ctelecom": "pearl_images_OS1.0.4.0.ULHCNXM_20240826.0000.00_14.0_cn_chinatelecom_69a3ae484d.tgz"
 				},
 				"OS1.0.3.0.ULHCNXM": {
 					"os": "OS1.0.3.0.ULHCNXM",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_PEARL_OS1.0.3.0.ULHCNXM_cf6066ca4c_14.0.zip",
-					"fastboot": "pearl_images_OS1.0.3.0.ULHCNXM_20240718.0000.00_14.0_cn_36cb0e37fd.tgz"
+					"fastboot": "pearl_images_OS1.0.3.0.ULHCNXM_20240718.0000.00_14.0_cn_36cb0e37fd.tgz",
+					"ctelecom": "pearl_images_OS1.0.3.0.ULHCNXM_20240718.0000.00_14.0_cn_chinatelecom_e782e8c321.tgz"
 				},
 				"OS1.0.2.0.ULHCNXM": {
 					"os": "OS1.0.2.0.ULHCNXM",
 					"android": "14.0",
 					"release": "2024-05-13",
 					"recovery": "miui_PEARL_OS1.0.2.0.ULHCNXM_9d364d8f8f_14.0.zip",
-					"fastboot": "pearl_images_OS1.0.2.0.ULHCNXM_20240508.0000.00_14.0_cn_bb464be158.tgz"
+					"fastboot": "pearl_images_OS1.0.2.0.ULHCNXM_20240508.0000.00_14.0_cn_bb464be158.tgz",
+					"ctelecom": "pearl_images_OS1.0.2.0.ULHCNXM_20240508.0000.00_14.0_cn_chinatelecom_72485e1a76.tgz"
 				},
 				"OS1.0.1.0.ULHCNXM": {
 					"os": "OS1.0.1.0.ULHCNXM",
 					"android": "14.0",
 					"release": "2024-04-09",
 					"recovery": "miui_PEARL_OS1.0.1.0.ULHCNXM_bbacc31521_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "pearl",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12T Pro",
-        "en" :"Redmi Note 12T Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.5.0.ULHCNXM": {
-					"os": "OS1.0.5.0.ULHCNXM",
-					"android": "14.0",
-					"release": "2024-10-09",
-					"recovery": "miui_PEARL_OS1.0.5.0.ULHCNXM_43b5bc657b_14.0.zip",
-					"fastboot": "pearl_images_OS1.0.5.0.ULHCNXM_20240926.0000.00_14.0_cn_chinatelecom_fdb241bc48.tgz"
-				},
-				"OS1.0.4.0.ULHCNXM": {
-					"os": "OS1.0.4.0.ULHCNXM",
-					"android": "14.0",
-					"release": "2024-09-06",
-					"recovery": "miui_PEARL_OS1.0.4.0.ULHCNXM_7516430224_14.0.zip",
-					"fastboot": "pearl_images_OS1.0.4.0.ULHCNXM_20240826.0000.00_14.0_cn_chinatelecom_69a3ae484d.tgz"
-				},
-				"OS1.0.3.0.ULHCNXM": {
-					"os": "OS1.0.3.0.ULHCNXM",
-					"android": "14.0",
-					"release": "2024-07-26",
-					"recovery": "miui_PEARL_OS1.0.3.0.ULHCNXM_cf6066ca4c_14.0.zip",
-					"fastboot": "pearl_images_OS1.0.3.0.ULHCNXM_20240718.0000.00_14.0_cn_chinatelecom_e782e8c321.tgz"
-				},
-				"OS1.0.2.0.ULHCNXM": {
-					"os": "OS1.0.2.0.ULHCNXM",
-					"android": "14.0",
-					"release": "2024-05-13",
-					"recovery": "miui_PEARL_OS1.0.2.0.ULHCNXM_9d364d8f8f_14.0.zip",
-					"fastboot": "pearl_images_OS1.0.2.0.ULHCNXM_20240508.0000.00_14.0_cn_chinatelecom_72485e1a76.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		}

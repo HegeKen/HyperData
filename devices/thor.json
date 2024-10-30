@@ -20,6 +20,7 @@
       },
 			"idtag": "Dev",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -258,8 +259,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -269,105 +271,48 @@
 					"android": "14.0",
 					"release": "2024-10-18",
 					"recovery": "miui_THOR_OS1.0.10.0.ULACNXM_5fc2f218ab_14.0.zip",
-					"fastboot": "thor_images_OS1.0.10.0.ULACNXM_20241015.0000.00_14.0_cn_124d28bcc3.tgz"
+					"fastboot": "thor_images_OS1.0.10.0.ULACNXM_20241015.0000.00_14.0_cn_124d28bcc3.tgz",
+					"ctelecom": "thor_images_OS1.0.10.0.ULACNXM_20241015.0000.00_14.0_cn_chinatelecom_074033d5e0.tgz"
 				},
 				"OS1.0.8.0.ULACNXM": {
 					"os": "OS1.0.8.0.ULACNXM",
 					"android": "14.0",
 					"release": "2024-09-14",
 					"recovery": "miui_THOR_OS1.0.8.0.ULACNXM_2fdf7fa07d_14.0.zip",
-					"fastboot": "thor_images_OS1.0.8.0.ULACNXM_20240904.0000.00_14.0_cn_5c84c9933f.tgz"
+					"fastboot": "thor_images_OS1.0.8.0.ULACNXM_20240904.0000.00_14.0_cn_5c84c9933f.tgz",
+					"ctelecom": "thor_images_OS1.0.8.0.ULACNXM_20240904.0000.00_14.0_cn_chinatelecom_cf00f69547.tgz"
 				},
 				"OS1.0.7.0.ULACNXM": {
 					"os": "OS1.0.7.0.ULACNXM",
 					"android": "14.0",
 					"release": "2024-08-08",
 					"recovery": "miui_THOR_OS1.0.7.0.ULACNXM_3300674e49_14.0.zip",
-					"fastboot": "thor_images_OS1.0.7.0.ULACNXM_20240731.0000.00_14.0_cn_e462f26a14.tgz"
+					"fastboot": "thor_images_OS1.0.7.0.ULACNXM_20240731.0000.00_14.0_cn_e462f26a14.tgz",
+					"ctelecom": "thor_images_OS1.0.7.0.ULACNXM_20240731.0000.00_14.0_cn_chinatelecom_004cb4ad83.tgz"
 				},
 				"OS1.0.6.0.ULACNXM": {
 					"os": "OS1.0.6.0.ULACNXM",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_THOR_OS1.0.6.0.ULACNXM_99e5738060_14.0.zip",
-					"fastboot": "thor_images_OS1.0.6.0.ULACNXM_20240718.0000.00_14.0_cn_e9d8e011fa.tgz"
+					"fastboot": "thor_images_OS1.0.6.0.ULACNXM_20240718.0000.00_14.0_cn_e9d8e011fa.tgz",
+					"ctelecom": "thor_images_OS1.0.6.0.ULACNXM_20240718.0000.00_14.0_cn_chinatelecom_a34b93217f.tgz"
 				},
 				"OS1.0.5.0.ULACNXM": {
 					"os": "OS1.0.5.0.ULACNXM",
 					"android": "14.0",
 					"release": "2024-04-15",
 					"recovery": "miui_THOR_OS1.0.5.0.ULACNXM_5282e8adc1_14.0.zip",
-					"fastboot": "thor_images_OS1.0.5.0.ULACNXM_20240401.0000.00_14.0_cn_f9316a0373.tgz"
+					"fastboot": "thor_images_OS1.0.5.0.ULACNXM_20240401.0000.00_14.0_cn_f9316a0373.tgz",
+					"ctelecom": "thor_images_OS1.0.5.0.ULACNXM_20240401.0000.00_14.0_cn_chinatelecom_187a10286c.tgz"
 				},
 				"OS1.0.4.0.ULACNXM": {
 					"os": "OS1.0.4.0.ULACNXM",
 					"android": "14.0",
 					"release": "2024-01-25",
 					"recovery": "miui_THOR_OS1.0.4.0.ULACNXM_12b58f6ae6_14.0.zip",
-					"fastboot": "thor_images_OS1.0.4.0.ULACNXM_20240119.0000.00_14.0_cn_a95c5dd4c0.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "thor",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12S Ultra",
-        "en" :"Xiaomi 12S Ultra"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.10.0.ULACNXM": {
-					"os": "OS1.0.10.0.ULACNXM",
-					"android": "14.0",
-					"release": "2024-10-18",
-					"recovery": "miui_THOR_OS1.0.10.0.ULACNXM_5fc2f218ab_14.0.zip",
-					"fastboot": "thor_images_OS1.0.10.0.ULACNXM_20241015.0000.00_14.0_cn_chinatelecom_074033d5e0.tgz"
-				},
-				"OS1.0.8.0.ULACNXM": {
-					"os": "OS1.0.8.0.ULACNXM",
-					"android": "14.0",
-					"release": "2024-09-14",
-					"recovery": "miui_THOR_OS1.0.8.0.ULACNXM_2fdf7fa07d_14.0.zip",
-					"fastboot": "thor_images_OS1.0.8.0.ULACNXM_20240904.0000.00_14.0_cn_chinatelecom_cf00f69547.tgz"
-				},
-				"OS1.0.7.0.ULACNXM": {
-					"os": "OS1.0.7.0.ULACNXM",
-					"android": "14.0",
-					"release": "2024-08-08",
-					"recovery": "miui_THOR_OS1.0.7.0.ULACNXM_3300674e49_14.0.zip",
-					"fastboot": "thor_images_OS1.0.7.0.ULACNXM_20240731.0000.00_14.0_cn_chinatelecom_004cb4ad83.tgz"
-				},
-				"OS1.0.6.0.ULACNXM": {
-					"os": "OS1.0.6.0.ULACNXM",
-					"android": "14.0",
-					"release": "2024-07-30",
-					"recovery": "miui_THOR_OS1.0.6.0.ULACNXM_99e5738060_14.0.zip",
-					"fastboot": "thor_images_OS1.0.6.0.ULACNXM_20240718.0000.00_14.0_cn_chinatelecom_a34b93217f.tgz"
-				},
-				"OS1.0.5.0.ULACNXM": {
-					"os": "OS1.0.5.0.ULACNXM",
-					"android": "14.0",
-					"release": "2024-04-15",
-					"recovery": "miui_THOR_OS1.0.5.0.ULACNXM_5282e8adc1_14.0.zip",
-					"fastboot": "thor_images_OS1.0.5.0.ULACNXM_20240401.0000.00_14.0_cn_chinatelecom_187a10286c.tgz"
-				},
-				"OS1.0.4.0.ULACNXM": {
-					"os": "OS1.0.4.0.ULACNXM",
-					"android": "14.0",
-					"release": "2024-01-25",
-					"recovery": "miui_THOR_OS1.0.4.0.ULACNXM_12b58f6ae6_14.0.zip",
-					"fastboot": "thor_images_OS1.0.4.0.ULACNXM_20240119.0000.00_14.0_cn_chinatelecom_9b4e7f289f.tgz"
+					"fastboot": "thor_images_OS1.0.4.0.ULACNXM_20240119.0000.00_14.0_cn_a95c5dd4c0.tgz",
+					"ctelecom": "thor_images_OS1.0.4.0.ULACNXM_20240119.0000.00_14.0_cn_chinatelecom_9b4e7f289f.tgz"
 				}
 			}
 		}

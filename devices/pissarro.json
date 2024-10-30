@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,91 +32,40 @@
 					"android": "13.0",
 					"release": "2024-10-12",
 					"recovery": "miui_PISSARRO_OS1.0.6.0.TKTCNXM_acb2780ad1_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.6.0.TKTCNXM_20240927.0000.00_13.0_cn_7e10e224f8.tgz"
+					"fastboot": "pissarro_images_OS1.0.6.0.TKTCNXM_20240927.0000.00_13.0_cn_7e10e224f8.tgz",
+					"ctelecom": "pissarro_images_OS1.0.6.0.TKTCNXM_20240927.0000.00_13.0_cn_chinatelecom_a7fdb25a7a.tgz"
 				},
 				"OS1.0.5.0.TKTCNXM": {
 					"os": "OS1.0.5.0.TKTCNXM",
 					"android": "13.0",
 					"release": "2024-09-11",
 					"recovery": "miui_PISSARRO_OS1.0.5.0.TKTCNXM_a1d94328ca_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.5.0.TKTCNXM_20240828.0000.00_13.0_cn_99b47746a1.tgz"
+					"fastboot": "pissarro_images_OS1.0.5.0.TKTCNXM_20240828.0000.00_13.0_cn_99b47746a1.tgz",
+					"ctelecom": "pissarro_images_OS1.0.5.0.TKTCNXM_20240828.0000.00_13.0_cn_chinatelecom_d60a07bcb7.tgz"
 				},
 				"OS1.0.4.0.TKTCNXM": {
 					"os": "OS1.0.4.0.TKTCNXM",
 					"android": "13.0",
 					"release": "2024-08-20",
 					"recovery": "miui_PISSARRO_OS1.0.4.0.TKTCNXM_c03c7faae1_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.4.0.TKTCNXM_20240724.0000.00_13.0_cn_ccd9d8f859.tgz"
+					"fastboot": "pissarro_images_OS1.0.4.0.TKTCNXM_20240724.0000.00_13.0_cn_ccd9d8f859.tgz",
+					"ctelecom": "pissarro_images_OS1.0.4.0.TKTCNXM_20240724.0000.00_13.0_cn_chinatelecom_ab21988391.tgz"
 				},
 				"OS1.0.3.0.TKTCNXM": {
 					"os": "OS1.0.3.0.TKTCNXM",
 					"android": "13.0",
 					"release": "2024-05-29",
 					"recovery": "miui_PISSARRO_OS1.0.3.0.TKTCNXM_dbd078ff4c_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.3.0.TKTCNXM_20240514.0000.00_13.0_cn_0f83a84adb.tgz"
+					"fastboot": "pissarro_images_OS1.0.3.0.TKTCNXM_20240514.0000.00_13.0_cn_0f83a84adb.tgz",
+					"ctelecom": "pissarro_images_OS1.0.3.0.TKTCNXM_20240514.0000.00_13.0_cn_chinatelecom_c4d7096a07.tgz"
 				},
 				"OS1.0.2.0.TKTCNXM": {
 					"os": "OS1.0.2.0.TKTCNXM",
 					"android": "13.0",
 					"release": "2024-02-19",
 					"recovery": "miui_PISSARRO_OS1.0.2.0.TKTCNXM_13f7d12d41_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_000a30c6b6.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "pissarro",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro / Pro+ 5G",
-        "en" :"Redmi Note 11 Pro / Pro+ 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.TKTCNXM": {
-					"os": "OS1.0.6.0.TKTCNXM",
-					"android": "13.0",
-					"release": "2024-10-12",
-					"recovery": "miui_PISSARRO_OS1.0.6.0.TKTCNXM_acb2780ad1_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.6.0.TKTCNXM_20240927.0000.00_13.0_cn_chinatelecom_a7fdb25a7a.tgz"
-				},
-				"OS1.0.5.0.TKTCNXM": {
-					"os": "OS1.0.5.0.TKTCNXM",
-					"android": "13.0",
-					"release": "2024-09-11",
-					"recovery": "miui_PISSARRO_OS1.0.5.0.TKTCNXM_a1d94328ca_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.5.0.TKTCNXM_20240828.0000.00_13.0_cn_chinatelecom_d60a07bcb7.tgz"
-				},
-				"OS1.0.4.0.TKTCNXM": {
-					"os": "OS1.0.4.0.TKTCNXM",
-					"android": "13.0",
-					"release": "2024-08-20",
-					"recovery": "miui_PISSARRO_OS1.0.4.0.TKTCNXM_c03c7faae1_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.4.0.TKTCNXM_20240724.0000.00_13.0_cn_chinatelecom_ab21988391.tgz"
-				},
-				"OS1.0.3.0.TKTCNXM": {
-					"os": "OS1.0.3.0.TKTCNXM",
-					"android": "13.0",
-					"release": "2024-05-29",
-					"recovery": "miui_PISSARRO_OS1.0.3.0.TKTCNXM_dbd078ff4c_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.3.0.TKTCNXM_20240514.0000.00_13.0_cn_chinatelecom_c4d7096a07.tgz"
-				},
-				"OS1.0.2.0.TKTCNXM": {
-					"os": "OS1.0.2.0.TKTCNXM",
-					"android": "13.0",
-					"release": "2024-02-19",
-					"recovery": "miui_PISSARRO_OS1.0.2.0.TKTCNXM_13f7d12d41_13.0.zip",
-					"fastboot": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_chinatelecom_52a18ab3f9.tgz"
+					"fastboot": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_000a30c6b6.tgz",
+					"ctelecom": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_chinatelecom_52a18ab3f9.tgz"
 				}
 			}
 		},
@@ -132,6 +82,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -181,6 +132,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -244,6 +196,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -300,6 +253,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -349,6 +303,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -405,6 +360,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

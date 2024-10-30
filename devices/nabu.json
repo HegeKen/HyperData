@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,49 +32,16 @@
 					"android": "13.0",
 					"release": "2024-05-29",
 					"recovery": "miui_NABU_OS1.0.3.0.TKXCNXM_b4170b92e5_13.0.zip",
-					"fastboot": "nabu_images_OS1.0.3.0.TKXCNXM_20240516.0000.00_13.0_cn_ff15a7adfc.tgz"
+					"fastboot": "nabu_images_OS1.0.3.0.TKXCNXM_20240516.0000.00_13.0_cn_ff15a7adfc.tgz",
+					"ctelecom": "nabu_images_OS1.0.3.0.TKXCNXM_20240516.0000.00_13.0_cn_chinatelecom_17dfdbec3a.tgz"
 				},
 				"OS1.0.2.0.TKXCNXM": {
 					"os": "OS1.0.2.0.TKXCNXM",
 					"android": "13.0",
 					"release": "2024-02-29",
 					"recovery": "miui_NABU_OS1.0.2.0.TKXCNXM_b0648de1cc_13.0.zip",
-					"fastboot": "nabu_images_OS1.0.2.0.TKXCNXM_20240221.0000.00_13.0_cn_6584283481.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "nabu",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 5",
-        "en" :"Xiaomi Pad 5"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.3.0.TKXCNXM": {
-					"os": "OS1.0.3.0.TKXCNXM",
-					"android": "13.0",
-					"release": "2024-05-29",
-					"recovery": "miui_NABU_OS1.0.3.0.TKXCNXM_b4170b92e5_13.0.zip",
-					"fastboot": "nabu_images_OS1.0.3.0.TKXCNXM_20240516.0000.00_13.0_cn_chinatelecom_17dfdbec3a.tgz"
-				},
-				"OS1.0.2.0.TKXCNXM": {
-					"os": "OS1.0.2.0.TKXCNXM",
-					"android": "13.0",
-					"release": "2024-02-29",
-					"recovery": "miui_NABU_OS1.0.2.0.TKXCNXM_b0648de1cc_13.0.zip",
-					"fastboot": "nabu_images_OS1.0.2.0.TKXCNXM_20240221.0000.00_13.0_cn_chinatelecom_59f05d7c30.tgz"
+					"fastboot": "nabu_images_OS1.0.2.0.TKXCNXM_20240221.0000.00_13.0_cn_6584283481.tgz",
+					"ctelecom": "nabu_images_OS1.0.2.0.TKXCNXM_20240221.0000.00_13.0_cn_chinatelecom_59f05d7c30.tgz"
 				}
 			}
 		},
@@ -90,6 +58,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -139,6 +108,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -188,6 +158,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -237,6 +208,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -286,6 +258,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -335,6 +308,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

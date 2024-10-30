@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,91 +32,40 @@
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_REMBRANDT_OS1.0.9.0.UMMCNXM_cabc27c4ab_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.9.0.UMMCNXM_20240923.0000.00_14.0_cn_e6e16f8153.tgz"
+					"fastboot": "rembrandt_images_OS1.0.9.0.UMMCNXM_20240923.0000.00_14.0_cn_e6e16f8153.tgz",
+					"ctelecom": "rembrandt_images_OS1.0.9.0.UMMCNXM_20240923.0000.00_14.0_cn_chinatelecom_d234a97f86.tgz"
 				},
 				"OS1.0.8.0.UMMCNXM": {
 					"os": "OS1.0.8.0.UMMCNXM",
 					"android": "14.0",
 					"release": "2024-09-04",
 					"recovery": "miui_REMBRANDT_OS1.0.8.0.UMMCNXM_53d170c2d4_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.8.0.UMMCNXM_20240828.0000.00_14.0_cn_54dd6217cd.tgz"
+					"fastboot": "rembrandt_images_OS1.0.8.0.UMMCNXM_20240828.0000.00_14.0_cn_54dd6217cd.tgz",
+					"ctelecom": "rembrandt_images_OS1.0.8.0.UMMCNXM_20240828.0000.00_14.0_cn_chinatelecom_6456d429f9.tgz"
 				},
 				"OS1.0.6.0.UMMCNXM": {
 					"os": "OS1.0.6.0.UMMCNXM",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_REMBRANDT_OS1.0.6.0.UMMCNXM_8ed8d81fcc_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.6.0.UMMCNXM_20240719.0000.00_14.0_cn_9051518657.tgz"
+					"fastboot": "rembrandt_images_OS1.0.6.0.UMMCNXM_20240719.0000.00_14.0_cn_9051518657.tgz",
+					"ctelecom": "rembrandt_images_OS1.0.6.0.UMMCNXM_20240719.0000.00_14.0_cn_chinatelecom_75e605f23a.tgz"
 				},
 				"OS1.0.3.0.UMMCNXM": {
 					"os": "OS1.0.3.0.UMMCNXM",
 					"android": "14.0",
 					"release": "2024-05-09",
 					"recovery": "miui_REMBRANDT_OS1.0.3.0.UMMCNXM_3bb9158b29_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.3.0.UMMCNXM_20240506.0000.00_14.0_cn_507ad95512.tgz"
+					"fastboot": "rembrandt_images_OS1.0.3.0.UMMCNXM_20240506.0000.00_14.0_cn_507ad95512.tgz",
+					"ctelecom": "rembrandt_images_OS1.0.3.0.UMMCNXM_20240506.0000.00_14.0_cn_chinatelecom_95e861466d.tgz"
 				},
 				"OS1.0.1.0.UMMCNXM": {
 					"os": "OS1.0.1.0.UMMCNXM",
 					"android": "14.0",
 					"release": "2024-04-08",
 					"recovery": "miui_REMBRANDT_OS1.0.1.0.UMMCNXM_72da128d65_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.1.0.UMMCNXM_20240326.0000.00_14.0_cn_8e8629d5d1.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "rembrandt",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K60E",
-        "en" :"Redmi K60E"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.9.0.UMMCNXM": {
-					"os": "OS1.0.9.0.UMMCNXM",
-					"android": "14.0",
-					"release": "2024-09-29",
-					"recovery": "miui_REMBRANDT_OS1.0.9.0.UMMCNXM_cabc27c4ab_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.9.0.UMMCNXM_20240923.0000.00_14.0_cn_chinatelecom_d234a97f86.tgz"
-				},
-				"OS1.0.8.0.UMMCNXM": {
-					"os": "OS1.0.8.0.UMMCNXM",
-					"android": "14.0",
-					"release": "2024-09-04",
-					"recovery": "miui_REMBRANDT_OS1.0.8.0.UMMCNXM_53d170c2d4_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.8.0.UMMCNXM_20240828.0000.00_14.0_cn_chinatelecom_6456d429f9.tgz"
-				},
-				"OS1.0.6.0.UMMCNXM": {
-					"os": "OS1.0.6.0.UMMCNXM",
-					"android": "14.0",
-					"release": "2024-07-30",
-					"recovery": "miui_REMBRANDT_OS1.0.6.0.UMMCNXM_8ed8d81fcc_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.6.0.UMMCNXM_20240719.0000.00_14.0_cn_chinatelecom_75e605f23a.tgz"
-				},
-				"OS1.0.3.0.UMMCNXM": {
-					"os": "OS1.0.3.0.UMMCNXM",
-					"android": "14.0",
-					"release": "2024-05-09",
-					"recovery": "miui_REMBRANDT_OS1.0.3.0.UMMCNXM_3bb9158b29_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.3.0.UMMCNXM_20240506.0000.00_14.0_cn_chinatelecom_95e861466d.tgz"
-				},
-				"OS1.0.1.0.UMMCNXM": {
-					"os": "OS1.0.1.0.UMMCNXM",
-					"android": "14.0",
-					"release": "2024-04-08",
-					"recovery": "miui_REMBRANDT_OS1.0.1.0.UMMCNXM_72da128d65_14.0.zip",
-					"fastboot": "rembrandt_images_OS1.0.1.0.UMMCNXM_20240326.0000.00_14.0_cn_chinatelecom_25c1ff12e5.tgz"
+					"fastboot": "rembrandt_images_OS1.0.1.0.UMMCNXM_20240326.0000.00_14.0_cn_8e8629d5d1.tgz",
+					"ctelecom": "rembrandt_images_OS1.0.1.0.UMMCNXM_20240326.0000.00_14.0_cn_chinatelecom_25c1ff12e5.tgz"
 				}
 			}
 		}

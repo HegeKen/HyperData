@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,91 +32,40 @@
 					"android": "14.0",
 					"release": "2024-10-10",
 					"recovery": "miui_GOKU_OS1.0.13.0.UNVCNXM_fb1ecb5403_14.0.zip",
-					"fastboot": "goku_images_OS1.0.13.0.UNVCNXM_20240929.0000.00_14.0_cn_036d62f4fa.tgz"
+					"fastboot": "goku_images_OS1.0.13.0.UNVCNXM_20240929.0000.00_14.0_cn_036d62f4fa.tgz",
+					"ctelecom": "goku_images_OS1.0.13.0.UNVCNXM_20240929.0000.00_14.0_cn_chinatelecom_ae0a5c35fc.tgz"
 				},
 				"OS1.0.11.0.UNVCNXM": {
 					"os": "OS1.0.11.0.UNVCNXM",
 					"android": "14.0",
 					"release": "2024-09-06",
 					"recovery": "miui_GOKU_OS1.0.11.0.UNVCNXM_d6db9703d1_14.0.zip",
-					"fastboot": "goku_images_OS1.0.11.0.UNVCNXM_20240829.0000.00_14.0_cn_8815210682.tgz"
+					"fastboot": "goku_images_OS1.0.11.0.UNVCNXM_20240829.0000.00_14.0_cn_8815210682.tgz",
+					"ctelecom": "goku_images_OS1.0.11.0.UNVCNXM_20240829.0000.00_14.0_cn_chinatelecom_4bdcceb6f0.tgz"
 				},
 				"OS1.0.9.0.UNVCNXM": {
 					"os": "OS1.0.9.0.UNVCNXM",
 					"android": "14.0",
 					"release": "2024-08-01",
 					"recovery": "miui_GOKU_OS1.0.9.0.UNVCNXM_3b46da1b28_14.0.zip",
-					"fastboot": "goku_images_OS1.0.9.0.UNVCNXM_20240731.0000.00_14.0_cn_a915400c02.tgz"
+					"fastboot": "goku_images_OS1.0.9.0.UNVCNXM_20240731.0000.00_14.0_cn_a915400c02.tgz",
+					"ctelecom": "goku_images_OS1.0.9.0.UNVCNXM_20240731.0000.00_14.0_cn_chinatelecom_0cb8598738.tgz"
 				},
 				"OS1.0.8.0.UNVCNXM": {
 					"os": "OS1.0.8.0.UNVCNXM",
 					"android": "14.0",
 					"release": "2024-07-22",
 					"recovery": "miui_GOKU_OS1.0.8.0.UNVCNXM_17508372ba_14.0.zip",
-					"fastboot": "goku_images_OS1.0.8.0.UNVCNXM_20240717.0000.00_14.0_cn_c4afed92e5.tgz"
+					"fastboot": "goku_images_OS1.0.8.0.UNVCNXM_20240717.0000.00_14.0_cn_c4afed92e5.tgz",
+					"ctelecom": "goku_images_OS1.0.8.0.UNVCNXM_20240717.0000.00_14.0_cn_chinatelecom_ae6e7fab03.tgz"
 				},
 				"OS1.0.7.0.UNVCNXM": {
 					"os": "OS1.0.7.0.UNVCNXM",
 					"android": "14.0",
 					"release": "2024-07-19",
 					"recovery": "miui_GOKU_OS1.0.7.0.UNVCNXM_72a459b259_14.0.zip",
-					"fastboot": "goku_images_OS1.0.7.0.UNVCNXM_20240713.0000.00_14.0_cn_f34c3429c8.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "goku",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Fold 4",
-        "en" :"Xiaomi MIX Fold 4"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.13.0.UNVCNXM": {
-					"os": "OS1.0.13.0.UNVCNXM",
-					"android": "14.0",
-					"release": "2024-10-10",
-					"recovery": "miui_GOKU_OS1.0.13.0.UNVCNXM_fb1ecb5403_14.0.zip",
-					"fastboot": "goku_images_OS1.0.13.0.UNVCNXM_20240929.0000.00_14.0_cn_chinatelecom_ae0a5c35fc.tgz"
-				},
-				"OS1.0.11.0.UNVCNXM": {
-					"os": "OS1.0.11.0.UNVCNXM",
-					"android": "14.0",
-					"release": "2024-09-06",
-					"recovery": "miui_GOKU_OS1.0.11.0.UNVCNXM_d6db9703d1_14.0.zip",
-					"fastboot": "goku_images_OS1.0.11.0.UNVCNXM_20240829.0000.00_14.0_cn_chinatelecom_4bdcceb6f0.tgz"
-				},
-				"OS1.0.9.0.UNVCNXM": {
-					"os": "OS1.0.9.0.UNVCNXM",
-					"android": "14.0",
-					"release": "2024-08-01",
-					"recovery": "miui_GOKU_OS1.0.9.0.UNVCNXM_3b46da1b28_14.0.zip",
-					"fastboot": "goku_images_OS1.0.9.0.UNVCNXM_20240731.0000.00_14.0_cn_chinatelecom_0cb8598738.tgz"
-				},
-				"OS1.0.8.0.UNVCNXM": {
-					"os": "OS1.0.8.0.UNVCNXM",
-					"android": "14.0",
-					"release": "2024-07-22",
-					"recovery": "miui_GOKU_OS1.0.8.0.UNVCNXM_17508372ba_14.0.zip",
-					"fastboot": "goku_images_OS1.0.8.0.UNVCNXM_20240717.0000.00_14.0_cn_chinatelecom_ae6e7fab03.tgz"
-				},
-				"OS1.0.7.0.UNVCNXM": {
-					"os": "OS1.0.7.0.UNVCNXM",
-					"android": "14.0",
-					"release": "2024-07-19",
-					"recovery": "miui_GOKU_OS1.0.7.0.UNVCNXM_72a459b259_14.0.zip",
-					"fastboot": "goku_images_OS1.0.7.0.UNVCNXM_20240713.0000.00_14.0_cn_chinatelecom_a39041acfd.tgz"
+					"fastboot": "goku_images_OS1.0.7.0.UNVCNXM_20240713.0000.00_14.0_cn_f34c3429c8.tgz",
+					"ctelecom": "goku_images_OS1.0.7.0.UNVCNXM_20240713.0000.00_14.0_cn_chinatelecom_a39041acfd.tgz"
 				}
 			}
 		},
@@ -132,6 +82,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -161,6 +112,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],

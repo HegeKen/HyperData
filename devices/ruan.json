@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,77 +32,32 @@
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_RUAN_OS1.0.6.0.UFSCNXM_880cc8d4ec_14.0.zip",
-					"fastboot": "ruan_images_OS1.0.6.0.UFSCNXM_20240912.0000.00_14.0_cn_0d3d2676b6.tgz"
+					"fastboot": "ruan_images_OS1.0.6.0.UFSCNXM_20240912.0000.00_14.0_cn_0d3d2676b6.tgz",
+					"ctelecom": "ruan_images_OS1.0.6.0.UFSCNXM_20240912.0000.00_14.0_cn_chinatelecom_547f8ff678.tgz"
 				},
 				"OS1.0.5.0.UFSCNXM": {
 					"os": "OS1.0.5.0.UFSCNXM",
 					"android": "14.0",
 					"release": "2024-08-24",
 					"recovery": "miui_RUAN_OS1.0.5.0.UFSCNXM_2d02628c94_14.0.zip",
-					"fastboot": "ruan_images_OS1.0.5.0.UFSCNXM_20240820.0000.00_14.0_cn_30cfa16b1b.tgz"
+					"fastboot": "ruan_images_OS1.0.5.0.UFSCNXM_20240820.0000.00_14.0_cn_30cfa16b1b.tgz",
+					"ctelecom": "ruan_images_OS1.0.5.0.UFSCNXM_20240820.0000.00_14.0_cn_chinatelecom_e5163e67bd.tgz"
 				},
 				"OS1.0.3.0.UFSCNXM": {
 					"os": "OS1.0.3.0.UFSCNXM",
 					"android": "14.0",
 					"release": "2024-07-05",
 					"recovery": "miui_RUAN_OS1.0.3.0.UFSCNXM_5885e36f01_14.0.zip",
-					"fastboot": "ruan_images_OS1.0.3.0.UFSCNXM_20240624.0000.00_14.0_cn_ce537fd690.tgz"
+					"fastboot": "ruan_images_OS1.0.3.0.UFSCNXM_20240624.0000.00_14.0_cn_ce537fd690.tgz",
+					"ctelecom": "ruan_images_OS1.0.3.0.UFSCNXM_20240624.0000.00_14.0_cn_chinatelecom_1cfcddf080.tgz"
 				},
 				"OS1.0.1.0.UFSCNXM": {
 					"os": "OS1.0.1.0.UFSCNXM",
 					"android": "14.0",
 					"release": "2024-06-18",
 					"recovery": "miui_RUAN_OS1.0.1.0.UFSCNXM_f6954db9bc_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "ruan",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Pad Pro 5G",
-        "en" :"Redmi Pad Pro 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.UFSCNXM": {
-					"os": "OS1.0.6.0.UFSCNXM",
-					"android": "14.0",
-					"release": "2024-09-23",
-					"recovery": "miui_RUAN_OS1.0.6.0.UFSCNXM_880cc8d4ec_14.0.zip",
-					"fastboot": "ruan_images_OS1.0.6.0.UFSCNXM_20240912.0000.00_14.0_cn_chinatelecom_547f8ff678.tgz"
-				},
-				"OS1.0.5.0.UFSCNXM": {
-					"os": "OS1.0.5.0.UFSCNXM",
-					"android": "14.0",
-					"release": "2024-08-24",
-					"recovery": "miui_RUAN_OS1.0.5.0.UFSCNXM_2d02628c94_14.0.zip",
-					"fastboot": "ruan_images_OS1.0.5.0.UFSCNXM_20240820.0000.00_14.0_cn_chinatelecom_e5163e67bd.tgz"
-				},
-				"OS1.0.3.0.UFSCNXM": {
-					"os": "OS1.0.3.0.UFSCNXM",
-					"android": "14.0",
-					"release": "2024-07-05",
-					"recovery": "miui_RUAN_OS1.0.3.0.UFSCNXM_5885e36f01_14.0.zip",
-					"fastboot": "ruan_images_OS1.0.3.0.UFSCNXM_20240624.0000.00_14.0_cn_chinatelecom_1cfcddf080.tgz"
-				},
-				"OS1.0.1.0.UFSCNXM": {
-					"os": "OS1.0.1.0.UFSCNXM",
-					"android": "14.0",
-					"release": "2024-06-18",
-					"recovery": "miui_RUAN_OS1.0.1.0.UFSCNXM_f6954db9bc_14.0.zip",
-					"fastboot": "ruan_images_OS1.0.1.0.UFSCNXM_20240517.0000.00_14.0_cn_chinatelecom_811ce8e606.tgz"
+					"fastboot": "",
+					"ctelecom": "ruan_images_OS1.0.1.0.UFSCNXM_20240517.0000.00_14.0_cn_chinatelecom_811ce8e606.tgz"
 				}
 			}
 		},
@@ -118,6 +74,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -147,6 +104,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -176,6 +134,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -218,6 +177,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -267,6 +227,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -309,6 +270,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",

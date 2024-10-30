@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,77 +32,32 @@
 					"android": "14.0",
 					"release": "2024-08-14",
 					"recovery": "miui_SHENNONGT_OS1.0.7.0.UNDCNXM_4b29ecc269_14.0.zip",
-					"fastboot": "shennong_t_images_OS1.0.7.0.UNDCNXM_20240801.0000.00_14.0_cn_15a5d94034.tgz"
+					"fastboot": "shennong_t_images_OS1.0.7.0.UNDCNXM_20240801.0000.00_14.0_cn_15a5d94034.tgz",
+					"ctelecom": "shennong_t_images_OS1.0.7.0.UNDCNXM_20240801.0000.00_14.0_cn_chinatelecom_2613f8e7f8.tgz"
 				},
 				"OS1.0.5.0.UNDCNXM": {
 					"os": "OS1.0.5.0.UNDCNXM",
 					"android": "14.0",
 					"release": "2024-06-29",
 					"recovery": "miui_SHENNONGT_OS1.0.5.0.UNDCNXM_85ab142ff8_14.0.zip",
-					"fastboot": "shennong_t_images_OS1.0.5.0.UNDCNXM_20240627.0000.00_14.0_cn_2047dd5f15.tgz"
+					"fastboot": "shennong_t_images_OS1.0.5.0.UNDCNXM_20240627.0000.00_14.0_cn_2047dd5f15.tgz",
+					"ctelecom": "shennong_t_images_OS1.0.5.0.UNDCNXM_20240627.0000.00_14.0_cn_chinatelecom_47c97aa4a5.tgz"
 				},
 				"OS1.0.3.0.UNDCNXM": {
 					"os": "OS1.0.3.0.UNDCNXM",
 					"android": "14.0",
 					"release": "2024-03-20",
 					"recovery": "miui_SHENNONGT_OS1.0.3.0.UNDCNXM_bab6d895b9_14.0.zip",
-					"fastboot": "shennong_t_images_OS1.0.3.0.UNDCNXM_20240223.0000.00_14.0_cn_7753e6d2f6.tgz"
+					"fastboot": "shennong_t_images_OS1.0.3.0.UNDCNXM_20240223.0000.00_14.0_cn_7753e6d2f6.tgz",
+					"ctelecom": "shennong_t_images_OS1.0.3.0.UNDCNXM_20240223.0000.00_14.0_cn_chinatelecom_0df2a321ae.tgz"
 				},
 				"OS1.0.2.0.UNDCNXM": {
 					"os": "OS1.0.2.0.UNDCNXM",
 					"android": "14.0",
 					"release": "2024-02-27",
 					"recovery": "miui_SHENNONGT_OS1.0.2.0.UNDCNXM_3036941359_14.0.zip",
-					"fastboot": "shennong_t_images_OS1.0.2.0.UNDCNXM_20240126.0000.00_14.0_cn_a773221614.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "shennong_t",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Pro 钛金属卫星通讯版",
-        "en" :"Xiaomi 14 Pro Ti Satellite"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.7.0.UNDCNXM": {
-					"os": "OS1.0.7.0.UNDCNXM",
-					"android": "14.0",
-					"release": "2024-08-14",
-					"recovery": "miui_SHENNONGT_OS1.0.7.0.UNDCNXM_4b29ecc269_14.0.zip",
-					"fastboot": "shennong_t_images_OS1.0.7.0.UNDCNXM_20240801.0000.00_14.0_cn_chinatelecom_2613f8e7f8.tgz"
-				},
-				"OS1.0.5.0.UNDCNXM": {
-					"os": "OS1.0.5.0.UNDCNXM",
-					"android": "14.0",
-					"release": "2024-06-29",
-					"recovery": "miui_SHENNONGT_OS1.0.5.0.UNDCNXM_85ab142ff8_14.0.zip",
-					"fastboot": "shennong_t_images_OS1.0.5.0.UNDCNXM_20240627.0000.00_14.0_cn_chinatelecom_47c97aa4a5.tgz"
-				},
-				"OS1.0.3.0.UNDCNXM": {
-					"os": "OS1.0.3.0.UNDCNXM",
-					"android": "14.0",
-					"release": "2024-03-20",
-					"recovery": "miui_SHENNONGT_OS1.0.3.0.UNDCNXM_bab6d895b9_14.0.zip",
-					"fastboot": "shennong_t_images_OS1.0.3.0.UNDCNXM_20240223.0000.00_14.0_cn_chinatelecom_0df2a321ae.tgz"
-				},
-				"OS1.0.2.0.UNDCNXM": {
-					"os": "OS1.0.2.0.UNDCNXM",
-					"android": "14.0",
-					"release": "2024-02-27",
-					"recovery": "miui_SHENNONGT_OS1.0.2.0.UNDCNXM_3036941359_14.0.zip",
-					"fastboot": "shennong_t_images_OS1.0.2.0.UNDCNXM_20240126.0000.00_14.0_cn_chinatelecom_0c4f8d0843.tgz"
+					"fastboot": "shennong_t_images_OS1.0.2.0.UNDCNXM_20240126.0000.00_14.0_cn_a773221614.tgz",
+					"ctelecom": "shennong_t_images_OS1.0.2.0.UNDCNXM_20240126.0000.00_14.0_cn_chinatelecom_0c4f8d0843.tgz"
 				}
 			}
 		}

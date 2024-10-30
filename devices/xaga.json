@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,90 +32,40 @@
 					"android": "14.0",
 					"release": "2024-09-28",
 					"recovery": "miui_XAGA_OS1.0.5.0.ULOCNXM_7c181e4a9c_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.5.0.ULOCNXM_20240911.0000.00_14.0_cn_14e7db10ed.tgz"
+					"fastboot": "xaga_images_OS1.0.5.0.ULOCNXM_20240911.0000.00_14.0_cn_14e7db10ed.tgz",
+					"ctelecom": "xaga_images_OS1.0.5.0.ULOCNXM_20240911.0000.00_14.0_cn_chinatelecom_d0cfb70f26.tgz"
 				},
 				"OS1.0.4.0.ULOCNXM": {
 					"os": "OS1.0.4.0.ULOCNXM",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_XAGA_OS1.0.4.0.ULOCNXM_4bdde56761_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.4.0.ULOCNXM_20240814.0000.00_14.0_cn_b04ec9ba09.tgz"
+					"fastboot": "xaga_images_OS1.0.4.0.ULOCNXM_20240814.0000.00_14.0_cn_b04ec9ba09.tgz",
+					"ctelecom": "xaga_images_OS1.0.4.0.ULOCNXM_20240814.0000.00_14.0_cn_chinatelecom_3315828a14.tgz"
 				},
 				"OS1.0.3.0.ULOCNXM": {
 					"os": "OS1.0.3.0.ULOCNXM",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_XAGA_OS1.0.3.0.ULOCNXM_ddae354606_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.3.0.ULOCNXM_20240718.0000.00_14.0_cn_ef7e6e0479.tgz"
+					"fastboot": "xaga_images_OS1.0.3.0.ULOCNXM_20240718.0000.00_14.0_cn_ef7e6e0479.tgz",
+					"ctelecom": "xaga_images_OS1.0.3.0.ULOCNXM_20240718.0000.00_14.0_cn_chinatelecom_f99792ba35.tgz"
 				},
 				"OS1.0.2.0.ULOCNXM": {
 					"os": "OS1.0.2.0.ULOCNXM",
 					"android": "14.0",
 					"release": "2024-05-21",
 					"recovery": "miui_XAGA_OS1.0.2.0.ULOCNXM_9608f85b60_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.2.0.ULOCNXM_20240515.0000.00_14.0_cn_dd1c96b26b.tgz"
+					"fastboot": "xaga_images_OS1.0.2.0.ULOCNXM_20240515.0000.00_14.0_cn_dd1c96b26b.tgz",
+					"ctelecom": "xaga_images_OS1.0.2.0.ULOCNXM_20240515.0000.00_14.0_cn_chinatelecom_d994c198c9.tgz"
 				},
 				"OS1.0.1.0.ULOCNXM": {
 					"os": "OS1.0.1.0.ULOCNXM",
 					"android": "14.0",
 					"release": "2024-04-10",
 					"recovery": "miui_XAGA_OS1.0.1.0.ULOCNXM_445b22a793_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_b092ef90cf.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "xaga",
-			"device": {
-        "zh" :"Redmi Note 11T Pro / Pro+",
-        "en" :"Redmi Note 11T Pro / Pro+"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.5.0.ULOCNXM": {
-					"os": "OS1.0.5.0.ULOCNXM",
-					"android": "14.0",
-					"release": "2024-09-28",
-					"recovery": "miui_XAGA_OS1.0.5.0.ULOCNXM_7c181e4a9c_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.5.0.ULOCNXM_20240911.0000.00_14.0_cn_chinatelecom_d0cfb70f26.tgz"
-				},
-				"OS1.0.4.0.ULOCNXM": {
-					"os": "OS1.0.4.0.ULOCNXM",
-					"android": "14.0",
-					"release": "2024-08-27",
-					"recovery": "miui_XAGA_OS1.0.4.0.ULOCNXM_4bdde56761_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.4.0.ULOCNXM_20240814.0000.00_14.0_cn_chinatelecom_3315828a14.tgz"
-				},
-				"OS1.0.3.0.ULOCNXM": {
-					"os": "OS1.0.3.0.ULOCNXM",
-					"android": "14.0",
-					"release": "2024-07-30",
-					"recovery": "miui_XAGA_OS1.0.3.0.ULOCNXM_ddae354606_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.3.0.ULOCNXM_20240718.0000.00_14.0_cn_chinatelecom_f99792ba35.tgz"
-				},
-				"OS1.0.2.0.ULOCNXM": {
-					"os": "OS1.0.2.0.ULOCNXM",
-					"android": "14.0",
-					"release": "2024-05-21",
-					"recovery": "miui_XAGA_OS1.0.2.0.ULOCNXM_9608f85b60_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.2.0.ULOCNXM_20240515.0000.00_14.0_cn_chinatelecom_d994c198c9.tgz"
-				},
-				"OS1.0.1.0.ULOCNXM": {
-					"os": "OS1.0.1.0.ULOCNXM",
-					"android": "14.0",
-					"release": "2024-04-10",
-					"recovery": "miui_XAGA_OS1.0.1.0.ULOCNXM_445b22a793_14.0.zip",
-					"fastboot": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_chinatelecom_d86a299617.tgz"
+					"fastboot": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_b092ef90cf.tgz",
+					"ctelecom": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_chinatelecom_d86a299617.tgz"
 				}
 			}
 		},
@@ -131,6 +82,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -180,6 +132,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -236,6 +189,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -292,6 +246,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -341,6 +296,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -390,6 +346,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

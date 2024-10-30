@@ -20,6 +20,7 @@
       },
 			"idtag": "Dev",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -251,6 +252,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -300,6 +302,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -311,8 +314,7 @@
 					"android": "14.0",
 					"release": "2024-04-09",
 					"recovery": "miui_DAGUEPSTDEE_OS1.0.24.3.25.EP.STDEE.L81A_830a671983_14.0.zip",
-					"fastboot": "dagu_ep_stdee_images_OS1.0.24.3.25.EP.STDEE.L81A_20240325.0000.00_14.0_cn_3c990fc22c.tgz",
-					"ctelecom": ""
+					"fastboot": "dagu_ep_stdee_images_OS1.0.24.3.25.EP.STDEE.L81A_20240325.0000.00_14.0_cn_3c990fc22c.tgz"
 				}
 			}
 		}

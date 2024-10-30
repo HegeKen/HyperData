@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,56 +32,24 @@
 					"android": "13.0",
 					"release": "2024-06-12",
 					"recovery": "miui_THYME_OS1.0.4.0.TGACNXM_80dbab1cd4_13.0.zip",
-					"fastboot": "thyme_images_OS1.0.4.0.TGACNXM_20240605.0000.00_13.0_cn_778cda4301.tgz"
+					"fastboot": "thyme_images_OS1.0.4.0.TGACNXM_20240605.0000.00_13.0_cn_778cda4301.tgz",
+					"ctelecom": "thyme_images_OS1.0.4.0.TGACNXM_20240605.0000.00_13.0_cn_chinatelecom_ef4d2bd339.tgz"
 				},
 				"OS1.0.3.0.TGACNXM": {
 					"os": "OS1.0.3.0.TGACNXM",
 					"android": "13.0",
 					"release": "2024-04-22",
 					"recovery": "miui_THYME_OS1.0.3.0.TGACNXM_944261b3df_13.0.zip",
-					"fastboot": "thyme_images_OS1.0.3.0.TGACNXM_20240418.0000.00_13.0_cn_7cb28c5fcb.tgz"
+					"fastboot": "thyme_images_OS1.0.3.0.TGACNXM_20240418.0000.00_13.0_cn_7cb28c5fcb.tgz",
+					"ctelecom": "thyme_images_OS1.0.3.0.TGACNXM_20240418.0000.00_13.0_cn_chinatelecom_bae1b27c11.tgz"
 				},
 				"OS1.0.2.0.TGACNXM": {
 					"os": "OS1.0.2.0.TGACNXM",
 					"android": "13.0",
 					"release": "2024-04-15",
 					"recovery": "miui_THYME_OS1.0.2.0.TGACNXM_8836a5bf04_13.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "thyme",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10S",
-        "en" :"Mi 10S"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.4.0.TGACNXM": {
-					"os": "OS1.0.4.0.TGACNXM",
-					"android": "13.0",
-					"release": "2024-06-12",
-					"recovery": "miui_THYME_OS1.0.4.0.TGACNXM_80dbab1cd4_13.0.zip",
-					"fastboot": "thyme_images_OS1.0.4.0.TGACNXM_20240605.0000.00_13.0_cn_chinatelecom_ef4d2bd339.tgz"
-				},
-				"OS1.0.3.0.TGACNXM": {
-					"os": "OS1.0.3.0.TGACNXM",
-					"android": "13.0",
-					"release": "2024-04-22",
-					"recovery": "miui_THYME_OS1.0.3.0.TGACNXM_944261b3df_13.0.zip",
-					"fastboot": "thyme_images_OS1.0.3.0.TGACNXM_20240418.0000.00_13.0_cn_chinatelecom_bae1b27c11.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		}

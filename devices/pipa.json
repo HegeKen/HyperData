@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -90,6 +91,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -101,8 +103,7 @@
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_PIPAEPSTDEE_OS1.0.24.4.11.EP.STDEE.M82_4dea0d780c_14.0.zip",
-					"fastboot": "pipa_ep_stdee_images_OS1.0.24.4.11.EP.STDEE.M82_20240411.0000.00_14.0_cn_7d7a9eaa8b.tgz",
-					"ctelecom": ""
+					"fastboot": "pipa_ep_stdee_images_OS1.0.24.4.11.EP.STDEE.M82_20240411.0000.00_14.0_cn_7d7a9eaa8b.tgz"
 				}
 			}
 		},
@@ -119,6 +120,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -130,8 +132,7 @@
 					"android": "14.0",
 					"release": "2023-12-19",
 					"recovery": "miui_PIPADEMO_OS1.0.2.0.UMZCNDM_a663b5c25d_14.0.zip",
-					"fastboot": "pipa_demo_images_OS1.0.2.0.UMZCNDM_20231219.0000.00_14.0_cn_511733fd2d.tgz",
-					"ctelecom": ""
+					"fastboot": "pipa_demo_images_OS1.0.2.0.UMZCNDM_20231219.0000.00_14.0_cn_511733fd2d.tgz"
 				}
 			}
 		},
@@ -148,6 +149,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -218,6 +220,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -288,6 +291,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -365,6 +369,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -442,6 +447,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -512,6 +518,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -582,6 +589,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

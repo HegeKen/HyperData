@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
 			"carrier": ["", "chinaunicom"],
 			"region": "cn",
@@ -31,126 +32,36 @@
 					"android": "13.0",
 					"release": "2024-09-30",
 					"recovery": "miui_VEUX_OS1.0.6.0.TKCCNXM_88d498f7d0_13.0.zip",
-					"fastboot": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_abbd4cf66b.tgz"
+					"fastboot": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_abbd4cf66b.tgz",
+					"ctelecom": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_chinatelecom_373769da29.tgz",
+					"cnmobile": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_chinamobile_316212fbcb.tgz"
 				},
 				"OS1.0.4.0.TKCCNXM": {
 					"os": "OS1.0.4.0.TKCCNXM",
 					"android": "13.0",
 					"release": "2024-08-26",
 					"recovery": "miui_VEUX_OS1.0.4.0.TKCCNXM_09e1752d4b_13.0.zip",
-					"fastboot": "veux_images_OS1.0.4.0.TKCCNXM_20240813.0000.00_13.0_cn_32d2f1d6b6.tgz"
+					"fastboot": "veux_images_OS1.0.4.0.TKCCNXM_20240813.0000.00_13.0_cn_32d2f1d6b6.tgz",
+					"ctelecom": "veux_images_OS1.0.4.0.TKCCNXM_20240813.0000.00_13.0_cn_chinatelecom_e32ce4672b.tgz",
+					"cnmobile": "veux_images_OS1.0.4.0.TKCCNXM_20240813.0000.00_13.0_cn_chinamobile_16e91afc91.tgz"
 				},
 				"OS1.0.3.0.TKCCNXM": {
 					"os": "OS1.0.3.0.TKCCNXM",
 					"android": "13.0",
 					"release": "2024-08-13",
 					"recovery": "miui_VEUX_OS1.0.3.0.TKCCNXM_56f027a68b_13.0.zip",
-					"fastboot": "veux_images_OS1.0.3.0.TKCCNXM_20240801.0000.00_13.0_cn_d383f5805e.tgz"
+					"fastboot": "veux_images_OS1.0.3.0.TKCCNXM_20240801.0000.00_13.0_cn_d383f5805e.tgz",
+					"ctelecom": "veux_images_OS1.0.3.0.TKCCNXM_20240801.0000.00_13.0_cn_chinatelecom_3d0633605c.tgz",
+					"cnmobile": "veux_images_OS1.0.3.0.TKCCNXM_20240801.0000.00_13.0_cn_chinamobile_f1d8ff6c63.tgz"
 				},
 				"OS1.0.1.0.TKCCNXM": {
 					"os": "OS1.0.1.0.TKCCNXM",
 					"android": "13.0",
 					"release": "2024-01-24",
 					"recovery": "miui_VEUX_OS1.0.1.0.TKCCNXM_ed2e1d34ba_13.0.zip",
-					"fastboot": "veux_images_OS1.0.1.0.TKCCNXM_20240220.0000.00_13.0_cn_126715efea.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "veux",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11E Pro",
-        "en" :"Redmi Note 11E Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.TKCCNXM": {
-					"os": "OS1.0.6.0.TKCCNXM",
-					"android": "13.0",
-					"release": "2024-09-30",
-					"recovery": "miui_VEUX_OS1.0.6.0.TKCCNXM_88d498f7d0_13.0.zip",
-					"fastboot": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_chinatelecom_373769da29.tgz"
-				},
-				"OS1.0.4.0.TKCCNXM": {
-					"os": "OS1.0.4.0.TKCCNXM",
-					"android": "13.0",
-					"release": "2024-08-26",
-					"recovery": "miui_VEUX_OS1.0.4.0.TKCCNXM_09e1752d4b_13.0.zip",
-					"fastboot": "veux_images_OS1.0.4.0.TKCCNXM_20240813.0000.00_13.0_cn_chinatelecom_e32ce4672b.tgz"
-				},
-				"OS1.0.3.0.TKCCNXM": {
-					"os": "OS1.0.3.0.TKCCNXM",
-					"android": "13.0",
-					"release": "2024-08-13",
-					"recovery": "miui_VEUX_OS1.0.3.0.TKCCNXM_56f027a68b_13.0.zip",
-					"fastboot": "veux_images_OS1.0.3.0.TKCCNXM_20240801.0000.00_13.0_cn_chinatelecom_3d0633605c.tgz"
-				},
-				"OS1.0.1.0.TKCCNXM": {
-					"os": "OS1.0.1.0.TKCCNXM",
-					"android": "13.0",
-					"release": "2024-01-24",
-					"recovery": "miui_VEUX_OS1.0.1.0.TKCCNXM_ed2e1d34ba_13.0.zip",
-					"fastboot": "veux_images_OS1.0.1.0.TKCCNXM_20240220.0000.00_13.0_cn_chinatelecom_f6f795b4ab.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国移动定制版",
-				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
-			},
-			"branchCode": "veux",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11E Pro",
-        "en" :"Redmi Note 11E Pro"
-      },
-			"idtag": "CnOM",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.TKCCNXM": {
-					"os": "OS1.0.6.0.TKCCNXM",
-					"android": "13.0",
-					"release": "2024-09-30",
-					"recovery": "miui_VEUX_OS1.0.6.0.TKCCNXM_88d498f7d0_13.0.zip",
-					"fastboot": "veux_images_OS1.0.6.0.TKCCNXM_20240913.0000.00_13.0_cn_chinamobile_316212fbcb.tgz"
-				},
-				"OS1.0.4.0.TKCCNXM": {
-					"os": "OS1.0.4.0.TKCCNXM",
-					"android": "13.0",
-					"release": "2024-08-26",
-					"recovery": "miui_VEUX_OS1.0.4.0.TKCCNXM_09e1752d4b_13.0.zip",
-					"fastboot": "veux_images_OS1.0.4.0.TKCCNXM_20240813.0000.00_13.0_cn_chinamobile_16e91afc91.tgz"
-				},
-				"OS1.0.3.0.TKCCNXM": {
-					"os": "OS1.0.3.0.TKCCNXM",
-					"android": "13.0",
-					"release": "2024-08-13",
-					"recovery": "miui_VEUX_OS1.0.3.0.TKCCNXM_56f027a68b_13.0.zip",
-					"fastboot": "veux_images_OS1.0.3.0.TKCCNXM_20240801.0000.00_13.0_cn_chinamobile_f1d8ff6c63.tgz"
-				},
-				"OS1.0.1.0.TKCCNXM": {
-					"os": "OS1.0.1.0.TKCCNXM",
-					"android": "13.0",
-					"release": "2024-01-24",
-					"recovery": "miui_VEUX_OS1.0.1.0.TKCCNXM_ed2e1d34ba_13.0.zip",
-					"fastboot": "veux_images_OS1.0.1.0.TKCCNXM_20240220.0000.00_13.0_cn_chinamobile_c2c9056747.tgz"
+					"fastboot": "veux_images_OS1.0.1.0.TKCCNXM_20240220.0000.00_13.0_cn_126715efea.tgz",
+					"ctelecom": "veux_images_OS1.0.1.0.TKCCNXM_20240220.0000.00_13.0_cn_chinatelecom_f6f795b4ab.tgz",
+					"cnmobile": "veux_images_OS1.0.1.0.TKCCNXM_20240220.0000.00_13.0_cn_chinamobile_c2c9056747.tgz"
 				}
 			}
 		},
@@ -167,6 +78,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -209,6 +121,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -265,6 +178,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -314,6 +228,7 @@
       },
 			"idtag": "EUHG",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["h3g"],
 			"region": "eea",
@@ -356,6 +271,7 @@
       },
 			"idtag": "EUTF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["tf"],
 			"region": "eea",
@@ -398,6 +314,7 @@
       },
 			"idtag": "EUVF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["vodafone"],
 			"region": "eea",
@@ -440,6 +357,7 @@
       },
 			"idtag": "EUBY",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["by"],
 			"region": "eea",
@@ -475,6 +393,7 @@
       },
 			"idtag": "EUOR",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["orange"],
 			"region": "eea",
@@ -517,6 +436,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -566,6 +486,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -622,6 +543,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -678,6 +600,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",
@@ -727,6 +650,7 @@
       },
 			"idtag": "MXAT",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["at"],
 			"region": "mx",
@@ -755,6 +679,7 @@
       },
 			"idtag": "CLEN",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["en"],
 			"region": "cl",
@@ -783,6 +708,7 @@
       },
 			"idtag": "JAPS",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "jp",

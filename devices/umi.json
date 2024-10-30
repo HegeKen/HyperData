@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
 			"carrier": ["", "chinaunicom"],
 			"region": "cn",
@@ -31,84 +32,18 @@
 					"android": "13.0",
 					"release": "2024-06-12",
 					"recovery": "miui_UMI_OS1.0.5.0.TJBCNXM_d01651ed86_13.0.zip",
-					"fastboot": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_9917250319.tgz"
+					"fastboot": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_9917250319.tgz",
+					"ctelecom": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_chinatelecom_2b10a7f130.tgz",
+					"cnmobile": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_chinamobile_a5960233c7.tgz"
 				},
 				"OS1.0.3.0.TJBCNXM": {
 					"os": "OS1.0.3.0.TJBCNXM",
 					"android": "13.0",
 					"release": "2024-04-15",
 					"recovery": "miui_UMI_OS1.0.3.0.TJBCNXM_ea86eb9a62_13.0.zip",
-					"fastboot": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_b616f9f481.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "umi",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.5.0.TJBCNXM": {
-					"os": "OS1.0.5.0.TJBCNXM",
-					"android": "13.0",
-					"release": "2024-06-12",
-					"recovery": "miui_UMI_OS1.0.5.0.TJBCNXM_d01651ed86_13.0.zip",
-					"fastboot": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_chinatelecom_2b10a7f130.tgz"
-				},
-				"OS1.0.3.0.TJBCNXM": {
-					"os": "OS1.0.3.0.TJBCNXM",
-					"android": "13.0",
-					"release": "2024-04-15",
-					"recovery": "miui_UMI_OS1.0.3.0.TJBCNXM_ea86eb9a62_13.0.zip",
-					"fastboot": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_chinatelecom_0523e6f745.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国移动定制版",
-				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
-			},
-			"branchCode": "umi",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
-			"idtag": "CnOM",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.5.0.TJBCNXM": {
-					"os": "OS1.0.5.0.TJBCNXM",
-					"android": "13.0",
-					"release": "2024-06-12",
-					"recovery": "miui_UMI_OS1.0.5.0.TJBCNXM_d01651ed86_13.0.zip",
-					"fastboot": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_chinamobile_a5960233c7.tgz"
-				},
-				"OS1.0.3.0.TJBCNXM": {
-					"os": "OS1.0.3.0.TJBCNXM",
-					"android": "13.0",
-					"release": "2024-04-15",
-					"recovery": "miui_UMI_OS1.0.3.0.TJBCNXM_ea86eb9a62_13.0.zip",
-					"fastboot": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_chinamobile_1b2aaef719.tgz"
+					"fastboot": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_b616f9f481.tgz",
+					"ctelecom": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_chinatelecom_0523e6f745.tgz",
+					"cnmobile": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_chinamobile_1b2aaef719.tgz"
 				}
 			}
 		},
@@ -125,6 +60,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -153,6 +89,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -181,6 +118,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -209,6 +147,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -237,6 +176,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -265,6 +205,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

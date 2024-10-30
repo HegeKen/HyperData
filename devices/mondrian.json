@@ -14,6 +14,7 @@
 			},
 			"branchCode": "mondrian",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"brand": "Redmi",
       "device": {
         "zh" :"Redmi K60",
@@ -300,8 +301,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -311,147 +313,80 @@
 					"android": "14.0",
 					"release": "2024-10-17",
 					"recovery": "miui_MONDRIAN_OS1.0.14.0.UMNCNXM_9e16fa6bce_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.13.0.UMNCNXM": {
 					"os": "OS1.0.13.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_MONDRIAN_OS1.0.13.0.UMNCNXM_c7edb14af5_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.13.0.UMNCNXM_20240905.0000.00_14.0_cn_93ebb25b5b.tgz"
+					"fastboot": "mondrian_images_OS1.0.13.0.UMNCNXM_20240905.0000.00_14.0_cn_93ebb25b5b.tgz",
+					"ctelecom": "mondrian_images_OS1.0.13.0.UMNCNXM_20240905.0000.00_14.0_cn_chinatelecom_1d9cb63f83.tgz"
 				},
 				"OS1.0.12.0.UMNCNXM": {
 					"os": "OS1.0.12.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_MONDRIAN_OS1.0.12.0.UMNCNXM_738baea10c_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.12.0.UMNCNXM_20240805.0000.00_14.0_cn_b5fde7122d.tgz"
+					"fastboot": "mondrian_images_OS1.0.12.0.UMNCNXM_20240805.0000.00_14.0_cn_b5fde7122d.tgz",
+					"ctelecom": "mondrian_images_OS1.0.12.0.UMNCNXM_20240805.0000.00_14.0_cn_chinatelecom_69de1792d8.tgz"
 				},
 				"OS1.0.10.0.UMNCNXM": {
 					"os": "OS1.0.10.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_MONDRIAN_OS1.0.10.0.UMNCNXM_544e8eda24_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.10.0.UMNCNXM_20240722.0000.00_14.0_cn_7c1c6157be.tgz"
+					"fastboot": "mondrian_images_OS1.0.10.0.UMNCNXM_20240722.0000.00_14.0_cn_7c1c6157be.tgz",
+					"ctelecom": "mondrian_images_OS1.0.10.0.UMNCNXM_20240722.0000.00_14.0_cn_chinatelecom_5b6ba524f9.tgz"
 				},
 				"OS1.0.8.0.UMNCNXM": {
 					"os": "OS1.0.8.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2024-05-24",
 					"recovery": "miui_MONDRIAN_OS1.0.8.0.UMNCNXM_a1d4b475b7_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.8.0.UMNCNXM_20240513.0000.00_14.0_cn_8218b4c940.tgz"
+					"fastboot": "mondrian_images_OS1.0.8.0.UMNCNXM_20240513.0000.00_14.0_cn_8218b4c940.tgz",
+					"ctelecom": "mondrian_images_OS1.0.8.0.UMNCNXM_20240513.0000.00_14.0_cn_chinatelecom_b9b864cefd.tgz"
 				},
 				"OS1.0.7.0.UMNCNXM": {
 					"os": "OS1.0.7.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2024-05-13",
 					"recovery": "miui_MONDRIAN_OS1.0.7.0.UMNCNXM_f5c6d87f01_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.7.0.UMNCNXM_20240506.0000.00_14.0_cn_1f346d7ef3.tgz"
+					"fastboot": "mondrian_images_OS1.0.7.0.UMNCNXM_20240506.0000.00_14.0_cn_1f346d7ef3.tgz",
+					"ctelecom": "mondrian_images_OS1.0.7.0.UMNCNXM_20240506.0000.00_14.0_cn_chinatelecom_bba95d95b7.tgz"
 				},
 				"OS1.0.6.0.UMNCNXM": {
 					"os": "OS1.0.6.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2024-02-18",
 					"recovery": "miui_MONDRIAN_OS1.0.6.0.UMNCNXM_132cb79b18_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.6.0.UMNCNXM_20240201.0000.00_14.0_cn_400a7fc466.tgz"
+					"fastboot": "mondrian_images_OS1.0.6.0.UMNCNXM_20240201.0000.00_14.0_cn_400a7fc466.tgz",
+					"ctelecom": "mondrian_images_OS1.0.6.0.UMNCNXM_20240201.0000.00_14.0_cn_chinatelecom_37876eb63e.tgz"
 				},
 				"OS1.0.4.0.UMNCNXM": {
 					"os": "OS1.0.4.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2024-01-09",
 					"recovery": "miui_MONDRIAN_OS1.0.4.0.UMNCNXM_cde1668ca2_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.4.0.UMNCNXM_20240105.0000.00_14.0_cn_1932c8d666.tgz"
+					"fastboot": "mondrian_images_OS1.0.4.0.UMNCNXM_20240105.0000.00_14.0_cn_1932c8d666.tgz",
+					"ctelecom": "mondrian_images_OS1.0.4.0.UMNCNXM_20240105.0000.00_14.0_cn_chinatelecom_3564682888.tgz"
 				},
 				"OS1.0.3.0.UMNCNXM": {
 					"os": "OS1.0.3.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2023-12-27",
 					"recovery": "miui_MONDRIAN_OS1.0.3.0.UMNCNXM_c4746e114f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.2.0.UMNCNXM": {
 					"os": "OS1.0.2.0.UMNCNXM",
 					"android": "14.0",
 					"release": "2023-12-07",
 					"recovery": "miui_MONDRIAN_OS1.0.2.0.UMNCNXM_39d36cb035_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.2.0.UMNCNXM_20231129.0000.00_14.0_cn_b39e8c8e9a.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "mondrian",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K60",
-        "en" :"Redmi K60"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.13.0.UMNCNXM": {
-					"os": "OS1.0.13.0.UMNCNXM",
-					"android": "14.0",
-					"release": "2024-09-13",
-					"recovery": "miui_MONDRIAN_OS1.0.13.0.UMNCNXM_c7edb14af5_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.13.0.UMNCNXM_20240905.0000.00_14.0_cn_chinatelecom_1d9cb63f83.tgz"
-				},
-				"OS1.0.12.0.UMNCNXM": {
-					"os": "OS1.0.12.0.UMNCNXM",
-					"android": "14.0",
-					"release": "2024-08-13",
-					"recovery": "miui_MONDRIAN_OS1.0.12.0.UMNCNXM_738baea10c_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.12.0.UMNCNXM_20240805.0000.00_14.0_cn_chinatelecom_69de1792d8.tgz"
-				},
-				"OS1.0.10.0.UMNCNXM": {
-					"os": "OS1.0.10.0.UMNCNXM",
-					"android": "14.0",
-					"release": "2024-07-30",
-					"recovery": "miui_MONDRIAN_OS1.0.10.0.UMNCNXM_544e8eda24_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.10.0.UMNCNXM_20240722.0000.00_14.0_cn_chinatelecom_5b6ba524f9.tgz"
-				},
-				"OS1.0.8.0.UMNCNXM": {
-					"os": "OS1.0.8.0.UMNCNXM",
-					"android": "14.0",
-					"release": "2024-05-24",
-					"recovery": "miui_MONDRIAN_OS1.0.8.0.UMNCNXM_a1d4b475b7_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.8.0.UMNCNXM_20240513.0000.00_14.0_cn_chinatelecom_b9b864cefd.tgz"
-				},
-				"OS1.0.7.0.UMNCNXM": {
-					"os": "OS1.0.7.0.UMNCNXM",
-					"android": "14.0",
-					"release": "2024-05-13",
-					"recovery": "miui_MONDRIAN_OS1.0.7.0.UMNCNXM_f5c6d87f01_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.7.0.UMNCNXM_20240506.0000.00_14.0_cn_chinatelecom_bba95d95b7.tgz"
-				},
-				"OS1.0.6.0.UMNCNXM": {
-					"os": "OS1.0.6.0.UMNCNXM",
-					"android": "14.0",
-					"release": "2024-02-18",
-					"recovery": "miui_MONDRIAN_OS1.0.6.0.UMNCNXM_132cb79b18_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.6.0.UMNCNXM_20240201.0000.00_14.0_cn_chinatelecom_37876eb63e.tgz"
-				},
-				"OS1.0.4.0.UMNCNXM": {
-					"os": "OS1.0.4.0.UMNCNXM",
-					"android": "14.0",
-					"release": "2024-01-09",
-					"recovery": "miui_MONDRIAN_OS1.0.4.0.UMNCNXM_cde1668ca2_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.4.0.UMNCNXM_20240105.0000.00_14.0_cn_chinatelecom_3564682888.tgz"
-				},
-				"OS1.0.2.0.UMNCNXM": {
-					"os": "OS1.0.2.0.UMNCNXM",
-					"android": "14.0",
-					"release": "2023-12-07",
-					"recovery": "miui_MONDRIAN_OS1.0.2.0.UMNCNXM_39d36cb035_14.0.zip",
-					"fastboot": "mondrian_images_OS1.0.2.0.UMNCNXM_20231129.0000.00_14.0_cn_chinatelecom_ee13fc2cc9.tgz"
+					"fastboot": "mondrian_images_OS1.0.2.0.UMNCNXM_20231129.0000.00_14.0_cn_b39e8c8e9a.tgz",
+					"ctelecom": "mondrian_images_OS1.0.2.0.UMNCNXM_20231129.0000.00_14.0_cn_chinatelecom_ee13fc2cc9.tgz"
 				}
 			}
 		},
@@ -468,6 +403,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -538,6 +474,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -549,7 +486,7 @@
 					"android": "14.0",
 					"release": "2024-10-21",
 					"recovery": "miui_MONDRIANGlobal_OS1.0.10.0.UMNMIXM_c4e529f742_14.0.zip",
-					"fastboot": ""
+					"fastboot": "mondrian_global_images_OS1.0.10.0.UMNMIXM_20241010.0000.00_14.0_global_d1a34968a1.tgz"
 				},
 				"OS1.0.9.0.UMNMIXM": {
 					"os": "OS1.0.9.0.UMNMIXM",
@@ -622,6 +559,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -685,6 +623,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -755,6 +694,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

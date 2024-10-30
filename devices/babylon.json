@@ -20,6 +20,7 @@
       },
 			"idtag": "Dev",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -272,165 +273,92 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"roms": {
 				"OS1.0.15.0.UMVCNXM": {
 					"os": "OS1.0.15.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_BABYLON_OS1.0.15.0.UMVCNXM_78ff136f1c_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.15.0.UMVCNXM_20241008.0000.00_14.0_cn_0576343700.tgz"
+					"fastboot": "babylon_images_OS1.0.15.0.UMVCNXM_20241008.0000.00_14.0_cn_0576343700.tgz",
+					"ctelecom": "babylon_images_OS1.0.15.0.UMVCNXM_20241008.0000.00_14.0_cn_chinatelecom_5c437e6e06.tgz"
 				},
 				"OS1.0.14.0.UMVCNXM": {
 					"os": "OS1.0.14.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_BABYLON_OS1.0.14.0.UMVCNXM_fb983c93f0_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.14.0.UMVCNXM_20240911.0000.00_14.0_cn_0b00d680f6.tgz"
+					"fastboot": "babylon_images_OS1.0.14.0.UMVCNXM_20240911.0000.00_14.0_cn_0b00d680f6.tgz",
+					"ctelecom": "babylon_images_OS1.0.14.0.UMVCNXM_20240911.0000.00_14.0_cn_chinatelecom_93b957ccb2.tgz"
 				},
 				"OS1.0.12.0.UMVCNXM": {
 					"os": "OS1.0.12.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_BABYLON_OS1.0.12.0.UMVCNXM_5f616903cf_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.12.0.UMVCNXM_20240808.0000.00_14.0_cn_2e30d7f6c5.tgz"
+					"fastboot": "babylon_images_OS1.0.12.0.UMVCNXM_20240808.0000.00_14.0_cn_2e30d7f6c5.tgz",
+					"ctelecom": "babylon_images_OS1.0.12.0.UMVCNXM_20240808.0000.00_14.0_cn_chinatelecom_83d29dcd2e.tgz"
 				},
 				"OS1.0.10.0.UMVCNXM": {
 					"os": "OS1.0.10.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-07-16",
 					"recovery": "miui_BABYLON_OS1.0.10.0.UMVCNXM_dc1567ea87_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.10.0.UMVCNXM_20240712.0000.00_14.0_cn_15035c14fd.tgz"
+					"fastboot": "babylon_images_OS1.0.10.0.UMVCNXM_20240712.0000.00_14.0_cn_15035c14fd.tgz",
+					"ctelecom": "babylon_images_OS1.0.10.0.UMVCNXM_20240712.0000.00_14.0_cn_chinatelecom_932b1eb04b.tgz"
 				},
 				"OS1.0.9.0.UMVCNXM": {
 					"os": "OS1.0.9.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_BABYLON_OS1.0.9.0.UMVCNXM_14d1a69a54_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.6.0.UMVCNXM": {
 					"os": "OS1.0.6.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-05-29",
 					"recovery": "miui_BABYLON_OS1.0.6.0.UMVCNXM_34b143e4d0_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.6.0.UMVCNXM_20240520.0000.00_14.0_cn_d47690482c.tgz"
+					"fastboot": "babylon_images_OS1.0.6.0.UMVCNXM_20240520.0000.00_14.0_cn_d47690482c.tgz",
+					"ctelecom": "babylon_images_OS1.0.6.0.UMVCNXM_20240520.0000.00_14.0_cn_chinatelecom_605ec1d49f.tgz"
 				},
 				"OS1.0.5.0.UMVCNXM": {
 					"os": "OS1.0.5.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-04-16",
 					"recovery": "miui_BABYLON_OS1.0.5.0.UMVCNXM_8635874571_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.5.0.UMVCNXM_20240328.0000.00_14.0_cn_810c721743.tgz"
+					"fastboot": "babylon_images_OS1.0.5.0.UMVCNXM_20240328.0000.00_14.0_cn_810c721743.tgz",
+					"ctelecom": "babylon_images_OS1.0.5.0.UMVCNXM_20240328.0000.00_14.0_cn_chinatelecom_345fc5d3e6.tgz"
 				},
 				"OS1.0.4.0.UMVCNXM": {
 					"os": "OS1.0.4.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-03-14",
 					"recovery": "miui_BABYLON_OS1.0.4.0.UMVCNXM_3d0618b4ae_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.4.0.UMVCNXM_20240304.0000.00_14.0_cn_be1dd4e4c5.tgz"
+					"fastboot": "babylon_images_OS1.0.4.0.UMVCNXM_20240304.0000.00_14.0_cn_be1dd4e4c5.tgz",
+					"ctelecom": "babylon_images_OS1.0.4.0.UMVCNXM_20240304.0000.00_14.0_cn_chinatelecom_66720dfd9a.tgz"
 				},
 				"OS1.0.3.0.UMVCNXM": {
 					"os": "OS1.0.3.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2024-02-02",
 					"recovery": "miui_BABYLON_OS1.0.3.0.UMVCNXM_f3b112cff7_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.3.0.UMVCNXM_20240116.0000.00_14.0_cn_06ce6bc6b1.tgz"
+					"fastboot": "babylon_images_OS1.0.3.0.UMVCNXM_20240116.0000.00_14.0_cn_06ce6bc6b1.tgz",
+					"ctelecom": "babylon_images_OS1.0.3.0.UMVCNXM_20240116.0000.00_14.0_cn_chinatelecom_53ac4ac174.tgz"
 				},
 				"OS1.0.2.0.UMVCNXM": {
 					"os": "OS1.0.2.0.UMVCNXM",
 					"android": "14.0",
 					"release": "2023-12-14",
 					"recovery": "miui_BABYLON_OS1.0.2.0.UMVCNXM_d95abfe6ba_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.2.0.UMVCNXM_20231206.0000.00_14.0_cn_a302fa60d7.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "babylon",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Fold 3",
-        "en" :"Xiaomi MIX Fold 3"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"carrier": ["chinatelecom"],
-			"region": "cn",
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.15.0.UMVCNXM": {
-					"os": "OS1.0.15.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2024-10-14",
-					"recovery": "miui_BABYLON_OS1.0.15.0.UMVCNXM_78ff136f1c_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.15.0.UMVCNXM_20241008.0000.00_14.0_cn_chinatelecom_5c437e6e06.tgz"
-				},
-				"OS1.0.14.0.UMVCNXM": {
-					"os": "OS1.0.14.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2024-09-23",
-					"recovery": "miui_BABYLON_OS1.0.14.0.UMVCNXM_fb983c93f0_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.14.0.UMVCNXM_20240911.0000.00_14.0_cn_chinatelecom_93b957ccb2.tgz"
-				},
-				"OS1.0.12.0.UMVCNXM": {
-					"os": "OS1.0.12.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2024-08-19",
-					"recovery": "miui_BABYLON_OS1.0.12.0.UMVCNXM_5f616903cf_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.12.0.UMVCNXM_20240808.0000.00_14.0_cn_chinatelecom_83d29dcd2e.tgz"
-				},
-				"OS1.0.10.0.UMVCNXM": {
-					"os": "OS1.0.10.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2024-07-16",
-					"recovery": "miui_BABYLON_OS1.0.10.0.UMVCNXM_dc1567ea87_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.10.0.UMVCNXM_20240712.0000.00_14.0_cn_chinatelecom_932b1eb04b.tgz"
-				},
-				"OS1.0.6.0.UMVCNXM": {
-					"os": "OS1.0.6.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2024-05-29",
-					"recovery": "miui_BABYLON_OS1.0.6.0.UMVCNXM_34b143e4d0_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.6.0.UMVCNXM_20240520.0000.00_14.0_cn_chinatelecom_605ec1d49f.tgz"
-				},
-				"OS1.0.5.0.UMVCNXM": {
-					"os": "OS1.0.5.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2024-04-16",
-					"recovery": "miui_BABYLON_OS1.0.5.0.UMVCNXM_8635874571_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.5.0.UMVCNXM_20240328.0000.00_14.0_cn_chinatelecom_345fc5d3e6.tgz"
-				},
-				"OS1.0.4.0.UMVCNXM": {
-					"os": "OS1.0.4.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2024-03-14",
-					"recovery": "miui_BABYLON_OS1.0.4.0.UMVCNXM_3d0618b4ae_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.4.0.UMVCNXM_20240304.0000.00_14.0_cn_chinatelecom_66720dfd9a.tgz"
-				},
-				"OS1.0.3.0.UMVCNXM": {
-					"os": "OS1.0.3.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2024-02-02",
-					"recovery": "miui_BABYLON_OS1.0.3.0.UMVCNXM_f3b112cff7_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.3.0.UMVCNXM_20240116.0000.00_14.0_cn_chinatelecom_53ac4ac174.tgz"
-				},
-				"OS1.0.2.0.UMVCNXM": {
-					"os": "OS1.0.2.0.UMVCNXM",
-					"android": "14.0",
-					"release": "2023-12-14",
-					"recovery": "miui_BABYLON_OS1.0.2.0.UMVCNXM_d95abfe6ba_14.0.zip",
-					"fastboot": "babylon_images_OS1.0.2.0.UMVCNXM_20231206.0000.00_14.0_cn_chinatelecom_9e4d69b4db.tgz"
+					"fastboot": "babylon_images_OS1.0.2.0.UMVCNXM_20231206.0000.00_14.0_cn_a302fa60d7.tgz",
+					"ctelecom": "babylon_images_OS1.0.2.0.UMVCNXM_20231206.0000.00_14.0_cn_chinatelecom_9e4d69b4db.tgz"
 				}
 			}
 		},
@@ -447,6 +375,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],

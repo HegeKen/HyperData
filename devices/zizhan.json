@@ -20,6 +20,7 @@
       },
 			"idtag": "Dev",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -272,7 +273,8 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"show": "1",
 			"region": "cn",
 			"zone": "1",
@@ -283,119 +285,56 @@
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_ZIZHAN_OS1.0.12.0.ULRCNXM_c86b8b4b07_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.12.0.ULRCNXM_20241008.0000.00_14.0_cn_0a60564c5d.tgz"
+					"fastboot": "zizhan_images_OS1.0.12.0.ULRCNXM_20241008.0000.00_14.0_cn_0a60564c5d.tgz",
+					"ctelecom": "zizhan_images_OS1.0.12.0.ULRCNXM_20241008.0000.00_14.0_cn_chinatelecom_a0ccbcd919.tgz"
 				},
 				"OS1.0.11.0.ULRCNXM": {
 					"os": "OS1.0.11.0.ULRCNXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_ZIZHAN_OS1.0.11.0.ULRCNXM_abfe137124_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.11.0.ULRCNXM_20240911.0000.00_14.0_cn_c0698757fc.tgz"
+					"fastboot": "zizhan_images_OS1.0.11.0.ULRCNXM_20240911.0000.00_14.0_cn_c0698757fc.tgz",
+					"ctelecom": "zizhan_images_OS1.0.11.0.ULRCNXM_20240911.0000.00_14.0_cn_chinatelecom_57637413aa.tgz"
 				},
 				"OS1.0.9.0.ULRCNXM": {
 					"os": "OS1.0.9.0.ULRCNXM",
 					"android": "14.0",
 					"release": "2024-08-21",
 					"recovery": "miui_ZIZHAN_OS1.0.9.0.ULRCNXM_f946fac805_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.9.0.ULRCNXM_20240808.0000.00_14.0_cn_113a13b0db.tgz"
+					"fastboot": "zizhan_images_OS1.0.9.0.ULRCNXM_20240808.0000.00_14.0_cn_113a13b0db.tgz",
+					"ctelecom": "zizhan_images_OS1.0.9.0.ULRCNXM_20240808.0000.00_14.0_cn_chinatelecom_87aee383a8.tgz"
 				},
 				"OS1.0.7.0.ULRCNXM": {
 					"os": "OS1.0.7.0.ULRCNXM",
 					"android": "14.0",
 					"release": "2024-07-25",
 					"recovery": "miui_ZIZHAN_OS1.0.7.0.ULRCNXM_7e7a34b825_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.7.0.ULRCNXM_20240718.0000.00_14.0_cn_7091c1a50a.tgz"
+					"fastboot": "zizhan_images_OS1.0.7.0.ULRCNXM_20240718.0000.00_14.0_cn_7091c1a50a.tgz",
+					"ctelecom": "zizhan_images_OS1.0.7.0.ULRCNXM_20240718.0000.00_14.0_cn_chinatelecom_2a9ba236f0.tgz"
 				},
 				"OS1.0.5.0.ULRCNXM": {
 					"os": "OS1.0.5.0.ULRCNXM",
 					"android": "14.0",
 					"release": "2024-06-06",
 					"recovery": "miui_ZIZHAN_OS1.0.5.0.ULRCNXM_fd3cf395bc_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.5.0.ULRCNXM_20240527.0000.00_14.0_cn_c1070f9f55.tgz"
+					"fastboot": "zizhan_images_OS1.0.5.0.ULRCNXM_20240527.0000.00_14.0_cn_c1070f9f55.tgz",
+					"ctelecom": "zizhan_images_OS1.0.5.0.ULRCNXM_20240527.0000.00_14.0_cn_chinatelecom_7c94ee09bf.tgz"
 				},
 				"OS1.0.3.0.ULRCNXM": {
 					"os": "OS1.0.3.0.ULRCNXM",
 					"android": "14.0",
 					"release": "2024-03-19",
 					"recovery": "miui_ZIZHAN_OS1.0.3.0.ULRCNXM_8d7d994eb5_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.3.0.ULRCNXM_20240229.0000.00_14.0_cn_bfeb5875b3.tgz"
+					"fastboot": "zizhan_images_OS1.0.3.0.ULRCNXM_20240229.0000.00_14.0_cn_bfeb5875b3.tgz",
+					"ctelecom": "zizhan_images_OS1.0.3.0.ULRCNXM_20240229.0000.00_14.0_cn_chinatelecom_ee01123b14.tgz"
 				},
 				"OS1.0.2.0.ULRCNXM": {
 					"os": "OS1.0.2.0.ULRCNXM",
 					"android": "14.0",
 					"release": "2023-12-22",
 					"recovery": "miui_ZIZHAN_OS1.0.2.0.ULRCNXM_145e69abdf_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.2.0.ULRCNXM_20231215.0000.00_14.0_cn_528c8cbe90.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "zizhan",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Fold 2",
-        "en" :"Xiaomi MIX Fold 2"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.12.0.ULRCNXM": {
-					"os": "OS1.0.12.0.ULRCNXM",
-					"android": "14.0",
-					"release": "2024-10-14",
-					"recovery": "miui_ZIZHAN_OS1.0.12.0.ULRCNXM_c86b8b4b07_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.12.0.ULRCNXM_20241008.0000.00_14.0_cn_chinatelecom_a0ccbcd919.tgz"
-				},
-				"OS1.0.11.0.ULRCNXM": {
-					"os": "OS1.0.11.0.ULRCNXM",
-					"android": "14.0",
-					"release": "2024-09-23",
-					"recovery": "miui_ZIZHAN_OS1.0.11.0.ULRCNXM_abfe137124_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.11.0.ULRCNXM_20240911.0000.00_14.0_cn_chinatelecom_57637413aa.tgz"
-				},
-				"OS1.0.9.0.ULRCNXM": {
-					"os": "OS1.0.9.0.ULRCNXM",
-					"android": "14.0",
-					"release": "2024-08-21",
-					"recovery": "miui_ZIZHAN_OS1.0.9.0.ULRCNXM_f946fac805_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.9.0.ULRCNXM_20240808.0000.00_14.0_cn_chinatelecom_87aee383a8.tgz"
-				},
-				"OS1.0.7.0.ULRCNXM": {
-					"os": "OS1.0.7.0.ULRCNXM",
-					"android": "14.0",
-					"release": "2024-07-25",
-					"recovery": "miui_ZIZHAN_OS1.0.7.0.ULRCNXM_7e7a34b825_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.7.0.ULRCNXM_20240718.0000.00_14.0_cn_chinatelecom_2a9ba236f0.tgz"
-				},
-				"OS1.0.5.0.ULRCNXM": {
-					"os": "OS1.0.5.0.ULRCNXM",
-					"android": "14.0",
-					"release": "2024-06-06",
-					"recovery": "miui_ZIZHAN_OS1.0.5.0.ULRCNXM_fd3cf395bc_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.5.0.ULRCNXM_20240527.0000.00_14.0_cn_chinatelecom_7c94ee09bf.tgz"
-				},
-				"OS1.0.3.0.ULRCNXM": {
-					"os": "OS1.0.3.0.ULRCNXM",
-					"android": "14.0",
-					"release": "2024-03-19",
-					"recovery": "miui_ZIZHAN_OS1.0.3.0.ULRCNXM_8d7d994eb5_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.3.0.ULRCNXM_20240229.0000.00_14.0_cn_chinatelecom_ee01123b14.tgz"
-				},
-				"OS1.0.2.0.ULRCNXM": {
-					"os": "OS1.0.2.0.ULRCNXM",
-					"android": "14.0",
-					"release": "2023-12-22",
-					"recovery": "miui_ZIZHAN_OS1.0.2.0.ULRCNXM_145e69abdf_14.0.zip",
-					"fastboot": "zizhan_images_OS1.0.2.0.ULRCNXM_20231215.0000.00_14.0_cn_chinatelecom_2ec41c857b.tgz"
+					"fastboot": "zizhan_images_OS1.0.2.0.ULRCNXM_20231215.0000.00_14.0_cn_528c8cbe90.tgz",
+					"ctelecom": "zizhan_images_OS1.0.2.0.ULRCNXM_20231215.0000.00_14.0_cn_chinatelecom_2ec41c857b.tgz"
 				}
 			}
 		}

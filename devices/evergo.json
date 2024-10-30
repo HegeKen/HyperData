@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,35 +32,8 @@
 					"android": "13.0",
 					"release": "2024-02-26",
 					"recovery": "miui_EVERGO_OS1.0.1.0.TGBCNXM_30dc3f8271_13.0.zip",
-					"fastboot": "evergo_images_OS1.0.1.0.TGBCNXM_20240206.0000.00_13.0_cn_869f7220f4.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "evergo",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 5G",
-        "en" :"Redmi Note 11 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.1.0.TGBCNXM": {
-					"os": "OS1.0.1.0.TGBCNXM",
-					"android": "13.0",
-					"release": "2024-02-26",
-					"recovery": "miui_EVERGO_OS1.0.1.0.TGBCNXM_30dc3f8271_13.0.zip",
-					"fastboot": "evergo_images_OS1.0.1.0.TGBCNXM_20240206.0000.00_13.0_cn_chinatelecom_206d4e6226.tgz"
+					"fastboot": "evergo_images_OS1.0.1.0.TGBCNXM_20240206.0000.00_13.0_cn_869f7220f4.tgz",
+					"ctelecom": "evergo_images_OS1.0.1.0.TGBCNXM_20240206.0000.00_13.0_cn_chinatelecom_206d4e6226.tgz"
 				}
 			}
 		},
@@ -76,6 +50,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",

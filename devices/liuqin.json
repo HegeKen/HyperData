@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -97,6 +98,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -108,16 +110,14 @@
 					"android": "14.0",
 					"release": "2024-09-02",
 					"recovery": "miui_LIUQINEPSTDEE_OS1.0.24.8.8.EP.STDEE.M81_b442c4fcfa_14.0.zip",
-					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.8.8.EP.STDEE.M81_20240808.0000.00_14.0_cn_8a9b6022fb.tgz",
-					"ctelecom": ""
+					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.8.8.EP.STDEE.M81_20240808.0000.00_14.0_cn_8a9b6022fb.tgz"
 				},
 				"OS1.0.24.3.25.EP.STDEE.M81": {
 					"os": "OS1.0.24.3.25.EP.STDEE.M81",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_LIUQINEPSTDEE_OS1.0.24.3.25.EP.STDEE.M81_ebbdaf9d83_14.0.zip",
-					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.3.25.EP.STDEE.M81_20240325.0000.00_14.0_cn_020bb98ddc.tgz",
-					"ctelecom": ""
+					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.3.25.EP.STDEE.M81_20240325.0000.00_14.0_cn_020bb98ddc.tgz"
 				}
 			}
 		},
@@ -134,6 +134,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -145,8 +146,7 @@
 					"android": "14.0",
 					"release": "2023-12-20",
 					"recovery": "miui_LIUQINDEMO_OS1.0.1.0.UMYCNDM_0c63f06b1a_14.0.zip",
-					"fastboot": "liuqin_demo_images_OS1.0.1.0.UMYCNDM_20231220.0000.00_14.0_cn_d58c981654.tgz",
-					"ctelecom": ""
+					"fastboot": "liuqin_demo_images_OS1.0.1.0.UMYCNDM_20231220.0000.00_14.0_cn_d58c981654.tgz"
 				}
 			}
 		}

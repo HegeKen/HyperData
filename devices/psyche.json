@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,105 +32,56 @@
 					"android": "13.0",
 					"release": "2024-10-18",
 					"recovery": "miui_PSYCHE_OS1.0.10.0.TLDCNXM_4bdc919500_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.10.0.TLDCNXM_20241010.0000.00_13.0_cn_ee24e7354c.tgz"
+					"fastboot": "psyche_images_OS1.0.10.0.TLDCNXM_20241010.0000.00_13.0_cn_ee24e7354c.tgz",
+					"ctelecom": "psyche_images_OS1.0.10.0.TLDCNXM_20241010.0000.00_13.0_cn_chinatelecom_86ed70df77.tgz"
 				},
 				"OS1.0.9.0.TLDCNXM": {
 					"os": "OS1.0.9.0.TLDCNXM",
 					"android": "13.0",
 					"release": "2024-09-12",
 					"recovery": "miui_PSYCHE_OS1.0.9.0.TLDCNXM_7f03ad7d69_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.9.0.TLDCNXM_20240903.0000.00_13.0_cn_753cb49684.tgz"
+					"fastboot": "psyche_images_OS1.0.9.0.TLDCNXM_20240903.0000.00_13.0_cn_753cb49684.tgz",
+					"ctelecom": "psyche_images_OS1.0.9.0.TLDCNXM_20240903.0000.00_13.0_cn_chinatelecom_5a96c9ece0.tgz"
 				},
 				"OS1.0.8.0.TLDCNXM": {
 					"os": "OS1.0.8.0.TLDCNXM",
 					"android": "13.0",
 					"release": "2024-08-17",
 					"recovery": "miui_PSYCHE_OS1.0.8.0.TLDCNXM_dc50ac457a_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.8.0.TLDCNXM_20240812.0000.00_13.0_cn_1f5c25581c.tgz"
+					"fastboot": "psyche_images_OS1.0.8.0.TLDCNXM_20240812.0000.00_13.0_cn_1f5c25581c.tgz",
+					"ctelecom": "psyche_images_OS1.0.8.0.TLDCNXM_20240812.0000.00_13.0_cn_chinatelecom_fb1dee36b4.tgz"
 				},
 				"OS1.0.7.0.TLDCNXM": {
 					"os": "OS1.0.7.0.TLDCNXM",
 					"android": "13.0",
 					"release": "2024-08-02",
 					"recovery": "miui_PSYCHE_OS1.0.7.0.TLDCNXM_f008f5565d_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.7.0.TLDCNXM_20240726.0000.00_13.0_cn_33df3e1f58.tgz"
+					"fastboot": "psyche_images_OS1.0.7.0.TLDCNXM_20240726.0000.00_13.0_cn_33df3e1f58.tgz",
+					"ctelecom": "psyche_images_OS1.0.7.0.TLDCNXM_20240726.0000.00_13.0_cn_chinatelecom_1fbd40add5.tgz"
 				},
 				"OS1.0.6.0.TLDCNXM": {
 					"os": "OS1.0.6.0.TLDCNXM",
 					"android": "13.0",
 					"release": "2024-07-17",
 					"recovery": "miui_PSYCHE_OS1.0.6.0.TLDCNXM_9799de6674_13.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.3.0.TLDCNXM": {
 					"os": "OS1.0.3.0.TLDCNXM",
 					"android": "13.0",
 					"release": "2024-02-19",
 					"recovery": "miui_PSYCHE_OS1.0.3.0.TLDCNXM_254eae0105_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_d34d88abb5.tgz"
+					"fastboot": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_d34d88abb5.tgz",
+					"ctelecom": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_chinatelecom_4b9e013419.tgz"
 				},
 				"OS1.0.2.0.TLDCNXM": {
 					"os": "OS1.0.2.0.TLDCNXM",
 					"android": "13.0",
 					"release": "2024-01-29",
 					"recovery": "miui_PSYCHE_OS1.0.2.0.TLDCNXM_e3e99fe3af_13.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "psyche",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12X",
-        "en" :"Xiaomi 12X"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.10.0.TLDCNXM": {
-					"os": "OS1.0.10.0.TLDCNXM",
-					"android": "13.0",
-					"release": "2024-10-18",
-					"recovery": "miui_PSYCHE_OS1.0.10.0.TLDCNXM_4bdc919500_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.10.0.TLDCNXM_20241010.0000.00_13.0_cn_chinatelecom_86ed70df77.tgz"
-				},
-				"OS1.0.9.0.TLDCNXM": {
-					"os": "OS1.0.9.0.TLDCNXM",
-					"android": "13.0",
-					"release": "2024-09-12",
-					"recovery": "miui_PSYCHE_OS1.0.9.0.TLDCNXM_7f03ad7d69_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.9.0.TLDCNXM_20240903.0000.00_13.0_cn_chinatelecom_5a96c9ece0.tgz"
-				},
-				"OS1.0.8.0.TLDCNXM": {
-					"os": "OS1.0.8.0.TLDCNXM",
-					"android": "13.0",
-					"release": "2024-08-17",
-					"recovery": "miui_PSYCHE_OS1.0.8.0.TLDCNXM_dc50ac457a_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.8.0.TLDCNXM_20240812.0000.00_13.0_cn_chinatelecom_fb1dee36b4.tgz"
-				},
-				"OS1.0.7.0.TLDCNXM": {
-					"os": "OS1.0.7.0.TLDCNXM",
-					"android": "13.0",
-					"release": "2024-08-02",
-					"recovery": "miui_PSYCHE_OS1.0.7.0.TLDCNXM_f008f5565d_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.7.0.TLDCNXM_20240726.0000.00_13.0_cn_chinatelecom_1fbd40add5.tgz"
-				},
-				"OS1.0.3.0.TLDCNXM": {
-					"os": "OS1.0.3.0.TLDCNXM",
-					"android": "13.0",
-					"release": "2024-02-19",
-					"recovery": "miui_PSYCHE_OS1.0.3.0.TLDCNXM_254eae0105_13.0.zip",
-					"fastboot": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_chinatelecom_4b9e013419.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -146,6 +98,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -202,6 +155,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -258,6 +212,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -314,6 +269,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",

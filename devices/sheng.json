@@ -21,6 +21,7 @@
 			"idtag": "ADPC",
 			"url": "https://www.xiaomi.cn/post/44582045",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -79,6 +80,7 @@
 			"idtag": "ADPG",
 			"url": "https://new.c.mi.com/global/post/951812",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -127,6 +129,7 @@
       },
 			"idtag": "Beta",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -176,6 +179,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -260,6 +264,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -271,8 +276,7 @@
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_SHENGEPSTDEE_OS1.0.24.4.16.EP.STDEE.N81A_b8e830f0b6_14.0.zip",
-					"fastboot": "sheng_ep_stdee_images_OS1.0.24.4.16.EP.STDEE.N81A_20240416.0000.00_14.0_cn_698be647f8.tgz",
-					"ctelecom": ""
+					"fastboot": "sheng_ep_stdee_images_OS1.0.24.4.16.EP.STDEE.N81A_20240416.0000.00_14.0_cn_698be647f8.tgz"
 				}
 			}
 		},
@@ -289,6 +293,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -314,16 +319,14 @@
 					"android": "14.0",
 					"release": "2024-04-10",
 					"recovery": "",
-					"fastboot": "sheng_demo_images_OS1.0.9.0.UNXCNDM_20240408.0000.00_14.0_cn_d486ca8bb5.tgz",
-					"ctelecom": ""
+					"fastboot": "sheng_demo_images_OS1.0.9.0.UNXCNDM_20240408.0000.00_14.0_cn_d486ca8bb5.tgz"
 				},
 				"OS1.0.6.0.UNXCNDM": {
 					"os": "OS1.0.6.0.UNXCNDM",
 					"android": "14.0",
 					"release": "2024-02-26",
 					"recovery": "miui_SHENGDEMO_OS1.0.6.0.UNXCNDM_5d41d721a9_14.0.zip",
-					"fastboot": "sheng_demo_images_OS1.0.6.0.UNXCNDM_20240226.0000.00_14.0_cn_07da264683.tgz",
-					"ctelecom": ""
+					"fastboot": "sheng_demo_images_OS1.0.6.0.UNXCNDM_20240226.0000.00_14.0_cn_07da264683.tgz"
 				}
 			}
 		},
@@ -340,6 +343,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -396,6 +400,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -452,6 +457,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -508,6 +514,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",

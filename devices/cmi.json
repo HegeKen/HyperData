@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
 			"carrier": ["", "chinaunicom"],
 			"region": "cn",
@@ -31,84 +32,18 @@
 					"android": "13.0",
 					"release": "2024-06-18",
 					"recovery": "miui_CMI_OS1.0.5.0.TJACNXM_64cdfa3fe5_13.0.zip",
-					"fastboot": "cmi_images_OS1.0.5.0.TJACNXM_20240605.0000.00_13.0_cn_a06288bc90.tgz"
+					"fastboot": "cmi_images_OS1.0.5.0.TJACNXM_20240605.0000.00_13.0_cn_a06288bc90.tgz",
+					"ctelecom": "cmi_images_OS1.0.5.0.TJACNXM_20240605.0000.00_13.0_cn_chinatelecom_860ce49022.tgz",
+					"cnmobile": "cmi_images_OS1.0.5.0.TJACNXM_20240605.0000.00_13.0_cn_chinamobile_caf1704f73.tgz"
 				},
 				"OS1.0.3.0.TJACNXM": {
 					"os": "OS1.0.3.0.TJACNXM",
 					"android": "13.0",
 					"release": "2024-04-15",
 					"recovery": "miui_CMI_OS1.0.3.0.TJACNXM_53c5dcd552_13.0.zip",
-					"fastboot": "cmi_images_OS1.0.3.0.TJACNXM_20240325.0000.00_13.0_cn_4f32bf994b.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "cmi",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10 Pro",
-        "en" :"Mi 10 Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.5.0.TJACNXM": {
-					"os": "OS1.0.5.0.TJACNXM",
-					"android": "13.0",
-					"release": "2024-06-18",
-					"recovery": "miui_CMI_OS1.0.5.0.TJACNXM_64cdfa3fe5_13.0.zip",
-					"fastboot": "cmi_images_OS1.0.5.0.TJACNXM_20240605.0000.00_13.0_cn_chinatelecom_860ce49022.tgz"
-				},
-				"OS1.0.3.0.TJACNXM": {
-					"os": "OS1.0.3.0.TJACNXM",
-					"android": "13.0",
-					"release": "2024-04-15",
-					"recovery": "miui_CMI_OS1.0.3.0.TJACNXM_53c5dcd552_13.0.zip",
-					"fastboot": "cmi_images_OS1.0.3.0.TJACNXM_20240325.0000.00_13.0_cn_chinatelecom_2494dd8469.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国移动定制版",
-				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
-			},
-			"branchCode": "cmi",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10 Pro",
-        "en" :"Mi 10 Pro"
-      },
-			"idtag": "CnOM",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.5.0.TJACNXM": {
-					"os": "OS1.0.5.0.TJACNXM",
-					"android": "13.0",
-					"release": "2024-06-18",
-					"recovery": "miui_CMI_OS1.0.5.0.TJACNXM_64cdfa3fe5_13.0.zip",
-					"fastboot": "cmi_images_OS1.0.5.0.TJACNXM_20240605.0000.00_13.0_cn_chinamobile_caf1704f73.tgz"
-				},
-				"OS1.0.3.0.TJACNXM": {
-					"os": "OS1.0.3.0.TJACNXM",
-					"android": "13.0",
-					"release": "2024-04-15",
-					"recovery": "miui_CMI_OS1.0.3.0.TJACNXM_53c5dcd552_13.0.zip",
-					"fastboot": "cmi_images_OS1.0.3.0.TJACNXM_20240325.0000.00_13.0_cn_chinamobile_25fa97e115.tgz"
+					"fastboot": "cmi_images_OS1.0.3.0.TJACNXM_20240325.0000.00_13.0_cn_4f32bf994b.tgz",
+					"ctelecom": "cmi_images_OS1.0.3.0.TJACNXM_20240325.0000.00_13.0_cn_chinatelecom_2494dd8469.tgz",
+					"cnmobile": "cmi_images_OS1.0.3.0.TJACNXM_20240325.0000.00_13.0_cn_chinamobile_25fa97e115.tgz"
 				}
 			}
 		},
@@ -125,6 +60,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -153,6 +89,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",

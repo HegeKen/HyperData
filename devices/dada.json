@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -32,7 +33,7 @@
 					"release": "2024-10-30",
 					"recovery": "dada-ota_full-OS2.0.12.0.VOCCNXM-user-15.0-5b863df2e2.zip",
 					"fastboot": "dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_d9a76abb78.tgz",
-					"chinatelecom": "dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_chinatelecom_8abe24c311.tgz"
+					"ctelecom": "dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_chinatelecom_8abe24c311.tgz"
 				}
 			}
 		},
@@ -49,6 +50,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],

@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
 			"carrier": ["", "chinaunicom"],
 			"region": "cn",
@@ -31,147 +32,45 @@
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_STAR_OS1.0.6.0.UKACNXM_a9c4d97169_14.0.zip",
-					"fastboot": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_74b82bf92e.tgz"
+					"fastboot": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_74b82bf92e.tgz",
+					"ctelecom": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_chinatelecom_c02365fb1d.tgz",
+					"cnmobile": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_chinamobile_8e015ad891.tgz"
 				},
 				"OS1.0.5.0.UKACNXM": {
 					"os": "OS1.0.5.0.UKACNXM",
 					"android": "14.0",
 					"release": "2024-09-06",
 					"recovery": "miui_STAR_OS1.0.5.0.UKACNXM_a5f14856be_14.0.zip",
-					"fastboot": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_9538aed41f.tgz"
+					"fastboot": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_9538aed41f.tgz",
+					"ctelecom": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_chinatelecom_ae1a6897be.tgz",
+					"cnmobile": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_chinamobile_3d58cb21a3.tgz"
 				},
 				"OS1.0.4.0.UKACNXM": {
 					"os": "OS1.0.4.0.UKACNXM",
 					"android": "14.0",
 					"release": "2024-08-21",
 					"recovery": "miui_STAR_OS1.0.4.0.UKACNXM_4a8df9c3ad_14.0.zip",
-					"fastboot": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_54c2067232.tgz"
+					"fastboot": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_54c2067232.tgz",
+					"ctelecom": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_chinatelecom_7fe7408740.tgz",
+					"cnmobile": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_chinamobile_ded3b40824.tgz"
 				},
 				"OS1.0.3.0.UKACNXM": {
 					"os": "OS1.0.3.0.UKACNXM",
 					"android": "14.0",
 					"release": "2024-06-25",
 					"recovery": "miui_STAR_OS1.0.3.0.UKACNXM_654946af55_14.0.zip",
-					"fastboot": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_a213433232.tgz"
+					"fastboot": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_a213433232.tgz",
+					"ctelecom": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_chinatelecom_2fd5424daa.tgz",
+					"cnmobile": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_chinamobile_b9ff310a53.tgz"
 				},
 				"OS1.0.2.0.UKACNXM": {
 					"os": "OS1.0.2.0.UKACNXM",
 					"android": "14.0",
 					"release": "2024-04-15",
 					"recovery": "miui_STAR_OS1.0.2.0.UKACNXM_783d84531a_14.0.zip",
-					"fastboot": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_5104ca64ac.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "star",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.UKACNXM": {
-					"os": "OS1.0.6.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-10-15",
-					"recovery": "miui_STAR_OS1.0.6.0.UKACNXM_a9c4d97169_14.0.zip",
-					"fastboot": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_chinatelecom_c02365fb1d.tgz"
-				},
-				"OS1.0.5.0.UKACNXM": {
-					"os": "OS1.0.5.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-09-06",
-					"recovery": "miui_STAR_OS1.0.5.0.UKACNXM_a5f14856be_14.0.zip",
-					"fastboot": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_chinatelecom_ae1a6897be.tgz"
-				},
-				"OS1.0.4.0.UKACNXM": {
-					"os": "OS1.0.4.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-08-21",
-					"recovery": "miui_STAR_OS1.0.4.0.UKACNXM_4a8df9c3ad_14.0.zip",
-					"fastboot": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_chinatelecom_7fe7408740.tgz"
-				},
-				"OS1.0.3.0.UKACNXM": {
-					"os": "OS1.0.3.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-06-25",
-					"recovery": "miui_STAR_OS1.0.3.0.UKACNXM_654946af55_14.0.zip",
-					"fastboot": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_chinatelecom_2fd5424daa.tgz"
-				},
-				"OS1.0.2.0.UKACNXM": {
-					"os": "OS1.0.2.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-04-15",
-					"recovery": "miui_STAR_OS1.0.2.0.UKACNXM_783d84531a_14.0.zip",
-					"fastboot": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_chinatelecom_ef7c7c609a.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国移动定制版",
-				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
-			},
-			"branchCode": "star",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
-			"idtag": "CnOM",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.UKACNXM": {
-					"os": "OS1.0.6.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-10-15",
-					"recovery": "miui_STAR_OS1.0.6.0.UKACNXM_a9c4d97169_14.0.zip",
-					"fastboot": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_chinamobile_8e015ad891.tgz"
-				},
-				"OS1.0.5.0.UKACNXM": {
-					"os": "OS1.0.5.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-09-06",
-					"recovery": "miui_STAR_OS1.0.5.0.UKACNXM_a5f14856be_14.0.zip",
-					"fastboot": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_chinamobile_3d58cb21a3.tgz"
-				},
-				"OS1.0.4.0.UKACNXM": {
-					"os": "OS1.0.4.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-08-21",
-					"recovery": "miui_STAR_OS1.0.4.0.UKACNXM_4a8df9c3ad_14.0.zip",
-					"fastboot": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_chinamobile_ded3b40824.tgz"
-				},
-				"OS1.0.3.0.UKACNXM": {
-					"os": "OS1.0.3.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-06-25",
-					"recovery": "miui_STAR_OS1.0.3.0.UKACNXM_654946af55_14.0.zip",
-					"fastboot": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_chinamobile_b9ff310a53.tgz"
-				},
-				"OS1.0.2.0.UKACNXM": {
-					"os": "OS1.0.2.0.UKACNXM",
-					"android": "14.0",
-					"release": "2024-04-15",
-					"recovery": "miui_STAR_OS1.0.2.0.UKACNXM_783d84531a_14.0.zip",
-					"fastboot": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_chinamobile_ff57f74d79.tgz"
+					"fastboot": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_5104ca64ac.tgz",
+					"ctelecom": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_chinatelecom_ef7c7c609a.tgz",
+					"cnmobile": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_chinamobile_ff57f74d79.tgz"
 				}
 			}
 		},
@@ -188,6 +87,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -244,6 +144,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -300,6 +201,7 @@
       },
 			"idtag": "EUOR",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["orange"],
 			"region": "eea",
@@ -349,6 +251,7 @@
       },
 			"idtag": "EUVF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["vodafone"],
 			"region": "eea",
@@ -391,6 +294,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -447,6 +351,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",

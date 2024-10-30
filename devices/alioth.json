@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,49 +32,16 @@
 					"android": "13.0",
 					"release": "2024-06-18",
 					"recovery": "miui_ALIOTH_OS1.0.6.0.TKHCNXM_101dfdb5be_13.0.zip",
-					"fastboot": "alioth_images_OS1.0.6.0.TKHCNXM_20240605.0000.00_13.0_cn_9c952f8190.tgz"
+					"fastboot": "alioth_images_OS1.0.6.0.TKHCNXM_20240605.0000.00_13.0_cn_9c952f8190.tgz",
+					"ctelecom": "alioth_images_OS1.0.6.0.TKHCNXM_20240605.0000.00_13.0_cn_chinatelecom_fcf1d6189d.tgz"
 				},
 				"OS1.0.3.0.TKHCNXM": {
 					"os": "OS1.0.3.0.TKHCNXM",
 					"android": "13.0",
 					"release": "2024-04-15",
 					"recovery": "miui_ALIOTH_OS1.0.3.0.TKHCNXM_eab81b6bf0_13.0.zip",
-					"fastboot": "alioth_images_OS1.0.3.0.TKHCNXM_20240201.0000.00_13.0_cn_6d1ee9d6df.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "alioth",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K40",
-        "en" :"Redmi K40"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.TKHCNXM": {
-					"os": "OS1.0.6.0.TKHCNXM",
-					"android": "13.0",
-					"release": "2024-06-18",
-					"recovery": "miui_ALIOTH_OS1.0.6.0.TKHCNXM_101dfdb5be_13.0.zip",
-					"fastboot": "alioth_images_OS1.0.6.0.TKHCNXM_20240605.0000.00_13.0_cn_chinatelecom_fcf1d6189d.tgz"
-				},
-				"OS1.0.3.0.TKHCNXM": {
-					"os": "OS1.0.3.0.TKHCNXM",
-					"android": "13.0",
-					"release": "2024-04-15",
-					"recovery": "miui_ALIOTH_OS1.0.3.0.TKHCNXM_eab81b6bf0_13.0.zip",
-					"fastboot": "alioth_images_OS1.0.3.0.TKHCNXM_20240201.0000.00_13.0_cn_chinatelecom_ce2a0f3578.tgz"
+					"fastboot": "alioth_images_OS1.0.3.0.TKHCNXM_20240201.0000.00_13.0_cn_6d1ee9d6df.tgz",
+					"ctelecom": "alioth_images_OS1.0.3.0.TKHCNXM_20240201.0000.00_13.0_cn_chinatelecom_ce2a0f3578.tgz"
 				}
 			}
 		},
@@ -90,6 +58,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -118,6 +87,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -153,6 +123,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -195,6 +166,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -230,6 +202,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -265,6 +238,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -300,6 +274,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

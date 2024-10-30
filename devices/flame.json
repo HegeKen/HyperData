@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "2",
 			"ep": "0",
@@ -31,91 +32,48 @@
 					"android": "14.0",
 					"release": "2024-10-09",
 					"recovery": "miui_FLAME_OS1.0.9.0.UGUCNXM_08d4893aca_14.0.zip",
-					"fastboot": "flame_images_OS1.0.9.0.UGUCNXM_20240926.0000.00_14.0_cn_4c695968a5.tgz"
+					"fastboot": "flame_images_OS1.0.9.0.UGUCNXM_20240926.0000.00_14.0_cn_4c695968a5.tgz",
+					"ctelecom": "flame_images_OS1.0.9.0.UGUCNXM_20240926.0000.00_14.0_cn_chinatelecom_065618d39f.tgz"
 				},
 				"OS1.0.8.0.UGUCNXM": {
 					"os": "OS1.0.8.0.UGUCNXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_FLAME_OS1.0.8.0.UGUCNXM_dd2158bc97_14.0.zip",
-					"fastboot": "flame_images_OS1.0.8.0.UGUCNXM_20240919.0000.00_14.0_cn_8e307601f4.tgz"
+					"fastboot": "flame_images_OS1.0.8.0.UGUCNXM_20240919.0000.00_14.0_cn_8e307601f4.tgz",
+					"ctelecom": "flame_images_OS1.0.8.0.UGUCNXM_20240919.0000.00_14.0_cn_chinatelecom_43e6b41e50.tgz"
 				},
 				"OS1.0.7.0.UGUCNXM": {
 					"os": "OS1.0.7.0.UGUCNXM",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_FLAME_OS1.0.7.0.UGUCNXM_c75fb07ee3_14.0.zip",
-					"fastboot": "flame_images_OS1.0.7.0.UGUCNXM_20240913.0000.00_14.0_cn_3920b78e50.tgz"
+					"fastboot": "flame_images_OS1.0.7.0.UGUCNXM_20240913.0000.00_14.0_cn_3920b78e50.tgz",
+					"ctelecom": "flame_images_OS1.0.7.0.UGUCNXM_20240913.0000.00_14.0_cn_chinatelecom_6b104a83bf.tgz"
 				},
 				"OS1.0.6.0.UGUCNXM": {
 					"os": "OS1.0.6.0.UGUCNXM",
 					"android": "14.0",
 					"release": "2024-09-15",
 					"recovery": "miui_FLAME_OS1.0.6.0.UGUCNXM_95f0ebd5ac_14.0.zip",
-					"fastboot": "flame_images_OS1.0.6.0.UGUCNXM_20240904.0000.00_14.0_cn_d01b951e9a.tgz"
+					"fastboot": "flame_images_OS1.0.6.0.UGUCNXM_20240904.0000.00_14.0_cn_d01b951e9a.tgz",
+					"ctelecom": "flame_images_OS1.0.6.0.UGUCNXM_20240904.0000.00_14.0_cn_chinatelecom_5ccb9ab669.tgz"
 				},
 				"OS1.0.4.0.UGUCNXM": {
 					"os": "OS1.0.4.0.UGUCNXM",
 					"android": "14.0",
 					"release": "2024-09-15",
 					"recovery": "miui_FLAME_OS1.0.4.0.UGUCNXM_cbf0f6cce2_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.1.0.UGUCNXM": {
 					"os": "OS1.0.1.0.UGUCNXM",
 					"android": "14.0",
 					"release": "2024-09-15",
 					"recovery": "miui_FLAME_OS1.0.1.0.UGUCNXM_45315998e8_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "flame",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 14R 5G",
-        "en" :"Redmi 14R 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.9.0.UGUCNXM": {
-					"os": "OS1.0.9.0.UGUCNXM",
-					"android": "14.0",
-					"release": "2024-10-09",
-					"recovery": "miui_FLAME_OS1.0.9.0.UGUCNXM_08d4893aca_14.0.zip",
-					"fastboot": "flame_images_OS1.0.9.0.UGUCNXM_20240926.0000.00_14.0_cn_chinatelecom_065618d39f.tgz"
-				},
-				"OS1.0.8.0.UGUCNXM": {
-					"os": "OS1.0.8.0.UGUCNXM",
-					"android": "14.0",
-					"release": "2024-09-26",
-					"recovery": "miui_FLAME_OS1.0.8.0.UGUCNXM_dd2158bc97_14.0.zip",
-					"fastboot": "flame_images_OS1.0.8.0.UGUCNXM_20240919.0000.00_14.0_cn_chinatelecom_43e6b41e50.tgz"
-				},
-				"OS1.0.7.0.UGUCNXM": {
-					"os": "OS1.0.7.0.UGUCNXM",
-					"android": "14.0",
-					"release": "2024-09-18",
-					"recovery": "miui_FLAME_OS1.0.7.0.UGUCNXM_c75fb07ee3_14.0.zip",
-					"fastboot": "flame_images_OS1.0.7.0.UGUCNXM_20240913.0000.00_14.0_cn_chinatelecom_6b104a83bf.tgz"
-				},
-				"OS1.0.6.0.UGUCNXM": {
-					"os": "OS1.0.6.0.UGUCNXM",
-					"android": "14.0",
-					"release": "2024-09-15",
-					"recovery": "miui_FLAME_OS1.0.6.0.UGUCNXM_95f0ebd5ac_14.0.zip",
-					"fastboot": "flame_images_OS1.0.6.0.UGUCNXM_20240904.0000.00_14.0_cn_chinatelecom_5ccb9ab669.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -132,6 +90,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],

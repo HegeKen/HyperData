@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
 			"carrier": ["", "chinaunicom"],
 			"region": "cn",
@@ -31,133 +32,45 @@
 					"android": "14.0",
 					"release": "2024-10-23",
 					"recovery": "miui_VENUS_OS1.0.7.0.UKBCNXM_2c7e5f85d1_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": "",
+					"cnmobile": ""
 				},
 				"OS1.0.6.0.UKBCNXM": {
 					"os": "OS1.0.6.0.UKBCNXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_VENUS_OS1.0.6.0.UKBCNXM_58fe53deed_14.0.zip",
-					"fastboot": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_206aeddc39.tgz"
+					"fastboot": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_206aeddc39.tgz",
+					"ctelecom": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_chinatelecom_f2bdc65617.tgz",
+					"cnmobile": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_chinamobile_1043740668.tgz"
 				},
 				"OS1.0.4.0.UKBCNXM": {
 					"os": "OS1.0.4.0.UKBCNXM",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_VENUS_OS1.0.4.0.UKBCNXM_5735dd0b60_14.0.zip",
-					"fastboot": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_abeac22fa1.tgz"
+					"fastboot": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_abeac22fa1.tgz",
+					"ctelecom": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_chinatelecom_9937d24aa6.tgz",
+					"cnmobile": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_chinamobile_3b06ff3da2.tgz"
 				},
 				"OS1.0.3.0.UKBCNXM": {
 					"os": "OS1.0.3.0.UKBCNXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_VENUS_OS1.0.3.0.UKBCNXM_e1a272a3f8_14.0.zip",
-					"fastboot": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_6d63778034.tgz"
+					"fastboot": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_6d63778034.tgz",
+					"ctelecom": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_chinatelecom_7f0fc140c4.tgz",
+					"cnmobile": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_chinamobile_896e6b2497.tgz"
 				},
 				"OS1.0.1.0.UKBCNXM": {
 					"os": "OS1.0.1.0.UKBCNXM",
 					"android": "14.0",
 					"release": "2024-04-15",
 					"recovery": "miui_VENUS_OS1.0.1.0.UKBCNXM_f461404e5a_14.0.zip",
-					"fastboot": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_d9092415f3.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "venus",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.UKBCNXM": {
-					"os": "OS1.0.6.0.UKBCNXM",
-					"android": "14.0",
-					"release": "2024-10-15",
-					"recovery": "miui_VENUS_OS1.0.6.0.UKBCNXM_58fe53deed_14.0.zip",
-					"fastboot": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_chinatelecom_f2bdc65617.tgz"
-				},
-				"OS1.0.4.0.UKBCNXM": {
-					"os": "OS1.0.4.0.UKBCNXM",
-					"android": "14.0",
-					"release": "2024-08-27",
-					"recovery": "miui_VENUS_OS1.0.4.0.UKBCNXM_5735dd0b60_14.0.zip",
-					"fastboot": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_chinatelecom_9937d24aa6.tgz"
-				},
-				"OS1.0.3.0.UKBCNXM": {
-					"os": "OS1.0.3.0.UKBCNXM",
-					"android": "14.0",
-					"release": "2024-07-15",
-					"recovery": "miui_VENUS_OS1.0.3.0.UKBCNXM_e1a272a3f8_14.0.zip",
-					"fastboot": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_chinatelecom_7f0fc140c4.tgz"
-				},
-				"OS1.0.1.0.UKBCNXM": {
-					"os": "OS1.0.1.0.UKBCNXM",
-					"android": "14.0",
-					"release": "2024-04-15",
-					"recovery": "miui_VENUS_OS1.0.1.0.UKBCNXM_f461404e5a_14.0.zip",
-					"fastboot": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_chinatelecom_6390fa717a.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国移动定制版",
-				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
-			},
-			"branchCode": "venus",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
-			"idtag": "CnOM",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.UKBCNXM": {
-					"os": "OS1.0.6.0.UKBCNXM",
-					"android": "14.0",
-					"release": "2024-10-15",
-					"recovery": "miui_VENUS_OS1.0.6.0.UKBCNXM_58fe53deed_14.0.zip",
-					"fastboot": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_chinamobile_1043740668.tgz"
-				},
-				"OS1.0.4.0.UKBCNXM": {
-					"os": "OS1.0.4.0.UKBCNXM",
-					"android": "14.0",
-					"release": "2024-08-27",
-					"recovery": "miui_VENUS_OS1.0.4.0.UKBCNXM_5735dd0b60_14.0.zip",
-					"fastboot": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_chinamobile_3b06ff3da2.tgz"
-				},
-				"OS1.0.3.0.UKBCNXM": {
-					"os": "OS1.0.3.0.UKBCNXM",
-					"android": "14.0",
-					"release": "2024-07-15",
-					"recovery": "miui_VENUS_OS1.0.3.0.UKBCNXM_e1a272a3f8_14.0.zip",
-					"fastboot": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_chinamobile_896e6b2497.tgz"
-				},
-				"OS1.0.1.0.UKBCNXM": {
-					"os": "OS1.0.1.0.UKBCNXM",
-					"android": "14.0",
-					"release": "2024-04-15",
-					"recovery": "miui_VENUS_OS1.0.1.0.UKBCNXM_f461404e5a_14.0.zip",
-					"fastboot": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_chinamobile_2ca84f1024.tgz"
+					"fastboot": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_d9092415f3.tgz",
+					"ctelecom": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_chinatelecom_6390fa717a.tgz",
+					"cnmobile": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_chinamobile_2ca84f1024.tgz"
 				}
 			}
 		},
@@ -174,6 +87,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -223,6 +137,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -279,6 +194,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -335,6 +251,7 @@
       },
 			"idtag": "EUOR",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["orange"],
 			"region": "eea",
@@ -384,6 +301,7 @@
       },
 			"idtag": "EUHG",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["h3g"],
 			"region": "eea",
@@ -426,6 +344,7 @@
       },
 			"idtag": "EUTF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["tf"],
 			"region": "eea",
@@ -468,6 +387,7 @@
       },
 			"idtag": "EUTI",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["tim"],
 			"region": "eea",
@@ -496,6 +416,7 @@
       },
 			"idtag": "EUVF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["vodafone"],
 			"region": "eea",
@@ -538,6 +459,7 @@
       },
 			"idtag": "EUSF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["sfr"],
 			"region": "eea",
@@ -573,6 +495,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -622,6 +545,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -671,6 +595,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

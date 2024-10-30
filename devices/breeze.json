@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,77 +32,32 @@
 					"android": "14.0",
 					"release": "2024-08-29",
 					"recovery": "miui_BREEZE_OS1.0.7.0.UNUCNXM_81824c1da9_14.0.zip",
-					"fastboot": "breeze_images_OS1.0.7.0.UNUCNXM_20240822.0000.00_14.0_cn_884ce98901.tgz"
+					"fastboot": "breeze_images_OS1.0.7.0.UNUCNXM_20240822.0000.00_14.0_cn_884ce98901.tgz",
+					"ctelecom": "breeze_images_OS1.0.7.0.UNUCNXM_20240822.0000.00_14.0_cn_chinatelecom_cd45badbdd.tgz"
 				},
 				"OS1.0.5.0.UNUCNXM": {
 					"os": "OS1.0.5.0.UNUCNXM",
 					"android": "14.0",
 					"release": "2024-07-05",
 					"recovery": "miui_BREEZE_OS1.0.5.0.UNUCNXM_4d970379cc_14.0.zip",
-					"fastboot": "breeze_images_OS1.0.5.0.UNUCNXM_20240624.0000.00_14.0_cn_d15b2f9bdb.tgz"
+					"fastboot": "breeze_images_OS1.0.5.0.UNUCNXM_20240624.0000.00_14.0_cn_d15b2f9bdb.tgz",
+					"ctelecom": "breeze_images_OS1.0.5.0.UNUCNXM_20240624.0000.00_14.0_cn_chinatelecom_0767277662.tgz"
 				},
 				"OS1.0.3.0.UNUCNXM": {
 					"os": "OS1.0.3.0.UNUCNXM",
 					"android": "14.0",
 					"release": "2024-05-31",
 					"recovery": "miui_BREEZE_OS1.0.3.0.UNUCNXM_8202f48cd2_14.0.zip",
-					"fastboot": "breeze_images_OS1.0.3.0.UNUCNXM_20240524.0000.00_14.0_cn_6e8bef47cc.tgz"
+					"fastboot": "breeze_images_OS1.0.3.0.UNUCNXM_20240524.0000.00_14.0_cn_6e8bef47cc.tgz",
+					"ctelecom": "breeze_images_OS1.0.3.0.UNUCNXM_20240524.0000.00_14.0_cn_chinatelecom_2f31c35df5.tgz"
 				},
 				"OS1.0.2.0.UNUCNXM": {
 					"os": "OS1.0.2.0.UNUCNXM",
 					"android": "14.0",
 					"release": "2024-05-30",
 					"recovery": "miui_BREEZE_OS1.0.2.0.UNUCNXM_972d78610e_14.0.zip",
-					"fastboot": "breeze_images_OS1.0.2.0.UNUCNXM_20240425.0000.00_14.0_cn_3d4402831e.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "breeze",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13R 5G",
-        "en" :"Redmi Note 13R 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.7.0.UNUCNXM": {
-					"os": "OS1.0.7.0.UNUCNXM",
-					"android": "14.0",
-					"release": "2024-08-29",
-					"recovery": "miui_BREEZE_OS1.0.7.0.UNUCNXM_81824c1da9_14.0.zip",
-					"fastboot": "breeze_images_OS1.0.7.0.UNUCNXM_20240822.0000.00_14.0_cn_chinatelecom_cd45badbdd.tgz"
-				},
-				"OS1.0.5.0.UNUCNXM": {
-					"os": "OS1.0.5.0.UNUCNXM",
-					"android": "14.0",
-					"release": "2024-07-05",
-					"recovery": "miui_BREEZE_OS1.0.5.0.UNUCNXM_4d970379cc_14.0.zip",
-					"fastboot": "breeze_images_OS1.0.5.0.UNUCNXM_20240624.0000.00_14.0_cn_chinatelecom_0767277662.tgz"
-				},
-				"OS1.0.3.0.UNUCNXM": {
-					"os": "OS1.0.3.0.UNUCNXM",
-					"android": "14.0",
-					"release": "2024-05-31",
-					"recovery": "miui_BREEZE_OS1.0.3.0.UNUCNXM_8202f48cd2_14.0.zip",
-					"fastboot": "breeze_images_OS1.0.3.0.UNUCNXM_20240524.0000.00_14.0_cn_chinatelecom_2f31c35df5.tgz"
-				},
-				"OS1.0.2.0.UNUCNXM": {
-					"os": "OS1.0.2.0.UNUCNXM",
-					"android": "14.0",
-					"release": "2024-05-30",
-					"recovery": "miui_BREEZE_OS1.0.2.0.UNUCNXM_972d78610e_14.0.zip",
-					"fastboot": "breeze_images_OS1.0.2.0.UNUCNXM_20240425.0000.00_14.0_cn_chinatelecom_108fb50296.tgz"
+					"fastboot": "breeze_images_OS1.0.2.0.UNUCNXM_20240425.0000.00_14.0_cn_3d4402831e.tgz",
+					"ctelecom": "breeze_images_OS1.0.2.0.UNUCNXM_20240425.0000.00_14.0_cn_chinatelecom_108fb50296.tgz"
 				}
 			}
 		},
@@ -118,6 +74,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -136,35 +93,6 @@
 		},
 		{
 			"name": {
-				"zh": "小米澎湃 OS 演示机系统",
-				"en": "Xiaomi HyperOS China MiStore Demo"
-			},
-			"branchCode": "breeze_demo",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13R 5G",
-        "en" :"Redmi Note 13R 5G"
-      },
-			"idtag": "CnOD",
-			"branchtag": "F",
-			"show": "0",
-			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.1.0.UNUCNDM": {
-					"os": "OS1.0.1.0.UNUCNDM",
-					"android": "14.0",
-					"release": "2024-05-30",
-					"recovery": "",
-					"fastboot": "",
-					"ctelecom": ""
-				}
-			}
-		},
-		{
-			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -176,6 +104,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",

@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,70 +32,40 @@
 					"android": "14.0",
 					"release": "2024-10-05",
 					"recovery": "miui_AMETHYST_OS1.0.15.0.UOPCNXM_25d98c8903_14.0.zip",
-					"fastboot": "amethyst_images_OS1.0.15.0.UOPCNXM_20241002.0000.00_14.0_cn_ff44f5144e.tgz"
+					"fastboot": "amethyst_images_OS1.0.15.0.UOPCNXM_20241002.0000.00_14.0_cn_ff44f5144e.tgz",
+					"ctelecom": "amethyst_images_OS1.0.15.0.UOPCNXM_20241002.0000.00_14.0_cn_chinatelecom_ffb61091d7.tgz"
 				},
 				"OS1.0.13.0.UOPCNXM": {
 					"os": "OS1.0.13.0.UOPCNXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_AMETHYST_OS1.0.13.0.UOPCNXM_d7a19fc3d0_14.0.zip",
-					"fastboot": "amethyst_images_OS1.0.13.0.UOPCNXM_20240923.0000.00_14.0_cn_d1de562333.tgz"
+					"fastboot": "amethyst_images_OS1.0.13.0.UOPCNXM_20240923.0000.00_14.0_cn_d1de562333.tgz",
+					"ctelecom": "amethyst_images_OS1.0.13.0.UOPCNXM_20240923.0000.00_14.0_cn_chinatelecom_e34232e400.tgz"
 				},
 				"OS1.0.12.0.UOPCNXM": {
 					"os": "OS1.0.12.0.UOPCNXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_AMETHYST_OS1.0.12.0.UOPCNXM_a8d48d7e5d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.9.0.UOPCNXM": {
 					"os": "OS1.0.9.0.UOPCNXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_AMETHYST_OS1.0.9.0.UOPCNXM_71d44d71b6_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.3.0.UOPCNXM": {
 					"os": "OS1.0.3.0.UOPCNXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_AMETHYST_OS1.0.3.0.UOPCNXM_663741157a_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "amethyst",
-			"brand": "Redmi",
-      "device": {
-        "zh": "Redmi Note 14 Pro+",
-        "en": "Redmi Note 14 Pro+"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.15.0.UOPCNXM": {
-					"os": "OS1.0.15.0.UOPCNXM",
-					"android": "14.0",
-					"release": "2024-10-05",
-					"recovery": "miui_AMETHYST_OS1.0.15.0.UOPCNXM_25d98c8903_14.0.zip",
-					"fastboot": "amethyst_images_OS1.0.15.0.UOPCNXM_20241002.0000.00_14.0_cn_chinatelecom_ffb61091d7.tgz"
-				},
-				"OS1.0.13.0.UOPCNXM": {
-					"os": "OS1.0.13.0.UOPCNXM",
-					"android": "14.0",
-					"release": "2024-09-26",
-					"recovery": "miui_AMETHYST_OS1.0.13.0.UOPCNXM_d7a19fc3d0_14.0.zip",
-					"fastboot": "amethyst_images_OS1.0.13.0.UOPCNXM_20240923.0000.00_14.0_cn_chinatelecom_e34232e400.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -111,6 +82,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],

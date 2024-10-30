@@ -20,7 +20,8 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"show": "1",
 			"region": "cn",
 			"zone": "1",
@@ -31,210 +32,120 @@
 					"android": "14.0",
 					"release": "2024-10-25",
 					"recovery": "miui_VERMEER_OS1.0.20.0.UNKCNXM_9de24d741c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.19.0.UNKCNXM": {
 					"os": "OS1.0.19.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2024-09-12",
 					"recovery": "miui_VERMEER_OS1.0.19.0.UNKCNXM_ca6301bfed_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.19.0.UNKCNXM_20240905.0000.00_14.0_cn_208fcd6831.tgz"
+					"fastboot": "vermeer_images_OS1.0.19.0.UNKCNXM_20240905.0000.00_14.0_cn_208fcd6831.tgz",
+					"ctelecom": "vermeer_images_OS1.0.19.0.UNKCNXM_20240905.0000.00_14.0_cn_chinatelecom_6db35eeaa6.tgz"
 				},
 				"OS1.0.18.0.UNKCNXM": {
 					"os": "OS1.0.18.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2024-08-14",
 					"recovery": "miui_VERMEER_OS1.0.18.0.UNKCNXM_fbebb58fac_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.18.0.UNKCNXM_20240801.0000.00_14.0_cn_2575064a28.tgz"
+					"fastboot": "vermeer_images_OS1.0.18.0.UNKCNXM_20240801.0000.00_14.0_cn_2575064a28.tgz",
+					"ctelecom": "vermeer_images_OS1.0.18.0.UNKCNXM_20240801.0000.00_14.0_cn_chinatelecom_de77963ff5.tgz"
 				},
 				"OS1.0.17.0.UNKCNXM": {
 					"os": "OS1.0.17.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2024-07-09",
 					"recovery": "miui_VERMEER_OS1.0.17.0.UNKCNXM_42aae2b873_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.17.0.UNKCNXM_20240704.0000.00_14.0_cn_9345e723ce.tgz"
+					"fastboot": "vermeer_images_OS1.0.17.0.UNKCNXM_20240704.0000.00_14.0_cn_9345e723ce.tgz",
+					"ctelecom": "vermeer_images_OS1.0.17.0.UNKCNXM_20240704.0000.00_14.0_cn_chinatelecom_1da7008ebc.tgz"
 				},
 				"OS1.0.16.0.UNKCNXM": {
 					"os": "OS1.0.16.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2024-05-28",
 					"recovery": "miui_VERMEER_OS1.0.16.0.UNKCNXM_582f1b0e4b_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.16.0.UNKCNXM_20240521.0000.00_14.0_cn_d44714cfb1.tgz"
+					"fastboot": "vermeer_images_OS1.0.16.0.UNKCNXM_20240521.0000.00_14.0_cn_d44714cfb1.tgz",
+					"ctelecom": "vermeer_images_OS1.0.16.0.UNKCNXM_20240521.0000.00_14.0_cn_chinatelecom_60cf8ffb71.tgz"
 				},
 				"OS1.0.15.0.UNKCNXM": {
 					"os": "OS1.0.15.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2024-03-20",
 					"recovery": "miui_VERMEER_OS1.0.15.0.UNKCNXM_2100d3fc37_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.15.0.UNKCNXM_20240312.0000.00_14.0_cn_65e34b6274.tgz"
+					"fastboot": "vermeer_images_OS1.0.15.0.UNKCNXM_20240312.0000.00_14.0_cn_65e34b6274.tgz",
+					"ctelecom": "vermeer_images_OS1.0.15.0.UNKCNXM_20240312.0000.00_14.0_cn_chinatelecom_01f185461f.tgz"
 				},
 				"OS1.0.14.0.UNKCNXM": {
 					"os": "OS1.0.14.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2024-01-31",
 					"recovery": "miui_VERMEER_OS1.0.14.0.UNKCNXM_ffcf14bb97_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.14.0.UNKCNXM_20240125.0000.00_14.0_cn_28a87a3473.tgz"
+					"fastboot": "vermeer_images_OS1.0.14.0.UNKCNXM_20240125.0000.00_14.0_cn_28a87a3473.tgz",
+					"ctelecom": "vermeer_images_OS1.0.14.0.UNKCNXM_20240125.0000.00_14.0_cn_chinatelecom_75b1cf6dd6.tgz"
 				},
 				"OS1.0.13.0.UNKCNXM": {
 					"os": "OS1.0.13.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2024-01-16",
 					"recovery": "miui_VERMEER_OS1.0.13.0.UNKCNXM_22cb92880c_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.13.0.UNKCNXM_20240112.0000.00_14.0_cn_754c3dd20e.tgz"
+					"fastboot": "vermeer_images_OS1.0.13.0.UNKCNXM_20240112.0000.00_14.0_cn_754c3dd20e.tgz",
+					"ctelecom": "vermeer_images_OS1.0.13.0.UNKCNXM_20240112.0000.00_14.0_cn_chinatelecom_d11a5de22f.tgz"
 				},
 				"OS1.0.11.0.UNKCNXM": {
 					"os": "OS1.0.11.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2023-12-30",
 					"recovery": "miui_VERMEER_OS1.0.11.0.UNKCNXM_2316bc4e67_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.11.0.UNKCNXM_20231226.0000.00_14.0_cn_9c022ddb2d.tgz"
+					"fastboot": "vermeer_images_OS1.0.11.0.UNKCNXM_20231226.0000.00_14.0_cn_9c022ddb2d.tgz",
+					"ctelecom": "vermeer_images_OS1.0.11.0.UNKCNXM_20231226.0000.00_14.0_cn_chinatelecom_1db3afeaea.tgz"
 				},
 				"OS1.0.9.0.UNKCNXM": {
 					"os": "OS1.0.9.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2023-12-23",
 					"recovery": "miui_VERMEER_OS1.0.9.0.UNKCNXM_0b5a5cb3a0_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.9.0.UNKCNXM_20231219.0000.00_14.0_cn_0a33d3dc51.tgz"
+					"fastboot": "vermeer_images_OS1.0.9.0.UNKCNXM_20231219.0000.00_14.0_cn_0a33d3dc51.tgz",
+					"ctelecom": "vermeer_images_OS1.0.9.0.UNKCNXM_20231219.0000.00_14.0_cn_chinatelecom_be7e9c373a.tgz"
 				},
 				"OS1.0.8.0.UNKCNXM": {
 					"os": "OS1.0.8.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2023-12-15",
 					"recovery": "miui_VERMEER_OS1.0.8.0.UNKCNXM_76129167f7_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.8.0.UNKCNXM_20231212.0000.00_14.0_cn_27c7c82d21.tgz"
+					"fastboot": "vermeer_images_OS1.0.8.0.UNKCNXM_20231212.0000.00_14.0_cn_27c7c82d21.tgz",
+					"ctelecom": "vermeer_images_OS1.0.8.0.UNKCNXM_20231212.0000.00_14.0_cn_chinatelecom_6760d60aea.tgz"
 				},
 				"OS1.0.7.0.UNKCNXM": {
 					"os": "OS1.0.7.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2023-12-09",
 					"recovery": "miui_VERMEER_OS1.0.7.0.UNKCNXM_98005153d7_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.7.0.UNKCNXM_20231206.0000.00_14.0_cn_86cf06ea24.tgz"
+					"fastboot": "vermeer_images_OS1.0.7.0.UNKCNXM_20231206.0000.00_14.0_cn_86cf06ea24.tgz",
+					"ctelecom": "vermeer_images_OS1.0.7.0.UNKCNXM_20231206.0000.00_14.0_cn_chinatelecom_14e0604e66.tgz"
 				},
 				"OS1.0.5.0.UNKCNXM": {
 					"os": "OS1.0.5.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2023-11-29",
 					"recovery": "miui_VERMEER_OS1.0.5.0.UNKCNXM_164e6600c7_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.5.0.UNKCNXM_20231124.0000.00_14.0_cn_c24a27d1e9.tgz"
+					"fastboot": "vermeer_images_OS1.0.5.0.UNKCNXM_20231124.0000.00_14.0_cn_c24a27d1e9.tgz",
+					"ctelecom": "vermeer_images_OS1.0.5.0.UNKCNXM_20231124.0000.00_14.0_cn_chinatelecom_c43e87dea2.tgz"
 				},
 				"OS1.0.4.0.UNKCNXM": {
 					"os": "OS1.0.4.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2023-11-29",
 					"recovery": "miui_VERMEER_OS1.0.4.0.UNKCNXM_c3235c755f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.2.0.UNKCNXM": {
 					"os": "OS1.0.2.0.UNKCNXM",
 					"android": "14.0",
 					"release": "2023-11-29",
 					"recovery": "miui_VERMEER_OS1.0.2.0.UNKCNXM_0e1996a1c5_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "vermeer",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70",
-        "en" :"Redmi K70"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"carrier": ["chinatelecom"],
-			"show": "1",
-			"region": "cn",
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.19.0.UNKCNXM": {
-					"os": "OS1.0.19.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2024-09-12",
-					"recovery": "miui_VERMEER_OS1.0.19.0.UNKCNXM_ca6301bfed_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.19.0.UNKCNXM_20240905.0000.00_14.0_cn_chinatelecom_6db35eeaa6.tgz"
-				},
-				"OS1.0.18.0.UNKCNXM": {
-					"os": "OS1.0.18.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2024-08-14",
-					"recovery": "miui_VERMEER_OS1.0.18.0.UNKCNXM_fbebb58fac_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.18.0.UNKCNXM_20240801.0000.00_14.0_cn_chinatelecom_de77963ff5.tgz"
-				},
-				"OS1.0.17.0.UNKCNXM": {
-					"os": "OS1.0.17.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2024-07-09",
-					"recovery": "miui_VERMEER_OS1.0.17.0.UNKCNXM_42aae2b873_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.17.0.UNKCNXM_20240704.0000.00_14.0_cn_chinatelecom_1da7008ebc.tgz"
-				},
-				"OS1.0.16.0.UNKCNXM": {
-					"os": "OS1.0.16.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2024-05-28",
-					"recovery": "miui_VERMEER_OS1.0.16.0.UNKCNXM_582f1b0e4b_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.16.0.UNKCNXM_20240521.0000.00_14.0_cn_chinatelecom_60cf8ffb71.tgz"
-				},
-				"OS1.0.15.0.UNKCNXM": {
-					"os": "OS1.0.15.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2024-03-20",
-					"recovery": "miui_VERMEER_OS1.0.15.0.UNKCNXM_2100d3fc37_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.15.0.UNKCNXM_20240312.0000.00_14.0_cn_chinatelecom_01f185461f.tgz"
-				},
-				"OS1.0.14.0.UNKCNXM": {
-					"os": "OS1.0.14.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2024-01-31",
-					"recovery": "miui_VERMEER_OS1.0.14.0.UNKCNXM_ffcf14bb97_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.14.0.UNKCNXM_20240125.0000.00_14.0_cn_chinatelecom_75b1cf6dd6.tgz"
-				},
-				"OS1.0.13.0.UNKCNXM": {
-					"os": "OS1.0.13.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2024-01-16",
-					"recovery": "miui_VERMEER_OS1.0.13.0.UNKCNXM_22cb92880c_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.13.0.UNKCNXM_20240112.0000.00_14.0_cn_chinatelecom_d11a5de22f.tgz"
-				},
-				"OS1.0.11.0.UNKCNXM": {
-					"os": "OS1.0.11.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2023-12-30",
-					"recovery": "miui_VERMEER_OS1.0.11.0.UNKCNXM_2316bc4e67_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.11.0.UNKCNXM_20231226.0000.00_14.0_cn_chinatelecom_1db3afeaea.tgz"
-				},
-				"OS1.0.9.0.UNKCNXM": {
-					"os": "OS1.0.9.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2023-12-23",
-					"recovery": "miui_VERMEER_OS1.0.9.0.UNKCNXM_0b5a5cb3a0_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.9.0.UNKCNXM_20231219.0000.00_14.0_cn_chinatelecom_be7e9c373a.tgz"
-				},
-				"OS1.0.8.0.UNKCNXM": {
-					"os": "OS1.0.8.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2023-12-15",
-					"recovery": "miui_VERMEER_OS1.0.8.0.UNKCNXM_76129167f7_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.8.0.UNKCNXM_20231212.0000.00_14.0_cn_chinatelecom_6760d60aea.tgz"
-				},
-				"OS1.0.7.0.UNKCNXM": {
-					"os": "OS1.0.7.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2023-12-09",
-					"recovery": "miui_VERMEER_OS1.0.7.0.UNKCNXM_98005153d7_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.7.0.UNKCNXM_20231206.0000.00_14.0_cn_chinatelecom_14e0604e66.tgz"
-				},
-				"OS1.0.5.0.UNKCNXM": {
-					"os": "OS1.0.5.0.UNKCNXM",
-					"android": "14.0",
-					"release": "2023-11-29",
-					"recovery": "miui_VERMEER_OS1.0.5.0.UNKCNXM_164e6600c7_14.0.zip",
-					"fastboot": "vermeer_images_OS1.0.5.0.UNKCNXM_20231124.0000.00_14.0_cn_chinatelecom_c43e87dea2.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -251,6 +162,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -304,6 +216,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -365,6 +278,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -414,6 +328,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -477,6 +392,7 @@
       },
 			"idtag": "EUHG",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["h3g"],
 			"region": "eea",
@@ -540,6 +456,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",

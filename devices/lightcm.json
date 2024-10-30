@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"],
 			"show": "1",
 			"carrier": [""],
 			"region": "cn",
@@ -31,105 +32,20 @@
 					"android": "14.0",
 					"release": "2024-10-02",
 					"recovery": "miui_LIGHTCM_OS1.0.10.0.ULSCNXM_2480e0b8a0_14.0.zip",
-					"fastboot": "lightcm_images_OS1.0.10.0.ULSCNXM_20240904.0000.00_14.0_cn_47363ca7bb.tgz"
+					"fastboot": "lightcm_images_OS1.0.10.0.ULSCNXM_20240904.0000.00_14.0_cn_47363ca7bb.tgz",
+					"ctelecom": "lightcm_images_OS1.0.10.0.ULSCNXM_20240904.0000.00_14.0_cn_chinatelecom_c536bc1bb1.tgz",
+					"cnmobile": "",
+					"cnunicom": ""
 				},
 				"OS1.0.6.0.ULSCNXM": {
 					"os": "OS1.0.6.0.ULSCNXM",
 					"android": "14.0",
 					"release": "2024-01-04",
 					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
-					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_efff67dbb0.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "lightcm",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11R",
-        "en" :"Redmi Note 11R"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.10.0.ULSCNXM": {
-					"os": "OS1.0.10.0.ULSCNXM",
-					"android": "14.0",
-					"release": "2024-10-02",
-					"recovery": "miui_LIGHTCM_OS1.0.10.0.ULSCNXM_2480e0b8a0_14.0.zip",
-					"fastboot": "lightcm_images_OS1.0.10.0.ULSCNXM_20240904.0000.00_14.0_cn_chinatelecom_c536bc1bb1.tgz"
-				},
-				"OS1.0.6.0.ULSCNXM": {
-					"os": "OS1.0.6.0.ULSCNXM",
-					"android": "14.0",
-					"release": "2024-01-04",
-					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
-					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinatelecom_07e372051f.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国移动定制版",
-				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
-			},
-			"branchCode": "lightcm",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11R",
-        "en" :"Redmi Note 11R"
-      },
-			"idtag": "CnOM",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.ULSCNXM": {
-					"os": "OS1.0.6.0.ULSCNXM",
-					"android": "14.0",
-					"release": "2024-01-04",
-					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
-					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinamobile_cd7723a063.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国联通定制版",
-				"en": "Xiaomi HyperOS China Unicom Carrier Edition"
-			},
-			"branchCode": "lightcm",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11R",
-        "en" :"Redmi Note 11R"
-      },
-			"idtag": "CnOU",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinaunicom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.6.0.ULSCNXM": {
-					"os": "OS1.0.6.0.ULSCNXM",
-					"android": "14.0",
-					"release": "2024-01-04",
-					"recovery": "miui_LIGHTCM_OS1.0.6.0.ULSCNXM_988f45bbac_14.0.zip",
-					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinaunicom_a659a05fca.tgz"
+					"fastboot": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_efff67dbb0.tgz",
+					"ctelecom": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinatelecom_07e372051f.tgz",
+					"cnmobile": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinamobile_cd7723a063.tgz",
+					"cnunicom": "lightcm_images_OS1.0.6.0.ULSCNXM_20231226.0000.00_14.0_cn_chinaunicom_a659a05fca.tgz"
 				}
 			}
 		}

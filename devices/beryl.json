@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,42 +32,16 @@
 					"android": "14.0",
 					"release": "2024-10-25",
 					"recovery": "miui_BERYL_OS1.0.3.0.UOQCNXM_96cb3b6017_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.2.0.UOQCNXM": {
 					"os": "OS1.0.2.0.UOQCNXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_BERYL_OS1.0.2.0.UOQCNXM_593961cbe2_14.0.zip",
-					"fastboot": "beryl_images_OS1.0.2.0.UOQCNXM_20240911.0000.00_14.0_cn_1e4bda13fe.tgz"
-				}
-			}
-		},
-    {
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "beryl",
-			"brand": "Redmi",
-      "device": {
-        "zh": "Redmi Note 14 5G",
-        "en": "Redmi Note 14 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.2.0.UOQCNXM": {
-					"os": "OS1.0.2.0.UOQCNXM",
-					"android": "14.0",
-					"release": "2024-09-26",
-					"recovery": "miui_BERYL_OS1.0.2.0.UOQCNXM_593961cbe2_14.0.zip",
-					"fastboot": "beryl_images_OS1.0.2.0.UOQCNXM_20240911.0000.00_14.0_cn_chinatelecom_1b3080be9e.tgz"
+					"fastboot": "beryl_images_OS1.0.2.0.UOQCNXM_20240911.0000.00_14.0_cn_1e4bda13fe.tgz",
+					"ctelecom": "beryl_images_OS1.0.2.0.UOQCNXM_20240911.0000.00_14.0_cn_chinatelecom_1b3080be9e.tgz"
 				}
 			}
 		},
@@ -83,6 +58,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",

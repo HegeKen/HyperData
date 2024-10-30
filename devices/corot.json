@@ -21,6 +21,7 @@
 			"idtag": "ADPC",
 			"url": "https://www.xiaomi.cn/post/44582045",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -79,6 +80,7 @@
 			"idtag": "ADPG",
 			"url": "https://new.c.mi.com/global/post/951812",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -127,6 +129,7 @@
       },
 			"idtag": "Beta",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -176,8 +179,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -187,182 +191,120 @@
 					"android": "14.0",
 					"release": "2024-10-12",
 					"recovery": "miui_COROT_OS1.0.23.0.UMLCNXM_f444c308c8_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.22.0.UMLCNXM": {
 					"os": "OS1.0.22.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-08-14",
 					"recovery": "miui_COROT_OS1.0.22.0.UMLCNXM_7b539d7cbd_14.0.zip",
-					"fastboot": "corot_images_OS1.0.22.0.UMLCNXM_20240806.0000.00_14.0_cn_863d62019d.tgz"
+					"fastboot": "corot_images_OS1.0.22.0.UMLCNXM_20240806.0000.00_14.0_cn_863d62019d.tgz",
+					"ctelecom": "corot_images_OS1.0.22.0.UMLCNXM_20240806.0000.00_14.0_cn_chinatelecom_e35e62d373.tgz"
 				},
 				"OS1.0.18.0.UMLCNXM": {
 					"os": "OS1.0.18.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-07-12",
 					"recovery": "miui_COROT_OS1.0.18.0.UMLCNXM_a086066b44_14.0.zip",
-					"fastboot": "corot_images_OS1.0.18.0.UMLCNXM_20240711.0000.00_14.0_cn_ed9d6a6f86.tgz"
+					"fastboot": "corot_images_OS1.0.18.0.UMLCNXM_20240711.0000.00_14.0_cn_ed9d6a6f86.tgz",
+					"ctelecom": "corot_images_OS1.0.18.0.UMLCNXM_20240711.0000.00_14.0_cn_chinatelecom_5be81174b4.tgz"
 				},
 				"OS1.0.17.0.UMLCNXM": {
 					"os": "OS1.0.17.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-07-05",
 					"recovery": "miui_COROT_OS1.0.17.0.UMLCNXM_df5b9ad2c6_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.15.0.UMLCNXM": {
 					"os": "OS1.0.15.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-06-28",
 					"recovery": "miui_COROT_OS1.0.15.0.UMLCNXM_c8567484cb_14.0.zip",
-					"fastboot": "corot_images_OS1.0.15.0.UMLCNXM_20240624.0000.00_14.0_cn_0bb90214ad.tgz"
+					"fastboot": "corot_images_OS1.0.15.0.UMLCNXM_20240624.0000.00_14.0_cn_0bb90214ad.tgz",
+					"ctelecom": "corot_images_OS1.0.15.0.UMLCNXM_20240624.0000.00_14.0_cn_chinatelecom_b0de392fd4.tgz"
 				},
 				"OS1.0.13.0.UMLCNXM": {
 					"os": "OS1.0.13.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-05-17",
 					"recovery": "miui_COROT_OS1.0.13.0.UMLCNXM_a1699d77ea_14.0.zip",
-					"fastboot": "corot_images_OS1.0.13.0.UMLCNXM_20240510.0000.00_14.0_cn_25e40d45fb.tgz"
+					"fastboot": "corot_images_OS1.0.13.0.UMLCNXM_20240510.0000.00_14.0_cn_25e40d45fb.tgz",
+					"ctelecom": "corot_images_OS1.0.13.0.UMLCNXM_20240510.0000.00_14.0_cn_chinatelecom_1a3d292c89.tgz"
 				},
 				"OS1.0.12.0.UMLCNXM": {
 					"os": "OS1.0.12.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-04-16",
 					"recovery": "miui_COROT_OS1.0.12.0.UMLCNXM_3f33752523_14.0.zip",
-					"fastboot": "corot_images_OS1.0.12.0.UMLCNXM_20240403.0000.00_14.0_cn_8e92747126.tgz"
+					"fastboot": "corot_images_OS1.0.12.0.UMLCNXM_20240403.0000.00_14.0_cn_8e92747126.tgz",
+					"ctelecom": "corot_images_OS1.0.12.0.UMLCNXM_20240403.0000.00_14.0_cn_chinatelecom_e6e73eca72.tgz"
 				},
 				"OS1.0.11.0.UMLCNXM": {
 					"os": "OS1.0.11.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-03-14",
 					"recovery": "miui_COROT_OS1.0.11.0.UMLCNXM_686874abe8_14.0.zip",
-					"fastboot": "corot_images_OS1.0.11.0.UMLCNXM_20240311.0000.00_14.0_cn_cdfaeb11f4.tgz"
+					"fastboot": "corot_images_OS1.0.11.0.UMLCNXM_20240311.0000.00_14.0_cn_cdfaeb11f4.tgz",
+					"ctelecom": "corot_images_OS1.0.11.0.UMLCNXM_20240311.0000.00_14.0_cn_chinatelecom_9c2f042127.tgz"
 				},
 				"OS1.0.10.0.UMLCNXM": {
 					"os": "OS1.0.10.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-03-06",
 					"recovery": "miui_COROT_OS1.0.10.0.UMLCNXM_147c459717_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.9.6.UMLCNXM": {
 					"os": "OS1.0.9.6.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-03-01",
 					"recovery": "miui_COROT_OS1.0.9.6.UMLCNXM_fb33cc0d0d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.9.0.UMLCNXM": {
 					"os": "OS1.0.9.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-01-19",
 					"recovery": "miui_COROT_OS1.0.9.0.UMLCNXM_c85fa47cf5_14.0.zip",
-					"fastboot": "corot_images_OS1.0.9.0.UMLCNXM_20240105.0000.00_14.0_cn_bf4a88f84f.tgz"
+					"fastboot": "corot_images_OS1.0.9.0.UMLCNXM_20240105.0000.00_14.0_cn_bf4a88f84f.tgz",
+					"ctelecom": "corot_images_OS1.0.9.0.UMLCNXM_20240105.0000.00_14.0_cn_chinatelecom_85e592c083.tgz"
 				},
 				"OS1.0.7.3.UMLCNXM": {
 					"os": "OS1.0.7.3.UMLCNXM",
 					"android": "14.0",
 					"release": "2024-01-10",
 					"recovery": "miui_COROT_OS1.0.7.3.UMLCNXM_f1b4c06467_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.7.0.UMLCNXM": {
 					"os": "OS1.0.7.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2023-12-26",
 					"recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
-					"fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_fb02072a37.tgz"
+					"fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_fb02072a37.tgz",
+					"ctelecom": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_chinatelecom_25652c4a14.tgz"
 				},
 				"OS1.0.5.0.UMLCNXM": {
 					"os": "OS1.0.5.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2023-12-02",
 					"recovery": "miui_COROT_OS1.0.5.0.UMLCNXM_a2e2e5f060_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.4.0.UMLCNXM": {
 					"os": "OS1.0.4.0.UMLCNXM",
 					"android": "14.0",
 					"release": "2023-12-01",
 					"recovery": "miui_COROT_OS1.0.4.0.UMLCNXM_a5903dd20a_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "corot",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K60 至尊版",
-        "en" :"Redmi K60 Ultra"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.22.0.UMLCNXM": {
-					"os": "OS1.0.22.0.UMLCNXM",
-					"android": "14.0",
-					"release": "2024-08-14",
-					"recovery": "miui_COROT_OS1.0.22.0.UMLCNXM_7b539d7cbd_14.0.zip",
-					"fastboot": "corot_images_OS1.0.22.0.UMLCNXM_20240806.0000.00_14.0_cn_chinatelecom_e35e62d373.tgz"
-				},
-				"OS1.0.18.0.UMLCNXM": {
-					"os": "OS1.0.18.0.UMLCNXM",
-					"android": "14.0",
-					"release": "2024-07-12",
-					"recovery": "miui_COROT_OS1.0.18.0.UMLCNXM_a086066b44_14.0.zip",
-					"fastboot": "corot_images_OS1.0.18.0.UMLCNXM_20240711.0000.00_14.0_cn_chinatelecom_5be81174b4.tgz"
-				},
-				"OS1.0.15.0.UMLCNXM": {
-					"os": "OS1.0.15.0.UMLCNXM",
-					"android": "14.0",
-					"release": "2024-06-28",
-					"recovery": "miui_COROT_OS1.0.15.0.UMLCNXM_c8567484cb_14.0.zip",
-					"fastboot": "corot_images_OS1.0.15.0.UMLCNXM_20240624.0000.00_14.0_cn_chinatelecom_b0de392fd4.tgz"
-				},
-				"OS1.0.13.0.UMLCNXM": {
-					"os": "OS1.0.13.0.UMLCNXM",
-					"android": "14.0",
-					"release": "2024-05-17",
-					"recovery": "miui_COROT_OS1.0.13.0.UMLCNXM_a1699d77ea_14.0.zip",
-					"fastboot": "corot_images_OS1.0.13.0.UMLCNXM_20240510.0000.00_14.0_cn_chinatelecom_1a3d292c89.tgz"
-				},
-				"OS1.0.12.0.UMLCNXM": {
-					"os": "OS1.0.12.0.UMLCNXM",
-					"android": "14.0",
-					"release": "2024-04-16",
-					"recovery": "miui_COROT_OS1.0.12.0.UMLCNXM_3f33752523_14.0.zip",
-					"fastboot": "corot_images_OS1.0.12.0.UMLCNXM_20240403.0000.00_14.0_cn_chinatelecom_e6e73eca72.tgz"
-				},
-				"OS1.0.11.0.UMLCNXM": {
-					"os": "OS1.0.11.0.UMLCNXM",
-					"android": "14.0",
-					"release": "2024-03-14",
-					"recovery": "miui_COROT_OS1.0.11.0.UMLCNXM_686874abe8_14.0.zip",
-					"fastboot": "corot_images_OS1.0.11.0.UMLCNXM_20240311.0000.00_14.0_cn_chinatelecom_9c2f042127.tgz"
-				},
-				"OS1.0.9.0.UMLCNXM": {
-					"os": "OS1.0.9.0.UMLCNXM",
-					"android": "14.0",
-					"release": "2024-01-19",
-					"recovery": "miui_COROT_OS1.0.9.0.UMLCNXM_c85fa47cf5_14.0.zip",
-					"fastboot": "corot_images_OS1.0.9.0.UMLCNXM_20240105.0000.00_14.0_cn_chinatelecom_85e592c083.tgz"
-				},
-				"OS1.0.7.0.UMLCNXM": {
-					"os": "OS1.0.7.0.UMLCNXM",
-					"android": "14.0",
-					"release": "2023-12-26",
-					"recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
-					"fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_chinatelecom_25652c4a14.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -379,6 +321,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -428,6 +371,7 @@
       },
 			"idtag": "GBEB",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -456,6 +400,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -505,6 +450,7 @@
       },
 			"idtag": "EEAB",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -533,6 +479,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -596,6 +543,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -638,6 +586,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",
@@ -680,6 +629,7 @@
       },
 			"idtag": "JAPS",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "jp",

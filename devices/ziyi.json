@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,119 +32,56 @@
 					"android": "14.0",
 					"release": "2024-10-18",
 					"recovery": "miui_ZIYI_OS1.0.9.0.ULLCNXM_b696d580e9_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.9.0.ULLCNXM_20240929.0000.00_14.0_cn_37e82c69a8.tgz"
+					"fastboot": "ziyi_images_OS1.0.9.0.ULLCNXM_20240929.0000.00_14.0_cn_37e82c69a8.tgz",
+					"ctelecom": "ziyi_images_OS1.0.9.0.ULLCNXM_20240929.0000.00_14.0_cn_chinatelecom_feef8be804.tgz"
 				},
 				"OS1.0.8.0.ULLCNXM": {
 					"os": "OS1.0.8.0.ULLCNXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_ZIYI_OS1.0.8.0.ULLCNXM_640193df6c_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.8.0.ULLCNXM_20240910.0000.00_14.0_cn_59c4d23fd2.tgz"
+					"fastboot": "ziyi_images_OS1.0.8.0.ULLCNXM_20240910.0000.00_14.0_cn_59c4d23fd2.tgz",
+					"ctelecom": "ziyi_images_OS1.0.8.0.ULLCNXM_20240910.0000.00_14.0_cn_chinatelecom_91cc2782e9.tgz"
 				},
 				"OS1.0.7.0.ULLCNXM": {
 					"os": "OS1.0.7.0.ULLCNXM",
 					"android": "14.0",
 					"release": "2024-09-04",
 					"recovery": "miui_ZIYI_OS1.0.7.0.ULLCNXM_0632c572db_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.7.0.ULLCNXM_20240816.0000.00_14.0_cn_1bd1f92fe8.tgz"
+					"fastboot": "ziyi_images_OS1.0.7.0.ULLCNXM_20240816.0000.00_14.0_cn_1bd1f92fe8.tgz",
+					"ctelecom": "ziyi_images_OS1.0.7.0.ULLCNXM_20240816.0000.00_14.0_cn_chinatelecom_1bb04faeba.tgz"
 				},
 				"OS1.0.6.0.ULLCNXM": {
 					"os": "OS1.0.6.0.ULLCNXM",
 					"android": "14.0",
 					"release": "2024-08-07",
 					"recovery": "miui_ZIYI_OS1.0.6.0.ULLCNXM_e68288a120_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.6.0.ULLCNXM_20240722.0000.00_14.0_cn_0112e800cc.tgz"
+					"fastboot": "ziyi_images_OS1.0.6.0.ULLCNXM_20240722.0000.00_14.0_cn_0112e800cc.tgz",
+					"ctelecom": "ziyi_images_OS1.0.6.0.ULLCNXM_20240722.0000.00_14.0_cn_chinatelecom_df8348c89d.tgz"
 				},
 				"OS1.0.4.0.ULLCNXM": {
 					"os": "OS1.0.4.0.ULLCNXM",
 					"android": "14.0",
 					"release": "2024-06-07",
 					"recovery": "miui_ZIYI_OS1.0.4.0.ULLCNXM_9c918c8a0a_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.4.0.ULLCNXM_20240528.0000.00_14.0_cn_f80d515a3b.tgz"
+					"fastboot": "ziyi_images_OS1.0.4.0.ULLCNXM_20240528.0000.00_14.0_cn_f80d515a3b.tgz",
+					"ctelecom": "ziyi_images_OS1.0.4.0.ULLCNXM_20240528.0000.00_14.0_cn_chinatelecom_06d52277b7.tgz"
 				},
 				"OS1.0.3.0.ULLCNXM": {
 					"os": "OS1.0.3.0.ULLCNXM",
 					"android": "14.0",
 					"release": "2024-04-16",
 					"recovery": "miui_ZIYI_OS1.0.3.0.ULLCNXM_cc6915aa21_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.3.0.ULLCNXM_20240409.0000.00_14.0_cn_62fad40fe6.tgz"
+					"fastboot": "ziyi_images_OS1.0.3.0.ULLCNXM_20240409.0000.00_14.0_cn_62fad40fe6.tgz",
+					"ctelecom": "ziyi_images_OS1.0.3.0.ULLCNXM_20240409.0000.00_14.0_cn_chinatelecom_e60f7c9b31.tgz"
 				},
         "OS1.0.1.0.ULLCNXM": {
           "os": "OS1.0.1.0.ULLCNXM",
           "android": "14.0",
           "release": "2024-02-23",
           "recovery": "miui_ZIYI_OS1.0.1.0.ULLCNXM_89dd31358d_14.0.zip",
-          "fastboot": "ziyi_images_OS1.0.1.0.ULLCNXM_20240203.0000.00_14.0_cn_2eb9c05433.tgz"
-        }
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "ziyi",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 Civi 2",
-        "en" :"Xiaomi Civi 2"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.9.0.ULLCNXM": {
-					"os": "OS1.0.9.0.ULLCNXM",
-					"android": "14.0",
-					"release": "2024-10-18",
-					"recovery": "miui_ZIYI_OS1.0.9.0.ULLCNXM_b696d580e9_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.9.0.ULLCNXM_20240929.0000.00_14.0_cn_chinatelecom_feef8be804.tgz"
-				},
-				"OS1.0.8.0.ULLCNXM": {
-					"os": "OS1.0.8.0.ULLCNXM",
-					"android": "14.0",
-					"release": "2024-09-26",
-					"recovery": "miui_ZIYI_OS1.0.8.0.ULLCNXM_640193df6c_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.8.0.ULLCNXM_20240910.0000.00_14.0_cn_chinatelecom_91cc2782e9.tgz"
-				},
-				"OS1.0.7.0.ULLCNXM": {
-					"os": "OS1.0.7.0.ULLCNXM",
-					"android": "14.0",
-					"release": "2024-09-04",
-					"recovery": "miui_ZIYI_OS1.0.7.0.ULLCNXM_0632c572db_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.7.0.ULLCNXM_20240816.0000.00_14.0_cn_chinatelecom_1bb04faeba.tgz"
-				},
-				"OS1.0.6.0.ULLCNXM": {
-					"os": "OS1.0.6.0.ULLCNXM",
-					"android": "14.0",
-					"release": "2024-08-07",
-					"recovery": "miui_ZIYI_OS1.0.6.0.ULLCNXM_e68288a120_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.6.0.ULLCNXM_20240722.0000.00_14.0_cn_chinatelecom_df8348c89d.tgz"
-				},
-				"OS1.0.4.0.ULLCNXM": {
-					"os": "OS1.0.4.0.ULLCNXM",
-					"android": "14.0",
-					"release": "2024-06-07",
-					"recovery": "miui_ZIYI_OS1.0.4.0.ULLCNXM_9c918c8a0a_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.4.0.ULLCNXM_20240528.0000.00_14.0_cn_chinatelecom_06d52277b7.tgz"
-				},
-				"OS1.0.3.0.ULLCNXM": {
-					"os": "OS1.0.3.0.ULLCNXM",
-					"android": "14.0",
-					"release": "2024-04-16",
-					"recovery": "miui_ZIYI_OS1.0.3.0.ULLCNXM_cc6915aa21_14.0.zip",
-					"fastboot": "ziyi_images_OS1.0.3.0.ULLCNXM_20240409.0000.00_14.0_cn_chinatelecom_e60f7c9b31.tgz"
-				},
-        "OS1.0.1.0.ULLCNXM": {
-          "os": "OS1.0.1.0.ULLCNXM",
-          "android": "14.0",
-          "release": "2024-02-23",
-          "recovery": "miui_ZIYI_OS1.0.1.0.ULLCNXM_89dd31358d_14.0.zip",
-          "fastboot": "ziyi_images_OS1.0.1.0.ULLCNXM_20240203.0000.00_14.0_cn_chinatelecom_f1d4808caf.tgz"
+          "fastboot": "ziyi_images_OS1.0.1.0.ULLCNXM_20240203.0000.00_14.0_cn_2eb9c05433.tgz",
+          "ctelecom": "ziyi_images_OS1.0.1.0.ULLCNXM_20240203.0000.00_14.0_cn_chinatelecom_f1d4808caf.tgz"
         }
 			}
 		},
@@ -160,6 +98,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -223,6 +162,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -286,6 +226,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -349,6 +290,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -412,6 +354,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -39,7 +40,8 @@
 					"android": "15.0",
 					"release": "2024-10-29",
 					"recovery": "haotian-ota_full-OS2.0.8.3.VOBCNXM-user-15.0-d48166323b.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -56,6 +58,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],

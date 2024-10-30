@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,35 +32,8 @@
 					"android": "13.0",
 					"release": "2024-02-20",
 					"recovery": "miui_CETUS_OS1.0.1.0.TJTCNXM_c5477967cc_13.0.zip",
-					"fastboot": "cetus_images_OS1.0.1.0.TJTCNXM_20240201.0000.00_13.0_cn_aea3816cf1.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "cetus",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX FOLD",
-        "en" :"Mi MIX FOLD"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.1.0.TJTCNXM": {
-					"os": "OS1.0.1.0.TJTCNXM",
-					"android": "13.0",
-					"release": "2024-02-20",
-					"recovery": "miui_CETUS_OS1.0.1.0.TJTCNXM_c5477967cc_13.0.zip",
-					"fastboot": "cetus_images_OS1.0.1.0.TJTCNXM_20240201.0000.00_13.0_cn_chinatelecom_28458adb94.tgz"
+					"fastboot": "cetus_images_OS1.0.1.0.TJTCNXM_20240201.0000.00_13.0_cn_aea3816cf1.tgz",
+					"ctelecom": "cetus_images_OS1.0.1.0.TJTCNXM_20240201.0000.00_13.0_cn_chinatelecom_28458adb94.tgz"
 				}
 			}
 		}

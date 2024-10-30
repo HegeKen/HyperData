@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,119 +32,56 @@
 					"android": "14.0",
 					"release": "2024-10-12",
 					"recovery": "miui_REDWOOD_OS1.0.10.0.UMSCNXM_4dad73922b_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.10.0.UMSCNXM_20240927.0000.00_14.0_cn_41aa8a8945.tgz"
+					"fastboot": "redwood_images_OS1.0.10.0.UMSCNXM_20240927.0000.00_14.0_cn_41aa8a8945.tgz",
+					"ctelecom": "redwood_images_OS1.0.10.0.UMSCNXM_20240927.0000.00_14.0_cn_chinatelecom_4eb189a7c1.tgz"
 				},
 				"OS1.0.9.0.UMSCNXM": {
 					"os": "OS1.0.9.0.UMSCNXM",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_REDWOOD_OS1.0.9.0.UMSCNXM_0884d94b1b_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.9.0.UMSCNXM_20240830.0000.00_14.0_cn_2c21a2063c.tgz"
+					"fastboot": "redwood_images_OS1.0.9.0.UMSCNXM_20240830.0000.00_14.0_cn_2c21a2063c.tgz",
+					"ctelecom": "redwood_images_OS1.0.9.0.UMSCNXM_20240830.0000.00_14.0_cn_chinatelecom_f34be4e8ed.tgz"
 				},
 				"OS1.0.8.0.UMSCNXM": {
 					"os": "OS1.0.8.0.UMSCNXM",
 					"android": "14.0",
 					"release": "2024-08-08",
 					"recovery": "miui_REDWOOD_OS1.0.8.0.UMSCNXM_5c8d46f15f_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.8.0.UMSCNXM_20240726.0000.00_14.0_cn_3e5cba3bdb.tgz"
+					"fastboot": "redwood_images_OS1.0.8.0.UMSCNXM_20240726.0000.00_14.0_cn_3e5cba3bdb.tgz",
+					"ctelecom": "redwood_images_OS1.0.8.0.UMSCNXM_20240726.0000.00_14.0_cn_chinatelecom_27992dc3b2.tgz"
 				},
 				"OS1.0.7.0.UMSCNXM": {
 					"os": "OS1.0.7.0.UMSCNXM",
 					"android": "14.0",
 					"release": "2024-07-16",
 					"recovery": "miui_REDWOOD_OS1.0.7.0.UMSCNXM_87fd4a2a7d_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.7.0.UMSCNXM_20240627.0000.00_14.0_cn_42523991bc.tgz"
+					"fastboot": "redwood_images_OS1.0.7.0.UMSCNXM_20240627.0000.00_14.0_cn_42523991bc.tgz",
+					"ctelecom": "redwood_images_OS1.0.7.0.UMSCNXM_20240627.0000.00_14.0_cn_chinatelecom_3d03c9b040.tgz"
 				},
 				"OS1.0.6.0.UMSCNXM": {
 					"os": "OS1.0.6.0.UMSCNXM",
 					"android": "14.0",
 					"release": "2024-04-19",
 					"recovery": "miui_REDWOOD_OS1.0.6.0.UMSCNXM_f7ddaf58a6_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.6.0.UMSCNXM_20240409.0000.00_14.0_cn_cd6b2a0a0b.tgz"
+					"fastboot": "redwood_images_OS1.0.6.0.UMSCNXM_20240409.0000.00_14.0_cn_cd6b2a0a0b.tgz",
+					"ctelecom": "redwood_images_OS1.0.6.0.UMSCNXM_20240409.0000.00_14.0_cn_chinatelecom_f82a1d3e8e.tgz"
 				},
 				"OS1.0.4.0.UMSCNXM": {
 					"os": "OS1.0.4.0.UMSCNXM",
 					"android": "14.0",
 					"release": "2024-01-26",
 					"recovery": "miui_REDWOOD_OS1.0.4.0.UMSCNXM_33c3abb2d0_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.4.0.UMSCNXM_20240122.0000.00_14.0_cn_148a67254a.tgz"
+					"fastboot": "redwood_images_OS1.0.4.0.UMSCNXM_20240122.0000.00_14.0_cn_148a67254a.tgz",
+					"ctelecom": "redwood_images_OS1.0.4.0.UMSCNXM_20240122.0000.00_14.0_cn_chinatelecom_e76a225f43.tgz"
 				},
 				"OS1.0.3.0.UMSCNXM": {
 					"os": "OS1.0.3.0.UMSCNXM",
 					"android": "14.0",
 					"release": "2024-01-11",
 					"recovery": "miui_REDWOOD_OS1.0.3.0.UMSCNXM_964b907423_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.3.0.UMSCNXM_20231229.0000.00_14.0_cn_0d71144cc6.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "redwood",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro 极速版",
-        "en" :"Redmi Note 12 Pro Speed"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.10.0.UMSCNXM": {
-					"os": "OS1.0.10.0.UMSCNXM",
-					"android": "14.0",
-					"release": "2024-10-12",
-					"recovery": "miui_REDWOOD_OS1.0.10.0.UMSCNXM_4dad73922b_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.10.0.UMSCNXM_20240927.0000.00_14.0_cn_chinatelecom_4eb189a7c1.tgz"
-				},
-				"OS1.0.9.0.UMSCNXM": {
-					"os": "OS1.0.9.0.UMSCNXM",
-					"android": "14.0",
-					"release": "2024-09-13",
-					"recovery": "miui_REDWOOD_OS1.0.9.0.UMSCNXM_0884d94b1b_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.9.0.UMSCNXM_20240830.0000.00_14.0_cn_chinatelecom_f34be4e8ed.tgz"
-				},
-				"OS1.0.8.0.UMSCNXM": {
-					"os": "OS1.0.8.0.UMSCNXM",
-					"android": "14.0",
-					"release": "2024-08-08",
-					"recovery": "miui_REDWOOD_OS1.0.8.0.UMSCNXM_5c8d46f15f_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.8.0.UMSCNXM_20240726.0000.00_14.0_cn_chinatelecom_27992dc3b2.tgz"
-				},
-				"OS1.0.7.0.UMSCNXM": {
-					"os": "OS1.0.7.0.UMSCNXM",
-					"android": "14.0",
-					"release": "2024-07-16",
-					"recovery": "miui_REDWOOD_OS1.0.7.0.UMSCNXM_87fd4a2a7d_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.7.0.UMSCNXM_20240627.0000.00_14.0_cn_chinatelecom_3d03c9b040.tgz"
-				},
-				"OS1.0.6.0.UMSCNXM": {
-					"os": "OS1.0.6.0.UMSCNXM",
-					"android": "14.0",
-					"release": "2024-04-19",
-					"recovery": "miui_REDWOOD_OS1.0.6.0.UMSCNXM_f7ddaf58a6_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.6.0.UMSCNXM_20240409.0000.00_14.0_cn_chinatelecom_f82a1d3e8e.tgz"
-				},
-				"OS1.0.4.0.UMSCNXM": {
-					"os": "OS1.0.4.0.UMSCNXM",
-					"android": "14.0",
-					"release": "2024-01-26",
-					"recovery": "miui_REDWOOD_OS1.0.4.0.UMSCNXM_33c3abb2d0_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.4.0.UMSCNXM_20240122.0000.00_14.0_cn_chinatelecom_e76a225f43.tgz"
-				},
-				"OS1.0.3.0.UMSCNXM": {
-					"os": "OS1.0.3.0.UMSCNXM",
-					"android": "14.0",
-					"release": "2024-01-11",
-					"recovery": "miui_REDWOOD_OS1.0.3.0.UMSCNXM_964b907423_14.0.zip",
-					"fastboot": "redwood_images_OS1.0.3.0.UMSCNXM_20231229.0000.00_14.0_cn_chinatelecom_8934abf40a.tgz"
+					"fastboot": "redwood_images_OS1.0.3.0.UMSCNXM_20231229.0000.00_14.0_cn_0d71144cc6.tgz",
+					"ctelecom": "redwood_images_OS1.0.3.0.UMSCNXM_20231229.0000.00_14.0_cn_chinatelecom_8934abf40a.tgz"
 				}
 			}
 		},
@@ -160,6 +98,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -223,6 +162,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -286,6 +226,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -349,6 +290,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -412,6 +354,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -475,6 +418,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -538,6 +482,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

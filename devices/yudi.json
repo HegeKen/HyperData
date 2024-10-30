@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -83,6 +84,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -94,8 +96,7 @@
 					"android": "14.0",
 					"release": "2023-12-18",
 					"recovery": "miui_YUDIDEMO_OS1.0.1.0.UMHCNDM_4a69190a68_14.0.zip",
-					"fastboot": "yudi_demo_images_OS1.0.1.0.UMHCNDM_20231218.0000.00_14.0_cn_1acd2aeef0.tgz",
-					"ctelecom": ""
+					"fastboot": "yudi_demo_images_OS1.0.1.0.UMHCNDM_20231218.0000.00_14.0_cn_1acd2aeef0.tgz"
 				}
 			}
 		}

@@ -20,6 +20,7 @@
       },
 			"idtag": "Dev",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -258,8 +259,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -269,91 +271,40 @@
 					"android": "14.0",
 					"release": "2024-10-12",
 					"recovery": "miui_DAUMIER_OS1.0.9.0.ULGCNXM_6ce5b67b3c_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.9.0.ULGCNXM_20241010.0000.00_14.0_cn_0555d5c99a.tgz"
+					"fastboot": "daumier_images_OS1.0.9.0.ULGCNXM_20241010.0000.00_14.0_cn_0555d5c99a.tgz",
+					"ctelecom": "daumier_images_OS1.0.9.0.ULGCNXM_20241010.0000.00_14.0_cn_chinatelecom_ea3a6816ac.tgz"
 				},
 				"OS1.0.6.0.ULGCNXM": {
 					"os": "OS1.0.6.0.ULGCNXM",
 					"android": "14.0",
 					"release": "2024-08-29",
 					"recovery": "miui_DAUMIER_OS1.0.6.0.ULGCNXM_0c4c3cc112_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.6.0.ULGCNXM_20240819.0000.00_14.0_cn_e96cc7bc82.tgz"
+					"fastboot": "daumier_images_OS1.0.6.0.ULGCNXM_20240819.0000.00_14.0_cn_e96cc7bc82.tgz",
+					"ctelecom": "daumier_images_OS1.0.6.0.ULGCNXM_20240819.0000.00_14.0_cn_chinatelecom_a0f4054bca.tgz"
 				},
 				"OS1.0.5.0.ULGCNXM": {
 					"os": "OS1.0.5.0.ULGCNXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_DAUMIER_OS1.0.5.0.ULGCNXM_af47cd206c_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.5.0.ULGCNXM_20240805.0000.00_14.0_cn_a9986481cf.tgz"
+					"fastboot": "daumier_images_OS1.0.5.0.ULGCNXM_20240805.0000.00_14.0_cn_a9986481cf.tgz",
+					"ctelecom": "daumier_images_OS1.0.5.0.ULGCNXM_20240805.0000.00_14.0_cn_chinatelecom_535848fdf4.tgz"
 				},
 				"OS1.0.3.0.ULGCNXM": {
 					"os": "OS1.0.3.0.ULGCNXM",
 					"android": "14.0",
 					"release": "2024-06-15",
 					"recovery": "miui_DAUMIER_OS1.0.3.0.ULGCNXM_37745ae543_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.3.0.ULGCNXM_20240603.0000.00_14.0_cn_a977821d70.tgz"
+					"fastboot": "daumier_images_OS1.0.3.0.ULGCNXM_20240603.0000.00_14.0_cn_a977821d70.tgz",
+					"ctelecom": "daumier_images_OS1.0.3.0.ULGCNXM_20240603.0000.00_14.0_cn_chinatelecom_d9634c987a.tgz"
 				},
 				"OS1.0.2.0.ULGCNXM": {
 					"os": "OS1.0.2.0.ULGCNXM",
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_DAUMIER_OS1.0.2.0.ULGCNXM_d84b64c895_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.2.0.ULGCNXM_20240125.0000.00_14.0_cn_aae9916992.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "daumier",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12 Pro 天玑版",
-        "en" :"Xiaomi 12 Pro Dimensity"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.9.0.ULGCNXM": {
-					"os": "OS1.0.9.0.ULGCNXM",
-					"android": "14.0",
-					"release": "2024-10-12",
-					"recovery": "miui_DAUMIER_OS1.0.9.0.ULGCNXM_6ce5b67b3c_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.9.0.ULGCNXM_20241010.0000.00_14.0_cn_chinatelecom_ea3a6816ac.tgz"
-				},
-				"OS1.0.6.0.ULGCNXM": {
-					"os": "OS1.0.6.0.ULGCNXM",
-					"android": "14.0",
-					"release": "2024-08-29",
-					"recovery": "miui_DAUMIER_OS1.0.6.0.ULGCNXM_0c4c3cc112_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.6.0.ULGCNXM_20240819.0000.00_14.0_cn_chinatelecom_a0f4054bca.tgz"
-				},
-				"OS1.0.5.0.ULGCNXM": {
-					"os": "OS1.0.5.0.ULGCNXM",
-					"android": "14.0",
-					"release": "2024-08-13",
-					"recovery": "miui_DAUMIER_OS1.0.5.0.ULGCNXM_af47cd206c_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.5.0.ULGCNXM_20240805.0000.00_14.0_cn_chinatelecom_535848fdf4.tgz"
-				},
-				"OS1.0.3.0.ULGCNXM": {
-					"os": "OS1.0.3.0.ULGCNXM",
-					"android": "14.0",
-					"release": "2024-06-15",
-					"recovery": "miui_DAUMIER_OS1.0.3.0.ULGCNXM_37745ae543_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.3.0.ULGCNXM_20240603.0000.00_14.0_cn_chinatelecom_d9634c987a.tgz"
-				},
-				"OS1.0.2.0.ULGCNXM": {
-					"os": "OS1.0.2.0.ULGCNXM",
-					"android": "14.0",
-					"release": "2024-01-29",
-					"recovery": "miui_DAUMIER_OS1.0.2.0.ULGCNXM_d84b64c895_14.0.zip",
-					"fastboot": "daumier_images_OS1.0.2.0.ULGCNXM_20240125.0000.00_14.0_cn_chinatelecom_4ee30712e8.tgz"
+					"fastboot": "daumier_images_OS1.0.2.0.ULGCNXM_20240125.0000.00_14.0_cn_aae9916992.tgz",
+					"ctelecom": "daumier_images_OS1.0.2.0.ULGCNXM_20240125.0000.00_14.0_cn_chinatelecom_4ee30712e8.tgz"
 				}
 			}
 		}

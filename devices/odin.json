@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
 			"carrier": ["", "chinaunicom"],
 			"region": "cn",
@@ -31,105 +32,27 @@
 					"android": "14.0",
 					"release": "2024-08-16",
 					"recovery": "miui_ODIN_OS1.0.4.0.UKMCNXM_9af88b108a_14.0.zip",
-					"fastboot": "odin_images_OS1.0.4.0.UKMCNXM_20240726.0000.00_14.0_cn_827ce13743.tgz"
+					"fastboot": "odin_images_OS1.0.4.0.UKMCNXM_20240726.0000.00_14.0_cn_827ce13743.tgz",
+					"ctelecom": "odin_images_OS1.0.4.0.UKMCNXM_20240726.0000.00_14.0_cn_chinatelecom_0bd8058e51.tgz",
+					"cnmobile": "odin_images_OS1.0.4.0.UKMCNXM_20240726.0000.00_14.0_cn_chinamobile_f178d32692.tgz"
 				},
 				"OS1.0.3.0.UKMCNXM": {
 					"os": "OS1.0.3.0.UKMCNXM",
 					"android": "14.0",
 					"release": "2024-06-20",
 					"recovery": "miui_ODIN_OS1.0.3.0.UKMCNXM_176fec4009_14.0.zip",
-					"fastboot": "odin_images_OS1.0.3.0.UKMCNXM_20240606.0000.00_14.0_cn_566a3f178c.tgz"
+					"fastboot": "odin_images_OS1.0.3.0.UKMCNXM_20240606.0000.00_14.0_cn_566a3f178c.tgz",
+					"ctelecom": "odin_images_OS1.0.3.0.UKMCNXM_20240606.0000.00_14.0_cn_chinatelecom_c93ce9cf9d.tgz",
+					"cnmobile": "odin_images_OS1.0.3.0.UKMCNXM_20240606.0000.00_14.0_cn_chinamobile_08b5267a26.tgz"
 				},
 				"OS1.0.2.0.UKMCNXM": {
 					"os": "OS1.0.2.0.UKMCNXM",
 					"android": "14.0",
 					"release": "2024-04-29",
 					"recovery": "miui_ODIN_OS1.0.2.0.UKMCNXM_af3b0d3530_14.0.zip",
-					"fastboot": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_d3eb80577c.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "odin",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX 4",
-        "en" :"MIX 4"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.4.0.UKMCNXM": {
-					"os": "OS1.0.4.0.UKMCNXM",
-					"android": "14.0",
-					"release": "2024-08-16",
-					"recovery": "miui_ODIN_OS1.0.4.0.UKMCNXM_9af88b108a_14.0.zip",
-					"fastboot": "odin_images_OS1.0.4.0.UKMCNXM_20240726.0000.00_14.0_cn_chinatelecom_0bd8058e51.tgz"
-				},
-				"OS1.0.3.0.UKMCNXM": {
-					"os": "OS1.0.3.0.UKMCNXM",
-					"android": "14.0",
-					"release": "2024-06-20",
-					"recovery": "miui_ODIN_OS1.0.3.0.UKMCNXM_176fec4009_14.0.zip",
-					"fastboot": "odin_images_OS1.0.3.0.UKMCNXM_20240606.0000.00_14.0_cn_chinatelecom_c93ce9cf9d.tgz"
-				},
-				"OS1.0.2.0.UKMCNXM": {
-					"os": "OS1.0.2.0.UKMCNXM",
-					"android": "14.0",
-					"release": "2024-04-29",
-					"recovery": "miui_ODIN_OS1.0.2.0.UKMCNXM_af3b0d3530_14.0.zip",
-					"fastboot": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_chinatelecom_dd14fa8256.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国移动定制版",
-				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
-			},
-			"branchCode": "odin",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX 4",
-        "en" :"MIX 4"
-      },
-			"idtag": "CnOM",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.4.0.UKMCNXM": {
-					"os": "OS1.0.4.0.UKMCNXM",
-					"android": "14.0",
-					"release": "2024-08-16",
-					"recovery": "miui_ODIN_OS1.0.4.0.UKMCNXM_9af88b108a_14.0.zip",
-					"fastboot": "odin_images_OS1.0.4.0.UKMCNXM_20240726.0000.00_14.0_cn_chinamobile_f178d32692.tgz"
-				},
-				"OS1.0.3.0.UKMCNXM": {
-					"os": "OS1.0.3.0.UKMCNXM",
-					"android": "14.0",
-					"release": "2024-06-20",
-					"recovery": "miui_ODIN_OS1.0.3.0.UKMCNXM_176fec4009_14.0.zip",
-					"fastboot": "odin_images_OS1.0.3.0.UKMCNXM_20240606.0000.00_14.0_cn_chinamobile_08b5267a26.tgz"
-				},
-				"OS1.0.2.0.UKMCNXM": {
-					"os": "OS1.0.2.0.UKMCNXM",
-					"android": "14.0",
-					"release": "2024-04-29",
-					"recovery": "miui_ODIN_OS1.0.2.0.UKMCNXM_af3b0d3530_14.0.zip",
-					"fastboot": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_chinamobile_f3917e4df1.tgz"
+					"fastboot": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_d3eb80577c.tgz",
+					"ctelecom": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_chinatelecom_dd14fa8256.tgz",
+					"cnmobile": "odin_images_OS1.0.2.0.UKMCNXM_20240425.0000.00_14.0_cn_chinamobile_f3917e4df1.tgz"
 				}
 			}
 		}

@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,112 +32,56 @@
 					"android": "14.0",
 					"release": "2024-10-25",
 					"recovery": "miui_GARNET_OS1.0.13.0.UNRCNXM_4a743e011c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.12.0.UNRCNXM": {
 					"os": "OS1.0.12.0.UNRCNXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_GARNET_OS1.0.12.0.UNRCNXM_5917737723_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.12.0.UNRCNXM_20240920.0000.00_14.0_cn_d2aa88d2ad.tgz"
+					"fastboot": "garnet_images_OS1.0.12.0.UNRCNXM_20240920.0000.00_14.0_cn_d2aa88d2ad.tgz",
+					"ctelecom": "garnet_images_OS1.0.12.0.UNRCNXM_20240920.0000.00_14.0_cn_chinatelecom_5018ce3ebb.tgz"
 				},
 				"OS1.0.10.0.UNRCNXM": {
 					"os": "OS1.0.10.0.UNRCNXM",
 					"android": "14.0",
 					"release": "2024-09-06",
 					"recovery": "miui_GARNET_OS1.0.10.0.UNRCNXM_041d9ef5c4_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.10.0.UNRCNXM_20240829.0000.00_14.0_cn_0be00b2738.tgz"
+					"fastboot": "garnet_images_OS1.0.10.0.UNRCNXM_20240829.0000.00_14.0_cn_0be00b2738.tgz",
+					"ctelecom": "garnet_images_OS1.0.10.0.UNRCNXM_20240829.0000.00_14.0_cn_chinatelecom_6c8a9467a5.tgz"
 				},
 				"OS1.0.8.0.UNRCNXM": {
 					"os": "OS1.0.8.0.UNRCNXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_GARNET_OS1.0.8.0.UNRCNXM_8338d12c7c_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.8.0.UNRCNXM_20240806.0000.00_14.0_cn_4a5f5e7a55.tgz"
+					"fastboot": "garnet_images_OS1.0.8.0.UNRCNXM_20240806.0000.00_14.0_cn_4a5f5e7a55.tgz",
+					"ctelecom": "garnet_images_OS1.0.8.0.UNRCNXM_20240806.0000.00_14.0_cn_chinatelecom_678f3a8c45.tgz"
 				},
 				"OS1.0.7.0.UNRCNXM": {
 					"os": "OS1.0.7.0.UNRCNXM",
 					"android": "14.0",
 					"release": "2024-06-25",
 					"recovery": "miui_GARNET_OS1.0.7.0.UNRCNXM_1a1ed56e95_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.7.0.UNRCNXM_20240620.0000.00_14.0_cn_910e1a49d2.tgz"
+					"fastboot": "garnet_images_OS1.0.7.0.UNRCNXM_20240620.0000.00_14.0_cn_910e1a49d2.tgz",
+					"ctelecom": "garnet_images_OS1.0.7.0.UNRCNXM_20240620.0000.00_14.0_cn_chinatelecom_b54a70a474.tgz"
 				},
 				"OS1.0.4.0.UNRCNXM": {
 					"os": "OS1.0.4.0.UNRCNXM",
 					"android": "14.0",
 					"release": "2024-04-19",
 					"recovery": "miui_GARNET_OS1.0.4.0.UNRCNXM_5baa0c1997_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.4.0.UNRCNXM_20240415.0000.00_14.0_cn_185b25233e.tgz"
+					"fastboot": "garnet_images_OS1.0.4.0.UNRCNXM_20240415.0000.00_14.0_cn_185b25233e.tgz",
+					"ctelecom": "garnet_images_OS1.0.4.0.UNRCNXM_20240415.0000.00_14.0_cn_chinatelecom_05f15e98cd.tgz"
 				},
 				"OS1.0.1.0.UNRCNXM": {
 					"os": "OS1.0.1.0.UNRCNXM",
 					"android": "14.0",
 					"release": "2024-01-30",
 					"recovery": "miui_GARNET_OS1.0.1.0.UNRCNXM_e7be0367c7_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.1.0.UNRCNXM_20240121.0000.00_14.0_cn_5aaaf0981d.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "garnet",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13 Pro 5G",
-        "en" :"Redmi Note 13 Pro 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.12.0.UNRCNXM": {
-					"os": "OS1.0.12.0.UNRCNXM",
-					"android": "14.0",
-					"release": "2024-10-15",
-					"recovery": "miui_GARNET_OS1.0.12.0.UNRCNXM_5917737723_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.12.0.UNRCNXM_20240920.0000.00_14.0_cn_chinatelecom_5018ce3ebb.tgz"
-				},
-				"OS1.0.10.0.UNRCNXM": {
-					"os": "OS1.0.10.0.UNRCNXM",
-					"android": "14.0",
-					"release": "2024-09-06",
-					"recovery": "miui_GARNET_OS1.0.10.0.UNRCNXM_041d9ef5c4_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.10.0.UNRCNXM_20240829.0000.00_14.0_cn_chinatelecom_6c8a9467a5.tgz"
-				},
-				"OS1.0.8.0.UNRCNXM": {
-					"os": "OS1.0.8.0.UNRCNXM",
-					"android": "14.0",
-					"release": "2024-08-19",
-					"recovery": "miui_GARNET_OS1.0.8.0.UNRCNXM_8338d12c7c_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.8.0.UNRCNXM_20240806.0000.00_14.0_cn_chinatelecom_678f3a8c45.tgz"
-				},
-				"OS1.0.7.0.UNRCNXM": {
-					"os": "OS1.0.7.0.UNRCNXM",
-					"android": "14.0",
-					"release": "2024-06-25",
-					"recovery": "miui_GARNET_OS1.0.7.0.UNRCNXM_1a1ed56e95_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.7.0.UNRCNXM_20240620.0000.00_14.0_cn_chinatelecom_b54a70a474.tgz"
-				},
-				"OS1.0.4.0.UNRCNXM": {
-					"os": "OS1.0.4.0.UNRCNXM",
-					"android": "14.0",
-					"release": "2024-04-19",
-					"recovery": "miui_GARNET_OS1.0.4.0.UNRCNXM_5baa0c1997_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.4.0.UNRCNXM_20240415.0000.00_14.0_cn_chinatelecom_05f15e98cd.tgz"
-				},
-				"OS1.0.1.0.UNRCNXM": {
-					"os": "OS1.0.1.0.UNRCNXM",
-					"android": "14.0",
-					"release": "2024-01-30",
-					"recovery": "miui_GARNET_OS1.0.1.0.UNRCNXM_e7be0367c7_14.0.zip",
-					"fastboot": "garnet_images_OS1.0.1.0.UNRCNXM_20240121.0000.00_14.0_cn_chinatelecom_29af262732.tgz"
+					"fastboot": "garnet_images_OS1.0.1.0.UNRCNXM_20240121.0000.00_14.0_cn_5aaaf0981d.tgz",
+					"ctelecom": "garnet_images_OS1.0.1.0.UNRCNXM_20240121.0000.00_14.0_cn_chinatelecom_29af262732.tgz"
 				}
 			}
 		},
@@ -153,6 +98,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -182,6 +128,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -211,6 +158,7 @@
       },
 			"idtag": "EPCJCC",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -240,6 +188,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -296,6 +245,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -366,6 +316,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -436,6 +387,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -492,6 +444,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -561,6 +514,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -610,12 +564,20 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.10.0.UNRTRXM": {
+					"os": "OS1.0.10.0.UNRTRXM",
+					"android": "14.0",
+					"release": "2024-10-30",
+					"recovery": "miui_GARNETTRGlobal_OS1.0.10.0.UNRTRXM_7ead509934_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.9.0.UNRTRXM": {
 					"os": "OS1.0.9.0.UNRTRXM",
 					"android": "14.0",

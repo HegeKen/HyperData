@@ -20,6 +20,7 @@
       },
 			"idtag": "Dev",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -258,8 +259,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -269,91 +271,40 @@
 					"android": "14.0",
 					"release": "2024-10-19",
 					"recovery": "miui_MAYFLY_OS1.0.10.0.ULTCNXM_7126445686_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.10.0.ULTCNXM_20241011.0000.00_14.0_cn_64cb5b6c14.tgz"
+					"fastboot": "mayfly_images_OS1.0.10.0.ULTCNXM_20241011.0000.00_14.0_cn_64cb5b6c14.tgz",
+					"ctelecom": "mayfly_images_OS1.0.10.0.ULTCNXM_20241011.0000.00_14.0_cn_chinatelecom_c871f0e1d7.tgz"
 				},
 				"OS1.0.8.0.ULTCNXM": {
 					"os": "OS1.0.8.0.ULTCNXM",
 					"android": "14.0",
 					"release": "2024-08-14",
 					"recovery": "miui_MAYFLY_OS1.0.8.0.ULTCNXM_c4279b8fdb_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.8.0.ULTCNXM_20240731.0000.00_14.0_cn_42e92a1bb3.tgz"
+					"fastboot": "mayfly_images_OS1.0.8.0.ULTCNXM_20240731.0000.00_14.0_cn_42e92a1bb3.tgz",
+					"ctelecom": "mayfly_images_OS1.0.8.0.ULTCNXM_20240731.0000.00_14.0_cn_chinatelecom_547f70099f.tgz"
 				},
 				"OS1.0.7.0.ULTCNXM": {
 					"os": "OS1.0.7.0.ULTCNXM",
 					"android": "14.0",
 					"release": "2024-06-28",
 					"recovery": "miui_MAYFLY_OS1.0.7.0.ULTCNXM_cfaa502739_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.7.0.ULTCNXM_20240612.0000.00_14.0_cn_aa2224f5f3.tgz"
+					"fastboot": "mayfly_images_OS1.0.7.0.ULTCNXM_20240612.0000.00_14.0_cn_aa2224f5f3.tgz",
+					"ctelecom": "mayfly_images_OS1.0.7.0.ULTCNXM_20240612.0000.00_14.0_cn_chinatelecom_97fe5542c1.tgz"
 				},
 				"OS1.0.5.0.ULTCNXM": {
 					"os": "OS1.0.5.0.ULTCNXM",
 					"android": "14.0",
 					"release": "2024-04-02",
 					"recovery": "miui_MAYFLY_OS1.0.5.0.ULTCNXM_e6a95688ff_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.5.0.ULTCNXM_20240318.0000.00_14.0_cn_a4b10bb606.tgz"
+					"fastboot": "mayfly_images_OS1.0.5.0.ULTCNXM_20240318.0000.00_14.0_cn_a4b10bb606.tgz",
+					"ctelecom": "mayfly_images_OS1.0.5.0.ULTCNXM_20240318.0000.00_14.0_cn_chinatelecom_2ed8235c73.tgz"
 				},
 				"OS1.0.3.0.ULTCNXM": {
 					"os": "OS1.0.3.0.ULTCNXM",
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_MAYFLY_OS1.0.3.0.ULTCNXM_2d7643fb8d_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.3.0.ULTCNXM_20240125.0000.00_14.0_cn_e7f07756ad.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "mayfly",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12S",
-        "en" :"Xiaomi 12S"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.10.0.ULTCNXM": {
-					"os": "OS1.0.10.0.ULTCNXM",
-					"android": "14.0",
-					"release": "2024-10-19",
-					"recovery": "miui_MAYFLY_OS1.0.10.0.ULTCNXM_7126445686_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.10.0.ULTCNXM_20241011.0000.00_14.0_cn_chinatelecom_c871f0e1d7.tgz"
-				},
-				"OS1.0.8.0.ULTCNXM": {
-					"os": "OS1.0.8.0.ULTCNXM",
-					"android": "14.0",
-					"release": "2024-08-14",
-					"recovery": "miui_MAYFLY_OS1.0.8.0.ULTCNXM_c4279b8fdb_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.8.0.ULTCNXM_20240731.0000.00_14.0_cn_chinatelecom_547f70099f.tgz"
-				},
-				"OS1.0.7.0.ULTCNXM": {
-					"os": "OS1.0.7.0.ULTCNXM",
-					"android": "14.0",
-					"release": "2024-06-28",
-					"recovery": "miui_MAYFLY_OS1.0.7.0.ULTCNXM_cfaa502739_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.7.0.ULTCNXM_20240612.0000.00_14.0_cn_chinatelecom_97fe5542c1.tgz"
-				},
-				"OS1.0.5.0.ULTCNXM": {
-					"os": "OS1.0.5.0.ULTCNXM",
-					"android": "14.0",
-					"release": "2024-04-02",
-					"recovery": "miui_MAYFLY_OS1.0.5.0.ULTCNXM_e6a95688ff_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.5.0.ULTCNXM_20240318.0000.00_14.0_cn_chinatelecom_2ed8235c73.tgz"
-				},
-				"OS1.0.3.0.ULTCNXM": {
-					"os": "OS1.0.3.0.ULTCNXM",
-					"android": "14.0",
-					"release": "2024-01-29",
-					"recovery": "miui_MAYFLY_OS1.0.3.0.ULTCNXM_2d7643fb8d_14.0.zip",
-					"fastboot": "mayfly_images_OS1.0.3.0.ULTCNXM_20240125.0000.00_14.0_cn_chinatelecom_5f0b50ba37.tgz"
+					"fastboot": "mayfly_images_OS1.0.3.0.ULTCNXM_20240125.0000.00_14.0_cn_e7f07756ad.tgz",
+					"ctelecom": "mayfly_images_OS1.0.3.0.ULTCNXM_20240125.0000.00_14.0_cn_chinatelecom_5f0b50ba37.tgz"
 				}
 			}
 		}

@@ -14,6 +14,7 @@
 			},
 			"branchCode": "ishtar",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"brand": "Xiaomi",
       "device": {
         "zh" :"小米 13 Ultra",
@@ -300,8 +301,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -311,140 +313,72 @@
 					"android": "14.0",
 					"release": "2024-10-18",
 					"recovery": "miui_ISHTAR_OS1.0.17.0.UMACNXM_f2bedf1aeb_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.17.0.UMACNXM_20241012.0000.00_14.0_cn_838b03875a.tgz"
+					"fastboot": "ishtar_images_OS1.0.17.0.UMACNXM_20241012.0000.00_14.0_cn_838b03875a.tgz",
+					"ctelecom": "ishtar_images_OS1.0.17.0.UMACNXM_20241012.0000.00_14.0_cn_chinatelecom_203d0ae5c6.tgz"
 				},
 				"OS1.0.16.0.UMACNXM": {
 					"os": "OS1.0.16.0.UMACNXM",
 					"android": "14.0",
 					"release": "2024-09-12",
 					"recovery": "miui_ISHTAR_OS1.0.16.0.UMACNXM_579dd9cbfa_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.16.0.UMACNXM_20240905.0000.00_14.0_cn_a38b8ce2a6.tgz"
+					"fastboot": "ishtar_images_OS1.0.16.0.UMACNXM_20240905.0000.00_14.0_cn_a38b8ce2a6.tgz",
+					"ctelecom": "ishtar_images_OS1.0.16.0.UMACNXM_20240905.0000.00_14.0_cn_chinatelecom_b45e91dc54.tgz"
 				},
 				"OS1.0.15.0.UMACNXM": {
 					"os": "OS1.0.15.0.UMACNXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_ISHTAR_OS1.0.15.0.UMACNXM_adc943f023_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.15.0.UMACNXM_20240808.0000.00_14.0_cn_6f6728b0a4.tgz"
+					"fastboot": "ishtar_images_OS1.0.15.0.UMACNXM_20240808.0000.00_14.0_cn_6f6728b0a4.tgz",
+					"ctelecom": "ishtar_images_OS1.0.15.0.UMACNXM_20240808.0000.00_14.0_cn_chinatelecom_e6d13fbfe6.tgz"
 				},
 				"OS1.0.12.0.UMACNXM": {
 					"os": "OS1.0.12.0.UMACNXM",
 					"android": "14.0",
 					"release": "2024-07-20",
 					"recovery": "miui_ISHTAR_OS1.0.12.0.UMACNXM_e5de640ccc_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.12.0.UMACNXM_20240712.0000.00_14.0_cn_878cc6a7ce.tgz"
+					"fastboot": "ishtar_images_OS1.0.12.0.UMACNXM_20240712.0000.00_14.0_cn_878cc6a7ce.tgz",
+					"ctelecom": "ishtar_images_OS1.0.12.0.UMACNXM_20240712.0000.00_14.0_cn_chinatelecom_42cfa82f01.tgz"
 				},
 				"OS1.0.9.0.UMACNXM": {
 					"os": "OS1.0.9.0.UMACNXM",
 					"android": "14.0",
 					"release": "2024-05-11",
 					"recovery": "miui_ISHTAR_OS1.0.9.0.UMACNXM_a6fadf1e8b_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.9.0.UMACNXM_20240429.0000.00_14.0_cn_c20314b48c.tgz"
+					"fastboot": "ishtar_images_OS1.0.9.0.UMACNXM_20240429.0000.00_14.0_cn_c20314b48c.tgz",
+					"ctelecom": "ishtar_images_OS1.0.9.0.UMACNXM_20240429.0000.00_14.0_cn_chinatelecom_47ba33c917.tgz"
 				},
 				"OS1.0.8.0.UMACNXM": {
 					"os": "OS1.0.8.0.UMACNXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_ISHTAR_OS1.0.8.0.UMACNXM_b64fcd4cdb_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.8.0.UMACNXM_20240325.0000.00_14.0_cn_66840a235c.tgz"
+					"fastboot": "ishtar_images_OS1.0.8.0.UMACNXM_20240325.0000.00_14.0_cn_66840a235c.tgz",
+					"ctelecom": "ishtar_images_OS1.0.8.0.UMACNXM_20240325.0000.00_14.0_cn_chinatelecom_f340b0db88.tgz"
 				},
 				"OS1.0.6.0.UMACNXM": {
 					"os": "OS1.0.6.0.UMACNXM",
 					"android": "14.0",
 					"release": "2024-01-26",
 					"recovery": "miui_ISHTAR_OS1.0.6.0.UMACNXM_a4f5ee8a7c_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.6.0.UMACNXM_20240119.0000.00_14.0_cn_91e65845e2.tgz"
+					"fastboot": "ishtar_images_OS1.0.6.0.UMACNXM_20240119.0000.00_14.0_cn_91e65845e2.tgz",
+					"ctelecom": "ishtar_images_OS1.0.6.0.UMACNXM_20240119.0000.00_14.0_cn_chinatelecom_5afba463a2.tgz"
 				},
 				"OS1.0.4.0.UMACNXM": {
 					"os": "OS1.0.4.0.UMACNXM",
 					"android": "14.0",
 					"release": "2023-12-08",
 					"recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_7c393332f6.tgz"
+					"fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_7c393332f6.tgz",
+					"ctelecom": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_chinatelecom_2d6b6880e6.tgz"
 				},
 				"OS1.0.3.0.UMACNXM": {
 					"os": "OS1.0.3.0.UMACNXM",
 					"android": "14.0",
 					"release": "2023-12-01",
 					"recovery": "miui_ISHTAR_OS1.0.3.0.UMACNXM_0c07956c1f_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "ishtar",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.17.0.UMACNXM": {
-					"os": "OS1.0.17.0.UMACNXM",
-					"android": "14.0",
-					"release": "2024-10-18",
-					"recovery": "miui_ISHTAR_OS1.0.17.0.UMACNXM_f2bedf1aeb_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.17.0.UMACNXM_20241012.0000.00_14.0_cn_chinatelecom_203d0ae5c6.tgz"
-				},
-				"OS1.0.16.0.UMACNXM": {
-					"os": "OS1.0.16.0.UMACNXM",
-					"android": "14.0",
-					"release": "2024-09-12",
-					"recovery": "miui_ISHTAR_OS1.0.16.0.UMACNXM_579dd9cbfa_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.16.0.UMACNXM_20240905.0000.00_14.0_cn_chinatelecom_b45e91dc54.tgz"
-				},
-				"OS1.0.15.0.UMACNXM": {
-					"os": "OS1.0.15.0.UMACNXM",
-					"android": "14.0",
-					"release": "2024-08-19",
-					"recovery": "miui_ISHTAR_OS1.0.15.0.UMACNXM_adc943f023_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.15.0.UMACNXM_20240808.0000.00_14.0_cn_chinatelecom_e6d13fbfe6.tgz"
-				},
-				"OS1.0.12.0.UMACNXM": {
-					"os": "OS1.0.12.0.UMACNXM",
-					"android": "14.0",
-					"release": "2024-07-20",
-					"recovery": "miui_ISHTAR_OS1.0.12.0.UMACNXM_e5de640ccc_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.12.0.UMACNXM_20240712.0000.00_14.0_cn_chinatelecom_42cfa82f01.tgz"
-				},
-				"OS1.0.9.0.UMACNXM": {
-					"os": "OS1.0.9.0.UMACNXM",
-					"android": "14.0",
-					"release": "2024-05-11",
-					"recovery": "miui_ISHTAR_OS1.0.9.0.UMACNXM_a6fadf1e8b_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.9.0.UMACNXM_20240429.0000.00_14.0_cn_chinatelecom_47ba33c917.tgz"
-				},
-				"OS1.0.8.0.UMACNXM": {
-					"os": "OS1.0.8.0.UMACNXM",
-					"android": "14.0",
-					"release": "2024-04-01",
-					"recovery": "miui_ISHTAR_OS1.0.8.0.UMACNXM_b64fcd4cdb_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.8.0.UMACNXM_20240325.0000.00_14.0_cn_chinatelecom_f340b0db88.tgz"
-				},
-				"OS1.0.6.0.UMACNXM": {
-					"os": "OS1.0.6.0.UMACNXM",
-					"android": "14.0",
-					"release": "2024-01-26",
-					"recovery": "miui_ISHTAR_OS1.0.6.0.UMACNXM_a4f5ee8a7c_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.6.0.UMACNXM_20240119.0000.00_14.0_cn_chinatelecom_5afba463a2.tgz"
-				},
-				"OS1.0.4.0.UMACNXM": {
-					"os": "OS1.0.4.0.UMACNXM",
-					"android": "14.0",
-					"release": "2023-12-08",
-					"recovery": "miui_ISHTAR_OS1.0.4.0.UMACNXM_0801f3ef9d_14.0.zip",
-					"fastboot": "ishtar_images_OS1.0.4.0.UMACNXM_20231208.0000.00_14.0_cn_chinatelecom_2d6b6880e6.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -461,6 +395,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -490,6 +425,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -519,6 +455,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -575,6 +512,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -638,6 +576,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -715,6 +654,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",

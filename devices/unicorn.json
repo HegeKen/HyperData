@@ -20,6 +20,7 @@
       },
 			"idtag": "Dev",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -258,8 +259,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -269,112 +271,56 @@
 					"android": "14.0",
 					"release": "2024-10-17",
 					"recovery": "miui_UNICORN_OS1.0.10.0.ULECNXM_a5cafe3463_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.10.0.ULECNXM_20241010.0000.00_14.0_cn_cd766ff0ee.tgz"
+					"fastboot": "unicorn_images_OS1.0.10.0.ULECNXM_20241010.0000.00_14.0_cn_cd766ff0ee.tgz",
+					"ctelecom": "unicorn_images_OS1.0.10.0.ULECNXM_20241010.0000.00_14.0_cn_chinatelecom_9e3198282e.tgz"
 				},
 				"OS1.0.9.0.ULECNXM": {
 					"os": "OS1.0.9.0.ULECNXM",
 					"android": "14.0",
 					"release": "2024-09-12",
 					"recovery": "miui_UNICORN_OS1.0.9.0.ULECNXM_a551e00317_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.9.0.ULECNXM_20240905.0000.00_14.0_cn_f8b5393709.tgz"
+					"fastboot": "unicorn_images_OS1.0.9.0.ULECNXM_20240905.0000.00_14.0_cn_f8b5393709.tgz",
+					"ctelecom": "unicorn_images_OS1.0.9.0.ULECNXM_20240905.0000.00_14.0_cn_chinatelecom_338f4a8569.tgz"
 				},
 				"OS1.0.8.0.ULECNXM": {
 					"os": "OS1.0.8.0.ULECNXM",
 					"android": "14.0",
 					"release": "2024-08-16",
 					"recovery": "miui_UNICORN_OS1.0.8.0.ULECNXM_064a65d240_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.8.0.ULECNXM_20240808.0000.00_14.0_cn_2451676b53.tgz"
+					"fastboot": "unicorn_images_OS1.0.8.0.ULECNXM_20240808.0000.00_14.0_cn_2451676b53.tgz",
+					"ctelecom": "unicorn_images_OS1.0.8.0.ULECNXM_20240808.0000.00_14.0_cn_chinatelecom_dc46116890.tgz"
 				},
 				"OS1.0.6.0.ULECNXM": {
 					"os": "OS1.0.6.0.ULECNXM",
 					"android": "14.0",
 					"release": "2024-07-19",
 					"recovery": "miui_UNICORN_OS1.0.6.0.ULECNXM_5d9af68939_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.6.0.ULECNXM_20240715.0000.00_14.0_cn_89a27f2887.tgz"
+					"fastboot": "unicorn_images_OS1.0.6.0.ULECNXM_20240715.0000.00_14.0_cn_89a27f2887.tgz",
+					"ctelecom": "unicorn_images_OS1.0.6.0.ULECNXM_20240715.0000.00_14.0_cn_chinatelecom_466d4e3100.tgz"
 				},
 				"OS1.0.5.0.ULECNXM": {
 					"os": "OS1.0.5.0.ULECNXM",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_UNICORN_OS1.0.5.0.ULECNXM_700f13181d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.4.0.ULECNXM": {
 					"os": "OS1.0.4.0.ULECNXM",
 					"android": "14.0",
 					"release": "2024-04-08",
 					"recovery": "miui_UNICORN_OS1.0.4.0.ULECNXM_5b10ec444c_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.4.0.ULECNXM_20240329.0000.00_14.0_cn_1020c6104b.tgz"
+					"fastboot": "unicorn_images_OS1.0.4.0.ULECNXM_20240329.0000.00_14.0_cn_1020c6104b.tgz",
+					"ctelecom": "unicorn_images_OS1.0.4.0.ULECNXM_20240329.0000.00_14.0_cn_chinatelecom_0383555697.tgz"
 				},
 				"OS1.0.3.0.ULECNXM": {
 					"os": "OS1.0.3.0.ULECNXM",
 					"android": "14.0",
 					"release": "2024-01-25",
 					"recovery": "miui_UNICORN_OS1.0.3.0.ULECNXM_fc52202e28_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.3.0.ULECNXM_20240119.0000.00_14.0_cn_3ea94540a1.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "unicorn",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12S Pro",
-        "en" :"Xiaomi 12S Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.10.0.ULECNXM": {
-					"os": "OS1.0.10.0.ULECNXM",
-					"android": "14.0",
-					"release": "2024-10-17",
-					"recovery": "miui_UNICORN_OS1.0.10.0.ULECNXM_a5cafe3463_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.10.0.ULECNXM_20241010.0000.00_14.0_cn_chinatelecom_9e3198282e.tgz"
-				},
-				"OS1.0.9.0.ULECNXM": {
-					"os": "OS1.0.9.0.ULECNXM",
-					"android": "14.0",
-					"release": "2024-09-12",
-					"recovery": "miui_UNICORN_OS1.0.9.0.ULECNXM_a551e00317_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.9.0.ULECNXM_20240905.0000.00_14.0_cn_chinatelecom_338f4a8569.tgz"
-				},
-				"OS1.0.8.0.ULECNXM": {
-					"os": "OS1.0.8.0.ULECNXM",
-					"android": "14.0",
-					"release": "2024-08-16",
-					"recovery": "miui_UNICORN_OS1.0.8.0.ULECNXM_064a65d240_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.8.0.ULECNXM_20240808.0000.00_14.0_cn_chinatelecom_dc46116890.tgz"
-				},
-				"OS1.0.6.0.ULECNXM": {
-					"os": "OS1.0.6.0.ULECNXM",
-					"android": "14.0",
-					"release": "2024-07-19",
-					"recovery": "miui_UNICORN_OS1.0.6.0.ULECNXM_5d9af68939_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.6.0.ULECNXM_20240715.0000.00_14.0_cn_chinatelecom_466d4e3100.tgz"
-				},
-				"OS1.0.4.0.ULECNXM": {
-					"os": "OS1.0.4.0.ULECNXM",
-					"android": "14.0",
-					"release": "2024-04-08",
-					"recovery": "miui_UNICORN_OS1.0.4.0.ULECNXM_5b10ec444c_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.4.0.ULECNXM_20240329.0000.00_14.0_cn_chinatelecom_0383555697.tgz"
-				},
-				"OS1.0.3.0.ULECNXM": {
-					"os": "OS1.0.3.0.ULECNXM",
-					"android": "14.0",
-					"release": "2024-01-25",
-					"recovery": "miui_UNICORN_OS1.0.3.0.ULECNXM_fc52202e28_14.0.zip",
-					"fastboot": "unicorn_images_OS1.0.3.0.ULECNXM_20240119.0000.00_14.0_cn_chinatelecom_64f53b41c1.tgz"
+					"fastboot": "unicorn_images_OS1.0.3.0.ULECNXM_20240119.0000.00_14.0_cn_3ea94540a1.tgz",
+					"ctelecom": "unicorn_images_OS1.0.3.0.ULECNXM_20240119.0000.00_14.0_cn_chinatelecom_64f53b41c1.tgz"
 				}
 			}
 		}

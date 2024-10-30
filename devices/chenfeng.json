@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,154 +32,80 @@
 					"android": "14.0",
 					"release": "2024-10-25",
 					"recovery": "miui_CHENFENG_OS1.0.17.0.UNJCNXM_7d35f929ce_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
     		"OS1.0.15.0.UNJCNXM": {
 					"os": "OS1.0.15.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-09-14",
 					"recovery": "miui_CHENFENG_OS1.0.15.0.UNJCNXM_3b15a48405_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.15.0.UNJCNXM_20240909.0000.00_14.0_cn_8daed22104.tgz"
+					"fastboot": "chenfeng_images_OS1.0.15.0.UNJCNXM_20240909.0000.00_14.0_cn_8daed22104.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.15.0.UNJCNXM_20240909.0000.00_14.0_cn_chinatelecom_1b4a00d524.tgz"
 				},
 				"OS1.0.14.0.UNJCNXM": {
 					"os": "OS1.0.14.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-09-03",
 					"recovery": "miui_CHENFENG_OS1.0.14.0.UNJCNXM_2d59188198_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.14.0.UNJCNXM_20240829.0000.00_14.0_cn_49ad81cc1c.tgz"
+					"fastboot": "chenfeng_images_OS1.0.14.0.UNJCNXM_20240829.0000.00_14.0_cn_49ad81cc1c.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.14.0.UNJCNXM_20240829.0000.00_14.0_cn_chinatelecom_519cbb8e20.tgz"
 				},
 				"OS1.0.12.0.UNJCNXM": {
 					"os": "OS1.0.12.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-07-29",
 					"recovery": "miui_CHENFENG_OS1.0.12.0.UNJCNXM_90850b252e_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.12.0.UNJCNXM_20240724.0000.00_14.0_cn_a4dc2e8100.tgz"
+					"fastboot": "chenfeng_images_OS1.0.12.0.UNJCNXM_20240724.0000.00_14.0_cn_a4dc2e8100.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.12.0.UNJCNXM_20240724.0000.00_14.0_cn_chinatelecom_ba31fde9dc.tgz"
 				},
 				"OS1.0.11.0.UNJCNXM": {
 					"os": "OS1.0.11.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-06-28",
 					"recovery": "miui_CHENFENG_OS1.0.11.0.UNJCNXM_9bc5ebf131_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.11.0.UNJCNXM_20240625.0000.00_14.0_cn_5ccbbea192.tgz"
+					"fastboot": "chenfeng_images_OS1.0.11.0.UNJCNXM_20240625.0000.00_14.0_cn_5ccbbea192.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.11.0.UNJCNXM_20240625.0000.00_14.0_cn_chinatelecom_9b7a733819.tgz"
 				},
 				"OS1.0.10.0.UNJCNXM": {
 					"os": "OS1.0.10.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-06-05",
 					"recovery": "miui_CHENFENG_OS1.0.10.0.UNJCNXM_995e516566_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.10.0.UNJCNXM_20240531.0000.00_14.0_cn_3a9dfbe4ff.tgz"
+					"fastboot": "chenfeng_images_OS1.0.10.0.UNJCNXM_20240531.0000.00_14.0_cn_3a9dfbe4ff.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.10.0.UNJCNXM_20240531.0000.00_14.0_cn_chinatelecom_dd88bd03d5.tgz"
 				},
 				"OS1.0.8.0.UNJCNXM": {
 					"os": "OS1.0.8.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-05-01",
 					"recovery": "miui_CHENFENG_OS1.0.8.0.UNJCNXM_12c5ef9d87_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.8.0.UNJCNXM_20240427.0000.00_14.0_cn_d3cb64a26b.tgz"
+					"fastboot": "chenfeng_images_OS1.0.8.0.UNJCNXM_20240427.0000.00_14.0_cn_d3cb64a26b.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.8.0.UNJCNXM_20240427.0000.00_14.0_cn_chinatelecom_f31d0157e6.tgz"
 				},
 				"OS1.0.7.0.UNJCNXM": {
 					"os": "OS1.0.7.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-04-14",
 					"recovery": "miui_CHENFENG_OS1.0.7.0.UNJCNXM_722860a3af_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.7.0.UNJCNXM_20240409.0000.00_14.0_cn_d781693751.tgz"
+					"fastboot": "chenfeng_images_OS1.0.7.0.UNJCNXM_20240409.0000.00_14.0_cn_d781693751.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.7.0.UNJCNXM_20240409.0000.00_14.0_cn_chinatelecom_e0e6fd00cf.tgz"
 				},
 				"OS1.0.5.0.UNJCNXM": {
 					"os": "OS1.0.5.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-04-02",
 					"recovery": "miui_CHENFENG_OS1.0.5.0.UNJCNXM_929cef1a2f_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.5.0.UNJCNXM_20240326.0000.00_14.0_cn_672318cfff.tgz"
+					"fastboot": "chenfeng_images_OS1.0.5.0.UNJCNXM_20240326.0000.00_14.0_cn_672318cfff.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.5.0.UNJCNXM_20240326.0000.00_14.0_cn_chinatelecom_ee4da20f47.tgz"
 				},
 				"OS1.0.4.0.UNJCNXM": {
 					"os": "OS1.0.4.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-03-26",
 					"recovery": "miui_CHENFENG_OS1.0.4.0.UNJCNXM_6dd643228e_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.4.0.UNJCNXM_20240319.0000.00_14.0_cn_ecfc6ab7bf.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "chenfeng",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 Civi 4 Pro",
-        "en" :"Xiaomi Civi 4 Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.15.0.UNJCNXM": {
-					"os": "OS1.0.15.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-09-14",
-					"recovery": "miui_CHENFENG_OS1.0.15.0.UNJCNXM_3b15a48405_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.15.0.UNJCNXM_20240909.0000.00_14.0_cn_chinatelecom_1b4a00d524.tgz"
-				},
-				"OS1.0.14.0.UNJCNXM": {
-					"os": "OS1.0.14.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-09-03",
-					"recovery": "miui_CHENFENG_OS1.0.14.0.UNJCNXM_2d59188198_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.14.0.UNJCNXM_20240829.0000.00_14.0_cn_chinatelecom_519cbb8e20.tgz"
-				},
-				"OS1.0.12.0.UNJCNXM": {
-					"os": "OS1.0.12.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-07-29",
-					"recovery": "miui_CHENFENG_OS1.0.12.0.UNJCNXM_90850b252e_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.12.0.UNJCNXM_20240724.0000.00_14.0_cn_chinatelecom_ba31fde9dc.tgz"
-				},
-				"OS1.0.11.0.UNJCNXM": {
-					"os": "OS1.0.11.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-06-28",
-					"recovery": "miui_CHENFENG_OS1.0.11.0.UNJCNXM_9bc5ebf131_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.11.0.UNJCNXM_20240625.0000.00_14.0_cn_chinatelecom_9b7a733819.tgz"
-				},
-				"OS1.0.10.0.UNJCNXM": {
-					"os": "OS1.0.10.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-06-05",
-					"recovery": "miui_CHENFENG_OS1.0.10.0.UNJCNXM_995e516566_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.10.0.UNJCNXM_20240531.0000.00_14.0_cn_chinatelecom_dd88bd03d5.tgz"
-				},
-				"OS1.0.8.0.UNJCNXM": {
-					"os": "OS1.0.8.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-05-01",
-					"recovery": "miui_CHENFENG_OS1.0.8.0.UNJCNXM_12c5ef9d87_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.8.0.UNJCNXM_20240427.0000.00_14.0_cn_chinatelecom_f31d0157e6.tgz"
-				},
-				"OS1.0.7.0.UNJCNXM": {
-					"os": "OS1.0.7.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-04-14",
-					"recovery": "miui_CHENFENG_OS1.0.7.0.UNJCNXM_722860a3af_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.7.0.UNJCNXM_20240409.0000.00_14.0_cn_chinatelecom_e0e6fd00cf.tgz"
-				},
-				"OS1.0.5.0.UNJCNXM": {
-					"os": "OS1.0.5.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-04-02",
-					"recovery": "miui_CHENFENG_OS1.0.5.0.UNJCNXM_929cef1a2f_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.5.0.UNJCNXM_20240326.0000.00_14.0_cn_chinatelecom_ee4da20f47.tgz"
-				},
-				"OS1.0.4.0.UNJCNXM": {
-					"os": "OS1.0.4.0.UNJCNXM",
-					"android": "14.0",
-					"release": "2024-03-26",
-					"recovery": "miui_CHENFENG_OS1.0.4.0.UNJCNXM_6dd643228e_14.0.zip",
-					"fastboot": "chenfeng_images_OS1.0.4.0.UNJCNXM_20240319.0000.00_14.0_cn_chinatelecom_30c31e7a85.tgz"
+					"fastboot": "chenfeng_images_OS1.0.4.0.UNJCNXM_20240319.0000.00_14.0_cn_ecfc6ab7bf.tgz",
+					"ctelecom": "chenfeng_images_OS1.0.4.0.UNJCNXM_20240319.0000.00_14.0_cn_chinatelecom_30c31e7a85.tgz"
 				}
 			}
 		},
@@ -195,6 +122,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -240,6 +168,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",

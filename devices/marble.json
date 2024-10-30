@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,98 +32,48 @@
 					"android": "14.0",
 					"release": "2024-10-25",
 					"recovery": "miui_MARBLE_OS1.0.9.0.UMRCNXM_b344a079ab_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.7.0.UMRCNXM": {
 					"os": "OS1.0.7.0.UMRCNXM",
 					"android": "14.0",
 					"release": "2024-09-20",
 					"recovery": "miui_MARBLE_OS1.0.7.0.UMRCNXM_a87408032e_14.0.zip",
-					"fastboot": "marble_images_OS1.0.7.0.UMRCNXM_20240906.0000.00_14.0_cn_08ae987d28.tgz"
+					"fastboot": "marble_images_OS1.0.7.0.UMRCNXM_20240906.0000.00_14.0_cn_08ae987d28.tgz",
+					"ctelecom": "marble_images_OS1.0.7.0.UMRCNXM_20240906.0000.00_14.0_cn_chinatelecom_f9bc7c8c86.tgz"
 				},
 				"OS1.0.6.0.UMRCNXM": {
 					"os": "OS1.0.6.0.UMRCNXM",
 					"android": "14.0",
 					"release": "2024-08-29",
 					"recovery": "miui_MARBLE_OS1.0.6.0.UMRCNXM_3cb03aa779_14.0.zip",
-					"fastboot": "marble_images_OS1.0.6.0.UMRCNXM_20240816.0000.00_14.0_cn_63ff44f16f.tgz"
+					"fastboot": "marble_images_OS1.0.6.0.UMRCNXM_20240816.0000.00_14.0_cn_63ff44f16f.tgz",
+					"ctelecom": "marble_images_OS1.0.6.0.UMRCNXM_20240816.0000.00_14.0_cn_chinatelecom_0745cc4fb4.tgz"
 				},
 				"OS1.0.5.0.UMRCNXM": {
 					"os": "OS1.0.5.0.UMRCNXM",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_MARBLE_OS1.0.5.0.UMRCNXM_76f9ecb72a_14.0.zip",
-					"fastboot": "marble_images_OS1.0.5.0.UMRCNXM_20240719.0000.00_14.0_cn_de791f34bb.tgz"
+					"fastboot": "marble_images_OS1.0.5.0.UMRCNXM_20240719.0000.00_14.0_cn_de791f34bb.tgz",
+					"ctelecom": "marble_images_OS1.0.5.0.UMRCNXM_20240719.0000.00_14.0_cn_chinatelecom_30a03c52f2.tgz"
 				},
 				"OS1.0.3.0.UMRCNXM": {
 					"os": "OS1.0.3.0.UMRCNXM",
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_MARBLE_OS1.0.3.0.UMRCNXM_20479f8881_14.0.zip",
-					"fastboot": "marble_images_OS1.0.3.0.UMRCNXM_20240418.0000.00_14.0_cn_767aa510da.tgz"
+					"fastboot": "marble_images_OS1.0.3.0.UMRCNXM_20240418.0000.00_14.0_cn_767aa510da.tgz",
+					"ctelecom": "marble_images_OS1.0.3.0.UMRCNXM_20240418.0000.00_14.0_cn_chinatelecom_bb6fbd2da3.tgz"
 				},
 				"OS1.0.2.0.UMRCNXM": {
 					"os": "OS1.0.2.0.UMRCNXM",
 					"android": "14.0",
 					"release": "2024-02-01",
 					"recovery": "miui_MARBLE_OS1.0.2.0.UMRCNXM_65288a855a_14.0.zip",
-					"fastboot": "marble_images_OS1.0.2.0.UMRCNXM_20240126.0000.00_14.0_cn_fd6f86767e.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "marble",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Turbo",
-        "en" :"Redmi Note 12 Turbo"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.7.0.UMRCNXM": {
-					"os": "OS1.0.7.0.UMRCNXM",
-					"android": "14.0",
-					"release": "2024-09-20",
-					"recovery": "miui_MARBLE_OS1.0.7.0.UMRCNXM_a87408032e_14.0.zip",
-					"fastboot": "marble_images_OS1.0.7.0.UMRCNXM_20240906.0000.00_14.0_cn_chinatelecom_f9bc7c8c86.tgz"
-				},
-				"OS1.0.6.0.UMRCNXM": {
-					"os": "OS1.0.6.0.UMRCNXM",
-					"android": "14.0",
-					"release": "2024-08-29",
-					"recovery": "miui_MARBLE_OS1.0.6.0.UMRCNXM_3cb03aa779_14.0.zip",
-					"fastboot": "marble_images_OS1.0.6.0.UMRCNXM_20240816.0000.00_14.0_cn_chinatelecom_0745cc4fb4.tgz"
-				},
-				"OS1.0.5.0.UMRCNXM": {
-					"os": "OS1.0.5.0.UMRCNXM",
-					"android": "14.0",
-					"release": "2024-07-30",
-					"recovery": "miui_MARBLE_OS1.0.5.0.UMRCNXM_76f9ecb72a_14.0.zip",
-					"fastboot": "marble_images_OS1.0.5.0.UMRCNXM_20240719.0000.00_14.0_cn_chinatelecom_30a03c52f2.tgz"
-				},
-				"OS1.0.3.0.UMRCNXM": {
-					"os": "OS1.0.3.0.UMRCNXM",
-					"android": "14.0",
-					"release": "2024-05-06",
-					"recovery": "miui_MARBLE_OS1.0.3.0.UMRCNXM_20479f8881_14.0.zip",
-					"fastboot": "marble_images_OS1.0.3.0.UMRCNXM_20240418.0000.00_14.0_cn_chinatelecom_bb6fbd2da3.tgz"
-				},
-				"OS1.0.2.0.UMRCNXM": {
-					"os": "OS1.0.2.0.UMRCNXM",
-					"android": "14.0",
-					"release": "2024-02-01",
-					"recovery": "miui_MARBLE_OS1.0.2.0.UMRCNXM_65288a855a_14.0.zip",
-					"fastboot": "marble_images_OS1.0.2.0.UMRCNXM_20240126.0000.00_14.0_cn_chinatelecom_d4063d3179.tgz"
+					"fastboot": "marble_images_OS1.0.2.0.UMRCNXM_20240126.0000.00_14.0_cn_fd6f86767e.tgz",
+					"ctelecom": "marble_images_OS1.0.2.0.UMRCNXM_20240126.0000.00_14.0_cn_chinatelecom_d4063d3179.tgz"
 				}
 			}
 		},
@@ -139,6 +90,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -168,6 +120,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -238,6 +191,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -308,6 +262,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -385,6 +340,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -455,6 +411,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -532,6 +489,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -602,6 +560,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

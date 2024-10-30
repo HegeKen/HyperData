@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,91 +32,48 @@
 					"android": "14.0",
 					"release": "2024-10-23",
 					"recovery": "miui_GOLD_OS1.0.6.0.UNQCNXM_012e871751_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.5.0.UNQCNXM": {
 					"os": "OS1.0.5.0.UNQCNXM",
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_GOLD_OS1.0.5.0.UNQCNXM_d5eb9352cb_14.0.zip",
-					"fastboot": "gold_images_OS1.0.5.0.UNQCNXM_20240911.0000.00_14.0_cn_81e52a72b8.tgz"
+					"fastboot": "gold_images_OS1.0.5.0.UNQCNXM_20240911.0000.00_14.0_cn_81e52a72b8.tgz",
+					"ctelecom": "gold_images_OS1.0.5.0.UNQCNXM_20240911.0000.00_14.0_cn_chinatelecom_9f4964ed36.tgz"
 				},
 				"OS1.0.4.0.UNQCNXM": {
 					"os": "OS1.0.4.0.UNQCNXM",
 					"android": "14.0",
 					"release": "2024-09-05",
 					"recovery": "miui_GOLD_OS1.0.4.0.UNQCNXM_9d3fc3f1f5_14.0.zip",
-					"fastboot": "gold_images_OS1.0.4.0.UNQCNXM_20240828.0000.00_14.0_cn_32e4041d1a.tgz"
+					"fastboot": "gold_images_OS1.0.4.0.UNQCNXM_20240828.0000.00_14.0_cn_32e4041d1a.tgz",
+					"ctelecom": "gold_images_OS1.0.4.0.UNQCNXM_20240828.0000.00_14.0_cn_chinatelecom_5b436a3ef9.tgz"
 				},
 				"OS1.0.3.0.UNQCNXM": {
 					"os": "OS1.0.3.0.UNQCNXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_GOLD_OS1.0.3.0.UNQCNXM_28fcdf7bdc_14.0.zip",
-					"fastboot": "gold_images_OS1.0.3.0.UNQCNXM_20240801.0000.00_14.0_cn_4407f46f1c.tgz"
+					"fastboot": "gold_images_OS1.0.3.0.UNQCNXM_20240801.0000.00_14.0_cn_4407f46f1c.tgz",
+					"ctelecom": "gold_images_OS1.0.3.0.UNQCNXM_20240801.0000.00_14.0_cn_chinatelecom_032a6f1b96.tgz"
 				},
 				"OS1.0.2.0.UNQCNXM": {
 					"os": "OS1.0.2.0.UNQCNXM",
 					"android": "14.0",
 					"release": "2024-06-08",
 					"recovery": "miui_GOLD_OS1.0.2.0.UNQCNXM_98bd3203bc_14.0.zip",
-					"fastboot": "gold_images_OS1.0.2.0.UNQCNXM_20240523.0000.00_14.0_cn_1e1bdba58f.tgz"
+					"fastboot": "gold_images_OS1.0.2.0.UNQCNXM_20240523.0000.00_14.0_cn_1e1bdba58f.tgz",
+					"ctelecom": "gold_images_OS1.0.2.0.UNQCNXM_20240523.0000.00_14.0_cn_chinatelecom_ff62acb903.tgz"
 				},
 				"OS1.0.1.0.UNQCNXM": {
 					"os": "OS1.0.1.0.UNQCNXM",
 					"android": "14.0",
 					"release": "2024-02-01",
 					"recovery": "miui_GOLD_OS1.0.1.0.UNQCNXM_33d7e41a22_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "gold",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13 5G / 13R Pro",
-        "en" :"Redmi Note 13 5G / 13R Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.5.0.UNQCNXM": {
-					"os": "OS1.0.5.0.UNQCNXM",
-					"android": "14.0",
-					"release": "2024-09-29",
-					"recovery": "miui_GOLD_OS1.0.5.0.UNQCNXM_d5eb9352cb_14.0.zip",
-					"fastboot": "gold_images_OS1.0.5.0.UNQCNXM_20240911.0000.00_14.0_cn_chinatelecom_9f4964ed36.tgz"
-				},
-				"OS1.0.4.0.UNQCNXM": {
-					"os": "OS1.0.4.0.UNQCNXM",
-					"android": "14.0",
-					"release": "2024-09-05",
-					"recovery": "miui_GOLD_OS1.0.4.0.UNQCNXM_9d3fc3f1f5_14.0.zip",
-					"fastboot": "gold_images_OS1.0.4.0.UNQCNXM_20240828.0000.00_14.0_cn_chinatelecom_5b436a3ef9.tgz"
-				},
-				"OS1.0.3.0.UNQCNXM": {
-					"os": "OS1.0.3.0.UNQCNXM",
-					"android": "14.0",
-					"release": "2024-08-13",
-					"recovery": "miui_GOLD_OS1.0.3.0.UNQCNXM_28fcdf7bdc_14.0.zip",
-					"fastboot": "gold_images_OS1.0.3.0.UNQCNXM_20240801.0000.00_14.0_cn_chinatelecom_032a6f1b96.tgz"
-				},
-				"OS1.0.2.0.UNQCNXM": {
-					"os": "OS1.0.2.0.UNQCNXM",
-					"android": "14.0",
-					"release": "2024-06-08",
-					"recovery": "miui_GOLD_OS1.0.2.0.UNQCNXM_98bd3203bc_14.0.zip",
-					"fastboot": "gold_images_OS1.0.2.0.UNQCNXM_20240523.0000.00_14.0_cn_chinatelecom_ff62acb903.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -132,6 +90,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -177,6 +136,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -206,6 +166,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -269,6 +230,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -346,6 +308,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -437,6 +400,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -500,6 +464,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -556,6 +521,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,62 +32,24 @@
 					"android": "14.0",
 					"release": "2024-08-23",
 					"recovery": "miui_SUNSTONE_OS1.0.3.0.UMQCNXM_3bcdf06b82_14.0.zip",
-					"fastboot": "sunstone_images_OS1.0.3.0.UMQCNXM_20240813.0000.00_14.0_cn_a898cec649.tgz"
+					"fastboot": "sunstone_images_OS1.0.3.0.UMQCNXM_20240813.0000.00_14.0_cn_a898cec649.tgz",
+					"ctelecom": "sunstone_images_OS1.0.3.0.UMQCNXM_20240813.0000.00_14.0_cn_chinatelecom_6261a3ecf8.tgz"
 				},
 				"OS1.0.2.0.UMQCNXM": {
 					"os": "OS1.0.2.0.UMQCNXM",
 					"android": "14.0",
 					"release": "2024-05-04",
 					"recovery": "miui_SUNSTONE_OS1.0.2.0.UMQCNXM_484735b030_14.0.zip",
-					"fastboot": "sunstone_images_OS1.0.2.0.UMQCNXM_20240417.0000.00_14.0_cn_5d07a01f71.tgz"
+					"fastboot": "sunstone_images_OS1.0.2.0.UMQCNXM_20240417.0000.00_14.0_cn_5d07a01f71.tgz",
+					"ctelecom": "sunstone_images_OS1.0.2.0.UMQCNXM_20240417.0000.00_14.0_cn_chinatelecom_1123996942.tgz"
 				},
 				"OS1.0.1.0.UMQCNXM": {
 					"os": "OS1.0.1.0.UMQCNXM",
 					"android": "14.0",
 					"release": "2024-02-26",
 					"recovery": "miui_SUNSTONE_OS1.0.1.0.UMQCNXM_ecc6daa1f6_14.0.zip",
-					"fastboot": "sunstone_images_OS1.0.1.0.UMQCNXM_20240202.0000.00_14.0_cn_847bb5dd27.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "sunstone",
-      "device": {
-        "zh" :"Redmi Note 12 5G / Note 12R Pro",
-        "en" :"Redmi Note 12 5G / Note 12R Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.3.0.UMQCNXM": {
-					"os": "OS1.0.3.0.UMQCNXM",
-					"android": "14.0",
-					"release": "2024-08-23",
-					"recovery": "miui_SUNSTONE_OS1.0.3.0.UMQCNXM_3bcdf06b82_14.0.zip",
-					"fastboot": "sunstone_images_OS1.0.3.0.UMQCNXM_20240813.0000.00_14.0_cn_chinatelecom_6261a3ecf8.tgz"
-				},
-				"OS1.0.2.0.UMQCNXM": {
-					"os": "OS1.0.2.0.UMQCNXM",
-					"android": "14.0",
-					"release": "2024-05-04",
-					"recovery": "miui_SUNSTONE_OS1.0.2.0.UMQCNXM_484735b030_14.0.zip",
-					"fastboot": "sunstone_images_OS1.0.2.0.UMQCNXM_20240417.0000.00_14.0_cn_chinatelecom_1123996942.tgz"
-				},
-				"OS1.0.1.0.UMQCNXM": {
-					"os": "OS1.0.1.0.UMQCNXM",
-					"android": "14.0",
-					"release": "2024-02-26",
-					"recovery": "miui_SUNSTONE_OS1.0.1.0.UMQCNXM_ecc6daa1f6_14.0.zip",
-					"fastboot": "sunstone_images_OS1.0.1.0.UMQCNXM_20240202.0000.00_14.0_cn_chinatelecom_9bfd3bebd3.tgz"
+					"fastboot": "sunstone_images_OS1.0.1.0.UMQCNXM_20240202.0000.00_14.0_cn_847bb5dd27.tgz",
+					"ctelecom": "sunstone_images_OS1.0.1.0.UMQCNXM_20240202.0000.00_14.0_cn_chinatelecom_9bfd3bebd3.tgz"
 				}
 			}
 		},
@@ -102,6 +65,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -147,6 +111,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -182,6 +147,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -238,6 +204,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -301,6 +268,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",

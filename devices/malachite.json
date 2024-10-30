@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,70 +32,32 @@
 					"android": "14.0",
 					"release": "2024-10-22",
 					"recovery": "miui_MALACHITE_OS1.0.10.0.UOOCNXM_ebaec547a8_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": ""
 				},
 				"OS1.0.8.0.UOOCNXM": {
 					"os": "OS1.0.8.0.UOOCNXM",
 					"android": "14.0",
 					"release": "2024-10-03",
 					"recovery": "miui_MALACHITE_OS1.0.8.0.UOOCNXM_b70842734a_14.0.zip",
-					"fastboot": "malachite_images_OS1.0.8.0.UOOCNXM_20240927.0000.00_14.0_cn_c9664511b3.tgz"
+					"fastboot": "malachite_images_OS1.0.8.0.UOOCNXM_20240927.0000.00_14.0_cn_c9664511b3.tgz",
+					"ctelecom": "malachite_images_OS1.0.8.0.UOOCNXM_20240927.0000.00_14.0_cn_chinatelecom_ec487f7748.tgz"
 				},
 				"OS1.0.7.0.UOOCNXM": {
 					"os": "OS1.0.7.0.UOOCNXM",
 					"android": "14.0",
 					"release": "2024-09-28",
 					"recovery": "miui_MALACHITE_OS1.0.7.0.UOOCNXM_48864c4af6_14.0.zip",
-					"fastboot": "malachite_images_OS1.0.7.0.UOOCNXM_20240926.0000.00_14.0_cn_f47cb978b5.tgz"
+					"fastboot": "malachite_images_OS1.0.7.0.UOOCNXM_20240926.0000.00_14.0_cn_f47cb978b5.tgz",
+					"ctelecom": "malachite_images_OS1.0.7.0.UOOCNXM_20240926.0000.00_14.0_cn_chinatelecom_77215e9258.tgz"
 				},
 				"OS1.0.5.0.UOOCNXM": {
 					"os": "OS1.0.5.0.UOOCNXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_MALACHITE_OS1.0.5.0.UOOCNXM_5b70511a4a_14.0.zip",
-					"fastboot": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_172f05e676.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "malachite",
-			"brand": "Redmi",
-      "device": {
-        "zh": "Redmi Note 14 Pro",
-        "en": "Redmi Note 14 Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.8.0.UOOCNXM": {
-					"os": "OS1.0.8.0.UOOCNXM",
-					"android": "14.0",
-					"release": "2024-10-03",
-					"recovery": "miui_MALACHITE_OS1.0.8.0.UOOCNXM_b70842734a_14.0.zip",
-					"fastboot": "malachite_images_OS1.0.8.0.UOOCNXM_20240927.0000.00_14.0_cn_chinatelecom_ec487f7748.tgz"
-				},
-				"OS1.0.7.0.UOOCNXM": {
-					"os": "OS1.0.7.0.UOOCNXM",
-					"android": "14.0",
-					"release": "2024-09-28",
-					"recovery": "miui_MALACHITE_OS1.0.7.0.UOOCNXM_48864c4af6_14.0.zip",
-					"fastboot": "malachite_images_OS1.0.7.0.UOOCNXM_20240926.0000.00_14.0_cn_chinatelecom_77215e9258.tgz"
-				},
-				"OS1.0.5.0.UOOCNXM": {
-					"os": "OS1.0.5.0.UOOCNXM",
-					"android": "14.0",
-					"release": "2024-09-26",
-					"recovery": "miui_MALACHITE_OS1.0.5.0.UOOCNXM_5b70511a4a_14.0.zip",
-					"fastboot": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_chinatelecom_d13c04b767.tgz"
+					"fastboot": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_172f05e676.tgz",
+					"ctelecom": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_chinatelecom_d13c04b767.tgz"
 				}
 			}
 		},
@@ -111,6 +74,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],

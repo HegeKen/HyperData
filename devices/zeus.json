@@ -20,6 +20,7 @@
       },
 			"idtag": "Dev",
 			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -272,8 +273,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -283,105 +285,48 @@
 					"android": "14.0",
 					"release": "2024-10-17",
 					"recovery": "miui_ZEUS_OS1.0.10.0.ULBCNXM_e622880bff_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.10.0.ULBCNXM_20241010.0000.00_14.0_cn_1aab146765.tgz"
+					"fastboot": "zeus_images_OS1.0.10.0.ULBCNXM_20241010.0000.00_14.0_cn_1aab146765.tgz",
+					"ctelecom": "zeus_images_OS1.0.10.0.ULBCNXM_20241010.0000.00_14.0_cn_chinatelecom_98249c2238.tgz"
 				},
 				"OS1.0.8.0.ULBCNXM": {
 					"os": "OS1.0.8.0.ULBCNXM",
 					"android": "14.0",
 					"release": "2024-09-20",
 					"recovery": "miui_ZEUS_OS1.0.8.0.ULBCNXM_cc4600e8f5_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.8.0.ULBCNXM_20240913.0000.00_14.0_cn_f6c29887e2.tgz"
+					"fastboot": "zeus_images_OS1.0.8.0.ULBCNXM_20240913.0000.00_14.0_cn_f6c29887e2.tgz",
+					"ctelecom": "zeus_images_OS1.0.8.0.ULBCNXM_20240913.0000.00_14.0_cn_chinatelecom_d184a79fd1.tgz"
 				},
 				"OS1.0.7.0.ULBCNXM": {
 					"os": "OS1.0.7.0.ULBCNXM",
 					"android": "14.0",
 					"release": "2024-08-16",
 					"recovery": "miui_ZEUS_OS1.0.7.0.ULBCNXM_3ffc892e83_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.7.0.ULBCNXM_20240808.0000.00_14.0_cn_cdb9c1bc95.tgz"
+					"fastboot": "zeus_images_OS1.0.7.0.ULBCNXM_20240808.0000.00_14.0_cn_cdb9c1bc95.tgz",
+					"ctelecom": "zeus_images_OS1.0.7.0.ULBCNXM_20240808.0000.00_14.0_cn_chinatelecom_fd511ee2b4.tgz"
 				},
 				"OS1.0.4.0.ULBCNXM": {
 					"os": "OS1.0.4.0.ULBCNXM",
 					"android": "14.0",
 					"release": "2024-06-19",
 					"recovery": "miui_ZEUS_OS1.0.4.0.ULBCNXM_f508c3fcff_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.4.0.ULBCNXM_20240607.0000.00_14.0_cn_568f23267a.tgz"
+					"fastboot": "zeus_images_OS1.0.4.0.ULBCNXM_20240607.0000.00_14.0_cn_568f23267a.tgz",
+					"ctelecom": "zeus_images_OS1.0.4.0.ULBCNXM_20240607.0000.00_14.0_cn_chinatelecom_eb9b425d44.tgz"
 				},
 				"OS1.0.3.0.ULBCNXM": {
 					"os": "OS1.0.3.0.ULBCNXM",
 					"android": "14.0",
 					"release": "2024-03-18",
 					"recovery": "miui_ZEUS_OS1.0.3.0.ULBCNXM_f7a546df8e_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.3.0.ULBCNXM_20240307.0000.00_14.0_cn_b87596414f.tgz"
+					"fastboot": "zeus_images_OS1.0.3.0.ULBCNXM_20240307.0000.00_14.0_cn_b87596414f.tgz",
+					"ctelecom": "zeus_images_OS1.0.3.0.ULBCNXM_20240307.0000.00_14.0_cn_chinatelecom_002e3602aa.tgz"
 				},
 				"OS1.0.2.0.ULBCNXM": {
 					"os": "OS1.0.2.0.ULBCNXM",
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_ZEUS_OS1.0.2.0.ULBCNXM_0ba0e58724_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.2.0.ULBCNXM_20240113.0000.00_14.0_cn_6cd0473c89.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "zeus",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12 Pro",
-        "en" :"Xiaomi 12 Pro"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.10.0.ULBCNXM": {
-					"os": "OS1.0.10.0.ULBCNXM",
-					"android": "14.0",
-					"release": "2024-10-17",
-					"recovery": "miui_ZEUS_OS1.0.10.0.ULBCNXM_e622880bff_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.10.0.ULBCNXM_20241010.0000.00_14.0_cn_chinatelecom_98249c2238.tgz"
-				},
-				"OS1.0.8.0.ULBCNXM": {
-					"os": "OS1.0.8.0.ULBCNXM",
-					"android": "14.0",
-					"release": "2024-09-20",
-					"recovery": "miui_ZEUS_OS1.0.8.0.ULBCNXM_cc4600e8f5_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.8.0.ULBCNXM_20240913.0000.00_14.0_cn_chinatelecom_d184a79fd1.tgz"
-				},
-				"OS1.0.7.0.ULBCNXM": {
-					"os": "OS1.0.7.0.ULBCNXM",
-					"android": "14.0",
-					"release": "2024-08-16",
-					"recovery": "miui_ZEUS_OS1.0.7.0.ULBCNXM_3ffc892e83_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.7.0.ULBCNXM_20240808.0000.00_14.0_cn_chinatelecom_fd511ee2b4.tgz"
-				},
-				"OS1.0.4.0.ULBCNXM": {
-					"os": "OS1.0.4.0.ULBCNXM",
-					"android": "14.0",
-					"release": "2024-06-19",
-					"recovery": "miui_ZEUS_OS1.0.4.0.ULBCNXM_f508c3fcff_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.4.0.ULBCNXM_20240607.0000.00_14.0_cn_chinatelecom_eb9b425d44.tgz"
-				},
-				"OS1.0.3.0.ULBCNXM": {
-					"os": "OS1.0.3.0.ULBCNXM",
-					"android": "14.0",
-					"release": "2024-03-18",
-					"recovery": "miui_ZEUS_OS1.0.3.0.ULBCNXM_f7a546df8e_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.3.0.ULBCNXM_20240307.0000.00_14.0_cn_chinatelecom_002e3602aa.tgz"
-				},
-				"OS1.0.2.0.ULBCNXM": {
-					"os": "OS1.0.2.0.ULBCNXM",
-					"android": "14.0",
-					"release": "2024-01-29",
-					"recovery": "miui_ZEUS_OS1.0.2.0.ULBCNXM_0ba0e58724_14.0.zip",
-					"fastboot": "zeus_images_OS1.0.2.0.ULBCNXM_20240113.0000.00_14.0_cn_chinatelecom_a40a26243d.tgz"
+					"fastboot": "zeus_images_OS1.0.2.0.ULBCNXM_20240113.0000.00_14.0_cn_6cd0473c89.tgz",
+					"ctelecom": "zeus_images_OS1.0.2.0.ULBCNXM_20240113.0000.00_14.0_cn_chinatelecom_a40a26243d.tgz"
 				}
 			}
 		},
@@ -398,6 +343,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -461,6 +407,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -524,6 +471,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -615,6 +563,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -678,6 +627,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -741,6 +691,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -804,6 +755,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

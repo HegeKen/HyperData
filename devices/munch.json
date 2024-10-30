@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,91 +32,40 @@
 					"android": "14.0",
 					"release": "2024-09-12",
 					"recovery": "miui_MUNCH_OS1.0.5.0.ULMCNXM_19ba711665_14.0.zip",
-					"fastboot": "munch_images_OS1.0.5.0.ULMCNXM_20240903.0000.00_14.0_cn_a922083c68.tgz"
+					"fastboot": "munch_images_OS1.0.5.0.ULMCNXM_20240903.0000.00_14.0_cn_a922083c68.tgz",
+					"ctelecom": "munch_images_OS1.0.5.0.ULMCNXM_20240903.0000.00_14.0_cn_chinatelecom_88c4bbaa1b.tgz"
 				},
 				"OS1.0.4.0.ULMCNXM": {
 					"os": "OS1.0.4.0.ULMCNXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_MUNCH_OS1.0.4.0.ULMCNXM_f1c69a25d9_14.0.zip",
-					"fastboot": "munch_images_OS1.0.4.0.ULMCNXM_20240805.0000.00_14.0_cn_eab438c65a.tgz"
+					"fastboot": "munch_images_OS1.0.4.0.ULMCNXM_20240805.0000.00_14.0_cn_eab438c65a.tgz",
+					"ctelecom": "munch_images_OS1.0.4.0.ULMCNXM_20240805.0000.00_14.0_cn_chinatelecom_46860d73ac.tgz"
 				},
 				"OS1.0.3.0.ULMCNXM": {
 					"os": "OS1.0.3.0.ULMCNXM",
 					"android": "14.0",
 					"release": "2024-07-23",
 					"recovery": "miui_MUNCH_OS1.0.3.0.ULMCNXM_99673c1cdc_14.0.zip",
-					"fastboot": "munch_images_OS1.0.3.0.ULMCNXM_20240715.0000.00_14.0_cn_0b7ca64671.tgz"
+					"fastboot": "munch_images_OS1.0.3.0.ULMCNXM_20240715.0000.00_14.0_cn_0b7ca64671.tgz",
+					"ctelecom": "munch_images_OS1.0.3.0.ULMCNXM_20240715.0000.00_14.0_cn_chinatelecom_b8ab9dd956.tgz"
 				},
 				"OS1.0.2.0.ULMCNXM": {
 					"os": "OS1.0.2.0.ULMCNXM",
 					"android": "14.0",
 					"release": "2024-6-15",
 					"recovery": "miui_MUNCH_OS1.0.2.0.ULMCNXM_6438305cc0_14.0.zip",
-					"fastboot": "munch_images_OS1.0.2.0.ULMCNXM_20240605.0000.00_14.0_cn_c03682285f.tgz"
+					"fastboot": "munch_images_OS1.0.2.0.ULMCNXM_20240605.0000.00_14.0_cn_c03682285f.tgz",
+					"ctelecom": "munch_images_OS1.0.2.0.ULMCNXM_20240605.0000.00_14.0_cn_chinatelecom_b0cb67d738.tgz"
 				},
 				"OS1.0.1.0.ULMCNXM": {
 					"os": "OS1.0.1.0.ULMCNXM",
 					"android": "14.0",
 					"release": "2024-04-14",
 					"recovery": "miui_MUNCH_OS1.0.1.0.ULMCNXM_f022829508_14.0.zip",
-					"fastboot": "munch_images_OS1.0.1.0.ULMCNXM_20240330.0000.00_14.0_cn_71db3feebe.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "munch",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K40S",
-        "en" :"Redmi K40S"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.5.0.ULMCNXM": {
-					"os": "OS1.0.5.0.ULMCNXM",
-					"android": "14.0",
-					"release": "2024-09-12",
-					"recovery": "miui_MUNCH_OS1.0.5.0.ULMCNXM_19ba711665_14.0.zip",
-					"fastboot": "munch_images_OS1.0.5.0.ULMCNXM_20240903.0000.00_14.0_cn_chinatelecom_88c4bbaa1b.tgz"
-				},
-				"OS1.0.4.0.ULMCNXM": {
-					"os": "OS1.0.4.0.ULMCNXM",
-					"android": "14.0",
-					"release": "2024-08-13",
-					"recovery": "miui_MUNCH_OS1.0.4.0.ULMCNXM_f1c69a25d9_14.0.zip",
-					"fastboot": "munch_images_OS1.0.4.0.ULMCNXM_20240805.0000.00_14.0_cn_chinatelecom_46860d73ac.tgz"
-				},
-				"OS1.0.3.0.ULMCNXM": {
-					"os": "OS1.0.3.0.ULMCNXM",
-					"android": "14.0",
-					"release": "2024-07-23",
-					"recovery": "miui_MUNCH_OS1.0.3.0.ULMCNXM_99673c1cdc_14.0.zip",
-					"fastboot": "munch_images_OS1.0.3.0.ULMCNXM_20240715.0000.00_14.0_cn_chinatelecom_b8ab9dd956.tgz"
-				},
-				"OS1.0.2.0.ULMCNXM": {
-					"os": "OS1.0.2.0.ULMCNXM",
-					"android": "14.0",
-					"release": "2024-6-15",
-					"recovery": "miui_MUNCH_OS1.0.2.0.ULMCNXM_6438305cc0_14.0.zip",
-					"fastboot": "munch_images_OS1.0.2.0.ULMCNXM_20240605.0000.00_14.0_cn_chinatelecom_b0cb67d738.tgz"
-				},
-				"OS1.0.1.0.ULMCNXM": {
-					"os": "OS1.0.1.0.ULMCNXM",
-					"android": "14.0",
-					"release": "2024-04-14",
-					"recovery": "miui_MUNCH_OS1.0.1.0.ULMCNXM_f022829508_14.0.zip",
-					"fastboot": "munch_images_OS1.0.1.0.ULMCNXM_20240330.0000.00_14.0_cn_chinatelecom_5caf33e88b.tgz"
+					"fastboot": "munch_images_OS1.0.1.0.ULMCNXM_20240330.0000.00_14.0_cn_71db3feebe.tgz",
+					"ctelecom": "munch_images_OS1.0.1.0.ULMCNXM_20240330.0000.00_14.0_cn_chinatelecom_5caf33e88b.tgz"
 				}
 			}
 		},
@@ -132,6 +82,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -188,6 +139,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -244,6 +196,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -300,6 +253,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -356,6 +310,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -412,6 +367,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -468,6 +424,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",

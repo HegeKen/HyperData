@@ -20,6 +20,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
 			"carrier": ["", "chinaunicom"],
 			"region": "cn",
@@ -31,133 +32,45 @@
 					"android": "14.0",
 					"release": "2024-10-22",
 					"recovery": "miui_HAYDN_OS1.0.5.0.UKKCNXM_d5ef64abd1_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"ctelecom": "",
+					"cnmobile": ""
 				},
 				"OS1.0.4.0.UKKCNXM": {
 					"os": "OS1.0.4.0.UKKCNXM",
 					"android": "14.0",
 					"release": "2024-10-02",
 					"recovery": "miui_HAYDN_OS1.0.4.0.UKKCNXM_d3243a6f06_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_5e47249679.tgz"
+					"fastboot": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_5e47249679.tgz",
+					"ctelecom": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_chinatelecom_3bbb177929.tgz",
+					"cnmobile": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_chinamobile_40a60a89a0.tgz"
 				},
 				"OS1.0.3.0.UKKCNXM": {
 					"os": "OS1.0.3.0.UKKCNXM",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_HAYDN_OS1.0.3.0.UKKCNXM_401744cc2e_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_d286b3d548.tgz"
+					"fastboot": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_d286b3d548.tgz",
+					"ctelecom": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_chinatelecom_58c16c9594.tgz",
+					"cnmobile": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_chinamobile_2e41d4bee9.tgz"
 				},
 				"OS1.0.2.0.UKKCNXM": {
 					"os": "OS1.0.2.0.UKKCNXM",
 					"android": "14.0",
 					"release": "2024-06-27",
 					"recovery": "miui_HAYDN_OS1.0.2.0.UKKCNXM_2fa8bde61d_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_3b108c30c9.tgz"
+					"fastboot": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_3b108c30c9.tgz",
+					"ctelecom": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_chinatelecom_eeea187887.tgz",
+					"cnmobile": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_chinamobile_09bd602c7e.tgz"
 				},
 				"OS1.0.1.0.UKKCNXM": {
 					"os": "OS1.0.1.0.UKKCNXM",
 					"android": "14.0",
 					"release": "2024-04-13",
 					"recovery": "miui_HAYDN_OS1.0.1.0.UKKCNXM_366ee9022b_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_c05bf325c9.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "haydn",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K40 Pro/Pro+",
-        "en" :"Redmi K40 Pro/Pro+"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.4.0.UKKCNXM": {
-					"os": "OS1.0.4.0.UKKCNXM",
-					"android": "14.0",
-					"release": "2024-10-02",
-					"recovery": "miui_HAYDN_OS1.0.4.0.UKKCNXM_d3243a6f06_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_chinatelecom_3bbb177929.tgz"
-				},
-				"OS1.0.3.0.UKKCNXM": {
-					"os": "OS1.0.3.0.UKKCNXM",
-					"android": "14.0",
-					"release": "2024-08-27",
-					"recovery": "miui_HAYDN_OS1.0.3.0.UKKCNXM_401744cc2e_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_chinatelecom_58c16c9594.tgz"
-				},
-				"OS1.0.2.0.UKKCNXM": {
-					"os": "OS1.0.2.0.UKKCNXM",
-					"android": "14.0",
-					"release": "2024-06-27",
-					"recovery": "miui_HAYDN_OS1.0.2.0.UKKCNXM_2fa8bde61d_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_chinatelecom_eeea187887.tgz"
-				},
-				"OS1.0.1.0.UKKCNXM": {
-					"os": "OS1.0.1.0.UKKCNXM",
-					"android": "14.0",
-					"release": "2024-04-13",
-					"recovery": "miui_HAYDN_OS1.0.1.0.UKKCNXM_366ee9022b_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinatelecom_20f3055c54.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国移动定制版",
-				"en": "Xiaomi HyperOS China Mobile Carrier Edition"
-			},
-			"branchCode": "haydn",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K40 Pro/Pro+",
-        "en" :"Redmi K40 Pro/Pro+"
-      },
-			"idtag": "CnOM",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinamobile"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.4.0.UKKCNXM": {
-					"os": "OS1.0.4.0.UKKCNXM",
-					"android": "14.0",
-					"release": "2024-10-02",
-					"recovery": "miui_HAYDN_OS1.0.4.0.UKKCNXM_d3243a6f06_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_chinamobile_40a60a89a0.tgz"
-				},
-				"OS1.0.3.0.UKKCNXM": {
-					"os": "OS1.0.3.0.UKKCNXM",
-					"android": "14.0",
-					"release": "2024-08-27",
-					"recovery": "miui_HAYDN_OS1.0.3.0.UKKCNXM_401744cc2e_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_chinamobile_2e41d4bee9.tgz"
-				},
-				"OS1.0.2.0.UKKCNXM": {
-					"os": "OS1.0.2.0.UKKCNXM",
-					"android": "14.0",
-					"release": "2024-06-27",
-					"recovery": "miui_HAYDN_OS1.0.2.0.UKKCNXM_2fa8bde61d_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_chinamobile_09bd602c7e.tgz"
-				},
-				"OS1.0.1.0.UKKCNXM": {
-					"os": "OS1.0.1.0.UKKCNXM",
-					"android": "14.0",
-					"release": "2024-04-13",
-					"recovery": "miui_HAYDN_OS1.0.1.0.UKKCNXM_366ee9022b_14.0.zip",
-					"fastboot": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinamobile_4c951d9211.tgz"
+					"fastboot": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_c05bf325c9.tgz",
+					"ctelecom": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinatelecom_20f3055c54.tgz",
+					"cnmobile": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinamobile_4c951d9211.tgz"
 				}
 			}
 		},
@@ -174,6 +87,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -230,6 +144,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -286,6 +201,7 @@
       },
 			"idtag": "EUOR",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["orange"],
 			"region": "eea",
@@ -335,6 +251,7 @@
       },
 			"idtag": "EUTF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["tf"],
 			"region": "eea",
@@ -377,6 +294,7 @@
       },
 			"idtag": "EUHG",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["h3g"],
 			"region": "eea",
@@ -419,6 +337,7 @@
       },
 			"idtag": "EUVF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["vodafone"],
 			"region": "eea",
@@ -454,6 +373,7 @@
       },
 			"idtag": "EUBY",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["by"],
 			"region": "eea",
@@ -496,6 +416,7 @@
       },
 			"idtag": "EUTI",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["tim"],
 			"region": "eea",
@@ -524,6 +445,7 @@
       },
 			"idtag": "EUSF",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": ["sfr"],
 			"region": "eea",
@@ -559,6 +481,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",

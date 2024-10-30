@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,112 +32,56 @@
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_ZIRCON_OS1.0.7.0.UNOCNXM_38f0b8b8a6_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.7.0.UNOCNXM_20240911.0000.00_14.0_cn_4caffd47f3.tgz"
+					"fastboot": "zircon_images_OS1.0.7.0.UNOCNXM_20240911.0000.00_14.0_cn_4caffd47f3.tgz",
+					"ctelecom": "zircon_images_OS1.0.7.0.UNOCNXM_20240911.0000.00_14.0_cn_chinatelecom_d26f379ba8.tgz"
 				},
 				"OS1.0.6.0.UNOCNXM": {
 					"os": "OS1.0.6.0.UNOCNXM",
 					"android": "14.0",
 					"release": "2024-08-30",
 					"recovery": "miui_ZIRCON_OS1.0.6.0.UNOCNXM_eebc5577c7_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.6.0.UNOCNXM_20240821.0000.00_14.0_cn_dde89b8a56.tgz"
+					"fastboot": "zircon_images_OS1.0.6.0.UNOCNXM_20240821.0000.00_14.0_cn_dde89b8a56.tgz",
+					"ctelecom": "zircon_images_OS1.0.6.0.UNOCNXM_20240821.0000.00_14.0_cn_chinatelecom_b35e3b1b19.tgz"
 				},
 				"OS1.0.5.0.UNOCNXM": {
 					"os": "OS1.0.5.0.UNOCNXM",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_ZIRCON_OS1.0.5.0.UNOCNXM_0211284d9f_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.5.0.UNOCNXM_20240722.0000.00_14.0_cn_384bb0e98b.tgz"
+					"fastboot": "zircon_images_OS1.0.5.0.UNOCNXM_20240722.0000.00_14.0_cn_384bb0e98b.tgz",
+					"ctelecom": "zircon_images_OS1.0.5.0.UNOCNXM_20240722.0000.00_14.0_cn_chinatelecom_dbe123ffd1.tgz"
 				},
 				"OS1.0.4.0.UNOCNXM": {
 					"os": "OS1.0.4.0.UNOCNXM",
 					"android": "14.0",
 					"release": "2024-06-13",
 					"recovery": "miui_ZIRCON_OS1.0.4.0.UNOCNXM_97a8daff31_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.4.0.UNOCNXM_20240604.0000.00_14.0_cn_fe10a0c520.tgz"
+					"fastboot": "zircon_images_OS1.0.4.0.UNOCNXM_20240604.0000.00_14.0_cn_fe10a0c520.tgz",
+					"ctelecom": "zircon_images_OS1.0.4.0.UNOCNXM_20240604.0000.00_14.0_cn_chinatelecom_f305518d58.tgz"
 				},
 				"OS1.0.3.0.UNOCNXM": {
 					"os": "OS1.0.3.0.UNOCNXM",
 					"android": "14.0",
 					"release": "2024-05-07",
 					"recovery": "miui_ZIRCON_OS1.0.3.0.UNOCNXM_e09092107e_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.3.0.UNOCNXM_20240422.0000.00_14.0_cn_f02b2dcee4.tgz"
+					"fastboot": "zircon_images_OS1.0.3.0.UNOCNXM_20240422.0000.00_14.0_cn_f02b2dcee4.tgz",
+					"ctelecom": "zircon_images_OS1.0.3.0.UNOCNXM_20240422.0000.00_14.0_cn_chinatelecom_b44119a411.tgz"
 				},
 				"OS1.0.2.0.UNOCNXM": {
 					"os": "OS1.0.2.0.UNOCNXM",
 					"android": "14.0",
 					"release": "2024-02-06",
 					"recovery": "miui_ZIRCON_OS1.0.2.0.UNOCNXM_6c10262097_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.2.0.UNOCNXM_20240202.0000.00_14.0_cn_dfc94ab2e7.tgz"
+					"fastboot": "zircon_images_OS1.0.2.0.UNOCNXM_20240202.0000.00_14.0_cn_dfc94ab2e7.tgz",
+					"ctelecom": "zircon_images_OS1.0.2.0.UNOCNXM_20240202.0000.00_14.0_cn_chinatelecom_b16e687c62.tgz"
 				},
 				"OS1.0.1.0.UNOCNXM": {
 					"os": "OS1.0.1.0.UNOCNXM",
 					"android": "14.0",
 					"release": "2024-01-30",
 					"recovery": "miui_ZIRCON_OS1.0.1.0.UNOCNXM_2d616f277a_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "zircon",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13 Pro+ 5G",
-        "en" :"Redmi Note 13 Pro+ 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.7.0.UNOCNXM": {
-					"os": "OS1.0.7.0.UNOCNXM",
-					"android": "14.0",
-					"release": "2024-09-23",
-					"recovery": "miui_ZIRCON_OS1.0.7.0.UNOCNXM_38f0b8b8a6_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.7.0.UNOCNXM_20240911.0000.00_14.0_cn_chinatelecom_d26f379ba8.tgz"
-				},
-				"OS1.0.6.0.UNOCNXM": {
-					"os": "OS1.0.6.0.UNOCNXM",
-					"android": "14.0",
-					"release": "2024-08-30",
-					"recovery": "miui_ZIRCON_OS1.0.6.0.UNOCNXM_eebc5577c7_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.6.0.UNOCNXM_20240821.0000.00_14.0_cn_chinatelecom_b35e3b1b19.tgz"
-				},
-				"OS1.0.5.0.UNOCNXM": {
-					"os": "OS1.0.5.0.UNOCNXM",
-					"android": "14.0",
-					"release": "2024-07-30",
-					"recovery": "miui_ZIRCON_OS1.0.5.0.UNOCNXM_0211284d9f_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.5.0.UNOCNXM_20240722.0000.00_14.0_cn_chinatelecom_dbe123ffd1.tgz"
-				},
-				"OS1.0.4.0.UNOCNXM": {
-					"os": "OS1.0.4.0.UNOCNXM",
-					"android": "14.0",
-					"release": "2024-06-13",
-					"recovery": "miui_ZIRCON_OS1.0.4.0.UNOCNXM_97a8daff31_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.4.0.UNOCNXM_20240604.0000.00_14.0_cn_chinatelecom_f305518d58.tgz"
-				},
-				"OS1.0.3.0.UNOCNXM": {
-					"os": "OS1.0.3.0.UNOCNXM",
-					"android": "14.0",
-					"release": "2024-05-07",
-					"recovery": "miui_ZIRCON_OS1.0.3.0.UNOCNXM_e09092107e_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.3.0.UNOCNXM_20240422.0000.00_14.0_cn_chinatelecom_b44119a411.tgz"
-				},
-				"OS1.0.2.0.UNOCNXM": {
-					"os": "OS1.0.2.0.UNOCNXM",
-					"android": "14.0",
-					"release": "2024-02-06",
-					"recovery": "miui_ZIRCON_OS1.0.2.0.UNOCNXM_6c10262097_14.0.zip",
-					"fastboot": "zircon_images_OS1.0.2.0.UNOCNXM_20240202.0000.00_14.0_cn_chinatelecom_b16e687c62.tgz"
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -153,6 +98,7 @@
       },
 			"idtag": "CnOD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
 			"region": "cn",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -182,6 +128,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -238,6 +185,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -294,6 +242,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -364,6 +313,7 @@
       },
 			"idtag": "RUSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "ru",
@@ -420,6 +370,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
@@ -483,6 +434,7 @@
       },
 			"idtag": "IDSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "id",
@@ -539,6 +491,7 @@
       },
 			"idtag": "TRSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tr",
@@ -595,6 +548,7 @@
       },
 			"idtag": "JAPS",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "jp",

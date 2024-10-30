@@ -20,8 +20,9 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
-			"carrier": ["", "chinamobile", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -31,49 +32,16 @@
 					"android": "14.0",
 					"release": "2024-09-06",
 					"recovery": "miui_AIR_OS1.0.2.0.UGQCNXM_8dd01b5895_14.0.zip",
-					"fastboot": "air_images_OS1.0.2.0.UGQCNXM_20240830.0000.00_14.0_cn_a0f94ddc6e.tgz"
+					"fastboot": "air_images_OS1.0.2.0.UGQCNXM_20240830.0000.00_14.0_cn_a0f94ddc6e.tgz",
+					"ctelecom": "air_images_OS1.0.2.0.UGQCNXM_20240830.0000.00_14.0_cn_chinatelecom_ba70997283.tgz"
 				},
 				"OS1.0.1.0.UGQCNXM": {
 					"os": "OS1.0.1.0.UGQCNXM",
 					"android": "14.0",
 					"release": "2024-05-17",
 					"recovery": "miui_AIR_OS1.0.1.0.UGQCNXM_6771b8fffc_14.0.zip",
-					"fastboot": "air_images_OS1.0.1.0.UGQCNXM_20240510.0000.00_14.0_cn_71a2eed736.tgz"
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国电信定制版",
-				"en": "Xiaomi HyperOS China Telecom Carrier Edition"
-			},
-			"branchCode": "air",
-			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 13C / 13R 5G",
-        "en" :"Redmi 13C / 13R 5G"
-      },
-			"idtag": "CnOT",
-			"branchtag": "F",
-			"show": "1",
-			"region": "cn",
-			"carrier": ["chinatelecom"],
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS1.0.2.0.UGQCNXM": {
-					"os": "OS1.0.2.0.UGQCNXM",
-					"android": "14.0",
-					"release": "2024-09-06",
-					"recovery": "miui_AIR_OS1.0.2.0.UGQCNXM_8dd01b5895_14.0.zip",
-					"fastboot": "air_images_OS1.0.2.0.UGQCNXM_20240830.0000.00_14.0_cn_chinatelecom_ba70997283.tgz"
-				},
-				"OS1.0.1.0.UGQCNXM": {
-					"os": "OS1.0.1.0.UGQCNXM",
-					"android": "14.0",
-					"release": "2024-05-17",
-					"recovery": "miui_AIR_OS1.0.1.0.UGQCNXM_6771b8fffc_14.0.zip",
-					"fastboot": "air_images_OS1.0.1.0.UGQCNXM_20240510.0000.00_14.0_cn_chinatelecom_7167095577.tgz"
+					"fastboot": "air_images_OS1.0.1.0.UGQCNXM_20240510.0000.00_14.0_cn_71a2eed736.tgz",
+					"ctelecom": "air_images_OS1.0.1.0.UGQCNXM_20240510.0000.00_14.0_cn_chinatelecom_7167095577.tgz"
 				}
 			}
 		},
@@ -90,6 +58,7 @@
       },
 			"idtag": "EPSTD",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -135,6 +104,7 @@
       },
 			"idtag": "CNTP",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "tw",
@@ -163,6 +133,7 @@
       },
 			"idtag": "GBOO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "global",
@@ -198,6 +169,7 @@
       },
 			"idtag": "EEAO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "eea",
@@ -247,6 +219,7 @@
       },
 			"idtag": "INSO",
 			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
 			"carrier": [""],
 			"region": "in",
