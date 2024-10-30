@@ -15,8 +15,8 @@
 			"branchCode": "muyu",
 			"brand": "Xiaomi",
       "device": {
-    "zh": "小米平板7 Pro",
-    "en": "Xiaomi Pad 7 Pro"
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
@@ -26,12 +26,47 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"": {
-					"os": "",
-					"android": "",
-					"release": "",
-					"recovery": "",
+				"OS2.0.4.0.VOYCNXM": {
+					"os": "OS2.0.4.0.VOYCNXM",
+					"android": "15.0",
+					"release": "2024-10-30",
+					"recovery": "muyu-ota_full-OS2.0.4.0.VOYCNXM-user-15.0-4152616bf9.zip",
+					"fastboot": "muyu_images_OS2.0.4.0.VOYCNXM_20241023.0000.00_15.0_cn_a0e959faca.tgz"
+				},
+				"OS2.0.1.0.VOYCNXM": {
+					"os": "OS2.0.1.0.VOYCNXM",
+					"android": "14.0",
+					"release": "2024-10-30",
+					"recovery": "muyu-ota_full-OS2.0.1.0.VOYCNXM-user-15.0-400e270942.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "muyu_demo",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+      },
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.4.0.VOYCNDM": {
+					"os": "OS2.0.4.0.VOYCNDM",
+					"android": "14.0",
+					"release": "2024-10-30",
+					"recovery": "",
+					"fastboot": "muyu_demo_images_OS2.0.4.0.VOYCNDM_20241025.0000.00_15.0_cn_12f8c60c2b.tgz"
 				}
 			}
 		}

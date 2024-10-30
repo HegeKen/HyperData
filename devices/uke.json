@@ -15,8 +15,8 @@
 			"branchCode": "uke",
 			"brand": "Xiaomi",
       "device": {
-    "zh": "小米平板7",
-    "en": "Xiaomi Pad 7"
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
@@ -26,12 +26,40 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"": {
-					"os": "",
-					"android": "",
-					"release": "",
+				"OS2.0.7.0.VOZCNXM": {
+					"os": "OS2.0.7.0.VOZCNXM",
+					"android": "15.0",
+					"release": "2024-10-30",
+					"recovery": "uke-ota_full-OS2.0.7.0.VOZCNXM-user-15.0-febddd1fcd.zip",
+					"fastboot": "uke_images_OS2.0.7.0.VOZCNXM_20241025.0000.00_15.0_cn_2b7b39d8c0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "uke_demo",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "CnOD",
+			"branchtag": "F",
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.3.0.VOZCNDM": {
+					"os": "OS2.0.3.0.VOZCNDM",
+					"android": "14.0",
+					"release": "2024-10-30",
 					"recovery": "",
-					"fastboot": ""
+					"fastboot": "uke_demo_images_OS2.0.3.0.VOZCNDM_20241028.0000.00_15.0_cn_bb1820d1c8.tgz"
 				}
 			}
 		}

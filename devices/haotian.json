@@ -26,11 +26,19 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"": {
-					"os": "",
-					"android": "",
-					"release": "",
+				"OS2.0.12.0.VOBCNXM": {
+					"os": "OS2.0.12.0.VOBCNXM",
+					"android": "14.0",
+					"release": "2024-10-30",
 					"recovery": "",
+					"fastboot": "haotian_images_OS2.0.12.0.VOBCNXM_20241026.0000.00_15.0_cn_a25503f4db.tgz",
+					"ctelecom": "haotian_images_OS2.0.12.0.VOBCNXM_20241026.0000.00_15.0_cn_chinatelecom_67a4eddfc1.tgz"
+				},
+				"OS2.0.8.3.VOBCNXM": {
+					"os": "OS2.0.8.3.VOBCNXM",
+					"android": "15.0",
+					"release": "2024-10-29",
+					"recovery": "haotian-ota_full-OS2.0.8.3.VOBCNXM-user-15.0-d48166323b.zip",
 					"fastboot": ""
 				}
 			}
