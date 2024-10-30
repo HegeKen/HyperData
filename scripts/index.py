@@ -12,6 +12,7 @@ for i in range(0 - weekday_number , 7):
 updates = {
 	"recent":{
 		"time": "",
+		"developing": "no",
 		"roms": []
 	}
 }
