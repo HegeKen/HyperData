@@ -92,6 +92,8 @@ flags = {
 	"FLAME":"flame",
 	"flame_demo":"flame",
 	"FLAMEDEMO":"flame",
+	"lake_ru_global":"lake",
+	"LAKERUGlobal":"lake",
 	"uke_demo":"uke",
 	"muyu_demo":"muyu",
 	"beryl_ep_stdee":"beryl",

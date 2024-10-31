@@ -152,6 +152,35 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "lake_ru_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "RUSO",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UGTRUXM": {
+					"os": "OS1.0.5.0.UGTRUXM",
+					"android": "14.0",
+					"release": "2024-10-31",
+					"recovery": "miui_LAKERUGlobal_OS1.0.5.0.UGTRUXM_dfad2ed307_14.0.zip",
+					"fastboot": "lake_ru_global_images_OS1.0.5.0.UGTRUXM_20241027.0000.00_14.0_ru_676cadba0e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonesia Stable"
 			},
