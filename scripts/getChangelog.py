@@ -15,7 +15,7 @@ def os_replace(ver):
     return ver[:5]
 
 
-device = 'chenfeng'
+device = 'rothko'
 OScommon.HyperOSForm['d'] = device + ''
 OScommon.HyperOSForm['R'] = 'CN'
 OScommon.HyperOSForm['b'] = 'F'
@@ -24,9 +24,9 @@ OScommon.HyperOSForm['c'] = '14'
 OScommon.HyperOSForm['sdk'] = OScommon.sdk[OScommon.HyperOSForm['c']]
 OScommon.HyperOSForm['p'] = device
 OScommon.HyperOSForm['options']['zone'] = '1'
-OScommon.HyperOSForm['options']['cv'] = os_replace('OS1.0.17.0.UNJCNXM')
+OScommon.HyperOSForm['options']['cv'] = os_replace('OS1.0.29.0.UNNCNXM')
 OScommon.HyperOSForm['options']['previewPlan'] = '0'
-OScommon.HyperOSForm['v'] = os_replace('OS1.0.17.0.UNJCNXM')
+OScommon.HyperOSForm['v'] = os_replace('OS1.0.29.0.UNNCNXM')
 
 
 encrypted_form = OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm))
