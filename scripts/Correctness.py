@@ -1,4 +1,5 @@
 import OScommon
+from datetime import datetime
 
 def check_os_in_recovery_and_fastboot(data,device):
   for branch in data['branches']:
@@ -18,6 +19,8 @@ def check_os_in_recovery_and_fastboot(data,device):
         if rom_info['android'] == "" and rom_info['os'] == "" and rom_info['release'] == "" and rom_info['recovery'] == "" and rom_info['fastboot'] == "":
           i = 0
         else:
+          if rom_info['release'] > datetime.now().strftime("%Y-%m-%d"):
+            print(f"错误:机型 {device} {bname} {os_version} 发布时间大于当前日期")
           if rom_info['android'] == "":
             print(f"错误:机型 {device} {bname} {os_version} 安卓版本未标注")
           if rom_info['os'] == "":
