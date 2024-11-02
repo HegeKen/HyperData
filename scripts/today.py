@@ -1,10 +1,11 @@
 import OScommon
 from datetime import datetime
 
-btags = ['Beta','ADPC','ADPG','CnODB','CnOO','CnOT','CnOM','CnOU','CnOD','EPSTD','EPCJCC','CNTP','GBEB', 'GBOO', 'EEAB', 'EEAO','RUSO','INSO',
-         'IDSO','TRSO','THAS','SKSO','JAPS','EUHG','EUOR','EUVF','EUBY','EUTF','EUTI','EUSF','ZAVC','ZAMT','GTTG','CLEN','MXAT',
+btags = ['CnOB','Beta','ADPC','ADPG','CnODB','CnOO','CnOT','CnOM','CnOU','CnOD','EPSTD','EPCJCC','CNTP','GBEB', 'GBOO', 'EEAB', 'EEAO',
+         'RUSO','INSO','IDSO','TRSO','THAS','SKSO','JAPS','EUHG','EUOR','EUVF','EUBY','EUTF','EUTI','EUSF','ZAVC','ZAMT','GTTG','CLEN','MXAT',
          'MXTC','LMCR','LMMS']
 
+CnOB = []
 Beta = []
 ADPC = []
 ADPG = []
@@ -52,9 +53,11 @@ for device in OScommon.order:
     tag = devdata['branches'][num]['idtag']
     for rom in devdata['branches'][num]['roms']:
       if devdata['branches'][num]['roms'][rom]['release'] == datetime.now().strftime("%Y-%m-%d"):
-      # if devdata['branches'][num]['roms'][rom]['release'] == "2024-08-18":
+      # if devdata['branches'][num]['roms'][rom]['release'] == "2024-11-01":
         if tag in btags:
-          if tag == "Beta":
+          if tag == "CnOB":
+            CnOB.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
+          elif tag == "Beta":
             Beta.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
           elif tag == "ADPC":
             ADPC.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
@@ -140,6 +143,10 @@ for device in OScommon.order:
 file = open("public/data/scripts/todays.txt", "a", encoding='utf-8')
 file.write("OS每日公告速递("+datetime.now().strftime("%Y.%m.%d")+")")
 
+if len(CnOB) != 0:
+  file.write("\n小米澎湃 OS Beta\n")
+  for i in CnOB:
+    file.write(i.replace(":","：")+"\n")
 if len(Beta) != 0:
   file.write("\n中国大陆体验增强版 Beta\n")
   for i in Beta:
