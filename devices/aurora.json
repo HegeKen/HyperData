@@ -6,6 +6,7 @@
 	},
 	"type": "phone",
 	"miui": "no",
+	"merged":"no",
 	"branches": [
 		{
 			"name": {
@@ -27,6 +28,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.1.VNACNXM": {
+					"os": "OS2.0.2.1.VNACNXM",
+					"android": "14.0",
+					"release": "2024-11-01",
+					"recovery": "aurora-ota_full-OS2.0.2.1.VNACNXM-user-15.0-b9a32a7915.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.24.0.UNACNXM": {
 					"os": "OS1.0.24.0.UNACNXM",
 					"android": "14.0",

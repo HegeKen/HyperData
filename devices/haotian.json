@@ -6,7 +6,8 @@
   },
   "type": "phone",
   "miui": "no",
-  "branches": [
+	"merged":"no",
+	"branches": [
     {
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
@@ -65,6 +66,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.5.0.VOBCNDM": {
+					"os": "OS2.0.5.0.VOBCNDM",
+					"android": "14.0",
+					"release": "2024-11-01",
+					"recovery": "haotian_demo-ota_full-OS2.0.5.0.VOBCNDM-user-15.0-df37d0f50f.zip",
+					"fastboot": "haotian_demo_images_OS2.0.5.0.VOBCNDM_20241031.0000.00_15.0_cn_31847cb2ea.tgz",
+					"ctelecom": "haotian_demo_images_OS2.0.5.0.VOBCNDM_20241031.0000.00_15.0_cn_chinatelecom_e23ff81da6.tgz"
+				},
 				"OS2.0.4.0.VOBCNDM": {
 					"os": "OS2.0.4.0.VOBCNDM",
 					"android": "15.0",

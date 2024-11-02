@@ -1485,7 +1485,15 @@ def writeData(filename):
 		file = open("/sdcard/Codes/HyperOS.fans/public/data/scripts/NewROMs.txt", "a", encoding='utf-8')
 	file.write(filename+"\n")
 	if ".zip" in filename:
-		flag = filename.split('_')[1]
+		if "miui" in filename:
+		# OS With Android 14 and below uses "miui" as start, and flag is located in spot 1
+			rec_seperator = "_"
+			rec_spot = 1
+		else:
+		# OS With Android 15 uses "-ota_full" as a separator, and flag is located in spot 0
+			rec_seperator = "-ota_full"
+			rec_spot = 0
+		flag = filename.split(rec_seperator)[rec_spot]
 	elif ".tgz" in filename:
 		flag = filename.split('_images')[0]
 	print("发现\t"+flag+"\t分支有未收录的新版本")

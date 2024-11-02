@@ -6,7 +6,8 @@
   },
   "type": "phone",
   "miui": "no",
-  "branches": [
+	"merged":"no",
+	"branches": [
     {
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
@@ -61,7 +62,7 @@
 					"os": "OS2.0.5.0.VOCCNDM",
 					"android": "15.0",
 					"release": "2024-11-01",
-					"recovery": "",
+					"recovery": "dada_demo-ota_full-OS2.0.5.0.VOCCNDM-user-15.0-e4f6c934c8.zip",
 					"fastboot": "dada_demo_images_OS2.0.5.0.VOCCNDM_20241031.0000.00_15.0_cn_3a62765cfd.tgz",
 					"ctelecom": "dada_demo_images_OS2.0.5.0.VOCCNDM_20241031.0000.00_15.0_cn_chinatelecom_a61151a46a.tgz"
 				},
