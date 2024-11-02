@@ -10,8 +10,8 @@
 	"branches": [
 		{
 			"name": {
-				"zh": "小米澎湃 OS 体验增强版 Beta",
-				"en": "Xiaomi HyperOS Enhanced Experience Beta"
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
 			},
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
@@ -19,103 +19,10 @@
         "zh" :"",
         "en" :""
       },
-			"idtag": "Beta",
+			"idtag": "CnOB",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"region": "cn",
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"": {
-					"os": "",
-					"android": "15.0",
-					"release": "",
-					"recovery": "",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 安卓开发者预览版大陆版",
-				"en": "Xiaomi HyperOS Android Developer Preview (China Mainland)"
-			},
-			"branchCode": "",
-			"brand": "Xiaomi, Redmi, POCO",
-      "device": {
-        "zh" :"",
-        "en" :""
-      },
-			"idtag": "ADPC",
-			"url": "",
-			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
-			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"region": "cn",
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"": {
-					"os": "",
-					"android": "15.0",
-					"release": "2024-05-16",
-					"recovery": "",
-					"fastboot": "",
-					"originrec": "",
-					"originfb":""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 安卓开发者预览版国际版",
-				"en": "Xiaomi HyperOS Android Developer Preview Global"
-			},
-			"branchCode": "",
-			"brand": "Xiaomi, Redmi, POCO",
-      "device": {
-        "zh" :"",
-        "en" :""
-      },
-			"idtag": "ADPG",
-			"url": "",
-			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
-			"show": "1",
-			"carrier": [""],
-			"region": "global",
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"": {
-					"os": "",
-					"android": "15.0",
-					"release": "2024-05-16",
-					"recovery": "",
-					"fastboot": "",
-					"originrec": "",
-					"originfb":""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 正式版每日构建版本",
-				"en": "Xiaomi HyperOS Stable Daily Build"
-			},
-			"branchCode": "",
-			"brand": "Xiaomi, Redmi, POCO",
-      "device": {
-        "zh" :"",
-        "en" :""
-      },
-			"idtag": "CnODB",
-			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
-			"show": "0",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
@@ -143,7 +50,7 @@
       },
 			"idtag": "CnOO",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"],
 			"show": "1",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
@@ -1053,6 +960,128 @@
 			"carrier": ["movistar"],
 			"region": "lm",
 			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "14.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 体验增强版 Beta",
+				"en": "Xiaomi HyperOS Enhanced Experience Beta"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "Beta",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "15.0",
+					"release": "",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版大陆版",
+				"en": "Xiaomi HyperOS Android Developer Preview (China Mainland)"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "ADPC",
+			"url": "",
+			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "15.0",
+					"release": "2024-05-16",
+					"recovery": "",
+					"fastboot": "",
+					"originrec": "",
+					"originfb":""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版国际版",
+				"en": "Xiaomi HyperOS Android Developer Preview Global"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "ADPG",
+			"url": "",
+			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"": {
+					"os": "",
+					"android": "15.0",
+					"release": "2024-05-16",
+					"recovery": "",
+					"fastboot": "",
+					"originrec": "",
+					"originfb":""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版每日构建版本",
+				"en": "Xiaomi HyperOS Stable Daily Build"
+			},
+			"branchCode": "",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "CnODB",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
 			"ep": "0",
 			"roms": {
 				"": {

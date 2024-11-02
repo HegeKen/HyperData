@@ -10,6 +10,35 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "aurora",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 14 Ultra / Ultra Ti",
+        "en" :"Xiaomi 14 Ultra"
+      },
+			"idtag": "CnOB",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.1.VNACNXM": {
+					"os": "OS2.0.2.1.VNACNXM",
+					"android": "15.0",
+					"release": "2024-11-01",
+					"recovery": "aurora-ota_full-OS2.0.2.1.VNACNXM-user-15.0-b9a32a7915.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
@@ -28,14 +57,6 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS2.0.2.1.VNACNXM": {
-					"os": "OS2.0.2.1.VNACNXM",
-					"android": "14.0",
-					"release": "2024-11-01",
-					"recovery": "aurora-ota_full-OS2.0.2.1.VNACNXM-user-15.0-b9a32a7915.zip",
-					"fastboot": "",
-					"ctelecom": ""
-				},
 				"OS1.0.24.0.UNACNXM": {
 					"os": "OS1.0.24.0.UNACNXM",
 					"android": "14.0",

@@ -1,13 +1,42 @@
 {
 	"device": "shennong",
 	"name": {
-		"zh": "小米 14 Pro / Ti",
-		"en": "Xiaomi 14 Pro / Ti"
+		"zh": "小米 14 Pro / Ti / 钛金属卫星通讯版",
+		"en": "Xiaomi 14 Pro / Ti / Satellite"
 	},
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "shennong",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14 Pro / Ti / 钛金属卫星通讯版",
+				"en": "Xiaomi 14 Pro / Ti / Satellite"
+      },
+			"idtag": "CnOB",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.2.VNBCNXM": {
+					"os": "OS2.0.2.2.VNBCNXM",
+					"android": "15.0",
+					"release": "2024-11-01",
+					"recovery": "shennong-ota_full-OS2.0.2.2.VNBCNXM-user-15.0-3970c846ed.zip",
+					"fastboot": ""
+				}
+			}
+		},
 		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
@@ -28,14 +57,6 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS2.0.2.2.VNBCNXM": {
-					"os": "OS2.0.2.2.VNBCNXM",
-					"android": "15.0",
-					"release": "2024-11-01",
-					"recovery": "shennong-ota_full-OS2.0.2.2.VNBCNXM-user-15.0-3970c846ed.zip",
-					"fastboot": "",
-					"ctelecom": ""
-				},
 				"OS1.0.50.0.UNBCNXM": {
 					"os": "OS1.0.50.0.UNBCNXM",
 					"android": "14.0",

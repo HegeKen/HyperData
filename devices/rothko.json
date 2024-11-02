@@ -10,6 +10,35 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "rothko",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi K70 至尊版",
+        "en" :"Redmi K70 Ultra"
+      },
+			"idtag": "CnOB",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.3.VNNCNXM": {
+					"os": "OS2.0.2.3.VNNCNXM",
+					"android": "15.0",
+					"release": "2024-11-01",
+					"recovery": "rothko-ota_full-OS2.0.2.3.VNNCNXM-user-15.0-1fcd51d026.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
@@ -28,14 +57,6 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-				"OS2.0.2.3.VNNCNXM": {
-					"os": "OS2.0.2.3.VNNCNXM",
-					"android": "15.0",
-					"release": "2024-11-01",
-					"recovery": "rothko-ota_full-OS2.0.2.3.VNNCNXM-user-15.0-1fcd51d026.zip",
-					"fastboot": "",
-					"ctelecom": ""
-				},
     		"OS1.0.29.0.UNNCNXM": {
 					"os": "OS1.0.29.0.UNNCNXM",
 					"android": "14.0",
@@ -290,6 +311,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UNNMIXM": {
+					"os": "OS1.0.8.0.UNNMIXM",
+					"android": "14.0",
+					"release": "2024-11-02",
+					"recovery": "miui_ROTHKOGlobal_OS1.0.8.0.UNNMIXM_b2186be214_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UNNMIXM": {
 					"os": "OS1.0.3.0.UNNMIXM",
 					"android": "14.0",
@@ -412,6 +440,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UNNRUXM": {
+					"os": "OS1.0.6.0.UNNRUXM",
+					"android": "14.0",
+					"release": "2024-11-02",
+					"recovery": "miui_ROTHKORUGlobal_OS1.0.6.0.UNNRUXM_2821c1a99c_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UNNRUXM": {
 					"os": "OS1.0.3.0.UNNRUXM",
 					"android": "14.0",

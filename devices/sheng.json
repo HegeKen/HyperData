@@ -10,6 +10,149 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "sheng",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米平板 6S Pro 12.4",
+        "en" :"Xiaomi Pad 6S Pro 12.4"
+      },
+			"idtag": "CnOB",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.1.10.VNXCNXM": {
+					"os": "OS2.0.1.10.VNXCNXM",
+					"android": "15.0",
+					"release": "2024-11-01",
+					"recovery": "sheng-ota_full-OS2.0.1.10.VNXCNXM-user-15.0-25b489e98b.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "sheng",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米平板 6S Pro 12.4",
+        "en" :"Xiaomi Pad 6S Pro 12.4"
+      },
+			"idtag": "CnOO",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.11.0.UNXCNXM": {
+					"os": "OS1.0.11.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-09-20",
+					"recovery": "miui_SHENG_OS1.0.11.0.UNXCNXM_921ff6036a_14.0.zip",
+					"fastboot": "sheng_images_OS1.0.11.0.UNXCNXM_20240911.0000.00_14.0_cn_3237705170.tgz"
+				},
+				"OS1.0.10.0.UNXCNXM": {
+					"os": "OS1.0.10.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-08-13",
+					"recovery": "miui_SHENG_OS1.0.10.0.UNXCNXM_9a7e129be9_14.0.zip",
+					"fastboot": "sheng_images_OS1.0.10.0.UNXCNXM_20240805.0000.00_14.0_cn_3afc996455.tgz"
+				},
+				"OS1.0.9.0.UNXCNXM": {
+					"os": "OS1.0.9.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-07-30",
+					"recovery": "miui_SHENG_OS1.0.9.0.UNXCNXM_031ec69427_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.8.0.UNXCNXM": {
+					"os": "OS1.0.8.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-05-27",
+					"recovery": "miui_SHENG_OS1.0.8.0.UNXCNXM_c12a5e6408_14.0.zip",
+					"fastboot": "sheng_images_OS1.0.8.0.UNXCNXM_20240514.0000.00_14.0_cn_aeab0e6b94.tgz"
+				},
+				"OS1.0.7.0.UNXCNXM": {
+					"os": "OS1.0.7.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-03-20",
+					"recovery": "miui_SHENG_OS1.0.7.0.UNXCNXM_44a9846911_14.0.zip",
+					"fastboot": "sheng_images_OS1.0.7.0.UNXCNXM_20240315.0000.00_14.0_cn_2315bcd97e.tgz"
+				},
+				"OS1.0.5.0.UNXCNXM": {
+					"os": "OS1.0.5.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-03-09",
+					"recovery": "miui_SHENG_OS1.0.5.0.UNXCNXM_c360e030b8_14.0.zip",
+					"fastboot": "sheng_images_OS1.0.5.0.UNXCNXM_20240306.0000.00_14.0_cn_7cac03de7b.tgz"
+				},
+				"OS1.0.4.0.UNXCNXM": {
+					"os": "OS1.0.4.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-02-22",
+					"recovery": "miui_SHENG_OS1.0.4.0.UNXCNXM_1db2797911_14.0.zip",
+					"fastboot": "sheng_images_OS1.0.4.0.UNXCNXM_20240205.0000.00_14.0_cn_f87e0d6ecd.tgz"
+				},
+				"OS1.0.3.0.UNXCNXM": {
+					"os": "OS1.0.3.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-02-22",
+					"recovery": "miui_SHENG_OS1.0.3.0.UNXCNXM_37ab7cee9d_14.0.zip",
+					"fastboot": "sheng_images_OS1.0.3.0.UNXCNXM_20240128.0000.00_14.0_cn_5d0cf1909d.tgz"
+				},
+				"OS1.0.1.0.UNXCNXM": {
+					"os": "OS1.0.1.0.UNXCNXM",
+					"android": "14.0",
+					"release": "2024-02-22",
+					"recovery": "miui_SHENG_OS1.0.1.0.UNXCNXM_db6e0aaf09_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "sheng_ep_stdee",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米平板 6S Pro 12.4",
+        "en" :"Xiaomi Pad 6S Pro 12.4"
+      },
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.4.16.EP.STDEE.N81A": {
+					"os": "OS1.0.24.4.16.EP.STDEE.N81A",
+					"android": "14.0",
+					"release": "2024-05-06",
+					"recovery": "miui_SHENGEPSTDEE_OS1.0.24.4.16.EP.STDEE.N81A_b8e830f0b6_14.0.zip",
+					"fastboot": "sheng_ep_stdee_images_OS1.0.24.4.16.EP.STDEE.N81A_20240416.0000.00_14.0_cn_698be647f8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 安卓开发者预览版大陆版",
 				"en": "Xiaomi HyperOS Android Developer Preview (China Mainland)"
 			},
@@ -164,127 +307,6 @@
 					"release": "2024-09-24",
 					"recovery": "sheng-ota_full-OS1.1.3.0.VNXCNXM.BETA-user-15.0-1aa13db1d3.zip",
 					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 正式版",
-				"en": "Xiaomi HyperOS Stable"
-			},
-			"branchCode": "sheng",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
-			"idtag": "CnOO",
-			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
-			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"region": "cn",
-			"zone": "1",
-			"ep": "0",
-			"roms": {
-				"OS2.0.1.10.VNXCNXM": {
-					"os": "OS2.0.1.10.VNXCNXM",
-					"android": "15.0",
-					"release": "2024-11-01",
-					"recovery": "sheng-ota_full-OS2.0.1.10.VNXCNXM-user-15.0-25b489e98b.zip",
-					"fastboot": ""
-				},
-				"OS1.0.11.0.UNXCNXM": {
-					"os": "OS1.0.11.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-09-20",
-					"recovery": "miui_SHENG_OS1.0.11.0.UNXCNXM_921ff6036a_14.0.zip",
-					"fastboot": "sheng_images_OS1.0.11.0.UNXCNXM_20240911.0000.00_14.0_cn_3237705170.tgz"
-				},
-				"OS1.0.10.0.UNXCNXM": {
-					"os": "OS1.0.10.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-08-13",
-					"recovery": "miui_SHENG_OS1.0.10.0.UNXCNXM_9a7e129be9_14.0.zip",
-					"fastboot": "sheng_images_OS1.0.10.0.UNXCNXM_20240805.0000.00_14.0_cn_3afc996455.tgz"
-				},
-				"OS1.0.9.0.UNXCNXM": {
-					"os": "OS1.0.9.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-07-30",
-					"recovery": "miui_SHENG_OS1.0.9.0.UNXCNXM_031ec69427_14.0.zip",
-					"fastboot": ""
-				},
-				"OS1.0.8.0.UNXCNXM": {
-					"os": "OS1.0.8.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-05-27",
-					"recovery": "miui_SHENG_OS1.0.8.0.UNXCNXM_c12a5e6408_14.0.zip",
-					"fastboot": "sheng_images_OS1.0.8.0.UNXCNXM_20240514.0000.00_14.0_cn_aeab0e6b94.tgz"
-				},
-				"OS1.0.7.0.UNXCNXM": {
-					"os": "OS1.0.7.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-03-20",
-					"recovery": "miui_SHENG_OS1.0.7.0.UNXCNXM_44a9846911_14.0.zip",
-					"fastboot": "sheng_images_OS1.0.7.0.UNXCNXM_20240315.0000.00_14.0_cn_2315bcd97e.tgz"
-				},
-				"OS1.0.5.0.UNXCNXM": {
-					"os": "OS1.0.5.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-03-09",
-					"recovery": "miui_SHENG_OS1.0.5.0.UNXCNXM_c360e030b8_14.0.zip",
-					"fastboot": "sheng_images_OS1.0.5.0.UNXCNXM_20240306.0000.00_14.0_cn_7cac03de7b.tgz"
-				},
-				"OS1.0.4.0.UNXCNXM": {
-					"os": "OS1.0.4.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-02-22",
-					"recovery": "miui_SHENG_OS1.0.4.0.UNXCNXM_1db2797911_14.0.zip",
-					"fastboot": "sheng_images_OS1.0.4.0.UNXCNXM_20240205.0000.00_14.0_cn_f87e0d6ecd.tgz"
-				},
-				"OS1.0.3.0.UNXCNXM": {
-					"os": "OS1.0.3.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-02-22",
-					"recovery": "miui_SHENG_OS1.0.3.0.UNXCNXM_37ab7cee9d_14.0.zip",
-					"fastboot": "sheng_images_OS1.0.3.0.UNXCNXM_20240128.0000.00_14.0_cn_5d0cf1909d.tgz"
-				},
-				"OS1.0.1.0.UNXCNXM": {
-					"os": "OS1.0.1.0.UNXCNXM",
-					"android": "14.0",
-					"release": "2024-02-22",
-					"recovery": "miui_SHENG_OS1.0.1.0.UNXCNXM_db6e0aaf09_14.0.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 中国大陆政企标准版",
-				"en": "Xiaomi HyperOS Enterprise Standard"
-			},
-			"branchCode": "sheng_ep_stdee",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
-			"idtag": "EPSTD",
-			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
-			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-			"region": "cn",
-			"zone": "1",
-			"ep": "1",
-			"roms": {
-				"OS1.0.24.4.16.EP.STDEE.N81A": {
-					"os": "OS1.0.24.4.16.EP.STDEE.N81A",
-					"android": "14.0",
-					"release": "2024-05-06",
-					"recovery": "miui_SHENGEPSTDEE_OS1.0.24.4.16.EP.STDEE.N81A_b8e830f0b6_14.0.zip",
-					"fastboot": "sheng_ep_stdee_images_OS1.0.24.4.16.EP.STDEE.N81A_20240416.0000.00_14.0_cn_698be647f8.tgz"
 				}
 			}
 		},
