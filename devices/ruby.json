@@ -33,8 +33,8 @@
 					"android": "14.0",
 					"release": "2024-10-25",
 					"recovery": "miui_RUBY_OS1.0.9.0.UMOCNXM_bd4eebe24e_14.0.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "ruby_images_OS1.0.9.0.UMOCNXM_20241019.0000.00_14.0_cn_3ba5311090.tgz",
+					"ctelecom": "ruby_images_OS1.0.9.0.UMOCNXM_20241019.0000.00_14.0_cn_chinatelecom_34f4cab398.tgz"
 				},
 				"OS1.0.8.0.UMOCNXM": {
 					"os": "OS1.0.8.0.UMOCNXM",
@@ -369,7 +369,7 @@
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_RUBYRUGlobal_OS1.0.9.0.UMORUXM_d14aacd107_14.0.zip",
-					"fastboot": ""
+					"fastboot": "ruby_ru_global_images_OS1.0.9.0.UMORUXM_20241016.0000.00_14.0_ru_2d0b852db8.tgz"
 				},
 				"OS1.0.8.0.UMORUXM": {
 					"os": "OS1.0.8.0.UMORUXM",
@@ -433,7 +433,7 @@
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_RUBYINGlobal_OS1.0.7.0.UMOINXM_eec90313c5_14.0.zip",
-					"fastboot": ""
+					"fastboot": "ruby_in_global_images_OS1.0.7.0.UMOINXM_20241019.0000.00_14.0_in_524e55ab75.tgz"
 				},
 				"OS1.0.6.0.UMOINXM": {
 					"os": "OS1.0.6.0.UMOINXM",
@@ -570,6 +570,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UMOTRXM": {
+					"os": "OS1.0.6.0.UMOTRXM",
+					"android": "14.0",
+					"release": "2024-11-04",
+					"recovery": "miui_RUBYTRGlobal_OS1.0.6.0.UMOTRXM_c4f4daaf2b_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.5.0.UMOTRXM": {
 					"os": "OS1.0.5.0.UMOTRXM",
 					"android": "14.0",

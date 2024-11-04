@@ -33,8 +33,8 @@
 					"android": "14.0",
 					"release": "2024-10-23",
 					"recovery": "miui_GOLD_OS1.0.6.0.UNQCNXM_012e871751_14.0.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "gold_images_OS1.0.6.0.UNQCNXM_20241015.0000.00_14.0_cn_d6217897c7.tgz",
+					"ctelecom": "gold_images_OS1.0.6.0.UNQCNXM_20241015.0000.00_14.0_cn_chinatelecom_f71ced0742.tgz"
 				},
 				"OS1.0.5.0.UNQCNXM": {
 					"os": "OS1.0.5.0.UNQCNXM",
@@ -321,7 +321,7 @@
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_GOLDEEAGlobal_OS1.0.15.0.UNQEUXM_767a754131_14.0.zip",
-					"fastboot": ""
+					"fastboot": "gold_eea_global_images_OS1.0.15.0.UNQEUXM_20241015.0000.00_14.0_eea_f6423fe697.tgz"
 				},
 				"OS1.0.14.0.UNQEUXM": {
 					"os": "OS1.0.14.0.UNQEUXM",
@@ -408,6 +408,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.12.0.UNQINXM": {
+					"os": "OS1.0.12.0.UNQINXM",
+					"android": "14.0",
+					"release": "2024-11-04",
+					"recovery": "miui_GOLDINGlobal_OS1.0.12.0.UNQINXM_81f5621fbb_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.11.0.UNQINXM": {
 					"os": "OS1.0.11.0.UNQINXM",
 					"android": "14.0",
@@ -472,6 +479,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UNQIDXM": {
+					"os": "OS1.0.8.0.UNQIDXM",
+					"android": "14.0",
+					"release": "2024-11-04",
+					"recovery": "miui_GOLDIDGlobal_OS1.0.8.0.UNQIDXM_c69e9be31a_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UNQIDXM": {
 					"os": "OS1.0.7.0.UNQIDXM",
 					"android": "14.0",

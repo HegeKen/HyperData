@@ -215,6 +215,35 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Movistar运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Movistar Carrier Edition"
+			},
+			"branchCode": "spes_lm_ms_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 11 国际版",
+        "en" :"Redmi Note 11"
+      },
+			"idtag": "LMMS",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["movistar"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TGCLMMS": {
+					"os": "OS1.0.2.0.TGCLMMS",
+					"android": "13.0",
+					"release": "2024-11-04",
+					"recovery": "miui_SPESLMMSGlobal_OS1.0.2.0.TGCLMMS_85dc5cdb03_13.0.zip",
+					"fastboot": "spes_lm_ms_global_images_OS1.0.2.0.TGCLMMS_20240906.0000.00_13.0_lm_movistar_fa0f6a19b8.tgz"
+				}
+			}
 		}
 	]
 }

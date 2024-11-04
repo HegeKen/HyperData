@@ -23,7 +23,7 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
-			"carrier": ["", "chinaunicom"],
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -33,9 +33,9 @@
 					"android": "14.0",
 					"release": "2024-10-22",
 					"recovery": "miui_HAYDN_OS1.0.5.0.UKKCNXM_d5ef64abd1_14.0.zip",
-					"fastboot": "",
-					"ctelecom": "",
-					"cnmobile": ""
+					"fastboot": "haydn_images_OS1.0.5.0.UKKCNXM_20241014.0000.00_14.0_cn_7b1aa224fc.tgz",
+					"ctelecom": "haydn_images_OS1.0.5.0.UKKCNXM_20241014.0000.00_14.0_cn_chinatelecom_0463ffc410.tgz",
+					"cnmobile": "haydn_images_OS1.0.5.0.UKKCNXM_20241014.0000.00_14.0_cn_chinamobile_2f526e9139.tgz"
 				},
 				"OS1.0.4.0.UKKCNXM": {
 					"os": "OS1.0.4.0.UKKCNXM",
