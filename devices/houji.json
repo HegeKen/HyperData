@@ -944,6 +944,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.1.3.0.VNCMIXM": {
+					"os": "OS1.1.3.0.VNCMIXM",
+					"android": "15.0",
+					"release": "2024-11-05",
+					"recovery": "houji_global-ota_full-OS1.1.3.0.VNCMIXM-user-15.0-a5c05e8590.zip",
+					"fastboot": ""
+				},
 				"OS1.0.15.0.UNCMIXM": {
 					"os": "OS1.0.15.0.UNCMIXM",
 					"android": "14.0",
@@ -997,35 +1004,6 @@
 		},
 		{
 			"name": {
-				"zh": "小米澎湃 OS 欧洲EEA体验增强版 Beta",
-				"en": "Xiaomi HyperOS Europe EEA Enhanced Experience Beta"
-			},
-			"branchCode": "houji_eea_global",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
-			"idtag": "EEAB",
-			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
-			"show": "1",
-			"carrier": [""],
-			"region": "eea",
-			"zone": "2",
-			"ep": "0",
-			"roms": {
-				"OS1.1.2.0.VNCEUXM.BETA": {
-					"os": "OS1.1.2.0.VNCEUXM.BETA",
-					"android": "15.0",
-					"release": "2024-10-01",
-					"recovery": "houji_eea_global-ota_full-OS1.1.2.0.VNCEUXM.BETA-user-15.0-c531e5fa62.zip",
-					"fastboot": ""
-				}
-			}
-		},
-		{
-			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -1044,6 +1022,20 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.1.4.0.VNCEUXM": {
+					"os": "OS1.1.4.0.VNCEUXM",
+					"android": "15.0",
+					"release": "2024-11-05",
+					"recovery": "houji_eea_global-ota_full-OS1.1.4.0.VNCEUXM-user-15.0-30383d3fc3.zip",
+					"fastboot": ""
+				},
+				"OS1.1.2.0.VNCEUXM.BETA": {
+					"os": "OS1.1.2.0.VNCEUXM.BETA",
+					"android": "15.0",
+					"release": "2024-10-01",
+					"recovery": "houji_eea_global-ota_full-OS1.1.2.0.VNCEUXM.BETA-user-15.0-c531e5fa62.zip",
+					"fastboot": ""
+				},
 				"OS1.0.22.0.UNCEUXM": {
 					"os": "OS1.0.22.0.UNCEUXM",
 					"android": "14.0",
