@@ -36,7 +36,7 @@ currentStable = ["dada", "haotian", "uke", "muyu",
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["uke", "muyu",  "dada", "haotian", "zorn", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
+only_os = ["uke", "muyu",	"dada", "haotian", "zorn", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "xuanyuan", "dijun", "flame", "pond", "lake","flare", "spark", "goku", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
@@ -259,7 +259,7 @@ flags = {
 	"spark_tw_global": "spark",
 	"SPARKTWGlobal" : "spark",
 	"flare_tw_global": "flare",
-  "FLARETWGlobal": "flare",
+	"FLARETWGlobal": "flare",
 	"spesn_za_mt_global":"spesn",
 	"SPESNZAMTGlobal":"spesn",
 	"VILIJPGlobal":"vili",
@@ -1466,12 +1466,12 @@ flags = {
 
 
 def ver_in_order(versions):
-  list = versions.split("; ")
-  for i in range(len(list)):
-    for j in range(i+1, len(list)):
-      if list[i] > list[j]:
-        list[i], list[j] = list[j], list[i]
-  return list
+	list = versions.split("; ")
+	for i in range(len(list)):
+		for j in range(i+1, len(list)):
+			if list[i] > list[j]:
+				list[i], list[j] = list[j], list[i]
+	return list
 	
 
 def localData(codename):
@@ -1771,52 +1771,56 @@ def getFastboot(url):
 	response.close()
 
 def entryChecker(data,device):
-  check =[]
-  for branch in data['branches']:
-    if data['device'] in branch['branchCode']:
-      roms = branch['roms']
-      bname = branch['name']['zh']
-      menu_items = branch['table']
-      if len(menu_items) != len(set(menu_items)):
-        print(device, bname, "菜单项重复")
-      else:
-        i = 0
-      for os_version, rom_info in roms.items():
-        if len(rom_info) != len(menu_items):
-          print(device, bname, os_version, "菜单项数量与实际数量不一致")
-        else:
-          i = 0
-        if rom_info['android'] == "" and rom_info['os'] == "" and rom_info['release'] == "" and rom_info['recovery'] == "" and rom_info['fastboot'] == "":
-          i = 0
-        else:
-          if rom_info['release'] > datetime.now().strftime("%Y-%m-%d"):
-            print(f"错误:机型 {device} {bname} {os_version} 发布时间大于当前日期")
-            check.append(1)
-          if rom_info['android'] == "":
-            print(f"错误:机型 {device} {bname} {os_version} 安卓版本未标注")
-            check.append(1)
-          if rom_info['os'] == "":
-            print(f"错误:机型 {device} {bname} {os_version} OS版本未标注")
-            check.append(1)
-          if rom_info['release'] == "":
-            print(f"错误:机型 {device} {bname} {os_version} 发布时间未标注")
-            check.append(1)
-          if rom_info['recovery'] != "":
-            if rom_info['android'] not in rom_info['recovery']:
-              print(f"错误:机型 {device} {bname} {os_version} 卡刷包与当前记录的安卓版本不一致")
-              check.append(1)
-            if rom_info['os'] not in rom_info['recovery']:
-              print(f"错误:机型 {device} {bname} {os_version} 卡刷包与当前记录的OS版本不一致")
-              check.append(1)
-          for i in range(4,len(menu_items)):
-            if rom_info[menu_items[i]] != "":
-              if rom_info['android'] not in rom_info[menu_items[i]]:
-                print(f"错误:机型 {device} {bname} {os_version} {menu_items[i]} 与当前记录的安卓版本不一致")
-                check.append(1)
-              if rom_info['os'] not in rom_info[menu_items[i]]:
-                print(f"错误:机型 {device} {bname} {os_version} {menu_items[i]} 与当前记录的OS版本不一致")
-                check.append(1)
-  if len(check) == 0:
-    return 0
-  else:
-    return 1
+	check =[]
+	for branch in data['branches']:
+		if data['device'] in branch['branchCode']:
+			roms = branch['roms']
+			bname = branch['name']['zh']
+			menu_items = branch['table']
+			if len(menu_items) != len(set(menu_items)):
+				print(device, bname, "菜单项重复")
+			else:
+				i = 0
+			for os_version, rom_info in roms.items():
+				if os_version != rom_info['os']:
+					print(f"错误:机型 {device} {bname} {os_version} OS版本与实际记录不一致")
+					check.append(1)
+				else:
+					if len(rom_info) != len(menu_items):
+						print(device, bname, os_version, "菜单项数量与实际数量不一致")
+					else:
+						i = 0
+					if rom_info['android'] == "" and rom_info['os'] == "" and rom_info['release'] == "" and rom_info['recovery'] == "" and rom_info['fastboot'] == "":
+						i = 0
+					else:
+						if rom_info['release'] > datetime.now().strftime("%Y-%m-%d"):
+							print(f"错误:机型 {device} {bname} {os_version} 发布时间大于当前日期")
+							check.append(1)
+						if rom_info['android'] == "":
+							print(f"错误:机型 {device} {bname} {os_version} 安卓版本未标注")
+							check.append(1)
+						if rom_info['os'] == "":
+							print(f"错误:机型 {device} {bname} {os_version} OS版本未标注")
+							check.append(1)
+						if rom_info['release'] == "":
+							print(f"错误:机型 {device} {bname} {os_version} 发布时间未标注")
+							check.append(1)
+						if rom_info['recovery'] != "":
+							if rom_info['android'] not in rom_info['recovery']:
+								print(f"错误:机型 {device} {bname} {os_version} 卡刷包与当前记录的安卓版本不一致")
+								check.append(1)
+							if rom_info['os'] not in rom_info['recovery']:
+								print(f"错误:机型 {device} {bname} {os_version} 卡刷包与当前记录的OS版本不一致")
+								check.append(1)
+						for i in range(4,len(menu_items)):
+							if rom_info[menu_items[i]] != "":
+								if rom_info['android'] not in rom_info[menu_items[i]]:
+									print(f"错误:机型 {device} {bname} {os_version} {menu_items[i]} 与当前记录的安卓版本不一致")
+									check.append(1)
+								if rom_info['os'] not in rom_info[menu_items[i]]:
+									print(f"错误:机型 {device} {bname} {os_version} {menu_items[i]} 与当前记录的OS版本不一致")
+									check.append(1)
+	if len(check) == 0:
+		return 0
+	else:
+		return 1
