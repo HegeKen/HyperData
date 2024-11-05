@@ -49,4 +49,13 @@ for device in OScommon.order:
 with open('public/data/index.json', 'w', encoding='utf-8') as f:
 	json.dump(updates, f, ensure_ascii=False, indent=2)
 f.close()
-os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
+errors = []
+for device in OScommon.currentStable:
+	if OScommon.entryChecker(OScommon.localData(device),device) in errors:
+		continue
+	else:
+		errors.append(OScommon.entryChecker(OScommon.localData(device),device))
+if 1 in errors:
+	print("数据有误，请核实后提交git")
+else:
+	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
