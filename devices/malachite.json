@@ -62,6 +62,36 @@
 				}
 			}
 		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "malachite_ep_stdee",
+			"brand": "Redmi",
+      "device": {
+        "zh": "Redmi Note 14 Pro",
+        "en": "Redmi Note 14 Pro"
+      },
+			"idtag": "EPSTD",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.10.31.EP.STDEE.O16": {
+					"os": "OS1.0.24.10.31.EP.STDEE.O16",
+					"android": "14.0",
+					"release": "2024-11-06",
+					"recovery": "miui_MALACHITEEPSTDEE_OS1.0.24.10.31.EP.STDEE.O16_87641a439d_14.0.zip",
+					"fastboot": "malachite_ep_stdee_images_OS1.0.24.10.31.EP.STDEE.O16_20241031.0000.00_14.0_cn_c0ada8f174.tgz",
+					"ctelecom": "malachite_ep_stdee_images_OS1.0.24.10.31.EP.STDEE.O16_20241031.0000.00_14.0_cn_chinatelecom_820567f90f.tgz"
+				}
+			}
+		},
     {
 			"name": {
 				"zh": "小米澎湃 OS 演示机系统",

@@ -1423,6 +1423,8 @@ flags = {
 	"TAPASINGlobal": "tapas",
 	"tapas_in_global": "tapas",
 	"tapas_global": "tapas",
+	"malachite_ep_stdee":"malachite",
+	"MALACHITEEPSTDEE":"malachite",
 	"DUCHAMPDEMO": "duchamp",
 	"duchamp_demo": "duchamp",
 	"duchamp": "duchamp",
