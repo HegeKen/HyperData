@@ -8,6 +8,35 @@
   "miui": "no",
 	"merged":"no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "dada",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "CnOB",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.17.2.VOCCNXM": {
+					"os": "OS2.0.17.2.VOCCNXM",
+					"android": "15.0",
+					"release": "2024-11-09",
+					"recovery": "dada-ota_full-OS2.0.17.2.VOCCNXM-user-15.0-11b6194ff8.zip",
+					"fastboot": ""
+				}
+			}
+		},
     {
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
