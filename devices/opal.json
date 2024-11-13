@@ -319,6 +319,35 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Altice(SFR)运营商定制版",
+				"en": "Xiaomi HyperOS Europe Altice(SFR) Carrier Edition"
+			},
+			"branchCode": "opal_eea_sf_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 11S 5G",
+        "en" :"Redmi Note 11S 5G"
+      },
+			"idtag": "EUSF",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["sfr"],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.TGLEUSF": {
+					"os": "OS1.0.2.0.TGLEUSF",
+					"android": "13.0",
+					"release": "2024-11-13",
+					"recovery": "miui_OPALEEASFGlobal_OS1.0.2.0.TGLEUSF_688712f52e_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

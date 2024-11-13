@@ -449,6 +449,35 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Altice(SFR)运营商定制版",
+				"en": "Xiaomi HyperOS Europe Altice(SFR) Carrier Edition"
+			},
+			"branchCode": "veux_eea_sf_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+      },
+			"idtag": "EUSF",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["sfr"],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.TKCEUSF": {
+					"os": "OS1.0.1.0.TKCEUSF",
+					"android": "13.0",
+					"release": "2024-11-13",
+					"recovery": "miui_VEUXEEASFGlobal_OS1.0.1.0.TKCEUSF_441c735ec3_13.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
