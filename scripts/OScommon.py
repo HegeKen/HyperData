@@ -470,6 +470,8 @@ flags = {
 	"ALIOTHTRGlobal":"alioth",
 	"alioth_ru_global":"alioth",
 	"ALIOTHRUGlobal":"alioth",
+	"spesn_eea_sf_global":"spesn",
+	"SPESNEEASFGlobal":"spesn",
 	"munch_ru_global":"munch",
 	"MUNCHRUGlobal":"munch",
 	"xaga_in_global":"xaga",
