@@ -115,6 +115,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "gale_dc_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13C 国际 / POCO C65",
+        "en" :"Redmi 13C / POCO C65"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UGPMIDC": {
+					"os": "OS1.0.5.0.UGPMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_GALEDCGlobal_OS1.0.5.0.UGPMIDC_13096fd8f2_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -351,6 +381,96 @@
 					"release": "2024-05-13",
 					"recovery": "miui_GALETRGlobal_OS1.0.2.0.UGPTRXM_db5bfd7f5f_14.0.zip",
 					"fastboot": "gale_tr_global_images_OS1.0.2.0.UGPTRXM_20240427.0000.00_14.0_tr_c726c4128d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "gale_mx_at_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13C 国际 / POCO C65",
+        "en" :"Redmi 13C / POCO C65"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UGPMXAT": {
+					"os": "OS1.0.5.0.UGPMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_GALEMXATGlobal_OS1.0.5.0.UGPMXAT_688232f432_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "gale_gt_tg_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13C 国际 / POCO C65",
+        "en" :"Redmi 13C / POCO C65"
+      },
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tg"],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UGPGTTG": {
+					"os": "OS1.0.2.0.UGPGTTG",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_GALEGTTGGlobal_OS1.0.2.0.UGPGTTG_6c83f25be9_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "gale_lm_cr_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13C 国际 / POCO C65",
+        "en" :"Redmi 13C / POCO C65"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UGPLMCR": {
+					"os": "OS1.0.1.0.UGPLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_GALELMCRGlobal_OS1.0.1.0.UGPLMCR_42e3dbb515_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

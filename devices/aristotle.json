@@ -150,6 +150,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "aristotle_dc_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 13T",
+        "en" :"Xiaomi 13T"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMFMIDC": {
+					"os": "OS1.0.1.0.UMFMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ARISTOTLEDCGlobal_OS1.0.1.0.UMFMIDC_3231cc6e8e_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -419,6 +449,96 @@
 					"release": "2024-02-18",
 					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.1.0.UMFTRXM_14deef6595_14.0.zip",
 					"fastboot": "aristotle_tr_global_images_OS1.0.1.0.UMFTRXM_20240123.0000.00_14.0_tr_3b0ee66582.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "aristotle_cl_en_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 13T",
+        "en" :"Xiaomi 13T"
+      },
+			"idtag": "CLEN",
+			"tag": "CLEN",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMFCLEN": {
+					"os": "OS1.0.1.0.UMFCLEN",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ARISTOTLECLENGlobal_OS1.0.1.0.UMFCLEN_160f3b58ea_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "aristotle_mx_at_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 13T",
+        "en" :"Xiaomi 13T"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMFMXAT": {
+					"os": "OS1.0.3.0.UMFMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ARISTOTLEMXATGlobal_OS1.0.3.0.UMFMXAT_6311a1a99a_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "aristotle_lm_cr_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 13T",
+        "en" :"Xiaomi 13T"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMFLMCR": {
+					"os": "OS1.0.1.0.UMFLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ARISTOTLELMCRGlobal_OS1.0.1.0.UMFLMCR_5772ee5cff_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

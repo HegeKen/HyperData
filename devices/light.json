@@ -27,7 +27,7 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"],
 			"show": "1",
-			"carrier": [""],
+			"carrier": ["", "chinatelecom", "chinamobile"],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -697,6 +697,36 @@
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_LIGHTLMCRGlobal_OS1.0.1.0.ULSLMCR_f94607dad1_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "light_cl_en_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 10 5G / POCO M4 5G",
+        "en" :"Redmi 10 5G / POCO M4 5G"
+      },
+			"idtag": "CLEN",
+			"tag": "CLEN",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.ULSCLEN": {
+					"os": "OS1.0.2.0.ULSCLEN",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_LIGHTCLENGlobal_OS1.0.2.0.ULSCLEN_2c7b53e429_14.0.zip",
 					"fastboot": ""
 				}
 			}

@@ -657,6 +657,36 @@
 					"fastboot": "garnet_tr_global_images_OS1.0.2.0.UNRTRXM_20240319.0000.00_14.0_tr_e79147c6e3.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "garnet_lm_cr_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNRLMCR": {
+					"os": "OS1.0.1.0.UNRLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_GARNETLMCRGlobal_OS1.0.1.0.UNRLMCR_811c128c71_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

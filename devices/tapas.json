@@ -184,6 +184,156 @@
 					"fastboot": "tapas_tr_global_images_OS1.0.1.0.UMTTRXM_20240110.0000.00_14.0_tr_e464d9dd1f.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "tapas_gt_tg_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 4G",
+        "en" :"Redmi Note 12 4G"
+      },
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tg"],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.UMTGTTG": {
+					"os": "OS1.0.6.0.UMTGTTG",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_TAPASGTTGGlobal_OS1.0.6.0.UMTGTTG_f52c4fa610_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "tapas_cl_en_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 4G",
+        "en" :"Redmi Note 12 4G"
+      },
+			"idtag": "CLEN",
+			"tag": "CLEN",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMTCLEN": {
+					"os": "OS1.0.3.0.UMTCLEN",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_TAPASCLENGlobal_OS1.0.3.0.UMTCLEN_a41a87f0ba_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "tapas_mx_at_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 4G",
+        "en" :"Redmi Note 12 4G"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.8.0.UMTMXAT": {
+					"os": "OS1.0.8.0.UMTMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_TAPASMXATGlobal_OS1.0.8.0.UMTMXAT_d32c333983_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "tapas_lm_cr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 4G",
+        "en" :"Redmi Note 12 4G"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMTLMCR": {
+					"os": "OS1.0.1.0.UMTLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_TAPASLMCRGlobal_OS1.0.1.0.UMTLMCR_ba8b6abd69_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Movistar运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Movistar Carrier Edition"
+			},
+			"branchCode": "tapas_tr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 4G",
+        "en" :"Redmi Note 12 4G"
+      },
+			"idtag": "LMMS",
+			"tag": "LMMS",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["movistar"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMTLMMS": {
+					"os": "OS1.0.1.0.UMTLMMS",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_TAPASLMMSGlobal_OS1.0.1.0.UMTLMMS_3c06b5b84d_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

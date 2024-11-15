@@ -306,6 +306,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "gold_dc_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
+        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UNQMIDC": {
+					"os": "OS1.0.5.0.UNQMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_GOLDDCGlobal_OS1.0.5.0.UNQMIDC_beb2e408e0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -596,6 +626,66 @@
 					"release": "2024-04-02",
 					"recovery": "miui_GOLDTRGlobal_OS1.0.1.0.UNQTRXM_a493b225be_14.0.zip",
 					"fastboot": "gold_tr_global_images_OS1.0.1.0.UNQTRXM_20240318.0000.00_14.0_tr_b698c37f5a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "gold_gt_tg_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
+        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
+      },
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tg"],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UNQGTTG": {
+					"os": "OS1.0.7.0.UNQGTTG",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_GOLDGTTGGlobal_OS1.0.7.0.UNQGTTG_a5848b2b77_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "gold_lm_cr_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
+        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNQLMCR": {
+					"os": "OS1.0.1.0.UNQLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_GOLDLMCRGlobal_OS1.0.1.0.UNQLMCR_ace14d109f_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

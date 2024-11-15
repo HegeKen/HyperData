@@ -129,6 +129,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "moon_dc_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13 / POCO M6 4G",
+        "en" :"Redmi 13 / POCO M6 4G"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.UNTMIDC": {
+					"os": "OS1.0.6.0.UNTMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_MOONDCGlobal_OS1.0.6.0.UNTMIDC_cc62d667f0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -335,6 +365,66 @@
 					"release": "2024-07-17",
 					"recovery": "miui_MOONTRGlobal_OS1.0.2.0.UNTTRXM_c24a0422fb_14.0.zip",
 					"fastboot": "moon_tr_global_images_OS1.0.2.0.UNTTRXM_20240529.0000.00_14.0_tr_15e1d6c5b8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "moon_gt_tg_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13 / POCO M6 4G",
+        "en" :"Redmi 13 / POCO M6 4G"
+      },
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tg"],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNTGTTG": {
+					"os": "OS1.0.2.0.UNTGTTG",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_MOONGTTGGlobal_OS1.0.2.0.UNTGTTG_567aeb947e_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "moon_mx_at_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13 / POCO M6 4G",
+        "en" :"Redmi 13 / POCO M6 4G"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNTMXAT": {
+					"os": "OS1.0.3.0.UNTMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_MOONMXATGlobal_OS1.0.3.0.UNTMXAT_13bd873c62_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

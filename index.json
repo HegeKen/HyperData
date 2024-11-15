@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2024-11-15 13:28:05",
+    "time": "2024-11-15 16:21:37",
     "developing": "no",
     "roms": [
       {
@@ -28,6 +28,14 @@
         "rom": "OS1.0.3.0.UKWEUSF"
       },
       {
+        "code": "taoyao",
+        "name": {
+          "zh": "小米 12 Lite",
+          "en": "Xiaomi 12 Lite"
+        },
+        "rom": "OS1.0.1.0.ULILMCR"
+      },
+      {
         "code": "plato",
         "name": {
           "zh": "小米 12T",
@@ -36,12 +44,20 @@
         "rom": "OS1.0.6.0.ULQTWXM; OS1.0.13.0.ULQMIXM"
       },
       {
+        "code": "aristotle",
+        "name": {
+          "zh": "小米 13T",
+          "en": "Xiaomi 13T"
+        },
+        "rom": "OS1.0.1.0.UMFMIDC; OS1.0.1.0.UMFCLEN; OS1.0.3.0.UMFMXAT; OS1.0.1.0.UMFLMCR"
+      },
+      {
         "code": "degas",
         "name": {
           "zh": "小米 14T",
           "en": "Xiaomi 14T"
         },
-        "rom": "OS1.0.5.0.UNETWXM; OS1.0.5.0.UNEIDXM; OS1.0.5.0.UNETRXM"
+        "rom": "OS1.0.5.0.UNETWXM; OS1.0.5.0.UNEIDXM; OS1.0.5.0.UNETRXM; OS1.0.3.0.UNEMXAT; OS1.0.2.0.UNELMCR"
       },
       {
         "code": "dada",
@@ -92,12 +108,44 @@
         "rom": "OS1.0.10.0.UNITWXM; OS1.0.12.0.UNIMIXM; OS1.0.11.0.UNIEUXM; OS1.0.7.0.UNIRUXM"
       },
       {
+        "code": "fire",
+        "name": {
+          "zh": "Redmi 12 国际",
+          "en": "Redmi 12"
+        },
+        "rom": "OS1.0.1.0.UMXMIDC; OS1.0.2.0.UMXZAVC; OS1.0.3.0.UMXZAMT; OS1.0.7.0.UMXMXAT; OS1.0.5.0.UMXGTTG; OS1.0.1.0.UMXLMCR"
+      },
+      {
+        "code": "sky",
+        "name": {
+          "zh": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G",
+          "en": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G"
+        },
+        "rom": "OS1.0.3.0.UMWMIDC; OS1.0.4.0.UMWCLEN"
+      },
+      {
+        "code": "gale",
+        "name": {
+          "zh": "Redmi 13C 国际 / POCO C65",
+          "en": "Redmi 13C / POCO C65"
+        },
+        "rom": "OS1.0.5.0.UGPMIDC; OS1.0.5.0.UGPMXAT; OS1.0.2.0.UGPGTTG; OS1.0.1.0.UGPLMCR"
+      },
+      {
+        "code": "lake",
+        "name": {
+          "zh": "Redmi 14C",
+          "en": "Redmi 14C"
+        },
+        "rom": "OS1.0.2.0.UGTGTTG; OS1.0.3.0.UGTMXAT; OS1.0.1.0.UGTLMCR"
+      },
+      {
         "code": "light",
         "name": {
           "zh": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G",
           "en": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G"
         },
-        "rom": "OS1.0.7.0.ULSMIXM; OS1.0.5.0.ULSEUHG"
+        "rom": "OS1.0.7.0.ULSMIXM; OS1.0.5.0.ULSEUHG; OS1.0.2.0.ULSCLEN"
       },
       {
         "code": "veux",
@@ -140,6 +188,22 @@
         "rom": "OS1.0.2.0.TGLEUSF"
       },
       {
+        "code": "tapas",
+        "name": {
+          "zh": "Redmi Note 12 4G",
+          "en": "Redmi Note 12 4G"
+        },
+        "rom": "OS1.0.6.0.UMTGTTG; OS1.0.3.0.UMTCLEN; OS1.0.8.0.UMTMXAT; OS1.0.1.0.UMTLMCR; OS1.0.1.0.UMTLMMS"
+      },
+      {
+        "code": "topaz",
+        "name": {
+          "zh": "Redmi Note 12 4G NFC",
+          "en": "Redmi Note 12 4G NFC"
+        },
+        "rom": "OS1.0.4.0.UMGZAVC; OS1.0.4.0.UMGZAMT"
+      },
+      {
         "code": "sweet_k6a",
         "name": {
           "zh": "Redmi Note 12 Pro 4G",
@@ -148,12 +212,60 @@
         "rom": "OS1.0.15.0.THGEUXM; OS1.0.13.0.THGIDXM"
       },
       {
+        "code": "sea",
+        "name": {
+          "zh": "Redmi Note 12S",
+          "en": "Redmi Note 12S"
+        },
+        "rom": "OS1.0.5.0.UHZMIDC; OS1.0.7.0.UHZGTTG; OS1.0.2.0.UHZCLEN; OS1.0.5.0.UHZMXAT; OS1.0.1.0.UHZLMCR; OS1.0.1.0.UHZLMMS"
+      },
+      {
+        "code": "gold",
+        "name": {
+          "zh": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G",
+          "en": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G"
+        },
+        "rom": "OS1.0.5.0.UNQMIDC; OS1.0.7.0.UNQGTTG; OS1.0.1.0.UNQLMCR"
+      },
+      {
+        "code": "garnet",
+        "name": {
+          "zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
+          "en": "Redmi Note 13 Pro 5G / POCO X6 5G"
+        },
+        "rom": "OS1.0.1.0.UNRLMCR"
+      },
+      {
         "code": "emerald",
         "name": {
           "zh": "Redmi Note 13 Pro 4G / POCO M6 Pro",
           "en": "Redmi Note 13 Pro 4G / POCO M6 Pro"
         },
-        "rom": "OS1.0.7.0.UNFIDXM"
+        "rom": "OS1.0.3.0.UNFMIDC; OS1.0.7.0.UNFIDXM; OS1.0.5.0.UNFMXAT; OS1.0.1.0.UNFLMCR"
+      },
+      {
+        "code": "zircon",
+        "name": {
+          "zh": "Redmi Note 13 Pro+ 5G",
+          "en": "Redmi Note 13 Pro+ 5G"
+        },
+        "rom": "OS1.0.1.0.UNOMIDC; OS1.0.1.0.UNOLMCR"
+      },
+      {
+        "code": "sapphire",
+        "name": {
+          "zh": "Redmi Note 13 4G",
+          "en": "Redmi Note 13 4G"
+        },
+        "rom": "OS1.0.4.0.UNGMIDC; OS1.0.3.0.UNGMXAT; OS1.0.1.0.UNGLMCR"
+      },
+      {
+        "code": "sapphiren",
+        "name": {
+          "zh": "Redmi Note 13 NFC",
+          "en": "Redmi Note 13 NFC"
+        },
+        "rom": "OS1.0.1.0.UNHMIDC"
       },
       {
         "code": "diting",
@@ -188,6 +300,14 @@
         "rom": "OS1.0.14.0.UNLMIXM"
       },
       {
+        "code": "rothko",
+        "name": {
+          "zh": "Redmi K70 至尊版 / 小米 14T Pro",
+          "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
+        },
+        "rom": "OS1.0.2.0.UNNLMCR"
+      },
+      {
         "code": "spark",
         "name": {
           "zh": "Redmi 平板 SE 4G 8.7",
@@ -217,7 +337,15 @@
           "zh": "Redmi 13 / POCO M6 4G",
           "en": "Redmi 13 / POCO M6 4G"
         },
-        "rom": "OS1.0.8.0.UNTMIXM"
+        "rom": "OS1.0.8.0.UNTMIXM; OS1.0.6.0.UNTMIDC; OS1.0.2.0.UNTGTTG; OS1.0.3.0.UNTMXAT"
+      },
+      {
+        "code": "air",
+        "name": {
+          "zh": "Redmi 13C/R 5G / POCO M6 5G",
+          "en": "Redmi 13C/R 5G / POCO M6 5G"
+        },
+        "rom": "OS1.0.1.0.UGQMIDC; OS1.0.1.0.UGQLMCR"
       }
     ]
   }

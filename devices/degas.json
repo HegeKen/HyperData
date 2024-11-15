@@ -325,6 +325,66 @@
 					"fastboot": "degas_tr_global_images_OS1.0.2.0.UNETRXM_20240820.0000.00_14.0_tr_2d18b7bfd3.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "degas_mx_at_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNEMXAT": {
+					"os": "OS1.0.3.0.UNEMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_DEGASMXATGlobal_OS1.0.3.0.UNEMXAT_d289cd7678_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "degas_lm_cr_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNELMCR": {
+					"os": "OS1.0.2.0.UNELMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_DEGASLMCRGlobal_OS1.0.2.0.UNELMCR_6c5a92f956_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

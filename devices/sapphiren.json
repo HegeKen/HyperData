@@ -136,6 +136,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "sapphiren_dc_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 NFC",
+        "en" :"Redmi Note 13 NFC"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNHMIDC": {
+					"os": "OS1.0.1.0.UNHMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SAPPHIRENDCGlobal_OS1.0.1.0.UNHMIDC_1645fd878d_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},

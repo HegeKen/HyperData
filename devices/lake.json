@@ -230,6 +230,96 @@
 					"fastboot": "lake_id_global_images_OS1.0.1.0.UGTIDXM_20240820.0000.00_14.0_id_920ac4c67b.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "lake_gt_tg_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tg"],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UGTGTTG": {
+					"os": "OS1.0.2.0.UGTGTTG",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_LAKEGTTGGlobal_OS1.0.2.0.UGTGTTG_d6ce7d4b7c_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "lake_mx_at_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UGTMXAT": {
+					"os": "OS1.0.3.0.UGTMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_LAKEMXATGlobal_OS1.0.3.0.UGTMXAT_105c588bb6_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "lake_lm_cr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UGTLMCR": {
+					"os": "OS1.0.1.0.UGTLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_LAKELMCRGlobal_OS1.0.1.0.UGTLMCR_ef246fa4e0_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

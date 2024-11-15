@@ -157,6 +157,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "sea_dc_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12S",
+        "en" :"Redmi Note 12S"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UHZMIDC": {
+					"os": "OS1.0.5.0.UHZMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SEADCGlobal_OS1.0.5.0.UHZMIDC_5a6f026342_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -361,6 +391,156 @@
 					"release": "2024-01-23",
 					"recovery": "miui_SEATRGlobal_OS1.0.1.0.UHZTRXM_d3b4123876_14.0.zip",
 					"fastboot": "sea_tr_global_images_OS1.0.1.0.UHZTRXM_20240116.0000.00_14.0_tr_d228423f56.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "sea_gt_tg_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12S",
+        "en" :"Redmi Note 12S"
+      },
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tg"],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UHZGTTG": {
+					"os": "OS1.0.7.0.UHZGTTG",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SEAGTTGGlobal_OS1.0.7.0.UHZGTTG_1af8ab7c69_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "sea_cl_en_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12S",
+        "en" :"Redmi Note 12S"
+      },
+			"idtag": "CLEN",
+			"tag": "CLEN",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UHZCLEN": {
+					"os": "OS1.0.2.0.UHZCLEN",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SEACLENGlobal_OS1.0.2.0.UHZCLEN_d23d573e68_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "sea_mx_at_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12S",
+        "en" :"Redmi Note 12S"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UHZMXAT": {
+					"os": "OS1.0.5.0.UHZMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SEAMXATGlobal_OS1.0.5.0.UHZMXAT_0900d49dee_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "sea_lm_cr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12S",
+        "en" :"Redmi Note 12S"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UHZLMCR": {
+					"os": "OS1.0.1.0.UHZLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SEALMCRGlobal_OS1.0.1.0.UHZLMCR_2bc51c8fd4_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Movistar运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Movistar Carrier Edition"
+			},
+			"branchCode": "sea_lm_ms_global",
+			"brand": "Xiaomi, Redmi, POCO",
+      "device": {
+        "zh" :"",
+        "en" :""
+      },
+			"idtag": "LMMS",
+			"tag": "LMMS",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["movistar"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UHZLMMS": {
+					"os": "OS1.0.1.0.UHZLMMS",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SEALMMSGlobal_OS1.0.1.0.UHZLMMS_45762cb649_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

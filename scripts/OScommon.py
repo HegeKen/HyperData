@@ -17,6 +17,16 @@ sdk = {
 	"13": "33"
 }
 
+def android(ver):
+	if ver == "15.0":
+		return "V"
+	elif ver == "14.0":
+		return "U"
+	elif ver == "13.0":
+		return "T"
+	else:
+		return "W"
+
 miui_key = b"miuiotavalided11"
 miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
@@ -54,6 +64,226 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'a
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'peridot', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
+
+branches = [
+  {
+    "code": "",
+    "tag": "CNXM",
+    "region": "cn",
+    "carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+    "zone": "1"
+  },
+  {
+    "code": "_demo",
+    "tag": "CNDM",
+    "region": "cn",
+    "carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+    "zone": "1"
+  },
+  {
+    "code": "_tw_global",
+    "tag": "TWXM",
+    "region": "tw",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_global",
+    "tag": "MIXM",
+    "region": "global",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_dc_global",
+    "tag": "MIDC",
+    "region": "global_dc",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_global",
+    "tag": "EUXM",
+    "region": "eea",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_ru_global",
+    "tag": "RUXM",
+    "region": "ru",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_id_global",
+    "tag": "IDXM",
+    "region": "id",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_tr_global",
+    "tag": "TRXM",
+    "region": "tr",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_jp_global",
+    "tag": "JPXM",
+    "region": "jp",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_in_global",
+    "tag": "INXM",
+    "region": "in",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_hg_global",
+    "tag": "EUHG",
+    "region": "eea",
+    "carrier": ["h3g"],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_or_global",
+    "tag": "EUOR",
+    "region": "eea",
+    "carrier": ["orange"],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_vf_global",
+    "tag": "EUVF",
+    "region": "eea",
+    "carrier": ["vodafone"],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_ti_global",
+    "tag": "EUTI",
+    "region": "eea",
+    "carrier": ["tim"],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_sf_global",
+    "tag": "EUSF",
+    "region": "eea",
+    "carrier": ["sfr"],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_tf_global",
+    "tag": "EUTF",
+    "region": "eea",
+    "carrier": ["tf"],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_by_global",
+    "tag": "EUBY",
+    "region": "eea",
+    "carrier": ["by"],
+    "zone": "2"
+  },
+  {
+    "code": "_cl_en_global",
+    "tag": "CLEN",
+    "region": "cl",
+    "carrier": ["en"],
+    "zone": "2"
+  },
+  {
+    "code": "_mx_at_global",
+    "tag": "MXAT",
+    "region": "mx",
+    "carrier": ["at"],
+    "zone": "2"
+  },
+  {
+    "code": "_lm_cr_global",
+    "tag": "LMCR",
+    "region": "lm",
+    "carrier": ["cr"],
+    "zone": "2"
+  },
+  {
+    "code": "_za_vc_global",
+    "tag": "ZAVC",
+    "region": "za",
+    "carrier": ["vc"],
+    "zone": "2"
+  },
+  {
+    "code": "_za_mt_global",
+    "tag": "ZAMT",
+    "region": "za",
+    "carrier": ["mt"],
+    "zone": "2"
+  },
+  {
+    "code": "_gt_tg_global",
+    "tag": "GTTG",
+    "region": "gt",
+    "carrier": ["tg"],
+    "zone": "2"
+  },
+  {
+    "code": "_lm_ms_global",
+    "tag": "LMMS",
+    "region": "lm",
+    "carrier": ["movistar"],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_vf_global",
+    "tag": "EUTF",
+    "region": "eea",
+    "carrier": ["tf"],
+    "zone": "2"
+  },
+  {
+    "code": "_th_as_global",
+    "tag": "THAS",
+    "region": "th",
+    "carrier": ["as"],
+    "zone": "2"
+  },
+  {
+    "code": "_cl_en_global",
+    "tag": "LMCR",
+    "region": "lm",
+    "carrier": ["cr"],
+    "zone": "2"
+  },
+  {
+    "code": "_in_fk_global",
+    "tag": "INFK",
+    "region": "in",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_kr_global",
+    "tag": "KRXM",
+    "region": "global",
+    "carrier": [""],
+    "zone": "2"
+  },
+  {
+    "code": "_eea_global",
+    "tag": "EUHG",
+    "region": "eea",
+    "carrier": ["h3g"],
+    "zone": "2"
+  }
+]
 
 flags = {
 	"HOUJI": "houji",
@@ -227,6 +457,115 @@ flags = {
 	"RUYIEEAGlobal":"ruyi",
 	"rothko_tr_global": "rothko",
 	"ROTHKOTRGlobal": "rothko",
+	"degas_lm_cr_global":"degas",
+	"DEGASLMCRGlobal":"degas",
+	"degas_mx_at_global":"degas",
+	"DEGASMXATGlobal":"degas",
+	"rothko_lm_cr_global":"rothko",
+	"ROTHKOLMCRGlobal":"rothko",
+	"lake_lm_cr_global":"lake",
+	"LAKELMCRGlobal":"lake",
+	"lake_gt_tg_global":"lake",
+	"LAKEGTTGGlobal":"lake",
+	"lake_mx_at_global":"lake",
+	"LAKEMXATGlobal":"lake",
+	"air_lm_cr_global":"air",
+	"AIRLMCRGlobal":"air",
+	"air_dc_global":"air",
+	"AIRDCGlobal":"air",
+	"aristotle_lm_cr_global":"aristotle",
+	"ARISTOTLELMCRGlobal":"aristotle",
+	"aristotle_dc_global":"aristotle",
+	"ARISTOTLEDCGlobal":"aristotle",
+	"aristotle_cl_en_global":"aristotle",
+	"ARISTOTLECLENGlobal":"aristotle",
+	"aristotle_mx_at_global":"aristotle",
+	"ARISTOTLEMXATGlobal":"aristotle",
+	"emerald_lm_cr_global":"emerald",
+	"EMERALDLMCRGlobal":"emerald",
+	"emerald_dc_global":"emerald",
+	"EMERALDDCGlobal":"emerald",
+	"emerald_mx_at_global":"emerald",
+	"EMERALDMXATGlobal":"emerald",
+	"fire_lm_cr_global":"fire",
+	"FIRELMCRGlobal":"fire",
+	"fire_dc_global":"fire",
+	"FIREDCGlobal":"fire",
+	"fire_za_vc_global":"fire",
+	"FIREZAVCGlobal":"fire",
+	"fire_za_mt_global":"fire",
+	"FIREZAMTGlobal":"fire",
+	"fire_mx_at_global":"fire",
+	"FIREMXATGlobal":"fire",
+	"fire_gt_tg_global":"fire",
+	"FIREGTTGGlobal":"fire",
+	"gale_lm_cr_global":"gale",
+	"GALELMCRGlobal":"gale",
+	"gale_dc_global":"gale",
+	"GALEDCGlobal":"gale",
+	"gale_mx_at_global":"gale",
+	"GALEMXATGlobal":"gale",
+	"gale_gt_tg_global":"gale",
+	"GALEGTTGGlobal":"gale",
+	"garnet_lm_cr_global":"garnet",
+	"GARNETLMCRGlobal":"garnet",
+	"gold_lm_cr_global":"gold",
+	"GOLDLMCRGlobal":"gold",
+	"gold_dc_global":"gold",
+	"GOLDDCGlobal":"gold",
+	"gold_gt_tg_global":"gold",
+	"GOLDGTTGGlobal":"gold",
+	"light_cl_en_global":"light",
+	"LIGHTCLENGlobal":"light",
+	"moon_mx_at_global":"moon",
+	"MOONMXATGlobal":"moon",
+	"moon_dc_global":"moon",
+	"MOONDCGlobal":"moon",
+	"moon_gt_tg_global":"moon",
+	"MOONGTTGGlobal":"moon",
+	"sapphire_lm_cr_global":"sapphire",
+	"SAPPHIRELMCRGlobal":"sapphire",
+	"sapphire_dc_global":"sapphire",
+	"SAPPHIREDCGlobal":"sapphire",
+	"sapphire_mx_at_global":"sapphire",
+	"SAPPHIREMXATGlobal":"sapphire",
+	"sapphiren_dc_global":"sapphiren",
+	"SAPPHIRENDCGlobal":"sapphiren",
+	"sea_lm_ms_global":"sea",
+	"SEALMMSGlobal":"sea",
+	"sea_dc_global":"sea",
+	"SEADCGlobal":"sea",
+	"sea_gt_tg_global":"sea",
+	"SEAGTTGGlobal":"sea",
+	"sea_cl_en_global":"sea",
+	"SEACLENGlobal":"sea",
+	"sea_mx_at_global":"sea",
+	"SEAMXATGlobal":"sea",
+	"sea_lm_cr_global":"sea",
+	"SEALMCRGlobal":"sea",
+	"sky_cl_en_global":"sky",
+	"SKYCLENGlobal":"sky",
+	"sky_dc_global":"sky",
+	"SKYDCGlobal":"sky",
+	"taoyao_lm_cr_global":"taoyao",
+	"TAOYAOLMCRGlobal":"taoyao",
+	"TAPASLMMSGlobal":"tapas",
+	"tapas_gt_tg_global":"tapas",
+	"TAPASGTTGGlobal":"tapas",
+	"tapas_cl_en_global":"tapas",
+	"TAPASCLENGlobal":"tapas",
+	"tapas_mx_at_global":"tapas",
+	"TAPASMXATGlobal":"tapas",
+	"tapas_lm_cr_global":"tapas",
+	"TAPASLMCRGlobal":"tapas",
+	"topaz_za_mt_global":"topaz",
+	"TOPAZZAMTGlobal":"topaz",
+	"topaz_za_vc_global":"topaz",
+	"TOPAZZAVCGlobal":"topaz",
+	"zircon_lm_cr_global":"zircon",
+	"ZIRCONLMCRGlobal":"zircon",
+	"zircon_dc_global":"zircon",
+	"ZIRCONDCGlobal":"zircon",
 	"beryl":"beryl",
 	"BERYL":"beryl",
 	"DEGASDCGlobal":"degas",

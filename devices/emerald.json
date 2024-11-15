@@ -78,6 +78,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "emerald_dc_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 4G / POCO M6 Pro",
+        "en" :"Redmi Note 13 Pro 4G / POCO M6 Pro"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNFMIDC": {
+					"os": "OS1.0.3.0.UNFMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_EMERALDDCGlobal_OS1.0.3.0.UNFMIDC_70a75d7b4f_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -326,6 +356,66 @@
 					"release": "2024-04-12",
 					"recovery": "miui_EMERALDTRGlobal_OS1.0.1.0.UNFTRXM_cc7dc83793_14.0.zip",
 					"fastboot": "emerald_tr_global_images_OS1.0.1.0.UNFTRXM_20240401.0000.00_14.0_tr_1dedbeee57.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "emerald_mx_at_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 4G / POCO M6 Pro",
+        "en" :"Redmi Note 13 Pro 4G / POCO M6 Pro"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UNFMXAT": {
+					"os": "OS1.0.5.0.UNFMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_EMERALDMXATGlobal_OS1.0.5.0.UNFMXAT_7d8605c7ad_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "emerald_lm_cr_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 4G / POCO M6 Pro",
+        "en" :"Redmi Note 13 Pro 4G / POCO M6 Pro"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNFLMCR": {
+					"os": "OS1.0.1.0.UNFLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_EMERALDLMCRGlobal_OS1.0.1.0.UNFLMCR_6854eb4533_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

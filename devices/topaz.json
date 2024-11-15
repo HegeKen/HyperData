@@ -270,6 +270,66 @@
 					"fastboot": "topaz_id_global_images_OS1.0.1.0.UMGIDXM_20240105.0000.00_14.0_id_368f787621.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 南非Vodacom运营商定制版",
+				"en": "Xiaomi HyperOS South Africa Vodacom Carrier Edtion"
+			},
+			"branchCode": "topaz_za_vc_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 4G NFC",
+        "en" :"Redmi Note 12 4G NFC"
+      },
+			"idtag": "ZAVC",
+			"tag": "ZAVC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["vc"],
+			"region": "za",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMGZAVC": {
+					"os": "OS1.0.4.0.UMGZAVC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_TOPAZZAVCGlobal_OS1.0.4.0.UMGZAVC_c4d6f10526_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 南非MTN运营商定制版",
+				"en": "Xiaomi HyperOS South Africa MTN Carrier Edtion"
+			},
+			"branchCode": "topaz_za_mt_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 12 4G NFC",
+        "en" :"Redmi Note 12 4G NFC"
+      },
+			"idtag": "ZAMT",
+			"tag": "ZAMT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["mt"],
+			"region": "za",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMGZAMT": {
+					"os": "OS1.0.4.0.UMGZAMT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_TOPAZZAMTGlobal_OS1.0.4.0.UMGZAMT_527843ac27_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

@@ -493,6 +493,36 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "taoyao_lm_cr_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 12 Lite",
+        "en" :"Xiaomi 12 Lite"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.ULILMCR": {
+					"os": "OS1.0.1.0.ULILMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_TAOYAOLMCRGlobal_OS1.0.1.0.ULILMCR_3e0ff08d76_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

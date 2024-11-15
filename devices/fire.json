@@ -78,6 +78,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "fire_dc_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 12 国际",
+        "en" :"Redmi 12"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMXMIDC": {
+					"os": "OS1.0.1.0.UMXMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_FIREDCGlobal_OS1.0.1.0.UMXMIDC_9ad6aeb393_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -370,6 +400,156 @@
 					"release": "2024-02-25",
 					"recovery": "miui_FIRETRGlobal_OS1.0.1.0.UMXTRXM_524e059d46_14.0.zip",
 					"fastboot": "fire_tr_global_images_OS1.0.1.0.UMXTRXM_20240207.0000.00_14.0_tr_dce2dcf5b3.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 南非Vodacom运营商定制版",
+				"en": "Xiaomi HyperOS South Africa Vodacom Carrier Edtion"
+			},
+			"branchCode": "fire_za_vc_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 12 国际",
+        "en" :"Redmi 12"
+      },
+			"idtag": "ZAVC",
+			"tag": "ZAVC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["vc"],
+			"region": "za",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UMXZAVC": {
+					"os": "OS1.0.2.0.UMXZAVC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_FIREZAVCGlobal_OS1.0.2.0.UMXZAVC_0e9994c160_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 南非MTN运营商定制版",
+				"en": "Xiaomi HyperOS South Africa MTN Carrier Edtion"
+			},
+			"branchCode": "fire_za_mt_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 12 国际",
+        "en" :"Redmi 12"
+      },
+			"idtag": "ZAMT",
+			"tag": "ZAMT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["mt"],
+			"region": "za",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMXZAMT": {
+					"os": "OS1.0.3.0.UMXZAMT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_FIREZAMTGlobal_OS1.0.3.0.UMXZAMT_19e579c64e_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "fire_mx_at_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 12 国际",
+        "en" :"Redmi 12"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UMXMXAT": {
+					"os": "OS1.0.7.0.UMXMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_FIREMXATGlobal_OS1.0.7.0.UMXMXAT_5cb6ba807d_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "fire_gt_tg_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 12 国际",
+        "en" :"Redmi 12"
+      },
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tg"],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UMXGTTG": {
+					"os": "OS1.0.5.0.UMXGTTG",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_FIREGTTGGlobal_OS1.0.5.0.UMXGTTG_47e6c65994_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "fire_lm_cr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 12 国际",
+        "en" :"Redmi 12"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UMXLMCR": {
+					"os": "OS1.0.1.0.UMXLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_FIRELMCRGlobal_OS1.0.1.0.UMXLMCR_9813740d82_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

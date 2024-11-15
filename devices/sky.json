@@ -201,6 +201,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "sky_dc_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
+        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UMWMIDC": {
+					"os": "OS1.0.3.0.UMWMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SKYDCGlobal_OS1.0.3.0.UMWMIDC_10e39b6142_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -377,6 +407,36 @@
 					"release": "2024-03-09",
 					"recovery": "miui_SKYJPGlobal_OS1.0.8.0.UMWJPXM_a401eb6022_14.0.zip",
 					"fastboot": "sky_jp_global_images_OS1.0.8.0.UMWJPXM_20240304.0000.00_14.0_jp_bb44246166.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "sky_cl_en_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
+        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
+      },
+			"idtag": "CLEN",
+			"tag": "CLEN",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMWCLEN": {
+					"os": "OS1.0.4.0.UMWCLEN",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SKYCLENGlobal_OS1.0.4.0.UMWCLEN_5cd8f8af6c_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

@@ -607,6 +607,36 @@
 					"fastboot": "rothko_jp_global_images_OS1.0.4.0.UNNJPXM_20241015.0000.00_14.0_jp_e0ea32c097.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "rothko_lm_cr_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 14T Pro",
+        "en" :"Xiaomi 14T Pro"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNNLMCR": {
+					"os": "OS1.0.2.0.UNNLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ROTHKOLMCRGlobal_OS1.0.2.0.UNNLMCR_8bc8e2e4bb_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

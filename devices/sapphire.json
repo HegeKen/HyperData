@@ -82,6 +82,96 @@
 					"fastboot": "sapphire_global_images_OS1.0.2.0.UNGMIXM_20240316.0000.00_14.0_global_7a371e07e4.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "sapphire_dc_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 4G",
+        "en" :"Redmi Note 13 4G"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNGMIDC": {
+					"os": "OS1.0.4.0.UNGMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SAPPHIREDCGlobal_OS1.0.4.0.UNGMIDC_8b0f82d954_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "sapphire_mx_at_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 4G",
+        "en" :"Redmi Note 13 4G"
+      },
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNGMXAT": {
+					"os": "OS1.0.3.0.UNGMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SAPPHIREMXATGlobal_OS1.0.3.0.UNGMXAT_2fa73a870e_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "sapphire_lm_cr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 4G",
+        "en" :"Redmi Note 13 4G"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNGLMCR": {
+					"os": "OS1.0.1.0.UNGLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_SAPPHIRELMCRGlobal_OS1.0.1.0.UNGLMCR_885165cf30_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

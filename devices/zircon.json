@@ -261,6 +261,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "zircon_dc_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 Pro+ 5G",
+        "en" :"Redmi Note 13 Pro+ 5G"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNOMIDC": {
+					"os": "OS1.0.1.0.UNOMIDC",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ZIRCONDCGlobal_OS1.0.1.0.UNOMIDC_f2dc5a8f52_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -653,6 +683,36 @@
 					"release": "2024-06-27",
 					"recovery": "miui_ZIRCONJPGlobal_OS1.0.3.0.UNOJPXM_f6eecacc5a_14.0.zip",
 					"fastboot": "zircon_jp_global_images_OS1.0.3.0.UNOJPXM_20240408.0000.00_14.0_jp_378b744bc2.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "zircon_lm_cr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi Note 13 Pro+ 5G",
+        "en" :"Redmi Note 13 Pro+ 5G"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNOLMCR": {
+					"os": "OS1.0.1.0.UNOLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ZIRCONLMCRGlobal_OS1.0.1.0.UNOLMCR_b8ddb1bab6_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
