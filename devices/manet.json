@@ -13,6 +13,36 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "manet",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi K70 Pro",
+        "en" :"Redmi K70 Pro"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.1.2.VNMCNXM": {
+					"os": "OS2.0.1.2.VNMCNXM",
+					"android": "15.0",
+					"release": "2024-11-15",
+					"recovery": "manet-ota_full-OS2.0.1.2.VNMCNXM-user-15.0-965cc6efff.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},

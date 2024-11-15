@@ -5,12 +5,42 @@
 		"en": "Redmi K70 / POCO F6 Pro"
 	},
 	"code": "NK",
-	"suppports": ["OS1.0"],
+	"suppports": ["OS1.0", "OS2.0"],
 	"android": ["14.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "vermeer",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi K70",
+        "en" :"Redmi K70"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.0.14.VNKCNXM": {
+					"os": "OS2.0.0.14.VNKCNXM",
+					"android": "15.0",
+					"release": "2024-11-15",
+					"recovery": "vermeer-ota_full-OS2.0.0.14.VNKCNXM-user-15.0-09a43cd5d2.zip",
+					"fastboot": ""
+				}
+			}
+		},
 		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
