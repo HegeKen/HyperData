@@ -4,7 +4,10 @@
     "zh": "Redmi Note 14 5G",
     "en": "Redmi Note 14 5G"
   },
-  "type": "phone",
+	"code": "OQ",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
+	"type": "phone",
   "miui": "no",
 	"merged":"no",
 	"branches": [
@@ -20,6 +23,7 @@
         "en": "Redmi Note 14 5G"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -58,6 +62,7 @@
         "en": "Redmi Note 14 5G"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",

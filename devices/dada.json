@@ -4,7 +4,10 @@
     "zh": "小米 15",
     "en": "Xiaomi 15"
   },
-  "type": "phone",
+	"code": "OC",
+	"suppports": ["OS2.0"],
+	"android": ["15.0"],
+	"type": "phone",
   "miui": "no",
 	"merged":"no",
 	"branches": [
@@ -20,6 +23,7 @@
         "en": "Xiaomi 15"
       },
 			"idtag": "CnOB",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -49,6 +53,7 @@
         "en": "Xiaomi 15"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -121,6 +126,7 @@
         "en": "Xiaomi 15"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",

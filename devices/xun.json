@@ -4,6 +4,9 @@
 		"zh": "Redmi 平板 SE",
 		"en": "Redmi Pad SE"
 	},
+	"code": "MU",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "tablet",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -82,6 +86,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -112,6 +117,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
@@ -142,6 +148,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -185,6 +192,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -235,6 +243,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -285,6 +294,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -328,6 +338,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -371,6 +382,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -414,6 +426,7 @@
         "en" :"Redmi Pad SE"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

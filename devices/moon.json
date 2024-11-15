@@ -4,6 +4,9 @@
 		"zh": "Redmi 13 / POCO M6 4G",
 		"en": "Redmi 13 / POCO M6 4G"
 	},
+	"code": "NT",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi 13 / POCO M6 4G"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -70,6 +74,7 @@
         "en" :"Redmi 13 / POCO M6 4G"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -78,6 +83,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UNTMIXM": {
+					"os": "OS1.0.8.0.UNTMIXM",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_MOONGlobal_OS1.0.8.0.UNTMIXM_33874dce35_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UNTMIXM": {
 					"os": "OS1.0.7.0.UNTMIXM",
 					"android": "14.0",
@@ -127,6 +139,7 @@
         "en" :"Redmi 13 / POCO M6 4G"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -184,6 +197,7 @@
         "en" :"Redmi 13 / POCO M6 4G"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -234,6 +248,7 @@
         "en" :"Redmi 13 / POCO M6 4G"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -284,6 +299,7 @@
         "en" :"Redmi 13 / POCO M6 4G"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

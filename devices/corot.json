@@ -4,6 +4,9 @@
 		"zh": "Redmi K60 至尊版 / 小米 13T Pro",
 		"en": "Redmi K60 Ultra / Xiaomi 13T Pro"
 	},
+	"code": "ML",
+	"suppports": ["OS1.0", "OS1.1"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi K60 Ultra"
       },
 			"idtag": "ADPC",
+			"tag": "",
 			"url": "https://www.xiaomi.cn/post/44582045",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
@@ -79,6 +83,7 @@
         "en" :"Xiaomi 13T Pro"
       },
 			"idtag": "ADPG",
+			"tag": "",
 			"url": "https://new.c.mi.com/global/post/951812",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
@@ -129,6 +134,7 @@
         "en" :"Redmi K60 Ultra"
       },
 			"idtag": "Beta",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -179,6 +185,7 @@
         "en" :"Redmi K60 Ultra"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -321,6 +328,7 @@
         "en" :"Xiaomi 13T Pro"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -371,6 +379,7 @@
         "en" :"Xiaomi 13T Pro"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -435,6 +444,7 @@
         "en" :"Xiaomi 13T Pro"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -513,6 +523,7 @@
         "en" :"Xiaomi 13T Pro"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -556,6 +567,7 @@
         "en" :"Xiaomi 13T Pro"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -599,6 +611,7 @@
         "en" :"Xiaomi 13T Pro"
       },
 			"idtag": "JAPS",
+			"tag": "JPXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

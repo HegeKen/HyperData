@@ -4,6 +4,9 @@
 		"zh": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G",
 		"en": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G"
 	},
+	"code": "NQ",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi Note 13 5G / 13R Pro"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -90,6 +94,7 @@
         "en" :"Redmi Note 13 5G / 13R Pro"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -136,6 +141,7 @@
         "en" :"Redmi Note 13 5G / 13R Pro"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
@@ -166,6 +172,7 @@
         "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -230,6 +237,7 @@
         "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -308,6 +316,7 @@
         "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -400,6 +409,7 @@
         "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -471,6 +481,7 @@
         "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -535,6 +546,7 @@
         "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

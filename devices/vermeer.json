@@ -4,6 +4,9 @@
 		"zh": "Redmi K70 / POCO F6 Pro",
 		"en": "Redmi K70 / POCO F6 Pro"
 	},
+	"code": "NK",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi K70"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
@@ -162,6 +166,7 @@
         "en" :"Redmi K70"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
@@ -216,6 +221,7 @@
         "en" :"Redmi K70"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -278,6 +284,7 @@
         "en" :"POCO F6 Pro"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -328,6 +335,7 @@
         "en" :"POCO F6 Pro"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -392,6 +400,7 @@
         "en" :"POCO F6 Pro"
       },
 			"idtag": "EUHG",
+			"tag": "EUHG",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -456,6 +465,7 @@
         "en" :"POCO F6 Pro"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

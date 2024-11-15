@@ -4,6 +4,9 @@
 		"zh": "小米 MIX Fold 4",
 		"en": "Xiaomi MIX Fold 4"
 	},
+	"code": "NV",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "foldable",
 	"miui": "no",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi MIX Fold 4"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -90,6 +94,7 @@
         "en" :"Xiaomi MIX Fold 4"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -120,6 +125,7 @@
         "en" :"Xiaomi MIX Fold 4"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",

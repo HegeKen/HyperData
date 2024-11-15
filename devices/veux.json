@@ -4,6 +4,9 @@
 		"zh": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G",
 		"en": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G"
 	},
+	"code": "KC",
+	"suppports": ["OS1.0"],
+	"android": ["13.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi Note 11E Pro"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
 			"show": "1",
@@ -87,6 +91,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -137,6 +142,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -194,6 +200,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -207,7 +214,7 @@
 					"android": "13.0",
 					"release": "2024-11-06",
 					"recovery": "miui_VEUXEEAGlobal_OS1.0.9.0.TKCEUXM_a17937a7cd_13.0.zip",
-					"fastboot": ""
+					"fastboot": "veux_eea_global_images_OS1.0.9.0.TKCEUXM_20241017.0000.00_13.0_eea_dd49f2f56e.tgz"
 				},
 				"OS1.0.8.0.TKCEUXM": {
 					"os": "OS1.0.8.0.TKCEUXM",
@@ -251,6 +258,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "EUHG",
+			"tag": "EUHG",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -294,6 +302,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "EUTF",
+			"tag": "EUTF",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -344,6 +353,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "EUVF",
+			"tag": "EUVF",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -387,6 +397,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "EUBY",
+			"tag": "EUBY",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -423,6 +434,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "EUOR",
+			"tag": "EUOR",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -466,6 +478,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "EUSF",
+			"tag": "EUSF",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -495,6 +508,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -552,6 +566,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -609,6 +624,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -666,6 +682,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -723,6 +740,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "MXAT",
+			"tag": "MXAT",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -752,6 +770,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "CLEN",
+			"tag": "CLEN",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -781,6 +800,7 @@
         "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
       },
 			"idtag": "JAPS",
+			"tag": "JPXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

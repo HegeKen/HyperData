@@ -4,6 +4,9 @@
 		"zh": "小米 13 Pro",
 		"en": "Xiaomi 13 Pro"
 	},
+	"code": "MB",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -22,6 +25,7 @@
         "en" :"Xiaomi 13 Pro"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"show": "1",
 			"zone": "1",
 			"ep": "0",
@@ -294,6 +298,7 @@
         "en" :"Xiaomi 13 Pro"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -404,6 +409,7 @@
         "en" :"Xiaomi 13 Pro"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -468,6 +474,7 @@
         "en" :"Xiaomi 13 Pro"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -539,6 +546,7 @@
         "en" :"Xiaomi 13 Pro"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -610,6 +618,7 @@
         "en" :"Xiaomi 13 Pro"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -681,6 +690,7 @@
         "en" :"Xiaomi 13 Pro"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

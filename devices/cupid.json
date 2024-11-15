@@ -4,6 +4,9 @@
 		"zh": "小米 12",
 		"en": "Xiaomi 12"
 	},
+	"code": "LC",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -273,6 +277,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -351,6 +356,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -422,6 +428,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -486,6 +493,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -578,6 +586,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -642,6 +651,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -713,6 +723,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -777,6 +788,7 @@
         "en" :"Xiaomi 12"
       },
 			"idtag": "MXAT",
+			"tag": "MXAT",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

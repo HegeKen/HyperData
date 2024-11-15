@@ -4,6 +4,9 @@
 		"zh": "小米 12 Pro",
 		"en": "Xiaomi 12 Pro"
 	},
+	"code": "LB",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -273,6 +277,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -343,6 +348,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -407,6 +413,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -471,6 +478,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -563,6 +571,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -627,6 +636,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -691,6 +701,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -755,6 +766,7 @@
         "en" :"Xiaomi 12 Pro"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

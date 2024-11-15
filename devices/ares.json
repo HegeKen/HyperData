@@ -4,6 +4,9 @@
 		"zh": "Redmi K40 游戏增强版 / POCO F3 GT",
 		"en": "Redmi K40 Gaming / POCO F3 GT"
 	},
+	"code": "KJ",
+	"suppports": ["OS1.0"],
+	"android": ["13.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi K40 Gaming"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -50,6 +54,7 @@
         "en" :"POCO F3 GT"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

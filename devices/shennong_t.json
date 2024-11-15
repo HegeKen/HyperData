@@ -4,6 +4,9 @@
 		"zh": "小米 14 Pro 钛金属卫星通讯版",
 		"en": "Xiaomi 14 Pro Ti Satellite"
 	},
+	"code": "ND",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"shennong",
@@ -28,6 +31,7 @@
         "en" :"Xiaomi 14 Pro Ti Satellite"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",

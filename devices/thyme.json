@@ -4,6 +4,9 @@
 		"zh": "小米 10S",
 		"en": "Mi 10S"
 	},
+	"code": "GA",
+	"suppports": ["OS1.0"],
+	"android": ["13.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Mi 10S"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",

@@ -4,6 +4,9 @@
 		"zh": "小米 11i 5G",
 		"en": "Xiaomi 11i 5G"
 	},
+	"code": "KT",
+	"suppports": ["OS1.0"],
+	"android": ["13.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi 11i 5G"
       },
 			"idtag": "INSO",
+			"tag": "INFK",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

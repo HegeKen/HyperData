@@ -4,6 +4,9 @@
 		"zh": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G",
 		"en": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G"
 	},
+	"code": "NU",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi Note 13R 5G"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -74,6 +78,7 @@
         "en" :"Redmi Note 13R 5G"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -104,6 +109,7 @@
         "en" :"Redmi 13 5G / POCO M6 Plus 5G"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

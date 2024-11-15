@@ -4,7 +4,10 @@
     "zh": "小米 15 Pro",
     "en": "Xiaomi 15 Pro"
   },
-  "type": "phone",
+	"code": "OB",
+	"suppports": ["OS2.0"],
+	"android": ["15.0"],
+	"type": "phone",
   "miui": "no",
 	"merged":"no",
 	"branches": [
@@ -20,6 +23,7 @@
         "en": "Xiaomi 15 Pro"
       },
 			"idtag": "CnOB",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -49,6 +53,7 @@
         "en": "Xiaomi 15 Pro"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -121,6 +126,7 @@
         "en": "Xiaomi 15 Pro"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",

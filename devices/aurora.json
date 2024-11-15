@@ -4,6 +4,9 @@
 		"zh": "小米 14 Ultra / Ultra Ti",
 		"en": "Xiaomi 14 Ultra"
 	},
+	"code": "NA",
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "CnOB",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -56,6 +60,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -214,6 +219,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -244,6 +250,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "D",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
@@ -273,6 +280,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
@@ -303,6 +311,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -374,6 +383,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -452,6 +462,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -530,6 +541,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -587,6 +599,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -651,6 +664,7 @@
         "en" :"Xiaomi 14 Ultra"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

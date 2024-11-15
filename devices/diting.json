@@ -4,6 +4,9 @@
 		"zh": "Redmi K50 至尊版 / 小米 12T Pro",
 		"en": "Redmi K50 Ultra / Xiaomi 12T Pro"
 	},
+	"code": "LF",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi K50 Ultra"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -259,6 +263,7 @@
         "en" :"Redmi K50 Ultra"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -345,6 +350,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -416,6 +422,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -487,6 +494,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -593,6 +601,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -657,6 +666,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "JAPS",
+			"tag": "JPXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -714,6 +724,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -778,6 +789,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "CLEN",
+			"tag": "CLEN",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -807,6 +819,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "MXAT",
+			"tag": "MXAT",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -836,6 +849,7 @@
         "en" :"Xiaomi 12T Pro"
       },
 			"idtag": "LMCR",
+			"tag": "LMCR",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

@@ -4,7 +4,10 @@
     "zh": "Redmi Note 14 Pro+",
     "en": "Redmi Note 14 Pro+"
   },
-  "type": "phone",
+	"code": "OP",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
+	"type": "phone",
   "miui": "no",
 	"merged":"no",
 	"branches": [
@@ -20,6 +23,7 @@
         "en": "Redmi Note 14 Pro+"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -90,6 +94,7 @@
         "en": "Redmi Note 14 Pro+"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",

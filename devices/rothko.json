@@ -4,6 +4,9 @@
 		"zh": "Redmi K70 至尊版 / 小米 14T Pro",
 		"en": "Redmi K70 Ultra / Xiaomi 14T Pro"
 	},
+	"code": "NN",
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi K70 Ultra"
       },
 			"idtag": "CnOB",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -49,6 +53,7 @@
         "en" :"Redmi K70 Ultra"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -191,6 +196,7 @@
         "en" :"Redmi K70 Ultra"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
@@ -237,6 +243,7 @@
         "en" :"Redmi K70 Ultra"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -275,6 +282,7 @@
         "en" :"Xiaomi 14T Pro"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -318,6 +326,7 @@
         "en" :"Xiaomi 14T Pro"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -368,6 +377,7 @@
         "en" :"Xiaomi 14T Pro"
       },
 			"idtag": "GBDC",
+			"tag": "MIDC",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -404,6 +414,7 @@
         "en" :"Xiaomi 14T Pro"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -454,6 +465,7 @@
         "en" :"Xiaomi 14T Pro"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -497,6 +509,7 @@
         "en" :"Xiaomi 14T Pro"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -540,6 +553,7 @@
         "en" :"Xiaomi 14T Pro"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -576,6 +590,7 @@
         "en" :"Xiaomi 14T Pro"
       },
 			"idtag": "JAPS",
+			"tag": "JPXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

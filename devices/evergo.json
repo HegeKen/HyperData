@@ -4,6 +4,9 @@
 		"zh": "Redmi Note 11 5G / 11T 5G",
 		"en": "Redmi Note 11 5G / 11T 5G"
 	},
+	"code": "GB",
+	"suppports": ["OS1.0"],
+	"android": ["13.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi Note 11 5G"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -50,6 +54,7 @@
         "en" :"Redmi Note 11T 5G"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

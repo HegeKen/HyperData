@@ -4,6 +4,9 @@
 		"zh": "Redmi Note 11 Pro 4G 印度版",
 		"en": "Redmi Note 11 Pro 4G India"
 	},
+	"code": "GD",
+	"suppports": ["OS1.0"],
+	"android": ["13.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Redmi Note 11 Pro 4G India"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

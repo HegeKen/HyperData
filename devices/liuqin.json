@@ -4,6 +4,9 @@
 		"zh": "小米平板 6 Pro",
 		"en": "Xiaomi Pad 6 Pro"
 	},
+	"code": "MY",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "tablet",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi Pad 6 Pro"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -98,6 +102,7 @@
         "en" :"Xiaomi Pad 6 Pro"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -134,6 +139,7 @@
         "en" :"Xiaomi Pad 6 Pro"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",

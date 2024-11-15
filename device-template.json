@@ -4,6 +4,9 @@
 		"zh": "",
 		"en": ""
 	},
+	"code": "",
+	"suppports": ["OS1.0", "OS1.1", "OS2.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :""
       },
 			"idtag": "CnOB",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -49,6 +53,7 @@
         "en" :""
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"],
 			"show": "1",
@@ -81,6 +86,7 @@
         "en" :""
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
@@ -111,6 +117,7 @@
         "en" :""
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -141,6 +148,7 @@
         "en" :""
       },
 			"idtag": "EPCJCC",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
@@ -171,6 +179,7 @@
         "en" :""
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -200,6 +209,7 @@
         "en" :""
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -229,6 +239,7 @@
         "en" :""
       },
 			"idtag": "GBDC",
+			"tag": "MIDC",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
@@ -258,6 +269,7 @@
         "en" :""
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -287,6 +299,7 @@
         "en" :""
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -316,6 +329,7 @@
         "en" :""
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -345,6 +359,7 @@
         "en" :""
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -374,6 +389,7 @@
         "en" :""
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -403,6 +419,7 @@
         "en" :""
       },
 			"idtag": "THAS",
+			"tag": "THAS",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -432,6 +449,7 @@
         "en" :""
       },
 			"idtag": "SKSO",
+			"tag": "KRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -461,6 +479,7 @@
         "en" :""
       },
 			"idtag": "JAPS",
+			"tag": "JPXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -490,6 +509,7 @@
         "en" :""
       },
 			"idtag": "EUHG",
+			"tag": "EUHG",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -519,6 +539,7 @@
         "en" :""
       },
 			"idtag": "EUOR",
+			"tag": "EUOR",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -548,6 +569,7 @@
         "en" :""
       },
 			"idtag": "EUVF",
+			"tag": "EUVF",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -577,6 +599,7 @@
         "en" :""
       },
 			"idtag": "EUBY",
+			"tag": "EUBY",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -606,6 +629,7 @@
         "en" :""
       },
 			"idtag": "EUTF",
+			"tag": "EUTF",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -635,6 +659,7 @@
         "en" :""
       },
 			"idtag": "EUTI",
+			"tag": "EUTI",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -664,6 +689,7 @@
         "en" :""
       },
 			"idtag": "EUSF",
+			"tag": "EUSF",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -693,6 +719,7 @@
         "en" :""
       },
 			"idtag": "ZAVC",
+			"tag": "ZAVC",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -722,6 +749,7 @@
         "en" :""
       },
 			"idtag": "ZAMT",
+			"tag": "ZAMT",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -751,6 +779,7 @@
         "en" :""
       },
 			"idtag": "GTTG",
+			"tag": "GTTG",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -780,6 +809,7 @@
         "en" :""
       },
 			"idtag": "CLEN",
+			"tag": "CLEN",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -809,6 +839,7 @@
         "en" :""
       },
 			"idtag": "MXAT",
+			"tag": "MXAT",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -838,6 +869,7 @@
         "en" :""
       },
 			"idtag": "MXTC",
+			"tag": "MXTC",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -867,6 +899,7 @@
         "en" :""
       },
 			"idtag": "LMCR",
+			"tag": "LMCR",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -896,6 +929,7 @@
         "en" :""
       },
 			"idtag": "LMMS",
+			"tag": "LMMS",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -925,6 +959,7 @@
         "en" :""
       },
 			"idtag": "Beta",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -954,6 +989,7 @@
         "en" :""
       },
 			"idtag": "ADPC",
+			"tag": "",
 			"url": "",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot"],
@@ -986,6 +1022,7 @@
         "en" :""
       },
 			"idtag": "ADPG",
+			"tag": "",
 			"url": "",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot"],
@@ -1018,6 +1055,7 @@
         "en" :""
       },
 			"idtag": "CnODB",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",

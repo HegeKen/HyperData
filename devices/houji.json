@@ -4,6 +4,9 @@
 		"zh": "小米 14",
 		"en": "Xiaomi 14"
 	},
+	"code": "NC",
+	"suppports": ["OS1.0", "OS1.1", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "CnOB",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -56,6 +60,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -246,6 +251,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "ADPC",
+			"tag": "",
 			"url": "https://www.xiaomi.cn/post/44582045",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
@@ -305,6 +311,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "ADPG",
+			"tag": "",
 			"url": "https://new.c.mi.com/global/post/951812",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
@@ -355,6 +362,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "Beta",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -405,6 +413,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -763,6 +772,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
@@ -825,6 +835,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -880,6 +891,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -951,6 +963,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -1029,6 +1042,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -1100,6 +1114,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -1164,6 +1179,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -1228,6 +1244,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -1292,6 +1309,7 @@
         "en" :"Xiaomi 14"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

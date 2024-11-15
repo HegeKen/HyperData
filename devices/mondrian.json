@@ -4,6 +4,9 @@
 		"zh": "Redmi K60 / POCO F5 Pro",
 		"en": "Redmi K60 / POCO F5 Pro"
 	},
+	"code": "MN",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -22,6 +25,7 @@
         "en" :"Redmi K60"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"show": "1",
 			"zone": "1",
 			"ep": "0",
@@ -301,6 +305,7 @@
         "en" :"Redmi K60"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -403,6 +408,7 @@
         "en" :"POCO F5 Pro"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -474,6 +480,7 @@
         "en" :"POCO F5 Pro"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -559,6 +566,7 @@
         "en" :"POCO F5 Pro"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -630,6 +638,7 @@
         "en" :"POCO F5 Pro"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -701,6 +710,7 @@
         "en" :"POCO F5 Pro"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

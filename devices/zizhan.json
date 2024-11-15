@@ -4,6 +4,9 @@
 		"zh": "小米 MIX Fold 2",
 		"en": "Xiaomi MIX Fold 2"
 	},
+	"code": "LR",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "foldable",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi MIX Fold 2"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"branchtag": "X",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -273,6 +277,7 @@
         "en" :"Xiaomi MIX Fold 2"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],

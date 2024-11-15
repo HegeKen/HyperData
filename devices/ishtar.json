@@ -4,6 +4,9 @@
 		"zh": "小米 13 Ultra",
 		"en": "Xiaomi 13 Ultra"
 	},
+	"code": "MA",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -22,6 +25,7 @@
         "en" :"Xiaomi 13 Ultra"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"show": "1",
 			"zone": "1",
 			"ep": "0",
@@ -301,6 +305,7 @@
         "en" :"Xiaomi 13 Ultra"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -395,6 +400,7 @@
         "en" :"Xiaomi 13 Ultra"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "0",
@@ -425,6 +431,7 @@
         "en" :"Xiaomi 13 Ultra"
       },
 			"idtag": "EPSTD",
+			"tag": "",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
@@ -455,6 +462,7 @@
         "en" :"Xiaomi 13 Ultra"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -519,6 +527,7 @@
         "en" :"Xiaomi 13 Ultra"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -590,6 +599,7 @@
         "en" :"Xiaomi 13 Ultra"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -668,6 +678,7 @@
         "en" :"Xiaomi 13 Ultra"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

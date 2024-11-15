@@ -37,10 +37,9 @@ currentStable = ["dada", "haotian", "uke", "muyu",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
 only_os = ["uke", "muyu",	"dada", "haotian", "zorn", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
-					 "xuanyuan", "dijun", "flame", "pond", "lake","flare", "spark", "goku", "ruyi", "tides", "moon", "breeze", "vermeer", "ruan",
+					 "xuanyuan", "dijun", "flame", "pond", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
-onedevices = ["blue"]
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
 gb_devices = ['agate', 'aristotle', 'fire', 'moonstone', 'plato', 'rock', 'sea', 'sunstone', 'sweet_k6a', 'taoyao', 'tapas', 'topaz']
 both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi', 'ingres', 'ishtar', 'light', 'marble', 'mondrian', 'nuwa', 'pipa', 'redwood', 'ruby', 'sky', 'yunluo', 'zeus']
@@ -1780,17 +1779,27 @@ def getFastboot(url):
 
 def entryChecker(data,device):
 	check =[]
+	code = data['code']
 	for branch in data['branches']:
 		if data['device'] in branch['branchCode']:
 			roms = branch['roms']
 			bname = branch['name']['zh']
 			menu_items = branch['table']
+			tag = branch['tag']
 			if len(menu_items) != len(set(menu_items)):
 				print(device, bname, "菜单项重复")
 			else:
 				i = 0
 			for os_version, rom_info in roms.items():
 				if os_version != rom_info['os']:
+					if branch['ep'] != '1':
+						if code+tag in os_version:
+							i = 0
+						else:
+							print(f"错误:机型 {device} {bname} {os_version} OS版本中的标记与当前分支不一致")
+							check.append(1)
+					else:
+						i = 0
 					print(f"错误:机型 {device} {bname} {os_version} OS版本与实际记录不一致")
 					check.append(1)
 				else:

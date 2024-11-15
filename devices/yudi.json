@@ -4,6 +4,9 @@
 		"zh": "小米平板 6 Max 14",
 		"en": "Xiaomi Pad 6 Max 14"
 	},
+	"code": "MH",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "tablet",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"Xiaomi Pad 6 Max 14"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -84,6 +88,7 @@
         "en" :"Xiaomi Pad 6 Max 14"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",

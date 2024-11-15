@@ -4,7 +4,10 @@
     "zh": "小米平板7",
     "en": "Xiaomi Pad 7"
   },
-  "type": "tablet",
+	"code": "OZ",
+	"suppports": ["OS2.0"],
+	"android": ["15.0"],
+	"type": "tablet",
   "miui": "no",
 	"merged":"no",
 	"branches": [
@@ -20,6 +23,7 @@
 				"en": "Xiaomi Pad 7"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -70,6 +74,7 @@
 				"en": "Xiaomi Pad 7"
       },
 			"idtag": "CnOD",
+			"tag":"CNDM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",

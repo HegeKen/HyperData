@@ -4,6 +4,9 @@
 		"zh": "Redmi 11 Prime 4G / POCO M5",
 		"en": "Redmi 11 Prime 4G / POCO M5"
 	},
+	"code": "LU",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -20,6 +23,7 @@
         "en" :"POCO M5"
       },
 			"idtag": "CNTP",
+			"tag": "TWXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -56,6 +60,7 @@
         "en" :"POCO M5"
       },
 			"idtag": "GBOO",
+			"tag": "MIXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -120,6 +125,7 @@
         "en" :"POCO M5"
       },
 			"idtag": "EEAO",
+			"tag": "EUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -177,6 +183,7 @@
         "en" :"POCO M5"
       },
 			"idtag": "RUSO",
+			"tag": "RUXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -185,6 +192,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.ULURUXM": {
+					"os": "OS1.0.6.0.ULURUXM",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ROCKRUGlobal_OS1.0.6.0.ULURUXM_419e8b1ff6_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.5.0.ULURUXM": {
 					"os": "OS1.0.5.0.ULURUXM",
 					"android": "14.0",
@@ -227,6 +241,7 @@
         "en" :"Redmi 11 Prime 4G / POCO M5"
       },
 			"idtag": "INSO",
+			"tag": "INXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -235,6 +250,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.ULUINXM": {
+					"os": "OS1.0.8.0.ULUINXM",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_ROCKINGlobal_OS1.0.8.0.ULUINXM_69a0e9e7c2_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.ULUINXM": {
 					"os": "OS1.0.7.0.ULUINXM",
 					"android": "14.0",
@@ -277,6 +299,7 @@
         "en" :"POCO M5"
       },
 			"idtag": "IDSO",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -334,6 +357,7 @@
         "en" :"POCO M5"
       },
 			"idtag": "TRSO",
+			"tag": "TRXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",

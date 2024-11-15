@@ -4,6 +4,9 @@
 		"zh": "Redmi K60 Pro",
 		"en": "Redmi K60 Pro"
 	},
+	"code": "MK",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -22,6 +25,7 @@
         "en" :"Redmi K60 Pro"
       },
 			"idtag": "Dev",
+			"tag": "",
 			"show": "1",
 			"zone": "1",
 			"ep": "0",
@@ -301,6 +305,7 @@
         "en" :"Redmi K60 Pro"
       },
 			"idtag": "CnOO",
+			"tag": "CNXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
 			"show": "1",
