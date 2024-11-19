@@ -13,6 +13,36 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "ruyi",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 MIX Flip",
+        "en" :"Xiaomi MIX Flip"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.0.17.VNICNXM": {
+					"os": "OS2.0.0.17.VNICNXM",
+					"android": "15.0",
+					"release": "2024-11-19",
+					"recovery": "ruyi-ota_full-OS2.0.0.17.VNICNXM-user-15.0-91c271e5cd.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},

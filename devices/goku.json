@@ -13,6 +13,36 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "goku",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 MIX Fold 4",
+        "en" :"Xiaomi MIX Fold 4"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.0.25.VNVCNXM": {
+					"os": "OS2.0.0.25.VNVCNXM",
+					"android": "15.0",
+					"release": "2024-11-19",
+					"recovery": "goku-ota_full-OS2.0.0.25.VNVCNXM-user-15.0-b0795d65bd.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
