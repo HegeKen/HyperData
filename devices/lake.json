@@ -122,6 +122,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "lake_dc_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UGTMIDC": {
+					"os": "OS1.0.3.0.UGTMIDC",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_LAKEDCGlobal_OS1.0.3.0.UGTMIDC_52a66f6914_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -312,6 +342,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.UGTLMCR": {
+					"os": "OS1.0.2.0.UGTLMCR",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_LAKELMCRGlobal_OS1.0.2.0.UGTLMCR_6fce013700_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.1.0.UGTLMCR": {
 					"os": "OS1.0.1.0.UGTLMCR",
 					"android": "14.0",

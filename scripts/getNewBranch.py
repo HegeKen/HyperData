@@ -11,7 +11,10 @@ for device in OScommon.currentStable:
 		for os in oss:
 			for andv in andvs:
 				devcode = device+branch['code']
-				version = os+".1.0."+OScommon.android(andv)+code+branch['tag']
-				print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="               ", flush=True)
-				OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))
-				
+				version = os+".4.0."+OScommon.android(andv)+code+branch['tag']
+				if version in devdata:
+					i = 0
+				else:
+					print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="               ", flush=True)
+					OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))
+					

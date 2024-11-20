@@ -453,6 +453,50 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "sky_lm_cr_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
+        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UMWLMCR": {
+					"os": "OS1.0.4.0.UMWLMCR",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_SKYLMCRGlobal_OS1.0.4.0.UMWLMCR_8b9a4b6819_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.3.0.UMWLMCR": {
+					"os": "OS1.0.3.0.UMWLMCR",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_SKYLMCRGlobal_OS1.0.3.0.UMWLMCR_e289a70bb7_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.2.0.UMWLMCR": {
+					"os": "OS1.0.2.0.UMWLMCR",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_SKYLMCRGlobal_OS1.0.2.0.UMWLMCR_74e18212aa_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

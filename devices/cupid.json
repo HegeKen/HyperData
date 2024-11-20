@@ -778,6 +778,43 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "cupid_cl_en_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 12",
+        "en" :"Xiaomi 12"
+      },
+			"idtag": "CLEN",
+			"tag": "CLEN",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["en"],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULCCLEN": {
+					"os": "OS1.0.3.0.ULCCLEN",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_CUPIDCLENGlobal_OS1.0.3.0.ULCCLEN_7ae5549990_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.2.0.ULCCLEN": {
+					"os": "OS1.0.2.0.ULCCLEN",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_CUPIDCLENGlobal_OS1.0.2.0.ULCCLEN_437f664659_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
 				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
 			},

@@ -329,6 +329,43 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "garnet_dc_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi Note 13 Pro 5G / POCO X6 5G",
+        "en" :"Redmi Note 13 Pro 5G / POCO X6 5G"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "global_dc",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNRMIDC": {
+					"os": "OS1.0.3.0.UNRMIDC",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_GARNETDCGlobal_OS1.0.3.0.UNRMIDC_a50f44e239_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.2.0.UNRMIDC": {
+					"os": "OS1.0.2.0.UNRMIDC",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_GARNETDCGlobal_OS1.0.2.0.UNRMIDC_6f7e27a244_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -686,6 +723,27 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.UNRLMCR": {
+					"os": "OS1.0.4.0.UNRLMCR",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_GARNETLMCRGlobal_OS1.0.4.0.UNRLMCR_e83f67a02c_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.3.0.UNRLMCR": {
+					"os": "OS1.0.3.0.UNRLMCR",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_GARNETLMCRGlobal_OS1.0.3.0.UNRLMCR_8c0e946a60_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.2.0.UNRLMCR": {
+					"os": "OS1.0.2.0.UNRLMCR",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_GARNETLMCRGlobal_OS1.0.2.0.UNRLMCR_79f3442708_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.1.0.UNRLMCR": {
 					"os": "OS1.0.1.0.UNRLMCR",
 					"android": "14.0",
