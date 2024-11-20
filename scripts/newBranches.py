@@ -1,7 +1,7 @@
 import OScommon
 from datetime import datetime
 
-base_url = "https://update.miui.com/updates/miota-fullrom.php?d="
+base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
 urls = []
 known_urls = []
 
