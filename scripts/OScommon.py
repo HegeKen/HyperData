@@ -303,6 +303,8 @@ flags = {
 	"RUYITWGlobal":"ruyi",
 	"ruan_ep_stdee":"ruan",
 	"RUANEPSTDEE": "ruan",
+	"EARTHEPSTDEE":"earth",
+	"earth_ep_stdee":"earth",
 	"amethyst_demo":"amethyst",
 	"AMETHYSTDEMO":"amethyst",
 	"amethyst":"amethyst",
