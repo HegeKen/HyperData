@@ -32,7 +32,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["dada", "haotian", "uke", "muyu", 
+currentStable = ["miro", "zorn", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "pond", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -46,7 +46,8 @@ currentStable = ["dada", "haotian", "uke", "muyu",
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["uke", "muyu",	"dada", "haotian", "zorn", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
+only_os = ["miro", "zorn", 
+					 "uke", "muyu",	"dada", "haotian", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "xuanyuan", "dijun", "flame", "pond", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
@@ -345,6 +346,10 @@ flags = {
 	"lake_dc_global":"lake",
 	"LAKEDCGlobal":"lake",
 	"uke":"uke",
+	"zorn": "zorn",
+	"ZORN": "zorn",
+	"miro": "miro",
+	"MIRO": "miro",
 	"muyu":"muyu",
 	"SPESLMMSGlobal":"spes",
 	"fleur_lm_ms_global":"fleur",
