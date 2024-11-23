@@ -11,7 +11,7 @@ for device in OScommon.currentStable:
 		for os in oss:
 			for andv in andvs:
 				devcode = device+branch['code']
-				version = os+".7.0."+OScommon.android(andv)+code+branch['tag']
+				version = os+".1.0."+OScommon.android(andv)+code+branch['tag']
 				if version in devdata:
 					i = 0
 				else:
