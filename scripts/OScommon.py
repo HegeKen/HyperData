@@ -1178,6 +1178,7 @@ flags = {
 	"xun_tw_global": "xun",
 	"lake_tr_global":"lake",
 	"LAKETRGlobal":"lake",
+	"dada_ep_stdee":"dada",
 	"sweet_k6a_tr_global":"sweet_k6a",
 	"SWEETK6ATRGlobal":"sweet_k6a",
 	"cupid_global":"cupid",
