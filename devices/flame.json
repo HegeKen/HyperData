@@ -92,6 +92,37 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "flame_ep_stdee",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14R 5G",
+        "en" :"Redmi 14R 5G"
+      },
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.9.25.EP.STDEE.C3FX": {
+					"os": "OS1.0.24.9.25.EP.STDEE.C3FX",
+					"android": "14.0",
+					"release": "2024-11-25",
+					"recovery": "miui_FLAMEEPSTDEE_OS1.0.24.9.25.EP.STDEE.C3FX_4bf6e1835a_14.0.zip",
+					"fastboot": "flame_ep_stdee_images_OS1.0.24.9.25.EP.STDEE.C3FX_20240925.0000.00_14.0_cn_61a7c3a387.tgz",
+					"ctelecom": "flame_ep_stdee_images_OS1.0.24.9.25.EP.STDEE.C3FX_20240925.0000.00_14.0_cn_chinatelecom_4606924b57.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},
