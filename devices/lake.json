@@ -270,6 +270,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "lake_tr_global",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi 14C",
+        "en" :"Redmi 14C"
+      },
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UGTTRXM": {
+					"os": "OS1.0.1.0.UGTTRXM",
+					"android": "14.0",
+					"release": "2024-11-25",
+					"recovery": "miui_LAKETRGlobal_OS1.0.1.0.UGTTRXM_c41a1ce5b4_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
 				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
 			},
