@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2024-11-25 10:23:49",
+    "time": "2024-11-25 10:38:17",
     "developing": "no",
     "roms": [
+      {
+        "code": "plato",
+        "name": {
+          "zh": "小米 12T",
+          "en": "Xiaomi 12T"
+        },
+        "rom": "OS1.0.4.0.ULQLMCR"
+      },
       {
         "code": "ishtar",
         "name": {
@@ -10,6 +18,14 @@
           "en": "Xiaomi 13 Ultra"
         },
         "rom": "OS1.0.20.0.UMACNXM"
+      },
+      {
+        "code": "pipa",
+        "name": {
+          "zh": "小米平板 6",
+          "en": "Xiaomi Pad 6"
+        },
+        "rom": "OS1.0.14.0.UMZMIXM"
       },
       {
         "code": "fire",
@@ -28,6 +44,22 @@
         "rom": "OS1.0.1.0.UGTTRXM"
       },
       {
+        "code": "ruby",
+        "name": {
+          "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
+          "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
+        },
+        "rom": "OS1.0.8.0.UMOINXM"
+      },
+      {
+        "code": "marble",
+        "name": {
+          "zh": "Redmi Note 12 Turbo / POCO F5",
+          "en": "Redmi Note 12 Turbo / POCO F5"
+        },
+        "rom": "OS1.0.15.0.UMREUXM"
+      },
+      {
         "code": "corot",
         "name": {
           "zh": "Redmi K60 至尊版 / 小米 13T Pro",
@@ -36,12 +68,28 @@
         "rom": "OS1.0.14.0.UMLEUXM"
       },
       {
+        "code": "vermeer",
+        "name": {
+          "zh": "Redmi K70 / POCO F6 Pro",
+          "en": "Redmi K70 / POCO F6 Pro"
+        },
+        "rom": "OS1.0.11.0.UNKMIXM; OS1.0.9.0.UNKEUXM"
+      },
+      {
         "code": "rothko",
         "name": {
           "zh": "Redmi K70 至尊版 / 小米 14T Pro",
           "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
         },
-        "rom": "OS1.0.3.0.UNNLMCR"
+        "rom": "OS2.0.13.0.VNNCNXM; OS1.0.3.0.UNNLMCR"
+      },
+      {
+        "code": "moonstone",
+        "name": {
+          "zh": "POCO X5 5G",
+          "en": "POCO X5 5G"
+        },
+        "rom": "OS1.0.8.0.UMPRUXM"
       }
     ]
   }
