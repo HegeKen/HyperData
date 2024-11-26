@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2024-11-25 21:26:16",
+    "time": "2024-11-26 12:23:11",
     "developing": "no",
     "roms": [
       {
@@ -10,6 +10,22 @@
           "en": "Xiaomi 12T"
         },
         "rom": "OS1.0.4.0.ULQLMCR"
+      },
+      {
+        "code": "fuxi",
+        "name": {
+          "zh": "小米 13",
+          "en": "Xiaomi 13"
+        },
+        "rom": "OS1.0.19.0.UMCCNXM"
+      },
+      {
+        "code": "nuwa",
+        "name": {
+          "zh": "小米 13 Pro",
+          "en": "Xiaomi 13 Pro"
+        },
+        "rom": "OS1.0.16.0.UMBCNXM"
       },
       {
         "code": "ishtar",
@@ -60,12 +76,20 @@
         "rom": "OS1.0.1.0.UGTTRXM"
       },
       {
+        "code": "veux",
+        "name": {
+          "zh": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G",
+          "en": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G"
+        },
+        "rom": "OS1.0.5.0.TKCMXAT"
+      },
+      {
         "code": "ruby",
         "name": {
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
           "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
         },
-        "rom": "OS1.0.8.0.UMOINXM"
+        "rom": "OS1.0.7.0.UMOTWXM; OS1.0.8.0.UMOINXM; OS1.0.7.0.UMOTRXM"
       },
       {
         "code": "marble",
@@ -76,12 +100,28 @@
         "rom": "OS1.0.15.0.UMREUXM"
       },
       {
+        "code": "sweet_k6a",
+        "name": {
+          "zh": "Redmi Note 12 Pro 4G",
+          "en": "Redmi Note 12 Pro 4G"
+        },
+        "rom": "OS1.0.12.0.THGMIXM; OS1.0.13.0.THGRUXM; OS1.0.12.0.THGTRXM"
+      },
+      {
+        "code": "emerald",
+        "name": {
+          "zh": "Redmi Note 13 Pro 4G / POCO M6 Pro",
+          "en": "Redmi Note 13 Pro 4G / POCO M6 Pro"
+        },
+        "rom": "OS1.0.9.0.UNFMIXM"
+      },
+      {
         "code": "sapphire",
         "name": {
           "zh": "Redmi Note 13 4G",
           "en": "Redmi Note 13 4G"
         },
-        "rom": "OS1.0.4.0.UNGLMCR"
+        "rom": "OS1.0.5.0.UNGMXAT; OS1.0.4.0.UNGLMCR"
       },
       {
         "code": "corot",
