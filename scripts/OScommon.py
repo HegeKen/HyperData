@@ -1424,6 +1424,7 @@ flags = {
 	"SHENG": "sheng",
 	"sheng_demo": "sheng",
 	"SHENGDEMO": "sheng",
+	"miro_demo":"miro",
 	"garnet": "garnet",
 	"GARNET": "garnet",
 	"earth_id_global": "earth",

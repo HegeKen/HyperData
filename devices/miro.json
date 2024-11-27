@@ -10,5 +10,37 @@
 	"type": "phone",
   "miui": "no",
 	"merged":"no",
-	"branches": []
+	"branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "miro_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh" :"REDMI K80 Pro",
+				"en" :"REDMI K80 Pro"
+			},
+			"idtag": "CnOD",
+			"tag":"CNDM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.4.0.VOMCNDM": {
+					"os": "OS2.0.4.0.VOMCNDM",
+					"android": "15.0",
+					"release": "2024-11-27",
+					"recovery": "",
+					"fastboot": "miro_demo_images_OS2.0.4.0.VOMCNDM_20241121.0000.00_15.0_cn_71814e19b9.tgz",
+					"ctelecom": "miro_demo_images_OS2.0.4.0.VOMCNDM_20241121.0000.00_15.0_cn_chinatelecom_02e77eb3ff.tgz"
+				}
+			}
+		}
+  ]
 }

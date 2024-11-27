@@ -1,6 +1,7 @@
 import OScommon
 from datetime import datetime
 
+base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
 for device in OScommon.currentStable:
 	devdata = OScommon.localData(device)
 	device = devdata['device']
@@ -15,6 +16,10 @@ for device in OScommon.currentStable:
 				if version in devdata:
 					i = 0
 				else:
-					print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="               ", flush=True)
+					print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="                                            ", flush=True)
 					OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))
-					
+					# https://update.intl.miui.com/updates/miota-fullrom.php?d=rodinep_cjcc&b=F&r=cn&n=
+					for carrier in branch['carrier']:
+						url = base_url+devcode+"&b=F&r="+branch['region']+"&n="+carrier
+						print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),url,end="                   ", flush=True)
+						OScommon.getFastboot(url)
