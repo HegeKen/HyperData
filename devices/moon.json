@@ -485,6 +485,36 @@
 					"fastboot": "moon_mx_at_global_images_OS1.0.3.0.UNTMXAT_20240802.0000.00_14.0_mx_at_24578af6fd.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "moon_lm_cr_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13 / POCO M6 4G",
+        "en" :"Redmi 13 / POCO M6 4G"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.UNTLMCR": {
+					"os": "OS1.0.6.0.UNTLMCR",
+					"android": "14.0",
+					"release": "2024-11-27",
+					"recovery": "miui_MOONLMCRGlobal_OS1.0.6.0.UNTLMCR_0bee329029_14.0.zip",
+					"fastboot": "moon_lm_cr_global_images_OS1.0.6.0.UNTLMCR_20241104.0000.00_14.0_lm_cr_527ab5f908.tgz"
+				}
+			}
 		}
 	]
 }
