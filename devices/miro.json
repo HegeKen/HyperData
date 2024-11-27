@@ -11,6 +11,37 @@
   "miui": "no",
 	"merged":"no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "miro",
+			"brand": "REDMI",
+			"device": {
+				"zh" :"REDMI K80 Pro",
+				"en" :"REDMI K80 Pro"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.6.0.VOMCNXM": {
+					"os": "OS2.0.6.0.VOMCNXM",
+					"android": "15.0",
+					"release": "2024-11-27",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": "miro_images_OS2.0.6.0.VOMCNXM_20241113.0000.00_15.0_cn_chinatelecom_19404f7e96.tgz"
+				}
+			}
+		},
     {
 			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
@@ -36,9 +67,17 @@
 					"os": "OS2.0.4.0.VOMCNDM",
 					"android": "15.0",
 					"release": "2024-11-27",
-					"recovery": "",
+					"recovery": "miro_demo-ota_full-OS2.0.4.0.VOMCNDM-user-15.0-9614b515a5.zip",
 					"fastboot": "miro_demo_images_OS2.0.4.0.VOMCNDM_20241121.0000.00_15.0_cn_71814e19b9.tgz",
 					"ctelecom": "miro_demo_images_OS2.0.4.0.VOMCNDM_20241121.0000.00_15.0_cn_chinatelecom_02e77eb3ff.tgz"
+				},
+				"OS2.0.2.0.VOMCNDM": {
+					"os": "OS2.0.2.0.VOMCNDM",
+					"android": "15.0",
+					"release": "2024-11-27",
+					"recovery": "miro_demo-ota_full-OS2.0.2.0.VOMCNDM-user-15.0-b0146b78c8.zip",
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		}

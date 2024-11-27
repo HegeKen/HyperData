@@ -32,13 +32,37 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.8.0.VOKCNXM": {
+					"os": "OS2.0.8.0.VOKCNXM",
+					"android": "15.0",
+					"release": "2024-11-27",
+					"recovery": "zorn-ota_full-OS2.0.8.0.VOKCNXM-user-15.0-a64ceb13b1.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.6.0.VOKCNXM": {
 					"os": "OS2.0.6.0.VOKCNXM",
 					"android": "15.0",
 					"release": "2024-11-27",
-					"recovery": "",
+					"recovery": "zorn-ota_full-OS2.0.6.0.VOKCNXM-user-15.0-f7cc89e7a7.zip",
 					"fastboot": "zorn_images_OS2.0.6.0.VOKCNXM_20241116.0000.00_15.0_cn_028ed1b885.tgz",
 					"ctelecom": "zorn_images_OS2.0.6.0.VOKCNXM_20241116.0000.00_15.0_cn_chinatelecom_29f501a837.tgz"
+				},
+				"OS2.0.4.0.VOKCNXM": {
+					"os": "OS2.0.4.0.VOKCNXM",
+					"android": "15.0",
+					"release": "2024-11-27",
+					"recovery": "zorn-ota_full-OS2.0.4.0.VOKCNXM-user-15.0-a64534cb8d.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.2.0.VOKCNXM": {
+					"os": "OS2.0.2.0.VOKCNXM",
+					"android": "15.0",
+					"release": "2024-11-27",
+					"recovery": "zorn-ota_full-OS2.0.2.0.VOKCNXM-user-15.0-14df6da9ad.zip",
+					"fastboot": "",
+					"ctelecom": ""
 				}
 			}
 		},
@@ -67,7 +91,7 @@
 					"os": "OS2.0.2.0.VOKCNDM",
 					"android": "15.0",
 					"release": "2024-11-27",
-					"recovery": "",
+					"recovery": "zorn_demo-ota_full-OS2.0.2.0.VOKCNDM-user-15.0-40354e3136.zip",
 					"fastboot": "zorn_demo_images_OS2.0.2.0.VOKCNDM_20241126.0000.00_15.0_cn_bef5d7b1d3.tgz",
 					"ctelecom": "zorn_demo_images_OS2.0.2.0.VOKCNDM_20241126.0000.00_15.0_cn_chinatelecom_3e6147b5ae.tgz"
 				}
