@@ -64,7 +64,8 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'a
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'peridot', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
-				 'vermeer', 'manet', 'rothko', 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
+				 'vermeer', 'manet', 'rothko', "miro", "zorn",
+				 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
 branches = [
   {
