@@ -348,6 +348,7 @@ flags = {
 	"tapas_lm_ms_global":"tapas",
 	"lake_dc_global":"lake",
 	"LAKEDCGlobal":"lake",
+	"zorn_demo":"zorn",
 	"uke":"uke",
 	"zorn": "zorn",
 	"ZORN": "zorn",

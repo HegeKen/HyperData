@@ -10,5 +10,37 @@
 	"type": "phone",
   "miui": "no",
 	"merged":"no",
-	"branches": []
+	"branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "zorn_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh" :"REDMI K80",
+				"en" :"REDMI K80"
+			},
+			"idtag": "CnOD",
+			"tag":"CNDM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOKCNDM": {
+					"os": "OS2.0.2.0.VOKCNDM",
+					"android": "15.0",
+					"release": "2024-11-27",
+					"recovery": "",
+					"fastboot": "zorn_demo_images_OS2.0.2.0.VOKCNDM_20241126.0000.00_15.0_cn_bef5d7b1d3.tgz",
+					"ctelecom": "zorn_demo_images_OS2.0.2.0.VOKCNDM_20241126.0000.00_15.0_cn_chinatelecom_3e6147b5ae.tgz"
+				}
+			}
+		}
+  ]
 }
