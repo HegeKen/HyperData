@@ -11,6 +11,37 @@
   "miui": "no",
 	"merged":"no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "zorn",
+			"brand": "REDMI",
+			"device": {
+				"zh" :"REDMI K80",
+				"en" :"REDMI K80"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.6.0.VOKCNXM": {
+					"os": "OS2.0.6.0.VOKCNXM",
+					"android": "15.0",
+					"release": "2024-11-27",
+					"recovery": "",
+					"fastboot": "zorn_images_OS2.0.6.0.VOKCNXM_20241116.0000.00_15.0_cn_028ed1b885.tgz",
+					"ctelecom": "zorn_images_OS2.0.6.0.VOKCNXM_20241116.0000.00_15.0_cn_chinatelecom_29f501a837.tgz"
+				}
+			}
+		},
     {
 			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
