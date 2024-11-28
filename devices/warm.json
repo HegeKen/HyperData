@@ -1,0 +1,45 @@
+{
+	"device": "warm",
+	"name": {
+		"zh": "Redmi A4 5G / POCO C75 5G",
+		"en": "Redmi A4 5G / POCO C75 5G"
+	},
+	"code": "GV",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
+	"type": "phone",
+	"miui": "yes",
+	"merged":"no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "warm_in_global",
+			"brand": "Redmi, POCO",
+			"device": {
+				"zh": "Redmi A4 5G / POCO C75 5G",
+				"en": "Redmi A4 5G / POCO C75 5G"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UGVINXM": {
+					"os": "OS1.0.4.0.UGVINXM",
+					"android": "14.0",
+					"release": "2024-11-28",
+					"recovery": "miui_WARMINGlobal_OS1.0.4.0.UGVINXM_7751a0c4a1_14.0.zip",
+					"fastboot": "warm_in_global_images_OS1.0.4.0.UGVINXM_20241106.0000.00_14.0_in_f58168c2bb.tgz"
+				}
+			}
+		}
+	]
+}

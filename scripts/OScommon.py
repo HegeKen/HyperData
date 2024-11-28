@@ -32,7 +32,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["rodin", "miro", "zorn", "dada", "haotian", "uke", "muyu", 
+currentStable = ["warm", "rodin", "miro", "zorn", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "pond", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -46,7 +46,7 @@ currentStable = ["rodin", "miro", "zorn", "dada", "haotian", "uke", "muyu",
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["rodin", "miro", "zorn", 
+only_os = ["warm", "rodin", "miro", "zorn", 
 					 "uke", "muyu",	"dada", "haotian", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "xuanyuan", "dijun", "flame", "pond", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
@@ -65,7 +65,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'a
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'peridot', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', "miro", "zorn",
-				 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
+				 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'warm', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
 branches = [
   {
@@ -307,6 +307,8 @@ flags = {
 	"RUANEPSTDEE": "ruan",
 	"EARTHEPSTDEE":"earth",
 	"earth_ep_stdee":"earth",
+	"warm_in_global":"warm",
+	"WARMINGlobal":"warm",
 	"amethyst_demo":"amethyst",
 	"AMETHYSTDEMO":"amethyst",
 	"amethyst":"amethyst",
