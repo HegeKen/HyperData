@@ -33,7 +33,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 currentStable = ["warm", "rodin", "miro", "zorn", "dada", "haotian", "uke", "muyu", 
-								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "pond", "lake", "flare", "spark", 
+								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
 								 "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
@@ -48,7 +48,7 @@ currentStable = ["warm", "rodin", "miro", "zorn", "dada", "haotian", "uke", "muy
 
 only_os = ["warm", "rodin", "miro", "zorn", 
 					 "uke", "muyu",	"dada", "haotian", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
-					 "xuanyuan", "dijun", "flame", "pond", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
+					 "xuanyuan", "dijun", "flame", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
 cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', 'dagu', 'daumier', 'garnet', 'gold', 'houji', 'lightcm', 'liuqin', 'manet', 'matisse', 'mayfly', 'psyche', 'rubens', 'shennong', 'socrates', 'thor', 'unicorn', 'vermeer', 'xun', 'yudi', 'yuechu', 'zircon', 'zizhan']
@@ -60,7 +60,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'a
 				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', "dada", "haotian",'nabu', 'enuma', 'elish', 'dagu', 'pipa',
 				 'liuqin', 'yudi','sheng', "uke", "muyu", 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona',
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 
-				 'fire', 'earth', 'sky', 'gale', 'lake', 'pond', 'flame', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
+				 'fire', 'earth', 'sky', 'gale', 'lake', 'flame', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'peridot', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
