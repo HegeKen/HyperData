@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2024-12-02 16:46:03",
+    "time": "2024-12-02 20:31:28",
     "developing": "no",
     "roms": [
+      {
+        "code": "venus",
+        "name": {
+          "zh": "小米 11",
+          "en": "Mi 11"
+        },
+        "rom": "OS1.0.7.0.UKBTWXM; OS1.0.10.0.UKBMIXM; OS1.0.10.0.UKBEUXM; OS1.0.4.0.UKBEUHG; OS1.0.7.0.UKBRUXM; OS1.0.7.0.UKBIDXM; OS1.0.7.0.UKBTRXM"
+      },
       {
         "code": "lisa",
         "name": {
@@ -33,7 +41,7 @@
           "zh": "小米 13 Pro",
           "en": "Xiaomi 13 Pro"
         },
-        "rom": "OS1.0.10.0.UMBTWXM; OS1.0.12.0.UMBMIXM; OS1.0.11.0.UMBEUXM; OS1.0.11.0.UMBINXM"
+        "rom": "OS1.0.10.0.UMBTWXM; OS1.0.12.0.UMBMIXM; OS1.0.11.0.UMBEUXM; OS1.0.10.0.UMBRUXM; OS1.0.11.0.UMBINXM"
       },
       {
         "code": "ishtar",
@@ -49,7 +57,7 @@
           "zh": "小米 14 Ultra / Ultra Ti",
           "en": "Xiaomi 14 Ultra"
         },
-        "rom": "OS1.0.15.0.UNAEUXM"
+        "rom": "OS1.0.10.0.UNATWXM; OS1.0.15.0.UNAEUXM; OS1.0.10.0.UNARUXM"
       },
       {
         "code": "pipa",
@@ -66,6 +74,14 @@
           "en": "Xiaomi Civi 2"
         },
         "rom": "OS1.0.11.0.ULLMIXM; OS1.0.11.0.ULLRUXM; OS1.0.10.0.ULLTRXM"
+      },
+      {
+        "code": "lake",
+        "name": {
+          "zh": "Redmi 14C",
+          "en": "Redmi 14C"
+        },
+        "rom": "OS1.0.10.0.UGTMIXM"
       },
       {
         "code": "veux",
@@ -90,6 +106,14 @@
           "en": "Redmi Note 12S"
         },
         "rom": "OS1.0.12.0.UHZMIXM"
+      },
+      {
+        "code": "garnet",
+        "name": {
+          "zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
+          "en": "Redmi Note 13 Pro 5G / POCO X6 5G"
+        },
+        "rom": "OS1.0.15.0.UNRINXM"
       }
     ]
   }
