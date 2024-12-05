@@ -284,13 +284,20 @@
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
-			"roms": {	
+			"roms": {
+				"OS1.0.8.0.UNFIDXM": {
+					"os": "OS1.0.8.0.UNFIDXM",
+					"android": "14.0",
+					"release": "2024-12-05",
+					"recovery": "miui_EMERALDIDGlobal_OS1.0.8.0.UNFIDXM_fc405b153f_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UNFIDXM": {
 					"os": "OS1.0.7.0.UNFIDXM",
 					"android": "14.0",
 					"release": "2024-11-12",
 					"recovery": "miui_EMERALDIDGlobal_OS1.0.7.0.UNFIDXM_0b08f9ed11_14.0.zip",
-					"fastboot": ""
+					"fastboot": "emerald_id_global_images_OS1.0.7.0.UNFIDXM_20241017.0000.00_14.0_id_0fa2ce8584.tgz"
 				},
 				"OS1.0.6.0.UNFIDXM": {
 					"os": "OS1.0.6.0.UNFIDXM",
