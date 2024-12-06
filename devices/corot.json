@@ -13,6 +13,36 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "corot",
+			"brand": "Redmi",
+      "device": {
+        "zh" :"Redmi K60 至尊版",
+        "en" :"Redmi K60 Ultra"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.0.32.VMLCNXM": {
+					"os": "OS2.0.0.32.VMLCNXM",
+					"android": "15.0",
+					"release": "2024-12-06",
+					"recovery": "corot-ota_full-OS2.0.0.32.VMLCNXM-user-15.0-b8037f8579.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
