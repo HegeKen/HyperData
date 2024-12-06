@@ -13,6 +13,36 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "fuxi",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 13",
+        "en" :"Xiaomi 13"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.0.19.VMCCNXM": {
+					"os": "OS2.0.0.19.VMCCNXM",
+					"android": "15.0",
+					"release": "2024-12-06",
+					"recovery": "fuxi-ota_full-OS2.0.0.19.VMCCNXM-user-15.0-869da23de3.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 开发版",
 				"en": "Xiaomi HyperOS DEV"
 			},

@@ -13,6 +13,36 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "ishtar",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 13 Ultra",
+        "en" :"Xiaomi 13 Ultra"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.0.18.VMACNXM": {
+					"os": "OS2.0.0.18.VMACNXM",
+					"android": "15.0",
+					"release": "2024-12-06",
+					"recovery": "ishtar-ota_full-OS2.0.0.18.VMACNXM-user-15.0-a577917369.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 开发版",
 				"en": "Xiaomi HyperOS DEV"
 			},
