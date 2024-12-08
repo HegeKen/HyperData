@@ -2164,6 +2164,13 @@ def entryChecker(data,device):
 			else:
 				i = 0
 			for os_version, rom_info in roms.items():
+				if rom_info['recovery'].endswith(".zip"):
+					i = 0
+				elif rom_info['recovery'] == "":
+					i = 0
+				else:
+					print(f"错误:机型 {device} {bname} {os_version} 卡刷包后缀错误")
+					check.append(1)
 				if os_version != rom_info['os']:
 					if branch['ep'] != '1':
 						if code+tag in os_version:
