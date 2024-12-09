@@ -135,6 +135,36 @@
 					"ctelecom": "malachite_demo_images_OS1.0.2.0.UOOCNDM_20240922.0000.00_14.0_cn_chinatelecom_6c78097c52.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "malachite_in_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOOINXM": {
+					"os": "OS1.0.2.0.UOOINXM",
+					"android": "14.0",
+					"release": "2024-12-10",
+					"recovery": "miui_MALACHITEINGlobal_OS1.0.2.0.UOOINXM_3f541e2f7e_14.0.zip",
+					"fastboot": "malachite_in_global_images_OS1.0.2.0.UOOINXM_20241122.0000.00_14.0_in_f066d4e629.tgz"
+				}
+			}
 		}
   ]
 }

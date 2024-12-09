@@ -1,8 +1,8 @@
 {
   "device": "beryl",
   "name": {
-    "zh": "Redmi Note 14 5G",
-    "en": "Redmi Note 14 5G"
+    "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
+    "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
   },
 	"code": "OQ",
 	"suppports": ["OS1.0"],
@@ -86,6 +86,36 @@
 					"recovery": "miui_BERYLEPSTDEE_OS1.0.24.10.18.EP.STDEE.O17_e5e8330975_14.0.zip",
 					"fastboot": "beryl_ep_stdee_images_OS1.0.24.10.18.EP.STDEE.O17_20241018.0000.00_14.0_cn_85b0a1e36d.tgz",
 					"ctelecom": "beryl_ep_stdee_images_OS1.0.24.10.18.EP.STDEE.O17_20241018.0000.00_14.0_cn_chinatelecom_028585df7b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "beryl_in_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO M7 Pro 5G",
+				"en" :"POCO M7 Pro 5G"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UOQINXM": {
+					"os": "OS1.0.4.0.UOQINXM",
+					"android": "14.0",
+					"release": "2024-12-10",
+					"recovery": "miui_BERYLINGlobal_OS1.0.4.0.UOQINXM_b51bc03ea2_14.0.zip",
+					"fastboot": "beryl_in_global_images_OS1.0.4.0.UOQINXM_20241118.0000.00_14.0_in_18028eb769.tgz"
 				}
 			}
 		}
