@@ -2164,6 +2164,18 @@ def entryChecker(data,device):
 			else:
 				i = 0
 			for os_version, rom_info in roms.items():
+				if rom_info['android'] not in data['android']:
+					print(f"错误:机型 {device} 安卓版本 {rom_info['android']} 未记录在案")
+					check.append(1)
+				else:
+					i = 0
+				if '开发者' in bname:
+					i = 0
+				elif os_version[:5] not in data['suppports']:
+					print(f"错误:机型 {device} OS大版本 {os_version} 未记录在案")
+					check.append(1)
+				else:
+					i = 0
 				if rom_info['recovery'].endswith(".zip"):
 					i = 0
 				elif rom_info['recovery'] == "":
