@@ -5,8 +5,8 @@
 		"en": "Redmi Note 13 4G"
 	},
 	"code": "NG",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -32,6 +32,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.VNGMIXM": {
+					"os": "OS2.0.4.0.VNGMIXM",
+					"android": "15.0",
+					"release": "2024-12-11",
+					"recovery": "sapphire_global-ota_full-OS2.0.4.0.VNGMIXM-user-15.0-961fa604bb.zip",
+					"fastboot": ""
+				},
 				"OS1.0.10.0.UNGMIXM": {
 					"os": "OS1.0.10.0.UNGMIXM",
 					"android": "14.0",
