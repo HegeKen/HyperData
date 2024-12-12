@@ -406,6 +406,37 @@
 					"ctelecom": "babylon_demo_images_OS1.0.1.0.UMVCNDM_20231212.0000.00_14.0_cn_chinatelecom_92eb4befa8.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "babylon_ep_stdee",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 MIX Fold 3",
+        "en" :"Xiaomi MIX Fold 3"
+      },
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.24.4.16.EP.STDEE.M18": {
+					"os": "OS1.0.24.4.16.EP.STDEE.M18",
+					"android": "14.0",
+					"release": "2024-12-12",
+					"recovery": "miui_BABYLONEPSTDEE_OS1.0.24.4.16.EP.STDEE.M18_0f50428826_14.0.zip",
+					"fastboot": "babylon_ep_stdee_images_OS1.0.24.4.16.EP.STDEE.M18_20240416.0000.00_14.0_cn_8baf91eb5d.tgz",
+					"ctelecom": "babylon_ep_stdee_images_OS1.0.24.4.16.EP.STDEE.M18_20240416.0000.00_14.0_cn_chinatelecom_7bf49212d4.tgz"
+				}
+			}
 		}
 	]
 }
