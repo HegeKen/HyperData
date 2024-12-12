@@ -5,8 +5,8 @@
 		"en": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G"
 	},
 	"code": "MW",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -329,6 +329,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.VMWINXM": {
+					"os": "OS2.0.3.0.VMWINXM",
+					"android": "15.0",
+					"release": "2024-12-12",
+					"recovery": "sky_in_global-ota_full-OS2.0.3.0.VMWINXM-user-15.0-20f9b232cf.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UMWINXM": {
 					"os": "OS1.0.7.0.UMWINXM",
 					"android": "14.0",
