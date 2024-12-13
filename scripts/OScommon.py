@@ -2180,9 +2180,9 @@ def entryChecker(data,device):
 					check.append(1)
 				else:
 					i = 0
-				if rom_info['recovery'].endswith(".zip"):
+				if rom_info['recovery'] == "":
 					i = 0
-				elif rom_info['recovery'] == "":
+				elif rom_info['recovery'].endswith(".zip"):
 					i = 0
 				else:
 					print(f"错误:机型 {device} {bname} {os_version} 卡刷包后缀错误")
