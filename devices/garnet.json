@@ -405,7 +405,7 @@
 					"android": "14.0",
 					"release": "2024-11-27",
 					"recovery": "miui_GARNETEEAGlobal_OS1.0.22.0.UNREUXM_5a07878481_14.0.zip",
-					"fastboot": ""
+					"fastboot": "garnet_eea_global_images_OS1.0.22.0.UNREUXM_20241114.0000.00_14.0_eea_4234ea7b4b.tgz"
 				},
 				"OS1.0.21.0.UNREUXM": {
 					"os": "OS1.0.21.0.UNREUXM",
@@ -563,7 +563,7 @@
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_GARNETINGlobal_OS1.0.15.0.UNRINXM_8722a54740_14.0.zip",
-					"fastboot": ""
+					"fastboot": "garnet_in_global_images_OS1.0.15.0.UNRINXM_20241114.0000.00_14.0_in_85da71d9a0.tgz"
 				},
 				"OS1.0.14.0.UNRINXM": {
 					"os": "OS1.0.14.0.UNRINXM",
@@ -773,6 +773,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.5.0.UNRLMCR": {
+					"os": "OS1.0.5.0.UNRLMCR",
+					"android": "14.0",
+					"release": "2024-12-13",
+					"recovery": "miui_GARNETLMCRGlobal_OS1.0.5.0.UNRLMCR_bb7c3ede84_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.4.0.UNRLMCR": {
 					"os": "OS1.0.4.0.UNRLMCR",
 					"android": "14.0",

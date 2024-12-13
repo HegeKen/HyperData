@@ -5,8 +5,8 @@
 		"en": "Redmi 13 / POCO M6 4G"
 	},
 	"code": "NT",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -90,6 +90,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VNTMIXM": {
+					"os": "OS2.0.2.0.VNTMIXM",
+					"android": "15.0",
+					"release": "2024-12-13",
+					"recovery": "moon_global-ota_full-OS2.0.2.0.VNTMIXM-user-15.0-f7ece4195a.zip",
+					"fastboot": ""
+				},
 				"OS1.0.8.0.UNTMIXM": {
 					"os": "OS1.0.8.0.UNTMIXM",
 					"android": "14.0",
