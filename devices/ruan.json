@@ -5,8 +5,8 @@
 		"en": "Redmi Pad Pro 5G / POCO Pad 5G"
 	},
 	"code": "FS",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "tablet",
 	"miui": "no",
 	"merged":"no",
@@ -223,6 +223,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VFSEUXM": {
+					"os": "OS2.0.2.0.VFSEUXM",
+					"android": "15.0",
+					"release": "2024-12-17",
+					"recovery": "ruan_eea_global-ota_full-OS2.0.2.0.VFSEUXM-user-15.0-367d14e9f3.zip",
+					"fastboot": ""
+				},
 				"OS1.0.9.0.UFSEUXM": {
 					"os": "OS1.0.9.0.UFSEUXM",
 					"android": "14.0",
