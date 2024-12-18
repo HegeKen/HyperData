@@ -5,8 +5,8 @@
 		"en": "Redmi Pad Pro / Special Edition featuring Harry Potter / POCO Pad"
 	},
 	"code": "NS",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "tablet",
 	"miui": "no",
 	"merged":"no",
@@ -322,6 +322,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VNSEUXM": {
+					"os": "OS2.0.2.0.VNSEUXM",
+					"android": "15.0",
+					"release": "2024-12-18",
+					"recovery": "dizi_eea_global-ota_full-OS2.0.2.0.VNSEUXM-user-15.0-5d2f324f6d.zip",
+					"fastboot": ""
+				},
 				"OS1.0.9.0.UNSEUXM": {
 					"os": "OS1.0.9.0.UNSEUXM",
 					"android": "14.0",
