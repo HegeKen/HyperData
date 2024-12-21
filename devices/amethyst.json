@@ -144,6 +144,43 @@
 					"ctelecom": "amethyst_demo_images_OS1.0.2.0.UOPCNDM_20240920.0000.00_14.0_cn_chinatelecom_d07aa6485e.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "amethyst_in_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UOPINXM": {
+					"os": "OS1.0.4.0.UOPINXM",
+					"android": "14.0",
+					"release": "2024-12-21",
+					"recovery": "miui_AMETHYSTINGlobal_OS1.0.4.0.UOPINXM_7fd60fc77f_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.2.0.UOPINXM": {
+					"os": "OS1.0.2.0.UOPINXM",
+					"android": "14.0",
+					"release": "2024-12-21",
+					"recovery": "",
+					"fastboot": "amethyst_in_global_images_OS1.0.2.0.UOPINXM_20241105.0000.00_14.0_in_96b8670515.tgz"
+				}
+			}
 		}
   ]
 }

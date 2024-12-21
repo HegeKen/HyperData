@@ -310,6 +310,8 @@ flags = {
 	"earth_ep_stdee":"earth",
 	"warm_in_global":"warm",
 	"WARMINGlobal":"warm",
+	"amethyst_in_global":"amethyst",
+	"AMETHYSTINGlobal":"amethyst",
 	"amethyst_demo":"amethyst",
 	"AMETHYSTDEMO":"amethyst",
 	"amethyst":"amethyst",
