@@ -5,8 +5,8 @@
 		"en": "Redmi Turbo 3 / POCO F6"
 	},
 	"code": "NP",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -32,6 +32,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.VNPCNXM": {
+					"os": "OS2.0.4.0.VNPCNXM",
+					"android": "15.0",
+					"release": "2024-12-22",
+					"recovery": "peridot-ota_full-OS2.0.4.0.VNPCNXM-user-15.0-c1a55bee17.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.18.0.UNPCNXM": {
 					"os": "OS1.0.18.0.UNPCNXM",
 					"android": "14.0",
