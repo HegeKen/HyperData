@@ -5,8 +5,8 @@
 		"en": "Xiaomi Civi 4 Pro / Xiaomi 14 Civi"
 	},
 	"code": "NJ",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -32,6 +32,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.5.0.VNJCNXM": {
+					"os": "OS2.0.5.0.VNJCNXM",
+					"android": "15.0",
+					"release": "2024-12-22",
+					"recovery": "chenfeng-ota_full-OS2.0.5.0.VNJCNXM-user-15.0-759bd71420.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.19.0.UNJCNXM": {
 					"os": "OS1.0.19.0.UNJCNXM",
 					"android": "14.0",
