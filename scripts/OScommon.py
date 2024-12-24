@@ -312,6 +312,8 @@ flags = {
 	"WARMINGlobal":"warm",
 	"amethyst_in_global":"amethyst",
 	"AMETHYSTINGlobal":"amethyst",
+	"AMETHYSTEEAGlobal":"amethyst",
+	"amethyst_eea_global": "amethyst",
 	"amethyst_demo":"amethyst",
 	"AMETHYSTDEMO":"amethyst",
 	"amethyst":"amethyst",
