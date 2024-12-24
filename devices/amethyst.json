@@ -147,6 +147,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "amethyst_tw_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UOPTWXM": {
+					"os": "OS1.0.3.0.UOPTWXM",
+					"android": "14.0",
+					"release": "2024-12-24",
+					"recovery": "miui_AMETHYSTTWGlobal_OS1.0.3.0.UOPTWXM_7b507e5d27_14.0.zip",
+					"fastboot": "amethyst_tw_global_images_OS1.0.3.0.UOPTWXM_20241206.0000.00_14.0_tw_7a3d1571a8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -166,6 +196,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.3.0.UOPEUXM": {
+					"os": "OS1.0.3.0.UOPEUXM",
+					"android": "14.0",
+					"release": "2024-12-24",
+					"recovery": "",
+					"fastboot": "amethyst_eea_global_images_OS1.0.3.0.UOPEUXM_20241112.0000.00_14.0_eea_f7cb627eab.tgz"
+				},
 				"OS1.0.1.0.UOPEUXM": {
 					"os": "OS1.0.1.0.UOPEUXM",
 					"android": "14.0",
@@ -209,6 +246,36 @@
 					"release": "2024-12-21",
 					"recovery": "miui_AMETHYSTINGlobal_OS1.0.2.0.UOPINXM_fda0b4b09f_14.0.zip",
 					"fastboot": "amethyst_in_global_images_OS1.0.2.0.UOPINXM_20241105.0000.00_14.0_in_96b8670515.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "amethyst_id_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UOPIDXM": {
+					"os": "OS1.0.4.0.UOPIDXM",
+					"android": "14.0",
+					"release": "2024-12-24",
+					"recovery": "miui_AMETHYSTIDGlobal_OS1.0.4.0.UOPIDXM_37f6d4ab06_14.0.zip",
+					"fastboot": "amethyst_id_global_images_OS1.0.4.0.UOPIDXM_20241206.0000.00_14.0_id_60b5335f48.tgz"
 				}
 			}
 		}
