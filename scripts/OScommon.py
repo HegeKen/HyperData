@@ -318,6 +318,8 @@ flags = {
 	"amethyst_tw_global":"amethyst",
 	"AMETHYSTIDGlobal":"amethyst",
 	"amethyst_id_global":"amethyst",
+	"amethyst_ru_global":"amethyst",
+	"AMETHYSTRUGlobal":"amethyst",
 	"amethyst_demo":"amethyst",
 	"AMETHYSTDEMO":"amethyst",
 	"amethyst":"amethyst",

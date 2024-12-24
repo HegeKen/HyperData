@@ -200,7 +200,7 @@
 					"os": "OS1.0.3.0.UOPEUXM",
 					"android": "14.0",
 					"release": "2024-12-24",
-					"recovery": "",
+					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.3.0.UOPEUXM_e6a0167c95_14.0.zip",
 					"fastboot": "amethyst_eea_global_images_OS1.0.3.0.UOPEUXM_20241112.0000.00_14.0_eea_f7cb627eab.tgz"
 				},
 				"OS1.0.1.0.UOPEUXM": {
@@ -209,6 +209,36 @@
 					"release": "2024-12-24",
 					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.1.0.UOPEUXM_102f6aa8a7_14.0.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "amethyst_ru_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOPRUXM": {
+					"os": "OS1.0.2.0.UOPRUXM",
+					"android": "14.0",
+					"release": "2024-12-24",
+					"recovery": "",
+					"fastboot": "amethyst_ru_global_images_OS1.0.2.0.UOPRUXM_20241106.0000.00_14.0_ru_b1693400da.tgz"
 				}
 			}
 		},
