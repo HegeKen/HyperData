@@ -5,8 +5,8 @@
 		"en": "Redmi K60 / POCO F5 Pro"
 	},
 	"code": "MN",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -314,6 +314,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.VMNCNXM": {
+					"os": "OS2.0.3.0.VMNCNXM",
+					"android": "15.0",
+					"release": "2024-12-25",
+					"recovery": "mondrian-ota_full-OS2.0.3.0.VMNCNXM-user-15.0-5693033baf.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.16.0.UMNCNXM": {
 					"os": "OS1.0.16.0.UMNCNXM",
 					"android": "14.0",
