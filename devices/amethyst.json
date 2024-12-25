@@ -177,6 +177,66 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "amethyst_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UOPMIXM": {
+					"os": "OS1.0.5.0.UOPMIXM",
+					"android": "14.0",
+					"release": "2024-12-25",
+					"recovery": "miui_AMETHYSTGlobal_OS1.0.5.0.UOPMIXM_74ee10dc55_14.0.zip",
+					"fastboot": "amethyst_global_images_OS1.0.5.0.UOPMIXM_20241205.0000.00_14.0_global_9ee4a4b79f.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "amethyst_dc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": ["dc"],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOPMIDC": {
+					"os": "OS1.0.2.0.UOPMIDC",
+					"android": "14.0",
+					"release": "2024-12-25",
+					"recovery": "miui_AMETHYSTDCGlobal_OS1.0.2.0.UOPMIDC_84befb5c66_14.0.zip",
+					"fastboot": "amethyst_dc_global_images_OS1.0.2.0.UOPMIDC_20241106.0000.00_14.0_global_dc_fb681356fe.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},

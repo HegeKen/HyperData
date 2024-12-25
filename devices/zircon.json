@@ -297,8 +297,8 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -307,7 +307,7 @@
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_ZIRCONDCGlobal_OS1.0.5.0.UNOMIDC_fc995fb69d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zircon_dc_global_images_OS1.0.5.0.UNOMIDC_20240926.0000.00_14.0_global_dc_3c9c298822.tgz"
 				},
 				"OS1.0.2.0.UNOMIDC": {
 					"os": "OS1.0.2.0.UNOMIDC",

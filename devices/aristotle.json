@@ -171,8 +171,8 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -181,7 +181,7 @@
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_ARISTOTLEDCGlobal_OS1.0.5.0.UMFMIDC_0c9edb9c2d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "aristotle_dc_global_images_OS1.0.5.0.UMFMIDC_20240929.0000.00_14.0_global_dc_6eacb57901.tgz"
 				},
 				"OS1.0.2.0.UMFMIDC": {
 					"os": "OS1.0.2.0.UMFMIDC",

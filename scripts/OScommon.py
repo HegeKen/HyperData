@@ -100,8 +100,8 @@ branches = [
   {
     "code": "_dc_global",
     "tag": "MIDC",
-    "region": "global_dc",
-    "carrier": [""],
+    "region": "global",
+    "carrier": ["dc"],
     "zone": "2"
   },
   {
@@ -320,6 +320,10 @@ flags = {
 	"amethyst_id_global":"amethyst",
 	"amethyst_ru_global":"amethyst",
 	"AMETHYSTRUGlobal":"amethyst",
+	"AMETHYSTGlobal":"amethyst",
+	"amethyst_global":"amethyst",
+	"AMETHYSTDCGlobal":"amethyst",
+	"amethyst_dc_global":"amethyst",
 	"amethyst_demo":"amethyst",
 	"AMETHYSTDEMO":"amethyst",
 	"amethyst":"amethyst",

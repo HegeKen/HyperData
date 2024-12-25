@@ -187,11 +187,18 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.2.0.UGQMIDC": {
+					"os": "OS1.0.2.0.UGQMIDC",
+					"android": "14.0",
+					"release": "2024-12-25",
+					"recovery": "",
+					"fastboot": "air_dc_global_images_OS1.0.2.0.UGQMIDC_20241021.0000.00_14.0_global_dc_b74eeddbd3.tgz"
+				},
 				"OS1.0.1.0.UGQMIDC": {
 					"os": "OS1.0.1.0.UGQMIDC",
 					"android": "14.0",
@@ -222,6 +229,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.5.0.UGQEUXM": {
+					"os": "OS1.0.5.0.UGQEUXM",
+					"android": "14.0",
+					"release": "2024-12-25",
+					"recovery": "miui_AIREEAGlobal_OS1.0.5.0.UGQEUXM_8b15b3bd6d_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.4.0.UGQEUXM": {
 					"os": "OS1.0.4.0.UGQEUXM",
 					"android": "14.0",

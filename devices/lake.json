@@ -150,8 +150,8 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -160,7 +160,7 @@
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_LAKEDCGlobal_OS1.0.7.0.UGTMIDC_7f3933f654_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lake_dc_global_images_OS1.0.7.0.UGTMIDC_20240927.0000.00_14.0_global_dc_44c9765adb.tgz"
 				},
 				"OS1.0.6.0.UGTMIDC": {
 					"os": "OS1.0.6.0.UGTMIDC",

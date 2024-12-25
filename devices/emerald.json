@@ -106,8 +106,8 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -116,7 +116,7 @@
 					"android": "14.0",
 					"release": "2024-12-04",
 					"recovery": "miui_EMERALDDCGlobal_OS1.0.7.0.UNFMIDC_99346598db_14.0.zip",
-					"fastboot": ""
+					"fastboot": "emerald_dc_global_images_OS1.0.7.0.UNFMIDC_20241125.0000.00_14.0_global_dc_7cece348e9.tgz"
 				},
 				"OS1.0.6.0.UNFMIDC": {
 					"os": "OS1.0.6.0.UNFMIDC",

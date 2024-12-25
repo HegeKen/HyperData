@@ -99,8 +99,8 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -109,7 +109,7 @@
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_FIREDCGlobal_OS1.0.1.0.UMXMIDC_9ad6aeb393_14.0.zip",
-					"fastboot": ""
+					"fastboot": "fire_dc_global_images_OS1.0.1.0.UMXMIDC_20240228.0000.00_14.0_global_dc_89274b21b0.tgz"
 				}
 			}
 		},

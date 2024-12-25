@@ -350,8 +350,8 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -360,7 +360,7 @@
 					"android": "14.0",
 					"release": "2024-12-03",
 					"recovery": "miui_GOLDDCGlobal_OS1.0.8.0.UNQMIDC_ffc441b4e5_14.0.zip",
-					"fastboot": ""
+					"fastboot": "gold_dc_global_images_OS1.0.8.0.UNQMIDC_20241122.0000.00_14.0_global_dc_3546b29d15.tgz"
 				},
 				"OS1.0.7.0.UNQMIDC": {
 					"os": "OS1.0.7.0.UNQMIDC",

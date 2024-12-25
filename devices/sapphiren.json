@@ -171,8 +171,8 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -181,7 +181,7 @@
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_SAPPHIRENDCGlobal_OS1.0.3.0.UNHMIDC_c99441e067_14.0.zip",
-					"fastboot": ""
+					"fastboot": "sapphiren_dc_global_images_OS1.0.3.0.UNHMIDC_20241014.0000.00_14.0_global_dc_472938e0f9.tgz"
 				},
 				"OS1.0.2.0.UNHMIDC": {
 					"os": "OS1.0.2.0.UNHMIDC",

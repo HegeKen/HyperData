@@ -358,8 +358,8 @@
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "0",
-			"carrier": [""],
-			"region": "global_dc",
+			"carrier": ["dc"],
+			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
@@ -368,7 +368,7 @@
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_GARNETDCGlobal_OS1.0.3.0.UNRMIDC_a50f44e239_14.0.zip",
-					"fastboot": ""
+					"fastboot": "garnet_dc_global_images_OS1.0.3.0.UNRMIDC_20240712.0000.00_14.0_global_dc_70e27e4741.tgz"
 				},
 				"OS1.0.2.0.UNRMIDC": {
 					"os": "OS1.0.2.0.UNRMIDC",
