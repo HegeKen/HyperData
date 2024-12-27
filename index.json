@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2024-12-26 17:29:04",
+    "time": "2024-12-27 10:22:33",
     "developing": "no",
     "roms": [
       {
@@ -25,7 +25,15 @@
           "zh": "小米 14",
           "en": "Xiaomi 14"
         },
-        "rom": "OS2.0.2.0.VNCIDXM"
+        "rom": "OS2.0.101.0.VNCCNXM; OS2.0.2.0.VNCIDXM"
+      },
+      {
+        "code": "shennong",
+        "name": {
+          "zh": "小米 14 Pro / Ti / 钛金属卫星通讯版",
+          "en": "Xiaomi 14 Pro / Ti / Satellite"
+        },
+        "rom": "OS2.0.101.0.VNBCNXM"
       },
       {
         "code": "aurora",
@@ -33,7 +41,23 @@
           "zh": "小米 14 Ultra / Ultra Ti",
           "en": "Xiaomi 14 Ultra"
         },
-        "rom": "OS2.0.2.0.VNAEUXM"
+        "rom": "OS2.0.101.0.VNACNXM; OS2.0.2.0.VNAEUXM"
+      },
+      {
+        "code": "dada",
+        "name": {
+          "zh": "小米 15",
+          "en": "Xiaomi 15"
+        },
+        "rom": "OS2.0.101.0.VOCCNXM"
+      },
+      {
+        "code": "haotian",
+        "name": {
+          "zh": "小米 15 Pro",
+          "en": "Xiaomi 15 Pro"
+        },
+        "rom": "OS2.0.101.0.VOBCNXM"
       },
       {
         "code": "pipa",
@@ -201,7 +225,23 @@
           "zh": "Redmi K70 至尊版 / 小米 14T Pro",
           "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
         },
-        "rom": "OS1.0.4.0.UNNTWXM; OS1.0.7.0.UNNRUXM"
+        "rom": "OS2.0.101.0.VNNCNXM; OS1.0.4.0.UNNTWXM; OS1.0.7.0.UNNRUXM"
+      },
+      {
+        "code": "zorn",
+        "name": {
+          "zh": "REDMI K80",
+          "en": "REDMI K80"
+        },
+        "rom": "OS2.0.101.0.VOKCNXM"
+      },
+      {
+        "code": "miro",
+        "name": {
+          "zh": "REDMI K80 Pro",
+          "en": "REDMI K80 Pro"
+        },
+        "rom": "OS2.0.102.0.VOMCNXM"
       },
       {
         "code": "yunluo",
@@ -210,6 +250,14 @@
           "en": "Redmi Pad"
         },
         "rom": "OS1.0.6.0.ULYTWXM; OS1.0.7.0.ULYMIXM; OS1.0.9.0.ULYEUXM; OS1.0.6.0.ULYTRXM"
+      },
+      {
+        "code": "xun",
+        "name": {
+          "zh": "Redmi 平板 SE",
+          "en": "Redmi Pad SE"
+        },
+        "rom": "OS1.0.7.0.UMUMIXM"
       },
       {
         "code": "air",
