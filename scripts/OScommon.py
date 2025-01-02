@@ -374,6 +374,7 @@ flags = {
 	"MIRO": "miro",
 	"rodin": "rodin",
 	"RODIN": "rodin",
+	"rodin_demo":"rodin",
 	"muyu":"muyu",
 	"viva_lm_ms_global":"viva",
 	"VIVALMMSGlobal":"viva",

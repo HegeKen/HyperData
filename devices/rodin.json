@@ -57,6 +57,37 @@
 					"ctelecom": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "rodin_demo",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"REDMI Turbo 4",
+				"en" :"REDMI Turbo 4"
+			},
+			"idtag": "CnOD",
+			"tag":"CNDM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOJCNDM": {
+					"os": "OS2.0.2.0.VOJCNDM",
+					"android": "15.0",
+					"release": "2025-01-02",
+					"recovery": "rodin_demo-ota_full-OS2.0.2.0.VOJCNDM-user-15.0-8fd091b715.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
 		}
   ]
 }
