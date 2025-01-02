@@ -10,5 +10,53 @@
 	"type": "phone",
   "miui": "no",
 	"merged":"no",
-	"branches": []
+	"branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "rodin",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"REDMI Turbo 4",
+				"en" :"REDMI Turbo 4"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.5.0.VOJCNXM": {
+					"os": "OS2.0.5.0.VOJCNXM",
+					"android": "15.0",
+					"release": "2025-01-02",
+					"recovery": "rodin-ota_full-OS2.0.5.0.VOJCNXM-user-15.0-a8d6646bde.zip",
+					"fastboot": "rodin_images_OS2.0.5.0.VOJCNXM_20241226.0000.00_15.0_cn_d319549023.tgz",
+					"ctelecom": "rodin_images_OS2.0.5.0.VOJCNXM_20241226.0000.00_15.0_cn_chinatelecom_bd7c05fd7c.tgz"
+				},
+				"OS2.0.3.0.VOJCNXM": {
+					"os": "OS2.0.3.0.VOJCNXM",
+					"android": "15.0",
+					"release": "2025-01-02",
+					"recovery": "rodin-ota_full-OS2.0.3.0.VOJCNXM-user-15.0-ea81dc3019.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.2.0.VOJCNXM": {
+					"os": "OS2.0.2.0.VOJCNXM",
+					"android": "15.0",
+					"release": "2025-01-02",
+					"recovery": "rodin-ota_full-OS2.0.2.0.VOJCNXM-user-15.0-503cf3660e.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		}
+  ]
 }
