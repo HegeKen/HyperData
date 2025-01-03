@@ -63,7 +63,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'a
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 
 				 'fire', 'earth', 'sky', 'gale', 'lake', 'flame', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
-				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'peridot', 'alioth',
+				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'peridot', 'rodin','alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', "zorn", "miro",
 				 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'warm', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
@@ -2207,7 +2207,7 @@ def entryChecker(data,device):
 					elif rom_info['android'] in rom_info['recovery']:
 						i = 0
 					else:
-						print(f"错误:机型 {device} {bname} {rom_info['android']} 卡刷包安卓版本与实际记录不一致")
+						print(f"错误:机型 {device} {rom_info['os']} {rom_info['android']} 卡刷包安卓版本与实际记录不一致")
 						check.append(1)
 					if rom_info['fastboot'] !='' and os_version in rom_info['fastboot']:
 						i = 0
