@@ -13,6 +13,36 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "lake",
+			"brand": "Redmi",
+			"device": {
+		"zh": "Redmi 14C",
+		"en": "Redmi 14C"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UGTCNXM": {
+					"os": "OS1.0.1.0.UGTCNXM",
+					"android": "14.0",
+					"release": "2025-01-03",
+					"recovery": "miui_LAKE_OS1.0.1.0.UGTCNXM_c38a6a4af3_14.0.zip",
+					"fastboot": "lake_images_OS1.0.1.0.UGTCNXM_20241125.0000.00_14.0_cn_dd1bc85a04.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾地区正式版",
 				"en": "Xiaomi HyperOS China Taiwan Stable"
 			},

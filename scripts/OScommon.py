@@ -991,6 +991,8 @@ flags = {
 	"SPESNIDGlobal":"spesn",
 	"viva_ru_global":"viva",
 	"VIVARUGlobal":"viva",
+	"LAKE":"lake",
+	"lake":"lake",
 	"earth_za_vc_global":"earth",
 	"EARTHZAVCGlobal":"earth",
 	"lisa_eea_or_global":"lisa",
