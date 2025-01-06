@@ -2212,14 +2212,18 @@ def entryChecker(data,device):
 					if rom_info['fastboot'] !='' and os_version in rom_info['fastboot']:
 						i = 0
 					else:
-						for i in range(4,len(menu_items)):
-							if rom_info[menu_items[i]] != "":
-								if rom_info['android'] not in rom_info[menu_items[i]]:
-									print(f"错误:机型 {device} {bname} {os_version} {menu_items[i]} 与当前记录的安卓版本不一致")
-									check.append(1)
-								if rom_info['os'] not in rom_info[menu_items[i]]:
-									print(f"错误:机型 {device} {bname} {os_version} {menu_items[i]} 与当前记录的OS版本不一致")
-									check.append(1)
+						if len(set(menu_items)) != len(set(rom_info)):
+							print(f"错误:机型 {device} {bname} {os_version} 与当前记录标准记录条数不一致")
+							check.append(1)
+						else:
+							for i in range(4,len(menu_items)):
+								if rom_info[menu_items[i]] != "":
+									if rom_info['android'] not in rom_info[menu_items[i]]:
+										print(f"错误:机型 {device} {bname} {os_version} {menu_items[i]} 与当前记录的安卓版本不一致")
+										check.append(1)
+									if rom_info['os'] not in rom_info[menu_items[i]]:
+										print(f"错误:机型 {device} {bname} {os_version} {menu_items[i]} 与当前记录的OS版本不一致")
+										check.append(1)
 					# 检查每个ROM与当前分支是否一致
 					if branch['branchtag'] == "F":
 						if "政企" not in bname:
