@@ -1069,6 +1069,8 @@ flags = {
 	"SAPPHIRENEEAGlobal":"sapphiren",
 	"dagu_ep_stdee":"dagu",
 	"DAGUEPSTDEE":"dagu",
+	"FLAMEINGlobal":"flame",
+	"flame_in_global":"flame",
 	"dizi_demo":"dizi",
 	"DIZIDEMO":"dizi",
 	"ziyi_ru_global":"ziyi",
