@@ -5,8 +5,8 @@
 		"en": "Redmi Note 13 Pro+ 5G"
 	},
 	"code": "NO",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -346,6 +346,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VNOEUXM": {
+					"os": "OS2.0.2.0.VNOEUXM",
+					"android": "15.0",
+					"release": "2025-01-09",
+					"recovery": "zircon_eea_global-ota_full-OS2.0.2.0.VNOEUXM-user-15.0-a0338132bd.zip",
+					"fastboot": ""
+				},
 				"OS1.0.12.0.UNOEUXM": {
 					"os": "OS1.0.12.0.UNOEUXM",
 					"android": "14.0",
