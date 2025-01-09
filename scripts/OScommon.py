@@ -1079,6 +1079,10 @@ flags = {
 	"beryl_dc_global":"beryl",
 	"BERYLEEAGlobal":"beryl",
 	"beryl_eea_global":"beryl",
+	"rodin_global":"rodin",
+	"rodin_eea_global":"rodin",
+	"RIDONGlobal":"rodin",
+	"RIDONEEAGlobal":"rodin",
 	"dizi_demo":"dizi",
 	"DIZIDEMO":"dizi",
 	"ziyi_ru_global":"ziyi",
@@ -2002,7 +2006,9 @@ def checkExist(filename):
 		return "UI Maybe"
 
 def versionAdd(version,add):
-		return version.replace(version.split('.')[2],str(int(version.split('.')[2])+add))
+	parts = [version.split('.')[0],version.split('.')[1],str(int(version.split('.')[2])+add),"0",version.split('.')[4]]
+	separator = "."
+	return separator.join(parts)
 
 def miui_decrypt(encrypted_response):
 	decipher = AES.new(miui_key, AES.MODE_CBC, miui_iv)
