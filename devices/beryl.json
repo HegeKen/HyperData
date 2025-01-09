@@ -99,6 +99,126 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "beryl_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO M7 Pro 5G",
+				"en" :"POCO M7 Pro 5G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOQTWXM": {
+					"os": "OS1.0.2.0.UOQTWXM",
+					"android": "14.0",
+					"release": "2025-01-09",
+					"recovery": "miui_BERYLTWGlobal_OS1.0.2.0.UOQTWXM_c6802c02b1_14.0.zip",
+					"fastboot": "beryl_tw_global_images_OS1.0.2.0.UOQTWXM_20241219.0000.00_14.0_tw_d6753410e7.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "beryl_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO M7 Pro 5G",
+				"en" :"POCO M7 Pro 5G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UOQMIXM": {
+					"os": "OS1.0.5.0.UOQMIXM",
+					"android": "14.0",
+					"release": "2025-01-09",
+					"recovery": "miui_BERYLGlobal_OS1.0.5.0.UOQMIXM_777c5870b5_14.0.zip",
+					"fastboot": "beryl_global_images_OS1.0.5.0.UOQMIXM_20241225.0000.00_14.0_global_6b3ca9d1ce.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "beryl_dc_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO M7 Pro 5G",
+				"en" :"POCO M7 Pro 5G"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": ["dc"],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UOQMIDC": {
+					"os": "OS1.0.5.0.UOQMIDC",
+					"android": "14.0",
+					"release": "2025-01-09",
+					"recovery": "miui_BERYLDCGlobal_OS1.0.5.0.UOQMIDC_0e4b02bda1_14.0.zip",
+					"fastboot": "beryl_dc_global_images_OS1.0.5.0.UOQMIDC_20241218.0000.00_14.0_global_dc_133dc93eb4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "beryl_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO M7 Pro 5G",
+				"en" :"POCO M7 Pro 5G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UOQEUXM": {
+					"os": "OS1.0.7.0.UOQEUXM",
+					"android": "14.0",
+					"release": "2025-01-09",
+					"recovery": "miui_BERYLEEAGlobal_OS1.0.7.0.UOQEUXM_f05f78b72b_14.0.zip",
+					"fastboot": "beryl_eea_global_images_OS1.0.7.0.UOQEUXM_20241212.0000.00_14.0_eea_2100137e91.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
