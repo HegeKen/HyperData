@@ -5,8 +5,8 @@
     "en": "Redmi Note 14 Pro+"
   },
 	"code": "OP",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
   "miui": "no",
 	"merged":"no",
@@ -32,6 +32,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.VOPCNXM": {
+					"os": "OS2.0.4.0.VOPCNXM",
+					"android": "15.0",
+					"release": "2025-01-11",
+					"recovery": "amethyst-ota_full-OS2.0.4.0.VOPCNXM-user-15.0-8cc2b85afd.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.23.0.UOPCNXM": {
 					"os": "OS1.0.23.0.UOPCNXM",
 					"android": "14.0",

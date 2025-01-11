@@ -33,7 +33,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["rodin", "warm", "miro", "zorn", "dada", "haotian", "uke", "muyu", 
+currentStable = ["tanzanite", "rodin", "warm", "miro", "zorn", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -47,7 +47,7 @@ currentStable = ["rodin", "warm", "miro", "zorn", "dada", "haotian", "uke", "muy
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["rodin", "warm", "miro", "zorn", 
+only_os = ["tanzanite", "rodin", "warm", "miro", "zorn", 
 					 "uke", "muyu",	"dada", "haotian", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "xuanyuan", "dijun", "flame", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
