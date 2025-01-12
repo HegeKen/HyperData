@@ -146,6 +146,147 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "malachite_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UOOTWXM": {
+					"os": "OS1.0.3.0.UOOTWXM",
+					"android": "14.0",
+					"release": "2025-01-12",
+					"recovery": "miui_MALACHITETWGlobal_OS1.0.3.0.UOOTWXM_ead645fbe4_14.0.zip",
+					"fastboot": "malachite_tw_global_images_OS1.0.3.0.UOOTWXM_20241217.0000.00_14.0_tw_165b14716a.tgz"
+				},
+				"OS1.0.2.0.UOOTWXM": {
+					"os": "OS1.0.2.0.UOOTWXM",
+					"android": "14.0",
+					"release": "2025-01-11",
+					"recovery": "miui_MALACHITETWGlobal_OS1.0.2.0.UOOTWXM_f8342b61a8_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "malachite_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UOOMIXM": {
+					"os": "OS1.0.7.0.UOOMIXM",
+					"android": "14.0",
+					"release": "2025-01-12",
+					"recovery": "miui_MALACHITEGlobal_OS1.0.7.0.UOOMIXM_153d627ceb_14.0.zip",
+					"fastboot": "malachite_global_images_OS1.0.7.0.UOOMIXM_20241207.0000.00_14.0_global_58c58de732.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "malachite_dc_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": ["dc"],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UOOMIDC": {
+					"os": "OS1.0.3.0.UOOMIDC",
+					"android": "14.0",
+					"release": "2025-01-12",
+					"recovery": "miui_MALACHITEDCGlobal_OS1.0.3.0.UOOMIDC_2a6f6e3f85_14.0.zip",
+					"fastboot": "malachite_dc_global_images_OS1.0.3.0.UOOMIDC_20241209.0000.00_14.0_global_dc_8d4655e4dc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "malachite_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UOOEUXM": {
+					"os": "OS1.0.4.0.UOOEUXM",
+					"android": "14.0",
+					"release": "2025-01-12",
+					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.4.0.UOOEUXM_460cfa0199_14.0.zip",
+					"fastboot": "malachite_eea_global_images_OS1.0.4.0.UOOEUXM_20241117.0000.00_14.0_eea_769f6b6b9e.tgz"
+				},
+				"OS1.0.2.0.UOOEUXM": {
+					"os": "OS1.0.2.0.UOOEUXM",
+					"android": "14.0",
+					"release": "2025-01-11",
+					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.2.0.UOOEUXM_7987bcfb09_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.1.0.UOOEUXM": {
+					"os": "OS1.0.1.0.UOOEUXM",
+					"android": "14.0",
+					"release": "2025-01-11",
+					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.1.0.UOOEUXM_5f825b5e73_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
