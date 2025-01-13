@@ -4,11 +4,72 @@
     "zh": "Redmi Note 14 4G",
     "en": "Redmi Note 14 4G"
   },
-	"code": "",
+	"code": "OG",
 	"suppports": ["OS1.0"],
 	"android": ["14.0"],
 	"type": "phone",
   "miui": "no",
 	"merged":"no",
-	"branches": []
+	"branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "tanzanite_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UOGMIXM": {
+					"os": "OS1.0.4.0.UOGMIXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_TANZANITEGlobal_OS1.0.4.0.UOGMIXM_732e24fa29_14.0.zip",
+					"fastboot": "tanzanite_global_images_OS1.0.4.0.UOGMIXM_20241204.0000.00_14.0_global_b98b821d4d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "tanzanite_dc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": ["dc"],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UOGMIDC": {
+					"os": "OS1.0.3.0.UOGMIDC",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_TANZANITEDCGlobal_OS1.0.3.0.UOGMIDC_fdd1d0b93f_14.0.zip",
+					"fastboot": "tanzanite_dc_global_images_OS1.0.3.0.UOGMIDC_20241212.0000.00_14.0_global_dc_76919b3db7.tgz"
+				}
+			}
+		}
+  ]
 }

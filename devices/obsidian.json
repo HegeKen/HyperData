@@ -1,14 +1,165 @@
 {
   "device": "obsidian",
   "name": {
-    "zh": "Redmi Note 14 Pro",
-    "en": "Redmi Note 14 Pro"
+    "zh": "Redmi Note 14 Pro 4G",
+    "en": "Redmi Note 14 Pro 4G"
   },
-	"code": "",
-	"suppports": ["OS2.0"],
+	"code": "OF",
+	"suppports": ["OS1.0"],
 	"android": ["14.0"],
 	"type": "phone",
   "miui": "no",
 	"merged":"no",
-	"branches": []
+	"branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "obsidian_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro",
+				"en" :"Redmi Note 14 Pro"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UOFMIXM": {
+					"os": "OS1.0.3.0.UOFMIXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_OBSIDIANGlobal_OS1.0.3.0.UOFMIXM_4c5ca499f5_14.0.zip",
+					"fastboot": "obsidian_global_images_OS1.0.3.0.UOFMIXM_20241231.0000.00_14.0_global_75d12b2204.tgz"
+				}
+			}
+		},
+    {
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "obsidian_dc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro",
+				"en" :"Redmi Note 14 Pro"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": ["dc"],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOFMIDC": {
+					"os": "OS1.0.2.0.UOFMIDC",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_OBSIDIANDCGlobal_OS1.0.2.0.UOFMIDC_0d296c64b6_14.0.zip",
+					"fastboot": "obsidian_dc_global_images_OS1.0.2.0.UOFMIDC_20241219.0000.00_14.0_global_dc_b3ac46abe1.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "obsidian_eea_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro",
+				"en" :"Redmi Note 14 Pro"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOFEUXM": {
+					"os": "OS1.0.2.0.UOFEUXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_OBSIDIANEEAGlobal_OS1.0.2.0.UOFEUXM_ba587fa987_14.0.zip",
+					"fastboot": "obsidian_eea_global_images_OS1.0.2.0.UOFEUXM_20241213.0000.00_14.0_eea_261455c6cf.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "obsidian_ru_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro",
+				"en" :"Redmi Note 14 Pro"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UOFRUXM": {
+					"os": "OS1.0.4.0.UOFRUXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_OBSIDIANRUGlobal_OS1.0.4.0.UOFRUXM_dc0922dac2_14.0.zip",
+					"fastboot": "obsidian_ru_global_images_OS1.0.4.0.UOFRUXM_20241128.0000.00_14.0_ru_37059242de.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "obsidian_tr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro",
+				"en" :"Redmi Note 14 Pro"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOFTRXM": {
+					"os": "OS1.0.2.0.UOFTRXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_OBSIDIANTRGlobal_OS1.0.2.0.UOFTRXM_24ee98c01e_14.0.zip",
+					"fastboot": "obsidian_tr_global_images_OS1.0.2.0.UOFTRXM_20241226.0000.00_14.0_tr_9a386d0805.tgz"
+				}
+			}
+		}
+  ]
 }

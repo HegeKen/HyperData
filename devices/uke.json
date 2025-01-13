@@ -98,6 +98,36 @@
 					"fastboot": "uke_demo_images_OS2.0.3.0.VOZCNDM_20241028.0000.00_15.0_cn_bb1820d1c8.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "uke_in_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.9.0.VOZINXM": {
+					"os": "OS2.0.9.0.VOZINXM",
+					"android": "15.0",
+					"release": "2025-01-13",
+					"recovery": "uke_in_global-ota_full-OS2.0.9.0.VOZINXM-user-15.0-d69e221444.zip",
+					"fastboot": "uke_in_global_images_OS2.0.9.0.VOZINXM_20241227.0000.00_15.0_in_386eb1d03c.tgz"
+				}
+			}
 		}
   ]
 }
