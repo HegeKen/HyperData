@@ -5,8 +5,8 @@
 		"en": "Xiaomi Pad 6 Pro"
 	},
 	"code": "MY",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "tablet",
 	"miui": "yes",
 	"merged":"no",
@@ -32,6 +32,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.VMYCNXM": {
+					"os": "OS2.0.4.0.VMYCNXM",
+					"android": "15.0",
+					"release": "2025-01-13",
+					"recovery": "liuqin-ota_full-OS2.0.4.0.VMYCNXM-user-15.0-80529e7ef5.zip",
+					"fastboot": ""
+				},
 				"OS1.0.14.0.UMYCNXM": {
 					"os": "OS1.0.14.0.UMYCNXM",
 					"android": "14.0",
