@@ -375,6 +375,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.10.0.ULFTWXM": {
+					"os": "OS1.0.10.0.ULFTWXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_DITINGTWGlobal_OS1.0.10.0.ULFTWXM_2bd672b399_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.9.0.ULFTWXM": {
 					"os": "OS1.0.9.0.ULFTWXM",
 					"android": "14.0",
@@ -454,6 +461,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.10.0.ULFMIXM": {
+					"os": "OS1.0.10.0.ULFMIXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_DITINGGlobal_OS1.0.10.0.ULFMIXM_48f1b8659d_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.9.0.ULFMIXM": {
 					"os": "OS1.0.9.0.ULFMIXM",
 					"android": "14.0",
@@ -533,6 +547,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.14.0.ULFEUXM": {
+					"os": "OS1.0.14.0.ULFEUXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_DITINGEEAGlobal_OS1.0.14.0.ULFEUXM_7ca8fb9647_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.13.0.ULFEUXM": {
 					"os": "OS1.0.13.0.ULFEUXM",
 					"android": "14.0",
@@ -647,6 +668,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.ULFRUXM": {
+					"os": "OS1.0.8.0.ULFRUXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_DITINGRUGlobal_OS1.0.8.0.ULFRUXM_48da470caa_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.ULFRUXM": {
 					"os": "OS1.0.7.0.ULFRUXM",
 					"android": "14.0",
@@ -700,71 +728,6 @@
 		},
 		{
 			"name": {
-				"zh": "小米澎湃 OS 日本正式版",
-				"en": "Xiaomi HyperOS Japan Stable"
-			},
-			"branchCode": "diting_jp_global",
-			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12T Pro",
-        "en" :"Xiaomi 12T Pro"
-      },
-			"idtag": "JAPS",
-			"tag": "JPXM",
-			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
-			"show": "1",
-			"carrier": [""],
-			"region": "jp",
-			"zone": "2",
-			"ep": "0",
-			"roms": {
-				"OS1.0.7.0.ULFJPXM": {
-					"os": "OS1.0.7.0.ULFJPXM",
-					"android": "14.0",
-					"release": "2024-12-16",
-					"recovery": "miui_DITINGJPGlobal_OS1.0.7.0.ULFJPXM_3d032a0610_14.0.zip",
-					"fastboot": "diting_jp_global_images_OS1.0.7.0.ULFJPXM_20241119.0000.00_14.0_jp_017be3ee5b.tgz"
-				},
-				"OS1.0.6.0.ULFJPXM": {
-					"os": "OS1.0.6.0.ULFJPXM",
-					"android": "14.0",
-					"release": "2024-11-04",
-					"recovery": "miui_DITINGJPGlobal_OS1.0.6.0.ULFJPXM_92558b0a51_14.0.zip",
-					"fastboot": "diting_jp_global_images_OS1.0.6.0.ULFJPXM_20241014.0000.00_14.0_jp_8fca817c74.tgz"
-				},
-				"OS1.0.5.0.ULFJPXM": {
-					"os": "OS1.0.5.0.ULFJPXM",
-					"android": "14.0",
-					"release": "2024-09-27",
-					"recovery": "miui_DITINGJPGlobal_OS1.0.5.0.ULFJPXM_45c0be1846_14.0.zip",
-					"fastboot": "diting_jp_global_images_OS1.0.5.0.ULFJPXM_20240910.0000.00_14.0_jp_08feaabe8b.tgz"
-				},
-				"OS1.0.4.0.ULFJPXM": {
-					"os": "OS1.0.4.0.ULFJPXM",
-					"android": "14.0",
-					"release": "2024-09-06",
-					"recovery": "miui_DITINGJPGlobal_OS1.0.4.0.ULFJPXM_641f46cb20_14.0.zip",
-					"fastboot": "diting_jp_global_images_OS1.0.4.0.ULFJPXM_20240823.0000.00_14.0_jp_3066b9c9ea.tgz"
-				},
-				"OS1.0.2.0.ULFJPXM": {
-					"os": "OS1.0.2.0.ULFJPXM",
-					"android": "14.0",
-					"release": "2024-08-05",
-					"recovery": "miui_DITINGJPGlobal_OS1.0.2.0.ULFJPXM_c72af1bf42_14.0.zip",
-					"fastboot": "diting_jp_global_images_OS1.0.2.0.ULFJPXM_20240711.0000.00_14.0_jp_6eaf848652.tgz"
-				},
-				"OS1.0.1.0.ULFJPXM": {
-					"os": "OS1.0.1.0.ULFJPXM",
-					"android": "14.0",
-					"release": "2024-07-01",
-					"recovery": "miui_DITINGJPGlobal_OS1.0.1.0.ULFJPXM_14d9be5281_14.0.zip",
-					"fastboot": "diting_jp_global_images_OS1.0.1.0.ULFJPXM_20240507.0000.00_14.0_jp_3731469c72.tgz"
-				}
-			}
-		},
-		{
-			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
@@ -784,6 +747,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.ULFTRXM": {
+					"os": "OS1.0.8.0.ULFTRXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_DITINGTRGlobal_OS1.0.8.0.ULFTRXM_14723f7a09_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.ULFTRXM": {
 					"os": "OS1.0.7.0.ULFTRXM",
 					"android": "14.0",
@@ -832,6 +802,78 @@
 					"release": "2024-03-02",
 					"recovery": "miui_DITINGTRGlobal_OS1.0.1.0.ULFTRXM_f9cb210c4d_14.0.zip",
 					"fastboot": "diting_tr_global_images_OS1.0.1.0.ULFTRXM_20240205.0000.00_14.0_tr_944c3e4fe0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "diting_jp_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 12T Pro",
+        "en" :"Xiaomi 12T Pro"
+      },
+			"idtag": "JAPS",
+			"tag": "JPXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.8.0.ULFJPXM": {
+					"os": "OS1.0.8.0.ULFJPXM",
+					"android": "14.0",
+					"release": "2025-01-13",
+					"recovery": "miui_DITINGJPGlobal_OS1.0.8.0.ULFJPXM_2f72e9c107_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.7.0.ULFJPXM": {
+					"os": "OS1.0.7.0.ULFJPXM",
+					"android": "14.0",
+					"release": "2024-12-16",
+					"recovery": "miui_DITINGJPGlobal_OS1.0.7.0.ULFJPXM_3d032a0610_14.0.zip",
+					"fastboot": "diting_jp_global_images_OS1.0.7.0.ULFJPXM_20241119.0000.00_14.0_jp_017be3ee5b.tgz"
+				},
+				"OS1.0.6.0.ULFJPXM": {
+					"os": "OS1.0.6.0.ULFJPXM",
+					"android": "14.0",
+					"release": "2024-11-04",
+					"recovery": "miui_DITINGJPGlobal_OS1.0.6.0.ULFJPXM_92558b0a51_14.0.zip",
+					"fastboot": "diting_jp_global_images_OS1.0.6.0.ULFJPXM_20241014.0000.00_14.0_jp_8fca817c74.tgz"
+				},
+				"OS1.0.5.0.ULFJPXM": {
+					"os": "OS1.0.5.0.ULFJPXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "miui_DITINGJPGlobal_OS1.0.5.0.ULFJPXM_45c0be1846_14.0.zip",
+					"fastboot": "diting_jp_global_images_OS1.0.5.0.ULFJPXM_20240910.0000.00_14.0_jp_08feaabe8b.tgz"
+				},
+				"OS1.0.4.0.ULFJPXM": {
+					"os": "OS1.0.4.0.ULFJPXM",
+					"android": "14.0",
+					"release": "2024-09-06",
+					"recovery": "miui_DITINGJPGlobal_OS1.0.4.0.ULFJPXM_641f46cb20_14.0.zip",
+					"fastboot": "diting_jp_global_images_OS1.0.4.0.ULFJPXM_20240823.0000.00_14.0_jp_3066b9c9ea.tgz"
+				},
+				"OS1.0.2.0.ULFJPXM": {
+					"os": "OS1.0.2.0.ULFJPXM",
+					"android": "14.0",
+					"release": "2024-08-05",
+					"recovery": "miui_DITINGJPGlobal_OS1.0.2.0.ULFJPXM_c72af1bf42_14.0.zip",
+					"fastboot": "diting_jp_global_images_OS1.0.2.0.ULFJPXM_20240711.0000.00_14.0_jp_6eaf848652.tgz"
+				},
+				"OS1.0.1.0.ULFJPXM": {
+					"os": "OS1.0.1.0.ULFJPXM",
+					"android": "14.0",
+					"release": "2024-07-01",
+					"recovery": "miui_DITINGJPGlobal_OS1.0.1.0.ULFJPXM_14d9be5281_14.0.zip",
+					"fastboot": "diting_jp_global_images_OS1.0.1.0.ULFJPXM_20240507.0000.00_14.0_jp_3731469c72.tgz"
 				}
 			}
 		},
