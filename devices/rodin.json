@@ -162,6 +162,36 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "rodin_in_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7 Pro",
+				"en" :"POCO X7 Pro"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOJINXM": {
+					"os": "OS2.0.2.0.VOJINXM",
+					"android": "15.0",
+					"release": "2025-01-14",
+					"recovery": "rodin_in_global-ota_full-OS2.0.2.0.VOJINXM-user-15.0-60249425a2.zip",
+					"fastboot": "rodin_in_global_images_OS2.0.2.0.VOJINXM_20250106.0000.00_15.0_in_72e6198739.tgz"
+				}
+			}
 		}
   ]
 }

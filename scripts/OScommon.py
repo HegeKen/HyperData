@@ -549,6 +549,7 @@ flags = {
 	"obsidian_tr_global":"obsidian",
 	"OBSIDIANRUGlobal":"obsidian",
 	"OBSIDIANTRGlobal":"obsidian",
+	"rodin_in_global":"rodin",
 	"aristotle_mx_at_global":"aristotle",
 	"ARISTOTLEMXATGlobal":"aristotle",
 	"emerald_lm_cr_global":"emerald",
