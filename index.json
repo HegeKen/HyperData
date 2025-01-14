@@ -1,8 +1,24 @@
 {
   "recent": {
-    "time": "2025-01-14 10:52:27",
+    "time": "2025-01-14 15:04:31",
     "developing": "no",
     "roms": [
+      {
+        "code": "venus",
+        "name": {
+          "zh": "小米 11",
+          "en": "Mi 11"
+        },
+        "rom": "OS1.0.6.0.UKBEUOR; OS1.0.3.0.UKBEUSF"
+      },
+      {
+        "code": "star",
+        "name": {
+          "zh": "小米 11 Pro / Ultra",
+          "en": "Mi 11 Pro / Ultra"
+        },
+        "rom": "OS1.0.6.0.UKAEUOR"
+      },
       {
         "code": "lisa",
         "name": {
@@ -25,7 +41,15 @@
           "zh": "小米 11T Pro",
           "en": "Xiaomi 11T Pro"
         },
-        "rom": "OS1.0.6.0.UKDEUOR"
+        "rom": "OS1.0.6.0.UKDEUOR; OS1.0.3.0.UKDEUSF"
+      },
+      {
+        "code": "cupid",
+        "name": {
+          "zh": "小米 12",
+          "en": "Xiaomi 12"
+        },
+        "rom": "OS1.0.10.0.ULCMIXM; OS1.0.17.0.ULCEUXM"
       },
       {
         "code": "aristotle",
@@ -81,7 +105,7 @@
           "zh": "Redmi 12C / POCO C55",
           "en": "Redmi 12C / POCO C55"
         },
-        "rom": "OS1.0.6.0.UCVEUOR"
+        "rom": "OS1.0.4.0.UCVEUSF; OS1.0.6.0.UCVEUOR"
       },
       {
         "code": "sky",
@@ -97,7 +121,7 @@
           "zh": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G",
           "en": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G"
         },
-        "rom": "OS1.0.6.0.ULSLMCR"
+        "rom": "OS1.0.4.0.ULSEUSF; OS1.0.6.0.ULSLMCR"
       },
       {
         "code": "xaga",
@@ -106,6 +130,22 @@
           "en": "Redmi Note 11T Pro/Pro+ / Redmi K50i / POCO X4 GT / Pro"
         },
         "rom": "OS1.0.9.0.ULOEUXM"
+      },
+      {
+        "code": "spesn",
+        "name": {
+          "zh": "Redmi Note 11 NFC",
+          "en": "Redmi Note 11 NFC"
+        },
+        "rom": "OS1.0.3.0.TGKEUSF"
+      },
+      {
+        "code": "opal",
+        "name": {
+          "zh": "Redmi Note 11S 5G",
+          "en": "Redmi Note 11S 5G"
+        },
+        "rom": "OS1.0.4.0.TGLEUHG; OS1.0.3.0.TGLEUSF"
       },
       {
         "code": "sunstone",
@@ -121,7 +161,7 @@
           "zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
           "en": "Redmi Note 13 Pro 5G / POCO X6 5G"
         },
-        "rom": "OS1.0.13.0.UNRRUXM; OS1.0.16.0.UNRINXM; OS1.0.14.0.UNRIDXM"
+        "rom": "OS2.0.3.0.VNREUXM; OS1.0.13.0.UNRRUXM; OS1.0.16.0.UNRINXM; OS1.0.14.0.UNRIDXM"
       },
       {
         "code": "tanzanite",
@@ -172,6 +212,14 @@
         "rom": "OS1.0.6.0.ULMINXM; OS1.0.7.0.ULMIDXM"
       },
       {
+        "code": "ingres",
+        "name": {
+          "zh": "Redmi K50 电竞版 / POCO F4 GT",
+          "en": "Redmi K50G / POCO F4 GT"
+        },
+        "rom": "OS1.0.9.0.ULJMIXM; OS1.0.9.0.ULJEUXM"
+      },
+      {
         "code": "diting",
         "name": {
           "zh": "Redmi K50 至尊版 / 小米 12T Pro",
@@ -201,7 +249,7 @@
           "zh": "Redmi Pad Pro / 哈利·波特版 / POCO Pad",
           "en": "Redmi Pad Pro / Special Edition featuring Harry Potter / POCO Pad"
         },
-        "rom": "OS1.0.11.0.UNSTWXM; OS1.0.10.0.UNSMIXM; OS2.0.1.0.VNSIDXM"
+        "rom": "OS1.0.11.0.UNSTWXM; OS1.0.10.0.UNSMIXM; OS1.0.10.0.UNSINXM; OS2.0.1.0.VNSIDXM"
       }
     ]
   }
