@@ -5,8 +5,8 @@
 		"en": "Xiaomi Pad 6 Max 14"
 	},
 	"code": "MH",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "tablet",
 	"miui": "yes",
 	"merged":"no",
@@ -32,6 +32,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.VMHCNXM": {
+					"os": "OS2.0.4.0.VMHCNXM",
+					"android": "15.0",
+					"release": "2025-01-14",
+					"recovery": "yudi-ota_full-OS2.0.4.0.VMHCNXM-user-15.0-2d4a366530.zip",
+					"fastboot": ""
+				},
 				"OS1.0.17.0.UMHCNXM": {
 					"os": "OS1.0.17.0.UMHCNXM",
 					"android": "14.0",
