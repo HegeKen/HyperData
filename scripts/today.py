@@ -53,7 +53,7 @@ for device in OScommon.order:
     tag = devdata['branches'][num]['idtag']
     for rom in devdata['branches'][num]['roms']:
       if devdata['branches'][num]['roms'][rom]['release'] == datetime.now().strftime("%Y-%m-%d"):
-      # if devdata['branches'][num]['roms'][rom]['release'] == "2024-11-01":
+      # if devdata['branches'][num]['roms'][rom]['release'] == "2025-01-14" or devdata['branches'][num]['roms'][rom]['release'] == "2025-01-13":
         if tag in btags:
           if tag == "CnOB":
             CnOB.append(devdata['branches'][num]['device']['zh']+"("+devdata['device']+")："+devdata['branches'][num]['roms'][rom]['os'])
