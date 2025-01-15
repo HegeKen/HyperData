@@ -2,6 +2,8 @@ import OScommon
 from datetime import datetime, timedelta
 import json
 import os
+import config
+import time
 
 weekday_number = datetime.now().date().weekday()
 weeks = []
@@ -59,3 +61,5 @@ if 1 in errors:
 	print("数据有误，请核实后提交git")
 else:
 	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
+	time.sleep(3)
+	os.system(f"curl -X POST '{config.deploy_url}'")

@@ -11,6 +11,36 @@
   "miui": "no",
 	"merged":"no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "tanzanite_tw_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UOGTWXM": {
+					"os": "OS1.0.1.0.UOGTWXM",
+					"android": "14.0",
+					"release": "2025-01-15",
+					"recovery": "miui_TANZANITETWGlobal_OS1.0.1.0.UOGTWXM_28b95d9190_14.0.zip",
+					"fastboot": "tanzanite_tw_global_images_OS1.0.1.0.UOGTWXM_20241129.0000.00_14.0_tw_be57fded32.tgz"
+				}
+			}
+		},
     {
 			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
@@ -83,12 +113,56 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.UOGMIDC": {
+					"os": "OS1.0.4.0.UOGMIDC",
+					"android": "14.0",
+					"release": "2025-01-15",
+					"recovery": "miui_TANZANITEDCGlobal_OS1.0.4.0.UOGMIDC_49121c3449_14.0.zip",
+					"fastboot": "tanzanite_dc_global_images_OS1.0.4.0.UOGMIDC_20241230.0000.00_14.0_global_dc_6951392a77.tgz"
+				},
 				"OS1.0.3.0.UOGMIDC": {
 					"os": "OS1.0.3.0.UOGMIDC",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_TANZANITEDCGlobal_OS1.0.3.0.UOGMIDC_fdd1d0b93f_14.0.zip",
 					"fastboot": "tanzanite_dc_global_images_OS1.0.3.0.UOGMIDC_20241212.0000.00_14.0_global_dc_76919b3db7.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "tanzanite_ru_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOGRUXM": {
+					"os": "OS1.0.2.0.UOGRUXM",
+					"android": "14.0",
+					"release": "2025-01-15",
+					"recovery": "",
+					"fastboot": "tanzanite_ru_global_images_OS1.0.2.0.UOGRUXM_20250106.0000.00_14.0_ru_6ff145a38a.tgz"
+				},
+				"OS1.0.1.0.UOGRUXM": {
+					"os": "OS1.0.1.0.UOGRUXM",
+					"android": "14.0",
+					"release": "2025-01-15",
+					"recovery": "miui_TANZANITERUGlobal_OS1.0.1.0.UOGRUXM_9b4883e2b7_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}
