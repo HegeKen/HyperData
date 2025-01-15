@@ -40,7 +40,7 @@ currentStable = ["tanzanite", "obsidian", "rodin", "warm", "miro", "zorn", "dada
 								 "duchamp", "earth", "elish", "emerald", "enuma", "evergo", "evergreen", "fire", "fleur", "fuxi",
 								 "gale", "garnet", "gold", "haydn", "houji", "ingres", "ishtar", "light", "lightcm",
 								 "lisa", "liuqin", "manet", "marble", "matisse", "mayfly", "mona", "mondrian", "moon", "moonstone",
-								 "munch", "nabu", "nuwa", "odin", "opal", "pearl", "peridot", "pipa", "pissarro", "pissarroin", "plato",
+								 "munch", "nabu", "nuwa", "odin", "opal", "pearl", "peridot", "pipa", "pissarro", "pissarro_in", "plato",
 								 "psyche", "redwood", "rembrandt", "rock", "ruan", "rubens", "ruby", "sapphire",
 								 "sapphiren", "sea", "sheng", "shennong_t", "shennong", "sky", "socrates", "spes", "spesn", "star",
 								 "sunstone", "sweet_k6a", "taoyao", "tapas", "thor", "thyme", "topaz", "umi", "unicorn",
@@ -56,7 +56,7 @@ cn_devices = ['sheng', 'ziyi', 'cetus', 'lisa', 'pissarro', 'ruyi', 'babylon', '
 gb_devices = ['agate', 'aristotle', 'fire', 'moonstone', 'plato', 'rock', 'sea', 'sunstone', 'sweet_k6a', 'taoyao', 'tapas', 'topaz']
 both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi', 'ingres', 'ishtar', 'light', 'marble', 'mondrian', 'nuwa', 'pipa', 'redwood', 'ruby', 'sky', 'yunluo', 'zeus']
 
-order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarroin', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
+order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
 				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', "dada", "haotian",'nabu', 'enuma', 'elish', 'dagu', 'pipa',
 				 'liuqin', 'yudi','sheng', "uke", "muyu", 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona',
@@ -1018,8 +1018,8 @@ flags = {
 	"UMIEEAGlobal":"umi",
 	"pissarro_tr_global":"pissarro",
 	"PISSARROTRGlobal":"pissarro",
-	"pissarro_in_fk_global":"pissarroin",
-	"PISSARROINFKGlobal":"pissarroin",
+	"pissarro_in_fk_global":"pissarro_in",
+	"PISSARROINFKGlobal":"pissarro_in",
 	"spesn_id_global":"spesn",
 	"SPESNIDGlobal":"spesn",
 	"viva_ru_global":"viva",
