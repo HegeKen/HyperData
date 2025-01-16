@@ -5,8 +5,8 @@
 		"en": "Redmi Pad SE"
 	},
 	"code": "MU",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "tablet",
 	"miui": "yes",
 	"merged":"no",
@@ -32,6 +32,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VMUCNXM": {
+					"os": "OS2.0.1.0.VMUCNXM",
+					"android": "15.0",
+					"release": "2025-01-13",
+					"recovery": "xun-ota_full-OS2.0.1.0.VMUCNXM-user-15.0-3ab7a9fd61.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.7.0.UMUCNXM": {
 					"os": "OS1.0.7.0.UMUCNXM",
 					"android": "14.0",
