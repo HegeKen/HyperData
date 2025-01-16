@@ -61,8 +61,8 @@ if 1 in errors:
 	print("数据有误，请核实后提交git")
 else:
 	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
-	os.system(f"cls")
-	print("数据提交成功")
 	time.sleep(3)
 	os.system(f"curl -X POST \"{config.deploy_url}\"")
+	os.system(f"cls")
+	print("数据提交成功")
 	print("网站已更新")

@@ -1020,6 +1020,8 @@ flags = {
 	"PISSARROTRGlobal":"pissarro",
 	"pissarro_in_fk_global":"pissarro_in",
 	"PISSARROINFKGlobal":"pissarro_in",
+	"TANZANITELMCRGlobal":"tanzanite",
+	"tanzanite_lm_cr_global":"tanzanite",
 	"spesn_id_global":"spesn",
 	"SPESNIDGlobal":"spesn",
 	"viva_ru_global":"viva",

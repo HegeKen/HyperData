@@ -165,6 +165,36 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "tanzanite_lm_cr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UOGLMCR": {
+					"os": "OS1.0.1.0.UOGLMCR",
+					"android": "14.0",
+					"release": "2025-01-16",
+					"recovery": "miui_TANZANITELMCRGlobal_OS1.0.1.0.UOGLMCR_699af1461c_14.0.zip",
+					"fastboot": "tanzanite_lm_cr_global_images_OS1.0.1.0.UOGLMCR_20241126.0000.00_14.0_lm_cr_b5c6b9dfc4.tgz"
+				}
+			}
 		}
   ]
 }
