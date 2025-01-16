@@ -260,6 +260,43 @@
 					"fastboot": "beryl_in_global_images_OS1.0.4.0.UOQINXM_20241118.0000.00_14.0_in_18028eb769.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "beryl_lm_cr_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO M7 Pro 5G",
+				"en" :"POCO M7 Pro 5G"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOQLMCR": {
+					"os": "OS1.0.2.0.UOQLMCR",
+					"android": "14.0",
+					"release": "2025-01-16",
+					"recovery": "miui_BERYLLMCRGlobal_OS1.0.2.0.UOQLMCR_e2c609fe20_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.1.0.UOQLMCR": {
+					"os": "OS1.0.1.0.UOQLMCR",
+					"android": "14.0",
+					"release": "2025-01-16",
+					"recovery": "miui_BERYLLMCRGlobal_OS1.0.1.0.UOQLMCR_f6543d44c8_14.0.zip",
+					"fastboot": "beryl_lm_cr_global_images_OS1.0.1.0.UOQLMCR_20241022.0000.00_14.0_lm_cr_d5e6d32a9b.tgz"
+				}
+			}
 		}
   ]
 }

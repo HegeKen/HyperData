@@ -390,6 +390,43 @@
 					"fastboot": "amethyst_id_global_images_OS1.0.4.0.UOPIDXM_20241206.0000.00_14.0_id_60b5335f48.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "amethyst_lm_cr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOPLMCR": {
+					"os": "OS1.0.2.0.UOPLMCR",
+					"android": "14.0",
+					"release": "2025-01-16",
+					"recovery": "miui_AMETHYSTLMCRGlobal_OS1.0.2.0.UOPLMCR_9ba26ba390_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.1.0.UOPLMCR": {
+					"os": "OS1.0.1.0.UOPLMCR",
+					"android": "14.0",
+					"release": "2025-01-16",
+					"recovery": "miui_AMETHYSTLMCRGlobal_OS1.0.1.0.UOPLMCR_90de466158_14.0.zip",
+					"fastboot": "amethyst_lm_cr_global_images_OS1.0.1.0.UOPLMCR_20241127.0000.00_14.0_lm_cr_0069eb81ad.tgz"
+				}
+			}
 		}
   ]
 }
