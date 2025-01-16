@@ -5,8 +5,8 @@
 		"en": "Redmi Note 13 Pro 4G / POCO M6 Pro"
 	},
 	"code": "NF",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -32,6 +32,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VNFMIXM": {
+					"os": "OS2.0.2.0.VNFMIXM",
+					"android": "15.0",
+					"release": "2025-01-16",
+					"recovery": "emerald_global-ota_full-OS2.0.2.0.VNFMIXM-user-15.0-c61adec515.zip",
+					"fastboot": ""
+				},
 				"OS1.0.10.0.UNFMIXM": {
 					"os": "OS1.0.10.0.UNFMIXM",
 					"android": "14.0",
