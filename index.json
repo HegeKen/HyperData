@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-01-17 15:52:10",
+    "time": "2025-01-17 19:55:03",
     "developing": "no",
     "roms": [
       {
@@ -49,7 +49,7 @@
           "zh": "小米 12",
           "en": "Xiaomi 12"
         },
-        "rom": "OS1.0.10.0.ULCMIXM; OS1.0.17.0.ULCEUXM"
+        "rom": "OS1.0.10.0.ULCMIXM; OS1.0.17.0.ULCEUXM; OS1.0.10.0.ULCIDXM"
       },
       {
         "code": "unicorn",
@@ -58,6 +58,14 @@
           "en": "Xiaomi 12S Pro"
         },
         "rom": "OS2.0.1.0.VLECNXM"
+      },
+      {
+        "code": "plato",
+        "name": {
+          "zh": "小米 12T",
+          "en": "Xiaomi 12T"
+        },
+        "rom": "OS1.0.15.0.ULQMIXM; OS1.0.17.0.ULQEUXM; OS1.0.7.0.ULQTRXM"
       },
       {
         "code": "fuxi",
@@ -329,7 +337,7 @@
           "zh": "Redmi Note 13 Pro+ 5G",
           "en": "Redmi Note 13 Pro+ 5G"
         },
-        "rom": "OS2.0.2.0.VNOCNXM"
+        "rom": "OS2.0.2.0.VNOCNXM; OS2.0.4.0.VNOMIXM"
       },
       {
         "code": "tanzanite",
@@ -337,7 +345,7 @@
           "zh": "Redmi Note 14 4G",
           "en": "Redmi Note 14 4G"
         },
-        "rom": "OS1.0.1.0.UOGTWXM; OS1.0.4.0.UOGMIXM; OS1.0.3.0.UOGMIXM; OS1.0.2.0.UOGMIXM; OS1.0.1.0.UOGMIXM; OS1.0.4.0.UOGMIDC; OS1.0.3.0.UOGMIDC; OS1.0.2.0.UOGRUXM; OS1.0.1.0.UOGRUXM; OS1.0.1.0.UOGLMCR"
+        "rom": "OS1.0.1.0.UOGTWXM; OS1.0.4.0.UOGMIXM; OS1.0.3.0.UOGMIXM; OS1.0.2.0.UOGMIXM; OS1.0.1.0.UOGMIXM; OS1.0.4.0.UOGMIDC; OS1.0.3.0.UOGMIDC; OS1.0.2.0.UOGEUXM; OS1.0.2.0.UOGRUXM; OS1.0.1.0.UOGRUXM; OS1.0.1.0.UOGLMCR"
       },
       {
         "code": "obsidian",
@@ -361,7 +369,7 @@
           "zh": "Redmi Note 14 Pro / POCO X7",
           "en": "Redmi Note 14 Pro / POCO X7"
         },
-        "rom": "OS1.0.3.0.UOOINXM"
+        "rom": "OS1.0.6.0.UOOEUXM; OS1.0.3.0.UOOINXM"
       },
       {
         "code": "amethyst",
@@ -441,7 +449,7 @@
           "zh": "Redmi K60 至尊版 / 小米 13T Pro",
           "en": "Redmi K60 Ultra / Xiaomi 13T Pro"
         },
-        "rom": "OS1.0.13.0.UMLTWXM; OS2.0.6.0.VMLMIXM; OS1.0.12.0.UMLRUXM; OS1.0.9.0.UMLTRXM; OS1.0.14.0.UMLJPXM"
+        "rom": "OS1.0.13.0.UMLTWXM; OS2.0.6.0.VMLMIXM; OS2.0.10.0.VMLEUXM; OS1.0.12.0.UMLRUXM; OS1.0.9.0.UMLTRXM; OS1.0.14.0.UMLJPXM"
       },
       {
         "code": "duchamp",
@@ -506,6 +514,14 @@
           "en": "Redmi 13 / POCO M6 4G"
         },
         "rom": "OS1.0.7.0.UNTLMCR"
+      },
+      {
+        "code": "air",
+        "name": {
+          "zh": "Redmi 13C/R 5G / POCO M6 5G",
+          "en": "Redmi 13C/R 5G / POCO M6 5G"
+        },
+        "rom": "OS2.0.1.0.VGQCNXM"
       }
     ]
   }

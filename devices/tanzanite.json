@@ -131,6 +131,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "tanzanite_eea_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UOGEUXM": {
+					"os": "OS1.0.2.0.UOGEUXM",
+					"android": "14.0",
+					"release": "2025-01-17",
+					"recovery": "miui_TANZANITEEEAGlobal_OS1.0.2.0.UOGEUXM_619b16e8d6_14.0.zip",
+					"fastboot": "tanzanite_eea_global_images_OS1.0.2.0.UOGEUXM_20241122.0000.00_14.0_eea_72747f7d6d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

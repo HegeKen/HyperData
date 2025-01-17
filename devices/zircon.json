@@ -245,6 +245,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.VNOMIXM": {
+					"os": "OS2.0.4.0.VNOMIXM",
+					"android": "15.0",
+					"release": "2025-01-17",
+					"recovery": "",
+					"fastboot": "zircon_global_images_OS2.0.4.0.VNOMIXM_20241225.0000.00_15.0_global_768cd71d2b.tgz"
+				},
 				"OS1.0.9.0.UNOMIXM": {
 					"os": "OS1.0.9.0.UNOMIXM",
 					"android": "14.0",
@@ -366,7 +373,7 @@
 					"android": "15.0",
 					"release": "2025-01-09",
 					"recovery": "zircon_eea_global-ota_full-OS2.0.2.0.VNOEUXM-user-15.0-a0338132bd.zip",
-					"fastboot": ""
+					"fastboot": "zircon_eea_global_images_OS2.0.2.0.VNOEUXM_20241227.0000.00_15.0_eea_b87611ec0f.tgz"
 				},
 				"OS1.0.12.0.UNOEUXM": {
 					"os": "OS1.0.12.0.UNOEUXM",
@@ -459,7 +466,7 @@
 					"android": "14.0",
 					"release": "2025-01-10",
 					"recovery": "miui_ZIRCONRUGlobal_OS1.0.9.0.UNORUXM_f832c6d29b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zircon_ru_global_images_OS1.0.9.0.UNORUXM_20241223.0000.00_14.0_ru_eea008d30a.tgz"
 				},
 				"OS1.0.8.0.UNORUXM": {
 					"os": "OS1.0.8.0.UNORUXM",
@@ -538,7 +545,7 @@
 					"android": "14.0",
 					"release": "2025-01-10",
 					"recovery": "miui_ZIRCONINGlobal_OS1.0.15.0.UNOINXM_4be2c7c4af_14.0.zip",
-					"fastboot": ""
+					"fastboot": "zircon_in_global_images_OS1.0.15.0.UNOINXM_20241223.0000.00_14.0_in_0b77e89ad0.tgz"
 				},
 				"OS1.0.14.0.UNOINXM": {
 					"os": "OS1.0.14.0.UNOINXM",
