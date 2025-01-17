@@ -37,9 +37,9 @@
 					"android": "14.0",
 					"release": "2025-01-02",
 					"recovery": "miui_LISA_OS1.0.9.0.UKOCNXM_e6c30298ad_14.0.zip",
-					"fastboot": "",
-					"ctelecom": "",
-					"cnmobile": ""
+					"fastboot": "lisa_images_OS1.0.9.0.UKOCNXM_20241213.0000.00_14.0_cn_a2a908a3fa.tgz",
+					"ctelecom": "lisa_images_OS1.0.9.0.UKOCNXM_20241213.0000.00_14.0_cn_chinatelecom_0702ff2f57.tgz",
+					"cnmobile": "lisa_images_OS1.0.9.0.UKOCNXM_20241213.0000.00_14.0_cn_chinamobile_7b18fdd080.tgz"
 				},
 				"OS1.0.8.0.UKOCNXM": {
 					"os": "OS1.0.8.0.UKOCNXM",
@@ -355,6 +355,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.10.0.UKOEUOR": {
+					"os": "OS1.0.10.0.UKOEUOR",
+					"android": "14.0",
+					"release": "2025-01-17",
+					"recovery": "miui_LISAEEAORGlobal_OS1.0.10.0.UKOEUOR_1a60a74fba_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.8.0.UKOEUOR": {
 					"os": "OS1.0.8.0.UKOEUOR",
 					"android": "14.0",
