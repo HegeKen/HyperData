@@ -150,6 +150,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.3.0.UOGEUXM": {
+					"os": "OS1.0.3.0.UOGEUXM",
+					"android": "14.0",
+					"release": "2025-01-18",
+					"recovery": "miui_TANZANITEEEAGlobal_OS1.0.3.0.UOGEUXM_a797eb6d02_14.0.zip",
+					"fastboot": "tanzanite_eea_global_images_OS1.0.3.0.UOGEUXM_20241212.0000.00_14.0_eea_7b602f380d.tgz"
+				},
 				"OS1.0.2.0.UOGEUXM": {
 					"os": "OS1.0.2.0.UOGEUXM",
 					"android": "14.0",
@@ -193,6 +200,36 @@
 					"release": "2025-01-15",
 					"recovery": "miui_TANZANITERUGlobal_OS1.0.1.0.UOGRUXM_9b4883e2b7_14.0.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "tanzanite_tr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UOGTRXM": {
+					"os": "OS1.0.1.0.UOGTRXM",
+					"android": "14.0",
+					"release": "2025-01-18",
+					"recovery": "miui_TANZANITETRGlobal_OS1.0.1.0.UOGTRXM_41ef5decf1_14.0.zip",
+					"fastboot": "tanzanite_tr_global_images_OS1.0.1.0.UOGTRXM_20241129.0000.00_14.0_tr_ed7dce7929.tgz"
 				}
 			}
 		},

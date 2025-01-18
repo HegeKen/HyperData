@@ -1026,6 +1026,8 @@ flags = {
 	"beryl_lm_cr_global":"beryl",
 	"TANZANITEEEAGlobal":"tanzanite",
 	"tanzanite_eea_global":"tanzanite",
+	"TANZANITETRGlobal":"tanzanite",
+	"tanzanite_tr_global":"tanzanite",
 	"AMETHYSTLMCRGlobal":"amethyst",
 	"amethyst_lm_cr_global":"amethyst",
 	"spesn_id_global":"spesn",
