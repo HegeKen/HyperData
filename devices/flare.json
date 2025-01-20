@@ -5,8 +5,8 @@
 		"en": "Redmi Pad SE 8.7 Wi-Fi"
 	},
 	"code": "HX",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "pad",
 	"miui": "no",
 	"merged":"no",
@@ -76,6 +76,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VHXMIXM": {
+					"os": "OS2.0.1.0.VHXMIXM",
+					"android": "15.0",
+					"release": "2025-01-20",
+					"recovery": "flare_global-ota_full-OS2.0.1.0.VHXMIXM-user-15.0-f4b05c0782.zip",
+					"fastboot": ""
+				},
 				"OS1.0.8.0.UHXMIXM": {
 					"os": "OS1.0.8.0.UHXMIXM",
 					"android": "14.0",
