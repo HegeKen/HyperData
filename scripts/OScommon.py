@@ -1027,6 +1027,8 @@ flags = {
 	"TANZANITEEEAGlobal":"tanzanite",
 	"tanzanite_eea_global":"tanzanite",
 	"TANZANITETRGlobal":"tanzanite",
+	"MALACHITETRGlobal":"malachite",
+	"malachite_tr_global":"malachite",
 	"tanzanite_tr_global":"tanzanite",
 	"AMETHYSTLMCRGlobal":"amethyst",
 	"amethyst_lm_cr_global":"amethyst",
