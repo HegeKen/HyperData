@@ -5,8 +5,8 @@
     "en": "Redmi Pad SE 4G 8.7"
   },
 	"code": "HY",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "tablet",
   "miui": "no",
 	"merged":"no",
@@ -76,6 +76,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VHYMIXM": {
+					"os": "OS2.0.1.0.VHYMIXM",
+					"android": "15.0",
+					"release": "2025-01-20",
+					"recovery": "spark_global-ota_full-OS2.0.1.0.VHYMIXM-user-15.0-a5e6472834.zip",
+					"fastboot": ""
+				},
 				"OS1.0.6.0.UHYMIXM": {
 					"os": "OS1.0.6.0.UHYMIXM",
 					"android": "14.0",

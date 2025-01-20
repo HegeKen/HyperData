@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-01-20 11:00:27",
+    "time": "2025-01-20 14:36:24",
     "developing": "no",
     "roms": [
       {
@@ -20,12 +20,20 @@
         "rom": "OS1.0.10.0.ULCTWXM; OS1.0.8.0.ULCRUXM; OS1.0.8.0.ULCTRXM"
       },
       {
+        "code": "degas",
+        "name": {
+          "zh": "小米 14T",
+          "en": "Xiaomi 14T"
+        },
+        "rom": "OS2.0.2.0.VNERUXM"
+      },
+      {
         "code": "ruyi",
         "name": {
           "zh": "小米 MIX Flip",
           "en": "Xiaomi MIX Flip"
         },
-        "rom": "OS2.0.3.0.VNIMIXM"
+        "rom": "OS2.0.2.0.VNITWXM; OS2.0.3.0.VNIMIXM; OS2.0.4.0.VNIEUXM; OS2.0.2.0.VNIRUXM"
       },
       {
         "code": "sapphiren",
@@ -34,6 +42,14 @@
           "en": "Redmi Note 13 NFC"
         },
         "rom": "OS2.0.4.0.VNHTWXM; OS2.0.2.0.VNHEUXM; OS2.0.5.0.VNHRUXM"
+      },
+      {
+        "code": "spark",
+        "name": {
+          "zh": "Redmi 平板 SE 4G 8.7",
+          "en": "Redmi Pad SE 4G 8.7"
+        },
+        "rom": "OS2.0.1.0.VHYMIXM"
       }
     ]
   }
