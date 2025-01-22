@@ -314,6 +314,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VNRMIXM": {
+					"os": "OS2.0.2.0.VNRMIXM",
+					"android": "15.0",
+					"release": "2025-01-22",
+					"recovery": "garnet_global-ota_full-OS2.0.2.0.VNRMIXM-user-15.0-fe24c4430f.zip",
+					"fastboot": "garnet_global_images_OS2.0.2.0.VNRMIXM_20241218.0000.00_15.0_global_3080880bf7.tgz"
+				},
 				"OS1.0.17.0.UNRMIXM": {
 					"os": "OS1.0.17.0.UNRMIXM",
 					"android": "14.0",
@@ -706,7 +713,7 @@
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_GARNETIDGlobal_OS1.0.14.0.UNRIDXM_0e43d2b022_14.0.zip",
-					"fastboot": ""
+					"fastboot": "garnet_id_global_images_OS1.0.14.0.UNRIDXM_20241223.0000.00_14.0_id_49f3a76539.tgz"
 				},
 				"OS1.0.13.0.UNRIDXM": {
 					"os": "OS1.0.13.0.UNRIDXM",

@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-01-21 22:29:53",
+    "time": "2025-01-22 18:17:14",
     "developing": "no",
     "roms": [
+      {
+        "code": "venus",
+        "name": {
+          "zh": "小米 11",
+          "en": "Mi 11"
+        },
+        "rom": "OS1.0.6.0.UKBEUVF"
+      },
       {
         "code": "star",
         "name": {
@@ -10,6 +18,14 @@
           "en": "Mi 11 Pro / Ultra"
         },
         "rom": "OS1.0.9.0.UKAEUXM; OS1.0.9.0.UKAINXM; OS1.0.9.0.UKAIDXM"
+      },
+      {
+        "code": "lisa",
+        "name": {
+          "zh": "小米 11 青春活力版 / 小米 11 Lite 5G NE",
+          "en": "Mi 11 LE / Xiaomi 11 Lite 5G NE"
+        },
+        "rom": "OS1.0.11.0.UKOEUVF; OS1.0.6.0.UKOEUSF"
       },
       {
         "code": "agate",
@@ -34,6 +50,14 @@
           "en": "Xiaomi 13 Ultra"
         },
         "rom": "OS2.0.1.0.VMAEUXM; OS2.0.1.0.VMARUXM"
+      },
+      {
+        "code": "houji",
+        "name": {
+          "zh": "小米 14",
+          "en": "Xiaomi 14"
+        },
+        "rom": "OS2.0.3.0.VNCEUXM"
       },
       {
         "code": "degas",
@@ -121,7 +145,7 @@
           "zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
           "en": "Redmi Note 13 Pro 5G / POCO X6 5G"
         },
-        "rom": "OS2.0.1.0.VNRCNXM; OS2.0.3.0.VNRTWXM; OS2.0.3.0.VNRTRXM"
+        "rom": "OS2.0.1.0.VNRCNXM; OS2.0.3.0.VNRTWXM; OS2.0.2.0.VNRMIXM; OS2.0.3.0.VNRTRXM"
       },
       {
         "code": "emerald",
