@@ -272,6 +272,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.15.0.ULFCNXM": {
+					"os": "OS1.0.15.0.ULFCNXM",
+					"android": "14.0",
+					"release": "2025-01-23",
+					"recovery": "miui_DITING_OS1.0.15.0.ULFCNXM_bad3962680_14.0.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.13.0.ULFCNXM": {
 					"os": "OS1.0.13.0.ULFCNXM",
 					"android": "14.0",
@@ -466,7 +474,7 @@
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_DITINGGlobal_OS1.0.10.0.ULFMIXM_48f1b8659d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "diting_global_images_OS1.0.10.0.ULFMIXM_20241216.0000.00_14.0_global_f1a797bf10.tgz"
 				},
 				"OS1.0.9.0.ULFMIXM": {
 					"os": "OS1.0.9.0.ULFMIXM",
@@ -552,7 +560,7 @@
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_DITINGEEAGlobal_OS1.0.14.0.ULFEUXM_7ca8fb9647_14.0.zip",
-					"fastboot": ""
+					"fastboot": "diting_eea_global_images_OS1.0.14.0.ULFEUXM_20241218.0000.00_14.0_eea_48f2a1b036.tgz"
 				},
 				"OS1.0.13.0.ULFEUXM": {
 					"os": "OS1.0.13.0.ULFEUXM",
