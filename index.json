@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-01-24 15:30:12",
+    "time": "2025-01-24 20:43:16",
     "developing": "no",
     "roms": [
       {
@@ -49,7 +49,7 @@
           "zh": "小米 12 Pro",
           "en": "Xiaomi 12 Pro"
         },
-        "rom": "OS1.0.10.0.ULBMIXM"
+        "rom": "OS2.0.1.0.VLBCNXM; OS1.0.10.0.ULBMIXM"
       },
       {
         "code": "mayfly",
@@ -113,7 +113,7 @@
           "zh": "小米平板 6",
           "en": "Xiaomi Pad 6"
         },
-        "rom": "OS1.0.11.0.UMZINXM"
+        "rom": "OS1.0.11.0.UMZINXM; OS1.0.12.0.UMZTRXM"
       },
       {
         "code": "sheng",
@@ -124,12 +124,28 @@
         "rom": "OS2.0.102.3.VNXCNXM"
       },
       {
+        "code": "babylon",
+        "name": {
+          "zh": "小米 MIX Fold 3",
+          "en": "Xiaomi MIX Fold 3"
+        },
+        "rom": "OS2.0.101.0.VMVCNXM"
+      },
+      {
         "code": "ruyi",
         "name": {
           "zh": "小米 MIX Flip",
           "en": "Xiaomi MIX Flip"
         },
         "rom": "OS2.0.2.0.VNITWXM; OS2.0.3.0.VNIMIXM; OS2.0.4.0.VNIEUXM; OS2.0.2.0.VNIRUXM"
+      },
+      {
+        "code": "zijin",
+        "name": {
+          "zh": "小米 Civi 1S",
+          "en": "Xiaomi Civi 1S"
+        },
+        "rom": "OS1.0.11.0.ULPCNXM"
       },
       {
         "code": "fleur",
@@ -257,7 +273,7 @@
           "zh": "Redmi K40 Pro/Pro+ / 小米 11i / 小米 11X Pro",
           "en": "Redmi K40 Pro/Pro+/ Mi 11i / Mi 11X Pro"
         },
-        "rom": "OS1.0.14.0.UKKEUXM; OS1.0.11.0.UKKINXM"
+        "rom": "OS1.0.11.0.UKKCNXM; OS1.0.14.0.UKKMIXM; OS1.0.14.0.UKKEUXM; OS1.0.11.0.UKKINXM"
       },
       {
         "code": "diting",
@@ -266,6 +282,14 @@
           "en": "Redmi K50 Ultra / Xiaomi 12T Pro"
         },
         "rom": "OS1.0.15.0.ULFCNXM"
+      },
+      {
+        "code": "socrates",
+        "name": {
+          "zh": "Redmi K60 Pro",
+          "en": "Redmi K60 Pro"
+        },
+        "rom": "OS2.0.100.0.VMKCNXM"
       },
       {
         "code": "corot",

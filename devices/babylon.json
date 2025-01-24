@@ -286,6 +286,14 @@
 			"ep": "0",
 			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 			"roms": {
+				"OS2.0.101.0.VMVCNXM": {
+					"os": "OS2.0.101.0.VMVCNXM",
+					"android": "15.0",
+					"release": "2025-01-24",
+					"recovery": "babylon-ota_full-OS2.0.101.0.VMVCNXM-user-15.0-494e2e378c.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.5.0.VMVCNXM": {
 					"os": "OS2.0.5.0.VMVCNXM",
 					"android": "15.0",
@@ -405,6 +413,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VMVCNDM": {
+					"os": "OS2.0.1.0.VMVCNDM",
+					"android": "15.0",
+					"release": "2025-01-24",
+					"recovery": "babylon_demo-ota_full-OS2.0.1.0.VMVCNDM-user-15.0-934e0b46cc.zip",
+					"fastboot": "babylon_demo_images_OS2.0.1.0.VMVCNDM_20250110.0000.00_15.0_cn_22e461a9a2.tgz",
+					"ctelecom": "babylon_demo_images_OS2.0.1.0.VMVCNDM_20250110.0000.00_15.0_cn_chinatelecom_bf9c54e8b2.tgz"
+				},
 				"OS1.0.1.0.UMVCNDM": {
 					"os": "OS1.0.1.0.UMVCNDM",
 					"android": "14.0",
