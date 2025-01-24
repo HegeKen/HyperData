@@ -5,8 +5,8 @@
 		"en": "Xiaomi 12S"
 	},
 	"code": "LT",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -272,6 +272,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VLTCNXM": {
+					"os": "OS2.0.1.0.VLTCNXM",
+					"android": "15.0",
+					"release": "2025-01-24",
+					"recovery": "mayfly-ota_full-OS2.0.1.0.VLTCNXM-user-15.0-49a4c240c4.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.14.0.ULTCNXM": {
 					"os": "OS1.0.14.0.ULTCNXM",
 					"android": "14.0",

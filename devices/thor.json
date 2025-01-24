@@ -5,8 +5,8 @@
 		"en": "Xiaomi 12S Ultra"
 	},
 	"code": "LA",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -272,6 +272,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VLACNXM": {
+					"os": "OS2.0.1.0.VLACNXM",
+					"android": "15.0",
+					"release": "2025-01-24",
+					"recovery": "thor-ota_full-OS2.0.1.0.VLACNXM-user-15.0-8ebdc506ad.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.16.0.ULACNXM": {
 					"os": "OS1.0.16.0.ULACNXM",
 					"android": "14.0",
