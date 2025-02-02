@@ -9,8 +9,10 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 from requests.adapters import HTTPAdapter
+from pymysql import Connection
+import config
 
 sdk = {
 	"15": "35",
@@ -1948,6 +1950,39 @@ def localData(codename):
 		devdata = json.loads(open("/sdcard/Codes/HyperOS.fans/public/data/devices/" + codename+".json", 'r', encoding='utf-8').read())
 	return devdata
 
+def db_job(sql):
+  cnx = None
+  try:
+    cnx = Connection(
+      user=config.user,
+      password=config.password,
+      host=config.host,
+      port=config.port,
+      database=config.database,
+      autocommit=True
+      )
+    cursor = cnx.cursor()
+    cursor.execute(sql)
+    return cursor.fetchall()
+  except Exception as e:
+    print(sql,e)
+  finally:
+    if cnx:
+      cnx.close()
+
+def stringify(s):
+    return f"'{s}'"
+def get_time(url):
+  try:
+    response = requests.head(url, allow_redirects=True)
+    if 'Last-Modified' in response.headers:
+      last_modified_str = response.headers['Last-Modified']
+      date = datetime.strptime(last_modified_str, "%a, %d %b %Y %H:%M:%S %Z") + timedelta(hours=8)
+      return date.strftime("%Y-%m-%d")
+    else:
+      return ""
+  except requests.RequestException as e:
+    return f"访问URL失败: {e}"
 
 def writeData(filename):
 	
