@@ -339,6 +339,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "malachite_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.7.0.UOOIDXM": {
+					"os": "OS1.0.7.0.UOOIDXM",
+					"android": "14.0",
+					"release": "2024-02-04",
+					"recovery": "miui_MALACHITEIDGlobal_OS1.0.7.0.UOOIDXM_bebd87bdd2_14.0.zip",
+					"fastboot": "malachite_id_global_images_OS1.0.7.0.UOOIDXM_20250114.0000.00_14.0_id_7c270ed7fb.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},

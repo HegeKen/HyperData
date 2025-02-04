@@ -9,7 +9,7 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from requests.adapters import HTTPAdapter
 from pymysql import Connection
 import config
@@ -68,7 +68,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'peridot', 'rodin','alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', "zorn", "miro",
-				 'yunluo', 'xun', 'spark', 'dizi', 'ruan', 'warm', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
+				 'yunluo', 'xun', 'flare', 'spark', 'dizi', 'ruan', 'warm', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
 branches = [
   {
@@ -312,6 +312,8 @@ flags = {
 	"earth_ep_stdee":"earth",
 	"warm_in_global":"warm",
 	"WARMINGlobal":"warm",
+	"MALACHITEIDGlobal":"malachite",
+	"malachite_id_global":"malachite",
 	"tanzanite_tw_global": "tanzanite",
 	"TANZANITETWGlobal": "tanzanite",
 	"TANZANITERUGlobal":"tanzanite",
@@ -1983,6 +1985,28 @@ def get_time(url):
       return ""
   except requests.RequestException as e:
     return f"访问URL失败: {e}"
+
+def get_version(filename):
+  if ".zip" in filename:
+    if "miui" in filename:
+      version = filename.split("_")[2]
+    else:
+      version = filename.split("ota_full-")[1].split("-")[0]
+  else:
+    version = filename.split("images_")[1].split("_")[0]
+  return version
+def get_android(filename):
+  if ".zip" in filename:
+    if "miui" in filename:
+      android = filename.split("_")[4].split(".zip")[0]
+    else:
+      android = filename.split("ota_full-")[1].split("-")[2]
+  else:
+    android = filename.split("images_")[1].split("_")[2]
+  return android
+def form_url(filename):
+  base_url = 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/'
+  return base_url+get_version(filename)+"/"+filename
 
 def writeData(filename):
 	
