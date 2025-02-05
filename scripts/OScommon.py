@@ -2098,25 +2098,46 @@ def OTAFormer(device, code, region, branch, zone, android, version):
 		return json.dumps(HyperOSForm)
 
 def getBranchcode(filename):
-  if filename.startswith("miui"):
-    branchCode = filename.split("_")[1]
-  else:
-    branchCode = filename.split("-")[0]
-  get_sql = "SELECT * FROM devices WHERE branchcode = %s" % (stringify(branchCode))
-  if len(db_job(get_sql)) > 0:
-    return branchCode
-  else:
-    return 0
-def getRegion(filename):
-  if filename.startswith("miui"):
-    branchCode = filename.split("_")[1]
-    get_sql = "SELECT region FROM devices WHERE branchcode = %s" % (stringify(branchCode))
-    if len(db_job(get_sql)) > 0:
-      return db_job(get_sql)[0][0]
+  if filename.endswith(".zip"):
+    if filename.startswith("miui"):
+      branchCode = filename.split("_")[1]
+      get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (stringify(branchCode))
+      if len(db_job(get_sql)) > 0:
+        return branchCode
+      else:
+        return 0
     else:
-      return ""
+      return filename.split("-")[0]
+  elif filename.endswith(".tgz"):
+    return filename.split('_images')[0]
+
+def getRegion(filename):
+  if ".zip" in filename:
+    if filename.startswith("miui"):
+      branchCode = filename.split("_")[1]
+      get_sql = "SELECT region FROM devices WHERE branchcode = %s" % (stringify(branchCode))
+      if len(db_job(get_sql)) > 0:
+        if db_job(get_sql)[0][0] is None:
+          return ""
+        else:
+          return db_job(get_sql)[0][0]
+      else:
+        return ""
+    else:
+      if filename.split("_")[0] == getDeviceCode(filename)+"-ota":
+        return "cn"
+      else:
+        return filename.split("_")[1]
   else:
-    return filename.split("_")[1]
+    code = filename.split('_images')[0]
+    get_sql = f"SELECT region FROM devices WHERE code = %s" % (stringify(code))
+    if len(db_job(get_sql)) > 0:
+      if db_job(get_sql)[0][0] is None:
+        return ""
+      else:
+        return db_job(get_sql)[0][0]
+    else:
+       return ""
   
 def getTag(filename):
   if filename.startswith("miui"):
