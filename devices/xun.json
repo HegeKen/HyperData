@@ -37,8 +37,8 @@
 					"android": "15.0",
 					"release": "2025-01-13",
 					"recovery": "xun-ota_full-OS2.0.1.0.VMUCNXM-user-15.0-3ab7a9fd61.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "xun_images_OS2.0.1.0.VMUCNXM_20241217.0000.00_15.0_cn_a6283d67cf.tgz",
+					"ctelecom": "xun_images_OS2.0.1.0.VMUCNXM_20241217.0000.00_15.0_cn_chinatelecom_344dc9a5ce.tgz"
 				},
 				"OS1.0.7.0.UMUCNXM": {
 					"os": "OS1.0.7.0.UMUCNXM",
@@ -224,6 +224,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VMUMIXM": {
+					"os": "OS2.0.1.0.VMUMIXM",
+					"android": "15.0",
+					"release": "2025-02-05",
+					"recovery": "xun_global-ota_full-OS2.0.1.0.VMUMIXM-user-15.0-2de2c70e8d.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UMUMIXM": {
 					"os": "OS1.0.7.0.UMUMIXM",
 					"android": "14.0",
