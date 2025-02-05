@@ -2127,7 +2127,7 @@ def getRegion(filename):
       if filename.split("_")[0] == getDeviceCode(filename)+"-ota":
         return "cn"
       else:
-        return filename.split("_")[1]
+        return filename.split("_")[1].split('-')[0]
   else:
     code = filename.split('_images')[0]
     get_sql = f"SELECT region FROM devices WHERE code = %s" % (stringify(code))
@@ -2140,15 +2140,37 @@ def getRegion(filename):
        return ""
   
 def getTag(filename):
-  if filename.startswith("miui"):
-    branchCode = filename.split("_")[1]
+  if ".zip" in filename:
+    if filename.startswith("miui"):
+      branchCode = filename.split("_")[1]
+      get_sql = "SELECT tag FROM devices WHERE branchcode = %s" % (stringify(branchCode))
+      if len(db_job(get_sql)) > 0:
+        if db_job(get_sql)[0][0] is None:
+          return ""
+        else:
+          return db_job(get_sql)[0][0]
+      else:
+        return ""
+    else:
+      code = filename.split("-")[0]
+      get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
+      if len(db_job(get_sql)) > 0:
+        if db_job(get_sql)[0][0] is None:
+          return ""
+        else:
+          return db_job(get_sql)[0][0]
+      else:
+        return ""
   else:
-    branchCode = filename.split("-")[0]
-  get_sql = "SELECT tag FROM devices WHERE branchcode = %s" % (stringify(branchCode))
-  if len(db_job(get_sql)) > 0:
-    return db_job(get_sql)[0][0]
-  else:
-    return ""
+    code = filename.split("-")[0]
+    get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
+    if len(db_job(get_sql)) > 0:
+      if db_job(get_sql)[0][0] is None:
+        return ""
+      else:
+        return db_job(get_sql)[0][0]
+    else:
+      return ""
 
 def checkDatabase(filename):
   if ".EP" in filename:
