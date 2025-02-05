@@ -2110,9 +2110,20 @@ def getBranchcode(filename):
 def getRegion(filename):
   if filename.startswith("miui"):
     branchCode = filename.split("_")[1]
+    get_sql = "SELECT region FROM devices WHERE branchcode = %s" % (stringify(branchCode))
+    if len(db_job(get_sql)) > 0:
+      return db_job(get_sql)[0][0]
+    else:
+      return ""
+  else:
+    return filename.split("_")[1]
+  
+def getTag(filename):
+  if filename.startswith("miui"):
+    branchCode = filename.split("_")[1]
   else:
     branchCode = filename.split("-")[0]
-  get_sql = "SELECT region FROM devices WHERE branchcode = %s" % (stringify(branchCode))
+  get_sql = "SELECT tag FROM devices WHERE branchcode = %s" % (stringify(branchCode))
   if len(db_job(get_sql)) > 0:
     return db_job(get_sql)[0][0]
   else:
@@ -2126,6 +2137,7 @@ def checkDatabase(filename):
     device = stringify(getDeviceCode(filename))
     code = stringify(getBranchcode(filename))
     region = stringify(getRegion(filename))
+    tag = stringify(getTag(filename))
     android = stringify(get_android(filename))
     public_date = stringify(get_time(form_url(filename)))
     if get_version(filename).startswith('V'):
@@ -2164,16 +2176,16 @@ def checkDatabase(filename):
           release_date = stringify(date.today().strftime("%Y-%m-%d"))
           if "chinatelecom" in filename:
             ctelecom = stringify(filename)
-            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,version,android,ctelecom,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),version,android,ctelecom,release_date,insdate,update_date,1)
+            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,ctelecom,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,ctelecom,release_date,insdate,update_date,1)
           elif "chinaunicom" in filename:
             cunicom = stringify(filename)
-            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,version,android,cunicom,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),version,android,cunicom,release_date,insdate,update_date,1)
+            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,cunicom,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,cunicom,release_date,insdate,update_date,1)
           elif "chinamobile" in filename:
             cmobile = stringify(filename)
-            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,version,android,cmobile,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),version,android,cmobile,release_date,insdate,update_date,1)
+            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,cmobile,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,cmobile,release_date,insdate,update_date,1)
           else:
             fastboot = stringify(filename)
-            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,version,android,fastboot,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),version,android,fastboot,release_date,insdate,update_date,1)
+            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,fastboot,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,fastboot,release_date,insdate,update_date,1)
           db_job(ins_sql)
       elif ".zip" in filename:
         update_date = int(datetime.now(timezone.utc).timestamp())
@@ -2189,7 +2201,7 @@ def checkDatabase(filename):
             code = stringify(filename.split("-")[0])
           else:
             code = stringify(filename.split("_")[1])
-          ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,version,android,recovery,beta_date,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),version,android,stringify(filename),beta_date,release_date,insdate,update_date,1)
+          ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,recovery,beta_date,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,stringify(filename),beta_date,release_date,insdate,update_date,1)
         db_job(ins_sql)
       else:
         i = 0

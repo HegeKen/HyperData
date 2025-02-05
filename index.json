@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-02-05 14:41:26",
+    "time": "2025-02-05 15:47:30",
     "developing": "no",
     "roms": [
       {
@@ -52,6 +52,14 @@
         "rom": "OS2.0.1.0.VMFTWXM; OS2.0.1.0.VMFTRXM"
       },
       {
+        "code": "ziyi",
+        "name": {
+          "zh": "小米 Civi 2",
+          "en": "Xiaomi Civi 2"
+        },
+        "rom": "OS1.0.14.0.ULLEUXM"
+      },
+      {
         "code": "ruby",
         "name": {
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
@@ -89,7 +97,7 @@
           "zh": "Redmi K50 至尊版 / 小米 12T Pro",
           "en": "Redmi K50 Ultra / Xiaomi 12T Pro"
         },
-        "rom": "OS1.0.11.0.ULFMIXM"
+        "rom": "OS1.0.11.0.ULFMIXM; OS1.0.16.0.ULFEUXM"
       },
       {
         "code": "rothko",
@@ -108,12 +116,28 @@
         "rom": "OS2.0.1.0.VMUMIXM"
       },
       {
+        "code": "dizi",
+        "name": {
+          "zh": "Redmi Pad Pro / 哈利·波特版 / POCO Pad",
+          "en": "Redmi Pad Pro / Special Edition featuring Harry Potter / POCO Pad"
+        },
+        "rom": "OS1.0.10.0.UNSEUXM"
+      },
+      {
         "code": "ruan",
         "name": {
           "zh": "Redmi Pad Pro 5G / POCO Pad 5G",
           "en": "Redmi Pad Pro 5G / POCO Pad 5G"
         },
         "rom": "OS2.0.1.0.VFSMIXM; OS2.0.1.0.VFSINXM"
+      },
+      {
+        "code": "moon",
+        "name": {
+          "zh": "Redmi 13 / POCO M6 4G",
+          "en": "Redmi 13 / POCO M6 4G"
+        },
+        "rom": "OS2.0.3.0.VNTRUXM"
       }
     ]
   }
