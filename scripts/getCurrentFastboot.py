@@ -19,6 +19,6 @@ for device in OScommon.currentStable:
       OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n=")
     else:
       for carrier in carriers:
-        print("\r",datetime.now().strftime("%Y-%m-%d %H:%Mx:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")
+        print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")
         print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t"+base_url+code+"&b="+btag+"&r="+region+"&n="+carrier+"                                   ",end="")   
         OScommon.getFastboot(base_url+code+"&b="+btag+"&r="+region+"&n="+carrier)
