@@ -2103,7 +2103,7 @@ def getBranchcode(filename):
       branchCode = filename.split("_")[1]
       get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (stringify(branchCode))
       if len(db_job(get_sql)) > 0:
-        return branchCode
+        return db_job(get_sql)[0][0]
       else:
         return 0
     else:
