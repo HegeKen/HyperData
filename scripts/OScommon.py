@@ -1928,6 +1928,8 @@ flags = {
 	"babylon": "babylon",
 	"zizhan": "zizhan",
 	"NUWA": "nuwa",
+	"TANZANITEIDGlobal":"tanzanite",
+	"tanzanite_id_global":"tanzanite",
 	"NUWADEMO": "nuwa",
 	"ISHTAR": "ishtar",
 	"ishtar": "ishtar",
@@ -2171,6 +2173,19 @@ def getTag(filename):
         return db_job(get_sql)[0][0]
     else:
       return ""
+def getCode(filename):
+  if ".zip" in filename:
+    if "-ota_full" in filename:
+      return filename.split("-")[0]
+    else:
+      code = filename.split("_")[1]
+    get_sql = f"SELECT code FROM devices WHERE branchcode = '{code}'"
+    if len(db_job(get_sql)) > 0:
+      return db_job(get_sql)[0][0]
+    else:
+      return 0
+  elif ".tgz" in filename:
+    return filename.split('_images')[0]
 
 def checkDatabase(filename):
   if ".EP" in filename:
@@ -2240,10 +2255,7 @@ def checkDatabase(filename):
           i = 0
           ins_sql = "COMMIT;"
         else:
-          if "-ota_full" in filename:
-            code = stringify(filename.split("-")[0])
-          else:
-            code = stringify(filename.split("_")[1])
+          code = stringify(getCode(filename))
           ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,recovery,beta_date,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,stringify(filename),beta_date,release_date,insdate,update_date,1)
         db_job(ins_sql)
       else:

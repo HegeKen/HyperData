@@ -37,7 +37,7 @@
 					"android": "15.0",
 					"release": "2025-01-17",
 					"recovery": "degas_tw_global-ota_full-OS2.0.1.0.VNETWXM-user-15.0-aad3b1bc9b.zip",
-					"fastboot": ""
+					"fastboot": "degas_tw_global_images_OS2.0.1.0.VNETWXM_20250102.0000.00_15.0_tw_0997fbb1c1.tgz"
 				},
 				"OS1.0.6.0.UNETWXM": {
 					"os": "OS1.0.6.0.UNETWXM",
@@ -392,7 +392,7 @@
 					"android": "15.0",
 					"release": "2025-01-17",
 					"recovery": "degas_tr_global-ota_full-OS2.0.2.0.VNETRXM-user-15.0-dba3c3f05e.zip",
-					"fastboot": ""
+					"fastboot": "degas_tr_global_images_OS2.0.2.0.VNETRXM_20250109.0000.00_15.0_tr_52e2ef0f63.tgz"
 				},
 				"OS1.0.6.0.UNETRXM": {
 					"os": "OS1.0.6.0.UNETRXM",
@@ -482,6 +482,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.4.0.UNELMCR": {
+					"os": "OS1.0.4.0.UNELMCR",
+					"android": "14.0",
+					"release": "2025-02-06",
+					"recovery": "miui_DEGASLMCRGlobal_OS1.0.4.0.UNELMCR_4d651a0be4_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UNELMCR": {
 					"os": "OS1.0.3.0.UNELMCR",
 					"android": "14.0",

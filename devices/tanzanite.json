@@ -205,6 +205,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "tanzanite_id_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UOGIDXM": {
+					"os": "OS1.0.1.0.UOGIDXM",
+					"android": "14.0",
+					"release": "2025-02-06",
+					"recovery": "miui_TANZANITEIDGlobal_OS1.0.1.0.UOGIDXM_40e2e12e52_14.0.zip",
+					"fastboot": "tanzanite_id_global_images_OS1.0.1.0.UOGIDXM_20241126.0000.00_14.0_id_f1e7919203.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
