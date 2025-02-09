@@ -2155,14 +2155,20 @@ def getTag(filename):
         return ""
     else:
       code = filename.split("-")[0]
-      get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
-      if len(db_job(get_sql)) > 0:
-        if db_job(get_sql)[0][0] is None:
-          return ""
+      if "CNXM" in filename:
+        if get_version(filename).split(".")[3] == 0:
+           return "CnOO"
         else:
-          return db_job(get_sql)[0][0]
+          return "CnOB"
       else:
-        return ""
+        get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
+        if len(db_job(get_sql)) > 0:
+          if db_job(get_sql)[0][0] is None:
+            return ""
+          else:
+            return db_job(get_sql)[0][0]
+        else:
+          return ""
   else:
     code = filename.split("-")[0]
     get_sql = f"SELECT tag FROM devices WHERE code = %s" % (stringify(code))
