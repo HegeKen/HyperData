@@ -2156,8 +2156,8 @@ def getTag(filename):
     else:
       code = filename.split("-")[0]
       if "CNXM" in filename:
-        if get_version(filename).split(".")[3] == 0:
-           return "CnOO"
+        if get_version(filename).split(".")[3] == 0 or get_version(filename).split(".")[3] == "0":
+          return "CnOO"
         else:
           return "CnOB"
       else:
