@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-02-10 12:35:25",
+    "time": "2025-02-10 16:43:33",
     "developing": "no",
     "roms": [
+      {
+        "code": "aristotle",
+        "name": {
+          "zh": "小米 13T",
+          "en": "Xiaomi 13T"
+        },
+        "rom": "OS1.0.6.0.UMFMIDC"
+      },
       {
         "code": "fire",
         "name": {
@@ -25,7 +33,31 @@
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
           "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
         },
-        "rom": "OS1.0.13.0.UMOCNXM"
+        "rom": "OS1.0.13.0.UMOCNXM; OS1.0.3.0.UMOCLEN"
+      },
+      {
+        "code": "tapas",
+        "name": {
+          "zh": "Redmi Note 12 4G",
+          "en": "Redmi Note 12 4G"
+        },
+        "rom": "OS2.0.9.0.VMTMIXM"
+      },
+      {
+        "code": "sea",
+        "name": {
+          "zh": "Redmi Note 12S",
+          "en": "Redmi Note 12S"
+        },
+        "rom": "OS1.0.10.0.UHZRUXM; OS1.0.9.0.UHZTRXM"
+      },
+      {
+        "code": "malachite",
+        "name": {
+          "zh": "Redmi Note 14 Pro / POCO X7",
+          "en": "Redmi Note 14 Pro / POCO X7"
+        },
+        "rom": "OS1.0.8.0.UOOEUXM"
       },
       {
         "code": "diting",
@@ -44,12 +76,28 @@
         "rom": "OS2.0.3.0.VNNIDXM; OS1.0.4.0.UNNLMCR"
       },
       {
+        "code": "yunluo",
+        "name": {
+          "zh": "Redmi 平板",
+          "en": "Redmi Pad"
+        },
+        "rom": "OS1.0.6.0.ULYRUXM; OS1.0.7.0.ULYINXM; OS1.0.4.0.ULYIDXM"
+      },
+      {
+        "code": "ruan",
+        "name": {
+          "zh": "Redmi Pad Pro 5G / POCO Pad 5G",
+          "en": "Redmi Pad Pro 5G / POCO Pad 5G"
+        },
+        "rom": "OS1.0.10.0.UFSEUXM"
+      },
+      {
         "code": "air",
         "name": {
           "zh": "Redmi 13C/R 5G / POCO M6 5G",
           "en": "Redmi 13C/R 5G / POCO M6 5G"
         },
-        "rom": "OS2.0.1.0.VGQMIXM"
+        "rom": "OS2.0.1.0.VGQMIXM; OS1.0.3.0.UGQMIDC"
       }
     ]
   }
