@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-02-10 19:35:26",
+    "time": "2025-02-10 23:42:49",
     "developing": "no",
     "roms": [
+      {
+        "code": "cupid",
+        "name": {
+          "zh": "小米 12",
+          "en": "Xiaomi 12"
+        },
+        "rom": "OS1.0.11.0.ULCMIXM"
+      },
       {
         "code": "aristotle",
         "name": {
@@ -12,12 +20,20 @@
         "rom": "OS1.0.6.0.UMFMIDC"
       },
       {
+        "code": "aurora",
+        "name": {
+          "zh": "小米 14 Ultra / Ultra Ti",
+          "en": "Xiaomi 14 Ultra"
+        },
+        "rom": "OS2.0.103.0.VNACNXM"
+      },
+      {
         "code": "fire",
         "name": {
           "zh": "Redmi 12 国际",
           "en": "Redmi 12"
         },
-        "rom": "OS2.0.2.0.VMXINXM"
+        "rom": "OS2.0.2.0.VMXINXM; OS1.0.6.0.UMXLMCR"
       },
       {
         "code": "earth",
@@ -44,6 +60,14 @@
         "rom": "OS1.0.13.0.UMOCNXM; OS1.0.3.0.UMOCLEN"
       },
       {
+        "code": "pearl",
+        "name": {
+          "zh": "Redmi Note 12T Pro",
+          "en": "Redmi Note 12T Pro"
+        },
+        "rom": "OS1.0.11.0.ULHCNXM"
+      },
+      {
         "code": "tapas",
         "name": {
           "zh": "Redmi Note 12 4G",
@@ -60,12 +84,20 @@
         "rom": "OS1.0.10.0.UHZRUXM; OS1.0.9.0.UHZTRXM; OS1.0.4.0.UHZCLEN"
       },
       {
+        "code": "zircon",
+        "name": {
+          "zh": "Redmi Note 13 Pro+ 5G",
+          "en": "Redmi Note 13 Pro+ 5G"
+        },
+        "rom": "OS2.0.5.0.VNOMIXM"
+      },
+      {
         "code": "malachite",
         "name": {
           "zh": "Redmi Note 14 Pro / POCO X7",
           "en": "Redmi Note 14 Pro / POCO X7"
         },
-        "rom": "OS1.0.8.0.UOOEUXM"
+        "rom": "OS1.0.8.0.UOOEUXM; OS1.0.4.0.UOOINXM"
       },
       {
         "code": "diting",

@@ -32,13 +32,21 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS1.0.11.0.ULHCNXM": {
+					"os": "OS1.0.11.0.ULHCNXM",
+					"android": "14.0",
+					"release": "2025-02-10",
+					"recovery": "miui_PEARL_OS1.0.11.0.ULHCNXM_3feb554a55_14.0.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.10.0.ULHCNXM": {
 					"os": "OS1.0.10.0.ULHCNXM",
 					"android": "14.0",
 					"release": "2025-01-14",
 					"recovery": "miui_PEARL_OS1.0.10.0.ULHCNXM_04be0ee411_14.0.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "pearl_images_OS1.0.10.0.ULHCNXM_20250107.0000.00_14.0_cn_29b453a276.tgz",
+					"ctelecom": "pearl_images_OS1.0.10.0.ULHCNXM_20250107.0000.00_14.0_cn_chinatelecom_a4e7b33693.tgz"
 				},
 				"OS1.0.8.0.ULHCNXM": {
 					"os": "OS1.0.8.0.ULHCNXM",
