@@ -9,10 +9,8 @@ check_url = 'https://update.miui.com/updates/miotaV3.php'
 def os_replace(ver):
   if 'OS1' in ver:
     return ver.replace('OS1', 'V816')
-  elif 'V816' in ver:
-    return ver
   else:
-    return ver[:5]
+    return ver
 
 
 device = 'rothko'
@@ -25,7 +23,6 @@ OScommon.HyperOSForm['sdk'] = OScommon.sdk[OScommon.HyperOSForm['c']]
 OScommon.HyperOSForm['p'] = device
 OScommon.HyperOSForm['options']['zone'] = '1'
 OScommon.HyperOSForm['options']['cv'] = os_replace('OS1.0.29.0.UNNCNXM')
-OScommon.HyperOSForm['options']['previewPlan'] = '0'
 OScommon.HyperOSForm['v'] = os_replace('OS1.0.29.0.UNNCNXM')
 
 

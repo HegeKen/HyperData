@@ -2207,6 +2207,10 @@ def checkDatabase(filename):
     region = stringify(getRegion(filename))
     tag = stringify(getTag(filename))
     android = stringify(get_android(filename))
+    if region == "CN":
+      zone = 1
+    else:
+      zone = 0
     public_date = stringify(get_time(form_url(filename)))
     if get_version(filename).startswith('V'):
       type=stringify("MIUI")
@@ -2244,16 +2248,16 @@ def checkDatabase(filename):
           release_date = stringify(date.today().strftime("%Y-%m-%d"))
           if "chinatelecom" in filename:
             ctelecom = stringify(filename)
-            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,ctelecom,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,ctelecom,release_date,insdate,update_date,1)
+            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,ctelecom,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,ctelecom,release_date,insdate,update_date,zone)
           elif "chinaunicom" in filename:
             cunicom = stringify(filename)
-            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,cunicom,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,cunicom,release_date,insdate,update_date,1)
+            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,cunicom,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,cunicom,release_date,insdate,update_date,zone)
           elif "chinamobile" in filename:
             cmobile = stringify(filename)
-            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,cmobile,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,cmobile,release_date,insdate,update_date,1)
+            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,cmobile,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,cmobile,release_date,insdate,update_date,zone)
           else:
             fastboot = stringify(filename)
-            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,fastboot,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,fastboot,release_date,insdate,update_date,1)
+            ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,fastboot,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,fastboot,release_date,insdate,update_date,zone)
           db_job(ins_sql)
       elif ".zip" in filename:
         update_date = int(datetime.now(timezone.utc).timestamp())
@@ -2266,7 +2270,7 @@ def checkDatabase(filename):
           ins_sql = "COMMIT;"
         else:
           code = stringify(getCode(filename))
-          ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,recovery,beta_date,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,stringify(filename),beta_date,release_date,insdate,update_date,1)
+          ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,recovery,beta_date,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,stringify(filename),beta_date,release_date,insdate,update_date,zone)
         db_job(ins_sql)
       else:
         i = 0
@@ -2335,7 +2339,7 @@ HyperOSForm = {
 	"i2": "2cd7c24f21e33b236fc63f26d044227b96d8b39a80400654f88182322688793b",
 	"isR": "0",
 	"l": "zh_CN",
-	"n": "ct",
+	"n": "",
 	"p": "marble",
 	"pb": "Redmi",
 	"r": "CN",

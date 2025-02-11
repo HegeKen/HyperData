@@ -1,7 +1,8 @@
 import OScommon
 from datetime import datetime
 
-for device in OScommon.currentStable:
+devices = ['degas']
+for device in devices:
 	devdata = OScommon.localData(device)
 	devlength = len(devdata["branches"])
 	for num in range(devlength):
