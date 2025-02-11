@@ -99,6 +99,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "rodin_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7 Pro",
+				"en" :"POCO X7 Pro"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOJTWXM": {
+					"os": "OS2.0.2.0.VOJTWXM",
+					"android": "15.0",
+					"release": "2025-02-11",
+					"recovery": "rodin_tw_global-ota_full-OS2.0.2.0.VOJTWXM-user-15.0-a4d14369b0.zip",
+					"fastboot": "rodin_tw_global_images_OS2.0.2.0.VOJTWXM_20250121.0000.00_15.0_tw_ad1c64a9f9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -175,6 +205,36 @@
 					"release": "2025-01-09",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.9.0.VOJEUXM-user-15.0-3bd642913a.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "rodin_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7 Pro",
+				"en" :"POCO X7 Pro"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.4.0.VOJRUXM": {
+					"os": "OS2.0.4.0.VOJRUXM",
+					"android": "15.0",
+					"release": "2025-02-11",
+					"recovery": "rodin_ru_global-ota_full-OS2.0.4.0.VOJRUXM-user-15.0-defdd3b6f3.zip",
+					"fastboot": "rodin_ru_global_images_OS2.0.4.0.VOJRUXM_20250121.0000.00_15.0_ru_5f37bcf2d3.tgz"
 				}
 			}
 		},
