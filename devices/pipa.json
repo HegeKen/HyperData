@@ -5,7 +5,7 @@
 		"en": "Xiaomi Pad 6"
 	},
 	"code": "MZ",
-	"suppports": ["OS1.0"],
+	"suppports": ["OS1.0", "OS2.0"],
 	"android": ["14.0"],
 	"type": "tablet",
 	"miui": "yes",
@@ -32,6 +32,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.UMZCNXM": {
+					"os": "OS2.0.4.0.UMZCNXM",
+					"android": "14.0",
+					"release": "2025-02-11",
+					"recovery": "pipa-ota_full-OS2.0.4.0.UMZCNXM-user-14.0-2a7d3a6314.zip",
+					"fastboot": ""
+				},
 				"OS1.0.14.0.UMZCNXM": {
 					"os": "OS1.0.14.0.UMZCNXM",
 					"android": "14.0",
@@ -190,7 +197,7 @@
 					"android": "14.0",
 					"release": "2025-02-06",
 					"recovery": "miui_PIPATWGlobal_OS1.0.12.0.UMZTWXM_03715889f0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "pipa_tw_global_images_OS1.0.12.0.UMZTWXM_20250117.0000.00_14.0_tw_4758cd32b4.tgz"
 				},
 				"OS1.0.11.0.UMZTWXM": {
 					"os": "OS1.0.11.0.UMZTWXM",

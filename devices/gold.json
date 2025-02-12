@@ -5,8 +5,8 @@
 		"en": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G"
 	},
 	"code": "NQ",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -307,6 +307,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VNQMIXM": {
+					"os": "OS2.0.2.0.VNQMIXM",
+					"android": "15.0",
+					"release": "2025-02-12",
+					"recovery": "gold_global-ota_full-OS2.0.2.0.VNQMIXM-user-15.0-bd6fa587c4.zip",
+					"fastboot": ""
+				},
 				"OS1.0.15.0.UNQMIXM": {
 					"os": "OS1.0.15.0.UNQMIXM",
 					"android": "14.0",

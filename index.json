@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-02-11 22:53:07",
+    "time": "2025-02-12 22:44:20",
     "developing": "no",
     "roms": [
       {
@@ -33,7 +33,7 @@
           "zh": "小米 12T",
           "en": "Xiaomi 12T"
         },
-        "rom": "OS1.0.3.0.ULQCLEN"
+        "rom": "OS1.0.18.0.ULQEUXM; OS1.0.3.0.ULQCLEN; OS1.0.5.0.ULQLMCR"
       },
       {
         "code": "aristotle",
@@ -41,7 +41,7 @@
           "zh": "小米 13T",
           "en": "Xiaomi 13T"
         },
-        "rom": "OS1.0.6.0.UMFMIDC"
+        "rom": "OS1.0.6.0.UMFMIDC; OS1.0.5.0.UMFLMCR"
       },
       {
         "code": "aurora",
@@ -60,6 +60,14 @@
         "rom": "OS2.0.5.0.VNEEUXM"
       },
       {
+        "code": "pipa",
+        "name": {
+          "zh": "小米平板 6",
+          "en": "Xiaomi Pad 6"
+        },
+        "rom": "OS2.0.4.0.UMZCNXM"
+      },
+      {
         "code": "fire",
         "name": {
           "zh": "Redmi 12 国际",
@@ -74,6 +82,14 @@
           "en": "Redmi 12C / POCO C55"
         },
         "rom": "OS1.0.3.0.UCVCLEN"
+      },
+      {
+        "code": "sky",
+        "name": {
+          "zh": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G",
+          "en": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G"
+        },
+        "rom": "OS2.0.2.0.VMWMIDC"
       },
       {
         "code": "lake",
@@ -108,6 +124,14 @@
         "rom": "OS1.0.11.0.ULHCNXM"
       },
       {
+        "code": "marble",
+        "name": {
+          "zh": "Redmi Note 12 Turbo / POCO F5",
+          "en": "Redmi Note 12 Turbo / POCO F5"
+        },
+        "rom": "OS1.0.15.0.UMRMIXM; OS1.0.19.0.UMREUXM; OS1.0.14.0.UMRRUXM; OS1.0.14.0.UMRIDXM"
+      },
+      {
         "code": "tapas",
         "name": {
           "zh": "Redmi Note 12 4G",
@@ -124,12 +148,28 @@
         "rom": "OS1.0.10.0.UHZRUXM; OS1.0.9.0.UHZTRXM; OS1.0.4.0.UHZCLEN"
       },
       {
+        "code": "gold",
+        "name": {
+          "zh": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G",
+          "en": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G"
+        },
+        "rom": "OS2.0.2.0.VNQMIXM"
+      },
+      {
         "code": "zircon",
         "name": {
           "zh": "Redmi Note 13 Pro+ 5G",
           "en": "Redmi Note 13 Pro+ 5G"
         },
-        "rom": "OS2.0.5.0.VNOMIXM; OS2.0.1.0.VNOINXM; OS1.0.5.0.UNOLMCR"
+        "rom": "OS2.0.5.0.VNOMIXM; OS1.0.6.0.UNOMIDC; OS2.0.1.0.VNOINXM; OS1.0.5.0.UNOLMCR"
+      },
+      {
+        "code": "beryl",
+        "name": {
+          "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
+          "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
+        },
+        "rom": "OS1.0.6.0.UOQMIXM; OS1.0.6.0.UOQMIDC; OS1.0.8.0.UOQEUXM; OS1.0.6.0.UOQRUXM; OS1.0.7.0.UOQIDXM"
       },
       {
         "code": "malachite",
@@ -140,6 +180,14 @@
         "rom": "OS1.0.8.0.UOOEUXM; OS1.0.4.0.UOOINXM"
       },
       {
+        "code": "peridot",
+        "name": {
+          "zh": "Redmi Turbo 3 / POCO F6",
+          "en": "Redmi Turbo 3 / POCO F6"
+        },
+        "rom": "OS2.0.1.0.VNPTWXM; OS2.0.2.0.VNPRUXM; OS2.0.2.0.VNPINXM; OS2.0.2.0.VNPIDXM"
+      },
+      {
         "code": "rodin",
         "name": {
           "zh": "REDMI Turbo 4 / POCO X7 Pro",
@@ -148,12 +196,36 @@
         "rom": "OS2.0.2.0.VOJTWXM; OS2.0.11.0.VOJEUXM; OS2.0.4.0.VOJRUXM"
       },
       {
+        "code": "rubens",
+        "name": {
+          "zh": "Redmi K50",
+          "en": "Redmi K50"
+        },
+        "rom": "OS1.0.17.0.ULNCNXM"
+      },
+      {
         "code": "diting",
         "name": {
           "zh": "Redmi K50 至尊版 / 小米 12T Pro",
           "en": "Redmi K50 Ultra / Xiaomi 12T Pro"
         },
         "rom": "OS1.0.4.0.ULFCLEN; OS1.0.5.0.ULFLMCR"
+      },
+      {
+        "code": "corot",
+        "name": {
+          "zh": "Redmi K60 至尊版 / 小米 13T Pro",
+          "en": "Redmi K60 Ultra / Xiaomi 13T Pro"
+        },
+        "rom": "OS2.0.2.0.VMLRUXM; OS2.0.2.0.VMLTRXM"
+      },
+      {
+        "code": "duchamp",
+        "name": {
+          "zh": "Redmi K70E / POCO X6 Pro 5G",
+          "en": "Redmi K70E / POCO X6 Pro 5G"
+        },
+        "rom": "OS2.0.1.0.VNLTWXM; OS2.0.1.0.VNLRUXM"
       },
       {
         "code": "rothko",

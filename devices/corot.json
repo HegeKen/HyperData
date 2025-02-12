@@ -67,8 +67,8 @@
 					"android": "15.0",
 					"release": "2025-01-21",
 					"recovery": "corot-ota_full-OS2.0.102.0.VMLCNXM-user-15.0-e53413e586.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "corot_images_OS2.0.102.0.VMLCNXM_20250116.0000.00_15.0_cn_7ee72e60d9.tgz",
+					"ctelecom": "corot_images_OS2.0.102.0.VMLCNXM_20250116.0000.00_15.0_cn_chinatelecom_5868ea6887.tgz"
 				},
 				"OS2.0.4.0.VMLCNXM": {
 					"os": "OS2.0.4.0.VMLCNXM",
@@ -658,6 +658,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VMLRUXM": {
+					"os": "OS2.0.2.0.VMLRUXM",
+					"android": "15.0",
+					"release": "2025-02-12",
+					"recovery": "corot_ru_global-ota_full-OS2.0.2.0.VMLRUXM-user-15.0-469ba8898c.zip",
+					"fastboot": ""
+				},
 				"OS1.0.12.0.UMLRUXM": {
 					"os": "OS1.0.12.0.UMLRUXM",
 					"android": "14.0",
@@ -723,6 +730,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VMLTRXM": {
+					"os": "OS2.0.2.0.VMLTRXM",
+					"android": "15.0",
+					"release": "2025-02-12",
+					"recovery": "corot_tr_global-ota_full-OS2.0.2.0.VMLTRXM-user-15.0-22c6bc4b73.zip",
+					"fastboot": ""
+				},
 				"OS1.0.9.0.UMLTRXM": {
 					"os": "OS1.0.9.0.UMLTRXM",
 					"android": "14.0",

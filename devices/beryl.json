@@ -156,6 +156,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UOQMIXM": {
+					"os": "OS1.0.6.0.UOQMIXM",
+					"android": "14.0",
+					"release": "2025-02-12",
+					"recovery": "miui_BERYLGlobal_OS1.0.6.0.UOQMIXM_39746e92ff_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.3.0.UOQMIXM": {
 					"os": "OS1.0.3.0.UOQMIXM",
 					"android": "14.0",
@@ -193,6 +200,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.6.0.UOQMIDC": {
+					"os": "OS1.0.6.0.UOQMIDC",
+					"android": "14.0",
+					"release": "2025-02-12",
+					"recovery": "miui_BERYLDCGlobal_OS1.0.6.0.UOQMIDC_a4dcdfee13_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.5.0.UOQMIDC": {
 					"os": "OS1.0.5.0.UOQMIDC",
 					"android": "14.0",
@@ -223,12 +237,49 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UOQEUXM": {
+					"os": "OS1.0.8.0.UOQEUXM",
+					"android": "14.0",
+					"release": "2025-02-12",
+					"recovery": "miui_BERYLEEAGlobal_OS1.0.8.0.UOQEUXM_627066f53d_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UOQEUXM": {
 					"os": "OS1.0.7.0.UOQEUXM",
 					"android": "14.0",
 					"release": "2025-01-09",
 					"recovery": "miui_BERYLEEAGlobal_OS1.0.7.0.UOQEUXM_f05f78b72b_14.0.zip",
 					"fastboot": "beryl_eea_global_images_OS1.0.7.0.UOQEUXM_20241212.0000.00_14.0_eea_2100137e91.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "beryl_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO M7 Pro 5G",
+				"en" :"POCO M7 Pro 5G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.UOQRUXM": {
+					"os": "OS1.0.6.0.UOQRUXM",
+					"android": "14.0",
+					"release": "2025-02-12",
+					"recovery": "miui_BERYLRUGlobal_OS1.0.6.0.UOQRUXM_a7a0213bee_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},
@@ -290,6 +341,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.7.0.UOQIDXM": {
+					"os": "OS1.0.7.0.UOQIDXM",
+					"android": "14.0",
+					"release": "2025-02-12",
+					"recovery": "miui_BERYLIDGlobal_OS1.0.7.0.UOQIDXM_e37219a4f3_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.6.0.UOQIDXM": {
 					"os": "OS1.0.6.0.UOQIDXM",
 					"android": "14.0",

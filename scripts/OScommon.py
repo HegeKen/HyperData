@@ -1852,6 +1852,8 @@ flags = {
 	"FUXI": "fuxi",
 	"fuxi": "fuxi",
 	"nuwa": "nuwa",
+	"BERYLRUGlobal":"beryl",
+	"beryl_ru_global":"beryl",
 	"nuwa_demo": "nuwa",
 	"shennong_ep_stdee": "shennong",
 	"SHENNONGEPSTDEE": "shennong",
