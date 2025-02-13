@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-02-13 15:38:23",
+    "time": "2025-02-13 22:56:22",
     "developing": "no",
     "roms": [
       {
@@ -41,7 +41,7 @@
           "zh": "小米 13T",
           "en": "Xiaomi 13T"
         },
-        "rom": "OS1.0.6.0.UMFMIDC; OS1.0.5.0.UMFLMCR"
+        "rom": "OS1.0.6.0.UMFMIDC; OS1.0.2.0.UMFCLEN; OS1.0.5.0.UMFLMCR"
       },
       {
         "code": "aurora",
@@ -89,7 +89,7 @@
           "zh": "Redmi 12 国际",
           "en": "Redmi 12"
         },
-        "rom": "OS2.0.2.0.VMXINXM; OS1.0.6.0.UMXLMCR"
+        "rom": "OS1.0.3.0.UMXMIDC; OS2.0.2.0.VMXINXM; OS1.0.6.0.UMXLMCR"
       },
       {
         "code": "earth",
@@ -113,7 +113,7 @@
           "zh": "Redmi 14C",
           "en": "Redmi 14C"
         },
-        "rom": "OS1.0.7.0.UGTEUXM; OS1.0.5.0.UGTIDXM"
+        "rom": "OS1.0.6.0.UGTTWXM; OS1.0.7.0.UGTEUXM; OS1.0.5.0.UGTIDXM"
       },
       {
         "code": "xaga",
@@ -145,7 +145,7 @@
           "zh": "Redmi Note 12 Turbo / POCO F5",
           "en": "Redmi Note 12 Turbo / POCO F5"
         },
-        "rom": "OS1.0.15.0.UMRMIXM; OS1.0.19.0.UMREUXM; OS1.0.14.0.UMRRUXM; OS1.0.14.0.UMRIDXM"
+        "rom": "OS1.0.15.0.UMRMIXM; OS1.0.19.0.UMREUXM; OS1.0.14.0.UMRRUXM; OS1.0.18.0.UMRINXM; OS1.0.14.0.UMRIDXM"
       },
       {
         "code": "tapas",
@@ -185,7 +185,7 @@
           "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
           "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
         },
-        "rom": "OS1.0.6.0.UOQMIXM; OS1.0.6.0.UOQMIDC; OS1.0.8.0.UOQEUXM; OS1.0.6.0.UOQRUXM; OS1.0.7.0.UOQIDXM"
+        "rom": "OS1.0.3.0.UOQTWXM; OS1.0.6.0.UOQMIXM; OS1.0.6.0.UOQMIDC; OS1.0.8.0.UOQEUXM; OS1.0.6.0.UOQRUXM; OS1.0.7.0.UOQIDXM"
       },
       {
         "code": "malachite",
@@ -282,6 +282,14 @@
           "en": "Redmi Pad Pro 5G / POCO Pad 5G"
         },
         "rom": "OS1.0.10.0.UFSEUXM; OS2.0.1.0.VFSRUXM"
+      },
+      {
+        "code": "moon",
+        "name": {
+          "zh": "Redmi 13 / POCO M6 4G",
+          "en": "Redmi 13 / POCO M6 4G"
+        },
+        "rom": "OS2.0.2.0.VNTIDXM; OS2.0.2.0.VNTTRXM"
       },
       {
         "code": "air",
