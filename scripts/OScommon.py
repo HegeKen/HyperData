@@ -2266,10 +2266,10 @@ def checkDatabase(filename):
         insdate = stringify(date.today().strftime("%Y-%m-%d"))
         beta_date = stringify(get_time(form_url(filename)))
         release_date = stringify(date.today().strftime("%Y-%m-%d"))
-        get_sql = "SELECT * FROM roms WHERE recovery = %s" % (stringify(filename))
+        get_sql = "SELECT * FROM roms WHERE version = %s AND code = %s" % (version, code)
         if len(db_job(get_sql)) > 0:
           i = 0
-          ins_sql = "COMMIT;"
+          ins_sql = f"UPDATE roms SET recovery = %s, beta_date = %s, public_date = %s, update_date = %d WHERE version = %s and code = %s" % (stringify(filename),beta_date,public_date,update_date,version,code)
         else:
           code = stringify(getCode(filename))
           ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,version,android,recovery,beta_date,release_date,insdate,update_date,zone) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%d)" % (device,code,type,bigver,region,stringify("F"),tag,version,android,stringify(filename),beta_date,release_date,insdate,update_date,zone)
