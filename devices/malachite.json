@@ -323,6 +323,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "malachite_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.6.0.UOORUXM": {
+					"os": "OS1.0.6.0.UOORUXM",
+					"android": "14.0",
+					"release": "2025-02-14",
+					"recovery": "miui_MALACHITERUGlobal_OS1.0.6.0.UOORUXM_7461dbced9_14.0.zip",
+					"fastboot": "malachite_ru_global_images_OS1.0.6.0.UOORUXM_20250207.0000.00_14.0_ru_097d1ef4f4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
