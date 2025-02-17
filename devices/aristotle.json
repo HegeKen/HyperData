@@ -248,6 +248,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.VMFEUXM": {
+					"os": "OS2.0.3.0.VMFEUXM",
+					"android": "15.0",
+					"release": "2025-02-17",
+					"recovery": "aristotle_eea_global-ota_full-OS2.0.3.0.VMFEUXM-user-15.0-6803633936.zip",
+					"fastboot": ""
+				},
 				"OS2.0.2.0.VMFEUXM": {
 					"os": "OS2.0.2.0.VMFEUXM",
 					"android": "15.0",
@@ -367,7 +374,7 @@
 					"android": "15.0",
 					"release": "2025-02-07",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.1.0.VMFRUXM-user-15.0-9031f8e681.zip",
-					"fastboot": ""
+					"fastboot": "aristotle_ru_global_images_OS2.0.1.0.VMFRUXM_20250117.0000.00_15.0_ru_c51bec2a39.tgz"
 				},
 				"OS1.0.9.0.UMFRUXM": {
 					"os": "OS1.0.9.0.UMFRUXM",
@@ -671,7 +678,7 @@
 					"android": "14.0",
 					"release": "2025-02-12",
 					"recovery": "miui_ARISTOTLELMCRGlobal_OS1.0.5.0.UMFLMCR_6e47118188_14.0.zip",
-					"fastboot": ""
+					"fastboot": "aristotle_lm_cr_global_images_OS1.0.5.0.UMFLMCR_20250109.0000.00_14.0_lm_cr_01eca8ef66.tgz"
 				},
 				"OS1.0.4.0.UMFLMCR": {
 					"os": "OS1.0.4.0.UMFLMCR",

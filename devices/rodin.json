@@ -37,8 +37,8 @@
 					"android": "15.0",
 					"release": "2025-02-12",
 					"recovery": "rodin-ota_full-OS2.0.103.0.VOJCNXM-user-15.0-7e30f0941c.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "rodin_images_OS2.0.103.0.VOJCNXM_20250210.0000.00_15.0_cn_4d6441af4e.tgz",
+					"ctelecom": "rodin_images_OS2.0.103.0.VOJCNXM_20250210.0000.00_15.0_cn_chinatelecom_f4fd3be00c.tgz"
 				},
 				"OS2.0.101.0.VOJCNXM": {
 					"os": "OS2.0.101.0.VOJCNXM",
@@ -205,7 +205,7 @@
 					"android": "15.0",
 					"release": "2025-02-11",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.11.0.VOJEUXM-user-15.0-0155f4105f.zip",
-					"fastboot": ""
+					"fastboot": "rodin_eea_global_images_OS2.0.11.0.VOJEUXM_20250121.0000.00_15.0_eea_61314f6988.tgz"
 				},
 				"OS2.0.10.0.VOJEUXM": {
 					"os": "OS2.0.10.0.VOJEUXM",
@@ -274,6 +274,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.VOJINXM": {
+					"os": "OS2.0.3.0.VOJINXM",
+					"android": "15.0",
+					"release": "2025-02-16",
+					"recovery": "rodin_in_global-ota_full-OS2.0.3.0.VOJINXM-user-15.0-e555119622.zip",
+					"fastboot": ""
+				},
 				"OS2.0.2.0.VOJINXM": {
 					"os": "OS2.0.2.0.VOJINXM",
 					"android": "15.0",
