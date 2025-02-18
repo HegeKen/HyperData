@@ -1943,6 +1943,8 @@ flags = {
 	"ishtar": "ishtar",
 	"ISHTARDEMO": "ishtar",
 	"ishtar_demo": "ishtar",
+	"amethyst_mx_at_global":"amethyst",
+	"AMETHYSTMXATGlobal":"amethyst",
 }
 
 

@@ -345,6 +345,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.3.0.UOPRUXM": {
+					"os": "OS1.0.3.0.UOPRUXM",
+					"android": "14.0",
+					"release": "2025-02-18",
+					"recovery": "",
+					"fastboot": "amethyst_ru_global_images_OS1.0.3.0.UOPRUXM_20241223.0000.00_14.0_ru_7cf1109463.tgz"
+				},
 				"OS1.0.2.0.UOPRUXM": {
 					"os": "OS1.0.2.0.UOPRUXM",
 					"android": "14.0",
@@ -418,6 +425,36 @@
 					"release": "2024-12-24",
 					"recovery": "miui_AMETHYSTIDGlobal_OS1.0.4.0.UOPIDXM_37f6d4ab06_14.0.zip",
 					"fastboot": "amethyst_id_global_images_OS1.0.4.0.UOPIDXM_20241206.0000.00_14.0_id_60b5335f48.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "amethyst_lm_cr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UOPMXAT": {
+					"os": "OS1.0.1.0.UOPMXAT",
+					"android": "14.0",
+					"release": "2025-02-18",
+					"recovery": "",
+					"fastboot": "amethyst_mx_at_global_images_OS1.0.1.0.UOPMXAT_20241113.0000.00_14.0_mx_at_3b7457baf4.tgz"
 				}
 			}
 		},
