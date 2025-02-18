@@ -279,6 +279,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "tanzanite_mx_at_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 4G",
+				"en" :"Redmi Note 14 4G"
+			},
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UOGMXAT": {
+					"os": "OS1.0.3.0.UOGMXAT",
+					"android": "14.0",
+					"release": "2025-02-18",
+					"recovery": "miui_TANZANITEMXATGlobal_OS1.0.3.0.UOGMXAT_c277ff48ae_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
 				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
 			},

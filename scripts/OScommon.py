@@ -1945,6 +1945,10 @@ flags = {
 	"ishtar_demo": "ishtar",
 	"amethyst_mx_at_global":"amethyst",
 	"AMETHYSTMXATGlobal":"amethyst",
+	"TANZANITEMXATGlobal":"tanzanite",
+	"tanzanite_mx_at_global": "tanzanite",
+	"OBSIDIANMXATGlobal":"obsidian",
+	"obsidian_mx_at_global": "obsidian",
 }
 
 
@@ -2128,13 +2132,23 @@ def getData(filename):
     filetype = "recovery"
     android = filename.split("_")[4].split(".zip")[0]
     version = filename.split("_")[2]
+    if ".EP" in filename:
+      devtag = filename.split("_")[1].split("EPS")[0].lower()
+    else:
+      devtag = version.split(".")[4][1:3]
     get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (stringify(filename.split("_")[1]))
-    if len(db_job_latest(get_sql)) > 0:
-      code = db_job_latest(get_sql)[0]
+    data = db_job_latest(get_sql)
+    if data is not None:
+      code = data[0]
       device = db_job_latest("SELECT device FROM roms where code = %s" % (stringify(code)))[0]
     else:
-      code = 0
-      device = 0
+      ver_code = version[-4:]
+      info = db_job_latest("SELECT branch,tag,code,region FROM branches WHERE vercode = %s" % (stringify(ver_code)))
+      branch,tag,code,region = [item for item in info]
+      device = db_job_latest("SELECT device FROM devices WHERE devtag = %s" % (stringify(devtag)))[0]
+      code = device+code
+      ins_sql = "INSERT INTO devices(device,devtag,code,tag,region,devcode,branchcode) VALUES (%s,%s,%s,%s,%s,%s,%s)" % (stringify(device),stringify(devtag),stringify(code),stringify(tag),stringify(region),stringify(version[-6:]),stringify(filename.split("_")[1]))
+      db_job_latest(ins_sql)
   else:
     if filename.endswith(".tgz"):
       filetype = "fastboot"
@@ -2146,7 +2160,11 @@ def getData(filename):
       android = filename.split("ota_full-")[1].split("-")[2]
       version = filename.split("ota_full-")[1].split("-")[0]
       code = filename.split("-ota_full")[0]
-    device = db_job_latest("SELECT device FROM roms where code = %s" % (stringify(code)))[0]
+    data = db_job_latest("SELECT device FROM roms where code = %s" % (stringify(code)))
+    if data is not None:
+      device = data[0]
+    else:
+      device = db_job_latest("SELECT device FROM devices where code = %s" % (stringify(code)))[0]
   if version.startswith('V'):
     type = "MIUI"
     bigver = "MIUI " + version.split('V')[1].split('.')[0]
@@ -2165,7 +2183,19 @@ def getData(filename):
       zone = 1
     else:
       info_sql = "SELECT region,tag,zone FROM roms WHERE code = %s" % (stringify(code))
-      region,tag,zone = db_job_latest(info_sql)
+      data = db_job_latest(info_sql)
+      if data is not None:
+        if len(data) > 0:
+          region,tag,zone = [item for item in data]
+        else:
+          region,tag,zone = db_job_latest(info_sql)
+      else:
+        data = db_job_latest("SELECT region,tag FROM devices WHERE code = %s" % (stringify(code)))
+        region,tag = [item for item in data]
+        if region == "cn":
+          zone = 1
+        else:
+          zone = 2
   return device, code, android, version, type, bigver, region,tag,zone, "F", filetype, filename
 
 def checkDatabase(device, code, android, version, type, bigver, region,tag,zone,branch, filetype, filename):
