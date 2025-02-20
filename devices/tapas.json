@@ -37,7 +37,7 @@
 					"android": "15.0",
 					"release": "2025-02-10",
 					"recovery": "tapas_global-ota_full-OS2.0.9.0.VMTMIXM-user-15.0-9faab52234.zip",
-					"fastboot": ""
+					"fastboot": "tapas_global_images_OS2.0.9.0.VMTMIXM_20250106.0000.00_15.0_global_f4363ad3ff.tgz"
 				},
 				"OS2.0.8.0.VMTMIXM": {
 					"os": "OS2.0.8.0.VMTMIXM",
@@ -345,6 +345,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VMTLMCR": {
+					"os": "OS2.0.1.0.VMTLMCR",
+					"android": "15.0",
+					"release": "2025-02-20",
+					"recovery": "tapas_lm_cr_global-ota_full-OS2.0.1.0.VMTLMCR-user-15.0-21060a3739.zip",
+					"fastboot": ""
+				},
 				"OS1.0.5.0.UMTLMCR": {
 					"os": "OS1.0.5.0.UMTLMCR",
 					"android": "14.0",
