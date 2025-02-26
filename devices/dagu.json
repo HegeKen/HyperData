@@ -5,7 +5,7 @@
 		"en": "Xiaomi Pad 5 Pro 12.4"
 	},
 	"code": "LZ",
-	"suppports": ["OS1.0"],
+	"suppports": ["OS1.0", "OS2.0"],
 	"android": ["14.0"],
 	"type": "tablet",
 	"miui": "yes",
@@ -265,6 +265,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.ULZCNXM": {
+					"os": "OS2.0.2.0.ULZCNXM",
+					"android": "14.0",
+					"release": "2025-02-26",
+					"recovery": "dagu-ota_full-OS2.0.2.0.ULZCNXM-user-14.0-63ccc55757.zip",
+					"fastboot": ""
+				},
 				"OS1.0.14.0.ULZCNXM": {
 					"os": "OS1.0.14.0.ULZCNXM",
 					"android": "14.0",
