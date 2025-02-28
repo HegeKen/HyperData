@@ -349,6 +349,7 @@ flags = {
 	"EARTHCLENGlobal":"earth",
 	"MOONTRGlobal":"moon",
 	"moon_tr_global":"moon",
+	"rodin_id_global":"rodin",
 	"goku_ep_stdee":"goku",
 	"pond_global":"pond",
 	"flame":"flame",

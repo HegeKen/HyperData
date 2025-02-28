@@ -303,6 +303,36 @@
 					"fastboot": "rodin_in_global_images_OS2.0.2.0.VOJINXM_20250106.0000.00_15.0_in_72e6198739.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "rodin_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7 Pro",
+				"en" :"POCO X7 Pro"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.3.0.VOJIDXM": {
+					"os": "OS2.0.3.0.VOJIDXM",
+					"android": "15.0",
+					"release": "2025-02-28",
+					"recovery": "rodin_id_global-ota_full-OS2.0.3.0.VOJIDXM-user-15.0-d81662f28b.zip",
+					"fastboot": "rodin_id_global_images_OS2.0.3.0.VOJIDXM_20250207.0000.00_15.0_id_7ecc19dede.tgz"
+				}
+			}
 		}
   ]
 }
