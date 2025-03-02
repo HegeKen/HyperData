@@ -133,6 +133,186 @@
 					"fastboot": "muyu_demo_images_OS2.0.4.0.VOYCNDM_20241025.0000.00_15.0_cn_12f8c60c2b.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "muyu_tw_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+      },
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOYTWXM": {
+					"os": "OS2.0.100.0.VOYTWXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "muyu_tw_global-ota_full-OS2.0.100.0.VOYTWXM-user-15.0-5fe2d40961.zip",
+					"fastboot": "muyu_tw_global_images_OS2.0.100.0.VOYTWXM_20250217.0000.00_15.0_tw_6645cbda35.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "muyu_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+      },
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.101.0.VOYMIXM": {
+					"os": "OS2.0.101.0.VOYMIXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "muyu_global-ota_full-OS2.0.101.0.VOYMIXM-user-15.0-fc09dce9e8.zip",
+					"fastboot": "muyu_global_images_OS2.0.101.0.VOYMIXM_20250214.0000.00_15.0_global_88dd2d215c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "muyu_eea_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+      },
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.101.0.VOYEUXM": {
+					"os": "OS2.0.101.0.VOYEUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "muyu_eea_global-ota_full-OS2.0.101.0.VOYEUXM-user-15.0-c9e39af4a0.zip",
+					"fastboot": "muyu_eea_global_images_OS2.0.101.0.VOYEUXM_20250214.0000.00_15.0_eea_2607f7dc91.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "muyu_ru_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+      },
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOYRUXM": {
+					"os": "OS2.0.100.0.VOYRUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "muyu_ru_global-ota_full-OS2.0.100.0.VOYRUXM-user-15.0-1f117bcfcf.zip",
+					"fastboot": "muyu_ru_global_images_OS2.0.100.0.VOYRUXM_20250217.0000.00_15.0_ru_c78108798b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "muyu_id_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+      },
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOYIDXM": {
+					"os": "OS2.0.100.0.VOYIDXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "muyu_id_global-ota_full-OS2.0.100.0.VOYIDXM-user-15.0-e969a21bff.zip",
+					"fastboot": "muyu_id_global_images_OS2.0.100.0.VOYIDXM_20250217.0000.00_15.0_id_9646de8a1a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "muyu_tr_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+      },
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOYTRXM": {
+					"os": "OS2.0.100.0.VOYTRXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "muyu_tr_global-ota_full-OS2.0.100.0.VOYTRXM-user-15.0-e06dade68e.zip",
+					"fastboot": "muyu_tr_global_images_OS2.0.100.0.VOYTRXM_20250217.0000.00_15.0_tr_6fa5ce25ee.tgz"
+				}
+			}
 		}
   ]
 }

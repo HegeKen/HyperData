@@ -345,6 +345,246 @@
 					"ctelecom": "dada_demo_images_OS2.0.4.0.VOCCNDM_20241026.0000.00_15.0_cn_chinatelecom_4da10ef36d.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "dada_tw_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.102.0.VOCTWXM": {
+					"os": "OS2.0.102.0.VOCTWXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "dada_tw_global-ota_full-OS2.0.102.0.VOCTWXM-user-15.0-f83821dc7b.zip",
+					"fastboot": "dada_tw_global_images_OS2.0.102.0.VOCTWXM_20250211.0000.00_15.0_tw_cb6ee6cf3a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "dada_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.106.0.VOCMIXM": {
+					"os": "OS2.0.106.0.VOCMIXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "dada_global-ota_full-OS2.0.106.0.VOCMIXM-user-15.0-f42026da68.zip",
+					"fastboot": "dada_global_images_OS2.0.106.0.VOCMIXM_20250221.0000.00_15.0_global_e76bcf7c81.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "dada_dc_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": ["dc"],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOCMIDC": {
+					"os": "OS2.0.2.0.VOCMIDC",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "dada_dc_global-ota_full-OS2.0.2.0.VOCMIDC-user-15.0-7567192c71.zip",
+					"fastboot": "dada_dc_global_images_OS2.0.2.0.VOCMIDC_20241218.0000.00_15.0_global_dc_0f3cf52cfb.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "dada_eea_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.102.0.VOCEUXM": {
+					"os": "OS2.0.102.0.VOCEUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "dada_eea_global-ota_full-OS2.0.102.0.VOCEUXM-user-15.0-c33e0578b2.zip",
+					"fastboot": "dada_eea_global_images_OS2.0.102.0.VOCEUXM_20250220.0000.00_15.0_eea_3c60a2f873.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "dada_ru_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.102.0.VOCRUXM": {
+					"os": "OS2.0.102.0.VOCRUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "",
+					"fastboot": "dada_ru_global_images_OS2.0.102.0.VOCRUXM_20250211.0000.00_15.0_ru_eeac30d2d5.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "dada_in_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.103.0.VOCINXM": {
+					"os": "OS2.0.103.0.VOCINXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "dada_in_global-ota_full-OS2.0.103.0.VOCINXM-user-15.0-53771cdc67.zip",
+					"fastboot": "dada_in_global_images_OS2.0.103.0.VOCINXM_20250224.0000.00_15.0_in_6d21032efd.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "dada_id_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.102.0.VOCIDXM": {
+					"os": "OS2.0.102.0.VOCIDXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "dada_id_global-ota_full-OS2.0.102.0.VOCIDXM-user-15.0-65646fccb7.zip",
+					"fastboot": "dada_id_global_images_OS2.0.102.0.VOCIDXM_20250211.0000.00_15.0_id_300123c37c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "dada_lm_cr_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOCLMCR": {
+					"os": "OS2.0.100.0.VOCLMCR",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "",
+					"fastboot": "dada_lm_cr_global_images_OS2.0.100.0.VOCLMCR_20250214.0000.00_15.0_lm_cr_a7bb304903.tgz"
+				}
+			}
 		}
   ]
 }

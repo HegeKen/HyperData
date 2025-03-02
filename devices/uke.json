@@ -122,6 +122,126 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "uke_tw_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOZTWXM": {
+					"os": "OS2.0.100.0.VOZTWXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "uke_tw_global-ota_full-OS2.0.100.0.VOZTWXM-user-15.0-4ee4e22201.zip",
+					"fastboot": "uke_tw_global_images_OS2.0.100.0.VOZTWXM_20250217.0000.00_15.0_tw_42eefeea0e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "uke_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.102.0.VOZMIXM": {
+					"os": "OS2.0.102.0.VOZMIXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "uke_global-ota_full-OS2.0.102.0.VOZMIXM-user-15.0-6e9672b6d1.zip",
+					"fastboot": "uke_global_images_OS2.0.102.0.VOZMIXM_20250215.0000.00_15.0_global_7ff2546618.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "uke_eea_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.101.0.VOZEUXM": {
+					"os": "OS2.0.101.0.VOZEUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "uke_eea_global-ota_full-OS2.0.101.0.VOZEUXM-user-15.0-b49b6e0d59.zip",
+					"fastboot": "uke_eea_global_images_OS2.0.101.0.VOZEUXM_20250214.0000.00_15.0_eea_1ee4f9dbb0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "uke_ru_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOZRUXM": {
+					"os": "OS2.0.100.0.VOZRUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "uke_ru_global-ota_full-OS2.0.100.0.VOZRUXM-user-15.0-11b887e26d.zip",
+					"fastboot": "uke_ru_global_images_OS2.0.100.0.VOZRUXM_20250217.0000.00_15.0_ru_0f8761ae9a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -147,6 +267,66 @@
 					"release": "2025-01-13",
 					"recovery": "uke_in_global-ota_full-OS2.0.9.0.VOZINXM-user-15.0-d69e221444.zip",
 					"fastboot": "uke_in_global_images_OS2.0.9.0.VOZINXM_20241227.0000.00_15.0_in_386eb1d03c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "uke_id_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOZIDXM": {
+					"os": "OS2.0.100.0.VOZIDXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "uke_id_global-ota_full-OS2.0.100.0.VOZIDXM-user-15.0-771d972d28.zip",
+					"fastboot": "uke_id_global_images_OS2.0.100.0.VOZIDXM_20250217.0000.00_15.0_id_c538f3a294.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "uke_tr_global",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOZTRXM": {
+					"os": "OS2.0.100.0.VOZTRXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "uke_tr_global-ota_full-OS2.0.100.0.VOZTRXM-user-15.0-c722b8c80b.zip",
+					"fastboot": "uke_tr_global_images_OS2.0.100.0.VOZTRXM_20250217.0000.00_15.0_tr_9c37e0eb2a.tgz"
 				}
 			}
 		}

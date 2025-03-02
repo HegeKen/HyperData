@@ -32,6 +32,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.103.0.VOACNXM": {
+					"os": "OS2.0.103.0.VOACNXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan-ota_full-OS2.0.103.0.VOACNXM-user-15.0-58f447dc28.zip",
+					"fastboot": "xuanyuan_images_OS2.0.103.0.VOACNXM_20250226.0000.00_15.0_cn_0e80b58ad2.tgz",
+					"ctelecom": "xuanyuan_images_OS2.0.103.0.VOACNXM_20250226.0000.00_15.0_cn_chinatelecom_1435de3fbc.tgz"
+				},
 				"OS2.0.102.0.VOACNXM": {
 					"os": "OS2.0.102.0.VOACNXM",
 					"android": "15.0",
@@ -86,6 +94,223 @@
 					"recovery": "xuanyuan_demo-ota_full-OS2.0.1.0.VOACNDM-user-15.0-6ba4cab614.zip",
 					"fastboot": "",
 					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾地区正式版",
+				"en": "Xiaomi HyperOS China Taiwan Stable"
+			},
+			"branchCode": "xuanyuan_tw_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.3.0.VOATWXM": {
+					"os": "OS2.0.3.0.VOATWXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan_tw_global-ota_full-OS2.0.3.0.VOATWXM-user-15.0-1c8fe585f3.zip",
+					"fastboot": "xuanyuan_tw_global_images_OS2.0.3.0.VOATWXM_20250116.0000.00_15.0_tw_d22838e4ba.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "xuanyuan_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.6.0.VOAMIXM": {
+					"os": "OS2.0.6.0.VOAMIXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan_global-ota_full-OS2.0.6.0.VOAMIXM-user-15.0-799bc8ca38.zip",
+					"fastboot": "xuanyuan_global_images_OS2.0.6.0.VOAMIXM_20250218.0000.00_15.0_global_888759550d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "xuanyuan_dc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": ["dc"],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.3.0.VOAMIDC": {
+					"os": "OS2.0.3.0.VOAMIDC",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan_dc_global-ota_full-OS2.0.3.0.VOAMIDC-user-15.0-7ab94efc38.zip",
+					"fastboot": "xuanyuan_dc_global_images_OS2.0.3.0.VOAMIDC_20250221.0000.00_15.0_global_dc_a497b65c29.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "xuanyuan_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.9.0.VOAEUXM": {
+					"os": "OS2.0.9.0.VOAEUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan_eea_global-ota_full-OS2.0.9.0.VOAEUXM-user-15.0-8c28a00044.zip",
+					"fastboot": "xuanyuan_eea_global_images_OS2.0.9.0.VOAEUXM_20250218.0000.00_15.0_eea_86cc6f88c2.tgz"
+				},
+				"OS2.0.8.0.VOAEUXM": {
+					"os": "OS2.0.8.0.VOAEUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan_eea_global-ota_full-OS2.0.8.0.VOAEUXM-user-15.0-5bff93d8c8.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "xuanyuan_ru_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.3.0.VOARUXM": {
+					"os": "OS2.0.3.0.VOARUXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan_ru_global-ota_full-OS2.0.3.0.VOARUXM-user-15.0-6dbddfbe2a.zip",
+					"fastboot": "xuanyuan_ru_global_images_OS2.0.3.0.VOARUXM_20250116.0000.00_15.0_ru_3e632f3581.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "xuanyuan_id_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "IDSO",
+			"tag": "IDDM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOAIDDM": {
+					"os": "OS2.0.2.0.VOAIDDM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan_id_global-ota_full-OS2.0.2.0.VOAIDDM-user-15.0-a9a2113160.zip",
+					"fastboot": "xuanyuan_id_global_images_OS2.0.2.0.VOAIDDM_20250116.0000.00_15.0_id_60d2a3247d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "xuanyuan_tr_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOATRXM": {
+					"os": "OS2.0.2.0.VOATRXM",
+					"android": "15.0",
+					"release": "2025-03-02",
+					"recovery": "xuanyuan_tr_global-ota_full-OS2.0.2.0.VOATRXM-user-15.0-fe2bce7b11.zip",
+					"fastboot": "xuanyuan_tr_global_images_OS2.0.2.0.VOATRXM_20250116.0000.00_15.0_tr_9cd5bbab6f.tgz"
 				}
 			}
 		}
