@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-03-03 15:40:26",
+    "time": "2025-03-03 19:30:13",
     "developing": "no",
     "roms": [
       {
@@ -36,6 +36,14 @@
         "rom": "OS2.0.2.0.VLBEUXM"
       },
       {
+        "code": "plato",
+        "name": {
+          "zh": "小米 12T",
+          "en": "Xiaomi 12T"
+        },
+        "rom": "OS2.0.2.0.VLQMIXM"
+      },
+      {
         "code": "aristotle",
         "name": {
           "zh": "小米 13T",
@@ -49,7 +57,7 @@
           "zh": "小米 14",
           "en": "Xiaomi 14"
         },
-        "rom": "OS2.0.100.0.VNCINXM"
+        "rom": "OS2.0.100.0.VNCMIXM; OS2.0.100.0.VNCINXM"
       },
       {
         "code": "xuanyuan",
@@ -66,6 +74,14 @@
           "en": "Xiaomi Civi 2"
         },
         "rom": "OS2.0.2.0.VLLMIXM"
+      },
+      {
+        "code": "earth",
+        "name": {
+          "zh": "Redmi 12C / POCO C55",
+          "en": "Redmi 12C / POCO C55"
+        },
+        "rom": "OS1.0.7.0.UCVTWXM; OS1.0.7.0.UCVRUXM; OS1.0.9.0.UCVINXM; OS1.0.7.0.UCVIDXM; OS1.0.7.0.UCVTRXM"
       },
       {
         "code": "spesn",
@@ -89,7 +105,15 @@
           "zh": "Redmi Note 12 Pro 极速版 / POCO X5 Pro 5G",
           "en": "Redmi Note 12 Pro Speed / POCO X5 Pro 5G"
         },
-        "rom": "OS1.0.10.0.UMSTWXM; OS1.0.12.0.UMSEUXM; OS1.0.10.0.UMSRUXM; OS1.0.12.0.UMSINXM; OS1.0.11.0.UMSIDXM"
+        "rom": "OS1.0.10.0.UMSTWXM; OS1.0.13.0.UMSMIXM; OS1.0.12.0.UMSEUXM; OS1.0.10.0.UMSRUXM; OS1.0.12.0.UMSINXM; OS1.0.11.0.UMSIDXM"
+      },
+      {
+        "code": "sweet_k6a",
+        "name": {
+          "zh": "Redmi Note 12 Pro 4G",
+          "en": "Redmi Note 12 Pro 4G"
+        },
+        "rom": "OS1.0.19.0.THGEUXM"
       },
       {
         "code": "sea",
@@ -124,12 +148,36 @@
         "rom": "OS2.0.4.0.VNRTWXM; OS2.0.4.0.VNRTRXM"
       },
       {
+        "code": "tanzanite",
+        "name": {
+          "zh": "Redmi Note 14 4G",
+          "en": "Redmi Note 14 4G"
+        },
+        "rom": "OS1.0.5.0.UOGMIDC; OS1.0.3.0.UOGRUXM; OS1.0.3.0.UOGIDXM; OS1.0.3.0.UOGTRXM"
+      },
+      {
         "code": "sapphiren",
         "name": {
           "zh": "Redmi Note 13 NFC",
           "en": "Redmi Note 13 NFC"
         },
         "rom": "OS2.0.5.0.VNHTWXM"
+      },
+      {
+        "code": "duchamp",
+        "name": {
+          "zh": "Redmi K70E / POCO X6 Pro 5G",
+          "en": "Redmi K70E / POCO X6 Pro 5G"
+        },
+        "rom": "OS2.0.100.0.VNLMIXM"
+      },
+      {
+        "code": "xun",
+        "name": {
+          "zh": "Redmi 平板 SE",
+          "en": "Redmi Pad SE"
+        },
+        "rom": "OS2.0.1.0.VMURUXM"
       },
       {
         "code": "moon",
