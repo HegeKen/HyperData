@@ -2494,7 +2494,8 @@ def entryChecker(data,device):
 	check =[]
 	code = data['code']
 	for branch in data['branches']:
-		if data['device'] in branch['branchCode']:
+		branchCode = branch['branchCode']
+		if data['device'] in branchCode:
 			roms = branch['roms']
 			bname = branch['name']['zh']
 			menu_items = branch['table']
@@ -2539,7 +2540,14 @@ def entryChecker(data,device):
 					# 检查每个ROM与当前分支是否一致
 					if branch['branchtag'] == "F":
 						if "政企" not in bname:
-							if code+tag not in os_version:
+							if branchCode == "xuanyuan_id_global":
+								print(code + "IDDM")
+								if code + "IDDM" in os_version or code + "IDXM" in os_version:
+									i = 0
+								else:
+									print(f"错误:机型 {device} {bname} {code+tag} {os_version} OS版本中的标记与当前分支不一致")
+									check.append(1)
+							elif code+tag not in os_version:
 								print(f"错误:机型 {device} {bname} {code+tag} {os_version} OS版本中的标记与当前分支不一致")
 								check.append(1)
 							else:

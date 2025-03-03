@@ -266,7 +266,7 @@
 				"en": "Xiaomi 15 Ultra"
 			},
 			"idtag": "IDSO",
-			"tag": "IDDM",
+			"tag": "IDXM",
 			"branchtag": "F",
 			"table":["os", "android", "release", "recovery", "fastboot"],
 			"show": "1",
@@ -275,6 +275,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VOAIDXM": {
+					"os": "OS2.0.2.0.VOAIDXM",
+					"android": "15.0",
+					"release": "2025-03-03",
+					"recovery": "xuanyuan_id_global-ota_full-OS2.0.2.0.VOAIDXM-user-15.0-59b2a6cbc1.zip",
+					"fastboot": "xuanyuan_id_global_images_OS2.0.2.0.VOAIDXM_20250116.0000.00_15.0_id_4c982517c9.tgz"
+				},
 				"OS2.0.2.0.VOAIDDM": {
 					"os": "OS2.0.2.0.VOAIDDM",
 					"android": "15.0",
