@@ -2503,27 +2503,27 @@ def entryChecker(data,device):
 			if len(menu_items) != len(set(menu_items)):
 				print(device, bname, "菜单项重复")
 			else:
-				i = 0
+				continue
 			for os_version, rom_info in roms.items():
 				# 检查OS内部版本与外部版本是否一致
 				if os_version == rom_info['os']:
 					# 检查版本号、安卓版本与卡刷包、线刷包等是否一致
 					if rom_info['recovery'] =='':
-						i = 0
+						continue
 					elif os_version in rom_info['recovery']:
-						i = 0
+						continue
 					else:
 						print(f"错误:机型 {device} {bname} {os_version} 卡刷包版本号与实际记录不一致")
 						check.append(1)
 					if rom_info['recovery'] =='':
-						i = 0
+						continue
 					elif rom_info['android'] in rom_info['recovery']:
-						i = 0
+						continue
 					else:
 						print(f"错误:机型 {device} {rom_info['os']} {rom_info['android']} 卡刷包安卓版本与实际记录不一致")
 						check.append(1)
 					if rom_info['fastboot'] !='' and os_version in rom_info['fastboot']:
-						i = 0
+						continue
 					else:
 						if len(set(menu_items)) != len(set(rom_info)):
 							print(f"错误:机型 {device} {bname} {os_version} 与当前记录标准记录条数不一致")
@@ -2540,22 +2540,17 @@ def entryChecker(data,device):
 					# 检查每个ROM与当前分支是否一致
 					if branch['branchtag'] == "F":
 						if "政企" not in bname:
-							if branchCode == "xuanyuan_id_global":
-								print(code + "IDDM")
-								if code + "IDDM" in os_version or code + "IDXM" in os_version:
-									i = 0
-								else:
-									print(f"错误:机型 {device} {bname} {code+tag} {os_version} OS版本中的标记与当前分支不一致")
-									check.append(1)
+							if branchCode == "xuanyuan_id_global" and code + "IDDM" in os_version or code + "IDXM" in os_version:
+								continue
 							elif code+tag not in os_version:
 								print(f"错误:机型 {device} {bname} {code+tag} {os_version} OS版本中的标记与当前分支不一致")
 								check.append(1)
 							else:
-								i = 0
+								continue
 						else:
-							i = 0
+							continue
 					else:
-						i = 0
+						continue
 				else:
 					print(f"错误:机型 {device} 安卓版本 {os_version} 与 { rom_info['os'] } 记录不一致，请核实")
 					check.append(1)
@@ -2564,25 +2559,25 @@ def entryChecker(data,device):
 					print(f"错误:机型 {device} 安卓版本 {rom_info['android']} 未记录在案")
 					check.append(1)
 				else:
-					i = 0
+					continue
 				if '开发者' in bname:
-					i = 0
+					continue
 				elif os_version[:5] not in data['suppports']:
 					print(f"错误:机型 {device} OS大版本 {os_version} 未记录在案")
 					check.append(1)
 				else:
-					i = 0
+					continue
 				# 检查文件后缀是否正确
 				if rom_info['recovery'] == "":
-					i = 0
+					continue
 				elif rom_info['recovery'].endswith(".zip"):
-					i = 0
+					continue
 				else:
 					print(f"错误:机型 {device} {bname} {os_version} 卡刷包后缀错误")
 					check.append(1)
 				# 检查每个项目是否合理
 				if rom_info['android'] == "" and rom_info['os'] == "" and rom_info['release'] == "" and rom_info['recovery'] == "" and rom_info['fastboot'] == "":
-					i = 0
+					continue
 				else:
 					if rom_info['release'] > datetime.now().strftime("%Y-%m-%d"):
 						print(f"错误:机型 {device} {bname} {os_version} 发布时间大于当前日期")
@@ -2600,7 +2595,7 @@ def entryChecker(data,device):
 						print(device, bname, os_version, "菜单项数量与实际数量不一致")
 						check.append(1)
 				else:
-					i= 0
+					continue
 	if len(check) == 0:
 		return 0
 	else:
