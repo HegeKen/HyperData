@@ -491,6 +491,66 @@
 					"fastboot": "malachite_tr_global_images_OS1.0.3.0.UOOTRXM_20241217.0000.00_14.0_tr_97a93a5229.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "malachite_mx_at_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UOOMXAT": {
+					"os": "OS1.0.5.0.UOOMXAT",
+					"android": "15.0",
+					"release": "2025-03-04",
+					"recovery": "miui_MALACHITEMXATGlobal_OS1.0.5.0.UOOMXAT_4d75c470a5_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "malachite_lm_cr_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7",
+				"en" :"POCO X7"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UOOLMCR": {
+					"os": "OS1.0.4.0.UOOLMCR",
+					"android": "15.0",
+					"release": "2025-03-04",
+					"recovery": "",
+					"fastboot": "malachite_lm_cr_global_images_OS1.0.4.0.UOOLMCR_20250217.0000.00_14.0_lm_cr_e3de68b10c.tgz"
+				}
+			}
 		}
   ]
 }

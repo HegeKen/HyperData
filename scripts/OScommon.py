@@ -71,223 +71,223 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'yunluo', 'xun', 'flare', 'spark', 'dizi', 'ruan', 'warm', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
 branches = [
-  {
-    "code": "",
-    "tag": "CNXM",
-    "region": "cn",
-    "carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-    "zone": "1"
-  },
-  {
-    "code": "_demo",
-    "tag": "CNDM",
-    "region": "cn",
-    "carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
-    "zone": "1"
-  },
-  {
-    "code": "_tw_global",
-    "tag": "TWXM",
-    "region": "tw",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_global",
-    "tag": "MIXM",
-    "region": "global",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_dc_global",
-    "tag": "MIDC",
-    "region": "global",
-    "carrier": ["dc"],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_global",
-    "tag": "EUXM",
-    "region": "eea",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_ru_global",
-    "tag": "RUXM",
-    "region": "ru",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_id_global",
-    "tag": "IDXM",
-    "region": "id",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_tr_global",
-    "tag": "TRXM",
-    "region": "tr",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_jp_global",
-    "tag": "JPXM",
-    "region": "jp",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_in_global",
-    "tag": "INXM",
-    "region": "in",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_hg_global",
-    "tag": "EUHG",
-    "region": "eea",
-    "carrier": ["h3g"],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_or_global",
-    "tag": "EUOR",
-    "region": "eea",
-    "carrier": ["orange"],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_vf_global",
-    "tag": "EUVF",
-    "region": "eea",
-    "carrier": ["vodafone"],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_ti_global",
-    "tag": "EUTI",
-    "region": "eea",
-    "carrier": ["tim"],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_sf_global",
-    "tag": "EUSF",
-    "region": "eea",
-    "carrier": ["sfr"],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_tf_global",
-    "tag": "EUTF",
-    "region": "eea",
-    "carrier": ["tf"],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_by_global",
-    "tag": "EUBY",
-    "region": "eea",
-    "carrier": ["by"],
-    "zone": "2"
-  },
-  {
-    "code": "_cl_en_global",
-    "tag": "CLEN",
-    "region": "cl",
-    "carrier": ["en"],
-    "zone": "2"
-  },
-  {
-    "code": "_mx_at_global",
-    "tag": "MXAT",
-    "region": "mx",
-    "carrier": ["at"],
-    "zone": "2"
-  },
-  {
-    "code": "_lm_cr_global",
-    "tag": "LMCR",
-    "region": "lm",
-    "carrier": ["cr"],
-    "zone": "2"
-  },
-  {
-    "code": "_za_vc_global",
-    "tag": "ZAVC",
-    "region": "za",
-    "carrier": ["vc"],
-    "zone": "2"
-  },
-  {
-    "code": "_za_mt_global",
-    "tag": "ZAMT",
-    "region": "za",
-    "carrier": ["mt"],
-    "zone": "2"
-  },
-  {
-    "code": "_gt_tg_global",
-    "tag": "GTTG",
-    "region": "gt",
-    "carrier": ["tg"],
-    "zone": "2"
-  },
-  {
-    "code": "_lm_ms_global",
-    "tag": "LMMS",
-    "region": "lm",
-    "carrier": ["movistar"],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_vf_global",
-    "tag": "EUTF",
-    "region": "eea",
-    "carrier": ["tf"],
-    "zone": "2"
-  },
-  {
-    "code": "_th_as_global",
-    "tag": "THAS",
-    "region": "th",
-    "carrier": ["as"],
-    "zone": "2"
-  },
-  {
-    "code": "_cl_en_global",
-    "tag": "LMCR",
-    "region": "lm",
-    "carrier": ["cr"],
-    "zone": "2"
-  },
-  {
-    "code": "_in_fk_global",
-    "tag": "INFK",
-    "region": "in",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_kr_global",
-    "tag": "KRXM",
-    "region": "global",
-    "carrier": [""],
-    "zone": "2"
-  },
-  {
-    "code": "_eea_global",
-    "tag": "EUHG",
-    "region": "eea",
-    "carrier": ["h3g"],
-    "zone": "2"
-  }
+	{
+		"code": "",
+		"tag": "CNXM",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_demo",
+		"tag": "CNDM",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_tw_global",
+		"tag": "TWXM",
+		"region": "tw",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_global",
+		"tag": "MIXM",
+		"region": "global",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_dc_global",
+		"tag": "MIDC",
+		"region": "global",
+		"carrier": ["dc"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_global",
+		"tag": "EUXM",
+		"region": "eea",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_ru_global",
+		"tag": "RUXM",
+		"region": "ru",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_id_global",
+		"tag": "IDXM",
+		"region": "id",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_tr_global",
+		"tag": "TRXM",
+		"region": "tr",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_jp_global",
+		"tag": "JPXM",
+		"region": "jp",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_in_global",
+		"tag": "INXM",
+		"region": "in",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_hg_global",
+		"tag": "EUHG",
+		"region": "eea",
+		"carrier": ["h3g"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_or_global",
+		"tag": "EUOR",
+		"region": "eea",
+		"carrier": ["orange"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_vf_global",
+		"tag": "EUVF",
+		"region": "eea",
+		"carrier": ["vodafone"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_ti_global",
+		"tag": "EUTI",
+		"region": "eea",
+		"carrier": ["tim"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_sf_global",
+		"tag": "EUSF",
+		"region": "eea",
+		"carrier": ["sfr"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_tf_global",
+		"tag": "EUTF",
+		"region": "eea",
+		"carrier": ["tf"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_by_global",
+		"tag": "EUBY",
+		"region": "eea",
+		"carrier": ["by"],
+		"zone": "2"
+	},
+	{
+		"code": "_cl_en_global",
+		"tag": "CLEN",
+		"region": "cl",
+		"carrier": ["en"],
+		"zone": "2"
+	},
+	{
+		"code": "_mx_at_global",
+		"tag": "MXAT",
+		"region": "mx",
+		"carrier": ["at"],
+		"zone": "2"
+	},
+	{
+		"code": "_lm_cr_global",
+		"tag": "LMCR",
+		"region": "lm",
+		"carrier": ["cr"],
+		"zone": "2"
+	},
+	{
+		"code": "_za_vc_global",
+		"tag": "ZAVC",
+		"region": "za",
+		"carrier": ["vc"],
+		"zone": "2"
+	},
+	{
+		"code": "_za_mt_global",
+		"tag": "ZAMT",
+		"region": "za",
+		"carrier": ["mt"],
+		"zone": "2"
+	},
+	{
+		"code": "_gt_tg_global",
+		"tag": "GTTG",
+		"region": "gt",
+		"carrier": ["tg"],
+		"zone": "2"
+	},
+	{
+		"code": "_lm_ms_global",
+		"tag": "LMMS",
+		"region": "lm",
+		"carrier": ["movistar"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_vf_global",
+		"tag": "EUTF",
+		"region": "eea",
+		"carrier": ["tf"],
+		"zone": "2"
+	},
+	{
+		"code": "_th_as_global",
+		"tag": "THAS",
+		"region": "th",
+		"carrier": ["as"],
+		"zone": "2"
+	},
+	{
+		"code": "_cl_en_global",
+		"tag": "LMCR",
+		"region": "lm",
+		"carrier": ["cr"],
+		"zone": "2"
+	},
+	{
+		"code": "_in_fk_global",
+		"tag": "INFK",
+		"region": "in",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_kr_global",
+		"tag": "KRXM",
+		"region": "global",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_global",
+		"tag": "EUHG",
+		"region": "eea",
+		"carrier": ["h3g"],
+		"zone": "2"
+	}
 ]
 
 flags = {
@@ -579,6 +579,10 @@ flags = {
 	"aristotle_cl_en_global":"aristotle",
 	"ARISTOTLECLENGlobal":"aristotle",
 	"uke_in_global":"uke",
+	"MALACHITEMXATGlobal":"malachite",
+	"malachite_lm_cr_global":"malachite",
+	"malachite_mx_at_global":"malachite",
+	"MALACHITELMCRGlobal":"malachite",
 	"obsidian_eea_global":"obsidian",
 	"obsidian_global":"obsidian",
 	"obsidian_dc_global":"obsidian",
@@ -1999,41 +2003,41 @@ def localData(codename):
 	return devdata
 
 def db_job(sql):
-  cnx = None
-  try:
-    cnx = Connection(
-      user=config.user,
-      password=config.password,
-      host=config.host,
-      port=config.port,
-      database=config.database,
-      autocommit=True
-      )
-    cursor = cnx.cursor()
-    cursor.execute(sql)
-    return cursor.fetchall()
-  except Exception as e:
-    print(sql,e)
-  finally:
-    if cnx:
-      cnx.close()
+	cnx = None
+	try:
+		cnx = Connection(
+			user=config.user,
+			password=config.password,
+			host=config.host,
+			port=config.port,
+			database=config.database,
+			autocommit=True
+			)
+		cursor = cnx.cursor()
+		cursor.execute(sql)
+		return cursor.fetchall()
+	except Exception as e:
+		print(sql,e)
+	finally:
+		if cnx:
+			cnx.close()
 
 def stringify(s):
-    return f"'{s}'"
+		return f"'{s}'"
 def get_time(url):
-  try:
-    response = requests.head(url, allow_redirects=True)
-    if 'Last-Modified' in response.headers:
-      last_modified_str = response.headers['Last-Modified']
-      date = datetime.strptime(last_modified_str, "%a, %d %b %Y %H:%M:%S %Z") + timedelta(hours=8)
-      return date.strftime("%Y-%m-%d")
-    else:
-      return ""
-  except requests.RequestException as e:
-    return f"访问URL失败: {e}"
+	try:
+		response = requests.head(url, allow_redirects=True)
+		if 'Last-Modified' in response.headers:
+			last_modified_str = response.headers['Last-Modified']
+			date = datetime.strptime(last_modified_str, "%a, %d %b %Y %H:%M:%S %Z") + timedelta(hours=8)
+			return date.strftime("%Y-%m-%d")
+		else:
+			return ""
+	except requests.RequestException as e:
+		return f"访问URL失败: {e}"
 
 def form_url(filename,version):
-  return 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/'+version+"/"+filename
+	return 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/'+version+"/"+filename
 
 def writeData(filename):
 	if platform == "win32":
@@ -2124,162 +2128,163 @@ def OTAFormer(device, code, region, branch, zone, android, version):
 		return json.dumps(HyperOSForm)
 
 def db_job_latest(sql):
-  cnx = None
-  try:
-    cnx = Connection(
-      user=config.user,
-      password=config.password,
-      host=config.host,
-      port=config.port,
-      database=config.database,
-      autocommit=True
-      )
-    cursor = cnx.cursor()
-    cursor.execute(sql)
-    return cursor.fetchone()
-  except Exception as e:
-    print(sql,e)
-  finally:
-    if cnx:
-      cnx.close()
+	cnx = None
+	try:
+		cnx = Connection(
+			user=config.user,
+			password=config.password,
+			host=config.host,
+			port=config.port,
+			database=config.database,
+			autocommit=True
+			)
+		cursor = cnx.cursor()
+		cursor.execute(sql)
+		return cursor.fetchone()
+	except Exception as e:
+		print(sql,e)
+	finally:
+		if cnx:
+			cnx.close()
 
 def getBranchcode(filename):
-  if filename.endswith(".zip"):
-    if filename.startswith("miui"):
-      branchCode = filename.split("_")[1]
-      get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (stringify(branchCode))
-      if len(db_job(get_sql)) > 0:
-        return db_job(get_sql)[0][0]
-      else:
-        return 0
-    else:
-      return filename.split("-")[0]
-  elif filename.endswith(".tgz"):
-    return filename.split('_images')[0]
+	if filename.endswith(".zip"):
+		if filename.startswith("miui"):
+			branchCode = filename.split("_")[1]
+			get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (stringify(branchCode))
+			if len(db_job(get_sql)) > 0:
+				return db_job(get_sql)[0][0]
+			else:
+				return 0
+		else:
+			return filename.split("-")[0]
+	elif filename.endswith(".tgz"):
+		return filename.split('_images')[0]
 
 def getData(filename):
-  if "miui" in filename:
-    filetype = "recovery"
-    android = filename.split("_")[4].split(".zip")[0]
-    version = filename.split("_")[2]
-    if ".EP" in filename:
-      devtag = filename.split("_")[1].split("EPS")[0].lower()
-    else:
-      devtag = version.split(".")[4][1:3]
-    get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (stringify(filename.split("_")[1]))
-    data = db_job_latest(get_sql)
-    if data is not None:
-      code = data[0]
-      device = db_job_latest("SELECT device FROM roms where code = %s" % (stringify(code)))[0]
-    else:
-      ver_code = version[-4:]
-      info = db_job_latest("SELECT branch,tag,code,region FROM branches WHERE vercode = %s" % (stringify(ver_code)))
-      branch,tag,code,region = [item for item in info]
-      device = db_job_latest("SELECT device FROM devices WHERE devtag = %s" % (stringify(devtag)))[0]
-      code = device+code
-      ins_sql = "INSERT INTO devices(device,devtag,code,tag,region,devcode,branchcode) VALUES (%s,%s,%s,%s,%s,%s,%s)" % (stringify(device),stringify(devtag),stringify(code),stringify(tag),stringify(region),stringify(version[-6:]),stringify(filename.split("_")[1]))
-      db_job_latest(ins_sql)
-  else:
-    if filename.endswith(".tgz"):
-      filetype = "fastboot"
-      android = filename.split("images_")[1].split("_")[2]
-      version = filename.split("images_")[1].split("_")[0]
-      code = filename.split('_images')[0]
-    else:
-      filetype = "recovery"
-      android = filename.split("ota_full-")[1].split("-")[2]
-      version = filename.split("ota_full-")[1].split("-")[0]
-      code = filename.split("-ota_full")[0]
-    data = db_job_latest("SELECT device FROM roms where code = %s" % (stringify(code)))
-    if data is not None:
-      device = data[0]
-    else:
-      device = db_job_latest("SELECT device FROM devices where code = %s" % (stringify(code)))[0]
-  if version.startswith('V'):
-    type = "MIUI"
-    bigver = "MIUI " + version.split('V')[1].split('.')[0]
-  else:
-    type = "HyperOS"
-    bigver = "HyperOS " + version.split('OS')[1].split('.')[0]
-  if code == 0:
-    return 0
-  else:
-    if "CNXM" in version:
-      if version.split(".")[3] == 0 or version.split(".")[3] == "0":
-        tag = "CnOO"
-      else:
-        tag = "CnOB"
-      region = "cn"
-      zone = 1
-    else:
-      info_sql = "SELECT region,tag,zone FROM roms WHERE code = %s" % (stringify(code))
-      data = db_job_latest(info_sql)
-      if data is not None:
-        if len(data) > 0:
-          region,tag,zone = [item for item in data]
-        else:
-          region,tag,zone = db_job_latest(info_sql)
-      else:
-        data = db_job_latest("SELECT region,tag FROM devices WHERE code = %s" % (stringify(code)))
-        region,tag = [item for item in data]
-        if region == "cn":
-          zone = 1
-        else:
-          zone = 2
-  return device, code, android, version, type, bigver, region,tag,zone, "F", filetype, filename
+	if "miui" in filename:
+		filetype = "recovery"
+		android = filename.split("_")[4].split(".zip")[0]
+		version = filename.split("_")[2]
+		get_sql = "SELECT code,device FROM devices WHERE branchcode = %s" % (stringify(filename.split("_")[1]))
+		data = db_job_latest(get_sql)
+		if data is not None:
+			code = data[0]
+			device = data[1]
+		else:
+			print(filename.split("_")[1])
+			if ".EP" in filename:
+				devtag = filename.split("_")[1].split("EPS")[0].lower()
+			else:
+				devtag = version.split(".")[4][1:3]
+			ver_code = version[-4:]
+			info = db_job_latest("SELECT tag,code,region FROM branches WHERE vercode = %s" % (stringify(ver_code)))
+			tag,code,region = [item for item in info]
+			device = db_job_latest("SELECT device FROM devices WHERE devtag = %s" % (stringify(devtag)))[0]
+			code = device+code
+			ins_sql = "INSERT INTO devices(device,devtag,code,tag,region,devcode,branchcode) VALUES (%s,%s,%s,%s,%s,%s,%s)" % (stringify(device),stringify(devtag),stringify(code),stringify(tag),stringify(region),stringify(version[-6:]),stringify(filename.split("_")[1]))
+			db_job_latest(ins_sql)
+	else:
+		if filename.endswith(".tgz"):
+			filetype = "fastboot"
+			android = filename.split("images_")[1].split("_")[2]
+			version = filename.split("images_")[1].split("_")[0]
+			code = filename.split('_images')[0]
+		else:
+			filetype = "recovery"
+			android = filename.split("ota_full-")[1].split("-")[2]
+			version = filename.split("ota_full-")[1].split("-")[0]
+			code = filename.split("-ota_full")[0]
+		data = db_job_latest("SELECT device FROM roms where code = %s" % (stringify(code)))
+		if data is not None:
+			device = data[0]
+		else:
+			device = db_job_latest("SELECT device FROM devices where code = %s" % (stringify(code)))[0]
+	if version.startswith('V'):
+		type = "MIUI"
+		bigver = "MIUI " + version.split('V')[1].split('.')[0]
+	else:
+		type = "HyperOS"
+		bigver = "HyperOS " + version.split('OS')[1].split('.')[0]
+	if code == 0:
+		return 0
+	else:
+		if "CNXM" in version:
+			if version.split(".")[3] == 0 or version.split(".")[3] == "0":
+				tag = "CnOO"
+			else:
+				tag = "CnOB"
+			region = "cn"
+			zone = 1
+		else:
+			info_sql = "SELECT region,tag,zone FROM roms WHERE code = %s" % (stringify(code))
+			data = db_job_latest(info_sql)
+			if data is not None:
+				if len(data) > 0:
+					region,tag,zone = [item for item in data]
+				else:
+					region,tag,zone = db_job_latest(info_sql)
+			else:
+				data = db_job_latest("SELECT region,tag FROM devices WHERE code = %s" % (stringify(code)))
+				region,tag = [item for item in data]
+				if region == "cn":
+					zone = 1
+				else:
+					zone = 2
+	return device, code, android, version, type, bigver, region,tag,zone, "F", filetype, filename
 
 def checkDatabase(device, code, android, version, type, bigver, region,tag,zone,branch, filetype, filename):
-  if filetype == "recovery":
-    checkpoint = "recovery"
-  else:
-    if "chinatelecom" in filename:
-      checkpoint = "ctelecom"
-    elif "chinaunicom" in filename:
-      checkpoint = "cunicom"
-    elif "chinamobile" in filename:
-      checkpoint = "cmobile"
-    else:
-      checkpoint = "fastboot"
-  get_sql = f"SELECT id,{checkpoint},others FROM roms WHERE code = %s and version = %s" % (stringify(code), stringify(version))
-  data = db_job_latest(get_sql)
-  if data is not None:
-    if len(data) > 0:
-      if data[1] == filename:
-        pass
-      elif data[1] == None:
-        if filetype == "recovery":
-          beta_date = stringify(get_time(form_url(filename,version)))
-          upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s WHERE id = %d" % (stringify(filename),beta_date, data[0])
-        else:
-          public_date = stringify(get_time(form_url(filename,version)))
-          upd_sql = f"UPDATE roms SET {checkpoint} = %s, public_date = %s WHERE id = %d" % (stringify(filename),public_date, data[0])
-        db_job_latest(upd_sql)
-      else:
-        if data[2] == None or data[2] == "":
-          others = []
-          others.append(filename)
-          update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %d" % (data[0])
-          db_job_latest(update_sql)
-        elif filename in data[2]:
-          pass
-        else:
-          others = list(json.loads(data[2]))
-          others.append(filename)
-          update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %d" % (data[0])
-          db_job_latest(update_sql)
-    else:
-      print(filename)
-  else:
-    insdate = stringify(date.today().strftime("%Y-%m-%d"))
-    release_date = stringify(date.today().strftime("%Y-%m-%d"))
-    if filetype == "fastboot":
-      public_date = stringify(get_time(form_url(filename,version)))
-      ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,insdate, public_date) VALUES (%d,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (zone, stringify(device), stringify(code), stringify(android), stringify(version), stringify(type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, insdate, public_date)
-    else:
-      beta_date = stringify(get_time(form_url(filename,version)))
-      public_date = stringify(None)
-      ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,beta_date,insdate) VALUES (%d,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (zone, stringify(device), stringify(code), stringify(android), stringify(version), stringify(type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, beta_date, insdate)
-    db_job_latest(ins_sql)
+	if filetype == "recovery":
+		checkpoint = "recovery"
+	else:
+		if "chinatelecom" in filename:
+			checkpoint = "ctelecom"
+		elif "chinaunicom" in filename:
+			checkpoint = "cunicom"
+		elif "chinamobile" in filename:
+			checkpoint = "cmobile"
+		else:
+			checkpoint = "fastboot"
+	get_sql = f"SELECT id,{checkpoint},others FROM roms WHERE code = %s and version = %s" % (stringify(code), stringify(version))
+	data = db_job_latest(get_sql)
+	if data is not None:
+		if len(data) > 0:
+			if data[1] == filename:
+				pass
+			elif data[1] == None:
+				if filetype == "recovery":
+					beta_date = stringify(get_time(form_url(filename,version)))
+					upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s WHERE id = %d" % (stringify(filename),beta_date, data[0])
+				else:
+					public_date = stringify(get_time(form_url(filename,version)))
+					upd_sql = f"UPDATE roms SET {checkpoint} = %s, public_date = %s WHERE id = %d" % (stringify(filename),public_date, data[0])
+				db_job_latest(upd_sql)
+			else:
+				if data[2] == None or data[2] == "":
+					others = []
+					others.append(filename)
+					update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %d" % (data[0])
+					db_job_latest(update_sql)
+				elif filename in data[2]:
+					pass
+				else:
+					others = list(json.loads(data[2]))
+					others.append(filename)
+					update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %d" % (data[0])
+					db_job_latest(update_sql)
+		else:
+			print(filename)
+	else:
+		insdate = stringify(date.today().strftime("%Y-%m-%d"))
+		release_date = stringify(date.today().strftime("%Y-%m-%d"))
+		if filetype == "fastboot":
+			public_date = stringify(get_time(form_url(filename,version)))
+			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,insdate, public_date) VALUES (%d,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (zone, stringify(device), stringify(code), stringify(android), stringify(version), stringify(type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, insdate, public_date)
+		else:
+			beta_date = stringify(get_time(form_url(filename,version)))
+			public_date = stringify(None)
+			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,beta_date,insdate) VALUES (%d,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (zone, stringify(device), stringify(code), stringify(android), stringify(version), stringify(type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, beta_date, insdate)
+		db_job_latest(ins_sql)
 
 def checkExist(filename):
 	newROM = open("public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
@@ -2467,28 +2472,28 @@ def print_log(log):
 		
 
 def getFastboot(url):
-  s = requests.Session()
-  s.mount('http://', HTTPAdapter(max_retries=3))
-  s.mount('https://', HTTPAdapter(max_retries=3))
-  headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
-         'Connection': 'close'}
-  try:
-    response = s.post(url, headers=headers, json=True)
-    if (response.status_code == 200):
-      content = response.content.decode('utf8')
-      if content == '':
-        i = 0
-      else:
-        data = json.loads(content)['LatestFullRom']
-        if len(data) > 0:
-          checkExist(data['filename'])
-        else:
-          i = 0
-    else:
-      i = 0
-  except requests.exceptions.RequestException as e:
-    i = 0
-  s.close()
+	s = requests.Session()
+	s.mount('http://', HTTPAdapter(max_retries=3))
+	s.mount('https://', HTTPAdapter(max_retries=3))
+	headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+				 'Connection': 'close'}
+	try:
+		response = s.post(url, headers=headers, json=True)
+		if (response.status_code == 200):
+			content = response.content.decode('utf8')
+			if content == '':
+				i = 0
+			else:
+				data = json.loads(content)['LatestFullRom']
+				if len(data) > 0:
+					checkExist(data['filename'])
+				else:
+					i = 0
+		else:
+			i = 0
+	except requests.exceptions.RequestException as e:
+		i = 0
+	s.close()
 
 def entryChecker(data,device):
 	check =[]
