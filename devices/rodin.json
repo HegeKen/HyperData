@@ -333,6 +333,36 @@
 					"fastboot": "rodin_id_global_images_OS2.0.3.0.VOJIDXM_20250207.0000.00_15.0_id_7ecc19dede.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "rodin_tr_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO X7 Pro",
+				"en" :"POCO X7 Pro"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOJTRXM": {
+					"os": "OS2.0.2.0.VOJTRXM",
+					"android": "15.0",
+					"release": "2025-03-05",
+					"recovery": "rodin_tr_global-ota_full-OS2.0.2.0.VOJTRXM-user-15.0-462cbb667a.zip",
+					"fastboot": "rodin_tr_global_images_OS2.0.2.0.VOJTRXM_20250210.0000.00_15.0_tr_832d64cd49.tgz"
+				}
+			}
 		}
   ]
 }

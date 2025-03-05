@@ -1963,6 +1963,7 @@ flags = {
 	"MANETDEMO": "manet",
 	"manet_demo": "manet",
 	"manet": "manet",
+	"rodin_tr_global":"rodin",
 	"SOCRATES": "socrates",
 	"socrates": "socrates",
 	"ZIZHAN": "zizhan",
