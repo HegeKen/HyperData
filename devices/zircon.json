@@ -37,8 +37,8 @@
 					"android": "15.0",
 					"release": "2025-02-21",
 					"recovery": "zircon-ota_full-OS2.0.3.0.VNOCNXM-user-15.0-1ef6ea7bf8.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "zircon_images_OS2.0.3.0.VNOCNXM_20250212.0000.00_15.0_cn_ea7f86c82a.tgz",
+					"ctelecom": "zircon_images_OS2.0.3.0.VNOCNXM_20250212.0000.00_15.0_cn_chinatelecom_b6a0a1e415.tgz"
 				},
 				"OS2.0.2.0.VNOCNXM": {
 					"os": "OS2.0.2.0.VNOCNXM",
@@ -797,6 +797,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VNOTRXM": {
+					"os": "OS2.0.2.0.VNOTRXM",
+					"android": "15.0",
+					"release": "2025-03-05",
+					"recovery": "zircon_tr_global-ota_full-OS2.0.2.0.VNOTRXM-user-15.0-2d50437a13.zip",
+					"fastboot": ""
+				},
 				"OS2.0.1.0.VNOTRXM": {
 					"os": "OS2.0.1.0.VNOTRXM",
 					"android": "15.0",
