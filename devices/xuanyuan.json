@@ -310,6 +310,36 @@
 					"release": "2025-03-03",
 					"recovery": "xuanyuan_id_global-ota_full-OS2.0.2.0.VOAIDXM-user-15.0-59b2a6cbc1.zip",
 					"fastboot": "xuanyuan_id_global_images_OS2.0.2.0.VOAIDXM_20250116.0000.00_15.0_id_4c982517c9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚 Demo",
+				"en": "Xiaomi HyperOS Indonesia MiStore Demo"
+			},
+			"branchCode": "xuanyuan_id_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "IDDM",
+			"tag": "IDDM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.3.0.VOAIDDM": {
+					"os": "OS2.0.3.0.VOAIDDM",
+					"android": "15.0",
+					"release": "2025-03-06",
+					"recovery": "xuanyuan_id_global-ota_full-OS2.0.3.0.VOAIDDM-user-15.0-e536b85dbd.zip",
+					"fastboot": ""
 				},
 				"OS2.0.2.0.VOAIDDM": {
 					"os": "OS2.0.2.0.VOAIDDM",

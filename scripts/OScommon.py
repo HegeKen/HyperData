@@ -127,6 +127,13 @@ branches = [
 		"carrier": [""],
 		"zone": "2"
 	},
+		{
+		"code": "_id_global",
+		"tag": "IDDM",
+		"region": "id",
+		"carrier": [""],
+		"zone": "2"
+	},
 	{
 		"code": "_tr_global",
 		"tag": "TRXM",
