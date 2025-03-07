@@ -160,7 +160,7 @@ if len(CnOO) != 0:
   for i in CnOO:
     file.write(i.replace(":","：")+"\n")
 if len(CNTP) != 0:
-  file.write("\n中国台湾地区正式版\n")
+  file.write("\n中国台湾省正式版\n")
   for i in CNTP:
     file.write(i.replace(":","：")+"\n")
 if len(GBEB) != 0:
