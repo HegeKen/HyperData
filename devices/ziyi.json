@@ -124,8 +124,8 @@
 		},
 		{
 			"name": {
-				"zh": "小米澎湃 OS 中国台湾地区正式版",
-				"en": "Xiaomi HyperOS China Taiwan Stable"
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
 			"branchCode": "ziyi_tw_global",
 			"brand": "Xiaomi",
@@ -329,6 +329,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VLLEUXM": {
+					"os": "OS2.0.2.0.VLLEUXM",
+					"android": "15.0",
+					"release": "2025-03-07",
+					"recovery": "ziyi_eea_global-ota_full-OS2.0.2.0.VLLEUXM-user-15.0-9691c81ddc.zip",
+					"fastboot": ""
+				},
 				"OS1.0.14.0.ULLEUXM": {
 					"os": "OS1.0.14.0.ULLEUXM",
 					"android": "14.0",
