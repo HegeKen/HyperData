@@ -403,6 +403,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚 Demo",
+				"en": "Xiaomi HyperOS Indonesia MiStore Demo"
+			},
+			"branchCode": "moon_id_global",
+			"brand": "Redmi, POCO",
+      "device": {
+        "zh" :"Redmi 13 / POCO M6 4G",
+        "en" :"Redmi 13 / POCO M6 4G"
+      },
+			"idtag": "IDDM",
+			"tag": "IDDM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.4.0.UNTIDDM": {
+					"os": "OS1.0.4.0.UNTIDDM",
+					"android": "14.0",
+					"release": "2025-03-08",
+					"recovery": "miui_MOONIDGlobal_OS1.0.4.0.UNTIDDM_acfdbc4b8f_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
