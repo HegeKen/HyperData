@@ -473,6 +473,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.6.0.VNREUXM": {
+					"os": "OS2.0.6.0.VNREUXM",
+					"android": "15.0",
+					"release": "2025-03-11",
+					"recovery": "garnet_eea_global-ota_full-OS2.0.6.0.VNREUXM-user-15.0-bebf500b00.zip",
+					"fastboot": ""
+				},
 				"OS2.0.4.0.VNREUXM": {
 					"os": "OS2.0.4.0.VNREUXM",
 					"android": "15.0",
@@ -763,7 +770,7 @@
 					"android": "15.0",
 					"release": "2025-02-22",
 					"recovery": "garnet_id_global-ota_full-OS2.0.4.0.VNRIDXM-user-15.0-d4cbd292b6.zip",
-					"fastboot": ""
+					"fastboot": "garnet_id_global_images_OS2.0.4.0.VNRIDXM_20250212.0000.00_15.0_id_810eeb2264.tgz"
 				},
 				"OS1.0.14.0.UNRIDXM": {
 					"os": "OS1.0.14.0.UNRIDXM",
@@ -928,7 +935,7 @@
 					"android": "15.0",
 					"release": "2025-03-05",
 					"recovery": "garnet_lm_cr_global-ota_full-OS2.0.1.0.VNRLMCR-user-15.0-c1e16c1f46.zip",
-					"fastboot": ""
+					"fastboot": "garnet_lm_cr_global_images_OS2.0.1.0.VNRLMCR_20250225.0000.00_15.0_lm_cr_84b4488422.tgz"
 				},
 				"OS1.0.5.0.UNRLMCR": {
 					"os": "OS1.0.5.0.UNRLMCR",
