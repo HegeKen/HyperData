@@ -315,6 +315,8 @@ flags = {
 	"RUYITWGlobal":"ruyi",
 	"ruan_ep_stdee":"ruan",
 	"RUANEPSTDEE": "ruan",
+	"AMETHYSTTRGlobal":"amethyst",
+	"amethyst_tr_global":"amethyst",
 	"EARTHEPSTDEE":"earth",
 	"earth_ep_stdee":"earth",
 	"warm_in_global":"warm",

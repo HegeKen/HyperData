@@ -404,6 +404,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UOPINXM": {
+					"os": "OS1.0.8.0.UOPINXM",
+					"android": "14.0",
+					"release": "2025-03-12",
+					"recovery": "miui_AMETHYSTINGlobal_OS1.0.8.0.UOPINXM_1a2fd5d521_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.4.0.UOPINXM": {
 					"os": "OS1.0.4.0.UOPINXM",
 					"android": "14.0",
@@ -459,6 +466,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "amethyst_tr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14 Pro+",
+				"en" :"Redmi Note 14 Pro+"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UOPTRXM": {
+					"os": "OS1.0.3.0.UOPTRXM",
+					"android": "15.0",
+					"release": "2025-03-12",
+					"recovery": "miui_AMETHYSTTRGlobal_OS1.0.3.0.UOPTRXM_244dec48e2_14.0.zip",
+					"fastboot": "amethyst_tr_global_images_OS1.0.3.0.UOPTRXM_20241209.0000.00_14.0_tr_e95bb4eca9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
 				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
 			},
@@ -508,6 +545,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.3.0.UOPLMCR": {
+					"os": "OS1.0.3.0.UOPLMCR",
+					"android": "14.0",
+					"release": "2025-03-12",
+					"recovery": "miui_AMETHYSTLMCRGlobal_OS1.0.3.0.UOPLMCR_9febc39f50_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.2.0.UOPLMCR": {
 					"os": "OS1.0.2.0.UOPLMCR",
 					"android": "14.0",
