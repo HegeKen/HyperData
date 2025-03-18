@@ -5,7 +5,7 @@
 		"en": "Redmi Note 12 5G / Note 12R Pro"
 	},
 	"code": "MQ",
-	"suppports": ["OS1.0"],
+	"suppports": ["OS1.0", "OS2.0"],
 	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
@@ -32,6 +32,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.UMQCNXM": {
+					"os": "OS2.0.2.0.UMQCNXM",
+					"android": "14.0",
+					"release": "2025-03-17",
+					"recovery": "sunstone-ota_full-OS2.0.2.0.UMQCNXM-user-14.0-eaeeb35afe.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.4.0.UMQCNXM": {
 					"os": "OS1.0.4.0.UMQCNXM",
 					"android": "14.0",

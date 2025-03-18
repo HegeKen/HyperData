@@ -32,13 +32,21 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.UMOCNXM": {
+					"os": "OS2.0.1.0.UMOCNXM",
+					"android": "14.0",
+					"release": "2025-03-17",
+					"recovery": "ruby-ota_full-OS2.0.1.0.UMOCNXM-user-14.0-f76be0161f.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.16.0.UMOCNXM": {
 					"os": "OS1.0.16.0.UMOCNXM",
 					"android": "14.0",
 					"release": "2025-03-05",
 					"recovery": "miui_RUBY_OS1.0.16.0.UMOCNXM_1ca459eebd_14.0.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "ruby_images_OS1.0.16.0.UMOCNXM_20250227.0000.00_14.0_cn_53e06fdebe.tgz",
+					"ctelecom": "ruby_images_OS1.0.16.0.UMOCNXM_20250227.0000.00_14.0_cn_chinatelecom_55d3ab3472.tgz"
 				},
 				"OS1.0.13.0.UMOCNXM": {
 					"os": "OS1.0.13.0.UMOCNXM",
@@ -195,7 +203,7 @@
 					"android": "14.0",
 					"release": "2025-03-10",
 					"recovery": "miui_RUBYTWGlobal_OS1.0.10.0.UMOTWXM_8cbef3cc9b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "ruby_tw_global_images_OS1.0.10.0.UMOTWXM_20250227.0000.00_14.0_tw_bb1eff3447.tgz"
 				},
 				"OS1.0.9.0.UMOTWXM": {
 					"os": "OS1.0.9.0.UMOTWXM",
@@ -283,6 +291,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.17.0.UMOMIXM": {
+					"os": "OS1.0.17.0.UMOMIXM",
+					"android": "14.0",
+					"release": "2025-03-17",
+					"recovery": "miui_RUBYGlobal_OS1.0.17.0.UMOMIXM_1feeb8d47d_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.16.0.UMOMIXM": {
 					"os": "OS1.0.16.0.UMOMIXM",
 					"android": "14.0",
@@ -390,6 +405,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.15.0.UMOEUXM": {
+					"os": "OS1.0.15.0.UMOEUXM",
+					"android": "14.0",
+					"release": "2025-03-17",
+					"recovery": "miui_RUBYEEAGlobal_OS1.0.15.0.UMOEUXM_a14d91dcb3_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.14.0.UMOEUXM": {
 					"os": "OS1.0.14.0.UMOEUXM",
 					"android": "14.0",
@@ -795,7 +817,7 @@
 					"android": "14.0",
 					"release": "2025-03-10",
 					"recovery": "miui_RUBYTRGlobal_OS1.0.10.0.UMOTRXM_81748d5877_14.0.zip",
-					"fastboot": ""
+					"fastboot": "ruby_tr_global_images_OS1.0.10.0.UMOTRXM_20250227.0000.00_14.0_tr_bcd7b4b3fa.tgz"
 				},
 				"OS1.0.9.0.UMOTRXM": {
 					"os": "OS1.0.9.0.UMOTRXM",
@@ -883,6 +905,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.5.0.UMOKRXM": {
+					"os": "OS1.0.5.0.UMOKRXM",
+					"android": "14.0",
+					"release": "2025-03-17",
+					"recovery": "miui_RUBYKRGlobal_OS1.0.5.0.UMOKRXM_eb3beb658a_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.4.0.UMOKRXM": {
 					"os": "OS1.0.4.0.UMOKRXM",
 					"android": "14.0",

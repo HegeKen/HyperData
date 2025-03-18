@@ -2008,6 +2008,8 @@ def ver_in_order(versions):
 def localData(codename):
 	if platform == "win32":
 		devdata = json.loads(open("public/data/devices/"+codename+".json", 'r', encoding='utf-8').read())
+	elif platform == "darwin":
+		devdata = json.loads(open("public/data/devices/"+codename+".json", 'r', encoding='utf-8').read())
 	else:
 		devdata = json.loads(open("/sdcard/Codes/HyperOS.fans/public/data/devices/" + codename+".json", 'r', encoding='utf-8').read())
 	return devdata
@@ -2052,6 +2054,8 @@ def form_url(filename,version):
 def writeData(filename):
 	if platform == "win32":
 		file = open("public/data/scripts/NewROMs.txt", "a", encoding='utf-8')
+	elif platform == "darwin":
+		file = open("public/data/scripts/NewROMs.txt", "a", encoding='utf-8')
 	else:
 		file = open("/sdcard/Codes/HyperOS.fans/public/data/scripts/NewROMs.txt", "a", encoding='utf-8')
 	file.write(filename+"\n")
@@ -2073,6 +2077,8 @@ def writeData(filename):
 
 def writeFlag(flag, device):
 	if platform == "win32":
+		file = open("public/data/scripts/Flags.json", "a", encoding='utf-8')
+	elif platform == "darwin":
 		file = open("public/data/scripts/Flags.json", "a", encoding='utf-8')
 	else:
 		file = open("/sdcard/Codes/HyperOS.fans/public/data/scripts/Flags.json", "a", encoding='utf-8')
@@ -2297,8 +2303,15 @@ def checkDatabase(device, code, android, version, type, bigver, region,tag,zone,
 		db_job_latest(ins_sql)
 
 def checkExist(filename):
-	newROM = open("public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
-	UInewROM = open("D:/Projects/HyperOS.fans/Nuxt3MR/public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+	if platform == "win32":
+		newROM = open("public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+		UInewROM = open("D:/Projects/HyperOS.fans/Nuxt3MR/public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+	elif platform == "darwin":
+		newROM = open("public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+		UInewROM = open("../NuxtMR/public/MRData/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+	else:
+		newROM = open("/sdcard/Codes/HyperOS.fans/public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
+		newROM = open("/sdcard/Codes/NuxtMR/public/MRdata/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
 	if "OS" in filename:
 		if "blockota" in filename:
 			return "OTA ROM"

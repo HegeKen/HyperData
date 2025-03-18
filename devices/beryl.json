@@ -40,6 +40,14 @@
 					"fastboot": "beryl_images_OS2.0.2.0.VOQCNXM_20250104.0000.00_15.0_cn_fc96220013.tgz",
 					"ctelecom": "beryl_images_OS2.0.2.0.VOQCNXM_20250104.0000.00_15.0_cn_chinatelecom_6e078d4728.tgz"
 				},
+				"OS1.0.7.0.UOQCNXM": {
+					"os": "OS1.0.7.0.UOQCNXM",
+					"android": "14.0",
+					"release": "2025-03-13",
+					"recovery": "miui_BERYL_OS1.0.7.0.UOQCNXM_2f6026433f_14.0.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.6.0.UOQCNXM": {
 					"os": "OS1.0.6.0.UOQCNXM",
 					"android": "14.0",
@@ -222,6 +230,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UOQMIDC": {
+					"os": "OS1.0.8.0.UOQMIDC",
+					"android": "15.0",
+					"release": "2025-03-18",
+					"recovery": "miui_BERYLDCGlobal_OS1.0.8.0.UOQMIDC_ae188d8fee_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.6.0.UOQMIDC": {
 					"os": "OS1.0.6.0.UOQMIDC",
 					"android": "14.0",
@@ -463,7 +478,7 @@
 					"android": "14.0",
 					"release": "2025-03-11",
 					"recovery": "miui_BERYLLMCRGlobal_OS1.0.4.0.UOQLMCR_6b6c3571ef_14.0.zip",
-					"fastboot": ""
+					"fastboot": "beryl_lm_cr_global_images_OS1.0.4.0.UOQLMCR_20250304.0000.00_14.0_lm_cr_0e91e9967e.tgz"
 				},
 				"OS1.0.2.0.UOQLMCR": {
 					"os": "OS1.0.2.0.UOQLMCR",

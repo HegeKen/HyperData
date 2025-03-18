@@ -123,7 +123,7 @@
 					"android": "14.0",
 					"release": "2025-03-10",
 					"recovery": "miui_MOONGlobal_OS1.0.9.0.UNTMIXM_876bc0534c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "moon_global_images_OS1.0.9.0.UNTMIXM_20250225.0000.00_14.0_global_fe00d84b86.tgz"
 				},
 				"OS1.0.8.0.UNTMIXM": {
 					"os": "OS1.0.8.0.UNTMIXM",
@@ -246,7 +246,7 @@
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_eea_global-ota_full-OS2.0.4.0.VNTEUXM-user-15.0-855231ac4e.zip",
-					"fastboot": ""
+					"fastboot": "moon_eea_global_images_OS2.0.4.0.VNTEUXM_20250226.0000.00_15.0_eea_46fd033cb4.tgz"
 				},
 				"OS2.0.3.0.VNTEUXM": {
 					"os": "OS2.0.3.0.VNTEUXM",
@@ -325,7 +325,7 @@
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_ru_global-ota_full-OS2.0.4.0.VNTRUXM-user-15.0-a6cf89bcd2.zip",
-					"fastboot": ""
+					"fastboot": "moon_ru_global_images_OS2.0.4.0.VNTRUXM_20250226.0000.00_15.0_ru_f38f9a4beb.tgz"
 				},
 				"OS2.0.3.0.VNTRUXM": {
 					"os": "OS2.0.3.0.VNTRUXM",
@@ -397,7 +397,7 @@
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_id_global-ota_full-OS2.0.3.0.VNTIDXM-user-15.0-d5ff38284c.zip",
-					"fastboot": ""
+					"fastboot": "moon_id_global_images_OS2.0.3.0.VNTIDXM_20250226.0000.00_15.0_id_4e2d27b8e7.tgz"
 				},
 				"OS2.0.2.0.VNTIDXM": {
 					"os": "OS2.0.2.0.VNTIDXM",
@@ -499,7 +499,7 @@
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_tr_global-ota_full-OS2.0.3.0.VNTTRXM-user-15.0-5d5e8d7241.zip",
-					"fastboot": ""
+					"fastboot": "moon_tr_global_images_OS2.0.3.0.VNTTRXM_20250226.0000.00_15.0_tr_c037ea1e9b.tgz"
 				},
 				"OS2.0.2.0.VNTTRXM": {
 					"os": "OS2.0.2.0.VNTTRXM",
@@ -610,6 +610,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.7.0.UNTMXAT": {
+					"os": "OS1.0.7.0.UNTMXAT",
+					"android": "14.0",
+					"release": "2025-03-18",
+					"recovery": "miui_MOONMXATGlobal_OS1.0.7.0.UNTMXAT_9dc4eefadc_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.5.0.UNTMXAT": {
 					"os": "OS1.0.5.0.UNTMXAT",
 					"android": "14.0",
@@ -654,6 +661,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS1.0.8.0.UNTLMCR": {
+					"os": "OS1.0.8.0.UNTLMCR",
+					"android": "14.0",
+					"release": "2025-03-18",
+					"recovery": "miui_MOONLMCRGlobal_OS1.0.8.0.UNTLMCR_dd2018df46_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UNTLMCR": {
 					"os": "OS1.0.7.0.UNTLMCR",
 					"android": "14.0",
