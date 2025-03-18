@@ -4,6 +4,7 @@ import json
 import os
 import config
 import time
+from sys import platform
 
 weekday_number = datetime.now().date().weekday()
 weeks = []
@@ -63,6 +64,9 @@ else:
 	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
 	time.sleep(3)
 	os.system(f"curl -X POST \"{config.deploy_url}\"")
-	os.system(f"cls")
+	if platform == "win32":
+		os.system(f"cls")
+	else:
+		os.system(f"clear")
 	print("数据提交成功")
 	print("网站已更新")
