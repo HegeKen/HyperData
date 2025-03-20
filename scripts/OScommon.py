@@ -35,7 +35,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "miro", "zorn", "dada", "haotian", "uke", "muyu", 
+currentStable = ["onyx", "miro", "zorn", "xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -49,7 +49,7 @@ currentStable = ["xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", 
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["xuanyuan", "dijun", "tanzanite", "rodin", "warm", "miro", "zorn", 
+only_os = ["xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
 					 "uke", "muyu",	"dada", "haotian", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "flame", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
@@ -68,7 +68,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'peridot', 'rodin','alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', "zorn", "miro",
-				 'yunluo', 'xun', 'flare', 'spark', 'dizi', 'ruan', 'warm', 'evergreen', 'rock', 'moon', 'air', 'moonstone']
+				 'yunluo', 'xun', 'flare', 'spark', 'dizi', 'ruan', 'warm', "onyx", 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
 branches = [
 	{

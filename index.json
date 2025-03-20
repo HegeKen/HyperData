@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-03-20 11:17:56",
+    "time": "2025-03-20 21:36:06",
     "developing": "no",
     "roms": [
       {
@@ -41,7 +41,15 @@
           "zh": "小米 12T",
           "en": "Xiaomi 12T"
         },
-        "rom": "OS2.0.1.0.VLQIDXM; OS2.0.1.0.VLQTRXM"
+        "rom": "OS2.0.1.0.VLQEUXM; OS2.0.1.0.VLQIDXM; OS2.0.1.0.VLQTRXM"
+      },
+      {
+        "code": "aristotle",
+        "name": {
+          "zh": "小米 13T",
+          "en": "Xiaomi 13T"
+        },
+        "rom": "OS2.0.1.0.VMFMIDC"
       },
       {
         "code": "houji",
@@ -113,7 +121,7 @@
           "zh": "小米 Civi 2",
           "en": "Xiaomi Civi 2"
         },
-        "rom": "OS2.0.1.0.VLLTWXM"
+        "rom": "OS2.0.1.0.VLLTWXM; OS2.0.2.0.VLLRUXM"
       },
       {
         "code": "chenfeng",
@@ -209,7 +217,7 @@
           "zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
           "en": "Redmi Note 13 Pro 5G / POCO X6 5G"
         },
-        "rom": "OS2.0.6.0.VNRMIXM"
+        "rom": "OS2.0.6.0.VNRMIXM; OS2.0.4.0.VNRINXM"
       },
       {
         "code": "tanzanite",
@@ -286,8 +294,8 @@
       {
         "code": "zorn",
         "name": {
-          "zh": "REDMI K80",
-          "en": "REDMI K80"
+          "zh": "REDMI K80 / POCO F7 Pro",
+          "en": "REDMI K80 / POCO F7 Pro"
         },
         "rom": "OS2.0.107.0.VOKCNXM"
       },
@@ -329,7 +337,15 @@
           "zh": "Redmi 13C/R 5G / POCO M6 5G",
           "en": "Redmi 13C/R 5G / POCO M6 5G"
         },
-        "rom": "OS2.0.1.0.VGQTWXM"
+        "rom": "OS2.0.1.0.VGQTWXM; OS1.0.4.0.UGQMIDC"
+      },
+      {
+        "code": "moonstone",
+        "name": {
+          "zh": "POCO X5 5G",
+          "en": "POCO X5 5G"
+        },
+        "rom": "OS1.0.15.0.UMPMIXM; OS1.0.13.0.UMPEUXM"
       }
     ]
   }
