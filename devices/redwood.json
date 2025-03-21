@@ -5,7 +5,7 @@
 		"en": "Redmi Note 12 Pro Speed / POCO X5 Pro 5G"
 	},
 	"code": "MS",
-	"suppports": ["OS1.0"],
+	"suppports": ["OS1.0", "OS2.0"],
 	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
@@ -32,6 +32,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.UMSCNXM": {
+					"os": "OS2.0.3.0.UMSCNXM",
+					"android": "14.0",
+					"release": "2025-03-21",
+					"recovery": "redwood-ota_full-OS2.0.3.0.UMSCNXM-user-14.0-eacf81d344.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.15.0.UMSCNXM": {
 					"os": "OS1.0.15.0.UMSCNXM",
 					"android": "14.0",
