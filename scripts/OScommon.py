@@ -338,6 +338,7 @@ flags = {
 	"AMETHYSTIDGlobal":"amethyst",
 	"xuanyuan":"xuanyuan",
 	"xuanyuan_demo":"xuanyuan",
+	"xuanyuan_in_global":"xuanyuan",
 	"amethyst_id_global":"amethyst",
 	"amethyst_ru_global":"amethyst",
 	"AMETHYSTRUGlobal":"amethyst",

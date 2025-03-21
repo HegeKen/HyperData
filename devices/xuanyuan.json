@@ -317,6 +317,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "xuanyuan_in_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOAINXM": {
+					"os": "OS2.0.2.0.VOAINXM",
+					"android": "15.0",
+					"release": "2025-03-21",
+					"recovery": "",
+					"fastboot": "xuanyuan_in_global_images_OS2.0.2.0.VOAINXM_20250219.0000.00_15.0_in_0b247ae440.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonesia Stable"
 			},
