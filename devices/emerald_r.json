@@ -1,0 +1,119 @@
+{
+	"device": "emerald_r",
+	"name": {
+		"zh": "Redmi Note 14s",
+		"en": "Redmi Note 14s"
+	},
+	"code": "FO",
+	"suppports": ["OS1.0"],
+	"android": ["14.0"],
+	"type": "phone",
+	"miui": "no",
+	"merged":"no",
+	"branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "emerald_r_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14s",
+				"en" :"Redmi Note 14s"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UFOMIXM": {
+					"os": "OS1.0.5.0.UFOMIXM",
+					"android": "15.0",
+					"release": "2025-03-22",
+					"recovery": "miui_EMERALDRGlobal_OS1.0.5.0.UFOMIXM_4c782a7be8_14.0.zip",
+					"fastboot": "emerald_r_global_images_OS1.0.5.0.UFOMIXM_20250311.0000.00_14.0_global_65b1703443.tgz"
+				},
+        "OS1.0.3.0.UFOMIXM": {
+					"os": "OS1.0.3.0.UFOMIXM",
+					"android": "15.0",
+					"release": "2025-03-22",
+					"recovery": "miui_EMERALDRGlobal_OS1.0.3.0.UFOMIXM_2fc5be2daf_14.0.zip",
+					"fastboot": ""
+				},
+        "OS1.0.1.0.UFOMIXM": {
+					"os": "OS1.0.1.0.UFOMIXM",
+					"android": "15.0",
+					"release": "2025-03-22",
+					"recovery": "miui_EMERALDRGlobal_OS1.0.1.0.UFOMIXM_76a0f6e428_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+    {
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "emerald_r_eea_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14s",
+				"en" :"Redmi Note 14s"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UFOEUXM": {
+					"os": "OS1.0.3.0.UFOEUXM",
+					"android": "15.0",
+					"release": "2025-03-22",
+					"recovery": "miui_EMERALDREEAGlobal_OS1.0.3.0.UFOEUXM_bc6f3dcb6d_14.0.zip",
+					"fastboot": "emerald_r_eea_global_images_OS1.0.3.0.UFOEUXM_20250217.0000.00_14.0_eea_3691e7131b.tgz"
+				}
+			}
+		},
+    {
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "emerald_r_tr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14s",
+				"en" :"Redmi Note 14s"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UFOTRXM": {
+					"os": "OS1.0.1.0.UFOTRXM",
+					"android": "15.0",
+					"release": "2025-03-22",
+					"recovery": "miui_EMERALDRTRGlobal_OS1.0.1.0.UFOTRXM_47990699c9_14.0.zip",
+					"fastboot": "emerald_r_tr_global_images_OS1.0.1.0.UFOTRXM_20250220.0000.00_14.0_tr_6c35ed368e.tgz"
+				}
+			}
+		}
+  ]
+}
