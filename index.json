@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-03-24 10:53:19",
+    "time": "2025-03-24 12:36:11",
     "developing": "no",
     "roms": [
+      {
+        "code": "agate",
+        "name": {
+          "zh": "小米 11T",
+          "en": "Xiaomi 11T"
+        },
+        "rom": "OS1.0.7.0.UKWEUHG; OS1.0.8.0.UKWEUTF"
+      },
       {
         "code": "cupid",
         "name": {
@@ -17,7 +25,7 @@
           "zh": "小米 12T",
           "en": "Xiaomi 12T"
         },
-        "rom": "OS1.0.12.0.ULQRUXM"
+        "rom": "OS1.0.11.0.ULQTWXM; OS1.0.12.0.ULQRUXM"
       },
       {
         "code": "degas",
@@ -44,6 +52,30 @@
         "rom": "OS2.0.101.0.VNXEUXM; OS2.0.101.0.VNXRUXM; OS2.0.101.0.VNXIDXM"
       },
       {
+        "code": "earth",
+        "name": {
+          "zh": "Redmi 12C / POCO C55",
+          "en": "Redmi 12C / POCO C55"
+        },
+        "rom": "OS1.0.10.0.UCVEUHG; OS1.0.11.0.UCVEUTF"
+      },
+      {
+        "code": "gale",
+        "name": {
+          "zh": "Redmi 13C 国际 / POCO C65",
+          "en": "Redmi 13C / POCO C65"
+        },
+        "rom": "OS2.0.1.0.VGPLMCR"
+      },
+      {
+        "code": "light",
+        "name": {
+          "zh": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G",
+          "en": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G"
+        },
+        "rom": "OS1.0.6.0.ULSEUHG; OS1.0.8.0.ULSEUTF"
+      },
+      {
         "code": "ruby",
         "name": {
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
@@ -68,6 +100,14 @@
         "rom": "OS2.0.2.0.VHZEUXM"
       },
       {
+        "code": "tanzanite",
+        "name": {
+          "zh": "Redmi Note 14 4G",
+          "en": "Redmi Note 14 4G"
+        },
+        "rom": "OS1.0.4.0.UOGMXAT"
+      },
+      {
         "code": "rodin",
         "name": {
           "zh": "REDMI Turbo 4 / POCO X7 Pro",
@@ -82,6 +122,14 @@
           "en": "Redmi K60 / POCO F5 Pro"
         },
         "rom": "OS2.0.4.0.VMNEUXM"
+      },
+      {
+        "code": "rothko",
+        "name": {
+          "zh": "Redmi K70 至尊版 / 小米 14T Pro",
+          "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
+        },
+        "rom": "OS2.0.102.0.VNNMIDC"
       },
       {
         "code": "air",
