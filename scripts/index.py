@@ -54,11 +54,14 @@ with open('public/data/index.json', 'w', encoding='utf-8') as f:
 f.close()
 errors = []
 for device in OScommon.currentStable:
-	if OScommon.entryChecker(OScommon.localData(device),device) in errors:
-		continue
+	checker = OScommon.entryChecker(OScommon.localData(device),device)
+	if checker ==0:
+		print(device)
 	else:
-		errors.append(OScommon.entryChecker(OScommon.localData(device),device))
-if 1 in errors:
+		print(checker)
+		errors.append(1)
+
+if 1 in list(set(errors)):
 	print("数据有误，请核实后提交git")
 else:
 	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")

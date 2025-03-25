@@ -1,61 +1,73 @@
 import OScommon
-import json
+import os
+import time
 
-for device in OScommon.order:
-  devdata = OScommon.localData(device)
-  devcode = OScommon.stringify(devdata['device'])
-  for branch in devdata['branches']:
-    code = OScommon.stringify(branch['branchCode'])
-    brands = OScommon.stringify(json.dumps(branch['brand'],ensure_ascii=False))
-    names = OScommon.stringify(json.dumps(branch['device'],ensure_ascii=False))
-    update_sql = f"UPDATE devices SET brands = %s, names = %s WHERE code = %s" % (brands,names,code)
-    get_sql = f"SELECT * FROM devices WHERE code = %s" % (code)
-    if len(OScommon.db_job(get_sql)) == 0:
-      continue
-    else:
-      OScommon.db_job(update_sql)
-    # type=OScommon.stringify("HyperOS")
-    # region = OScommon.stringify(branch['region'])
-    # btag = OScommon.stringify(branch['branchtag'])
-    # tag = OScommon.stringify(branch['idtag'])
-    # zone = int(branch['zone'])
-    # devlength = len(devdata["branches"])
-    # romlength = len(branch["table"])
-    # for rom_key in reversed(branch["roms"]):
-    #   android = OScommon.stringify(branch["roms"][rom_key]["android"])
-    #   version = OScommon.stringify(branch["roms"][rom_key]["os"])
-    #   release = OScommon.stringify(branch["roms"][rom_key]["release"])
-    #   recovery = OScommon.stringify(branch["roms"][rom_key]["recovery"])
-    #   fastboot = OScommon.stringify(branch["roms"][rom_key]["fastboot"])
-    #   if "OS1" in version:
-    #     bigver = OScommon.stringify("HyperOS 1")
-    #   elif "OS2" in version:
-    #     bigver = OScommon.stringify("HyperOS 2")
-    #   else:
-    #     bigver = OScommon.stringify("")
-    #   if region == "'cn'":
-    #     ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,zone,version,android,beta_date,recovery,fastboot) VALUES (%s, %s, %s, %s, %s, %s, %s, %d, %s, %s, %s, %s, %s)" % (devcode,code,type,bigver,region,btag,tag,zone,version,android,release,recovery,fastboot)
-    #   else:
-    #     ins_sql = f"INSERT INTO roms (device,code,type,bigver,region,branch,tag,zone,version,android,release_date,recovery,fastboot) VALUES (%s, %s, %s, %s, %s, %s, %s, %d, %s, %s, %s, %s, %s)" % (devcode,code,type,bigver,region,btag,tag,zone,version,android,release,recovery,fastboot)
-    #   OScommon.db_job(ins_sql)
-    #   if romlength > 5:
-    #     if "ctelecom" in branch['table']:
-    #       ctelecom = OScommon.stringify(branch["roms"][rom_key]['ctelecom'])
-    #       update_sql = f"UPDATE roms SET ctelecom = %s WHERE version = %s and code = %s" % (ctelecom,version,code)
-    #       OScommon.db_job(update_sql)
-    #     if "cnmobile" in branch['table']:
-    #       cmobile = OScommon.stringify(branch["roms"][rom_key]['cnmobile'])
-    #       update_sql = f"UPDATE roms SET cmobile = %s WHERE version = %s and code = %s" % (cmobile,version,code)
-    #       OScommon.db_job(update_sql)
-    #     if "cnunicom" in branch['table']:
-    #       cunicom = OScommon.stringify(branch["roms"][rom_key]['cnunicom'])
-    #       update_sql = f"UPDATE roms SET cunicom = %s WHERE version = %s and code = %s" % (cunicom,version,code)
-    #       OScommon.db_job(update_sql)
-    #     if "origin" in branch['table']:
-    #       others = OScommon.stringify(branch["roms"][rom_key]['origin'])
-    #       update_sql = f"UPDATE roms SET others = %s WHERE version = %s and code = %s" % (others,version,code)
-    #       OScommon.db_job(update_sql)
-    #     else:
-    #       print(device,version)
-    #   else:
-    #     i = 0
+
+def entryChecker(data,device):
+	check =[]
+	# 1是有问题，0是没有问题
+	code = data['code']
+	for branch in data['branches']:
+		if data['device'] in branch['branchCode']:
+			roms = branch['roms']
+			bname = branch['name']['zh']
+			menu_items = branch['table']
+			if len(menu_items) != len(set(menu_items)):
+				print(device, bname, "菜单项重复")
+				check.append(1)
+			else:
+				for os_version, rom_info in roms.items():
+					if os_version[:5] not in data['suppports']:
+						if "Developer" in branch['name']['en']:
+							i = 0
+						else:
+							print(device, bname, os_version[:5], os_version, "大版本号没有记录")
+							check.append(1)
+					if rom_info['android'] not in data['android']:
+						print(device, bname, rom_info['android'], os_version, "Android版本号没有记录")
+						check.append(1)
+					if rom_info['recovery'] != "" and rom_info['recovery'].endswith(".zip") and os_version in rom_info['recovery']:
+						i = 0
+					elif rom_info['recovery'] == "":
+						i = 0
+					else:
+						if "Developer" in branch['name']['en']:
+							i = 0
+						else:
+							print(device, bname, os_version, "卡刷包的信息不对")
+							check.append(1)
+					for i in range(4,len(menu_items)):
+						if rom_info[menu_items[i]] != "" and rom_info[menu_items[i]].endswith(".tgz") and os_version in rom_info[menu_items[i]]:
+							i = 0
+						elif rom_info[menu_items[i]] == "":
+							i = 0
+						else:
+							if "Developer" in branch['name']['en']:
+								i = 0
+							else:
+								print(device, bname, os_version, "线刷包的信息不对")
+								check.append(1)
+					if os_version != rom_info['os']:
+						print(device, bname, os_version, "版本号不匹配")
+						check.append(1)
+					else:
+						if branch['ep'] == "1" or branch['branchtag'] == 'X':
+							i = 0
+						else:
+							if code+branch['tag'] in os_version:
+								i = 0
+							else:
+								print(device, bname, os_version, "版本号不匹配")
+							check.append(1)
+		else:
+			print(device, "机型与分支不配，请核实", branch['branchCode'])
+			check.append(1)
+	return check
+	
+errors = []
+device = ['star']
+for device in OScommon.currentStable:
+	if entryChecker(OScommon.localData(device),device):
+		continue
+	else:
+		continue
