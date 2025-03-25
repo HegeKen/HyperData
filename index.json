@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-03-25 15:56:47",
+    "time": "2025-03-25 19:36:57",
     "developing": "no",
     "roms": [
+      {
+        "code": "star",
+        "name": {
+          "zh": "小米 11 Pro / Ultra",
+          "en": "Mi 11 Pro / Ultra"
+        },
+        "rom": "OS2.0.1.0.UKACNXM"
+      },
       {
         "code": "agate",
         "name": {
@@ -113,7 +121,15 @@
           "zh": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G",
           "en": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G"
         },
-        "rom": "OS1.0.6.0.ULSEUHG; OS1.0.8.0.ULSEUTF"
+        "rom": "OS1.0.6.0.ULSEUHG; OS1.0.8.0.ULSEUTF; OS1.0.14.0.ULSEUVF"
+      },
+      {
+        "code": "viva",
+        "name": {
+          "zh": "Redmi Note 11 Pro 4G",
+          "en": "Redmi Note 11 Pro 4G"
+        },
+        "rom": "OS1.0.2.0.TGDLMMS"
       },
       {
         "code": "ruby",
@@ -121,7 +137,7 @@
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
           "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
         },
-        "rom": "OS1.0.14.0.UMORUXM; OS1.0.16.0.UMOIDXM"
+        "rom": "OS1.0.14.0.UMORUXM; OS1.0.12.0.UMOINXM; OS1.0.16.0.UMOIDXM"
       },
       {
         "code": "tapas",
@@ -161,7 +177,7 @@
           "zh": "Redmi Note 14 4G",
           "en": "Redmi Note 14 4G"
         },
-        "rom": "OS1.0.4.0.UOGMXAT"
+        "rom": "OS2.0.1.0.VOGMIXM; OS1.0.4.0.UOGMXAT"
       },
       {
         "code": "obsidian",
@@ -172,12 +188,28 @@
         "rom": "OS1.0.5.0.UOFRUXM"
       },
       {
+        "code": "beryl",
+        "name": {
+          "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
+          "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
+        },
+        "rom": "OS1.0.12.0.UOQEUXM"
+      },
+      {
         "code": "sapphire",
         "name": {
           "zh": "Redmi Note 13 4G",
           "en": "Redmi Note 13 4G"
         },
         "rom": "OS2.0.2.0.VNGLMCR"
+      },
+      {
+        "code": "sapphiren",
+        "name": {
+          "zh": "Redmi Note 13 NFC",
+          "en": "Redmi Note 13 NFC"
+        },
+        "rom": "OS2.0.1.0.VNHMIDC"
       },
       {
         "code": "rodin",
