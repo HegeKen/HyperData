@@ -56,9 +56,8 @@ errors = []
 for device in OScommon.currentStable:
 	checker = OScommon.entryChecker(OScommon.localData(device),device)
 	if checker ==0:
-		print(device)
+		i = 0
 	else:
-		print(checker)
 		errors.append(1)
 
 if 1 in list(set(errors)):
