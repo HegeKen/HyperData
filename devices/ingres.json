@@ -5,7 +5,7 @@
 		"en": "Redmi K50G / POCO F4 GT"
 	},
 	"code": "LJ",
-	"suppports": ["OS1.0"],
+	"suppports": ["OS1.0", "OS2.0"],
 	"android": ["14.0"],
 	"type": "phone",
 	"miui": "yes",
@@ -265,6 +265,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.ULJCNXM": {
+					"os": "OS2.0.2.0.ULJCNXM",
+					"android": "14.0",
+					"release": "2025-03-24",
+					"recovery": "ingres-ota_full-OS2.0.2.0.ULJCNXM-user-14.0-1d532d9906.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS1.0.10.0.ULJCNXM": {
 					"os": "OS1.0.10.0.ULJCNXM",
 					"android": "14.0",
