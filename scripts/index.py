@@ -64,7 +64,7 @@ if 1 in list(set(errors)):
 	print("数据有误，请核实后提交git")
 else:
 	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
-	time.sleep(3)
+	time.sleep(8)
 	os.system(f"curl -X POST \"{config.deploy_url}\"")
 	if platform == "win32":
 		os.system(f"cls")
