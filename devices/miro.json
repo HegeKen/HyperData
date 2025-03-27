@@ -176,6 +176,186 @@
 					"ctelecom": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "miro_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO F7 Ultra",
+				"en" :"POCO F7 Ultra"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.101.0.VOMTWXM": {
+					"os": "OS2.0.101.0.VOMTWXM",
+					"android": "15.0",
+					"release": "2025-03-27",
+					"recovery": "miro_tw_global-ota_full-OS2.0.101.0.VOMTWXM-user-15.0-e0e6993400.zip",
+					"fastboot": "miro_tw_global_images_OS2.0.101.0.VOMTWXM_20250225.0000.00_15.0_tw_6757d13e75.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "miro_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO F7 Ultra",
+				"en" :"POCO F7 Ultra"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.106.0.VOMMIXM": {
+					"os": "OS2.0.106.0.VOMMIXM",
+					"android": "15.0",
+					"release": "2025-03-27",
+					"recovery": "miro_global-ota_full-OS2.0.106.0.VOMMIXM-user-15.0-f8b861d1de.zip",
+					"fastboot": "miro_global_images_OS2.0.106.0.VOMMIXM_20250326.0000.00_15.0_global_bdb178f9fc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "miro_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO F7 Ultra",
+				"en" :"POCO F7 Ultra"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.107.0.VOMEUXM": {
+					"os": "OS2.0.107.0.VOMEUXM",
+					"android": "15.0",
+					"release": "2025-03-27",
+					"recovery": "miro_eea_global-ota_full-OS2.0.107.0.VOMEUXM-user-15.0-278992e0ce.zip",
+					"fastboot": "miro_eea_global_images_OS2.0.107.0.VOMEUXM_20250319.0000.00_15.0_eea_d1fb52a1ae.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "miro_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO F7 Ultra",
+				"en" :"POCO F7 Ultra"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOMRUXM": {
+					"os": "OS2.0.100.0.VOMRUXM",
+					"android": "15.0",
+					"release": "2025-03-27",
+					"recovery": "miro_ru_global-ota_full-OS2.0.100.0.VOMRUXM-user-15.0-0a1948760a.zip",
+					"fastboot": "miro_ru_global_images_OS2.0.100.0.VOMRUXM_20250219.0000.00_15.0_ru_1ec992d2b2.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "miro_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO F7 Ultra",
+				"en" :"POCO F7 Ultra"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.103.0.VOMIDXM": {
+					"os": "OS2.0.103.0.VOMIDXM",
+					"android": "15.0",
+					"release": "2025-03-27",
+					"recovery": "miro_id_global-ota_full-OS2.0.103.0.VOMIDXM-user-15.0-699a59f8ed.zip",
+					"fastboot": "miro_id_global_images_OS2.0.103.0.VOMIDXM_20250319.0000.00_15.0_id_3412b89b52.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "miro_tr_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO F7 Ultra",
+				"en" :"POCO F7 Ultra"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.1.0.VOMTRXM": {
+					"os": "OS2.0.1.0.VOMTRXM",
+					"android": "15.0",
+					"release": "2025-03-27",
+					"recovery": "miro_tr_global-ota_full-OS2.0.1.0.VOMTRXM-user-15.0-fce4d3518a.zip",
+					"fastboot": "miro_tr_global_images_OS2.0.1.0.VOMTRXM_20250104.0000.00_15.0_tr_3ce26284f9.tgz"
+				}
+			}
 		}
   ]
 }
