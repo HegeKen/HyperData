@@ -130,8 +130,8 @@
 					"android": "15.0",
 					"release": "2025-03-18",
 					"recovery": "houji-ota_full-OS2.0.107.0.VNCCNXM-user-15.0-a8574b1da1.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "houji_images_OS2.0.107.0.VNCCNXM_20250314.0000.00_15.0_cn_0013122b2b.tgz",
+					"ctelecom": "houji_images_OS2.0.107.0.VNCCNXM_20250314.0000.00_15.0_cn_chinatelecom_99778e0e07.tgz"
 				},
 				"OS2.0.105.0.VNCCNXM": {
 					"os": "OS2.0.105.0.VNCCNXM",
@@ -885,6 +885,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.VNCCNDM": {
+					"os": "OS2.0.3.0.VNCCNDM",
+					"android": "15.0",
+					"release": "2025-03-31",
+					"recovery": "houji_demo-ota_full-OS2.0.3.0.VNCCNDM-user-15.0-6b8c6a5324.zip",
+					"fastboot": "houji_demo_images_OS2.0.3.0.VNCCNDM_20250327.0000.00_15.0_cn_8b35086b7f.tgz",
+					"ctelecom": "houji_demo_images_OS2.0.3.0.VNCCNDM_20250327.0000.00_15.0_cn_chinatelecom_9741af97fd.tgz"
+				},
 				"OS2.0.1.0.VNCCNDM": {
 					"os": "OS2.0.1.0.VNCCNDM",
 					"android": "15.0",
