@@ -243,12 +243,19 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VOPMIXM": {
+					"os": "OS2.0.2.0.VOPMIXM",
+					"android": "15.0",
+					"release": "2025-03-31",
+					"recovery": "amethyst_global-ota_full-OS2.0.2.0.VOPMIXM-user-15.0-e6651455e1.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UOPMIXM": {
 					"os": "OS1.0.7.0.UOPMIXM",
 					"android": "14.0",
 					"release": "2025-03-21",
 					"recovery": "miui_AMETHYSTGlobal_OS1.0.7.0.UOPMIXM_5761c7063c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "amethyst_global_images_OS1.0.7.0.UOPMIXM_20250225.0000.00_14.0_global_8f001dfe0a.tgz"
 				},
 				"OS1.0.6.0.UOPMIXM": {
 					"os": "OS1.0.6.0.UOPMIXM",
@@ -426,6 +433,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.VOPINXM": {
+					"os": "OS2.0.4.0.VOPINXM",
+					"android": "15.0",
+					"release": "2025-03-31",
+					"recovery": "amethyst_in_global-ota_full-OS2.0.4.0.VOPINXM-user-15.0-f1925f7389.zip",
+					"fastboot": ""
+				},
 				"OS1.0.8.0.UOPINXM": {
 					"os": "OS1.0.8.0.UOPINXM",
 					"android": "14.0",
