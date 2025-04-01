@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-03-31 19:27:47",
+    "time": "2025-04-01 15:21:07",
     "developing": "no",
     "roms": [
+      {
+        "code": "agate",
+        "name": {
+          "zh": "小米 11T",
+          "en": "Xiaomi 11T"
+        },
+        "rom": "OS1.0.13.0.UKWMIXM"
+      },
       {
         "code": "zeus",
         "name": {
@@ -12,12 +20,36 @@
         "rom": "OS2.0.1.0.VLBTWXM; OS2.0.1.0.VLBRUXM; OS2.0.1.0.VLBINXM; OS2.0.1.0.VLBIDXM"
       },
       {
+        "code": "fuxi",
+        "name": {
+          "zh": "小米 13",
+          "en": "Xiaomi 13"
+        },
+        "rom": "OS2.0.103.0.VMCEUXM"
+      },
+      {
+        "code": "aristotle",
+        "name": {
+          "zh": "小米 13T",
+          "en": "Xiaomi 13T"
+        },
+        "rom": "OS1.0.8.0.UMFMXAT"
+      },
+      {
         "code": "dada",
         "name": {
           "zh": "小米 15",
           "en": "Xiaomi 15"
         },
         "rom": "OS2.0.109.0.VOCMIXM"
+      },
+      {
+        "code": "ruyi",
+        "name": {
+          "zh": "小米 MIX Flip",
+          "en": "Xiaomi MIX Flip"
+        },
+        "rom": "OS2.0.101.0.VNITWXM; OS2.0.102.0.VNIEUXM; OS2.0.101.0.VNIRUXM"
       },
       {
         "code": "ziyi",
@@ -50,6 +82,14 @@
           "en": "Redmi 14C"
         },
         "rom": "OS1.0.7.0.UGTTWXM; OS1.0.8.0.UGTEUXM; OS1.0.8.0.UGTRUXM"
+      },
+      {
+        "code": "xaga",
+        "name": {
+          "zh": "Redmi Note 11T Pro/Pro+ / Redmi K50i / POCO X4 GT / Pro",
+          "en": "Redmi Note 11T Pro/Pro+ / Redmi K50i / POCO X4 GT / Pro"
+        },
+        "rom": "OS1.0.11.0.ULOMIXM; OS1.0.9.0.ULOINXM"
       },
       {
         "code": "sunstone",
@@ -108,12 +148,28 @@
         "rom": "OS2.0.5.0.VNUINXM"
       },
       {
+        "code": "emerald",
+        "name": {
+          "zh": "Redmi Note 13 Pro 4G / POCO M6 Pro",
+          "en": "Redmi Note 13 Pro 4G / POCO M6 Pro"
+        },
+        "rom": "OS2.0.2.0.VNFEUXM"
+      },
+      {
         "code": "tanzanite",
         "name": {
           "zh": "Redmi Note 14 4G",
           "en": "Redmi Note 14 4G"
         },
         "rom": "OS1.0.4.0.UOGRUXM; OS1.0.4.0.UOGTRXM"
+      },
+      {
+        "code": "beryl",
+        "name": {
+          "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
+          "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
+        },
+        "rom": "OS2.0.3.0.VOQINXM"
       },
       {
         "code": "malachite",
@@ -185,7 +241,7 @@
           "zh": "Redmi Pad Pro 5G / POCO Pad 5G",
           "en": "Redmi Pad Pro 5G / POCO Pad 5G"
         },
-        "rom": "OS2.0.2.0.VFSRUXM; OS2.0.2.0.VFSINXM"
+        "rom": "OS2.0.4.0.VFSEUXM; OS2.0.2.0.VFSRUXM; OS2.0.2.0.VFSINXM"
       },
       {
         "code": "moonstone",
