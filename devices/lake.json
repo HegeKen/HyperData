@@ -5,8 +5,8 @@
 		"en": "Redmi 14C"
 	},
 	"code": "GT",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "no",
 	"merged":"no",
@@ -32,6 +32,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VGTCNXM": {
+					"os": "OS2.0.2.0.VGTCNXM",
+					"android": "15.0",
+					"release": "2025-04-02",
+					"recovery": "lake-ota_full-OS2.0.2.0.VGTCNXM-user-15.0-e0f7dfa091.zip",
+					"fastboot": ""
+				},
 				"OS1.0.2.0.UGTCNXM": {
 					"os": "OS1.0.2.0.UGTCNXM",
 					"android": "14.0",
