@@ -321,6 +321,8 @@ flags = {
 	"earth_ep_stdee":"earth",
 	"warm_in_global":"warm",
 	"WARMINGlobal":"warm",
+	"SERENITYGlobal": "serenity",
+	"serenity_global": "serenity",
 	"MALACHITEIDGlobal":"malachite",
 	"malachite_id_global":"malachite",
 	"tanzanite_tw_global": "tanzanite",
@@ -2240,9 +2242,12 @@ def getData(filename):
 	if version.startswith('V'):
 		type = "MIUI"
 		bigver = "MIUI " + version.split('V')[1].split('.')[0]
-	else:
+	elif version.startswith('OS'):
 		type = "HyperOS"
 		bigver = "HyperOS " + version.split('OS')[1].split('.')[0]
+	elif version.startswith('A'):
+		type = "STAN"
+		bigver = "STAN " + version.split('.')[0]
 	if code == 0:
 		return 0
 	else:
@@ -2333,7 +2338,7 @@ def checkExist(filename):
 	else:
 		newROM = open("/sdcard/Codes/HyperOS.fans/public/data/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
 		newROM = open("/sdcard/Codes/NuxtMR/public/MRdata/scripts/NewROMs.txt", 'r', encoding='utf-8').read()
-	if "OS" in filename:
+	if "OS" in filename or "A1" in filename:
 		if "blockota" in filename:
 			return "OTA ROM"
 		else:
@@ -2408,7 +2413,7 @@ HyperOSForm = {
 	 "ab": "1",
 	 "previewPlan": "0",
 	 "sv": 3,
-	 "av": "8.4.7",
+	 "av": "8.8.8",
 	 "cv": ""
 	 }
 }

@@ -18,7 +18,10 @@ for device in OScommon.currentStable:
 					i = 0
 				else:
 					print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="                                            ", flush=True)
-					OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))
+					if device in one_devices:
+						OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, '', 'F', branch['zone'], andv, version)))
+					else:
+						OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))
 					# https://update.intl.miui.com/updates/miota-fullrom.php?d=rodinep_cjcc&b=F&r=cn&n=
 					for carrier in branch['carrier']:
 						if device in one_devices:
