@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-04-07 14:55:18",
+    "time": "2025-04-07 17:38:22",
     "developing": "no",
     "roms": [
       {
@@ -9,7 +9,15 @@
           "zh": "小米 11T",
           "en": "Xiaomi 11T"
         },
-        "rom": "OS1.0.12.0.UKWEUXM"
+        "rom": "OS1.0.12.0.UKWEUXM; OS1.0.7.0.UKWEUBY"
+      },
+      {
+        "code": "vili",
+        "name": {
+          "zh": "小米 11T Pro",
+          "en": "Xiaomi 11T Pro"
+        },
+        "rom": "OS1.0.10.0.UKDTWXM; OS1.0.11.0.UKDMIXM; OS1.0.14.0.UKDEUXM; OS1.0.11.0.UKDRUXM; OS1.0.11.0.UKDINXM; OS1.0.10.0.UKDIDXM; OS1.0.10.0.UKDTRXM; OS1.0.10.0.UKDJPXM"
       },
       {
         "code": "cupid",
@@ -33,7 +41,7 @@
           "zh": "小米 13 Pro",
           "en": "Xiaomi 13 Pro"
         },
-        "rom": "OS2.0.100.0.VMBTWXM; OS2.0.102.0.VMBMIXM; OS2.0.105.0.VMBEUXM"
+        "rom": "OS2.0.100.0.VMBTWXM; OS2.0.102.0.VMBMIXM; OS2.0.105.0.VMBEUXM; OS2.0.102.0.VMBINXM"
       },
       {
         "code": "aristotle",
@@ -89,7 +97,7 @@
           "zh": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G",
           "en": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G"
         },
-        "rom": "OS1.0.12.0.TKCEUXM"
+        "rom": "OS1.0.12.0.TKCEUXM; OS1.0.4.0.TKCEUBY"
       },
       {
         "code": "spes",
@@ -108,12 +116,52 @@
         "rom": "OS1.0.11.0.TGKEUXM"
       },
       {
+        "code": "opal",
+        "name": {
+          "zh": "Redmi Note 11S 5G",
+          "en": "Redmi Note 11S 5G"
+        },
+        "rom": "OS1.0.5.0.TGLEUBY"
+      },
+      {
+        "code": "marble",
+        "name": {
+          "zh": "Redmi Note 12 Turbo / POCO F5",
+          "en": "Redmi Note 12 Turbo / POCO F5"
+        },
+        "rom": "OS1.0.22.0.UMREUXM; OS1.0.22.0.UMRINXM"
+      },
+      {
+        "code": "emerald",
+        "name": {
+          "zh": "Redmi Note 13 Pro 4G / POCO M6 Pro",
+          "en": "Redmi Note 13 Pro 4G / POCO M6 Pro"
+        },
+        "rom": "OS2.0.2.0.VNFIDXM"
+      },
+      {
         "code": "amethyst",
         "name": {
           "zh": "Redmi Note 14 Pro+",
           "en": "Redmi Note 14 Pro+"
         },
         "rom": "OS2.0.1.0.VOPEUXM"
+      },
+      {
+        "code": "sapphire",
+        "name": {
+          "zh": "Redmi Note 13 4G",
+          "en": "Redmi Note 13 4G"
+        },
+        "rom": "OS2.0.3.0.VNGMXAT"
+      },
+      {
+        "code": "sapphiren",
+        "name": {
+          "zh": "Redmi Note 13 NFC",
+          "en": "Redmi Note 13 NFC"
+        },
+        "rom": "OS2.0.6.0.VNHEUXM; OS2.0.4.0.VNHIDXM"
       },
       {
         "code": "peridot",
@@ -132,12 +180,28 @@
         "rom": "OS2.0.100.0.VMLTWXM; OS2.0.100.0.VMLRUXM"
       },
       {
+        "code": "vermeer",
+        "name": {
+          "zh": "Redmi K70 / POCO F6 Pro",
+          "en": "Redmi K70 / POCO F6 Pro"
+        },
+        "rom": "OS2.0.100.0.VNKTWXM; OS2.0.102.0.VNKEUXM; OS2.0.100.0.VNKRUXM"
+      },
+      {
         "code": "rothko",
         "name": {
           "zh": "Redmi K70 至尊版 / 小米 14T Pro",
           "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
         },
         "rom": "OS2.0.104.0.VNNEUXM"
+      },
+      {
+        "code": "xun",
+        "name": {
+          "zh": "Redmi 平板 SE",
+          "en": "Redmi Pad SE"
+        },
+        "rom": "OS2.0.2.0.VMUMIXM"
       }
     ]
   }
