@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-04-07 14:43:43",
+    "time": "2025-04-07 14:55:18",
     "developing": "no",
     "roms": [
       {
@@ -44,12 +44,28 @@
         "rom": "OS2.0.103.0.VMFEUXM"
       },
       {
+        "code": "aurora",
+        "name": {
+          "zh": "小米 14 Ultra / Ultra Ti",
+          "en": "Xiaomi 14 Ultra"
+        },
+        "rom": "OS2.0.103.0.VNAEUXM"
+      },
+      {
+        "code": "degas",
+        "name": {
+          "zh": "小米 14T",
+          "en": "Xiaomi 14T"
+        },
+        "rom": "OS2.0.101.0.VNETWXM; OS2.0.102.0.VNEMIXM"
+      },
+      {
         "code": "dada",
         "name": {
           "zh": "小米 15",
           "en": "Xiaomi 15"
         },
-        "rom": "OS2.0.103.0.VOCRUXM; OS2.0.103.0.VOCIDXM"
+        "rom": "OS2.0.103.0.VOCTWXM; OS2.0.103.0.VOCRUXM; OS2.0.103.0.VOCIDXM"
       },
       {
         "code": "nabu",
@@ -92,6 +108,14 @@
         "rom": "OS1.0.11.0.TGKEUXM"
       },
       {
+        "code": "amethyst",
+        "name": {
+          "zh": "Redmi Note 14 Pro+",
+          "en": "Redmi Note 14 Pro+"
+        },
+        "rom": "OS2.0.1.0.VOPEUXM"
+      },
+      {
         "code": "peridot",
         "name": {
           "zh": "Redmi Turbo 3 / POCO F6",
@@ -105,7 +129,7 @@
           "zh": "Redmi K60 至尊版 / 小米 13T Pro",
           "en": "Redmi K60 Ultra / Xiaomi 13T Pro"
         },
-        "rom": "OS2.0.100.0.VMLTWXM"
+        "rom": "OS2.0.100.0.VMLTWXM; OS2.0.100.0.VMLRUXM"
       },
       {
         "code": "rothko",
