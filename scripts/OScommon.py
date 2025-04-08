@@ -15,12 +15,15 @@ from pymysql import Connection
 import config
 
 sdk = {
+	"16": "36",
 	"15": "35",
 	"14": "34",
 	"13": "33"
 }
 
 def android(ver):
+	if ver == "16.0":
+		return "W"
 	if ver == "15.0":
 		return "V"
 	elif ver == "14.0":
@@ -2232,7 +2235,7 @@ def getData(filename):
 		else:
 			filetype = "recovery"
 			android = filename.split("ota_full-")[1].split("-")[2]
-			version = filename.split("ota_full-")[1].split("-")[0]
+			version = filename.split("ota_full-")[1].split("-user")[0]
 			code = filename.split("-ota_full")[0]
 		data = db_job_latest("SELECT device FROM roms where code = %s" % (stringify(code)))
 		if data is not None:

@@ -6,7 +6,7 @@
   },
 	"code": "OC",
 	"suppports": ["OS2.0"],
-	"android": ["15.0"],
+	"android": ["15.0", "16.0"],
 	"type": "phone",
   "miui": "no",
 	"merged":"no",
@@ -277,6 +277,37 @@
 					"recovery": "dada-ota_full-OS2.0.7.0.VOCCNXM-user-15.0-3df38753d8.zip",
 					"fastboot": "",
 					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版大陆版",
+				"en": "Xiaomi HyperOS Android Developer Preview (China Mainland)"
+			},
+			"branchCode": "dada_pre_dpp",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "ADPC",
+			"tag": "",
+			"url": "",
+			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.250327.1.WOCCNXM.PRE-DPP": {
+					"os": "OS2.0.250327.1.WOCCNXM.PRE-DPP",
+					"android": "16.0",
+					"release": "2025-04-07",
+					"recovery": "dada_pre_dpp-ota_full-OS2.0.250327.1.WOCCNXM.PRE-DPP-user-16.0-93b1d4aa88.zip",
+					"fastboot": ""
 				}
 			}
 		},
