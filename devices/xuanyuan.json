@@ -13,6 +13,36 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "xuanyuan",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.200.12.VOACNXM": {
+					"os": "OS2.0.200.12.VOACNXM",
+					"android": "15.0",
+					"release": "2025-04-08",
+					"recovery": "xuanyuan-ota_full-OS2.0.200.12.VOACNXM-user-15.0-57f6a7a0b1.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
