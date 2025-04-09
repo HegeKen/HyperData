@@ -395,7 +395,7 @@
 					"android": "15.0",
 					"release": "2025-04-01",
 					"recovery": "beryl_in_global-ota_full-OS2.0.3.0.VOQINXM-user-15.0-b72aeda189.zip",
-					"fastboot": ""
+					"fastboot": "beryl_in_global_images_OS2.0.3.0.VOQINXM_20250317.0000.00_15.0_in_2280c32eb9.tgz"
 				},
 				"OS1.0.7.0.UOQINXM": {
 					"os": "OS1.0.7.0.UOQINXM",
@@ -556,6 +556,36 @@
 					"release": "2025-01-16",
 					"recovery": "miui_BERYLLMCRGlobal_OS1.0.1.0.UOQLMCR_f6543d44c8_14.0.zip",
 					"fastboot": "beryl_lm_cr_global_images_OS1.0.1.0.UOQLMCR_20241022.0000.00_14.0_lm_cr_d5e6d32a9b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "beryl_gt_tg_global",
+			"brand": "POCO",
+			"device": {
+				"zh" :"POCO M7 Pro 5G",
+				"en" :"POCO M7 Pro 5G"
+			},
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tg"],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.UOQGTTG": {
+					"os": "OS1.0.5.0.UOQGTTG",
+					"android": "15.0",
+					"release": "2025-04-09",
+					"recovery": "miui_BERYLGTTGGlobal_OS1.0.5.0.UOQGTTG_bbea7fe78c_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

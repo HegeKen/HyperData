@@ -416,6 +416,12 @@ flags = {
 	"haotian":"haotian",
 	"rothko_jp_global":"rothko",
 	"ROTHKOJPGlobal":"rothko",
+	"SERENITYINGlobal":"serenity",
+	"serenity_in_global":"serenity",
+	"SERENITYGTTGGlobal":"serenity",
+	"serenity_gt_tg_global":"serenity",
+	"BERYLGTTGGlobal":"beryl",
+	"beryl_gt_tg_global":"beryl",
 	"malachite_tw_global":"malachite",
 	"MALACHITETWGlobal":"malachite",
 	"malachite_tw_global":"malachite",
@@ -2131,7 +2137,10 @@ def getDeviceCode(filename):
 			writeFlag(flag, "")
 			return 0
 	elif ".tgz" in filename:
-		flag = filename.split('_images')[0]
+		if "-A1" in filename:
+			flag = filename.split('-images')[0]
+		else:
+			flag = filename.split('_images')[0]
 		if flag in flags:
 			codename = flags[flag]
 			return codename
@@ -2229,9 +2238,14 @@ def getData(filename):
 	else:
 		if filename.endswith(".tgz"):
 			filetype = "fastboot"
-			android = filename.split("images_")[1].split("_")[2]
-			version = filename.split("images_")[1].split("_")[0]
-			code = filename.split('_images')[0]
+			if "-A1" in filename:
+				android = filename.split("images-")[1].split("-")[3]
+				version = filename.split("images-")[1].split("-")[0]
+				code = filename.split('-images')[0]
+			else:
+				android = filename.split("images_")[1].split("_")[2]
+				version = filename.split("images_")[1].split("_")[0]
+				code = filename.split('_images')[0]
 		else:
 			filetype = "recovery"
 			android = filename.split("ota_full-")[1].split("-")[2]
