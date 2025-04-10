@@ -107,6 +107,66 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "serenity_mx_at_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh" :"REDMI A5 / POCO C71",
+				"en" :"REDMI A5 / POCO C71"
+			},
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["at"],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.3.0.VGWMXAT": {
+					"os": "A15.0.3.0.VGWMXAT",
+					"android": "15.0",
+					"release": "2025-04-10",
+					"recovery": "miui_SERENITYMXATGlobal_A15.0.3.0.VGWMXAT_16c51c6ef9_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Movistar运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Movistar Carrier Edition"
+			},
+			"branchCode": "serenity_lm_ms_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh" :"REDMI A5 / POCO C71",
+				"en" :"REDMI A5 / POCO C71"
+			},
+			"idtag": "LMMS",
+			"tag": "LMMS",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["movistar"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.2.0.VGWLMMS": {
+					"os": "A15.0.2.0.VGWLMMS",
+					"android": "15.0",
+					"release": "2025-04-10",
+					"recovery": "miui_SERENITYLMMSGlobal_A15.0.2.0.VGWLMMS_a9d3a5448b_15.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
   ]
 }
