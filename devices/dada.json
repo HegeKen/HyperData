@@ -555,6 +555,37 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版国际版",
+				"en": "Xiaomi HyperOS Android Developer Preview Global"
+			},
+			"branchCode": "dada_pre_dpp_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15",
+        "en": "Xiaomi 15"
+      },
+			"idtag": "ADPG",
+			"tag": "",
+			"url": "",
+			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.250327.1.WOCMIXM.PRE-DPP": {
+					"os": "OS2.0.250327.1.WOCMIXM.PRE-DPP",
+					"android": "16.0",
+					"release": "2025-04-07",
+					"recovery": "dada_pre_dpp_global-ota_full-OS2.0.250327.1.WOCMIXM.PRE-DPP-user-16.0-c901782c30.zip",
+					"fastboot": "dada_pre_dpp_global_images_OS2.0.250327.1.WOCMIXM.PRE-DPP_20250327.0000.00_16.0_global_6224691541.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},

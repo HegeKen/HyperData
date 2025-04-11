@@ -621,6 +621,37 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版国际版",
+				"en": "Xiaomi HyperOS Android Developer Preview Global"
+			},
+			"branchCode": "rothko_pre_dpp_global",
+			"brand": "Xiaomi",
+      "device": {
+        "zh" :"小米 14T Pro",
+        "en" :"Xiaomi 14T Pro"
+      },
+			"idtag": "ADPG",
+			"tag": "",
+			"url": "",
+			"branchtag": "X",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "global",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.250327.1.WNNMIXM.PRE-DPP": {
+					"os": "OS2.0.250327.1.WNNMIXM.PRE-DPP",
+					"android": "16.0",
+					"release": "2025-04-07",
+					"recovery": "rothko_pre_dpp_global-ota_full-OS2.0.250327.1.WNNMIXM.PRE-DPP-user-16.0-17c5c1f605.zip",
+					"fastboot": "rothko_pre_dpp_global_images_OS2.0.250327.1.WNNMIXM.PRE-DPP_20250327.0000.00_16.0_global_17a5730845.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
