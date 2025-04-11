@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-04-10 23:37:57",
+    "time": "2025-04-11 22:53:58",
     "developing": "no",
     "roms": [
       {
@@ -17,7 +17,7 @@
           "zh": "小米 11T",
           "en": "Xiaomi 11T"
         },
-        "rom": "OS1.0.12.0.UKWEUXM; OS1.0.7.0.UKWEUBY"
+        "rom": "OS1.0.10.0.UKWTWXM; OS1.0.12.0.UKWEUXM; OS1.0.7.0.UKWEUBY; OS1.0.10.0.UKWTRXM"
       },
       {
         "code": "vili",
@@ -137,7 +137,15 @@
           "zh": "小米平板 6",
           "en": "Xiaomi Pad 6"
         },
-        "rom": "OS2.0.2.0.UMZTRXM"
+        "rom": "OS2.0.2.0.UMZTWXM; OS2.0.3.0.UMZMIXM; OS2.0.2.0.UMZEUXM; OS2.0.2.0.UMZRUXM; OS2.0.2.0.UMZINXM; OS2.0.2.0.UMZTRXM"
+      },
+      {
+        "code": "babylon",
+        "name": {
+          "zh": "小米 MIX Fold 3",
+          "en": "Xiaomi MIX Fold 3"
+        },
+        "rom": "OS2.0.109.0.VMVCNXM"
       },
       {
         "code": "goku",
@@ -145,7 +153,7 @@
           "zh": "小米 MIX Fold 4",
           "en": "Xiaomi MIX Fold 4"
         },
-        "rom": "OS2.0.200.7.VNVCNXM"
+        "rom": "OS2.0.200.7.VNVCNXM; OS2.0.106.0.VNVCNXM"
       },
       {
         "code": "ruyi",
@@ -154,6 +162,22 @@
           "en": "Xiaomi MIX Flip"
         },
         "rom": "OS2.0.200.11.VNICNXM; OS2.0.105.0.VNICNXM"
+      },
+      {
+        "code": "yuechu",
+        "name": {
+          "zh": "小米 Civi 3",
+          "en": "Xiaomi Civi 3"
+        },
+        "rom": "OS2.0.4.0.VMICNXM"
+      },
+      {
+        "code": "fire",
+        "name": {
+          "zh": "Redmi 12 国际",
+          "en": "Redmi 12"
+        },
+        "rom": "OS2.0.5.0.VMXMIXM"
       },
       {
         "code": "earth",
@@ -289,7 +313,7 @@
           "zh": "Redmi Note 13 NFC",
           "en": "Redmi Note 13 NFC"
         },
-        "rom": "OS2.0.6.0.VNHEUXM; OS2.0.7.0.VNHRUXM; OS2.0.4.0.VNHIDXM"
+        "rom": "OS2.0.6.0.VNHTWXM; OS2.0.6.0.VNHEUXM; OS2.0.7.0.VNHRUXM; OS2.0.4.0.VNHIDXM; OS2.0.6.0.VNHTRXM"
       },
       {
         "code": "peridot",
@@ -322,6 +346,14 @@
           "en": "Redmi K50G / POCO F4 GT"
         },
         "rom": "OS2.0.1.0.ULJTWXM; OS2.0.1.0.ULJMIXM; OS2.0.1.0.ULJIDXM"
+      },
+      {
+        "code": "diting",
+        "name": {
+          "zh": "Redmi K50 至尊版 / 小米 12T Pro",
+          "en": "Redmi K50 Ultra / Xiaomi 12T Pro"
+        },
+        "rom": "OS1.0.19.0.ULFEUXM"
       },
       {
         "code": "corot",
