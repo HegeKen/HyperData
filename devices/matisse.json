@@ -272,13 +272,21 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.ULKCNXM": {
+					"os": "OS2.0.2.0.ULKCNXM",
+					"android": "14.0",
+					"release": "2025-04-08",
+					"recovery": "matisse-ota_full-OS2.0.2.0.ULKCNXM-user-14.0-c6fec65231.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.1.0.ULKCNXM": {
 					"os": "OS2.0.1.0.ULKCNXM",
 					"android": "14.0",
 					"release": "2025-03-24",
 					"recovery": "matisse-ota_full-OS2.0.1.0.ULKCNXM-user-14.0-fba1a6c58c.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "matisse_images_OS2.0.1.0.ULKCNXM_20250303.0000.00_14.0_cn_eef7affc1b.tgz",
+					"ctelecom": "matisse_images_OS2.0.1.0.ULKCNXM_20250303.0000.00_14.0_cn_chinatelecom_3226c2dbec.tgz"
 				},
 				"OS1.0.19.0.ULKCNXM": {
 					"os": "OS1.0.19.0.ULKCNXM",
