@@ -575,6 +575,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.103.0.VNNMIDC": {
+					"os": "OS2.0.103.0.VNNMIDC",
+					"android": "15.0",
+					"release": "2025-04-14",
+					"recovery": "rothko_dc_global-ota_full-OS2.0.103.0.VNNMIDC-user-15.0-9491630389.zip",
+					"fastboot": ""
+				},
 				"OS2.0.102.0.VNNMIDC": {
 					"os": "OS2.0.102.0.VNNMIDC",
 					"android": "15.0",
@@ -676,7 +683,7 @@
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "rothko_eea_global-ota_full-OS2.0.104.0.VNNEUXM-user-15.0-42441b50c5.zip",
-					"fastboot": ""
+					"fastboot": "rothko_eea_global_images_OS2.0.104.0.VNNEUXM_20250331.0000.00_15.0_eea_1d2f304758.tgz"
 				},
 				"OS2.0.102.0.VNNEUXM": {
 					"os": "OS2.0.102.0.VNNEUXM",
@@ -985,7 +992,7 @@
 					"android": "14.0",
 					"release": "2025-04-08",
 					"recovery": "miui_ROTHKOJPGlobal_OS1.0.9.0.UNNJPXM_bd977dd9fe_14.0.zip",
-					"fastboot": ""
+					"fastboot": "rothko_jp_global_images_OS1.0.9.0.UNNJPXM_20250328.0000.00_14.0_jp_9c987d4ea2.tgz"
 				},
 				"OS1.0.8.0.UNNJPXM": {
 					"os": "OS1.0.8.0.UNNJPXM",
