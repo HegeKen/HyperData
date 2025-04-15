@@ -5,8 +5,8 @@
 		"en": "Redmi A4 5G / POCO C75 5G"
 	},
 	"code": "GV",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": ["OS1.0", "OS2.0"],
+	"android": ["14.0", "15.0"],
 	"type": "phone",
 	"miui": "yes",
 	"merged":"no",
@@ -32,6 +32,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VGVINXM": {
+					"os": "OS2.0.1.0.VGVINXM",
+					"android": "15.0",
+					"release": "2025-04-15",
+					"recovery": "warm_in_global-ota_full-OS2.0.1.0.VGVINXM-user-15.0-6d178f5c6c.zip",
+					"fastboot": ""
+				},
 				"OS1.0.9.0.UGVINXM": {
 					"os": "OS1.0.9.0.UGVINXM",
 					"android": "14.0",
