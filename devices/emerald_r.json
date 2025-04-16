@@ -92,6 +92,36 @@
 				}
 			}
 		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "emerald_r_ru_global",
+			"brand": "Redmi",
+			"device": {
+				"zh" :"Redmi Note 14s",
+				"en" :"Redmi Note 14s"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UFORUXM": {
+					"os": "OS1.0.1.0.UFORUXM",
+					"android": "14.0",
+					"release": "2025-04-16",
+					"recovery": "miui_EMERALDRRUGlobal_OS1.0.1.0.UFORUXM_16067b4c32_14.0.zip",
+					"fastboot": "emerald_r_ru_global_images_OS1.0.1.0.UFORUXM_20250127.0000.00_14.0_ru_da2556e881.tgz"
+				}
+			}
+		},
     {
 			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
