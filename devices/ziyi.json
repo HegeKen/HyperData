@@ -37,8 +37,8 @@
 					"android": "15.0",
 					"release": "2025-04-03",
 					"recovery": "ziyi-ota_full-OS2.0.6.0.VLLCNXM-user-15.0-2d8e81daf1.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "ziyi_images_OS2.0.6.0.VLLCNXM_20250324.0000.00_15.0_cn_9c24f43ce7.tgz",
+					"ctelecom": "ziyi_images_OS2.0.6.0.VLLCNXM_20250324.0000.00_15.0_cn_chinatelecom_d2a59d03b7.tgz"
 				},
 				"OS2.0.4.0.VLLCNXM": {
 					"os": "OS2.0.4.0.VLLCNXM",
@@ -344,6 +344,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.5.0.VLLEUXM": {
+					"os": "OS2.0.5.0.VLLEUXM",
+					"android": "15.0",
+					"release": "2025-04-16",
+					"recovery": "ziyi_eea_global-ota_full-OS2.0.5.0.VLLEUXM-user-15.0-4772a5abfc.zip",
+					"fastboot": ""
+				},
 				"OS2.0.2.0.VLLEUXM": {
 					"os": "OS2.0.2.0.VLLEUXM",
 					"android": "15.0",
