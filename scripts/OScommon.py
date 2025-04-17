@@ -2029,6 +2029,8 @@ flags = {
 	"tanzanite_mx_at_global": "tanzanite",
 	"OBSIDIANMXATGlobal":"obsidian",
 	"obsidian_mx_at_global": "obsidian",
+	"EMERALDRRUGlobal":"emerald_r",
+	"emerald_r_ru_global":"emerald_r"
 }
 
 
