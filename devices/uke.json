@@ -11,6 +11,36 @@
   "miui": "no",
 	"merged":"no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "uke",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7",
+				"en": "Xiaomi Pad 7"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.200.11.VOZCNXM": {
+					"os": "OS2.0.200.11.VOZCNXM",
+					"android": "15.0",
+					"release": "2025-04-17",
+					"recovery": "uke-ota_full-OS2.0.200.11.VOZCNXM-user-15.0-646e679029.zip",
+					"fastboot": ""
+				}
+			}
+		},
     {
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
