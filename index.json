@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-04-18 09:54:36",
+    "time": "2025-04-19 16:05:01",
     "developing": "no",
     "roms": [
       {
@@ -129,7 +129,7 @@
           "zh": "小米 Civi 4 Pro / 小米 14 Civi",
           "en": "Xiaomi Civi 4 Pro / Xiaomi 14 Civi"
         },
-        "rom": "OS2.0.102.0.VNJINXM"
+        "rom": "OS2.0.105.0.VNJCNXM; OS2.0.102.0.VNJINXM"
       },
       {
         "code": "fire",
@@ -138,6 +138,22 @@
           "en": "Redmi 12"
         },
         "rom": "OS2.0.3.0.VMXRUXM"
+      },
+      {
+        "code": "earth",
+        "name": {
+          "zh": "Redmi 12C / POCO C55",
+          "en": "Redmi 12C / POCO C55"
+        },
+        "rom": "OS1.0.6.0.UCVLMMS"
+      },
+      {
+        "code": "sky",
+        "name": {
+          "zh": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G",
+          "en": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G"
+        },
+        "rom": "OS2.0.1.0.VMWLMCR"
       },
       {
         "code": "lake",
@@ -177,7 +193,7 @@
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
           "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
         },
-        "rom": "OS1.0.8.0.UMOLMCR"
+        "rom": "OS1.0.18.0.UMOMIXM; OS1.0.16.0.UMOEUXM; OS1.0.8.0.UMOLMCR"
       },
       {
         "code": "sea",
@@ -257,7 +273,7 @@
           "zh": "Redmi K50 至尊版 / 小米 12T Pro",
           "en": "Redmi K50 Ultra / Xiaomi 12T Pro"
         },
-        "rom": "OS2.0.1.0.VLFMIXM; OS1.0.12.0.ULFJPXM"
+        "rom": "OS2.0.1.0.VLFMIXM; OS2.0.2.0.VLFEUXM; OS1.0.12.0.ULFJPXM"
       },
       {
         "code": "mondrian",
@@ -281,7 +297,7 @@
           "zh": "Redmi K70 / POCO F6 Pro",
           "en": "Redmi K70 / POCO F6 Pro"
         },
-        "rom": "OS2.0.102.0.VNKMIXM"
+        "rom": "OS2.0.108.0.VNKCNXM; OS2.0.102.0.VNKMIXM"
       },
       {
         "code": "rothko",
@@ -332,6 +348,14 @@
         "rom": "OS2.0.1.0.VGVINXM"
       },
       {
+        "code": "moon",
+        "name": {
+          "zh": "Redmi 13 / POCO M6 4G",
+          "en": "Redmi 13 / POCO M6 4G"
+        },
+        "rom": "OS2.0.5.0.VNTMIXM"
+      },
+      {
         "code": "air",
         "name": {
           "zh": "Redmi 13C/R 5G / POCO M6 5G",
@@ -345,7 +369,7 @@
           "zh": "POCO X5 5G",
           "en": "POCO X5 5G"
         },
-        "rom": "OS1.0.12.0.UMPTWXM; OS1.0.13.0.UMPRUXM; OS1.0.14.0.UMPINXM; OS1.0.13.0.UMPIDXM; OS1.0.12.0.UMPTRXM"
+        "rom": "OS1.0.12.0.UMPTWXM; OS1.0.14.0.UMPEUXM; OS1.0.13.0.UMPRUXM; OS1.0.14.0.UMPINXM; OS1.0.13.0.UMPIDXM; OS1.0.12.0.UMPTRXM"
       }
     ]
   }
