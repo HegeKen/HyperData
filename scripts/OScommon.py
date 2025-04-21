@@ -13,6 +13,8 @@ from datetime import datetime, timedelta, date, timezone
 from requests.adapters import HTTPAdapter
 from pymysql import Connection
 import config
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 sdk = {
 	"16": "36",
@@ -2453,25 +2455,31 @@ def getFromApi(encrypted_data):
 				 "Cookie": "serviceToken=;"
 				 }
 	data = "q=" + encrypted_data + "&s=1&t="
-	response = requests.post(check_url, headers=headers, data=data)
-	if "code" in response.text:
-		i = 0
-	else:
-		data = miui_decrypt(response.text.split("q=")[0])
-		if "LatestRom" in data:
-			package = data["LatestRom"]["filename"].split("?")[0]
-			# print(package)
-			checkExist(package)
-			return 1
-		if "CrossRom" in data:
-			package = data["CrossRom"]["filename"].split("?")[0]
-			# print(package)
-			checkExist(package)
-			return 1
+	session = requests.Session()
+	retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+	session.mount('http://', HTTPAdapter(max_retries=retries))
+	session.mount('https://', HTTPAdapter(max_retries=retries))
+	try:
+		response = session.post(check_url, headers=headers, data=data, timeout=10)
+		if "code" in response.text:
+			i = 0
 		else:
-			return 0
-	response.close()
-
+			data = miui_decrypt(response.text.split("q=")[0])
+			if "LatestRom" in data:
+				package = data["LatestRom"]["filename"].split("?")[0]
+				# print(package)
+				checkExist(package)
+				return 1
+			if "CrossRom" in data:
+				package = data["CrossRom"]["filename"].split("?")[0]
+				# print(package)
+				checkExist(package)
+				return 1
+			else:
+				return 0
+		response.close()
+	except requests.exceptions.RequestException as e:
+		print(f"请求失败: {e}")
 
 def MiFirm(url):
 	options = Options()
