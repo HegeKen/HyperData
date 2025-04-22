@@ -50,6 +50,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "serenity_ru_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh" :"REDMI A5 / POCO C71",
+				"en" :"REDMI A5 / POCO C71"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.2.0.VGWRUXM": {
+					"os": "A15.0.2.0.VGWRUXM",
+					"android": "15.0",
+					"release": "2025-04-22",
+					"recovery": "miui_SERENITYRUGlobal_A15.0.2.0.VGWRUXM_61b97f99ee_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},

@@ -1457,6 +1457,8 @@ flags = {
 	"ZIRCONGlobal":"zircon",
 	"dizi":"dizi",
 	"goku":"goku",
+	"SERENITYRUGlobal":"serenity",
+	"serenity_ru_global":"serenity",
 	"aurora_global": "aurora",
 	"AURORAGlobal": "aurora",
 	"aurora_tw_global": "aurora",
