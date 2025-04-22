@@ -40,7 +40,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["serenity", "emerald_r", "onyx", "miro", "zorn", "xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
+currentStable = ["poussin", "citrine", "serenity", "emerald_r", "onyx", "miro", "zorn", "xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -54,8 +54,8 @@ currentStable = ["serenity", "emerald_r", "onyx", "miro", "zorn", "xuanyuan", "d
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["serenity", "emerald_r", "xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
-					 "uke", "muyu",	"dada", "haotian", "citrine", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
+only_os = ["poussin", "citrine", "serenity", "emerald_r", "xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
+					 "uke", "muyu",	"dada", "haotian", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "flame", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
 
