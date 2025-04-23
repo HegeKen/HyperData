@@ -2603,7 +2603,18 @@ def entryChecker(data,device):
 							print(device, bname, rom_info['android'], os_version, "Android版本号没有记录")
 							check.append(1)
 						if rom_info['recovery'] != "" and rom_info['recovery'].endswith(".zip") and os_version in rom_info['recovery']:
-							i = 0
+							if branch['ep'] == "1" or branch['branchtag'] == 'X':
+								i = 0
+							else:
+								if os_version.startswith("OS1") and code+branch['tag'] in rom_info['recovery']:
+									i = 0
+								elif os_version.startswith("A1") and code+branch['tag'] in rom_info['recovery']:
+									i = 0
+								elif branch['branchCode'] in rom_info['recovery']:
+									i = 0
+								else:
+									print(device, bname, os_version, "卡刷包的信息不对")
+									check.append(1)
 						elif rom_info['recovery'] == "":
 							i = 0
 						else:

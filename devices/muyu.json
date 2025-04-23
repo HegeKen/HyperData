@@ -11,6 +11,36 @@
   "miui": "no",
 	"merged":"no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "muyu",
+			"brand": "Xiaomi",
+      "device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+      },
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.200.13.VOYCNXM": {
+					"os": "OS2.0.200.13.VOYCNXM",
+					"android": "15.0",
+					"release": "2025-04-17",
+					"recovery": "muyu-ota_full-OS2.0.200.13.VOYCNXM-user-15.0-f1bd6231d4.zip",
+					"fastboot": ""
+				}
+			}
+		},
     {
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
