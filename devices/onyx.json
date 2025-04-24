@@ -1,14 +1,85 @@
 {
   "device": "onyx",
   "name": {
-    "zh": "POCO F7",
-    "en": "POCO F7"
+    "zh": "REDMI Turbo 4 Pro / POCO F7",
+    "en": "REDMI Turbo 4 Pro / POCO F7"
   },
-	"code": "",
+	"code": "OL",
 	"suppports": ["OS2.0"],
 	"android": ["15.0"],
 	"type": "phone",
   "miui": "no",
 	"merged":"no",
-	"branches": []
+	"branches": [
+    {
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "onyx",
+			"brand": "REDMI",
+			"device": {
+				"zh" :"REDMI Turbo 4 Pro",
+				"en" :"REDMI Turbo 4 Pro"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"show": "1",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.114.0.VOLCNXM": {
+					"os": "OS2.0.114.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-04-24",
+					"recovery": "",
+					"fastboot": "onyx_images_OS2.0.114.0.VOLCNXM_20250419.0000.00_15.0_cn_a71f1bc559.tgz",
+					"ctelecom": "onyx_images_OS2.0.114.0.VOLCNXM_20250419.0000.00_15.0_cn_chinatelecom_1b1fcb79a7.tgz"
+				},
+        "OS2.0.112.0.VOLCNXM": {
+          "os": "OS2.0.112.0.VOLCNXM",
+          "android": "15.0",
+          "release": "2025-04-24",
+          "recovery": "onyx-ota_full-OS2.0.112.0.VOLCNXM-user-15.0-fd77417572.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "onyx_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh" :"REDMI Turbo 4 Pro",
+				"en" :"REDMI Turbo 4 Pro"
+			},
+			"idtag": "CnOD",
+			"tag":"CNDM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "0",
+			"region": "cn",
+			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.104.0.VOLCNDM": {
+					"os": "OS2.0.104.0.VOLCNDM",
+					"android": "15.0",
+					"release": "2025-04-24",
+					"recovery": "onyx_demo-ota_full-OS2.0.104.0.VOLCNDM-user-15.0-1cf012289d.zip",
+					"fastboot": "onyx_demo_images_OS2.0.104.0.VOLCNDM_20250419.0000.00_15.0_cn_2dec17ec52.tgz",
+					"ctelecom": "onyx_demo_images_OS2.0.104.0.VOLCNDM_20250419.0000.00_15.0_cn_chinatelecom_3a7f49a2a8.tgz"
+				}
+			}
+		}
+  ]
 }

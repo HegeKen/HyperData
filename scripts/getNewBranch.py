@@ -1,6 +1,7 @@
 import OScommon
 from datetime import datetime
 
+increment = ["1","100","200"]
 one_devices = ['warm']
 base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
 for device in OScommon.currentStable:
@@ -13,20 +14,21 @@ for device in OScommon.currentStable:
 		for os in oss:
 			for andv in andvs:
 				devcode = device+branch['code']
-				version = os+".1.0."+OScommon.android(andv)+code+branch['tag']
-				if version in devdata:
-					i = 0
-				else:
-					print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="                                            ", flush=True)
+				# https://update.intl.miui.com/updates/miota-fullrom.php?d=rodinep_cjcc&b=F&r=cn&n=
+				for carrier in branch['carrier']:
 					if device in one_devices:
-						OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, '', 'F', branch['zone'], andv, version)))
+						url = base_url+devcode+"&b=F&r=&n="+carrier
 					else:
-						OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))
-					# https://update.intl.miui.com/updates/miota-fullrom.php?d=rodinep_cjcc&b=F&r=cn&n=
-					for carrier in branch['carrier']:
+						url = base_url+devcode+"&b=F&r="+branch['region']+"&n="+carrier
+					print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),url,end="                   ", flush=True)
+					OScommon.getFastboot(url)
+				for i in increment:
+					version = os+"."+i+".0."+OScommon.android(andv)+code+branch['tag']
+					if version in devdata:
+						i = 0
+					else:
+						print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="                                            ", flush=True)
 						if device in one_devices:
-							url = base_url+devcode+"&b=F&r=&n="+carrier
+							OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, '', 'F', branch['zone'], andv, version)))
 						else:
-							url = base_url+devcode+"&b=F&r="+branch['region']+"&n="+carrier
-						print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),url,end="                   ", flush=True)
-						OScommon.getFastboot(url)
+							OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))

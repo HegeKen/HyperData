@@ -40,7 +40,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["poussin", "citrine", "serenity", "emerald_r", "onyx", "miro", "zorn", "xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
+currentStable = ["onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -70,10 +70,10 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 
 				 'fire', 'earth', 'sky', 'gale', 'lake', 'flame', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
-				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', "emerald_r", 'peridot', 'rodin','alioth',
+				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', "emerald_r", 'peridot', 'rodin',"onyx", 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', "zorn", "miro",
-				 'yunluo', 'xun', 'flare', 'spark', 'dizi', 'ruan', 'warm', "serenity", "onyx", 'evergreen', 'rock', 'moon', 'air', 'moonstone']
+				 'yunluo', 'xun', 'flare', 'spark', 'dizi', 'ruan', 'warm', "serenity", 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
 branches = [
 	{
@@ -1199,6 +1199,7 @@ flags = {
 	"flame_in_global":"flame",
 	"BERYLTWGlobal":"beryl",
 	"beryl_tw_global":"beryl",
+	"onyx_demo":"onyx",
 	"BERYLGlobal":"beryl",
 	"beryl_global":"beryl",
 	"BERYLDCGlobal":"beryl",
@@ -1673,6 +1674,7 @@ flags = {
 	"ruby": "ruby",
 	"GOLD": "gold",
 	"gold": "gold",
+	"onyx":"onyx",
 	"topaz_ru_global": "topaz",
 	"TOPAZRUGlobal": "topaz",
 	"plato_ru_global": "plato",
@@ -2083,12 +2085,13 @@ def get_time(url):
 		response = requests.head(url, allow_redirects=True)
 		if 'Last-Modified' in response.headers:
 			last_modified_str = response.headers['Last-Modified']
-			date = datetime.strptime(last_modified_str, "%a, %d %b %Y %H:%M:%S %Z") + timedelta(hours=8)
-			return date.strftime("%Y-%m-%d")
+			print(last_modified_str)
+			re_date = datetime.strptime(last_modified_str, "%a, %d %b %Y %H:%M:%S %Z") + timedelta(hours=8)
+			return re_date.strftime("%Y-%m-%d")
 		else:
-			return ""
+			return date.today().strftime("%Y-%m-%d")
 	except requests.RequestException as e:
-		return f"访问URL失败: {e}"
+		return date.today().strftime("%Y-%m-%d")
 
 def form_url(filename,version):
 	return 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/'+version+"/"+filename
@@ -2376,8 +2379,8 @@ def checkExist(filename):
 				return "Already Exist"
 			else:
 				device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = [item for item in getData(filename)]
-				checkDatabase(device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename)
 				writeData(filename)
+				checkDatabase(device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename)
 				return "New ROM"
 	else:
 		return "UI Maybe"
