@@ -2087,7 +2087,6 @@ def get_time(url):
 		response = requests.head(url, allow_redirects=True)
 		if 'Last-Modified' in response.headers:
 			last_modified_str = response.headers['Last-Modified']
-			print(last_modified_str)
 			re_date = datetime.strptime(last_modified_str, "%a, %d %b %Y %H:%M:%S %Z") + timedelta(hours=8)
 			return re_date.strftime("%Y-%m-%d")
 		else:
