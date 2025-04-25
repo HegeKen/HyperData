@@ -50,6 +50,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Telefonica运营商定制版",
+				"en": "Xiaomi HyperOS Europe Telefonica Carrier Edition"
+			},
+			"branchCode": "serenity_eea_tf_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh" :"REDMI A5 / POCO C71",
+				"en" :"REDMI A5 / POCO C71"
+			},
+			"idtag": "EUTF",
+			"tag": "EUTF",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["tf"],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.2.0.VGWEUTF": {
+					"os": "A15.0.2.0.VGWEUTF",
+					"android": "15.0",
+					"release": "2025-04-25",
+					"recovery": "miui_SERENITYEEATFGlobal_A15.0.2.0.VGWEUTF_d4aabafc99_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

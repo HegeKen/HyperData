@@ -1609,6 +1609,8 @@ flags = {
 	"ZEUSGlobal": "zeus",
 	"cetus":"cetus",
 	"CETUS":"cetus",
+	"SERENITYEEATFGlobal":"serenity",
+	"serenity_eea_tf_global":"serenity",
 	"redwood_ru_global": "redwood",
 	"REDWOODRUGlobal": "redwood",
 	"redwood_tw_global": "redwood",
