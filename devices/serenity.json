@@ -140,6 +140,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 南非MTN运营商定制版",
+				"en": "Xiaomi HyperOS South Africa MTN Carrier Edtion"
+			},
+			"branchCode": "serenity_za_mt_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh" :"REDMI A5 / POCO C71",
+				"en" :"REDMI A5 / POCO C71"
+			},
+			"idtag": "ZAMT",
+			"tag": "ZAMT",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["mt"],
+			"region": "za",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.1.0.VGWZAMT": {
+					"os": "A15.0.1.0.VGWZAMT",
+					"android": "15.0",
+					"release": "2025-04-26",
+					"recovery": "miui_SERENITYZAMTGlobal_A15.0.1.0.VGWZAMT_0d7b2fd8a7_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
 				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
 			},

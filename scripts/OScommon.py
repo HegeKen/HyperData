@@ -2031,6 +2031,8 @@ flags = {
 	"ishtar": "ishtar",
 	"ISHTARDEMO": "ishtar",
 	"ishtar_demo": "ishtar",
+	"SERENITYZAMTGlobal":"serenity",
+	"serenity_za_mt_global":"serenity",
 	"amethyst_mx_at_global":"amethyst",
 	"AMETHYSTMXATGlobal":"amethyst",
 	"TANZANITEMXATGlobal":"tanzanite",
