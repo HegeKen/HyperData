@@ -127,6 +127,14 @@
 			"zone": "1",
 			"ep": "1",
 			"roms": {
+				"OS1.0.25.4.8.EP.STDEE.O16": {
+					"os": "OS1.0.25.4.8.EP.STDEE.O16",
+					"android": "15.0",
+					"release": "2025-04-27",
+					"recovery": "",
+					"fastboot": "malachite_ep_stdee_images_OS1.0.25.4.8.EP.STDEE.O16_20250408.0000.00_14.0_cn_11f603bc48.tgz",
+					"ctelecom": "malachite_ep_stdee_images_OS1.0.25.4.8.EP.STDEE.O16_20250408.0000.00_14.0_cn_chinatelecom_8e7809449e.tgz"
+				},
 				"OS1.0.24.12.23.EP.STDEE.O16": {
 					"os": "OS1.0.24.12.23.EP.STDEE.O16",
 					"android": "14.0",
@@ -437,6 +445,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VOORUXM": {
+					"os": "OS2.0.1.0.VOORUXM",
+					"android": "15.0",
+					"release": "2025-04-27",
+					"recovery": "malachite_ru_global-ota_full-OS2.0.1.0.VOORUXM-user-15.0-3d6d7d85b5.zip",
+					"fastboot": ""
+				},
 				"OS1.0.7.0.UOORUXM": {
 					"os": "OS1.0.7.0.UOORUXM",
 					"android": "14.0",

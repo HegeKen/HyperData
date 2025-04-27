@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-04-27 13:03:50",
+    "time": "2025-04-27 19:23:39",
     "developing": "no",
     "roms": [
       {
@@ -10,6 +10,14 @@
           "en": "Mi 11 LE / Xiaomi 11 Lite 5G NE"
         },
         "rom": "OS2.0.1.0.UKORUXM; OS2.0.1.0.UKOINXM; OS2.0.1.0.UKOTRXM"
+      },
+      {
+        "code": "agate",
+        "name": {
+          "zh": "小米 11T",
+          "en": "Xiaomi 11T"
+        },
+        "rom": "OS1.0.14.0.UKWMIXM"
       },
       {
         "code": "plato",
@@ -113,7 +121,7 @@
           "zh": "小米平板7",
           "en": "Xiaomi Pad 7"
         },
-        "rom": "OS2.0.102.0.VOZTWXM; OS2.0.102.0.VOZTRXM"
+        "rom": "OS2.0.102.0.VOZTWXM; OS2.0.105.0.VOZMIXM; OS2.0.105.0.VOZEUXM; OS2.0.102.0.VOZRUXM; OS2.0.102.0.VOZIDXM; OS2.0.102.0.VOZTRXM"
       },
       {
         "code": "muyu",
@@ -148,12 +156,20 @@
         "rom": "OS2.0.2.0.VLLTWXM; OS2.0.3.0.VLLMIXM; OS2.0.3.0.VLLRUXM; OS2.0.2.0.VLLTRXM"
       },
       {
+        "code": "fire",
+        "name": {
+          "zh": "Redmi 12 国际",
+          "en": "Redmi 12"
+        },
+        "rom": "OS2.0.4.0.VMXINXM"
+      },
+      {
         "code": "earth",
         "name": {
           "zh": "Redmi 12C / POCO C55",
           "en": "Redmi 12C / POCO C55"
         },
-        "rom": "OS1.0.10.0.UCVMIXM; OS1.0.9.0.UCVEUXM; OS1.0.9.0.UCVEUOR"
+        "rom": "OS1.0.10.0.UCVMIXM; OS1.0.9.0.UCVEUXM; OS1.0.9.0.UCVEUOR; OS1.0.9.0.UCVMXAT"
       },
       {
         "code": "gale",
@@ -305,7 +321,7 @@
           "zh": "Redmi Note 14 Pro / POCO X7",
           "en": "Redmi Note 14 Pro / POCO X7"
         },
-        "rom": "OS2.0.5.0.VOOMIXM; OS1.0.13.0.UOOEUXM"
+        "rom": "OS2.0.5.0.VOOMIXM; OS1.0.13.0.UOOEUXM; OS2.0.1.0.VOORUXM"
       },
       {
         "code": "amethyst",
@@ -345,7 +361,7 @@
           "zh": "REDMI Turbo 4 / POCO X7 Pro",
           "en": "REDMI Turbo 4 / POCO X7 Pro"
         },
-        "rom": "OS2.0.101.0.VOJRUXM; OS2.0.101.0.VOJINXM; OS2.0.101.0.VOJIDXM; OS2.0.101.0.VOJTRXM"
+        "rom": "OS2.0.101.0.VOJTWXM; OS2.0.101.0.VOJRUXM; OS2.0.101.0.VOJINXM; OS2.0.101.0.VOJIDXM; OS2.0.101.0.VOJTRXM"
       },
       {
         "code": "onyx",
@@ -369,7 +385,7 @@
           "zh": "Redmi K50 电竞版 / POCO F4 GT",
           "en": "Redmi K50G / POCO F4 GT"
         },
-        "rom": "OS2.0.1.0.ULJRUXM"
+        "rom": "OS2.0.1.0.ULJRUXM; OS2.0.1.0.ULJTRXM"
       },
       {
         "code": "diting",
@@ -386,6 +402,14 @@
           "en": "Redmi K60 Pro"
         },
         "rom": "OS2.0.106.0.VMKCNXM"
+      },
+      {
+        "code": "corot",
+        "name": {
+          "zh": "Redmi K60 至尊版 / 小米 13T Pro",
+          "en": "Redmi K60 Ultra / Xiaomi 13T Pro"
+        },
+        "rom": "OS2.0.3.0.VMLJPXM"
       },
       {
         "code": "duchamp",
@@ -409,7 +433,7 @@
           "zh": "Redmi K70 至尊版 / 小米 14T Pro",
           "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
         },
-        "rom": "OS2.0.200.31.VNNCNXM; OS2.0.200.27.VNNCNXM; OS2.0.114.0.VNNCNXM; OS2.0.104.0.VNNTWXM; OS2.0.103.0.VNNRUXM; OS1.0.10.0.UNNJPXM"
+        "rom": "OS2.0.200.31.VNNCNXM; OS2.0.200.27.VNNCNXM; OS2.0.114.0.VNNCNXM; OS2.0.104.0.VNNTWXM; OS2.0.103.0.VNNRUXM; OS2.0.103.0.VNNIDXM; OS1.0.10.0.UNNJPXM"
       },
       {
         "code": "zorn",
@@ -417,7 +441,7 @@
           "zh": "REDMI K80 / POCO F7 Pro",
           "en": "REDMI K80 / POCO F7 Pro"
         },
-        "rom": "OS2.0.108.0.VOKEUXM; OS2.0.104.0.VOKRUXM"
+        "rom": "OS2.0.102.0.VOKTWXM; OS2.0.104.0.VOKMIXM; OS2.0.108.0.VOKEUXM; OS2.0.104.0.VOKRUXM; OS2.0.103.0.VOKIDXM"
       },
       {
         "code": "miro",
