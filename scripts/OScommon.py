@@ -2023,6 +2023,7 @@ flags = {
 	"BABYLON": "babylon",
 	"babylon": "babylon",
 	"zizhan": "zizhan",
+	"malachite_jp_global":"malachite",
 	"NUWA": "nuwa",
 	"TANZANITEIDGlobal":"tanzanite",
 	"tanzanite_id_global":"tanzanite",
