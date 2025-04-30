@@ -245,6 +245,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "flare_id_global",
+			"brand": "Redmi",
+      "device": {
+				"zh": "Redmi Pad SE 8.7 Wi-Fi",
+				"en": "Redmi Pad SE 8.7 Wi-Fi"
+      },
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": [""],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UHXIDXM": {
+					"os": "OS1.0.3.0.UHXIDXM",
+					"android": "14.0",
+					"release": "2025-04-30",
+					"recovery": "miui_FLAREIDGlobal_OS1.0.3.0.UHXIDXM_2ebca9629d_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
