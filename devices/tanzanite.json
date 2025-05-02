@@ -83,6 +83,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VOGMIXM": {
+					"os": "OS2.0.2.0.VOGMIXM",
+					"android": "15.0",
+					"release": "2025-05-02",
+					"recovery": "tanzanite_global-ota_full-OS2.0.2.0.VOGMIXM-user-15.0-0c0796881d.zip",
+					"fastboot": ""
+				},
 				"OS2.0.1.0.VOGMIXM": {
 					"os": "OS2.0.1.0.VOGMIXM",
 					"android": "15.0",
@@ -271,12 +278,19 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.VOGRUXM": {
+					"os": "OS2.0.3.0.VOGRUXM",
+					"android": "15.0",
+					"release": "2025-05-02",
+					"recovery": "tanzanite_ru_global-ota_full-OS2.0.3.0.VOGRUXM-user-15.0-0890fde361.zip",
+					"fastboot": ""
+				},
 				"OS2.0.2.0.VOGRUXM": {
 					"os": "OS2.0.2.0.VOGRUXM",
 					"android": "15.0",
 					"release": "2025-04-14",
 					"recovery": "tanzanite_ru_global-ota_full-OS2.0.2.0.VOGRUXM-user-15.0-c38c252f99.zip",
-					"fastboot": ""
+					"fastboot": "tanzanite_ru_global_images_OS2.0.2.0.VOGRUXM_20250331.0000.00_15.0_ru_d1926d818c.tgz"
 				},
 				"OS1.0.4.0.UOGRUXM": {
 					"os": "OS1.0.4.0.UOGRUXM",
@@ -334,7 +348,7 @@
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "tanzanite_id_global-ota_full-OS2.0.4.0.VOGIDXM-user-15.0-18ce397a45.zip",
-					"fastboot": ""
+					"fastboot": "tanzanite_id_global_images_OS2.0.4.0.VOGIDXM_20250418.0000.00_15.0_id_e2ada37e03.tgz"
 				},
 				"OS2.0.3.0.VOGIDXM": {
 					"os": "OS2.0.3.0.VOGIDXM",
