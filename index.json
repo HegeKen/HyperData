@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-05-02 20:52:36",
+    "time": "2025-05-04 18:28:21",
     "developing": "no",
     "roms": [
+      {
+        "code": "agate",
+        "name": {
+          "zh": "小米 11T",
+          "en": "Xiaomi 11T"
+        },
+        "rom": "OS1.0.14.0.UKWEUXM"
+      },
       {
         "code": "vili",
         "name": {
@@ -105,7 +113,7 @@
           "zh": "小米平板7 Pro",
           "en": "Xiaomi Pad 7 Pro"
         },
-        "rom": "OS2.0.200.21.VOYCNXM; OS2.0.102.0.VOYTWXM; OS2.0.102.0.VOYIDXM; OS2.0.102.0.VOYTRXM"
+        "rom": "OS2.0.200.21.VOYCNXM; OS2.0.102.0.VOYTWXM; OS2.0.104.0.VOYMIXM; OS2.0.102.0.VOYRUXM; OS2.0.102.0.VOYIDXM; OS2.0.102.0.VOYTRXM"
       },
       {
         "code": "ruyi",
@@ -274,6 +282,14 @@
           "en": "Redmi 13 / POCO M6 4G"
         },
         "rom": "OS2.0.4.0.VNTTWXM; OS1.0.7.0.UNTIDXM"
+      },
+      {
+        "code": "air",
+        "name": {
+          "zh": "Redmi 13C/R 5G / POCO M6 5G",
+          "en": "Redmi 13C/R 5G / POCO M6 5G"
+        },
+        "rom": "OS2.0.2.0.VGQMIXM"
       }
     ]
   }
