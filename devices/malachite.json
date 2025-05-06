@@ -276,7 +276,7 @@
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "malachite_global-ota_full-OS2.0.5.0.VOOMIXM-user-15.0-a4dfa156a3.zip",
-					"fastboot": ""
+					"fastboot": "malachite_global_images_OS2.0.5.0.VOOMIXM_20250414.0000.00_15.0_global_f231430eb8.tgz"
 				},
 				"OS2.0.3.0.VOOMIXM": {
 					"os": "OS2.0.3.0.VOOMIXM",
@@ -471,7 +471,7 @@
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.1.0.VOORUXM-user-15.0-3d6d7d85b5.zip",
-					"fastboot": ""
+					"fastboot": "malachite_ru_global_images_OS2.0.1.0.VOORUXM_20250418.0000.00_15.0_ru_5148277424.tgz"
 				},
 				"OS1.0.7.0.UOORUXM": {
 					"os": "OS1.0.7.0.UOORUXM",
@@ -612,6 +612,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VOOTRXM": {
+					"os": "OS2.0.1.0.VOOTRXM",
+					"android": "15.0",
+					"release": "2025-05-06",
+					"recovery": "malachite_tr_global-ota_full-OS2.0.1.0.VOOTRXM-user-15.0-7e68feef99.zip",
+					"fastboot": ""
+				},
 				"OS1.0.6.0.UOOTRXM": {
 					"os": "OS1.0.6.0.UOOTRXM",
 					"android": "14.0",
@@ -691,7 +698,7 @@
 					"android": "14.0",
 					"release": "2025-04-30",
 					"recovery": "miui_MALACHITEMXATGlobal_OS1.0.6.0.UOOMXAT_1fc7990cf0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "malachite_mx_at_global_images_OS1.0.6.0.UOOMXAT_20250408.0000.00_14.0_mx_at_a19e982091.tgz"
 				},
 				"OS1.0.5.0.UOOMXAT": {
 					"os": "OS1.0.5.0.UOOMXAT",
@@ -728,7 +735,7 @@
 					"android": "14.0",
 					"release": "2025-04-30",
 					"recovery": "miui_MALACHITELMCRGlobal_OS1.0.5.0.UOOLMCR_4518f80fa2_14.0.zip",
-					"fastboot": ""
+					"fastboot": "malachite_lm_cr_global_images_OS1.0.5.0.UOOLMCR_20250401.0000.00_14.0_lm_cr_f41e595360.tgz"
 				},
 				"OS1.0.4.0.UOOLMCR": {
 					"os": "OS1.0.4.0.UOOLMCR",
