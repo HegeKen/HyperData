@@ -230,6 +230,36 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "serenity_lm_cr_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh" :"REDMI A5 / POCO C71",
+				"en" :"REDMI A5 / POCO C71"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table":["os", "android", "release", "recovery", "fastboot"],
+			"show": "1",
+			"carrier": ["cr"],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.1.0.VGWLMCR": {
+					"os": "A15.0.1.0.VGWLMCR",
+					"android": "15.0",
+					"release": "2025-05-07",
+					"recovery": "miui_SERENITYLMCRGlobal_A15.0.1.0.VGWLMCR_ce84d3e9fd_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 拉丁美洲Movistar运营商定制版",
 				"en": "Xiaomi HyperOS Latin America Movistar Carrier Edition"
 			},

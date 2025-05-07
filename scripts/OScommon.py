@@ -2005,6 +2005,8 @@ flags = {
 	"COROT": "corot",
 	"cupid": "cupid",
 	"zeus": "zeus",
+	"SERENITYLMCRGlobal":"serenity",
+	"serenity_lm_cr_global": "serenity",
 	"mayfly": "mayfly",
 	"unicorn": "unicorn",
 	"thor": "thor",
