@@ -5,11 +5,16 @@
 		"en": "Redmi Note 11T Pro/Pro+ / Redmi K50i / POCO X4 GT / Pro"
 	},
 	"code": "LO",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,28 @@
 			},
 			"branchCode": "xaga",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11T Pro / Pro+",
-        "en" :"Redmi Note 11T Pro / Pro+"
-      },
+			"device": {
+				"zh": "Redmi Note 11T Pro / Pro+",
+				"en": "Redmi Note 11T Pro / Pro+"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -137,16 +154,24 @@
 			},
 			"branchCode": "xaga_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11T Pro / POCO X4 GT / Pro",
-        "en" :"Redmi Note 11T Pro / POCO X4 GT / Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 11T Pro / POCO X4 GT / Pro",
+				"en": "Redmi Note 11T Pro / POCO X4 GT / Pro"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -223,16 +248,24 @@
 			},
 			"branchCode": "xaga_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11T Pro / POCO X4 GT / Pro",
-        "en" :"Redmi Note 11T Pro / POCO X4 GT / Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 11T Pro / POCO X4 GT / Pro",
+				"en": "Redmi Note 11T Pro / POCO X4 GT / Pro"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -323,16 +356,24 @@
 			},
 			"branchCode": "xaga_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11T Pro / POCO X4 GT / Pro",
-        "en" :"Redmi Note 11T Pro / POCO X4 GT / Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 11T Pro / POCO X4 GT / Pro",
+				"en": "Redmi Note 11T Pro / POCO X4 GT / Pro"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -423,16 +464,24 @@
 			},
 			"branchCode": "xaga_ru_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11T Pro / POCO X4 GT / Pro",
-        "en" :"Redmi Note 11T Pro / POCO X4 GT / Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 11T Pro / POCO X4 GT / Pro",
+				"en": "Redmi Note 11T Pro / POCO X4 GT / Pro"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -509,16 +558,24 @@
 			},
 			"branchCode": "xaga_in_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K50i",
-        "en" :"Redmi K50i"
-      },
+			"device": {
+				"zh": "Redmi K50i",
+				"en": "Redmi K50i"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -595,16 +652,24 @@
 			},
 			"branchCode": "xaga_tr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11T Pro / POCO X4 GT / Pro",
-        "en" :"Redmi Note 11T Pro / POCO X4 GT / Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 11T Pro / POCO X4 GT / Pro",
+				"en": "Redmi Note 11T Pro / POCO X4 GT / Pro"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

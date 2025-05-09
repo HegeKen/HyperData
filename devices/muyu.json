@@ -1,15 +1,19 @@
 {
-  "device": "muyu",
-  "name": {
-    "zh": "小米平板7 Pro",
-    "en": "Xiaomi Pad 7 Pro"
-  },
+	"device": "muyu",
+	"name": {
+		"zh": "小米平板7 Pro",
+		"en": "Xiaomi Pad 7 Pro"
+	},
 	"code": "OY",
-	"suppports": ["OS2.0"],
-	"android": ["15.0"],
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
 	"type": "tablet",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,27 @@
 			},
 			"branchCode": "muyu",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -48,23 +63,34 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
 			"branchCode": "muyu",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -155,17 +181,28 @@
 			},
 			"branchCode": "muyu_demo",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -192,16 +229,24 @@
 			},
 			"branchCode": "muyu_tw_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -236,16 +281,24 @@
 			},
 			"branchCode": "muyu_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -255,7 +308,7 @@
 					"android": "15.0",
 					"release": "2025-05-02",
 					"recovery": "muyu_global-ota_full-OS2.0.104.0.VOYMIXM-user-15.0-34705d4742.zip",
-					"fastboot": ""
+					"fastboot": "muyu_global_images_OS2.0.104.0.VOYMIXM_20250416.0000.00_15.0_global_00e360b68b.tgz"
 				},
 				"OS2.0.103.0.VOYMIXM": {
 					"os": "OS2.0.103.0.VOYMIXM",
@@ -280,16 +333,24 @@
 			},
 			"branchCode": "muyu_eea_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -317,16 +378,24 @@
 			},
 			"branchCode": "muyu_ru_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -336,7 +405,7 @@
 					"android": "15.0",
 					"release": "2025-05-02",
 					"recovery": "muyu_ru_global-ota_full-OS2.0.102.0.VOYRUXM-user-15.0-cd135129a2.zip",
-					"fastboot": ""
+					"fastboot": "muyu_ru_global_images_OS2.0.102.0.VOYRUXM_20250418.0000.00_15.0_ru_a8309d25fe.tgz"
 				},
 				"OS2.0.101.0.VOYRUXM": {
 					"os": "OS2.0.101.0.VOYRUXM",
@@ -361,16 +430,24 @@
 			},
 			"branchCode": "muyu_id_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -405,16 +482,24 @@
 			},
 			"branchCode": "muyu_tr_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7 Pro",
 				"en": "Xiaomi Pad 7 Pro"
-      },
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -442,5 +527,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

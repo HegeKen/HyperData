@@ -5,11 +5,18 @@
 		"en": "Redmi K70 Ultra / Xiaomi 14T Pro"
 	},
 	"code": "NN",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0", "16.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0",
+		"16.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +25,27 @@
 			},
 			"branchCode": "rothko",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70 至尊版",
-        "en" :"Redmi K70 Ultra"
-      },
+			"device": {
+				"zh": "Redmi K70 至尊版",
+				"en": "Redmi K70 Ultra"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -76,16 +94,28 @@
 			},
 			"branchCode": "rothko",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70 至尊版",
-        "en" :"Redmi K70 Ultra"
-      },
+			"device": {
+				"zh": "Redmi K70 至尊版",
+				"en": "Redmi K70 Ultra"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -186,7 +216,7 @@
 					"fastboot": "",
 					"ctelecom": ""
 				},
-    		"OS1.0.29.0.UNNCNXM": {
+				"OS1.0.29.0.UNNCNXM": {
 					"os": "OS1.0.29.0.UNNCNXM",
 					"android": "14.0",
 					"release": "2024-10-14",
@@ -194,7 +224,7 @@
 					"fastboot": "rothko_images_OS1.0.29.0.UNNCNXM_20241010.0000.00_14.0_cn_13ef5328db.tgz",
 					"ctelecom": "rothko_images_OS1.0.29.0.UNNCNXM_20241010.0000.00_14.0_cn_chinatelecom_dd3bd31042.tgz"
 				},
-     "OS1.0.27.0.UNNCNXM": {
+				"OS1.0.27.0.UNNCNXM": {
 					"os": "OS1.0.27.0.UNNCNXM",
 					"android": "14.0",
 					"release": "2024-09-14",
@@ -315,17 +345,28 @@
 			},
 			"branchCode": "rothko_pre_dpp",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70 至尊版",
-        "en" :"Redmi K70 Ultra"
-      },
+			"device": {
+				"zh": "Redmi K70 至尊版",
+				"en": "Redmi K70 Ultra"
+			},
 			"idtag": "ADPC",
 			"tag": "",
 			"url": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -346,17 +387,29 @@
 			},
 			"branchCode": "rothko_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70 至尊版",
-        "en" :"Redmi K70 Ultra"
-      },
+			"device": {
+				"zh": "Redmi K70 至尊版",
+				"en": "Redmi K70 Ultra"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -393,16 +446,28 @@
 			},
 			"branchCode": "rothko_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70 至尊版",
-        "en" :"Redmi K70 Ultra"
-      },
+			"device": {
+				"zh": "Redmi K70 至尊版",
+				"en": "Redmi K70 Ultra"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -432,16 +497,24 @@
 			},
 			"branchCode": "rothko_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -511,16 +584,24 @@
 			},
 			"branchCode": "rothko_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -597,16 +678,24 @@
 			},
 			"branchCode": "rothko_dc_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -669,17 +758,25 @@
 			},
 			"branchCode": "rothko_pre_dpp_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "ADPG",
 			"tag": "",
 			"url": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "1",
 			"ep": "0",
@@ -700,16 +797,24 @@
 			},
 			"branchCode": "rothko_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -800,16 +905,24 @@
 			},
 			"branchCode": "rothko_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -879,16 +992,24 @@
 			},
 			"branchCode": "rothko_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -958,16 +1079,24 @@
 			},
 			"branchCode": "rothko_tr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -1023,16 +1152,24 @@
 			},
 			"branchCode": "rothko_jp_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "JAPS",
 			"tag": "JPXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "jp",
 			"zone": "2",
 			"ep": "0",
@@ -1088,16 +1225,24 @@
 			},
 			"branchCode": "rothko_lm_cr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14T Pro",
-        "en" :"Xiaomi 14T Pro"
-      },
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

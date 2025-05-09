@@ -1,17 +1,21 @@
 {
-  "device": "serenity",
-  "name": {
-    "zh": "REDMI A5 / POCO C71",
-    "en": "REDMI A5 / POCO C71"
-  },
+	"device": "serenity",
+	"name": {
+		"zh": "REDMI A5 / POCO C71",
+		"en": "REDMI A5 / POCO C71"
+	},
 	"code": "GW",
-	"suppports": ["A15.0"],
-	"android": ["15.0"],
+	"suppports": [
+		"A15.0"
+	],
+	"android": [
+		"15.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
@@ -19,20 +23,28 @@
 			"branchCode": "serenity_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
-        "A15.0.3.0.VGWMIXM": {
+				"A15.0.3.0.VGWMIXM": {
 					"os": "A15.0.3.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-04-02",
@@ -56,15 +68,23 @@
 			"branchCode": "serenity_eea_tf_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -86,15 +106,23 @@
 			"branchCode": "serenity_ru_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -116,15 +144,23 @@
 			"branchCode": "serenity_in_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -153,15 +189,23 @@
 			"branchCode": "serenity_za_mt_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "ZAMT",
 			"tag": "ZAMT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["mt"],
+			"carrier": [
+				"mt"
+			],
 			"region": "za",
 			"zone": "2",
 			"ep": "0",
@@ -183,15 +227,23 @@
 			"branchCode": "serenity_gt_tg_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "GTTG",
 			"tag": "GTTG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tg"],
+			"carrier": [
+				"tg"
+			],
 			"region": "gt",
 			"zone": "2",
 			"ep": "0",
@@ -213,15 +265,23 @@
 			"branchCode": "serenity_mx_at_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -243,15 +303,23 @@
 			"branchCode": "serenity_lm_cr_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -273,15 +341,23 @@
 			"branchCode": "serenity_lm_ms_global",
 			"brand": "REDMI, POCO",
 			"device": {
-				"zh" :"REDMI A5 / POCO C71",
-				"en" :"REDMI A5 / POCO C71"
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
 			},
 			"idtag": "LMMS",
 			"tag": "LMMS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["movistar"],
+			"carrier": [
+				"movistar"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -302,5 +378,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

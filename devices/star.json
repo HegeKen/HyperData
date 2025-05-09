@@ -5,11 +5,16 @@
 		"en": "Mi 11 Pro / Ultra"
 	},
 	"code": "KA",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,29 @@
 			},
 			"branchCode": "star",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
+			"device": {
+				"zh": "小米 11 Pro / Ultra",
+				"en": "Mi 11 Pro / Ultra"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -122,16 +140,24 @@
 			},
 			"branchCode": "star_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
+			"device": {
+				"zh": "小米 11 Pro / Ultra",
+				"en": "Mi 11 Pro / Ultra"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -201,16 +227,24 @@
 			},
 			"branchCode": "star_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
+			"device": {
+				"zh": "小米 11 Pro / Ultra",
+				"en": "Mi 11 Pro / Ultra"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -287,16 +321,24 @@
 			},
 			"branchCode": "star_eea_or_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
+			"device": {
+				"zh": "小米 11 Pro / Ultra",
+				"en": "Mi 11 Pro / Ultra"
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -352,16 +394,24 @@
 			},
 			"branchCode": "star_eea_vf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
+			"device": {
+				"zh": "小米 11 Pro / Ultra",
+				"en": "Mi 11 Pro / Ultra"
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -410,16 +460,24 @@
 			},
 			"branchCode": "star_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
+			"device": {
+				"zh": "小米 11 Pro / Ultra",
+				"en": "Mi 11 Pro / Ultra"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -496,16 +554,24 @@
 			},
 			"branchCode": "star_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Pro / Ultra",
-        "en" :"Mi 11 Pro / Ultra"
-      },
+			"device": {
+				"zh": "小米 11 Pro / Ultra",
+				"en": "Mi 11 Pro / Ultra"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",

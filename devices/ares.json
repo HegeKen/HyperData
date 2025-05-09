@@ -5,11 +5,15 @@
 		"en": "Redmi K40 Gaming / POCO F3 GT"
 	},
 	"code": "KJ",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,28 @@
 			},
 			"branchCode": "ares",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K40 游戏增强版",
-        "en" :"Redmi K40 Gaming"
-      },
+			"device": {
+				"zh": "Redmi K40 游戏增强版",
+				"en": "Redmi K40 Gaming"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -73,16 +89,24 @@
 			},
 			"branchCode": "ares_in_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F3 GT",
-        "en" :"POCO F3 GT"
-      },
+			"device": {
+				"zh": "POCO F3 GT",
+				"en": "POCO F3 GT"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

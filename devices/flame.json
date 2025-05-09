@@ -5,11 +5,17 @@
 		"en": "Redmi 14R 5G / POCO M7 5G"
 	},
 	"code": "GU",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,28 @@
 			},
 			"branchCode": "flame",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 14R 5G",
-        "en" :"Redmi 14R 5G"
-      },
+			"device": {
+				"zh": "Redmi 14R 5G",
+				"en": "Redmi 14R 5G"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "2",
 			"ep": "0",
@@ -129,16 +147,28 @@
 			},
 			"branchCode": "flame_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 14R 5G",
-        "en" :"Redmi 14R 5G"
-      },
+			"device": {
+				"zh": "Redmi 14R 5G",
+				"en": "Redmi 14R 5G"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -176,17 +206,29 @@
 			},
 			"branchCode": "flame_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 14R 5G",
-        "en" :"Redmi 14R 5G"
-      },
+			"device": {
+				"zh": "Redmi 14R 5G",
+				"en": "Redmi 14R 5G"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -208,15 +250,23 @@
 			"branchCode": "flame_in_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO M7 5G",
-				"en" :"POCO M7 5G"
+				"zh": "POCO M7 5G",
+				"en": "POCO M7 5G"
 			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

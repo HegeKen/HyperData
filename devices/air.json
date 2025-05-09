@@ -5,11 +5,17 @@
 		"en": "Redmi 13C/R 5G / POCO M6 5G"
 	},
 	"code": "GQ",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,28 @@
 			},
 			"branchCode": "air",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 13C / 13R 5G",
-        "en" :"Redmi 13C / 13R 5G"
-      },
+			"device": {
+				"zh": "Redmi 13C / 13R 5G",
+				"en": "Redmi 13C / 13R 5G"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -73,16 +91,28 @@
 			},
 			"branchCode": "air_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 13C / 13R 5G",
-        "en" :"Redmi 13C / 13R 5G"
-      },
+			"device": {
+				"zh": "Redmi 13C / 13R 5G",
+				"en": "Redmi 13C / 13R 5G"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -120,16 +150,24 @@
 			},
 			"branchCode": "air_tw_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 13C / 13R 5G",
-        "en" :"Redmi 13C / 13R 5G"
-      },
+			"device": {
+				"zh": "Redmi 13C / 13R 5G",
+				"en": "Redmi 13C / 13R 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -157,16 +195,24 @@
 			},
 			"branchCode": "air_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 13C / 13R 5G",
-        "en" :"Redmi 13C / 13R 5G"
-      },
+			"device": {
+				"zh": "Redmi 13C / 13R 5G",
+				"en": "Redmi 13C / 13R 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -222,16 +268,24 @@
 			},
 			"branchCode": "air_dc_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 13C / 13R 5G",
-        "en" :"Redmi 13C / 13R 5G"
-      },
+			"device": {
+				"zh": "Redmi 13C / 13R 5G",
+				"en": "Redmi 13C / 13R 5G"
+			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -280,16 +334,24 @@
 			},
 			"branchCode": "air_eea_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 13C / 13R 5G",
-        "en" :"Redmi 13C / 13R 5G"
-      },
+			"device": {
+				"zh": "Redmi 13C / 13R 5G",
+				"en": "Redmi 13C / 13R 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -366,16 +428,24 @@
 			},
 			"branchCode": "air_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13R 5G / POCO M6 5G",
-        "en" :"Redmi 13R 5G / POCO M6 5G"
-      },
+			"device": {
+				"zh": "Redmi 13R 5G / POCO M6 5G",
+				"en": "Redmi 13R 5G / POCO M6 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -431,16 +501,24 @@
 			},
 			"branchCode": "air_lm_cr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13R 5G / POCO M6 5G",
-        "en" :"Redmi 13R 5G / POCO M6 5G"
-      },
+			"device": {
+				"zh": "Redmi 13R 5G / POCO M6 5G",
+				"en": "Redmi 13R 5G / POCO M6 5G"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

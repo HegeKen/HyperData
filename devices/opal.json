@@ -5,11 +5,15 @@
 		"en": "Redmi Note 11S 5G"
 	},
 	"code": "GL",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,24 @@
 			},
 			"branchCode": "opal_tw_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -48,16 +60,24 @@
 			},
 			"branchCode": "opal_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -78,16 +98,24 @@
 			},
 			"branchCode": "opal_eea_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -122,16 +150,24 @@
 			},
 			"branchCode": "opal_eea_tf_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -180,16 +216,24 @@
 			},
 			"branchCode": "opal_eea_hg_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -231,16 +275,24 @@
 			},
 			"branchCode": "opal_eea_or_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -289,16 +341,24 @@
 			},
 			"branchCode": "opal_eea_vf_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -354,16 +414,24 @@
 			},
 			"branchCode": "opal_eea_by_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "EUBY",
 			"tag": "EUBY",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -398,16 +466,24 @@
 			},
 			"branchCode": "opal_eea_sf_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -435,16 +511,24 @@
 			},
 			"branchCode": "opal_ru_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -465,16 +549,24 @@
 			},
 			"branchCode": "opal_cl_en_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -495,16 +587,24 @@
 			},
 			"branchCode": "opal_mx_at_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11S 5G",
-        "en" :"Redmi Note 11S 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",

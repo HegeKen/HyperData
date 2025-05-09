@@ -5,11 +5,15 @@
 		"en": "Redmi Note 11 / 11E Pro 5G / POCO X4 Pro 5G"
 	},
 	"code": "KC",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,29 @@
 			},
 			"branchCode": "veux",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11E Pro",
-        "en" :"Redmi Note 11E Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 11E Pro",
+				"en": "Redmi Note 11E Pro"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -104,16 +121,24 @@
 			},
 			"branchCode": "veux_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -169,16 +194,24 @@
 			},
 			"branchCode": "veux_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -241,16 +274,24 @@
 			},
 			"branchCode": "veux_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -320,16 +361,24 @@
 			},
 			"branchCode": "veux_eea_hg_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -364,16 +413,24 @@
 			},
 			"branchCode": "veux_eea_tf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -429,16 +486,24 @@
 			},
 			"branchCode": "veux_eea_vf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -487,16 +552,24 @@
 			},
 			"branchCode": "veux_eea_by_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "EUBY",
 			"tag": "EUBY",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -531,16 +604,24 @@
 			},
 			"branchCode": "veux_eea_or_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -589,16 +670,24 @@
 			},
 			"branchCode": "veux_eea_sf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -626,16 +715,24 @@
 			},
 			"branchCode": "veux_ru_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -698,16 +795,24 @@
 			},
 			"branchCode": "veux_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -770,16 +875,24 @@
 			},
 			"branchCode": "veux_id_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -842,16 +955,24 @@
 			},
 			"branchCode": "veux_tr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -914,16 +1035,24 @@
 			},
 			"branchCode": "veux_mx_at_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -965,16 +1094,24 @@
 			},
 			"branchCode": "veux_cl_en_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -995,16 +1132,24 @@
 			},
 			"branchCode": "veux_jp_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
-        "en" :"Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G",
+				"en": "Redmi Note 11 Pro 5G / POCO X4 Pro 5G"
+			},
 			"idtag": "JAPS",
 			"tag": "JPXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "jp",
 			"zone": "2",
 			"ep": "0",

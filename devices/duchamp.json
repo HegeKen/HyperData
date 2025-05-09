@@ -5,11 +5,17 @@
 		"en": "Redmi K70E / POCO X6 Pro 5G"
 	},
 	"code": "NL",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,27 @@
 			},
 			"branchCode": "duchamp",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70E",
-        "en" :"Redmi K70E"
-      },
+			"device": {
+				"zh": "Redmi K70E",
+				"en": "Redmi K70E"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -55,15 +72,27 @@
 			},
 			"branchCode": "duchamp",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70E",
-        "en" :"Redmi K70E"
-      },
+			"device": {
+				"zh": "Redmi K70E",
+				"en": "Redmi K70E"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"show": "1",
 			"region": "cn",
 			"zone": "1",
@@ -230,16 +259,28 @@
 			},
 			"branchCode": "duchamp_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70E",
-        "en" :"Redmi K70E"
-      },
+			"device": {
+				"zh": "Redmi K70E",
+				"en": "Redmi K70E"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -261,16 +302,28 @@
 			},
 			"branchCode": "duchamp_ep_stdee",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO X6 Pro 5G",
-        "en" :"POCO X6 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -324,16 +377,24 @@
 			},
 			"branchCode": "duchamp_tw_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO X6 Pro 5G",
-        "en" :"POCO X6 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -424,16 +485,24 @@
 			},
 			"branchCode": "duchamp_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO X6 Pro 5G",
-        "en" :"POCO X6 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -545,16 +614,24 @@
 			},
 			"branchCode": "duchamp_eea_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO X6 Pro 5G",
-        "en" :"POCO X6 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -659,16 +736,24 @@
 			},
 			"branchCode": "duchamp_ru_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO X6 Pro 5G",
-        "en" :"POCO X6 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -759,16 +844,24 @@
 			},
 			"branchCode": "duchamp_in_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO X6 Pro 5G",
-        "en" :"POCO X6 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -880,16 +973,24 @@
 			},
 			"branchCode": "duchamp_id_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO X6 Pro 5G",
-        "en" :"POCO X6 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,16 @@
 		"en": "Xiaomi Pad 6"
 	},
 	"code": "MZ",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "tablet",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,27 @@
 			},
 			"branchCode": "pipa",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -132,16 +148,27 @@
 			},
 			"branchCode": "pipa_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -162,17 +189,28 @@
 			},
 			"branchCode": "pipa_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -192,16 +230,24 @@
 			},
 			"branchCode": "pipa_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -299,16 +345,24 @@
 			},
 			"branchCode": "pipa_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -406,16 +460,24 @@
 			},
 			"branchCode": "pipa_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -520,16 +582,24 @@
 			},
 			"branchCode": "pipa_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -634,16 +704,24 @@
 			},
 			"branchCode": "pipa_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -741,16 +819,24 @@
 			},
 			"branchCode": "pipa_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -848,16 +934,24 @@
 			},
 			"branchCode": "pipa_tr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6",
-        "en" :"Xiaomi Pad 6"
-      },
+			"device": {
+				"zh": "小米平板 6",
+				"en": "Xiaomi Pad 6"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

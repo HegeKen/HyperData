@@ -5,11 +5,17 @@
 		"en": "Xiaomi MIX Flip"
 	},
 	"code": "NI",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "foldable",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,27 @@
 			},
 			"branchCode": "ruyi",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Flip",
-        "en" :"Xiaomi MIX Flip"
-      },
+			"device": {
+				"zh": "小米 MIX Flip",
+				"en": "Xiaomi MIX Flip"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -83,16 +100,28 @@
 			},
 			"branchCode": "ruyi",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Flip",
-        "en" :"Xiaomi MIX Flip"
-      },
+			"device": {
+				"zh": "小米 MIX Flip",
+				"en": "Xiaomi MIX Flip"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -210,16 +239,28 @@
 			},
 			"branchCode": "ruyi_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Flip",
-        "en" :"Xiaomi MIX Flip"
-      },
+			"device": {
+				"zh": "小米 MIX Flip",
+				"en": "Xiaomi MIX Flip"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -241,17 +282,29 @@
 			},
 			"branchCode": "ruyi_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Flip",
-        "en" :"Xiaomi MIX Flip"
-      },
+			"device": {
+				"zh": "小米 MIX Flip",
+				"en": "Xiaomi MIX Flip"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -304,16 +357,24 @@
 			},
 			"branchCode": "ruyi_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Flip",
-        "en" :"Xiaomi MIX Flip"
-      },
+			"device": {
+				"zh": "小米 MIX Flip",
+				"en": "Xiaomi MIX Flip"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -369,16 +430,24 @@
 			},
 			"branchCode": "ruyi_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Flip",
-        "en" :"Xiaomi MIX Flip"
-      },
+			"device": {
+				"zh": "小米 MIX Flip",
+				"en": "Xiaomi MIX Flip"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -448,16 +517,24 @@
 			},
 			"branchCode": "ruyi_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Flip",
-        "en" :"Xiaomi MIX Flip"
-      },
+			"device": {
+				"zh": "小米 MIX Flip",
+				"en": "Xiaomi MIX Flip"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -513,16 +590,24 @@
 			},
 			"branchCode": "ruyi_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Flip",
-        "en" :"Xiaomi MIX Flip"
-      },
+			"device": {
+				"zh": "小米 MIX Flip",
+				"en": "Xiaomi MIX Flip"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",

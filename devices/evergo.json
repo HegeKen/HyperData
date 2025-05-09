@@ -5,11 +5,15 @@
 		"en": "Redmi Note 11 5G / 11T 5G"
 	},
 	"code": "GB",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,28 @@
 			},
 			"branchCode": "evergo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 5G",
-        "en" :"Redmi Note 11 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 5G",
+				"en": "Redmi Note 11 5G"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -49,16 +65,24 @@
 			},
 			"branchCode": "evergo_in_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11T 5G",
-        "en" :"Redmi Note 11T 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11T 5G",
+				"en": "Redmi Note 11T 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

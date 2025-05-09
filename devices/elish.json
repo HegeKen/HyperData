@@ -5,11 +5,15 @@
 		"en": "Xiaomi Pad 5 Pro Wi-Fi"
 	},
 	"code": "KY",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "tablet",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,28 @@
 			},
 			"branchCode": "elish",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 5 Pro Wi-Fi",
-        "en" :"Xiaomi Pad 5 Pro Wi-Fi"
-      },
+			"device": {
+				"zh": "小米平板 5 Pro Wi-Fi",
+				"en": "Xiaomi Pad 5 Pro Wi-Fi"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",

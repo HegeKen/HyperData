@@ -5,16 +5,20 @@
 		"en": "Xiaomi 14 Pro Ti Satellite"
 	},
 	"code": "ND",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"shennong",
-	"notice":{
+	"merged": "shennong",
+	"notice": {
 		"zh": "小米 14 Pro 钛金属卫星通讯版 自澎湃OS2开始与小米 14 Pro / Ti合并，不再单独发布",
 		"en": "Xiaomi 14 Pro Ti Satellite has been merged with Xiaomi 14 Pro / Ti since HyperOS 2.0, and will no longer be released separately."
 	},
-	"merged_with":{
+	"merged_with": {
 		"zh": "小米 14 Pro / Ti",
 		"en": "Xiaomi 14 Pro / Ti"
 	},
@@ -26,16 +30,28 @@
 			},
 			"branchCode": "shennong_t",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Pro 钛金属卫星通讯版",
-        "en" :"Xiaomi 14 Pro Ti Satellite"
-      },
+			"device": {
+				"zh": "小米 14 Pro 钛金属卫星通讯版",
+				"en": "Xiaomi 14 Pro Ti Satellite"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",

@@ -1,33 +1,47 @@
 {
-  "device": "spark",
-  "name": {
-    "zh": "Redmi 平板 SE 4G 8.7",
-    "en": "Redmi Pad SE 4G 8.7"
-  },
+	"device": "spark",
+	"name": {
+		"zh": "Redmi 平板 SE 4G 8.7",
+		"en": "Redmi Pad SE 4G 8.7"
+	},
 	"code": "HY",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "tablet",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
 			"branchCode": "spark_tw_global",
-      "brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE 4G 8.7",
-        "en" :"Redmi Pad SE 4G 8.7"
-      },
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 平板 SE 4G 8.7",
+				"en": "Redmi Pad SE 4G 8.7"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -62,23 +76,31 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
 			"branchCode": "spark_global",
-      "brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE 4G 8.7",
-        "en" :"Redmi Pad SE 4G 8.7"
-      },
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 平板 SE 4G 8.7",
+				"en": "Redmi Pad SE 4G 8.7"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -133,17 +155,25 @@
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
 			"branchCode": "spark_eea_global",
-      "brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE 4G 8.7",
-        "en" :"Redmi Pad SE 4G 8.7"
-      },
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 平板 SE 4G 8.7",
+				"en": "Redmi Pad SE 4G 8.7"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -191,17 +221,25 @@
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
 			"branchCode": "spark_ru_global",
-      "brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE 4G 8.7",
-        "en" :"Redmi Pad SE 4G 8.7"
-      },
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 平板 SE 4G 8.7",
+				"en": "Redmi Pad SE 4G 8.7"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -229,27 +267,35 @@
 				}
 			}
 		},
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度正式版",
-        "en": "Xiaomi HyperOS India Stable"
-      },
-      "branchCode": "spark_in_global",
-      "brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE 4G 8.7",
-        "en" :"Redmi Pad SE 4G 8.7"
-      },
-      "idtag": "INSO",
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "spark_in_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 平板 SE 4G 8.7",
+				"en": "Redmi Pad SE 4G 8.7"
+			},
+			"idtag": "INSO",
 			"tag": "INXM",
-      "branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
-      "show": "1",
-      "carrier": [""],
-      "region": "in",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
 				"OS2.0.1.0.VHYINXM": {
 					"os": "OS2.0.1.0.VHYINXM",
 					"android": "15.0",
@@ -271,21 +317,21 @@
 					"recovery": "miui_SPARKINGlobal_OS1.0.3.0.UHYINXM_1d4ec22cf4_14.0.zip",
 					"fastboot": "spark_in_global_images_OS1.0.3.0.UHYINXM_20240926.0000.00_14.0_in_eb4bb86107.tgz"
 				},
-        "OS1.0.2.0.UHYINXM": {
-          "os": "OS1.0.2.0.UHYINXM",
-          "android": "14.0",
-          "release": "2024-08-13",
-          "recovery": "miui_SPARKINGlobal_OS1.0.2.0.UHYINXM_9c5c84380e_14.0.zip",
-          "fastboot": "spark_in_global_images_OS1.0.2.0.UHYINXM_20240805.0000.00_14.0_in_c6133cb2de.tgz"
-        },
-        "OS1.0.1.0.UHYINXM": {
-          "os": "OS1.0.1.0.UHYINXM",
-          "android": "14.0",
-          "release": "2024-08-13",
-          "recovery": "miui_SPARKINGlobal_OS1.0.1.0.UHYINXM_f28cb21b53_14.0.zip",
-          "fastboot": "spark_in_global_images_OS1.0.1.0.UHYINXM_20240704.0000.00_14.0_in_90bb2d2f9f.tgz"
-        }
-      }
-    }
-  ]
+				"OS1.0.2.0.UHYINXM": {
+					"os": "OS1.0.2.0.UHYINXM",
+					"android": "14.0",
+					"release": "2024-08-13",
+					"recovery": "miui_SPARKINGlobal_OS1.0.2.0.UHYINXM_9c5c84380e_14.0.zip",
+					"fastboot": "spark_in_global_images_OS1.0.2.0.UHYINXM_20240805.0000.00_14.0_in_c6133cb2de.tgz"
+				},
+				"OS1.0.1.0.UHYINXM": {
+					"os": "OS1.0.1.0.UHYINXM",
+					"android": "14.0",
+					"release": "2024-08-13",
+					"recovery": "miui_SPARKINGlobal_OS1.0.1.0.UHYINXM_f28cb21b53_14.0.zip",
+					"fastboot": "spark_in_global_images_OS1.0.1.0.UHYINXM_20240704.0000.00_14.0_in_90bb2d2f9f.tgz"
+				}
+			}
+		}
+	]
 }

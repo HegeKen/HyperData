@@ -5,11 +5,15 @@
 		"en": "Redmi Pad"
 	},
 	"code": "LY",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "tablet",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,28 @@
 			},
 			"branchCode": "yunluo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板",
-        "en" :"Redmi Pad"
-      },
+			"device": {
+				"zh": "Redmi 平板",
+				"en": "Redmi Pad"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -81,16 +97,24 @@
 			},
 			"branchCode": "yunluo_tw_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板",
-        "en" :"Redmi Pad"
-      },
+			"device": {
+				"zh": "Redmi 平板",
+				"en": "Redmi Pad"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -132,16 +156,24 @@
 			},
 			"branchCode": "yunluo_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板",
-        "en" :"Redmi Pad"
-      },
+			"device": {
+				"zh": "Redmi 平板",
+				"en": "Redmi Pad"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -197,16 +229,24 @@
 			},
 			"branchCode": "yunluo_eea_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板",
-        "en" :"Redmi Pad"
-      },
+			"device": {
+				"zh": "Redmi 平板",
+				"en": "Redmi Pad"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -262,16 +302,24 @@
 			},
 			"branchCode": "yunluo_ru_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板",
-        "en" :"Redmi Pad"
-      },
+			"device": {
+				"zh": "Redmi 平板",
+				"en": "Redmi Pad"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -320,16 +368,24 @@
 			},
 			"branchCode": "yunluo_in_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板",
-        "en" :"Redmi Pad"
-      },
+			"device": {
+				"zh": "Redmi 平板",
+				"en": "Redmi Pad"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -385,16 +441,24 @@
 			},
 			"branchCode": "yunluo_id_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板",
-        "en" :"Redmi Pad"
-      },
+			"device": {
+				"zh": "Redmi 平板",
+				"en": "Redmi Pad"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -436,16 +500,24 @@
 			},
 			"branchCode": "yunluo_tr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板",
-        "en" :"Redmi Pad"
-      },
+			"device": {
+				"zh": "Redmi 平板",
+				"en": "Redmi Pad"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

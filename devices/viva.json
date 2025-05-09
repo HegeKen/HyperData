@@ -5,11 +5,15 @@
 		"en": "Redmi Note 11 Pro 4G"
 	},
 	"code": "GD",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,24 @@
 			},
 			"branchCode": "viva_tw_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 4G",
-        "en" :"Redmi Note 11 Pro 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 4G",
+				"en": "Redmi Note 11 Pro 4G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -55,16 +67,24 @@
 			},
 			"branchCode": "viva_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 4G",
-        "en" :"Redmi Note 11 Pro 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 4G",
+				"en": "Redmi Note 11 Pro 4G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -99,16 +119,24 @@
 			},
 			"branchCode": "viva_eea_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 4G",
-        "en" :"Redmi Note 11 Pro 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 4G",
+				"en": "Redmi Note 11 Pro 4G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -136,16 +164,24 @@
 			},
 			"branchCode": "viva_ru_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 4G",
-        "en" :"Redmi Note 11 Pro 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 4G",
+				"en": "Redmi Note 11 Pro 4G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -166,16 +202,24 @@
 			},
 			"branchCode": "viva_id_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 4G",
-        "en" :"Redmi Note 11 Pro 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 4G",
+				"en": "Redmi Note 11 Pro 4G"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -203,16 +247,24 @@
 			},
 			"branchCode": "viva_tr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 4G",
-        "en" :"Redmi Note 11 Pro 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 4G",
+				"en": "Redmi Note 11 Pro 4G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -233,16 +285,24 @@
 			},
 			"branchCode": "viva_za_mt_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 4G",
-        "en" :"Redmi Note 11 Pro 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 4G",
+				"en": "Redmi Note 11 Pro 4G"
+			},
 			"idtag": "ZAMT",
 			"tag": "ZAMT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["mt"],
+			"carrier": [
+				"mt"
+			],
 			"region": "za",
 			"zone": "2",
 			"ep": "0",
@@ -277,16 +337,24 @@
 			},
 			"branchCode": "viva_lm_ms_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro 4G",
-        "en" :"Redmi Note 11 Pro 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro 4G",
+				"en": "Redmi Note 11 Pro 4G"
+			},
 			"idtag": "LMMS",
 			"tag": "LMMS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["movistar"],
+			"carrier": [
+				"movistar"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

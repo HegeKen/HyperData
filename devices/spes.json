@@ -5,11 +5,15 @@
 		"en": "Redmi Note 11"
 	},
 	"code": "GC",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,24 @@
 			},
 			"branchCode": "spes_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 国际版",
-        "en" :"Redmi Note 11"
-      },
+			"device": {
+				"zh": "Redmi Note 11 国际版",
+				"en": "Redmi Note 11"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -69,16 +81,24 @@
 			},
 			"branchCode": "spes_in_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 国际版",
-        "en" :"Redmi Note 11"
-      },
+			"device": {
+				"zh": "Redmi Note 11 国际版",
+				"en": "Redmi Note 11"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -113,16 +133,24 @@
 			},
 			"branchCode": "spes_tr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 国际版",
-        "en" :"Redmi Note 11"
-      },
+			"device": {
+				"zh": "Redmi Note 11 国际版",
+				"en": "Redmi Note 11"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -164,16 +192,24 @@
 			},
 			"branchCode": "spes_cl_en_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 国际版",
-        "en" :"Redmi Note 11"
-      },
+			"device": {
+				"zh": "Redmi Note 11 国际版",
+				"en": "Redmi Note 11"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -194,16 +230,24 @@
 			},
 			"branchCode": "spes_mx_at_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 国际版",
-        "en" :"Redmi Note 11"
-      },
+			"device": {
+				"zh": "Redmi Note 11 国际版",
+				"en": "Redmi Note 11"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -252,16 +296,24 @@
 			},
 			"branchCode": "spes_lm_ms_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 国际版",
-        "en" :"Redmi Note 11"
-      },
+			"device": {
+				"zh": "Redmi Note 11 国际版",
+				"en": "Redmi Note 11"
+			},
 			"idtag": "LMMS",
 			"tag": "LMMS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["movistar"],
+			"carrier": [
+				"movistar"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

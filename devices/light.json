@@ -5,11 +5,15 @@
 		"en": "Redmi 10 5G/Redmi 11 Prime 5G/Redmi Note 11E/POCO M4 5G"
 	},
 	"code": "LS",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,29 @@
 			},
 			"branchCode": "light",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11E",
-        "en" :"Redmi Note 11E"
-      },
+			"device": {
+				"zh": "Redmi Note 11E",
+				"en": "Redmi Note 11E"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile",
+				"cnunicom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -71,16 +88,24 @@
 			},
 			"branchCode": "light_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -108,16 +133,24 @@
 			},
 			"branchCode": "light_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -166,16 +199,24 @@
 			},
 			"branchCode": "light_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -231,16 +272,24 @@
 			},
 			"branchCode": "light_eea_hg_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -289,16 +338,24 @@
 			},
 			"branchCode": "light_eea_ti_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "EUTI",
 			"tag": "EUTI",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -319,16 +376,24 @@
 			},
 			"branchCode": "light_eea_sf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -363,16 +428,24 @@
 			},
 			"branchCode": "light_eea_or_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -435,16 +508,24 @@
 			},
 			"branchCode": "light_eea_tf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -507,16 +588,24 @@
 			},
 			"branchCode": "light_eea_vf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -579,16 +668,24 @@
 			},
 			"branchCode": "light_ru_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -616,16 +713,24 @@
 			},
 			"branchCode": "light_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 11 Prime 5G / POCO M4 5G",
-        "en" :"Redmi 11 Prime 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 11 Prime 5G / POCO M4 5G",
+				"en": "Redmi 11 Prime 5G / POCO M4 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -660,16 +765,24 @@
 			},
 			"branchCode": "light_id_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -711,16 +824,24 @@
 			},
 			"branchCode": "light_tr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -741,16 +862,24 @@
 			},
 			"branchCode": "light_lm_cr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -813,16 +942,24 @@
 			},
 			"branchCode": "light_cl_en_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -843,16 +980,24 @@
 			},
 			"branchCode": "light_th_as_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 10 5G / POCO M4 5G",
-        "en" :"Redmi 10 5G / POCO M4 5G"
-      },
+			"device": {
+				"zh": "Redmi 10 5G / POCO M4 5G",
+				"en": "Redmi 10 5G / POCO M4 5G"
+			},
 			"idtag": "THAS",
 			"tag": "THAS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["as"],
+			"carrier": [
+				"as"
+			],
 			"region": "th",
 			"zone": "2",
 			"ep": "0",

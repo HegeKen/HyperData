@@ -1,15 +1,19 @@
 {
-  "device": "miro",
-  "name": {
-    "zh": "REDMI K80 Pro / POCO F7 Ultra",
-    "en": "REDMI K80 Pro / POCO F7 Ultra"
-  },
+	"device": "miro",
+	"name": {
+		"zh": "REDMI K80 Pro / POCO F7 Ultra",
+		"en": "REDMI K80 Pro / POCO F7 Ultra"
+	},
 	"code": "OM",
-	"suppports": ["OS2.0"],
-	"android": ["15.0"],
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -19,15 +23,27 @@
 			"branchCode": "miro",
 			"brand": "REDMI",
 			"device": {
-				"zh" :"REDMI K80 Pro",
-				"en" :"REDMI K80 Pro"
+				"zh": "REDMI K80 Pro",
+				"en": "REDMI K80 Pro"
 			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -138,7 +154,7 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
@@ -146,16 +162,28 @@
 			"branchCode": "miro_demo",
 			"brand": "REDMI",
 			"device": {
-				"zh" :"REDMI K80 Pro",
-				"en" :"REDMI K80 Pro"
+				"zh": "REDMI K80 Pro",
+				"en": "REDMI K80 Pro"
 			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -201,15 +229,23 @@
 			"branchCode": "miro_tw_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO F7 Ultra",
-				"en" :"POCO F7 Ultra"
+				"zh": "POCO F7 Ultra",
+				"en": "POCO F7 Ultra"
 			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -238,15 +274,23 @@
 			"branchCode": "miro_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO F7 Ultra",
-				"en" :"POCO F7 Ultra"
+				"zh": "POCO F7 Ultra",
+				"en": "POCO F7 Ultra"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -282,15 +326,23 @@
 			"branchCode": "miro_eea_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO F7 Ultra",
-				"en" :"POCO F7 Ultra"
+				"zh": "POCO F7 Ultra",
+				"en": "POCO F7 Ultra"
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -326,15 +378,23 @@
 			"branchCode": "miro_ru_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO F7 Ultra",
-				"en" :"POCO F7 Ultra"
+				"zh": "POCO F7 Ultra",
+				"en": "POCO F7 Ultra"
 			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -363,15 +423,23 @@
 			"branchCode": "miro_id_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO F7 Ultra",
-				"en" :"POCO F7 Ultra"
+				"zh": "POCO F7 Ultra",
+				"en": "POCO F7 Ultra"
 			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -407,15 +475,23 @@
 			"branchCode": "miro_tr_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO F7 Ultra",
-				"en" :"POCO F7 Ultra"
+				"zh": "POCO F7 Ultra",
+				"en": "POCO F7 Ultra"
 			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -436,5 +512,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

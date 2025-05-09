@@ -5,11 +5,16 @@
 		"en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
 	},
 	"code": "MO",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,28 @@
 			},
 			"branchCode": "ruby",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ / 探索版",
-        "en" :"Redmi Note 12 Pro / Pro+ / Discovery 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ / 探索版",
+				"en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -153,16 +170,28 @@
 			},
 			"branchCode": "ruby_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ / 探索版",
-        "en" :"Redmi Note 12 Pro / Pro+ / Discovery 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ / 探索版",
+				"en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -192,16 +221,24 @@
 			},
 			"branchCode": "ruby_tw_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -299,16 +336,24 @@
 			},
 			"branchCode": "ruby_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -427,16 +472,24 @@
 			},
 			"branchCode": "ruby_eea_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -548,16 +601,24 @@
 			},
 			"branchCode": "ruby_ru_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -655,16 +716,24 @@
 			},
 			"branchCode": "ruby_in_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -769,16 +838,24 @@
 			},
 			"branchCode": "ruby_id_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -883,16 +960,24 @@
 			},
 			"branchCode": "ruby_tr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -990,16 +1075,24 @@
 			},
 			"branchCode": "ruby_kr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "SKSO",
 			"tag": "KRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -1048,16 +1141,24 @@
 			},
 			"branchCode": "ruby_cl_en_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -1092,16 +1193,24 @@
 			},
 			"branchCode": "ruby_lm_cr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -1171,16 +1280,24 @@
 			},
 			"branchCode": "ruby_lm_ms_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 Pro / Pro+ 5G",
-        "en" :"Redmi Note 12 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 Pro / Pro+ 5G",
+				"en": "Redmi Note 12 Pro / Pro+ 5G"
+			},
 			"idtag": "LMMS",
 			"tag": "LMMS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["movistar"],
+			"carrier": [
+				"movistar"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,17 @@
 		"en": "Redmi Pad Pro / Special Edition featuring Harry Potter / POCO Pad"
 	},
 	"code": "NS",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "tablet",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,28 @@
 			},
 			"branchCode": "dizi",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Pad Pro / 哈利·波特版",
-        "en" :"Redmi Pad Pro / Special Edition featuring Harry Potter"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / 哈利·波特版",
+				"en": "Redmi Pad Pro / Special Edition featuring Harry Potter"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "origin"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"origin"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -161,17 +179,28 @@
 			},
 			"branchCode": "dizi_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Pad Pro / 哈利·波特版",
-        "en" :"Redmi Pad Pro / Special Edition featuring Harry Potter"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / 哈利·波特版",
+				"en": "Redmi Pad Pro / Special Edition featuring Harry Potter"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -198,16 +227,25 @@
 			},
 			"branchCode": "dizi_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro / POCO Pad",
-        "en" :"Redmi Pad Pro / POCO Pad"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / POCO Pad",
+				"en": "Redmi Pad Pro / POCO Pad"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "origin"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"origin"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -301,16 +339,25 @@
 			},
 			"branchCode": "dizi_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro / POCO Pad",
-        "en" :"Redmi Pad Pro / POCO Pad"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / POCO Pad",
+				"en": "Redmi Pad Pro / POCO Pad"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "origin"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"origin"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -404,16 +451,24 @@
 			},
 			"branchCode": "dizi_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro / POCO Pad",
-        "en" :"Redmi Pad Pro / POCO Pad"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / POCO Pad",
+				"en": "Redmi Pad Pro / POCO Pad"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -490,16 +545,25 @@
 			},
 			"branchCode": "dizi_ru_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro / POCO Pad",
-        "en" :"Redmi Pad Pro / POCO Pad"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / POCO Pad",
+				"en": "Redmi Pad Pro / POCO Pad"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "origin"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"origin"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -585,16 +649,24 @@
 			},
 			"branchCode": "dizi_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro / POCO Pad",
-        "en" :"Redmi Pad Pro / POCO Pad"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / POCO Pad",
+				"en": "Redmi Pad Pro / POCO Pad"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -671,16 +743,25 @@
 			},
 			"branchCode": "dizi_id_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro / POCO Pad",
-        "en" :"Redmi Pad Pro / POCO Pad"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / POCO Pad",
+				"en": "Redmi Pad Pro / POCO Pad"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "origin"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"origin"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -774,16 +855,24 @@
 			},
 			"branchCode": "dizi_tr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro / POCO Pad",
-        "en" :"Redmi Pad Pro / POCO Pad"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro / POCO Pad",
+				"en": "Redmi Pad Pro / POCO Pad"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

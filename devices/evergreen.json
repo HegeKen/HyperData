@@ -5,11 +5,15 @@
 		"en": "POCO M4 Pro 5G"
 	},
 	"code": "GB",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,24 @@
 			},
 			"branchCode": "evergreen_tw_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M4 Pro 5G",
-        "en" :"POCO M4 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO M4 Pro 5G",
+				"en": "POCO M4 Pro 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -48,16 +60,24 @@
 			},
 			"branchCode": "evergreen_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M4 Pro 5G",
-        "en" :"POCO M4 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO M4 Pro 5G",
+				"en": "POCO M4 Pro 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -78,16 +98,24 @@
 			},
 			"branchCode": "evergreen_eea_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M4 Pro 5G",
-        "en" :"POCO M4 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO M4 Pro 5G",
+				"en": "POCO M4 Pro 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -115,16 +143,24 @@
 			},
 			"branchCode": "evergreen_ru_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M4 Pro 5G",
-        "en" :"POCO M4 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO M4 Pro 5G",
+				"en": "POCO M4 Pro 5G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -145,16 +181,24 @@
 			},
 			"branchCode": "evergreen_tr_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M4 Pro 5G",
-        "en" :"POCO M4 Pro 5G"
-      },
+			"device": {
+				"zh": "POCO M4 Pro 5G",
+				"en": "POCO M4 Pro 5G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

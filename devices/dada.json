@@ -1,15 +1,20 @@
 {
-  "device": "dada",
-  "name": {
-    "zh": "小米 15",
-    "en": "Xiaomi 15"
-  },
+	"device": "dada",
+	"name": {
+		"zh": "小米 15",
+		"en": "Xiaomi 15"
+	},
 	"code": "OC",
-	"suppports": ["OS2.0"],
-	"android": ["15.0", "16.0"],
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0",
+		"16.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,27 @@
 			},
 			"branchCode": "dada",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -139,28 +155,42 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
 			"branchCode": "dada",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
-			"previous":["dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_chinatelecom_8abe24c311.tgz",
-									"dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_chinatelecom_346b0a946b.tgz"],
+			"previous": [
+				"dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_chinatelecom_8abe24c311.tgz",
+				"dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_chinatelecom_346b0a946b.tgz"
+			],
 			"roms": {
 				"OS2.0.116.0.VOCCNXM": {
 					"os": "OS2.0.116.0.VOCCNXM",
@@ -331,17 +361,28 @@
 			},
 			"branchCode": "dada_pre_dpp",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "ADPC",
 			"tag": "",
 			"url": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -362,16 +403,28 @@
 			},
 			"branchCode": "dada_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -401,17 +454,29 @@
 			},
 			"branchCode": "dada_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -472,16 +537,24 @@
 			},
 			"branchCode": "dada_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -509,16 +582,24 @@
 			},
 			"branchCode": "dada_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -560,16 +641,24 @@
 			},
 			"branchCode": "dada_dc_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -611,17 +700,25 @@
 			},
 			"branchCode": "dada_pre_dpp_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "ADPG",
 			"tag": "",
 			"url": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "1",
 			"ep": "0",
@@ -642,16 +739,24 @@
 			},
 			"branchCode": "dada_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -686,16 +791,24 @@
 			},
 			"branchCode": "dada_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -723,16 +836,24 @@
 			},
 			"branchCode": "dada_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -760,16 +881,24 @@
 			},
 			"branchCode": "dada_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -797,16 +926,24 @@
 			},
 			"branchCode": "dada_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "IDDM",
 			"tag": "IDDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -827,16 +964,24 @@
 			},
 			"branchCode": "dada_lm_cr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15",
-        "en": "Xiaomi 15"
-      },
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -857,5 +1002,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

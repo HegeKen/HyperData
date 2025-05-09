@@ -5,11 +5,17 @@
 		"en": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G"
 	},
 	"code": "NQ",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,28 @@
 			},
 			"branchCode": "gold",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13 5G / 13R Pro",
-        "en" :"Redmi Note 13 5G / 13R Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / 13R Pro",
+				"en": "Redmi Note 13 5G / 13R Pro"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -137,16 +155,28 @@
 			},
 			"branchCode": "gold_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13 5G / 13R Pro",
-        "en" :"Redmi Note 13 5G / 13R Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / 13R Pro",
+				"en": "Redmi Note 13 5G / 13R Pro"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -200,7 +230,7 @@
 					"ctelecom": "gold_ep_stdee_images_OS1.0.24.7.9.1.EP.STDEE.N17_20240709.0000.00_14.0_cn_chinatelecom_34e3a5c4f5.tgz"
 				}
 			}
-		},	
+		},
 		{
 			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
@@ -208,17 +238,29 @@
 			},
 			"branchCode": "gold_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13 5G / 13R Pro",
-        "en" :"Redmi Note 13 5G / 13R Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / 13R Pro",
+				"en": "Redmi Note 13 5G / 13R Pro"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -239,16 +281,24 @@
 			},
 			"branchCode": "gold_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -339,16 +389,24 @@
 			},
 			"branchCode": "gold_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -453,16 +511,24 @@
 			},
 			"branchCode": "gold_dc_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -511,16 +577,24 @@
 			},
 			"branchCode": "gold_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -639,16 +713,24 @@
 			},
 			"branchCode": "gold_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -753,16 +835,24 @@
 			},
 			"branchCode": "gold_id_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -853,16 +943,24 @@
 			},
 			"branchCode": "gold_tr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -953,16 +1051,24 @@
 			},
 			"branchCode": "gold_gt_tg_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "GTTG",
 			"tag": "GTTG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tg"],
+			"carrier": [
+				"tg"
+			],
 			"region": "gt",
 			"zone": "2",
 			"ep": "0",
@@ -997,16 +1103,24 @@
 			},
 			"branchCode": "gold_lm_cr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Note 13 5G / POCO X6 Neo 5G",
-        "en" :"Redmi Note 13 5G / POCO X6 Neo 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13 5G / POCO X6 Neo 5G",
+				"en": "Redmi Note 13 5G / POCO X6 Neo 5G"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,17 @@
 		"en": "Redmi Pad Pro 5G / POCO Pad 5G"
 	},
 	"code": "FS",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "tablet",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,28 @@
 			},
 			"branchCode": "ruan",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Pad Pro 5G",
-        "en" :"Redmi Pad Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro 5G",
+				"en": "Redmi Pad Pro 5G"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -121,17 +139,29 @@
 			},
 			"branchCode": "ruan_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Pad Pro 5G",
-        "en" :"Redmi Pad Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro 5G",
+				"en": "Redmi Pad Pro 5G"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -152,16 +182,28 @@
 			},
 			"branchCode": "ruan_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Pad Pro 5G",
-        "en" :"Redmi Pad Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro 5G",
+				"en": "Redmi Pad Pro 5G"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -191,16 +233,24 @@
 			},
 			"branchCode": "ruan_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro 5G / POCO Pad 5G",
-        "en" :"Redmi Pad Pro 5G / POCO Pad 5G"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro 5G / POCO Pad 5G",
+				"en": "Redmi Pad Pro 5G / POCO Pad 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -277,16 +327,24 @@
 			},
 			"branchCode": "ruan_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro 5G / POCO Pad 5G",
-        "en" :"Redmi Pad Pro 5G / POCO Pad 5G"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro 5G / POCO Pad 5G",
+				"en": "Redmi Pad Pro 5G / POCO Pad 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -363,16 +421,24 @@
 			},
 			"branchCode": "ruan_ru_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro 5G / POCO Pad 5G",
-        "en" :"Redmi Pad Pro 5G / POCO Pad 5G"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro 5G / POCO Pad 5G",
+				"en": "Redmi Pad Pro 5G / POCO Pad 5G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -435,16 +501,24 @@
 			},
 			"branchCode": "ruan_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi Pad Pro 5G / POCO Pad 5G",
-        "en" :"Redmi Pad Pro 5G / POCO Pad 5G"
-      },
+			"device": {
+				"zh": "Redmi Pad Pro 5G / POCO Pad 5G",
+				"en": "Redmi Pad Pro 5G / POCO Pad 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

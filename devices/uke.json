@@ -1,15 +1,19 @@
 {
-  "device": "uke",
-  "name": {
-    "zh": "小米平板7",
-    "en": "Xiaomi Pad 7"
-  },
+	"device": "uke",
+	"name": {
+		"zh": "小米平板7",
+		"en": "Xiaomi Pad 7"
+	},
 	"code": "OZ",
-	"suppports": ["OS2.0"],
-	"android": ["15.0"],
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
 	"type": "tablet",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,27 @@
 			},
 			"branchCode": "uke",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -41,23 +56,34 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
 			"branchCode": "uke",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -134,17 +160,28 @@
 			},
 			"branchCode": "uke_demo",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -171,16 +208,24 @@
 			},
 			"branchCode": "uke_tw_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -215,16 +260,24 @@
 			},
 			"branchCode": "uke_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -259,16 +312,24 @@
 			},
 			"branchCode": "uke_eea_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -303,16 +364,24 @@
 			},
 			"branchCode": "uke_ru_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -347,16 +416,24 @@
 			},
 			"branchCode": "uke_in_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -391,16 +468,24 @@
 			},
 			"branchCode": "uke_id_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -435,16 +520,24 @@
 			},
 			"branchCode": "uke_tr_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米平板7",
 				"en": "Xiaomi Pad 7"
-      },
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -472,5 +565,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

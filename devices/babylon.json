@@ -5,11 +5,17 @@
 		"en": "Xiaomi MIX Fold 3"
 	},
 	"code": "MV",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "foldable",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,27 @@
 			},
 			"branchCode": "babylon",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Fold 3",
-        "en" :"Xiaomi MIX Fold 3"
-      },
+			"device": {
+				"zh": "小米 MIX Fold 3",
+				"en": "Xiaomi MIX Fold 3"
+			},
 			"idtag": "Dev",
 			"tag": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -272,19 +289,31 @@
 			},
 			"branchCode": "babylon",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Fold 3",
-        "en" :"Xiaomi MIX Fold 3"
-      },
+			"device": {
+				"zh": "小米 MIX Fold 3",
+				"en": "Xiaomi MIX Fold 3"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"roms": {
 				"OS2.0.109.0.VMVCNXM": {
 					"os": "OS2.0.109.0.VMVCNXM",
@@ -423,17 +452,29 @@
 			},
 			"branchCode": "babylon_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Fold 3",
-        "en" :"Xiaomi MIX Fold 3"
-      },
+			"device": {
+				"zh": "小米 MIX Fold 3",
+				"en": "Xiaomi MIX Fold 3"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -462,16 +503,28 @@
 			},
 			"branchCode": "babylon_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 MIX Fold 3",
-        "en" :"Xiaomi MIX Fold 3"
-      },
+			"device": {
+				"zh": "小米 MIX Fold 3",
+				"en": "Xiaomi MIX Fold 3"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",

@@ -5,11 +5,17 @@
 		"en": "Redmi Pad SE"
 	},
 	"code": "MU",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "tablet",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,28 @@
 			},
 			"branchCode": "xun",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -97,16 +115,28 @@
 			},
 			"branchCode": "xun_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -144,17 +174,29 @@
 			},
 			"branchCode": "xun_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -175,16 +217,24 @@
 			},
 			"branchCode": "xun_tw_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -233,16 +283,24 @@
 			},
 			"branchCode": "xun_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -319,16 +377,24 @@
 			},
 			"branchCode": "xun_eea_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -405,16 +471,24 @@
 			},
 			"branchCode": "xun_ru_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -477,16 +551,24 @@
 			},
 			"branchCode": "xun_in_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -535,16 +617,24 @@
 			},
 			"branchCode": "xun_id_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -607,16 +697,24 @@
 			},
 			"branchCode": "xun_tr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 平板 SE",
-        "en" :"Redmi Pad SE"
-      },
+			"device": {
+				"zh": "Redmi 平板 SE",
+				"en": "Redmi Pad SE"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

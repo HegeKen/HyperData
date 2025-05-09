@@ -5,11 +5,15 @@
 		"en": "Redmi K40S / POCO F4"
 	},
 	"code": "LM",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,28 @@
 			},
 			"branchCode": "munch",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K40S",
-        "en" :"Redmi K40S"
-      },
+			"device": {
+				"zh": "Redmi K40S",
+				"en": "Redmi K40S"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -97,16 +113,24 @@
 			},
 			"branchCode": "munch_tw_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F4",
-        "en" :"POCO F4"
-      },
+			"device": {
+				"zh": "POCO F4",
+				"en": "POCO F4"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -162,16 +186,24 @@
 			},
 			"branchCode": "munch_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F4",
-        "en" :"POCO F4"
-      },
+			"device": {
+				"zh": "POCO F4",
+				"en": "POCO F4"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -234,16 +266,24 @@
 			},
 			"branchCode": "munch_eea_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F4",
-        "en" :"POCO F4"
-      },
+			"device": {
+				"zh": "POCO F4",
+				"en": "POCO F4"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -306,16 +346,24 @@
 			},
 			"branchCode": "munch_ru_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F4",
-        "en" :"POCO F4"
-      },
+			"device": {
+				"zh": "POCO F4",
+				"en": "POCO F4"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -371,16 +419,24 @@
 			},
 			"branchCode": "munch_in_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F4",
-        "en" :"POCO F4"
-      },
+			"device": {
+				"zh": "POCO F4",
+				"en": "POCO F4"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -443,16 +499,24 @@
 			},
 			"branchCode": "munch_id_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F4",
-        "en" :"POCO F4"
-      },
+			"device": {
+				"zh": "POCO F4",
+				"en": "POCO F4"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -515,16 +579,24 @@
 			},
 			"branchCode": "munch_tr_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F4",
-        "en" :"POCO F4"
-      },
+			"device": {
+				"zh": "POCO F4",
+				"en": "POCO F4"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

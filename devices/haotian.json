@@ -1,15 +1,19 @@
 {
-  "device": "haotian",
-  "name": {
-    "zh": "小米 15 Pro",
-    "en": "Xiaomi 15 Pro"
-  },
+	"device": "haotian",
+	"name": {
+		"zh": "小米 15 Pro",
+		"en": "Xiaomi 15 Pro"
+	},
 	"code": "OB",
-	"suppports": ["OS2.0"],
-	"android": ["15.0"],
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,27 @@
 			},
 			"branchCode": "haotian",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15 Pro",
-        "en": "Xiaomi 15 Pro"
-      },
+			"device": {
+				"zh": "小米 15 Pro",
+				"en": "Xiaomi 15 Pro"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -139,28 +154,42 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
 			"branchCode": "haotian",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15 Pro",
-        "en": "Xiaomi 15 Pro"
-      },
+			"device": {
+				"zh": "小米 15 Pro",
+				"en": "Xiaomi 15 Pro"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
-			"previous":["haotian_images_OS2.0.12.0.VOBCNXM_20241026.0000.00_15.0_cn_chinatelecom_67a4eddfc1.tgz",
-									"haotian_images_OS2.0.12.0.VOBCNXM_20241026.0000.00_15.0_cn_chinatelecom_4f1d234d20.tgz"],
+			"previous": [
+				"haotian_images_OS2.0.12.0.VOBCNXM_20241026.0000.00_15.0_cn_chinatelecom_67a4eddfc1.tgz",
+				"haotian_images_OS2.0.12.0.VOBCNXM_20241026.0000.00_15.0_cn_chinatelecom_4f1d234d20.tgz"
+			],
 			"roms": {
 				"OS2.0.117.0.VOBCNXM": {
 					"os": "OS2.0.117.0.VOBCNXM",
@@ -339,17 +368,29 @@
 			},
 			"branchCode": "haotian_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15 Pro",
-        "en": "Xiaomi 15 Pro"
-      },
+			"device": {
+				"zh": "小米 15 Pro",
+				"en": "Xiaomi 15 Pro"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -403,5 +444,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

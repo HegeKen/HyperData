@@ -5,11 +5,15 @@
 		"en": "Xiaomi Civi 1S"
 	},
 	"code": "LP",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,29 @@
 			},
 			"branchCode": "zijin",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 Civi 1S",
-        "en" :"Xiaomi Civi 1S"
-      },
+			"device": {
+				"zh": "小米 Civi 1S",
+				"en": "Xiaomi Civi 1S"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -95,15 +112,15 @@
 					"ctelecom": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_chinatelecom_a4506ab029.tgz",
 					"cnmobile": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_chinamobile_74b1e24ad1.tgz"
 				},
-        "OS1.0.1.0.ULPCNXM": {
-          "os": "OS1.0.1.0.ULPCNXM",
-          "android": "14.0",
-          "release": "2024-02-28",
-          "recovery": "miui_ZIJIN_OS1.0.1.0.ULPCNXM_356a223b5b_14.0.zip",
-          "fastboot": "",
+				"OS1.0.1.0.ULPCNXM": {
+					"os": "OS1.0.1.0.ULPCNXM",
+					"android": "14.0",
+					"release": "2024-02-28",
+					"recovery": "miui_ZIJIN_OS1.0.1.0.ULPCNXM_356a223b5b_14.0.zip",
+					"fastboot": "",
 					"ctelecom": "",
 					"cnmobile": ""
-        }
+				}
 			}
 		}
 	]

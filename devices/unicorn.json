@@ -5,11 +5,17 @@
 		"en": "Xiaomi 12S Pro"
 	},
 	"code": "LE",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,27 @@
 			},
 			"branchCode": "unicorn",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12S Pro",
-        "en" :"Xiaomi 12S Pro"
-      },
+			"device": {
+				"zh": "小米 12S Pro",
+				"en": "Xiaomi 12S Pro"
+			},
 			"idtag": "Dev",
 			"tag": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -258,20 +275,40 @@
 			},
 			"branchCode": "unicorn",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12S Pro",
-        "en" :"Xiaomi 12S Pro"
-      },
+			"device": {
+				"zh": "小米 12S Pro",
+				"en": "Xiaomi 12S Pro"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.8.0.VLECNXM": {
+					"os": "OS2.0.8.0.VLECNXM",
+					"android": "15.0",
+					"release": "2025-05-08",
+					"recovery": "unicorn-ota_full-OS2.0.8.0.VLECNXM-user-15.0-e4e573788e.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.7.0.VLECNXM": {
 					"os": "OS2.0.7.0.VLECNXM",
 					"android": "15.0",

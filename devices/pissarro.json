@@ -5,11 +5,15 @@
 		"en": "Redmi Note 11 Pro/Pro+/Pro+ 5G"
 	},
 	"code": "KT",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,28 @@
 			},
 			"branchCode": "pissarro",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro / Pro+ 5G",
-        "en" :"Redmi Note 11 Pro / Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro / Pro+ 5G",
+				"en": "Redmi Note 11 Pro / Pro+ 5G"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -105,16 +121,24 @@
 			},
 			"branchCode": "pissarro_tw_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro+ 5G",
-        "en" :"Redmi Note 11 Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro+ 5G",
+				"en": "Redmi Note 11 Pro+ 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -184,16 +208,24 @@
 			},
 			"branchCode": "pissarro_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro+ 5G",
-        "en" :"Redmi Note 11 Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro+ 5G",
+				"en": "Redmi Note 11 Pro+ 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -277,16 +309,24 @@
 			},
 			"branchCode": "pissarro_eea_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro+ 5G",
-        "en" :"Redmi Note 11 Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro+ 5G",
+				"en": "Redmi Note 11 Pro+ 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -370,16 +410,24 @@
 			},
 			"branchCode": "pissarro_ru_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro+ 5G",
-        "en" :"Redmi Note 11 Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro+ 5G",
+				"en": "Redmi Note 11 Pro+ 5G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -456,16 +504,24 @@
 			},
 			"branchCode": "pissarro_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i / Hypercharge",
-        "en" :"Xiaomi 11i / Hypercharge"
-      },
+			"device": {
+				"zh": "小米 11i / Hypercharge",
+				"en": "Xiaomi 11i / Hypercharge"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -535,16 +591,24 @@
 			},
 			"branchCode": "pissarro_tr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11 Pro+ 5G",
-        "en" :"Redmi Note 11 Pro+ 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 11 Pro+ 5G",
+				"en": "Redmi Note 11 Pro+ 5G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

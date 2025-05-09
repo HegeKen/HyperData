@@ -5,11 +5,17 @@
 		"en": "Xiaomi 14 Ultra"
 	},
 	"code": "NA",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,27 @@
 			},
 			"branchCode": "aurora",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -132,16 +149,28 @@
 			},
 			"branchCode": "aurora",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -363,16 +392,28 @@
 			},
 			"branchCode": "aurora_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -394,16 +435,27 @@
 			},
 			"branchCode": "aurora",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "D",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -424,17 +476,29 @@
 			},
 			"branchCode": "aurora_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -455,16 +519,24 @@
 			},
 			"branchCode": "aurora_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -555,16 +627,24 @@
 			},
 			"branchCode": "aurora_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -662,16 +742,24 @@
 			},
 			"branchCode": "aurora_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -769,16 +857,24 @@
 			},
 			"branchCode": "aurora_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -855,16 +951,24 @@
 			},
 			"branchCode": "aurora_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -948,16 +1052,24 @@
 			},
 			"branchCode": "aurora_tr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Ultra / Ultra Ti",
-        "en" :"Xiaomi 14 Ultra"
-      },
+			"device": {
+				"zh": "小米 14 Ultra / Ultra Ti",
+				"en": "Xiaomi 14 Ultra"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

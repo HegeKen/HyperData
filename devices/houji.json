@@ -5,11 +5,18 @@
 		"en": "Xiaomi 14"
 	},
 	"code": "NC",
-	"suppports": ["OS1.0", "OS1.1", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS1.1",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +25,27 @@
 			},
 			"branchCode": "houji",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -125,19 +143,31 @@
 			},
 			"branchCode": "houji",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"roms": {
 				"OS2.0.109.0.VNCCNXM": {
 					"os": "OS2.0.109.0.VNCCNXM",
@@ -372,17 +402,30 @@
 			},
 			"branchCode": "houji_pre_dpp",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "ADPC",
 			"tag": "",
 			"url": "https://www.xiaomi.cn/post/44582045",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"originrec",
+				"originfb"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -394,7 +437,7 @@
 					"recovery": "miui_HOUJIPREDPP_OS1.0.240808.1.VNCCNXMPRE-DPP_90a0aa1332_15.0.zip",
 					"fastboot": "houji_pre_dpp_images_OS1.0.240808.1.VNCCNXMPRE-DPP_20240808.0000.00_15.0_cn_b756c137ee.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPP_OS1.0.240808.1.VNCCNXMPRE-DPP_90a0aa1332_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=k35TN2WMVom3hRqBmssIvel++e4=",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_OS1.0.240808.1.VNCCNXMPRE-DPP_20240808.0000.00_15.0_cn_b756c137ee.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=z4Zyzqf81+khh6CtP8KRMW6wp5c="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_OS1.0.240808.1.VNCCNXMPRE-DPP_20240808.0000.00_15.0_cn_b756c137ee.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=z4Zyzqf81+khh6CtP8KRMW6wp5c="
 				},
 				"OS1.0.240705.2.VNCCNXM.PRE-DPP": {
 					"os": "OS1.0.240705.2.VNCCNXM.PRE-DPP",
@@ -403,7 +446,7 @@
 					"recovery": "miui_HOUJIPREDPP_OS1.0.240705.2.VNCCNXM.PRE-DPP_403935c335_15.0.zip",
 					"fastboot": "houji_pre_dpp_images_OS1.0.240705.2.VNCCNXM.PRE-DPP_20240705.0000.00_15.0_cn_ef77bdf05b.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPP_OS1.0.240705.2.VNCCNXM.PRE-DPP_403935c335_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=srBgKiXourL1A7d1QFqGKhmSzTc=",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_OS1.0.240705.2.VNCCNXM.PRE-DPP_20240705.0000.00_15.0_cn_ef77bdf05b.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=yclkKUF7vUEMciKiGNxxj1kG/Js="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_OS1.0.240705.2.VNCCNXM.PRE-DPP_20240705.0000.00_15.0_cn_ef77bdf05b.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=yclkKUF7vUEMciKiGNxxj1kG/Js="
 				},
 				"OS1.0.240520.1.VNCCNXM.PRE-DPP": {
 					"os": "OS1.0.240520.1.VNCCNXM.PRE-DPP",
@@ -412,7 +455,7 @@
 					"recovery": "miui_HOUJIPREDPP_OS1.0.240520.1.VNCCNXM.PRE-DPP_f67f17f6e5_15.0.zip",
 					"fastboot": "",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPP_OS1.0.240520.1.VNCCNXM.PRE-DPP_f67f17f6e5_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=di60Po1O68yfc/6IdHYFUtPM7Gk=",
-					"originfb":""
+					"originfb": ""
 				},
 				"24.5.8": {
 					"os": "24.5.8",
@@ -421,7 +464,7 @@
 					"recovery": "",
 					"fastboot": "houji_pre_dpp_images_24.5.8_20240507.0000.00_15.0_cn_fa93012c4a.tgz",
 					"originrec": "",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_24.5.8_20240507.0000.00_15.0_cn_fa93012c4a.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=40TA3YX55ERUwIEgRdCxlZrKDUc="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_24.5.8_20240507.0000.00_15.0_cn_fa93012c4a.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=40TA3YX55ERUwIEgRdCxlZrKDUc="
 				}
 			}
 		},
@@ -432,17 +475,27 @@
 			},
 			"branchCode": "houji_pre_dpp_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "ADPG",
 			"tag": "",
 			"url": "https://new.c.mi.com/global/post/951812",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"originrec",
+				"originfb"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "1",
 			"ep": "0",
@@ -454,7 +507,7 @@
 					"recovery": "miui_HOUJIPREDPPGlobal_OS1.0.240705.2.VNCMIXM.PRE-DPP_90397443d7_15.0.zip",
 					"fastboot": "houji_pre_dpp_global_images_OS1.0.240705.2.VNCMIXM.PRE-DPP_20240705.0000.00_15.0_global_57d7a02fd5.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPPGlobal_OS1.0.240705.2.VNCMIXM.PRE-DPP_90397443d7_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=ooS0GjEO292/Y3QCLIADGD4Y7i0=",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_global_images_OS1.0.240705.2.VNCMIXM.PRE-DPP_20240705.0000.00_15.0_global_57d7a02fd5.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=/rOc/rXUy1utBwJ62iVDcd61eUc="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_global_images_OS1.0.240705.2.VNCMIXM.PRE-DPP_20240705.0000.00_15.0_global_57d7a02fd5.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=/rOc/rXUy1utBwJ62iVDcd61eUc="
 				},
 				"OS1.0.240516.1.VNCMIXM.PRE-DPP": {
 					"os": "OS1.0.240516.1.VNCMIXM.PRE-DPP",
@@ -463,7 +516,7 @@
 					"recovery": "miui_HOUJIPREDPPGlobal_OS1.0.240516.1.VNCMIXM.PRE-DPP_a552800433_15.0.zip",
 					"fastboot": "",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPPGlobal_OS1.0.240516.1.VNCMIXM.PRE-DPP_a552800433_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=MbUU5ci4w+keWAv3+a2gqXTllW8=",
-					"originfb":""
+					"originfb": ""
 				},
 				"24.5.10": {
 					"os": "24.5.10",
@@ -472,7 +525,7 @@
 					"recovery": "",
 					"fastboot": "houji_pre_dpp_global_images_24.5.10_20240509.0000.00_15.0_global_c0a981b778.tgz",
 					"originrec": "",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_global_images_24.5.10_20240509.0000.00_15.0_global_c0a981b778.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=oTsVlFKGH5S9oY0EX6+Z9GyG4ek="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_global_images_24.5.10_20240509.0000.00_15.0_global_c0a981b778.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=oTsVlFKGH5S9oY0EX6+Z9GyG4ek="
 				}
 			}
 		},
@@ -483,16 +536,27 @@
 			},
 			"branchCode": "houji",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "Beta",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -534,16 +598,27 @@
 			},
 			"branchCode": "houji",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "Dev",
 			"tag": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -893,16 +968,28 @@
 			},
 			"branchCode": "houji_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -972,16 +1059,28 @@
 			},
 			"branchCode": "houji_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -1026,7 +1125,6 @@
 					"fastboot": "houji_ep_stdee_images_OS1.0.24.1.16.EP.STDEE.N3_20240116.0000.00_14.0_cn_2b1c0dc822.tgz",
 					"ctelecom": "houji_ep_stdee_images_OS1.0.24.1.16.EP.STDEE.N3_20240116.0000.00_14.0_cn_chinatelecom_ed067b9d13.tgz"
 				},
-				
 				"OS1.0.23.12.21.EP.STDEE.N3": {
 					"os": "OS1.0.23.12.21.EP.STDEE.N3",
 					"android": "14.0",
@@ -1044,16 +1142,24 @@
 			},
 			"branchCode": "houji_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -1144,16 +1250,24 @@
 			},
 			"branchCode": "houji_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -1258,16 +1372,24 @@
 			},
 			"branchCode": "houji_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -1365,16 +1487,24 @@
 			},
 			"branchCode": "houji_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -1451,16 +1581,24 @@
 			},
 			"branchCode": "houji_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -1544,16 +1682,24 @@
 			},
 			"branchCode": "houji_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -1637,16 +1783,24 @@
 			},
 			"branchCode": "houji_tr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14",
-        "en" :"Xiaomi 14"
-      },
+			"device": {
+				"zh": "小米 14",
+				"en": "Xiaomi 14"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

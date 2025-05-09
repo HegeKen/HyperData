@@ -5,11 +5,15 @@
 		"en": "Xiaomi 11T"
 	},
 	"code": "KW",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,24 @@
 			},
 			"branchCode": "agate_tw_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -104,16 +116,24 @@
 			},
 			"branchCode": "agate_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -218,16 +238,24 @@
 			},
 			"branchCode": "agate_eea_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -318,16 +346,24 @@
 			},
 			"branchCode": "agate_eea_hg_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -390,16 +426,24 @@
 			},
 			"branchCode": "agate_eea_or_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -469,16 +513,24 @@
 			},
 			"branchCode": "agate_eea_vf_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -541,16 +593,24 @@
 			},
 			"branchCode": "agate_eea_ti_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "EUTI",
 			"tag": "EUTI",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -571,16 +631,24 @@
 			},
 			"branchCode": "agate_eea_sf_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -615,16 +683,24 @@
 			},
 			"branchCode": "agate_eea_tf_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -687,16 +763,24 @@
 			},
 			"branchCode": "agate_eea_by_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "EUBY",
 			"tag": "EUBY",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -731,16 +815,24 @@
 			},
 			"branchCode": "agate_ru_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -817,16 +909,24 @@
 			},
 			"branchCode": "agate_id_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -836,7 +936,7 @@
 					"android": "14.0",
 					"release": "2025-05-04",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.11.0.UKWIDXM_e97eaffbe1_14.0.zip",
-					"fastboot": ""
+					"fastboot": "agate_id_global_images_OS1.0.11.0.UKWIDXM_20250422.0000.00_14.0_id_43986c291f.tgz"
 				},
 				"OS1.0.10.0.UKWIDXM": {
 					"os": "OS1.0.10.0.UKWIDXM",
@@ -910,16 +1010,24 @@
 			},
 			"branchCode": "agate_tr_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -996,16 +1104,24 @@
 			},
 			"branchCode": "agate_cl_en_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -1040,16 +1156,24 @@
 			},
 			"branchCode": "agate_mx_at_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 11T",
 				"en": "Xiaomi 11T"
-      },
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,15 @@
 		"en": "Redmi Note 11R"
 	},
 	"code": "LS",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,29 @@
 			},
 			"branchCode": "lightcm",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 11R",
-        "en" :"Redmi Note 11R"
-      },
+			"device": {
+				"zh": "Redmi Note 11R",
+				"en": "Redmi Note 11R"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile",
+				"cnunicom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",

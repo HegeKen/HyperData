@@ -5,11 +5,17 @@
 		"en": "Redmi 13 / POCO M6 4G"
 	},
 	"code": "NT",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,24 @@
 			},
 			"branchCode": "moon_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -90,16 +104,24 @@
 			},
 			"branchCode": "moon_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -197,16 +219,24 @@
 			},
 			"branchCode": "moon_dc_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -255,16 +285,24 @@
 			},
 			"branchCode": "moon_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -341,16 +379,24 @@
 			},
 			"branchCode": "moon_ru_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -420,16 +466,24 @@
 			},
 			"branchCode": "moon_id_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -506,16 +560,24 @@
 			},
 			"branchCode": "moon_id_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "IDDM",
 			"tag": "IDDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -536,16 +598,24 @@
 			},
 			"branchCode": "moon_tr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -615,16 +685,24 @@
 			},
 			"branchCode": "moon_gt_tg_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "GTTG",
 			"tag": "GTTG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tg"],
+			"carrier": [
+				"tg"
+			],
 			"region": "gt",
 			"zone": "2",
 			"ep": "0",
@@ -659,16 +737,24 @@
 			},
 			"branchCode": "moon_mx_at_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -710,16 +796,24 @@
 			},
 			"branchCode": "moon_lm_cr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 / POCO M6 4G",
-        "en" :"Redmi 13 / POCO M6 4G"
-      },
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

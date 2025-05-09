@@ -5,11 +5,16 @@
 		"en": "Xiaomi Pad 5 Pro 12.4"
 	},
 	"code": "LZ",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "tablet",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,27 @@
 			},
 			"branchCode": "dagu",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 5 Pro 12.4",
-        "en" :"Xiaomi Pad 5 Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 5 Pro 12.4",
+				"en": "Xiaomi Pad 5 Pro 12.4"
+			},
 			"idtag": "Dev",
 			"tag": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -251,16 +267,27 @@
 			},
 			"branchCode": "dagu",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 5 Pro 12.4",
-        "en" :"Xiaomi Pad 5 Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 5 Pro 12.4",
+				"en": "Xiaomi Pad 5 Pro 12.4"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -344,16 +371,27 @@
 			},
 			"branchCode": "dagu_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 5 Pro 12.4",
-        "en" :"Xiaomi Pad 5 Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 5 Pro 12.4",
+				"en": "Xiaomi Pad 5 Pro 12.4"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",

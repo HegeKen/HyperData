@@ -5,11 +5,16 @@
 		"en": "Mi 11 LE / Xiaomi 11 Lite 5G NE"
 	},
 	"code": "KO",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,29 @@
 			},
 			"branchCode": "lisa",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 青春活力版",
-        "en" :"Mi 11 LE"
-      },
+			"device": {
+				"zh": "小米 11 青春活力版",
+				"en": "Mi 11 LE"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -140,16 +158,24 @@
 			},
 			"branchCode": "lisa_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -226,16 +252,24 @@
 			},
 			"branchCode": "lisa_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -319,16 +353,24 @@
 			},
 			"branchCode": "lisa_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -419,16 +461,24 @@
 			},
 			"branchCode": "lisa_eea_or_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -491,16 +541,24 @@
 			},
 			"branchCode": "lisa_eea_vf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -563,16 +621,24 @@
 			},
 			"branchCode": "lisa_eea_by_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "EUBY",
 			"tag": "EUBY",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -614,16 +680,24 @@
 			},
 			"branchCode": "lisa_eea_hg_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -672,16 +746,24 @@
 			},
 			"branchCode": "lisa_eea_tf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -730,16 +812,24 @@
 			},
 			"branchCode": "lisa_eea_ti_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "EUTI",
 			"tag": "EUTI",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -760,16 +850,24 @@
 			},
 			"branchCode": "lisa_eea_sf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -811,16 +909,24 @@
 			},
 			"branchCode": "lisa_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -897,16 +1003,24 @@
 			},
 			"branchCode": "lisa_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -990,16 +1104,24 @@
 			},
 			"branchCode": "lisa_tr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -1076,16 +1198,24 @@
 			},
 			"branchCode": "lisa_cl_en_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -1113,16 +1243,24 @@
 			},
 			"branchCode": "lisa_mx_at_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11 Lite 5G NE",
-        "en" :"Xiaomi 11 Lite 5G NE"
-      },
+			"device": {
+				"zh": "小米 11 Lite 5G NE",
+				"en": "Xiaomi 11 Lite 5G NE"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",

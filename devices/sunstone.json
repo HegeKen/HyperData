@@ -5,11 +5,16 @@
 		"en": "Redmi Note 12 5G / Note 12R Pro"
 	},
 	"code": "MQ",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,28 @@
 			},
 			"branchCode": "sunstone",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 5G / Note 12R Pro",
-        "en" :"Redmi Note 12 5G / Note 12R Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 12 5G / Note 12R Pro",
+				"en": "Redmi Note 12 5G / Note 12R Pro"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -81,16 +98,28 @@
 			},
 			"branchCode": "sunstone_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 5G / Note 12R Pro",
-        "en" :"Redmi Note 12 5G / Note 12R Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 12 5G / Note 12R Pro",
+				"en": "Redmi Note 12 5G / Note 12R Pro"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -136,16 +165,24 @@
 			},
 			"branchCode": "sunstone_tw_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 5G",
-        "en" :"Redmi Note 12 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 5G",
+				"en": "Redmi Note 12 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -180,16 +217,24 @@
 			},
 			"branchCode": "sunstone_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 5G",
-        "en" :"Redmi Note 12 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 5G",
+				"en": "Redmi Note 12 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -259,16 +304,24 @@
 			},
 			"branchCode": "sunstone_eea_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 5G",
-        "en" :"Redmi Note 12 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 5G",
+				"en": "Redmi Note 12 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -359,16 +412,24 @@
 			},
 			"branchCode": "sunstone_in_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 5G",
-        "en" :"Redmi Note 12 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 5G",
+				"en": "Redmi Note 12 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

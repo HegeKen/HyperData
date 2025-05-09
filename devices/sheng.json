@@ -5,11 +5,18 @@
 		"en": "Xiaomi Pad 6S Pro 12.4"
 	},
 	"code": "NX",
-	"suppports": ["OS1.0", "OS1.1", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS1.1",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "tablet",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +25,27 @@
 			},
 			"branchCode": "sheng",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -83,16 +101,27 @@
 			},
 			"branchCode": "sheng",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -211,16 +240,27 @@
 			},
 			"branchCode": "sheng_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -241,17 +281,30 @@
 			},
 			"branchCode": "sheng_pre_dpp",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "ADPC",
 			"tag": "",
 			"url": "https://www.xiaomi.cn/post/44582045",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"originrec",
+				"originfb"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -263,7 +316,7 @@
 					"recovery": "miui_SHENGPREDPP_OS1.0.240808.1.VNXCNXMPRE-DPP_ee8ad5209f_15.0.zip",
 					"fastboot": "sheng_pre_dpp_images_OS1.0.240808.1.VNXCNXMPRE-DPP_20240808.0000.00_15.0_cn_780583a71a.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_SHENGPREDPP_OS1.0.240808.1.VNXCNXMPRE-DPP_ee8ad5209f_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=S3nARCVJzufls6lgYBLdXZxeUMk=",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_OS1.0.240808.1.VNXCNXMPRE-DPP_20240808.0000.00_15.0_cn_780583a71a.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=epeTJZB7AFIZ4YIyoE8s8c0vlBU="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_OS1.0.240808.1.VNXCNXMPRE-DPP_20240808.0000.00_15.0_cn_780583a71a.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=epeTJZB7AFIZ4YIyoE8s8c0vlBU="
 				},
 				"OS1.0.240705.2.VNXCNXM.PRE-DPP": {
 					"os": "OS1.0.240705.2.VNXCNXM.PRE-DPP",
@@ -272,7 +325,7 @@
 					"recovery": "miui_SHENGPREDPP_OS1.0.240705.2.VNXCNXM.PRE-DPP_7579026819_15.0.zip",
 					"fastboot": "sheng_pre_dpp_images_OS1.0.240705.2.VNXCNXM.PRE-DPP_20240705.0000.00_15.0_cn_bce2e4fef5.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_SHENGPREDPP_OS1.0.240705.2.VNXCNXM.PRE-DPP_7579026819_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=Ea9q6s2AGNuvnKLkcV9tSDbo9qs=",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_OS1.0.240705.2.VNXCNXM.PRE-DPP_20240705.0000.00_15.0_cn_bce2e4fef5.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=LhB1V/nSpKPNbkaT8j2dW6So/3E="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_OS1.0.240705.2.VNXCNXM.PRE-DPP_20240705.0000.00_15.0_cn_bce2e4fef5.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=LhB1V/nSpKPNbkaT8j2dW6So/3E="
 				},
 				"OS1.0.240520.1.VNXCNXM.PRE-DPP": {
 					"os": "OS1.0.240520.1.VNXCNXM.PRE-DPP",
@@ -281,7 +334,7 @@
 					"recovery": "miui_SHENGPREDPP_OS1.0.240520.1.VNXCNXM.PRE-DPP_e62fdc3584_15.0.zip",
 					"fastboot": "",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_SHENGPREDPP_OS1.0.240520.1.VNXCNXM.PRE-DPP_e62fdc3584_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=zQoWgPOs4iKSmfz6JVU/gq3nyt8=",
-					"originfb":""
+					"originfb": ""
 				},
 				"24.5.10.1": {
 					"os": "24.5.10.1",
@@ -290,7 +343,7 @@
 					"recovery": "",
 					"originrec": "",
 					"fastboot": "sheng_pre_dpp_images_24.5.10.1_20240510.0000.00_15.0_cn_acbb9e4acb.tgz",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_24.5.10.1_20240510.0000.00_15.0_cn_acbb9e4acb.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=IOy3FMYfDuJx4JIhf0SEVR8CRSw="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_images_24.5.10.1_20240510.0000.00_15.0_cn_acbb9e4acb.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=IOy3FMYfDuJx4JIhf0SEVR8CRSw="
 				}
 			}
 		},
@@ -301,17 +354,27 @@
 			},
 			"branchCode": "sheng_pre_dpp_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "ADPG",
 			"tag": "",
 			"url": "https://new.c.mi.com/global/post/951812",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot", "originrec", "originfb"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"originrec",
+				"originfb"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "1",
 			"ep": "0",
@@ -323,7 +386,7 @@
 					"recovery": "miui_SHENGPREDPPGlobal_OS1.0.240705.2.VNXMIXM.PRE-DPP_337a93e7e3_15.0.zip",
 					"fastboot": "sheng_pre_dpp_global_images_OS1.0.240705.2.VNXMIXM.PRE-DPP_20240705.0000.00_15.0_global_9976c580c4.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_SHENGPREDPPGlobal_OS1.0.240705.2.VNXMIXM.PRE-DPP_337a93e7e3_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=/+xKT6FX5Kxa4Nu9ItQzUnRLoBA=",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_global_images_OS1.0.240705.2.VNXMIXM.PRE-DPP_20240705.0000.00_15.0_global_9976c580c4.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=Mts0M5uK5hsXHskvrADw/9Lxa7Q="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_global_images_OS1.0.240705.2.VNXMIXM.PRE-DPP_20240705.0000.00_15.0_global_9976c580c4.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=Mts0M5uK5hsXHskvrADw/9Lxa7Q="
 				},
 				"OS1.0.240516.1.VNXMIXM.PRE-DPP": {
 					"os": "OS1.0.240516.1.VNXMIXM.PRE-DPP",
@@ -332,7 +395,7 @@
 					"recovery": "miui_SHENGPREDPPGlobal_OS1.0.240516.1.VNXMIXM.PRE-DPP_0b7c5634e7_15.0.zip",
 					"fastboot": "",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_SHENGPREDPPGlobal_OS1.0.240516.1.VNXMIXM.PRE-DPP_0b7c5634e7_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=KtK34UE+bgrMDlxDZkb+VuYWJ1g=",
-					"originfb":""
+					"originfb": ""
 				},
 				"24.5.10": {
 					"os": "24.5.10",
@@ -341,7 +404,7 @@
 					"recovery": "",
 					"originrec": "",
 					"fastboot": "sheng_pre_dpp_global_images_24.5.10_20240510.0000.00_15.0_global_8ebfe94fbe.tgz",
-					"originfb":"https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_global_images_24.5.10_20240510.0000.00_15.0_global_8ebfe94fbe.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=rfEJKYdBrltbYycvKDFY9FCawK0="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/sheng_pre_dpp_global_images_24.5.10_20240510.0000.00_15.0_global_8ebfe94fbe.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1746936000000&Signature=rfEJKYdBrltbYycvKDFY9FCawK0="
 				}
 			}
 		},
@@ -352,16 +415,27 @@
 			},
 			"branchCode": "sheng",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "Beta",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -403,17 +477,28 @@
 			},
 			"branchCode": "sheng_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -468,16 +553,24 @@
 			},
 			"branchCode": "sheng_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -561,16 +654,24 @@
 			},
 			"branchCode": "sheng_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -654,16 +755,24 @@
 			},
 			"branchCode": "sheng_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -747,16 +856,24 @@
 			},
 			"branchCode": "sheng_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米平板 6S Pro 12.4",
-        "en" :"Xiaomi Pad 6S Pro 12.4"
-      },
+			"device": {
+				"zh": "小米平板 6S Pro 12.4",
+				"en": "Xiaomi Pad 6S Pro 12.4"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",

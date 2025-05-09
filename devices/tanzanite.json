@@ -1,15 +1,21 @@
 {
-  "device": "tanzanite",
-  "name": {
-    "zh": "Redmi Note 14 4G",
-    "en": "Redmi Note 14 4G"
-  },
+	"device": "tanzanite",
+	"name": {
+		"zh": "Redmi Note 14 4G",
+		"en": "Redmi Note 14 4G"
+	},
 	"code": "OG",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -19,15 +25,23 @@
 			"branchCode": "tanzanite_tw_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -62,7 +76,7 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
@@ -70,15 +84,23 @@
 			"branchCode": "tanzanite_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -149,15 +171,23 @@
 			"branchCode": "tanzanite_dc_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -200,15 +230,23 @@
 			"branchCode": "tanzanite_eea_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -272,15 +310,23 @@
 			"branchCode": "tanzanite_ru_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -337,15 +383,23 @@
 			"branchCode": "tanzanite_id_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -395,15 +449,23 @@
 			"branchCode": "tanzanite_tr_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -446,15 +508,23 @@
 			"branchCode": "tanzanite_mx_at_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -483,15 +553,23 @@
 			"branchCode": "tanzanite_lm_cr_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 4G",
-				"en" :"Redmi Note 14 4G"
+				"zh": "Redmi Note 14 4G",
+				"en": "Redmi Note 14 4G"
 			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -519,5 +597,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

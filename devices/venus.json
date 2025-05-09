@@ -5,11 +5,16 @@
 		"en": "Mi 11"
 	},
 	"code": "KB",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +23,29 @@
 			},
 			"branchCode": "venus",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -122,16 +140,24 @@
 			},
 			"branchCode": "venus_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -201,16 +227,24 @@
 			},
 			"branchCode": "venus_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -287,16 +321,24 @@
 			},
 			"branchCode": "venus_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -373,16 +415,24 @@
 			},
 			"branchCode": "venus_eea_or_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -438,16 +488,24 @@
 			},
 			"branchCode": "venus_eea_hg_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -489,16 +547,24 @@
 			},
 			"branchCode": "venus_eea_tf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -554,16 +620,24 @@
 			},
 			"branchCode": "venus_eea_ti_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "EUTI",
 			"tag": "EUTI",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -584,16 +658,24 @@
 			},
 			"branchCode": "venus_eea_vf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -649,16 +731,24 @@
 			},
 			"branchCode": "venus_eea_sf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -693,16 +783,24 @@
 			},
 			"branchCode": "venus_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -765,16 +863,24 @@
 			},
 			"branchCode": "venus_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -837,16 +943,24 @@
 			},
 			"branchCode": "venus_tr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11",
-        "en" :"Mi 11"
-      },
+			"device": {
+				"zh": "小米 11",
+				"en": "Mi 11"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

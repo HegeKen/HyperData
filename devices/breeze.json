@@ -5,11 +5,17 @@
 		"en": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G"
 	},
 	"code": "NU",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,20 +24,40 @@
 			},
 			"branchCode": "breeze",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13R 5G",
-        "en" :"Redmi Note 13R 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13R 5G",
+				"en": "Redmi Note 13R 5G"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.6.0.VNUCNXM": {
+					"os": "OS2.0.6.0.VNUCNXM",
+					"android": "15.0",
+					"release": "2025-05-06",
+					"recovery": "breeze-ota_full-OS2.0.6.0.VNUCNXM-user-15.0-0a6bc7c22d.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.5.0.VNUCNXM": {
 					"os": "OS2.0.5.0.VNUCNXM",
 					"android": "15.0",
@@ -105,16 +131,28 @@
 			},
 			"branchCode": "breeze_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 13R 5G",
-        "en" :"Redmi Note 13R 5G"
-      },
+			"device": {
+				"zh": "Redmi Note 13R 5G",
+				"en": "Redmi Note 13R 5G"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -152,16 +190,24 @@
 			},
 			"branchCode": "breeze_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13 5G / POCO M6 Plus 5G",
-        "en" :"Redmi 13 5G / POCO M6 Plus 5G"
-      },
+			"device": {
+				"zh": "Redmi 13 5G / POCO M6 Plus 5G",
+				"en": "Redmi 13 5G / POCO M6 Plus 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

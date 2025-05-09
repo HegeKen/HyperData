@@ -5,11 +5,17 @@
 		"en": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G"
 	},
 	"code": "MW",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,28 @@
 			},
 			"branchCode": "sky",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12R",
-        "en" :"Redmi Note 12R"
-      },
+			"device": {
+				"zh": "Redmi Note 12R",
+				"en": "Redmi Note 12R"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -81,16 +99,28 @@
 			},
 			"branchCode": "sky_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12R",
-        "en" :"Redmi Note 12R"
-      },
+			"device": {
+				"zh": "Redmi Note 12R",
+				"en": "Redmi Note 12R"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -112,16 +142,24 @@
 			},
 			"branchCode": "sky_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
-        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi 12 5G / POCO M6 Pro 5G",
+				"en": "Redmi 12 5G / POCO M6 Pro 5G"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -170,16 +208,24 @@
 			},
 			"branchCode": "sky_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
-        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi 12 5G / POCO M6 Pro 5G",
+				"en": "Redmi 12 5G / POCO M6 Pro 5G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -249,16 +295,24 @@
 			},
 			"branchCode": "sky_dc_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
-        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi 12 5G / POCO M6 Pro 5G",
+				"en": "Redmi 12 5G / POCO M6 Pro 5G"
+			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -293,16 +347,24 @@
 			},
 			"branchCode": "sky_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
-        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi 12 5G / POCO M6 Pro 5G",
+				"en": "Redmi 12 5G / POCO M6 Pro 5G"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -386,16 +448,24 @@
 			},
 			"branchCode": "sky_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
-        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi 12 5G / POCO M6 Pro 5G",
+				"en": "Redmi 12 5G / POCO M6 Pro 5G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -465,16 +535,24 @@
 			},
 			"branchCode": "sky_jp_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
-        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi 12 5G / POCO M6 Pro 5G",
+				"en": "Redmi 12 5G / POCO M6 Pro 5G"
+			},
 			"idtag": "JAPS",
 			"tag": "JPXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "jp",
 			"zone": "2",
 			"ep": "0",
@@ -523,16 +601,24 @@
 			},
 			"branchCode": "sky_cl_en_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
-        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi 12 5G / POCO M6 Pro 5G",
+				"en": "Redmi 12 5G / POCO M6 Pro 5G"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -553,16 +639,24 @@
 			},
 			"branchCode": "sky_lm_cr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12 5G / POCO M6 Pro 5G",
-        "en" :"Redmi 12 5G / POCO M6 Pro 5G"
-      },
+			"device": {
+				"zh": "Redmi 12 5G / POCO M6 Pro 5G",
+				"en": "Redmi 12 5G / POCO M6 Pro 5G"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,15 @@
 		"en": "Mi 10"
 	},
 	"code": "JB",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,29 @@
 			},
 			"branchCode": "umi",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
+			"device": {
+				"zh": "小米 10",
+				"en": "Mi 10"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -59,16 +76,24 @@
 			},
 			"branchCode": "umi_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
+			"device": {
+				"zh": "小米 10",
+				"en": "Mi 10"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -89,16 +114,24 @@
 			},
 			"branchCode": "umi_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
+			"device": {
+				"zh": "小米 10",
+				"en": "Mi 10"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -119,16 +152,24 @@
 			},
 			"branchCode": "umi_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
+			"device": {
+				"zh": "小米 10",
+				"en": "Mi 10"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -149,16 +190,24 @@
 			},
 			"branchCode": "umi_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
+			"device": {
+				"zh": "小米 10",
+				"en": "Mi 10"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -179,16 +228,24 @@
 			},
 			"branchCode": "umi_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
+			"device": {
+				"zh": "小米 10",
+				"en": "Mi 10"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -209,16 +266,24 @@
 			},
 			"branchCode": "umi_tr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 10",
-        "en" :"Mi 10"
-      },
+			"device": {
+				"zh": "小米 10",
+				"en": "Mi 10"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

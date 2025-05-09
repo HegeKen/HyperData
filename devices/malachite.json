@@ -1,33 +1,51 @@
 {
-  "device": "malachite",
-  "name": {
-    "zh": "Redmi Note 14 Pro / POCO X7",
-    "en": "Redmi Note 14 Pro / POCO X7"
-  },
+	"device": "malachite",
+	"name": {
+		"zh": "Redmi Note 14 Pro / POCO X7",
+		"en": "Redmi Note 14 Pro / POCO X7"
+	},
 	"code": "OO",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
 			"branchCode": "malachite",
 			"brand": "Redmi",
-      "device": {
-        "zh": "Redmi Note 14 Pro",
-        "en": "Redmi Note 14 Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -113,16 +131,28 @@
 			},
 			"branchCode": "malachite_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh": "Redmi Note 14 Pro",
-        "en": "Redmi Note 14 Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -153,24 +183,36 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},
 			"branchCode": "malachite_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh": "Redmi Note 14 Pro",
-        "en": "Redmi Note 14 Pro"
-      },
+			"device": {
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -200,15 +242,23 @@
 			"branchCode": "malachite_tw_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -258,15 +308,23 @@
 			"branchCode": "malachite_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -316,15 +374,23 @@
 			"branchCode": "malachite_dc_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -360,15 +426,23 @@
 			"branchCode": "malachite_eea_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -453,15 +527,23 @@
 			"branchCode": "malachite_ru_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -497,15 +579,23 @@
 			"branchCode": "malachite_in_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -555,19 +645,34 @@
 			"branchCode": "malachite_id_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VOOIDXM": {
+					"os": "OS2.0.1.0.VOOIDXM",
+					"android": "15.0",
+					"release": "2025-05-08",
+					"recovery": "malachite_id_global-ota_full-OS2.0.1.0.VOOIDXM-user-15.0-bf36af99dc.zip",
+					"fastboot": ""
+				},
 				"OS1.0.9.0.UOOIDXM": {
 					"os": "OS1.0.9.0.UOOIDXM",
 					"android": "14.0",
@@ -599,15 +704,23 @@
 			"branchCode": "malachite_tr_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -650,15 +763,23 @@
 			"branchCode": "malachite_jp_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "JAPS",
 			"tag": "JPXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "jp",
 			"zone": "2",
 			"ep": "0",
@@ -680,15 +801,23 @@
 			"branchCode": "malachite_mx_at_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -717,15 +846,23 @@
 			"branchCode": "malachite_lm_cr_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7",
-				"en" :"POCO X7"
+				"zh": "POCO X7",
+				"en": "POCO X7"
 			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -746,5 +883,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

@@ -5,11 +5,17 @@
 		"en": "Xiaomi 13 Ultra"
 	},
 	"code": "MA",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,27 @@
 			},
 			"branchCode": "ishtar",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -48,18 +65,29 @@
 			},
 			"branchCode": "ishtar",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "Dev",
 			"tag": "",
 			"show": "1",
 			"zone": "1",
 			"ep": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"roms": {
 				"OS1.0.24.7.28.DEV": {
@@ -330,16 +358,28 @@
 			},
 			"branchCode": "ishtar",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -481,17 +521,29 @@
 			},
 			"branchCode": "ishtar_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -512,16 +564,28 @@
 			},
 			"branchCode": "ishtar_ep_stdee",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -543,16 +607,24 @@
 			},
 			"branchCode": "ishtar_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -643,16 +715,24 @@
 			},
 			"branchCode": "ishtar_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -743,16 +823,24 @@
 			},
 			"branchCode": "ishtar_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -857,16 +945,24 @@
 			},
 			"branchCode": "ishtar_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 13 Ultra",
-        "en" :"Xiaomi 13 Ultra"
-      },
+			"device": {
+				"zh": "小米 13 Ultra",
+				"en": "Xiaomi 13 Ultra"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",

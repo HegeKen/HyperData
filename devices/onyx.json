@@ -1,17 +1,21 @@
 {
-  "device": "onyx",
-  "name": {
-    "zh": "REDMI Turbo 4 Pro / POCO F7",
-    "en": "REDMI Turbo 4 Pro / POCO F7"
-  },
+	"device": "onyx",
+	"name": {
+		"zh": "REDMI Turbo 4 Pro / POCO F7",
+		"en": "REDMI Turbo 4 Pro / POCO F7"
+	},
 	"code": "OL",
-	"suppports": ["OS2.0"],
-	"android": ["15.0"],
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
@@ -19,15 +23,27 @@
 			"branchCode": "onyx",
 			"brand": "REDMI",
 			"device": {
-				"zh" :"REDMI Turbo 4 Pro",
-				"en" :"REDMI Turbo 4 Pro"
+				"zh": "REDMI Turbo 4 Pro",
+				"en": "REDMI Turbo 4 Pro"
 			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -64,14 +80,14 @@
 					"fastboot": "onyx_images_OS2.0.114.0.VOLCNXM_20250419.0000.00_15.0_cn_a71f1bc559.tgz",
 					"ctelecom": "onyx_images_OS2.0.114.0.VOLCNXM_20250419.0000.00_15.0_cn_chinatelecom_1b1fcb79a7.tgz"
 				},
-        "OS2.0.112.0.VOLCNXM": {
-          "os": "OS2.0.112.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-04-24",
-          "recovery": "onyx-ota_full-OS2.0.112.0.VOLCNXM-user-15.0-fd77417572.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
+				"OS2.0.112.0.VOLCNXM": {
+					"os": "OS2.0.112.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-04-24",
+					"recovery": "onyx-ota_full-OS2.0.112.0.VOLCNXM-user-15.0-fd77417572.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.110.0.VOLCNXM": {
 					"os": "OS2.0.110.0.VOLCNXM",
 					"android": "15.0",
@@ -98,16 +114,28 @@
 			"branchCode": "onyx_demo",
 			"brand": "REDMI",
 			"device": {
-				"zh" :"REDMI Turbo 4 Pro",
-				"en" :"REDMI Turbo 4 Pro"
+				"zh": "REDMI Turbo 4 Pro",
+				"en": "REDMI Turbo 4 Pro"
 			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -121,5 +149,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

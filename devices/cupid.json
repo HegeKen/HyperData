@@ -5,11 +5,17 @@
 		"en": "Xiaomi 12"
 	},
 	"code": "LC",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,27 @@
 			},
 			"branchCode": "cupid",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "Dev",
 			"tag": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -272,16 +289,28 @@
 			},
 			"branchCode": "cupid",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -383,16 +412,24 @@
 			},
 			"branchCode": "cupid_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -490,16 +527,24 @@
 			},
 			"branchCode": "cupid_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -590,16 +635,24 @@
 			},
 			"branchCode": "cupid_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -725,16 +778,24 @@
 			},
 			"branchCode": "cupid_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -825,16 +886,24 @@
 			},
 			"branchCode": "cupid_id_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -932,16 +1001,24 @@
 			},
 			"branchCode": "cupid_tr_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -1032,16 +1109,24 @@
 			},
 			"branchCode": "cupid_cl_en_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -1069,16 +1154,24 @@
 			},
 			"branchCode": "cupid_mx_at_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12",
-        "en" :"Xiaomi 12"
-      },
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",

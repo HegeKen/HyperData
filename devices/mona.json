@@ -5,11 +5,15 @@
 		"en": "Xiaomi Civi"
 	},
 	"code": "KV",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,29 +22,40 @@
 			},
 			"branchCode": "mona",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 Civi",
-        "en" :"Xiaomi Civi"
-      },
+			"device": {
+				"zh": "小米 Civi",
+				"en": "Xiaomi Civi"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
 			"show": "1",
-			"carrier": ["",  "chinaunicom"],
+			"carrier": [
+				"",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
 			"roms": {
-        "OS1.0.2.0.TKVCNXM": {
-          "os": "OS1.0.2.0.TKVCNXM",
-          "android": "13.0",
-          "release": "2024-02-22",
-          "recovery": "miui_MONA_OS1.0.2.0.TKVCNXM_697bd03a16_13.0.zip",
-          "fastboot": "mona_images_OS1.0.2.0.TKVCNXM_20240218.0000.00_13.0_cn_9db4db06dc.tgz",
-          "ctelecom": "mona_images_OS1.0.2.0.TKVCNXM_20240218.0000.00_13.0_cn_chinatelecom_8f1bdce20c.tgz",
-          "cnmobile": "mona_images_OS1.0.2.0.TKVCNXM_20240218.0000.00_13.0_cn_chinamobile_babc7a6b7d.tgz"
-        }
+				"OS1.0.2.0.TKVCNXM": {
+					"os": "OS1.0.2.0.TKVCNXM",
+					"android": "13.0",
+					"release": "2024-02-22",
+					"recovery": "miui_MONA_OS1.0.2.0.TKVCNXM_697bd03a16_13.0.zip",
+					"fastboot": "mona_images_OS1.0.2.0.TKVCNXM_20240218.0000.00_13.0_cn_9db4db06dc.tgz",
+					"ctelecom": "mona_images_OS1.0.2.0.TKVCNXM_20240218.0000.00_13.0_cn_chinatelecom_8f1bdce20c.tgz",
+					"cnmobile": "mona_images_OS1.0.2.0.TKVCNXM_20240218.0000.00_13.0_cn_chinamobile_babc7a6b7d.tgz"
+				}
 			}
 		}
 	]

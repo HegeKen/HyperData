@@ -1,17 +1,21 @@
 {
-  "device": "rodin",
-  "name": {
-    "zh": "REDMI Turbo 4 / POCO X7 Pro",
-    "en": "REDMI Turbo 4 / POCO X7 Pro"
-  },
+	"device": "rodin",
+	"name": {
+		"zh": "REDMI Turbo 4 / POCO X7 Pro",
+		"en": "REDMI Turbo 4 / POCO X7 Pro"
+	},
 	"code": "OJ",
-	"suppports": ["OS2.0"],
-	"android": ["15.0"],
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
@@ -19,15 +23,27 @@
 			"branchCode": "rodin",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"REDMI Turbo 4",
-				"en" :"REDMI Turbo 4"
+				"zh": "REDMI Turbo 4",
+				"en": "REDMI Turbo 4"
 			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -98,16 +114,28 @@
 			"branchCode": "rodin_demo",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"REDMI Turbo 4",
-				"en" :"REDMI Turbo 4"
+				"zh": "REDMI Turbo 4",
+				"en": "REDMI Turbo 4"
 			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -129,15 +157,23 @@
 			"branchCode": "rodin_tw_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7 Pro",
-				"en" :"POCO X7 Pro"
+				"zh": "POCO X7 Pro",
+				"en": "POCO X7 Pro"
 			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -173,15 +209,23 @@
 			"branchCode": "rodin_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7 Pro",
-				"en" :"POCO X7 Pro"
+				"zh": "POCO X7 Pro",
+				"en": "POCO X7 Pro"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -231,15 +275,23 @@
 			"branchCode": "rodin_eea_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7 Pro",
-				"en" :"POCO X7 Pro"
+				"zh": "POCO X7 Pro",
+				"en": "POCO X7 Pro"
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -296,15 +348,23 @@
 			"branchCode": "rodin_ru_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7 Pro",
-				"en" :"POCO X7 Pro"
+				"zh": "POCO X7 Pro",
+				"en": "POCO X7 Pro"
 			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -340,15 +400,23 @@
 			"branchCode": "rodin_in_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7 Pro",
-				"en" :"POCO X7 Pro"
+				"zh": "POCO X7 Pro",
+				"en": "POCO X7 Pro"
 			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -391,15 +459,23 @@
 			"branchCode": "rodin_id_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7 Pro",
-				"en" :"POCO X7 Pro"
+				"zh": "POCO X7 Pro",
+				"en": "POCO X7 Pro"
 			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -435,15 +511,23 @@
 			"branchCode": "rodin_tr_global",
 			"brand": "POCO",
 			"device": {
-				"zh" :"POCO X7 Pro",
-				"en" :"POCO X7 Pro"
+				"zh": "POCO X7 Pro",
+				"en": "POCO X7 Pro"
 			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -471,5 +555,5 @@
 				}
 			}
 		}
-  ]
+	]
 }

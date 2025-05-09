@@ -5,11 +5,15 @@
 		"en": "Redmi K40 Pro/Pro+/ Mi 11i / Mi 11X Pro"
 	},
 	"code": "KK",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,29 @@
 			},
 			"branchCode": "haydn",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K40 Pro/Pro+",
-        "en" :"Redmi K40 Pro/Pro+"
-      },
+			"device": {
+				"zh": "Redmi K40 Pro/Pro+",
+				"en": "Redmi K40 Pro/Pro+"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -131,16 +148,24 @@
 			},
 			"branchCode": "haydn_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -231,16 +256,24 @@
 			},
 			"branchCode": "haydn_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -331,16 +364,24 @@
 			},
 			"branchCode": "haydn_eea_or_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -396,16 +437,24 @@
 			},
 			"branchCode": "haydn_eea_tf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -454,16 +503,24 @@
 			},
 			"branchCode": "haydn_eea_hg_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -505,16 +562,24 @@
 			},
 			"branchCode": "haydn_eea_vf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -563,16 +628,24 @@
 			},
 			"branchCode": "haydn_eea_by_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "EUBY",
 			"tag": "EUBY",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -607,16 +680,24 @@
 			},
 			"branchCode": "haydn_eea_ti_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "EUTI",
 			"tag": "EUTI",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -637,16 +718,24 @@
 			},
 			"branchCode": "haydn_eea_sf_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11i",
-        "en" :"Mi 11i"
-      },
+			"device": {
+				"zh": "小米 11i",
+				"en": "Mi 11i"
+			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -681,16 +770,24 @@
 			},
 			"branchCode": "haydn_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 11X Pro",
-        "en" :"Mi 11X Pro"
-      },
+			"device": {
+				"zh": "小米 11X Pro",
+				"en": "Mi 11X Pro"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

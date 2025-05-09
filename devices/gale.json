@@ -5,11 +5,17 @@
 		"en": "Redmi 13C / POCO C65"
 	},
 	"code": "GP",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,24 @@
 			},
 			"branchCode": "gale_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -76,16 +90,24 @@
 			},
 			"branchCode": "gale_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -148,16 +170,24 @@
 			},
 			"branchCode": "gale_dc_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -199,16 +229,24 @@
 			},
 			"branchCode": "gale_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -292,16 +330,24 @@
 			},
 			"branchCode": "gale_ru_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -364,16 +410,24 @@
 			},
 			"branchCode": "gale_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -429,16 +483,24 @@
 			},
 			"branchCode": "gale_id_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -501,16 +563,24 @@
 			},
 			"branchCode": "gale_tr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -573,16 +643,24 @@
 			},
 			"branchCode": "gale_mx_at_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -617,16 +695,24 @@
 			},
 			"branchCode": "gale_gt_tg_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "GTTG",
 			"tag": "GTTG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tg"],
+			"carrier": [
+				"tg"
+			],
 			"region": "gt",
 			"zone": "2",
 			"ep": "0",
@@ -654,16 +740,24 @@
 			},
 			"branchCode": "gale_lm_cr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 13C 国际 / POCO C65",
-        "en" :"Redmi 13C / POCO C65"
-      },
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

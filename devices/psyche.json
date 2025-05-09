@@ -5,11 +5,15 @@
 		"en": "Xiaomi 12X"
 	},
 	"code": "LD",
-	"suppports": ["OS1.0"],
-	"android": ["13.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"13.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,28 @@
 			},
 			"branchCode": "psyche",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12X",
-        "en" :"Xiaomi 12X"
-      },
+			"device": {
+				"zh": "小米 12X",
+				"en": "Xiaomi 12X"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -97,16 +113,24 @@
 			},
 			"branchCode": "psyche_tw_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12X",
-        "en" :"Xiaomi 12X"
-      },
+			"device": {
+				"zh": "小米 12X",
+				"en": "Xiaomi 12X"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -162,16 +186,24 @@
 			},
 			"branchCode": "psyche_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12X",
-        "en" :"Xiaomi 12X"
-      },
+			"device": {
+				"zh": "小米 12X",
+				"en": "Xiaomi 12X"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -227,16 +259,24 @@
 			},
 			"branchCode": "psyche_eea_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12X",
-        "en" :"Xiaomi 12X"
-      },
+			"device": {
+				"zh": "小米 12X",
+				"en": "Xiaomi 12X"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -292,16 +332,24 @@
 			},
 			"branchCode": "psyche_ru_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 12X",
-        "en" :"Xiaomi 12X"
-      },
+			"device": {
+				"zh": "小米 12X",
+				"en": "Xiaomi 12X"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,17 @@
 		"en": "Xiaomi Civi 4 Pro / Xiaomi 14 Civi"
 	},
 	"code": "NJ",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,28 @@
 			},
 			"branchCode": "chenfeng",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 Civi 4 Pro",
-        "en" :"Xiaomi Civi 4 Pro"
-      },
+			"device": {
+				"zh": "小米 Civi 4 Pro",
+				"en": "Xiaomi Civi 4 Pro"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -80,7 +98,7 @@
 					"fastboot": "chenfeng_images_OS1.0.17.0.UNJCNXM_20241015.0000.00_14.0_cn_b27884e073.tgz",
 					"ctelecom": "chenfeng_images_OS1.0.17.0.UNJCNXM_20241015.0000.00_14.0_cn_chinatelecom_992cfa9ffe.tgz"
 				},
-    		"OS1.0.15.0.UNJCNXM": {
+				"OS1.0.15.0.UNJCNXM": {
 					"os": "OS1.0.15.0.UNJCNXM",
 					"android": "14.0",
 					"release": "2024-09-14",
@@ -161,17 +179,29 @@
 			},
 			"branchCode": "chenfeng_demo",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 Civi 4 Pro",
-        "en" :"Xiaomi Civi 4 Pro"
-      },
+			"device": {
+				"zh": "小米 Civi 4 Pro",
+				"en": "Xiaomi Civi 4 Pro"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -216,16 +246,24 @@
 			},
 			"branchCode": "chenfeng_in_global",
 			"brand": "Xiaomi",
-      "device": {
-        "zh" :"小米 14 Civi",
-        "en" :"Xiaomi 14 Civi"
-      },
+			"device": {
+				"zh": "小米 14 Civi",
+				"en": "Xiaomi 14 Civi"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,15 @@
 		"en": ""
 	},
 	"code": "",
-	"suppports": ["OS2.0"],
-	"android": ["15.0"],
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -19,15 +23,26 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -49,15 +64,29 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile",
+				"cnunicom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -82,16 +111,27 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
 			"region": "cn",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"zone": "1",
 			"ep": "0",
 			"roms": {
@@ -113,15 +153,26 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -144,15 +195,26 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EPCJCC",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -175,15 +237,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -205,15 +275,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -235,15 +313,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -265,15 +351,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -295,15 +389,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -325,15 +427,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -355,15 +465,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -385,15 +503,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "IDDM",
 			"tag": "IDDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -415,15 +541,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -445,15 +579,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "THAS",
 			"tag": "THAS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["as"],
+			"carrier": [
+				"as"
+			],
 			"region": "th",
 			"zone": "2",
 			"ep": "0",
@@ -475,15 +617,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "SKSO",
 			"tag": "KRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -505,15 +655,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "JAPS",
 			"tag": "JPXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "jp",
 			"zone": "2",
 			"ep": "0",
@@ -535,15 +693,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -565,15 +731,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -595,15 +769,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -625,15 +807,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EUBY",
 			"tag": "EUBY",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -655,15 +845,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -685,15 +883,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EUTI",
 			"tag": "EUTI",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -715,15 +921,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -745,15 +959,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "ZAVC",
 			"tag": "ZAVC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vc"],
+			"carrier": [
+				"vc"
+			],
 			"region": "za",
 			"zone": "2",
 			"ep": "0",
@@ -775,15 +997,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "ZAMT",
 			"tag": "ZAMT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["mt"],
+			"carrier": [
+				"mt"
+			],
 			"region": "za",
 			"zone": "2",
 			"ep": "0",
@@ -805,15 +1035,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "GTTG",
 			"tag": "GTTG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tg"],
+			"carrier": [
+				"tg"
+			],
 			"region": "gt",
 			"zone": "2",
 			"ep": "0",
@@ -835,15 +1073,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -865,15 +1111,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -895,15 +1149,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "MXTC",
 			"tag": "MXTC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tc"],
+			"carrier": [
+				"tc"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -925,15 +1187,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -955,15 +1225,23 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "LMMS",
 			"tag": "LMMS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["movistar"],
+			"carrier": [
+				"movistar"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -985,15 +1263,26 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "Beta",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -1015,16 +1304,27 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "ADPC",
 			"tag": "",
 			"url": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -1036,7 +1336,7 @@
 					"recovery": "",
 					"fastboot": "",
 					"originrec": "",
-					"originfb":""
+					"originfb": ""
 				}
 			}
 		},
@@ -1048,16 +1348,24 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "ADPG",
 			"tag": "",
 			"url": "",
 			"branchtag": "X",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "1",
 			"ep": "0",
@@ -1069,7 +1377,7 @@
 					"recovery": "",
 					"fastboot": "",
 					"originrec": "",
-					"originfb":""
+					"originfb": ""
 				}
 			}
 		},
@@ -1081,15 +1389,26 @@
 			"branchCode": "",
 			"brand": "Xiaomi, Redmi, POCO",
 			"device": {
-				"zh" :"",
-				"en" :""
+				"zh": "",
+				"en": ""
 			},
 			"idtag": "CnODB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",

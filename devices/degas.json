@@ -5,11 +5,17 @@
 		"en": "Xiaomi 14T"
 	},
 	"code": "NE",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,24 @@
 			},
 			"branchCode": "degas_tw_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -90,16 +104,24 @@
 			},
 			"branchCode": "degas_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -169,16 +191,24 @@
 			},
 			"branchCode": "degas_dc_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -220,16 +250,24 @@
 			},
 			"branchCode": "degas_eea_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -306,16 +344,24 @@
 			},
 			"branchCode": "degas_ru_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -378,16 +424,24 @@
 			},
 			"branchCode": "degas_id_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -450,16 +504,24 @@
 			},
 			"branchCode": "degas_tr_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -522,16 +584,24 @@
 			},
 			"branchCode": "degas_mx_at_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -566,16 +636,24 @@
 			},
 			"branchCode": "degas_lm_cr_global",
 			"brand": "Xiaomi",
-      "device": {
+			"device": {
 				"zh": "小米 14T",
 				"en": "Xiaomi 14T"
 			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,15 @@
 		"en": "Redmi 11 Prime 4G / POCO M5"
 	},
 	"code": "LU",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,24 @@
 			},
 			"branchCode": "rock_tw_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M5",
-        "en" :"POCO M5"
-      },
+			"device": {
+				"zh": "POCO M5",
+				"en": "POCO M5"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -55,16 +67,24 @@
 			},
 			"branchCode": "rock_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M5",
-        "en" :"POCO M5"
-      },
+			"device": {
+				"zh": "POCO M5",
+				"en": "POCO M5"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -120,16 +140,24 @@
 			},
 			"branchCode": "rock_eea_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M5",
-        "en" :"POCO M5"
-      },
+			"device": {
+				"zh": "POCO M5",
+				"en": "POCO M5"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -178,16 +206,24 @@
 			},
 			"branchCode": "rock_ru_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M5",
-        "en" :"POCO M5"
-      },
+			"device": {
+				"zh": "POCO M5",
+				"en": "POCO M5"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -236,16 +272,24 @@
 			},
 			"branchCode": "rock_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 11 Prime 4G / POCO M5",
-        "en" :"Redmi 11 Prime 4G / POCO M5"
-      },
+			"device": {
+				"zh": "Redmi 11 Prime 4G / POCO M5",
+				"en": "Redmi 11 Prime 4G / POCO M5"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -294,16 +338,24 @@
 			},
 			"branchCode": "rock_id_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M5",
-        "en" :"POCO M5"
-      },
+			"device": {
+				"zh": "POCO M5",
+				"en": "POCO M5"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -352,16 +404,24 @@
 			},
 			"branchCode": "rock_tr_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO M5",
-        "en" :"POCO M5"
-      },
+			"device": {
+				"zh": "POCO M5",
+				"en": "POCO M5"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",

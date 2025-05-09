@@ -5,11 +5,17 @@
 		"en": "Redmi Note 12 4G"
 	},
 	"code": "MT",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,24 @@
 			},
 			"branchCode": "tapas_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 4G",
-        "en" :"Redmi Note 12 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 4G",
+				"en": "Redmi Note 12 4G"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -111,16 +125,24 @@
 			},
 			"branchCode": "tapas_in_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 4G",
-        "en" :"Redmi Note 12 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 4G",
+				"en": "Redmi Note 12 4G"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -183,16 +205,24 @@
 			},
 			"branchCode": "tapas_tr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 4G",
-        "en" :"Redmi Note 12 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 4G",
+				"en": "Redmi Note 12 4G"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -255,16 +285,24 @@
 			},
 			"branchCode": "tapas_gt_tg_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 4G",
-        "en" :"Redmi Note 12 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 4G",
+				"en": "Redmi Note 12 4G"
+			},
 			"idtag": "GTTG",
 			"tag": "GTTG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tg"],
+			"carrier": [
+				"tg"
+			],
 			"region": "gt",
 			"zone": "2",
 			"ep": "0",
@@ -292,16 +330,24 @@
 			},
 			"branchCode": "tapas_cl_en_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 4G",
-        "en" :"Redmi Note 12 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 4G",
+				"en": "Redmi Note 12 4G"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -322,16 +368,24 @@
 			},
 			"branchCode": "tapas_mx_at_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 4G",
-        "en" :"Redmi Note 12 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 4G",
+				"en": "Redmi Note 12 4G"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -373,16 +427,24 @@
 			},
 			"branchCode": "tapas_lm_cr_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 4G",
-        "en" :"Redmi Note 12 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 4G",
+				"en": "Redmi Note 12 4G"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -452,16 +514,24 @@
 			},
 			"branchCode": "tapas_lm_ms_global",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi Note 12 4G",
-        "en" :"Redmi Note 12 4G"
-      },
+			"device": {
+				"zh": "Redmi Note 12 4G",
+				"en": "Redmi Note 12 4G"
+			},
 			"idtag": "LMMS",
 			"tag": "LMMS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["movistar"],
+			"carrier": [
+				"movistar"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

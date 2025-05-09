@@ -5,11 +5,17 @@
 		"en": "Redmi K70 / POCO F6 Pro"
 	},
 	"code": "NK",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
 	"miui": "no",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +24,27 @@
 			},
 			"branchCode": "vermeer",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70",
-        "en" :"Redmi K70"
-      },
+			"device": {
+				"zh": "Redmi K70",
+				"en": "Redmi K70"
+			},
 			"idtag": "CnOB",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -55,15 +72,27 @@
 			},
 			"branchCode": "vermeer",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70",
-        "en" :"Redmi K70"
-      },
+			"device": {
+				"zh": "Redmi K70",
+				"en": "Redmi K70"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"show": "1",
 			"region": "cn",
 			"zone": "1",
@@ -254,16 +283,28 @@
 			},
 			"branchCode": "vermeer_demo",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70",
-        "en" :"Redmi K70"
-      },
+			"device": {
+				"zh": "Redmi K70",
+				"en": "Redmi K70"
+			},
 			"idtag": "CnOD",
-			"tag":"CNDM",
+			"tag": "CNDM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "0",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -309,16 +350,28 @@
 			},
 			"branchCode": "vermeer_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi K70",
-        "en" :"Redmi K70"
-      },
+			"device": {
+				"zh": "Redmi K70",
+				"en": "Redmi K70"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -372,16 +425,24 @@
 			},
 			"branchCode": "vermeer_tw_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F6 Pro",
-        "en" :"POCO F6 Pro"
-      },
+			"device": {
+				"zh": "POCO F6 Pro",
+				"en": "POCO F6 Pro"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -451,16 +512,24 @@
 			},
 			"branchCode": "vermeer_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F6 Pro",
-        "en" :"POCO F6 Pro"
-      },
+			"device": {
+				"zh": "POCO F6 Pro",
+				"en": "POCO F6 Pro"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -551,16 +620,24 @@
 			},
 			"branchCode": "vermeer_eea_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F6 Pro",
-        "en" :"POCO F6 Pro"
-      },
+			"device": {
+				"zh": "POCO F6 Pro",
+				"en": "POCO F6 Pro"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -644,16 +721,24 @@
 			},
 			"branchCode": "vermeer_ru_global",
 			"brand": "POCO",
-      "device": {
-        "zh" :"POCO F6 Pro",
-        "en" :"POCO F6 Pro"
-      },
+			"device": {
+				"zh": "POCO F6 Pro",
+				"en": "POCO F6 Pro"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",

@@ -5,11 +5,15 @@
 		"en": "Redmi 12C / POCO C55"
 	},
 	"code": "CV",
-	"suppports": ["OS1.0"],
-	"android": ["14.0"],
+	"suppports": [
+		"OS1.0"
+	],
+	"android": [
+		"14.0"
+	],
 	"type": "phone",
 	"miui": "yes",
-	"merged":"no",
+	"merged": "no",
 	"branches": [
 		{
 			"name": {
@@ -18,16 +22,28 @@
 			},
 			"branchCode": "earth",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 12C",
-        "en" :"Redmi 12C"
-      },
+			"device": {
+				"zh": "Redmi 12C",
+				"en": "Redmi 12C"
+			},
 			"idtag": "CnOO",
 			"tag": "CNXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
@@ -81,16 +97,28 @@
 			},
 			"branchCode": "earth_ep_stdee",
 			"brand": "Redmi",
-      "device": {
-        "zh" :"Redmi 12C",
-        "en" :"Redmi 12C"
-      },
+			"device": {
+				"zh": "Redmi 12C",
+				"en": "Redmi 12C"
+			},
 			"idtag": "EPSTD",
 			"tag": "",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot", "ctelecom"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
 			"show": "1",
-			"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
 			"region": "cn",
 			"zone": "1",
 			"ep": "1",
@@ -112,16 +140,24 @@
 			},
 			"branchCode": "earth_tw_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tw",
 			"zone": "2",
 			"ep": "0",
@@ -191,16 +227,24 @@
 			},
 			"branchCode": "earth_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -277,16 +321,24 @@
 			},
 			"branchCode": "earth_eea_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -356,16 +408,24 @@
 			},
 			"branchCode": "earth_eea_hg_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "EUHG",
 			"tag": "EUHG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["h3g"],
+			"carrier": [
+				"h3g"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -421,16 +481,24 @@
 			},
 			"branchCode": "earth_eea_by_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "EUBY",
 			"tag": "EUBY",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["by"],
+			"carrier": [
+				"by"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -465,16 +533,24 @@
 			},
 			"branchCode": "earth_eea_tf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "EUTF",
 			"tag": "EUTF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tf"],
+			"carrier": [
+				"tf"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -537,16 +613,24 @@
 			},
 			"branchCode": "earth_eea_sf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "EUSF",
 			"tag": "EUSF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["sfr"],
+			"carrier": [
+				"sfr"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -574,16 +658,24 @@
 			},
 			"branchCode": "earth_eea_or_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "EUOR",
 			"tag": "EUOR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["orange"],
+			"carrier": [
+				"orange"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -653,16 +745,24 @@
 			},
 			"branchCode": "earth_eea_vf_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "EUVF",
 			"tag": "EUVF",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vodafone"],
+			"carrier": [
+				"vodafone"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -725,16 +825,24 @@
 			},
 			"branchCode": "earth_eea_ti_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "EUTI",
 			"tag": "EUTI",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tim"],
+			"carrier": [
+				"tim"
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -755,16 +863,24 @@
 			},
 			"branchCode": "earth_ru_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -827,16 +943,24 @@
 			},
 			"branchCode": "earth_in_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "INSO",
 			"tag": "INXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "in",
 			"zone": "2",
 			"ep": "0",
@@ -913,16 +1037,24 @@
 			},
 			"branchCode": "earth_id_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "IDSO",
 			"tag": "IDXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
@@ -992,16 +1124,24 @@
 			},
 			"branchCode": "earth_tr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -1064,16 +1204,24 @@
 			},
 			"branchCode": "earth_za_vc_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "ZAVC",
 			"tag": "ZAVC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["vc"],
+			"carrier": [
+				"vc"
+			],
 			"region": "za",
 			"zone": "2",
 			"ep": "0",
@@ -1108,16 +1256,24 @@
 			},
 			"branchCode": "earth_za_mt_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "ZAMT",
 			"tag": "ZAMT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["mt"],
+			"carrier": [
+				"mt"
+			],
 			"region": "za",
 			"zone": "2",
 			"ep": "0",
@@ -1159,16 +1315,24 @@
 			},
 			"branchCode": "earth_cl_en_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "CLEN",
 			"tag": "CLEN",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["en"],
+			"carrier": [
+				"en"
+			],
 			"region": "cl",
 			"zone": "2",
 			"ep": "0",
@@ -1196,16 +1360,24 @@
 			},
 			"branchCode": "earth_gt_tg_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "GTTG",
 			"tag": "GTTG",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["tg"],
+			"carrier": [
+				"tg"
+			],
 			"region": "gt",
 			"zone": "2",
 			"ep": "0",
@@ -1233,16 +1405,24 @@
 			},
 			"branchCode": "earth_mx_at_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -1291,16 +1471,24 @@
 			},
 			"branchCode": "earth_lm_cr_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -1370,16 +1558,24 @@
 			},
 			"branchCode": "earth_lm_ms_global",
 			"brand": "Redmi, POCO",
-      "device": {
-        "zh" :"Redmi 12C / POCO C55",
-        "en" :"Redmi 12C / POCO C55"
-      },
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
 			"idtag": "LMMS",
 			"tag": "LMMS",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["movistar"],
+			"carrier": [
+				"movistar"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",

@@ -1,17 +1,23 @@
 {
-  "device": "obsidian",
-  "name": {
-    "zh": "Redmi Note 14 Pro 4G",
-    "en": "Redmi Note 14 Pro 4G"
-  },
+	"device": "obsidian",
+	"name": {
+		"zh": "Redmi Note 14 Pro 4G",
+		"en": "Redmi Note 14 Pro 4G"
+	},
 	"code": "OF",
-	"suppports": ["OS1.0", "OS2.0"],
-	"android": ["14.0", "15.0"],
+	"suppports": [
+		"OS1.0",
+		"OS2.0"
+	],
+	"android": [
+		"14.0",
+		"15.0"
+	],
 	"type": "phone",
-  "miui": "no",
-	"merged":"no",
+	"miui": "no",
+	"merged": "no",
 	"branches": [
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
@@ -19,15 +25,23 @@
 			"branchCode": "obsidian_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 Pro",
-				"en" :"Redmi Note 14 Pro"
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -62,7 +76,7 @@
 				}
 			}
 		},
-    {
+		{
 			"name": {
 				"zh": "小米澎湃 OS 国际 DC 正式版",
 				"en": "Xiaomi HyperOS Global DC Stable"
@@ -70,15 +84,23 @@
 			"branchCode": "obsidian_dc_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 Pro",
-				"en" :"Redmi Note 14 Pro"
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
 			},
 			"idtag": "GBDC",
 			"tag": "MIDC",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "0",
-			"carrier": ["dc"],
+			"carrier": [
+				"dc"
+			],
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
@@ -114,15 +136,23 @@
 			"branchCode": "obsidian_eea_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 Pro",
-				"en" :"Redmi Note 14 Pro"
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "eea",
 			"zone": "2",
 			"ep": "0",
@@ -158,15 +188,23 @@
 			"branchCode": "obsidian_ru_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 Pro",
-				"en" :"Redmi Note 14 Pro"
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
 			},
 			"idtag": "RUSO",
 			"tag": "RUXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "ru",
 			"zone": "2",
 			"ep": "0",
@@ -209,15 +247,23 @@
 			"branchCode": "obsidian_tr_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 Pro",
-				"en" :"Redmi Note 14 Pro"
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
 			},
 			"idtag": "TRSO",
 			"tag": "TRXM",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": [""],
+			"carrier": [
+				""
+			],
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
@@ -253,15 +299,23 @@
 			"branchCode": "obsidian_mx_at_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 Pro",
-				"en" :"Redmi Note 14 Pro"
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
 			},
 			"idtag": "MXAT",
 			"tag": "MXAT",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["at"],
+			"carrier": [
+				"at"
+			],
 			"region": "mx",
 			"zone": "2",
 			"ep": "0",
@@ -283,15 +337,23 @@
 			"branchCode": "obsidian_lm_cr_global",
 			"brand": "Redmi",
 			"device": {
-				"zh" :"Redmi Note 14 Pro",
-				"en" :"Redmi Note 14 Pro"
+				"zh": "Redmi Note 14 Pro",
+				"en": "Redmi Note 14 Pro"
 			},
 			"idtag": "LMCR",
 			"tag": "LMCR",
 			"branchtag": "F",
-			"table":["os", "android", "release", "recovery", "fastboot"],
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
 			"show": "1",
-			"carrier": ["cr"],
+			"carrier": [
+				"cr"
+			],
 			"region": "lm",
 			"zone": "2",
 			"ep": "0",
@@ -326,5 +388,5 @@
 				}
 			}
 		}
-  ]
+	]
 }
