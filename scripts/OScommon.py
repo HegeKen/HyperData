@@ -443,6 +443,8 @@ flags = {
 	"CUPIDCLENGlobal":"cupid",
 	"garnet_dc_global":"garnet",
 	"GARNETDCGlobal":"garnet",
+	"SERENITYEEAGlobal":"serenity",
+	"serenity_eea_global":"serenity",
 	"moon_cl_en_global":"moon",
 	"MOONLMCRGlobal":"moon",
 	"sky_lm_cr_global":"sky",
