@@ -17,6 +17,47 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "zorn",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K80",
+				"en": "REDMI K80"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.200.9.VOKCNXM": {
+					"os": "OS2.0.200.9.VOKCNXM",
+					"android": "15.0",
+					"release": "2025-05-12",
+					"recovery": "zorn-ota_full-OS2.0.200.9.VOKCNXM-user-15.0-4963df7a40.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},

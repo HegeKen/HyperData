@@ -17,6 +17,47 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "miro",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K80 Pro",
+				"en": "REDMI K80 Pro"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.200.12.VOMCNXM": {
+					"os": "OS2.0.200.12.VOMCNXM",
+					"android": "15.0",
+					"release": "2025-05-12",
+					"recovery": "miro-ota_full-OS2.0.200.12.VOMCNXM-user-15.0-6190d42347.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
