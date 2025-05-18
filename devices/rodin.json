@@ -53,8 +53,8 @@
 					"android": "15.0",
 					"release": "2025-04-30",
 					"recovery": "rodin-ota_full-OS2.0.110.0.VOJCNXM-user-15.0-1f74964ee3.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "rodin_images_OS2.0.110.0.VOJCNXM_20250427.0000.00_15.0_cn_498913612a.tgz",
+					"ctelecom": "rodin_images_OS2.0.110.0.VOJCNXM_20250427.0000.00_15.0_cn_chinatelecom_35f8416ec8.tgz"
 				},
 				"OS2.0.109.0.VOJCNXM": {
 					"os": "OS2.0.109.0.VOJCNXM",
@@ -238,6 +238,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.103.0.VOJMIXM": {
+					"os": "OS2.0.103.0.VOJMIXM",
+					"android": "15.0",
+					"release": "2025-05-18",
+					"recovery": "rodin_global-ota_full-OS2.0.103.0.VOJMIXM-user-15.0-21dd0b4bf0.zip",
+					"fastboot": ""
+				},
 				"OS2.0.101.0.VOJMIXM": {
 					"os": "OS2.0.101.0.VOJMIXM",
 					"android": "15.0",
