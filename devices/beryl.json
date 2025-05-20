@@ -55,8 +55,8 @@
 					"android": "15.0",
 					"release": "2025-05-08",
 					"recovery": "beryl-ota_full-OS2.0.10.0.VOQCNXM-user-15.0-e8ce7c34e6.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "beryl_images_OS2.0.10.0.VOQCNXM_20250424.0000.00_15.0_cn_85df9b2441.tgz",
+					"ctelecom": "beryl_images_OS2.0.10.0.VOQCNXM_20250424.0000.00_15.0_cn_chinatelecom_6932661f15.tgz"
 				},
 				"OS2.0.9.0.VOQCNXM": {
 					"os": "OS2.0.9.0.VOQCNXM",
@@ -255,6 +255,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VOQMIXM": {
+					"os": "OS2.0.2.0.VOQMIXM",
+					"android": "15.0",
+					"release": "2025-05-20",
+					"recovery": "beryl_global-ota_full-OS2.0.2.0.VOQMIXM-user-15.0-1e39eb7937.zip",
+					"fastboot": ""
+				},
 				"OS2.0.1.0.VOQMIXM": {
 					"os": "OS2.0.1.0.VOQMIXM",
 					"android": "15.0",
@@ -340,7 +347,7 @@
 					"android": "15.0",
 					"release": "2025-05-08",
 					"recovery": "beryl_dc_global-ota_full-OS2.0.1.0.VOQMIDC-user-15.0-f3637e63b5.zip",
-					"fastboot": ""
+					"fastboot": "beryl_dc_global_images_OS2.0.1.0.VOQMIDC_20250422.0000.00_15.0_global_dc_fef1cc26e2.tgz"
 				},
 				"OS1.0.8.0.UOQMIDC": {
 					"os": "OS1.0.8.0.UOQMIDC",
@@ -399,6 +406,13 @@
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "beryl_eea_global-ota_full-OS2.0.4.0.VOQEUXM-user-15.0-c0a18aa688.zip",
+					"fastboot": ""
+				},
+				"OS1.0.17.0.UOQEUXM": {
+					"os": "OS1.0.17.0.UOQEUXM",
+					"android": "14.0",
+					"release": "2025-05-19",
+					"recovery": "miui_BERYLEEAGlobal_OS1.0.17.0.UOQEUXM_764c50ea55_14.0.zip",
 					"fastboot": ""
 				},
 				"OS1.0.16.0.UOQEUXM": {
@@ -474,6 +488,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VOQRUXM": {
+					"os": "OS2.0.2.0.VOQRUXM",
+					"android": "15.0",
+					"release": "2025-05-20",
+					"recovery": "beryl_ru_global-ota_full-OS2.0.2.0.VOQRUXM-user-15.0-9f82e44de5.zip",
+					"fastboot": ""
+				},
 				"OS2.0.1.0.VOQRUXM": {
 					"os": "OS2.0.1.0.VOQRUXM",
 					"android": "15.0",
@@ -531,7 +552,7 @@
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "beryl_in_global-ota_full-OS2.0.4.0.VOQINXM-user-15.0-93ecf745bd.zip",
-					"fastboot": ""
+					"fastboot": "beryl_in_global_images_OS2.0.4.0.VOQINXM_20250427.0000.00_15.0_in_c074025218.tgz"
 				},
 				"OS2.0.3.0.VOQINXM": {
 					"os": "OS2.0.3.0.VOQINXM",

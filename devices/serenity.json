@@ -101,6 +101,120 @@
 					"android": "15.0",
 					"release": "2025-05-09",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.5.0.VGWEUXM_1e0e0e7fb7_15.0.zip",
+					"fastboot": "serenity_eea_global-images-A15.0.5.0.VGWEUXM-user-20250327.0000.00-15.0-eea-773097ace9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Orange运营商定制版",
+				"en": "Xiaomi HyperOS Europe Orange Carrier Edition"
+			},
+			"branchCode": "serenity_eea_or_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
+			},
+			"idtag": "EUOR",
+			"tag": "EUOR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"orange"
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.3.0.VGWEUOR": {
+					"os": "A15.0.3.0.VGWEUOR",
+					"android": "15.0",
+					"release": "2025-05-20",
+					"recovery": "miui_SERENITYEEAORGlobal_A15.0.3.0.VGWEUOR_3f4197f8c6_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Vodafone运营商定制版",
+				"en": "Xiaomi HyperOS Europe Vodafone Carrier Edition"
+			},
+			"branchCode": "serenity_eea_vf_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
+			},
+			"idtag": "EUVF",
+			"tag": "EUVF",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"vodafone"
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.4.0.VGWEUVF": {
+					"os": "A15.0.4.0.VGWEUVF",
+					"android": "15.0",
+					"release": "2025-05-20",
+					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.4.0.VGWEUVF_e271ef78bf_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲Bouygues Telecom 运营商定制版",
+				"en": "Xiaomi HyperOS Europe Bouygues Telecom Carrier Edition"
+			},
+			"branchCode": "serenity_eea_by_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
+			},
+			"idtag": "EUBY",
+			"tag": "EUBY",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"by"
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.3.0.VGWEUBY": {
+					"os": "A15.0.3.0.VGWEUBY",
+					"android": "15.0",
+					"release": "2025-05-20",
+					"recovery": "miui_SERENITYEEABYGlobal_A15.0.3.0.VGWEUBY_8ef20bdb6b_15.0.zip",
 					"fastboot": ""
 				}
 			}

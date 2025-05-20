@@ -40,7 +40,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
+currentStable = ["dijun", "jinghu", "luming", "onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -2040,6 +2040,12 @@ flags = {
 	"ishtar_demo": "ishtar",
 	"FLAREIDGlobal":"flare",
 	"flare_id_global":"flare",
+	"SERENITYEEAORGlobal": "serenity",
+	"SERENITYEEAVFGlobal": "serenity",
+	"SERENITYEEABYGlobal": "serenity",
+	"serenity_eea_or_global": "serenity",
+	"serenity_eea_vf_global": "serenity",
+	"serenity_eea_by_global": "serenity",
 	"SERENITYZAMTGlobal":"serenity",
 	"serenity_za_mt_global":"serenity",
 	"amethyst_mx_at_global":"amethyst",
