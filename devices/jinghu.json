@@ -17,6 +17,57 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "jinghu",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米平板7 Ultra",
+        "en": "Xiaomi Pad 7 Ultra"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.104.0.VOXCNXM": {
+          "os": "OS2.0.104.0.VOXCNXM",
+          "android": "15.0",
+          "release": "2025-05-22",
+          "recovery": "jinghu-ota_full-OS2.0.104.0.VOXCNXM-user-15.0-52a8adc79d.zip",
+          "fastboot": "jinghu-images-OS2.0.104.0.VOXCNXM-userroot-20250414.0000.00-15.0-cn-4f543f76a2.tgz",
+          "ctelecom": ""
+        },
+        "OS2.0.103.0.VOXCNXM": {
+          "os": "OS2.0.103.0.VOXCNXM",
+          "android": "15.0",
+          "release": "2025-05-22",
+          "recovery": "jinghu-ota_full-OS2.0.103.0.VOXCNXM-user-15.0-cc0dc09b17.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 演示机系统",
         "en": "Xiaomi HyperOS China MiStore Demo"
       },
@@ -51,7 +102,7 @@
           "os": "OS2.0.104.0.VOXCNDM",
           "android": "15.0",
           "release": "2025-05-22",
-          "recovery": "",
+          "recovery": "jinghu_demo-ota_full-OS2.0.104.0.VOXCNDM-user-15.0-e07ac2b871.zip",
           "fastboot": "jinghu_demo-images-OS2.0.104.0.VOXCNDM-userroot-20250519.0000.00-15.0-cn-a6ec343bf7.tgz"
         }
       }
