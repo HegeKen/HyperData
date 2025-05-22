@@ -65,9 +65,9 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
-				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', "dada", "haotian","xuanyuan", 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
-				 'liuqin', 'yudi','sheng', "uke", "muyu", 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona',
-				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', "dada", "haotian","xuanyuan", "dijun", 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
+				 'liuqin', 'yudi','sheng', "uke", "muyu", "jinghu",'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona',
+				 'zijin', 'ziyi', 'yuechu', 'chenfeng', "luming",
 				 'fire', 'earth', 'sky', 'gale', 'lake', 'flame', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', "emerald_r", 'peridot', 'rodin',"onyx", 'alioth',
