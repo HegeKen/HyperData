@@ -4,7 +4,7 @@
     "zh": "小米平板7 Ultra",
     "en": "Xiaomi Pad 7 Ultra"
   },
-  "code": "",
+  "code": "OX",
   "suppports": [
     "OS2.0"
   ],
@@ -14,5 +14,47 @@
   "type": "tablet",
   "miui": "no",
   "merged": "no",
-  "branches": []
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "jinghu_demo",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米平板7 Ultra",
+        "en": "Xiaomi Pad 7 Ultra"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.104.0.VOXCNDM": {
+          "os": "OS2.0.104.0.VOXCNDM",
+          "android": "15.0",
+          "release": "2025-05-22",
+          "recovery": "",
+          "fastboot": "jinghu_demo-images-OS2.0.104.0.VOXCNDM-userroot-20250519.0000.00-15.0-cn-a6ec343bf7.tgz"
+        }
+      }
+    }
+  ]
 }

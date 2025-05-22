@@ -365,6 +365,12 @@ flags = {
 	"AMETHYSTDEMO":"amethyst",
 	"amethyst":"amethyst",
 	"AMETHYST":"amethyst",
+	"dijun":"dijun",
+	"dijun_demo":"dijun",
+	"jinghu":"jinghu",
+	"jinghu_demo":"jinghu",
+	"luming":"luming",
+	"luming_demo":"luming",
 	"earth_eea_sf_global":"earth",
 	"EARTHEEASFGlobal":"earth",
 	"ruyi_tw_global":"ruyi",
@@ -2133,7 +2139,10 @@ def writeData(filename):
 			rec_spot = 0
 		flag = filename.split(rec_seperator)[rec_spot]
 	elif ".tgz" in filename:
-		flag = filename.split('_images')[0]
+		if "-A1" in filename or "userroot" in filename:
+			flag = filename.split('-images')[0]
+		else:
+			flag = filename.split('_images')[0]
 	print("发现\t"+flag+"\t分支有未收录的新版本")
 	file.close()
 
@@ -2168,7 +2177,7 @@ def getDeviceCode(filename):
 			writeFlag(flag, "")
 			return 0
 	elif ".tgz" in filename:
-		if "-A1" in filename:
+		if "-A1" in filename or "userroot" in filename:
 			flag = filename.split('-images')[0]
 		else:
 			flag = filename.split('_images')[0]
@@ -2269,7 +2278,7 @@ def getData(filename):
 	else:
 		if filename.endswith(".tgz"):
 			filetype = "fastboot"
-			if "-A1" in filename:
+			if "-A1" in filename or "userroot" in filename:
 				android = filename.split("images-")[1].split("-")[3]
 				version = filename.split("images-")[1].split("-")[0]
 				code = filename.split('-images')[0]

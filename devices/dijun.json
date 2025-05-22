@@ -14,5 +14,92 @@
   "type": "phone",
   "miui": "no",
   "merged": "no",
-  "branches": []
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "dijun",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15S Pro",
+        "en": "Xiaomi 15S Pro"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.121.0.VODCNXM": {
+          "os": "OS2.0.121.0.VODCNXM",
+          "android": "15.0",
+          "release": "2025-05-22",
+          "recovery": "",
+          "fastboot": "dijun-images-OS2.0.121.0.VODCNXM-userroot-20250516.0000.00-15.0-cn-79d97684f3.tgz",
+          "ctelecom": "dijun-images-OS2.0.121.0.VODCNXM-userroot-20250516.0000.00-15.0-cn_chinatelecom-d345fca988.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "dijun_demo",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15S Pro",
+        "en": "Xiaomi 15S Pro"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.109.0.VODCNDM": {
+          "os": "OS2.0.109.0.VODCNDM",
+          "android": "15.0",
+          "release": "2025-05-22",
+          "recovery": "",
+          "fastboot": "",
+          "ctelecom": "dijun_demo-images-OS2.0.109.0.VODCNDM-userroot-20250516.0000.00-15.0-cn_chinatelecom-ea2e1fc18f.tgz"
+        }
+      }
+    }
+  ]
 }

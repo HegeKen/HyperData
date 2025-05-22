@@ -4,7 +4,7 @@
     "zh": "小米 Civi 5 Pro",
     "en": "Xiaomi Civi 5 Pro"
   },
-  "code": "",
+  "code": "OI",
   "suppports": [
     "OS2.0"
   ],
@@ -14,5 +14,92 @@
   "type": "phone",
   "miui": "no",
   "merged": "no",
-  "branches": []
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "luming",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Civi 5 Pro",
+        "en": "Xiaomi Civi 5 Pro"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.105.0.VOICNXM": {
+          "os": "OS2.0.105.0.VOICNXM",
+          "android": "15.0",
+          "release": "2025-05-22",
+          "recovery": "",
+          "fastboot": "luming_images_OS2.0.105.0.VOICNXM_20250514.0000.00_15.0_cn_24f8a2dc3d.tgz",
+          "ctelecom": "luming_images_OS2.0.105.0.VOICNXM_20250514.0000.00_15.0_cn_chinatelecom_f473dec275.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "luming_demo",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "",
+        "en": ""
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.103.0.VOICNDM": {
+          "os": "OS2.0.103.0.VOICNDM",
+          "android": "15.0",
+          "release": "2025-05-22",
+          "recovery": "",
+          "fastboot": "luming_demo_images_OS2.0.103.0.VOICNDM_20250518.0000.00_15.0_cn_4cb49c20b7.tgz",
+          "ctelecom": "luming_demo_images_OS2.0.103.0.VOICNDM_20250518.0000.00_15.0_cn_chinatelecom_740c041583.tgz"
+        }
+      }
+    }
+  ]
 }
