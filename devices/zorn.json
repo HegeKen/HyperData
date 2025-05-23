@@ -47,6 +47,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.200.15.VOKCNXM": {
+					"os": "OS2.0.200.15.VOKCNXM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "zorn-ota_full-OS2.0.200.15.VOKCNXM-user-15.0-a4d63ef457.zip",
+					"fastboot": ""
+				},
 				"OS2.0.200.9.VOKCNXM": {
 					"os": "OS2.0.200.9.VOKCNXM",
 					"android": "15.0",
@@ -320,7 +327,7 @@
 					"android": "15.0",
 					"release": "2025-05-18",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.103.0.VOKTWXM-user-15.0-7aff77718d.zip",
-					"fastboot": ""
+					"fastboot": "zorn_tw_global_images_OS2.0.103.0.VOKTWXM_20250507.0000.00_15.0_tw_8ddcd689c0.tgz"
 				},
 				"OS2.0.102.0.VOKTWXM": {
 					"os": "OS2.0.102.0.VOKTWXM",
@@ -379,7 +386,7 @@
 					"android": "15.0",
 					"release": "2025-05-18",
 					"recovery": "zorn_global-ota_full-OS2.0.105.0.VOKMIXM-user-15.0-6dd5e0ed6d.zip",
-					"fastboot": ""
+					"fastboot": "zorn_global_images_OS2.0.105.0.VOKMIXM_20250507.0000.00_15.0_global_7c88478e81.tgz"
 				},
 				"OS2.0.104.0.VOKMIXM": {
 					"os": "OS2.0.104.0.VOKMIXM",
