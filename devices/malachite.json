@@ -55,8 +55,8 @@
 					"android": "15.0",
 					"release": "2025-05-14",
 					"recovery": "malachite-ota_full-OS2.0.11.0.VOOCNXM-user-15.0-864e8df88f.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "malachite_images_OS2.0.11.0.VOOCNXM_20250508.0000.00_15.0_cn_4a42ca87f5.tgz",
+					"ctelecom": "malachite_images_OS2.0.11.0.VOOCNXM_20250508.0000.00_15.0_cn_chinatelecom_e7716df5fd.tgz"
 				},
 				"OS2.0.10.0.VOOCNXM": {
 					"os": "OS2.0.10.0.VOOCNXM",
@@ -469,6 +469,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.4.0.VOOEUXM": {
+					"os": "OS2.0.4.0.VOOEUXM",
+					"android": "15.0",
+					"release": "2025-05-23",
+					"recovery": "malachite_eea_global-ota_full-OS2.0.4.0.VOOEUXM-user-15.0-49f82b0f43.zip",
+					"fastboot": ""
+				},
 				"OS2.0.3.0.VOOEUXM": {
 					"os": "OS2.0.3.0.VOOEUXM",
 					"android": "15.0",
@@ -773,7 +780,7 @@
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.2.0.VOOTRXM-user-15.0-d6594a4b4c.zip",
-					"fastboot": ""
+					"fastboot": "malachite_tr_global_images_OS2.0.2.0.VOOTRXM_20250512.0000.00_15.0_tr_ef10b3e2cb.tgz"
 				},
 				"OS2.0.1.0.VOOTRXM": {
 					"os": "OS2.0.1.0.VOOTRXM",
@@ -839,7 +846,7 @@
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.2.0.VOOJPXM-user-15.0-8c1b3348b1.zip",
-					"fastboot": ""
+					"fastboot": "malachite_jp_global_images_OS2.0.2.0.VOOJPXM_20250512.0000.00_15.0_jp_439d8083ed.tgz"
 				},
 				"OS2.0.1.0.VOOJPXM": {
 					"os": "OS2.0.1.0.VOOJPXM",

@@ -51,7 +51,7 @@
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "degas_tw_global-ota_full-OS2.0.102.0.VNETWXM-user-15.0-2fbbbc14d6.zip",
-					"fastboot": ""
+					"fastboot": "degas_tw_global_images_OS2.0.102.0.VNETWXM_20250506.0000.00_15.0_tw_180577c179.tgz"
 				},
 				"OS2.0.101.0.VNETWXM": {
 					"os": "OS2.0.101.0.VNETWXM",
@@ -472,7 +472,7 @@
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "degas_id_global-ota_full-OS2.0.102.0.VNEIDXM-user-15.0-b96652c152.zip",
-					"fastboot": ""
+					"fastboot": "degas_id_global_images_OS2.0.102.0.VNEIDXM_20250506.0000.00_15.0_id_6ef6c4c849.tgz"
 				},
 				"OS2.0.101.0.VNEIDXM": {
 					"os": "OS2.0.101.0.VNEIDXM",
@@ -559,7 +559,7 @@
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "degas_tr_global-ota_full-OS2.0.102.0.VNETRXM-user-15.0-a71e17c31a.zip",
-					"fastboot": ""
+					"fastboot": "degas_tr_global_images_OS2.0.102.0.VNETRXM_20250506.0000.00_15.0_tr_2422b274f8.tgz"
 				},
 				"OS2.0.101.0.VNETRXM": {
 					"os": "OS2.0.101.0.VNETRXM",
@@ -641,6 +641,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VNEMXAT": {
+					"os": "OS2.0.2.0.VNEMXAT",
+					"android": "15.0",
+					"release": "2025-05-23",
+					"recovery": "degas_mx_at_global-ota_full-OS2.0.2.0.VNEMXAT-user-15.0-b9ac68fd05.zip",
+					"fastboot": ""
+				},
 				"OS1.0.8.0.UNEMXAT": {
 					"os": "OS1.0.8.0.UNEMXAT",
 					"android": "14.0",
