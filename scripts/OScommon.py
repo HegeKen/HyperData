@@ -40,7 +40,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["dijun", "jinghu", "luming", "onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "dijun", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
+currentStable = ["dijun", "jinghu", "luming", "onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -2177,7 +2177,7 @@ def getDeviceCode(filename):
 			writeFlag(flag, "")
 			return 0
 	elif ".tgz" in filename:
-		if "-A1" in filename or "userroot" in filename:
+		if "-images" in filename:
 			flag = filename.split('-images')[0]
 		else:
 			flag = filename.split('_images')[0]
@@ -2282,6 +2282,7 @@ def getData(filename):
 				android = filename.split("images-")[1].split("-")[3]
 				version = filename.split("images-")[1].split("-")[0]
 				code = filename.split('-images')[0]
+				print(android,version,code)
 			else:
 				android = filename.split("images_")[1].split("_")[2]
 				version = filename.split("images_")[1].split("_")[0]
