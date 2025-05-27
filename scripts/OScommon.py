@@ -2278,7 +2278,7 @@ def getData(filename):
 	else:
 		if filename.endswith(".tgz"):
 			filetype = "fastboot"
-			if "-A1" in filename or "userroot" in filename:
+			if "-images" in filename:
 				android = filename.split("images-")[1].split("-")[3]
 				version = filename.split("images-")[1].split("-")[0]
 				code = filename.split('-images')[0]

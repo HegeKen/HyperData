@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-05-26 21:14:17",
+    "time": "2025-05-27 10:55:56",
     "developing": "no",
     "roms": [
+      {
+        "code": "star",
+        "name": {
+          "zh": "小米 11 Pro / Ultra",
+          "en": "Mi 11 Pro / Ultra"
+        },
+        "rom": "OS2.0.5.0.UKAMIXM"
+      },
       {
         "code": "agate",
         "name": {
@@ -33,7 +41,7 @@
           "zh": "小米 15 Ultra",
           "en": "Xiaomi 15 Ultra"
         },
-        "rom": "OS2.0.103.0.VOATWXM; OS2.0.103.0.VOAIDXM"
+        "rom": "OS2.0.103.0.VOATWXM; OS2.0.104.0.VOARUXM; OS2.0.103.0.VOAIDXM"
       },
       {
         "code": "sheng",
@@ -84,6 +92,22 @@
         "rom": "OS2.0.5.0.VNOTWXM; OS2.0.4.0.VNOINXM; OS2.0.5.0.VNOIDXM; OS2.0.5.0.VNOTRXM"
       },
       {
+        "code": "beryl",
+        "name": {
+          "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
+          "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
+        },
+        "rom": "OS2.0.2.0.VOQTWXM"
+      },
+      {
+        "code": "amethyst",
+        "name": {
+          "zh": "Redmi Note 14 Pro+",
+          "en": "Redmi Note 14 Pro+"
+        },
+        "rom": "OS2.0.4.0.VOPRUXM"
+      },
+      {
         "code": "mondrian",
         "name": {
           "zh": "Redmi K60 / POCO F5 Pro",
@@ -106,6 +130,30 @@
           "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
         },
         "rom": "OS2.0.105.0.VNNTRXM"
+      },
+      {
+        "code": "zorn",
+        "name": {
+          "zh": "REDMI K80 / POCO F7 Pro",
+          "en": "REDMI K80 / POCO F7 Pro"
+        },
+        "rom": "OS2.0.111.0.VOKEUXM; OS2.0.106.0.VOKRUXM"
+      },
+      {
+        "code": "warm",
+        "name": {
+          "zh": "Redmi A4 5G / POCO C75 5G",
+          "en": "Redmi A4 5G / POCO C75 5G"
+        },
+        "rom": "OS2.0.2.0.VGVINXM"
+      },
+      {
+        "code": "serenity",
+        "name": {
+          "zh": "REDMI A5 / POCO C71",
+          "en": "REDMI A5 / POCO C71"
+        },
+        "rom": "A15.0.2.0.VGWLMCR"
       },
       {
         "code": "moon",
