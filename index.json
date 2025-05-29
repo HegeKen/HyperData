@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-05-29 12:37:18",
+    "time": "2025-05-29 20:58:00",
     "developing": "no",
     "roms": [
       {
@@ -129,7 +129,7 @@
           "zh": "小米平板 6S Pro 12.4",
           "en": "Xiaomi Pad 6S Pro 12.4"
         },
-        "rom": "OS2.0.107.0.VNXMIXM; OS2.0.104.0.VNXEUXM"
+        "rom": "OS2.0.107.0.VNXMIXM; OS2.0.104.0.VNXEUXM; OS2.0.104.0.VNXRUXM; OS2.0.104.0.VNXIDXM"
       },
       {
         "code": "uke",
@@ -137,7 +137,7 @@
           "zh": "小米平板7",
           "en": "Xiaomi Pad 7"
         },
-        "rom": "OS2.0.201.0.VOZCNXM; OS2.0.103.0.VOZTWXM; OS2.0.102.0.VOZINXM; OS2.0.103.0.VOZIDXM"
+        "rom": "OS2.0.201.0.VOZCNXM; OS2.0.103.0.VOZTWXM; OS2.0.103.0.VOZRUXM; OS2.0.102.0.VOZINXM; OS2.0.103.0.VOZIDXM"
       },
       {
         "code": "muyu",
@@ -148,12 +148,28 @@
         "rom": "OS2.0.201.0.VOYCNXM; OS2.0.103.0.VOYTWXM; OS2.0.103.0.VOYRUXM"
       },
       {
+        "code": "goku",
+        "name": {
+          "zh": "小米 MIX Fold 4",
+          "en": "Xiaomi MIX Fold 4"
+        },
+        "rom": "OS2.0.203.0.VNVCNXM"
+      },
+      {
+        "code": "ruyi",
+        "name": {
+          "zh": "小米 MIX Flip",
+          "en": "Xiaomi MIX Flip"
+        },
+        "rom": "OS2.0.204.0.VNICNXM"
+      },
+      {
         "code": "lake",
         "name": {
           "zh": "Redmi 14C",
           "en": "Redmi 14C"
         },
-        "rom": "OS1.0.5.0.UGTCNXM; OS2.0.1.0.VGTTWXM; OS1.0.10.0.UGTRUXM; OS2.0.1.0.VGTIDXM"
+        "rom": "OS1.0.5.0.UGTCNXM; OS2.0.1.0.VGTTWXM; OS1.0.10.0.UGTRUXM; OS2.0.1.0.VGTIDXM; OS2.0.1.0.VGTTRXM"
       },
       {
         "code": "light",
@@ -242,6 +258,14 @@
           "en": "Redmi Turbo 3 / POCO F6"
         },
         "rom": "OS2.0.103.0.VNPTWXM; OS2.0.104.0.VNPMIXM; OS2.0.103.0.VNPRUXM; OS2.0.104.0.VNPINXM; OS2.0.103.0.VNPIDXM"
+      },
+      {
+        "code": "diting",
+        "name": {
+          "zh": "Redmi K50 至尊版 / 小米 12T Pro",
+          "en": "Redmi K50 Ultra / Xiaomi 12T Pro"
+        },
+        "rom": "OS2.0.3.0.VLFEUXM"
       },
       {
         "code": "mondrian",
