@@ -61,7 +61,7 @@
 					"android": "14.0",
 					"release": "2025-05-26",
 					"recovery": "miui_LAKE_OS1.0.5.0.UGTCNXM_540ab767e0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "lake_images_OS1.0.5.0.UGTCNXM_20250513.0000.00_14.0_cn_893506fc78.tgz"
 				},
 				"OS1.0.3.0.UGTCNXM": {
 					"os": "OS1.0.3.0.UGTCNXM",
@@ -195,6 +195,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.VGTMIXM": {
+					"os": "OS2.0.3.0.VGTMIXM",
+					"android": "15.0",
+					"release": "2025-06-03",
+					"recovery": "lake_global-ota_full-OS2.0.3.0.VGTMIXM-user-15.0-b69c2238cb.zip",
+					"fastboot": ""
+				},
 				"OS2.0.1.0.VGTMIXM": {
 					"os": "OS2.0.1.0.VGTMIXM",
 					"android": "15.0",
@@ -527,7 +534,7 @@
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "lake_id_global-ota_full-OS2.0.1.0.VGTIDXM-user-15.0-fa0d794c11.zip",
-					"fastboot": ""
+					"fastboot": "lake_id_global_images_OS2.0.1.0.VGTIDXM_20250506.0000.00_15.0_id_77de8c19a4.tgz"
 				},
 				"OS1.0.6.0.UGTIDXM": {
 					"os": "OS1.0.6.0.UGTIDXM",
