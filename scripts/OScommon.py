@@ -2139,7 +2139,7 @@ def writeData(filename):
 			rec_spot = 0
 		flag = filename.split(rec_seperator)[rec_spot]
 	elif ".tgz" in filename:
-		if "-A1" in filename or "userroot" in filename:
+		if "-images" in filename:
 			flag = filename.split('-images')[0]
 		else:
 			flag = filename.split('_images')[0]
