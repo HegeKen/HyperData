@@ -383,6 +383,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "serenity_id_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.4.0.VGWIDXM": {
+					"os": "A15.0.4.0.VGWIDXM",
+					"android": "15.0",
+					"release": "2025-06-05",
+					"recovery": "miui_SERENITYIDGlobal_A15.0.4.0.VGWIDXM_d6770f0822_15.0.zip",
+					"fastboot": "serenity_id_global-images-A15.0.4.0.VGWIDXM-user-20250527.0000.00-15.0-id-3446e0a2b3.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 南非MTN运营商定制版",
 				"en": "Xiaomi HyperOS South Africa MTN Carrier Edtion"
 			},

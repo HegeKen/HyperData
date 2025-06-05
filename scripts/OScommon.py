@@ -40,7 +40,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-currentStable = ["dijun", "jinghu", "luming", "onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
+currentStable = ["koto", "taiko", "dijun", "jinghu", "luming", "onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",
@@ -54,7 +54,7 @@ currentStable = ["dijun", "jinghu", "luming", "onyx", "poussin", "citrine", "ser
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["poussin", "citrine", "serenity", "emerald_r", "xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
+only_os = ["koto", "taiko", "jinghu", "luming", "poussin", "citrine", "serenity", "emerald_r", "xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
 					 "uke", "muyu",	"dada", "haotian", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "flame", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
@@ -73,7 +73,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', "emerald_r", 'peridot', 'rodin',"onyx", 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', "zorn", "miro",
-				 'yunluo', 'xun', 'flare', 'spark', 'dizi', 'ruan', 'warm', "serenity", 'evergreen', 'rock', 'moon', 'air', 'moonstone']
+				 'yunluo', 'xun', 'flare', 'spark', "koto", "taiko", 'dizi', 'ruan', 'warm', "serenity", 'evergreen', 'rock', 'moon', 'air', 'moonstone']
 
 branches = [
 	{
@@ -726,6 +726,13 @@ flags = {
 	"ZIRCONDCGlobal":"zircon",
 	"beryl":"beryl",
 	"BERYL":"beryl",
+	"taiko_tw_global": "taiko",
+	"taiko_global": "taiko",
+	"koto_global": "koto",
+	"koto_tw_global": "koto",
+	"koto_eea_global": "koto",
+	"taiko_eea_global": "taiko",
+	"taiko_in_global": "taiko",
 	"DEGASDCGlobal":"degas",
 	"ROTHKODCGlobal":"rothko",
 	"degas_dc_global": "degas",
@@ -2061,6 +2068,8 @@ flags = {
 	"OBSIDIANMXATGlobal":"obsidian",
 	"obsidian_mx_at_global": "obsidian",
 	"EMERALDRRUGlobal":"emerald_r",
+	"serenity_id_global":"serenity",
+	"SERENITYIDGlobal":"serenity",
 	"emerald_r_ru_global":"emerald_r"
 }
 
@@ -2263,7 +2272,6 @@ def getData(filename):
 			code = data[0]
 			device = data[1]
 		else:
-			print(filename.split("_")[1])
 			if ".EP" in filename:
 				devtag = filename.split("_")[1].split("EPS")[0].lower()
 			else:
@@ -2282,7 +2290,6 @@ def getData(filename):
 				android = filename.split("images-")[1].split("-")[3]
 				version = filename.split("images-")[1].split("-")[0]
 				code = filename.split('-images')[0]
-				print(android,version,code)
 			else:
 				android = filename.split("images_")[1].split("_")[2]
 				version = filename.split("images_")[1].split("_")[0]

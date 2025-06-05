@@ -1,0 +1,133 @@
+{
+	"device": "koto",
+	"name": {
+		"zh": "REDMI 平板 2 4G",
+		"en": "REDMI Pad 2 4G"
+	},
+	"code": "OW",
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
+	"type": "tablet",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "koto_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 4G",
+				"en": "REDMI Pad 2 4G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOWTWXM": {
+					"os": "OS2.0.100.0.VOWTWXM",
+					"android": "15.0",
+					"release": "2025-06-05",
+					"recovery": "koto_tw_global-ota_full-OS2.0.100.0.VOWTWXM-user-15.0-431e83cf17.zip",
+					"fastboot": "koto_tw_global_images_OS2.0.100.0.VOWTWXM_20250511.0000.00_15.0_tw_945f1c16bc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "koto_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 4G",
+				"en": "REDMI Pad 2 4G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOWMIXM": {
+					"os": "OS2.0.100.0.VOWMIXM",
+					"android": "15.0",
+					"release": "2025-06-05",
+					"recovery": "koto_global-ota_full-OS2.0.100.0.VOWMIXM-user-15.0-2735a3a69e.zip",
+					"fastboot": "koto_global_images_OS2.0.100.0.VOWMIXM_20250429.0000.00_15.0_global_d5fe4f10c8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "koto_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 4G",
+				"en": "REDMI Pad 2 4G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.104.0.VOWEUXM": {
+					"os": "OS2.0.104.0.VOWEUXM",
+					"android": "15.0",
+					"release": "2025-06-05",
+					"recovery": "koto_eea_global-ota_full-OS2.0.104.0.VOWEUXM-user-15.0-0928066d70.zip",
+					"fastboot": "koto_eea_global_images_OS2.0.104.0.VOWEUXM_20250527.0000.00_15.0_eea_72f6f6e0f5.tgz"
+				}
+			}
+		}
+	]
+}
