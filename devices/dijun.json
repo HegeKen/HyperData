@@ -17,6 +17,47 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "dijun",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15S Pro",
+        "en": "Xiaomi 15S Pro"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.4.VODCNXM": {
+          "os": "OS2.0.201.4.VODCNXM",
+          "android": "15.0",
+          "release": "2025-06-05",
+          "recovery": "dijun-ota_full-OS2.0.201.4.VODCNXM-user-15.0-967c56d6aa.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
