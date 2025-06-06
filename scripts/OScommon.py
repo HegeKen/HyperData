@@ -54,7 +54,7 @@ currentStable = ["koto", "taiko", "dijun", "jinghu", "luming", "onyx", "poussin"
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["koto", "taiko", "jinghu", "luming", "poussin", "citrine", "serenity", "emerald_r", "xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
+only_os = ["violin", "koto", "taiko", "jinghu", "luming", "poussin", "citrine", "serenity", "emerald_r", "xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
 					 "uke", "muyu",	"dada", "haotian", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "flame", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]
@@ -66,7 +66,7 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
 				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', "dada", "haotian","xuanyuan", "dijun", 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
-				 'liuqin', 'yudi','sheng', "uke", "muyu", "jinghu",'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona',
+				 'liuqin', 'yudi','sheng', "uke", "muyu", "jinghu", "violin", 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'mona',
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', "luming",
 				 'fire', 'earth', 'sky', 'gale', 'lake', 'flame', 'evergo', 'light', 'lightcm', 'veux', "xaga", 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
@@ -344,6 +344,7 @@ flags = {
 	"amethyst_tw_global":"amethyst",
 	"AMETHYSTIDGlobal":"amethyst",
 	"xuanyuan":"xuanyuan",
+	"violin": "violin",
 	"xuanyuan_demo":"xuanyuan",
 	"xuanyuan_in_global":"xuanyuan",
 	"emerald_r_eea_global":"emerald_r",
