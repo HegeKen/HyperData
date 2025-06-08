@@ -17,9 +17,13 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 sdk = {
+	"16.0": "36",
 	"16": "36",
 	"15": "35",
+	"15.0": "35",
 	"14": "34",
+	"14.0": "34",
+	"13.0": "33",
 	"13": "33"
 }
 
@@ -2579,11 +2583,62 @@ def getChangelog(encrypted_data, device):
 			print_log(data["LatestRom"]["changelog"])
 		if "CurrentRom" in data:
 			print("当前版本更新日志：")
+			print(device)
 			print_log(data["CurrentRom"]["changelog"])
 		else:
 			print(data)
 			return 0
 	response.close()
+
+def getChangelog2DB(encrypted_data, device,version):
+	headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
+				 "Connection": "Keep-Alive",
+				 "Content-Type": "application/x-www-form-urlencoded",
+				 "Cache-Control": "no-cache",
+				 "Host": "update.miui.com",
+				 "Accept-Encoding": "gzip",
+				 "Content-Length": "795",
+				 "Cookie": "serviceToken=;"
+				 }
+	data = "q=" + encrypted_data + "&s=1&t="
+	response = requests.post(check_url, headers=headers, data=data)
+	if "code" in response.text:
+		print(json.loads(response.text)["desc"])
+	else:
+		data = miui_decrypt(response.text.split("q=")[0])
+		if "LatestRom" in data:
+			if data['LatestRom']['md5'] == data['CurrentRom']['md5']:
+				print(device,version,"最新版本更新日志：")
+				print_log(data["LatestRom"]["changelog"])
+			else:
+				if "changelog" in data['CurrentRom']:
+					print(device,version,"当前版本更新日志：")
+					print_log(data["CurrentRom"]["changelog"])
+				else:
+					i = 0
+		else:
+			return 0
+	response.close()
+
+def parse_version(version):
+	try:
+		if version.startswith("OS"):
+			body = version[2:]
+		elif version.startswith("A"):
+			body = version[1:]
+		else:
+			return None
+		version_part = body.split(".")
+		numeric_parts = tuple(map(int, version_part[:4]))
+		return numeric_parts
+	except Exception:
+		return None
+
+def compare(v1, v2):
+	if v1 is None or v2 is None:
+		return False
+	else:
+		return parse_version(v1) > parse_version(v2)
 
 def print_log(log):
 	for module in log:

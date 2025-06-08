@@ -1,73 +1,38 @@
 import OScommon
-import os
-import time
+import json
 
+def os_replace(ver):
+  if 'OS1' in ver:
+    return ver.replace('OS1', 'V816')
+  else:
+    return ver
 
-def entryChecker(data,device):
-	check =[]
-	# 1是有问题，0是没有问题
-	code = data['code']
-	for branch in data['branches']:
-		if data['device'] in branch['branchCode']:
-			roms = branch['roms']
-			bname = branch['name']['zh']
-			menu_items = branch['table']
-			if len(menu_items) != len(set(menu_items)):
-				print(device, bname, "菜单项重复")
-				check.append(1)
-			else:
-				for os_version, rom_info in roms.items():
-					if os_version[:5] not in data['suppports']:
-						if "Developer" in branch['name']['en']:
-							i = 0
-						else:
-							print(device, bname, os_version[:5], os_version, "大版本号没有记录")
-							check.append(1)
-					if rom_info['android'] not in data['android']:
-						print(device, bname, rom_info['android'], os_version, "Android版本号没有记录")
-						check.append(1)
-					if rom_info['recovery'] != "" and rom_info['recovery'].endswith(".zip") and os_version in rom_info['recovery']:
-						i = 0
-					elif rom_info['recovery'] == "":
-						i = 0
-					else:
-						if "Developer" in branch['name']['en']:
-							i = 0
-						else:
-							print(device, bname, os_version, "卡刷包的信息不对")
-							check.append(1)
-					for i in range(4,len(menu_items)):
-						if rom_info[menu_items[i]] != "" and rom_info[menu_items[i]].endswith(".tgz") and os_version in rom_info[menu_items[i]]:
-							i = 0
-						elif rom_info[menu_items[i]] == "":
-							i = 0
-						else:
-							if "Developer" in branch['name']['en']:
-								i = 0
-							else:
-								print(device, bname, os_version, "线刷包的信息不对")
-								check.append(1)
-					if os_version != rom_info['os']:
-						print(device, bname, os_version, "版本号不匹配")
-						check.append(1)
-					else:
-						if branch['ep'] == "1" or branch['branchtag'] == 'X':
-							i = 0
-						else:
-							if code+branch['tag'] in os_version:
-								i = 0
-							else:
-								print(device, bname, os_version, "版本号不匹配")
-							check.append(1)
-		else:
-			print(device, "机型与分支不配，请核实", branch['branchCode'])
-			check.append(1)
-	return check
-	
-errors = []
-device = ['star']
-for device in OScommon.currentStable:
-	if entryChecker(OScommon.localData(device),device):
-		continue
-	else:
-		continue
+langs = ['zh_CN', 'en_US']
+pre = "SELECT id FROM roms"
+result = OScommon.db_job(pre)
+if len(result) > 0:
+  ids = [x[0] for x in result]
+else:
+  i = 0
+ids.reverse()
+for id in ids:
+  info = OScommon.db_job("SELECT device,code,region,branch,android,version,zone FROM roms WHERE id = %s" % (id))
+  if len(info[0]) > 0:
+    current = info[0]
+    OScommon.HyperOSForm['d'] = current[1]
+    OScommon.HyperOSForm['R'] = current[2]
+    OScommon.HyperOSForm['b'] = current[3]
+    OScommon.HyperOSForm['pn'] = current[1].split('_global')[0]
+    OScommon.HyperOSForm['c'] = current[4]
+    OScommon.HyperOSForm['sdk'] = OScommon.sdk[current[4]]
+    OScommon.HyperOSForm['p'] = current[0]
+    OScommon.HyperOSForm['options']['zone'] = current[6]
+    OScommon.HyperOSForm['options']['cv'] = os_replace(current[5])
+    OScommon.HyperOSForm['v'] = os_replace(current[5])
+    OScommon.HyperOSForm['ov'] = os_replace(current[5])
+    for lang in langs:
+      OScommon.HyperOSForm['l'] = lang
+      encrypted_form = OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm))
+      OScommon.getChangelog2DB(encrypted_form, current[0],current[5])
+  else:
+    continue

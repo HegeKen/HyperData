@@ -134,6 +134,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.203.0.VNNCNXM": {
+					"os": "OS2.0.203.0.VNNCNXM",
+					"android": "15.0",
+					"release": "2025-06-07",
+					"recovery": "rothko-ota_full-OS2.0.203.0.VNNCNXM-user-15.0-c322df444c.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.202.0.VNNCNXM": {
 					"os": "OS2.0.202.0.VNNCNXM",
 					"android": "15.0",
@@ -1040,19 +1048,19 @@
 					"recovery": "miui_ROTHKORUGlobal_OS1.0.6.0.UNNRUXM_2821c1a99c_14.0.zip",
 					"fastboot": "rothko_ru_global_images_OS1.0.6.0.UNNRUXM_20241022.0000.00_14.0_ru_35a1f25a4c.tgz"
 				},
-				"OS1.0.3.0.UNNRUXM": {
-					"os": "OS1.0.3.0.UNNRUXM",
-					"android": "14.0",
-					"release": "2024-10-01",
-					"recovery": "miui_ROTHKORUGlobal_OS1.0.3.0.UNNRUXM_970c513dc5_14.0.zip",
-					"fastboot": ""
-				},
 				"OS1.0.5.0.UNNRUXM": {
 					"os": "OS1.0.5.0.UNNRUXM",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_ROTHKORUGlobal_OS1.0.5.0.UNNRUXM_7d9239c3b2_14.0.zip",
 					"fastboot": "rothko_ru_global_images_OS1.0.5.0.UNNRUXM_20240914.0000.00_14.0_ru_960d3103f5.tgz"
+				},
+				"OS1.0.3.0.UNNRUXM": {
+					"os": "OS1.0.3.0.UNNRUXM",
+					"android": "14.0",
+					"release": "2024-09-26",
+					"recovery": "miui_ROTHKORUGlobal_OS1.0.3.0.UNNRUXM_970c513dc5_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},

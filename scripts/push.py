@@ -55,6 +55,20 @@ f.close()
 errors = []
 for device in OScommon.currentStable:
 	checker = OScommon.entryChecker(OScommon.localData(device),device)
+	devdata = OScommon.localData(device)
+	devlength = len(devdata["branches"])
+	for num in range(devlength): 	
+		branch = devdata["branches"][num]["branchtag"]
+		if branch == 'X' or branch == 'D' or "Enterprise" in devdata["branches"][num]["name"]["en"] or "EP" in devdata["branches"][num]["name"]["en"]:
+			i = 0
+		else:
+			roms = [list(devdata['branches'][num]["roms"].keys())][0]
+			for i in range(len(roms)-1):
+				if OScommon.compare(roms[i],roms[i+1]) == False:
+					errors.append(1)
+					print(device,roms[i],roms[i+1],"版本顺序有误，请核实")
+				else:
+					i = 0
 	if checker ==0:
 		i = 0
 	else:
