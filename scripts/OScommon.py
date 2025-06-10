@@ -24,7 +24,35 @@ sdk = {
 	"14": "34",
 	"14.0": "34",
 	"13.0": "33",
-	"13": "33"
+	"13": "33",
+	"12": "31",
+	"12.0": "31",
+	"11": "30",
+	"11.0": "30",
+	"10": "29",
+	"10.0": "29",
+	"9": "28",
+	"9.0": "28",
+	"8.1": "27",
+	"8": "26",
+	"8.0": "26",
+	"7.1": "25",
+	"7": "24",
+	"7.0": "24",
+	"6": "23",
+	"6.0": "23",
+	"5.1": "22",
+	"5": "21",
+	"5.0": "21",
+	"4.4": "19",
+	"4.3": "18",
+	"4.2": "17",
+	"4.1": "16",
+	"4": "14",
+	"4.0": "14",
+	"2.3": "9",
+	"2": "9",
+	"2.0": "9"
 }
 
 def android(ver):
@@ -36,6 +64,38 @@ def android(ver):
 		return "U"
 	elif ver == "13.0":
 		return "T"
+	elif ver == "12.0":
+		return "S"
+	elif ver == "11.0":
+		return "R"
+	elif ver == "10.0":
+		return "Q"
+	elif ver == "9.0":
+		return "P"
+	elif ver == "8.1":
+		return "O"
+	elif ver == "8.0":
+		return "O"
+	elif ver == "7.1":
+		return "N"
+	elif ver == "7.0":
+		return "N"
+	elif ver == "6.0":
+		return "M"
+	elif ver == "5.1":
+		return "L"
+	elif ver == "5.0":
+		return "L"
+	elif ver == "4.4":
+		return "K"
+	elif ver == "4.3":
+		return "J"
+	elif ver == "4.2":
+		return "J"
+	elif ver == "4.1":
+		return "J"
+	elif ver == "4.0":
+		return "I"
 	else:
 		return "W"
 
@@ -2607,18 +2667,27 @@ def getChangelog2DB(encrypted_data, device,version):
 	else:
 		data = miui_decrypt(response.text.split("q=")[0])
 		if "LatestRom" in data:
-			if data['LatestRom']['md5'] == data['CurrentRom']['md5']:
-				print(device,version,"最新版本更新日志：")
-				print_log(data["LatestRom"]["changelog"])
+			if "changelog" in data['LatestRom'] and data['LatestRom']['version'] == version:
+				log = data["LatestRom"]["changelog"]
+			elif "changelog" in data['CurrentRom'] and data['CurrentRom']['version'] == version:
+				log = data["CurrentRom"]["changelog"]
 			else:
-				if "changelog" in data['CurrentRom']:
-					print(device,version,"当前版本更新日志：")
-					print_log(data["CurrentRom"]["changelog"])
-				else:
-					i = 0
+				return False
+				i = 0
 		else:
-			return 0
+			return False
 	response.close()
+	return json.dumps(remove_spaces(log), ensure_ascii=False)
+
+def remove_spaces(d):
+	if isinstance(d, dict):
+		return {k: remove_spaces(v) for k, v in d.items() if v and not (isinstance(v, str) and v.isspace())}
+	elif isinstance(d, list):
+		return [remove_spaces(v) for v in d if v and not (isinstance(v, str) and v.isspace())]
+	elif isinstance(d, str):
+		return d.replace('"','^').replace("'", "^")
+	else:
+		return d
 
 def parse_version(version):
 	try:
