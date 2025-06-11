@@ -2686,7 +2686,7 @@ def remove_spaces(d):
 		return [remove_spaces(v) for v in d if v and not (isinstance(v, str) and v.isspace())]
 	elif isinstance(d, str):
 		# 往后从数据库读取时记得替换回来
-		return d.replace('%','$$').replace('"','^').replace("'", "^")
+		return d.replace('\b','').replace('%','$$').replace('"','^').replace("'", "^")
 	else:
 		return d
 

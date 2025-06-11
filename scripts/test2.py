@@ -18,7 +18,7 @@ else:
   i = 0
 ids.reverse()
 
-ids = ['46701']
+ids = ['24850']
 for id in ids:
   info = OScommon.db_job("SELECT device,code,region,branch,android,version,zone FROM roms WHERE id = %s" % (id))
   current = info[0]
