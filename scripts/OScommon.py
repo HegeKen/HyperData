@@ -2662,7 +2662,7 @@ def getChangelog2DB(encrypted_data, device,version):
 				 }
 	data = "q=" + encrypted_data + "&s=1&t="
 	response = requests.post(check_url, headers=headers, data=data)
-	if "code" in response.text:
+	if "'code'" in response.text:
 		print(json.loads(response.text)["desc"])
 	else:
 		data = miui_decrypt(response.text.split("q=")[0])
@@ -2685,7 +2685,8 @@ def remove_spaces(d):
 	elif isinstance(d, list):
 		return [remove_spaces(v) for v in d if v and not (isinstance(v, str) and v.isspace())]
 	elif isinstance(d, str):
-		return d.replace('"','^').replace("'", "^")
+		# 往后从数据库读取时记得替换回来
+		return d.replace('%','$$').replace('"','^').replace("'", "^")
 	else:
 		return d
 
