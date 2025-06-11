@@ -50,6 +50,8 @@ sdk = {
 	"4.1": "16",
 	"4": "14",
 	"4.0": "14",
+	"2.3.6": "10",
+	"2.3.5": "10",
 	"2.3": "9",
 	"2": "9",
 	"2.0": "9"
@@ -2686,7 +2688,7 @@ def remove_spaces(d):
 		return [remove_spaces(v) for v in d if v and not (isinstance(v, str) and v.isspace())]
 	elif isinstance(d, str):
 		# 往后从数据库读取时记得替换回来
-		return d.replace('\b','').replace('%','$$').replace('"','^').replace("'", "^")
+		return d.replace('\b','').replace('\t','').replace('%','$$').replace('"','^').replace("'", "^")
 	else:
 		return d
 

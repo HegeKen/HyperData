@@ -10,14 +10,14 @@ def os_replace(ver):
 langs = ['zh_CN', 'en_US']
 logs_zh = []
 logs_en = []
-pre = "SELECT id FROM roms"
+pre = "SELECT id FROM roms WHERE logs_zh IS NULL"
 result = OScommon.db_job(pre)
 if len(result) > 0:
   ids = [x[0] for x in result]
 else:
   i = 0
 ids.reverse()
-start = 22835
+start = 0
 i = 0
 for id in ids:
   i = i+1

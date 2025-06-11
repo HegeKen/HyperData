@@ -55,8 +55,8 @@
 					"android": "15.0",
 					"release": "2025-06-04",
 					"recovery": "beryl-ota_full-OS2.0.206.0.VOQCNXM-user-15.0-087435d404.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "beryl_images_OS2.0.206.0.VOQCNXM_20250529.0000.00_15.0_cn_fa7ab82f15.tgz",
+					"ctelecom": "beryl_images_OS2.0.206.0.VOQCNXM_20250529.0000.00_15.0_cn_chinatelecom_f49ecfdc4e.tgz"
 				},
 				"OS2.0.10.0.VOQCNXM": {
 					"os": "OS2.0.10.0.VOQCNXM",
@@ -715,6 +715,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.3.0.VOQTRXM": {
+					"os": "OS2.0.3.0.VOQTRXM",
+					"android": "15.0",
+					"release": "2025-06-11",
+					"recovery": "beryl_tr_global-ota_full-OS2.0.3.0.VOQTRXM-user-15.0-21153b05db.zip",
+					"fastboot": ""
+				},
 				"OS2.0.2.0.VOQTRXM": {
 					"os": "OS2.0.2.0.VOQTRXM",
 					"android": "15.0",
