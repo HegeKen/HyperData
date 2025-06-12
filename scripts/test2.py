@@ -54,11 +54,11 @@ if len(result) > 0:
 else:
   i = 0
 ids_en.reverse()
-start = 0
+start = 38000
 i = 0
 for id in ids_en:
   i = i+1
-  if start !=0 and id >=start:
+  if start !=0 and id <=start:
     continue
   else:
     info = OScommon.db_job("SELECT device,code,region,branch,android,version,zone FROM roms WHERE id = %s" % (id))
