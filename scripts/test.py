@@ -10,7 +10,7 @@ def os_replace(ver):
 langs = ['zh_CN', 'en_US']
 logs_zh = []
 logs_en = []
-pre = "SELECT id FROM roms WHERE logs_zh IS NULL"
+pre = "SELECT id FROM roms WHERE logs_zh IS NULL OR logs_en IS NULL"
 result = OScommon.db_job(pre)
 if len(result) > 0:
   ids = [x[0] for x in result]
