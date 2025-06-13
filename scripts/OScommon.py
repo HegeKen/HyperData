@@ -2483,6 +2483,7 @@ def checkExist(filename):
 				device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename = [item for item in getData(filename)]
 				writeData(filename)
 				checkDatabase(device, code, android, version, type, bigver, region,tag,zone, branch, filetype, filename)
+				# getChangelog2DB()
 				return "New ROM"
 	else:
 		return "UI Maybe"
