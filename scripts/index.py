@@ -54,35 +54,38 @@ with open('public/data/index.json', 'w', encoding='utf-8') as f:
 f.close()
 errors = []
 for device in OScommon.currentStable:
-	checker = OScommon.entryChecker(OScommon.localData(device),device)
-	devdata = OScommon.localData(device)
-	devlength = len(devdata["branches"])
-	for num in range(devlength): 	
-		branch = devdata["branches"][num]["branchtag"]
-		if branch == 'X' or branch == 'D' or "Enterprise" in devdata["branches"][num]["name"]["en"] or "EP" in devdata["branches"][num]["name"]["en"]:
-			i = 0
-		else:
-			roms = [list(devdata['branches'][num]["roms"].keys())][0]
-			for i in range(len(roms)-1):
-				if OScommon.compare(roms[i],roms[i+1]) == False:
-					errors.append(1)
-					print(device,roms[i],roms[i+1],"版本顺序有误，请核实")
-				else:
-					i = 0
-	if checker ==0:
+	if device in OScommon.unreleased:
 		i = 0
 	else:
-		errors.append(1)
+		checker = OScommon.entryChecker(OScommon.localData(device),device)
+		devdata = OScommon.localData(device)
+		devlength = len(devdata["branches"])
+		for num in range(devlength): 	
+			branch = devdata["branches"][num]["branchtag"]
+			if branch == 'X' or branch == 'D' or "Enterprise" in devdata["branches"][num]["name"]["en"] or "EP" in devdata["branches"][num]["name"]["en"]:
+				i = 0
+			else:
+				roms = [list(devdata['branches'][num]["roms"].keys())][0]
+				for i in range(len(roms)-1):
+					if OScommon.compare(roms[i],roms[i+1]) == False:
+						errors.append(1)
+						print(device,roms[i],roms[i+1],"版本顺序有误，请核实")
+					else:
+						i = 0
+		if checker ==0:
+			i = 0
+		else:
+			errors.append(1)
 
-if 1 in list(set(errors)):
-	print("数据有误，请核实后提交git")
-else:
-	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
-	time.sleep(8)
-	os.system(f"curl -X POST \"{config.deploy_url}\"")
-	if platform == "win32":
-		os.system(f"cls")
+	if 1 in list(set(errors)):
+		print("数据有误，请核实后提交git")
 	else:
-		os.system(f"clear")
-	print("数据提交成功")
-	print("网站已更新")
+		os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
+		time.sleep(8)
+		os.system(f"curl -X POST \"{config.deploy_url}\"")
+		if platform == "win32":
+			os.system(f"cls")
+		else:
+			os.system(f"clear")
+		print("数据提交成功")
+		print("网站已更新")
