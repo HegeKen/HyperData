@@ -10,18 +10,18 @@ def os_replace(ver):
 langs = ['zh_CN', 'en_US']
 logs_zh = []
 logs_en = []
-pre_zh = "SELECT id FROM roms WHERE logs_zh IS NULL"
+pre_zh = "SELECT id FROM roms WHERE logs_zh IS NULL AND branch !='X'"
 result = OScommon.db_job(pre_zh)
 if len(result) > 0:
   ids_zh = [x[0] for x in result]
 else:
   i = 0
 ids_zh.reverse()
-start = 0
+start = 38000
 i = 0
 for id in ids_zh:
   i = i+1
-  if start !=0 and id >=start:
+  if start !=0 and id <=start:
     continue
   else:
     info = OScommon.db_job("SELECT device,code,region,branch,android,version,zone FROM roms WHERE id = %s" % (id))
@@ -47,7 +47,7 @@ for id in ids_zh:
       # print(log)
       uplog = OScommon.db_job(f"UPDATE roms SET logs_zh = '{log}' WHERE id = %s" % (id))
 
-pre_en = "SELECT id FROM roms WHERE logs_zh IS NULL"
+pre_en = "SELECT id FROM roms WHERE logs_zh IS NULL AND branch !='X'"
 result = OScommon.db_job(pre_en)
 if len(result) > 0:
   ids_en = [x[0] for x in result]
