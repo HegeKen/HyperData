@@ -120,7 +120,7 @@ currentStable = ["koto", "taiko", "dijun", "jinghu", "luming", "onyx", "poussin"
 								 "venus", "vermeer", "veux", "vida", "vili", "viva", "xaga", "xun", "yudi", "yuechu", "yunluo",
 								 "zeus", "zijin", "zircon", "ziyi", "zizhan"]
 
-only_os = ["violin", "koto", "taiko", "jinghu", "luming", "poussin", "citrine", "serenity", "emerald_r", "xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
+only_os = ["dali", "turner", "violin", "koto", "taiko", "jinghu", "luming", "poussin", "citrine", "serenity", "emerald_r", "xuanyuan", "dijun", "tanzanite", "rodin", "warm", "onyx", "miro", "zorn", 
 					 "uke", "muyu",	"dada", "haotian", "obsidian", "beryl", "amethyst", "malachite", "rothko", "degas",
 					 "flame", "lake","flare", "spark", "goku", "ruyi", "moon", "breeze", "vermeer", "ruan",
 					 "dizi", "peridot", "aurora", "chenfeng", "duchamp", "houji", "manet", "sheng", "shennong", "shennong_t"]

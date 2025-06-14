@@ -1,0 +1,62 @@
+{
+  "device": "dali",
+  "name": {
+    "zh": "REDMI K80 至尊版",
+    "en": "REDMI K80 Ultra"
+  },
+  "code": "",
+  "suppports": [
+    "OS2.0"
+  ],
+  "android": [
+    "15.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "dali",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K80 至尊版",
+        "en": "REDMI K80 Ultra"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "15.0",
+          "release": "",
+          "recovery": "",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    }
+  ]
+}
