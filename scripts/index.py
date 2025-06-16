@@ -57,8 +57,8 @@ for device in OScommon.currentStable:
 	if device in OScommon.unreleased:
 		i = 0
 	else:
-		checker = OScommon.entryChecker(OScommon.localData(device),device)
 		devdata = OScommon.localData(device)
+		checker = OScommon.entryChecker(devdata,device)
 		devlength = len(devdata["branches"])
 		for num in range(devlength): 	
 			branch = devdata["branches"][num]["branchtag"]
@@ -77,15 +77,15 @@ for device in OScommon.currentStable:
 		else:
 			errors.append(1)
 
-	if 1 in list(set(errors)):
-		print("数据有误，请核实后提交git")
+if 1 in list(set(errors)):
+	print("数据有误，请核实后提交git")
+else:
+	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
+	time.sleep(8)
+	os.system(f"curl -X POST \"{config.deploy_url}\"")
+	if platform == "win32":
+		os.system(f"cls")
 	else:
-		os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
-		time.sleep(8)
-		os.system(f"curl -X POST \"{config.deploy_url}\"")
-		if platform == "win32":
-			os.system(f"cls")
-		else:
-			os.system(f"clear")
-		print("数据提交成功")
-		print("网站已更新")
+		os.system(f"clear")
+	print("数据提交成功")
+	print("网站已更新")
