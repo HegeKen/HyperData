@@ -227,6 +227,13 @@ branches = [
 		"carrier": [""],
 		"zone": "2"
 	},
+		{
+		"code": "in_in_global",
+		"tag": "INXM",
+		"region": "in",
+		"carrier": [""],
+		"zone": "2"
+	},
 	{
 		"code": "_eea_hg_global",
 		"tag": "EUHG",
