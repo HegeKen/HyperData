@@ -128,6 +128,44 @@
 					"fastboot": "koto_eea_global_images_OS2.0.104.0.VOWEUXM_20250527.0000.00_15.0_eea_72f6f6e0f5.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "koto_in_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 4G",
+				"en": "REDMI Pad 2 4G"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.101.0.VOWINXM": {
+					"os": "OS2.0.101.0.VOWINXM",
+					"android": "15.0",
+					"release": "2025-06-18",
+					"recovery": "koto_in_global-ota_full-OS2.0.101.0.VOWINXM-user-15.0-2fedaf5cff.zip",
+					"fastboot": "koto_in_global_images_OS2.0.101.0.VOWINXM_20250527.0000.00_15.0_in_311365239e.tgz"
+				}
+			}
 		}
 	]
 }

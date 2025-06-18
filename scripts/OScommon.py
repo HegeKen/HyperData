@@ -435,6 +435,8 @@ flags = {
 	"AMETHYSTGlobal":"amethyst",
 	"amethyst_global":"amethyst",
 	"AMETHYSTDCGlobal":"amethyst",
+	"violin_demo": "violin",
+	"koto_in_global": "koto",
 	"amethyst_dc_global":"amethyst",
 	"amethyst_demo":"amethyst",
 	"AMETHYSTDEMO":"amethyst",
