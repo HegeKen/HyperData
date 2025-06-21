@@ -11,6 +11,7 @@ langs = ['zh_CN', 'en_US']
 logs_zh = []
 logs_en = []
 pre_zh = "SELECT id FROM roms WHERE logs_zh IS NULL AND branch !='X'"
+pre_en = "SELECT id FROM roms WHERE logs_en IS NULL AND branch !='X'"
 result = OScommon.db_job(pre_zh)
 if len(result) > 0:
   ids_zh = [x[0] for x in result]
@@ -37,7 +38,7 @@ for id in ids_zh:
     OScommon.HyperOSForm['options']['cv'] = os_replace(current[5])
     OScommon.HyperOSForm['v'] = os_replace(current[5])
     OScommon.HyperOSForm['ov'] = os_replace(current[5])
-    print("\r",id,current[5],current[1],i,"/",len(ids_zh),"                         ",end="")
+    print("\r",id,current[5],current[1],i,"/",len(ids_zh),"zh_CN","                         ",end="")
     OScommon.HyperOSForm['l'] = 'zh_CN'
     encrypted_form = OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm))
     log = OScommon.getChangelog2DB(encrypted_form, current[0],current[5])
@@ -47,7 +48,7 @@ for id in ids_zh:
       # print(log)
       uplog = OScommon.db_job(f"UPDATE roms SET logs_zh = '{log}' WHERE id = %s" % (id))
 
-pre_en = "SELECT id FROM roms WHERE logs_zh IS NULL AND branch !='X'"
+pre_en = "SELECT id FROM roms WHERE logs_en IS NULL AND branch !='X'"
 result = OScommon.db_job(pre_en)
 if len(result) > 0:
   ids_en = [x[0] for x in result]
@@ -74,7 +75,7 @@ for id in ids_en:
     OScommon.HyperOSForm['options']['cv'] = os_replace(current[5])
     OScommon.HyperOSForm['v'] = os_replace(current[5])
     OScommon.HyperOSForm['ov'] = os_replace(current[5])
-    print("\r",id,current[5],current[1],i,"/",len(ids_en),"                         ",end="")
+    print("\r",id,current[5],current[1],i,"/",len(ids_en),"en_US","                         ",end="")
     OScommon.HyperOSForm['l'] = 'en_US'
     encrypted_form = OScommon.miui_encrypt(json.dumps(OScommon.HyperOSForm))
     log = OScommon.getChangelog2DB(encrypted_form, current[0],current[5])
