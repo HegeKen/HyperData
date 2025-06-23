@@ -51,8 +51,58 @@
         "": {
           "os": "",
           "android": "15.0",
-          "release": "",
+          "release": "2025-06-26",
           "recovery": "",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "dali_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K80 至尊版",
+        "en": "REDMI K80 Ultra"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VONCNDM": {
+          "os": "OS2.0.204.0.VONCNDM",
+          "android": "15.0",
+          "release": "2025-06-23",
+          "recovery": "dali_demo-ota_full-OS2.0.204.0.VONCNDM-user-15.0-f53beb9d4c.zip",
+          "fastboot": "dali_demo_images_OS2.0.204.0.VONCNDM_20250617.0000.00_15.0_cn_502c39ed1c.tgz",
+          "ctelecom": "dali_demo_images_OS2.0.204.0.VONCNDM_20250617.0000.00_15.0_cn_chinatelecom_d7a3f2f050.tgz"
+        },
+        "OS2.0.202.0.VONCNDM": {
+          "os": "OS2.0.202.0.VONCNDM",
+          "android": "15.0",
+          "release": "2025-06-23",
+          "recovery": "dali_demo-ota_full-OS2.0.202.0.VONCNDM-user-15.0-a1242e27c8.zip",
           "fastboot": "",
           "ctelecom": ""
         }

@@ -57,6 +57,47 @@
           "ctelecom": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "turner_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K Pad",
+        "en": "REDMI K Pad"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VAOCNDM": {
+          "os": "OS2.0.203.0.VAOCNDM",
+          "android": "15.0",
+          "release": "2025-06-23",
+          "recovery": "turner_demo-ota_full-OS2.0.203.0.VAOCNDM-user-15.0-139e7d23da.zip",
+          "fastboot": "turner_demo_images_OS2.0.203.0.VAOCNDM_20250617.0000.00_15.0_cn_a24923ef85.tgz"
+        }
+      }
     }
   ]
 }
