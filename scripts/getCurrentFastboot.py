@@ -1,6 +1,8 @@
 import OScommon
 from datetime import datetime
+import os
 
+os.system(f"clear")
 base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
 for device in OScommon.currentStable:
   devdata = OScommon.localData(device)

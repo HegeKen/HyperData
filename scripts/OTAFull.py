@@ -1,6 +1,8 @@
 import OScommon
 from datetime import datetime
+import os
 
+os.system(f"clear")
 for device in OScommon.currentStable:
   devdata = OScommon.localData(device)
   devlength = len(devdata["branches"])

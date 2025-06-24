@@ -2,7 +2,9 @@ import os
 import chardet
 from bs4 import BeautifulSoup
 import OScommon
+import os
 
+os.system(f"clear")
 false_packs = [
   'OS1.0.4.0.UNKCNXMmiui_VERMEER_OS1.0.4.0.UNKCNXM_c3235c755f_14.0.zip'
 ]
