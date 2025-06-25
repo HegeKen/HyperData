@@ -426,6 +426,7 @@ flags = {
 	"onyx_tw_global": "onyx",
 	"onyx_ru_global": "onyx",
 	"onyx_id_global": "onyx",
+	"beryl_demo": "beryl",
 	"xuanyuan_demo":"xuanyuan",
 	"xuanyuan_in_global":"xuanyuan",
 	"emerald_r_eea_global":"emerald_r",

@@ -177,6 +177,49 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "beryl_demo",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 14 5G",
+				"en": "Redmi Note 14 5G"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOQCNDM": {
+					"os": "OS2.0.2.0.VOQCNDM",
+					"android": "15.0",
+					"release": "2025-06-25",
+					"recovery": "beryl_demo-ota_full-OS2.0.2.0.VOQCNDM-user-15.0-77a901ebe6.zip",
+					"fastboot": "beryl_demo_images_OS2.0.2.0.VOQCNDM_20250613.0000.00_15.0_cn_b8f724aa39.tgz",
+					"ctelecom": "beryl_demo_images_OS2.0.2.0.VOQCNDM_20250613.0000.00_15.0_cn_chinatelecom_a16a288e0a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
