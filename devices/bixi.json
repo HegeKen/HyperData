@@ -48,13 +48,55 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS2.0.108.0.VOHCNXM": {
+          "os": "OS2.0.108.0.VOHCNXM",
           "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "release": "2025-06-26",
+          "recovery": "bixi-ota_full-OS2.0.108.0.VOHCNXM-user-15.0-95497b9791.zip",
+          "fastboot": "bixi_images_OS2.0.108.0.VOHCNXM_20250624.0000.00_15.0_cn_2dde4fb52f.tgz",
+          "ctelecom": "bixi_images_OS2.0.108.0.VOHCNXM_20250624.0000.00_15.0_cn_chinatelecom_b27d5609fe.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "bixi_demo",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 MIX Flip 2",
+        "en": "Xiaomi MIX Flip 2"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.106.0.VOHCNDM": {
+          "os": "OS2.0.106.0.VOHCNDM",
+          "android": "15.0",
+          "release": "2025-06-26",
+          "recovery": "bixi_demo-ota_full-OS2.0.106.0.VOHCNDM-user-15.0-1a80a12f2f.zip",
+          "fastboot": "bixi_demo_images_OS2.0.106.0.VOHCNDM_20250624.0000.00_15.0_cn_bb9c6b81b0.tgz",
+          "ctelecom": "bixi_demo_images_OS2.0.106.0.VOHCNDM_20250624.0000.00_15.0_cn_chinatelecom_3814ba3406.tgz"
         }
       }
     }

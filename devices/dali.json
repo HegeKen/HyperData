@@ -48,11 +48,19 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS2.0.210.0.VONCNXM": {
+          "os": "OS2.0.210.0.VONCNXM",
           "android": "15.0",
           "release": "2025-06-26",
-          "recovery": "",
+          "recovery": "dali-ota_full-OS2.0.210.0.VONCNXM-user-15.0-b059d1e9e4.zip",
+          "fastboot": "dali_images_OS2.0.210.0.VONCNXM_20250621.0000.00_15.0_cn_861f237924.tgz",
+          "ctelecom": "dali_images_OS2.0.210.0.VONCNXM_20250621.0000.00_15.0_cn_chinatelecom_342c0eceb9.tgz"
+        },
+        "OS2.0.208.0.VONCNXM": {
+          "os": "OS2.0.208.0.VONCNXM",
+          "android": "15.0",
+          "release": "2025-06-26",
+          "recovery": "dali-ota_full-OS2.0.208.0.VONCNXM-user-15.0-3cb16e84fd.zip",
           "fastboot": "",
           "ctelecom": ""
         }
