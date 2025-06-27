@@ -237,6 +237,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "onyx_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F7",
+				"en": "POCO F7"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.102.0.VOLMIXM": {
+					"os": "OS2.0.102.0.VOLMIXM",
+					"android": "15.0",
+					"release": "2025-06-27",
+					"recovery": "onyx_global-ota_full-OS2.0.102.0.VOLMIXM-user-15.0-a6f16bccbc.zip",
+					"fastboot": "onyx_global_images_OS2.0.102.0.VOLMIXM_20250612.0000.00_15.0_global_250ac89cb2.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
