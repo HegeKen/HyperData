@@ -1621,6 +1621,7 @@ flags = {
 	"ingres_id_global": "ingres",
 	"INGRESIDGlobal": "ingres",
 	"ZIRCONINGlobal":"zircon",
+	"koto_dc_global": "koto",
 	"zircon_in_global":"zircon",
 	"light_eea_ti_global": "light",
 	"LIGHTEEATIGlobal": "light",

@@ -93,6 +93,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "koto_dc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 4G",
+				"en": "REDMI Pad 2 4G"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.202.0.VOWMIDC": {
+					"os": "OS2.0.202.0.VOWMIDC",
+					"android": "15.0",
+					"release": "2025-06-27",
+					"recovery": "koto_dc_global-ota_full-OS2.0.202.0.VOWMIDC-user-15.0-ea5d4a4eca.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
