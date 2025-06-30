@@ -194,6 +194,44 @@
 					"fastboot": "taiko_in_global_images_OS2.0.100.0.VOVINXM_20250511.0000.00_15.0_in_6aaa66fb79.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "taiko_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2",
+				"en": "REDMI Pad 2"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.104.0.VOVIDXM": {
+					"os": "OS2.0.104.0.VOVIDXM",
+					"android": "15.0",
+					"release": "2025-06-30",
+					"recovery": "taiko_id_global-ota_full-OS2.0.104.0.VOVIDXM-user-15.0-175effe128.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
