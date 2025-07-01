@@ -1624,6 +1624,7 @@ flags = {
 	"koto_dc_global": "koto",
 	"onyx_global": "onyx",
 	"taiko_id_global": "taiko",
+	"taiko_tr_global": "taiko",
 	"zircon_in_global":"zircon",
 	"light_eea_ti_global": "light",
 	"LIGHTEEATIGlobal": "light",

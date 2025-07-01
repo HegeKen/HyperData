@@ -502,6 +502,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.5.0.VMNTWXM": {
+					"os": "OS2.0.5.0.VMNTWXM",
+					"android": "15.0",
+					"release": "2025-07-01",
+					"recovery": "mondrian_tw_global-ota_full-OS2.0.5.0.VMNTWXM-user-15.0-e71a17f1cd.zip",
+					"fastboot": ""
+				},
 				"OS2.0.3.0.VMNTWXM": {
 					"os": "OS2.0.3.0.VMNTWXM",
 					"android": "15.0",
@@ -622,7 +629,7 @@
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "mondrian_global-ota_full-OS2.0.9.0.VMNMIXM-user-15.0-4ef994ec10.zip",
-					"fastboot": ""
+					"fastboot": "mondrian_global_images_OS2.0.9.0.VMNMIXM_20250605.0000.00_15.0_global_a2c511255b.tgz"
 				},
 				"OS2.0.8.0.VMNMIXM": {
 					"os": "OS2.0.8.0.VMNMIXM",
@@ -765,7 +772,7 @@
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "mondrian_eea_global-ota_full-OS2.0.7.0.VMNEUXM-user-15.0-1c2104628d.zip",
-					"fastboot": ""
+					"fastboot": "mondrian_eea_global_images_OS2.0.7.0.VMNEUXM_20250609.0000.00_15.0_eea_b6a7029f8f.tgz"
 				},
 				"OS2.0.6.0.VMNEUXM": {
 					"os": "OS2.0.6.0.VMNEUXM",

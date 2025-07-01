@@ -229,7 +229,45 @@
 					"android": "15.0",
 					"release": "2025-06-30",
 					"recovery": "taiko_id_global-ota_full-OS2.0.104.0.VOVIDXM-user-15.0-175effe128.zip",
-					"fastboot": ""
+					"fastboot": "taiko_id_global_images_OS2.0.104.0.VOVIDXM_20250605.0000.00_15.0_id_bc3bec210d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "taiko_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2",
+				"en": "REDMI Pad 2"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.101.0.VOVTRXM": {
+					"os": "OS2.0.101.0.VOVTRXM",
+					"android": "15.0",
+					"release": "2025-07-01",
+					"recovery": "taiko_tr_global-ota_full-OS2.0.101.0.VOVTRXM-user-15.0-2e8ce38440.zip",
+					"fastboot": "taiko_tr_global_images_OS2.0.101.0.VOVTRXM_20250416.0000.00_15.0_tr_6d471e3880.tgz"
 				}
 			}
 		}
