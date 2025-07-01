@@ -34,8 +34,7 @@
         "android",
         "release",
         "recovery",
-        "fastboot",
-        "ctelecom"
+        "fastboot"
       ],
       "show": "1",
       "carrier": [
@@ -51,45 +50,47 @@
       ],
       "ep": "0",
       "roms": {
+        "OS2.0.203.0.VOXCNXM": {
+          "os": "OS2.0.203.0.VOXCNXM",
+          "android": "15.0",
+          "release": "2025-07-01",
+          "recovery": "jinghu-ota_full-OS2.0.203.0.VOXCNXM-user-15.0-6262fab975.zip",
+          "fastboot": ""
+        },
         "OS2.0.111.0.VOXCNXM": {
           "os": "OS2.0.111.0.VOXCNXM",
           "android": "15.0",
           "release": "2025-06-09",
           "recovery": "jinghu-ota_full-OS2.0.111.0.VOXCNXM-user-15.0-d886d02628.zip",
-          "fastboot": "jinghu-images-OS2.0.111.0.VOXCNXM-user-20250604.0000.00-15.0-cn-e832a92c4a.tgz",
-          "ctelecom": ""
+          "fastboot": "jinghu-images-OS2.0.111.0.VOXCNXM-user-20250604.0000.00-15.0-cn-e832a92c4a.tgz"
         },
         "OS2.0.110.0.VOXCNXM": {
           "os": "OS2.0.110.0.VOXCNXM",
           "android": "15.0",
           "release": "2025-05-31",
           "recovery": "jinghu-ota_full-OS2.0.110.0.VOXCNXM-user-15.0-b31d1e2501.zip",
-          "fastboot": "jinghu-images-OS2.0.110.0.VOXCNXM-user-20250528.0000.00-15.0-cn-e2fa3a6d78.tgz",
-          "ctelecom": ""
+          "fastboot": "jinghu-images-OS2.0.110.0.VOXCNXM-user-20250528.0000.00-15.0-cn-e2fa3a6d78.tgz"
         },
         "OS2.0.108.0.VOXCNXM": {
           "os": "OS2.0.108.0.VOXCNXM",
           "android": "15.0",
           "release": "2025-05-23",
           "recovery": "jinghu-ota_full-OS2.0.108.0.VOXCNXM-user-15.0-6d09fd73ec.zip",
-          "fastboot": "jinghu-images-OS2.0.108.0.VOXCNXM-user-20250520.0000.00-15.0-cn-9516005dce.tgz",
-          "ctelecom": ""
+          "fastboot": "jinghu-images-OS2.0.108.0.VOXCNXM-user-20250520.0000.00-15.0-cn-9516005dce.tgz"
         },
         "OS2.0.104.0.VOXCNXM": {
           "os": "OS2.0.104.0.VOXCNXM",
           "android": "15.0",
           "release": "2025-05-22",
           "recovery": "jinghu-ota_full-OS2.0.104.0.VOXCNXM-user-15.0-52a8adc79d.zip",
-          "fastboot": "jinghu-images-OS2.0.104.0.VOXCNXM-userroot-20250414.0000.00-15.0-cn-4f543f76a2.tgz",
-          "ctelecom": ""
+          "fastboot": "jinghu-images-OS2.0.104.0.VOXCNXM-userroot-20250414.0000.00-15.0-cn-4f543f76a2.tgz"
         },
         "OS2.0.103.0.VOXCNXM": {
           "os": "OS2.0.103.0.VOXCNXM",
           "android": "15.0",
           "release": "2025-05-22",
           "recovery": "jinghu-ota_full-OS2.0.103.0.VOXCNXM-user-15.0-cc0dc09b17.zip",
-          "fastboot": "",
-          "ctelecom": ""
+          "fastboot": ""
         }
       }
     },
