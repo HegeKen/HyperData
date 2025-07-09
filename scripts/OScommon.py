@@ -394,6 +394,8 @@ flags = {
 	"RUYITWGlobal":"ruyi",
 	"ruan_ep_stdee":"ruan",
 	"RUANEPSTDEE": "ruan",
+	"taiko_demo":"taiko",
+	"taiko":"taiko",
 	"AMETHYSTTRGlobal":"amethyst",
 	"amethyst_tr_global":"amethyst",
 	"EARTHEPSTDEE":"earth",

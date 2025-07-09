@@ -17,6 +17,49 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "taiko_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2",
+				"en": "REDMI Pad 2"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VOVCNDM": {
+					"os": "OS2.0.201.0.VOVCNDM",
+					"android": "15.0",
+					"release": "2025-07-09",
+					"recovery": "taiko_demo-ota_full-OS2.0.201.0.VOVCNDM-user-15.0-77c96d9d74.zip",
+					"fastboot": "taiko_demo_images_OS2.0.201.0.VOVCNDM_20250627.0000.00_15.0_cn_2a9480bb3a.tgz",
+					"ctelecom": "taiko_demo_images_OS2.0.201.0.VOVCNDM_20250627.0000.00_15.0_cn_chinatelecom_c0ed28d770.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
