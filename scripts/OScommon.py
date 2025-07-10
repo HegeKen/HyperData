@@ -396,6 +396,7 @@ flags = {
 	"RUANEPSTDEE": "ruan",
 	"taiko_demo":"taiko",
 	"taiko":"taiko",
+	"taiko_ru_global": "taiko",
 	"AMETHYSTTRGlobal":"amethyst",
 	"amethyst_tr_global":"amethyst",
 	"EARTHEPSTDEE":"earth",

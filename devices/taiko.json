@@ -202,6 +202,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "taiko_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2",
+				"en": "REDMI Pad 2"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.200.0.VOVRUXM": {
+					"os": "OS2.0.200.0.VOVRUXM",
+					"android": "15.0",
+					"release": "2025-07-10",
+					"recovery": "taiko_ru_global-ota_full-OS2.0.200.0.VOVRUXM-user-15.0-8fb46a5556.zip",
+					"fastboot": "taiko_ru_global_images_OS2.0.200.0.VOVRUXM_20250620.0000.00_15.0_ru_e5810f4e21.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -234,7 +272,7 @@
 					"android": "15.0",
 					"release": "2025-07-08",
 					"recovery": "taiko_in_global-ota_full-OS2.0.200.0.VOVINXM-user-15.0-741a22709e.zip",
-					"fastboot": ""
+					"fastboot": "taiko_in_global_images_OS2.0.200.0.VOVINXM_20250620.0000.00_15.0_in_c9f3a04f05.tgz"
 				},
 				"OS2.0.100.0.VOVINXM": {
 					"os": "OS2.0.100.0.VOVINXM",
