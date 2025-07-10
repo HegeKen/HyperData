@@ -397,6 +397,7 @@ flags = {
 	"taiko_demo":"taiko",
 	"taiko":"taiko",
 	"taiko_ru_global": "taiko",
+	"koto_ru_global": "koto",
 	"AMETHYSTTRGlobal":"amethyst",
 	"amethyst_tr_global":"amethyst",
 	"EARTHEPSTDEE":"earth",
