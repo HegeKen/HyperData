@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-07-11 15:24:59",
+    "time": "2025-07-11 18:08:19",
     "developing": "no",
     "roms": [
       {
@@ -57,7 +57,7 @@
           "zh": "小米 15",
           "en": "Xiaomi 15"
         },
-        "rom": "OS2.0.213.2.VOCCNXM"
+        "rom": "OS2.0.213.2.VOCCNXM; OS2.0.213.0.VOCCNXM"
       },
       {
         "code": "haotian",
@@ -65,7 +65,7 @@
           "zh": "小米 15 Pro",
           "en": "Xiaomi 15 Pro"
         },
-        "rom": "OS2.0.213.2.VOBCNXM"
+        "rom": "OS2.0.213.2.VOBCNXM; OS2.0.213.0.VOBCNXM"
       },
       {
         "code": "xuanyuan",
@@ -73,7 +73,7 @@
           "zh": "小米 15 Ultra",
           "en": "Xiaomi 15 Ultra"
         },
-        "rom": "OS2.0.212.2.VOACNXM; OS2.0.202.0.VOAMIXM; OS2.0.203.0.VOAMIDC"
+        "rom": "OS2.0.212.2.VOACNXM; OS2.0.212.0.VOACNXM; OS2.0.202.0.VOAMIXM; OS2.0.203.0.VOAMIDC"
       },
       {
         "code": "dijun",
@@ -137,7 +137,7 @@
           "zh": "Redmi 14C",
           "en": "Redmi 14C"
         },
-        "rom": "OS2.0.200.0.VGTCNXM"
+        "rom": "OS2.0.200.0.VGTCNXM; OS2.0.2.0.VGTLMCR"
       },
       {
         "code": "flame",
@@ -185,7 +185,7 @@
           "zh": "Redmi Note 12 4G",
           "en": "Redmi Note 12 4G"
         },
-        "rom": "OS2.0.4.0.VMTMXAT"
+        "rom": "OS2.0.4.0.VMTMXAT; OS2.0.4.0.VMTLMCR"
       },
       {
         "code": "sea",
@@ -209,7 +209,7 @@
           "zh": "Redmi Note 14 4G",
           "en": "Redmi Note 14 4G"
         },
-        "rom": "OS1.0.5.0.UOGIDXM"
+        "rom": "OS1.0.5.0.UOGIDXM; OS2.0.2.0.VOGLMCR"
       },
       {
         "code": "beryl",
@@ -225,7 +225,15 @@
           "zh": "Redmi Note 14 Pro / POCO X7",
           "en": "Redmi Note 14 Pro / POCO X7"
         },
-        "rom": "OS2.0.1.0.VOOMXAT"
+        "rom": "OS2.0.1.0.VOOMXAT; OS2.0.3.0.VOOLMCR"
+      },
+      {
+        "code": "amethyst",
+        "name": {
+          "zh": "Redmi Note 14 Pro+",
+          "en": "Redmi Note 14 Pro+"
+        },
+        "rom": "OS2.0.2.0.VOPLMCR"
       },
       {
         "code": "sapphire",
@@ -233,7 +241,7 @@
           "zh": "Redmi Note 13 4G",
           "en": "Redmi Note 13 4G"
         },
-        "rom": "OS2.0.5.0.VNGMXAT"
+        "rom": "OS2.0.5.0.VNGMXAT; OS2.0.4.0.VNGLMCR"
       },
       {
         "code": "sapphiren",
@@ -250,6 +258,14 @@
           "en": "REDMI Turbo 4 / POCO X7 Pro"
         },
         "rom": "OS2.0.201.0.VOJMIXM"
+      },
+      {
+        "code": "diting",
+        "name": {
+          "zh": "Redmi K50 至尊版 / 小米 12T Pro",
+          "en": "Redmi K50 Ultra / Xiaomi 12T Pro"
+        },
+        "rom": "OS2.0.4.0.VLFMIXM; OS1.0.16.0.ULFJPXM"
       },
       {
         "code": "corot",
