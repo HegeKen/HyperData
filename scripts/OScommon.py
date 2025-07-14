@@ -435,6 +435,8 @@ flags = {
 	"onyx_in_global": "onyx",
 	"bixi": "bixi",
 	"bixi_demo": "bixi",
+	"SERENITYDCGlobal": "serenity",
+	"serenity_dc_global": "serenity",
 	"xuanyuan_demo":"xuanyuan",
 	"xuanyuan_in_global":"xuanyuan",
 	"emerald_r_eea_global":"emerald_r",

@@ -86,6 +86,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "serenity_dc_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.6.0.VGWMIDC": {
+					"os": "A15.0.6.0.VGWMIDC",
+					"android": "15.0",
+					"release": "2025-07-14",
+					"recovery": "miui_SERENITYDCGlobal_A15.0.6.0.VGWMIDC_01c432c181_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -213,7 +251,7 @@
 				"A15.0.6.0.VGWEUVF": {
 					"os": "A15.0.6.0.VGWEUVF",
 					"android": "15.0",
-					"release": "2025-07-13",
+					"release": "2025-07-14",
 					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.6.0.VGWEUVF_be3213e63c_15.0.zip",
 					"fastboot": ""
 				},
@@ -258,7 +296,7 @@
 				"A15.0.5.0.VGWEUBY": {
 					"os": "A15.0.5.0.VGWEUBY",
 					"android": "15.0",
-					"release": "2025-07-13",
+					"release": "2025-07-14",
 					"recovery": "miui_SERENITYEEABYGlobal_A15.0.5.0.VGWEUBY_97bb8b5cda_15.0.zip",
 					"fastboot": ""
 				},
