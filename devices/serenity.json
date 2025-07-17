@@ -349,6 +349,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲Altice(SFR)运营商定制版",
+				"en": "Xiaomi HyperOS Europe Altice(SFR) Carrier Edition"
+			},
+			"branchCode": "serenity_eea_sf_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
+			},
+			"idtag": "EUSF",
+			"tag": "EUSF",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"sfr"
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.5.0.VGWEUSF": {
+					"os": "A15.0.5.0.VGWEUSF",
+					"android": "15.0",
+					"release": "2025-07-17",
+					"recovery": "miui_SERENITYEEASFGlobal_A15.0.5.0.VGWEUSF_5abe1b9d66_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

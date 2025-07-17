@@ -553,6 +553,8 @@ flags = {
 	"moon_lm_cr_global":"moon",
 	"MOONLMCRGlobal":"moon",
 	"tapas_lm_ms_global":"tapas",
+	"SERENITYEEASFGlobal": "serenity",
+	"serenity_eea_sf_global": "serenity",
 	"lake_dc_global":"lake",
 	"LAKEDCGlobal":"lake",
 	"zorn_demo":"zorn",
