@@ -54,7 +54,7 @@
 					"android": "15.0",
 					"release": "2025-07-10",
 					"recovery": "lake-ota_full-OS2.0.200.0.VGTCNXM-user-15.0-9dceefa59f.zip",
-					"fastboot": ""
+					"fastboot": "lake_images_OS2.0.200.0.VGTCNXM_20250630.0000.00_15.0_cn_7a9ea16816.tgz"
 				},
 				"OS2.0.2.0.VGTCNXM": {
 					"os": "OS2.0.2.0.VGTCNXM",
@@ -637,6 +637,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.2.0.VGTTRXM": {
+					"os": "OS2.0.2.0.VGTTRXM",
+					"android": "15.0",
+					"release": "2025-07-17",
+					"recovery": "lake_tr_global-ota_full-OS2.0.2.0.VGTTRXM-user-15.0-1cc93691e7.zip",
+					"fastboot": ""
+				},
 				"OS2.0.1.0.VGTTRXM": {
 					"os": "OS2.0.1.0.VGTTRXM",
 					"android": "15.0",
@@ -819,7 +826,7 @@
 					"android": "15.0",
 					"release": "2025-07-11",
 					"recovery": "lake_lm_cr_global-ota_full-OS2.0.2.0.VGTLMCR-user-15.0-571ddb50c2.zip",
-					"fastboot": ""
+					"fastboot": "lake_lm_cr_global_images_OS2.0.2.0.VGTLMCR_20250701.0000.00_15.0_lm_cr_c98a1da832.tgz"
 				},
 				"OS2.0.1.0.VGTLMCR": {
 					"os": "OS2.0.1.0.VGTLMCR",

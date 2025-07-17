@@ -194,8 +194,7 @@
 				"android",
 				"release",
 				"recovery",
-				"fastboot",
-				"ctelecom"
+				"fastboot"
 			],
 			"show": "0",
 			"region": "cn",
@@ -208,13 +207,19 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.1.0.VMUCNDM": {
+					"os": "OS2.0.1.0.VMUCNDM",
+					"android": "15.0",
+					"release": "2025-07-16",
+					"recovery": "xun_demo-ota_full-OS2.0.1.0.VMUCNDM-user-15.0-5627b5e55a.zip",
+					"fastboot": "xun_demo_images_OS2.0.1.0.VMUCNDM_20250626.0000.00_15.0_cn_37beb331b0.tgz"
+				},
 				"OS1.0.1.0.UMUCNDM": {
 					"os": "OS1.0.1.0.UMUCNDM",
 					"android": "14.0",
 					"release": "2024-05-11",
 					"recovery": "miui_XUNDEMO_OS1.0.1.0.UMUCNDM_a17d1391f1_14.0.zip",
-					"fastboot": "xun_demo_images_OS1.0.1.0.UMUCNDM_20240429.0000.00_14.0_cn_9e8e51606b.tgz",
-					"ctelecom": ""
+					"fastboot": "xun_demo_images_OS1.0.1.0.UMUCNDM_20240429.0000.00_14.0_cn_9e8e51606b.tgz"
 				}
 			}
 		},
