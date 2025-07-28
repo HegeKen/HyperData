@@ -55,8 +55,8 @@
 					"android": "15.0",
 					"release": "2025-07-15",
 					"recovery": "peridot-ota_full-OS2.0.203.0.VNPCNXM-user-15.0-882ff6f34c.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "peridot_images_OS2.0.203.0.VNPCNXM_20250708.0000.00_15.0_cn_4d95cfdb26.tgz",
+					"ctelecom": "peridot_images_OS2.0.203.0.VNPCNXM_20250708.0000.00_15.0_cn_chinatelecom_2728e84b26.tgz"
 				},
 				"OS2.0.201.0.VNPCNXM": {
 					"os": "OS2.0.201.0.VNPCNXM",
@@ -497,6 +497,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.202.0.VNPMIXM": {
+					"os": "OS2.0.202.0.VNPMIXM",
+					"android": "15.0",
+					"release": "2025-07-28",
+					"recovery": "peridot_global-ota_full-OS2.0.202.0.VNPMIXM-user-15.0-12f8159227.zip",
+					"fastboot": ""
+				},
 				"OS2.0.105.0.VNPMIXM": {
 					"os": "OS2.0.105.0.VNPMIXM",
 					"android": "15.0",
