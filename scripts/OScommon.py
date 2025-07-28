@@ -107,7 +107,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 unreleased = ["goya", "klimt"]
-currentStable = ["bixi", "dali", "turner", "goya", "klimt", "violin", "koto", "taiko", "dijun", "jinghu", "luming", "onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
+currentStable = ["taiko", "bixi", "dali", "turner", "goya", "klimt", "violin", "koto", "dijun", "jinghu", "luming", "onyx", "poussin", "citrine", "serenity", "emerald_r", "miro", "zorn", "xuanyuan", "tanzanite", "obsidian", "rodin", "warm", "dada", "haotian", "uke", "muyu", 
 								 "beryl", "amethyst", "malachite", "degas", "rothko", "flame", "lake", "flare", "spark", 
 								 "ruyi", "goku", "agate", "air", "alioth", "ares", "aristotle", "aurora", "babylon", "breeze", "cas",
 								 "cetus", "chenfeng", "cmi", "corot", "cupid", "dagu", "daumier", "diting", "dizi",

@@ -17,6 +17,49 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "taiko",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2",
+				"en": "REDMI Pad 2"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.102.0.VOVCNXM": {
+					"os": "OS2.0.102.0.VOVCNXM",
+					"android": "15.0",
+					"release": "2025-07-28",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": "taiko_images_OS2.0.102.0.VOVCNXM_20250427.0000.00_15.0_cn_chinatelecom_0227b0a93e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 演示机系统",
 				"en": "Xiaomi HyperOS China MiStore Demo"
 			},
@@ -132,6 +175,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.202.0.VOVMIXM": {
+					"os": "OS2.0.202.0.VOVMIXM",
+					"android": "15.0",
+					"release": "2025-07-28",
+					"recovery": "taiko_global-ota_full-OS2.0.202.0.VOVMIXM-user-15.0-ba201ed9d0.zip",
+					"fastboot": ""
+				},
 				"OS2.0.103.0.VOVMIXM": {
 					"os": "OS2.0.103.0.VOVMIXM",
 					"android": "15.0",
@@ -312,6 +362,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.203.0.VOVIDXM": {
+					"os": "OS2.0.203.0.VOVIDXM",
+					"android": "15.0",
+					"release": "2025-07-28",
+					"recovery": "taiko_id_global-ota_full-OS2.0.203.0.VOVIDXM-user-15.0-2161d97b23.zip",
+					"fastboot": ""
+				},
 				"OS2.0.104.0.VOVIDXM": {
 					"os": "OS2.0.104.0.VOVIDXM",
 					"android": "15.0",
