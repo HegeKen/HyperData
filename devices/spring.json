@@ -4,7 +4,7 @@
     "zh": "REDMI 15 5G",
     "en": "REDMI 15 5G"
   },
-  "code": "",
+  "code": "OU",
   "suppports": [
     "OS2.0"
   ],
@@ -17,44 +17,77 @@
   "branches": [
     {
       "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
       },
-      "branchCode": "spring",
+      "branchCode": "spring_global",
       "brand": "REDMI",
       "device": {
         "zh": "REDMI 15 5G",
-        "en": "Redmi 15 5G"
+        "en": "REDMI 15 5G"
       },
-      "idtag": "CnOO",
-      "tag": "CNXM",
+      "idtag": "GBOO",
+      "tag": "MIXM",
       "branchtag": "F",
       "table": [
         "os",
         "android",
         "release",
         "recovery",
-        "fastboot",
-        "ctelecom"
+        "fastboot"
       ],
       "show": "1",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        ""
       ],
-      "region": "cn",
-      "zone": "1",
+      "region": "global",
+      "zone": "2",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS2.0.203.0.VOUMIXM": {
+          "os": "OS2.0.203.0.VOUMIXM",
           "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "release": "2025-08-08",
+          "recovery": "spring_global-ota_full-OS2.0.203.0.VOUMIXM-user-15.0-55ad2855de.zip",
+          "fastboot": "spring_global_images_OS2.0.203.0.VOUMIXM_20250730.0000.00_15.0_global_86e31d93c0.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "spring_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 5G",
+        "en": "REDMI 15 5G"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VOUEUXM": {
+          "os": "OS2.0.202.0.VOUEUXM",
+          "android": "15.0",
+          "release": "2025-08-08",
+          "recovery": "spring_eea_global-ota_full-OS2.0.202.0.VOUEUXM-user-15.0-77083e7879.zip",
+          "fastboot": "spring_eea_global_images_OS2.0.202.0.VOUEUXM_20250801.0000.00_15.0_eea_1098071303.tgz"
         }
       }
     }
