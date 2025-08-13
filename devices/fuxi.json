@@ -405,6 +405,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS2.0.205.0.VMCCNXM": {
+					"os": "OS2.0.205.0.VMCCNXM",
+					"android": "15.0",
+					"release": "2025-08-12",
+					"recovery": "fuxi-ota_full-OS2.0.205.0.VMCCNXM-user-15.0-3b842f568b.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.203.0.VMCCNXM": {
 					"os": "OS2.0.203.0.VMCCNXM",
 					"android": "15.0",
@@ -803,7 +811,7 @@
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "fuxi_global-ota_full-OS2.0.104.0.VMCMIXM-user-15.0-babca7fab1.zip",
-					"fastboot": ""
+					"fastboot": "fuxi_global_images_OS2.0.104.0.VMCMIXM_20250722.0000.00_15.0_global_7db2862602.tgz"
 				},
 				"OS2.0.103.0.VMCMIXM": {
 					"os": "OS2.0.103.0.VMCMIXM",
@@ -1089,7 +1097,7 @@
 					"android": "15.0",
 					"release": "2025-08-07",
 					"recovery": "fuxi_ru_global-ota_full-OS2.0.103.0.VMCRUXM-user-15.0-e6b1bd9a32.zip",
-					"fastboot": ""
+					"fastboot": "fuxi_ru_global_images_OS2.0.103.0.VMCRUXM_20250722.0000.00_15.0_ru_cb6c302861.tgz"
 				},
 				"OS2.0.102.0.VMCRUXM": {
 					"os": "OS2.0.102.0.VMCRUXM",
