@@ -1,0 +1,64 @@
+{
+  "device": "creek",
+  "name": {
+    "zh": "REDMI 15 4G",
+    "en": "REDMI 15 4G"
+  },
+  "code": "BO",
+  "suppports": [
+    "OS2.0"
+  ],
+  "android": [
+    "15.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "creek_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.207.0.VBOMIXM": {
+          "os": "OS2.0.207.0.VBOMIXM",
+          "android": "15.0",
+          "release": "2025-08-14",
+          "recovery": "creek_global-ota_full-OS2.0.207.0.VBOMIXM-user-15.0-d328b3b276.zip",
+          "fastboot": "creek_global_images_OS2.0.207.0.VBOMIXM_20250806.0000.00_15.0_global_1f47ed25d3.tgz"
+        },
+        "OS2.0.201.0.VBOMIXM": {
+          "os": "OS2.0.201.0.VBOMIXM",
+          "android": "15.0",
+          "release": "2025-08-14",
+          "recovery": "creek_global-ota_full-OS2.0.201.0.VBOMIXM-user-15.0-b74db53de5.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}

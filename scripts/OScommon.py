@@ -107,7 +107,8 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 unreleased = ['goya', 'klimt']
-currentStable = ['spring', 'taiko', 'bixi', 'dali', 'turner', 'goya', 'klimt', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 'onyx', 'poussin', 'citrine', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
+currentStable = ['creek', 'spring', 'taiko', 'bixi', 'dali', 'turner', 'goya', 'klimt', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
+								 'onyx', 'poussin', 'citrine', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
 								 'ruyi', 'goku', 'agate', 'air', 'alioth', 'ares', 'aristotle', 'aurora', 'babylon', 'breeze', 'cas',
 								 'cetus', 'chenfeng', 'cmi', 'corot', 'cupid', 'dagu', 'daumier', 'diting', 'dizi',
@@ -135,7 +136,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
 				 'liuqin', 'yudi','sheng', 'uke', 'muyu', 'jinghu', 'violin', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming',
-				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
+				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'peridot', 'rodin','onyx', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
@@ -422,6 +423,7 @@ flags = {
 	"amethyst_tw_global":"amethyst",
 	"AMETHYSTIDGlobal":"amethyst",
 	"xuanyuan":"xuanyuan",
+	"creek_global": "creek",
 	"violin": "violin",
 	"dali_demo": "dali",
 	"dali": "dali",
