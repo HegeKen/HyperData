@@ -6,7 +6,8 @@ os.system(f"clear")
 increment = ["1","100","200"]
 one_devices = ['warm']
 base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
-for device in OScommon.currentStable:
+devices = list(dict.fromkeys(OScommon.unreleased+ OScommon.currentStable))
+for device in devices:
 	devdata = OScommon.localData(device)
 	device = devdata['device']
 	code = devdata['code']
@@ -25,12 +26,15 @@ for device in OScommon.currentStable:
 					print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),url,end="                   ", flush=True)
 					OScommon.getFastboot(url)
 				for i in increment:
-					version = os+"."+i+".0."+OScommon.android(andv)+code+branch['tag']
-					if version in devdata:
-						i = 0
-					else:
-						print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="                                            ", flush=True)
-						if device in one_devices:
-							OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, '', 'F', branch['zone'], andv, version)))
+					if code != "":
+						version = os+"."+i+".0."+OScommon.android(andv)+code+branch['tag']
+						if version in devdata:
+							i = 0
 						else:
-							OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))
+							print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="                                            ", flush=True)
+							if device in one_devices:
+								OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, '', 'F', branch['zone'], andv, version)))
+							else:
+								OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, branch['region'], 'F', branch['zone'], andv, version)))
+					else:
+						i = 0

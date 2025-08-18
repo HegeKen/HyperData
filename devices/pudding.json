@@ -1,0 +1,62 @@
+{
+  "device": "pudding",
+  "name": {
+    "zh": "Xiaomi 16 Series",
+    "en": "Xiaomi 16 Series"
+  },
+  "code": "",
+  "suppports": [
+    "OS2.0"
+  ],
+  "android": [
+    "16.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "pudding",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 16 Series",
+        "en": "Xiaomi 16 Series"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "16.0",
+          "release": "",
+          "recovery": "",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    }
+  ]
+}
