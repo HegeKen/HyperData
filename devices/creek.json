@@ -17,6 +17,44 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "creek_tw_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VBOTWXM": {
+          "os": "OS2.0.202.0.VBOTWXM",
+          "android": "15.0",
+          "release": "2025-08-19",
+          "recovery": "creek_tw_global-ota_full-OS2.0.202.0.VBOTWXM-user-15.0-dc98eadae7.zip",
+          "fastboot": "creek_tw_global_images_OS2.0.202.0.VBOTWXM_20250724.0000.00_15.0_tw_eea7d80570.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 国际正式版",
         "en": "Xiaomi HyperOS Global Stable"
       },

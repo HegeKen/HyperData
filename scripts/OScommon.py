@@ -526,6 +526,7 @@ flags = {
 	"SERENITYINGlobal":"serenity",
 	"serenity_in_global":"serenity",
 	"SERENITYGTTGGlobal":"serenity",
+	"creek_tw_global": "creek",
 	"serenity_gt_tg_global":"serenity",
 	"BERYLGTTGGlobal":"beryl",
 	"beryl_gt_tg_global":"beryl",
