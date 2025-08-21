@@ -1,0 +1,104 @@
+{
+  "device": "flourite",
+  "name": {
+    "zh": "REDMI Note 15 Pro+ 5G",
+    "en": "REDMI Note 15 Pro+ 5G"
+  },
+  "code": "PR",
+  "suppports": [
+    "OS2.0"
+  ],
+  "android": [
+    "15.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "flourite",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G",
+        "en": "REDMI Note 15 Pro+ 5G"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "15.0",
+          "release": "2025-08-21",
+          "recovery": "",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "flourite_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G",
+        "en": "REDMI Note 15 Pro+ 5G"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VPRCNDM": {
+          "os": "OS2.0.203.0.VPRCNDM",
+          "android": "15.0",
+          "release": "2025-08-21",
+          "recovery": "",
+          "fastboot": "flourite_demo_images_OS2.0.203.0.VPRCNDM_20250818.0000.00_15.0_cn_8fe05b36ad.tgz",
+          "ctelecom": "flourite_demo_images_OS2.0.203.0.VPRCNDM_20250818.0000.00_15.0_cn_chinatelecom_9389168c0a.tgz"
+        }
+      }
+    }
+  ]
+}
