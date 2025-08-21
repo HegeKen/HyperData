@@ -138,7 +138,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming',
 				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
-				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'peridot', 'rodin','onyx', 'alioth',
+				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'lapis', 'kunzite', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali',
 				 'yunluo', 'xun', 'flare', 'spark', 'koto', 'taiko', 'dizi', 'ruan', 'turner', 'warm', 'serenity', 'evergreen', 'rock', 'moonstone']
