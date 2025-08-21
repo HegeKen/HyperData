@@ -1,10 +1,10 @@
 {
   "device": "kunzite",
   "name": {
-    "zh": "REDMI Note 15 Series",
-    "en": "REDMI Note 15 Series"
+    "zh": "REDMI Note 15 5G",
+    "en": "REDMI Note 15 5G"
   },
-  "code": "",
+  "code": "PQ",
   "suppports": [
     "OS2.0"
   ],
@@ -23,8 +23,8 @@
       "branchCode": "kunzite",
       "brand": "REDMI",
       "device": {
-        "zh": "REDMI Note 15 Series",
-        "en": "REDMI Note 15 Series"
+        "zh": "REDMI Note 15 5G",
+        "en": "REDMI Note 15 5G"
       },
       "idtag": "CnOO",
       "tag": "CNXM",
@@ -48,13 +48,21 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS2.0.203.0.VPQCNXM": {
+          "os": "OS2.0.203.0.VPQCNXM",
           "android": "15.0",
-          "release": "",
+          "release": "2025-08-21",
           "recovery": "",
           "fastboot": "",
-          "ctelecom": ""
+          "ctelecom": "kunzite_images_OS2.0.203.0.VPQCNXM_20250818.0000.00_15.0_cn_chinatelecom_7ccd8d2211.tgz"
+        },
+        "OS2.0.201.0.VPQCNXM": {
+          "os": "OS2.0.201.0.VPQCNXM",
+          "android": "15.0",
+          "release": "2025-08-21",
+          "recovery": "kunzite-ota_full-OS2.0.201.0.VPQCNXM-user-15.0-6f924d71a2.zip",
+          "fastboot": "kunzite_images_OS2.0.201.0.VPQCNXM_20250726.0000.00_15.0_cn_869256ccc4.tgz",
+          "ctelecom": "kunzite_images_OS2.0.201.0.VPQCNXM_20250726.0000.00_15.0_cn_chinatelecom_fdd38acee9.tgz"
         }
       }
     }

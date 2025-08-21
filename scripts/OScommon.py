@@ -411,6 +411,8 @@ flags = {
 	"serenity_global": "serenity",
 	"MALACHITEIDGlobal":"malachite",
 	"malachite_id_global":"malachite",
+	"kunzite": "kunzite",
+	"kunzite_demo": "kunzite",
 	"tanzanite_tw_global": "tanzanite",
 	"TANZANITETWGlobal": "tanzanite",
 	"TANZANITERUGlobal":"tanzanite",
