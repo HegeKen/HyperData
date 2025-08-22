@@ -413,6 +413,8 @@ flags = {
 	"malachite_id_global":"malachite",
 	"kunzite": "kunzite",
 	"kunzite_demo": "kunzite",
+	"lapis": "lapis",
+	"lapis_demo": "lapis",
 	"tanzanite_tw_global": "tanzanite",
 	"TANZANITETWGlobal": "tanzanite",
 	"TANZANITERUGlobal":"tanzanite",

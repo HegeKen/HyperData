@@ -48,13 +48,55 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS2.0.204.0.VPPCNXM": {
+          "os": "OS2.0.204.0.VPPCNXM",
           "android": "15.0",
-          "release": "",
+          "release": "2025-08-22",
           "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "fastboot": "lapis_images_OS2.0.204.0.VPPCNXM_20250817.0000.00_15.0_cn_c82aec37dc.tgz",
+          "ctelecom": "lapis_images_OS2.0.204.0.VPPCNXM_20250817.0000.00_15.0_cn_chinatelecom_65300b1c18.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "lapis_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VPPCNDM": {
+          "os": "OS2.0.201.0.VPPCNDM",
+          "android": "15.0",
+          "release": "2025-08-22",
+          "recovery": "",
+          "fastboot": "lapis_demo_images_OS2.0.201.0.VPPCNDM_20250731.0000.00_15.0_cn_28b94ac123.tgz",
+          "ctelecom": "lapis_demo_images_OS2.0.201.0.VPPCNDM_20250731.0000.00_15.0_cn_chinatelecom_fbe95629a7.tgz"
         }
       }
     }
