@@ -2688,11 +2688,11 @@ def getChangelog(encrypted_data, device):
 		data = miui_decrypt(response.text.split("q=")[0])
 		if "LatestRom" in data:
 			print("最新版本更新日志：")
-			print_log(data["LatestRom"]["changelog"])
+			print_log(strip_log(data["LatestRom"]["changelog"]))
 		if "CurrentRom" in data:
 			print("当前版本更新日志：")
 			print(device)
-			print_log(data["CurrentRom"]["changelog"])
+			print_log(strip_log(data["CurrentRom"]["changelog"]))
 		else:
 			print(data)
 			return 0
@@ -2725,7 +2725,7 @@ def getChangelog2DB(encrypted_data, device,version):
 		else:
 			return False
 	response.close()
-	return json.dumps(remove_spaces(log), ensure_ascii=False)
+	return json.dumps(strip_log(remove_spaces(log)), ensure_ascii=False)
 
 def remove_spaces(d):
 	if isinstance(d, dict):
@@ -2761,7 +2761,7 @@ def compare(v1, v2):
 def print_log(log):
 	for module in log:
 		print(module)
-		for entry in log[module]['txt']:
+		for entry in log[module]:
 			print(entry)
 		
 
@@ -2869,3 +2869,12 @@ def entryChecker(data,device):
 		return 1
 	else:
 		return 0
+
+def strip_log(data):
+  result = {}
+  for key, value in data.items():
+    if isinstance(value, dict) and 'txt' in value:
+      result[key] = value['txt']
+    else:
+      result[key] = value
+  return result
