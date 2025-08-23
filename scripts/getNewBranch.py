@@ -6,7 +6,8 @@ os.system(f"clear")
 increment = ["1","100","200"]
 one_devices = ['warm']
 base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
-devices = list(dict.fromkeys(OScommon.unreleased+ OScommon.currentStable))
+# devices = list(dict.fromkeys(OScommon.unreleased + OScommon.currentStable))
+devices = list(dict.fromkeys(OScommon.currentStable + OScommon.unreleased))
 for device in devices:
 	devdata = OScommon.localData(device)
 	device = devdata['device']

@@ -106,8 +106,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['lapis', 'kunzite', 'coral', 'flourite', 'popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'annibale', 'myron', 'nezha', 'goya', 'klimt']
-currentStable = ['lapis', 'kunzite', 'coral', 'flourite', 'creek', 'spring', 'taiko', 'bixi', 'dali', 'turner', 'goya', 'klimt', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
+unreleased = ['coral', 'popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'annibale', 'myron', 'nezha', 'goya', 'klimt']
+currentStable = ['spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'goya', 'klimt', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'poussin', 'citrine', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
 								 'ruyi', 'goku', 'agate', 'air', 'alioth', 'ares', 'aristotle', 'aurora', 'babylon', 'breeze', 'cas',
