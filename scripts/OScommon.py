@@ -433,6 +433,7 @@ flags = {
 	"violin": "violin",
 	"dali_demo": "dali",
 	"dali": "dali",
+	"creek_eea_global": "creek",
 	"spring_eea_global": "spring",
 	"spring_global": "spring",
 	"turner_demo":"turner",

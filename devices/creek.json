@@ -111,6 +111,44 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "creek_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VBOEUXM": {
+          "os": "OS2.0.203.0.VBOEUXM",
+          "android": "15.0",
+          "release": "2025-08-25",
+          "recovery": "creek_eea_global-ota_full-OS2.0.203.0.VBOEUXM-user-15.0-edad663cd5.zip",
+          "fastboot": "creek_eea_global_images_OS2.0.203.0.VBOEUXM_20250723.0000.00_15.0_eea_699519a012.tgz"
+        }
+      }
     }
   ]
 }
