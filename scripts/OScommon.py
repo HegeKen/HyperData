@@ -430,6 +430,7 @@ flags = {
 	"AMETHYSTIDGlobal":"amethyst",
 	"xuanyuan":"xuanyuan",
 	"creek_global": "creek",
+	"spring_in_global": "spring",
 	"violin": "violin",
 	"dali_demo": "dali",
 	"dali": "dali",
