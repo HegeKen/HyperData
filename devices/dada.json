@@ -6,7 +6,8 @@
 	},
 	"code": "OC",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"15.0",
@@ -48,6 +49,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.14.WOCCNXM": {
+					"os": "OS3.0.0.14.WOCCNXM",
+					"android": "16.0",
+					"release": "2025-08-29",
+					"recovery": "dada-ota_full-OS3.0.0.14.WOCCNXM-user-16.0-63fd236d4e.zip",
+					"fastboot": ""
+				},
 				"OS2.0.230.18.WOCCNXM": {
 					"os": "OS2.0.230.18.WOCCNXM",
 					"android": "16.0",

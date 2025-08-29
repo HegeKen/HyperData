@@ -6,15 +6,58 @@
   },
   "code": "ON",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
   "merged": "no",
   "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "dali",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K80 至尊版",
+        "en": "REDMI K80 Ultra"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.0.17.WONCNXM": {
+          "os": "OS3.0.0.17.WONCNXM",
+          "android": "16.0",
+          "release": "2025-08-29",
+          "recovery": "dali-ota_full-OS3.0.0.17.WONCNXM-user-16.0-65a58dfd1d.zip",
+          "fastboot": ""
+        }
+      }
+    },
     {
       "name": {
         "zh": "小米澎湃 OS 正式版",

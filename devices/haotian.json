@@ -6,10 +6,12 @@
 	},
 	"code": "OB",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -47,6 +49,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.16.WOBCNXM": {
+					"os": "OS3.0.0.16.WOBCNXM",
+					"android": "16.0",
+					"release": "2025-08-29",
+					"recovery": "haotian-ota_full-OS3.0.0.16.WOBCNXM-user-16.0-a5e229e319.zip",
+					"fastboot": ""
+				},
 				"OS2.0.214.4.VOBCNXM": {
 					"os": "OS2.0.214.4.VOBCNXM",
 					"android": "15.0",

@@ -6,10 +6,12 @@
 	},
 	"code": "OM",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -47,6 +49,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.11.WOMCNXM": {
+					"os": "OS3.0.0.11.WOMCNXM",
+					"android": "16.0",
+					"release": "2025-08-29",
+					"recovery": "miro-ota_full-OS3.0.0.11.WOMCNXM-user-16.0-e524d488d6.zip",
+					"fastboot": ""
+				},
 				"OS2.0.200.16.VOMCNXM": {
 					"os": "OS2.0.200.16.VOMCNXM",
 					"android": "15.0",

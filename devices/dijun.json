@@ -6,10 +6,12 @@
   },
   "code": "OD",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -47,6 +49,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.0.9.WODCNXM": {
+          "os": "OS3.0.0.9.WODCNXM",
+          "android": "16.0",
+          "release": "2025-08-29",
+          "recovery": "dijun-ota_full-OS3.0.0.9.WODCNXM-user-16.0-29e326a282.zip",
+          "fastboot": ""
+        },
         "OS2.0.207.4.VODCNXM": {
           "os": "OS2.0.207.4.VODCNXM",
           "android": "15.0",
