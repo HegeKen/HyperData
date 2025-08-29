@@ -431,6 +431,8 @@ flags = {
 	"xuanyuan":"xuanyuan",
 	"creek_global": "creek",
 	"spring_in_global": "spring",
+	"creek_ru_global": "creek",
+	"creek_id_global": "creek",
 	"violin": "violin",
 	"dali_demo": "dali",
 	"dali": "dali",

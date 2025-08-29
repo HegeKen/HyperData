@@ -149,6 +149,82 @@
           "fastboot": "creek_eea_global_images_OS2.0.203.0.VBOEUXM_20250723.0000.00_15.0_eea_699519a012.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "creek_ru_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VBORUXM": {
+          "os": "OS2.0.204.0.VBORUXM",
+          "android": "15.0",
+          "release": "2025-08-28",
+          "recovery": "creek_ru_global-ota_full-OS2.0.204.0.VBORUXM-user-15.0-ad173bd7c4.zip",
+          "fastboot": "creek_ru_global_images_OS2.0.204.0.VBORUXM_20250805.0000.00_15.0_ru_d1defaadfc.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "creek_id_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VBOIDXM": {
+          "os": "OS2.0.203.0.VBOIDXM",
+          "android": "15.0",
+          "release": "2025-08-28",
+          "recovery": "creek_id_global-ota_full-OS2.0.203.0.VBOIDXM-user-15.0-1768957e14.zip",
+          "fastboot": "creek_id_global_images_OS2.0.203.0.VBOIDXM_20250723.0000.00_15.0_id_c0c314ebaf.tgz"
+        }
+      }
     }
   ]
 }

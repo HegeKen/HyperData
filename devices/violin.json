@@ -6,15 +6,58 @@
   },
   "code": "OT",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "tablet",
   "miui": "no",
   "merged": "no",
   "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "violin",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米平板7S Pro 12.5",
+        "en": "Xiaomi Pad 7S Pro 12.5"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.0.10.WOTCNXM": {
+          "os": "OS3.0.0.10.WOTCNXM",
+          "android": "16.0",
+          "release": "2025-08-29",
+          "recovery": "violin-ota_full-OS3.0.0.10.WOTCNXM-user-16.0-421e6633ad.zip",
+          "fastboot": ""
+        }
+      }
+    },
     {
       "name": {
         "zh": "小米澎湃 OS 正式版",
