@@ -17,6 +17,49 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "spring",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15R 5G",
+        "en": "REDMI Note 15R 5G"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VOUCNXM": {
+          "os": "OS2.0.203.0.VOUCNXM",
+          "android": "15.0",
+          "release": "2025-08-29",
+          "recovery": "spring-ota_full-OS2.0.203.0.VOUCNXM-user-15.0-1301088748.zip",
+          "fastboot": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_e2e97a1c34.tgz",
+          "ctelecom": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_chinatelecom_f4b946645e.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 国际正式版",
         "en": "Xiaomi HyperOS Global Stable"
       },

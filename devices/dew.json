@@ -1,0 +1,285 @@
+{
+  "device": "dew",
+  "name": {
+    "zh": "REDMI 15C / POCO C85",
+    "en": "REDMI 15C / POCO C85"
+  },
+  "code": "BN",
+  "suppports": [
+    "OS2.0"
+  ],
+  "android": [
+    "15.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "dew_tw_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VBNTWXM": {
+          "os": "OS2.0.201.0.VBNTWXM",
+          "android": "15.0",
+          "release": "2025-08-29",
+          "recovery": "dew_tw_global-ota_full-OS2.0.201.0.VBNTWXM-user-15.0-21b455beeb.zip",
+          "fastboot": "dew_tw_global_images_OS2.0.201.0.VBNTWXM_20250708.0000.00_15.0_tw_a13b9422d5.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "dew_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.211.0.VBNMIXM": {
+          "os": "OS2.0.211.0.VBNMIXM",
+          "android": "15.0",
+          "release": "2025-08-29",
+          "recovery": "dew_global-ota_full-OS2.0.211.0.VBNMIXM-user-15.0-6523ff79d0.zip",
+          "fastboot": "dew_global_images_OS2.0.211.0.VBNMIXM_20250731.0000.00_15.0_global_90c6ed3e1e.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "dew_dc_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VBNMIDC": {
+          "os": "OS2.0.201.0.VBNMIDC",
+          "android": "15.0",
+          "release": "2025-08-29",
+          "recovery": "dew_dc_global-ota_full-OS2.0.201.0.VBNMIDC-user-15.0-81a2f9b216.zip",
+          "fastboot": "dew_dc_global_images_OS2.0.201.0.VBNMIDC_20250708.0000.00_15.0_global_dc_04c8146bf6.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "dew_eea_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.211.0.VBNEUXM": {
+          "os": "OS2.0.211.0.VBNEUXM",
+          "android": "15.0",
+          "release": "2025-08-29",
+          "recovery": "dew_eea_global-ota_full-OS2.0.211.0.VBNEUXM-user-15.0-c1920da282.zip",
+          "fastboot": "dew_eea_global_images_OS2.0.211.0.VBNEUXM_20250724.0000.00_15.0_eea_8c259bb751.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "dew_ru_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VBNRUXM": {
+          "os": "OS2.0.203.0.VBNRUXM",
+          "android": "15.0",
+          "release": "2025-08-29",
+          "recovery": "dew_ru_global-ota_full-OS2.0.203.0.VBNRUXM-user-15.0-e530d6a7d8.zip",
+          "fastboot": "dew_ru_global_images_OS2.0.203.0.VBNRUXM_20250627.0000.00_15.0_ru_e0b6351f73.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "dew_id_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VBNIDXM": {
+          "os": "OS2.0.201.0.VBNIDXM",
+          "android": "15.0",
+          "release": "2025-08-29",
+          "recovery": "dew_id_global-ota_full-OS2.0.201.0.VBNIDXM-user-15.0-a51fe33095.zip",
+          "fastboot": "dew_id_global_images_OS2.0.201.0.VBNIDXM_20250630.0000.00_15.0_id_50a8b5558c.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "dew_tr_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VBNTRXM": {
+          "os": "OS2.0.201.0.VBNTRXM",
+          "android": "15.0",
+          "release": "2025-08-29",
+          "recovery": "dew_tr_global-ota_full-OS2.0.201.0.VBNTRXM-user-15.0-85b5f47510.zip",
+          "fastboot": "dew_tr_global_images_OS2.0.201.0.VBNTRXM_20250710.0000.00_15.0_tr_6e3d83e87a.tgz"
+        }
+      }
+    }
+  ]
+}
