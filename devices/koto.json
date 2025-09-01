@@ -96,6 +96,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.203.0.VOWMIXM": {
+					"os": "OS2.0.203.0.VOWMIXM",
+					"android": "15.0",
+					"release": "2025-08-31",
+					"recovery": "koto_global-ota_full-OS2.0.203.0.VOWMIXM-user-15.0-0d7134dae5.zip",
+					"fastboot": ""
+				},
 				"OS2.0.202.0.VOWMIXM": {
 					"os": "OS2.0.202.0.VOWMIXM",
 					"android": "15.0",
@@ -153,7 +160,7 @@
 					"android": "15.0",
 					"release": "2025-08-27",
 					"recovery": "koto_dc_global-ota_full-OS2.0.203.0.VOWMIDC-user-15.0-1ec9a72691.zip",
-					"fastboot": ""
+					"fastboot": "koto_dc_global_images_OS2.0.203.0.VOWMIDC_20250820.0000.00_15.0_global_dc_799f1dc5f6.tgz"
 				},
 				"OS2.0.202.0.VOWMIDC": {
 					"os": "OS2.0.202.0.VOWMIDC",
@@ -250,7 +257,7 @@
 					"android": "15.0",
 					"release": "2025-08-27",
 					"recovery": "koto_ru_global-ota_full-OS2.0.201.0.VOWRUXM-user-15.0-bb25c2f15e.zip",
-					"fastboot": ""
+					"fastboot": "koto_ru_global_images_OS2.0.201.0.VOWRUXM_20250819.0000.00_15.0_ru_7da67b749d.tgz"
 				},
 				"OS2.0.103.0.VOWRUXM": {
 					"os": "OS2.0.103.0.VOWRUXM",
