@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-09-08 22:05:33",
+    "time": "2025-09-09 17:48:55",
     "developing": "no",
     "roms": [
+      {
+        "code": "cupid",
+        "name": {
+          "zh": "小米 12",
+          "en": "Xiaomi 12"
+        },
+        "rom": "OS2.0.201.0.VLCMXAT"
+      },
       {
         "code": "fuxi",
         "name": {
@@ -36,12 +44,20 @@
         "rom": "OS2.0.207.0.VMWEUXM"
       },
       {
+        "code": "gale",
+        "name": {
+          "zh": "Redmi 13C 国际 / POCO C65",
+          "en": "Redmi 13C / POCO C65"
+        },
+        "rom": "OS2.0.201.0.VGPMXAT"
+      },
+      {
         "code": "lake",
         "name": {
           "zh": "Redmi 14C",
           "en": "Redmi 14C"
         },
-        "rom": "OS2.0.203.0.VGTEUXM"
+        "rom": "OS2.0.203.0.VGTEUXM; OS2.0.200.0.VGTRUXM; OS2.0.200.0.VGTTRXM"
       },
       {
         "code": "spring",
@@ -68,12 +84,28 @@
         "rom": "OS2.0.201.0.VOPTWXM; OS2.0.202.0.VOPRUXM; OS2.0.201.0.VOPIDXM; OS2.0.201.0.VOPTRXM"
       },
       {
+        "code": "emerald_r",
+        "name": {
+          "zh": "Redmi Note 14s",
+          "en": "Redmi Note 14s"
+        },
+        "rom": "OS2.0.204.0.VFOTRXM"
+      },
+      {
         "code": "rodin",
         "name": {
           "zh": "REDMI Turbo 4 / POCO X7 Pro",
           "en": "REDMI Turbo 4 / POCO X7 Pro"
         },
         "rom": "OS2.0.204.0.VOJMIXM"
+      },
+      {
+        "code": "serenity",
+        "name": {
+          "zh": "REDMI A5 / POCO C71",
+          "en": "REDMI A5 / POCO C71"
+        },
+        "rom": "A15.0.6.0.VGWEUSF"
       }
     ]
   }
