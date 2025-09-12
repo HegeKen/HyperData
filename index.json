@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-09-12 01:17:52",
+    "time": "2025-09-12 21:23:07",
     "developing": "no",
     "roms": [
+      {
+        "code": "lisa",
+        "name": {
+          "zh": "小米 11 青春活力版 / 小米 11 Lite 5G NE",
+          "en": "Mi 11 LE / Xiaomi 11 Lite 5G NE"
+        },
+        "rom": "OS2.0.5.0.UKOTWXM; OS2.0.5.0.UKOTRXM; OS1.0.14.0.UKOMXAT"
+      },
       {
         "code": "vili",
         "name": {
@@ -17,7 +25,7 @@
           "zh": "小米 12",
           "en": "Xiaomi 12"
         },
-        "rom": "OS2.0.201.0.VLCMXAT"
+        "rom": "OS2.0.209.0.VLCCNXM; OS2.0.201.0.VLCMXAT"
       },
       {
         "code": "zeus",
@@ -25,7 +33,7 @@
           "zh": "小米 12 Pro",
           "en": "Xiaomi 12 Pro"
         },
-        "rom": "OS2.0.208.0.VLBCNXM"
+        "rom": "OS2.0.208.0.VLBCNXM; OS2.0.206.0.VLBEUXM"
       },
       {
         "code": "fuxi",
@@ -44,6 +52,14 @@
         "rom": "OS2.0.206.0.VMACNXM"
       },
       {
+        "code": "aristotle",
+        "name": {
+          "zh": "小米 13T",
+          "en": "Xiaomi 13T"
+        },
+        "rom": "OS2.0.201.0.VMFMXAT"
+      },
+      {
         "code": "aurora",
         "name": {
           "zh": "小米 14 Ultra / Ultra Ti",
@@ -57,7 +73,7 @@
           "zh": "小米 15",
           "en": "Xiaomi 15"
         },
-        "rom": "OS3.0.0.21.WOCCNXM"
+        "rom": "OS3.0.0.22.WOCCNXM; OS3.0.0.21.WOCCNXM"
       },
       {
         "code": "haotian",
@@ -65,7 +81,7 @@
           "zh": "小米 15 Pro",
           "en": "Xiaomi 15 Pro"
         },
-        "rom": "OS3.0.0.24.WOBCNXM"
+        "rom": "OS3.0.0.25.WOBCNXM; OS3.0.0.24.WOBCNXM"
       },
       {
         "code": "xuanyuan",
@@ -73,7 +89,7 @@
           "zh": "小米 15 Ultra",
           "en": "Xiaomi 15 Ultra"
         },
-        "rom": "OS3.0.0.25.WOACNXM; OS2.0.204.0.VOAMIDC"
+        "rom": "OS3.0.0.26.WOACNXM; OS3.0.0.25.WOACNXM; OS2.0.204.0.VOAMIDC"
       },
       {
         "code": "dijun",
@@ -137,7 +153,7 @@
           "zh": "Redmi 14C",
           "en": "Redmi 14C"
         },
-        "rom": "OS2.0.203.0.VGTEUXM; OS2.0.200.0.VGTRUXM; OS2.0.200.0.VGTTRXM; OS2.0.201.0.VGTMXAT"
+        "rom": "OS2.0.203.0.VGTEUXM; OS2.0.200.0.VGTRUXM; OS2.0.200.0.VGTIDXM; OS2.0.200.0.VGTTRXM; OS2.0.201.0.VGTMXAT"
       },
       {
         "code": "spring",
@@ -162,6 +178,14 @@
           "en": "Redmi Note 13 Pro+ 5G"
         },
         "rom": "OS2.0.203.0.VNOTWXM; OS2.0.203.0.VNORUXM; OS2.0.203.0.VNOIDXM; OS2.0.203.0.VNOTRXM"
+      },
+      {
+        "code": "malachite",
+        "name": {
+          "zh": "Redmi Note 14 Pro / POCO X7",
+          "en": "Redmi Note 14 Pro / POCO X7"
+        },
+        "rom": "OS2.0.202.0.VOOMXAT"
       },
       {
         "code": "amethyst",
@@ -241,7 +265,7 @@
           "zh": "REDMI A5 / POCO C71",
           "en": "REDMI A5 / POCO C71"
         },
-        "rom": "A15.0.6.0.VGWEUSF"
+        "rom": "A15.0.6.0.VGWEUSF; A15.0.7.0.VGWLMMS"
       }
     ]
   }
