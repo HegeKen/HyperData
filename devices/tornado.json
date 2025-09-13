@@ -1,0 +1,57 @@
+{
+  "device": "tornado",
+  "name": {
+    "zh": "REDMI 15C 5G / REDMI 15R 5G",
+    "en": "REDMI 15C 5G / REDMI 15R 5G"
+  },
+  "code": "PO",
+  "suppports": [
+    "OS2.0"
+  ],
+  "android": [
+    "15.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "tornado_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15C 5G / REDMI 15R 5G",
+        "en": "REDMI 15C 5G / REDMI 15R 5G"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPOEUXM": {
+          "os": "OS2.0.202.0.VPOEUXM",
+          "android": "15.0",
+          "release": "2025-09-13",
+          "recovery": "tornado_eea_global-ota_full-OS2.0.202.0.VPOEUXM-user-15.0-9434e745a0.zip",
+          "fastboot": "tornado_eea_global_images_OS2.0.202.0.VPOEUXM_20250825.0000.00_15.0_eea_94d8e61a91.tgz"
+        }
+      }
+    }
+  ]
+}
