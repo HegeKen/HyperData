@@ -6,10 +6,12 @@
 	},
 	"code": "OK",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -47,6 +49,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.8.WOKCNXM": {
+					"os": "OS3.0.0.8.WOKCNXM",
+					"android": "16.0",
+					"release": "2025-09-15",
+					"recovery": "zorn-ota_full-OS3.0.0.8.WOKCNXM-user-16.0-64f1a39bb4.zip",
+					"fastboot": ""
+				},
 				"OS2.0.200.15.VOKCNXM": {
 					"os": "OS2.0.200.15.VOKCNXM",
 					"android": "15.0",
