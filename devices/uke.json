@@ -6,10 +6,12 @@
 	},
 	"code": "OZ",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -47,6 +49,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.2.WOZCNXM": {
+					"os": "OS3.0.0.2.WOZCNXM",
+					"android": "15.0",
+					"release": "2025-09-15",
+					"recovery": "uke-ota_full-OS3.0.0.2.WOZCNXM-user-16.0-eb7a2e8e91.zip",
+					"fastboot": ""
+				},
 				"OS2.0.200.18.VOZCNXM": {
 					"os": "OS2.0.200.18.VOZCNXM",
 					"android": "15.0",
