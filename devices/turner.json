@@ -6,15 +6,58 @@
   },
   "code": "AO",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "tablet",
   "miui": "no",
   "merged": "no",
   "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "turner",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K Pad",
+        "en": "REDMI K Pad"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.0.6.WAOCNXM": {
+          "os": "OS3.0.0.6.WAOCNXM",
+          "android": "16.0",
+          "release": "2025-09-15",
+          "recovery": "turner-ota_full-OS3.0.0.6.WAOCNXM-user-16.0-60e79a32e3.zip",
+          "fastboot": ""
+        }
+      }
+    },
     {
       "name": {
         "zh": "小米澎湃 OS 正式版",
