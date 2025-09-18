@@ -6,15 +6,58 @@
   },
   "code": "OH",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
   "merged": "no",
   "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "bixi",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 MIX Flip 2",
+        "en": "Xiaomi MIX Flip 2"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.0.4.WOHCNXM": {
+          "os": "OS3.0.0.4.WOHCNXM",
+          "android": "16.0",
+          "release": "2025-09-15",
+          "recovery": "bixi-ota_full-OS3.0.0.4.WOHCNXM-user-16.0-36928e703f.zip",
+          "fastboot": ""
+        }
+      }
+    },
     {
       "name": {
         "zh": "小米澎湃 OS 正式版",
