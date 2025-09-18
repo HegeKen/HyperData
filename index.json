@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-09-16 15:48:33",
+    "time": "2025-09-18 14:37:44",
     "developing": "no",
     "roms": [
+      {
+        "code": "cmi",
+        "name": {
+          "zh": "小米 10 Pro",
+          "en": "Mi 10 Pro"
+        },
+        "rom": "OS1.0.9.0.TJACNXM"
+      },
       {
         "code": "agate",
         "name": {
@@ -44,12 +52,28 @@
         "rom": "OS2.0.206.0.VMAMIXM"
       },
       {
+        "code": "aristotle",
+        "name": {
+          "zh": "小米 13T",
+          "en": "Xiaomi 13T"
+        },
+        "rom": "OS2.0.4.0.VMFLMCR"
+      },
+      {
         "code": "aurora",
         "name": {
           "zh": "小米 14 Ultra / Ultra Ti",
           "en": "Xiaomi 14 Ultra"
         },
-        "rom": "OS2.0.203.0.VNAINXM"
+        "rom": "OS2.0.203.0.VNAINXM; OS2.0.203.0.VNATRXM"
+      },
+      {
+        "code": "degas",
+        "name": {
+          "zh": "小米 14T",
+          "en": "Xiaomi 14T"
+        },
+        "rom": "OS2.0.202.0.VNELMCR"
       },
       {
         "code": "dada",
@@ -68,6 +92,14 @@
         "rom": "OS2.0.205.0.VOATWXM; OS2.0.205.0.VOAMIXM; OS2.0.205.0.VOARUXM; OS2.0.204.0.VOAINXM; OS2.0.206.0.VOAIDXM"
       },
       {
+        "code": "pipa",
+        "name": {
+          "zh": "小米平板 6",
+          "en": "Xiaomi Pad 6"
+        },
+        "rom": "OS2.0.7.0.UMZTRXM"
+      },
+      {
         "code": "sheng",
         "name": {
           "zh": "小米平板 6S Pro 12.4",
@@ -84,6 +116,14 @@
         "rom": "OS3.0.0.2.WOZCNXM; OS2.0.201.0.VOZIDXM"
       },
       {
+        "code": "muyu",
+        "name": {
+          "zh": "小米平板7 Pro",
+          "en": "Xiaomi Pad 7 Pro"
+        },
+        "rom": "OS2.0.206.0.VOYCNXM"
+      },
+      {
         "code": "jinghu",
         "name": {
           "zh": "小米平板7 Ultra",
@@ -92,12 +132,36 @@
         "rom": "OS3.0.0.5.WOXCNXM"
       },
       {
+        "code": "bixi",
+        "name": {
+          "zh": "小米 MIX Flip 2",
+          "en": "Xiaomi MIX Flip 2"
+        },
+        "rom": "OS2.0.212.0.VOHCNXM"
+      },
+      {
         "code": "fire",
         "name": {
           "zh": "Redmi 12 国际",
           "en": "Redmi 12"
         },
-        "rom": "OS2.0.202.0.VMXINXM"
+        "rom": "OS2.0.5.0.VMXMIDC; OS2.0.202.0.VMXINXM; OS2.0.202.0.VMXLMCR"
+      },
+      {
+        "code": "earth",
+        "name": {
+          "zh": "Redmi 12C / POCO C55",
+          "en": "Redmi 12C / POCO C55"
+        },
+        "rom": "OS1.0.13.0.UCVMIXM; OS1.0.10.0.UCVRUXM"
+      },
+      {
+        "code": "air",
+        "name": {
+          "zh": "Redmi 13C/R 5G / POCO M6 5G",
+          "en": "Redmi 13C/R 5G / POCO M6 5G"
+        },
+        "rom": "OS2.0.202.0.VGQMIXM"
       },
       {
         "code": "dew",
@@ -116,12 +180,36 @@
         "rom": "OS2.0.8.0.UMSTWXM; OS2.0.10.0.UMSMIXM; OS2.0.10.0.UMSEUXM; OS2.0.7.0.UMSRUXM; OS2.0.10.0.UMSINXM; OS2.0.8.0.UMSIDXM; OS2.0.8.0.UMSTRXM"
       },
       {
+        "code": "pearl",
+        "name": {
+          "zh": "Redmi Note 12T Pro",
+          "en": "Redmi Note 12T Pro"
+        },
+        "rom": "OS2.0.210.0.VLHCNXM"
+      },
+      {
+        "code": "tapas",
+        "name": {
+          "zh": "Redmi Note 12 4G",
+          "en": "Redmi Note 12 4G"
+        },
+        "rom": "OS2.0.5.0.VMTLMCR"
+      },
+      {
         "code": "gold",
         "name": {
           "zh": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G",
           "en": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G"
         },
-        "rom": "OS2.0.204.0.VNQMIDC"
+        "rom": "OS2.0.204.0.VNQMIDC; OS2.0.204.0.VNQTRXM"
+      },
+      {
+        "code": "breeze",
+        "name": {
+          "zh": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G",
+          "en": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G"
+        },
+        "rom": "OS2.0.203.0.VNUINXM"
       },
       {
         "code": "emerald",
@@ -137,7 +225,39 @@
           "zh": "Redmi Note 13 Pro+ 5G",
           "en": "Redmi Note 13 Pro+ 5G"
         },
-        "rom": "OS2.0.204.0.VNOJPXM"
+        "rom": "OS2.0.204.0.VNOJPXM; OS2.0.202.0.VNOLMCR"
+      },
+      {
+        "code": "beryl",
+        "name": {
+          "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
+          "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
+        },
+        "rom": "OS2.0.3.0.VOQLMCR"
+      },
+      {
+        "code": "amethyst",
+        "name": {
+          "zh": "Redmi Note 14 Pro+",
+          "en": "Redmi Note 14 Pro+"
+        },
+        "rom": "OS2.0.202.0.VOPMIDC; OS2.0.3.0.VOPLMCR"
+      },
+      {
+        "code": "sapphire",
+        "name": {
+          "zh": "Redmi Note 13 4G",
+          "en": "Redmi Note 13 4G"
+        },
+        "rom": "OS2.0.5.0.VNGLMCR"
+      },
+      {
+        "code": "lapis",
+        "name": {
+          "zh": "REDMI Note 15 Pro 5G",
+          "en": "REDMI Note 15 Pro 5G"
+        },
+        "rom": "OS2.0.206.0.VPPCNXM"
       },
       {
         "code": "peridot",
@@ -145,7 +265,7 @@
           "zh": "Redmi Turbo 3 / POCO F6",
           "en": "Redmi Turbo 3 / POCO F6"
         },
-        "rom": "OS2.0.205.0.VNPMIXM"
+        "rom": "OS2.0.205.0.VNPCNXM; OS2.0.205.0.VNPMIXM"
       },
       {
         "code": "onyx",
@@ -164,6 +284,22 @@
         "rom": "OS2.0.203.0.VLFMIXM"
       },
       {
+        "code": "socrates",
+        "name": {
+          "zh": "Redmi K60 Pro",
+          "en": "Redmi K60 Pro"
+        },
+        "rom": "OS2.0.209.0.VMKCNXM"
+      },
+      {
+        "code": "vermeer",
+        "name": {
+          "zh": "Redmi K70 / POCO F6 Pro",
+          "en": "Redmi K70 / POCO F6 Pro"
+        },
+        "rom": "OS2.0.206.0.VNKMIXM"
+      },
+      {
         "code": "zorn",
         "name": {
           "zh": "REDMI K80 / POCO F7 Pro",
@@ -178,6 +314,14 @@
           "en": "Redmi Pad SE"
         },
         "rom": "OS2.0.201.0.VMUINXM"
+      },
+      {
+        "code": "taiko",
+        "name": {
+          "zh": "REDMI 平板 2",
+          "en": "REDMI Pad 2"
+        },
+        "rom": "OS2.0.203.0.VOVTRXM"
       },
       {
         "code": "turner",
