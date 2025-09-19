@@ -17,6 +17,82 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "tornado_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15C 5G / REDMI 15R 5G",
+        "en": "REDMI 15C 5G / REDMI 15R 5G"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPOMIXM": {
+          "os": "OS2.0.202.0.VPOMIXM",
+          "android": "15.0",
+          "release": "2025-09-19",
+          "recovery": "tornado_global-ota_full-OS2.0.202.0.VPOMIXM-user-15.0-9ca795b8a9.zip",
+          "fastboot": "tornado_global_images_OS2.0.202.0.VPOMIXM_20250819.0000.00_15.0_global_911cb0e3b8.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "tornado_dc_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15C 5G / REDMI 15R 5G",
+        "en": "REDMI 15C 5G / REDMI 15R 5G"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPOMIDC": {
+          "os": "OS2.0.202.0.VPOMIDC",
+          "android": "15.0",
+          "release": "2025-09-19",
+          "recovery": "tornado_dc_global-ota_full-OS2.0.202.0.VPOMIDC-user-15.0-cca52d469e.zip",
+          "fastboot": "tornado_dc_global_images_OS2.0.202.0.VPOMIDC_20250826.0000.00_15.0_global_dc_043f44ae99.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 欧洲EEA正式版",
         "en": "Xiaomi HyperOS Europe EEA Stable"
       },

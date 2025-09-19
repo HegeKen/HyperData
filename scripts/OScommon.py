@@ -438,6 +438,8 @@ flags = {
 	"dali": "dali",
 	"KONGHOU": "konghou",
 	"konghou": "konghou",
+	"tornado_global": "tornado",
+	"tornado_dc_global": "tornado",
 	"tornado_eea_global": "tornado",
 	"creek_eea_global": "creek",
 	"spring_eea_global": "spring",
