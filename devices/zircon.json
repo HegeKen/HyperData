@@ -524,6 +524,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.203.0.VNOMIDC": {
+					"os": "OS2.0.203.0.VNOMIDC",
+					"android": "15.0",
+					"release": "2025-09-22",
+					"recovery": "",
+					"fastboot": "zircon_dc_global_images_OS2.0.203.0.VNOMIDC_20250822.0000.00_15.0_global_dc_71ab9d8344.tgz"
+				},
 				"OS2.0.4.0.VNOMIDC": {
 					"os": "OS2.0.4.0.VNOMIDC",
 					"android": "15.0",
@@ -1303,7 +1310,7 @@
 					"android": "15.0",
 					"release": "2025-09-16",
 					"recovery": "zircon_jp_global-ota_full-OS2.0.204.0.VNOJPXM-user-15.0-0d483847a2.zip",
-					"fastboot": ""
+					"fastboot": "zircon_jp_global_images_OS2.0.204.0.VNOJPXM_20250904.0000.00_15.0_jp_77e2ec26dc.tgz"
 				},
 				"OS2.0.203.0.VNOJPXM": {
 					"os": "OS2.0.203.0.VNOJPXM",
@@ -1418,7 +1425,7 @@
 					"android": "15.0",
 					"release": "2025-09-18",
 					"recovery": "zircon_lm_cr_global-ota_full-OS2.0.202.0.VNOLMCR-user-15.0-425abe2832.zip",
-					"fastboot": ""
+					"fastboot": "zircon_lm_cr_global_images_OS2.0.202.0.VNOLMCR_20250909.0000.00_15.0_lm_cr_6116a10ad1.tgz"
 				},
 				"OS2.0.201.0.VNOLMCR": {
 					"os": "OS2.0.201.0.VNOLMCR",
