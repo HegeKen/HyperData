@@ -1,8 +1,8 @@
 {
   "device": "piano",
   "name": {
-    "zh": "Xiaomi Pad 8 Series",
-    "en": "Xiaomi Pad 8 Series"
+    "zh": "Xiaomi Pad 8 Pro",
+    "en": "Xiaomi Pad 8 Pro"
   },
   "code": "PY",
   "suppports": [
@@ -23,8 +23,8 @@
       "branchCode": "piano",
       "brand": "Xiaomi",
       "device": {
-        "zh": "Xiaomi Pad 8 Series",
-        "en": "Xiaomi Pad 8 Series"
+        "zh": "Xiaomi Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
       },
       "idtag": "CnOO",
       "tag": "CNXM",
@@ -55,6 +55,47 @@
           "recovery": "",
           "fastboot": "",
           "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "piano_demo",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPYCNDM": {
+          "os": "OS3.0.2.0.WPYCNDM",
+          "android": "16.0",
+          "release": "2025-09-19",
+          "recovery": "piano_demo-ota_full-OS3.0.2.0.WPYCNDM-user-16.0-43e9e0152a.zip",
+          "fastboot": "piano_demo_images_OS3.0.2.0.WPYCNDM_20250831.0000.00_16.0_cn_75f2c264ce.tgz"
         }
       }
     }

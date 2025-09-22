@@ -523,6 +523,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.202.0.VOOMIDC": {
+					"os": "OS2.0.202.0.VOOMIDC",
+					"android": "15.0",
+					"release": "2025-09-21",
+					"recovery": "malachite_dc_global-ota_full-OS2.0.202.0.VOOMIDC-user-15.0-d9bd8299f7.zip",
+					"fastboot": ""
+				},
 				"OS2.0.201.0.VOOMIDC": {
 					"os": "OS2.0.201.0.VOOMIDC",
 					"android": "15.0",
@@ -1066,6 +1073,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.205.0.VOOJPXM": {
+					"os": "OS2.0.205.0.VOOJPXM",
+					"android": "15.0",
+					"release": "2025-09-21",
+					"recovery": "malachite_jp_global-ota_full-OS2.0.205.0.VOOJPXM-user-15.0-20087470bb.zip",
+					"fastboot": ""
+				},
 				"OS2.0.204.0.VOOJPXM": {
 					"os": "OS2.0.204.0.VOOJPXM",
 					"android": "15.0",
@@ -1218,6 +1232,44 @@
 					"release": "2025-03-04",
 					"recovery": "",
 					"fastboot": "malachite_lm_cr_global_images_OS1.0.4.0.UOOLMCR_20250217.0000.00_14.0_lm_cr_e3de68b10c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "malachite_gt_tg_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X7",
+				"en": "POCO X7"
+			},
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tg"
+			],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.1.0.VOOGTTG": {
+					"os": "OS2.0.1.0.VOOGTTG",
+					"android": "15.0",
+					"release": "2025-09-21",
+					"recovery": "malachite_gt_tg_global-ota_full-OS2.0.1.0.VOOGTTG-user-15.0-ffe0efbdfa.zip",
+					"fastboot": ""
 				}
 			}
 		}

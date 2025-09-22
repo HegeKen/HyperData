@@ -1,8 +1,8 @@
 {
   "device": "yupei",
   "name": {
-    "zh": "Xiaomi Pad 8 Series",
-    "en": "Xiaomi Pad 8 Series"
+    "zh": "Xiaomi Pad 8",
+    "en": "Xiaomi Pad 8"
   },
   "code": "",
   "suppports": [
@@ -23,8 +23,8 @@
       "branchCode": "yupei",
       "brand": "Xiaomi",
       "device": {
-        "zh": "Xiaomi Pad 8 Series",
-        "en": "Xiaomi Pad 8 Series"
+        "zh": "Xiaomi Pad 8",
+        "en": "Xiaomi Pad 8"
       },
       "idtag": "CnOO",
       "tag": "CNXM",
@@ -55,6 +55,47 @@
           "recovery": "",
           "fastboot": "",
           "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "yupei_demo",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi Pad 8",
+        "en": "Xiaomi Pad 8"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPZCNDM": {
+          "os": "OS3.0.2.0.WPZCNDM",
+          "android": "16.0",
+          "release": "2025-09-19",
+          "recovery": "",
+          "fastboot": "yupei_demo_images_OS3.0.2.0.WPZCNDM_20250831.0000.00_16.0_cn_b374cfde6f.tgz"
         }
       }
     }
