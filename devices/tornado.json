@@ -17,6 +17,49 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "tornado_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15R 5G",
+        "en": "REDMI 15R 5G"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VPOCNDM": {
+          "os": "OS2.0.201.0.VPOCNDM",
+          "android": "15.0",
+          "release": "2025-09-23",
+          "recovery": "tornado_demo-ota_full-OS2.0.201.0.VPOCNDM-user-15.0-3b0abe84aa.zip",
+          "fastboot": "tornado_demo_images_OS2.0.201.0.VPOCNDM_20250812.0000.00_15.0_cn_46f5999efe.tgz",
+          "ctelecom": "tornado_demo_images_OS2.0.201.0.VPOCNDM_20250812.0000.00_15.0_cn_chinatelecom_ff02486397.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 国际正式版",
         "en": "Xiaomi HyperOS Global Stable"
       },

@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-09-22 15:55:23",
+    "time": "2025-09-23 12:51:10",
     "developing": "no",
     "roms": [
+      {
+        "code": "lisa",
+        "name": {
+          "zh": "小米 11 青春活力版 / 小米 11 Lite 5G NE",
+          "en": "Mi 11 LE / Xiaomi 11 Lite 5G NE"
+        },
+        "rom": "OS2.0.12.0.UKOCNXM"
+      },
       {
         "code": "vili",
         "name": {
@@ -20,12 +28,28 @@
         "rom": "OS2.0.206.0.VLBINXM; OS2.0.206.0.VLBIDXM"
       },
       {
+        "code": "unicorn",
+        "name": {
+          "zh": "小米 12S Pro",
+          "en": "Xiaomi 12S Pro"
+        },
+        "rom": "OS2.0.207.0.VLECNXM"
+      },
+      {
         "code": "aristotle",
         "name": {
           "zh": "小米 13T",
           "en": "Xiaomi 13T"
         },
         "rom": "OS2.0.202.0.VMFMIDC"
+      },
+      {
+        "code": "shennong",
+        "name": {
+          "zh": "小米 14 Pro / Ti / 钛金属卫星通讯版",
+          "en": "Xiaomi 14 Pro / Ti / Satellite"
+        },
+        "rom": "OS2.0.219.0.VNBCNXM"
       },
       {
         "code": "aurora",
@@ -60,6 +84,14 @@
         "rom": "OS2.0.201.0.VOZMIXM; OS2.0.203.0.VOZEUXM; OS2.0.203.0.VOZRUXM"
       },
       {
+        "code": "muyu",
+        "name": {
+          "zh": "小米平板7 Pro",
+          "en": "Xiaomi Pad 7 Pro"
+        },
+        "rom": "OS2.0.201.0.VOYMIXM; OS2.0.203.0.VOYEUXM; OS2.0.201.0.VOYIDXM"
+      },
+      {
         "code": "ziyi",
         "name": {
           "zh": "小米 Civi 2",
@@ -76,6 +108,14 @@
         "rom": "OS2.0.205.0.VNJINXM"
       },
       {
+        "code": "sky",
+        "name": {
+          "zh": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G",
+          "en": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G"
+        },
+        "rom": "OS2.0.201.0.VMWINXM; OS2.0.201.0.VMWJPXM"
+      },
+      {
         "code": "moon",
         "name": {
           "zh": "Redmi 13 / POCO M6 4G",
@@ -89,7 +129,15 @@
           "zh": "Redmi 14C",
           "en": "Redmi 14C"
         },
-        "rom": "OS2.0.200.0.VGTTWXM"
+        "rom": "OS2.0.201.0.VGTCNXM; OS2.0.200.0.VGTTWXM"
+      },
+      {
+        "code": "creek",
+        "name": {
+          "zh": "REDMI 15 4G",
+          "en": "REDMI 15 4G"
+        },
+        "rom": "OS2.0.201.0.VBOLMCR"
       },
       {
         "code": "sweet_k6a",
@@ -97,7 +145,7 @@
           "zh": "Redmi Note 12 Pro 4G",
           "en": "Redmi Note 12 Pro 4G"
         },
-        "rom": "OS1.0.23.0.THGRUXM; OS1.0.21.0.THGTRXM"
+        "rom": "OS1.0.23.0.THGMIXM; OS1.0.26.0.THGEUXM; OS1.0.23.0.THGRUXM; OS1.0.21.0.THGIDXM; OS1.0.21.0.THGTRXM"
       },
       {
         "code": "sea",
@@ -105,7 +153,7 @@
           "zh": "Redmi Note 12S",
           "en": "Redmi Note 12S"
         },
-        "rom": "OS2.0.204.0.VHZMIXM; OS2.0.204.0.VHZRUXM"
+        "rom": "OS2.0.204.0.VHZMIXM; OS2.0.204.0.VHZRUXM; OS2.0.201.0.VHZLMMS"
       },
       {
         "code": "gold",
@@ -114,6 +162,14 @@
           "en": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G"
         },
         "rom": "OS2.0.205.0.VNQTWXM"
+      },
+      {
+        "code": "garnet",
+        "name": {
+          "zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
+          "en": "Redmi Note 13 Pro 5G / POCO X6 5G"
+        },
+        "rom": "OS2.0.202.0.VNRTWXM; OS2.0.203.0.VNRMIXM; OS2.0.202.0.VNRRUXM; OS2.0.203.0.VNRINXM; OS2.0.203.0.VNRIDXM; OS2.0.202.0.VNRTRXM"
       },
       {
         "code": "zircon",
@@ -129,7 +185,15 @@
           "zh": "Redmi Note 14 Pro 4G",
           "en": "Redmi Note 14 Pro 4G"
         },
-        "rom": "OS2.0.209.0.VOFMIXM; OS2.0.204.0.VOFMIDC"
+        "rom": "OS2.0.209.0.VOFMIXM; OS2.0.204.0.VOFMIDC; OS2.0.206.0.VOFEUXM; OS2.0.204.0.VOFRUXM; OS2.0.204.0.VOFTRXM"
+      },
+      {
+        "code": "sapphire",
+        "name": {
+          "zh": "Redmi Note 13 4G",
+          "en": "Redmi Note 13 4G"
+        },
+        "rom": "OS2.0.205.0.VNGMIXM"
       },
       {
         "code": "sapphiren",
@@ -156,6 +220,14 @@
         "rom": "OS2.0.202.0.VOLMIXM; OS2.0.202.0.VOLIDXM"
       },
       {
+        "code": "rothko",
+        "name": {
+          "zh": "Redmi K70 至尊版 / 小米 14T Pro",
+          "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
+        },
+        "rom": "OS2.0.203.0.VNNMIDC; OS2.0.202.0.VNNLMCR"
+      },
+      {
         "code": "miro",
         "name": {
           "zh": "REDMI K80 Pro / POCO F7 Ultra",
@@ -164,12 +236,28 @@
         "rom": "OS2.0.205.0.VOMEUXM"
       },
       {
+        "code": "taiko",
+        "name": {
+          "zh": "REDMI 平板 2",
+          "en": "REDMI Pad 2"
+        },
+        "rom": "OS2.0.202.0.VOVRUXM"
+      },
+      {
         "code": "dizi",
         "name": {
           "zh": "Redmi Pad Pro / 哈利·波特版 / POCO Pad",
           "en": "Redmi Pad Pro / Special Edition featuring Harry Potter / POCO Pad"
         },
         "rom": "OS2.0.204.0.VNSEUXM; OS2.0.203.0.VNSRUXM"
+      },
+      {
+        "code": "serenity",
+        "name": {
+          "zh": "REDMI A5 / POCO C71",
+          "en": "REDMI A5 / POCO C71"
+        },
+        "rom": "A15.0.9.0.VGWEUXM"
       },
       {
         "code": "moonstone",
