@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-09-23 12:51:10",
+    "time": "2025-09-23 15:12:30",
     "developing": "no",
     "roms": [
       {
@@ -68,6 +68,22 @@
         "rom": "OS2.0.206.0.VNEEUXM"
       },
       {
+        "code": "dada",
+        "name": {
+          "zh": "小米 15",
+          "en": "Xiaomi 15"
+        },
+        "rom": "OS2.0.216.0.VOCCNXM"
+      },
+      {
+        "code": "haotian",
+        "name": {
+          "zh": "小米 15 Pro",
+          "en": "Xiaomi 15 Pro"
+        },
+        "rom": "OS2.0.216.0.VOBCNXM"
+      },
+      {
         "code": "pipa",
         "name": {
           "zh": "小米平板 6",
@@ -89,7 +105,7 @@
           "zh": "小米平板7 Pro",
           "en": "Xiaomi Pad 7 Pro"
         },
-        "rom": "OS2.0.201.0.VOYMIXM; OS2.0.203.0.VOYEUXM; OS2.0.201.0.VOYIDXM"
+        "rom": "OS2.0.201.0.VOYTWXM; OS2.0.201.0.VOYMIXM; OS2.0.203.0.VOYEUXM; OS2.0.201.0.VOYIDXM"
       },
       {
         "code": "ziyi",
@@ -137,7 +153,15 @@
           "zh": "REDMI 15 4G",
           "en": "REDMI 15 4G"
         },
-        "rom": "OS2.0.201.0.VBOLMCR"
+        "rom": "OS2.0.204.0.VBOLMCR; OS2.0.201.0.VBOLMCR"
+      },
+      {
+        "code": "tornado",
+        "name": {
+          "zh": "REDMI 15C 5G / REDMI 15R 5G",
+          "en": "REDMI 15C 5G / REDMI 15R 5G"
+        },
+        "rom": "OS2.0.202.0.VPOCNXM"
       },
       {
         "code": "sweet_k6a",
@@ -153,7 +177,7 @@
           "zh": "Redmi Note 12S",
           "en": "Redmi Note 12S"
         },
-        "rom": "OS2.0.204.0.VHZMIXM; OS2.0.204.0.VHZRUXM; OS2.0.201.0.VHZLMMS"
+        "rom": "OS2.0.204.0.VHZMIXM; OS2.0.203.0.VHZEUXM; OS2.0.204.0.VHZRUXM; OS2.0.201.0.VHZLMMS"
       },
       {
         "code": "gold",
@@ -186,6 +210,14 @@
           "en": "Redmi Note 14 Pro 4G"
         },
         "rom": "OS2.0.209.0.VOFMIXM; OS2.0.204.0.VOFMIDC; OS2.0.206.0.VOFEUXM; OS2.0.204.0.VOFRUXM; OS2.0.204.0.VOFTRXM"
+      },
+      {
+        "code": "malachite",
+        "name": {
+          "zh": "Redmi Note 14 Pro / POCO X7",
+          "en": "Redmi Note 14 Pro / POCO X7"
+        },
+        "rom": "OS2.0.206.0.VOOMIXM"
       },
       {
         "code": "sapphire",

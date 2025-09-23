@@ -255,11 +255,18 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.204.0.VBOLMCR": {
+          "os": "OS2.0.204.0.VBOLMCR",
+          "android": "15.0",
+          "release": "2025-09-23",
+          "recovery": "creek_lm_cr_global-ota_full-OS2.0.204.0.VBOLMCR-user-15.0-740c0a3d5c.zip",
+          "fastboot": ""
+        },
         "OS2.0.201.0.VBOLMCR": {
           "os": "OS2.0.201.0.VBOLMCR",
           "android": "15.0",
           "release": "2025-09-23",
-          "recovery": "",
+          "recovery": "creek_lm_cr_global-ota_full-OS2.0.201.0.VBOLMCR-user-15.0-49fac36053.zip",
           "fastboot": "creek_lm_cr_global_images_OS2.0.201.0.VBOLMCR_20250715.0000.00_15.0_lm_cr_1bbac8fed3.tgz"
         }
       }
