@@ -117,8 +117,8 @@
 					"android": "15.0",
 					"release": "2025-09-16",
 					"recovery": "duchamp-ota_full-OS2.0.210.0.VNLCNXM-user-15.0-9ae35886ac.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "duchamp_images_OS2.0.210.0.VNLCNXM_20250905.0000.00_15.0_cn_bf8f0c9f22.tgz",
+					"ctelecom": "duchamp_images_OS2.0.210.0.VNLCNXM_20250905.0000.00_15.0_cn_chinatelecom_9108d43ca9.tgz"
 				},
 				"OS2.0.209.0.VNLCNXM": {
 					"os": "OS2.0.209.0.VNLCNXM",
@@ -731,6 +731,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.207.0.VNLEUXM": {
+					"os": "OS2.0.207.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.207.0.VNLEUXM-user-15.0-927e3f4376.zip",
+					"fastboot": ""
+				},
 				"OS2.0.206.0.VNLEUXM": {
 					"os": "OS2.0.206.0.VNLEUXM",
 					"android": "15.0",
@@ -1153,6 +1160,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.206.0.VNLIDXM": {
+					"os": "OS2.0.206.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.206.0.VNLIDXM-user-15.0-c4770f3452.zip",
+					"fastboot": ""
+				},
 				"OS2.0.205.0.VNLIDXM": {
 					"os": "OS2.0.205.0.VNLIDXM",
 					"android": "15.0",

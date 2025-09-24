@@ -4,7 +4,7 @@
     "zh": "小米 15T Pro",
     "en": "Xiaomi 15T Pro"
   },
-  "code": "",
+  "code": "OS",
   "suppports": [
     "OS2.0"
   ],
@@ -17,44 +17,39 @@
   "branches": [
     {
       "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
+        "zh": "小米澎湃 OS 日本正式版",
+        "en": "Xiaomi HyperOS Japan Stable"
       },
-      "branchCode": "klimt",
+      "branchCode": "klimt_jp_global",
       "brand": "Xiaomi",
       "device": {
         "zh": "小米 15T Pro",
         "en": "Xiaomi 15T Pro"
       },
-      "idtag": "CnOO",
-      "tag": "CNXM",
+      "idtag": "JAPS",
+      "tag": "JPXM",
       "branchtag": "F",
       "table": [
         "os",
         "android",
         "release",
         "recovery",
-        "fastboot",
-        "ctelecom"
+        "fastboot"
       ],
       "show": "1",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        ""
       ],
-      "region": "cn",
-      "zone": "1",
+      "region": "jp",
+      "zone": "2",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS2.0.201.0.VOSJPXM": {
+          "os": "OS2.0.201.0.VOSJPXM",
           "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "release": "2025-09-24",
+          "recovery": "klimt_jp_global-ota_full-OS2.0.201.0.VOSJPXM-user-15.0-83187840de.zip",
+          "fastboot": "klimt_jp_global_images_OS2.0.201.0.VOSJPXM_20250813.0000.00_15.0_jp_9f7bba9735.tgz"
         }
       }
     }
