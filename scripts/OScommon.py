@@ -108,7 +108,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 unreleased = ['coral',  'annibale', 'myron', 'nezha', 'popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'tornado', 'goya', 'klimt']
 currentStable = ['popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
-								 'onyx', 'poussin', 'citrine', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
+								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
 								 'ruyi', 'goku', 'agate', 'air', 'alioth', 'ares', 'aristotle', 'aurora', 'babylon', 'breeze', 'cas',
 								 'cetus', 'chenfeng', 'cmi', 'corot', 'cupid', 'dagu', 'daumier', 'diting', 'dizi',
@@ -133,9 +133,10 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
-				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'goya', 'klimt', 'popsicle', 'pudding', 'pandora', 'piano', 'yupei',
+				 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
 				 'liuqin', 'yudi','sheng', 'uke', 'muyu', 'jinghu', 'violin', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
-				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming',
+				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming','konghou',
 				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'dew', 'tornado', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'alioth',
