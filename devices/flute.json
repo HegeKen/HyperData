@@ -1,0 +1,78 @@
+{
+	"device": "flute",
+	"name": {
+		"zh": "REDMI 平板 2 Pro",
+		"en": "REDMI Pad 2 Pro"
+	},
+	"code": "PW",
+	"suppports": [
+		"OS2.0"
+	],
+	"android": [
+		"15.0"
+	],
+	"type": "tablet",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "flute_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.207.0.VPWEUXM": {
+					"os": "OS2.0.207.0.VPWEUXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "flute_eea_global-ota_full-OS2.0.207.0.VPWEUXM-user-15.0-8f5f743f75.zip",
+					"fastboot": "flute_eea_global_images_OS2.0.207.0.VPWEUXM_20250909.0000.00_15.0_eea_7cbbcd406e.tgz"
+				},
+				"OS2.0.206.0.VPWEUXM": {
+					"os": "OS2.0.206.0.VPWEUXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "flute_eea_global-ota_full-OS2.0.206.0.VPWEUXM-user-15.0-86694701e7.zip",
+					"fastboot": ""
+				},
+				"OS2.0.205.0.VPWEUXM": {
+					"os": "OS2.0.205.0.VPWEUXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "flute_eea_global-ota_full-OS2.0.205.0.VPWEUXM-user-15.0-0581e67728.zip",
+					"fastboot": ""
+				},
+				"OS2.0.204.0.VPWEUXM": {
+					"os": "OS2.0.204.0.VPWEUXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "flute_eea_global-ota_full-OS2.0.204.0.VPWEUXM-user-15.0-27674259b9.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

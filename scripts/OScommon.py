@@ -106,8 +106,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['coral',  'annibale', 'myron', 'nezha', 'popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'tornado', 'goya', 'klimt']
-currentStable = ['popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
+unreleased = ['coral',  'annibale', 'myron', 'nezha', 'popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'tornado']
+currentStable = ['popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
 								 'ruyi', 'goku', 'agate', 'air', 'alioth', 'ares', 'aristotle', 'aurora', 'babylon', 'breeze', 'cas',
@@ -422,6 +422,21 @@ flags = {
 	"kunzite_demo": "kunzite",
 	"lapis": "lapis",
 	"klimt_jp_global": "klimt",
+	"goya_global": "goya",
+	"goya_id_global": "goya",
+	"goya_eea_global": "goya",
+	"goya_ru_global": "goya",
+	"goya_tr_global": "goya",
+	"klimt_global": "klimt",
+	"klimt_eea_global": "klimt",
+	"klimt_id_global": "klimt",
+	"klimt_ru_global": "klimt",
+	"klimt_tw_global": "klimt",
+	"klimt_tr_global": "klimt",
+	"flute_eea_global": "flute",
+	"goya_tw_global": "goya",
+	"goya_dc_global": "goya",
+	"klimt_dc_global": "klimt",
 	"lapis_demo": "lapis",
 	"tanzanite_tw_global": "tanzanite",
 	"TANZANITETWGlobal": "tanzanite",

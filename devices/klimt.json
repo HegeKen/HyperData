@@ -17,6 +17,300 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "klimt_tw_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VOSTWXM": {
+          "os": "OS2.0.201.0.VOSTWXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_tw_global-ota_full-OS2.0.201.0.VOSTWXM-user-15.0-c940ab3d2e.zip",
+          "fastboot": "klimt_tw_global_images_OS2.0.201.0.VOSTWXM_20250811.0000.00_15.0_tw_ca6c432aa0.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "klimt_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.205.0.VOSMIXM": {
+          "os": "OS2.0.205.0.VOSMIXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_global-ota_full-OS2.0.205.0.VOSMIXM-user-15.0-a97ad20a5e.zip",
+          "fastboot": "klimt_global_images_OS2.0.205.0.VOSMIXM_20250820.0000.00_15.0_global_9daa3ff18e.tgz"
+        },
+        "OS2.0.204.0.VOSMIXM": {
+          "os": "OS2.0.204.0.VOSMIXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_global-ota_full-OS2.0.204.0.VOSMIXM-user-15.0-5ea39b0b10.zip",
+          "fastboot": ""
+        },
+        "OS2.0.201.0.VOSMIXM": {
+          "os": "OS2.0.201.0.VOSMIXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_global-ota_full-OS2.0.201.0.VOSMIXM-user-15.0-c6a96f80d3.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "klimt_dc_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VOSMIDC": {
+          "os": "OS2.0.204.0.VOSMIDC",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_dc_global-ota_full-OS2.0.204.0.VOSMIDC-user-15.0-cd770aa52e.zip",
+          "fastboot": "klimt_dc_global_images_OS2.0.204.0.VOSMIDC_20250804.0000.00_15.0_global_dc_51c70eccf4.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "klimt_eea_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.208.0.VOSEUXM": {
+          "os": "OS2.0.208.0.VOSEUXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_eea_global-ota_full-OS2.0.208.0.VOSEUXM-user-15.0-2fd44903b0.zip",
+          "fastboot": "klimt_eea_global_images_OS2.0.208.0.VOSEUXM_20250904.0000.00_15.0_eea_33ceb6af12.tgz"
+        },
+        "OS2.0.203.0.VOSEUXM": {
+          "os": "OS2.0.203.0.VOSEUXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_eea_global-ota_full-OS2.0.203.0.VOSEUXM-user-15.0-60b65b3b73.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "klimt_ru_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VOSRUXM": {
+          "os": "OS2.0.202.0.VOSRUXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_ru_global-ota_full-OS2.0.202.0.VOSRUXM-user-15.0-4498582c93.zip",
+          "fastboot": "klimt_ru_global_images_OS2.0.202.0.VOSRUXM_20250804.0000.00_15.0_ru_72e4603a87.tgz"
+        },
+        "OS2.0.201.0.VOSRUXM": {
+          "os": "OS2.0.201.0.VOSRUXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_ru_global-ota_full-OS2.0.201.0.VOSRUXM-user-15.0-02fde6786d.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "klimt_id_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VOSIDXM": {
+          "os": "OS2.0.202.0.VOSIDXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_id_global-ota_full-OS2.0.202.0.VOSIDXM-user-15.0-a76a6cfd0b.zip",
+          "fastboot": "klimt_id_global_images_OS2.0.202.0.VOSIDXM_20250812.0000.00_15.0_id_66c19992a3.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "klimt_tr_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VOSTRXM": {
+          "os": "OS2.0.203.0.VOSTRXM",
+          "android": "15.0",
+          "release": "2025-09-24",
+          "recovery": "klimt_tr_global-ota_full-OS2.0.203.0.VOSTRXM-user-15.0-e8cd43189c.zip",
+          "fastboot": "klimt_tr_global_images_OS2.0.203.0.VOSTRXM_20250809.0000.00_15.0_tr_63f758c1e3.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 日本正式版",
         "en": "Xiaomi HyperOS Japan Stable"
       },
