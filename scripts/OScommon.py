@@ -106,7 +106,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['coral',  'annibale', 'myron', 'nezha', 'popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'tornado']
+unreleased = ['coral',  'annibale', 'myron', 'nezha', 'popsicle', 'pudding', 'pandora', 'tornado']
 currentStable = ['popsicle', 'pudding', 'pandora', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
@@ -133,9 +133,9 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
-				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'goya', 'klimt', 'popsicle', 'pudding', 'pandora', 'piano', 'yupei',
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'goya', 'klimt', 'popsicle', 'pudding', 'pandora',
 				 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
-				 'liuqin', 'yudi','sheng', 'uke', 'muyu', 'jinghu', 'violin', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
+				 'liuqin', 'yudi','sheng', 'uke', 'muyu', 'jinghu', 'violin', 'piano', 'yupei', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming','konghou',
 				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'dew', 'tornado', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',

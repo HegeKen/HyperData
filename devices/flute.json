@@ -73,6 +73,44 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA Demo",
+				"en": "Xiaomi HyperOS Europe EEA Demo"
+			},
+			"branchCode": "flute_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "EEAD",
+			"tag": "EUDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.208.0.VPWEUDM": {
+					"os": "OS2.0.208.0.VPWEUDM",
+					"android": "15.0",
+					"release": "2025-09-25",
+					"recovery": "flute_eea_global-ota_full-OS2.0.208.0.VPWEUDM-user-15.0-bcd770f771.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
