@@ -48,6 +48,14 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.9.0.WPBCNXM": {
+          "os": "OS3.0.9.0.WPBCNXM",
+          "android": "16.0",
+          "release": "2025-09-26",
+          "recovery": "popsicle-ota_full-OS3.0.9.0.WPBCNXM-user-16.0-cd841de17d.zip",
+          "fastboot": "popsicle_images_OS3.0.9.0.WPBCNXM_20250923.0000.00_16.0_cn_2955d2321d.tgz",
+          "ctelecom": "popsicle_images_OS3.0.9.0.WPBCNXM_20250923.0000.00_16.0_cn_chinatelecom_7a60b704e5.tgz"
+        },
         "OS3.0.7.0.WPBCNXM": {
           "os": "OS3.0.7.0.WPBCNXM",
           "android": "16.0",
@@ -55,6 +63,22 @@
           "recovery": "popsicle-ota_full-OS3.0.7.0.WPBCNXM-user-16.0-91a3c178bd.zip",
           "fastboot": "popsicle_images_OS3.0.7.0.WPBCNXM_20250918.0000.00_16.0_cn_e43c338576.tgz",
           "ctelecom": "popsicle_images_OS3.0.7.0.WPBCNXM_20250918.0000.00_16.0_cn_chinatelecom_7640d23242.tgz"
+        },
+        "OS3.0.5.0.WPBCNXM": {
+          "os": "OS3.0.5.0.WPBCNXM",
+          "android": "16.0",
+          "release": "2025-09-26",
+          "recovery": "popsicle-ota_full-OS3.0.5.0.WPBCNXM-user-16.0-14a6a12efb.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        },
+        "OS3.0.3.0.WPBCNXM": {
+          "os": "OS3.0.3.0.WPBCNXM",
+          "android": "16.0",
+          "release": "2025-09-26",
+          "recovery": "popsicle-ota_full-OS3.0.3.0.WPBCNXM-user-16.0-23c3ec3bab.zip",
+          "fastboot": "",
+          "ctelecom": ""
         }
       }
     },
@@ -95,7 +119,7 @@
           "os": "OS3.0.3.0.WPBCNDM",
           "android": "16.0",
           "release": "2025-09-26",
-          "recovery": "",
+          "recovery": "popsicle_demo-ota_full-OS3.0.3.0.WPBCNDM-user-16.0-ace18b283c.zip",
           "fastboot": "popsicle_demo_images_OS3.0.3.0.WPBCNDM_20250925.0000.00_16.0_cn_7d6dcaabef.tgz",
           "ctelecom": "popsicle_demo_images_OS3.0.3.0.WPBCNDM_20250925.0000.00_16.0_cn_chinatelecom_5bff5b803c.tgz"
         }

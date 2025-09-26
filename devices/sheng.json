@@ -8,11 +8,13 @@
 	"suppports": [
 		"OS1.0",
 		"OS1.1",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -50,6 +52,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.3.WNXCNXM": {
+					"os": "OS3.0.0.3.WNXCNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "sheng-ota_full-OS3.0.0.3.WNXCNXM-user-16.0-91ea08bfd2.zip",
+					"fastboot": ""
+				},
 				"OS2.0.201.2.VNXCNXM": {
 					"os": "OS2.0.201.2.VNXCNXM",
 					"android": "15.0",

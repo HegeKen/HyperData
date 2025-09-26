@@ -7,11 +7,13 @@
 	"code": "NA",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -49,6 +51,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.2.WNACNXM": {
+					"os": "OS3.0.0.2.WNACNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "aurora-ota_full-OS3.0.0.2.WNACNXM-user-16.0-0f07ec91df.zip",
+					"fastboot": ""
+				},
 				"OS2.0.209.3.VNACNXM": {
 					"os": "OS2.0.209.3.VNACNXM",
 					"android": "15.0",
@@ -208,8 +217,8 @@
 					"android": "15.0",
 					"release": "2025-09-18",
 					"recovery": "aurora-ota_full-OS2.0.212.0.VNACNXM-user-15.0-554744c254.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "aurora_images_OS2.0.212.0.VNACNXM_20250908.0000.00_15.0_cn_0a134b4917.tgz",
+					"ctelecom": "aurora_images_OS2.0.212.0.VNACNXM_20250908.0000.00_15.0_cn_chinatelecom_0ed5eb3647.tgz"
 				},
 				"OS2.0.210.0.VNACNXM": {
 					"os": "OS2.0.210.0.VNACNXM",
@@ -622,7 +631,7 @@
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "aurora_tw_global-ota_full-OS2.0.203.0.VNATWXM-user-15.0-49cdb3cfc4.zip",
-					"fastboot": ""
+					"fastboot": "aurora_tw_global_images_OS2.0.203.0.VNATWXM_20250905.0000.00_15.0_tw_4e16ee4579.tgz"
 				},
 				"OS2.0.202.0.VNATWXM": {
 					"os": "OS2.0.202.0.VNATWXM",
@@ -1044,7 +1053,7 @@
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "aurora_ru_global-ota_full-OS2.0.203.0.VNARUXM-user-15.0-d3b803181b.zip",
-					"fastboot": ""
+					"fastboot": "aurora_ru_global_images_OS2.0.203.0.VNARUXM_20250906.0000.00_15.0_ru_1b33c29c26.tgz"
 				},
 				"OS2.0.202.0.VNARUXM": {
 					"os": "OS2.0.202.0.VNARUXM",

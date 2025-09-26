@@ -141,6 +141,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.206.0.VOSMIDC": {
+          "os": "OS2.0.206.0.VOSMIDC",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "klimt_dc_global-ota_full-OS2.0.206.0.VOSMIDC-user-15.0-60dd8a03cf.zip",
+          "fastboot": "klimt_dc_global_images_OS2.0.206.0.VOSMIDC_20250918.0000.00_15.0_global_dc_ca394de026.tgz"
+        },
         "OS2.0.204.0.VOSMIDC": {
           "os": "OS2.0.204.0.VOSMIDC",
           "android": "15.0",
@@ -379,6 +386,82 @@
           "release": "2025-09-24",
           "recovery": "klimt_jp_global-ota_full-OS2.0.201.0.VOSJPXM-user-15.0-83187840de.zip",
           "fastboot": "klimt_jp_global_images_OS2.0.201.0.VOSJPXM_20250813.0000.00_15.0_jp_9f7bba9735.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+        "en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+      },
+      "branchCode": "klimt_mx_at_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "MXAT",
+      "tag": "MXAT",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "at"
+      ],
+      "region": "mx",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VOSMXAT": {
+          "os": "OS2.0.201.0.VOSMXAT",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "klimt_mx_at_global-ota_full-OS2.0.201.0.VOSMXAT-user-15.0-fea61e0d43.zip",
+          "fastboot": "klimt_mx_at_global_images_OS2.0.201.0.VOSMXAT_20250723.0000.00_15.0_mx_at_f31a658fa1.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+      },
+      "branchCode": "klimt_lm_cr_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T Pro",
+        "en": "Xiaomi 15T Pro"
+      },
+      "idtag": "LMCR",
+      "tag": "LMCR",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "cr"
+      ],
+      "region": "lm",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VOSLMCR": {
+          "os": "OS2.0.202.0.VOSLMCR",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "klimt_lm_cr_global-ota_full-OS2.0.202.0.VOSLMCR-user-15.0-f845bf7c4c.zip",
+          "fastboot": "klimt_lm_cr_global_images_OS2.0.202.0.VOSLMCR_20250810.0000.00_15.0_lm_cr_e8510efffe.tgz"
         }
       }
     }

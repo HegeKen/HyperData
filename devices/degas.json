@@ -430,6 +430,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA Demo",
+				"en": "Xiaomi HyperOS Europe EEA Demo"
+			},
+			"branchCode": "degas_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "EEAD",
+			"tag": "EUDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNEEUDM": {
+					"os": "OS1.0.2.0.UNEEUDM",
+					"android": "14.0",
+					"release": "miui_DEGASEEAGlobal_OS1.0.2.0.UNEEUDM_a012927e0b_14.0.zip",
+					"recovery": "",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

@@ -7,7 +7,8 @@
 	"code": "NN",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -50,6 +51,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.6.WNNCNXM": {
+					"os": "OS3.0.0.6.WNNCNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "rothko-ota_full-OS3.0.0.6.WNNCNXM-user-16.0-df76c76d4c.zip",
+					"fastboot": ""
+				},
 				"OS2.0.230.16.WNNCNXM": {
 					"os": "OS2.0.230.16.WNNCNXM",
 					"android": "15.0",
@@ -880,7 +888,7 @@
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "rothko_dc_global-ota_full-OS2.0.203.0.VNNMIDC-user-15.0-c246ec7aeb.zip",
-					"fastboot": ""
+					"fastboot": "rothko_dc_global_images_OS2.0.203.0.VNNMIDC_20250912.0000.00_15.0_global_dc_b4faedb6ae.tgz"
 				},
 				"OS2.0.202.0.VNNMIDC": {
 					"os": "OS2.0.202.0.VNNMIDC",
@@ -1160,6 +1168,44 @@
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_ROTHKOEEAGlobal_OS1.0.5.0.UNNEUXM_a69b53a3df_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA Demo",
+				"en": "Xiaomi HyperOS Europe EEA Demo"
+			},
+			"branchCode": "rothko_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 14T Pro",
+				"en": "Xiaomi 14T Pro"
+			},
+			"idtag": "EEAD",
+			"tag": "EUDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.UNNEUDM": {
+					"os": "OS1.0.3.0.UNNEUDM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "miui_ROTHKOEEAGlobal_OS1.0.3.0.UNNEUDM_987de48efd_14.0.zip",
 					"fastboot": ""
 				}
 			}

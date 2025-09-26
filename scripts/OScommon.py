@@ -440,6 +440,8 @@ flags = {
 	"klimt_ru_global": "klimt",
 	"klimt_tw_global": "klimt",
 	"klimt_tr_global": "klimt",
+	"klimt_mx_at_global": "klimt",
+	"klimt_lm_cr_global": "klimt",
 	"flute_eea_global": "flute",
 	"goya_tw_global": "goya",
 	"goya_dc_global": "goya",

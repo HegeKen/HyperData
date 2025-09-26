@@ -7,11 +7,13 @@
 	"code": "NI",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "foldable",
 	"miui": "no",
@@ -49,6 +51,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.5.WNICNXM": {
+					"os": "OS3.0.0.5.WNICNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "ruyi-ota_full-OS3.0.0.5.WNICNXM-user-16.0-31b12530a4.zip",
+					"fastboot": ""
+				},
 				"OS2.0.200.51.VNICNXM": {
 					"os": "OS2.0.200.51.VNICNXM",
 					"android": "15.0",
@@ -145,8 +154,8 @@
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "ruyi-ota_full-OS2.0.209.0.VNICNXM-user-15.0-2e31d1c2d6.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "ruyi_images_OS2.0.209.0.VNICNXM_20250904.0000.00_15.0_cn_5d8ced315a.tgz",
+					"ctelecom": "ruyi_images_OS2.0.209.0.VNICNXM_20250904.0000.00_15.0_cn_chinatelecom_0aac2b9b55.tgz"
 				},
 				"OS2.0.208.0.VNICNXM": {
 					"os": "OS2.0.208.0.VNICNXM",

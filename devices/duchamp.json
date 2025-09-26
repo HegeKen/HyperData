@@ -7,11 +7,13 @@
 	"code": "NL",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -49,6 +51,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.4.WNLCNXM": {
+					"os": "OS3.0.0.4.WNLCNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp-ota_full-OS3.0.0.4.WNLCNXM-user-16.0-4e4a859eae.zip",
+					"fastboot": ""
+				},
 				"OS2.0.201.3.VNLCNXM": {
 					"os": "OS2.0.201.3.VNLCNXM",
 					"android": "15.0",
@@ -445,6 +454,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.205.0.VNLTWXM": {
+					"os": "OS2.0.205.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.205.0.VNLTWXM-user-15.0-3982aba7f3.zip",
+					"fastboot": ""
+				},
 				"OS2.0.204.0.VNLTWXM": {
 					"os": "OS2.0.204.0.VNLTWXM",
 					"android": "15.0",
@@ -574,6 +590,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.205.0.VNLMIXM": {
+					"os": "OS2.0.205.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp_global-ota_full-OS2.0.205.0.VNLMIXM-user-15.0-42f385fe84.zip",
+					"fastboot": ""
+				},
 				"OS2.0.204.0.VNLMIXM": {
 					"os": "OS2.0.204.0.VNLMIXM",
 					"android": "15.0",
@@ -874,6 +897,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.206.0.VNLRUXM": {
+					"os": "OS2.0.206.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.206.0.VNLRUXM-user-15.0-4541c609f2.zip",
+					"fastboot": ""
+				},
 				"OS2.0.205.0.VNLRUXM": {
 					"os": "OS2.0.205.0.VNLRUXM",
 					"android": "15.0",
@@ -1010,6 +1040,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.206.0.VNLINXM": {
+					"os": "OS2.0.206.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.206.0.VNLINXM-user-15.0-1185650d9c.zip",
+					"fastboot": ""
+				},
 				"OS2.0.205.0.VNLINXM": {
 					"os": "OS2.0.205.0.VNLINXM",
 					"android": "15.0",

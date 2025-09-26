@@ -7,11 +7,13 @@
 	"code": "NB",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -49,6 +51,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.5.WNBCNXM": {
+					"os": "OS3.0.0.5.WNBCNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "shennong-ota_full-OS3.0.0.5.WNBCNXM-user-16.0-907e8f969e.zip",
+					"fastboot": ""
+				},
 				"OS2.0.213.3.VNBCNXM": {
 					"os": "OS2.0.213.3.VNBCNXM",
 					"android": "15.0",

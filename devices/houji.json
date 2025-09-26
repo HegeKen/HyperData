@@ -8,11 +8,13 @@
 	"suppports": [
 		"OS1.0",
 		"OS1.1",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -50,6 +52,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.2.WNCCNXM": {
+					"os": "OS3.0.0.2.WNCCNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "houji-ota_full-OS3.0.0.2.WNCCNXM-user-16.0-b1130b651c.zip",
+					"fastboot": ""
+				},
 				"OS2.0.211.6.VNCCNXM": {
 					"os": "OS2.0.211.6.VNCCNXM",
 					"android": "15.0",

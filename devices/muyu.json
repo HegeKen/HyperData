@@ -494,6 +494,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA Demo",
+				"en": "Xiaomi HyperOS Europe EEA Demo"
+			},
+			"branchCode": "muyu_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板7 Pro",
+				"en": "Xiaomi Pad 7 Pro"
+			},
+			"idtag": "EEAD",
+			"tag": "EUDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.100.0.VOYEUDM": {
+					"os": "OS2.0.100.0.VOYEUDM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "muyu_eea_global-ota_full-OS2.0.100.0.VOYEUDM-user-15.0-6d24d06c6a.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

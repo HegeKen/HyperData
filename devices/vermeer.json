@@ -7,11 +7,13 @@
 	"code": "NK",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -49,6 +51,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.3.WNKCNXM": {
+					"os": "OS3.0.0.3.WNKCNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "vermeer-ota_full-OS3.0.0.3.WNKCNXM-user-16.0-c2b18242af.zip",
+					"fastboot": ""
+				},
 				"OS2.0.201.3.VNKCNXM": {
 					"os": "OS2.0.201.3.VNKCNXM",
 					"android": "15.0",
