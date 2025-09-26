@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-09-26 11:03:42",
+    "time": "2025-09-26 12:44:23",
     "developing": "no",
     "roms": [
       {
@@ -57,7 +57,7 @@
           "zh": "小米 13T",
           "en": "Xiaomi 13T"
         },
-        "rom": "OS2.0.202.0.VMFMIDC"
+        "rom": "OS2.0.209.0.VMFMIXM; OS2.0.202.0.VMFMIDC"
       },
       {
         "code": "houji",
@@ -137,7 +137,23 @@
           "zh": "小米 17",
           "en": "Xiaomi 17"
         },
-        "rom": "OS3.0.3.0.WPCCNXM"
+        "rom": "OS3.0.7.0.WPCCNXM; OS3.0.3.0.WPCCNXM"
+      },
+      {
+        "code": "pandora",
+        "name": {
+          "zh": "小米 17 Pro",
+          "en": "Xiaomi 17 Pro"
+        },
+        "rom": "OS3.0.7.0.WBLCNXM"
+      },
+      {
+        "code": "popsicle",
+        "name": {
+          "zh": "小米 17 Pro Max",
+          "en": "Xiaomi 17 Pro Max"
+        },
+        "rom": "OS3.0.7.0.WPBCNXM"
       },
       {
         "code": "pipa",
@@ -276,6 +292,14 @@
         "rom": "OS2.0.209.0.VBOMIXM; OS2.0.204.0.VBOEUXM; OS2.0.204.0.VBOIDXM; OS2.0.204.0.VBOLMCR; OS2.0.201.0.VBOLMCR"
       },
       {
+        "code": "dew",
+        "name": {
+          "zh": "REDMI 15C / POCO C85",
+          "en": "REDMI 15C / POCO C85"
+        },
+        "rom": "OS2.0.203.0.VBNTWXM"
+      },
+      {
         "code": "tornado",
         "name": {
           "zh": "REDMI 15C 5G / REDMI 15R 5G",
@@ -306,6 +330,22 @@
           "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
         },
         "rom": "OS2.0.4.0.UMOTWXM; OS2.0.5.0.UMOINXM"
+      },
+      {
+        "code": "pearl",
+        "name": {
+          "zh": "Redmi Note 12T Pro",
+          "en": "Redmi Note 12T Pro"
+        },
+        "rom": "OS2.0.212.0.VLHCNXM"
+      },
+      {
+        "code": "marble",
+        "name": {
+          "zh": "Redmi Note 12 Turbo / POCO F5",
+          "en": "Redmi Note 12 Turbo / POCO F5"
+        },
+        "rom": "OS2.0.209.0.VMRCNXM"
       },
       {
         "code": "topaz",

@@ -166,6 +166,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 欧洲EEA Demo",
+        "en": "Xiaomi HyperOS Europe EEA Demo"
+      },
+      "branchCode": "creek_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "EEAD",
+      "tag": "EUDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.200.0.VBOEUDM": {
+          "os": "OS2.0.200.0.VBOEUDM",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "creek_eea_global-ota_full-OS2.0.200.0.VBOEUDM-user-15.0-b35d779350.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 俄罗斯正式版",
         "en": "Xiaomi HyperOS Russia Stable"
       },
