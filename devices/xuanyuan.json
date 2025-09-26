@@ -712,6 +712,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA Demo",
+				"en": "Xiaomi HyperOS Europe EEA Demo"
+			},
+			"branchCode": "xuanyuan_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "EEAD",
+			"tag": "EUDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.2.0.VOAEUDM": {
+					"os": "OS2.0.2.0.VOAEUDM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "xuanyuan_eea_global-ota_full-OS2.0.2.0.VOAEUDM-user-15.0-03964a57c0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
