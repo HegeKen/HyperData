@@ -4,7 +4,7 @@
     "zh": "小米 17 Pro",
     "en": "Xiaomi 17 Pro"
   },
-  "code": "",
+  "code": "BL",
   "suppports": [
     "OS3.0"
   ],
@@ -51,10 +51,52 @@
         "": {
           "os": "",
           "android": "16.0",
-          "release": "",
+          "release": "2025-09-26",
           "recovery": "",
           "fastboot": "",
           "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "pandora_demo",
+      "brand": "Xiaomi, REDMI, POCO",
+      "device": {
+        "zh": "",
+        "en": ""
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.3.0.WBLCNDM": {
+          "os": "OS3.0.3.0.WBLCNDM",
+          "android": "16.0",
+          "release": "2025-09-26",
+          "recovery": "",
+          "fastboot": "pandora_demo_images_OS3.0.3.0.WBLCNDM_20250925.0000.00_16.0_cn_463d290c07.tgz",
+          "ctelecom": "pandora_demo_images_OS3.0.3.0.WBLCNDM_20250925.0000.00_16.0_cn_chinatelecom_18d31ba97e.tgz"
         }
       }
     }

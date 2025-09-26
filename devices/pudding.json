@@ -4,7 +4,7 @@
     "zh": "小米 17",
     "en": "Xiaomi 17"
   },
-  "code": "",
+  "code": "PC",
   "suppports": [
     "OS3.0"
   ],
@@ -48,13 +48,55 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS3.0.3.0.WPCCNXM": {
+          "os": "OS3.0.3.0.WPCCNXM",
           "android": "16.0",
-          "release": "",
+          "release": "2025-09-26",
           "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "fastboot": "pudding_images_OS3.0.3.0.WPCCNXM_20250912.0000.00_16.0_cn_14260fa01d.tgz",
+          "ctelecom": "pudding_images_OS3.0.5.0.WPCCNXM_20250916.0000.00_16.0_cn_chinatelecom_13fad64bac.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "pudding_demo",
+      "brand": "Xiaomi, REDMI, POCO",
+      "device": {
+        "zh": "",
+        "en": ""
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.3.0.WPCCNDM": {
+          "os": "OS3.0.3.0.WPCCNDM",
+          "android": "16.0",
+          "release": "2025-09-26",
+          "recovery": "",
+          "fastboot": "pudding_demo_images_OS3.0.3.0.WPCCNDM_20250925.0000.00_16.0_cn_9809a02d1e.tgz",
+          "ctelecom": "pudding_demo_images_OS3.0.3.0.WPCCNDM_20250925.0000.00_16.0_cn_chinatelecom_35dca3f7e4.tgz"
         }
       }
     }

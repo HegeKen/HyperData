@@ -107,7 +107,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 unreleased = ['coral',  'annibale', 'myron', 'nezha', 'popsicle', 'pudding', 'pandora', 'tornado']
-currentStable = ['pudding', 'popsicle', 'pandora', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
+currentStable = ['pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
 								 'ruyi', 'goku', 'agate', 'air', 'alioth', 'ares', 'aristotle', 'aurora', 'babylon', 'breeze', 'cas',
@@ -133,7 +133,7 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
-				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'goya', 'klimt', 'popsicle', 'pudding', 'pandora',
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'goya', 'klimt',  'pudding', 'pandora', 'popsicle',
 				 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
 				 'liuqin', 'yudi','sheng', 'uke', 'muyu', 'jinghu', 'violin', 'piano', 'yupei', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming','konghou',
@@ -183,6 +183,13 @@ branches = [
 	{
 		"code": "_eea_global",
 		"tag": "EUXM",
+		"region": "eea",
+		"carrier": [""],
+		"zone": "2"
+	},
+		{
+		"code": "_eea_global",
+		"tag": "EUDM",
 		"region": "eea",
 		"carrier": [""],
 		"zone": "2"
@@ -441,6 +448,8 @@ flags = {
 	"flute_ru_global": "flute",
 	"flute_tr_global": "flute",
 	"klimt_dc_global": "klimt",
+	"goya_mx_at_global": "goya",
+	"flute_global": "flute",
 	"lapis_demo": "lapis",
 	"tanzanite_tw_global": "tanzanite",
 	"TANZANITETWGlobal": "tanzanite",

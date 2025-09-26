@@ -44,6 +44,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.203.0.VOETWXM": {
+          "os": "OS2.0.203.0.VOETWXM",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "goya_tw_global-ota_full-OS2.0.203.0.VOETWXM-user-15.0-c4fd6f7a94.zip",
+          "fastboot": "goya_tw_global_images_OS2.0.203.0.VOETWXM_20250910.0000.00_15.0_tw_cf2c840abb.tgz"
+        },
         "OS2.0.202.0.VOETWXM": {
           "os": "OS2.0.202.0.VOETWXM",
           "android": "15.0",
@@ -134,6 +141,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.205.0.VOEMIDC": {
+          "os": "OS2.0.205.0.VOEMIDC",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "goya_dc_global-ota_full-OS2.0.205.0.VOEMIDC-user-15.0-d25f9392b1.zip",
+          "fastboot": "goya_dc_global_images_OS2.0.205.0.VOEMIDC_20250903.0000.00_15.0_global_dc_658e60c144.tgz"
+        },
         "OS2.0.204.0.VOEMIDC": {
           "os": "OS2.0.204.0.VOEMIDC",
           "android": "15.0",
@@ -231,6 +245,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.203.0.VOERUXM": {
+          "os": "OS2.0.203.0.VOERUXM",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "goya_ru_global-ota_full-OS2.0.203.0.VOERUXM-user-15.0-1e41359cbd.zip",
+          "fastboot": "goya_ru_global_images_OS2.0.203.0.VOERUXM_20250910.0000.00_15.0_ru_270ef8c737.tgz"
+        },
         "OS2.0.202.0.VOERUXM": {
           "os": "OS2.0.202.0.VOERUXM",
           "android": "15.0",
@@ -269,6 +290,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.206.0.VOEIDXM": {
+          "os": "OS2.0.206.0.VOEIDXM",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "goya_id_global-ota_full-OS2.0.206.0.VOEIDXM-user-15.0-716c24047b.zip",
+          "fastboot": "goya_id_global_images_OS2.0.206.0.VOEIDXM_20250910.0000.00_15.0_id_bcfec72026.tgz"
+        },
         "OS2.0.205.0.VOEIDXM": {
           "os": "OS2.0.205.0.VOEIDXM",
           "android": "15.0",
@@ -307,12 +335,95 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.205.0.VOETRXM": {
+          "os": "OS2.0.205.0.VOETRXM",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "goya_tr_global-ota_full-OS2.0.205.0.VOETRXM-user-15.0-50ceabc05b.zip",
+          "fastboot": "goya_tr_global_images_OS2.0.205.0.VOETRXM_20250903.0000.00_15.0_tr_33277a98aa.tgz"
+        },
         "OS2.0.204.0.VOETRXM": {
           "os": "OS2.0.204.0.VOETRXM",
           "android": "15.0",
           "release": "2025-09-24",
           "recovery": "goya_tr_global-ota_full-OS2.0.204.0.VOETRXM-user-15.0-3164f39714.zip",
           "fastboot": "goya_tr_global_images_OS2.0.204.0.VOETRXM_20250809.0000.00_15.0_tr_043bbf0055.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+        "en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+      },
+      "branchCode": "goya_mx_at_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T",
+        "en": "Xiaomi 15T"
+      },
+      "idtag": "MXAT",
+      "tag": "MXAT",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "at"
+      ],
+      "region": "mx",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VOEMXAT": {
+          "os": "OS2.0.201.0.VOEMXAT",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "goya_mx_at_global-ota_full-OS2.0.201.0.VOEMXAT-user-15.0-ac233c49d2.zip",
+          "fastboot": "goya_mx_at_global_images_OS2.0.201.0.VOEMXAT_20250726.0000.00_15.0_mx_at_8e28a18b80.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+      },
+      "branchCode": "goya_lm_cr_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 15T",
+        "en": "Xiaomi 15T"
+      },
+      "idtag": "LMCR",
+      "tag": "LMCR",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "cr"
+      ],
+      "region": "lm",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VOELMCR": {
+          "os": "OS2.0.202.0.VOELMCR",
+          "android": "15.0",
+          "release": "2025-09-26",
+          "recovery": "goya_lm_cr_global-ota_full-OS2.0.202.0.VOELMCR-user-15.0-c56a348286.zip",
+          "fastboot": "goya_lm_cr_global_images_OS2.0.202.0.VOELMCR_20250812.0000.00_15.0_lm_cr_0075c35934.tgz"
         }
       }
     }

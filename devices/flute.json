@@ -17,6 +17,82 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "flute_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.203.0.VPWTWXM": {
+					"os": "OS2.0.203.0.VPWTWXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "flute_tw_global-ota_full-OS2.0.203.0.VPWTWXM-user-15.0-68f0ec4a69.zip",
+					"fastboot": "flute_tw_global_images_OS2.0.203.0.VPWTWXM_20250912.0000.00_15.0_tw_73f75bbcb2.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "flute_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.203.0.VPWMIXM": {
+					"os": "OS2.0.203.0.VPWMIXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "flute_global-ota_full-OS2.0.203.0.VPWMIXM-user-15.0-6b755e5413.zip",
+					"fastboot": "flute_global_images_OS2.0.203.0.VPWMIXM_20250912.0000.00_15.0_global_bc72a9cf24.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -109,6 +185,82 @@
 					"release": "2025-09-25",
 					"recovery": "flute_eea_global-ota_full-OS2.0.208.0.VPWEUDM-user-15.0-bcd770f771.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "flute_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.202.0.VPWRUXM": {
+					"os": "OS2.0.202.0.VPWRUXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "flute_ru_global-ota_full-OS2.0.202.0.VPWRUXM-user-15.0-60a0e5939c.zip",
+					"fastboot": "flute_ru_global_images_OS2.0.202.0.VPWRUXM_20250902.0000.00_15.0_ru_2bcb1a6520.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "flute_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.203.0.VPWTRXM": {
+					"os": "OS2.0.203.0.VPWTRXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "flute_tr_global-ota_full-OS2.0.203.0.VPWTRXM-user-15.0-6f1cd33808.zip",
+					"fastboot": "flute_tr_global_images_OS2.0.203.0.VPWTRXM_20250905.0000.00_15.0_tr_2ca66623ae.tgz"
 				}
 			}
 		}
