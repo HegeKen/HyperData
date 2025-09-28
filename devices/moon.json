@@ -444,6 +444,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA Demo",
+				"en": "Xiaomi HyperOS Europe EEA Demo"
+			},
+			"branchCode": "moon_eea_global",
+			"brand": "Redmi, POCO",
+			"device": {
+				"zh": "Redmi 13 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
+			"idtag": "EEAD",
+			"tag": "EUDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.1.0.UNTEUDM": {
+					"os": "OS1.0.1.0.UNTEUDM",
+					"android": "14.0",
+					"release": "2025-09-28",
+					"recovery": "miui_MOONEEAGlobal_OS1.0.1.0.UNTEUDM_750e7807b0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},

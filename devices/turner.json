@@ -209,6 +209,82 @@
           "fastboot": "turner_demo_images_OS2.0.203.0.VAOCNDM_20250617.0000.00_15.0_cn_a24923ef85.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "turner_tw_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi Pad Mini",
+        "en": "Xiaomi Pad Mini"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VAOTWXM": {
+          "os": "OS2.0.203.0.VAOTWXM",
+          "android": "15.0",
+          "release": "2025-09-28",
+          "recovery": "turner_tw_global-ota_full-OS2.0.203.0.VAOTWXM-user-15.0-b83138a1f9.zip",
+          "fastboot": "turner_tw_global_images_OS2.0.203.0.VAOTWXM_20250918.0000.00_15.0_tw_2edd9ebf23.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "turner_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi Pad Mini",
+        "en": "Xiaomi Pad Mini"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.205.0.VAOMIXM": {
+          "os": "OS2.0.205.0.VAOMIXM",
+          "android": "15.0",
+          "release": "2025-09-28",
+          "recovery": "turner_global-ota_full-OS2.0.205.0.VAOMIXM-user-15.0-2688131090.zip",
+          "fastboot": "turner_global_images_OS2.0.205.0.VAOMIXM_20250909.0000.00_15.0_global_1f1d5be3c0.tgz"
+        }
+      }
     }
   ]
 }
