@@ -221,6 +221,44 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "tornado_tr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15C 5G / REDMI 15R 5G",
+        "en": "REDMI 15C 5G / REDMI 15R 5G"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VPOTRXM": {
+          "os": "OS2.0.201.0.VPOTRXM",
+          "android": "15.0",
+          "release": "2025-09-29",
+          "recovery": "tornado_tr_global-ota_full-OS2.0.201.0.VPOTRXM-user-15.0-ceca12b443.zip",
+          "fastboot": "tornado_tr_global_images_OS2.0.201.0.VPOTRXM_20250906.0000.00_15.0_tr_cd8c9cb2d1.tgz"
+        }
+      }
     }
   ]
 }

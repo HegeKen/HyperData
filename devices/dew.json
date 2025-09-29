@@ -328,6 +328,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.203.0.VBNTRXM": {
+          "os": "OS2.0.203.0.VBNTRXM",
+          "android": "15.0",
+          "release": "2025-09-29",
+          "recovery": "dew_tr_global-ota_full-OS2.0.203.0.VBNTRXM-user-15.0-4bdc77faea.zip",
+          "fastboot": ""
+        },
         "OS2.0.202.0.VBNTRXM": {
           "os": "OS2.0.202.0.VBNTRXM",
           "android": "15.0",
@@ -341,6 +348,44 @@
           "release": "2025-08-29",
           "recovery": "dew_tr_global-ota_full-OS2.0.201.0.VBNTRXM-user-15.0-85b5f47510.zip",
           "fastboot": "dew_tr_global_images_OS2.0.201.0.VBNTRXM_20250710.0000.00_15.0_tr_6e3d83e87a.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+      },
+      "branchCode": "dew_lm_cr_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "LMCR",
+      "tag": "LMCR",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "cr"
+      ],
+      "region": "lm",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VBNLMCR": {
+          "os": "OS2.0.202.0.VBNLMCR",
+          "android": "15.0",
+          "release": "2025-09-29",
+          "recovery": "dew_lm_cr_global-ota_full-OS2.0.202.0.VBNLMCR-user-15.0-b3c97fe8b4.zip",
+          "fastboot": "dew_lm_cr_global_images_OS2.0.202.0.VBNLMCR_20250715.0000.00_15.0_lm_cr_53688fab07.tgz"
         }
       }
     }

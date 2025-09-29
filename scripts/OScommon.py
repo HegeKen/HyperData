@@ -443,6 +443,8 @@ flags = {
 	"klimt_mx_at_global": "klimt",
 	"klimt_lm_cr_global": "klimt",
 	"turner_tw_global": "turner",
+	"dew_lm_cr_global": "dew",
+	"tornado_tr_global": "tornado",
 	"turner_global": "turner",
 	"flute_eea_global": "flute",
 	"goya_tw_global": "goya",
