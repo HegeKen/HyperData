@@ -259,6 +259,44 @@
           "fastboot": "tornado_tr_global_images_OS2.0.201.0.VPOTRXM_20250906.0000.00_15.0_tr_cd8c9cb2d1.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+      },
+      "branchCode": "tornado_tr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15C 5G / REDMI 15R 5G",
+        "en": "REDMI 15C 5G / REDMI 15R 5G"
+      },
+      "idtag": "LMCR",
+      "tag": "LMCR",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "cr"
+      ],
+      "region": "lm",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VPOLMCR": {
+          "os": "OS2.0.201.0.VPOLMCR",
+          "android": "15.0",
+          "release": "2025-09-30",
+          "recovery": "",
+          "fastboot": "tornado_lm_cr_global_images_OS2.0.201.0.VPOLMCR_20250825.0000.00_15.0_lm_cr_4702f84864.tgz"
+        }
+      }
     }
   ]
 }

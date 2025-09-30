@@ -445,6 +445,7 @@ flags = {
 	"turner_tw_global": "turner",
 	"dew_lm_cr_global": "dew",
 	"tornado_tr_global": "tornado",
+	"tornado_lm_cr_global": "tornado",
 	"turner_global": "turner",
 	"flute_eea_global": "flute",
 	"goya_tw_global": "goya",
