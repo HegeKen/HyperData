@@ -3,7 +3,6 @@ from sys import platform
 import urllib
 import base64
 from Crypto.Cipher import AES
-import json
 from Crypto.Util.Padding import pad
 import requests
 from selenium import webdriver
