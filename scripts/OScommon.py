@@ -750,6 +750,7 @@ flags = {
 	"DEGASTRGlobal":"degas",
 	"rothko_ep_stdee":"rothko",
 	"ROTHKOEPSTDEE":"rothko",
+	"dew_gt_tg_global": "dew",
 	"spesn_eea_by_global":"spesn",
 	"SPESNEEABYGlobal":"spesn",
 	"lake_id_global":"lake",
