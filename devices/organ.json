@@ -4,7 +4,7 @@
 		"zh": "REDMI 平板 2 Pro 5G",
 		"en": "REDMI Pad 2 Pro 5G"
 	},
-	"code": "",
+	"code": "PX",
 	"suppports": [
 		"OS2.0"
 	],
@@ -14,5 +14,44 @@
 	"type": "tablet",
 	"miui": "no",
 	"merged": "no",
-	"branches": []
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "organ_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro 5G",
+				"en": "REDMI Pad 2 Pro 5G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VPXEUXM": {
+					"os": "OS2.0.201.0.VPXEUXM",
+					"android": "15.0",
+					"release": "2025-10-09",
+					"recovery": "organ_eea_global-ota_full-OS2.0.201.0.VPXEUXM-user-15.0-c0fade579a.zip",
+					"fastboot": "organ_eea_global_images_OS2.0.201.0.VPXEUXM_20250911.0000.00_15.0_eea_0ce181f362.tgz"
+				}
+			}
+		}
+	]
 }

@@ -199,6 +199,44 @@
           "fastboot": "spring_in_global_images_OS2.0.203.0.VOUINXM_20250807.0000.00_15.0_in_9a31122112.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+        "en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+      },
+      "branchCode": "spring_gt_tg_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 5G",
+        "en": "REDMI 15 5G"
+      },
+      "idtag": "GTTG",
+      "tag": "GTTG",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "tg"
+      ],
+      "region": "gt",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VOUGTTG": {
+          "os": "OS2.0.204.0.VOUGTTG",
+          "android": "15.0",
+          "release": "2025-10-09",
+          "recovery": "spring_gt_tg_global-ota_full-OS2.0.204.0.VOUGTTG-user-15.0-4d28e51464.zip",
+          "fastboot": "spring_gt_tg_global_images_OS2.0.204.0.VOUGTTG_20250826.0000.00_15.0_gt_tg_a9bdc5adea.tgz"
+        }
+      }
     }
   ]
 }

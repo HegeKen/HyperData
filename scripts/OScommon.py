@@ -751,6 +751,8 @@ flags = {
 	"rothko_ep_stdee":"rothko",
 	"ROTHKOEPSTDEE":"rothko",
 	"dew_gt_tg_global": "dew",
+	"organ_eea_global": "organ",
+	"spring_gt_tg_global": "spring",
 	"spesn_eea_by_global":"spesn",
 	"SPESNEEABYGlobal":"spesn",
 	"lake_id_global":"lake",
