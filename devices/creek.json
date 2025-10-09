@@ -44,6 +44,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.203.0.VBOTWXM": {
+          "os": "OS2.0.203.0.VBOTWXM",
+          "android": "15.0",
+          "release": "2025-10-09",
+          "recovery": "creek_tw_global-ota_full-OS2.0.203.0.VBOTWXM-user-15.0-ee35e9523c.zip",
+          "fastboot": ""
+        },
         "OS2.0.202.0.VBOTWXM": {
           "os": "OS2.0.202.0.VBOTWXM",
           "android": "15.0",
@@ -116,6 +123,44 @@
           "release": "2025-08-14",
           "recovery": "creek_global-ota_full-OS2.0.201.0.VBOMIXM-user-15.0-b74db53de5.zip",
           "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "creek_dc_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VBOMIDC": {
+          "os": "OS2.0.203.0.VBOMIDC",
+          "android": "15.0",
+          "release": "2025-10-09",
+          "recovery": "",
+          "fastboot": "creek_dc_global_images_OS2.0.203.0.VBOMIDC_20250923.0000.00_15.0_global_dc_51c64fa38c.tgz"
         }
       }
     },
@@ -289,6 +334,44 @@
           "release": "2025-08-28",
           "recovery": "creek_id_global-ota_full-OS2.0.203.0.VBOIDXM-user-15.0-1768957e14.zip",
           "fastboot": "creek_id_global_images_OS2.0.203.0.VBOIDXM_20250723.0000.00_15.0_id_c0c314ebaf.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "creek_tr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VBOTRXM": {
+          "os": "OS2.0.203.0.VBOTRXM",
+          "android": "15.0",
+          "release": "2025-10-09",
+          "recovery": "",
+          "fastboot": "creek_tr_global_images_OS2.0.203.0.VBOTRXM_20250923.0000.00_15.0_tr_a78da25bcb.tgz"
         }
       }
     },

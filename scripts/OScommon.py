@@ -753,6 +753,8 @@ flags = {
 	"dew_gt_tg_global": "dew",
 	"organ_eea_global": "organ",
 	"spring_gt_tg_global": "spring",
+	"creek_dc_global": "creek",
+  "creek_tr_global": "creek",
 	"spesn_eea_by_global":"spesn",
 	"SPESNEEABYGlobal":"spesn",
 	"lake_id_global":"lake",
