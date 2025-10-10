@@ -7,11 +7,13 @@
 	"code": "NV",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "foldable",
 	"miui": "no",
@@ -49,6 +51,20 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.0.10.WNVCNXM": {
+					"os": "OS3.0.0.10.WNVCNXM",
+					"android": "16.0",
+					"release": "2025-09-30",
+					"recovery": "goku-ota_full-OS3.0.0.10.WNVCNXM-user-16.0-177a40bee6.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.6.WNVCNXM": {
+					"os": "OS3.0.0.6.WNVCNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "goku-ota_full-OS3.0.0.6.WNVCNXM-user-16.0-d19b99f933.zip",
+					"fastboot": ""
+				},
 				"OS2.0.200.16.VNVCNXM": {
 					"os": "OS2.0.200.16.VNVCNXM",
 					"android": "15.0",

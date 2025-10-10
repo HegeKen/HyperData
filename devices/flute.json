@@ -235,6 +235,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "flute_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VPWIDXM": {
+					"os": "OS2.0.201.0.VPWIDXM",
+					"android": "15.0",
+					"release": "2025-10-09",
+					"recovery": "flute_id_global-ota_full-OS2.0.201.0.VPWIDXM-user-15.0-0d5371bd17.zip",
+					"fastboot": "flute_id_global_images_OS2.0.201.0.VPWIDXM_20250910.0000.00_15.0_id_801b9c2c23.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
