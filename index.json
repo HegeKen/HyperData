@@ -1,8 +1,24 @@
 {
   "recent": {
-    "time": "2025-10-13 22:07:56",
+    "time": "2025-10-15 14:45:30",
     "developing": "no",
     "roms": [
+      {
+        "code": "lisa",
+        "name": {
+          "zh": "小米 11 青春活力版 / 小米 11 Lite 5G NE",
+          "en": "Mi 11 LE / Xiaomi 11 Lite 5G NE"
+        },
+        "rom": "OS2.0.13.0.UKOCNXM; OS1.0.17.0.UKOEUVF"
+      },
+      {
+        "code": "cupid",
+        "name": {
+          "zh": "小米 12",
+          "en": "Xiaomi 12"
+        },
+        "rom": "OS2.0.204.0.VLCMIXM"
+      },
       {
         "code": "plato",
         "name": {
@@ -12,12 +28,28 @@
         "rom": "OS2.0.201.0.VLQCLEN"
       },
       {
+        "code": "houji",
+        "name": {
+          "zh": "小米 14",
+          "en": "Xiaomi 14"
+        },
+        "rom": "OS3.0.0.6.WNCCNXM"
+      },
+      {
+        "code": "shennong",
+        "name": {
+          "zh": "小米 14 Pro / Ti / 钛金属卫星通讯版",
+          "en": "Xiaomi 14 Pro / Ti / Satellite"
+        },
+        "rom": "OS3.0.0.9.WNBCNXM"
+      },
+      {
         "code": "aurora",
         "name": {
           "zh": "小米 14 Ultra / Ultra Ti",
           "en": "Xiaomi 14 Ultra"
         },
-        "rom": "OS2.0.207.0.VNAEUXM"
+        "rom": "OS3.0.0.6.WNACNXM; OS2.0.207.0.VNAEUXM"
       },
       {
         "code": "dada",
@@ -25,7 +57,63 @@
           "zh": "小米 15",
           "en": "Xiaomi 15"
         },
-        "rom": "OS2.0.225.0.WOCEUXM"
+        "rom": "OS3.0.2.0.WOCCNXM; OS2.0.225.0.WOCEUXM"
+      },
+      {
+        "code": "haotian",
+        "name": {
+          "zh": "小米 15 Pro",
+          "en": "Xiaomi 15 Pro"
+        },
+        "rom": "OS3.0.3.0.WOBCNXM"
+      },
+      {
+        "code": "xuanyuan",
+        "name": {
+          "zh": "小米 15 Ultra",
+          "en": "Xiaomi 15 Ultra"
+        },
+        "rom": "OS3.0.2.0.WOACNXM"
+      },
+      {
+        "code": "dijun",
+        "name": {
+          "zh": "小米 15S Pro",
+          "en": "Xiaomi 15S Pro"
+        },
+        "rom": "OS3.0.4.0.WODCNXM"
+      },
+      {
+        "code": "pipa",
+        "name": {
+          "zh": "小米平板 6",
+          "en": "Xiaomi Pad 6"
+        },
+        "rom": "OS2.0.8.0.UMZTRXM"
+      },
+      {
+        "code": "uke",
+        "name": {
+          "zh": "小米平板7",
+          "en": "Xiaomi Pad 7"
+        },
+        "rom": "OS3.0.2.1.WOZCNXM"
+      },
+      {
+        "code": "jinghu",
+        "name": {
+          "zh": "小米平板7 Ultra",
+          "en": "Xiaomi Pad 7 Ultra"
+        },
+        "rom": "OS3.0.1.4.WOXCNXM"
+      },
+      {
+        "code": "bixi",
+        "name": {
+          "zh": "小米 MIX Flip 2",
+          "en": "Xiaomi MIX Flip 2"
+        },
+        "rom": "OS3.0.1.2.WOHCNXM"
       },
       {
         "code": "earth",
@@ -50,6 +138,30 @@
           "en": "REDMI 15C / POCO C85"
         },
         "rom": "OS2.0.206.0.VBNRUXM"
+      },
+      {
+        "code": "tornado",
+        "name": {
+          "zh": "REDMI 15C 5G / REDMI 15R 5G",
+          "en": "REDMI 15C 5G / REDMI 15R 5G"
+        },
+        "rom": "OS2.0.203.0.VPOEUXM"
+      },
+      {
+        "code": "garnet",
+        "name": {
+          "zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
+          "en": "Redmi Note 13 Pro 5G / POCO X6 5G"
+        },
+        "rom": "OS2.0.7.0.VNRLMCR"
+      },
+      {
+        "code": "emerald",
+        "name": {
+          "zh": "Redmi Note 13 Pro 4G / POCO M6 Pro",
+          "en": "Redmi Note 13 Pro 4G / POCO M6 Pro"
+        },
+        "rom": "OS2.0.206.0.VNFMIDC; OS2.0.202.0.VNFLMCR"
       },
       {
         "code": "tanzanite",
@@ -84,12 +196,44 @@
         "rom": "OS2.0.205.0.VOJMIXM"
       },
       {
+        "code": "zorn",
+        "name": {
+          "zh": "REDMI K80 / POCO F7 Pro",
+          "en": "REDMI K80 / POCO F7 Pro"
+        },
+        "rom": "OS3.0.0.14.WOKCNXM"
+      },
+      {
+        "code": "miro",
+        "name": {
+          "zh": "REDMI K80 Pro / POCO F7 Ultra",
+          "en": "REDMI K80 Pro / POCO F7 Ultra"
+        },
+        "rom": "OS3.0.2.0.WOMCNXM"
+      },
+      {
+        "code": "dali",
+        "name": {
+          "zh": "REDMI K80 至尊版",
+          "en": "REDMI K80 Ultra"
+        },
+        "rom": "OS3.0.2.0.WONCNXM"
+      },
+      {
         "code": "koto",
         "name": {
           "zh": "REDMI 平板 2 4G",
           "en": "REDMI Pad 2 4G"
         },
         "rom": "OS2.0.205.0.VOWINXM"
+      },
+      {
+        "code": "turner",
+        "name": {
+          "zh": "REDMI K Pad / Xiaomi Pad Mini",
+          "en": "REDMI K Pad / Xiaomi Pad Mini"
+        },
+        "rom": "OS3.0.1.2.WAOCNXM"
       }
     ]
   }

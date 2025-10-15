@@ -17,6 +17,44 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "organ_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro 5G",
+				"en": "REDMI Pad 2 Pro 5G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VPXTWXM": {
+					"os": "OS2.0.201.0.VPXTWXM",
+					"android": "15.0",
+					"release": "2025-10-14",
+					"recovery": "organ_tw_global-ota_full-OS2.0.201.0.VPXTWXM-user-15.0-fd661a9642.zip",
+					"fastboot": "organ_tw_global_images_OS2.0.201.0.VPXTWXM_20250924.0000.00_15.0_tw_028679bebe.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
@@ -89,6 +127,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.203.0.VPXEUXM": {
+					"os": "OS2.0.203.0.VPXEUXM",
+					"android": "15.0",
+					"release": "2025-10-15",
+					"recovery": "organ_eea_global-ota_full-OS2.0.203.0.VPXEUXM-user-15.0-8db5dd42e4.zip",
+					"fastboot": ""
+				},
 				"OS2.0.201.0.VPXEUXM": {
 					"os": "OS2.0.201.0.VPXEUXM",
 					"android": "15.0",
