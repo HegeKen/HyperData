@@ -377,6 +377,51 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+        "en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+      },
+      "branchCode": "creek_mx_at_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 4G",
+        "en": "REDMI 15 4G"
+      },
+      "idtag": "MXAT",
+      "tag": "MXAT",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "at"
+      ],
+      "region": "mx",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VBOMXAT": {
+          "os": "OS2.0.204.0.VBOMXAT",
+          "android": "15.0",
+          "release": "2025-10-15",
+          "recovery": "creek_mx_at_global-ota_full-OS2.0.204.0.VBOMXAT-user-15.0-4f1cb817df.zip",
+          "fastboot": ""
+        },
+        "OS2.0.203.0.VBOMXAT": {
+          "os": "OS2.0.203.0.VBOMXAT",
+          "android": "15.0",
+          "release": "2025-10-15",
+          "recovery": "",
+          "fastboot": "creek_mx_at_global_images_OS2.0.203.0.VBOMXAT_20250730.0000.00_15.0_mx_at_10bba19665.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
         "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
       },
