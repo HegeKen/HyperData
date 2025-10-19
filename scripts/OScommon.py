@@ -10,10 +10,9 @@ from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, date, timezone
 from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from pymysql import Connection
 import config
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 sdk = {
 	"16.0": "36",
