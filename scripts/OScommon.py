@@ -1566,6 +1566,7 @@ flags = {
 	"OPALGlobal":"opal",
 	"viva_tw_global":"viva",
 	"VIVATWGlobal":"viva",
+	"SERENITYCLENGlobal": "serenity",
 	"evergreen_global":"evergreen",
 	"EVERGREENGlobal":"evergreen",
 	"pissarro_eea_global":"pissarro",

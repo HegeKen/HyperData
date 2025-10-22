@@ -755,6 +755,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 智利Entel运营商定制版",
+				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
+			},
+			"branchCode": "serenity_cl_en_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
+			},
+			"idtag": "CLEN",
+			"tag": "CLEN",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"en"
+			],
+			"region": "cl",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.3.0.VGWCLEN": {
+					"os": "A15.0.3.0.VGWCLEN",
+					"android": "15.0",
+					"release": "2025-10-22",
+					"recovery": "miui_SERENITYCLENGlobal_A15.0.3.0.VGWCLEN_a0b1690249_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
 				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
 			},
