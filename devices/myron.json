@@ -48,13 +48,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS3.0.11.0.WPMCNXM": {
+          "os": "OS3.0.11.0.WPMCNXM",
           "android": "16.0",
           "release": "2025-10-23",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "recovery": "myron-ota_full-OS3.0.11.0.WPMCNXM-user-16.0-b08afa05e5.zip",
+          "fastboot": "myron_images_OS3.0.11.0.WPMCNXM_20251020.0000.00_16.0_cn_f7d3aefaf8.tgz",
+          "ctelecom": "myron_images_OS3.0.11.0.WPMCNXM_20251020.0000.00_16.0_cn_chinatelecom_4fdc492982.tgz"
         }
       }
     },
@@ -77,7 +77,8 @@
         "android",
         "release",
         "recovery",
-        "fastboot"
+        "fastboot",
+        "ctelecom"
       ],
       "show": "0",
       "region": "cn",
@@ -90,13 +91,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS3.0.2.0.WPMCNDM": {
+          "os": "OS3.0.2.0.WPMCNDM",
           "android": "16.0",
           "release": "2025-10-23",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "recovery": "myron_demo-ota_full-OS3.0.2.0.WPMCNDM-user-16.0-000778853a.zip",
+          "fastboot": "myron_demo_images_OS3.0.2.0.WPMCNDM_20251017.0000.00_16.0_cn_1023790135.tgz",
+          "ctelecom": "myron_demo_images_OS3.0.2.0.WPMCNDM_20251017.0000.00_16.0_cn_chinatelecom_ee91514580.tgz"
         }
       }
     }

@@ -48,13 +48,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS3.0.9.0.WPKCNXM": {
+          "os": "OS3.0.9.0.WPKCNXM",
           "android": "16.0",
           "release": "2025-10-23",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "recovery": "annibale-ota_full-OS3.0.9.0.WPKCNXM-user-16.0-e06570ff2d.zip",
+          "fastboot": "annibale_images_OS3.0.9.0.WPKCNXM_20251021.0000.00_16.0_cn_e8edaa9e67.tgz",
+          "ctelecom": "annibale_images_OS3.0.9.0.WPKCNXM_20251021.0000.00_16.0_cn_chinatelecom_dd84c174e2.tgz"
         }
       }
     },
@@ -77,7 +77,8 @@
         "android",
         "release",
         "recovery",
-        "fastboot"
+        "fastboot",
+        "ctelecom"
       ],
       "show": "0",
       "region": "cn",
@@ -90,13 +91,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS3.0.2.0.WPKCNDM": {
+          "os": "OS3.0.2.0.WPKCNDM",
           "android": "16.0",
           "release": "2025-10-23",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "recovery": "annibale_demo-ota_full-OS3.0.2.0.WPKCNDM-user-16.0-3cebd638f6.zip",
+          "fastboot": "annibale_demo_images_OS3.0.2.0.WPKCNDM_20251020.0000.00_16.0_cn_f9f5e9da22.tgz",
+          "ctelecom": "annibale_demo_images_OS3.0.2.0.WPKCNDM_20251020.0000.00_16.0_cn_chinatelecom_065bd2cab4.tgz"
         }
       }
     }
