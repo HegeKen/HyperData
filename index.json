@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-10-22 22:35:07",
+    "time": "2025-10-23 15:09:10",
     "developing": "no",
     "roms": [
       {
@@ -57,7 +57,15 @@
           "zh": "小米 14",
           "en": "Xiaomi 14"
         },
-        "rom": "OS2.0.110.0.VNCEUXM"
+        "rom": "OS3.0.0.10.WNCCNXM; OS2.0.110.0.VNCEUXM"
+      },
+      {
+        "code": "shennong",
+        "name": {
+          "zh": "小米 14 Pro / Ti / 钛金属卫星通讯版",
+          "en": "Xiaomi 14 Pro / Ti / Satellite"
+        },
+        "rom": "OS3.0.0.10.WNBCNXM"
       },
       {
         "code": "aurora",
@@ -65,7 +73,7 @@
           "zh": "小米 14 Ultra / Ultra Ti",
           "en": "Xiaomi 14 Ultra"
         },
-        "rom": "OS2.0.206.0.VNAMIXM; OS2.0.204.0.VNAINXM; OS2.0.204.0.VNATRXM"
+        "rom": "OS3.0.0.8.WNACNXM; OS2.0.206.0.VNAMIXM; OS2.0.204.0.VNAINXM; OS2.0.204.0.VNATRXM"
       },
       {
         "code": "degas",
@@ -116,12 +124,20 @@
         "rom": "OS2.0.9.0.UMZMIXM"
       },
       {
+        "code": "sheng",
+        "name": {
+          "zh": "小米平板 6S Pro 12.4",
+          "en": "Xiaomi Pad 6S Pro 12.4"
+        },
+        "rom": "OS3.0.0.8.WNXCNXM"
+      },
+      {
         "code": "uke",
         "name": {
           "zh": "小米平板7",
           "en": "Xiaomi Pad 7"
         },
-        "rom": "OS2.0.202.0.VOZINXM"
+        "rom": "OS2.0.204.0.VOZMIXM; OS2.0.202.0.VOZINXM"
       },
       {
         "code": "muyu",
@@ -138,6 +154,14 @@
           "en": "Mi MIX FOLD"
         },
         "rom": "OS1.0.8.0.TJTCNXM"
+      },
+      {
+        "code": "ruyi",
+        "name": {
+          "zh": "小米 MIX Flip",
+          "en": "Xiaomi MIX Flip"
+        },
+        "rom": "OS3.0.0.9.WNICNXM"
       },
       {
         "code": "ziyi",
@@ -201,7 +225,7 @@
           "zh": "REDMI 15 5G / REDMI Note 15R 5G",
           "en": "REDMI 15 5G / REDMI Note 15R 5G"
         },
-        "rom": "OS2.0.205.0.VOUMIXM"
+        "rom": "OS2.0.205.0.VOUMIXM; OS2.0.206.0.VOUINXM"
       },
       {
         "code": "veux",
@@ -322,6 +346,14 @@
           "en": "Redmi Turbo 3 / POCO F6"
         },
         "rom": "OS2.0.206.0.VNPMIXM; OS2.0.204.0.VNPRUXM; OS2.0.204.0.VNPINXM"
+      },
+      {
+        "code": "rodin",
+        "name": {
+          "zh": "REDMI Turbo 4 / POCO X7 Pro",
+          "en": "REDMI Turbo 4 / POCO X7 Pro"
+        },
+        "rom": "OS2.0.203.0.VOJRUXM; OS2.0.204.0.VOJIDXM; OS2.0.203.0.VOJTRXM"
       },
       {
         "code": "onyx",

@@ -51,7 +51,49 @@
         "": {
           "os": "",
           "android": "16.0",
-          "release": "",
+          "release": "2025-10-23",
+          "recovery": "",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "annibale_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K90",
+        "en": "REDMI K90"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "16.0",
+          "release": "2025-10-23",
           "recovery": "",
           "fastboot": "",
           "ctelecom": ""

@@ -104,7 +104,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['coral',  'annibale', 'myron', 'nezha', 'tornado']
+unreleased = ['annibale', 'myron', 'coral', 'nezha', 'tornado']
 currentStable = ['pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
@@ -131,7 +131,7 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
-				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'goya', 'klimt',  'pudding', 'pandora', 'popsicle',
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'goya', 'klimt', 'pudding', 'pandora', 'popsicle',
 				 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
 				 'liuqin', 'yudi','sheng', 'uke', 'muyu', 'jinghu', 'violin', 'piano', 'yupei', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming','konghou',
@@ -139,7 +139,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
-				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali',
+				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali','annibale', 'myron', 
 				 'yunluo', 'xun', 'flare', 'spark', 'koto', 'taiko', 'dizi', 'ruan', 'turner', 'warm', 'serenity', 'evergreen', 'rock', 'moonstone']
 
 branches = [
@@ -392,6 +392,10 @@ flags = {
 	"houji_demo": "houji",
 	"houji_global": "houji",
 	"HOUJIGlobal": "houji",
+	"myron": "myron",
+	"myron_demo": "myron",
+	"annibale": "annibale",
+	"annibale_demo": "annibale",
 	"houji_in_global": "houji",
 	"HOUJIINGlobal": "houji",
 	"houji_id_global": "houji",
@@ -757,7 +761,7 @@ flags = {
 	"organ_global": "organ",
 	"organ_tw_global": "organ",
 	"creek_mx_at_global": "creek",
-  "creek_tr_global": "creek",
+	"creek_tr_global": "creek",
 	"spesn_eea_by_global":"spesn",
 	"SPESNEEABYGlobal":"spesn",
 	"lake_id_global":"lake",
@@ -2947,10 +2951,10 @@ def entryChecker(data,device):
 		return 0
 
 def strip_log(data):
-  result = {}
-  for key, value in data.items():
-    if isinstance(value, dict) and 'txt' in value:
-      result[key] = value['txt']
-    else:
-      result[key] = value
-  return result
+	result = {}
+	for key, value in data.items():
+		if isinstance(value, dict) and 'txt' in value:
+			result[key] = value['txt']
+		else:
+			result[key] = value
+	return result
