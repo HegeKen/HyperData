@@ -55,8 +55,8 @@
 					"android": "15.0",
 					"release": "2025-10-15",
 					"recovery": "amethyst-ota_full-OS2.0.210.0.VOPCNXM-user-15.0-19d532127d.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "amethyst_images_OS2.0.210.0.VOPCNXM_20250917.0000.00_15.0_cn_b46255ecfb.tgz",
+					"ctelecom": "amethyst_images_OS2.0.210.0.VOPCNXM_20250917.0000.00_15.0_cn_chinatelecom_bc66cc99e0.tgz"
 				},
 				"OS2.0.209.0.VOPCNXM": {
 					"os": "OS2.0.209.0.VOPCNXM",
@@ -308,6 +308,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.202.0.VOPTWXM": {
+					"os": "OS2.0.202.0.VOPTWXM",
+					"android": "15.0",
+					"release": "2025-10-26",
+					"recovery": "amethyst_tw_global-ota_full-OS2.0.202.0.VOPTWXM-user-15.0-c7bc94ddbe.zip",
+					"fastboot": ""
+				},
 				"OS2.0.201.0.VOPTWXM": {
 					"os": "OS2.0.201.0.VOPTWXM",
 					"android": "15.0",
@@ -837,6 +844,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.202.0.VOPIDXM": {
+					"os": "OS2.0.202.0.VOPIDXM",
+					"android": "15.0",
+					"release": "2025-10-26",
+					"recovery": "amethyst_id_global-ota_full-OS2.0.202.0.VOPIDXM-user-15.0-0f80b97208.zip",
+					"fastboot": ""
+				},
 				"OS2.0.201.0.VOPIDXM": {
 					"os": "OS2.0.201.0.VOPIDXM",
 					"android": "15.0",
