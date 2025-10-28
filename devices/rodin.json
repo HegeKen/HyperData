@@ -6,10 +6,12 @@
 	},
 	"code": "OJ",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -48,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.WOJCNXM": {
+					"os": "OS3.0.2.0.WOJCNXM",
+					"android": "16.0",
+					"release": "2025-10-28",
+					"recovery": "rodin-ota_full-OS3.0.2.0.WOJCNXM-user-16.0-710d36eea5.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.208.0.VOJCNXM": {
 					"os": "OS2.0.208.0.VOJCNXM",
 					"android": "15.0",
@@ -247,7 +257,7 @@
 					"android": "15.0",
 					"release": "2025-10-24",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.203.0.VOJTWXM-user-15.0-9efb14e746.zip",
-					"fastboot": ""
+					"fastboot": "rodin_tw_global_images_OS2.0.203.0.VOJTWXM_20251010.0000.00_15.0_tw_39d57eda5c.tgz"
 				},
 				"OS2.0.202.0.VOJTWXM": {
 					"os": "OS2.0.202.0.VOJTWXM",
@@ -853,7 +863,7 @@
 					"android": "15.0",
 					"release": "2025-10-23",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.203.0.VOJTRXM-user-15.0-c655a3f557.zip",
-					"fastboot": ""
+					"fastboot": "rodin_tr_global_images_OS2.0.203.0.VOJTRXM_20251010.0000.00_15.0_tr_8a2b2ed51c.tgz"
 				},
 				"OS2.0.202.0.VOJTRXM": {
 					"os": "OS2.0.202.0.VOJTRXM",

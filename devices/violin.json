@@ -111,12 +111,19 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.6.0.WOTCNXM": {
+          "os": "OS3.0.6.0.WOTCNXM",
+          "android": "16.0",
+          "release": "2025-10-28",
+          "recovery": "violin-ota_full-OS3.0.6.0.WOTCNXM-user-16.0-c9a2a55dc0.zip",
+          "fastboot": ""
+        },
         "OS2.0.215.0.VOTCNXM": {
           "os": "OS2.0.215.0.VOTCNXM",
           "android": "15.0",
           "release": "2025-09-23",
           "recovery": "violin-ota_full-OS2.0.215.0.VOTCNXM-user-15.0-77bc004ae2.zip",
-          "fastboot": ""
+          "fastboot": "violin-images-OS2.0.215.0.VOTCNXM-user-20250917.0000.00-15.0-cn-67e164372d.tgz"
         },
         "OS2.0.214.0.VOTCNXM": {
           "os": "OS2.0.214.0.VOTCNXM",

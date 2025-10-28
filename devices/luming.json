@@ -6,10 +6,12 @@
   },
   "code": "OI",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -48,6 +50,14 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.3.0.WOICNXM": {
+          "os": "OS3.0.3.0.WOICNXM",
+          "android": "16.0",
+          "release": "2025-10-28",
+          "recovery": "luming-ota_full-OS3.0.3.0.WOICNXM-user-16.0-d87c5b1d55.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        },
         "OS2.0.205.0.VOICNXM": {
           "os": "OS2.0.205.0.VOICNXM",
           "android": "15.0",

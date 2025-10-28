@@ -104,6 +104,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.3.0.WAOCNXM": {
+          "os": "OS3.0.3.0.WAOCNXM",
+          "android": "16.0",
+          "release": "2025-10-28",
+          "recovery": "turner-ota_full-OS3.0.3.0.WAOCNXM-user-16.0-56b1dd4d9c.zip",
+          "fastboot": ""
+        },
         "OS2.0.218.0.VAOCNXM": {
           "os": "OS2.0.218.0.VAOCNXM",
           "android": "15.0",
@@ -265,7 +272,7 @@
           "android": "15.0",
           "release": "2025-10-23",
           "recovery": "turner_tw_global-ota_full-OS2.0.204.0.VAOTWXM-user-15.0-cbcf171456.zip",
-          "fastboot": ""
+          "fastboot": "turner_tw_global_images_OS2.0.204.0.VAOTWXM_20251019.0000.00_15.0_tw_708f321bc0.tgz"
         },
         "OS2.0.203.0.VAOTWXM": {
           "os": "OS2.0.203.0.VAOTWXM",
@@ -310,7 +317,7 @@
           "android": "15.0",
           "release": "2025-10-23",
           "recovery": "turner_global-ota_full-OS2.0.206.0.VAOMIXM-user-15.0-fad3d8a7d3.zip",
-          "fastboot": ""
+          "fastboot": "turner_global_images_OS2.0.206.0.VAOMIXM_20251016.0000.00_15.0_global_92aeecfbb0.tgz"
         },
         "OS2.0.205.0.VAOMIXM": {
           "os": "OS2.0.205.0.VAOMIXM",

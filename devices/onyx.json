@@ -6,10 +6,12 @@
 	},
 	"code": "OL",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -48,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.WOLCNXM": {
+					"os": "OS3.0.4.0.WOLCNXM",
+					"android": "16.0",
+					"release": "2025-10-28",
+					"recovery": "onyx-ota_full-OS3.0.4.0.WOLCNXM-user-16.0-8390fb1aa7.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.216.0.VOLCNXM": {
 					"os": "OS2.0.216.0.VOLCNXM",
 					"android": "15.0",
