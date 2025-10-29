@@ -6,10 +6,12 @@
   },
   "code": "OS",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -186,6 +188,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.4.0.WOSEUXM": {
+          "os": "OS3.0.4.0.WOSEUXM",
+          "android": "16.0",
+          "release": "2025-10-29",
+          "recovery": "klimt_eea_global-ota_full-OS3.0.4.0.WOSEUXM-user-16.0-b4c9966fc6.zip",
+          "fastboot": ""
+        },
         "OS2.0.208.0.VOSEUXM": {
           "os": "OS2.0.208.0.VOSEUXM",
           "android": "15.0",
