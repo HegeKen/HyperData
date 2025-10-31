@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-10-31 15:10:52",
+    "time": "2025-10-31 22:12:30",
     "developing": "no",
     "roms": [
       {
@@ -73,7 +73,7 @@
           "zh": "小米 15T",
           "en": "Xiaomi 15T"
         },
-        "rom": "OS2.0.207.0.VOEMIXM; OS2.0.209.0.VOEEUXM; OS2.0.204.0.VOERUXM"
+        "rom": "OS2.0.207.0.VOEMIXM; OS2.0.209.0.VOEEUXM; OS2.0.204.0.VOERUXM; OS2.0.206.0.VOETRXM"
       },
       {
         "code": "klimt",
@@ -81,7 +81,7 @@
           "zh": "小米 15T Pro",
           "en": "Xiaomi 15T Pro"
         },
-        "rom": "OS2.0.207.0.VOSMIDC; OS3.0.4.0.WOSEUXM"
+        "rom": "OS2.0.206.0.VOSMIXM; OS2.0.207.0.VOSMIDC; OS3.0.4.0.WOSEUXM; OS2.0.203.0.VOSJPXM"
       },
       {
         "code": "uke",
@@ -177,7 +177,7 @@
           "zh": "REDMI 15C 5G / REDMI 15R 5G",
           "en": "REDMI 15C 5G / REDMI 15R 5G"
         },
-        "rom": "OS2.0.202.0.VPOLMCR"
+        "rom": "OS2.0.202.0.VPOTRXM; OS2.0.202.0.VPOLMCR"
       },
       {
         "code": "spring",
@@ -292,6 +292,14 @@
         "rom": "OS1.0.15.0.UKKCNXM"
       },
       {
+        "code": "mondrian",
+        "name": {
+          "zh": "Redmi K60 / POCO F5 Pro",
+          "en": "Redmi K60 / POCO F5 Pro"
+        },
+        "rom": "OS2.0.219.0.VMNCNXM"
+      },
+      {
         "code": "corot",
         "name": {
           "zh": "Redmi K60 至尊版 / 小米 13T Pro",
@@ -345,7 +353,7 @@
           "zh": "REDMI K80 Pro / POCO F7 Ultra",
           "en": "REDMI K80 Pro / POCO F7 Ultra"
         },
-        "rom": "OS2.0.205.0.VOMTWXM; OS2.0.204.0.VOMMIXM; OS2.0.205.0.VOMIDXM"
+        "rom": "OS2.0.205.0.VOMTWXM; OS2.0.204.0.VOMMIXM; OS3.0.3.0.WOMEUXM; OS2.0.205.0.VOMIDXM"
       },
       {
         "code": "myron",
@@ -412,12 +420,28 @@
         "rom": "OS3.0.3.0.WAOCNXM"
       },
       {
+        "code": "warm",
+        "name": {
+          "zh": "Redmi A4 5G / POCO C75 5G",
+          "en": "Redmi A4 5G / POCO C75 5G"
+        },
+        "rom": "OS2.0.203.0.VGVINXM"
+      },
+      {
         "code": "serenity",
         "name": {
           "zh": "REDMI A5 / POCO C71",
           "en": "REDMI A5 / POCO C71"
         },
         "rom": "A15.0.7.0.VGWEUTF; A15.0.7.0.VGWGTTG"
+      },
+      {
+        "code": "moonstone",
+        "name": {
+          "zh": "POCO X5 5G",
+          "en": "POCO X5 5G"
+        },
+        "rom": "OS1.0.24.0.UMPMIXM"
       }
     ]
   }
