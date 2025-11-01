@@ -6,10 +6,12 @@
   },
   "code": "OE",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -200,6 +202,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.3.0.WOEEUXM": {
+          "os": "OS3.0.3.0.WOEEUXM",
+          "android": "16.0",
+          "release": "2025-11-01",
+          "recovery": "goya_eea_global-ota_full-OS3.0.3.0.WOEEUXM-user-16.0-efa5a81817.zip",
+          "fastboot": ""
+        },
         "OS2.0.209.0.VOEEUXM": {
           "os": "OS2.0.209.0.VOEEUXM",
           "android": "15.0",
