@@ -454,7 +454,7 @@
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "xuanyuan_tw_global-ota_full-OS2.0.206.0.VOATWXM-user-15.0-c055095d4d.zip",
-					"fastboot": ""
+					"fastboot": "xuanyuan_tw_global_images_OS2.0.206.0.VOATWXM_20251021.0000.00_15.0_tw_1980d06030.tgz"
 				},
 				"OS2.0.205.0.VOATWXM": {
 					"os": "OS2.0.205.0.VOATWXM",
@@ -536,6 +536,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.206.0.VOAMIXM": {
+					"os": "OS2.0.206.0.VOAMIXM",
+					"android": "15.0",
+					"release": "2025-11-03",
+					"recovery": "xuanyuan_global-ota_full-OS2.0.206.0.VOAMIXM-user-15.0-93eb8bea23.zip",
+					"fastboot": ""
+				},
 				"OS2.0.205.0.VOAMIXM": {
 					"os": "OS2.0.205.0.VOAMIXM",
 					"android": "15.0",
@@ -689,12 +696,19 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WOAEUXM": {
+					"os": "OS3.0.3.0.WOAEUXM",
+					"android": "16.0",
+					"release": "2025-11-03",
+					"recovery": "xuanyuan_eea_global-ota_full-OS3.0.3.0.WOAEUXM-user-16.0-b85a6b4e50.zip",
+					"fastboot": ""
+				},
 				"OS2.0.207.0.VOAEUXM": {
 					"os": "OS2.0.207.0.VOAEUXM",
 					"android": "15.0",
 					"release": "2025-10-24",
 					"recovery": "xuanyuan_eea_global-ota_full-OS2.0.207.0.VOAEUXM-user-15.0-1b794a5277.zip",
-					"fastboot": ""
+					"fastboot": "xuanyuan_eea_global_images_OS2.0.207.0.VOAEUXM_20251013.0000.00_15.0_eea_a02d823ecb.tgz"
 				},
 				"OS2.0.205.0.VOAEUXM": {
 					"os": "OS2.0.205.0.VOAEUXM",

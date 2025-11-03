@@ -142,6 +142,44 @@
 					"fastboot": "organ_eea_global_images_OS2.0.201.0.VPXEUXM_20250911.0000.00_15.0_eea_0ce181f362.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "organ_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro 5G",
+				"en": "REDMI Pad 2 Pro 5G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VPXRUXM": {
+					"os": "OS2.0.201.0.VPXRUXM",
+					"android": "15.0",
+					"release": "2025-11-03",
+					"recovery": "organ_ru_global-ota_full-OS2.0.201.0.VPXRUXM-user-15.0-9d05fe5fad.zip",
+					"fastboot": "organ_ru_global_images_OS2.0.201.0.VPXRUXM_20250916.0000.00_15.0_ru_bda7e96a37.tgz"
+				}
+			}
 		}
 	]
 }

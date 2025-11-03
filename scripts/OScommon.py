@@ -1917,6 +1917,7 @@ flags = {
 	"ruby_id_global": "ruby",
 	"LIUQINDEMO": "liuqin",
 	"spring_lm_cr_global": "spring",
+	"organ_ru_global": "organ",
 	"YUDIDEMO": "yudi",
 	"pipa_demo": "pipa",
 	"yuechu_demo": "yuechu",
