@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-11-05 15:40:14",
+    "time": "2025-11-06 00:04:51",
     "developing": "no",
     "roms": [
+      {
+        "code": "lisa",
+        "name": {
+          "zh": "小米 11 青春活力版 / 小米 11 Lite 5G NE",
+          "en": "Mi 11 LE / Xiaomi 11 Lite 5G NE"
+        },
+        "rom": "OS1.0.12.0.UKOEUHG"
+      },
       {
         "code": "aristotle",
         "name": {
@@ -12,12 +20,28 @@
         "rom": "OS2.0.210.0.VMFMIXM; OS2.0.206.0.VMFIDXM"
       },
       {
+        "code": "degas",
+        "name": {
+          "zh": "小米 14T",
+          "en": "Xiaomi 14T"
+        },
+        "rom": "OS2.0.202.0.VNEMXAT"
+      },
+      {
         "code": "dada",
         "name": {
           "zh": "小米 15",
           "en": "Xiaomi 15"
         },
-        "rom": "OS3.0.4.0.WOCEUXM; OS2.0.203.0.VOCRUXM"
+        "rom": "OS3.0.5.0.WOCCNXM; OS3.0.4.0.WOCEUXM; OS2.0.203.0.VOCRUXM"
+      },
+      {
+        "code": "haotian",
+        "name": {
+          "zh": "小米 15 Pro",
+          "en": "Xiaomi 15 Pro"
+        },
+        "rom": "OS3.0.5.0.WOBCNXM"
       },
       {
         "code": "xuanyuan",
@@ -73,7 +97,15 @@
           "zh": "小米平板7 Pro",
           "en": "Xiaomi Pad 7 Pro"
         },
-        "rom": "OS3.0.3.0.WOYMIXM"
+        "rom": "OS3.0.4.0.WOYCNXM; OS3.0.3.0.WOYMIXM"
+      },
+      {
+        "code": "fire",
+        "name": {
+          "zh": "Redmi 12 国际",
+          "en": "Redmi 12"
+        },
+        "rom": "OS2.0.203.0.VMXLMCR"
       },
       {
         "code": "earth",
@@ -145,7 +177,23 @@
           "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
           "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
         },
-        "rom": "OS2.0.204.0.VOQMIDC"
+        "rom": "OS2.0.204.0.VOQMIDC; OS2.0.4.0.VOQLMCR"
+      },
+      {
+        "code": "malachite",
+        "name": {
+          "zh": "Redmi Note 14 Pro / POCO X7",
+          "en": "Redmi Note 14 Pro / POCO X7"
+        },
+        "rom": "OS2.0.205.0.VOOMIDC; OS2.0.203.0.VOOMXAT; OS2.0.202.0.VOOLMCR"
+      },
+      {
+        "code": "sapphire",
+        "name": {
+          "zh": "Redmi Note 13 4G",
+          "en": "Redmi Note 13 4G"
+        },
+        "rom": "OS2.0.6.0.VNGLMCR"
       },
       {
         "code": "annibale",
