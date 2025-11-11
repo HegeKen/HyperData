@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2025-11-10 22:12:09",
+    "time": "2025-11-11 19:59:40",
     "developing": "no",
     "roms": [
+      {
+        "code": "vili",
+        "name": {
+          "zh": "小米 11T Pro",
+          "en": "Xiaomi 11T Pro"
+        },
+        "rom": "OS1.0.22.0.UKDINXM"
+      },
       {
         "code": "zeus",
         "name": {
@@ -12,12 +20,28 @@
         "rom": "OS2.0.210.0.VLBCNXM"
       },
       {
+        "code": "thor",
+        "name": {
+          "zh": "小米 12S Ultra",
+          "en": "Xiaomi 12S Ultra"
+        },
+        "rom": "OS2.0.208.0.VLACNXM"
+      },
+      {
         "code": "ishtar",
         "name": {
           "zh": "小米 13 Ultra",
           "en": "Xiaomi 13 Ultra"
         },
         "rom": "OS2.0.203.0.VMATWXM; OS2.0.208.0.VMAMIXM; OS2.0.204.0.VMAEUXM; OS2.0.203.0.VMARUXM"
+      },
+      {
+        "code": "degas",
+        "name": {
+          "zh": "小米 14T",
+          "en": "Xiaomi 14T"
+        },
+        "rom": "OS2.0.203.0.VNELMCR"
       },
       {
         "code": "uke",
@@ -57,7 +81,7 @@
           "zh": "Redmi 13C/R 5G / POCO M6 5G",
           "en": "Redmi 13C/R 5G / POCO M6 5G"
         },
-        "rom": "OS2.0.203.0.VGQMIXM"
+        "rom": "OS2.0.203.0.VGQMIXM; OS2.0.202.0.VGQMIDC"
       },
       {
         "code": "dew",
@@ -65,7 +89,7 @@
           "zh": "REDMI 15C / POCO C85",
           "en": "REDMI 15C / POCO C85"
         },
-        "rom": "OS2.0.205.0.VBNIDXM; OS2.0.204.0.VBNTRXM"
+        "rom": "OS2.0.205.0.VBNIDXM; OS2.0.204.0.VBNTRXM; OS2.0.205.0.VBNMXAT"
       },
       {
         "code": "ruby",
@@ -73,7 +97,15 @@
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
           "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
         },
-        "rom": "OS2.0.7.0.UMORUXM; OS2.0.6.0.UMOTRXM"
+        "rom": "OS2.0.6.0.UMOTWXM; OS2.0.7.0.UMORUXM; OS2.0.6.0.UMOTRXM"
+      },
+      {
+        "code": "redwood",
+        "name": {
+          "zh": "Redmi Note 12 Pro 极速版 / POCO X5 Pro 5G",
+          "en": "Redmi Note 12 Pro Speed / POCO X5 Pro 5G"
+        },
+        "rom": "OS2.0.10.0.UMSTWXM; OS2.0.12.0.UMSMIXM; OS2.0.12.0.UMSEUXM; OS2.0.9.0.UMSRUXM; OS2.0.13.0.UMSINXM; OS2.0.10.0.UMSIDXM; OS2.0.10.0.UMSTRXM"
       },
       {
         "code": "marble",
@@ -146,6 +178,38 @@
           "en": "Redmi K70E / POCO X6 Pro 5G"
         },
         "rom": "OS2.0.209.0.VNLEUXM"
+      },
+      {
+        "code": "annibale",
+        "name": {
+          "zh": "REDMI K90",
+          "en": "REDMI K90"
+        },
+        "rom": "OS3.0.13.0.WPKCNXM"
+      },
+      {
+        "code": "koto",
+        "name": {
+          "zh": "REDMI 平板 2 4G",
+          "en": "REDMI Pad 2 4G"
+        },
+        "rom": "OS2.0.206.0.VOWINXM"
+      },
+      {
+        "code": "taiko",
+        "name": {
+          "zh": "REDMI 平板 2",
+          "en": "REDMI Pad 2"
+        },
+        "rom": "OS2.0.206.0.VOVINXM; OS2.0.208.0.VOVIDXM"
+      },
+      {
+        "code": "serenity",
+        "name": {
+          "zh": "REDMI A5 / POCO C71",
+          "en": "REDMI A5 / POCO C71"
+        },
+        "rom": "A15.0.7.0.VGWIDXM"
       },
       {
         "code": "moonstone",

@@ -489,6 +489,44 @@
           "fastboot": "dew_gt_tg_global_images_OS2.0.205.0.VBNGTTG_20250908.0000.00_15.0_gt_tg_530b59bb75.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+        "en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+      },
+      "branchCode": "dew_mx_at_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI 15C / POCO C85",
+        "en": "REDMI 15C / POCO C85"
+      },
+      "idtag": "MXAT",
+      "tag": "MXAT",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "at"
+      ],
+      "region": "mx",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.205.0.VBNMXAT": {
+          "os": "OS2.0.205.0.VBNMXAT",
+          "android": "15.0",
+          "release": "2025-11-11",
+          "recovery": "",
+          "fastboot": "dew_mx_at_global_images_OS2.0.205.0.VBNMXAT_20250919.0000.00_15.0_mx_at_c88d339fb7.tgz"
+        }
+      }
     }
   ]
 }

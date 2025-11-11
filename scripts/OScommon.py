@@ -1920,6 +1920,7 @@ flags = {
 	"organ_ru_global": "organ",
 	"organ_dc_global": "organ",
 	"YUDIDEMO": "yudi",
+	"dew_mx_at_global": "dew",
 	"pipa_demo": "pipa",
 	"yuechu_demo": "yuechu",
 	"YUECHUDEMO": "yuechu",
