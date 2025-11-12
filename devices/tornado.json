@@ -253,6 +253,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 印度正式版",
+        "en": "Xiaomi HyperOS India Stable"
+      },
+      "branchCode": "tornado_in_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15C 5G / REDMI 15R 5G",
+        "en": "REDMI 15C 5G / REDMI 15R 5G"
+      },
+      "idtag": "INSO",
+      "tag": "INXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "in",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPOINXM": {
+          "os": "OS2.0.202.0.VPOINXM",
+          "android": "15.0",
+          "release": "2025-11-12",
+          "recovery": "",
+          "fastboot": "tornado_in_global_images_OS2.0.202.0.VPOINXM_20251024.0000.00_15.0_in_98accb585d.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 土耳其正式版",
         "en": "Xiaomi HyperOS Turkey Stable"
       },

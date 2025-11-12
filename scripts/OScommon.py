@@ -1921,6 +1921,7 @@ flags = {
 	"organ_dc_global": "organ",
 	"YUDIDEMO": "yudi",
 	"dew_mx_at_global": "dew",
+	"tornado_in_global": "tornado",
 	"pipa_demo": "pipa",
 	"yuechu_demo": "yuechu",
 	"YUECHUDEMO": "yuechu",
