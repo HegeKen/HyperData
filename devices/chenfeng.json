@@ -7,11 +7,13 @@
 	"code": "NJ",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -50,6 +52,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WNJCNXM": {
+					"os": "OS3.0.3.0.WNJCNXM",
+					"android": "16.0",
+					"release": "2025-11-13",
+					"recovery": "chenfeng-ota_full-OS3.0.3.0.WNJCNXM-user-16.0-746deadf4d.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.207.0.VNJCNXM": {
 					"os": "OS2.0.207.0.VNJCNXM",
 					"android": "15.0",
