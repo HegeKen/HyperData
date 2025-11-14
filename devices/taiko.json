@@ -6,10 +6,12 @@
 	},
 	"code": "OV",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -48,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.WOVCNXM": {
+					"os": "OS3.0.2.0.WOVCNXM",
+					"android": "16.0",
+					"release": "2025-11-14",
+					"recovery": "taiko-ota_full-OS3.0.2.0.WOVCNXM-user-16.0-c3e8d7319b.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.205.0.VOVCNXM": {
 					"os": "OS2.0.205.0.VOVCNXM",
 					"android": "15.0",
