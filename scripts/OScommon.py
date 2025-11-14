@@ -2799,14 +2799,16 @@ def getChangelog2DB(encrypted_data, device,version):
 		print(json.loads(response.text)["desc"])
 	else:
 		data = miui_decrypt(response.text.split("q=")[0])
-		if "LatestRom" in data:
-			if "changelog" in data['LatestRom'] and data['LatestRom']['version'] == version:
-				log = data["LatestRom"]["changelog"]
-			elif "changelog" in data['CurrentRom'] and data['CurrentRom']['version'] == version:
+		if "CurrentRom" in data:
+			if "changelog" in data['CurrentRom'] and data['CurrentRom']['version'] == version:
 				log = data["CurrentRom"]["changelog"]
+			elif "changelog" in data['LatestRom'] and data['LatestRom']['version'] == version:
+				log = data["LatestRom"]["changelog"]
 			else:
 				return False
 				i = 0
+		elif "LatestRom" in data:
+			log = data["LatestRom"]["changelog"]
 		else:
 			return False
 	response.close()
