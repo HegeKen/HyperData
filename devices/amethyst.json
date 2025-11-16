@@ -7,11 +7,13 @@
 	"code": "OP",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -388,6 +390,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.WOPMIXM": {
+					"os": "OS3.0.2.0.WOPMIXM",
+					"android": "15.0",
+					"release": "2025-11-16",
+					"recovery": "amethyst_global-ota_full-OS3.0.2.0.WOPMIXM-user-16.0-f3a5bbcb00.zip",
+					"fastboot": ""
+				},
 				"OS2.0.208.0.VOPMIXM": {
 					"os": "OS2.0.208.0.VOPMIXM",
 					"android": "15.0",
