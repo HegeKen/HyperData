@@ -798,6 +798,7 @@ flags = {
 	"AIRLMCRGlobal":"air",
 	"air_dc_global":"air",
 	"AIRDCGlobal":"air",
+	"spring_dc_global": "spring",
 	"aristotle_lm_cr_global":"aristotle",
 	"ARISTOTLELMCRGlobal":"aristotle",
 	"aristotle_dc_global":"aristotle",

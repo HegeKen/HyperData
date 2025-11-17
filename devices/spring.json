@@ -120,6 +120,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "spring_dc_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 5G",
+        "en": "REDMI 15 5G"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VOUMIDC": {
+          "os": "OS2.0.203.0.VOUMIDC",
+          "android": "15.0",
+          "release": "2025-11-17",
+          "recovery": "spring_dc_global-ota_full-OS2.0.203.0.VOUMIDC-user-15.0-cde24803cf.zip",
+          "fastboot": "spring_dc_global_images_OS2.0.203.0.VOUMIDC_20251013.0000.00_15.0_global_dc_eddd6ee324.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 欧洲EEA正式版",
         "en": "Xiaomi HyperOS Europe EEA Stable"
       },
