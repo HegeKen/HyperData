@@ -295,7 +295,7 @@
 					"android": "15.0",
 					"release": "2025-11-12",
 					"recovery": "flute_id_global-ota_full-OS2.0.203.0.VPWIDXM-user-15.0-ef80df37f4.zip",
-					"fastboot": ""
+					"fastboot": "flute_id_global_images_OS2.0.203.0.VPWIDXM_20251027.0000.00_15.0_id_6591d1555d.tgz"
 				},
 				"OS2.0.201.0.VPWIDXM": {
 					"os": "OS2.0.201.0.VPWIDXM",
@@ -303,6 +303,44 @@
 					"release": "2025-10-09",
 					"recovery": "flute_id_global-ota_full-OS2.0.201.0.VPWIDXM-user-15.0-0d5371bd17.zip",
 					"fastboot": "flute_id_global_images_OS2.0.201.0.VPWIDXM_20250910.0000.00_15.0_id_801b9c2c23.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚 Demo",
+				"en": "Xiaomi HyperOS Indonesia MiStore Demo"
+			},
+			"branchCode": "flute_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "IDDM",
+			"tag": "IDDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.206.0.VPWIDDM": {
+					"os": "OS2.0.206.0.VPWIDDM",
+					"android": "15.0",
+					"release": "2025-11-19",
+					"recovery": "flute_id_global-ota_full-OS2.0.206.0.VPWIDDM-user-15.0-c0ec09f81d.zip",
+					"fastboot": "flute_id_global_images_OS2.0.206.0.VPWIDDM_20251113.0000.00_15.0_id_9ef08decad.tgz"
 				}
 			}
 		},
@@ -340,7 +378,7 @@
 					"android": "15.0",
 					"release": "2025-11-12",
 					"recovery": "flute_tr_global-ota_full-OS2.0.205.0.VPWTRXM-user-15.0-fa4a31dfc6.zip",
-					"fastboot": ""
+					"fastboot": "flute_tr_global_images_OS2.0.205.0.VPWTRXM_20251027.0000.00_15.0_tr_333a48aab7.tgz"
 				},
 				"OS2.0.204.0.VPWTRXM": {
 					"os": "OS2.0.204.0.VPWTRXM",
