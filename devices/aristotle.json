@@ -344,7 +344,7 @@
 					"android": "15.0",
 					"release": "2025-11-13",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.205.0.VMFMIDC-user-15.0-15b4cdf835.zip",
-					"fastboot": ""
+					"fastboot": "aristotle_dc_global_images_OS2.0.205.0.VMFMIDC_20251105.0000.00_15.0_global_dc_9939f26115.tgz"
 				},
 				"OS2.0.204.0.VMFMIDC": {
 					"os": "OS2.0.204.0.VMFMIDC",
@@ -1158,6 +1158,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.5.0.VMFLMCR": {
+					"os": "OS2.0.5.0.VMFLMCR",
+					"android": "15.0",
+					"release": "2025-11-20",
+					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.5.0.VMFLMCR-user-15.0-afe1e1e56e.zip",
+					"fastboot": ""
+				},
 				"OS2.0.4.0.VMFLMCR": {
 					"os": "OS2.0.4.0.VMFLMCR",
 					"android": "15.0",
