@@ -225,6 +225,44 @@
 					"fastboot": "organ_ru_global_images_OS2.0.201.0.VPXRUXM_20250916.0000.00_15.0_ru_bda7e96a37.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "organ_in_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro 5G",
+				"en": "REDMI Pad 2 Pro 5G"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VPXINXM": {
+					"os": "OS2.0.201.0.VPXINXM",
+					"android": "15.0",
+					"release": "2025-11-21",
+					"recovery": "organ_in_global-ota_full-OS2.0.201.0.VPXINXM-user-15.0-89edab0859.zip",
+					"fastboot": "organ_in_global_images_OS2.0.201.0.VPXINXM_20251029.0000.00_15.0_in_7f4f4c3ae3.tgz"
+				}
+			}
 		}
 	]
 }
