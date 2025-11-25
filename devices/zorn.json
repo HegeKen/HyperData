@@ -124,8 +124,8 @@
 					"android": "16.0",
 					"release": "2025-11-13",
 					"recovery": "zorn-ota_full-OS3.0.4.0.WOKCNXM-user-16.0-072795b4bb.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "zorn_images_OS3.0.4.0.WOKCNXM_20251106.0000.00_16.0_cn_d3beb407d3.tgz",
+					"ctelecom": "zorn_images_OS3.0.4.0.WOKCNXM_20251106.0000.00_16.0_cn_chinatelecom_d0be0baec8.tgz"
 				},
 				"OS3.0.3.0.WOKCNXM": {
 					"os": "OS3.0.3.0.WOKCNXM",
@@ -441,6 +441,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.205.0.VOKTWXM": {
+					"os": "OS2.0.205.0.VOKTWXM",
+					"android": "15.0",
+					"release": "2025-11-25",
+					"recovery": "zorn_tw_global-ota_full-OS2.0.205.0.VOKTWXM-user-15.0-606344419d.zip",
+					"fastboot": ""
+				},
 				"OS2.0.203.0.VOKTWXM": {
 					"os": "OS2.0.203.0.VOKTWXM",
 					"android": "15.0",
@@ -629,6 +636,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.208.0.VOKEUXM": {
+					"os": "OS2.0.208.0.VOKEUXM",
+					"android": "15.0",
+					"release": "2025-11-25",
+					"recovery": "zorn_eea_global-ota_full-OS2.0.208.0.VOKEUXM-user-15.0-2b1393c28d.zip",
+					"fastboot": ""
+				},
 				"OS2.0.207.0.VOKEUXM": {
 					"os": "OS2.0.207.0.VOKEUXM",
 					"android": "15.0",
@@ -730,6 +744,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.205.0.VOKRUXM": {
+					"os": "OS2.0.205.0.VOKRUXM",
+					"android": "15.0",
+					"release": "2025-11-25",
+					"recovery": "zorn_ru_global-ota_full-OS2.0.205.0.VOKRUXM-user-15.0-2ba822a159.zip",
+					"fastboot": ""
+				},
 				"OS2.0.203.0.VOKRUXM": {
 					"os": "OS2.0.203.0.VOKRUXM",
 					"android": "15.0",
@@ -817,6 +838,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.204.0.VOKIDXM": {
+					"os": "OS2.0.204.0.VOKIDXM",
+					"android": "15.0",
+					"release": "2025-11-25",
+					"recovery": "zorn_id_global-ota_full-OS2.0.204.0.VOKIDXM-user-15.0-28b7862d3b.zip",
+					"fastboot": ""
+				},
 				"OS2.0.203.0.VOKIDXM": {
 					"os": "OS2.0.203.0.VOKIDXM",
 					"android": "15.0",
