@@ -263,6 +263,44 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "flute_in_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.202.0.VPWINXM": {
+					"os": "OS2.0.202.0.VPWINXM",
+					"android": "15.0",
+					"release": "2025-11-26",
+					"recovery": "flute_in_global-ota_full-OS2.0.202.0.VPWINXM-user-15.0-8650999d5d.zip",
+					"fastboot": "flute_in_global_images_OS2.0.202.0.VPWINXM_20251119.0000.00_15.0_in_05bfeeebaa.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度尼西亚正式版",
 				"en": "Xiaomi HyperOS Indonesia Stable"
 			},

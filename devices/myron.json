@@ -1,8 +1,8 @@
 {
   "device": "myron",
   "name": {
-    "zh": "REDMI K90 Pro Max",
-    "en": "REDMI K90 Pro Max"
+    "zh": "REDMI K90 Pro Max / POCO F8 Ultra",
+    "en": "REDMI K90 Pro Max / POCO F8 Ultra"
   },
   "code": "PM",
   "suppports": [
@@ -154,6 +154,120 @@
           "recovery": "myron_demo-ota_full-OS3.0.2.0.WPMCNDM-user-16.0-000778853a.zip",
           "fastboot": "myron_demo_images_OS3.0.2.0.WPMCNDM_20251017.0000.00_16.0_cn_1023790135.tgz",
           "ctelecom": "myron_demo_images_OS3.0.2.0.WPMCNDM_20251017.0000.00_16.0_cn_chinatelecom_ee91514580.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "myron_tw_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Ultra",
+        "en": "POCO F8 Ultra"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.1.0.WPMTWXM": {
+          "os": "OS3.0.1.0.WPMTWXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "myron_tw_global-ota_full-OS3.0.1.0.WPMTWXM-user-16.0-a855bdf01d.zip",
+          "fastboot": "myron_tw_global_images_OS3.0.1.0.WPMTWXM_20251105.0000.00_16.0_tw_bb58596f1f.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "myron_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Ultra",
+        "en": "POCO F8 Ultra"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.8.0.WPMMIXM": {
+          "os": "OS3.0.8.0.WPMMIXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "myron_global-ota_full-OS3.0.8.0.WPMMIXM-user-16.0-7ab77c059d.zip",
+          "fastboot": "myron_global_images_OS3.0.8.0.WPMMIXM_20251124.0000.00_16.0_global_4446dbb6de.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "myron_eea_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Ultra",
+        "en": "POCO F8 Ultra"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.4.0.WPMEUXM": {
+          "os": "OS3.0.4.0.WPMEUXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "myron_eea_global-ota_full-OS3.0.4.0.WPMEUXM-user-16.0-0d22480797.zip",
+          "fastboot": "myron_eea_global_images_OS3.0.4.0.WPMEUXM_20251123.0000.00_16.0_eea_8e508ae648.tgz"
         }
       }
     }

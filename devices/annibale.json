@@ -1,8 +1,8 @@
 {
   "device": "annibale",
   "name": {
-    "zh": "REDMI K90",
-    "en": "REDMI K90"
+    "zh": "REDMI K90 / POCO F8 Pro",
+    "en": "REDMI K90 / POCO F8 Pro"
   },
   "code": "PK",
   "suppports": [
@@ -122,6 +122,248 @@
           "recovery": "annibale_demo-ota_full-OS3.0.2.0.WPKCNDM-user-16.0-3cebd638f6.zip",
           "fastboot": "annibale_demo_images_OS3.0.2.0.WPKCNDM_20251020.0000.00_16.0_cn_f9f5e9da22.tgz",
           "ctelecom": "annibale_demo_images_OS3.0.2.0.WPKCNDM_20251020.0000.00_16.0_cn_chinatelecom_065bd2cab4.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "annibale_tw_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Pro",
+        "en": "POCO F8 Pro"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPKTWXM": {
+          "os": "OS3.0.2.0.WPKTWXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "",
+          "fastboot": "annibale_tw_global_images_OS3.0.2.0.WPKTWXM_20251120.0000.00_16.0_tw_be057cf685.tgz"
+        },
+        "OS3.0.1.0.WPKTWXM": {
+          "os": "OS3.0.1.0.WPKTWXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "annibale_tw_global-ota_full-OS3.0.1.0.WPKTWXM-user-16.0-5290ac03de.zip",
+          "fastboot": "annibale_tw_global_images_OS3.0.1.0.WPKTWXM_20251103.0000.00_16.0_tw_8395de0fcc.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "annibale_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Pro",
+        "en": "POCO F8 Pro"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.6.0.WPKMIXM": {
+          "os": "OS3.0.6.0.WPKMIXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "",
+          "fastboot": "annibale_global_images_OS3.0.6.0.WPKMIXM_20251123.0000.00_16.0_global_d85b902c56.tgz"
+        },
+        "OS3.0.4.0.WPKMIXM": {
+          "os": "OS3.0.4.0.WPKMIXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "annibale_global-ota_full-OS3.0.4.0.WPKMIXM-user-16.0-7a437517f0.zip",
+          "fastboot": "annibale_global_images_OS3.0.4.0.WPKMIXM_20251115.0000.00_16.0_global_f549328954.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "annibale_eea_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Pro",
+        "en": "POCO F8 Pro"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.5.0.WPKEUXM": {
+          "os": "OS3.0.5.0.WPKEUXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "annibale_eea_global-ota_full-OS3.0.5.0.WPKEUXM-user-16.0-9bc85c19ae.zip",
+          "fastboot": "annibale_eea_global_images_OS3.0.5.0.WPKEUXM_20251123.0000.00_16.0_eea_197cdd8bbb.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "annibale_ru_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Pro",
+        "en": "POCO F8 Pro"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPKRUXM": {
+          "os": "OS3.0.2.0.WPKRUXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "annibale_ru_global-ota_full-OS3.0.2.0.WPKRUXM-user-16.0-df16de5bef.zip",
+          "fastboot": "annibale_ru_global_images_OS3.0.2.0.WPKRUXM_20251031.0000.00_16.0_ru_5ac66a3b10.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "annibale_id_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Pro",
+        "en": "POCO F8 Pro"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.1.0.WPKIDXM": {
+          "os": "OS3.0.1.0.WPKIDXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "annibale_id_global-ota_full-OS3.0.1.0.WPKIDXM-user-16.0-bca36db9c2.zip",
+          "fastboot": "annibale_id_global_images_OS3.0.1.0.WPKIDXM_20251103.0000.00_16.0_id_87518ebaba.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "annibale_tr_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Pro",
+        "en": "POCO F8 Pro"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPKTRXM": {
+          "os": "OS3.0.2.0.WPKTRXM",
+          "android": "16.0",
+          "release": "2025-11-26",
+          "recovery": "annibale_tr_global-ota_full-OS3.0.2.0.WPKTRXM-user-16.0-55725944b7.zip",
+          "fastboot": "annibale_tr_global_images_OS3.0.2.0.WPKTRXM_20251120.0000.00_16.0_tr_ac453e80d8.tgz"
         }
       }
     }

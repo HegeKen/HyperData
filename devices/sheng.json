@@ -654,12 +654,19 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WNXMIXM": {
+					"os": "OS3.0.3.0.WNXMIXM",
+					"android": "16.0",
+					"release": "2025-11-26",
+					"recovery": "sheng_global-ota_full-OS3.0.3.0.WNXMIXM-user-16.0-db8c5eee68.zip",
+					"fastboot": ""
+				},
 				"OS2.0.210.0.VNXMIXM": {
 					"os": "OS2.0.210.0.VNXMIXM",
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "sheng_global-ota_full-OS2.0.210.0.VNXMIXM-user-15.0-2a7bfc9a4e.zip",
-					"fastboot": ""
+					"fastboot": "sheng_global_images_OS2.0.210.0.VNXMIXM_20251105.0000.00_15.0_global_5697cd36b0.tgz"
 				},
 				"OS2.0.209.0.VNXMIXM": {
 					"os": "OS2.0.209.0.VNXMIXM",
@@ -802,7 +809,7 @@
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "sheng_eea_global-ota_full-OS2.0.212.0.VNXEUXM-user-15.0-b9e390aa73.zip",
-					"fastboot": ""
+					"fastboot": "sheng_eea_global_images_OS2.0.212.0.VNXEUXM_20251106.0000.00_15.0_eea_3e1d3cda1b.tgz"
 				},
 				"OS2.0.211.0.VNXEUXM": {
 					"os": "OS2.0.211.0.VNXEUXM",
@@ -945,7 +952,7 @@
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "sheng_ru_global-ota_full-OS2.0.210.0.VNXRUXM-user-15.0-b00f2d70b0.zip",
-					"fastboot": ""
+					"fastboot": "sheng_ru_global_images_OS2.0.210.0.VNXRUXM_20251106.0000.00_15.0_ru_480360f5de.tgz"
 				},
 				"OS2.0.209.0.VNXRUXM": {
 					"os": "OS2.0.209.0.VNXRUXM",
@@ -1088,7 +1095,7 @@
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "sheng_id_global-ota_full-OS2.0.210.0.VNXIDXM-user-15.0-68cd1483d8.zip",
-					"fastboot": ""
+					"fastboot": "sheng_id_global_images_OS2.0.210.0.VNXIDXM_20251107.0000.00_15.0_id_d265db7b62.tgz"
 				},
 				"OS2.0.209.0.VNXIDXM": {
 					"os": "OS2.0.209.0.VNXIDXM",

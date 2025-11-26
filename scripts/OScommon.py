@@ -104,7 +104,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['coral', 'nezha', 'tornado']
+unreleased = ['coral', 'nezha']
 currentStable = ['annibale', 'myron', 'pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
@@ -587,6 +587,16 @@ flags = {
 	"dada_global":"dada",
 	"organ_in_global": "organ",
 	"dada_dc_global":"dada",
+	"annibale_eea_global":"annibale",
+	"annibale_global": "annibale",
+	"annibale_id_global": "annibale",
+	"annibale_tr_global": "annibale",
+	"annibale_tw_global": "annibale",
+	"annibale_ru_global": "annibale",
+	"flute_in_global": "flute",
+	"myron_tw_global": "myron",
+	"myron_global": "myron",
+	"myron_eea_global": "myron",
 	"dada_eea_global":"dada",
 	"dada_ru_global":"dada",
 	"dada_in_global":"dada",
