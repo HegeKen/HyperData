@@ -2489,7 +2489,10 @@ def getData(filename):
 			info = db_job_latest("SELECT tag,code,region FROM branches WHERE vercode = %s" % (stringify(ver_code)))
 			tag,code,region = [item for item in info]
 			device = db_job_latest("SELECT device FROM devices WHERE devtag = %s" % (stringify(devtag)))[0]
-			code = device+code
+			if code is None:
+				code = device
+			else:
+				code = device+code
 			ins_sql = "INSERT INTO devices(device,devtag,code,tag,region,devcode,branchcode) VALUES (%s,%s,%s,%s,%s,%s,%s)" % (stringify(device),stringify(devtag),stringify(code),stringify(tag),stringify(region),stringify(version[-6:]),stringify(filename.split("_")[1]))
 			db_job_latest(ins_sql)
 	else:
@@ -2505,7 +2508,10 @@ def getData(filename):
 				code = filename.split('_images')[0]
 		else:
 			filetype = "recovery"
-			android = filename.split("ota_full-")[1].split("-")[2]
+			if "PRE-" in filename:
+				android = filename.split("ota_full-")[1].split("-")[3]
+			else:
+				android = filename.split("ota_full-")[1].split("-")[2]
 			version = filename.split("ota_full-")[1].split("-user")[0]
 			code = filename.split("-ota_full")[0]
 		data = db_job_latest("SELECT device FROM roms where code = %s" % (stringify(code)))
@@ -2918,6 +2924,20 @@ def entryChecker(data,device):
 								print(device, bname, rom_info['android'], os_version, "Android版本号没有记录")
 								check.append(1)
 							if rom_info['recovery'] != "" and rom_info['recovery'].endswith(".zip") and os_version in rom_info['recovery']:
+								if "EP." in rom_info['recovery'] or "EPSTDE" in rom_info['recovery'] or ".PRE-" in rom_info['recovery']:
+									i = 0
+								else:
+									if ".zip" in rom_info['recovery']:
+										if "miui" in rom_info['recovery']:
+											android = rom_info['recovery'].split("_")[4].split(".zip")[0]
+										else:
+											android = rom_info['recovery'].split("ota_full-")[1].split("-")[2]
+									else:
+										android = rom_info['recovery'].split("images_")[1].split("_")[2]
+									if rom_info['android'] != android:
+										print(device, bname, os_version, android, rom_info['android'], "Android版本号不匹配")
+										check.append(1)
+									else: i = 0
 								if branch['ep'] == "1" or branch['branchtag'] == 'X':
 									i = 0
 								else:

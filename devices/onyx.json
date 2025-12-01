@@ -52,7 +52,7 @@
 			"roms": {
 				"OS3.0.5.0.WOLCNXM": {
 					"os": "OS3.0.5.0.WOLCNXM",
-					"android": "15.0",
+					"android": "16.0",
 					"release": "2025-11-14",
 					"recovery": "onyx-ota_full-OS3.0.5.0.WOLCNXM-user-16.0-6995f031ab.zip",
 					"fastboot": "onyx_images_OS3.0.5.0.WOLCNXM_20251110.0000.00_16.0_cn_4814e005ed.tgz",
@@ -342,9 +342,16 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.WOLMIXM": {
+					"os": "OS3.0.4.0.WOLMIXM",
+					"android": "16.0",
+					"release": "2025-12-01",
+					"recovery": "onyx_global-ota_full-OS3.0.4.0.WOLMIXM-user-16.0-895d6eca0f.zip",
+					"fastboot": ""
+				},
 				"OS3.0.3.0.WOLMIXM": {
 					"os": "OS3.0.3.0.WOLMIXM",
-					"android": "15.0",
+					"android": "16.0",
 					"release": "2025-11-24",
 					"recovery": "onyx_global-ota_full-OS3.0.3.0.WOLMIXM-user-16.0-74c615cb43.zip",
 					"fastboot": ""
