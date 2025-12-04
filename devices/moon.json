@@ -7,11 +7,13 @@
 	"code": "NT",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -154,6 +156,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.WNTMIXM": {
+					"os": "OS3.0.4.0.WNTMIXM",
+					"android": "16.0",
+					"release": "2025-12-04",
+					"recovery": "moon_global-ota_full-OS3.0.4.0.WNTMIXM-user-16.0-2d34a0dcd4.zip",
+					"fastboot": ""
+				},
 				"OS2.0.203.0.VNTMIXM": {
 					"os": "OS2.0.203.0.VNTMIXM",
 					"android": "15.0",
