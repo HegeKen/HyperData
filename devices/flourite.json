@@ -6,10 +6,12 @@
   },
   "code": "PR",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -48,6 +50,14 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.2.0.WPRCNXM": {
+          "os": "OS3.0.2.0.WPRCNXM",
+          "android": "16.0",
+          "release": "2025-12-03",
+          "recovery": "flourite-ota_full-OS3.0.2.0.WPRCNXM-user-16.0-9c6218762a.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        },
         "OS2.0.209.0.VPRCNXM": {
           "os": "OS2.0.209.0.VPRCNXM",
           "android": "15.0",

@@ -7,11 +7,13 @@
 	"code": "OF",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -46,6 +48,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WOFMIXM": {
+					"os": "OS3.0.3.0.WOFMIXM",
+					"android": "16.0",
+					"release": "2025-12-04",
+					"recovery": "obsidian_global-ota_full-OS3.0.3.0.WOFMIXM-user-16.0-eaf3a772c1.zip",
+					"fastboot": ""
+				},
 				"OS2.0.211.0.VOFMIXM": {
 					"os": "OS2.0.211.0.VOFMIXM",
 					"android": "15.0",
