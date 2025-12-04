@@ -1050,6 +1050,7 @@ flags = {
 	"venus_eea_ti_global":"venus",
 	"VENUSEEATIGlobal":"venus",
 	"dizi_eea_global":"dizi",
+	"spring_tw_global": "spring",
 	"DIZIEEAGlobal":"dizi",
 	"dizi_ru_global":"dizi",
 	"DIZIRUGlobal":"dizi",

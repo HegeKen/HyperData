@@ -68,6 +68,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "spring_tw_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 5G",
+        "en": "REDMI 15 5G"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VOUTWXM": {
+          "os": "OS2.0.202.0.VOUTWXM",
+          "android": "15.0",
+          "release": "2025-12-04",
+          "recovery": "spring_tw_global-ota_full-OS2.0.202.0.VOUTWXM-user-15.0-462bc04a80.zip",
+          "fastboot": "spring_tw_global_images_OS2.0.202.0.VOUTWXM_20250908.0000.00_15.0_tw_a3b1dd248c.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 国际正式版",
         "en": "Xiaomi HyperOS Global Stable"
       },
@@ -197,7 +235,7 @@
           "android": "15.0",
           "release": "2025-11-28",
           "recovery": "spring_eea_global-ota_full-OS2.0.205.0.VOUEUXM-user-15.0-b0bd543cb3.zip",
-          "fastboot": ""
+          "fastboot": "spring_eea_global_images_OS2.0.205.0.VOUEUXM_20251114.0000.00_15.0_eea_5f77a167ed.tgz"
         },
         "OS2.0.204.0.VOUEUXM": {
           "os": "OS2.0.204.0.VOUEUXM",
