@@ -7,11 +7,13 @@
 	"code": "NE",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -398,6 +400,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.WNEEUXM": {
+					"os": "OS3.0.4.0.WNEEUXM",
+					"android": "16.0",
+					"release": "2025-12-07",
+					"recovery": "degas_eea_global-ota_full-OS3.0.4.0.WNEEUXM-user-16.0-46e9ae5e73.zip",
+					"fastboot": ""
+				},
 				"OS2.0.207.0.VNEEUXM": {
 					"os": "OS2.0.207.0.VNEEUXM",
 					"android": "15.0",
