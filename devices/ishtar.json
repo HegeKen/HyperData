@@ -7,11 +7,13 @@
 	"code": "MA",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "yes",
@@ -398,6 +400,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WMACNXM": {
+					"os": "OS3.0.3.0.WMACNXM",
+					"android": "16.0",
+					"release": "2025-12-10",
+					"recovery": "ishtar-ota_full-OS3.0.3.0.WMACNXM-user-16.0-7592563019.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.210.0.VMACNXM": {
 					"os": "OS2.0.210.0.VMACNXM",
 					"android": "15.0",

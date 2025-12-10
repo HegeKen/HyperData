@@ -7,11 +7,13 @@
 	"code": "NO",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "yes",
@@ -50,6 +52,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WNOCNXM": {
+					"os": "OS3.0.3.0.WNOCNXM",
+					"android": "16.0",
+					"release": "2025-12-10",
+					"recovery": "zircon-ota_full-OS3.0.3.0.WNOCNXM-user-16.0-a3d6fde2b9.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.209.0.VNOCNXM": {
 					"os": "OS2.0.209.0.VNOCNXM",
 					"android": "15.0",
