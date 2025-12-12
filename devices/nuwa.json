@@ -7,11 +7,13 @@
 	"code": "MB",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "yes",
@@ -391,6 +393,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WMBCNXM": {
+					"os": "OS3.0.3.0.WMBCNXM",
+					"android": "16.0",
+					"release": "2025-12-10",
+					"recovery": "nuwa-ota_full-OS3.0.3.0.WMBCNXM-user-16.0-625b531b0d.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.219.0.VMBCNXM": {
 					"os": "OS2.0.219.0.VMBCNXM",
 					"android": "15.0",

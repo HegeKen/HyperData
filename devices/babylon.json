@@ -7,11 +7,13 @@
 	"code": "MV",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "foldable",
 	"miui": "yes",
@@ -315,6 +317,14 @@
 				"chinaunicom"
 			],
 			"roms": {
+				"OS3.0.3.0.WMVCNXM": {
+					"os": "OS3.0.3.0.WMVCNXM",
+					"android": "16.0",
+					"release": "2025-12-10",
+					"recovery": "babylon-ota_full-OS3.0.3.0.WMVCNXM-user-16.0-2bcf973e69.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.209.0.VMVCNXM": {
 					"os": "OS2.0.209.0.VMVCNXM",
 					"android": "15.0",

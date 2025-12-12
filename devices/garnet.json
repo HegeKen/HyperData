@@ -7,11 +7,13 @@
 	"code": "NR",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "yes",
@@ -50,6 +52,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.WNRCNXM": {
+					"os": "OS3.0.2.0.WNRCNXM",
+					"android": "16.0",
+					"release": "2025-12-10",
+					"recovery": "garnet-ota_full-OS3.0.2.0.WNRCNXM-user-16.0-b487e82659.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.209.0.VNRCNXM": {
 					"os": "OS2.0.209.0.VNRCNXM",
 					"android": "15.0",

@@ -6,10 +6,12 @@
   },
   "code": "PP",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -48,6 +50,14 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.4.0.WPPCNXM": {
+          "os": "OS3.0.4.0.WPPCNXM",
+          "android": "16.0",
+          "release": "2025-12-10",
+          "recovery": "lapis-ota_full-OS3.0.4.0.WPPCNXM-user-16.0-3fee4ec73e.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        },
         "OS2.0.209.0.VPPCNXM": {
           "os": "OS2.0.209.0.VPPCNXM",
           "android": "15.0",
