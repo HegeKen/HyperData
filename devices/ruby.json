@@ -55,7 +55,7 @@
 					"release": "2025-12-03",
 					"recovery": "ruby-ota_full-OS2.0.15.0.UMOCNXM-user-14.0-d11d199c86.zip",
 					"fastboot": "ruby_images_OS2.0.15.0.UMOCNXM_20251124.0000.00_14.0_cn_2aa259e55a.tgz",
-					"ctelecom": ""
+					"ctelecom": "ruby_images_OS2.0.15.0.UMOCNXM_20251124.0000.00_14.0_cn_chinatelecom_8549ed6998.tgz"
 				},
 				"OS2.0.14.0.UMOCNXM": {
 					"os": "OS2.0.14.0.UMOCNXM",
@@ -784,6 +784,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.9.0.UMORUXM": {
+					"os": "OS2.0.9.0.UMORUXM",
+					"android": "14.0",
+					"release": "2025-12-15",
+					"recovery": "ruby_ru_global-ota_full-OS2.0.9.0.UMORUXM-user-14.0-96dbc248ce.zip",
+					"fastboot": ""
+				},
 				"OS2.0.7.0.UMORUXM": {
 					"os": "OS2.0.7.0.UMORUXM",
 					"android": "14.0",
