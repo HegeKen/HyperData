@@ -620,7 +620,7 @@
 					"os": "OS3.0.25.11.13.EP.STDEE.O3",
 					"android": "16.0",
 					"release": "2025-12-16",
-					"recovery": "",
+					"recovery": "dada_ep_stdee-ota_full-OS3.0.25.11.13.EP.STDEE.O3-user-16.0-77e95dd193.zip",
 					"fastboot": "dada_ep_stdee_images_OS3.0.25.11.13.EP.STDEE.O3_20251113.0000.00_16.0_cn_ca3b4e5c4f.tgz",
 					"ctelecom": "dada_ep_stdee_images_OS3.0.25.11.13.EP.STDEE.O3_20251113.0000.00_16.0_cn_chinatelecom_8650030e5c.tgz"
 				},
@@ -849,6 +849,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WOCMIXM": {
+					"os": "OS3.0.3.0.WOCMIXM",
+					"android": "16.0",
+					"release": "2025-12-17",
+					"recovery": "dada_global-ota_full-OS3.0.3.0.WOCMIXM-user-16.0-c8028de0c9.zip",
+					"fastboot": ""
+				},
 				"OS2.0.227.0.WOCMIXM": {
 					"os": "OS2.0.227.0.WOCMIXM",
 					"android": "16.0",
@@ -955,7 +962,7 @@
 					"android": "16.0",
 					"release": "2025-12-11",
 					"recovery": "dada_dc_global-ota_full-OS3.0.3.0.WOCMIDC-user-16.0-d75c9e3692.zip",
-					"fastboot": ""
+					"fastboot": "dada_dc_global_images_OS3.0.3.0.WOCMIDC_20251204.0000.00_16.0_global_dc_5cf78091d3.tgz"
 				},
 				"OS2.0.201.0.VOCMIDC": {
 					"os": "OS2.0.201.0.VOCMIDC",
