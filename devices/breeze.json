@@ -7,11 +7,13 @@
 	"code": "NU",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -236,6 +238,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.9.0.WNUINXM": {
+					"os": "OS3.0.9.0.WNUINXM",
+					"android": "16.0",
+					"release": "2025-12-18",
+					"recovery": "breeze_in_global-ota_full-OS3.0.9.0.WNUINXM-user-16.0-664f4039c4.zip",
+					"fastboot": ""
+				},
 				"OS2.0.204.0.VNUINXM": {
 					"os": "OS2.0.204.0.VNUINXM",
 					"android": "15.0",
