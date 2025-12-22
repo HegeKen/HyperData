@@ -55,8 +55,8 @@
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "ruan-ota_full-OS2.0.207.0.VFSCNXM-user-15.0-97bcba34fa.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "ruan_images_OS2.0.207.0.VFSCNXM_20251124.0000.00_15.0_cn_a537155cf8.tgz",
+					"ctelecom": "ruan_images_OS2.0.207.0.VFSCNXM_20251124.0000.00_15.0_cn_chinatelecom_2f6998c38d.tgz"
 				},
 				"OS2.0.206.0.VFSCNXM": {
 					"os": "OS2.0.206.0.VFSCNXM",
@@ -324,7 +324,7 @@
 					"android": "15.0",
 					"release": "2025-12-13",
 					"recovery": "ruan_global-ota_full-OS2.0.206.0.VFSMIXM-user-15.0-37acda3f31.zip",
-					"fastboot": ""
+					"fastboot": "ruan_global_images_OS2.0.206.0.VFSMIXM_20251122.0000.00_15.0_global_2012fb7ba7.tgz"
 				},
 				"OS2.0.205.0.VFSMIXM": {
 					"os": "OS2.0.205.0.VFSMIXM",
@@ -612,6 +612,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.206.0.VFSRUXM": {
+					"os": "OS2.0.206.0.VFSRUXM",
+					"android": "15.0",
+					"release": "2025-12-22",
+					"recovery": "ruan_ru_global-ota_full-OS2.0.206.0.VFSRUXM-user-15.0-10d8575746.zip",
+					"fastboot": ""
+				},
 				"OS2.0.205.0.VFSRUXM": {
 					"os": "OS2.0.205.0.VFSRUXM",
 					"android": "15.0",
@@ -746,7 +753,7 @@
 					"android": "15.0",
 					"release": "2025-12-13",
 					"recovery": "ruan_in_global-ota_full-OS2.0.206.0.VFSINXM-user-15.0-238955c542.zip",
-					"fastboot": ""
+					"fastboot": "ruan_in_global_images_OS2.0.206.0.VFSINXM_20251124.0000.00_15.0_in_bb54687f41.tgz"
 				},
 				"OS2.0.205.0.VFSINXM": {
 					"os": "OS2.0.205.0.VFSINXM",
