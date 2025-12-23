@@ -103,12 +103,19 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.217.0.VBNMIXM": {
+          "os": "OS2.0.217.0.VBNMIXM",
+          "android": "15.0",
+          "release": "2025-12-23",
+          "recovery": "dew_global-ota_full-OS2.0.217.0.VBNMIXM-user-15.0-bd6ae1fd81.zip",
+          "fastboot": ""
+        },
         "OS2.0.216.0.VBNMIXM": {
           "os": "OS2.0.216.0.VBNMIXM",
           "android": "15.0",
           "release": "2025-12-16",
           "recovery": "dew_global-ota_full-OS2.0.216.0.VBNMIXM-user-15.0-985ab223ef.zip",
-          "fastboot": ""
+          "fastboot": "dew_global_images_OS2.0.216.0.VBNMIXM_20251205.0000.00_15.0_global_49862a8c57.tgz"
         },
         "OS2.0.214.0.VBNMIXM": {
           "os": "OS2.0.214.0.VBNMIXM",
@@ -358,7 +365,7 @@
           "android": "15.0",
           "release": "2025-12-16",
           "recovery": "dew_id_global-ota_full-OS2.0.207.0.VBNIDXM-user-15.0-2a1e9cee46.zip",
-          "fastboot": ""
+          "fastboot": "dew_id_global_images_OS2.0.207.0.VBNIDXM_20251205.0000.00_15.0_id_c2be260cd2.tgz"
         },
         "OS2.0.205.0.VBNIDXM": {
           "os": "OS2.0.205.0.VBNIDXM",
