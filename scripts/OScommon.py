@@ -104,8 +104,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['coral', 'nezha']
-currentStable = ['annibale', 'myron', 'pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
+unreleased = ['nezha', 'coral']
+currentStable = ['nezha','annibale', 'myron', 'pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
 								 'ruyi', 'goku', 'agate', 'air', 'alioth', 'ares', 'aristotle', 'aurora', 'babylon', 'breeze', 'cas',
