@@ -616,6 +616,14 @@
 			"zone": "1",
 			"ep": "1",
 			"roms": {
+				"OS3.0.25.12.23.EP.STDEE.O3": {
+					"os": "OS3.0.25.12.23.EP.STDEE.O3",
+					"android": "16.0",
+					"release": "2025-12-25",
+					"recovery": "dada_ep_stdee-ota_full-OS3.0.25.12.23.EP.STDEE.O3-user-16.0-1c82c1d88f.zip",
+					"fastboot": "dada_ep_stdee_images_OS3.0.25.12.23.EP.STDEE.O3_20251223.0000.00_16.0_cn_85918f13b6.tgz",
+					"ctelecom": "dada_ep_stdee_images_OS3.0.25.12.23.EP.STDEE.O3_20251223.0000.00_16.0_cn_chinatelecom_4979a13790.tgz"
+				},
 				"OS3.0.25.11.13.EP.STDEE.O3": {
 					"os": "OS3.0.25.11.13.EP.STDEE.O3",
 					"android": "16.0",
@@ -1191,6 +1199,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.1.0.WOCRUXM": {
+					"os": "OS3.0.1.0.WOCRUXM",
+					"android": "16.0",
+					"release": "2025-12-25",
+					"recovery": "dada_ru_global-ota_full-OS3.0.1.0.WOCRUXM-user-16.0-3bee410a49.zip",
+					"fastboot": ""
+				},
 				"OS2.0.204.0.VOCRUXM": {
 					"os": "OS2.0.204.0.VOCRUXM",
 					"android": "15.0",

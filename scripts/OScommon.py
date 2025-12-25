@@ -437,6 +437,8 @@ flags = {
 	"goya_ru_global": "goya",
 	"goya_tr_global": "goya",
 	"klimt_global": "klimt",
+	"nezha":"nezha",
+	"nezha_demo":"nezha",
 	"klimt_eea_global": "klimt",
 	"klimt_id_global": "klimt",
 	"klimt_ru_global": "klimt",
