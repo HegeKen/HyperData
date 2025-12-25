@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-12-25 20:31:37",
+    "time": "2025-12-25 23:42:22",
     "developing": "no",
     "roms": [
       {
@@ -9,7 +9,7 @@
           "zh": "小米 12",
           "en": "Xiaomi 12"
         },
-        "rom": "OS2.0.206.0.VLCTWXM; OS2.0.206.0.VLCRUXM; OS2.0.206.0.VLCIDXM; OS2.0.206.0.VLCTRXM"
+        "rom": "OS2.0.206.0.VLCTWXM; OS2.0.207.0.VLCMIXM; OS2.0.206.0.VLCRUXM; OS2.0.206.0.VLCIDXM; OS2.0.206.0.VLCTRXM"
       },
       {
         "code": "zeus",
@@ -17,7 +17,15 @@
           "zh": "小米 12 Pro",
           "en": "Xiaomi 12 Pro"
         },
-        "rom": "OS2.0.207.0.VLBMIXM; OS2.0.209.0.VLBEUXM; OS2.0.209.0.VLBINXM"
+        "rom": "OS2.0.214.0.VLBCNXM; OS2.0.207.0.VLBMIXM; OS2.0.209.0.VLBEUXM; OS2.0.209.0.VLBINXM"
+      },
+      {
+        "code": "unicorn",
+        "name": {
+          "zh": "小米 12S Pro",
+          "en": "Xiaomi 12S Pro"
+        },
+        "rom": "OS2.0.211.0.VLECNXM"
       },
       {
         "code": "ishtar",
@@ -36,6 +44,22 @@
         "rom": "OS2.0.206.0.VMFMIDC"
       },
       {
+        "code": "houji",
+        "name": {
+          "zh": "小米 14",
+          "en": "Xiaomi 14"
+        },
+        "rom": "OS3.0.5.0.WNCMIXM"
+      },
+      {
+        "code": "shennong",
+        "name": {
+          "zh": "小米 14 Pro / Ti / 钛金属卫星通讯版",
+          "en": "Xiaomi 14 Pro / Ti / Satellite"
+        },
+        "rom": "OS3.0.7.0.WNBCNXM"
+      },
+      {
         "code": "aurora",
         "name": {
           "zh": "小米 14 Ultra / Ultra Ti",
@@ -49,7 +73,7 @@
           "zh": "小米 15",
           "en": "Xiaomi 15"
         },
-        "rom": "OS3.0.1.0.WOCRUXM; OS3.0.2.0.WOCIDXM"
+        "rom": "OS3.0.6.0.WOCCNXM; OS3.0.1.0.WOCRUXM; OS3.0.2.0.WOCIDXM"
       },
       {
         "code": "haotian",
@@ -82,6 +106,14 @@
           "en": "Xiaomi 15T Pro"
         },
         "rom": "OS3.0.9.0.WOSEUXM"
+      },
+      {
+        "code": "nezha",
+        "name": {
+          "zh": "小米 17 Ultra",
+          "en": "Xiaomi 17 Ultra"
+        },
+        "rom": "OS3.0.7.0.WPACNXM"
       },
       {
         "code": "pipa",
@@ -121,7 +153,7 @@
           "zh": "小米 MIX Flip",
           "en": "Xiaomi MIX Flip"
         },
-        "rom": "OS3.0.1.0.WNIRUXM"
+        "rom": "OS3.0.4.0.WNIMIXM; OS3.0.1.0.WNIRUXM"
       },
       {
         "code": "ziyi",
@@ -145,7 +177,15 @@
           "zh": "Redmi 13C 国际 / POCO C65",
           "en": "Redmi 13C / POCO C65"
         },
-        "rom": "OS2.0.203.0.VGPTRXM"
+        "rom": "OS2.0.206.0.VGPMIDC; OS2.0.203.0.VGPTRXM"
+      },
+      {
+        "code": "moon",
+        "name": {
+          "zh": "Redmi 13 / POCO M6 4G",
+          "en": "Redmi 13 / POCO M6 4G"
+        },
+        "rom": "OS3.0.1.0.WNTEUXM"
       },
       {
         "code": "lake",
@@ -180,6 +220,14 @@
         "rom": "OS2.0.206.0.VPOMIXM; OS2.0.203.0.VPOINXM"
       },
       {
+        "code": "spring",
+        "name": {
+          "zh": "REDMI 15 5G / REDMI Note 15R 5G",
+          "en": "REDMI 15 5G / REDMI Note 15R 5G"
+        },
+        "rom": "OS2.0.207.0.VOUMIXM"
+      },
+      {
         "code": "ruby",
         "name": {
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
@@ -193,7 +241,7 @@
           "zh": "Redmi Note 12 4G",
           "en": "Redmi Note 12 4G"
         },
-        "rom": "OS2.0.203.0.VMTINXM"
+        "rom": "OS2.0.203.0.VMTINXM; OS2.0.202.0.VMTMXAT"
       },
       {
         "code": "topaz",
@@ -284,6 +332,14 @@
         "rom": "OS2.0.205.0.VOPMIDC; OS2.0.203.0.VOPIDXM"
       },
       {
+        "code": "sapphire",
+        "name": {
+          "zh": "Redmi Note 13 4G",
+          "en": "Redmi Note 13 4G"
+        },
+        "rom": "OS2.0.202.0.VNGMXAT"
+      },
+      {
         "code": "sapphiren",
         "name": {
           "zh": "Redmi Note 13 NFC",
@@ -329,7 +385,7 @@
           "zh": "Redmi K70 / POCO F6 Pro",
           "en": "Redmi K70 / POCO F6 Pro"
         },
-        "rom": "OS3.0.6.0.WNKCNXM"
+        "rom": "OS3.0.6.0.WNKCNXM; OS3.0.5.0.WNKMIXM"
       },
       {
         "code": "xun",
