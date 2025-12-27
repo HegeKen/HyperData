@@ -185,6 +185,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.2.0.WOSMIDC": {
+          "os": "OS3.0.2.0.WOSMIDC",
+          "android": "16.0",
+          "release": "2025-12-27",
+          "recovery": "klimt_dc_global-ota_full-OS3.0.2.0.WOSMIDC-user-16.0-34e6fa95a1.zip",
+          "fastboot": ""
+        },
         "OS3.0.1.0.WOSMIDC": {
           "os": "OS3.0.1.0.WOSMIDC",
           "android": "16.0",
@@ -249,7 +256,7 @@
           "android": "16.0",
           "release": "2025-12-24",
           "recovery": "klimt_eea_global-ota_full-OS3.0.9.0.WOSEUXM-user-16.0-a0402c50ea.zip",
-          "fastboot": ""
+          "fastboot": "klimt_eea_global_images_OS3.0.9.0.WOSEUXM_20251217.0000.00_16.0_eea_6b1c2b04a0.tgz"
         },
         "OS3.0.6.0.WOSEUXM": {
           "os": "OS3.0.6.0.WOSEUXM",

@@ -443,6 +443,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.211.0.VNOMIXM": {
+					"os": "OS2.0.211.0.VNOMIXM",
+					"android": "15.0",
+					"release": "2025-12-27",
+					"recovery": "zircon_global-ota_full-OS2.0.211.0.VNOMIXM-user-15.0-0f8510746b.zip",
+					"fastboot": "zircon_global_images_OS2.0.211.0.VNOMIXM_20251216.0000.00_15.0_global_3feb931da3.tgz"
+				},
 				"OS2.0.209.0.VNOMIXM": {
 					"os": "OS2.0.209.0.VNOMIXM",
 					"android": "15.0",
@@ -605,7 +612,7 @@
 					"android": "15.0",
 					"release": "2025-12-25",
 					"recovery": "zircon_dc_global-ota_full-OS2.0.207.0.VNOMIDC-user-15.0-d97613c071.zip",
-					"fastboot": ""
+					"fastboot": "zircon_dc_global_images_OS2.0.207.0.VNOMIDC_20251216.0000.00_15.0_global_dc_55a96081fd.tgz"
 				},
 				"OS2.0.206.0.VNOMIDC": {
 					"os": "OS2.0.206.0.VNOMIDC",
@@ -1505,7 +1512,7 @@
 					"android": "15.0",
 					"release": "2025-12-23",
 					"recovery": "zircon_jp_global-ota_full-OS2.0.207.0.VNOJPXM-user-15.0-278c089b80.zip",
-					"fastboot": ""
+					"fastboot": "zircon_jp_global_images_OS2.0.207.0.VNOJPXM_20251216.0000.00_15.0_jp_bf50a7f97a.tgz"
 				},
 				"OS2.0.206.0.VNOJPXM": {
 					"os": "OS2.0.206.0.VNOJPXM",
