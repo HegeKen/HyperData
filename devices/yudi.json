@@ -7,7 +7,8 @@
 	"code": "MH",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -49,6 +50,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.1.0.VMHCNXM": {
+					"os": "OS3.0.1.0.VMHCNXM",
+					"android": "15.0",
+					"release": "2025-12-28",
+					"recovery": "yudi-ota_full-OS3.0.1.0.VMHCNXM-user-15.0-24e0ff2f68.zip",
+					"fastboot": ""
+				},
 				"OS2.0.211.0.VMHCNXM": {
 					"os": "OS2.0.211.0.VMHCNXM",
 					"android": "15.0",

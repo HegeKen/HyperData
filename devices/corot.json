@@ -8,11 +8,13 @@
 	"suppports": [
 		"OS1.0",
 		"OS1.1",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "yes",
@@ -92,6 +94,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WMLCNXM": {
+					"os": "OS3.0.3.0.WMLCNXM",
+					"android": "16.0",
+					"release": "2025-12-28",
+					"recovery": "corot-ota_full-OS3.0.3.0.WMLCNXM-user-16.0-0c145b73d2.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.211.0.VMLCNXM": {
 					"os": "OS2.0.211.0.VMLCNXM",
 					"android": "15.0",

@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2025-12-27 20:33:38",
+    "time": "2025-12-28 13:23:39",
     "developing": "no",
     "roms": [
       {
@@ -172,12 +172,20 @@
         "rom": "OS2.0.16.0.UMZCNXM; OS2.0.11.0.UMZTWXM; OS2.0.12.0.UMZMIXM; OS2.0.11.0.UMZEUXM; OS2.0.11.0.UMZRUXM; OS2.0.11.0.UMZINXM; OS2.0.12.0.UMZIDXM; OS2.0.11.0.UMZTRXM"
       },
       {
+        "code": "liuqin",
+        "name": {
+          "zh": "小米平板 6 Pro",
+          "en": "Xiaomi Pad 6 Pro"
+        },
+        "rom": "OS3.0.3.0.VMYCNXM"
+      },
+      {
         "code": "yudi",
         "name": {
           "zh": "小米平板 6 Max 14",
           "en": "Xiaomi Pad 6 Max 14"
         },
-        "rom": "OS2.0.211.0.VMHCNXM"
+        "rom": "OS3.0.1.0.VMHCNXM; OS2.0.211.0.VMHCNXM"
       },
       {
         "code": "muyu",
@@ -186,6 +194,14 @@
           "en": "Xiaomi Pad 7 Pro"
         },
         "rom": "OS3.0.10.0.WOYCNXM; OS3.0.3.0.WOYTWXM; OS3.0.3.0.WOYRUXM; OS3.0.3.0.WOYIDXM; OS3.0.3.0.WOYTRXM"
+      },
+      {
+        "code": "jinghu",
+        "name": {
+          "zh": "小米平板7 Ultra",
+          "en": "Xiaomi Pad 7 Ultra"
+        },
+        "rom": "OS3.0.7.0.WOXCNXM"
       },
       {
         "code": "violin",
@@ -297,7 +313,7 @@
           "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
           "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
         },
-        "rom": "OS2.0.7.0.UMOTWXM; OS2.0.9.0.UMOINXM; OS2.0.11.0.UMOIDXM; OS2.0.7.0.UMOTRXM; OS2.0.2.0.UMOLMCR"
+        "rom": "OS2.0.7.0.UMOTWXM; OS2.0.10.0.UMOMIXM; OS2.0.12.0.UMOEUXM; OS2.0.9.0.UMOINXM; OS2.0.11.0.UMOIDXM; OS2.0.7.0.UMOTRXM; OS2.0.2.0.UMOLMCR"
       },
       {
         "code": "redwood",
@@ -401,7 +417,7 @@
           "zh": "Redmi Note 14 Pro+",
           "en": "Redmi Note 14 Pro+"
         },
-        "rom": "OS2.0.205.0.VOPMIDC; OS2.0.203.0.VOPIDXM"
+        "rom": "OS2.0.204.0.VOPTWXM; OS3.0.3.0.WOPMIXM; OS2.0.205.0.VOPMIDC; OS2.0.205.0.VOPRUXM; OS2.0.203.0.VOPIDXM; OS2.0.204.0.VOPTRXM"
       },
       {
         "code": "sapphire",
@@ -433,7 +449,7 @@
           "zh": "Redmi Turbo 3 / POCO F6",
           "en": "Redmi Turbo 3 / POCO F6"
         },
-        "rom": "OS2.0.207.0.VNPTWXM; OS2.0.208.0.VNPMIXM; OS2.0.207.0.VNPRUXM; OS2.0.207.0.VNPINXM; OS2.0.207.0.VNPIDXM"
+        "rom": "OS3.0.4.0.WNPCNXM; OS2.0.207.0.VNPTWXM; OS2.0.208.0.VNPMIXM; OS2.0.207.0.VNPRUXM; OS2.0.207.0.VNPINXM; OS2.0.207.0.VNPIDXM"
       },
       {
         "code": "rodin",
@@ -449,7 +465,7 @@
           "zh": "REDMI Turbo 4 Pro / POCO F7",
           "en": "REDMI Turbo 4 Pro / POCO F7"
         },
-        "rom": "OS3.0.2.0.WOLEUXM; OS3.0.2.0.WOLIDXM"
+        "rom": "OS3.0.5.0.WOLMIXM; OS3.0.2.0.WOLEUXM; OS3.0.2.0.WOLIDXM"
       },
       {
         "code": "haydn",
@@ -473,7 +489,15 @@
           "zh": "Redmi K60 / POCO F5 Pro",
           "en": "Redmi K60 / POCO F5 Pro"
         },
-        "rom": "OS2.0.209.0.VMNMIXM; OS2.0.208.0.VMNEUXM"
+        "rom": "OS3.0.2.0.VMNCNXM; OS2.0.209.0.VMNMIXM; OS2.0.208.0.VMNEUXM"
+      },
+      {
+        "code": "socrates",
+        "name": {
+          "zh": "Redmi K60 Pro",
+          "en": "Redmi K60 Pro"
+        },
+        "rom": "OS3.0.3.0.VMKCNXM"
       },
       {
         "code": "corot",
@@ -481,7 +505,7 @@
           "zh": "Redmi K60 至尊版 / 小米 13T Pro",
           "en": "Redmi K60 Ultra / Xiaomi 13T Pro"
         },
-        "rom": "OS2.0.205.0.VMLTWXM; OS2.0.205.0.VMLMIXM; OS2.0.210.0.VMLEUXM; OS2.0.206.0.VMLRUXM; OS2.0.206.0.VMLTRXM; OS2.0.207.0.VMLJPXM"
+        "rom": "OS3.0.3.0.WMLCNXM; OS2.0.205.0.VMLTWXM; OS2.0.205.0.VMLMIXM; OS2.0.210.0.VMLEUXM; OS2.0.206.0.VMLRUXM; OS2.0.206.0.VMLTRXM; OS2.0.207.0.VMLJPXM"
       },
       {
         "code": "duchamp",
@@ -508,12 +532,28 @@
         "rom": "OS3.0.6.0.WOKMIXM"
       },
       {
+        "code": "miro",
+        "name": {
+          "zh": "REDMI K80 Pro / POCO F7 Ultra",
+          "en": "REDMI K80 Pro / POCO F7 Ultra"
+        },
+        "rom": "OS3.0.3.0.WOMMIXM; OS3.0.3.0.WOMRUXM; OS3.0.3.0.WOMTRXM"
+      },
+      {
         "code": "dali",
         "name": {
           "zh": "REDMI K80 至尊版",
           "en": "REDMI K80 Ultra"
         },
         "rom": "OS3.0.7.0.WONCNXM"
+      },
+      {
+        "code": "annibale",
+        "name": {
+          "zh": "REDMI K90 / POCO F8 Pro",
+          "en": "REDMI K90 / POCO F8 Pro"
+        },
+        "rom": "OS3.0.20.0.WPKCNXM"
       },
       {
         "code": "xun",

@@ -7,11 +7,13 @@
 	"code": "NP",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -50,6 +52,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.WNPCNXM": {
+					"os": "OS3.0.4.0.WNPCNXM",
+					"android": "16.0",
+					"release": "2025-12-28",
+					"recovery": "peridot-ota_full-OS3.0.4.0.WNPCNXM-user-16.0-330391af96.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.207.0.VNPCNXM": {
 					"os": "OS2.0.207.0.VNPCNXM",
 					"android": "15.0",

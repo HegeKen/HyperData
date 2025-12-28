@@ -7,7 +7,8 @@
 	"code": "MN",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -343,6 +344,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.VMNCNXM": {
+					"os": "OS3.0.2.0.VMNCNXM",
+					"android": "15.0",
+					"release": "2025-12-28",
+					"recovery": "mondrian-ota_full-OS3.0.2.0.VMNCNXM-user-15.0-27144f8aba.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.224.0.VMNCNXM": {
 					"os": "OS2.0.224.0.VMNCNXM",
 					"android": "15.0",

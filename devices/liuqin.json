@@ -7,7 +7,8 @@
 	"code": "MY",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -49,6 +50,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.VMYCNXM": {
+					"os": "OS3.0.3.0.VMYCNXM",
+					"android": "15.0",
+					"release": "2025-12-28",
+					"recovery": "liuqin-ota_full-OS3.0.3.0.VMYCNXM-user-15.0-4403465d35.zip",
+					"fastboot": ""
+				},
 				"OS2.0.213.0.VMYCNXM": {
 					"os": "OS2.0.213.0.VMYCNXM",
 					"android": "15.0",

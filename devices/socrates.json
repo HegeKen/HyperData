@@ -7,7 +7,8 @@
 	"code": "MK",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -91,6 +92,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.VMKCNXM": {
+					"os": "OS3.0.3.0.VMKCNXM",
+					"android": "15.0",
+					"release": "2025-12-28",
+					"recovery": "socrates-ota_full-OS3.0.3.0.VMKCNXM-user-15.0-faefa29a61.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.212.0.VMKCNXM": {
 					"os": "OS2.0.212.0.VMKCNXM",
 					"android": "15.0",
