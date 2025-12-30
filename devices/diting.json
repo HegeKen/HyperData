@@ -505,7 +505,7 @@
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "diting_tw_global-ota_full-OS2.0.204.0.VLFTWXM-user-15.0-74e4949003.zip",
-					"fastboot": ""
+					"fastboot": "diting_tw_global_images_OS2.0.204.0.VLFTWXM_20251218.0000.00_15.0_tw_acc8c5676c.tgz"
 				},
 				"OS2.0.203.0.VLFTWXM": {
 					"os": "OS2.0.203.0.VLFTWXM",
@@ -669,7 +669,7 @@
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "diting_global-ota_full-OS2.0.206.0.VLFMIXM-user-15.0-5041f691c5.zip",
-					"fastboot": ""
+					"fastboot": "diting_global_images_OS2.0.206.0.VLFMIXM_20251218.0000.00_15.0_global_9465b59eea.tgz"
 				},
 				"OS2.0.205.0.VLFMIXM": {
 					"os": "OS2.0.205.0.VLFMIXM",
@@ -835,12 +835,19 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.207.0.VLFEUXM": {
+					"os": "OS2.0.207.0.VLFEUXM",
+					"android": "15.0",
+					"release": "2025-12-30",
+					"recovery": "diting_eea_global-ota_full-OS2.0.207.0.VLFEUXM-user-15.0-f9ee389423.zip",
+					"fastboot": ""
+				},
 				"OS2.0.206.0.VLFEUXM": {
 					"os": "OS2.0.206.0.VLFEUXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "diting_eea_global-ota_full-OS2.0.206.0.VLFEUXM-user-15.0-272e313e5a.zip",
-					"fastboot": ""
+					"fastboot": "diting_eea_global_images_OS2.0.206.0.VLFEUXM_20251216.0000.00_15.0_eea_24b16f5856.tgz"
 				},
 				"OS2.0.204.0.VLFEUXM": {
 					"os": "OS2.0.204.0.VLFEUXM",
@@ -1060,7 +1067,7 @@
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "diting_ru_global-ota_full-OS2.0.204.0.VLFRUXM-user-15.0-6d27454e0e.zip",
-					"fastboot": ""
+					"fastboot": "diting_ru_global_images_OS2.0.204.0.VLFRUXM_20251218.0000.00_15.0_ru_42135004ec.tgz"
 				},
 				"OS2.0.203.0.VLFRUXM": {
 					"os": "OS2.0.203.0.VLFRUXM",
@@ -1217,7 +1224,7 @@
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "diting_tr_global-ota_full-OS2.0.204.0.VLFTRXM-user-15.0-a3243af4f7.zip",
-					"fastboot": ""
+					"fastboot": "diting_tr_global_images_OS2.0.204.0.VLFTRXM_20251218.0000.00_15.0_tr_7a618b97f3.tgz"
 				},
 				"OS2.0.203.0.VLFTRXM": {
 					"os": "OS2.0.203.0.VLFTRXM",

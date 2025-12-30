@@ -210,12 +210,19 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.211.0.VLQMIXM": {
+					"os": "OS2.0.211.0.VLQMIXM",
+					"android": "15.0",
+					"release": "2025-12-29",
+					"recovery": "plato_global-ota_full-OS2.0.211.0.VLQMIXM-user-15.0-1fdba6b8f1.zip",
+					"fastboot": ""
+				},
 				"OS2.0.210.0.VLQMIXM": {
 					"os": "OS2.0.210.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "plato_global-ota_full-OS2.0.210.0.VLQMIXM-user-15.0-0cb7e37358.zip",
-					"fastboot": ""
+					"fastboot": "plato_global_images_OS2.0.210.0.VLQMIXM_20251126.0000.00_15.0_global_2126075ee3.tgz"
 				},
 				"OS2.0.209.0.VLQMIXM": {
 					"os": "OS2.0.209.0.VLQMIXM",
@@ -386,7 +393,7 @@
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "plato_eea_global-ota_full-OS2.0.208.0.VLQEUXM-user-15.0-303ed8f712.zip",
-					"fastboot": ""
+					"fastboot": "plato_eea_global_images_OS2.0.208.0.VLQEUXM_20251201.0000.00_15.0_eea_dd24727fbb.tgz"
 				},
 				"OS2.0.207.0.VLQEUXM": {
 					"os": "OS2.0.207.0.VLQEUXM",
