@@ -393,6 +393,7 @@ flags = {
 	"houji_global": "houji",
 	"HOUJIGlobal": "houji",
 	"myron": "myron",
+	"koto_id_global": "koto",
 	"myron_demo": "myron",
 	"annibale": "annibale",
 	"annibale_demo": "annibale",

@@ -461,6 +461,44 @@
 					"fastboot": "koto_in_global_images_OS2.0.101.0.VOWINXM_20250527.0000.00_15.0_in_311365239e.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "koto_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 4G",
+				"en": "REDMI Pad 2 4G"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.202.0.VOWIDXM": {
+					"os": "OS2.0.202.0.VOWIDXM",
+					"android": "15.0",
+					"release": "2025-12-30",
+					"recovery": "koto_id_global-ota_full-OS2.0.202.0.VOWIDXM-user-15.0-f48d428216.zip",
+					"fastboot": "koto_id_global_images_OS2.0.202.0.VOWIDXM_20251220.0000.00_15.0_id_dd50d542bc.tgz"
+				}
+			}
 		}
 	]
 }
