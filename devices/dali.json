@@ -49,6 +49,13 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.8.2.WONCNXM": {
+          "os": "OS3.0.8.2.WONCNXM",
+          "android": "16.0",
+          "release": "2025-12-31",
+          "recovery": "dali-ota_full-OS3.0.8.2.WONCNXM-user-16.0-b8bd66759a.zip",
+          "fastboot": ""
+        },
         "OS3.0.1.1.WONCNXM": {
           "os": "OS3.0.1.1.WONCNXM",
           "android": "16.0",
@@ -133,7 +140,7 @@
           "release": "2025-12-09",
           "recovery": "dali-ota_full-OS3.0.5.0.WONCNXM-user-16.0-7d8ae41634.zip",
           "fastboot": "dali_images_OS3.0.5.0.WONCNXM_20251123.0000.00_16.0_cn_0d9f1a5f19.tgz",
-          "ctelecom": ""
+          "ctelecom": "dali_images_OS3.0.5.0.WONCNXM_20251123.0000.00_16.0_cn_chinatelecom_c7b2e5ba51.tgz"
         },
         "OS3.0.4.0.WONCNXM": {
           "os": "OS3.0.4.0.WONCNXM",

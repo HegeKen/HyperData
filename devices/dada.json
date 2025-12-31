@@ -49,6 +49,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.6.2.WOCCNXM": {
+					"os": "OS3.0.6.2.WOCCNXM",
+					"android": "16.0",
+					"release": "2025-12-31",
+					"recovery": "dada-ota_full-OS3.0.6.2.WOCCNXM-user-16.0-00010f19a1.zip",
+					"fastboot": ""
+				},
 				"OS3.0.1.1.WOCCNXM": {
 					"os": "OS3.0.1.1.WOCCNXM",
 					"android": "16.0",
@@ -783,7 +790,7 @@
 					"android": "16.0",
 					"release": "2025-12-27",
 					"recovery": "dada_tw_global-ota_full-OS3.0.1.0.WOCTWXM-user-16.0-631d9da140.zip",
-					"fastboot": ""
+					"fastboot": "dada_tw_global_images_OS3.0.1.0.WOCTWXM_20251211.0000.00_16.0_tw_4625461b9f.tgz"
 				},
 				"OS2.0.203.0.VOCTWXM": {
 					"os": "OS2.0.203.0.VOCTWXM",
@@ -872,6 +879,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.5.0.WOCMIXM": {
+					"os": "OS3.0.5.0.WOCMIXM",
+					"android": "16.0",
+					"release": "2025-12-31",
+					"recovery": "dada_global-ota_full-OS3.0.5.0.WOCMIXM-user-16.0-930f800055.zip",
+					"fastboot": ""
+				},
 				"OS3.0.3.0.WOCMIXM": {
 					"os": "OS3.0.3.0.WOCMIXM",
 					"android": "16.0",
@@ -1219,7 +1233,7 @@
 					"android": "16.0",
 					"release": "2025-12-25",
 					"recovery": "dada_ru_global-ota_full-OS3.0.1.0.WOCRUXM-user-16.0-3bee410a49.zip",
-					"fastboot": ""
+					"fastboot": "dada_ru_global_images_OS3.0.1.0.WOCRUXM_20251209.0000.00_16.0_ru_0d70ea412d.tgz"
 				},
 				"OS2.0.204.0.VOCRUXM": {
 					"os": "OS2.0.204.0.VOCRUXM",
