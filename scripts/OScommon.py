@@ -394,6 +394,7 @@ flags = {
 	"HOUJIGlobal": "houji",
 	"myron": "myron",
 	"koto_id_global": "koto",
+	"spring_tr_global": "spring",
 	"myron_demo": "myron",
 	"annibale": "annibale",
 	"annibale_demo": "annibale",

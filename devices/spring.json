@@ -138,7 +138,7 @@
           "android": "15.0",
           "release": "2025-12-25",
           "recovery": "spring_global-ota_full-OS2.0.207.0.VOUMIXM-user-15.0-0a20a2cddc.zip",
-          "fastboot": ""
+          "fastboot": "spring_global_images_OS2.0.207.0.VOUMIXM_20251215.0000.00_15.0_global_4e47960f59.tgz"
         },
         "OS2.0.206.0.VOUMIXM": {
           "os": "OS2.0.206.0.VOUMIXM",
@@ -328,6 +328,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "spring_tr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 5G",
+        "en": "REDMI 15 5G"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VOUTRXM": {
+          "os": "OS2.0.201.0.VOUTRXM",
+          "android": "15.0",
+          "release": "2026-01-01",
+          "recovery": "spring_tr_global-ota_full-OS2.0.201.0.VOUTRXM-user-15.0-647a35f2c4.zip",
+          "fastboot": "spring_tr_global_images_OS2.0.201.0.VOUTRXM_20250917.0000.00_15.0_tr_5382880f85.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
         "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
       },
@@ -355,6 +393,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.203.0.VOULMCR": {
+          "os": "OS2.0.203.0.VOULMCR",
+          "android": "15.0",
+          "release": "2026-01-01",
+          "recovery": "spring_lm_cr_global-ota_full-OS2.0.203.0.VOULMCR-user-15.0-be92d04053.zip",
+          "fastboot": ""
+        },
         "OS2.0.202.0.VOULMCR": {
           "os": "OS2.0.202.0.VOULMCR",
           "android": "15.0",
