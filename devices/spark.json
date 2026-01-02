@@ -7,11 +7,13 @@
 	"code": "HY",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -105,6 +107,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.1.0.WHYMIXM": {
+					"os": "OS3.0.1.0.WHYMIXM",
+					"android": "16.0",
+					"release": "2026-01-01",
+					"recovery": "spark_global-ota_full-OS3.0.1.0.WHYMIXM-user-16.0-1ad45807a6.zip",
+					"fastboot": ""
+				},
 				"OS2.0.206.0.VHYMIXM": {
 					"os": "OS2.0.206.0.VHYMIXM",
 					"android": "15.0",
