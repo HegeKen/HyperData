@@ -6,10 +6,12 @@
 	},
 	"code": "PX",
 	"suppports": [
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -200,6 +202,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WPXEUXM": {
+					"os": "OS3.0.3.0.WPXEUXM",
+					"android": "16.0",
+					"release": "2026-01-04",
+					"recovery": "organ_eea_global-ota_full-OS3.0.3.0.WPXEUXM-user-16.0-5a367eed1a.zip",
+					"fastboot": ""
+				},
 				"OS2.0.204.0.VPXEUXM": {
 					"os": "OS2.0.204.0.VPXEUXM",
 					"android": "15.0",
