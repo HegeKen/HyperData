@@ -104,7 +104,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['spinel','charoite','coral']
+unreleased = ['spinel','coral']
 currentStable = ['spinel','charoite','nezha','annibale', 'myron', 'pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
@@ -395,6 +395,10 @@ flags = {
 	"myron": "myron",
 	"koto_id_global": "koto",
 	"spring_tr_global": "spring",
+	"charoite_global": "charoite",
+	"charoite_eea_global": "charoite",
+	"charoite_ru_global": "charoite",
+	"charoite_tr_global": "charoite",
 	"myron_demo": "myron",
 	"annibale": "annibale",
 	"annibale_demo": "annibale",

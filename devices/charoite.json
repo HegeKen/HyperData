@@ -1,10 +1,10 @@
 {
   "device": "charoite",
   "name": {
-    "zh": "REDMI Note 15 Series",
-    "en": "REDMI Note 15 Series"
+    "zh": "REDMI Note 15 Pro",
+    "en": "REDMI Note 15 Pro"
   },
-  "code": "",
+  "code": "PF",
   "suppports": [
     "OS2.0"
   ],
@@ -17,44 +17,153 @@
   "branches": [
     {
       "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
       },
-      "branchCode": "charoite",
+      "branchCode": "charoite_global",
       "brand": "REDMI",
       "device": {
-        "zh": "REDMI Note 15 Series",
-        "en": "REDMI Note 15 Series"
+        "zh": "REDMI Note 15 Pro",
+        "en": "REDMI Note 15 Pro"
       },
-      "idtag": "CnOO",
-      "tag": "CNXM",
+      "idtag": "GBOO",
+      "tag": "MIXM",
       "branchtag": "F",
       "table": [
         "os",
         "android",
         "release",
         "recovery",
-        "fastboot",
-        "ctelecom"
+        "fastboot"
       ],
       "show": "1",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        ""
       ],
-      "region": "cn",
-      "zone": "1",
+      "region": "global",
+      "zone": "2",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS2.0.207.0.VPFMIXM": {
+          "os": "OS2.0.207.0.VPFMIXM",
           "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "release": "2026-01-06",
+          "recovery": "charoite_global-ota_full-OS2.0.207.0.VPFMIXM-user-15.0-eab88a6d1e.zip",
+          "fastboot": "charoite_global_images_OS2.0.207.0.VPFMIXM_20251227.0000.00_15.0_global_8724939bc0.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "charoite_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro",
+        "en": "REDMI Note 15 Pro"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.205.0.VPFEUXM": {
+          "os": "OS2.0.205.0.VPFEUXM",
+          "android": "15.0",
+          "release": "2026-01-06",
+          "recovery": "charoite_eea_global-ota_full-OS2.0.205.0.VPFEUXM-user-15.0-e99cb3db31.zip",
+          "fastboot": "charoite_eea_global_images_OS2.0.205.0.VPFEUXM_20251227.0000.00_15.0_eea_89fe30a353.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "charoite_ru_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro",
+        "en": "REDMI Note 15 Pro"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.205.0.VPFRUXM": {
+          "os": "OS2.0.205.0.VPFRUXM",
+          "android": "15.0",
+          "release": "2026-01-06",
+          "recovery": "charoite_ru_global-ota_full-OS2.0.205.0.VPFRUXM-user-15.0-f8919dd780.zip",
+          "fastboot": "charoite_ru_global_images_OS2.0.205.0.VPFRUXM_20251228.0000.00_15.0_ru_d951941675.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "charoite_tr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro",
+        "en": "REDMI Note 15 Pro"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPFTRXM": {
+          "os": "OS2.0.204.0.VPFTRXM",
+          "android": "15.0",
+          "release": "2026-01-06",
+          "recovery": "charoite_tr_global-ota_full-OS2.0.204.0.VPFTRXM-user-15.0-ff0058e6a6.zip",
+          "fastboot": "charoite_tr_global_images_OS2.0.204.0.VPFTRXM_20251228.0000.00_15.0_tr_b770191337.tgz"
         }
       }
     }
