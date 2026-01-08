@@ -51,7 +51,7 @@
 					"android": "15.0",
 					"release": "2025-12-30",
 					"recovery": "koto_tw_global-ota_full-OS2.0.207.0.VOWTWXM-user-15.0-6ea72289bc.zip",
-					"fastboot": ""
+					"fastboot": "koto_tw_global_images_OS2.0.207.0.VOWTWXM_20251217.0000.00_15.0_tw_5712b88cb3.tgz"
 				},
 				"OS2.0.204.0.VOWTWXM": {
 					"os": "OS2.0.204.0.VOWTWXM",
@@ -131,7 +131,7 @@
 					"android": "16.0",
 					"release": "2026-01-02",
 					"recovery": "koto_global-ota_full-OS3.0.3.0.WOWMIXM-user-16.0-e7bba82fcd.zip",
-					"fastboot": ""
+					"fastboot": "koto_global_images_OS3.0.3.0.WOWMIXM_20251223.0000.00_16.0_global_d011689831.tgz"
 				},
 				"OS3.0.2.0.WOWMIXM": {
 					"os": "OS3.0.2.0.WOWMIXM",
@@ -432,6 +432,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.208.0.VOWINXM": {
+					"os": "OS2.0.208.0.VOWINXM",
+					"android": "15.0",
+					"release": "2026-01-08",
+					"recovery": "koto_in_global-ota_full-OS2.0.208.0.VOWINXM-user-15.0-d541f58e11.zip",
+					"fastboot": ""
+				},
 				"OS2.0.207.0.VOWINXM": {
 					"os": "OS2.0.207.0.VOWINXM",
 					"android": "15.0",
