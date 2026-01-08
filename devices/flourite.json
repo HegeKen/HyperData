@@ -142,6 +142,44 @@
           "ctelecom": "flourite_demo_images_OS2.0.203.0.VPRCNDM_20250818.0000.00_15.0_cn_chinatelecom_9389168c0a.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "flourite_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G",
+        "en": "REDMI Note 15 Pro+ 5G"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPREUXM": {
+          "os": "OS2.0.204.0.VPREUXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "flourite_eea_global-ota_full-OS2.0.204.0.VPREUXM-user-15.0-351899c812.zip",
+          "fastboot": "flourite_eea_global_images_OS2.0.204.0.VPREUXM_20251124.0000.00_15.0_eea_840234a581.tgz"
+        }
+      }
     }
   ]
 }

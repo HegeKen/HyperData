@@ -400,6 +400,8 @@ flags = {
 	"charoite_ru_global": "charoite",
 	"charoite_tr_global": "charoite",
 	"kunzite_in_global": "kunzite",
+	"flourite_eea_global": "flourite",
+	"kunzite_global": "kunzite",
 	"myron_demo": "myron",
 	"annibale": "annibale",
 	"annibale_demo": "annibale",
