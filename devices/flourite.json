@@ -145,14 +145,90 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "flourite_tw_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G / POCO M8 Pro",
+        "en": "REDMI Note 15 Pro+ 5G / POCO M8 Pro"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VPRTWXM": {
+          "os": "OS2.0.203.0.VPRTWXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "flourite_tw_global-ota_full-OS2.0.203.0.VPRTWXM-user-15.0-a2b7005f96.zip",
+          "fastboot": "flourite_tw_global_images_OS2.0.203.0.VPRTWXM_20251208.0000.00_15.0_tw_72623f829e.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "flourite_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G / POCO M8 Pro",
+        "en": "REDMI Note 15 Pro+ 5G / POCO M8 Pro"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.206.0.VPRMIXM": {
+          "os": "OS2.0.206.0.VPRMIXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "flourite_global-ota_full-OS2.0.206.0.VPRMIXM-user-15.0-e437b2c623.zip",
+          "fastboot": "flourite_global_images_OS2.0.206.0.VPRMIXM_20251224.0000.00_15.0_global_bc32b6ad49.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 欧洲EEA正式版",
         "en": "Xiaomi HyperOS Europe EEA Stable"
       },
       "branchCode": "flourite_eea_global",
-      "brand": "REDMI",
+      "brand": "REDMI, POCO",
       "device": {
-        "zh": "REDMI Note 15 Pro+ 5G",
-        "en": "REDMI Note 15 Pro+ 5G"
+        "zh": "REDMI Note 15 Pro+ 5G / POCO M8 Pro",
+        "en": "REDMI Note 15 Pro+ 5G / POCO M8 Pro"
       },
       "idtag": "EEAO",
       "tag": "EUXM",
@@ -172,12 +248,95 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.205.0.VPREUXM": {
+          "os": "OS2.0.205.0.VPREUXM",
+          "android": "15.0",
+          "release": "2026-01-09",
+          "recovery": "flourite_eea_global-ota_full-OS2.0.205.0.VPREUXM-user-15.0-09be4c5620.zip",
+          "fastboot": "flourite_eea_global_images_OS2.0.205.0.VPREUXM_20251229.0000.00_15.0_eea_599e19e93f.tgz"
+        },
         "OS2.0.204.0.VPREUXM": {
           "os": "OS2.0.204.0.VPREUXM",
           "android": "15.0",
           "release": "2026-01-08",
           "recovery": "flourite_eea_global-ota_full-OS2.0.204.0.VPREUXM-user-15.0-351899c812.zip",
           "fastboot": "flourite_eea_global_images_OS2.0.204.0.VPREUXM_20251124.0000.00_15.0_eea_840234a581.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "flourite_ru_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G / POCO M8 Pro",
+        "en": "REDMI Note 15 Pro+ 5G / POCO M8 Pro"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPRRUXM": {
+          "os": "OS2.0.204.0.VPRRUXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "flourite_ru_global-ota_full-OS2.0.204.0.VPRRUXM-user-15.0-b4c2611e23.zip",
+          "fastboot": "flourite_ru_global_images_OS2.0.204.0.VPRRUXM_20251229.0000.00_15.0_ru_2f66542160.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "flourite_tr_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G / POCO M8 Pro",
+        "en": "REDMI Note 15 Pro+ 5G / POCO M8 Pro"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VPRTRXM": {
+          "os": "OS2.0.203.0.VPRTRXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "flourite_tr_global-ota_full-OS2.0.203.0.VPRTRXM-user-15.0-480b478cf2.zip",
+          "fastboot": "flourite_tr_global_images_OS2.0.203.0.VPRTRXM_20251208.0000.00_15.0_tr_b49e454212.tgz"
         }
       }
     }

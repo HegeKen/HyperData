@@ -102,6 +102,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "kunzite_tw_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 5G",
+        "en": "REDMI Note 15 5G"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPQTWXM": {
+          "os": "OS2.0.202.0.VPQTWXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "kunzite_tw_global-ota_full-OS2.0.202.0.VPQTWXM-user-15.0-b4ec664d9d.zip",
+          "fastboot": "kunzite_tw_global_images_OS2.0.202.0.VPQTWXM_20251201.0000.00_15.0_tw_b58e6a532c.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 国际正式版",
         "en": "Xiaomi HyperOS Global Stable"
       },
@@ -133,8 +171,84 @@
           "os": "OS2.0.205.0.VPQMIXM",
           "android": "15.0",
           "release": "2026-01-08",
-          "recovery": "",
+          "recovery": "kunzite_global-ota_full-OS2.0.205.0.VPQMIXM-user-15.0-1c77caf64d.zip",
           "fastboot": "kunzite_global_images_OS2.0.205.0.VPQMIXM_20251227.0000.00_15.0_global_09a3aafb40.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "kunzite_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 5G",
+        "en": "REDMI Note 15 5G"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPQEUXM": {
+          "os": "OS2.0.204.0.VPQEUXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "kunzite_eea_global-ota_full-OS2.0.204.0.VPQEUXM-user-15.0-3e3b24be1d.zip",
+          "fastboot": "kunzite_eea_global_images_OS2.0.204.0.VPQEUXM_20251231.0000.00_15.0_eea_963ddaed50.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "kunzite_ru_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 5G",
+        "en": "REDMI Note 15 5G"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPQRUXM": {
+          "os": "OS2.0.202.0.VPQRUXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "kunzite_ru_global-ota_full-OS2.0.202.0.VPQRUXM-user-15.0-f15743ce5c.zip",
+          "fastboot": "kunzite_ru_global_images_OS2.0.202.0.VPQRUXM_20251202.0000.00_15.0_ru_b78ca0e119.tgz"
         }
       }
     },
@@ -173,6 +287,44 @@
           "release": "2026-01-06",
           "recovery": "kunzite_in_global-ota_full-OS2.0.202.0.VPQINXM-user-15.0-759b4a4ee6.zip",
           "fastboot": "kunzite_in_global_images_OS2.0.202.0.VPQINXM_20251016.0000.00_15.0_in_dd6d545a24.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "kunzite_id_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 5G",
+        "en": "REDMI Note 15 5G"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VPQIDXM": {
+          "os": "OS2.0.201.0.VPQIDXM",
+          "android": "15.0",
+          "release": "2026-01-08",
+          "recovery": "kunzite_id_global-ota_full-OS2.0.201.0.VPQIDXM-user-15.0-eaba2ceb62.zip",
+          "fastboot": "kunzite_id_global_images_OS2.0.201.0.VPQIDXM_20251025.0000.00_15.0_id_84ca4263db.tgz"
         }
       }
     }

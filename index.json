@@ -1,8 +1,16 @@
 {
   "recent": {
-    "time": "2026-01-09 00:05:50",
+    "time": "2026-01-09 11:12:52",
     "developing": "no",
     "roms": [
+      {
+        "code": "umi",
+        "name": {
+          "zh": "小米 10",
+          "en": "Mi 10"
+        },
+        "rom": "OS1.0.4.0.TJBMIXM"
+      },
       {
         "code": "cupid",
         "name": {
@@ -50,6 +58,14 @@
           "en": "Xiaomi 13 Pro"
         },
         "rom": "OS2.0.210.0.VMBEUXM"
+      },
+      {
+        "code": "ishtar",
+        "name": {
+          "zh": "小米 13 Ultra",
+          "en": "Xiaomi 13 Ultra"
+        },
+        "rom": "OS3.0.2.0.WMAEUXM"
       },
       {
         "code": "aristotle",
@@ -188,6 +204,14 @@
         "rom": "OS2.0.207.0.VGTEUXM"
       },
       {
+        "code": "tornado",
+        "name": {
+          "zh": "REDMI 15C 5G / REDMI 15R 5G",
+          "en": "REDMI 15C 5G / REDMI 15R 5G"
+        },
+        "rom": "OS2.0.206.0.VPOCNXM"
+      },
+      {
         "code": "sunstone",
         "name": {
           "zh": "Redmi Note 12 5G / Note 12R Pro",
@@ -265,7 +289,7 @@
           "zh": "REDMI Note 15 5G",
           "en": "REDMI Note 15 5G"
         },
-        "rom": "OS2.0.205.0.VPQMIXM; OS2.0.202.0.VPQINXM"
+        "rom": "OS2.0.202.0.VPQTWXM; OS2.0.205.0.VPQMIXM; OS2.0.204.0.VPQEUXM; OS2.0.202.0.VPQRUXM; OS2.0.202.0.VPQINXM; OS2.0.201.0.VPQIDXM"
       },
       {
         "code": "flourite",
@@ -273,7 +297,7 @@
           "zh": "REDMI Note 15 Pro+ 5G",
           "en": "REDMI Note 15 Pro+ 5G"
         },
-        "rom": "OS2.0.204.0.VPREUXM"
+        "rom": "OS2.0.203.0.VPRTWXM; OS2.0.206.0.VPRMIXM; OS2.0.205.0.VPREUXM; OS2.0.204.0.VPREUXM; OS2.0.204.0.VPRRUXM; OS2.0.203.0.VPRTRXM"
       },
       {
         "code": "mondrian",
@@ -322,6 +346,14 @@
           "en": "REDMI Pad 2"
         },
         "rom": "OS2.0.207.0.VOVRUXM"
+      },
+      {
+        "code": "serenity",
+        "name": {
+          "zh": "REDMI A5 / POCO C71",
+          "en": "REDMI A5 / POCO C71"
+        },
+        "rom": "A15.0.7.0.VGWMXAT"
       },
       {
         "code": "moonstone",
