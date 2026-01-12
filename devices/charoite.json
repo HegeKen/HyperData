@@ -44,12 +44,57 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.208.0.VPFMIXM": {
+          "os": "OS2.0.208.0.VPFMIXM",
+          "android": "15.0",
+          "release": "2026-01-12",
+          "recovery": "charoite_global-ota_full-OS2.0.208.0.VPFMIXM-user-15.0-495043741f.zip",
+          "fastboot": "charoite_global_images_OS2.0.208.0.VPFMIXM_20260105.0000.00_15.0_global_fe5d704da4.tgz"
+        },
         "OS2.0.207.0.VPFMIXM": {
           "os": "OS2.0.207.0.VPFMIXM",
           "android": "15.0",
           "release": "2026-01-06",
           "recovery": "charoite_global-ota_full-OS2.0.207.0.VPFMIXM-user-15.0-eab88a6d1e.zip",
           "fastboot": "charoite_global_images_OS2.0.207.0.VPFMIXM_20251227.0000.00_15.0_global_8724939bc0.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "charoite_dc_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 4G",
+        "en": "REDMI Note 15 Pro 4G"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VPFMIDC": {
+          "os": "OS2.0.203.0.VPFMIDC",
+          "android": "15.0",
+          "release": "2026-01-12",
+          "recovery": "",
+          "fastboot": "charoite_dc_global_images_OS2.0.203.0.VPFMIDC_20251114.0000.00_15.0_global_dc_55022ef0af.tgz"
         }
       }
     },
@@ -82,6 +127,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.206.0.VPFEUXM": {
+          "os": "OS2.0.206.0.VPFEUXM",
+          "android": "15.0",
+          "release": "2026-01-12",
+          "recovery": "charoite_eea_global-ota_full-OS2.0.206.0.VPFEUXM-user-15.0-1b28215a96.zip",
+          "fastboot": "charoite_eea_global_images_OS2.0.206.0.VPFEUXM_20260105.0000.00_15.0_eea_ced9fca3a2.tgz"
+        },
         "OS2.0.205.0.VPFEUXM": {
           "os": "OS2.0.205.0.VPFEUXM",
           "android": "15.0",
