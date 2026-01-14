@@ -7,7 +7,8 @@
 	"code": "LR",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -315,6 +316,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.VLRCNXM": {
+					"os": "OS3.0.3.0.VLRCNXM",
+					"android": "15.0",
+					"release": "2026-01-13",
+					"recovery": "zizhan-ota_full-OS3.0.3.0.VLRCNXM-user-15.0-66eddf3a3d.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.208.0.VLRCNXM": {
 					"os": "OS2.0.208.0.VLRCNXM",
 					"android": "15.0",

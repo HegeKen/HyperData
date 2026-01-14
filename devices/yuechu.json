@@ -7,7 +7,8 @@
 	"code": "MI",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -50,6 +51,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.1.0.VMICNXM": {
+					"os": "OS3.0.1.0.VMICNXM",
+					"android": "15.0",
+					"release": "2026-01-14",
+					"recovery": "yuechu-ota_full-OS3.0.1.0.VMICNXM-user-15.0-1a77fe4387.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.213.0.VMICNXM": {
 					"os": "OS2.0.213.0.VMICNXM",
 					"android": "15.0",

@@ -7,7 +7,8 @@
 	"code": "LT",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -301,6 +302,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.VLTCNXM": {
+					"os": "OS3.0.2.0.VLTCNXM",
+					"android": "15.0",
+					"release": "2026-01-14",
+					"recovery": "mayfly-ota_full-OS3.0.2.0.VLTCNXM-user-15.0-f60cbc4ce7.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.209.0.VLTCNXM": {
 					"os": "OS2.0.209.0.VLTCNXM",
 					"android": "15.0",
