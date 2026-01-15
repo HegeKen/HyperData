@@ -339,6 +339,51 @@
           "fastboot": "flourite_tr_global_images_OS2.0.203.0.VPRTRXM_20251208.0000.00_15.0_tr_b49e454212.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+      },
+      "branchCode": "flourite_lm_cr_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G / POCO M8 Pro",
+        "en": "REDMI Note 15 Pro+ 5G / POCO M8 Pro"
+      },
+      "idtag": "LMCR",
+      "tag": "LMCR",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "cr"
+      ],
+      "region": "lm",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VPRLMCR": {
+          "os": "OS2.0.203.0.VPRLMCR",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "flourite_lm_cr_global-ota_full-OS2.0.203.0.VPRLMCR-user-15.0-8ffa37d509.zip",
+          "fastboot": ""
+        },
+        "OS2.0.201.0.VPRLMCR": {
+          "os": "OS2.0.201.0.VPRLMCR",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "flourite_lm_cr_global-ota_full-OS2.0.201.0.VPRLMCR-user-15.0-e1c7c4d6e1.zip",
+          "fastboot": "flourite_lm_cr_global_images_OS2.0.201.0.VPRLMCR_20250927.0000.00_15.0_lm_cr_67b3e9a3b0.tgz"
+        }
+      }
     }
   ]
 }

@@ -402,6 +402,7 @@ flags = {
 	"charoite_dc_global": "charoite",
 	"kunzite_in_global": "kunzite",
 	"flourite_eea_global": "flourite",
+	"flourite_lm_cr_global": "flourite",
 	"kunzite_global": "kunzite",
 	"kunzite_tw_global": "kunzite",
 	"kunzite_eea_global": "kunzite",
