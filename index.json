@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2026-01-15 14:44:53",
+    "time": "2026-01-16 20:43:51",
     "developing": "no",
     "roms": [
       {
@@ -18,6 +18,14 @@
           "en": "Xiaomi 12 Pro"
         },
         "rom": "OS3.0.2.0.VLBCNXM"
+      },
+      {
+        "code": "psyche",
+        "name": {
+          "zh": "小米 12X",
+          "en": "Xiaomi 12X"
+        },
+        "rom": "OS1.0.13.0.TLDCNXM"
       },
       {
         "code": "mayfly",
@@ -57,7 +65,15 @@
           "zh": "小米 14T",
           "en": "Xiaomi 14T"
         },
-        "rom": "OS3.0.3.0.WNEMIDC; OS3.0.6.0.WNEEUXM"
+        "rom": "OS3.0.3.0.WNEMIDC; OS3.0.6.0.WNEEUXM; OS2.0.204.0.VNELMCR"
+      },
+      {
+        "code": "klimt",
+        "name": {
+          "zh": "小米 15T Pro",
+          "en": "Xiaomi 15T Pro"
+        },
+        "rom": "OS3.0.2.0.WOSLMCR"
       },
       {
         "code": "nezha",
@@ -92,6 +108,14 @@
         "rom": "OS3.0.3.0.VLRCNXM"
       },
       {
+        "code": "babylon",
+        "name": {
+          "zh": "小米 MIX Fold 3",
+          "en": "Xiaomi MIX Fold 3"
+        },
+        "rom": "OS3.0.6.0.WMVCNXM"
+      },
+      {
         "code": "ruyi",
         "name": {
           "zh": "小米 MIX Flip",
@@ -116,6 +140,14 @@
         "rom": "OS2.0.204.0.VMXLMCR"
       },
       {
+        "code": "earth",
+        "name": {
+          "zh": "Redmi 12C / POCO C55",
+          "en": "Redmi 12C / POCO C55"
+        },
+        "rom": "OS1.0.18.0.UCVEUVF"
+      },
+      {
         "code": "moon",
         "name": {
           "zh": "Redmi 13 / POCO M6 4G",
@@ -124,12 +156,20 @@
         "rom": "OS3.0.1.0.WNTTWXM; OS3.0.1.0.WNTTRXM"
       },
       {
+        "code": "lake",
+        "name": {
+          "zh": "Redmi 14C",
+          "en": "Redmi 14C"
+        },
+        "rom": "OS2.0.205.0.VGTMIDC; OS2.0.202.0.VGTRUXM; OS2.0.202.0.VGTTRXM"
+      },
+      {
         "code": "creek",
         "name": {
           "zh": "REDMI 15 4G",
           "en": "REDMI 15 4G"
         },
-        "rom": "OS3.0.4.0.WBOEUXM; OS3.0.3.0.WBOIDXM"
+        "rom": "OS2.0.205.0.VBOTWXM; OS2.0.212.0.VBOMIXM; OS3.0.4.0.WBOEUXM; OS3.0.3.0.WBOIDXM"
       },
       {
         "code": "dew",
@@ -138,6 +178,14 @@
           "en": "REDMI 15C / POCO C85"
         },
         "rom": "OS2.0.207.0.VBNMIDC; OS2.0.205.0.VBNTRXM"
+      },
+      {
+        "code": "marble",
+        "name": {
+          "zh": "Redmi Note 12 Turbo / POCO F5",
+          "en": "Redmi Note 12 Turbo / POCO F5"
+        },
+        "rom": "OS2.0.210.0.VMREUXM"
       },
       {
         "code": "tapas",
@@ -169,7 +217,15 @@
           "zh": "Redmi Note 13 Pro+ 5G",
           "en": "Redmi Note 13 Pro+ 5G"
         },
-        "rom": "OS3.0.4.0.WNOEUXM"
+        "rom": "OS3.0.2.0.WNOMIXM; OS3.0.4.0.WNOEUXM; OS2.0.204.0.VNOLMCR"
+      },
+      {
+        "code": "beryl",
+        "name": {
+          "zh": "Redmi Note 14 5G / POCO M7 Pro 5G",
+          "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
+        },
+        "rom": "OS2.0.5.0.VOQLMCR"
       },
       {
         "code": "malachite",
@@ -177,7 +233,7 @@
           "zh": "Redmi Note 14 Pro / POCO X7",
           "en": "Redmi Note 14 Pro / POCO X7"
         },
-        "rom": "OS3.0.1.0.WOOMIDC; OS3.0.2.0.WOORUXM; OS2.0.203.0.VOOLMCR"
+        "rom": "OS3.0.1.0.WOOTWXM; OS3.0.1.0.WOOMIDC; OS3.0.2.0.WOORUXM; OS3.0.1.0.WOOTRXM; OS3.0.1.0.WOOJPXM; OS2.0.203.0.VOOLMCR"
       },
       {
         "code": "amethyst",
@@ -188,12 +244,36 @@
         "rom": "OS3.0.2.0.WOPEUXM; OS2.0.202.0.VOPLMCR"
       },
       {
+        "code": "spinel",
+        "name": {
+          "zh": "REDMI Note 15 4G",
+          "en": "REDMI Note 15 4G"
+        },
+        "rom": "OS2.0.204.0.VPGTWXM; OS2.0.203.0.VPGTWXM; OS2.0.202.0.VPGTWXM; OS2.0.208.0.VPGMIXM; OS2.0.207.0.VPGMIXM; OS2.0.205.0.VPGMIXM; OS2.0.203.0.VPGMIXM; OS2.0.201.0.VPGMIXM; OS2.0.212.0.VPGMIDC; OS2.0.208.0.VPGEUXM; OS2.0.206.0.VPGEUXM; OS2.0.205.0.VPGEUXM; OS2.0.204.0.VPGEUXM; OS2.0.209.0.VPGRUXM; OS2.0.208.0.VPGRUXM; OS2.0.205.0.VPGRUXM; OS2.0.204.0.VPGRUXM; OS2.0.201.0.VPGRUXM; OS2.0.204.0.VPGIDXM; OS2.0.202.0.VPGIDXM; OS2.0.201.0.VPGIDXM; OS2.0.202.0.VPGTRXM; OS2.0.201.0.VPGTRXM"
+      },
+      {
+        "code": "kunzite",
+        "name": {
+          "zh": "REDMI Note 15 5G",
+          "en": "REDMI Note 15 5G"
+        },
+        "rom": "OS2.0.204.0.VPQMIDC"
+      },
+      {
+        "code": "lapis",
+        "name": {
+          "zh": "REDMI Note 15 Pro 5G",
+          "en": "REDMI Note 15 Pro 5G"
+        },
+        "rom": "OS2.0.202.0.VPPTWXM; OS2.0.201.0.VPPTWXM; OS2.0.203.0.VPPMIXM; OS2.0.202.0.VPPMIXM; OS2.0.201.0.VPPMIXM; OS2.0.204.0.VPPMIDC; OS2.0.203.0.VPPEUXM; OS2.0.202.0.VPPEUXM; OS2.0.201.0.VPPEUXM; OS2.0.201.0.VPPRUXM; OS2.0.202.0.VPPINXM; OS2.0.201.0.VPPIDXM; OS2.0.201.0.VPPTRXM; OS2.0.204.0.VPPJPXM"
+      },
+      {
         "code": "flourite",
         "name": {
           "zh": "REDMI Note 15 Pro+ 5G",
           "en": "REDMI Note 15 Pro+ 5G"
         },
-        "rom": "OS2.0.203.0.VPRLMCR; OS2.0.201.0.VPRLMCR"
+        "rom": "OS2.0.204.0.VPRTWXM; OS2.0.204.0.VPRMIDC; OS2.0.203.0.VPRLMCR; OS2.0.201.0.VPRLMCR"
       },
       {
         "code": "onyx",
@@ -201,7 +281,7 @@
           "zh": "REDMI Turbo 4 Pro / POCO F7",
           "en": "REDMI Turbo 4 Pro / POCO F7"
         },
-        "rom": "OS3.0.3.0.WOLEUXM"
+        "rom": "OS3.0.3.0.WOLEUXM; OS3.0.3.0.WOLINXM"
       },
       {
         "code": "mondrian",
@@ -210,6 +290,14 @@
           "en": "Redmi K60 / POCO F5 Pro"
         },
         "rom": "OS3.0.4.0.VMNCNXM"
+      },
+      {
+        "code": "socrates",
+        "name": {
+          "zh": "Redmi K60 Pro",
+          "en": "Redmi K60 Pro"
+        },
+        "rom": "OS3.0.4.0.VMKCNXM"
       },
       {
         "code": "vermeer",
@@ -228,12 +316,20 @@
         "rom": "OS3.0.4.0.WPKTWXM; OS3.0.3.0.WPKTRXM"
       },
       {
+        "code": "taiko",
+        "name": {
+          "zh": "REDMI 平板 2",
+          "en": "REDMI Pad 2"
+        },
+        "rom": "OS3.0.3.0.WOVEUXM"
+      },
+      {
         "code": "serenity",
         "name": {
           "zh": "REDMI A5 / POCO C71",
           "en": "REDMI A5 / POCO C71"
         },
-        "rom": "A15.0.17.0.VGWMIXM"
+        "rom": "A15.0.17.0.VGWMIXM; A15.0.6.0.VGWLMCR"
       }
     ]
   }

@@ -178,6 +178,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "kunzite_dc_global",
+      "brand": "Xiaomi, REDMI, POCO",
+      "device": {
+        "zh": "",
+        "en": ""
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPQMIDC": {
+          "os": "OS2.0.204.0.VPQMIDC",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "kunzite_dc_global-ota_full-OS2.0.204.0.VPQMIDC-user-15.0-5cb5bc426f.zip",
+          "fastboot": "kunzite_dc_global_images_OS2.0.204.0.VPQMIDC_20251222.0000.00_15.0_global_dc_0b433f6afb.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 欧洲EEA正式版",
         "en": "Xiaomi HyperOS Europe EEA Stable"
       },

@@ -172,6 +172,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.204.0.VPRTWXM": {
+          "os": "OS2.0.204.0.VPRTWXM",
+          "android": "15.0",
+          "release": "2026-01-16",
+          "recovery": "flourite_tw_global-ota_full-OS2.0.204.0.VPRTWXM-user-15.0-73867e5eff.zip",
+          "fastboot": "flourite_tw_global_images_OS2.0.204.0.VPRTWXM_20260105.0000.00_15.0_tw_f0b3518d7a.tgz"
+        },
         "OS2.0.203.0.VPRTWXM": {
           "os": "OS2.0.203.0.VPRTWXM",
           "android": "15.0",
@@ -216,6 +223,44 @@
           "release": "2026-01-08",
           "recovery": "flourite_global-ota_full-OS2.0.206.0.VPRMIXM-user-15.0-e437b2c623.zip",
           "fastboot": "flourite_global_images_OS2.0.206.0.VPRMIXM_20251224.0000.00_15.0_global_bc32b6ad49.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "flourite_dc_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G / POCO M8 Pro",
+        "en": "REDMI Note 15 Pro+ 5G / POCO M8 Pro"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPRMIDC": {
+          "os": "OS2.0.204.0.VPRMIDC",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "flourite_dc_global-ota_full-OS2.0.204.0.VPRMIDC-user-15.0-e62eb8f8e1.zip",
+          "fastboot": "flourite_dc_global_images_OS2.0.204.0.VPRMIDC_20260105.0000.00_15.0_global_dc_6f3b40c118.tgz"
         }
       }
     },

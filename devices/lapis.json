@@ -158,6 +158,383 @@
           "ctelecom": "lapis_demo_images_OS2.0.201.0.VPPCNDM_20250731.0000.00_15.0_cn_chinatelecom_fbe95629a7.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "lapis_tw_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPPTWXM": {
+          "os": "OS2.0.202.0.VPPTWXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_tw_global-ota_full-OS2.0.202.0.VPPTWXM-user-15.0-c77207c70d.zip",
+          "fastboot": "lapis_tw_global_images_OS2.0.202.0.VPPTWXM_20260107.0000.00_15.0_tw_6582c61911.tgz"
+        },
+        "OS2.0.201.0.VPPTWXM": {
+          "os": "OS2.0.201.0.VPPTWXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_tw_global-ota_full-OS2.0.201.0.VPPTWXM-user-15.0-cfe39a6d93.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "lapis_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VPPMIXM": {
+          "os": "OS2.0.203.0.VPPMIXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_global-ota_full-OS2.0.203.0.VPPMIXM-user-15.0-c63dd4dfa9.zip",
+          "fastboot": "lapis_global_images_OS2.0.203.0.VPPMIXM_20251231.0000.00_15.0_global_8d5ad60aae.tgz"
+        },
+        "OS2.0.202.0.VPPMIXM": {
+          "os": "OS2.0.202.0.VPPMIXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_global-ota_full-OS2.0.202.0.VPPMIXM-user-15.0-8746037f9d.zip",
+          "fastboot": ""
+        },
+        "OS2.0.201.0.VPPMIXM": {
+          "os": "OS2.0.201.0.VPPMIXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_global-ota_full-OS2.0.201.0.VPPMIXM-user-15.0-bb2b77b7e6.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "lapis_dc_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPPMIDC": {
+          "os": "OS2.0.204.0.VPPMIDC",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_dc_global-ota_full-OS2.0.204.0.VPPMIDC-user-15.0-589ae97328.zip",
+          "fastboot": "lapis_dc_global_images_OS2.0.204.0.VPPMIDC_20260113.0000.00_15.0_global_dc_51068bce1a.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "lapis_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VPPEUXM": {
+          "os": "OS2.0.203.0.VPPEUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_eea_global-ota_full-OS2.0.203.0.VPPEUXM-user-15.0-c3b16bad36.zip",
+          "fastboot": "lapis_eea_global_images_OS2.0.203.0.VPPEUXM_20251231.0000.00_15.0_eea_926e37e12e.tgz"
+        },
+        "OS2.0.202.0.VPPEUXM": {
+          "os": "OS2.0.202.0.VPPEUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_eea_global-ota_full-OS2.0.202.0.VPPEUXM-user-15.0-c90e9b3184.zip",
+          "fastboot": ""
+        },
+        "OS2.0.201.0.VPPEUXM": {
+          "os": "OS2.0.201.0.VPPEUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_eea_global-ota_full-OS2.0.201.0.VPPEUXM-user-15.0-15fce0c3b1.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "lapis_ru_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VPPRUXM": {
+          "os": "OS2.0.201.0.VPPRUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_ru_global-ota_full-OS2.0.201.0.VPPRUXM-user-15.0-5fe26643a7.zip",
+          "fastboot": "lapis_ru_global_images_OS2.0.201.0.VPPRUXM_20251021.0000.00_15.0_ru_58a5944818.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度正式版",
+        "en": "Xiaomi HyperOS India Stable"
+      },
+      "branchCode": "lapis_in_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "INSO",
+      "tag": "INXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "in",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPPINXM": {
+          "os": "OS2.0.202.0.VPPINXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_in_global-ota_full-OS2.0.202.0.VPPINXM-user-15.0-d31172ee51.zip",
+          "fastboot": "lapis_in_global_images_OS2.0.202.0.VPPINXM_20251203.0000.00_15.0_in_0ad1e86f0a.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "lapis_id_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VPPIDXM": {
+          "os": "OS2.0.201.0.VPPIDXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_id_global-ota_full-OS2.0.201.0.VPPIDXM-user-15.0-cd473dfadb.zip",
+          "fastboot": "lapis_id_global_images_OS2.0.201.0.VPPIDXM_20251021.0000.00_15.0_id_08dda3e088.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "lapis_tr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.201.0.VPPTRXM": {
+          "os": "OS2.0.201.0.VPPTRXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_tr_global-ota_full-OS2.0.201.0.VPPTRXM-user-15.0-8517819256.zip",
+          "fastboot": "lapis_tr_global_images_OS2.0.201.0.VPPTRXM_20251031.0000.00_15.0_tr_f8508135d3.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 日本正式版",
+        "en": "Xiaomi HyperOS Japan Stable"
+      },
+      "branchCode": "lapis_jp_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 5G",
+        "en": "REDMI Note 15 Pro 5G"
+      },
+      "idtag": "JAPS",
+      "tag": "JPXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "jp",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPPJPXM": {
+          "os": "OS2.0.204.0.VPPJPXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "lapis_jp_global-ota_full-OS2.0.204.0.VPPJPXM-user-15.0-78182abf68.zip",
+          "fastboot": "lapis_jp_global_images_OS2.0.204.0.VPPJPXM_20251208.0000.00_15.0_jp_0bea553f44.tgz"
+        }
+      }
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "device": "spinel",
   "name": {
-    "zh": "REDMI Note 15",
-    "en": "REDMI Note 15"
+    "zh": "REDMI Note 15 4G",
+    "en": "REDMI Note 15 4G"
   },
-  "code": "",
+  "code": "PG",
   "suppports": [
     "OS2.0"
   ],
@@ -17,44 +17,379 @@
   "branches": [
     {
       "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
       },
-      "branchCode": "spinel",
+      "branchCode": "spinel_tw_global",
       "brand": "REDMI",
       "device": {
-        "zh": "REDMI Note 15",
-        "en": "REDMI Note 15"
+        "zh": "REDMI Note 15 4G",
+        "en": "REDMI Note 15 4G"
       },
-      "idtag": "CnOO",
-      "tag": "CNXM",
+      "idtag": "CNTP",
+      "tag": "TWXM",
       "branchtag": "F",
       "table": [
         "os",
         "android",
         "release",
         "recovery",
-        "fastboot",
-        "ctelecom"
+        "fastboot"
       ],
       "show": "1",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        ""
       ],
-      "region": "cn",
-      "zone": "1",
+      "region": "tw",
+      "zone": "2",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
+        "OS2.0.204.0.VPGTWXM": {
+          "os": "OS2.0.204.0.VPGTWXM",
           "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+          "release": "2026-01-15",
+          "recovery": "spinel_tw_global-ota_full-OS2.0.204.0.VPGTWXM-user-15.0-746d832ab3.zip",
+          "fastboot": "spinel_tw_global_images_OS2.0.204.0.VPGTWXM_20251230.0000.00_15.0_tw_ae2399a2a0.tgz"
+        },
+        "OS2.0.203.0.VPGTWXM": {
+          "os": "OS2.0.203.0.VPGTWXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_tw_global-ota_full-OS2.0.203.0.VPGTWXM-user-15.0-d507c6a1cf.zip",
+          "fastboot": ""
+        },
+        "OS2.0.202.0.VPGTWXM": {
+          "os": "OS2.0.202.0.VPGTWXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_tw_global-ota_full-OS2.0.202.0.VPGTWXM-user-15.0-5807a12c98.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "spinel_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 4G",
+        "en": "REDMI Note 15 4G"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.208.0.VPGMIXM": {
+          "os": "OS2.0.208.0.VPGMIXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_global-ota_full-OS2.0.208.0.VPGMIXM-user-15.0-4c9de5b470.zip",
+          "fastboot": "spinel_global_images_OS2.0.208.0.VPGMIXM_20260106.0000.00_15.0_global_1ff908a93c.tgz"
+        },
+        "OS2.0.207.0.VPGMIXM": {
+          "os": "OS2.0.207.0.VPGMIXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_global-ota_full-OS2.0.207.0.VPGMIXM-user-15.0-0751ea5455.zip",
+          "fastboot": ""
+        },
+        "OS2.0.205.0.VPGMIXM": {
+          "os": "OS2.0.205.0.VPGMIXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_global-ota_full-OS2.0.205.0.VPGMIXM-user-15.0-524a7b16c3.zip",
+          "fastboot": ""
+        },
+        "OS2.0.203.0.VPGMIXM": {
+          "os": "OS2.0.203.0.VPGMIXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_global-ota_full-OS2.0.203.0.VPGMIXM-user-15.0-e0314a6b8e.zip",
+          "fastboot": ""
+        },
+        "OS2.0.201.0.VPGMIXM": {
+          "os": "OS2.0.201.0.VPGMIXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_global-ota_full-OS2.0.201.0.VPGMIXM-user-15.0-59cff64b16.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "spinel_dc_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 4G",
+        "en": "REDMI Note 15 4G"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.212.0.VPGMIDC": {
+          "os": "OS2.0.212.0.VPGMIDC",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_dc_global-ota_full-OS2.0.212.0.VPGMIDC-user-15.0-3bfce94c61.zip",
+          "fastboot": "spinel_dc_global_images_OS2.0.212.0.VPGMIDC_20260105.0000.00_15.0_global_dc_88ef1f1d08.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "spinel_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 4G",
+        "en": "REDMI Note 15 4G"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.208.0.VPGEUXM": {
+          "os": "OS2.0.208.0.VPGEUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_eea_global-ota_full-OS2.0.208.0.VPGEUXM-user-15.0-d39e79bdf7.zip",
+          "fastboot": "spinel_eea_global_images_OS2.0.208.0.VPGEUXM_20251230.0000.00_15.0_eea_a91d8c2fe7.tgz"
+        },
+        "OS2.0.206.0.VPGEUXM": {
+          "os": "OS2.0.206.0.VPGEUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_eea_global-ota_full-OS2.0.206.0.VPGEUXM-user-15.0-f6a1a400ea.zip",
+          "fastboot": ""
+        },
+        "OS2.0.205.0.VPGEUXM": {
+          "os": "OS2.0.205.0.VPGEUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_eea_global-ota_full-OS2.0.205.0.VPGEUXM-user-15.0-e2072d2cd7.zip",
+          "fastboot": ""
+        },
+        "OS2.0.204.0.VPGEUXM": {
+          "os": "OS2.0.204.0.VPGEUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_eea_global-ota_full-OS2.0.204.0.VPGEUXM-user-15.0-a7a2db64d5.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "spinel_ru_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 4G",
+        "en": "REDMI Note 15 4G"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.209.0.VPGRUXM": {
+          "os": "OS2.0.209.0.VPGRUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_ru_global-ota_full-OS2.0.209.0.VPGRUXM-user-15.0-9eeb50c1b3.zip",
+          "fastboot": "spinel_ru_global_images_OS2.0.209.0.VPGRUXM_20251230.0000.00_15.0_ru_c0d5cf05e4.tgz"
+        },
+        "OS2.0.208.0.VPGRUXM": {
+          "os": "OS2.0.208.0.VPGRUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_ru_global-ota_full-OS2.0.208.0.VPGRUXM-user-15.0-a981702e0b.zip",
+          "fastboot": ""
+        },
+        "OS2.0.205.0.VPGRUXM": {
+          "os": "OS2.0.205.0.VPGRUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_ru_global-ota_full-OS2.0.205.0.VPGRUXM-user-15.0-eae2e349fe.zip",
+          "fastboot": ""
+        },
+        "OS2.0.204.0.VPGRUXM": {
+          "os": "OS2.0.204.0.VPGRUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_ru_global-ota_full-OS2.0.204.0.VPGRUXM-user-15.0-d92cbafcc1.zip",
+          "fastboot": ""
+        },
+        "OS2.0.201.0.VPGRUXM": {
+          "os": "OS2.0.201.0.VPGRUXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_ru_global-ota_full-OS2.0.201.0.VPGRUXM-user-15.0-85948ffc6d.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "spinel_id_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 4G",
+        "en": "REDMI Note 15 4G"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.204.0.VPGIDXM": {
+          "os": "OS2.0.204.0.VPGIDXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_id_global-ota_full-OS2.0.204.0.VPGIDXM-user-15.0-0244761d12.zip",
+          "fastboot": "spinel_id_global_images_OS2.0.204.0.VPGIDXM_20251230.0000.00_15.0_id_9c2e7a843b.tgz"
+        },
+        "OS2.0.202.0.VPGIDXM": {
+          "os": "OS2.0.202.0.VPGIDXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_id_global-ota_full-OS2.0.202.0.VPGIDXM-user-15.0-002c835127.zip",
+          "fastboot": ""
+        },
+        "OS2.0.201.0.VPGIDXM": {
+          "os": "OS2.0.201.0.VPGIDXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_id_global-ota_full-OS2.0.201.0.VPGIDXM-user-15.0-6b0b9be2d2.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "spinel_tr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 4G",
+        "en": "REDMI Note 15 4G"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPGTRXM": {
+          "os": "OS2.0.202.0.VPGTRXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_tr_global-ota_full-OS2.0.202.0.VPGTRXM-user-15.0-47ea73b9bc.zip",
+          "fastboot": "spinel_tr_global_images_OS2.0.202.0.VPGTRXM_20251230.0000.00_15.0_tr_82b6a1b5b2.tgz"
+        },
+        "OS2.0.201.0.VPGTRXM": {
+          "os": "OS2.0.201.0.VPGTRXM",
+          "android": "15.0",
+          "release": "2026-01-15",
+          "recovery": "spinel_tr_global-ota_full-OS2.0.201.0.VPGTRXM-user-15.0-0042e3f18a.zip",
+          "fastboot": ""
         }
       }
     }

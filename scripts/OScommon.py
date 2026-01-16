@@ -104,7 +104,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['spinel','coral']
+unreleased = ['coral']
 currentStable = ['spinel','charoite','nezha','annibale', 'myron', 'pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
@@ -137,7 +137,8 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming','konghou',
 				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'dew', 'tornado', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
-				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'alioth',
+				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'spinel',
+				 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'alioth',
 				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali','annibale', 'myron', 
 				 'yunluo', 'xun', 'flare', 'spark', 'koto', 'taiko', 'dizi', 'ruan', 'turner', 'warm', 'serenity', 'evergreen', 'rock', 'moonstone']
@@ -412,6 +413,24 @@ flags = {
 	"flourite_global": "flourite",
 	"flourite_ru_global": "flourite",
 	"flourite_tr_global": "flourite",
+	"spinel_tw_global": "spinel",
+	"spinel_global": "spinel",
+	"spinel_dc_global": "spinel",
+	"spinel_eea_global": "spinel",
+	"spinel_ru_global": "spinel",
+	"spinel_id_global": "spinel",
+	"spinel_tr_global": "spinel",
+	"lapis_global": "lapis",
+	"lapis_id_global": "lapis",
+	"lapis_tw_global": "lapis",
+	"lapis_eea_global": "lapis",
+	"lapis_ru_global": "lapis",
+	"lapis_jp_global": "lapis",
+	"lapis_in_global": "lapis",
+	"lapis_tr_global": "lapis",
+	"lapis_dc_global": "lapis",
+	"kunzite_dc_global": "kunzite",
+	"flourite_dc_global": "flourite",
 	"myron_demo": "myron",
 	"annibale": "annibale",
 	"annibale_demo": "annibale",
