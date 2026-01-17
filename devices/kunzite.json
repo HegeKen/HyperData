@@ -365,6 +365,44 @@
           "fastboot": "kunzite_id_global_images_OS2.0.201.0.VPQIDXM_20251025.0000.00_15.0_id_84ca4263db.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+      },
+      "branchCode": "kunzite_lm_cr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 5G",
+        "en": "REDMI Note 15 5G"
+      },
+      "idtag": "LMCR",
+      "tag": "LMCR",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "cr"
+      ],
+      "region": "lm",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPQLMCR": {
+          "os": "OS2.0.202.0.VPQLMCR",
+          "android": "15.0",
+          "release": "2026-01-16",
+          "recovery": "kunzite_lm_cr_global-ota_full-OS2.0.202.0.VPQLMCR-user-15.0-6b8bcd759c.zip",
+          "fastboot": "kunzite_lm_cr_global_images_OS2.0.202.0.VPQLMCR_20251013.0000.00_15.0_lm_cr_dacb4c970c.tgz"
+        }
+      }
     }
   ]
 }

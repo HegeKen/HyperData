@@ -408,6 +408,7 @@ flags = {
 	"kunzite_tw_global": "kunzite",
 	"kunzite_eea_global": "kunzite",
 	"kunzite_ru_global": "kunzite",
+	"kunzite_lm_cr_global": "kunzite",
 	"kunzite_id_global": "kunzite",
 	"flourite_tw_global": "flourite",
 	"flourite_global": "flourite",
