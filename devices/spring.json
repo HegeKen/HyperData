@@ -373,6 +373,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 日本正式版",
+        "en": "Xiaomi HyperOS Japan Stable"
+      },
+      "branchCode": "spring_jp_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 15 5G",
+        "en": "REDMI 15 5G"
+      },
+      "idtag": "JAPS",
+      "tag": "JPXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "jp",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VOUJPXM": {
+          "os": "OS2.0.203.0.VOUJPXM",
+          "android": "15.0",
+          "release": "2026-01-19",
+          "recovery": "spring_jp_global-ota_full-OS2.0.203.0.VOUJPXM-user-15.0-c18bcb3018.zip",
+          "fastboot": "spring_jp_global_images_OS2.0.203.0.VOUJPXM_20260105.0000.00_15.0_jp_c9bbfcf9e1.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
         "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
       },

@@ -349,6 +349,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "flourite_id_global",
+      "brand": "REDMI, POCO",
+      "device": {
+        "zh": "REDMI Note 15 Pro+ 5G / POCO M8 Pro",
+        "en": "REDMI Note 15 Pro+ 5G / POCO M8 Pro"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPRIDXM": {
+          "os": "OS2.0.202.0.VPRIDXM",
+          "android": "15.0",
+          "release": "2026-01-19",
+          "recovery": "flourite_id_global-ota_full-OS2.0.202.0.VPRIDXM-user-15.0-302e2f67ae.zip",
+          "fastboot": "flourite_id_global_images_OS2.0.202.0.VPRIDXM_20251107.0000.00_15.0_id_d3ee001680.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 土耳其正式版",
         "en": "Xiaomi HyperOS Turkey Stable"
       },
