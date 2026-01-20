@@ -7,7 +7,8 @@
 	"code": "LH",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
@@ -50,6 +51,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.1.0.VLHCNXM": {
+					"os": "OS3.0.1.0.VLHCNXM",
+					"android": "15.0",
+					"release": "2026-01-20",
+					"recovery": "pearl-ota_full-OS3.0.1.0.VLHCNXM-user-15.0-463b1f3467.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.215.0.VLHCNXM": {
 					"os": "OS2.0.215.0.VLHCNXM",
 					"android": "15.0",
