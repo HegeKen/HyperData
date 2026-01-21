@@ -120,7 +120,7 @@ currentStable = ['spinel','charoite','nezha','annibale', 'myron', 'pudding', 'pa
 								 'venus', 'vermeer', 'veux', 'vida', 'vili', 'viva', 'xaga', 'xun', 'yudi', 'yuechu', 'yunluo',
 								 'zeus', 'zijin', 'zircon', 'ziyi', 'zizhan']
 
-only_os = ['dali', 'turner', 'violin', 'koto', 'taiko', 'jinghu', 'luming', 'poussin', 'citrine', 'serenity', 'emerald_r', 'xuanyuan', 'dijun', 'tanzanite', 'rodin', 'warm', 'onyx', 'miro', 'zorn', 
+only_os = ['dali', 'turner', 'violin', 'koto', 'taiko', 'jinghu', 'luming', 'serenity', 'emerald_r', 'xuanyuan', 'dijun', 'tanzanite', 'rodin', 'warm', 'onyx', 'miro', 'zorn', 
 					 'uke', 'muyu',	'dada', 'haotian', 'obsidian', 'beryl', 'amethyst', 'malachite', 'rothko', 'degas',
 					 'flame', 'lake','spring', 'flare', 'spark', 'goku', 'ruyi', 'moon', 'breeze', 'vermeer', 'ruan',
 					 'dizi', 'peridot', 'aurora', 'chenfeng', 'duchamp', 'houji', 'manet', 'sheng', 'shennong', 'shennong_t']
@@ -139,9 +139,9 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'spinel',
 				 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'alioth',
-				 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
+				 'charoite', 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali','annibale', 'myron', 
-				 'yunluo', 'xun', 'flare', 'spark', 'koto', 'taiko', 'dizi', 'ruan', 'turner', 'warm', 'serenity', 'evergreen', 'rock', 'moonstone']
+				 'yunluo', 'xun', 'flare', 'spark', 'koto', 'taiko','flute', 'organ', 'dizi', 'ruan', 'turner', 'warm', 'serenity', 'evergreen', 'rock', 'moonstone']
 
 branches = [
 	{

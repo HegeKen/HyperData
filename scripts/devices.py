@@ -1,4 +1,5 @@
 import os
+import json
 import OScommon
 from datetime import datetime
 
@@ -9,19 +10,26 @@ devices = [f for f in os.listdir(DEVICES_DIR) if f.endswith('.json')]
 
 with open("public/data/index.html", "r", encoding='utf-8') as file:
   file_content = file.read()
+devlist = json.loads(open("public/data/devices.json", 'r', encoding='utf-8').read())
 for device in devices:
   device = device.replace('.json', '')
   if device in OScommon.unreleased:
     continue
   else:
+    if device in str(devlist):
+      continue
+    else:
+      print(device)
     if device in OScommon.order:
       if device in file_content:
         continue
       else:
-        print(device)
+        device_page = f"""<div class="mdui-chip"><a href="devices/{device}.json"><span class="mdui-chip-title HyperBlue"> {OScommon.localData(device)['name']['zh']}({device}) </span></a></div>"""
+        print(device_page)
       continue
     else:
-      print(device)
+      device_page = f"""<div class="mdui-chip"><a href="devices/{device}.json"><span class="mdui-chip-title HyperBlue"> {OScommon.localData(device)['name']['zh']}({device}) </span></a></div>"""
+      print(device_page)
 
 
 
