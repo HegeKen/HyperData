@@ -17,6 +17,47 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "myron",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K90 Pro Max",
+        "en": "REDMI K90 Pro Max"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.300.2.WPMCNXM": {
+          "os": "OS3.0.300.2.WPMCNXM",
+          "android": "16.0",
+          "release": "2026-01-22",
+          "recovery": "myron-ota_full-OS3.0.300.2.WPMCNXM-user-16.0-03a0133825.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },

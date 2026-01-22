@@ -62,6 +62,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 国际版 Demo",
+        "en": "Xiaomi HyperOS Global Demo"
+      },
+      "branchCode": "charoite_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 Pro 4G",
+        "en": "REDMI Note 15 Pro 4G"
+      },
+      "idtag": "GBOO",
+      "tag": "MIDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.203.0.VPFMIDM": {
+          "os": "OS2.0.203.0.VPFMIDM",
+          "android": "15.0",
+          "release": "2026-01-22",
+          "recovery": "",
+          "fastboot": "charoite_global_images_OS2.0.203.0.VPFMIDM_20260119.0000.00_15.0_global_50d87c0c9b.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 国际 DC 正式版",
         "en": "Xiaomi HyperOS Global DC Stable"
       },
