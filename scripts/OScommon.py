@@ -419,6 +419,7 @@ flags = {
 	"spinel_global": "spinel",
 	"spinel_dc_global": "spinel",
 	"spinel_eea_global": "spinel",
+	"lapis_lm_cr_global": "lapis",
 	"spinel_ru_global": "spinel",
 	"spinel_id_global": "spinel",
 	"spinel_tr_global": "spinel",
