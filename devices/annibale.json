@@ -17,6 +17,47 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "annibale",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K90",
+        "en": "REDMI K90"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.300.4.WPKCNXM": {
+          "os": "OS3.0.300.4.WPKCNXM",
+          "android": "16.0",
+          "release": "2026-01-22",
+          "recovery": "annibale-ota_full-OS3.0.300.4.WPKCNXM-user-16.0-b3e21001a5.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },

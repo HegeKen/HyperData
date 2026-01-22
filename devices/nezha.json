@@ -17,6 +17,47 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "nezha",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 17 Ultra",
+        "en": "Xiaomi 17 Ultra"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.300.2.WPACNXM": {
+          "os": "OS3.0.300.2.WPACNXM",
+          "android": "16.0",
+          "release": "2026-01-22",
+          "recovery": "nezha-ota_full-OS3.0.300.2.WPACNXM-user-16.0-381a8252a7.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },

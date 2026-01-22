@@ -17,6 +17,47 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "piano",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.300.2.WPYCNXM": {
+          "os": "OS3.0.300.2.WPYCNXM",
+          "android": "16.0",
+          "release": "2026-01-22",
+          "recovery": "piano-ota_full-OS3.0.300.2.WPYCNXM-user-16.0-9c53599c26.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },
