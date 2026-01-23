@@ -17,6 +17,47 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "yupei",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8",
+        "en": "Xiaomi Pad 8"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.300.2.WPZCNXM": {
+          "os": "OS3.0.300.2.WPZCNXM",
+          "android": "16.0",
+          "release": "2026-01-22",
+          "recovery": "yupei-ota_full-OS3.0.300.2.WPZCNXM-user-16.0-c2a5d4e0a1.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },

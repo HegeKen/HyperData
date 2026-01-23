@@ -17,6 +17,47 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS Beta",
+        "en": "Xiaomi HyperOS Beta"
+      },
+      "branchCode": "pandora",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 17 Pro",
+        "en": "Xiaomi 17 Pro"
+      },
+      "idtag": "CnOB",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.300.2.WBLCNXM": {
+          "os": "OS3.0.300.2.WBLCNXM",
+          "android": "16.0",
+          "release": "2026-01-23",
+          "recovery": "pandora-ota_full-OS3.0.300.2.WBLCNXM-user-16.0-85408def4f.zip",
+          "fastboot": ""
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 正式版",
         "en": "Xiaomi HyperOS Stable"
       },

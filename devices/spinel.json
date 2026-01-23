@@ -399,6 +399,51 @@
           "fastboot": ""
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+      },
+      "branchCode": "spinel_lm_cr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 4G",
+        "en": "REDMI Note 15 4G"
+      },
+      "idtag": "LMCR",
+      "tag": "LMCR",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "cr"
+      ],
+      "region": "lm",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS2.0.202.0.VPGLMCR": {
+          "os": "OS2.0.202.0.VPGLMCR",
+          "android": "15.0",
+          "release": "2026-01-23",
+          "recovery": "spinel_lm_cr_global-ota_full-OS2.0.202.0.VPGLMCR-user-15.0-24fb7f2edb.zip",
+          "fastboot": ""
+        },
+        "OS2.0.201.0.VPGLMCR": {
+          "os": "OS2.0.201.0.VPGLMCR",
+          "android": "15.0",
+          "release": "2026-01-23",
+          "recovery": "spinel_lm_cr_global-ota_full-OS2.0.201.0.VPGLMCR-user-15.0-598a54608f.zip",
+          "fastboot": "spinel_lm_cr_global_images_OS2.0.201.0.VPGLMCR_20251120.0000.00_15.0_lm_cr_de039dc07f.tgz"
+        }
+      }
     }
   ]
 }
