@@ -1,0 +1,62 @@
+{
+  "device": "dash",
+  "name": {
+    "zh": "REDMI Turbo 5 MAX",
+    "en": "REDMI Turbo 5 MAX"
+  },
+  "code": "",
+  "suppports": [
+    "OS3.0"
+  ],
+  "android": [
+    "16.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "dash",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5 MAX",
+        "en": "REDMI Turbo 5 MAX"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "15.0",
+          "release": "",
+          "recovery": "",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    }
+  ]
+}
