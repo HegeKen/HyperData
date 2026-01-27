@@ -1,8 +1,24 @@
 {
   "recent": {
-    "time": "2026-01-27 12:40:34",
+    "time": "2026-01-27 21:39:46",
     "developing": "no",
     "roms": [
+      {
+        "code": "venus",
+        "name": {
+          "zh": "小米 11",
+          "en": "Mi 11"
+        },
+        "rom": "OS2.0.2.0.UKBTWXM; OS2.0.3.0.UKBMIXM; OS2.0.3.0.UKBEUXM; OS2.0.3.0.UKBRUXM; OS2.0.4.0.UKBIDXM; OS2.0.3.0.UKBTRXM"
+      },
+      {
+        "code": "star",
+        "name": {
+          "zh": "小米 11 Pro / Ultra",
+          "en": "Mi 11 Pro / Ultra"
+        },
+        "rom": "OS2.0.7.0.UKAMIXM; OS2.0.4.0.UKAEUXM; OS2.0.3.0.UKAINXM; OS2.0.3.0.UKAIDXM"
+      },
       {
         "code": "cupid",
         "name": {
@@ -58,6 +74,14 @@
           "en": "Xiaomi Pad 7 Pro"
         },
         "rom": "OS3.0.7.0.WOYMIXM"
+      },
+      {
+        "code": "moon",
+        "name": {
+          "zh": "Redmi 13 / POCO M6 4G",
+          "en": "Redmi 13 / POCO M6 4G"
+        },
+        "rom": "OS3.0.2.0.WNTMIDC"
       },
       {
         "code": "air",
@@ -129,7 +153,7 @@
           "zh": "Redmi Note 14 Pro+",
           "en": "Redmi Note 14 Pro+"
         },
-        "rom": "OS3.0.1.0.WOPTWXM"
+        "rom": "OS3.0.1.0.WOPTWXM; OS3.0.1.0.WOPRUXM; OS3.0.1.0.WOPTRXM"
       },
       {
         "code": "rodin",
@@ -145,7 +169,7 @@
           "zh": "Redmi K50 电竞版 / POCO F4 GT",
           "en": "Redmi K50G / POCO F4 GT"
         },
-        "rom": "OS2.0.3.0.ULJMIXM; OS2.0.3.0.ULJTRXM"
+        "rom": "OS2.0.3.0.ULJTWXM; OS2.0.3.0.ULJMIXM; OS2.0.3.0.ULJEUXM; OS2.0.3.0.ULJIDXM; OS2.0.3.0.ULJTRXM"
       },
       {
         "code": "diting",
@@ -194,6 +218,14 @@
           "en": "Redmi Pad SE 8.7 Wi-Fi"
         },
         "rom": "OS2.0.203.0.VHXIDXM"
+      },
+      {
+        "code": "serenity",
+        "name": {
+          "zh": "REDMI A5 / POCO C71",
+          "en": "REDMI A5 / POCO C71"
+        },
+        "rom": "A15.0.10.0.VGWEUSF"
       }
     ]
   }
