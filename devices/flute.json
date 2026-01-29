@@ -60,6 +60,47 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "flute_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro",
+				"en": "REDMI Pad 2 Pro"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WPWCNDM": {
+					"os": "OS3.0.2.0.WPWCNDM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "flute_demo-ota_full-OS3.0.2.0.WPWCNDM-user-16.0-1f68b7b08a.zip",
+					"fastboot": "flute_demo_images_OS3.0.2.0.WPWCNDM_20251223.0000.00_16.0_cn_bc8703824d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
