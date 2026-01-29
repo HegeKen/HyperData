@@ -101,8 +101,8 @@
           "android": "16.0",
           "release": "2026-01-23",
           "recovery": "nezha-ota_full-OS3.0.12.0.WPACNXM-user-16.0-7eb3e33103.zip",
-          "fastboot": "",
-          "ctelecom": ""
+          "fastboot": "nezha_images_OS3.0.12.0.WPACNXM_20260121.0000.00_16.0_cn_fb06c23747.tgz",
+          "ctelecom": "nezha_images_OS3.0.12.0.WPACNXM_20260121.0000.00_16.0_cn_chinatelecom_783490ddf9.tgz"
         },
         "OS3.0.10.0.WPACNXM": {
           "os": "OS3.0.10.0.WPACNXM",
@@ -171,6 +171,14 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.9.0.WPACNDM": {
+          "os": "OS3.0.9.0.WPACNDM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "nezha_demo-ota_full-OS3.0.9.0.WPACNDM-user-16.0-efd575ba1c.zip",
+          "fastboot": "nezha_demo_images_OS3.0.9.0.WPACNDM_20260122.0000.00_16.0_cn_67696bc356.tgz",
+          "ctelecom": "nezha_demo_images_OS3.0.9.0.WPACNDM_20260122.0000.00_16.0_cn_chinatelecom_cca618aef4.tgz"
+        },
         "OS3.0.7.0.WPACNDM": {
           "os": "OS3.0.7.0.WPACNDM",
           "android": "16.0",
