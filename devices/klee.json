@@ -4,7 +4,7 @@
     "zh": "REDMI Turbo 5",
     "en": "REDMI Turbo 5"
   },
-  "code": "",
+  "code": "PJ",
   "suppports": [
     "OS3.0"
   ],
@@ -48,13 +48,80 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
-          "android": "15.0",
-          "release": "",
-          "recovery": "",
+        "OS3.0.18.0.WPJCNXM": {
+          "os": "OS3.0.18.0.WPJCNXM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "klee-ota_full-OS3.0.18.0.WPJCNXM-user-16.0-10d16c00a2.zip",
+          "fastboot": "klee_images_OS3.0.18.0.WPJCNXM_20260120.0000.00_16.0_cn_84e31f1e18.tgz",
+          "ctelecom": "klee_images_OS3.0.18.0.WPJCNXM_20260120.0000.00_16.0_cn_chinatelecom_5a3d2dc95d.tgz"
+        },
+        "OS3.0.11.0.WPJCNXM": {
+          "os": "OS3.0.11.0.WPJCNXM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "klee-ota_full-OS3.0.11.0.WPJCNXM-user-16.0-6df6b9b57f.zip",
           "fastboot": "",
           "ctelecom": ""
+        },
+        "OS3.0.6.0.WPJCNXM": {
+          "os": "OS3.0.6.0.WPJCNXM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "klee-ota_full-OS3.0.6.0.WPJCNXM-user-16.0-05c3c864cf.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        },
+        "OS3.0.4.0.WPJCNXM": {
+          "os": "OS3.0.4.0.WPJCNXM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "klee-ota_full-OS3.0.4.0.WPJCNXM-user-16.0-1012e48a45.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "klee_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5",
+        "en": "REDMI Turbo 5"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.4.0.WPJCNDM": {
+          "os": "OS3.0.4.0.WPJCNDM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "klee_demo-ota_full-OS3.0.4.0.WPJCNDM-user-16.0-951618ceaf.zip",
+          "fastboot": "klee_demo_images_OS3.0.4.0.WPJCNDM_20260121.0000.00_16.0_cn_a65885289e.tgz",
+          "ctelecom": "klee_demo_images_OS3.0.4.0.WPJCNDM_20260121.0000.00_16.0_cn_chinatelecom_9bc4a0c21b.tgz"
         }
       }
     }

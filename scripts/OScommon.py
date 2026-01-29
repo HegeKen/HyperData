@@ -104,8 +104,10 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['klee', 'dash', 'coral']
-currentStable = ['spinel','charoite','nezha','annibale', 'myron', 'pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado', 'goya', 'klimt', 'flute', 'organ', 'konghou', 'dew', 'spring', 'lapis', 'kunzite', 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
+unreleased = ['coral']
+currentStable = ['flute', 'organ', 'klee', 'dash', 'spinel','charoite','nezha','annibale', 'myron',
+								 'pudding', 'pandora', 'popsicle', 'piano', 'yupei', 'tornado','goya', 'klimt', 'konghou', 'dew', 'spring', 'lapis', 'kunzite',
+								 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
 								 'beryl', 'amethyst', 'malachite', 'degas', 'rothko', 'flame', 'lake', 'flare', 'spark', 
 								 'ruyi', 'goku', 'agate', 'air', 'alioth', 'ares', 'aristotle', 'aurora', 'babylon', 'breeze', 'cas',
@@ -138,7 +140,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'dew', 'tornado', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'spinel',
-				 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'alioth',
+				 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'klee', 'dash','alioth',
 				 'charoite', 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali','annibale', 'myron', 
 				 'yunluo', 'xun', 'flare', 'spark', 'koto', 'taiko','flute', 'organ', 'dizi', 'ruan', 'turner', 'warm', 'serenity', 'evergreen', 'rock', 'moonstone']
@@ -403,6 +405,10 @@ flags = {
 	"charoite_dc_global": "charoite",
 	"kunzite_in_global": "kunzite",
 	"flourite_eea_global": "flourite",
+	"klee": "klee",
+	"dash": "dash",
+	"klee_demo": "klee",
+	"dash_demo": "dash",
 	"flourite_lm_cr_global": "flourite",
 	"kunzite_global": "kunzite",
 	"kunzite_tw_global": "kunzite",

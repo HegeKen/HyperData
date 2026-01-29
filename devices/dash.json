@@ -4,7 +4,7 @@
     "zh": "REDMI Turbo 5 MAX",
     "en": "REDMI Turbo 5 MAX"
   },
-  "code": "",
+  "code": "PL",
   "suppports": [
     "OS3.0"
   ],
@@ -48,13 +48,72 @@
       "zone": "1",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
-          "android": "15.0",
-          "release": "",
-          "recovery": "",
+        "OS3.0.6.0.WPLCNXM": {
+          "os": "OS3.0.6.0.WPLCNXM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "dash-ota_full-OS3.0.6.0.WPLCNXM-user-16.0-2cab53990e.zip",
+          "fastboot": "dash_images_OS3.0.6.0.WPLCNXM_20260116.0000.00_16.0_cn_d98febb1d4.tgz",
+          "ctelecom": "dash_images_OS3.0.6.0.WPLCNXM_20260116.0000.00_16.0_cn_chinatelecom_20afa05643.tgz"
+        },
+        "OS3.0.5.0.WPLCNXM": {
+          "os": "OS3.0.5.0.WPLCNXM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "dash-ota_full-OS3.0.5.0.WPLCNXM-user-16.0-3b8c01c275.zip",
           "fastboot": "",
           "ctelecom": ""
+        },
+        "OS3.0.3.0.WPLCNXM": {
+          "os": "OS3.0.3.0.WPLCNXM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "dash-ota_full-OS3.0.3.0.WPLCNXM-user-16.0-c3498310a3.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "dash_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5 MAX",
+        "en": "REDMI Turbo 5 MAX"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPLCNDM": {
+          "os": "OS3.0.2.0.WPLCNDM",
+          "android": "16.0",
+          "release": "2026-01-29",
+          "recovery": "dash_demo-ota_full-OS3.0.2.0.WPLCNDM-user-16.0-35e7169de6.zip",
+          "fastboot": "dash_demo_images_OS3.0.2.0.WPLCNDM_20260123.0000.00_16.0_cn_e5680a416b.tgz",
+          "ctelecom": "dash_demo_images_OS3.0.2.0.WPLCNDM_20260123.0000.00_16.0_cn_chinatelecom_1f55d02c7d.tgz"
         }
       }
     }
