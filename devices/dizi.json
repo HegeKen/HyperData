@@ -7,11 +7,13 @@
 	"code": "NS",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -50,6 +52,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WNSCNXM": {
+					"os": "OS3.0.3.0.WNSCNXM",
+					"android": "16.0",
+					"release": "2026-01-30",
+					"recovery": "dizi-ota_full-OS3.0.3.0.WNSCNXM-user-16.0-1a4d472ef7.zip",
+					"fastboot": "",
+					"origin": ""
+				},
 				"OS2.0.207.0.VNSCNXM": {
 					"os": "OS2.0.207.0.VNSCNXM",
 					"android": "15.0",
