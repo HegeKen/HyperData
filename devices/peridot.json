@@ -52,13 +52,21 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.7.0.WNPCNXM": {
+					"os": "OS3.0.7.0.WNPCNXM",
+					"android": "16.0",
+					"release": "2026-01-31",
+					"recovery": "peridot-ota_full-OS3.0.7.0.WNPCNXM-user-16.0-8c47adea7a.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS3.0.6.0.WNPCNXM": {
 					"os": "OS3.0.6.0.WNPCNXM",
 					"android": "16.0",
 					"release": "2026-01-16",
 					"recovery": "peridot-ota_full-OS3.0.6.0.WNPCNXM-user-16.0-5867f6769f.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "peridot_images_OS3.0.6.0.WNPCNXM_20260108.0000.00_16.0_cn_0f08956360.tgz",
+					"ctelecom": "peridot_images_OS3.0.6.0.WNPCNXM_20260108.0000.00_16.0_cn_chinatelecom_2659a63dfb.tgz"
 				},
 				"OS3.0.5.0.WNPCNXM": {
 					"os": "OS3.0.5.0.WNPCNXM",

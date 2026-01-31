@@ -7,11 +7,13 @@
 	"code": "GU",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -50,6 +52,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.WGUCNXM": {
+					"os": "OS3.0.2.0.WGUCNXM",
+					"android": "16.0",
+					"release": "2026-01-30",
+					"recovery": "flame-ota_full-OS3.0.2.0.WGUCNXM-user-16.0-26eeb63730.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS2.0.203.0.VGUCNXM": {
 					"os": "OS2.0.203.0.VGUCNXM",
 					"android": "15.0",

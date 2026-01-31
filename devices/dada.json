@@ -49,6 +49,13 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.300.5.WOCCNXM": {
+					"os": "OS3.0.300.5.WOCCNXM",
+					"android": "16.0",
+					"release": "2026-01-30",
+					"recovery": "dada-ota_full-OS3.0.300.5.WOCCNXM-user-16.0-326b317d33.zip",
+					"fastboot": ""
+				},
 				"OS3.0.6.2.WOCCNXM": {
 					"os": "OS3.0.6.2.WOCCNXM",
 					"android": "16.0",
@@ -296,8 +303,8 @@
 					"android": "16.0",
 					"release": "2026-01-20",
 					"recovery": "dada-ota_full-OS3.0.7.0.WOCCNXM-user-16.0-232acd7942.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "dada_images_OS3.0.7.0.WOCCNXM_20260113.0000.00_16.0_cn_c2f80ad0f9.tgz",
+					"ctelecom": "dada_images_OS3.0.7.0.WOCCNXM_20260113.0000.00_16.0_cn_chinatelecom_4958295f92.tgz"
 				},
 				"OS3.0.6.0.WOCCNXM": {
 					"os": "OS3.0.6.0.WOCCNXM",
