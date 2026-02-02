@@ -1,15 +1,23 @@
 {
   "recent": {
-    "time": "2026-02-02 00:33:22",
+    "time": "2026-02-02 13:40:27",
     "developing": "no",
     "roms": [
+      {
+        "code": "taoyao",
+        "name": {
+          "zh": "小米 12 Lite",
+          "en": "Xiaomi 12 Lite"
+        },
+        "rom": "OS1.0.26.0.ULITWXM; OS1.0.32.0.ULIMIXM; OS1.0.37.0.ULIEUXM; OS1.0.26.0.ULIRUXM; OS1.0.27.0.ULIIDXM; OS1.0.26.0.ULITRXM"
+      },
       {
         "code": "houji",
         "name": {
           "zh": "小米 14",
           "en": "Xiaomi 14"
         },
-        "rom": "OS3.0.300.4.WNCCNXM"
+        "rom": "OS3.0.300.4.WNCCNXM; OS3.0.4.0.WNCTWXM; OS3.0.6.0.WNCMIXM; OS3.0.7.0.WNCEUXM; OS3.0.4.0.WNCRUXM; OS3.0.4.0.WNCINXM; OS3.0.4.0.WNCIDXM"
       },
       {
         "code": "shennong",
@@ -28,12 +36,68 @@
         "rom": "OS3.0.300.4.WNACNXM"
       },
       {
+        "code": "dada",
+        "name": {
+          "zh": "小米 15",
+          "en": "Xiaomi 15"
+        },
+        "rom": "OS3.0.6.0.WOCMIXM"
+      },
+      {
+        "code": "goya",
+        "name": {
+          "zh": "小米 15T",
+          "en": "Xiaomi 15T"
+        },
+        "rom": "OS3.0.6.0.WOETWXM; OS3.0.3.0.WOETRXM"
+      },
+      {
+        "code": "pipa",
+        "name": {
+          "zh": "小米平板 6",
+          "en": "Xiaomi Pad 6"
+        },
+        "rom": "OS2.0.12.0.UMZTWXM; OS2.0.12.0.UMZRUXM; OS2.0.12.0.UMZINXM"
+      },
+      {
         "code": "violin",
         "name": {
           "zh": "小米平板7S Pro 12.5",
           "en": "Xiaomi Pad 7S Pro 12.5"
         },
         "rom": "OS3.0.10.0.WOTCNXM"
+      },
+      {
+        "code": "redwood",
+        "name": {
+          "zh": "Redmi Note 12 Pro 极速版 / POCO X5 Pro 5G",
+          "en": "Redmi Note 12 Pro Speed / POCO X5 Pro 5G"
+        },
+        "rom": "OS2.0.13.0.UMSIDXM"
+      },
+      {
+        "code": "malachite",
+        "name": {
+          "zh": "Redmi Note 14 Pro / POCO X7",
+          "en": "Redmi Note 14 Pro / POCO X7"
+        },
+        "rom": "OS3.0.9.0.WOOMIXM; OS3.0.3.0.WOOEUXM"
+      },
+      {
+        "code": "sapphire",
+        "name": {
+          "zh": "Redmi Note 13 4G",
+          "en": "Redmi Note 13 4G"
+        },
+        "rom": "OS2.0.209.0.VNGMIXM"
+      },
+      {
+        "code": "sapphiren",
+        "name": {
+          "zh": "Redmi Note 13 NFC",
+          "en": "Redmi Note 13 NFC"
+        },
+        "rom": "OS2.0.208.0.VNHMIXM"
       },
       {
         "code": "lapis",
@@ -66,6 +130,30 @@
           "en": "REDMI K80 Ultra"
         },
         "rom": "OS3.0.300.4.WONCNXM"
+      },
+      {
+        "code": "flare",
+        "name": {
+          "zh": "Redmi Pad SE 8.7 Wi-Fi",
+          "en": "Redmi Pad SE 8.7 Wi-Fi"
+        },
+        "rom": "OS3.0.1.0.WHXMIXM; OS3.0.1.0.WHXEUXM"
+      },
+      {
+        "code": "taiko",
+        "name": {
+          "zh": "REDMI 平板 2",
+          "en": "REDMI Pad 2"
+        },
+        "rom": "OS3.0.2.0.WOVMIXM; OS3.0.1.0.WOVRUXM; OS3.0.1.0.WOVTRXM"
+      },
+      {
+        "code": "dizi",
+        "name": {
+          "zh": "Redmi Pad Pro / 哈利·波特版 / POCO Pad",
+          "en": "Redmi Pad Pro / Special Edition featuring Harry Potter / POCO Pad"
+        },
+        "rom": "OS2.0.207.0.VNSMIXM"
       }
     ]
   }
