@@ -103,13 +103,21 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.44.0.WPBCNXM": {
+          "os": "OS3.0.44.0.WPBCNXM",
+          "android": "16.0",
+          "release": "2026-02-03",
+          "recovery": "popsicle-ota_full-OS3.0.44.0.WPBCNXM-user-16.0-bcb529b7dd.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        },
         "OS3.0.41.0.WPBCNXM": {
           "os": "OS3.0.41.0.WPBCNXM",
           "android": "16.0",
           "release": "2026-01-22",
           "recovery": "popsicle-ota_full-OS3.0.41.0.WPBCNXM-user-16.0-f3752aff1e.zip",
-          "fastboot": "",
-          "ctelecom": ""
+          "fastboot": "popsicle_images_OS3.0.41.0.WPBCNXM_20260115.0000.00_16.0_cn_6e10ba1ded.tgz",
+          "ctelecom": "popsicle_images_OS3.0.41.0.WPBCNXM_20260115.0000.00_16.0_cn_chinatelecom_534f88fd0e.tgz"
         },
         "OS3.0.40.0.WPBCNXM": {
           "os": "OS3.0.40.0.WPBCNXM",

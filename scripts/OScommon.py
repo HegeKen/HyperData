@@ -489,6 +489,7 @@ flags = {
 	"nezha":"nezha",
 	"flute": "flute",
 	"flute_demo": "flute",
+	"flourite_in_global": "flourite",
 	"nezha_demo":"nezha",
 	"klimt_eea_global": "klimt",
 	"klimt_id_global": "klimt",

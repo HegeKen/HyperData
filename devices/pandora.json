@@ -96,13 +96,21 @@
       "zone": "1",
       "ep": "0",
       "roms": {
+        "OS3.0.44.0.WBLCNXM": {
+          "os": "OS3.0.44.0.WBLCNXM",
+          "android": "16.0",
+          "release": "2026-02-03",
+          "recovery": "pandora-ota_full-OS3.0.44.0.WBLCNXM-user-16.0-562585bbf3.zip",
+          "fastboot": "",
+          "ctelecom": ""
+        },
         "OS3.0.41.0.WBLCNXM": {
           "os": "OS3.0.41.0.WBLCNXM",
           "android": "16.0",
           "release": "2026-01-22",
           "recovery": "pandora-ota_full-OS3.0.41.0.WBLCNXM-user-16.0-ecea8b094e.zip",
-          "fastboot": "",
-          "ctelecom": ""
+          "fastboot": "pandora_images_OS3.0.41.0.WBLCNXM_20260115.0000.00_16.0_cn_541a7f9f05.tgz",
+          "ctelecom": "pandora_images_OS3.0.41.0.WBLCNXM_20260115.0000.00_16.0_cn_chinatelecom_ede18436eb.tgz"
         },
         "OS3.0.40.0.WBLCNXM": {
           "os": "OS3.0.40.0.WBLCNXM",
