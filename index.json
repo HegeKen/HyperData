@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2026-02-03 21:16:00",
+    "time": "2026-02-04 21:50:11",
     "developing": "no",
     "roms": [
       {
@@ -18,6 +18,14 @@
           "en": "Xiaomi 12 Lite"
         },
         "rom": "OS1.0.26.0.ULITWXM; OS1.0.32.0.ULIMIXM; OS1.0.37.0.ULIEUXM; OS1.0.26.0.ULIRUXM; OS1.0.27.0.ULIIDXM; OS1.0.26.0.ULITRXM"
+      },
+      {
+        "code": "nuwa",
+        "name": {
+          "zh": "小米 13 Pro",
+          "en": "Xiaomi 13 Pro"
+        },
+        "rom": "OS3.0.4.0.WMBCNXM"
       },
       {
         "code": "houji",
@@ -44,12 +52,20 @@
         "rom": "OS3.0.300.4.WNACNXM; OS3.0.6.0.WNAMIXM"
       },
       {
+        "code": "degas",
+        "name": {
+          "zh": "小米 14T",
+          "en": "Xiaomi 14T"
+        },
+        "rom": "OS3.0.8.0.WNEEUXM"
+      },
+      {
         "code": "dada",
         "name": {
           "zh": "小米 15",
           "en": "Xiaomi 15"
         },
-        "rom": "OS3.0.6.0.WOCMIXM"
+        "rom": "OS3.0.6.0.WOCMIXM; OS3.0.8.0.WOCEUXM"
       },
       {
         "code": "goya",
@@ -81,7 +97,7 @@
           "zh": "小米 17 Pro Max",
           "en": "Xiaomi 17 Pro Max"
         },
-        "rom": "OS3.0.300.8.WPBCNXM; OS3.0.44.0.WPBCNXM"
+        "rom": "OS3.0.300.8.WPBCNXM; OS3.0.45.0.WPBCNXM; OS3.0.44.0.WPBCNXM"
       },
       {
         "code": "nezha",
@@ -140,6 +156,22 @@
         "rom": "OS3.0.300.5.WPYCNXM"
       },
       {
+        "code": "yupei",
+        "name": {
+          "zh": "小米 Pad 8",
+          "en": "Xiaomi Pad 8"
+        },
+        "rom": "OS3.0.300.5.WPZCNXM"
+      },
+      {
+        "code": "ruyi",
+        "name": {
+          "zh": "小米 MIX Flip",
+          "en": "Xiaomi MIX Flip"
+        },
+        "rom": "OS3.0.7.0.WNICNXM"
+      },
+      {
         "code": "chenfeng",
         "name": {
           "zh": "小米 Civi 4 Pro / 小米 14 Civi",
@@ -170,6 +202,22 @@
           "en": "Redmi 13C / POCO C65"
         },
         "rom": "OS2.0.204.0.VGPLMCR"
+      },
+      {
+        "code": "air",
+        "name": {
+          "zh": "Redmi 13C/R 5G / POCO M6 5G",
+          "en": "Redmi 13C/R 5G / POCO M6 5G"
+        },
+        "rom": "OS2.0.201.0.VGQLMCR"
+      },
+      {
+        "code": "tornado",
+        "name": {
+          "zh": "REDMI 15C 5G / REDMI 15R 5G",
+          "en": "REDMI 15C 5G / REDMI 15R 5G"
+        },
+        "rom": "OS2.0.206.0.VPOMIDC; OS2.0.204.0.VPOTRXM"
       },
       {
         "code": "spring",
@@ -217,7 +265,7 @@
           "zh": "Redmi Note 13 Pro+ 5G",
           "en": "Redmi Note 13 Pro+ 5G"
         },
-        "rom": "OS3.0.6.0.WNOCNXM"
+        "rom": "OS3.0.6.0.WNOCNXM; OS3.0.1.0.WNOTWXM; OS3.0.1.0.WNORUXM; OS3.0.1.0.WNOIDXM; OS3.0.1.0.WNOTRXM; OS3.0.2.0.WNOJPXM"
       },
       {
         "code": "tanzanite",
@@ -265,7 +313,7 @@
           "zh": "REDMI Note 15 4G",
           "en": "REDMI Note 15 4G"
         },
-        "rom": "OS2.0.211.0.VPGEUXM"
+        "rom": "OS2.0.211.0.VPGEUXM; OS2.0.205.0.VPGIDXM; OS2.0.203.0.VPGLMCR"
       },
       {
         "code": "kunzite",
@@ -282,6 +330,14 @@
           "en": "REDMI Note 15 Pro 5G"
         },
         "rom": "OS3.0.7.0.WPPCNXM"
+      },
+      {
+        "code": "flourite",
+        "name": {
+          "zh": "REDMI Note 15 Pro+ 5G",
+          "en": "REDMI Note 15 Pro+ 5G"
+        },
+        "rom": "OS2.0.204.0.VPRINXM"
       },
       {
         "code": "peridot",
@@ -337,7 +393,7 @@
           "zh": "REDMI K80 至尊版",
           "en": "REDMI K80 Ultra"
         },
-        "rom": "OS3.0.300.4.WONCNXM"
+        "rom": "OS3.0.300.4.WONCNXM; OS3.0.9.0.WONCNXM"
       },
       {
         "code": "annibale",
@@ -370,6 +426,14 @@
           "en": "REDMI Pad 2"
         },
         "rom": "OS3.0.2.0.WOVMIXM; OS3.0.1.0.WOVRUXM; OS3.0.1.0.WOVINXM; OS3.0.1.0.WOVIDXM; OS3.0.1.0.WOVTRXM"
+      },
+      {
+        "code": "organ",
+        "name": {
+          "zh": "REDMI 平板 2 Pro 5G",
+          "en": "REDMI Pad 2 Pro 5G"
+        },
+        "rom": "OS2.0.203.0.VPXMIDC"
       },
       {
         "code": "dizi",
