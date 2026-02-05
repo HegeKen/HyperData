@@ -110,6 +110,49 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 演示机系统",
+        "en": "Xiaomi HyperOS China MiStore Demo"
+      },
+      "branchCode": "kunzite_demo",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 15 5G",
+        "en": "REDMI Note 15 5G"
+      },
+      "idtag": "CnOD",
+      "tag": "CNDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "0",
+      "region": "cn",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPQCNDM": {
+          "os": "OS3.0.2.0.WPQCNDM",
+          "android": "16.0",
+          "release": "2026-02-04",
+          "recovery": "kunzite_demo-ota_full-OS3.0.2.0.WPQCNDM-user-16.0-548c666796.zip",
+          "fastboot": "kunzite_demo_images_OS3.0.2.0.WPQCNDM_20260126.0000.00_16.0_cn_74edb24554.tgz",
+          "ctelecom": "kunzite_demo_images_OS3.0.2.0.WPQCNDM_20260126.0000.00_16.0_cn_chinatelecom_a5e4c2630f.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 中国台湾省正式版",
         "en": "Xiaomi HyperOS China Taiwan Province Stable"
       },

@@ -392,6 +392,44 @@
           "fastboot": "myron_eea_global_images_OS3.0.4.0.WPMEUXM_20251123.0000.00_16.0_eea_8e508ae648.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "myron_id_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO F8 Ultra",
+        "en": "POCO F8 Ultra"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.3.0.WPMIDXM": {
+          "os": "OS3.0.3.0.WPMIDXM",
+          "android": "16.0",
+          "release": "2026-02-04",
+          "recovery": "myron_id_global-ota_full-OS3.0.3.0.WPMIDXM-user-16.0-fc244d75e6.zip",
+          "fastboot": "myron_id_global_images_OS3.0.3.0.WPMIDXM_20260113.0000.00_16.0_id_01f595a30f.tgz"
+        }
+      }
     }
   ]
 }
