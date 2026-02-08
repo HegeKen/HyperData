@@ -181,7 +181,7 @@
           "android": "15.0",
           "release": "2026-02-06",
           "recovery": "spinel_dc_global-ota_full-OS2.0.214.0.VPGMIDC-user-15.0-0a80f23098.zip",
-          "fastboot": ""
+          "fastboot": "spinel_dc_global_images_OS2.0.214.0.VPGMIDC_20260126.0000.00_15.0_global_dc_c82014b2b7.tgz"
         },
         "OS2.0.212.0.VPGMIDC": {
           "os": "OS2.0.212.0.VPGMIDC",
@@ -226,7 +226,7 @@
           "android": "15.0",
           "release": "2026-02-03",
           "recovery": "spinel_eea_global-ota_full-OS2.0.211.0.VPGEUXM-user-15.0-ff84d423e7.zip",
-          "fastboot": ""
+          "fastboot": "spinel_eea_global_images_OS2.0.211.0.VPGEUXM_20260126.0000.00_15.0_eea_4ea8d0d788.tgz"
         },
         "OS2.0.209.0.VPGEUXM": {
           "os": "OS2.0.209.0.VPGEUXM",
@@ -294,6 +294,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.211.0.VPGRUXM": {
+          "os": "OS2.0.211.0.VPGRUXM",
+          "android": "15.0",
+          "release": "2026-02-08",
+          "recovery": "spinel_ru_global-ota_full-OS2.0.211.0.VPGRUXM-user-15.0-88075ca884.zip",
+          "fastboot": ""
+        },
         "OS2.0.209.0.VPGRUXM": {
           "os": "OS2.0.209.0.VPGRUXM",
           "android": "15.0",
@@ -365,7 +372,7 @@
           "android": "15.0",
           "release": "2026-02-04",
           "recovery": "spinel_id_global-ota_full-OS2.0.205.0.VPGIDXM-user-15.0-74233c10e8.zip",
-          "fastboot": ""
+          "fastboot": "spinel_id_global_images_OS2.0.205.0.VPGIDXM_20260129.0000.00_15.0_id_ea6185b9e3.tgz"
         },
         "OS2.0.204.0.VPGIDXM": {
           "os": "OS2.0.204.0.VPGIDXM",
