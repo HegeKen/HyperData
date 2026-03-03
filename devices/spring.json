@@ -37,7 +37,8 @@
         "release",
         "recovery",
         "fastboot",
-        "ctelecom"
+        "ctelecom",
+        "cnmobile"
       ],
       "show": "1",
       "carrier": [
@@ -55,8 +56,9 @@
           "android": "16.0",
           "release": "2026-02-03",
           "recovery": "spring-ota_full-OS3.0.4.0.WOUCNXM-user-16.0-e3a8f4c96c.zip",
-          "fastboot": "",
-          "ctelecom": ""
+          "fastboot": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_c08052ee55.tgz",
+          "ctelecom": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_chinatelecom_666b67de9c.tgz",
+          "cnmobile": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_chinamobile_72e16ee2d4.tgz"
         },
         "OS2.0.204.0.VOUCNXM": {
           "os": "OS2.0.204.0.VOUCNXM",
@@ -64,7 +66,8 @@
           "release": "2025-10-19",
           "recovery": "spring-ota_full-OS2.0.204.0.VOUCNXM-user-15.0-5fdd6a5a46.zip",
           "fastboot": "spring_images_OS2.0.204.0.VOUCNXM_20251013.0000.00_15.0_cn_3a00947ed6.tgz",
-          "ctelecom": "spring_images_OS2.0.204.0.VOUCNXM_20251013.0000.00_15.0_cn_chinatelecom_fd127566cc.tgz"
+          "ctelecom": "spring_images_OS2.0.204.0.VOUCNXM_20251013.0000.00_15.0_cn_chinatelecom_fd127566cc.tgz",
+          "cnmobile": ""
         },
         "OS2.0.203.0.VOUCNXM": {
           "os": "OS2.0.203.0.VOUCNXM",
@@ -72,7 +75,8 @@
           "release": "2025-08-29",
           "recovery": "spring-ota_full-OS2.0.203.0.VOUCNXM-user-15.0-1301088748.zip",
           "fastboot": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_e2e97a1c34.tgz",
-          "ctelecom": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_chinatelecom_f4b946645e.tgz"
+          "ctelecom": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_chinatelecom_f4b946645e.tgz",
+          "cnmobile": ""
         }
       }
     },
@@ -148,7 +152,7 @@
           "android": "15.0",
           "release": "2026-02-23",
           "recovery": "spring_global-ota_full-OS2.0.208.0.VOUMIXM-user-15.0-f175f9cfa8.zip",
-          "fastboot": ""
+          "fastboot": "spring_global_images_OS2.0.208.0.VOUMIXM_20260209.0000.00_15.0_global_467c877fc6.tgz"
         },
         "OS2.0.207.0.VOUMIXM": {
           "os": "OS2.0.207.0.VOUMIXM",
@@ -216,6 +220,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.204.0.VOUMIDC": {
+          "os": "OS2.0.204.0.VOUMIDC",
+          "android": "15.0",
+          "release": "2026-03-02",
+          "recovery": "spring_dc_global-ota_full-OS2.0.204.0.VOUMIDC-user-15.0-64ff2223b8.zip",
+          "fastboot": ""
+        },
         "OS2.0.203.0.VOUMIDC": {
           "os": "OS2.0.203.0.VOUMIDC",
           "android": "15.0",
@@ -332,7 +343,7 @@
           "android": "15.0",
           "release": "2026-02-23",
           "recovery": "spring_in_global-ota_full-OS2.0.208.0.VOUINXM-user-15.0-8de18aea6f.zip",
-          "fastboot": ""
+          "fastboot": "spring_in_global_images_OS2.0.208.0.VOUINXM_20260204.0000.00_15.0_in_87d78fd62b.tgz"
         },
         "OS2.0.207.0.VOUINXM": {
           "os": "OS2.0.207.0.VOUINXM",
@@ -398,7 +409,7 @@
           "android": "15.0",
           "release": "2026-02-24",
           "recovery": "spring_tr_global-ota_full-OS2.0.202.0.VOUTRXM-user-15.0-8046850e9c.zip",
-          "fastboot": ""
+          "fastboot": "spring_tr_global_images_OS2.0.202.0.VOUTRXM_20260204.0000.00_15.0_tr_140cc9d943.tgz"
         },
         "OS2.0.201.0.VOUTRXM": {
           "os": "OS2.0.201.0.VOUTRXM",
@@ -533,7 +544,7 @@
           "android": "15.0",
           "release": "2026-02-24",
           "recovery": "spring_gt_tg_global-ota_full-OS2.0.205.0.VOUGTTG-user-15.0-bd378b7fe7.zip",
-          "fastboot": ""
+          "fastboot": "spring_gt_tg_global_images_OS2.0.205.0.VOUGTTG_20251117.0000.00_15.0_gt_tg_044c243470.tgz"
         },
         "OS2.0.204.0.VOUGTTG": {
           "os": "OS2.0.204.0.VOUGTTG",

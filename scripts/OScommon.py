@@ -104,8 +104,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['coral']
-currentStable = ['pudding', 'nezha', 'flute', 'organ', 'klee', 'dash', 'spinel','charoite','annibale', 'myron',
+unreleased = ['arctic', 'coral']
+currentStable = ['arctic', 'pudding', 'nezha', 'flute', 'organ', 'klee', 'dash', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'piano', 'yupei', 'tornado','goya', 'klimt', 'konghou', 'dew', 'spring', 'lapis', 'kunzite',
 								 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 

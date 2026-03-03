@@ -209,7 +209,7 @@
           "android": "15.0",
           "release": "2026-02-26",
           "recovery": "lapis_tw_global-ota_full-OS2.0.203.0.VPPTWXM-user-15.0-3b4ca1f1ed.zip",
-          "fastboot": ""
+          "fastboot": "lapis_tw_global_images_OS2.0.203.0.VPPTWXM_20260209.0000.00_15.0_tw_4ea8570611.tgz"
         },
         "OS2.0.202.0.VPPTWXM": {
           "os": "OS2.0.202.0.VPPTWXM",
@@ -261,7 +261,7 @@
           "android": "15.0",
           "release": "2026-02-23",
           "recovery": "lapis_global-ota_full-OS2.0.204.0.VPPMIXM-user-15.0-12389e89f2.zip",
-          "fastboot": ""
+          "fastboot": "lapis_global_images_OS2.0.204.0.VPPMIXM_20260209.0000.00_15.0_global_326566203b.tgz"
         },
         "OS2.0.203.0.VPPMIXM": {
           "os": "OS2.0.203.0.VPPMIXM",
@@ -509,6 +509,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.202.0.VPPIDXM": {
+          "os": "OS2.0.202.0.VPPIDXM",
+          "android": "15.0",
+          "release": "2026-03-03",
+          "recovery": "lapis_id_global-ota_full-OS2.0.202.0.VPPIDXM-user-15.0-93de666e23.zip",
+          "fastboot": ""
+        },
         "OS2.0.201.0.VPPIDXM": {
           "os": "OS2.0.201.0.VPPIDXM",
           "android": "15.0",
@@ -597,7 +604,7 @@
           "android": "15.0",
           "release": "2026-02-25",
           "recovery": "lapis_jp_global-ota_full-OS2.0.205.0.VPPJPXM-user-15.0-3a3a1a66d0.zip",
-          "fastboot": ""
+          "fastboot": "lapis_jp_global_images_OS2.0.205.0.VPPJPXM_20260202.0000.00_15.0_jp_7ced3d1061.tgz"
         },
         "OS2.0.204.0.VPPJPXM": {
           "os": "OS2.0.204.0.VPPJPXM",

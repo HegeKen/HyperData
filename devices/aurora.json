@@ -252,8 +252,8 @@
 					"android": "16.0",
 					"release": "2026-02-04",
 					"recovery": "aurora-ota_full-OS3.0.7.0.WNACNXM-user-16.0-56fe65bf28.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "aurora_images_OS3.0.7.0.WNACNXM_20260128.0000.00_16.0_cn_13d4b3bb47.tgz",
+					"ctelecom": "aurora_images_OS3.0.7.0.WNACNXM_20260128.0000.00_16.0_cn_chinatelecom_2ad27d2a02.tgz"
 				},
 				"OS3.0.6.0.WNACNXM": {
 					"os": "OS3.0.6.0.WNACNXM",
@@ -1507,6 +1507,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WNATRXM": {
+					"os": "OS3.0.3.0.WNATRXM",
+					"android": "16.0",
+					"release": "2026-03-03",
+					"recovery": "aurora_tr_global-ota_full-OS3.0.3.0.WNATRXM-user-16.0-8c8f0ea96a.zip",
+					"fastboot": ""
+				},
 				"OS3.0.1.0.WNATRXM": {
 					"os": "OS3.0.1.0.WNATRXM",
 					"android": "16.0",
