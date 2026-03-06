@@ -452,6 +452,7 @@ flags = {
 	"spinel_eea_global": "spinel",
 	"lapis_lm_cr_global": "lapis",
 	"spinel_lm_cr_global": "spinel",
+	"charoite_lm_cr_global": "charoite",
 	"spinel_ru_global": "spinel",
 	"spinel_id_global": "spinel",
 	"spinel_tr_global": "spinel",
@@ -2797,7 +2798,7 @@ def getFromApi(encrypted_data):
 	session.mount('http://', HTTPAdapter(max_retries=retries))
 	session.mount('https://', HTTPAdapter(max_retries=retries))
 	try:
-		response = session.post(check_url, headers=headers, data=data, timeout=10)
+		response = session.post(check_url, headers=headers, data=data, timeout=(5, 10))
 		if "code" in response.text:
 			i = 0
 		else:
@@ -2834,7 +2835,7 @@ def MiFirm2(url):
 	wrongs = [
 		"miui_LIUQIN_OS1.0.7.0.UMYCNXM_d618a5c980_14.0.zipp"
 	]
-	response = requests.post(url)
+	response = requests.post(url, timeout=(5, 10))
 	if (response.status_code == 200):
 		content = response.content.decode("utf8")
 		if content == "":
@@ -2865,7 +2866,7 @@ def getChangelog(encrypted_data, device):
 				 "Cookie": "serviceToken=;"
 				 }
 	data = "q=" + encrypted_data + "&s=1&t="
-	response = requests.post(check_url, headers=headers, data=data)
+	response = requests.post(check_url, headers=headers, data=data, timeout=(5, 10))
 	if "code" in response.text:
 		print(json.loads(response.text)["desc"])
 	else:
@@ -2893,7 +2894,7 @@ def getChangelog2DB(encrypted_data, device,version):
 				 "Cookie": "serviceToken=;"
 				 }
 	data = "q=" + encrypted_data + "&s=1&t="
-	response = requests.post(check_url, headers=headers, data=data)
+	response = requests.post(check_url, headers=headers, data=data, timeout=(5, 10))
 	if "'code'" in response.text:
 		print(json.loads(response.text)["desc"])
 	else:
@@ -2958,7 +2959,7 @@ def getFastboot(url):
 	headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
 				 'Connection': 'close'}
 	try:
-		response = s.post(url, headers=headers, json=True)
+		response = s.post(url, headers=headers, json=True, timeout=(5, 10))
 		if (response.status_code == 200):
 			content = response.content.decode('utf8')
 			if content == '':
