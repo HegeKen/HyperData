@@ -228,6 +228,234 @@
           "fastboot": "piano_demo_images_OS3.0.2.0.WPYCNDM_20250831.0000.00_16.0_cn_75f2c264ce.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "piano_tw_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPYTWXM": {
+          "os": "OS3.0.2.0.WPYTWXM",
+          "android": "16.0",
+          "release": "2026-03-09",
+          "recovery": "piano_tw_global-ota_full-OS3.0.2.0.WPYTWXM-user-16.0-ca2b216cdd.zip",
+          "fastboot": "piano_tw_global_images_OS3.0.2.0.WPYTWXM_20251114.0000.00_16.0_tw_bf4b0679f9.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "piano_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPYMIXM": {
+          "os": "OS3.0.2.0.WPYMIXM",
+          "android": "16.0",
+          "release": "2026-03-09",
+          "recovery": "piano_global-ota_full-OS3.0.2.0.WPYMIXM-user-16.0-d44157d06d.zip",
+          "fastboot": "piano_global_images_OS3.0.2.0.WPYMIXM_20251111.0000.00_16.0_global_82caea3939.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "piano_eea_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.5.0.WPYEUXM": {
+          "os": "OS3.0.5.0.WPYEUXM",
+          "android": "16.0",
+          "release": "2026-03-09",
+          "recovery": "piano_eea_global-ota_full-OS3.0.5.0.WPYEUXM-user-16.0-67bb4392a3.zip",
+          "fastboot": "piano_eea_global_images_OS3.0.5.0.WPYEUXM_20251111.0000.00_16.0_eea_28edd2c34e.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "piano_ru_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPYRUXM": {
+          "os": "OS3.0.2.0.WPYRUXM",
+          "android": "16.0",
+          "release": "2026-03-09",
+          "recovery": "piano_ru_global-ota_full-OS3.0.2.0.WPYRUXM-user-16.0-1910d1591b.zip",
+          "fastboot": "piano_ru_global_images_OS3.0.2.0.WPYRUXM_20251114.0000.00_16.0_ru_6c83261f42.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "piano_id_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPYIDXM": {
+          "os": "OS3.0.2.0.WPYIDXM",
+          "android": "16.0",
+          "release": "2026-03-09",
+          "recovery": "piano_id_global-ota_full-OS3.0.2.0.WPYIDXM-user-16.0-ed00525c95.zip",
+          "fastboot": "piano_id_global_images_OS3.0.2.0.WPYIDXM_20251114.0000.00_16.0_id_8af8ded42e.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "piano_tr_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8 Pro",
+        "en": "Xiaomi Pad 8 Pro"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPYTRXM": {
+          "os": "OS3.0.2.0.WPYTRXM",
+          "android": "16.0",
+          "release": "2026-03-09",
+          "recovery": "piano_tr_global-ota_full-OS3.0.2.0.WPYTRXM-user-16.0-e5b2b3bece.zip",
+          "fastboot": "piano_tr_global_images_OS3.0.2.0.WPYTRXM_20251114.0000.00_16.0_tr_4abaa293aa.tgz"
+        }
+      }
     }
   ]
 }

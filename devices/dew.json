@@ -6,10 +6,12 @@
   },
   "code": "BN",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -110,6 +112,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.1.0.WBNMIXM": {
+          "os": "OS3.0.1.0.WBNMIXM",
+          "android": "16.0",
+          "release": "2026-03-09",
+          "recovery": "dew_global-ota_full-OS3.0.1.0.WBNMIXM-user-16.0-1de1d1c7c5.zip",
+          "fastboot": ""
+        },
         "OS2.0.217.0.VBNMIXM": {
           "os": "OS2.0.217.0.VBNMIXM",
           "android": "15.0",
@@ -256,6 +265,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.216.0.VBNEUXM": {
+          "os": "OS2.0.216.0.VBNEUXM",
+          "android": "15.0",
+          "release": "2026-03-09",
+          "recovery": "dew_eea_global-ota_full-OS2.0.216.0.VBNEUXM-user-15.0-6c0c4d76d8.zip",
+          "fastboot": ""
+        },
         "OS2.0.215.0.VBNEUXM": {
           "os": "OS2.0.215.0.VBNEUXM",
           "android": "15.0",
