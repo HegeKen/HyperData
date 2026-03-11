@@ -22,7 +22,7 @@ for device in OScommon.currentStable:
         i = 0
       else:
         if branch == 'X' or branch == 'D' or "Enterprise" in devdata["branches"][num]["name"]["en"] or "EP" in devdata["branches"][num]["name"]["en"]:
-          print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t正在完成 "+device+"， 分支为："+devdata["branches"][num]["branchCode"]+"，版本为: "+version,end="               ", flush=True)
+          print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测",device,devdata["branches"][num]["branchCode"],version,end="                                            ", flush=True)
           OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, version)))
         else:
           for rom in devdata['branches'][num]["roms"]:
@@ -35,7 +35,7 @@ for device in OScommon.currentStable:
                   if version in devdata:
                     i = 0
                   else:
-                    print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"\t正在完成 "+device+"， 分支为："+devdata["branches"][num]["branchCode"]+"，版本为: "+version,end="               ", flush=True)
+                    print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测",device,devdata["branches"][num]["branchCode"],version,end="                                            ", flush=True)
                     OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, code, region, branch, zone, android, version)))
                 else:
                   i = 0

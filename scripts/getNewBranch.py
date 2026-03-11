@@ -32,7 +32,7 @@ for device in devices:
 						if version in devdata:
 							i = 0
 						else:
-							print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测的是",device,devcode,version,end="                                            ", flush=True)
+							print("\r",datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"正在检测",device,devcode,version,end="                                            ", flush=True)
 							if device in one_devices:
 								OScommon.getFromApi(OScommon.miui_encrypt(OScommon.OTAFormer(device, devcode, '', 'F', branch['zone'], andv, version)))
 							else:
