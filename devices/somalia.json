@@ -1,0 +1,64 @@
+{
+  "device": "somalia",
+  "name": {
+    "zh": "POCO C85x 5G",
+    "en": "POCO C85x 5G"
+  },
+  "code": "BW",
+  "suppports": [
+    "OS3.0"
+  ],
+  "android": [
+    "16.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度正式版",
+        "en": "Xiaomi HyperOS India Stable"
+      },
+      "branchCode": "somalia_in_global",
+      "brand": "POCO",
+      "device": {
+        "zh": "POCO C85x 5G",
+        "en": "POCO C85x 5G"
+      },
+      "idtag": "INSO",
+      "tag": "INXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "in",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.3.0.WBWINXM": {
+          "os": "OS3.0.3.0.WBWINXM",
+          "android": "16.0",
+          "release": "2026-03-12",
+          "recovery": "somalia_in_global-ota_full-OS3.0.3.0.WBWINXM-user-16.0-e610569a1a.zip",
+          "fastboot": "somalia_in_global-images-OS3.0.3.0.WBWINXM-user-20260226.0000.00-16.0-in-58a2805f73.tgz"
+        },
+        "OS3.0.1.0.WBWINXM": {
+          "os": "OS3.0.1.0.WBWINXM",
+          "android": "16.0",
+          "release": "2026-03-12",
+          "recovery": "somalia_in_global-ota_full-OS3.0.1.0.WBWINXM-user-16.0-09f1203569.zip",
+          "fastboot": ""
+        }
+      }
+    }
+  ]
+}
