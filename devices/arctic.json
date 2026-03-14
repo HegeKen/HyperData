@@ -4,7 +4,7 @@
     "zh": "REDMI A7 Pro",
     "en": "REDMI A7 Pro"
   },
-  "code": "",
+  "code": "BV",
   "suppports": [
     "OS3.0"
   ],
@@ -17,44 +17,39 @@
   "branches": [
     {
       "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
       },
-      "branchCode": "arctic",
+      "branchCode": "arctic_id_global",
       "brand": "REDMI",
       "device": {
         "zh": "REDMI A7 Pro",
         "en": "REDMI A7 Pro"
       },
-      "idtag": "CnOO",
-      "tag": "CNXM",
+      "idtag": "IDSO",
+      "tag": "IDXM",
       "branchtag": "F",
       "table": [
         "os",
         "android",
         "release",
         "recovery",
-        "fastboot",
-        "ctelecom"
+        "fastboot"
       ],
       "show": "1",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        ""
       ],
-      "region": "cn",
-      "zone": "1",
+      "region": "id",
+      "zone": "2",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
-          "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+        "OS3.0.1.0.WBVIDXM": {
+          "os": "OS3.0.1.0.WBVIDXM",
+          "android": "16.0",
+          "release": "2026-03-13",
+          "recovery": "arctic_id_global-ota_full-OS3.0.1.0.WBVIDXM-user-16.0-0b43221d7b.zip",
+          "fastboot": "arctic_id_global-images-OS3.0.1.0.WBVIDXM-user-20260123.0000.00-16.0-id-0844ea7b26.tgz"
         }
       }
     }

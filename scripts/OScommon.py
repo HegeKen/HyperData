@@ -104,7 +104,7 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['arctic', 'coral']
+unreleased = ['coral']
 currentStable = ['somalia', 'arctic', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'klee', 'dash', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou', 'dew', 'spring', 'lapis', 'kunzite',
 								 'coral', 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
@@ -436,6 +436,7 @@ flags = {
 	"nezha_tr_global": "nezha",
 	"flourite_lm_cr_global": "flourite",
 	"kunzite_global": "kunzite",
+	"arctic_id_global": "arctic",
 	"kunzite_tw_global": "kunzite",
 	"kunzite_eea_global": "kunzite",
 	"kunzite_ru_global": "kunzite",
