@@ -1,8 +1,40 @@
 {
   "recent": {
-    "time": "2026-03-16 12:09:20",
+    "time": "2026-03-16 20:27:11",
     "developing": "no",
     "roms": [
+      {
+        "code": "dada",
+        "name": {
+          "zh": "小米 15",
+          "en": "Xiaomi 15"
+        },
+        "rom": "OS3.0.3.0.WOCLMCR"
+      },
+      {
+        "code": "goya",
+        "name": {
+          "zh": "小米 15T",
+          "en": "Xiaomi 15T"
+        },
+        "rom": "OS3.0.3.0.WOELMCR"
+      },
+      {
+        "code": "klimt",
+        "name": {
+          "zh": "小米 15T Pro",
+          "en": "Xiaomi 15T Pro"
+        },
+        "rom": "OS3.0.3.0.WOSLMCR"
+      },
+      {
+        "code": "fire",
+        "name": {
+          "zh": "Redmi 12 国际",
+          "en": "Redmi 12"
+        },
+        "rom": "OS2.0.205.0.VMXLMCR"
+      },
       {
         "code": "lake",
         "name": {
@@ -17,7 +49,23 @@
           "zh": "REDMI 15C 5G / REDMI 15R 5G",
           "en": "REDMI 15C 5G / REDMI 15R 5G"
         },
-        "rom": "OS3.0.1.0.WPOINXM"
+        "rom": "OS2.0.207.0.VPOEUXM; OS3.0.1.0.WPOINXM"
+      },
+      {
+        "code": "tapas",
+        "name": {
+          "zh": "Redmi Note 12 4G",
+          "en": "Redmi Note 12 4G"
+        },
+        "rom": "OS2.0.203.0.VMTLMCR"
+      },
+      {
+        "code": "emerald",
+        "name": {
+          "zh": "Redmi Note 13 Pro 4G / POCO M6 Pro",
+          "en": "Redmi Note 13 Pro 4G / POCO M6 Pro"
+        },
+        "rom": "OS3.0.1.0.WNFRUXM; OS3.0.1.0.WNFTRXM"
       },
       {
         "code": "beryl",
@@ -26,6 +74,14 @@
           "en": "Redmi Note 14 5G / POCO M7 Pro 5G"
         },
         "rom": "OS2.0.207.0.VOQIDXM"
+      },
+      {
+        "code": "malachite",
+        "name": {
+          "zh": "Redmi Note 14 Pro / POCO X7",
+          "en": "Redmi Note 14 Pro / POCO X7"
+        },
+        "rom": "OS3.0.3.0.WOOTWXM; OS3.0.5.0.WOOINXM; OS3.0.3.0.WOOTRXM; OS3.0.3.0.WOOJPXM"
       },
       {
         "code": "emerald_r",
@@ -42,6 +98,22 @@
           "en": "REDMI Note 15 Pro+ 5G"
         },
         "rom": "OS2.0.206.0.VPRMIDC; OS2.0.208.0.VPRIDXM"
+      },
+      {
+        "code": "rothko",
+        "name": {
+          "zh": "Redmi K70 至尊版 / 小米 14T Pro",
+          "en": "Redmi K70 Ultra / Xiaomi 14T Pro"
+        },
+        "rom": "OS3.0.7.0.WNNEUXM"
+      },
+      {
+        "code": "organ",
+        "name": {
+          "zh": "REDMI 平板 2 Pro 5G",
+          "en": "REDMI Pad 2 Pro 5G"
+        },
+        "rom": "OS3.0.1.0.WPXINXM"
       }
     ]
   }
