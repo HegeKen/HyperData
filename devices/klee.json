@@ -148,6 +148,272 @@
           "ctelecom": "klee_demo_images_OS3.0.4.0.WPJCNDM_20260121.0000.00_16.0_cn_chinatelecom_9bc4a0c21b.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
+      },
+      "branchCode": "klee_tw_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5",
+        "en": "REDMI Turbo 5"
+      },
+      "idtag": "CNTP",
+      "tag": "TWXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tw",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPJTWXM": {
+          "os": "OS3.0.2.0.WPJTWXM",
+          "android": "16.0",
+          "release": "2026-03-17",
+          "recovery": "klee_tw_global-ota_full-OS3.0.2.0.WPJTWXM-user-16.0-bb1d234fa9.zip",
+          "fastboot": "klee_tw_global_images_OS3.0.2.0.WPJTWXM_20260301.0000.00_16.0_tw_fce86434fc.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "klee_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5",
+        "en": "REDMI Turbo 5"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.4.0.WPJMIXM": {
+          "os": "OS3.0.4.0.WPJMIXM",
+          "android": "16.0",
+          "release": "2026-03-17",
+          "recovery": "klee_global-ota_full-OS3.0.4.0.WPJMIXM-user-16.0-e5b494e136.zip",
+          "fastboot": "klee_global_images_OS3.0.4.0.WPJMIXM_20260306.0000.00_16.0_global_d61856eaa2.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "klee_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5",
+        "en": "REDMI Turbo 5"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.4.0.WPJEUXM": {
+          "os": "OS3.0.4.0.WPJEUXM",
+          "android": "16.0",
+          "release": "2026-03-17",
+          "recovery": "klee_eea_global-ota_full-OS3.0.4.0.WPJEUXM-user-16.0-3255e8e6d9.zip",
+          "fastboot": "klee_eea_global_images_OS3.0.4.0.WPJEUXM_20260311.0000.00_16.0_eea_ce7ece8f72.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 俄罗斯正式版",
+        "en": "Xiaomi HyperOS Russia Stable"
+      },
+      "branchCode": "klee_ru_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5",
+        "en": "REDMI Turbo 5"
+      },
+      "idtag": "RUSO",
+      "tag": "RUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "ru",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.3.0.WPJRUXM": {
+          "os": "OS3.0.3.0.WPJRUXM",
+          "android": "16.0",
+          "release": "2026-03-17",
+          "recovery": "klee_ru_global-ota_full-OS3.0.3.0.WPJRUXM-user-16.0-4b6263d618.zip",
+          "fastboot": "klee_ru_global_images_OS3.0.3.0.WPJRUXM_20260301.0000.00_16.0_ru_fe2d3fef6d.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度正式版",
+        "en": "Xiaomi HyperOS India Stable"
+      },
+      "branchCode": "klee_in_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5",
+        "en": "REDMI Turbo 5"
+      },
+      "idtag": "INSO",
+      "tag": "INXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "in",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.3.0.WPJINXM": {
+          "os": "OS3.0.3.0.WPJINXM",
+          "android": "16.0",
+          "release": "2026-03-17",
+          "recovery": "klee_in_global-ota_full-OS3.0.3.0.WPJINXM-user-16.0-64ffad91f5.zip",
+          "fastboot": "klee_in_global_images_OS3.0.3.0.WPJINXM_20260207.0000.00_16.0_in_402668e514.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "klee_id_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5",
+        "en": "REDMI Turbo 5"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.3.0.WPJIDXM": {
+          "os": "OS3.0.3.0.WPJIDXM",
+          "android": "16.0",
+          "release": "2026-03-17",
+          "recovery": "klee_id_global-ota_full-OS3.0.3.0.WPJIDXM-user-16.0-a13b3547f5.zip",
+          "fastboot": "klee_id_global_images_OS3.0.3.0.WPJIDXM_20260207.0000.00_16.0_id_1f81bef060.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "klee_tr_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Turbo 5",
+        "en": "REDMI Turbo 5"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.2.0.WPJTRXM": {
+          "os": "OS3.0.2.0.WPJTRXM",
+          "android": "16.0",
+          "release": "2026-03-17",
+          "recovery": "klee_tr_global-ota_full-OS3.0.2.0.WPJTRXM-user-16.0-1967442d86.zip",
+          "fastboot": "klee_tr_global_images_OS3.0.2.0.WPJTRXM_20260301.0000.00_16.0_tr_b09bae9672.tgz"
+        }
+      }
     }
   ]
 }
