@@ -55,8 +55,8 @@
           "android": "16.0",
           "release": "2026-03-12",
           "recovery": "flourite-ota_full-OS3.0.7.0.WPRCNXM-user-16.0-f6c1faba6e.zip",
-          "fastboot": "",
-          "ctelecom": ""
+          "fastboot": "flourite_images_OS3.0.7.0.WPRCNXM_20260301.0000.00_16.0_cn_9bce7610b4.tgz",
+          "ctelecom": "flourite_images_OS3.0.7.0.WPRCNXM_20260301.0000.00_16.0_cn_chinatelecom_d979211d88.tgz"
         },
         "OS3.0.6.0.WPRCNXM": {
           "os": "OS3.0.6.0.WPRCNXM",
@@ -291,7 +291,7 @@
           "android": "15.0",
           "release": "2026-03-16",
           "recovery": "flourite_dc_global-ota_full-OS2.0.206.0.VPRMIDC-user-15.0-0095e292bc.zip",
-          "fastboot": ""
+          "fastboot": "flourite_dc_global_images_OS2.0.206.0.VPRMIDC_20260305.0000.00_15.0_global_dc_34298f1bb1.tgz"
         },
         "OS2.0.204.0.VPRMIDC": {
           "os": "OS2.0.204.0.VPRMIDC",
@@ -383,6 +383,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.205.0.VPRRUXM": {
+          "os": "OS2.0.205.0.VPRRUXM",
+          "android": "15.0",
+          "release": "2026-03-23",
+          "recovery": "flourite_ru_global-ota_full-OS2.0.205.0.VPRRUXM-user-15.0-2edccc58ea.zip",
+          "fastboot": ""
+        },
         "OS2.0.204.0.VPRRUXM": {
           "os": "OS2.0.204.0.VPRRUXM",
           "android": "15.0",
@@ -471,7 +478,7 @@
           "android": "15.0",
           "release": "2026-03-16",
           "recovery": "flourite_id_global-ota_full-OS2.0.208.0.VPRIDXM-user-15.0-2f593c1385.zip",
-          "fastboot": ""
+          "fastboot": "flourite_id_global_images_OS2.0.208.0.VPRIDXM_20260305.0000.00_15.0_id_f2bf0d7870.tgz"
         },
         "OS2.0.203.0.VPRIDXM": {
           "os": "OS2.0.203.0.VPRIDXM",
@@ -518,6 +525,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.205.0.VPRTRXM": {
+          "os": "OS2.0.205.0.VPRTRXM",
+          "android": "15.0",
+          "release": "2026-03-23",
+          "recovery": "flourite_tr_global-ota_full-OS2.0.205.0.VPRTRXM-user-15.0-3cbe5b16e4.zip",
+          "fastboot": ""
+        },
         "OS2.0.203.0.VPRTRXM": {
           "os": "OS2.0.203.0.VPRTRXM",
           "android": "15.0",

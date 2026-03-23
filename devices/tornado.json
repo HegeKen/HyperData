@@ -236,6 +236,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.1.0.WPOMIDC": {
+          "os": "OS3.0.1.0.WPOMIDC",
+          "android": "16.0",
+          "release": "2026-03-23",
+          "recovery": "tornado_dc_global-ota_full-OS3.0.1.0.WPOMIDC-user-16.0-8f543603bb.zip",
+          "fastboot": ""
+        },
         "OS2.0.206.0.VPOMIDC": {
           "os": "OS2.0.206.0.VPOMIDC",
           "android": "15.0",
@@ -300,7 +307,7 @@
           "android": "15.0",
           "release": "2026-03-16",
           "recovery": "tornado_eea_global-ota_full-OS2.0.207.0.VPOEUXM-user-15.0-06698b623c.zip",
-          "fastboot": ""
+          "fastboot": "tornado_eea_global_images_OS2.0.207.0.VPOEUXM_20260310.0000.00_15.0_eea_480ce21eeb.tgz"
         },
         "OS2.0.205.0.VPOEUXM": {
           "os": "OS2.0.205.0.VPOEUXM",
