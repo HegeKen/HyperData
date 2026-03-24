@@ -277,6 +277,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.2.0.WPQMIDC": {
+          "os": "OS3.0.2.0.WPQMIDC",
+          "android": "16.0",
+          "release": "2026-03-24",
+          "recovery": "kunzite_dc_global-ota_full-OS3.0.2.0.WPQMIDC-user-16.0-bde9d5445b.zip",
+          "fastboot": ""
+        },
         "OS2.0.206.0.VPQMIDC": {
           "os": "OS2.0.206.0.VPQMIDC",
           "android": "15.0",
@@ -521,7 +528,7 @@
           "android": "15.0",
           "release": "2026-03-18",
           "recovery": "kunzite_lm_cr_global-ota_full-OS2.0.204.0.VPQLMCR-user-15.0-c598b07c86.zip",
-          "fastboot": ""
+          "fastboot": "kunzite_lm_cr_global_images_OS2.0.204.0.VPQLMCR_20260305.0000.00_15.0_lm_cr_5894bafa36.tgz"
         },
         "OS2.0.203.0.VPQLMCR": {
           "os": "OS2.0.203.0.VPQLMCR",
