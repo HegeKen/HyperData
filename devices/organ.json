@@ -19,6 +19,49 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "organ",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 平板 2 Pro 5G",
+				"en": "REDMI Pad 2 Pro 5G"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WPXCNXM": {
+					"os": "OS3.0.1.0.WPXCNXM",
+					"android": "16.0",
+					"release": "2026-03-26",
+					"recovery": "organ-ota_full-OS3.0.1.0.WPXCNXM-user-16.0-52c20bc12f.zip",
+					"fastboot": "organ_images_OS3.0.1.0.WPXCNXM_20260310.0000.00_16.0_cn_a432a9fafa.tgz",
+					"ctelecom": "organ_images_OS3.0.1.0.WPXCNXM_20260310.0000.00_16.0_cn_chinatelecom_7662443762.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
