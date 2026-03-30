@@ -6,10 +6,12 @@
   },
   "code": "PG",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -103,12 +105,19 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.3.0.WPGMIXM": {
+          "os": "OS3.0.3.0.WPGMIXM",
+          "android": "16.0",
+          "release": "2026-03-30",
+          "recovery": "spinel_global-ota_full-OS3.0.3.0.WPGMIXM-user-16.0-44fae862c8.zip",
+          "fastboot": ""
+        },
         "OS2.0.212.0.VPGMIXM": {
           "os": "OS2.0.212.0.VPGMIXM",
           "android": "15.0",
           "release": "2026-03-20",
           "recovery": "spinel_global-ota_full-OS2.0.212.0.VPGMIXM-user-15.0-d31a3a0106.zip",
-          "fastboot": ""
+          "fastboot": "spinel_global_images_OS2.0.212.0.VPGMIXM_20260311.0000.00_15.0_global_1e7d24d317.tgz"
         },
         "OS2.0.211.0.VPGMIXM": {
           "os": "OS2.0.211.0.VPGMIXM",
@@ -242,6 +251,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS2.0.212.0.VPGEUXM": {
+          "os": "OS2.0.212.0.VPGEUXM",
+          "android": "15.0",
+          "release": "2026-03-30",
+          "recovery": "spinel_eea_global-ota_full-OS2.0.212.0.VPGEUXM-user-15.0-6023152a6b.zip",
+          "fastboot": ""
+        },
         "OS2.0.211.0.VPGEUXM": {
           "os": "OS2.0.211.0.VPGEUXM",
           "android": "15.0",

@@ -57,8 +57,8 @@
 					"android": "16.0",
 					"release": "2026-03-20",
 					"recovery": "garnet-ota_full-OS3.0.7.0.WNRCNXM-user-16.0-095775f71a.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "garnet_images_OS3.0.7.0.WNRCNXM_20260313.0000.00_16.0_cn_848bd2508a.tgz",
+					"ctelecom": "garnet_images_OS3.0.7.0.WNRCNXM_20260313.0000.00_16.0_cn_chinatelecom_9577c8bcd2.tgz"
 				},
 				"OS3.0.6.0.WNRCNXM": {
 					"os": "OS3.0.6.0.WNRCNXM",
@@ -1240,6 +1240,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.WNRINXM": {
+					"os": "OS3.0.2.0.WNRINXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "garnet_in_global-ota_full-OS3.0.2.0.WNRINXM-user-16.0-b8b55843b7.zip",
+					"fastboot": ""
+				},
 				"OS3.0.1.0.WNRINXM": {
 					"os": "OS3.0.1.0.WNRINXM",
 					"android": "16.0",
