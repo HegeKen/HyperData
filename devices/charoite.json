@@ -6,10 +6,12 @@
   },
   "code": "PF",
   "suppports": [
-    "OS2.0"
+    "OS2.0",
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "15.0",
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -44,6 +46,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.2.0.WPFMIXM": {
+          "os": "OS3.0.2.0.WPFMIXM",
+          "android": "16.0",
+          "release": "2026-03-31",
+          "recovery": "charoite_global-ota_full-OS3.0.2.0.WPFMIXM-user-16.0-b13564bb20.zip",
+          "fastboot": ""
+        },
         "OS2.0.210.0.VPFMIXM": {
           "os": "OS2.0.210.0.VPFMIXM",
           "android": "15.0",
