@@ -17,6 +17,44 @@
   "branches": [
     {
       "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "arctic_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI A7 Pro",
+        "en": "REDMI A7 Pro"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.5.0.WBVMIXM": {
+          "os": "OS3.0.5.0.WBVMIXM",
+          "android": "16.0",
+          "release": "2026-04-01",
+          "recovery": "arctic_global-ota_full-OS3.0.5.0.WBVMIXM-user-16.0-07a935ce66.zip",
+          "fastboot": "arctic_global-images-OS3.0.5.0.WBVMIXM-user-20260306.0000.00-16.0-global-3d59d676b6.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 印度尼西亚正式版",
         "en": "Xiaomi HyperOS Indonesia Stable"
       },

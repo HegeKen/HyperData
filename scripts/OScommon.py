@@ -878,6 +878,7 @@ flags = {
 	"piano_tr_global": "piano",
 	"piano_global": "piano",
 	"yupei_global": "yupei",
+	"arctic_global": "arctic",
 	"yupei_eea_global": "yupei",
 	"yupei_ru_global": "yupei",
 	"yupei_id_global": "yupei",
