@@ -196,7 +196,7 @@
 					"android": "16.0",
 					"release": "2026-03-23",
 					"recovery": "degas_global-ota_full-OS3.0.4.0.WNEMIXM-user-16.0-f243ab6cf2.zip",
-					"fastboot": ""
+					"fastboot": "degas_global_images_OS3.0.4.0.WNEMIXM_20260311.0000.00_16.0_global_c590f859b6.tgz"
 				},
 				"OS3.0.3.0.WNEMIXM": {
 					"os": "OS3.0.3.0.WNEMIXM",
@@ -346,7 +346,7 @@
 					"android": "16.0",
 					"release": "2026-04-01",
 					"recovery": "degas_dc_global-ota_full-OS3.0.6.0.WNEMIDC-user-16.0-3d4d66fe2b.zip",
-					"fastboot": ""
+					"fastboot": "degas_dc_global_images_OS3.0.6.0.WNEMIDC_20260321.0000.00_16.0_global_dc_6141a76109.tgz"
 				},
 				"OS3.0.3.0.WNEMIDC": {
 					"os": "OS3.0.3.0.WNEMIDC",
@@ -937,6 +937,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.WNETRXM": {
+					"os": "OS3.0.4.0.WNETRXM",
+					"android": "16.0",
+					"release": "2026-04-07",
+					"recovery": "degas_tr_global-ota_full-OS3.0.4.0.WNETRXM-user-16.0-4a6f08dd4e.zip",
+					"fastboot": ""
+				},
 				"OS3.0.1.0.WNETRXM": {
 					"os": "OS3.0.1.0.WNETRXM",
 					"android": "16.0",
@@ -1078,7 +1085,7 @@
 					"android": "15.0",
 					"release": "2026-03-31",
 					"recovery": "degas_mx_at_global-ota_full-OS2.0.203.0.VNEMXAT-user-15.0-c4c7e47781.zip",
-					"fastboot": ""
+					"fastboot": "degas_mx_at_global_images_OS2.0.203.0.VNEMXAT_20260120.0000.00_15.0_mx_at_6d79cd0b26.tgz"
 				},
 				"OS2.0.202.0.VNEMXAT": {
 					"os": "OS2.0.202.0.VNEMXAT",
