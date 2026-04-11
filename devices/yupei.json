@@ -515,6 +515,44 @@
     },
     {
       "name": {
+        "zh": "小米澎湃 OS 印度尼西亚 Demo",
+        "en": "Xiaomi HyperOS Indonesia MiStore Demo"
+      },
+      "branchCode": "yupei_id_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 8",
+        "en": "Xiaomi Pad 8"
+      },
+      "idtag": "IDDM",
+      "tag": "IDDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.302.0.WPZIDDM": {
+          "os": "OS3.0.302.0.WPZIDDM",
+          "android": "16.0",
+          "release": "2026-04-10",
+          "recovery": "yupei_id_global-ota_full-OS3.0.302.0.WPZIDDM-user-16.0-8f1bfebb0f.zip",
+          "fastboot": "yupei_id_global_images_OS3.0.302.0.WPZIDDM_20260401.0000.00_16.0_id_21113635b1.tgz"
+        }
+      }
+    },
+    {
+      "name": {
         "zh": "小米澎湃 OS 土耳其正式版",
         "en": "Xiaomi HyperOS Turkey Stable"
       },
