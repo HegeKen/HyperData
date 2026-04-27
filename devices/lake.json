@@ -1,1193 +1,1200 @@
 {
-  "device": "lake",
-  "name": {
-    "zh": "Redmi 14C",
-    "en": "Redmi 14C"
-  },
-  "code": "GT",
-  "suppports": [
-    "OS1.0",
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "14.0",
-    "15.0",
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "lake",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WGTCNXM": {
-          "os": "OS3.0.1.0.WGTCNXM",
-          "android": "16.0",
-          "release": "2026-01-30",
-          "recovery": "lake-ota_full-OS3.0.1.0.WGTCNXM-user-16.0-3e29d77fe7.zip",
-          "fastboot": "lake_images_OS3.0.1.0.WGTCNXM_20260124.0000.00_16.0_cn_0cc63e0273.tgz"
-        },
-        "OS2.0.201.0.VGTCNXM": {
-          "os": "OS2.0.201.0.VGTCNXM",
-          "android": "15.0",
-          "release": "2025-09-22",
-          "recovery": "lake-ota_full-OS2.0.201.0.VGTCNXM-user-15.0-b373358c77.zip",
-          "fastboot": "lake_images_OS2.0.201.0.VGTCNXM_20250912.0000.00_15.0_cn_b4a18d2076.tgz"
-        },
-        "OS2.0.200.0.VGTCNXM": {
-          "os": "OS2.0.200.0.VGTCNXM",
-          "android": "15.0",
-          "release": "2025-07-10",
-          "recovery": "lake-ota_full-OS2.0.200.0.VGTCNXM-user-15.0-9dceefa59f.zip",
-          "fastboot": "lake_images_OS2.0.200.0.VGTCNXM_20250630.0000.00_15.0_cn_7a9ea16816.tgz"
-        },
-        "OS2.0.2.0.VGTCNXM": {
-          "os": "OS2.0.2.0.VGTCNXM",
-          "android": "15.0",
-          "release": "2025-04-02",
-          "recovery": "lake-ota_full-OS2.0.2.0.VGTCNXM-user-15.0-e0f7dfa091.zip",
-          "fastboot": "lake_images_OS2.0.2.0.VGTCNXM_20250328.0000.00_15.0_cn_6a3458bb96.tgz"
-        },
-        "OS1.0.5.0.UGTCNXM": {
-          "os": "OS1.0.5.0.UGTCNXM",
-          "android": "14.0",
-          "release": "2025-05-26",
-          "recovery": "miui_LAKE_OS1.0.5.0.UGTCNXM_540ab767e0_14.0.zip",
-          "fastboot": "lake_images_OS1.0.5.0.UGTCNXM_20250513.0000.00_14.0_cn_893506fc78.tgz"
-        },
-        "OS1.0.3.0.UGTCNXM": {
-          "os": "OS1.0.3.0.UGTCNXM",
-          "android": "14.0",
-          "release": "2025-04-15",
-          "recovery": "miui_LAKE_OS1.0.3.0.UGTCNXM_c1e8d054df_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.2.0.UGTCNXM": {
-          "os": "OS1.0.2.0.UGTCNXM",
-          "android": "14.0",
-          "release": "2025-02-14",
-          "recovery": "miui_LAKE_OS1.0.2.0.UGTCNXM_26b5b68631_14.0.zip",
-          "fastboot": "lake_images_OS1.0.2.0.UGTCNXM_20250206.0000.00_14.0_cn_622f69b777.tgz"
-        },
-        "OS1.0.1.0.UGTCNXM": {
-          "os": "OS1.0.1.0.UGTCNXM",
-          "android": "14.0",
-          "release": "2025-01-03",
-          "recovery": "miui_LAKE_OS1.0.1.0.UGTCNXM_c38a6a4af3_14.0.zip",
-          "fastboot": "lake_images_OS1.0.1.0.UGTCNXM_20241125.0000.00_14.0_cn_dd1bc85a04.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾省正式版",
-        "en": "Xiaomi HyperOS China Taiwan Province Stable"
-      },
-      "branchCode": "lake_tw_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "CNTP",
-      "tag": "TWXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.201.0.VGTTWXM": {
-          "os": "OS2.0.201.0.VGTTWXM",
-          "android": "15.0",
-          "release": "2025-11-07",
-          "recovery": "lake_tw_global-ota_full-OS2.0.201.0.VGTTWXM-user-15.0-448ed4dad8.zip",
-          "fastboot": "lake_tw_global_images_OS2.0.201.0.VGTTWXM_20251022.0000.00_15.0_tw_95ea94efa1.tgz"
-        },
-        "OS2.0.200.0.VGTTWXM": {
-          "os": "OS2.0.200.0.VGTTWXM",
-          "android": "15.0",
-          "release": "2025-09-22",
-          "recovery": "lake_tw_global-ota_full-OS2.0.200.0.VGTTWXM-user-15.0-275155c51d.zip",
-          "fastboot": "lake_tw_global_images_OS2.0.200.0.VGTTWXM_20250827.0000.00_15.0_tw_64c0bf22ff.tgz"
-        },
-        "OS2.0.2.0.VGTTWXM": {
-          "os": "OS2.0.2.0.VGTTWXM",
-          "android": "15.0",
-          "release": "2025-07-20",
-          "recovery": "lake_tw_global-ota_full-OS2.0.2.0.VGTTWXM-user-15.0-f5b49fe46f.zip",
-          "fastboot": "lake_tw_global_images_OS2.0.2.0.VGTTWXM_20250710.0000.00_15.0_tw_bd9b1991b6.tgz"
-        },
-        "OS2.0.1.0.VGTTWXM": {
-          "os": "OS2.0.1.0.VGTTWXM",
-          "android": "15.0",
-          "release": "2025-05-26",
-          "recovery": "lake_tw_global-ota_full-OS2.0.1.0.VGTTWXM-user-15.0-f671ac881d.zip",
-          "fastboot": "lake_tw_global_images_OS2.0.1.0.VGTTWXM_20250506.0000.00_15.0_tw_d950a9f436.tgz"
-        },
-        "OS1.0.7.0.UGTTWXM": {
-          "os": "OS1.0.7.0.UGTTWXM",
-          "android": "14.0",
-          "release": "2025-03-31",
-          "recovery": "miui_LAKETWGlobal_OS1.0.7.0.UGTTWXM_a0dcbe11d2_14.0.zip",
-          "fastboot": "lake_tw_global_images_OS1.0.7.0.UGTTWXM_20250314.0000.00_14.0_tw_5687de9cc6.tgz"
-        },
-        "OS1.0.6.0.UGTTWXM": {
-          "os": "OS1.0.6.0.UGTTWXM",
-          "android": "14.0",
-          "release": "2025-02-13",
-          "recovery": "miui_LAKETWGlobal_OS1.0.6.0.UGTTWXM_814172d5dc_14.0.zip",
-          "fastboot": "lake_tw_global_images_OS1.0.6.0.UGTTWXM_20250121.0000.00_14.0_tw_ec890feb45.tgz"
-        },
-        "OS1.0.5.0.UGTTWXM": {
-          "os": "OS1.0.5.0.UGTTWXM",
-          "android": "14.0",
-          "release": "2024-12-19",
-          "recovery": "miui_LAKETWGlobal_OS1.0.5.0.UGTTWXM_57bf17abce_14.0.zip",
-          "fastboot": "lake_tw_global_images_OS1.0.5.0.UGTTWXM_20241202.0000.00_14.0_tw_91a0ef1105.tgz"
-        },
-        "OS1.0.3.0.UGTTWXM": {
-          "os": "OS1.0.3.0.UGTTWXM",
-          "android": "14.0",
-          "release": "2024-11-02",
-          "recovery": "miui_LAKETWGlobal_OS1.0.3.0.UGTTWXM_13f643ab06_14.0.zip",
-          "fastboot": "lake_tw_global_images_OS1.0.3.0.UGTTWXM_20241029.0000.00_14.0_tw_3bdc0bdaab.tgz"
-        },
-        "OS1.0.2.0.UGTTWXM": {
-          "os": "OS1.0.2.0.UGTTWXM",
-          "android": "14.0",
-          "release": "2024-10-13",
-          "recovery": "miui_LAKETWGlobal_OS1.0.2.0.UGTTWXM_09fd1bda08_14.0.zip",
-          "fastboot": "lake_tw_global_images_OS1.0.2.0.UGTTWXM_20241009.0000.00_14.0_tw_e2afbf4295.tgz"
-        },
-        "OS1.0.1.0.UGTTWXM": {
-          "os": "OS1.0.1.0.UGTTWXM",
-          "android": "14.0",
-          "release": "2024-09-27",
-          "recovery": "miui_LAKETWGlobal_OS1.0.1.0.UGTTWXM_ee6d01bc16_14.0.zip",
-          "fastboot": "lake_tw_global_images_OS1.0.1.0.UGTTWXM_20240828.0000.00_14.0_tw_b94052ab0e.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "lake_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.18.0.WGTMIXM": {
-          "os": "OS3.0.18.0.WGTMIXM",
-          "android": "16.0",
-          "release": "2026-02-25",
-          "recovery": "lake_global-ota_full-OS3.0.18.0.WGTMIXM-user-16.0-e592ad4d68.zip",
-          "fastboot": "lake_global_images_OS3.0.18.0.WGTMIXM_20260204.0000.00_16.0_global_3b1f0872b1.tgz"
-        },
-        "OS3.0.6.0.WGTMIXM": {
-          "os": "OS3.0.6.0.WGTMIXM",
-          "android": "16.0",
-          "release": "2025-12-27",
-          "recovery": "lake_global-ota_full-OS3.0.6.0.WGTMIXM-user-16.0-bb4992bb4d.zip",
-          "fastboot": ""
-        },
-        "OS2.0.205.0.VGTMIXM": {
-          "os": "OS2.0.205.0.VGTMIXM",
-          "android": "15.0",
-          "release": "2026-01-22",
-          "recovery": "lake_global-ota_full-OS2.0.205.0.VGTMIXM-user-15.0-7d242e140e.zip",
-          "fastboot": "lake_global_images_OS2.0.205.0.VGTMIXM_20251225.0000.00_15.0_global_2617113aa9.tgz"
-        },
-        "OS2.0.203.0.VGTMIXM": {
-          "os": "OS2.0.203.0.VGTMIXM",
-          "android": "15.0",
-          "release": "2025-10-31",
-          "recovery": "lake_global-ota_full-OS2.0.203.0.VGTMIXM-user-15.0-b4af488383.zip",
-          "fastboot": "lake_global_images_OS2.0.203.0.VGTMIXM_20251017.0000.00_15.0_global_c86ba1b6d6.tgz"
-        },
-        "OS2.0.202.0.VGTMIXM": {
-          "os": "OS2.0.202.0.VGTMIXM",
-          "android": "15.0",
-          "release": "2025-08-28",
-          "recovery": "lake_global-ota_full-OS2.0.202.0.VGTMIXM-user-15.0-4ba2b1c659.zip",
-          "fastboot": "lake_global_images_OS2.0.202.0.VGTMIXM_20250811.0000.00_15.0_global_d8c84a6055.tgz"
-        },
-        "OS2.0.4.0.VGTMIXM": {
-          "os": "OS2.0.4.0.VGTMIXM",
-          "android": "15.0",
-          "release": "2025-07-20",
-          "recovery": "lake_global-ota_full-OS2.0.4.0.VGTMIXM-user-15.0-6df1d5e03a.zip",
-          "fastboot": "lake_global_images_OS2.0.4.0.VGTMIXM_20250707.0000.00_15.0_global_b566e3f875.tgz"
-        },
-        "OS2.0.3.0.VGTMIXM": {
-          "os": "OS2.0.3.0.VGTMIXM",
-          "android": "15.0",
-          "release": "2025-06-03",
-          "recovery": "lake_global-ota_full-OS2.0.3.0.VGTMIXM-user-15.0-b69c2238cb.zip",
-          "fastboot": "lake_global_images_OS2.0.3.0.VGTMIXM_20250520.0000.00_15.0_global_c250e71ee9.tgz"
-        },
-        "OS2.0.1.0.VGTMIXM": {
-          "os": "OS2.0.1.0.VGTMIXM",
-          "android": "15.0",
-          "release": "2025-05-12",
-          "recovery": "lake_global-ota_full-OS2.0.1.0.VGTMIXM-user-15.0-0b7da9e179.zip",
-          "fastboot": "lake_global_images_OS2.0.1.0.VGTMIXM_20250425.0000.00_15.0_global_eedd0ec8f4.tgz"
-        },
-        "OS1.0.13.0.UGTMIXM": {
-          "os": "OS1.0.13.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2025-04-03",
-          "recovery": "miui_LAKEGlobal_OS1.0.13.0.UGTMIXM_6472e60862_14.0.zip",
-          "fastboot": "lake_global_images_OS1.0.13.0.UGTMIXM_20250314.0000.00_14.0_global_6d056c09b2.tgz"
-        },
-        "OS1.0.11.0.UGTMIXM": {
-          "os": "OS1.0.11.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2025-01-16",
-          "recovery": "miui_LAKEGlobal_OS1.0.11.0.UGTMIXM_6de4047946_14.0.zip",
-          "fastboot": "lake_global_images_OS1.0.11.0.UGTMIXM_20250105.0000.00_14.0_global_1b9c89f81e.tgz"
-        },
-        "OS1.0.10.0.UGTMIXM": {
-          "os": "OS1.0.10.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2024-12-02",
-          "recovery": "miui_LAKEGlobal_OS1.0.10.0.UGTMIXM_aa1c80c252_14.0.zip",
-          "fastboot": "lake_global_images_OS1.0.10.0.UGTMIXM_20241118.0000.00_14.0_global_f2668ab194.tgz"
-        },
-        "OS1.0.9.0.UGTMIXM": {
-          "os": "OS1.0.9.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2024-10-29",
-          "recovery": "miui_LAKEGlobal_OS1.0.9.0.UGTMIXM_32bfceef6d_14.0.zip",
-          "fastboot": "lake_global_images_OS1.0.9.0.UGTMIXM_20241024.0000.00_14.0_global_3c15159bee.tgz"
-        },
-        "OS1.0.6.0.UGTMIXM": {
-          "os": "OS1.0.6.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2024-09-28",
-          "recovery": "miui_LAKEGlobal_OS1.0.6.0.UGTMIXM_f4d94f023d_14.0.zip",
-          "fastboot": "lake_global_images_OS1.0.6.0.UGTMIXM_20240918.0000.00_14.0_global_3f2c1ccccf.tgz"
-        },
-        "OS1.0.5.0.UGTMIXM": {
-          "os": "OS1.0.5.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2024-09-17",
-          "recovery": "miui_LAKEGlobal_OS1.0.5.0.UGTMIXM_99d12c8d45_14.0.zip",
-          "fastboot": "lake_global_images_OS1.0.5.0.UGTMIXM_20240909.0000.00_14.0_global_55f2a8bcc5.tgz"
-        },
-        "OS1.0.4.0.UGTMIXM": {
-          "os": "OS1.0.4.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2024-09-05",
-          "recovery": "miui_LAKEGlobal_OS1.0.4.0.UGTMIXM_3001eee04b_14.0.zip",
-          "fastboot": "lake_global_images_OS1.0.4.0.UGTMIXM_20240823.0000.00_14.0_global_d90a10b64f.tgz"
-        },
-        "OS1.0.3.0.UGTMIXM": {
-          "os": "OS1.0.3.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2024-09-05",
-          "recovery": "miui_LAKEGlobal_OS1.0.3.0.UGTMIXM_94a1354b94_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.1.0.UGTMIXM": {
-          "os": "OS1.0.1.0.UGTMIXM",
-          "android": "14.0",
-          "release": "2024-09-05",
-          "recovery": "miui_LAKEGlobal_OS1.0.1.0.UGTMIXM_5d1787a452_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际 DC 正式版",
-        "en": "Xiaomi HyperOS Global DC Stable"
-      },
-      "branchCode": "lake_dc_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "GBDC",
-      "tag": "MIDC",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "carrier": [
-        "dc"
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WGTMIDC": {
-          "os": "OS3.0.1.0.WGTMIDC",
-          "android": "16.0",
-          "release": "2026-04-14",
-          "recovery": "lake_dc_global-ota_full-OS3.0.1.0.WGTMIDC-user-16.0-df0536993a.zip",
-          "fastboot": "lake_dc_global_images_OS3.0.1.0.WGTMIDC_20260331.0000.00_16.0_global_dc_0be7ee402c.tgz"
-        },
-        "OS2.0.205.0.VGTMIDC": {
-          "os": "OS2.0.205.0.VGTMIDC",
-          "android": "15.0",
-          "release": "2026-01-16",
-          "recovery": "lake_dc_global-ota_full-OS2.0.205.0.VGTMIDC-user-15.0-4366fbb9b3.zip",
-          "fastboot": "lake_dc_global_images_OS2.0.205.0.VGTMIDC_20260109.0000.00_15.0_global_dc_e15aeff4e9.tgz"
-        },
-        "OS2.0.203.0.VGTMIDC": {
-          "os": "OS2.0.203.0.VGTMIDC",
-          "android": "15.0",
-          "release": "2025-12-24",
-          "recovery": "lake_dc_global-ota_full-OS2.0.203.0.VGTMIDC-user-15.0-a5a35a928a.zip",
-          "fastboot": "lake_dc_global_images_OS2.0.203.0.VGTMIDC_20251203.0000.00_15.0_global_dc_1a4f9bac41.tgz"
-        },
-        "OS2.0.202.0.VGTMIDC": {
-          "os": "OS2.0.202.0.VGTMIDC",
-          "android": "15.0",
-          "release": "2025-10-28",
-          "recovery": "lake_dc_global-ota_full-OS2.0.202.0.VGTMIDC-user-15.0-69f184c21e.zip",
-          "fastboot": "lake_dc_global_images_OS2.0.202.0.VGTMIDC_20251016.0000.00_15.0_global_dc_2f6c49c99e.tgz"
-        },
-        "OS2.0.201.0.VGTMIDC": {
-          "os": "OS2.0.201.0.VGTMIDC",
-          "android": "15.0",
-          "release": "2025-08-26",
-          "recovery": "lake_dc_global-ota_full-OS2.0.201.0.VGTMIDC-user-15.0-032eea46ca.zip",
-          "fastboot": "lake_dc_global_images_OS2.0.201.0.VGTMIDC_20250812.0000.00_15.0_global_dc_64e295000d.tgz"
-        },
-        "OS2.0.3.0.VGTMIDC": {
-          "os": "OS2.0.3.0.VGTMIDC",
-          "android": "15.0",
-          "release": "2025-06-18",
-          "recovery": "lake_dc_global-ota_full-OS2.0.3.0.VGTMIDC-user-15.0-ce56b69c11.zip",
-          "fastboot": "lake_dc_global_images_OS2.0.3.0.VGTMIDC_20250604.0000.00_15.0_global_dc_0ec7333638.tgz"
-        },
-        "OS2.0.2.0.VGTMIDC": {
-          "os": "OS2.0.2.0.VGTMIDC",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "lake_dc_global-ota_full-OS2.0.2.0.VGTMIDC-user-15.0-058df54a25.zip",
-          "fastboot": "lake_dc_global_images_OS2.0.2.0.VGTMIDC_20250512.0000.00_15.0_global_dc_d746d3d07c.tgz"
-        },
-        "OS1.0.10.0.UGTMIDC": {
-          "os": "OS1.0.10.0.UGTMIDC",
-          "android": "14.0",
-          "release": "2025-04-15",
-          "recovery": "miui_LAKEDCGlobal_OS1.0.10.0.UGTMIDC_a2e28a5759_14.0.zip",
-          "fastboot": "lake_dc_global_images_OS1.0.10.0.UGTMIDC_20250326.0000.00_14.0_global_dc_11c0e1fea1.tgz"
-        },
-        "OS1.0.9.0.UGTMIDC": {
-          "os": "OS1.0.9.0.UGTMIDC",
-          "android": "14.0",
-          "release": "2025-02-08",
-          "recovery": "miui_LAKEDCGlobal_OS1.0.9.0.UGTMIDC_d00d2ca986_14.0.zip",
-          "fastboot": "lake_dc_global_images_OS1.0.9.0.UGTMIDC_20250123.0000.00_14.0_global_dc_9a06d2f695.tgz"
-        },
-        "OS1.0.8.0.UGTMIDC": {
-          "os": "OS1.0.8.0.UGTMIDC",
-          "android": "14.0",
-          "release": "2025-01-03",
-          "recovery": "miui_LAKEDCGlobal_OS1.0.8.0.UGTMIDC_b1fb256382_14.0.zip",
-          "fastboot": "lake_dc_global_images_OS1.0.8.0.UGTMIDC_20241121.0000.00_14.0_global_dc_3a3ce70f91.tgz"
-        },
-        "OS1.0.7.0.UGTMIDC": {
-          "os": "OS1.0.7.0.UGTMIDC",
-          "android": "14.0",
-          "release": "2024-11-20",
-          "recovery": "miui_LAKEDCGlobal_OS1.0.7.0.UGTMIDC_7f3933f654_14.0.zip",
-          "fastboot": "lake_dc_global_images_OS1.0.7.0.UGTMIDC_20240927.0000.00_14.0_global_dc_44c9765adb.tgz"
-        },
-        "OS1.0.6.0.UGTMIDC": {
-          "os": "OS1.0.6.0.UGTMIDC",
-          "android": "14.0",
-          "release": "2024-11-20",
-          "recovery": "miui_LAKEDCGlobal_OS1.0.6.0.UGTMIDC_83c768e5e4_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.3.0.UGTMIDC": {
-          "os": "OS1.0.3.0.UGTMIDC",
-          "android": "14.0",
-          "release": "2024-11-20",
-          "recovery": "miui_LAKEDCGlobal_OS1.0.3.0.UGTMIDC_52a66f6914_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "lake_eea_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.3.0.WGTEUXM": {
-          "os": "OS3.0.3.0.WGTEUXM",
-          "android": "16.0",
-          "release": "2026-03-16",
-          "recovery": "lake_eea_global-ota_full-OS3.0.3.0.WGTEUXM-user-16.0-49684d04f0.zip",
-          "fastboot": "lake_eea_global_images_OS3.0.3.0.WGTEUXM_20260302.0000.00_16.0_eea_e3ba7b31b2.tgz"
-        },
-        "OS2.0.209.0.VGTEUXM": {
-          "os": "OS2.0.209.0.VGTEUXM",
-          "android": "15.0",
-          "release": "2026-03-02",
-          "recovery": "lake_eea_global-ota_full-OS2.0.209.0.VGTEUXM-user-15.0-9fd8bd3778.zip",
-          "fastboot": "lake_eea_global_images_OS2.0.209.0.VGTEUXM_20260204.0000.00_15.0_eea_1b004949be.tgz"
-        },
-        "OS2.0.208.0.VGTEUXM": {
-          "os": "OS2.0.208.0.VGTEUXM",
-          "android": "15.0",
-          "release": "2026-01-19",
-          "recovery": "lake_eea_global-ota_full-OS2.0.208.0.VGTEUXM-user-15.0-f2c8a9fd67.zip",
-          "fastboot": "lake_eea_global_images_OS2.0.208.0.VGTEUXM_20260107.0000.00_15.0_eea_a5107fe65c.tgz"
-        },
-        "OS2.0.207.0.VGTEUXM": {
-          "os": "OS2.0.207.0.VGTEUXM",
-          "android": "15.0",
-          "release": "2026-01-08",
-          "recovery": "lake_eea_global-ota_full-OS2.0.207.0.VGTEUXM-user-15.0-d75fc59957.zip",
-          "fastboot": "lake_eea_global_images_OS2.0.207.0.VGTEUXM_20251225.0000.00_15.0_eea_b5f4df0f7e.tgz"
-        },
-        "OS2.0.205.0.VGTEUXM": {
-          "os": "OS2.0.205.0.VGTEUXM",
-          "android": "15.0",
-          "release": "2025-12-23",
-          "recovery": "lake_eea_global-ota_full-OS2.0.205.0.VGTEUXM-user-15.0-b955da676e.zip",
-          "fastboot": "lake_eea_global_images_OS2.0.205.0.VGTEUXM_20251203.0000.00_15.0_eea_05e4ecd63b.tgz"
-        },
-        "OS2.0.204.0.VGTEUXM": {
-          "os": "OS2.0.204.0.VGTEUXM",
-          "android": "15.0",
-          "release": "2025-10-23",
-          "recovery": "lake_eea_global-ota_full-OS2.0.204.0.VGTEUXM-user-15.0-4ce5f7791c.zip",
-          "fastboot": "lake_eea_global_images_OS2.0.204.0.VGTEUXM_20251011.0000.00_15.0_eea_ef33fae41a.tgz"
-        },
-        "OS2.0.203.0.VGTEUXM": {
-          "os": "OS2.0.203.0.VGTEUXM",
-          "android": "15.0",
-          "release": "2025-09-08",
-          "recovery": "lake_eea_global-ota_full-OS2.0.203.0.VGTEUXM-user-15.0-c529ad0a48.zip",
-          "fastboot": "lake_eea_global_images_OS2.0.203.0.VGTEUXM_20250825.0000.00_15.0_eea_fa16bdf7ca.tgz"
-        },
-        "OS2.0.202.0.VGTEUXM": {
-          "os": "OS2.0.202.0.VGTEUXM",
-          "android": "15.0",
-          "release": "2025-07-01",
-          "recovery": "lake_eea_global-ota_full-OS2.0.202.0.VGTEUXM-user-15.0-54fb735326.zip",
-          "fastboot": "lake_eea_global_images_OS2.0.202.0.VGTEUXM_20250620.0000.00_15.0_eea_0d2c782074.tgz"
-        },
-        "OS2.0.1.0.VGTEUXM": {
-          "os": "OS2.0.1.0.VGTEUXM",
-          "android": "15.0",
-          "release": "2025-06-10",
-          "recovery": "lake_eea_global-ota_full-OS2.0.1.0.VGTEUXM-user-15.0-aae88d09c7.zip",
-          "fastboot": "lake_eea_global_images_OS2.0.1.0.VGTEUXM_20250520.0000.00_15.0_eea_b73f47674d.tgz"
-        },
-        "OS1.0.9.0.UGTEUXM": {
-          "os": "OS1.0.9.0.UGTEUXM",
-          "android": "14.0",
-          "release": "2025-05-31",
-          "recovery": "miui_LAKEEEAGlobal_OS1.0.9.0.UGTEUXM_e2c155ba02_14.0.zip",
-          "fastboot": "lake_eea_global_images_OS1.0.9.0.UGTEUXM_20250519.0000.00_14.0_eea_ea72d3144d.tgz"
-        },
-        "OS1.0.8.0.UGTEUXM": {
-          "os": "OS1.0.8.0.UGTEUXM",
-          "android": "14.0",
-          "release": "2025-03-31",
-          "recovery": "miui_LAKEEEAGlobal_OS1.0.8.0.UGTEUXM_417bdb121d_14.0.zip",
-          "fastboot": "lake_eea_global_images_OS1.0.8.0.UGTEUXM_20250314.0000.00_14.0_eea_9accfc78ea.tgz"
-        },
-        "OS1.0.7.0.UGTEUXM": {
-          "os": "OS1.0.7.0.UGTEUXM",
-          "android": "14.0",
-          "release": "2025-02-10",
-          "recovery": "miui_LAKEEEAGlobal_OS1.0.7.0.UGTEUXM_1158150761_14.0.zip",
-          "fastboot": "lake_eea_global_images_OS1.0.7.0.UGTEUXM_20250110.0000.00_14.0_eea_3ab619e40b.tgz"
-        },
-        "OS1.0.6.0.UGTEUXM": {
-          "os": "OS1.0.6.0.UGTEUXM",
-          "android": "14.0",
-          "release": "2024-12-19",
-          "recovery": "miui_LAKEEEAGlobal_OS1.0.6.0.UGTEUXM_fada46d343_14.0.zip",
-          "fastboot": "lake_eea_global_images_OS1.0.6.0.UGTEUXM_20241121.0000.00_14.0_eea_3e330293d5.tgz"
-        },
-        "OS1.0.5.0.UGTEUXM": {
-          "os": "OS1.0.5.0.UGTEUXM",
-          "android": "14.0",
-          "release": "2024-10-29",
-          "recovery": "miui_LAKEEEAGlobal_OS1.0.5.0.UGTEUXM_651b9e2c99_14.0.zip",
-          "fastboot": "lake_eea_global_images_OS1.0.5.0.UGTEUXM_20241023.0000.00_14.0_eea_d4be2940ef.tgz"
-        },
-        "OS1.0.4.0.UGTEUXM": {
-          "os": "OS1.0.4.0.UGTEUXM",
-          "android": "14.0",
-          "release": "2024-10-08",
-          "recovery": "miui_LAKEEEAGlobal_OS1.0.4.0.UGTEUXM_3000f18ca6_14.0.zip",
-          "fastboot": "lake_eea_global_images_OS1.0.4.0.UGTEUXM_20240923.0000.00_14.0_eea_0e9c4fc2a0.tgz"
-        },
-        "OS1.0.3.0.UGTEUXM": {
-          "os": "OS1.0.3.0.UGTEUXM",
-          "android": "14.0",
-          "release": "2024-10-03",
-          "recovery": "miui_LAKEEEAGlobal_OS1.0.3.0.UGTEUXM_0a6000233f_14.0.zip",
-          "fastboot": "lake_eea_global_images_OS1.0.3.0.UGTEUXM_20240829.0000.00_14.0_eea_a23711fd41.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "lake_ru_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "RUSO",
-      "tag": "RUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WGTRUXM": {
-          "os": "OS3.0.1.0.WGTRUXM",
-          "android": "16.0",
-          "release": "2026-03-24",
-          "recovery": "lake_ru_global-ota_full-OS3.0.1.0.WGTRUXM-user-16.0-e6a1439400.zip",
-          "fastboot": "lake_ru_global_images_OS3.0.1.0.WGTRUXM_20260312.0000.00_16.0_ru_c4ddf10ae2.tgz"
-        },
-        "OS2.0.202.0.VGTRUXM": {
-          "os": "OS2.0.202.0.VGTRUXM",
-          "android": "15.0",
-          "release": "2026-01-16",
-          "recovery": "lake_ru_global-ota_full-OS2.0.202.0.VGTRUXM-user-15.0-dda985c73a.zip",
-          "fastboot": "lake_ru_global_images_OS2.0.202.0.VGTRUXM_20260109.0000.00_15.0_ru_f05a6c6cf5.tgz"
-        },
-        "OS2.0.201.0.VGTRUXM": {
-          "os": "OS2.0.201.0.VGTRUXM",
-          "android": "15.0",
-          "release": "2025-11-04",
-          "recovery": "lake_ru_global-ota_full-OS2.0.201.0.VGTRUXM-user-15.0-e6e47a439c.zip",
-          "fastboot": "lake_ru_global_images_OS2.0.201.0.VGTRUXM_20251022.0000.00_15.0_ru_1a9bc7e526.tgz"
-        },
-        "OS2.0.200.0.VGTRUXM": {
-          "os": "OS2.0.200.0.VGTRUXM",
-          "android": "15.0",
-          "release": "2025-09-09",
-          "recovery": "lake_ru_global-ota_full-OS2.0.200.0.VGTRUXM-user-15.0-f32d4db79e.zip",
-          "fastboot": "lake_ru_global_images_OS2.0.200.0.VGTRUXM_20250827.0000.00_15.0_ru_17e83bda77.tgz"
-        },
-        "OS2.0.2.0.VGTRUXM": {
-          "os": "OS2.0.2.0.VGTRUXM",
-          "android": "15.0",
-          "release": "2025-07-17",
-          "recovery": "lake_ru_global-ota_full-OS2.0.2.0.VGTRUXM-user-15.0-90c641a513.zip",
-          "fastboot": "lake_ru_global_images_OS2.0.2.0.VGTRUXM_20250710.0000.00_15.0_ru_620d3b41ac.tgz"
-        },
-        "OS2.0.1.0.VGTRUXM": {
-          "os": "OS2.0.1.0.VGTRUXM",
-          "android": "15.0",
-          "release": "2025-06-10",
-          "recovery": "lake_ru_global-ota_full-OS2.0.1.0.VGTRUXM-user-15.0-8d66bf4193.zip",
-          "fastboot": "lake_ru_global_images_OS2.0.1.0.VGTRUXM_20250515.0000.00_15.0_ru_3e1b6afe7f.tgz"
-        },
-        "OS1.0.10.0.UGTRUXM": {
-          "os": "OS1.0.10.0.UGTRUXM",
-          "android": "14.0",
-          "release": "2025-05-28",
-          "recovery": "miui_LAKERUGlobal_OS1.0.10.0.UGTRUXM_c1cb565992_14.0.zip",
-          "fastboot": "lake_ru_global_images_OS1.0.10.0.UGTRUXM_20250422.0000.00_14.0_ru_f14580e82f.tgz"
-        },
-        "OS1.0.8.0.UGTRUXM": {
-          "os": "OS1.0.8.0.UGTRUXM",
-          "android": "14.0",
-          "release": "2025-03-31",
-          "recovery": "miui_LAKERUGlobal_OS1.0.8.0.UGTRUXM_a8383b30b4_14.0.zip",
-          "fastboot": "lake_ru_global_images_OS1.0.8.0.UGTRUXM_20250319.0000.00_14.0_ru_dad2ddd23a.tgz"
-        },
-        "OS1.0.7.0.UGTRUXM": {
-          "os": "OS1.0.7.0.UGTRUXM",
-          "android": "14.0",
-          "release": "2025-02-08",
-          "recovery": "miui_LAKERUGlobal_OS1.0.7.0.UGTRUXM_3d9f566729_14.0.zip",
-          "fastboot": "lake_ru_global_images_OS1.0.7.0.UGTRUXM_20250121.0000.00_14.0_ru_30a2805c66.tgz"
-        },
-        "OS1.0.6.0.UGTRUXM": {
-          "os": "OS1.0.6.0.UGTRUXM",
-          "android": "14.0",
-          "release": "2024-11-30",
-          "recovery": "miui_LAKERUGlobal_OS1.0.6.0.UGTRUXM_e160cd59f0_14.0.zip",
-          "fastboot": "lake_ru_global_images_OS1.0.6.0.UGTRUXM_20241121.0000.00_14.0_ru_790cab62b0.tgz"
-        },
-        "OS1.0.5.0.UGTRUXM": {
-          "os": "OS1.0.5.0.UGTRUXM",
-          "android": "14.0",
-          "release": "2024-10-31",
-          "recovery": "miui_LAKERUGlobal_OS1.0.5.0.UGTRUXM_dfad2ed307_14.0.zip",
-          "fastboot": "lake_ru_global_images_OS1.0.5.0.UGTRUXM_20241027.0000.00_14.0_ru_676cadba0e.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度尼西亚正式版",
-        "en": "Xiaomi HyperOS Indonesia Stable"
-      },
-      "branchCode": "lake_id_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "IDSO",
-      "tag": "IDXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "id",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WGTIDXM": {
-          "os": "OS3.0.1.0.WGTIDXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "lake_id_global-ota_full-OS3.0.1.0.WGTIDXM-user-16.0-cffe307a36.zip",
-          "fastboot": "lake_id_global_images_OS3.0.1.0.WGTIDXM_20260312.0000.00_16.0_id_006e5cbf35.tgz"
-        },
-        "OS2.0.202.0.VGTIDXM": {
-          "os": "OS2.0.202.0.VGTIDXM",
-          "android": "15.0",
-          "release": "2026-01-19",
-          "recovery": "lake_id_global-ota_full-OS2.0.202.0.VGTIDXM-user-15.0-d2daf4f5eb.zip",
-          "fastboot": "lake_id_global_images_OS2.0.202.0.VGTIDXM_20260109.0000.00_15.0_id_f13e7a3686.tgz"
-        },
-        "OS2.0.201.0.VGTIDXM": {
-          "os": "OS2.0.201.0.VGTIDXM",
-          "android": "15.0",
-          "release": "2025-11-07",
-          "recovery": "lake_id_global-ota_full-OS2.0.201.0.VGTIDXM-user-15.0-1a06f48e76.zip",
-          "fastboot": "lake_id_global_images_OS2.0.201.0.VGTIDXM_20251022.0000.00_15.0_id_74da382fec.tgz"
-        },
-        "OS2.0.200.0.VGTIDXM": {
-          "os": "OS2.0.200.0.VGTIDXM",
-          "android": "15.0",
-          "release": "2025-09-12",
-          "recovery": "lake_id_global-ota_full-OS2.0.200.0.VGTIDXM-user-15.0-cc9732cc1b.zip",
-          "fastboot": "lake_id_global_images_OS2.0.200.0.VGTIDXM_20250827.0000.00_15.0_id_c793ecc85e.tgz"
-        },
-        "OS2.0.2.0.VGTIDXM": {
-          "os": "OS2.0.2.0.VGTIDXM",
-          "android": "15.0",
-          "release": "2025-07-20",
-          "recovery": "lake_id_global-ota_full-OS2.0.2.0.VGTIDXM-user-15.0-6241005cbb.zip",
-          "fastboot": "lake_id_global_images_OS2.0.2.0.VGTIDXM_20250710.0000.00_15.0_id_f83bf9c49c.tgz"
-        },
-        "OS2.0.1.0.VGTIDXM": {
-          "os": "OS2.0.1.0.VGTIDXM",
-          "android": "15.0",
-          "release": "2025-05-26",
-          "recovery": "lake_id_global-ota_full-OS2.0.1.0.VGTIDXM-user-15.0-fa0d794c11.zip",
-          "fastboot": "lake_id_global_images_OS2.0.1.0.VGTIDXM_20250506.0000.00_15.0_id_77de8c19a4.tgz"
-        },
-        "OS1.0.6.0.UGTIDXM": {
-          "os": "OS1.0.6.0.UGTIDXM",
-          "android": "14.0",
-          "release": "2025-04-07",
-          "recovery": "miui_LAKEIDGlobal_OS1.0.6.0.UGTIDXM_f5ca88998e_14.0.zip",
-          "fastboot": "lake_id_global_images_OS1.0.6.0.UGTIDXM_20250319.0000.00_14.0_id_e26d3c88f8.tgz"
-        },
-        "OS1.0.5.0.UGTIDXM": {
-          "os": "OS1.0.5.0.UGTIDXM",
-          "android": "14.0",
-          "release": "2025-02-10",
-          "recovery": "miui_LAKEIDGlobal_OS1.0.5.0.UGTIDXM_7010df33b0_14.0.zip",
-          "fastboot": "lake_id_global_images_OS1.0.5.0.UGTIDXM_20250113.0000.00_14.0_id_05f3feae18.tgz"
-        },
-        "OS1.0.4.0.UGTIDXM": {
-          "os": "OS1.0.4.0.UGTIDXM",
-          "android": "14.0",
-          "release": "2024-12-22",
-          "recovery": "miui_LAKEIDGlobal_OS1.0.4.0.UGTIDXM_42922825b1_14.0.zip",
-          "fastboot": "lake_id_global_images_OS1.0.4.0.UGTIDXM_20241202.0000.00_14.0_id_b4efa0ad5f.tgz"
-        },
-        "OS1.0.2.0.UGTIDXM": {
-          "os": "OS1.0.2.0.UGTIDXM",
-          "android": "14.0",
-          "release": "2024-11-06",
-          "recovery": "miui_LAKEIDGlobal_OS1.0.2.0.UGTIDXM_eebd324c2f_14.0.zip",
-          "fastboot": "lake_id_global_images_OS1.0.2.0.UGTIDXM_20241031.0000.00_14.0_id_c5acf8d7bb.tgz"
-        },
-        "OS1.0.1.0.UGTIDXM": {
-          "os": "OS1.0.1.0.UGTIDXM",
-          "android": "14.0",
-          "release": "2024-10-09",
-          "recovery": "miui_LAKEIDGlobal_OS1.0.1.0.UGTIDXM_4088a484c2_14.0.zip",
-          "fastboot": "lake_id_global_images_OS1.0.1.0.UGTIDXM_20240820.0000.00_14.0_id_920ac4c67b.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 土耳其正式版",
-        "en": "Xiaomi HyperOS Turkey Stable"
-      },
-      "branchCode": "lake_tr_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "TRSO",
-      "tag": "TRXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tr",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WGTTRXM": {
-          "os": "OS3.0.1.0.WGTTRXM",
-          "android": "16.0",
-          "release": "2026-04-09",
-          "recovery": "lake_tr_global-ota_full-OS3.0.1.0.WGTTRXM-user-16.0-c03e684bb5.zip",
-          "fastboot": "lake_tr_global_images_OS3.0.1.0.WGTTRXM_20260325.0000.00_16.0_tr_48a718c6ea.tgz"
-        },
-        "OS2.0.202.0.VGTTRXM": {
-          "os": "OS2.0.202.0.VGTTRXM",
-          "android": "15.0",
-          "release": "2026-01-16",
-          "recovery": "lake_tr_global-ota_full-OS2.0.202.0.VGTTRXM-user-15.0-5653d128e9.zip",
-          "fastboot": "lake_tr_global_images_OS2.0.202.0.VGTTRXM_20260109.0000.00_15.0_tr_c7b21dc110.tgz"
-        },
-        "OS2.0.201.0.VGTTRXM": {
-          "os": "OS2.0.201.0.VGTTRXM",
-          "android": "15.0",
-          "release": "2025-11-04",
-          "recovery": "lake_tr_global-ota_full-OS2.0.201.0.VGTTRXM-user-15.0-efe8821203.zip",
-          "fastboot": "lake_tr_global_images_OS2.0.201.0.VGTTRXM_20251022.0000.00_15.0_tr_6d1c96abe1.tgz"
-        },
-        "OS2.0.200.0.VGTTRXM": {
-          "os": "OS2.0.200.0.VGTTRXM",
-          "android": "15.0",
-          "release": "2025-09-09",
-          "recovery": "lake_tr_global-ota_full-OS2.0.200.0.VGTTRXM-user-15.0-ee36a63aa0.zip",
-          "fastboot": "lake_tr_global_images_OS2.0.200.0.VGTTRXM_20250827.0000.00_15.0_tr_15e446ae69.tgz"
-        },
-        "OS2.0.2.0.VGTTRXM": {
-          "os": "OS2.0.2.0.VGTTRXM",
-          "android": "15.0",
-          "release": "2025-07-17",
-          "recovery": "lake_tr_global-ota_full-OS2.0.2.0.VGTTRXM-user-15.0-1cc93691e7.zip",
-          "fastboot": "lake_tr_global_images_OS2.0.2.0.VGTTRXM_20250710.0000.00_15.0_tr_72d0a5d53d.tgz"
-        },
-        "OS2.0.1.0.VGTTRXM": {
-          "os": "OS2.0.1.0.VGTTRXM",
-          "android": "15.0",
-          "release": "2025-05-29",
-          "recovery": "lake_tr_global-ota_full-OS2.0.1.0.VGTTRXM-user-15.0-8fe5c794ce.zip",
-          "fastboot": "lake_tr_global_images_OS2.0.1.0.VGTTRXM_20250509.0000.00_15.0_tr_24f7e4b027.tgz"
-        },
-        "OS1.0.4.0.UGTTRXM": {
-          "os": "OS1.0.4.0.UGTTRXM",
-          "android": "14.0",
-          "release": "2025-03-27",
-          "recovery": "miui_LAKETRGlobal_OS1.0.4.0.UGTTRXM_5dde28867a_14.0.zip",
-          "fastboot": "lake_tr_global_images_OS1.0.4.0.UGTTRXM_20250319.0000.00_14.0_tr_fc2785c515.tgz"
-        },
-        "OS1.0.3.0.UGTTRXM": {
-          "os": "OS1.0.3.0.UGTTRXM",
-          "android": "14.0",
-          "release": "2025-02-08",
-          "recovery": "miui_LAKETRGlobal_OS1.0.3.0.UGTTRXM_bec6e454bf_14.0.zip",
-          "fastboot": "lake_tr_global_images_OS1.0.3.0.UGTTRXM_20250123.0000.00_14.0_tr_1b0aa6e26d.tgz"
-        },
-        "OS1.0.2.0.UGTTRXM": {
-          "os": "OS1.0.2.0.UGTTRXM",
-          "android": "14.0",
-          "release": "2024-11-28",
-          "recovery": "miui_LAKETRGlobal_OS1.0.2.0.UGTTRXM_a6d2677735_14.0.zip",
-          "fastboot": "lake_tr_global_images_OS1.0.2.0.UGTTRXM_20241118.0000.00_14.0_tr_6cd0d2aedf.tgz"
-        },
-        "OS1.0.1.0.UGTTRXM": {
-          "os": "OS1.0.1.0.UGTTRXM",
-          "android": "14.0",
-          "release": "2024-11-25",
-          "recovery": "miui_LAKETRGlobal_OS1.0.1.0.UGTTRXM_c41a1ce5b4_14.0.zip",
-          "fastboot": "lake_tr_global_images_OS1.0.1.0.UGTTRXM_20240831.0000.00_14.0_tr_cb5d2732e7.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
-        "en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
-      },
-      "branchCode": "lake_gt_tg_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "GTTG",
-      "tag": "GTTG",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "tg"
-      ],
-      "region": "gt",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.201.0.VGTGTTG": {
-          "os": "OS2.0.201.0.VGTGTTG",
-          "android": "15.0",
-          "release": "2025-12-18",
-          "recovery": "lake_gt_tg_global-ota_full-OS2.0.201.0.VGTGTTG-user-15.0-924d770ff5.zip",
-          "fastboot": "lake_gt_tg_global_images_OS2.0.201.0.VGTGTTG_20251014.0000.00_15.0_gt_tg_0a2edd814e.tgz"
-        },
-        "OS1.0.5.0.UGTGTTG": {
-          "os": "OS1.0.5.0.UGTGTTG",
-          "android": "14.0",
-          "release": "2025-03-25",
-          "recovery": "miui_LAKEGTTGGlobal_OS1.0.5.0.UGTGTTG_d988a24a7d_14.0.zip",
-          "fastboot": "lake_gt_tg_global_images_OS1.0.5.0.UGTGTTG_20250307.0000.00_14.0_gt_tg_0fe32d71cd.tgz"
-        },
-        "OS1.0.4.0.UGTGTTG": {
-          "os": "OS1.0.4.0.UGTGTTG",
-          "android": "14.0",
-          "release": "2025-02-18",
-          "recovery": "miui_LAKEGTTGGlobal_OS1.0.4.0.UGTGTTG_02d1c96082_14.0.zip",
-          "fastboot": "lake_gt_tg_global_images_OS1.0.4.0.UGTGTTG_20241210.0000.00_14.0_gt_tg_1f219ebb27.tgz"
-        },
-        "OS1.0.2.0.UGTGTTG": {
-          "os": "OS1.0.2.0.UGTGTTG",
-          "android": "14.0",
-          "release": "2024-11-15",
-          "recovery": "miui_LAKEGTTGGlobal_OS1.0.2.0.UGTGTTG_d6ce7d4b7c_14.0.zip",
-          "fastboot": "lake_gt_tg_global_images_OS1.0.2.0.UGTGTTG_20240821.0000.00_14.0_gt_tg_2a4723ff0b.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
-        "en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
-      },
-      "branchCode": "lake_mx_at_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "MXAT",
-      "tag": "MXAT",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "at"
-      ],
-      "region": "mx",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.203.0.VGTMXAT": {
-          "os": "OS2.0.203.0.VGTMXAT",
-          "android": "15.0",
-          "release": "2026-01-11",
-          "recovery": "lake_mx_at_global-ota_full-OS2.0.203.0.VGTMXAT-user-15.0-f8a5bcbc14.zip",
-          "fastboot": "lake_mx_at_global_images_OS2.0.203.0.VGTMXAT_20251225.0000.00_15.0_mx_at_dca9c3f9b4.tgz"
-        },
-        "OS2.0.202.0.VGTMXAT": {
-          "os": "OS2.0.202.0.VGTMXAT",
-          "android": "15.0",
-          "release": "2025-12-01",
-          "recovery": "lake_mx_at_global-ota_full-OS2.0.202.0.VGTMXAT-user-15.0-f08f5cbd19.zip",
-          "fastboot": "lake_mx_at_global_images_OS2.0.202.0.VGTMXAT_20251017.0000.00_15.0_mx_at_a8a6beeae5.tgz"
-        },
-        "OS2.0.201.0.VGTMXAT": {
-          "os": "OS2.0.201.0.VGTMXAT",
-          "android": "15.0",
-          "release": "2025-09-09",
-          "recovery": "lake_mx_at_global-ota_full-OS2.0.201.0.VGTMXAT-user-15.0-f1e492bec0.zip",
-          "fastboot": "lake_mx_at_global_images_OS2.0.201.0.VGTMXAT_20250821.0000.00_15.0_mx_at_c290d87609.tgz"
-        },
-        "OS2.0.1.0.VGTMXAT": {
-          "os": "OS2.0.1.0.VGTMXAT",
-          "android": "15.0",
-          "release": "2025-07-24",
-          "recovery": "lake_mx_at_global-ota_full-OS2.0.1.0.VGTMXAT-user-15.0-a78331d95b.zip",
-          "fastboot": "lake_mx_at_global_images_OS2.0.1.0.VGTMXAT_20250509.0000.00_15.0_mx_at_789b494262.tgz"
-        },
-        "OS1.0.7.0.UGTMXAT": {
-          "os": "OS1.0.7.0.UGTMXAT",
-          "android": "14.0",
-          "release": "2025-05-06",
-          "recovery": "miui_LAKEMXATGlobal_OS1.0.7.0.UGTMXAT_47e78f9d33_14.0.zip",
-          "fastboot": "lake_mx_at_global_images_OS1.0.7.0.UGTMXAT_20250423.0000.00_14.0_mx_at_3862ba04c9.tgz"
-        },
-        "OS1.0.6.0.UGTMXAT": {
-          "os": "OS1.0.6.0.UGTMXAT",
-          "android": "14.0",
-          "release": "2025-03-14",
-          "recovery": "miui_LAKEMXATGlobal_OS1.0.6.0.UGTMXAT_2b6c768948_14.0.zip",
-          "fastboot": "lake_mx_at_global_images_OS1.0.6.0.UGTMXAT_20250217.0000.00_14.0_mx_at_b5b52e42a4.tgz"
-        },
-        "OS1.0.4.0.UGTMXAT": {
-          "os": "OS1.0.4.0.UGTMXAT",
-          "android": "14.0",
-          "release": "2024-12-20",
-          "recovery": "miui_LAKEMXATGlobal_OS1.0.4.0.UGTMXAT_177e93e4a9_14.0.zip",
-          "fastboot": "lake_mx_at_global_images_OS1.0.4.0.UGTMXAT_20241205.0000.00_14.0_mx_at_b82fe03669.tgz"
-        },
-        "OS1.0.3.0.UGTMXAT": {
-          "os": "OS1.0.3.0.UGTMXAT",
-          "android": "14.0",
-          "release": "2024-11-15",
-          "recovery": "miui_LAKEMXATGlobal_OS1.0.3.0.UGTMXAT_105c588bb6_14.0.zip",
-          "fastboot": "lake_mx_at_global_images_OS1.0.3.0.UGTMXAT_20241023.0000.00_14.0_mx_at_aa5926c33c.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
-        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
-      },
-      "branchCode": "lake_lm_cr_global",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi 14C",
-        "en": "Redmi 14C"
-      },
-      "idtag": "LMCR",
-      "tag": "LMCR",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "cr"
-      ],
-      "region": "lm",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.203.0.VGTLMCR": {
-          "os": "OS2.0.203.0.VGTLMCR",
-          "android": "15.0",
-          "release": "2026-01-21",
-          "recovery": "lake_lm_cr_global-ota_full-OS2.0.203.0.VGTLMCR-user-15.0-f2bc620c0d.zip",
-          "fastboot": "lake_lm_cr_global_images_OS2.0.203.0.VGTLMCR_20260107.0000.00_15.0_lm_cr_7a9265679f.tgz"
-        },
-        "OS2.0.202.0.VGTLMCR": {
-          "os": "OS2.0.202.0.VGTLMCR",
-          "android": "15.0",
-          "release": "2025-11-21",
-          "recovery": "lake_lm_cr_global-ota_full-OS2.0.202.0.VGTLMCR-user-15.0-e1e0d5ec41.zip",
-          "fastboot": "lake_lm_cr_global_images_OS2.0.202.0.VGTLMCR_20251103.0000.00_15.0_lm_cr_30fad8ba8e.tgz"
-        },
-        "OS2.0.201.0.VGTLMCR": {
-          "os": "OS2.0.201.0.VGTLMCR",
-          "android": "15.0",
-          "release": "2025-09-28",
-          "recovery": "lake_lm_cr_global-ota_full-OS2.0.201.0.VGTLMCR-user-15.0-d57f3afe07.zip",
-          "fastboot": "lake_lm_cr_global_images_OS2.0.201.0.VGTLMCR_20250915.0000.00_15.0_lm_cr_d293ade283.tgz"
-        },
-        "OS2.0.2.0.VGTLMCR": {
-          "os": "OS2.0.2.0.VGTLMCR",
-          "android": "15.0",
-          "release": "2025-07-11",
-          "recovery": "lake_lm_cr_global-ota_full-OS2.0.2.0.VGTLMCR-user-15.0-571ddb50c2.zip",
-          "fastboot": "lake_lm_cr_global_images_OS2.0.2.0.VGTLMCR_20250701.0000.00_15.0_lm_cr_c98a1da832.tgz"
-        },
-        "OS2.0.1.0.VGTLMCR": {
-          "os": "OS2.0.1.0.VGTLMCR",
-          "android": "15.0",
-          "release": "2025-06-10",
-          "recovery": "lake_lm_cr_global-ota_full-OS2.0.1.0.VGTLMCR-user-15.0-30c5822c28.zip",
-          "fastboot": "lake_lm_cr_global_images_OS2.0.1.0.VGTLMCR_20250513.0000.00_15.0_lm_cr_512097bda6.tgz"
-        },
-        "OS1.0.5.0.UGTLMCR": {
-          "os": "OS1.0.5.0.UGTLMCR",
-          "android": "14.0",
-          "release": "2025-04-08",
-          "recovery": "miui_LAKELMCRGlobal_OS1.0.5.0.UGTLMCR_40d13219f6_14.0.zip",
-          "fastboot": "lake_lm_cr_global_images_OS1.0.5.0.UGTLMCR_20250325.0000.00_14.0_lm_cr_99a23b687f.tgz"
-        },
-        "OS1.0.4.0.UGTLMCR": {
-          "os": "OS1.0.4.0.UGTLMCR",
-          "android": "14.0",
-          "release": "2025-02-25",
-          "recovery": "miui_LAKELMCRGlobal_OS1.0.4.0.UGTLMCR_fbefe1e717_14.0.zip",
-          "fastboot": "lake_lm_cr_global_images_OS1.0.4.0.UGTLMCR_20250218.0000.00_14.0_lm_cr_5aa0d896c7.tgz"
-        },
-        "OS1.0.3.0.UGTLMCR": {
-          "os": "OS1.0.3.0.UGTLMCR",
-          "android": "14.0",
-          "release": "2024-12-18",
-          "recovery": "miui_LAKELMCRGlobal_OS1.0.3.0.UGTLMCR_a3481c238a_14.0.zip",
-          "fastboot": "lake_lm_cr_global_images_OS1.0.3.0.UGTLMCR_20241206.0000.00_14.0_lm_cr_2731b71281.tgz"
-        },
-        "OS1.0.2.0.UGTLMCR": {
-          "os": "OS1.0.2.0.UGTLMCR",
-          "android": "14.0",
-          "release": "2024-11-20",
-          "recovery": "miui_LAKELMCRGlobal_OS1.0.2.0.UGTLMCR_6fce013700_14.0.zip",
-          "fastboot": "lake_lm_cr_global_images_OS1.0.2.0.UGTLMCR_20240924.0000.00_14.0_lm_cr_6cbc8b72d6.tgz"
-        },
-        "OS1.0.1.0.UGTLMCR": {
-          "os": "OS1.0.1.0.UGTLMCR",
-          "android": "14.0",
-          "release": "2024-11-15",
-          "recovery": "miui_LAKELMCRGlobal_OS1.0.1.0.UGTLMCR_ef246fa4e0_14.0.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "lake",
+	"name": {
+		"zh": "Redmi 14C",
+		"en": "Redmi 14C"
+	},
+	"code": "GT",
+	"suppports": [
+		"OS1.0",
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"14.0",
+		"15.0",
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "lake",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WGTCNXM": {
+					"os": "OS3.0.302.0.WGTCNXM",
+					"android": "16.0",
+					"release": "2026-04-27",
+					"recovery": "lake-ota_full-OS3.0.302.0.WGTCNXM-user-16.0-9cf9e21d44.zip",
+					"fastboot": ""
+				},
+				"OS3.0.1.0.WGTCNXM": {
+					"os": "OS3.0.1.0.WGTCNXM",
+					"android": "16.0",
+					"release": "2026-01-30",
+					"recovery": "lake-ota_full-OS3.0.1.0.WGTCNXM-user-16.0-3e29d77fe7.zip",
+					"fastboot": "lake_images_OS3.0.1.0.WGTCNXM_20260124.0000.00_16.0_cn_0cc63e0273.tgz"
+				},
+				"OS2.0.201.0.VGTCNXM": {
+					"os": "OS2.0.201.0.VGTCNXM",
+					"android": "15.0",
+					"release": "2025-09-22",
+					"recovery": "lake-ota_full-OS2.0.201.0.VGTCNXM-user-15.0-b373358c77.zip",
+					"fastboot": "lake_images_OS2.0.201.0.VGTCNXM_20250912.0000.00_15.0_cn_b4a18d2076.tgz"
+				},
+				"OS2.0.200.0.VGTCNXM": {
+					"os": "OS2.0.200.0.VGTCNXM",
+					"android": "15.0",
+					"release": "2025-07-10",
+					"recovery": "lake-ota_full-OS2.0.200.0.VGTCNXM-user-15.0-9dceefa59f.zip",
+					"fastboot": "lake_images_OS2.0.200.0.VGTCNXM_20250630.0000.00_15.0_cn_7a9ea16816.tgz"
+				},
+				"OS2.0.2.0.VGTCNXM": {
+					"os": "OS2.0.2.0.VGTCNXM",
+					"android": "15.0",
+					"release": "2025-04-02",
+					"recovery": "lake-ota_full-OS2.0.2.0.VGTCNXM-user-15.0-e0f7dfa091.zip",
+					"fastboot": "lake_images_OS2.0.2.0.VGTCNXM_20250328.0000.00_15.0_cn_6a3458bb96.tgz"
+				},
+				"OS1.0.5.0.UGTCNXM": {
+					"os": "OS1.0.5.0.UGTCNXM",
+					"android": "14.0",
+					"release": "2025-05-26",
+					"recovery": "miui_LAKE_OS1.0.5.0.UGTCNXM_540ab767e0_14.0.zip",
+					"fastboot": "lake_images_OS1.0.5.0.UGTCNXM_20250513.0000.00_14.0_cn_893506fc78.tgz"
+				},
+				"OS1.0.3.0.UGTCNXM": {
+					"os": "OS1.0.3.0.UGTCNXM",
+					"android": "14.0",
+					"release": "2025-04-15",
+					"recovery": "miui_LAKE_OS1.0.3.0.UGTCNXM_c1e8d054df_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.2.0.UGTCNXM": {
+					"os": "OS1.0.2.0.UGTCNXM",
+					"android": "14.0",
+					"release": "2025-02-14",
+					"recovery": "miui_LAKE_OS1.0.2.0.UGTCNXM_26b5b68631_14.0.zip",
+					"fastboot": "lake_images_OS1.0.2.0.UGTCNXM_20250206.0000.00_14.0_cn_622f69b777.tgz"
+				},
+				"OS1.0.1.0.UGTCNXM": {
+					"os": "OS1.0.1.0.UGTCNXM",
+					"android": "14.0",
+					"release": "2025-01-03",
+					"recovery": "miui_LAKE_OS1.0.1.0.UGTCNXM_c38a6a4af3_14.0.zip",
+					"fastboot": "lake_images_OS1.0.1.0.UGTCNXM_20241125.0000.00_14.0_cn_dd1bc85a04.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "lake_tw_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VGTTWXM": {
+					"os": "OS2.0.201.0.VGTTWXM",
+					"android": "15.0",
+					"release": "2025-11-07",
+					"recovery": "lake_tw_global-ota_full-OS2.0.201.0.VGTTWXM-user-15.0-448ed4dad8.zip",
+					"fastboot": "lake_tw_global_images_OS2.0.201.0.VGTTWXM_20251022.0000.00_15.0_tw_95ea94efa1.tgz"
+				},
+				"OS2.0.200.0.VGTTWXM": {
+					"os": "OS2.0.200.0.VGTTWXM",
+					"android": "15.0",
+					"release": "2025-09-22",
+					"recovery": "lake_tw_global-ota_full-OS2.0.200.0.VGTTWXM-user-15.0-275155c51d.zip",
+					"fastboot": "lake_tw_global_images_OS2.0.200.0.VGTTWXM_20250827.0000.00_15.0_tw_64c0bf22ff.tgz"
+				},
+				"OS2.0.2.0.VGTTWXM": {
+					"os": "OS2.0.2.0.VGTTWXM",
+					"android": "15.0",
+					"release": "2025-07-20",
+					"recovery": "lake_tw_global-ota_full-OS2.0.2.0.VGTTWXM-user-15.0-f5b49fe46f.zip",
+					"fastboot": "lake_tw_global_images_OS2.0.2.0.VGTTWXM_20250710.0000.00_15.0_tw_bd9b1991b6.tgz"
+				},
+				"OS2.0.1.0.VGTTWXM": {
+					"os": "OS2.0.1.0.VGTTWXM",
+					"android": "15.0",
+					"release": "2025-05-26",
+					"recovery": "lake_tw_global-ota_full-OS2.0.1.0.VGTTWXM-user-15.0-f671ac881d.zip",
+					"fastboot": "lake_tw_global_images_OS2.0.1.0.VGTTWXM_20250506.0000.00_15.0_tw_d950a9f436.tgz"
+				},
+				"OS1.0.7.0.UGTTWXM": {
+					"os": "OS1.0.7.0.UGTTWXM",
+					"android": "14.0",
+					"release": "2025-03-31",
+					"recovery": "miui_LAKETWGlobal_OS1.0.7.0.UGTTWXM_a0dcbe11d2_14.0.zip",
+					"fastboot": "lake_tw_global_images_OS1.0.7.0.UGTTWXM_20250314.0000.00_14.0_tw_5687de9cc6.tgz"
+				},
+				"OS1.0.6.0.UGTTWXM": {
+					"os": "OS1.0.6.0.UGTTWXM",
+					"android": "14.0",
+					"release": "2025-02-13",
+					"recovery": "miui_LAKETWGlobal_OS1.0.6.0.UGTTWXM_814172d5dc_14.0.zip",
+					"fastboot": "lake_tw_global_images_OS1.0.6.0.UGTTWXM_20250121.0000.00_14.0_tw_ec890feb45.tgz"
+				},
+				"OS1.0.5.0.UGTTWXM": {
+					"os": "OS1.0.5.0.UGTTWXM",
+					"android": "14.0",
+					"release": "2024-12-19",
+					"recovery": "miui_LAKETWGlobal_OS1.0.5.0.UGTTWXM_57bf17abce_14.0.zip",
+					"fastboot": "lake_tw_global_images_OS1.0.5.0.UGTTWXM_20241202.0000.00_14.0_tw_91a0ef1105.tgz"
+				},
+				"OS1.0.3.0.UGTTWXM": {
+					"os": "OS1.0.3.0.UGTTWXM",
+					"android": "14.0",
+					"release": "2024-11-02",
+					"recovery": "miui_LAKETWGlobal_OS1.0.3.0.UGTTWXM_13f643ab06_14.0.zip",
+					"fastboot": "lake_tw_global_images_OS1.0.3.0.UGTTWXM_20241029.0000.00_14.0_tw_3bdc0bdaab.tgz"
+				},
+				"OS1.0.2.0.UGTTWXM": {
+					"os": "OS1.0.2.0.UGTTWXM",
+					"android": "14.0",
+					"release": "2024-10-13",
+					"recovery": "miui_LAKETWGlobal_OS1.0.2.0.UGTTWXM_09fd1bda08_14.0.zip",
+					"fastboot": "lake_tw_global_images_OS1.0.2.0.UGTTWXM_20241009.0000.00_14.0_tw_e2afbf4295.tgz"
+				},
+				"OS1.0.1.0.UGTTWXM": {
+					"os": "OS1.0.1.0.UGTTWXM",
+					"android": "14.0",
+					"release": "2024-09-27",
+					"recovery": "miui_LAKETWGlobal_OS1.0.1.0.UGTTWXM_ee6d01bc16_14.0.zip",
+					"fastboot": "lake_tw_global_images_OS1.0.1.0.UGTTWXM_20240828.0000.00_14.0_tw_b94052ab0e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "lake_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.18.0.WGTMIXM": {
+					"os": "OS3.0.18.0.WGTMIXM",
+					"android": "16.0",
+					"release": "2026-02-25",
+					"recovery": "lake_global-ota_full-OS3.0.18.0.WGTMIXM-user-16.0-e592ad4d68.zip",
+					"fastboot": "lake_global_images_OS3.0.18.0.WGTMIXM_20260204.0000.00_16.0_global_3b1f0872b1.tgz"
+				},
+				"OS3.0.6.0.WGTMIXM": {
+					"os": "OS3.0.6.0.WGTMIXM",
+					"android": "16.0",
+					"release": "2025-12-27",
+					"recovery": "lake_global-ota_full-OS3.0.6.0.WGTMIXM-user-16.0-bb4992bb4d.zip",
+					"fastboot": ""
+				},
+				"OS2.0.205.0.VGTMIXM": {
+					"os": "OS2.0.205.0.VGTMIXM",
+					"android": "15.0",
+					"release": "2026-01-22",
+					"recovery": "lake_global-ota_full-OS2.0.205.0.VGTMIXM-user-15.0-7d242e140e.zip",
+					"fastboot": "lake_global_images_OS2.0.205.0.VGTMIXM_20251225.0000.00_15.0_global_2617113aa9.tgz"
+				},
+				"OS2.0.203.0.VGTMIXM": {
+					"os": "OS2.0.203.0.VGTMIXM",
+					"android": "15.0",
+					"release": "2025-10-31",
+					"recovery": "lake_global-ota_full-OS2.0.203.0.VGTMIXM-user-15.0-b4af488383.zip",
+					"fastboot": "lake_global_images_OS2.0.203.0.VGTMIXM_20251017.0000.00_15.0_global_c86ba1b6d6.tgz"
+				},
+				"OS2.0.202.0.VGTMIXM": {
+					"os": "OS2.0.202.0.VGTMIXM",
+					"android": "15.0",
+					"release": "2025-08-28",
+					"recovery": "lake_global-ota_full-OS2.0.202.0.VGTMIXM-user-15.0-4ba2b1c659.zip",
+					"fastboot": "lake_global_images_OS2.0.202.0.VGTMIXM_20250811.0000.00_15.0_global_d8c84a6055.tgz"
+				},
+				"OS2.0.4.0.VGTMIXM": {
+					"os": "OS2.0.4.0.VGTMIXM",
+					"android": "15.0",
+					"release": "2025-07-20",
+					"recovery": "lake_global-ota_full-OS2.0.4.0.VGTMIXM-user-15.0-6df1d5e03a.zip",
+					"fastboot": "lake_global_images_OS2.0.4.0.VGTMIXM_20250707.0000.00_15.0_global_b566e3f875.tgz"
+				},
+				"OS2.0.3.0.VGTMIXM": {
+					"os": "OS2.0.3.0.VGTMIXM",
+					"android": "15.0",
+					"release": "2025-06-03",
+					"recovery": "lake_global-ota_full-OS2.0.3.0.VGTMIXM-user-15.0-b69c2238cb.zip",
+					"fastboot": "lake_global_images_OS2.0.3.0.VGTMIXM_20250520.0000.00_15.0_global_c250e71ee9.tgz"
+				},
+				"OS2.0.1.0.VGTMIXM": {
+					"os": "OS2.0.1.0.VGTMIXM",
+					"android": "15.0",
+					"release": "2025-05-12",
+					"recovery": "lake_global-ota_full-OS2.0.1.0.VGTMIXM-user-15.0-0b7da9e179.zip",
+					"fastboot": "lake_global_images_OS2.0.1.0.VGTMIXM_20250425.0000.00_15.0_global_eedd0ec8f4.tgz"
+				},
+				"OS1.0.13.0.UGTMIXM": {
+					"os": "OS1.0.13.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2025-04-03",
+					"recovery": "miui_LAKEGlobal_OS1.0.13.0.UGTMIXM_6472e60862_14.0.zip",
+					"fastboot": "lake_global_images_OS1.0.13.0.UGTMIXM_20250314.0000.00_14.0_global_6d056c09b2.tgz"
+				},
+				"OS1.0.11.0.UGTMIXM": {
+					"os": "OS1.0.11.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2025-01-16",
+					"recovery": "miui_LAKEGlobal_OS1.0.11.0.UGTMIXM_6de4047946_14.0.zip",
+					"fastboot": "lake_global_images_OS1.0.11.0.UGTMIXM_20250105.0000.00_14.0_global_1b9c89f81e.tgz"
+				},
+				"OS1.0.10.0.UGTMIXM": {
+					"os": "OS1.0.10.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-12-02",
+					"recovery": "miui_LAKEGlobal_OS1.0.10.0.UGTMIXM_aa1c80c252_14.0.zip",
+					"fastboot": "lake_global_images_OS1.0.10.0.UGTMIXM_20241118.0000.00_14.0_global_f2668ab194.tgz"
+				},
+				"OS1.0.9.0.UGTMIXM": {
+					"os": "OS1.0.9.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_LAKEGlobal_OS1.0.9.0.UGTMIXM_32bfceef6d_14.0.zip",
+					"fastboot": "lake_global_images_OS1.0.9.0.UGTMIXM_20241024.0000.00_14.0_global_3c15159bee.tgz"
+				},
+				"OS1.0.6.0.UGTMIXM": {
+					"os": "OS1.0.6.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-09-28",
+					"recovery": "miui_LAKEGlobal_OS1.0.6.0.UGTMIXM_f4d94f023d_14.0.zip",
+					"fastboot": "lake_global_images_OS1.0.6.0.UGTMIXM_20240918.0000.00_14.0_global_3f2c1ccccf.tgz"
+				},
+				"OS1.0.5.0.UGTMIXM": {
+					"os": "OS1.0.5.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-09-17",
+					"recovery": "miui_LAKEGlobal_OS1.0.5.0.UGTMIXM_99d12c8d45_14.0.zip",
+					"fastboot": "lake_global_images_OS1.0.5.0.UGTMIXM_20240909.0000.00_14.0_global_55f2a8bcc5.tgz"
+				},
+				"OS1.0.4.0.UGTMIXM": {
+					"os": "OS1.0.4.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-09-05",
+					"recovery": "miui_LAKEGlobal_OS1.0.4.0.UGTMIXM_3001eee04b_14.0.zip",
+					"fastboot": "lake_global_images_OS1.0.4.0.UGTMIXM_20240823.0000.00_14.0_global_d90a10b64f.tgz"
+				},
+				"OS1.0.3.0.UGTMIXM": {
+					"os": "OS1.0.3.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-09-05",
+					"recovery": "miui_LAKEGlobal_OS1.0.3.0.UGTMIXM_94a1354b94_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.1.0.UGTMIXM": {
+					"os": "OS1.0.1.0.UGTMIXM",
+					"android": "14.0",
+					"release": "2024-09-05",
+					"recovery": "miui_LAKEGlobal_OS1.0.1.0.UGTMIXM_5d1787a452_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "lake_dc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WGTMIDC": {
+					"os": "OS3.0.1.0.WGTMIDC",
+					"android": "16.0",
+					"release": "2026-04-14",
+					"recovery": "lake_dc_global-ota_full-OS3.0.1.0.WGTMIDC-user-16.0-df0536993a.zip",
+					"fastboot": "lake_dc_global_images_OS3.0.1.0.WGTMIDC_20260331.0000.00_16.0_global_dc_0be7ee402c.tgz"
+				},
+				"OS2.0.205.0.VGTMIDC": {
+					"os": "OS2.0.205.0.VGTMIDC",
+					"android": "15.0",
+					"release": "2026-01-16",
+					"recovery": "lake_dc_global-ota_full-OS2.0.205.0.VGTMIDC-user-15.0-4366fbb9b3.zip",
+					"fastboot": "lake_dc_global_images_OS2.0.205.0.VGTMIDC_20260109.0000.00_15.0_global_dc_e15aeff4e9.tgz"
+				},
+				"OS2.0.203.0.VGTMIDC": {
+					"os": "OS2.0.203.0.VGTMIDC",
+					"android": "15.0",
+					"release": "2025-12-24",
+					"recovery": "lake_dc_global-ota_full-OS2.0.203.0.VGTMIDC-user-15.0-a5a35a928a.zip",
+					"fastboot": "lake_dc_global_images_OS2.0.203.0.VGTMIDC_20251203.0000.00_15.0_global_dc_1a4f9bac41.tgz"
+				},
+				"OS2.0.202.0.VGTMIDC": {
+					"os": "OS2.0.202.0.VGTMIDC",
+					"android": "15.0",
+					"release": "2025-10-28",
+					"recovery": "lake_dc_global-ota_full-OS2.0.202.0.VGTMIDC-user-15.0-69f184c21e.zip",
+					"fastboot": "lake_dc_global_images_OS2.0.202.0.VGTMIDC_20251016.0000.00_15.0_global_dc_2f6c49c99e.tgz"
+				},
+				"OS2.0.201.0.VGTMIDC": {
+					"os": "OS2.0.201.0.VGTMIDC",
+					"android": "15.0",
+					"release": "2025-08-26",
+					"recovery": "lake_dc_global-ota_full-OS2.0.201.0.VGTMIDC-user-15.0-032eea46ca.zip",
+					"fastboot": "lake_dc_global_images_OS2.0.201.0.VGTMIDC_20250812.0000.00_15.0_global_dc_64e295000d.tgz"
+				},
+				"OS2.0.3.0.VGTMIDC": {
+					"os": "OS2.0.3.0.VGTMIDC",
+					"android": "15.0",
+					"release": "2025-06-18",
+					"recovery": "lake_dc_global-ota_full-OS2.0.3.0.VGTMIDC-user-15.0-ce56b69c11.zip",
+					"fastboot": "lake_dc_global_images_OS2.0.3.0.VGTMIDC_20250604.0000.00_15.0_global_dc_0ec7333638.tgz"
+				},
+				"OS2.0.2.0.VGTMIDC": {
+					"os": "OS2.0.2.0.VGTMIDC",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "lake_dc_global-ota_full-OS2.0.2.0.VGTMIDC-user-15.0-058df54a25.zip",
+					"fastboot": "lake_dc_global_images_OS2.0.2.0.VGTMIDC_20250512.0000.00_15.0_global_dc_d746d3d07c.tgz"
+				},
+				"OS1.0.10.0.UGTMIDC": {
+					"os": "OS1.0.10.0.UGTMIDC",
+					"android": "14.0",
+					"release": "2025-04-15",
+					"recovery": "miui_LAKEDCGlobal_OS1.0.10.0.UGTMIDC_a2e28a5759_14.0.zip",
+					"fastboot": "lake_dc_global_images_OS1.0.10.0.UGTMIDC_20250326.0000.00_14.0_global_dc_11c0e1fea1.tgz"
+				},
+				"OS1.0.9.0.UGTMIDC": {
+					"os": "OS1.0.9.0.UGTMIDC",
+					"android": "14.0",
+					"release": "2025-02-08",
+					"recovery": "miui_LAKEDCGlobal_OS1.0.9.0.UGTMIDC_d00d2ca986_14.0.zip",
+					"fastboot": "lake_dc_global_images_OS1.0.9.0.UGTMIDC_20250123.0000.00_14.0_global_dc_9a06d2f695.tgz"
+				},
+				"OS1.0.8.0.UGTMIDC": {
+					"os": "OS1.0.8.0.UGTMIDC",
+					"android": "14.0",
+					"release": "2025-01-03",
+					"recovery": "miui_LAKEDCGlobal_OS1.0.8.0.UGTMIDC_b1fb256382_14.0.zip",
+					"fastboot": "lake_dc_global_images_OS1.0.8.0.UGTMIDC_20241121.0000.00_14.0_global_dc_3a3ce70f91.tgz"
+				},
+				"OS1.0.7.0.UGTMIDC": {
+					"os": "OS1.0.7.0.UGTMIDC",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_LAKEDCGlobal_OS1.0.7.0.UGTMIDC_7f3933f654_14.0.zip",
+					"fastboot": "lake_dc_global_images_OS1.0.7.0.UGTMIDC_20240927.0000.00_14.0_global_dc_44c9765adb.tgz"
+				},
+				"OS1.0.6.0.UGTMIDC": {
+					"os": "OS1.0.6.0.UGTMIDC",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_LAKEDCGlobal_OS1.0.6.0.UGTMIDC_83c768e5e4_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.3.0.UGTMIDC": {
+					"os": "OS1.0.3.0.UGTMIDC",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_LAKEDCGlobal_OS1.0.3.0.UGTMIDC_52a66f6914_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "lake_eea_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WGTEUXM": {
+					"os": "OS3.0.3.0.WGTEUXM",
+					"android": "16.0",
+					"release": "2026-03-16",
+					"recovery": "lake_eea_global-ota_full-OS3.0.3.0.WGTEUXM-user-16.0-49684d04f0.zip",
+					"fastboot": "lake_eea_global_images_OS3.0.3.0.WGTEUXM_20260302.0000.00_16.0_eea_e3ba7b31b2.tgz"
+				},
+				"OS2.0.209.0.VGTEUXM": {
+					"os": "OS2.0.209.0.VGTEUXM",
+					"android": "15.0",
+					"release": "2026-03-02",
+					"recovery": "lake_eea_global-ota_full-OS2.0.209.0.VGTEUXM-user-15.0-9fd8bd3778.zip",
+					"fastboot": "lake_eea_global_images_OS2.0.209.0.VGTEUXM_20260204.0000.00_15.0_eea_1b004949be.tgz"
+				},
+				"OS2.0.208.0.VGTEUXM": {
+					"os": "OS2.0.208.0.VGTEUXM",
+					"android": "15.0",
+					"release": "2026-01-19",
+					"recovery": "lake_eea_global-ota_full-OS2.0.208.0.VGTEUXM-user-15.0-f2c8a9fd67.zip",
+					"fastboot": "lake_eea_global_images_OS2.0.208.0.VGTEUXM_20260107.0000.00_15.0_eea_a5107fe65c.tgz"
+				},
+				"OS2.0.207.0.VGTEUXM": {
+					"os": "OS2.0.207.0.VGTEUXM",
+					"android": "15.0",
+					"release": "2026-01-08",
+					"recovery": "lake_eea_global-ota_full-OS2.0.207.0.VGTEUXM-user-15.0-d75fc59957.zip",
+					"fastboot": "lake_eea_global_images_OS2.0.207.0.VGTEUXM_20251225.0000.00_15.0_eea_b5f4df0f7e.tgz"
+				},
+				"OS2.0.205.0.VGTEUXM": {
+					"os": "OS2.0.205.0.VGTEUXM",
+					"android": "15.0",
+					"release": "2025-12-23",
+					"recovery": "lake_eea_global-ota_full-OS2.0.205.0.VGTEUXM-user-15.0-b955da676e.zip",
+					"fastboot": "lake_eea_global_images_OS2.0.205.0.VGTEUXM_20251203.0000.00_15.0_eea_05e4ecd63b.tgz"
+				},
+				"OS2.0.204.0.VGTEUXM": {
+					"os": "OS2.0.204.0.VGTEUXM",
+					"android": "15.0",
+					"release": "2025-10-23",
+					"recovery": "lake_eea_global-ota_full-OS2.0.204.0.VGTEUXM-user-15.0-4ce5f7791c.zip",
+					"fastboot": "lake_eea_global_images_OS2.0.204.0.VGTEUXM_20251011.0000.00_15.0_eea_ef33fae41a.tgz"
+				},
+				"OS2.0.203.0.VGTEUXM": {
+					"os": "OS2.0.203.0.VGTEUXM",
+					"android": "15.0",
+					"release": "2025-09-08",
+					"recovery": "lake_eea_global-ota_full-OS2.0.203.0.VGTEUXM-user-15.0-c529ad0a48.zip",
+					"fastboot": "lake_eea_global_images_OS2.0.203.0.VGTEUXM_20250825.0000.00_15.0_eea_fa16bdf7ca.tgz"
+				},
+				"OS2.0.202.0.VGTEUXM": {
+					"os": "OS2.0.202.0.VGTEUXM",
+					"android": "15.0",
+					"release": "2025-07-01",
+					"recovery": "lake_eea_global-ota_full-OS2.0.202.0.VGTEUXM-user-15.0-54fb735326.zip",
+					"fastboot": "lake_eea_global_images_OS2.0.202.0.VGTEUXM_20250620.0000.00_15.0_eea_0d2c782074.tgz"
+				},
+				"OS2.0.1.0.VGTEUXM": {
+					"os": "OS2.0.1.0.VGTEUXM",
+					"android": "15.0",
+					"release": "2025-06-10",
+					"recovery": "lake_eea_global-ota_full-OS2.0.1.0.VGTEUXM-user-15.0-aae88d09c7.zip",
+					"fastboot": "lake_eea_global_images_OS2.0.1.0.VGTEUXM_20250520.0000.00_15.0_eea_b73f47674d.tgz"
+				},
+				"OS1.0.9.0.UGTEUXM": {
+					"os": "OS1.0.9.0.UGTEUXM",
+					"android": "14.0",
+					"release": "2025-05-31",
+					"recovery": "miui_LAKEEEAGlobal_OS1.0.9.0.UGTEUXM_e2c155ba02_14.0.zip",
+					"fastboot": "lake_eea_global_images_OS1.0.9.0.UGTEUXM_20250519.0000.00_14.0_eea_ea72d3144d.tgz"
+				},
+				"OS1.0.8.0.UGTEUXM": {
+					"os": "OS1.0.8.0.UGTEUXM",
+					"android": "14.0",
+					"release": "2025-03-31",
+					"recovery": "miui_LAKEEEAGlobal_OS1.0.8.0.UGTEUXM_417bdb121d_14.0.zip",
+					"fastboot": "lake_eea_global_images_OS1.0.8.0.UGTEUXM_20250314.0000.00_14.0_eea_9accfc78ea.tgz"
+				},
+				"OS1.0.7.0.UGTEUXM": {
+					"os": "OS1.0.7.0.UGTEUXM",
+					"android": "14.0",
+					"release": "2025-02-10",
+					"recovery": "miui_LAKEEEAGlobal_OS1.0.7.0.UGTEUXM_1158150761_14.0.zip",
+					"fastboot": "lake_eea_global_images_OS1.0.7.0.UGTEUXM_20250110.0000.00_14.0_eea_3ab619e40b.tgz"
+				},
+				"OS1.0.6.0.UGTEUXM": {
+					"os": "OS1.0.6.0.UGTEUXM",
+					"android": "14.0",
+					"release": "2024-12-19",
+					"recovery": "miui_LAKEEEAGlobal_OS1.0.6.0.UGTEUXM_fada46d343_14.0.zip",
+					"fastboot": "lake_eea_global_images_OS1.0.6.0.UGTEUXM_20241121.0000.00_14.0_eea_3e330293d5.tgz"
+				},
+				"OS1.0.5.0.UGTEUXM": {
+					"os": "OS1.0.5.0.UGTEUXM",
+					"android": "14.0",
+					"release": "2024-10-29",
+					"recovery": "miui_LAKEEEAGlobal_OS1.0.5.0.UGTEUXM_651b9e2c99_14.0.zip",
+					"fastboot": "lake_eea_global_images_OS1.0.5.0.UGTEUXM_20241023.0000.00_14.0_eea_d4be2940ef.tgz"
+				},
+				"OS1.0.4.0.UGTEUXM": {
+					"os": "OS1.0.4.0.UGTEUXM",
+					"android": "14.0",
+					"release": "2024-10-08",
+					"recovery": "miui_LAKEEEAGlobal_OS1.0.4.0.UGTEUXM_3000f18ca6_14.0.zip",
+					"fastboot": "lake_eea_global_images_OS1.0.4.0.UGTEUXM_20240923.0000.00_14.0_eea_0e9c4fc2a0.tgz"
+				},
+				"OS1.0.3.0.UGTEUXM": {
+					"os": "OS1.0.3.0.UGTEUXM",
+					"android": "14.0",
+					"release": "2024-10-03",
+					"recovery": "miui_LAKEEEAGlobal_OS1.0.3.0.UGTEUXM_0a6000233f_14.0.zip",
+					"fastboot": "lake_eea_global_images_OS1.0.3.0.UGTEUXM_20240829.0000.00_14.0_eea_a23711fd41.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "lake_ru_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WGTRUXM": {
+					"os": "OS3.0.1.0.WGTRUXM",
+					"android": "16.0",
+					"release": "2026-03-24",
+					"recovery": "lake_ru_global-ota_full-OS3.0.1.0.WGTRUXM-user-16.0-e6a1439400.zip",
+					"fastboot": "lake_ru_global_images_OS3.0.1.0.WGTRUXM_20260312.0000.00_16.0_ru_c4ddf10ae2.tgz"
+				},
+				"OS2.0.202.0.VGTRUXM": {
+					"os": "OS2.0.202.0.VGTRUXM",
+					"android": "15.0",
+					"release": "2026-01-16",
+					"recovery": "lake_ru_global-ota_full-OS2.0.202.0.VGTRUXM-user-15.0-dda985c73a.zip",
+					"fastboot": "lake_ru_global_images_OS2.0.202.0.VGTRUXM_20260109.0000.00_15.0_ru_f05a6c6cf5.tgz"
+				},
+				"OS2.0.201.0.VGTRUXM": {
+					"os": "OS2.0.201.0.VGTRUXM",
+					"android": "15.0",
+					"release": "2025-11-04",
+					"recovery": "lake_ru_global-ota_full-OS2.0.201.0.VGTRUXM-user-15.0-e6e47a439c.zip",
+					"fastboot": "lake_ru_global_images_OS2.0.201.0.VGTRUXM_20251022.0000.00_15.0_ru_1a9bc7e526.tgz"
+				},
+				"OS2.0.200.0.VGTRUXM": {
+					"os": "OS2.0.200.0.VGTRUXM",
+					"android": "15.0",
+					"release": "2025-09-09",
+					"recovery": "lake_ru_global-ota_full-OS2.0.200.0.VGTRUXM-user-15.0-f32d4db79e.zip",
+					"fastboot": "lake_ru_global_images_OS2.0.200.0.VGTRUXM_20250827.0000.00_15.0_ru_17e83bda77.tgz"
+				},
+				"OS2.0.2.0.VGTRUXM": {
+					"os": "OS2.0.2.0.VGTRUXM",
+					"android": "15.0",
+					"release": "2025-07-17",
+					"recovery": "lake_ru_global-ota_full-OS2.0.2.0.VGTRUXM-user-15.0-90c641a513.zip",
+					"fastboot": "lake_ru_global_images_OS2.0.2.0.VGTRUXM_20250710.0000.00_15.0_ru_620d3b41ac.tgz"
+				},
+				"OS2.0.1.0.VGTRUXM": {
+					"os": "OS2.0.1.0.VGTRUXM",
+					"android": "15.0",
+					"release": "2025-06-10",
+					"recovery": "lake_ru_global-ota_full-OS2.0.1.0.VGTRUXM-user-15.0-8d66bf4193.zip",
+					"fastboot": "lake_ru_global_images_OS2.0.1.0.VGTRUXM_20250515.0000.00_15.0_ru_3e1b6afe7f.tgz"
+				},
+				"OS1.0.10.0.UGTRUXM": {
+					"os": "OS1.0.10.0.UGTRUXM",
+					"android": "14.0",
+					"release": "2025-05-28",
+					"recovery": "miui_LAKERUGlobal_OS1.0.10.0.UGTRUXM_c1cb565992_14.0.zip",
+					"fastboot": "lake_ru_global_images_OS1.0.10.0.UGTRUXM_20250422.0000.00_14.0_ru_f14580e82f.tgz"
+				},
+				"OS1.0.8.0.UGTRUXM": {
+					"os": "OS1.0.8.0.UGTRUXM",
+					"android": "14.0",
+					"release": "2025-03-31",
+					"recovery": "miui_LAKERUGlobal_OS1.0.8.0.UGTRUXM_a8383b30b4_14.0.zip",
+					"fastboot": "lake_ru_global_images_OS1.0.8.0.UGTRUXM_20250319.0000.00_14.0_ru_dad2ddd23a.tgz"
+				},
+				"OS1.0.7.0.UGTRUXM": {
+					"os": "OS1.0.7.0.UGTRUXM",
+					"android": "14.0",
+					"release": "2025-02-08",
+					"recovery": "miui_LAKERUGlobal_OS1.0.7.0.UGTRUXM_3d9f566729_14.0.zip",
+					"fastboot": "lake_ru_global_images_OS1.0.7.0.UGTRUXM_20250121.0000.00_14.0_ru_30a2805c66.tgz"
+				},
+				"OS1.0.6.0.UGTRUXM": {
+					"os": "OS1.0.6.0.UGTRUXM",
+					"android": "14.0",
+					"release": "2024-11-30",
+					"recovery": "miui_LAKERUGlobal_OS1.0.6.0.UGTRUXM_e160cd59f0_14.0.zip",
+					"fastboot": "lake_ru_global_images_OS1.0.6.0.UGTRUXM_20241121.0000.00_14.0_ru_790cab62b0.tgz"
+				},
+				"OS1.0.5.0.UGTRUXM": {
+					"os": "OS1.0.5.0.UGTRUXM",
+					"android": "14.0",
+					"release": "2024-10-31",
+					"recovery": "miui_LAKERUGlobal_OS1.0.5.0.UGTRUXM_dfad2ed307_14.0.zip",
+					"fastboot": "lake_ru_global_images_OS1.0.5.0.UGTRUXM_20241027.0000.00_14.0_ru_676cadba0e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "lake_id_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WGTIDXM": {
+					"os": "OS3.0.1.0.WGTIDXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "lake_id_global-ota_full-OS3.0.1.0.WGTIDXM-user-16.0-cffe307a36.zip",
+					"fastboot": "lake_id_global_images_OS3.0.1.0.WGTIDXM_20260312.0000.00_16.0_id_006e5cbf35.tgz"
+				},
+				"OS2.0.202.0.VGTIDXM": {
+					"os": "OS2.0.202.0.VGTIDXM",
+					"android": "15.0",
+					"release": "2026-01-19",
+					"recovery": "lake_id_global-ota_full-OS2.0.202.0.VGTIDXM-user-15.0-d2daf4f5eb.zip",
+					"fastboot": "lake_id_global_images_OS2.0.202.0.VGTIDXM_20260109.0000.00_15.0_id_f13e7a3686.tgz"
+				},
+				"OS2.0.201.0.VGTIDXM": {
+					"os": "OS2.0.201.0.VGTIDXM",
+					"android": "15.0",
+					"release": "2025-11-07",
+					"recovery": "lake_id_global-ota_full-OS2.0.201.0.VGTIDXM-user-15.0-1a06f48e76.zip",
+					"fastboot": "lake_id_global_images_OS2.0.201.0.VGTIDXM_20251022.0000.00_15.0_id_74da382fec.tgz"
+				},
+				"OS2.0.200.0.VGTIDXM": {
+					"os": "OS2.0.200.0.VGTIDXM",
+					"android": "15.0",
+					"release": "2025-09-12",
+					"recovery": "lake_id_global-ota_full-OS2.0.200.0.VGTIDXM-user-15.0-cc9732cc1b.zip",
+					"fastboot": "lake_id_global_images_OS2.0.200.0.VGTIDXM_20250827.0000.00_15.0_id_c793ecc85e.tgz"
+				},
+				"OS2.0.2.0.VGTIDXM": {
+					"os": "OS2.0.2.0.VGTIDXM",
+					"android": "15.0",
+					"release": "2025-07-20",
+					"recovery": "lake_id_global-ota_full-OS2.0.2.0.VGTIDXM-user-15.0-6241005cbb.zip",
+					"fastboot": "lake_id_global_images_OS2.0.2.0.VGTIDXM_20250710.0000.00_15.0_id_f83bf9c49c.tgz"
+				},
+				"OS2.0.1.0.VGTIDXM": {
+					"os": "OS2.0.1.0.VGTIDXM",
+					"android": "15.0",
+					"release": "2025-05-26",
+					"recovery": "lake_id_global-ota_full-OS2.0.1.0.VGTIDXM-user-15.0-fa0d794c11.zip",
+					"fastboot": "lake_id_global_images_OS2.0.1.0.VGTIDXM_20250506.0000.00_15.0_id_77de8c19a4.tgz"
+				},
+				"OS1.0.6.0.UGTIDXM": {
+					"os": "OS1.0.6.0.UGTIDXM",
+					"android": "14.0",
+					"release": "2025-04-07",
+					"recovery": "miui_LAKEIDGlobal_OS1.0.6.0.UGTIDXM_f5ca88998e_14.0.zip",
+					"fastboot": "lake_id_global_images_OS1.0.6.0.UGTIDXM_20250319.0000.00_14.0_id_e26d3c88f8.tgz"
+				},
+				"OS1.0.5.0.UGTIDXM": {
+					"os": "OS1.0.5.0.UGTIDXM",
+					"android": "14.0",
+					"release": "2025-02-10",
+					"recovery": "miui_LAKEIDGlobal_OS1.0.5.0.UGTIDXM_7010df33b0_14.0.zip",
+					"fastboot": "lake_id_global_images_OS1.0.5.0.UGTIDXM_20250113.0000.00_14.0_id_05f3feae18.tgz"
+				},
+				"OS1.0.4.0.UGTIDXM": {
+					"os": "OS1.0.4.0.UGTIDXM",
+					"android": "14.0",
+					"release": "2024-12-22",
+					"recovery": "miui_LAKEIDGlobal_OS1.0.4.0.UGTIDXM_42922825b1_14.0.zip",
+					"fastboot": "lake_id_global_images_OS1.0.4.0.UGTIDXM_20241202.0000.00_14.0_id_b4efa0ad5f.tgz"
+				},
+				"OS1.0.2.0.UGTIDXM": {
+					"os": "OS1.0.2.0.UGTIDXM",
+					"android": "14.0",
+					"release": "2024-11-06",
+					"recovery": "miui_LAKEIDGlobal_OS1.0.2.0.UGTIDXM_eebd324c2f_14.0.zip",
+					"fastboot": "lake_id_global_images_OS1.0.2.0.UGTIDXM_20241031.0000.00_14.0_id_c5acf8d7bb.tgz"
+				},
+				"OS1.0.1.0.UGTIDXM": {
+					"os": "OS1.0.1.0.UGTIDXM",
+					"android": "14.0",
+					"release": "2024-10-09",
+					"recovery": "miui_LAKEIDGlobal_OS1.0.1.0.UGTIDXM_4088a484c2_14.0.zip",
+					"fastboot": "lake_id_global_images_OS1.0.1.0.UGTIDXM_20240820.0000.00_14.0_id_920ac4c67b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "lake_tr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WGTTRXM": {
+					"os": "OS3.0.1.0.WGTTRXM",
+					"android": "16.0",
+					"release": "2026-04-09",
+					"recovery": "lake_tr_global-ota_full-OS3.0.1.0.WGTTRXM-user-16.0-c03e684bb5.zip",
+					"fastboot": "lake_tr_global_images_OS3.0.1.0.WGTTRXM_20260325.0000.00_16.0_tr_48a718c6ea.tgz"
+				},
+				"OS2.0.202.0.VGTTRXM": {
+					"os": "OS2.0.202.0.VGTTRXM",
+					"android": "15.0",
+					"release": "2026-01-16",
+					"recovery": "lake_tr_global-ota_full-OS2.0.202.0.VGTTRXM-user-15.0-5653d128e9.zip",
+					"fastboot": "lake_tr_global_images_OS2.0.202.0.VGTTRXM_20260109.0000.00_15.0_tr_c7b21dc110.tgz"
+				},
+				"OS2.0.201.0.VGTTRXM": {
+					"os": "OS2.0.201.0.VGTTRXM",
+					"android": "15.0",
+					"release": "2025-11-04",
+					"recovery": "lake_tr_global-ota_full-OS2.0.201.0.VGTTRXM-user-15.0-efe8821203.zip",
+					"fastboot": "lake_tr_global_images_OS2.0.201.0.VGTTRXM_20251022.0000.00_15.0_tr_6d1c96abe1.tgz"
+				},
+				"OS2.0.200.0.VGTTRXM": {
+					"os": "OS2.0.200.0.VGTTRXM",
+					"android": "15.0",
+					"release": "2025-09-09",
+					"recovery": "lake_tr_global-ota_full-OS2.0.200.0.VGTTRXM-user-15.0-ee36a63aa0.zip",
+					"fastboot": "lake_tr_global_images_OS2.0.200.0.VGTTRXM_20250827.0000.00_15.0_tr_15e446ae69.tgz"
+				},
+				"OS2.0.2.0.VGTTRXM": {
+					"os": "OS2.0.2.0.VGTTRXM",
+					"android": "15.0",
+					"release": "2025-07-17",
+					"recovery": "lake_tr_global-ota_full-OS2.0.2.0.VGTTRXM-user-15.0-1cc93691e7.zip",
+					"fastboot": "lake_tr_global_images_OS2.0.2.0.VGTTRXM_20250710.0000.00_15.0_tr_72d0a5d53d.tgz"
+				},
+				"OS2.0.1.0.VGTTRXM": {
+					"os": "OS2.0.1.0.VGTTRXM",
+					"android": "15.0",
+					"release": "2025-05-29",
+					"recovery": "lake_tr_global-ota_full-OS2.0.1.0.VGTTRXM-user-15.0-8fe5c794ce.zip",
+					"fastboot": "lake_tr_global_images_OS2.0.1.0.VGTTRXM_20250509.0000.00_15.0_tr_24f7e4b027.tgz"
+				},
+				"OS1.0.4.0.UGTTRXM": {
+					"os": "OS1.0.4.0.UGTTRXM",
+					"android": "14.0",
+					"release": "2025-03-27",
+					"recovery": "miui_LAKETRGlobal_OS1.0.4.0.UGTTRXM_5dde28867a_14.0.zip",
+					"fastboot": "lake_tr_global_images_OS1.0.4.0.UGTTRXM_20250319.0000.00_14.0_tr_fc2785c515.tgz"
+				},
+				"OS1.0.3.0.UGTTRXM": {
+					"os": "OS1.0.3.0.UGTTRXM",
+					"android": "14.0",
+					"release": "2025-02-08",
+					"recovery": "miui_LAKETRGlobal_OS1.0.3.0.UGTTRXM_bec6e454bf_14.0.zip",
+					"fastboot": "lake_tr_global_images_OS1.0.3.0.UGTTRXM_20250123.0000.00_14.0_tr_1b0aa6e26d.tgz"
+				},
+				"OS1.0.2.0.UGTTRXM": {
+					"os": "OS1.0.2.0.UGTTRXM",
+					"android": "14.0",
+					"release": "2024-11-28",
+					"recovery": "miui_LAKETRGlobal_OS1.0.2.0.UGTTRXM_a6d2677735_14.0.zip",
+					"fastboot": "lake_tr_global_images_OS1.0.2.0.UGTTRXM_20241118.0000.00_14.0_tr_6cd0d2aedf.tgz"
+				},
+				"OS1.0.1.0.UGTTRXM": {
+					"os": "OS1.0.1.0.UGTTRXM",
+					"android": "14.0",
+					"release": "2024-11-25",
+					"recovery": "miui_LAKETRGlobal_OS1.0.1.0.UGTTRXM_c41a1ce5b4_14.0.zip",
+					"fastboot": "lake_tr_global_images_OS1.0.1.0.UGTTRXM_20240831.0000.00_14.0_tr_cb5d2732e7.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "lake_gt_tg_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tg"
+			],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VGTGTTG": {
+					"os": "OS2.0.201.0.VGTGTTG",
+					"android": "15.0",
+					"release": "2025-12-18",
+					"recovery": "lake_gt_tg_global-ota_full-OS2.0.201.0.VGTGTTG-user-15.0-924d770ff5.zip",
+					"fastboot": "lake_gt_tg_global_images_OS2.0.201.0.VGTGTTG_20251014.0000.00_15.0_gt_tg_0a2edd814e.tgz"
+				},
+				"OS1.0.5.0.UGTGTTG": {
+					"os": "OS1.0.5.0.UGTGTTG",
+					"android": "14.0",
+					"release": "2025-03-25",
+					"recovery": "miui_LAKEGTTGGlobal_OS1.0.5.0.UGTGTTG_d988a24a7d_14.0.zip",
+					"fastboot": "lake_gt_tg_global_images_OS1.0.5.0.UGTGTTG_20250307.0000.00_14.0_gt_tg_0fe32d71cd.tgz"
+				},
+				"OS1.0.4.0.UGTGTTG": {
+					"os": "OS1.0.4.0.UGTGTTG",
+					"android": "14.0",
+					"release": "2025-02-18",
+					"recovery": "miui_LAKEGTTGGlobal_OS1.0.4.0.UGTGTTG_02d1c96082_14.0.zip",
+					"fastboot": "lake_gt_tg_global_images_OS1.0.4.0.UGTGTTG_20241210.0000.00_14.0_gt_tg_1f219ebb27.tgz"
+				},
+				"OS1.0.2.0.UGTGTTG": {
+					"os": "OS1.0.2.0.UGTGTTG",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_LAKEGTTGGlobal_OS1.0.2.0.UGTGTTG_d6ce7d4b7c_14.0.zip",
+					"fastboot": "lake_gt_tg_global_images_OS1.0.2.0.UGTGTTG_20240821.0000.00_14.0_gt_tg_2a4723ff0b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "lake_mx_at_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"at"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.203.0.VGTMXAT": {
+					"os": "OS2.0.203.0.VGTMXAT",
+					"android": "15.0",
+					"release": "2026-01-11",
+					"recovery": "lake_mx_at_global-ota_full-OS2.0.203.0.VGTMXAT-user-15.0-f8a5bcbc14.zip",
+					"fastboot": "lake_mx_at_global_images_OS2.0.203.0.VGTMXAT_20251225.0000.00_15.0_mx_at_dca9c3f9b4.tgz"
+				},
+				"OS2.0.202.0.VGTMXAT": {
+					"os": "OS2.0.202.0.VGTMXAT",
+					"android": "15.0",
+					"release": "2025-12-01",
+					"recovery": "lake_mx_at_global-ota_full-OS2.0.202.0.VGTMXAT-user-15.0-f08f5cbd19.zip",
+					"fastboot": "lake_mx_at_global_images_OS2.0.202.0.VGTMXAT_20251017.0000.00_15.0_mx_at_a8a6beeae5.tgz"
+				},
+				"OS2.0.201.0.VGTMXAT": {
+					"os": "OS2.0.201.0.VGTMXAT",
+					"android": "15.0",
+					"release": "2025-09-09",
+					"recovery": "lake_mx_at_global-ota_full-OS2.0.201.0.VGTMXAT-user-15.0-f1e492bec0.zip",
+					"fastboot": "lake_mx_at_global_images_OS2.0.201.0.VGTMXAT_20250821.0000.00_15.0_mx_at_c290d87609.tgz"
+				},
+				"OS2.0.1.0.VGTMXAT": {
+					"os": "OS2.0.1.0.VGTMXAT",
+					"android": "15.0",
+					"release": "2025-07-24",
+					"recovery": "lake_mx_at_global-ota_full-OS2.0.1.0.VGTMXAT-user-15.0-a78331d95b.zip",
+					"fastboot": "lake_mx_at_global_images_OS2.0.1.0.VGTMXAT_20250509.0000.00_15.0_mx_at_789b494262.tgz"
+				},
+				"OS1.0.7.0.UGTMXAT": {
+					"os": "OS1.0.7.0.UGTMXAT",
+					"android": "14.0",
+					"release": "2025-05-06",
+					"recovery": "miui_LAKEMXATGlobal_OS1.0.7.0.UGTMXAT_47e78f9d33_14.0.zip",
+					"fastboot": "lake_mx_at_global_images_OS1.0.7.0.UGTMXAT_20250423.0000.00_14.0_mx_at_3862ba04c9.tgz"
+				},
+				"OS1.0.6.0.UGTMXAT": {
+					"os": "OS1.0.6.0.UGTMXAT",
+					"android": "14.0",
+					"release": "2025-03-14",
+					"recovery": "miui_LAKEMXATGlobal_OS1.0.6.0.UGTMXAT_2b6c768948_14.0.zip",
+					"fastboot": "lake_mx_at_global_images_OS1.0.6.0.UGTMXAT_20250217.0000.00_14.0_mx_at_b5b52e42a4.tgz"
+				},
+				"OS1.0.4.0.UGTMXAT": {
+					"os": "OS1.0.4.0.UGTMXAT",
+					"android": "14.0",
+					"release": "2024-12-20",
+					"recovery": "miui_LAKEMXATGlobal_OS1.0.4.0.UGTMXAT_177e93e4a9_14.0.zip",
+					"fastboot": "lake_mx_at_global_images_OS1.0.4.0.UGTMXAT_20241205.0000.00_14.0_mx_at_b82fe03669.tgz"
+				},
+				"OS1.0.3.0.UGTMXAT": {
+					"os": "OS1.0.3.0.UGTMXAT",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_LAKEMXATGlobal_OS1.0.3.0.UGTMXAT_105c588bb6_14.0.zip",
+					"fastboot": "lake_mx_at_global_images_OS1.0.3.0.UGTMXAT_20241023.0000.00_14.0_mx_at_aa5926c33c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "lake_lm_cr_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.203.0.VGTLMCR": {
+					"os": "OS2.0.203.0.VGTLMCR",
+					"android": "15.0",
+					"release": "2026-01-21",
+					"recovery": "lake_lm_cr_global-ota_full-OS2.0.203.0.VGTLMCR-user-15.0-f2bc620c0d.zip",
+					"fastboot": "lake_lm_cr_global_images_OS2.0.203.0.VGTLMCR_20260107.0000.00_15.0_lm_cr_7a9265679f.tgz"
+				},
+				"OS2.0.202.0.VGTLMCR": {
+					"os": "OS2.0.202.0.VGTLMCR",
+					"android": "15.0",
+					"release": "2025-11-21",
+					"recovery": "lake_lm_cr_global-ota_full-OS2.0.202.0.VGTLMCR-user-15.0-e1e0d5ec41.zip",
+					"fastboot": "lake_lm_cr_global_images_OS2.0.202.0.VGTLMCR_20251103.0000.00_15.0_lm_cr_30fad8ba8e.tgz"
+				},
+				"OS2.0.201.0.VGTLMCR": {
+					"os": "OS2.0.201.0.VGTLMCR",
+					"android": "15.0",
+					"release": "2025-09-28",
+					"recovery": "lake_lm_cr_global-ota_full-OS2.0.201.0.VGTLMCR-user-15.0-d57f3afe07.zip",
+					"fastboot": "lake_lm_cr_global_images_OS2.0.201.0.VGTLMCR_20250915.0000.00_15.0_lm_cr_d293ade283.tgz"
+				},
+				"OS2.0.2.0.VGTLMCR": {
+					"os": "OS2.0.2.0.VGTLMCR",
+					"android": "15.0",
+					"release": "2025-07-11",
+					"recovery": "lake_lm_cr_global-ota_full-OS2.0.2.0.VGTLMCR-user-15.0-571ddb50c2.zip",
+					"fastboot": "lake_lm_cr_global_images_OS2.0.2.0.VGTLMCR_20250701.0000.00_15.0_lm_cr_c98a1da832.tgz"
+				},
+				"OS2.0.1.0.VGTLMCR": {
+					"os": "OS2.0.1.0.VGTLMCR",
+					"android": "15.0",
+					"release": "2025-06-10",
+					"recovery": "lake_lm_cr_global-ota_full-OS2.0.1.0.VGTLMCR-user-15.0-30c5822c28.zip",
+					"fastboot": "lake_lm_cr_global_images_OS2.0.1.0.VGTLMCR_20250513.0000.00_15.0_lm_cr_512097bda6.tgz"
+				},
+				"OS1.0.5.0.UGTLMCR": {
+					"os": "OS1.0.5.0.UGTLMCR",
+					"android": "14.0",
+					"release": "2025-04-08",
+					"recovery": "miui_LAKELMCRGlobal_OS1.0.5.0.UGTLMCR_40d13219f6_14.0.zip",
+					"fastboot": "lake_lm_cr_global_images_OS1.0.5.0.UGTLMCR_20250325.0000.00_14.0_lm_cr_99a23b687f.tgz"
+				},
+				"OS1.0.4.0.UGTLMCR": {
+					"os": "OS1.0.4.0.UGTLMCR",
+					"android": "14.0",
+					"release": "2025-02-25",
+					"recovery": "miui_LAKELMCRGlobal_OS1.0.4.0.UGTLMCR_fbefe1e717_14.0.zip",
+					"fastboot": "lake_lm_cr_global_images_OS1.0.4.0.UGTLMCR_20250218.0000.00_14.0_lm_cr_5aa0d896c7.tgz"
+				},
+				"OS1.0.3.0.UGTLMCR": {
+					"os": "OS1.0.3.0.UGTLMCR",
+					"android": "14.0",
+					"release": "2024-12-18",
+					"recovery": "miui_LAKELMCRGlobal_OS1.0.3.0.UGTLMCR_a3481c238a_14.0.zip",
+					"fastboot": "lake_lm_cr_global_images_OS1.0.3.0.UGTLMCR_20241206.0000.00_14.0_lm_cr_2731b71281.tgz"
+				},
+				"OS1.0.2.0.UGTLMCR": {
+					"os": "OS1.0.2.0.UGTLMCR",
+					"android": "14.0",
+					"release": "2024-11-20",
+					"recovery": "miui_LAKELMCRGlobal_OS1.0.2.0.UGTLMCR_6fce013700_14.0.zip",
+					"fastboot": "lake_lm_cr_global_images_OS1.0.2.0.UGTLMCR_20240924.0000.00_14.0_lm_cr_6cbc8b72d6.tgz"
+				},
+				"OS1.0.1.0.UGTLMCR": {
+					"os": "OS1.0.1.0.UGTLMCR",
+					"android": "14.0",
+					"release": "2024-11-15",
+					"recovery": "miui_LAKELMCRGlobal_OS1.0.1.0.UGTLMCR_ef246fa4e0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }
