@@ -21,10 +21,10 @@
     function switchLanguage(lang) {
       // 保存语言偏好到 localStorage
       localStorage.setItem('preferred-language', lang);
-      
+
       // 更新 HTML lang 属性
       document.documentElement.lang = lang;
-      
+
       // 更新所有带有 lang-text 类的元素
       const elements = document.querySelectorAll('.lang-text');
       elements.forEach(el => {
@@ -33,7 +33,7 @@
           el.textContent = ' ' + text + ' ';
         }
       });
-      
+
       // 更新设备芯片中的文本
       const chips = document.querySelectorAll('.mdui-chip');
       chips.forEach(chip => {
@@ -45,25 +45,25 @@
           }
         }
       });
-      
+
       // 更新页面标题
       const title = lang === 'zh' ? 'HyperOS ROMS 数据' : 'HyperOS ROMS Data';
       document.title = title;
       document.querySelector('.mdui-typo-title').textContent = title;
-      
+
       // 更新语言切换按钮文本
       const langBtn = document.getElementById('lang-switch-btn');
       if (langBtn) {
         langBtn.innerHTML = '<i class="mdui-icon material-icons">language</i> ' + (lang === 'zh' ? 'English' : '中文');
       }
-      
+
       // 更新底部链接文本
       updateFooterLinks(lang);
-      
-      // 更新免责声明
+
+      // 更新免责声明 - 动态获取当前年份
       updateDisclaimer(lang);
     }
-    
+
     function updateFooterLinks(lang) {
       const links = {
         'weibo': lang === 'zh' ? '微博' : 'Weibo',
@@ -71,7 +71,7 @@
         'bilibili': lang === 'zh' ? '哔哩哔哩' : 'Bilibili',
         'backtotop': lang === 'zh' ? '返回顶部' : 'Back to Top'
       };
-      
+
       document.querySelectorAll('.mdui-bottom-nav a label').forEach(label => {
         const parent = label.parentElement;
         if (parent.href.includes('weibo')) label.textContent = links.weibo;
@@ -80,20 +80,22 @@
         else if (parent.href.includes('#top')) label.textContent = links.backtotop;
       });
     }
-    
+
     function updateDisclaimer(lang) {
-      const disclaimer = lang === 'zh' 
-        ? '2023 - 2025 -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系'
-        : '2023 - 2025 -- This is NOT an official website of Xiaomi Group. We have no affiliation with Xiaomi or the HyperOS development team.';
-      
+      // 获取当前年份
+      const currentYear = new Date().getFullYear();
+      const disclaimer = lang === 'zh'
+        ? '2023 - ' + currentYear + ' -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系'
+        : '2023 - ' + currentYear + ' -- This is NOT an official website of Xiaomi Group. We have no affiliation with Xiaomi or the HyperOS development team.';
+
       const fsElement = document.querySelector('.mdui-bottom-nav.fs .mdui-text-center');
       if (fsElement) {
         fsElement.innerHTML = disclaimer;
       }
     }
-    
+
     // 页面加载时应用保存的语言偏好
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const savedLang = localStorage.getItem('preferred-language') || 'zh';
       if (savedLang !== 'zh') {
         switchLanguage(savedLang);
@@ -230,16 +232,13 @@
                 <div class="mdui-chip" data-name-zh="Redmi 12C(earth)" data-name-en="Redmi 12C(earth)"><a href="devices/earth.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 12C(earth)" data-lang-en="Redmi 12C(earth)"> Redmi 12C(earth) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi 12 / 12R 5G(sky)" data-name-en="Redmi 12 / 12R 5G(sky)"><a href="devices/sky.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 12 / 12R 5G(sky)" data-lang-en="Redmi 12 / 12R 5G(sky)"> Redmi 12 / 12R 5G(sky) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi 13 5G(breeze)" data-name-en="Redmi 13 5G(breeze)"><a href="devices/breeze.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 13 5G(breeze)" data-lang-en="Redmi 13 5G(breeze)"> Redmi 13 5G(breeze) </span></a></div>
-                <div class="mdui-chip" data-name-zh="Redmi 13R 5G(air)" data-name-en="Redmi 13R 5G(air)"><a href="devices/air.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 13R 5G(air)" data-lang-en="Redmi 13R 5G(air)"> Redmi 13R 5G(air) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi 13 国际(moon)" data-name-en="Redmi 13(moon)"><a href="devices/moon.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 13 国际(moon)" data-lang-en="Redmi 13(moon)"> Redmi 13 国际(moon) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi 13C / 13R 5G(air)" data-name-en="Redmi 13C / 13R 5G(air)"><a href="devices/air.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 13C / 13R 5G(air)" data-lang-en="Redmi 13C / 13R 5G(air)"> Redmi 13C / 13R 5G(air) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi 13C 国际(gale)" data-name-en="Redmi 13C(gale)"><a href="devices/gale.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 13C 国际(gale)" data-lang-en="Redmi 13C(gale)"> Redmi 13C 国际(gale) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi 14C(lake)" data-name-en="Redmi 14C(lake)"><a href="devices/lake.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 14C(lake)" data-lang-en="Redmi 14C(lake)"> Redmi 14C(lake) </span></a></div>
-                <div class="mdui-chip" data-name-zh="Redmi 14R 5G(flame)" data-name-en="Redmi 14R 5G(flame)"><a href="devices/flame.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 14R 5G(flame)" data-lang-en="Redmi 14R 5G(flame)"> Redmi 14R 5G(flame) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI 15 4G(creek)" data-name-en="REDMI 15 4G(creek)"><a href="devices/creek.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI 15 4G(creek)" data-lang-en="REDMI 15 4G(creek)"> REDMI 15 4G(creek) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI 15C(dew)" data-name-en="REDMI 15C(dew)"><a href="devices/dew.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI 15C(dew)" data-lang-en="REDMI 15C(dew)"> REDMI 15C(dew) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI 15C 5G(tornado)" data-name-en="REDMI 15C 5G(tornado)"><a href="devices/tornado.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI 15C 5G(tornado)" data-lang-en="REDMI 15C 5G(tornado)"> REDMI 15C 5G(tornado) </span></a></div>
-                <div class="mdui-chip" data-name-zh="REDMI 15R 5G(tornado)" data-name-en="REDMI 15R 5G(tornado)"><a href="devices/tornado.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI 15R 5G(tornado)" data-lang-en="REDMI 15R 5G(tornado)"> REDMI 15R 5G(tornado) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI 15 5G(spring)" data-name-en="REDMI 15 5G(spring)"><a href="devices/spring.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI 15 5G(spring)" data-lang-en="REDMI 15 5G(spring)"> REDMI 15 5G(spring) </span></a></div>
                 <div class="series HyperBlue lang-text" data-lang-zh="Redmi Note系列：" data-lang-en="Redmi Note Series: "> Redmi Note系列：</div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 11 5G / 11T 5G(evergo)" data-name-en="Redmi Note 11 5G / 11T 5G(evergo)"><a href="devices/evergo.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 11 5G / 11T 5G(evergo)" data-lang-en="Redmi Note 11 5G / 11T 5G(evergo)"> Redmi Note 11 5G / 11T 5G(evergo) </span></a></div>
@@ -255,7 +254,6 @@
                 <div class="mdui-chip" data-name-zh="Redmi Note 11 Pro 4G 印度版(vida)" data-name-en="Redmi Note 11 Pro 4G India(vida)"><a href="devices/vida.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 11 Pro 4G 印度版(vida)" data-lang-en="Redmi Note 11 Pro 4G India(vida)"> Redmi Note 11 Pro 4G 印度版(vida) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 11S 4G(fleur)" data-name-en="Redmi Note 11S 4G(fleur)"><a href="devices/fleur.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 11S 4G(fleur)" data-lang-en="Redmi Note 11S 4G(fleur)"> Redmi Note 11S 4G(fleur) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 11S 5G(opal)" data-name-en="Redmi Note 11S 5G(opal)"><a href="devices/opal.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 11S 5G(opal)" data-lang-en="Redmi Note 11S 5G(opal)"> Redmi Note 11S 5G(opal) </span></a></div>
-                <div class="mdui-chip" data-name-zh="Redmi Note 12R(sky)" data-name-en="Redmi Note 12R(sky)"><a href="devices/sky.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 12R(sky)" data-lang-en="Redmi Note 12R(sky)"> Redmi Note 12R(sky) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 12 5G / Note 12R Pro(sunstone)" data-name-en="Redmi Note 12 5G / Note 12R Pro(sunstone)"><a href="devices/sunstone.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 12 5G / Note 12R Pro(sunstone)" data-lang-en="Redmi Note 12 5G / Note 12R Pro(sunstone)"> Redmi Note 12 5G / Note 12R Pro(sunstone) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 12 Pro / Pro+ / 探索版(ruby)" data-name-en="Redmi Note 12 Pro / Pro+ / Discovery 5G(ruby)"><a href="devices/ruby.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 12 Pro / Pro+ / 探索版(ruby)" data-lang-en="Redmi Note 12 Pro / Pro+ / Discovery 5G(ruby)"> Redmi Note 12 Pro / Pro+ / 探索版(ruby) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 12 Pro 极速版(redwood)" data-name-en="Redmi Note 12 Pro Speed(redwood)"><a href="devices/redwood.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 12 Pro 极速版(redwood)" data-lang-en="Redmi Note 12 Pro Speed(redwood)"> Redmi Note 12 Pro 极速版(redwood) </span></a></div>
@@ -267,7 +265,6 @@
                 <div class="mdui-chip" data-name-zh="Redmi Note 12S(sea)" data-name-en="Redmi Note 12S(sea)"><a href="devices/sea.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 12S(sea)" data-lang-en="Redmi Note 12S(sea)"> Redmi Note 12S(sea) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 13 4G(sapphire)" data-name-en="Redmi Note 13 4G(sapphire)"><a href="devices/sapphire.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 13 4G(sapphire)" data-lang-en="Redmi Note 13 4G(sapphire)"> Redmi Note 13 4G(sapphire) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 13 5G(gold)" data-name-en="Redmi Note 13 5G(gold)"><a href="devices/gold.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 13 5G(gold)" data-lang-en="Redmi Note 13 5G(gold)"> Redmi Note 13 5G(gold) </span></a></div>
-                <div class="mdui-chip" data-name-zh="Redmi Note 13R 5G(breeze)" data-name-en="Redmi Note 13R 5G(breeze)"><a href="devices/breeze.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 13R 5G(breeze)" data-lang-en="Redmi Note 13R 5G(breeze)"> Redmi Note 13R 5G(breeze) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 13 Pro 5G(garnet)" data-name-en="Redmi Note 13 Pro 5G(garnet)"><a href="devices/garnet.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 13 Pro 5G(garnet)" data-lang-en="Redmi Note 13 Pro 5G(garnet)"> Redmi Note 13 Pro 5G(garnet) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 13 Pro 4G(emerald)" data-name-en="Redmi Note 13 Pro 4G(emerald)"><a href="devices/emerald.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 13 Pro 4G(emerald)" data-lang-en="Redmi Note 13 Pro 4G(emerald)"> Redmi Note 13 Pro 4G(emerald) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 13 Pro+ 5G(zircon)" data-name-en="Redmi Note 13 Pro+ 5G(zircon)"><a href="devices/zircon.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 13 Pro+ 5G(zircon)" data-lang-en="Redmi Note 13 Pro+ 5G(zircon)"> Redmi Note 13 Pro+ 5G(zircon) </span></a></div>
@@ -280,7 +277,6 @@
                 <div class="mdui-chip" data-name-zh="Redmi Note 14 Pro(malachite)" data-name-en="Redmi Note 14 Pro(malachite)"><a href="devices/malachite.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 14 Pro(malachite)" data-lang-en="Redmi Note 14 Pro(malachite)"> Redmi Note 14 Pro(malachite) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 14 Pro+(amethyst)" data-name-en="Redmi Note 14 Pro+(amethyst)"><a href="devices/amethyst.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 14 Pro+(amethyst)" data-lang-en="Redmi Note 14 Pro+(amethyst)"> Redmi Note 14 Pro+(amethyst) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi Note 14s(emerald_r)" data-name-en="Redmi Note 14s(emerald_r)"><a href="devices/emerald_r.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 14s(emerald_r)" data-lang-en="Redmi Note 14s(emerald_r)"> Redmi Note 14s(emerald_r) </span></a></div>
-                <div class="mdui-chip" data-name-zh="REDMI Note 15R 5G(spring)" data-name-en="REDMI Note 15R 5G(spring)"><a href="devices/spring.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 15R 5G(spring)" data-lang-en="REDMI Note 15R 5G(spring)"> REDMI Note 15R 5G(spring) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI Note 15 5G(kunzite)" data-name-en="REDMI Note 15 5G(kunzite)"><a href="devices/kunzite.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 15 5G(kunzite)" data-lang-en="REDMI Note 15 5G(kunzite)"> REDMI Note 15 5G(kunzite) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI Note 15 Pro 5G(lapis)" data-name-en="REDMI Note 15 Pro 5G(lapis)"><a href="devices/lapis.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 15 Pro 5G(lapis)" data-lang-en="REDMI Note 15 Pro 5G(lapis)"> REDMI Note 15 Pro 5G(lapis) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI Note 15 Pro+ 5G(flourite)" data-name-en="REDMI Note 15 Pro+ 5G(flourite)"><a href="devices/flourite.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 15 Pro+ 5G(flourite)" data-lang-en="REDMI Note 15 Pro+ 5G(flourite)"> REDMI Note 15 Pro+ 5G(flourite) </span></a></div>
@@ -292,6 +288,15 @@
                 <div class="mdui-chip" data-name-zh="REDMI Turbo 4 Pro(onyx)" data-name-en="REDMI Turbo 4 Pro(onyx)"><a href="devices/onyx.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Turbo 4 Pro(onyx)" data-lang-en="REDMI Turbo 4 Pro(onyx)"> REDMI Turbo 4 Pro(onyx) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI Turbo 5(klee)" data-name-en="REDMI Turbo 5(klee)"><a href="devices/klee.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Turbo 5(klee)" data-lang-en="REDMI Turbo 5(klee)"> REDMI Turbo 5(klee) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI Turbo 5 MAX(dash)" data-name-en="REDMI Turbo 5 MAX(dash)"><a href="devices/dash.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Turbo 5 MAX(dash)" data-lang-en="REDMI Turbo 5 MAX(dash)"> REDMI Turbo 5 MAX(dash) </span></a></div>
+                <div class="series HyperBlue lang-text" data-lang-zh="Redmi R 系列：" data-lang-en="Redmi R Series: "> Redmi R 系列：</div>
+                <div class="mdui-chip" data-name-zh="Redmi Note 12R(sky)" data-name-en="Redmi Note 12R(sky)"><a href="devices/sky.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 12R(sky)" data-lang-en="Redmi Note 12R(sky)"> Redmi Note 12R(sky) </span></a></div>
+                <div class="mdui-chip" data-name-zh="Redmi 13R 5G(air)" data-name-en="Redmi 13R 5G(air)"><a href="devices/air.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 13R 5G(air)" data-lang-en="Redmi 13R 5G(air)"> Redmi 13R 5G(air) </span></a></div>
+                <div class="mdui-chip" data-name-zh="Redmi Note 13R 5G(breeze)" data-name-en="Redmi Note 13R 5G(breeze)"><a href="devices/breeze.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Note 13R 5G(breeze)" data-lang-en="Redmi Note 13R 5G(breeze)"> Redmi Note 13R 5G(breeze) </span></a></div>
+                <div class="mdui-chip" data-name-zh="Redmi 14R 5G(flame)" data-name-en="Redmi 14R 5G(flame)"><a href="devices/flame.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 14R 5G(flame)" data-lang-en="Redmi 14R 5G(flame)"> Redmi 14R 5G(flame) </span></a></div>
+                <div class="series HyperBlue lang-text" data-lang-zh="REDMI R 系列：" data-lang-en="REDMI R Series: "> REDMI R 系列：</div>
+                <div class="mdui-chip" data-name-zh="REDMI 15R 5G(tornado)" data-name-en="REDMI 15R 5G(tornado)"><a href="devices/tornado.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI 15R 5G(tornado)" data-lang-en="REDMI 15R 5G(tornado)"> REDMI 15R 5G(tornado) </span></a></div>
+                <div class="mdui-chip" data-name-zh="REDMI Note 15R 5G(spring)" data-name-en="REDMI Note 15R 5G(spring)"><a href="devices/spring.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 15R 5G(spring)" data-lang-en="REDMI Note 15R 5G(spring)"> REDMI Note 15R 5G(spring) </span></a></div>
+                <div class="mdui-chip" data-name-zh="REDMI R70 / REDMI R70m(somalia)" data-name-en="REDMI R70 / REDMI R70m(somalia)"><a href="devices/somalia.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI R70 / REDMI R70m(somalia)" data-lang-en="REDMI R70 / REDMI R70m(somalia)"> REDMI R70 / REDMI R70m(somalia) </span></a></div>
                 <div class="series HyperBlue lang-text" data-lang-zh="Redmi K系列：" data-lang-en="Redmi K Series: "> Redmi K系列：</div>
                 <div class="mdui-chip" data-name-zh="Redmi K40(alioth)" data-name-en="Redmi K40(alioth)"><a href="devices/alioth.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi K40(alioth)" data-lang-en="Redmi K40(alioth)"> Redmi K40(alioth) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi K40 Pro/Pro+(haydn)" data-name-en="Redmi K40 Pro/Pro+(haydn)"><a href="devices/haydn.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi K40 Pro/Pro+(haydn)" data-lang-en="Redmi K40 Pro/Pro+(haydn)"> Redmi K40 Pro/Pro+(haydn) </span></a></div>
@@ -403,15 +408,15 @@
         <!-- 此处结束自动化替换 -->
         <div><br> <br> <br>
           <div class="mdui-bottom-nav footer mdui-color-grey-100">
-            <a href="https://github.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-GitHub fic"></i><label>GitHub</label></a> 
-            <a href="https://gitlab.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-gitlab fic"></i><label>GitLab</label></a> 
-            <a href="https://weibo.com/Heliljan" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-weibo fic"></i><label>微博</label></a> 
-            <a href="https://web.vip.miui.com/page/info/mio/mio/homePage?uid=311975809" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-MiBBS fic"></i><label>小米社区</label></a> 
-            <a href="https://space.bilibili.com/19940729" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-bilibili fic"></i><label>哔哩哔哩</label></a> 
+            <a href="https://github.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-GitHub fic"></i><label>GitHub</label></a>
+            <a href="https://gitlab.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-gitlab fic"></i><label>GitLab</label></a>
+            <a href="https://weibo.com/Heliljan" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-weibo fic"></i><label>微博</label></a>
+            <a href="https://web.vip.miui.com/page/info/mio/mio/homePage?uid=311975809" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-MiBBS fic"></i><label>小米社区</label></a>
+            <a href="https://space.bilibili.com/19940729" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-bilibili fic"></i><label>哔哩哔哩</label></a>
             <a href="#top" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon material-icons">arrow_upward</i><label>返回顶部</label></a>
           </div>
           <div class="mdui-bottom-nav footer mdui-color-grey-100 fs">
-            <div class="mdui-center mdui-text-center">2023 - 2025 -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系</div>
+            <div class="mdui-center mdui-text-center">2023 - 2026 -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系</div>
           </div>
         </div>
       </div>

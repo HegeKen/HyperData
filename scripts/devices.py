@@ -1,5 +1,6 @@
 import json
 from collections import OrderedDict
+from datetime import datetime
 
 
 def load_devices_data():
@@ -123,8 +124,11 @@ def generate_brand_section(brand_key, brand_data):
 def generate_html(data):
     """生成完整的 HTML 文件（包含中英文切换功能）"""
     
+    # 获取当前年份
+    current_year = datetime.now().year
+    
     # HTML 头部模板 - 包含语言切换 JavaScript
-    html_header = '''<!doctype html>
+    html_header = f'''<!doctype html>
 <html data-n-head-ssr lang="zh">
 
 <head>
@@ -141,10 +145,10 @@ def generate_html(data):
   <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_2478867_iq2uuq05ql.css">
   <script src="https://data.miuier.com/assets/mdui/js/mdui.min.js"></script>
   <script src="https://data.miuier.com/assets/jquery/jquery.min.js"></script>
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2c63818efa744adc8db506104596506e"}'></script>
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "2c63818efa744adc8db506104596506e"}}'></script>
   <script>
     // 语言切换功能
-    function switchLanguage(lang) {
+    function switchLanguage(lang) {{
       // 保存语言偏好到 localStorage
       localStorage.setItem('preferred-language', lang);
       
@@ -153,24 +157,24 @@ def generate_html(data):
       
       // 更新所有带有 lang-text 类的元素
       const elements = document.querySelectorAll('.lang-text');
-      elements.forEach(el => {
+      elements.forEach(el => {{
         const text = el.getAttribute('data-lang-' + lang);
-        if (text) {
+        if (text) {{
           el.textContent = ' ' + text + ' ';
-        }
-      });
+        }}
+      }});
       
       // 更新设备芯片中的文本
       const chips = document.querySelectorAll('.mdui-chip');
-      chips.forEach(chip => {
+      chips.forEach(chip => {{
         const span = chip.querySelector('.lang-text');
-        if (span) {
+        if (span) {{
           const text = span.getAttribute('data-lang-' + lang);
-          if (text) {
+          if (text) {{
             span.textContent = ' ' + text + ' ';
-          }
-        }
-      });
+          }}
+        }}
+      }});
       
       // 更新页面标题
       const title = lang === 'zh' ? 'HyperOS ROMS 数据' : 'HyperOS ROMS Data';
@@ -179,52 +183,54 @@ def generate_html(data):
       
       // 更新语言切换按钮文本
       const langBtn = document.getElementById('lang-switch-btn');
-      if (langBtn) {
+      if (langBtn) {{
         langBtn.innerHTML = '<i class="mdui-icon material-icons">language</i> ' + (lang === 'zh' ? 'English' : '中文');
-      }
+      }}
       
       // 更新底部链接文本
       updateFooterLinks(lang);
       
-      // 更新免责声明
+      // 更新免责声明 - 动态获取当前年份
       updateDisclaimer(lang);
-    }
+    }}
     
-    function updateFooterLinks(lang) {
-      const links = {
+    function updateFooterLinks(lang) {{
+      const links = {{
         'weibo': lang === 'zh' ? '微博' : 'Weibo',
         'community': lang === 'zh' ? '小米社区' : 'Mi Community',
         'bilibili': lang === 'zh' ? '哔哩哔哩' : 'Bilibili',
         'backtotop': lang === 'zh' ? '返回顶部' : 'Back to Top'
-      };
+      }};
       
-      document.querySelectorAll('.mdui-bottom-nav a label').forEach(label => {
+      document.querySelectorAll('.mdui-bottom-nav a label').forEach(label => {{
         const parent = label.parentElement;
         if (parent.href.includes('weibo')) label.textContent = links.weibo;
         else if (parent.href.includes('miui.com')) label.textContent = links.community;
         else if (parent.href.includes('bilibili')) label.textContent = links.bilibili;
         else if (parent.href.includes('#top')) label.textContent = links.backtotop;
-      });
-    }
+      }});
+    }}
     
-    function updateDisclaimer(lang) {
+    function updateDisclaimer(lang) {{
+      // 获取当前年份
+      const currentYear = new Date().getFullYear();
       const disclaimer = lang === 'zh' 
-        ? '2023 - 2025 -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系'
-        : '2023 - 2025 -- This is NOT an official website of Xiaomi Group. We have no affiliation with Xiaomi or the HyperOS development team.';
+        ? '2023 - ' + currentYear + ' -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系'
+        : '2023 - ' + currentYear + ' -- This is NOT an official website of Xiaomi Group. We have no affiliation with Xiaomi or the HyperOS development team.';
       
       const fsElement = document.querySelector('.mdui-bottom-nav.fs .mdui-text-center');
-      if (fsElement) {
+      if (fsElement) {{
         fsElement.innerHTML = disclaimer;
-      }
-    }
+      }}
+    }}
     
     // 页面加载时应用保存的语言偏好
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {{
       const savedLang = localStorage.getItem('preferred-language') || 'zh';
-      if (savedLang !== 'zh') {
+      if (savedLang !== 'zh') {{
         switchLanguage(savedLang);
-      }
-    });
+      }}
+    }});
   </script>
 </head>
 
@@ -250,7 +256,7 @@ def generate_html(data):
         <!-- 此处开始自动化替换 -->'''
     
     # HTML 尾部模板
-    html_footer = '''        <!-- 此处结束自动化替换 -->
+    html_footer = f'''        <!-- 此处结束自动化替换 -->
         <div><br> <br> <br>
           <div class="mdui-bottom-nav footer mdui-color-grey-100">
             <a href="https://github.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-GitHub fic"></i><label>GitHub</label></a> 
@@ -261,7 +267,7 @@ def generate_html(data):
             <a href="#top" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon material-icons">arrow_upward</i><label>返回顶部</label></a>
           </div>
           <div class="mdui-bottom-nav footer mdui-color-grey-100 fs">
-            <div class="mdui-center mdui-text-center">2023 - 2025 -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系</div>
+            <div class="mdui-center mdui-text-center">2023 - {current_year} -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系</div>
           </div>
         </div>
       </div>
@@ -269,13 +275,13 @@ def generate_html(data):
   </div>
 </body>
 <style>
-  .mdui-color-white-accent {
+  .mdui-color-white-accent {{
     background-color: #155ffe !important;
-  }
+  }}
 
-  .HyperBlue {
+  .HyperBlue {{
     color: #155ffe !important;
-  }
+  }}
 </style>
 
 </html>'''

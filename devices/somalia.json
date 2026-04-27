@@ -1,8 +1,8 @@
 {
 	"device": "somalia",
 	"name": {
-		"zh": "POCO C85x 5G",
-		"en": "POCO C85x 5G"
+		"zh": "REDMI R70 / REDMI R70m / POCO C85x 5G",
+		"en": "REDMI R70 / REDMI R70m / POCO C85x 5G"
 	},
 	"code": "BW",
 	"suppports": [
@@ -15,6 +15,71 @@
 	"miui": "no",
 	"merged": "no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "somalia",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI R70 / REDMI R70m",
+				"en": "REDMI R70 / REDMI R70m"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.5.0.WBWCNXM": {
+					"os": "OS3.0.5.0.WBWCNXM",
+					"android": "16.0",
+					"release": "2026-04-27",
+					"recovery": "somalia-ota_full-OS3.0.5.0.WBWCNXM-user-16.0-05fc64776e.zip",
+					"fastboot": "somalia-images-OS3.0.5.0.WBWCNXM-user-20260330.0000.00-16.0-cn-aca0f19e46.tgz",
+					"ctelecom": "somalia-images-OS3.0.5.0.WBWCNXM-user-20260330.0000.00-16.0-cn_chinatelecom-bfe5725166.tgz",
+					"cnmobile": "somalia-images-OS3.0.5.0.WBWCNXM-user-20260330.0000.00-16.0-cn_chinamobile-29ffd23ad4.tgz"
+				},
+				"OS3.0.4.0.WBWCNXM": {
+					"os": "OS3.0.4.0.WBWCNXM",
+					"android": "16.0",
+					"release": "2026-04-27",
+					"recovery": "somalia-ota_full-OS3.0.4.0.WBWCNXM-user-16.0-cb1183ea0d.zip",
+					"fastboot": "",
+					"ctelecom": "",
+					"cnmobile": "",
+					"cnunicom": ""
+				},
+				"OS3.0.3.0.WBWCNXM": {
+					"os": "OS3.0.3.0.WBWCNXM",
+					"android": "16.0",
+					"release": "2026-04-27",
+					"recovery": "somalia-ota_full-OS3.0.3.0.WBWCNXM-user-16.0-92e73e3b8c.zip",
+					"fastboot": "",
+					"ctelecom": "",
+					"cnmobile": "",
+					"cnunicom": ""
+				}
+			}
+		},
 		{
 			"name": {
 				"zh": "小米澎湃 OS 印度正式版",

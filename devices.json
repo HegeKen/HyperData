@@ -1649,26 +1649,6 @@
 				]
 			},
 			{
-				"code": "air",
-				"image": "air.png",
-				"name": {
-					"zh": "Redmi 13R 5G",
-					"en": "Redmi 13R 5G"
-				},
-				"series": {
-					"zh": "Redmi系列",
-					"en": "Redmi Series"
-				},
-				"supports": [
-					"OS1.0",
-					"OS2.0"
-				],
-				"android": [
-					"14.0",
-					"15.0"
-				]
-			},
-			{
 				"code": "moon",
 				"image": "moon.png",
 				"name": {
@@ -1753,28 +1733,6 @@
 				]
 			},
 			{
-				"code": "flame",
-				"image": "flame.png",
-				"name": {
-					"zh": "Redmi 14R 5G",
-					"en": "Redmi 14R 5G"
-				},
-				"series": {
-					"zh": "Redmi系列",
-					"en": "Redmi Series"
-				},
-				"supports": [
-					"OS1.0",
-					"OS2.0",
-					"OS3.0"
-				],
-				"android": [
-					"14.0",
-					"15.0",
-					"16.0"
-				]
-			},
-			{
 				"code": "creek",
 				"image": "creek.png",
 				"name": {
@@ -1820,26 +1778,6 @@
 				"name": {
 					"zh": "REDMI 15C 5G",
 					"en": "REDMI 15C 5G"
-				},
-				"series": {
-					"zh": "Redmi系列",
-					"en": "Redmi Series"
-				},
-				"supports": [
-					"OS2.0",
-					"OS3.0"
-				],
-				"android": [
-					"15.0",
-					"16.0"
-				]
-			},
-			{
-				"code": "tornado",
-				"image": "tornado.png",
-				"name": {
-					"zh": "REDMI 15R 5G",
-					"en": "REDMI 15R 5G"
 				},
 				"series": {
 					"zh": "Redmi系列",
@@ -2110,26 +2048,6 @@
 				]
 			},
 			{
-				"code": "sky",
-				"image": "sky.png",
-				"name": {
-					"zh": "Redmi Note 12R",
-					"en": "Redmi Note 12R"
-				},
-				"series": {
-					"zh": "Redmi Note系列",
-					"en": "Redmi Note Series"
-				},
-				"supports": [
-					"OS1.0",
-					"OS2.0"
-				],
-				"android": [
-					"14.0",
-					"15.0"
-				]
-			},
-			{
 				"code": "sunstone",
 				"image": "sunstone.png",
 				"name": {
@@ -2345,28 +2263,6 @@
 				"android": [
 					"14.0",
 					"15.0"
-				]
-			},
-			{
-				"code": "breeze",
-				"image": "breeze.png",
-				"name": {
-					"zh": "Redmi Note 13R 5G",
-					"en": "Redmi Note 13R 5G"
-				},
-				"series": {
-					"zh": "Redmi Note系列",
-					"en": "Redmi Note Series"
-				},
-				"supports": [
-					"OS1.0",
-					"OS2.0",
-					"OS3.0"
-				],
-				"android": [
-					"14.0",
-					"15.0",
-					"16.0"
 				]
 			},
 			{
@@ -2629,26 +2525,6 @@
 				]
 			},
 			{
-				"code": "spring",
-				"image": "spring.png",
-				"name": {
-					"zh": "REDMI Note 15R 5G",
-					"en": "REDMI Note 15R 5G"
-				},
-				"series": {
-					"zh": "Redmi Note系列",
-					"en": "Redmi Note Series"
-				},
-				"supports": [
-					"OS2.0",
-					"OS3.0"
-				],
-				"android": [
-					"15.0",
-					"16.0"
-				]
-			},
-			{
 				"code": "kunzite",
 				"image": "kunzite.png",
 				"name": {
@@ -2838,6 +2714,148 @@
 				"series": {
 					"zh": "Redmi Turbo系列",
 					"en": "Redmi Turbo Series"
+				},
+				"supports": [
+					"OS3.0"
+				],
+				"android": [
+					"16.0"
+				]
+			},
+			{
+				"code": "sky",
+				"image": "sky.png",
+				"name": {
+					"zh": "Redmi Note 12R",
+					"en": "Redmi Note 12R"
+				},
+				"series": {
+					"zh": "Redmi R 系列",
+					"en": "Redmi R Series"
+				},
+				"supports": [
+					"OS1.0",
+					"OS2.0"
+				],
+				"android": [
+					"14.0",
+					"15.0"
+				]
+			},
+			{
+				"code": "air",
+				"image": "air.png",
+				"name": {
+					"zh": "Redmi 13R 5G",
+					"en": "Redmi 13R 5G"
+				},
+				"series": {
+					"zh": "Redmi R 系列",
+					"en": "Redmi R Series"
+				},
+				"supports": [
+					"OS1.0",
+					"OS2.0"
+				],
+				"android": [
+					"14.0",
+					"15.0"
+				]
+			},
+			{
+				"code": "breeze",
+				"image": "breeze.png",
+				"name": {
+					"zh": "Redmi Note 13R 5G",
+					"en": "Redmi Note 13R 5G"
+				},
+				"series": {
+					"zh": "Redmi R 系列",
+					"en": "Redmi R Series"
+				},
+				"supports": [
+					"OS1.0",
+					"OS2.0",
+					"OS3.0"
+				],
+				"android": [
+					"14.0",
+					"15.0",
+					"16.0"
+				]
+			},
+			{
+				"code": "flame",
+				"image": "flame.png",
+				"name": {
+					"zh": "Redmi 14R 5G",
+					"en": "Redmi 14R 5G"
+				},
+				"series": {
+					"zh": "Redmi R 系列",
+					"en": "Redmi R Series"
+				},
+				"supports": [
+					"OS1.0",
+					"OS2.0",
+					"OS3.0"
+				],
+				"android": [
+					"14.0",
+					"15.0",
+					"16.0"
+				]
+			},
+			{
+				"code": "tornado",
+				"image": "tornado.png",
+				"name": {
+					"zh": "REDMI 15R 5G",
+					"en": "REDMI 15R 5G"
+				},
+				"series": {
+					"zh": "REDMI R 系列",
+					"en": "REDMI R Series"
+				},
+				"supports": [
+					"OS2.0",
+					"OS3.0"
+				],
+				"android": [
+					"15.0",
+					"16.0"
+				]
+			},
+			{
+				"code": "spring",
+				"image": "spring.png",
+				"name": {
+					"zh": "REDMI Note 15R 5G",
+					"en": "REDMI Note 15R 5G"
+				},
+				"series": {
+					"zh": "REDMI R 系列",
+					"en": "REDMI R Series"
+				},
+				"supports": [
+					"OS2.0",
+					"OS3.0"
+				],
+				"android": [
+					"15.0",
+					"16.0"
+				]
+			},
+			{
+				"code": "somalia",
+				"image": "somalia.png",
+				"name": {
+					"zh": "REDMI R70 / REDMI R70m",
+					"en": "REDMI R70 / REDMI R70m"
+				},
+				"series": {
+					"zh": "REDMI R 系列",
+					"en": "REDMI R Series"
 				},
 				"supports": [
 					"OS3.0"

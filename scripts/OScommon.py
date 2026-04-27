@@ -467,6 +467,7 @@ flags = {
 	"myron": "myron",
 	"koto_id_global": "koto",
 	"arctic_in_global": "arctic",
+	"somalia": "somalia",
 	"spring_tr_global": "spring",
 	"charoite_global": "charoite",
 	"charoite_eea_global": "charoite",
@@ -2673,8 +2674,19 @@ def getData(filename):
 				# 例: arctic_eea_global-images-OS3.0.6.0.WBVEUXM-user-20260409.0000.00-16.0-eea-8581295ba6.tgz
 				# 例: arctic_in_global-images-OS3.0.2.0.WBVINXM-user-20260323.0000.00-16.0-in-1fb30dee11.tgz
 				if '-images' in fname:
-						# 先尝试匹配新格式（带区域标识）
-						pattern_new = r'^([a-z0-9_]+)-images-([A-Z0-9\.]+)-[^-]+-(\d{8}\.\d+\.\d+)-(\d+\.\d+)-([a-z]+)-[a-f0-9]+\.tgz$'
+						# 先尝试匹配新格式（带区域标识和运营商）
+						pattern_new = r'^([a-z0-9_]+)-images-([A-Z0-9\.]+)-[^-]+-(\d{8}\.\d+\.\d+)-(\d+\.\d+)-([a-z]+)-([a-z0-9]+-[a-z]+)-[a-f0-9]+\.tgz$'
+						match = re.match(pattern_new, fname)
+						if match:
+								return {
+										'code': match.group(1),
+										'version': match.group(2),
+										'android': match.group(4),
+										'filetype': 'fastboot'
+								}
+						
+						# 原来的正则表达式：新格式（带区域标识）
+						pattern_new = r'^([a-z0-9_]+)-images-([A-Z0-9\.]+)-[^-]+-(\d{8}\.\d+\.\d+)-(\d+\.\d+)-([a-z_]+)-[a-f0-9]+\.tgz$'
 						match = re.match(pattern_new, fname)
 						if match:
 								return {
@@ -2695,10 +2707,35 @@ def getData(filename):
 										'filetype': 'fastboot'
 								}
 				
-				# 格式2: CODE_images_VERSION_DATE.tgz (简化格式，无Android版本)
-				# 例: dew_mx_at_global_images_OS2.0.207.0.VBNMXAT_202507e28a.tgz
+				# 格式2: CODE_images_VERSION_DATE_ANDROID_REGION_CARRIER_HASH.tgz (运营商定制版格式)
+				# 例: taiko_images_OS3.0.303.0.WOVCNXM_20260416.0000.00_16.0_cn_chinatelecom_251b6f1689.tgz
+				elif '_images_' in fname and ('chinatelecom' in fname or 'chinamobile' in fname or 'chinaunicom' in fname):
+						# 匹配运营商定制版格式
+						pattern_carrier = r'^([a-z0-9_]+)_images_([A-Z0-9\.]+)_(\d{8}\.\d+\.\d+)_(\d+\.\d+)_[a-z]+_([a-z]+)_([a-f0-9]+)\.tgz$'
+						match = re.match(pattern_carrier, fname)
+						if match:
+								return {
+										'code': match.group(1),
+										'version': match.group(2),
+										'android': match.group(4),
+										'filetype': 'fastboot'
+								}
+				
+				# 格式2: CODE_images_VERSION_DATE_ANDROID_REGION_HASH.tgz (标准格式)
+				# 例: taiko_images_OS3.0.303.0.WOVCNXM_20260416.0000.00_16.0_cn_251b6f1689.tgz
 				elif '_images' in fname:
-						# 先尝试完整格式: CODE_images_VERSION_TYPE_ANDROID_HASH.tgz
+						# 先尝试完整格式: CODE_images_VERSION_ANDROID_REGION_HASH.tgz
+						pattern_full = r'^([a-z0-9_]+)_images_([A-Z0-9\.]+)_(\d{8}\.\d+\.\d+)_(\d+\.\d+)_([a-z]+)_[a-f0-9]+\.tgz$'
+						match = re.match(pattern_full, fname)
+						if match:
+								return {
+										'code': match.group(1),
+										'version': match.group(2),
+										'android': match.group(4),
+										'filetype': 'fastboot'
+								}
+						
+						# 完整格式: CODE_images_VERSION_TYPE_ANDROID_HASH.tgz
 						pattern_full = r'^([a-z0-9_]+)_images_([A-Z0-9\.]+)_[^_]+_(\d+\.\d+)_.*\.tgz$'
 						match = re.match(pattern_full, fname)
 						if match:
@@ -2876,6 +2913,16 @@ def getData(filename):
 		version = parsed.get('version')
 		filetype = parsed.get('filetype')
 		
+		# 检测运营商信息
+		if "chinatelecom" in filename:
+			carrier = "chinatelecom"
+		elif "chinamobile" in filename:
+			carrier = "chinamobile"
+		elif "chinaunicom" in filename:
+			carrier = "chinaunicom"
+		else:
+			carrier = None
+		
 		# 如果 android 为空，尝试从版本号推断
 		if not android and version:
 				if version.startswith('OS'):
@@ -2910,41 +2957,46 @@ def getData(filename):
 def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,zone,branch, filetype, filename):
 	if filetype == "recovery":
 		checkpoint = "recovery"
+		d_check = checkpoint
 	else:
 		if "chinatelecom" in filename:
 			checkpoint = "ctelecom"
+			d_check = checkpoint
 		elif "chinaunicom" in filename:
-			checkpoint = "cunicom"
+			checkpoint = "cnunicom"
+			d_check = "cunicom"
 		elif "chinamobile" in filename:
-			checkpoint = "cmobile"
+			checkpoint = "cnmobile"
+			d_check = "cmobile"
 		else:
 			checkpoint = "fastboot"
-	get_sql = f"SELECT id,{checkpoint},others FROM roms WHERE code = %s and version = %s" % (stringify(code), stringify(version))
+			d_check = checkpoint
+	get_sql = f"SELECT id,{d_check},others FROM roms WHERE code = %s and version = %s" % (stringify(code), stringify(version))
 	data = db_job_latest(get_sql)
 	if data is not None:
 		if len(data) > 0:
 			if data[1] == filename:
 				pass
-			elif data[1] == None:
+			elif data[1] == None or data[1] == "":
 				if filetype == "recovery":
 					beta_date = stringify(get_time(form_url(filename,version)))
-					upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s WHERE id = %d" % (stringify(filename),beta_date, data[0])
+					upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s WHERE id = %s" % (stringify(filename),beta_date, stringify(data[0]))
 				else:
 					public_date = stringify(get_time(form_url(filename,version)))
-					upd_sql = f"UPDATE roms SET {checkpoint} = %s, public_date = %s WHERE id = %d" % (stringify(filename),public_date, data[0])
+					upd_sql = f"UPDATE roms SET {d_check} = %s, public_date = %s WHERE id = %s" % (stringify(filename),public_date, stringify(data[0]))
 				db_job_latest(upd_sql)
 			else:
 				if data[2] == None or data[2] == "":
 					others = []
 					others.append(filename)
-					update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %d" % (data[0])
+					update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %s" % (stringify(data[0]))
 					db_job_latest(update_sql)
-				elif filename in data[2]:
+				elif filename in str(data[2]):
 					pass
 				else:
-					others = list(json.loads(data[2]))
+					others = list(json.loads(str(data[2])))
 					others.append(filename)
-					update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %d" % (data[0])
+					update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %s" % (stringify(data[0]))
 					db_job_latest(update_sql)
 		else:
 			print(filename)
@@ -2953,11 +3005,11 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 		release_date = stringify(date.today().strftime("%Y-%m-%d"))
 		if filetype == "fastboot":
 			public_date = stringify(get_time(form_url(filename,version)))
-			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,insdate, public_date) VALUES (%d,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (zone, stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, insdate, public_date)
+			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,insdate, public_date) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (stringify(zone), stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, insdate, public_date)
 		else:
 			beta_date = stringify(get_time(form_url(filename,version)))
 			public_date = stringify(None)
-			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,beta_date,insdate) VALUES (%d,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (zone, stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, beta_date, insdate)
+			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,beta_date,insdate) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (stringify(zone), stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, beta_date, insdate)
 		db_job_latest(ins_sql)
 
 
@@ -3037,12 +3089,12 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 					rom_data["ctelecom"] = filename
 					updated = True
 			elif "chinamobile" in filename:
-				if rom_data.get("cmobile") != filename:
-					rom_data["cmobile"] = filename
+				if rom_data.get("cnmobile") != filename:
+					rom_data["cnmobile"] = filename
 					updated = True
 			elif "chinaunicom" in filename:
-				if rom_data.get("cunicom") != filename:
-					rom_data["cunicom"] = filename
+				if rom_data.get("cnunicom") != filename:
+					rom_data["cnunicom"] = filename
 					updated = True
 			else:
 				# 普通版 fastboot
@@ -3073,49 +3125,52 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 		new_rom["android"] = android
 		new_rom["release"] = get_time(form_url(filename, version))
 		
-		# 清除所有运营商字段和fastboot/recovery
-		for carrier_field in ["ctelecom", "cmobile", "cunicom"]:
-			if carrier_field in new_rom:
-				new_rom[carrier_field] = ""
+		# 初始化所有相关字段
+		new_rom["recovery"] = ""
+		new_rom["fastboot"] = ""
+		new_rom["ctelecom"] = ""
+		new_rom["cnmobile"] = ""
+		new_rom["cnunicom"] = ""
 		
+		# 根据文件类型和运商标识设置相应字段
 		if filetype == "recovery":
 			new_rom["recovery"] = filename
-			new_rom["fastboot"] = ""
 		elif filetype == "fastboot":
 			# 检查是否为运营商定制版
 			if "chinatelecom" in filename:
 				new_rom["ctelecom"] = filename
-				new_rom["fastboot"] = ""
 			elif "chinamobile" in filename:
-				new_rom["cmobile"] = filename
-				new_rom["fastboot"] = ""
+				new_rom["cnmobile"] = filename
 			elif "chinaunicom" in filename:
-				new_rom["cunicom"] = filename
-				new_rom["fastboot"] = ""
+				new_rom["cnunicom"] = filename
 			else:
 				# 普通版 fastboot
 				new_rom["fastboot"] = filename
-			
-			new_rom["recovery"] = ""
-		
-		# 处理运营商字段
-		if "chinatelecom" in filename:
-			new_rom["ctelecom"] = filename
-		elif "chinamobile" in filename:
-			new_rom["cmobile"] = filename
-		elif "chinaunicom" in filename:
-			new_rom["cunicom"] = filename
 		
 		# 清理字段
 		table_fields = target_branch.get("table", [])
 		for key in list(new_rom.keys()):
 			if key not in ["os", "android", "release", "recovery", "fastboot", 
-						  "ctelecom", "cmobile", "cunicom"]:
+						  "ctelecom", "cnmobile", "cnunicom"]:
 				if key in table_fields:
 					if key not in ["os", "android", "release"]:
 						new_rom[key] = ""
 				else:
 					del new_rom[key]
+		
+		# 对于非运营商定制版，确保不包含空的运营商字段（如果table中没有这些字段）
+		if filetype == "fastboot" and not any(carrier in filename for carrier in ["chinatelecom", "chinamobile", "chinaunicom"]):
+			# 只有当table中明确包含运营商字段时，才保留它们
+			for carrier_field in ["ctelecom", "cnmobile", "cnunicom"]:
+				if carrier_field not in table_fields:
+					if new_rom[carrier_field] == "":  # 如果是空值且不在table中，则删除
+						del new_rom[carrier_field]
+		else:
+			# 对于运营商定制版或非fastboot类型，确保运营商字段存在
+			carrier_fields = ["ctelecom", "cnmobile", "cnunicom"]
+			for field in carrier_fields:
+				if field not in new_rom:
+					new_rom[field] = ""
 		
 		for field in table_fields:
 			if field not in new_rom:
@@ -3125,13 +3180,53 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 			"os": version,
 			"android": android,
 			"release": get_time(form_url(filename, version)),
-			"recovery": filename if filetype == "recovery" else "",
-			"fastboot": "" if filetype == "fastboot" and ("chinatelecom" in filename or "chinamobile" in filename or "chinaunicom" in filename) else (filename if filetype == "fastboot" else ""),
-			"ctelecom": filename if filetype == "fastboot" and "chinatelecom" in filename else "",
-			"cmobile": filename if filetype == "fastboot" and "chinamobile" in filename else "",
-			"cunicom": filename if filetype == "fastboot" and "chinaunicom" in filename else ""
+			"recovery": "",
+			"fastboot": "",
+			"ctelecom": "",
+			"cnmobile": "",
+			"cnunicom": ""
 		}
-		for field in target_branch.get("table", []):
+		
+		# 根据文件类型和运商标识设置相应字段
+		if filetype == "recovery":
+			new_rom["recovery"] = filename
+		elif filetype == "fastboot":
+			if "chinatelecom" in filename:
+				new_rom["ctelecom"] = filename
+			elif "chinamobile" in filename:
+				new_rom["cnmobile"] = filename
+			elif "chinaunicom" in filename:
+				new_rom["cnunicom"] = filename
+			else:
+				# 普通版 fastboot
+				new_rom["fastboot"] = filename
+		
+		# 清理字段
+		table_fields = target_branch.get("table", [])
+		for key in list(new_rom.keys()):
+			if key not in ["os", "android", "release", "recovery", "fastboot", 
+						  "ctelecom", "cnmobile", "cnunicom"]:
+				if key in table_fields:
+					if key not in ["os", "android", "release"]:
+						new_rom[key] = ""
+				else:
+					del new_rom[key]
+		
+		# 对于非运营商定制版，确保不包含空的运营商字段（如果table中没有这些字段）
+		if filetype == "fastboot" and not any(carrier in filename for carrier in ["chinatelecom", "chinamobile", "chinaunicom"]):
+			# 只有当table中明确包含运营商字段时，才保留它们
+			for carrier_field in ["ctelecom", "cnmobile", "cnunicom"]:
+				if carrier_field not in table_fields:
+					if new_rom[carrier_field] == "":  # 如果是空值且不在table中，则删除
+						del new_rom[carrier_field]
+		else:
+			# 对于运营商定制版或非fastboot类型，确保运营商字段存在
+			carrier_fields = ["ctelecom", "cnmobile", "cnunicom"]
+			for field in carrier_fields:
+				if field not in new_rom:
+					new_rom[field] = ""
+		
+		for field in table_fields:
 			if field not in new_rom:
 				new_rom[field] = ""
 	
