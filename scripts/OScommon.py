@@ -983,6 +983,7 @@ flags = {
 	"aristotle_cl_en_global":"aristotle",
 	"ARISTOTLECLENGlobal":"aristotle",
 	"uke_in_global":"uke",
+	"guitar_global": "guitar",
 	"MALACHITEMXATGlobal":"malachite",
 	"malachite_lm_cr_global":"malachite",
 	"malachite_mx_at_global":"malachite",

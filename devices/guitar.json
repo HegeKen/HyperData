@@ -55,6 +55,44 @@
           "fastboot": "guitar_images_OS3.0.301.0.WDNCNXM_20260402.0000.00_16.0_cn_06ff4eedce.tgz"
         }
       }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "guitar_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Pad 2 SE",
+        "en": "REDMI Pad 2 SE"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.302.0.WDNMIXM": {
+          "os": "OS3.0.302.0.WDNMIXM",
+          "android": "16.0",
+          "release": "2026-04-28",
+          "recovery": "guitar_global-ota_full-OS3.0.302.0.WDNMIXM-user-16.0-4ead8da3f9.zip",
+          "fastboot": "guitar_global_images_OS3.0.302.0.WDNMIXM_20260326.0000.00_16.0_global_db1923ecca.tgz"
+        }
+      }
     }
   ]
 }
