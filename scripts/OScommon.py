@@ -3015,7 +3015,7 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 
 
 def add_rom_to_json(device, code, android, version, filetype, filename, devdata=None):
-	"""添加 ROM 到 JSON 文件,修复版 - 优化 Git diff"""
+	"""添加 ROM 到 JSON 文件,修复版 - 优化 Git diff - 基于table表新建ROM模板"""
 	
 	if devdata is None:
 		device_file = get_platform_path(f"public/data/devices/{device}.json")
@@ -3106,129 +3106,46 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 			print(f"ROM 数据已完整: {version}")
 		return devdata
 	
-	# 查找模板
-	template_rom = None
-	latest_version = None
+	# 获取table字段列表
+	table_fields = target_branch.get("table", [])
 	
-	if roms:
-		for existing_version in roms.keys():
-			if latest_version is None or compare(existing_version, latest_version):
-				latest_version = existing_version
-		
-		if latest_version:
-			template_rom = roms[latest_version].copy()
+	# 根据table表创建新ROM条目，不使用模板
+	new_rom = {
+		"os": version,
+		"android": android,
+		"release": get_time(form_url(filename, version))
+	}
 	
-	# 创建新 ROM 数据
-	if template_rom:
-		new_rom = template_rom.copy()
-		new_rom["os"] = version
-		new_rom["android"] = android
-		new_rom["release"] = get_time(form_url(filename, version))
-		
-		# 初始化所有相关字段
-		new_rom["recovery"] = ""
-		new_rom["fastboot"] = ""
-		new_rom["ctelecom"] = ""
-		new_rom["cnmobile"] = ""
-		new_rom["cnunicom"] = ""
-		
-		# 根据文件类型和运商标识设置相应字段
-		if filetype == "recovery":
-			new_rom["recovery"] = filename
-		elif filetype == "fastboot":
-			# 检查是否为运营商定制版
-			if "chinatelecom" in filename:
-				new_rom["ctelecom"] = filename
-			elif "chinamobile" in filename:
-				new_rom["cnmobile"] = filename
-			elif "chinaunicom" in filename:
-				new_rom["cnunicom"] = filename
-			else:
-				# 普通版 fastboot
-				new_rom["fastboot"] = filename
-		
-		# 清理字段
-		table_fields = target_branch.get("table", [])
-		for key in list(new_rom.keys()):
-			if key not in ["os", "android", "release", "recovery", "fastboot", 
-						  "ctelecom", "cnmobile", "cnunicom"]:
-				if key in table_fields:
-					if key not in ["os", "android", "release"]:
-						new_rom[key] = ""
-				else:
-					del new_rom[key]
-		
-		# 对于非运营商定制版，确保不包含空的运营商字段（如果table中没有这些字段）
-		if filetype == "fastboot" and not any(carrier in filename for carrier in ["chinatelecom", "chinamobile", "chinaunicom"]):
-			# 只有当table中明确包含运营商字段时，才保留它们
-			for carrier_field in ["ctelecom", "cnmobile", "cnunicom"]:
-				if carrier_field not in table_fields:
-					if new_rom[carrier_field] == "":  # 如果是空值且不在table中，则删除
-						del new_rom[carrier_field]
+	# 初始化table中的所有字段为空字符串
+	for field in table_fields:
+		if field not in ["os", "android", "release"]:
+			new_rom[field] = ""
+	
+	# 根据文件类型和运商标识设置相应字段
+	if filetype == "recovery":
+		new_rom["recovery"] = filename
+	elif filetype == "fastboot":
+		# 检查是否为运营商定制版
+		if "chinatelecom" in filename:
+			new_rom["ctelecom"] = filename
+		elif "chinamobile" in filename:
+			new_rom["cnmobile"] = filename
+		elif "chinaunicom" in filename:
+			new_rom["cnunicom"] = filename
 		else:
-			# 对于运营商定制版或非fastboot类型，确保运营商字段存在
-			carrier_fields = ["ctelecom", "cnmobile", "cnunicom"]
-			for field in carrier_fields:
-				if field not in new_rom:
-					new_rom[field] = ""
-		
-		for field in table_fields:
-			if field not in new_rom:
-				new_rom[field] = ""
-	else:
-		new_rom = {
-			"os": version,
-			"android": android,
-			"release": get_time(form_url(filename, version)),
-			"recovery": "",
-			"fastboot": "",
-			"ctelecom": "",
-			"cnmobile": "",
-			"cnunicom": ""
-		}
-		
-		# 根据文件类型和运商标识设置相应字段
-		if filetype == "recovery":
-			new_rom["recovery"] = filename
-		elif filetype == "fastboot":
-			if "chinatelecom" in filename:
-				new_rom["ctelecom"] = filename
-			elif "chinamobile" in filename:
-				new_rom["cnmobile"] = filename
-			elif "chinaunicom" in filename:
-				new_rom["cnunicom"] = filename
-			else:
-				# 普通版 fastboot
-				new_rom["fastboot"] = filename
-		
-		# 清理字段
-		table_fields = target_branch.get("table", [])
-		for key in list(new_rom.keys()):
-			if key not in ["os", "android", "release", "recovery", "fastboot", 
-						  "ctelecom", "cnmobile", "cnunicom"]:
-				if key in table_fields:
-					if key not in ["os", "android", "release"]:
-						new_rom[key] = ""
-				else:
-					del new_rom[key]
-		
-		# 对于非运营商定制版，确保不包含空的运营商字段（如果table中没有这些字段）
-		if filetype == "fastboot" and not any(carrier in filename for carrier in ["chinatelecom", "chinamobile", "chinaunicom"]):
-			# 只有当table中明确包含运营商字段时，才保留它们
-			for carrier_field in ["ctelecom", "cnmobile", "cnunicom"]:
-				if carrier_field not in table_fields:
-					if new_rom[carrier_field] == "":  # 如果是空值且不在table中，则删除
-						del new_rom[carrier_field]
-		else:
-			# 对于运营商定制版或非fastboot类型，确保运营商字段存在
-			carrier_fields = ["ctelecom", "cnmobile", "cnunicom"]
-			for field in carrier_fields:
-				if field not in new_rom:
-					new_rom[field] = ""
-		
-		for field in table_fields:
-			if field not in new_rom:
-				new_rom[field] = ""
+			# 普通版 fastboot
+			new_rom["fastboot"] = filename
+	
+	# 确保基础字段存在
+	base_fields = ["recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"]
+	for field in base_fields:
+		if field not in new_rom:
+			new_rom[field] = ""
+	
+	# 清理不在table中的字段
+	for key in list(new_rom.keys()):
+		if key not in ["os", "android", "release"] and key not in table_fields:
+			del new_rom[key]
 	
 	ordered_roms = OrderedDict()
 	inserted = False
