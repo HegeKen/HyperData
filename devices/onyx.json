@@ -1,819 +1,827 @@
 {
-  "device": "onyx",
-  "name": {
-    "zh": "REDMI Turbo 4 Pro / POCO F7",
-    "en": "REDMI Turbo 4 Pro / POCO F7"
-  },
-  "code": "OL",
-  "suppports": [
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "15.0",
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "onyx",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Turbo 4 Pro",
-        "en": "REDMI Turbo 4 Pro"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WOLCNXM": {
-          "os": "OS3.0.302.0.WOLCNXM",
-          "android": "16.0",
-          "release": "2026-04-14",
-          "recovery": "onyx-ota_full-OS3.0.302.0.WOLCNXM-user-16.0-a466255baa.zip",
-          "fastboot": "onyx_images_OS3.0.302.0.WOLCNXM_20260407.0000.00_16.0_cn_807a853783.tgz",
-          "ctelecom": "onyx_images_OS3.0.302.0.WOLCNXM_20260407.0000.00_16.0_cn_chinatelecom_b9cec6580a.tgz"
-        },
-        "OS3.0.11.0.WOLCNXM": {
-          "os": "OS3.0.11.0.WOLCNXM",
-          "android": "16.0",
-          "release": "2026-01-28",
-          "recovery": "onyx-ota_full-OS3.0.11.0.WOLCNXM-user-16.0-2ceab380eb.zip",
-          "fastboot": "onyx_images_OS3.0.11.0.WOLCNXM_20260121.0000.00_16.0_cn_15a48a7da7.tgz",
-          "ctelecom": "onyx_images_OS3.0.11.0.WOLCNXM_20260121.0000.00_16.0_cn_chinatelecom_2c8a3e86c7.tgz"
-        },
-        "OS3.0.9.0.WOLCNXM": {
-          "os": "OS3.0.9.0.WOLCNXM",
-          "android": "16.0",
-          "release": "2025-12-16",
-          "recovery": "onyx-ota_full-OS3.0.9.0.WOLCNXM-user-16.0-f4c52ba5dd.zip",
-          "fastboot": "onyx_images_OS3.0.9.0.WOLCNXM_20251211.0000.00_16.0_cn_a07eba20ee.tgz",
-          "ctelecom": "onyx_images_OS3.0.9.0.WOLCNXM_20251211.0000.00_16.0_cn_chinatelecom_13b1499248.tgz"
-        },
-        "OS3.0.7.0.WOLCNXM": {
-          "os": "OS3.0.7.0.WOLCNXM",
-          "android": "16.0",
-          "release": "2025-12-09",
-          "recovery": "onyx-ota_full-OS3.0.7.0.WOLCNXM-user-16.0-b0681ef565.zip",
-          "fastboot": "onyx_images_OS3.0.7.0.WOLCNXM_20251128.0000.00_16.0_cn_d63754daf5.tgz",
-          "ctelecom": "onyx_images_OS3.0.7.0.WOLCNXM_20251128.0000.00_16.0_cn_chinatelecom_4869b81ab2.tgz"
-        },
-        "OS3.0.5.0.WOLCNXM": {
-          "os": "OS3.0.5.0.WOLCNXM",
-          "android": "16.0",
-          "release": "2025-11-14",
-          "recovery": "onyx-ota_full-OS3.0.5.0.WOLCNXM-user-16.0-6995f031ab.zip",
-          "fastboot": "onyx_images_OS3.0.5.0.WOLCNXM_20251110.0000.00_16.0_cn_4814e005ed.tgz",
-          "ctelecom": "onyx_images_OS3.0.5.0.WOLCNXM_20251110.0000.00_16.0_cn_chinatelecom_ce3f60dd12.tgz"
-        },
-        "OS3.0.4.0.WOLCNXM": {
-          "os": "OS3.0.4.0.WOLCNXM",
-          "android": "16.0",
-          "release": "2025-10-28",
-          "recovery": "onyx-ota_full-OS3.0.4.0.WOLCNXM-user-16.0-8390fb1aa7.zip",
-          "fastboot": "onyx_images_OS3.0.4.0.WOLCNXM_20251024.0000.00_16.0_cn_2e5f18c156.tgz",
-          "ctelecom": "onyx_images_OS3.0.4.0.WOLCNXM_20251024.0000.00_16.0_cn_chinatelecom_1b4d39d02e.tgz"
-        },
-        "OS2.0.216.0.VOLCNXM": {
-          "os": "OS2.0.216.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-10-16",
-          "recovery": "onyx-ota_full-OS2.0.216.0.VOLCNXM-user-15.0-6e1ac7510e.zip",
-          "fastboot": "onyx_images_OS2.0.216.0.VOLCNXM_20250929.0000.00_15.0_cn_4b150e2fbc.tgz",
-          "ctelecom": "onyx_images_OS2.0.216.0.VOLCNXM_20250929.0000.00_15.0_cn_chinatelecom_1b73c38f4e.tgz"
-        },
-        "OS2.0.214.0.VOLCNXM": {
-          "os": "OS2.0.214.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-09-19",
-          "recovery": "onyx-ota_full-OS2.0.214.0.VOLCNXM-user-15.0-ad9d1d86b7.zip",
-          "fastboot": "onyx_images_OS2.0.214.0.VOLCNXM_20250913.0000.00_15.0_cn_5eb8064c37.tgz",
-          "ctelecom": "onyx_images_OS2.0.214.0.VOLCNXM_20250913.0000.00_15.0_cn_chinatelecom_7007a91f3b.tgz"
-        },
-        "OS2.0.212.0.VOLCNXM": {
-          "os": "OS2.0.212.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-08-22",
-          "recovery": "onyx-ota_full-OS2.0.212.0.VOLCNXM-user-15.0-37b3b33a36.zip",
-          "fastboot": "onyx_images_OS2.0.212.0.VOLCNXM_20250813.0000.00_15.0_cn_619e94a9ed.tgz",
-          "ctelecom": "onyx_images_OS2.0.212.0.VOLCNXM_20250813.0000.00_15.0_cn_chinatelecom_5c2979bd6b.tgz"
-        },
-        "OS2.0.209.0.VOLCNXM": {
-          "os": "OS2.0.209.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-07-22",
-          "recovery": "onyx-ota_full-OS2.0.209.0.VOLCNXM-user-15.0-929e54e052.zip",
-          "fastboot": "onyx_images_OS2.0.209.0.VOLCNXM_20250711.0000.00_15.0_cn_cc428da2db.tgz",
-          "ctelecom": "onyx_images_OS2.0.209.0.VOLCNXM_20250711.0000.00_15.0_cn_chinatelecom_6a20073666.tgz"
-        },
-        "OS2.0.207.0.VOLCNXM": {
-          "os": "OS2.0.207.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-06-18",
-          "recovery": "onyx-ota_full-OS2.0.207.0.VOLCNXM-user-15.0-5d0eded270.zip",
-          "fastboot": "onyx_images_OS2.0.207.0.VOLCNXM_20250611.0000.00_15.0_cn_1b46886dd4.tgz",
-          "ctelecom": "onyx_images_OS2.0.207.0.VOLCNXM_20250611.0000.00_15.0_cn_chinatelecom_60a8e3bcaa.tgz"
-        },
-        "OS2.0.206.0.VOLCNXM": {
-          "os": "OS2.0.206.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-06-04",
-          "recovery": "onyx-ota_full-OS2.0.206.0.VOLCNXM-user-15.0-f290f73398.zip",
-          "fastboot": "onyx_images_OS2.0.206.0.VOLCNXM_20250530.0000.00_15.0_cn_689105f5da.tgz",
-          "ctelecom": "onyx_images_OS2.0.206.0.VOLCNXM_20250530.0000.00_15.0_cn_chinatelecom_5111132862.tgz"
-        },
-        "OS2.0.130.0.VOLCNXM": {
-          "os": "OS2.0.130.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-05-17",
-          "recovery": "onyx-ota_full-OS2.0.130.0.VOLCNXM-user-15.0-73acf1c717.zip",
-          "fastboot": "onyx_images_OS2.0.130.0.VOLCNXM_20250515.0000.00_15.0_cn_c7b6fcb9d3.tgz",
-          "ctelecom": "onyx_images_OS2.0.130.0.VOLCNXM_20250515.0000.00_15.0_cn_chinatelecom_71d9ec8b7c.tgz"
-        },
-        "OS2.0.127.0.VOLCNXM": {
-          "os": "OS2.0.127.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-05-11",
-          "recovery": "onyx-ota_full-OS2.0.127.0.VOLCNXM-user-15.0-1bb1ab61d2.zip",
-          "fastboot": "onyx_images_OS2.0.127.0.VOLCNXM_20250510.0000.00_15.0_cn_2c367536e3.tgz",
-          "ctelecom": "onyx_images_OS2.0.127.0.VOLCNXM_20250510.0000.00_15.0_cn_chinatelecom_420c30d3d9.tgz"
-        },
-        "OS2.0.126.0.VOLCNXM": {
-          "os": "OS2.0.126.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-05-09",
-          "recovery": "onyx-ota_full-OS2.0.126.0.VOLCNXM-user-15.0-c5134083da.zip",
-          "fastboot": "onyx_images_OS2.0.126.0.VOLCNXM_20250509.0000.00_15.0_cn_e9c18f0210.tgz",
-          "ctelecom": "onyx_images_OS2.0.126.0.VOLCNXM_20250509.0000.00_15.0_cn_chinatelecom_822a0d3749.tgz"
-        },
-        "OS2.0.125.0.VOLCNXM": {
-          "os": "OS2.0.125.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-05-04",
-          "recovery": "onyx-ota_full-OS2.0.125.0.VOLCNXM-user-15.0-7895f7d7a1.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS2.0.124.0.VOLCNXM": {
-          "os": "OS2.0.124.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-05-04",
-          "recovery": "onyx-ota_full-OS2.0.124.0.VOLCNXM-user-15.0-624da2200e.zip",
-          "fastboot": "onyx_images_OS2.0.124.0.VOLCNXM_20250501.0000.00_15.0_cn_21cdc33207.tgz",
-          "ctelecom": "onyx_images_OS2.0.124.0.VOLCNXM_20250501.0000.00_15.0_cn_chinatelecom_89d02a844f.tgz"
-        },
-        "OS2.0.121.0.VOLCNXM": {
-          "os": "OS2.0.121.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-04-29",
-          "recovery": "onyx-ota_full-OS2.0.121.0.VOLCNXM-user-15.0-834ed85d6d.zip",
-          "fastboot": "onyx_images_OS2.0.121.0.VOLCNXM_20250429.0000.00_15.0_cn_d287e7811e.tgz",
-          "ctelecom": "onyx_images_OS2.0.121.0.VOLCNXM_20250429.0000.00_15.0_cn_chinatelecom_6450287019.tgz"
-        },
-        "OS2.0.114.0.VOLCNXM": {
-          "os": "OS2.0.114.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-04-24",
-          "recovery": "onyx-ota_full-OS2.0.114.0.VOLCNXM-user-15.0-4ff83d67a1.zip",
-          "fastboot": "onyx_images_OS2.0.114.0.VOLCNXM_20250419.0000.00_15.0_cn_a71f1bc559.tgz",
-          "ctelecom": "onyx_images_OS2.0.114.0.VOLCNXM_20250419.0000.00_15.0_cn_chinatelecom_1b1fcb79a7.tgz"
-        },
-        "OS2.0.112.0.VOLCNXM": {
-          "os": "OS2.0.112.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-04-24",
-          "recovery": "onyx-ota_full-OS2.0.112.0.VOLCNXM-user-15.0-fd77417572.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS2.0.110.0.VOLCNXM": {
-          "os": "OS2.0.110.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-04-24",
-          "recovery": "onyx-ota_full-OS2.0.110.0.VOLCNXM-user-15.0-c673c926c0.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS2.0.103.0.VOLCNXM": {
-          "os": "OS2.0.103.0.VOLCNXM",
-          "android": "15.0",
-          "release": "2025-04-24",
-          "recovery": "onyx-ota_full-OS2.0.103.0.VOLCNXM-user-15.0-884667fb8b.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "onyx_demo",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Turbo 4 Pro",
-        "en": "REDMI Turbo 4 Pro"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS2.0.201.0.VOLCNDM": {
-          "os": "OS2.0.201.0.VOLCNDM",
-          "android": "15.0",
-          "release": "2025-06-24",
-          "recovery": "onyx_demo-ota_full-OS2.0.201.0.VOLCNDM-user-15.0-0e37e5e701.zip",
-          "fastboot": "onyx_demo_images_OS2.0.201.0.VOLCNDM_20250613.0000.00_15.0_cn_3b99def540.tgz",
-          "ctelecom": "onyx_demo_images_OS2.0.201.0.VOLCNDM_20250613.0000.00_15.0_cn_chinatelecom_a67e71143d.tgz"
-        },
-        "OS2.0.104.0.VOLCNDM": {
-          "os": "OS2.0.104.0.VOLCNDM",
-          "android": "15.0",
-          "release": "2025-04-24",
-          "recovery": "onyx_demo-ota_full-OS2.0.104.0.VOLCNDM-user-15.0-1cf012289d.zip",
-          "fastboot": "onyx_demo_images_OS2.0.104.0.VOLCNDM_20250419.0000.00_15.0_cn_2dec17ec52.tgz",
-          "ctelecom": "onyx_demo_images_OS2.0.104.0.VOLCNDM_20250419.0000.00_15.0_cn_chinatelecom_3a7f49a2a8.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾省正式版",
-        "en": "Xiaomi HyperOS China Taiwan Province Stable"
-      },
-      "branchCode": "onyx_tw_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO F7",
-        "en": "POCO F7"
-      },
-      "idtag": "CNTP",
-      "tag": "TWXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.3.0.WOLTWXM": {
-          "os": "OS3.0.3.0.WOLTWXM",
-          "android": "16.0",
-          "release": "2026-02-12",
-          "recovery": "onyx_tw_global-ota_full-OS3.0.3.0.WOLTWXM-user-16.0-431f33f4b8.zip",
-          "fastboot": "onyx_tw_global_images_OS3.0.3.0.WOLTWXM_20260203.0000.00_16.0_tw_509e53ccea.tgz"
-        },
-        "OS3.0.2.0.WOLTWXM": {
-          "os": "OS3.0.2.0.WOLTWXM",
-          "android": "16.0",
-          "release": "2025-12-30",
-          "recovery": "onyx_tw_global-ota_full-OS3.0.2.0.WOLTWXM-user-16.0-50668e0e6f.zip",
-          "fastboot": "onyx_tw_global_images_OS3.0.2.0.WOLTWXM_20251223.0000.00_16.0_tw_feda77a991.tgz"
-        },
-        "OS2.0.203.0.VOLTWXM": {
-          "os": "OS2.0.203.0.VOLTWXM",
-          "android": "15.0",
-          "release": "2025-11-24",
-          "recovery": "onyx_tw_global-ota_full-OS2.0.203.0.VOLTWXM-user-15.0-fa9ebbe132.zip",
-          "fastboot": "onyx_tw_global_images_OS2.0.203.0.VOLTWXM_20251111.0000.00_15.0_tw_06430c1d73.tgz"
-        },
-        "OS2.0.202.0.VOLTWXM": {
-          "os": "OS2.0.202.0.VOLTWXM",
-          "android": "15.0",
-          "release": "2025-10-29",
-          "recovery": "onyx_tw_global-ota_full-OS2.0.202.0.VOLTWXM-user-15.0-1975f1ae29.zip",
-          "fastboot": "onyx_tw_global_images_OS2.0.202.0.VOLTWXM_20251015.0000.00_15.0_tw_7aad196637.tgz"
-        },
-        "OS2.0.201.0.VOLTWXM": {
-          "os": "OS2.0.201.0.VOLTWXM",
-          "android": "15.0",
-          "release": "2025-09-01",
-          "recovery": "onyx_tw_global-ota_full-OS2.0.201.0.VOLTWXM-user-15.0-c7bb50e745.zip",
-          "fastboot": "onyx_tw_global_images_OS2.0.201.0.VOLTWXM_20250819.0000.00_15.0_tw_1765df928e.tgz"
-        },
-        "OS2.0.102.0.VOLTWXM": {
-          "os": "OS2.0.102.0.VOLTWXM",
-          "android": "15.0",
-          "release": "2025-07-22",
-          "recovery": "onyx_tw_global-ota_full-OS2.0.102.0.VOLTWXM-user-15.0-88db5ff18b.zip",
-          "fastboot": "onyx_tw_global_images_OS2.0.102.0.VOLTWXM_20250710.0000.00_15.0_tw_4e8c42cd7d.tgz"
-        },
-        "OS2.0.101.0.VOLTWXM": {
-          "os": "OS2.0.101.0.VOLTWXM",
-          "android": "15.0",
-          "release": "2025-06-25",
-          "recovery": "onyx_tw_global-ota_full-OS2.0.101.0.VOLTWXM-user-15.0-71659db166.zip",
-          "fastboot": "onyx_tw_global_images_OS2.0.101.0.VOLTWXM_20250612.0000.00_15.0_tw_d34c6d3742.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "onyx_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO F7",
-        "en": "POCO F7"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.7.0.WOLMIXM": {
-          "os": "OS3.0.7.0.WOLMIXM",
-          "android": "16.0",
-          "release": "2026-04-24",
-          "recovery": "onyx_global-ota_full-OS3.0.7.0.WOLMIXM-user-16.0-25c954f376.zip",
-          "fastboot": ""
-        },
-        "OS3.0.6.0.WOLMIXM": {
-          "os": "OS3.0.6.0.WOLMIXM",
-          "android": "16.0",
-          "release": "2026-02-07",
-          "recovery": "onyx_global-ota_full-OS3.0.6.0.WOLMIXM-user-16.0-02188a5378.zip",
-          "fastboot": "onyx_global_images_OS3.0.6.0.WOLMIXM_20260129.0000.00_16.0_global_bf1b560332.tgz"
-        },
-        "OS3.0.5.0.WOLMIXM": {
-          "os": "OS3.0.5.0.WOLMIXM",
-          "android": "16.0",
-          "release": "2025-12-28",
-          "recovery": "onyx_global-ota_full-OS3.0.5.0.WOLMIXM-user-16.0-8ba39ab4bc.zip",
-          "fastboot": "onyx_global_images_OS3.0.5.0.WOLMIXM_20251216.0000.00_16.0_global_8695609039.tgz"
-        },
-        "OS3.0.4.0.WOLMIXM": {
-          "os": "OS3.0.4.0.WOLMIXM",
-          "android": "16.0",
-          "release": "2025-12-01",
-          "recovery": "onyx_global-ota_full-OS3.0.4.0.WOLMIXM-user-16.0-895d6eca0f.zip",
-          "fastboot": ""
-        },
-        "OS3.0.3.0.WOLMIXM": {
-          "os": "OS3.0.3.0.WOLMIXM",
-          "android": "16.0",
-          "release": "2025-11-24",
-          "recovery": "onyx_global-ota_full-OS3.0.3.0.WOLMIXM-user-16.0-74c615cb43.zip",
-          "fastboot": ""
-        },
-        "OS2.0.204.0.VOLMIXM": {
-          "os": "OS2.0.204.0.VOLMIXM",
-          "android": "15.0",
-          "release": "2025-10-20",
-          "recovery": "onyx_global-ota_full-OS2.0.204.0.VOLMIXM-user-15.0-a34fb6b060.zip",
-          "fastboot": "onyx_global_images_OS2.0.204.0.VOLMIXM_20251009.0000.00_15.0_global_f95e2045c8.tgz"
-        },
-        "OS2.0.202.0.VOLMIXM": {
-          "os": "OS2.0.202.0.VOLMIXM",
-          "android": "15.0",
-          "release": "2025-09-22",
-          "recovery": "onyx_global-ota_full-OS2.0.202.0.VOLMIXM-user-15.0-5ff284f373.zip",
-          "fastboot": "onyx_global_images_OS2.0.202.0.VOLMIXM_20250909.0000.00_15.0_global_2f9843e0eb.tgz"
-        },
-        "OS2.0.201.0.VOLMIXM": {
-          "os": "OS2.0.201.0.VOLMIXM",
-          "android": "15.0",
-          "release": "2025-08-25",
-          "recovery": "onyx_global-ota_full-OS2.0.201.0.VOLMIXM-user-15.0-14951c2a2c.zip",
-          "fastboot": "onyx_global_images_OS2.0.201.0.VOLMIXM_20250813.0000.00_15.0_global_1e437397fb.tgz"
-        },
-        "OS2.0.103.0.VOLMIXM": {
-          "os": "OS2.0.103.0.VOLMIXM",
-          "android": "15.0",
-          "release": "2025-07-14",
-          "recovery": "onyx_global-ota_full-OS2.0.103.0.VOLMIXM-user-15.0-60fb8212dc.zip",
-          "fastboot": "onyx_global_images_OS2.0.103.0.VOLMIXM_20250704.0000.00_15.0_global_963f285843.tgz"
-        },
-        "OS2.0.102.0.VOLMIXM": {
-          "os": "OS2.0.102.0.VOLMIXM",
-          "android": "15.0",
-          "release": "2025-06-27",
-          "recovery": "onyx_global-ota_full-OS2.0.102.0.VOLMIXM-user-15.0-a6f16bccbc.zip",
-          "fastboot": "onyx_global_images_OS2.0.102.0.VOLMIXM_20250612.0000.00_15.0_global_250ac89cb2.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "onyx_eea_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO F7",
-        "en": "POCO F7"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.6.0.WOLEUXM": {
-          "os": "OS3.0.6.0.WOLEUXM",
-          "android": "16.0",
-          "release": "2026-04-14",
-          "recovery": "onyx_eea_global-ota_full-OS3.0.6.0.WOLEUXM-user-16.0-7db909d116.zip",
-          "fastboot": "onyx_eea_global_images_OS3.0.6.0.WOLEUXM_20260408.0000.00_16.0_eea_f77f0ad376.tgz"
-        },
-        "OS3.0.4.0.WOLEUXM": {
-          "os": "OS3.0.4.0.WOLEUXM",
-          "android": "16.0",
-          "release": "2026-02-08",
-          "recovery": "onyx_eea_global-ota_full-OS3.0.4.0.WOLEUXM-user-16.0-c2144144eb.zip",
-          "fastboot": "onyx_eea_global_images_OS3.0.4.0.WOLEUXM_20260129.0000.00_16.0_eea_d6973203ad.tgz"
-        },
-        "OS3.0.3.0.WOLEUXM": {
-          "os": "OS3.0.3.0.WOLEUXM",
-          "android": "16.0",
-          "release": "2026-01-14",
-          "recovery": "onyx_eea_global-ota_full-OS3.0.3.0.WOLEUXM-user-16.0-8fd15ae32f.zip",
-          "fastboot": "onyx_eea_global_images_OS3.0.3.0.WOLEUXM_20251227.0000.00_16.0_eea_ae6eb92539.tgz"
-        },
-        "OS3.0.2.0.WOLEUXM": {
-          "os": "OS3.0.2.0.WOLEUXM",
-          "android": "16.0",
-          "release": "2025-12-22",
-          "recovery": "onyx_eea_global-ota_full-OS3.0.2.0.WOLEUXM-user-16.0-d8d7573ff3.zip",
-          "fastboot": "onyx_eea_global_images_OS3.0.2.0.WOLEUXM_20251211.0000.00_16.0_eea_2468e30d59.tgz"
-        },
-        "OS2.0.208.0.VOLEUXM": {
-          "os": "OS2.0.208.0.VOLEUXM",
-          "android": "15.0",
-          "release": "2025-11-24",
-          "recovery": "onyx_eea_global-ota_full-OS2.0.208.0.VOLEUXM-user-15.0-be902b0d5a.zip",
-          "fastboot": "onyx_eea_global_images_OS2.0.208.0.VOLEUXM_20251111.0000.00_15.0_eea_dd30234ac0.tgz"
-        },
-        "OS2.0.207.0.VOLEUXM": {
-          "os": "OS2.0.207.0.VOLEUXM",
-          "android": "15.0",
-          "release": "2025-10-26",
-          "recovery": "onyx_eea_global-ota_full-OS2.0.207.0.VOLEUXM-user-15.0-1f0791d2d1.zip",
-          "fastboot": "onyx_eea_global_images_OS2.0.207.0.VOLEUXM_20251015.0000.00_15.0_eea_f543993c70.tgz"
-        },
-        "OS2.0.206.0.VOLEUXM": {
-          "os": "OS2.0.206.0.VOLEUXM",
-          "android": "15.0",
-          "release": "2025-09-15",
-          "recovery": "onyx_eea_global-ota_full-OS2.0.206.0.VOLEUXM-user-15.0-08b801c7f8.zip",
-          "fastboot": "onyx_eea_global_images_OS2.0.206.0.VOLEUXM_20250826.0000.00_15.0_eea_c526be2f9f.tgz"
-        },
-        "OS2.0.204.0.VOLEUXM": {
-          "os": "OS2.0.204.0.VOLEUXM",
-          "android": "15.0",
-          "release": "2025-08-06",
-          "recovery": "onyx_eea_global-ota_full-OS2.0.204.0.VOLEUXM-user-15.0-122f7878d8.zip",
-          "fastboot": "onyx_eea_global_images_OS2.0.204.0.VOLEUXM_20250729.0000.00_15.0_eea_8411bd59f2.tgz"
-        },
-        "OS2.0.202.0.VOLEUXM": {
-          "os": "OS2.0.202.0.VOLEUXM",
-          "android": "15.0",
-          "release": "2025-06-27",
-          "recovery": "onyx_eea_global-ota_full-OS2.0.202.0.VOLEUXM-user-15.0-304cadeef8.zip",
-          "fastboot": "onyx_eea_global_images_OS2.0.202.0.VOLEUXM_20250620.0000.00_15.0_eea_6ce46ae83a.tgz"
-        },
-        "OS2.0.103.0.VOLEUXM": {
-          "os": "OS2.0.103.0.VOLEUXM",
-          "android": "15.0",
-          "release": "2025-06-26",
-          "recovery": "onyx_eea_global-ota_full-OS2.0.103.0.VOLEUXM-user-15.0-795f6e1455.zip",
-          "fastboot": "onyx_eea_global_images_OS2.0.103.0.VOLEUXM_20250606.0000.00_15.0_eea_2033d1ed72.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "onyx_ru_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO F7",
-        "en": "POCO F7"
-      },
-      "idtag": "RUSO",
-      "tag": "RUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.3.0.WOLRUXM": {
-          "os": "OS3.0.3.0.WOLRUXM",
-          "android": "16.0",
-          "release": "2026-02-12",
-          "recovery": "onyx_ru_global-ota_full-OS3.0.3.0.WOLRUXM-user-16.0-17d3377c88.zip",
-          "fastboot": "onyx_ru_global_images_OS3.0.3.0.WOLRUXM_20260203.0000.00_16.0_ru_0558fecc89.tgz"
-        },
-        "OS3.0.2.0.WOLRUXM": {
-          "os": "OS3.0.2.0.WOLRUXM",
-          "android": "16.0",
-          "release": "2025-12-30",
-          "recovery": "onyx_ru_global-ota_full-OS3.0.2.0.WOLRUXM-user-16.0-6060ac850e.zip",
-          "fastboot": "onyx_ru_global_images_OS3.0.2.0.WOLRUXM_20251223.0000.00_16.0_ru_3c14ed7bfe.tgz"
-        },
-        "OS2.0.204.0.VOLRUXM": {
-          "os": "OS2.0.204.0.VOLRUXM",
-          "android": "15.0",
-          "release": "2025-11-24",
-          "recovery": "onyx_ru_global-ota_full-OS2.0.204.0.VOLRUXM-user-15.0-4272b45bd3.zip",
-          "fastboot": "onyx_ru_global_images_OS2.0.204.0.VOLRUXM_20251112.0000.00_15.0_ru_5557375bc3.tgz"
-        },
-        "OS2.0.203.0.VOLRUXM": {
-          "os": "OS2.0.203.0.VOLRUXM",
-          "android": "15.0",
-          "release": "2025-10-29",
-          "recovery": "onyx_ru_global-ota_full-OS2.0.203.0.VOLRUXM-user-15.0-d1f0e24549.zip",
-          "fastboot": "onyx_ru_global_images_OS2.0.203.0.VOLRUXM_20251015.0000.00_15.0_ru_84b5e55660.tgz"
-        },
-        "OS2.0.202.0.VOLRUXM": {
-          "os": "OS2.0.202.0.VOLRUXM",
-          "android": "15.0",
-          "release": "2025-09-01",
-          "recovery": "onyx_ru_global-ota_full-OS2.0.202.0.VOLRUXM-user-15.0-396955cb87.zip",
-          "fastboot": "onyx_ru_global_images_OS2.0.202.0.VOLRUXM_20250821.0000.00_15.0_ru_a72186224e.tgz"
-        },
-        "OS2.0.102.0.VOLRUXM": {
-          "os": "OS2.0.102.0.VOLRUXM",
-          "android": "15.0",
-          "release": "2025-07-22",
-          "recovery": "onyx_ru_global-ota_full-OS2.0.102.0.VOLRUXM-user-15.0-bcae0c91bd.zip",
-          "fastboot": "onyx_ru_global_images_OS2.0.102.0.VOLRUXM_20250710.0000.00_15.0_ru_050f66acab.tgz"
-        },
-        "OS2.0.101.0.VOLRUXM": {
-          "os": "OS2.0.101.0.VOLRUXM",
-          "android": "15.0",
-          "release": "2025-06-25",
-          "recovery": "onyx_ru_global-ota_full-OS2.0.101.0.VOLRUXM-user-15.0-552cbf8f71.zip",
-          "fastboot": "onyx_ru_global_images_OS2.0.101.0.VOLRUXM_20250612.0000.00_15.0_ru_b3c7914e1c.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度正式版",
-        "en": "Xiaomi HyperOS India Stable"
-      },
-      "branchCode": "onyx_in_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO F7",
-        "en": "POCO F7"
-      },
-      "idtag": "INSO",
-      "tag": "INXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "in",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.5.0.WOLINXM": {
-          "os": "OS3.0.5.0.WOLINXM",
-          "android": "16.0",
-          "release": "2026-04-24",
-          "recovery": "onyx_in_global-ota_full-OS3.0.5.0.WOLINXM-user-16.0-ab6c36cf18.zip",
-          "fastboot": ""
-        },
-        "OS3.0.4.0.WOLINXM": {
-          "os": "OS3.0.4.0.WOLINXM",
-          "android": "16.0",
-          "release": "2026-02-12",
-          "recovery": "onyx_in_global-ota_full-OS3.0.4.0.WOLINXM-user-16.0-58c10264c6.zip",
-          "fastboot": "onyx_in_global_images_OS3.0.4.0.WOLINXM_20260203.0000.00_16.0_in_ea12dd8e36.tgz"
-        },
-        "OS3.0.3.0.WOLINXM": {
-          "os": "OS3.0.3.0.WOLINXM",
-          "android": "16.0",
-          "release": "2026-01-16",
-          "recovery": "onyx_in_global-ota_full-OS3.0.3.0.WOLINXM-user-16.0-1be3706e80.zip",
-          "fastboot": "onyx_in_global_images_OS3.0.3.0.WOLINXM_20251224.0000.00_16.0_in_1afb6c7134.tgz"
-        },
-        "OS2.0.205.0.VOLINXM": {
-          "os": "OS2.0.205.0.VOLINXM",
-          "android": "15.0",
-          "release": "2025-10-27",
-          "recovery": "onyx_in_global-ota_full-OS2.0.205.0.VOLINXM-user-15.0-34e6fb6cbf.zip",
-          "fastboot": "onyx_in_global_images_OS2.0.205.0.VOLINXM_20251016.0000.00_15.0_in_846542421c.tgz"
-        },
-        "OS2.0.201.0.VOLINXM": {
-          "os": "OS2.0.201.0.VOLINXM",
-          "android": "15.0",
-          "release": "2025-09-07",
-          "recovery": "onyx_in_global-ota_full-OS2.0.201.0.VOLINXM-user-15.0-421b71f385.zip",
-          "fastboot": "onyx_in_global_images_OS2.0.201.0.VOLINXM_20250822.0000.00_15.0_in_a20d8ea393.tgz"
-        },
-        "OS2.0.102.0.VOLINXM": {
-          "os": "OS2.0.102.0.VOLINXM",
-          "android": "15.0",
-          "release": "2025-08-03",
-          "recovery": "onyx_in_global-ota_full-OS2.0.102.0.VOLINXM-user-15.0-8effe527c0.zip",
-          "fastboot": "onyx_in_global_images_OS2.0.102.0.VOLINXM_20250718.0000.00_15.0_in_11ccd9f6ae.tgz"
-        },
-        "OS2.0.101.0.VOLINXM": {
-          "os": "OS2.0.101.0.VOLINXM",
-          "android": "15.0",
-          "release": "2025-06-26",
-          "recovery": "onyx_in_global-ota_full-OS2.0.101.0.VOLINXM-user-15.0-98013df2e2.zip",
-          "fastboot": "onyx_in_global_images_OS2.0.101.0.VOLINXM_20250612.0000.00_15.0_in_270f80b620.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度尼西亚正式版",
-        "en": "Xiaomi HyperOS Indonesia Stable"
-      },
-      "branchCode": "onyx_id_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO F7",
-        "en": "POCO F7"
-      },
-      "idtag": "IDSO",
-      "tag": "IDXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "id",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.4.0.WOLIDXM": {
-          "os": "OS3.0.4.0.WOLIDXM",
-          "android": "16.0",
-          "release": "2026-04-24",
-          "recovery": "onyx_id_global-ota_full-OS3.0.4.0.WOLIDXM-user-16.0-b33b5c2794.zip",
-          "fastboot": ""
-        },
-        "OS3.0.3.0.WOLIDXM": {
-          "os": "OS3.0.3.0.WOLIDXM",
-          "android": "16.0",
-          "release": "2026-02-12",
-          "recovery": "onyx_id_global-ota_full-OS3.0.3.0.WOLIDXM-user-16.0-8d512bc869.zip",
-          "fastboot": "onyx_id_global_images_OS3.0.3.0.WOLIDXM_20260203.0000.00_16.0_id_b54359f7ee.tgz"
-        },
-        "OS3.0.2.0.WOLIDXM": {
-          "os": "OS3.0.2.0.WOLIDXM",
-          "android": "16.0",
-          "release": "2025-12-26",
-          "recovery": "onyx_id_global-ota_full-OS3.0.2.0.WOLIDXM-user-16.0-bc9231181b.zip",
-          "fastboot": "onyx_id_global_images_OS3.0.2.0.WOLIDXM_20251215.0000.00_16.0_id_8f6b99e715.tgz"
-        },
-        "OS2.0.204.0.VOLIDXM": {
-          "os": "OS2.0.204.0.VOLIDXM",
-          "android": "15.0",
-          "release": "2025-11-24",
-          "recovery": "onyx_id_global-ota_full-OS2.0.204.0.VOLIDXM-user-15.0-3165025669.zip",
-          "fastboot": "onyx_id_global_images_OS2.0.204.0.VOLIDXM_20251111.0000.00_15.0_id_0e6e91eb62.tgz"
-        },
-        "OS2.0.203.0.VOLIDXM": {
-          "os": "OS2.0.203.0.VOLIDXM",
-          "android": "15.0",
-          "release": "2025-10-27",
-          "recovery": "onyx_id_global-ota_full-OS2.0.203.0.VOLIDXM-user-15.0-9aa8f911bb.zip",
-          "fastboot": "onyx_id_global_images_OS2.0.203.0.VOLIDXM_20251015.0000.00_15.0_id_0c5c580e8f.tgz"
-        },
-        "OS2.0.202.0.VOLIDXM": {
-          "os": "OS2.0.202.0.VOLIDXM",
-          "android": "15.0",
-          "release": "2025-09-22",
-          "recovery": "onyx_id_global-ota_full-OS2.0.202.0.VOLIDXM-user-15.0-1b93721f48.zip",
-          "fastboot": "onyx_id_global_images_OS2.0.202.0.VOLIDXM_20250909.0000.00_15.0_id_0ebed04a32.tgz"
-        },
-        "OS2.0.201.0.VOLIDXM": {
-          "os": "OS2.0.201.0.VOLIDXM",
-          "android": "15.0",
-          "release": "2025-08-24",
-          "recovery": "onyx_id_global-ota_full-OS2.0.201.0.VOLIDXM-user-15.0-3ec7895a12.zip",
-          "fastboot": "onyx_id_global_images_OS2.0.201.0.VOLIDXM_20250813.0000.00_15.0_id_dcd66e9f2b.tgz"
-        },
-        "OS2.0.102.0.VOLIDXM": {
-          "os": "OS2.0.102.0.VOLIDXM",
-          "android": "15.0",
-          "release": "2025-07-22",
-          "recovery": "onyx_id_global-ota_full-OS2.0.102.0.VOLIDXM-user-15.0-09651f70c2.zip",
-          "fastboot": "onyx_id_global_images_OS2.0.102.0.VOLIDXM_20250710.0000.00_15.0_id_281b3b92ab.tgz"
-        },
-        "OS2.0.101.0.VOLIDXM": {
-          "os": "OS2.0.101.0.VOLIDXM",
-          "android": "15.0",
-          "release": "2025-06-25",
-          "recovery": "onyx_id_global-ota_full-OS2.0.101.0.VOLIDXM-user-15.0-df0aff8cb9.zip",
-          "fastboot": "onyx_id_global_images_OS2.0.101.0.VOLIDXM_20250612.0000.00_15.0_id_ec22bba907.tgz"
-        }
-      }
-    }
-  ]
+	"device": "onyx",
+	"name": {
+		"zh": "REDMI Turbo 4 Pro / POCO F7",
+		"en": "REDMI Turbo 4 Pro / POCO F7"
+	},
+	"code": "OL",
+	"suppports": [
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"15.0",
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "onyx",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Turbo 4 Pro",
+				"en": "REDMI Turbo 4 Pro"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WOLCNXM": {
+					"os": "OS3.0.303.0.WOLCNXM",
+					"android": "16.0",
+					"release": "2026-04-29",
+					"recovery": "onyx-ota_full-OS3.0.303.0.WOLCNXM-user-16.0-c2d008638e.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.302.0.WOLCNXM": {
+					"os": "OS3.0.302.0.WOLCNXM",
+					"android": "16.0",
+					"release": "2026-04-14",
+					"recovery": "onyx-ota_full-OS3.0.302.0.WOLCNXM-user-16.0-a466255baa.zip",
+					"fastboot": "onyx_images_OS3.0.302.0.WOLCNXM_20260407.0000.00_16.0_cn_807a853783.tgz",
+					"ctelecom": "onyx_images_OS3.0.302.0.WOLCNXM_20260407.0000.00_16.0_cn_chinatelecom_b9cec6580a.tgz"
+				},
+				"OS3.0.11.0.WOLCNXM": {
+					"os": "OS3.0.11.0.WOLCNXM",
+					"android": "16.0",
+					"release": "2026-01-28",
+					"recovery": "onyx-ota_full-OS3.0.11.0.WOLCNXM-user-16.0-2ceab380eb.zip",
+					"fastboot": "onyx_images_OS3.0.11.0.WOLCNXM_20260121.0000.00_16.0_cn_15a48a7da7.tgz",
+					"ctelecom": "onyx_images_OS3.0.11.0.WOLCNXM_20260121.0000.00_16.0_cn_chinatelecom_2c8a3e86c7.tgz"
+				},
+				"OS3.0.9.0.WOLCNXM": {
+					"os": "OS3.0.9.0.WOLCNXM",
+					"android": "16.0",
+					"release": "2025-12-16",
+					"recovery": "onyx-ota_full-OS3.0.9.0.WOLCNXM-user-16.0-f4c52ba5dd.zip",
+					"fastboot": "onyx_images_OS3.0.9.0.WOLCNXM_20251211.0000.00_16.0_cn_a07eba20ee.tgz",
+					"ctelecom": "onyx_images_OS3.0.9.0.WOLCNXM_20251211.0000.00_16.0_cn_chinatelecom_13b1499248.tgz"
+				},
+				"OS3.0.7.0.WOLCNXM": {
+					"os": "OS3.0.7.0.WOLCNXM",
+					"android": "16.0",
+					"release": "2025-12-09",
+					"recovery": "onyx-ota_full-OS3.0.7.0.WOLCNXM-user-16.0-b0681ef565.zip",
+					"fastboot": "onyx_images_OS3.0.7.0.WOLCNXM_20251128.0000.00_16.0_cn_d63754daf5.tgz",
+					"ctelecom": "onyx_images_OS3.0.7.0.WOLCNXM_20251128.0000.00_16.0_cn_chinatelecom_4869b81ab2.tgz"
+				},
+				"OS3.0.5.0.WOLCNXM": {
+					"os": "OS3.0.5.0.WOLCNXM",
+					"android": "16.0",
+					"release": "2025-11-14",
+					"recovery": "onyx-ota_full-OS3.0.5.0.WOLCNXM-user-16.0-6995f031ab.zip",
+					"fastboot": "onyx_images_OS3.0.5.0.WOLCNXM_20251110.0000.00_16.0_cn_4814e005ed.tgz",
+					"ctelecom": "onyx_images_OS3.0.5.0.WOLCNXM_20251110.0000.00_16.0_cn_chinatelecom_ce3f60dd12.tgz"
+				},
+				"OS3.0.4.0.WOLCNXM": {
+					"os": "OS3.0.4.0.WOLCNXM",
+					"android": "16.0",
+					"release": "2025-10-28",
+					"recovery": "onyx-ota_full-OS3.0.4.0.WOLCNXM-user-16.0-8390fb1aa7.zip",
+					"fastboot": "onyx_images_OS3.0.4.0.WOLCNXM_20251024.0000.00_16.0_cn_2e5f18c156.tgz",
+					"ctelecom": "onyx_images_OS3.0.4.0.WOLCNXM_20251024.0000.00_16.0_cn_chinatelecom_1b4d39d02e.tgz"
+				},
+				"OS2.0.216.0.VOLCNXM": {
+					"os": "OS2.0.216.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-10-16",
+					"recovery": "onyx-ota_full-OS2.0.216.0.VOLCNXM-user-15.0-6e1ac7510e.zip",
+					"fastboot": "onyx_images_OS2.0.216.0.VOLCNXM_20250929.0000.00_15.0_cn_4b150e2fbc.tgz",
+					"ctelecom": "onyx_images_OS2.0.216.0.VOLCNXM_20250929.0000.00_15.0_cn_chinatelecom_1b73c38f4e.tgz"
+				},
+				"OS2.0.214.0.VOLCNXM": {
+					"os": "OS2.0.214.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-09-19",
+					"recovery": "onyx-ota_full-OS2.0.214.0.VOLCNXM-user-15.0-ad9d1d86b7.zip",
+					"fastboot": "onyx_images_OS2.0.214.0.VOLCNXM_20250913.0000.00_15.0_cn_5eb8064c37.tgz",
+					"ctelecom": "onyx_images_OS2.0.214.0.VOLCNXM_20250913.0000.00_15.0_cn_chinatelecom_7007a91f3b.tgz"
+				},
+				"OS2.0.212.0.VOLCNXM": {
+					"os": "OS2.0.212.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-08-22",
+					"recovery": "onyx-ota_full-OS2.0.212.0.VOLCNXM-user-15.0-37b3b33a36.zip",
+					"fastboot": "onyx_images_OS2.0.212.0.VOLCNXM_20250813.0000.00_15.0_cn_619e94a9ed.tgz",
+					"ctelecom": "onyx_images_OS2.0.212.0.VOLCNXM_20250813.0000.00_15.0_cn_chinatelecom_5c2979bd6b.tgz"
+				},
+				"OS2.0.209.0.VOLCNXM": {
+					"os": "OS2.0.209.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-07-22",
+					"recovery": "onyx-ota_full-OS2.0.209.0.VOLCNXM-user-15.0-929e54e052.zip",
+					"fastboot": "onyx_images_OS2.0.209.0.VOLCNXM_20250711.0000.00_15.0_cn_cc428da2db.tgz",
+					"ctelecom": "onyx_images_OS2.0.209.0.VOLCNXM_20250711.0000.00_15.0_cn_chinatelecom_6a20073666.tgz"
+				},
+				"OS2.0.207.0.VOLCNXM": {
+					"os": "OS2.0.207.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-06-18",
+					"recovery": "onyx-ota_full-OS2.0.207.0.VOLCNXM-user-15.0-5d0eded270.zip",
+					"fastboot": "onyx_images_OS2.0.207.0.VOLCNXM_20250611.0000.00_15.0_cn_1b46886dd4.tgz",
+					"ctelecom": "onyx_images_OS2.0.207.0.VOLCNXM_20250611.0000.00_15.0_cn_chinatelecom_60a8e3bcaa.tgz"
+				},
+				"OS2.0.206.0.VOLCNXM": {
+					"os": "OS2.0.206.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-06-04",
+					"recovery": "onyx-ota_full-OS2.0.206.0.VOLCNXM-user-15.0-f290f73398.zip",
+					"fastboot": "onyx_images_OS2.0.206.0.VOLCNXM_20250530.0000.00_15.0_cn_689105f5da.tgz",
+					"ctelecom": "onyx_images_OS2.0.206.0.VOLCNXM_20250530.0000.00_15.0_cn_chinatelecom_5111132862.tgz"
+				},
+				"OS2.0.130.0.VOLCNXM": {
+					"os": "OS2.0.130.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-05-17",
+					"recovery": "onyx-ota_full-OS2.0.130.0.VOLCNXM-user-15.0-73acf1c717.zip",
+					"fastboot": "onyx_images_OS2.0.130.0.VOLCNXM_20250515.0000.00_15.0_cn_c7b6fcb9d3.tgz",
+					"ctelecom": "onyx_images_OS2.0.130.0.VOLCNXM_20250515.0000.00_15.0_cn_chinatelecom_71d9ec8b7c.tgz"
+				},
+				"OS2.0.127.0.VOLCNXM": {
+					"os": "OS2.0.127.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-05-11",
+					"recovery": "onyx-ota_full-OS2.0.127.0.VOLCNXM-user-15.0-1bb1ab61d2.zip",
+					"fastboot": "onyx_images_OS2.0.127.0.VOLCNXM_20250510.0000.00_15.0_cn_2c367536e3.tgz",
+					"ctelecom": "onyx_images_OS2.0.127.0.VOLCNXM_20250510.0000.00_15.0_cn_chinatelecom_420c30d3d9.tgz"
+				},
+				"OS2.0.126.0.VOLCNXM": {
+					"os": "OS2.0.126.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-05-09",
+					"recovery": "onyx-ota_full-OS2.0.126.0.VOLCNXM-user-15.0-c5134083da.zip",
+					"fastboot": "onyx_images_OS2.0.126.0.VOLCNXM_20250509.0000.00_15.0_cn_e9c18f0210.tgz",
+					"ctelecom": "onyx_images_OS2.0.126.0.VOLCNXM_20250509.0000.00_15.0_cn_chinatelecom_822a0d3749.tgz"
+				},
+				"OS2.0.125.0.VOLCNXM": {
+					"os": "OS2.0.125.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-05-04",
+					"recovery": "onyx-ota_full-OS2.0.125.0.VOLCNXM-user-15.0-7895f7d7a1.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.124.0.VOLCNXM": {
+					"os": "OS2.0.124.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-05-04",
+					"recovery": "onyx-ota_full-OS2.0.124.0.VOLCNXM-user-15.0-624da2200e.zip",
+					"fastboot": "onyx_images_OS2.0.124.0.VOLCNXM_20250501.0000.00_15.0_cn_21cdc33207.tgz",
+					"ctelecom": "onyx_images_OS2.0.124.0.VOLCNXM_20250501.0000.00_15.0_cn_chinatelecom_89d02a844f.tgz"
+				},
+				"OS2.0.121.0.VOLCNXM": {
+					"os": "OS2.0.121.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-04-29",
+					"recovery": "onyx-ota_full-OS2.0.121.0.VOLCNXM-user-15.0-834ed85d6d.zip",
+					"fastboot": "onyx_images_OS2.0.121.0.VOLCNXM_20250429.0000.00_15.0_cn_d287e7811e.tgz",
+					"ctelecom": "onyx_images_OS2.0.121.0.VOLCNXM_20250429.0000.00_15.0_cn_chinatelecom_6450287019.tgz"
+				},
+				"OS2.0.114.0.VOLCNXM": {
+					"os": "OS2.0.114.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-04-24",
+					"recovery": "onyx-ota_full-OS2.0.114.0.VOLCNXM-user-15.0-4ff83d67a1.zip",
+					"fastboot": "onyx_images_OS2.0.114.0.VOLCNXM_20250419.0000.00_15.0_cn_a71f1bc559.tgz",
+					"ctelecom": "onyx_images_OS2.0.114.0.VOLCNXM_20250419.0000.00_15.0_cn_chinatelecom_1b1fcb79a7.tgz"
+				},
+				"OS2.0.112.0.VOLCNXM": {
+					"os": "OS2.0.112.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-04-24",
+					"recovery": "onyx-ota_full-OS2.0.112.0.VOLCNXM-user-15.0-fd77417572.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.110.0.VOLCNXM": {
+					"os": "OS2.0.110.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-04-24",
+					"recovery": "onyx-ota_full-OS2.0.110.0.VOLCNXM-user-15.0-c673c926c0.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.103.0.VOLCNXM": {
+					"os": "OS2.0.103.0.VOLCNXM",
+					"android": "15.0",
+					"release": "2025-04-24",
+					"recovery": "onyx-ota_full-OS2.0.103.0.VOLCNXM-user-15.0-884667fb8b.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "onyx_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Turbo 4 Pro",
+				"en": "REDMI Turbo 4 Pro"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.201.0.VOLCNDM": {
+					"os": "OS2.0.201.0.VOLCNDM",
+					"android": "15.0",
+					"release": "2025-06-24",
+					"recovery": "onyx_demo-ota_full-OS2.0.201.0.VOLCNDM-user-15.0-0e37e5e701.zip",
+					"fastboot": "onyx_demo_images_OS2.0.201.0.VOLCNDM_20250613.0000.00_15.0_cn_3b99def540.tgz",
+					"ctelecom": "onyx_demo_images_OS2.0.201.0.VOLCNDM_20250613.0000.00_15.0_cn_chinatelecom_a67e71143d.tgz"
+				},
+				"OS2.0.104.0.VOLCNDM": {
+					"os": "OS2.0.104.0.VOLCNDM",
+					"android": "15.0",
+					"release": "2025-04-24",
+					"recovery": "onyx_demo-ota_full-OS2.0.104.0.VOLCNDM-user-15.0-1cf012289d.zip",
+					"fastboot": "onyx_demo_images_OS2.0.104.0.VOLCNDM_20250419.0000.00_15.0_cn_2dec17ec52.tgz",
+					"ctelecom": "onyx_demo_images_OS2.0.104.0.VOLCNDM_20250419.0000.00_15.0_cn_chinatelecom_3a7f49a2a8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "onyx_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F7",
+				"en": "POCO F7"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WOLTWXM": {
+					"os": "OS3.0.3.0.WOLTWXM",
+					"android": "16.0",
+					"release": "2026-02-12",
+					"recovery": "onyx_tw_global-ota_full-OS3.0.3.0.WOLTWXM-user-16.0-431f33f4b8.zip",
+					"fastboot": "onyx_tw_global_images_OS3.0.3.0.WOLTWXM_20260203.0000.00_16.0_tw_509e53ccea.tgz"
+				},
+				"OS3.0.2.0.WOLTWXM": {
+					"os": "OS3.0.2.0.WOLTWXM",
+					"android": "16.0",
+					"release": "2025-12-30",
+					"recovery": "onyx_tw_global-ota_full-OS3.0.2.0.WOLTWXM-user-16.0-50668e0e6f.zip",
+					"fastboot": "onyx_tw_global_images_OS3.0.2.0.WOLTWXM_20251223.0000.00_16.0_tw_feda77a991.tgz"
+				},
+				"OS2.0.203.0.VOLTWXM": {
+					"os": "OS2.0.203.0.VOLTWXM",
+					"android": "15.0",
+					"release": "2025-11-24",
+					"recovery": "onyx_tw_global-ota_full-OS2.0.203.0.VOLTWXM-user-15.0-fa9ebbe132.zip",
+					"fastboot": "onyx_tw_global_images_OS2.0.203.0.VOLTWXM_20251111.0000.00_15.0_tw_06430c1d73.tgz"
+				},
+				"OS2.0.202.0.VOLTWXM": {
+					"os": "OS2.0.202.0.VOLTWXM",
+					"android": "15.0",
+					"release": "2025-10-29",
+					"recovery": "onyx_tw_global-ota_full-OS2.0.202.0.VOLTWXM-user-15.0-1975f1ae29.zip",
+					"fastboot": "onyx_tw_global_images_OS2.0.202.0.VOLTWXM_20251015.0000.00_15.0_tw_7aad196637.tgz"
+				},
+				"OS2.0.201.0.VOLTWXM": {
+					"os": "OS2.0.201.0.VOLTWXM",
+					"android": "15.0",
+					"release": "2025-09-01",
+					"recovery": "onyx_tw_global-ota_full-OS2.0.201.0.VOLTWXM-user-15.0-c7bb50e745.zip",
+					"fastboot": "onyx_tw_global_images_OS2.0.201.0.VOLTWXM_20250819.0000.00_15.0_tw_1765df928e.tgz"
+				},
+				"OS2.0.102.0.VOLTWXM": {
+					"os": "OS2.0.102.0.VOLTWXM",
+					"android": "15.0",
+					"release": "2025-07-22",
+					"recovery": "onyx_tw_global-ota_full-OS2.0.102.0.VOLTWXM-user-15.0-88db5ff18b.zip",
+					"fastboot": "onyx_tw_global_images_OS2.0.102.0.VOLTWXM_20250710.0000.00_15.0_tw_4e8c42cd7d.tgz"
+				},
+				"OS2.0.101.0.VOLTWXM": {
+					"os": "OS2.0.101.0.VOLTWXM",
+					"android": "15.0",
+					"release": "2025-06-25",
+					"recovery": "onyx_tw_global-ota_full-OS2.0.101.0.VOLTWXM-user-15.0-71659db166.zip",
+					"fastboot": "onyx_tw_global_images_OS2.0.101.0.VOLTWXM_20250612.0000.00_15.0_tw_d34c6d3742.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "onyx_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F7",
+				"en": "POCO F7"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.7.0.WOLMIXM": {
+					"os": "OS3.0.7.0.WOLMIXM",
+					"android": "16.0",
+					"release": "2026-04-24",
+					"recovery": "onyx_global-ota_full-OS3.0.7.0.WOLMIXM-user-16.0-25c954f376.zip",
+					"fastboot": ""
+				},
+				"OS3.0.6.0.WOLMIXM": {
+					"os": "OS3.0.6.0.WOLMIXM",
+					"android": "16.0",
+					"release": "2026-02-07",
+					"recovery": "onyx_global-ota_full-OS3.0.6.0.WOLMIXM-user-16.0-02188a5378.zip",
+					"fastboot": "onyx_global_images_OS3.0.6.0.WOLMIXM_20260129.0000.00_16.0_global_bf1b560332.tgz"
+				},
+				"OS3.0.5.0.WOLMIXM": {
+					"os": "OS3.0.5.0.WOLMIXM",
+					"android": "16.0",
+					"release": "2025-12-28",
+					"recovery": "onyx_global-ota_full-OS3.0.5.0.WOLMIXM-user-16.0-8ba39ab4bc.zip",
+					"fastboot": "onyx_global_images_OS3.0.5.0.WOLMIXM_20251216.0000.00_16.0_global_8695609039.tgz"
+				},
+				"OS3.0.4.0.WOLMIXM": {
+					"os": "OS3.0.4.0.WOLMIXM",
+					"android": "16.0",
+					"release": "2025-12-01",
+					"recovery": "onyx_global-ota_full-OS3.0.4.0.WOLMIXM-user-16.0-895d6eca0f.zip",
+					"fastboot": ""
+				},
+				"OS3.0.3.0.WOLMIXM": {
+					"os": "OS3.0.3.0.WOLMIXM",
+					"android": "16.0",
+					"release": "2025-11-24",
+					"recovery": "onyx_global-ota_full-OS3.0.3.0.WOLMIXM-user-16.0-74c615cb43.zip",
+					"fastboot": ""
+				},
+				"OS2.0.204.0.VOLMIXM": {
+					"os": "OS2.0.204.0.VOLMIXM",
+					"android": "15.0",
+					"release": "2025-10-20",
+					"recovery": "onyx_global-ota_full-OS2.0.204.0.VOLMIXM-user-15.0-a34fb6b060.zip",
+					"fastboot": "onyx_global_images_OS2.0.204.0.VOLMIXM_20251009.0000.00_15.0_global_f95e2045c8.tgz"
+				},
+				"OS2.0.202.0.VOLMIXM": {
+					"os": "OS2.0.202.0.VOLMIXM",
+					"android": "15.0",
+					"release": "2025-09-22",
+					"recovery": "onyx_global-ota_full-OS2.0.202.0.VOLMIXM-user-15.0-5ff284f373.zip",
+					"fastboot": "onyx_global_images_OS2.0.202.0.VOLMIXM_20250909.0000.00_15.0_global_2f9843e0eb.tgz"
+				},
+				"OS2.0.201.0.VOLMIXM": {
+					"os": "OS2.0.201.0.VOLMIXM",
+					"android": "15.0",
+					"release": "2025-08-25",
+					"recovery": "onyx_global-ota_full-OS2.0.201.0.VOLMIXM-user-15.0-14951c2a2c.zip",
+					"fastboot": "onyx_global_images_OS2.0.201.0.VOLMIXM_20250813.0000.00_15.0_global_1e437397fb.tgz"
+				},
+				"OS2.0.103.0.VOLMIXM": {
+					"os": "OS2.0.103.0.VOLMIXM",
+					"android": "15.0",
+					"release": "2025-07-14",
+					"recovery": "onyx_global-ota_full-OS2.0.103.0.VOLMIXM-user-15.0-60fb8212dc.zip",
+					"fastboot": "onyx_global_images_OS2.0.103.0.VOLMIXM_20250704.0000.00_15.0_global_963f285843.tgz"
+				},
+				"OS2.0.102.0.VOLMIXM": {
+					"os": "OS2.0.102.0.VOLMIXM",
+					"android": "15.0",
+					"release": "2025-06-27",
+					"recovery": "onyx_global-ota_full-OS2.0.102.0.VOLMIXM-user-15.0-a6f16bccbc.zip",
+					"fastboot": "onyx_global_images_OS2.0.102.0.VOLMIXM_20250612.0000.00_15.0_global_250ac89cb2.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "onyx_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F7",
+				"en": "POCO F7"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.6.0.WOLEUXM": {
+					"os": "OS3.0.6.0.WOLEUXM",
+					"android": "16.0",
+					"release": "2026-04-14",
+					"recovery": "onyx_eea_global-ota_full-OS3.0.6.0.WOLEUXM-user-16.0-7db909d116.zip",
+					"fastboot": "onyx_eea_global_images_OS3.0.6.0.WOLEUXM_20260408.0000.00_16.0_eea_f77f0ad376.tgz"
+				},
+				"OS3.0.4.0.WOLEUXM": {
+					"os": "OS3.0.4.0.WOLEUXM",
+					"android": "16.0",
+					"release": "2026-02-08",
+					"recovery": "onyx_eea_global-ota_full-OS3.0.4.0.WOLEUXM-user-16.0-c2144144eb.zip",
+					"fastboot": "onyx_eea_global_images_OS3.0.4.0.WOLEUXM_20260129.0000.00_16.0_eea_d6973203ad.tgz"
+				},
+				"OS3.0.3.0.WOLEUXM": {
+					"os": "OS3.0.3.0.WOLEUXM",
+					"android": "16.0",
+					"release": "2026-01-14",
+					"recovery": "onyx_eea_global-ota_full-OS3.0.3.0.WOLEUXM-user-16.0-8fd15ae32f.zip",
+					"fastboot": "onyx_eea_global_images_OS3.0.3.0.WOLEUXM_20251227.0000.00_16.0_eea_ae6eb92539.tgz"
+				},
+				"OS3.0.2.0.WOLEUXM": {
+					"os": "OS3.0.2.0.WOLEUXM",
+					"android": "16.0",
+					"release": "2025-12-22",
+					"recovery": "onyx_eea_global-ota_full-OS3.0.2.0.WOLEUXM-user-16.0-d8d7573ff3.zip",
+					"fastboot": "onyx_eea_global_images_OS3.0.2.0.WOLEUXM_20251211.0000.00_16.0_eea_2468e30d59.tgz"
+				},
+				"OS2.0.208.0.VOLEUXM": {
+					"os": "OS2.0.208.0.VOLEUXM",
+					"android": "15.0",
+					"release": "2025-11-24",
+					"recovery": "onyx_eea_global-ota_full-OS2.0.208.0.VOLEUXM-user-15.0-be902b0d5a.zip",
+					"fastboot": "onyx_eea_global_images_OS2.0.208.0.VOLEUXM_20251111.0000.00_15.0_eea_dd30234ac0.tgz"
+				},
+				"OS2.0.207.0.VOLEUXM": {
+					"os": "OS2.0.207.0.VOLEUXM",
+					"android": "15.0",
+					"release": "2025-10-26",
+					"recovery": "onyx_eea_global-ota_full-OS2.0.207.0.VOLEUXM-user-15.0-1f0791d2d1.zip",
+					"fastboot": "onyx_eea_global_images_OS2.0.207.0.VOLEUXM_20251015.0000.00_15.0_eea_f543993c70.tgz"
+				},
+				"OS2.0.206.0.VOLEUXM": {
+					"os": "OS2.0.206.0.VOLEUXM",
+					"android": "15.0",
+					"release": "2025-09-15",
+					"recovery": "onyx_eea_global-ota_full-OS2.0.206.0.VOLEUXM-user-15.0-08b801c7f8.zip",
+					"fastboot": "onyx_eea_global_images_OS2.0.206.0.VOLEUXM_20250826.0000.00_15.0_eea_c526be2f9f.tgz"
+				},
+				"OS2.0.204.0.VOLEUXM": {
+					"os": "OS2.0.204.0.VOLEUXM",
+					"android": "15.0",
+					"release": "2025-08-06",
+					"recovery": "onyx_eea_global-ota_full-OS2.0.204.0.VOLEUXM-user-15.0-122f7878d8.zip",
+					"fastboot": "onyx_eea_global_images_OS2.0.204.0.VOLEUXM_20250729.0000.00_15.0_eea_8411bd59f2.tgz"
+				},
+				"OS2.0.202.0.VOLEUXM": {
+					"os": "OS2.0.202.0.VOLEUXM",
+					"android": "15.0",
+					"release": "2025-06-27",
+					"recovery": "onyx_eea_global-ota_full-OS2.0.202.0.VOLEUXM-user-15.0-304cadeef8.zip",
+					"fastboot": "onyx_eea_global_images_OS2.0.202.0.VOLEUXM_20250620.0000.00_15.0_eea_6ce46ae83a.tgz"
+				},
+				"OS2.0.103.0.VOLEUXM": {
+					"os": "OS2.0.103.0.VOLEUXM",
+					"android": "15.0",
+					"release": "2025-06-26",
+					"recovery": "onyx_eea_global-ota_full-OS2.0.103.0.VOLEUXM-user-15.0-795f6e1455.zip",
+					"fastboot": "onyx_eea_global_images_OS2.0.103.0.VOLEUXM_20250606.0000.00_15.0_eea_2033d1ed72.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "onyx_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F7",
+				"en": "POCO F7"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WOLRUXM": {
+					"os": "OS3.0.3.0.WOLRUXM",
+					"android": "16.0",
+					"release": "2026-02-12",
+					"recovery": "onyx_ru_global-ota_full-OS3.0.3.0.WOLRUXM-user-16.0-17d3377c88.zip",
+					"fastboot": "onyx_ru_global_images_OS3.0.3.0.WOLRUXM_20260203.0000.00_16.0_ru_0558fecc89.tgz"
+				},
+				"OS3.0.2.0.WOLRUXM": {
+					"os": "OS3.0.2.0.WOLRUXM",
+					"android": "16.0",
+					"release": "2025-12-30",
+					"recovery": "onyx_ru_global-ota_full-OS3.0.2.0.WOLRUXM-user-16.0-6060ac850e.zip",
+					"fastboot": "onyx_ru_global_images_OS3.0.2.0.WOLRUXM_20251223.0000.00_16.0_ru_3c14ed7bfe.tgz"
+				},
+				"OS2.0.204.0.VOLRUXM": {
+					"os": "OS2.0.204.0.VOLRUXM",
+					"android": "15.0",
+					"release": "2025-11-24",
+					"recovery": "onyx_ru_global-ota_full-OS2.0.204.0.VOLRUXM-user-15.0-4272b45bd3.zip",
+					"fastboot": "onyx_ru_global_images_OS2.0.204.0.VOLRUXM_20251112.0000.00_15.0_ru_5557375bc3.tgz"
+				},
+				"OS2.0.203.0.VOLRUXM": {
+					"os": "OS2.0.203.0.VOLRUXM",
+					"android": "15.0",
+					"release": "2025-10-29",
+					"recovery": "onyx_ru_global-ota_full-OS2.0.203.0.VOLRUXM-user-15.0-d1f0e24549.zip",
+					"fastboot": "onyx_ru_global_images_OS2.0.203.0.VOLRUXM_20251015.0000.00_15.0_ru_84b5e55660.tgz"
+				},
+				"OS2.0.202.0.VOLRUXM": {
+					"os": "OS2.0.202.0.VOLRUXM",
+					"android": "15.0",
+					"release": "2025-09-01",
+					"recovery": "onyx_ru_global-ota_full-OS2.0.202.0.VOLRUXM-user-15.0-396955cb87.zip",
+					"fastboot": "onyx_ru_global_images_OS2.0.202.0.VOLRUXM_20250821.0000.00_15.0_ru_a72186224e.tgz"
+				},
+				"OS2.0.102.0.VOLRUXM": {
+					"os": "OS2.0.102.0.VOLRUXM",
+					"android": "15.0",
+					"release": "2025-07-22",
+					"recovery": "onyx_ru_global-ota_full-OS2.0.102.0.VOLRUXM-user-15.0-bcae0c91bd.zip",
+					"fastboot": "onyx_ru_global_images_OS2.0.102.0.VOLRUXM_20250710.0000.00_15.0_ru_050f66acab.tgz"
+				},
+				"OS2.0.101.0.VOLRUXM": {
+					"os": "OS2.0.101.0.VOLRUXM",
+					"android": "15.0",
+					"release": "2025-06-25",
+					"recovery": "onyx_ru_global-ota_full-OS2.0.101.0.VOLRUXM-user-15.0-552cbf8f71.zip",
+					"fastboot": "onyx_ru_global_images_OS2.0.101.0.VOLRUXM_20250612.0000.00_15.0_ru_b3c7914e1c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "onyx_in_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F7",
+				"en": "POCO F7"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.5.0.WOLINXM": {
+					"os": "OS3.0.5.0.WOLINXM",
+					"android": "16.0",
+					"release": "2026-04-24",
+					"recovery": "onyx_in_global-ota_full-OS3.0.5.0.WOLINXM-user-16.0-ab6c36cf18.zip",
+					"fastboot": ""
+				},
+				"OS3.0.4.0.WOLINXM": {
+					"os": "OS3.0.4.0.WOLINXM",
+					"android": "16.0",
+					"release": "2026-02-12",
+					"recovery": "onyx_in_global-ota_full-OS3.0.4.0.WOLINXM-user-16.0-58c10264c6.zip",
+					"fastboot": "onyx_in_global_images_OS3.0.4.0.WOLINXM_20260203.0000.00_16.0_in_ea12dd8e36.tgz"
+				},
+				"OS3.0.3.0.WOLINXM": {
+					"os": "OS3.0.3.0.WOLINXM",
+					"android": "16.0",
+					"release": "2026-01-16",
+					"recovery": "onyx_in_global-ota_full-OS3.0.3.0.WOLINXM-user-16.0-1be3706e80.zip",
+					"fastboot": "onyx_in_global_images_OS3.0.3.0.WOLINXM_20251224.0000.00_16.0_in_1afb6c7134.tgz"
+				},
+				"OS2.0.205.0.VOLINXM": {
+					"os": "OS2.0.205.0.VOLINXM",
+					"android": "15.0",
+					"release": "2025-10-27",
+					"recovery": "onyx_in_global-ota_full-OS2.0.205.0.VOLINXM-user-15.0-34e6fb6cbf.zip",
+					"fastboot": "onyx_in_global_images_OS2.0.205.0.VOLINXM_20251016.0000.00_15.0_in_846542421c.tgz"
+				},
+				"OS2.0.201.0.VOLINXM": {
+					"os": "OS2.0.201.0.VOLINXM",
+					"android": "15.0",
+					"release": "2025-09-07",
+					"recovery": "onyx_in_global-ota_full-OS2.0.201.0.VOLINXM-user-15.0-421b71f385.zip",
+					"fastboot": "onyx_in_global_images_OS2.0.201.0.VOLINXM_20250822.0000.00_15.0_in_a20d8ea393.tgz"
+				},
+				"OS2.0.102.0.VOLINXM": {
+					"os": "OS2.0.102.0.VOLINXM",
+					"android": "15.0",
+					"release": "2025-08-03",
+					"recovery": "onyx_in_global-ota_full-OS2.0.102.0.VOLINXM-user-15.0-8effe527c0.zip",
+					"fastboot": "onyx_in_global_images_OS2.0.102.0.VOLINXM_20250718.0000.00_15.0_in_11ccd9f6ae.tgz"
+				},
+				"OS2.0.101.0.VOLINXM": {
+					"os": "OS2.0.101.0.VOLINXM",
+					"android": "15.0",
+					"release": "2025-06-26",
+					"recovery": "onyx_in_global-ota_full-OS2.0.101.0.VOLINXM-user-15.0-98013df2e2.zip",
+					"fastboot": "onyx_in_global_images_OS2.0.101.0.VOLINXM_20250612.0000.00_15.0_in_270f80b620.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "onyx_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F7",
+				"en": "POCO F7"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WOLIDXM": {
+					"os": "OS3.0.4.0.WOLIDXM",
+					"android": "16.0",
+					"release": "2026-04-24",
+					"recovery": "onyx_id_global-ota_full-OS3.0.4.0.WOLIDXM-user-16.0-b33b5c2794.zip",
+					"fastboot": ""
+				},
+				"OS3.0.3.0.WOLIDXM": {
+					"os": "OS3.0.3.0.WOLIDXM",
+					"android": "16.0",
+					"release": "2026-02-12",
+					"recovery": "onyx_id_global-ota_full-OS3.0.3.0.WOLIDXM-user-16.0-8d512bc869.zip",
+					"fastboot": "onyx_id_global_images_OS3.0.3.0.WOLIDXM_20260203.0000.00_16.0_id_b54359f7ee.tgz"
+				},
+				"OS3.0.2.0.WOLIDXM": {
+					"os": "OS3.0.2.0.WOLIDXM",
+					"android": "16.0",
+					"release": "2025-12-26",
+					"recovery": "onyx_id_global-ota_full-OS3.0.2.0.WOLIDXM-user-16.0-bc9231181b.zip",
+					"fastboot": "onyx_id_global_images_OS3.0.2.0.WOLIDXM_20251215.0000.00_16.0_id_8f6b99e715.tgz"
+				},
+				"OS2.0.204.0.VOLIDXM": {
+					"os": "OS2.0.204.0.VOLIDXM",
+					"android": "15.0",
+					"release": "2025-11-24",
+					"recovery": "onyx_id_global-ota_full-OS2.0.204.0.VOLIDXM-user-15.0-3165025669.zip",
+					"fastboot": "onyx_id_global_images_OS2.0.204.0.VOLIDXM_20251111.0000.00_15.0_id_0e6e91eb62.tgz"
+				},
+				"OS2.0.203.0.VOLIDXM": {
+					"os": "OS2.0.203.0.VOLIDXM",
+					"android": "15.0",
+					"release": "2025-10-27",
+					"recovery": "onyx_id_global-ota_full-OS2.0.203.0.VOLIDXM-user-15.0-9aa8f911bb.zip",
+					"fastboot": "onyx_id_global_images_OS2.0.203.0.VOLIDXM_20251015.0000.00_15.0_id_0c5c580e8f.tgz"
+				},
+				"OS2.0.202.0.VOLIDXM": {
+					"os": "OS2.0.202.0.VOLIDXM",
+					"android": "15.0",
+					"release": "2025-09-22",
+					"recovery": "onyx_id_global-ota_full-OS2.0.202.0.VOLIDXM-user-15.0-1b93721f48.zip",
+					"fastboot": "onyx_id_global_images_OS2.0.202.0.VOLIDXM_20250909.0000.00_15.0_id_0ebed04a32.tgz"
+				},
+				"OS2.0.201.0.VOLIDXM": {
+					"os": "OS2.0.201.0.VOLIDXM",
+					"android": "15.0",
+					"release": "2025-08-24",
+					"recovery": "onyx_id_global-ota_full-OS2.0.201.0.VOLIDXM-user-15.0-3ec7895a12.zip",
+					"fastboot": "onyx_id_global_images_OS2.0.201.0.VOLIDXM_20250813.0000.00_15.0_id_dcd66e9f2b.tgz"
+				},
+				"OS2.0.102.0.VOLIDXM": {
+					"os": "OS2.0.102.0.VOLIDXM",
+					"android": "15.0",
+					"release": "2025-07-22",
+					"recovery": "onyx_id_global-ota_full-OS2.0.102.0.VOLIDXM-user-15.0-09651f70c2.zip",
+					"fastboot": "onyx_id_global_images_OS2.0.102.0.VOLIDXM_20250710.0000.00_15.0_id_281b3b92ab.tgz"
+				},
+				"OS2.0.101.0.VOLIDXM": {
+					"os": "OS2.0.101.0.VOLIDXM",
+					"android": "15.0",
+					"release": "2025-06-25",
+					"recovery": "onyx_id_global-ota_full-OS2.0.101.0.VOLIDXM-user-15.0-df0aff8cb9.zip",
+					"fastboot": "onyx_id_global_images_OS2.0.101.0.VOLIDXM_20250612.0000.00_15.0_id_ec22bba907.tgz"
+				}
+			}
+		}
+	]
 }

@@ -1,379 +1,386 @@
 {
-  "device": "dijun",
-  "name": {
-    "zh": "小米 15S Pro",
-    "en": "Xiaomi 15S Pro"
-  },
-  "code": "OD",
-  "suppports": [
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "15.0",
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS Beta",
-        "en": "Xiaomi HyperOS Beta"
-      },
-      "branchCode": "dijun",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15S Pro",
-        "en": "Xiaomi 15S Pro"
-      },
-      "idtag": "CnOB",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.300.8.WODCNXM": {
-          "os": "OS3.0.300.8.WODCNXM",
-          "android": "16.0",
-          "release": "2026-03-06",
-          "recovery": "dijun-ota_full-OS3.0.300.8.WODCNXM-user-16.0-97066d10aa.zip",
-          "fastboot": ""
-        },
-        "OS3.0.300.6.WODCNXM": {
-          "os": "OS3.0.300.6.WODCNXM",
-          "android": "16.0",
-          "release": "2026-02-06",
-          "recovery": "dijun-ota_full-OS3.0.300.6.WODCNXM-user-16.0-0e9a644a77.zip",
-          "fastboot": ""
-        },
-        "OS3.0.300.5.WODCNXM": {
-          "os": "OS3.0.300.5.WODCNXM",
-          "android": "16.0",
-          "release": "2026-01-30",
-          "recovery": "dijun-ota_full-OS3.0.300.5.WODCNXM-user-16.0-32ddb43982.zip",
-          "fastboot": ""
-        },
-        "OS3.0.3.1.WODCNXM": {
-          "os": "OS3.0.3.1.WODCNXM",
-          "android": "16.0",
-          "release": "2025-10-10",
-          "recovery": "dijun-ota_full-OS3.0.3.1.WODCNXM-user-16.0-b72eb65787.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.20.WODCNXM": {
-          "os": "OS3.0.0.20.WODCNXM",
-          "android": "16.0",
-          "release": "2025-09-25",
-          "recovery": "dijun-ota_full-OS3.0.0.20.WODCNXM-user-16.0-c0f4656ab2.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.18.WODCNXM": {
-          "os": "OS3.0.0.18.WODCNXM",
-          "android": "16.0",
-          "release": "2025-09-10",
-          "recovery": "dijun-ota_full-OS3.0.0.18.WODCNXM-user-16.0-87bd5cb06c.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.14.WODCNXM": {
-          "os": "OS3.0.0.14.WODCNXM",
-          "android": "16.0",
-          "release": "2025-09-04",
-          "recovery": "dijun-ota_full-OS3.0.0.14.WODCNXM-user-16.0-2774b9dcdd.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.9.WODCNXM": {
-          "os": "OS3.0.0.9.WODCNXM",
-          "android": "16.0",
-          "release": "2025-08-29",
-          "recovery": "dijun-ota_full-OS3.0.0.9.WODCNXM-user-16.0-29e326a282.zip",
-          "fastboot": ""
-        },
-        "OS2.0.207.4.VODCNXM": {
-          "os": "OS2.0.207.4.VODCNXM",
-          "android": "15.0",
-          "release": "2025-07-30",
-          "recovery": "dijun-ota_full-OS2.0.207.4.VODCNXM-user-15.0-ffa484912d.zip",
-          "fastboot": ""
-        },
-        "OS2.0.207.3.VODCNXM": {
-          "os": "OS2.0.207.3.VODCNXM",
-          "android": "15.0",
-          "release": "2025-07-23",
-          "recovery": "dijun-ota_full-OS2.0.207.3.VODCNXM-user-15.0-0f6b4bf00e.zip",
-          "fastboot": ""
-        },
-        "OS2.0.207.2.VODCNXM": {
-          "os": "OS2.0.207.2.VODCNXM",
-          "android": "15.0",
-          "release": "2025-07-18",
-          "recovery": "dijun-ota_full-OS2.0.207.2.VODCNXM-user-15.0-901b1ba09f.zip",
-          "fastboot": ""
-        },
-        "OS2.0.201.5.VODCNXM": {
-          "os": "OS2.0.201.5.VODCNXM",
-          "android": "15.0",
-          "release": "2025-06-06",
-          "recovery": "dijun-ota_full-OS2.0.201.5.VODCNXM-user-15.0-6c5d1a3e0b.zip",
-          "fastboot": ""
-        },
-        "OS2.0.201.4.VODCNXM": {
-          "os": "OS2.0.201.4.VODCNXM",
-          "android": "15.0",
-          "release": "2025-06-05",
-          "recovery": "dijun-ota_full-OS2.0.201.4.VODCNXM-user-15.0-967c56d6aa.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "dijun",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15S Pro",
-        "en": "Xiaomi 15S Pro"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "others": [
-        "dijun-images-OS2.0.121.0.VODCNXM-userroot-20250516.0000.00-15.0-cn_chinatelecom-d345fca988.tgz"
-      ],
-      "roms": {
-        "OS3.0.301.0.WODCNXM": {
-          "os": "OS3.0.301.0.WODCNXM",
-          "android": "16.0",
-          "release": "2026-03-18",
-          "recovery": "dijun-ota_full-OS3.0.301.0.WODCNXM-user-16.0-a98dd5fd0d.zip",
-          "fastboot": "dijun-images-OS3.0.301.0.WODCNXM-user-20260311.0000.00-16.0-cn-a1e5ae221e.tgz",
-          "ctelecom": "dijun-images-OS3.0.301.0.WODCNXM-user-20260311.0000.00-16.0-cn_chinatelecom-747101cd06.tgz"
-        },
-        "OS3.0.11.0.WODCNXM": {
-          "os": "OS3.0.11.0.WODCNXM",
-          "android": "16.0",
-          "release": "2026-02-11",
-          "recovery": "dijun-ota_full-OS3.0.11.0.WODCNXM-user-16.0-95138b7852.zip",
-          "fastboot": "dijun-images-OS3.0.11.0.WODCNXM-user-20260206.0000.00-16.0-cn-6d5ee38133.tgz",
-          "ctelecom": "dijun-images-OS3.0.11.0.WODCNXM-user-20260206.0000.00-16.0-cn_chinatelecom-4410c9f18e.tgz"
-        },
-        "OS3.0.10.0.WODCNXM": {
-          "os": "OS3.0.10.0.WODCNXM",
-          "android": "16.0",
-          "release": "2026-01-20",
-          "recovery": "dijun-ota_full-OS3.0.10.0.WODCNXM-user-16.0-dbc2ec80e0.zip",
-          "fastboot": "dijun-images-OS3.0.10.0.WODCNXM-user-20260113.0000.00-16.0-cn-eabb287afd.tgz",
-          "ctelecom": "dijun-images-OS3.0.10.0.WODCNXM-user-20260113.0000.00-16.0-cn_chinatelecom-8be38aeb23.tgz"
-        },
-        "OS3.0.9.0.WODCNXM": {
-          "os": "OS3.0.9.0.WODCNXM",
-          "android": "16.0",
-          "release": "2025-12-30",
-          "recovery": "dijun-ota_full-OS3.0.9.0.WODCNXM-user-16.0-5de5a37e65.zip",
-          "fastboot": "dijun-images-OS3.0.9.0.WODCNXM-user-20251225.0000.00-16.0-cn-e27f941b20.tgz",
-          "ctelecom": "dijun-images-OS3.0.9.0.WODCNXM-user-20251225.0000.00-16.0-cn_chinatelecom-012f77b559.tgz"
-        },
-        "OS3.0.8.0.WODCNXM": {
-          "os": "OS3.0.8.0.WODCNXM",
-          "android": "16.0",
-          "release": "2025-12-17",
-          "recovery": "dijun-ota_full-OS3.0.8.0.WODCNXM-user-16.0-100e781525.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS3.0.7.0.WODCNXM": {
-          "os": "OS3.0.7.0.WODCNXM",
-          "android": "16.0",
-          "release": "2025-11-21",
-          "recovery": "dijun-ota_full-OS3.0.7.0.WODCNXM-user-16.0-7fd6379fb0.zip",
-          "fastboot": "dijun-images-OS3.0.7.0.WODCNXM-user-20251117.0000.00-16.0-cn-7ef0e6a1ee.tgz",
-          "ctelecom": "dijun-images-OS3.0.7.0.WODCNXM-user-20251117.0000.00-16.0-cn_chinatelecom-76fb5e0bfd.tgz"
-        },
-        "OS3.0.4.0.WODCNXM": {
-          "os": "OS3.0.4.0.WODCNXM",
-          "android": "16.0",
-          "release": "2025-10-14",
-          "recovery": "dijun-ota_full-OS3.0.4.0.WODCNXM-user-16.0-1398c39929.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS2.0.209.0.VODCNXM": {
-          "os": "OS2.0.209.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-09-11",
-          "recovery": "dijun-ota_full-OS2.0.209.0.VODCNXM-user-15.0-b8b8e6c29b.zip",
-          "fastboot": "",
-          "ctelecom": "dijun-images-OS2.0.209.0.VODCNXM-user-20250901.0000.00-15.0-cn_chinatelecom-54a0319d29.tgz"
-        },
-        "OS2.0.208.0.VODCNXM": {
-          "os": "OS2.0.208.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-08-08",
-          "recovery": "dijun-ota_full-OS2.0.208.0.VODCNXM-user-15.0-e97f006f08.zip",
-          "fastboot": "dijun-images-OS2.0.208.0.VODCNXM-user-20250731.0000.00-15.0-cn-1680209434.tgz",
-          "ctelecom": "dijun-images-OS2.0.208.0.VODCNXM-user-20250731.0000.00-15.0-cn_chinatelecom-cb8286d679.tgz"
-        },
-        "OS2.0.207.0.VODCNXM": {
-          "os": "OS2.0.207.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-07-18",
-          "recovery": "dijun-ota_full-OS2.0.207.0.VODCNXM-user-15.0-5a044d2e85.zip",
-          "fastboot": "dijun-images-OS2.0.207.0.VODCNXM-user-20250711.0000.00-15.0-cn-d6534c583b.tgz",
-          "ctelecom": "dijun-images-OS2.0.207.0.VODCNXM-user-20250711.0000.00-15.0-cn_chinatelecom-cb111a9701.tgz"
-        },
-        "OS2.0.205.0.VODCNXM": {
-          "os": "OS2.0.205.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-07-08",
-          "recovery": "dijun-ota_full-OS2.0.205.0.VODCNXM-user-15.0-60d544e8e0.zip",
-          "fastboot": "dijun-images-OS2.0.205.0.VODCNXM-user-20250703.0000.00-15.0-cn-f93d3b988f.tgz",
-          "ctelecom": "dijun-images-OS2.0.205.0.VODCNXM-user-20250703.0000.00-15.0-cn_chinatelecom-2abb523329.tgz"
-        },
-        "OS2.0.204.0.VODCNXM": {
-          "os": "OS2.0.204.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-06-27",
-          "recovery": "dijun-ota_full-OS2.0.204.0.VODCNXM-user-15.0-b85045c803.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS2.0.132.0.VODCNXM": {
-          "os": "OS2.0.132.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-06-14",
-          "recovery": "dijun-ota_full-OS2.0.132.0.VODCNXM-user-15.0-11be016805.zip",
-          "fastboot": "dijun-images-OS2.0.132.0.VODCNXM-user-20250610.0000.00-15.0-cn-a98240ebcf.tgz",
-          "ctelecom": "dijun-images-OS2.0.132.0.VODCNXM-user-20250610.0000.00-15.0-cn_chinatelecom-db1ad7bd90.tgz"
-        },
-        "OS2.0.128.0.VODCNXM": {
-          "os": "OS2.0.128.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-06-04",
-          "recovery": "dijun-ota_full-OS2.0.128.0.VODCNXM-user-15.0-f3d2fad6af.zip",
-          "fastboot": "dijun-images-OS2.0.128.0.VODCNXM-user-20250528.0000.00-15.0-cn-e59b2c6c06.tgz",
-          "ctelecom": "dijun-images-OS2.0.128.0.VODCNXM-user-20250528.0000.00-15.0-cn_chinatelecom-89e3bb0c7c.tgz"
-        },
-        "OS2.0.126.0.VODCNXM": {
-          "os": "OS2.0.126.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-05-27",
-          "recovery": "dijun-ota_full-OS2.0.126.0.VODCNXM-user-15.0-d906bf0baf.zip",
-          "fastboot": "dijun-images-OS2.0.126.0.VODCNXM-user-20250524.0000.00-15.0-cn-7ef8109934.tgz",
-          "ctelecom": "dijun-images-OS2.0.126.0.VODCNXM-user-20250524.0000.00-15.0-cn_chinatelecom-187ac4b890.tgz"
-        },
-        "OS2.0.121.0.VODCNXM": {
-          "os": "OS2.0.121.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "dijun-ota_full-OS2.0.121.0.VODCNXM-user-15.0-06c0ede3f3.zip",
-          "fastboot": "dijun-images-OS2.0.121.0.VODCNXM-userroot-20250516.0000.00-15.0-cn-79d97684f3.tgz",
-          "ctelecom": "dijun-images-OS2.0.121.0.VODCNXM-user-20250516.0000.00-15.0-cn_chinatelecom-594edffe83.tgz"
-        },
-        "OS2.0.117.0.VODCNXM": {
-          "os": "OS2.0.117.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "dijun-ota_full-OS2.0.117.0.VODCNXM-user-15.0-e3b6d048ab.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS2.0.109.0.VODCNXM": {
-          "os": "OS2.0.109.0.VODCNXM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "dijun-ota_full-OS2.0.109.0.VODCNXM-user-15.0-18d7a971b9.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "dijun_demo",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米 15S Pro",
-        "en": "Xiaomi 15S Pro"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS2.0.202.0.VODCNDM": {
-          "os": "OS2.0.202.0.VODCNDM",
-          "android": "15.0",
-          "release": "2025-07-22",
-          "recovery": "dijun_demo-ota_full-OS2.0.202.0.VODCNDM-user-15.0-0d99429dac.zip",
-          "fastboot": "dijun_demo-images-OS2.0.202.0.VODCNDM-user-20250716.0000.00-15.0-cn-3259c56d3d.tgz",
-          "ctelecom": "dijun_demo-images-OS2.0.202.0.VODCNDM-user-20250716.0000.00-15.0-cn_chinatelecom-64a29040b2.tgz"
-        },
-        "OS2.0.109.0.VODCNDM": {
-          "os": "OS2.0.109.0.VODCNDM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "dijun_demo-ota_full-OS2.0.109.0.VODCNDM-user-15.0-b0733a662d.zip",
-          "fastboot": "dijun_demo-images-OS2.0.109.0.VODCNDM-userroot-20250516.0000.00-15.0-cn-6e23fe1ba0.tgz",
-          "ctelecom": "dijun_demo-images-OS2.0.109.0.VODCNDM-userroot-20250516.0000.00-15.0-cn_chinatelecom-ea2e1fc18f.tgz"
-        }
-      }
-    }
-  ]
+	"device": "dijun",
+	"name": {
+		"zh": "小米 15S Pro",
+		"en": "Xiaomi 15S Pro"
+	},
+	"code": "OD",
+	"suppports": [
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"15.0",
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "dijun",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15S Pro",
+				"en": "Xiaomi 15S Pro"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.2.WODCNXM": {
+					"os": "OS3.0.302.2.WODCNXM",
+					"android": "16.0",
+					"release": "2026-04-28",
+					"recovery": "dijun-ota_full-OS3.0.302.2.WODCNXM-user-16.0-0a8646541b.zip",
+					"fastboot": ""
+				},
+				"OS3.0.300.8.WODCNXM": {
+					"os": "OS3.0.300.8.WODCNXM",
+					"android": "16.0",
+					"release": "2026-03-06",
+					"recovery": "dijun-ota_full-OS3.0.300.8.WODCNXM-user-16.0-97066d10aa.zip",
+					"fastboot": ""
+				},
+				"OS3.0.300.6.WODCNXM": {
+					"os": "OS3.0.300.6.WODCNXM",
+					"android": "16.0",
+					"release": "2026-02-06",
+					"recovery": "dijun-ota_full-OS3.0.300.6.WODCNXM-user-16.0-0e9a644a77.zip",
+					"fastboot": ""
+				},
+				"OS3.0.300.5.WODCNXM": {
+					"os": "OS3.0.300.5.WODCNXM",
+					"android": "16.0",
+					"release": "2026-01-30",
+					"recovery": "dijun-ota_full-OS3.0.300.5.WODCNXM-user-16.0-32ddb43982.zip",
+					"fastboot": ""
+				},
+				"OS3.0.3.1.WODCNXM": {
+					"os": "OS3.0.3.1.WODCNXM",
+					"android": "16.0",
+					"release": "2025-10-10",
+					"recovery": "dijun-ota_full-OS3.0.3.1.WODCNXM-user-16.0-b72eb65787.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.20.WODCNXM": {
+					"os": "OS3.0.0.20.WODCNXM",
+					"android": "16.0",
+					"release": "2025-09-25",
+					"recovery": "dijun-ota_full-OS3.0.0.20.WODCNXM-user-16.0-c0f4656ab2.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.18.WODCNXM": {
+					"os": "OS3.0.0.18.WODCNXM",
+					"android": "16.0",
+					"release": "2025-09-10",
+					"recovery": "dijun-ota_full-OS3.0.0.18.WODCNXM-user-16.0-87bd5cb06c.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.14.WODCNXM": {
+					"os": "OS3.0.0.14.WODCNXM",
+					"android": "16.0",
+					"release": "2025-09-04",
+					"recovery": "dijun-ota_full-OS3.0.0.14.WODCNXM-user-16.0-2774b9dcdd.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.9.WODCNXM": {
+					"os": "OS3.0.0.9.WODCNXM",
+					"android": "16.0",
+					"release": "2025-08-29",
+					"recovery": "dijun-ota_full-OS3.0.0.9.WODCNXM-user-16.0-29e326a282.zip",
+					"fastboot": ""
+				},
+				"OS2.0.207.4.VODCNXM": {
+					"os": "OS2.0.207.4.VODCNXM",
+					"android": "15.0",
+					"release": "2025-07-30",
+					"recovery": "dijun-ota_full-OS2.0.207.4.VODCNXM-user-15.0-ffa484912d.zip",
+					"fastboot": ""
+				},
+				"OS2.0.207.3.VODCNXM": {
+					"os": "OS2.0.207.3.VODCNXM",
+					"android": "15.0",
+					"release": "2025-07-23",
+					"recovery": "dijun-ota_full-OS2.0.207.3.VODCNXM-user-15.0-0f6b4bf00e.zip",
+					"fastboot": ""
+				},
+				"OS2.0.207.2.VODCNXM": {
+					"os": "OS2.0.207.2.VODCNXM",
+					"android": "15.0",
+					"release": "2025-07-18",
+					"recovery": "dijun-ota_full-OS2.0.207.2.VODCNXM-user-15.0-901b1ba09f.zip",
+					"fastboot": ""
+				},
+				"OS2.0.201.5.VODCNXM": {
+					"os": "OS2.0.201.5.VODCNXM",
+					"android": "15.0",
+					"release": "2025-06-06",
+					"recovery": "dijun-ota_full-OS2.0.201.5.VODCNXM-user-15.0-6c5d1a3e0b.zip",
+					"fastboot": ""
+				},
+				"OS2.0.201.4.VODCNXM": {
+					"os": "OS2.0.201.4.VODCNXM",
+					"android": "15.0",
+					"release": "2025-06-05",
+					"recovery": "dijun-ota_full-OS2.0.201.4.VODCNXM-user-15.0-967c56d6aa.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "dijun",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15S Pro",
+				"en": "Xiaomi 15S Pro"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"others": [
+				"dijun-images-OS2.0.121.0.VODCNXM-userroot-20250516.0000.00-15.0-cn_chinatelecom-d345fca988.tgz"
+			],
+			"roms": {
+				"OS3.0.301.0.WODCNXM": {
+					"os": "OS3.0.301.0.WODCNXM",
+					"android": "16.0",
+					"release": "2026-03-18",
+					"recovery": "dijun-ota_full-OS3.0.301.0.WODCNXM-user-16.0-a98dd5fd0d.zip",
+					"fastboot": "dijun-images-OS3.0.301.0.WODCNXM-user-20260311.0000.00-16.0-cn-a1e5ae221e.tgz",
+					"ctelecom": "dijun-images-OS3.0.301.0.WODCNXM-user-20260311.0000.00-16.0-cn_chinatelecom-747101cd06.tgz"
+				},
+				"OS3.0.11.0.WODCNXM": {
+					"os": "OS3.0.11.0.WODCNXM",
+					"android": "16.0",
+					"release": "2026-02-11",
+					"recovery": "dijun-ota_full-OS3.0.11.0.WODCNXM-user-16.0-95138b7852.zip",
+					"fastboot": "dijun-images-OS3.0.11.0.WODCNXM-user-20260206.0000.00-16.0-cn-6d5ee38133.tgz",
+					"ctelecom": "dijun-images-OS3.0.11.0.WODCNXM-user-20260206.0000.00-16.0-cn_chinatelecom-4410c9f18e.tgz"
+				},
+				"OS3.0.10.0.WODCNXM": {
+					"os": "OS3.0.10.0.WODCNXM",
+					"android": "16.0",
+					"release": "2026-01-20",
+					"recovery": "dijun-ota_full-OS3.0.10.0.WODCNXM-user-16.0-dbc2ec80e0.zip",
+					"fastboot": "dijun-images-OS3.0.10.0.WODCNXM-user-20260113.0000.00-16.0-cn-eabb287afd.tgz",
+					"ctelecom": "dijun-images-OS3.0.10.0.WODCNXM-user-20260113.0000.00-16.0-cn_chinatelecom-8be38aeb23.tgz"
+				},
+				"OS3.0.9.0.WODCNXM": {
+					"os": "OS3.0.9.0.WODCNXM",
+					"android": "16.0",
+					"release": "2025-12-30",
+					"recovery": "dijun-ota_full-OS3.0.9.0.WODCNXM-user-16.0-5de5a37e65.zip",
+					"fastboot": "dijun-images-OS3.0.9.0.WODCNXM-user-20251225.0000.00-16.0-cn-e27f941b20.tgz",
+					"ctelecom": "dijun-images-OS3.0.9.0.WODCNXM-user-20251225.0000.00-16.0-cn_chinatelecom-012f77b559.tgz"
+				},
+				"OS3.0.8.0.WODCNXM": {
+					"os": "OS3.0.8.0.WODCNXM",
+					"android": "16.0",
+					"release": "2025-12-17",
+					"recovery": "dijun-ota_full-OS3.0.8.0.WODCNXM-user-16.0-100e781525.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.7.0.WODCNXM": {
+					"os": "OS3.0.7.0.WODCNXM",
+					"android": "16.0",
+					"release": "2025-11-21",
+					"recovery": "dijun-ota_full-OS3.0.7.0.WODCNXM-user-16.0-7fd6379fb0.zip",
+					"fastboot": "dijun-images-OS3.0.7.0.WODCNXM-user-20251117.0000.00-16.0-cn-7ef0e6a1ee.tgz",
+					"ctelecom": "dijun-images-OS3.0.7.0.WODCNXM-user-20251117.0000.00-16.0-cn_chinatelecom-76fb5e0bfd.tgz"
+				},
+				"OS3.0.4.0.WODCNXM": {
+					"os": "OS3.0.4.0.WODCNXM",
+					"android": "16.0",
+					"release": "2025-10-14",
+					"recovery": "dijun-ota_full-OS3.0.4.0.WODCNXM-user-16.0-1398c39929.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.209.0.VODCNXM": {
+					"os": "OS2.0.209.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-09-11",
+					"recovery": "dijun-ota_full-OS2.0.209.0.VODCNXM-user-15.0-b8b8e6c29b.zip",
+					"fastboot": "",
+					"ctelecom": "dijun-images-OS2.0.209.0.VODCNXM-user-20250901.0000.00-15.0-cn_chinatelecom-54a0319d29.tgz"
+				},
+				"OS2.0.208.0.VODCNXM": {
+					"os": "OS2.0.208.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-08-08",
+					"recovery": "dijun-ota_full-OS2.0.208.0.VODCNXM-user-15.0-e97f006f08.zip",
+					"fastboot": "dijun-images-OS2.0.208.0.VODCNXM-user-20250731.0000.00-15.0-cn-1680209434.tgz",
+					"ctelecom": "dijun-images-OS2.0.208.0.VODCNXM-user-20250731.0000.00-15.0-cn_chinatelecom-cb8286d679.tgz"
+				},
+				"OS2.0.207.0.VODCNXM": {
+					"os": "OS2.0.207.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-07-18",
+					"recovery": "dijun-ota_full-OS2.0.207.0.VODCNXM-user-15.0-5a044d2e85.zip",
+					"fastboot": "dijun-images-OS2.0.207.0.VODCNXM-user-20250711.0000.00-15.0-cn-d6534c583b.tgz",
+					"ctelecom": "dijun-images-OS2.0.207.0.VODCNXM-user-20250711.0000.00-15.0-cn_chinatelecom-cb111a9701.tgz"
+				},
+				"OS2.0.205.0.VODCNXM": {
+					"os": "OS2.0.205.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-07-08",
+					"recovery": "dijun-ota_full-OS2.0.205.0.VODCNXM-user-15.0-60d544e8e0.zip",
+					"fastboot": "dijun-images-OS2.0.205.0.VODCNXM-user-20250703.0000.00-15.0-cn-f93d3b988f.tgz",
+					"ctelecom": "dijun-images-OS2.0.205.0.VODCNXM-user-20250703.0000.00-15.0-cn_chinatelecom-2abb523329.tgz"
+				},
+				"OS2.0.204.0.VODCNXM": {
+					"os": "OS2.0.204.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-06-27",
+					"recovery": "dijun-ota_full-OS2.0.204.0.VODCNXM-user-15.0-b85045c803.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.132.0.VODCNXM": {
+					"os": "OS2.0.132.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-06-14",
+					"recovery": "dijun-ota_full-OS2.0.132.0.VODCNXM-user-15.0-11be016805.zip",
+					"fastboot": "dijun-images-OS2.0.132.0.VODCNXM-user-20250610.0000.00-15.0-cn-a98240ebcf.tgz",
+					"ctelecom": "dijun-images-OS2.0.132.0.VODCNXM-user-20250610.0000.00-15.0-cn_chinatelecom-db1ad7bd90.tgz"
+				},
+				"OS2.0.128.0.VODCNXM": {
+					"os": "OS2.0.128.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-06-04",
+					"recovery": "dijun-ota_full-OS2.0.128.0.VODCNXM-user-15.0-f3d2fad6af.zip",
+					"fastboot": "dijun-images-OS2.0.128.0.VODCNXM-user-20250528.0000.00-15.0-cn-e59b2c6c06.tgz",
+					"ctelecom": "dijun-images-OS2.0.128.0.VODCNXM-user-20250528.0000.00-15.0-cn_chinatelecom-89e3bb0c7c.tgz"
+				},
+				"OS2.0.126.0.VODCNXM": {
+					"os": "OS2.0.126.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-05-27",
+					"recovery": "dijun-ota_full-OS2.0.126.0.VODCNXM-user-15.0-d906bf0baf.zip",
+					"fastboot": "dijun-images-OS2.0.126.0.VODCNXM-user-20250524.0000.00-15.0-cn-7ef8109934.tgz",
+					"ctelecom": "dijun-images-OS2.0.126.0.VODCNXM-user-20250524.0000.00-15.0-cn_chinatelecom-187ac4b890.tgz"
+				},
+				"OS2.0.121.0.VODCNXM": {
+					"os": "OS2.0.121.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "dijun-ota_full-OS2.0.121.0.VODCNXM-user-15.0-06c0ede3f3.zip",
+					"fastboot": "dijun-images-OS2.0.121.0.VODCNXM-userroot-20250516.0000.00-15.0-cn-79d97684f3.tgz",
+					"ctelecom": "dijun-images-OS2.0.121.0.VODCNXM-user-20250516.0000.00-15.0-cn_chinatelecom-594edffe83.tgz"
+				},
+				"OS2.0.117.0.VODCNXM": {
+					"os": "OS2.0.117.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "dijun-ota_full-OS2.0.117.0.VODCNXM-user-15.0-e3b6d048ab.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.109.0.VODCNXM": {
+					"os": "OS2.0.109.0.VODCNXM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "dijun-ota_full-OS2.0.109.0.VODCNXM-user-15.0-18d7a971b9.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "dijun_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15S Pro",
+				"en": "Xiaomi 15S Pro"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS2.0.202.0.VODCNDM": {
+					"os": "OS2.0.202.0.VODCNDM",
+					"android": "15.0",
+					"release": "2025-07-22",
+					"recovery": "dijun_demo-ota_full-OS2.0.202.0.VODCNDM-user-15.0-0d99429dac.zip",
+					"fastboot": "dijun_demo-images-OS2.0.202.0.VODCNDM-user-20250716.0000.00-15.0-cn-3259c56d3d.tgz",
+					"ctelecom": "dijun_demo-images-OS2.0.202.0.VODCNDM-user-20250716.0000.00-15.0-cn_chinatelecom-64a29040b2.tgz"
+				},
+				"OS2.0.109.0.VODCNDM": {
+					"os": "OS2.0.109.0.VODCNDM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "dijun_demo-ota_full-OS2.0.109.0.VODCNDM-user-15.0-b0733a662d.zip",
+					"fastboot": "dijun_demo-images-OS2.0.109.0.VODCNDM-userroot-20250516.0000.00-15.0-cn-6e23fe1ba0.tgz",
+					"ctelecom": "dijun_demo-images-OS2.0.109.0.VODCNDM-userroot-20250516.0000.00-15.0-cn_chinatelecom-ea2e1fc18f.tgz"
+				}
+			}
+		}
+	]
 }
