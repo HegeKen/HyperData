@@ -1,614 +1,621 @@
 {
-  "device": "yupei",
-  "name": {
-    "zh": "小米平板 8",
-    "en": "Xiaomi Pad 8"
-  },
-  "code": "",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "tablet",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS Beta",
-        "en": "Xiaomi HyperOS Beta"
-      },
-      "branchCode": "yupei",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "CnOB",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.300.5.WPZCNXM": {
-          "os": "OS3.0.300.5.WPZCNXM",
-          "android": "16.0",
-          "release": "2026-02-02",
-          "recovery": "yupei-ota_full-OS3.0.300.5.WPZCNXM-user-16.0-a7225f267f.zip",
-          "fastboot": ""
-        },
-        "OS3.0.300.2.WPZCNXM": {
-          "os": "OS3.0.300.2.WPZCNXM",
-          "android": "16.0",
-          "release": "2026-01-22",
-          "recovery": "yupei-ota_full-OS3.0.300.2.WPZCNXM-user-16.0-c2a5d4e0a1.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "yupei",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.303.0.WPZCNXM": {
-          "os": "OS3.0.303.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2026-03-11",
-          "recovery": "yupei-ota_full-OS3.0.303.0.WPZCNXM-user-16.0-a024ba01e1.zip",
-          "fastboot": "yupei_images_OS3.0.303.0.WPZCNXM_20260307.0000.00_16.0_cn_8bf3acad33.tgz"
-        },
-        "OS3.0.12.0.WPZCNXM": {
-          "os": "OS3.0.12.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2026-02-04",
-          "recovery": "yupei-ota_full-OS3.0.12.0.WPZCNXM-user-16.0-a2eb78c92f.zip",
-          "fastboot": "yupei_images_OS3.0.12.0.WPZCNXM_20260123.0000.00_16.0_cn_f55ee187a1.tgz"
-        },
-        "OS3.0.11.0.WPZCNXM": {
-          "os": "OS3.0.11.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2026-01-12",
-          "recovery": "yupei-ota_full-OS3.0.11.0.WPZCNXM-user-16.0-16dd3ba10e.zip",
-          "fastboot": "yupei_images_OS3.0.11.0.WPZCNXM_20251224.0000.00_16.0_cn_b5083c69b6.tgz"
-        },
-        "OS3.0.10.0.WPZCNXM": {
-          "os": "OS3.0.10.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2025-12-18",
-          "recovery": "yupei-ota_full-OS3.0.10.0.WPZCNXM-user-16.0-b5858ff2bd.zip",
-          "fastboot": "yupei_images_OS3.0.10.0.WPZCNXM_20251203.0000.00_16.0_cn_4b8fe51a52.tgz"
-        },
-        "OS3.0.9.0.WPZCNXM": {
-          "os": "OS3.0.9.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2025-11-20",
-          "recovery": "yupei-ota_full-OS3.0.9.0.WPZCNXM-user-16.0-780378d178.zip",
-          "fastboot": "yupei_images_OS3.0.9.0.WPZCNXM_20251115.0000.00_16.0_cn_bf6b31cb5f.tgz"
-        },
-        "OS3.0.7.0.WPZCNXM": {
-          "os": "OS3.0.7.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2025-10-15",
-          "recovery": "yupei-ota_full-OS3.0.7.0.WPZCNXM-user-16.0-1317db49b9.zip",
-          "fastboot": "yupei_images_OS3.0.7.0.WPZCNXM_20251010.0000.00_16.0_cn_1277bc6c85.tgz"
-        },
-        "OS3.0.6.0.WPZCNXM": {
-          "os": "OS3.0.6.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2025-10-09",
-          "recovery": "yupei-ota_full-OS3.0.6.0.WPZCNXM-user-16.0-7e9c97fdb5.zip",
-          "fastboot": "yupei_images_OS3.0.6.0.WPZCNXM_20251002.0000.00_16.0_cn_6a2c823b71.tgz"
-        },
-        "OS3.0.5.0.WPZCNXM": {
-          "os": "OS3.0.5.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2025-09-29",
-          "recovery": "yupei-ota_full-OS3.0.5.0.WPZCNXM-user-16.0-a0022f84a2.zip",
-          "fastboot": "yupei_images_OS3.0.5.0.WPZCNXM_20250927.0000.00_16.0_cn_60e1e305db.tgz"
-        },
-        "OS3.0.4.0.WPZCNXM": {
-          "os": "OS3.0.4.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2025-09-25",
-          "recovery": "yupei-ota_full-OS3.0.4.0.WPZCNXM-user-16.0-ba291405fa.zip",
-          "fastboot": "yupei_images_OS3.0.4.0.WPZCNXM_20250918.0000.00_16.0_cn_eca582feb0.tgz"
-        },
-        "OS3.0.3.0.WPZCNXM": {
-          "os": "OS3.0.3.0.WPZCNXM",
-          "android": "16.0",
-          "release": "2025-09-25",
-          "recovery": "yupei-ota_full-OS3.0.3.0.WPZCNXM-user-16.0-315b1dc822.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "yupei_demo",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.7.0.WPZCNDM": {
-          "os": "OS3.0.7.0.WPZCNDM",
-          "android": "16.0",
-          "release": "2025-10-15",
-          "recovery": "yupei_demo-ota_full-OS3.0.7.0.WPZCNDM-user-16.0-6257806359.zip",
-          "fastboot": "yupei_demo_images_OS3.0.7.0.WPZCNDM_20251010.0000.00_16.0_cn_08ddd843bb.tgz"
-        },
-        "OS3.0.6.0.WPZCNDM": {
-          "os": "OS3.0.6.0.WPZCNDM",
-          "android": "16.0",
-          "release": "2025-09-30",
-          "recovery": "yupei_demo-ota_full-OS3.0.6.0.WPZCNDM-user-16.0-e94981ee7b.zip",
-          "fastboot": "yupei_demo_images_OS3.0.6.0.WPZCNDM_20250927.0000.00_16.0_cn_d8d0311d63.tgz"
-        },
-        "OS3.0.5.0.WPZCNDM": {
-          "os": "OS3.0.5.0.WPZCNDM",
-          "android": "16.0",
-          "release": "2025-09-28",
-          "recovery": "yupei_demo-ota_full-OS3.0.5.0.WPZCNDM-user-16.0-9237c291d7.zip",
-          "fastboot": "yupei_demo_images_OS3.0.5.0.WPZCNDM_20250924.0000.00_16.0_cn_f7766309aa.tgz"
-        },
-        "OS3.0.4.0.WPZCNDM": {
-          "os": "OS3.0.4.0.WPZCNDM",
-          "android": "16.0",
-          "release": "2025-09-23",
-          "recovery": "yupei_demo-ota_full-OS3.0.4.0.WPZCNDM-user-16.0-8babf9176c.zip",
-          "fastboot": "yupei_demo_images_OS3.0.4.0.WPZCNDM_20250918.0000.00_16.0_cn_cac815d4f1.tgz"
-        },
-        "OS3.0.2.0.WPZCNDM": {
-          "os": "OS3.0.2.0.WPZCNDM",
-          "android": "16.0",
-          "release": "2025-09-19",
-          "recovery": "",
-          "fastboot": "yupei_demo_images_OS3.0.2.0.WPZCNDM_20250831.0000.00_16.0_cn_b374cfde6f.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾省正式版",
-        "en": "Xiaomi HyperOS China Taiwan Province Stable"
-      },
-      "branchCode": "yupei_tw_global",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "CNTP",
-      "tag": "TWXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WPZTWXM": {
-          "os": "OS3.0.301.0.WPZTWXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "yupei_tw_global-ota_full-OS3.0.301.0.WPZTWXM-user-16.0-ecce5b152e.zip",
-          "fastboot": "yupei_tw_global_images_OS3.0.301.0.WPZTWXM_20260320.0000.00_16.0_tw_9ea49eca47.tgz"
-        },
-        "OS3.0.1.0.WPZTWXM": {
-          "os": "OS3.0.1.0.WPZTWXM",
-          "android": "16.0",
-          "release": "2026-03-09",
-          "recovery": "yupei_tw_global-ota_full-OS3.0.1.0.WPZTWXM-user-16.0-4bc6a843f7.zip",
-          "fastboot": "yupei_tw_global_images_OS3.0.1.0.WPZTWXM_20251102.0000.00_16.0_tw_a484d00b19.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "yupei_global",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WPZMIXM": {
-          "os": "OS3.0.302.0.WPZMIXM",
-          "android": "16.0",
-          "release": "2026-04-16",
-          "recovery": "yupei_global-ota_full-OS3.0.302.0.WPZMIXM-user-16.0-731bf6984c.zip",
-          "fastboot": "yupei_global_images_OS3.0.302.0.WPZMIXM_20260407.0000.00_16.0_global_00ecb4c7de.tgz"
-        },
-        "OS3.0.301.0.WPZMIXM": {
-          "os": "OS3.0.301.0.WPZMIXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "yupei_global-ota_full-OS3.0.301.0.WPZMIXM-user-16.0-5f81eb1905.zip",
-          "fastboot": "yupei_global_images_OS3.0.301.0.WPZMIXM_20260320.0000.00_16.0_global_3293553652.tgz"
-        },
-        "OS3.0.1.0.WPZMIXM": {
-          "os": "OS3.0.1.0.WPZMIXM",
-          "android": "16.0",
-          "release": "2026-03-09",
-          "recovery": "yupei_global-ota_full-OS3.0.1.0.WPZMIXM-user-16.0-9f08fd129a.zip",
-          "fastboot": "yupei_global_images_OS3.0.1.0.WPZMIXM_20251024.0000.00_16.0_global_6e803c95ff.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "yupei_eea_global",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.303.0.WPZEUXM": {
-          "os": "OS3.0.303.0.WPZEUXM",
-          "android": "16.0",
-          "release": "2026-04-16",
-          "recovery": "yupei_eea_global-ota_full-OS3.0.303.0.WPZEUXM-user-16.0-5f79d3323a.zip",
-          "fastboot": "yupei_eea_global_images_OS3.0.303.0.WPZEUXM_20260407.0000.00_16.0_eea_cde066df15.tgz"
-        },
-        "OS3.0.301.0.WPZEUXM": {
-          "os": "OS3.0.301.0.WPZEUXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "yupei_eea_global-ota_full-OS3.0.301.0.WPZEUXM-user-16.0-d5ad4cf640.zip",
-          "fastboot": "yupei_eea_global_images_OS3.0.301.0.WPZEUXM_20260320.0000.00_16.0_eea_b50ce0834a.tgz"
-        },
-        "OS3.0.4.0.WPZEUXM": {
-          "os": "OS3.0.4.0.WPZEUXM",
-          "android": "16.0",
-          "release": "2026-03-09",
-          "recovery": "yupei_eea_global-ota_full-OS3.0.4.0.WPZEUXM-user-16.0-4d051eff94.zip",
-          "fastboot": "yupei_eea_global_images_OS3.0.4.0.WPZEUXM_20251024.0000.00_16.0_eea_e4aeb317ac.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "yupei_ru_global",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "RUSO",
-      "tag": "RUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WPZRUXM": {
-          "os": "OS3.0.302.0.WPZRUXM",
-          "android": "16.0",
-          "release": "2026-04-03",
-          "recovery": "yupei_ru_global-ota_full-OS3.0.302.0.WPZRUXM-user-16.0-6f3998f565.zip",
-          "fastboot": "yupei_ru_global_images_OS3.0.302.0.WPZRUXM_20260328.0000.00_16.0_ru_1cad0334c0.tgz"
-        },
-        "OS3.0.301.0.WPZRUXM": {
-          "os": "OS3.0.301.0.WPZRUXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "yupei_ru_global-ota_full-OS3.0.301.0.WPZRUXM-user-16.0-32d4054bc2.zip",
-          "fastboot": "yupei_ru_global_images_OS3.0.301.0.WPZRUXM_20260320.0000.00_16.0_ru_14a705c4ef.tgz"
-        },
-        "OS3.0.1.0.WPZRUXM": {
-          "os": "OS3.0.1.0.WPZRUXM",
-          "android": "16.0",
-          "release": "2026-03-09",
-          "recovery": "yupei_ru_global-ota_full-OS3.0.1.0.WPZRUXM-user-16.0-47e15c7491.zip",
-          "fastboot": "yupei_ru_global_images_OS3.0.1.0.WPZRUXM_20251024.0000.00_16.0_ru_ff42e401e1.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度正式版",
-        "en": "Xiaomi HyperOS India Stable"
-      },
-      "branchCode": "yupei_in_global",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "INSO",
-      "tag": "INXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "in",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WPZINXM": {
-          "os": "OS3.0.301.0.WPZINXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "yupei_in_global-ota_full-OS3.0.301.0.WPZINXM-user-16.0-331831e27f.zip",
-          "fastboot": "yupei_in_global_images_OS3.0.301.0.WPZINXM_20260320.0000.00_16.0_in_556fcfb08f.tgz"
-        },
-        "OS3.0.2.0.WPZINXM": {
-          "os": "OS3.0.2.0.WPZINXM",
-          "android": "16.0",
-          "release": "2026-03-09",
-          "recovery": "yupei_in_global-ota_full-OS3.0.2.0.WPZINXM-user-16.0-7d5a6992aa.zip",
-          "fastboot": "yupei_in_global_images_OS3.0.2.0.WPZINXM_20251103.0000.00_16.0_in_4d998f9224.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度尼西亚正式版",
-        "en": "Xiaomi HyperOS Indonesia Stable"
-      },
-      "branchCode": "yupei_id_global",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "IDSO",
-      "tag": "IDXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "id",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WPZIDXM": {
-          "os": "OS3.0.301.0.WPZIDXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "yupei_id_global-ota_full-OS3.0.301.0.WPZIDXM-user-16.0-02b54f2557.zip",
-          "fastboot": "yupei_id_global_images_OS3.0.301.0.WPZIDXM_20260320.0000.00_16.0_id_5db5aec771.tgz"
-        },
-        "OS3.0.1.0.WPZIDXM": {
-          "os": "OS3.0.1.0.WPZIDXM",
-          "android": "16.0",
-          "release": "2026-03-09",
-          "recovery": "yupei_id_global-ota_full-OS3.0.1.0.WPZIDXM-user-16.0-131c0d4d1f.zip",
-          "fastboot": "yupei_id_global_images_OS3.0.1.0.WPZIDXM_20251024.0000.00_16.0_id_3356564183.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度尼西亚 Demo",
-        "en": "Xiaomi HyperOS Indonesia MiStore Demo"
-      },
-      "branchCode": "yupei_id_global",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "IDDM",
-      "tag": "IDDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "carrier": [
-        ""
-      ],
-      "region": "id",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WPZIDDM": {
-          "os": "OS3.0.302.0.WPZIDDM",
-          "android": "16.0",
-          "release": "2026-04-10",
-          "recovery": "yupei_id_global-ota_full-OS3.0.302.0.WPZIDDM-user-16.0-8f1bfebb0f.zip",
-          "fastboot": "yupei_id_global_images_OS3.0.302.0.WPZIDDM_20260401.0000.00_16.0_id_21113635b1.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 土耳其正式版",
-        "en": "Xiaomi HyperOS Turkey Stable"
-      },
-      "branchCode": "yupei_tr_global",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 8",
-        "en": "Xiaomi Pad 8"
-      },
-      "idtag": "TRSO",
-      "tag": "TRXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tr",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WPZTRXM": {
-          "os": "OS3.0.301.0.WPZTRXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "yupei_tr_global-ota_full-OS3.0.301.0.WPZTRXM-user-16.0-e87427ef74.zip",
-          "fastboot": "yupei_tr_global_images_OS3.0.301.0.WPZTRXM_20260320.0000.00_16.0_tr_3076ffca7d.tgz"
-        },
-        "OS3.0.1.0.WPZTRXM": {
-          "os": "OS3.0.1.0.WPZTRXM",
-          "android": "16.0",
-          "release": "2026-03-09",
-          "recovery": "yupei_tr_global-ota_full-OS3.0.1.0.WPZTRXM-user-16.0-55e403d26e.zip",
-          "fastboot": "yupei_tr_global_images_OS3.0.1.0.WPZTRXM_20251031.0000.00_16.0_tr_970a1f1f3a.tgz"
-        }
-      }
-    }
-  ]
+	"device": "yupei",
+	"name": {
+		"zh": "小米平板 8",
+		"en": "Xiaomi Pad 8"
+	},
+	"code": "",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "tablet",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "yupei",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.300.5.WPZCNXM": {
+					"os": "OS3.0.300.5.WPZCNXM",
+					"android": "16.0",
+					"release": "2026-02-02",
+					"recovery": "yupei-ota_full-OS3.0.300.5.WPZCNXM-user-16.0-a7225f267f.zip",
+					"fastboot": ""
+				},
+				"OS3.0.300.2.WPZCNXM": {
+					"os": "OS3.0.300.2.WPZCNXM",
+					"android": "16.0",
+					"release": "2026-01-22",
+					"recovery": "yupei-ota_full-OS3.0.300.2.WPZCNXM-user-16.0-c2a5d4e0a1.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "yupei",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WPZCNXM": {
+					"os": "OS3.0.305.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2026-04-29",
+					"recovery": "yupei-ota_full-OS3.0.305.0.WPZCNXM-user-16.0-ab6c830ff4.zip",
+					"fastboot": ""
+				},
+				"OS3.0.303.0.WPZCNXM": {
+					"os": "OS3.0.303.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2026-03-11",
+					"recovery": "yupei-ota_full-OS3.0.303.0.WPZCNXM-user-16.0-a024ba01e1.zip",
+					"fastboot": "yupei_images_OS3.0.303.0.WPZCNXM_20260307.0000.00_16.0_cn_8bf3acad33.tgz"
+				},
+				"OS3.0.12.0.WPZCNXM": {
+					"os": "OS3.0.12.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2026-02-04",
+					"recovery": "yupei-ota_full-OS3.0.12.0.WPZCNXM-user-16.0-a2eb78c92f.zip",
+					"fastboot": "yupei_images_OS3.0.12.0.WPZCNXM_20260123.0000.00_16.0_cn_f55ee187a1.tgz"
+				},
+				"OS3.0.11.0.WPZCNXM": {
+					"os": "OS3.0.11.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2026-01-12",
+					"recovery": "yupei-ota_full-OS3.0.11.0.WPZCNXM-user-16.0-16dd3ba10e.zip",
+					"fastboot": "yupei_images_OS3.0.11.0.WPZCNXM_20251224.0000.00_16.0_cn_b5083c69b6.tgz"
+				},
+				"OS3.0.10.0.WPZCNXM": {
+					"os": "OS3.0.10.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2025-12-18",
+					"recovery": "yupei-ota_full-OS3.0.10.0.WPZCNXM-user-16.0-b5858ff2bd.zip",
+					"fastboot": "yupei_images_OS3.0.10.0.WPZCNXM_20251203.0000.00_16.0_cn_4b8fe51a52.tgz"
+				},
+				"OS3.0.9.0.WPZCNXM": {
+					"os": "OS3.0.9.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2025-11-20",
+					"recovery": "yupei-ota_full-OS3.0.9.0.WPZCNXM-user-16.0-780378d178.zip",
+					"fastboot": "yupei_images_OS3.0.9.0.WPZCNXM_20251115.0000.00_16.0_cn_bf6b31cb5f.tgz"
+				},
+				"OS3.0.7.0.WPZCNXM": {
+					"os": "OS3.0.7.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2025-10-15",
+					"recovery": "yupei-ota_full-OS3.0.7.0.WPZCNXM-user-16.0-1317db49b9.zip",
+					"fastboot": "yupei_images_OS3.0.7.0.WPZCNXM_20251010.0000.00_16.0_cn_1277bc6c85.tgz"
+				},
+				"OS3.0.6.0.WPZCNXM": {
+					"os": "OS3.0.6.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2025-10-09",
+					"recovery": "yupei-ota_full-OS3.0.6.0.WPZCNXM-user-16.0-7e9c97fdb5.zip",
+					"fastboot": "yupei_images_OS3.0.6.0.WPZCNXM_20251002.0000.00_16.0_cn_6a2c823b71.tgz"
+				},
+				"OS3.0.5.0.WPZCNXM": {
+					"os": "OS3.0.5.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2025-09-29",
+					"recovery": "yupei-ota_full-OS3.0.5.0.WPZCNXM-user-16.0-a0022f84a2.zip",
+					"fastboot": "yupei_images_OS3.0.5.0.WPZCNXM_20250927.0000.00_16.0_cn_60e1e305db.tgz"
+				},
+				"OS3.0.4.0.WPZCNXM": {
+					"os": "OS3.0.4.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2025-09-25",
+					"recovery": "yupei-ota_full-OS3.0.4.0.WPZCNXM-user-16.0-ba291405fa.zip",
+					"fastboot": "yupei_images_OS3.0.4.0.WPZCNXM_20250918.0000.00_16.0_cn_eca582feb0.tgz"
+				},
+				"OS3.0.3.0.WPZCNXM": {
+					"os": "OS3.0.3.0.WPZCNXM",
+					"android": "16.0",
+					"release": "2025-09-25",
+					"recovery": "yupei-ota_full-OS3.0.3.0.WPZCNXM-user-16.0-315b1dc822.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "yupei_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.7.0.WPZCNDM": {
+					"os": "OS3.0.7.0.WPZCNDM",
+					"android": "16.0",
+					"release": "2025-10-15",
+					"recovery": "yupei_demo-ota_full-OS3.0.7.0.WPZCNDM-user-16.0-6257806359.zip",
+					"fastboot": "yupei_demo_images_OS3.0.7.0.WPZCNDM_20251010.0000.00_16.0_cn_08ddd843bb.tgz"
+				},
+				"OS3.0.6.0.WPZCNDM": {
+					"os": "OS3.0.6.0.WPZCNDM",
+					"android": "16.0",
+					"release": "2025-09-30",
+					"recovery": "yupei_demo-ota_full-OS3.0.6.0.WPZCNDM-user-16.0-e94981ee7b.zip",
+					"fastboot": "yupei_demo_images_OS3.0.6.0.WPZCNDM_20250927.0000.00_16.0_cn_d8d0311d63.tgz"
+				},
+				"OS3.0.5.0.WPZCNDM": {
+					"os": "OS3.0.5.0.WPZCNDM",
+					"android": "16.0",
+					"release": "2025-09-28",
+					"recovery": "yupei_demo-ota_full-OS3.0.5.0.WPZCNDM-user-16.0-9237c291d7.zip",
+					"fastboot": "yupei_demo_images_OS3.0.5.0.WPZCNDM_20250924.0000.00_16.0_cn_f7766309aa.tgz"
+				},
+				"OS3.0.4.0.WPZCNDM": {
+					"os": "OS3.0.4.0.WPZCNDM",
+					"android": "16.0",
+					"release": "2025-09-23",
+					"recovery": "yupei_demo-ota_full-OS3.0.4.0.WPZCNDM-user-16.0-8babf9176c.zip",
+					"fastboot": "yupei_demo_images_OS3.0.4.0.WPZCNDM_20250918.0000.00_16.0_cn_cac815d4f1.tgz"
+				},
+				"OS3.0.2.0.WPZCNDM": {
+					"os": "OS3.0.2.0.WPZCNDM",
+					"android": "16.0",
+					"release": "2025-09-19",
+					"recovery": "",
+					"fastboot": "yupei_demo_images_OS3.0.2.0.WPZCNDM_20250831.0000.00_16.0_cn_b374cfde6f.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "yupei_tw_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPZTWXM": {
+					"os": "OS3.0.301.0.WPZTWXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "yupei_tw_global-ota_full-OS3.0.301.0.WPZTWXM-user-16.0-ecce5b152e.zip",
+					"fastboot": "yupei_tw_global_images_OS3.0.301.0.WPZTWXM_20260320.0000.00_16.0_tw_9ea49eca47.tgz"
+				},
+				"OS3.0.1.0.WPZTWXM": {
+					"os": "OS3.0.1.0.WPZTWXM",
+					"android": "16.0",
+					"release": "2026-03-09",
+					"recovery": "yupei_tw_global-ota_full-OS3.0.1.0.WPZTWXM-user-16.0-4bc6a843f7.zip",
+					"fastboot": "yupei_tw_global_images_OS3.0.1.0.WPZTWXM_20251102.0000.00_16.0_tw_a484d00b19.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "yupei_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPZMIXM": {
+					"os": "OS3.0.302.0.WPZMIXM",
+					"android": "16.0",
+					"release": "2026-04-16",
+					"recovery": "yupei_global-ota_full-OS3.0.302.0.WPZMIXM-user-16.0-731bf6984c.zip",
+					"fastboot": "yupei_global_images_OS3.0.302.0.WPZMIXM_20260407.0000.00_16.0_global_00ecb4c7de.tgz"
+				},
+				"OS3.0.301.0.WPZMIXM": {
+					"os": "OS3.0.301.0.WPZMIXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "yupei_global-ota_full-OS3.0.301.0.WPZMIXM-user-16.0-5f81eb1905.zip",
+					"fastboot": "yupei_global_images_OS3.0.301.0.WPZMIXM_20260320.0000.00_16.0_global_3293553652.tgz"
+				},
+				"OS3.0.1.0.WPZMIXM": {
+					"os": "OS3.0.1.0.WPZMIXM",
+					"android": "16.0",
+					"release": "2026-03-09",
+					"recovery": "yupei_global-ota_full-OS3.0.1.0.WPZMIXM-user-16.0-9f08fd129a.zip",
+					"fastboot": "yupei_global_images_OS3.0.1.0.WPZMIXM_20251024.0000.00_16.0_global_6e803c95ff.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "yupei_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WPZEUXM": {
+					"os": "OS3.0.303.0.WPZEUXM",
+					"android": "16.0",
+					"release": "2026-04-16",
+					"recovery": "yupei_eea_global-ota_full-OS3.0.303.0.WPZEUXM-user-16.0-5f79d3323a.zip",
+					"fastboot": "yupei_eea_global_images_OS3.0.303.0.WPZEUXM_20260407.0000.00_16.0_eea_cde066df15.tgz"
+				},
+				"OS3.0.301.0.WPZEUXM": {
+					"os": "OS3.0.301.0.WPZEUXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "yupei_eea_global-ota_full-OS3.0.301.0.WPZEUXM-user-16.0-d5ad4cf640.zip",
+					"fastboot": "yupei_eea_global_images_OS3.0.301.0.WPZEUXM_20260320.0000.00_16.0_eea_b50ce0834a.tgz"
+				},
+				"OS3.0.4.0.WPZEUXM": {
+					"os": "OS3.0.4.0.WPZEUXM",
+					"android": "16.0",
+					"release": "2026-03-09",
+					"recovery": "yupei_eea_global-ota_full-OS3.0.4.0.WPZEUXM-user-16.0-4d051eff94.zip",
+					"fastboot": "yupei_eea_global_images_OS3.0.4.0.WPZEUXM_20251024.0000.00_16.0_eea_e4aeb317ac.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "yupei_ru_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPZRUXM": {
+					"os": "OS3.0.302.0.WPZRUXM",
+					"android": "16.0",
+					"release": "2026-04-03",
+					"recovery": "yupei_ru_global-ota_full-OS3.0.302.0.WPZRUXM-user-16.0-6f3998f565.zip",
+					"fastboot": "yupei_ru_global_images_OS3.0.302.0.WPZRUXM_20260328.0000.00_16.0_ru_1cad0334c0.tgz"
+				},
+				"OS3.0.301.0.WPZRUXM": {
+					"os": "OS3.0.301.0.WPZRUXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "yupei_ru_global-ota_full-OS3.0.301.0.WPZRUXM-user-16.0-32d4054bc2.zip",
+					"fastboot": "yupei_ru_global_images_OS3.0.301.0.WPZRUXM_20260320.0000.00_16.0_ru_14a705c4ef.tgz"
+				},
+				"OS3.0.1.0.WPZRUXM": {
+					"os": "OS3.0.1.0.WPZRUXM",
+					"android": "16.0",
+					"release": "2026-03-09",
+					"recovery": "yupei_ru_global-ota_full-OS3.0.1.0.WPZRUXM-user-16.0-47e15c7491.zip",
+					"fastboot": "yupei_ru_global_images_OS3.0.1.0.WPZRUXM_20251024.0000.00_16.0_ru_ff42e401e1.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "yupei_in_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPZINXM": {
+					"os": "OS3.0.301.0.WPZINXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "yupei_in_global-ota_full-OS3.0.301.0.WPZINXM-user-16.0-331831e27f.zip",
+					"fastboot": "yupei_in_global_images_OS3.0.301.0.WPZINXM_20260320.0000.00_16.0_in_556fcfb08f.tgz"
+				},
+				"OS3.0.2.0.WPZINXM": {
+					"os": "OS3.0.2.0.WPZINXM",
+					"android": "16.0",
+					"release": "2026-03-09",
+					"recovery": "yupei_in_global-ota_full-OS3.0.2.0.WPZINXM-user-16.0-7d5a6992aa.zip",
+					"fastboot": "yupei_in_global_images_OS3.0.2.0.WPZINXM_20251103.0000.00_16.0_in_4d998f9224.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "yupei_id_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPZIDXM": {
+					"os": "OS3.0.301.0.WPZIDXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "yupei_id_global-ota_full-OS3.0.301.0.WPZIDXM-user-16.0-02b54f2557.zip",
+					"fastboot": "yupei_id_global_images_OS3.0.301.0.WPZIDXM_20260320.0000.00_16.0_id_5db5aec771.tgz"
+				},
+				"OS3.0.1.0.WPZIDXM": {
+					"os": "OS3.0.1.0.WPZIDXM",
+					"android": "16.0",
+					"release": "2026-03-09",
+					"recovery": "yupei_id_global-ota_full-OS3.0.1.0.WPZIDXM-user-16.0-131c0d4d1f.zip",
+					"fastboot": "yupei_id_global_images_OS3.0.1.0.WPZIDXM_20251024.0000.00_16.0_id_3356564183.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚 Demo",
+				"en": "Xiaomi HyperOS Indonesia MiStore Demo"
+			},
+			"branchCode": "yupei_id_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "IDDM",
+			"tag": "IDDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPZIDDM": {
+					"os": "OS3.0.302.0.WPZIDDM",
+					"android": "16.0",
+					"release": "2026-04-10",
+					"recovery": "yupei_id_global-ota_full-OS3.0.302.0.WPZIDDM-user-16.0-8f1bfebb0f.zip",
+					"fastboot": "yupei_id_global_images_OS3.0.302.0.WPZIDDM_20260401.0000.00_16.0_id_21113635b1.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "yupei_tr_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 8",
+				"en": "Xiaomi Pad 8"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPZTRXM": {
+					"os": "OS3.0.301.0.WPZTRXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "yupei_tr_global-ota_full-OS3.0.301.0.WPZTRXM-user-16.0-e87427ef74.zip",
+					"fastboot": "yupei_tr_global_images_OS3.0.301.0.WPZTRXM_20260320.0000.00_16.0_tr_3076ffca7d.tgz"
+				},
+				"OS3.0.1.0.WPZTRXM": {
+					"os": "OS3.0.1.0.WPZTRXM",
+					"android": "16.0",
+					"release": "2026-03-09",
+					"recovery": "yupei_tr_global-ota_full-OS3.0.1.0.WPZTRXM-user-16.0-55e403d26e.zip",
+					"fastboot": "yupei_tr_global_images_OS3.0.1.0.WPZTRXM_20251031.0000.00_16.0_tr_970a1f1f3a.tgz"
+				}
+			}
+		}
+	]
 }
