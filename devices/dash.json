@@ -1,478 +1,486 @@
 {
-  "device": "dash",
-  "name": {
-    "zh": "REDMI Turbo 5 MAX / POCO X8 Pro MAX",
-    "en": "REDMI Turbo 5 MAX / POCO X8 Pro MAX"
-  },
-  "code": "PL",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "dash",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Turbo 5 MAX",
-        "en": "REDMI Turbo 5 MAX"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.303.0.WPLCNXM": {
-          "os": "OS3.0.303.0.WPLCNXM",
-          "android": "16.0",
-          "release": "2026-04-10",
-          "recovery": "dash-ota_full-OS3.0.303.0.WPLCNXM-user-16.0-fbc8ceb65a.zip",
-          "fastboot": "dash_images_OS3.0.303.0.WPLCNXM_20260403.0000.00_16.0_cn_9354d6cab7.tgz",
-          "ctelecom": "dash_images_OS3.0.303.0.WPLCNXM_20260403.0000.00_16.0_cn_chinatelecom_9dffe47f54.tgz"
-        },
-        "OS3.0.301.0.WPLCNXM": {
-          "os": "OS3.0.301.0.WPLCNXM",
-          "android": "16.0",
-          "release": "2026-03-12",
-          "recovery": "dash-ota_full-OS3.0.301.0.WPLCNXM-user-16.0-fefb9aa1d8.zip",
-          "fastboot": "dash_images_OS3.0.301.0.WPLCNXM_20260301.0000.00_16.0_cn_0bea357ff8.tgz",
-          "ctelecom": "dash_images_OS3.0.301.0.WPLCNXM_20260301.0000.00_16.0_cn_chinatelecom_6b4808cfaa.tgz"
-        },
-        "OS3.0.10.0.WPLCNXM": {
-          "os": "OS3.0.10.0.WPLCNXM",
-          "android": "16.0",
-          "release": "2026-02-12",
-          "recovery": "dash-ota_full-OS3.0.10.0.WPLCNXM-user-16.0-b62313a48b.zip",
-          "fastboot": "dash_images_OS3.0.10.0.WPLCNXM_20260211.0000.00_16.0_cn_384d47a3f5.tgz",
-          "ctelecom": "dash_images_OS3.0.10.0.WPLCNXM_20260211.0000.00_16.0_cn_chinatelecom_75a17d8018.tgz"
-        },
-        "OS3.0.8.0.WPLCNXM": {
-          "os": "OS3.0.8.0.WPLCNXM",
-          "android": "16.0",
-          "release": "2026-02-05",
-          "recovery": "dash-ota_full-OS3.0.8.0.WPLCNXM-user-16.0-7a58ec4edc.zip",
-          "fastboot": "dash_images_OS3.0.8.0.WPLCNXM_20260203.0000.00_16.0_cn_b02e0cbe88.tgz",
-          "ctelecom": "dash_images_OS3.0.8.0.WPLCNXM_20260203.0000.00_16.0_cn_chinatelecom_8278129778.tgz"
-        },
-        "OS3.0.7.0.WPLCNXM": {
-          "os": "OS3.0.7.0.WPLCNXM",
-          "android": "16.0",
-          "release": "2026-01-31",
-          "recovery": "dash-ota_full-OS3.0.7.0.WPLCNXM-user-16.0-27b7384295.zip",
-          "fastboot": "dash_images_OS3.0.7.0.WPLCNXM_20260124.0000.00_16.0_cn_1faf50947a.tgz",
-          "ctelecom": "dash_images_OS3.0.7.0.WPLCNXM_20260124.0000.00_16.0_cn_chinatelecom_95deea928b.tgz"
-        },
-        "OS3.0.6.0.WPLCNXM": {
-          "os": "OS3.0.6.0.WPLCNXM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "dash-ota_full-OS3.0.6.0.WPLCNXM-user-16.0-2cab53990e.zip",
-          "fastboot": "dash_images_OS3.0.6.0.WPLCNXM_20260116.0000.00_16.0_cn_d98febb1d4.tgz",
-          "ctelecom": "dash_images_OS3.0.6.0.WPLCNXM_20260116.0000.00_16.0_cn_chinatelecom_20afa05643.tgz"
-        },
-        "OS3.0.5.0.WPLCNXM": {
-          "os": "OS3.0.5.0.WPLCNXM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "dash-ota_full-OS3.0.5.0.WPLCNXM-user-16.0-3b8c01c275.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS3.0.3.0.WPLCNXM": {
-          "os": "OS3.0.3.0.WPLCNXM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "dash-ota_full-OS3.0.3.0.WPLCNXM-user-16.0-c3498310a3.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "dash_demo",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Turbo 5 MAX",
-        "en": "REDMI Turbo 5 MAX"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WPLCNDM": {
-          "os": "OS3.0.301.0.WPLCNDM",
-          "android": "16.0",
-          "release": "2026-04-14",
-          "recovery": "dash_demo-ota_full-OS3.0.301.0.WPLCNDM-user-16.0-9a98bfb2af.zip",
-          "fastboot": "dash_demo_images_OS3.0.301.0.WPLCNDM_20260324.0000.00_16.0_cn_3a8b2ec2ec.tgz",
-          "ctelecom": "dash_demo_images_OS3.0.301.0.WPLCNDM_20260324.0000.00_16.0_cn_chinatelecom_366bf4e2ef.tgz"
-        },
-        "OS3.0.3.0.WPLCNDM": {
-          "os": "OS3.0.3.0.WPLCNDM",
-          "android": "16.0",
-          "release": "2026-02-11",
-          "recovery": "dash_demo-ota_full-OS3.0.3.0.WPLCNDM-user-16.0-babdbc9da6.zip",
-          "fastboot": "dash_demo_images_OS3.0.3.0.WPLCNDM_20260205.0000.00_16.0_cn_65afa661bb.tgz",
-          "ctelecom": "dash_demo_images_OS3.0.3.0.WPLCNDM_20260205.0000.00_16.0_cn_chinatelecom_870462d277.tgz"
-        },
-        "OS3.0.2.0.WPLCNDM": {
-          "os": "OS3.0.2.0.WPLCNDM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "dash_demo-ota_full-OS3.0.2.0.WPLCNDM-user-16.0-35e7169de6.zip",
-          "fastboot": "dash_demo_images_OS3.0.2.0.WPLCNDM_20260123.0000.00_16.0_cn_e5680a416b.tgz",
-          "ctelecom": "dash_demo_images_OS3.0.2.0.WPLCNDM_20260123.0000.00_16.0_cn_chinatelecom_1f55d02c7d.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾省正式版",
-        "en": "Xiaomi HyperOS China Taiwan Province Stable"
-      },
-      "branchCode": "dash_tw_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro MAX",
-        "en": "POCO X8 Pro MAX"
-      },
-      "idtag": "CNTP",
-      "tag": "TWXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.2.0.WPLTWXM": {
-          "os": "OS3.0.2.0.WPLTWXM",
-          "android": "16.0",
-          "release": "2026-04-16",
-          "recovery": "dash_tw_global-ota_full-OS3.0.2.0.WPLTWXM-user-16.0-c47acedfbb.zip",
-          "fastboot": "dash_tw_global_images_OS3.0.2.0.WPLTWXM_20260404.0000.00_16.0_tw_967e34c0f4.tgz"
-        },
-        "OS3.0.1.0.WPLTWXM": {
-          "os": "OS3.0.1.0.WPLTWXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "dash_tw_global-ota_full-OS3.0.1.0.WPLTWXM-user-16.0-1f20d7bd7f.zip",
-          "fastboot": "dash_tw_global_images_OS3.0.1.0.WPLTWXM_20260226.0000.00_16.0_tw_43b793865e.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "dash_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro MAX",
-        "en": "POCO X8 Pro MAX"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.4.0.WPLMIXM": {
-          "os": "OS3.0.4.0.WPLMIXM",
-          "android": "16.0",
-          "release": "2026-04-23",
-          "recovery": "dash_global-ota_full-OS3.0.4.0.WPLMIXM-user-16.0-53ba3277d7.zip",
-          "fastboot": "dash_global_images_OS3.0.4.0.WPLMIXM_20260414.0000.00_16.0_global_db738fdbe7.tgz"
-        },
-        "OS3.0.3.0.WPLMIXM": {
-          "os": "OS3.0.3.0.WPLMIXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "dash_global-ota_full-OS3.0.3.0.WPLMIXM-user-16.0-cd40ec4e07.zip",
-          "fastboot": "dash_global_images_OS3.0.3.0.WPLMIXM_20260311.0000.00_16.0_global_2052861f96.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "dash_eea_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro MAX",
-        "en": "POCO X8 Pro MAX"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.3.0.WPLEUXM": {
-          "os": "OS3.0.3.0.WPLEUXM",
-          "android": "16.0",
-          "release": "2026-04-22",
-          "recovery": "dash_eea_global-ota_full-OS3.0.3.0.WPLEUXM-user-16.0-fda72667e9.zip",
-          "fastboot": "dash_eea_global_images_OS3.0.3.0.WPLEUXM_20260414.0000.00_16.0_eea_7f8cb59c5c.tgz"
-        },
-        "OS3.0.2.0.WPLEUXM": {
-          "os": "OS3.0.2.0.WPLEUXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "dash_eea_global-ota_full-OS3.0.2.0.WPLEUXM-user-16.0-1b5df667e0.zip",
-          "fastboot": "dash_eea_global_images_OS3.0.2.0.WPLEUXM_20260311.0000.00_16.0_eea_3d0dbb2296.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "dash_ru_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro MAX",
-        "en": "POCO X8 Pro MAX"
-      },
-      "idtag": "RUSO",
-      "tag": "RUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.2.0.WPLRUXM": {
-          "os": "OS3.0.2.0.WPLRUXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "dash_ru_global-ota_full-OS3.0.2.0.WPLRUXM-user-16.0-604e454d08.zip",
-          "fastboot": "dash_ru_global_images_OS3.0.2.0.WPLRUXM_20260305.0000.00_16.0_ru_cbad87fc59.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度正式版",
-        "en": "Xiaomi HyperOS India Stable"
-      },
-      "branchCode": "dash_in_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro MAX",
-        "en": "POCO X8 Pro MAX"
-      },
-      "idtag": "INSO",
-      "tag": "INXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "in",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.2.0.WPLINXM": {
-          "os": "OS3.0.2.0.WPLINXM",
-          "android": "16.0",
-          "release": "2026-03-23",
-          "recovery": "dash_in_global-ota_full-OS3.0.2.0.WPLINXM-user-16.0-333d026af0.zip",
-          "fastboot": "dash_in_global_images_OS3.0.2.0.WPLINXM_20260313.0000.00_16.0_in_8b5a0966e3.tgz"
-        },
-        "OS3.0.1.0.WPLINXM": {
-          "os": "OS3.0.1.0.WPLINXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "dash_in_global-ota_full-OS3.0.1.0.WPLINXM-user-16.0-bc98405a3e.zip",
-          "fastboot": "dash_in_global_images_OS3.0.1.0.WPLINXM_20260210.0000.00_16.0_in_22993b0dd4.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度尼西亚正式版",
-        "en": "Xiaomi HyperOS Indonesia Stable"
-      },
-      "branchCode": "dash_id_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro MAX",
-        "en": "POCO X8 Pro MAX"
-      },
-      "idtag": "IDSO",
-      "tag": "IDXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "id",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.2.0.WPLIDXM": {
-          "os": "OS3.0.2.0.WPLIDXM",
-          "android": "16.0",
-          "release": "2026-03-23",
-          "recovery": "dash_id_global-ota_full-OS3.0.2.0.WPLIDXM-user-16.0-ccf4492012.zip",
-          "fastboot": "dash_id_global_images_OS3.0.2.0.WPLIDXM_20260313.0000.00_16.0_id_2bc7cbc3be.tgz"
-        },
-        "OS3.0.1.0.WPLIDXM": {
-          "os": "OS3.0.1.0.WPLIDXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "dash_id_global-ota_full-OS3.0.1.0.WPLIDXM-user-16.0-24c2718b77.zip",
-          "fastboot": "dash_id_global_images_OS3.0.1.0.WPLIDXM_20260210.0000.00_16.0_id_197f348bd2.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 土耳其正式版",
-        "en": "Xiaomi HyperOS Turkey Stable"
-      },
-      "branchCode": "dash_tr_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro MAX",
-        "en": "POCO X8 Pro MAX"
-      },
-      "idtag": "TRSO",
-      "tag": "TRXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tr",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WPLTRXM": {
-          "os": "OS3.0.1.0.WPLTRXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "dash_tr_global-ota_full-OS3.0.1.0.WPLTRXM-user-16.0-29454a09f7.zip",
-          "fastboot": "dash_tr_global_images_OS3.0.1.0.WPLTRXM_20260302.0000.00_16.0_tr_e9ea20ea98.tgz"
-        }
-      }
-    }
-  ]
+	"device": "dash",
+	"name": {
+		"zh": "REDMI Turbo 5 MAX / POCO X8 Pro MAX",
+		"en": "REDMI Turbo 5 MAX / POCO X8 Pro MAX"
+	},
+	"code": "PL",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "dash",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Turbo 5 MAX",
+				"en": "REDMI Turbo 5 MAX"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WPLCNXM": {
+					"os": "OS3.0.304.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-05-06",
+					"recovery": "dash-ota_full-OS3.0.304.0.WPLCNXM-user-16.0-6577bbc074.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.303.0.WPLCNXM": {
+					"os": "OS3.0.303.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-04-10",
+					"recovery": "dash-ota_full-OS3.0.303.0.WPLCNXM-user-16.0-fbc8ceb65a.zip",
+					"fastboot": "dash_images_OS3.0.303.0.WPLCNXM_20260403.0000.00_16.0_cn_9354d6cab7.tgz",
+					"ctelecom": "dash_images_OS3.0.303.0.WPLCNXM_20260403.0000.00_16.0_cn_chinatelecom_9dffe47f54.tgz"
+				},
+				"OS3.0.301.0.WPLCNXM": {
+					"os": "OS3.0.301.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-03-12",
+					"recovery": "dash-ota_full-OS3.0.301.0.WPLCNXM-user-16.0-fefb9aa1d8.zip",
+					"fastboot": "dash_images_OS3.0.301.0.WPLCNXM_20260301.0000.00_16.0_cn_0bea357ff8.tgz",
+					"ctelecom": "dash_images_OS3.0.301.0.WPLCNXM_20260301.0000.00_16.0_cn_chinatelecom_6b4808cfaa.tgz"
+				},
+				"OS3.0.10.0.WPLCNXM": {
+					"os": "OS3.0.10.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-02-12",
+					"recovery": "dash-ota_full-OS3.0.10.0.WPLCNXM-user-16.0-b62313a48b.zip",
+					"fastboot": "dash_images_OS3.0.10.0.WPLCNXM_20260211.0000.00_16.0_cn_384d47a3f5.tgz",
+					"ctelecom": "dash_images_OS3.0.10.0.WPLCNXM_20260211.0000.00_16.0_cn_chinatelecom_75a17d8018.tgz"
+				},
+				"OS3.0.8.0.WPLCNXM": {
+					"os": "OS3.0.8.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-02-05",
+					"recovery": "dash-ota_full-OS3.0.8.0.WPLCNXM-user-16.0-7a58ec4edc.zip",
+					"fastboot": "dash_images_OS3.0.8.0.WPLCNXM_20260203.0000.00_16.0_cn_b02e0cbe88.tgz",
+					"ctelecom": "dash_images_OS3.0.8.0.WPLCNXM_20260203.0000.00_16.0_cn_chinatelecom_8278129778.tgz"
+				},
+				"OS3.0.7.0.WPLCNXM": {
+					"os": "OS3.0.7.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-01-31",
+					"recovery": "dash-ota_full-OS3.0.7.0.WPLCNXM-user-16.0-27b7384295.zip",
+					"fastboot": "dash_images_OS3.0.7.0.WPLCNXM_20260124.0000.00_16.0_cn_1faf50947a.tgz",
+					"ctelecom": "dash_images_OS3.0.7.0.WPLCNXM_20260124.0000.00_16.0_cn_chinatelecom_95deea928b.tgz"
+				},
+				"OS3.0.6.0.WPLCNXM": {
+					"os": "OS3.0.6.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "dash-ota_full-OS3.0.6.0.WPLCNXM-user-16.0-2cab53990e.zip",
+					"fastboot": "dash_images_OS3.0.6.0.WPLCNXM_20260116.0000.00_16.0_cn_d98febb1d4.tgz",
+					"ctelecom": "dash_images_OS3.0.6.0.WPLCNXM_20260116.0000.00_16.0_cn_chinatelecom_20afa05643.tgz"
+				},
+				"OS3.0.5.0.WPLCNXM": {
+					"os": "OS3.0.5.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "dash-ota_full-OS3.0.5.0.WPLCNXM-user-16.0-3b8c01c275.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.3.0.WPLCNXM": {
+					"os": "OS3.0.3.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "dash-ota_full-OS3.0.3.0.WPLCNXM-user-16.0-c3498310a3.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "dash_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Turbo 5 MAX",
+				"en": "REDMI Turbo 5 MAX"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPLCNDM": {
+					"os": "OS3.0.301.0.WPLCNDM",
+					"android": "16.0",
+					"release": "2026-04-14",
+					"recovery": "dash_demo-ota_full-OS3.0.301.0.WPLCNDM-user-16.0-9a98bfb2af.zip",
+					"fastboot": "dash_demo_images_OS3.0.301.0.WPLCNDM_20260324.0000.00_16.0_cn_3a8b2ec2ec.tgz",
+					"ctelecom": "dash_demo_images_OS3.0.301.0.WPLCNDM_20260324.0000.00_16.0_cn_chinatelecom_366bf4e2ef.tgz"
+				},
+				"OS3.0.3.0.WPLCNDM": {
+					"os": "OS3.0.3.0.WPLCNDM",
+					"android": "16.0",
+					"release": "2026-02-11",
+					"recovery": "dash_demo-ota_full-OS3.0.3.0.WPLCNDM-user-16.0-babdbc9da6.zip",
+					"fastboot": "dash_demo_images_OS3.0.3.0.WPLCNDM_20260205.0000.00_16.0_cn_65afa661bb.tgz",
+					"ctelecom": "dash_demo_images_OS3.0.3.0.WPLCNDM_20260205.0000.00_16.0_cn_chinatelecom_870462d277.tgz"
+				},
+				"OS3.0.2.0.WPLCNDM": {
+					"os": "OS3.0.2.0.WPLCNDM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "dash_demo-ota_full-OS3.0.2.0.WPLCNDM-user-16.0-35e7169de6.zip",
+					"fastboot": "dash_demo_images_OS3.0.2.0.WPLCNDM_20260123.0000.00_16.0_cn_e5680a416b.tgz",
+					"ctelecom": "dash_demo_images_OS3.0.2.0.WPLCNDM_20260123.0000.00_16.0_cn_chinatelecom_1f55d02c7d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "dash_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro MAX",
+				"en": "POCO X8 Pro MAX"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WPLTWXM": {
+					"os": "OS3.0.2.0.WPLTWXM",
+					"android": "16.0",
+					"release": "2026-04-16",
+					"recovery": "dash_tw_global-ota_full-OS3.0.2.0.WPLTWXM-user-16.0-c47acedfbb.zip",
+					"fastboot": "dash_tw_global_images_OS3.0.2.0.WPLTWXM_20260404.0000.00_16.0_tw_967e34c0f4.tgz"
+				},
+				"OS3.0.1.0.WPLTWXM": {
+					"os": "OS3.0.1.0.WPLTWXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "dash_tw_global-ota_full-OS3.0.1.0.WPLTWXM-user-16.0-1f20d7bd7f.zip",
+					"fastboot": "dash_tw_global_images_OS3.0.1.0.WPLTWXM_20260226.0000.00_16.0_tw_43b793865e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "dash_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro MAX",
+				"en": "POCO X8 Pro MAX"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WPLMIXM": {
+					"os": "OS3.0.4.0.WPLMIXM",
+					"android": "16.0",
+					"release": "2026-04-23",
+					"recovery": "dash_global-ota_full-OS3.0.4.0.WPLMIXM-user-16.0-53ba3277d7.zip",
+					"fastboot": "dash_global_images_OS3.0.4.0.WPLMIXM_20260414.0000.00_16.0_global_db738fdbe7.tgz"
+				},
+				"OS3.0.3.0.WPLMIXM": {
+					"os": "OS3.0.3.0.WPLMIXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "dash_global-ota_full-OS3.0.3.0.WPLMIXM-user-16.0-cd40ec4e07.zip",
+					"fastboot": "dash_global_images_OS3.0.3.0.WPLMIXM_20260311.0000.00_16.0_global_2052861f96.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "dash_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro MAX",
+				"en": "POCO X8 Pro MAX"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WPLEUXM": {
+					"os": "OS3.0.3.0.WPLEUXM",
+					"android": "16.0",
+					"release": "2026-04-22",
+					"recovery": "dash_eea_global-ota_full-OS3.0.3.0.WPLEUXM-user-16.0-fda72667e9.zip",
+					"fastboot": "dash_eea_global_images_OS3.0.3.0.WPLEUXM_20260414.0000.00_16.0_eea_7f8cb59c5c.tgz"
+				},
+				"OS3.0.2.0.WPLEUXM": {
+					"os": "OS3.0.2.0.WPLEUXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "dash_eea_global-ota_full-OS3.0.2.0.WPLEUXM-user-16.0-1b5df667e0.zip",
+					"fastboot": "dash_eea_global_images_OS3.0.2.0.WPLEUXM_20260311.0000.00_16.0_eea_3d0dbb2296.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "dash_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro MAX",
+				"en": "POCO X8 Pro MAX"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WPLRUXM": {
+					"os": "OS3.0.2.0.WPLRUXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "dash_ru_global-ota_full-OS3.0.2.0.WPLRUXM-user-16.0-604e454d08.zip",
+					"fastboot": "dash_ru_global_images_OS3.0.2.0.WPLRUXM_20260305.0000.00_16.0_ru_cbad87fc59.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "dash_in_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro MAX",
+				"en": "POCO X8 Pro MAX"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WPLINXM": {
+					"os": "OS3.0.2.0.WPLINXM",
+					"android": "16.0",
+					"release": "2026-03-23",
+					"recovery": "dash_in_global-ota_full-OS3.0.2.0.WPLINXM-user-16.0-333d026af0.zip",
+					"fastboot": "dash_in_global_images_OS3.0.2.0.WPLINXM_20260313.0000.00_16.0_in_8b5a0966e3.tgz"
+				},
+				"OS3.0.1.0.WPLINXM": {
+					"os": "OS3.0.1.0.WPLINXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "dash_in_global-ota_full-OS3.0.1.0.WPLINXM-user-16.0-bc98405a3e.zip",
+					"fastboot": "dash_in_global_images_OS3.0.1.0.WPLINXM_20260210.0000.00_16.0_in_22993b0dd4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "dash_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro MAX",
+				"en": "POCO X8 Pro MAX"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WPLIDXM": {
+					"os": "OS3.0.2.0.WPLIDXM",
+					"android": "16.0",
+					"release": "2026-03-23",
+					"recovery": "dash_id_global-ota_full-OS3.0.2.0.WPLIDXM-user-16.0-ccf4492012.zip",
+					"fastboot": "dash_id_global_images_OS3.0.2.0.WPLIDXM_20260313.0000.00_16.0_id_2bc7cbc3be.tgz"
+				},
+				"OS3.0.1.0.WPLIDXM": {
+					"os": "OS3.0.1.0.WPLIDXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "dash_id_global-ota_full-OS3.0.1.0.WPLIDXM-user-16.0-24c2718b77.zip",
+					"fastboot": "dash_id_global_images_OS3.0.1.0.WPLIDXM_20260210.0000.00_16.0_id_197f348bd2.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "dash_tr_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro MAX",
+				"en": "POCO X8 Pro MAX"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WPLTRXM": {
+					"os": "OS3.0.1.0.WPLTRXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "dash_tr_global-ota_full-OS3.0.1.0.WPLTRXM-user-16.0-29454a09f7.zip",
+					"fastboot": "dash_tr_global_images_OS3.0.1.0.WPLTRXM_20260302.0000.00_16.0_tr_e9ea20ea98.tgz"
+				}
+			}
+		}
+	]
 }
