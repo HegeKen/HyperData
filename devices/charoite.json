@@ -46,6 +46,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.3.0.WPFMIXM": {
+          "os": "OS3.0.3.0.WPFMIXM",
+          "android": "16.0",
+          "release": "2026-04-28",
+          "recovery": "charoite_global-ota_full-OS3.0.3.0.WPFMIXM-user-16.0-a5418f3547.zip",
+          "fastboot": ""
+        },
         "OS3.0.2.0.WPFMIXM": {
           "os": "OS3.0.2.0.WPFMIXM",
           "android": "16.0",
@@ -150,6 +157,13 @@
       "zone": "2",
       "ep": "0",
       "roms": {
+        "OS3.0.1.0.WPFMIDC": {
+          "os": "OS3.0.1.0.WPFMIDC",
+          "android": "16.0",
+          "release": "2026-04-22",
+          "recovery": "charoite_dc_global-ota_full-OS3.0.1.0.WPFMIDC-user-16.0-1006e3a12d.zip",
+          "fastboot": ""
+        },
         "OS2.0.210.0.VPFMIDC": {
           "os": "OS2.0.210.0.VPFMIDC",
           "android": "15.0",
@@ -266,7 +280,7 @@
           "android": "16.0",
           "release": "2026-04-14",
           "recovery": "charoite_ru_global-ota_full-OS3.0.1.0.WPFRUXM-user-16.0-40c03eea2a.zip",
-          "fastboot": ""
+          "fastboot": "charoite_ru_global_images_OS3.0.1.0.WPFRUXM_20260405.0000.00_16.0_ru_fb367f9ba0.tgz"
         },
         "OS2.0.207.0.VPFRUXM": {
           "os": "OS2.0.207.0.VPFRUXM",
