@@ -1,1544 +1,1544 @@
 {
-  "device": "duchamp",
-  "name": {
-    "zh": "Redmi K70E / POCO X6 Pro 5G",
-    "en": "Redmi K70E / POCO X6 Pro 5G"
-  },
-  "code": "NL",
-  "suppports": [
-    "OS1.0",
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "14.0",
-    "15.0",
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS Beta",
-        "en": "Xiaomi HyperOS Beta"
-      },
-      "branchCode": "duchamp",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi K70E",
-        "en": "Redmi K70E"
-      },
-      "idtag": "CnOB",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.0.10.WNLCNXM": {
-          "os": "OS3.0.0.10.WNLCNXM",
-          "android": "16.0",
-          "release": "2025-10-28",
-          "recovery": "duchamp-ota_full-OS3.0.0.10.WNLCNXM-user-16.0-68399fd273.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.5.WNLCNXM": {
-          "os": "OS3.0.0.5.WNLCNXM",
-          "android": "16.0",
-          "release": "2025-09-29",
-          "recovery": "duchamp-ota_full-OS3.0.0.5.WNLCNXM-user-16.0-486a9504e2.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.4.WNLCNXM": {
-          "os": "OS3.0.0.4.WNLCNXM",
-          "android": "16.0",
-          "release": "2025-09-26",
-          "recovery": "duchamp-ota_full-OS3.0.0.4.WNLCNXM-user-16.0-4e4a859eae.zip",
-          "fastboot": ""
-        },
-        "OS2.0.201.3.VNLCNXM": {
-          "os": "OS2.0.201.3.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "duchamp-ota_full-OS2.0.201.3.VNLCNXM-user-15.0-0c77dfad41.zip",
-          "fastboot": ""
-        },
-        "OS2.0.200.5.VNLCNXM": {
-          "os": "OS2.0.200.5.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-05-12",
-          "recovery": "duchamp-ota_full-OS2.0.200.5.VNLCNXM-user-15.0-44c0a40b29.zip",
-          "fastboot": ""
-        },
-        "OS2.0.200.3.VNLCNXM": {
-          "os": "OS2.0.200.3.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-04-16",
-          "recovery": "duchamp-ota_full-OS2.0.200.3.VNLCNXM-user-15.0-658300dd88.zip",
-          "fastboot": ""
-        },
-        "OS2.0.0.11.VNLCNXM": {
-          "os": "OS2.0.0.11.VNLCNXM",
-          "android": "15.0",
-          "release": "2024-11-15",
-          "recovery": "duchamp-ota_full-OS2.0.0.11.VNLCNXM-user-15.0-15e5ec909f.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "duchamp",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi K70E",
-        "en": "Redmi K70E"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "show": "1",
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.303.0.WNLCNXM": {
-          "os": "OS3.0.303.0.WNLCNXM",
-          "android": "16.0",
-          "release": "2026-04-15",
-          "recovery": "duchamp-ota_full-OS3.0.303.0.WNLCNXM-user-16.0-6d0030ea4e.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS3.0.5.0.WNLCNXM": {
-          "os": "OS3.0.5.0.WNLCNXM",
-          "android": "16.0",
-          "release": "2026-02-11",
-          "recovery": "duchamp-ota_full-OS3.0.5.0.WNLCNXM-user-16.0-4ec697213b.zip",
-          "fastboot": "duchamp_images_OS3.0.5.0.WNLCNXM_20260206.0000.00_16.0_cn_85de661ec2.tgz",
-          "ctelecom": "duchamp_images_OS3.0.5.0.WNLCNXM_20260206.0000.00_16.0_cn_chinatelecom_b89a6d54eb.tgz"
-        },
-        "OS3.0.3.0.WNLCNXM": {
-          "os": "OS3.0.3.0.WNLCNXM",
-          "android": "16.0",
-          "release": "2025-12-01",
-          "recovery": "duchamp-ota_full-OS3.0.3.0.WNLCNXM-user-16.0-52961fcbc2.zip",
-          "fastboot": "duchamp_images_OS3.0.3.0.WNLCNXM_20251122.0000.00_16.0_cn_c5ca72d17e.tgz",
-          "ctelecom": "duchamp_images_OS3.0.3.0.WNLCNXM_20251122.0000.00_16.0_cn_chinatelecom_5dfcdc7af1.tgz"
-        },
-        "OS3.0.2.0.WNLCNXM": {
-          "os": "OS3.0.2.0.WNLCNXM",
-          "android": "16.0",
-          "release": "2025-11-13",
-          "recovery": "duchamp-ota_full-OS3.0.2.0.WNLCNXM-user-16.0-fc5ab29dcc.zip",
-          "fastboot": "duchamp_images_OS3.0.2.0.WNLCNXM_20251107.0000.00_16.0_cn_ac5194f786.tgz",
-          "ctelecom": "duchamp_images_OS3.0.2.0.WNLCNXM_20251107.0000.00_16.0_cn_chinatelecom_42c37198d9.tgz"
-        },
-        "OS2.0.212.0.VNLCNXM": {
-          "os": "OS2.0.212.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-10-16",
-          "recovery": "duchamp-ota_full-OS2.0.212.0.VNLCNXM-user-15.0-f1e9df3044.zip",
-          "fastboot": "duchamp_images_OS2.0.212.0.VNLCNXM_20250925.0000.00_15.0_cn_448ba68554.tgz",
-          "ctelecom": "duchamp_images_OS2.0.212.0.VNLCNXM_20250925.0000.00_15.0_cn_chinatelecom_326f2a0c5c.tgz"
-        },
-        "OS2.0.210.0.VNLCNXM": {
-          "os": "OS2.0.210.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-09-16",
-          "recovery": "duchamp-ota_full-OS2.0.210.0.VNLCNXM-user-15.0-9ae35886ac.zip",
-          "fastboot": "duchamp_images_OS2.0.210.0.VNLCNXM_20250905.0000.00_15.0_cn_bf8f0c9f22.tgz",
-          "ctelecom": "duchamp_images_OS2.0.210.0.VNLCNXM_20250905.0000.00_15.0_cn_chinatelecom_9108d43ca9.tgz"
-        },
-        "OS2.0.209.0.VNLCNXM": {
-          "os": "OS2.0.209.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-08-04",
-          "recovery": "duchamp-ota_full-OS2.0.209.0.VNLCNXM-user-15.0-3089c81490.zip",
-          "fastboot": "duchamp_images_OS2.0.209.0.VNLCNXM_20250730.0000.00_15.0_cn_58cb6195f7.tgz",
-          "ctelecom": "duchamp_images_OS2.0.209.0.VNLCNXM_20250730.0000.00_15.0_cn_chinatelecom_0854123f20.tgz"
-        },
-        "OS2.0.204.0.VNLCNXM": {
-          "os": "OS2.0.204.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-06-04",
-          "recovery": "duchamp-ota_full-OS2.0.204.0.VNLCNXM-user-15.0-2af11982a0.zip",
-          "fastboot": "duchamp_images_OS2.0.204.0.VNLCNXM_20250530.0000.00_15.0_cn_6e91f15d80.tgz",
-          "ctelecom": "duchamp_images_OS2.0.204.0.VNLCNXM_20250530.0000.00_15.0_cn_chinatelecom_a215768d5a.tgz"
-        },
-        "OS2.0.110.0.VNLCNXM": {
-          "os": "OS2.0.110.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "duchamp-ota_full-OS2.0.110.0.VNLCNXM-user-15.0-cf461f73cd.zip",
-          "fastboot": "duchamp_images_OS2.0.110.0.VNLCNXM_20250515.0000.00_15.0_cn_ae14552967.tgz",
-          "ctelecom": "duchamp_images_OS2.0.110.0.VNLCNXM_20250515.0000.00_15.0_cn_chinatelecom_ea5019a617.tgz"
-        },
-        "OS2.0.108.0.VNLCNXM": {
-          "os": "OS2.0.108.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-04-22",
-          "recovery": "duchamp-ota_full-OS2.0.108.0.VNLCNXM-user-15.0-5fb1b02029.zip",
-          "fastboot": "duchamp_images_OS2.0.108.0.VNLCNXM_20250418.0000.00_15.0_cn_e8d31ead38.tgz",
-          "ctelecom": "duchamp_images_OS2.0.108.0.VNLCNXM_20250418.0000.00_15.0_cn_chinatelecom_80d1e94dad.tgz"
-        },
-        "OS2.0.107.0.VNLCNXM": {
-          "os": "OS2.0.107.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-04-09",
-          "recovery": "duchamp-ota_full-OS2.0.107.0.VNLCNXM-user-15.0-7254cda39f.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS2.0.105.0.VNLCNXM": {
-          "os": "OS2.0.105.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-03-06",
-          "recovery": "duchamp-ota_full-OS2.0.105.0.VNLCNXM-user-15.0-4f7d3a6230.zip",
-          "fastboot": "duchamp_images_OS2.0.105.0.VNLCNXM_20250305.0000.00_15.0_cn_999361ea5d.tgz",
-          "ctelecom": "duchamp_images_OS2.0.105.0.VNLCNXM_20250305.0000.00_15.0_cn_chinatelecom_dd42474900.tgz"
-        },
-        "OS2.0.104.0.VNLCNXM": {
-          "os": "OS2.0.104.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-03-03",
-          "recovery": "duchamp-ota_full-OS2.0.104.0.VNLCNXM-user-15.0-01f138cf49.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS2.0.102.0.VNLCNXM": {
-          "os": "OS2.0.102.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2025-01-14",
-          "recovery": "duchamp-ota_full-OS2.0.102.0.VNLCNXM-user-15.0-21f565d0bb.zip",
-          "fastboot": "duchamp_images_OS2.0.102.0.VNLCNXM_20250108.0000.00_15.0_cn_4d5b1b2a28.tgz",
-          "ctelecom": "duchamp_images_OS2.0.102.0.VNLCNXM_20250108.0000.00_15.0_cn_chinatelecom_89e44d1256.tgz"
-        },
-        "OS2.0.3.0.VNLCNXM": {
-          "os": "OS2.0.3.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2024-12-11",
-          "recovery": "duchamp-ota_full-OS2.0.3.0.VNLCNXM-user-15.0-3c95a2bbd6.zip",
-          "fastboot": "duchamp_images_OS2.0.3.0.VNLCNXM_20241206.0000.00_15.0_cn_f8ccc0b014.tgz",
-          "ctelecom": "duchamp_images_OS2.0.3.0.VNLCNXM_20241206.0000.00_15.0_cn_chinatelecom_cec375a5ac.tgz"
-        },
-        "OS2.0.2.0.VNLCNXM": {
-          "os": "OS2.0.2.0.VNLCNXM",
-          "android": "15.0",
-          "release": "2024-11-30",
-          "recovery": "duchamp-ota_full-OS2.0.2.0.VNLCNXM-user-15.0-061e77512c.zip",
-          "fastboot": "duchamp_images_OS2.0.2.0.VNLCNXM_20241126.0000.00_15.0_cn_de7b6d69ca.tgz",
-          "ctelecom": "duchamp_images_OS2.0.2.0.VNLCNXM_20241126.0000.00_15.0_cn_chinatelecom_51269dfbd8.tgz"
-        },
-        "OS1.0.18.0.UNLCNXM": {
-          "os": "OS1.0.18.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2024-09-20",
-          "recovery": "miui_DUCHAMP_OS1.0.18.0.UNLCNXM_f3789ac8e1_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.18.0.UNLCNXM_20240911.0000.00_14.0_cn_d42fae8ed1.tgz",
-          "ctelecom": "duchamp_images_OS1.0.18.0.UNLCNXM_20240911.0000.00_14.0_cn_chinatelecom_d0a013fd94.tgz"
-        },
-        "OS1.0.17.0.UNLCNXM": {
-          "os": "OS1.0.17.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2024-08-14",
-          "recovery": "miui_DUCHAMP_OS1.0.17.0.UNLCNXM_5dc50b9f9e_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.17.0.UNLCNXM_20240801.0000.00_14.0_cn_d933ad2b7f.tgz",
-          "ctelecom": "duchamp_images_OS1.0.17.0.UNLCNXM_20240801.0000.00_14.0_cn_chinatelecom_4f97040142.tgz"
-        },
-        "OS1.0.16.0.UNLCNXM": {
-          "os": "OS1.0.16.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2024-07-10",
-          "recovery": "miui_DUCHAMP_OS1.0.16.0.UNLCNXM_9bd8d10fba_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.16.0.UNLCNXM_20240705.0000.00_14.0_cn_78f7c339fd.tgz",
-          "ctelecom": "duchamp_images_OS1.0.16.0.UNLCNXM_20240705.0000.00_14.0_cn_chinatelecom_d904797fca.tgz"
-        },
-        "OS1.0.15.0.UNLCNXM": {
-          "os": "OS1.0.15.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2024-06-07",
-          "recovery": "miui_DUCHAMP_OS1.0.15.0.UNLCNXM_19884aa99e_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.15.0.UNLCNXM_20240531.0000.00_14.0_cn_57bb60a334.tgz",
-          "ctelecom": "duchamp_images_OS1.0.15.0.UNLCNXM_20240531.0000.00_14.0_cn_chinatelecom_e0f804aff9.tgz"
-        },
-        "OS1.0.13.0.UNLCNXM": {
-          "os": "OS1.0.13.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2024-03-15",
-          "recovery": "miui_DUCHAMP_OS1.0.13.0.UNLCNXM_64192ba74c_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.13.0.UNLCNXM_20240312.0000.00_14.0_cn_39909c6779.tgz",
-          "ctelecom": "duchamp_images_OS1.0.13.0.UNLCNXM_20240312.0000.00_14.0_cn_chinatelecom_f1a969c2c6.tgz"
-        },
-        "OS1.0.11.0.UNLCNXM": {
-          "os": "OS1.0.11.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2024-02-03",
-          "recovery": "miui_DUCHAMP_OS1.0.11.0.UNLCNXM_00244a3963_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.11.0.UNLCNXM_20240126.0000.00_14.0_cn_a60def4101.tgz",
-          "ctelecom": "duchamp_images_OS1.0.11.0.UNLCNXM_20240126.0000.00_14.0_cn_chinatelecom_54ac68b3b5.tgz"
-        },
-        "OS1.0.10.0.UNLCNXM": {
-          "os": "OS1.0.10.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2024-01-24",
-          "recovery": "miui_DUCHAMP_OS1.0.10.0.UNLCNXM_0ab05cde0b_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.10.0.UNLCNXM_20240118.0000.00_14.0_cn_d5795ffe8a.tgz",
-          "ctelecom": "duchamp_images_OS1.0.10.0.UNLCNXM_20240118.0000.00_14.0_cn_chinatelecom_26ba811009.tgz"
-        },
-        "OS1.0.8.0.UNLCNXM": {
-          "os": "OS1.0.8.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2023-12-28",
-          "recovery": "miui_DUCHAMP_OS1.0.8.0.UNLCNXM_9062417d30_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.8.0.UNLCNXM_20231224.0000.00_14.0_cn_4d41ef6b03.tgz",
-          "ctelecom": "duchamp_images_OS1.0.8.0.UNLCNXM_20231224.0000.00_14.0_cn_chinatelecom_486d167b2e.tgz"
-        },
-        "OS1.0.7.0.UNLCNXM": {
-          "os": "OS1.0.7.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2023-12-13",
-          "recovery": "miui_DUCHAMP_OS1.0.7.0.UNLCNXM_376a47cb7e_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_1cc1eed443.tgz",
-          "ctelecom": "duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_chinatelecom_d70a818dee.tgz"
-        },
-        "OS1.0.5.0.UNLCNXM": {
-          "os": "OS1.0.5.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2023-11-29",
-          "recovery": "miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip",
-          "fastboot": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_8525102b04.tgz",
-          "ctelecom": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_chinatelecom_9113e5bd0e.tgz"
-        },
-        "OS1.0.4.0.UNLCNXM": {
-          "os": "OS1.0.4.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2023-11-29",
-          "recovery": "miui_DUCHAMP_OS1.0.4.0.UNLCNXM_6e77720de1_14.0.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS1.0.1.0.UNLCNXM": {
-          "os": "OS1.0.1.0.UNLCNXM",
-          "android": "14.0",
-          "release": "2023-11-29",
-          "recovery": "miui_DUCHAMP_OS1.0.1.0.UNLCNXM_30ab04a3fe_14.0.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "duchamp_demo",
-      "brand": "Redmi",
-      "device": {
-        "zh": "Redmi K70E",
-        "en": "Redmi K70E"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "0",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS1.0.2.0.UNLCNDM": {
-          "os": "OS1.0.2.0.UNLCNDM",
-          "android": "14.0",
-          "release": "2023-11-27",
-          "recovery": "miui_DUCHAMPDEMO_OS1.0.2.0.UNLCNDM_d1b8361509_14.0.zip",
-          "fastboot": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_25d52b4af4.tgz",
-          "ctelecom": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_chinatelecom_29e7a5afe1.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国大陆政企标准版",
-        "en": "Xiaomi HyperOS Enterprise Standard"
-      },
-      "branchCode": "duchamp_ep_stdee",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X6 Pro 5G",
-        "en": "POCO X6 Pro 5G"
-      },
-      "idtag": "EPSTD",
-      "tag": "",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "1",
-      "roms": {
-        "OS1.0.25.1.16.EP.STDEE.N11A": {
-          "os": "OS1.0.25.1.16.EP.STDEE.N11A",
-          "android": "14.0",
-          "release": "2025-03-06",
-          "recovery": "miui_DUCHAMPEPSTDEE_OS1.0.25.1.16.EP.STDEE.N11A_b35b3f406d_14.0.zip",
-          "fastboot": "duchamp_ep_stdee_images_OS1.0.25.1.16.EP.STDEE.N11A_20250116.0000.00_14.0_cn_794f0f452a.tgz",
-          "ctelecom": "duchamp_ep_stdee_images_OS1.0.25.1.16.EP.STDEE.N11A_20250116.0000.00_14.0_cn_chinatelecom_739322b379.tgz"
-        },
-        "OS1.0.24.11.11.EP.STDEE.N11A": {
-          "os": "OS1.0.24.11.11.EP.STDEE.N11A",
-          "android": "14.0",
-          "release": "2024-12-09",
-          "recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.11.11.EP.STDEE.N11A_03c91b99a1_14.0.zip",
-          "fastboot": "duchamp_ep_stdee_images_OS1.0.24.11.11.EP.STDEE.N11A_20241111.0000.00_14.0_cn_462210f018.tgz",
-          "ctelecom": "duchamp_ep_stdee_images_OS1.0.24.11.11.EP.STDEE.N11A_20241111.0000.00_14.0_cn_chinatelecom_6e066ca5e7.tgz"
-        },
-        "OS1.0.24.8.16.EP.STDEE.N11A": {
-          "os": "OS1.0.24.8.16.EP.STDEE.N11A",
-          "android": "14.0",
-          "release": "2024-09-09",
-          "recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.8.16.EP.STDEE.N11A_a37872551c_14.0.zip",
-          "fastboot": "duchamp_ep_stdee_images_OS1.0.24.8.16.EP.STDEE.N11A_20240816.0000.00_14.0_cn_8f7cc3cdf1.tgz",
-          "ctelecom": "duchamp_ep_stdee_images_OS1.0.24.8.16.EP.STDEE.N11A_20240816.0000.00_14.0_cn_chinatelecom_79efe8bd06.tgz"
-        },
-        "OS1.0.24.5.16.EP.STDEE.N11A": {
-          "os": "OS1.0.24.5.16.EP.STDEE.N11A",
-          "android": "14.0",
-          "release": "2024-06-18",
-          "recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.5.16.EP.STDEE.N11A_3416f5a2df_14.0.zip",
-          "fastboot": "duchamp_ep_stdee_images_OS1.0.24.5.16.EP.STDEE.N11A_20240516.0000.00_14.0_cn_4980e0a398.tgz",
-          "ctelecom": "duchamp_ep_stdee_images_OS1.0.24.5.16.EP.STDEE.N11A_20240516.0000.00_14.0_cn_chinatelecom_7c39133120.tgz"
-        },
-        "OS1.0.24.3.8.EP.STDEE.N11A": {
-          "os": "OS1.0.24.3.8.EP.STDEE.N11A",
-          "android": "14.0",
-          "release": "2024-03-20",
-          "recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.3.8.EP.STDEE.N11A_8fdedaee5b_14.0.zip",
-          "fastboot": "duchamp_ep_stdee_images_OS1.0.24.3.8.EP.STDEE.N11A_20240308.0000.00_14.0_cn_1f738a4c51.tgz",
-          "ctelecom": "duchamp_ep_stdee_images_OS1.0.24.3.8.EP.STDEE.N11A_20240308.0000.00_14.0_cn_chinatelecom_d1e4206db9.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾省正式版",
-        "en": "Xiaomi HyperOS China Taiwan Province Stable"
-      },
-      "branchCode": "duchamp_tw_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X6 Pro 5G",
-        "en": "POCO X6 Pro 5G"
-      },
-      "idtag": "CNTP",
-      "tag": "TWXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.3.0.WNLTWXM": {
-          "os": "OS3.0.3.0.WNLTWXM",
-          "android": "16.0",
-          "release": "2026-04-29",
-          "recovery": "duchamp_tw_global-ota_full-OS3.0.3.0.WNLTWXM-user-16.0-448970bc64.zip",
-          "fastboot": ""
-        },
-        "OS2.0.208.0.VNLTWXM": {
-          "os": "OS2.0.208.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-12-19",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.208.0.VNLTWXM-user-15.0-c75c550761.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.208.0.VNLTWXM_20251202.0000.00_15.0_tw_2d3dd29925.tgz"
-        },
-        "OS2.0.207.0.VNLTWXM": {
-          "os": "OS2.0.207.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-11-17",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.207.0.VNLTWXM-user-15.0-0050d280dd.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.207.0.VNLTWXM_20251103.0000.00_15.0_tw_e17d9fbc41.tgz"
-        },
-        "OS2.0.206.0.VNLTWXM": {
-          "os": "OS2.0.206.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-10-25",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.206.0.VNLTWXM-user-15.0-a058eba44a.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.206.0.VNLTWXM_20251014.0000.00_15.0_tw_50342bc80e.tgz"
-        },
-        "OS2.0.205.0.VNLTWXM": {
-          "os": "OS2.0.205.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-09-26",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.205.0.VNLTWXM-user-15.0-3982aba7f3.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.205.0.VNLTWXM_20250916.0000.00_15.0_tw_b1876944ed.tgz"
-        },
-        "OS2.0.204.0.VNLTWXM": {
-          "os": "OS2.0.204.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-08-26",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.204.0.VNLTWXM-user-15.0-72b69dc693.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.204.0.VNLTWXM_20250808.0000.00_15.0_tw_5e847498aa.tgz"
-        },
-        "OS2.0.200.0.VNLTWXM": {
-          "os": "OS2.0.200.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-07-18",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.200.0.VNLTWXM-user-15.0-0a17f64350.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.200.0.VNLTWXM_20250630.0000.00_15.0_tw_e293bd2aa5.tgz"
-        },
-        "OS2.0.103.0.VNLTWXM": {
-          "os": "OS2.0.103.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-06-16",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.103.0.VNLTWXM-user-15.0-8a1d16089b.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.103.0.VNLTWXM_20250604.0000.00_15.0_tw_2194128010.tgz"
-        },
-        "OS2.0.102.0.VNLTWXM": {
-          "os": "OS2.0.102.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-05-07",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.102.0.VNLTWXM-user-15.0-8e8294dfcf.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.102.0.VNLTWXM_20250409.0000.00_15.0_tw_a484179bcf.tgz"
-        },
-        "OS2.0.101.0.VNLTWXM": {
-          "os": "OS2.0.101.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-03-21",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.101.0.VNLTWXM-user-15.0-61d5adea17.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.101.0.VNLTWXM_20250307.0000.00_15.0_tw_797baca887.tgz"
-        },
-        "OS2.0.1.0.VNLTWXM": {
-          "os": "OS2.0.1.0.VNLTWXM",
-          "android": "15.0",
-          "release": "2025-02-12",
-          "recovery": "duchamp_tw_global-ota_full-OS2.0.1.0.VNLTWXM-user-15.0-447bb79831.zip",
-          "fastboot": "duchamp_tw_global_images_OS2.0.1.0.VNLTWXM_20241223.0000.00_15.0_tw_48b20e6e89.tgz"
-        },
-        "OS1.0.13.0.UNLTWXM": {
-          "os": "OS1.0.13.0.UNLTWXM",
-          "android": "14.0",
-          "release": "2024-12-30",
-          "recovery": "miui_DUCHAMPTWGlobal_OS1.0.13.0.UNLTWXM_12f2a6b69d_14.0.zip",
-          "fastboot": "duchamp_tw_global_images_OS1.0.13.0.UNLTWXM_20241219.0000.00_14.0_tw_c94c6b526e.tgz"
-        },
-        "OS1.0.11.0.UNLTWXM": {
-          "os": "OS1.0.11.0.UNLTWXM",
-          "android": "14.0",
-          "release": "2024-11-22",
-          "recovery": "miui_DUCHAMPTWGlobal_OS1.0.11.0.UNLTWXM_0fd9c51a24_14.0.zip",
-          "fastboot": "duchamp_tw_global_images_OS1.0.11.0.UNLTWXM_20241030.0000.00_14.0_tw_258c286a4b.tgz"
-        },
-        "OS1.0.10.0.UNLTWXM": {
-          "os": "OS1.0.10.0.UNLTWXM",
-          "android": "14.0",
-          "release": "2024-10-18",
-          "recovery": "miui_DUCHAMPTWGlobal_OS1.0.10.0.UNLTWXM_94141a6116_14.0.zip",
-          "fastboot": "duchamp_tw_global_images_OS1.0.10.0.UNLTWXM_20241001.0000.00_14.0_tw_721fac475a.tgz"
-        },
-        "OS1.0.9.0.UNLTWXM": {
-          "os": "OS1.0.9.0.UNLTWXM",
-          "android": "14.0",
-          "release": "2024-09-21",
-          "recovery": "miui_DUCHAMPTWGlobal_OS1.0.9.0.UNLTWXM_9f848165c9_14.0.zip",
-          "fastboot": "duchamp_tw_global_images_OS1.0.9.0.UNLTWXM_20240828.0000.00_14.0_tw_b5358297f8.tgz"
-        },
-        "OS1.0.7.0.UNLTWXM": {
-          "os": "OS1.0.7.0.UNLTWXM",
-          "android": "14.0",
-          "release": "2024-08-19",
-          "recovery": "miui_DUCHAMPTWGlobal_OS1.0.7.0.UNLTWXM_f0f1e37fae_14.0.zip",
-          "fastboot": "duchamp_tw_global_images_OS1.0.7.0.UNLTWXM_20240722.0000.00_14.0_tw_a41d81fae8.tgz"
-        },
-        "OS1.0.6.0.UNLTWXM": {
-          "os": "OS1.0.6.0.UNLTWXM",
-          "android": "14.0",
-          "release": "2024-06-06",
-          "recovery": "miui_DUCHAMPTWGlobal_OS1.0.6.0.UNLTWXM_d7b158128b_14.0.zip",
-          "fastboot": "duchamp_tw_global_images_OS1.0.6.0.UNLTWXM_20240523.0000.00_14.0_tw_603f05f301.tgz"
-        },
-        "OS1.0.5.0.UNLTWXM": {
-          "os": "OS1.0.5.0.UNLTWXM",
-          "android": "14.0",
-          "release": "2024-03-20",
-          "recovery": "miui_DUCHAMPTWGlobal_OS1.0.5.0.UNLTWXM_751792b794_14.0.zip",
-          "fastboot": "duchamp_tw_global_images_OS1.0.5.0.UNLTWXM_20240317.0000.00_14.0_tw_4a954fb992.tgz"
-        },
-        "OS1.0.2.0.UNLTWXM": {
-          "os": "OS1.0.2.0.UNLTWXM",
-          "android": "14.0",
-          "release": "2024-01-12",
-          "recovery": "miui_DUCHAMPTWGlobal_OS1.0.2.0.UNLTWXM_eea97f99a2_14.0.zip",
-          "fastboot": "duchamp_tw_global_images_OS1.0.2.0.UNLTWXM_20240101.0000.00_14.0_tw_a14aaad30e.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "duchamp_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X6 Pro 5G",
-        "en": "POCO X6 Pro 5G"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.6.0.WNLMIXM": {
-          "os": "OS3.0.6.0.WNLMIXM",
-          "android": "16.0",
-          "release": "2026-04-24",
-          "recovery": "duchamp_global-ota_full-OS3.0.6.0.WNLMIXM-user-16.0-29842474e8.zip",
-          "fastboot": ""
-        },
-        "OS3.0.4.0.WNLMIXM": {
-          "os": "OS3.0.4.0.WNLMIXM",
-          "android": "16.0",
-          "release": "2026-04-01",
-          "recovery": "duchamp_global-ota_full-OS3.0.4.0.WNLMIXM-user-16.0-f4c0028ad2.zip",
-          "fastboot": ""
-        },
-        "OS2.0.209.0.VNLMIXM": {
-          "os": "OS2.0.209.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-12-27",
-          "recovery": "duchamp_global-ota_full-OS2.0.209.0.VNLMIXM-user-15.0-e41e4290bf.zip",
-          "fastboot": "duchamp_global_images_OS2.0.209.0.VNLMIXM_20251217.0000.00_15.0_global_65430655b6.tgz"
-        },
-        "OS2.0.207.0.VNLMIXM": {
-          "os": "OS2.0.207.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-11-17",
-          "recovery": "duchamp_global-ota_full-OS2.0.207.0.VNLMIXM-user-15.0-344cc52711.zip",
-          "fastboot": "duchamp_global_images_OS2.0.207.0.VNLMIXM_20251103.0000.00_15.0_global_6161ab5af7.tgz"
-        },
-        "OS2.0.206.0.VNLMIXM": {
-          "os": "OS2.0.206.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-10-25",
-          "recovery": "duchamp_global-ota_full-OS2.0.206.0.VNLMIXM-user-15.0-7e806c0923.zip",
-          "fastboot": "duchamp_global_images_OS2.0.206.0.VNLMIXM_20251014.0000.00_15.0_global_99a2afc896.tgz"
-        },
-        "OS2.0.205.0.VNLMIXM": {
-          "os": "OS2.0.205.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-09-26",
-          "recovery": "duchamp_global-ota_full-OS2.0.205.0.VNLMIXM-user-15.0-42f385fe84.zip",
-          "fastboot": "duchamp_global_images_OS2.0.205.0.VNLMIXM_20250916.0000.00_15.0_global_eef10fab5a.tgz"
-        },
-        "OS2.0.204.0.VNLMIXM": {
-          "os": "OS2.0.204.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-08-26",
-          "recovery": "duchamp_global-ota_full-OS2.0.204.0.VNLMIXM-user-15.0-a0c6a02d5c.zip",
-          "fastboot": "duchamp_global_images_OS2.0.204.0.VNLMIXM_20250808.0000.00_15.0_global_d1cf86d2ca.tgz"
-        },
-        "OS2.0.200.0.VNLMIXM": {
-          "os": "OS2.0.200.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-07-07",
-          "recovery": "duchamp_global-ota_full-OS2.0.200.0.VNLMIXM-user-15.0-7fddb30aa0.zip",
-          "fastboot": "duchamp_global_images_OS2.0.200.0.VNLMIXM_20250620.0000.00_15.0_global_d415e74a3f.tgz"
-        },
-        "OS2.0.104.0.VNLMIXM": {
-          "os": "OS2.0.104.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-06-26",
-          "recovery": "duchamp_global-ota_full-OS2.0.104.0.VNLMIXM-user-15.0-52960e4a17.zip",
-          "fastboot": "duchamp_global_images_OS2.0.104.0.VNLMIXM_20250605.0000.00_15.0_global_2d7a5d9fe1.tgz"
-        },
-        "OS2.0.103.0.VNLMIXM": {
-          "os": "OS2.0.103.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-05-17",
-          "recovery": "duchamp_global-ota_full-OS2.0.103.0.VNLMIXM-user-15.0-f61b43e8c6.zip",
-          "fastboot": "duchamp_global_images_OS2.0.103.0.VNLMIXM_20250428.0000.00_15.0_global_7831288965.tgz"
-        },
-        "OS2.0.101.0.VNLMIXM": {
-          "os": "OS2.0.101.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-03-21",
-          "recovery": "duchamp_global-ota_full-OS2.0.101.0.VNLMIXM-user-15.0-13c1dac60f.zip",
-          "fastboot": "duchamp_global_images_OS2.0.101.0.VNLMIXM_20250307.0000.00_15.0_global_87c5889096.tgz"
-        },
-        "OS2.0.100.0.VNLMIXM": {
-          "os": "OS2.0.100.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-03-03",
-          "recovery": "duchamp_global-ota_full-OS2.0.100.0.VNLMIXM-user-15.0-7dd6434acf.zip",
-          "fastboot": "duchamp_global_images_OS2.0.100.0.VNLMIXM_20250213.0000.00_15.0_global_00bda7d7a6.tgz"
-        },
-        "OS2.0.1.0.VNLMIXM": {
-          "os": "OS2.0.1.0.VNLMIXM",
-          "android": "15.0",
-          "release": "2025-01-15",
-          "recovery": "duchamp_global-ota_full-OS2.0.1.0.VNLMIXM-user-15.0-681cd7a65d.zip",
-          "fastboot": "duchamp_global_images_OS2.0.1.0.VNLMIXM_20241220.0000.00_15.0_global_0c2eed9226.tgz"
-        },
-        "OS1.0.17.0.UNLMIXM": {
-          "os": "OS1.0.17.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-12-26",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.17.0.UNLMIXM_c9707e92fc_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.17.0.UNLMIXM_20241218.0000.00_14.0_global_8cea5c38f4.tgz"
-        },
-        "OS1.0.15.0.UNLMIXM": {
-          "os": "OS1.0.15.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-12-09",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.15.0.UNLMIXM_4c311f2d69_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.14.0.UNLMIXM": {
-          "os": "OS1.0.14.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-11-11",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.14.0.UNLMIXM_bb7b34e392_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.14.0.UNLMIXM_20241028.0000.00_14.0_global_83a67e29d1.tgz"
-        },
-        "OS1.0.13.0.UNLMIXM": {
-          "os": "OS1.0.13.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-10-15",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.13.0.UNLMIXM_36338c4caa_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.13.0.UNLMIXM_20240924.0000.00_14.0_global_4f4567f973.tgz"
-        },
-        "OS1.0.12.0.UNLMIXM": {
-          "os": "OS1.0.12.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-09-17",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.12.0.UNLMIXM_20b6105f34_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.12.0.UNLMIXM_20240828.0000.00_14.0_global_c1cc4cbefd.tgz"
-        },
-        "OS1.0.10.0.UNLMIXM": {
-          "os": "OS1.0.10.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-08-19",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.10.0.UNLMIXM_4d63180e8b_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.10.0.UNLMIXM_20240717.0000.00_14.0_global_362e5ce0fd.tgz"
-        },
-        "OS1.0.9.0.UNLMIXM": {
-          "os": "OS1.0.9.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-05-27",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.9.0.UNLMIXM_c736336dab_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.9.0.UNLMIXM_20240516.0000.00_14.0_global_8947b12a53.tgz"
-        },
-        "OS1.0.8.0.UNLMIXM": {
-          "os": "OS1.0.8.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-03-16",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.8.0.UNLMIXM_61da96200b_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.8.0.UNLMIXM_20240312.0000.00_14.0_global_8a485ee70f.tgz"
-        },
-        "OS1.0.7.0.UNLMIXM": {
-          "os": "OS1.0.7.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-03-06",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.7.0.UNLMIXM_759d6c1865_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.4.0.UNLMIXM": {
-          "os": "OS1.0.4.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-01-17",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.4.0.UNLMIXM_b6144d1e98_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.4.0.UNLMIXM_20240108.0000.00_14.0_global_0dc6b38f48.tgz"
-        },
-        "OS1.0.2.0.UNLMIXM": {
-          "os": "OS1.0.2.0.UNLMIXM",
-          "android": "14.0",
-          "release": "2024-01-12",
-          "recovery": "miui_DUCHAMPGlobal_OS1.0.2.0.UNLMIXM_eeaccaffa2_14.0.zip",
-          "fastboot": "duchamp_global_images_OS1.0.2.0.UNLMIXM_20231221.0000.00_14.0_global_33cdc27f06.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "duchamp_eea_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X6 Pro 5G",
-        "en": "POCO X6 Pro 5G"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.4.0.WNLEUXM": {
-          "os": "OS3.0.4.0.WNLEUXM",
-          "android": "16.0",
-          "release": "2026-03-06",
-          "recovery": "duchamp_eea_global-ota_full-OS3.0.4.0.WNLEUXM-user-16.0-ceec5da513.zip",
-          "fastboot": "duchamp_eea_global_images_OS3.0.4.0.WNLEUXM_20260205.0000.00_16.0_eea_c341623d77.tgz"
-        },
-        "OS3.0.3.0.WNLEUXM": {
-          "os": "OS3.0.3.0.WNLEUXM",
-          "android": "16.0",
-          "release": "2026-01-26",
-          "recovery": "duchamp_eea_global-ota_full-OS3.0.3.0.WNLEUXM-user-16.0-126de9fdc2.zip",
-          "fastboot": "duchamp_eea_global_images_OS3.0.3.0.WNLEUXM_20260113.0000.00_16.0_eea_763233356e.tgz"
-        },
-        "OS2.0.210.0.VNLEUXM": {
-          "os": "OS2.0.210.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2026-01-10",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.210.0.VNLEUXM-user-15.0-078eeb9c1c.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.210.0.VNLEUXM_20251225.0000.00_15.0_eea_35f1a9faae.tgz"
-        },
-        "OS2.0.209.0.VNLEUXM": {
-          "os": "OS2.0.209.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2025-11-10",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.209.0.VNLEUXM-user-15.0-da9f305cad.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.209.0.VNLEUXM_20251024.0000.00_15.0_eea_5d48571ed6.tgz"
-        },
-        "OS2.0.208.0.VNLEUXM": {
-          "os": "OS2.0.208.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2025-10-21",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.208.0.VNLEUXM-user-15.0-84b4c3191d.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.208.0.VNLEUXM_20250925.0000.00_15.0_eea_cc8e3486fc.tgz"
-        },
-        "OS2.0.207.0.VNLEUXM": {
-          "os": "OS2.0.207.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2025-09-24",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.207.0.VNLEUXM-user-15.0-927e3f4376.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.207.0.VNLEUXM_20250916.0000.00_15.0_eea_0af122b70c.tgz"
-        },
-        "OS2.0.206.0.VNLEUXM": {
-          "os": "OS2.0.206.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2025-08-11",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.206.0.VNLEUXM-user-15.0-095d762279.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.206.0.VNLEUXM_20250801.0000.00_15.0_eea_d17fdabee7.tgz"
-        },
-        "OS2.0.201.0.VNLEUXM": {
-          "os": "OS2.0.201.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2025-06-24",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.201.0.VNLEUXM-user-15.0-4375a9e64d.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.201.0.VNLEUXM_20250618.0000.00_15.0_eea_d6f34c2709.tgz"
-        },
-        "OS2.0.104.0.VNLEUXM": {
-          "os": "OS2.0.104.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2025-05-06",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.104.0.VNLEUXM-user-15.0-230e487891.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.104.0.VNLEUXM_20250409.0000.00_15.0_eea_e792d3d660.tgz"
-        },
-        "OS2.0.103.0.VNLEUXM": {
-          "os": "OS2.0.103.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2025-03-21",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.103.0.VNLEUXM-user-15.0-e3e172fca9.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.103.0.VNLEUXM_20250307.0000.00_15.0_eea_a4ca1d8802.tgz"
-        },
-        "OS2.0.102.0.VNLEUXM": {
-          "os": "OS2.0.102.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2025-03-03",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.102.0.VNLEUXM-user-15.0-1937d9053b.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.102.0.VNLEUXM_20250219.0000.00_15.0_eea_8d468de07a.tgz"
-        },
-        "OS2.0.2.0.VNLEUXM": {
-          "os": "OS2.0.2.0.VNLEUXM",
-          "android": "15.0",
-          "release": "2024-12-23",
-          "recovery": "duchamp_eea_global-ota_full-OS2.0.2.0.VNLEUXM-user-15.0-f72d3e9b10.zip",
-          "fastboot": "duchamp_eea_global_images_OS2.0.2.0.VNLEUXM_20241212.0000.00_15.0_eea_18cd7bba92.tgz"
-        },
-        "OS1.0.14.0.UNLEUXM": {
-          "os": "OS1.0.14.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-11-18",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.14.0.UNLEUXM_dceb886266_14.0.zip",
-          "fastboot": "duchamp_eea_global_images_OS1.0.14.0.UNLEUXM_20241028.0000.00_14.0_eea_e3abc2d4d6.tgz"
-        },
-        "OS1.0.12.0.UNLEUXM": {
-          "os": "OS1.0.12.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-10-15",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.12.0.UNLEUXM_04b7c5cd11_14.0.zip",
-          "fastboot": "duchamp_eea_global_images_OS1.0.12.0.UNLEUXM_20240924.0000.00_14.0_eea_49b1d3da7f.tgz"
-        },
-        "OS1.0.11.0.UNLEUXM": {
-          "os": "OS1.0.11.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-09-21",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.11.0.UNLEUXM_bea98a5b2e_14.0.zip",
-          "fastboot": "duchamp_eea_global_images_OS1.0.11.0.UNLEUXM_20240828.0000.00_14.0_eea_a031433ea8.tgz"
-        },
-        "OS1.0.9.0.UNLEUXM": {
-          "os": "OS1.0.9.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-08-05",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.9.0.UNLEUXM_10c31e3c73_14.0.zip",
-          "fastboot": "duchamp_eea_global_images_OS1.0.9.0.UNLEUXM_20240717.0000.00_14.0_eea_e8ab5338cb.tgz"
-        },
-        "OS1.0.8.0.UNLEUXM": {
-          "os": "OS1.0.8.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-06-03",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.8.0.UNLEUXM_9d2dfcd32e_14.0.zip",
-          "fastboot": "duchamp_eea_global_images_OS1.0.8.0.UNLEUXM_20240516.0000.00_14.0_eea_92ec7bddb2.tgz"
-        },
-        "OS1.0.7.0.UNLEUXM": {
-          "os": "OS1.0.7.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-03-16",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.7.0.UNLEUXM_9eceeb825b_14.0.zip",
-          "fastboot": "duchamp_eea_global_images_OS1.0.7.0.UNLEUXM_20240312.0000.00_14.0_eea_0963269fcf.tgz"
-        },
-        "OS1.0.6.0.UNLEUXM": {
-          "os": "OS1.0.6.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-03-06",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.6.0.UNLEUXM_11c176bf3c_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.4.0.UNLEUXM": {
-          "os": "OS1.0.4.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-01-30",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.4.0.UNLEUXM_079e51d638_14.0.zip",
-          "fastboot": "duchamp_eea_global_images_OS1.0.4.0.UNLEUXM_20240103.0000.00_14.0_eea_02aabc5f10.tgz"
-        },
-        "OS1.0.1.0.UNLEUXM": {
-          "os": "OS1.0.1.0.UNLEUXM",
-          "android": "14.0",
-          "release": "2024-01-12",
-          "recovery": "miui_DUCHAMPEEAGlobal_OS1.0.1.0.UNLEUXM_eade9919a5_14.0.zip",
-          "fastboot": "duchamp_eea_global_images_OS1.0.1.0.UNLEUXM_20231209.0000.00_14.0_eea_abeb98a92f.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "duchamp_ru_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X6 Pro 5G",
-        "en": "POCO X6 Pro 5G"
-      },
-      "idtag": "RUSO",
-      "tag": "RUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.209.0.VNLRUXM": {
-          "os": "OS2.0.209.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-12-19",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.209.0.VNLRUXM-user-15.0-ae780e65e0.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.209.0.VNLRUXM_20251202.0000.00_15.0_ru_cbc9e896d2.tgz"
-        },
-        "OS2.0.208.0.VNLRUXM": {
-          "os": "OS2.0.208.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-11-17",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.208.0.VNLRUXM-user-15.0-a2daeedd65.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.208.0.VNLRUXM_20251103.0000.00_15.0_ru_2353b96a5a.tgz"
-        },
-        "OS2.0.207.0.VNLRUXM": {
-          "os": "OS2.0.207.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-10-25",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.207.0.VNLRUXM-user-15.0-7e51505ab4.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.207.0.VNLRUXM_20251014.0000.00_15.0_ru_35026c269c.tgz"
-        },
-        "OS2.0.206.0.VNLRUXM": {
-          "os": "OS2.0.206.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-09-26",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.206.0.VNLRUXM-user-15.0-4541c609f2.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.206.0.VNLRUXM_20250916.0000.00_15.0_ru_53b7e51a63.tgz"
-        },
-        "OS2.0.205.0.VNLRUXM": {
-          "os": "OS2.0.205.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-08-26",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.205.0.VNLRUXM-user-15.0-68efed0d7a.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.205.0.VNLRUXM_20250808.0000.00_15.0_ru_5466979e12.tgz"
-        },
-        "OS2.0.201.0.VNLRUXM": {
-          "os": "OS2.0.201.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-07-18",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.201.0.VNLRUXM-user-15.0-12d3404ee5.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.201.0.VNLRUXM_20250630.0000.00_15.0_ru_01ed59e468.tgz"
-        },
-        "OS2.0.104.0.VNLRUXM": {
-          "os": "OS2.0.104.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-06-24",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.104.0.VNLRUXM-user-15.0-dcacc53ac4.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.104.0.VNLRUXM_20250605.0000.00_15.0_ru_b5cbb9888a.tgz"
-        },
-        "OS2.0.103.0.VNLRUXM": {
-          "os": "OS2.0.103.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-05-12",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.103.0.VNLRUXM-user-15.0-3a6e726c92.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.103.0.VNLRUXM_20250428.0000.00_15.0_ru_f20ed88e29.tgz"
-        },
-        "OS2.0.101.0.VNLRUXM": {
-          "os": "OS2.0.101.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-03-21",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.101.0.VNLRUXM-user-15.0-0c568f7fd0.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.101.0.VNLRUXM_20250307.0000.00_15.0_ru_9972577b4d.tgz"
-        },
-        "OS2.0.1.0.VNLRUXM": {
-          "os": "OS2.0.1.0.VNLRUXM",
-          "android": "15.0",
-          "release": "2025-02-12",
-          "recovery": "duchamp_ru_global-ota_full-OS2.0.1.0.VNLRUXM-user-15.0-fd5cd3a55f.zip",
-          "fastboot": "duchamp_ru_global_images_OS2.0.1.0.VNLRUXM_20241223.0000.00_15.0_ru_768040ca49.tgz"
-        },
-        "OS1.0.11.0.UNLRUXM": {
-          "os": "OS1.0.11.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-12-26",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.11.0.UNLRUXM_b391d39bb5_14.0.zip",
-          "fastboot": "duchamp_ru_global_images_OS1.0.11.0.UNLRUXM_20241219.0000.00_14.0_ru_3d5f139eff.tgz"
-        },
-        "OS1.0.10.0.UNLRUXM": {
-          "os": "OS1.0.10.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-12-13",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.10.0.UNLRUXM_eb352e0684_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.9.0.UNLRUXM": {
-          "os": "OS1.0.9.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-11-18",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.9.0.UNLRUXM_50aae88e60_14.0.zip",
-          "fastboot": "duchamp_ru_global_images_OS1.0.9.0.UNLRUXM_20241030.0000.00_14.0_ru_b75daddac1.tgz"
-        },
-        "OS1.0.8.0.UNLRUXM": {
-          "os": "OS1.0.8.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-10-18",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.8.0.UNLRUXM_75f3d26487_14.0.zip",
-          "fastboot": "duchamp_ru_global_images_OS1.0.8.0.UNLRUXM_20241001.0000.00_14.0_ru_30d1c7c9aa.tgz"
-        },
-        "OS1.0.7.0.UNLRUXM": {
-          "os": "OS1.0.7.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-09-17",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.7.0.UNLRUXM_caa446366e_14.0.zip",
-          "fastboot": "duchamp_ru_global_images_OS1.0.7.0.UNLRUXM_20240828.0000.00_14.0_ru_02aa0ec603.tgz"
-        },
-        "OS1.0.5.0.UNLRUXM": {
-          "os": "OS1.0.5.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-08-05",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.5.0.UNLRUXM_8f510f7280_14.0.zip",
-          "fastboot": "duchamp_ru_global_images_OS1.0.5.0.UNLRUXM_20240722.0000.00_14.0_ru_0804c2fd51.tgz"
-        },
-        "OS1.0.4.0.UNLRUXM": {
-          "os": "OS1.0.4.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-05-30",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.4.0.UNLRUXM_7fa20554ff_14.0.zip",
-          "fastboot": "duchamp_ru_global_images_OS1.0.4.0.UNLRUXM_20240516.0000.00_14.0_ru_742bb695c8.tgz"
-        },
-        "OS1.0.3.0.UNLRUXM": {
-          "os": "OS1.0.3.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-03-20",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.3.0.UNLRUXM_84860639de_14.0.zip",
-          "fastboot": "duchamp_ru_global_images_OS1.0.3.0.UNLRUXM_20240317.0000.00_14.0_ru_b727d621b6.tgz"
-        },
-        "OS1.0.1.0.UNLRUXM": {
-          "os": "OS1.0.1.0.UNLRUXM",
-          "android": "14.0",
-          "release": "2024-01-12",
-          "recovery": "miui_DUCHAMPRUGlobal_OS1.0.1.0.UNLRUXM_f2d86e43b8_14.0.zip",
-          "fastboot": "duchamp_ru_global_images_OS1.0.1.0.UNLRUXM_20231209.0000.00_14.0_ru_4b6081bdf9.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度正式版",
-        "en": "Xiaomi HyperOS India Stable"
-      },
-      "branchCode": "duchamp_in_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X6 Pro 5G",
-        "en": "POCO X6 Pro 5G"
-      },
-      "idtag": "INSO",
-      "tag": "INXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "in",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.5.0.WNLINXM": {
-          "os": "OS3.0.5.0.WNLINXM",
-          "android": "16.0",
-          "release": "2026-04-24",
-          "recovery": "duchamp_in_global-ota_full-OS3.0.5.0.WNLINXM-user-16.0-e526100bb5.zip",
-          "fastboot": ""
-        },
-        "OS3.0.3.0.WNLINXM": {
-          "os": "OS3.0.3.0.WNLINXM",
-          "android": "16.0",
-          "release": "2026-04-01",
-          "recovery": "duchamp_in_global-ota_full-OS3.0.3.0.WNLINXM-user-16.0-23efdedf25.zip",
-          "fastboot": ""
-        },
-        "OS2.0.208.0.VNLINXM": {
-          "os": "OS2.0.208.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-11-17",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.208.0.VNLINXM-user-15.0-4a0987f359.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.208.0.VNLINXM_20251103.0000.00_15.0_in_ae6c946c57.tgz"
-        },
-        "OS2.0.207.0.VNLINXM": {
-          "os": "OS2.0.207.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-10-25",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.207.0.VNLINXM-user-15.0-f19ce594a3.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.207.0.VNLINXM_20251014.0000.00_15.0_in_f8bfe75405.tgz"
-        },
-        "OS2.0.206.0.VNLINXM": {
-          "os": "OS2.0.206.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-09-26",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.206.0.VNLINXM-user-15.0-1185650d9c.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.206.0.VNLINXM_20250916.0000.00_15.0_in_0aa753c34e.tgz"
-        },
-        "OS2.0.205.0.VNLINXM": {
-          "os": "OS2.0.205.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-08-26",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.205.0.VNLINXM-user-15.0-76aee47b5a.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.205.0.VNLINXM_20250808.0000.00_15.0_in_dc0da3daa5.tgz"
-        },
-        "OS2.0.201.0.VNLINXM": {
-          "os": "OS2.0.201.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-07-07",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.201.0.VNLINXM-user-15.0-8838bd5bfd.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.201.0.VNLINXM_20250620.0000.00_15.0_in_0bcd4fdb4e.tgz"
-        },
-        "OS2.0.102.0.VNLINXM": {
-          "os": "OS2.0.102.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-05-14",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.102.0.VNLINXM-user-15.0-d76b07ab30.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.102.0.VNLINXM_20250429.0000.00_15.0_in_248dcc1ae4.tgz"
-        },
-        "OS2.0.101.0.VNLINXM": {
-          "os": "OS2.0.101.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-04-08",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.101.0.VNLINXM-user-15.0-d7d6140f83.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.101.0.VNLINXM_20250321.0000.00_15.0_in_472cd91f02.tgz"
-        },
-        "OS2.0.3.0.VNLINXM": {
-          "os": "OS2.0.3.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-02-21",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.3.0.VNLINXM-user-15.0-ed61b0cede.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.3.0.VNLINXM_20250208.0000.00_15.0_in_e8a6e66de6.tgz"
-        },
-        "OS2.0.2.0.VNLINXM": {
-          "os": "OS2.0.2.0.VNLINXM",
-          "android": "15.0",
-          "release": "2025-02-15",
-          "recovery": "duchamp_in_global-ota_full-OS2.0.2.0.VNLINXM-user-15.0-d7923bcf2a.zip",
-          "fastboot": "duchamp_in_global_images_OS2.0.2.0.VNLINXM_20250108.0000.00_15.0_in_fe4e51c57f.tgz"
-        },
-        "OS1.0.16.0.UNLINXM": {
-          "os": "OS1.0.16.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-12-24",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.16.0.UNLINXM_45d4dce885_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.16.0.UNLINXM_20241218.0000.00_14.0_in_0a8e599ae1.tgz"
-        },
-        "OS1.0.14.0.UNLINXM": {
-          "os": "OS1.0.14.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-12-09",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.14.0.UNLINXM_5a0be93b59_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.13.0.UNLINXM": {
-          "os": "OS1.0.13.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-11-18",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.13.0.UNLINXM_51a8c9c065_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.13.0.UNLINXM_20241030.0000.00_14.0_in_0cbc1da547.tgz"
-        },
-        "OS1.0.12.0.UNLINXM": {
-          "os": "OS1.0.12.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-10-18",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.12.0.UNLINXM_590d54d11e_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.12.0.UNLINXM_20241001.0000.00_14.0_in_a00d476964.tgz"
-        },
-        "OS1.0.11.0.UNLINXM": {
-          "os": "OS1.0.11.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-09-21",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.11.0.UNLINXM_f4b2bf800a_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.11.0.UNLINXM_20240828.0000.00_14.0_in_8228e7e557.tgz"
-        },
-        "OS1.0.9.0.UNLINXM": {
-          "os": "OS1.0.9.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-08-05",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.9.0.UNLINXM_838750638d_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.9.0.UNLINXM_20240722.0000.00_14.0_in_2495557b74.tgz"
-        },
-        "OS1.0.8.0.UNLINXM": {
-          "os": "OS1.0.8.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-06-06",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.8.0.UNLINXM_b6457b4ca2_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.8.0.UNLINXM_20240523.0000.00_14.0_in_efc0247a35.tgz"
-        },
-        "OS1.0.7.0.UNLINXM": {
-          "os": "OS1.0.7.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-03-16",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.7.0.UNLINXM_7e7ba3dca8_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.7.0.UNLINXM_20240312.0000.00_14.0_in_1aba7ab0b5.tgz"
-        },
-        "OS1.0.6.0.UNLINXM": {
-          "os": "OS1.0.6.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-03-11",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.6.0.UNLINXM_b5e59e814d_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.5.0.UNLINXM": {
-          "os": "OS1.0.5.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-02-20",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.5.0.UNLINXM_688b2fd297_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.5.0.UNLINXM_20240202.0000.00_14.0_in_fd83da13d1.tgz"
-        },
-        "OS1.0.1.0.UNLINXM": {
-          "os": "OS1.0.1.0.UNLINXM",
-          "android": "14.0",
-          "release": "2024-01-12",
-          "recovery": "miui_DUCHAMPINGlobal_OS1.0.1.0.UNLINXM_e60a91dccd_14.0.zip",
-          "fastboot": "duchamp_in_global_images_OS1.0.1.0.UNLINXM_20231215.0000.00_14.0_in_32d880a0f5.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度尼西亚正式版",
-        "en": "Xiaomi HyperOS Indonesia Stable"
-      },
-      "branchCode": "duchamp_id_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X6 Pro 5G",
-        "en": "POCO X6 Pro 5G"
-      },
-      "idtag": "IDSO",
-      "tag": "IDXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "id",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.209.0.VNLIDXM": {
-          "os": "OS2.0.209.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-12-13",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.209.0.VNLIDXM-user-15.0-84dc2087c4.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.209.0.VNLIDXM_20251126.0000.00_15.0_id_36c91e1add.tgz"
-        },
-        "OS2.0.208.0.VNLIDXM": {
-          "os": "OS2.0.208.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-11-17",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.208.0.VNLIDXM-user-15.0-ac7064e5ea.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.208.0.VNLIDXM_20251103.0000.00_15.0_id_e9cc8a4815.tgz"
-        },
-        "OS2.0.207.0.VNLIDXM": {
-          "os": "OS2.0.207.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-10-25",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.207.0.VNLIDXM-user-15.0-15cc74b792.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.207.0.VNLIDXM_20251014.0000.00_15.0_id_3406d2821f.tgz"
-        },
-        "OS2.0.206.0.VNLIDXM": {
-          "os": "OS2.0.206.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-09-24",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.206.0.VNLIDXM-user-15.0-c4770f3452.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.206.0.VNLIDXM_20250916.0000.00_15.0_id_fff38f2d5a.tgz"
-        },
-        "OS2.0.205.0.VNLIDXM": {
-          "os": "OS2.0.205.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-08-26",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.205.0.VNLIDXM-user-15.0-b6f28d6ef7.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.205.0.VNLIDXM_20250808.0000.00_15.0_id_387d6c745e.tgz"
-        },
-        "OS2.0.201.0.VNLIDXM": {
-          "os": "OS2.0.201.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-07-17",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.201.0.VNLIDXM-user-15.0-db08268ebe.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.201.0.VNLIDXM_20250630.0000.00_15.0_id_1be442860c.tgz"
-        },
-        "OS2.0.104.0.VNLIDXM": {
-          "os": "OS2.0.104.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-06-24",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.104.0.VNLIDXM-user-15.0-641c5c6e8e.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.104.0.VNLIDXM_20250605.0000.00_15.0_id_b9a91a71b9.tgz"
-        },
-        "OS2.0.102.0.VNLIDXM": {
-          "os": "OS2.0.102.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-05-12",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.102.0.VNLIDXM-user-15.0-f926b75830.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.102.0.VNLIDXM_20250428.0000.00_15.0_id_b36634a2cd.tgz"
-        },
-        "OS2.0.100.0.VNLIDXM": {
-          "os": "OS2.0.100.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-04-22",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.100.0.VNLIDXM-user-15.0-775f89ca87.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.100.0.VNLIDXM_20250325.0000.00_15.0_id_6ec00157a7.tgz"
-        },
-        "OS2.0.3.0.VNLIDXM": {
-          "os": "OS2.0.3.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-02-21",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.3.0.VNLIDXM-user-15.0-ecfe0eb9c0.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.3.0.VNLIDXM_20250208.0000.00_15.0_id_516d2c19f1.tgz"
-        },
-        "OS2.0.2.0.VNLIDXM": {
-          "os": "OS2.0.2.0.VNLIDXM",
-          "android": "15.0",
-          "release": "2025-01-23",
-          "recovery": "duchamp_id_global-ota_full-OS2.0.2.0.VNLIDXM-user-15.0-7daca9d4cb.zip",
-          "fastboot": "duchamp_id_global_images_OS2.0.2.0.VNLIDXM_20250108.0000.00_15.0_id_9561d755c3.tgz"
-        },
-        "OS1.0.11.0.UNLIDXM": {
-          "os": "OS1.0.11.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-12-26",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.11.0.UNLIDXM_594accaf82_14.0.zip",
-          "fastboot": "duchamp_id_global_images_OS1.0.11.0.UNLIDXM_20241219.0000.00_14.0_id_0fb7ac25d5.tgz"
-        },
-        "OS1.0.10.0.UNLIDXM": {
-          "os": "OS1.0.10.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-12-13",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.10.0.UNLIDXM_88ca2a7403_14.0.zip",
-          "fastboot": ""
-        },
-        "OS1.0.9.0.UNLIDXM": {
-          "os": "OS1.0.9.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-11-18",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.9.0.UNLIDXM_80bea8031a_14.0.zip",
-          "fastboot": "duchamp_id_global_images_OS1.0.9.0.UNLIDXM_20241030.0000.00_14.0_id_6bd62349d2.tgz"
-        },
-        "OS1.0.8.0.UNLIDXM": {
-          "os": "OS1.0.8.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-10-18",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.8.0.UNLIDXM_6ab99b94d4_14.0.zip",
-          "fastboot": "duchamp_id_global_images_OS1.0.8.0.UNLIDXM_20241001.0000.00_14.0_id_64842cd98b.tgz"
-        },
-        "OS1.0.7.0.UNLIDXM": {
-          "os": "OS1.0.7.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-09-17",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.7.0.UNLIDXM_ad44c2e45b_14.0.zip",
-          "fastboot": "duchamp_id_global_images_OS1.0.7.0.UNLIDXM_20240828.0000.00_14.0_id_20eb451f84.tgz"
-        },
-        "OS1.0.5.0.UNLIDXM": {
-          "os": "OS1.0.5.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-08-05",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.5.0.UNLIDXM_c7198b1aaa_14.0.zip",
-          "fastboot": "duchamp_id_global_images_OS1.0.5.0.UNLIDXM_20240722.0000.00_14.0_id_a581bccdc7.tgz"
-        },
-        "OS1.0.4.0.UNLIDXM": {
-          "os": "OS1.0.4.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-05-20",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.4.0.UNLIDXM_9d4f6aa1a2_14.0.zip",
-          "fastboot": "duchamp_id_global_images_OS1.0.4.0.UNLIDXM_20240426.0000.00_14.0_id_8007cd664d.tgz"
-        },
-        "OS1.0.3.0.UNLIDXM": {
-          "os": "OS1.0.3.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-04-02",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.3.0.UNLIDXM_bd6220ae2b_14.0.zip",
-          "fastboot": "duchamp_id_global_images_OS1.0.3.0.UNLIDXM_20240319.0000.00_14.0_id_dd6ed83737.tgz"
-        },
-        "OS1.0.1.0.UNLIDXM": {
-          "os": "OS1.0.1.0.UNLIDXM",
-          "android": "14.0",
-          "release": "2024-01-12",
-          "recovery": "miui_DUCHAMPIDGlobal_OS1.0.1.0.UNLIDXM_c01d2ed98b_14.0.zip",
-          "fastboot": "duchamp_id_global_images_OS1.0.1.0.UNLIDXM_20231226.0000.00_14.0_id_f3aebe8002.tgz"
-        }
-      }
-    }
-  ]
+	"device": "duchamp",
+	"name": {
+		"zh": "Redmi K70E / POCO X6 Pro 5G",
+		"en": "Redmi K70E / POCO X6 Pro 5G"
+	},
+	"code": "NL",
+	"suppports": [
+		"OS1.0",
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"14.0",
+		"15.0",
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "duchamp",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi K70E",
+				"en": "Redmi K70E"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.0.10.WNLCNXM": {
+					"os": "OS3.0.0.10.WNLCNXM",
+					"android": "16.0",
+					"release": "2025-10-28",
+					"recovery": "duchamp-ota_full-OS3.0.0.10.WNLCNXM-user-16.0-68399fd273.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.5.WNLCNXM": {
+					"os": "OS3.0.0.5.WNLCNXM",
+					"android": "16.0",
+					"release": "2025-09-29",
+					"recovery": "duchamp-ota_full-OS3.0.0.5.WNLCNXM-user-16.0-486a9504e2.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.4.WNLCNXM": {
+					"os": "OS3.0.0.4.WNLCNXM",
+					"android": "16.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp-ota_full-OS3.0.0.4.WNLCNXM-user-16.0-4e4a859eae.zip",
+					"fastboot": ""
+				},
+				"OS2.0.201.3.VNLCNXM": {
+					"os": "OS2.0.201.3.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "duchamp-ota_full-OS2.0.201.3.VNLCNXM-user-15.0-0c77dfad41.zip",
+					"fastboot": ""
+				},
+				"OS2.0.200.5.VNLCNXM": {
+					"os": "OS2.0.200.5.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-05-12",
+					"recovery": "duchamp-ota_full-OS2.0.200.5.VNLCNXM-user-15.0-44c0a40b29.zip",
+					"fastboot": ""
+				},
+				"OS2.0.200.3.VNLCNXM": {
+					"os": "OS2.0.200.3.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-04-16",
+					"recovery": "duchamp-ota_full-OS2.0.200.3.VNLCNXM-user-15.0-658300dd88.zip",
+					"fastboot": ""
+				},
+				"OS2.0.0.11.VNLCNXM": {
+					"os": "OS2.0.0.11.VNLCNXM",
+					"android": "15.0",
+					"release": "2024-11-15",
+					"recovery": "duchamp-ota_full-OS2.0.0.11.VNLCNXM-user-15.0-15e5ec909f.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "duchamp",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi K70E",
+				"en": "Redmi K70E"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"show": "1",
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WNLCNXM": {
+					"os": "OS3.0.303.0.WNLCNXM",
+					"android": "16.0",
+					"release": "2026-04-15",
+					"recovery": "duchamp-ota_full-OS3.0.303.0.WNLCNXM-user-16.0-6d0030ea4e.zip",
+					"fastboot": "duchamp_images_OS3.0.303.0.WNLCNXM_20260410.0000.00_16.0_cn_8a097d5c8e.tgz",
+					"ctelecom": "duchamp_images_OS3.0.303.0.WNLCNXM_20260410.0000.00_16.0_cn_chinatelecom_f222244e77.tgz"
+				},
+				"OS3.0.5.0.WNLCNXM": {
+					"os": "OS3.0.5.0.WNLCNXM",
+					"android": "16.0",
+					"release": "2026-02-11",
+					"recovery": "duchamp-ota_full-OS3.0.5.0.WNLCNXM-user-16.0-4ec697213b.zip",
+					"fastboot": "duchamp_images_OS3.0.5.0.WNLCNXM_20260206.0000.00_16.0_cn_85de661ec2.tgz",
+					"ctelecom": "duchamp_images_OS3.0.5.0.WNLCNXM_20260206.0000.00_16.0_cn_chinatelecom_b89a6d54eb.tgz"
+				},
+				"OS3.0.3.0.WNLCNXM": {
+					"os": "OS3.0.3.0.WNLCNXM",
+					"android": "16.0",
+					"release": "2025-12-01",
+					"recovery": "duchamp-ota_full-OS3.0.3.0.WNLCNXM-user-16.0-52961fcbc2.zip",
+					"fastboot": "duchamp_images_OS3.0.3.0.WNLCNXM_20251122.0000.00_16.0_cn_c5ca72d17e.tgz",
+					"ctelecom": "duchamp_images_OS3.0.3.0.WNLCNXM_20251122.0000.00_16.0_cn_chinatelecom_5dfcdc7af1.tgz"
+				},
+				"OS3.0.2.0.WNLCNXM": {
+					"os": "OS3.0.2.0.WNLCNXM",
+					"android": "16.0",
+					"release": "2025-11-13",
+					"recovery": "duchamp-ota_full-OS3.0.2.0.WNLCNXM-user-16.0-fc5ab29dcc.zip",
+					"fastboot": "duchamp_images_OS3.0.2.0.WNLCNXM_20251107.0000.00_16.0_cn_ac5194f786.tgz",
+					"ctelecom": "duchamp_images_OS3.0.2.0.WNLCNXM_20251107.0000.00_16.0_cn_chinatelecom_42c37198d9.tgz"
+				},
+				"OS2.0.212.0.VNLCNXM": {
+					"os": "OS2.0.212.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-10-16",
+					"recovery": "duchamp-ota_full-OS2.0.212.0.VNLCNXM-user-15.0-f1e9df3044.zip",
+					"fastboot": "duchamp_images_OS2.0.212.0.VNLCNXM_20250925.0000.00_15.0_cn_448ba68554.tgz",
+					"ctelecom": "duchamp_images_OS2.0.212.0.VNLCNXM_20250925.0000.00_15.0_cn_chinatelecom_326f2a0c5c.tgz"
+				},
+				"OS2.0.210.0.VNLCNXM": {
+					"os": "OS2.0.210.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-09-16",
+					"recovery": "duchamp-ota_full-OS2.0.210.0.VNLCNXM-user-15.0-9ae35886ac.zip",
+					"fastboot": "duchamp_images_OS2.0.210.0.VNLCNXM_20250905.0000.00_15.0_cn_bf8f0c9f22.tgz",
+					"ctelecom": "duchamp_images_OS2.0.210.0.VNLCNXM_20250905.0000.00_15.0_cn_chinatelecom_9108d43ca9.tgz"
+				},
+				"OS2.0.209.0.VNLCNXM": {
+					"os": "OS2.0.209.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-08-04",
+					"recovery": "duchamp-ota_full-OS2.0.209.0.VNLCNXM-user-15.0-3089c81490.zip",
+					"fastboot": "duchamp_images_OS2.0.209.0.VNLCNXM_20250730.0000.00_15.0_cn_58cb6195f7.tgz",
+					"ctelecom": "duchamp_images_OS2.0.209.0.VNLCNXM_20250730.0000.00_15.0_cn_chinatelecom_0854123f20.tgz"
+				},
+				"OS2.0.204.0.VNLCNXM": {
+					"os": "OS2.0.204.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-06-04",
+					"recovery": "duchamp-ota_full-OS2.0.204.0.VNLCNXM-user-15.0-2af11982a0.zip",
+					"fastboot": "duchamp_images_OS2.0.204.0.VNLCNXM_20250530.0000.00_15.0_cn_6e91f15d80.tgz",
+					"ctelecom": "duchamp_images_OS2.0.204.0.VNLCNXM_20250530.0000.00_15.0_cn_chinatelecom_a215768d5a.tgz"
+				},
+				"OS2.0.110.0.VNLCNXM": {
+					"os": "OS2.0.110.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "duchamp-ota_full-OS2.0.110.0.VNLCNXM-user-15.0-cf461f73cd.zip",
+					"fastboot": "duchamp_images_OS2.0.110.0.VNLCNXM_20250515.0000.00_15.0_cn_ae14552967.tgz",
+					"ctelecom": "duchamp_images_OS2.0.110.0.VNLCNXM_20250515.0000.00_15.0_cn_chinatelecom_ea5019a617.tgz"
+				},
+				"OS2.0.108.0.VNLCNXM": {
+					"os": "OS2.0.108.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-04-22",
+					"recovery": "duchamp-ota_full-OS2.0.108.0.VNLCNXM-user-15.0-5fb1b02029.zip",
+					"fastboot": "duchamp_images_OS2.0.108.0.VNLCNXM_20250418.0000.00_15.0_cn_e8d31ead38.tgz",
+					"ctelecom": "duchamp_images_OS2.0.108.0.VNLCNXM_20250418.0000.00_15.0_cn_chinatelecom_80d1e94dad.tgz"
+				},
+				"OS2.0.107.0.VNLCNXM": {
+					"os": "OS2.0.107.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-04-09",
+					"recovery": "duchamp-ota_full-OS2.0.107.0.VNLCNXM-user-15.0-7254cda39f.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.105.0.VNLCNXM": {
+					"os": "OS2.0.105.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-03-06",
+					"recovery": "duchamp-ota_full-OS2.0.105.0.VNLCNXM-user-15.0-4f7d3a6230.zip",
+					"fastboot": "duchamp_images_OS2.0.105.0.VNLCNXM_20250305.0000.00_15.0_cn_999361ea5d.tgz",
+					"ctelecom": "duchamp_images_OS2.0.105.0.VNLCNXM_20250305.0000.00_15.0_cn_chinatelecom_dd42474900.tgz"
+				},
+				"OS2.0.104.0.VNLCNXM": {
+					"os": "OS2.0.104.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-03-03",
+					"recovery": "duchamp-ota_full-OS2.0.104.0.VNLCNXM-user-15.0-01f138cf49.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS2.0.102.0.VNLCNXM": {
+					"os": "OS2.0.102.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2025-01-14",
+					"recovery": "duchamp-ota_full-OS2.0.102.0.VNLCNXM-user-15.0-21f565d0bb.zip",
+					"fastboot": "duchamp_images_OS2.0.102.0.VNLCNXM_20250108.0000.00_15.0_cn_4d5b1b2a28.tgz",
+					"ctelecom": "duchamp_images_OS2.0.102.0.VNLCNXM_20250108.0000.00_15.0_cn_chinatelecom_89e44d1256.tgz"
+				},
+				"OS2.0.3.0.VNLCNXM": {
+					"os": "OS2.0.3.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2024-12-11",
+					"recovery": "duchamp-ota_full-OS2.0.3.0.VNLCNXM-user-15.0-3c95a2bbd6.zip",
+					"fastboot": "duchamp_images_OS2.0.3.0.VNLCNXM_20241206.0000.00_15.0_cn_f8ccc0b014.tgz",
+					"ctelecom": "duchamp_images_OS2.0.3.0.VNLCNXM_20241206.0000.00_15.0_cn_chinatelecom_cec375a5ac.tgz"
+				},
+				"OS2.0.2.0.VNLCNXM": {
+					"os": "OS2.0.2.0.VNLCNXM",
+					"android": "15.0",
+					"release": "2024-11-30",
+					"recovery": "duchamp-ota_full-OS2.0.2.0.VNLCNXM-user-15.0-061e77512c.zip",
+					"fastboot": "duchamp_images_OS2.0.2.0.VNLCNXM_20241126.0000.00_15.0_cn_de7b6d69ca.tgz",
+					"ctelecom": "duchamp_images_OS2.0.2.0.VNLCNXM_20241126.0000.00_15.0_cn_chinatelecom_51269dfbd8.tgz"
+				},
+				"OS1.0.18.0.UNLCNXM": {
+					"os": "OS1.0.18.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2024-09-20",
+					"recovery": "miui_DUCHAMP_OS1.0.18.0.UNLCNXM_f3789ac8e1_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.18.0.UNLCNXM_20240911.0000.00_14.0_cn_d42fae8ed1.tgz",
+					"ctelecom": "duchamp_images_OS1.0.18.0.UNLCNXM_20240911.0000.00_14.0_cn_chinatelecom_d0a013fd94.tgz"
+				},
+				"OS1.0.17.0.UNLCNXM": {
+					"os": "OS1.0.17.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2024-08-14",
+					"recovery": "miui_DUCHAMP_OS1.0.17.0.UNLCNXM_5dc50b9f9e_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.17.0.UNLCNXM_20240801.0000.00_14.0_cn_d933ad2b7f.tgz",
+					"ctelecom": "duchamp_images_OS1.0.17.0.UNLCNXM_20240801.0000.00_14.0_cn_chinatelecom_4f97040142.tgz"
+				},
+				"OS1.0.16.0.UNLCNXM": {
+					"os": "OS1.0.16.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2024-07-10",
+					"recovery": "miui_DUCHAMP_OS1.0.16.0.UNLCNXM_9bd8d10fba_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.16.0.UNLCNXM_20240705.0000.00_14.0_cn_78f7c339fd.tgz",
+					"ctelecom": "duchamp_images_OS1.0.16.0.UNLCNXM_20240705.0000.00_14.0_cn_chinatelecom_d904797fca.tgz"
+				},
+				"OS1.0.15.0.UNLCNXM": {
+					"os": "OS1.0.15.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2024-06-07",
+					"recovery": "miui_DUCHAMP_OS1.0.15.0.UNLCNXM_19884aa99e_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.15.0.UNLCNXM_20240531.0000.00_14.0_cn_57bb60a334.tgz",
+					"ctelecom": "duchamp_images_OS1.0.15.0.UNLCNXM_20240531.0000.00_14.0_cn_chinatelecom_e0f804aff9.tgz"
+				},
+				"OS1.0.13.0.UNLCNXM": {
+					"os": "OS1.0.13.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2024-03-15",
+					"recovery": "miui_DUCHAMP_OS1.0.13.0.UNLCNXM_64192ba74c_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.13.0.UNLCNXM_20240312.0000.00_14.0_cn_39909c6779.tgz",
+					"ctelecom": "duchamp_images_OS1.0.13.0.UNLCNXM_20240312.0000.00_14.0_cn_chinatelecom_f1a969c2c6.tgz"
+				},
+				"OS1.0.11.0.UNLCNXM": {
+					"os": "OS1.0.11.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2024-02-03",
+					"recovery": "miui_DUCHAMP_OS1.0.11.0.UNLCNXM_00244a3963_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.11.0.UNLCNXM_20240126.0000.00_14.0_cn_a60def4101.tgz",
+					"ctelecom": "duchamp_images_OS1.0.11.0.UNLCNXM_20240126.0000.00_14.0_cn_chinatelecom_54ac68b3b5.tgz"
+				},
+				"OS1.0.10.0.UNLCNXM": {
+					"os": "OS1.0.10.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2024-01-24",
+					"recovery": "miui_DUCHAMP_OS1.0.10.0.UNLCNXM_0ab05cde0b_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.10.0.UNLCNXM_20240118.0000.00_14.0_cn_d5795ffe8a.tgz",
+					"ctelecom": "duchamp_images_OS1.0.10.0.UNLCNXM_20240118.0000.00_14.0_cn_chinatelecom_26ba811009.tgz"
+				},
+				"OS1.0.8.0.UNLCNXM": {
+					"os": "OS1.0.8.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-12-28",
+					"recovery": "miui_DUCHAMP_OS1.0.8.0.UNLCNXM_9062417d30_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.8.0.UNLCNXM_20231224.0000.00_14.0_cn_4d41ef6b03.tgz",
+					"ctelecom": "duchamp_images_OS1.0.8.0.UNLCNXM_20231224.0000.00_14.0_cn_chinatelecom_486d167b2e.tgz"
+				},
+				"OS1.0.7.0.UNLCNXM": {
+					"os": "OS1.0.7.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-12-13",
+					"recovery": "miui_DUCHAMP_OS1.0.7.0.UNLCNXM_376a47cb7e_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_1cc1eed443.tgz",
+					"ctelecom": "duchamp_images_OS1.0.7.0.UNLCNXM_20231207.0000.00_14.0_cn_chinatelecom_d70a818dee.tgz"
+				},
+				"OS1.0.5.0.UNLCNXM": {
+					"os": "OS1.0.5.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-11-29",
+					"recovery": "miui_DUCHAMP_OS1.0.5.0.UNLCNXM_e4365a30e5_14.0.zip",
+					"fastboot": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_8525102b04.tgz",
+					"ctelecom": "duchamp_images_OS1.0.5.0.UNLCNXM_20231123.0000.00_14.0_cn_chinatelecom_9113e5bd0e.tgz"
+				},
+				"OS1.0.4.0.UNLCNXM": {
+					"os": "OS1.0.4.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-11-29",
+					"recovery": "miui_DUCHAMP_OS1.0.4.0.UNLCNXM_6e77720de1_14.0.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS1.0.1.0.UNLCNXM": {
+					"os": "OS1.0.1.0.UNLCNXM",
+					"android": "14.0",
+					"release": "2023-11-29",
+					"recovery": "miui_DUCHAMP_OS1.0.1.0.UNLCNXM_30ab04a3fe_14.0.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "duchamp_demo",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi K70E",
+				"en": "Redmi K70E"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNLCNDM": {
+					"os": "OS1.0.2.0.UNLCNDM",
+					"android": "14.0",
+					"release": "2023-11-27",
+					"recovery": "miui_DUCHAMPDEMO_OS1.0.2.0.UNLCNDM_d1b8361509_14.0.zip",
+					"fastboot": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_25d52b4af4.tgz",
+					"ctelecom": "duchamp_demo_images_OS1.0.2.0.UNLCNDM_20231127.0000.00_14.0_cn_chinatelecom_29e7a5afe1.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "duchamp_ep_stdee",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS1.0.25.1.16.EP.STDEE.N11A": {
+					"os": "OS1.0.25.1.16.EP.STDEE.N11A",
+					"android": "14.0",
+					"release": "2025-03-06",
+					"recovery": "miui_DUCHAMPEPSTDEE_OS1.0.25.1.16.EP.STDEE.N11A_b35b3f406d_14.0.zip",
+					"fastboot": "duchamp_ep_stdee_images_OS1.0.25.1.16.EP.STDEE.N11A_20250116.0000.00_14.0_cn_794f0f452a.tgz",
+					"ctelecom": "duchamp_ep_stdee_images_OS1.0.25.1.16.EP.STDEE.N11A_20250116.0000.00_14.0_cn_chinatelecom_739322b379.tgz"
+				},
+				"OS1.0.24.11.11.EP.STDEE.N11A": {
+					"os": "OS1.0.24.11.11.EP.STDEE.N11A",
+					"android": "14.0",
+					"release": "2024-12-09",
+					"recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.11.11.EP.STDEE.N11A_03c91b99a1_14.0.zip",
+					"fastboot": "duchamp_ep_stdee_images_OS1.0.24.11.11.EP.STDEE.N11A_20241111.0000.00_14.0_cn_462210f018.tgz",
+					"ctelecom": "duchamp_ep_stdee_images_OS1.0.24.11.11.EP.STDEE.N11A_20241111.0000.00_14.0_cn_chinatelecom_6e066ca5e7.tgz"
+				},
+				"OS1.0.24.8.16.EP.STDEE.N11A": {
+					"os": "OS1.0.24.8.16.EP.STDEE.N11A",
+					"android": "14.0",
+					"release": "2024-09-09",
+					"recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.8.16.EP.STDEE.N11A_a37872551c_14.0.zip",
+					"fastboot": "duchamp_ep_stdee_images_OS1.0.24.8.16.EP.STDEE.N11A_20240816.0000.00_14.0_cn_8f7cc3cdf1.tgz",
+					"ctelecom": "duchamp_ep_stdee_images_OS1.0.24.8.16.EP.STDEE.N11A_20240816.0000.00_14.0_cn_chinatelecom_79efe8bd06.tgz"
+				},
+				"OS1.0.24.5.16.EP.STDEE.N11A": {
+					"os": "OS1.0.24.5.16.EP.STDEE.N11A",
+					"android": "14.0",
+					"release": "2024-06-18",
+					"recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.5.16.EP.STDEE.N11A_3416f5a2df_14.0.zip",
+					"fastboot": "duchamp_ep_stdee_images_OS1.0.24.5.16.EP.STDEE.N11A_20240516.0000.00_14.0_cn_4980e0a398.tgz",
+					"ctelecom": "duchamp_ep_stdee_images_OS1.0.24.5.16.EP.STDEE.N11A_20240516.0000.00_14.0_cn_chinatelecom_7c39133120.tgz"
+				},
+				"OS1.0.24.3.8.EP.STDEE.N11A": {
+					"os": "OS1.0.24.3.8.EP.STDEE.N11A",
+					"android": "14.0",
+					"release": "2024-03-20",
+					"recovery": "miui_DUCHAMPEPSTDEE_OS1.0.24.3.8.EP.STDEE.N11A_8fdedaee5b_14.0.zip",
+					"fastboot": "duchamp_ep_stdee_images_OS1.0.24.3.8.EP.STDEE.N11A_20240308.0000.00_14.0_cn_1f738a4c51.tgz",
+					"ctelecom": "duchamp_ep_stdee_images_OS1.0.24.3.8.EP.STDEE.N11A_20240308.0000.00_14.0_cn_chinatelecom_d1e4206db9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "duchamp_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WNLTWXM": {
+					"os": "OS3.0.3.0.WNLTWXM",
+					"android": "16.0",
+					"release": "2026-04-29",
+					"recovery": "duchamp_tw_global-ota_full-OS3.0.3.0.WNLTWXM-user-16.0-448970bc64.zip",
+					"fastboot": ""
+				},
+				"OS2.0.208.0.VNLTWXM": {
+					"os": "OS2.0.208.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-12-19",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.208.0.VNLTWXM-user-15.0-c75c550761.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.208.0.VNLTWXM_20251202.0000.00_15.0_tw_2d3dd29925.tgz"
+				},
+				"OS2.0.207.0.VNLTWXM": {
+					"os": "OS2.0.207.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-11-17",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.207.0.VNLTWXM-user-15.0-0050d280dd.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.207.0.VNLTWXM_20251103.0000.00_15.0_tw_e17d9fbc41.tgz"
+				},
+				"OS2.0.206.0.VNLTWXM": {
+					"os": "OS2.0.206.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-10-25",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.206.0.VNLTWXM-user-15.0-a058eba44a.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.206.0.VNLTWXM_20251014.0000.00_15.0_tw_50342bc80e.tgz"
+				},
+				"OS2.0.205.0.VNLTWXM": {
+					"os": "OS2.0.205.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.205.0.VNLTWXM-user-15.0-3982aba7f3.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.205.0.VNLTWXM_20250916.0000.00_15.0_tw_b1876944ed.tgz"
+				},
+				"OS2.0.204.0.VNLTWXM": {
+					"os": "OS2.0.204.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-08-26",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.204.0.VNLTWXM-user-15.0-72b69dc693.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.204.0.VNLTWXM_20250808.0000.00_15.0_tw_5e847498aa.tgz"
+				},
+				"OS2.0.200.0.VNLTWXM": {
+					"os": "OS2.0.200.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-07-18",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.200.0.VNLTWXM-user-15.0-0a17f64350.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.200.0.VNLTWXM_20250630.0000.00_15.0_tw_e293bd2aa5.tgz"
+				},
+				"OS2.0.103.0.VNLTWXM": {
+					"os": "OS2.0.103.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-06-16",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.103.0.VNLTWXM-user-15.0-8a1d16089b.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.103.0.VNLTWXM_20250604.0000.00_15.0_tw_2194128010.tgz"
+				},
+				"OS2.0.102.0.VNLTWXM": {
+					"os": "OS2.0.102.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-05-07",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.102.0.VNLTWXM-user-15.0-8e8294dfcf.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.102.0.VNLTWXM_20250409.0000.00_15.0_tw_a484179bcf.tgz"
+				},
+				"OS2.0.101.0.VNLTWXM": {
+					"os": "OS2.0.101.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-03-21",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.101.0.VNLTWXM-user-15.0-61d5adea17.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.101.0.VNLTWXM_20250307.0000.00_15.0_tw_797baca887.tgz"
+				},
+				"OS2.0.1.0.VNLTWXM": {
+					"os": "OS2.0.1.0.VNLTWXM",
+					"android": "15.0",
+					"release": "2025-02-12",
+					"recovery": "duchamp_tw_global-ota_full-OS2.0.1.0.VNLTWXM-user-15.0-447bb79831.zip",
+					"fastboot": "duchamp_tw_global_images_OS2.0.1.0.VNLTWXM_20241223.0000.00_15.0_tw_48b20e6e89.tgz"
+				},
+				"OS1.0.13.0.UNLTWXM": {
+					"os": "OS1.0.13.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-12-30",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.13.0.UNLTWXM_12f2a6b69d_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.13.0.UNLTWXM_20241219.0000.00_14.0_tw_c94c6b526e.tgz"
+				},
+				"OS1.0.11.0.UNLTWXM": {
+					"os": "OS1.0.11.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-11-22",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.11.0.UNLTWXM_0fd9c51a24_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.11.0.UNLTWXM_20241030.0000.00_14.0_tw_258c286a4b.tgz"
+				},
+				"OS1.0.10.0.UNLTWXM": {
+					"os": "OS1.0.10.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-10-18",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.10.0.UNLTWXM_94141a6116_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.10.0.UNLTWXM_20241001.0000.00_14.0_tw_721fac475a.tgz"
+				},
+				"OS1.0.9.0.UNLTWXM": {
+					"os": "OS1.0.9.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-09-21",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.9.0.UNLTWXM_9f848165c9_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.9.0.UNLTWXM_20240828.0000.00_14.0_tw_b5358297f8.tgz"
+				},
+				"OS1.0.7.0.UNLTWXM": {
+					"os": "OS1.0.7.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-08-19",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.7.0.UNLTWXM_f0f1e37fae_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.7.0.UNLTWXM_20240722.0000.00_14.0_tw_a41d81fae8.tgz"
+				},
+				"OS1.0.6.0.UNLTWXM": {
+					"os": "OS1.0.6.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-06-06",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.6.0.UNLTWXM_d7b158128b_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.6.0.UNLTWXM_20240523.0000.00_14.0_tw_603f05f301.tgz"
+				},
+				"OS1.0.5.0.UNLTWXM": {
+					"os": "OS1.0.5.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-03-20",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.5.0.UNLTWXM_751792b794_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.5.0.UNLTWXM_20240317.0000.00_14.0_tw_4a954fb992.tgz"
+				},
+				"OS1.0.2.0.UNLTWXM": {
+					"os": "OS1.0.2.0.UNLTWXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPTWGlobal_OS1.0.2.0.UNLTWXM_eea97f99a2_14.0.zip",
+					"fastboot": "duchamp_tw_global_images_OS1.0.2.0.UNLTWXM_20240101.0000.00_14.0_tw_a14aaad30e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "duchamp_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.6.0.WNLMIXM": {
+					"os": "OS3.0.6.0.WNLMIXM",
+					"android": "16.0",
+					"release": "2026-04-24",
+					"recovery": "duchamp_global-ota_full-OS3.0.6.0.WNLMIXM-user-16.0-29842474e8.zip",
+					"fastboot": ""
+				},
+				"OS3.0.4.0.WNLMIXM": {
+					"os": "OS3.0.4.0.WNLMIXM",
+					"android": "16.0",
+					"release": "2026-04-01",
+					"recovery": "duchamp_global-ota_full-OS3.0.4.0.WNLMIXM-user-16.0-f4c0028ad2.zip",
+					"fastboot": ""
+				},
+				"OS2.0.209.0.VNLMIXM": {
+					"os": "OS2.0.209.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-12-27",
+					"recovery": "duchamp_global-ota_full-OS2.0.209.0.VNLMIXM-user-15.0-e41e4290bf.zip",
+					"fastboot": "duchamp_global_images_OS2.0.209.0.VNLMIXM_20251217.0000.00_15.0_global_65430655b6.tgz"
+				},
+				"OS2.0.207.0.VNLMIXM": {
+					"os": "OS2.0.207.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-11-17",
+					"recovery": "duchamp_global-ota_full-OS2.0.207.0.VNLMIXM-user-15.0-344cc52711.zip",
+					"fastboot": "duchamp_global_images_OS2.0.207.0.VNLMIXM_20251103.0000.00_15.0_global_6161ab5af7.tgz"
+				},
+				"OS2.0.206.0.VNLMIXM": {
+					"os": "OS2.0.206.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-10-25",
+					"recovery": "duchamp_global-ota_full-OS2.0.206.0.VNLMIXM-user-15.0-7e806c0923.zip",
+					"fastboot": "duchamp_global_images_OS2.0.206.0.VNLMIXM_20251014.0000.00_15.0_global_99a2afc896.tgz"
+				},
+				"OS2.0.205.0.VNLMIXM": {
+					"os": "OS2.0.205.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp_global-ota_full-OS2.0.205.0.VNLMIXM-user-15.0-42f385fe84.zip",
+					"fastboot": "duchamp_global_images_OS2.0.205.0.VNLMIXM_20250916.0000.00_15.0_global_eef10fab5a.tgz"
+				},
+				"OS2.0.204.0.VNLMIXM": {
+					"os": "OS2.0.204.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-08-26",
+					"recovery": "duchamp_global-ota_full-OS2.0.204.0.VNLMIXM-user-15.0-a0c6a02d5c.zip",
+					"fastboot": "duchamp_global_images_OS2.0.204.0.VNLMIXM_20250808.0000.00_15.0_global_d1cf86d2ca.tgz"
+				},
+				"OS2.0.200.0.VNLMIXM": {
+					"os": "OS2.0.200.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-07-07",
+					"recovery": "duchamp_global-ota_full-OS2.0.200.0.VNLMIXM-user-15.0-7fddb30aa0.zip",
+					"fastboot": "duchamp_global_images_OS2.0.200.0.VNLMIXM_20250620.0000.00_15.0_global_d415e74a3f.tgz"
+				},
+				"OS2.0.104.0.VNLMIXM": {
+					"os": "OS2.0.104.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-06-26",
+					"recovery": "duchamp_global-ota_full-OS2.0.104.0.VNLMIXM-user-15.0-52960e4a17.zip",
+					"fastboot": "duchamp_global_images_OS2.0.104.0.VNLMIXM_20250605.0000.00_15.0_global_2d7a5d9fe1.tgz"
+				},
+				"OS2.0.103.0.VNLMIXM": {
+					"os": "OS2.0.103.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-05-17",
+					"recovery": "duchamp_global-ota_full-OS2.0.103.0.VNLMIXM-user-15.0-f61b43e8c6.zip",
+					"fastboot": "duchamp_global_images_OS2.0.103.0.VNLMIXM_20250428.0000.00_15.0_global_7831288965.tgz"
+				},
+				"OS2.0.101.0.VNLMIXM": {
+					"os": "OS2.0.101.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-03-21",
+					"recovery": "duchamp_global-ota_full-OS2.0.101.0.VNLMIXM-user-15.0-13c1dac60f.zip",
+					"fastboot": "duchamp_global_images_OS2.0.101.0.VNLMIXM_20250307.0000.00_15.0_global_87c5889096.tgz"
+				},
+				"OS2.0.100.0.VNLMIXM": {
+					"os": "OS2.0.100.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-03-03",
+					"recovery": "duchamp_global-ota_full-OS2.0.100.0.VNLMIXM-user-15.0-7dd6434acf.zip",
+					"fastboot": "duchamp_global_images_OS2.0.100.0.VNLMIXM_20250213.0000.00_15.0_global_00bda7d7a6.tgz"
+				},
+				"OS2.0.1.0.VNLMIXM": {
+					"os": "OS2.0.1.0.VNLMIXM",
+					"android": "15.0",
+					"release": "2025-01-15",
+					"recovery": "duchamp_global-ota_full-OS2.0.1.0.VNLMIXM-user-15.0-681cd7a65d.zip",
+					"fastboot": "duchamp_global_images_OS2.0.1.0.VNLMIXM_20241220.0000.00_15.0_global_0c2eed9226.tgz"
+				},
+				"OS1.0.17.0.UNLMIXM": {
+					"os": "OS1.0.17.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-12-26",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.17.0.UNLMIXM_c9707e92fc_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.17.0.UNLMIXM_20241218.0000.00_14.0_global_8cea5c38f4.tgz"
+				},
+				"OS1.0.15.0.UNLMIXM": {
+					"os": "OS1.0.15.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-12-09",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.15.0.UNLMIXM_4c311f2d69_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.14.0.UNLMIXM": {
+					"os": "OS1.0.14.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-11-11",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.14.0.UNLMIXM_bb7b34e392_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.14.0.UNLMIXM_20241028.0000.00_14.0_global_83a67e29d1.tgz"
+				},
+				"OS1.0.13.0.UNLMIXM": {
+					"os": "OS1.0.13.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-10-15",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.13.0.UNLMIXM_36338c4caa_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.13.0.UNLMIXM_20240924.0000.00_14.0_global_4f4567f973.tgz"
+				},
+				"OS1.0.12.0.UNLMIXM": {
+					"os": "OS1.0.12.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-09-17",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.12.0.UNLMIXM_20b6105f34_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.12.0.UNLMIXM_20240828.0000.00_14.0_global_c1cc4cbefd.tgz"
+				},
+				"OS1.0.10.0.UNLMIXM": {
+					"os": "OS1.0.10.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-08-19",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.10.0.UNLMIXM_4d63180e8b_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.10.0.UNLMIXM_20240717.0000.00_14.0_global_362e5ce0fd.tgz"
+				},
+				"OS1.0.9.0.UNLMIXM": {
+					"os": "OS1.0.9.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-05-27",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.9.0.UNLMIXM_c736336dab_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.9.0.UNLMIXM_20240516.0000.00_14.0_global_8947b12a53.tgz"
+				},
+				"OS1.0.8.0.UNLMIXM": {
+					"os": "OS1.0.8.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-03-16",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.8.0.UNLMIXM_61da96200b_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.8.0.UNLMIXM_20240312.0000.00_14.0_global_8a485ee70f.tgz"
+				},
+				"OS1.0.7.0.UNLMIXM": {
+					"os": "OS1.0.7.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-03-06",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.7.0.UNLMIXM_759d6c1865_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.4.0.UNLMIXM": {
+					"os": "OS1.0.4.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-01-17",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.4.0.UNLMIXM_b6144d1e98_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.4.0.UNLMIXM_20240108.0000.00_14.0_global_0dc6b38f48.tgz"
+				},
+				"OS1.0.2.0.UNLMIXM": {
+					"os": "OS1.0.2.0.UNLMIXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPGlobal_OS1.0.2.0.UNLMIXM_eeaccaffa2_14.0.zip",
+					"fastboot": "duchamp_global_images_OS1.0.2.0.UNLMIXM_20231221.0000.00_14.0_global_33cdc27f06.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "duchamp_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WNLEUXM": {
+					"os": "OS3.0.4.0.WNLEUXM",
+					"android": "16.0",
+					"release": "2026-03-06",
+					"recovery": "duchamp_eea_global-ota_full-OS3.0.4.0.WNLEUXM-user-16.0-ceec5da513.zip",
+					"fastboot": "duchamp_eea_global_images_OS3.0.4.0.WNLEUXM_20260205.0000.00_16.0_eea_c341623d77.tgz"
+				},
+				"OS3.0.3.0.WNLEUXM": {
+					"os": "OS3.0.3.0.WNLEUXM",
+					"android": "16.0",
+					"release": "2026-01-26",
+					"recovery": "duchamp_eea_global-ota_full-OS3.0.3.0.WNLEUXM-user-16.0-126de9fdc2.zip",
+					"fastboot": "duchamp_eea_global_images_OS3.0.3.0.WNLEUXM_20260113.0000.00_16.0_eea_763233356e.tgz"
+				},
+				"OS2.0.210.0.VNLEUXM": {
+					"os": "OS2.0.210.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2026-01-10",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.210.0.VNLEUXM-user-15.0-078eeb9c1c.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.210.0.VNLEUXM_20251225.0000.00_15.0_eea_35f1a9faae.tgz"
+				},
+				"OS2.0.209.0.VNLEUXM": {
+					"os": "OS2.0.209.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-11-10",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.209.0.VNLEUXM-user-15.0-da9f305cad.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.209.0.VNLEUXM_20251024.0000.00_15.0_eea_5d48571ed6.tgz"
+				},
+				"OS2.0.208.0.VNLEUXM": {
+					"os": "OS2.0.208.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-10-21",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.208.0.VNLEUXM-user-15.0-84b4c3191d.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.208.0.VNLEUXM_20250925.0000.00_15.0_eea_cc8e3486fc.tgz"
+				},
+				"OS2.0.207.0.VNLEUXM": {
+					"os": "OS2.0.207.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.207.0.VNLEUXM-user-15.0-927e3f4376.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.207.0.VNLEUXM_20250916.0000.00_15.0_eea_0af122b70c.tgz"
+				},
+				"OS2.0.206.0.VNLEUXM": {
+					"os": "OS2.0.206.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-08-11",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.206.0.VNLEUXM-user-15.0-095d762279.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.206.0.VNLEUXM_20250801.0000.00_15.0_eea_d17fdabee7.tgz"
+				},
+				"OS2.0.201.0.VNLEUXM": {
+					"os": "OS2.0.201.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-06-24",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.201.0.VNLEUXM-user-15.0-4375a9e64d.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.201.0.VNLEUXM_20250618.0000.00_15.0_eea_d6f34c2709.tgz"
+				},
+				"OS2.0.104.0.VNLEUXM": {
+					"os": "OS2.0.104.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-05-06",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.104.0.VNLEUXM-user-15.0-230e487891.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.104.0.VNLEUXM_20250409.0000.00_15.0_eea_e792d3d660.tgz"
+				},
+				"OS2.0.103.0.VNLEUXM": {
+					"os": "OS2.0.103.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-03-21",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.103.0.VNLEUXM-user-15.0-e3e172fca9.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.103.0.VNLEUXM_20250307.0000.00_15.0_eea_a4ca1d8802.tgz"
+				},
+				"OS2.0.102.0.VNLEUXM": {
+					"os": "OS2.0.102.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2025-03-03",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.102.0.VNLEUXM-user-15.0-1937d9053b.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.102.0.VNLEUXM_20250219.0000.00_15.0_eea_8d468de07a.tgz"
+				},
+				"OS2.0.2.0.VNLEUXM": {
+					"os": "OS2.0.2.0.VNLEUXM",
+					"android": "15.0",
+					"release": "2024-12-23",
+					"recovery": "duchamp_eea_global-ota_full-OS2.0.2.0.VNLEUXM-user-15.0-f72d3e9b10.zip",
+					"fastboot": "duchamp_eea_global_images_OS2.0.2.0.VNLEUXM_20241212.0000.00_15.0_eea_18cd7bba92.tgz"
+				},
+				"OS1.0.14.0.UNLEUXM": {
+					"os": "OS1.0.14.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-11-18",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.14.0.UNLEUXM_dceb886266_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.14.0.UNLEUXM_20241028.0000.00_14.0_eea_e3abc2d4d6.tgz"
+				},
+				"OS1.0.12.0.UNLEUXM": {
+					"os": "OS1.0.12.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-10-15",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.12.0.UNLEUXM_04b7c5cd11_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.12.0.UNLEUXM_20240924.0000.00_14.0_eea_49b1d3da7f.tgz"
+				},
+				"OS1.0.11.0.UNLEUXM": {
+					"os": "OS1.0.11.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-09-21",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.11.0.UNLEUXM_bea98a5b2e_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.11.0.UNLEUXM_20240828.0000.00_14.0_eea_a031433ea8.tgz"
+				},
+				"OS1.0.9.0.UNLEUXM": {
+					"os": "OS1.0.9.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-08-05",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.9.0.UNLEUXM_10c31e3c73_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.9.0.UNLEUXM_20240717.0000.00_14.0_eea_e8ab5338cb.tgz"
+				},
+				"OS1.0.8.0.UNLEUXM": {
+					"os": "OS1.0.8.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-06-03",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.8.0.UNLEUXM_9d2dfcd32e_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.8.0.UNLEUXM_20240516.0000.00_14.0_eea_92ec7bddb2.tgz"
+				},
+				"OS1.0.7.0.UNLEUXM": {
+					"os": "OS1.0.7.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-03-16",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.7.0.UNLEUXM_9eceeb825b_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.7.0.UNLEUXM_20240312.0000.00_14.0_eea_0963269fcf.tgz"
+				},
+				"OS1.0.6.0.UNLEUXM": {
+					"os": "OS1.0.6.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-03-06",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.6.0.UNLEUXM_11c176bf3c_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.4.0.UNLEUXM": {
+					"os": "OS1.0.4.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-01-30",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.4.0.UNLEUXM_079e51d638_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.4.0.UNLEUXM_20240103.0000.00_14.0_eea_02aabc5f10.tgz"
+				},
+				"OS1.0.1.0.UNLEUXM": {
+					"os": "OS1.0.1.0.UNLEUXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPEEAGlobal_OS1.0.1.0.UNLEUXM_eade9919a5_14.0.zip",
+					"fastboot": "duchamp_eea_global_images_OS1.0.1.0.UNLEUXM_20231209.0000.00_14.0_eea_abeb98a92f.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "duchamp_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.209.0.VNLRUXM": {
+					"os": "OS2.0.209.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-12-19",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.209.0.VNLRUXM-user-15.0-ae780e65e0.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.209.0.VNLRUXM_20251202.0000.00_15.0_ru_cbc9e896d2.tgz"
+				},
+				"OS2.0.208.0.VNLRUXM": {
+					"os": "OS2.0.208.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-11-17",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.208.0.VNLRUXM-user-15.0-a2daeedd65.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.208.0.VNLRUXM_20251103.0000.00_15.0_ru_2353b96a5a.tgz"
+				},
+				"OS2.0.207.0.VNLRUXM": {
+					"os": "OS2.0.207.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-10-25",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.207.0.VNLRUXM-user-15.0-7e51505ab4.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.207.0.VNLRUXM_20251014.0000.00_15.0_ru_35026c269c.tgz"
+				},
+				"OS2.0.206.0.VNLRUXM": {
+					"os": "OS2.0.206.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.206.0.VNLRUXM-user-15.0-4541c609f2.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.206.0.VNLRUXM_20250916.0000.00_15.0_ru_53b7e51a63.tgz"
+				},
+				"OS2.0.205.0.VNLRUXM": {
+					"os": "OS2.0.205.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-08-26",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.205.0.VNLRUXM-user-15.0-68efed0d7a.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.205.0.VNLRUXM_20250808.0000.00_15.0_ru_5466979e12.tgz"
+				},
+				"OS2.0.201.0.VNLRUXM": {
+					"os": "OS2.0.201.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-07-18",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.201.0.VNLRUXM-user-15.0-12d3404ee5.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.201.0.VNLRUXM_20250630.0000.00_15.0_ru_01ed59e468.tgz"
+				},
+				"OS2.0.104.0.VNLRUXM": {
+					"os": "OS2.0.104.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-06-24",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.104.0.VNLRUXM-user-15.0-dcacc53ac4.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.104.0.VNLRUXM_20250605.0000.00_15.0_ru_b5cbb9888a.tgz"
+				},
+				"OS2.0.103.0.VNLRUXM": {
+					"os": "OS2.0.103.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-05-12",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.103.0.VNLRUXM-user-15.0-3a6e726c92.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.103.0.VNLRUXM_20250428.0000.00_15.0_ru_f20ed88e29.tgz"
+				},
+				"OS2.0.101.0.VNLRUXM": {
+					"os": "OS2.0.101.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-03-21",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.101.0.VNLRUXM-user-15.0-0c568f7fd0.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.101.0.VNLRUXM_20250307.0000.00_15.0_ru_9972577b4d.tgz"
+				},
+				"OS2.0.1.0.VNLRUXM": {
+					"os": "OS2.0.1.0.VNLRUXM",
+					"android": "15.0",
+					"release": "2025-02-12",
+					"recovery": "duchamp_ru_global-ota_full-OS2.0.1.0.VNLRUXM-user-15.0-fd5cd3a55f.zip",
+					"fastboot": "duchamp_ru_global_images_OS2.0.1.0.VNLRUXM_20241223.0000.00_15.0_ru_768040ca49.tgz"
+				},
+				"OS1.0.11.0.UNLRUXM": {
+					"os": "OS1.0.11.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-12-26",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.11.0.UNLRUXM_b391d39bb5_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.11.0.UNLRUXM_20241219.0000.00_14.0_ru_3d5f139eff.tgz"
+				},
+				"OS1.0.10.0.UNLRUXM": {
+					"os": "OS1.0.10.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-12-13",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.10.0.UNLRUXM_eb352e0684_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.9.0.UNLRUXM": {
+					"os": "OS1.0.9.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-11-18",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.9.0.UNLRUXM_50aae88e60_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.9.0.UNLRUXM_20241030.0000.00_14.0_ru_b75daddac1.tgz"
+				},
+				"OS1.0.8.0.UNLRUXM": {
+					"os": "OS1.0.8.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-10-18",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.8.0.UNLRUXM_75f3d26487_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.8.0.UNLRUXM_20241001.0000.00_14.0_ru_30d1c7c9aa.tgz"
+				},
+				"OS1.0.7.0.UNLRUXM": {
+					"os": "OS1.0.7.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-09-17",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.7.0.UNLRUXM_caa446366e_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.7.0.UNLRUXM_20240828.0000.00_14.0_ru_02aa0ec603.tgz"
+				},
+				"OS1.0.5.0.UNLRUXM": {
+					"os": "OS1.0.5.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-08-05",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.5.0.UNLRUXM_8f510f7280_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.5.0.UNLRUXM_20240722.0000.00_14.0_ru_0804c2fd51.tgz"
+				},
+				"OS1.0.4.0.UNLRUXM": {
+					"os": "OS1.0.4.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-05-30",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.4.0.UNLRUXM_7fa20554ff_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.4.0.UNLRUXM_20240516.0000.00_14.0_ru_742bb695c8.tgz"
+				},
+				"OS1.0.3.0.UNLRUXM": {
+					"os": "OS1.0.3.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-03-20",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.3.0.UNLRUXM_84860639de_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.3.0.UNLRUXM_20240317.0000.00_14.0_ru_b727d621b6.tgz"
+				},
+				"OS1.0.1.0.UNLRUXM": {
+					"os": "OS1.0.1.0.UNLRUXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPRUGlobal_OS1.0.1.0.UNLRUXM_f2d86e43b8_14.0.zip",
+					"fastboot": "duchamp_ru_global_images_OS1.0.1.0.UNLRUXM_20231209.0000.00_14.0_ru_4b6081bdf9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "duchamp_in_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.5.0.WNLINXM": {
+					"os": "OS3.0.5.0.WNLINXM",
+					"android": "16.0",
+					"release": "2026-04-24",
+					"recovery": "duchamp_in_global-ota_full-OS3.0.5.0.WNLINXM-user-16.0-e526100bb5.zip",
+					"fastboot": ""
+				},
+				"OS3.0.3.0.WNLINXM": {
+					"os": "OS3.0.3.0.WNLINXM",
+					"android": "16.0",
+					"release": "2026-04-01",
+					"recovery": "duchamp_in_global-ota_full-OS3.0.3.0.WNLINXM-user-16.0-23efdedf25.zip",
+					"fastboot": ""
+				},
+				"OS2.0.208.0.VNLINXM": {
+					"os": "OS2.0.208.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-11-17",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.208.0.VNLINXM-user-15.0-4a0987f359.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.208.0.VNLINXM_20251103.0000.00_15.0_in_ae6c946c57.tgz"
+				},
+				"OS2.0.207.0.VNLINXM": {
+					"os": "OS2.0.207.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-10-25",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.207.0.VNLINXM-user-15.0-f19ce594a3.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.207.0.VNLINXM_20251014.0000.00_15.0_in_f8bfe75405.tgz"
+				},
+				"OS2.0.206.0.VNLINXM": {
+					"os": "OS2.0.206.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.206.0.VNLINXM-user-15.0-1185650d9c.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.206.0.VNLINXM_20250916.0000.00_15.0_in_0aa753c34e.tgz"
+				},
+				"OS2.0.205.0.VNLINXM": {
+					"os": "OS2.0.205.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-08-26",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.205.0.VNLINXM-user-15.0-76aee47b5a.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.205.0.VNLINXM_20250808.0000.00_15.0_in_dc0da3daa5.tgz"
+				},
+				"OS2.0.201.0.VNLINXM": {
+					"os": "OS2.0.201.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-07-07",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.201.0.VNLINXM-user-15.0-8838bd5bfd.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.201.0.VNLINXM_20250620.0000.00_15.0_in_0bcd4fdb4e.tgz"
+				},
+				"OS2.0.102.0.VNLINXM": {
+					"os": "OS2.0.102.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-05-14",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.102.0.VNLINXM-user-15.0-d76b07ab30.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.102.0.VNLINXM_20250429.0000.00_15.0_in_248dcc1ae4.tgz"
+				},
+				"OS2.0.101.0.VNLINXM": {
+					"os": "OS2.0.101.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-04-08",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.101.0.VNLINXM-user-15.0-d7d6140f83.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.101.0.VNLINXM_20250321.0000.00_15.0_in_472cd91f02.tgz"
+				},
+				"OS2.0.3.0.VNLINXM": {
+					"os": "OS2.0.3.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-02-21",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.3.0.VNLINXM-user-15.0-ed61b0cede.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.3.0.VNLINXM_20250208.0000.00_15.0_in_e8a6e66de6.tgz"
+				},
+				"OS2.0.2.0.VNLINXM": {
+					"os": "OS2.0.2.0.VNLINXM",
+					"android": "15.0",
+					"release": "2025-02-15",
+					"recovery": "duchamp_in_global-ota_full-OS2.0.2.0.VNLINXM-user-15.0-d7923bcf2a.zip",
+					"fastboot": "duchamp_in_global_images_OS2.0.2.0.VNLINXM_20250108.0000.00_15.0_in_fe4e51c57f.tgz"
+				},
+				"OS1.0.16.0.UNLINXM": {
+					"os": "OS1.0.16.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-12-24",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.16.0.UNLINXM_45d4dce885_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.16.0.UNLINXM_20241218.0000.00_14.0_in_0a8e599ae1.tgz"
+				},
+				"OS1.0.14.0.UNLINXM": {
+					"os": "OS1.0.14.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-12-09",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.14.0.UNLINXM_5a0be93b59_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.13.0.UNLINXM": {
+					"os": "OS1.0.13.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-11-18",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.13.0.UNLINXM_51a8c9c065_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.13.0.UNLINXM_20241030.0000.00_14.0_in_0cbc1da547.tgz"
+				},
+				"OS1.0.12.0.UNLINXM": {
+					"os": "OS1.0.12.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-10-18",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.12.0.UNLINXM_590d54d11e_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.12.0.UNLINXM_20241001.0000.00_14.0_in_a00d476964.tgz"
+				},
+				"OS1.0.11.0.UNLINXM": {
+					"os": "OS1.0.11.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-09-21",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.11.0.UNLINXM_f4b2bf800a_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.11.0.UNLINXM_20240828.0000.00_14.0_in_8228e7e557.tgz"
+				},
+				"OS1.0.9.0.UNLINXM": {
+					"os": "OS1.0.9.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-08-05",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.9.0.UNLINXM_838750638d_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.9.0.UNLINXM_20240722.0000.00_14.0_in_2495557b74.tgz"
+				},
+				"OS1.0.8.0.UNLINXM": {
+					"os": "OS1.0.8.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-06-06",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.8.0.UNLINXM_b6457b4ca2_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.8.0.UNLINXM_20240523.0000.00_14.0_in_efc0247a35.tgz"
+				},
+				"OS1.0.7.0.UNLINXM": {
+					"os": "OS1.0.7.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-03-16",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.7.0.UNLINXM_7e7ba3dca8_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.7.0.UNLINXM_20240312.0000.00_14.0_in_1aba7ab0b5.tgz"
+				},
+				"OS1.0.6.0.UNLINXM": {
+					"os": "OS1.0.6.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-03-11",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.6.0.UNLINXM_b5e59e814d_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.5.0.UNLINXM": {
+					"os": "OS1.0.5.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-02-20",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.5.0.UNLINXM_688b2fd297_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.5.0.UNLINXM_20240202.0000.00_14.0_in_fd83da13d1.tgz"
+				},
+				"OS1.0.1.0.UNLINXM": {
+					"os": "OS1.0.1.0.UNLINXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPINGlobal_OS1.0.1.0.UNLINXM_e60a91dccd_14.0.zip",
+					"fastboot": "duchamp_in_global_images_OS1.0.1.0.UNLINXM_20231215.0000.00_14.0_in_32d880a0f5.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "duchamp_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X6 Pro 5G",
+				"en": "POCO X6 Pro 5G"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.209.0.VNLIDXM": {
+					"os": "OS2.0.209.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-12-13",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.209.0.VNLIDXM-user-15.0-84dc2087c4.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.209.0.VNLIDXM_20251126.0000.00_15.0_id_36c91e1add.tgz"
+				},
+				"OS2.0.208.0.VNLIDXM": {
+					"os": "OS2.0.208.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-11-17",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.208.0.VNLIDXM-user-15.0-ac7064e5ea.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.208.0.VNLIDXM_20251103.0000.00_15.0_id_e9cc8a4815.tgz"
+				},
+				"OS2.0.207.0.VNLIDXM": {
+					"os": "OS2.0.207.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-10-25",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.207.0.VNLIDXM-user-15.0-15cc74b792.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.207.0.VNLIDXM_20251014.0000.00_15.0_id_3406d2821f.tgz"
+				},
+				"OS2.0.206.0.VNLIDXM": {
+					"os": "OS2.0.206.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.206.0.VNLIDXM-user-15.0-c4770f3452.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.206.0.VNLIDXM_20250916.0000.00_15.0_id_fff38f2d5a.tgz"
+				},
+				"OS2.0.205.0.VNLIDXM": {
+					"os": "OS2.0.205.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-08-26",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.205.0.VNLIDXM-user-15.0-b6f28d6ef7.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.205.0.VNLIDXM_20250808.0000.00_15.0_id_387d6c745e.tgz"
+				},
+				"OS2.0.201.0.VNLIDXM": {
+					"os": "OS2.0.201.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-07-17",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.201.0.VNLIDXM-user-15.0-db08268ebe.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.201.0.VNLIDXM_20250630.0000.00_15.0_id_1be442860c.tgz"
+				},
+				"OS2.0.104.0.VNLIDXM": {
+					"os": "OS2.0.104.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-06-24",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.104.0.VNLIDXM-user-15.0-641c5c6e8e.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.104.0.VNLIDXM_20250605.0000.00_15.0_id_b9a91a71b9.tgz"
+				},
+				"OS2.0.102.0.VNLIDXM": {
+					"os": "OS2.0.102.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-05-12",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.102.0.VNLIDXM-user-15.0-f926b75830.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.102.0.VNLIDXM_20250428.0000.00_15.0_id_b36634a2cd.tgz"
+				},
+				"OS2.0.100.0.VNLIDXM": {
+					"os": "OS2.0.100.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-04-22",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.100.0.VNLIDXM-user-15.0-775f89ca87.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.100.0.VNLIDXM_20250325.0000.00_15.0_id_6ec00157a7.tgz"
+				},
+				"OS2.0.3.0.VNLIDXM": {
+					"os": "OS2.0.3.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-02-21",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.3.0.VNLIDXM-user-15.0-ecfe0eb9c0.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.3.0.VNLIDXM_20250208.0000.00_15.0_id_516d2c19f1.tgz"
+				},
+				"OS2.0.2.0.VNLIDXM": {
+					"os": "OS2.0.2.0.VNLIDXM",
+					"android": "15.0",
+					"release": "2025-01-23",
+					"recovery": "duchamp_id_global-ota_full-OS2.0.2.0.VNLIDXM-user-15.0-7daca9d4cb.zip",
+					"fastboot": "duchamp_id_global_images_OS2.0.2.0.VNLIDXM_20250108.0000.00_15.0_id_9561d755c3.tgz"
+				},
+				"OS1.0.11.0.UNLIDXM": {
+					"os": "OS1.0.11.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-12-26",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.11.0.UNLIDXM_594accaf82_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.11.0.UNLIDXM_20241219.0000.00_14.0_id_0fb7ac25d5.tgz"
+				},
+				"OS1.0.10.0.UNLIDXM": {
+					"os": "OS1.0.10.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-12-13",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.10.0.UNLIDXM_88ca2a7403_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.9.0.UNLIDXM": {
+					"os": "OS1.0.9.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-11-18",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.9.0.UNLIDXM_80bea8031a_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.9.0.UNLIDXM_20241030.0000.00_14.0_id_6bd62349d2.tgz"
+				},
+				"OS1.0.8.0.UNLIDXM": {
+					"os": "OS1.0.8.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-10-18",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.8.0.UNLIDXM_6ab99b94d4_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.8.0.UNLIDXM_20241001.0000.00_14.0_id_64842cd98b.tgz"
+				},
+				"OS1.0.7.0.UNLIDXM": {
+					"os": "OS1.0.7.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-09-17",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.7.0.UNLIDXM_ad44c2e45b_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.7.0.UNLIDXM_20240828.0000.00_14.0_id_20eb451f84.tgz"
+				},
+				"OS1.0.5.0.UNLIDXM": {
+					"os": "OS1.0.5.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-08-05",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.5.0.UNLIDXM_c7198b1aaa_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.5.0.UNLIDXM_20240722.0000.00_14.0_id_a581bccdc7.tgz"
+				},
+				"OS1.0.4.0.UNLIDXM": {
+					"os": "OS1.0.4.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-05-20",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.4.0.UNLIDXM_9d4f6aa1a2_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.4.0.UNLIDXM_20240426.0000.00_14.0_id_8007cd664d.tgz"
+				},
+				"OS1.0.3.0.UNLIDXM": {
+					"os": "OS1.0.3.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-04-02",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.3.0.UNLIDXM_bd6220ae2b_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.3.0.UNLIDXM_20240319.0000.00_14.0_id_dd6ed83737.tgz"
+				},
+				"OS1.0.1.0.UNLIDXM": {
+					"os": "OS1.0.1.0.UNLIDXM",
+					"android": "14.0",
+					"release": "2024-01-12",
+					"recovery": "miui_DUCHAMPIDGlobal_OS1.0.1.0.UNLIDXM_c01d2ed98b_14.0.zip",
+					"fastboot": "duchamp_id_global_images_OS1.0.1.0.UNLIDXM_20231226.0000.00_14.0_id_f3aebe8002.tgz"
+				}
+			}
+		}
+	]
 }
