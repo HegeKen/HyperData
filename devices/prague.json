@@ -1,70 +1,78 @@
 {
-  "device": "prague",
-  "name": {
-    "zh": "REDMI K90 Max",
-    "en": "REDMI K90 Max"
-  },
-  "code": "AA",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "prague",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI K90 Max",
-        "en": "REDMI K90 Max"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.308.0.WAACNXM": {
-          "os": "OS3.0.308.0.WAACNXM",
-          "android": "16.0",
-          "release": "2026-04-23",
-          "recovery": "prague-ota_full-OS3.0.308.0.WAACNXM-user-16.0-2f5a830366.zip",
-          "fastboot": "prague_images_OS3.0.308.0.WAACNXM_20260422.0000.00_16.0_cn_ac260be858.tgz",
-          "ctelecom": "prague_images_OS3.0.308.0.WAACNXM_20260422.0000.00_16.0_cn_chinatelecom_0f749fb8bf.tgz"
-        },
-        "OS3.0.304.0.WAACNXM": {
-          "os": "OS3.0.304.0.WAACNXM",
-          "android": "16.0",
-          "release": "2026-04-21",
-          "recovery": "prague-ota_full-OS3.0.304.0.WAACNXM-user-16.0-a2f9190f86.zip",
-          "fastboot": "prague_images_OS3.0.304.0.WAACNXM_20260412.0000.00_16.0_cn_acc85a97a5.tgz",
-          "ctelecom": "prague_images_OS3.0.304.0.WAACNXM_20260412.0000.00_16.0_cn_chinatelecom_79922b2316.tgz"
-        }
-      }
-    }
-  ]
+	"device": "prague",
+	"name": {
+		"zh": "REDMI K90 Max",
+		"en": "REDMI K90 Max"
+	},
+	"code": "AA",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "prague",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K90 Max",
+				"en": "REDMI K90 Max"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.310.0.WAACNXM": {
+					"os": "OS3.0.310.0.WAACNXM",
+					"android": "16.0",
+					"release": "2026-05-07",
+					"recovery": "prague-ota_full-OS3.0.310.0.WAACNXM-user-16.0-7d0c9b89aa.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.308.0.WAACNXM": {
+					"os": "OS3.0.308.0.WAACNXM",
+					"android": "16.0",
+					"release": "2026-04-23",
+					"recovery": "prague-ota_full-OS3.0.308.0.WAACNXM-user-16.0-2f5a830366.zip",
+					"fastboot": "prague_images_OS3.0.308.0.WAACNXM_20260422.0000.00_16.0_cn_ac260be858.tgz",
+					"ctelecom": "prague_images_OS3.0.308.0.WAACNXM_20260422.0000.00_16.0_cn_chinatelecom_0f749fb8bf.tgz"
+				},
+				"OS3.0.304.0.WAACNXM": {
+					"os": "OS3.0.304.0.WAACNXM",
+					"android": "16.0",
+					"release": "2026-04-21",
+					"recovery": "prague-ota_full-OS3.0.304.0.WAACNXM-user-16.0-a2f9190f86.zip",
+					"fastboot": "prague_images_OS3.0.304.0.WAACNXM_20260412.0000.00_16.0_cn_acc85a97a5.tgz",
+					"ctelecom": "prague_images_OS3.0.304.0.WAACNXM_20260412.0000.00_16.0_cn_chinatelecom_79922b2316.tgz"
+				}
+			}
+		}
+	]
 }
