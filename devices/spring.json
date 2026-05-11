@@ -1,638 +1,638 @@
 {
-  "device": "spring",
-  "name": {
-    "zh": "REDMI 15 5G / REDMI Note 15R 5G",
-    "en": "REDMI 15 5G / REDMI Note 15R 5G"
-  },
-  "code": "OU",
-  "suppports": [
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "15.0",
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "spring",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 15R 5G",
-        "en": "REDMI Note 15R 5G"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom",
-        "cnmobile"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WOUCNXM": {
-          "os": "OS3.0.302.0.WOUCNXM",
-          "android": "16.0",
-          "release": "2026-04-27",
-          "recovery": "spring-ota_full-OS3.0.302.0.WOUCNXM-user-16.0-37e6b8833a.zip",
-          "fastboot": "",
-          "ctelecom": "",
-          "cnmobile": ""
-        },
-        "OS3.0.4.0.WOUCNXM": {
-          "os": "OS3.0.4.0.WOUCNXM",
-          "android": "16.0",
-          "release": "2026-02-03",
-          "recovery": "spring-ota_full-OS3.0.4.0.WOUCNXM-user-16.0-e3a8f4c96c.zip",
-          "fastboot": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_c08052ee55.tgz",
-          "ctelecom": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_chinatelecom_666b67de9c.tgz",
-          "cnmobile": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_chinamobile_72e16ee2d4.tgz"
-        },
-        "OS2.0.204.0.VOUCNXM": {
-          "os": "OS2.0.204.0.VOUCNXM",
-          "android": "15.0",
-          "release": "2025-10-19",
-          "recovery": "spring-ota_full-OS2.0.204.0.VOUCNXM-user-15.0-5fdd6a5a46.zip",
-          "fastboot": "spring_images_OS2.0.204.0.VOUCNXM_20251013.0000.00_15.0_cn_3a00947ed6.tgz",
-          "ctelecom": "spring_images_OS2.0.204.0.VOUCNXM_20251013.0000.00_15.0_cn_chinatelecom_fd127566cc.tgz",
-          "cnmobile": ""
-        },
-        "OS2.0.203.0.VOUCNXM": {
-          "os": "OS2.0.203.0.VOUCNXM",
-          "android": "15.0",
-          "release": "2025-08-29",
-          "recovery": "spring-ota_full-OS2.0.203.0.VOUCNXM-user-15.0-1301088748.zip",
-          "fastboot": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_e2e97a1c34.tgz",
-          "ctelecom": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_chinatelecom_f4b946645e.tgz",
-          "cnmobile": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾省正式版",
-        "en": "Xiaomi HyperOS China Taiwan Province Stable"
-      },
-      "branchCode": "spring_tw_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "CNTP",
-      "tag": "TWXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.203.0.VOUTWXM": {
-          "os": "OS2.0.203.0.VOUTWXM",
-          "android": "15.0",
-          "release": "2026-04-10",
-          "recovery": "spring_tw_global-ota_full-OS2.0.203.0.VOUTWXM-user-15.0-113c05a676.zip",
-          "fastboot": "spring_tw_global_images_OS2.0.203.0.VOUTWXM_20260327.0000.00_15.0_tw_373f8fce0d.tgz"
-        },
-        "OS2.0.202.0.VOUTWXM": {
-          "os": "OS2.0.202.0.VOUTWXM",
-          "android": "15.0",
-          "release": "2025-12-04",
-          "recovery": "spring_tw_global-ota_full-OS2.0.202.0.VOUTWXM-user-15.0-462bc04a80.zip",
-          "fastboot": "spring_tw_global_images_OS2.0.202.0.VOUTWXM_20250908.0000.00_15.0_tw_a3b1dd248c.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "spring_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.3.0.WOUMIXM": {
-          "os": "OS3.0.3.0.WOUMIXM",
-          "android": "16.0",
-          "release": "2026-03-12",
-          "recovery": "spring_global-ota_full-OS3.0.3.0.WOUMIXM-user-16.0-3ab305f537.zip",
-          "fastboot": "spring_global_images_OS3.0.3.0.WOUMIXM_20260210.0000.00_16.0_global_33b7975527.tgz"
-        },
-        "OS2.0.210.0.VOUMIXM": {
-          "os": "OS2.0.210.0.VOUMIXM",
-          "android": "15.0",
-          "release": "2026-04-29",
-          "recovery": "spring_global-ota_full-OS2.0.210.0.VOUMIXM-user-15.0-ba1a65871d.zip",
-          "fastboot": "spring_global_images_OS2.0.210.0.VOUMIXM_20260408.0000.00_15.0_global_ad3952f189.tgz"
-        },
-        "OS2.0.209.0.VOUMIXM": {
-          "os": "OS2.0.209.0.VOUMIXM",
-          "android": "15.0",
-          "release": "2026-04-01",
-          "recovery": "spring_global-ota_full-OS2.0.209.0.VOUMIXM-user-15.0-0d0f5076bc.zip",
-          "fastboot": "spring_global_images_OS2.0.209.0.VOUMIXM_20260312.0000.00_15.0_global_5e0ee48263.tgz"
-        },
-        "OS2.0.208.0.VOUMIXM": {
-          "os": "OS2.0.208.0.VOUMIXM",
-          "android": "15.0",
-          "release": "2026-02-23",
-          "recovery": "spring_global-ota_full-OS2.0.208.0.VOUMIXM-user-15.0-f175f9cfa8.zip",
-          "fastboot": "spring_global_images_OS2.0.208.0.VOUMIXM_20260209.0000.00_15.0_global_467c877fc6.tgz"
-        },
-        "OS2.0.207.0.VOUMIXM": {
-          "os": "OS2.0.207.0.VOUMIXM",
-          "android": "15.0",
-          "release": "2025-12-25",
-          "recovery": "spring_global-ota_full-OS2.0.207.0.VOUMIXM-user-15.0-0a20a2cddc.zip",
-          "fastboot": "spring_global_images_OS2.0.207.0.VOUMIXM_20251215.0000.00_15.0_global_4e47960f59.tgz"
-        },
-        "OS2.0.206.0.VOUMIXM": {
-          "os": "OS2.0.206.0.VOUMIXM",
-          "android": "15.0",
-          "release": "2025-11-24",
-          "recovery": "spring_global-ota_full-OS2.0.206.0.VOUMIXM-user-15.0-08c01bec52.zip",
-          "fastboot": "spring_global_images_OS2.0.206.0.VOUMIXM_20251114.0000.00_15.0_global_7d469a5680.tgz"
-        },
-        "OS2.0.205.0.VOUMIXM": {
-          "os": "OS2.0.205.0.VOUMIXM",
-          "android": "15.0",
-          "release": "2025-10-21",
-          "recovery": "spring_global-ota_full-OS2.0.205.0.VOUMIXM-user-15.0-b652ad01b1.zip",
-          "fastboot": "spring_global_images_OS2.0.205.0.VOUMIXM_20250926.0000.00_15.0_global_6a79105d39.tgz"
-        },
-        "OS2.0.204.0.VOUMIXM": {
-          "os": "OS2.0.204.0.VOUMIXM",
-          "android": "15.0",
-          "release": "2025-09-08",
-          "recovery": "spring_global-ota_full-OS2.0.204.0.VOUMIXM-user-15.0-7d8d811f0c.zip",
-          "fastboot": "spring_global_images_OS2.0.204.0.VOUMIXM_20250827.0000.00_15.0_global_f056d411ac.tgz"
-        },
-        "OS2.0.203.0.VOUMIXM": {
-          "os": "OS2.0.203.0.VOUMIXM",
-          "android": "15.0",
-          "release": "2025-08-08",
-          "recovery": "spring_global-ota_full-OS2.0.203.0.VOUMIXM-user-15.0-55ad2855de.zip",
-          "fastboot": "spring_global_images_OS2.0.203.0.VOUMIXM_20250730.0000.00_15.0_global_86e31d93c0.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际 DC 正式版",
-        "en": "Xiaomi HyperOS Global DC Stable"
-      },
-      "branchCode": "spring_dc_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "GBDC",
-      "tag": "MIDC",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "carrier": [
-        "dc"
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WOUMIDC": {
-          "os": "OS3.0.1.0.WOUMIDC",
-          "android": "16.0",
-          "release": "2026-04-28",
-          "recovery": "spring_dc_global-ota_full-OS3.0.1.0.WOUMIDC-user-16.0-8fc5df2215.zip",
-          "fastboot": ""
-        },
-        "OS2.0.205.0.VOUMIDC": {
-          "os": "OS2.0.205.0.VOUMIDC",
-          "android": "15.0",
-          "release": "2026-03-13",
-          "recovery": "spring_dc_global-ota_full-OS2.0.205.0.VOUMIDC-user-15.0-5c94b9cd5c.zip",
-          "fastboot": "spring_dc_global_images_OS2.0.205.0.VOUMIDC_20260126.0000.00_15.0_global_dc_3661628669.tgz"
-        },
-        "OS2.0.204.0.VOUMIDC": {
-          "os": "OS2.0.204.0.VOUMIDC",
-          "android": "15.0",
-          "release": "2026-03-02",
-          "recovery": "spring_dc_global-ota_full-OS2.0.204.0.VOUMIDC-user-15.0-64ff2223b8.zip",
-          "fastboot": "spring_dc_global_images_OS2.0.204.0.VOUMIDC_20251218.0000.00_15.0_global_dc_9772f2985d.tgz"
-        },
-        "OS2.0.203.0.VOUMIDC": {
-          "os": "OS2.0.203.0.VOUMIDC",
-          "android": "15.0",
-          "release": "2025-11-17",
-          "recovery": "spring_dc_global-ota_full-OS2.0.203.0.VOUMIDC-user-15.0-cde24803cf.zip",
-          "fastboot": "spring_dc_global_images_OS2.0.203.0.VOUMIDC_20251013.0000.00_15.0_global_dc_eddd6ee324.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "spring_eea_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WOUEUXM": {
-          "os": "OS3.0.1.0.WOUEUXM",
-          "android": "16.0",
-          "release": "2026-03-30",
-          "recovery": "spring_eea_global-ota_full-OS3.0.1.0.WOUEUXM-user-16.0-f2e43e1fbd.zip",
-          "fastboot": "spring_eea_global_images_OS3.0.1.0.WOUEUXM_20260318.0000.00_16.0_eea_a1fe3d91cf.tgz"
-        },
-        "OS2.0.209.0.VOUEUXM": {
-          "os": "OS2.0.209.0.VOUEUXM",
-          "android": "15.0",
-          "release": "2026-03-12",
-          "recovery": "spring_eea_global-ota_full-OS2.0.209.0.VOUEUXM-user-15.0-fabcf63789.zip",
-          "fastboot": "spring_eea_global_images_OS2.0.209.0.VOUEUXM_20260225.0000.00_15.0_eea_2d96d1c470.tgz"
-        },
-        "OS2.0.208.0.VOUEUXM": {
-          "os": "OS2.0.208.0.VOUEUXM",
-          "android": "15.0",
-          "release": "2026-01-26",
-          "recovery": "spring_eea_global-ota_full-OS2.0.208.0.VOUEUXM-user-15.0-8af4dc6220.zip",
-          "fastboot": "spring_eea_global_images_OS2.0.208.0.VOUEUXM_20260114.0000.00_15.0_eea_1d4a5b15af.tgz"
-        },
-        "OS2.0.207.0.VOUEUXM": {
-          "os": "OS2.0.207.0.VOUEUXM",
-          "android": "15.0",
-          "release": "2026-01-03",
-          "recovery": "spring_eea_global-ota_full-OS2.0.207.0.VOUEUXM-user-15.0-4c39f88d07.zip",
-          "fastboot": "spring_eea_global_images_OS2.0.207.0.VOUEUXM_20251231.0000.00_15.0_eea_25deaa175d.tgz"
-        },
-        "OS2.0.205.0.VOUEUXM": {
-          "os": "OS2.0.205.0.VOUEUXM",
-          "android": "15.0",
-          "release": "2025-11-28",
-          "recovery": "spring_eea_global-ota_full-OS2.0.205.0.VOUEUXM-user-15.0-b0bd543cb3.zip",
-          "fastboot": "spring_eea_global_images_OS2.0.205.0.VOUEUXM_20251114.0000.00_15.0_eea_5f77a167ed.tgz"
-        },
-        "OS2.0.204.0.VOUEUXM": {
-          "os": "OS2.0.204.0.VOUEUXM",
-          "android": "15.0",
-          "release": "2025-10-05",
-          "recovery": "spring_eea_global-ota_full-OS2.0.204.0.VOUEUXM-user-15.0-fc8592e523.zip",
-          "fastboot": "spring_eea_global_images_OS2.0.204.0.VOUEUXM_20250920.0000.00_15.0_eea_7faec984b1.tgz"
-        },
-        "OS2.0.203.0.VOUEUXM": {
-          "os": "OS2.0.203.0.VOUEUXM",
-          "android": "15.0",
-          "release": "2025-08-27",
-          "recovery": "spring_eea_global-ota_full-OS2.0.203.0.VOUEUXM-user-15.0-851ccd1b0d.zip",
-          "fastboot": "spring_eea_global_images_OS2.0.203.0.VOUEUXM_20250819.0000.00_15.0_eea_7462a0f355.tgz"
-        },
-        "OS2.0.202.0.VOUEUXM": {
-          "os": "OS2.0.202.0.VOUEUXM",
-          "android": "15.0",
-          "release": "2025-08-08",
-          "recovery": "spring_eea_global-ota_full-OS2.0.202.0.VOUEUXM-user-15.0-77083e7879.zip",
-          "fastboot": "spring_eea_global_images_OS2.0.202.0.VOUEUXM_20250801.0000.00_15.0_eea_1098071303.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度正式版",
-        "en": "Xiaomi HyperOS India Stable"
-      },
-      "branchCode": "spring_in_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "INSO",
-      "tag": "INXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "in",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WOUINXM": {
-          "os": "OS3.0.1.0.WOUINXM",
-          "android": "16.0",
-          "release": "2026-04-15",
-          "recovery": "spring_in_global-ota_full-OS3.0.1.0.WOUINXM-user-16.0-89aa4925ce.zip",
-          "fastboot": ""
-        },
-        "OS2.0.208.0.VOUINXM": {
-          "os": "OS2.0.208.0.VOUINXM",
-          "android": "15.0",
-          "release": "2026-02-23",
-          "recovery": "spring_in_global-ota_full-OS2.0.208.0.VOUINXM-user-15.0-8de18aea6f.zip",
-          "fastboot": "spring_in_global_images_OS2.0.208.0.VOUINXM_20260204.0000.00_15.0_in_87d78fd62b.tgz"
-        },
-        "OS2.0.207.0.VOUINXM": {
-          "os": "OS2.0.207.0.VOUINXM",
-          "android": "15.0",
-          "release": "2025-12-21",
-          "recovery": "spring_in_global-ota_full-OS2.0.207.0.VOUINXM-user-15.0-2808147b7b.zip",
-          "fastboot": "spring_in_global_images_OS2.0.207.0.VOUINXM_20251203.0000.00_15.0_in_b3a740e5cf.tgz"
-        },
-        "OS2.0.206.0.VOUINXM": {
-          "os": "OS2.0.206.0.VOUINXM",
-          "android": "15.0",
-          "release": "2025-10-23",
-          "recovery": "spring_in_global-ota_full-OS2.0.206.0.VOUINXM-user-15.0-c4453d3371.zip",
-          "fastboot": "spring_in_global_images_OS2.0.206.0.VOUINXM_20251013.0000.00_15.0_in_f478770eb1.tgz"
-        },
-        "OS2.0.205.0.VOUINXM": {
-          "os": "OS2.0.205.0.VOUINXM",
-          "android": "15.0",
-          "release": "2025-09-24",
-          "recovery": "spring_in_global-ota_full-OS2.0.205.0.VOUINXM-user-15.0-393bf7ce73.zip",
-          "fastboot": "spring_in_global_images_OS2.0.205.0.VOUINXM_20250903.0000.00_15.0_in_bd125e5d26.tgz"
-        },
-        "OS2.0.203.0.VOUINXM": {
-          "os": "OS2.0.203.0.VOUINXM",
-          "android": "15.0",
-          "release": "2025-08-27",
-          "recovery": "spring_in_global-ota_full-OS2.0.203.0.VOUINXM-user-15.0-97420328f8.zip",
-          "fastboot": "spring_in_global_images_OS2.0.203.0.VOUINXM_20250807.0000.00_15.0_in_9a31122112.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 土耳其正式版",
-        "en": "Xiaomi HyperOS Turkey Stable"
-      },
-      "branchCode": "spring_tr_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "TRSO",
-      "tag": "TRXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tr",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WOUTRXM": {
-          "os": "OS3.0.1.0.WOUTRXM",
-          "android": "16.0",
-          "release": "2026-04-14",
-          "recovery": "spring_tr_global-ota_full-OS3.0.1.0.WOUTRXM-user-16.0-7bff3f92d0.zip",
-          "fastboot": "spring_tr_global_images_OS3.0.1.0.WOUTRXM_20260326.0000.00_16.0_tr_6bb83afce6.tgz"
-        },
-        "OS2.0.202.0.VOUTRXM": {
-          "os": "OS2.0.202.0.VOUTRXM",
-          "android": "15.0",
-          "release": "2026-02-24",
-          "recovery": "spring_tr_global-ota_full-OS2.0.202.0.VOUTRXM-user-15.0-8046850e9c.zip",
-          "fastboot": "spring_tr_global_images_OS2.0.202.0.VOUTRXM_20260204.0000.00_15.0_tr_140cc9d943.tgz"
-        },
-        "OS2.0.201.0.VOUTRXM": {
-          "os": "OS2.0.201.0.VOUTRXM",
-          "android": "15.0",
-          "release": "2026-01-01",
-          "recovery": "spring_tr_global-ota_full-OS2.0.201.0.VOUTRXM-user-15.0-647a35f2c4.zip",
-          "fastboot": "spring_tr_global_images_OS2.0.201.0.VOUTRXM_20250917.0000.00_15.0_tr_5382880f85.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 日本正式版",
-        "en": "Xiaomi HyperOS Japan Stable"
-      },
-      "branchCode": "spring_jp_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "JAPS",
-      "tag": "JPXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "jp",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.203.0.VOUJPXM": {
-          "os": "OS2.0.203.0.VOUJPXM",
-          "android": "15.0",
-          "release": "2026-01-19",
-          "recovery": "spring_jp_global-ota_full-OS2.0.203.0.VOUJPXM-user-15.0-c18bcb3018.zip",
-          "fastboot": "spring_jp_global_images_OS2.0.203.0.VOUJPXM_20260105.0000.00_15.0_jp_c9bbfcf9e1.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
-        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
-      },
-      "branchCode": "spring_lm_cr_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "LMCR",
-      "tag": "LMCR",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "cr"
-      ],
-      "region": "lm",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.204.0.VOULMCR": {
-          "os": "OS2.0.204.0.VOULMCR",
-          "android": "15.0",
-          "release": "2026-02-03",
-          "recovery": "spring_lm_cr_global-ota_full-OS2.0.204.0.VOULMCR-user-15.0-d370939513.zip",
-          "fastboot": "spring_lm_cr_global_images_OS2.0.204.0.VOULMCR_20260126.0000.00_15.0_lm_cr_918b170a79.tgz"
-        },
-        "OS2.0.203.0.VOULMCR": {
-          "os": "OS2.0.203.0.VOULMCR",
-          "android": "15.0",
-          "release": "2026-01-01",
-          "recovery": "spring_lm_cr_global-ota_full-OS2.0.203.0.VOULMCR-user-15.0-be92d04053.zip",
-          "fastboot": "spring_lm_cr_global_images_OS2.0.203.0.VOULMCR_20251225.0000.00_15.0_lm_cr_ba99cb959a.tgz"
-        },
-        "OS2.0.202.0.VOULMCR": {
-          "os": "OS2.0.202.0.VOULMCR",
-          "android": "15.0",
-          "release": "2025-10-31",
-          "recovery": "spring_lm_cr_global-ota_full-OS2.0.202.0.VOULMCR-user-15.0-7639f5f6c5.zip",
-          "fastboot": "spring_lm_cr_global_images_OS2.0.202.0.VOULMCR_20250910.0000.00_15.0_lm_cr_873dc6681c.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
-        "en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
-      },
-      "branchCode": "spring_gt_tg_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 5G",
-        "en": "REDMI 15 5G"
-      },
-      "idtag": "GTTG",
-      "tag": "GTTG",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "tg"
-      ],
-      "region": "gt",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.205.0.VOUGTTG": {
-          "os": "OS2.0.205.0.VOUGTTG",
-          "android": "15.0",
-          "release": "2026-02-24",
-          "recovery": "spring_gt_tg_global-ota_full-OS2.0.205.0.VOUGTTG-user-15.0-bd378b7fe7.zip",
-          "fastboot": "spring_gt_tg_global_images_OS2.0.205.0.VOUGTTG_20251117.0000.00_15.0_gt_tg_044c243470.tgz"
-        },
-        "OS2.0.204.0.VOUGTTG": {
-          "os": "OS2.0.204.0.VOUGTTG",
-          "android": "15.0",
-          "release": "2025-10-09",
-          "recovery": "spring_gt_tg_global-ota_full-OS2.0.204.0.VOUGTTG-user-15.0-4d28e51464.zip",
-          "fastboot": "spring_gt_tg_global_images_OS2.0.204.0.VOUGTTG_20250826.0000.00_15.0_gt_tg_a9bdc5adea.tgz"
-        }
-      }
-    }
-  ]
+	"device": "spring",
+	"name": {
+		"zh": "REDMI 15 5G / REDMI Note 15R 5G",
+		"en": "REDMI 15 5G / REDMI Note 15R 5G"
+	},
+	"code": "OU",
+	"suppports": [
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"15.0",
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "spring",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15R 5G",
+				"en": "REDMI Note 15R 5G"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WOUCNXM": {
+					"os": "OS3.0.302.0.WOUCNXM",
+					"android": "16.0",
+					"release": "2026-04-27",
+					"recovery": "spring-ota_full-OS3.0.302.0.WOUCNXM-user-16.0-37e6b8833a.zip",
+					"fastboot": "spring_images_OS3.0.302.0.WOUCNXM_20260423.0000.00_16.0_cn_4bcdf0e386.tgz",
+					"ctelecom": "spring_images_OS3.0.302.0.WOUCNXM_20260423.0000.00_16.0_cn_chinatelecom_155acb22e2.tgz",
+					"cnmobile": "spring_images_OS3.0.302.0.WOUCNXM_20260423.0000.00_16.0_cn_chinamobile_55973a8f30.tgz"
+				},
+				"OS3.0.4.0.WOUCNXM": {
+					"os": "OS3.0.4.0.WOUCNXM",
+					"android": "16.0",
+					"release": "2026-02-03",
+					"recovery": "spring-ota_full-OS3.0.4.0.WOUCNXM-user-16.0-e3a8f4c96c.zip",
+					"fastboot": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_c08052ee55.tgz",
+					"ctelecom": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_chinatelecom_666b67de9c.tgz",
+					"cnmobile": "spring_images_OS3.0.4.0.WOUCNXM_20260202.0000.00_16.0_cn_chinamobile_72e16ee2d4.tgz"
+				},
+				"OS2.0.204.0.VOUCNXM": {
+					"os": "OS2.0.204.0.VOUCNXM",
+					"android": "15.0",
+					"release": "2025-10-19",
+					"recovery": "spring-ota_full-OS2.0.204.0.VOUCNXM-user-15.0-5fdd6a5a46.zip",
+					"fastboot": "spring_images_OS2.0.204.0.VOUCNXM_20251013.0000.00_15.0_cn_3a00947ed6.tgz",
+					"ctelecom": "spring_images_OS2.0.204.0.VOUCNXM_20251013.0000.00_15.0_cn_chinatelecom_fd127566cc.tgz",
+					"cnmobile": ""
+				},
+				"OS2.0.203.0.VOUCNXM": {
+					"os": "OS2.0.203.0.VOUCNXM",
+					"android": "15.0",
+					"release": "2025-08-29",
+					"recovery": "spring-ota_full-OS2.0.203.0.VOUCNXM-user-15.0-1301088748.zip",
+					"fastboot": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_e2e97a1c34.tgz",
+					"ctelecom": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_chinatelecom_f4b946645e.tgz",
+					"cnmobile": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "spring_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.203.0.VOUTWXM": {
+					"os": "OS2.0.203.0.VOUTWXM",
+					"android": "15.0",
+					"release": "2026-04-10",
+					"recovery": "spring_tw_global-ota_full-OS2.0.203.0.VOUTWXM-user-15.0-113c05a676.zip",
+					"fastboot": "spring_tw_global_images_OS2.0.203.0.VOUTWXM_20260327.0000.00_15.0_tw_373f8fce0d.tgz"
+				},
+				"OS2.0.202.0.VOUTWXM": {
+					"os": "OS2.0.202.0.VOUTWXM",
+					"android": "15.0",
+					"release": "2025-12-04",
+					"recovery": "spring_tw_global-ota_full-OS2.0.202.0.VOUTWXM-user-15.0-462bc04a80.zip",
+					"fastboot": "spring_tw_global_images_OS2.0.202.0.VOUTWXM_20250908.0000.00_15.0_tw_a3b1dd248c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "spring_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WOUMIXM": {
+					"os": "OS3.0.3.0.WOUMIXM",
+					"android": "16.0",
+					"release": "2026-03-12",
+					"recovery": "spring_global-ota_full-OS3.0.3.0.WOUMIXM-user-16.0-3ab305f537.zip",
+					"fastboot": "spring_global_images_OS3.0.3.0.WOUMIXM_20260210.0000.00_16.0_global_33b7975527.tgz"
+				},
+				"OS2.0.210.0.VOUMIXM": {
+					"os": "OS2.0.210.0.VOUMIXM",
+					"android": "15.0",
+					"release": "2026-04-29",
+					"recovery": "spring_global-ota_full-OS2.0.210.0.VOUMIXM-user-15.0-ba1a65871d.zip",
+					"fastboot": "spring_global_images_OS2.0.210.0.VOUMIXM_20260408.0000.00_15.0_global_ad3952f189.tgz"
+				},
+				"OS2.0.209.0.VOUMIXM": {
+					"os": "OS2.0.209.0.VOUMIXM",
+					"android": "15.0",
+					"release": "2026-04-01",
+					"recovery": "spring_global-ota_full-OS2.0.209.0.VOUMIXM-user-15.0-0d0f5076bc.zip",
+					"fastboot": "spring_global_images_OS2.0.209.0.VOUMIXM_20260312.0000.00_15.0_global_5e0ee48263.tgz"
+				},
+				"OS2.0.208.0.VOUMIXM": {
+					"os": "OS2.0.208.0.VOUMIXM",
+					"android": "15.0",
+					"release": "2026-02-23",
+					"recovery": "spring_global-ota_full-OS2.0.208.0.VOUMIXM-user-15.0-f175f9cfa8.zip",
+					"fastboot": "spring_global_images_OS2.0.208.0.VOUMIXM_20260209.0000.00_15.0_global_467c877fc6.tgz"
+				},
+				"OS2.0.207.0.VOUMIXM": {
+					"os": "OS2.0.207.0.VOUMIXM",
+					"android": "15.0",
+					"release": "2025-12-25",
+					"recovery": "spring_global-ota_full-OS2.0.207.0.VOUMIXM-user-15.0-0a20a2cddc.zip",
+					"fastboot": "spring_global_images_OS2.0.207.0.VOUMIXM_20251215.0000.00_15.0_global_4e47960f59.tgz"
+				},
+				"OS2.0.206.0.VOUMIXM": {
+					"os": "OS2.0.206.0.VOUMIXM",
+					"android": "15.0",
+					"release": "2025-11-24",
+					"recovery": "spring_global-ota_full-OS2.0.206.0.VOUMIXM-user-15.0-08c01bec52.zip",
+					"fastboot": "spring_global_images_OS2.0.206.0.VOUMIXM_20251114.0000.00_15.0_global_7d469a5680.tgz"
+				},
+				"OS2.0.205.0.VOUMIXM": {
+					"os": "OS2.0.205.0.VOUMIXM",
+					"android": "15.0",
+					"release": "2025-10-21",
+					"recovery": "spring_global-ota_full-OS2.0.205.0.VOUMIXM-user-15.0-b652ad01b1.zip",
+					"fastboot": "spring_global_images_OS2.0.205.0.VOUMIXM_20250926.0000.00_15.0_global_6a79105d39.tgz"
+				},
+				"OS2.0.204.0.VOUMIXM": {
+					"os": "OS2.0.204.0.VOUMIXM",
+					"android": "15.0",
+					"release": "2025-09-08",
+					"recovery": "spring_global-ota_full-OS2.0.204.0.VOUMIXM-user-15.0-7d8d811f0c.zip",
+					"fastboot": "spring_global_images_OS2.0.204.0.VOUMIXM_20250827.0000.00_15.0_global_f056d411ac.tgz"
+				},
+				"OS2.0.203.0.VOUMIXM": {
+					"os": "OS2.0.203.0.VOUMIXM",
+					"android": "15.0",
+					"release": "2025-08-08",
+					"recovery": "spring_global-ota_full-OS2.0.203.0.VOUMIXM-user-15.0-55ad2855de.zip",
+					"fastboot": "spring_global_images_OS2.0.203.0.VOUMIXM_20250730.0000.00_15.0_global_86e31d93c0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "spring_dc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WOUMIDC": {
+					"os": "OS3.0.1.0.WOUMIDC",
+					"android": "16.0",
+					"release": "2026-04-28",
+					"recovery": "spring_dc_global-ota_full-OS3.0.1.0.WOUMIDC-user-16.0-8fc5df2215.zip",
+					"fastboot": ""
+				},
+				"OS2.0.205.0.VOUMIDC": {
+					"os": "OS2.0.205.0.VOUMIDC",
+					"android": "15.0",
+					"release": "2026-03-13",
+					"recovery": "spring_dc_global-ota_full-OS2.0.205.0.VOUMIDC-user-15.0-5c94b9cd5c.zip",
+					"fastboot": "spring_dc_global_images_OS2.0.205.0.VOUMIDC_20260126.0000.00_15.0_global_dc_3661628669.tgz"
+				},
+				"OS2.0.204.0.VOUMIDC": {
+					"os": "OS2.0.204.0.VOUMIDC",
+					"android": "15.0",
+					"release": "2026-03-02",
+					"recovery": "spring_dc_global-ota_full-OS2.0.204.0.VOUMIDC-user-15.0-64ff2223b8.zip",
+					"fastboot": "spring_dc_global_images_OS2.0.204.0.VOUMIDC_20251218.0000.00_15.0_global_dc_9772f2985d.tgz"
+				},
+				"OS2.0.203.0.VOUMIDC": {
+					"os": "OS2.0.203.0.VOUMIDC",
+					"android": "15.0",
+					"release": "2025-11-17",
+					"recovery": "spring_dc_global-ota_full-OS2.0.203.0.VOUMIDC-user-15.0-cde24803cf.zip",
+					"fastboot": "spring_dc_global_images_OS2.0.203.0.VOUMIDC_20251013.0000.00_15.0_global_dc_eddd6ee324.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "spring_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WOUEUXM": {
+					"os": "OS3.0.1.0.WOUEUXM",
+					"android": "16.0",
+					"release": "2026-03-30",
+					"recovery": "spring_eea_global-ota_full-OS3.0.1.0.WOUEUXM-user-16.0-f2e43e1fbd.zip",
+					"fastboot": "spring_eea_global_images_OS3.0.1.0.WOUEUXM_20260318.0000.00_16.0_eea_a1fe3d91cf.tgz"
+				},
+				"OS2.0.209.0.VOUEUXM": {
+					"os": "OS2.0.209.0.VOUEUXM",
+					"android": "15.0",
+					"release": "2026-03-12",
+					"recovery": "spring_eea_global-ota_full-OS2.0.209.0.VOUEUXM-user-15.0-fabcf63789.zip",
+					"fastboot": "spring_eea_global_images_OS2.0.209.0.VOUEUXM_20260225.0000.00_15.0_eea_2d96d1c470.tgz"
+				},
+				"OS2.0.208.0.VOUEUXM": {
+					"os": "OS2.0.208.0.VOUEUXM",
+					"android": "15.0",
+					"release": "2026-01-26",
+					"recovery": "spring_eea_global-ota_full-OS2.0.208.0.VOUEUXM-user-15.0-8af4dc6220.zip",
+					"fastboot": "spring_eea_global_images_OS2.0.208.0.VOUEUXM_20260114.0000.00_15.0_eea_1d4a5b15af.tgz"
+				},
+				"OS2.0.207.0.VOUEUXM": {
+					"os": "OS2.0.207.0.VOUEUXM",
+					"android": "15.0",
+					"release": "2026-01-03",
+					"recovery": "spring_eea_global-ota_full-OS2.0.207.0.VOUEUXM-user-15.0-4c39f88d07.zip",
+					"fastboot": "spring_eea_global_images_OS2.0.207.0.VOUEUXM_20251231.0000.00_15.0_eea_25deaa175d.tgz"
+				},
+				"OS2.0.205.0.VOUEUXM": {
+					"os": "OS2.0.205.0.VOUEUXM",
+					"android": "15.0",
+					"release": "2025-11-28",
+					"recovery": "spring_eea_global-ota_full-OS2.0.205.0.VOUEUXM-user-15.0-b0bd543cb3.zip",
+					"fastboot": "spring_eea_global_images_OS2.0.205.0.VOUEUXM_20251114.0000.00_15.0_eea_5f77a167ed.tgz"
+				},
+				"OS2.0.204.0.VOUEUXM": {
+					"os": "OS2.0.204.0.VOUEUXM",
+					"android": "15.0",
+					"release": "2025-10-05",
+					"recovery": "spring_eea_global-ota_full-OS2.0.204.0.VOUEUXM-user-15.0-fc8592e523.zip",
+					"fastboot": "spring_eea_global_images_OS2.0.204.0.VOUEUXM_20250920.0000.00_15.0_eea_7faec984b1.tgz"
+				},
+				"OS2.0.203.0.VOUEUXM": {
+					"os": "OS2.0.203.0.VOUEUXM",
+					"android": "15.0",
+					"release": "2025-08-27",
+					"recovery": "spring_eea_global-ota_full-OS2.0.203.0.VOUEUXM-user-15.0-851ccd1b0d.zip",
+					"fastboot": "spring_eea_global_images_OS2.0.203.0.VOUEUXM_20250819.0000.00_15.0_eea_7462a0f355.tgz"
+				},
+				"OS2.0.202.0.VOUEUXM": {
+					"os": "OS2.0.202.0.VOUEUXM",
+					"android": "15.0",
+					"release": "2025-08-08",
+					"recovery": "spring_eea_global-ota_full-OS2.0.202.0.VOUEUXM-user-15.0-77083e7879.zip",
+					"fastboot": "spring_eea_global_images_OS2.0.202.0.VOUEUXM_20250801.0000.00_15.0_eea_1098071303.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "spring_in_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WOUINXM": {
+					"os": "OS3.0.1.0.WOUINXM",
+					"android": "16.0",
+					"release": "2026-04-15",
+					"recovery": "spring_in_global-ota_full-OS3.0.1.0.WOUINXM-user-16.0-89aa4925ce.zip",
+					"fastboot": ""
+				},
+				"OS2.0.208.0.VOUINXM": {
+					"os": "OS2.0.208.0.VOUINXM",
+					"android": "15.0",
+					"release": "2026-02-23",
+					"recovery": "spring_in_global-ota_full-OS2.0.208.0.VOUINXM-user-15.0-8de18aea6f.zip",
+					"fastboot": "spring_in_global_images_OS2.0.208.0.VOUINXM_20260204.0000.00_15.0_in_87d78fd62b.tgz"
+				},
+				"OS2.0.207.0.VOUINXM": {
+					"os": "OS2.0.207.0.VOUINXM",
+					"android": "15.0",
+					"release": "2025-12-21",
+					"recovery": "spring_in_global-ota_full-OS2.0.207.0.VOUINXM-user-15.0-2808147b7b.zip",
+					"fastboot": "spring_in_global_images_OS2.0.207.0.VOUINXM_20251203.0000.00_15.0_in_b3a740e5cf.tgz"
+				},
+				"OS2.0.206.0.VOUINXM": {
+					"os": "OS2.0.206.0.VOUINXM",
+					"android": "15.0",
+					"release": "2025-10-23",
+					"recovery": "spring_in_global-ota_full-OS2.0.206.0.VOUINXM-user-15.0-c4453d3371.zip",
+					"fastboot": "spring_in_global_images_OS2.0.206.0.VOUINXM_20251013.0000.00_15.0_in_f478770eb1.tgz"
+				},
+				"OS2.0.205.0.VOUINXM": {
+					"os": "OS2.0.205.0.VOUINXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "spring_in_global-ota_full-OS2.0.205.0.VOUINXM-user-15.0-393bf7ce73.zip",
+					"fastboot": "spring_in_global_images_OS2.0.205.0.VOUINXM_20250903.0000.00_15.0_in_bd125e5d26.tgz"
+				},
+				"OS2.0.203.0.VOUINXM": {
+					"os": "OS2.0.203.0.VOUINXM",
+					"android": "15.0",
+					"release": "2025-08-27",
+					"recovery": "spring_in_global-ota_full-OS2.0.203.0.VOUINXM-user-15.0-97420328f8.zip",
+					"fastboot": "spring_in_global_images_OS2.0.203.0.VOUINXM_20250807.0000.00_15.0_in_9a31122112.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "spring_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WOUTRXM": {
+					"os": "OS3.0.1.0.WOUTRXM",
+					"android": "16.0",
+					"release": "2026-04-14",
+					"recovery": "spring_tr_global-ota_full-OS3.0.1.0.WOUTRXM-user-16.0-7bff3f92d0.zip",
+					"fastboot": "spring_tr_global_images_OS3.0.1.0.WOUTRXM_20260326.0000.00_16.0_tr_6bb83afce6.tgz"
+				},
+				"OS2.0.202.0.VOUTRXM": {
+					"os": "OS2.0.202.0.VOUTRXM",
+					"android": "15.0",
+					"release": "2026-02-24",
+					"recovery": "spring_tr_global-ota_full-OS2.0.202.0.VOUTRXM-user-15.0-8046850e9c.zip",
+					"fastboot": "spring_tr_global_images_OS2.0.202.0.VOUTRXM_20260204.0000.00_15.0_tr_140cc9d943.tgz"
+				},
+				"OS2.0.201.0.VOUTRXM": {
+					"os": "OS2.0.201.0.VOUTRXM",
+					"android": "15.0",
+					"release": "2026-01-01",
+					"recovery": "spring_tr_global-ota_full-OS2.0.201.0.VOUTRXM-user-15.0-647a35f2c4.zip",
+					"fastboot": "spring_tr_global_images_OS2.0.201.0.VOUTRXM_20250917.0000.00_15.0_tr_5382880f85.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "spring_jp_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "JAPS",
+			"tag": "JPXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.203.0.VOUJPXM": {
+					"os": "OS2.0.203.0.VOUJPXM",
+					"android": "15.0",
+					"release": "2026-01-19",
+					"recovery": "spring_jp_global-ota_full-OS2.0.203.0.VOUJPXM-user-15.0-c18bcb3018.zip",
+					"fastboot": "spring_jp_global_images_OS2.0.203.0.VOUJPXM_20260105.0000.00_15.0_jp_c9bbfcf9e1.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "spring_lm_cr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.204.0.VOULMCR": {
+					"os": "OS2.0.204.0.VOULMCR",
+					"android": "15.0",
+					"release": "2026-02-03",
+					"recovery": "spring_lm_cr_global-ota_full-OS2.0.204.0.VOULMCR-user-15.0-d370939513.zip",
+					"fastboot": "spring_lm_cr_global_images_OS2.0.204.0.VOULMCR_20260126.0000.00_15.0_lm_cr_918b170a79.tgz"
+				},
+				"OS2.0.203.0.VOULMCR": {
+					"os": "OS2.0.203.0.VOULMCR",
+					"android": "15.0",
+					"release": "2026-01-01",
+					"recovery": "spring_lm_cr_global-ota_full-OS2.0.203.0.VOULMCR-user-15.0-be92d04053.zip",
+					"fastboot": "spring_lm_cr_global_images_OS2.0.203.0.VOULMCR_20251225.0000.00_15.0_lm_cr_ba99cb959a.tgz"
+				},
+				"OS2.0.202.0.VOULMCR": {
+					"os": "OS2.0.202.0.VOULMCR",
+					"android": "15.0",
+					"release": "2025-10-31",
+					"recovery": "spring_lm_cr_global-ota_full-OS2.0.202.0.VOULMCR-user-15.0-7639f5f6c5.zip",
+					"fastboot": "spring_lm_cr_global_images_OS2.0.202.0.VOULMCR_20250910.0000.00_15.0_lm_cr_873dc6681c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 危地马拉Tigo运营商定制版",
+				"en": "Xiaomi HyperOS Guatemala Tigo Carrier Edtion"
+			},
+			"branchCode": "spring_gt_tg_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G",
+				"en": "REDMI 15 5G"
+			},
+			"idtag": "GTTG",
+			"tag": "GTTG",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tg"
+			],
+			"region": "gt",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.205.0.VOUGTTG": {
+					"os": "OS2.0.205.0.VOUGTTG",
+					"android": "15.0",
+					"release": "2026-02-24",
+					"recovery": "spring_gt_tg_global-ota_full-OS2.0.205.0.VOUGTTG-user-15.0-bd378b7fe7.zip",
+					"fastboot": "spring_gt_tg_global_images_OS2.0.205.0.VOUGTTG_20251117.0000.00_15.0_gt_tg_044c243470.tgz"
+				},
+				"OS2.0.204.0.VOUGTTG": {
+					"os": "OS2.0.204.0.VOUGTTG",
+					"android": "15.0",
+					"release": "2025-10-09",
+					"recovery": "spring_gt_tg_global-ota_full-OS2.0.204.0.VOUGTTG-user-15.0-4d28e51464.zip",
+					"fastboot": "spring_gt_tg_global_images_OS2.0.204.0.VOUGTTG_20250826.0000.00_15.0_gt_tg_a9bdc5adea.tgz"
+				}
+			}
+		}
+	]
 }
