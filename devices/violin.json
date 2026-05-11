@@ -1,250 +1,257 @@
 {
-  "device": "violin",
-  "name": {
-    "zh": "小米平板 7S Pro 12.5",
-    "en": "Xiaomi Pad 7S Pro 12.5"
-  },
-  "code": "OT",
-  "suppports": [
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "15.0",
-    "16.0"
-  ],
-  "type": "tablet",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS Beta",
-        "en": "Xiaomi HyperOS Beta"
-      },
-      "branchCode": "violin",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 7S Pro 12.5",
-        "en": "Xiaomi Pad 7S Pro 12.5"
-      },
-      "idtag": "CnOB",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.0.18.WOTCNXM": {
-          "os": "OS3.0.0.18.WOTCNXM",
-          "android": "16.0",
-          "release": "2025-09-25",
-          "recovery": "violin-ota_full-OS3.0.0.18.WOTCNXM-user-16.0-af39e8a371.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.17.WOTCNXM": {
-          "os": "OS3.0.0.17.WOTCNXM",
-          "android": "16.0",
-          "release": "2025-09-10",
-          "recovery": "violin-ota_full-OS3.0.0.17.WOTCNXM-user-16.0-1c4702bd10.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.12.WOTCNXM": {
-          "os": "OS3.0.0.12.WOTCNXM",
-          "android": "16.0",
-          "release": "2025-09-04",
-          "recovery": "violin-ota_full-OS3.0.0.12.WOTCNXM-user-16.0-2701ccb0e3.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.10.WOTCNXM": {
-          "os": "OS3.0.0.10.WOTCNXM",
-          "android": "16.0",
-          "release": "2025-08-29",
-          "recovery": "violin-ota_full-OS3.0.0.10.WOTCNXM-user-16.0-421e6633ad.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "violin",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 7S Pro 12.5",
-        "en": "Xiaomi Pad 7S Pro 12.5"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WOTCNXM": {
-          "os": "OS3.0.302.0.WOTCNXM",
-          "android": "16.0",
-          "release": "2026-03-26",
-          "recovery": "violin-ota_full-OS3.0.302.0.WOTCNXM-user-16.0-979a341f65.zip",
-          "fastboot": "violin-images-OS3.0.302.0.WOTCNXM-user-20260324.0000.00-16.0-cn-7375967061.tgz"
-        },
-        "OS3.0.10.0.WOTCNXM": {
-          "os": "OS3.0.10.0.WOTCNXM",
-          "android": "16.0",
-          "release": "2026-02-02",
-          "recovery": "violin-ota_full-OS3.0.10.0.WOTCNXM-user-16.0-786c3a0c26.zip",
-          "fastboot": "violin-images-OS3.0.10.0.WOTCNXM-user-20260128.0000.00-16.0-cn-4a6340eb4d.tgz"
-        },
-        "OS3.0.8.0.WOTCNXM": {
-          "os": "OS3.0.8.0.WOTCNXM",
-          "android": "16.0",
-          "release": "2025-12-26",
-          "recovery": "violin-ota_full-OS3.0.8.0.WOTCNXM-user-16.0-e613fe01ed.zip",
-          "fastboot": "violin-images-OS3.0.8.0.WOTCNXM-user-20251224.0000.00-16.0-cn-98a1920bba.tgz"
-        },
-        "OS3.0.7.0.WOTCNXM": {
-          "os": "OS3.0.7.0.WOTCNXM",
-          "android": "16.0",
-          "release": "2025-12-17",
-          "recovery": "violin-ota_full-OS3.0.7.0.WOTCNXM-user-16.0-f9e280e6c3.zip",
-          "fastboot": ""
-        },
-        "OS3.0.6.0.WOTCNXM": {
-          "os": "OS3.0.6.0.WOTCNXM",
-          "android": "16.0",
-          "release": "2025-10-28",
-          "recovery": "violin-ota_full-OS3.0.6.0.WOTCNXM-user-16.0-c9a2a55dc0.zip",
-          "fastboot": ""
-        },
-        "OS2.0.215.0.VOTCNXM": {
-          "os": "OS2.0.215.0.VOTCNXM",
-          "android": "15.0",
-          "release": "2025-09-23",
-          "recovery": "violin-ota_full-OS2.0.215.0.VOTCNXM-user-15.0-77bc004ae2.zip",
-          "fastboot": "violin-images-OS2.0.215.0.VOTCNXM-user-20250917.0000.00-15.0-cn-67e164372d.tgz"
-        },
-        "OS2.0.214.0.VOTCNXM": {
-          "os": "OS2.0.214.0.VOTCNXM",
-          "android": "15.0",
-          "release": "2025-08-20",
-          "recovery": "violin-ota_full-OS2.0.214.0.VOTCNXM-user-15.0-8dbd7d9ead.zip",
-          "fastboot": "violin-images-OS2.0.214.0.VOTCNXM-user-20250813.0000.00-15.0-cn-430546cdd5.tgz"
-        },
-        "OS2.0.213.0.VOTCNXM": {
-          "os": "OS2.0.213.0.VOTCNXM",
-          "android": "15.0",
-          "release": "2025-07-16",
-          "recovery": "violin-ota_full-OS2.0.213.0.VOTCNXM-user-15.0-b064ffc7d8.zip",
-          "fastboot": "violin-images-OS2.0.213.0.VOTCNXM-user-20250710.0000.00-15.0-cn-30c5b9dd64.tgz"
-        },
-        "OS2.0.208.0.VOTCNXM": {
-          "os": "OS2.0.208.0.VOTCNXM",
-          "android": "15.0",
-          "release": "2025-06-26",
-          "recovery": "violin-ota_full-OS2.0.208.0.VOTCNXM-user-15.0-2fdf4996f7.zip",
-          "fastboot": "violin-images-OS2.0.208.0.VOTCNXM-user-20250621.0000.00-15.0-cn-d440bf6962.tgz"
-        },
-        "OS2.0.203.0.VOTCNXM": {
-          "os": "OS2.0.203.0.VOTCNXM",
-          "android": "15.0",
-          "release": "2025-06-26",
-          "recovery": "violin-ota_full-OS2.0.203.0.VOTCNXM-user-15.0-701c5549f6.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "violin_demo",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 7S Pro 12.5",
-        "en": "Xiaomi Pad 7S Pro 12.5"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WOTCNDM": {
-          "os": "OS3.0.1.0.WOTCNDM",
-          "android": "16.0",
-          "release": "2026-02-06",
-          "recovery": "violin_demo-ota_full-OS3.0.1.0.WOTCNDM-user-16.0-e5a04d378d.zip",
-          "fastboot": "violin_demo-images-OS3.0.1.0.WOTCNDM-user-20260116.0000.00-16.0-cn-96b7b71e68.tgz"
-        },
-        "OS2.0.207.0.VOTCNDM": {
-          "os": "OS2.0.207.0.VOTCNDM",
-          "android": "15.0",
-          "release": "2025-08-18",
-          "recovery": "violin_demo-ota_full-OS2.0.207.0.VOTCNDM-user-15.0-402d6147b4.zip",
-          "fastboot": "violin_demo-images-OS2.0.207.0.VOTCNDM-user-20250812.0000.00-15.0-cn-1b70ba243e.tgz"
-        },
-        "OS2.0.203.0.VOTCNDM": {
-          "os": "OS2.0.203.0.VOTCNDM",
-          "android": "15.0",
-          "release": "2025-06-18",
-          "recovery": "violin_demo-ota_full-OS2.0.203.0.VOTCNDM-user-15.0-d141a23ed8.zip",
-          "fastboot": "violin_demo-images-OS2.0.203.0.VOTCNDM-user-20250611.0000.00-15.0-cn-af32be92a4.tgz"
-        },
-        "OS2.0.202.0.VOTCNDM": {
-          "os": "OS2.0.202.0.VOTCNDM",
-          "android": "15.0",
-          "release": "2025-06-18",
-          "recovery": "violin_demo-ota_full-OS2.0.202.0.VOTCNDM-user-15.0-19247ab9ca.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "violin",
+	"name": {
+		"zh": "小米平板 7S Pro 12.5",
+		"en": "Xiaomi Pad 7S Pro 12.5"
+	},
+	"code": "OT",
+	"suppports": [
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"15.0",
+		"16.0"
+	],
+	"type": "tablet",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "violin",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 7S Pro 12.5",
+				"en": "Xiaomi Pad 7S Pro 12.5"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.0.18.WOTCNXM": {
+					"os": "OS3.0.0.18.WOTCNXM",
+					"android": "16.0",
+					"release": "2025-09-25",
+					"recovery": "violin-ota_full-OS3.0.0.18.WOTCNXM-user-16.0-af39e8a371.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.17.WOTCNXM": {
+					"os": "OS3.0.0.17.WOTCNXM",
+					"android": "16.0",
+					"release": "2025-09-10",
+					"recovery": "violin-ota_full-OS3.0.0.17.WOTCNXM-user-16.0-1c4702bd10.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.12.WOTCNXM": {
+					"os": "OS3.0.0.12.WOTCNXM",
+					"android": "16.0",
+					"release": "2025-09-04",
+					"recovery": "violin-ota_full-OS3.0.0.12.WOTCNXM-user-16.0-2701ccb0e3.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.10.WOTCNXM": {
+					"os": "OS3.0.0.10.WOTCNXM",
+					"android": "16.0",
+					"release": "2025-08-29",
+					"recovery": "violin-ota_full-OS3.0.0.10.WOTCNXM-user-16.0-421e6633ad.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "violin",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 7S Pro 12.5",
+				"en": "Xiaomi Pad 7S Pro 12.5"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WOTCNXM": {
+					"os": "OS3.0.303.0.WOTCNXM",
+					"android": "16.0",
+					"release": "2026-05-11",
+					"recovery": "violin-ota_full-OS3.0.303.0.WOTCNXM-user-16.0-9a8ce5da78.zip",
+					"fastboot": ""
+				},
+				"OS3.0.302.0.WOTCNXM": {
+					"os": "OS3.0.302.0.WOTCNXM",
+					"android": "16.0",
+					"release": "2026-03-26",
+					"recovery": "violin-ota_full-OS3.0.302.0.WOTCNXM-user-16.0-979a341f65.zip",
+					"fastboot": "violin-images-OS3.0.302.0.WOTCNXM-user-20260324.0000.00-16.0-cn-7375967061.tgz"
+				},
+				"OS3.0.10.0.WOTCNXM": {
+					"os": "OS3.0.10.0.WOTCNXM",
+					"android": "16.0",
+					"release": "2026-02-02",
+					"recovery": "violin-ota_full-OS3.0.10.0.WOTCNXM-user-16.0-786c3a0c26.zip",
+					"fastboot": "violin-images-OS3.0.10.0.WOTCNXM-user-20260128.0000.00-16.0-cn-4a6340eb4d.tgz"
+				},
+				"OS3.0.8.0.WOTCNXM": {
+					"os": "OS3.0.8.0.WOTCNXM",
+					"android": "16.0",
+					"release": "2025-12-26",
+					"recovery": "violin-ota_full-OS3.0.8.0.WOTCNXM-user-16.0-e613fe01ed.zip",
+					"fastboot": "violin-images-OS3.0.8.0.WOTCNXM-user-20251224.0000.00-16.0-cn-98a1920bba.tgz"
+				},
+				"OS3.0.7.0.WOTCNXM": {
+					"os": "OS3.0.7.0.WOTCNXM",
+					"android": "16.0",
+					"release": "2025-12-17",
+					"recovery": "violin-ota_full-OS3.0.7.0.WOTCNXM-user-16.0-f9e280e6c3.zip",
+					"fastboot": ""
+				},
+				"OS3.0.6.0.WOTCNXM": {
+					"os": "OS3.0.6.0.WOTCNXM",
+					"android": "16.0",
+					"release": "2025-10-28",
+					"recovery": "violin-ota_full-OS3.0.6.0.WOTCNXM-user-16.0-c9a2a55dc0.zip",
+					"fastboot": ""
+				},
+				"OS2.0.215.0.VOTCNXM": {
+					"os": "OS2.0.215.0.VOTCNXM",
+					"android": "15.0",
+					"release": "2025-09-23",
+					"recovery": "violin-ota_full-OS2.0.215.0.VOTCNXM-user-15.0-77bc004ae2.zip",
+					"fastboot": "violin-images-OS2.0.215.0.VOTCNXM-user-20250917.0000.00-15.0-cn-67e164372d.tgz"
+				},
+				"OS2.0.214.0.VOTCNXM": {
+					"os": "OS2.0.214.0.VOTCNXM",
+					"android": "15.0",
+					"release": "2025-08-20",
+					"recovery": "violin-ota_full-OS2.0.214.0.VOTCNXM-user-15.0-8dbd7d9ead.zip",
+					"fastboot": "violin-images-OS2.0.214.0.VOTCNXM-user-20250813.0000.00-15.0-cn-430546cdd5.tgz"
+				},
+				"OS2.0.213.0.VOTCNXM": {
+					"os": "OS2.0.213.0.VOTCNXM",
+					"android": "15.0",
+					"release": "2025-07-16",
+					"recovery": "violin-ota_full-OS2.0.213.0.VOTCNXM-user-15.0-b064ffc7d8.zip",
+					"fastboot": "violin-images-OS2.0.213.0.VOTCNXM-user-20250710.0000.00-15.0-cn-30c5b9dd64.tgz"
+				},
+				"OS2.0.208.0.VOTCNXM": {
+					"os": "OS2.0.208.0.VOTCNXM",
+					"android": "15.0",
+					"release": "2025-06-26",
+					"recovery": "violin-ota_full-OS2.0.208.0.VOTCNXM-user-15.0-2fdf4996f7.zip",
+					"fastboot": "violin-images-OS2.0.208.0.VOTCNXM-user-20250621.0000.00-15.0-cn-d440bf6962.tgz"
+				},
+				"OS2.0.203.0.VOTCNXM": {
+					"os": "OS2.0.203.0.VOTCNXM",
+					"android": "15.0",
+					"release": "2025-06-26",
+					"recovery": "violin-ota_full-OS2.0.203.0.VOTCNXM-user-15.0-701c5549f6.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "violin_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 7S Pro 12.5",
+				"en": "Xiaomi Pad 7S Pro 12.5"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WOTCNDM": {
+					"os": "OS3.0.1.0.WOTCNDM",
+					"android": "16.0",
+					"release": "2026-02-06",
+					"recovery": "violin_demo-ota_full-OS3.0.1.0.WOTCNDM-user-16.0-e5a04d378d.zip",
+					"fastboot": "violin_demo-images-OS3.0.1.0.WOTCNDM-user-20260116.0000.00-16.0-cn-96b7b71e68.tgz"
+				},
+				"OS2.0.207.0.VOTCNDM": {
+					"os": "OS2.0.207.0.VOTCNDM",
+					"android": "15.0",
+					"release": "2025-08-18",
+					"recovery": "violin_demo-ota_full-OS2.0.207.0.VOTCNDM-user-15.0-402d6147b4.zip",
+					"fastboot": "violin_demo-images-OS2.0.207.0.VOTCNDM-user-20250812.0000.00-15.0-cn-1b70ba243e.tgz"
+				},
+				"OS2.0.203.0.VOTCNDM": {
+					"os": "OS2.0.203.0.VOTCNDM",
+					"android": "15.0",
+					"release": "2025-06-18",
+					"recovery": "violin_demo-ota_full-OS2.0.203.0.VOTCNDM-user-15.0-d141a23ed8.zip",
+					"fastboot": "violin_demo-images-OS2.0.203.0.VOTCNDM-user-20250611.0000.00-15.0-cn-af32be92a4.tgz"
+				},
+				"OS2.0.202.0.VOTCNDM": {
+					"os": "OS2.0.202.0.VOTCNDM",
+					"android": "15.0",
+					"release": "2025-06-18",
+					"recovery": "violin_demo-ota_full-OS2.0.202.0.VOTCNDM-user-15.0-19247ab9ca.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }
