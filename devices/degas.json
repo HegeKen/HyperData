@@ -191,6 +191,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.301.0.WNEMIXM": {
+					"os": "OS3.0.301.0.WNEMIXM",
+					"android": "16.0",
+					"release": "2026-05-06",
+					"recovery": "degas_global-ota_full-OS3.0.301.0.WNEMIXM-user-16.0-209e782299.zip",
+					"fastboot": ""
+				},
 				"OS3.0.4.0.WNEMIXM": {
 					"os": "OS3.0.4.0.WNEMIXM",
 					"android": "16.0",
@@ -346,7 +353,7 @@
 					"android": "16.0",
 					"release": "2026-05-06",
 					"recovery": "degas_dc_global-ota_full-OS3.0.301.0.WNEMIDC-user-16.0-bf50eefc58.zip",
-					"fastboot": ""
+					"fastboot": "degas_dc_global_images_OS3.0.301.0.WNEMIDC_20260422.0000.00_16.0_global_dc_b418b01718.tgz"
 				},
 				"OS3.0.6.0.WNEMIDC": {
 					"os": "OS3.0.6.0.WNEMIDC",
@@ -475,7 +482,7 @@
 					"android": "16.0",
 					"release": "2026-04-24",
 					"recovery": "degas_eea_global-ota_full-OS3.0.302.0.WNEEUXM-user-16.0-c8905ba79c.zip",
-					"fastboot": ""
+					"fastboot": "degas_eea_global_images_OS3.0.302.0.WNEEUXM_20260416.0000.00_16.0_eea_bfbaffc36a.tgz"
 				},
 				"OS3.0.9.0.WNEEUXM": {
 					"os": "OS3.0.9.0.WNEEUXM",
