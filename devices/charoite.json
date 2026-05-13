@@ -1,420 +1,420 @@
 {
-  "device": "charoite",
-  "name": {
-    "zh": "REDMI Note 15 Pro 4G",
-    "en": "REDMI Note 15 Pro 4G"
-  },
-  "code": "PF",
-  "suppports": [
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "15.0",
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "charoite_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 15 Pro 4G",
-        "en": "REDMI Note 15 Pro 4G"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.3.0.WPFMIXM": {
-          "os": "OS3.0.3.0.WPFMIXM",
-          "android": "16.0",
-          "release": "2026-04-28",
-          "recovery": "charoite_global-ota_full-OS3.0.3.0.WPFMIXM-user-16.0-a5418f3547.zip",
-          "fastboot": ""
-        },
-        "OS3.0.2.0.WPFMIXM": {
-          "os": "OS3.0.2.0.WPFMIXM",
-          "android": "16.0",
-          "release": "2026-03-31",
-          "recovery": "charoite_global-ota_full-OS3.0.2.0.WPFMIXM-user-16.0-b13564bb20.zip",
-          "fastboot": "charoite_global_images_OS3.0.2.0.WPFMIXM_20260318.0000.00_16.0_global_d259acb523.tgz"
-        },
-        "OS2.0.210.0.VPFMIXM": {
-          "os": "OS2.0.210.0.VPFMIXM",
-          "android": "15.0",
-          "release": "2026-02-24",
-          "recovery": "charoite_global-ota_full-OS2.0.210.0.VPFMIXM-user-15.0-7176efe8de.zip",
-          "fastboot": "charoite_global_images_OS2.0.210.0.VPFMIXM_20260203.0000.00_15.0_global_8a885fb338.tgz"
-        },
-        "OS2.0.209.0.VPFMIXM": {
-          "os": "OS2.0.209.0.VPFMIXM",
-          "android": "15.0",
-          "release": "2026-02-02",
-          "recovery": "charoite_global-ota_full-OS2.0.209.0.VPFMIXM-user-15.0-835d5d0bcf.zip",
-          "fastboot": "charoite_global_images_OS2.0.209.0.VPFMIXM_20260129.0000.00_15.0_global_26fb6ac5c7.tgz"
-        },
-        "OS2.0.208.0.VPFMIXM": {
-          "os": "OS2.0.208.0.VPFMIXM",
-          "android": "15.0",
-          "release": "2026-01-12",
-          "recovery": "charoite_global-ota_full-OS2.0.208.0.VPFMIXM-user-15.0-495043741f.zip",
-          "fastboot": "charoite_global_images_OS2.0.208.0.VPFMIXM_20260105.0000.00_15.0_global_fe5d704da4.tgz"
-        },
-        "OS2.0.207.0.VPFMIXM": {
-          "os": "OS2.0.207.0.VPFMIXM",
-          "android": "15.0",
-          "release": "2026-01-06",
-          "recovery": "charoite_global-ota_full-OS2.0.207.0.VPFMIXM-user-15.0-eab88a6d1e.zip",
-          "fastboot": "charoite_global_images_OS2.0.207.0.VPFMIXM_20251227.0000.00_15.0_global_8724939bc0.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际版 Demo",
-        "en": "Xiaomi HyperOS Global Demo"
-      },
-      "branchCode": "charoite_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 15 Pro 4G",
-        "en": "REDMI Note 15 Pro 4G"
-      },
-      "idtag": "GBOO",
-      "tag": "MIDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.203.0.VPFMIDM": {
-          "os": "OS2.0.203.0.VPFMIDM",
-          "android": "15.0",
-          "release": "2026-01-22",
-          "recovery": "charoite_global-ota_full-OS2.0.203.0.VPFMIDM-user-15.0-e40b88515a.zip",
-          "fastboot": "charoite_global_images_OS2.0.203.0.VPFMIDM_20260119.0000.00_15.0_global_50d87c0c9b.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际 DC 正式版",
-        "en": "Xiaomi HyperOS Global DC Stable"
-      },
-      "branchCode": "charoite_dc_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 15 Pro 4G",
-        "en": "REDMI Note 15 Pro 4G"
-      },
-      "idtag": "GBDC",
-      "tag": "MIDC",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "carrier": [
-        "dc"
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WPFMIDC": {
-          "os": "OS3.0.1.0.WPFMIDC",
-          "android": "16.0",
-          "release": "2026-04-22",
-          "recovery": "charoite_dc_global-ota_full-OS3.0.1.0.WPFMIDC-user-16.0-1006e3a12d.zip",
-          "fastboot": "charoite_dc_global_images_OS3.0.1.0.WPFMIDC_20260413.0000.00_16.0_global_dc_1b7dd12ece.tgz"
-        },
-        "OS2.0.210.0.VPFMIDC": {
-          "os": "OS2.0.210.0.VPFMIDC",
-          "android": "15.0",
-          "release": "2026-03-04",
-          "recovery": "charoite_dc_global-ota_full-OS2.0.210.0.VPFMIDC-user-15.0-0157413fea.zip",
-          "fastboot": "charoite_dc_global_images_OS2.0.210.0.VPFMIDC_20260129.0000.00_15.0_global_dc_5db9e1f4a9.tgz"
-        },
-        "OS2.0.205.0.VPFMIDC": {
-          "os": "OS2.0.205.0.VPFMIDC",
-          "android": "15.0",
-          "release": "2026-01-12",
-          "recovery": "charoite_dc_global-ota_full-OS2.0.205.0.VPFMIDC-user-15.0-27a589eaf4.zip",
-          "fastboot": "charoite_dc_global_images_OS2.0.205.0.VPFMIDC_20251229.0000.00_15.0_global_dc_51491e4aa5.tgz"
-        },
-        "OS2.0.203.0.VPFMIDC": {
-          "os": "OS2.0.203.0.VPFMIDC",
-          "android": "15.0",
-          "release": "2026-01-12",
-          "recovery": "",
-          "fastboot": "charoite_dc_global_images_OS2.0.203.0.VPFMIDC_20251114.0000.00_15.0_global_dc_55022ef0af.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "charoite_eea_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 15 Pro 4G",
-        "en": "REDMI Note 15 Pro 4G"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WPFEUXM": {
-          "os": "OS3.0.1.0.WPFEUXM",
-          "android": "16.0",
-          "release": "2026-04-14",
-          "recovery": "charoite_eea_global-ota_full-OS3.0.1.0.WPFEUXM-user-16.0-6afd343915.zip",
-          "fastboot": "charoite_eea_global_images_OS3.0.1.0.WPFEUXM_20260405.0000.00_16.0_eea_e8dbb9b6dd.tgz"
-        },
-        "OS2.0.207.0.VPFEUXM": {
-          "os": "OS2.0.207.0.VPFEUXM",
-          "android": "15.0",
-          "release": "2026-02-09",
-          "recovery": "charoite_eea_global-ota_full-OS2.0.207.0.VPFEUXM-user-15.0-3bd87ae353.zip",
-          "fastboot": "charoite_eea_global_images_OS2.0.207.0.VPFEUXM_20260129.0000.00_15.0_eea_59a92ff24a.tgz"
-        },
-        "OS2.0.206.0.VPFEUXM": {
-          "os": "OS2.0.206.0.VPFEUXM",
-          "android": "15.0",
-          "release": "2026-01-12",
-          "recovery": "charoite_eea_global-ota_full-OS2.0.206.0.VPFEUXM-user-15.0-1b28215a96.zip",
-          "fastboot": "charoite_eea_global_images_OS2.0.206.0.VPFEUXM_20260105.0000.00_15.0_eea_ced9fca3a2.tgz"
-        },
-        "OS2.0.205.0.VPFEUXM": {
-          "os": "OS2.0.205.0.VPFEUXM",
-          "android": "15.0",
-          "release": "2026-01-06",
-          "recovery": "charoite_eea_global-ota_full-OS2.0.205.0.VPFEUXM-user-15.0-e99cb3db31.zip",
-          "fastboot": "charoite_eea_global_images_OS2.0.205.0.VPFEUXM_20251227.0000.00_15.0_eea_89fe30a353.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "charoite_ru_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 15 Pro 4G",
-        "en": "REDMI Note 15 Pro 4G"
-      },
-      "idtag": "RUSO",
-      "tag": "RUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WPFRUXM": {
-          "os": "OS3.0.1.0.WPFRUXM",
-          "android": "16.0",
-          "release": "2026-04-14",
-          "recovery": "charoite_ru_global-ota_full-OS3.0.1.0.WPFRUXM-user-16.0-40c03eea2a.zip",
-          "fastboot": "charoite_ru_global_images_OS3.0.1.0.WPFRUXM_20260405.0000.00_16.0_ru_fb367f9ba0.tgz"
-        },
-        "OS2.0.207.0.VPFRUXM": {
-          "os": "OS2.0.207.0.VPFRUXM",
-          "android": "15.0",
-          "release": "2026-03-26",
-          "recovery": "charoite_ru_global-ota_full-OS2.0.207.0.VPFRUXM-user-15.0-dce76a34d8.zip",
-          "fastboot": "charoite_ru_global_images_OS2.0.207.0.VPFRUXM_20260313.0000.00_15.0_ru_2eb46edfff.tgz"
-        },
-        "OS2.0.206.0.VPFRUXM": {
-          "os": "OS2.0.206.0.VPFRUXM",
-          "android": "15.0",
-          "release": "2026-02-09",
-          "recovery": "charoite_ru_global-ota_full-OS2.0.206.0.VPFRUXM-user-15.0-021ca6177b.zip",
-          "fastboot": "charoite_ru_global_images_OS2.0.206.0.VPFRUXM_20260112.0000.00_15.0_ru_152f40e1aa.tgz"
-        },
-        "OS2.0.205.0.VPFRUXM": {
-          "os": "OS2.0.205.0.VPFRUXM",
-          "android": "15.0",
-          "release": "2026-01-06",
-          "recovery": "charoite_ru_global-ota_full-OS2.0.205.0.VPFRUXM-user-15.0-f8919dd780.zip",
-          "fastboot": "charoite_ru_global_images_OS2.0.205.0.VPFRUXM_20251228.0000.00_15.0_ru_d951941675.tgz"
-        },
-        "OS2.0.203.0.VPFRUXM": {
-          "os": "OS2.0.203.0.VPFRUXM",
-          "android": "15.0",
-          "release": "2026-01-06",
-          "recovery": "charoite_ru_global-ota_full-OS2.0.203.0.VPFRUXM-user-15.0-d2c19ec504.zip",
-          "fastboot": ""
-        },
-        "OS2.0.201.0.VPFRUXM": {
-          "os": "OS2.0.201.0.VPFRUXM",
-          "android": "15.0",
-          "release": "2026-01-06",
-          "recovery": "charoite_ru_global-ota_full-OS2.0.201.0.VPFRUXM-user-15.0-02886ca064.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 土耳其正式版",
-        "en": "Xiaomi HyperOS Turkey Stable"
-      },
-      "branchCode": "charoite_tr_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 15 Pro 4G",
-        "en": "REDMI Note 15 Pro 4G"
-      },
-      "idtag": "TRSO",
-      "tag": "TRXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tr",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WPFTRXM": {
-          "os": "OS3.0.1.0.WPFTRXM",
-          "android": "16.0",
-          "release": "2026-04-07",
-          "recovery": "charoite_tr_global-ota_full-OS3.0.1.0.WPFTRXM-user-16.0-0ce46a3360.zip",
-          "fastboot": "charoite_tr_global_images_OS3.0.1.0.WPFTRXM_20260320.0000.00_16.0_tr_472dce3156.tgz"
-        },
-        "OS2.0.205.0.VPFTRXM": {
-          "os": "OS2.0.205.0.VPFTRXM",
-          "android": "15.0",
-          "release": "2026-02-06",
-          "recovery": "charoite_tr_global-ota_full-OS2.0.205.0.VPFTRXM-user-15.0-bf281dd25f.zip",
-          "fastboot": "charoite_tr_global_images_OS2.0.205.0.VPFTRXM_20260112.0000.00_15.0_tr_4a035a0d82.tgz"
-        },
-        "OS2.0.204.0.VPFTRXM": {
-          "os": "OS2.0.204.0.VPFTRXM",
-          "android": "15.0",
-          "release": "2026-01-06",
-          "recovery": "charoite_tr_global-ota_full-OS2.0.204.0.VPFTRXM-user-15.0-ff0058e6a6.zip",
-          "fastboot": "charoite_tr_global_images_OS2.0.204.0.VPFTRXM_20251228.0000.00_15.0_tr_b770191337.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
-        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
-      },
-      "branchCode": "charoite_lm_cr_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 15 Pro 4G",
-        "en": "REDMI Note 15 Pro 4G"
-      },
-      "idtag": "LMCR",
-      "tag": "LMCR",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "cr"
-      ],
-      "region": "lm",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.202.0.VPFLMCR": {
-          "os": "OS2.0.202.0.VPFLMCR",
-          "android": "15.0",
-          "release": "2026-05-11",
-          "recovery": "charoite_lm_cr_global-ota_full-OS2.0.202.0.VPFLMCR-user-15.0-4503762fd5.zip",
-          "fastboot": ""
-        },
-        "OS2.0.201.0.VPFLMCR": {
-          "os": "OS2.0.201.0.VPFLMCR",
-          "android": "15.0",
-          "release": "2026-03-06",
-          "recovery": "charoite_lm_cr_global-ota_full-OS2.0.201.0.VPFLMCR-user-15.0-43d54a2804.zip",
-          "fastboot": "charoite_lm_cr_global_images_OS2.0.201.0.VPFLMCR_20260206.0000.00_15.0_lm_cr_0b13f8015d.tgz"
-        }
-      }
-    }
-  ]
+	"device": "charoite",
+	"name": {
+		"zh": "REDMI Note 15 Pro 4G",
+		"en": "REDMI Note 15 Pro 4G"
+	},
+	"code": "PF",
+	"suppports": [
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"15.0",
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "charoite_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 4G",
+				"en": "REDMI Note 15 Pro 4G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WPFMIXM": {
+					"os": "OS3.0.3.0.WPFMIXM",
+					"android": "16.0",
+					"release": "2026-04-28",
+					"recovery": "charoite_global-ota_full-OS3.0.3.0.WPFMIXM-user-16.0-a5418f3547.zip",
+					"fastboot": "charoite_global_images_OS3.0.3.0.WPFMIXM_20260421.0000.00_16.0_global_f81ab26b7f.tgz"
+				},
+				"OS3.0.2.0.WPFMIXM": {
+					"os": "OS3.0.2.0.WPFMIXM",
+					"android": "16.0",
+					"release": "2026-03-31",
+					"recovery": "charoite_global-ota_full-OS3.0.2.0.WPFMIXM-user-16.0-b13564bb20.zip",
+					"fastboot": "charoite_global_images_OS3.0.2.0.WPFMIXM_20260318.0000.00_16.0_global_d259acb523.tgz"
+				},
+				"OS2.0.210.0.VPFMIXM": {
+					"os": "OS2.0.210.0.VPFMIXM",
+					"android": "15.0",
+					"release": "2026-02-24",
+					"recovery": "charoite_global-ota_full-OS2.0.210.0.VPFMIXM-user-15.0-7176efe8de.zip",
+					"fastboot": "charoite_global_images_OS2.0.210.0.VPFMIXM_20260203.0000.00_15.0_global_8a885fb338.tgz"
+				},
+				"OS2.0.209.0.VPFMIXM": {
+					"os": "OS2.0.209.0.VPFMIXM",
+					"android": "15.0",
+					"release": "2026-02-02",
+					"recovery": "charoite_global-ota_full-OS2.0.209.0.VPFMIXM-user-15.0-835d5d0bcf.zip",
+					"fastboot": "charoite_global_images_OS2.0.209.0.VPFMIXM_20260129.0000.00_15.0_global_26fb6ac5c7.tgz"
+				},
+				"OS2.0.208.0.VPFMIXM": {
+					"os": "OS2.0.208.0.VPFMIXM",
+					"android": "15.0",
+					"release": "2026-01-12",
+					"recovery": "charoite_global-ota_full-OS2.0.208.0.VPFMIXM-user-15.0-495043741f.zip",
+					"fastboot": "charoite_global_images_OS2.0.208.0.VPFMIXM_20260105.0000.00_15.0_global_fe5d704da4.tgz"
+				},
+				"OS2.0.207.0.VPFMIXM": {
+					"os": "OS2.0.207.0.VPFMIXM",
+					"android": "15.0",
+					"release": "2026-01-06",
+					"recovery": "charoite_global-ota_full-OS2.0.207.0.VPFMIXM-user-15.0-eab88a6d1e.zip",
+					"fastboot": "charoite_global_images_OS2.0.207.0.VPFMIXM_20251227.0000.00_15.0_global_8724939bc0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际版 Demo",
+				"en": "Xiaomi HyperOS Global Demo"
+			},
+			"branchCode": "charoite_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 4G",
+				"en": "REDMI Note 15 Pro 4G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.203.0.VPFMIDM": {
+					"os": "OS2.0.203.0.VPFMIDM",
+					"android": "15.0",
+					"release": "2026-01-22",
+					"recovery": "charoite_global-ota_full-OS2.0.203.0.VPFMIDM-user-15.0-e40b88515a.zip",
+					"fastboot": "charoite_global_images_OS2.0.203.0.VPFMIDM_20260119.0000.00_15.0_global_50d87c0c9b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "charoite_dc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 4G",
+				"en": "REDMI Note 15 Pro 4G"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WPFMIDC": {
+					"os": "OS3.0.1.0.WPFMIDC",
+					"android": "16.0",
+					"release": "2026-04-22",
+					"recovery": "charoite_dc_global-ota_full-OS3.0.1.0.WPFMIDC-user-16.0-1006e3a12d.zip",
+					"fastboot": "charoite_dc_global_images_OS3.0.1.0.WPFMIDC_20260413.0000.00_16.0_global_dc_1b7dd12ece.tgz"
+				},
+				"OS2.0.210.0.VPFMIDC": {
+					"os": "OS2.0.210.0.VPFMIDC",
+					"android": "15.0",
+					"release": "2026-03-04",
+					"recovery": "charoite_dc_global-ota_full-OS2.0.210.0.VPFMIDC-user-15.0-0157413fea.zip",
+					"fastboot": "charoite_dc_global_images_OS2.0.210.0.VPFMIDC_20260129.0000.00_15.0_global_dc_5db9e1f4a9.tgz"
+				},
+				"OS2.0.205.0.VPFMIDC": {
+					"os": "OS2.0.205.0.VPFMIDC",
+					"android": "15.0",
+					"release": "2026-01-12",
+					"recovery": "charoite_dc_global-ota_full-OS2.0.205.0.VPFMIDC-user-15.0-27a589eaf4.zip",
+					"fastboot": "charoite_dc_global_images_OS2.0.205.0.VPFMIDC_20251229.0000.00_15.0_global_dc_51491e4aa5.tgz"
+				},
+				"OS2.0.203.0.VPFMIDC": {
+					"os": "OS2.0.203.0.VPFMIDC",
+					"android": "15.0",
+					"release": "2026-01-12",
+					"recovery": "",
+					"fastboot": "charoite_dc_global_images_OS2.0.203.0.VPFMIDC_20251114.0000.00_15.0_global_dc_55022ef0af.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "charoite_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 4G",
+				"en": "REDMI Note 15 Pro 4G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WPFEUXM": {
+					"os": "OS3.0.1.0.WPFEUXM",
+					"android": "16.0",
+					"release": "2026-04-14",
+					"recovery": "charoite_eea_global-ota_full-OS3.0.1.0.WPFEUXM-user-16.0-6afd343915.zip",
+					"fastboot": "charoite_eea_global_images_OS3.0.1.0.WPFEUXM_20260405.0000.00_16.0_eea_e8dbb9b6dd.tgz"
+				},
+				"OS2.0.207.0.VPFEUXM": {
+					"os": "OS2.0.207.0.VPFEUXM",
+					"android": "15.0",
+					"release": "2026-02-09",
+					"recovery": "charoite_eea_global-ota_full-OS2.0.207.0.VPFEUXM-user-15.0-3bd87ae353.zip",
+					"fastboot": "charoite_eea_global_images_OS2.0.207.0.VPFEUXM_20260129.0000.00_15.0_eea_59a92ff24a.tgz"
+				},
+				"OS2.0.206.0.VPFEUXM": {
+					"os": "OS2.0.206.0.VPFEUXM",
+					"android": "15.0",
+					"release": "2026-01-12",
+					"recovery": "charoite_eea_global-ota_full-OS2.0.206.0.VPFEUXM-user-15.0-1b28215a96.zip",
+					"fastboot": "charoite_eea_global_images_OS2.0.206.0.VPFEUXM_20260105.0000.00_15.0_eea_ced9fca3a2.tgz"
+				},
+				"OS2.0.205.0.VPFEUXM": {
+					"os": "OS2.0.205.0.VPFEUXM",
+					"android": "15.0",
+					"release": "2026-01-06",
+					"recovery": "charoite_eea_global-ota_full-OS2.0.205.0.VPFEUXM-user-15.0-e99cb3db31.zip",
+					"fastboot": "charoite_eea_global_images_OS2.0.205.0.VPFEUXM_20251227.0000.00_15.0_eea_89fe30a353.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "charoite_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 4G",
+				"en": "REDMI Note 15 Pro 4G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WPFRUXM": {
+					"os": "OS3.0.1.0.WPFRUXM",
+					"android": "16.0",
+					"release": "2026-04-14",
+					"recovery": "charoite_ru_global-ota_full-OS3.0.1.0.WPFRUXM-user-16.0-40c03eea2a.zip",
+					"fastboot": "charoite_ru_global_images_OS3.0.1.0.WPFRUXM_20260405.0000.00_16.0_ru_fb367f9ba0.tgz"
+				},
+				"OS2.0.207.0.VPFRUXM": {
+					"os": "OS2.0.207.0.VPFRUXM",
+					"android": "15.0",
+					"release": "2026-03-26",
+					"recovery": "charoite_ru_global-ota_full-OS2.0.207.0.VPFRUXM-user-15.0-dce76a34d8.zip",
+					"fastboot": "charoite_ru_global_images_OS2.0.207.0.VPFRUXM_20260313.0000.00_15.0_ru_2eb46edfff.tgz"
+				},
+				"OS2.0.206.0.VPFRUXM": {
+					"os": "OS2.0.206.0.VPFRUXM",
+					"android": "15.0",
+					"release": "2026-02-09",
+					"recovery": "charoite_ru_global-ota_full-OS2.0.206.0.VPFRUXM-user-15.0-021ca6177b.zip",
+					"fastboot": "charoite_ru_global_images_OS2.0.206.0.VPFRUXM_20260112.0000.00_15.0_ru_152f40e1aa.tgz"
+				},
+				"OS2.0.205.0.VPFRUXM": {
+					"os": "OS2.0.205.0.VPFRUXM",
+					"android": "15.0",
+					"release": "2026-01-06",
+					"recovery": "charoite_ru_global-ota_full-OS2.0.205.0.VPFRUXM-user-15.0-f8919dd780.zip",
+					"fastboot": "charoite_ru_global_images_OS2.0.205.0.VPFRUXM_20251228.0000.00_15.0_ru_d951941675.tgz"
+				},
+				"OS2.0.203.0.VPFRUXM": {
+					"os": "OS2.0.203.0.VPFRUXM",
+					"android": "15.0",
+					"release": "2026-01-06",
+					"recovery": "charoite_ru_global-ota_full-OS2.0.203.0.VPFRUXM-user-15.0-d2c19ec504.zip",
+					"fastboot": ""
+				},
+				"OS2.0.201.0.VPFRUXM": {
+					"os": "OS2.0.201.0.VPFRUXM",
+					"android": "15.0",
+					"release": "2026-01-06",
+					"recovery": "charoite_ru_global-ota_full-OS2.0.201.0.VPFRUXM-user-15.0-02886ca064.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "charoite_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 4G",
+				"en": "REDMI Note 15 Pro 4G"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WPFTRXM": {
+					"os": "OS3.0.1.0.WPFTRXM",
+					"android": "16.0",
+					"release": "2026-04-07",
+					"recovery": "charoite_tr_global-ota_full-OS3.0.1.0.WPFTRXM-user-16.0-0ce46a3360.zip",
+					"fastboot": "charoite_tr_global_images_OS3.0.1.0.WPFTRXM_20260320.0000.00_16.0_tr_472dce3156.tgz"
+				},
+				"OS2.0.205.0.VPFTRXM": {
+					"os": "OS2.0.205.0.VPFTRXM",
+					"android": "15.0",
+					"release": "2026-02-06",
+					"recovery": "charoite_tr_global-ota_full-OS2.0.205.0.VPFTRXM-user-15.0-bf281dd25f.zip",
+					"fastboot": "charoite_tr_global_images_OS2.0.205.0.VPFTRXM_20260112.0000.00_15.0_tr_4a035a0d82.tgz"
+				},
+				"OS2.0.204.0.VPFTRXM": {
+					"os": "OS2.0.204.0.VPFTRXM",
+					"android": "15.0",
+					"release": "2026-01-06",
+					"recovery": "charoite_tr_global-ota_full-OS2.0.204.0.VPFTRXM-user-15.0-ff0058e6a6.zip",
+					"fastboot": "charoite_tr_global_images_OS2.0.204.0.VPFTRXM_20251228.0000.00_15.0_tr_b770191337.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "charoite_lm_cr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 4G",
+				"en": "REDMI Note 15 Pro 4G"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.202.0.VPFLMCR": {
+					"os": "OS2.0.202.0.VPFLMCR",
+					"android": "15.0",
+					"release": "2026-05-11",
+					"recovery": "charoite_lm_cr_global-ota_full-OS2.0.202.0.VPFLMCR-user-15.0-4503762fd5.zip",
+					"fastboot": ""
+				},
+				"OS2.0.201.0.VPFLMCR": {
+					"os": "OS2.0.201.0.VPFLMCR",
+					"android": "15.0",
+					"release": "2026-03-06",
+					"recovery": "charoite_lm_cr_global-ota_full-OS2.0.201.0.VPFLMCR-user-15.0-43d54a2804.zip",
+					"fastboot": "charoite_lm_cr_global_images_OS2.0.201.0.VPFLMCR_20260206.0000.00_15.0_lm_cr_0b13f8015d.tgz"
+				}
+			}
+		}
+	]
 }
