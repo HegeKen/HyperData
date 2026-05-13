@@ -90,7 +90,7 @@
           "android": "16.0",
           "release": "2026-05-08",
           "recovery": "guitar_tw_global-ota_full-OS3.0.302.0.WDNTWXM-user-16.0-56117f7273.zip",
-          "fastboot": ""
+          "fastboot": "guitar_tw_global_images_OS3.0.302.0.WDNTWXM_20260421.0000.00_16.0_tw_27deb59423.tgz"
         },
         "OS3.0.301.0.WDNTWXM": {
           "os": "OS3.0.301.0.WDNTWXM",
@@ -143,6 +143,44 @@
           "release": "2026-04-28",
           "recovery": "guitar_global-ota_full-OS3.0.302.0.WDNMIXM-user-16.0-4ead8da3f9.zip",
           "fastboot": "guitar_global_images_OS3.0.302.0.WDNMIXM_20260326.0000.00_16.0_global_db1923ecca.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "guitar_eea_global",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Pad 2 SE",
+        "en": "REDMI Pad 2 SE"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.302.0.WDNEUXM": {
+          "os": "OS3.0.302.0.WDNEUXM",
+          "android": "16.0",
+          "release": "2026-05-13",
+          "recovery": "guitar_eea_global-ota_full-OS3.0.302.0.WDNEUXM-user-16.0-5830872b81.zip",
+          "fastboot": "guitar_eea_global_images_OS3.0.302.0.WDNEUXM_20260414.0000.00_16.0_eea_7cb02de6e1.tgz"
         }
       }
     },
@@ -218,7 +256,7 @@
           "android": "16.0",
           "release": "2026-05-08",
           "recovery": "guitar_ru_global-ota_full-OS3.0.304.0.WDNRUXM-user-16.0-16e4525d75.zip",
-          "fastboot": ""
+          "fastboot": "guitar_ru_global_images_OS3.0.304.0.WDNRUXM_20260430.0000.00_16.0_ru_fd1aac384d.tgz"
         },
         "OS3.0.301.0.WDNRUXM": {
           "os": "OS3.0.301.0.WDNRUXM",
@@ -301,7 +339,7 @@
           "android": "16.0",
           "release": "2026-05-08",
           "recovery": "guitar_tr_global-ota_full-OS3.0.303.0.WDNTRXM-user-16.0-8094068335.zip",
-          "fastboot": ""
+          "fastboot": "guitar_tr_global_images_OS3.0.303.0.WDNTRXM_20260427.0000.00_16.0_tr_9a39a9606b.tgz"
         },
         "OS3.0.301.0.WDNTRXM": {
           "os": "OS3.0.301.0.WDNTRXM",
