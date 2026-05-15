@@ -1,280 +1,280 @@
 {
-  "device": "jinghu",
-  "name": {
-    "zh": "小米平板 7 Ultra",
-    "en": "Xiaomi Pad 7 Ultra"
-  },
-  "code": "OX",
-  "suppports": [
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "15.0",
-    "16.0"
-  ],
-  "type": "tablet",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS Beta",
-        "en": "Xiaomi HyperOS Beta"
-      },
-      "branchCode": "jinghu",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 7 Ultra",
-        "en": "Xiaomi Pad 7 Ultra"
-      },
-      "idtag": "CnOB",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.300.3.WOXCNXM": {
-          "os": "OS3.0.300.3.WOXCNXM",
-          "android": "16.0",
-          "release": "2026-03-06",
-          "recovery": "jinghu-ota_full-OS3.0.300.3.WOXCNXM-user-16.0-11c06a97d3.zip",
-          "fastboot": ""
-        },
-        "OS3.0.300.2.WOXCNXM": {
-          "os": "OS3.0.300.2.WOXCNXM",
-          "android": "16.0",
-          "release": "2026-01-30",
-          "recovery": "jinghu-ota_full-OS3.0.300.2.WOXCNXM-user-16.0-142e34275c.zip",
-          "fastboot": ""
-        },
-        "OS3.0.1.4.WOXCNXM": {
-          "os": "OS3.0.1.4.WOXCNXM",
-          "android": "16.0",
-          "release": "2025-10-14",
-          "recovery": "jinghu-ota_full-OS3.0.1.4.WOXCNXM-user-16.0-b2abf64bfd.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.8.WOXCNXM": {
-          "os": "OS3.0.0.8.WOXCNXM",
-          "android": "16.0",
-          "release": "2025-09-25",
-          "recovery": "jinghu-ota_full-OS3.0.0.8.WOXCNXM-user-16.0-4c16befc3e.zip",
-          "fastboot": ""
-        },
-        "OS3.0.0.5.WOXCNXM": {
-          "os": "OS3.0.0.5.WOXCNXM",
-          "android": "16.0",
-          "release": "2025-09-15",
-          "recovery": "jinghu-ota_full-OS3.0.0.5.WOXCNXM-user-16.0-c54fdb7836.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "jinghu",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 7 Ultra",
-        "en": "Xiaomi Pad 7 Ultra"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "others": [
-        "jinghu-images-OS2.0.108.0.VOXCNXM-userroot-20250520.0000.00-15.0-cn-c2b75c76df.tgz"
-      ],
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WOXCNXM": {
-          "os": "OS3.0.301.0.WOXCNXM",
-          "android": "16.0",
-          "release": "2026-03-26",
-          "recovery": "jinghu-ota_full-OS3.0.301.0.WOXCNXM-user-16.0-0bb4bdec09.zip",
-          "fastboot": ""
-        },
-        "OS3.0.7.0.WOXCNXM": {
-          "os": "OS3.0.7.0.WOXCNXM",
-          "android": "16.0",
-          "release": "2025-12-26",
-          "recovery": "jinghu-ota_full-OS3.0.7.0.WOXCNXM-user-16.0-1c0633f855.zip",
-          "fastboot": "jinghu-images-OS3.0.7.0.WOXCNXM-user-20251224.0000.00-16.0-cn-3d206d8231.tgz"
-        },
-        "OS3.0.5.0.WOXCNXM": {
-          "os": "OS3.0.5.0.WOXCNXM",
-          "android": "16.0",
-          "release": "2025-11-07",
-          "recovery": "jinghu-ota_full-OS3.0.5.0.WOXCNXM-user-16.0-1df6d3fec2.zip",
-          "fastboot": "jinghu-images-OS3.0.5.0.WOXCNXM-user-20251105.0000.00-16.0-cn-2af0e939d7.tgz"
-        },
-        "OS3.0.4.0.WOXCNXM": {
-          "os": "OS3.0.4.0.WOXCNXM",
-          "android": "16.0",
-          "release": "2025-10-28",
-          "recovery": "jinghu-ota_full-OS3.0.4.0.WOXCNXM-user-16.0-b8dd5aa8e4.zip",
-          "fastboot": ""
-        },
-        "OS2.0.207.0.VOXCNXM": {
-          "os": "OS2.0.207.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-10-11",
-          "recovery": "jinghu-ota_full-OS2.0.207.0.VOXCNXM-user-15.0-e175184523.zip",
-          "fastboot": "jinghu-images-OS2.0.207.0.VOXCNXM-user-20250924.0000.00-15.0-cn-4c76c60898.tgz"
-        },
-        "OS2.0.206.0.VOXCNXM": {
-          "os": "OS2.0.206.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-08-04",
-          "recovery": "jinghu-ota_full-OS2.0.206.0.VOXCNXM-user-15.0-edfb73601b.zip",
-          "fastboot": "jinghu-images-OS2.0.206.0.VOXCNXM-user-20250729.0000.00-15.0-cn-3e7e7b9f0b.tgz"
-        },
-        "OS2.0.205.0.VOXCNXM": {
-          "os": "OS2.0.205.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-07-10",
-          "recovery": "jinghu-ota_full-OS2.0.205.0.VOXCNXM-user-15.0-5490c74269.zip",
-          "fastboot": "jinghu-images-OS2.0.205.0.VOXCNXM-user-20250707.0000.00-15.0-cn-f3e6ebd62e.tgz"
-        },
-        "OS2.0.203.0.VOXCNXM": {
-          "os": "OS2.0.203.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-07-01",
-          "recovery": "jinghu-ota_full-OS2.0.203.0.VOXCNXM-user-15.0-6262fab975.zip",
-          "fastboot": ""
-        },
-        "OS2.0.111.0.VOXCNXM": {
-          "os": "OS2.0.111.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-06-09",
-          "recovery": "jinghu-ota_full-OS2.0.111.0.VOXCNXM-user-15.0-d886d02628.zip",
-          "fastboot": "jinghu-images-OS2.0.111.0.VOXCNXM-user-20250604.0000.00-15.0-cn-e832a92c4a.tgz"
-        },
-        "OS2.0.110.0.VOXCNXM": {
-          "os": "OS2.0.110.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-05-31",
-          "recovery": "jinghu-ota_full-OS2.0.110.0.VOXCNXM-user-15.0-b31d1e2501.zip",
-          "fastboot": "jinghu-images-OS2.0.110.0.VOXCNXM-user-20250528.0000.00-15.0-cn-e2fa3a6d78.tgz"
-        },
-        "OS2.0.108.0.VOXCNXM": {
-          "os": "OS2.0.108.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-05-23",
-          "recovery": "jinghu-ota_full-OS2.0.108.0.VOXCNXM-user-15.0-6d09fd73ec.zip",
-          "fastboot": "jinghu-images-OS2.0.108.0.VOXCNXM-user-20250520.0000.00-15.0-cn-9516005dce.tgz"
-        },
-        "OS2.0.104.0.VOXCNXM": {
-          "os": "OS2.0.104.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "jinghu-ota_full-OS2.0.104.0.VOXCNXM-user-15.0-52a8adc79d.zip",
-          "fastboot": "jinghu-images-OS2.0.104.0.VOXCNXM-userroot-20250414.0000.00-15.0-cn-4f543f76a2.tgz"
-        },
-        "OS2.0.103.0.VOXCNXM": {
-          "os": "OS2.0.103.0.VOXCNXM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "jinghu-ota_full-OS2.0.103.0.VOXCNXM-user-15.0-cc0dc09b17.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "jinghu_demo",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "小米平板 7 Ultra",
-        "en": "Xiaomi Pad 7 Ultra"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WOXCNDM": {
-          "os": "OS3.0.1.0.WOXCNDM",
-          "android": "16.0",
-          "release": "2026-02-06",
-          "recovery": "jinghu_demo-ota_full-OS3.0.1.0.WOXCNDM-user-16.0-85ac86e8bd.zip",
-          "fastboot": "jinghu_demo-images-OS3.0.1.0.WOXCNDM-user-20260116.0000.00-16.0-cn-65c9780acf.tgz"
-        },
-        "OS2.0.203.0.VOXCNDM": {
-          "os": "OS2.0.203.0.VOXCNDM",
-          "android": "15.0",
-          "release": "2025-07-26",
-          "recovery": "jinghu_demo-ota_full-OS2.0.203.0.VOXCNDM-user-15.0-1e6b8cc2c6.zip",
-          "fastboot": "jinghu_demo-images-OS2.0.203.0.VOXCNDM-user-20250722.0000.00-15.0-cn-9151469c27.tgz"
-        },
-        "OS2.0.105.0.VOXCNDM": {
-          "os": "OS2.0.105.0.VOXCNDM",
-          "android": "15.0",
-          "release": "2025-05-29",
-          "recovery": "jinghu_demo-ota_full-OS2.0.105.0.VOXCNDM-user-15.0-7788e1242d.zip",
-          "fastboot": "jinghu_demo-images-OS2.0.105.0.VOXCNDM-user-20250523.0000.00-15.0-cn-63aaabbda2.tgz"
-        },
-        "OS2.0.104.0.VOXCNDM": {
-          "os": "OS2.0.104.0.VOXCNDM",
-          "android": "15.0",
-          "release": "2025-05-22",
-          "recovery": "jinghu_demo-ota_full-OS2.0.104.0.VOXCNDM-user-15.0-e07ac2b871.zip",
-          "fastboot": "jinghu_demo-images-OS2.0.104.0.VOXCNDM-userroot-20250519.0000.00-15.0-cn-a6ec343bf7.tgz"
-        }
-      }
-    }
-  ]
+	"device": "jinghu",
+	"name": {
+		"zh": "小米平板 7 Ultra",
+		"en": "Xiaomi Pad 7 Ultra"
+	},
+	"code": "OX",
+	"suppports": [
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"15.0",
+		"16.0"
+	],
+	"type": "tablet",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "jinghu",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 7 Ultra",
+				"en": "Xiaomi Pad 7 Ultra"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.300.3.WOXCNXM": {
+					"os": "OS3.0.300.3.WOXCNXM",
+					"android": "16.0",
+					"release": "2026-03-06",
+					"recovery": "jinghu-ota_full-OS3.0.300.3.WOXCNXM-user-16.0-11c06a97d3.zip",
+					"fastboot": ""
+				},
+				"OS3.0.300.2.WOXCNXM": {
+					"os": "OS3.0.300.2.WOXCNXM",
+					"android": "16.0",
+					"release": "2026-01-30",
+					"recovery": "jinghu-ota_full-OS3.0.300.2.WOXCNXM-user-16.0-142e34275c.zip",
+					"fastboot": ""
+				},
+				"OS3.0.1.4.WOXCNXM": {
+					"os": "OS3.0.1.4.WOXCNXM",
+					"android": "16.0",
+					"release": "2025-10-14",
+					"recovery": "jinghu-ota_full-OS3.0.1.4.WOXCNXM-user-16.0-b2abf64bfd.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.8.WOXCNXM": {
+					"os": "OS3.0.0.8.WOXCNXM",
+					"android": "16.0",
+					"release": "2025-09-25",
+					"recovery": "jinghu-ota_full-OS3.0.0.8.WOXCNXM-user-16.0-4c16befc3e.zip",
+					"fastboot": ""
+				},
+				"OS3.0.0.5.WOXCNXM": {
+					"os": "OS3.0.0.5.WOXCNXM",
+					"android": "16.0",
+					"release": "2025-09-15",
+					"recovery": "jinghu-ota_full-OS3.0.0.5.WOXCNXM-user-16.0-c54fdb7836.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "jinghu",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 7 Ultra",
+				"en": "Xiaomi Pad 7 Ultra"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"others": [
+				"jinghu-images-OS2.0.108.0.VOXCNXM-userroot-20250520.0000.00-15.0-cn-c2b75c76df.tgz"
+			],
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WOXCNXM": {
+					"os": "OS3.0.301.0.WOXCNXM",
+					"android": "16.0",
+					"release": "2026-03-26",
+					"recovery": "jinghu-ota_full-OS3.0.301.0.WOXCNXM-user-16.0-0bb4bdec09.zip",
+					"fastboot": "jinghu-images-OS3.0.301.0.WOXCNXM-user-20260319.0000.00-16.0-cn-7735f2f7e0.tgz"
+				},
+				"OS3.0.7.0.WOXCNXM": {
+					"os": "OS3.0.7.0.WOXCNXM",
+					"android": "16.0",
+					"release": "2025-12-26",
+					"recovery": "jinghu-ota_full-OS3.0.7.0.WOXCNXM-user-16.0-1c0633f855.zip",
+					"fastboot": "jinghu-images-OS3.0.7.0.WOXCNXM-user-20251224.0000.00-16.0-cn-3d206d8231.tgz"
+				},
+				"OS3.0.5.0.WOXCNXM": {
+					"os": "OS3.0.5.0.WOXCNXM",
+					"android": "16.0",
+					"release": "2025-11-07",
+					"recovery": "jinghu-ota_full-OS3.0.5.0.WOXCNXM-user-16.0-1df6d3fec2.zip",
+					"fastboot": "jinghu-images-OS3.0.5.0.WOXCNXM-user-20251105.0000.00-16.0-cn-2af0e939d7.tgz"
+				},
+				"OS3.0.4.0.WOXCNXM": {
+					"os": "OS3.0.4.0.WOXCNXM",
+					"android": "16.0",
+					"release": "2025-10-28",
+					"recovery": "jinghu-ota_full-OS3.0.4.0.WOXCNXM-user-16.0-b8dd5aa8e4.zip",
+					"fastboot": ""
+				},
+				"OS2.0.207.0.VOXCNXM": {
+					"os": "OS2.0.207.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-10-11",
+					"recovery": "jinghu-ota_full-OS2.0.207.0.VOXCNXM-user-15.0-e175184523.zip",
+					"fastboot": "jinghu-images-OS2.0.207.0.VOXCNXM-user-20250924.0000.00-15.0-cn-4c76c60898.tgz"
+				},
+				"OS2.0.206.0.VOXCNXM": {
+					"os": "OS2.0.206.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-08-04",
+					"recovery": "jinghu-ota_full-OS2.0.206.0.VOXCNXM-user-15.0-edfb73601b.zip",
+					"fastboot": "jinghu-images-OS2.0.206.0.VOXCNXM-user-20250729.0000.00-15.0-cn-3e7e7b9f0b.tgz"
+				},
+				"OS2.0.205.0.VOXCNXM": {
+					"os": "OS2.0.205.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-07-10",
+					"recovery": "jinghu-ota_full-OS2.0.205.0.VOXCNXM-user-15.0-5490c74269.zip",
+					"fastboot": "jinghu-images-OS2.0.205.0.VOXCNXM-user-20250707.0000.00-15.0-cn-f3e6ebd62e.tgz"
+				},
+				"OS2.0.203.0.VOXCNXM": {
+					"os": "OS2.0.203.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-07-01",
+					"recovery": "jinghu-ota_full-OS2.0.203.0.VOXCNXM-user-15.0-6262fab975.zip",
+					"fastboot": ""
+				},
+				"OS2.0.111.0.VOXCNXM": {
+					"os": "OS2.0.111.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-06-09",
+					"recovery": "jinghu-ota_full-OS2.0.111.0.VOXCNXM-user-15.0-d886d02628.zip",
+					"fastboot": "jinghu-images-OS2.0.111.0.VOXCNXM-user-20250604.0000.00-15.0-cn-e832a92c4a.tgz"
+				},
+				"OS2.0.110.0.VOXCNXM": {
+					"os": "OS2.0.110.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-05-31",
+					"recovery": "jinghu-ota_full-OS2.0.110.0.VOXCNXM-user-15.0-b31d1e2501.zip",
+					"fastboot": "jinghu-images-OS2.0.110.0.VOXCNXM-user-20250528.0000.00-15.0-cn-e2fa3a6d78.tgz"
+				},
+				"OS2.0.108.0.VOXCNXM": {
+					"os": "OS2.0.108.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-05-23",
+					"recovery": "jinghu-ota_full-OS2.0.108.0.VOXCNXM-user-15.0-6d09fd73ec.zip",
+					"fastboot": "jinghu-images-OS2.0.108.0.VOXCNXM-user-20250520.0000.00-15.0-cn-9516005dce.tgz"
+				},
+				"OS2.0.104.0.VOXCNXM": {
+					"os": "OS2.0.104.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "jinghu-ota_full-OS2.0.104.0.VOXCNXM-user-15.0-52a8adc79d.zip",
+					"fastboot": "jinghu-images-OS2.0.104.0.VOXCNXM-userroot-20250414.0000.00-15.0-cn-4f543f76a2.tgz"
+				},
+				"OS2.0.103.0.VOXCNXM": {
+					"os": "OS2.0.103.0.VOXCNXM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "jinghu-ota_full-OS2.0.103.0.VOXCNXM-user-15.0-cc0dc09b17.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "jinghu_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 7 Ultra",
+				"en": "Xiaomi Pad 7 Ultra"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WOXCNDM": {
+					"os": "OS3.0.1.0.WOXCNDM",
+					"android": "16.0",
+					"release": "2026-02-06",
+					"recovery": "jinghu_demo-ota_full-OS3.0.1.0.WOXCNDM-user-16.0-85ac86e8bd.zip",
+					"fastboot": "jinghu_demo-images-OS3.0.1.0.WOXCNDM-user-20260116.0000.00-16.0-cn-65c9780acf.tgz"
+				},
+				"OS2.0.203.0.VOXCNDM": {
+					"os": "OS2.0.203.0.VOXCNDM",
+					"android": "15.0",
+					"release": "2025-07-26",
+					"recovery": "jinghu_demo-ota_full-OS2.0.203.0.VOXCNDM-user-15.0-1e6b8cc2c6.zip",
+					"fastboot": "jinghu_demo-images-OS2.0.203.0.VOXCNDM-user-20250722.0000.00-15.0-cn-9151469c27.tgz"
+				},
+				"OS2.0.105.0.VOXCNDM": {
+					"os": "OS2.0.105.0.VOXCNDM",
+					"android": "15.0",
+					"release": "2025-05-29",
+					"recovery": "jinghu_demo-ota_full-OS2.0.105.0.VOXCNDM-user-15.0-7788e1242d.zip",
+					"fastboot": "jinghu_demo-images-OS2.0.105.0.VOXCNDM-user-20250523.0000.00-15.0-cn-63aaabbda2.tgz"
+				},
+				"OS2.0.104.0.VOXCNDM": {
+					"os": "OS2.0.104.0.VOXCNDM",
+					"android": "15.0",
+					"release": "2025-05-22",
+					"recovery": "jinghu_demo-ota_full-OS2.0.104.0.VOXCNDM-user-15.0-e07ac2b871.zip",
+					"fastboot": "jinghu_demo-images-OS2.0.104.0.VOXCNDM-userroot-20250519.0000.00-15.0-cn-a6ec343bf7.tgz"
+				}
+			}
+		}
+	]
 }
