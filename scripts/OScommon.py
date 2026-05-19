@@ -195,17 +195,17 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
-				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian','xuanyuan', 'dijun', 'goya', 'klimt', 'pudding', 'pandora', 'popsicle', 'nezha',
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian', 'xuanyuan', 'dijun', 'goya', 'klimt', 'pudding', 'pandora', 'byron', 'popsicle', 'nezha',
 				 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
-				 'liuqin', 'yudi','sheng', 'uke', 'muyu', 'jinghu', 'violin', 'piano', 'yupei', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
-				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming','konghou',
+				 'liuqin', 'yudi', 'sheng', 'uke', 'muyu', 'jinghu', 'violin', 'piano', 'yupei', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
+				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming', 'konghou',
 				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'dew', 'tornado', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'spinel',
-				 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin','onyx', 'klee', 'dash','alioth',
+				 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin', 'onyx', 'klee', 'dash', 'alioth',
 				 'charoite', 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
-				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali','annibale', 'prague', 'myron', 
-				 'yunluo', 'xun', 'guitar', 'flare', 'spark', 'koto', 'taiko','flute', 'organ', 'dizi', 'ruan', 'turner', 'yili', 'warm', 'serenity', 'somalia', 'evergreen', 'rock', 'moonstone']
+				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali', 'annibale', 'prague', 'myron',
+				 'yunluo', 'xun', 'guitar', 'flare', 'spark', 'koto', 'taiko', 'flute', 'organ', 'dizi', 'ruan', 'turner', 'yili', 'warm', 'serenity', 'somalia', 'evergreen', 'rock', 'moonstone']
 
 branches = [
 	{
