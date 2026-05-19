@@ -100,6 +100,51 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "somalia_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI R70 / REDMI R70m",
+				"en": "REDMI R70 / REDMI R70m"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WBWCNDM": {
+					"os": "OS3.0.1.0.WBWCNDM",
+					"android": "16.0",
+					"release": "2026-05-19",
+					"recovery": "somalia_demo-ota_full-OS3.0.1.0.WBWCNDM-user-16.0-88401a01ea.zip",
+					"fastboot": "somalia_demo-images-OS3.0.1.0.WBWCNDM-user-20260324.0000.00-16.0-cn-5c65ffa78f.tgz",
+					"ctelecom": "somalia_demo-images-OS3.0.1.0.WBWCNDM-user-20260324.0000.00-16.0-cn_chinatelecom-7f58feeb02.tgz",
+					"cnmobile": "somalia_demo-images-OS3.0.1.0.WBWCNDM-user-20260324.0000.00-16.0-cn_chinamobile-1a8a0893ef.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},

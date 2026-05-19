@@ -166,8 +166,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['suiren', 'chagall','warhol', 'zephyr', 'coral']
-currentStable = ['guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'chagall','warhol', 'coral', 'arctic', 'dew', 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
+unreleased = ['byron', 'suiren', 'chagall','warhol', 'zephyr', 'coral']
+currentStable = ['byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'chagall','warhol', 'coral', 'arctic', 'dew', 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou',  'spring', 'lapis', 'kunzite',
 								 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
@@ -498,6 +498,9 @@ flags = {
 	"nezha_in_global": "nezha",
 	"nezha_ru_global": "nezha",
 	"nezha_tr_global": "nezha",
+	"somalia_demo": "somalia",
+	"byron": "byron",
+	"byron_demo": "byron",
 	"flourite_lm_cr_global": "flourite",
 	"kunzite_global": "kunzite",
 	"arctic_id_global": "arctic",
