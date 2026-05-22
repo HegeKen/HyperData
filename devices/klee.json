@@ -1,476 +1,484 @@
 {
-  "device": "klee",
-  "name": {
-    "zh": "REDMI Turbo 5 / POCO X8 Pro",
-    "en": "REDMI Turbo 5 / POCO X8 Pro"
-  },
-  "code": "PJ",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "klee",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Turbo 5",
-        "en": "REDMI Turbo 5"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WPJCNXM": {
-          "os": "OS3.0.301.0.WPJCNXM",
-          "android": "16.0",
-          "release": "2026-03-13",
-          "recovery": "klee-ota_full-OS3.0.301.0.WPJCNXM-user-16.0-fb2ad314e8.zip",
-          "fastboot": "klee_images_OS3.0.301.0.WPJCNXM_20260301.0000.00_16.0_cn_84d0817d42.tgz",
-          "ctelecom": "klee_images_OS3.0.301.0.WPJCNXM_20260301.0000.00_16.0_cn_chinatelecom_eb2fd0c058.tgz"
-        },
-        "OS3.0.20.0.WPJCNXM": {
-          "os": "OS3.0.20.0.WPJCNXM",
-          "android": "16.0",
-          "release": "2026-02-10",
-          "recovery": "klee-ota_full-OS3.0.20.0.WPJCNXM-user-16.0-2f1908aa66.zip",
-          "fastboot": "klee_images_OS3.0.20.0.WPJCNXM_20260204.0000.00_16.0_cn_7b1b840952.tgz",
-          "ctelecom": "klee_images_OS3.0.20.0.WPJCNXM_20260204.0000.00_16.0_cn_chinatelecom_861149fcd8.tgz"
-        },
-        "OS3.0.18.0.WPJCNXM": {
-          "os": "OS3.0.18.0.WPJCNXM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "klee-ota_full-OS3.0.18.0.WPJCNXM-user-16.0-10d16c00a2.zip",
-          "fastboot": "klee_images_OS3.0.18.0.WPJCNXM_20260120.0000.00_16.0_cn_84e31f1e18.tgz",
-          "ctelecom": "klee_images_OS3.0.18.0.WPJCNXM_20260120.0000.00_16.0_cn_chinatelecom_5a3d2dc95d.tgz"
-        },
-        "OS3.0.11.0.WPJCNXM": {
-          "os": "OS3.0.11.0.WPJCNXM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "klee-ota_full-OS3.0.11.0.WPJCNXM-user-16.0-6df6b9b57f.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS3.0.6.0.WPJCNXM": {
-          "os": "OS3.0.6.0.WPJCNXM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "klee-ota_full-OS3.0.6.0.WPJCNXM-user-16.0-05c3c864cf.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        },
-        "OS3.0.4.0.WPJCNXM": {
-          "os": "OS3.0.4.0.WPJCNXM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "klee-ota_full-OS3.0.4.0.WPJCNXM-user-16.0-1012e48a45.zip",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "klee_demo",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Turbo 5",
-        "en": "REDMI Turbo 5"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WPJCNDM": {
-          "os": "OS3.0.301.0.WPJCNDM",
-          "android": "16.0",
-          "release": "2026-04-03",
-          "recovery": "klee_demo-ota_full-OS3.0.301.0.WPJCNDM-user-16.0-d032e1d1d2.zip",
-          "fastboot": "klee_demo_images_OS3.0.301.0.WPJCNDM_20260325.0000.00_16.0_cn_48118502de.tgz",
-          "ctelecom": "klee_demo_images_OS3.0.301.0.WPJCNDM_20260325.0000.00_16.0_cn_chinatelecom_a349ffde63.tgz"
-        },
-        "OS3.0.5.0.WPJCNDM": {
-          "os": "OS3.0.5.0.WPJCNDM",
-          "android": "16.0",
-          "release": "2026-03-04",
-          "recovery": "klee_demo-ota_full-OS3.0.5.0.WPJCNDM-user-16.0-0ae8256258.zip",
-          "fastboot": "klee_demo_images_OS3.0.5.0.WPJCNDM_20260211.0000.00_16.0_cn_57034fdeb2.tgz",
-          "ctelecom": "klee_demo_images_OS3.0.5.0.WPJCNDM_20260211.0000.00_16.0_cn_chinatelecom_77247b07c0.tgz"
-        },
-        "OS3.0.4.0.WPJCNDM": {
-          "os": "OS3.0.4.0.WPJCNDM",
-          "android": "16.0",
-          "release": "2026-01-29",
-          "recovery": "klee_demo-ota_full-OS3.0.4.0.WPJCNDM-user-16.0-951618ceaf.zip",
-          "fastboot": "klee_demo_images_OS3.0.4.0.WPJCNDM_20260121.0000.00_16.0_cn_a65885289e.tgz",
-          "ctelecom": "klee_demo_images_OS3.0.4.0.WPJCNDM_20260121.0000.00_16.0_cn_chinatelecom_9bc4a0c21b.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾省正式版",
-        "en": "Xiaomi HyperOS China Taiwan Province Stable"
-      },
-      "branchCode": "klee_tw_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro",
-        "en": "POCO X8 Pro"
-      },
-      "idtag": "CNTP",
-      "tag": "TWXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.4.0.WPJTWXM": {
-          "os": "OS3.0.4.0.WPJTWXM",
-          "android": "16.0",
-          "release": "2026-04-29",
-          "recovery": "klee_tw_global-ota_full-OS3.0.4.0.WPJTWXM-user-16.0-ebc6c1e53f.zip",
-          "fastboot": "klee_tw_global_images_OS3.0.4.0.WPJTWXM_20260421.0000.00_16.0_tw_cbfa2692da.tgz"
-        },
-        "OS3.0.2.0.WPJTWXM": {
-          "os": "OS3.0.2.0.WPJTWXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "klee_tw_global-ota_full-OS3.0.2.0.WPJTWXM-user-16.0-bb1d234fa9.zip",
-          "fastboot": "klee_tw_global_images_OS3.0.2.0.WPJTWXM_20260301.0000.00_16.0_tw_fce86434fc.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "klee_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro",
-        "en": "POCO X8 Pro"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.5.0.WPJMIXM": {
-          "os": "OS3.0.5.0.WPJMIXM",
-          "android": "16.0",
-          "release": "2026-04-17",
-          "recovery": "klee_global-ota_full-OS3.0.5.0.WPJMIXM-user-16.0-fdcd033531.zip",
-          "fastboot": "klee_global_images_OS3.0.5.0.WPJMIXM_20260328.0000.00_16.0_global_8fdfad0755.tgz"
-        },
-        "OS3.0.4.0.WPJMIXM": {
-          "os": "OS3.0.4.0.WPJMIXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "klee_global-ota_full-OS3.0.4.0.WPJMIXM-user-16.0-e5b494e136.zip",
-          "fastboot": "klee_global_images_OS3.0.4.0.WPJMIXM_20260306.0000.00_16.0_global_d61856eaa2.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "klee_eea_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro",
-        "en": "POCO X8 Pro"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.5.0.WPJEUXM": {
-          "os": "OS3.0.5.0.WPJEUXM",
-          "android": "16.0",
-          "release": "2026-04-20",
-          "recovery": "klee_eea_global-ota_full-OS3.0.5.0.WPJEUXM-user-16.0-40275e54d2.zip",
-          "fastboot": "klee_eea_global_images_OS3.0.5.0.WPJEUXM_20260403.0000.00_16.0_eea_d6edcac88f.tgz"
-        },
-        "OS3.0.4.0.WPJEUXM": {
-          "os": "OS3.0.4.0.WPJEUXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "klee_eea_global-ota_full-OS3.0.4.0.WPJEUXM-user-16.0-3255e8e6d9.zip",
-          "fastboot": "klee_eea_global_images_OS3.0.4.0.WPJEUXM_20260311.0000.00_16.0_eea_ce7ece8f72.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "klee_ru_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro",
-        "en": "POCO X8 Pro"
-      },
-      "idtag": "RUSO",
-      "tag": "RUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.4.0.WPJRUXM": {
-          "os": "OS3.0.4.0.WPJRUXM",
-          "android": "16.0",
-          "release": "2026-04-17",
-          "recovery": "klee_ru_global-ota_full-OS3.0.4.0.WPJRUXM-user-16.0-24fc42d167.zip",
-          "fastboot": "klee_ru_global_images_OS3.0.4.0.WPJRUXM_20260328.0000.00_16.0_ru_a26ce9c05c.tgz"
-        },
-        "OS3.0.3.0.WPJRUXM": {
-          "os": "OS3.0.3.0.WPJRUXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "klee_ru_global-ota_full-OS3.0.3.0.WPJRUXM-user-16.0-4b6263d618.zip",
-          "fastboot": "klee_ru_global_images_OS3.0.3.0.WPJRUXM_20260301.0000.00_16.0_ru_fe2d3fef6d.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度正式版",
-        "en": "Xiaomi HyperOS India Stable"
-      },
-      "branchCode": "klee_in_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro",
-        "en": "POCO X8 Pro"
-      },
-      "idtag": "INSO",
-      "tag": "INXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "in",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.5.0.WPJINXM": {
-          "os": "OS3.0.5.0.WPJINXM",
-          "android": "16.0",
-          "release": "2026-04-20",
-          "recovery": "klee_in_global-ota_full-OS3.0.5.0.WPJINXM-user-16.0-49d5905e17.zip",
-          "fastboot": "klee_in_global_images_OS3.0.5.0.WPJINXM_20260407.0000.00_16.0_in_73540cc945.tgz"
-        },
-        "OS3.0.3.0.WPJINXM": {
-          "os": "OS3.0.3.0.WPJINXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "klee_in_global-ota_full-OS3.0.3.0.WPJINXM-user-16.0-64ffad91f5.zip",
-          "fastboot": "klee_in_global_images_OS3.0.3.0.WPJINXM_20260207.0000.00_16.0_in_402668e514.tgz"
-        },
-        "OS3.0.2.0.WPJINXM": {
-          "os": "OS3.0.2.0.WPJINXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "klee_in_global-ota_full-OS3.0.2.0.WPJINXM-user-16.0-aff8c6607d.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度尼西亚正式版",
-        "en": "Xiaomi HyperOS Indonesia Stable"
-      },
-      "branchCode": "klee_id_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro",
-        "en": "POCO X8 Pro"
-      },
-      "idtag": "IDSO",
-      "tag": "IDXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "id",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.4.0.WPJIDXM": {
-          "os": "OS3.0.4.0.WPJIDXM",
-          "android": "16.0",
-          "release": "2026-04-29",
-          "recovery": "klee_id_global-ota_full-OS3.0.4.0.WPJIDXM-user-16.0-66ebe41b2a.zip",
-          "fastboot": "klee_id_global_images_OS3.0.4.0.WPJIDXM_20260417.0000.00_16.0_id_8af00b7e87.tgz"
-        },
-        "OS3.0.3.0.WPJIDXM": {
-          "os": "OS3.0.3.0.WPJIDXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "klee_id_global-ota_full-OS3.0.3.0.WPJIDXM-user-16.0-a13b3547f5.zip",
-          "fastboot": "klee_id_global_images_OS3.0.3.0.WPJIDXM_20260207.0000.00_16.0_id_1f81bef060.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 土耳其正式版",
-        "en": "Xiaomi HyperOS Turkey Stable"
-      },
-      "branchCode": "klee_tr_global",
-      "brand": "POCO",
-      "device": {
-        "zh": "POCO X8 Pro",
-        "en": "POCO X8 Pro"
-      },
-      "idtag": "TRSO",
-      "tag": "TRXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tr",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.2.0.WPJTRXM": {
-          "os": "OS3.0.2.0.WPJTRXM",
-          "android": "16.0",
-          "release": "2026-03-17",
-          "recovery": "klee_tr_global-ota_full-OS3.0.2.0.WPJTRXM-user-16.0-1967442d86.zip",
-          "fastboot": "klee_tr_global_images_OS3.0.2.0.WPJTRXM_20260301.0000.00_16.0_tr_b09bae9672.tgz"
-        }
-      }
-    }
-  ]
+	"device": "klee",
+	"name": {
+		"zh": "REDMI Turbo 5 / POCO X8 Pro",
+		"en": "REDMI Turbo 5 / POCO X8 Pro"
+	},
+	"code": "PJ",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "klee",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Turbo 5",
+				"en": "REDMI Turbo 5"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WPJCNXM": {
+					"os": "OS3.0.303.0.WPJCNXM",
+					"android": "16.0",
+					"release": "2026-05-21",
+					"recovery": "klee-ota_full-OS3.0.303.0.WPJCNXM-user-16.0-58f0f6b217.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.301.0.WPJCNXM": {
+					"os": "OS3.0.301.0.WPJCNXM",
+					"android": "16.0",
+					"release": "2026-03-13",
+					"recovery": "klee-ota_full-OS3.0.301.0.WPJCNXM-user-16.0-fb2ad314e8.zip",
+					"fastboot": "klee_images_OS3.0.301.0.WPJCNXM_20260301.0000.00_16.0_cn_84d0817d42.tgz",
+					"ctelecom": "klee_images_OS3.0.301.0.WPJCNXM_20260301.0000.00_16.0_cn_chinatelecom_eb2fd0c058.tgz"
+				},
+				"OS3.0.20.0.WPJCNXM": {
+					"os": "OS3.0.20.0.WPJCNXM",
+					"android": "16.0",
+					"release": "2026-02-10",
+					"recovery": "klee-ota_full-OS3.0.20.0.WPJCNXM-user-16.0-2f1908aa66.zip",
+					"fastboot": "klee_images_OS3.0.20.0.WPJCNXM_20260204.0000.00_16.0_cn_7b1b840952.tgz",
+					"ctelecom": "klee_images_OS3.0.20.0.WPJCNXM_20260204.0000.00_16.0_cn_chinatelecom_861149fcd8.tgz"
+				},
+				"OS3.0.18.0.WPJCNXM": {
+					"os": "OS3.0.18.0.WPJCNXM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "klee-ota_full-OS3.0.18.0.WPJCNXM-user-16.0-10d16c00a2.zip",
+					"fastboot": "klee_images_OS3.0.18.0.WPJCNXM_20260120.0000.00_16.0_cn_84e31f1e18.tgz",
+					"ctelecom": "klee_images_OS3.0.18.0.WPJCNXM_20260120.0000.00_16.0_cn_chinatelecom_5a3d2dc95d.tgz"
+				},
+				"OS3.0.11.0.WPJCNXM": {
+					"os": "OS3.0.11.0.WPJCNXM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "klee-ota_full-OS3.0.11.0.WPJCNXM-user-16.0-6df6b9b57f.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.6.0.WPJCNXM": {
+					"os": "OS3.0.6.0.WPJCNXM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "klee-ota_full-OS3.0.6.0.WPJCNXM-user-16.0-05c3c864cf.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.4.0.WPJCNXM": {
+					"os": "OS3.0.4.0.WPJCNXM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "klee-ota_full-OS3.0.4.0.WPJCNXM-user-16.0-1012e48a45.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "klee_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Turbo 5",
+				"en": "REDMI Turbo 5"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPJCNDM": {
+					"os": "OS3.0.301.0.WPJCNDM",
+					"android": "16.0",
+					"release": "2026-04-03",
+					"recovery": "klee_demo-ota_full-OS3.0.301.0.WPJCNDM-user-16.0-d032e1d1d2.zip",
+					"fastboot": "klee_demo_images_OS3.0.301.0.WPJCNDM_20260325.0000.00_16.0_cn_48118502de.tgz",
+					"ctelecom": "klee_demo_images_OS3.0.301.0.WPJCNDM_20260325.0000.00_16.0_cn_chinatelecom_a349ffde63.tgz"
+				},
+				"OS3.0.5.0.WPJCNDM": {
+					"os": "OS3.0.5.0.WPJCNDM",
+					"android": "16.0",
+					"release": "2026-03-04",
+					"recovery": "klee_demo-ota_full-OS3.0.5.0.WPJCNDM-user-16.0-0ae8256258.zip",
+					"fastboot": "klee_demo_images_OS3.0.5.0.WPJCNDM_20260211.0000.00_16.0_cn_57034fdeb2.tgz",
+					"ctelecom": "klee_demo_images_OS3.0.5.0.WPJCNDM_20260211.0000.00_16.0_cn_chinatelecom_77247b07c0.tgz"
+				},
+				"OS3.0.4.0.WPJCNDM": {
+					"os": "OS3.0.4.0.WPJCNDM",
+					"android": "16.0",
+					"release": "2026-01-29",
+					"recovery": "klee_demo-ota_full-OS3.0.4.0.WPJCNDM-user-16.0-951618ceaf.zip",
+					"fastboot": "klee_demo_images_OS3.0.4.0.WPJCNDM_20260121.0000.00_16.0_cn_a65885289e.tgz",
+					"ctelecom": "klee_demo_images_OS3.0.4.0.WPJCNDM_20260121.0000.00_16.0_cn_chinatelecom_9bc4a0c21b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "klee_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro",
+				"en": "POCO X8 Pro"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WPJTWXM": {
+					"os": "OS3.0.4.0.WPJTWXM",
+					"android": "16.0",
+					"release": "2026-04-29",
+					"recovery": "klee_tw_global-ota_full-OS3.0.4.0.WPJTWXM-user-16.0-ebc6c1e53f.zip",
+					"fastboot": "klee_tw_global_images_OS3.0.4.0.WPJTWXM_20260421.0000.00_16.0_tw_cbfa2692da.tgz"
+				},
+				"OS3.0.2.0.WPJTWXM": {
+					"os": "OS3.0.2.0.WPJTWXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "klee_tw_global-ota_full-OS3.0.2.0.WPJTWXM-user-16.0-bb1d234fa9.zip",
+					"fastboot": "klee_tw_global_images_OS3.0.2.0.WPJTWXM_20260301.0000.00_16.0_tw_fce86434fc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "klee_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro",
+				"en": "POCO X8 Pro"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.5.0.WPJMIXM": {
+					"os": "OS3.0.5.0.WPJMIXM",
+					"android": "16.0",
+					"release": "2026-04-17",
+					"recovery": "klee_global-ota_full-OS3.0.5.0.WPJMIXM-user-16.0-fdcd033531.zip",
+					"fastboot": "klee_global_images_OS3.0.5.0.WPJMIXM_20260328.0000.00_16.0_global_8fdfad0755.tgz"
+				},
+				"OS3.0.4.0.WPJMIXM": {
+					"os": "OS3.0.4.0.WPJMIXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "klee_global-ota_full-OS3.0.4.0.WPJMIXM-user-16.0-e5b494e136.zip",
+					"fastboot": "klee_global_images_OS3.0.4.0.WPJMIXM_20260306.0000.00_16.0_global_d61856eaa2.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "klee_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro",
+				"en": "POCO X8 Pro"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.5.0.WPJEUXM": {
+					"os": "OS3.0.5.0.WPJEUXM",
+					"android": "16.0",
+					"release": "2026-04-20",
+					"recovery": "klee_eea_global-ota_full-OS3.0.5.0.WPJEUXM-user-16.0-40275e54d2.zip",
+					"fastboot": "klee_eea_global_images_OS3.0.5.0.WPJEUXM_20260403.0000.00_16.0_eea_d6edcac88f.tgz"
+				},
+				"OS3.0.4.0.WPJEUXM": {
+					"os": "OS3.0.4.0.WPJEUXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "klee_eea_global-ota_full-OS3.0.4.0.WPJEUXM-user-16.0-3255e8e6d9.zip",
+					"fastboot": "klee_eea_global_images_OS3.0.4.0.WPJEUXM_20260311.0000.00_16.0_eea_ce7ece8f72.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "klee_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro",
+				"en": "POCO X8 Pro"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WPJRUXM": {
+					"os": "OS3.0.4.0.WPJRUXM",
+					"android": "16.0",
+					"release": "2026-04-17",
+					"recovery": "klee_ru_global-ota_full-OS3.0.4.0.WPJRUXM-user-16.0-24fc42d167.zip",
+					"fastboot": "klee_ru_global_images_OS3.0.4.0.WPJRUXM_20260328.0000.00_16.0_ru_a26ce9c05c.tgz"
+				},
+				"OS3.0.3.0.WPJRUXM": {
+					"os": "OS3.0.3.0.WPJRUXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "klee_ru_global-ota_full-OS3.0.3.0.WPJRUXM-user-16.0-4b6263d618.zip",
+					"fastboot": "klee_ru_global_images_OS3.0.3.0.WPJRUXM_20260301.0000.00_16.0_ru_fe2d3fef6d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "klee_in_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro",
+				"en": "POCO X8 Pro"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.5.0.WPJINXM": {
+					"os": "OS3.0.5.0.WPJINXM",
+					"android": "16.0",
+					"release": "2026-04-20",
+					"recovery": "klee_in_global-ota_full-OS3.0.5.0.WPJINXM-user-16.0-49d5905e17.zip",
+					"fastboot": "klee_in_global_images_OS3.0.5.0.WPJINXM_20260407.0000.00_16.0_in_73540cc945.tgz"
+				},
+				"OS3.0.3.0.WPJINXM": {
+					"os": "OS3.0.3.0.WPJINXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "klee_in_global-ota_full-OS3.0.3.0.WPJINXM-user-16.0-64ffad91f5.zip",
+					"fastboot": "klee_in_global_images_OS3.0.3.0.WPJINXM_20260207.0000.00_16.0_in_402668e514.tgz"
+				},
+				"OS3.0.2.0.WPJINXM": {
+					"os": "OS3.0.2.0.WPJINXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "klee_in_global-ota_full-OS3.0.2.0.WPJINXM-user-16.0-aff8c6607d.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "klee_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro",
+				"en": "POCO X8 Pro"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WPJIDXM": {
+					"os": "OS3.0.4.0.WPJIDXM",
+					"android": "16.0",
+					"release": "2026-04-29",
+					"recovery": "klee_id_global-ota_full-OS3.0.4.0.WPJIDXM-user-16.0-66ebe41b2a.zip",
+					"fastboot": "klee_id_global_images_OS3.0.4.0.WPJIDXM_20260417.0000.00_16.0_id_8af00b7e87.tgz"
+				},
+				"OS3.0.3.0.WPJIDXM": {
+					"os": "OS3.0.3.0.WPJIDXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "klee_id_global-ota_full-OS3.0.3.0.WPJIDXM-user-16.0-a13b3547f5.zip",
+					"fastboot": "klee_id_global_images_OS3.0.3.0.WPJIDXM_20260207.0000.00_16.0_id_1f81bef060.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "klee_tr_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8 Pro",
+				"en": "POCO X8 Pro"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WPJTRXM": {
+					"os": "OS3.0.2.0.WPJTRXM",
+					"android": "16.0",
+					"release": "2026-03-17",
+					"recovery": "klee_tr_global-ota_full-OS3.0.2.0.WPJTRXM-user-16.0-1967442d86.zip",
+					"fastboot": "klee_tr_global_images_OS3.0.2.0.WPJTRXM_20260301.0000.00_16.0_tr_b09bae9672.tgz"
+				}
+			}
+		}
+	]
 }

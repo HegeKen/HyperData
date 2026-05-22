@@ -1,74 +1,81 @@
 {
-  "device": "yili",
-  "name": {
-    "zh": "REDMI K Pad 2",
-    "en": "REDMI K Pad 2"
-  },
-  "code": "AK",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "tablet",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "yili",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI K Pad 2",
-        "en": "REDMI K Pad 2"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.304.0.WAKCNXM": {
-          "os": "OS3.0.304.0.WAKCNXM",
-          "android": "16.0",
-          "release": "2026-04-24",
-          "recovery": "yili-ota_full-OS3.0.304.0.WAKCNXM-user-16.0-9b56e687ff.zip",
-          "fastboot": "yili_images_OS3.0.304.0.WAKCNXM_20260421.0000.00_16.0_cn_6e405e8896.tgz"
-        },
-        "OS3.0.303.0.WAKCNXM": {
-          "os": "OS3.0.303.0.WAKCNXM",
-          "android": "16.0",
-          "release": "2026-04-21",
-          "recovery": "yili-ota_full-OS3.0.303.0.WAKCNXM-user-16.0-99c932fe27.zip",
-          "fastboot": "yili_images_OS3.0.303.0.WAKCNXM_20260415.0000.00_16.0_cn_345df1e396.tgz"
-        },
-        "OS3.0.301.0.WAKCNXM": {
-          "os": "OS3.0.301.0.WAKCNXM",
-          "android": "16.0",
-          "release": "2026-04-21",
-          "recovery": "yili-ota_full-OS3.0.301.0.WAKCNXM-user-16.0-61d5003cdc.zip",
-          "fastboot": ""
-        }
-      }
-    }
-  ]
+	"device": "yili",
+	"name": {
+		"zh": "REDMI K Pad 2",
+		"en": "REDMI K Pad 2"
+	},
+	"code": "AK",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "tablet",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "yili",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K Pad 2",
+				"en": "REDMI K Pad 2"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WAKCNXM": {
+					"os": "OS3.0.305.0.WAKCNXM",
+					"android": "16.0",
+					"release": "2026-05-21",
+					"recovery": "yili-ota_full-OS3.0.305.0.WAKCNXM-user-16.0-3f8bef59c0.zip",
+					"fastboot": ""
+				},
+				"OS3.0.304.0.WAKCNXM": {
+					"os": "OS3.0.304.0.WAKCNXM",
+					"android": "16.0",
+					"release": "2026-04-24",
+					"recovery": "yili-ota_full-OS3.0.304.0.WAKCNXM-user-16.0-9b56e687ff.zip",
+					"fastboot": "yili_images_OS3.0.304.0.WAKCNXM_20260421.0000.00_16.0_cn_6e405e8896.tgz"
+				},
+				"OS3.0.303.0.WAKCNXM": {
+					"os": "OS3.0.303.0.WAKCNXM",
+					"android": "16.0",
+					"release": "2026-04-21",
+					"recovery": "yili-ota_full-OS3.0.303.0.WAKCNXM-user-16.0-99c932fe27.zip",
+					"fastboot": "yili_images_OS3.0.303.0.WAKCNXM_20260415.0000.00_16.0_cn_345df1e396.tgz"
+				},
+				"OS3.0.301.0.WAKCNXM": {
+					"os": "OS3.0.301.0.WAKCNXM",
+					"android": "16.0",
+					"release": "2026-04-21",
+					"recovery": "yili-ota_full-OS3.0.301.0.WAKCNXM-user-16.0-61d5003cdc.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }
