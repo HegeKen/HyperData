@@ -665,6 +665,7 @@ flags = {
 	"dew_id_global": "dew",
 	"dew_tr_global": "dew",
 	"spring": "spring",
+	"arctic_lm_cr_global": "arctic",
 	"guitar_tw_global": "guitar",
 	"guitar_eea_global": "guitar",
 	"guitar_ru_global": "guitar",

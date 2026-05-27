@@ -677,7 +677,7 @@
 					"android": "16.0",
 					"release": "2026-04-24",
 					"recovery": "duchamp_global-ota_full-OS3.0.6.0.WNLMIXM-user-16.0-29842474e8.zip",
-					"fastboot": ""
+					"fastboot": "duchamp_global_images_OS3.0.6.0.WNLMIXM_20260415.0000.00_16.0_global_f41fae11f3.tgz"
 				},
 				"OS3.0.4.0.WNLMIXM": {
 					"os": "OS3.0.4.0.WNLMIXM",
@@ -1225,7 +1225,7 @@
 					"android": "16.0",
 					"release": "2026-04-24",
 					"recovery": "duchamp_in_global-ota_full-OS3.0.5.0.WNLINXM-user-16.0-e526100bb5.zip",
-					"fastboot": ""
+					"fastboot": "duchamp_in_global_images_OS3.0.5.0.WNLINXM_20260415.0000.00_16.0_in_500d77a687.tgz"
 				},
 				"OS3.0.3.0.WNLINXM": {
 					"os": "OS3.0.3.0.WNLINXM",
@@ -1405,6 +1405,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.3.0.WNLIDXM": {
+					"os": "OS3.0.3.0.WNLIDXM",
+					"android": "16.0",
+					"release": "2026-05-13",
+					"recovery": "duchamp_id_global-ota_full-OS3.0.3.0.WNLIDXM-user-16.0-2ed5ebc274.zip",
+					"fastboot": ""
+				},
 				"OS2.0.209.0.VNLIDXM": {
 					"os": "OS2.0.209.0.VNLIDXM",
 					"android": "15.0",

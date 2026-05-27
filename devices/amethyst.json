@@ -1218,7 +1218,7 @@
 				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
 				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
 			},
-			"branchCode": "amethyst_lm_cr_global",
+			"branchCode": "amethyst_mx_at",
 			"brand": "Redmi",
 			"device": {
 				"zh": "Redmi Note 14 Pro+",
@@ -1280,6 +1280,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.WOPLMCR": {
+					"os": "OS3.0.2.0.WOPLMCR",
+					"android": "16.0",
+					"release": "2026-05-26",
+					"recovery": "amethyst_lm_cr_global-ota_full-OS3.0.2.0.WOPLMCR-user-16.0-f762687558.zip",
+					"fastboot": ""
+				},
 				"OS2.0.202.0.VOPLMCR": {
 					"os": "OS2.0.202.0.VOPLMCR",
 					"android": "15.0",

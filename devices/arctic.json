@@ -284,6 +284,51 @@
 					"fastboot": "arctic_id_global-images-OS3.0.1.0.WBVIDXM-user-20260123.0000.00-16.0-id-0844ea7b26.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "arctic_lm_cr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI A7 Pro",
+				"en": "REDMI A7 Pro"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WBVLMCR": {
+					"os": "OS3.0.2.0.WBVLMCR",
+					"android": "16.0",
+					"release": "2026-05-26",
+					"recovery": "arctic_lm_cr_global-ota_full-OS3.0.2.0.WBVLMCR-user-16.0-55c0f36bad.zip",
+					"fastboot": ""
+				},
+				"OS3.0.1.0.WBVLMCR": {
+					"os": "OS3.0.1.0.WBVLMCR",
+					"android": "16.0",
+					"release": "2026-05-26",
+					"recovery": "arctic_lm_cr_global-ota_full-OS3.0.1.0.WBVLMCR-user-16.0-33731f1dd3.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
