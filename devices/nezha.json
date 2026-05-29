@@ -353,6 +353,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WPAMIXM": {
+					"os": "OS3.0.303.0.WPAMIXM",
+					"android": "16.0",
+					"release": "2026-05-25",
+					"recovery": "nezha_global-ota_full-OS3.0.303.0.WPAMIXM-user-16.0-be3c9890fa.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WPAMIXM": {
 					"os": "OS3.0.302.0.WPAMIXM",
 					"android": "16.0",
@@ -424,7 +431,7 @@
 					"android": "16.0",
 					"release": "2026-05-17",
 					"recovery": "nezha_dc_global-ota_full-OS3.0.303.0.WPAMIDC-user-16.0-57fb2943ff.zip",
-					"fastboot": ""
+					"fastboot": "nezha_dc_global_images_OS3.0.303.0.WPAMIDC_20260508.0000.00_16.0_global_dc_76eb9c1664.tgz"
 				},
 				"OS3.0.302.0.WPAMIDC": {
 					"os": "OS3.0.302.0.WPAMIDC",
@@ -471,6 +478,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WPAEUXM": {
+					"os": "OS3.0.303.0.WPAEUXM",
+					"android": "16.0",
+					"release": "2026-05-25",
+					"recovery": "nezha_eea_global-ota_full-OS3.0.303.0.WPAEUXM-user-16.0-9f75c0f23d.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WPAEUXM": {
 					"os": "OS3.0.302.0.WPAEUXM",
 					"android": "16.0",
@@ -594,7 +608,7 @@
 					"android": "16.0",
 					"release": "2026-05-17",
 					"recovery": "nezha_ru_global-ota_full-OS3.0.303.0.WPARUXM-user-16.0-c62ed890e9.zip",
-					"fastboot": ""
+					"fastboot": "nezha_ru_global_images_OS3.0.303.0.WPARUXM_20260508.0000.00_16.0_ru_a9f27522a9.tgz"
 				},
 				"OS3.0.302.0.WPARUXM": {
 					"os": "OS3.0.302.0.WPARUXM",
@@ -691,7 +705,7 @@
 					"android": "16.0",
 					"release": "2026-05-17",
 					"recovery": "nezha_id_global-ota_full-OS3.0.303.0.WPAIDXM-user-16.0-0e6398c980.zip",
-					"fastboot": ""
+					"fastboot": "nezha_id_global_images_OS3.0.303.0.WPAIDXM_20260508.0000.00_16.0_id_f572c76a33.tgz"
 				},
 				"OS3.0.302.0.WPAIDXM": {
 					"os": "OS3.0.302.0.WPAIDXM",
@@ -750,7 +764,7 @@
 					"android": "16.0",
 					"release": "2026-05-17",
 					"recovery": "nezha_tr_global-ota_full-OS3.0.303.0.WPATRXM-user-16.0-238fb39551.zip",
-					"fastboot": ""
+					"fastboot": "nezha_tr_global_images_OS3.0.303.0.WPATRXM_20260508.0000.00_16.0_tr_1241f3e33a.tgz"
 				},
 				"OS3.0.4.0.WPATRXM": {
 					"os": "OS3.0.4.0.WPATRXM",
