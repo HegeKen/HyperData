@@ -166,8 +166,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['suiren', 'chagall','warhol', 'zephyr', 'coral']
-currentStable = ['byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'chagall','warhol', 'coral', 'arctic', 'dew', 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
+unreleased = ['suiren', 'zephyr', 'coral']
+currentStable = ['chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew', 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou',  'spring', 'lapis', 'kunzite',
 								 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
@@ -195,7 +195,7 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
-				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian', 'xuanyuan', 'dijun', 'goya', 'klimt', 'pudding', 'pandora', 'byron', 'popsicle', 'nezha',
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian', 'xuanyuan', 'dijun', 'goya', 'klimt', 'pudding', 'pandora', 'byron', 'popsicle', 'nezha', 'chagall','warhol',
 				 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
 				 'liuqin', 'yudi', 'sheng', 'uke', 'muyu', 'jinghu', 'violin', 'piano', 'yupei', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming', 'konghou',
@@ -205,7 +205,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin', 'onyx', 'klee', 'dash', 'alioth',
 				 'charoite', 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali', 'annibale', 'prague', 'myron',
-				 'yunluo', 'xun', 'guitar', 'flare', 'spark', 'koto', 'taiko', 'flute', 'organ', 'dizi', 'ruan', 'turner', 'yili', 'warm', 'serenity', 'somalia', 'evergreen', 'rock', 'moonstone']
+				 'yunluo', 'xun', 'erhu', 'guitar', 'flare', 'spark', 'koto', 'taiko', 'flute', 'organ', 'dizi', 'ruan', 'turner', 'yili', 'warm', 'serenity', 'somalia', 'evergreen', 'rock', 'moonstone']
 
 branches = [
 	{
@@ -665,6 +665,27 @@ flags = {
 	"dew_id_global": "dew",
 	"dew_tr_global": "dew",
 	"spring": "spring",
+	"erhu": "erhu",
+	"erhu_tw_global": "erhu",
+	"erhu_global": "erhu",
+	"erhu_ru_global": "erhu",
+	"erhu_id_global": "erhu",
+	"chagall_tw_global": "chagall",
+	"chagall_global": "chagall",
+	"chagall_dc_global": "chagall",
+	"chagall_eea_global": "chagall",
+	"chagall_ru_global": "chagall",
+	"chagall_id_global": "chagall",
+	"chagall_tr_global": "chagall",
+	"chagall_in_global": "chagall",
+	"chagall_lm_cr_global": "chagall",
+	"warhol_tw_global": "warhol",
+	"warhol_global": "warhol",
+	"warhol_dc_global": "warhol",
+	"warhol_eea_global": "warhol",
+	"warhol_id_global": "warhol",
+	"warhol_jp_global": "warhol",
+	"warhol_lm_cr_global": "warhol",
 	"arctic_lm_cr_global": "arctic",
 	"guitar_tw_global": "guitar",
 	"guitar_eea_global": "guitar",
@@ -3532,7 +3553,9 @@ def entryChecker(data,device):
 				roms = branch['roms']
 				bname = branch['name']['zh']
 				menu_items = branch['table']
-				if len(branch['table']) != len(branch['roms'][next(iter(branch['roms']))]):
+				if len(branch['roms']) == 0:
+					i = 0
+				elif len(branch['table']) != len(branch['roms'][next(iter(branch['roms']))]) :
 					print(device, bname,next(iter(branch['roms'])), "菜单项与ROM实际不符")
 					check.append(1)
 				else:

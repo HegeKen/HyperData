@@ -50,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.306.0.WPPCNXM": {
+					"os": "OS3.0.306.0.WPPCNXM",
+					"android": "16.0",
+					"release": "2026-05-26",
+					"recovery": "lapis-ota_full-OS3.0.306.0.WPPCNXM-user-16.0-5b9943a359.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS3.0.302.0.WPPCNXM": {
 					"os": "OS3.0.302.0.WPPCNXM",
 					"android": "16.0",
@@ -271,6 +279,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.305.0.WPPMIXM": {
+					"os": "OS3.0.305.0.WPPMIXM",
+					"android": "16.0",
+					"release": "2026-05-26",
+					"recovery": "lapis_global-ota_full-OS3.0.305.0.WPPMIXM-user-16.0-47b581fa19.zip",
+					"fastboot": ""
+				},
 				"OS3.0.304.0.WPPMIXM": {
 					"os": "OS3.0.304.0.WPPMIXM",
 					"android": "16.0",
@@ -540,7 +555,7 @@
 					"android": "16.0",
 					"release": "2026-05-19",
 					"recovery": "lapis_in_global-ota_full-OS3.0.301.0.WPPINXM-user-16.0-b1396c960b.zip",
-					"fastboot": ""
+					"fastboot": "lapis_in_global_images_OS3.0.301.0.WPPINXM_20260509.0000.00_16.0_in_e85dcfce2a.tgz"
 				},
 				"OS3.0.2.0.WPPINXM": {
 					"os": "OS3.0.2.0.WPPINXM",

@@ -4,7 +4,7 @@
     "zh": "Xiaomi 17T Pro",
     "en": "Xiaomi 17T Pro"
   },
-  "code": "",
+  "code": "PS",
   "suppports": [
     "OS3.0"
   ],
@@ -17,44 +17,387 @@
   "branches": [
     {
       "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
+        "zh": "小米澎湃 OS 中国台湾省正式版",
+        "en": "Xiaomi HyperOS China Taiwan Province Stable"
       },
-      "branchCode": "warhol",
+      "branchCode": "warhol_tw_global",
       "brand": "Xiaomi",
       "device": {
         "zh": "Xiaomi 17T Pro",
         "en": "Xiaomi 17T Pro"
       },
-      "idtag": "CnOO",
-      "tag": "CNXM",
+      "idtag": "CNTP",
+      "tag": "TWXM",
       "branchtag": "F",
       "table": [
         "os",
         "android",
         "release",
         "recovery",
-        "fastboot",
-        "ctelecom"
+        "fastboot"
       ],
       "show": "1",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        ""
       ],
-      "region": "cn",
-      "zone": "1",
+      "region": "tw",
+      "zone": "2",
       "ep": "0",
       "roms": {
-        "": {
-          "os": "",
-          "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
+        "OS3.0.303.0.WPSTWXM": {
+          "os": "OS3.0.303.0.WPSTWXM",
+          "android": "16.0",
+          "release": "2026-05-28",
+          "recovery": "warhol_tw_global-ota_full-OS3.0.303.0.WPSTWXM-user-16.0-aaaace1dcd.zip",
+          "fastboot": "warhol_tw_global_images_OS3.0.303.0.WPSTWXM_20260525.0000.00_16.0_tw_018ac2a60e.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
+      },
+      "branchCode": "warhol_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "GBOO",
+      "tag": "MIXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {}
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际版 Demo",
+        "en": "Xiaomi HyperOS Global Demo"
+      },
+      "branchCode": "warhol_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "GBOO",
+      "tag": "MIDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.302.0.WPSMIDM": {
+          "os": "OS3.0.302.0.WPSMIDM",
+          "android": "16.0",
+          "release": "2026-05-28",
+          "recovery": "warhol_global-ota_full-OS3.0.302.0.WPSMIDM-user-16.0-1fa331df2a.zip",
+          "fastboot": "warhol_global_images_OS3.0.302.0.WPSMIDM_20260521.0000.00_16.0_global_a613af4de1.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 国际 DC 正式版",
+        "en": "Xiaomi HyperOS Global DC Stable"
+      },
+      "branchCode": "warhol_dc_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "GBDC",
+      "tag": "MIDC",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        "dc"
+      ],
+      "region": "global",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.304.0.WPSMIDC": {
+          "os": "OS3.0.304.0.WPSMIDC",
+          "android": "16.0",
+          "release": "2026-05-28",
+          "recovery": "warhol_dc_global-ota_full-OS3.0.304.0.WPSMIDC-user-16.0-28960bc53e.zip",
+          "fastboot": "warhol_dc_global_images_OS3.0.304.0.WPSMIDC_20260515.0000.00_16.0_global_dc_84cf9922cc.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA正式版",
+        "en": "Xiaomi HyperOS Europe EEA Stable"
+      },
+      "branchCode": "warhol_eea_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "EEAO",
+      "tag": "EUXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {}
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 欧洲EEA Demo",
+        "en": "Xiaomi HyperOS Europe EEA Demo"
+      },
+      "branchCode": "warhol_eea_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "EEAD",
+      "tag": "EUDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        ""
+      ],
+      "region": "eea",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.303.0.WPSEUDM": {
+          "os": "OS3.0.303.0.WPSEUDM",
+          "android": "16.0",
+          "release": "2026-05-28",
+          "recovery": "warhol_eea_global-ota_full-OS3.0.303.0.WPSEUDM-user-16.0-533731e5f6.zip",
+          "fastboot": "warhol_eea_global_images_OS3.0.303.0.WPSEUDM_20260521.0000.00_16.0_eea_da9ee4b692.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚正式版",
+        "en": "Xiaomi HyperOS Indonesia Stable"
+      },
+      "branchCode": "warhol_id_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "IDSO",
+      "tag": "IDXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {}
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 印度尼西亚 Demo",
+        "en": "Xiaomi HyperOS Indonesia MiStore Demo"
+      },
+      "branchCode": "warhol_id_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "IDDM",
+      "tag": "IDDM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "0",
+      "carrier": [
+        ""
+      ],
+      "region": "id",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.301.0.WPSIDDM": {
+          "os": "OS3.0.301.0.WPSIDDM",
+          "android": "16.0",
+          "release": "2026-05-28",
+          "recovery": "warhol_id_global-ota_full-OS3.0.301.0.WPSIDDM-user-16.0-d845894a07.zip",
+          "fastboot": "warhol_id_global_images_OS3.0.301.0.WPSIDDM_20260401.0000.00_16.0_id_751add1134.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 土耳其正式版",
+        "en": "Xiaomi HyperOS Turkey Stable"
+      },
+      "branchCode": "warhol_tr_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "TRSO",
+      "tag": "TRXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "tr",
+      "zone": "2",
+      "ep": "0",
+      "roms": {}
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 日本正式版",
+        "en": "Xiaomi HyperOS Japan Stable"
+      },
+      "branchCode": "warhol_jp_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "JAPS",
+      "tag": "JPXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        ""
+      ],
+      "region": "jp",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.303.0.WPSJPXM": {
+          "os": "OS3.0.303.0.WPSJPXM",
+          "android": "16.0",
+          "release": "2026-05-28",
+          "recovery": "warhol_jp_global-ota_full-OS3.0.303.0.WPSJPXM-user-16.0-29c031b740.zip",
+          "fastboot": "warhol_jp_global_images_OS3.0.303.0.WPSJPXM_20260518.0000.00_16.0_jp_94feedbe69.tgz"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+      },
+      "branchCode": "warhol_lm_cr_global",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "Xiaomi 17T Pro",
+        "en": "Xiaomi 17T Pro"
+      },
+      "idtag": "LMCR",
+      "tag": "LMCR",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot"
+      ],
+      "show": "1",
+      "carrier": [
+        "cr"
+      ],
+      "region": "lm",
+      "zone": "2",
+      "ep": "0",
+      "roms": {
+        "OS3.0.302.0.WPSLMCR": {
+          "os": "OS3.0.302.0.WPSLMCR",
+          "android": "16.0",
+          "release": "2026-05-28",
+          "recovery": "warhol_lm_cr_global-ota_full-OS3.0.302.0.WPSLMCR-user-16.0-0b80037016.zip",
+          "fastboot": "warhol_lm_cr_global_images_OS3.0.302.0.WPSLMCR_20260415.0000.00_16.0_lm_cr_398fc83105.tgz"
         }
       }
     }

@@ -1,0 +1,309 @@
+{
+	"device": "erhu",
+	"name": {
+		"zh": "REDMI Pad 2 SE 4G",
+		"en": "REDMI Pad 2 SE 4G"
+	},
+	"code": "DO",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "tablet",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "erhu",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Pad 2 SE 4G",
+				"en": "REDMI Pad 2 SE 4G"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WDOCNXM": {
+					"os": "OS3.0.301.0.WDOCNXM",
+					"android": "16.0",
+					"release": "2026-05-20",
+					"recovery": "erhu-ota_full-OS3.0.301.0.WDOCNXM-user-16.0-4c52336c05.zip",
+					"fastboot": "erhu_images_OS3.0.301.0.WDOCNXM_20260409.0000.00_16.0_cn_78c8a478c6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "erhu_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Pad 2 SE 4G",
+				"en": "REDMI Pad 2 SE 4G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WDOTWXM": {
+					"os": "OS3.0.301.0.WDOTWXM",
+					"android": "16.0",
+					"release": "2026-04-28",
+					"recovery": "erhu_tw_global-ota_full-OS3.0.301.0.WDOTWXM-user-16.0-d83b2285ec.zip",
+					"fastboot": "erhu_tw_global_images_OS3.0.301.0.WDOTWXM_20260422.0000.00_16.0_tw_9678dcb0fd.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "erhu_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Pad 2 SE 4G",
+				"en": "REDMI Pad 2 SE 4G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WDOMIXM": {
+					"os": "OS3.0.303.0.WDOMIXM",
+					"android": "16.0",
+					"release": "2026-05-18",
+					"recovery": "erhu_global-ota_full-OS3.0.303.0.WDOMIXM-user-16.0-937e4edbe5.zip",
+					"fastboot": "erhu_global_images_OS3.0.303.0.WDOMIXM_20260509.0000.00_16.0_global_757782fd7d.tgz"
+				},
+				"OS3.0.302.0.WDOMIXM": {
+					"os": "OS3.0.302.0.WDOMIXM",
+					"android": "16.0",
+					"release": "2026-05-08",
+					"recovery": "erhu_global-ota_full-OS3.0.302.0.WDOMIXM-user-16.0-5ea202f81d.zip",
+					"fastboot": "erhu_global_images_OS3.0.302.0.WDOMIXM_20260409.0000.00_16.0_global_a20c1c0ffa.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "erhu_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Pad 2 SE 4G",
+				"en": "REDMI Pad 2 SE 4G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA Demo",
+				"en": "Xiaomi HyperOS Europe EEA Demo"
+			},
+			"branchCode": "erhu_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Pad 2 SE 4G",
+				"en": "REDMI Pad 2 SE 4G"
+			},
+			"idtag": "EEAD",
+			"tag": "EUDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "erhu_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Pad 2 SE 4G",
+				"en": "REDMI Pad 2 SE 4G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WDORUXM": {
+					"os": "OS3.0.302.0.WDORUXM",
+					"android": "16.0",
+					"release": "2026-05-08",
+					"recovery": "erhu_ru_global-ota_full-OS3.0.302.0.WDORUXM-user-16.0-bb3e36a7ca.zip",
+					"fastboot": "erhu_ru_global_images_OS3.0.302.0.WDORUXM_20260422.0000.00_16.0_ru_316a48f8ea.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "erhu_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Pad 2 SE 4G",
+				"en": "REDMI Pad 2 SE 4G"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WDOIDXM": {
+					"os": "OS3.0.301.0.WDOIDXM",
+					"android": "16.0",
+					"release": "2026-04-28",
+					"recovery": "erhu_id_global-ota_full-OS3.0.301.0.WDOIDXM-user-16.0-73748f253e.zip",
+					"fastboot": "erhu_id_global_images_OS3.0.301.0.WDOIDXM_20260417.0000.00_16.0_id_785ca36753.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "erhu_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Pad 2 SE 4G",
+				"en": "REDMI Pad 2 SE 4G"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {}
+		}
+	]
+}

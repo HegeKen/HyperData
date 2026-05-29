@@ -1,62 +1,361 @@
 {
-  "device": "chagall",
-  "name": {
-    "zh": "Xiaomi 17T",
-    "en": "Xiaomi 17T"
-  },
-  "code": "",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "chagall",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "Xiaomi 17T",
-        "en": "Xiaomi 17T"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    }
-  ]
+	"device": "chagall",
+	"name": {
+		"zh": "Xiaomi 17T",
+		"en": "Xiaomi 17T"
+	},
+	"code": "PT",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "chagall_tw_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.306.0.WPTTWXM": {
+					"os": "OS3.0.306.0.WPTTWXM",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_tw_global-ota_full-OS3.0.306.0.WPTTWXM-user-16.0-2c2a4f264b.zip",
+					"fastboot": "chagall_tw_global_images_OS3.0.306.0.WPTTWXM_20260525.0000.00_16.0_tw_7521c9eac0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "chagall_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WPTMIXM": {
+					"os": "OS3.0.303.0.WPTMIXM",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_global-ota_full-OS3.0.303.0.WPTMIXM-user-16.0-4bc308875a.zip",
+					"fastboot": "chagall_global_images_OS3.0.303.0.WPTMIXM_20260516.0000.00_16.0_global_836f8af366.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "chagall_dc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WPTMIDC": {
+					"os": "OS3.0.304.0.WPTMIDC",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_dc_global-ota_full-OS3.0.304.0.WPTMIDC-user-16.0-406c9fe151.zip",
+					"fastboot": "chagall_dc_global_images_OS3.0.304.0.WPTMIDC_20260513.0000.00_16.0_global_dc_708adcbac0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "chagall_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.311.0.WPTEUXM": {
+					"os": "OS3.0.311.0.WPTEUXM",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_eea_global-ota_full-OS3.0.311.0.WPTEUXM-user-16.0-519bbc88fc.zip",
+					"fastboot": "chagall_eea_global_images_OS3.0.311.0.WPTEUXM_20260513.0000.00_16.0_eea_7d565e7dce.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "chagall_ru_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPTRUXM": {
+					"os": "OS3.0.302.0.WPTRUXM",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_ru_global-ota_full-OS3.0.302.0.WPTRUXM-user-16.0-a3bde2c46d.zip",
+					"fastboot": "chagall_ru_global_images_OS3.0.302.0.WPTRUXM_20260520.0000.00_16.0_ru_a3fba4a7e0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "chagall_in_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPTINXM": {
+					"os": "OS3.0.301.0.WPTINXM",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_in_global-ota_full-OS3.0.301.0.WPTINXM-user-16.0-e0daef5008.zip",
+					"fastboot": "chagall_in_global_images_OS3.0.301.0.WPTINXM_20260424.0000.00_16.0_in_57201d52e5.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "chagall_id_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPTIDXM": {
+					"os": "OS3.0.302.0.WPTIDXM",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_id_global-ota_full-OS3.0.302.0.WPTIDXM-user-16.0-ae7111f089.zip",
+					"fastboot": "chagall_id_global_images_OS3.0.302.0.WPTIDXM_20260520.0000.00_16.0_id_6813517325.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "chagall_tr_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPTTRXM": {
+					"os": "OS3.0.301.0.WPTTRXM",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_tr_global-ota_full-OS3.0.301.0.WPTTRXM-user-16.0-32502540b2.zip",
+					"fastboot": "chagall_tr_global_images_OS3.0.301.0.WPTTRXM_20260401.0000.00_16.0_tr_c52f455443.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "chagall_lm_cr_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPTLMCR": {
+					"os": "OS3.0.302.0.WPTLMCR",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "chagall_lm_cr_global-ota_full-OS3.0.302.0.WPTLMCR-user-16.0-8b6baef70a.zip",
+					"fastboot": "chagall_lm_cr_global_images_OS3.0.302.0.WPTLMCR_20260416.0000.00_16.0_lm_cr_77a2bc30b6.tgz"
+				}
+			}
+		}
+	]
 }

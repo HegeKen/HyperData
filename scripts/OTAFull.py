@@ -14,10 +14,18 @@ for device in OScommon.currentStable:
       region = devdata["branches"][num]["region"]
       zone = devdata["branches"][num]["zone"]
       branch = devdata["branches"][num]["branchtag"]
-      current = devdata['branches'][num]["roms"][list(devdata['branches'][num]["roms"].keys())[0]]
-      android = current['android']
-      version = current['os']
-      release = current['release']
+      # 修复：检查 roms 字典是否为空，避免 IndexError
+      rom_keys = list(devdata['branches'][num]["roms"].keys())
+      if rom_keys:  # 如果 roms 字典不为空
+        current = devdata['branches'][num]["roms"][rom_keys[0]]
+        android = current['android']
+        version = current['os']
+        release = current['release']
+      else:  # 如果 roms 字典为空，则设置默认值
+        android = ""
+        version = ""
+        release = ""
+      
       if android == "" and version == "" and release == "":
         i = 0
       else:
