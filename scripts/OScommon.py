@@ -476,6 +476,7 @@ flags = {
 	"charoite_dc_global": "charoite",
 	"kunzite_in_global": "kunzite",
 	"flourite_eea_global": "flourite",
+	"warhol_ru_global": "warhol",
 	"klee": "klee",
 	"dash": "dash",
 	"klee_demo": "klee",
