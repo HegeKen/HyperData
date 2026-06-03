@@ -351,7 +351,7 @@
 				"recovery",
 				"fastboot"
 			],
-			"show": "1",
+			"show": "0",
 			"carrier": [
 				""
 			],
@@ -426,7 +426,15 @@
 			"region": "tr",
 			"zone": "2",
 			"ep": "0",
-			"roms": {}
+			"roms": {
+				"OS3.0.302.0.WPSTRXM": {
+					"os": "OS3.0.302.0.WPSTRXM",
+					"android": "16.0",
+					"release": "2026-06-03",
+					"recovery": "warhol_tr_global-ota_full-OS3.0.302.0.WPSTRXM-user-16.0-8c5d2eff43.zip",
+					"fastboot": "warhol_tr_global_images_OS3.0.302.0.WPSTRXM_20260520.0000.00_16.0_tr_54af58ea26.tgz"
+				}
+			}
 		},
 		{
 			"name": {
