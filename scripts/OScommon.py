@@ -1,6 +1,5 @@
 import json
 from sys import platform
-import urllib
 import base64
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
@@ -10,6 +9,9 @@ from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, date, timezone
 from requests.adapters import HTTPAdapter
+import struct
+import urllib
+import urllib.parse
 from urllib3.util.retry import Retry
 from urllib.parse import quote
 from pymysql import Connection
@@ -3329,8 +3331,14 @@ def versionAdd(version,add):
 
 def miui_decrypt(encrypted_response):
 	decipher = AES.new(miui_key, AES.MODE_CBC, miui_iv)
+	# 先进行URL解码（因为加密时进行了URL编码）
+	encrypted_response = urllib.parse.unquote(encrypted_response)
 	decrypted = decipher.decrypt(base64.b64decode(encrypted_response))
 	plaintext = decrypted.decode("utf-8").strip()
+	# 移除PKCS7填充
+	padding_len = ord(plaintext[-1]) if plaintext else 0
+	if padding_len > 0 and padding_len <= 16:
+		plaintext = plaintext[:-padding_len]
 	pos = plaintext.rfind("}")
 	if pos != -1:
 		return json.loads(plaintext[:pos + 1])
@@ -3700,3 +3708,409 @@ def strip_log(data):
 		else:
 			result[key] = value
 	return result
+
+def extract_build_date_from_filename(filename):
+	"""从ROM包文件名中提取ROM打包日期（注意：这不是安全补丁日期）
+	
+	Args:
+		filename: ROM包文件名
+		
+	Returns:
+		打包日期字符串 (YYYY-MM-DD 格式)，如果无法提取则返回None
+	"""
+	# 线刷包格式1: CODE-images-VERSION-TYPE-DATE-ANDROID-REGION-HASH.tgz
+	# 例: arctic_eea_global-images-OS3.0.6.0.WBVEUXM-user-20260409.0000.00-16.0-eea-8581295ba6.tgz
+	pattern1 = r'-(\d{8}\.\d{6})-'
+	match = re.search(pattern1, filename)
+	if match:
+		date_str = match.group(1)[:8]  # 提取 YYYYMMDD 部分
+		try:
+			date_obj = datetime.strptime(date_str, '%Y%m%d')
+			return date_obj.strftime('%Y-%m-%d')
+		except ValueError:
+			pass
+	
+	# 线刷包格式2: CODE_images_VERSION_DATE_ANDROID_REGION_HASH.tgz
+	# 例: taiko_images_OS3.0.303.0.WOVCNXM_20260416.0000.00_16.0_cn_251b6f1689.tgz
+	pattern2 = r'_(\d{8}\.\d{6})_'
+	match = re.search(pattern2, filename)
+	if match:
+		date_str = match.group(1)[:8]  # 提取 YYYYMMDD 部分
+		try:
+			date_obj = datetime.strptime(date_str, '%Y%m%d')
+			return date_obj.strftime('%Y-%m-%d')
+		except ValueError:
+			pass
+	
+	# 线刷包格式3: CODE_images_VERSION_DATE_ANDROID_REGION_CARRIER_HASH.tgz (运营商定制版)
+	pattern3 = r'_(\d{8})\.(\d{2})(\d{2})(\d{2})_'
+	match = re.search(pattern3, filename)
+	if match:
+		date_str = match.group(1)
+		try:
+			date_obj = datetime.strptime(date_str, '%Y%m%d')
+			return date_obj.strftime('%Y-%m-%d')
+		except ValueError:
+			pass
+	
+	# 检测单独的日期字符串 (YYYYMMDD 格式)
+	pattern4 = r'(\d{8})'
+	match = re.search(pattern4, filename)
+	if match:
+		date_str = match.group(1)
+		# 验证是否是合理的日期范围 (2010-2030)
+		if 20100101 <= int(date_str) <= 20301231:
+			try:
+				date_obj = datetime.strptime(date_str, '%Y%m%d')
+				return date_obj.strftime('%Y-%m-%d')
+			except ValueError:
+				pass
+	
+	return None
+
+METADATA_PATH = "META-INF/com/android/metadata"
+METADATA_PB_PATH = "META-INF/com/android/metadata.pb"
+END_BYTES_SIZE = 4096
+LOCAL_HEADER_SIZE = 256
+TIMEOUT_MS = 20000
+
+# ZIP 签名常量
+CENSIG = 0x02014b50  # "PK\001\002" - Central directory file header signature
+LOCSIG = 0x04034b50  # "PK\003\004" - Local file header signature
+ENDSIG = 0x06054b50  # "PK\005\006" - End of central directory record signature
+ENDHDR = 22          # Minimum size of end of central directory record
+ZIP64_ENDSIG = 0x06064b50  # "PK\006\006" - Zip64 end of central directory record signature
+ZIP64_LOCSIG = 0x07064b50  # "PK\006\007" - Zip64 end of central directory locator signature
+ZIP64_LOCHDR = 20    # Size of Zip64 end of central directory locator
+ZIP64_MAGICVAL = 0xFFFFFFFF  # Marker for Zip64 fields
+
+
+class CdEntry:
+    """ZIP 中央目录条目"""
+    def __init__(self, file_name, local_header_offset, compressed_size, uncompressed_size, method):
+        self.file_name = file_name
+        self.local_header_offset = local_header_offset
+        self.compressed_size = compressed_size
+        self.uncompressed_size = uncompressed_size
+        self.method = method  # 0 = 未压缩, 8 = DEFLATE
+
+
+def read_int_le(data, offset):
+    """从字节数组中读取小端序整数"""
+    return struct.unpack('<I', data[offset:offset+4])[0]
+
+
+def read_short_le(data, offset):
+    """从字节数组中读取小端序短整数"""
+    return struct.unpack('<H', data[offset:offset+2])[0]
+
+
+def read_long_le(data, offset):
+    """从字节数组中读取小端序长整数"""
+    return struct.unpack('<Q', data[offset:offset+8])[0]
+
+
+def locate_central_directory(bytes_data, file_length):
+    """定位 ZIP 中央目录的位置和大小"""
+    search_start_pos = len(bytes_data) - ENDHDR
+    cen_size = -1
+    cen_offset = -1
+
+    for current_scan_pos in range(search_start_pos, -1, -1):
+        if current_scan_pos + 4 > len(bytes_data):
+            continue
+        
+        signature = read_int_le(bytes_data, current_scan_pos)
+        if signature == ENDSIG:
+            cen_dir_offset_field_pos = current_scan_pos + 16
+            cen_dir_size_field_pos = current_scan_pos + 12
+
+            offset_of_central_dir = read_int_le(bytes_data, cen_dir_offset_field_pos) & 0xFFFFFFFF
+            size_of_central_dir = read_int_le(bytes_data, cen_dir_size_field_pos) & 0xFFFFFFFF
+
+            if offset_of_central_dir == ZIP64_MAGICVAL or size_of_central_dir == ZIP64_MAGICVAL:
+                # 需要处理 ZIP64 格式
+                zip64_locator_pos = current_scan_pos - ZIP64_LOCHDR
+                if zip64_locator_pos >= 0 and zip64_locator_pos + 4 <= len(bytes_data):
+                    if read_int_le(bytes_data, zip64_locator_pos) == ZIP64_LOCSIG:
+                        zip64_eocd_record_offset_in_file = read_long_le(bytes_data, zip64_locator_pos + 8)
+                        zip64_eocd_record_offset_in_buffer = len(bytes_data) - int(file_length - zip64_eocd_record_offset_in_file)
+                        
+                        if (zip64_eocd_record_offset_in_buffer >= 0 and
+                            zip64_eocd_record_offset_in_buffer + 56 <= len(bytes_data) and
+                            read_int_le(bytes_data, zip64_eocd_record_offset_in_buffer) == ZIP64_ENDSIG):
+                            
+                            cen_size = read_long_le(bytes_data, zip64_eocd_record_offset_in_buffer + 40)
+                            cen_offset = read_long_le(bytes_data, zip64_eocd_record_offset_in_buffer + 48)
+                            break
+            else:
+                cen_size = size_of_central_dir
+                cen_offset = offset_of_central_dir
+                break
+
+    return cen_offset, cen_size
+
+
+def locate_entries(central_directory_bytes, file_names):
+    """在中央目录中查找指定的文件条目"""
+    results = {}
+    pos = 0
+    bytes_data = central_directory_bytes
+    
+    while pos + 46 <= len(bytes_data):
+        signature = read_int_le(bytes_data, pos)
+        if signature != CENSIG:
+            break
+
+        method = read_short_le(bytes_data, pos + 10) & 0xFFFF
+        compressed_size = read_int_le(bytes_data, pos + 20) & 0xFFFFFFFF
+        uncompressed_size = read_int_le(bytes_data, pos + 24) & 0xFFFFFFFF
+        file_name_length = read_short_le(bytes_data, pos + 28) & 0xFFFF
+        extra_field_length = read_short_le(bytes_data, pos + 30) & 0xFFFF
+        file_comment_length = read_short_le(bytes_data, pos + 32) & 0xFFFF
+        local_header_offset = read_int_le(bytes_data, pos + 42) & 0xFFFFFFFF
+
+        file_name_start_pos = pos + 46
+        if file_name_start_pos + file_name_length > len(bytes_data):
+            break
+
+        current_file_name = bytes_data[file_name_start_pos:file_name_start_pos+file_name_length].decode('utf-8', errors='ignore')
+        
+        if current_file_name in file_names:
+            results[current_file_name] = CdEntry(
+                file_name=current_file_name,
+                local_header_offset=local_header_offset,
+                compressed_size=compressed_size,
+                uncompressed_size=uncompressed_size,
+                method=method
+            )
+            if len(results) == len(file_names):
+                break
+
+        pos = file_name_start_pos + file_name_length + extra_field_length + file_comment_length
+
+    return results
+
+
+def locate_local_file_offset(local_header_bytes):
+    """定位本地文件头中的实际数据偏移"""
+    if len(local_header_bytes) < 4:
+        return -1
+    
+    signature = read_int_le(local_header_bytes, 0)
+    if signature == LOCSIG:
+        file_name_length = read_short_le(local_header_bytes, 26) & 0xFFFF
+        extra_field_length = read_short_le(local_header_bytes, 28) & 0xFFFF
+        return 30 + file_name_length + extra_field_length
+    return -1
+
+
+def read_range(url, start, size, timeout=20):
+    """通过 HTTP Range 请求读取文件的指定字节范围"""
+    if size <= 0 or start < 0:
+        return None
+
+    try:
+        session = requests.Session()
+        retry = Retry(connect=3, backoff_factor=1)
+        adapter = HTTPAdapter(max_retries=retry)
+        session.mount('http://', adapter)
+        session.mount('https://', adapter)
+
+        headers = {'Range': f'bytes={start}-{start + size - 1}'}
+        response = session.get(url, headers=headers, timeout=timeout)
+        
+        if response.status_code not in (200, 206):
+            return None
+        
+        content = response.content
+        if len(content) < size:
+            return None
+        
+        return content[:size] if len(content) > size else content
+        
+    except Exception as e:
+        print(f"读取范围失败: {e}")
+        return None
+
+
+def get_file_length(url, timeout=20):
+    """获取远程文件的大小"""
+    try:
+        session = requests.Session()
+        retry = Retry(connect=3, backoff_factor=1)
+        adapter = HTTPAdapter(max_retries=retry)
+        session.mount('http://', adapter)
+        session.mount('https://', adapter)
+
+        response = session.head(url, headers={'Range': 'bytes=0-0'}, timeout=timeout)
+        
+        if 'Content-Range' in response.headers:
+            content_range = response.headers['Content-Range']
+            parts = content_range.split('/')
+            if len(parts) > 1:
+                file_len = int(parts[1])
+                if file_len > 0:
+                    return file_len
+        
+        if 'Content-Length' in response.headers:
+            file_len = int(response.headers['Content-Length'])
+            if file_len > 0:
+                return file_len
+
+        return None
+        
+    except Exception as e:
+        print(f"获取文件长度失败: {e}")
+        return None
+
+
+def read_entry_bytes(url, entry, file_length, timeout=20):
+    """读取指定条目的数据内容"""
+    header_offset = entry.local_header_offset
+    
+    if header_offset < 0 or header_offset >= file_length:
+        return None
+
+    max_local_header_read = min(file_length - header_offset, LOCAL_HEADER_SIZE)
+    if max_local_header_read < 30:
+        return None
+
+    local_header_bytes = read_range(url, header_offset, int(max_local_header_read), timeout)
+    if local_header_bytes is None:
+        return None
+
+    internal_offset = locate_local_file_offset(local_header_bytes)
+    if internal_offset < 0 or internal_offset > max_local_header_read:
+        return None
+
+    data_offset = header_offset + internal_offset
+    size = entry.uncompressed_size
+    
+    if size < 0 or size > file_length or data_offset + size > file_length:
+        return None
+
+    return read_range(url, data_offset, int(size), timeout)
+
+
+def parse_text_metadata(text):
+    """解析文本格式的 metadata"""
+    result = {
+        'ota_type': 0,
+        'pre': {},
+        'post': {}
+    }
+    meta_map = {}
+    
+    for line in text.split('\n'):
+        trimmed = line.strip()
+        if not trimmed or trimmed.startswith('#'):
+            continue
+        idx = trimmed.find('=')
+        if idx > 0:
+            meta_map[trimmed[:idx]] = trimmed[idx+1:]
+
+    # 解析 OTA 类型
+    ota_type = meta_map.get('ota-type', '').upper()
+    if ota_type == 'AB':
+        result['ota_type'] = 1
+    elif ota_type == 'BLOCK':
+        result['ota_type'] = 2
+    elif ota_type == 'BRICK':
+        result['ota_type'] = 3
+    else:
+        result['ota_type'] = 0
+
+    # 解析 pre 条件
+    has_pre = any(k.startswith('pre-') for k in meta_map.keys())
+    if has_pre:
+        result['pre'] = {
+            'device': meta_map.get('pre-device', '').split(','),
+            'build': meta_map.get('pre-build', '').split(','),
+            'build_incremental': meta_map.get('pre-build-incremental', '')
+        }
+
+    # 解析 post 条件（安全补丁信息）
+    result['post'] = {
+        'device': meta_map.get('post-device', '').split(','),
+        'build': meta_map.get('post-build', '').split(','),
+        'build_incremental': meta_map.get('post-build-incremental', ''),
+        'timestamp': int(meta_map.get('post-timestamp', '0')),
+        'sdk_level': meta_map.get('post-sdk-level', ''),
+        'security_patch_level': meta_map.get('post-security-patch-level', '')
+    }
+
+    return result
+
+
+def extract_ota_metadata(url,filetype, timeout=20):
+		if filetype == 'recovery':
+			try:
+					# 1. 获取文件大小
+					file_length = get_file_length(url, timeout)
+					if file_length is None or file_length <= 0:
+							print("无法获取文件长度")
+							return None
+
+					# 2. 读取文件末尾字节查找中央目录
+					actual_end_size = min(file_length, END_BYTES_SIZE)
+					end_bytes = read_range(url, file_length - actual_end_size, int(actual_end_size), timeout)
+					if end_bytes is None:
+							print("无法读取文件末尾字节")
+							return None
+
+					# 3. 定位中央目录
+					cen_offset, cen_size = locate_central_directory(end_bytes, file_length)
+					if cen_offset < 0 or cen_size <= 0 or cen_offset + cen_size > file_length:
+							print("无法定位中央目录")
+							return None
+
+					# 4. 读取中央目录内容
+					central_directory = read_range(url, cen_offset, int(cen_size), timeout)
+					if central_directory is None:
+							print("无法读取中央目录")
+							return None
+
+					# 5. 在中央目录中查找 metadata 文件
+					entries = locate_entries(central_directory, {METADATA_PB_PATH, METADATA_PATH})
+
+					# 6. 优先尝试读取 protobuf 格式的 metadata
+					if METADATA_PB_PATH in entries:
+							entry = entries[METADATA_PB_PATH]
+							if entry.method == 0:  # 仅处理未压缩的文件
+									pb_bytes = read_entry_bytes(url, entry, file_length, timeout)
+									if pb_bytes is not None:
+											# 这里可以添加 Protobuf 解析逻辑
+											# 由于缺少 protobuf schema，暂时跳过
+											pass
+
+					# 7. 读取文本格式的 metadata
+					if METADATA_PATH in entries:
+							entry = entries[METADATA_PATH]
+							if entry.method == 0:  # 仅处理未压缩的文件
+									text_bytes = read_entry_bytes(url, entry, file_length, timeout)
+									if text_bytes is not None:
+											text = text_bytes.decode('utf-8', errors='ignore')
+											if text:
+													return parse_text_metadata(text)
+
+					print("未找到 metadata 文件")
+					return None
+
+			except Exception as e:
+					print(f"提取 metadata 失败: {e}")
+					return None
+		else:
+			return None
+
+
+def get_security_patch_from_ota_url(url,filetype, timeout=20):
+		if filetype == 'recovery':
+			metadata = extract_ota_metadata(url, timeout)
+			if metadata and metadata.get('post'):
+				asp = metadata['post'].get('security_patch_level')
+				print(asp)
+				return asp
+			return None
+		else:
+			return None
