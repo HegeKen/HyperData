@@ -3071,7 +3071,6 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 			version_parts = version.split(".")
 			if len(version_parts) >= 4:
 				build_number = int(version_parts[3])
-				# 修复：如果修订号 >= 300，也认为是测试版
 				revision_number = int(version_parts[2])
 				
 				if build_number == 0:
@@ -3090,40 +3089,42 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 					target_branch = branch_info
 					match_method = f"idtag:{target_idtag}"
 					break
-	
-	# 如果 idtag 匹配失败，再尝试 code 匹配
-	matching_branches_by_code = []
-	for idx, branch_info in enumerate(devdata.get("branches", [])):
-		if branch_info.get("branchCode") == code:
-			matching_branches_by_code.append((idx, branch_info))
-	
-	# 如果找到多个匹配的分支（branchCode不唯一），则使用版本号中的tag来进一步筛选
-	if len(matching_branches_by_code) > 0:
-		# 从版本号中提取tag，例如从 OS3.0.302.0.WPSIDDM 提取 "IDDM"
-		# 版本号格式通常是 OS主版本.次版本.修订版本.构建号.TAG
-		version_parts = version.split(".")
-		version_tag = None
+
+	# 只有当 idtag 匹配失败时，才尝试 code 匹配
+	if target_branch is None:
+		# 如果 idtag 匹配失败，再尝试 code 匹配
+		matching_branches_by_code = []
+		for idx, branch_info in enumerate(devdata.get("branches", [])):
+			if branch_info.get("branchCode") == code:
+				matching_branches_by_code.append((idx, branch_info))
 		
-		if len(version_parts) >= 5:
-			# 获取第五部分，如 WPSIDDM
-			full_tag = version_parts[4]
-			# 提取最后4位，如 IDDM
-			if len(full_tag) >= 4:
-				version_tag = full_tag[-4:]
-		
-		# 如果提取到了版本标签，尝试精确匹配
-		if version_tag:
-			for idx, branch_info in matching_branches_by_code:
-				if branch_info.get("tag") == version_tag:
-					target_branch_idx = idx
-					target_branch = branch_info
-					match_method = f"code:{code} + tag:{version_tag}"
-					break
-		
-		# 如果通过版本标签没有找到匹配，但只有一个分支，则使用它
-		if target_branch is None and len(matching_branches_by_code) == 1:
-			target_branch_idx, target_branch = matching_branches_by_code[0]
-			match_method = f"code:{code} (only one)"
+		# 如果找到多个匹配的分支（branchCode不唯一），则使用版本号中的tag来进一步筛选
+		if len(matching_branches_by_code) > 0:
+			# 从版本号中提取tag，例如从 OS3.0.302.0.WPSIDDM 提取 "IDDM"
+			# 版本号格式通常是 OS主版本.次版本.修订版本.构建号.TAG
+			version_parts = version.split(".")
+			version_tag = None
+			
+			if len(version_parts) >= 5:
+				# 获取第五部分，如 WPSIDDM
+				full_tag = version_parts[4]
+				# 提取最后4位，如 IDDM
+				if len(full_tag) >= 4:
+					version_tag = full_tag[-4:]
+			
+			# 如果提取到了版本标签，尝试精确匹配
+			if version_tag:
+				for idx, branch_info in matching_branches_by_code:
+					if branch_info.get("tag") == version_tag:
+						target_branch_idx = idx
+						target_branch = branch_info
+						match_method = f"code:{code} + tag:{version_tag}"
+						break
+			
+			# 如果通过版本标签没有找到匹配，但只有一个分支，则使用它
+			if target_branch is None and len(matching_branches_by_code) == 1:
+				target_branch_idx, target_branch = matching_branches_by_code[0]
+				match_method = f"code:{code} (only one)"
 	
 	# 如果仍然没有找到匹配的分支，尝试单独使用tag匹配（针对海外分支）
 	if target_branch is None:

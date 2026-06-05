@@ -7,11 +7,13 @@
 	"code": "MF",
 	"suppports": [
 		"OS1.0",
-		"OS2.0"
+		"OS2.0",
+		"OS3.0"
 	],
 	"android": [
 		"14.0",
-		"15.0"
+		"15.0",
+		"16.0"
 	],
 	"type": "phone",
 	"miui": "yes",
@@ -859,6 +861,13 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.1.0.WMFIDXM": {
+					"os": "OS3.0.1.0.WMFIDXM",
+					"android": "16.0",
+					"release": "2026-05-28",
+					"recovery": "aristotle_id_global-ota_full-OS3.0.1.0.WMFIDXM-user-16.0-c06fa9f8a0.zip",
+					"fastboot": ""
+				},
 				"OS2.0.209.0.VMFIDXM": {
 					"os": "OS2.0.209.0.VMFIDXM",
 					"android": "15.0",
