@@ -17,6 +17,83 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "warhol",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T Pro",
+				"en": "Xiaomi 17T Pro"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "warhol_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T Pro",
+				"en": "Xiaomi 17T Pro"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPSCNDM": {
+					"os": "OS3.0.302.0.WPSCNDM",
+					"android": "16.0",
+					"release": "2026-06-08",
+					"recovery": "warhol_demo-ota_full-OS3.0.302.0.WPSCNDM-user-16.0-82eeb00521.zip",
+					"fastboot": "warhol_demo_images_OS3.0.302.0.WPSCNDM_20260604.0000.00_16.0_cn_cc83983882.tgz",
+					"ctelecom": "warhol_demo_images_OS3.0.302.0.WPSCNDM_20260604.0000.00_16.0_cn_chinatelecom_71ce0e4a08.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},

@@ -17,6 +17,92 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "chagall",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WPTCNXM": {
+					"os": "OS3.0.304.0.WPTCNXM",
+					"android": "16.0",
+					"release": "2026-06-08",
+					"recovery": "chagall-ota_full-OS3.0.304.0.WPTCNXM-user-16.0-e0d8aa50c2.zip",
+					"fastboot": "chagall_images_OS3.0.304.0.WPTCNXM_20260603.0000.00_16.0_cn_e2b944a61b.tgz",
+					"ctelecom": "chagall_images_OS3.0.304.0.WPTCNXM_20260603.0000.00_16.0_cn_chinatelecom_9530bfa9c0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "chagall_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T",
+				"en": "Xiaomi 17T"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPTCNDM": {
+					"os": "OS3.0.302.0.WPTCNDM",
+					"android": "16.0",
+					"release": "2026-06-08",
+					"recovery": "chagall_demo-ota_full-OS3.0.302.0.WPTCNDM-user-16.0-fec8c50c14.zip",
+					"fastboot": "chagall_demo_images_OS3.0.302.0.WPTCNDM_20260603.0000.00_16.0_cn_8a7125b4e0.tgz",
+					"ctelecom": "chagall_demo_images_OS3.0.302.0.WPTCNDM_20260603.0000.00_16.0_cn_chinatelecom_b97e044eb6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
