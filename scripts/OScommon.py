@@ -3486,7 +3486,10 @@ def getChangelog(encrypted_data, device):
 	if "code" in response.text:
 		print(json.loads(response.text)["desc"])
 	else:
+		print("Encrypted Request：",encrypted_data)
+		print("Decrypted Response：",response.text.split("q=")[0])
 		data = miui_decrypt(response.text.split("q=")[0])
+		print("Decrypted Data：",data)
 		if "LatestRom" in data:
 			print("最新版本更新日志：")
 			print_log(strip_log(data["LatestRom"]["changelog"]))
@@ -4200,7 +4203,7 @@ def extract_ota_metadata(url,filetype, timeout=20):
 
 def get_security_patch_from_ota_url(url,filetype, timeout=20):
 		if filetype == 'recovery':
-			metadata = extract_ota_metadata(url, timeout)
+			metadata = extract_ota_metadata(url, filetype, timeout)
 			if metadata and metadata.get('post'):
 				asp = metadata['post'].get('security_patch_level')
 				print(asp)
