@@ -1,8 +1,20 @@
 {
   "recent": {
-    "time": "2026-06-11 11:27:31",
+    "time": "2026-06-11 20:36:46",
     "developing": "no",
     "roms": {
+      "fuxi": {
+        "name": {
+          "zh": "小米 13",
+          "en": "Xiaomi 13"
+        },
+        "versions": [
+          {
+            "release_date": "2026-06-08",
+            "version": "OS3.0.301.0.WMCRUXM"
+          }
+        ]
+      },
       "houji": {
         "name": {
           "zh": "小米 14",
@@ -99,12 +111,48 @@
           }
         ]
       },
+      "earth": {
+        "name": {
+          "zh": "Redmi 12C / POCO C55",
+          "en": "Redmi 12C / POCO C55"
+        },
+        "versions": [
+          {
+            "release_date": "2026-06-11",
+            "version": "OS1.0.16.0.UCVMXAT"
+          }
+        ]
+      },
+      "moon": {
+        "name": {
+          "zh": "Redmi 13 国际 / POCO M6 4G",
+          "en": "Redmi 13 / POCO M6 4G"
+        },
+        "versions": [
+          {
+            "release_date": "2026-06-11",
+            "version": "OS3.0.1.0.WNTGTTG"
+          }
+        ]
+      },
       "lake": {
         "name": {
           "zh": "Redmi 14C",
           "en": "Redmi 14C"
         },
         "versions": [
+          {
+            "release_date": "2026-06-11",
+            "version": "OS3.0.2.0.WGTMIDC"
+          },
+          {
+            "release_date": "2026-06-11",
+            "version": "OS3.0.2.0.WGTRUXM"
+          },
+          {
+            "release_date": "2026-06-11",
+            "version": "OS3.0.2.0.WGTTRXM"
+          },
           {
             "release_date": "2026-06-08",
             "version": "OS3.0.1.0.WGTGTTG"
@@ -120,6 +168,18 @@
           {
             "release_date": "2026-06-10",
             "version": "OS2.0.202.0.VNQGTTG"
+          }
+        ]
+      },
+      "kunzite": {
+        "name": {
+          "zh": "REDMI Note 15 5G",
+          "en": "REDMI Note 15 5G"
+        },
+        "versions": [
+          {
+            "release_date": "2026-06-11",
+            "version": "OS3.0.301.0.WPQTWXM"
           }
         ]
       },
@@ -140,6 +200,18 @@
           {
             "release_date": "2026-06-08",
             "version": "OS3.0.301.0.WPPTRXM"
+          }
+        ]
+      },
+      "flourite": {
+        "name": {
+          "zh": "REDMI Note 15 Pro+ 5G",
+          "en": "REDMI Note 15 Pro+ 5G"
+        },
+        "versions": [
+          {
+            "release_date": "2026-06-11",
+            "version": "OS3.0.313.0.WPRCNXM"
           }
         ]
       },
