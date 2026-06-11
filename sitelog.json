@@ -7,21 +7,6 @@
 	],
 	"logs": [
 		{
-			"siteVer": "V0.9.0",
-			"icon": "mdi-checkbox-marked-circle-outline",
-			"date": "2026.06.10",
-			"log": [
-				{
-					"zh": "新增 OTA 详情弹窗：支持多区域 OTA 查询（CN/Global/TW/EEA/ID）、线刷包展示（fastboot/ctelecom/cnmobile/cnunicom）",
-					"en": "New OTA dialog: multi-region OTA query (CN/Global/TW/EEA/ID), fastboot packages display"
-				},
-				{
-					"zh": "修复 OTA 国际区域解密失败问题、优化 ROM 信息展示布局、更新日志支持默认展开",
-					"en": "Fixed INTl OTA decryption failure, optimized ROM info layout, changelog always visible"
-				}
-			]
-		},
-		{
 			"siteVer": "V0.8.7",
 			"icon": "mdi-plus-box",
 			"date": "2026.05.29",
