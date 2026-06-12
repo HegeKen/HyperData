@@ -11,7 +11,8 @@
 	],
 	"android": [
 		"15.0",
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -195,6 +196,49 @@
 					"release": "2025-09-24",
 					"recovery": "klimt_global-ota_full-OS2.0.201.0.VOSMIXM-user-15.0-c6a96f80d3.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版国际版",
+				"en": "Xiaomi HyperOS Android Developer Preview Global"
+			},
+			"branchCode": "klimt_dpp_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15T Pro",
+				"en": "Xiaomi 15T Pro"
+			},
+			"idtag": "ADPG",
+			"tag": "",
+			"url": "https://new.c.mi.com/global/post/1904398",
+			"branchtag": "X",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"originrec",
+				"originfb"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.3.260423.1.XOSMIXM.STABLE-DPP": {
+					"os": "OS3.3.260423.1.XOSMIXM.STABLE-DPP",
+					"android": "17.0",
+					"release": "2026-04-24",
+					"recovery": "klimt_dpp_global-ota_full-OS3.3.260423.1.XOSMIXM.STABLE-DPP-user-17.0-0b7c4286bc.zip",
+					"fastboot": "",
+					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/klimt_dpp_global-ota_full-OS3.3.260423.1.XOSMIXM.STABLE-DPP-user-17.0-0b7c4286bc.zip?GalaxyAccessKeyId=5151729087601&Expires=9223372036854775807&Signature=ft0+On8w+peFcGLaQLj2Zcd9+uA=",
+					"originfb": ""
 				}
 			}
 		},

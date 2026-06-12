@@ -79,6 +79,8 @@ def extract_flag_from_filename(filename):
 	return flag
 
 sdk = {
+	"17.0": "37",
+	"17": "37",
 	"16.0": "36",
 	"16": "36",
 	"15": "35",
@@ -120,6 +122,8 @@ sdk = {
 }
 
 def android(ver):
+	if ver == "17.0":
+		return "X"
 	if ver == "16.0":
 		return "W"
 	if ver == "15.0":
@@ -508,6 +512,11 @@ flags = {
 	"nezha_tr_global": "nezha",
 	"somalia_demo": "somalia",
 	"byron": "byron",
+	"nezha_dpp": "nezha",
+	"pudding_dpp": "pudding",
+	"pudding_dpp_global": "pudding",
+	"nezha_dpp_global": "nezha",
+	"klimt_dpp_global": "klimt",
 	"byron_demo": "byron",
 	"flourite_lm_cr_global": "flourite",
 	"kunzite_global": "kunzite",
@@ -2696,7 +2705,8 @@ def getData(filename):
 		
 		def parse_hyperos_recovery(fname):
 				"""解析 HyperOS 格式卡刷包: CODE-ota_full-VERSION-user-ANDROID-HASH.zip"""
-				# 例: lapis-ota_full-OS3.0.302.0.WPPCNXM-user-16.0-3ee16184b4.zip
+				# 例1: lapis-ota_full-OS3.0.302.0.WPPCNXM-user-16.0-3ee16184b4.zip
+				# 例2: nezha_dpp-ota_full-OS3.3.260422.2.XPACNXM.STABLE-DPP-user-17.0-871d44f4c2.zip
 				pattern = r'^([a-z0-9_]+)-ota_full-([A-Z0-9\.]+)-user-(\d+\.\d+)-[a-z0-9]+\.zip$'
 				match = re.match(pattern, fname)
 				if match:
@@ -2704,6 +2714,16 @@ def getData(filename):
 								'code': match.group(1),
 								'version': match.group(2),
 								'android': match.group(3),
+								'filetype': 'recovery'
+						}
+				# 尝试匹配带 STABLE-DPP 等后缀的版本号
+				pattern2 = r'^([a-z0-9_]+)-ota_full-([A-Z0-9\.\-]+)-user-(\d+\.\d+)-[a-z0-9]+\.zip$'
+				match2 = re.match(pattern2, fname)
+				if match2:
+						return {
+								'code': match2.group(1),
+								'version': match2.group(2),
+								'android': match2.group(3),
 								'filetype': 'recovery'
 						}
 				return None
@@ -3710,9 +3730,12 @@ def entryChecker(data,device):
 								# 检查分支的idtag是否与预期相符（仅当expected_tag已设置时）
 								actual_idtag = branch.get('idtag')
 								if actual_idtag is not None and expected_tag is not None and actual_idtag != expected_tag:
-									print(device, bname, os_version, f"版本号标识不匹配: 期望 {expected_tag}, 实际 {actual_idtag}")
-									# 注意：这里暂时注释掉检查，因为在实际数据中可能存在合理的差异
-									# check.append(1)
+									if actual_idtag == "ADPC" or actual_idtag == "ADPG":
+										i = 0
+									else:
+										print(device, bname, os_version, f"版本号标识不匹配: 期望 {expected_tag}, 实际 {actual_idtag}")
+										# 注意：这里暂时注释掉检查，因为在实际数据中可能存在合理的差异
+										# check.append(1)
 							
 							# 如果不是CNXM版本且expected_tag未设置，则跳过idtag检查
 							else:
@@ -3739,7 +3762,13 @@ def entryChecker(data,device):
 										if "miui" in rom_info['recovery']:
 											android = rom_info['recovery'].split("_")[4].split(".zip")[0]
 										else:
-											android = rom_info['recovery'].split("ota_full-")[1].split("-")[2]
+											# 使用正则表达式提取 Android 版本号，支持 STABLE-DPP 等特殊版本
+											# 例: CODE-ota_full-VERSION-user-ANDROID-HASH.zip
+											recovery_match = re.search(r'-ota_full-[A-Za-z0-9\.\-]+-user-(\d+\.\d+)-[a-z0-9]+\.zip$', rom_info['recovery'])
+											if recovery_match:
+												android = recovery_match.group(1)
+											else:
+												android = rom_info['recovery'].split("ota_full-")[1].split("-")[2]
 									else:
 										android = rom_info['recovery'].split("images_")[1].split("_")[2]
 									if rom_info['android'] != android:

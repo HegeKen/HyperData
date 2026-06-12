@@ -9,7 +9,8 @@
 		"OS3.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -274,6 +275,52 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版大陆版",
+				"en": "Xiaomi HyperOS Android Developer Preview (China Mainland)"
+			},
+			"branchCode": "nezha_dpp",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 17 Ultra",
+				"en": "Xiaomi 17 Ultra"
+			},
+			"idtag": "ADPC",
+			"tag": "",
+			"url": "https://www.xiaomi.cn/post/52735582",
+			"branchtag": "X",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"originrec",
+				"originfb"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.3.260422.2.XPACNXM.STABLE-DPP": {
+					"os": "OS3.3.260422.2.XPACNXM.STABLE-DPP",
+					"android": "17.0",
+					"release": "2026-04-28",
+					"recovery": "nezha_dpp-ota_full-OS3.3.260422.2.XPACNXM.STABLE-DPP-user-17.0-871d44f4c2.zip",
+					"fastboot": "",
+					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/nezha_dpp-ota_full-OS3.3.260422.2.XPACNXM.STABLE-DPP-user-17.0-871d44f4c2.zip?GalaxyAccessKeyId=5151729087601&Expires=9223372036854775807&Signature=YMNnJ5sNdTH341WatHQtGF%2FL4S4%3D",
+					"originfb": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
@@ -408,6 +455,49 @@
 					"release": "2026-02-28",
 					"recovery": "nezha_global-ota_full-OS3.0.2.0.WPAMIXM-user-16.0-f5a1a556c5.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 安卓开发者预览版国际版",
+				"en": "Xiaomi HyperOS Android Developer Preview Global"
+			},
+			"branchCode": "nezha_dpp_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 17 Ultra",
+				"en": "Xiaomi 17 Ultra by Leica / Leitzphone powered by Xiaomi"
+			},
+			"idtag": "ADPG",
+			"tag": "",
+			"url": "https://new.c.mi.com/global/post/1904398",
+			"branchtag": "X",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"originrec",
+				"originfb"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.3.260420.2.XPAMIXM.STABLE-DPP": {
+					"os": "OS3.3.260420.2.XPAMIXM.STABLE-DPP",
+					"android": "17.0",
+					"release": "2026-04-24",
+					"recovery": "nezha_dpp_global-ota_full-OS3.3.260420.2.XPAMIXM.STABLE-DPP-user-17.0-96a5bcca8f.zip",
+					"fastboot": "",
+					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/nezha_dpp_global-ota_full-OS3.3.260420.2.XPAMIXM.STABLE-DPP-user-17.0-96a5bcca8f.zip?GalaxyAccessKeyId=5151729087601&Expires=9223372036854775807&Signature=XSe6ngGhUABkEI0BdLdZGBuWXPE%3D",
+					"originfb": ""
 				}
 			}
 		},
