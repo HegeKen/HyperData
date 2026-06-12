@@ -4018,10 +4018,24 @@ def read_range(url, start, size, timeout=20):
         response = session.get(url, headers=headers, timeout=timeout)
         
         if response.status_code not in (200, 206):
+            print(f"HTTP 请求失败，状态码: {response.status_code}")
             return None
         
         content = response.content
+        
+        # 检查返回内容是否为 XML 错误文档（服务器返回的错误信息）
+        if content.startswith(b'<?xml') or content.startswith(b'<Error'):
+            print("服务器返回 XML 错误文档，资源可能已被删除")
+            return None
+        
+        # 检查内容类型是否为已知的错误类型
+        content_type = response.headers.get('Content-Type', '').lower()
+        if content_type in ('application/xml', 'text/xml') and b'<Error>' in content:
+            print("服务器返回 XML 错误响应，资源不存在或已被删除")
+            return None
+        
         if len(content) < size:
+            print(f"读取字节数不足，期望 {size} 字节，实际 {len(content)} 字节")
             return None
         
         return content[:size] if len(content) > size else content
@@ -4040,7 +4054,13 @@ def get_file_length(url, timeout=20):
         session.mount('http://', adapter)
         session.mount('https://', adapter)
 
+        # 先尝试 HEAD 请求
         response = session.head(url, headers={'Range': 'bytes=0-0'}, timeout=timeout)
+        
+        # 检查是否返回错误状态码
+        if response.status_code >= 400:
+            print(f"HEAD 请求失败，状态码: {response.status_code}")
+            return None
         
         if 'Content-Range' in response.headers:
             content_range = response.headers['Content-Range']
@@ -4056,7 +4076,6 @@ def get_file_length(url, timeout=20):
                 return file_len
 
         return None
-        
     except Exception as e:
         print(f"获取文件长度失败: {e}")
         return None
@@ -4209,5 +4228,95 @@ def get_security_patch_from_ota_url(url,filetype, timeout=20):
 				print(asp)
 				return asp
 			return None
+		elif filetype == 'fastboot':
+			# 从 tgz 线刷包中获取安全补丁日期
+			return get_security_patch_from_tgz(url, timeout)
 		else:
 			return None
+
+
+def get_security_patch_from_tgz(url, timeout=20):
+	"""从 tgz 线刷包中获取安全补丁日期"""
+	import gzip
+	import tarfile
+	import io
+	
+	try:
+		# 1. 获取文件大小
+		file_length = get_file_length(url, timeout)
+		if file_length is None or file_length <= 0:
+			print("无法获取 tgz 文件长度")
+			return None
+		
+		# 2. 逐步增加读取大小（优化带宽使用）
+		# gzip 需要完整数据才能解压，但我们可以逐步尝试
+		max_read_size = min(file_length, 100 * 1024 * 1024)  # 最多读取 100MB
+		
+		# 定义逐步读取的大小序列（从小到大）
+		read_sizes = [1*1024*1024, 5*1024*1024, 10*1024*1024, 20*1024*1024, max_read_size]
+		
+		for read_size in read_sizes:
+			if read_size > file_length:
+				read_size = file_length
+				
+			print(f"尝试读取 {read_size//1024//1024}MB 数据...")
+			
+			file_bytes = read_range(url, 0, read_size, timeout)
+			if file_bytes is None:
+				print("无法读取 tgz 文件内容")
+				continue
+			
+			# 3. 尝试解压 gzip
+			try:
+				gzip_file = gzip.GzipFile(fileobj=io.BytesIO(file_bytes))
+				tar_content = gzip_file.read()
+				tar_buffer = io.BytesIO(tar_content)
+			except EOFError:
+				print(f"gzip 文件未完整，需要读取更多数据...")
+				continue
+			except Exception as e:
+				print(f"解压 gzip 失败: {e}")
+				continue
+			
+			# 4. 解析 tar 文件
+			try:
+				with tarfile.open(fileobj=tar_buffer, mode='r') as tar:
+					members = tar.getmembers()
+					
+					# 首先查找目标文件
+					for member in members:
+						if 'images/platform_security_patch.txt' in member.name:
+							f = tar.extractfile(member)
+							if f:
+								content = f.read().decode('utf-8').strip()
+								print(f"从 tgz 获取安全补丁日期: {content}")
+								return content
+					
+					# 如果没找到，检查是否有嵌套的 tar 文件
+					for member in members:
+						if member.name.endswith('.tar'):
+							print(f"发现嵌套 tar 文件: {member.name}")
+							f = tar.extractfile(member)
+							if f:
+								nested_tar_buffer = io.BytesIO(f.read())
+								with tarfile.open(fileobj=nested_tar_buffer, mode='r') as nested_tar:
+									for nested_member in nested_tar.getmembers():
+										if 'images/platform_security_patch.txt' in nested_member.name:
+											nested_f = nested_tar.extractfile(nested_member)
+											if nested_f:
+												content = nested_f.read().decode('utf-8').strip()
+												print(f"从嵌套 tar 获取安全补丁日期: {content}")
+												return content
+				
+				print(f"读取 {read_size//1024//1024}MB 未找到目标文件，继续尝试...")
+				
+			except Exception as e:
+				print(f"解析 tar 文件失败: {e}")
+				continue
+		
+		print("tgz 中未找到 images/platform_security_patch.txt")
+		return None
+			
+	except Exception as e:
+		print(f"获取 tgz 安全补丁日期失败: {e}")
+		return None

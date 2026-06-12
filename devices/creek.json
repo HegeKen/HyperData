@@ -1,744 +1,744 @@
 {
-  "device": "creek",
-  "name": {
-    "zh": "REDMI 15 4G",
-    "en": "REDMI 15 4G"
-  },
-  "code": "BO",
-  "suppports": [
-    "OS2.0",
-    "OS3.0"
-  ],
-  "android": [
-    "15.0",
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 中国台湾省正式版",
-        "en": "Xiaomi HyperOS China Taiwan Province Stable"
-      },
-      "branchCode": "creek_tw_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "CNTP",
-      "tag": "TWXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tw",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.2.0.WBOTWXM": {
-          "os": "OS3.0.2.0.WBOTWXM",
-          "android": "16.0",
-          "release": "2026-04-03",
-          "recovery": "creek_tw_global-ota_full-OS3.0.2.0.WBOTWXM-user-16.0-f5d4cd28e8.zip",
-          "fastboot": "creek_tw_global_images_OS3.0.2.0.WBOTWXM_20260316.0000.00_16.0_tw_953d238a8d.tgz"
-        },
-        "OS3.0.1.0.WBOTWXM": {
-          "os": "OS3.0.1.0.WBOTWXM",
-          "android": "16.0",
-          "release": "2026-01-26",
-          "recovery": "creek_tw_global-ota_full-OS3.0.1.0.WBOTWXM-user-16.0-8b4f102ede.zip",
-          "fastboot": "creek_tw_global_images_OS3.0.1.0.WBOTWXM_20260115.0000.00_16.0_tw_ca3d360f50.tgz"
-        },
-        "OS2.0.205.0.VBOTWXM": {
-          "os": "OS2.0.205.0.VBOTWXM",
-          "android": "15.0",
-          "release": "2026-01-15",
-          "recovery": "creek_tw_global-ota_full-OS2.0.205.0.VBOTWXM-user-15.0-831f44b588.zip",
-          "fastboot": "creek_tw_global_images_OS2.0.205.0.VBOTWXM_20251230.0000.00_15.0_tw_1787bf5c89.tgz"
-        },
-        "OS2.0.204.0.VBOTWXM": {
-          "os": "OS2.0.204.0.VBOTWXM",
-          "android": "15.0",
-          "release": "2025-12-08",
-          "recovery": "creek_tw_global-ota_full-OS2.0.204.0.VBOTWXM-user-15.0-526649438c.zip",
-          "fastboot": "creek_tw_global_images_OS2.0.204.0.VBOTWXM_20251120.0000.00_15.0_tw_62da4366d1.tgz"
-        },
-        "OS2.0.203.0.VBOTWXM": {
-          "os": "OS2.0.203.0.VBOTWXM",
-          "android": "15.0",
-          "release": "2025-10-09",
-          "recovery": "creek_tw_global-ota_full-OS2.0.203.0.VBOTWXM-user-15.0-ee35e9523c.zip",
-          "fastboot": "creek_tw_global_images_OS2.0.203.0.VBOTWXM_20250923.0000.00_15.0_tw_e036963c62.tgz"
-        },
-        "OS2.0.202.0.VBOTWXM": {
-          "os": "OS2.0.202.0.VBOTWXM",
-          "android": "15.0",
-          "release": "2025-08-19",
-          "recovery": "creek_tw_global-ota_full-OS2.0.202.0.VBOTWXM-user-15.0-dc98eadae7.zip",
-          "fastboot": "creek_tw_global_images_OS2.0.202.0.VBOTWXM_20250724.0000.00_15.0_tw_eea7d80570.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "creek_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WBOMIXM": {
-          "os": "OS3.0.302.0.WBOMIXM",
-          "android": "16.0",
-          "release": "2026-05-14",
-          "recovery": "creek_global-ota_full-OS3.0.302.0.WBOMIXM-user-16.0-cb47cf2278.zip",
-          "fastboot": "creek_global_images_OS3.0.302.0.WBOMIXM_20260506.0000.00_16.0_global_03f92fade2.tgz"
-        },
-        "OS3.0.11.0.WBOMIXM": {
-          "os": "OS3.0.11.0.WBOMIXM",
-          "android": "16.0",
-          "release": "2026-04-29",
-          "recovery": "creek_global-ota_full-OS3.0.11.0.WBOMIXM-user-16.0-3fd10815e6.zip",
-          "fastboot": "creek_global_images_OS3.0.11.0.WBOMIXM_20260422.0000.00_16.0_global_8b78c3e43a.tgz"
-        },
-        "OS3.0.10.0.WBOMIXM": {
-          "os": "OS3.0.10.0.WBOMIXM",
-          "android": "16.0",
-          "release": "2026-02-24",
-          "recovery": "creek_global-ota_full-OS3.0.10.0.WBOMIXM-user-16.0-3d6d38b412.zip",
-          "fastboot": "creek_global_images_OS3.0.10.0.WBOMIXM_20260129.0000.00_16.0_global_f99371b1b5.tgz"
-        },
-        "OS3.0.9.0.WBOMIXM": {
-          "os": "OS3.0.9.0.WBOMIXM",
-          "android": "16.0",
-          "release": "2025-12-30",
-          "recovery": "creek_global-ota_full-OS3.0.9.0.WBOMIXM-user-16.0-cb5b086135.zip",
-          "fastboot": "creek_global_images_OS3.0.9.0.WBOMIXM_20251223.0000.00_16.0_global_d22fb60cd4.tgz"
-        },
-        "OS3.0.6.0.WBOMIXM": {
-          "os": "OS3.0.6.0.WBOMIXM",
-          "android": "16.0",
-          "release": "2025-12-06",
-          "recovery": "creek_global-ota_full-OS3.0.6.0.WBOMIXM-user-16.0-39abc46c0c.zip",
-          "fastboot": "creek_global_images_OS3.0.6.0.WBOMIXM_20251125.0000.00_16.0_global_e963721f98.tgz"
-        },
-        "OS2.0.212.0.VBOMIXM": {
-          "os": "OS2.0.212.0.VBOMIXM",
-          "android": "15.0",
-          "release": "2026-01-16",
-          "recovery": "creek_global-ota_full-OS2.0.212.0.VBOMIXM-user-15.0-c605316391.zip",
-          "fastboot": "creek_global_images_OS2.0.212.0.VBOMIXM_20251230.0000.00_15.0_global_1323cf4807.tgz"
-        },
-        "OS2.0.211.0.VBOMIXM": {
-          "os": "OS2.0.211.0.VBOMIXM",
-          "android": "15.0",
-          "release": "2025-11-13",
-          "recovery": "creek_global-ota_full-OS2.0.211.0.VBOMIXM-user-15.0-2da23a2bad.zip",
-          "fastboot": "creek_global_images_OS2.0.211.0.VBOMIXM_20251103.0000.00_15.0_global_ff2feb1d8a.tgz"
-        },
-        "OS2.0.210.0.VBOMIXM": {
-          "os": "OS2.0.210.0.VBOMIXM",
-          "android": "15.0",
-          "release": "2025-10-20",
-          "recovery": "creek_global-ota_full-OS2.0.210.0.VBOMIXM-user-15.0-e723881768.zip",
-          "fastboot": "creek_global_images_OS2.0.210.0.VBOMIXM_20251010.0000.00_15.0_global_0e4eba0689.tgz"
-        },
-        "OS2.0.209.0.VBOMIXM": {
-          "os": "OS2.0.209.0.VBOMIXM",
-          "android": "15.0",
-          "release": "2025-09-26",
-          "recovery": "creek_global-ota_full-OS2.0.209.0.VBOMIXM-user-15.0-71dc4cb58a.zip",
-          "fastboot": "creek_global_images_OS2.0.209.0.VBOMIXM_20250917.0000.00_15.0_global_fe5c360de7.tgz"
-        },
-        "OS2.0.207.0.VBOMIXM": {
-          "os": "OS2.0.207.0.VBOMIXM",
-          "android": "15.0",
-          "release": "2025-08-14",
-          "recovery": "creek_global-ota_full-OS2.0.207.0.VBOMIXM-user-15.0-d328b3b276.zip",
-          "fastboot": "creek_global_images_OS2.0.207.0.VBOMIXM_20250806.0000.00_15.0_global_1f47ed25d3.tgz"
-        },
-        "OS2.0.205.0.VBOMIXM": {
-          "os": "OS2.0.205.0.VBOMIXM",
-          "android": "15.0",
-          "release": "2025-08-14",
-          "recovery": "creek_global-ota_full-OS2.0.205.0.VBOMIXM-user-15.0-9b32f4c505.zip",
-          "fastboot": ""
-        },
-        "OS2.0.203.0.VBOMIXM": {
-          "os": "OS2.0.203.0.VBOMIXM",
-          "android": "15.0",
-          "release": "2025-08-14",
-          "recovery": "creek_global-ota_full-OS2.0.203.0.VBOMIXM-user-15.0-0836433ec0.zip",
-          "fastboot": ""
-        },
-        "OS2.0.201.0.VBOMIXM": {
-          "os": "OS2.0.201.0.VBOMIXM",
-          "android": "15.0",
-          "release": "2025-08-14",
-          "recovery": "creek_global-ota_full-OS2.0.201.0.VBOMIXM-user-15.0-b74db53de5.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际 DC 正式版",
-        "en": "Xiaomi HyperOS Global DC Stable"
-      },
-      "branchCode": "creek_dc_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "GBDC",
-      "tag": "MIDC",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "carrier": [
-        "dc"
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.3.0.WBOMIDC": {
-          "os": "OS3.0.3.0.WBOMIDC",
-          "android": "16.0",
-          "release": "2026-04-29",
-          "recovery": "creek_dc_global-ota_full-OS3.0.3.0.WBOMIDC-user-16.0-958a33fe1b.zip",
-          "fastboot": "creek_dc_global_images_OS3.0.3.0.WBOMIDC_20260422.0000.00_16.0_global_dc_902118cb0f.tgz"
-        },
-        "OS3.0.2.0.WBOMIDC": {
-          "os": "OS3.0.2.0.WBOMIDC",
-          "android": "16.0",
-          "release": "2026-02-23",
-          "recovery": "creek_dc_global-ota_full-OS3.0.2.0.WBOMIDC-user-16.0-be417eb3ff.zip",
-          "fastboot": "creek_dc_global_images_OS3.0.2.0.WBOMIDC_20260129.0000.00_16.0_global_dc_b7ddd92b44.tgz"
-        },
-        "OS3.0.1.0.WBOMIDC": {
-          "os": "OS3.0.1.0.WBOMIDC",
-          "android": "16.0",
-          "release": "2026-01-04",
-          "recovery": "creek_dc_global-ota_full-OS3.0.1.0.WBOMIDC-user-16.0-184559fe62.zip",
-          "fastboot": "creek_dc_global_images_OS3.0.1.0.WBOMIDC_20251213.0000.00_16.0_global_dc_9c006eb064.tgz"
-        },
-        "OS2.0.205.0.VBOMIDC": {
-          "os": "OS2.0.205.0.VBOMIDC",
-          "android": "15.0",
-          "release": "2026-01-23",
-          "recovery": "",
-          "fastboot": "creek_dc_global_images_OS2.0.205.0.VBOMIDC_20251230.0000.00_15.0_global_dc_5d4b632731.tgz"
-        },
-        "OS2.0.204.0.VBOMIDC": {
-          "os": "OS2.0.204.0.VBOMIDC",
-          "android": "15.0",
-          "release": "2025-12-01",
-          "recovery": "creek_dc_global-ota_full-OS2.0.204.0.VBOMIDC-user-15.0-744bfbeaef.zip",
-          "fastboot": "creek_dc_global_images_OS2.0.204.0.VBOMIDC_20251120.0000.00_15.0_global_dc_05059834f1.tgz"
-        },
-        "OS2.0.203.0.VBOMIDC": {
-          "os": "OS2.0.203.0.VBOMIDC",
-          "android": "15.0",
-          "release": "2025-10-09",
-          "recovery": "creek_dc_global-ota_full-OS2.0.203.0.VBOMIDC-user-15.0-6f1a7551d0.zip",
-          "fastboot": "creek_dc_global_images_OS2.0.203.0.VBOMIDC_20250923.0000.00_15.0_global_dc_51c64fa38c.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA正式版",
-        "en": "Xiaomi HyperOS Europe EEA Stable"
-      },
-      "branchCode": "creek_eea_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "EEAO",
-      "tag": "EUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.6.0.WBOEUXM": {
-          "os": "OS3.0.6.0.WBOEUXM",
-          "android": "16.0",
-          "release": "2026-04-29",
-          "recovery": "creek_eea_global-ota_full-OS3.0.6.0.WBOEUXM-user-16.0-b2427c70d3.zip",
-          "fastboot": "creek_eea_global_images_OS3.0.6.0.WBOEUXM_20260422.0000.00_16.0_eea_030abcda53.tgz"
-        },
-        "OS3.0.5.0.WBOEUXM": {
-          "os": "OS3.0.5.0.WBOEUXM",
-          "android": "16.0",
-          "release": "2026-02-24",
-          "recovery": "creek_eea_global-ota_full-OS3.0.5.0.WBOEUXM-user-16.0-8555363ee0.zip",
-          "fastboot": "creek_eea_global_images_OS3.0.5.0.WBOEUXM_20260126.0000.00_16.0_eea_1a0e3e5326.tgz"
-        },
-        "OS3.0.4.0.WBOEUXM": {
-          "os": "OS3.0.4.0.WBOEUXM",
-          "android": "16.0",
-          "release": "2026-01-12",
-          "recovery": "creek_eea_global-ota_full-OS3.0.4.0.WBOEUXM-user-16.0-6243c98658.zip",
-          "fastboot": "creek_eea_global_images_OS3.0.4.0.WBOEUXM_20260104.0000.00_16.0_eea_26be8536a4.tgz"
-        },
-        "OS3.0.2.0.WBOEUXM": {
-          "os": "OS3.0.2.0.WBOEUXM",
-          "android": "16.0",
-          "release": "2025-12-15",
-          "recovery": "creek_eea_global-ota_full-OS3.0.2.0.WBOEUXM-user-16.0-1893cac1c5.zip",
-          "fastboot": "creek_eea_global_images_OS3.0.2.0.WBOEUXM_20251128.0000.00_16.0_eea_30e705ad3a.tgz"
-        },
-        "OS2.0.205.0.VBOEUXM": {
-          "os": "OS2.0.205.0.VBOEUXM",
-          "android": "15.0",
-          "release": "2025-11-24",
-          "recovery": "creek_eea_global-ota_full-OS2.0.205.0.VBOEUXM-user-15.0-841d23fe5b.zip",
-          "fastboot": "creek_eea_global_images_OS2.0.205.0.VBOEUXM_20251114.0000.00_15.0_eea_0f67a101fe.tgz"
-        },
-        "OS2.0.204.0.VBOEUXM": {
-          "os": "OS2.0.204.0.VBOEUXM",
-          "android": "15.0",
-          "release": "2025-09-26",
-          "recovery": "creek_eea_global-ota_full-OS2.0.204.0.VBOEUXM-user-15.0-0dee37fb50.zip",
-          "fastboot": "creek_eea_global_images_OS2.0.204.0.VBOEUXM_20250917.0000.00_15.0_eea_1e1b2ab59a.tgz"
-        },
-        "OS2.0.203.0.VBOEUXM": {
-          "os": "OS2.0.203.0.VBOEUXM",
-          "android": "15.0",
-          "release": "2025-08-25",
-          "recovery": "creek_eea_global-ota_full-OS2.0.203.0.VBOEUXM-user-15.0-edad663cd5.zip",
-          "fastboot": "creek_eea_global_images_OS2.0.203.0.VBOEUXM_20250723.0000.00_15.0_eea_699519a012.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 欧洲EEA Demo",
-        "en": "Xiaomi HyperOS Europe EEA Demo"
-      },
-      "branchCode": "creek_eea_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "EEAD",
-      "tag": "EUDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "0",
-      "carrier": [
-        ""
-      ],
-      "region": "eea",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS2.0.200.0.VBOEUDM": {
-          "os": "OS2.0.200.0.VBOEUDM",
-          "android": "15.0",
-          "release": "2025-09-26",
-          "recovery": "creek_eea_global-ota_full-OS2.0.200.0.VBOEUDM-user-15.0-b35d779350.zip",
-          "fastboot": ""
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 俄罗斯正式版",
-        "en": "Xiaomi HyperOS Russia Stable"
-      },
-      "branchCode": "creek_ru_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "RUSO",
-      "tag": "RUXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "ru",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.301.0.WBORUXM": {
-          "os": "OS3.0.301.0.WBORUXM",
-          "android": "16.0",
-          "release": "2026-05-18",
-          "recovery": "creek_ru_global-ota_full-OS3.0.301.0.WBORUXM-user-16.0-513515215f.zip",
-          "fastboot": "creek_ru_global_images_OS3.0.301.0.WBORUXM_20260507.0000.00_16.0_ru_0d8a41cb62.tgz"
-        },
-        "OS3.0.2.0.WBORUXM": {
-          "os": "OS3.0.2.0.WBORUXM",
-          "android": "16.0",
-          "release": "2026-02-23",
-          "recovery": "creek_ru_global-ota_full-OS3.0.2.0.WBORUXM-user-16.0-e20787044f.zip",
-          "fastboot": "creek_ru_global_images_OS3.0.2.0.WBORUXM_20260129.0000.00_16.0_ru_b3af2fc2cf.tgz"
-        },
-        "OS3.0.1.0.WBORUXM": {
-          "os": "OS3.0.1.0.WBORUXM",
-          "android": "16.0",
-          "release": "2025-12-25",
-          "recovery": "creek_ru_global-ota_full-OS3.0.1.0.WBORUXM-user-16.0-6798b55c6f.zip",
-          "fastboot": "creek_ru_global_images_OS3.0.1.0.WBORUXM_20251209.0000.00_16.0_ru_ba5692a41c.tgz"
-        },
-        "OS2.0.207.0.VBORUXM": {
-          "os": "OS2.0.207.0.VBORUXM",
-          "android": "15.0",
-          "release": "2025-12-01",
-          "recovery": "creek_ru_global-ota_full-OS2.0.207.0.VBORUXM-user-15.0-b14c381f5f.zip",
-          "fastboot": "creek_ru_global_images_OS2.0.207.0.VBORUXM_20251121.0000.00_15.0_ru_f4d72d1b25.tgz"
-        },
-        "OS2.0.205.0.VBORUXM": {
-          "os": "OS2.0.205.0.VBORUXM",
-          "android": "15.0",
-          "release": "2025-09-28",
-          "recovery": "creek_ru_global-ota_full-OS2.0.205.0.VBORUXM-user-15.0-b2659d6eeb.zip",
-          "fastboot": "creek_ru_global_images_OS2.0.205.0.VBORUXM_20250917.0000.00_15.0_ru_98846205fa.tgz"
-        },
-        "OS2.0.204.0.VBORUXM": {
-          "os": "OS2.0.204.0.VBORUXM",
-          "android": "15.0",
-          "release": "2025-08-28",
-          "recovery": "creek_ru_global-ota_full-OS2.0.204.0.VBORUXM-user-15.0-ad173bd7c4.zip",
-          "fastboot": "creek_ru_global_images_OS2.0.204.0.VBORUXM_20250805.0000.00_15.0_ru_d1defaadfc.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 印度尼西亚正式版",
-        "en": "Xiaomi HyperOS Indonesia Stable"
-      },
-      "branchCode": "creek_id_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "IDSO",
-      "tag": "IDXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "id",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.5.0.WBOIDXM": {
-          "os": "OS3.0.5.0.WBOIDXM",
-          "android": "16.0",
-          "release": "2026-03-26",
-          "recovery": "creek_id_global-ota_full-OS3.0.5.0.WBOIDXM-user-16.0-e23a81aa76.zip",
-          "fastboot": "creek_id_global_images_OS3.0.5.0.WBOIDXM_20260313.0000.00_16.0_id_0589d3eb1f.tgz"
-        },
-        "OS3.0.4.0.WBOIDXM": {
-          "os": "OS3.0.4.0.WBOIDXM",
-          "android": "16.0",
-          "release": "2026-02-24",
-          "recovery": "creek_id_global-ota_full-OS3.0.4.0.WBOIDXM-user-16.0-655e8e8436.zip",
-          "fastboot": ""
-        },
-        "OS3.0.3.0.WBOIDXM": {
-          "os": "OS3.0.3.0.WBOIDXM",
-          "android": "16.0",
-          "release": "2026-01-15",
-          "recovery": "creek_id_global-ota_full-OS3.0.3.0.WBOIDXM-user-16.0-4f66e4a025.zip",
-          "fastboot": "creek_id_global_images_OS3.0.3.0.WBOIDXM_20260105.0000.00_16.0_id_20ca2ea53d.tgz"
-        },
-        "OS2.0.206.0.VBOIDXM": {
-          "os": "OS2.0.206.0.VBOIDXM",
-          "android": "15.0",
-          "release": "2026-03-03",
-          "recovery": "creek_id_global-ota_full-OS2.0.206.0.VBOIDXM-user-15.0-0d2e60b3e6.zip",
-          "fastboot": "creek_id_global_images_OS2.0.206.0.VBOIDXM_20260205.0000.00_15.0_id_75a40e0fa9.tgz"
-        },
-        "OS2.0.205.0.VBOIDXM": {
-          "os": "OS2.0.205.0.VBOIDXM",
-          "android": "15.0",
-          "release": "2025-11-24",
-          "recovery": "creek_id_global-ota_full-OS2.0.205.0.VBOIDXM-user-15.0-1895a563ac.zip",
-          "fastboot": "creek_id_global_images_OS2.0.205.0.VBOIDXM_20251114.0000.00_15.0_id_63b4535a92.tgz"
-        },
-        "OS2.0.204.0.VBOIDXM": {
-          "os": "OS2.0.204.0.VBOIDXM",
-          "android": "15.0",
-          "release": "2025-09-24",
-          "recovery": "creek_id_global-ota_full-OS2.0.204.0.VBOIDXM-user-15.0-9c4ff1f75f.zip",
-          "fastboot": "creek_id_global_images_OS2.0.204.0.VBOIDXM_20250917.0000.00_15.0_id_be38e33ee8.tgz"
-        },
-        "OS2.0.203.0.VBOIDXM": {
-          "os": "OS2.0.203.0.VBOIDXM",
-          "android": "15.0",
-          "release": "2025-08-28",
-          "recovery": "creek_id_global-ota_full-OS2.0.203.0.VBOIDXM-user-15.0-1768957e14.zip",
-          "fastboot": "creek_id_global_images_OS2.0.203.0.VBOIDXM_20250723.0000.00_15.0_id_c0c314ebaf.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 土耳其正式版",
-        "en": "Xiaomi HyperOS Turkey Stable"
-      },
-      "branchCode": "creek_tr_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "TRSO",
-      "tag": "TRXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "tr",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.2.0.WBOTRXM": {
-          "os": "OS3.0.2.0.WBOTRXM",
-          "android": "16.0",
-          "release": "2026-04-03",
-          "recovery": "creek_tr_global-ota_full-OS3.0.2.0.WBOTRXM-user-16.0-b3dd16bbb8.zip",
-          "fastboot": "creek_tr_global_images_OS3.0.2.0.WBOTRXM_20260316.0000.00_16.0_tr_3e1a4ddd58.tgz"
-        },
-        "OS3.0.1.0.WBOTRXM": {
-          "os": "OS3.0.1.0.WBOTRXM",
-          "android": "16.0",
-          "release": "2026-01-26",
-          "recovery": "creek_tr_global-ota_full-OS3.0.1.0.WBOTRXM-user-16.0-dfd6513eb6.zip",
-          "fastboot": "creek_tr_global_images_OS3.0.1.0.WBOTRXM_20260115.0000.00_16.0_tr_b5efe9af89.tgz"
-        },
-        "OS2.0.204.0.VBOTRXM": {
-          "os": "OS2.0.204.0.VBOTRXM",
-          "android": "15.0",
-          "release": "2025-12-01",
-          "recovery": "creek_tr_global-ota_full-OS2.0.204.0.VBOTRXM-user-15.0-32a6c92227.zip",
-          "fastboot": "creek_tr_global_images_OS2.0.204.0.VBOTRXM_20251121.0000.00_15.0_tr_0ee3e0cb74.tgz"
-        },
-        "OS2.0.203.0.VBOTRXM": {
-          "os": "OS2.0.203.0.VBOTRXM",
-          "android": "15.0",
-          "release": "2025-10-09",
-          "recovery": "creek_tr_global-ota_full-OS2.0.203.0.VBOTRXM-user-15.0-a8f3272e7b.zip",
-          "fastboot": "creek_tr_global_images_OS2.0.203.0.VBOTRXM_20250923.0000.00_15.0_tr_a78da25bcb.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
-        "en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
-      },
-      "branchCode": "creek_mx_at_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "MXAT",
-      "tag": "MXAT",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "at"
-      ],
-      "region": "mx",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WBOMXAT": {
-          "os": "OS3.0.1.0.WBOMXAT",
-          "android": "16.0",
-          "release": "2026-04-28",
-          "recovery": "creek_mx_at_global-ota_full-OS3.0.1.0.WBOMXAT-user-16.0-d6d26b5cf1.zip",
-          "fastboot": "creek_mx_at_global_images_OS3.0.1.0.WBOMXAT_20260320.0000.00_16.0_mx_at_a19fe113a4.tgz"
-        },
-        "OS2.0.205.0.VBOMXAT": {
-          "os": "OS2.0.205.0.VBOMXAT",
-          "android": "15.0",
-          "release": "2025-12-17",
-          "recovery": "creek_mx_at_global-ota_full-OS2.0.205.0.VBOMXAT-user-15.0-695ce4ae2d.zip",
-          "fastboot": "creek_mx_at_global_images_OS2.0.205.0.VBOMXAT_20251127.0000.00_15.0_mx_at_ba32f59283.tgz"
-        },
-        "OS2.0.204.0.VBOMXAT": {
-          "os": "OS2.0.204.0.VBOMXAT",
-          "android": "15.0",
-          "release": "2025-10-15",
-          "recovery": "creek_mx_at_global-ota_full-OS2.0.204.0.VBOMXAT-user-15.0-4f1cb817df.zip",
-          "fastboot": "creek_mx_at_global_images_OS2.0.204.0.VBOMXAT_20250912.0000.00_15.0_mx_at_a7dd6f41f3.tgz"
-        },
-        "OS2.0.203.0.VBOMXAT": {
-          "os": "OS2.0.203.0.VBOMXAT",
-          "android": "15.0",
-          "release": "2025-10-15",
-          "recovery": "creek_mx_at_global-ota_full-OS2.0.203.0.VBOMXAT-user-15.0-48b0489dfa.zip",
-          "fastboot": "creek_mx_at_global_images_OS2.0.203.0.VBOMXAT_20250730.0000.00_15.0_mx_at_10bba19665.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
-        "en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
-      },
-      "branchCode": "creek_lm_cr_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI 15 4G",
-        "en": "REDMI 15 4G"
-      },
-      "idtag": "LMCR",
-      "tag": "LMCR",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        "cr"
-      ],
-      "region": "lm",
-      "zone": "2",
-      "ep": "0",
-      "roms": {
-        "OS3.0.1.0.WBOLMCR": {
-          "os": "OS3.0.1.0.WBOLMCR",
-          "android": "16.0",
-          "release": "2026-05-25",
-          "recovery": "creek_lm_cr_global-ota_full-OS3.0.1.0.WBOLMCR-user-16.0-04a1ea3072.zip",
-          "fastboot": "creek_lm_cr_global_images_OS3.0.1.0.WBOLMCR_20260422.0000.00_16.0_lm_cr_769ceac355.tgz"
-        },
-        "OS2.0.206.0.VBOLMCR": {
-          "os": "OS2.0.206.0.VBOLMCR",
-          "android": "15.0",
-          "release": "2026-01-21",
-          "recovery": "creek_lm_cr_global-ota_full-OS2.0.206.0.VBOLMCR-user-15.0-ada6e92033.zip",
-          "fastboot": "creek_lm_cr_global_images_OS2.0.206.0.VBOLMCR_20251230.0000.00_15.0_lm_cr_1fe2ab83b0.tgz"
-        },
-        "OS2.0.205.0.VBOLMCR": {
-          "os": "OS2.0.205.0.VBOLMCR",
-          "android": "15.0",
-          "release": "2025-12-01",
-          "recovery": "creek_lm_cr_global-ota_full-OS2.0.205.0.VBOLMCR-user-15.0-75bd3b0d92.zip",
-          "fastboot": "creek_lm_cr_global_images_OS2.0.205.0.VBOLMCR_20251105.0000.00_15.0_lm_cr_081c02826c.tgz"
-        },
-        "OS2.0.204.0.VBOLMCR": {
-          "os": "OS2.0.204.0.VBOLMCR",
-          "android": "15.0",
-          "release": "2025-09-23",
-          "recovery": "creek_lm_cr_global-ota_full-OS2.0.204.0.VBOLMCR-user-15.0-740c0a3d5c.zip",
-          "fastboot": "creek_lm_cr_global_images_OS2.0.204.0.VBOLMCR_20250909.0000.00_15.0_lm_cr_e8723e8eb6.tgz"
-        },
-        "OS2.0.201.0.VBOLMCR": {
-          "os": "OS2.0.201.0.VBOLMCR",
-          "android": "15.0",
-          "release": "2025-09-23",
-          "recovery": "creek_lm_cr_global-ota_full-OS2.0.201.0.VBOLMCR-user-15.0-49fac36053.zip",
-          "fastboot": "creek_lm_cr_global_images_OS2.0.201.0.VBOLMCR_20250715.0000.00_15.0_lm_cr_1bbac8fed3.tgz"
-        }
-      }
-    }
-  ]
+	"device": "creek",
+	"name": {
+		"zh": "REDMI 15 4G",
+		"en": "REDMI 15 4G"
+	},
+	"code": "BO",
+	"suppports": [
+		"OS2.0",
+		"OS3.0"
+	],
+	"android": [
+		"15.0",
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "creek_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WBOTWXM": {
+					"os": "OS3.0.2.0.WBOTWXM",
+					"android": "16.0",
+					"release": "2026-04-03",
+					"recovery": "creek_tw_global-ota_full-OS3.0.2.0.WBOTWXM-user-16.0-f5d4cd28e8.zip",
+					"fastboot": "creek_tw_global_images_OS3.0.2.0.WBOTWXM_20260316.0000.00_16.0_tw_953d238a8d.tgz"
+				},
+				"OS3.0.1.0.WBOTWXM": {
+					"os": "OS3.0.1.0.WBOTWXM",
+					"android": "16.0",
+					"release": "2026-01-26",
+					"recovery": "creek_tw_global-ota_full-OS3.0.1.0.WBOTWXM-user-16.0-8b4f102ede.zip",
+					"fastboot": "creek_tw_global_images_OS3.0.1.0.WBOTWXM_20260115.0000.00_16.0_tw_ca3d360f50.tgz"
+				},
+				"OS2.0.205.0.VBOTWXM": {
+					"os": "OS2.0.205.0.VBOTWXM",
+					"android": "15.0",
+					"release": "2026-01-15",
+					"recovery": "creek_tw_global-ota_full-OS2.0.205.0.VBOTWXM-user-15.0-831f44b588.zip",
+					"fastboot": "creek_tw_global_images_OS2.0.205.0.VBOTWXM_20251230.0000.00_15.0_tw_1787bf5c89.tgz"
+				},
+				"OS2.0.204.0.VBOTWXM": {
+					"os": "OS2.0.204.0.VBOTWXM",
+					"android": "15.0",
+					"release": "2025-12-08",
+					"recovery": "creek_tw_global-ota_full-OS2.0.204.0.VBOTWXM-user-15.0-526649438c.zip",
+					"fastboot": "creek_tw_global_images_OS2.0.204.0.VBOTWXM_20251120.0000.00_15.0_tw_62da4366d1.tgz"
+				},
+				"OS2.0.203.0.VBOTWXM": {
+					"os": "OS2.0.203.0.VBOTWXM",
+					"android": "15.0",
+					"release": "2025-10-09",
+					"recovery": "creek_tw_global-ota_full-OS2.0.203.0.VBOTWXM-user-15.0-ee35e9523c.zip",
+					"fastboot": "creek_tw_global_images_OS2.0.203.0.VBOTWXM_20250923.0000.00_15.0_tw_e036963c62.tgz"
+				},
+				"OS2.0.202.0.VBOTWXM": {
+					"os": "OS2.0.202.0.VBOTWXM",
+					"android": "15.0",
+					"release": "2025-08-19",
+					"recovery": "creek_tw_global-ota_full-OS2.0.202.0.VBOTWXM-user-15.0-dc98eadae7.zip",
+					"fastboot": "creek_tw_global_images_OS2.0.202.0.VBOTWXM_20250724.0000.00_15.0_tw_eea7d80570.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "creek_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WBOMIXM": {
+					"os": "OS3.0.302.0.WBOMIXM",
+					"android": "16.0",
+					"release": "2026-05-14",
+					"recovery": "creek_global-ota_full-OS3.0.302.0.WBOMIXM-user-16.0-cb47cf2278.zip",
+					"fastboot": "creek_global_images_OS3.0.302.0.WBOMIXM_20260506.0000.00_16.0_global_03f92fade2.tgz"
+				},
+				"OS3.0.11.0.WBOMIXM": {
+					"os": "OS3.0.11.0.WBOMIXM",
+					"android": "16.0",
+					"release": "2026-04-29",
+					"recovery": "creek_global-ota_full-OS3.0.11.0.WBOMIXM-user-16.0-3fd10815e6.zip",
+					"fastboot": "creek_global_images_OS3.0.11.0.WBOMIXM_20260422.0000.00_16.0_global_8b78c3e43a.tgz"
+				},
+				"OS3.0.10.0.WBOMIXM": {
+					"os": "OS3.0.10.0.WBOMIXM",
+					"android": "16.0",
+					"release": "2026-02-24",
+					"recovery": "creek_global-ota_full-OS3.0.10.0.WBOMIXM-user-16.0-3d6d38b412.zip",
+					"fastboot": "creek_global_images_OS3.0.10.0.WBOMIXM_20260129.0000.00_16.0_global_f99371b1b5.tgz"
+				},
+				"OS3.0.9.0.WBOMIXM": {
+					"os": "OS3.0.9.0.WBOMIXM",
+					"android": "16.0",
+					"release": "2025-12-30",
+					"recovery": "creek_global-ota_full-OS3.0.9.0.WBOMIXM-user-16.0-cb5b086135.zip",
+					"fastboot": "creek_global_images_OS3.0.9.0.WBOMIXM_20251223.0000.00_16.0_global_d22fb60cd4.tgz"
+				},
+				"OS3.0.6.0.WBOMIXM": {
+					"os": "OS3.0.6.0.WBOMIXM",
+					"android": "16.0",
+					"release": "2025-12-06",
+					"recovery": "creek_global-ota_full-OS3.0.6.0.WBOMIXM-user-16.0-39abc46c0c.zip",
+					"fastboot": "creek_global_images_OS3.0.6.0.WBOMIXM_20251125.0000.00_16.0_global_e963721f98.tgz"
+				},
+				"OS2.0.212.0.VBOMIXM": {
+					"os": "OS2.0.212.0.VBOMIXM",
+					"android": "15.0",
+					"release": "2026-01-16",
+					"recovery": "creek_global-ota_full-OS2.0.212.0.VBOMIXM-user-15.0-c605316391.zip",
+					"fastboot": "creek_global_images_OS2.0.212.0.VBOMIXM_20251230.0000.00_15.0_global_1323cf4807.tgz"
+				},
+				"OS2.0.211.0.VBOMIXM": {
+					"os": "OS2.0.211.0.VBOMIXM",
+					"android": "15.0",
+					"release": "2025-11-13",
+					"recovery": "creek_global-ota_full-OS2.0.211.0.VBOMIXM-user-15.0-2da23a2bad.zip",
+					"fastboot": "creek_global_images_OS2.0.211.0.VBOMIXM_20251103.0000.00_15.0_global_ff2feb1d8a.tgz"
+				},
+				"OS2.0.210.0.VBOMIXM": {
+					"os": "OS2.0.210.0.VBOMIXM",
+					"android": "15.0",
+					"release": "2025-10-20",
+					"recovery": "creek_global-ota_full-OS2.0.210.0.VBOMIXM-user-15.0-e723881768.zip",
+					"fastboot": "creek_global_images_OS2.0.210.0.VBOMIXM_20251010.0000.00_15.0_global_0e4eba0689.tgz"
+				},
+				"OS2.0.209.0.VBOMIXM": {
+					"os": "OS2.0.209.0.VBOMIXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "creek_global-ota_full-OS2.0.209.0.VBOMIXM-user-15.0-71dc4cb58a.zip",
+					"fastboot": "creek_global_images_OS2.0.209.0.VBOMIXM_20250917.0000.00_15.0_global_fe5c360de7.tgz"
+				},
+				"OS2.0.207.0.VBOMIXM": {
+					"os": "OS2.0.207.0.VBOMIXM",
+					"android": "15.0",
+					"release": "2025-08-14",
+					"recovery": "creek_global-ota_full-OS2.0.207.0.VBOMIXM-user-15.0-d328b3b276.zip",
+					"fastboot": "creek_global_images_OS2.0.207.0.VBOMIXM_20250806.0000.00_15.0_global_1f47ed25d3.tgz"
+				},
+				"OS2.0.205.0.VBOMIXM": {
+					"os": "OS2.0.205.0.VBOMIXM",
+					"android": "15.0",
+					"release": "2025-08-14",
+					"recovery": "creek_global-ota_full-OS2.0.205.0.VBOMIXM-user-15.0-9b32f4c505.zip",
+					"fastboot": ""
+				},
+				"OS2.0.203.0.VBOMIXM": {
+					"os": "OS2.0.203.0.VBOMIXM",
+					"android": "15.0",
+					"release": "2025-08-14",
+					"recovery": "creek_global-ota_full-OS2.0.203.0.VBOMIXM-user-15.0-0836433ec0.zip",
+					"fastboot": ""
+				},
+				"OS2.0.201.0.VBOMIXM": {
+					"os": "OS2.0.201.0.VBOMIXM",
+					"android": "15.0",
+					"release": "2025-08-14",
+					"recovery": "creek_global-ota_full-OS2.0.201.0.VBOMIXM-user-15.0-b74db53de5.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "creek_dc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WBOMIDC": {
+					"os": "OS3.0.3.0.WBOMIDC",
+					"android": "16.0",
+					"release": "2026-04-29",
+					"recovery": "creek_dc_global-ota_full-OS3.0.3.0.WBOMIDC-user-16.0-958a33fe1b.zip",
+					"fastboot": "creek_dc_global_images_OS3.0.3.0.WBOMIDC_20260422.0000.00_16.0_global_dc_902118cb0f.tgz"
+				},
+				"OS3.0.2.0.WBOMIDC": {
+					"os": "OS3.0.2.0.WBOMIDC",
+					"android": "16.0",
+					"release": "2026-02-23",
+					"recovery": "creek_dc_global-ota_full-OS3.0.2.0.WBOMIDC-user-16.0-be417eb3ff.zip",
+					"fastboot": "creek_dc_global_images_OS3.0.2.0.WBOMIDC_20260129.0000.00_16.0_global_dc_b7ddd92b44.tgz"
+				},
+				"OS3.0.1.0.WBOMIDC": {
+					"os": "OS3.0.1.0.WBOMIDC",
+					"android": "16.0",
+					"release": "2026-01-04",
+					"recovery": "creek_dc_global-ota_full-OS3.0.1.0.WBOMIDC-user-16.0-184559fe62.zip",
+					"fastboot": "creek_dc_global_images_OS3.0.1.0.WBOMIDC_20251213.0000.00_16.0_global_dc_9c006eb064.tgz"
+				},
+				"OS2.0.205.0.VBOMIDC": {
+					"os": "OS2.0.205.0.VBOMIDC",
+					"android": "15.0",
+					"release": "2026-01-23",
+					"recovery": "",
+					"fastboot": "creek_dc_global_images_OS2.0.205.0.VBOMIDC_20251230.0000.00_15.0_global_dc_5d4b632731.tgz"
+				},
+				"OS2.0.204.0.VBOMIDC": {
+					"os": "OS2.0.204.0.VBOMIDC",
+					"android": "15.0",
+					"release": "2025-12-01",
+					"recovery": "creek_dc_global-ota_full-OS2.0.204.0.VBOMIDC-user-15.0-744bfbeaef.zip",
+					"fastboot": "creek_dc_global_images_OS2.0.204.0.VBOMIDC_20251120.0000.00_15.0_global_dc_05059834f1.tgz"
+				},
+				"OS2.0.203.0.VBOMIDC": {
+					"os": "OS2.0.203.0.VBOMIDC",
+					"android": "15.0",
+					"release": "2025-10-09",
+					"recovery": "creek_dc_global-ota_full-OS2.0.203.0.VBOMIDC-user-15.0-6f1a7551d0.zip",
+					"fastboot": "creek_dc_global_images_OS2.0.203.0.VBOMIDC_20250923.0000.00_15.0_global_dc_51c64fa38c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "creek_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.6.0.WBOEUXM": {
+					"os": "OS3.0.6.0.WBOEUXM",
+					"android": "16.0",
+					"release": "2026-04-29",
+					"recovery": "creek_eea_global-ota_full-OS3.0.6.0.WBOEUXM-user-16.0-b2427c70d3.zip",
+					"fastboot": "creek_eea_global_images_OS3.0.6.0.WBOEUXM_20260422.0000.00_16.0_eea_030abcda53.tgz"
+				},
+				"OS3.0.5.0.WBOEUXM": {
+					"os": "OS3.0.5.0.WBOEUXM",
+					"android": "16.0",
+					"release": "2026-02-24",
+					"recovery": "creek_eea_global-ota_full-OS3.0.5.0.WBOEUXM-user-16.0-8555363ee0.zip",
+					"fastboot": "creek_eea_global_images_OS3.0.5.0.WBOEUXM_20260126.0000.00_16.0_eea_1a0e3e5326.tgz"
+				},
+				"OS3.0.4.0.WBOEUXM": {
+					"os": "OS3.0.4.0.WBOEUXM",
+					"android": "16.0",
+					"release": "2026-01-12",
+					"recovery": "creek_eea_global-ota_full-OS3.0.4.0.WBOEUXM-user-16.0-6243c98658.zip",
+					"fastboot": "creek_eea_global_images_OS3.0.4.0.WBOEUXM_20260104.0000.00_16.0_eea_26be8536a4.tgz"
+				},
+				"OS3.0.2.0.WBOEUXM": {
+					"os": "OS3.0.2.0.WBOEUXM",
+					"android": "16.0",
+					"release": "2025-12-15",
+					"recovery": "creek_eea_global-ota_full-OS3.0.2.0.WBOEUXM-user-16.0-1893cac1c5.zip",
+					"fastboot": "creek_eea_global_images_OS3.0.2.0.WBOEUXM_20251128.0000.00_16.0_eea_30e705ad3a.tgz"
+				},
+				"OS2.0.205.0.VBOEUXM": {
+					"os": "OS2.0.205.0.VBOEUXM",
+					"android": "15.0",
+					"release": "2025-11-24",
+					"recovery": "creek_eea_global-ota_full-OS2.0.205.0.VBOEUXM-user-15.0-841d23fe5b.zip",
+					"fastboot": "creek_eea_global_images_OS2.0.205.0.VBOEUXM_20251114.0000.00_15.0_eea_0f67a101fe.tgz"
+				},
+				"OS2.0.204.0.VBOEUXM": {
+					"os": "OS2.0.204.0.VBOEUXM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "creek_eea_global-ota_full-OS2.0.204.0.VBOEUXM-user-15.0-0dee37fb50.zip",
+					"fastboot": "creek_eea_global_images_OS2.0.204.0.VBOEUXM_20250917.0000.00_15.0_eea_1e1b2ab59a.tgz"
+				},
+				"OS2.0.203.0.VBOEUXM": {
+					"os": "OS2.0.203.0.VBOEUXM",
+					"android": "15.0",
+					"release": "2025-08-25",
+					"recovery": "creek_eea_global-ota_full-OS2.0.203.0.VBOEUXM-user-15.0-edad663cd5.zip",
+					"fastboot": "creek_eea_global_images_OS2.0.203.0.VBOEUXM_20250723.0000.00_15.0_eea_699519a012.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA Demo",
+				"en": "Xiaomi HyperOS Europe EEA Demo"
+			},
+			"branchCode": "creek_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "EEAD",
+			"tag": "EUDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.200.0.VBOEUDM": {
+					"os": "OS2.0.200.0.VBOEUDM",
+					"android": "15.0",
+					"release": "2025-09-26",
+					"recovery": "creek_eea_global-ota_full-OS2.0.200.0.VBOEUDM-user-15.0-b35d779350.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "creek_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WBORUXM": {
+					"os": "OS3.0.301.0.WBORUXM",
+					"android": "16.0",
+					"release": "2026-05-18",
+					"recovery": "creek_ru_global-ota_full-OS3.0.301.0.WBORUXM-user-16.0-513515215f.zip",
+					"fastboot": "creek_ru_global_images_OS3.0.301.0.WBORUXM_20260507.0000.00_16.0_ru_0d8a41cb62.tgz"
+				},
+				"OS3.0.2.0.WBORUXM": {
+					"os": "OS3.0.2.0.WBORUXM",
+					"android": "16.0",
+					"release": "2026-02-23",
+					"recovery": "creek_ru_global-ota_full-OS3.0.2.0.WBORUXM-user-16.0-e20787044f.zip",
+					"fastboot": "creek_ru_global_images_OS3.0.2.0.WBORUXM_20260129.0000.00_16.0_ru_b3af2fc2cf.tgz"
+				},
+				"OS3.0.1.0.WBORUXM": {
+					"os": "OS3.0.1.0.WBORUXM",
+					"android": "16.0",
+					"release": "2025-12-25",
+					"recovery": "creek_ru_global-ota_full-OS3.0.1.0.WBORUXM-user-16.0-6798b55c6f.zip",
+					"fastboot": "creek_ru_global_images_OS3.0.1.0.WBORUXM_20251209.0000.00_16.0_ru_ba5692a41c.tgz"
+				},
+				"OS2.0.207.0.VBORUXM": {
+					"os": "OS2.0.207.0.VBORUXM",
+					"android": "15.0",
+					"release": "2025-12-01",
+					"recovery": "creek_ru_global-ota_full-OS2.0.207.0.VBORUXM-user-15.0-b14c381f5f.zip",
+					"fastboot": "creek_ru_global_images_OS2.0.207.0.VBORUXM_20251121.0000.00_15.0_ru_f4d72d1b25.tgz"
+				},
+				"OS2.0.205.0.VBORUXM": {
+					"os": "OS2.0.205.0.VBORUXM",
+					"android": "15.0",
+					"release": "2025-09-28",
+					"recovery": "creek_ru_global-ota_full-OS2.0.205.0.VBORUXM-user-15.0-b2659d6eeb.zip",
+					"fastboot": "creek_ru_global_images_OS2.0.205.0.VBORUXM_20250917.0000.00_15.0_ru_98846205fa.tgz"
+				},
+				"OS2.0.204.0.VBORUXM": {
+					"os": "OS2.0.204.0.VBORUXM",
+					"android": "15.0",
+					"release": "2025-08-28",
+					"recovery": "creek_ru_global-ota_full-OS2.0.204.0.VBORUXM-user-15.0-ad173bd7c4.zip",
+					"fastboot": "creek_ru_global_images_OS2.0.204.0.VBORUXM_20250805.0000.00_15.0_ru_d1defaadfc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "creek_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.5.0.WBOIDXM": {
+					"os": "OS3.0.5.0.WBOIDXM",
+					"android": "16.0",
+					"release": "2026-03-26",
+					"recovery": "creek_id_global-ota_full-OS3.0.5.0.WBOIDXM-user-16.0-e23a81aa76.zip",
+					"fastboot": "creek_id_global_images_OS3.0.5.0.WBOIDXM_20260313.0000.00_16.0_id_0589d3eb1f.tgz"
+				},
+				"OS3.0.4.0.WBOIDXM": {
+					"os": "OS3.0.4.0.WBOIDXM",
+					"android": "16.0",
+					"release": "2026-02-24",
+					"recovery": "creek_id_global-ota_full-OS3.0.4.0.WBOIDXM-user-16.0-655e8e8436.zip",
+					"fastboot": ""
+				},
+				"OS3.0.3.0.WBOIDXM": {
+					"os": "OS3.0.3.0.WBOIDXM",
+					"android": "16.0",
+					"release": "2026-01-15",
+					"recovery": "creek_id_global-ota_full-OS3.0.3.0.WBOIDXM-user-16.0-4f66e4a025.zip",
+					"fastboot": "creek_id_global_images_OS3.0.3.0.WBOIDXM_20260105.0000.00_16.0_id_20ca2ea53d.tgz"
+				},
+				"OS2.0.206.0.VBOIDXM": {
+					"os": "OS2.0.206.0.VBOIDXM",
+					"android": "15.0",
+					"release": "2026-03-03",
+					"recovery": "creek_id_global-ota_full-OS2.0.206.0.VBOIDXM-user-15.0-0d2e60b3e6.zip",
+					"fastboot": "creek_id_global_images_OS2.0.206.0.VBOIDXM_20260205.0000.00_15.0_id_75a40e0fa9.tgz"
+				},
+				"OS2.0.205.0.VBOIDXM": {
+					"os": "OS2.0.205.0.VBOIDXM",
+					"android": "15.0",
+					"release": "2025-11-24",
+					"recovery": "creek_id_global-ota_full-OS2.0.205.0.VBOIDXM-user-15.0-1895a563ac.zip",
+					"fastboot": "creek_id_global_images_OS2.0.205.0.VBOIDXM_20251114.0000.00_15.0_id_63b4535a92.tgz"
+				},
+				"OS2.0.204.0.VBOIDXM": {
+					"os": "OS2.0.204.0.VBOIDXM",
+					"android": "15.0",
+					"release": "2025-09-24",
+					"recovery": "creek_id_global-ota_full-OS2.0.204.0.VBOIDXM-user-15.0-9c4ff1f75f.zip",
+					"fastboot": "creek_id_global_images_OS2.0.204.0.VBOIDXM_20250917.0000.00_15.0_id_be38e33ee8.tgz"
+				},
+				"OS2.0.203.0.VBOIDXM": {
+					"os": "OS2.0.203.0.VBOIDXM",
+					"android": "15.0",
+					"release": "2025-08-28",
+					"recovery": "creek_id_global-ota_full-OS2.0.203.0.VBOIDXM-user-15.0-1768957e14.zip",
+					"fastboot": "creek_id_global_images_OS2.0.203.0.VBOIDXM_20250723.0000.00_15.0_id_c0c314ebaf.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "creek_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WBOTRXM": {
+					"os": "OS3.0.2.0.WBOTRXM",
+					"android": "16.0",
+					"release": "2026-04-03",
+					"recovery": "creek_tr_global-ota_full-OS3.0.2.0.WBOTRXM-user-16.0-b3dd16bbb8.zip",
+					"fastboot": "creek_tr_global_images_OS3.0.2.0.WBOTRXM_20260316.0000.00_16.0_tr_3e1a4ddd58.tgz"
+				},
+				"OS3.0.1.0.WBOTRXM": {
+					"os": "OS3.0.1.0.WBOTRXM",
+					"android": "16.0",
+					"release": "2026-01-26",
+					"recovery": "creek_tr_global-ota_full-OS3.0.1.0.WBOTRXM-user-16.0-dfd6513eb6.zip",
+					"fastboot": "creek_tr_global_images_OS3.0.1.0.WBOTRXM_20260115.0000.00_16.0_tr_b5efe9af89.tgz"
+				},
+				"OS2.0.204.0.VBOTRXM": {
+					"os": "OS2.0.204.0.VBOTRXM",
+					"android": "15.0",
+					"release": "2025-12-01",
+					"recovery": "creek_tr_global-ota_full-OS2.0.204.0.VBOTRXM-user-15.0-32a6c92227.zip",
+					"fastboot": "creek_tr_global_images_OS2.0.204.0.VBOTRXM_20251121.0000.00_15.0_tr_0ee3e0cb74.tgz"
+				},
+				"OS2.0.203.0.VBOTRXM": {
+					"os": "OS2.0.203.0.VBOTRXM",
+					"android": "15.0",
+					"release": "2025-10-09",
+					"recovery": "creek_tr_global-ota_full-OS2.0.203.0.VBOTRXM-user-15.0-a8f3272e7b.zip",
+					"fastboot": "creek_tr_global_images_OS2.0.203.0.VBOTRXM_20250923.0000.00_15.0_tr_a78da25bcb.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥AT&T运营商定制版",
+				"en": "Xiaomi HyperOS Mexico AT&T Carrier Edtion"
+			},
+			"branchCode": "creek_mx_at_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "MXAT",
+			"tag": "MXAT",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"at"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WBOMXAT": {
+					"os": "OS3.0.1.0.WBOMXAT",
+					"android": "16.0",
+					"release": "2026-04-28",
+					"recovery": "creek_mx_at_global-ota_full-OS3.0.1.0.WBOMXAT-user-16.0-d6d26b5cf1.zip",
+					"fastboot": "creek_mx_at_global_images_OS3.0.1.0.WBOMXAT_20260320.0000.00_16.0_mx_at_a19fe113a4.tgz"
+				},
+				"OS2.0.205.0.VBOMXAT": {
+					"os": "OS2.0.205.0.VBOMXAT",
+					"android": "15.0",
+					"release": "2025-12-17",
+					"recovery": "creek_mx_at_global-ota_full-OS2.0.205.0.VBOMXAT-user-15.0-695ce4ae2d.zip",
+					"fastboot": "creek_mx_at_global_images_OS2.0.205.0.VBOMXAT_20251127.0000.00_15.0_mx_at_ba32f59283.tgz"
+				},
+				"OS2.0.204.0.VBOMXAT": {
+					"os": "OS2.0.204.0.VBOMXAT",
+					"android": "15.0",
+					"release": "2025-10-15",
+					"recovery": "creek_mx_at_global-ota_full-OS2.0.204.0.VBOMXAT-user-15.0-4f1cb817df.zip",
+					"fastboot": "creek_mx_at_global_images_OS2.0.204.0.VBOMXAT_20250912.0000.00_15.0_mx_at_a7dd6f41f3.tgz"
+				},
+				"OS2.0.203.0.VBOMXAT": {
+					"os": "OS2.0.203.0.VBOMXAT",
+					"android": "15.0",
+					"release": "2025-10-15",
+					"recovery": "creek_mx_at_global-ota_full-OS2.0.203.0.VBOMXAT-user-15.0-48b0489dfa.zip",
+					"fastboot": "creek_mx_at_global_images_OS2.0.203.0.VBOMXAT_20250730.0000.00_15.0_mx_at_10bba19665.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "creek_lm_cr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.1.0.WBOLMCR": {
+					"os": "OS3.0.1.0.WBOLMCR",
+					"android": "16.0",
+					"release": "2026-05-25",
+					"recovery": "creek_lm_cr_global-ota_full-OS3.0.1.0.WBOLMCR-user-16.0-04a1ea3072.zip",
+					"fastboot": "creek_lm_cr_global_images_OS3.0.1.0.WBOLMCR_20260422.0000.00_16.0_lm_cr_769ceac355.tgz"
+				},
+				"OS2.0.206.0.VBOLMCR": {
+					"os": "OS2.0.206.0.VBOLMCR",
+					"android": "15.0",
+					"release": "2026-01-21",
+					"recovery": "creek_lm_cr_global-ota_full-OS2.0.206.0.VBOLMCR-user-15.0-ada6e92033.zip",
+					"fastboot": "creek_lm_cr_global_images_OS2.0.206.0.VBOLMCR_20251230.0000.00_15.0_lm_cr_1fe2ab83b0.tgz"
+				},
+				"OS2.0.205.0.VBOLMCR": {
+					"os": "OS2.0.205.0.VBOLMCR",
+					"android": "15.0",
+					"release": "2025-12-01",
+					"recovery": "creek_lm_cr_global-ota_full-OS2.0.205.0.VBOLMCR-user-15.0-75bd3b0d92.zip",
+					"fastboot": "creek_lm_cr_global_images_OS2.0.205.0.VBOLMCR_20251105.0000.00_15.0_lm_cr_081c02826c.tgz"
+				},
+				"OS2.0.204.0.VBOLMCR": {
+					"os": "OS2.0.204.0.VBOLMCR",
+					"android": "15.0",
+					"release": "2025-09-23",
+					"recovery": "creek_lm_cr_global-ota_full-OS2.0.204.0.VBOLMCR-user-15.0-740c0a3d5c.zip",
+					"fastboot": "creek_lm_cr_global_images_OS2.0.204.0.VBOLMCR_20250909.0000.00_15.0_lm_cr_e8723e8eb6.tgz"
+				},
+				"OS2.0.201.0.VBOLMCR": {
+					"os": "OS2.0.201.0.VBOLMCR",
+					"android": "15.0",
+					"release": "2025-09-23",
+					"recovery": "creek_lm_cr_global-ota_full-OS2.0.201.0.VBOLMCR-user-15.0-49fac36053.zip",
+					"fastboot": "creek_lm_cr_global_images_OS2.0.201.0.VBOLMCR_20250715.0000.00_15.0_lm_cr_1bbac8fed3.tgz"
+				}
+			}
+		}
+	]
 }
