@@ -3867,7 +3867,7 @@ def extract_build_date_from_filename(filename):
 
 METADATA_PATH = "META-INF/com/android/metadata"
 METADATA_PB_PATH = "META-INF/com/android/metadata.pb"
-END_BYTES_SIZE = 4096
+END_BYTES_SIZE = 65536  # 增大到 64KB，应对带较长注释的 ZIP 文件
 LOCAL_HEADER_SIZE = 256
 TIMEOUT_MS = 20000
 
