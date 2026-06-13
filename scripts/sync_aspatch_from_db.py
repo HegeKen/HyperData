@@ -6,6 +6,7 @@ def sync_aspatch_from_db():
     """
     按照 OScommon.order 的顺序遍历本地 JSON 数据，
     从数据库获取 aspatch 并添加到对应的 ROM 数据中。
+    数据库中 aspatch 为 NULL 时写入空字符串。
     """
     # 1. 获取 order 列表中的设备
     devices_order = OScommon.order
@@ -19,7 +20,7 @@ def sync_aspatch_from_db():
 
     for device in devices_order:
         device_file = OScommon.get_platform_path(f"public/data/devices/{device}.json")
-        
+
         if not os.path.exists(device_file):
             print(f"跳过不存在的设备: {device}")
             skipped_count += 1
@@ -40,17 +41,13 @@ def sync_aspatch_from_db():
         for branch in branches:
             roms = branch.get('roms', {})
             table_fields = branch.get('table', [])
-            
+
             # 检查是否需要处理 aspatch
             if 'aspatch' not in table_fields:
                 continue
 
             for version, rom_data in roms.items():
                 total_checked += 1
-                
-                # 如果已经有 aspatch，跳过
-                if rom_data.get('aspatch'):
-                    continue
 
                 # 从数据库查询 aspatch
                 code = branch.get('branchCode', '')
@@ -59,15 +56,27 @@ def sync_aspatch_from_db():
 
                 try:
                     # 查询数据库
-                    sql = f"SELECT aspatch FROM roms WHERE code = '{code}' AND version = '{version}' AND aspatch IS NOT NULL LIMIT 1"
+                    sql = f"SELECT aspatch FROM roms WHERE code = '{code}' AND version = '{version}' LIMIT 1"
                     result = OScommon.db_job_latest(sql)
-                    
+
+                    # 获取 aspatch 值，如果为 NULL 则写入空字符串
                     if result and result[0]:
                         # 将 date 对象转换为字符串格式 (YYYY-MM-DD)
                         aspatch_value = str(result[0]) if hasattr(result[0], 'strftime') else result[0]
-                        rom_data['aspatch'] = aspatch_value
-                        device_updated += 1
-                        print(f"✓ [{device}] {device_name} - {version} → {aspatch_value}")
+                    else:
+                        aspatch_value = ""
+
+                    # 重建 rom_data，将 aspatch 插入到 release 和 recovery 之间
+                    new_rom_data = {}
+                    for key, value in rom_data.items():
+                        new_rom_data[key] = value
+                        # 在 release 之后插入 aspatch
+                        if key == 'release':
+                            new_rom_data['aspatch'] = aspatch_value
+                    roms[version] = new_rom_data
+
+                    device_updated += 1
+                    print(f"✓ [{device}] {device_name} - {version} → {aspatch_value if aspatch_value else '(空)'}")
                 except Exception as e:
                     print(f"✗ [{device}] 查询失败: {version} - {e}")
                     continue

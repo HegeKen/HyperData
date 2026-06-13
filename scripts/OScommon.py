@@ -211,7 +211,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'kunzite', 'lapis', 'coral', 'flourite', 'peridot', 'rodin', 'onyx', 'klee', 'dash', 'alioth',
 				 'charoite', 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali', 'annibale', 'prague', 'myron',
-				 'yunluo', 'xun', 'erhu', 'guitar', 'flare', 'spark', 'koto', 'taiko', 'flute', 'organ', 'dizi', 'ruan', 'turner', 'yili', 'warm', 'serenity', 'somalia', 'evergreen', 'rock', 'moonstone']
+				 'yunluo', 'xun', 'erhu', 'guitar', 'flare', 'spark', 'koto', 'taiko', 'flute', 'organ', 'dizi', 'ruan', 'turner', 'yili', 'warm', 'serenity', 'arctic', 'somalia', 'evergreen', 'rock', 'moonstone']
 
 branches = [
 	{
@@ -3296,16 +3296,22 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 	# 获取table字段列表
 	table_fields = target_branch.get("table", [])
 	
-	# 根据table表创建新ROM条目，不使用模板
-	new_rom = {
-		"os": version,
-		"android": android,
-		"release": get_time(form_url(filename, version))
-	}
+	# 根据table表创建新ROM条目，按table顺序构建字典
+	new_rom = {}
 	
-	# 初始化table中的所有字段为空字符串
+	# 按table顺序初始化所有字段
 	for field in table_fields:
-		if field not in ["os", "android", "release"]:
+		if field == "os":
+			new_rom[field] = version
+		elif field == "android":
+			new_rom[field] = android
+		elif field == "release":
+			new_rom[field] = get_time(form_url(filename, version))
+		elif field == "aspatch":
+			# 初始化为空字符串，后续根据文件类型填充
+			new_rom[field] = ""
+		else:
+			# 其他字段初始化为空字符串
 			new_rom[field] = ""
 	
 	# 根据文件类型和运商标识设置相应字段
@@ -3331,17 +3337,6 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 		else:
 			# 普通版 fastboot
 			new_rom["fastboot"] = filename
-	
-	# 确保基础字段存在
-	base_fields = ["recovery", "fastboot", "ctelecom", "cnmobile", "cnunicom"]
-	for field in base_fields:
-		if field not in new_rom:
-			new_rom[field] = ""
-	
-	# 清理不在table中的字段
-	for key in list(new_rom.keys()):
-		if key not in ["os", "android", "release"] and key not in table_fields:
-			del new_rom[key]
 	
 	ordered_roms = OrderedDict()
 	inserted = False
@@ -3879,17 +3874,24 @@ def entryChecker(data,device):
 								else:
 									print(device, bname, os_version, "卡刷包的信息不对")
 									check.append(1)
-							for i in range(4,len(menu_items)):
-								if rom_info[menu_items[i]] != "" and rom_info[menu_items[i]].endswith(".tgz") and os_version in rom_info[menu_items[i]]:
-									i = 0
-								elif rom_info[menu_items[i]] == "":
-									i = 0
-								else:
-									if "Developer" in branch['name']['en']:
-										i = 0
-									else:
-										print(device, bname, os_version, "线刷包的信息不对")
-										check.append(1)
+							# 确定线刷包字段的起始索引
+					# 如果 table 包含 aspatch，则 recovery 在索引 4，线刷包从索引 5 开始
+					# 如果 table 不包含 aspatch，则 recovery 在索引 3，线刷包从索引 4 开始
+					fastboot_start_index = 4
+					if "aspatch" in menu_items:
+						fastboot_start_index = 5
+					
+					for i in range(fastboot_start_index, len(menu_items)):
+						if rom_info[menu_items[i]] != "" and rom_info[menu_items[i]].endswith(".tgz") and os_version in rom_info[menu_items[i]]:
+							i = 0
+						elif rom_info[menu_items[i]] == "":
+							i = 0
+						else:
+							if "Developer" in branch['name']['en']:
+								i = 0
+							else:
+								print(device, bname, os_version, "线刷包的信息不对")
+								check.append(1)
 							if os_version != rom_info['os']:
 								print(device, bname, os_version, "版本号不匹配")
 								check.append(1)
