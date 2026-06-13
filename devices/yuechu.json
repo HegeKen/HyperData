@@ -36,6 +36,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -57,7 +58,8 @@
 					"release": "2026-03-23",
 					"recovery": "yuechu-ota_full-OS3.0.3.0.VMICNXM-user-15.0-38e88bd6e4.zip",
 					"fastboot": "yuechu_images_OS3.0.3.0.VMICNXM_20260316.0000.00_15.0_cn_635903ef1d.tgz",
-					"ctelecom": "yuechu_images_OS3.0.3.0.VMICNXM_20260316.0000.00_15.0_cn_chinatelecom_e24f591376.tgz"
+					"ctelecom": "yuechu_images_OS3.0.3.0.VMICNXM_20260316.0000.00_15.0_cn_chinatelecom_e24f591376.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.VMICNXM": {
 					"os": "OS3.0.1.0.VMICNXM",
@@ -65,7 +67,8 @@
 					"release": "2026-01-14",
 					"recovery": "yuechu-ota_full-OS3.0.1.0.VMICNXM-user-15.0-1a77fe4387.zip",
 					"fastboot": "yuechu_images_OS3.0.1.0.VMICNXM_20251231.0000.00_15.0_cn_709d77efa3.tgz",
-					"ctelecom": "yuechu_images_OS3.0.1.0.VMICNXM_20251231.0000.00_15.0_cn_chinatelecom_da401077c1.tgz"
+					"ctelecom": "yuechu_images_OS3.0.1.0.VMICNXM_20251231.0000.00_15.0_cn_chinatelecom_da401077c1.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.213.0.VMICNXM": {
 					"os": "OS2.0.213.0.VMICNXM",
@@ -73,7 +76,8 @@
 					"release": "2025-12-06",
 					"recovery": "yuechu-ota_full-OS2.0.213.0.VMICNXM-user-15.0-744fc925ff.zip",
 					"fastboot": "yuechu_images_OS2.0.213.0.VMICNXM_20251202.0000.00_15.0_cn_641311f4d2.tgz",
-					"ctelecom": "yuechu_images_OS2.0.213.0.VMICNXM_20251202.0000.00_15.0_cn_chinatelecom_13b664009a.tgz"
+					"ctelecom": "yuechu_images_OS2.0.213.0.VMICNXM_20251202.0000.00_15.0_cn_chinatelecom_13b664009a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.211.0.VMICNXM": {
 					"os": "OS2.0.211.0.VMICNXM",
@@ -81,7 +85,8 @@
 					"release": "2025-11-21",
 					"recovery": "yuechu-ota_full-OS2.0.211.0.VMICNXM-user-15.0-4dc888c0df.zip",
 					"fastboot": "yuechu_images_OS2.0.211.0.VMICNXM_20251114.0000.00_15.0_cn_74e6f58fea.tgz",
-					"ctelecom": "yuechu_images_OS2.0.211.0.VMICNXM_20251114.0000.00_15.0_cn_chinatelecom_67955967cd.tgz"
+					"ctelecom": "yuechu_images_OS2.0.211.0.VMICNXM_20251114.0000.00_15.0_cn_chinatelecom_67955967cd.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VMICNXM": {
 					"os": "OS2.0.207.0.VMICNXM",
@@ -89,7 +94,8 @@
 					"release": "2025-10-22",
 					"recovery": "yuechu-ota_full-OS2.0.207.0.VMICNXM-user-15.0-dd82e46b91.zip",
 					"fastboot": "yuechu_images_OS2.0.207.0.VMICNXM_20251010.0000.00_15.0_cn_2ba5bfb906.tgz",
-					"ctelecom": "yuechu_images_OS2.0.207.0.VMICNXM_20251010.0000.00_15.0_cn_chinatelecom_3fb984803d.tgz"
+					"ctelecom": "yuechu_images_OS2.0.207.0.VMICNXM_20251010.0000.00_15.0_cn_chinatelecom_3fb984803d.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VMICNXM": {
 					"os": "OS2.0.206.0.VMICNXM",
@@ -97,7 +103,8 @@
 					"release": "2025-09-22",
 					"recovery": "yuechu-ota_full-OS2.0.206.0.VMICNXM-user-15.0-266f91b798.zip",
 					"fastboot": "yuechu_images_OS2.0.206.0.VMICNXM_20250918.0000.00_15.0_cn_5cc8367f21.tgz",
-					"ctelecom": "yuechu_images_OS2.0.206.0.VMICNXM_20250918.0000.00_15.0_cn_chinatelecom_85189f078c.tgz"
+					"ctelecom": "yuechu_images_OS2.0.206.0.VMICNXM_20250918.0000.00_15.0_cn_chinatelecom_85189f078c.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.204.0.VMICNXM": {
 					"os": "OS2.0.204.0.VMICNXM",
@@ -105,7 +112,8 @@
 					"release": "2025-08-20",
 					"recovery": "yuechu-ota_full-OS2.0.204.0.VMICNXM-user-15.0-99c5088966.zip",
 					"fastboot": "yuechu_images_OS2.0.204.0.VMICNXM_20250805.0000.00_15.0_cn_b46f27a503.tgz",
-					"ctelecom": "yuechu_images_OS2.0.204.0.VMICNXM_20250805.0000.00_15.0_cn_chinatelecom_0109d503a1.tgz"
+					"ctelecom": "yuechu_images_OS2.0.204.0.VMICNXM_20250805.0000.00_15.0_cn_chinatelecom_0109d503a1.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VMICNXM": {
 					"os": "OS2.0.203.0.VMICNXM",
@@ -113,7 +121,8 @@
 					"release": "2025-07-14",
 					"recovery": "yuechu-ota_full-OS2.0.203.0.VMICNXM-user-15.0-0027a866ff.zip",
 					"fastboot": "yuechu_images_OS2.0.203.0.VMICNXM_20250708.0000.00_15.0_cn_930af62672.tgz",
-					"ctelecom": "yuechu_images_OS2.0.203.0.VMICNXM_20250708.0000.00_15.0_cn_chinatelecom_f80cd0d853.tgz"
+					"ctelecom": "yuechu_images_OS2.0.203.0.VMICNXM_20250708.0000.00_15.0_cn_chinatelecom_f80cd0d853.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.7.0.VMICNXM": {
 					"os": "OS2.0.7.0.VMICNXM",
@@ -121,7 +130,8 @@
 					"release": "2025-06-26",
 					"recovery": "yuechu-ota_full-OS2.0.7.0.VMICNXM-user-15.0-b4d89a0f62.zip",
 					"fastboot": "yuechu_images_OS2.0.7.0.VMICNXM_20250616.0000.00_15.0_cn_59a5f698d7.tgz",
-					"ctelecom": "yuechu_images_OS2.0.7.0.VMICNXM_20250616.0000.00_15.0_cn_chinatelecom_2b22acbde1.tgz"
+					"ctelecom": "yuechu_images_OS2.0.7.0.VMICNXM_20250616.0000.00_15.0_cn_chinatelecom_2b22acbde1.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.6.0.VMICNXM": {
 					"os": "OS2.0.6.0.VMICNXM",
@@ -129,7 +139,8 @@
 					"release": "2025-05-16",
 					"recovery": "yuechu-ota_full-OS2.0.6.0.VMICNXM-user-15.0-94495c3e86.zip",
 					"fastboot": "yuechu_images_OS2.0.6.0.VMICNXM_20250509.0000.00_15.0_cn_fd3cab3771.tgz",
-					"ctelecom": "yuechu_images_OS2.0.6.0.VMICNXM_20250509.0000.00_15.0_cn_chinatelecom_8baa117184.tgz"
+					"ctelecom": "yuechu_images_OS2.0.6.0.VMICNXM_20250509.0000.00_15.0_cn_chinatelecom_8baa117184.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.4.0.VMICNXM": {
 					"os": "OS2.0.4.0.VMICNXM",
@@ -137,7 +148,8 @@
 					"release": "2025-04-09",
 					"recovery": "yuechu-ota_full-OS2.0.4.0.VMICNXM-user-15.0-f18d05b535.zip",
 					"fastboot": "yuechu_images_OS2.0.4.0.VMICNXM_20250331.0000.00_15.0_cn_afbc6971f4.tgz",
-					"ctelecom": "yuechu_images_OS2.0.4.0.VMICNXM_20250331.0000.00_15.0_cn_chinatelecom_69e9d587ec.tgz"
+					"ctelecom": "yuechu_images_OS2.0.4.0.VMICNXM_20250331.0000.00_15.0_cn_chinatelecom_69e9d587ec.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.3.0.VMICNXM": {
 					"os": "OS2.0.3.0.VMICNXM",
@@ -145,7 +157,8 @@
 					"release": "2025-03-20",
 					"recovery": "yuechu-ota_full-OS2.0.3.0.VMICNXM-user-15.0-ab285c13bc.zip",
 					"fastboot": "yuechu_images_OS2.0.3.0.VMICNXM_20250313.0000.00_15.0_cn_f72d502546.tgz",
-					"ctelecom": "yuechu_images_OS2.0.3.0.VMICNXM_20250313.0000.00_15.0_cn_chinatelecom_ca6112741a.tgz"
+					"ctelecom": "yuechu_images_OS2.0.3.0.VMICNXM_20250313.0000.00_15.0_cn_chinatelecom_ca6112741a.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VMICNXM": {
 					"os": "OS2.0.2.0.VMICNXM",
@@ -153,7 +166,8 @@
 					"release": "2025-03-04",
 					"recovery": "yuechu-ota_full-OS2.0.2.0.VMICNXM-user-15.0-a171fa4d1a.zip",
 					"fastboot": "yuechu_images_OS2.0.2.0.VMICNXM_20250226.0000.00_15.0_cn_94f3b2a996.tgz",
-					"ctelecom": "yuechu_images_OS2.0.2.0.VMICNXM_20250226.0000.00_15.0_cn_chinatelecom_fcfee4d7f2.tgz"
+					"ctelecom": "yuechu_images_OS2.0.2.0.VMICNXM_20250226.0000.00_15.0_cn_chinatelecom_fcfee4d7f2.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.17.0.UMICNXM": {
 					"os": "OS1.0.17.0.UMICNXM",
@@ -161,7 +175,8 @@
 					"release": "2025-02-05",
 					"recovery": "miui_YUECHU_OS1.0.17.0.UMICNXM_b61dd21d41_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.17.0.UMICNXM_20250113.0000.00_14.0_cn_05f49e6a97.tgz",
-					"ctelecom": "yuechu_images_OS1.0.17.0.UMICNXM_20250113.0000.00_14.0_cn_chinatelecom_82c32bcc95.tgz"
+					"ctelecom": "yuechu_images_OS1.0.17.0.UMICNXM_20250113.0000.00_14.0_cn_chinatelecom_82c32bcc95.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.16.0.UMICNXM": {
 					"os": "OS1.0.16.0.UMICNXM",
@@ -169,7 +184,8 @@
 					"release": "2025-01-14",
 					"recovery": "miui_YUECHU_OS1.0.16.0.UMICNXM_0ccb9bcde3_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.16.0.UMICNXM_20250109.0000.00_14.0_cn_cda12e3890.tgz",
-					"ctelecom": "yuechu_images_OS1.0.16.0.UMICNXM_20250109.0000.00_14.0_cn_chinatelecom_2ce069ab27.tgz"
+					"ctelecom": "yuechu_images_OS1.0.16.0.UMICNXM_20250109.0000.00_14.0_cn_chinatelecom_2ce069ab27.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.14.0.UMICNXM": {
 					"os": "OS1.0.14.0.UMICNXM",
@@ -177,7 +193,8 @@
 					"release": "2024-12-04",
 					"recovery": "miui_YUECHU_OS1.0.14.0.UMICNXM_efd9540957_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.14.0.UMICNXM_20241125.0000.00_14.0_cn_6d7e4404e5.tgz",
-					"ctelecom": "yuechu_images_OS1.0.14.0.UMICNXM_20241125.0000.00_14.0_cn_chinatelecom_7cf93ca253.tgz"
+					"ctelecom": "yuechu_images_OS1.0.14.0.UMICNXM_20241125.0000.00_14.0_cn_chinatelecom_7cf93ca253.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.12.0.UMICNXM": {
 					"os": "OS1.0.12.0.UMICNXM",
@@ -185,7 +202,8 @@
 					"release": "2024-10-30",
 					"recovery": "miui_YUECHU_OS1.0.12.0.UMICNXM_2d18463556_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.12.0.UMICNXM_20241018.0000.00_14.0_cn_e73b705c09.tgz",
-					"ctelecom": "yuechu_images_OS1.0.12.0.UMICNXM_20241018.0000.00_14.0_cn_chinatelecom_934b2b29bd.tgz"
+					"ctelecom": "yuechu_images_OS1.0.12.0.UMICNXM_20241018.0000.00_14.0_cn_chinatelecom_934b2b29bd.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UMICNXM": {
 					"os": "OS1.0.9.0.UMICNXM",
@@ -193,7 +211,8 @@
 					"release": "2024-09-20",
 					"recovery": "miui_YUECHU_OS1.0.9.0.UMICNXM_b6cb01d4a1_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.9.0.UMICNXM_20240906.0000.00_14.0_cn_743a8c3b07.tgz",
-					"ctelecom": "yuechu_images_OS1.0.9.0.UMICNXM_20240906.0000.00_14.0_cn_chinatelecom_9edcbb75a7.tgz"
+					"ctelecom": "yuechu_images_OS1.0.9.0.UMICNXM_20240906.0000.00_14.0_cn_chinatelecom_9edcbb75a7.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.8.0.UMICNXM": {
 					"os": "OS1.0.8.0.UMICNXM",
@@ -201,7 +220,8 @@
 					"release": "2024-08-28",
 					"recovery": "miui_YUECHU_OS1.0.8.0.UMICNXM_376064615e_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.8.0.UMICNXM_20240812.0000.00_14.0_cn_7a7c703f2e.tgz",
-					"ctelecom": "yuechu_images_OS1.0.8.0.UMICNXM_20240812.0000.00_14.0_cn_chinatelecom_0296c69af3.tgz"
+					"ctelecom": "yuechu_images_OS1.0.8.0.UMICNXM_20240812.0000.00_14.0_cn_chinatelecom_0296c69af3.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.7.0.UMICNXM": {
 					"os": "OS1.0.7.0.UMICNXM",
@@ -209,7 +229,8 @@
 					"release": "2024-07-31",
 					"recovery": "miui_YUECHU_OS1.0.7.0.UMICNXM_c0c6958baf_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.7.0.UMICNXM_20240718.0000.00_14.0_cn_4f5963640a.tgz",
-					"ctelecom": "yuechu_images_OS1.0.7.0.UMICNXM_20240718.0000.00_14.0_cn_chinatelecom_ea451399ab.tgz"
+					"ctelecom": "yuechu_images_OS1.0.7.0.UMICNXM_20240718.0000.00_14.0_cn_chinatelecom_ea451399ab.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.6.0.UMICNXM": {
 					"os": "OS1.0.6.0.UMICNXM",
@@ -217,7 +238,8 @@
 					"release": "2024-04-02",
 					"recovery": "miui_YUECHU_OS1.0.6.0.UMICNXM_4a6595abd5_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.6.0.UMICNXM_20240321.0000.00_14.0_cn_849ed622d7.tgz",
-					"ctelecom": "yuechu_images_OS1.0.6.0.UMICNXM_20240321.0000.00_14.0_cn_chinatelecom_7ea24041bb.tgz"
+					"ctelecom": "yuechu_images_OS1.0.6.0.UMICNXM_20240321.0000.00_14.0_cn_chinatelecom_7ea24041bb.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.4.0.UMICNXM": {
 					"os": "OS1.0.4.0.UMICNXM",
@@ -225,7 +247,8 @@
 					"release": "2024-01-03",
 					"recovery": "miui_YUECHU_OS1.0.4.0.UMICNXM_14e7bad1d9_14.0.zip",
 					"fastboot": "yuechu_images_OS1.0.4.0.UMICNXM_20231219.0000.00_14.0_cn_142978adc4.tgz",
-					"ctelecom": "yuechu_images_OS1.0.4.0.UMICNXM_20231219.0000.00_14.0_cn_chinatelecom_a666ca4b3c.tgz"
+					"ctelecom": "yuechu_images_OS1.0.4.0.UMICNXM_20231219.0000.00_14.0_cn_chinatelecom_a666ca4b3c.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.3.0.UMICNXM": {
 					"os": "OS1.0.3.0.UMICNXM",
@@ -233,7 +256,8 @@
 					"release": "2023-12-24",
 					"recovery": "miui_YUECHU_OS1.0.3.0.UMICNXM_b0a0391d84_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -255,6 +279,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -276,7 +301,8 @@
 					"release": "2023-12-19",
 					"recovery": "miui_YUECHUDEMO_OS1.0.2.0.UMICNDM_2706007e85_14.0.zip",
 					"fastboot": "yuechu_demo_images_OS1.0.2.0.UMICNDM_20231219.0000.00_14.0_cn_88acef7007.tgz",
-					"ctelecom": "yuechu_demo_images_OS1.0.2.0.UMICNDM_20231219.0000.00_14.0_cn_chinatelecom_a8dfd84a64.tgz"
+					"ctelecom": "yuechu_demo_images_OS1.0.2.0.UMICNDM_20231219.0000.00_14.0_cn_chinatelecom_a8dfd84a64.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		}

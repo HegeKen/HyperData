@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -54,70 +55,80 @@
 					"android": "16.0",
 					"release": "2026-04-28",
 					"recovery": "zorn-ota_full-OS3.0.302.9.WOKCNXM-user-16.0-f0b5f7ee89.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.302.4.WOKCNXM": {
 					"os": "OS3.0.302.4.WOKCNXM",
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "zorn-ota_full-OS3.0.302.4.WOKCNXM-user-16.0-2c191cf91f.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.7.WOKCNXM": {
 					"os": "OS3.0.300.7.WOKCNXM",
 					"android": "16.0",
 					"release": "2026-03-06",
 					"recovery": "zorn-ota_full-OS3.0.300.7.WOKCNXM-user-16.0-1a42adea25.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.4.WOKCNXM": {
 					"os": "OS3.0.300.4.WOKCNXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "zorn-ota_full-OS3.0.300.4.WOKCNXM-user-16.0-0d58948fa7.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.300.3.WOKCNXM": {
 					"os": "OS3.0.300.3.WOKCNXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "zorn-ota_full-OS3.0.300.3.WOKCNXM-user-16.0-76eaf5da32.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.0.14.WOKCNXM": {
 					"os": "OS3.0.0.14.WOKCNXM",
 					"android": "16.0",
 					"release": "2025-10-14",
 					"recovery": "zorn-ota_full-OS3.0.0.14.WOKCNXM-user-16.0-5771ce5761.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.12.WOKCNXM": {
 					"os": "OS3.0.0.12.WOKCNXM",
 					"android": "16.0",
 					"release": "2025-09-25",
 					"recovery": "zorn-ota_full-OS3.0.0.12.WOKCNXM-user-16.0-013951d4a2.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS3.0.0.8.WOKCNXM": {
 					"os": "OS3.0.0.8.WOKCNXM",
 					"android": "16.0",
 					"release": "2025-09-15",
 					"recovery": "zorn-ota_full-OS3.0.0.8.WOKCNXM-user-16.0-64f1a39bb4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-05"
 				},
 				"OS2.0.200.15.VOKCNXM": {
 					"os": "OS2.0.200.15.VOKCNXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "zorn-ota_full-OS2.0.200.15.VOKCNXM-user-15.0-a4d63ef457.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.9.VOKCNXM": {
 					"os": "OS2.0.200.9.VOKCNXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "zorn-ota_full-OS2.0.200.9.VOKCNXM-user-15.0-4963df7a40.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				}
 			}
 		},
@@ -139,6 +150,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -160,7 +172,8 @@
 					"release": "2026-05-07",
 					"recovery": "zorn-ota_full-OS3.0.303.0.WOKCNXM-user-16.0-baad141bc9.zip",
 					"fastboot": "zorn_images_OS3.0.303.0.WOKCNXM_20260425.0000.00_16.0_cn_e6cf5ef711.tgz",
-					"ctelecom": "zorn_images_OS3.0.303.0.WOKCNXM_20260425.0000.00_16.0_cn_chinatelecom_c61a704b50.tgz"
+					"ctelecom": "zorn_images_OS3.0.303.0.WOKCNXM_20260425.0000.00_16.0_cn_chinatelecom_c61a704b50.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.302.0.WOKCNXM": {
 					"os": "OS3.0.302.0.WOKCNXM",
@@ -168,7 +181,8 @@
 					"release": "2026-03-23",
 					"recovery": "zorn-ota_full-OS3.0.302.0.WOKCNXM-user-16.0-5518fb7844.zip",
 					"fastboot": "zorn_images_OS3.0.302.0.WOKCNXM_20260314.0000.00_16.0_cn_ff7a5102ca.tgz",
-					"ctelecom": "zorn_images_OS3.0.302.0.WOKCNXM_20260314.0000.00_16.0_cn_chinatelecom_1317e1efdf.tgz"
+					"ctelecom": "zorn_images_OS3.0.302.0.WOKCNXM_20260314.0000.00_16.0_cn_chinatelecom_1317e1efdf.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.9.0.WOKCNXM": {
 					"os": "OS3.0.9.0.WOKCNXM",
@@ -176,7 +190,8 @@
 					"release": "2026-01-29",
 					"recovery": "zorn-ota_full-OS3.0.9.0.WOKCNXM-user-16.0-490db3e034.zip",
 					"fastboot": "zorn_images_OS3.0.9.0.WOKCNXM_20260122.0000.00_16.0_cn_353dbf1560.tgz",
-					"ctelecom": "zorn_images_OS3.0.9.0.WOKCNXM_20260122.0000.00_16.0_cn_chinatelecom_624c2bc596.tgz"
+					"ctelecom": "zorn_images_OS3.0.9.0.WOKCNXM_20260122.0000.00_16.0_cn_chinatelecom_624c2bc596.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.8.0.WOKCNXM": {
 					"os": "OS3.0.8.0.WOKCNXM",
@@ -184,7 +199,8 @@
 					"release": "2026-01-20",
 					"recovery": "zorn-ota_full-OS3.0.8.0.WOKCNXM-user-16.0-ef83e15b64.zip",
 					"fastboot": "zorn_images_OS3.0.8.0.WOKCNXM_20260116.0000.00_16.0_cn_07e91f6d62.tgz",
-					"ctelecom": "zorn_images_OS3.0.8.0.WOKCNXM_20260116.0000.00_16.0_cn_chinatelecom_0441105ef7.tgz"
+					"ctelecom": "zorn_images_OS3.0.8.0.WOKCNXM_20260116.0000.00_16.0_cn_chinatelecom_0441105ef7.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.6.0.WOKCNXM": {
 					"os": "OS3.0.6.0.WOKCNXM",
@@ -192,7 +208,8 @@
 					"release": "2025-12-16",
 					"recovery": "zorn-ota_full-OS3.0.6.0.WOKCNXM-user-16.0-d5075d7f8e.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.4.0.WOKCNXM": {
 					"os": "OS3.0.4.0.WOKCNXM",
@@ -200,7 +217,8 @@
 					"release": "2025-11-13",
 					"recovery": "zorn-ota_full-OS3.0.4.0.WOKCNXM-user-16.0-072795b4bb.zip",
 					"fastboot": "zorn_images_OS3.0.4.0.WOKCNXM_20251106.0000.00_16.0_cn_d3beb407d3.tgz",
-					"ctelecom": "zorn_images_OS3.0.4.0.WOKCNXM_20251106.0000.00_16.0_cn_chinatelecom_d0be0baec8.tgz"
+					"ctelecom": "zorn_images_OS3.0.4.0.WOKCNXM_20251106.0000.00_16.0_cn_chinatelecom_d0be0baec8.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.3.0.WOKCNXM": {
 					"os": "OS3.0.3.0.WOKCNXM",
@@ -208,7 +226,8 @@
 					"release": "2025-10-28",
 					"recovery": "zorn-ota_full-OS3.0.3.0.WOKCNXM-user-16.0-0fb53068dc.zip",
 					"fastboot": "zorn_images_OS3.0.3.0.WOKCNXM_20251024.0000.00_16.0_cn_1004151edc.tgz",
-					"ctelecom": "zorn_images_OS3.0.3.0.WOKCNXM_20251024.0000.00_16.0_cn_chinatelecom_077a0984a1.tgz"
+					"ctelecom": "zorn_images_OS3.0.3.0.WOKCNXM_20251024.0000.00_16.0_cn_chinatelecom_077a0984a1.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.216.0.VOKCNXM": {
 					"os": "OS2.0.216.0.VOKCNXM",
@@ -216,7 +235,8 @@
 					"release": "2025-09-19",
 					"recovery": "zorn-ota_full-OS2.0.216.0.VOKCNXM-user-15.0-36e9316a97.zip",
 					"fastboot": "zorn_images_OS2.0.216.0.VOKCNXM_20250916.0000.00_15.0_cn_ddcf9943c2.tgz",
-					"ctelecom": "zorn_images_OS2.0.216.0.VOKCNXM_20250916.0000.00_15.0_cn_chinatelecom_52d202bc90.tgz"
+					"ctelecom": "zorn_images_OS2.0.216.0.VOKCNXM_20250916.0000.00_15.0_cn_chinatelecom_52d202bc90.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.215.0.VOKCNXM": {
 					"os": "OS2.0.215.0.VOKCNXM",
@@ -224,7 +244,8 @@
 					"release": "2025-09-05",
 					"recovery": "zorn-ota_full-OS2.0.215.0.VOKCNXM-user-15.0-2d85297718.zip",
 					"fastboot": "zorn_images_OS2.0.215.0.VOKCNXM_20250822.0000.00_15.0_cn_748f8ad4fe.tgz",
-					"ctelecom": "zorn_images_OS2.0.215.0.VOKCNXM_20250822.0000.00_15.0_cn_chinatelecom_9354d09c58.tgz"
+					"ctelecom": "zorn_images_OS2.0.215.0.VOKCNXM_20250822.0000.00_15.0_cn_chinatelecom_9354d09c58.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.214.0.VOKCNXM": {
 					"os": "OS2.0.214.0.VOKCNXM",
@@ -232,7 +253,8 @@
 					"release": "2025-08-25",
 					"recovery": "zorn-ota_full-OS2.0.214.0.VOKCNXM-user-15.0-53086fd26a.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.213.0.VOKCNXM": {
 					"os": "OS2.0.213.0.VOKCNXM",
@@ -240,7 +262,8 @@
 					"release": "2025-08-18",
 					"recovery": "zorn-ota_full-OS2.0.213.0.VOKCNXM-user-15.0-03e5634683.zip",
 					"fastboot": "zorn_images_OS2.0.213.0.VOKCNXM_20250813.0000.00_15.0_cn_46b452447a.tgz",
-					"ctelecom": "zorn_images_OS2.0.213.0.VOKCNXM_20250813.0000.00_15.0_cn_chinatelecom_d7f2c51cbd.tgz"
+					"ctelecom": "zorn_images_OS2.0.213.0.VOKCNXM_20250813.0000.00_15.0_cn_chinatelecom_d7f2c51cbd.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.208.0.VOKCNXM": {
 					"os": "OS2.0.208.0.VOKCNXM",
@@ -248,7 +271,8 @@
 					"release": "2025-07-23",
 					"recovery": "zorn-ota_full-OS2.0.208.0.VOKCNXM-user-15.0-48f290c974.zip",
 					"fastboot": "zorn_images_OS2.0.208.0.VOKCNXM_20250716.0000.00_15.0_cn_457a8bbc5f.tgz",
-					"ctelecom": "zorn_images_OS2.0.208.0.VOKCNXM_20250716.0000.00_15.0_cn_chinatelecom_66f2531c90.tgz"
+					"ctelecom": "zorn_images_OS2.0.208.0.VOKCNXM_20250716.0000.00_15.0_cn_chinatelecom_66f2531c90.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.207.0.VOKCNXM": {
 					"os": "OS2.0.207.0.VOKCNXM",
@@ -256,7 +280,8 @@
 					"release": "2025-07-11",
 					"recovery": "zorn-ota_full-OS2.0.207.0.VOKCNXM-user-15.0-dd18c2a9bc.zip",
 					"fastboot": "zorn_images_OS2.0.207.0.VOKCNXM_20250708.0000.00_15.0_cn_da3b5bacc9.tgz",
-					"ctelecom": "zorn_images_OS2.0.207.0.VOKCNXM_20250708.0000.00_15.0_cn_chinatelecom_fd76af279a.tgz"
+					"ctelecom": "zorn_images_OS2.0.207.0.VOKCNXM_20250708.0000.00_15.0_cn_chinatelecom_fd76af279a.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.206.0.VOKCNXM": {
 					"os": "OS2.0.206.0.VOKCNXM",
@@ -264,7 +289,8 @@
 					"release": "2025-07-04",
 					"recovery": "zorn-ota_full-OS2.0.206.0.VOKCNXM-user-15.0-93d9ef51d3.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.205.0.VOKCNXM": {
 					"os": "OS2.0.205.0.VOKCNXM",
@@ -272,7 +298,8 @@
 					"release": "2025-06-27",
 					"recovery": "zorn-ota_full-OS2.0.205.0.VOKCNXM-user-15.0-6d1441e0bc.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.202.0.VOKCNXM": {
 					"os": "OS2.0.202.0.VOKCNXM",
@@ -280,7 +307,8 @@
 					"release": "2025-05-28",
 					"recovery": "zorn-ota_full-OS2.0.202.0.VOKCNXM-user-15.0-463de5580d.zip",
 					"fastboot": "zorn_images_OS2.0.202.0.VOKCNXM_20250522.0000.00_15.0_cn_0346b62a66.tgz",
-					"ctelecom": "zorn_images_OS2.0.202.0.VOKCNXM_20250522.0000.00_15.0_cn_chinatelecom_8489709ced.tgz"
+					"ctelecom": "zorn_images_OS2.0.202.0.VOKCNXM_20250522.0000.00_15.0_cn_chinatelecom_8489709ced.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.110.0.VOKCNXM": {
 					"os": "OS2.0.110.0.VOKCNXM",
@@ -288,7 +316,8 @@
 					"release": "2025-04-29",
 					"recovery": "zorn-ota_full-OS2.0.110.0.VOKCNXM-user-15.0-7aed5e9c28.zip",
 					"fastboot": "zorn_images_OS2.0.110.0.VOKCNXM_20250427.0000.00_15.0_cn_253f977b70.tgz",
-					"ctelecom": "zorn_images_OS2.0.110.0.VOKCNXM_20250427.0000.00_15.0_cn_chinatelecom_c52c50c053.tgz"
+					"ctelecom": "zorn_images_OS2.0.110.0.VOKCNXM_20250427.0000.00_15.0_cn_chinatelecom_c52c50c053.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.109.0.VOKCNXM": {
 					"os": "OS2.0.109.0.VOKCNXM",
@@ -296,7 +325,8 @@
 					"release": "2025-04-14",
 					"recovery": "zorn-ota_full-OS2.0.109.0.VOKCNXM-user-15.0-d936df248c.zip",
 					"fastboot": "zorn_images_OS2.0.109.0.VOKCNXM_20250409.0000.00_15.0_cn_6aaae94dd7.tgz",
-					"ctelecom": "zorn_images_OS2.0.109.0.VOKCNXM_20250409.0000.00_15.0_cn_chinatelecom_8a502b453c.tgz"
+					"ctelecom": "zorn_images_OS2.0.109.0.VOKCNXM_20250409.0000.00_15.0_cn_chinatelecom_8a502b453c.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.108.0.VOKCNXM": {
 					"os": "OS2.0.108.0.VOKCNXM",
@@ -304,7 +334,8 @@
 					"release": "2025-03-28",
 					"recovery": "zorn-ota_full-OS2.0.108.0.VOKCNXM-user-15.0-4b57758fb1.zip",
 					"fastboot": "zorn_images_OS2.0.108.0.VOKCNXM_20250324.0000.00_15.0_cn_37464553cd.tgz",
-					"ctelecom": "zorn_images_OS2.0.108.0.VOKCNXM_20250324.0000.00_15.0_cn_chinatelecom_6864ddb6b3.tgz"
+					"ctelecom": "zorn_images_OS2.0.108.0.VOKCNXM_20250324.0000.00_15.0_cn_chinatelecom_6864ddb6b3.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.107.0.VOKCNXM": {
 					"os": "OS2.0.107.0.VOKCNXM",
@@ -312,7 +343,8 @@
 					"release": "2025-03-17",
 					"recovery": "zorn-ota_full-OS2.0.107.0.VOKCNXM-user-15.0-d068343303.zip",
 					"fastboot": "zorn_images_OS2.0.107.0.VOKCNXM_20250314.0000.00_15.0_cn_1d01e8bb53.tgz",
-					"ctelecom": "zorn_images_OS2.0.107.0.VOKCNXM_20250314.0000.00_15.0_cn_chinatelecom_3e65ad15e6.tgz"
+					"ctelecom": "zorn_images_OS2.0.107.0.VOKCNXM_20250314.0000.00_15.0_cn_chinatelecom_3e65ad15e6.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.105.0.VOKCNXM": {
 					"os": "OS2.0.105.0.VOKCNXM",
@@ -320,7 +352,8 @@
 					"release": "2025-03-01",
 					"recovery": "zorn-ota_full-OS2.0.105.0.VOKCNXM-user-15.0-76ae10e140.zip",
 					"fastboot": "zorn_images_OS2.0.105.0.VOKCNXM_20250222.0000.00_15.0_cn_26ab97ffeb.tgz",
-					"ctelecom": "zorn_images_OS2.0.105.0.VOKCNXM_20250222.0000.00_15.0_cn_chinatelecom_33ba1cf16a.tgz"
+					"ctelecom": "zorn_images_OS2.0.105.0.VOKCNXM_20250222.0000.00_15.0_cn_chinatelecom_33ba1cf16a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.104.0.VOKCNXM": {
 					"os": "OS2.0.104.0.VOKCNXM",
@@ -328,7 +361,8 @@
 					"release": "2025-02-17",
 					"recovery": "zorn-ota_full-OS2.0.104.0.VOKCNXM-user-15.0-61aa3274a2.zip",
 					"fastboot": "zorn_images_OS2.0.104.0.VOKCNXM_20250212.0000.00_15.0_cn_bb2e2deec7.tgz",
-					"ctelecom": "zorn_images_OS2.0.104.0.VOKCNXM_20250212.0000.00_15.0_cn_chinatelecom_f529f0c159.tgz"
+					"ctelecom": "zorn_images_OS2.0.104.0.VOKCNXM_20250212.0000.00_15.0_cn_chinatelecom_f529f0c159.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.102.0.VOKCNXM": {
 					"os": "OS2.0.102.0.VOKCNXM",
@@ -336,7 +370,8 @@
 					"release": "2025-01-15",
 					"recovery": "zorn-ota_full-OS2.0.102.0.VOKCNXM-user-15.0-38033d7197.zip",
 					"fastboot": "zorn_images_OS2.0.102.0.VOKCNXM_20250110.0000.00_15.0_cn_81eb9086f9.tgz",
-					"ctelecom": "zorn_images_OS2.0.102.0.VOKCNXM_20250110.0000.00_15.0_cn_chinatelecom_d504ff07c4.tgz"
+					"ctelecom": "zorn_images_OS2.0.102.0.VOKCNXM_20250110.0000.00_15.0_cn_chinatelecom_d504ff07c4.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.101.0.VOKCNXM": {
 					"os": "OS2.0.101.0.VOKCNXM",
@@ -344,7 +379,8 @@
 					"release": "2024-12-27",
 					"recovery": "zorn-ota_full-OS2.0.101.0.VOKCNXM-user-15.0-56d3888e30.zip",
 					"fastboot": "zorn_images_OS2.0.101.0.VOKCNXM_20241224.0000.00_15.0_cn_0f5b757611.tgz",
-					"ctelecom": "zorn_images_OS2.0.101.0.VOKCNXM_20241224.0000.00_15.0_cn_chinatelecom_f6d291a84a.tgz"
+					"ctelecom": "zorn_images_OS2.0.101.0.VOKCNXM_20241224.0000.00_15.0_cn_chinatelecom_f6d291a84a.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.13.0.VOKCNXM": {
 					"os": "OS2.0.13.0.VOKCNXM",
@@ -352,7 +388,8 @@
 					"release": "2024-12-21",
 					"recovery": "zorn-ota_full-OS2.0.13.0.VOKCNXM-user-15.0-345a4e8dbb.zip",
 					"fastboot": "zorn_images_OS2.0.13.0.VOKCNXM_20241219.0000.00_15.0_cn_0285d1b4ce.tgz",
-					"ctelecom": "zorn_images_OS2.0.13.0.VOKCNXM_20241219.0000.00_15.0_cn_chinatelecom_42c19b5151.tgz"
+					"ctelecom": "zorn_images_OS2.0.13.0.VOKCNXM_20241219.0000.00_15.0_cn_chinatelecom_42c19b5151.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.12.0.VOKCNXM": {
 					"os": "OS2.0.12.0.VOKCNXM",
@@ -360,7 +397,8 @@
 					"release": "2024-12-12",
 					"recovery": "zorn-ota_full-OS2.0.12.0.VOKCNXM-user-15.0-44c050c43e.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.9.0.VOKCNXM": {
 					"os": "OS2.0.9.0.VOKCNXM",
@@ -368,7 +406,8 @@
 					"release": "2024-11-28",
 					"recovery": "zorn-ota_full-OS2.0.9.0.VOKCNXM-user-15.0-39f58e5e5a.zip",
 					"fastboot": "zorn_images_OS2.0.9.0.VOKCNXM_20241126.0000.00_15.0_cn_a944a2c4db.tgz",
-					"ctelecom": "zorn_images_OS2.0.9.0.VOKCNXM_20241126.0000.00_15.0_cn_chinatelecom_b3eb1ccfd9.tgz"
+					"ctelecom": "zorn_images_OS2.0.9.0.VOKCNXM_20241126.0000.00_15.0_cn_chinatelecom_b3eb1ccfd9.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.8.0.VOKCNXM": {
 					"os": "OS2.0.8.0.VOKCNXM",
@@ -376,7 +415,8 @@
 					"release": "2024-11-27",
 					"recovery": "zorn-ota_full-OS2.0.8.0.VOKCNXM-user-15.0-a64ceb13b1.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.7.0.VOKCNXM": {
 					"os": "OS2.0.7.0.VOKCNXM",
@@ -384,7 +424,8 @@
 					"release": "2024-11-27",
 					"recovery": "zorn-ota_full-OS2.0.7.0.VOKCNXM-user-15.0-88d0ee5491.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.6.0.VOKCNXM": {
 					"os": "OS2.0.6.0.VOKCNXM",
@@ -392,7 +433,8 @@
 					"release": "2024-11-27",
 					"recovery": "zorn-ota_full-OS2.0.6.0.VOKCNXM-user-15.0-f7cc89e7a7.zip",
 					"fastboot": "zorn_images_OS2.0.6.0.VOKCNXM_20241116.0000.00_15.0_cn_028ed1b885.tgz",
-					"ctelecom": "zorn_images_OS2.0.6.0.VOKCNXM_20241116.0000.00_15.0_cn_chinatelecom_29f501a837.tgz"
+					"ctelecom": "zorn_images_OS2.0.6.0.VOKCNXM_20241116.0000.00_15.0_cn_chinatelecom_29f501a837.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.4.0.VOKCNXM": {
 					"os": "OS2.0.4.0.VOKCNXM",
@@ -400,7 +442,8 @@
 					"release": "2024-11-27",
 					"recovery": "zorn-ota_full-OS2.0.4.0.VOKCNXM-user-15.0-a64534cb8d.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.2.0.VOKCNXM": {
 					"os": "OS2.0.2.0.VOKCNXM",
@@ -408,7 +451,8 @@
 					"release": "2024-11-27",
 					"recovery": "zorn-ota_full-OS2.0.2.0.VOKCNXM-user-15.0-14df6da9ad.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -430,6 +474,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -451,7 +496,8 @@
 					"release": "2025-07-16",
 					"recovery": "zorn_demo-ota_full-OS2.0.203.0.VOKCNDM-user-15.0-7d225bfb73.zip",
 					"fastboot": "zorn_demo_images_OS2.0.203.0.VOKCNDM_20250714.0000.00_15.0_cn_c4f5d9b907.tgz",
-					"ctelecom": "zorn_demo_images_OS2.0.203.0.VOKCNDM_20250714.0000.00_15.0_cn_chinatelecom_3d899c91fc.tgz"
+					"ctelecom": "zorn_demo_images_OS2.0.203.0.VOKCNDM_20250714.0000.00_15.0_cn_chinatelecom_3d899c91fc.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.101.0.VOKCNDM": {
 					"os": "OS2.0.101.0.VOKCNDM",
@@ -459,7 +505,8 @@
 					"release": "2025-03-21",
 					"recovery": "zorn_demo-ota_full-OS2.0.101.0.VOKCNDM-user-15.0-9ca1d1cd72.zip",
 					"fastboot": "zorn_demo_images_OS2.0.101.0.VOKCNDM_20250120.0000.00_15.0_cn_7005dd78f1.tgz",
-					"ctelecom": "zorn_demo_images_OS2.0.101.0.VOKCNDM_20250120.0000.00_15.0_cn_chinatelecom_9a0b181950.tgz"
+					"ctelecom": "zorn_demo_images_OS2.0.101.0.VOKCNDM_20250120.0000.00_15.0_cn_chinatelecom_9a0b181950.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.100.0.VOKCNDM": {
 					"os": "OS2.0.100.0.VOKCNDM",
@@ -467,7 +514,8 @@
 					"release": "2025-01-09",
 					"recovery": "zorn_demo-ota_full-OS2.0.100.0.VOKCNDM-user-15.0-b098cb28fa.zip",
 					"fastboot": "zorn_demo_images_OS2.0.100.0.VOKCNDM_20241226.0000.00_15.0_cn_ee1095b5c7.tgz",
-					"ctelecom": "zorn_demo_images_OS2.0.100.0.VOKCNDM_20241226.0000.00_15.0_cn_chinatelecom_d233092bcd.tgz"
+					"ctelecom": "zorn_demo_images_OS2.0.100.0.VOKCNDM_20241226.0000.00_15.0_cn_chinatelecom_d233092bcd.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.3.0.VOKCNDM": {
 					"os": "OS2.0.3.0.VOKCNDM",
@@ -475,7 +523,8 @@
 					"release": "2024-11-30",
 					"recovery": "zorn_demo-ota_full-OS2.0.3.0.VOKCNDM-user-15.0-0ce3466f16.zip",
 					"fastboot": "zorn_demo_images_OS2.0.3.0.VOKCNDM_20241128.0000.00_15.0_cn_3e5fb047e3.tgz",
-					"ctelecom": "zorn_demo_images_OS2.0.3.0.VOKCNDM_20241128.0000.00_15.0_cn_chinatelecom_a6f8b09501.tgz"
+					"ctelecom": "zorn_demo_images_OS2.0.3.0.VOKCNDM_20241128.0000.00_15.0_cn_chinatelecom_a6f8b09501.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.2.0.VOKCNDM": {
 					"os": "OS2.0.2.0.VOKCNDM",
@@ -483,7 +532,8 @@
 					"release": "2024-11-27",
 					"recovery": "zorn_demo-ota_full-OS2.0.2.0.VOKCNDM-user-15.0-40354e3136.zip",
 					"fastboot": "zorn_demo_images_OS2.0.2.0.VOKCNDM_20241126.0000.00_15.0_cn_bef5d7b1d3.tgz",
-					"ctelecom": "zorn_demo_images_OS2.0.2.0.VOKCNDM_20241126.0000.00_15.0_cn_chinatelecom_3e6147b5ae.tgz"
+					"ctelecom": "zorn_demo_images_OS2.0.2.0.VOKCNDM_20241126.0000.00_15.0_cn_chinatelecom_3e6147b5ae.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -505,6 +555,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -521,91 +572,104 @@
 					"android": "16.0",
 					"release": "2026-04-20",
 					"recovery": "zorn_tw_global-ota_full-OS3.0.301.0.WOKTWXM-user-16.0-4205483ee8.zip",
-					"fastboot": "zorn_tw_global_images_OS3.0.301.0.WOKTWXM_20260408.0000.00_16.0_tw_30a8697dde.tgz"
+					"fastboot": "zorn_tw_global_images_OS3.0.301.0.WOKTWXM_20260408.0000.00_16.0_tw_30a8697dde.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOKTWXM": {
 					"os": "OS3.0.3.0.WOKTWXM",
 					"android": "16.0",
 					"release": "2026-02-25",
 					"recovery": "zorn_tw_global-ota_full-OS3.0.3.0.WOKTWXM-user-16.0-a32b598775.zip",
-					"fastboot": "zorn_tw_global_images_OS3.0.3.0.WOKTWXM_20260120.0000.00_16.0_tw_8fb96ccbd8.tgz"
+					"fastboot": "zorn_tw_global_images_OS3.0.3.0.WOKTWXM_20260120.0000.00_16.0_tw_8fb96ccbd8.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.2.0.WOKTWXM": {
 					"os": "OS3.0.2.0.WOKTWXM",
 					"android": "16.0",
 					"release": "2025-12-12",
 					"recovery": "zorn_tw_global-ota_full-OS3.0.2.0.WOKTWXM-user-16.0-6790d1cae6.zip",
-					"fastboot": "zorn_tw_global_images_OS3.0.2.0.WOKTWXM_20251119.0000.00_16.0_tw_b329cdef8f.tgz"
+					"fastboot": "zorn_tw_global_images_OS3.0.2.0.WOKTWXM_20251119.0000.00_16.0_tw_b329cdef8f.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VOKTWXM": {
 					"os": "OS2.0.205.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.205.0.VOKTWXM-user-15.0-606344419d.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.205.0.VOKTWXM_20251109.0000.00_15.0_tw_d95e384e71.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.205.0.VOKTWXM_20251109.0000.00_15.0_tw_d95e384e71.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VOKTWXM": {
 					"os": "OS2.0.203.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.203.0.VOKTWXM-user-15.0-4ba0abaf44.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.203.0.VOKTWXM_20251016.0000.00_15.0_tw_3b13232f3a.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.203.0.VOKTWXM_20251016.0000.00_15.0_tw_3b13232f3a.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VOKTWXM": {
 					"os": "OS2.0.202.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.202.0.VOKTWXM-user-15.0-3f1d26c47e.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.202.0.VOKTWXM_20250918.0000.00_15.0_tw_ca0d46c073.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.202.0.VOKTWXM_20250918.0000.00_15.0_tw_ca0d46c073.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOKTWXM": {
 					"os": "OS2.0.201.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-08-26",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.201.0.VOKTWXM-user-15.0-01c27d2111.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.201.0.VOKTWXM_20250812.0000.00_15.0_tw_783eb08f36.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.201.0.VOKTWXM_20250812.0000.00_15.0_tw_783eb08f36.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VOKTWXM": {
 					"os": "OS2.0.200.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-07-27",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.200.0.VOKTWXM-user-15.0-4c1d8c4992.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.200.0.VOKTWXM_20250711.0000.00_15.0_tw_25e5982645.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.200.0.VOKTWXM_20250711.0000.00_15.0_tw_25e5982645.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.106.0.VOKTWXM": {
 					"os": "OS2.0.106.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.106.0.VOKTWXM-user-15.0-ebf85102b3.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.106.0.VOKTWXM_20250604.0000.00_15.0_tw_4b64524233.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.106.0.VOKTWXM_20250604.0000.00_15.0_tw_4b64524233.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VOKTWXM": {
 					"os": "OS2.0.103.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-05-18",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.103.0.VOKTWXM-user-15.0-7aff77718d.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.103.0.VOKTWXM_20250507.0000.00_15.0_tw_8ddcd689c0.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.103.0.VOKTWXM_20250507.0000.00_15.0_tw_8ddcd689c0.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VOKTWXM": {
 					"os": "OS2.0.102.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.102.0.VOKTWXM-user-15.0-44243c10f0.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.102.0.VOKTWXM_20250418.0000.00_15.0_tw_68e1c43570.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.102.0.VOKTWXM_20250418.0000.00_15.0_tw_68e1c43570.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VOKTWXM": {
 					"os": "OS2.0.101.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.101.0.VOKTWXM-user-15.0-ce0d29000e.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.101.0.VOKTWXM_20250326.0000.00_15.0_tw_cfc59f7cff.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.101.0.VOKTWXM_20250326.0000.00_15.0_tw_cfc59f7cff.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.1.0.VOKTWXM": {
 					"os": "OS2.0.1.0.VOKTWXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_tw_global-ota_full-OS2.0.1.0.VOKTWXM-user-15.0-ddce3ca030.zip",
-					"fastboot": "zorn_tw_global_images_OS2.0.1.0.VOKTWXM_20250114.0000.00_15.0_tw_f35ee37b7b.tgz"
+					"fastboot": "zorn_tw_global_images_OS2.0.1.0.VOKTWXM_20250114.0000.00_15.0_tw_f35ee37b7b.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -627,6 +691,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -643,84 +708,96 @@
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "zorn_global-ota_full-OS3.0.301.0.WOKMIXM-user-16.0-53a616b50a.zip",
-					"fastboot": "zorn_global_images_OS3.0.301.0.WOKMIXM_20260327.0000.00_16.0_global_7f2eb5b81d.tgz"
+					"fastboot": "zorn_global_images_OS3.0.301.0.WOKMIXM_20260327.0000.00_16.0_global_7f2eb5b81d.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.8.0.WOKMIXM": {
 					"os": "OS3.0.8.0.WOKMIXM",
 					"android": "16.0",
 					"release": "2026-01-26",
 					"recovery": "zorn_global-ota_full-OS3.0.8.0.WOKMIXM-user-16.0-df344d8246.zip",
-					"fastboot": "zorn_global_images_OS3.0.8.0.WOKMIXM_20260107.0000.00_16.0_global_fa07762da2.tgz"
+					"fastboot": "zorn_global_images_OS3.0.8.0.WOKMIXM_20260107.0000.00_16.0_global_fa07762da2.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.6.0.WOKMIXM": {
 					"os": "OS3.0.6.0.WOKMIXM",
 					"android": "16.0",
 					"release": "2025-12-27",
 					"recovery": "zorn_global-ota_full-OS3.0.6.0.WOKMIXM-user-16.0-9477ef7daf.zip",
-					"fastboot": "zorn_global_images_OS3.0.6.0.WOKMIXM_20251215.0000.00_16.0_global_59e18828c3.tgz"
+					"fastboot": "zorn_global_images_OS3.0.6.0.WOKMIXM_20251215.0000.00_16.0_global_59e18828c3.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.4.0.WOKMIXM": {
 					"os": "OS3.0.4.0.WOKMIXM",
 					"android": "16.0",
 					"release": "2025-11-21",
 					"recovery": "zorn_global-ota_full-OS3.0.4.0.WOKMIXM-user-16.0-899783a950.zip",
-					"fastboot": "zorn_global_images_OS3.0.4.0.WOKMIXM_20251113.0000.00_16.0_global_95e619bfb1.tgz"
+					"fastboot": "zorn_global_images_OS3.0.4.0.WOKMIXM_20251113.0000.00_16.0_global_95e619bfb1.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOKMIXM": {
 					"os": "OS2.0.204.0.VOKMIXM",
 					"android": "15.0",
 					"release": "2025-10-21",
 					"recovery": "zorn_global-ota_full-OS2.0.204.0.VOKMIXM-user-15.0-86c7be8bd6.zip",
-					"fastboot": "zorn_global_images_OS2.0.204.0.VOKMIXM_20251011.0000.00_15.0_global_d022c5a36b.tgz"
+					"fastboot": "zorn_global_images_OS2.0.204.0.VOKMIXM_20251011.0000.00_15.0_global_d022c5a36b.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VOKMIXM": {
 					"os": "OS2.0.203.0.VOKMIXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "zorn_global-ota_full-OS2.0.203.0.VOKMIXM-user-15.0-fdb30ab362.zip",
-					"fastboot": "zorn_global_images_OS2.0.203.0.VOKMIXM_20250904.0000.00_15.0_global_60fab9deb3.tgz"
+					"fastboot": "zorn_global_images_OS2.0.203.0.VOKMIXM_20250904.0000.00_15.0_global_60fab9deb3.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VOKMIXM": {
 					"os": "OS2.0.202.0.VOKMIXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "zorn_global-ota_full-OS2.0.202.0.VOKMIXM-user-15.0-35bec67e2f.zip",
-					"fastboot": "zorn_global_images_OS2.0.202.0.VOKMIXM_20250812.0000.00_15.0_global_8a283bfcce.tgz"
+					"fastboot": "zorn_global_images_OS2.0.202.0.VOKMIXM_20250812.0000.00_15.0_global_8a283bfcce.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOKMIXM": {
 					"os": "OS2.0.201.0.VOKMIXM",
 					"android": "15.0",
 					"release": "2025-07-27",
 					"recovery": "zorn_global-ota_full-OS2.0.201.0.VOKMIXM-user-15.0-7122d08e6a.zip",
-					"fastboot": "zorn_global_images_OS2.0.201.0.VOKMIXM_20250622.0000.00_15.0_global_a0e369539e.tgz"
+					"fastboot": "zorn_global_images_OS2.0.201.0.VOKMIXM_20250622.0000.00_15.0_global_a0e369539e.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.106.0.VOKMIXM": {
 					"os": "OS2.0.106.0.VOKMIXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "zorn_global-ota_full-OS2.0.106.0.VOKMIXM-user-15.0-3b69a221a1.zip",
-					"fastboot": "zorn_global_images_OS2.0.106.0.VOKMIXM_20250523.0000.00_15.0_global_cce5416bbd.tgz"
+					"fastboot": "zorn_global_images_OS2.0.106.0.VOKMIXM_20250523.0000.00_15.0_global_cce5416bbd.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.105.0.VOKMIXM": {
 					"os": "OS2.0.105.0.VOKMIXM",
 					"android": "15.0",
 					"release": "2025-05-18",
 					"recovery": "zorn_global-ota_full-OS2.0.105.0.VOKMIXM-user-15.0-6dd5e0ed6d.zip",
-					"fastboot": "zorn_global_images_OS2.0.105.0.VOKMIXM_20250507.0000.00_15.0_global_7c88478e81.tgz"
+					"fastboot": "zorn_global_images_OS2.0.105.0.VOKMIXM_20250507.0000.00_15.0_global_7c88478e81.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.104.0.VOKMIXM": {
 					"os": "OS2.0.104.0.VOKMIXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "zorn_global-ota_full-OS2.0.104.0.VOKMIXM-user-15.0-ea4024ca0f.zip",
-					"fastboot": "zorn_global_images_OS2.0.104.0.VOKMIXM_20250418.0000.00_15.0_global_c678066386.tgz"
+					"fastboot": "zorn_global_images_OS2.0.104.0.VOKMIXM_20250418.0000.00_15.0_global_c678066386.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.103.0.VOKMIXM": {
 					"os": "OS2.0.103.0.VOKMIXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_global-ota_full-OS2.0.103.0.VOKMIXM-user-15.0-aea6f4fbfd.zip",
-					"fastboot": "zorn_global_images_OS2.0.103.0.VOKMIXM_20250321.0000.00_15.0_global_d0cc7f2e42.tgz"
+					"fastboot": "zorn_global_images_OS2.0.103.0.VOKMIXM_20250321.0000.00_15.0_global_d0cc7f2e42.tgz",
+					"aspatch": "2025-02-01"
 				}
 			}
 		},
@@ -742,6 +819,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -758,105 +836,120 @@
 					"android": "16.0",
 					"release": "2026-04-17",
 					"recovery": "zorn_eea_global-ota_full-OS3.0.301.0.WOKEUXM-user-16.0-8bffb3724b.zip",
-					"fastboot": "zorn_eea_global_images_OS3.0.301.0.WOKEUXM_20260408.0000.00_16.0_eea_f19379c126.tgz"
+					"fastboot": "zorn_eea_global_images_OS3.0.301.0.WOKEUXM_20260408.0000.00_16.0_eea_f19379c126.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WOKEUXM": {
 					"os": "OS3.0.4.0.WOKEUXM",
 					"android": "16.0",
 					"release": "2026-02-25",
 					"recovery": "zorn_eea_global-ota_full-OS3.0.4.0.WOKEUXM-user-16.0-0772eff30c.zip",
-					"fastboot": "zorn_eea_global_images_OS3.0.4.0.WOKEUXM_20260120.0000.00_16.0_eea_47c4305211.tgz"
+					"fastboot": "zorn_eea_global_images_OS3.0.4.0.WOKEUXM_20260120.0000.00_16.0_eea_47c4305211.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WOKEUXM": {
 					"os": "OS3.0.3.0.WOKEUXM",
 					"android": "16.0",
 					"release": "2026-01-08",
 					"recovery": "zorn_eea_global-ota_full-OS3.0.3.0.WOKEUXM-user-16.0-8fa65ca638.zip",
-					"fastboot": "zorn_eea_global_images_OS3.0.3.0.WOKEUXM_20251224.0000.00_16.0_eea_3db12e1b43.tgz"
+					"fastboot": "zorn_eea_global_images_OS3.0.3.0.WOKEUXM_20251224.0000.00_16.0_eea_3db12e1b43.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WOKEUXM": {
 					"os": "OS3.0.2.0.WOKEUXM",
 					"android": "16.0",
 					"release": "2025-12-08",
 					"recovery": "zorn_eea_global-ota_full-OS3.0.2.0.WOKEUXM-user-16.0-4ebc2bfbd6.zip",
-					"fastboot": "zorn_eea_global_images_OS3.0.2.0.WOKEUXM_20251119.0000.00_16.0_eea_278e4d6f2b.tgz"
+					"fastboot": "zorn_eea_global_images_OS3.0.2.0.WOKEUXM_20251119.0000.00_16.0_eea_278e4d6f2b.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.208.0.VOKEUXM": {
 					"os": "OS2.0.208.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.208.0.VOKEUXM-user-15.0-2b1393c28d.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.208.0.VOKEUXM_20251109.0000.00_15.0_eea_ee46428ee6.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.208.0.VOKEUXM_20251109.0000.00_15.0_eea_ee46428ee6.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.207.0.VOKEUXM": {
 					"os": "OS2.0.207.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-10-20",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.207.0.VOKEUXM-user-15.0-3fc79f3375.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.207.0.VOKEUXM_20251011.0000.00_15.0_eea_ae3e7c44cf.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.207.0.VOKEUXM_20251011.0000.00_15.0_eea_ae3e7c44cf.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.206.0.VOKEUXM": {
 					"os": "OS2.0.206.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.206.0.VOKEUXM-user-15.0-227aa5cfe8.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.206.0.VOKEUXM_20250825.0000.00_15.0_eea_4fa856d7dd.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.206.0.VOKEUXM_20250825.0000.00_15.0_eea_4fa856d7dd.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.205.0.VOKEUXM": {
 					"os": "OS2.0.205.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.205.0.VOKEUXM-user-15.0-249c6e3a5d.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.205.0.VOKEUXM_20250812.0000.00_15.0_eea_1578a52864.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.205.0.VOKEUXM_20250812.0000.00_15.0_eea_1578a52864.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VOKEUXM": {
 					"os": "OS2.0.203.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-07-27",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.203.0.VOKEUXM-user-15.0-c5f4ea1685.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.203.0.VOKEUXM_20250717.0000.00_15.0_eea_28f040c51d.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.203.0.VOKEUXM_20250717.0000.00_15.0_eea_28f040c51d.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.202.0.VOKEUXM": {
 					"os": "OS2.0.202.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.202.0.VOKEUXM-user-15.0-997356676e.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.202.0.VOKEUXM_20250616.0000.00_15.0_eea_db9d2f7070.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.202.0.VOKEUXM_20250616.0000.00_15.0_eea_db9d2f7070.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.111.0.VOKEUXM": {
 					"os": "OS2.0.111.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-05-27",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.111.0.VOKEUXM-user-15.0-831a49256f.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.111.0.VOKEUXM_20250516.0000.00_15.0_eea_f94d6e50a9.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.111.0.VOKEUXM_20250516.0000.00_15.0_eea_f94d6e50a9.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.108.0.VOKEUXM": {
 					"os": "OS2.0.108.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.108.0.VOKEUXM-user-15.0-b3e595cb50.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.108.0.VOKEUXM_20250416.0000.00_15.0_eea_f720477bf2.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.108.0.VOKEUXM_20250416.0000.00_15.0_eea_f720477bf2.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.105.0.VOKEUXM": {
 					"os": "OS2.0.105.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.105.0.VOKEUXM-user-15.0-717cbfb6cb.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.105.0.VOKEUXM_20250321.0000.00_15.0_eea_fa00442d1d.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.105.0.VOKEUXM_20250321.0000.00_15.0_eea_fa00442d1d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.5.0.VOKEUXM": {
 					"os": "OS2.0.5.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.5.0.VOKEUXM-user-15.0-749d71a95c.zip",
-					"fastboot": "zorn_eea_global_images_OS2.0.5.0.VOKEUXM_20250225.0000.00_15.0_eea_1781f77b2f.tgz"
+					"fastboot": "zorn_eea_global_images_OS2.0.5.0.VOKEUXM_20250225.0000.00_15.0_eea_1781f77b2f.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VOKEUXM": {
 					"os": "OS2.0.2.0.VOKEUXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_eea_global-ota_full-OS2.0.2.0.VOKEUXM-user-15.0-d09c8b46a0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -878,6 +971,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -894,84 +988,96 @@
 					"android": "16.0",
 					"release": "2026-04-17",
 					"recovery": "zorn_ru_global-ota_full-OS3.0.301.0.WOKRUXM-user-16.0-5cf314ca34.zip",
-					"fastboot": "zorn_ru_global_images_OS3.0.301.0.WOKRUXM_20260408.0000.00_16.0_ru_a83a3d45f2.tgz"
+					"fastboot": "zorn_ru_global_images_OS3.0.301.0.WOKRUXM_20260408.0000.00_16.0_ru_a83a3d45f2.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOKRUXM": {
 					"os": "OS3.0.3.0.WOKRUXM",
 					"android": "16.0",
 					"release": "2026-02-25",
 					"recovery": "zorn_ru_global-ota_full-OS3.0.3.0.WOKRUXM-user-16.0-9010517de2.zip",
-					"fastboot": "zorn_ru_global_images_OS3.0.3.0.WOKRUXM_20260120.0000.00_16.0_ru_02e3b6cb45.tgz"
+					"fastboot": "zorn_ru_global_images_OS3.0.3.0.WOKRUXM_20260120.0000.00_16.0_ru_02e3b6cb45.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.2.0.WOKRUXM": {
 					"os": "OS3.0.2.0.WOKRUXM",
 					"android": "16.0",
 					"release": "2025-12-08",
 					"recovery": "zorn_ru_global-ota_full-OS3.0.2.0.WOKRUXM-user-16.0-35fdc6b7ee.zip",
-					"fastboot": "zorn_ru_global_images_OS3.0.2.0.WOKRUXM_20251119.0000.00_16.0_ru_a98e08c7c7.tgz"
+					"fastboot": "zorn_ru_global_images_OS3.0.2.0.WOKRUXM_20251119.0000.00_16.0_ru_a98e08c7c7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VOKRUXM": {
 					"os": "OS2.0.205.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.205.0.VOKRUXM-user-15.0-2ba822a159.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.205.0.VOKRUXM_20251109.0000.00_15.0_ru_1f39c5ae84.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.205.0.VOKRUXM_20251109.0000.00_15.0_ru_1f39c5ae84.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VOKRUXM": {
 					"os": "OS2.0.203.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.203.0.VOKRUXM-user-15.0-a48d40149b.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.203.0.VOKRUXM_20251016.0000.00_15.0_ru_df7835980c.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.203.0.VOKRUXM_20251016.0000.00_15.0_ru_df7835980c.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VOKRUXM": {
 					"os": "OS2.0.202.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.202.0.VOKRUXM-user-15.0-4e710132fa.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.202.0.VOKRUXM_20250904.0000.00_15.0_ru_fc0c365d43.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.202.0.VOKRUXM_20250904.0000.00_15.0_ru_fc0c365d43.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOKRUXM": {
 					"os": "OS2.0.201.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.201.0.VOKRUXM-user-15.0-639905143b.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.201.0.VOKRUXM_20250813.0000.00_15.0_ru_f093042125.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.201.0.VOKRUXM_20250813.0000.00_15.0_ru_f093042125.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VOKRUXM": {
 					"os": "OS2.0.200.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-07-27",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.200.0.VOKRUXM-user-15.0-7bc70d40fc.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.200.0.VOKRUXM_20250711.0000.00_15.0_ru_417d6b9ef0.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.200.0.VOKRUXM_20250711.0000.00_15.0_ru_417d6b9ef0.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.107.0.VOKRUXM": {
 					"os": "OS2.0.107.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.107.0.VOKRUXM-user-15.0-4ff30e562e.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.107.0.VOKRUXM_20250527.0000.00_15.0_ru_4640959873.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.107.0.VOKRUXM_20250527.0000.00_15.0_ru_4640959873.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.106.0.VOKRUXM": {
 					"os": "OS2.0.106.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-05-27",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.106.0.VOKRUXM-user-15.0-e7db37c1c6.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.106.0.VOKRUXM_20250513.0000.00_15.0_ru_871246bd8e.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.106.0.VOKRUXM_20250513.0000.00_15.0_ru_871246bd8e.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.104.0.VOKRUXM": {
 					"os": "OS2.0.104.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-04-24",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.104.0.VOKRUXM-user-15.0-d6681263b2.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.104.0.VOKRUXM_20250415.0000.00_15.0_ru_fd104365b4.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.104.0.VOKRUXM_20250415.0000.00_15.0_ru_fd104365b4.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VOKRUXM": {
 					"os": "OS2.0.102.0.VOKRUXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_ru_global-ota_full-OS2.0.102.0.VOKRUXM-user-15.0-4b45e9fefc.zip",
-					"fastboot": "zorn_ru_global_images_OS2.0.102.0.VOKRUXM_20250321.0000.00_15.0_ru_745673a628.tgz"
+					"fastboot": "zorn_ru_global_images_OS2.0.102.0.VOKRUXM_20250321.0000.00_15.0_ru_745673a628.tgz",
+					"aspatch": "2025-02-01"
 				}
 			}
 		},
@@ -993,6 +1099,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1009,91 +1116,104 @@
 					"android": "16.0",
 					"release": "2026-04-21",
 					"recovery": "zorn_id_global-ota_full-OS3.0.301.0.WOKIDXM-user-16.0-818ce59e30.zip",
-					"fastboot": "zorn_id_global_images_OS3.0.301.0.WOKIDXM_20260408.0000.00_16.0_id_b8557053ba.tgz"
+					"fastboot": "zorn_id_global_images_OS3.0.301.0.WOKIDXM_20260408.0000.00_16.0_id_b8557053ba.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOKIDXM": {
 					"os": "OS3.0.3.0.WOKIDXM",
 					"android": "16.0",
 					"release": "2026-02-25",
 					"recovery": "zorn_id_global-ota_full-OS3.0.3.0.WOKIDXM-user-16.0-d9385718bc.zip",
-					"fastboot": "zorn_id_global_images_OS3.0.3.0.WOKIDXM_20260120.0000.00_16.0_id_98109a6027.tgz"
+					"fastboot": "zorn_id_global_images_OS3.0.3.0.WOKIDXM_20260120.0000.00_16.0_id_98109a6027.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.2.0.WOKIDXM": {
 					"os": "OS3.0.2.0.WOKIDXM",
 					"android": "16.0",
 					"release": "2025-12-08",
 					"recovery": "zorn_id_global-ota_full-OS3.0.2.0.WOKIDXM-user-16.0-5780e52c03.zip",
-					"fastboot": "zorn_id_global_images_OS3.0.2.0.WOKIDXM_20251120.0000.00_16.0_id_dd78172058.tgz"
+					"fastboot": "zorn_id_global_images_OS3.0.2.0.WOKIDXM_20251120.0000.00_16.0_id_dd78172058.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOKIDXM": {
 					"os": "OS2.0.204.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "zorn_id_global-ota_full-OS2.0.204.0.VOKIDXM-user-15.0-28b7862d3b.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.204.0.VOKIDXM_20251109.0000.00_15.0_id_fa1b4a53c0.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.204.0.VOKIDXM_20251109.0000.00_15.0_id_fa1b4a53c0.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VOKIDXM": {
 					"os": "OS2.0.203.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "zorn_id_global-ota_full-OS2.0.203.0.VOKIDXM-user-15.0-21da295bd5.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.203.0.VOKIDXM_20251016.0000.00_15.0_id_9a59cd6ed6.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.203.0.VOKIDXM_20251016.0000.00_15.0_id_9a59cd6ed6.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VOKIDXM": {
 					"os": "OS2.0.202.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "zorn_id_global-ota_full-OS2.0.202.0.VOKIDXM-user-15.0-fe753027bb.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.202.0.VOKIDXM_20250918.0000.00_15.0_id_35ff6c0d42.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.202.0.VOKIDXM_20250918.0000.00_15.0_id_35ff6c0d42.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOKIDXM": {
 					"os": "OS2.0.201.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "zorn_id_global-ota_full-OS2.0.201.0.VOKIDXM-user-15.0-2adb1f7a5c.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.201.0.VOKIDXM_20250812.0000.00_15.0_id_80fd629ce2.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.201.0.VOKIDXM_20250812.0000.00_15.0_id_80fd629ce2.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VOKIDXM": {
 					"os": "OS2.0.200.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-07-27",
 					"recovery": "zorn_id_global-ota_full-OS2.0.200.0.VOKIDXM-user-15.0-d85903456a.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.200.0.VOKIDXM_20250711.0000.00_15.0_id_a4b4854679.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.200.0.VOKIDXM_20250711.0000.00_15.0_id_a4b4854679.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.105.0.VOKIDXM": {
 					"os": "OS2.0.105.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "zorn_id_global-ota_full-OS2.0.105.0.VOKIDXM-user-15.0-2b9136d6c6.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.105.0.VOKIDXM_20250527.0000.00_15.0_id_be95209169.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.105.0.VOKIDXM_20250527.0000.00_15.0_id_be95209169.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.104.0.VOKIDXM": {
 					"os": "OS2.0.104.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-05-23",
 					"recovery": "zorn_id_global-ota_full-OS2.0.104.0.VOKIDXM-user-15.0-6a6621a325.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.104.0.VOKIDXM_20250513.0000.00_15.0_id_cab8ca55f5.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.104.0.VOKIDXM_20250513.0000.00_15.0_id_cab8ca55f5.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.103.0.VOKIDXM": {
 					"os": "OS2.0.103.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "zorn_id_global-ota_full-OS2.0.103.0.VOKIDXM-user-15.0-6652b96521.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.103.0.VOKIDXM_20250418.0000.00_15.0_id_4eedbcff25.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.103.0.VOKIDXM_20250418.0000.00_15.0_id_4eedbcff25.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VOKIDXM": {
 					"os": "OS2.0.102.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "zorn_id_global-ota_full-OS2.0.102.0.VOKIDXM-user-15.0-92e641de7d.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.102.0.VOKIDXM_20250326.0000.00_15.0_id_4b7509c3a2.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.102.0.VOKIDXM_20250326.0000.00_15.0_id_4b7509c3a2.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.1.0.VOKIDXM": {
 					"os": "OS2.0.1.0.VOKIDXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_id_global-ota_full-OS2.0.1.0.VOKIDXM-user-15.0-c281faefa5.zip",
-					"fastboot": "zorn_id_global_images_OS2.0.1.0.VOKIDXM_20250104.0000.00_15.0_id_ed07a05ecd.tgz"
+					"fastboot": "zorn_id_global_images_OS2.0.1.0.VOKIDXM_20250104.0000.00_15.0_id_ed07a05ecd.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -1115,6 +1235,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1131,14 +1252,16 @@
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_tr_global-ota_full-OS2.0.2.0.VOKTRXM-user-15.0-424313df03.zip",
-					"fastboot": "zorn_tr_global_images_OS2.0.2.0.VOKTRXM_20250224.0000.00_15.0_tr_99936997ee.tgz"
+					"fastboot": "zorn_tr_global_images_OS2.0.2.0.VOKTRXM_20250224.0000.00_15.0_tr_99936997ee.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.0.VOKTRXM": {
 					"os": "OS2.0.1.0.VOKTRXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "zorn_tr_global-ota_full-OS2.0.1.0.VOKTRXM-user-15.0-2dc600f9bb.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				}
 			}
 		}

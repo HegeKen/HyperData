@@ -4,12 +4,12 @@ import json
 def fill_security_patches():
   """
   遍历数据库 roms 表中 recovery 不为 NULL 的记录，
-  通过 CDN 下载链接获取安全补丁级别，并写入 aspatch 字段（datetime 类型）。
+  通过 CDN 下载链接获取安全补丁级别，并写入 aspatch 字段（date 类型）。
   """
   import time
 
   # 1. 获取所有需要处理的记录
-  sql = "SELECT id, device, code, version, recovery FROM roms WHERE recovery IS NOT NULL AND recovery != '' AND aspatch IS NULL ORDER BY id DESC"
+  sql = "SELECT id, device, code, version, recovery FROM roms WHERE recovery IS NOT NULL AND type='MIUI' AND recovery != '' AND aspatch IS NULL ORDER BY id DESC"
   rows = OScommon.db_job(sql)
   if not rows:
     print("没有需要处理的记录")
@@ -25,7 +25,9 @@ def fill_security_patches():
     rom_id, device, code, version, recovery = row
     url = OScommon.form_url(recovery, version)
 
-    print(f"\r[{idx}/{total}] ID={rom_id} {device} {version} ...  ", end="", flush=True)
+    # 终端超链接格式 (OSC 8): ESC ] 8 ; ; URI BEL text ESC ] 8 ; ; BEL
+    link_text = f"\x1b]8;;{url}\x07{version}\x1b]8;;\x07"
+    print(f"\r[{idx}/{total}] ID={rom_id} {device} {link_text} ...  ", end="", flush=True)
 
     try:
       asp = OScommon.get_security_patch_from_ota_url(url, 'recovery', timeout=30)

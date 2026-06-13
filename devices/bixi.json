@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -54,35 +55,40 @@
 					"android": "16.0",
 					"release": "2026-03-06",
 					"recovery": "bixi-ota_full-OS3.0.300.9.WOHCNXM-user-16.0-c848159e77.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.5.WOHCNXM": {
 					"os": "OS3.0.300.5.WOHCNXM",
 					"android": "16.0",
 					"release": "2026-01-31",
 					"recovery": "bixi-ota_full-OS3.0.300.5.WOHCNXM-user-16.0-0694bdbc3e.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.1.2.WOHCNXM": {
 					"os": "OS3.0.1.2.WOHCNXM",
 					"android": "16.0",
 					"release": "2025-10-14",
 					"recovery": "bixi-ota_full-OS3.0.1.2.WOHCNXM-user-16.0-1601b0480c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.8.WOHCNXM": {
 					"os": "OS3.0.0.8.WOHCNXM",
 					"android": "16.0",
 					"release": "2025-09-25",
 					"recovery": "bixi-ota_full-OS3.0.0.8.WOHCNXM-user-16.0-90a9ce4df7.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS3.0.0.4.WOHCNXM": {
 					"os": "OS3.0.0.4.WOHCNXM",
 					"android": "16.0",
 					"release": "2025-09-15",
 					"recovery": "bixi-ota_full-OS3.0.0.4.WOHCNXM-user-16.0-36928e703f.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-05"
 				}
 			}
 		},
@@ -104,6 +110,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -125,7 +132,8 @@
 					"release": "2026-03-18",
 					"recovery": "bixi-ota_full-OS3.0.301.0.WOHCNXM-user-16.0-1d924bc332.zip",
 					"fastboot": "bixi_images_OS3.0.301.0.WOHCNXM_20260310.0000.00_16.0_cn_4be6af86ba.tgz",
-					"ctelecom": "bixi_images_OS3.0.301.0.WOHCNXM_20260310.0000.00_16.0_cn_chinatelecom_ecb3dcf8a2.tgz"
+					"ctelecom": "bixi_images_OS3.0.301.0.WOHCNXM_20260310.0000.00_16.0_cn_chinatelecom_ecb3dcf8a2.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.6.0.WOHCNXM": {
 					"os": "OS3.0.6.0.WOHCNXM",
@@ -133,7 +141,8 @@
 					"release": "2026-02-05",
 					"recovery": "bixi-ota_full-OS3.0.6.0.WOHCNXM-user-16.0-cc0a2a5040.zip",
 					"fastboot": "bixi_images_OS3.0.6.0.WOHCNXM_20260128.0000.00_16.0_cn_776a221fc0.tgz",
-					"ctelecom": "bixi_images_OS3.0.6.0.WOHCNXM_20260128.0000.00_16.0_cn_chinatelecom_06770634c2.tgz"
+					"ctelecom": "bixi_images_OS3.0.6.0.WOHCNXM_20260128.0000.00_16.0_cn_chinatelecom_06770634c2.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.4.0.WOHCNXM": {
 					"os": "OS3.0.4.0.WOHCNXM",
@@ -141,7 +150,8 @@
 					"release": "2026-01-06",
 					"recovery": "bixi-ota_full-OS3.0.4.0.WOHCNXM-user-16.0-c22cfd41db.zip",
 					"fastboot": "bixi_images_OS3.0.4.0.WOHCNXM_20251224.0000.00_16.0_cn_6c5654588b.tgz",
-					"ctelecom": "bixi_images_OS3.0.4.0.WOHCNXM_20251224.0000.00_16.0_cn_chinatelecom_7301132fb5.tgz"
+					"ctelecom": "bixi_images_OS3.0.4.0.WOHCNXM_20251224.0000.00_16.0_cn_chinatelecom_7301132fb5.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.3.0.WOHCNXM": {
 					"os": "OS3.0.3.0.WOHCNXM",
@@ -149,7 +159,8 @@
 					"release": "2025-10-28",
 					"recovery": "bixi-ota_full-OS3.0.3.0.WOHCNXM-user-16.0-feaa771064.zip",
 					"fastboot": "bixi_images_OS3.0.3.0.WOHCNXM_20251024.0000.00_16.0_cn_c01a7ec86a.tgz",
-					"ctelecom": "bixi_images_OS3.0.3.0.WOHCNXM_20251024.0000.00_16.0_cn_chinatelecom_657a432341.tgz"
+					"ctelecom": "bixi_images_OS3.0.3.0.WOHCNXM_20251024.0000.00_16.0_cn_chinatelecom_657a432341.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.213.0.VOHCNXM": {
 					"os": "OS2.0.213.0.VOHCNXM",
@@ -157,7 +168,8 @@
 					"release": "2025-10-10",
 					"recovery": "bixi-ota_full-OS2.0.213.0.VOHCNXM-user-15.0-d5ba1518a2.zip",
 					"fastboot": "bixi_images_OS2.0.213.0.VOHCNXM_20250926.0000.00_15.0_cn_1a3a7e7e2f.tgz",
-					"ctelecom": "bixi_images_OS2.0.213.0.VOHCNXM_20250926.0000.00_15.0_cn_chinatelecom_c65779ebef.tgz"
+					"ctelecom": "bixi_images_OS2.0.213.0.VOHCNXM_20250926.0000.00_15.0_cn_chinatelecom_c65779ebef.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.212.0.VOHCNXM": {
 					"os": "OS2.0.212.0.VOHCNXM",
@@ -165,7 +177,8 @@
 					"release": "2025-09-15",
 					"recovery": "bixi-ota_full-OS2.0.212.0.VOHCNXM-user-15.0-b322311bcb.zip",
 					"fastboot": "bixi_images_OS2.0.212.0.VOHCNXM_20250911.0000.00_15.0_cn_a9fcc1b7ba.tgz",
-					"ctelecom": "bixi_images_OS2.0.212.0.VOHCNXM_20250911.0000.00_15.0_cn_chinatelecom_b7b69a911b.tgz"
+					"ctelecom": "bixi_images_OS2.0.212.0.VOHCNXM_20250911.0000.00_15.0_cn_chinatelecom_b7b69a911b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.211.0.VOHCNXM": {
 					"os": "OS2.0.211.0.VOHCNXM",
@@ -173,7 +186,8 @@
 					"release": "2025-09-02",
 					"recovery": "bixi-ota_full-OS2.0.211.0.VOHCNXM-user-15.0-ac53e1c640.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.209.0.VOHCNXM": {
 					"os": "OS2.0.209.0.VOHCNXM",
@@ -181,7 +195,8 @@
 					"release": "2025-07-31",
 					"recovery": "bixi-ota_full-OS2.0.209.0.VOHCNXM-user-15.0-09739ed7be.zip",
 					"fastboot": "bixi_images_OS2.0.209.0.VOHCNXM_20250726.0000.00_15.0_cn_a81474e1b4.tgz",
-					"ctelecom": "bixi_images_OS2.0.209.0.VOHCNXM_20250726.0000.00_15.0_cn_chinatelecom_adcc8fdd0d.tgz"
+					"ctelecom": "bixi_images_OS2.0.209.0.VOHCNXM_20250726.0000.00_15.0_cn_chinatelecom_adcc8fdd0d.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.208.0.VOHCNXM": {
 					"os": "OS2.0.208.0.VOHCNXM",
@@ -189,7 +204,8 @@
 					"release": "2025-07-21",
 					"recovery": "bixi-ota_full-OS2.0.208.0.VOHCNXM-user-15.0-c9b15648b5.zip",
 					"fastboot": "bixi_images_OS2.0.208.0.VOHCNXM_20250717.0000.00_15.0_cn_8d4c79401e.tgz",
-					"ctelecom": "bixi_images_OS2.0.208.0.VOHCNXM_20250717.0000.00_15.0_cn_chinatelecom_c8629e7208.tgz"
+					"ctelecom": "bixi_images_OS2.0.208.0.VOHCNXM_20250717.0000.00_15.0_cn_chinatelecom_c8629e7208.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.207.0.VOHCNXM": {
 					"os": "OS2.0.207.0.VOHCNXM",
@@ -197,7 +213,8 @@
 					"release": "2025-07-16",
 					"recovery": "bixi-ota_full-OS2.0.207.0.VOHCNXM-user-15.0-dd88ff181c.zip",
 					"fastboot": "bixi_images_OS2.0.207.0.VOHCNXM_20250712.0000.00_15.0_cn_8f333cbfd2.tgz",
-					"ctelecom": "bixi_images_OS2.0.207.0.VOHCNXM_20250712.0000.00_15.0_cn_chinatelecom_6aa90d54ea.tgz"
+					"ctelecom": "bixi_images_OS2.0.207.0.VOHCNXM_20250712.0000.00_15.0_cn_chinatelecom_6aa90d54ea.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.206.0.VOHCNXM": {
 					"os": "OS2.0.206.0.VOHCNXM",
@@ -205,7 +222,8 @@
 					"release": "2025-07-11",
 					"recovery": "bixi-ota_full-OS2.0.206.0.VOHCNXM-user-15.0-ed079e8d2b.zip",
 					"fastboot": "bixi_images_OS2.0.206.0.VOHCNXM_20250707.0000.00_15.0_cn_0e1dbc5b92.tgz",
-					"ctelecom": "bixi_images_OS2.0.206.0.VOHCNXM_20250707.0000.00_15.0_cn_chinatelecom_4bebe788e0.tgz"
+					"ctelecom": "bixi_images_OS2.0.206.0.VOHCNXM_20250707.0000.00_15.0_cn_chinatelecom_4bebe788e0.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.205.0.VOHCNXM": {
 					"os": "OS2.0.205.0.VOHCNXM",
@@ -213,7 +231,8 @@
 					"release": "2025-07-05",
 					"recovery": "bixi-ota_full-OS2.0.205.0.VOHCNXM-user-15.0-8634c38fc1.zip",
 					"fastboot": "bixi_images_OS2.0.205.0.VOHCNXM_20250702.0000.00_15.0_cn_7e176818b5.tgz",
-					"ctelecom": "bixi_images_OS2.0.205.0.VOHCNXM_20250702.0000.00_15.0_cn_chinatelecom_5871d64a36.tgz"
+					"ctelecom": "bixi_images_OS2.0.205.0.VOHCNXM_20250702.0000.00_15.0_cn_chinatelecom_5871d64a36.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.204.0.VOHCNXM": {
 					"os": "OS2.0.204.0.VOHCNXM",
@@ -221,7 +240,8 @@
 					"release": "2025-07-01",
 					"recovery": "bixi-ota_full-OS2.0.204.0.VOHCNXM-user-15.0-6c119c7cde.zip",
 					"fastboot": "bixi_images_OS2.0.204.0.VOHCNXM_20250627.0000.00_15.0_cn_2acd8e30d3.tgz",
-					"ctelecom": "bixi_images_OS2.0.204.0.VOHCNXM_20250627.0000.00_15.0_cn_chinatelecom_330a3a0555.tgz"
+					"ctelecom": "bixi_images_OS2.0.204.0.VOHCNXM_20250627.0000.00_15.0_cn_chinatelecom_330a3a0555.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.108.0.VOHCNXM": {
 					"os": "OS2.0.108.0.VOHCNXM",
@@ -229,7 +249,8 @@
 					"release": "2025-06-26",
 					"recovery": "bixi-ota_full-OS2.0.108.0.VOHCNXM-user-15.0-95497b9791.zip",
 					"fastboot": "bixi_images_OS2.0.108.0.VOHCNXM_20250624.0000.00_15.0_cn_2dde4fb52f.tgz",
-					"ctelecom": "bixi_images_OS2.0.108.0.VOHCNXM_20250624.0000.00_15.0_cn_chinatelecom_b27d5609fe.tgz"
+					"ctelecom": "bixi_images_OS2.0.108.0.VOHCNXM_20250624.0000.00_15.0_cn_chinatelecom_b27d5609fe.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VOHCNXM": {
 					"os": "OS2.0.104.0.VOHCNXM",
@@ -259,6 +280,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -280,7 +302,8 @@
 					"release": "2026-05-19",
 					"recovery": "bixi_demo-ota_full-OS3.0.301.0.WOHCNDM-user-16.0-7a34e4f424.zip",
 					"fastboot": "bixi_demo_images_OS3.0.301.0.WOHCNDM_20260413.0000.00_16.0_cn_4d1055d380.tgz",
-					"ctelecom": "bixi_demo_images_OS3.0.301.0.WOHCNDM_20260413.0000.00_16.0_cn_chinatelecom_0eb724953f.tgz"
+					"ctelecom": "bixi_demo_images_OS3.0.301.0.WOHCNDM_20260413.0000.00_16.0_cn_chinatelecom_0eb724953f.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.4.0.WOHCNDM": {
 					"os": "OS3.0.4.0.WOHCNDM",
@@ -288,7 +311,8 @@
 					"release": "2026-03-18",
 					"recovery": "bixi_demo-ota_full-OS3.0.4.0.WOHCNDM-user-16.0-c58f283efb.zip",
 					"fastboot": "bixi_demo_images_OS3.0.4.0.WOHCNDM_20260212.0000.00_16.0_cn_9db26f2e64.tgz",
-					"ctelecom": "bixi_demo_images_OS3.0.4.0.WOHCNDM_20260212.0000.00_16.0_cn_chinatelecom_0d0314edd4.tgz"
+					"ctelecom": "bixi_demo_images_OS3.0.4.0.WOHCNDM_20260212.0000.00_16.0_cn_chinatelecom_0d0314edd4.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.207.0.VOHCNDM": {
 					"os": "OS2.0.207.0.VOHCNDM",
@@ -296,7 +320,8 @@
 					"release": "2025-07-21",
 					"recovery": "bixi_demo-ota_full-OS2.0.207.0.VOHCNDM-user-15.0-58c0ea1790.zip",
 					"fastboot": "bixi_demo_images_OS2.0.207.0.VOHCNDM_20250718.0000.00_15.0_cn_cc82a6924c.tgz",
-					"ctelecom": "bixi_demo_images_OS2.0.207.0.VOHCNDM_20250718.0000.00_15.0_cn_chinatelecom_f7da5a3ad1.tgz"
+					"ctelecom": "bixi_demo_images_OS2.0.207.0.VOHCNDM_20250718.0000.00_15.0_cn_chinatelecom_f7da5a3ad1.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.206.0.VOHCNDM": {
 					"os": "OS2.0.206.0.VOHCNDM",
@@ -304,7 +329,8 @@
 					"release": "2025-07-16",
 					"recovery": "bixi_demo-ota_full-OS2.0.206.0.VOHCNDM-user-15.0-a265f053e1.zip",
 					"fastboot": "bixi_demo_images_OS2.0.206.0.VOHCNDM_20250712.0000.00_15.0_cn_1b157b32b5.tgz",
-					"ctelecom": "bixi_demo_images_OS2.0.206.0.VOHCNDM_20250712.0000.00_15.0_cn_chinatelecom_a9f342667d.tgz"
+					"ctelecom": "bixi_demo_images_OS2.0.206.0.VOHCNDM_20250712.0000.00_15.0_cn_chinatelecom_a9f342667d.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.205.0.VOHCNDM": {
 					"os": "OS2.0.205.0.VOHCNDM",
@@ -312,7 +338,8 @@
 					"release": "2025-07-11",
 					"recovery": "bixi_demo-ota_full-OS2.0.205.0.VOHCNDM-user-15.0-2c597934fe.zip",
 					"fastboot": "bixi_demo_images_OS2.0.205.0.VOHCNDM_20250707.0000.00_15.0_cn_1f23e4afef.tgz",
-					"ctelecom": "bixi_demo_images_OS2.0.205.0.VOHCNDM_20250707.0000.00_15.0_cn_chinatelecom_745a4dbdbb.tgz"
+					"ctelecom": "bixi_demo_images_OS2.0.205.0.VOHCNDM_20250707.0000.00_15.0_cn_chinatelecom_745a4dbdbb.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.204.0.VOHCNDM": {
 					"os": "OS2.0.204.0.VOHCNDM",
@@ -320,7 +347,8 @@
 					"release": "2025-07-05",
 					"recovery": "bixi_demo-ota_full-OS2.0.204.0.VOHCNDM-user-15.0-162df65168.zip",
 					"fastboot": "bixi_demo_images_OS2.0.204.0.VOHCNDM_20250703.0000.00_15.0_cn_64b6642a3c.tgz",
-					"ctelecom": "bixi_demo_images_OS2.0.204.0.VOHCNDM_20250703.0000.00_15.0_cn_chinatelecom_35366299a5.tgz"
+					"ctelecom": "bixi_demo_images_OS2.0.204.0.VOHCNDM_20250703.0000.00_15.0_cn_chinatelecom_35366299a5.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.202.0.VOHCNDM": {
 					"os": "OS2.0.202.0.VOHCNDM",
@@ -328,7 +356,8 @@
 					"release": "2025-07-01",
 					"recovery": "bixi_demo-ota_full-OS2.0.202.0.VOHCNDM-user-15.0-c1c627da6a.zip",
 					"fastboot": "bixi_demo_images_OS2.0.202.0.VOHCNDM_20250628.0000.00_15.0_cn_43db376a4e.tgz",
-					"ctelecom": "bixi_demo_images_OS2.0.202.0.VOHCNDM_20250628.0000.00_15.0_cn_chinatelecom_5f677c47f4.tgz"
+					"ctelecom": "bixi_demo_images_OS2.0.202.0.VOHCNDM_20250628.0000.00_15.0_cn_chinatelecom_5f677c47f4.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.106.0.VOHCNDM": {
 					"os": "OS2.0.106.0.VOHCNDM",
@@ -336,7 +365,8 @@
 					"release": "2025-06-26",
 					"recovery": "bixi_demo-ota_full-OS2.0.106.0.VOHCNDM-user-15.0-1a80a12f2f.zip",
 					"fastboot": "bixi_demo_images_OS2.0.106.0.VOHCNDM_20250624.0000.00_15.0_cn_bb9c6b81b0.tgz",
-					"ctelecom": "bixi_demo_images_OS2.0.106.0.VOHCNDM_20250624.0000.00_15.0_cn_chinatelecom_3814ba3406.tgz"
+					"ctelecom": "bixi_demo_images_OS2.0.106.0.VOHCNDM_20250624.0000.00_15.0_cn_chinatelecom_3814ba3406.tgz",
+					"aspatch": "2025-06-01"
 				}
 			}
 		}

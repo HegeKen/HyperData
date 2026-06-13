@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -49,140 +50,160 @@
 					"android": "14.0",
 					"release": "2026-04-13",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.27.0.ULITWXM_c36ac2c091_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.27.0.ULITWXM_20260401.0000.00_14.0_tw_7a3f63bc32.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.27.0.ULITWXM_20260401.0000.00_14.0_tw_7a3f63bc32.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS1.0.26.0.ULITWXM": {
 					"os": "OS1.0.26.0.ULITWXM",
 					"android": "14.0",
 					"release": "2026-02-02",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.26.0.ULITWXM_69e1012f66_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.26.0.ULITWXM_20260120.0000.00_14.0_tw_ba8aa1cf1e.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.26.0.ULITWXM_20260120.0000.00_14.0_tw_ba8aa1cf1e.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS1.0.24.0.ULITWXM": {
 					"os": "OS1.0.24.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-12-16",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.24.0.ULITWXM_52e803979e_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.24.0.ULITWXM_20251201.0000.00_14.0_tw_237494bc12.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.24.0.ULITWXM_20251201.0000.00_14.0_tw_237494bc12.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS1.0.23.0.ULITWXM": {
 					"os": "OS1.0.23.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-11-13",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.23.0.ULITWXM_2198eeec0a_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.23.0.ULITWXM_20251027.0000.00_14.0_tw_6f531416a8.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.23.0.ULITWXM_20251027.0000.00_14.0_tw_6f531416a8.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS1.0.22.0.ULITWXM": {
 					"os": "OS1.0.22.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-10-14",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.22.0.ULITWXM_536d9b9e3b_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.22.0.ULITWXM_20250924.0000.00_14.0_tw_8f21634962.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.22.0.ULITWXM_20250924.0000.00_14.0_tw_8f21634962.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.21.0.ULITWXM": {
 					"os": "OS1.0.21.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-09-16",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.21.0.ULITWXM_2f17bfdc7a_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.21.0.ULITWXM_20250902.0000.00_14.0_tw_ba149b9cd9.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.21.0.ULITWXM_20250902.0000.00_14.0_tw_ba149b9cd9.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.20.0.ULITWXM": {
 					"os": "OS1.0.20.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.20.0.ULITWXM_ce6a3912bd_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.20.0.ULITWXM_20250805.0000.00_14.0_tw_9b9845794e.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.20.0.ULITWXM_20250805.0000.00_14.0_tw_9b9845794e.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.19.0.ULITWXM": {
 					"os": "OS1.0.19.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-07-14",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.19.0.ULITWXM_d36f1bc7e1_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.19.0.ULITWXM_20250627.0000.00_14.0_tw_cb5948b15a.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.19.0.ULITWXM_20250627.0000.00_14.0_tw_cb5948b15a.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.16.0.ULITWXM": {
 					"os": "OS1.0.16.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.16.0.ULITWXM_439381b264_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.16.0.ULITWXM_20250523.0000.00_14.0_tw_b655c1fd0a.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.16.0.ULITWXM_20250523.0000.00_14.0_tw_b655c1fd0a.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.15.0.ULITWXM": {
 					"os": "OS1.0.15.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-04-28",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.15.0.ULITWXM_e7a1fb182d_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.15.0.ULITWXM_20250407.0000.00_14.0_tw_264d6feb12.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.15.0.ULITWXM_20250407.0000.00_14.0_tw_264d6feb12.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.14.0.ULITWXM": {
 					"os": "OS1.0.14.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-03-28",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.14.0.ULITWXM_9a833c4824_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.14.0.ULITWXM_20250303.0000.00_14.0_tw_adaf502c07.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.14.0.ULITWXM_20250303.0000.00_14.0_tw_adaf502c07.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.12.0.ULITWXM": {
 					"os": "OS1.0.12.0.ULITWXM",
 					"android": "14.0",
 					"release": "2025-03-05",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.12.0.ULITWXM_56b78713aa_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.12.0.ULITWXM_20250217.0000.00_14.0_tw_77671c202d.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.12.0.ULITWXM_20250217.0000.00_14.0_tw_77671c202d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.10.0.ULITWXM": {
 					"os": "OS1.0.10.0.ULITWXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.10.0.ULITWXM_59ee009b72_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.10.0.ULITWXM_20241114.0000.00_14.0_tw_fb27b794ba.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.10.0.ULITWXM_20241114.0000.00_14.0_tw_fb27b794ba.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.ULITWXM": {
 					"os": "OS1.0.8.0.ULITWXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.8.0.ULITWXM_c146733553_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.8.0.ULITWXM_20241017.0000.00_14.0_tw_e65a3b6f3d.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.8.0.ULITWXM_20241017.0000.00_14.0_tw_e65a3b6f3d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.7.0.ULITWXM": {
 					"os": "OS1.0.7.0.ULITWXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.7.0.ULITWXM_d5b3014ce4_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.7.0.ULITWXM_20240910.0000.00_14.0_tw_503e6dd716.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.7.0.ULITWXM_20240910.0000.00_14.0_tw_503e6dd716.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.ULITWXM": {
 					"os": "OS1.0.6.0.ULITWXM",
 					"android": "14.0",
 					"release": "2024-09-05",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.6.0.ULITWXM_cc061e6af1_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.6.0.ULITWXM_20240815.0000.00_14.0_tw_223d496d22.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.6.0.ULITWXM_20240815.0000.00_14.0_tw_223d496d22.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.ULITWXM": {
 					"os": "OS1.0.5.0.ULITWXM",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.5.0.ULITWXM_008d72d646_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.5.0.ULITWXM_20240722.0000.00_14.0_tw_5dc988b740.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.5.0.ULITWXM_20240722.0000.00_14.0_tw_5dc988b740.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.ULITWXM": {
 					"os": "OS1.0.3.0.ULITWXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.3.0.ULITWXM_331b1439e9_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.3.0.ULITWXM_20240524.0000.00_14.0_tw_82825cd022.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.3.0.ULITWXM_20240524.0000.00_14.0_tw_82825cd022.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.ULITWXM": {
 					"os": "OS1.0.2.0.ULITWXM",
 					"android": "14.0",
 					"release": "2024-04-07",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.2.0.ULITWXM_5c82f23d22_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.2.0.ULITWXM_20240312.0000.00_14.0_tw_4095ba6427.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.2.0.ULITWXM_20240312.0000.00_14.0_tw_4095ba6427.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.ULITWXM": {
 					"os": "OS1.0.1.0.ULITWXM",
 					"android": "14.0",
 					"release": "2024-02-26",
 					"recovery": "miui_TAOYAOTWGlobal_OS1.0.1.0.ULITWXM_2396b5ff20_14.0.zip",
-					"fastboot": "taoyao_tw_global_images_OS1.0.1.0.ULITWXM_20240126.0000.00_14.0_tw_000f68a8f6.tgz"
+					"fastboot": "taoyao_tw_global_images_OS1.0.1.0.ULITWXM_20240126.0000.00_14.0_tw_000f68a8f6.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -204,6 +225,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -220,147 +242,168 @@
 					"android": "14.0",
 					"release": "2026-04-13",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.33.0.ULIMIXM_5499f62e6d_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.33.0.ULIMIXM_20260327.0000.00_14.0_global_2fe4c75f9b.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.33.0.ULIMIXM_20260327.0000.00_14.0_global_2fe4c75f9b.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS1.0.32.0.ULIMIXM": {
 					"os": "OS1.0.32.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2026-02-02",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.32.0.ULIMIXM_633ad0dd4f_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.32.0.ULIMIXM_20260120.0000.00_14.0_global_4b5b290c93.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.32.0.ULIMIXM_20260120.0000.00_14.0_global_4b5b290c93.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS1.0.30.0.ULIMIXM": {
 					"os": "OS1.0.30.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-12-29",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.30.0.ULIMIXM_b40a20ab05_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.30.0.ULIMIXM_20251222.0000.00_14.0_global_cacbc08cc2.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.30.0.ULIMIXM_20251222.0000.00_14.0_global_cacbc08cc2.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS1.0.29.0.ULIMIXM": {
 					"os": "OS1.0.29.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-12-16",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.29.0.ULIMIXM_3178566a85_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.29.0.ULIMIXM_20251125.0000.00_14.0_global_405ea4c9c2.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.29.0.ULIMIXM_20251125.0000.00_14.0_global_405ea4c9c2.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS1.0.28.0.ULIMIXM": {
 					"os": "OS1.0.28.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-11-13",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.28.0.ULIMIXM_6815435bb5_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.28.0.ULIMIXM_20251022.0000.00_14.0_global_bd8d88bc8a.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.28.0.ULIMIXM_20251022.0000.00_14.0_global_bd8d88bc8a.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS1.0.27.0.ULIMIXM": {
 					"os": "OS1.0.27.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-10-14",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.27.0.ULIMIXM_ff7887df9d_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.27.0.ULIMIXM_20250918.0000.00_14.0_global_e75aa42c97.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.27.0.ULIMIXM_20250918.0000.00_14.0_global_e75aa42c97.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.26.0.ULIMIXM": {
 					"os": "OS1.0.26.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-09-16",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.26.0.ULIMIXM_749aec8e38_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.26.0.ULIMIXM_20250829.0000.00_14.0_global_19deff5113.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.26.0.ULIMIXM_20250829.0000.00_14.0_global_19deff5113.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.23.0.ULIMIXM": {
 					"os": "OS1.0.23.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.23.0.ULIMIXM_342f4c2bcd_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.23.0.ULIMIXM_20250730.0000.00_14.0_global_7f77052e5f.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.23.0.ULIMIXM_20250730.0000.00_14.0_global_7f77052e5f.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.21.0.ULIMIXM": {
 					"os": "OS1.0.21.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-07-14",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.21.0.ULIMIXM_1fc94659cf_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.21.0.ULIMIXM_20250626.0000.00_14.0_global_51e4167993.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.21.0.ULIMIXM_20250626.0000.00_14.0_global_51e4167993.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.18.0.ULIMIXM": {
 					"os": "OS1.0.18.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.18.0.ULIMIXM_5d7d815383_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.18.0.ULIMIXM_20250523.0000.00_14.0_global_3104fe2c95.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.18.0.ULIMIXM_20250523.0000.00_14.0_global_3104fe2c95.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.17.0.ULIMIXM": {
 					"os": "OS1.0.17.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-04-28",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.17.0.ULIMIXM_e7c6186222_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.17.0.ULIMIXM_20250401.0000.00_14.0_global_58f3b958cc.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.17.0.ULIMIXM_20250401.0000.00_14.0_global_58f3b958cc.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.16.0.ULIMIXM": {
 					"os": "OS1.0.16.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-03-28",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.16.0.ULIMIXM_8c9cd35980_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.16.0.ULIMIXM_20250227.0000.00_14.0_global_c6a92405f6.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.16.0.ULIMIXM_20250227.0000.00_14.0_global_c6a92405f6.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.14.0.ULIMIXM": {
 					"os": "OS1.0.14.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2025-02-28",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.14.0.ULIMIXM_18973182a0_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.14.0.ULIMIXM_20250217.0000.00_14.0_global_eea476edf4.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.14.0.ULIMIXM_20250217.0000.00_14.0_global_eea476edf4.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.12.0.ULIMIXM": {
 					"os": "OS1.0.12.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.12.0.ULIMIXM_fdd69c35c3_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.12.0.ULIMIXM_20241105.0000.00_14.0_global_abf9437265.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.12.0.ULIMIXM_20241105.0000.00_14.0_global_abf9437265.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.ULIMIXM": {
 					"os": "OS1.0.11.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.11.0.ULIMIXM_8def0487fb_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.11.0.ULIMIXM_20241014.0000.00_14.0_global_23e66473b3.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.11.0.ULIMIXM_20241014.0000.00_14.0_global_23e66473b3.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.10.0.ULIMIXM": {
 					"os": "OS1.0.10.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.10.0.ULIMIXM_eac8168804_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.10.0.ULIMIXM_20240909.0000.00_14.0_global_a2e0180b53.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.10.0.ULIMIXM_20240909.0000.00_14.0_global_a2e0180b53.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.9.0.ULIMIXM": {
 					"os": "OS1.0.9.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2024-09-05",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.9.0.ULIMIXM_d6d2b41a97_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.9.0.ULIMIXM_20240812.0000.00_14.0_global_98afa41525.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.9.0.ULIMIXM_20240812.0000.00_14.0_global_98afa41525.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.8.0.ULIMIXM": {
 					"os": "OS1.0.8.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2024-07-31",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.8.0.ULIMIXM_aced32ba11_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.8.0.ULIMIXM_20240715.0000.00_14.0_global_49387c0ae0.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.8.0.ULIMIXM_20240715.0000.00_14.0_global_49387c0ae0.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.6.0.ULIMIXM": {
 					"os": "OS1.0.6.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2024-05-27",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.6.0.ULIMIXM_6c00d98a98_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.6.0.ULIMIXM_20240513.0000.00_14.0_global_7397b98a1e.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.6.0.ULIMIXM_20240513.0000.00_14.0_global_7397b98a1e.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.4.0.ULIMIXM": {
 					"os": "OS1.0.4.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2024-03-24",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.4.0.ULIMIXM_1537ef52cf_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.4.0.ULIMIXM_20240229.0000.00_14.0_global_d61c16833a.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.4.0.ULIMIXM_20240229.0000.00_14.0_global_d61c16833a.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.ULIMIXM": {
 					"os": "OS1.0.2.0.ULIMIXM",
 					"android": "14.0",
 					"release": "2024-01-23",
 					"recovery": "miui_TAOYAOGlobal_OS1.0.2.0.ULIMIXM_dbf4b7f872_14.0.zip",
-					"fastboot": "taoyao_global_images_OS1.0.2.0.ULIMIXM_20240112.0000.00_14.0_global_f40191d72e.tgz"
+					"fastboot": "taoyao_global_images_OS1.0.2.0.ULIMIXM_20240112.0000.00_14.0_global_f40191d72e.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -382,6 +425,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -398,154 +442,176 @@
 					"android": "14.0",
 					"release": "2026-04-13",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.38.0.ULIEUXM_7ab7385c0d_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.38.0.ULIEUXM_20260401.0000.00_14.0_eea_4e598fa64a.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.38.0.ULIEUXM_20260401.0000.00_14.0_eea_4e598fa64a.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS1.0.37.0.ULIEUXM": {
 					"os": "OS1.0.37.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2026-02-02",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.37.0.ULIEUXM_369a59f87f_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.37.0.ULIEUXM_20260115.0000.00_14.0_eea_e713e93c02.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.37.0.ULIEUXM_20260115.0000.00_14.0_eea_e713e93c02.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS1.0.36.0.ULIEUXM": {
 					"os": "OS1.0.36.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2026-01-07",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.36.0.ULIEUXM_10b854473f_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.36.0.ULIEUXM_20251230.0000.00_14.0_eea_0a53696a32.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.36.0.ULIEUXM_20251230.0000.00_14.0_eea_0a53696a32.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS1.0.35.0.ULIEUXM": {
 					"os": "OS1.0.35.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-12-16",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.35.0.ULIEUXM_1f4b4b602e_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.35.0.ULIEUXM_20251202.0000.00_14.0_eea_88a4f6cf5c.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.35.0.ULIEUXM_20251202.0000.00_14.0_eea_88a4f6cf5c.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS1.0.34.0.ULIEUXM": {
 					"os": "OS1.0.34.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-11-13",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.34.0.ULIEUXM_da9bdce6d7_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.34.0.ULIEUXM_20251027.0000.00_14.0_eea_5c7e41f017.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.34.0.ULIEUXM_20251027.0000.00_14.0_eea_5c7e41f017.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS1.0.33.0.ULIEUXM": {
 					"os": "OS1.0.33.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-10-14",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.33.0.ULIEUXM_31dc26156f_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.33.0.ULIEUXM_20250923.0000.00_14.0_eea_a198a2af32.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.33.0.ULIEUXM_20250923.0000.00_14.0_eea_a198a2af32.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.32.0.ULIEUXM": {
 					"os": "OS1.0.32.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-09-16",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.32.0.ULIEUXM_7d4e6ecd36_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.32.0.ULIEUXM_20250901.0000.00_14.0_eea_3e5a526942.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.32.0.ULIEUXM_20250901.0000.00_14.0_eea_3e5a526942.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.31.0.ULIEUXM": {
 					"os": "OS1.0.31.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.31.0.ULIEUXM_aa30534c48_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.31.0.ULIEUXM_20250804.0000.00_14.0_eea_6f1af4be59.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.31.0.ULIEUXM_20250804.0000.00_14.0_eea_6f1af4be59.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.30.0.ULIEUXM": {
 					"os": "OS1.0.30.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-07-14",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.30.0.ULIEUXM_729591b3a8_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.30.0.ULIEUXM_20250626.0000.00_14.0_eea_39b95db201.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.30.0.ULIEUXM_20250626.0000.00_14.0_eea_39b95db201.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.26.0.ULIEUXM": {
 					"os": "OS1.0.26.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.26.0.ULIEUXM_0b89c2ff50_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.26.0.ULIEUXM_20250522.0000.00_14.0_eea_11a71bde78.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.26.0.ULIEUXM_20250522.0000.00_14.0_eea_11a71bde78.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.24.0.ULIEUXM": {
 					"os": "OS1.0.24.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-04-28",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.24.0.ULIEUXM_0a98b78334_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.24.0.ULIEUXM_20250407.0000.00_14.0_eea_8d546b3ed9.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.24.0.ULIEUXM_20250407.0000.00_14.0_eea_8d546b3ed9.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.23.0.ULIEUXM": {
 					"os": "OS1.0.23.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-03-28",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.23.0.ULIEUXM_e6e8add423_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.23.0.ULIEUXM_20250303.0000.00_14.0_eea_10330eacc0.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.23.0.ULIEUXM_20250303.0000.00_14.0_eea_10330eacc0.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.21.0.ULIEUXM": {
 					"os": "OS1.0.21.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2025-02-28",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.21.0.ULIEUXM_10efdd9f4c_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.21.0.ULIEUXM_20250217.0000.00_14.0_eea_364488cf7a.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.21.0.ULIEUXM_20250217.0000.00_14.0_eea_364488cf7a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.17.0.ULIEUXM": {
 					"os": "OS1.0.17.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.17.0.ULIEUXM_d4bef666c5_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.17.0.ULIEUXM_20241114.0000.00_14.0_eea_d4817331d8.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.17.0.ULIEUXM_20241114.0000.00_14.0_eea_d4817331d8.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.15.0.ULIEUXM": {
 					"os": "OS1.0.15.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.15.0.ULIEUXM_c2a81e9f1a_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.15.0.ULIEUXM_20241017.0000.00_14.0_eea_6d237d885a.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.15.0.ULIEUXM_20241017.0000.00_14.0_eea_6d237d885a.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.14.0.ULIEUXM": {
 					"os": "OS1.0.14.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.14.0.ULIEUXM_1bbbb5877d_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.14.0.ULIEUXM_20240911.0000.00_14.0_eea_a9409b0ad0.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.14.0.ULIEUXM_20240911.0000.00_14.0_eea_a9409b0ad0.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.13.0.ULIEUXM": {
 					"os": "OS1.0.13.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.13.0.ULIEUXM_fb1aed7ca3_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.13.0.ULIEUXM_20240816.0000.00_14.0_eea_970d3ea680.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.13.0.ULIEUXM_20240816.0000.00_14.0_eea_970d3ea680.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.12.0.ULIEUXM": {
 					"os": "OS1.0.12.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.12.0.ULIEUXM_286fa7cf2e_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.12.0.ULIEUXM_20240722.0000.00_14.0_eea_a138a78cca.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.12.0.ULIEUXM_20240722.0000.00_14.0_eea_a138a78cca.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.10.0.ULIEUXM": {
 					"os": "OS1.0.10.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.10.0.ULIEUXM_68a74ddb9c_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.10.0.ULIEUXM_20240520.0000.00_14.0_eea_80a1113e19.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.10.0.ULIEUXM_20240520.0000.00_14.0_eea_80a1113e19.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.7.0.ULIEUXM": {
 					"os": "OS1.0.7.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-05-22",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.7.0.ULIEUXM_7e715c0a1a_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.7.0.ULIEUXM_20240314.0000.00_14.0_eea_e8b818116b.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.7.0.ULIEUXM_20240314.0000.00_14.0_eea_e8b818116b.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.5.0.ULIEUXM": {
 					"os": "OS1.0.5.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-03-25",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.5.0.ULIEUXM_992483824d_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.5.0.ULIEUXM_20240229.0000.00_14.0_eea_b59833e47e.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.5.0.ULIEUXM_20240229.0000.00_14.0_eea_b59833e47e.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.ULIEUXM": {
 					"os": "OS1.0.2.0.ULIEUXM",
 					"android": "14.0",
 					"release": "2024-01-27",
 					"recovery": "miui_TAOYAOEEAGlobal_OS1.0.2.0.ULIEUXM_bc84777c39_14.0.zip",
-					"fastboot": "taoyao_eea_global_images_OS1.0.2.0.ULIEUXM_20240118.0000.00_14.0_eea_d34313f7c8.tgz"
+					"fastboot": "taoyao_eea_global_images_OS1.0.2.0.ULIEUXM_20240118.0000.00_14.0_eea_d34313f7c8.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -567,6 +633,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -583,140 +650,160 @@
 					"android": "14.0",
 					"release": "2026-04-13",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.27.0.ULIRUXM_f58d31abc4_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.27.0.ULIRUXM_20260401.0000.00_14.0_ru_23501042ea.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.27.0.ULIRUXM_20260401.0000.00_14.0_ru_23501042ea.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS1.0.26.0.ULIRUXM": {
 					"os": "OS1.0.26.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2026-02-02",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.26.0.ULIRUXM_05d84d1f36_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.26.0.ULIRUXM_20260120.0000.00_14.0_ru_93820a548a.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.26.0.ULIRUXM_20260120.0000.00_14.0_ru_93820a548a.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS1.0.24.0.ULIRUXM": {
 					"os": "OS1.0.24.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-12-16",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.24.0.ULIRUXM_688a87fadd_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.24.0.ULIRUXM_20251201.0000.00_14.0_ru_f7aa453576.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.24.0.ULIRUXM_20251201.0000.00_14.0_ru_f7aa453576.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS1.0.23.0.ULIRUXM": {
 					"os": "OS1.0.23.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-11-13",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.23.0.ULIRUXM_4147afb233_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.23.0.ULIRUXM_20251027.0000.00_14.0_ru_78ac1b2317.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.23.0.ULIRUXM_20251027.0000.00_14.0_ru_78ac1b2317.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS1.0.22.0.ULIRUXM": {
 					"os": "OS1.0.22.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-10-18",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.22.0.ULIRUXM_a4da7675bb_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.22.0.ULIRUXM_20250924.0000.00_14.0_ru_95911a3c69.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.22.0.ULIRUXM_20250924.0000.00_14.0_ru_95911a3c69.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.21.0.ULIRUXM": {
 					"os": "OS1.0.21.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-09-16",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.21.0.ULIRUXM_065a9c6289_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.21.0.ULIRUXM_20250902.0000.00_14.0_ru_0589de86d4.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.21.0.ULIRUXM_20250902.0000.00_14.0_ru_0589de86d4.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.20.0.ULIRUXM": {
 					"os": "OS1.0.20.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.20.0.ULIRUXM_5e76f61be0_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.20.0.ULIRUXM_20250804.0000.00_14.0_ru_d47b483f8d.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.20.0.ULIRUXM_20250804.0000.00_14.0_ru_d47b483f8d.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.19.0.ULIRUXM": {
 					"os": "OS1.0.19.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-07-14",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.19.0.ULIRUXM_1d4f256fb8_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.19.0.ULIRUXM_20250627.0000.00_14.0_ru_257b1fb1a2.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.19.0.ULIRUXM_20250627.0000.00_14.0_ru_257b1fb1a2.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.16.0.ULIRUXM": {
 					"os": "OS1.0.16.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.16.0.ULIRUXM_cc07b8dcd0_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.16.0.ULIRUXM_20250530.0000.00_14.0_ru_43ab273e8b.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.16.0.ULIRUXM_20250530.0000.00_14.0_ru_43ab273e8b.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.14.0.ULIRUXM": {
 					"os": "OS1.0.14.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-04-28",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.14.0.ULIRUXM_b763139cdd_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.14.0.ULIRUXM_20250407.0000.00_14.0_ru_ac7430792b.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.14.0.ULIRUXM_20250407.0000.00_14.0_ru_ac7430792b.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.13.0.ULIRUXM": {
 					"os": "OS1.0.13.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-03-28",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.13.0.ULIRUXM_80d600398d_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.13.0.ULIRUXM_20250303.0000.00_14.0_ru_2b4580b91e.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.13.0.ULIRUXM_20250303.0000.00_14.0_ru_2b4580b91e.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.11.0.ULIRUXM": {
 					"os": "OS1.0.11.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2025-03-05",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.11.0.ULIRUXM_984d5c8fe3_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.11.0.ULIRUXM_20250217.0000.00_14.0_ru_e5e3137088.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.11.0.ULIRUXM_20250217.0000.00_14.0_ru_e5e3137088.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.ULIRUXM": {
 					"os": "OS1.0.9.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.9.0.ULIRUXM_077d70514d_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.9.0.ULIRUXM_20241114.0000.00_14.0_ru_233e41e6b3.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.9.0.ULIRUXM_20241114.0000.00_14.0_ru_233e41e6b3.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.ULIRUXM": {
 					"os": "OS1.0.7.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.7.0.ULIRUXM_16ba47e34d_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.7.0.ULIRUXM_20241017.0000.00_14.0_ru_9eeb06f904.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.7.0.ULIRUXM_20241017.0000.00_14.0_ru_9eeb06f904.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.ULIRUXM": {
 					"os": "OS1.0.6.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.6.0.ULIRUXM_737867b8b5_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.6.0.ULIRUXM_20240910.0000.00_14.0_ru_c24ee873bc.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.6.0.ULIRUXM_20240910.0000.00_14.0_ru_c24ee873bc.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.ULIRUXM": {
 					"os": "OS1.0.5.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2024-09-05",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.5.0.ULIRUXM_81615e6f70_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.5.0.ULIRUXM_20240815.0000.00_14.0_ru_fa0d90773a.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.5.0.ULIRUXM_20240815.0000.00_14.0_ru_fa0d90773a.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.ULIRUXM": {
 					"os": "OS1.0.4.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2024-08-09",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.4.0.ULIRUXM_648eb78bf6_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.4.0.ULIRUXM_20240722.0000.00_14.0_ru_0f3e417921.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.4.0.ULIRUXM_20240722.0000.00_14.0_ru_0f3e417921.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.ULIRUXM": {
 					"os": "OS1.0.3.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.3.0.ULIRUXM_3002b26bcd_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.3.0.ULIRUXM_20240524.0000.00_14.0_ru_dd67394717.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.3.0.ULIRUXM_20240524.0000.00_14.0_ru_dd67394717.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.ULIRUXM": {
 					"os": "OS1.0.2.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2024-04-15",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.2.0.ULIRUXM_05bd38fa76_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.2.0.ULIRUXM_20240312.0000.00_14.0_ru_917cc34cab.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.2.0.ULIRUXM_20240312.0000.00_14.0_ru_917cc34cab.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.ULIRUXM": {
 					"os": "OS1.0.1.0.ULIRUXM",
 					"android": "14.0",
 					"release": "2024-02-25",
 					"recovery": "miui_TAOYAORUGlobal_OS1.0.1.0.ULIRUXM_4da750cd20_14.0.zip",
-					"fastboot": "taoyao_ru_global_images_OS1.0.1.0.ULIRUXM_20240126.0000.00_14.0_ru_bf7f033f88.tgz"
+					"fastboot": "taoyao_ru_global_images_OS1.0.1.0.ULIRUXM_20240126.0000.00_14.0_ru_bf7f033f88.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -738,6 +825,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -754,140 +842,160 @@
 					"android": "14.0",
 					"release": "2026-04-13",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.28.0.ULIIDXM_479388b1e1_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.28.0.ULIIDXM_20260401.0000.00_14.0_id_247a8f08af.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.28.0.ULIIDXM_20260401.0000.00_14.0_id_247a8f08af.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS1.0.27.0.ULIIDXM": {
 					"os": "OS1.0.27.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2026-02-02",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.27.0.ULIIDXM_d660a5bd0a_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.27.0.ULIIDXM_20260120.0000.00_14.0_id_56a9487595.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.27.0.ULIIDXM_20260120.0000.00_14.0_id_56a9487595.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS1.0.25.0.ULIIDXM": {
 					"os": "OS1.0.25.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-12-16",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.25.0.ULIIDXM_5b85473cb8_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.25.0.ULIIDXM_20251202.0000.00_14.0_id_73c97d2c33.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.25.0.ULIIDXM_20251202.0000.00_14.0_id_73c97d2c33.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS1.0.24.0.ULIIDXM": {
 					"os": "OS1.0.24.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-11-13",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.24.0.ULIIDXM_6d0ffe48a0_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.24.0.ULIIDXM_20251027.0000.00_14.0_id_c123fb21bc.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.24.0.ULIIDXM_20251027.0000.00_14.0_id_c123fb21bc.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS1.0.23.0.ULIIDXM": {
 					"os": "OS1.0.23.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-10-14",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.23.0.ULIIDXM_4b2a86ae7f_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.23.0.ULIIDXM_20250923.0000.00_14.0_id_653f2de7a3.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.23.0.ULIIDXM_20250923.0000.00_14.0_id_653f2de7a3.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.22.0.ULIIDXM": {
 					"os": "OS1.0.22.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-09-18",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.22.0.ULIIDXM_adeb4f3262_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.22.0.ULIIDXM_20250902.0000.00_14.0_id_84c5c592bb.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.22.0.ULIIDXM_20250902.0000.00_14.0_id_84c5c592bb.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.21.0.ULIIDXM": {
 					"os": "OS1.0.21.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.21.0.ULIIDXM_77577e7aba_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.21.0.ULIIDXM_20250804.0000.00_14.0_id_95daac4f51.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.21.0.ULIIDXM_20250804.0000.00_14.0_id_95daac4f51.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.20.0.ULIIDXM": {
 					"os": "OS1.0.20.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-07-14",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.20.0.ULIIDXM_569ff6349d_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.20.0.ULIIDXM_20250626.0000.00_14.0_id_0249cb1a3a.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.20.0.ULIIDXM_20250626.0000.00_14.0_id_0249cb1a3a.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.17.0.ULIIDXM": {
 					"os": "OS1.0.17.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.17.0.ULIIDXM_a6a38769e7_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.17.0.ULIIDXM_20250523.0000.00_14.0_id_d0c7f34d4e.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.17.0.ULIIDXM_20250523.0000.00_14.0_id_d0c7f34d4e.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.16.0.ULIIDXM": {
 					"os": "OS1.0.16.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-04-28",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.16.0.ULIIDXM_3cce3237c8_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.16.0.ULIIDXM_20250407.0000.00_14.0_id_e2173b02e8.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.16.0.ULIIDXM_20250407.0000.00_14.0_id_e2173b02e8.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.15.0.ULIIDXM": {
 					"os": "OS1.0.15.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-03-28",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.15.0.ULIIDXM_4f71e70356_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.15.0.ULIIDXM_20250303.0000.00_14.0_id_397f9924ee.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.15.0.ULIIDXM_20250303.0000.00_14.0_id_397f9924ee.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.13.0.ULIIDXM": {
 					"os": "OS1.0.13.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2025-03-05",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.13.0.ULIIDXM_532d902fb0_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.13.0.ULIIDXM_20250217.0000.00_14.0_id_b56ec577ab.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.13.0.ULIIDXM_20250217.0000.00_14.0_id_b56ec577ab.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.11.0.ULIIDXM": {
 					"os": "OS1.0.11.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.11.0.ULIIDXM_e0016ab7ce_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.11.0.ULIIDXM_20241114.0000.00_14.0_id_6e304765e2.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.11.0.ULIIDXM_20241114.0000.00_14.0_id_6e304765e2.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.ULIIDXM": {
 					"os": "OS1.0.9.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.9.0.ULIIDXM_a729179f46_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.9.0.ULIIDXM_20241017.0000.00_14.0_id_e70cfedad1.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.9.0.ULIIDXM_20241017.0000.00_14.0_id_e70cfedad1.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.ULIIDXM": {
 					"os": "OS1.0.8.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.8.0.ULIIDXM_1fcc013b62_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.8.0.ULIIDXM_20240910.0000.00_14.0_id_022eb7f188.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.8.0.ULIIDXM_20240910.0000.00_14.0_id_022eb7f188.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.7.0.ULIIDXM": {
 					"os": "OS1.0.7.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.7.0.ULIIDXM_4a6285e5ff_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.7.0.ULIIDXM_20240816.0000.00_14.0_id_54f2cf12bf.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.7.0.ULIIDXM_20240816.0000.00_14.0_id_54f2cf12bf.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.6.0.ULIIDXM": {
 					"os": "OS1.0.6.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2024-08-09",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.6.0.ULIIDXM_d29150d563_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.6.0.ULIIDXM_20240722.0000.00_14.0_id_e41348c603.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.6.0.ULIIDXM_20240722.0000.00_14.0_id_e41348c603.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.4.0.ULIIDXM": {
 					"os": "OS1.0.4.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.4.0.ULIIDXM_17b414a78a_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.4.0.ULIIDXM_20240517.0000.00_14.0_id_a494d48481.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.4.0.ULIIDXM_20240517.0000.00_14.0_id_a494d48481.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.3.0.ULIIDXM": {
 					"os": "OS1.0.3.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2024-03-29",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.3.0.ULIIDXM_3873ee7632_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.3.0.ULIIDXM_20240304.0000.00_14.0_id_39955a5cb0.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.3.0.ULIIDXM_20240304.0000.00_14.0_id_39955a5cb0.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.ULIIDXM": {
 					"os": "OS1.0.2.0.ULIIDXM",
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_TAOYAOIDGlobal_OS1.0.2.0.ULIIDXM_2d3a0beb65_14.0.zip",
-					"fastboot": "taoyao_id_global_images_OS1.0.2.0.ULIIDXM_20240119.0000.00_14.0_id_c4d00cd9f4.tgz"
+					"fastboot": "taoyao_id_global_images_OS1.0.2.0.ULIIDXM_20240119.0000.00_14.0_id_c4d00cd9f4.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -909,6 +1017,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -925,140 +1034,160 @@
 					"android": "14.0",
 					"release": "2026-04-13",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.27.0.ULITRXM_48e874b5e2_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.27.0.ULITRXM_20260401.0000.00_14.0_tr_85bc65bfec.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.27.0.ULITRXM_20260401.0000.00_14.0_tr_85bc65bfec.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS1.0.26.0.ULITRXM": {
 					"os": "OS1.0.26.0.ULITRXM",
 					"android": "14.0",
 					"release": "2026-02-02",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.26.0.ULITRXM_6defe468ee_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.26.0.ULITRXM_20260120.0000.00_14.0_tr_7bd89546f8.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.26.0.ULITRXM_20260120.0000.00_14.0_tr_7bd89546f8.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS1.0.24.0.ULITRXM": {
 					"os": "OS1.0.24.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-12-16",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.24.0.ULITRXM_33dbbb3299_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.24.0.ULITRXM_20251201.0000.00_14.0_tr_5734effa73.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.24.0.ULITRXM_20251201.0000.00_14.0_tr_5734effa73.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS1.0.23.0.ULITRXM": {
 					"os": "OS1.0.23.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-11-13",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.23.0.ULITRXM_4e4123a5e2_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.23.0.ULITRXM_20251027.0000.00_14.0_tr_a8717dc226.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.23.0.ULITRXM_20251027.0000.00_14.0_tr_a8717dc226.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS1.0.22.0.ULITRXM": {
 					"os": "OS1.0.22.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-10-14",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.22.0.ULITRXM_90a1295cd9_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.22.0.ULITRXM_20250923.0000.00_14.0_tr_3438c7a251.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.22.0.ULITRXM_20250923.0000.00_14.0_tr_3438c7a251.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.21.0.ULITRXM": {
 					"os": "OS1.0.21.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-09-18",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.21.0.ULITRXM_3e0815e2ec_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.21.0.ULITRXM_20250902.0000.00_14.0_tr_d7949a063b.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.21.0.ULITRXM_20250902.0000.00_14.0_tr_d7949a063b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.20.0.ULITRXM": {
 					"os": "OS1.0.20.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.20.0.ULITRXM_7aa91d7d7a_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.20.0.ULITRXM_20250804.0000.00_14.0_tr_412722ca05.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.20.0.ULITRXM_20250804.0000.00_14.0_tr_412722ca05.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.19.0.ULITRXM": {
 					"os": "OS1.0.19.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-07-14",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.19.0.ULITRXM_0e577c0114_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.19.0.ULITRXM_20250626.0000.00_14.0_tr_05722b18c9.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.19.0.ULITRXM_20250626.0000.00_14.0_tr_05722b18c9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.16.0.ULITRXM": {
 					"os": "OS1.0.16.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.16.0.ULITRXM_e48f618e04_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.16.0.ULITRXM_20250529.0000.00_14.0_tr_3c30b1a432.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.16.0.ULITRXM_20250529.0000.00_14.0_tr_3c30b1a432.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.14.0.ULITRXM": {
 					"os": "OS1.0.14.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-04-28",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.14.0.ULITRXM_157299fe31_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.14.0.ULITRXM_20250407.0000.00_14.0_tr_d3bc9e1673.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.14.0.ULITRXM_20250407.0000.00_14.0_tr_d3bc9e1673.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.13.0.ULITRXM": {
 					"os": "OS1.0.13.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-03-28",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.13.0.ULITRXM_fe474790ba_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.13.0.ULITRXM_20250303.0000.00_14.0_tr_07c07107be.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.13.0.ULITRXM_20250303.0000.00_14.0_tr_07c07107be.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.11.0.ULITRXM": {
 					"os": "OS1.0.11.0.ULITRXM",
 					"android": "14.0",
 					"release": "2025-02-28",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.11.0.ULITRXM_e7d2402987_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.11.0.ULITRXM_20250217.0000.00_14.0_tr_c0b932e0d9.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.11.0.ULITRXM_20250217.0000.00_14.0_tr_c0b932e0d9.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.ULITRXM": {
 					"os": "OS1.0.9.0.ULITRXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.9.0.ULITRXM_fc9b7f66bd_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.9.0.ULITRXM_20241114.0000.00_14.0_tr_ba5721213b.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.9.0.ULITRXM_20241114.0000.00_14.0_tr_ba5721213b.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.ULITRXM": {
 					"os": "OS1.0.7.0.ULITRXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.7.0.ULITRXM_4abdfd565b_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.7.0.ULITRXM_20241017.0000.00_14.0_tr_d5d9fe7348.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.7.0.ULITRXM_20241017.0000.00_14.0_tr_d5d9fe7348.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.ULITRXM": {
 					"os": "OS1.0.6.0.ULITRXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.6.0.ULITRXM_ba6c891df9_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.6.0.ULITRXM_20240910.0000.00_14.0_tr_5e867a21b1.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.6.0.ULITRXM_20240910.0000.00_14.0_tr_5e867a21b1.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.ULITRXM": {
 					"os": "OS1.0.5.0.ULITRXM",
 					"android": "14.0",
 					"release": "2024-09-05",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.5.0.ULITRXM_54c40ac779_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.5.0.ULITRXM_20240816.0000.00_14.0_tr_4ef2d42ca8.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.5.0.ULITRXM_20240816.0000.00_14.0_tr_4ef2d42ca8.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.ULITRXM": {
 					"os": "OS1.0.4.0.ULITRXM",
 					"android": "14.0",
 					"release": "2024-08-09",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.4.0.ULITRXM_f888aa3a9b_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.4.0.ULITRXM_20240722.0000.00_14.0_tr_f223a5a281.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.4.0.ULITRXM_20240722.0000.00_14.0_tr_f223a5a281.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.ULITRXM": {
 					"os": "OS1.0.3.0.ULITRXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.3.0.ULITRXM_bb2969fb18_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.3.0.ULITRXM_20240524.0000.00_14.0_tr_b4f99fb082.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.3.0.ULITRXM_20240524.0000.00_14.0_tr_b4f99fb082.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.ULITRXM": {
 					"os": "OS1.0.2.0.ULITRXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.2.0.ULITRXM_8c05e7df4e_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.2.0.ULITRXM_20240312.0000.00_14.0_tr_0af6b76052.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.2.0.ULITRXM_20240312.0000.00_14.0_tr_0af6b76052.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.ULITRXM": {
 					"os": "OS1.0.1.0.ULITRXM",
 					"android": "14.0",
 					"release": "2024-02-26",
 					"recovery": "miui_TAOYAOTRGlobal_OS1.0.1.0.ULITRXM_f87e358731_14.0.zip",
-					"fastboot": "taoyao_tr_global_images_OS1.0.1.0.ULITRXM_20240126.0000.00_14.0_tr_379c13ef64.tgz"
+					"fastboot": "taoyao_tr_global_images_OS1.0.1.0.ULITRXM_20240126.0000.00_14.0_tr_379c13ef64.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1080,6 +1209,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1096,28 +1226,32 @@
 					"android": "14.0",
 					"release": "2025-12-02",
 					"recovery": "miui_TAOYAOCLENGlobal_OS1.0.4.0.ULICLEN_1b5810a682_14.0.zip",
-					"fastboot": "taoyao_cl_en_global_images_OS1.0.4.0.ULICLEN_20250925.0000.00_14.0_cl_en_7c34180148.tgz"
+					"fastboot": "taoyao_cl_en_global_images_OS1.0.4.0.ULICLEN_20250925.0000.00_14.0_cl_en_7c34180148.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.3.0.ULICLEN": {
 					"os": "OS1.0.3.0.ULICLEN",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_TAOYAOCLENGlobal_OS1.0.3.0.ULICLEN_e3c212e35c_14.0.zip",
-					"fastboot": "taoyao_cl_en_global_images_OS1.0.3.0.ULICLEN_20240902.0000.00_14.0_cl_en_7316d04cc7.tgz"
+					"fastboot": "taoyao_cl_en_global_images_OS1.0.3.0.ULICLEN_20240902.0000.00_14.0_cl_en_7316d04cc7.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.ULICLEN": {
 					"os": "OS1.0.2.0.ULICLEN",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_TAOYAOCLENGlobal_OS1.0.2.0.ULICLEN_03b8acdc06_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.ULICLEN": {
 					"os": "OS1.0.1.0.ULICLEN",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_TAOYAOCLENGlobal_OS1.0.1.0.ULICLEN_b7ec3f60eb_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1139,6 +1273,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1155,42 +1290,48 @@
 					"android": "14.0",
 					"release": "2025-01-08",
 					"recovery": "miui_TAOYAOLMCRGlobal_OS1.0.6.0.ULILMCR_df4a196308_14.0.zip",
-					"fastboot": "taoyao_lm_cr_global_images_OS1.0.6.0.ULILMCR_20241226.0000.00_14.0_lm_cr_805e6efe53.tgz"
+					"fastboot": "taoyao_lm_cr_global_images_OS1.0.6.0.ULILMCR_20241226.0000.00_14.0_lm_cr_805e6efe53.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.5.0.ULILMCR": {
 					"os": "OS1.0.5.0.ULILMCR",
 					"android": "14.0",
 					"release": "2024-11-21",
 					"recovery": "miui_TAOYAOLMCRGlobal_OS1.0.5.0.ULILMCR_03957353b4_14.0.zip",
-					"fastboot": "taoyao_lm_cr_global_images_OS1.0.5.0.ULILMCR_20241029.0000.00_14.0_lm_cr_b630ca313b.tgz"
+					"fastboot": "taoyao_lm_cr_global_images_OS1.0.5.0.ULILMCR_20241029.0000.00_14.0_lm_cr_b630ca313b.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.4.0.ULILMCR": {
 					"os": "OS1.0.4.0.ULILMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_TAOYAOLMCRGlobal_OS1.0.4.0.ULILMCR_3324049d29_14.0.zip",
-					"fastboot": "taoyao_lm_cr_global_images_OS1.0.4.0.ULILMCR_20240829.0000.00_14.0_lm_cr_0038d3d878.tgz"
+					"fastboot": "taoyao_lm_cr_global_images_OS1.0.4.0.ULILMCR_20240829.0000.00_14.0_lm_cr_0038d3d878.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.ULILMCR": {
 					"os": "OS1.0.3.0.ULILMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_TAOYAOLMCRGlobal_OS1.0.3.0.ULILMCR_5ace7ac163_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.ULILMCR": {
 					"os": "OS1.0.2.0.ULILMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_TAOYAOLMCRGlobal_OS1.0.2.0.ULILMCR_6dc299e21b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.ULILMCR": {
 					"os": "OS1.0.1.0.ULILMCR",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_TAOYAOLMCRGlobal_OS1.0.1.0.ULILMCR_3e0ff08d76_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				}
 			}
 		}

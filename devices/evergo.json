@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -54,7 +55,8 @@
 					"release": "2024-02-26",
 					"recovery": "miui_EVERGO_OS1.0.1.0.TGBCNXM_30dc3f8271_13.0.zip",
 					"fastboot": "evergo_images_OS1.0.1.0.TGBCNXM_20240206.0000.00_13.0_cn_869f7220f4.tgz",
-					"ctelecom": "evergo_images_OS1.0.1.0.TGBCNXM_20240206.0000.00_13.0_cn_chinatelecom_206d4e6226.tgz"
+					"ctelecom": "evergo_images_OS1.0.1.0.TGBCNXM_20240206.0000.00_13.0_cn_chinatelecom_206d4e6226.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -76,6 +78,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -92,7 +95,8 @@
 					"android": "13.0",
 					"release": "2024-04-12",
 					"recovery": "miui_EVERGOINGlobal_OS1.0.1.0.TGBINXM_64950b1fe9_13.0.zip",
-					"fastboot": "evergo_in_global_images_OS1.0.1.0.TGBINXM_20240307.0000.00_13.0_in_bab47e0b8a.tgz"
+					"fastboot": "evergo_in_global_images_OS1.0.1.0.TGBINXM_20240307.0000.00_13.0_in_bab47e0b8a.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		}

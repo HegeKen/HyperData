@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -58,7 +59,8 @@
 					"release": "2026-05-06",
 					"recovery": "malachite-ota_full-OS3.0.304.0.WOOCNXM-user-16.0-11c8f81c7e.zip",
 					"fastboot": "malachite_images_OS3.0.304.0.WOOCNXM_20260430.0000.00_16.0_cn_55231f192b.tgz",
-					"ctelecom": "malachite_images_OS3.0.304.0.WOOCNXM_20260430.0000.00_16.0_cn_chinatelecom_5dfcda2f98.tgz"
+					"ctelecom": "malachite_images_OS3.0.304.0.WOOCNXM_20260430.0000.00_16.0_cn_chinatelecom_5dfcda2f98.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.303.0.WOOCNXM": {
 					"os": "OS3.0.303.0.WOOCNXM",
@@ -66,7 +68,8 @@
 					"release": "2026-04-22",
 					"recovery": "malachite-ota_full-OS3.0.303.0.WOOCNXM-user-16.0-8d79fd9dee.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOOCNXM": {
 					"os": "OS3.0.3.0.WOOCNXM",
@@ -74,7 +77,8 @@
 					"release": "2026-01-30",
 					"recovery": "malachite-ota_full-OS3.0.3.0.WOOCNXM-user-16.0-1f6b2b6aad.zip",
 					"fastboot": "malachite_images_OS3.0.3.0.WOOCNXM_20260123.0000.00_16.0_cn_d04c5bbe01.tgz",
-					"ctelecom": "malachite_images_OS3.0.3.0.WOOCNXM_20260123.0000.00_16.0_cn_chinatelecom_5cf0d418dc.tgz"
+					"ctelecom": "malachite_images_OS3.0.3.0.WOOCNXM_20260123.0000.00_16.0_cn_chinatelecom_5cf0d418dc.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOOCNXM": {
 					"os": "OS3.0.2.0.WOOCNXM",
@@ -82,7 +86,8 @@
 					"release": "2025-12-10",
 					"recovery": "malachite-ota_full-OS3.0.2.0.WOOCNXM-user-16.0-20bb8d0382.zip",
 					"fastboot": "malachite_images_OS3.0.2.0.WOOCNXM_20251129.0000.00_16.0_cn_bfaf3f28cc.tgz",
-					"ctelecom": "malachite_images_OS3.0.2.0.WOOCNXM_20251129.0000.00_16.0_cn_chinatelecom_3821c51339.tgz"
+					"ctelecom": "malachite_images_OS3.0.2.0.WOOCNXM_20251129.0000.00_16.0_cn_chinatelecom_3821c51339.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.213.0.VOOCNXM": {
 					"os": "OS2.0.213.0.VOOCNXM",
@@ -90,7 +95,8 @@
 					"release": "2025-11-17",
 					"recovery": "malachite-ota_full-OS2.0.213.0.VOOCNXM-user-15.0-65e6de054e.zip",
 					"fastboot": "malachite_images_OS2.0.213.0.VOOCNXM_20251104.0000.00_15.0_cn_c6cafed63f.tgz",
-					"ctelecom": "malachite_images_OS2.0.213.0.VOOCNXM_20251104.0000.00_15.0_cn_chinatelecom_c4ccd5cdf2.tgz"
+					"ctelecom": "malachite_images_OS2.0.213.0.VOOCNXM_20251104.0000.00_15.0_cn_chinatelecom_c4ccd5cdf2.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.211.0.VOOCNXM": {
 					"os": "OS2.0.211.0.VOOCNXM",
@@ -98,7 +104,8 @@
 					"release": "2025-10-17",
 					"recovery": "malachite-ota_full-OS2.0.211.0.VOOCNXM-user-15.0-bc98352fc9.zip",
 					"fastboot": "malachite_images_OS2.0.211.0.VOOCNXM_20250928.0000.00_15.0_cn_b8f2981aba.tgz",
-					"ctelecom": "malachite_images_OS2.0.211.0.VOOCNXM_20250928.0000.00_15.0_cn_chinatelecom_150a06e80a.tgz"
+					"ctelecom": "malachite_images_OS2.0.211.0.VOOCNXM_20250928.0000.00_15.0_cn_chinatelecom_150a06e80a.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.210.0.VOOCNXM": {
 					"os": "OS2.0.210.0.VOOCNXM",
@@ -106,7 +113,8 @@
 					"release": "2025-09-17",
 					"recovery": "malachite-ota_full-OS2.0.210.0.VOOCNXM-user-15.0-aa7895fc8f.zip",
 					"fastboot": "malachite_images_OS2.0.210.0.VOOCNXM_20250910.0000.00_15.0_cn_dfadb0116e.tgz",
-					"ctelecom": "malachite_images_OS2.0.210.0.VOOCNXM_20250910.0000.00_15.0_cn_chinatelecom_0ee311e8d7.tgz"
+					"ctelecom": "malachite_images_OS2.0.210.0.VOOCNXM_20250910.0000.00_15.0_cn_chinatelecom_0ee311e8d7.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.209.0.VOOCNXM": {
 					"os": "OS2.0.209.0.VOOCNXM",
@@ -114,7 +122,8 @@
 					"release": "2025-08-18",
 					"recovery": "malachite-ota_full-OS2.0.209.0.VOOCNXM-user-15.0-74cb14516d.zip",
 					"fastboot": "malachite_images_OS2.0.209.0.VOOCNXM_20250811.0000.00_15.0_cn_d35e49bf38.tgz",
-					"ctelecom": "malachite_images_OS2.0.209.0.VOOCNXM_20250811.0000.00_15.0_cn_chinatelecom_daabdb9714.tgz"
+					"ctelecom": "malachite_images_OS2.0.209.0.VOOCNXM_20250811.0000.00_15.0_cn_chinatelecom_daabdb9714.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.206.0.VOOCNXM": {
 					"os": "OS2.0.206.0.VOOCNXM",
@@ -122,7 +131,8 @@
 					"release": "2025-07-15",
 					"recovery": "malachite-ota_full-OS2.0.206.0.VOOCNXM-user-15.0-432c3eddcf.zip",
 					"fastboot": "malachite_images_OS2.0.206.0.VOOCNXM_20250710.0000.00_15.0_cn_7a64c026e3.tgz",
-					"ctelecom": "malachite_images_OS2.0.206.0.VOOCNXM_20250710.0000.00_15.0_cn_chinatelecom_e18e72ea30.tgz"
+					"ctelecom": "malachite_images_OS2.0.206.0.VOOCNXM_20250710.0000.00_15.0_cn_chinatelecom_e18e72ea30.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.204.0.VOOCNXM": {
 					"os": "OS2.0.204.0.VOOCNXM",
@@ -130,7 +140,8 @@
 					"release": "2025-06-04",
 					"recovery": "malachite-ota_full-OS2.0.204.0.VOOCNXM-user-15.0-820841aea5.zip",
 					"fastboot": "malachite_images_OS2.0.204.0.VOOCNXM_20250529.0000.00_15.0_cn_eb1b22f2db.tgz",
-					"ctelecom": "malachite_images_OS2.0.204.0.VOOCNXM_20250529.0000.00_15.0_cn_chinatelecom_d42dfd6a2c.tgz"
+					"ctelecom": "malachite_images_OS2.0.204.0.VOOCNXM_20250529.0000.00_15.0_cn_chinatelecom_d42dfd6a2c.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.11.0.VOOCNXM": {
 					"os": "OS2.0.11.0.VOOCNXM",
@@ -138,7 +149,8 @@
 					"release": "2025-05-14",
 					"recovery": "malachite-ota_full-OS2.0.11.0.VOOCNXM-user-15.0-864e8df88f.zip",
 					"fastboot": "malachite_images_OS2.0.11.0.VOOCNXM_20250508.0000.00_15.0_cn_4a42ca87f5.tgz",
-					"ctelecom": "malachite_images_OS2.0.11.0.VOOCNXM_20250508.0000.00_15.0_cn_chinatelecom_e7716df5fd.tgz"
+					"ctelecom": "malachite_images_OS2.0.11.0.VOOCNXM_20250508.0000.00_15.0_cn_chinatelecom_e7716df5fd.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.10.0.VOOCNXM": {
 					"os": "OS2.0.10.0.VOOCNXM",
@@ -146,7 +158,8 @@
 					"release": "2025-04-17",
 					"recovery": "malachite-ota_full-OS2.0.10.0.VOOCNXM-user-15.0-13718ddde6.zip",
 					"fastboot": "malachite_images_OS2.0.10.0.VOOCNXM_20250416.0000.00_15.0_cn_9acd22f95b.tgz",
-					"ctelecom": "malachite_images_OS2.0.10.0.VOOCNXM_20250416.0000.00_15.0_cn_chinatelecom_56e693832e.tgz"
+					"ctelecom": "malachite_images_OS2.0.10.0.VOOCNXM_20250416.0000.00_15.0_cn_chinatelecom_56e693832e.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.6.0.VOOCNXM": {
 					"os": "OS2.0.6.0.VOOCNXM",
@@ -154,7 +167,8 @@
 					"release": "2025-02-18",
 					"recovery": "malachite-ota_full-OS2.0.6.0.VOOCNXM-user-15.0-edae3d9b93.zip",
 					"fastboot": "malachite_images_OS2.0.6.0.VOOCNXM_20250213.0000.00_15.0_cn_bcaae0f64d.tgz",
-					"ctelecom": "malachite_images_OS2.0.6.0.VOOCNXM_20250213.0000.00_15.0_cn_chinatelecom_7902a5f5c8.tgz"
+					"ctelecom": "malachite_images_OS2.0.6.0.VOOCNXM_20250213.0000.00_15.0_cn_chinatelecom_7902a5f5c8.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.5.0.VOOCNXM": {
 					"os": "OS2.0.5.0.VOOCNXM",
@@ -162,7 +176,8 @@
 					"release": "2025-01-11",
 					"recovery": "malachite-ota_full-OS2.0.5.0.VOOCNXM-user-15.0-17d7f47d77.zip",
 					"fastboot": "malachite_images_OS2.0.5.0.VOOCNXM_20250110.0000.00_15.0_cn_9384ef9d51.tgz",
-					"ctelecom": "malachite_images_OS2.0.5.0.VOOCNXM_20250110.0000.00_15.0_cn_chinatelecom_41f0447410.tgz"
+					"ctelecom": "malachite_images_OS2.0.5.0.VOOCNXM_20250110.0000.00_15.0_cn_chinatelecom_41f0447410.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.13.0.UOOCNXM": {
 					"os": "OS1.0.13.0.UOOCNXM",
@@ -170,7 +185,8 @@
 					"release": "2025-07-09",
 					"recovery": "miui_MALACHITE_OS1.0.13.0.UOOCNXM_e630a3e60c_14.0.zip",
 					"fastboot": "malachite_images_OS1.0.13.0.UOOCNXM_20250627.0000.00_14.0_cn_7b0187e687.tgz",
-					"ctelecom": "malachite_images_OS1.0.13.0.UOOCNXM_20250627.0000.00_14.0_cn_chinatelecom_3b8cd5762f.tgz"
+					"ctelecom": "malachite_images_OS1.0.13.0.UOOCNXM_20250627.0000.00_14.0_cn_chinatelecom_3b8cd5762f.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.12.0.UOOCNXM": {
 					"os": "OS1.0.12.0.UOOCNXM",
@@ -178,7 +194,8 @@
 					"release": "2025-02-13",
 					"recovery": "miui_MALACHITE_OS1.0.12.0.UOOCNXM_a4d3a5a2ae_14.0.zip",
 					"fastboot": "malachite_images_OS1.0.12.0.UOOCNXM_20250205.0000.00_14.0_cn_11d6cfb837.tgz",
-					"ctelecom": "malachite_images_OS1.0.12.0.UOOCNXM_20250205.0000.00_14.0_cn_chinatelecom_08be1e2496.tgz"
+					"ctelecom": "malachite_images_OS1.0.12.0.UOOCNXM_20250205.0000.00_14.0_cn_chinatelecom_08be1e2496.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.11.0.UOOCNXM": {
 					"os": "OS1.0.11.0.UOOCNXM",
@@ -186,7 +203,8 @@
 					"release": "2024-11-22",
 					"recovery": "miui_MALACHITE_OS1.0.11.0.UOOCNXM_8145b27e5b_14.0.zip",
 					"fastboot": "malachite_images_OS1.0.11.0.UOOCNXM_20241115.0000.00_14.0_cn_cdb376f08d.tgz",
-					"ctelecom": "malachite_images_OS1.0.11.0.UOOCNXM_20241115.0000.00_14.0_cn_chinatelecom_837be3bb6a.tgz"
+					"ctelecom": "malachite_images_OS1.0.11.0.UOOCNXM_20241115.0000.00_14.0_cn_chinatelecom_837be3bb6a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UOOCNXM": {
 					"os": "OS1.0.10.0.UOOCNXM",
@@ -194,7 +212,8 @@
 					"release": "2024-10-22",
 					"recovery": "miui_MALACHITE_OS1.0.10.0.UOOCNXM_ebaec547a8_14.0.zip",
 					"fastboot": "malachite_images_OS1.0.10.0.UOOCNXM_20241018.0000.00_14.0_cn_a5c4ced564.tgz",
-					"ctelecom": "malachite_images_OS1.0.10.0.UOOCNXM_20241018.0000.00_14.0_cn_chinatelecom_113db646d1.tgz"
+					"ctelecom": "malachite_images_OS1.0.10.0.UOOCNXM_20241018.0000.00_14.0_cn_chinatelecom_113db646d1.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.UOOCNXM": {
 					"os": "OS1.0.8.0.UOOCNXM",
@@ -202,7 +221,8 @@
 					"release": "2024-10-03",
 					"recovery": "miui_MALACHITE_OS1.0.8.0.UOOCNXM_b70842734a_14.0.zip",
 					"fastboot": "malachite_images_OS1.0.8.0.UOOCNXM_20240927.0000.00_14.0_cn_c9664511b3.tgz",
-					"ctelecom": "malachite_images_OS1.0.8.0.UOOCNXM_20240927.0000.00_14.0_cn_chinatelecom_ec487f7748.tgz"
+					"ctelecom": "malachite_images_OS1.0.8.0.UOOCNXM_20240927.0000.00_14.0_cn_chinatelecom_ec487f7748.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.7.0.UOOCNXM": {
 					"os": "OS1.0.7.0.UOOCNXM",
@@ -210,7 +230,8 @@
 					"release": "2024-09-28",
 					"recovery": "miui_MALACHITE_OS1.0.7.0.UOOCNXM_48864c4af6_14.0.zip",
 					"fastboot": "malachite_images_OS1.0.7.0.UOOCNXM_20240926.0000.00_14.0_cn_f47cb978b5.tgz",
-					"ctelecom": "malachite_images_OS1.0.7.0.UOOCNXM_20240926.0000.00_14.0_cn_chinatelecom_77215e9258.tgz"
+					"ctelecom": "malachite_images_OS1.0.7.0.UOOCNXM_20240926.0000.00_14.0_cn_chinatelecom_77215e9258.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UOOCNXM": {
 					"os": "OS1.0.5.0.UOOCNXM",
@@ -218,7 +239,8 @@
 					"release": "2024-09-26",
 					"recovery": "miui_MALACHITE_OS1.0.5.0.UOOCNXM_5b70511a4a_14.0.zip",
 					"fastboot": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_172f05e676.tgz",
-					"ctelecom": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_chinatelecom_d13c04b767.tgz"
+					"ctelecom": "malachite_images_OS1.0.5.0.UOOCNXM_20240914.0000.00_14.0_cn_chinatelecom_d13c04b767.tgz",
+					"aspatch": "2024-09-01"
 				}
 			}
 		},
@@ -240,6 +262,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -261,7 +284,8 @@
 					"release": "2025-09-08",
 					"recovery": "miui_MALACHITEEPSTDEE_OS1.0.25.8.29.EP.STDEE.O16_4f454e89aa_14.0.zip",
 					"fastboot": "malachite_ep_stdee_images_OS1.0.25.8.29.EP.STDEE.O16_20250829.0000.00_14.0_cn_e6df24aff8.tgz",
-					"ctelecom": "malachite_ep_stdee_images_OS1.0.25.8.29.EP.STDEE.O16_20250829.0000.00_14.0_cn_chinatelecom_e7977bd71f.tgz"
+					"ctelecom": "malachite_ep_stdee_images_OS1.0.25.8.29.EP.STDEE.O16_20250829.0000.00_14.0_cn_chinatelecom_e7977bd71f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.25.7.11.EP.STDEE.O16": {
 					"os": "OS1.0.25.7.11.EP.STDEE.O16",
@@ -269,7 +293,8 @@
 					"release": "2025-07-24",
 					"recovery": "miui_MALACHITEEPSTDEE_OS1.0.25.7.11.EP.STDEE.O16_e0783c41a1_14.0.zip",
 					"fastboot": "malachite_ep_stdee_images_OS1.0.25.7.11.EP.STDEE.O16_20250711.0000.00_14.0_cn_69afb3cfda.tgz",
-					"ctelecom": "malachite_ep_stdee_images_OS1.0.25.7.11.EP.STDEE.O16_20250711.0000.00_14.0_cn_chinatelecom_1a3318a3ba.tgz"
+					"ctelecom": "malachite_ep_stdee_images_OS1.0.25.7.11.EP.STDEE.O16_20250711.0000.00_14.0_cn_chinatelecom_1a3318a3ba.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.25.4.8.EP.STDEE.O16": {
 					"os": "OS1.0.25.4.8.EP.STDEE.O16",
@@ -277,7 +302,8 @@
 					"release": "2025-04-27",
 					"recovery": "miui_MALACHITEEPSTDEE_OS1.0.25.4.8.EP.STDEE.O16_d1408de10b_14.0.zip",
 					"fastboot": "malachite_ep_stdee_images_OS1.0.25.4.8.EP.STDEE.O16_20250408.0000.00_14.0_cn_11f603bc48.tgz",
-					"ctelecom": "malachite_ep_stdee_images_OS1.0.25.4.8.EP.STDEE.O16_20250408.0000.00_14.0_cn_chinatelecom_8e7809449e.tgz"
+					"ctelecom": "malachite_ep_stdee_images_OS1.0.25.4.8.EP.STDEE.O16_20250408.0000.00_14.0_cn_chinatelecom_8e7809449e.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.24.12.23.EP.STDEE.O16": {
 					"os": "OS1.0.24.12.23.EP.STDEE.O16",
@@ -285,7 +311,8 @@
 					"release": "2024-12-30",
 					"recovery": "miui_MALACHITEEPSTDEE_OS1.0.24.12.23.EP.STDEE.O16_2347354ded_14.0.zip",
 					"fastboot": "malachite_ep_stdee_images_OS1.0.24.12.23.EP.STDEE.O16_20241223.0000.00_14.0_cn_844e8c46ca.tgz",
-					"ctelecom": "malachite_ep_stdee_images_OS1.0.24.12.23.EP.STDEE.O16_20241223.0000.00_14.0_cn_chinatelecom_d7809ee928.tgz"
+					"ctelecom": "malachite_ep_stdee_images_OS1.0.24.12.23.EP.STDEE.O16_20241223.0000.00_14.0_cn_chinatelecom_d7809ee928.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.24.10.31.EP.STDEE.O16": {
 					"os": "OS1.0.24.10.31.EP.STDEE.O16",
@@ -293,7 +320,8 @@
 					"release": "2024-11-06",
 					"recovery": "miui_MALACHITEEPSTDEE_OS1.0.24.10.31.EP.STDEE.O16_87641a439d_14.0.zip",
 					"fastboot": "malachite_ep_stdee_images_OS1.0.24.10.31.EP.STDEE.O16_20241031.0000.00_14.0_cn_c0ada8f174.tgz",
-					"ctelecom": "malachite_ep_stdee_images_OS1.0.24.10.31.EP.STDEE.O16_20241031.0000.00_14.0_cn_chinatelecom_820567f90f.tgz"
+					"ctelecom": "malachite_ep_stdee_images_OS1.0.24.10.31.EP.STDEE.O16_20241031.0000.00_14.0_cn_chinatelecom_820567f90f.tgz",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -315,6 +343,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -336,7 +365,8 @@
 					"release": "2025-06-24",
 					"recovery": "malachite_demo-ota_full-OS2.0.201.0.VOOCNDM-user-15.0-ceb46fce5f.zip",
 					"fastboot": "malachite_demo_images_OS2.0.201.0.VOOCNDM_20250618.0000.00_15.0_cn_08241a9a8b.tgz",
-					"ctelecom": "malachite_demo_images_OS2.0.201.0.VOOCNDM_20250618.0000.00_15.0_cn_chinatelecom_9788ec2de2.tgz"
+					"ctelecom": "malachite_demo_images_OS2.0.201.0.VOOCNDM_20250618.0000.00_15.0_cn_chinatelecom_9788ec2de2.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOOCNDM": {
 					"os": "OS2.0.1.0.VOOCNDM",
@@ -344,7 +374,8 @@
 					"release": "2025-04-16",
 					"recovery": "malachite_demo-ota_full-OS2.0.1.0.VOOCNDM-user-15.0-65ba7f30fd.zip",
 					"fastboot": "malachite_demo_images_OS2.0.1.0.VOOCNDM_20250407.0000.00_15.0_cn_c0052d9ebd.tgz",
-					"ctelecom": "malachite_demo_images_OS2.0.1.0.VOOCNDM_20250407.0000.00_15.0_cn_chinatelecom_586e5bb4a6.tgz"
+					"ctelecom": "malachite_demo_images_OS2.0.1.0.VOOCNDM_20250407.0000.00_15.0_cn_chinatelecom_586e5bb4a6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.2.0.UOOCNDM": {
 					"os": "OS1.0.2.0.UOOCNDM",
@@ -352,7 +383,8 @@
 					"release": "2024-09-26",
 					"recovery": "miui_MALACHITEDEMO_OS1.0.2.0.UOOCNDM_96e8709d41_14.0.zip",
 					"fastboot": "malachite_demo_images_OS1.0.2.0.UOOCNDM_20240922.0000.00_14.0_cn_31f7b62bca.tgz",
-					"ctelecom": "malachite_demo_images_OS1.0.2.0.UOOCNDM_20240922.0000.00_14.0_cn_chinatelecom_6c78097c52.tgz"
+					"ctelecom": "malachite_demo_images_OS1.0.2.0.UOOCNDM_20240922.0000.00_14.0_cn_chinatelecom_6c78097c52.tgz",
+					"aspatch": "2024-09-01"
 				}
 			}
 		},
@@ -374,6 +406,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -390,119 +423,136 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "malachite_tw_global-ota_full-OS3.0.4.0.WOOTWXM-user-16.0-c061728096.zip",
-					"fastboot": "malachite_tw_global_images_OS3.0.4.0.WOOTWXM_20260403.0000.00_16.0_tw_c919a7ed1b.tgz"
+					"fastboot": "malachite_tw_global_images_OS3.0.4.0.WOOTWXM_20260403.0000.00_16.0_tw_c919a7ed1b.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOOTWXM": {
 					"os": "OS3.0.3.0.WOOTWXM",
 					"android": "16.0",
 					"release": "2026-03-16",
 					"recovery": "malachite_tw_global-ota_full-OS3.0.3.0.WOOTWXM-user-16.0-2afe410faf.zip",
-					"fastboot": "malachite_tw_global_images_OS3.0.3.0.WOOTWXM_20260302.0000.00_16.0_tw_feaa866cd7.tgz"
+					"fastboot": "malachite_tw_global_images_OS3.0.3.0.WOOTWXM_20260302.0000.00_16.0_tw_feaa866cd7.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOOTWXM": {
 					"os": "OS3.0.2.0.WOOTWXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "malachite_tw_global-ota_full-OS3.0.2.0.WOOTWXM-user-16.0-d95e3633d6.zip",
-					"fastboot": "malachite_tw_global_images_OS3.0.2.0.WOOTWXM_20260128.0000.00_16.0_tw_cde33aea02.tgz"
+					"fastboot": "malachite_tw_global_images_OS3.0.2.0.WOOTWXM_20260128.0000.00_16.0_tw_cde33aea02.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOOTWXM": {
 					"os": "OS3.0.1.0.WOOTWXM",
 					"android": "16.0",
 					"release": "2026-01-16",
 					"recovery": "malachite_tw_global-ota_full-OS3.0.1.0.WOOTWXM-user-16.0-18403a9ab3.zip",
-					"fastboot": "malachite_tw_global_images_OS3.0.1.0.WOOTWXM_20251230.0000.00_16.0_tw_98d69ea034.tgz"
+					"fastboot": "malachite_tw_global_images_OS3.0.1.0.WOOTWXM_20251230.0000.00_16.0_tw_98d69ea034.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.207.0.VOOTWXM": {
 					"os": "OS2.0.207.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.207.0.VOOTWXM-user-15.0-16c6c22557.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.207.0.VOOTWXM_20251114.0000.00_15.0_tw_3a20265b13.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.207.0.VOOTWXM_20251114.0000.00_15.0_tw_3a20265b13.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VOOTWXM": {
 					"os": "OS2.0.206.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.206.0.VOOTWXM-user-15.0-44f0c45bfc.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.206.0.VOOTWXM_20251104.0000.00_15.0_tw_f9ee3560ed.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.206.0.VOOTWXM_20251104.0000.00_15.0_tw_f9ee3560ed.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOOTWXM": {
 					"os": "OS2.0.205.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-10-23",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.205.0.VOOTWXM-user-15.0-a5d1bd5f62.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.205.0.VOOTWXM_20251011.0000.00_15.0_tw_c27ba26718.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.205.0.VOOTWXM_20251011.0000.00_15.0_tw_c27ba26718.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOOTWXM": {
 					"os": "OS2.0.204.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-09-23",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.204.0.VOOTWXM-user-15.0-361a87a17b.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.204.0.VOOTWXM_20250912.0000.00_15.0_tw_44553cf179.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.204.0.VOOTWXM_20250912.0000.00_15.0_tw_44553cf179.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VOOTWXM": {
 					"os": "OS2.0.203.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-08-23",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.203.0.VOOTWXM-user-15.0-8416a10aef.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.203.0.VOOTWXM_20250812.0000.00_15.0_tw_29dc9cd14e.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.203.0.VOOTWXM_20250812.0000.00_15.0_tw_29dc9cd14e.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOOTWXM": {
 					"os": "OS2.0.201.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-07-21",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.201.0.VOOTWXM-user-15.0-e2f5590a46.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.201.0.VOOTWXM_20250709.0000.00_15.0_tw_ed7f6a6ac7.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.201.0.VOOTWXM_20250709.0000.00_15.0_tw_ed7f6a6ac7.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.3.0.VOOTWXM": {
 					"os": "OS2.0.3.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.3.0.VOOTWXM-user-15.0-25bd022b99.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.3.0.VOOTWXM_20250605.0000.00_15.0_tw_124f074940.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.3.0.VOOTWXM_20250605.0000.00_15.0_tw_124f074940.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOOTWXM": {
 					"os": "OS2.0.2.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.2.0.VOOTWXM-user-15.0-6b1d070153.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.2.0.VOOTWXM_20250512.0000.00_15.0_tw_99b08a69d3.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.2.0.VOOTWXM_20250512.0000.00_15.0_tw_99b08a69d3.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOOTWXM": {
 					"os": "OS2.0.1.0.VOOTWXM",
 					"android": "15.0",
 					"release": "2025-04-30",
 					"recovery": "malachite_tw_global-ota_full-OS2.0.1.0.VOOTWXM-user-15.0-4fe8b88193.zip",
-					"fastboot": "malachite_tw_global_images_OS2.0.1.0.VOOTWXM_20250418.0000.00_15.0_tw_26468be01f.tgz"
+					"fastboot": "malachite_tw_global_images_OS2.0.1.0.VOOTWXM_20250418.0000.00_15.0_tw_26468be01f.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.6.0.UOOTWXM": {
 					"os": "OS1.0.6.0.UOOTWXM",
 					"android": "14.0",
 					"release": "2025-03-07",
 					"recovery": "miui_MALACHITETWGlobal_OS1.0.6.0.UOOTWXM_1a1631d6ec_14.0.zip",
-					"fastboot": "malachite_tw_global_images_OS1.0.6.0.UOOTWXM_20250227.0000.00_14.0_tw_d94ed4e27c.tgz"
+					"fastboot": "malachite_tw_global_images_OS1.0.6.0.UOOTWXM_20250227.0000.00_14.0_tw_d94ed4e27c.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.UOOTWXM": {
 					"os": "OS1.0.5.0.UOOTWXM",
 					"android": "14.0",
 					"release": "2025-02-09",
 					"recovery": "miui_MALACHITETWGlobal_OS1.0.5.0.UOOTWXM_feac3ac60d_14.0.zip",
-					"fastboot": "malachite_tw_global_images_OS1.0.5.0.UOOTWXM_20250122.0000.00_14.0_tw_196c734abf.tgz"
+					"fastboot": "malachite_tw_global_images_OS1.0.5.0.UOOTWXM_20250122.0000.00_14.0_tw_196c734abf.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.3.0.UOOTWXM": {
 					"os": "OS1.0.3.0.UOOTWXM",
 					"android": "14.0",
 					"release": "2025-01-12",
 					"recovery": "miui_MALACHITETWGlobal_OS1.0.3.0.UOOTWXM_ead645fbe4_14.0.zip",
-					"fastboot": "malachite_tw_global_images_OS1.0.3.0.UOOTWXM_20241217.0000.00_14.0_tw_165b14716a.tgz"
+					"fastboot": "malachite_tw_global_images_OS1.0.3.0.UOOTWXM_20241217.0000.00_14.0_tw_165b14716a.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.2.0.UOOTWXM": {
 					"os": "OS1.0.2.0.UOOTWXM",
 					"android": "14.0",
 					"release": "2025-01-11",
 					"recovery": "miui_MALACHITETWGlobal_OS1.0.2.0.UOOTWXM_f8342b61a8_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -524,6 +574,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -540,140 +591,160 @@
 					"android": "16.0",
 					"release": "2026-05-22",
 					"recovery": "malachite_global-ota_full-OS3.0.302.0.WOOMIXM-user-16.0-4409a3748f.zip",
-					"fastboot": "malachite_global_images_OS3.0.302.0.WOOMIXM_20260519.0000.00_16.0_global_d00238a961.tgz"
+					"fastboot": "malachite_global_images_OS3.0.302.0.WOOMIXM_20260519.0000.00_16.0_global_d00238a961.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.11.0.WOOMIXM": {
 					"os": "OS3.0.11.0.WOOMIXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "malachite_global-ota_full-OS3.0.11.0.WOOMIXM-user-16.0-392b868464.zip",
-					"fastboot": "malachite_global_images_OS3.0.11.0.WOOMIXM_20260330.0000.00_16.0_global_130b9c9676.tgz"
+					"fastboot": "malachite_global_images_OS3.0.11.0.WOOMIXM_20260330.0000.00_16.0_global_130b9c9676.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.10.0.WOOMIXM": {
 					"os": "OS3.0.10.0.WOOMIXM",
 					"android": "16.0",
 					"release": "2026-03-06",
 					"recovery": "malachite_global-ota_full-OS3.0.10.0.WOOMIXM-user-16.0-8ab41a8d4d.zip",
-					"fastboot": "malachite_global_images_OS3.0.10.0.WOOMIXM_20260224.0000.00_16.0_global_4327657bc2.tgz"
+					"fastboot": "malachite_global_images_OS3.0.10.0.WOOMIXM_20260224.0000.00_16.0_global_4327657bc2.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.9.0.WOOMIXM": {
 					"os": "OS3.0.9.0.WOOMIXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "malachite_global-ota_full-OS3.0.9.0.WOOMIXM-user-16.0-3d6ca739ef.zip",
-					"fastboot": "malachite_global_images_OS3.0.9.0.WOOMIXM_20260122.0000.00_16.0_global_7887da665d.tgz"
+					"fastboot": "malachite_global_images_OS3.0.9.0.WOOMIXM_20260122.0000.00_16.0_global_7887da665d.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.8.0.WOOMIXM": {
 					"os": "OS3.0.8.0.WOOMIXM",
 					"android": "16.0",
 					"release": "2026-01-28",
 					"recovery": "malachite_global-ota_full-OS3.0.8.0.WOOMIXM-user-16.0-d72b903eac.zip",
-					"fastboot": "malachite_global_images_OS3.0.8.0.WOOMIXM_20251230.0000.00_16.0_global_b8ddbc347f.tgz"
+					"fastboot": "malachite_global_images_OS3.0.8.0.WOOMIXM_20251230.0000.00_16.0_global_b8ddbc347f.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.7.0.WOOMIXM": {
 					"os": "OS3.0.7.0.WOOMIXM",
 					"android": "16.0",
 					"release": "2025-12-25",
 					"recovery": "malachite_global-ota_full-OS3.0.7.0.WOOMIXM-user-16.0-8835866f07.zip",
-					"fastboot": "malachite_global_images_OS3.0.7.0.WOOMIXM_20251216.0000.00_16.0_global_600150ed89.tgz"
+					"fastboot": "malachite_global_images_OS3.0.7.0.WOOMIXM_20251216.0000.00_16.0_global_600150ed89.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.6.0.WOOMIXM": {
 					"os": "OS3.0.6.0.WOOMIXM",
 					"android": "16.0",
 					"release": "2025-12-11",
 					"recovery": "malachite_global-ota_full-OS3.0.6.0.WOOMIXM-user-16.0-52c9daa435.zip",
-					"fastboot": "malachite_global_images_OS3.0.6.0.WOOMIXM_20251202.0000.00_16.0_global_1e1936deb5.tgz"
+					"fastboot": "malachite_global_images_OS3.0.6.0.WOOMIXM_20251202.0000.00_16.0_global_1e1936deb5.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.4.0.WOOMIXM": {
 					"os": "OS3.0.4.0.WOOMIXM",
 					"android": "16.0",
 					"release": "2025-11-17",
 					"recovery": "malachite_global-ota_full-OS3.0.4.0.WOOMIXM-user-16.0-e25d5fd5fd.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.208.0.VOOMIXM": {
 					"os": "OS2.0.208.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-11-10",
 					"recovery": "malachite_global-ota_full-OS2.0.208.0.VOOMIXM-user-15.0-4b22dfd9d8.zip",
-					"fastboot": "malachite_global_images_OS2.0.208.0.VOOMIXM_20251028.0000.00_15.0_global_53d3a9c871.tgz"
+					"fastboot": "malachite_global_images_OS2.0.208.0.VOOMIXM_20251028.0000.00_15.0_global_53d3a9c871.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VOOMIXM": {
 					"os": "OS2.0.207.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-10-21",
 					"recovery": "malachite_global-ota_full-OS2.0.207.0.VOOMIXM-user-15.0-6c56d2a665.zip",
-					"fastboot": "malachite_global_images_OS2.0.207.0.VOOMIXM_20251011.0000.00_15.0_global_09c0eff834.tgz"
+					"fastboot": "malachite_global_images_OS2.0.207.0.VOOMIXM_20251011.0000.00_15.0_global_09c0eff834.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VOOMIXM": {
 					"os": "OS2.0.206.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-09-23",
 					"recovery": "malachite_global-ota_full-OS2.0.206.0.VOOMIXM-user-15.0-80738d2bec.zip",
-					"fastboot": "malachite_global_images_OS2.0.206.0.VOOMIXM_20250912.0000.00_15.0_global_44e99e55d9.tgz"
+					"fastboot": "malachite_global_images_OS2.0.206.0.VOOMIXM_20250912.0000.00_15.0_global_44e99e55d9.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.205.0.VOOMIXM": {
 					"os": "OS2.0.205.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "malachite_global-ota_full-OS2.0.205.0.VOOMIXM-user-15.0-cf563dba18.zip",
-					"fastboot": "malachite_global_images_OS2.0.205.0.VOOMIXM_20250811.0000.00_15.0_global_99c9e2b80b.tgz"
+					"fastboot": "malachite_global_images_OS2.0.205.0.VOOMIXM_20250811.0000.00_15.0_global_99c9e2b80b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VOOMIXM": {
 					"os": "OS2.0.203.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-07-21",
 					"recovery": "malachite_global-ota_full-OS2.0.203.0.VOOMIXM-user-15.0-200d8c9feb.zip",
-					"fastboot": "malachite_global_images_OS2.0.203.0.VOOMIXM_20250709.0000.00_15.0_global_5171ed90a7.tgz"
+					"fastboot": "malachite_global_images_OS2.0.203.0.VOOMIXM_20250709.0000.00_15.0_global_5171ed90a7.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.7.0.VOOMIXM": {
 					"os": "OS2.0.7.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "malachite_global-ota_full-OS2.0.7.0.VOOMIXM-user-15.0-6fdca870d5.zip",
-					"fastboot": "malachite_global_images_OS2.0.7.0.VOOMIXM_20250605.0000.00_15.0_global_40cddbdea6.tgz"
+					"fastboot": "malachite_global_images_OS2.0.7.0.VOOMIXM_20250605.0000.00_15.0_global_40cddbdea6.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.6.0.VOOMIXM": {
 					"os": "OS2.0.6.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "malachite_global-ota_full-OS2.0.6.0.VOOMIXM-user-15.0-3ca77f000f.zip",
-					"fastboot": "malachite_global_images_OS2.0.6.0.VOOMIXM_20250508.0000.00_15.0_global_3e98eccb57.tgz"
+					"fastboot": "malachite_global_images_OS2.0.6.0.VOOMIXM_20250508.0000.00_15.0_global_3e98eccb57.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.5.0.VOOMIXM": {
 					"os": "OS2.0.5.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "malachite_global-ota_full-OS2.0.5.0.VOOMIXM-user-15.0-a4dfa156a3.zip",
-					"fastboot": "malachite_global_images_OS2.0.5.0.VOOMIXM_20250414.0000.00_15.0_global_f231430eb8.tgz"
+					"fastboot": "malachite_global_images_OS2.0.5.0.VOOMIXM_20250414.0000.00_15.0_global_f231430eb8.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.3.0.VOOMIXM": {
 					"os": "OS2.0.3.0.VOOMIXM",
 					"android": "15.0",
 					"release": "2025-03-26",
 					"recovery": "malachite_global-ota_full-OS2.0.3.0.VOOMIXM-user-15.0-877af81007.zip",
-					"fastboot": "malachite_global_images_OS2.0.3.0.VOOMIXM_20250213.0000.00_15.0_global_5fe3aa452c.tgz"
+					"fastboot": "malachite_global_images_OS2.0.3.0.VOOMIXM_20250213.0000.00_15.0_global_5fe3aa452c.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.UOOMIXM": {
 					"os": "OS1.0.10.0.UOOMIXM",
 					"android": "14.0",
 					"release": "2025-03-12",
 					"recovery": "miui_MALACHITEGlobal_OS1.0.10.0.UOOMIXM_ba11bb65ab_14.0.zip",
-					"fastboot": "malachite_global_images_OS1.0.10.0.UOOMIXM_20250222.0000.00_14.0_global_d496682837.tgz"
+					"fastboot": "malachite_global_images_OS1.0.10.0.UOOMIXM_20250222.0000.00_14.0_global_d496682837.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.UOOMIXM": {
 					"os": "OS1.0.9.0.UOOMIXM",
 					"android": "14.0",
 					"release": "2025-02-06",
 					"recovery": "miui_MALACHITEGlobal_OS1.0.9.0.UOOMIXM_7ec9edf92e_14.0.zip",
-					"fastboot": "malachite_global_images_OS1.0.9.0.UOOMIXM_20250114.0000.00_14.0_global_2d891afec8.tgz"
+					"fastboot": "malachite_global_images_OS1.0.9.0.UOOMIXM_20250114.0000.00_14.0_global_2d891afec8.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.UOOMIXM": {
 					"os": "OS1.0.7.0.UOOMIXM",
 					"android": "14.0",
 					"release": "2025-01-12",
 					"recovery": "miui_MALACHITEGlobal_OS1.0.7.0.UOOMIXM_153d627ceb_14.0.zip",
-					"fastboot": "malachite_global_images_OS1.0.7.0.UOOMIXM_20241207.0000.00_14.0_global_58c58de732.tgz"
+					"fastboot": "malachite_global_images_OS1.0.7.0.UOOMIXM_20241207.0000.00_14.0_global_58c58de732.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -695,6 +766,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -711,98 +783,112 @@
 					"android": "16.0",
 					"release": "2026-05-29",
 					"recovery": "malachite_dc_global-ota_full-OS3.0.301.0.WOOMIDC-user-16.0-d9fcc5a8d0.zip",
-					"fastboot": "malachite_dc_global_images_OS3.0.301.0.WOOMIDC_20260520.0000.00_16.0_global_dc_4ddb522244.tgz"
+					"fastboot": "malachite_dc_global_images_OS3.0.301.0.WOOMIDC_20260520.0000.00_16.0_global_dc_4ddb522244.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.WOOMIDC": {
 					"os": "OS3.0.4.0.WOOMIDC",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "malachite_dc_global-ota_full-OS3.0.4.0.WOOMIDC-user-16.0-9db024bd41.zip",
-					"fastboot": "malachite_dc_global_images_OS3.0.4.0.WOOMIDC_20260330.0000.00_16.0_global_dc_57a0c79c7c.tgz"
+					"fastboot": "malachite_dc_global_images_OS3.0.4.0.WOOMIDC_20260330.0000.00_16.0_global_dc_57a0c79c7c.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOOMIDC": {
 					"os": "OS3.0.3.0.WOOMIDC",
 					"android": "16.0",
 					"release": "2026-03-10",
 					"recovery": "malachite_dc_global-ota_full-OS3.0.3.0.WOOMIDC-user-16.0-7ffde54710.zip",
-					"fastboot": "malachite_dc_global_images_OS3.0.3.0.WOOMIDC_20260302.0000.00_16.0_global_dc_15ba273261.tgz"
+					"fastboot": "malachite_dc_global_images_OS3.0.3.0.WOOMIDC_20260302.0000.00_16.0_global_dc_15ba273261.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOOMIDC": {
 					"os": "OS3.0.2.0.WOOMIDC",
 					"android": "16.0",
 					"release": "2026-01-29",
 					"recovery": "malachite_dc_global-ota_full-OS3.0.2.0.WOOMIDC-user-16.0-31a4ae99b7.zip",
-					"fastboot": "malachite_dc_global_images_OS3.0.2.0.WOOMIDC_20260123.0000.00_16.0_global_dc_0f67c11451.tgz"
+					"fastboot": "malachite_dc_global_images_OS3.0.2.0.WOOMIDC_20260123.0000.00_16.0_global_dc_0f67c11451.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOOMIDC": {
 					"os": "OS3.0.1.0.WOOMIDC",
 					"android": "16.0",
 					"release": "2026-01-14",
 					"recovery": "malachite_dc_global-ota_full-OS3.0.1.0.WOOMIDC-user-16.0-a981cef613.zip",
-					"fastboot": "malachite_dc_global_images_OS3.0.1.0.WOOMIDC_20251229.0000.00_16.0_global_dc_f36cd59dbe.tgz"
+					"fastboot": "malachite_dc_global_images_OS3.0.1.0.WOOMIDC_20251229.0000.00_16.0_global_dc_f36cd59dbe.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.206.0.VOOMIDC": {
 					"os": "OS2.0.206.0.VOOMIDC",
 					"android": "15.0",
 					"release": "2025-12-04",
 					"recovery": "malachite_dc_global-ota_full-OS2.0.206.0.VOOMIDC-user-15.0-fbac902b43.zip",
-					"fastboot": "malachite_dc_global_images_OS2.0.206.0.VOOMIDC_20251114.0000.00_15.0_global_dc_8a7ec1f164.tgz"
+					"fastboot": "malachite_dc_global_images_OS2.0.206.0.VOOMIDC_20251114.0000.00_15.0_global_dc_8a7ec1f164.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOOMIDC": {
 					"os": "OS2.0.205.0.VOOMIDC",
 					"android": "15.0",
 					"release": "2025-11-05",
 					"recovery": "malachite_dc_global-ota_full-OS2.0.205.0.VOOMIDC-user-15.0-ce6f5e22a2.zip",
-					"fastboot": "malachite_dc_global_images_OS2.0.205.0.VOOMIDC_20251028.0000.00_15.0_global_dc_5a23c72a79.tgz"
+					"fastboot": "malachite_dc_global_images_OS2.0.205.0.VOOMIDC_20251028.0000.00_15.0_global_dc_5a23c72a79.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOOMIDC": {
 					"os": "OS2.0.203.0.VOOMIDC",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "malachite_dc_global-ota_full-OS2.0.203.0.VOOMIDC-user-15.0-d11f6b9834.zip",
-					"fastboot": "malachite_dc_global_images_OS2.0.203.0.VOOMIDC_20251011.0000.00_15.0_global_dc_5fd44f46b5.tgz"
+					"fastboot": "malachite_dc_global_images_OS2.0.203.0.VOOMIDC_20251011.0000.00_15.0_global_dc_5fd44f46b5.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOOMIDC": {
 					"os": "OS2.0.202.0.VOOMIDC",
 					"android": "15.0",
 					"release": "2025-09-21",
 					"recovery": "malachite_dc_global-ota_full-OS2.0.202.0.VOOMIDC-user-15.0-d9bd8299f7.zip",
-					"fastboot": "malachite_dc_global_images_OS2.0.202.0.VOOMIDC_20250912.0000.00_15.0_global_dc_6cda602e63.tgz"
+					"fastboot": "malachite_dc_global_images_OS2.0.202.0.VOOMIDC_20250912.0000.00_15.0_global_dc_6cda602e63.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VOOMIDC": {
 					"os": "OS2.0.201.0.VOOMIDC",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "malachite_dc_global-ota_full-OS2.0.201.0.VOOMIDC-user-15.0-300565dcb7.zip",
-					"fastboot": "malachite_dc_global_images_OS2.0.201.0.VOOMIDC_20250812.0000.00_15.0_global_dc_f26fccdc23.tgz"
+					"fastboot": "malachite_dc_global_images_OS2.0.201.0.VOOMIDC_20250812.0000.00_15.0_global_dc_f26fccdc23.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.2.0.VOOMIDC": {
 					"os": "OS2.0.2.0.VOOMIDC",
 					"android": "15.0",
 					"release": "2025-05-31",
 					"recovery": "malachite_dc_global-ota_full-OS2.0.2.0.VOOMIDC-user-15.0-4acc19564f.zip",
-					"fastboot": "malachite_dc_global_images_OS2.0.2.0.VOOMIDC_20250520.0000.00_15.0_global_dc_8a90a8e0dc.tgz"
+					"fastboot": "malachite_dc_global_images_OS2.0.2.0.VOOMIDC_20250520.0000.00_15.0_global_dc_8a90a8e0dc.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOOMIDC": {
 					"os": "OS2.0.1.0.VOOMIDC",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "malachite_dc_global-ota_full-OS2.0.1.0.VOOMIDC-user-15.0-faa38d7177.zip",
-					"fastboot": "malachite_dc_global_images_OS2.0.1.0.VOOMIDC_20250418.0000.00_15.0_global_dc_5c67a7e7b5.tgz"
+					"fastboot": "malachite_dc_global_images_OS2.0.1.0.VOOMIDC_20250418.0000.00_15.0_global_dc_5c67a7e7b5.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.4.0.UOOMIDC": {
 					"os": "OS1.0.4.0.UOOMIDC",
 					"android": "14.0",
 					"release": "2025-03-14",
 					"recovery": "miui_MALACHITEDCGlobal_OS1.0.4.0.UOOMIDC_37a22343d8_14.0.zip",
-					"fastboot": "malachite_dc_global_images_OS1.0.4.0.UOOMIDC_20250221.0000.00_14.0_global_dc_439f6c1bdd.tgz"
+					"fastboot": "malachite_dc_global_images_OS1.0.4.0.UOOMIDC_20250221.0000.00_14.0_global_dc_439f6c1bdd.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.3.0.UOOMIDC": {
 					"os": "OS1.0.3.0.UOOMIDC",
 					"android": "14.0",
 					"release": "2025-01-12",
 					"recovery": "miui_MALACHITEDCGlobal_OS1.0.3.0.UOOMIDC_2a6f6e3f85_14.0.zip",
-					"fastboot": "malachite_dc_global_images_OS1.0.3.0.UOOMIDC_20241209.0000.00_14.0_global_dc_8d4655e4dc.tgz"
+					"fastboot": "malachite_dc_global_images_OS1.0.3.0.UOOMIDC_20241209.0000.00_14.0_global_dc_8d4655e4dc.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -824,6 +910,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -840,168 +927,192 @@
 					"android": "16.0",
 					"release": "2026-05-29",
 					"recovery": "malachite_eea_global-ota_full-OS3.0.301.0.WOOEUXM-user-16.0-9b036fac66.zip",
-					"fastboot": "malachite_eea_global_images_OS3.0.301.0.WOOEUXM_20260522.0000.00_16.0_eea_e2c4c91a4f.tgz"
+					"fastboot": "malachite_eea_global_images_OS3.0.301.0.WOOEUXM_20260522.0000.00_16.0_eea_e2c4c91a4f.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.5.0.WOOEUXM": {
 					"os": "OS3.0.5.0.WOOEUXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "malachite_eea_global-ota_full-OS3.0.5.0.WOOEUXM-user-16.0-18736eea25.zip",
-					"fastboot": "malachite_eea_global_images_OS3.0.5.0.WOOEUXM_20260330.0000.00_16.0_eea_037e52b49d.tgz"
+					"fastboot": "malachite_eea_global_images_OS3.0.5.0.WOOEUXM_20260330.0000.00_16.0_eea_037e52b49d.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WOOEUXM": {
 					"os": "OS3.0.4.0.WOOEUXM",
 					"android": "16.0",
 					"release": "2026-03-13",
 					"recovery": "malachite_eea_global-ota_full-OS3.0.4.0.WOOEUXM-user-16.0-4c858c6754.zip",
-					"fastboot": "malachite_eea_global_images_OS3.0.4.0.WOOEUXM_20260302.0000.00_16.0_eea_1783c96272.tgz"
+					"fastboot": "malachite_eea_global_images_OS3.0.4.0.WOOEUXM_20260302.0000.00_16.0_eea_1783c96272.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.3.0.WOOEUXM": {
 					"os": "OS3.0.3.0.WOOEUXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "malachite_eea_global-ota_full-OS3.0.3.0.WOOEUXM-user-16.0-cd4a38508a.zip",
-					"fastboot": "malachite_eea_global_images_OS3.0.3.0.WOOEUXM_20260122.0000.00_16.0_eea_7eccf823f0.tgz"
+					"fastboot": "malachite_eea_global_images_OS3.0.3.0.WOOEUXM_20260122.0000.00_16.0_eea_7eccf823f0.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOOEUXM": {
 					"os": "OS3.0.2.0.WOOEUXM",
 					"android": "16.0",
 					"release": "2026-01-07",
 					"recovery": "malachite_eea_global-ota_full-OS3.0.2.0.WOOEUXM-user-16.0-c884f238e9.zip",
-					"fastboot": "malachite_eea_global_images_OS3.0.2.0.WOOEUXM_20251231.0000.00_16.0_eea_eea178db81.tgz"
+					"fastboot": "malachite_eea_global_images_OS3.0.2.0.WOOEUXM_20251231.0000.00_16.0_eea_eea178db81.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.1.0.WOOEUXM": {
 					"os": "OS3.0.1.0.WOOEUXM",
 					"android": "16.0",
 					"release": "2025-12-27",
 					"recovery": "malachite_eea_global-ota_full-OS3.0.1.0.WOOEUXM-user-16.0-632dd6979b.zip",
-					"fastboot": "malachite_eea_global_images_OS3.0.1.0.WOOEUXM_20251216.0000.00_16.0_eea_d3b9497a02.tgz"
+					"fastboot": "malachite_eea_global_images_OS3.0.1.0.WOOEUXM_20251216.0000.00_16.0_eea_d3b9497a02.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.213.0.VOOEUXM": {
 					"os": "OS2.0.213.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.213.0.VOOEUXM-user-15.0-175ee609cb.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.213.0.VOOEUXM_20251114.0000.00_15.0_eea_62e0ffab83.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.213.0.VOOEUXM_20251114.0000.00_15.0_eea_62e0ffab83.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.212.0.VOOEUXM": {
 					"os": "OS2.0.212.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-11-18",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.212.0.VOOEUXM-user-15.0-2b9400fc89.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.212.0.VOOEUXM_20251105.0000.00_15.0_eea_863bfbe575.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.212.0.VOOEUXM_20251105.0000.00_15.0_eea_863bfbe575.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.211.0.VOOEUXM": {
 					"os": "OS2.0.211.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-10-24",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.211.0.VOOEUXM-user-15.0-86ed443dda.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.211.0.VOOEUXM_20251013.0000.00_15.0_eea_951be39f74.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.211.0.VOOEUXM_20251013.0000.00_15.0_eea_951be39f74.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.210.0.VOOEUXM": {
 					"os": "OS2.0.210.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-09-23",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.210.0.VOOEUXM-user-15.0-64e253cd62.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.210.0.VOOEUXM_20250917.0000.00_15.0_eea_e03f9c2a95.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.210.0.VOOEUXM_20250917.0000.00_15.0_eea_e03f9c2a95.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.208.0.VOOEUXM": {
 					"os": "OS2.0.208.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.208.0.VOOEUXM-user-15.0-3d3fbfd4fb.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.208.0.VOOEUXM_20250812.0000.00_15.0_eea_0821d6d61c.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.208.0.VOOEUXM_20250812.0000.00_15.0_eea_0821d6d61c.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VOOEUXM": {
 					"os": "OS2.0.204.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-07-22",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.204.0.VOOEUXM-user-15.0-9c5195a051.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.204.0.VOOEUXM_20250715.0000.00_15.0_eea_4fadc8c5f0.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.204.0.VOOEUXM_20250715.0000.00_15.0_eea_4fadc8c5f0.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.202.0.VOOEUXM": {
 					"os": "OS2.0.202.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.202.0.VOOEUXM-user-15.0-64af230c45.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.202.0.VOOEUXM_20250616.0000.00_15.0_eea_91c4c1e937.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.202.0.VOOEUXM_20250616.0000.00_15.0_eea_91c4c1e937.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.4.0.VOOEUXM": {
 					"os": "OS2.0.4.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-05-23",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.4.0.VOOEUXM-user-15.0-49f82b0f43.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.4.0.VOOEUXM_20250513.0000.00_15.0_eea_f5428618df.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.4.0.VOOEUXM_20250513.0000.00_15.0_eea_f5428618df.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VOOEUXM": {
 					"os": "OS2.0.3.0.VOOEUXM",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "malachite_eea_global-ota_full-OS2.0.3.0.VOOEUXM-user-15.0-a5b73564ee.zip",
-					"fastboot": "malachite_eea_global_images_OS2.0.3.0.VOOEUXM_20250414.0000.00_15.0_eea_9230ad0303.tgz"
+					"fastboot": "malachite_eea_global_images_OS2.0.3.0.VOOEUXM_20250414.0000.00_15.0_eea_9230ad0303.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.13.0.UOOEUXM": {
 					"os": "OS1.0.13.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-04-21",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.13.0.UOOEUXM_99a562965d_14.0.zip",
-					"fastboot": "malachite_eea_global_images_OS1.0.13.0.UOOEUXM_20250416.0000.00_14.0_eea_d6e99b0418.tgz"
+					"fastboot": "malachite_eea_global_images_OS1.0.13.0.UOOEUXM_20250416.0000.00_14.0_eea_d6e99b0418.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.11.0.UOOEUXM": {
 					"os": "OS1.0.11.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-04-01",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.11.0.UOOEUXM_090da2e585_14.0.zip",
-					"fastboot": "malachite_eea_global_images_OS1.0.11.0.UOOEUXM_20250328.0000.00_14.0_eea_f2cb587656.tgz"
+					"fastboot": "malachite_eea_global_images_OS1.0.11.0.UOOEUXM_20250328.0000.00_14.0_eea_f2cb587656.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.10.0.UOOEUXM": {
 					"os": "OS1.0.10.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-03-23",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.10.0.UOOEUXM_13230b51aa_14.0.zip",
-					"fastboot": "malachite_eea_global_images_OS1.0.10.0.UOOEUXM_20250313.0000.00_14.0_eea_72609ef914.tgz"
+					"fastboot": "malachite_eea_global_images_OS1.0.10.0.UOOEUXM_20250313.0000.00_14.0_eea_72609ef914.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.UOOEUXM": {
 					"os": "OS1.0.8.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-02-10",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.8.0.UOOEUXM_cee3254f69_14.0.zip",
-					"fastboot": "malachite_eea_global_images_OS1.0.8.0.UOOEUXM_20250123.0000.00_14.0_eea_b15e42c493.tgz"
+					"fastboot": "malachite_eea_global_images_OS1.0.8.0.UOOEUXM_20250123.0000.00_14.0_eea_b15e42c493.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.UOOEUXM": {
 					"os": "OS1.0.7.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-01-26",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.7.0.UOOEUXM_32af03a51b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.6.0.UOOEUXM": {
 					"os": "OS1.0.6.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.6.0.UOOEUXM_3641168ec7_14.0.zip",
-					"fastboot": "malachite_eea_global_images_OS1.0.6.0.UOOEUXM_20241219.0000.00_14.0_eea_cb052df5f2.tgz"
+					"fastboot": "malachite_eea_global_images_OS1.0.6.0.UOOEUXM_20241219.0000.00_14.0_eea_cb052df5f2.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.4.0.UOOEUXM": {
 					"os": "OS1.0.4.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-01-12",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.4.0.UOOEUXM_460cfa0199_14.0.zip",
-					"fastboot": "malachite_eea_global_images_OS1.0.4.0.UOOEUXM_20241117.0000.00_14.0_eea_769f6b6b9e.tgz"
+					"fastboot": "malachite_eea_global_images_OS1.0.4.0.UOOEUXM_20241117.0000.00_14.0_eea_769f6b6b9e.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.2.0.UOOEUXM": {
 					"os": "OS1.0.2.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-01-11",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.2.0.UOOEUXM_7987bcfb09_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.1.0.UOOEUXM": {
 					"os": "OS1.0.1.0.UOOEUXM",
 					"android": "14.0",
 					"release": "2025-01-11",
 					"recovery": "miui_MALACHITEEEAGlobal_OS1.0.1.0.UOOEUXM_5f825b5e73_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -1023,6 +1134,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1039,112 +1151,128 @@
 					"android": "16.0",
 					"release": "2026-05-29",
 					"recovery": "malachite_ru_global-ota_full-OS3.0.301.0.WOORUXM-user-16.0-4fc842747f.zip",
-					"fastboot": "malachite_ru_global_images_OS3.0.301.0.WOORUXM_20260520.0000.00_16.0_ru_fd5cb476d2.tgz"
+					"fastboot": "malachite_ru_global_images_OS3.0.301.0.WOORUXM_20260520.0000.00_16.0_ru_fd5cb476d2.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.5.0.WOORUXM": {
 					"os": "OS3.0.5.0.WOORUXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "malachite_ru_global-ota_full-OS3.0.5.0.WOORUXM-user-16.0-c2e772492c.zip",
-					"fastboot": "malachite_ru_global_images_OS3.0.5.0.WOORUXM_20260330.0000.00_16.0_ru_09eb902bb2.tgz"
+					"fastboot": "malachite_ru_global_images_OS3.0.5.0.WOORUXM_20260330.0000.00_16.0_ru_09eb902bb2.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WOORUXM": {
 					"os": "OS3.0.4.0.WOORUXM",
 					"android": "16.0",
 					"release": "2026-03-13",
 					"recovery": "malachite_ru_global-ota_full-OS3.0.4.0.WOORUXM-user-16.0-802949bf77.zip",
-					"fastboot": "malachite_ru_global_images_OS3.0.4.0.WOORUXM_20260302.0000.00_16.0_ru_c357229fb5.tgz"
+					"fastboot": "malachite_ru_global_images_OS3.0.4.0.WOORUXM_20260302.0000.00_16.0_ru_c357229fb5.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.3.0.WOORUXM": {
 					"os": "OS3.0.3.0.WOORUXM",
 					"android": "16.0",
 					"release": "2026-02-28",
 					"recovery": "malachite_ru_global-ota_full-OS3.0.3.0.WOORUXM-user-16.0-c8f32aed9c.zip",
-					"fastboot": "malachite_ru_global_images_OS3.0.3.0.WOORUXM_20260128.0000.00_16.0_ru_7fe9b50214.tgz"
+					"fastboot": "malachite_ru_global_images_OS3.0.3.0.WOORUXM_20260128.0000.00_16.0_ru_7fe9b50214.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOORUXM": {
 					"os": "OS3.0.2.0.WOORUXM",
 					"android": "16.0",
 					"release": "2026-01-13",
 					"recovery": "malachite_ru_global-ota_full-OS3.0.2.0.WOORUXM-user-16.0-18fd7804b9.zip",
-					"fastboot": "malachite_ru_global_images_OS3.0.2.0.WOORUXM_20251225.0000.00_16.0_ru_f5cbdaca3a.tgz"
+					"fastboot": "malachite_ru_global_images_OS3.0.2.0.WOORUXM_20251225.0000.00_16.0_ru_f5cbdaca3a.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.207.0.VOORUXM": {
 					"os": "OS2.0.207.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.207.0.VOORUXM-user-15.0-f310f35385.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.207.0.VOORUXM_20251114.0000.00_15.0_ru_24cd945f2a.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.207.0.VOORUXM_20251114.0000.00_15.0_ru_24cd945f2a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VOORUXM": {
 					"os": "OS2.0.206.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.206.0.VOORUXM-user-15.0-091b579b20.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.206.0.VOORUXM_20251104.0000.00_15.0_ru_4313917d52.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.206.0.VOORUXM_20251104.0000.00_15.0_ru_4313917d52.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOORUXM": {
 					"os": "OS2.0.205.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-10-21",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.205.0.VOORUXM-user-15.0-130813daab.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.205.0.VOORUXM_20251011.0000.00_15.0_ru_0696b08704.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.205.0.VOORUXM_20251011.0000.00_15.0_ru_0696b08704.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOORUXM": {
 					"os": "OS2.0.204.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-09-23",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.204.0.VOORUXM-user-15.0-6fdabd8b95.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.204.0.VOORUXM_20250912.0000.00_15.0_ru_a1cc8ee703.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.204.0.VOORUXM_20250912.0000.00_15.0_ru_a1cc8ee703.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VOORUXM": {
 					"os": "OS2.0.203.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-08-23",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.203.0.VOORUXM-user-15.0-a1eb488d86.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.203.0.VOORUXM_20250812.0000.00_15.0_ru_bba7a6ebc8.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.203.0.VOORUXM_20250812.0000.00_15.0_ru_bba7a6ebc8.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOORUXM": {
 					"os": "OS2.0.201.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-07-17",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.201.0.VOORUXM-user-15.0-3432dc412b.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.201.0.VOORUXM_20250704.0000.00_15.0_ru_2e66be4530.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.201.0.VOORUXM_20250704.0000.00_15.0_ru_2e66be4530.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.3.0.VOORUXM": {
 					"os": "OS2.0.3.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.3.0.VOORUXM-user-15.0-c4fd2bbe96.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.3.0.VOORUXM_20250605.0000.00_15.0_ru_4e3c90df7d.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.3.0.VOORUXM_20250605.0000.00_15.0_ru_4e3c90df7d.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOORUXM": {
 					"os": "OS2.0.2.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.2.0.VOORUXM-user-15.0-b2ea21a153.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.2.0.VOORUXM_20250512.0000.00_15.0_ru_1495b0e4e0.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.2.0.VOORUXM_20250512.0000.00_15.0_ru_1495b0e4e0.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOORUXM": {
 					"os": "OS2.0.1.0.VOORUXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "malachite_ru_global-ota_full-OS2.0.1.0.VOORUXM-user-15.0-3d6d7d85b5.zip",
-					"fastboot": "malachite_ru_global_images_OS2.0.1.0.VOORUXM_20250418.0000.00_15.0_ru_5148277424.tgz"
+					"fastboot": "malachite_ru_global_images_OS2.0.1.0.VOORUXM_20250418.0000.00_15.0_ru_5148277424.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.7.0.UOORUXM": {
 					"os": "OS1.0.7.0.UOORUXM",
 					"android": "14.0",
 					"release": "2025-03-23",
 					"recovery": "miui_MALACHITERUGlobal_OS1.0.7.0.UOORUXM_506c0f95e9_14.0.zip",
-					"fastboot": "malachite_ru_global_images_OS1.0.7.0.UOORUXM_20250227.0000.00_14.0_ru_721d36fb1c.tgz"
+					"fastboot": "malachite_ru_global_images_OS1.0.7.0.UOORUXM_20250227.0000.00_14.0_ru_721d36fb1c.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UOORUXM": {
 					"os": "OS1.0.6.0.UOORUXM",
 					"android": "14.0",
 					"release": "2025-02-14",
 					"recovery": "miui_MALACHITERUGlobal_OS1.0.6.0.UOORUXM_7461dbced9_14.0.zip",
-					"fastboot": "malachite_ru_global_images_OS1.0.6.0.UOORUXM_20250207.0000.00_14.0_ru_097d1ef4f4.tgz"
+					"fastboot": "malachite_ru_global_images_OS1.0.6.0.UOORUXM_20250207.0000.00_14.0_ru_097d1ef4f4.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -1166,6 +1294,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1182,126 +1311,144 @@
 					"android": "16.0",
 					"release": "2026-06-02",
 					"recovery": "malachite_in_global-ota_full-OS3.0.301.0.WOOINXM-user-16.0-40b423397f.zip",
-					"fastboot": "malachite_in_global_images_OS3.0.301.0.WOOINXM_20260520.0000.00_16.0_in_bc6abdf3bc.tgz"
+					"fastboot": "malachite_in_global_images_OS3.0.301.0.WOOINXM_20260520.0000.00_16.0_in_bc6abdf3bc.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.6.0.WOOINXM": {
 					"os": "OS3.0.6.0.WOOINXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "malachite_in_global-ota_full-OS3.0.6.0.WOOINXM-user-16.0-bb442c48cf.zip",
-					"fastboot": "malachite_in_global_images_OS3.0.6.0.WOOINXM_20260330.0000.00_16.0_in_d8ab892c8a.tgz"
+					"fastboot": "malachite_in_global_images_OS3.0.6.0.WOOINXM_20260330.0000.00_16.0_in_d8ab892c8a.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.5.0.WOOINXM": {
 					"os": "OS3.0.5.0.WOOINXM",
 					"android": "16.0",
 					"release": "2026-03-16",
 					"recovery": "malachite_in_global-ota_full-OS3.0.5.0.WOOINXM-user-16.0-5da07111b1.zip",
-					"fastboot": "malachite_in_global_images_OS3.0.5.0.WOOINXM_20260302.0000.00_16.0_in_43f396f1ff.tgz"
+					"fastboot": "malachite_in_global_images_OS3.0.5.0.WOOINXM_20260302.0000.00_16.0_in_43f396f1ff.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.4.0.WOOINXM": {
 					"os": "OS3.0.4.0.WOOINXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "malachite_in_global-ota_full-OS3.0.4.0.WOOINXM-user-16.0-cc498b8e72.zip",
-					"fastboot": "malachite_in_global_images_OS3.0.4.0.WOOINXM_20260128.0000.00_16.0_in_270ed648f0.tgz"
+					"fastboot": "malachite_in_global_images_OS3.0.4.0.WOOINXM_20260128.0000.00_16.0_in_270ed648f0.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.3.0.WOOINXM": {
 					"os": "OS3.0.3.0.WOOINXM",
 					"android": "16.0",
 					"release": "2026-01-26",
 					"recovery": "malachite_in_global-ota_full-OS3.0.3.0.WOOINXM-user-16.0-4fc3d37c01.zip",
-					"fastboot": "malachite_in_global_images_OS3.0.3.0.WOOINXM_20251231.0000.00_16.0_in_7a23bb5e94.tgz"
+					"fastboot": "malachite_in_global_images_OS3.0.3.0.WOOINXM_20251231.0000.00_16.0_in_7a23bb5e94.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.208.0.VOOINXM": {
 					"os": "OS2.0.208.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "malachite_in_global-ota_full-OS2.0.208.0.VOOINXM-user-15.0-68efab4c76.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.208.0.VOOINXM_20251114.0000.00_15.0_in_1c733159bd.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.208.0.VOOINXM_20251114.0000.00_15.0_in_1c733159bd.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VOOINXM": {
 					"os": "OS2.0.207.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "malachite_in_global-ota_full-OS2.0.207.0.VOOINXM-user-15.0-9d293eb92f.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.207.0.VOOINXM_20251105.0000.00_15.0_in_d90a8a5be2.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.207.0.VOOINXM_20251105.0000.00_15.0_in_d90a8a5be2.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VOOINXM": {
 					"os": "OS2.0.206.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-10-21",
 					"recovery": "malachite_in_global-ota_full-OS2.0.206.0.VOOINXM-user-15.0-29344bce72.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.206.0.VOOINXM_20250928.0000.00_15.0_in_e9eb4df354.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.206.0.VOOINXM_20250928.0000.00_15.0_in_e9eb4df354.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VOOINXM": {
 					"os": "OS2.0.205.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-09-23",
 					"recovery": "malachite_in_global-ota_full-OS2.0.205.0.VOOINXM-user-15.0-6890cc0cc9.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.205.0.VOOINXM_20250912.0000.00_15.0_in_21794d0926.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.205.0.VOOINXM_20250912.0000.00_15.0_in_21794d0926.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.204.0.VOOINXM": {
 					"os": "OS2.0.204.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-08-23",
 					"recovery": "malachite_in_global-ota_full-OS2.0.204.0.VOOINXM-user-15.0-482c03bd1c.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.204.0.VOOINXM_20250812.0000.00_15.0_in_7b09a0326b.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.204.0.VOOINXM_20250812.0000.00_15.0_in_7b09a0326b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VOOINXM": {
 					"os": "OS2.0.202.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-07-21",
 					"recovery": "malachite_in_global-ota_full-OS2.0.202.0.VOOINXM-user-15.0-b586ecd88a.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.202.0.VOOINXM_20250709.0000.00_15.0_in_d734c82571.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.202.0.VOOINXM_20250709.0000.00_15.0_in_d734c82571.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.5.0.VOOINXM": {
 					"os": "OS2.0.5.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "malachite_in_global-ota_full-OS2.0.5.0.VOOINXM-user-15.0-99d1677288.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.5.0.VOOINXM_20250605.0000.00_15.0_in_7c07434a2c.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.5.0.VOOINXM_20250605.0000.00_15.0_in_7c07434a2c.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VOOINXM": {
 					"os": "OS2.0.3.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "malachite_in_global-ota_full-OS2.0.3.0.VOOINXM-user-15.0-57c387d415.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.3.0.VOOINXM_20250512.0000.00_15.0_in_55691fd858.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.3.0.VOOINXM_20250512.0000.00_15.0_in_55691fd858.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOOINXM": {
 					"os": "OS2.0.2.0.VOOINXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "malachite_in_global-ota_full-OS2.0.2.0.VOOINXM-user-15.0-af9cec3bf8.zip",
-					"fastboot": "malachite_in_global_images_OS2.0.2.0.VOOINXM_20250321.0000.00_15.0_in_aa6f4501de.tgz"
+					"fastboot": "malachite_in_global_images_OS2.0.2.0.VOOINXM_20250321.0000.00_15.0_in_aa6f4501de.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.5.0.UOOINXM": {
 					"os": "OS1.0.5.0.UOOINXM",
 					"android": "14.0",
 					"release": "2025-03-10",
 					"recovery": "miui_MALACHITEINGlobal_OS1.0.5.0.UOOINXM_43224746c5_14.0.zip",
-					"fastboot": "malachite_in_global_images_OS1.0.5.0.UOOINXM_20250220.0000.00_14.0_in_8057aa8926.tgz"
+					"fastboot": "malachite_in_global_images_OS1.0.5.0.UOOINXM_20250220.0000.00_14.0_in_8057aa8926.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.4.0.UOOINXM": {
 					"os": "OS1.0.4.0.UOOINXM",
 					"android": "14.0",
 					"release": "2025-02-10",
 					"recovery": "miui_MALACHITEINGlobal_OS1.0.4.0.UOOINXM_db3c3b6d68_14.0.zip",
-					"fastboot": "malachite_in_global_images_OS1.0.4.0.UOOINXM_20250114.0000.00_14.0_in_24823fea6e.tgz"
+					"fastboot": "malachite_in_global_images_OS1.0.4.0.UOOINXM_20250114.0000.00_14.0_in_24823fea6e.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.3.0.UOOINXM": {
 					"os": "OS1.0.3.0.UOOINXM",
 					"android": "14.0",
 					"release": "2025-01-14",
 					"recovery": "miui_MALACHITEINGlobal_OS1.0.3.0.UOOINXM_f8008f08e4_14.0.zip",
-					"fastboot": "malachite_in_global_images_OS1.0.3.0.UOOINXM_20241222.0000.00_14.0_in_691fb3d4e3.tgz"
+					"fastboot": "malachite_in_global_images_OS1.0.3.0.UOOINXM_20241222.0000.00_14.0_in_691fb3d4e3.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.2.0.UOOINXM": {
 					"os": "OS1.0.2.0.UOOINXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_MALACHITEINGlobal_OS1.0.2.0.UOOINXM_3f541e2f7e_14.0.zip",
-					"fastboot": "malachite_in_global_images_OS1.0.2.0.UOOINXM_20241122.0000.00_14.0_in_f066d4e629.tgz"
+					"fastboot": "malachite_in_global_images_OS1.0.2.0.UOOINXM_20241122.0000.00_14.0_in_f066d4e629.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -1323,6 +1470,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1339,112 +1487,128 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "malachite_id_global-ota_full-OS3.0.4.0.WOOIDXM-user-16.0-85c50a8b36.zip",
-					"fastboot": "malachite_id_global_images_OS3.0.4.0.WOOIDXM_20260403.0000.00_16.0_id_48c1839d73.tgz"
+					"fastboot": "malachite_id_global_images_OS3.0.4.0.WOOIDXM_20260403.0000.00_16.0_id_48c1839d73.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOOIDXM": {
 					"os": "OS3.0.3.0.WOOIDXM",
 					"android": "16.0",
 					"release": "2026-03-13",
 					"recovery": "malachite_id_global-ota_full-OS3.0.3.0.WOOIDXM-user-16.0-c8c3c65e7b.zip",
-					"fastboot": "malachite_id_global_images_OS3.0.3.0.WOOIDXM_20260302.0000.00_16.0_id_d3748863a8.tgz"
+					"fastboot": "malachite_id_global_images_OS3.0.3.0.WOOIDXM_20260302.0000.00_16.0_id_d3748863a8.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOOIDXM": {
 					"os": "OS3.0.2.0.WOOIDXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "malachite_id_global-ota_full-OS3.0.2.0.WOOIDXM-user-16.0-669617fa47.zip",
-					"fastboot": "malachite_id_global_images_OS3.0.2.0.WOOIDXM_20260128.0000.00_16.0_id_59eb1aff48.tgz"
+					"fastboot": "malachite_id_global_images_OS3.0.2.0.WOOIDXM_20260128.0000.00_16.0_id_59eb1aff48.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOOIDXM": {
 					"os": "OS3.0.1.0.WOOIDXM",
 					"android": "16.0",
 					"release": "2026-01-19",
 					"recovery": "malachite_id_global-ota_full-OS3.0.1.0.WOOIDXM-user-16.0-de820754b9.zip",
-					"fastboot": "malachite_id_global_images_OS3.0.1.0.WOOIDXM_20260108.0000.00_16.0_id_c5bcceb62b.tgz"
+					"fastboot": "malachite_id_global_images_OS3.0.1.0.WOOIDXM_20260108.0000.00_16.0_id_c5bcceb62b.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.207.0.VOOIDXM": {
 					"os": "OS2.0.207.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "malachite_id_global-ota_full-OS2.0.207.0.VOOIDXM-user-15.0-075496ab49.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.207.0.VOOIDXM_20251114.0000.00_15.0_id_91b5ec234a.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.207.0.VOOIDXM_20251114.0000.00_15.0_id_91b5ec234a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VOOIDXM": {
 					"os": "OS2.0.206.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "malachite_id_global-ota_full-OS2.0.206.0.VOOIDXM-user-15.0-2c4ccfbc3d.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.206.0.VOOIDXM_20251105.0000.00_15.0_id_d9c6e101bd.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.206.0.VOOIDXM_20251105.0000.00_15.0_id_d9c6e101bd.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOOIDXM": {
 					"os": "OS2.0.205.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-10-23",
 					"recovery": "malachite_id_global-ota_full-OS2.0.205.0.VOOIDXM-user-15.0-93caf22ae1.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.205.0.VOOIDXM_20251011.0000.00_15.0_id_da9f6d2a72.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.205.0.VOOIDXM_20251011.0000.00_15.0_id_da9f6d2a72.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOOIDXM": {
 					"os": "OS2.0.204.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-09-23",
 					"recovery": "malachite_id_global-ota_full-OS2.0.204.0.VOOIDXM-user-15.0-92a530103f.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.204.0.VOOIDXM_20250912.0000.00_15.0_id_a1ff00921f.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.204.0.VOOIDXM_20250912.0000.00_15.0_id_a1ff00921f.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VOOIDXM": {
 					"os": "OS2.0.203.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "malachite_id_global-ota_full-OS2.0.203.0.VOOIDXM-user-15.0-7bcbd76f53.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.203.0.VOOIDXM_20250812.0000.00_15.0_id_d969816259.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.203.0.VOOIDXM_20250812.0000.00_15.0_id_d969816259.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOOIDXM": {
 					"os": "OS2.0.201.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-07-21",
 					"recovery": "malachite_id_global-ota_full-OS2.0.201.0.VOOIDXM-user-15.0-114db867d8.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.201.0.VOOIDXM_20250709.0000.00_15.0_id_349324f40e.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.201.0.VOOIDXM_20250709.0000.00_15.0_id_349324f40e.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.4.0.VOOIDXM": {
 					"os": "OS2.0.4.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "malachite_id_global-ota_full-OS2.0.4.0.VOOIDXM-user-15.0-a564eb209a.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.4.0.VOOIDXM_20250605.0000.00_15.0_id_91e8960f91.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.4.0.VOOIDXM_20250605.0000.00_15.0_id_91e8960f91.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOOIDXM": {
 					"os": "OS2.0.2.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "malachite_id_global-ota_full-OS2.0.2.0.VOOIDXM-user-15.0-9e0532b9d9.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.2.0.VOOIDXM_20250512.0000.00_15.0_id_bbe382df18.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.2.0.VOOIDXM_20250512.0000.00_15.0_id_bbe382df18.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOOIDXM": {
 					"os": "OS2.0.1.0.VOOIDXM",
 					"android": "15.0",
 					"release": "2025-05-08",
 					"recovery": "malachite_id_global-ota_full-OS2.0.1.0.VOOIDXM-user-15.0-bf36af99dc.zip",
-					"fastboot": "malachite_id_global_images_OS2.0.1.0.VOOIDXM_20250418.0000.00_15.0_id_d5fd61d546.tgz"
+					"fastboot": "malachite_id_global_images_OS2.0.1.0.VOOIDXM_20250418.0000.00_15.0_id_d5fd61d546.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.UOOIDXM": {
 					"os": "OS1.0.9.0.UOOIDXM",
 					"android": "14.0",
 					"release": "2025-03-28",
 					"recovery": "miui_MALACHITEIDGlobal_OS1.0.9.0.UOOIDXM_187f5473cd_14.0.zip",
-					"fastboot": "malachite_id_global_images_OS1.0.9.0.UOOIDXM_20250314.0000.00_14.0_id_78dbce103f.tgz"
+					"fastboot": "malachite_id_global_images_OS1.0.9.0.UOOIDXM_20250314.0000.00_14.0_id_78dbce103f.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.8.0.UOOIDXM": {
 					"os": "OS1.0.8.0.UOOIDXM",
 					"android": "14.0",
 					"release": "2025-02-06",
 					"recovery": "miui_MALACHITEIDGlobal_OS1.0.8.0.UOOIDXM_caa40298ca_14.0.zip",
-					"fastboot": "malachite_id_global_images_OS1.0.8.0.UOOIDXM_20250122.0000.00_14.0_id_d0ed26e61c.tgz"
+					"fastboot": "malachite_id_global_images_OS1.0.8.0.UOOIDXM_20250122.0000.00_14.0_id_d0ed26e61c.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.UOOIDXM": {
 					"os": "OS1.0.7.0.UOOIDXM",
 					"android": "14.0",
 					"release": "2024-02-04",
 					"recovery": "miui_MALACHITEIDGlobal_OS1.0.7.0.UOOIDXM_bebd87bdd2_14.0.zip",
-					"fastboot": "malachite_id_global_images_OS1.0.7.0.UOOIDXM_20250114.0000.00_14.0_id_7c270ed7fb.tgz"
+					"fastboot": "malachite_id_global_images_OS1.0.7.0.UOOIDXM_20250114.0000.00_14.0_id_7c270ed7fb.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -1466,6 +1630,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1482,112 +1647,128 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "malachite_tr_global-ota_full-OS3.0.4.0.WOOTRXM-user-16.0-8ebc376b23.zip",
-					"fastboot": "malachite_tr_global_images_OS3.0.4.0.WOOTRXM_20260403.0000.00_16.0_tr_149f536e05.tgz"
+					"fastboot": "malachite_tr_global_images_OS3.0.4.0.WOOTRXM_20260403.0000.00_16.0_tr_149f536e05.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOOTRXM": {
 					"os": "OS3.0.3.0.WOOTRXM",
 					"android": "16.0",
 					"release": "2026-03-16",
 					"recovery": "malachite_tr_global-ota_full-OS3.0.3.0.WOOTRXM-user-16.0-90c2213f6e.zip",
-					"fastboot": "malachite_tr_global_images_OS3.0.3.0.WOOTRXM_20260302.0000.00_16.0_tr_efdd533775.tgz"
+					"fastboot": "malachite_tr_global_images_OS3.0.3.0.WOOTRXM_20260302.0000.00_16.0_tr_efdd533775.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOOTRXM": {
 					"os": "OS3.0.2.0.WOOTRXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "malachite_tr_global-ota_full-OS3.0.2.0.WOOTRXM-user-16.0-c0655c073f.zip",
-					"fastboot": "malachite_tr_global_images_OS3.0.2.0.WOOTRXM_20260128.0000.00_16.0_tr_e290c88a93.tgz"
+					"fastboot": "malachite_tr_global_images_OS3.0.2.0.WOOTRXM_20260128.0000.00_16.0_tr_e290c88a93.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOOTRXM": {
 					"os": "OS3.0.1.0.WOOTRXM",
 					"android": "16.0",
 					"release": "2026-01-16",
 					"recovery": "malachite_tr_global-ota_full-OS3.0.1.0.WOOTRXM-user-16.0-1234eecc27.zip",
-					"fastboot": "malachite_tr_global_images_OS3.0.1.0.WOOTRXM_20251230.0000.00_16.0_tr_15910a156d.tgz"
+					"fastboot": "malachite_tr_global_images_OS3.0.1.0.WOOTRXM_20251230.0000.00_16.0_tr_15910a156d.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.206.0.VOOTRXM": {
 					"os": "OS2.0.206.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.206.0.VOOTRXM-user-15.0-aa504eac02.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.206.0.VOOTRXM_20251114.0000.00_15.0_tr_2f0255421e.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.206.0.VOOTRXM_20251114.0000.00_15.0_tr_2f0255421e.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOOTRXM": {
 					"os": "OS2.0.205.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.205.0.VOOTRXM-user-15.0-34c2f69e44.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.205.0.VOOTRXM_20251104.0000.00_15.0_tr_751dcfa751.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.205.0.VOOTRXM_20251104.0000.00_15.0_tr_751dcfa751.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOOTRXM": {
 					"os": "OS2.0.204.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-10-23",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.204.0.VOOTRXM-user-15.0-2736bb5049.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.204.0.VOOTRXM_20251011.0000.00_15.0_tr_3dd9430fab.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.204.0.VOOTRXM_20251011.0000.00_15.0_tr_3dd9430fab.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VOOTRXM": {
 					"os": "OS2.0.203.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-09-23",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.203.0.VOOTRXM-user-15.0-07cf3e350e.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.203.0.VOOTRXM_20250912.0000.00_15.0_tr_4549633585.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.203.0.VOOTRXM_20250912.0000.00_15.0_tr_4549633585.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VOOTRXM": {
 					"os": "OS2.0.202.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-08-21",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.202.0.VOOTRXM-user-15.0-3ff20831ca.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.202.0.VOOTRXM_20250812.0000.00_15.0_tr_62f9b19779.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.202.0.VOOTRXM_20250812.0000.00_15.0_tr_62f9b19779.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOOTRXM": {
 					"os": "OS2.0.201.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-07-17",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.201.0.VOOTRXM-user-15.0-3a2f6bc5ad.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.201.0.VOOTRXM_20250709.0000.00_15.0_tr_f5790fb7ce.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.201.0.VOOTRXM_20250709.0000.00_15.0_tr_f5790fb7ce.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.4.0.VOOTRXM": {
 					"os": "OS2.0.4.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-06-17",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.4.0.VOOTRXM-user-15.0-8668ffb9ac.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.4.0.VOOTRXM_20250605.0000.00_15.0_tr_84cc7abbef.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.4.0.VOOTRXM_20250605.0000.00_15.0_tr_84cc7abbef.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOOTRXM": {
 					"os": "OS2.0.2.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.2.0.VOOTRXM-user-15.0-d6594a4b4c.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.2.0.VOOTRXM_20250512.0000.00_15.0_tr_ef10b3e2cb.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.2.0.VOOTRXM_20250512.0000.00_15.0_tr_ef10b3e2cb.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOOTRXM": {
 					"os": "OS2.0.1.0.VOOTRXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "malachite_tr_global-ota_full-OS2.0.1.0.VOOTRXM-user-15.0-7e68feef99.zip",
-					"fastboot": "malachite_tr_global_images_OS2.0.1.0.VOOTRXM_20250418.0000.00_15.0_tr_debaf4c46e.tgz"
+					"fastboot": "malachite_tr_global_images_OS2.0.1.0.VOOTRXM_20250418.0000.00_15.0_tr_debaf4c46e.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.6.0.UOOTRXM": {
 					"os": "OS1.0.6.0.UOOTRXM",
 					"android": "14.0",
 					"release": "2025-03-07",
 					"recovery": "miui_MALACHITETRGlobal_OS1.0.6.0.UOOTRXM_403aca77ac_14.0.zip",
-					"fastboot": "malachite_tr_global_images_OS1.0.6.0.UOOTRXM_20250227.0000.00_14.0_tr_3690e1ddcd.tgz"
+					"fastboot": "malachite_tr_global_images_OS1.0.6.0.UOOTRXM_20250227.0000.00_14.0_tr_3690e1ddcd.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.UOOTRXM": {
 					"os": "OS1.0.5.0.UOOTRXM",
 					"android": "14.0",
 					"release": "2025-02-21",
 					"recovery": "miui_MALACHITETRGlobal_OS1.0.5.0.UOOTRXM_91b334fad0_14.0.zip",
-					"fastboot": "malachite_tr_global_images_OS1.0.5.0.UOOTRXM_20250122.0000.00_14.0_tr_8258b2603d.tgz"
+					"fastboot": "malachite_tr_global_images_OS1.0.5.0.UOOTRXM_20250122.0000.00_14.0_tr_8258b2603d.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.3.0.UOOTRXM": {
 					"os": "OS1.0.3.0.UOOTRXM",
 					"android": "14.0",
 					"release": "2025-01-20",
 					"recovery": "miui_MALACHITETRGlobal_OS1.0.3.0.UOOTRXM_d395b3c88a_14.0.zip",
-					"fastboot": "malachite_tr_global_images_OS1.0.3.0.UOOTRXM_20241217.0000.00_14.0_tr_97a93a5229.tgz"
+					"fastboot": "malachite_tr_global_images_OS1.0.3.0.UOOTRXM_20241217.0000.00_14.0_tr_97a93a5229.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -1609,6 +1790,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1625,84 +1807,96 @@
 					"android": "16.0",
 					"release": "2026-03-16",
 					"recovery": "malachite_jp_global-ota_full-OS3.0.3.0.WOOJPXM-user-16.0-cd4ff46737.zip",
-					"fastboot": "malachite_jp_global_images_OS3.0.3.0.WOOJPXM_20260302.0000.00_16.0_jp_dab075decb.tgz"
+					"fastboot": "malachite_jp_global_images_OS3.0.3.0.WOOJPXM_20260302.0000.00_16.0_jp_dab075decb.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOOJPXM": {
 					"os": "OS3.0.2.0.WOOJPXM",
 					"android": "16.0",
 					"release": "2026-02-27",
 					"recovery": "malachite_jp_global-ota_full-OS3.0.2.0.WOOJPXM-user-16.0-9520ac3be3.zip",
-					"fastboot": "malachite_jp_global_images_OS3.0.2.0.WOOJPXM_20260128.0000.00_16.0_jp_15a1eed9aa.tgz"
+					"fastboot": "malachite_jp_global_images_OS3.0.2.0.WOOJPXM_20260128.0000.00_16.0_jp_15a1eed9aa.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOOJPXM": {
 					"os": "OS3.0.1.0.WOOJPXM",
 					"android": "16.0",
 					"release": "2026-01-16",
 					"recovery": "malachite_jp_global-ota_full-OS3.0.1.0.WOOJPXM-user-16.0-4f1374afdb.zip",
-					"fastboot": "malachite_jp_global_images_OS3.0.1.0.WOOJPXM_20251230.0000.00_16.0_jp_296c5a1c66.tgz"
+					"fastboot": "malachite_jp_global_images_OS3.0.1.0.WOOJPXM_20251230.0000.00_16.0_jp_296c5a1c66.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.208.0.VOOJPXM": {
 					"os": "OS2.0.208.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.208.0.VOOJPXM-user-15.0-00a4e55a58.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.208.0.VOOJPXM_20251114.0000.00_15.0_jp_b6a2f990ac.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.208.0.VOOJPXM_20251114.0000.00_15.0_jp_b6a2f990ac.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VOOJPXM": {
 					"os": "OS2.0.207.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-11-14",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.207.0.VOOJPXM-user-15.0-dcda0a32e2.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.207.0.VOOJPXM_20251104.0000.00_15.0_jp_d6f9fcf655.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.207.0.VOOJPXM_20251104.0000.00_15.0_jp_d6f9fcf655.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VOOJPXM": {
 					"os": "OS2.0.206.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-10-20",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.206.0.VOOJPXM-user-15.0-00c52aedcb.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.206.0.VOOJPXM_20251011.0000.00_15.0_jp_49d1ff7afc.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.206.0.VOOJPXM_20251011.0000.00_15.0_jp_49d1ff7afc.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VOOJPXM": {
 					"os": "OS2.0.205.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-09-21",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.205.0.VOOJPXM-user-15.0-20087470bb.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.205.0.VOOJPXM_20250912.0000.00_15.0_jp_b66fd224a6.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.205.0.VOOJPXM_20250912.0000.00_15.0_jp_b66fd224a6.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.204.0.VOOJPXM": {
 					"os": "OS2.0.204.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-08-20",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.204.0.VOOJPXM-user-15.0-6ac587d1c3.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.204.0.VOOJPXM_20250812.0000.00_15.0_jp_40c81af486.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.204.0.VOOJPXM_20250812.0000.00_15.0_jp_40c81af486.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VOOJPXM": {
 					"os": "OS2.0.203.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-07-19",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.203.0.VOOJPXM-user-15.0-d91ec2d8ed.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.203.0.VOOJPXM_20250715.0000.00_15.0_jp_f5873cca6d.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.203.0.VOOJPXM_20250715.0000.00_15.0_jp_f5873cca6d.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.3.0.VOOJPXM": {
 					"os": "OS2.0.3.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-06-17",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.3.0.VOOJPXM-user-15.0-2ffb88ec9a.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.3.0.VOOJPXM_20250605.0000.00_15.0_jp_07528f02c5.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.3.0.VOOJPXM_20250605.0000.00_15.0_jp_07528f02c5.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOOJPXM": {
 					"os": "OS2.0.2.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.2.0.VOOJPXM-user-15.0-8c1b3348b1.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.2.0.VOOJPXM_20250512.0000.00_15.0_jp_439d8083ed.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.2.0.VOOJPXM_20250512.0000.00_15.0_jp_439d8083ed.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOOJPXM": {
 					"os": "OS2.0.1.0.VOOJPXM",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "malachite_jp_global-ota_full-OS2.0.1.0.VOOJPXM-user-15.0-549e930111.zip",
-					"fastboot": "malachite_jp_global_images_OS2.0.1.0.VOOJPXM_20250418.0000.00_15.0_jp_4070a2c19f.tgz"
+					"fastboot": "malachite_jp_global_images_OS2.0.1.0.VOOJPXM_20250418.0000.00_15.0_jp_4070a2c19f.tgz",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -1724,6 +1918,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1740,42 +1935,48 @@
 					"android": "15.0",
 					"release": "2026-01-27",
 					"recovery": "malachite_mx_at_global-ota_full-OS2.0.206.0.VOOMXAT-user-15.0-e338466a22.zip",
-					"fastboot": "malachite_mx_at_global_images_OS2.0.206.0.VOOMXAT_20260114.0000.00_15.0_mx_at_7f704b9d50.tgz"
+					"fastboot": "malachite_mx_at_global_images_OS2.0.206.0.VOOMXAT_20260114.0000.00_15.0_mx_at_7f704b9d50.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VOOMXAT": {
 					"os": "OS2.0.203.0.VOOMXAT",
 					"android": "15.0",
 					"release": "2025-11-05",
 					"recovery": "malachite_mx_at_global-ota_full-OS2.0.203.0.VOOMXAT-user-15.0-57139293df.zip",
-					"fastboot": "malachite_mx_at_global_images_OS2.0.203.0.VOOMXAT_20251017.0000.00_15.0_mx_at_5e495caf5a.tgz"
+					"fastboot": "malachite_mx_at_global_images_OS2.0.203.0.VOOMXAT_20251017.0000.00_15.0_mx_at_5e495caf5a.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOOMXAT": {
 					"os": "OS2.0.202.0.VOOMXAT",
 					"android": "15.0",
 					"release": "2025-09-12",
 					"recovery": "malachite_mx_at_global-ota_full-OS2.0.202.0.VOOMXAT-user-15.0-5427158100.zip",
-					"fastboot": "malachite_mx_at_global_images_OS2.0.202.0.VOOMXAT_20250829.0000.00_15.0_mx_at_f7cc25f498.tgz"
+					"fastboot": "malachite_mx_at_global_images_OS2.0.202.0.VOOMXAT_20250829.0000.00_15.0_mx_at_f7cc25f498.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.1.0.VOOMXAT": {
 					"os": "OS2.0.1.0.VOOMXAT",
 					"android": "15.0",
 					"release": "2025-07-09",
 					"recovery": "malachite_mx_at_global-ota_full-OS2.0.1.0.VOOMXAT-user-15.0-f9cb29a1d8.zip",
-					"fastboot": "malachite_mx_at_global_images_OS2.0.1.0.VOOMXAT_20250509.0000.00_15.0_mx_at_4c9bf6bac8.tgz"
+					"fastboot": "malachite_mx_at_global_images_OS2.0.1.0.VOOMXAT_20250509.0000.00_15.0_mx_at_4c9bf6bac8.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.6.0.UOOMXAT": {
 					"os": "OS1.0.6.0.UOOMXAT",
 					"android": "14.0",
 					"release": "2025-04-30",
 					"recovery": "miui_MALACHITEMXATGlobal_OS1.0.6.0.UOOMXAT_1fc7990cf0_14.0.zip",
-					"fastboot": "malachite_mx_at_global_images_OS1.0.6.0.UOOMXAT_20250408.0000.00_14.0_mx_at_a19e982091.tgz"
+					"fastboot": "malachite_mx_at_global_images_OS1.0.6.0.UOOMXAT_20250408.0000.00_14.0_mx_at_a19e982091.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.5.0.UOOMXAT": {
 					"os": "OS1.0.5.0.UOOMXAT",
 					"android": "14.0",
 					"release": "2025-03-04",
 					"recovery": "miui_MALACHITEMXATGlobal_OS1.0.5.0.UOOMXAT_4d75c470a5_14.0.zip",
-					"fastboot": "malachite_mx_at_global_images_OS1.0.5.0.UOOMXAT_20250214.0000.00_14.0_mx_at_ab26a4a1fa.tgz"
+					"fastboot": "malachite_mx_at_global_images_OS1.0.5.0.UOOMXAT_20250214.0000.00_14.0_mx_at_ab26a4a1fa.tgz",
+					"aspatch": "2025-02-01"
 				}
 			}
 		},
@@ -1797,6 +1998,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1813,63 +2015,72 @@
 					"android": "16.0",
 					"release": "2026-05-19",
 					"recovery": "malachite_lm_cr_global-ota_full-OS3.0.2.0.WOOLMCR-user-16.0-c36496bddc.zip",
-					"fastboot": "malachite_lm_cr_global_images_OS3.0.2.0.WOOLMCR_20260427.0000.00_16.0_lm_cr_224018dda8.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS3.0.2.0.WOOLMCR_20260427.0000.00_16.0_lm_cr_224018dda8.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.1.0.WOOLMCR": {
 					"os": "OS3.0.1.0.WOOLMCR",
 					"android": "16.0",
 					"release": "2026-04-02",
 					"recovery": "malachite_lm_cr_global-ota_full-OS3.0.1.0.WOOLMCR-user-16.0-035d15943a.zip",
-					"fastboot": "malachite_lm_cr_global_images_OS3.0.1.0.WOOLMCR_20260316.0000.00_16.0_lm_cr_ff29d7d2fa.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS3.0.1.0.WOOLMCR_20260316.0000.00_16.0_lm_cr_ff29d7d2fa.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.203.0.VOOLMCR": {
 					"os": "OS2.0.203.0.VOOLMCR",
 					"android": "15.0",
 					"release": "2026-01-14",
 					"recovery": "malachite_lm_cr_global-ota_full-OS2.0.203.0.VOOLMCR-user-15.0-cbb83b5bf9.zip",
-					"fastboot": "malachite_lm_cr_global_images_OS2.0.203.0.VOOLMCR_20260104.0000.00_15.0_lm_cr_4cf75469de.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS2.0.203.0.VOOLMCR_20260104.0000.00_15.0_lm_cr_4cf75469de.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.202.0.VOOLMCR": {
 					"os": "OS2.0.202.0.VOOLMCR",
 					"android": "15.0",
 					"release": "2025-11-05",
 					"recovery": "malachite_lm_cr_global-ota_full-OS2.0.202.0.VOOLMCR-user-15.0-003d74014c.zip",
-					"fastboot": "malachite_lm_cr_global_images_OS2.0.202.0.VOOLMCR_20251022.0000.00_15.0_lm_cr_d31abfa277.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS2.0.202.0.VOOLMCR_20251022.0000.00_15.0_lm_cr_d31abfa277.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VOOLMCR": {
 					"os": "OS2.0.201.0.VOOLMCR",
 					"android": "15.0",
 					"release": "2025-09-29",
 					"recovery": "malachite_lm_cr_global-ota_full-OS2.0.201.0.VOOLMCR-user-15.0-0ca9233f91.zip",
-					"fastboot": "malachite_lm_cr_global_images_OS2.0.201.0.VOOLMCR_20250917.0000.00_15.0_lm_cr_4a6778be73.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS2.0.201.0.VOOLMCR_20250917.0000.00_15.0_lm_cr_4a6778be73.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.3.0.VOOLMCR": {
 					"os": "OS2.0.3.0.VOOLMCR",
 					"android": "15.0",
 					"release": "2025-07-11",
 					"recovery": "malachite_lm_cr_global-ota_full-OS2.0.3.0.VOOLMCR-user-15.0-a65d55f612.zip",
-					"fastboot": "malachite_lm_cr_global_images_OS2.0.3.0.VOOLMCR_20250703.0000.00_15.0_lm_cr_9d80d33195.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS2.0.3.0.VOOLMCR_20250703.0000.00_15.0_lm_cr_9d80d33195.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.2.0.VOOLMCR": {
 					"os": "OS2.0.2.0.VOOLMCR",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "malachite_lm_cr_global-ota_full-OS2.0.2.0.VOOLMCR-user-15.0-75f79ce0ea.zip",
-					"fastboot": "malachite_lm_cr_global_images_OS2.0.2.0.VOOLMCR_20250530.0000.00_15.0_lm_cr_1eeeae4667.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS2.0.2.0.VOOLMCR_20250530.0000.00_15.0_lm_cr_1eeeae4667.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.5.0.UOOLMCR": {
 					"os": "OS1.0.5.0.UOOLMCR",
 					"android": "14.0",
 					"release": "2025-04-30",
 					"recovery": "miui_MALACHITELMCRGlobal_OS1.0.5.0.UOOLMCR_4518f80fa2_14.0.zip",
-					"fastboot": "malachite_lm_cr_global_images_OS1.0.5.0.UOOLMCR_20250401.0000.00_14.0_lm_cr_f41e595360.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS1.0.5.0.UOOLMCR_20250401.0000.00_14.0_lm_cr_f41e595360.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.4.0.UOOLMCR": {
 					"os": "OS1.0.4.0.UOOLMCR",
 					"android": "14.0",
 					"release": "2025-03-04",
 					"recovery": "",
-					"fastboot": "malachite_lm_cr_global_images_OS1.0.4.0.UOOLMCR_20250217.0000.00_14.0_lm_cr_e3de68b10c.tgz"
+					"fastboot": "malachite_lm_cr_global_images_OS1.0.4.0.UOOLMCR_20250217.0000.00_14.0_lm_cr_e3de68b10c.tgz",
+					"aspatch": "2025-02-01"
 				}
 			}
 		},
@@ -1891,6 +2102,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1907,7 +2119,8 @@
 					"android": "15.0",
 					"release": "2025-09-21",
 					"recovery": "malachite_gt_tg_global-ota_full-OS2.0.1.0.VOOGTTG-user-15.0-ffe0efbdfa.zip",
-					"fastboot": "malachite_gt_tg_global_images_OS2.0.1.0.VOOGTTG_20250422.0000.00_15.0_gt_tg_7fb9f32903.tgz"
+					"fastboot": "malachite_gt_tg_global_images_OS2.0.1.0.VOOGTTG_20250422.0000.00_15.0_gt_tg_7fb9f32903.tgz",
+					"aspatch": "2025-03-01"
 				}
 			}
 		}

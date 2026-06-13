@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -53,105 +54,120 @@
 					"android": "16.0",
 					"release": "2026-05-12",
 					"recovery": "warm_in_global-ota_full-OS3.0.302.0.WGVINXM-user-16.0-d9b2121d32.zip",
-					"fastboot": "warm_in_global_images_OS3.0.302.0.WGVINXM_20260424.0000.00_16.0_in_7d4d130e40.tgz"
+					"fastboot": "warm_in_global_images_OS3.0.302.0.WGVINXM_20260424.0000.00_16.0_in_7d4d130e40.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.WGVINXM": {
 					"os": "OS3.0.4.0.WGVINXM",
 					"android": "16.0",
 					"release": "2026-04-28",
 					"recovery": "warm_in_global-ota_full-OS3.0.4.0.WGVINXM-user-16.0-ac7e5d130c.zip",
-					"fastboot": "warm_in_global_images_OS3.0.4.0.WGVINXM_20260422.0000.00_16.0_in_d4590d1c3c.tgz"
+					"fastboot": "warm_in_global_images_OS3.0.4.0.WGVINXM_20260422.0000.00_16.0_in_d4590d1c3c.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WGVINXM": {
 					"os": "OS3.0.3.0.WGVINXM",
 					"android": "16.0",
 					"release": "2026-02-23",
 					"recovery": "warm_in_global-ota_full-OS3.0.3.0.WGVINXM-user-16.0-3277b98da9.zip",
-					"fastboot": "warm_in_global_images_OS3.0.3.0.WGVINXM_20260129.0000.00_16.0_in_cb402295f7.tgz"
+					"fastboot": "warm_in_global_images_OS3.0.3.0.WGVINXM_20260129.0000.00_16.0_in_cb402295f7.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VGVINXM": {
 					"os": "OS2.0.203.0.VGVINXM",
 					"android": "15.0",
 					"release": "2025-10-31",
 					"recovery": "warm_in_global-ota_full-OS2.0.203.0.VGVINXM-user-15.0-75f5c1cd84.zip",
-					"fastboot": "warm_in_global_images_OS2.0.203.0.VGVINXM_20251021.0000.00_15.0_in_13654be440.tgz"
+					"fastboot": "warm_in_global_images_OS2.0.203.0.VGVINXM_20251021.0000.00_15.0_in_13654be440.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VGVINXM": {
 					"os": "OS2.0.202.0.VGVINXM",
 					"android": "15.0",
 					"release": "2025-09-10",
 					"recovery": "warm_in_global-ota_full-OS2.0.202.0.VGVINXM-user-15.0-9c35ed68bf.zip",
-					"fastboot": "warm_in_global_images_OS2.0.202.0.VGVINXM_20250829.0000.00_15.0_in_dd2ca391fc.tgz"
+					"fastboot": "warm_in_global_images_OS2.0.202.0.VGVINXM_20250829.0000.00_15.0_in_dd2ca391fc.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VGVINXM": {
 					"os": "OS2.0.201.0.VGVINXM",
 					"android": "15.0",
 					"release": "2025-08-05",
 					"recovery": "warm_in_global-ota_full-OS2.0.201.0.VGVINXM-user-15.0-6489a1d9d5.zip",
-					"fastboot": "warm_in_global_images_OS2.0.201.0.VGVINXM_20250715.0000.00_15.0_in_500b543328.tgz"
+					"fastboot": "warm_in_global_images_OS2.0.201.0.VGVINXM_20250715.0000.00_15.0_in_500b543328.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.4.0.VGVINXM": {
 					"os": "OS2.0.4.0.VGVINXM",
 					"android": "15.0",
 					"release": "2025-07-10",
 					"recovery": "warm_in_global-ota_full-OS2.0.4.0.VGVINXM-user-15.0-65fda9bcc0.zip",
-					"fastboot": "warm_in_global_images_OS2.0.4.0.VGVINXM_20250708.0000.00_15.0_in_52cf0a1e60.tgz"
+					"fastboot": "warm_in_global_images_OS2.0.4.0.VGVINXM_20250708.0000.00_15.0_in_52cf0a1e60.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.2.0.VGVINXM": {
 					"os": "OS2.0.2.0.VGVINXM",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "warm_in_global-ota_full-OS2.0.2.0.VGVINXM-user-15.0-e9633e132a.zip",
-					"fastboot": "warm_in_global_images_OS2.0.2.0.VGVINXM_20250516.0000.00_15.0_in_c17f29d3c4.tgz"
+					"fastboot": "warm_in_global_images_OS2.0.2.0.VGVINXM_20250516.0000.00_15.0_in_c17f29d3c4.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VGVINXM": {
 					"os": "OS2.0.1.0.VGVINXM",
 					"android": "15.0",
 					"release": "2025-04-15",
 					"recovery": "warm_in_global-ota_full-OS2.0.1.0.VGVINXM-user-15.0-6d178f5c6c.zip",
-					"fastboot": "warm_in_global_images_OS2.0.1.0.VGVINXM_20250401.0000.00_15.0_in_fe72faa1be.tgz"
+					"fastboot": "warm_in_global_images_OS2.0.1.0.VGVINXM_20250401.0000.00_15.0_in_fe72faa1be.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.10.0.UGVINXM": {
 					"os": "OS1.0.10.0.UGVINXM",
 					"android": "14.0",
 					"release": "2025-07-26",
 					"recovery": "miui_WARMINGlobal_OS1.0.10.0.UGVINXM_8954f337bf_14.0.zip",
-					"fastboot": "warm_in_global_images_OS1.0.10.0.UGVINXM_20250715.0000.00_14.0_in_85cccce958.tgz"
+					"fastboot": "warm_in_global_images_OS1.0.10.0.UGVINXM_20250715.0000.00_14.0_in_85cccce958.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.9.0.UGVINXM": {
 					"os": "OS1.0.9.0.UGVINXM",
 					"android": "14.0",
 					"release": "2025-03-20",
 					"recovery": "miui_WARMINGlobal_OS1.0.9.0.UGVINXM_8e6c6ea9f1_14.0.zip",
-					"fastboot": "warm_in_global_images_OS1.0.9.0.UGVINXM_20250309.0000.00_14.0_in_fe5b862df1.tgz"
+					"fastboot": "warm_in_global_images_OS1.0.9.0.UGVINXM_20250309.0000.00_14.0_in_fe5b862df1.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.UGVINXM": {
 					"os": "OS1.0.8.0.UGVINXM",
 					"android": "14.0",
 					"release": "2025-02-28",
 					"recovery": "miui_WARMINGlobal_OS1.0.8.0.UGVINXM_4dcaa9f305_14.0.zip",
-					"fastboot": "warm_in_global_images_OS1.0.8.0.UGVINXM_20250214.0000.00_14.0_in_481ac582cc.tgz"
+					"fastboot": "warm_in_global_images_OS1.0.8.0.UGVINXM_20250214.0000.00_14.0_in_481ac582cc.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.7.0.UGVINXM": {
 					"os": "OS1.0.7.0.UGVINXM",
 					"android": "14.0",
 					"release": "2024-12-17",
 					"recovery": "miui_WARMINGlobal_OS1.0.7.0.UGVINXM_f5f6ddf889_14.0.zip",
-					"fastboot": "warm_in_global_images_OS1.0.7.0.UGVINXM_20241212.0000.00_14.0_in_892aef10e8.tgz"
+					"fastboot": "warm_in_global_images_OS1.0.7.0.UGVINXM_20241212.0000.00_14.0_in_892aef10e8.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.5.0.UGVINXM": {
 					"os": "OS1.0.5.0.UGVINXM",
 					"android": "14.0",
 					"release": "2024-12-03",
 					"recovery": "miui_WARMINGlobal_OS1.0.5.0.UGVINXM_4353e221a6_14.0.zip",
-					"fastboot": "warm_in_global_images_OS1.0.5.0.UGVINXM_20241125.0000.00_14.0_in_c9c26b8869.tgz"
+					"fastboot": "warm_in_global_images_OS1.0.5.0.UGVINXM_20241125.0000.00_14.0_in_c9c26b8869.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.4.0.UGVINXM": {
 					"os": "OS1.0.4.0.UGVINXM",
 					"android": "14.0",
 					"release": "2024-11-28",
 					"recovery": "miui_WARMINGlobal_OS1.0.4.0.UGVINXM_7751a0c4a1_14.0.zip",
-					"fastboot": "warm_in_global_images_OS1.0.4.0.UGVINXM_20241106.0000.00_14.0_in_f58168c2bb.tgz"
+					"fastboot": "warm_in_global_images_OS1.0.4.0.UGVINXM_20241106.0000.00_14.0_in_f58168c2bb.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		}

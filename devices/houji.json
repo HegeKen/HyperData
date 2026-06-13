@@ -38,6 +38,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -57,189 +58,216 @@
 					"android": "16.0",
 					"release": "2026-03-06",
 					"recovery": "houji-ota_full-OS3.0.300.6.WNCCNXM-user-16.0-acbd9ef007.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.4.WNCCNXM": {
 					"os": "OS3.0.300.4.WNCCNXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "houji-ota_full-OS3.0.300.4.WNCCNXM-user-16.0-f6c42285d1.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.300.3.WNCCNXM": {
 					"os": "OS3.0.300.3.WNCCNXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "houji-ota_full-OS3.0.300.3.WNCCNXM-user-16.0-8365f92842.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.5.5.WNCCNXM": {
 					"os": "OS3.0.5.5.WNCCNXM",
 					"android": "16.0",
 					"release": "2025-12-31",
 					"recovery": "houji-ota_full-OS3.0.5.5.WNCCNXM-user-16.0-e4cbc3af1c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.1.2.WNCCNXM": {
 					"os": "OS3.0.1.2.WNCCNXM",
 					"android": "16.0",
 					"release": "2025-10-30",
 					"recovery": "houji-ota_full-OS3.0.1.2.WNCCNXM-user-16.0-9adfe291b0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.10.WNCCNXM": {
 					"os": "OS3.0.0.10.WNCCNXM",
 					"android": "16.0",
 					"release": "2025-10-23",
 					"recovery": "houji-ota_full-OS3.0.0.10.WNCCNXM-user-16.0-c38282ae07.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.6.WNCCNXM": {
 					"os": "OS3.0.0.6.WNCCNXM",
 					"android": "16.0",
 					"release": "2025-10-14",
 					"recovery": "houji-ota_full-OS3.0.0.6.WNCCNXM-user-16.0-5085965d9b.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.4.WNCCNXM": {
 					"os": "OS3.0.0.4.WNCCNXM",
 					"android": "16.0",
 					"release": "2025-09-30",
 					"recovery": "houji-ota_full-OS3.0.0.4.WNCCNXM-user-16.0-8a74e7e0f1.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS3.0.0.2.WNCCNXM": {
 					"os": "OS3.0.0.2.WNCCNXM",
 					"android": "16.0",
 					"release": "2025-09-26",
 					"recovery": "houji-ota_full-OS3.0.0.2.WNCCNXM-user-16.0-b1130b651c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.211.6.VNCCNXM": {
 					"os": "OS2.0.211.6.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-08-14",
 					"recovery": "houji-ota_full-OS2.0.211.6.VNCCNXM-user-15.0-d1e86d2fa0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.209.2.VNCCNXM": {
 					"os": "OS2.0.209.2.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-07-02",
 					"recovery": "houji-ota_full-OS2.0.209.2.VNCCNXM-user-15.0-0de75d8be8.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.207.5.VNCCNXM": {
 					"os": "OS2.0.207.5.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "houji-ota_full-OS2.0.207.5.VNCCNXM-user-15.0-0787aaa771.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.204.2.VNCCNXM": {
 					"os": "OS2.0.204.2.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-05-27",
 					"recovery": "houji-ota_full-OS2.0.204.2.VNCCNXM-user-15.0-eecdfc4c89.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.201.2.VNCCNXM": {
 					"os": "OS2.0.201.2.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "houji-ota_full-OS2.0.201.2.VNCCNXM-user-15.0-e700820391.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.17.VNCCNXM": {
 					"os": "OS2.0.200.17.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-05-09",
 					"recovery": "houji-ota_full-OS2.0.200.17.VNCCNXM-user-15.0-0b64c9176c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.200.13.VNCCNXM": {
 					"os": "OS2.0.200.13.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-04-17",
 					"recovery": "houji-ota_full-OS2.0.200.13.VNCCNXM-user-15.0-020d8aabc8.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.200.10.VNCCNXM": {
 					"os": "OS2.0.200.10.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-04-10",
 					"recovery": "houji-ota_full-OS2.0.200.10.VNCCNXM-user-15.0-089e93b8cc.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.200.4.VNCCNXM": {
 					"os": "OS2.0.200.4.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-03-24",
 					"recovery": "houji-ota_full-OS2.0.200.4.VNCCNXM-user-15.0-7d77f9c1e4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.105.5.VNCCNXM": {
 					"os": "OS2.0.105.5.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-03-10",
 					"recovery": "houji-ota_full-OS2.0.105.5.VNCCNXM-user-15.0-5d3b5f7bbd.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.105.3.VNCCNXM": {
 					"os": "OS2.0.105.3.VNCCNXM",
 					"android": "15.0",
 					"release": "2025-02-28",
 					"recovery": "houji-ota_full-OS2.0.105.3.VNCCNXM-user-15.0-8ac91b13cb.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.9.8.VNCCNXM": {
 					"os": "OS2.0.9.8.VNCCNXM",
 					"android": "15.0",
 					"release": "2024-12-20",
 					"recovery": "houji-ota_full-OS2.0.9.8.VNCCNXM-user-15.0-2b5c4b4117.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.9.6.VNCCNXM": {
 					"os": "OS2.0.9.6.VNCCNXM",
 					"android": "15.0",
 					"release": "2024-12-13",
 					"recovery": "houji-ota_full-OS2.0.9.6.VNCCNXM-user-15.0-e4bf3da741.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.7.11.VNCCNXM": {
 					"os": "OS2.0.7.11.VNCCNXM",
 					"android": "15.0",
 					"release": "2024-12-07",
 					"recovery": "houji-ota_full-OS2.0.7.11.VNCCNXM-user-15.0-b58160d831.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.7.4.VNCCNXM": {
 					"os": "OS2.0.7.4.VNCCNXM",
 					"android": "15.0",
 					"release": "2024-11-28",
 					"recovery": "houji-ota_full-OS2.0.7.4.VNCCNXM-user-15.0-9a5b7238a9.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				},
 				"OS2.0.7.3.VNCCNXM": {
 					"os": "OS2.0.7.3.VNCCNXM",
 					"android": "15.0",
 					"release": "2024-11-21",
 					"recovery": "houji-ota_full-OS2.0.7.3.VNCCNXM-user-15.0-a98ff6d4b4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				},
 				"OS2.0.6.2.VNCCNXM": {
 					"os": "OS2.0.6.2.VNCCNXM",
 					"android": "15.0",
 					"release": "2024-11-09",
 					"recovery": "houji-ota_full-OS2.0.6.2.VNCCNXM-user-15.0-bb45c3859c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				},
 				"OS2.0.2.2.VNCCNXM": {
 					"os": "OS2.0.2.2.VNCCNXM",
 					"android": "15.0",
 					"release": "2024-11-01",
 					"recovery": "houji-ota_full-OS2.0.2.2.VNCCNXM-user-15.0-18f321744c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -261,6 +289,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -282,7 +311,8 @@
 					"release": "2026-06-10",
 					"recovery": "houji-ota_full-OS3.0.303.0.WNCCNXM-user-16.0-c5d245a441.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.302.0.WNCCNXM": {
 					"os": "OS3.0.302.0.WNCCNXM",
@@ -290,7 +320,8 @@
 					"release": "2026-04-10",
 					"recovery": "houji-ota_full-OS3.0.302.0.WNCCNXM-user-16.0-bd355440dc.zip",
 					"fastboot": "houji_images_OS3.0.302.0.WNCCNXM_20260403.0000.00_16.0_cn_e980aa1348.tgz",
-					"ctelecom": "houji_images_OS3.0.302.0.WNCCNXM_20260403.0000.00_16.0_cn_chinatelecom_2cbd6043de.tgz"
+					"ctelecom": "houji_images_OS3.0.302.0.WNCCNXM_20260403.0000.00_16.0_cn_chinatelecom_2cbd6043de.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.7.0.WNCCNXM": {
 					"os": "OS3.0.7.0.WNCCNXM",
@@ -298,7 +329,8 @@
 					"release": "2026-02-04",
 					"recovery": "houji-ota_full-OS3.0.7.0.WNCCNXM-user-16.0-2a07e577ea.zip",
 					"fastboot": "houji_images_OS3.0.7.0.WNCCNXM_20260127.0000.00_16.0_cn_098178eaeb.tgz",
-					"ctelecom": "houji_images_OS3.0.7.0.WNCCNXM_20260127.0000.00_16.0_cn_chinatelecom_17d97b5386.tgz"
+					"ctelecom": "houji_images_OS3.0.7.0.WNCCNXM_20260127.0000.00_16.0_cn_chinatelecom_17d97b5386.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.6.0.WNCCNXM": {
 					"os": "OS3.0.6.0.WNCCNXM",
@@ -306,7 +338,8 @@
 					"release": "2026-01-21",
 					"recovery": "houji-ota_full-OS3.0.6.0.WNCCNXM-user-16.0-63c202b5f4.zip",
 					"fastboot": "houji_images_OS3.0.6.0.WNCCNXM_20260113.0000.00_16.0_cn_7b3a6eadf2.tgz",
-					"ctelecom": "houji_images_OS3.0.6.0.WNCCNXM_20260113.0000.00_16.0_cn_chinatelecom_a3b5a0b978.tgz"
+					"ctelecom": "houji_images_OS3.0.6.0.WNCCNXM_20260113.0000.00_16.0_cn_chinatelecom_a3b5a0b978.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.5.0.WNCCNXM": {
 					"os": "OS3.0.5.0.WNCCNXM",
@@ -314,7 +347,8 @@
 					"release": "2025-12-10",
 					"recovery": "houji-ota_full-OS3.0.5.0.WNCCNXM-user-16.0-306ce971bf.zip",
 					"fastboot": "houji_images_OS3.0.5.0.WNCCNXM_20251128.0000.00_16.0_cn_f9b854bc3c.tgz",
-					"ctelecom": "houji_images_OS3.0.5.0.WNCCNXM_20251128.0000.00_16.0_cn_chinatelecom_28447e4150.tgz"
+					"ctelecom": "houji_images_OS3.0.5.0.WNCCNXM_20251128.0000.00_16.0_cn_chinatelecom_28447e4150.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.4.0.WNCCNXM": {
 					"os": "OS3.0.4.0.WNCCNXM",
@@ -322,7 +356,8 @@
 					"release": "2025-11-13",
 					"recovery": "houji-ota_full-OS3.0.4.0.WNCCNXM-user-16.0-d196dc8e93.zip",
 					"fastboot": "houji_images_OS3.0.4.0.WNCCNXM_20251111.0000.00_16.0_cn_112bb82ddc.tgz",
-					"ctelecom": "houji_images_OS3.0.4.0.WNCCNXM_20251111.0000.00_16.0_cn_chinatelecom_4d45fa1f14.tgz"
+					"ctelecom": "houji_images_OS3.0.4.0.WNCCNXM_20251111.0000.00_16.0_cn_chinatelecom_4d45fa1f14.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.215.0.VNCCNXM": {
 					"os": "OS2.0.215.0.VNCCNXM",
@@ -330,7 +365,8 @@
 					"release": "2025-09-24",
 					"recovery": "houji-ota_full-OS2.0.215.0.VNCCNXM-user-15.0-aebb1dbf56.zip",
 					"fastboot": "houji_images_OS2.0.215.0.VNCCNXM_20250918.0000.00_15.0_cn_7a84e7e1ab.tgz",
-					"ctelecom": "houji_images_OS2.0.215.0.VNCCNXM_20250918.0000.00_15.0_cn_chinatelecom_3e992eabcf.tgz"
+					"ctelecom": "houji_images_OS2.0.215.0.VNCCNXM_20250918.0000.00_15.0_cn_chinatelecom_3e992eabcf.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.212.0.VNCCNXM": {
 					"os": "OS2.0.212.0.VNCCNXM",
@@ -338,7 +374,8 @@
 					"release": "2025-08-22",
 					"recovery": "houji-ota_full-OS2.0.212.0.VNCCNXM-user-15.0-814928f24d.zip",
 					"fastboot": "houji_images_OS2.0.212.0.VNCCNXM_20250813.0000.00_15.0_cn_79459c17b2.tgz",
-					"ctelecom": "houji_images_OS2.0.212.0.VNCCNXM_20250813.0000.00_15.0_cn_chinatelecom_4e12686b98.tgz"
+					"ctelecom": "houji_images_OS2.0.212.0.VNCCNXM_20250813.0000.00_15.0_cn_chinatelecom_4e12686b98.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.211.0.VNCCNXM": {
 					"os": "OS2.0.211.0.VNCCNXM",
@@ -346,7 +383,8 @@
 					"release": "2025-07-25",
 					"recovery": "houji-ota_full-OS2.0.211.0.VNCCNXM-user-15.0-e5645a2634.zip",
 					"fastboot": "houji_images_OS2.0.211.0.VNCCNXM_20250721.0000.00_15.0_cn_feee491486.tgz",
-					"ctelecom": "houji_images_OS2.0.211.0.VNCCNXM_20250721.0000.00_15.0_cn_chinatelecom_895147fe27.tgz"
+					"ctelecom": "houji_images_OS2.0.211.0.VNCCNXM_20250721.0000.00_15.0_cn_chinatelecom_895147fe27.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.210.0.VNCCNXM": {
 					"os": "OS2.0.210.0.VNCCNXM",
@@ -354,7 +392,8 @@
 					"release": "2025-07-16",
 					"recovery": "houji-ota_full-OS2.0.210.0.VNCCNXM-user-15.0-a5b908b58c.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.207.0.VNCCNXM": {
 					"os": "OS2.0.207.0.VNCCNXM",
@@ -362,7 +401,8 @@
 					"release": "2025-05-30",
 					"recovery": "houji-ota_full-OS2.0.207.0.VNCCNXM-user-15.0-92b96b1a36.zip",
 					"fastboot": "houji_images_OS2.0.207.0.VNCCNXM_20250530.0000.00_15.0_cn_51843b353b.tgz",
-					"ctelecom": "houji_images_OS2.0.207.0.VNCCNXM_20250530.0000.00_15.0_cn_chinatelecom_3046202a2a.tgz"
+					"ctelecom": "houji_images_OS2.0.207.0.VNCCNXM_20250530.0000.00_15.0_cn_chinatelecom_3046202a2a.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.206.0.VNCCNXM": {
 					"os": "OS2.0.206.0.VNCCNXM",
@@ -370,7 +410,8 @@
 					"release": "2025-05-28",
 					"recovery": "houji-ota_full-OS2.0.206.0.VNCCNXM-user-15.0-69533f1a71.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.112.0.VNCCNXM": {
 					"os": "OS2.0.112.0.VNCCNXM",
@@ -378,7 +419,8 @@
 					"release": "2025-05-14",
 					"recovery": "houji-ota_full-OS2.0.112.0.VNCCNXM-user-15.0-23f86e3f1a.zip",
 					"fastboot": "houji_images_OS2.0.112.0.VNCCNXM_20250507.0000.00_15.0_cn_fd92742aef.tgz",
-					"ctelecom": "houji_images_OS2.0.112.0.VNCCNXM_20250507.0000.00_15.0_cn_chinatelecom_f421619495.tgz"
+					"ctelecom": "houji_images_OS2.0.112.0.VNCCNXM_20250507.0000.00_15.0_cn_chinatelecom_f421619495.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.109.0.VNCCNXM": {
 					"os": "OS2.0.109.0.VNCCNXM",
@@ -386,7 +428,8 @@
 					"release": "2025-04-12",
 					"recovery": "houji-ota_full-OS2.0.109.0.VNCCNXM-user-15.0-6e3f6be5fc.zip",
 					"fastboot": "houji_images_OS2.0.109.0.VNCCNXM_20250402.0000.00_15.0_cn_4ccce7f2b6.tgz",
-					"ctelecom": "houji_images_OS2.0.109.0.VNCCNXM_20250402.0000.00_15.0_cn_chinatelecom_54f725233c.tgz"
+					"ctelecom": "houji_images_OS2.0.109.0.VNCCNXM_20250402.0000.00_15.0_cn_chinatelecom_54f725233c.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.107.0.VNCCNXM": {
 					"os": "OS2.0.107.0.VNCCNXM",
@@ -394,7 +437,8 @@
 					"release": "2025-03-18",
 					"recovery": "houji-ota_full-OS2.0.107.0.VNCCNXM-user-15.0-a8574b1da1.zip",
 					"fastboot": "houji_images_OS2.0.107.0.VNCCNXM_20250314.0000.00_15.0_cn_0013122b2b.tgz",
-					"ctelecom": "houji_images_OS2.0.107.0.VNCCNXM_20250314.0000.00_15.0_cn_chinatelecom_99778e0e07.tgz"
+					"ctelecom": "houji_images_OS2.0.107.0.VNCCNXM_20250314.0000.00_15.0_cn_chinatelecom_99778e0e07.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.105.0.VNCCNXM": {
 					"os": "OS2.0.105.0.VNCCNXM",
@@ -402,7 +446,8 @@
 					"release": "2025-02-26",
 					"recovery": "houji-ota_full-OS2.0.105.0.VNCCNXM-user-15.0-a839d3c584.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.104.0.VNCCNXM": {
 					"os": "OS2.0.104.0.VNCCNXM",
@@ -410,7 +455,8 @@
 					"release": "2025-02-08",
 					"recovery": "houji-ota_full-OS2.0.104.0.VNCCNXM-user-15.0-9300a7608a.zip",
 					"fastboot": "houji_images_OS2.0.104.0.VNCCNXM_20250205.0000.00_15.0_cn_eb32b10c8d.tgz",
-					"ctelecom": "houji_images_OS2.0.104.0.VNCCNXM_20250205.0000.00_15.0_cn_chinatelecom_6df5939344.tgz"
+					"ctelecom": "houji_images_OS2.0.104.0.VNCCNXM_20250205.0000.00_15.0_cn_chinatelecom_6df5939344.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.101.0.VNCCNXM": {
 					"os": "OS2.0.101.0.VNCCNXM",
@@ -418,7 +464,8 @@
 					"release": "2024-12-27",
 					"recovery": "houji-ota_full-OS2.0.101.0.VNCCNXM-user-15.0-602de5f1f8.zip",
 					"fastboot": "houji_images_OS2.0.101.0.VNCCNXM_20241224.0000.00_15.0_cn_fa2dd46573.tgz",
-					"ctelecom": "houji_images_OS2.0.101.0.VNCCNXM_20241224.0000.00_15.0_cn_chinatelecom_43790deb94.tgz"
+					"ctelecom": "houji_images_OS2.0.101.0.VNCCNXM_20241224.0000.00_15.0_cn_chinatelecom_43790deb94.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.9.0.VNCCNXM": {
 					"os": "OS2.0.9.0.VNCCNXM",
@@ -426,7 +473,8 @@
 					"release": "2024-12-11",
 					"recovery": "houji-ota_full-OS2.0.9.0.VNCCNXM-user-15.0-33ca92663c.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.7.0.VNCCNXM": {
 					"os": "OS2.0.7.0.VNCCNXM",
@@ -434,7 +482,8 @@
 					"release": "2024-11-28",
 					"recovery": "houji-ota_full-OS2.0.7.0.VNCCNXM-user-15.0-c831ec4f6f.zip",
 					"fastboot": "houji_images_OS2.0.7.0.VNCCNXM_20241120.0000.00_15.0_cn_2d9f161462.tgz",
-					"ctelecom": "houji_images_OS2.0.7.0.VNCCNXM_20241120.0000.00_15.0_cn_chinatelecom_28a8c76b4c.tgz"
+					"ctelecom": "houji_images_OS2.0.7.0.VNCCNXM_20241120.0000.00_15.0_cn_chinatelecom_28a8c76b4c.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS2.0.6.0.VNCCNXM": {
 					"os": "OS2.0.6.0.VNCCNXM",
@@ -442,7 +491,8 @@
 					"release": "2024-11-09",
 					"recovery": "houji-ota_full-OS2.0.6.0.VNCCNXM-user-15.0-82bd4b13f6.zip",
 					"fastboot": "houji_images_OS2.0.6.0.VNCCNXM_20241108.0000.00_15.0_cn_af6f1c716a.tgz",
-					"ctelecom": "houji_images_OS2.0.6.0.VNCCNXM_20241108.0000.00_15.0_cn_chinatelecom_1a94d58040.tgz"
+					"ctelecom": "houji_images_OS2.0.6.0.VNCCNXM_20241108.0000.00_15.0_cn_chinatelecom_1a94d58040.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.47.0.UNCCNXM": {
 					"os": "OS1.0.47.0.UNCCNXM",
@@ -450,7 +500,8 @@
 					"release": "2024-09-30",
 					"recovery": "miui_HOUJI_OS1.0.47.0.UNCCNXM_1570ac24a8_14.0.zip",
 					"fastboot": "houji_images_OS1.0.47.0.UNCCNXM_20240903.0000.00_14.0_cn_56fa24a9e3.tgz",
-					"ctelecom": "houji_images_OS1.0.47.0.UNCCNXM_20240903.0000.00_14.0_cn_chinatelecom_bb7316815e.tgz"
+					"ctelecom": "houji_images_OS1.0.47.0.UNCCNXM_20240903.0000.00_14.0_cn_chinatelecom_bb7316815e.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.45.0.UNCCNXM": {
 					"os": "OS1.0.45.0.UNCCNXM",
@@ -458,7 +509,8 @@
 					"release": "2024-08-09",
 					"recovery": "miui_HOUJI_OS1.0.45.0.UNCCNXM_8597412d79_14.0.zip",
 					"fastboot": "houji_images_OS1.0.45.0.UNCCNXM_20240801.0000.00_14.0_cn_8eaa10987b.tgz",
-					"ctelecom": "houji_images_OS1.0.45.0.UNCCNXM_20240801.0000.00_14.0_cn_chinatelecom_db9d1902ba.tgz"
+					"ctelecom": "houji_images_OS1.0.45.0.UNCCNXM_20240801.0000.00_14.0_cn_chinatelecom_db9d1902ba.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.42.0.UNCCNXM": {
 					"os": "OS1.0.42.0.UNCCNXM",
@@ -466,7 +518,8 @@
 					"release": "2024-06-28",
 					"recovery": "miui_HOUJI_OS1.0.42.0.UNCCNXM_71976c4264_14.0.zip",
 					"fastboot": "houji_images_OS1.0.42.0.UNCCNXM_20240625.0000.00_14.0_cn_81ea833481.tgz",
-					"ctelecom": "houji_images_OS1.0.42.0.UNCCNXM_20240625.0000.00_14.0_cn_chinatelecom_506019d2f0.tgz"
+					"ctelecom": "houji_images_OS1.0.42.0.UNCCNXM_20240625.0000.00_14.0_cn_chinatelecom_506019d2f0.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.39.0.UNCCNXM": {
 					"os": "OS1.0.39.0.UNCCNXM",
@@ -474,7 +527,8 @@
 					"release": "2024-06-07",
 					"recovery": "miui_HOUJI_OS1.0.39.0.UNCCNXM_39723f18b0_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.38.0.UNCCNXM": {
 					"os": "OS1.0.38.0.UNCCNXM",
@@ -482,7 +536,8 @@
 					"release": "2024-05-11",
 					"recovery": "miui_HOUJI_OS1.0.38.0.UNCCNXM_89a9ce40ec_14.0.zip",
 					"fastboot": "houji_images_OS1.0.38.0.UNCCNXM_20240428.0000.00_14.0_cn_ee66541386.tgz",
-					"ctelecom": "houji_images_OS1.0.38.0.UNCCNXM_20240428.0000.00_14.0_cn_chinatelecom_919e3367b5.tgz"
+					"ctelecom": "houji_images_OS1.0.38.0.UNCCNXM_20240428.0000.00_14.0_cn_chinatelecom_919e3367b5.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.36.0.UNCCNXM": {
 					"os": "OS1.0.36.0.UNCCNXM",
@@ -490,7 +545,8 @@
 					"release": "2024-04-10",
 					"recovery": "miui_HOUJI_OS1.0.36.0.UNCCNXM_54ab2de231_14.0.zip",
 					"fastboot": "houji_images_OS1.0.36.0.UNCCNXM_20240328.0000.00_14.0_cn_27ea77fa11.tgz",
-					"ctelecom": "houji_images_OS1.0.36.0.UNCCNXM_20240328.0000.00_14.0_cn_chinatelecom_715cc6a2ff.tgz"
+					"ctelecom": "houji_images_OS1.0.36.0.UNCCNXM_20240328.0000.00_14.0_cn_chinatelecom_715cc6a2ff.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.35.0.UNCCNXM": {
 					"os": "OS1.0.35.0.UNCCNXM",
@@ -498,7 +554,8 @@
 					"release": "2024-03-26",
 					"recovery": "miui_HOUJI_OS1.0.35.0.UNCCNXM_6868dffa5c_14.0.zip",
 					"fastboot": "houji_images_OS1.0.35.0.UNCCNXM_20240322.0000.00_14.0_cn_83b6b4b714.tgz",
-					"ctelecom": "houji_images_OS1.0.35.0.UNCCNXM_20240322.0000.00_14.0_cn_chinatelecom_d2078e0e8f.tgz"
+					"ctelecom": "houji_images_OS1.0.35.0.UNCCNXM_20240322.0000.00_14.0_cn_chinatelecom_d2078e0e8f.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.32.0.UNCCNXM": {
 					"os": "OS1.0.32.0.UNCCNXM",
@@ -506,7 +563,8 @@
 					"release": "2024-03-05",
 					"recovery": "miui_HOUJI_OS1.0.32.0.UNCCNXM_4fd0e15877_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.31.0.UNCCNXM": {
 					"os": "OS1.0.31.0.UNCCNXM",
@@ -514,7 +572,8 @@
 					"release": "2024-01-24",
 					"recovery": "miui_HOUJI_OS1.0.31.0.UNCCNXM_5bfc75981b_14.0.zip",
 					"fastboot": "houji_images_OS1.0.31.0.UNCCNXM_20240119.0000.00_14.0_cn_2ea437310a.tgz",
-					"ctelecom": "houji_images_OS1.0.31.0.UNCCNXM_20240119.0000.00_14.0_cn_chinatelecom_28575a57b0.tgz"
+					"ctelecom": "houji_images_OS1.0.31.0.UNCCNXM_20240119.0000.00_14.0_cn_chinatelecom_28575a57b0.tgz",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.28.0.UNCCNXM": {
 					"os": "OS1.0.28.0.UNCCNXM",
@@ -522,7 +581,8 @@
 					"release": "2023-12-28",
 					"recovery": "miui_HOUJI_OS1.0.28.0.UNCCNXM_7da71e0992_14.0.zip",
 					"fastboot": "houji_images_OS1.0.28.0.UNCCNXM_20231221.0000.00_14.0_cn_7304434dfe.tgz",
-					"ctelecom": "houji_images_OS1.0.28.0.UNCCNXM_20231221.0000.00_14.0_cn_chinatelecom_bce5b020b3.tgz"
+					"ctelecom": "houji_images_OS1.0.28.0.UNCCNXM_20231221.0000.00_14.0_cn_chinatelecom_bce5b020b3.tgz",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.26.0.UNCCNXM": {
 					"os": "OS1.0.26.0.UNCCNXM",
@@ -530,7 +590,8 @@
 					"release": "2023-12-05",
 					"recovery": "miui_HOUJI_OS1.0.26.0.UNCCNXM_63c66c445c_14.0.zip",
 					"fastboot": "houji_images_OS1.0.26.0.UNCCNXM_20231129.0000.00_14.0_cn_5aa85646c7.tgz",
-					"ctelecom": "houji_images_OS1.0.26.0.UNCCNXM_20231129.0000.00_14.0_cn_chinatelecom_6e5db33a40.tgz"
+					"ctelecom": "houji_images_OS1.0.26.0.UNCCNXM_20231129.0000.00_14.0_cn_chinatelecom_6e5db33a40.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.25.0.UNCCNXM": {
 					"os": "OS1.0.25.0.UNCCNXM",
@@ -538,7 +599,8 @@
 					"release": "2023-11-28",
 					"recovery": "miui_HOUJI_OS1.0.25.0.UNCCNXM_f46161631e_14.0.zip",
 					"fastboot": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_505769914d.tgz",
-					"ctelecom": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_chinatelecom_32cf23459b.tgz"
+					"ctelecom": "houji_images_OS1.0.25.0.UNCCNXM_20231121.0000.00_14.0_cn_chinatelecom_32cf23459b.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.24.0.UNCCNXM": {
 					"os": "OS1.0.24.0.UNCCNXM",
@@ -546,7 +608,8 @@
 					"release": "2023-11-21",
 					"recovery": "miui_HOUJI_OS1.0.24.0.UNCCNXM_491d1bbdd1_14.0.zip",
 					"fastboot": "houji_images_OS1.0.24.0.UNCCNXM_20231119.0000.00_14.0_cn_6026623c0c.tgz",
-					"ctelecom": "houji_images_OS1.0.24.0.UNCCNXM_20231119.0000.00_14.0_cn_chinatelecom_a60ff07b8a.tgz"
+					"ctelecom": "houji_images_OS1.0.24.0.UNCCNXM_20231119.0000.00_14.0_cn_chinatelecom_a60ff07b8a.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.20.0.UNCCNXM": {
 					"os": "OS1.0.20.0.UNCCNXM",
@@ -554,7 +617,8 @@
 					"release": "2023-11-14",
 					"recovery": "miui_HOUJI_OS1.0.20.0.UNCCNXM_c1cd2893e8_14.0.zip",
 					"fastboot": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_011f071c0c.tgz",
-					"ctelecom": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_chinatelecom_edabb5a52a.tgz"
+					"ctelecom": "houji_images_OS1.0.20.0.UNCCNXM_20231112.0000.00_14.0_cn_chinatelecom_edabb5a52a.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.19.0.UNCCNXM": {
 					"os": "OS1.0.19.0.UNCCNXM",
@@ -562,7 +626,8 @@
 					"release": "2023-11-11",
 					"recovery": "miui_HOUJI_OS1.0.19.0.UNCCNXM_7abc50d61d_14.0.zip",
 					"fastboot": "houji_images_OS1.0.19.0.UNCCNXM_20231108.0000.00_14.0_cn_4bb0ad3595.tgz",
-					"ctelecom": "houji_images_OS1.0.19.0.UNCCNXM_20231108.0000.00_14.0_cn_chinatelecom_3d711663c0.tgz"
+					"ctelecom": "houji_images_OS1.0.19.0.UNCCNXM_20231108.0000.00_14.0_cn_chinatelecom_3d711663c0.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.16.0.UNCCNXM": {
 					"os": "OS1.0.16.0.UNCCNXM",
@@ -570,7 +635,8 @@
 					"release": "2023-11-05",
 					"recovery": "miui_HOUJI_OS1.0.16.0.UNCCNXM_5740a43ba8_14.0.zip",
 					"fastboot": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_eb34b99573.tgz",
-					"ctelecom": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_chinatelecom_390762285b.tgz"
+					"ctelecom": "houji_images_OS1.0.16.0.UNCCNXM_20231104.0000.00_14.0_cn_chinatelecom_390762285b.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.14.0.UNCCNXM": {
 					"os": "OS1.0.14.0.UNCCNXM",
@@ -578,7 +644,8 @@
 					"release": "2023-11-02",
 					"recovery": "miui_HOUJI_OS1.0.14.0.UNCCNXM_8cdf08a0dc_14.0.zip",
 					"fastboot": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_351331f7e8.tgz",
-					"ctelecom": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_chinatelecom_c79025dc55.tgz"
+					"ctelecom": "houji_images_OS1.0.14.0.UNCCNXM_20231031.0000.00_14.0_cn_chinatelecom_c79025dc55.tgz",
+					"aspatch": "2023-09-05"
 				},
 				"OS1.0.11.0.UNCCNXM": {
 					"os": "OS1.0.11.0.UNCCNXM",
@@ -586,7 +653,8 @@
 					"release": "2023-10-31",
 					"recovery": "miui_HOUJI_OS1.0.11.0.UNCCNXM_8541c46b8d_14.0.zip",
 					"fastboot": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_56450e8e69.tgz",
-					"ctelecom": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_chinatelecom_68ae90d90f.tgz"
+					"ctelecom": "houji_images_OS1.0.11.0.UNCCNXM_20231029.0000.00_14.0_cn_chinatelecom_68ae90d90f.tgz",
+					"aspatch": "2023-09-05"
 				},
 				"OS1.0.9.0.UNCCNXM": {
 					"os": "OS1.0.9.0.UNCCNXM",
@@ -594,7 +662,8 @@
 					"release": "2023-10-26",
 					"recovery": "miui_HOUJI_OS1.0.9.0.UNCCNXM_e5644d702d_14.0.zip",
 					"fastboot": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_f1003ae985.tgz",
-					"ctelecom": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_chinatelecom_3a7f003707.tgz"
+					"ctelecom": "houji_images_OS1.0.9.0.UNCCNXM_20231025.0000.00_14.0_cn_chinatelecom_3a7f003707.tgz",
+					"aspatch": "2023-09-05"
 				},
 				"OS1.0.6.0.UNCCNXM": {
 					"os": "OS1.0.6.0.UNCCNXM",
@@ -602,7 +671,8 @@
 					"release": "2023-10-26",
 					"recovery": "miui_HOUJI_OS1.0.6.0.UNCCNXM_3461cbcbc7_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2023-09-05"
 				}
 			}
 		},
@@ -625,6 +695,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"originrec",
@@ -648,7 +719,8 @@
 					"recovery": "miui_HOUJIPREDPP_OS1.0.240808.1.VNCCNXMPRE-DPP_90a0aa1332_15.0.zip",
 					"fastboot": "houji_pre_dpp_images_OS1.0.240808.1.VNCCNXMPRE-DPP_20240808.0000.00_15.0_cn_b756c137ee.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPP_OS1.0.240808.1.VNCCNXMPRE-DPP_90a0aa1332_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=k35TN2WMVom3hRqBmssIvel++e4=",
-					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_OS1.0.240808.1.VNCCNXMPRE-DPP_20240808.0000.00_15.0_cn_b756c137ee.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=z4Zyzqf81+khh6CtP8KRMW6wp5c="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_OS1.0.240808.1.VNCCNXMPRE-DPP_20240808.0000.00_15.0_cn_b756c137ee.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=z4Zyzqf81+khh6CtP8KRMW6wp5c=",
+					"aspatch": "2024-07-05"
 				},
 				"OS1.0.240705.2.VNCCNXM.PRE-DPP": {
 					"os": "OS1.0.240705.2.VNCCNXM.PRE-DPP",
@@ -657,7 +729,8 @@
 					"recovery": "miui_HOUJIPREDPP_OS1.0.240705.2.VNCCNXM.PRE-DPP_403935c335_15.0.zip",
 					"fastboot": "houji_pre_dpp_images_OS1.0.240705.2.VNCCNXM.PRE-DPP_20240705.0000.00_15.0_cn_ef77bdf05b.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPP_OS1.0.240705.2.VNCCNXM.PRE-DPP_403935c335_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=srBgKiXourL1A7d1QFqGKhmSzTc=",
-					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_OS1.0.240705.2.VNCCNXM.PRE-DPP_20240705.0000.00_15.0_cn_ef77bdf05b.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=yclkKUF7vUEMciKiGNxxj1kG/Js="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_images_OS1.0.240705.2.VNCCNXM.PRE-DPP_20240705.0000.00_15.0_cn_ef77bdf05b.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=yclkKUF7vUEMciKiGNxxj1kG/Js=",
+					"aspatch": "2024-06-05"
 				},
 				"OS1.0.240520.1.VNCCNXM.PRE-DPP": {
 					"os": "OS1.0.240520.1.VNCCNXM.PRE-DPP",
@@ -666,7 +739,8 @@
 					"recovery": "miui_HOUJIPREDPP_OS1.0.240520.1.VNCCNXM.PRE-DPP_f67f17f6e5_15.0.zip",
 					"fastboot": "",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPP_OS1.0.240520.1.VNCCNXM.PRE-DPP_f67f17f6e5_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=di60Po1O68yfc/6IdHYFUtPM7Gk=",
-					"originfb": ""
+					"originfb": "",
+					"aspatch": "2024-04-05"
 				},
 				"24.5.8": {
 					"os": "24.5.8",
@@ -698,6 +772,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"originrec",
@@ -718,7 +793,8 @@
 					"recovery": "miui_HOUJIPREDPPGlobal_OS1.0.240705.2.VNCMIXM.PRE-DPP_90397443d7_15.0.zip",
 					"fastboot": "houji_pre_dpp_global_images_OS1.0.240705.2.VNCMIXM.PRE-DPP_20240705.0000.00_15.0_global_57d7a02fd5.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPPGlobal_OS1.0.240705.2.VNCMIXM.PRE-DPP_90397443d7_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=ooS0GjEO292/Y3QCLIADGD4Y7i0=",
-					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_global_images_OS1.0.240705.2.VNCMIXM.PRE-DPP_20240705.0000.00_15.0_global_57d7a02fd5.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=/rOc/rXUy1utBwJ62iVDcd61eUc="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/houji_pre_dpp_global_images_OS1.0.240705.2.VNCMIXM.PRE-DPP_20240705.0000.00_15.0_global_57d7a02fd5.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=/rOc/rXUy1utBwJ62iVDcd61eUc=",
+					"aspatch": "2024-06-05"
 				},
 				"OS1.0.240516.1.VNCMIXM.PRE-DPP": {
 					"os": "OS1.0.240516.1.VNCMIXM.PRE-DPP",
@@ -727,7 +803,8 @@
 					"recovery": "miui_HOUJIPREDPPGlobal_OS1.0.240516.1.VNCMIXM.PRE-DPP_a552800433_15.0.zip",
 					"fastboot": "",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_HOUJIPREDPPGlobal_OS1.0.240516.1.VNCMIXM.PRE-DPP_a552800433_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=MbUU5ci4w+keWAv3+a2gqXTllW8=",
-					"originfb": ""
+					"originfb": "",
+					"aspatch": "2024-04-05"
 				},
 				"24.5.10": {
 					"os": "24.5.10",
@@ -758,6 +835,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -777,28 +855,32 @@
 					"android": "15.0",
 					"release": "2024-10-17",
 					"recovery": "houji-ota_full-OS1.1.6.0.VNCCNXM.BETA-user-15.0-b909917ae6.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.5.0.VNCCNXM.BETA": {
 					"os": "OS1.1.5.0.VNCCNXM.BETA",
 					"android": "15.0",
 					"release": "2024-10-11",
 					"recovery": "houji-ota_full-OS1.1.5.0.VNCCNXM.BETA-user-15.0-870419b89d.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.4.0.VNCCNXM.BETA": {
 					"os": "OS1.1.4.0.VNCCNXM.BETA",
 					"android": "15.0",
 					"release": "2024-09-29",
 					"recovery": "houji-ota_full-OS1.1.4.0.VNCCNXM.BETA-user-15.0-fd9b15f6cd.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.3.0.VNCCNXM.BETA": {
 					"os": "OS1.1.3.0.VNCCNXM.BETA",
 					"android": "15.0",
 					"release": "2024-09-23",
 					"recovery": "houji-ota_full-OS1.1.3.0.VNCCNXM.BETA-user-15.0-31653a8aee.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				}
 			}
 		},
@@ -820,6 +902,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -839,336 +922,384 @@
 					"android": "14.0",
 					"release": "2024-08-02",
 					"recovery": "miui_HOUJI_OS1.0.24.7.28.DEV_1a66fc796c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.27.DEV": {
 					"os": "OS1.0.24.7.27.DEV",
 					"android": "14.0",
 					"release": "2024-07-27",
 					"recovery": "miui_HOUJI_OS1.0.24.7.27.DEV_a70339f232_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.26.DEV": {
 					"os": "OS1.0.24.7.26.DEV",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_HOUJI_OS1.0.24.7.26.DEV_825dea696d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.25.DEV": {
 					"os": "OS1.0.24.7.25.DEV",
 					"android": "14.0",
 					"release": "2024-07-25",
 					"recovery": "miui_HOUJI_OS1.0.24.7.25.DEV_92d0808ad6_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.24.DEV": {
 					"os": "OS1.0.24.7.24.DEV",
 					"android": "14.0",
 					"release": "2024-07-24",
 					"recovery": "miui_HOUJI_OS1.0.24.7.24.DEV_5fe9d18978_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.20.DEV": {
 					"os": "OS1.0.24.7.20.DEV",
 					"android": "14.0",
 					"release": "2024-07-21",
 					"recovery": "miui_HOUJI_OS1.0.24.7.20.DEV_ae399ca4e7_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.17.DEV": {
 					"os": "OS1.0.24.7.17.DEV",
 					"android": "14.0",
 					"release": "2024-07-19",
 					"recovery": "miui_HOUJI_OS1.0.24.7.17.DEV_ef697c97e7_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.12.DEV": {
 					"os": "OS1.0.24.7.12.DEV",
 					"android": "14.0",
 					"release": "2024-07-13",
 					"recovery": "miui_HOUJI_OS1.0.24.7.12.DEV_4a11fe5c9b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.7.DEV": {
 					"os": "OS1.0.24.7.7.DEV",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_HOUJI_OS1.0.24.7.7.DEV_58e129a71d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.1.DEV": {
 					"os": "OS1.0.24.7.1.DEV",
 					"android": "14.0",
 					"release": "2024-07-05",
 					"recovery": "miui_HOUJI_OS1.0.24.7.1.DEV_1090385d3b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.6.29.DEV": {
 					"os": "OS1.0.24.6.29.DEV",
 					"android": "14.0",
 					"release": "2024-06-29",
 					"recovery": "miui_HOUJI_OS1.0.24.6.29.DEV_d0e7a173e4_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.6.24.DEV": {
 					"os": "OS1.0.24.6.24.DEV",
 					"android": "14.0",
 					"release": "2024-06-28",
 					"recovery": "miui_HOUJI_OS1.0.24.6.24.DEV_61a150647c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.6.22.DEV": {
 					"os": "OS1.0.24.6.22.DEV",
 					"android": "14.0",
 					"release": "2024-06-24",
 					"recovery": "miui_HOUJI_OS1.0.24.6.22.DEV_0919c2f6bf_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.6.17.DEV": {
 					"os": "OS1.0.24.6.17.DEV",
 					"android": "14.0",
 					"release": "2024-06-21",
 					"recovery": "miui_HOUJI_OS1.0.24.6.17.DEV_ba5d14f90b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.6.11.DEV": {
 					"os": "OS1.0.24.6.11.DEV",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_HOUJI_OS1.0.24.6.11.DEV_94a061461a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.6.3.DEV": {
 					"os": "OS1.0.24.6.3.DEV",
 					"android": "14.0",
 					"release": "2024-06-07",
 					"recovery": "miui_HOUJI_OS1.0.24.6.3.DEV_e73985db18_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.5.27.DEV": {
 					"os": "OS1.0.24.5.27.DEV",
 					"android": "14.0",
 					"release": "2024-05-31",
 					"recovery": "miui_HOUJI_OS1.0.24.5.27.DEV_88f2ada71b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.24.5.20.DEV": {
 					"os": "OS1.0.24.5.20.DEV",
 					"android": "14.0",
 					"release": "2024-05-24",
 					"recovery": "miui_HOUJI_OS1.0.24.5.20.DEV_e079baa4f8_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.24.5.13.DEV": {
 					"os": "OS1.0.24.5.13.DEV",
 					"android": "14.0",
 					"release": "2024-05-17",
 					"recovery": "miui_HOUJI_OS1.0.24.5.13.DEV_d7ecc7f0d3_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.24.5.7.DEV": {
 					"os": "OS1.0.24.5.7.DEV",
 					"android": "14.0",
 					"release": "2024-05-10",
 					"recovery": "miui_HOUJI_OS1.0.24.5.7.DEV_a4ae2c001c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.24.4.22.DEV": {
 					"os": "OS1.0.24.4.22.DEV",
 					"android": "14.0",
 					"release": "2024-04-26",
 					"recovery": "miui_HOUJI_OS1.0.24.4.22.DEV_d623167a4b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.24.4.16.DEV": {
 					"os": "OS1.0.24.4.16.DEV",
 					"android": "14.0",
 					"release": "2024-04-19",
 					"recovery": "miui_HOUJI_OS1.0.24.4.16.DEV_16a4dfb53a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.24.4.15.DEV": {
 					"os": "OS1.0.24.4.15.DEV",
 					"android": "14.0",
 					"release": "2024-04-16",
 					"recovery": "miui_HOUJI_OS1.0.24.4.15.DEV_4cad0bf2da_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.24.4.8.DEV": {
 					"os": "OS1.0.24.4.8.DEV",
 					"android": "14.0",
 					"release": "2024-04-12",
 					"recovery": "miui_HOUJI_OS1.0.24.4.8.DEV_047536bb47_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.24.3.25.DEV": {
 					"os": "OS1.0.24.3.25.DEV",
 					"android": "14.0",
 					"release": "2024-03-29",
 					"recovery": "miui_HOUJI_OS1.0.24.3.25.DEV_11da5c70d0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.24.3.18.DEV": {
 					"os": "OS1.0.24.3.18.DEV",
 					"android": "14.0",
 					"release": "2024-03-22",
 					"recovery": "miui_HOUJI_OS1.0.24.3.18.DEV_fa4d3451e6_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.24.3.11.DEV": {
 					"os": "OS1.0.24.3.11.DEV",
 					"android": "14.0",
 					"release": "2024-03-15",
 					"recovery": "miui_HOUJI_OS1.0.24.3.11.DEV_1ed323f6c0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.24.3.4.DEV": {
 					"os": "OS1.0.24.3.4.DEV",
 					"android": "14.0",
 					"release": "2024-03-08",
 					"recovery": "miui_HOUJI_OS1.0.24.3.4.DEV_0d6531e083_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.24.2.26.DEV": {
 					"os": "OS1.0.24.2.26.DEV",
 					"android": "14.0",
 					"release": "2024-03-01",
 					"recovery": "miui_HOUJI_OS1.0.24.2.26.DEV_3f099c2382_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.24.2.19.DEV": {
 					"os": "OS1.0.24.2.19.DEV",
 					"android": "14.0",
 					"release": "2024-02-23",
 					"recovery": "miui_HOUJI_OS1.0.24.2.19.DEV_8c3aa0b487_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.24.1.29.DEV": {
 					"os": "OS1.0.24.1.29.DEV",
 					"android": "14.0",
 					"release": "2024-02-02",
 					"recovery": "miui_HOUJI_OS1.0.24.1.29.DEV_43f60bb149_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.24.1.22.DEV": {
 					"os": "OS1.0.24.1.22.DEV",
 					"android": "14.0",
 					"release": "2024-01-26",
 					"recovery": "miui_HOUJI_OS1.0.24.1.22.DEV_e87841d100_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.24.1.16.DEV": {
 					"os": "OS1.0.24.1.16.DEV",
 					"android": "14.0",
 					"release": "2024-01-19",
 					"recovery": "miui_HOUJI_OS1.0.24.1.16.DEV_e6a3d77f49_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.24.1.11.DEV": {
 					"os": "OS1.0.24.1.11.DEV",
 					"android": "14.0",
 					"release": "2024-01-12",
 					"recovery": "miui_HOUJI_OS1.0.24.1.11.DEV_3c18654062_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.24.1.3.DEV": {
 					"os": "OS1.0.24.1.3.DEV",
 					"android": "14.0",
 					"release": "2024-01-05",
 					"recovery": "miui_HOUJI_OS1.0.24.1.3.DEV_2db3744471_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.23.12.26.DEV": {
 					"os": "OS1.0.23.12.26.DEV",
 					"android": "14.0",
 					"release": "2023-12-29",
 					"recovery": "miui_HOUJI_OS1.0.23.12.26.DEV_460c816414_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.23.12.19.DEV": {
 					"os": "OS1.0.23.12.19.DEV",
 					"android": "14.0",
 					"release": "2023-12-22",
 					"recovery": "miui_HOUJI_OS1.0.23.12.19.DEV_e445aabccb_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.23.12.13.DEV": {
 					"os": "OS1.0.23.12.13.DEV",
 					"android": "14.0",
 					"release": "2023-12-15",
 					"recovery": "miui_HOUJI_OS1.0.23.12.13.DEV_586d99bdd3_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.12.9.DEV": {
 					"os": "OS1.0.23.12.9.DEV",
 					"android": "14.0",
 					"release": "2023-12-10",
 					"recovery": "miui_HOUJI_OS1.0.23.12.9.DEV_70cf9970e7_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.12.5.DEV": {
 					"os": "OS1.0.23.12.5.DEV",
 					"android": "14.0",
 					"release": "2023-12-08",
 					"recovery": "miui_HOUJI_OS1.0.23.12.5.DEV_5c74241c01_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.30.DEV": {
 					"os": "OS1.0.23.11.30.DEV",
 					"android": "14.0",
 					"release": "2023-12-01",
 					"recovery": "miui_HOUJI_OS1.0.23.11.30.DEV_0946571126_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.24.DEV": {
 					"os": "OS1.0.23.11.24.DEV",
 					"android": "14.0",
 					"release": "2023-11-26",
 					"recovery": "miui_HOUJI_OS1.0.23.11.24.DEV_9e9a3eda3c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.21.DEV": {
 					"os": "OS1.0.23.11.21.DEV",
 					"android": "14.0",
 					"release": "2023-11-25",
 					"recovery": "miui_HOUJI_OS1.0.23.11.21.DEV_4f98371eb4_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.17.DEV": {
 					"os": "OS1.0.23.11.17.DEV",
 					"android": "14.0",
 					"release": "2023-11-21",
 					"recovery": "miui_HOUJI_OS1.0.23.11.17.DEV_29392fdef6_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.13.DEV": {
 					"os": "OS1.0.23.11.13.DEV",
 					"android": "14.0",
 					"release": "2023-11-14",
 					"recovery": "miui_HOUJI_OS1.0.23.11.13.DEV_d60d299f07_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.8.DEV": {
 					"os": "OS1.0.23.11.8.DEV",
 					"android": "14.0",
 					"release": "2023-11-08",
 					"recovery": "miui_HOUJI_OS1.0.23.11.8.DEV_ae3ae896e0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.4.DEV": {
 					"os": "OS1.0.23.11.4.DEV",
 					"android": "14.0",
 					"release": "2023-11-06",
 					"recovery": "miui_HOUJI_OS1.0.23.11.4.DEV_913d4e0f5d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-09-05"
 				},
 				"OS1.0.23.10.25.DEV": {
 					"os": "OS1.0.23.10.25.DEV",
 					"android": "14.0",
 					"release": "2023-10-31",
 					"recovery": "miui_HOUJI_OS1.0.23.10.25.DEV_e8d956b7dd_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-09-05"
 				}
 			}
 		},
@@ -1190,6 +1321,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -1211,7 +1343,8 @@
 					"release": "2025-07-04",
 					"recovery": "houji_demo-ota_full-OS2.0.208.0.VNCCNDM-user-15.0-6df2eadbda.zip",
 					"fastboot": "houji_demo_images_OS2.0.208.0.VNCCNDM_20250626.0000.00_15.0_cn_c20708a98e.tgz",
-					"ctelecom": "houji_demo_images_OS2.0.208.0.VNCCNDM_20250626.0000.00_15.0_cn_chinatelecom_47e3623b8b.tgz"
+					"ctelecom": "houji_demo_images_OS2.0.208.0.VNCCNDM_20250626.0000.00_15.0_cn_chinatelecom_47e3623b8b.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VNCCNDM": {
 					"os": "OS2.0.3.0.VNCCNDM",
@@ -1219,7 +1352,8 @@
 					"release": "2025-03-31",
 					"recovery": "houji_demo-ota_full-OS2.0.3.0.VNCCNDM-user-15.0-6b8c6a5324.zip",
 					"fastboot": "houji_demo_images_OS2.0.3.0.VNCCNDM_20250327.0000.00_15.0_cn_8b35086b7f.tgz",
-					"ctelecom": "houji_demo_images_OS2.0.3.0.VNCCNDM_20250327.0000.00_15.0_cn_chinatelecom_9741af97fd.tgz"
+					"ctelecom": "houji_demo_images_OS2.0.3.0.VNCCNDM_20250327.0000.00_15.0_cn_chinatelecom_9741af97fd.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.1.0.VNCCNDM": {
 					"os": "OS2.0.1.0.VNCCNDM",
@@ -1227,7 +1361,8 @@
 					"release": "2025-01-15",
 					"recovery": "houji_demo-ota_full-OS2.0.1.0.VNCCNDM-user-15.0-79247a351f.zip",
 					"fastboot": "houji_demo_images_OS2.0.1.0.VNCCNDM_20241227.0000.00_15.0_cn_af48b285cb.tgz",
-					"ctelecom": "houji_demo_images_OS2.0.1.0.VNCCNDM_20241227.0000.00_15.0_cn_chinatelecom_d882fc64b4.tgz"
+					"ctelecom": "houji_demo_images_OS2.0.1.0.VNCCNDM_20241227.0000.00_15.0_cn_chinatelecom_d882fc64b4.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.12.0.UNCCNDM": {
 					"os": "OS1.0.12.0.UNCCNDM",
@@ -1235,7 +1370,8 @@
 					"release": "2024-09-25",
 					"recovery": "miui_HOUJIDEMO_OS1.0.12.0.UNCCNDM_0bd4b79054_14.0.zip",
 					"fastboot": "houji_demo_images_OS1.0.12.0.UNCCNDM_20240906.0000.00_14.0_cn_5665b6c9ac.tgz",
-					"ctelecom": "houji_demo_images_OS1.0.12.0.UNCCNDM_20240906.0000.00_14.0_cn_chinatelecom_502f276e64.tgz"
+					"ctelecom": "houji_demo_images_OS1.0.12.0.UNCCNDM_20240906.0000.00_14.0_cn_chinatelecom_502f276e64.tgz",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.10.0.UNCCNDM": {
 					"os": "OS1.0.10.0.UNCCNDM",
@@ -1243,7 +1379,8 @@
 					"release": "2024-05-27",
 					"recovery": "miui_HOUJIDEMO_OS1.0.10.0.UNCCNDM_c4bd7b17ab_14.0.zip",
 					"fastboot": "houji_demo_images_OS1.0.10.0.UNCCNDM_20240517.0000.00_14.0_cn_b8def18c60.tgz",
-					"ctelecom": "houji_demo_images_OS1.0.10.0.UNCCNDM_20240517.0000.00_14.0_cn_chinatelecom_89bc210189.tgz"
+					"ctelecom": "houji_demo_images_OS1.0.10.0.UNCCNDM_20240517.0000.00_14.0_cn_chinatelecom_89bc210189.tgz",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.5.0.UNCCNDM": {
 					"os": "OS1.0.5.0.UNCCNDM",
@@ -1251,7 +1388,8 @@
 					"release": "2023-11-01",
 					"recovery": "miui_HOUJIDEMO_OS1.0.5.0.UNCCNDM_20b7f5532c_14.0.zip",
 					"fastboot": "houji_demo_images_OS1.0.5.0.UNCCNDM_20231101.0000.00_14.0_cn_5432e2ba63.tgz",
-					"ctelecom": "houji_demo_images_OS1.0.5.0.UNCCNDM_20231101.0000.00_14.0_cn_chinatelecom_385c291e85.tgz"
+					"ctelecom": "houji_demo_images_OS1.0.5.0.UNCCNDM_20231101.0000.00_14.0_cn_chinatelecom_385c291e85.tgz",
+					"aspatch": "2023-09-05"
 				},
 				"OS1.0.3.0.UNCCNDM": {
 					"os": "OS1.0.3.0.UNCCNDM",
@@ -1259,7 +1397,8 @@
 					"release": "2023-10-30",
 					"recovery": "miui_HOUJIDEMO_OS1.0.3.0.UNCCNDM_685fca3573_14.0.zip",
 					"fastboot": "houji_demo_images_OS1.0.3.0.UNCCNDM_20231030.0000.00_14.0_cn_a9a11f9ed7.tgz",
-					"ctelecom": "houji_demo_images_OS1.0.3.0.UNCCNDM_20231030.0000.00_14.0_cn_chinatelecom_8a3901317e.tgz"
+					"ctelecom": "houji_demo_images_OS1.0.3.0.UNCCNDM_20231030.0000.00_14.0_cn_chinatelecom_8a3901317e.tgz",
+					"aspatch": "2023-09-05"
 				},
 				"OS1.0.2.0.UNCCNDM": {
 					"os": "OS1.0.2.0.UNCCNDM",
@@ -1289,6 +1428,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -1310,7 +1450,8 @@
 					"release": "2025-01-23",
 					"recovery": "houji_ep_stdee-ota_full-OS2.0.7.241219.VNCCNXM.EP.STDEE-user-15.0-28270f6120.zip",
 					"fastboot": "houji_ep_stdee_images_OS2.0.7.241219.VNCCNXM.EP.STDEE_20241219.0000.00_15.0_cn_fc76056a18.tgz",
-					"ctelecom": "houji_ep_stdee_images_OS2.0.7.241219.VNCCNXM.EP.STDEE_20241219.0000.00_15.0_cn_chinatelecom_9f62dfdeed.tgz"
+					"ctelecom": "houji_ep_stdee_images_OS2.0.7.241219.VNCCNXM.EP.STDEE_20241219.0000.00_15.0_cn_chinatelecom_9f62dfdeed.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.24.11.14.EP.STDEE.N3": {
 					"os": "OS1.0.24.11.14.EP.STDEE.N3",
@@ -1318,7 +1459,8 @@
 					"release": "2024-12-18",
 					"recovery": "miui_HOUJIEPSTDEE_OS1.0.24.11.14.EP.STDEE.N3_5f17530882_14.0.zip",
 					"fastboot": "houji_ep_stdee_images_OS1.0.24.11.14.EP.STDEE.N3_20241114.0000.00_14.0_cn_d70ba05d77.tgz",
-					"ctelecom": "houji_ep_stdee_images_OS1.0.24.11.14.EP.STDEE.N3_20241114.0000.00_14.0_cn_chinatelecom_63df3a8e70.tgz"
+					"ctelecom": "houji_ep_stdee_images_OS1.0.24.11.14.EP.STDEE.N3_20241114.0000.00_14.0_cn_chinatelecom_63df3a8e70.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.24.7.5.EP.STDEE.N3": {
 					"os": "OS1.0.24.7.5.EP.STDEE.N3",
@@ -1326,7 +1468,8 @@
 					"release": "2024-08-06",
 					"recovery": "miui_HOUJIEPSTDEE_OS1.0.24.7.5.EP.STDEE.N3_f9ba2826ee_14.0.zip",
 					"fastboot": "houji_ep_stdee_images_OS1.0.24.7.5.EP.STDEE.N3_20240705.0000.00_14.0_cn_b2af64bcaa.tgz",
-					"ctelecom": "houji_ep_stdee_images_OS1.0.24.7.5.EP.STDEE.N3_20240705.0000.00_14.0_cn_chinatelecom_314994c5ca.tgz"
+					"ctelecom": "houji_ep_stdee_images_OS1.0.24.7.5.EP.STDEE.N3_20240705.0000.00_14.0_cn_chinatelecom_314994c5ca.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.5.7.EP.STDEE.N3": {
 					"os": "OS1.0.24.5.7.EP.STDEE.N3",
@@ -1334,7 +1477,8 @@
 					"release": "2024-06-21",
 					"recovery": "miui_HOUJIEPSTDEE_OS1.0.24.5.7.EP.STDEE.N3_28eba7af84_14.0.zip",
 					"fastboot": "houji_ep_stdee_images_OS1.0.24.5.7.EP.STDEE.N3_20240507.0000.00_14.0_cn_5f7ce759fa.tgz",
-					"ctelecom": "houji_ep_stdee_images_OS1.0.24.5.7.EP.STDEE.N3_20240507.0000.00_14.0_cn_chinatelecom_3cd472d303.tgz"
+					"ctelecom": "houji_ep_stdee_images_OS1.0.24.5.7.EP.STDEE.N3_20240507.0000.00_14.0_cn_chinatelecom_3cd472d303.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.1.16.EP.STDEE.N3": {
 					"os": "OS1.0.24.1.16.EP.STDEE.N3",
@@ -1342,7 +1486,8 @@
 					"release": "2024-01-16",
 					"recovery": "miui_HOUJIEPSTDEE_OS1.0.24.1.16.EP.STDEE.N3_a7de2c40e3_14.0.zip",
 					"fastboot": "houji_ep_stdee_images_OS1.0.24.1.16.EP.STDEE.N3_20240116.0000.00_14.0_cn_2b1c0dc822.tgz",
-					"ctelecom": "houji_ep_stdee_images_OS1.0.24.1.16.EP.STDEE.N3_20240116.0000.00_14.0_cn_chinatelecom_ed067b9d13.tgz"
+					"ctelecom": "houji_ep_stdee_images_OS1.0.24.1.16.EP.STDEE.N3_20240116.0000.00_14.0_cn_chinatelecom_ed067b9d13.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.23.12.21.EP.STDEE.N3": {
 					"os": "OS1.0.23.12.21.EP.STDEE.N3",
@@ -1350,7 +1495,8 @@
 					"release": "2023-12-20",
 					"recovery": "miui_HOUJIEPSTDEE_OS1.0.23.12.21.EP.STDEE.N3_377fa1abbb_14.0.zip",
 					"fastboot": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_21c76335ba.tgz",
-					"ctelecom": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_chinatelecom_bac315cbed.tgz"
+					"ctelecom": "houji_ep_stdee_images_OS1.0.23.12.21.EP.STDEE.N3_20231220.0000.00_14.0_cn_chinatelecom_bac315cbed.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -1372,6 +1518,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1388,140 +1535,160 @@
 					"android": "16.0",
 					"release": "2026-04-23",
 					"recovery": "houji_tw_global-ota_full-OS3.0.301.0.WNCTWXM-user-16.0-56760c4d80.zip",
-					"fastboot": "houji_tw_global_images_OS3.0.301.0.WNCTWXM_20260414.0000.00_16.0_tw_a7aa82d669.tgz"
+					"fastboot": "houji_tw_global_images_OS3.0.301.0.WNCTWXM_20260414.0000.00_16.0_tw_a7aa82d669.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WNCTWXM": {
 					"os": "OS3.0.4.0.WNCTWXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "houji_tw_global-ota_full-OS3.0.4.0.WNCTWXM-user-16.0-1cdbdafea3.zip",
-					"fastboot": "houji_tw_global_images_OS3.0.4.0.WNCTWXM_20260120.0000.00_16.0_tw_fb1c27e8a4.tgz"
+					"fastboot": "houji_tw_global_images_OS3.0.4.0.WNCTWXM_20260120.0000.00_16.0_tw_fb1c27e8a4.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WNCTWXM": {
 					"os": "OS3.0.3.0.WNCTWXM",
 					"android": "16.0",
 					"release": "2025-12-15",
 					"recovery": "houji_tw_global-ota_full-OS3.0.3.0.WNCTWXM-user-16.0-cd22a3b35d.zip",
-					"fastboot": "houji_tw_global_images_OS3.0.3.0.WNCTWXM_20251130.0000.00_16.0_tw_79496c1fdc.tgz"
+					"fastboot": "houji_tw_global_images_OS3.0.3.0.WNCTWXM_20251130.0000.00_16.0_tw_79496c1fdc.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VNCTWXM": {
 					"os": "OS2.0.206.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "houji_tw_global-ota_full-OS2.0.206.0.VNCTWXM-user-15.0-88a91c59f0.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.206.0.VNCTWXM_20251112.0000.00_15.0_tw_433d22d3a4.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.206.0.VNCTWXM_20251112.0000.00_15.0_tw_433d22d3a4.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VNCTWXM": {
 					"os": "OS2.0.205.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "houji_tw_global-ota_full-OS2.0.205.0.VNCTWXM-user-15.0-3ad31fcf9b.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.205.0.VNCTWXM_20251016.0000.00_15.0_tw_d3a5e12b46.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.205.0.VNCTWXM_20251016.0000.00_15.0_tw_d3a5e12b46.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VNCTWXM": {
 					"os": "OS2.0.204.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "houji_tw_global-ota_full-OS2.0.204.0.VNCTWXM-user-15.0-1154d116e9.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.204.0.VNCTWXM_20250918.0000.00_15.0_tw_6258290f69.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.204.0.VNCTWXM_20250918.0000.00_15.0_tw_6258290f69.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VNCTWXM": {
 					"os": "OS2.0.202.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-08-29",
 					"recovery": "houji_tw_global-ota_full-OS2.0.202.0.VNCTWXM-user-15.0-8b4415fd0d.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.202.0.VNCTWXM_20250820.0000.00_15.0_tw_4595093dbf.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.202.0.VNCTWXM_20250820.0000.00_15.0_tw_4595093dbf.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNCTWXM": {
 					"os": "OS2.0.201.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "houji_tw_global-ota_full-OS2.0.201.0.VNCTWXM-user-15.0-414de5d8cf.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.201.0.VNCTWXM_20250711.0000.00_15.0_tw_98f7bd19b7.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.201.0.VNCTWXM_20250711.0000.00_15.0_tw_98f7bd19b7.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VNCTWXM": {
 					"os": "OS2.0.104.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-06-13",
 					"recovery": "houji_tw_global-ota_full-OS2.0.104.0.VNCTWXM-user-15.0-d23584ddb3.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.104.0.VNCTWXM_20250529.0000.00_15.0_tw_95a229207d.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.104.0.VNCTWXM_20250529.0000.00_15.0_tw_95a229207d.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.103.0.VNCTWXM": {
 					"os": "OS2.0.103.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "houji_tw_global-ota_full-OS2.0.103.0.VNCTWXM-user-15.0-699bd4d724.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.103.0.VNCTWXM_20250417.0000.00_15.0_tw_48172ab97c.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.103.0.VNCTWXM_20250417.0000.00_15.0_tw_48172ab97c.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VNCTWXM": {
 					"os": "OS2.0.102.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-03-29",
 					"recovery": "houji_tw_global-ota_full-OS2.0.102.0.VNCTWXM-user-15.0-29b32e2c10.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.102.0.VNCTWXM_20250318.0000.00_15.0_tw_bc1f075aca.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.102.0.VNCTWXM_20250318.0000.00_15.0_tw_bc1f075aca.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.3.0.VNCTWXM": {
 					"os": "OS2.0.3.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2025-02-21",
 					"recovery": "houji_tw_global-ota_full-OS2.0.3.0.VNCTWXM-user-15.0-b9e4e5b479.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.3.0.VNCTWXM_20250121.0000.00_15.0_tw_27c2146ad5.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.3.0.VNCTWXM_20250121.0000.00_15.0_tw_27c2146ad5.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.0.VNCTWXM": {
 					"os": "OS2.0.1.0.VNCTWXM",
 					"android": "15.0",
 					"release": "2024-12-17",
 					"recovery": "houji_tw_global-ota_full-OS2.0.1.0.VNCTWXM-user-15.0-9ef1891398.zip",
-					"fastboot": "houji_tw_global_images_OS2.0.1.0.VNCTWXM_20241205.0000.00_15.0_tw_21d3ee3401.tgz"
+					"fastboot": "houji_tw_global_images_OS2.0.1.0.VNCTWXM_20241205.0000.00_15.0_tw_21d3ee3401.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UNCTWXM": {
 					"os": "OS1.0.8.0.UNCTWXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_HOUJITWGlobal_OS1.0.8.0.UNCTWXM_e4b0d48d12_14.0.zip",
-					"fastboot": "houji_tw_global_images_OS1.0.8.0.UNCTWXM_20241018.0000.00_14.0_tw_392b6d16c9.tgz"
+					"fastboot": "houji_tw_global_images_OS1.0.8.0.UNCTWXM_20241018.0000.00_14.0_tw_392b6d16c9.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.7.0.UNCTWXM": {
 					"os": "OS1.0.7.0.UNCTWXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_HOUJITWGlobal_OS1.0.7.0.UNCTWXM_456d7fbfc4_14.0.zip",
-					"fastboot": "houji_tw_global_images_OS1.0.7.0.UNCTWXM_20240806.0000.00_14.0_tw_f9d31ce4f0.tgz"
+					"fastboot": "houji_tw_global_images_OS1.0.7.0.UNCTWXM_20240806.0000.00_14.0_tw_f9d31ce4f0.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.6.0.UNCTWXM": {
 					"os": "OS1.0.6.0.UNCTWXM",
 					"android": "14.0",
 					"release": "2024-07-18",
 					"recovery": "miui_HOUJITWGlobal_OS1.0.6.0.UNCTWXM_7088198809_14.0.zip",
-					"fastboot": "houji_tw_global_images_OS1.0.6.0.UNCTWXM_20240705.0000.00_14.0_tw_adb67b4fed.tgz"
+					"fastboot": "houji_tw_global_images_OS1.0.6.0.UNCTWXM_20240705.0000.00_14.0_tw_adb67b4fed.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.5.0.UNCTWXM": {
 					"os": "OS1.0.5.0.UNCTWXM",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_HOUJITWGlobal_OS1.0.5.0.UNCTWXM_3d12b1c8b9_14.0.zip",
-					"fastboot": "houji_tw_global_images_OS1.0.5.0.UNCTWXM_20240528.0000.00_14.0_tw_9a54247ddb.tgz"
+					"fastboot": "houji_tw_global_images_OS1.0.5.0.UNCTWXM_20240528.0000.00_14.0_tw_9a54247ddb.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.4.0.UNCTWXM": {
 					"os": "OS1.0.4.0.UNCTWXM",
 					"android": "14.0",
 					"release": "2024-04-08",
 					"recovery": "miui_HOUJITWGlobal_OS1.0.4.0.UNCTWXM_aa3ac5bdf1_14.0.zip",
-					"fastboot": "houji_tw_global_images_OS1.0.4.0.UNCTWXM_20240326.0000.00_14.0_tw_75236655e6.tgz"
+					"fastboot": "houji_tw_global_images_OS1.0.4.0.UNCTWXM_20240326.0000.00_14.0_tw_75236655e6.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.3.0.UNCTWXM": {
 					"os": "OS1.0.3.0.UNCTWXM",
 					"android": "14.0",
 					"release": "2024-03-24",
 					"recovery": "miui_HOUJITWGlobal_OS1.0.3.0.UNCTWXM_2dc00fd091_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.UNCTWXM": {
 					"os": "OS1.0.1.0.UNCTWXM",
 					"android": "14.0",
 					"release": "2024-02-29",
 					"recovery": "miui_HOUJITWGlobal_OS1.0.1.0.UNCTWXM_5f7e922bc4_14.0.zip",
-					"fastboot": "houji_tw_global_images_OS1.0.1.0.UNCTWXM_20231217.0000.00_14.0_tw_302122295c.tgz"
+					"fastboot": "houji_tw_global_images_OS1.0.1.0.UNCTWXM_20231217.0000.00_14.0_tw_302122295c.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -1543,6 +1710,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1559,161 +1727,184 @@
 					"android": "16.0",
 					"release": "2026-04-17",
 					"recovery": "houji_global-ota_full-OS3.0.301.0.WNCMIXM-user-16.0-905b3920ab.zip",
-					"fastboot": "houji_global_images_OS3.0.301.0.WNCMIXM_20260412.0000.00_16.0_global_6ab22ccb94.tgz"
+					"fastboot": "houji_global_images_OS3.0.301.0.WNCMIXM_20260412.0000.00_16.0_global_6ab22ccb94.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.6.0.WNCMIXM": {
 					"os": "OS3.0.6.0.WNCMIXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "houji_global-ota_full-OS3.0.6.0.WNCMIXM-user-16.0-71a3c1cbca.zip",
-					"fastboot": "houji_global_images_OS3.0.6.0.WNCMIXM_20260115.0000.00_16.0_global_d22ce546ca.tgz"
+					"fastboot": "houji_global_images_OS3.0.6.0.WNCMIXM_20260115.0000.00_16.0_global_d22ce546ca.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.5.0.WNCMIXM": {
 					"os": "OS3.0.5.0.WNCMIXM",
 					"android": "16.0",
 					"release": "2025-12-25",
 					"recovery": "houji_global-ota_full-OS3.0.5.0.WNCMIXM-user-16.0-5f0713b514.zip",
-					"fastboot": "houji_global_images_OS3.0.5.0.WNCMIXM_20251215.0000.00_16.0_global_6544a57448.tgz"
+					"fastboot": "houji_global_images_OS3.0.5.0.WNCMIXM_20251215.0000.00_16.0_global_6544a57448.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.4.0.WNCMIXM": {
 					"os": "OS3.0.4.0.WNCMIXM",
 					"android": "16.0",
 					"release": "2025-12-05",
 					"recovery": "houji_global-ota_full-OS3.0.4.0.WNCMIXM-user-16.0-a9b8dc32aa.zip",
-					"fastboot": "houji_global_images_OS3.0.4.0.WNCMIXM_20251125.0000.00_16.0_global_8a8ea57c81.tgz"
+					"fastboot": "houji_global_images_OS3.0.4.0.WNCMIXM_20251125.0000.00_16.0_global_8a8ea57c81.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VNCMIXM": {
 					"os": "OS2.0.206.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-11-18",
 					"recovery": "houji_global-ota_full-OS2.0.206.0.VNCMIXM-user-15.0-d43b6e00bd.zip",
-					"fastboot": "houji_global_images_OS2.0.206.0.VNCMIXM_20251105.0000.00_15.0_global_6f58ba3b4f.tgz"
+					"fastboot": "houji_global_images_OS2.0.206.0.VNCMIXM_20251105.0000.00_15.0_global_6f58ba3b4f.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VNCMIXM": {
 					"os": "OS2.0.205.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "houji_global-ota_full-OS2.0.205.0.VNCMIXM-user-15.0-b1144eb11d.zip",
-					"fastboot": "houji_global_images_OS2.0.205.0.VNCMIXM_20251016.0000.00_15.0_global_98095a7f0e.tgz"
+					"fastboot": "houji_global_images_OS2.0.205.0.VNCMIXM_20251016.0000.00_15.0_global_98095a7f0e.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VNCMIXM": {
 					"os": "OS2.0.204.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "houji_global-ota_full-OS2.0.204.0.VNCMIXM-user-15.0-92598154a2.zip",
-					"fastboot": "houji_global_images_OS2.0.204.0.VNCMIXM_20250918.0000.00_15.0_global_043503d48b.tgz"
+					"fastboot": "houji_global_images_OS2.0.204.0.VNCMIXM_20250918.0000.00_15.0_global_043503d48b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VNCMIXM": {
 					"os": "OS2.0.202.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "houji_global-ota_full-OS2.0.202.0.VNCMIXM-user-15.0-11e2c7c5cf.zip",
-					"fastboot": "houji_global_images_OS2.0.202.0.VNCMIXM_20250814.0000.00_15.0_global_b6138ac2de.tgz"
+					"fastboot": "houji_global_images_OS2.0.202.0.VNCMIXM_20250814.0000.00_15.0_global_b6138ac2de.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNCMIXM": {
 					"os": "OS2.0.201.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-07-25",
 					"recovery": "houji_global-ota_full-OS2.0.201.0.VNCMIXM-user-15.0-a6f5b7a87f.zip",
-					"fastboot": "houji_global_images_OS2.0.201.0.VNCMIXM_20250610.0000.00_15.0_global_6c84bdccca.tgz"
+					"fastboot": "houji_global_images_OS2.0.201.0.VNCMIXM_20250610.0000.00_15.0_global_6c84bdccca.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VNCMIXM": {
 					"os": "OS2.0.103.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-05-27",
 					"recovery": "houji_global-ota_full-OS2.0.103.0.VNCMIXM-user-15.0-717ff5bb3d.zip",
-					"fastboot": "houji_global_images_OS2.0.103.0.VNCMIXM_20250514.0000.00_15.0_global_c78775fa5d.tgz"
+					"fastboot": "houji_global_images_OS2.0.103.0.VNCMIXM_20250514.0000.00_15.0_global_c78775fa5d.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VNCMIXM": {
 					"os": "OS2.0.102.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-04-24",
 					"recovery": "houji_global-ota_full-OS2.0.102.0.VNCMIXM-user-15.0-d80a51330a.zip",
-					"fastboot": "houji_global_images_OS2.0.102.0.VNCMIXM_20250407.0000.00_15.0_global_47285c26e8.tgz"
+					"fastboot": "houji_global_images_OS2.0.102.0.VNCMIXM_20250407.0000.00_15.0_global_47285c26e8.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VNCMIXM": {
 					"os": "OS2.0.100.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-03-03",
 					"recovery": "houji_global-ota_full-OS2.0.100.0.VNCMIXM-user-15.0-8b699f49f5.zip",
-					"fastboot": "houji_global_images_OS2.0.100.0.VNCMIXM_20250217.0000.00_15.0_global_422af64028.tgz"
+					"fastboot": "houji_global_images_OS2.0.100.0.VNCMIXM_20250217.0000.00_15.0_global_422af64028.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.8.0.VNCMIXM": {
 					"os": "OS2.0.8.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2025-02-05",
 					"recovery": "houji_global-ota_full-OS2.0.8.0.VNCMIXM-user-15.0-7287fecb98.zip",
-					"fastboot": "houji_global_images_OS2.0.8.0.VNCMIXM_20250114.0000.00_15.0_global_467fa1fc42.tgz"
+					"fastboot": "houji_global_images_OS2.0.8.0.VNCMIXM_20250114.0000.00_15.0_global_467fa1fc42.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.6.0.VNCMIXM": {
 					"os": "OS2.0.6.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2024-12-16",
 					"recovery": "houji_global-ota_full-OS2.0.6.0.VNCMIXM-user-15.0-4b6e42f980.zip",
-					"fastboot": "houji_global_images_OS2.0.6.0.VNCMIXM_20241205.0000.00_15.0_global_6aa598e5b4.tgz"
+					"fastboot": "houji_global_images_OS2.0.6.0.VNCMIXM_20241205.0000.00_15.0_global_6aa598e5b4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.4.0.VNCMIXM": {
 					"os": "OS2.0.4.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2024-11-26",
 					"recovery": "houji_global-ota_full-OS2.0.4.0.VNCMIXM-user-15.0-3fb9bf45d8.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.1.3.0.VNCMIXM": {
 					"os": "OS1.1.3.0.VNCMIXM",
 					"android": "15.0",
 					"release": "2024-11-05",
 					"recovery": "houji_global-ota_full-OS1.1.3.0.VNCMIXM-user-15.0-a5c05e8590.zip",
-					"fastboot": "houji_global_images_OS1.1.3.0.VNCMIXM_20241023.0000.00_15.0_global_34a9c1e283.tgz"
+					"fastboot": "houji_global_images_OS1.1.3.0.VNCMIXM_20241023.0000.00_15.0_global_34a9c1e283.tgz",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.0.15.0.UNCMIXM": {
 					"os": "OS1.0.15.0.UNCMIXM",
 					"android": "14.0",
 					"release": "2024-10-21",
 					"recovery": "miui_HOUJIGlobal_OS1.0.15.0.UNCMIXM_17e1f93655_14.0.zip",
-					"fastboot": "houji_global_images_OS1.0.15.0.UNCMIXM_20240924.0000.00_14.0_global_295d5bf4e6.tgz"
+					"fastboot": "houji_global_images_OS1.0.15.0.UNCMIXM_20240924.0000.00_14.0_global_295d5bf4e6.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.13.0.UNCMIXM": {
 					"os": "OS1.0.13.0.UNCMIXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_HOUJIGlobal_OS1.0.13.0.UNCMIXM_6fc0789e12_14.0.zip",
-					"fastboot": "houji_global_images_OS1.0.13.0.UNCMIXM_20240813.0000.00_14.0_global_faf936acfc.tgz"
+					"fastboot": "houji_global_images_OS1.0.13.0.UNCMIXM_20240813.0000.00_14.0_global_faf936acfc.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.12.0.UNCMIXM": {
 					"os": "OS1.0.12.0.UNCMIXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_HOUJIGlobal_OS1.0.12.0.UNCMIXM_3244e83a0f_14.0.zip",
-					"fastboot": "houji_global_images_OS1.0.12.0.UNCMIXM_20240628.0000.00_14.0_global_a93bb89071.tgz"
+					"fastboot": "houji_global_images_OS1.0.12.0.UNCMIXM_20240628.0000.00_14.0_global_a93bb89071.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.11.0.UNCMIXM": {
 					"os": "OS1.0.11.0.UNCMIXM",
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_HOUJIGlobal_OS1.0.11.0.UNCMIXM_74f68cfcdf_14.0.zip",
-					"fastboot": "houji_global_images_OS1.0.11.0.UNCMIXM_20240423.0000.00_14.0_global_d2028d11c0.tgz"
+					"fastboot": "houji_global_images_OS1.0.11.0.UNCMIXM_20240423.0000.00_14.0_global_d2028d11c0.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.6.0.UNCMIXM": {
 					"os": "OS1.0.6.0.UNCMIXM",
 					"android": "14.0",
 					"release": "2024-03-26",
 					"recovery": "miui_HOUJIGlobal_OS1.0.6.0.UNCMIXM_248bccbcd4_14.0.zip",
-					"fastboot": "houji_global_images_OS1.0.6.0.UNCMIXM_20240229.0000.00_14.0_global_daf48280ca.tgz"
+					"fastboot": "houji_global_images_OS1.0.6.0.UNCMIXM_20240229.0000.00_14.0_global_daf48280ca.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.5.0.UNCMIXM": {
 					"os": "OS1.0.5.0.UNCMIXM",
 					"android": "14.0",
 					"release": "2024-03-07",
 					"recovery": "miui_HOUJIGlobal_OS1.0.5.0.UNCMIXM_f623e944d7_14.0.zip",
-					"fastboot": "houji_global_images_OS1.0.5.0.UNCMIXM_20240224.0000.00_14.0_global_c02c2ec92e.tgz"
+					"fastboot": "houji_global_images_OS1.0.5.0.UNCMIXM_20240224.0000.00_14.0_global_c02c2ec92e.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.2.0.UNCMIXM": {
 					"os": "OS1.0.2.0.UNCMIXM",
 					"android": "14.0",
 					"release": "2024-02-29",
 					"recovery": "miui_HOUJIGlobal_OS1.0.2.0.UNCMIXM_484000c3c2_14.0.zip",
-					"fastboot": "houji_global_images_OS1.0.2.0.UNCMIXM_20231213.0000.00_14.0_global_7d5eed51bf.tgz"
+					"fastboot": "houji_global_images_OS1.0.2.0.UNCMIXM_20231213.0000.00_14.0_global_7d5eed51bf.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -1735,6 +1926,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1751,154 +1943,176 @@
 					"android": "16.0",
 					"release": "2026-05-18",
 					"recovery": "houji_eea_global-ota_full-OS3.0.301.0.WNCEUXM-user-16.0-8311873db0.zip",
-					"fastboot": "houji_eea_global_images_OS3.0.301.0.WNCEUXM_20260428.0000.00_16.0_eea_9d33507620.tgz"
+					"fastboot": "houji_eea_global_images_OS3.0.301.0.WNCEUXM_20260428.0000.00_16.0_eea_9d33507620.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.8.0.WNCEUXM": {
 					"os": "OS3.0.8.0.WNCEUXM",
 					"android": "16.0",
 					"release": "2026-04-17",
 					"recovery": "houji_eea_global-ota_full-OS3.0.8.0.WNCEUXM-user-16.0-1f54e73536.zip",
-					"fastboot": "houji_eea_global_images_OS3.0.8.0.WNCEUXM_20260413.0000.00_16.0_eea_84709f01da.tgz"
+					"fastboot": "houji_eea_global_images_OS3.0.8.0.WNCEUXM_20260413.0000.00_16.0_eea_84709f01da.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.7.0.WNCEUXM": {
 					"os": "OS3.0.7.0.WNCEUXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "houji_eea_global-ota_full-OS3.0.7.0.WNCEUXM-user-16.0-7b8d7f36f8.zip",
-					"fastboot": "houji_eea_global_images_OS3.0.7.0.WNCEUXM_20260120.0000.00_16.0_eea_d56905c59f.tgz"
+					"fastboot": "houji_eea_global_images_OS3.0.7.0.WNCEUXM_20260120.0000.00_16.0_eea_d56905c59f.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.6.0.WNCEUXM": {
 					"os": "OS3.0.6.0.WNCEUXM",
 					"android": "16.0",
 					"release": "2026-01-04",
 					"recovery": "houji_eea_global-ota_full-OS3.0.6.0.WNCEUXM-user-16.0-c7485df94a.zip",
-					"fastboot": "houji_eea_global_images_OS3.0.6.0.WNCEUXM_20251224.0000.00_16.0_eea_b04abb925a.tgz"
+					"fastboot": "houji_eea_global_images_OS3.0.6.0.WNCEUXM_20251224.0000.00_16.0_eea_b04abb925a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.5.0.WNCEUXM": {
 					"os": "OS3.0.5.0.WNCEUXM",
 					"android": "16.0",
 					"release": "2025-12-05",
 					"recovery": "houji_eea_global-ota_full-OS3.0.5.0.WNCEUXM-user-16.0-8edf5e0fe1.zip",
-					"fastboot": "houji_eea_global_images_OS3.0.5.0.WNCEUXM_20251125.0000.00_16.0_eea_e20681fe0d.tgz"
+					"fastboot": "houji_eea_global_images_OS3.0.5.0.WNCEUXM_20251125.0000.00_16.0_eea_e20681fe0d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.111.0.VNCEUXM": {
 					"os": "OS2.0.111.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-11-18",
 					"recovery": "houji_eea_global-ota_full-OS2.0.111.0.VNCEUXM-user-15.0-c3d6a17fbf.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.111.0.VNCEUXM_20251105.0000.00_15.0_eea_c59838378f.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.111.0.VNCEUXM_20251105.0000.00_15.0_eea_c59838378f.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.110.0.VNCEUXM": {
 					"os": "OS2.0.110.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-10-21",
 					"recovery": "houji_eea_global-ota_full-OS2.0.110.0.VNCEUXM-user-15.0-3cfdd617c6.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.110.0.VNCEUXM_20250928.0000.00_15.0_eea_bea6678be3.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.110.0.VNCEUXM_20250928.0000.00_15.0_eea_bea6678be3.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.109.0.VNCEUXM": {
 					"os": "OS2.0.109.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-08-30",
 					"recovery": "houji_eea_global-ota_full-OS2.0.109.0.VNCEUXM-user-15.0-db22819349.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.109.0.VNCEUXM_20250819.0000.00_15.0_eea_f4d0196760.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.109.0.VNCEUXM_20250819.0000.00_15.0_eea_f4d0196760.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.108.0.VNCEUXM": {
 					"os": "OS2.0.108.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-06-24",
 					"recovery": "houji_eea_global-ota_full-OS2.0.108.0.VNCEUXM-user-15.0-3a64a91d4e.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.108.0.VNCEUXM_20250610.0000.00_15.0_eea_e4627019e7.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.108.0.VNCEUXM_20250610.0000.00_15.0_eea_e4627019e7.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.107.0.VNCEUXM": {
 					"os": "OS2.0.107.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-06-04",
 					"recovery": "houji_eea_global-ota_full-OS2.0.107.0.VNCEUXM-user-15.0-bd1c41d1dd.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.107.0.VNCEUXM_20250523.0000.00_15.0_eea_bdd77020b2.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.107.0.VNCEUXM_20250523.0000.00_15.0_eea_bdd77020b2.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.105.0.VNCEUXM": {
 					"os": "OS2.0.105.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-03-28",
 					"recovery": "houji_eea_global-ota_full-OS2.0.105.0.VNCEUXM-user-15.0-84979fead2.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.105.0.VNCEUXM_20250319.0000.00_15.0_eea_d1c064db00.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.105.0.VNCEUXM_20250319.0000.00_15.0_eea_d1c064db00.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.7.0.VNCEUXM": {
 					"os": "OS2.0.7.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-03-12",
 					"recovery": "houji_eea_global-ota_full-OS2.0.7.0.VNCEUXM-user-15.0-e1a572672e.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.7.0.VNCEUXM_20250221.0000.00_15.0_eea_2bfc380a8e.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.7.0.VNCEUXM_20250221.0000.00_15.0_eea_2bfc380a8e.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.6.0.VNCEUXM": {
 					"os": "OS2.0.6.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "houji_eea_global-ota_full-OS2.0.6.0.VNCEUXM-user-15.0-97fe4f9bfa.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.6.0.VNCEUXM_20250115.0000.00_15.0_eea_0a521414fb.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.6.0.VNCEUXM_20250115.0000.00_15.0_eea_0a521414fb.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.3.0.VNCEUXM": {
 					"os": "OS2.0.3.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2025-01-22",
 					"recovery": "houji_eea_global-ota_full-OS2.0.3.0.VNCEUXM-user-15.0-ec6c25f150.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.3.0.VNCEUXM_20250103.0000.00_15.0_eea_707c6a50b9.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.3.0.VNCEUXM_20250103.0000.00_15.0_eea_707c6a50b9.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.1.0.VNCEUXM": {
 					"os": "OS2.0.1.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2024-12-19",
 					"recovery": "houji_eea_global-ota_full-OS2.0.1.0.VNCEUXM-user-15.0-a671fce3aa.zip",
-					"fastboot": "houji_eea_global_images_OS2.0.1.0.VNCEUXM_20241205.0000.00_15.0_eea_347ee1a8f4.tgz"
+					"fastboot": "houji_eea_global_images_OS2.0.1.0.VNCEUXM_20241205.0000.00_15.0_eea_347ee1a8f4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.1.4.0.VNCEUXM": {
 					"os": "OS1.1.4.0.VNCEUXM",
 					"android": "15.0",
 					"release": "2024-11-05",
 					"recovery": "houji_eea_global-ota_full-OS1.1.4.0.VNCEUXM-user-15.0-30383d3fc3.zip",
-					"fastboot": "houji_eea_global_images_OS1.1.4.0.VNCEUXM_20241023.0000.00_15.0_eea_e149d8c297.tgz"
+					"fastboot": "houji_eea_global_images_OS1.1.4.0.VNCEUXM_20241023.0000.00_15.0_eea_e149d8c297.tgz",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.2.0.VNCEUXM.BETA": {
 					"os": "OS1.1.2.0.VNCEUXM.BETA",
 					"android": "15.0",
 					"release": "2024-10-01",
 					"recovery": "houji_eea_global-ota_full-OS1.1.2.0.VNCEUXM.BETA-user-15.0-c531e5fa62.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.0.22.0.UNCEUXM": {
 					"os": "OS1.0.22.0.UNCEUXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_HOUJIEEAGlobal_OS1.0.22.0.UNCEUXM_70d8b62e04_14.0.zip",
-					"fastboot": "houji_eea_global_images_OS1.0.22.0.UNCEUXM_20240807.0000.00_14.0_eea_a1d961acfc.tgz"
+					"fastboot": "houji_eea_global_images_OS1.0.22.0.UNCEUXM_20240807.0000.00_14.0_eea_a1d961acfc.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.21.0.UNCEUXM": {
 					"os": "OS1.0.21.0.UNCEUXM",
 					"android": "14.0",
 					"release": "2024-07-12",
 					"recovery": "miui_HOUJIEEAGlobal_OS1.0.21.0.UNCEUXM_4be0482345_14.0.zip",
-					"fastboot": "houji_eea_global_images_OS1.0.21.0.UNCEUXM_20240628.0000.00_14.0_eea_2b537c81dd.tgz"
+					"fastboot": "houji_eea_global_images_OS1.0.21.0.UNCEUXM_20240628.0000.00_14.0_eea_2b537c81dd.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.20.0.UNCEUXM": {
 					"os": "OS1.0.20.0.UNCEUXM",
 					"android": "14.0",
 					"release": "2024-05-27",
 					"recovery": "miui_HOUJIEEAGlobal_OS1.0.20.0.UNCEUXM_4916378ca5_14.0.zip",
-					"fastboot": "houji_eea_global_images_OS1.0.20.0.UNCEUXM_20240513.0000.00_14.0_eea_1c5ddd2cc3.tgz"
+					"fastboot": "houji_eea_global_images_OS1.0.20.0.UNCEUXM_20240513.0000.00_14.0_eea_1c5ddd2cc3.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.16.0.UNCEUXM": {
 					"os": "OS1.0.16.0.UNCEUXM",
 					"android": "14.0",
 					"release": "2024-04-16",
 					"recovery": "miui_HOUJIEEAGlobal_OS1.0.16.0.UNCEUXM_ffc0ba5581_14.0.zip",
-					"fastboot": "houji_eea_global_images_OS1.0.16.0.UNCEUXM_20240326.0000.00_14.0_eea_496c97b40f.tgz"
+					"fastboot": "houji_eea_global_images_OS1.0.16.0.UNCEUXM_20240326.0000.00_14.0_eea_496c97b40f.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.14.0.UNCEUXM": {
 					"os": "OS1.0.14.0.UNCEUXM",
 					"android": "14.0",
 					"release": "2024-02-29",
 					"recovery": "miui_HOUJIEEAGlobal_OS1.0.14.0.UNCEUXM_d0dc61697d_14.0.zip",
-					"fastboot": "houji_eea_global_images_OS1.0.14.0.UNCEUXM_20240130.0000.00_14.0_eea_7c7721b9f7.tgz"
+					"fastboot": "houji_eea_global_images_OS1.0.14.0.UNCEUXM_20240130.0000.00_14.0_eea_7c7721b9f7.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1920,6 +2134,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1936,126 +2151,144 @@
 					"android": "16.0",
 					"release": "2026-04-23",
 					"recovery": "houji_ru_global-ota_full-OS3.0.301.0.WNCRUXM-user-16.0-a281e3874e.zip",
-					"fastboot": "houji_ru_global_images_OS3.0.301.0.WNCRUXM_20260414.0000.00_16.0_ru_36478cfecd.tgz"
+					"fastboot": "houji_ru_global_images_OS3.0.301.0.WNCRUXM_20260414.0000.00_16.0_ru_36478cfecd.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WNCRUXM": {
 					"os": "OS3.0.4.0.WNCRUXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "houji_ru_global-ota_full-OS3.0.4.0.WNCRUXM-user-16.0-9e8466f16b.zip",
-					"fastboot": "houji_ru_global_images_OS3.0.4.0.WNCRUXM_20260120.0000.00_16.0_ru_d55a29a54a.tgz"
+					"fastboot": "houji_ru_global_images_OS3.0.4.0.WNCRUXM_20260120.0000.00_16.0_ru_d55a29a54a.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WNCRUXM": {
 					"os": "OS3.0.3.0.WNCRUXM",
 					"android": "16.0",
 					"release": "2025-12-15",
 					"recovery": "houji_ru_global-ota_full-OS3.0.3.0.WNCRUXM-user-16.0-c13680dd8a.zip",
-					"fastboot": "houji_ru_global_images_OS3.0.3.0.WNCRUXM_20251130.0000.00_16.0_ru_d64c02521b.tgz"
+					"fastboot": "houji_ru_global_images_OS3.0.3.0.WNCRUXM_20251130.0000.00_16.0_ru_d64c02521b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VNCRUXM": {
 					"os": "OS2.0.206.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "houji_ru_global-ota_full-OS2.0.206.0.VNCRUXM-user-15.0-928348db35.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.206.0.VNCRUXM_20251112.0000.00_15.0_ru_aabecf48e3.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.206.0.VNCRUXM_20251112.0000.00_15.0_ru_aabecf48e3.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VNCRUXM": {
 					"os": "OS2.0.205.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "houji_ru_global-ota_full-OS2.0.205.0.VNCRUXM-user-15.0-ed63f0030d.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.205.0.VNCRUXM_20251016.0000.00_15.0_ru_6be717b9c7.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.205.0.VNCRUXM_20251016.0000.00_15.0_ru_6be717b9c7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VNCRUXM": {
 					"os": "OS2.0.204.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "houji_ru_global-ota_full-OS2.0.204.0.VNCRUXM-user-15.0-75fc3d3ff8.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.204.0.VNCRUXM_20250917.0000.00_15.0_ru_e2b5657fb6.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.204.0.VNCRUXM_20250917.0000.00_15.0_ru_e2b5657fb6.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VNCRUXM": {
 					"os": "OS2.0.202.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-08-29",
 					"recovery": "houji_ru_global-ota_full-OS2.0.202.0.VNCRUXM-user-15.0-1acf270b82.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.202.0.VNCRUXM_20250820.0000.00_15.0_ru_01a1602a44.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.202.0.VNCRUXM_20250820.0000.00_15.0_ru_01a1602a44.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNCRUXM": {
 					"os": "OS2.0.201.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-07-31",
 					"recovery": "houji_ru_global-ota_full-OS2.0.201.0.VNCRUXM-user-15.0-69cec5cf60.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.201.0.VNCRUXM_20250711.0000.00_15.0_ru_a973e0be0c.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.201.0.VNCRUXM_20250711.0000.00_15.0_ru_a973e0be0c.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.106.0.VNCRUXM": {
 					"os": "OS2.0.106.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-06-13",
 					"recovery": "houji_ru_global-ota_full-OS2.0.106.0.VNCRUXM-user-15.0-de1fcb50d3.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.106.0.VNCRUXM_20250529.0000.00_15.0_ru_d7651cb64f.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.106.0.VNCRUXM_20250529.0000.00_15.0_ru_d7651cb64f.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.105.0.VNCRUXM": {
 					"os": "OS2.0.105.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "houji_ru_global-ota_full-OS2.0.105.0.VNCRUXM-user-15.0-3c7140e0a9.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.105.0.VNCRUXM_20250417.0000.00_15.0_ru_217df52141.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.105.0.VNCRUXM_20250417.0000.00_15.0_ru_217df52141.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.104.0.VNCRUXM": {
 					"os": "OS2.0.104.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-03-29",
 					"recovery": "houji_ru_global-ota_full-OS2.0.104.0.VNCRUXM-user-15.0-72227e2905.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.104.0.VNCRUXM_20250321.0000.00_15.0_ru_b62bf5ed35.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.104.0.VNCRUXM_20250321.0000.00_15.0_ru_b62bf5ed35.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VNCRUXM": {
 					"os": "OS2.0.2.0.VNCRUXM",
 					"android": "15.0",
 					"release": "2025-01-11",
 					"recovery": "houji_ru_global-ota_full-OS2.0.2.0.VNCRUXM-user-15.0-50b4cceb18.zip",
-					"fastboot": "houji_ru_global_images_OS2.0.2.0.VNCRUXM_20241229.0000.00_15.0_ru_fd305678b3.tgz"
+					"fastboot": "houji_ru_global_images_OS2.0.2.0.VNCRUXM_20241229.0000.00_15.0_ru_fd305678b3.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.13.0.UNCRUXM": {
 					"os": "OS1.0.13.0.UNCRUXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_HOUJIRUGlobal_OS1.0.13.0.UNCRUXM_6010196022_14.0.zip",
-					"fastboot": "houji_ru_global_images_OS1.0.13.0.UNCRUXM_20241018.0000.00_14.0_ru_972bca4ff9.tgz"
+					"fastboot": "houji_ru_global_images_OS1.0.13.0.UNCRUXM_20241018.0000.00_14.0_ru_972bca4ff9.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.12.0.UNCRUXM": {
 					"os": "OS1.0.12.0.UNCRUXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_HOUJIRUGlobal_OS1.0.12.0.UNCRUXM_a1fcf830dc_14.0.zip",
-					"fastboot": "houji_ru_global_images_OS1.0.12.0.UNCRUXM_20240813.0000.00_14.0_ru_bfad977d0c.tgz"
+					"fastboot": "houji_ru_global_images_OS1.0.12.0.UNCRUXM_20240813.0000.00_14.0_ru_bfad977d0c.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.11.0.UNCRUXM": {
 					"os": "OS1.0.11.0.UNCRUXM",
 					"android": "14.0",
 					"release": "2024-07-22",
 					"recovery": "miui_HOUJIRUGlobal_OS1.0.11.0.UNCRUXM_64b33f40c6_14.0.zip",
-					"fastboot": "houji_ru_global_images_OS1.0.11.0.UNCRUXM_20240705.0000.00_14.0_ru_6f45c65a5d.tgz"
+					"fastboot": "houji_ru_global_images_OS1.0.11.0.UNCRUXM_20240705.0000.00_14.0_ru_6f45c65a5d.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.10.0.UNCRUXM": {
 					"os": "OS1.0.10.0.UNCRUXM",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_HOUJIRUGlobal_OS1.0.10.0.UNCRUXM_21f63b19e2_14.0.zip",
-					"fastboot": "houji_ru_global_images_OS1.0.10.0.UNCRUXM_20240528.0000.00_14.0_ru_aec04101f0.tgz"
+					"fastboot": "houji_ru_global_images_OS1.0.10.0.UNCRUXM_20240528.0000.00_14.0_ru_aec04101f0.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.UNCRUXM": {
 					"os": "OS1.0.3.0.UNCRUXM",
 					"android": "14.0",
 					"release": "2024-04-11",
 					"recovery": "miui_HOUJIRUGlobal_OS1.0.3.0.UNCRUXM_fe5c5477aa_14.0.zip",
-					"fastboot": "houji_ru_global_images_OS1.0.3.0.UNCRUXM_20240401.0000.00_14.0_ru_92eccb8a63.tgz"
+					"fastboot": "houji_ru_global_images_OS1.0.3.0.UNCRUXM_20240401.0000.00_14.0_ru_92eccb8a63.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.UNCRUXM": {
 					"os": "OS1.0.1.0.UNCRUXM",
 					"android": "14.0",
 					"release": "2024-03-01",
 					"recovery": "miui_HOUJIRUGlobal_OS1.0.1.0.UNCRUXM_a25c18a432_14.0.zip",
-					"fastboot": "houji_ru_global_images_OS1.0.1.0.UNCRUXM_20231208.0000.00_14.0_ru_924ff649ec.tgz"
+					"fastboot": "houji_ru_global_images_OS1.0.1.0.UNCRUXM_20231208.0000.00_14.0_ru_924ff649ec.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -2077,6 +2310,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -2093,133 +2327,152 @@
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "houji_in_global-ota_full-OS3.0.301.0.WNCINXM-user-16.0-b4835c0c02.zip",
-					"fastboot": "houji_in_global_images_OS3.0.301.0.WNCINXM_20260415.0000.00_16.0_in_5b1cb43b9f.tgz"
+					"fastboot": "houji_in_global_images_OS3.0.301.0.WNCINXM_20260415.0000.00_16.0_in_5b1cb43b9f.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WNCINXM": {
 					"os": "OS3.0.4.0.WNCINXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "houji_in_global-ota_full-OS3.0.4.0.WNCINXM-user-16.0-2762c457af.zip",
-					"fastboot": "houji_in_global_images_OS3.0.4.0.WNCINXM_20260122.0000.00_16.0_in_43d2d8e8ba.tgz"
+					"fastboot": "houji_in_global_images_OS3.0.4.0.WNCINXM_20260122.0000.00_16.0_in_43d2d8e8ba.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WNCINXM": {
 					"os": "OS3.0.3.0.WNCINXM",
 					"android": "16.0",
 					"release": "2025-12-15",
 					"recovery": "houji_in_global-ota_full-OS3.0.3.0.WNCINXM-user-16.0-d48275191f.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VNCINXM": {
 					"os": "OS2.0.207.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "houji_in_global-ota_full-OS2.0.207.0.VNCINXM-user-15.0-c82f076b80.zip",
-					"fastboot": "houji_in_global_images_OS2.0.207.0.VNCINXM_20251112.0000.00_15.0_in_c1ca6ed24a.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.207.0.VNCINXM_20251112.0000.00_15.0_in_c1ca6ed24a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VNCINXM": {
 					"os": "OS2.0.206.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "houji_in_global-ota_full-OS2.0.206.0.VNCINXM-user-15.0-1ec10ad4a2.zip",
-					"fastboot": "houji_in_global_images_OS2.0.206.0.VNCINXM_20251016.0000.00_15.0_in_bdc9da47f6.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.206.0.VNCINXM_20251016.0000.00_15.0_in_bdc9da47f6.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VNCINXM": {
 					"os": "OS2.0.205.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "houji_in_global-ota_full-OS2.0.205.0.VNCINXM-user-15.0-518bf28c33.zip",
-					"fastboot": "houji_in_global_images_OS2.0.205.0.VNCINXM_20250918.0000.00_15.0_in_a3d2af47b5.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.205.0.VNCINXM_20250918.0000.00_15.0_in_a3d2af47b5.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VNCINXM": {
 					"os": "OS2.0.203.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "houji_in_global-ota_full-OS2.0.203.0.VNCINXM-user-15.0-e26e80650c.zip",
-					"fastboot": "houji_in_global_images_OS2.0.203.0.VNCINXM_20250814.0000.00_15.0_in_169307e443.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.203.0.VNCINXM_20250814.0000.00_15.0_in_169307e443.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VNCINXM": {
 					"os": "OS2.0.202.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "houji_in_global-ota_full-OS2.0.202.0.VNCINXM-user-15.0-adb530ca4d.zip",
-					"fastboot": "houji_in_global_images_OS2.0.202.0.VNCINXM_20250711.0000.00_15.0_in_17083a5636.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.202.0.VNCINXM_20250711.0000.00_15.0_in_17083a5636.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VNCINXM": {
 					"os": "OS2.0.103.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-05-29",
 					"recovery": "houji_in_global-ota_full-OS2.0.103.0.VNCINXM-user-15.0-8465828d00.zip",
-					"fastboot": "houji_in_global_images_OS2.0.103.0.VNCINXM_20250520.0000.00_15.0_in_b629db8a24.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.103.0.VNCINXM_20250520.0000.00_15.0_in_b629db8a24.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.102.0.VNCINXM": {
 					"os": "OS2.0.102.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "houji_in_global-ota_full-OS2.0.102.0.VNCINXM-user-15.0-14ca0f8681.zip",
-					"fastboot": "houji_in_global_images_OS2.0.102.0.VNCINXM_20250414.0000.00_15.0_in_8b9ed1804d.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.102.0.VNCINXM_20250414.0000.00_15.0_in_8b9ed1804d.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VNCINXM": {
 					"os": "OS2.0.100.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-03-03",
 					"recovery": "houji_in_global-ota_full-OS2.0.100.0.VNCINXM-user-15.0-06a073c329.zip",
-					"fastboot": "houji_in_global_images_OS2.0.100.0.VNCINXM_20250217.0000.00_15.0_in_b7cf5761aa.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.100.0.VNCINXM_20250217.0000.00_15.0_in_b7cf5761aa.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.6.0.VNCINXM": {
 					"os": "OS2.0.6.0.VNCINXM",
 					"android": "15.0",
 					"release": "2025-02-21",
 					"recovery": "houji_in_global-ota_full-OS2.0.6.0.VNCINXM-user-15.0-901acaff14.zip",
-					"fastboot": "houji_in_global_images_OS2.0.6.0.VNCINXM_20250121.0000.00_15.0_in_80704e5a76.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.6.0.VNCINXM_20250121.0000.00_15.0_in_80704e5a76.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.4.0.VNCINXM": {
 					"os": "OS2.0.4.0.VNCINXM",
 					"android": "15.0",
 					"release": "2024-12-16",
 					"recovery": "houji_in_global-ota_full-OS2.0.4.0.VNCINXM-user-15.0-bd3cfcb89d.zip",
-					"fastboot": "houji_in_global_images_OS2.0.4.0.VNCINXM_20241206.0000.00_15.0_in_39ee4d1d4c.tgz"
+					"fastboot": "houji_in_global_images_OS2.0.4.0.VNCINXM_20241206.0000.00_15.0_in_39ee4d1d4c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.12.0.UNCINXM": {
 					"os": "OS1.0.12.0.UNCINXM",
 					"android": "14.0",
 					"release": "2024-10-22",
 					"recovery": "miui_HOUJIINGlobal_OS1.0.12.0.UNCINXM_0264b26dba_14.0.zip",
-					"fastboot": "houji_in_global_images_OS1.0.12.0.UNCINXM_20241017.0000.00_14.0_in_db23d61f05.tgz"
+					"fastboot": "houji_in_global_images_OS1.0.12.0.UNCINXM_20241017.0000.00_14.0_in_db23d61f05.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UNCINXM": {
 					"os": "OS1.0.9.0.UNCINXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_HOUJIINGlobal_OS1.0.9.0.UNCINXM_8c6ce705d4_14.0.zip",
-					"fastboot": "houji_in_global_images_OS1.0.9.0.UNCINXM_20240705.0000.00_14.0_in_0736d96895.tgz"
+					"fastboot": "houji_in_global_images_OS1.0.9.0.UNCINXM_20240705.0000.00_14.0_in_0736d96895.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.8.0.UNCINXM": {
 					"os": "OS1.0.8.0.UNCINXM",
 					"android": "14.0",
 					"release": "2024-06-18",
 					"recovery": "miui_HOUJIINGlobal_OS1.0.8.0.UNCINXM_192dd038d6_14.0.zip",
-					"fastboot": "houji_in_global_images_OS1.0.8.0.UNCINXM_20240528.0000.00_14.0_in_4fca3d275e.tgz"
+					"fastboot": "houji_in_global_images_OS1.0.8.0.UNCINXM_20240528.0000.00_14.0_in_4fca3d275e.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.7.0.UNCINXM": {
 					"os": "OS1.0.7.0.UNCINXM",
 					"android": "14.0",
 					"release": "2024-04-11",
 					"recovery": "miui_HOUJIINGlobal_OS1.0.7.0.UNCINXM_a479107bd9_14.0.zip",
-					"fastboot": "houji_in_global_images_OS1.0.7.0.UNCINXM_20240401.0000.00_14.0_in_fe3d350b68.tgz"
+					"fastboot": "houji_in_global_images_OS1.0.7.0.UNCINXM_20240401.0000.00_14.0_in_fe3d350b68.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.6.0.UNCINXM": {
 					"os": "OS1.0.6.0.UNCINXM",
 					"android": "14.0",
 					"release": "2024-03-06",
 					"recovery": "miui_HOUJIINGlobal_OS1.0.6.0.UNCINXM_288e04cd18_14.0.zip",
-					"fastboot": "houji_in_global_images_OS1.0.6.0.UNCINXM_20240227.0000.00_14.0_in_9be4fb7692.tgz"
+					"fastboot": "houji_in_global_images_OS1.0.6.0.UNCINXM_20240227.0000.00_14.0_in_9be4fb7692.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.2.0.UNCINXM": {
 					"os": "OS1.0.2.0.UNCINXM",
 					"android": "14.0",
 					"release": "2024-02-29",
 					"recovery": "miui_HOUJIINGlobal_OS1.0.2.0.UNCINXM_a054e6ddb8_14.0.zip",
-					"fastboot": "houji_in_global_images_OS1.0.2.0.UNCINXM_20231226.0000.00_14.0_in_5e68a35c2d.tgz"
+					"fastboot": "houji_in_global_images_OS1.0.2.0.UNCINXM_20231226.0000.00_14.0_in_5e68a35c2d.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -2241,6 +2494,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -2257,119 +2511,136 @@
 					"android": "16.0",
 					"release": "2026-04-23",
 					"recovery": "houji_id_global-ota_full-OS3.0.301.0.WNCIDXM-user-16.0-417efd3743.zip",
-					"fastboot": "houji_id_global_images_OS3.0.301.0.WNCIDXM_20260414.0000.00_16.0_id_44480e8d2d.tgz"
+					"fastboot": "houji_id_global_images_OS3.0.301.0.WNCIDXM_20260414.0000.00_16.0_id_44480e8d2d.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WNCIDXM": {
 					"os": "OS3.0.4.0.WNCIDXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "houji_id_global-ota_full-OS3.0.4.0.WNCIDXM-user-16.0-01cda5ee03.zip",
-					"fastboot": "houji_id_global_images_OS3.0.4.0.WNCIDXM_20260120.0000.00_16.0_id_a40fd3d73d.tgz"
+					"fastboot": "houji_id_global_images_OS3.0.4.0.WNCIDXM_20260120.0000.00_16.0_id_a40fd3d73d.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WNCIDXM": {
 					"os": "OS3.0.3.0.WNCIDXM",
 					"android": "16.0",
 					"release": "2025-12-15",
 					"recovery": "houji_id_global-ota_full-OS3.0.3.0.WNCIDXM-user-16.0-f7ef9012a5.zip",
-					"fastboot": "houji_id_global_images_OS3.0.3.0.WNCIDXM_20251130.0000.00_16.0_id_01467f5b84.tgz"
+					"fastboot": "houji_id_global_images_OS3.0.3.0.WNCIDXM_20251130.0000.00_16.0_id_01467f5b84.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VNCIDXM": {
 					"os": "OS2.0.203.0.VNCIDXM",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "houji_id_global-ota_full-OS2.0.203.0.VNCIDXM-user-15.0-adfc8a6a76.zip",
-					"fastboot": "houji_id_global_images_OS2.0.203.0.VNCIDXM_20251113.0000.00_15.0_id_891c6358be.tgz"
+					"fastboot": "houji_id_global_images_OS2.0.203.0.VNCIDXM_20251113.0000.00_15.0_id_891c6358be.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VNCIDXM": {
 					"os": "OS2.0.202.0.VNCIDXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "houji_id_global-ota_full-OS2.0.202.0.VNCIDXM-user-15.0-c899a684a7.zip",
-					"fastboot": "houji_id_global_images_OS2.0.202.0.VNCIDXM_20251016.0000.00_15.0_id_44dce69bba.tgz"
+					"fastboot": "houji_id_global_images_OS2.0.202.0.VNCIDXM_20251016.0000.00_15.0_id_44dce69bba.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VNCIDXM": {
 					"os": "OS2.0.201.0.VNCIDXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "houji_id_global-ota_full-OS2.0.201.0.VNCIDXM-user-15.0-6764076c8d.zip",
-					"fastboot": "houji_id_global_images_OS2.0.201.0.VNCIDXM_20250901.0000.00_15.0_id_4802d36c6a.tgz"
+					"fastboot": "houji_id_global_images_OS2.0.201.0.VNCIDXM_20250901.0000.00_15.0_id_4802d36c6a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.105.0.VNCIDXM": {
 					"os": "OS2.0.105.0.VNCIDXM",
 					"android": "15.0",
 					"release": "2025-06-13",
 					"recovery": "houji_id_global-ota_full-OS2.0.105.0.VNCIDXM-user-15.0-51ea0cb392.zip",
-					"fastboot": "houji_id_global_images_OS2.0.105.0.VNCIDXM_20250530.0000.00_15.0_id_49b61e3d3b.tgz"
+					"fastboot": "houji_id_global_images_OS2.0.105.0.VNCIDXM_20250530.0000.00_15.0_id_49b61e3d3b.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.104.0.VNCIDXM": {
 					"os": "OS2.0.104.0.VNCIDXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "houji_id_global-ota_full-OS2.0.104.0.VNCIDXM-user-15.0-42ed989acb.zip",
-					"fastboot": "houji_id_global_images_OS2.0.104.0.VNCIDXM_20250417.0000.00_15.0_id_f02014e2ea.tgz"
+					"fastboot": "houji_id_global_images_OS2.0.104.0.VNCIDXM_20250417.0000.00_15.0_id_f02014e2ea.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.103.0.VNCIDXM": {
 					"os": "OS2.0.103.0.VNCIDXM",
 					"android": "15.0",
 					"release": "2025-03-29",
 					"recovery": "houji_id_global-ota_full-OS2.0.103.0.VNCIDXM-user-15.0-07eb95859a.zip",
-					"fastboot": "houji_id_global_images_OS2.0.103.0.VNCIDXM_20250321.0000.00_15.0_id_3741d52154.tgz"
+					"fastboot": "houji_id_global_images_OS2.0.103.0.VNCIDXM_20250321.0000.00_15.0_id_3741d52154.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.4.0.VNCIDXM": {
 					"os": "OS2.0.4.0.VNCIDXM",
 					"android": "15.0",
 					"release": "2025-02-21",
 					"recovery": "houji_id_global-ota_full-OS2.0.4.0.VNCIDXM-user-15.0-f0f9a8d535.zip",
-					"fastboot": "houji_id_global_images_OS2.0.4.0.VNCIDXM_20250121.0000.00_15.0_id_192f9dc6fb.tgz"
+					"fastboot": "houji_id_global_images_OS2.0.4.0.VNCIDXM_20250121.0000.00_15.0_id_192f9dc6fb.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VNCIDXM": {
 					"os": "OS2.0.2.0.VNCIDXM",
 					"android": "15.0",
 					"release": "2024-12-23",
 					"recovery": "houji_id_global-ota_full-OS2.0.2.0.VNCIDXM-user-15.0-4d307ca0c2.zip",
-					"fastboot": "houji_id_global_images_OS2.0.2.0.VNCIDXM_20241214.0000.00_15.0_id_1c140e9bf4.tgz"
+					"fastboot": "houji_id_global_images_OS2.0.2.0.VNCIDXM_20241214.0000.00_15.0_id_1c140e9bf4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.13.0.UNCIDXM": {
 					"os": "OS1.0.13.0.UNCIDXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_HOUJIIDGlobal_OS1.0.13.0.UNCIDXM_2640e959e6_14.0.zip",
-					"fastboot": "houji_id_global_images_OS1.0.13.0.UNCIDXM_20241018.0000.00_14.0_id_1ad0d6334a.tgz"
+					"fastboot": "houji_id_global_images_OS1.0.13.0.UNCIDXM_20241018.0000.00_14.0_id_1ad0d6334a.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.11.0.UNCIDXM": {
 					"os": "OS1.0.11.0.UNCIDXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_HOUJIIDGlobal_OS1.0.11.0.UNCIDXM_014bd4c1a1_14.0.zip",
-					"fastboot": "houji_id_global_images_OS1.0.11.0.UNCIDXM_20240628.0000.00_14.0_id_64c758d2cd.tgz"
+					"fastboot": "houji_id_global_images_OS1.0.11.0.UNCIDXM_20240628.0000.00_14.0_id_64c758d2cd.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.10.0.UNCIDXM": {
 					"os": "OS1.0.10.0.UNCIDXM",
 					"android": "14.0",
 					"release": "2024-06-18",
 					"recovery": "miui_HOUJIIDGlobal_OS1.0.10.0.UNCIDXM_ee1677889a_14.0.zip",
-					"fastboot": "houji_id_global_images_OS1.0.10.0.UNCIDXM_20240603.0000.00_14.0_id_54eec55e02.tgz"
+					"fastboot": "houji_id_global_images_OS1.0.10.0.UNCIDXM_20240603.0000.00_14.0_id_54eec55e02.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.5.0.UNCIDXM": {
 					"os": "OS1.0.5.0.UNCIDXM",
 					"android": "14.0",
 					"release": "2024-04-11",
 					"recovery": "miui_HOUJIIDGlobal_OS1.0.5.0.UNCIDXM_6104159f0f_14.0.zip",
-					"fastboot": "houji_id_global_images_OS1.0.5.0.UNCIDXM_20240401.0000.00_14.0_id_4b669246c3.tgz"
+					"fastboot": "houji_id_global_images_OS1.0.5.0.UNCIDXM_20240401.0000.00_14.0_id_4b669246c3.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.4.0.UNCIDXM": {
 					"os": "OS1.0.4.0.UNCIDXM",
 					"android": "14.0",
 					"release": "2024-03-20",
 					"recovery": "miui_HOUJIIDGlobal_OS1.0.4.0.UNCIDXM_05b80b1a0f_14.0.zip",
-					"fastboot": "houji_id_global_images_OS1.0.4.0.UNCIDXM_20240224.0000.00_14.0_id_36b59f9ee9.tgz"
+					"fastboot": "houji_id_global_images_OS1.0.4.0.UNCIDXM_20240224.0000.00_14.0_id_36b59f9ee9.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.1.0.UNCIDXM": {
 					"os": "OS1.0.1.0.UNCIDXM",
 					"android": "14.0",
 					"release": "2024-02-29",
 					"recovery": "miui_HOUJIIDGlobal_OS1.0.1.0.UNCIDXM_ff110adf85_14.0.zip",
-					"fastboot": "houji_id_global_images_OS1.0.1.0.UNCIDXM_20231217.0000.00_14.0_id_d464310a70.tgz"
+					"fastboot": "houji_id_global_images_OS1.0.1.0.UNCIDXM_20231217.0000.00_14.0_id_d464310a70.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -2391,6 +2662,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -2407,7 +2679,8 @@
 					"android": "14.0",
 					"release": "2024-02-29",
 					"recovery": "miui_HOUJITRGlobal_OS1.0.1.0.UNCTRXM_98f8e61a8f_14.0.zip",
-					"fastboot": "houji_tr_global_images_OS1.0.1.0.UNCTRXM_20231208.0000.00_14.0_tr_06ee22deb0.tgz"
+					"fastboot": "houji_tr_global_images_OS1.0.1.0.UNCTRXM_20231208.0000.00_14.0_tr_06ee22deb0.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		}

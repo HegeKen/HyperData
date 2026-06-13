@@ -10,6 +10,9 @@ def os_replace(ver):
 langs = ['zh_CN', 'en_US']
 logs_zh = []
 logs_en = []
+ids = []
+ids_zh = []
+ids_en = []
 pre_zh = "SELECT id FROM roms WHERE logs_zh IS NULL AND branch !='X'"
 pre_en = "SELECT id FROM roms WHERE logs_en IS NULL AND branch !='X'"
 result = OScommon.db_job(pre_zh)

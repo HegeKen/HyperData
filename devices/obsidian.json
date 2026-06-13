@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -53,119 +54,136 @@
 					"android": "16.0",
 					"release": "2026-04-21",
 					"recovery": "obsidian_global-ota_full-OS3.0.302.0.WOFMIXM-user-16.0-d693ab420f.zip",
-					"fastboot": "obsidian_global_images_OS3.0.302.0.WOFMIXM_20260417.0000.00_16.0_global_7d434b6877.tgz"
+					"fastboot": "obsidian_global_images_OS3.0.302.0.WOFMIXM_20260417.0000.00_16.0_global_7d434b6877.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.5.0.WOFMIXM": {
 					"os": "OS3.0.5.0.WOFMIXM",
 					"android": "16.0",
 					"release": "2026-04-02",
 					"recovery": "obsidian_global-ota_full-OS3.0.5.0.WOFMIXM-user-16.0-e27f6225f3.zip",
-					"fastboot": "obsidian_global_images_OS3.0.5.0.WOFMIXM_20260324.0000.00_16.0_global_a90332b9a0.tgz"
+					"fastboot": "obsidian_global_images_OS3.0.5.0.WOFMIXM_20260324.0000.00_16.0_global_a90332b9a0.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WOFMIXM": {
 					"os": "OS3.0.4.0.WOFMIXM",
 					"android": "16.0",
 					"release": "2026-03-01",
 					"recovery": "obsidian_global-ota_full-OS3.0.4.0.WOFMIXM-user-16.0-ea25cc6c80.zip",
-					"fastboot": "obsidian_global_images_OS3.0.4.0.WOFMIXM_20260203.0000.00_16.0_global_a51f14bf05.tgz"
+					"fastboot": "obsidian_global_images_OS3.0.4.0.WOFMIXM_20260203.0000.00_16.0_global_a51f14bf05.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.3.0.WOFMIXM": {
 					"os": "OS3.0.3.0.WOFMIXM",
 					"android": "16.0",
 					"release": "2025-12-04",
 					"recovery": "obsidian_global-ota_full-OS3.0.3.0.WOFMIXM-user-16.0-eaf3a772c1.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.213.0.VOFMIXM": {
 					"os": "OS2.0.213.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2026-02-28",
 					"recovery": "obsidian_global-ota_full-OS2.0.213.0.VOFMIXM-user-15.0-9d9313f732.zip",
-					"fastboot": "obsidian_global_images_OS2.0.213.0.VOFMIXM_20260224.0000.00_15.0_global_84a399bab1.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.213.0.VOFMIXM_20260224.0000.00_15.0_global_84a399bab1.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.212.0.VOFMIXM": {
 					"os": "OS2.0.212.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2026-01-05",
 					"recovery": "obsidian_global-ota_full-OS2.0.212.0.VOFMIXM-user-15.0-96fbd9ba40.zip",
-					"fastboot": "obsidian_global_images_OS2.0.212.0.VOFMIXM_20251225.0000.00_15.0_global_4b368a211f.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.212.0.VOFMIXM_20251225.0000.00_15.0_global_4b368a211f.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.211.0.VOFMIXM": {
 					"os": "OS2.0.211.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "obsidian_global-ota_full-OS2.0.211.0.VOFMIXM-user-15.0-f51b870bf6.zip",
-					"fastboot": "obsidian_global_images_OS2.0.211.0.VOFMIXM_20251105.0000.00_15.0_global_bccd49cc30.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.211.0.VOFMIXM_20251105.0000.00_15.0_global_bccd49cc30.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.210.0.VOFMIXM": {
 					"os": "OS2.0.210.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2025-10-20",
 					"recovery": "obsidian_global-ota_full-OS2.0.210.0.VOFMIXM-user-15.0-abfe21e510.zip",
-					"fastboot": "obsidian_global_images_OS2.0.210.0.VOFMIXM_20250924.0000.00_15.0_global_06a1068ae4.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.210.0.VOFMIXM_20250924.0000.00_15.0_global_06a1068ae4.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.209.0.VOFMIXM": {
 					"os": "OS2.0.209.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "obsidian_global-ota_full-OS2.0.209.0.VOFMIXM-user-15.0-ec9eedceb5.zip",
-					"fastboot": "obsidian_global_images_OS2.0.209.0.VOFMIXM_20250903.0000.00_15.0_global_0d016ea421.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.209.0.VOFMIXM_20250903.0000.00_15.0_global_0d016ea421.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.207.0.VOFMIXM": {
 					"os": "OS2.0.207.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2025-08-27",
 					"recovery": "obsidian_global-ota_full-OS2.0.207.0.VOFMIXM-user-15.0-78a178dd2d.zip",
-					"fastboot": "obsidian_global_images_OS2.0.207.0.VOFMIXM_20250812.0000.00_15.0_global_1c444cdb7a.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.207.0.VOFMIXM_20250812.0000.00_15.0_global_1c444cdb7a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOFMIXM": {
 					"os": "OS2.0.201.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2025-07-22",
 					"recovery": "obsidian_global-ota_full-OS2.0.201.0.VOFMIXM-user-15.0-cc470242bb.zip",
-					"fastboot": "obsidian_global_images_OS2.0.201.0.VOFMIXM_20250707.0000.00_15.0_global_06b8dce243.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.201.0.VOFMIXM_20250707.0000.00_15.0_global_06b8dce243.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.6.0.VOFMIXM": {
 					"os": "OS2.0.6.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "obsidian_global-ota_full-OS2.0.6.0.VOFMIXM-user-15.0-c1c65e24e4.zip",
-					"fastboot": "obsidian_global_images_OS2.0.6.0.VOFMIXM_20250524.0000.00_15.0_global_75a392bae8.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.6.0.VOFMIXM_20250524.0000.00_15.0_global_75a392bae8.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.5.0.VOFMIXM": {
 					"os": "OS2.0.5.0.VOFMIXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "obsidian_global-ota_full-OS2.0.5.0.VOFMIXM-user-15.0-bcda53812b.zip",
-					"fastboot": "obsidian_global_images_OS2.0.5.0.VOFMIXM_20250423.0000.00_15.0_global_075d5c2f70.tgz"
+					"fastboot": "obsidian_global_images_OS2.0.5.0.VOFMIXM_20250423.0000.00_15.0_global_075d5c2f70.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.7.0.UOFMIXM": {
 					"os": "OS1.0.7.0.UOFMIXM",
 					"android": "14.0",
 					"release": "2025-04-24",
 					"recovery": "miui_OBSIDIANGlobal_OS1.0.7.0.UOFMIXM_ce13da80d5_14.0.zip",
-					"fastboot": "obsidian_global_images_OS1.0.7.0.UOFMIXM_20250413.0000.00_14.0_global_f358c3f8da.tgz"
+					"fastboot": "obsidian_global_images_OS1.0.7.0.UOFMIXM_20250413.0000.00_14.0_global_f358c3f8da.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.4.0.UOFMIXM": {
 					"os": "OS1.0.4.0.UOFMIXM",
 					"android": "14.0",
 					"release": "2025-03-21",
 					"recovery": "miui_OBSIDIANGlobal_OS1.0.4.0.UOFMIXM_da2a9c9b73_14.0.zip",
-					"fastboot": "obsidian_global_images_OS1.0.4.0.UOFMIXM_20250311.0000.00_14.0_global_b4b9959083.tgz"
+					"fastboot": "obsidian_global_images_OS1.0.4.0.UOFMIXM_20250311.0000.00_14.0_global_b4b9959083.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.3.0.UOFMIXM": {
 					"os": "OS1.0.3.0.UOFMIXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_OBSIDIANGlobal_OS1.0.3.0.UOFMIXM_4c5ca499f5_14.0.zip",
-					"fastboot": "obsidian_global_images_OS1.0.3.0.UOFMIXM_20241231.0000.00_14.0_global_75d12b2204.tgz"
+					"fastboot": "obsidian_global_images_OS1.0.3.0.UOFMIXM_20241231.0000.00_14.0_global_75d12b2204.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.2.0.UOFMIXM": {
 					"os": "OS1.0.2.0.UOFMIXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_OBSIDIANGlobal_OS1.0.2.0.UOFMIXM_e39603a780_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -187,6 +205,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -203,84 +222,96 @@
 					"android": "16.0",
 					"release": "2026-05-22",
 					"recovery": "obsidian_dc_global-ota_full-OS3.0.301.0.WOFMIDC-user-16.0-1f95dbfc43.zip",
-					"fastboot": "obsidian_dc_global_images_OS3.0.301.0.WOFMIDC_20260512.0000.00_16.0_global_dc_b26813ca4c.tgz"
+					"fastboot": "obsidian_dc_global_images_OS3.0.301.0.WOFMIDC_20260512.0000.00_16.0_global_dc_b26813ca4c.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WOFMIDC": {
 					"os": "OS3.0.3.0.WOFMIDC",
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "obsidian_dc_global-ota_full-OS3.0.3.0.WOFMIDC-user-16.0-53d6d9ca09.zip",
-					"fastboot": "obsidian_dc_global_images_OS3.0.3.0.WOFMIDC_20260324.0000.00_16.0_global_dc_53cb364354.tgz"
+					"fastboot": "obsidian_dc_global_images_OS3.0.3.0.WOFMIDC_20260324.0000.00_16.0_global_dc_53cb364354.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.207.0.VOFMIDC": {
 					"os": "OS2.0.207.0.VOFMIDC",
 					"android": "15.0",
 					"release": "2026-02-02",
 					"recovery": "obsidian_dc_global-ota_full-OS2.0.207.0.VOFMIDC-user-15.0-d5eeb90cf5.zip",
-					"fastboot": "obsidian_dc_global_images_OS2.0.207.0.VOFMIDC_20260105.0000.00_15.0_global_dc_94af1024f0.tgz"
+					"fastboot": "obsidian_dc_global_images_OS2.0.207.0.VOFMIDC_20260105.0000.00_15.0_global_dc_94af1024f0.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.206.0.VOFMIDC": {
 					"os": "OS2.0.206.0.VOFMIDC",
 					"android": "15.0",
 					"release": "2025-11-20",
 					"recovery": "obsidian_dc_global-ota_full-OS2.0.206.0.VOFMIDC-user-15.0-da5d50c036.zip",
-					"fastboot": "obsidian_dc_global_images_OS2.0.206.0.VOFMIDC_20251111.0000.00_15.0_global_dc_7f0dd305b0.tgz"
+					"fastboot": "obsidian_dc_global_images_OS2.0.206.0.VOFMIDC_20251111.0000.00_15.0_global_dc_7f0dd305b0.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOFMIDC": {
 					"os": "OS2.0.205.0.VOFMIDC",
 					"android": "15.0",
 					"release": "2025-10-16",
 					"recovery": "obsidian_dc_global-ota_full-OS2.0.205.0.VOFMIDC-user-15.0-1780023079.zip",
-					"fastboot": "obsidian_dc_global_images_OS2.0.205.0.VOFMIDC_20250930.0000.00_15.0_global_dc_8e5459a120.tgz"
+					"fastboot": "obsidian_dc_global_images_OS2.0.205.0.VOFMIDC_20250930.0000.00_15.0_global_dc_8e5459a120.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOFMIDC": {
 					"os": "OS2.0.204.0.VOFMIDC",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "obsidian_dc_global-ota_full-OS2.0.204.0.VOFMIDC-user-15.0-be3cb51aca.zip",
-					"fastboot": "obsidian_dc_global_images_OS2.0.204.0.VOFMIDC_20250916.0000.00_15.0_global_dc_b774ef3c2f.tgz"
+					"fastboot": "obsidian_dc_global_images_OS2.0.204.0.VOFMIDC_20250916.0000.00_15.0_global_dc_b774ef3c2f.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VOFMIDC": {
 					"os": "OS2.0.203.0.VOFMIDC",
 					"android": "15.0",
 					"release": "2025-08-26",
 					"recovery": "obsidian_dc_global-ota_full-OS2.0.203.0.VOFMIDC-user-15.0-57b71abd9e.zip",
-					"fastboot": "obsidian_dc_global_images_OS2.0.203.0.VOFMIDC_20250818.0000.00_15.0_global_dc_08a4c9d5b7.tgz"
+					"fastboot": "obsidian_dc_global_images_OS2.0.203.0.VOFMIDC_20250818.0000.00_15.0_global_dc_08a4c9d5b7.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.7.0.VOFMIDC": {
 					"os": "OS2.0.7.0.VOFMIDC",
 					"android": "15.0",
 					"release": "2025-06-12",
 					"recovery": "obsidian_dc_global-ota_full-OS2.0.7.0.VOFMIDC-user-15.0-7055467f20.zip",
-					"fastboot": "obsidian_dc_global_images_OS2.0.7.0.VOFMIDC_20250527.0000.00_15.0_global_dc_8fd43f3c95.tgz"
+					"fastboot": "obsidian_dc_global_images_OS2.0.7.0.VOFMIDC_20250527.0000.00_15.0_global_dc_8fd43f3c95.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.6.0.VOFMIDC": {
 					"os": "OS2.0.6.0.VOFMIDC",
 					"android": "15.0",
 					"release": "2025-04-30",
 					"recovery": "obsidian_dc_global-ota_full-OS2.0.6.0.VOFMIDC-user-15.0-7ff060c4a7.zip",
-					"fastboot": "obsidian_dc_global_images_OS2.0.6.0.VOFMIDC_20250422.0000.00_15.0_global_dc_50b5752044.tgz"
+					"fastboot": "obsidian_dc_global_images_OS2.0.6.0.VOFMIDC_20250422.0000.00_15.0_global_dc_50b5752044.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.6.0.UOFMIDC": {
 					"os": "OS1.0.6.0.UOFMIDC",
 					"android": "14.0",
 					"release": "2025-05-09",
 					"recovery": "miui_OBSIDIANDCGlobal_OS1.0.6.0.UOFMIDC_cee113d286_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.4.0.UOFMIDC": {
 					"os": "OS1.0.4.0.UOFMIDC",
 					"android": "14.0",
 					"release": "2025-04-09",
 					"recovery": "miui_OBSIDIANDCGlobal_OS1.0.4.0.UOFMIDC_862e67c73e_14.0.zip",
-					"fastboot": "obsidian_dc_global_images_OS1.0.4.0.UOFMIDC_20250329.0000.00_14.0_global_dc_8c904a34df.tgz"
+					"fastboot": "obsidian_dc_global_images_OS1.0.4.0.UOFMIDC_20250329.0000.00_14.0_global_dc_8c904a34df.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.2.0.UOFMIDC": {
 					"os": "OS1.0.2.0.UOFMIDC",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_OBSIDIANDCGlobal_OS1.0.2.0.UOFMIDC_0d296c64b6_14.0.zip",
-					"fastboot": "obsidian_dc_global_images_OS1.0.2.0.UOFMIDC_20241219.0000.00_14.0_global_dc_b3ac46abe1.tgz"
+					"fastboot": "obsidian_dc_global_images_OS1.0.2.0.UOFMIDC_20241219.0000.00_14.0_global_dc_b3ac46abe1.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -302,6 +333,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -318,91 +350,104 @@
 					"android": "16.0",
 					"release": "2026-05-22",
 					"recovery": "obsidian_eea_global-ota_full-OS3.0.301.0.WOFEUXM-user-16.0-6e255241bf.zip",
-					"fastboot": "obsidian_eea_global_images_OS3.0.301.0.WOFEUXM_20260512.0000.00_16.0_eea_c89727bb54.tgz"
+					"fastboot": "obsidian_eea_global_images_OS3.0.301.0.WOFEUXM_20260512.0000.00_16.0_eea_c89727bb54.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WOFEUXM": {
 					"os": "OS3.0.3.0.WOFEUXM",
 					"android": "16.0",
 					"release": "2026-04-03",
 					"recovery": "obsidian_eea_global-ota_full-OS3.0.3.0.WOFEUXM-user-16.0-4d277d0325.zip",
-					"fastboot": "obsidian_eea_global_images_OS3.0.3.0.WOFEUXM_20260324.0000.00_16.0_eea_2ed0ea9dec.tgz"
+					"fastboot": "obsidian_eea_global_images_OS3.0.3.0.WOFEUXM_20260324.0000.00_16.0_eea_2ed0ea9dec.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.215.0.VOFEUXM": {
 					"os": "OS2.0.215.0.VOFEUXM",
 					"android": "15.0",
 					"release": "2026-02-26",
 					"recovery": "obsidian_eea_global-ota_full-OS2.0.215.0.VOFEUXM-user-15.0-d852a50731.zip",
-					"fastboot": "obsidian_eea_global_images_OS2.0.215.0.VOFEUXM_20260206.0000.00_15.0_eea_2c5263f49d.tgz"
+					"fastboot": "obsidian_eea_global_images_OS2.0.215.0.VOFEUXM_20260206.0000.00_15.0_eea_2c5263f49d.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.209.0.VOFEUXM": {
 					"os": "OS2.0.209.0.VOFEUXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "obsidian_eea_global-ota_full-OS2.0.209.0.VOFEUXM-user-15.0-f9aac6d778.zip",
-					"fastboot": "obsidian_eea_global_images_OS2.0.209.0.VOFEUXM_20251225.0000.00_15.0_eea_7dda57466f.tgz"
+					"fastboot": "obsidian_eea_global_images_OS2.0.209.0.VOFEUXM_20251225.0000.00_15.0_eea_7dda57466f.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.208.0.VOFEUXM": {
 					"os": "OS2.0.208.0.VOFEUXM",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "obsidian_eea_global-ota_full-OS2.0.208.0.VOFEUXM-user-15.0-4a12688ad3.zip",
-					"fastboot": "obsidian_eea_global_images_OS2.0.208.0.VOFEUXM_20251111.0000.00_15.0_eea_8fad48c7dd.tgz"
+					"fastboot": "obsidian_eea_global_images_OS2.0.208.0.VOFEUXM_20251111.0000.00_15.0_eea_8fad48c7dd.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VOFEUXM": {
 					"os": "OS2.0.207.0.VOFEUXM",
 					"android": "15.0",
 					"release": "2025-10-20",
 					"recovery": "obsidian_eea_global-ota_full-OS2.0.207.0.VOFEUXM-user-15.0-c047aef742.zip",
-					"fastboot": "obsidian_eea_global_images_OS2.0.207.0.VOFEUXM_20250928.0000.00_15.0_eea_b37aa37959.tgz"
+					"fastboot": "obsidian_eea_global_images_OS2.0.207.0.VOFEUXM_20250928.0000.00_15.0_eea_b37aa37959.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VOFEUXM": {
 					"os": "OS2.0.206.0.VOFEUXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "obsidian_eea_global-ota_full-OS2.0.206.0.VOFEUXM-user-15.0-1f4079ed43.zip",
-					"fastboot": "obsidian_eea_global_images_OS2.0.206.0.VOFEUXM_20250916.0000.00_15.0_eea_71b6441d08.tgz"
+					"fastboot": "obsidian_eea_global_images_OS2.0.206.0.VOFEUXM_20250916.0000.00_15.0_eea_71b6441d08.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VOFEUXM": {
 					"os": "OS2.0.204.0.VOFEUXM",
 					"android": "15.0",
 					"release": "2025-08-27",
 					"recovery": "obsidian_eea_global-ota_full-OS2.0.204.0.VOFEUXM-user-15.0-696d9123ab.zip",
-					"fastboot": "obsidian_eea_global_images_OS2.0.204.0.VOFEUXM_20250818.0000.00_15.0_eea_197960b88d.tgz"
+					"fastboot": "obsidian_eea_global_images_OS2.0.204.0.VOFEUXM_20250818.0000.00_15.0_eea_197960b88d.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VOFEUXM": {
 					"os": "OS2.0.202.0.VOFEUXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "obsidian_eea_global-ota_full-OS2.0.202.0.VOFEUXM-user-15.0-f7219b1c2a.zip",
-					"fastboot": "obsidian_eea_global_images_OS2.0.202.0.VOFEUXM_20250619.0000.00_15.0_eea_5155425479.tgz"
+					"fastboot": "obsidian_eea_global_images_OS2.0.202.0.VOFEUXM_20250619.0000.00_15.0_eea_5155425479.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.3.0.VOFEUXM": {
 					"os": "OS2.0.3.0.VOFEUXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "obsidian_eea_global-ota_full-OS2.0.3.0.VOFEUXM-user-15.0-97799501da.zip",
-					"fastboot": "obsidian_eea_global_images_OS2.0.3.0.VOFEUXM_20250422.0000.00_15.0_eea_a24d3cc960.tgz"
+					"fastboot": "obsidian_eea_global_images_OS2.0.3.0.VOFEUXM_20250422.0000.00_15.0_eea_a24d3cc960.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.6.0.UOFEUXM": {
 					"os": "OS1.0.6.0.UOFEUXM",
 					"android": "14.0",
 					"release": "2025-04-21",
 					"recovery": "miui_OBSIDIANEEAGlobal_OS1.0.6.0.UOFEUXM_809e11570b_14.0.zip",
-					"fastboot": "obsidian_eea_global_images_OS1.0.6.0.UOFEUXM_20250413.0000.00_14.0_eea_7e2f444819.tgz"
+					"fastboot": "obsidian_eea_global_images_OS1.0.6.0.UOFEUXM_20250413.0000.00_14.0_eea_7e2f444819.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.4.0.UOFEUXM": {
 					"os": "OS1.0.4.0.UOFEUXM",
 					"android": "14.0",
 					"release": "2025-03-21",
 					"recovery": "miui_OBSIDIANEEAGlobal_OS1.0.4.0.UOFEUXM_1fa5da6b85_14.0.zip",
-					"fastboot": "obsidian_eea_global_images_OS1.0.4.0.UOFEUXM_20250314.0000.00_14.0_eea_eb09506694.tgz"
+					"fastboot": "obsidian_eea_global_images_OS1.0.4.0.UOFEUXM_20250314.0000.00_14.0_eea_eb09506694.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.2.0.UOFEUXM": {
 					"os": "OS1.0.2.0.UOFEUXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_OBSIDIANEEAGlobal_OS1.0.2.0.UOFEUXM_ba587fa987_14.0.zip",
-					"fastboot": "obsidian_eea_global_images_OS1.0.2.0.UOFEUXM_20241213.0000.00_14.0_eea_261455c6cf.tgz"
+					"fastboot": "obsidian_eea_global_images_OS1.0.2.0.UOFEUXM_20241213.0000.00_14.0_eea_261455c6cf.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -424,6 +469,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -440,105 +486,120 @@
 					"android": "16.0",
 					"release": "2026-05-27",
 					"recovery": "obsidian_ru_global-ota_full-OS3.0.301.0.WOFRUXM-user-16.0-5a926eb6d8.zip",
-					"fastboot": "obsidian_ru_global_images_OS3.0.301.0.WOFRUXM_20260520.0000.00_16.0_ru_0a092ed2c7.tgz"
+					"fastboot": "obsidian_ru_global_images_OS3.0.301.0.WOFRUXM_20260520.0000.00_16.0_ru_0a092ed2c7.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WOFRUXM": {
 					"os": "OS3.0.3.0.WOFRUXM",
 					"android": "16.0",
 					"release": "2026-04-02",
 					"recovery": "obsidian_ru_global-ota_full-OS3.0.3.0.WOFRUXM-user-16.0-3e1665562a.zip",
-					"fastboot": "obsidian_ru_global_images_OS3.0.3.0.WOFRUXM_20260324.0000.00_16.0_ru_9bfcd033d2.tgz"
+					"fastboot": "obsidian_ru_global_images_OS3.0.3.0.WOFRUXM_20260324.0000.00_16.0_ru_9bfcd033d2.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.208.0.VOFRUXM": {
 					"os": "OS2.0.208.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2026-03-22",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.208.0.VOFRUXM-user-15.0-f1a31d9ac4.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.208.0.VOFRUXM_20260311.0000.00_15.0_ru_f3bab56169.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.208.0.VOFRUXM_20260311.0000.00_15.0_ru_f3bab56169.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.207.0.VOFRUXM": {
 					"os": "OS2.0.207.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.207.0.VOFRUXM-user-15.0-c1e28d5039.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.207.0.VOFRUXM_20251217.0000.00_15.0_ru_56892ccae3.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.207.0.VOFRUXM_20251217.0000.00_15.0_ru_56892ccae3.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.206.0.VOFRUXM": {
 					"os": "OS2.0.206.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.206.0.VOFRUXM-user-15.0-a02f4db01c.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.206.0.VOFRUXM_20251111.0000.00_15.0_ru_6aacc88f8d.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.206.0.VOFRUXM_20251111.0000.00_15.0_ru_6aacc88f8d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOFRUXM": {
 					"os": "OS2.0.205.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2025-10-20",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.205.0.VOFRUXM-user-15.0-2bdcac57c0.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.205.0.VOFRUXM_20251009.0000.00_15.0_ru_1d6071743b.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.205.0.VOFRUXM_20251009.0000.00_15.0_ru_1d6071743b.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOFRUXM": {
 					"os": "OS2.0.204.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.204.0.VOFRUXM-user-15.0-8d44aa3361.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.204.0.VOFRUXM_20250915.0000.00_15.0_ru_b3419d7232.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.204.0.VOFRUXM_20250915.0000.00_15.0_ru_b3419d7232.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VOFRUXM": {
 					"os": "OS2.0.203.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2025-08-27",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.203.0.VOFRUXM-user-15.0-40b85a8d9e.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.203.0.VOFRUXM_20250818.0000.00_15.0_ru_ac8f892fc5.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.203.0.VOFRUXM_20250818.0000.00_15.0_ru_ac8f892fc5.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOFRUXM": {
 					"os": "OS2.0.201.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2025-07-22",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.201.0.VOFRUXM-user-15.0-fe150c643e.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.201.0.VOFRUXM_20250715.0000.00_15.0_ru_2aedfb6a4c.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.201.0.VOFRUXM_20250715.0000.00_15.0_ru_2aedfb6a4c.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.4.0.VOFRUXM": {
 					"os": "OS2.0.4.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.4.0.VOFRUXM-user-15.0-caa326cecc.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.4.0.VOFRUXM_20250524.0000.00_15.0_ru_1e52386234.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.4.0.VOFRUXM_20250524.0000.00_15.0_ru_1e52386234.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VOFRUXM": {
 					"os": "OS2.0.3.0.VOFRUXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "obsidian_ru_global-ota_full-OS2.0.3.0.VOFRUXM-user-15.0-d26282ff3d.zip",
-					"fastboot": "obsidian_ru_global_images_OS2.0.3.0.VOFRUXM_20250429.0000.00_15.0_ru_fde31695f0.tgz"
+					"fastboot": "obsidian_ru_global_images_OS2.0.3.0.VOFRUXM_20250429.0000.00_15.0_ru_fde31695f0.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UOFRUXM": {
 					"os": "OS1.0.7.0.UOFRUXM",
 					"android": "14.0",
 					"release": "2025-04-25",
 					"recovery": "miui_OBSIDIANRUGlobal_OS1.0.7.0.UOFRUXM_471e1bcf15_14.0.zip",
-					"fastboot": "obsidian_ru_global_images_OS1.0.7.0.UOFRUXM_20250415.0000.00_14.0_ru_c19095c060.tgz"
+					"fastboot": "obsidian_ru_global_images_OS1.0.7.0.UOFRUXM_20250415.0000.00_14.0_ru_c19095c060.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.5.0.UOFRUXM": {
 					"os": "OS1.0.5.0.UOFRUXM",
 					"android": "14.0",
 					"release": "2025-03-25",
 					"recovery": "miui_OBSIDIANRUGlobal_OS1.0.5.0.UOFRUXM_14f3dfc05f_14.0.zip",
-					"fastboot": "obsidian_ru_global_images_OS1.0.5.0.UOFRUXM_20250318.0000.00_14.0_ru_275a599a99.tgz"
+					"fastboot": "obsidian_ru_global_images_OS1.0.5.0.UOFRUXM_20250318.0000.00_14.0_ru_275a599a99.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.4.0.UOFRUXM": {
 					"os": "OS1.0.4.0.UOFRUXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_OBSIDIANRUGlobal_OS1.0.4.0.UOFRUXM_dc0922dac2_14.0.zip",
-					"fastboot": "obsidian_ru_global_images_OS1.0.4.0.UOFRUXM_20241128.0000.00_14.0_ru_37059242de.tgz"
+					"fastboot": "obsidian_ru_global_images_OS1.0.4.0.UOFRUXM_20241128.0000.00_14.0_ru_37059242de.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UOFRUXM": {
 					"os": "OS1.0.3.0.UOFRUXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_OBSIDIANRUGlobal_OS1.0.3.0.UOFRUXM_87c77b24af_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -560,6 +621,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -576,91 +638,104 @@
 					"android": "16.0",
 					"release": "2026-05-27",
 					"recovery": "obsidian_tr_global-ota_full-OS3.0.301.0.WOFTRXM-user-16.0-a4e962acc4.zip",
-					"fastboot": "obsidian_tr_global_images_OS3.0.301.0.WOFTRXM_20260520.0000.00_16.0_tr_c59b814673.tgz"
+					"fastboot": "obsidian_tr_global_images_OS3.0.301.0.WOFTRXM_20260520.0000.00_16.0_tr_c59b814673.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WOFTRXM": {
 					"os": "OS3.0.3.0.WOFTRXM",
 					"android": "16.0",
 					"release": "2026-04-02",
 					"recovery": "obsidian_tr_global-ota_full-OS3.0.3.0.WOFTRXM-user-16.0-3dd932bf97.zip",
-					"fastboot": "obsidian_tr_global_images_OS3.0.3.0.WOFTRXM_20260324.0000.00_16.0_tr_dd0bf3250c.tgz"
+					"fastboot": "obsidian_tr_global_images_OS3.0.3.0.WOFTRXM_20260324.0000.00_16.0_tr_dd0bf3250c.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.210.0.VOFTRXM": {
 					"os": "OS2.0.210.0.VOFTRXM",
 					"android": "15.0",
 					"release": "2026-03-22",
 					"recovery": "obsidian_tr_global-ota_full-OS2.0.210.0.VOFTRXM-user-15.0-8b3a48de82.zip",
-					"fastboot": "obsidian_tr_global_images_OS2.0.210.0.VOFTRXM_20260311.0000.00_15.0_tr_bb634727c7.tgz"
+					"fastboot": "obsidian_tr_global_images_OS2.0.210.0.VOFTRXM_20260311.0000.00_15.0_tr_bb634727c7.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.209.0.VOFTRXM": {
 					"os": "OS2.0.209.0.VOFTRXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "obsidian_tr_global-ota_full-OS2.0.209.0.VOFTRXM-user-15.0-1192ed764e.zip",
-					"fastboot": "obsidian_tr_global_images_OS2.0.209.0.VOFTRXM_20251218.0000.00_15.0_tr_a43b7754a9.tgz"
+					"fastboot": "obsidian_tr_global_images_OS2.0.209.0.VOFTRXM_20251218.0000.00_15.0_tr_a43b7754a9.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.207.0.VOFTRXM": {
 					"os": "OS2.0.207.0.VOFTRXM",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "obsidian_tr_global-ota_full-OS2.0.207.0.VOFTRXM-user-15.0-d3ed4b2d1d.zip",
-					"fastboot": "obsidian_tr_global_images_OS2.0.207.0.VOFTRXM_20251111.0000.00_15.0_tr_2216e423d5.tgz"
+					"fastboot": "obsidian_tr_global_images_OS2.0.207.0.VOFTRXM_20251111.0000.00_15.0_tr_2216e423d5.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VOFTRXM": {
 					"os": "OS2.0.206.0.VOFTRXM",
 					"android": "15.0",
 					"release": "2025-10-20",
 					"recovery": "obsidian_tr_global-ota_full-OS2.0.206.0.VOFTRXM-user-15.0-08052b9d68.zip",
-					"fastboot": "obsidian_tr_global_images_OS2.0.206.0.VOFTRXM_20250928.0000.00_15.0_tr_b337abbb54.tgz"
+					"fastboot": "obsidian_tr_global_images_OS2.0.206.0.VOFTRXM_20250928.0000.00_15.0_tr_b337abbb54.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOFTRXM": {
 					"os": "OS2.0.204.0.VOFTRXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "obsidian_tr_global-ota_full-OS2.0.204.0.VOFTRXM-user-15.0-f5e398a030.zip",
-					"fastboot": "obsidian_tr_global_images_OS2.0.204.0.VOFTRXM_20250917.0000.00_15.0_tr_2b673f8cbf.tgz"
+					"fastboot": "obsidian_tr_global_images_OS2.0.204.0.VOFTRXM_20250917.0000.00_15.0_tr_2b673f8cbf.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOFTRXM": {
 					"os": "OS2.0.201.0.VOFTRXM",
 					"android": "15.0",
 					"release": "2025-07-26",
 					"recovery": "obsidian_tr_global-ota_full-OS2.0.201.0.VOFTRXM-user-15.0-759c0dffc7.zip",
-					"fastboot": "obsidian_tr_global_images_OS2.0.201.0.VOFTRXM_20250715.0000.00_15.0_tr_5cade5a1ab.tgz"
+					"fastboot": "obsidian_tr_global_images_OS2.0.201.0.VOFTRXM_20250715.0000.00_15.0_tr_5cade5a1ab.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.4.0.VOFTRXM": {
 					"os": "OS2.0.4.0.VOFTRXM",
 					"android": "15.0",
 					"release": "2025-06-18",
 					"recovery": "obsidian_tr_global-ota_full-OS2.0.4.0.VOFTRXM-user-15.0-37f4099c1d.zip",
-					"fastboot": "obsidian_tr_global_images_OS2.0.4.0.VOFTRXM_20250524.0000.00_15.0_tr_016370d838.tgz"
+					"fastboot": "obsidian_tr_global_images_OS2.0.4.0.VOFTRXM_20250524.0000.00_15.0_tr_016370d838.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VOFTRXM": {
 					"os": "OS2.0.3.0.VOFTRXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "obsidian_tr_global-ota_full-OS2.0.3.0.VOFTRXM-user-15.0-dcbc1e0fb2.zip",
-					"fastboot": "obsidian_tr_global_images_OS2.0.3.0.VOFTRXM_20250429.0000.00_15.0_tr_461cb14041.tgz"
+					"fastboot": "obsidian_tr_global_images_OS2.0.3.0.VOFTRXM_20250429.0000.00_15.0_tr_461cb14041.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.6.0.UOFTRXM": {
 					"os": "OS1.0.6.0.UOFTRXM",
 					"android": "14.0",
 					"release": "2025-04-26",
 					"recovery": "miui_OBSIDIANTRGlobal_OS1.0.6.0.UOFTRXM_123b189146_14.0.zip",
-					"fastboot": "obsidian_tr_global_images_OS1.0.6.0.UOFTRXM_20250415.0000.00_14.0_tr_438384ad91.tgz"
+					"fastboot": "obsidian_tr_global_images_OS1.0.6.0.UOFTRXM_20250415.0000.00_14.0_tr_438384ad91.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.4.0.UOFTRXM": {
 					"os": "OS1.0.4.0.UOFTRXM",
 					"android": "14.0",
 					"release": "2025-03-25",
 					"recovery": "miui_OBSIDIANTRGlobal_OS1.0.4.0.UOFTRXM_90149f6054_14.0.zip",
-					"fastboot": "obsidian_tr_global_images_OS1.0.4.0.UOFTRXM_20250318.0000.00_14.0_tr_986e362d17.tgz"
+					"fastboot": "obsidian_tr_global_images_OS1.0.4.0.UOFTRXM_20250318.0000.00_14.0_tr_986e362d17.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.2.0.UOFTRXM": {
 					"os": "OS1.0.2.0.UOFTRXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_OBSIDIANTRGlobal_OS1.0.2.0.UOFTRXM_24ee98c01e_14.0.zip",
-					"fastboot": "obsidian_tr_global_images_OS1.0.2.0.UOFTRXM_20241226.0000.00_14.0_tr_9a386d0805.tgz"
+					"fastboot": "obsidian_tr_global_images_OS1.0.2.0.UOFTRXM_20241226.0000.00_14.0_tr_9a386d0805.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -682,6 +757,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -698,42 +774,48 @@
 					"android": "15.0",
 					"release": "2026-02-25",
 					"recovery": "obsidian_mx_at_global-ota_full-OS2.0.206.0.VOFMXAT-user-15.0-b62056f1cf.zip",
-					"fastboot": "obsidian_mx_at_global_images_OS2.0.206.0.VOFMXAT_20260121.0000.00_15.0_mx_at_5f7b301538.tgz"
+					"fastboot": "obsidian_mx_at_global_images_OS2.0.206.0.VOFMXAT_20260121.0000.00_15.0_mx_at_5f7b301538.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.205.0.VOFMXAT": {
 					"os": "OS2.0.205.0.VOFMXAT",
 					"android": "15.0",
 					"release": "2025-12-02",
 					"recovery": "obsidian_mx_at_global-ota_full-OS2.0.205.0.VOFMXAT-user-15.0-fb8ebdb81b.zip",
-					"fastboot": "obsidian_mx_at_global_images_OS2.0.205.0.VOFMXAT_20251118.0000.00_15.0_mx_at_bb3b6aff4b.tgz"
+					"fastboot": "obsidian_mx_at_global_images_OS2.0.205.0.VOFMXAT_20251118.0000.00_15.0_mx_at_bb3b6aff4b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOFMXAT": {
 					"os": "OS2.0.203.0.VOFMXAT",
 					"android": "15.0",
 					"release": "2025-10-01",
 					"recovery": "obsidian_mx_at_global-ota_full-OS2.0.203.0.VOFMXAT-user-15.0-235081c771.zip",
-					"fastboot": "obsidian_mx_at_global_images_OS2.0.203.0.VOFMXAT_20250917.0000.00_15.0_mx_at_1a9b609e94.tgz"
+					"fastboot": "obsidian_mx_at_global_images_OS2.0.203.0.VOFMXAT_20250917.0000.00_15.0_mx_at_1a9b609e94.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.1.0.VOFMXAT": {
 					"os": "OS2.0.1.0.VOFMXAT",
 					"android": "15.0",
 					"release": "2025-07-22",
 					"recovery": "obsidian_mx_at_global-ota_full-OS2.0.1.0.VOFMXAT-user-15.0-920e27104e.zip",
-					"fastboot": "obsidian_mx_at_global_images_OS2.0.1.0.VOFMXAT_20250508.0000.00_15.0_mx_at_673bbad720.tgz"
+					"fastboot": "obsidian_mx_at_global_images_OS2.0.1.0.VOFMXAT_20250508.0000.00_15.0_mx_at_673bbad720.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.5.0.UOFMXAT": {
 					"os": "OS1.0.5.0.UOFMXAT",
 					"android": "14.0",
 					"release": "2025-05-14",
 					"recovery": "miui_OBSIDIANMXATGlobal_OS1.0.5.0.UOFMXAT_33289fdfe0_14.0.zip",
-					"fastboot": "obsidian_mx_at_global_images_OS1.0.5.0.UOFMXAT_20250418.0000.00_14.0_mx_at_e7a26cf048.tgz"
+					"fastboot": "obsidian_mx_at_global_images_OS1.0.5.0.UOFMXAT_20250418.0000.00_14.0_mx_at_e7a26cf048.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.3.0.UOFMXAT": {
 					"os": "OS1.0.3.0.UOFMXAT",
 					"android": "14.0",
 					"release": "2025-02-18",
 					"recovery": "miui_OBSIDIANMXATGlobal_OS1.0.3.0.UOFMXAT_79a6ad1a39_14.0.zip",
-					"fastboot": "obsidian_mx_at_global_images_OS1.0.3.0.UOFMXAT_20250123.0000.00_14.0_mx_at_8ec65f46ff.tgz"
+					"fastboot": "obsidian_mx_at_global_images_OS1.0.3.0.UOFMXAT_20250123.0000.00_14.0_mx_at_8ec65f46ff.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -755,6 +837,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -771,70 +854,80 @@
 					"android": "16.0",
 					"release": "2026-05-19",
 					"recovery": "obsidian_lm_cr_global-ota_full-OS3.0.1.0.WOFLMCR-user-16.0-308b6a0427.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS3.0.1.0.WOFLMCR_20260425.0000.00_16.0_lm_cr_d4a022770c.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS3.0.1.0.WOFLMCR_20260425.0000.00_16.0_lm_cr_d4a022770c.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.204.0.VOFLMCR": {
 					"os": "OS2.0.204.0.VOFLMCR",
 					"android": "15.0",
 					"release": "2026-02-02",
 					"recovery": "obsidian_lm_cr_global-ota_full-OS2.0.204.0.VOFLMCR-user-15.0-920003ab8d.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS2.0.204.0.VOFLMCR_20260120.0000.00_15.0_lm_cr_cd7ca3766c.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS2.0.204.0.VOFLMCR_20260120.0000.00_15.0_lm_cr_cd7ca3766c.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VOFLMCR": {
 					"os": "OS2.0.203.0.VOFLMCR",
 					"android": "15.0",
 					"release": "2025-12-23",
 					"recovery": "obsidian_lm_cr_global-ota_full-OS2.0.203.0.VOFLMCR-user-15.0-90f076c2ef.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS2.0.203.0.VOFLMCR_20251212.0000.00_15.0_lm_cr_83daaba786.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS2.0.203.0.VOFLMCR_20251212.0000.00_15.0_lm_cr_83daaba786.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.202.0.VOFLMCR": {
 					"os": "OS2.0.202.0.VOFLMCR",
 					"android": "15.0",
 					"release": "2025-10-13",
 					"recovery": "obsidian_lm_cr_global-ota_full-OS2.0.202.0.VOFLMCR-user-15.0-de8d319198.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS2.0.202.0.VOFLMCR_20250928.0000.00_15.0_lm_cr_ef865f408d.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS2.0.202.0.VOFLMCR_20250928.0000.00_15.0_lm_cr_ef865f408d.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VOFLMCR": {
 					"os": "OS2.0.201.0.VOFLMCR",
 					"android": "15.0",
 					"release": "2025-08-20",
 					"recovery": "obsidian_lm_cr_global-ota_full-OS2.0.201.0.VOFLMCR-user-15.0-71d241b3c3.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS2.0.201.0.VOFLMCR_20250804.0000.00_15.0_lm_cr_8ff196a646.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS2.0.201.0.VOFLMCR_20250804.0000.00_15.0_lm_cr_8ff196a646.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.1.0.VOFLMCR": {
 					"os": "OS2.0.1.0.VOFLMCR",
 					"android": "15.0",
 					"release": "2025-07-11",
 					"recovery": "obsidian_lm_cr_global-ota_full-OS2.0.1.0.VOFLMCR-user-15.0-f915404028.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS2.0.1.0.VOFLMCR_20250529.0000.00_15.0_lm_cr_e2a27a2d8c.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS2.0.1.0.VOFLMCR_20250529.0000.00_15.0_lm_cr_e2a27a2d8c.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.5.0.UOFLMCR": {
 					"os": "OS1.0.5.0.UOFLMCR",
 					"android": "14.0",
 					"release": "2025-05-06",
 					"recovery": "miui_OBSIDIANLMCRGlobal_OS1.0.5.0.UOFLMCR_17d81ece34_14.0.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS1.0.5.0.UOFLMCR_20250423.0000.00_14.0_lm_cr_535f668faf.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS1.0.5.0.UOFLMCR_20250423.0000.00_14.0_lm_cr_535f668faf.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.3.0.UOFLMCR": {
 					"os": "OS1.0.3.0.UOFLMCR",
 					"android": "14.0",
 					"release": "2025-03-18",
 					"recovery": "miui_OBSIDIANLMCRGlobal_OS1.0.3.0.UOFLMCR_20e0e43537_14.0.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS1.0.3.0.UOFLMCR_20250307.0000.00_14.0_lm_cr_3a21f38c29.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS1.0.3.0.UOFLMCR_20250307.0000.00_14.0_lm_cr_3a21f38c29.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.2.0.UOFLMCR": {
 					"os": "OS1.0.2.0.UOFLMCR",
 					"android": "14.0",
 					"release": "2025-01-15",
 					"recovery": "miui_OBSIDIANLMCRGlobal_OS1.0.2.0.UOFLMCR_7450a28326_14.0.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS1.0.2.0.UOFLMCR_20241226.0000.00_14.0_lm_cr_cce0bae86f.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS1.0.2.0.UOFLMCR_20241226.0000.00_14.0_lm_cr_cce0bae86f.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.1.0.UOFLMCR": {
 					"os": "OS1.0.1.0.UOFLMCR",
 					"android": "14.0",
 					"release": "2024-01-15",
 					"recovery": "miui_OBSIDIANLMCRGlobal_OS1.0.1.0.UOFLMCR_e11a799b00_14.0.zip",
-					"fastboot": "obsidian_lm_cr_global_images_OS1.0.1.0.UOFLMCR_20241114.0000.00_14.0_lm_cr_e8fc55697c.tgz"
+					"fastboot": "obsidian_lm_cr_global_images_OS1.0.1.0.UOFLMCR_20241114.0000.00_14.0_lm_cr_e8fc55697c.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		}

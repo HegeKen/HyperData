@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -54,7 +55,8 @@
 					"release": "2026-03-21",
 					"recovery": "miui_PSYCHE_OS1.0.15.0.TLDCNXM_15effa03fa_13.0.zip",
 					"fastboot": "psyche_images_OS1.0.15.0.TLDCNXM_20260314.0000.00_13.0_cn_1a422adee1.tgz",
-					"ctelecom": "psyche_images_OS1.0.15.0.TLDCNXM_20260314.0000.00_13.0_cn_chinatelecom_30541405ad.tgz"
+					"ctelecom": "psyche_images_OS1.0.15.0.TLDCNXM_20260314.0000.00_13.0_cn_chinatelecom_30541405ad.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.13.0.TLDCNXM": {
 					"os": "OS1.0.13.0.TLDCNXM",
@@ -62,7 +64,8 @@
 					"release": "2026-01-15",
 					"recovery": "miui_PSYCHE_OS1.0.13.0.TLDCNXM_244b435cb3_13.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.TLDCNXM": {
 					"os": "OS1.0.10.0.TLDCNXM",
@@ -70,7 +73,8 @@
 					"release": "2024-10-18",
 					"recovery": "miui_PSYCHE_OS1.0.10.0.TLDCNXM_4bdc919500_13.0.zip",
 					"fastboot": "psyche_images_OS1.0.10.0.TLDCNXM_20241010.0000.00_13.0_cn_ee24e7354c.tgz",
-					"ctelecom": "psyche_images_OS1.0.10.0.TLDCNXM_20241010.0000.00_13.0_cn_chinatelecom_86ed70df77.tgz"
+					"ctelecom": "psyche_images_OS1.0.10.0.TLDCNXM_20241010.0000.00_13.0_cn_chinatelecom_86ed70df77.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.TLDCNXM": {
 					"os": "OS1.0.9.0.TLDCNXM",
@@ -78,7 +82,8 @@
 					"release": "2024-09-12",
 					"recovery": "miui_PSYCHE_OS1.0.9.0.TLDCNXM_7f03ad7d69_13.0.zip",
 					"fastboot": "psyche_images_OS1.0.9.0.TLDCNXM_20240903.0000.00_13.0_cn_753cb49684.tgz",
-					"ctelecom": "psyche_images_OS1.0.9.0.TLDCNXM_20240903.0000.00_13.0_cn_chinatelecom_5a96c9ece0.tgz"
+					"ctelecom": "psyche_images_OS1.0.9.0.TLDCNXM_20240903.0000.00_13.0_cn_chinatelecom_5a96c9ece0.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.8.0.TLDCNXM": {
 					"os": "OS1.0.8.0.TLDCNXM",
@@ -86,7 +91,8 @@
 					"release": "2024-08-17",
 					"recovery": "miui_PSYCHE_OS1.0.8.0.TLDCNXM_dc50ac457a_13.0.zip",
 					"fastboot": "psyche_images_OS1.0.8.0.TLDCNXM_20240812.0000.00_13.0_cn_1f5c25581c.tgz",
-					"ctelecom": "psyche_images_OS1.0.8.0.TLDCNXM_20240812.0000.00_13.0_cn_chinatelecom_fb1dee36b4.tgz"
+					"ctelecom": "psyche_images_OS1.0.8.0.TLDCNXM_20240812.0000.00_13.0_cn_chinatelecom_fb1dee36b4.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.7.0.TLDCNXM": {
 					"os": "OS1.0.7.0.TLDCNXM",
@@ -94,7 +100,8 @@
 					"release": "2024-08-02",
 					"recovery": "miui_PSYCHE_OS1.0.7.0.TLDCNXM_f008f5565d_13.0.zip",
 					"fastboot": "psyche_images_OS1.0.7.0.TLDCNXM_20240726.0000.00_13.0_cn_33df3e1f58.tgz",
-					"ctelecom": "psyche_images_OS1.0.7.0.TLDCNXM_20240726.0000.00_13.0_cn_chinatelecom_1fbd40add5.tgz"
+					"ctelecom": "psyche_images_OS1.0.7.0.TLDCNXM_20240726.0000.00_13.0_cn_chinatelecom_1fbd40add5.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.6.0.TLDCNXM": {
 					"os": "OS1.0.6.0.TLDCNXM",
@@ -102,7 +109,8 @@
 					"release": "2024-07-17",
 					"recovery": "miui_PSYCHE_OS1.0.6.0.TLDCNXM_9799de6674_13.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.TLDCNXM": {
 					"os": "OS1.0.3.0.TLDCNXM",
@@ -110,7 +118,8 @@
 					"release": "2024-02-19",
 					"recovery": "miui_PSYCHE_OS1.0.3.0.TLDCNXM_254eae0105_13.0.zip",
 					"fastboot": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_d34d88abb5.tgz",
-					"ctelecom": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_chinatelecom_4b9e013419.tgz"
+					"ctelecom": "psyche_images_OS1.0.3.0.TLDCNXM_20240201.0000.00_13.0_cn_chinatelecom_4b9e013419.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.2.0.TLDCNXM": {
 					"os": "OS1.0.2.0.TLDCNXM",
@@ -118,7 +127,8 @@
 					"release": "2024-01-29",
 					"recovery": "miui_PSYCHE_OS1.0.2.0.TLDCNXM_e3e99fe3af_13.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -140,6 +150,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -156,42 +167,48 @@
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PSYCHETWGlobal_OS1.0.6.0.TLDTWXM_ab32c7ddf4_13.0.zip",
-					"fastboot": "psyche_tw_global_images_OS1.0.6.0.TLDTWXM_20241126.0000.00_13.0_tw_a5b6202a75.tgz"
+					"fastboot": "psyche_tw_global_images_OS1.0.6.0.TLDTWXM_20241126.0000.00_13.0_tw_a5b6202a75.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.TLDTWXM": {
 					"os": "OS1.0.5.0.TLDTWXM",
 					"android": "13.0",
 					"release": "2024-10-28",
 					"recovery": "miui_PSYCHETWGlobal_OS1.0.5.0.TLDTWXM_08cea478c4_13.0.zip",
-					"fastboot": "psyche_tw_global_images_OS1.0.5.0.TLDTWXM_20241014.0000.00_13.0_tw_22d17c4275.tgz"
+					"fastboot": "psyche_tw_global_images_OS1.0.5.0.TLDTWXM_20241014.0000.00_13.0_tw_22d17c4275.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.TLDTWXM": {
 					"os": "OS1.0.4.0.TLDTWXM",
 					"android": "13.0",
 					"release": "2024-09-26",
 					"recovery": "miui_PSYCHETWGlobal_OS1.0.4.0.TLDTWXM_df77cdb90c_13.0.zip",
-					"fastboot": "psyche_tw_global_images_OS1.0.4.0.TLDTWXM_20240910.0000.00_13.0_tw_3b3b74b0bf.tgz"
+					"fastboot": "psyche_tw_global_images_OS1.0.4.0.TLDTWXM_20240910.0000.00_13.0_tw_3b3b74b0bf.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.TLDTWXM": {
 					"os": "OS1.0.3.0.TLDTWXM",
 					"android": "13.0",
 					"release": "2024-09-02",
 					"recovery": "miui_PSYCHETWGlobal_OS1.0.3.0.TLDTWXM_4df71c1f4f_13.0.zip",
-					"fastboot": "psyche_tw_global_images_OS1.0.3.0.TLDTWXM_20240812.0000.00_13.0_tw_a9016a2645.tgz"
+					"fastboot": "psyche_tw_global_images_OS1.0.3.0.TLDTWXM_20240812.0000.00_13.0_tw_a9016a2645.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.TLDTWXM": {
 					"os": "OS1.0.2.0.TLDTWXM",
 					"android": "13.0",
 					"release": "2024-08-05",
 					"recovery": "miui_PSYCHETWGlobal_OS1.0.2.0.TLDTWXM_922374bed9_13.0.zip",
-					"fastboot": "psyche_tw_global_images_OS1.0.2.0.TLDTWXM_20240715.0000.00_13.0_tw_7a4efd9afe.tgz"
+					"fastboot": "psyche_tw_global_images_OS1.0.2.0.TLDTWXM_20240715.0000.00_13.0_tw_7a4efd9afe.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.TLDTWXM": {
 					"os": "OS1.0.1.0.TLDTWXM",
 					"android": "13.0",
 					"release": "2024-04-15",
 					"recovery": "miui_PSYCHETWGlobal_OS1.0.1.0.TLDTWXM_6d8267788b_13.0.zip",
-					"fastboot": "psyche_tw_global_images_OS1.0.1.0.TLDTWXM_20240320.0000.00_13.0_tw_7dda0b6c97.tgz"
+					"fastboot": "psyche_tw_global_images_OS1.0.1.0.TLDTWXM_20240320.0000.00_13.0_tw_7dda0b6c97.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -213,6 +230,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -229,49 +247,56 @@
 					"android": "13.0",
 					"release": "2026-05-19",
 					"recovery": "miui_PSYCHEGlobal_OS1.0.9.0.TLDMIXM_e6b1d0a5b2_13.0.zip",
-					"fastboot": "psyche_global_images_OS1.0.9.0.TLDMIXM_20260407.0000.00_13.0_global_f029ab1839.tgz"
+					"fastboot": "psyche_global_images_OS1.0.9.0.TLDMIXM_20260407.0000.00_13.0_global_f029ab1839.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.TLDMIXM": {
 					"os": "OS1.0.8.0.TLDMIXM",
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PSYCHEGlobal_OS1.0.8.0.TLDMIXM_73cbb5a32b_13.0.zip",
-					"fastboot": "psyche_global_images_OS1.0.8.0.TLDMIXM_20241126.0000.00_13.0_global_c976dda5a4.tgz"
+					"fastboot": "psyche_global_images_OS1.0.8.0.TLDMIXM_20241126.0000.00_13.0_global_c976dda5a4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.TLDMIXM": {
 					"os": "OS1.0.6.0.TLDMIXM",
 					"android": "13.0",
 					"release": "2024-10-22",
 					"recovery": "miui_PSYCHEGlobal_OS1.0.6.0.TLDMIXM_ca01b78cad_13.0.zip",
-					"fastboot": "psyche_global_images_OS1.0.6.0.TLDMIXM_20241010.0000.00_13.0_global_2ee496d9b5.tgz"
+					"fastboot": "psyche_global_images_OS1.0.6.0.TLDMIXM_20241010.0000.00_13.0_global_2ee496d9b5.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.TLDMIXM": {
 					"os": "OS1.0.5.0.TLDMIXM",
 					"android": "13.0",
 					"release": "2024-09-18",
 					"recovery": "miui_PSYCHEGlobal_OS1.0.5.0.TLDMIXM_e9e5d29a36_13.0.zip",
-					"fastboot": "psyche_global_images_OS1.0.5.0.TLDMIXM_20240903.0000.00_13.0_global_29c1938dcc.tgz"
+					"fastboot": "psyche_global_images_OS1.0.5.0.TLDMIXM_20240903.0000.00_13.0_global_29c1938dcc.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.TLDMIXM": {
 					"os": "OS1.0.4.0.TLDMIXM",
 					"android": "13.0",
 					"release": "2024-09-02",
 					"recovery": "miui_PSYCHEGlobal_OS1.0.4.0.TLDMIXM_f06dd9beb3_13.0.zip",
-					"fastboot": "psyche_global_images_OS1.0.4.0.TLDMIXM_20240805.0000.00_13.0_global_3e75afb158.tgz"
+					"fastboot": "psyche_global_images_OS1.0.4.0.TLDMIXM_20240805.0000.00_13.0_global_3e75afb158.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.TLDMIXM": {
 					"os": "OS1.0.3.0.TLDMIXM",
 					"android": "13.0",
 					"release": "2024-07-26",
 					"recovery": "miui_PSYCHEGlobal_OS1.0.3.0.TLDMIXM_73b8ce372c_13.0.zip",
-					"fastboot": "psyche_global_images_OS1.0.3.0.TLDMIXM_20240709.0000.00_13.0_global_19802544ef.tgz"
+					"fastboot": "psyche_global_images_OS1.0.3.0.TLDMIXM_20240709.0000.00_13.0_global_19802544ef.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.TLDMIXM": {
 					"os": "OS1.0.1.0.TLDMIXM",
 					"android": "13.0",
 					"release": "2024-03-04",
 					"recovery": "miui_PSYCHEGlobal_OS1.0.1.0.TLDMIXM_31bc4ec894_13.0.zip",
-					"fastboot": "psyche_global_images_OS1.0.1.0.TLDMIXM_20240219.0000.00_13.0_global_ac69b18354.tgz"
+					"fastboot": "psyche_global_images_OS1.0.1.0.TLDMIXM_20240219.0000.00_13.0_global_ac69b18354.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -293,6 +318,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -309,42 +335,48 @@
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PSYCHEEEAGlobal_OS1.0.8.0.TLDEUXM_70eef7e1f1_13.0.zip",
-					"fastboot": "psyche_eea_global_images_OS1.0.8.0.TLDEUXM_20241125.0000.00_13.0_eea_8a7873c96f.tgz"
+					"fastboot": "psyche_eea_global_images_OS1.0.8.0.TLDEUXM_20241125.0000.00_13.0_eea_8a7873c96f.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.TLDEUXM": {
 					"os": "OS1.0.7.0.TLDEUXM",
 					"android": "13.0",
 					"release": "2024-10-28",
 					"recovery": "miui_PSYCHEEEAGlobal_OS1.0.7.0.TLDEUXM_dc40f6ad9b_13.0.zip",
-					"fastboot": "psyche_eea_global_images_OS1.0.7.0.TLDEUXM_20241014.0000.00_13.0_eea_2ff207e6af.tgz"
+					"fastboot": "psyche_eea_global_images_OS1.0.7.0.TLDEUXM_20241014.0000.00_13.0_eea_2ff207e6af.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.TLDEUXM": {
 					"os": "OS1.0.6.0.TLDEUXM",
 					"android": "13.0",
 					"release": "2024-09-26",
 					"recovery": "miui_PSYCHEEEAGlobal_OS1.0.6.0.TLDEUXM_88f0fa9db8_13.0.zip",
-					"fastboot": "psyche_eea_global_images_OS1.0.6.0.TLDEUXM_20240910.0000.00_13.0_eea_505ba2c338.tgz"
+					"fastboot": "psyche_eea_global_images_OS1.0.6.0.TLDEUXM_20240910.0000.00_13.0_eea_505ba2c338.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.TLDEUXM": {
 					"os": "OS1.0.5.0.TLDEUXM",
 					"android": "13.0",
 					"release": "2024-08-26",
 					"recovery": "miui_PSYCHEEEAGlobal_OS1.0.5.0.TLDEUXM_175a81e6db_13.0.zip",
-					"fastboot": "psyche_eea_global_images_OS1.0.5.0.TLDEUXM_20240812.0000.00_13.0_eea_329003190c.tgz"
+					"fastboot": "psyche_eea_global_images_OS1.0.5.0.TLDEUXM_20240812.0000.00_13.0_eea_329003190c.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.TLDEUXM": {
 					"os": "OS1.0.4.0.TLDEUXM",
 					"android": "13.0",
 					"release": "2024-08-17",
 					"recovery": "miui_PSYCHEEEAGlobal_OS1.0.4.0.TLDEUXM_1029beae22_13.0.zip",
-					"fastboot": "psyche_eea_global_images_OS1.0.4.0.TLDEUXM_20240715.0000.00_13.0_eea_74cc43e1ef.tgz"
+					"fastboot": "psyche_eea_global_images_OS1.0.4.0.TLDEUXM_20240715.0000.00_13.0_eea_74cc43e1ef.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.TLDEUXM": {
 					"os": "OS1.0.1.0.TLDEUXM",
 					"android": "13.0",
 					"release": "2024-04-15",
 					"recovery": "miui_PSYCHEEEAGlobal_OS1.0.1.0.TLDEUXM_2f5189f931_13.0.zip",
-					"fastboot": "psyche_eea_global_images_OS1.0.1.0.TLDEUXM_20240312.0000.00_13.0_eea_59c09929bf.tgz"
+					"fastboot": "psyche_eea_global_images_OS1.0.1.0.TLDEUXM_20240312.0000.00_13.0_eea_59c09929bf.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -366,6 +398,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -382,49 +415,56 @@
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PSYCHERUGlobal_OS1.0.7.0.TLDRUXM_a4e144fcda_13.0.zip",
-					"fastboot": "psyche_ru_global_images_OS1.0.7.0.TLDRUXM_20241125.0000.00_13.0_ru_4ce0e9af0e.tgz"
+					"fastboot": "psyche_ru_global_images_OS1.0.7.0.TLDRUXM_20241125.0000.00_13.0_ru_4ce0e9af0e.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.TLDRUXM": {
 					"os": "OS1.0.6.0.TLDRUXM",
 					"android": "13.0",
 					"release": "2024-10-28",
 					"recovery": "miui_PSYCHERUGlobal_OS1.0.6.0.TLDRUXM_732da5174e_13.0.zip",
-					"fastboot": "psyche_ru_global_images_OS1.0.6.0.TLDRUXM_20241014.0000.00_13.0_ru_9a3e684725.tgz"
+					"fastboot": "psyche_ru_global_images_OS1.0.6.0.TLDRUXM_20241014.0000.00_13.0_ru_9a3e684725.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.TLDRUXM": {
 					"os": "OS1.0.5.0.TLDRUXM",
 					"android": "13.0",
 					"release": "2024-09-26",
 					"recovery": "miui_PSYCHERUGlobal_OS1.0.5.0.TLDRUXM_a15f1e3af3_13.0.zip",
-					"fastboot": "psyche_ru_global_images_OS1.0.5.0.TLDRUXM_20240910.0000.00_13.0_ru_a2c5ebb6f2.tgz"
+					"fastboot": "psyche_ru_global_images_OS1.0.5.0.TLDRUXM_20240910.0000.00_13.0_ru_a2c5ebb6f2.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.TLDRUXM": {
 					"os": "OS1.0.4.0.TLDRUXM",
 					"android": "13.0",
 					"release": "2024-09-02",
 					"recovery": "miui_PSYCHERUGlobal_OS1.0.4.0.TLDRUXM_855adcbc8e_13.0.zip",
-					"fastboot": "psyche_ru_global_images_OS1.0.4.0.TLDRUXM_20240812.0000.00_13.0_ru_1d35925038.tgz"
+					"fastboot": "psyche_ru_global_images_OS1.0.4.0.TLDRUXM_20240812.0000.00_13.0_ru_1d35925038.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.TLDRUXM": {
 					"os": "OS1.0.3.0.TLDRUXM",
 					"android": "13.0",
 					"release": "2024-08-05",
 					"recovery": "miui_PSYCHERUGlobal_OS1.0.3.0.TLDRUXM_781d1dd1e9_13.0.zip",
-					"fastboot": "psyche_ru_global_images_OS1.0.3.0.TLDRUXM_20240715.0000.00_13.0_ru_99a9415162.tgz"
+					"fastboot": "psyche_ru_global_images_OS1.0.3.0.TLDRUXM_20240715.0000.00_13.0_ru_99a9415162.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.TLDRUXM": {
 					"os": "OS1.0.2.0.TLDRUXM",
 					"android": "13.0",
 					"release": "2024-05-17",
 					"recovery": "miui_PSYCHERUGlobal_OS1.0.2.0.TLDRUXM_3816677d55_13.0.zip",
-					"fastboot": "psyche_ru_global_images_OS1.0.2.0.TLDRUXM_20240506.0000.00_13.0_ru_7afdee92c5.tgz"
+					"fastboot": "psyche_ru_global_images_OS1.0.2.0.TLDRUXM_20240506.0000.00_13.0_ru_7afdee92c5.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.TLDRUXM": {
 					"os": "OS1.0.1.0.TLDRUXM",
 					"android": "13.0",
 					"release": "2024-04-07",
 					"recovery": "miui_PSYCHERUGlobal_OS1.0.1.0.TLDRUXM_61487d03ed_13.0.zip",
-					"fastboot": "psyche_ru_global_images_OS1.0.1.0.TLDRUXM_20240313.0000.00_13.0_ru_6bfe154750.tgz"
+					"fastboot": "psyche_ru_global_images_OS1.0.1.0.TLDRUXM_20240313.0000.00_13.0_ru_6bfe154750.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		}

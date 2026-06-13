@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -56,77 +57,88 @@
 					"android": "16.0",
 					"release": "2025-10-23",
 					"recovery": "ruyi-ota_full-OS3.0.0.9.WNICNXM-user-16.0-3501280c3c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.8.WNICNXM": {
 					"os": "OS3.0.0.8.WNICNXM",
 					"android": "16.0",
 					"release": "2025-10-16",
 					"recovery": "ruyi-ota_full-OS3.0.0.8.WNICNXM-user-16.0-7f31843c4b.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.5.WNICNXM": {
 					"os": "OS3.0.0.5.WNICNXM",
 					"android": "16.0",
 					"release": "2025-09-26",
 					"recovery": "ruyi-ota_full-OS3.0.0.5.WNICNXM-user-16.0-31b12530a4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.200.51.VNICNXM": {
 					"os": "OS2.0.200.51.VNICNXM",
 					"android": "15.0",
 					"release": "2025-05-23",
 					"recovery": "ruyi-ota_full-OS2.0.200.51.VNICNXM-user-15.0-3de9e0385f.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.30.VNICNXM": {
 					"os": "OS2.0.200.30.VNICNXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "ruyi-ota_full-OS2.0.200.30.VNICNXM-user-15.0-e7493fc19e.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.24.VNICNXM": {
 					"os": "OS2.0.200.24.VNICNXM",
 					"android": "15.0",
 					"release": "2025-04-30",
 					"recovery": "ruyi-ota_full-OS2.0.200.24.VNICNXM-user-15.0-c50eb7136b.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.200.11.VNICNXM": {
 					"os": "OS2.0.200.11.VNICNXM",
 					"android": "15.0",
 					"release": "2025-04-10",
 					"recovery": "ruyi-ota_full-OS2.0.200.11.VNICNXM-user-15.0-9c6804e68d.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.200.2.VNICNXM": {
 					"os": "OS2.0.200.2.VNICNXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "ruyi-ota_full-OS2.0.200.2.VNICNXM-user-15.0-8d3952b564.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.10.10.VNICNXM": {
 					"os": "OS2.0.10.10.VNICNXM",
 					"android": "15.0",
 					"release": "2025-01-09",
 					"recovery": "ruyi-ota_full-OS2.0.10.10.VNICNXM-user-15.0-4aa07ed5f3.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.2.VNICNXM": {
 					"os": "OS2.0.1.2.VNICNXM",
 					"android": "15.0",
 					"release": "2024-11-27",
 					"recovery": "ruyi-ota_full-OS2.0.1.2.VNICNXM-user-15.0-6d3d388ea7.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.0.17.VNICNXM": {
 					"os": "OS2.0.0.17.VNICNXM",
 					"android": "15.0",
 					"release": "2024-11-19",
 					"recovery": "ruyi-ota_full-OS2.0.0.17.VNICNXM-user-15.0-91c271e5cd.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -148,6 +160,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -169,7 +182,8 @@
 					"release": "2026-05-22",
 					"recovery": "ruyi-ota_full-OS3.0.303.0.WNICNXM-user-16.0-e40c2a1994.zip",
 					"fastboot": "ruyi_images_OS3.0.303.0.WNICNXM_20260513.0000.00_16.0_cn_6878ba3225.tgz",
-					"ctelecom": "ruyi_images_OS3.0.303.0.WNICNXM_20260513.0000.00_16.0_cn_chinatelecom_4be9ca9fcd.tgz"
+					"ctelecom": "ruyi_images_OS3.0.303.0.WNICNXM_20260513.0000.00_16.0_cn_chinatelecom_4be9ca9fcd.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.302.0.WNICNXM": {
 					"os": "OS3.0.302.0.WNICNXM",
@@ -177,7 +191,8 @@
 					"release": "2026-04-10",
 					"recovery": "ruyi-ota_full-OS3.0.302.0.WNICNXM-user-16.0-5eb29f292d.zip",
 					"fastboot": "ruyi_images_OS3.0.302.0.WNICNXM_20260407.0000.00_16.0_cn_c053c03c51.tgz",
-					"ctelecom": "ruyi_images_OS3.0.302.0.WNICNXM_20260407.0000.00_16.0_cn_chinatelecom_5f5dbc6b3c.tgz"
+					"ctelecom": "ruyi_images_OS3.0.302.0.WNICNXM_20260407.0000.00_16.0_cn_chinatelecom_5f5dbc6b3c.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.7.0.WNICNXM": {
 					"os": "OS3.0.7.0.WNICNXM",
@@ -185,7 +200,8 @@
 					"release": "2026-02-03",
 					"recovery": "ruyi-ota_full-OS3.0.7.0.WNICNXM-user-16.0-8767e1bda2.zip",
 					"fastboot": "ruyi_images_OS3.0.7.0.WNICNXM_20260127.0000.00_16.0_cn_80bed769c4.tgz",
-					"ctelecom": "ruyi_images_OS3.0.7.0.WNICNXM_20260127.0000.00_16.0_cn_chinatelecom_aa7bfd21e2.tgz"
+					"ctelecom": "ruyi_images_OS3.0.7.0.WNICNXM_20260127.0000.00_16.0_cn_chinatelecom_aa7bfd21e2.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.3.0.WNICNXM": {
 					"os": "OS3.0.3.0.WNICNXM",
@@ -193,7 +209,8 @@
 					"release": "2025-11-13",
 					"recovery": "ruyi-ota_full-OS3.0.3.0.WNICNXM-user-16.0-277708fbc4.zip",
 					"fastboot": "ruyi_images_OS3.0.3.0.WNICNXM_20251107.0000.00_16.0_cn_7979107b51.tgz",
-					"ctelecom": "ruyi_images_OS3.0.3.0.WNICNXM_20251107.0000.00_16.0_cn_chinatelecom_b0f162ef1b.tgz"
+					"ctelecom": "ruyi_images_OS3.0.3.0.WNICNXM_20251107.0000.00_16.0_cn_chinatelecom_b0f162ef1b.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.210.0.VNICNXM": {
 					"os": "OS2.0.210.0.VNICNXM",
@@ -201,7 +218,8 @@
 					"release": "2025-10-10",
 					"recovery": "ruyi-ota_full-OS2.0.210.0.VNICNXM-user-15.0-3204f623a0.zip",
 					"fastboot": "ruyi_images_OS2.0.210.0.VNICNXM_20250922.0000.00_15.0_cn_33aefda238.tgz",
-					"ctelecom": "ruyi_images_OS2.0.210.0.VNICNXM_20250922.0000.00_15.0_cn_chinatelecom_d733a48809.tgz"
+					"ctelecom": "ruyi_images_OS2.0.210.0.VNICNXM_20250922.0000.00_15.0_cn_chinatelecom_d733a48809.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.209.0.VNICNXM": {
 					"os": "OS2.0.209.0.VNICNXM",
@@ -209,7 +227,8 @@
 					"release": "2025-09-19",
 					"recovery": "ruyi-ota_full-OS2.0.209.0.VNICNXM-user-15.0-2e31d1c2d6.zip",
 					"fastboot": "ruyi_images_OS2.0.209.0.VNICNXM_20250904.0000.00_15.0_cn_5d8ced315a.tgz",
-					"ctelecom": "ruyi_images_OS2.0.209.0.VNICNXM_20250904.0000.00_15.0_cn_chinatelecom_0aac2b9b55.tgz"
+					"ctelecom": "ruyi_images_OS2.0.209.0.VNICNXM_20250904.0000.00_15.0_cn_chinatelecom_0aac2b9b55.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.208.0.VNICNXM": {
 					"os": "OS2.0.208.0.VNICNXM",
@@ -217,7 +236,8 @@
 					"release": "2025-08-13",
 					"recovery": "ruyi-ota_full-OS2.0.208.0.VNICNXM-user-15.0-84ed5ad476.zip",
 					"fastboot": "ruyi_images_OS2.0.208.0.VNICNXM_20250722.0000.00_15.0_cn_28c541b1e7.tgz",
-					"ctelecom": "ruyi_images_OS2.0.208.0.VNICNXM_20250722.0000.00_15.0_cn_chinatelecom_5e7a42b5fa.tgz"
+					"ctelecom": "ruyi_images_OS2.0.208.0.VNICNXM_20250722.0000.00_15.0_cn_chinatelecom_5e7a42b5fa.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.207.0.VNICNXM": {
 					"os": "OS2.0.207.0.VNICNXM",
@@ -225,7 +245,8 @@
 					"release": "2025-07-04",
 					"recovery": "ruyi-ota_full-OS2.0.207.0.VNICNXM-user-15.0-41f8ee0fc4.zip",
 					"fastboot": "ruyi_images_OS2.0.207.0.VNICNXM_20250623.0000.00_15.0_cn_c1b2857a1a.tgz",
-					"ctelecom": "ruyi_images_OS2.0.207.0.VNICNXM_20250623.0000.00_15.0_cn_chinatelecom_71ea48bb46.tgz"
+					"ctelecom": "ruyi_images_OS2.0.207.0.VNICNXM_20250623.0000.00_15.0_cn_chinatelecom_71ea48bb46.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.206.0.VNICNXM": {
 					"os": "OS2.0.206.0.VNICNXM",
@@ -233,7 +254,8 @@
 					"release": "2025-06-03",
 					"recovery": "ruyi-ota_full-OS2.0.206.0.VNICNXM-user-15.0-96b832f706.zip",
 					"fastboot": "ruyi_images_OS2.0.206.0.VNICNXM_20250530.0000.00_15.0_cn_f0f33140f6.tgz",
-					"ctelecom": "ruyi_images_OS2.0.206.0.VNICNXM_20250530.0000.00_15.0_cn_chinatelecom_d1e41f7335.tgz"
+					"ctelecom": "ruyi_images_OS2.0.206.0.VNICNXM_20250530.0000.00_15.0_cn_chinatelecom_d1e41f7335.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.204.0.VNICNXM": {
 					"os": "OS2.0.204.0.VNICNXM",
@@ -241,7 +263,8 @@
 					"release": "2025-05-29",
 					"recovery": "ruyi-ota_full-OS2.0.204.0.VNICNXM-user-15.0-f05c65dd87.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.106.0.VNICNXM": {
 					"os": "OS2.0.106.0.VNICNXM",
@@ -249,7 +272,8 @@
 					"release": "2025-05-07",
 					"recovery": "ruyi-ota_full-OS2.0.106.0.VNICNXM-user-15.0-c592dacf61.zip",
 					"fastboot": "ruyi_images_OS2.0.106.0.VNICNXM_20250418.0000.00_15.0_cn_dfedbe0a04.tgz",
-					"ctelecom": "ruyi_images_OS2.0.106.0.VNICNXM_20250418.0000.00_15.0_cn_chinatelecom_255c6b9a40.tgz"
+					"ctelecom": "ruyi_images_OS2.0.106.0.VNICNXM_20250418.0000.00_15.0_cn_chinatelecom_255c6b9a40.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.105.0.VNICNXM": {
 					"os": "OS2.0.105.0.VNICNXM",
@@ -257,7 +281,8 @@
 					"release": "2025-04-09",
 					"recovery": "ruyi-ota_full-OS2.0.105.0.VNICNXM-user-15.0-de8ebe433c.zip",
 					"fastboot": "ruyi_images_OS2.0.105.0.VNICNXM_20250331.0000.00_15.0_cn_492b121ae4.tgz",
-					"ctelecom": "ruyi_images_OS2.0.105.0.VNICNXM_20250331.0000.00_15.0_cn_chinatelecom_4194cbe92b.tgz"
+					"ctelecom": "ruyi_images_OS2.0.105.0.VNICNXM_20250331.0000.00_15.0_cn_chinatelecom_4194cbe92b.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.103.0.VNICNXM": {
 					"os": "OS2.0.103.0.VNICNXM",
@@ -265,7 +290,8 @@
 					"release": "2025-02-26",
 					"recovery": "ruyi-ota_full-OS2.0.103.0.VNICNXM-user-15.0-2cceda3b7d.zip",
 					"fastboot": "ruyi_images_OS2.0.103.0.VNICNXM_20250226.0000.00_15.0_cn_d413957ec8.tgz",
-					"ctelecom": "ruyi_images_OS2.0.103.0.VNICNXM_20250226.0000.00_15.0_cn_chinatelecom_51c0387893.tgz"
+					"ctelecom": "ruyi_images_OS2.0.103.0.VNICNXM_20250226.0000.00_15.0_cn_chinatelecom_51c0387893.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.102.0.VNICNXM": {
 					"os": "OS2.0.102.0.VNICNXM",
@@ -273,7 +299,8 @@
 					"release": "2025-02-13",
 					"recovery": "ruyi-ota_full-OS2.0.102.0.VNICNXM-user-15.0-d6b4cf0abf.zip",
 					"fastboot": "ruyi_images_OS2.0.102.0.VNICNXM_20250208.0000.00_15.0_cn_74cb913de1.tgz",
-					"ctelecom": "ruyi_images_OS2.0.102.0.VNICNXM_20250208.0000.00_15.0_cn_chinatelecom_94448e87e4.tgz"
+					"ctelecom": "ruyi_images_OS2.0.102.0.VNICNXM_20250208.0000.00_15.0_cn_chinatelecom_94448e87e4.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.100.0.VNICNXM": {
 					"os": "OS2.0.100.0.VNICNXM",
@@ -281,7 +308,8 @@
 					"release": "2025-01-16",
 					"recovery": "ruyi-ota_full-OS2.0.100.0.VNICNXM-user-15.0-96ae28664f.zip",
 					"fastboot": "ruyi_images_OS2.0.100.0.VNICNXM_20250108.0000.00_15.0_cn_2ae0b310e6.tgz",
-					"ctelecom": "ruyi_images_OS2.0.100.0.VNICNXM_20250108.0000.00_15.0_cn_chinatelecom_39edd63081.tgz"
+					"ctelecom": "ruyi_images_OS2.0.100.0.VNICNXM_20250108.0000.00_15.0_cn_chinatelecom_39edd63081.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.5.0.VNICNXM": {
 					"os": "OS2.0.5.0.VNICNXM",
@@ -289,7 +317,8 @@
 					"release": "2024-12-11",
 					"recovery": "ruyi-ota_full-OS2.0.5.0.VNICNXM-user-15.0-e713a508a2.zip",
 					"fastboot": "ruyi_images_OS2.0.5.0.VNICNXM_20241204.0000.00_15.0_cn_766fb0c760.tgz",
-					"ctelecom": "ruyi_images_OS2.0.5.0.VNICNXM_20241204.0000.00_15.0_cn_chinatelecom_d171389a71.tgz"
+					"ctelecom": "ruyi_images_OS2.0.5.0.VNICNXM_20241204.0000.00_15.0_cn_chinatelecom_d171389a71.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.2.0.VNICNXM": {
 					"os": "OS2.0.2.0.VNICNXM",
@@ -297,7 +326,8 @@
 					"release": "2024-11-30",
 					"recovery": "ruyi-ota_full-OS2.0.2.0.VNICNXM-user-15.0-783f87b5e4.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.17.0.UNICNXM": {
 					"os": "OS1.0.17.0.UNICNXM",
@@ -305,7 +335,8 @@
 					"release": "2024-11-10",
 					"recovery": "miui_RUYI_OS1.0.17.0.UNICNXM_ac753b868d_14.0.zip",
 					"fastboot": "ruyi_images_OS1.0.17.0.UNICNXM_20241104.0000.00_14.0_cn_4c57383ed3.tgz",
-					"ctelecom": "ruyi_images_OS1.0.17.0.UNICNXM_20241104.0000.00_14.0_cn_chinatelecom_da7ee90558.tgz"
+					"ctelecom": "ruyi_images_OS1.0.17.0.UNICNXM_20241104.0000.00_14.0_cn_chinatelecom_da7ee90558.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.13.0.UNICNXM": {
 					"os": "OS1.0.13.0.UNICNXM",
@@ -313,7 +344,8 @@
 					"release": "2024-09-11",
 					"recovery": "miui_RUYI_OS1.0.13.0.UNICNXM_c9f859d4a2_14.0.zip",
 					"fastboot": "ruyi_images_OS1.0.13.0.UNICNXM_20240831.0000.00_14.0_cn_206dfbdb09.tgz",
-					"ctelecom": "ruyi_images_OS1.0.13.0.UNICNXM_20240831.0000.00_14.0_cn_chinatelecom_9a43504a56.tgz"
+					"ctelecom": "ruyi_images_OS1.0.13.0.UNICNXM_20240831.0000.00_14.0_cn_chinatelecom_9a43504a56.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.11.0.UNICNXM": {
 					"os": "OS1.0.11.0.UNICNXM",
@@ -321,7 +353,8 @@
 					"release": "2024-08-18",
 					"recovery": "miui_RUYI_OS1.0.11.0.UNICNXM_3daab9578e_14.0.zip",
 					"fastboot": "ruyi_images_OS1.0.11.0.UNICNXM_20240812.0000.00_14.0_cn_760cd46b37.tgz",
-					"ctelecom": "ruyi_images_OS1.0.11.0.UNICNXM_20240812.0000.00_14.0_cn_chinatelecom_3b881a8e6c.tgz"
+					"ctelecom": "ruyi_images_OS1.0.11.0.UNICNXM_20240812.0000.00_14.0_cn_chinatelecom_3b881a8e6c.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.8.0.UNICNXM": {
 					"os": "OS1.0.8.0.UNICNXM",
@@ -329,7 +362,8 @@
 					"release": "2024-07-28",
 					"recovery": "miui_RUYI_OS1.0.8.0.UNICNXM_fc66e674c8_14.0.zip",
 					"fastboot": "ruyi_images_OS1.0.8.0.UNICNXM_20240726.0000.00_14.0_cn_25db220f42.tgz",
-					"ctelecom": "ruyi_images_OS1.0.8.0.UNICNXM_20240726.0000.00_14.0_cn_chinatelecom_15c6bb08da.tgz"
+					"ctelecom": "ruyi_images_OS1.0.8.0.UNICNXM_20240726.0000.00_14.0_cn_chinatelecom_15c6bb08da.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.7.0.UNICNXM": {
 					"os": "OS1.0.7.0.UNICNXM",
@@ -337,7 +371,8 @@
 					"release": "2024-07-21",
 					"recovery": "miui_RUYI_OS1.0.7.0.UNICNXM_e3a8629bbf_14.0.zip",
 					"fastboot": "ruyi_images_OS1.0.7.0.UNICNXM_20240715.0000.00_14.0_cn_01da44d1fa.tgz",
-					"ctelecom": "ruyi_images_OS1.0.7.0.UNICNXM_20240715.0000.00_14.0_cn_chinatelecom_f33857bd5b.tgz"
+					"ctelecom": "ruyi_images_OS1.0.7.0.UNICNXM_20240715.0000.00_14.0_cn_chinatelecom_f33857bd5b.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UNICNXM": {
 					"os": "OS1.0.3.0.UNICNXM",
@@ -345,7 +380,8 @@
 					"release": "2024-07-21",
 					"recovery": "miui_RUYI_OS1.0.3.0.UNICNXM_40fa64bcaf_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -367,6 +403,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -388,7 +425,8 @@
 					"release": "2024-08-30",
 					"recovery": "miui_RUYIEPSTDEE_OS1.0.24.8.14.EP.STDEE.N8_3ddac377be_14.0.zip",
 					"fastboot": "ruyi_ep_stdee_images_OS1.0.24.8.14.EP.STDEE.N8_20240814.0000.00_14.0_cn_389d2b5b29.tgz",
-					"ctelecom": "ruyi_ep_stdee_images_OS1.0.24.8.14.EP.STDEE.N8_20240814.0000.00_14.0_cn_chinatelecom_e9d2c4b571.tgz"
+					"ctelecom": "ruyi_ep_stdee_images_OS1.0.24.8.14.EP.STDEE.N8_20240814.0000.00_14.0_cn_chinatelecom_e9d2c4b571.tgz",
+					"aspatch": "2024-08-01"
 				}
 			}
 		},
@@ -410,6 +448,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -431,7 +470,8 @@
 					"release": "2025-05-13",
 					"recovery": "ruyi_demo-ota_full-OS2.0.101.0.VNICNDM-user-15.0-7542dac209.zip",
 					"fastboot": "ruyi_demo_images_OS2.0.101.0.VNICNDM_20250310.0000.00_15.0_cn_3ee04e7c23.tgz",
-					"ctelecom": "ruyi_demo_images_OS2.0.101.0.VNICNDM_20250310.0000.00_15.0_cn_chinatelecom_226ec838ad.tgz"
+					"ctelecom": "ruyi_demo_images_OS2.0.101.0.VNICNDM_20250310.0000.00_15.0_cn_chinatelecom_226ec838ad.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UNICNDM": {
 					"os": "OS1.0.6.0.UNICNDM",
@@ -439,7 +479,8 @@
 					"release": "2024-09-11",
 					"recovery": "miui_RUYIDEMO_OS1.0.6.0.UNICNDM_6cbb31f8b5_14.0.zip",
 					"fastboot": "ruyi_demo_images_OS1.0.6.0.UNICNDM_20240830.0000.00_14.0_cn_45d1a7722f.tgz",
-					"ctelecom": "ruyi_demo_images_OS1.0.6.0.UNICNDM_20240830.0000.00_14.0_cn_chinatelecom_25991035c7.tgz"
+					"ctelecom": "ruyi_demo_images_OS1.0.6.0.UNICNDM_20240830.0000.00_14.0_cn_chinatelecom_25991035c7.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UNICNDM": {
 					"os": "OS1.0.5.0.UNICNDM",
@@ -447,7 +488,8 @@
 					"release": "2024-07-29",
 					"recovery": "miui_RUYIDEMO_OS1.0.5.0.UNICNDM_e333fa7b65_14.0.zip",
 					"fastboot": "ruyi_demo_images_OS1.0.5.0.UNICNDM_20240727.0000.00_14.0_cn_cdc3dab9a0.tgz",
-					"ctelecom": "ruyi_demo_images_OS1.0.5.0.UNICNDM_20240727.0000.00_14.0_cn_chinatelecom_4a49977c77.tgz"
+					"ctelecom": "ruyi_demo_images_OS1.0.5.0.UNICNDM_20240727.0000.00_14.0_cn_chinatelecom_4a49977c77.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UNICNDM": {
 					"os": "OS1.0.3.0.UNICNDM",
@@ -455,7 +497,8 @@
 					"release": "2024-07-21",
 					"recovery": "miui_RUYIDEMO_OS1.0.3.0.UNICNDM_ba777ed4f8_14.0.zip",
 					"fastboot": "ruyi_demo_images_OS1.0.3.0.UNICNDM_20240721.0000.00_14.0_cn_4b5b6b8c43.tgz",
-					"ctelecom": "ruyi_demo_images_OS1.0.3.0.UNICNDM_20240721.0000.00_14.0_cn_chinatelecom_6fbf68dfdf.tgz"
+					"ctelecom": "ruyi_demo_images_OS1.0.3.0.UNICNDM_20240721.0000.00_14.0_cn_chinatelecom_6fbf68dfdf.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UNICNDM": {
 					"os": "OS1.0.2.0.UNICNDM",
@@ -463,7 +506,8 @@
 					"release": "2024-07-21",
 					"recovery": "miui_RUYIDEMO_OS1.0.2.0.UNICNDM_1a5ef77438_14.0.zip",
 					"fastboot": "ruyi_demo_images_OS1.0.2.0.UNICNDM_20240719.0000.00_14.0_cn_d8f7aaff44.tgz",
-					"ctelecom": "ruyi_demo_images_OS1.0.2.0.UNICNDM_20240719.0000.00_14.0_cn_chinatelecom_6b426f8ff1.tgz"
+					"ctelecom": "ruyi_demo_images_OS1.0.2.0.UNICNDM_20240719.0000.00_14.0_cn_chinatelecom_6b426f8ff1.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UNICNDM": {
 					"os": "OS1.0.1.0.UNICNDM",
@@ -471,7 +515,8 @@
 					"release": "2024-07-20",
 					"recovery": "miui_RUYIDEMO_OS1.0.1.0.UNICNDM_647cd84582_14.0.zip",
 					"fastboot": "ruyi_demo_images_OS1.0.1.0.UNICNDM_20240608.0000.00_14.0_cn_b7190812ff.tgz",
-					"ctelecom": "ruyi_demo_images_OS1.0.1.0.UNICNDM_20240608.0000.00_14.0_cn_chinatelecom_c41f702210.tgz"
+					"ctelecom": "ruyi_demo_images_OS1.0.1.0.UNICNDM_20240608.0000.00_14.0_cn_chinatelecom_c41f702210.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -493,6 +538,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -509,105 +555,120 @@
 					"android": "16.0",
 					"release": "2026-05-29",
 					"recovery": "ruyi_tw_global-ota_full-OS3.0.301.0.WNITWXM-user-16.0-9a0c270044.zip",
-					"fastboot": "ruyi_tw_global_images_OS3.0.301.0.WNITWXM_20260506.0000.00_16.0_tw_6013eed900.tgz"
+					"fastboot": "ruyi_tw_global_images_OS3.0.301.0.WNITWXM_20260506.0000.00_16.0_tw_6013eed900.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.1.0.WNITWXM": {
 					"os": "OS3.0.1.0.WNITWXM",
 					"android": "16.0",
 					"release": "2026-01-04",
 					"recovery": "ruyi_tw_global-ota_full-OS3.0.1.0.WNITWXM-user-16.0-e63625c980.zip",
-					"fastboot": "ruyi_tw_global_images_OS3.0.1.0.WNITWXM_20251212.0000.00_16.0_tw_900f8d8139.tgz"
+					"fastboot": "ruyi_tw_global_images_OS3.0.1.0.WNITWXM_20251212.0000.00_16.0_tw_900f8d8139.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.208.0.VNITWXM": {
 					"os": "OS2.0.208.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.208.0.VNITWXM-user-15.0-d1fd9b38ef.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.208.0.VNITWXM_20251104.0000.00_15.0_tw_6c43af73b9.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.208.0.VNITWXM_20251104.0000.00_15.0_tw_6c43af73b9.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VNITWXM": {
 					"os": "OS2.0.207.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-10-26",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.207.0.VNITWXM-user-15.0-b0b58b3f18.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.207.0.VNITWXM_20251015.0000.00_15.0_tw_bfff99e8fa.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.207.0.VNITWXM_20251015.0000.00_15.0_tw_bfff99e8fa.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VNITWXM": {
 					"os": "OS2.0.206.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.206.0.VNITWXM-user-15.0-2aad3ea546.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.206.0.VNITWXM_20250918.0000.00_15.0_tw_eef45786df.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.206.0.VNITWXM_20250918.0000.00_15.0_tw_eef45786df.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VNITWXM": {
 					"os": "OS2.0.202.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-08-26",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.202.0.VNITWXM-user-15.0-dfd889859f.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.202.0.VNITWXM_20250811.0000.00_15.0_tw_ed30d0be32.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.202.0.VNITWXM_20250811.0000.00_15.0_tw_ed30d0be32.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNITWXM": {
 					"os": "OS2.0.201.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-07-30",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.201.0.VNITWXM-user-15.0-691ea57fed.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.201.0.VNITWXM_20250717.0000.00_15.0_tw_27b2994726.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.201.0.VNITWXM_20250717.0000.00_15.0_tw_27b2994726.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VNITWXM": {
 					"os": "OS2.0.104.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-06-18",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.104.0.VNITWXM-user-15.0-71a955489f.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.104.0.VNITWXM_20250529.0000.00_15.0_tw_df81eee137.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.104.0.VNITWXM_20250529.0000.00_15.0_tw_df81eee137.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VNITWXM": {
 					"os": "OS2.0.103.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.103.0.VNITWXM-user-15.0-3f835484f7.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.103.0.VNITWXM_20250507.0000.00_15.0_tw_c972bf3aa8.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.103.0.VNITWXM_20250507.0000.00_15.0_tw_c972bf3aa8.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.101.0.VNITWXM": {
 					"os": "OS2.0.101.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-04-01",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.101.0.VNITWXM-user-15.0-d7f3929238.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.101.0.VNITWXM_20250317.0000.00_15.0_tw_00a257a92b.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.101.0.VNITWXM_20250317.0000.00_15.0_tw_00a257a92b.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VNITWXM": {
 					"os": "OS2.0.2.0.VNITWXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "ruyi_tw_global-ota_full-OS2.0.2.0.VNITWXM-user-15.0-ff24c07fcd.zip",
-					"fastboot": "ruyi_tw_global_images_OS2.0.2.0.VNITWXM_20250106.0000.00_15.0_tw_e04d380be1.tgz"
+					"fastboot": "ruyi_tw_global_images_OS2.0.2.0.VNITWXM_20250106.0000.00_15.0_tw_e04d380be1.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.11.0.UNITWXM": {
 					"os": "OS1.0.11.0.UNITWXM",
 					"android": "14.0",
 					"release": "2024-12-14",
 					"recovery": "miui_RUYITWGlobal_OS1.0.11.0.UNITWXM_1b05d3d84c_14.0.zip",
-					"fastboot": "ruyi_tw_global_images_OS1.0.11.0.UNITWXM_20241125.0000.00_14.0_tw_82e3af5daf.tgz"
+					"fastboot": "ruyi_tw_global_images_OS1.0.11.0.UNITWXM_20241125.0000.00_14.0_tw_82e3af5daf.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UNITWXM": {
 					"os": "OS1.0.10.0.UNITWXM",
 					"android": "14.0",
 					"release": "2024-11-14",
 					"recovery": "miui_RUYITWGlobal_OS1.0.10.0.UNITWXM_ec14919d77_14.0.zip",
-					"fastboot": "ruyi_tw_global_images_OS1.0.10.0.UNITWXM_20241104.0000.00_14.0_tw_3310f9064a.tgz"
+					"fastboot": "ruyi_tw_global_images_OS1.0.10.0.UNITWXM_20241104.0000.00_14.0_tw_3310f9064a.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.7.0.UNITWXM": {
 					"os": "OS1.0.7.0.UNITWXM",
 					"android": "14.0",
 					"release": "2024-10-16",
 					"recovery": "miui_RUYITWGlobal_OS1.0.7.0.UNITWXM_68df755587_14.0.zip",
-					"fastboot": "ruyi_tw_global_images_OS1.0.7.0.UNITWXM_20241011.0000.00_14.0_tw_aadf15e973.tgz"
+					"fastboot": "ruyi_tw_global_images_OS1.0.7.0.UNITWXM_20241011.0000.00_14.0_tw_aadf15e973.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UNITWXM": {
 					"os": "OS1.0.4.0.UNITWXM",
 					"android": "14.0",
 					"release": "2024-08-03",
 					"recovery": "miui_RUYITWGlobal_OS1.0.4.0.UNITWXM_c2f97cc622_14.0.zip",
-					"fastboot": "ruyi_tw_global_images_OS1.0.4.0.UNITWXM_20240801.0000.00_14.0_tw_25ddbe2a1c.tgz"
+					"fastboot": "ruyi_tw_global_images_OS1.0.4.0.UNITWXM_20240801.0000.00_14.0_tw_25ddbe2a1c.tgz",
+					"aspatch": "2024-07-01"
 				}
 			}
 		},
@@ -629,6 +690,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -645,126 +707,144 @@
 					"android": "16.0",
 					"release": "2026-05-03",
 					"recovery": "ruyi_global-ota_full-OS3.0.301.0.WNIMIXM-user-16.0-836af3b483.zip",
-					"fastboot": "ruyi_global_images_OS3.0.301.0.WNIMIXM_20260424.0000.00_16.0_global_9cb4214a02.tgz"
+					"fastboot": "ruyi_global_images_OS3.0.301.0.WNIMIXM_20260424.0000.00_16.0_global_9cb4214a02.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WNIMIXM": {
 					"os": "OS3.0.4.0.WNIMIXM",
 					"android": "16.0",
 					"release": "2025-12-25",
 					"recovery": "ruyi_global-ota_full-OS3.0.4.0.WNIMIXM-user-16.0-b82262d7b0.zip",
-					"fastboot": "ruyi_global_images_OS3.0.4.0.WNIMIXM_20251216.0000.00_16.0_global_aba2f84cf7.tgz"
+					"fastboot": "ruyi_global_images_OS3.0.4.0.WNIMIXM_20251216.0000.00_16.0_global_aba2f84cf7.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.3.0.WNIMIXM": {
 					"os": "OS3.0.3.0.WNIMIXM",
 					"android": "16.0",
 					"release": "2025-12-15",
 					"recovery": "ruyi_global-ota_full-OS3.0.3.0.WNIMIXM-user-16.0-785cd42ce1.zip",
-					"fastboot": "ruyi_global_images_OS3.0.3.0.WNIMIXM_20251128.0000.00_16.0_global_8c5f3bf923.tgz"
+					"fastboot": "ruyi_global_images_OS3.0.3.0.WNIMIXM_20251128.0000.00_16.0_global_8c5f3bf923.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.209.0.VNIMIXM": {
 					"os": "OS2.0.209.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "ruyi_global-ota_full-OS2.0.209.0.VNIMIXM-user-15.0-7b32cbf246.zip",
-					"fastboot": "ruyi_global_images_OS2.0.209.0.VNIMIXM_20251104.0000.00_15.0_global_7ab265563f.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.209.0.VNIMIXM_20251104.0000.00_15.0_global_7ab265563f.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.208.0.VNIMIXM": {
 					"os": "OS2.0.208.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-10-26",
 					"recovery": "ruyi_global-ota_full-OS2.0.208.0.VNIMIXM-user-15.0-6c25dc16e9.zip",
-					"fastboot": "ruyi_global_images_OS2.0.208.0.VNIMIXM_20251015.0000.00_15.0_global_77d409de36.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.208.0.VNIMIXM_20251015.0000.00_15.0_global_77d409de36.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.207.0.VNIMIXM": {
 					"os": "OS2.0.207.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "ruyi_global-ota_full-OS2.0.207.0.VNIMIXM-user-15.0-931c244f28.zip",
-					"fastboot": "ruyi_global_images_OS2.0.207.0.VNIMIXM_20250918.0000.00_15.0_global_6fb8af998d.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.207.0.VNIMIXM_20250918.0000.00_15.0_global_6fb8af998d.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VNIMIXM": {
 					"os": "OS2.0.203.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "ruyi_global-ota_full-OS2.0.203.0.VNIMIXM-user-15.0-112d8e99b2.zip",
-					"fastboot": "ruyi_global_images_OS2.0.203.0.VNIMIXM_20250811.0000.00_15.0_global_5d9dc3e627.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.203.0.VNIMIXM_20250811.0000.00_15.0_global_5d9dc3e627.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VNIMIXM": {
 					"os": "OS2.0.202.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-07-27",
 					"recovery": "ruyi_global-ota_full-OS2.0.202.0.VNIMIXM-user-15.0-099bc1afe7.zip",
-					"fastboot": "ruyi_global_images_OS2.0.202.0.VNIMIXM_20250717.0000.00_15.0_global_26eba92b78.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.202.0.VNIMIXM_20250717.0000.00_15.0_global_26eba92b78.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.107.0.VNIMIXM": {
 					"os": "OS2.0.107.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-06-13",
 					"recovery": "ruyi_global-ota_full-OS2.0.107.0.VNIMIXM-user-15.0-ad6002ff46.zip",
-					"fastboot": "ruyi_global_images_OS2.0.107.0.VNIMIXM_20250527.0000.00_15.0_global_ca6f7a3c13.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.107.0.VNIMIXM_20250527.0000.00_15.0_global_ca6f7a3c13.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.106.0.VNIMIXM": {
 					"os": "OS2.0.106.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "ruyi_global-ota_full-OS2.0.106.0.VNIMIXM-user-15.0-1c256c475d.zip",
-					"fastboot": "ruyi_global_images_OS2.0.106.0.VNIMIXM_20250424.0000.00_15.0_global_ebc3c0a52a.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.106.0.VNIMIXM_20250424.0000.00_15.0_global_ebc3c0a52a.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.104.0.VNIMIXM": {
 					"os": "OS2.0.104.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-04-22",
 					"recovery": "ruyi_global-ota_full-OS2.0.104.0.VNIMIXM-user-15.0-2cf75879fb.zip",
-					"fastboot": "ruyi_global_images_OS2.0.104.0.VNIMIXM_20250317.0000.00_15.0_global_4fd5e125cd.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.104.0.VNIMIXM_20250317.0000.00_15.0_global_4fd5e125cd.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.102.0.VNIMIXM": {
 					"os": "OS2.0.102.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-03-17",
 					"recovery": "ruyi_global-ota_full-OS2.0.102.0.VNIMIXM-user-15.0-588089bda1.zip",
-					"fastboot": "ruyi_global_images_OS2.0.102.0.VNIMIXM_20250303.0000.00_15.0_global_552a2a255e.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.102.0.VNIMIXM_20250303.0000.00_15.0_global_552a2a255e.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VNIMIXM": {
 					"os": "OS2.0.3.0.VNIMIXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "ruyi_global-ota_full-OS2.0.3.0.VNIMIXM-user-15.0-2a57b464d9.zip",
-					"fastboot": "ruyi_global_images_OS2.0.3.0.VNIMIXM_20250106.0000.00_15.0_global_b30479eec3.tgz"
+					"fastboot": "ruyi_global_images_OS2.0.3.0.VNIMIXM_20250106.0000.00_15.0_global_b30479eec3.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.13.0.UNIMIXM": {
 					"os": "OS1.0.13.0.UNIMIXM",
 					"android": "14.0",
 					"release": "2024-12-17",
 					"recovery": "miui_RUYIGlobal_OS1.0.13.0.UNIMIXM_31a0687fe2_14.0.zip",
-					"fastboot": "ruyi_global_images_OS1.0.13.0.UNIMIXM_20241125.0000.00_14.0_global_ea1be77add.tgz"
+					"fastboot": "ruyi_global_images_OS1.0.13.0.UNIMIXM_20241125.0000.00_14.0_global_ea1be77add.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.12.0.UNIMIXM": {
 					"os": "OS1.0.12.0.UNIMIXM",
 					"android": "14.0",
 					"release": "2024-11-13",
 					"recovery": "miui_RUYIGlobal_OS1.0.12.0.UNIMIXM_7670240b73_14.0.zip",
-					"fastboot": "ruyi_global_images_OS1.0.12.0.UNIMIXM_20241104.0000.00_14.0_global_402a7ea45c.tgz"
+					"fastboot": "ruyi_global_images_OS1.0.12.0.UNIMIXM_20241104.0000.00_14.0_global_402a7ea45c.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UNIMIXM": {
 					"os": "OS1.0.9.0.UNIMIXM",
 					"android": "14.0",
 					"release": "2024-10-09",
 					"recovery": "miui_RUYIGlobal_OS1.0.9.0.UNIMIXM_9388d18249_14.0.zip",
-					"fastboot": "ruyi_global_images_OS1.0.9.0.UNIMIXM_20241003.0000.00_14.0_global_c9301e70ef.tgz"
+					"fastboot": "ruyi_global_images_OS1.0.9.0.UNIMIXM_20241003.0000.00_14.0_global_c9301e70ef.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UNIMIXM": {
 					"os": "OS1.0.4.0.UNIMIXM",
 					"android": "14.0",
 					"release": "2024-08-25",
 					"recovery": "miui_RUYIGlobal_OS1.0.4.0.UNIMIXM_a37537ba0f_14.0.zip",
-					"fastboot": "ruyi_global_images_OS1.0.4.0.UNIMIXM_20240814.0000.00_14.0_global_4f0531c1f5.tgz"
+					"fastboot": "ruyi_global_images_OS1.0.4.0.UNIMIXM_20240814.0000.00_14.0_global_4f0531c1f5.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UNIMIXM": {
 					"os": "OS1.0.3.0.UNIMIXM",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_RUYIGlobal_OS1.0.3.0.UNIMIXM_f7241946f2_14.0.zip",
-					"fastboot": "ruyi_global_images_OS1.0.3.0.UNIMIXM_20240720.0000.00_14.0_global_a797d79b00.tgz"
+					"fastboot": "ruyi_global_images_OS1.0.3.0.UNIMIXM_20240720.0000.00_14.0_global_a797d79b00.tgz",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -786,6 +866,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -802,112 +883,128 @@
 					"android": "16.0",
 					"release": "2026-05-03",
 					"recovery": "ruyi_eea_global-ota_full-OS3.0.301.0.WNIEUXM-user-16.0-fb49bd5e36.zip",
-					"fastboot": "ruyi_eea_global_images_OS3.0.301.0.WNIEUXM_20260427.0000.00_16.0_eea_6301f31a3d.tgz"
+					"fastboot": "ruyi_eea_global_images_OS3.0.301.0.WNIEUXM_20260427.0000.00_16.0_eea_6301f31a3d.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WNIEUXM": {
 					"os": "OS3.0.4.0.WNIEUXM",
 					"android": "16.0",
 					"release": "2026-01-13",
 					"recovery": "ruyi_eea_global-ota_full-OS3.0.4.0.WNIEUXM-user-16.0-98afc9c650.zip",
-					"fastboot": "ruyi_eea_global_images_OS3.0.4.0.WNIEUXM_20251224.0000.00_16.0_eea_daf4c5b29f.tgz"
+					"fastboot": "ruyi_eea_global_images_OS3.0.4.0.WNIEUXM_20251224.0000.00_16.0_eea_daf4c5b29f.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.3.0.WNIEUXM": {
 					"os": "OS3.0.3.0.WNIEUXM",
 					"android": "16.0",
 					"release": "2025-12-09",
 					"recovery": "ruyi_eea_global-ota_full-OS3.0.3.0.WNIEUXM-user-16.0-6ed9008848.zip",
-					"fastboot": "ruyi_eea_global_images_OS3.0.3.0.WNIEUXM_20251128.0000.00_16.0_eea_fbeb4fd9a0.tgz"
+					"fastboot": "ruyi_eea_global_images_OS3.0.3.0.WNIEUXM_20251128.0000.00_16.0_eea_fbeb4fd9a0.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.213.0.VNIEUXM": {
 					"os": "OS2.0.213.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-11-10",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.213.0.VNIEUXM-user-15.0-5d821cb98e.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.213.0.VNIEUXM_20251028.0000.00_15.0_eea_0c8e0ab567.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.213.0.VNIEUXM_20251028.0000.00_15.0_eea_0c8e0ab567.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.211.0.VNIEUXM": {
 					"os": "OS2.0.211.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-10-24",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.211.0.VNIEUXM-user-15.0-1742f0f062.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.211.0.VNIEUXM_20251009.0000.00_15.0_eea_0c8402038f.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.211.0.VNIEUXM_20251009.0000.00_15.0_eea_0c8402038f.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.210.0.VNIEUXM": {
 					"os": "OS2.0.210.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.210.0.VNIEUXM-user-15.0-d16832ce12.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.210.0.VNIEUXM_20250918.0000.00_15.0_eea_3cc40a9dd8.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.210.0.VNIEUXM_20250918.0000.00_15.0_eea_3cc40a9dd8.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.206.0.VNIEUXM": {
 					"os": "OS2.0.206.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-08-30",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.206.0.VNIEUXM-user-15.0-16c0d97d70.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.206.0.VNIEUXM_20250819.0000.00_15.0_eea_fe89e71393.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.206.0.VNIEUXM_20250819.0000.00_15.0_eea_fe89e71393.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VNIEUXM": {
 					"os": "OS2.0.204.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-07-21",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.204.0.VNIEUXM-user-15.0-99dd3079a3.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.204.0.VNIEUXM_20250710.0000.00_15.0_eea_b618aee9df.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.204.0.VNIEUXM_20250710.0000.00_15.0_eea_b618aee9df.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VNIEUXM": {
 					"os": "OS2.0.104.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-06-12",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.104.0.VNIEUXM-user-15.0-e498a41b09.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.104.0.VNIEUXM_20250516.0000.00_15.0_eea_279433c11a.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.104.0.VNIEUXM_20250516.0000.00_15.0_eea_279433c11a.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.103.0.VNIEUXM": {
 					"os": "OS2.0.103.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.103.0.VNIEUXM-user-15.0-019589fe81.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.103.0.VNIEUXM_20250418.0000.00_15.0_eea_a5adff5241.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.103.0.VNIEUXM_20250418.0000.00_15.0_eea_a5adff5241.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VNIEUXM": {
 					"os": "OS2.0.102.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-04-01",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.102.0.VNIEUXM-user-15.0-60a2d9fbab.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.102.0.VNIEUXM_20250317.0000.00_15.0_eea_83dd14bd2d.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.102.0.VNIEUXM_20250317.0000.00_15.0_eea_83dd14bd2d.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.4.0.VNIEUXM": {
 					"os": "OS2.0.4.0.VNIEUXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "ruyi_eea_global-ota_full-OS2.0.4.0.VNIEUXM-user-15.0-fa2d48c2d5.zip",
-					"fastboot": "ruyi_eea_global_images_OS2.0.4.0.VNIEUXM_20250108.0000.00_15.0_eea_b540902a1c.tgz"
+					"fastboot": "ruyi_eea_global_images_OS2.0.4.0.VNIEUXM_20250108.0000.00_15.0_eea_b540902a1c.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.12.0.UNIEUXM": {
 					"os": "OS1.0.12.0.UNIEUXM",
 					"android": "14.0",
 					"release": "2024-12-14",
 					"recovery": "miui_RUYIEEAGlobal_OS1.0.12.0.UNIEUXM_fa8441367b_14.0.zip",
-					"fastboot": "ruyi_eea_global_images_OS1.0.12.0.UNIEUXM_20241125.0000.00_14.0_eea_8a81239866.tgz"
+					"fastboot": "ruyi_eea_global_images_OS1.0.12.0.UNIEUXM_20241125.0000.00_14.0_eea_8a81239866.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.UNIEUXM": {
 					"os": "OS1.0.11.0.UNIEUXM",
 					"android": "14.0",
 					"release": "2024-11-14",
 					"recovery": "miui_RUYIEEAGlobal_OS1.0.11.0.UNIEUXM_8d680cd5e6_14.0.zip",
-					"fastboot": "ruyi_eea_global_images_OS1.0.11.0.UNIEUXM_20241108.0000.00_14.0_eea_aafe7cdd91.tgz"
+					"fastboot": "ruyi_eea_global_images_OS1.0.11.0.UNIEUXM_20241108.0000.00_14.0_eea_aafe7cdd91.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.UNIEUXM": {
 					"os": "OS1.0.8.0.UNIEUXM",
 					"android": "14.0",
 					"release": "2024-10-09",
 					"recovery": "miui_RUYIEEAGlobal_OS1.0.8.0.UNIEUXM_35b495e4f0_14.0.zip",
-					"fastboot": "ruyi_eea_global_images_OS1.0.8.0.UNIEUXM_20241003.0000.00_14.0_eea_4c67761b4b.tgz"
+					"fastboot": "ruyi_eea_global_images_OS1.0.8.0.UNIEUXM_20241003.0000.00_14.0_eea_4c67761b4b.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UNIEUXM": {
 					"os": "OS1.0.2.0.UNIEUXM",
 					"android": "14.0",
 					"release": "2024-09-28",
 					"recovery": "miui_RUYIEEAGlobal_OS1.0.2.0.UNIEUXM_32f94e6e54_14.0.zip",
-					"fastboot": "ruyi_eea_global_images_OS1.0.2.0.UNIEUXM_20240730.0000.00_14.0_eea_ea079d952f.tgz"
+					"fastboot": "ruyi_eea_global_images_OS1.0.2.0.UNIEUXM_20240730.0000.00_14.0_eea_ea079d952f.tgz",
+					"aspatch": "2024-07-01"
 				}
 			}
 		},
@@ -929,6 +1026,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -945,105 +1043,120 @@
 					"android": "16.0",
 					"release": "2026-05-19",
 					"recovery": "ruyi_ru_global-ota_full-OS3.0.301.0.WNIRUXM-user-16.0-8c8ac479d7.zip",
-					"fastboot": "ruyi_ru_global_images_OS3.0.301.0.WNIRUXM_20260506.0000.00_16.0_ru_64ddd1efb4.tgz"
+					"fastboot": "ruyi_ru_global_images_OS3.0.301.0.WNIRUXM_20260506.0000.00_16.0_ru_64ddd1efb4.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.WNIRUXM": {
 					"os": "OS3.0.4.0.WNIRUXM",
 					"android": "16.0",
 					"release": "2026-03-27",
 					"recovery": "ruyi_ru_global-ota_full-OS3.0.4.0.WNIRUXM-user-16.0-441b3fbe23.zip",
-					"fastboot": "ruyi_ru_global_images_OS3.0.4.0.WNIRUXM_20260225.0000.00_16.0_ru_4da110ff65.tgz"
+					"fastboot": "ruyi_ru_global_images_OS3.0.4.0.WNIRUXM_20260225.0000.00_16.0_ru_4da110ff65.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WNIRUXM": {
 					"os": "OS3.0.1.0.WNIRUXM",
 					"android": "16.0",
 					"release": "2025-12-25",
 					"recovery": "ruyi_ru_global-ota_full-OS3.0.1.0.WNIRUXM-user-16.0-21f14b6105.zip",
-					"fastboot": "ruyi_ru_global_images_OS3.0.1.0.WNIRUXM_20251209.0000.00_16.0_ru_74b1bd87e8.tgz"
+					"fastboot": "ruyi_ru_global_images_OS3.0.1.0.WNIRUXM_20251209.0000.00_16.0_ru_74b1bd87e8.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.208.0.VNIRUXM": {
 					"os": "OS2.0.208.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.208.0.VNIRUXM-user-15.0-f80dec7658.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.208.0.VNIRUXM_20251104.0000.00_15.0_ru_3e4c14125a.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.208.0.VNIRUXM_20251104.0000.00_15.0_ru_3e4c14125a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VNIRUXM": {
 					"os": "OS2.0.207.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-10-29",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.207.0.VNIRUXM-user-15.0-55f71a20d9.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.207.0.VNIRUXM_20251015.0000.00_15.0_ru_36410b905c.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.207.0.VNIRUXM_20251015.0000.00_15.0_ru_36410b905c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VNIRUXM": {
 					"os": "OS2.0.206.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.206.0.VNIRUXM-user-15.0-b129dc8bf2.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.206.0.VNIRUXM_20250918.0000.00_15.0_ru_584fff4f1f.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.206.0.VNIRUXM_20250918.0000.00_15.0_ru_584fff4f1f.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VNIRUXM": {
 					"os": "OS2.0.202.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-08-26",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.202.0.VNIRUXM-user-15.0-e5b484004d.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.202.0.VNIRUXM_20250811.0000.00_15.0_ru_c519813a61.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.202.0.VNIRUXM_20250811.0000.00_15.0_ru_c519813a61.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNIRUXM": {
 					"os": "OS2.0.201.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.201.0.VNIRUXM-user-15.0-8c41312472.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.201.0.VNIRUXM_20250717.0000.00_15.0_ru_0ef961cb68.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.201.0.VNIRUXM_20250717.0000.00_15.0_ru_0ef961cb68.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.105.0.VNIRUXM": {
 					"os": "OS2.0.105.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-06-18",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.105.0.VNIRUXM-user-15.0-e39a68bd4f.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.105.0.VNIRUXM_20250529.0000.00_15.0_ru_e96ef3c014.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.105.0.VNIRUXM_20250529.0000.00_15.0_ru_e96ef3c014.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VNIRUXM": {
 					"os": "OS2.0.104.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.104.0.VNIRUXM-user-15.0-135a5bcf61.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.104.0.VNIRUXM_20250507.0000.00_15.0_ru_b083ded9d7.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.104.0.VNIRUXM_20250507.0000.00_15.0_ru_b083ded9d7.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.101.0.VNIRUXM": {
 					"os": "OS2.0.101.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-04-01",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.101.0.VNIRUXM-user-15.0-4fcfaa146b.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.101.0.VNIRUXM_20250317.0000.00_15.0_ru_59f1b4d923.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.101.0.VNIRUXM_20250317.0000.00_15.0_ru_59f1b4d923.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VNIRUXM": {
 					"os": "OS2.0.2.0.VNIRUXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "ruyi_ru_global-ota_full-OS2.0.2.0.VNIRUXM-user-15.0-f23627b939.zip",
-					"fastboot": "ruyi_ru_global_images_OS2.0.2.0.VNIRUXM_20250106.0000.00_15.0_ru_9aa2bf59b9.tgz"
+					"fastboot": "ruyi_ru_global_images_OS2.0.2.0.VNIRUXM_20250106.0000.00_15.0_ru_9aa2bf59b9.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.UNIRUXM": {
 					"os": "OS1.0.8.0.UNIRUXM",
 					"android": "14.0",
 					"release": "2024-12-14",
 					"recovery": "miui_RUYIRUGlobal_OS1.0.8.0.UNIRUXM_22134d6c0a_14.0.zip",
-					"fastboot": "ruyi_ru_global_images_OS1.0.8.0.UNIRUXM_20241125.0000.00_14.0_ru_d19df10b1b.tgz"
+					"fastboot": "ruyi_ru_global_images_OS1.0.8.0.UNIRUXM_20241125.0000.00_14.0_ru_d19df10b1b.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UNIRUXM": {
 					"os": "OS1.0.7.0.UNIRUXM",
 					"android": "14.0",
 					"release": "2024-11-14",
 					"recovery": "miui_RUYIRUGlobal_OS1.0.7.0.UNIRUXM_232d8ea776_14.0.zip",
-					"fastboot": "ruyi_ru_global_images_OS1.0.7.0.UNIRUXM_20241108.0000.00_14.0_ru_9eb4642696.tgz"
+					"fastboot": "ruyi_ru_global_images_OS1.0.7.0.UNIRUXM_20241108.0000.00_14.0_ru_9eb4642696.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UNIRUXM": {
 					"os": "OS1.0.4.0.UNIRUXM",
 					"android": "14.0",
 					"release": "2024-10-12",
 					"recovery": "miui_RUYIRUGlobal_OS1.0.4.0.UNIRUXM_cf62bd59d9_14.0.zip",
-					"fastboot": "ruyi_ru_global_images_OS1.0.4.0.UNIRUXM_20241007.0000.00_14.0_ru_759894fd7b.tgz"
+					"fastboot": "ruyi_ru_global_images_OS1.0.4.0.UNIRUXM_20241007.0000.00_14.0_ru_759894fd7b.tgz",
+					"aspatch": "2024-09-01"
 				}
 			}
 		}

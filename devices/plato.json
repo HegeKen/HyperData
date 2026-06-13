@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -51,147 +52,168 @@
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "plato_tw_global-ota_full-OS2.0.209.0.VLQTWXM-user-15.0-0732069d93.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.209.0.VLQTWXM_20260424.0000.00_15.0_tw_c9e6056938.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.209.0.VLQTWXM_20260424.0000.00_15.0_tw_c9e6056938.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.207.0.VLQTWXM": {
 					"os": "OS2.0.207.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "plato_tw_global-ota_full-OS2.0.207.0.VLQTWXM-user-15.0-6cc2f89079.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.207.0.VLQTWXM_20260120.0000.00_15.0_tw_96ebf543f3.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.207.0.VLQTWXM_20260120.0000.00_15.0_tw_96ebf543f3.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VLQTWXM": {
 					"os": "OS2.0.206.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "plato_tw_global-ota_full-OS2.0.206.0.VLQTWXM-user-15.0-d556f47711.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.206.0.VLQTWXM_20251201.0000.00_15.0_tw_499bd6c1fa.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.206.0.VLQTWXM_20251201.0000.00_15.0_tw_499bd6c1fa.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VLQTWXM": {
 					"os": "OS2.0.205.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "plato_tw_global-ota_full-OS2.0.205.0.VLQTWXM-user-15.0-24897152c2.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.205.0.VLQTWXM_20251027.0000.00_15.0_tw_1fb458316a.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.205.0.VLQTWXM_20251027.0000.00_15.0_tw_1fb458316a.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VLQTWXM": {
 					"os": "OS2.0.204.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "plato_tw_global-ota_full-OS2.0.204.0.VLQTWXM-user-15.0-8c8a4b9e1c.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.204.0.VLQTWXM_20250926.0000.00_15.0_tw_fbe2307adc.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.204.0.VLQTWXM_20250926.0000.00_15.0_tw_fbe2307adc.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VLQTWXM": {
 					"os": "OS2.0.203.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "plato_tw_global-ota_full-OS2.0.203.0.VLQTWXM-user-15.0-dc7eb42572.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.203.0.VLQTWXM_20250901.0000.00_15.0_tw_7dba67a913.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.203.0.VLQTWXM_20250901.0000.00_15.0_tw_7dba67a913.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VLQTWXM": {
 					"os": "OS2.0.202.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "plato_tw_global-ota_full-OS2.0.202.0.VLQTWXM-user-15.0-ee066fb011.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.202.0.VLQTWXM_20250812.0000.00_15.0_tw_e1c8aa5470.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.202.0.VLQTWXM_20250812.0000.00_15.0_tw_e1c8aa5470.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VLQTWXM": {
 					"os": "OS2.0.200.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "plato_tw_global-ota_full-OS2.0.200.0.VLQTWXM-user-15.0-babda4effa.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.200.0.VLQTWXM_20250715.0000.00_15.0_tw_f1a60842b3.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.200.0.VLQTWXM_20250715.0000.00_15.0_tw_f1a60842b3.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.3.0.VLQTWXM": {
 					"os": "OS2.0.3.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "plato_tw_global-ota_full-OS2.0.3.0.VLQTWXM-user-15.0-b4713df0f5.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VLQTWXM": {
 					"os": "OS2.0.2.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "plato_tw_global-ota_full-OS2.0.2.0.VLQTWXM-user-15.0-e54c607b28.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.2.0.VLQTWXM_20250423.0000.00_15.0_tw_569b7a044f.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.2.0.VLQTWXM_20250423.0000.00_15.0_tw_569b7a044f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.VLQTWXM": {
 					"os": "OS2.0.1.0.VLQTWXM",
 					"android": "15.0",
 					"release": "2025-04-08",
 					"recovery": "plato_tw_global-ota_full-OS2.0.1.0.VLQTWXM-user-15.0-f0be518318.zip",
-					"fastboot": "plato_tw_global_images_OS2.0.1.0.VLQTWXM_20250314.0000.00_15.0_tw_bf95714e7a.tgz"
+					"fastboot": "plato_tw_global_images_OS2.0.1.0.VLQTWXM_20250314.0000.00_15.0_tw_bf95714e7a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.11.0.ULQTWXM": {
 					"os": "OS1.0.11.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2025-03-24",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.11.0.ULQTWXM_832547d3be_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.11.0.ULQTWXM_20250311.0000.00_14.0_tw_2ddd45ef3c.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.11.0.ULQTWXM_20250311.0000.00_14.0_tw_2ddd45ef3c.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.ULQTWXM": {
 					"os": "OS1.0.9.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2025-02-17",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.9.0.ULQTWXM_7f579cd5d0_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.9.0.ULQTWXM_20250120.0000.00_14.0_tw_672df50143.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.9.0.ULQTWXM_20250120.0000.00_14.0_tw_672df50143.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.ULQTWXM": {
 					"os": "OS1.0.8.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2025-02-05",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.8.0.ULQTWXM_df651ad1f2_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.8.0.ULQTWXM_20250106.0000.00_14.0_tw_4422f22842.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.8.0.ULQTWXM_20250106.0000.00_14.0_tw_4422f22842.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.ULQTWXM": {
 					"os": "OS1.0.7.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2024-12-20",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.7.0.ULQTWXM_fef5910086_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.7.0.ULQTWXM_20241125.0000.00_14.0_tw_b463b1dc76.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.7.0.ULQTWXM_20241125.0000.00_14.0_tw_b463b1dc76.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.ULQTWXM": {
 					"os": "OS1.0.6.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2024-11-11",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.6.0.ULQTWXM_b85ee63463_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.6.0.ULQTWXM_20241021.0000.00_14.0_tw_06ef1c4464.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.6.0.ULQTWXM_20241021.0000.00_14.0_tw_06ef1c4464.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.ULQTWXM": {
 					"os": "OS1.0.5.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.5.0.ULQTWXM_3a674b6455_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.5.0.ULQTWXM_20240913.0000.00_14.0_tw_542a520842.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.5.0.ULQTWXM_20240913.0000.00_14.0_tw_542a520842.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.ULQTWXM": {
 					"os": "OS1.0.4.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.4.0.ULQTWXM_a5eace5111_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.4.0.ULQTWXM_20240813.0000.00_14.0_tw_aad69a8936.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.4.0.ULQTWXM_20240813.0000.00_14.0_tw_aad69a8936.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.ULQTWXM": {
 					"os": "OS1.0.3.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2024-06-26",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.3.0.ULQTWXM_c9e01647e8_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.3.0.ULQTWXM_20240611.0000.00_14.0_tw_b5fd0afe95.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.3.0.ULQTWXM_20240611.0000.00_14.0_tw_b5fd0afe95.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.ULQTWXM": {
 					"os": "OS1.0.2.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2024-04-11",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.2.0.ULQTWXM_f5f3bbdd6b_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.2.0.ULQTWXM_20240319.0000.00_14.0_tw_c6c46a31d1.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.2.0.ULQTWXM_20240319.0000.00_14.0_tw_c6c46a31d1.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.ULQTWXM": {
 					"os": "OS1.0.1.0.ULQTWXM",
 					"android": "14.0",
 					"release": "2024-01-18",
 					"recovery": "miui_PLATOTWGlobal_OS1.0.1.0.ULQTWXM_7235f20c2a_14.0.zip",
-					"fastboot": "plato_tw_global_images_OS1.0.1.0.ULQTWXM_20240102.0000.00_14.0_tw_45648a5d13.tgz"
+					"fastboot": "plato_tw_global_images_OS1.0.1.0.ULQTWXM_20240102.0000.00_14.0_tw_45648a5d13.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -213,6 +235,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -229,161 +252,184 @@
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "plato_global-ota_full-OS2.0.214.0.VLQMIXM-user-15.0-9496b77e33.zip",
-					"fastboot": "plato_global_images_OS2.0.214.0.VLQMIXM_20260423.0000.00_15.0_global_09cd59e129.tgz"
+					"fastboot": "plato_global_images_OS2.0.214.0.VLQMIXM_20260423.0000.00_15.0_global_09cd59e129.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.212.0.VLQMIXM": {
 					"os": "OS2.0.212.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "plato_global-ota_full-OS2.0.212.0.VLQMIXM-user-15.0-a2b0839ab1.zip",
-					"fastboot": "plato_global_images_OS2.0.212.0.VLQMIXM_20260120.0000.00_15.0_global_e57e043018.tgz"
+					"fastboot": "plato_global_images_OS2.0.212.0.VLQMIXM_20260120.0000.00_15.0_global_e57e043018.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.211.0.VLQMIXM": {
 					"os": "OS2.0.211.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-12-29",
 					"recovery": "plato_global-ota_full-OS2.0.211.0.VLQMIXM-user-15.0-1fdba6b8f1.zip",
-					"fastboot": "plato_global_images_OS2.0.211.0.VLQMIXM_20251222.0000.00_15.0_global_e9c4d51bdb.tgz"
+					"fastboot": "plato_global_images_OS2.0.211.0.VLQMIXM_20251222.0000.00_15.0_global_e9c4d51bdb.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.210.0.VLQMIXM": {
 					"os": "OS2.0.210.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "plato_global-ota_full-OS2.0.210.0.VLQMIXM-user-15.0-0cb7e37358.zip",
-					"fastboot": "plato_global_images_OS2.0.210.0.VLQMIXM_20251126.0000.00_15.0_global_2126075ee3.tgz"
+					"fastboot": "plato_global_images_OS2.0.210.0.VLQMIXM_20251126.0000.00_15.0_global_2126075ee3.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.209.0.VLQMIXM": {
 					"os": "OS2.0.209.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "plato_global-ota_full-OS2.0.209.0.VLQMIXM-user-15.0-68d8ad7d33.zip",
-					"fastboot": "plato_global_images_OS2.0.209.0.VLQMIXM_20251024.0000.00_15.0_global_490825a81e.tgz"
+					"fastboot": "plato_global_images_OS2.0.209.0.VLQMIXM_20251024.0000.00_15.0_global_490825a81e.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.207.0.VLQMIXM": {
 					"os": "OS2.0.207.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "plato_global-ota_full-OS2.0.207.0.VLQMIXM-user-15.0-84fa88cb3d.zip",
-					"fastboot": "plato_global_images_OS2.0.207.0.VLQMIXM_20250923.0000.00_15.0_global_62eb292827.tgz"
+					"fastboot": "plato_global_images_OS2.0.207.0.VLQMIXM_20250923.0000.00_15.0_global_62eb292827.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.205.0.VLQMIXM": {
 					"os": "OS2.0.205.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "plato_global-ota_full-OS2.0.205.0.VLQMIXM-user-15.0-2ad3b1bc73.zip",
-					"fastboot": "plato_global_images_OS2.0.205.0.VLQMIXM_20250826.0000.00_15.0_global_4149f472e8.tgz"
+					"fastboot": "plato_global_images_OS2.0.205.0.VLQMIXM_20250826.0000.00_15.0_global_4149f472e8.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VLQMIXM": {
 					"os": "OS2.0.204.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "plato_global-ota_full-OS2.0.204.0.VLQMIXM-user-15.0-669d2b49cc.zip",
-					"fastboot": "plato_global_images_OS2.0.204.0.VLQMIXM_20250812.0000.00_15.0_global_756c8680e1.tgz"
+					"fastboot": "plato_global_images_OS2.0.204.0.VLQMIXM_20250812.0000.00_15.0_global_756c8680e1.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VLQMIXM": {
 					"os": "OS2.0.202.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-07-26",
 					"recovery": "plato_global-ota_full-OS2.0.202.0.VLQMIXM-user-15.0-29b6f61500.zip",
-					"fastboot": "plato_global_images_OS2.0.202.0.VLQMIXM_20250714.0000.00_15.0_global_e4af68ea2a.tgz"
+					"fastboot": "plato_global_images_OS2.0.202.0.VLQMIXM_20250714.0000.00_15.0_global_e4af68ea2a.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.7.0.VLQMIXM": {
 					"os": "OS2.0.7.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "plato_global-ota_full-OS2.0.7.0.VLQMIXM-user-15.0-03a76a93c8.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.6.0.VLQMIXM": {
 					"os": "OS2.0.6.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "plato_global-ota_full-OS2.0.6.0.VLQMIXM-user-15.0-33e145fd4d.zip",
-					"fastboot": "plato_global_images_OS2.0.6.0.VLQMIXM_20250418.0000.00_15.0_global_0839cbea35.tgz"
+					"fastboot": "plato_global_images_OS2.0.6.0.VLQMIXM_20250418.0000.00_15.0_global_0839cbea35.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.5.0.VLQMIXM": {
 					"os": "OS2.0.5.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-04-05",
 					"recovery": "plato_global-ota_full-OS2.0.5.0.VLQMIXM-user-15.0-0f809b9ff6.zip",
-					"fastboot": "plato_global_images_OS2.0.5.0.VLQMIXM_20250328.0000.00_15.0_global_0e90ce37b3.tgz"
+					"fastboot": "plato_global_images_OS2.0.5.0.VLQMIXM_20250328.0000.00_15.0_global_0e90ce37b3.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VLQMIXM": {
 					"os": "OS2.0.2.0.VLQMIXM",
 					"android": "15.0",
 					"release": "2025-03-03",
 					"recovery": "plato_global-ota_full-OS2.0.2.0.VLQMIXM-user-15.0-2d16cd2bfd.zip",
-					"fastboot": "plato_global_images_OS2.0.2.0.VLQMIXM_20250214.0000.00_15.0_global_705a1fcd99.tgz"
+					"fastboot": "plato_global_images_OS2.0.2.0.VLQMIXM_20250214.0000.00_15.0_global_705a1fcd99.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.15.0.ULQMIXM": {
 					"os": "OS1.0.15.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PLATOGlobal_OS1.0.15.0.ULQMIXM_3085ab3bd8_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.15.0.ULQMIXM_20241225.0000.00_14.0_global_04ec9e4e88.tgz"
+					"fastboot": "plato_global_images_OS1.0.15.0.ULQMIXM_20241225.0000.00_14.0_global_04ec9e4e88.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.14.0.ULQMIXM": {
 					"os": "OS1.0.14.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PLATOGlobal_OS1.0.14.0.ULQMIXM_cf24459620_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.14.0.ULQMIXM_20241107.0000.00_14.0_global_ea470cf637.tgz"
+					"fastboot": "plato_global_images_OS1.0.14.0.ULQMIXM_20241107.0000.00_14.0_global_ea470cf637.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.13.0.ULQMIXM": {
 					"os": "OS1.0.13.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-11-11",
 					"recovery": "miui_PLATOGlobal_OS1.0.13.0.ULQMIXM_22a43b10ee_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.13.0.ULQMIXM_20241021.0000.00_14.0_global_ad60069730.tgz"
+					"fastboot": "plato_global_images_OS1.0.13.0.ULQMIXM_20241021.0000.00_14.0_global_ad60069730.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.12.0.ULQMIXM": {
 					"os": "OS1.0.12.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_PLATOGlobal_OS1.0.12.0.ULQMIXM_fc2d78614e_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.12.0.ULQMIXM_20240911.0000.00_14.0_global_7337fbe6bd.tgz"
+					"fastboot": "plato_global_images_OS1.0.12.0.ULQMIXM_20240911.0000.00_14.0_global_7337fbe6bd.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.11.0.ULQMIXM": {
 					"os": "OS1.0.11.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_PLATOGlobal_OS1.0.11.0.ULQMIXM_5f21196fc1_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.11.0.ULQMIXM_20240813.0000.00_14.0_global_bd75b71cc0.tgz"
+					"fastboot": "plato_global_images_OS1.0.11.0.ULQMIXM_20240813.0000.00_14.0_global_bd75b71cc0.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.10.0.ULQMIXM": {
 					"os": "OS1.0.10.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-07-16",
 					"recovery": "miui_PLATOGlobal_OS1.0.10.0.ULQMIXM_d568a899f2_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.10.0.ULQMIXM_20240701.0000.00_14.0_global_5db22cc51c.tgz"
+					"fastboot": "plato_global_images_OS1.0.10.0.ULQMIXM_20240701.0000.00_14.0_global_5db22cc51c.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.9.0.ULQMIXM": {
 					"os": "OS1.0.9.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-05-24",
 					"recovery": "miui_PLATOGlobal_OS1.0.9.0.ULQMIXM_a252b457bc_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.9.0.ULQMIXM_20240426.0000.00_14.0_global_ed07146a73.tgz"
+					"fastboot": "plato_global_images_OS1.0.9.0.ULQMIXM_20240426.0000.00_14.0_global_ed07146a73.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.8.0.ULQMIXM": {
 					"os": "OS1.0.8.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_PLATOGlobal_OS1.0.8.0.ULQMIXM_66cc9d612c_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.8.0.ULQMIXM_20240228.0000.00_14.0_global_848b3106f6.tgz"
+					"fastboot": "plato_global_images_OS1.0.8.0.ULQMIXM_20240228.0000.00_14.0_global_848b3106f6.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.7.0.ULQMIXM": {
 					"os": "OS1.0.7.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-02-22",
 					"recovery": "miui_PLATOGlobal_OS1.0.7.0.ULQMIXM_2742c5324e_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.7.0.ULQMIXM_20240205.0000.00_14.0_global_ddac490710.tgz"
+					"fastboot": "plato_global_images_OS1.0.7.0.ULQMIXM_20240205.0000.00_14.0_global_ddac490710.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.5.0.ULQMIXM": {
 					"os": "OS1.0.5.0.ULQMIXM",
 					"android": "14.0",
 					"release": "2024-01-09",
 					"recovery": "miui_PLATOGlobal_OS1.0.5.0.ULQMIXM_9c5350230d_14.0.zip",
-					"fastboot": "plato_global_images_OS1.0.5.0.ULQMIXM_20231206.0000.00_14.0_global_cc8161399a.tgz"
+					"fastboot": "plato_global_images_OS1.0.5.0.ULQMIXM_20231206.0000.00_14.0_global_cc8161399a.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -405,6 +451,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -421,189 +468,216 @@
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "plato_eea_global-ota_full-OS2.0.215.0.VLQEUXM-user-15.0-e297a5c626.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.215.0.VLQEUXM_20260423.0000.00_15.0_eea_ff3e1dd0ef.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.215.0.VLQEUXM_20260423.0000.00_15.0_eea_ff3e1dd0ef.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.214.0.VLQEUXM": {
 					"os": "OS2.0.214.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "plato_eea_global-ota_full-OS2.0.214.0.VLQEUXM-user-15.0-ef09184f15.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.214.0.VLQEUXM_20260420.0000.00_15.0_eea_05fb66ebc7.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.214.0.VLQEUXM_20260420.0000.00_15.0_eea_05fb66ebc7.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.212.0.VLQEUXM": {
 					"os": "OS2.0.212.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "plato_eea_global-ota_full-OS2.0.212.0.VLQEUXM-user-15.0-c53c759594.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.212.0.VLQEUXM_20260115.0000.00_15.0_eea_278fabfec4.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.212.0.VLQEUXM_20260115.0000.00_15.0_eea_278fabfec4.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.211.0.VLQEUXM": {
 					"os": "OS2.0.211.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2026-01-07",
 					"recovery": "plato_eea_global-ota_full-OS2.0.211.0.VLQEUXM-user-15.0-5772255dfe.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.211.0.VLQEUXM_20251230.0000.00_15.0_eea_7e29d0347a.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.211.0.VLQEUXM_20251230.0000.00_15.0_eea_7e29d0347a.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.208.0.VLQEUXM": {
 					"os": "OS2.0.208.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "plato_eea_global-ota_full-OS2.0.208.0.VLQEUXM-user-15.0-303ed8f712.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.208.0.VLQEUXM_20251201.0000.00_15.0_eea_dd24727fbb.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.208.0.VLQEUXM_20251201.0000.00_15.0_eea_dd24727fbb.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VLQEUXM": {
 					"os": "OS2.0.207.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "plato_eea_global-ota_full-OS2.0.207.0.VLQEUXM-user-15.0-64549fb03b.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.207.0.VLQEUXM_20251027.0000.00_15.0_eea_6f18519b5f.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.207.0.VLQEUXM_20251027.0000.00_15.0_eea_6f18519b5f.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VLQEUXM": {
 					"os": "OS2.0.206.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "plato_eea_global-ota_full-OS2.0.206.0.VLQEUXM-user-15.0-84261fd812.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.206.0.VLQEUXM_20250926.0000.00_15.0_eea_f806ef888b.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.206.0.VLQEUXM_20250926.0000.00_15.0_eea_f806ef888b.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.204.0.VLQEUXM": {
 					"os": "OS2.0.204.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "plato_eea_global-ota_full-OS2.0.204.0.VLQEUXM-user-15.0-f1a035e6e9.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.204.0.VLQEUXM_20250909.0000.00_15.0_eea_29276d7a0d.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.204.0.VLQEUXM_20250909.0000.00_15.0_eea_29276d7a0d.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VLQEUXM": {
 					"os": "OS2.0.203.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "plato_eea_global-ota_full-OS2.0.203.0.VLQEUXM-user-15.0-854146668c.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.203.0.VLQEUXM_20250901.0000.00_15.0_eea_b1f93731d5.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.203.0.VLQEUXM_20250901.0000.00_15.0_eea_b1f93731d5.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VLQEUXM": {
 					"os": "OS2.0.202.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "plato_eea_global-ota_full-OS2.0.202.0.VLQEUXM-user-15.0-f234abd7a9.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.202.0.VLQEUXM_20250812.0000.00_15.0_eea_0ae40d5a56.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.202.0.VLQEUXM_20250812.0000.00_15.0_eea_0ae40d5a56.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VLQEUXM": {
 					"os": "OS2.0.200.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-07-26",
 					"recovery": "plato_eea_global-ota_full-OS2.0.200.0.VLQEUXM-user-15.0-570e91ad05.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.200.0.VLQEUXM_20250714.0000.00_15.0_eea_995d4e60dd.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.200.0.VLQEUXM_20250714.0000.00_15.0_eea_995d4e60dd.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.8.0.VLQEUXM": {
 					"os": "OS2.0.8.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "plato_eea_global-ota_full-OS2.0.8.0.VLQEUXM-user-15.0-f1c9ba13f6.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.7.0.VLQEUXM": {
 					"os": "OS2.0.7.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "plato_eea_global-ota_full-OS2.0.7.0.VLQEUXM-user-15.0-2e8c39a604.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.7.0.VLQEUXM_20250423.0000.00_15.0_eea_962974091a.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.7.0.VLQEUXM_20250423.0000.00_15.0_eea_962974091a.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.6.0.VLQEUXM": {
 					"os": "OS2.0.6.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "plato_eea_global-ota_full-OS2.0.6.0.VLQEUXM-user-15.0-eb7ab221e7.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.6.0.VLQEUXM_20250414.0000.00_15.0_eea_bb38cf3748.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.6.0.VLQEUXM_20250414.0000.00_15.0_eea_bb38cf3748.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.1.0.VLQEUXM": {
 					"os": "OS2.0.1.0.VLQEUXM",
 					"android": "15.0",
 					"release": "2025-03-20",
 					"recovery": "plato_eea_global-ota_full-OS2.0.1.0.VLQEUXM-user-15.0-56baa9f630.zip",
-					"fastboot": "plato_eea_global_images_OS2.0.1.0.VLQEUXM_20250214.0000.00_15.0_eea_e2b6ffeede.tgz"
+					"fastboot": "plato_eea_global_images_OS2.0.1.0.VLQEUXM_20250214.0000.00_15.0_eea_e2b6ffeede.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.18.0.ULQEUXM": {
 					"os": "OS1.0.18.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2025-02-12",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.18.0.ULQEUXM_16ba84a05c_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.18.0.ULQEUXM_20250113.0000.00_14.0_eea_a180b3e94b.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.18.0.ULQEUXM_20250113.0000.00_14.0_eea_a180b3e94b.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.17.0.ULQEUXM": {
 					"os": "OS1.0.17.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.17.0.ULQEUXM_1819b06a62_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.17.0.ULQEUXM_20241225.0000.00_14.0_eea_df97779ff4.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.17.0.ULQEUXM_20241225.0000.00_14.0_eea_df97779ff4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.16.0.ULQEUXM": {
 					"os": "OS1.0.16.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.16.0.ULQEUXM_09be0f0549_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.16.0.ULQEUXM_20241121.0000.00_14.0_eea_eca0c20cd9.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.16.0.ULQEUXM_20241121.0000.00_14.0_eea_eca0c20cd9.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.15.0.ULQEUXM": {
 					"os": "OS1.0.15.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.15.0.ULQEUXM_df784c5b33_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.15.0.ULQEUXM_20241015.0000.00_14.0_eea_9ef0933b46.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.15.0.ULQEUXM_20241015.0000.00_14.0_eea_9ef0933b46.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.14.0.ULQEUXM": {
 					"os": "OS1.0.14.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.14.0.ULQEUXM_92f4894663_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.14.0.ULQEUXM_20240911.0000.00_14.0_eea_05cf65614d.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.14.0.ULQEUXM_20240911.0000.00_14.0_eea_05cf65614d.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.13.0.ULQEUXM": {
 					"os": "OS1.0.13.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.13.0.ULQEUXM_3f09ba3278_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.13.0.ULQEUXM_20240805.0000.00_14.0_eea_fa90fa71aa.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.13.0.ULQEUXM_20240805.0000.00_14.0_eea_fa90fa71aa.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.12.0.ULQEUXM": {
 					"os": "OS1.0.12.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-08-07",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.12.0.ULQEUXM_94738c2aec_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.12.0.ULQEUXM_20240715.0000.00_14.0_eea_30182be566.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.12.0.ULQEUXM_20240715.0000.00_14.0_eea_30182be566.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.11.0.ULQEUXM": {
 					"os": "OS1.0.11.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-06-19",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.11.0.ULQEUXM_625dea68ac_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.11.0.ULQEUXM_20240509.0000.00_14.0_eea_05ba1d1cab.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.11.0.ULQEUXM_20240509.0000.00_14.0_eea_05ba1d1cab.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.10.0.ULQEUXM": {
 					"os": "OS1.0.10.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-04-22",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.10.0.ULQEUXM_6f51366909_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.10.0.ULQEUXM_20240329.0000.00_14.0_eea_781324718f.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.10.0.ULQEUXM_20240329.0000.00_14.0_eea_781324718f.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.9.0.ULQEUXM": {
 					"os": "OS1.0.9.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-04-10",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.9.0.ULQEUXM_cd7fb9c2c0_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.9.0.ULQEUXM_20240312.0000.00_14.0_eea_d1ba149ea1.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.9.0.ULQEUXM_20240312.0000.00_14.0_eea_d1ba149ea1.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.8.0.ULQEUXM": {
 					"os": "OS1.0.8.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2024-02-19",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.8.0.ULQEUXM_751280393d_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.8.0.ULQEUXM_20240111.0000.00_14.0_eea_abbc816fe1.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.8.0.ULQEUXM_20240111.0000.00_14.0_eea_abbc816fe1.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.5.0.ULQEUXM": {
 					"os": "OS1.0.5.0.ULQEUXM",
 					"android": "14.0",
 					"release": "2023-12-18",
 					"recovery": "miui_PLATOEEAGlobal_OS1.0.5.0.ULQEUXM_6be50f4ae0_14.0.zip",
-					"fastboot": "plato_eea_global_images_OS1.0.5.0.ULQEUXM_20231130.0000.00_14.0_eea_5acaeeaeee.tgz"
+					"fastboot": "plato_eea_global_images_OS1.0.5.0.ULQEUXM_20231130.0000.00_14.0_eea_5acaeeaeee.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -625,6 +699,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -641,147 +716,168 @@
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "plato_ru_global-ota_full-OS2.0.209.0.VLQRUXM-user-15.0-e28f954dcb.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.209.0.VLQRUXM_20260424.0000.00_15.0_ru_091b130d87.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.209.0.VLQRUXM_20260424.0000.00_15.0_ru_091b130d87.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.207.0.VLQRUXM": {
 					"os": "OS2.0.207.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "plato_ru_global-ota_full-OS2.0.207.0.VLQRUXM-user-15.0-071ff9bec4.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.207.0.VLQRUXM_20260120.0000.00_15.0_ru_de8690a13c.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.207.0.VLQRUXM_20260120.0000.00_15.0_ru_de8690a13c.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VLQRUXM": {
 					"os": "OS2.0.206.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "plato_ru_global-ota_full-OS2.0.206.0.VLQRUXM-user-15.0-b28b6e709f.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.206.0.VLQRUXM_20251201.0000.00_15.0_ru_722fe9070a.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.206.0.VLQRUXM_20251201.0000.00_15.0_ru_722fe9070a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VLQRUXM": {
 					"os": "OS2.0.205.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "plato_ru_global-ota_full-OS2.0.205.0.VLQRUXM-user-15.0-618c1d4f45.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.205.0.VLQRUXM_20251027.0000.00_15.0_ru_910783902a.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.205.0.VLQRUXM_20251027.0000.00_15.0_ru_910783902a.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VLQRUXM": {
 					"os": "OS2.0.204.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "plato_ru_global-ota_full-OS2.0.204.0.VLQRUXM-user-15.0-7cfe6ee909.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.204.0.VLQRUXM_20250926.0000.00_15.0_ru_41ced30f2a.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.204.0.VLQRUXM_20250926.0000.00_15.0_ru_41ced30f2a.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VLQRUXM": {
 					"os": "OS2.0.203.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "plato_ru_global-ota_full-OS2.0.203.0.VLQRUXM-user-15.0-374ab60003.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.203.0.VLQRUXM_20250901.0000.00_15.0_ru_bfa1947a2f.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.203.0.VLQRUXM_20250901.0000.00_15.0_ru_bfa1947a2f.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VLQRUXM": {
 					"os": "OS2.0.202.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "plato_ru_global-ota_full-OS2.0.202.0.VLQRUXM-user-15.0-552af6044e.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.202.0.VLQRUXM_20250812.0000.00_15.0_ru_2d6db0005c.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.202.0.VLQRUXM_20250812.0000.00_15.0_ru_2d6db0005c.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VLQRUXM": {
 					"os": "OS2.0.200.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "plato_ru_global-ota_full-OS2.0.200.0.VLQRUXM-user-15.0-00fde34b9a.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.200.0.VLQRUXM_20250715.0000.00_15.0_ru_bdad41bd1e.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.200.0.VLQRUXM_20250715.0000.00_15.0_ru_bdad41bd1e.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.3.0.VLQRUXM": {
 					"os": "OS2.0.3.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "plato_ru_global-ota_full-OS2.0.3.0.VLQRUXM-user-15.0-a85a8b1929.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VLQRUXM": {
 					"os": "OS2.0.2.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "plato_ru_global-ota_full-OS2.0.2.0.VLQRUXM-user-15.0-4060f6d9a5.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.2.0.VLQRUXM_20250423.0000.00_15.0_ru_90dd76b4e6.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.2.0.VLQRUXM_20250423.0000.00_15.0_ru_90dd76b4e6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.VLQRUXM": {
 					"os": "OS2.0.1.0.VLQRUXM",
 					"android": "15.0",
 					"release": "2025-04-14",
 					"recovery": "plato_ru_global-ota_full-OS2.0.1.0.VLQRUXM-user-15.0-d53dcdbf68.zip",
-					"fastboot": "plato_ru_global_images_OS2.0.1.0.VLQRUXM_20250314.0000.00_15.0_ru_e20525a695.tgz"
+					"fastboot": "plato_ru_global_images_OS2.0.1.0.VLQRUXM_20250314.0000.00_15.0_ru_e20525a695.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.12.0.ULQRUXM": {
 					"os": "OS1.0.12.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2025-03-24",
 					"recovery": "miui_PLATORUGlobal_OS1.0.12.0.ULQRUXM_358d112e5c_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.12.0.ULQRUXM_20250311.0000.00_14.0_ru_8d59a83faa.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.12.0.ULQRUXM_20250311.0000.00_14.0_ru_8d59a83faa.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.10.0.ULQRUXM": {
 					"os": "OS1.0.10.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2025-03-04",
 					"recovery": "miui_PLATORUGlobal_OS1.0.10.0.ULQRUXM_076382d55a_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.10.0.ULQRUXM_20250206.0000.00_14.0_ru_7b28e3789b.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.10.0.ULQRUXM_20250206.0000.00_14.0_ru_7b28e3789b.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.9.0.ULQRUXM": {
 					"os": "OS1.0.9.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2025-02-17",
 					"recovery": "miui_PLATORUGlobal_OS1.0.9.0.ULQRUXM_75470dc2dd_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.9.0.ULQRUXM_20241231.0000.00_14.0_ru_b991dcae6b.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.9.0.ULQRUXM_20241231.0000.00_14.0_ru_b991dcae6b.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.ULQRUXM": {
 					"os": "OS1.0.8.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PLATORUGlobal_OS1.0.8.0.ULQRUXM_9cb4b51963_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.8.0.ULQRUXM_20241125.0000.00_14.0_ru_706fe5537a.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.8.0.ULQRUXM_20241125.0000.00_14.0_ru_706fe5537a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.ULQRUXM": {
 					"os": "OS1.0.7.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_PLATORUGlobal_OS1.0.7.0.ULQRUXM_695e0cb2bb_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.7.0.ULQRUXM_20241021.0000.00_14.0_ru_fe2be0b5e5.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.7.0.ULQRUXM_20241021.0000.00_14.0_ru_fe2be0b5e5.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.ULQRUXM": {
 					"os": "OS1.0.6.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_PLATORUGlobal_OS1.0.6.0.ULQRUXM_d7f1393d64_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.6.0.ULQRUXM_20240923.0000.00_14.0_ru_1e1bbcc452.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.6.0.ULQRUXM_20240923.0000.00_14.0_ru_1e1bbcc452.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.ULQRUXM": {
 					"os": "OS1.0.5.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_PLATORUGlobal_OS1.0.5.0.ULQRUXM_13a204e953_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.5.0.ULQRUXM_20240813.0000.00_14.0_ru_aaa348eb9c.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.5.0.ULQRUXM_20240813.0000.00_14.0_ru_aaa348eb9c.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.ULQRUXM": {
 					"os": "OS1.0.4.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_PLATORUGlobal_OS1.0.4.0.ULQRUXM_e0e30d89b2_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.4.0.ULQRUXM_20240617.0000.00_14.0_ru_56f87cf546.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.4.0.ULQRUXM_20240617.0000.00_14.0_ru_56f87cf546.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.ULQRUXM": {
 					"os": "OS1.0.3.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2024-05-13",
 					"recovery": "miui_PLATORUGlobal_OS1.0.3.0.ULQRUXM_cea9654e42_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.3.0.ULQRUXM_20240408.0000.00_14.0_ru_10a8e8d324.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.3.0.ULQRUXM_20240408.0000.00_14.0_ru_10a8e8d324.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.2.0.ULQRUXM": {
 					"os": "OS1.0.2.0.ULQRUXM",
 					"android": "14.0",
 					"release": "2024-02-01",
 					"recovery": "miui_PLATORUGlobal_OS1.0.2.0.ULQRUXM_1e6f28810f_14.0.zip",
-					"fastboot": "plato_ru_global_images_OS1.0.2.0.ULQRUXM_20240125.0000.00_14.0_ru_3ac0b4ef18.tgz"
+					"fastboot": "plato_ru_global_images_OS1.0.2.0.ULQRUXM_20240125.0000.00_14.0_ru_3ac0b4ef18.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -803,6 +899,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -819,147 +916,168 @@
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "plato_id_global-ota_full-OS2.0.209.0.VLQIDXM-user-15.0-cb66548a76.zip",
-					"fastboot": "plato_id_global_images_OS2.0.209.0.VLQIDXM_20260424.0000.00_15.0_id_973c152bc6.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.209.0.VLQIDXM_20260424.0000.00_15.0_id_973c152bc6.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.207.0.VLQIDXM": {
 					"os": "OS2.0.207.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2026-02-24",
 					"recovery": "plato_id_global-ota_full-OS2.0.207.0.VLQIDXM-user-15.0-71250b7884.zip",
-					"fastboot": "plato_id_global_images_OS2.0.207.0.VLQIDXM_20260120.0000.00_15.0_id_2321e41459.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.207.0.VLQIDXM_20260120.0000.00_15.0_id_2321e41459.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VLQIDXM": {
 					"os": "OS2.0.206.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "plato_id_global-ota_full-OS2.0.206.0.VLQIDXM-user-15.0-1fff430681.zip",
-					"fastboot": "plato_id_global_images_OS2.0.206.0.VLQIDXM_20251201.0000.00_15.0_id_14c1639e52.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.206.0.VLQIDXM_20251201.0000.00_15.0_id_14c1639e52.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VLQIDXM": {
 					"os": "OS2.0.205.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "plato_id_global-ota_full-OS2.0.205.0.VLQIDXM-user-15.0-dc7166fc67.zip",
-					"fastboot": "plato_id_global_images_OS2.0.205.0.VLQIDXM_20251027.0000.00_15.0_id_ff345c1b57.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.205.0.VLQIDXM_20251027.0000.00_15.0_id_ff345c1b57.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VLQIDXM": {
 					"os": "OS2.0.204.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "plato_id_global-ota_full-OS2.0.204.0.VLQIDXM-user-15.0-3a72d4ebec.zip",
-					"fastboot": "plato_id_global_images_OS2.0.204.0.VLQIDXM_20250926.0000.00_15.0_id_bc0f8219db.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.204.0.VLQIDXM_20250926.0000.00_15.0_id_bc0f8219db.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VLQIDXM": {
 					"os": "OS2.0.203.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "plato_id_global-ota_full-OS2.0.203.0.VLQIDXM-user-15.0-4d4625bd6d.zip",
-					"fastboot": "plato_id_global_images_OS2.0.203.0.VLQIDXM_20250901.0000.00_15.0_id_55e538f35a.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.203.0.VLQIDXM_20250901.0000.00_15.0_id_55e538f35a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VLQIDXM": {
 					"os": "OS2.0.202.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "plato_id_global-ota_full-OS2.0.202.0.VLQIDXM-user-15.0-6b41eef6ac.zip",
-					"fastboot": "plato_id_global_images_OS2.0.202.0.VLQIDXM_20250812.0000.00_15.0_id_c27b002d82.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.202.0.VLQIDXM_20250812.0000.00_15.0_id_c27b002d82.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VLQIDXM": {
 					"os": "OS2.0.200.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-07-26",
 					"recovery": "plato_id_global-ota_full-OS2.0.200.0.VLQIDXM-user-15.0-ecdf0b91b7.zip",
-					"fastboot": "plato_id_global_images_OS2.0.200.0.VLQIDXM_20250715.0000.00_15.0_id_db382998e5.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.200.0.VLQIDXM_20250715.0000.00_15.0_id_db382998e5.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.5.0.VLQIDXM": {
 					"os": "OS2.0.5.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "plato_id_global-ota_full-OS2.0.5.0.VLQIDXM-user-15.0-ec13e2a920.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.4.0.VLQIDXM": {
 					"os": "OS2.0.4.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "plato_id_global-ota_full-OS2.0.4.0.VLQIDXM-user-15.0-069bceafc5.zip",
-					"fastboot": "plato_id_global_images_OS2.0.4.0.VLQIDXM_20250423.0000.00_15.0_id_c6f286c5d1.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.4.0.VLQIDXM_20250423.0000.00_15.0_id_c6f286c5d1.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.3.0.VLQIDXM": {
 					"os": "OS2.0.3.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "plato_id_global-ota_full-OS2.0.3.0.VLQIDXM-user-15.0-f78a3427c8.zip",
-					"fastboot": "plato_id_global_images_OS2.0.3.0.VLQIDXM_20250414.0000.00_15.0_id_2ae1bfa0ad.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.3.0.VLQIDXM_20250414.0000.00_15.0_id_2ae1bfa0ad.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.1.0.VLQIDXM": {
 					"os": "OS2.0.1.0.VLQIDXM",
 					"android": "15.0",
 					"release": "2025-03-17",
 					"recovery": "plato_id_global-ota_full-OS2.0.1.0.VLQIDXM-user-15.0-5549d553d5.zip",
-					"fastboot": "plato_id_global_images_OS2.0.1.0.VLQIDXM_20250227.0000.00_15.0_id_1b3b63523d.tgz"
+					"fastboot": "plato_id_global_images_OS2.0.1.0.VLQIDXM_20250227.0000.00_15.0_id_1b3b63523d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.12.0.ULQIDXM": {
 					"os": "OS1.0.12.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2025-02-18",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.12.0.ULQIDXM_3fc71a45e9_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.12.0.ULQIDXM_20250120.0000.00_14.0_id_316215985f.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.12.0.ULQIDXM_20250120.0000.00_14.0_id_316215985f.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.11.0.ULQIDXM": {
 					"os": "OS1.0.11.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2025-02-05",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.11.0.ULQIDXM_38ffa4fa7f_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.11.0.ULQIDXM_20250107.0000.00_14.0_id_b762fb1802.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.11.0.ULQIDXM_20250107.0000.00_14.0_id_b762fb1802.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.10.0.ULQIDXM": {
 					"os": "OS1.0.10.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2024-12-17",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.10.0.ULQIDXM_df302d7d98_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.10.0.ULQIDXM_20241125.0000.00_14.0_id_dcd74cf6ec.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.10.0.ULQIDXM_20241125.0000.00_14.0_id_dcd74cf6ec.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.ULQIDXM": {
 					"os": "OS1.0.9.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.9.0.ULQIDXM_c0e7e1399a_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.9.0.ULQIDXM_20241021.0000.00_14.0_id_8598b1a0cb.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.9.0.ULQIDXM_20241021.0000.00_14.0_id_8598b1a0cb.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.ULQIDXM": {
 					"os": "OS1.0.8.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2024-10-16",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.8.0.ULQIDXM_7e4ec7bf55_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.8.0.ULQIDXM_20240924.0000.00_14.0_id_7fe5a6c829.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.8.0.ULQIDXM_20240924.0000.00_14.0_id_7fe5a6c829.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.7.0.ULQIDXM": {
 					"os": "OS1.0.7.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.7.0.ULQIDXM_bb876d037d_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.7.0.ULQIDXM_20240813.0000.00_14.0_id_1847e39fb4.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.7.0.ULQIDXM_20240813.0000.00_14.0_id_1847e39fb4.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.6.0.ULQIDXM": {
 					"os": "OS1.0.6.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2024-07-16",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.6.0.ULQIDXM_62465f7e52_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.6.0.ULQIDXM_20240701.0000.00_14.0_id_903f25f1e2.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.6.0.ULQIDXM_20240701.0000.00_14.0_id_903f25f1e2.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.5.0.ULQIDXM": {
 					"os": "OS1.0.5.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.5.0.ULQIDXM_4984887e9d_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.5.0.ULQIDXM_20240415.0000.00_14.0_id_a4ad94e08d.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.5.0.ULQIDXM_20240415.0000.00_14.0_id_a4ad94e08d.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.4.0.ULQIDXM": {
 					"os": "OS1.0.4.0.ULQIDXM",
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_PLATOIDGlobal_OS1.0.4.0.ULQIDXM_65f63717a4_14.0.zip",
-					"fastboot": "plato_id_global_images_OS1.0.4.0.ULQIDXM_20240122.0000.00_14.0_id_c53f58c7c7.tgz"
+					"fastboot": "plato_id_global_images_OS1.0.4.0.ULQIDXM_20240122.0000.00_14.0_id_c53f58c7c7.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -981,6 +1099,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -997,140 +1116,160 @@
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "plato_tr_global-ota_full-OS2.0.209.0.VLQTRXM-user-15.0-673e41c42c.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.209.0.VLQTRXM_20260424.0000.00_15.0_tr_6c16961102.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.209.0.VLQTRXM_20260424.0000.00_15.0_tr_6c16961102.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.207.0.VLQTRXM": {
 					"os": "OS2.0.207.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "plato_tr_global-ota_full-OS2.0.207.0.VLQTRXM-user-15.0-0ed7e30502.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.207.0.VLQTRXM_20260120.0000.00_15.0_tr_20677b1135.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.207.0.VLQTRXM_20260120.0000.00_15.0_tr_20677b1135.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VLQTRXM": {
 					"os": "OS2.0.206.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "plato_tr_global-ota_full-OS2.0.206.0.VLQTRXM-user-15.0-c9f72566e8.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.206.0.VLQTRXM_20251201.0000.00_15.0_tr_87652aa735.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.206.0.VLQTRXM_20251201.0000.00_15.0_tr_87652aa735.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VLQTRXM": {
 					"os": "OS2.0.205.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-11-23",
 					"recovery": "plato_tr_global-ota_full-OS2.0.205.0.VLQTRXM-user-15.0-cfb7c2f723.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.205.0.VLQTRXM_20251027.0000.00_15.0_tr_1e02bd3821.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.205.0.VLQTRXM_20251027.0000.00_15.0_tr_1e02bd3821.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VLQTRXM": {
 					"os": "OS2.0.204.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "plato_tr_global-ota_full-OS2.0.204.0.VLQTRXM-user-15.0-1acc9b33ef.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.204.0.VLQTRXM_20250926.0000.00_15.0_tr_319f547538.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.204.0.VLQTRXM_20250926.0000.00_15.0_tr_319f547538.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VLQTRXM": {
 					"os": "OS2.0.203.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "plato_tr_global-ota_full-OS2.0.203.0.VLQTRXM-user-15.0-a707571f48.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.203.0.VLQTRXM_20250901.0000.00_15.0_tr_db448705a7.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.203.0.VLQTRXM_20250901.0000.00_15.0_tr_db448705a7.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VLQTRXM": {
 					"os": "OS2.0.202.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "plato_tr_global-ota_full-OS2.0.202.0.VLQTRXM-user-15.0-692fff4aa5.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.202.0.VLQTRXM_20250812.0000.00_15.0_tr_03301c77a4.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.202.0.VLQTRXM_20250812.0000.00_15.0_tr_03301c77a4.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VLQTRXM": {
 					"os": "OS2.0.200.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-07-26",
 					"recovery": "plato_tr_global-ota_full-OS2.0.200.0.VLQTRXM-user-15.0-9b85916593.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.200.0.VLQTRXM_20250715.0000.00_15.0_tr_87ab1bc04d.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.200.0.VLQTRXM_20250715.0000.00_15.0_tr_87ab1bc04d.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.5.0.VLQTRXM": {
 					"os": "OS2.0.5.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "plato_tr_global-ota_full-OS2.0.5.0.VLQTRXM-user-15.0-c0002dc44f.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.4.0.VLQTRXM": {
 					"os": "OS2.0.4.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "plato_tr_global-ota_full-OS2.0.4.0.VLQTRXM-user-15.0-31aab8b9f7.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.4.0.VLQTRXM_20250423.0000.00_15.0_tr_00d1ac34de.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.4.0.VLQTRXM_20250423.0000.00_15.0_tr_00d1ac34de.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.3.0.VLQTRXM": {
 					"os": "OS2.0.3.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "plato_tr_global-ota_full-OS2.0.3.0.VLQTRXM-user-15.0-3bd1a23383.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.3.0.VLQTRXM_20250414.0000.00_15.0_tr_a6f884423f.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.3.0.VLQTRXM_20250414.0000.00_15.0_tr_a6f884423f.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.1.0.VLQTRXM": {
 					"os": "OS2.0.1.0.VLQTRXM",
 					"android": "15.0",
 					"release": "2025-03-17",
 					"recovery": "plato_tr_global-ota_full-OS2.0.1.0.VLQTRXM-user-15.0-1534a66357.zip",
-					"fastboot": "plato_tr_global_images_OS2.0.1.0.VLQTRXM_20250227.0000.00_15.0_tr_9f5408382b.tgz"
+					"fastboot": "plato_tr_global_images_OS2.0.1.0.VLQTRXM_20250227.0000.00_15.0_tr_9f5408382b.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.ULQTRXM": {
 					"os": "OS1.0.8.0.ULQTRXM",
 					"android": "14.0",
 					"release": "2025-02-25",
 					"recovery": "miui_PLATOTRGlobal_OS1.0.8.0.ULQTRXM_dff2456fd3_14.0.zip",
-					"fastboot": "plato_tr_global_images_OS1.0.8.0.ULQTRXM_20250206.0000.00_14.0_tr_edde1bae33.tgz"
+					"fastboot": "plato_tr_global_images_OS1.0.8.0.ULQTRXM_20250206.0000.00_14.0_tr_edde1bae33.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.ULQTRXM": {
 					"os": "OS1.0.7.0.ULQTRXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PLATOTRGlobal_OS1.0.7.0.ULQTRXM_c8dfbfa743_14.0.zip",
-					"fastboot": "plato_tr_global_images_OS1.0.7.0.ULQTRXM_20250106.0000.00_14.0_tr_6a3e264748.tgz"
+					"fastboot": "plato_tr_global_images_OS1.0.7.0.ULQTRXM_20250106.0000.00_14.0_tr_6a3e264748.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.6.0.ULQTRXM": {
 					"os": "OS1.0.6.0.ULQTRXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PLATOTRGlobal_OS1.0.6.0.ULQTRXM_37deb651dc_14.0.zip",
-					"fastboot": "plato_tr_global_images_OS1.0.6.0.ULQTRXM_20241125.0000.00_14.0_tr_f00894854d.tgz"
+					"fastboot": "plato_tr_global_images_OS1.0.6.0.ULQTRXM_20241125.0000.00_14.0_tr_f00894854d.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.ULQTRXM": {
 					"os": "OS1.0.5.0.ULQTRXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_PLATOTRGlobal_OS1.0.5.0.ULQTRXM_ce0a9d64c5_14.0.zip",
-					"fastboot": "plato_tr_global_images_OS1.0.5.0.ULQTRXM_20241021.0000.00_14.0_tr_15602281c4.tgz"
+					"fastboot": "plato_tr_global_images_OS1.0.5.0.ULQTRXM_20241021.0000.00_14.0_tr_15602281c4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.ULQTRXM": {
 					"os": "OS1.0.4.0.ULQTRXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_PLATOTRGlobal_OS1.0.4.0.ULQTRXM_1035e40d34_14.0.zip",
-					"fastboot": "plato_tr_global_images_OS1.0.4.0.ULQTRXM_20240913.0000.00_14.0_tr_36af15bc1f.tgz"
+					"fastboot": "plato_tr_global_images_OS1.0.4.0.ULQTRXM_20240913.0000.00_14.0_tr_36af15bc1f.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.ULQTRXM": {
 					"os": "OS1.0.3.0.ULQTRXM",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_PLATOTRGlobal_OS1.0.3.0.ULQTRXM_124b61e750_14.0.zip",
-					"fastboot": "plato_tr_global_images_OS1.0.3.0.ULQTRXM_20240820.0000.00_14.0_tr_6b6ca3df06.tgz"
+					"fastboot": "plato_tr_global_images_OS1.0.3.0.ULQTRXM_20240820.0000.00_14.0_tr_6b6ca3df06.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.ULQTRXM": {
 					"os": "OS1.0.2.0.ULQTRXM",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_PLATOTRGlobal_OS1.0.2.0.ULQTRXM_d9050c83fd_14.0.zip",
-					"fastboot": "plato_tr_global_images_OS1.0.2.0.ULQTRXM_20240617.0000.00_14.0_tr_20d61f533b.tgz"
+					"fastboot": "plato_tr_global_images_OS1.0.2.0.ULQTRXM_20240617.0000.00_14.0_tr_20d61f533b.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.ULQTRXM": {
 					"os": "OS1.0.1.0.ULQTRXM",
 					"android": "14.0",
 					"release": "2024-01-22",
 					"recovery": "miui_PLATOTRGlobal_OS1.0.1.0.ULQTRXM_0c65a9de34_14.0.zip",
-					"fastboot": "plato_tr_global_images_OS1.0.1.0.ULQTRXM_20240108.0000.00_14.0_tr_d2c5c1f05f.tgz"
+					"fastboot": "plato_tr_global_images_OS1.0.1.0.ULQTRXM_20240108.0000.00_14.0_tr_d2c5c1f05f.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1152,6 +1291,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1168,21 +1308,24 @@
 					"android": "15.0",
 					"release": "2025-10-13",
 					"recovery": "plato_cl_en_global-ota_full-OS2.0.201.0.VLQCLEN-user-15.0-c4e182728d.zip",
-					"fastboot": "plato_cl_en_global_images_OS2.0.201.0.VLQCLEN_20250828.0000.00_15.0_cl_en_fc1e2347dc.tgz"
+					"fastboot": "plato_cl_en_global_images_OS2.0.201.0.VLQCLEN_20250828.0000.00_15.0_cl_en_fc1e2347dc.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.3.0.ULQCLEN": {
 					"os": "OS1.0.3.0.ULQCLEN",
 					"android": "14.0",
 					"release": "2025-02-11",
 					"recovery": "miui_PLATOCLENGlobal_OS1.0.3.0.ULQCLEN_9d0a7e1c05_14.0.zip",
-					"fastboot": "plato_cl_en_global_images_OS1.0.3.0.ULQCLEN_20241118.0000.00_14.0_cl_en_4c7fbe419a.tgz"
+					"fastboot": "plato_cl_en_global_images_OS1.0.3.0.ULQCLEN_20241118.0000.00_14.0_cl_en_4c7fbe419a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.2.0.ULQCLEN": {
 					"os": "OS1.0.2.0.ULQCLEN",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_PLATOCLENGlobal_OS1.0.2.0.ULQCLEN_48f59658d6_14.0.zip",
-					"fastboot": "plato_cl_en_global_images_OS1.0.2.0.ULQCLEN_20240523.0000.00_14.0_cl_en_f8d8134e45.tgz"
+					"fastboot": "plato_cl_en_global_images_OS1.0.2.0.ULQCLEN_20240523.0000.00_14.0_cl_en_f8d8134e45.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -1204,6 +1347,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1220,35 +1364,40 @@
 					"android": "14.0",
 					"release": "2025-05-07",
 					"recovery": "miui_PLATOLMCRGlobal_OS1.0.7.0.ULQLMCR_b18060c8ff_14.0.zip",
-					"fastboot": "plato_lm_cr_global_images_OS1.0.7.0.ULQLMCR_20250422.0000.00_14.0_lm_cr_3606551297.tgz"
+					"fastboot": "plato_lm_cr_global_images_OS1.0.7.0.ULQLMCR_20250422.0000.00_14.0_lm_cr_3606551297.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.6.0.ULQLMCR": {
 					"os": "OS1.0.6.0.ULQLMCR",
 					"android": "14.0",
 					"release": "2025-03-27",
 					"recovery": "miui_PLATOLMCRGlobal_OS1.0.6.0.ULQLMCR_bd840e7408_14.0.zip",
-					"fastboot": "plato_lm_cr_global_images_OS1.0.6.0.ULQLMCR_20250311.0000.00_14.0_lm_cr_8fdc4d8f12.tgz"
+					"fastboot": "plato_lm_cr_global_images_OS1.0.6.0.ULQLMCR_20250311.0000.00_14.0_lm_cr_8fdc4d8f12.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.5.0.ULQLMCR": {
 					"os": "OS1.0.5.0.ULQLMCR",
 					"android": "14.0",
 					"release": "2025-02-12",
 					"recovery": "miui_PLATOLMCRGlobal_OS1.0.5.0.ULQLMCR_2508862fa0_14.0.zip",
-					"fastboot": "plato_lm_cr_global_images_OS1.0.5.0.ULQLMCR_20250108.0000.00_14.0_lm_cr_933b3a2a59.tgz"
+					"fastboot": "plato_lm_cr_global_images_OS1.0.5.0.ULQLMCR_20250108.0000.00_14.0_lm_cr_933b3a2a59.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.4.0.ULQLMCR": {
 					"os": "OS1.0.4.0.ULQLMCR",
 					"android": "14.0",
 					"release": "2024-11-25",
 					"recovery": "miui_PLATOLMCRGlobal_OS1.0.4.0.ULQLMCR_854c44ec9b_14.0.zip",
-					"fastboot": "plato_lm_cr_global_images_OS1.0.4.0.ULQLMCR_20241028.0000.00_14.0_lm_cr_0c2210c266.tgz"
+					"fastboot": "plato_lm_cr_global_images_OS1.0.4.0.ULQLMCR_20241028.0000.00_14.0_lm_cr_0c2210c266.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.ULQLMCR": {
 					"os": "OS1.0.3.0.ULQLMCR",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_PLATOLMCRGlobal_OS1.0.3.0.ULQLMCR_f5a53f1a08_14.0.zip",
-					"fastboot": "plato_lm_cr_global_images_OS1.0.3.0.ULQLMCR_20240827.0000.00_14.0_lm_cr_83980430c9.tgz"
+					"fastboot": "plato_lm_cr_global_images_OS1.0.3.0.ULQLMCR_20240827.0000.00_14.0_lm_cr_83980430c9.tgz",
+					"aspatch": "2024-09-01"
 				}
 			},
 			"OS1.0.2.0.ULQLMCR": {

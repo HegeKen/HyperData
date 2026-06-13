@@ -34,6 +34,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom",
@@ -57,7 +58,8 @@
 					"recovery": "venus-ota_full-OS2.0.6.0.UKBCNXM-user-14.0-f0e38b04bc.zip",
 					"fastboot": "venus_images_OS2.0.6.0.UKBCNXM_20251212.0000.00_14.0_cn_2689ff7f69.tgz",
 					"ctelecom": "venus_images_OS2.0.6.0.UKBCNXM_20251212.0000.00_14.0_cn_chinatelecom_d5ce32d340.tgz",
-					"cnmobile": "venus_images_OS2.0.6.0.UKBCNXM_20251212.0000.00_14.0_cn_chinamobile_50cd57c7c9.tgz"
+					"cnmobile": "venus_images_OS2.0.6.0.UKBCNXM_20251212.0000.00_14.0_cn_chinamobile_50cd57c7c9.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.UKBCNXM": {
 					"os": "OS2.0.2.0.UKBCNXM",
@@ -66,7 +68,8 @@
 					"recovery": "venus-ota_full-OS2.0.2.0.UKBCNXM-user-14.0-f875a6f2f6.zip",
 					"fastboot": "venus_images_OS2.0.2.0.UKBCNXM_20250312.0000.00_14.0_cn_42488fed63.tgz",
 					"ctelecom": "venus_images_OS2.0.2.0.UKBCNXM_20250312.0000.00_14.0_cn_chinatelecom_c23eec2e3b.tgz",
-					"cnmobile": "venus_images_OS2.0.2.0.UKBCNXM_20250312.0000.00_14.0_cn_chinamobile_a0dc585623.tgz"
+					"cnmobile": "venus_images_OS2.0.2.0.UKBCNXM_20250312.0000.00_14.0_cn_chinamobile_a0dc585623.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.12.0.UKBCNXM": {
 					"os": "OS1.0.12.0.UKBCNXM",
@@ -75,7 +78,8 @@
 					"recovery": "miui_VENUS_OS1.0.12.0.UKBCNXM_77aa77ab20_14.0.zip",
 					"fastboot": "",
 					"ctelecom": "",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.11.0.UKBCNXM": {
 					"os": "OS1.0.11.0.UKBCNXM",
@@ -84,7 +88,8 @@
 					"recovery": "miui_VENUS_OS1.0.11.0.UKBCNXM_1bf4d90cb6_14.0.zip",
 					"fastboot": "venus_images_OS1.0.11.0.UKBCNXM_20241213.0000.00_14.0_cn_23a93378d0.tgz",
 					"ctelecom": "venus_images_OS1.0.11.0.UKBCNXM_20241213.0000.00_14.0_cn_chinatelecom_c0fc6a293a.tgz",
-					"cnmobile": "venus_images_OS1.0.11.0.UKBCNXM_20241213.0000.00_14.0_cn_chinamobile_6112893180.tgz"
+					"cnmobile": "venus_images_OS1.0.11.0.UKBCNXM_20241213.0000.00_14.0_cn_chinamobile_6112893180.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UKBCNXM": {
 					"os": "OS1.0.10.0.UKBCNXM",
@@ -93,7 +98,8 @@
 					"recovery": "miui_VENUS_OS1.0.10.0.UKBCNXM_dd85ac3249_14.0.zip",
 					"fastboot": "venus_images_OS1.0.10.0.UKBCNXM_20241120.0000.00_14.0_cn_6235094c2d.tgz",
 					"ctelecom": "venus_images_OS1.0.10.0.UKBCNXM_20241120.0000.00_14.0_cn_chinatelecom_45928d0d47.tgz",
-					"cnmobile": "venus_images_OS1.0.10.0.UKBCNXM_20241120.0000.00_14.0_cn_chinamobile_377e714a64.tgz"
+					"cnmobile": "venus_images_OS1.0.10.0.UKBCNXM_20241120.0000.00_14.0_cn_chinamobile_377e714a64.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKBCNXM": {
 					"os": "OS1.0.7.0.UKBCNXM",
@@ -102,7 +108,8 @@
 					"recovery": "miui_VENUS_OS1.0.7.0.UKBCNXM_2c7e5f85d1_14.0.zip",
 					"fastboot": "venus_images_OS1.0.7.0.UKBCNXM_20241014.0000.00_14.0_cn_c40a2301a5.tgz",
 					"ctelecom": "venus_images_OS1.0.7.0.UKBCNXM_20241014.0000.00_14.0_cn_chinatelecom_94b051dd43.tgz",
-					"cnmobile": "venus_images_OS1.0.7.0.UKBCNXM_20241014.0000.00_14.0_cn_chinamobile_1b0ea2f144.tgz"
+					"cnmobile": "venus_images_OS1.0.7.0.UKBCNXM_20241014.0000.00_14.0_cn_chinamobile_1b0ea2f144.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UKBCNXM": {
 					"os": "OS1.0.6.0.UKBCNXM",
@@ -111,7 +118,8 @@
 					"recovery": "miui_VENUS_OS1.0.6.0.UKBCNXM_58fe53deed_14.0.zip",
 					"fastboot": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_206aeddc39.tgz",
 					"ctelecom": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_chinatelecom_f2bdc65617.tgz",
-					"cnmobile": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_chinamobile_1043740668.tgz"
+					"cnmobile": "venus_images_OS1.0.6.0.UKBCNXM_20240927.0000.00_14.0_cn_chinamobile_1043740668.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKBCNXM": {
 					"os": "OS1.0.4.0.UKBCNXM",
@@ -120,7 +128,8 @@
 					"recovery": "miui_VENUS_OS1.0.4.0.UKBCNXM_5735dd0b60_14.0.zip",
 					"fastboot": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_abeac22fa1.tgz",
 					"ctelecom": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_chinatelecom_9937d24aa6.tgz",
-					"cnmobile": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_chinamobile_3b06ff3da2.tgz"
+					"cnmobile": "venus_images_OS1.0.4.0.UKBCNXM_20240816.0000.00_14.0_cn_chinamobile_3b06ff3da2.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UKBCNXM": {
 					"os": "OS1.0.3.0.UKBCNXM",
@@ -129,7 +138,8 @@
 					"recovery": "miui_VENUS_OS1.0.3.0.UKBCNXM_e1a272a3f8_14.0.zip",
 					"fastboot": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_6d63778034.tgz",
 					"ctelecom": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_chinatelecom_7f0fc140c4.tgz",
-					"cnmobile": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_chinamobile_896e6b2497.tgz"
+					"cnmobile": "venus_images_OS1.0.3.0.UKBCNXM_20240705.0000.00_14.0_cn_chinamobile_896e6b2497.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.UKBCNXM": {
 					"os": "OS1.0.1.0.UKBCNXM",
@@ -138,7 +148,8 @@
 					"recovery": "miui_VENUS_OS1.0.1.0.UKBCNXM_f461404e5a_14.0.zip",
 					"fastboot": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_d9092415f3.tgz",
 					"ctelecom": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_chinatelecom_6390fa717a.tgz",
-					"cnmobile": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_chinamobile_2ca84f1024.tgz"
+					"cnmobile": "venus_images_OS1.0.1.0.UKBCNXM_20240326.0000.00_14.0_cn_chinamobile_2ca84f1024.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -160,6 +171,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -176,63 +188,72 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "venus_tw_global-ota_full-OS2.0.2.0.UKBTWXM-user-14.0-8d959be769.zip",
-					"fastboot": "venus_tw_global_images_OS2.0.2.0.UKBTWXM_20251227.0000.00_14.0_tw_27a3c626a4.tgz"
+					"fastboot": "venus_tw_global_images_OS2.0.2.0.UKBTWXM_20251227.0000.00_14.0_tw_27a3c626a4.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.UKBTWXM": {
 					"os": "OS2.0.1.0.UKBTWXM",
 					"android": "14.0",
 					"release": "2025-04-10",
 					"recovery": "venus_tw_global-ota_full-OS2.0.1.0.UKBTWXM-user-14.0-ca9394815e.zip",
-					"fastboot": "venus_tw_global_images_OS2.0.1.0.UKBTWXM_20250326.0000.00_14.0_tw_24832700f2.tgz"
+					"fastboot": "venus_tw_global_images_OS2.0.1.0.UKBTWXM_20250326.0000.00_14.0_tw_24832700f2.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.UKBTWXM": {
 					"os": "OS1.0.9.0.UKBTWXM",
 					"android": "14.0",
 					"release": "2025-01-07",
 					"recovery": "miui_VENUSTWGlobal_OS1.0.9.0.UKBTWXM_9be760393d_14.0.zip",
-					"fastboot": "venus_tw_global_images_OS1.0.9.0.UKBTWXM_20241224.0000.00_14.0_tw_7d601248be.tgz"
+					"fastboot": "venus_tw_global_images_OS1.0.9.0.UKBTWXM_20241224.0000.00_14.0_tw_7d601248be.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKBTWXM": {
 					"os": "OS1.0.7.0.UKBTWXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_VENUSTWGlobal_OS1.0.7.0.UKBTWXM_13184705d1_14.0.zip",
-					"fastboot": "venus_tw_global_images_OS1.0.7.0.UKBTWXM_20241120.0000.00_14.0_tw_0df4aa9594.tgz"
+					"fastboot": "venus_tw_global_images_OS1.0.7.0.UKBTWXM_20241120.0000.00_14.0_tw_0df4aa9594.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UKBTWXM": {
 					"os": "OS1.0.6.0.UKBTWXM",
 					"android": "14.0",
 					"release": "2024-11-06",
 					"recovery": "miui_VENUSTWGlobal_OS1.0.6.0.UKBTWXM_2ec261d081_14.0.zip",
-					"fastboot": "venus_tw_global_images_OS1.0.6.0.UKBTWXM_20241018.0000.00_14.0_tw_985eaeb6ca.tgz"
+					"fastboot": "venus_tw_global_images_OS1.0.6.0.UKBTWXM_20241018.0000.00_14.0_tw_985eaeb6ca.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UKBTWXM": {
 					"os": "OS1.0.5.0.UKBTWXM",
 					"android": "14.0",
 					"release": "2024-10-16",
 					"recovery": "miui_VENUSTWGlobal_OS1.0.5.0.UKBTWXM_3b44aec136_14.0.zip",
-					"fastboot": "venus_tw_global_images_OS1.0.5.0.UKBTWXM_20240927.0000.00_14.0_tw_8d1f9cde74.tgz"
+					"fastboot": "venus_tw_global_images_OS1.0.5.0.UKBTWXM_20240927.0000.00_14.0_tw_8d1f9cde74.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKBTWXM": {
 					"os": "OS1.0.3.0.UKBTWXM",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_VENUSTWGlobal_OS1.0.3.0.UKBTWXM_b29528b618_14.0.zip",
-					"fastboot": "venus_tw_global_images_OS1.0.3.0.UKBTWXM_20240816.0000.00_14.0_tw_f73e493d02.tgz"
+					"fastboot": "venus_tw_global_images_OS1.0.3.0.UKBTWXM_20240816.0000.00_14.0_tw_f73e493d02.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UKBTWXM": {
 					"os": "OS1.0.2.0.UKBTWXM",
 					"android": "14.0",
 					"release": "2024-08-02",
 					"recovery": "miui_VENUSTWGlobal_OS1.0.2.0.UKBTWXM_9cf9171516_14.0.zip",
-					"fastboot": "venus_tw_global_images_OS1.0.2.0.UKBTWXM_20240709.0000.00_14.0_tw_975edd88f9.tgz"
+					"fastboot": "venus_tw_global_images_OS1.0.2.0.UKBTWXM_20240709.0000.00_14.0_tw_975edd88f9.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKBTWXM": {
 					"os": "OS1.0.1.0.UKBTWXM",
 					"android": "14.0",
 					"release": "2024-06-11",
 					"recovery": "miui_VENUSTWGlobal_OS1.0.1.0.UKBTWXM_dc01d25b15_14.0.zip",
-					"fastboot": "venus_tw_global_images_OS1.0.1.0.UKBTWXM_20240514.0000.00_14.0_tw_1fc7b46be7.tgz"
+					"fastboot": "venus_tw_global_images_OS1.0.1.0.UKBTWXM_20240514.0000.00_14.0_tw_1fc7b46be7.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -254,6 +275,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -270,77 +292,88 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "venus_global-ota_full-OS2.0.3.0.UKBMIXM-user-14.0-0335ac5334.zip",
-					"fastboot": "venus_global_images_OS2.0.3.0.UKBMIXM_20251227.0000.00_14.0_global_32d5e16e93.tgz"
+					"fastboot": "venus_global_images_OS2.0.3.0.UKBMIXM_20251227.0000.00_14.0_global_32d5e16e93.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.UKBMIXM": {
 					"os": "OS2.0.2.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2025-06-24",
 					"recovery": "venus_global-ota_full-OS2.0.2.0.UKBMIXM-user-14.0-6bf754b1c7.zip",
-					"fastboot": "venus_global_images_OS2.0.2.0.UKBMIXM_20250430.0000.00_14.0_global_9d23420704.tgz"
+					"fastboot": "venus_global_images_OS2.0.2.0.UKBMIXM_20250430.0000.00_14.0_global_9d23420704.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.UKBMIXM": {
 					"os": "OS2.0.1.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2025-04-09",
 					"recovery": "venus_global-ota_full-OS2.0.1.0.UKBMIXM-user-14.0-9b03acd95a.zip",
-					"fastboot": "venus_global_images_OS2.0.1.0.UKBMIXM_20250320.0000.00_14.0_global_aa4371ad80.tgz"
+					"fastboot": "venus_global_images_OS2.0.1.0.UKBMIXM_20250320.0000.00_14.0_global_aa4371ad80.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.13.0.UKBMIXM": {
 					"os": "OS1.0.13.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2025-02-26",
 					"recovery": "miui_VENUSGlobal_OS1.0.13.0.UKBMIXM_36b88dae00_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.UKBMIXM": {
 					"os": "OS1.0.10.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_VENUSGlobal_OS1.0.10.0.UKBMIXM_7fb83c9516_14.0.zip",
-					"fastboot": "venus_global_images_OS1.0.10.0.UKBMIXM_20241113.0000.00_14.0_global_0de6311bcb.tgz"
+					"fastboot": "venus_global_images_OS1.0.10.0.UKBMIXM_20241113.0000.00_14.0_global_0de6311bcb.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UKBMIXM": {
 					"os": "OS1.0.9.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2024-11-06",
 					"recovery": "miui_VENUSGlobal_OS1.0.9.0.UKBMIXM_00b61ab6e0_14.0.zip",
-					"fastboot": "venus_global_images_OS1.0.9.0.UKBMIXM_20241021.0000.00_14.0_global_5ed6651e7a.tgz"
+					"fastboot": "venus_global_images_OS1.0.9.0.UKBMIXM_20241021.0000.00_14.0_global_5ed6651e7a.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.UKBMIXM": {
 					"os": "OS1.0.8.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_VENUSGlobal_OS1.0.8.0.UKBMIXM_0b57996bb2_14.0.zip",
-					"fastboot": "venus_global_images_OS1.0.8.0.UKBMIXM_20240927.0000.00_14.0_global_36859faf5c.tgz"
+					"fastboot": "venus_global_images_OS1.0.8.0.UKBMIXM_20240927.0000.00_14.0_global_36859faf5c.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UKBMIXM": {
 					"os": "OS1.0.6.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2024-09-02",
 					"recovery": "miui_VENUSGlobal_OS1.0.6.0.UKBMIXM_c35c76ce79_14.0.zip",
-					"fastboot": "venus_global_images_OS1.0.6.0.UKBMIXM_20240816.0000.00_14.0_global_3597590d61.tgz"
+					"fastboot": "venus_global_images_OS1.0.6.0.UKBMIXM_20240816.0000.00_14.0_global_3597590d61.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UKBMIXM": {
 					"os": "OS1.0.5.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_VENUSGlobal_OS1.0.5.0.UKBMIXM_b120c83200_14.0.zip",
-					"fastboot": "venus_global_images_OS1.0.5.0.UKBMIXM_20240731.0000.00_14.0_global_beab12daf4.tgz"
+					"fastboot": "venus_global_images_OS1.0.5.0.UKBMIXM_20240731.0000.00_14.0_global_beab12daf4.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UKBMIXM": {
 					"os": "OS1.0.3.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2024-07-01",
 					"recovery": "miui_VENUSGlobal_OS1.0.3.0.UKBMIXM_1eb20d7656_14.0.zip",
-					"fastboot": "venus_global_images_OS1.0.3.0.UKBMIXM_20240613.0000.00_14.0_global_54687a74f7.tgz"
+					"fastboot": "venus_global_images_OS1.0.3.0.UKBMIXM_20240613.0000.00_14.0_global_54687a74f7.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKBMIXM": {
 					"os": "OS1.0.2.0.UKBMIXM",
 					"android": "14.0",
 					"release": "2024-04-29",
 					"recovery": "miui_VENUSGlobal_OS1.0.2.0.UKBMIXM_9841c44a8c_14.0.zip",
-					"fastboot": "venus_global_images_OS1.0.2.0.UKBMIXM_20240417.0000.00_14.0_global_8b243a1c76.tgz"
+					"fastboot": "venus_global_images_OS1.0.2.0.UKBMIXM_20240417.0000.00_14.0_global_8b243a1c76.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -362,6 +395,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -378,77 +412,88 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "venus_eea_global-ota_full-OS2.0.3.0.UKBEUXM-user-14.0-ee1d62228a.zip",
-					"fastboot": "venus_eea_global_images_OS2.0.3.0.UKBEUXM_20251227.0000.00_14.0_eea_8c3a763c4f.tgz"
+					"fastboot": "venus_eea_global_images_OS2.0.3.0.UKBEUXM_20251227.0000.00_14.0_eea_8c3a763c4f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.UKBEUXM": {
 					"os": "OS2.0.2.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2025-06-17",
 					"recovery": "venus_eea_global-ota_full-OS2.0.2.0.UKBEUXM-user-14.0-f647da0254.zip",
-					"fastboot": "venus_eea_global_images_OS2.0.2.0.UKBEUXM_20250430.0000.00_14.0_eea_d4a383dcba.tgz"
+					"fastboot": "venus_eea_global_images_OS2.0.2.0.UKBEUXM_20250430.0000.00_14.0_eea_d4a383dcba.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.UKBEUXM": {
 					"os": "OS2.0.1.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2025-04-10",
 					"recovery": "venus_eea_global-ota_full-OS2.0.1.0.UKBEUXM-user-14.0-a04b143f9c.zip",
-					"fastboot": "venus_eea_global_images_OS2.0.1.0.UKBEUXM_20250324.0000.00_14.0_eea_8ae0dd2ae8.tgz"
+					"fastboot": "venus_eea_global_images_OS2.0.1.0.UKBEUXM_20250324.0000.00_14.0_eea_8ae0dd2ae8.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.12.0.UKBEUXM": {
 					"os": "OS1.0.12.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2025-01-07",
 					"recovery": "miui_VENUSEEAGlobal_OS1.0.12.0.UKBEUXM_3041f13a9f_14.0.zip",
-					"fastboot": "venus_eea_global_images_OS1.0.12.0.UKBEUXM_20241224.0000.00_14.0_eea_d2f295cc1b.tgz"
+					"fastboot": "venus_eea_global_images_OS1.0.12.0.UKBEUXM_20241224.0000.00_14.0_eea_d2f295cc1b.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UKBEUXM": {
 					"os": "OS1.0.10.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_VENUSEEAGlobal_OS1.0.10.0.UKBEUXM_4abfac5114_14.0.zip",
-					"fastboot": "venus_eea_global_images_OS1.0.10.0.UKBEUXM_20241120.0000.00_14.0_eea_c8455a6dcc.tgz"
+					"fastboot": "venus_eea_global_images_OS1.0.10.0.UKBEUXM_20241120.0000.00_14.0_eea_c8455a6dcc.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UKBEUXM": {
 					"os": "OS1.0.9.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2024-11-11",
 					"recovery": "miui_VENUSEEAGlobal_OS1.0.9.0.UKBEUXM_814cbd9be8_14.0.zip",
-					"fastboot": "venus_eea_global_images_OS1.0.9.0.UKBEUXM_20241018.0000.00_14.0_eea_729dc92f2b.tgz"
+					"fastboot": "venus_eea_global_images_OS1.0.9.0.UKBEUXM_20241018.0000.00_14.0_eea_729dc92f2b.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.UKBEUXM": {
 					"os": "OS1.0.8.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2024-10-16",
 					"recovery": "miui_VENUSEEAGlobal_OS1.0.8.0.UKBEUXM_1d9aa0367d_14.0.zip",
-					"fastboot": "venus_eea_global_images_OS1.0.8.0.UKBEUXM_20240927.0000.00_14.0_eea_4c215aaa7d.tgz"
+					"fastboot": "venus_eea_global_images_OS1.0.8.0.UKBEUXM_20240927.0000.00_14.0_eea_4c215aaa7d.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UKBEUXM": {
 					"os": "OS1.0.6.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2024-08-30",
 					"recovery": "miui_VENUSEEAGlobal_OS1.0.6.0.UKBEUXM_5428022597_14.0.zip",
-					"fastboot": "venus_eea_global_images_OS1.0.6.0.UKBEUXM_20240816.0000.00_14.0_eea_423c32f049.tgz"
+					"fastboot": "venus_eea_global_images_OS1.0.6.0.UKBEUXM_20240816.0000.00_14.0_eea_423c32f049.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UKBEUXM": {
 					"os": "OS1.0.5.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_VENUSEEAGlobal_OS1.0.5.0.UKBEUXM_8173c46b72_14.0.zip",
-					"fastboot": "venus_eea_global_images_OS1.0.5.0.UKBEUXM_20240731.0000.00_14.0_eea_59c4762caa.tgz"
+					"fastboot": "venus_eea_global_images_OS1.0.5.0.UKBEUXM_20240731.0000.00_14.0_eea_59c4762caa.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UKBEUXM": {
 					"os": "OS1.0.3.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2024-06-28",
 					"recovery": "miui_VENUSEEAGlobal_OS1.0.3.0.UKBEUXM_1f68647b70_14.0.zip",
-					"fastboot": "venus_eea_global_images_OS1.0.3.0.UKBEUXM_20240613.0000.00_14.0_eea_24cda2baa9.tgz"
+					"fastboot": "venus_eea_global_images_OS1.0.3.0.UKBEUXM_20240613.0000.00_14.0_eea_24cda2baa9.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKBEUXM": {
 					"os": "OS1.0.2.0.UKBEUXM",
 					"android": "14.0",
 					"release": "2024-04-22",
 					"recovery": "miui_VENUSEEAGlobal_OS1.0.2.0.UKBEUXM_958bbcbdfc_14.0.zip",
-					"fastboot": "venus_eea_global_images_OS1.0.2.0.UKBEUXM_20240408.0000.00_14.0_eea_66f7f29cfb.tgz"
+					"fastboot": "venus_eea_global_images_OS1.0.2.0.UKBEUXM_20240408.0000.00_14.0_eea_66f7f29cfb.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -470,6 +515,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -486,49 +532,56 @@
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "miui_VENUSEEAORGlobal_OS1.0.10.0.UKBEUOR_d151f788da_14.0.zip",
-					"fastboot": "venus_eea_or_global_images_OS1.0.10.0.UKBEUOR_20250506.0000.00_14.0_eea_orange_c0668538d3.tgz"
+					"fastboot": "venus_eea_or_global_images_OS1.0.10.0.UKBEUOR_20250506.0000.00_14.0_eea_orange_c0668538d3.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UKBEUOR": {
 					"os": "OS1.0.7.0.UKBEUOR",
 					"android": "14.0",
 					"release": "2025-03-07",
 					"recovery": "miui_VENUSEEAORGlobal_OS1.0.7.0.UKBEUOR_f774adce34_14.0.zip",
-					"fastboot": "venus_eea_or_global_images_OS1.0.7.0.UKBEUOR_20250219.0000.00_14.0_eea_orange_0a8b0630a4.tgz"
+					"fastboot": "venus_eea_or_global_images_OS1.0.7.0.UKBEUOR_20250219.0000.00_14.0_eea_orange_0a8b0630a4.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UKBEUOR": {
 					"os": "OS1.0.6.0.UKBEUOR",
 					"android": "14.0",
 					"release": "2025-01-14",
 					"recovery": "miui_VENUSEEAORGlobal_OS1.0.6.0.UKBEUOR_36c449866b_14.0.zip",
-					"fastboot": "venus_eea_or_global_images_OS1.0.6.0.UKBEUOR_20241223.0000.00_14.0_eea_orange_1175ed46bc.tgz"
+					"fastboot": "venus_eea_or_global_images_OS1.0.6.0.UKBEUOR_20241223.0000.00_14.0_eea_orange_1175ed46bc.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.4.0.UKBEUOR": {
 					"os": "OS1.0.4.0.UKBEUOR",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_VENUSEEAORGlobal_OS1.0.4.0.UKBEUOR_1bdb37ccb9_14.0.zip",
-					"fastboot": "venus_eea_or_global_images_OS1.0.4.0.UKBEUOR_20241010.0000.00_14.0_eea_orange_58aaa78e10.tgz"
+					"fastboot": "venus_eea_or_global_images_OS1.0.4.0.UKBEUOR_20241010.0000.00_14.0_eea_orange_58aaa78e10.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.3.0.UKBEUOR": {
 					"os": "OS1.0.3.0.UKBEUOR",
 					"android": "14.0",
 					"release": "2024-08-23",
 					"recovery": "miui_VENUSEEAORGlobal_OS1.0.3.0.UKBEUOR_49fd72c6b7_14.0.zip",
-					"fastboot": "venus_eea_or_global_images_OS1.0.3.0.UKBEUOR_20240809.0000.00_14.0_eea_orange_8980f75989.tgz"
+					"fastboot": "venus_eea_or_global_images_OS1.0.3.0.UKBEUOR_20240809.0000.00_14.0_eea_orange_8980f75989.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UKBEUOR": {
 					"os": "OS1.0.2.0.UKBEUOR",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_VENUSEEAORGlobal_OS1.0.2.0.UKBEUOR_427ef64f79_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKBEUOR": {
 					"os": "OS1.0.1.0.UKBEUOR",
 					"android": "14.0",
 					"release": "2024-06-21",
 					"recovery": "miui_VENUSEEAORGlobal_OS1.0.1.0.UKBEUOR_1e918ea5ac_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -550,6 +603,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -566,28 +620,32 @@
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_VENUSEEAHGGlobal_OS1.0.4.0.UKBEUHG_627c4fe48b_14.0.zip",
-					"fastboot": "venus_eea_hg_global_images_OS1.0.4.0.UKBEUHG_20241101.0000.00_14.0_eea_h3g_77049343f6.tgz"
+					"fastboot": "venus_eea_hg_global_images_OS1.0.4.0.UKBEUHG_20241101.0000.00_14.0_eea_h3g_77049343f6.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UKBEUHG": {
 					"os": "OS1.0.3.0.UKBEUHG",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_VENUSEEAHGGlobal_OS1.0.3.0.UKBEUHG_e409ebe333_14.0.zip",
-					"fastboot": "venus_eea_hg_global_images_OS1.0.3.0.UKBEUHG_20240903.0000.00_14.0_eea_h3g_4abc148da4.tgz"
+					"fastboot": "venus_eea_hg_global_images_OS1.0.3.0.UKBEUHG_20240903.0000.00_14.0_eea_h3g_4abc148da4.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UKBEUHG": {
 					"os": "OS1.0.2.0.UKBEUHG",
 					"android": "14.0",
 					"release": "2024-07-19",
 					"recovery": "miui_VENUSEEAHGGlobal_OS1.0.2.0.UKBEUHG_a58c9dea9d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKBEUHG": {
 					"os": "OS1.0.1.0.UKBEUHG",
 					"android": "14.0",
 					"release": "2024-06-28",
 					"recovery": "miui_VENUSEEAHGGlobal_OS1.0.1.0.UKBEUHG_0b94548a6b_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -609,6 +667,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -625,49 +684,56 @@
 					"android": "14.0",
 					"release": "2025-06-06",
 					"recovery": "miui_VENUSEEATFGlobal_OS1.0.8.0.UKBEUTF_5133de0921_14.0.zip",
-					"fastboot": "venus_eea_tf_global_images_OS1.0.8.0.UKBEUTF_20250506.0000.00_14.0_eea_tf_3456f882ea.tgz"
+					"fastboot": "venus_eea_tf_global_images_OS1.0.8.0.UKBEUTF_20250506.0000.00_14.0_eea_tf_3456f882ea.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.6.0.UKBEUTF": {
 					"os": "OS1.0.6.0.UKBEUTF",
 					"android": "14.0",
 					"release": "2025-03-07",
 					"recovery": "miui_VENUSEEATFGlobal_OS1.0.6.0.UKBEUTF_d2a0b73101_14.0.zip",
-					"fastboot": "venus_eea_tf_global_images_OS1.0.6.0.UKBEUTF_20250223.0000.00_14.0_eea_tf_0c4afee55a.tgz"
+					"fastboot": "venus_eea_tf_global_images_OS1.0.6.0.UKBEUTF_20250223.0000.00_14.0_eea_tf_0c4afee55a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.UKBEUTF": {
 					"os": "OS1.0.5.0.UKBEUTF",
 					"android": "14.0",
 					"release": "2025-02-06",
 					"recovery": "miui_VENUSEEATFGlobal_OS1.0.5.0.UKBEUTF_5b84b75bea_14.0.zip",
-					"fastboot": "venus_eea_tf_global_images_OS1.0.5.0.UKBEUTF_20250113.0000.00_14.0_eea_tf_bc4f5bd46a.tgz"
+					"fastboot": "venus_eea_tf_global_images_OS1.0.5.0.UKBEUTF_20250113.0000.00_14.0_eea_tf_bc4f5bd46a.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.4.0.UKBEUTF": {
 					"os": "OS1.0.4.0.UKBEUTF",
 					"android": "14.0",
 					"release": "2024-12-06",
 					"recovery": "miui_VENUSEEATFGlobal_OS1.0.4.0.UKBEUTF_b1396a51ba_14.0.zip",
-					"fastboot": "venus_eea_tf_global_images_OS1.0.4.0.UKBEUTF_20241123.0000.00_14.0_eea_tf_20740634cc.tgz"
+					"fastboot": "venus_eea_tf_global_images_OS1.0.4.0.UKBEUTF_20241123.0000.00_14.0_eea_tf_20740634cc.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UKBEUTF": {
 					"os": "OS1.0.3.0.UKBEUTF",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_VENUSEEATFGlobal_OS1.0.3.0.UKBEUTF_4dbf4ef4a0_14.0.zip",
-					"fastboot": "venus_eea_tf_global_images_OS1.0.3.0.UKBEUTF_20240906.0000.00_14.0_eea_tf_0ff150aee3.tgz"
+					"fastboot": "venus_eea_tf_global_images_OS1.0.3.0.UKBEUTF_20240906.0000.00_14.0_eea_tf_0ff150aee3.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UKBEUTF": {
 					"os": "OS1.0.2.0.UKBEUTF",
 					"android": "14.0",
 					"release": "2024-08-07",
 					"recovery": "miui_VENUSEEATFGlobal_OS1.0.2.0.UKBEUTF_f62d99dcaf_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKBEUTF": {
 					"os": "OS1.0.1.0.UKBEUTF",
 					"android": "14.0",
 					"release": "2024-06-12",
 					"recovery": "miui_VENUSEEATFGlobal_OS1.0.1.0.UKBEUTF_1a7775c53a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -689,6 +755,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -705,7 +772,8 @@
 					"android": "14.0",
 					"release": "2024-06-19",
 					"recovery": "miui_VENUSEEATIGlobal_OS1.0.1.0.UKBEUTI_9baa591832_14.0.zip",
-					"fastboot": "venus_eea_ti_global_images_OS1.0.1.0.UKBEUTI_20240510.0000.00_14.0_eea_tim_4be7511405.tgz"
+					"fastboot": "venus_eea_ti_global_images_OS1.0.1.0.UKBEUTI_20240510.0000.00_14.0_eea_tim_4be7511405.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -727,6 +795,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -743,42 +812,48 @@
 					"android": "14.0",
 					"release": "2025-03-03",
 					"recovery": "miui_VENUSEEAVFGlobal_OS1.0.7.0.UKBEUVF_ce44f13730_14.0.zip",
-					"fastboot": "venus_eea_vf_global_images_OS1.0.7.0.UKBEUVF_20250216.0000.00_14.0_eea_vodafone_1537dd3fe6.tgz"
+					"fastboot": "venus_eea_vf_global_images_OS1.0.7.0.UKBEUVF_20250216.0000.00_14.0_eea_vodafone_1537dd3fe6.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UKBEUVF": {
 					"os": "OS1.0.6.0.UKBEUVF",
 					"android": "14.0",
 					"release": "2025-01-22",
 					"recovery": "miui_VENUSEEAVFGlobal_OS1.0.6.0.UKBEUVF_18e8ff52e9_14.0.zip",
-					"fastboot": "venus_eea_vf_global_images_OS1.0.6.0.UKBEUVF_20250107.0000.00_14.0_eea_vodafone_f60ea72c6e.tgz"
+					"fastboot": "venus_eea_vf_global_images_OS1.0.6.0.UKBEUVF_20250107.0000.00_14.0_eea_vodafone_f60ea72c6e.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.5.0.UKBEUVF": {
 					"os": "OS1.0.5.0.UKBEUVF",
 					"android": "14.0",
 					"release": "2024-12-03",
 					"recovery": "miui_VENUSEEAVFGlobal_OS1.0.5.0.UKBEUVF_2541d0f5bd_14.0.zip",
-					"fastboot": "venus_eea_vf_global_images_OS1.0.5.0.UKBEUVF_20241114.0000.00_14.0_eea_vodafone_890d92f2ad.tgz"
+					"fastboot": "venus_eea_vf_global_images_OS1.0.5.0.UKBEUVF_20241114.0000.00_14.0_eea_vodafone_890d92f2ad.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.4.0.UKBEUVF": {
 					"os": "OS1.0.4.0.UKBEUVF",
 					"android": "14.0",
 					"release": "2024-09-20",
 					"recovery": "miui_VENUSEEAVFGlobal_OS1.0.4.0.UKBEUVF_3ef904a490_14.0.zip",
-					"fastboot": "venus_eea_vf_global_images_OS1.0.4.0.UKBEUVF_20240906.0000.00_14.0_eea_vodafone_19ce557feb.tgz"
+					"fastboot": "venus_eea_vf_global_images_OS1.0.4.0.UKBEUVF_20240906.0000.00_14.0_eea_vodafone_19ce557feb.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKBEUVF": {
 					"os": "OS1.0.3.0.UKBEUVF",
 					"android": "14.0",
 					"release": "2024-07-31",
 					"recovery": "miui_VENUSEEAVFGlobal_OS1.0.3.0.UKBEUVF_67178d3b90_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UKBEUVF": {
 					"os": "OS1.0.2.0.UKBEUVF",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_VENUSEEAVFGlobal_OS1.0.2.0.UKBEUVF_fe3f0ad152_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -800,6 +875,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -816,21 +892,24 @@
 					"android": "14.0",
 					"release": "2025-01-14",
 					"recovery": "miui_VENUSEEASFGlobal_OS1.0.3.0.UKBEUSF_e9e37a0218_14.0.zip",
-					"fastboot": "venus_eea_sf_global_images_OS1.0.3.0.UKBEUSF_20241122.0000.00_14.0_eea_sfr_debc1226b5.tgz"
+					"fastboot": "venus_eea_sf_global_images_OS1.0.3.0.UKBEUSF_20241122.0000.00_14.0_eea_sfr_debc1226b5.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.2.0.UKBEUSF": {
 					"os": "OS1.0.2.0.UKBEUSF",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_VENUSEEASFGlobal_OS1.0.2.0.UKBEUSF_6611a23718_14.0.zip",
-					"fastboot": "venus_eea_sf_global_images_OS1.0.2.0.UKBEUSF_20240823.0000.00_14.0_eea_sfr_9965b2af0b.tgz"
+					"fastboot": "venus_eea_sf_global_images_OS1.0.2.0.UKBEUSF_20240823.0000.00_14.0_eea_sfr_9965b2af0b.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.UKBEUSF": {
 					"os": "OS1.0.1.0.UKBEUSF",
 					"android": "14.0",
 					"release": "2024-07-04",
 					"recovery": "miui_VENUSEEASFGlobal_OS1.0.1.0.UKBEUSF_7b429971c6_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -852,6 +931,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -868,63 +948,72 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "venus_ru_global-ota_full-OS2.0.3.0.UKBRUXM-user-14.0-f38ee9d6b0.zip",
-					"fastboot": "venus_ru_global_images_OS2.0.3.0.UKBRUXM_20251227.0000.00_14.0_ru_c9182a7f3d.tgz"
+					"fastboot": "venus_ru_global_images_OS2.0.3.0.UKBRUXM_20251227.0000.00_14.0_ru_c9182a7f3d.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.UKBRUXM": {
 					"os": "OS2.0.2.0.UKBRUXM",
 					"android": "14.0",
 					"release": "2025-05-13",
 					"recovery": "venus_ru_global-ota_full-OS2.0.2.0.UKBRUXM-user-14.0-3360867e6d.zip",
-					"fastboot": "venus_ru_global_images_OS2.0.2.0.UKBRUXM_20250429.0000.00_14.0_ru_fb22290774.tgz"
+					"fastboot": "venus_ru_global_images_OS2.0.2.0.UKBRUXM_20250429.0000.00_14.0_ru_fb22290774.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.9.0.UKBRUXM": {
 					"os": "OS1.0.9.0.UKBRUXM",
 					"android": "14.0",
 					"release": "2025-01-07",
 					"recovery": "miui_VENUSRUGlobal_OS1.0.9.0.UKBRUXM_787640d39a_14.0.zip",
-					"fastboot": "venus_ru_global_images_OS1.0.9.0.UKBRUXM_20241224.0000.00_14.0_ru_99c3f0dbbb.tgz"
+					"fastboot": "venus_ru_global_images_OS1.0.9.0.UKBRUXM_20241224.0000.00_14.0_ru_99c3f0dbbb.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKBRUXM": {
 					"os": "OS1.0.7.0.UKBRUXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_VENUSRUGlobal_OS1.0.7.0.UKBRUXM_2fb711e2d5_14.0.zip",
-					"fastboot": "venus_ru_global_images_OS1.0.7.0.UKBRUXM_20241120.0000.00_14.0_ru_0bf87344a4.tgz"
+					"fastboot": "venus_ru_global_images_OS1.0.7.0.UKBRUXM_20241120.0000.00_14.0_ru_0bf87344a4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UKBRUXM": {
 					"os": "OS1.0.6.0.UKBRUXM",
 					"android": "14.0",
 					"release": "2024-11-06",
 					"recovery": "miui_VENUSRUGlobal_OS1.0.6.0.UKBRUXM_716d12ed49_14.0.zip",
-					"fastboot": "venus_ru_global_images_OS1.0.6.0.UKBRUXM_20241018.0000.00_14.0_ru_bc7a738fea.tgz"
+					"fastboot": "venus_ru_global_images_OS1.0.6.0.UKBRUXM_20241018.0000.00_14.0_ru_bc7a738fea.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UKBRUXM": {
 					"os": "OS1.0.5.0.UKBRUXM",
 					"android": "14.0",
 					"release": "2024-10-16",
 					"recovery": "miui_VENUSRUGlobal_OS1.0.5.0.UKBRUXM_e5edf03630_14.0.zip",
-					"fastboot": "venus_ru_global_images_OS1.0.5.0.UKBRUXM_20240927.0000.00_14.0_ru_aab72ee86c.tgz"
+					"fastboot": "venus_ru_global_images_OS1.0.5.0.UKBRUXM_20240927.0000.00_14.0_ru_aab72ee86c.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKBRUXM": {
 					"os": "OS1.0.3.0.UKBRUXM",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_VENUSRUGlobal_OS1.0.3.0.UKBRUXM_acc1fb1814_14.0.zip",
-					"fastboot": "venus_ru_global_images_OS1.0.3.0.UKBRUXM_20240816.0000.00_14.0_ru_18eefecbdd.tgz"
+					"fastboot": "venus_ru_global_images_OS1.0.3.0.UKBRUXM_20240816.0000.00_14.0_ru_18eefecbdd.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UKBRUXM": {
 					"os": "OS1.0.2.0.UKBRUXM",
 					"android": "14.0",
 					"release": "2024-08-02",
 					"recovery": "miui_VENUSRUGlobal_OS1.0.2.0.UKBRUXM_7096649176_14.0.zip",
-					"fastboot": "venus_ru_global_images_OS1.0.2.0.UKBRUXM_20240709.0000.00_14.0_ru_3fc89d0bcc.tgz"
+					"fastboot": "venus_ru_global_images_OS1.0.2.0.UKBRUXM_20240709.0000.00_14.0_ru_3fc89d0bcc.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKBRUXM": {
 					"os": "OS1.0.1.0.UKBRUXM",
 					"android": "14.0",
 					"release": "2024-06-11",
 					"recovery": "miui_VENUSRUGlobal_OS1.0.1.0.UKBRUXM_43b8103b30_14.0.zip",
-					"fastboot": "venus_ru_global_images_OS1.0.1.0.UKBRUXM_20240514.0000.00_14.0_ru_d25403d6da.tgz"
+					"fastboot": "venus_ru_global_images_OS1.0.1.0.UKBRUXM_20240514.0000.00_14.0_ru_d25403d6da.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -946,6 +1035,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -962,63 +1052,72 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "venus_id_global-ota_full-OS2.0.4.0.UKBIDXM-user-14.0-bd703248e8.zip",
-					"fastboot": "venus_id_global_images_OS2.0.4.0.UKBIDXM_20251227.0000.00_14.0_id_bbb22078f9.tgz"
+					"fastboot": "venus_id_global_images_OS2.0.4.0.UKBIDXM_20251227.0000.00_14.0_id_bbb22078f9.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.3.0.UKBIDXM": {
 					"os": "OS2.0.3.0.UKBIDXM",
 					"android": "14.0",
 					"release": "2025-05-13",
 					"recovery": "venus_id_global-ota_full-OS2.0.3.0.UKBIDXM-user-14.0-b60d67e818.zip",
-					"fastboot": "venus_id_global_images_OS2.0.3.0.UKBIDXM_20250429.0000.00_14.0_id_052cf7892f.tgz"
+					"fastboot": "venus_id_global_images_OS2.0.3.0.UKBIDXM_20250429.0000.00_14.0_id_052cf7892f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.9.0.UKBIDXM": {
 					"os": "OS1.0.9.0.UKBIDXM",
 					"android": "14.0",
 					"release": "2025-01-07",
 					"recovery": "miui_VENUSIDGlobal_OS1.0.9.0.UKBIDXM_64df0c94a2_14.0.zip",
-					"fastboot": "venus_id_global_images_OS1.0.9.0.UKBIDXM_20241224.0000.00_14.0_id_98b1e8b1fb.tgz"
+					"fastboot": "venus_id_global_images_OS1.0.9.0.UKBIDXM_20241224.0000.00_14.0_id_98b1e8b1fb.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKBIDXM": {
 					"os": "OS1.0.7.0.UKBIDXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_VENUSIDGlobal_OS1.0.7.0.UKBIDXM_98c22b70df_14.0.zip",
-					"fastboot": "venus_id_global_images_OS1.0.7.0.UKBIDXM_20241120.0000.00_14.0_id_45067ee91a.tgz"
+					"fastboot": "venus_id_global_images_OS1.0.7.0.UKBIDXM_20241120.0000.00_14.0_id_45067ee91a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UKBIDXM": {
 					"os": "OS1.0.6.0.UKBIDXM",
 					"android": "14.0",
 					"release": "2024-11-06",
 					"recovery": "miui_VENUSIDGlobal_OS1.0.6.0.UKBIDXM_2bc65bc21b_14.0.zip",
-					"fastboot": "venus_id_global_images_OS1.0.6.0.UKBIDXM_20241017.0000.00_14.0_id_a250b94e82.tgz"
+					"fastboot": "venus_id_global_images_OS1.0.6.0.UKBIDXM_20241017.0000.00_14.0_id_a250b94e82.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UKBIDXM": {
 					"os": "OS1.0.5.0.UKBIDXM",
 					"android": "14.0",
 					"release": "2024-10-16",
 					"recovery": "miui_VENUSIDGlobal_OS1.0.5.0.UKBIDXM_592838551d_14.0.zip",
-					"fastboot": "venus_id_global_images_OS1.0.5.0.UKBIDXM_20240927.0000.00_14.0_id_89205f3072.tgz"
+					"fastboot": "venus_id_global_images_OS1.0.5.0.UKBIDXM_20240927.0000.00_14.0_id_89205f3072.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKBIDXM": {
 					"os": "OS1.0.3.0.UKBIDXM",
 					"android": "14.0",
 					"release": "2024-08-30",
 					"recovery": "miui_VENUSIDGlobal_OS1.0.3.0.UKBIDXM_43f943c2b5_14.0.zip",
-					"fastboot": "venus_id_global_images_OS1.0.3.0.UKBIDXM_20240816.0000.00_14.0_id_386ebcd731.tgz"
+					"fastboot": "venus_id_global_images_OS1.0.3.0.UKBIDXM_20240816.0000.00_14.0_id_386ebcd731.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UKBIDXM": {
 					"os": "OS1.0.2.0.UKBIDXM",
 					"android": "14.0",
 					"release": "2024-08-02",
 					"recovery": "miui_VENUSIDGlobal_OS1.0.2.0.UKBIDXM_749f51cc13_14.0.zip",
-					"fastboot": "venus_id_global_images_OS1.0.2.0.UKBIDXM_20240711.0000.00_14.0_id_fc137f4d1d.tgz"
+					"fastboot": "venus_id_global_images_OS1.0.2.0.UKBIDXM_20240711.0000.00_14.0_id_fc137f4d1d.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKBIDXM": {
 					"os": "OS1.0.1.0.UKBIDXM",
 					"android": "14.0",
 					"release": "2024-05-13",
 					"recovery": "miui_VENUSIDGlobal_OS1.0.1.0.UKBIDXM_8deb924308_14.0.zip",
-					"fastboot": "venus_id_global_images_OS1.0.1.0.UKBIDXM_20240424.0000.00_14.0_id_3b94354f8c.tgz"
+					"fastboot": "venus_id_global_images_OS1.0.1.0.UKBIDXM_20240424.0000.00_14.0_id_3b94354f8c.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -1040,6 +1139,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1056,63 +1156,72 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "venus_tr_global-ota_full-OS2.0.3.0.UKBTRXM-user-14.0-3d1f528fca.zip",
-					"fastboot": "venus_tr_global_images_OS2.0.3.0.UKBTRXM_20251227.0000.00_14.0_tr_8a74f09a5f.tgz"
+					"fastboot": "venus_tr_global_images_OS2.0.3.0.UKBTRXM_20251227.0000.00_14.0_tr_8a74f09a5f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.UKBTRXM": {
 					"os": "OS2.0.2.0.UKBTRXM",
 					"android": "14.0",
 					"release": "2025-05-13",
 					"recovery": "venus_tr_global-ota_full-OS2.0.2.0.UKBTRXM-user-14.0-6ecdd78b38.zip",
-					"fastboot": "venus_tr_global_images_OS2.0.2.0.UKBTRXM_20250429.0000.00_14.0_tr_f3a96d1463.tgz"
+					"fastboot": "venus_tr_global_images_OS2.0.2.0.UKBTRXM_20250429.0000.00_14.0_tr_f3a96d1463.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.9.0.UKBTRXM": {
 					"os": "OS1.0.9.0.UKBTRXM",
 					"android": "14.0",
 					"release": "2025-01-07",
 					"recovery": "miui_VENUSTRGlobal_OS1.0.9.0.UKBTRXM_61ec1907df_14.0.zip",
-					"fastboot": "venus_tr_global_images_OS1.0.9.0.UKBTRXM_20241224.0000.00_14.0_tr_75b842318c.tgz"
+					"fastboot": "venus_tr_global_images_OS1.0.9.0.UKBTRXM_20241224.0000.00_14.0_tr_75b842318c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKBTRXM": {
 					"os": "OS1.0.7.0.UKBTRXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_VENUSTRGlobal_OS1.0.7.0.UKBTRXM_b5cbbd4ac5_14.0.zip",
-					"fastboot": "venus_tr_global_images_OS1.0.7.0.UKBTRXM_20241120.0000.00_14.0_tr_8f8a1ee9b0.tgz"
+					"fastboot": "venus_tr_global_images_OS1.0.7.0.UKBTRXM_20241120.0000.00_14.0_tr_8f8a1ee9b0.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UKBTRXM": {
 					"os": "OS1.0.6.0.UKBTRXM",
 					"android": "14.0",
 					"release": "2024-11-11",
 					"recovery": "miui_VENUSTRGlobal_OS1.0.6.0.UKBTRXM_2349e67bc8_14.0.zip",
-					"fastboot": "venus_tr_global_images_OS1.0.6.0.UKBTRXM_20241018.0000.00_14.0_tr_88aa68c4c9.tgz"
+					"fastboot": "venus_tr_global_images_OS1.0.6.0.UKBTRXM_20241018.0000.00_14.0_tr_88aa68c4c9.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UKBTRXM": {
 					"os": "OS1.0.5.0.UKBTRXM",
 					"android": "14.0",
 					"release": "2024-10-18",
 					"recovery": "miui_VENUSTRGlobal_OS1.0.5.0.UKBTRXM_3df324b5de_14.0.zip",
-					"fastboot": "venus_tr_global_images_OS1.0.5.0.UKBTRXM_20240927.0000.00_14.0_tr_3f93d2d4ba.tgz"
+					"fastboot": "venus_tr_global_images_OS1.0.5.0.UKBTRXM_20240927.0000.00_14.0_tr_3f93d2d4ba.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKBTRXM": {
 					"os": "OS1.0.3.0.UKBTRXM",
 					"android": "14.0",
 					"release": "2024-09-12",
 					"recovery": "miui_VENUSTRGlobal_OS1.0.3.0.UKBTRXM_5f02c795e6_14.0.zip",
-					"fastboot": "venus_tr_global_images_OS1.0.3.0.UKBTRXM_20240816.0000.00_14.0_tr_2f6c3e062a.tgz"
+					"fastboot": "venus_tr_global_images_OS1.0.3.0.UKBTRXM_20240816.0000.00_14.0_tr_2f6c3e062a.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UKBTRXM": {
 					"os": "OS1.0.2.0.UKBTRXM",
 					"android": "14.0",
 					"release": "2024-08-02",
 					"recovery": "miui_VENUSTRGlobal_OS1.0.2.0.UKBTRXM_8ab080641b_14.0.zip",
-					"fastboot": "venus_tr_global_images_OS1.0.2.0.UKBTRXM_20240709.0000.00_14.0_tr_d2b01af188.tgz"
+					"fastboot": "venus_tr_global_images_OS1.0.2.0.UKBTRXM_20240709.0000.00_14.0_tr_d2b01af188.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKBTRXM": {
 					"os": "OS1.0.1.0.UKBTRXM",
 					"android": "14.0",
 					"release": "2024-06-11",
 					"recovery": "miui_VENUSTRGlobal_OS1.0.1.0.UKBTRXM_158aed7742_14.0.zip",
-					"fastboot": "venus_tr_global_images_OS1.0.1.0.UKBTRXM_20240515.0000.00_14.0_tr_9adbed213b.tgz"
+					"fastboot": "venus_tr_global_images_OS1.0.1.0.UKBTRXM_20240515.0000.00_14.0_tr_9adbed213b.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		}

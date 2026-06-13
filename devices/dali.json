@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -54,77 +55,88 @@
 					"android": "16.0",
 					"release": "2026-04-28",
 					"recovery": "dali-ota_full-OS3.0.301.9.WONCNXM-user-16.0-6689a61cdb.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.301.4.WONCNXM": {
 					"os": "OS3.0.301.4.WONCNXM",
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "dali-ota_full-OS3.0.301.4.WONCNXM-user-16.0-cc3beab8dc.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.6.WONCNXM": {
 					"os": "OS3.0.300.6.WONCNXM",
 					"android": "16.0",
 					"release": "2026-03-08",
 					"recovery": "dali-ota_full-OS3.0.300.6.WONCNXM-user-16.0-e027d4cb9c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.4.WONCNXM": {
 					"os": "OS3.0.300.4.WONCNXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "dali-ota_full-OS3.0.300.4.WONCNXM-user-16.0-86f34cc79f.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.300.3.WONCNXM": {
 					"os": "OS3.0.300.3.WONCNXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "dali-ota_full-OS3.0.300.3.WONCNXM-user-16.0-c50c52caea.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.8.2.WONCNXM": {
 					"os": "OS3.0.8.2.WONCNXM",
 					"android": "16.0",
 					"release": "2025-12-31",
 					"recovery": "dali-ota_full-OS3.0.8.2.WONCNXM-user-16.0-b8bd66759a.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.1.1.WONCNXM": {
 					"os": "OS3.0.1.1.WONCNXM",
 					"android": "16.0",
 					"release": "2025-10-10",
 					"recovery": "dali-ota_full-OS3.0.1.1.WONCNXM-user-16.0-1bc6647449.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS3.0.0.31.WONCNXM": {
 					"os": "OS3.0.0.31.WONCNXM",
 					"android": "16.0",
 					"release": "2025-09-25",
 					"recovery": "dali-ota_full-OS3.0.0.31.WONCNXM-user-16.0-99962b1b84.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS3.0.0.29.WONCNXM": {
 					"os": "OS3.0.0.29.WONCNXM",
 					"android": "16.0",
 					"release": "2025-09-10",
 					"recovery": "dali-ota_full-OS3.0.0.29.WONCNXM-user-16.0-17817abb79.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS3.0.0.28.WONCNXM": {
 					"os": "OS3.0.0.28.WONCNXM",
 					"android": "16.0",
 					"release": "2025-09-04",
 					"recovery": "dali-ota_full-OS3.0.0.28.WONCNXM-user-16.0-f04284a8f4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS3.0.0.17.WONCNXM": {
 					"os": "OS3.0.0.17.WONCNXM",
 					"android": "16.0",
 					"release": "2025-08-29",
 					"recovery": "dali-ota_full-OS3.0.0.17.WONCNXM-user-16.0-65a58dfd1d.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -146,6 +158,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -167,7 +180,8 @@
 					"release": "2026-05-14",
 					"recovery": "dali-ota_full-OS3.0.302.0.WONCNXM-user-16.0-321a23b14e.zip",
 					"fastboot": "dali_images_OS3.0.302.0.WONCNXM_20260507.0000.00_16.0_cn_b905b32c3a.tgz",
-					"ctelecom": "dali_images_OS3.0.302.0.WONCNXM_20260507.0000.00_16.0_cn_chinatelecom_455d3d668c.tgz"
+					"ctelecom": "dali_images_OS3.0.302.0.WONCNXM_20260507.0000.00_16.0_cn_chinatelecom_455d3d668c.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.301.0.WONCNXM": {
 					"os": "OS3.0.301.0.WONCNXM",
@@ -175,7 +189,8 @@
 					"release": "2026-03-23",
 					"recovery": "dali-ota_full-OS3.0.301.0.WONCNXM-user-16.0-6a71af98ec.zip",
 					"fastboot": "dali_images_OS3.0.301.0.WONCNXM_20260309.0000.00_16.0_cn_b6fa0c2f11.tgz",
-					"ctelecom": "dali_images_OS3.0.301.0.WONCNXM_20260309.0000.00_16.0_cn_chinatelecom_24659e96cd.tgz"
+					"ctelecom": "dali_images_OS3.0.301.0.WONCNXM_20260309.0000.00_16.0_cn_chinatelecom_24659e96cd.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.9.0.WONCNXM": {
 					"os": "OS3.0.9.0.WONCNXM",
@@ -183,7 +198,8 @@
 					"release": "2026-02-03",
 					"recovery": "dali-ota_full-OS3.0.9.0.WONCNXM-user-16.0-a32c7ff19c.zip",
 					"fastboot": "dali_images_OS3.0.9.0.WONCNXM_20260124.0000.00_16.0_cn_9d363d7b96.tgz",
-					"ctelecom": "dali_images_OS3.0.9.0.WONCNXM_20260124.0000.00_16.0_cn_chinatelecom_b6a45112a6.tgz"
+					"ctelecom": "dali_images_OS3.0.9.0.WONCNXM_20260124.0000.00_16.0_cn_chinatelecom_b6a45112a6.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.7.0.WONCNXM": {
 					"os": "OS3.0.7.0.WONCNXM",
@@ -191,7 +207,8 @@
 					"release": "2025-12-26",
 					"recovery": "dali-ota_full-OS3.0.7.0.WONCNXM-user-16.0-a725b61af0.zip",
 					"fastboot": "dali_images_OS3.0.7.0.WONCNXM_20251217.0000.00_16.0_cn_6cb9204ae2.tgz",
-					"ctelecom": "dali_images_OS3.0.7.0.WONCNXM_20251217.0000.00_16.0_cn_chinatelecom_fecd93659e.tgz"
+					"ctelecom": "dali_images_OS3.0.7.0.WONCNXM_20251217.0000.00_16.0_cn_chinatelecom_fecd93659e.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.5.0.WONCNXM": {
 					"os": "OS3.0.5.0.WONCNXM",
@@ -199,7 +216,8 @@
 					"release": "2025-12-09",
 					"recovery": "dali-ota_full-OS3.0.5.0.WONCNXM-user-16.0-7d8ae41634.zip",
 					"fastboot": "dali_images_OS3.0.5.0.WONCNXM_20251123.0000.00_16.0_cn_0d9f1a5f19.tgz",
-					"ctelecom": "dali_images_OS3.0.5.0.WONCNXM_20251123.0000.00_16.0_cn_chinatelecom_c7b2e5ba51.tgz"
+					"ctelecom": "dali_images_OS3.0.5.0.WONCNXM_20251123.0000.00_16.0_cn_chinatelecom_c7b2e5ba51.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.4.0.WONCNXM": {
 					"os": "OS3.0.4.0.WONCNXM",
@@ -207,7 +225,8 @@
 					"release": "2025-11-13",
 					"recovery": "dali-ota_full-OS3.0.4.0.WONCNXM-user-16.0-c9a624f36e.zip",
 					"fastboot": "dali_images_OS3.0.4.0.WONCNXM_20251105.0000.00_16.0_cn_c7ec9f6975.tgz",
-					"ctelecom": "dali_images_OS3.0.4.0.WONCNXM_20251105.0000.00_16.0_cn_chinatelecom_aec81e1b67.tgz"
+					"ctelecom": "dali_images_OS3.0.4.0.WONCNXM_20251105.0000.00_16.0_cn_chinatelecom_aec81e1b67.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.3.0.WONCNXM": {
 					"os": "OS3.0.3.0.WONCNXM",
@@ -215,7 +234,8 @@
 					"release": "2025-10-24",
 					"recovery": "dali-ota_full-OS3.0.3.0.WONCNXM-user-16.0-83f9b5766a.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.2.0.WONCNXM": {
 					"os": "OS3.0.2.0.WONCNXM",
@@ -223,7 +243,8 @@
 					"release": "2025-10-14",
 					"recovery": "dali-ota_full-OS3.0.2.0.WONCNXM-user-16.0-b11d094c9c.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.220.0.VONCNXM": {
 					"os": "OS2.0.220.0.VONCNXM",
@@ -231,7 +252,8 @@
 					"release": "2025-09-18",
 					"recovery": "dali-ota_full-OS2.0.220.0.VONCNXM-user-15.0-ce1b8c3ab4.zip",
 					"fastboot": "dali_images_OS2.0.220.0.VONCNXM_20250908.0000.00_15.0_cn_d9c5938a9a.tgz",
-					"ctelecom": "dali_images_OS2.0.220.0.VONCNXM_20250908.0000.00_15.0_cn_chinatelecom_93e546a6fa.tgz"
+					"ctelecom": "dali_images_OS2.0.220.0.VONCNXM_20250908.0000.00_15.0_cn_chinatelecom_93e546a6fa.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.219.0.VONCNXM": {
 					"os": "OS2.0.219.0.VONCNXM",
@@ -239,7 +261,8 @@
 					"release": "2025-09-03",
 					"recovery": "dali-ota_full-OS2.0.219.0.VONCNXM-user-15.0-a33006afb5.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.218.0.VONCNXM": {
 					"os": "OS2.0.218.0.VONCNXM",
@@ -247,7 +270,8 @@
 					"release": "2025-08-19",
 					"recovery": "dali-ota_full-OS2.0.218.0.VONCNXM-user-15.0-f26ec67f7e.zip",
 					"fastboot": "dali_images_OS2.0.218.0.VONCNXM_20250814.0000.00_15.0_cn_1c36f279f6.tgz",
-					"ctelecom": "dali_images_OS2.0.218.0.VONCNXM_20250814.0000.00_15.0_cn_chinatelecom_cf5e207f6f.tgz"
+					"ctelecom": "dali_images_OS2.0.218.0.VONCNXM_20250814.0000.00_15.0_cn_chinatelecom_cf5e207f6f.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.217.0.VONCNXM": {
 					"os": "OS2.0.217.0.VONCNXM",
@@ -255,7 +279,8 @@
 					"release": "2025-08-11",
 					"recovery": "dali-ota_full-OS2.0.217.0.VONCNXM-user-15.0-bb9a2550dd.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.215.0.VONCNXM": {
 					"os": "OS2.0.215.0.VONCNXM",
@@ -263,7 +288,8 @@
 					"release": "2025-07-24",
 					"recovery": "dali-ota_full-OS2.0.215.0.VONCNXM-user-15.0-9f97adbf9a.zip",
 					"fastboot": "dali_images_OS2.0.215.0.VONCNXM_20250722.0000.00_15.0_cn_866b5532fd.tgz",
-					"ctelecom": "dali_images_OS2.0.215.0.VONCNXM_20250722.0000.00_15.0_cn_chinatelecom_81bb27e8b4.tgz"
+					"ctelecom": "dali_images_OS2.0.215.0.VONCNXM_20250722.0000.00_15.0_cn_chinatelecom_81bb27e8b4.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.214.0.VONCNXM": {
 					"os": "OS2.0.214.0.VONCNXM",
@@ -271,7 +297,8 @@
 					"release": "2025-07-19",
 					"recovery": "dali-ota_full-OS2.0.214.0.VONCNXM-user-15.0-ab1be72000.zip",
 					"fastboot": "dali_images_OS2.0.214.0.VONCNXM_20250719.0000.00_15.0_cn_722949ef2a.tgz",
-					"ctelecom": "dali_images_OS2.0.214.0.VONCNXM_20250719.0000.00_15.0_cn_chinatelecom_040be62b23.tgz"
+					"ctelecom": "dali_images_OS2.0.214.0.VONCNXM_20250719.0000.00_15.0_cn_chinatelecom_040be62b23.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.213.0.VONCNXM": {
 					"os": "OS2.0.213.0.VONCNXM",
@@ -279,7 +306,8 @@
 					"release": "2025-07-18",
 					"recovery": "dali-ota_full-OS2.0.213.0.VONCNXM-user-15.0-ce4ea831b8.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.211.0.VONCNXM": {
 					"os": "OS2.0.211.0.VONCNXM",
@@ -287,7 +315,8 @@
 					"release": "2025-07-14",
 					"recovery": "dali-ota_full-OS2.0.211.0.VONCNXM-user-15.0-94f3608a70.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.210.0.VONCNXM": {
 					"os": "OS2.0.210.0.VONCNXM",
@@ -295,7 +324,8 @@
 					"release": "2025-06-26",
 					"recovery": "dali-ota_full-OS2.0.210.0.VONCNXM-user-15.0-b059d1e9e4.zip",
 					"fastboot": "dali_images_OS2.0.210.0.VONCNXM_20250621.0000.00_15.0_cn_861f237924.tgz",
-					"ctelecom": "dali_images_OS2.0.210.0.VONCNXM_20250621.0000.00_15.0_cn_chinatelecom_342c0eceb9.tgz"
+					"ctelecom": "dali_images_OS2.0.210.0.VONCNXM_20250621.0000.00_15.0_cn_chinatelecom_342c0eceb9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.208.0.VONCNXM": {
 					"os": "OS2.0.208.0.VONCNXM",
@@ -303,7 +333,8 @@
 					"release": "2025-06-26",
 					"recovery": "dali-ota_full-OS2.0.208.0.VONCNXM-user-15.0-3cb16e84fd.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.203.0.VONCNXM": {
 					"os": "OS2.0.203.0.VONCNXM",
@@ -311,7 +342,8 @@
 					"release": "2025-06-26",
 					"recovery": "dali-ota_full-OS2.0.203.0.VONCNXM-user-15.0-1939221ba7.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				}
 			}
 		},
@@ -333,6 +365,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -354,7 +387,8 @@
 					"release": "2025-12-09",
 					"recovery": "dali_demo-ota_full-OS3.0.3.0.WONCNDM-user-16.0-1459ec83ef.zip",
 					"fastboot": "dali_demo_images_OS3.0.3.0.WONCNDM_20251201.0000.00_16.0_cn_d45e51aba1.tgz",
-					"ctelecom": "dali_demo_images_OS3.0.3.0.WONCNDM_20251201.0000.00_16.0_cn_chinatelecom_bc481fdbb3.tgz"
+					"ctelecom": "dali_demo_images_OS3.0.3.0.WONCNDM_20251201.0000.00_16.0_cn_chinatelecom_bc481fdbb3.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VONCNDM": {
 					"os": "OS2.0.206.0.VONCNDM",
@@ -362,7 +396,8 @@
 					"release": "2025-08-20",
 					"recovery": "dali_demo-ota_full-OS2.0.206.0.VONCNDM-user-15.0-27a4226c81.zip",
 					"fastboot": "dali_demo_images_OS2.0.206.0.VONCNDM_20250806.0000.00_15.0_cn_4ebbcb72b4.tgz",
-					"ctelecom": "dali_demo_images_OS2.0.206.0.VONCNDM_20250806.0000.00_15.0_cn_chinatelecom_e56f98a6e2.tgz"
+					"ctelecom": "dali_demo_images_OS2.0.206.0.VONCNDM_20250806.0000.00_15.0_cn_chinatelecom_e56f98a6e2.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.204.0.VONCNDM": {
 					"os": "OS2.0.204.0.VONCNDM",
@@ -370,7 +405,8 @@
 					"release": "2025-06-23",
 					"recovery": "dali_demo-ota_full-OS2.0.204.0.VONCNDM-user-15.0-f53beb9d4c.zip",
 					"fastboot": "dali_demo_images_OS2.0.204.0.VONCNDM_20250617.0000.00_15.0_cn_502c39ed1c.tgz",
-					"ctelecom": "dali_demo_images_OS2.0.204.0.VONCNDM_20250617.0000.00_15.0_cn_chinatelecom_d7a3f2f050.tgz"
+					"ctelecom": "dali_demo_images_OS2.0.204.0.VONCNDM_20250617.0000.00_15.0_cn_chinatelecom_d7a3f2f050.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.202.0.VONCNDM": {
 					"os": "OS2.0.202.0.VONCNDM",
@@ -378,7 +414,8 @@
 					"release": "2025-06-23",
 					"recovery": "dali_demo-ota_full-OS2.0.202.0.VONCNDM-user-15.0-a1242e27c8.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				}
 			}
 		}

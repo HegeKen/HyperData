@@ -36,6 +36,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -55,168 +56,192 @@
 					"android": "15.0",
 					"release": "2026-06-01",
 					"recovery": "yudi-ota_full-OS3.0.5.0.VMHCNXM-user-15.0-af8d2c5384.zip",
-					"fastboot": "yudi_images_OS3.0.5.0.VMHCNXM_20260519.0000.00_15.0_cn_fa5527e8e2.tgz"
+					"fastboot": "yudi_images_OS3.0.5.0.VMHCNXM_20260519.0000.00_15.0_cn_fa5527e8e2.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.VMHCNXM": {
 					"os": "OS3.0.4.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2026-04-03",
 					"recovery": "yudi-ota_full-OS3.0.4.0.VMHCNXM-user-15.0-f11a9f8346.zip",
-					"fastboot": "yudi_images_OS3.0.4.0.VMHCNXM_20260320.0000.00_15.0_cn_6fedeb241e.tgz"
+					"fastboot": "yudi_images_OS3.0.4.0.VMHCNXM_20260320.0000.00_15.0_cn_6fedeb241e.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.3.0.VMHCNXM": {
 					"os": "OS3.0.3.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2026-01-23",
 					"recovery": "yudi-ota_full-OS3.0.3.0.VMHCNXM-user-15.0-77a2cca9fc.zip",
-					"fastboot": "yudi_images_OS3.0.3.0.VMHCNXM_20260113.0000.00_15.0_cn_a9af5417b3.tgz"
+					"fastboot": "yudi_images_OS3.0.3.0.VMHCNXM_20260113.0000.00_15.0_cn_a9af5417b3.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.1.0.VMHCNXM": {
 					"os": "OS3.0.1.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "yudi-ota_full-OS3.0.1.0.VMHCNXM-user-15.0-24e0ff2f68.zip",
-					"fastboot": "yudi_images_OS3.0.1.0.VMHCNXM_20251220.0000.00_15.0_cn_006e2f7d3c.tgz"
+					"fastboot": "yudi_images_OS3.0.1.0.VMHCNXM_20251220.0000.00_15.0_cn_006e2f7d3c.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.211.0.VMHCNXM": {
 					"os": "OS2.0.211.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-12-23",
 					"recovery": "yudi-ota_full-OS2.0.211.0.VMHCNXM-user-15.0-7bd25509d3.zip",
-					"fastboot": "yudi_images_OS2.0.211.0.VMHCNXM_20251202.0000.00_15.0_cn_b2b4a905ea.tgz"
+					"fastboot": "yudi_images_OS2.0.211.0.VMHCNXM_20251202.0000.00_15.0_cn_b2b4a905ea.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.209.0.VMHCNXM": {
 					"os": "OS2.0.209.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "yudi-ota_full-OS2.0.209.0.VMHCNXM-user-15.0-97f27f4932.zip",
-					"fastboot": "yudi_images_OS2.0.209.0.VMHCNXM_20251106.0000.00_15.0_cn_f2ee656fdb.tgz"
+					"fastboot": "yudi_images_OS2.0.209.0.VMHCNXM_20251106.0000.00_15.0_cn_f2ee656fdb.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.208.0.VMHCNXM": {
 					"os": "OS2.0.208.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-10-17",
 					"recovery": "yudi-ota_full-OS2.0.208.0.VMHCNXM-user-15.0-59b246cbcc.zip",
-					"fastboot": "yudi_images_OS2.0.208.0.VMHCNXM_20250930.0000.00_15.0_cn_3312675bc5.tgz"
+					"fastboot": "yudi_images_OS2.0.208.0.VMHCNXM_20250930.0000.00_15.0_cn_3312675bc5.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.207.0.VMHCNXM": {
 					"os": "OS2.0.207.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-09-24",
 					"recovery": "yudi-ota_full-OS2.0.207.0.VMHCNXM-user-15.0-74716f1b6c.zip",
-					"fastboot": "yudi_images_OS2.0.207.0.VMHCNXM_20250920.0000.00_15.0_cn_55d59c4784.tgz"
+					"fastboot": "yudi_images_OS2.0.207.0.VMHCNXM_20250920.0000.00_15.0_cn_55d59c4784.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.206.0.VMHCNXM": {
 					"os": "OS2.0.206.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-09-18",
 					"recovery": "yudi-ota_full-OS2.0.206.0.VMHCNXM-user-15.0-ad7f6a98bb.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VMHCNXM": {
 					"os": "OS2.0.204.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-08-19",
 					"recovery": "yudi-ota_full-OS2.0.204.0.VMHCNXM-user-15.0-091de147d8.zip",
-					"fastboot": "yudi_images_OS2.0.204.0.VMHCNXM_20250806.0000.00_15.0_cn_774e2573d6.tgz"
+					"fastboot": "yudi_images_OS2.0.204.0.VMHCNXM_20250806.0000.00_15.0_cn_774e2573d6.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.203.0.VMHCNXM": {
 					"os": "OS2.0.203.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-07-19",
 					"recovery": "yudi-ota_full-OS2.0.203.0.VMHCNXM-user-15.0-4e5f2843a0.zip",
-					"fastboot": "yudi_images_OS2.0.203.0.VMHCNXM_20250710.0000.00_15.0_cn_306b1df7fe.tgz"
+					"fastboot": "yudi_images_OS2.0.203.0.VMHCNXM_20250710.0000.00_15.0_cn_306b1df7fe.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.201.0.VMHCNXM": {
 					"os": "OS2.0.201.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-06-10",
 					"recovery": "yudi-ota_full-OS2.0.201.0.VMHCNXM-user-15.0-43fba22191.zip",
-					"fastboot": "yudi_images_OS2.0.201.0.VMHCNXM_20250531.0000.00_15.0_cn_3173003196.tgz"
+					"fastboot": "yudi_images_OS2.0.201.0.VMHCNXM_20250531.0000.00_15.0_cn_3173003196.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.8.0.VMHCNXM": {
 					"os": "OS2.0.8.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-05-14",
 					"recovery": "yudi-ota_full-OS2.0.8.0.VMHCNXM-user-15.0-c3af3fbd5b.zip",
-					"fastboot": "yudi_images_OS2.0.8.0.VMHCNXM_20250418.0000.00_15.0_cn_8ad7fd488e.tgz"
+					"fastboot": "yudi_images_OS2.0.8.0.VMHCNXM_20250418.0000.00_15.0_cn_8ad7fd488e.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.7.0.VMHCNXM": {
 					"os": "OS2.0.7.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-04-02",
 					"recovery": "yudi-ota_full-OS2.0.7.0.VMHCNXM-user-15.0-e5ddb7b375.zip",
-					"fastboot": "yudi_images_OS2.0.7.0.VMHCNXM_20250319.0000.00_15.0_cn_d1b6f6ec0d.tgz"
+					"fastboot": "yudi_images_OS2.0.7.0.VMHCNXM_20250319.0000.00_15.0_cn_d1b6f6ec0d.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.6.0.VMHCNXM": {
 					"os": "OS2.0.6.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-03-04",
 					"recovery": "yudi-ota_full-OS2.0.6.0.VMHCNXM-user-15.0-ee905a8d50.zip",
-					"fastboot": "yudi_images_OS2.0.6.0.VMHCNXM_20250219.0000.00_15.0_cn_ef894d3cb9.tgz"
+					"fastboot": "yudi_images_OS2.0.6.0.VMHCNXM_20250219.0000.00_15.0_cn_ef894d3cb9.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.4.0.VMHCNXM": {
 					"os": "OS2.0.4.0.VMHCNXM",
 					"android": "15.0",
 					"release": "2025-01-14",
 					"recovery": "yudi-ota_full-OS2.0.4.0.VMHCNXM-user-15.0-2d4a366530.zip",
-					"fastboot": "yudi_images_OS2.0.4.0.VMHCNXM_20250109.0000.00_15.0_cn_53a5d935d3.tgz"
+					"fastboot": "yudi_images_OS2.0.4.0.VMHCNXM_20250109.0000.00_15.0_cn_53a5d935d3.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.17.0.UMHCNXM": {
 					"os": "OS1.0.17.0.UMHCNXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_YUDI_OS1.0.17.0.UMHCNXM_016e5304b7_14.0.zip",
-					"fastboot": "yudi_images_OS1.0.17.0.UMHCNXM_20241210.0000.00_14.0_cn_f1930ea6d9.tgz"
+					"fastboot": "yudi_images_OS1.0.17.0.UMHCNXM_20241210.0000.00_14.0_cn_f1930ea6d9.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.16.0.UMHCNXM": {
 					"os": "OS1.0.16.0.UMHCNXM",
 					"android": "14.0",
 					"release": "2024-11-27",
 					"recovery": "miui_YUDI_OS1.0.16.0.UMHCNXM_1fdd0e6d55_14.0.zip",
-					"fastboot": "yudi_images_OS1.0.16.0.UMHCNXM_20241118.0000.00_14.0_cn_753d4ee2e6.tgz"
+					"fastboot": "yudi_images_OS1.0.16.0.UMHCNXM_20241118.0000.00_14.0_cn_753d4ee2e6.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.15.0.UMHCNXM": {
 					"os": "OS1.0.15.0.UMHCNXM",
 					"android": "14.0",
 					"release": "2024-10-22",
 					"recovery": "miui_YUDI_OS1.0.15.0.UMHCNXM_642885fe4c_14.0.zip",
-					"fastboot": "yudi_images_OS1.0.15.0.UMHCNXM_20241011.0000.00_14.0_cn_5873114dae.tgz"
+					"fastboot": "yudi_images_OS1.0.15.0.UMHCNXM_20241011.0000.00_14.0_cn_5873114dae.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.13.0.UMHCNXM": {
 					"os": "OS1.0.13.0.UMHCNXM",
 					"android": "14.0",
 					"release": "2024-09-25",
 					"recovery": "miui_YUDI_OS1.0.13.0.UMHCNXM_0fa7448917_14.0.zip",
-					"fastboot": "yudi_images_OS1.0.13.0.UMHCNXM_20240910.0000.00_14.0_cn_86498ee929.tgz"
+					"fastboot": "yudi_images_OS1.0.13.0.UMHCNXM_20240910.0000.00_14.0_cn_86498ee929.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.12.0.UMHCNXM": {
 					"os": "OS1.0.12.0.UMHCNXM",
 					"android": "14.0",
 					"release": "2024-08-22",
 					"recovery": "miui_YUDI_OS1.0.12.0.UMHCNXM_795f353142_14.0.zip",
-					"fastboot": "yudi_images_OS1.0.12.0.UMHCNXM_20240807.0000.00_14.0_cn_9ec5934b40.tgz"
+					"fastboot": "yudi_images_OS1.0.12.0.UMHCNXM_20240807.0000.00_14.0_cn_9ec5934b40.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.9.0.UMHCNXM": {
 					"os": "OS1.0.9.0.UMHCNXM",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_YUDI_OS1.0.9.0.UMHCNXM_d02ffd2afe_14.0.zip",
-					"fastboot": "yudi_images_OS1.0.9.0.UMHCNXM_20240530.0000.00_14.0_cn_3bad75a590.tgz"
+					"fastboot": "yudi_images_OS1.0.9.0.UMHCNXM_20240530.0000.00_14.0_cn_3bad75a590.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.8.0.UMHCNXM": {
 					"os": "OS1.0.8.0.UMHCNXM",
 					"android": "14.0",
 					"release": "2024-04-03",
 					"recovery": "miui_YUDI_OS1.0.8.0.UMHCNXM_e30fc423ba_14.0.zip",
-					"fastboot": "yudi_images_OS1.0.8.0.UMHCNXM_20240327.0000.00_14.0_cn_13be9ab39a.tgz"
+					"fastboot": "yudi_images_OS1.0.8.0.UMHCNXM_20240327.0000.00_14.0_cn_13be9ab39a.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.UMHCNXM": {
 					"os": "OS1.0.2.0.UMHCNXM",
 					"android": "14.0",
 					"release": "2023-12-07",
 					"recovery": "miui_YUDI_OS1.0.2.0.UMHCNXM_34efc69cc0_14.0.zip",
-					"fastboot": "yudi_images_OS1.0.2.0.UMHCNXM_20231124.0000.00_14.0_cn_ff52b125c5.tgz"
+					"fastboot": "yudi_images_OS1.0.2.0.UMHCNXM_20231124.0000.00_14.0_cn_ff52b125c5.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -238,6 +263,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -257,14 +283,16 @@
 					"android": "15.0",
 					"release": "2025-06-09",
 					"recovery": "yudi_demo-ota_full-OS2.0.1.0.VMHCNDM-user-15.0-f103ce1755.zip",
-					"fastboot": "yudi_demo_images_OS2.0.1.0.VMHCNDM_20250529.0000.00_15.0_cn_29787cf754.tgz"
+					"fastboot": "yudi_demo_images_OS2.0.1.0.VMHCNDM_20250529.0000.00_15.0_cn_29787cf754.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.1.0.UMHCNDM": {
 					"os": "OS1.0.1.0.UMHCNDM",
 					"android": "14.0",
 					"release": "2023-12-18",
 					"recovery": "miui_YUDIDEMO_OS1.0.1.0.UMHCNDM_4a69190a68_14.0.zip",
-					"fastboot": "yudi_demo_images_OS1.0.1.0.UMHCNDM_20231218.0000.00_14.0_cn_1acd2aeef0.tgz"
+					"fastboot": "yudi_demo_images_OS1.0.1.0.UMHCNDM_20231218.0000.00_14.0_cn_1acd2aeef0.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		}

@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -51,133 +52,152 @@
 					"android": "15.0",
 					"release": "2026-04-22",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.210.0.VNHTWXM-user-15.0-b8329e1ede.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.210.0.VNHTWXM_20260412.0000.00_15.0_tw_aedabe239a.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.210.0.VNHTWXM_20260412.0000.00_15.0_tw_aedabe239a.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.209.0.VNHTWXM": {
 					"os": "OS2.0.209.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.209.0.VNHTWXM-user-15.0-a9a833e999.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.209.0.VNHTWXM_20260130.0000.00_15.0_tw_721eba8f57.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.209.0.VNHTWXM_20260130.0000.00_15.0_tw_721eba8f57.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.208.0.VNHTWXM": {
 					"os": "OS2.0.208.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.208.0.VNHTWXM-user-15.0-5b8f7f1e90.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.208.0.VNHTWXM_20251215.0000.00_15.0_tw_c9677c4e4a.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.208.0.VNHTWXM_20251215.0000.00_15.0_tw_c9677c4e4a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VNHTWXM": {
 					"os": "OS2.0.207.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.207.0.VNHTWXM-user-15.0-734efaf392.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.207.0.VNHTWXM_20251107.0000.00_15.0_tw_790b3e13ef.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.207.0.VNHTWXM_20251107.0000.00_15.0_tw_790b3e13ef.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VNHTWXM": {
 					"os": "OS2.0.205.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.205.0.VNHTWXM-user-15.0-3d762e891c.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.205.0.VNHTWXM_20251013.0000.00_15.0_tw_5a6073f94d.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.205.0.VNHTWXM_20251013.0000.00_15.0_tw_5a6073f94d.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VNHTWXM": {
 					"os": "OS2.0.204.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.204.0.VNHTWXM-user-15.0-ad23921403.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.204.0.VNHTWXM_20250910.0000.00_15.0_tw_b77096eebe.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.204.0.VNHTWXM_20250910.0000.00_15.0_tw_b77096eebe.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VNHTWXM": {
 					"os": "OS2.0.202.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.202.0.VNHTWXM-user-15.0-c9d85bd9c6.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.202.0.VNHTWXM_20250813.0000.00_15.0_tw_6cb0e830ba.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.202.0.VNHTWXM_20250813.0000.00_15.0_tw_6cb0e830ba.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNHTWXM": {
 					"os": "OS2.0.201.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-07-24",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.201.0.VNHTWXM-user-15.0-756e9c6e91.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.201.0.VNHTWXM_20250714.0000.00_15.0_tw_d04ea18260.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.201.0.VNHTWXM_20250714.0000.00_15.0_tw_d04ea18260.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.8.0.VNHTWXM": {
 					"os": "OS2.0.8.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-06-19",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.8.0.VNHTWXM-user-15.0-c66c8e09d0.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.8.0.VNHTWXM_20250527.0000.00_15.0_tw_b366bfd93f.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.8.0.VNHTWXM_20250527.0000.00_15.0_tw_b366bfd93f.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.7.0.VNHTWXM": {
 					"os": "OS2.0.7.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.7.0.VNHTWXM-user-15.0-c9dafe2227.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.7.0.VNHTWXM_20250430.0000.00_15.0_tw_3f561be0bb.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.7.0.VNHTWXM_20250430.0000.00_15.0_tw_3f561be0bb.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.6.0.VNHTWXM": {
 					"os": "OS2.0.6.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-04-11",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.6.0.VNHTWXM-user-15.0-e350637527.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.6.0.VNHTWXM_20250325.0000.00_15.0_tw_7d1bf94112.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.6.0.VNHTWXM_20250325.0000.00_15.0_tw_7d1bf94112.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.5.0.VNHTWXM": {
 					"os": "OS2.0.5.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-03-03",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.5.0.VNHTWXM-user-15.0-1f5beb27a7.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.5.0.VNHTWXM_20250221.0000.00_15.0_tw_444862bebf.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.5.0.VNHTWXM_20250221.0000.00_15.0_tw_444862bebf.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.4.0.VNHTWXM": {
 					"os": "OS2.0.4.0.VNHTWXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "sapphiren_tw_global-ota_full-OS2.0.4.0.VNHTWXM-user-15.0-87686027b9.zip",
-					"fastboot": "sapphiren_tw_global_images_OS2.0.4.0.VNHTWXM_20250108.0000.00_15.0_tw_b10409589f.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS2.0.4.0.VNHTWXM_20250108.0000.00_15.0_tw_b10409589f.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.UNHTWXM": {
 					"os": "OS1.0.7.0.UNHTWXM",
 					"android": "14.0",
 					"release": "2024-12-06",
 					"recovery": "miui_SAPPHIRENTWGlobal_OS1.0.7.0.UNHTWXM_f9c9c4f7ee_14.0.zip",
-					"fastboot": "sapphiren_tw_global_images_OS1.0.7.0.UNHTWXM_20241125.0000.00_14.0_tw_442e237987.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS1.0.7.0.UNHTWXM_20241125.0000.00_14.0_tw_442e237987.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UNHTWXM": {
 					"os": "OS1.0.6.0.UNHTWXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_SAPPHIRENTWGlobal_OS1.0.6.0.UNHTWXM_8b6e91087e_14.0.zip",
-					"fastboot": "sapphiren_tw_global_images_OS1.0.6.0.UNHTWXM_20241016.0000.00_14.0_tw_852555a966.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS1.0.6.0.UNHTWXM_20241016.0000.00_14.0_tw_852555a966.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UNHTWXM": {
 					"os": "OS1.0.5.0.UNHTWXM",
 					"android": "14.0",
 					"release": "2024-09-24",
 					"recovery": "miui_SAPPHIRENTWGlobal_OS1.0.5.0.UNHTWXM_f7b236c41c_14.0.zip",
-					"fastboot": "sapphiren_tw_global_images_OS1.0.5.0.UNHTWXM_20240910.0000.00_14.0_tw_c0fda2ad1a.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS1.0.5.0.UNHTWXM_20240910.0000.00_14.0_tw_c0fda2ad1a.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UNHTWXM": {
 					"os": "OS1.0.4.0.UNHTWXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_SAPPHIRENTWGlobal_OS1.0.4.0.UNHTWXM_8840f59e82_14.0.zip",
-					"fastboot": "sapphiren_tw_global_images_OS1.0.4.0.UNHTWXM_20240802.0000.00_14.0_tw_3c543a7272.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS1.0.4.0.UNHTWXM_20240802.0000.00_14.0_tw_3c543a7272.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UNHTWXM": {
 					"os": "OS1.0.2.0.UNHTWXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_SAPPHIRENTWGlobal_OS1.0.2.0.UNHTWXM_9be399f574_14.0.zip",
-					"fastboot": "sapphiren_tw_global_images_OS1.0.2.0.UNHTWXM_20240521.0000.00_14.0_tw_fc89e264d0.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS1.0.2.0.UNHTWXM_20240521.0000.00_14.0_tw_fc89e264d0.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UNHTWXM": {
 					"os": "OS1.0.1.0.UNHTWXM",
 					"android": "14.0",
 					"release": "2024-05-16",
 					"recovery": "miui_SAPPHIRENTWGlobal_OS1.0.1.0.UNHTWXM_304c6eb834_14.0.zip",
-					"fastboot": "sapphiren_tw_global_images_OS1.0.1.0.UNHTWXM_20240426.0000.00_14.0_tw_b1395fb572.tgz"
+					"fastboot": "sapphiren_tw_global_images_OS1.0.1.0.UNHTWXM_20240426.0000.00_14.0_tw_b1395fb572.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -199,6 +219,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -215,154 +236,176 @@
 					"android": "15.0",
 					"release": "2026-06-04",
 					"recovery": "sapphiren_global-ota_full-OS2.0.210.0.VNHMIXM-user-15.0-718d4228e4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.209.0.VNHMIXM": {
 					"os": "OS2.0.209.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2026-03-27",
 					"recovery": "sapphiren_global-ota_full-OS2.0.209.0.VNHMIXM-user-15.0-64b57cc462.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.209.0.VNHMIXM_20260314.0000.00_15.0_global_cf8ed5aa71.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.209.0.VNHMIXM_20260314.0000.00_15.0_global_cf8ed5aa71.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.208.0.VNHMIXM": {
 					"os": "OS2.0.208.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2026-02-02",
 					"recovery": "sapphiren_global-ota_full-OS2.0.208.0.VNHMIXM-user-15.0-e7aa2f7eff.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.208.0.VNHMIXM_20260120.0000.00_15.0_global_b88dee7bdc.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.208.0.VNHMIXM_20260120.0000.00_15.0_global_b88dee7bdc.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.207.0.VNHMIXM": {
 					"os": "OS2.0.207.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "sapphiren_global-ota_full-OS2.0.207.0.VNHMIXM-user-15.0-9aae7d95a3.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.207.0.VNHMIXM_20251217.0000.00_15.0_global_e236c9fd78.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.207.0.VNHMIXM_20251217.0000.00_15.0_global_e236c9fd78.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VNHMIXM": {
 					"os": "OS2.0.206.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-11-10",
 					"recovery": "sapphiren_global-ota_full-OS2.0.206.0.VNHMIXM-user-15.0-cfd201b5dd.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.206.0.VNHMIXM_20251103.0000.00_15.0_global_ab8bdec2d9.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.206.0.VNHMIXM_20251103.0000.00_15.0_global_ab8bdec2d9.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VNHMIXM": {
 					"os": "OS2.0.205.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "sapphiren_global-ota_full-OS2.0.205.0.VNHMIXM-user-15.0-78c96be831.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.205.0.VNHMIXM_20251009.0000.00_15.0_global_13e660e3f1.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.205.0.VNHMIXM_20251009.0000.00_15.0_global_13e660e3f1.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VNHMIXM": {
 					"os": "OS2.0.204.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-09-24",
 					"recovery": "sapphiren_global-ota_full-OS2.0.204.0.VNHMIXM-user-15.0-cccf967c79.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.204.0.VNHMIXM_20250910.0000.00_15.0_global_376c340138.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.204.0.VNHMIXM_20250910.0000.00_15.0_global_376c340138.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VNHMIXM": {
 					"os": "OS2.0.202.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "sapphiren_global-ota_full-OS2.0.202.0.VNHMIXM-user-15.0-ee9d0d214e.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.202.0.VNHMIXM_20250813.0000.00_15.0_global_ef87207ecc.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.202.0.VNHMIXM_20250813.0000.00_15.0_global_ef87207ecc.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNHMIXM": {
 					"os": "OS2.0.201.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-07-22",
 					"recovery": "sapphiren_global-ota_full-OS2.0.201.0.VNHMIXM-user-15.0-e849542f7f.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.201.0.VNHMIXM_20250711.0000.00_15.0_global_56a6979d22.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.201.0.VNHMIXM_20250711.0000.00_15.0_global_56a6979d22.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.12.0.VNHMIXM": {
 					"os": "OS2.0.12.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-06-19",
 					"recovery": "sapphiren_global-ota_full-OS2.0.12.0.VNHMIXM-user-15.0-7cb29c30ad.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.12.0.VNHMIXM_20250527.0000.00_15.0_global_2138990fa9.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.12.0.VNHMIXM_20250527.0000.00_15.0_global_2138990fa9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.11.0.VNHMIXM": {
 					"os": "OS2.0.11.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "sapphiren_global-ota_full-OS2.0.11.0.VNHMIXM-user-15.0-e54857f0dd.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.11.0.VNHMIXM_20250430.0000.00_15.0_global_1307a30fc7.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.11.0.VNHMIXM_20250430.0000.00_15.0_global_1307a30fc7.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.10.0.VNHMIXM": {
 					"os": "OS2.0.10.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-04-17",
 					"recovery": "sapphiren_global-ota_full-OS2.0.10.0.VNHMIXM-user-15.0-c8cfd49355.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.10.0.VNHMIXM_20250401.0000.00_15.0_global_ec4822a49c.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.10.0.VNHMIXM_20250401.0000.00_15.0_global_ec4822a49c.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.9.0.VNHMIXM": {
 					"os": "OS2.0.9.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-03-07",
 					"recovery": "sapphiren_global-ota_full-OS2.0.9.0.VNHMIXM-user-15.0-c2516df1fd.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.9.0.VNHMIXM_20250219.0000.00_15.0_global_c1a2e19959.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.9.0.VNHMIXM_20250219.0000.00_15.0_global_c1a2e19959.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.7.0.VNHMIXM": {
 					"os": "OS2.0.7.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2025-02-06",
 					"recovery": "sapphiren_global-ota_full-OS2.0.7.0.VNHMIXM-user-15.0-ac0a4e7772.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.7.0.VNHMIXM_20250113.0000.00_15.0_global_c7348629db.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.7.0.VNHMIXM_20250113.0000.00_15.0_global_c7348629db.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.6.0.VNHMIXM": {
 					"os": "OS2.0.6.0.VNHMIXM",
 					"android": "15.0",
 					"release": "2024-12-23",
 					"recovery": "sapphiren_global-ota_full-OS2.0.6.0.VNHMIXM-user-15.0-f55cfcf226.zip",
-					"fastboot": "sapphiren_global_images_OS2.0.6.0.VNHMIXM_20241206.0000.00_15.0_global_66eadfec34.tgz"
+					"fastboot": "sapphiren_global_images_OS2.0.6.0.VNHMIXM_20241206.0000.00_15.0_global_66eadfec34.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UNHMIXM": {
 					"os": "OS1.0.9.0.UNHMIXM",
 					"android": "14.0",
 					"release": "2024-11-22",
 					"recovery": "miui_SAPPHIRENGlobal_OS1.0.9.0.UNHMIXM_aed6407a4c_14.0.zip",
-					"fastboot": "sapphiren_global_images_OS1.0.9.0.UNHMIXM_20241106.0000.00_14.0_global_35cfd1569f.tgz"
+					"fastboot": "sapphiren_global_images_OS1.0.9.0.UNHMIXM_20241106.0000.00_14.0_global_35cfd1569f.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UNHMIXM": {
 					"os": "OS1.0.8.0.UNHMIXM",
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_SAPPHIRENGlobal_OS1.0.8.0.UNHMIXM_c0632d4687_14.0.zip",
-					"fastboot": "sapphiren_global_images_OS1.0.8.0.UNHMIXM_20241011.0000.00_14.0_global_2a5466db90.tgz"
+					"fastboot": "sapphiren_global_images_OS1.0.8.0.UNHMIXM_20241011.0000.00_14.0_global_2a5466db90.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UNHMIXM": {
 					"os": "OS1.0.6.0.UNHMIXM",
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_SAPPHIRENGlobal_OS1.0.6.0.UNHMIXM_fa59d04aa5_14.0.zip",
-					"fastboot": "sapphiren_global_images_OS1.0.6.0.UNHMIXM_20240913.0000.00_14.0_global_4bb901949d.tgz"
+					"fastboot": "sapphiren_global_images_OS1.0.6.0.UNHMIXM_20240913.0000.00_14.0_global_4bb901949d.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UNHMIXM": {
 					"os": "OS1.0.5.0.UNHMIXM",
 					"android": "14.0",
 					"release": "2024-09-02",
 					"recovery": "miui_SAPPHIRENGlobal_OS1.0.5.0.UNHMIXM_116390d6dc_14.0.zip",
-					"fastboot": "sapphiren_global_images_OS1.0.5.0.UNHMIXM_20240809.0000.00_14.0_global_a2d3360c1d.tgz"
+					"fastboot": "sapphiren_global_images_OS1.0.5.0.UNHMIXM_20240809.0000.00_14.0_global_a2d3360c1d.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UNHMIXM": {
 					"os": "OS1.0.4.0.UNHMIXM",
 					"android": "14.0",
 					"release": "2024-07-28",
 					"recovery": "miui_SAPPHIRENGlobal_OS1.0.4.0.UNHMIXM_165d600fa8_14.0.zip",
-					"fastboot": "sapphiren_global_images_OS1.0.4.0.UNHMIXM_20240712.0000.00_14.0_global_72eff49650.tgz"
+					"fastboot": "sapphiren_global_images_OS1.0.4.0.UNHMIXM_20240712.0000.00_14.0_global_72eff49650.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UNHMIXM": {
 					"os": "OS1.0.3.0.UNHMIXM",
 					"android": "14.0",
 					"release": "2024-05-27",
 					"recovery": "miui_SAPPHIRENGlobal_OS1.0.3.0.UNHMIXM_00fbd10cb9_14.0.zip",
-					"fastboot": "sapphiren_global_images_OS1.0.3.0.UNHMIXM_20240515.0000.00_14.0_global_3da19d965e.tgz"
+					"fastboot": "sapphiren_global_images_OS1.0.3.0.UNHMIXM_20240515.0000.00_14.0_global_3da19d965e.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.UNHMIXM": {
 					"os": "OS1.0.2.0.UNHMIXM",
 					"android": "14.0",
 					"release": "2024-03-21",
 					"recovery": "miui_SAPPHIRENGlobal_OS1.0.2.0.UNHMIXM_5c2104f430_14.0.zip",
-					"fastboot": "sapphiren_global_images_OS1.0.2.0.UNHMIXM_20240316.0000.00_14.0_global_acb183f5f3.tgz"
+					"fastboot": "sapphiren_global_images_OS1.0.2.0.UNHMIXM_20240316.0000.00_14.0_global_acb183f5f3.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -384,6 +427,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -400,35 +444,40 @@
 					"android": "15.0",
 					"release": "2026-04-27",
 					"recovery": "sapphiren_dc_global-ota_full-OS2.0.204.0.VNHMIDC-user-15.0-70d5c82ee5.zip",
-					"fastboot": "sapphiren_dc_global_images_OS2.0.204.0.VNHMIDC_20251119.0000.00_15.0_global_dc_4f1594c10b.tgz"
+					"fastboot": "sapphiren_dc_global_images_OS2.0.204.0.VNHMIDC_20251119.0000.00_15.0_global_dc_4f1594c10b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.1.0.VNHMIDC": {
 					"os": "OS2.0.1.0.VNHMIDC",
 					"android": "15.0",
 					"release": "2025-03-25",
 					"recovery": "sapphiren_dc_global-ota_full-OS2.0.1.0.VNHMIDC-user-15.0-b47b8adc8a.zip",
-					"fastboot": "sapphiren_dc_global_images_OS2.0.1.0.VNHMIDC_20250303.0000.00_15.0_global_dc_ea228d6ea6.tgz"
+					"fastboot": "sapphiren_dc_global_images_OS2.0.1.0.VNHMIDC_20250303.0000.00_15.0_global_dc_ea228d6ea6.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.3.0.UNHMIDC": {
 					"os": "OS1.0.3.0.UNHMIDC",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_SAPPHIRENDCGlobal_OS1.0.3.0.UNHMIDC_c99441e067_14.0.zip",
-					"fastboot": "sapphiren_dc_global_images_OS1.0.3.0.UNHMIDC_20241014.0000.00_14.0_global_dc_472938e0f9.tgz"
+					"fastboot": "sapphiren_dc_global_images_OS1.0.3.0.UNHMIDC_20241014.0000.00_14.0_global_dc_472938e0f9.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.2.0.UNHMIDC": {
 					"os": "OS1.0.2.0.UNHMIDC",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_SAPPHIRENDCGlobal_OS1.0.2.0.UNHMIDC_c38d4f4e89_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.UNHMIDC": {
 					"os": "OS1.0.1.0.UNHMIDC",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_SAPPHIRENDCGlobal_OS1.0.1.0.UNHMIDC_1645fd878d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -450,6 +499,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -466,175 +516,200 @@
 					"android": "15.0",
 					"release": "2026-04-03",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.212.0.VNHEUXM-user-15.0-aa42895566.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.212.0.VNHEUXM_20260320.0000.00_15.0_eea_22604527d2.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.212.0.VNHEUXM_20260320.0000.00_15.0_eea_22604527d2.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.211.0.VNHEUXM": {
 					"os": "OS2.0.211.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2026-02-06",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.211.0.VNHEUXM-user-15.0-5fe03ee8aa.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.211.0.VNHEUXM_20260130.0000.00_15.0_eea_739cc39175.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.211.0.VNHEUXM_20260130.0000.00_15.0_eea_739cc39175.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.210.0.VNHEUXM": {
 					"os": "OS2.0.210.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.210.0.VNHEUXM-user-15.0-f6d3976ac5.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.210.0.VNHEUXM_20251224.0000.00_15.0_eea_4d4ac14fe7.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.210.0.VNHEUXM_20251224.0000.00_15.0_eea_4d4ac14fe7.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.209.0.VNHEUXM": {
 					"os": "OS2.0.209.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2026-01-05",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.209.0.VNHEUXM-user-15.0-4cf9315859.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.209.0.VNHEUXM_20251222.0000.00_15.0_eea_37cfaac443.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.209.0.VNHEUXM_20251222.0000.00_15.0_eea_37cfaac443.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.208.0.VNHEUXM": {
 					"os": "OS2.0.208.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.208.0.VNHEUXM-user-15.0-8b82f3c4a6.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.208.0.VNHEUXM_20251217.0000.00_15.0_eea_6f55f10f04.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.208.0.VNHEUXM_20251217.0000.00_15.0_eea_6f55f10f04.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VNHEUXM": {
 					"os": "OS2.0.207.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.207.0.VNHEUXM-user-15.0-44e1f25576.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.207.0.VNHEUXM_20251107.0000.00_15.0_eea_4f43298236.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.207.0.VNHEUXM_20251107.0000.00_15.0_eea_4f43298236.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VNHEUXM": {
 					"os": "OS2.0.205.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.205.0.VNHEUXM-user-15.0-e35017afd0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.205.0.VNHEUXM_20251015.0000.00_15.0_eea_69c1ebc558.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.205.0.VNHEUXM_20251015.0000.00_15.0_eea_69c1ebc558.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VNHEUXM": {
 					"os": "OS2.0.204.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.204.0.VNHEUXM-user-15.0-098dd52f6f.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.204.0.VNHEUXM_20250910.0000.00_15.0_eea_943d2e750e.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.204.0.VNHEUXM_20250910.0000.00_15.0_eea_943d2e750e.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VNHEUXM": {
 					"os": "OS2.0.203.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.203.0.VNHEUXM-user-15.0-bae2a2635c.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.203.0.VNHEUXM_20250813.0000.00_15.0_eea_bfe3ad9f3f.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.203.0.VNHEUXM_20250813.0000.00_15.0_eea_bfe3ad9f3f.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VNHEUXM": {
 					"os": "OS2.0.202.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-07-11",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.202.0.VNHEUXM-user-15.0-30d1aa8935.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.202.0.VNHEUXM_20250703.0000.00_15.0_eea_04ff5df161.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.202.0.VNHEUXM_20250703.0000.00_15.0_eea_04ff5df161.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.201.0.VNHEUXM": {
 					"os": "OS2.0.201.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.201.0.VNHEUXM-user-15.0-be67e9a9f8.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.201.0.VNHEUXM_20250610.0000.00_15.0_eea_6e1af47962.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.201.0.VNHEUXM_20250610.0000.00_15.0_eea_6e1af47962.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.7.0.VNHEUXM": {
 					"os": "OS2.0.7.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.7.0.VNHEUXM-user-15.0-e6e3042c21.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.7.0.VNHEUXM_20250430.0000.00_15.0_eea_7cd95d2d24.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.7.0.VNHEUXM_20250430.0000.00_15.0_eea_7cd95d2d24.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.6.0.VNHEUXM": {
 					"os": "OS2.0.6.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.6.0.VNHEUXM-user-15.0-45fcc6748b.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.6.0.VNHEUXM_20250317.0000.00_15.0_eea_68d29f5c2b.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.6.0.VNHEUXM_20250317.0000.00_15.0_eea_68d29f5c2b.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.4.0.VNHEUXM": {
 					"os": "OS2.0.4.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-03-07",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.4.0.VNHEUXM-user-15.0-e84f6478aa.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.4.0.VNHEUXM_20250219.0000.00_15.0_eea_c89cb0dd6b.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.4.0.VNHEUXM_20250219.0000.00_15.0_eea_c89cb0dd6b.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VNHEUXM": {
 					"os": "OS2.0.3.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-02-08",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.3.0.VNHEUXM-user-15.0-8ffc3b8d9d.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.3.0.VNHEUXM_20250109.0000.00_15.0_eea_830cd7bcef.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.3.0.VNHEUXM_20250109.0000.00_15.0_eea_830cd7bcef.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VNHEUXM": {
 					"os": "OS2.0.2.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.2.0.VNHEUXM-user-15.0-48ea1b534a.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.2.0.VNHEUXM_20250107.0000.00_15.0_eea_a40a1e3e94.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.2.0.VNHEUXM_20250107.0000.00_15.0_eea_a40a1e3e94.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.0.VNHEUXM": {
 					"os": "OS2.0.1.0.VNHEUXM",
 					"android": "15.0",
 					"release": "2024-12-16",
 					"recovery": "sapphiren_eea_global-ota_full-OS2.0.1.0.VNHEUXM-user-15.0-7748d00071.zip",
-					"fastboot": "sapphiren_eea_global_images_OS2.0.1.0.VNHEUXM_20241130.0000.00_15.0_eea_8a21f5d1d4.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS2.0.1.0.VNHEUXM_20241130.0000.00_15.0_eea_8a21f5d1d4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UNHEUXM": {
 					"os": "OS1.0.9.0.UNHEUXM",
 					"android": "14.0",
 					"release": "2024-12-09",
 					"recovery": "miui_SAPPHIRENEEAGlobal_OS1.0.9.0.UNHEUXM_dcd26bdc36_14.0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS1.0.9.0.UNHEUXM_20241121.0000.00_14.0_eea_1d1a6a1ceb.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS1.0.9.0.UNHEUXM_20241121.0000.00_14.0_eea_1d1a6a1ceb.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UNHEUXM": {
 					"os": "OS1.0.7.0.UNHEUXM",
 					"android": "14.0",
 					"release": "2024-11-09",
 					"recovery": "miui_SAPPHIRENEEAGlobal_OS1.0.7.0.UNHEUXM_ad66423c2b_14.0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS1.0.7.0.UNHEUXM_20241022.0000.00_14.0_eea_4384bb2cd8.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS1.0.7.0.UNHEUXM_20241022.0000.00_14.0_eea_4384bb2cd8.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UNHEUXM": {
 					"os": "OS1.0.6.0.UNHEUXM",
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_SAPPHIRENEEAGlobal_OS1.0.6.0.UNHEUXM_7e20d781fa_14.0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS1.0.6.0.UNHEUXM_20240913.0000.00_14.0_eea_ca2b7a01a5.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS1.0.6.0.UNHEUXM_20240913.0000.00_14.0_eea_ca2b7a01a5.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UNHEUXM": {
 					"os": "OS1.0.5.0.UNHEUXM",
 					"android": "14.0",
 					"release": "2024-08-24",
 					"recovery": "miui_SAPPHIRENEEAGlobal_OS1.0.5.0.UNHEUXM_aad01d8884_14.0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS1.0.5.0.UNHEUXM_20240814.0000.00_14.0_eea_3185b5fbb8.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS1.0.5.0.UNHEUXM_20240814.0000.00_14.0_eea_3185b5fbb8.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UNHEUXM": {
 					"os": "OS1.0.4.0.UNHEUXM",
 					"android": "14.0",
 					"release": "2024-08-08",
 					"recovery": "miui_SAPPHIRENEEAGlobal_OS1.0.4.0.UNHEUXM_fe0e363b03_14.0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS1.0.4.0.UNHEUXM_20240717.0000.00_14.0_eea_e7825a8fc2.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS1.0.4.0.UNHEUXM_20240717.0000.00_14.0_eea_e7825a8fc2.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UNHEUXM": {
 					"os": "OS1.0.3.0.UNHEUXM",
 					"android": "14.0",
 					"release": "2024-07-19",
 					"recovery": "miui_SAPPHIRENEEAGlobal_OS1.0.3.0.UNHEUXM_a5a82b7948_14.0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS1.0.3.0.UNHEUXM_20240614.0000.00_14.0_eea_d79edf571e.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS1.0.3.0.UNHEUXM_20240614.0000.00_14.0_eea_d79edf571e.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UNHEUXM": {
 					"os": "OS1.0.2.0.UNHEUXM",
 					"android": "14.0",
 					"release": "2024-05-28",
 					"recovery": "miui_SAPPHIRENEEAGlobal_OS1.0.2.0.UNHEUXM_e5806849b0_14.0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS1.0.2.0.UNHEUXM_20240515.0000.00_14.0_eea_0938c1bd4b.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS1.0.2.0.UNHEUXM_20240515.0000.00_14.0_eea_0938c1bd4b.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UNHEUXM": {
 					"os": "OS1.0.1.0.UNHEUXM",
 					"android": "14.0",
 					"release": "2024-04-12",
 					"recovery": "miui_SAPPHIRENEEAGlobal_OS1.0.1.0.UNHEUXM_3e12bdc8b2_14.0.zip",
-					"fastboot": "sapphiren_eea_global_images_OS1.0.1.0.UNHEUXM_20240403.0000.00_14.0_eea_2250d7e6ee.tgz"
+					"fastboot": "sapphiren_eea_global_images_OS1.0.1.0.UNHEUXM_20240403.0000.00_14.0_eea_2250d7e6ee.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -656,6 +731,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -672,140 +748,160 @@
 					"android": "15.0",
 					"release": "2026-04-22",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.212.0.VNHRUXM-user-15.0-5a78447d13.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.212.0.VNHRUXM_20260412.0000.00_15.0_ru_f2fe5757a0.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.212.0.VNHRUXM_20260412.0000.00_15.0_ru_f2fe5757a0.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.211.0.VNHRUXM": {
 					"os": "OS2.0.211.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.211.0.VNHRUXM-user-15.0-21d3e069f9.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.211.0.VNHRUXM_20260130.0000.00_15.0_ru_56360e59cd.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.211.0.VNHRUXM_20260130.0000.00_15.0_ru_56360e59cd.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.210.0.VNHRUXM": {
 					"os": "OS2.0.210.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.210.0.VNHRUXM-user-15.0-5b7d89218b.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.210.0.VNHRUXM_20251215.0000.00_15.0_ru_f30673ef4d.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.210.0.VNHRUXM_20251215.0000.00_15.0_ru_f30673ef4d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.209.0.VNHRUXM": {
 					"os": "OS2.0.209.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.209.0.VNHRUXM-user-15.0-ee04afefa0.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.209.0.VNHRUXM_20251107.0000.00_15.0_ru_8fa811bc8c.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.209.0.VNHRUXM_20251107.0000.00_15.0_ru_8fa811bc8c.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VNHRUXM": {
 					"os": "OS2.0.207.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.207.0.VNHRUXM-user-15.0-31e0e9eae5.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.207.0.VNHRUXM_20251013.0000.00_15.0_ru_3c5677d8c7.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.207.0.VNHRUXM_20251013.0000.00_15.0_ru_3c5677d8c7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VNHRUXM": {
 					"os": "OS2.0.206.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-09-24",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.206.0.VNHRUXM-user-15.0-1665528479.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.206.0.VNHRUXM_20250910.0000.00_15.0_ru_efe6e33f90.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.206.0.VNHRUXM_20250910.0000.00_15.0_ru_efe6e33f90.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.205.0.VNHRUXM": {
 					"os": "OS2.0.205.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.205.0.VNHRUXM-user-15.0-1e72b769b5.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.205.0.VNHRUXM_20250813.0000.00_15.0_ru_aff5a02e39.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.205.0.VNHRUXM_20250813.0000.00_15.0_ru_aff5a02e39.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNHRUXM": {
 					"os": "OS2.0.201.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.201.0.VNHRUXM-user-15.0-de7b88a7dd.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.201.0.VNHRUXM_20250714.0000.00_15.0_ru_789d8cb838.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.201.0.VNHRUXM_20250714.0000.00_15.0_ru_789d8cb838.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.9.0.VNHRUXM": {
 					"os": "OS2.0.9.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-06-19",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.9.0.VNHRUXM-user-15.0-7de673f57a.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.9.0.VNHRUXM_20250527.0000.00_15.0_ru_f6181b08f2.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.9.0.VNHRUXM_20250527.0000.00_15.0_ru_f6181b08f2.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.8.0.VNHRUXM": {
 					"os": "OS2.0.8.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.8.0.VNHRUXM-user-15.0-4f7173c01a.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.8.0.VNHRUXM_20250430.0000.00_15.0_ru_e9d7763d88.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.8.0.VNHRUXM_20250430.0000.00_15.0_ru_e9d7763d88.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.7.0.VNHRUXM": {
 					"os": "OS2.0.7.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-04-10",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.7.0.VNHRUXM-user-15.0-0dddb5b9bb.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.7.0.VNHRUXM_20250325.0000.00_15.0_ru_5598499489.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.7.0.VNHRUXM_20250325.0000.00_15.0_ru_5598499489.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.6.0.VNHRUXM": {
 					"os": "OS2.0.6.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-02-25",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.6.0.VNHRUXM-user-15.0-3e3a623cb8.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.6.0.VNHRUXM_20250217.0000.00_15.0_ru_8b68c22f9d.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.6.0.VNHRUXM_20250217.0000.00_15.0_ru_8b68c22f9d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.5.0.VNHRUXM": {
 					"os": "OS2.0.5.0.VNHRUXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "sapphiren_ru_global-ota_full-OS2.0.5.0.VNHRUXM-user-15.0-4c4d3f13ff.zip",
-					"fastboot": "sapphiren_ru_global_images_OS2.0.5.0.VNHRUXM_20250108.0000.00_15.0_ru_8215ad92e8.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS2.0.5.0.VNHRUXM_20250108.0000.00_15.0_ru_8215ad92e8.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.UNHRUXM": {
 					"os": "OS1.0.8.0.UNHRUXM",
 					"android": "14.0",
 					"release": "2024-12-06",
 					"recovery": "miui_SAPPHIRENRUGlobal_OS1.0.8.0.UNHRUXM_880e4597e3_14.0.zip",
-					"fastboot": "sapphiren_ru_global_images_OS1.0.8.0.UNHRUXM_20241126.0000.00_14.0_ru_9761731a88.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS1.0.8.0.UNHRUXM_20241126.0000.00_14.0_ru_9761731a88.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UNHRUXM": {
 					"os": "OS1.0.7.0.UNHRUXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_SAPPHIRENRUGlobal_OS1.0.7.0.UNHRUXM_651e161b3d_14.0.zip",
-					"fastboot": "sapphiren_ru_global_images_OS1.0.7.0.UNHRUXM_20241022.0000.00_14.0_ru_f9f7da11c5.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS1.0.7.0.UNHRUXM_20241022.0000.00_14.0_ru_f9f7da11c5.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UNHRUXM": {
 					"os": "OS1.0.6.0.UNHRUXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_SAPPHIRENRUGlobal_OS1.0.6.0.UNHRUXM_4c2a4be845_14.0.zip",
-					"fastboot": "sapphiren_ru_global_images_OS1.0.6.0.UNHRUXM_20240910.0000.00_14.0_ru_cfacc43c0e.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS1.0.6.0.UNHRUXM_20240910.0000.00_14.0_ru_cfacc43c0e.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UNHRUXM": {
 					"os": "OS1.0.4.0.UNHRUXM",
 					"android": "14.0",
 					"release": "2024-08-23",
 					"recovery": "miui_SAPPHIRENRUGlobal_OS1.0.4.0.UNHRUXM_8f3580033c_14.0.zip",
-					"fastboot": "sapphiren_ru_global_images_OS1.0.4.0.UNHRUXM_20240807.0000.00_14.0_ru_089f0aa715.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS1.0.4.0.UNHRUXM_20240807.0000.00_14.0_ru_089f0aa715.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UNHRUXM": {
 					"os": "OS1.0.3.0.UNHRUXM",
 					"android": "14.0",
 					"release": "2024-07-22",
 					"recovery": "miui_SAPPHIRENRUGlobal_OS1.0.3.0.UNHRUXM_d295f2f94c_14.0.zip",
-					"fastboot": "sapphiren_ru_global_images_OS1.0.3.0.UNHRUXM_20240705.0000.00_14.0_ru_94ad7ac668.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS1.0.3.0.UNHRUXM_20240705.0000.00_14.0_ru_94ad7ac668.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UNHRUXM": {
 					"os": "OS1.0.2.0.UNHRUXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_SAPPHIRENRUGlobal_OS1.0.2.0.UNHRUXM_1e3350df68_14.0.zip",
-					"fastboot": "sapphiren_ru_global_images_OS1.0.2.0.UNHRUXM_20240521.0000.00_14.0_ru_e1160d2587.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS1.0.2.0.UNHRUXM_20240521.0000.00_14.0_ru_e1160d2587.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UNHRUXM": {
 					"os": "OS1.0.1.0.UNHRUXM",
 					"android": "14.0",
 					"release": "2024-05-09",
 					"recovery": "miui_SAPPHIRENRUGlobal_OS1.0.1.0.UNHRUXM_988a587097_14.0.zip",
-					"fastboot": "sapphiren_ru_global_images_OS1.0.1.0.UNHRUXM_20240419.0000.00_14.0_ru_e69e5e90c8.tgz"
+					"fastboot": "sapphiren_ru_global_images_OS1.0.1.0.UNHRUXM_20240419.0000.00_14.0_ru_e69e5e90c8.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -827,6 +923,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -843,154 +940,176 @@
 					"android": "15.0",
 					"release": "2026-04-22",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.210.0.VNHIDXM-user-15.0-48386ff916.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.210.0.VNHIDXM_20260412.0000.00_15.0_id_604a92f5e0.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.210.0.VNHIDXM_20260412.0000.00_15.0_id_604a92f5e0.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.209.0.VNHIDXM": {
 					"os": "OS2.0.209.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2026-02-23",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.209.0.VNHIDXM-user-15.0-a24188164a.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.209.0.VNHIDXM_20260130.0000.00_15.0_id_425d91a17e.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.209.0.VNHIDXM_20260130.0000.00_15.0_id_425d91a17e.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.208.0.VNHIDXM": {
 					"os": "OS2.0.208.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.208.0.VNHIDXM-user-15.0-a464acef6f.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.208.0.VNHIDXM_20251215.0000.00_15.0_id_ac19f733db.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.208.0.VNHIDXM_20251215.0000.00_15.0_id_ac19f733db.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VNHIDXM": {
 					"os": "OS2.0.207.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.207.0.VNHIDXM-user-15.0-3dd35d0654.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.207.0.VNHIDXM_20251107.0000.00_15.0_id_b883293850.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.207.0.VNHIDXM_20251107.0000.00_15.0_id_b883293850.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VNHIDXM": {
 					"os": "OS2.0.205.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.205.0.VNHIDXM-user-15.0-f93d220d8f.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.205.0.VNHIDXM_20251013.0000.00_15.0_id_c45e2c2ffa.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.205.0.VNHIDXM_20251013.0000.00_15.0_id_c45e2c2ffa.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VNHIDXM": {
 					"os": "OS2.0.204.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.204.0.VNHIDXM-user-15.0-15a7438132.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.204.0.VNHIDXM_20250910.0000.00_15.0_id_339e30a622.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.204.0.VNHIDXM_20250910.0000.00_15.0_id_339e30a622.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VNHIDXM": {
 					"os": "OS2.0.202.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.202.0.VNHIDXM-user-15.0-62ca18e34d.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.202.0.VNHIDXM_20250813.0000.00_15.0_id_55b803e03d.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.202.0.VNHIDXM_20250813.0000.00_15.0_id_55b803e03d.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNHIDXM": {
 					"os": "OS2.0.201.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-07-24",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.201.0.VNHIDXM-user-15.0-a3c34bfa20.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.201.0.VNHIDXM_20250714.0000.00_15.0_id_c550429a28.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.201.0.VNHIDXM_20250714.0000.00_15.0_id_c550429a28.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.6.0.VNHIDXM": {
 					"os": "OS2.0.6.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-06-19",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.6.0.VNHIDXM-user-15.0-ae99ebfbaf.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.6.0.VNHIDXM_20250527.0000.00_15.0_id_c5ed5279c5.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.6.0.VNHIDXM_20250527.0000.00_15.0_id_c5ed5279c5.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.5.0.VNHIDXM": {
 					"os": "OS2.0.5.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.5.0.VNHIDXM-user-15.0-0062d7e291.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.5.0.VNHIDXM_20250430.0000.00_15.0_id_fd1f183552.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.5.0.VNHIDXM_20250430.0000.00_15.0_id_fd1f183552.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.4.0.VNHIDXM": {
 					"os": "OS2.0.4.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.4.0.VNHIDXM-user-15.0-1995b45d8e.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.4.0.VNHIDXM_20250325.0000.00_15.0_id_18b0b9ab0a.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.4.0.VNHIDXM_20250325.0000.00_15.0_id_18b0b9ab0a.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.3.0.VNHIDXM": {
 					"os": "OS2.0.3.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-02-28",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.3.0.VNHIDXM-user-15.0-203734b641.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.3.0.VNHIDXM_20250217.0000.00_15.0_id_0bd3123cb4.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.3.0.VNHIDXM_20250217.0000.00_15.0_id_0bd3123cb4.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.VNHIDXM": {
 					"os": "OS2.0.2.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2025-01-13",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.2.0.VNHIDXM-user-15.0-9b621782b5.zip",
-					"fastboot": "sapphiren_id_global_images_OS2.0.2.0.VNHIDXM_20250102.0000.00_15.0_id_d33deb248b.tgz"
+					"fastboot": "sapphiren_id_global_images_OS2.0.2.0.VNHIDXM_20250102.0000.00_15.0_id_d33deb248b.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.0.VNHIDXM": {
 					"os": "OS2.0.1.0.VNHIDXM",
 					"android": "15.0",
 					"release": "2024-12-23",
 					"recovery": "sapphiren_id_global-ota_full-OS2.0.1.0.VNHIDXM-user-15.0-4a792cf170.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UNHIDXM": {
 					"os": "OS1.0.8.0.UNHIDXM",
 					"android": "14.0",
 					"release": "2024-12-07",
 					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.8.0.UNHIDXM_3cb235a78b_14.0.zip",
-					"fastboot": "sapphiren_id_global_images_OS1.0.8.0.UNHIDXM_20241126.0000.00_14.0_id_45a4a05ca8.tgz"
+					"fastboot": "sapphiren_id_global_images_OS1.0.8.0.UNHIDXM_20241126.0000.00_14.0_id_45a4a05ca8.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UNHIDXM": {
 					"os": "OS1.0.7.0.UNHIDXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.7.0.UNHIDXM_dbeab77f0f_14.0.zip",
-					"fastboot": "sapphiren_id_global_images_OS1.0.7.0.UNHIDXM_20241016.0000.00_14.0_id_796c90550d.tgz"
+					"fastboot": "sapphiren_id_global_images_OS1.0.7.0.UNHIDXM_20241016.0000.00_14.0_id_796c90550d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UNHIDXM": {
 					"os": "OS1.0.6.0.UNHIDXM",
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.6.0.UNHIDXM_e904488c9e_14.0.zip",
-					"fastboot": "sapphiren_id_global_images_OS1.0.6.0.UNHIDXM_20240913.0000.00_14.0_id_27fa026bbd.tgz"
+					"fastboot": "sapphiren_id_global_images_OS1.0.6.0.UNHIDXM_20240913.0000.00_14.0_id_27fa026bbd.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UNHIDXM": {
 					"os": "OS1.0.5.0.UNHIDXM",
 					"android": "14.0",
 					"release": "2024-09-02",
 					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.5.0.UNHIDXM_2f8dcb34ba_14.0.zip",
-					"fastboot": "sapphiren_id_global_images_OS1.0.5.0.UNHIDXM_20240812.0000.00_14.0_id_a257537217.tgz"
+					"fastboot": "sapphiren_id_global_images_OS1.0.5.0.UNHIDXM_20240812.0000.00_14.0_id_a257537217.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UNHIDXM": {
 					"os": "OS1.0.4.0.UNHIDXM",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.4.0.UNHIDXM_cd72497059_14.0.zip",
-					"fastboot": "sapphiren_id_global_images_OS1.0.4.0.UNHIDXM_20240712.0000.00_14.0_id_53b0002a6e.tgz"
+					"fastboot": "sapphiren_id_global_images_OS1.0.4.0.UNHIDXM_20240712.0000.00_14.0_id_53b0002a6e.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.UNHIDXM": {
 					"os": "OS1.0.3.0.UNHIDXM",
 					"android": "14.0",
 					"release": "2024-06-20",
 					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.3.0.UNHIDXM_35cb6aed68_14.0.zip",
-					"fastboot": "sapphiren_id_global_images_OS1.0.3.0.UNHIDXM_20240524.0000.00_14.0_id_c8fca53eba.tgz"
+					"fastboot": "sapphiren_id_global_images_OS1.0.3.0.UNHIDXM_20240524.0000.00_14.0_id_c8fca53eba.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.UNHIDXM": {
 					"os": "OS1.0.2.0.UNHIDXM",
 					"android": "14.0",
 					"release": "2024-05-17",
 					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.2.0.UNHIDXM_3439d661d1_14.0.zip",
-					"fastboot": "sapphiren_id_global_images_OS1.0.2.0.UNHIDXM_20240504.0000.00_14.0_id_b2b7aafc37.tgz"
+					"fastboot": "sapphiren_id_global_images_OS1.0.2.0.UNHIDXM_20240504.0000.00_14.0_id_b2b7aafc37.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UNHIDXM": {
 					"os": "OS1.0.1.0.UNHIDXM",
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_SAPPHIRENIDGlobal_OS1.0.1.0.UNHIDXM_2a97c1cdad_14.0.zip",
-					"fastboot": "sapphiren_id_global_images_OS1.0.1.0.UNHIDXM_20240419.0000.00_14.0_id_6146fce60d.tgz"
+					"fastboot": "sapphiren_id_global_images_OS1.0.1.0.UNHIDXM_20240419.0000.00_14.0_id_6146fce60d.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -1012,6 +1131,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1028,140 +1148,160 @@
 					"android": "15.0",
 					"release": "2026-04-22",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.210.0.VNHTRXM-user-15.0-0140ee8e58.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.210.0.VNHTRXM_20260412.0000.00_15.0_tr_67d852aaf0.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.210.0.VNHTRXM_20260412.0000.00_15.0_tr_67d852aaf0.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.209.0.VNHTRXM": {
 					"os": "OS2.0.209.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2026-02-07",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.209.0.VNHTRXM-user-15.0-e91214478e.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.209.0.VNHTRXM_20260130.0000.00_15.0_tr_6df717bfcc.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.209.0.VNHTRXM_20260130.0000.00_15.0_tr_6df717bfcc.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.208.0.VNHTRXM": {
 					"os": "OS2.0.208.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-12-22",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.208.0.VNHTRXM-user-15.0-ed8d6d00da.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.208.0.VNHTRXM_20251210.0000.00_15.0_tr_3cf8fe63bc.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.208.0.VNHTRXM_20251210.0000.00_15.0_tr_3cf8fe63bc.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VNHTRXM": {
 					"os": "OS2.0.207.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.207.0.VNHTRXM-user-15.0-cdb60158be.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.207.0.VNHTRXM_20251107.0000.00_15.0_tr_00a54acfac.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.207.0.VNHTRXM_20251107.0000.00_15.0_tr_00a54acfac.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VNHTRXM": {
 					"os": "OS2.0.205.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.205.0.VNHTRXM-user-15.0-f3aeb22710.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.205.0.VNHTRXM_20251013.0000.00_15.0_tr_c05c667673.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.205.0.VNHTRXM_20251013.0000.00_15.0_tr_c05c667673.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VNHTRXM": {
 					"os": "OS2.0.204.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-09-24",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.204.0.VNHTRXM-user-15.0-6de4559fae.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.204.0.VNHTRXM_20250910.0000.00_15.0_tr_fca8518d07.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.204.0.VNHTRXM_20250910.0000.00_15.0_tr_fca8518d07.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VNHTRXM": {
 					"os": "OS2.0.202.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-08-24",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.202.0.VNHTRXM-user-15.0-ccff2f8a0f.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.202.0.VNHTRXM_20250813.0000.00_15.0_tr_93e2c23574.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.202.0.VNHTRXM_20250813.0000.00_15.0_tr_93e2c23574.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNHTRXM": {
 					"os": "OS2.0.201.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-07-25",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.201.0.VNHTRXM-user-15.0-378f285deb.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.201.0.VNHTRXM_20250714.0000.00_15.0_tr_e036866dbc.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.201.0.VNHTRXM_20250714.0000.00_15.0_tr_e036866dbc.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.8.0.VNHTRXM": {
 					"os": "OS2.0.8.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-06-19",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.8.0.VNHTRXM-user-15.0-2e7e196568.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.8.0.VNHTRXM_20250527.0000.00_15.0_tr_933b14d577.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.8.0.VNHTRXM_20250527.0000.00_15.0_tr_933b14d577.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.7.0.VNHTRXM": {
 					"os": "OS2.0.7.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.7.0.VNHTRXM-user-15.0-28a0116d12.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.7.0.VNHTRXM_20250430.0000.00_15.0_tr_4a8a68fd99.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.7.0.VNHTRXM_20250430.0000.00_15.0_tr_4a8a68fd99.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.6.0.VNHTRXM": {
 					"os": "OS2.0.6.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-04-11",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.6.0.VNHTRXM-user-15.0-c0b1d94288.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.6.0.VNHTRXM_20250325.0000.00_15.0_tr_4b1e484a08.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.6.0.VNHTRXM_20250325.0000.00_15.0_tr_4b1e484a08.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.5.0.VNHTRXM": {
 					"os": "OS2.0.5.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-03-07",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.5.0.VNHTRXM-user-15.0-0c31ae9ef7.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.5.0.VNHTRXM_20250221.0000.00_15.0_tr_b3f4470467.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.5.0.VNHTRXM_20250221.0000.00_15.0_tr_b3f4470467.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.4.0.VNHTRXM": {
 					"os": "OS2.0.4.0.VNHTRXM",
 					"android": "15.0",
 					"release": "2025-02-06",
 					"recovery": "sapphiren_tr_global-ota_full-OS2.0.4.0.VNHTRXM-user-15.0-81d3054005.zip",
-					"fastboot": "sapphiren_tr_global_images_OS2.0.4.0.VNHTRXM_20250114.0000.00_15.0_tr_92e03355ab.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS2.0.4.0.VNHTRXM_20250114.0000.00_15.0_tr_92e03355ab.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.UNHTRXM": {
 					"os": "OS1.0.8.0.UNHTRXM",
 					"android": "14.0",
 					"release": "2024-12-07",
 					"recovery": "miui_SAPPHIRENTRGlobal_OS1.0.8.0.UNHTRXM_5458858cda_14.0.zip",
-					"fastboot": "sapphiren_tr_global_images_OS1.0.8.0.UNHTRXM_20241126.0000.00_14.0_tr_e1cb3155c4.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS1.0.8.0.UNHTRXM_20241126.0000.00_14.0_tr_e1cb3155c4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UNHTRXM": {
 					"os": "OS1.0.7.0.UNHTRXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_SAPPHIRENTRGlobal_OS1.0.7.0.UNHTRXM_1b3fe5a227_14.0.zip",
-					"fastboot": "sapphiren_tr_global_images_OS1.0.7.0.UNHTRXM_20241022.0000.00_14.0_tr_05bbee1a1a.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS1.0.7.0.UNHTRXM_20241022.0000.00_14.0_tr_05bbee1a1a.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UNHTRXM": {
 					"os": "OS1.0.6.0.UNHTRXM",
 					"android": "14.0",
 					"release": "2024-10-07",
 					"recovery": "miui_SAPPHIRENTRGlobal_OS1.0.6.0.UNHTRXM_0bb156fb1c_14.0.zip",
-					"fastboot": "sapphiren_tr_global_images_OS1.0.6.0.UNHTRXM_20240919.0000.00_14.0_tr_d6f3ff4ec4.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS1.0.6.0.UNHTRXM_20240919.0000.00_14.0_tr_d6f3ff4ec4.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UNHTRXM": {
 					"os": "OS1.0.5.0.UNHTRXM",
 					"android": "14.0",
 					"release": "2024-09-03",
 					"recovery": "miui_SAPPHIRENTRGlobal_OS1.0.5.0.UNHTRXM_55c6850f16_14.0.zip",
-					"fastboot": "sapphiren_tr_global_images_OS1.0.5.0.UNHTRXM_20240820.0000.00_14.0_tr_8dff1ec13b.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS1.0.5.0.UNHTRXM_20240820.0000.00_14.0_tr_8dff1ec13b.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UNHTRXM": {
 					"os": "OS1.0.4.0.UNHTRXM",
 					"android": "14.0",
 					"release": "2024-08-15",
 					"recovery": "miui_SAPPHIRENTRGlobal_OS1.0.4.0.UNHTRXM_aa87070770_14.0.zip",
-					"fastboot": "sapphiren_tr_global_images_OS1.0.4.0.UNHTRXM_20240719.0000.00_14.0_tr_9ea7bd1fa5.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS1.0.4.0.UNHTRXM_20240719.0000.00_14.0_tr_9ea7bd1fa5.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UNHTRXM": {
 					"os": "OS1.0.3.0.UNHTRXM",
 					"android": "14.0",
 					"release": "2024-07-02",
 					"recovery": "miui_SAPPHIRENTRGlobal_OS1.0.3.0.UNHTRXM_b0f0a299ca_14.0.zip",
-					"fastboot": "sapphiren_tr_global_images_OS1.0.3.0.UNHTRXM_20240611.0000.00_14.0_tr_b1f1aed941.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS1.0.3.0.UNHTRXM_20240611.0000.00_14.0_tr_b1f1aed941.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.UNHTRXM": {
 					"os": "OS1.0.1.0.UNHTRXM",
 					"android": "14.0",
 					"release": "2024-05-20",
 					"recovery": "miui_SAPPHIRENTRGlobal_OS1.0.1.0.UNHTRXM_928b63fcda_14.0.zip",
-					"fastboot": "sapphiren_tr_global_images_OS1.0.1.0.UNHTRXM_20240508.0000.00_14.0_tr_3c314f272b.tgz"
+					"fastboot": "sapphiren_tr_global_images_OS1.0.1.0.UNHTRXM_20240508.0000.00_14.0_tr_3c314f272b.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		}

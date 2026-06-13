@@ -38,6 +38,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -57,7 +58,8 @@
 					"android": "15.0",
 					"release": "2024-12-06",
 					"recovery": "corot-ota_full-OS2.0.0.32.VMLCNXM-user-15.0-b8037f8579.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -79,6 +81,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -100,7 +103,8 @@
 					"release": "2026-04-22",
 					"recovery": "corot-ota_full-OS3.0.302.0.WMLCNXM-user-16.0-d651215e33.zip",
 					"fastboot": "corot_images_OS3.0.302.0.WMLCNXM_20260416.0000.00_16.0_cn_bc345503c4.tgz",
-					"ctelecom": "corot_images_OS3.0.302.0.WMLCNXM_20260416.0000.00_16.0_cn_chinatelecom_7314b877aa.tgz"
+					"ctelecom": "corot_images_OS3.0.302.0.WMLCNXM_20260416.0000.00_16.0_cn_chinatelecom_7314b877aa.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WMLCNXM": {
 					"os": "OS3.0.4.0.WMLCNXM",
@@ -108,7 +112,8 @@
 					"release": "2026-02-09",
 					"recovery": "corot-ota_full-OS3.0.4.0.WMLCNXM-user-16.0-a21a878b6b.zip",
 					"fastboot": "corot_images_OS3.0.4.0.WMLCNXM_20260129.0000.00_16.0_cn_2f1f089dc2.tgz",
-					"ctelecom": "corot_images_OS3.0.4.0.WMLCNXM_20260129.0000.00_16.0_cn_chinatelecom_d4b1a07ce4.tgz"
+					"ctelecom": "corot_images_OS3.0.4.0.WMLCNXM_20260129.0000.00_16.0_cn_chinatelecom_d4b1a07ce4.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.3.0.WMLCNXM": {
 					"os": "OS3.0.3.0.WMLCNXM",
@@ -116,7 +121,8 @@
 					"release": "2025-12-28",
 					"recovery": "corot-ota_full-OS3.0.3.0.WMLCNXM-user-16.0-0c145b73d2.zip",
 					"fastboot": "corot_images_OS3.0.3.0.WMLCNXM_20251211.0000.00_16.0_cn_93ea84d35f.tgz",
-					"ctelecom": "corot_images_OS3.0.3.0.WMLCNXM_20251211.0000.00_16.0_cn_chinatelecom_3bcb3edef5.tgz"
+					"ctelecom": "corot_images_OS3.0.3.0.WMLCNXM_20251211.0000.00_16.0_cn_chinatelecom_3bcb3edef5.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.211.0.VMLCNXM": {
 					"os": "OS2.0.211.0.VMLCNXM",
@@ -124,7 +130,8 @@
 					"release": "2025-11-20",
 					"recovery": "corot-ota_full-OS2.0.211.0.VMLCNXM-user-15.0-b7b835acbb.zip",
 					"fastboot": "corot_images_OS2.0.211.0.VMLCNXM_20251107.0000.00_15.0_cn_510d103124.tgz",
-					"ctelecom": "corot_images_OS2.0.211.0.VMLCNXM_20251107.0000.00_15.0_cn_chinatelecom_e588b18aca.tgz"
+					"ctelecom": "corot_images_OS2.0.211.0.VMLCNXM_20251107.0000.00_15.0_cn_chinatelecom_e588b18aca.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.210.0.VMLCNXM": {
 					"os": "OS2.0.210.0.VMLCNXM",
@@ -132,7 +139,8 @@
 					"release": "2025-10-27",
 					"recovery": "corot-ota_full-OS2.0.210.0.VMLCNXM-user-15.0-d36db44c1d.zip",
 					"fastboot": "corot_images_OS2.0.210.0.VMLCNXM_20251024.0000.00_15.0_cn_db24fc724d.tgz",
-					"ctelecom": "corot_images_OS2.0.210.0.VMLCNXM_20251024.0000.00_15.0_cn_chinatelecom_fed65d1040.tgz"
+					"ctelecom": "corot_images_OS2.0.210.0.VMLCNXM_20251024.0000.00_15.0_cn_chinatelecom_fed65d1040.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.209.0.VMLCNXM": {
 					"os": "OS2.0.209.0.VMLCNXM",
@@ -140,7 +148,8 @@
 					"release": "2025-10-20",
 					"recovery": "corot-ota_full-OS2.0.209.0.VMLCNXM-user-15.0-28b30df2c5.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.208.0.VMLCNXM": {
 					"os": "OS2.0.208.0.VMLCNXM",
@@ -148,7 +157,8 @@
 					"release": "2025-09-19",
 					"recovery": "corot-ota_full-OS2.0.208.0.VMLCNXM-user-15.0-98c9c54a10.zip",
 					"fastboot": "corot_images_OS2.0.208.0.VMLCNXM_20250914.0000.00_15.0_cn_a6d82c2cc4.tgz",
-					"ctelecom": "corot_images_OS2.0.208.0.VMLCNXM_20250914.0000.00_15.0_cn_chinatelecom_c6fa57515f.tgz"
+					"ctelecom": "corot_images_OS2.0.208.0.VMLCNXM_20250914.0000.00_15.0_cn_chinatelecom_c6fa57515f.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VMLCNXM": {
 					"os": "OS2.0.204.0.VMLCNXM",
@@ -156,7 +166,8 @@
 					"release": "2025-08-18",
 					"recovery": "corot-ota_full-OS2.0.204.0.VMLCNXM-user-15.0-38dfd85193.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VMLCNXM": {
 					"os": "OS2.0.203.0.VMLCNXM",
@@ -164,7 +175,8 @@
 					"release": "2025-07-19",
 					"recovery": "corot-ota_full-OS2.0.203.0.VMLCNXM-user-15.0-3469af61e5.zip",
 					"fastboot": "corot_images_OS2.0.203.0.VMLCNXM_20250711.0000.00_15.0_cn_abef3daf47.tgz",
-					"ctelecom": "corot_images_OS2.0.203.0.VMLCNXM_20250711.0000.00_15.0_cn_chinatelecom_d828ad2179.tgz"
+					"ctelecom": "corot_images_OS2.0.203.0.VMLCNXM_20250711.0000.00_15.0_cn_chinatelecom_d828ad2179.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.202.0.VMLCNXM": {
 					"os": "OS2.0.202.0.VMLCNXM",
@@ -172,7 +184,8 @@
 					"release": "2025-06-13",
 					"recovery": "corot-ota_full-OS2.0.202.0.VMLCNXM-user-15.0-db6810e552.zip",
 					"fastboot": "corot_images_OS2.0.202.0.VMLCNXM_20250611.0000.00_15.0_cn_ab85e15fdd.tgz",
-					"ctelecom": "corot_images_OS2.0.202.0.VMLCNXM_20250611.0000.00_15.0_cn_chinatelecom_6a24d8f539.tgz"
+					"ctelecom": "corot_images_OS2.0.202.0.VMLCNXM_20250611.0000.00_15.0_cn_chinatelecom_6a24d8f539.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.111.0.VMLCNXM": {
 					"os": "OS2.0.111.0.VMLCNXM",
@@ -180,7 +193,8 @@
 					"release": "2025-05-26",
 					"recovery": "corot-ota_full-OS2.0.111.0.VMLCNXM-user-15.0-0c36e3dc19.zip",
 					"fastboot": "corot_images_OS2.0.111.0.VMLCNXM_20250520.0000.00_15.0_cn_a80fee0b0d.tgz",
-					"ctelecom": "corot_images_OS2.0.111.0.VMLCNXM_20250520.0000.00_15.0_cn_chinatelecom_a8a2c7ab56.tgz"
+					"ctelecom": "corot_images_OS2.0.111.0.VMLCNXM_20250520.0000.00_15.0_cn_chinatelecom_a8a2c7ab56.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.107.0.VMLCNXM": {
 					"os": "OS2.0.107.0.VMLCNXM",
@@ -188,7 +202,8 @@
 					"release": "2025-04-19",
 					"recovery": "corot-ota_full-OS2.0.107.0.VMLCNXM-user-15.0-215c833c40.zip",
 					"fastboot": "corot_images_OS2.0.107.0.VMLCNXM_20250416.0000.00_15.0_cn_101f0c1e27.tgz",
-					"ctelecom": "corot_images_OS2.0.107.0.VMLCNXM_20250416.0000.00_15.0_cn_chinatelecom_dd34a1ba9f.tgz"
+					"ctelecom": "corot_images_OS2.0.107.0.VMLCNXM_20250416.0000.00_15.0_cn_chinatelecom_dd34a1ba9f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.106.0.VMLCNXM": {
 					"os": "OS2.0.106.0.VMLCNXM",
@@ -196,7 +211,8 @@
 					"release": "2025-04-07",
 					"recovery": "corot-ota_full-OS2.0.106.0.VMLCNXM-user-15.0-97bf6ba933.zip",
 					"fastboot": "corot_images_OS2.0.106.0.VMLCNXM_20250402.0000.00_15.0_cn_255e2b8174.tgz",
-					"ctelecom": "corot_images_OS2.0.106.0.VMLCNXM_20250402.0000.00_15.0_cn_chinatelecom_4d62d62d39.tgz"
+					"ctelecom": "corot_images_OS2.0.106.0.VMLCNXM_20250402.0000.00_15.0_cn_chinatelecom_4d62d62d39.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.103.0.VMLCNXM": {
 					"os": "OS2.0.103.0.VMLCNXM",
@@ -204,7 +220,8 @@
 					"release": "2025-02-18",
 					"recovery": "corot-ota_full-OS2.0.103.0.VMLCNXM-user-15.0-428b63910d.zip",
 					"fastboot": "corot_images_OS2.0.103.0.VMLCNXM_20250212.0000.00_15.0_cn_83aa34a527.tgz",
-					"ctelecom": "corot_images_OS2.0.103.0.VMLCNXM_20250212.0000.00_15.0_cn_chinatelecom_68fd29ffbd.tgz"
+					"ctelecom": "corot_images_OS2.0.103.0.VMLCNXM_20250212.0000.00_15.0_cn_chinatelecom_68fd29ffbd.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.102.0.VMLCNXM": {
 					"os": "OS2.0.102.0.VMLCNXM",
@@ -212,7 +229,8 @@
 					"release": "2025-01-21",
 					"recovery": "corot-ota_full-OS2.0.102.0.VMLCNXM-user-15.0-e53413e586.zip",
 					"fastboot": "corot_images_OS2.0.102.0.VMLCNXM_20250116.0000.00_15.0_cn_7ee72e60d9.tgz",
-					"ctelecom": "corot_images_OS2.0.102.0.VMLCNXM_20250116.0000.00_15.0_cn_chinatelecom_5868ea6887.tgz"
+					"ctelecom": "corot_images_OS2.0.102.0.VMLCNXM_20250116.0000.00_15.0_cn_chinatelecom_5868ea6887.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.4.0.VMLCNXM": {
 					"os": "OS2.0.4.0.VMLCNXM",
@@ -220,7 +238,8 @@
 					"release": "2024-12-25",
 					"recovery": "corot-ota_full-OS2.0.4.0.VMLCNXM-user-15.0-61baeb7ff8.zip",
 					"fastboot": "corot_images_OS2.0.4.0.VMLCNXM_20241220.0000.00_15.0_cn_174898381d.tgz",
-					"ctelecom": "corot_images_OS2.0.4.0.VMLCNXM_20241220.0000.00_15.0_cn_chinatelecom_de0111b403.tgz"
+					"ctelecom": "corot_images_OS2.0.4.0.VMLCNXM_20241220.0000.00_15.0_cn_chinatelecom_de0111b403.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.3.0.VMLCNXM": {
 					"os": "OS2.0.3.0.VMLCNXM",
@@ -228,7 +247,8 @@
 					"release": "2024-12-22",
 					"recovery": "corot-ota_full-OS2.0.3.0.VMLCNXM-user-15.0-974028f163.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.25.0.UMLCNXM": {
 					"os": "OS1.0.25.0.UMLCNXM",
@@ -236,7 +256,8 @@
 					"release": "2024-12-12",
 					"recovery": "miui_COROT_OS1.0.25.0.UMLCNXM_079b3e09bc_14.0.zip",
 					"fastboot": "corot_images_OS1.0.25.0.UMLCNXM_20241127.0000.00_14.0_cn_4b509a7865.tgz",
-					"ctelecom": "corot_images_OS1.0.25.0.UMLCNXM_20241127.0000.00_14.0_cn_chinatelecom_2ada57ff60.tgz"
+					"ctelecom": "corot_images_OS1.0.25.0.UMLCNXM_20241127.0000.00_14.0_cn_chinatelecom_2ada57ff60.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.24.0.UMLCNXM": {
 					"os": "OS1.0.24.0.UMLCNXM",
@@ -244,7 +265,8 @@
 					"release": "2024-11-16",
 					"recovery": "miui_COROT_OS1.0.24.0.UMLCNXM_fb0be63a63_14.0.zip",
 					"fastboot": "corot_images_OS1.0.24.0.UMLCNXM_20241105.0000.00_14.0_cn_d37d44789f.tgz",
-					"ctelecom": "corot_images_OS1.0.24.0.UMLCNXM_20241105.0000.00_14.0_cn_chinatelecom_b08baee46d.tgz"
+					"ctelecom": "corot_images_OS1.0.24.0.UMLCNXM_20241105.0000.00_14.0_cn_chinatelecom_b08baee46d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.23.0.UMLCNXM": {
 					"os": "OS1.0.23.0.UMLCNXM",
@@ -252,7 +274,8 @@
 					"release": "2024-10-12",
 					"recovery": "miui_COROT_OS1.0.23.0.UMLCNXM_f444c308c8_14.0.zip",
 					"fastboot": "corot_images_OS1.0.23.0.UMLCNXM_20240910.0000.00_14.0_cn_869b144c61.tgz",
-					"ctelecom": "corot_images_OS1.0.23.0.UMLCNXM_20240910.0000.00_14.0_cn_chinatelecom_4718162dec.tgz"
+					"ctelecom": "corot_images_OS1.0.23.0.UMLCNXM_20240910.0000.00_14.0_cn_chinatelecom_4718162dec.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.22.0.UMLCNXM": {
 					"os": "OS1.0.22.0.UMLCNXM",
@@ -260,7 +283,8 @@
 					"release": "2024-08-14",
 					"recovery": "miui_COROT_OS1.0.22.0.UMLCNXM_7b539d7cbd_14.0.zip",
 					"fastboot": "corot_images_OS1.0.22.0.UMLCNXM_20240806.0000.00_14.0_cn_863d62019d.tgz",
-					"ctelecom": "corot_images_OS1.0.22.0.UMLCNXM_20240806.0000.00_14.0_cn_chinatelecom_e35e62d373.tgz"
+					"ctelecom": "corot_images_OS1.0.22.0.UMLCNXM_20240806.0000.00_14.0_cn_chinatelecom_e35e62d373.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.18.0.UMLCNXM": {
 					"os": "OS1.0.18.0.UMLCNXM",
@@ -268,7 +292,8 @@
 					"release": "2024-07-12",
 					"recovery": "miui_COROT_OS1.0.18.0.UMLCNXM_a086066b44_14.0.zip",
 					"fastboot": "corot_images_OS1.0.18.0.UMLCNXM_20240711.0000.00_14.0_cn_ed9d6a6f86.tgz",
-					"ctelecom": "corot_images_OS1.0.18.0.UMLCNXM_20240711.0000.00_14.0_cn_chinatelecom_5be81174b4.tgz"
+					"ctelecom": "corot_images_OS1.0.18.0.UMLCNXM_20240711.0000.00_14.0_cn_chinatelecom_5be81174b4.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.17.0.UMLCNXM": {
 					"os": "OS1.0.17.0.UMLCNXM",
@@ -276,7 +301,8 @@
 					"release": "2024-07-05",
 					"recovery": "miui_COROT_OS1.0.17.0.UMLCNXM_df5b9ad2c6_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.15.0.UMLCNXM": {
 					"os": "OS1.0.15.0.UMLCNXM",
@@ -284,7 +310,8 @@
 					"release": "2024-06-28",
 					"recovery": "miui_COROT_OS1.0.15.0.UMLCNXM_c8567484cb_14.0.zip",
 					"fastboot": "corot_images_OS1.0.15.0.UMLCNXM_20240624.0000.00_14.0_cn_0bb90214ad.tgz",
-					"ctelecom": "corot_images_OS1.0.15.0.UMLCNXM_20240624.0000.00_14.0_cn_chinatelecom_b0de392fd4.tgz"
+					"ctelecom": "corot_images_OS1.0.15.0.UMLCNXM_20240624.0000.00_14.0_cn_chinatelecom_b0de392fd4.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.13.0.UMLCNXM": {
 					"os": "OS1.0.13.0.UMLCNXM",
@@ -292,7 +319,8 @@
 					"release": "2024-05-17",
 					"recovery": "miui_COROT_OS1.0.13.0.UMLCNXM_a1699d77ea_14.0.zip",
 					"fastboot": "corot_images_OS1.0.13.0.UMLCNXM_20240510.0000.00_14.0_cn_25e40d45fb.tgz",
-					"ctelecom": "corot_images_OS1.0.13.0.UMLCNXM_20240510.0000.00_14.0_cn_chinatelecom_1a3d292c89.tgz"
+					"ctelecom": "corot_images_OS1.0.13.0.UMLCNXM_20240510.0000.00_14.0_cn_chinatelecom_1a3d292c89.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.12.0.UMLCNXM": {
 					"os": "OS1.0.12.0.UMLCNXM",
@@ -300,7 +328,8 @@
 					"release": "2024-04-16",
 					"recovery": "miui_COROT_OS1.0.12.0.UMLCNXM_3f33752523_14.0.zip",
 					"fastboot": "corot_images_OS1.0.12.0.UMLCNXM_20240403.0000.00_14.0_cn_8e92747126.tgz",
-					"ctelecom": "corot_images_OS1.0.12.0.UMLCNXM_20240403.0000.00_14.0_cn_chinatelecom_e6e73eca72.tgz"
+					"ctelecom": "corot_images_OS1.0.12.0.UMLCNXM_20240403.0000.00_14.0_cn_chinatelecom_e6e73eca72.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.11.0.UMLCNXM": {
 					"os": "OS1.0.11.0.UMLCNXM",
@@ -308,7 +337,8 @@
 					"release": "2024-03-14",
 					"recovery": "miui_COROT_OS1.0.11.0.UMLCNXM_686874abe8_14.0.zip",
 					"fastboot": "corot_images_OS1.0.11.0.UMLCNXM_20240311.0000.00_14.0_cn_cdfaeb11f4.tgz",
-					"ctelecom": "corot_images_OS1.0.11.0.UMLCNXM_20240311.0000.00_14.0_cn_chinatelecom_9c2f042127.tgz"
+					"ctelecom": "corot_images_OS1.0.11.0.UMLCNXM_20240311.0000.00_14.0_cn_chinatelecom_9c2f042127.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.10.0.UMLCNXM": {
 					"os": "OS1.0.10.0.UMLCNXM",
@@ -316,7 +346,8 @@
 					"release": "2024-03-06",
 					"recovery": "miui_COROT_OS1.0.10.0.UMLCNXM_147c459717_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.9.6.UMLCNXM": {
 					"os": "OS1.0.9.6.UMLCNXM",
@@ -324,7 +355,8 @@
 					"release": "2024-03-01",
 					"recovery": "miui_COROT_OS1.0.9.6.UMLCNXM_fb33cc0d0d_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.9.0.UMLCNXM": {
 					"os": "OS1.0.9.0.UMLCNXM",
@@ -332,7 +364,8 @@
 					"release": "2024-01-19",
 					"recovery": "miui_COROT_OS1.0.9.0.UMLCNXM_c85fa47cf5_14.0.zip",
 					"fastboot": "corot_images_OS1.0.9.0.UMLCNXM_20240105.0000.00_14.0_cn_bf4a88f84f.tgz",
-					"ctelecom": "corot_images_OS1.0.9.0.UMLCNXM_20240105.0000.00_14.0_cn_chinatelecom_85e592c083.tgz"
+					"ctelecom": "corot_images_OS1.0.9.0.UMLCNXM_20240105.0000.00_14.0_cn_chinatelecom_85e592c083.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.7.3.UMLCNXM": {
 					"os": "OS1.0.7.3.UMLCNXM",
@@ -340,7 +373,8 @@
 					"release": "2024-01-10",
 					"recovery": "miui_COROT_OS1.0.7.3.UMLCNXM_f1b4c06467_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.7.0.UMLCNXM": {
 					"os": "OS1.0.7.0.UMLCNXM",
@@ -348,7 +382,8 @@
 					"release": "2023-12-26",
 					"recovery": "miui_COROT_OS1.0.7.0.UMLCNXM_7a4b79c95b_14.0.zip",
 					"fastboot": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_fb02072a37.tgz",
-					"ctelecom": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_chinatelecom_25652c4a14.tgz"
+					"ctelecom": "corot_images_OS1.0.7.0.UMLCNXM_20231222.0000.00_14.0_cn_chinatelecom_25652c4a14.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.5.0.UMLCNXM": {
 					"os": "OS1.0.5.0.UMLCNXM",
@@ -356,7 +391,8 @@
 					"release": "2023-12-02",
 					"recovery": "miui_COROT_OS1.0.5.0.UMLCNXM_a2e2e5f060_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.4.0.UMLCNXM": {
 					"os": "OS1.0.4.0.UMLCNXM",
@@ -364,7 +400,8 @@
 					"release": "2023-12-01",
 					"recovery": "miui_COROT_OS1.0.4.0.UMLCNXM_a5903dd20a_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -387,6 +424,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"originrec",
@@ -410,7 +448,8 @@
 					"recovery": "miui_COROTPREDPP_OS1.0.240808.1.VMLCNXMPRE-DPP_b627804695_15.0.zip",
 					"fastboot": "corot_pre_dpp_images_OS1.0.240808.1.VMLCNXMPRE-DPP_20240808.0000.00_15.0_cn_f4498a3123.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_COROTPREDPP_OS1.0.240808.1.VMLCNXMPRE-DPP_b627804695_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=VnxxsnzfLs6ixTKnImaCO8X6zFE=",
-					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/corot_pre_dpp_images_OS1.0.240808.1.VMLCNXMPRE-DPP_20240808.0000.00_15.0_cn_f4498a3123.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=QFB3jLf6uJ2iJQX70ilSfphH5r8="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/corot_pre_dpp_images_OS1.0.240808.1.VMLCNXMPRE-DPP_20240808.0000.00_15.0_cn_f4498a3123.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1755662400000&Signature=QFB3jLf6uJ2iJQX70ilSfphH5r8=",
+					"aspatch": "2024-06-05"
 				},
 				"OS1.0.240705.2.VMLCNXM.PRE-DPP": {
 					"os": "OS1.0.240705.2.VMLCNXM.PRE-DPP",
@@ -419,7 +458,8 @@
 					"recovery": "miui_COROTPREDPP_OS1.0.240705.2.VMLCNXM.PRE-DPP_651fe00bed_15.0.zip",
 					"fastboot": "corot_pre_dpp_images_OS1.0.240705.2.VMLCNXM.PRE-DPP_20240705.0000.00_15.0_cn_8fdcb53dc7.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_COROTPREDPP_OS1.0.240705.2.VMLCNXM.PRE-DPP_651fe00bed_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=UEV4VnJGi27yEA0xnguimC/+p+8=",
-					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/corot_pre_dpp_images_OS1.0.240705.2.VMLCNXM.PRE-DPP_20240705.0000.00_15.0_cn_8fdcb53dc7.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=9pSV5p3Ltc28ZO+DsIx0cH5wCgU="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/corot_pre_dpp_images_OS1.0.240705.2.VMLCNXM.PRE-DPP_20240705.0000.00_15.0_cn_8fdcb53dc7.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=9pSV5p3Ltc28ZO+DsIx0cH5wCgU=",
+					"aspatch": "2024-06-05"
 				},
 				"OS1.0.240520.1.VMLCNXM.PRE-DPP": {
 					"os": "OS1.0.240520.1.VMLCNXM.PRE-DPP",
@@ -428,7 +468,8 @@
 					"recovery": "miui_COROTPREDPP_OS1.0.240520.1.VMLCNXM.PRE-DPP_734f697f62_15.0.zip",
 					"fastboot": "",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_COROTPREDPP_OS1.0.240520.1.VMLCNXM.PRE-DPP_734f697f62_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=9kdbrBH/yQ3UWCNEPpmTd9Vr4fY=",
-					"originfb": ""
+					"originfb": "",
+					"aspatch": "2024-04-05"
 				},
 				"24.5.10.2": {
 					"os": "24.5.10.2",
@@ -460,6 +501,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"originrec",
@@ -480,7 +522,8 @@
 					"recovery": "miui_COROTPREDPPGlobal_OS1.0.240705.2.VMLMIXM.PRE-DPP_6cd9666c86_15.0.zip",
 					"fastboot": "corot_pre_dpp_global_images_OS1.0.240705.2.VMLMIXM.PRE-DPP_20240705.0000.00_15.0_global_5b2907838d.tgz",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_COROTPREDPPGlobal_OS1.0.240705.2.VMLMIXM.PRE-DPP_6cd9666c86_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=ISJJPZXP50Z6VV4xxrePDbjuW0Y=",
-					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/corot_pre_dpp_global_images_OS1.0.240705.2.VMLMIXM.PRE-DPP_20240705.0000.00_15.0_global_5b2907838d.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=1O/KNboI0E0loH9dR5PxrFwwUtg="
+					"originfb": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/flash-package/corot_pre_dpp_global_images_OS1.0.240705.2.VMLMIXM.PRE-DPP_20240705.0000.00_15.0_global_5b2907838d.tgz?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1752206400000&Signature=1O/KNboI0E0loH9dR5PxrFwwUtg=",
+					"aspatch": "2024-06-05"
 				},
 				"OS1.0.240516.1.VMLMIXM.PRE-DPP": {
 					"os": "OS1.0.240516.1.VMLMIXM.PRE-DPP",
@@ -489,7 +532,8 @@
 					"recovery": "miui_COROTPREDPPGlobal_OS1.0.240516.1.VMLMIXM.PRE-DPP_011a723f32_15.0.zip",
 					"fastboot": "",
 					"originrec": "https://cdn.cnbj1.fds.api.mi-img.com/pangu-release-artifacts/full-ota-package/miui_COROTPREDPPGlobal_OS1.0.240516.1.VMLMIXM.PRE-DPP_011a723f32_15.0.zip?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&?GalaxyAccessKeyId=AKOZDLMWQMNEU5OCJW&Expires=1747972800000&Signature=+53MjWvFKV4yKBYV9vJYGbDevBw=",
-					"originfb": ""
+					"originfb": "",
+					"aspatch": "2024-04-05"
 				},
 				"24.5.8.1": {
 					"os": "24.5.8.1",
@@ -520,6 +564,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -539,28 +584,32 @@
 					"android": "15.0",
 					"release": "2024-10-17",
 					"recovery": "corot-ota_full-OS1.1.6.0.VMLCNXM.BETA-user-15.0-eb77cbc610.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.5.0.VMLCNXM.BETA": {
 					"os": "OS1.1.5.0.VMLCNXM.BETA",
 					"android": "15.0",
 					"release": "2024-10-11",
 					"recovery": "corot-ota_full-OS1.1.5.0.VMLCNXM.BETA-user-15.0-1bc7fded5c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.4.0.VMLCNXM.BETA": {
 					"os": "OS1.1.4.0.VMLCNXM.BETA",
 					"android": "15.0",
 					"release": "2024-09-29",
 					"recovery": "corot-ota_full-OS1.1.4.0.VMLCNXM.BETA-user-15.0-3fe094374c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.3.0.VMLCNXM.BETA": {
 					"os": "OS1.1.3.0.VMLCNXM.BETA",
 					"android": "15.0",
 					"release": "2024-09-24",
 					"recovery": "corot-ota_full-OS1.1.3.0.VMLCNXM.BETA-user-15.0-702c33ce33.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				}
 			}
 		},
@@ -582,6 +631,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -598,119 +648,136 @@
 					"android": "16.0",
 					"release": "2026-03-20",
 					"recovery": "corot_tw_global-ota_full-OS3.0.1.0.WMLTWXM-user-16.0-50c399de26.zip",
-					"fastboot": "corot_tw_global_images_OS3.0.1.0.WMLTWXM_20260227.0000.00_16.0_tw_414181b6f4.tgz"
+					"fastboot": "corot_tw_global_images_OS3.0.1.0.WMLTWXM_20260227.0000.00_16.0_tw_414181b6f4.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.205.0.VMLTWXM": {
 					"os": "OS2.0.205.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "corot_tw_global-ota_full-OS2.0.205.0.VMLTWXM-user-15.0-580dd7675a.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.205.0.VMLTWXM_20251216.0000.00_15.0_tw_ba8124af33.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.205.0.VMLTWXM_20251216.0000.00_15.0_tw_ba8124af33.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.204.0.VMLTWXM": {
 					"os": "OS2.0.204.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "corot_tw_global-ota_full-OS2.0.204.0.VMLTWXM-user-15.0-7208f76510.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.204.0.VMLTWXM_20251107.0000.00_15.0_tw_db1a2d8172.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.204.0.VMLTWXM_20251107.0000.00_15.0_tw_db1a2d8172.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VMLTWXM": {
 					"os": "OS2.0.203.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "corot_tw_global-ota_full-OS2.0.203.0.VMLTWXM-user-15.0-4f6636b829.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.203.0.VMLTWXM_20251018.0000.00_15.0_tw_a3434f02a7.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.203.0.VMLTWXM_20251018.0000.00_15.0_tw_a3434f02a7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VMLTWXM": {
 					"os": "OS2.0.202.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "corot_tw_global-ota_full-OS2.0.202.0.VMLTWXM-user-15.0-ec2c08fb02.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.202.0.VMLTWXM_20250918.0000.00_15.0_tw_4b12c73923.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.202.0.VMLTWXM_20250918.0000.00_15.0_tw_4b12c73923.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VMLTWXM": {
 					"os": "OS2.0.201.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "corot_tw_global-ota_full-OS2.0.201.0.VMLTWXM-user-15.0-1b8dbf73fd.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.201.0.VMLTWXM_20250812.0000.00_15.0_tw_dc77329cdc.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.201.0.VMLTWXM_20250812.0000.00_15.0_tw_dc77329cdc.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VMLTWXM": {
 					"os": "OS2.0.200.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-07-07",
 					"recovery": "corot_tw_global-ota_full-OS2.0.200.0.VMLTWXM-user-15.0-f9287510c2.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.200.0.VMLTWXM_20250623.0000.00_15.0_tw_97769a1ade.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.200.0.VMLTWXM_20250623.0000.00_15.0_tw_97769a1ade.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.101.0.VMLTWXM": {
 					"os": "OS2.0.101.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "corot_tw_global-ota_full-OS2.0.101.0.VMLTWXM-user-15.0-e22d5431a4.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.101.0.VMLTWXM_20250507.0000.00_15.0_tw_007ac988a4.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.101.0.VMLTWXM_20250507.0000.00_15.0_tw_007ac988a4.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VMLTWXM": {
 					"os": "OS2.0.100.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "corot_tw_global-ota_full-OS2.0.100.0.VMLTWXM-user-15.0-38222d6ac8.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.100.0.VMLTWXM_20250319.0000.00_15.0_tw_bbb5695c3d.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.100.0.VMLTWXM_20250319.0000.00_15.0_tw_bbb5695c3d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.VMLTWXM": {
 					"os": "OS2.0.2.0.VMLTWXM",
 					"android": "15.0",
 					"release": "2025-03-07",
 					"recovery": "corot_tw_global-ota_full-OS2.0.2.0.VMLTWXM-user-15.0-e48f735a4e.zip",
-					"fastboot": "corot_tw_global_images_OS2.0.2.0.VMLTWXM_20250122.0000.00_15.0_tw_3898d72d9c.tgz"
+					"fastboot": "corot_tw_global_images_OS2.0.2.0.VMLTWXM_20250122.0000.00_15.0_tw_3898d72d9c.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.13.0.UMLTWXM": {
 					"os": "OS1.0.13.0.UMLTWXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_COROTTWGlobal_OS1.0.13.0.UMLTWXM_261afca931_14.0.zip",
-					"fastboot": "corot_tw_global_images_OS1.0.13.0.UMLTWXM_20241223.0000.00_14.0_tw_2abb0b60c9.tgz"
+					"fastboot": "corot_tw_global_images_OS1.0.13.0.UMLTWXM_20241223.0000.00_14.0_tw_2abb0b60c9.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.12.0.UMLTWXM": {
 					"os": "OS1.0.12.0.UMLTWXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_COROTTWGlobal_OS1.0.12.0.UMLTWXM_f724bd6140_14.0.zip",
-					"fastboot": "corot_tw_global_images_OS1.0.12.0.UMLTWXM_20241129.0000.00_14.0_tw_9b346781fa.tgz"
+					"fastboot": "corot_tw_global_images_OS1.0.12.0.UMLTWXM_20241129.0000.00_14.0_tw_9b346781fa.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UMLTWXM": {
 					"os": "OS1.0.10.0.UMLTWXM",
 					"android": "14.0",
 					"release": "2024-11-16",
 					"recovery": "miui_COROTTWGlobal_OS1.0.10.0.UMLTWXM_b21dbf8bca_14.0.zip",
-					"fastboot": "corot_tw_global_images_OS1.0.10.0.UMLTWXM_20241102.0000.00_14.0_tw_b1bf48c6ea.tgz"
+					"fastboot": "corot_tw_global_images_OS1.0.10.0.UMLTWXM_20241102.0000.00_14.0_tw_b1bf48c6ea.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UMLTWXM": {
 					"os": "OS1.0.9.0.UMLTWXM",
 					"android": "14.0",
 					"release": "2024-10-17",
 					"recovery": "miui_COROTTWGlobal_OS1.0.9.0.UMLTWXM_5f6e8387fb_14.0.zip",
-					"fastboot": "corot_tw_global_images_OS1.0.9.0.UMLTWXM_20240930.0000.00_14.0_tw_32a95a2f4d.tgz"
+					"fastboot": "corot_tw_global_images_OS1.0.9.0.UMLTWXM_20240930.0000.00_14.0_tw_32a95a2f4d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.UMLTWXM": {
 					"os": "OS1.0.8.0.UMLTWXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_COROTTWGlobal_OS1.0.8.0.UMLTWXM_8f5f67a7a0_14.0.zip",
-					"fastboot": "corot_tw_global_images_OS1.0.8.0.UMLTWXM_20240806.0000.00_14.0_tw_48beb71450.tgz"
+					"fastboot": "corot_tw_global_images_OS1.0.8.0.UMLTWXM_20240806.0000.00_14.0_tw_48beb71450.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UMLTWXM": {
 					"os": "OS1.0.5.0.UMLTWXM",
 					"android": "14.0",
 					"release": "2024-04-07",
 					"recovery": "miui_COROTTWGlobal_OS1.0.5.0.UMLTWXM_7fd5ccade6_14.0.zip",
-					"fastboot": "corot_tw_global_images_OS1.0.5.0.UMLTWXM_20240311.0000.00_14.0_tw_7150d2d0d0.tgz"
+					"fastboot": "corot_tw_global_images_OS1.0.5.0.UMLTWXM_20240311.0000.00_14.0_tw_7150d2d0d0.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.4.0.UMLTWXM": {
 					"os": "OS1.0.4.0.UMLTWXM",
 					"android": "14.0",
 					"release": "2024-02-18",
 					"recovery": "miui_COROTTWGlobal_OS1.0.4.0.UMLTWXM_cc72cc6fa6_14.0.zip",
-					"fastboot": "corot_tw_global_images_OS1.0.4.0.UMLTWXM_20240124.0000.00_14.0_tw_59167635fb.tgz"
+					"fastboot": "corot_tw_global_images_OS1.0.4.0.UMLTWXM_20240124.0000.00_14.0_tw_59167635fb.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -732,6 +799,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -748,126 +816,144 @@
 					"android": "16.0",
 					"release": "2026-03-20",
 					"recovery": "corot_global-ota_full-OS3.0.1.0.WMLMIXM-user-16.0-89e99885c5.zip",
-					"fastboot": "corot_global_images_OS3.0.1.0.WMLMIXM_20260227.0000.00_16.0_global_6244919e31.tgz"
+					"fastboot": "corot_global_images_OS3.0.1.0.WMLMIXM_20260227.0000.00_16.0_global_6244919e31.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VMLMIXM": {
 					"os": "OS2.0.206.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2026-03-02",
 					"recovery": "corot_global-ota_full-OS2.0.206.0.VMLMIXM-user-15.0-af6a03dfe9.zip",
-					"fastboot": "corot_global_images_OS2.0.206.0.VMLMIXM_20260206.0000.00_15.0_global_8c38e4f724.tgz"
+					"fastboot": "corot_global_images_OS2.0.206.0.VMLMIXM_20260206.0000.00_15.0_global_8c38e4f724.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.205.0.VMLMIXM": {
 					"os": "OS2.0.205.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-12-25",
 					"recovery": "corot_global-ota_full-OS2.0.205.0.VMLMIXM-user-15.0-138e944187.zip",
-					"fastboot": "corot_global_images_OS2.0.205.0.VMLMIXM_20251216.0000.00_15.0_global_23fbcc5d11.tgz"
+					"fastboot": "corot_global_images_OS2.0.205.0.VMLMIXM_20251216.0000.00_15.0_global_23fbcc5d11.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.204.0.VMLMIXM": {
 					"os": "OS2.0.204.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-11-13",
 					"recovery": "corot_global-ota_full-OS2.0.204.0.VMLMIXM-user-15.0-8a0c2f8385.zip",
-					"fastboot": "corot_global_images_OS2.0.204.0.VMLMIXM_20251028.0000.00_15.0_global_6ed0419171.tgz"
+					"fastboot": "corot_global_images_OS2.0.204.0.VMLMIXM_20251028.0000.00_15.0_global_6ed0419171.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VMLMIXM": {
 					"os": "OS2.0.203.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "corot_global-ota_full-OS2.0.203.0.VMLMIXM-user-15.0-7dac96db6a.zip",
-					"fastboot": "corot_global_images_OS2.0.203.0.VMLMIXM_20251018.0000.00_15.0_global_abfafec9fc.tgz"
+					"fastboot": "corot_global_images_OS2.0.203.0.VMLMIXM_20251018.0000.00_15.0_global_abfafec9fc.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VMLMIXM": {
 					"os": "OS2.0.202.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "corot_global-ota_full-OS2.0.202.0.VMLMIXM-user-15.0-72139c8ce0.zip",
-					"fastboot": "corot_global_images_OS2.0.202.0.VMLMIXM_20250918.0000.00_15.0_global_8b3fd11ea1.tgz"
+					"fastboot": "corot_global_images_OS2.0.202.0.VMLMIXM_20250918.0000.00_15.0_global_8b3fd11ea1.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VMLMIXM": {
 					"os": "OS2.0.201.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-08-21",
 					"recovery": "corot_global-ota_full-OS2.0.201.0.VMLMIXM-user-15.0-7ed0556ccc.zip",
-					"fastboot": "corot_global_images_OS2.0.201.0.VMLMIXM_20250812.0000.00_15.0_global_0c5e3e61d7.tgz"
+					"fastboot": "corot_global_images_OS2.0.201.0.VMLMIXM_20250812.0000.00_15.0_global_0c5e3e61d7.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VMLMIXM": {
 					"os": "OS2.0.200.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-07-04",
 					"recovery": "corot_global-ota_full-OS2.0.200.0.VMLMIXM-user-15.0-6e860a0d56.zip",
-					"fastboot": "corot_global_images_OS2.0.200.0.VMLMIXM_20250623.0000.00_15.0_global_3daa63b132.tgz"
+					"fastboot": "corot_global_images_OS2.0.200.0.VMLMIXM_20250623.0000.00_15.0_global_3daa63b132.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VMLMIXM": {
 					"os": "OS2.0.103.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "corot_global-ota_full-OS2.0.103.0.VMLMIXM-user-15.0-cb0caeee88.zip",
-					"fastboot": "corot_global_images_OS2.0.103.0.VMLMIXM_20250507.0000.00_15.0_global_d42ac2e33b.tgz"
+					"fastboot": "corot_global_images_OS2.0.103.0.VMLMIXM_20250507.0000.00_15.0_global_d42ac2e33b.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VMLMIXM": {
 					"os": "OS2.0.102.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-03-23",
 					"recovery": "corot_global-ota_full-OS2.0.102.0.VMLMIXM-user-15.0-4101874f9d.zip",
-					"fastboot": "corot_global_images_OS2.0.102.0.VMLMIXM_20250313.0000.00_15.0_global_a6e2e5e1a0.tgz"
+					"fastboot": "corot_global_images_OS2.0.102.0.VMLMIXM_20250313.0000.00_15.0_global_a6e2e5e1a0.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.6.0.VMLMIXM": {
 					"os": "OS2.0.6.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2025-01-14",
 					"recovery": "corot_global-ota_full-OS2.0.6.0.VMLMIXM-user-15.0-53a52447e3.zip",
-					"fastboot": "corot_global_images_OS2.0.6.0.VMLMIXM_20241224.0000.00_15.0_global_e29874440a.tgz"
+					"fastboot": "corot_global_images_OS2.0.6.0.VMLMIXM_20241224.0000.00_15.0_global_e29874440a.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.1.4.0.VMLMIXM": {
 					"os": "OS1.1.4.0.VMLMIXM",
 					"android": "15.0",
 					"release": "2024-11-13",
 					"recovery": "corot_global-ota_full-OS1.1.4.0.VMLMIXM-user-15.0-3734f0c91f.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.3.0.VMLMIXM.BETA": {
 					"os": "OS1.1.3.0.VMLMIXM.BETA",
 					"android": "15.0",
 					"release": "2024-09-26",
 					"recovery": "corot_global-ota_full-OS1.1.3.0.VMLMIXM.BETA-user-15.0-d5d7dfa920.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.0.10.0.UMLMIXM": {
 					"os": "OS1.0.10.0.UMLMIXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_COROTGlobal_OS1.0.10.0.UMLMIXM_4f5d0387ce_14.0.zip",
-					"fastboot": "corot_global_images_OS1.0.10.0.UMLMIXM_20241208.0000.00_14.0_global_c8786fc41c.tgz"
+					"fastboot": "corot_global_images_OS1.0.10.0.UMLMIXM_20241208.0000.00_14.0_global_c8786fc41c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UMLMIXM": {
 					"os": "OS1.0.6.0.UMLMIXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_COROTGlobal_OS1.0.6.0.UMLMIXM_794ee5844b_14.0.zip",
-					"fastboot": "corot_global_images_OS1.0.6.0.UMLMIXM_20240806.0000.00_14.0_global_44bca7865e.tgz"
+					"fastboot": "corot_global_images_OS1.0.6.0.UMLMIXM_20240806.0000.00_14.0_global_44bca7865e.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UMLMIXM": {
 					"os": "OS1.0.4.0.UMLMIXM",
 					"android": "14.0",
 					"release": "2024-06-25",
 					"recovery": "miui_COROTGlobal_OS1.0.4.0.UMLMIXM_02e82e057a_14.0.zip",
-					"fastboot": "corot_global_images_OS1.0.4.0.UMLMIXM_20240617.0000.00_14.0_global_9795f5e61c.tgz"
+					"fastboot": "corot_global_images_OS1.0.4.0.UMLMIXM_20240617.0000.00_14.0_global_9795f5e61c.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.UMLMIXM": {
 					"os": "OS1.0.3.0.UMLMIXM",
 					"android": "14.0",
 					"release": "2024-03-25",
 					"recovery": "miui_COROTGlobal_OS1.0.3.0.UMLMIXM_5f0f078eb2_14.0.zip",
-					"fastboot": "corot_global_images_OS1.0.3.0.UMLMIXM_20240312.0000.00_14.0_global_76be13be4e.tgz"
+					"fastboot": "corot_global_images_OS1.0.3.0.UMLMIXM_20240312.0000.00_14.0_global_76be13be4e.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.UMLMIXM": {
 					"os": "OS1.0.1.0.UMLMIXM",
 					"android": "14.0",
 					"release": "2024-01-08",
 					"recovery": "miui_COROTGlobal_OS1.0.1.0.UMLMIXM_af2d36f698_14.0.zip",
-					"fastboot": "corot_global_images_OS1.0.1.0.UMLMIXM_20231227.0000.00_14.0_global_ab6fd19f34.tgz"
+					"fastboot": "corot_global_images_OS1.0.1.0.UMLMIXM_20231227.0000.00_14.0_global_ab6fd19f34.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -889,6 +975,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -905,168 +992,192 @@
 					"android": "16.0",
 					"release": "2026-04-09",
 					"recovery": "corot_eea_global-ota_full-OS3.0.5.0.WMLEUXM-user-16.0-5b33ededee.zip",
-					"fastboot": "corot_eea_global_images_OS3.0.5.0.WMLEUXM_20260331.0000.00_16.0_eea_86bbe01221.tgz"
+					"fastboot": "corot_eea_global_images_OS3.0.5.0.WMLEUXM_20260331.0000.00_16.0_eea_86bbe01221.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WMLEUXM": {
 					"os": "OS3.0.4.0.WMLEUXM",
 					"android": "16.0",
 					"release": "2026-02-12",
 					"recovery": "corot_eea_global-ota_full-OS3.0.4.0.WMLEUXM-user-16.0-b9ae9fd93a.zip",
-					"fastboot": "corot_eea_global_images_OS3.0.4.0.WMLEUXM_20260210.0000.00_16.0_eea_5364509e6e.tgz"
+					"fastboot": "corot_eea_global_images_OS3.0.4.0.WMLEUXM_20260210.0000.00_16.0_eea_5364509e6e.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.3.0.WMLEUXM": {
 					"os": "OS3.0.3.0.WMLEUXM",
 					"android": "16.0",
 					"release": "2026-02-03",
 					"recovery": "corot_eea_global-ota_full-OS3.0.3.0.WMLEUXM-user-16.0-6b285c556a.zip",
-					"fastboot": "corot_eea_global_images_OS3.0.3.0.WMLEUXM_20260123.0000.00_16.0_eea_388d7da9c6.tgz"
+					"fastboot": "corot_eea_global_images_OS3.0.3.0.WMLEUXM_20260123.0000.00_16.0_eea_388d7da9c6.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.211.0.VMLEUXM": {
 					"os": "OS2.0.211.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2026-01-04",
 					"recovery": "corot_eea_global-ota_full-OS2.0.211.0.VMLEUXM-user-15.0-6508376f93.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.211.0.VMLEUXM_20251226.0000.00_15.0_eea_b3d98699da.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.211.0.VMLEUXM_20251226.0000.00_15.0_eea_b3d98699da.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.210.0.VMLEUXM": {
 					"os": "OS2.0.210.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-12-22",
 					"recovery": "corot_eea_global-ota_full-OS2.0.210.0.VMLEUXM-user-15.0-4aa4ea095f.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.210.0.VMLEUXM_20251209.0000.00_15.0_eea_a85c28fd83.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.210.0.VMLEUXM_20251209.0000.00_15.0_eea_a85c28fd83.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.208.0.VMLEUXM": {
 					"os": "OS2.0.208.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-11-13",
 					"recovery": "corot_eea_global-ota_full-OS2.0.208.0.VMLEUXM-user-15.0-b7595a0498.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.208.0.VMLEUXM_20251028.0000.00_15.0_eea_44d16bf26c.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.208.0.VMLEUXM_20251028.0000.00_15.0_eea_44d16bf26c.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.207.0.VMLEUXM": {
 					"os": "OS2.0.207.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "corot_eea_global-ota_full-OS2.0.207.0.VMLEUXM-user-15.0-67ed5bdc40.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.207.0.VMLEUXM_20251016.0000.00_15.0_eea_bdae334c05.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.207.0.VMLEUXM_20251016.0000.00_15.0_eea_bdae334c05.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VMLEUXM": {
 					"os": "OS2.0.205.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "corot_eea_global-ota_full-OS2.0.205.0.VMLEUXM-user-15.0-5af42db9e9.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.205.0.VMLEUXM_20250918.0000.00_15.0_eea_c99732d88f.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.205.0.VMLEUXM_20250918.0000.00_15.0_eea_c99732d88f.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.204.0.VMLEUXM": {
 					"os": "OS2.0.204.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-08-16",
 					"recovery": "corot_eea_global-ota_full-OS2.0.204.0.VMLEUXM-user-15.0-475d576ae2.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.204.0.VMLEUXM_20250714.0000.00_15.0_eea_9d76969538.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.204.0.VMLEUXM_20250714.0000.00_15.0_eea_9d76969538.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.203.0.VMLEUXM": {
 					"os": "OS2.0.203.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-07-11",
 					"recovery": "corot_eea_global-ota_full-OS2.0.203.0.VMLEUXM-user-15.0-19af9a70ca.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.203.0.VMLEUXM_20250702.0000.00_15.0_eea_cb3698d03c.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.203.0.VMLEUXM_20250702.0000.00_15.0_eea_cb3698d03c.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.102.0.VMLEUXM": {
 					"os": "OS2.0.102.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "corot_eea_global-ota_full-OS2.0.102.0.VMLEUXM-user-15.0-74a58d5d1b.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.102.0.VMLEUXM_20250421.0000.00_15.0_eea_a1d2197ca1.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.102.0.VMLEUXM_20250421.0000.00_15.0_eea_a1d2197ca1.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VMLEUXM": {
 					"os": "OS2.0.101.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-03-18",
 					"recovery": "corot_eea_global-ota_full-OS2.0.101.0.VMLEUXM-user-15.0-ddc49cf72f.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.101.0.VMLEUXM_20250219.0000.00_15.0_eea_43b7e55d86.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.101.0.VMLEUXM_20250219.0000.00_15.0_eea_43b7e55d86.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.11.0.VMLEUXM": {
 					"os": "OS2.0.11.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-02-13",
 					"recovery": "corot_eea_global-ota_full-OS2.0.11.0.VMLEUXM-user-15.0-748d1351aa.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.11.0.VMLEUXM_20250108.0000.00_15.0_eea_0272414438.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.11.0.VMLEUXM_20250108.0000.00_15.0_eea_0272414438.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.10.0.VMLEUXM": {
 					"os": "OS2.0.10.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2025-01-17",
 					"recovery": "corot_eea_global-ota_full-OS2.0.10.0.VMLEUXM-user-15.0-b11dbd25dd.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.10.0.VMLEUXM_20241226.0000.00_15.0_eea_92caf54adc.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.10.0.VMLEUXM_20241226.0000.00_15.0_eea_92caf54adc.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.9.0.VMLEUXM": {
 					"os": "OS2.0.9.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2024-11-28",
 					"recovery": "corot_eea_global-ota_full-OS2.0.9.0.VMLEUXM-user-15.0-d2b824d78b.zip",
-					"fastboot": "corot_eea_global_images_OS2.0.9.0.VMLEUXM_20241122.0000.00_15.0_eea_c06fc9683c.tgz"
+					"fastboot": "corot_eea_global_images_OS2.0.9.0.VMLEUXM_20241122.0000.00_15.0_eea_c06fc9683c.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.1.5.0.VMLEUXM": {
 					"os": "OS1.1.5.0.VMLEUXM",
 					"android": "15.0",
 					"release": "2024-11-08",
 					"recovery": "corot_eea_global-ota_full-OS1.1.5.0.VMLEUXM-user-15.0-03d35d5f95.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.1.4.0.VMLEUXM.BETA": {
 					"os": "OS1.1.4.0.VMLEUXM.BETA",
 					"android": "15.0",
 					"release": "2024-09-26",
 					"recovery": "corot_eea_global-ota_full-OS1.1.4.0.VMLEUXM.BETA-user-15.0-4a4a3d0fe0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS1.0.14.0.UMLEUXM": {
 					"os": "OS1.0.14.0.UMLEUXM",
 					"android": "14.0",
 					"release": "2024-11-25",
 					"recovery": "miui_COROTEEAGlobal_OS1.0.14.0.UMLEUXM_d30e6788a2_14.0.zip",
-					"fastboot": "corot_eea_global_images_OS1.0.14.0.UMLEUXM_20241025.0000.00_14.0_eea_3db7b35b04.tgz"
+					"fastboot": "corot_eea_global_images_OS1.0.14.0.UMLEUXM_20241025.0000.00_14.0_eea_3db7b35b04.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UMLEUXM": {
 					"os": "OS1.0.9.0.UMLEUXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_COROTEEAGlobal_OS1.0.9.0.UMLEUXM_158d3aa902_14.0.zip",
-					"fastboot": "corot_eea_global_images_OS1.0.9.0.UMLEUXM_20240726.0000.00_14.0_eea_70667fe650.tgz"
+					"fastboot": "corot_eea_global_images_OS1.0.9.0.UMLEUXM_20240726.0000.00_14.0_eea_70667fe650.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.8.0.UMLEUXM": {
 					"os": "OS1.0.8.0.UMLEUXM",
 					"android": "14.0",
 					"release": "2024-06-21",
 					"recovery": "miui_COROTEEAGlobal_OS1.0.8.0.UMLEUXM_ca4b8ac80d_14.0.zip",
-					"fastboot": "corot_eea_global_images_OS1.0.8.0.UMLEUXM_20240603.0000.00_14.0_eea_f336ba79ee.tgz"
+					"fastboot": "corot_eea_global_images_OS1.0.8.0.UMLEUXM_20240603.0000.00_14.0_eea_f336ba79ee.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.7.0.UMLEUXM": {
 					"os": "OS1.0.7.0.UMLEUXM",
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_COROTEEAGlobal_OS1.0.7.0.UMLEUXM_f12bc976f6_14.0.zip",
-					"fastboot": "corot_eea_global_images_OS1.0.7.0.UMLEUXM_20240409.0000.00_14.0_eea_6f8ef7eb5a.tgz"
+					"fastboot": "corot_eea_global_images_OS1.0.7.0.UMLEUXM_20240409.0000.00_14.0_eea_6f8ef7eb5a.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.6.0.UMLEUXM": {
 					"os": "OS1.0.6.0.UMLEUXM",
 					"android": "14.0",
 					"release": "2024-04-07",
 					"recovery": "miui_COROTEEAGlobal_OS1.0.6.0.UMLEUXM_5563b72367_14.0.zip",
-					"fastboot": "corot_eea_global_images_OS1.0.6.0.UMLEUXM_20240312.0000.00_14.0_eea_cbc2db7628.tgz"
+					"fastboot": "corot_eea_global_images_OS1.0.6.0.UMLEUXM_20240312.0000.00_14.0_eea_cbc2db7628.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.4.0.UMLEUXM": {
 					"os": "OS1.0.4.0.UMLEUXM",
 					"android": "14.0",
 					"release": "2024-02-21",
 					"recovery": "miui_COROTEEAGlobal_OS1.0.4.0.UMLEUXM_71d7dc436c_14.0.zip",
-					"fastboot": "corot_eea_global_images_OS1.0.4.0.UMLEUXM_20240206.0000.00_14.0_eea_9f36877e93.tgz"
+					"fastboot": "corot_eea_global_images_OS1.0.4.0.UMLEUXM_20240206.0000.00_14.0_eea_9f36877e93.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.3.0.UMLEUXM": {
 					"os": "OS1.0.3.0.UMLEUXM",
 					"android": "14.0",
 					"release": "2023-12-27",
 					"recovery": "miui_COROTEEAGlobal_OS1.0.3.0.UMLEUXM_47a27150be_14.0.zip",
-					"fastboot": "corot_eea_global_images_OS1.0.3.0.UMLEUXM_20231219.0000.00_14.0_eea_2c92a9c89a.tgz"
+					"fastboot": "corot_eea_global_images_OS1.0.3.0.UMLEUXM_20231219.0000.00_14.0_eea_2c92a9c89a.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -1088,6 +1199,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1104,112 +1216,128 @@
 					"android": "16.0",
 					"release": "2026-03-20",
 					"recovery": "corot_ru_global-ota_full-OS3.0.1.0.WMLRUXM-user-16.0-ec2e6c7b8f.zip",
-					"fastboot": "corot_ru_global_images_OS3.0.1.0.WMLRUXM_20260227.0000.00_16.0_ru_bd9f1d70b5.tgz"
+					"fastboot": "corot_ru_global_images_OS3.0.1.0.WMLRUXM_20260227.0000.00_16.0_ru_bd9f1d70b5.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VMLRUXM": {
 					"os": "OS2.0.206.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "corot_ru_global-ota_full-OS2.0.206.0.VMLRUXM-user-15.0-a995faf73e.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.206.0.VMLRUXM_20251216.0000.00_15.0_ru_51b8a866fd.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.206.0.VMLRUXM_20251216.0000.00_15.0_ru_51b8a866fd.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VMLRUXM": {
 					"os": "OS2.0.205.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "corot_ru_global-ota_full-OS2.0.205.0.VMLRUXM-user-15.0-198871761c.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.205.0.VMLRUXM_20251107.0000.00_15.0_ru_ce5c9d085f.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.205.0.VMLRUXM_20251107.0000.00_15.0_ru_ce5c9d085f.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VMLRUXM": {
 					"os": "OS2.0.204.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "corot_ru_global-ota_full-OS2.0.204.0.VMLRUXM-user-15.0-0233a3e019.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.204.0.VMLRUXM_20251018.0000.00_15.0_ru_fabc8a990f.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.204.0.VMLRUXM_20251018.0000.00_15.0_ru_fabc8a990f.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VMLRUXM": {
 					"os": "OS2.0.203.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "corot_ru_global-ota_full-OS2.0.203.0.VMLRUXM-user-15.0-02ccf8a86a.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.203.0.VMLRUXM_20250918.0000.00_15.0_ru_f76c998352.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.203.0.VMLRUXM_20250918.0000.00_15.0_ru_f76c998352.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VMLRUXM": {
 					"os": "OS2.0.202.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "corot_ru_global-ota_full-OS2.0.202.0.VMLRUXM-user-15.0-c06621f49d.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.202.0.VMLRUXM_20250812.0000.00_15.0_ru_971c7893c5.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.202.0.VMLRUXM_20250812.0000.00_15.0_ru_971c7893c5.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VMLRUXM": {
 					"os": "OS2.0.201.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-07-08",
 					"recovery": "corot_ru_global-ota_full-OS2.0.201.0.VMLRUXM-user-15.0-a9272e0edc.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.201.0.VMLRUXM_20250627.0000.00_15.0_ru_b55cf1e8b5.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.201.0.VMLRUXM_20250627.0000.00_15.0_ru_b55cf1e8b5.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.101.0.VMLRUXM": {
 					"os": "OS2.0.101.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "corot_ru_global-ota_full-OS2.0.101.0.VMLRUXM-user-15.0-142b8e2730.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.101.0.VMLRUXM_20250507.0000.00_15.0_ru_3d59d0e1f6.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.101.0.VMLRUXM_20250507.0000.00_15.0_ru_3d59d0e1f6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VMLRUXM": {
 					"os": "OS2.0.100.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "corot_ru_global-ota_full-OS2.0.100.0.VMLRUXM-user-15.0-264682eb7f.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.100.0.VMLRUXM_20250319.0000.00_15.0_ru_c821fdaf8c.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.100.0.VMLRUXM_20250319.0000.00_15.0_ru_c821fdaf8c.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.VMLRUXM": {
 					"os": "OS2.0.2.0.VMLRUXM",
 					"android": "15.0",
 					"release": "2025-02-12",
 					"recovery": "corot_ru_global-ota_full-OS2.0.2.0.VMLRUXM-user-15.0-469ba8898c.zip",
-					"fastboot": "corot_ru_global_images_OS2.0.2.0.VMLRUXM_20250122.0000.00_15.0_ru_138d1bbc32.tgz"
+					"fastboot": "corot_ru_global_images_OS2.0.2.0.VMLRUXM_20250122.0000.00_15.0_ru_138d1bbc32.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.12.0.UMLRUXM": {
 					"os": "OS1.0.12.0.UMLRUXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_COROTRUGlobal_OS1.0.12.0.UMLRUXM_06f981d496_14.0.zip",
-					"fastboot": "corot_ru_global_images_OS1.0.12.0.UMLRUXM_20241224.0000.00_14.0_ru_4992eab225.tgz"
+					"fastboot": "corot_ru_global_images_OS1.0.12.0.UMLRUXM_20241224.0000.00_14.0_ru_4992eab225.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.UMLRUXM": {
 					"os": "OS1.0.11.0.UMLRUXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_COROTRUGlobal_OS1.0.11.0.UMLRUXM_30979d402d_14.0.zip",
-					"fastboot": "corot_ru_global_images_OS1.0.11.0.UMLRUXM_20241129.0000.00_14.0_ru_9dd2ab4d3d.tgz"
+					"fastboot": "corot_ru_global_images_OS1.0.11.0.UMLRUXM_20241129.0000.00_14.0_ru_9dd2ab4d3d.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UMLRUXM": {
 					"os": "OS1.0.9.0.UMLRUXM",
 					"android": "14.0",
 					"release": "2024-11-16",
 					"recovery": "miui_COROTRUGlobal_OS1.0.9.0.UMLRUXM_510f1104b0_14.0.zip",
-					"fastboot": "corot_ru_global_images_OS1.0.9.0.UMLRUXM_20241102.0000.00_14.0_ru_7351dd0e02.tgz"
+					"fastboot": "corot_ru_global_images_OS1.0.9.0.UMLRUXM_20241102.0000.00_14.0_ru_7351dd0e02.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UMLRUXM": {
 					"os": "OS1.0.8.0.UMLRUXM",
 					"android": "14.0",
 					"release": "2024-10-17",
 					"recovery": "miui_COROTRUGlobal_OS1.0.8.0.UMLRUXM_df5803a83a_14.0.zip",
-					"fastboot": "corot_ru_global_images_OS1.0.8.0.UMLRUXM_20240930.0000.00_14.0_ru_20b15f4128.tgz"
+					"fastboot": "corot_ru_global_images_OS1.0.8.0.UMLRUXM_20240930.0000.00_14.0_ru_20b15f4128.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UMLRUXM": {
 					"os": "OS1.0.6.0.UMLRUXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_COROTRUGlobal_OS1.0.6.0.UMLRUXM_569edf3ab3_14.0.zip",
-					"fastboot": "corot_ru_global_images_OS1.0.6.0.UMLRUXM_20240806.0000.00_14.0_ru_50a25a1130.tgz"
+					"fastboot": "corot_ru_global_images_OS1.0.6.0.UMLRUXM_20240806.0000.00_14.0_ru_50a25a1130.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UMLRUXM": {
 					"os": "OS1.0.4.0.UMLRUXM",
 					"android": "14.0",
 					"release": "2024-02-18",
 					"recovery": "miui_COROTRUGlobal_OS1.0.4.0.UMLRUXM_ef3879da8e_14.0.zip",
-					"fastboot": "corot_ru_global_images_OS1.0.4.0.UMLRUXM_20240124.0000.00_14.0_ru_1edc025ac7.tgz"
+					"fastboot": "corot_ru_global_images_OS1.0.4.0.UMLRUXM_20240124.0000.00_14.0_ru_1edc025ac7.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1231,6 +1359,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1247,112 +1376,128 @@
 					"android": "16.0",
 					"release": "2026-03-20",
 					"recovery": "corot_tr_global-ota_full-OS3.0.1.0.WMLTRXM-user-16.0-398cae35e7.zip",
-					"fastboot": "corot_tr_global_images_OS3.0.1.0.WMLTRXM_20260227.0000.00_16.0_tr_7fa17008e0.tgz"
+					"fastboot": "corot_tr_global_images_OS3.0.1.0.WMLTRXM_20260227.0000.00_16.0_tr_7fa17008e0.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VMLTRXM": {
 					"os": "OS2.0.206.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "corot_tr_global-ota_full-OS2.0.206.0.VMLTRXM-user-15.0-4cfbe92bd5.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.206.0.VMLTRXM_20251215.0000.00_15.0_tr_7cb1ba29a3.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.206.0.VMLTRXM_20251215.0000.00_15.0_tr_7cb1ba29a3.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VMLTRXM": {
 					"os": "OS2.0.205.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "corot_tr_global-ota_full-OS2.0.205.0.VMLTRXM-user-15.0-4b549d2acc.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.205.0.VMLTRXM_20251107.0000.00_15.0_tr_047abacb88.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.205.0.VMLTRXM_20251107.0000.00_15.0_tr_047abacb88.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VMLTRXM": {
 					"os": "OS2.0.204.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "corot_tr_global-ota_full-OS2.0.204.0.VMLTRXM-user-15.0-0ad46c422e.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.204.0.VMLTRXM_20251018.0000.00_15.0_tr_8383360c9b.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.204.0.VMLTRXM_20251018.0000.00_15.0_tr_8383360c9b.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VMLTRXM": {
 					"os": "OS2.0.203.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "corot_tr_global-ota_full-OS2.0.203.0.VMLTRXM-user-15.0-fc3194c9bc.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.203.0.VMLTRXM_20250918.0000.00_15.0_tr_4963677de7.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.203.0.VMLTRXM_20250918.0000.00_15.0_tr_4963677de7.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VMLTRXM": {
 					"os": "OS2.0.202.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "corot_tr_global-ota_full-OS2.0.202.0.VMLTRXM-user-15.0-02d70e0401.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.202.0.VMLTRXM_20250812.0000.00_15.0_tr_1bb2276dfa.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.202.0.VMLTRXM_20250812.0000.00_15.0_tr_1bb2276dfa.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VMLTRXM": {
 					"os": "OS2.0.200.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-07-08",
 					"recovery": "corot_tr_global-ota_full-OS2.0.200.0.VMLTRXM-user-15.0-8943aa8373.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.200.0.VMLTRXM_20250623.0000.00_15.0_tr_873d3370dd.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.200.0.VMLTRXM_20250623.0000.00_15.0_tr_873d3370dd.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.101.0.VMLTRXM": {
 					"os": "OS2.0.101.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "corot_tr_global-ota_full-OS2.0.101.0.VMLTRXM-user-15.0-5bbca05d64.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.101.0.VMLTRXM_20250507.0000.00_15.0_tr_3216085069.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.101.0.VMLTRXM_20250507.0000.00_15.0_tr_3216085069.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VMLTRXM": {
 					"os": "OS2.0.100.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-04-02",
 					"recovery": "corot_tr_global-ota_full-OS2.0.100.0.VMLTRXM-user-15.0-00487a71c0.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.100.0.VMLTRXM_20250319.0000.00_15.0_tr_a487137eb3.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.100.0.VMLTRXM_20250319.0000.00_15.0_tr_a487137eb3.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.VMLTRXM": {
 					"os": "OS2.0.2.0.VMLTRXM",
 					"android": "15.0",
 					"release": "2025-02-12",
 					"recovery": "corot_tr_global-ota_full-OS2.0.2.0.VMLTRXM-user-15.0-22c6bc4b73.zip",
-					"fastboot": "corot_tr_global_images_OS2.0.2.0.VMLTRXM_20250122.0000.00_15.0_tr_3dded0039e.tgz"
+					"fastboot": "corot_tr_global_images_OS2.0.2.0.VMLTRXM_20250122.0000.00_15.0_tr_3dded0039e.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.9.0.UMLTRXM": {
 					"os": "OS1.0.9.0.UMLTRXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_COROTTRGlobal_OS1.0.9.0.UMLTRXM_a11cc7920e_14.0.zip",
-					"fastboot": "corot_tr_global_images_OS1.0.9.0.UMLTRXM_20241223.0000.00_14.0_tr_615fe736f3.tgz"
+					"fastboot": "corot_tr_global_images_OS1.0.9.0.UMLTRXM_20241223.0000.00_14.0_tr_615fe736f3.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UMLTRXM": {
 					"os": "OS1.0.8.0.UMLTRXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_COROTTRGlobal_OS1.0.8.0.UMLTRXM_2bf3e65718_14.0.zip",
-					"fastboot": "corot_tr_global_images_OS1.0.8.0.UMLTRXM_20241129.0000.00_14.0_tr_89dc64b052.tgz"
+					"fastboot": "corot_tr_global_images_OS1.0.8.0.UMLTRXM_20241129.0000.00_14.0_tr_89dc64b052.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UMLTRXM": {
 					"os": "OS1.0.6.0.UMLTRXM",
 					"android": "14.0",
 					"release": "2024-11-16",
 					"recovery": "miui_COROTTRGlobal_OS1.0.6.0.UMLTRXM_5d8714efbe_14.0.zip",
-					"fastboot": "corot_tr_global_images_OS1.0.6.0.UMLTRXM_20241102.0000.00_14.0_tr_874d439b98.tgz"
+					"fastboot": "corot_tr_global_images_OS1.0.6.0.UMLTRXM_20241102.0000.00_14.0_tr_874d439b98.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UMLTRXM": {
 					"os": "OS1.0.5.0.UMLTRXM",
 					"android": "14.0",
 					"release": "2024-10-17",
 					"recovery": "miui_COROTTRGlobal_OS1.0.5.0.UMLTRXM_9e61a11760_14.0.zip",
-					"fastboot": "corot_tr_global_images_OS1.0.5.0.UMLTRXM_20240930.0000.00_14.0_tr_ee12200320.tgz"
+					"fastboot": "corot_tr_global_images_OS1.0.5.0.UMLTRXM_20240930.0000.00_14.0_tr_ee12200320.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UMLTRXM": {
 					"os": "OS1.0.4.0.UMLTRXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_COROTTRGlobal_OS1.0.4.0.UMLTRXM_6da510cea0_14.0.zip",
-					"fastboot": "corot_tr_global_images_OS1.0.4.0.UMLTRXM_20240806.0000.00_14.0_tr_acd581c7ef.tgz"
+					"fastboot": "corot_tr_global_images_OS1.0.4.0.UMLTRXM_20240806.0000.00_14.0_tr_acd581c7ef.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UMLTRXM": {
 					"os": "OS1.0.2.0.UMLTRXM",
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_COROTTRGlobal_OS1.0.2.0.UMLTRXM_87286c6d23_14.0.zip",
-					"fastboot": "corot_tr_global_images_OS1.0.2.0.UMLTRXM_20240119.0000.00_14.0_tr_94aa175dcd.tgz"
+					"fastboot": "corot_tr_global_images_OS1.0.2.0.UMLTRXM_20240119.0000.00_14.0_tr_94aa175dcd.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1374,6 +1519,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1390,98 +1536,112 @@
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "corot_jp_global-ota_full-OS2.0.210.0.VMLJPXM-user-15.0-7f2ba4fdf6.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.210.0.VMLJPXM_20260429.0000.00_15.0_jp_a3e9867d1f.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.210.0.VMLJPXM_20260429.0000.00_15.0_jp_a3e9867d1f.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.209.0.VMLJPXM": {
 					"os": "OS2.0.209.0.VMLJPXM",
 					"android": "15.0",
 					"release": "2026-03-03",
 					"recovery": "corot_jp_global-ota_full-OS2.0.209.0.VMLJPXM-user-15.0-28cffad1e5.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.209.0.VMLJPXM_20260213.0000.00_15.0_jp_7df26e0f73.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.209.0.VMLJPXM_20260213.0000.00_15.0_jp_7df26e0f73.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.207.0.VMLJPXM": {
 					"os": "OS2.0.207.0.VMLJPXM",
 					"android": "15.0",
 					"release": "2025-12-22",
 					"recovery": "corot_jp_global-ota_full-OS2.0.207.0.VMLJPXM-user-15.0-a96692e97e.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.207.0.VMLJPXM_20251126.0000.00_15.0_jp_d66c1b2e0b.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.207.0.VMLJPXM_20251126.0000.00_15.0_jp_d66c1b2e0b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VMLJPXM": {
 					"os": "OS2.0.206.0.VMLJPXM",
 					"android": "15.0",
 					"release": "2025-11-13",
 					"recovery": "corot_jp_global-ota_full-OS2.0.206.0.VMLJPXM-user-15.0-ae2956c53c.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.206.0.VMLJPXM_20251028.0000.00_15.0_jp_5b5312d9fa.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.206.0.VMLJPXM_20251028.0000.00_15.0_jp_5b5312d9fa.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VMLJPXM": {
 					"os": "OS2.0.205.0.VMLJPXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "corot_jp_global-ota_full-OS2.0.205.0.VMLJPXM-user-15.0-9420dab6c4.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.205.0.VMLJPXM_20251016.0000.00_15.0_jp_f78232d2b7.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.205.0.VMLJPXM_20251016.0000.00_15.0_jp_f78232d2b7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VMLJPXM": {
 					"os": "OS2.0.203.0.VMLJPXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "corot_jp_global-ota_full-OS2.0.203.0.VMLJPXM-user-15.0-dcdb18ce6f.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.203.0.VMLJPXM_20250918.0000.00_15.0_jp_387aad4429.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.203.0.VMLJPXM_20250918.0000.00_15.0_jp_387aad4429.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VMLJPXM": {
 					"os": "OS2.0.202.0.VMLJPXM",
 					"android": "15.0",
 					"release": "2025-08-01",
 					"recovery": "corot_jp_global-ota_full-OS2.0.202.0.VMLJPXM-user-15.0-530ab43be6.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.202.0.VMLJPXM_20250723.0000.00_15.0_jp_6311c30055.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.202.0.VMLJPXM_20250723.0000.00_15.0_jp_6311c30055.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.3.0.VMLJPXM": {
 					"os": "OS2.0.3.0.VMLJPXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "corot_jp_global-ota_full-OS2.0.3.0.VMLJPXM-user-15.0-5292e56bbb.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.3.0.VMLJPXM_20250416.0000.00_15.0_jp_e6ecbcce94.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.3.0.VMLJPXM_20250416.0000.00_15.0_jp_e6ecbcce94.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.VMLJPXM": {
 					"os": "OS2.0.2.0.VMLJPXM",
 					"android": "15.0",
 					"release": "2025-03-04",
 					"recovery": "corot_jp_global-ota_full-OS2.0.2.0.VMLJPXM-user-15.0-5f7a28a47a.zip",
-					"fastboot": "corot_jp_global_images_OS2.0.2.0.VMLJPXM_20250121.0000.00_15.0_jp_afbac3d800.tgz"
+					"fastboot": "corot_jp_global_images_OS2.0.2.0.VMLJPXM_20250121.0000.00_15.0_jp_afbac3d800.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.14.0.UMLJPXM": {
 					"os": "OS1.0.14.0.UMLJPXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_COROTJPGlobal_OS1.0.14.0.UMLJPXM_f2b96b0048_14.0.zip",
-					"fastboot": "corot_jp_global_images_OS1.0.14.0.UMLJPXM_20241223.0000.00_14.0_jp_b56c4c11d2.tgz"
+					"fastboot": "corot_jp_global_images_OS1.0.14.0.UMLJPXM_20241223.0000.00_14.0_jp_b56c4c11d2.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.13.0.UMLJPXM": {
 					"os": "OS1.0.13.0.UMLJPXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_COROTJPGlobal_OS1.0.13.0.UMLJPXM_f3f71bdff7_14.0.zip",
-					"fastboot": "corot_jp_global_images_OS1.0.13.0.UMLJPXM_20241129.0000.00_14.0_jp_7ce7e21a35.tgz"
+					"fastboot": "corot_jp_global_images_OS1.0.13.0.UMLJPXM_20241129.0000.00_14.0_jp_7ce7e21a35.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.UMLJPXM": {
 					"os": "OS1.0.11.0.UMLJPXM",
 					"android": "14.0",
 					"release": "2024-11-16",
 					"recovery": "miui_COROTJPGlobal_OS1.0.11.0.UMLJPXM_6d1429f7e3_14.0.zip",
-					"fastboot": "corot_jp_global_images_OS1.0.11.0.UMLJPXM_20241102.0000.00_14.0_jp_713b025862.tgz"
+					"fastboot": "corot_jp_global_images_OS1.0.11.0.UMLJPXM_20241102.0000.00_14.0_jp_713b025862.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UMLJPXM": {
 					"os": "OS1.0.10.0.UMLJPXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_COROTJPGlobal_OS1.0.10.0.UMLJPXM_915409bc7a_14.0.zip",
-					"fastboot": "corot_jp_global_images_OS1.0.10.0.UMLJPXM_20240902.0000.00_14.0_jp_82fe138944.tgz"
+					"fastboot": "corot_jp_global_images_OS1.0.10.0.UMLJPXM_20240902.0000.00_14.0_jp_82fe138944.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.9.0.UMLJPXM": {
 					"os": "OS1.0.9.0.UMLJPXM",
 					"android": "14.0",
 					"release": "2024-07-20",
 					"recovery": "miui_COROTJPGlobal_OS1.0.9.0.UMLJPXM_548e82d4b7_14.0.zip",
-					"fastboot": "corot_jp_global_images_OS1.0.9.0.UMLJPXM_20240702.0000.00_14.0_jp_b59f854102.tgz"
+					"fastboot": "corot_jp_global_images_OS1.0.9.0.UMLJPXM_20240702.0000.00_14.0_jp_b59f854102.tgz",
+					"aspatch": "2024-07-01"
 				}
 			}
 		}

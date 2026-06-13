@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -49,91 +50,104 @@
 					"android": "14.0",
 					"release": "2025-09-18",
 					"recovery": "miui_AGATETWGlobal_OS1.0.15.0.UKWTWXM_04ec99268e_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.15.0.UKWTWXM_20250905.0000.00_14.0_tw_1615b6324d.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.15.0.UKWTWXM_20250905.0000.00_14.0_tw_1615b6324d.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.14.0.UKWTWXM": {
 					"os": "OS1.0.14.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_AGATETWGlobal_OS1.0.14.0.UKWTWXM_aeed337337_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.14.0.UKWTWXM_20250805.0000.00_14.0_tw_1e1c44a735.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.14.0.UKWTWXM_20250805.0000.00_14.0_tw_1e1c44a735.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.13.0.UKWTWXM": {
 					"os": "OS1.0.13.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2025-07-11",
 					"recovery": "miui_AGATETWGlobal_OS1.0.13.0.UKWTWXM_6932b20b9b_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.13.0.UKWTWXM_20250701.0000.00_14.0_tw_8476275378.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.13.0.UKWTWXM_20250701.0000.00_14.0_tw_8476275378.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.11.0.UKWTWXM": {
 					"os": "OS1.0.11.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2025-05-12",
 					"recovery": "miui_AGATETWGlobal_OS1.0.11.0.UKWTWXM_5bfadb1b1f_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.11.0.UKWTWXM_20250424.0000.00_14.0_tw_814ce24021.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.11.0.UKWTWXM_20250424.0000.00_14.0_tw_814ce24021.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.10.0.UKWTWXM": {
 					"os": "OS1.0.10.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2025-04-11",
 					"recovery": "miui_AGATETWGlobal_OS1.0.10.0.UKWTWXM_c2670c0421_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.10.0.UKWTWXM_20250331.0000.00_14.0_tw_0bf3369d00.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.10.0.UKWTWXM_20250331.0000.00_14.0_tw_0bf3369d00.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.UKWTWXM": {
 					"os": "OS1.0.9.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_AGATETWGlobal_OS1.0.9.0.UKWTWXM_4a0284b43f_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.9.0.UKWTWXM_20250221.0000.00_14.0_tw_36421dba9c.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.9.0.UKWTWXM_20250221.0000.00_14.0_tw_36421dba9c.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.UKWTWXM": {
 					"os": "OS1.0.8.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2025-02-04",
 					"recovery": "miui_AGATETWGlobal_OS1.0.8.0.UKWTWXM_a2560c603c_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.8.0.UKWTWXM_20250115.0000.00_14.0_tw_428ddad84b.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.8.0.UKWTWXM_20250115.0000.00_14.0_tw_428ddad84b.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.UKWTWXM": {
 					"os": "OS1.0.7.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2025-01-03",
 					"recovery": "miui_AGATETWGlobal_OS1.0.7.0.UKWTWXM_14067e20ad_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.7.0.UKWTWXM_20241219.0000.00_14.0_tw_f7508ed8ed.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.7.0.UKWTWXM_20241219.0000.00_14.0_tw_f7508ed8ed.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.6.0.UKWTWXM": {
 					"os": "OS1.0.6.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2024-11-30",
 					"recovery": "miui_AGATETWGlobal_OS1.0.6.0.UKWTWXM_d9a8991e01_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.6.0.UKWTWXM_20241118.0000.00_14.0_tw_a33b8c6d77.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.6.0.UKWTWXM_20241118.0000.00_14.0_tw_a33b8c6d77.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UKWTWXM": {
 					"os": "OS1.0.5.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_AGATETWGlobal_OS1.0.5.0.UKWTWXM_e4d7acb7b5_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.5.0.UKWTWXM_20241023.0000.00_14.0_tw_82090d7bc0.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.5.0.UKWTWXM_20241023.0000.00_14.0_tw_82090d7bc0.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKWTWXM": {
 					"os": "OS1.0.4.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_AGATETWGlobal_OS1.0.4.0.UKWTWXM_76bdf4d449_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.4.0.UKWTWXM_20240910.0000.00_14.0_tw_b90df9b12c.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.4.0.UKWTWXM_20240910.0000.00_14.0_tw_b90df9b12c.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKWTWXM": {
 					"os": "OS1.0.3.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2024-06-11",
 					"recovery": "miui_AGATETWGlobal_OS1.0.3.0.UKWTWXM_566e6cc402_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.3.0.UKWTWXM_20240515.0000.00_14.0_tw_3456fbfc43.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.3.0.UKWTWXM_20240515.0000.00_14.0_tw_3456fbfc43.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.UKWTWXM": {
 					"os": "OS1.0.2.0.UKWTWXM",
 					"android": "14.0",
 					"release": "2024-04-07",
 					"recovery": "miui_AGATETWGlobal_OS1.0.2.0.UKWTWXM_8885cf5cc7_14.0.zip",
-					"fastboot": "agate_tw_global_images_OS1.0.2.0.UKWTWXM_20240308.0000.00_14.0_tw_f797611064.tgz"
+					"fastboot": "agate_tw_global_images_OS1.0.2.0.UKWTWXM_20240308.0000.00_14.0_tw_f797611064.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -155,6 +169,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -171,112 +186,128 @@
 					"android": "14.0",
 					"release": "2025-08-11",
 					"recovery": "miui_AGATEGlobal_OS1.0.17.0.UKWMIXM_2deb69168e_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.17.0.UKWMIXM_20250730.0000.00_14.0_global_19866f833e.tgz"
+					"fastboot": "agate_global_images_OS1.0.17.0.UKWMIXM_20250730.0000.00_14.0_global_19866f833e.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.16.0.UKWMIXM": {
 					"os": "OS1.0.16.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2025-07-21",
 					"recovery": "miui_AGATEGlobal_OS1.0.16.0.UKWMIXM_8994e7a464_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.16.0.UKWMIXM_20250707.0000.00_14.0_global_a256fb1e9a.tgz"
+					"fastboot": "agate_global_images_OS1.0.16.0.UKWMIXM_20250707.0000.00_14.0_global_a256fb1e9a.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.15.0.UKWMIXM": {
 					"os": "OS1.0.15.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2025-05-21",
 					"recovery": "miui_AGATEGlobal_OS1.0.15.0.UKWMIXM_0ea0cb65d7_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.15.0.UKWMIXM_20250509.0000.00_14.0_global_f8f89a3d25.tgz"
+					"fastboot": "agate_global_images_OS1.0.15.0.UKWMIXM_20250509.0000.00_14.0_global_f8f89a3d25.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.14.0.UKWMIXM": {
 					"os": "OS1.0.14.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2025-04-27",
 					"recovery": "miui_AGATEGlobal_OS1.0.14.0.UKWMIXM_2a7bba7e75_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.14.0.UKWMIXM_20250416.0000.00_14.0_global_d0e25a48bc.tgz"
+					"fastboot": "agate_global_images_OS1.0.14.0.UKWMIXM_20250416.0000.00_14.0_global_d0e25a48bc.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.13.0.UKWMIXM": {
 					"os": "OS1.0.13.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2025-04-01",
 					"recovery": "miui_AGATEGlobal_OS1.0.13.0.UKWMIXM_6ae166e238_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.13.0.UKWMIXM_20250307.0000.00_14.0_global_48b44ffe74.tgz"
+					"fastboot": "agate_global_images_OS1.0.13.0.UKWMIXM_20250307.0000.00_14.0_global_48b44ffe74.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.12.0.UKWMIXM": {
 					"os": "OS1.0.12.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2025-02-27",
 					"recovery": "miui_AGATEGlobal_OS1.0.12.0.UKWMIXM_7cc2084312_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.12.0.UKWMIXM_20250217.0000.00_14.0_global_f1dab2ed99.tgz"
+					"fastboot": "agate_global_images_OS1.0.12.0.UKWMIXM_20250217.0000.00_14.0_global_f1dab2ed99.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.11.0.UKWMIXM": {
 					"os": "OS1.0.11.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2025-01-20",
 					"recovery": "miui_AGATEGlobal_OS1.0.11.0.UKWMIXM_9fb35fc82d_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.11.0.UKWMIXM_20250109.0000.00_14.0_global_368d6c4144.tgz"
+					"fastboot": "agate_global_images_OS1.0.11.0.UKWMIXM_20250109.0000.00_14.0_global_368d6c4144.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.UKWMIXM": {
 					"os": "OS1.0.10.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_AGATEGlobal_OS1.0.10.0.UKWMIXM_17bb3b557c_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.10.0.UKWMIXM_20241210.0000.00_14.0_global_74edcb17d6.tgz"
+					"fastboot": "agate_global_images_OS1.0.10.0.UKWMIXM_20241210.0000.00_14.0_global_74edcb17d6.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.9.0.UKWMIXM": {
 					"os": "OS1.0.9.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2024-11-21",
 					"recovery": "miui_AGATEGlobal_OS1.0.9.0.UKWMIXM_69c3b53d67_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.9.0.UKWMIXM_20241111.0000.00_14.0_global_47d92834a2.tgz"
+					"fastboot": "agate_global_images_OS1.0.9.0.UKWMIXM_20241111.0000.00_14.0_global_47d92834a2.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UKWMIXM": {
 					"os": "OS1.0.8.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_AGATEGlobal_OS1.0.8.0.UKWMIXM_e587a63690_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.8.0.UKWMIXM_20241009.0000.00_14.0_global_de8022ea6d.tgz"
+					"fastboot": "agate_global_images_OS1.0.8.0.UKWMIXM_20241009.0000.00_14.0_global_de8022ea6d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.7.0.UKWMIXM": {
 					"os": "OS1.0.7.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2024-10-12",
 					"recovery": "miui_AGATEGlobal_OS1.0.7.0.UKWMIXM_42856ae7f9_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.7.0.UKWMIXM_20240926.0000.00_14.0_global_316ea8054a.tgz"
+					"fastboot": "agate_global_images_OS1.0.7.0.UKWMIXM_20240926.0000.00_14.0_global_316ea8054a.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UKWMIXM": {
 					"os": "OS1.0.6.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2024-09-10",
 					"recovery": "miui_AGATEGlobal_OS1.0.6.0.UKWMIXM_6736bc84d5_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.6.0.UKWMIXM_20240815.0000.00_14.0_global_ce1bf6e162.tgz"
+					"fastboot": "agate_global_images_OS1.0.6.0.UKWMIXM_20240815.0000.00_14.0_global_ce1bf6e162.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UKWMIXM": {
 					"os": "OS1.0.5.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_AGATEGlobal_OS1.0.5.0.UKWMIXM_e09f6580fe_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.5.0.UKWMIXM_20240617.0000.00_14.0_global_fe2a11a7f1.tgz"
+					"fastboot": "agate_global_images_OS1.0.5.0.UKWMIXM_20240617.0000.00_14.0_global_fe2a11a7f1.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.4.0.UKWMIXM": {
 					"os": "OS1.0.4.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2024-04-07",
 					"recovery": "miui_AGATEGlobal_OS1.0.4.0.UKWMIXM_86cb23ca40_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.4.0.UKWMIXM_20240315.0000.00_14.0_global_14accf683f.tgz"
+					"fastboot": "agate_global_images_OS1.0.4.0.UKWMIXM_20240315.0000.00_14.0_global_14accf683f.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.3.0.UKWMIXM": {
 					"os": "OS1.0.3.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2024-01-31",
 					"recovery": "miui_AGATEGlobal_OS1.0.3.0.UKWMIXM_39c9279ce1_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.3.0.UKWMIXM_20240111.0000.00_14.0_global_8b53147c88.tgz"
+					"fastboot": "agate_global_images_OS1.0.3.0.UKWMIXM_20240111.0000.00_14.0_global_8b53147c88.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.2.0.UKWMIXM": {
 					"os": "OS1.0.2.0.UKWMIXM",
 					"android": "14.0",
 					"release": "2023-12-21",
 					"recovery": "miui_AGATEGlobal_OS1.0.2.0.UKWMIXM_83e4108ef0_14.0.zip",
-					"fastboot": "agate_global_images_OS1.0.2.0.UKWMIXM_20231213.0000.00_14.0_global_a678e5cd35.tgz"
+					"fastboot": "agate_global_images_OS1.0.2.0.UKWMIXM_20231213.0000.00_14.0_global_a678e5cd35.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -298,6 +329,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -314,105 +346,120 @@
 					"android": "14.0",
 					"release": "2025-09-16",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.19.0.UKWEUXM_89548479a2_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.19.0.UKWEUXM_20250901.0000.00_14.0_eea_74ddb29735.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.19.0.UKWEUXM_20250901.0000.00_14.0_eea_74ddb29735.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.17.0.UKWEUXM": {
 					"os": "OS1.0.17.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2025-08-11",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.17.0.UKWEUXM_feb642c43a_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.17.0.UKWEUXM_20250730.0000.00_14.0_eea_43af688aa6.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.17.0.UKWEUXM_20250730.0000.00_14.0_eea_43af688aa6.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.16.0.UKWEUXM": {
 					"os": "OS1.0.16.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2025-07-07",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.16.0.UKWEUXM_9aa83e193f_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.16.0.UKWEUXM_20250627.0000.00_14.0_eea_9acb09eee8.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.16.0.UKWEUXM_20250627.0000.00_14.0_eea_9acb09eee8.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.15.0.UKWEUXM": {
 					"os": "OS1.0.15.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2025-05-26",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.15.0.UKWEUXM_63c3d97db7_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.15.0.UKWEUXM_20250515.0000.00_14.0_eea_3bfe0a7a4d.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.15.0.UKWEUXM_20250515.0000.00_14.0_eea_3bfe0a7a4d.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.14.0.UKWEUXM": {
 					"os": "OS1.0.14.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2025-05-02",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.14.0.UKWEUXM_0d34b04370_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.14.0.UKWEUXM_20250422.0000.00_14.0_eea_45712e0980.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.14.0.UKWEUXM_20250422.0000.00_14.0_eea_45712e0980.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.12.0.UKWEUXM": {
 					"os": "OS1.0.12.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2025-04-07",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.12.0.UKWEUXM_eccdc76f94_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.12.0.UKWEUXM_20250320.0000.00_14.0_eea_96fb988309.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.12.0.UKWEUXM_20250320.0000.00_14.0_eea_96fb988309.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.11.0.UKWEUXM": {
 					"os": "OS1.0.11.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2025-02-27",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.11.0.UKWEUXM_ad3750b77c_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.11.0.UKWEUXM_20250217.0000.00_14.0_eea_cd05916608.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.11.0.UKWEUXM_20250217.0000.00_14.0_eea_cd05916608.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.10.0.UKWEUXM": {
 					"os": "OS1.0.10.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2025-01-26",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.10.0.UKWEUXM_6e09feeec4_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.10.0.UKWEUXM_20250115.0000.00_14.0_eea_3c2f45d9c8.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.10.0.UKWEUXM_20250115.0000.00_14.0_eea_3c2f45d9c8.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.9.0.UKWEUXM": {
 					"os": "OS1.0.9.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.9.0.UKWEUXM_abffe7411a_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.9.0.UKWEUXM_20241210.0000.00_14.0_eea_f6db70f8c5.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.9.0.UKWEUXM_20241210.0000.00_14.0_eea_f6db70f8c5.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.UKWEUXM": {
 					"os": "OS1.0.8.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2024-11-22",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.8.0.UKWEUXM_a8b2bb6069_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.8.0.UKWEUXM_20241111.0000.00_14.0_eea_2f63707875.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.8.0.UKWEUXM_20241111.0000.00_14.0_eea_2f63707875.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKWEUXM": {
 					"os": "OS1.0.7.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2024-11-02",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.7.0.UKWEUXM_0956198d58_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.7.0.UKWEUXM_20241023.0000.00_14.0_eea_f0ac77ceb4.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.7.0.UKWEUXM_20241023.0000.00_14.0_eea_f0ac77ceb4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UKWEUXM": {
 					"os": "OS1.0.6.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2024-10-12",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.6.0.UKWEUXM_73ceba98fd_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.6.0.UKWEUXM_20240926.0000.00_14.0_eea_36e6886c7d.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.6.0.UKWEUXM_20240926.0000.00_14.0_eea_36e6886c7d.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UKWEUXM": {
 					"os": "OS1.0.5.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2024-09-10",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.5.0.UKWEUXM_672636f0d9_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.5.0.UKWEUXM_20240815.0000.00_14.0_eea_11a1f627a0.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.5.0.UKWEUXM_20240815.0000.00_14.0_eea_11a1f627a0.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UKWEUXM": {
 					"os": "OS1.0.3.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2024-05-07",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.3.0.UKWEUXM_d82f7096eb_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.3.0.UKWEUXM_20240402.0000.00_14.0_eea_beb012b389.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.3.0.UKWEUXM_20240402.0000.00_14.0_eea_beb012b389.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.2.0.UKWEUXM": {
 					"os": "OS1.0.2.0.UKWEUXM",
 					"android": "14.0",
 					"release": "2024-02-02",
 					"recovery": "miui_AGATEEEAGlobal_OS1.0.2.0.UKWEUXM_adccc0e057_14.0.zip",
-					"fastboot": "agate_eea_global_images_OS1.0.2.0.UKWEUXM_20240122.0000.00_14.0_eea_52fa2d306b.tgz"
+					"fastboot": "agate_eea_global_images_OS1.0.2.0.UKWEUXM_20240122.0000.00_14.0_eea_52fa2d306b.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -434,6 +481,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -450,49 +498,56 @@
 					"android": "14.0",
 					"release": "2025-03-24",
 					"recovery": "miui_AGATEEEAHGGlobal_OS1.0.7.0.UKWEUHG_7cab6b6d2d_14.0.zip",
-					"fastboot": "agate_eea_hg_global_images_OS1.0.7.0.UKWEUHG_20250218.0000.00_14.0_eea_h3g_947ee6a1a8.tgz"
+					"fastboot": "agate_eea_hg_global_images_OS1.0.7.0.UKWEUHG_20250218.0000.00_14.0_eea_h3g_947ee6a1a8.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UKWEUHG": {
 					"os": "OS1.0.6.0.UKWEUHG",
 					"android": "14.0",
 					"release": "2025-01-08",
 					"recovery": "miui_AGATEEEAHGGlobal_OS1.0.6.0.UKWEUHG_ac4344b6b4_14.0.zip",
-					"fastboot": "agate_eea_hg_global_images_OS1.0.6.0.UKWEUHG_20241205.0000.00_14.0_eea_h3g_5f9e74a5b4.tgz"
+					"fastboot": "agate_eea_hg_global_images_OS1.0.6.0.UKWEUHG_20241205.0000.00_14.0_eea_h3g_5f9e74a5b4.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.5.0.UKWEUHG": {
 					"os": "OS1.0.5.0.UKWEUHG",
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_AGATEEEAHGGlobal_OS1.0.5.0.UKWEUHG_01f212b74e_14.0.zip",
-					"fastboot": "agate_eea_hg_global_images_OS1.0.5.0.UKWEUHG_20241009.0000.00_14.0_eea_h3g_17bd4f244d.tgz"
+					"fastboot": "agate_eea_hg_global_images_OS1.0.5.0.UKWEUHG_20241009.0000.00_14.0_eea_h3g_17bd4f244d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKWEUHG": {
 					"os": "OS1.0.4.0.UKWEUHG",
 					"android": "14.0",
 					"release": "2024-08-30",
 					"recovery": "miui_AGATEEEAHGGlobal_OS1.0.4.0.UKWEUHG_f93e72af6b_14.0.zip",
-					"fastboot": "agate_eea_hg_global_images_OS1.0.4.0.UKWEUHG_20240806.0000.00_14.0_eea_h3g_b6533d8a63.tgz"
+					"fastboot": "agate_eea_hg_global_images_OS1.0.4.0.UKWEUHG_20240806.0000.00_14.0_eea_h3g_b6533d8a63.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UKWEUHG": {
 					"os": "OS1.0.3.0.UKWEUHG",
 					"android": "14.0",
 					"release": "2024-07-11",
 					"recovery": "miui_AGATEEEAHGGlobal_OS1.0.3.0.UKWEUHG_4287185643_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKWEUHG": {
 					"os": "OS1.0.2.0.UKWEUHG",
 					"android": "14.0",
 					"release": "2024-05-07",
 					"recovery": "miui_AGATEEEAHGGlobal_OS1.0.2.0.UKWEUHG_7df2961931_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.1.0.UKWEUHG": {
 					"os": "OS1.0.1.0.UKWEUHG",
 					"android": "14.0",
 					"release": "2024-03-19",
 					"recovery": "miui_AGATEEEAHGGlobal_OS1.0.1.0.UKWEUHG_610e6acd59_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -514,6 +569,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -530,63 +586,72 @@
 					"android": "14.0",
 					"release": "2025-08-13",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.14.0.UKWEUOR_4a6dd6b7e9_14.0.zip",
-					"fastboot": "agate_eea_or_global_images_OS1.0.14.0.UKWEUOR_20250716.0000.00_14.0_eea_orange_fbcd82392b.tgz"
+					"fastboot": "agate_eea_or_global_images_OS1.0.14.0.UKWEUOR_20250716.0000.00_14.0_eea_orange_fbcd82392b.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.12.0.UKWEUOR": {
 					"os": "OS1.0.12.0.UKWEUOR",
 					"android": "14.0",
 					"release": "2025-05-08",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.12.0.UKWEUOR_ff94b56d21_14.0.zip",
-					"fastboot": "agate_eea_or_global_images_OS1.0.12.0.UKWEUOR_20250421.0000.00_14.0_eea_orange_d73d98048b.tgz"
+					"fastboot": "agate_eea_or_global_images_OS1.0.12.0.UKWEUOR_20250421.0000.00_14.0_eea_orange_d73d98048b.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.11.0.UKWEUOR": {
 					"os": "OS1.0.11.0.UKWEUOR",
 					"android": "14.0",
 					"release": "2025-03-18",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.11.0.UKWEUOR_f9fa6f2439_14.0.zip",
-					"fastboot": "agate_eea_or_global_images_OS1.0.11.0.UKWEUOR_20250224.0000.00_14.0_eea_orange_45b2a4ad62.tgz"
+					"fastboot": "agate_eea_or_global_images_OS1.0.11.0.UKWEUOR_20250224.0000.00_14.0_eea_orange_45b2a4ad62.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.UKWEUOR": {
 					"os": "OS1.0.8.0.UKWEUOR",
 					"android": "14.0",
 					"release": "2025-02-08",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.8.0.UKWEUOR_75d16d0dfa_14.0.zip",
-					"fastboot": "agate_eea_or_global_images_OS1.0.8.0.UKWEUOR_20241210.0000.00_14.0_eea_orange_9306c9e8d2.tgz"
+					"fastboot": "agate_eea_or_global_images_OS1.0.8.0.UKWEUOR_20241210.0000.00_14.0_eea_orange_9306c9e8d2.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.6.0.UKWEUOR": {
 					"os": "OS1.0.6.0.UKWEUOR",
 					"android": "14.0",
 					"release": "2024-12-03",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.6.0.UKWEUOR_5a515f636e_14.0.zip",
-					"fastboot": "agate_eea_or_global_images_OS1.0.6.0.UKWEUOR_20241022.0000.00_14.0_eea_orange_b5f005d662.tgz"
+					"fastboot": "agate_eea_or_global_images_OS1.0.6.0.UKWEUOR_20241022.0000.00_14.0_eea_orange_b5f005d662.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKWEUOR": {
 					"os": "OS1.0.4.0.UKWEUOR",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.4.0.UKWEUOR_07ebc4087e_14.0.zip",
-					"fastboot": "agate_eea_or_global_images_OS1.0.4.0.UKWEUOR_20240813.0000.00_14.0_eea_orange_e58bacf2c1.tgz"
+					"fastboot": "agate_eea_or_global_images_OS1.0.4.0.UKWEUOR_20240813.0000.00_14.0_eea_orange_e58bacf2c1.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UKWEUOR": {
 					"os": "OS1.0.3.0.UKWEUOR",
 					"android": "14.0",
 					"release": "2024-08-06",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.3.0.UKWEUOR_6caaae0861_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UKWEUOR": {
 					"os": "OS1.0.2.0.UKWEUOR",
 					"android": "14.0",
 					"release": "2024-06-21",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.2.0.UKWEUOR_7823a773ad_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UKWEUOR": {
 					"os": "OS1.0.1.0.UKWEUOR",
 					"android": "14.0",
 					"release": "2024-04-03",
 					"recovery": "miui_AGATEEEAORGlobal_OS1.0.1.0.UKWEUOR_5aba61217d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -608,6 +673,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -624,70 +690,80 @@
 					"android": "14.0",
 					"release": "2025-08-27",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.13.0.UKWEUVF_6024311cbc_14.0.zip",
-					"fastboot": "agate_eea_vf_global_images_OS1.0.13.0.UKWEUVF_20250808.0000.00_14.0_eea_vodafone_b96bbdce7c.tgz"
+					"fastboot": "agate_eea_vf_global_images_OS1.0.13.0.UKWEUVF_20250808.0000.00_14.0_eea_vodafone_b96bbdce7c.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.12.0.UKWEUVF": {
 					"os": "OS1.0.12.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2025-07-01",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.12.0.UKWEUVF_9c9bae85f7_14.0.zip",
-					"fastboot": "agate_eea_vf_global_images_OS1.0.12.0.UKWEUVF_20250606.0000.00_14.0_eea_vodafone_0ebad1efad.tgz"
+					"fastboot": "agate_eea_vf_global_images_OS1.0.12.0.UKWEUVF_20250606.0000.00_14.0_eea_vodafone_0ebad1efad.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.11.0.UKWEUVF": {
 					"os": "OS1.0.11.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2025-05-13",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.11.0.UKWEUVF_df1c79a7bc_14.0.zip",
-					"fastboot": "agate_eea_vf_global_images_OS1.0.11.0.UKWEUVF_20250417.0000.00_14.0_eea_vodafone_85c3ccb32b.tgz"
+					"fastboot": "agate_eea_vf_global_images_OS1.0.11.0.UKWEUVF_20250417.0000.00_14.0_eea_vodafone_85c3ccb32b.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.10.0.UKWEUVF": {
 					"os": "OS1.0.10.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2025-03-05",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.10.0.UKWEUVF_5b489b13ac_14.0.zip",
-					"fastboot": "agate_eea_vf_global_images_OS1.0.10.0.UKWEUVF_20250216.0000.00_14.0_eea_vodafone_58559631b7.tgz"
+					"fastboot": "agate_eea_vf_global_images_OS1.0.10.0.UKWEUVF_20250216.0000.00_14.0_eea_vodafone_58559631b7.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.UKWEUVF": {
 					"os": "OS1.0.8.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2024-12-24",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.8.0.UKWEUVF_f3e321c167_14.0.zip",
-					"fastboot": "agate_eea_vf_global_images_OS1.0.8.0.UKWEUVF_20241208.0000.00_14.0_eea_vodafone_dd9d8032af.tgz"
+					"fastboot": "agate_eea_vf_global_images_OS1.0.8.0.UKWEUVF_20241208.0000.00_14.0_eea_vodafone_dd9d8032af.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.UKWEUVF": {
 					"os": "OS1.0.7.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2024-10-30",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.7.0.UKWEUVF_fde7e1fa86_14.0.zip",
-					"fastboot": "agate_eea_vf_global_images_OS1.0.7.0.UKWEUVF_20241016.0000.00_14.0_eea_vodafone_8b8cc428c5.tgz"
+					"fastboot": "agate_eea_vf_global_images_OS1.0.7.0.UKWEUVF_20241016.0000.00_14.0_eea_vodafone_8b8cc428c5.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UKWEUVF": {
 					"os": "OS1.0.6.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2024-08-28",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.6.0.UKWEUVF_f9d902c960_14.0.zip",
-					"fastboot": "agate_eea_vf_global_images_OS1.0.6.0.UKWEUVF_20240809.0000.00_14.0_eea_vodafone_6bf1330d29.tgz"
+					"fastboot": "agate_eea_vf_global_images_OS1.0.6.0.UKWEUVF_20240809.0000.00_14.0_eea_vodafone_6bf1330d29.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UKWEUVF": {
 					"os": "OS1.0.5.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2024-06-21",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.5.0.UKWEUVF_517b8e1a9f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.UKWEUVF": {
 					"os": "OS1.0.3.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2024-04-28",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.3.0.UKWEUVF_c1f109d3c0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.1.0.UKWEUVF": {
 					"os": "OS1.0.1.0.UKWEUVF",
 					"android": "14.0",
 					"release": "2024-03-06",
 					"recovery": "miui_AGATEEEAVFGlobal_OS1.0.1.0.UKWEUVF_ba89c198dc_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -709,6 +785,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -725,7 +802,8 @@
 					"android": "14.0",
 					"release": "2024-03-20",
 					"recovery": "miui_AGATEEEATIGlobal_OS1.0.1.0.UKWEUTI_7ce73aefde_14.0.zip",
-					"fastboot": "agate_eea_ti_global_images_OS1.0.1.0.UKWEUTI_20240205.0000.00_14.0_eea_tim_7ef4d5d366.tgz"
+					"fastboot": "agate_eea_ti_global_images_OS1.0.1.0.UKWEUTI_20240205.0000.00_14.0_eea_tim_7ef4d5d366.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -747,6 +825,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -763,28 +842,32 @@
 					"android": "14.0",
 					"release": "2025-06-04",
 					"recovery": "miui_AGATEEEASFGlobal_OS1.0.4.0.UKWEUSF_f46550fe5f_14.0.zip",
-					"fastboot": "agate_eea_sf_global_images_OS1.0.4.0.UKWEUSF_20250509.0000.00_14.0_eea_sfr_9a49b1a299.tgz"
+					"fastboot": "agate_eea_sf_global_images_OS1.0.4.0.UKWEUSF_20250509.0000.00_14.0_eea_sfr_9a49b1a299.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.3.0.UKWEUSF": {
 					"os": "OS1.0.3.0.UKWEUSF",
 					"android": "14.0",
 					"release": "2024-11-13",
 					"recovery": "miui_AGATEEEASFGlobal_OS1.0.3.0.UKWEUSF_4f5888dc79_14.0.zip",
-					"fastboot": "agate_eea_sf_global_images_OS1.0.3.0.UKWEUSF_20241012.0000.00_14.0_eea_sfr_7301395a71.tgz"
+					"fastboot": "agate_eea_sf_global_images_OS1.0.3.0.UKWEUSF_20241012.0000.00_14.0_eea_sfr_7301395a71.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.2.0.UKWEUSF": {
 					"os": "OS1.0.2.0.UKWEUSF",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_AGATEEEASFGlobal_OS1.0.2.0.UKWEUSF_daf6e30d2b_14.0.zip",
-					"fastboot": "agate_eea_sf_global_images_OS1.0.2.0.UKWEUSF_20240612.0000.00_14.0_eea_sfr_26aa3bde73.tgz"
+					"fastboot": "agate_eea_sf_global_images_OS1.0.2.0.UKWEUSF_20240612.0000.00_14.0_eea_sfr_26aa3bde73.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.UKWEUSF": {
 					"os": "OS1.0.1.0.UKWEUSF",
 					"android": "14.0",
 					"release": "2024-05-16",
 					"recovery": "miui_AGATEEEASFGlobal_OS1.0.1.0.UKWEUSF_e169bb3b7a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -806,6 +889,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -822,70 +906,80 @@
 					"android": "14.0",
 					"release": "2025-08-29",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.12.0.UKWEUTF_df6f320d98_14.0.zip",
-					"fastboot": "agate_eea_tf_global_images_OS1.0.12.0.UKWEUTF_20250811.0000.00_14.0_eea_tf_48adbeed03.tgz"
+					"fastboot": "agate_eea_tf_global_images_OS1.0.12.0.UKWEUTF_20250811.0000.00_14.0_eea_tf_48adbeed03.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.10.0.UKWEUTF": {
 					"os": "OS1.0.10.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2025-08-03",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.10.0.UKWEUTF_42c76f470c_14.0.zip",
-					"fastboot": "agate_eea_tf_global_images_OS1.0.10.0.UKWEUTF_20250619.0000.00_14.0_eea_tf_c4c2cb6dca.tgz"
+					"fastboot": "agate_eea_tf_global_images_OS1.0.10.0.UKWEUTF_20250619.0000.00_14.0_eea_tf_c4c2cb6dca.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.9.0.UKWEUTF": {
 					"os": "OS1.0.9.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2025-06-24",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.9.0.UKWEUTF_cc0e08b00c_14.0.zip",
-					"fastboot": "agate_eea_tf_global_images_OS1.0.9.0.UKWEUTF_20250417.0000.00_14.0_eea_tf_e20fe0359e.tgz"
+					"fastboot": "agate_eea_tf_global_images_OS1.0.9.0.UKWEUTF_20250417.0000.00_14.0_eea_tf_e20fe0359e.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.8.0.UKWEUTF": {
 					"os": "OS1.0.8.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2025-03-24",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.8.0.UKWEUTF_1077b00d05_14.0.zip",
-					"fastboot": "agate_eea_tf_global_images_OS1.0.8.0.UKWEUTF_20250218.0000.00_14.0_eea_tf_0e1b47a84d.tgz"
+					"fastboot": "agate_eea_tf_global_images_OS1.0.8.0.UKWEUTF_20250218.0000.00_14.0_eea_tf_0e1b47a84d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UKWEUTF": {
 					"os": "OS1.0.6.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2025-01-08",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.6.0.UKWEUTF_4b87b3b133_14.0.zip",
-					"fastboot": "agate_eea_tf_global_images_OS1.0.6.0.UKWEUTF_20241205.0000.00_14.0_eea_tf_d8e44f5211.tgz"
+					"fastboot": "agate_eea_tf_global_images_OS1.0.6.0.UKWEUTF_20241205.0000.00_14.0_eea_tf_d8e44f5211.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.5.0.UKWEUTF": {
 					"os": "OS1.0.5.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2024-11-07",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.5.0.UKWEUTF_291f9f0434_14.0.zip",
-					"fastboot": "agate_eea_tf_global_images_OS1.0.5.0.UKWEUTF_20241009.0000.00_14.0_eea_tf_6e98c507e7.tgz"
+					"fastboot": "agate_eea_tf_global_images_OS1.0.5.0.UKWEUTF_20241009.0000.00_14.0_eea_tf_6e98c507e7.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKWEUTF": {
 					"os": "OS1.0.4.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2024-08-30",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.4.0.UKWEUTF_70fde586e3_14.0.zip",
-					"fastboot": "agate_eea_tf_global_images_OS1.0.4.0.UKWEUTF_20240806.0000.00_14.0_eea_tf_5afe785dd1.tgz"
+					"fastboot": "agate_eea_tf_global_images_OS1.0.4.0.UKWEUTF_20240806.0000.00_14.0_eea_tf_5afe785dd1.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UKWEUTF": {
 					"os": "OS1.0.3.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2024-06-26",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.3.0.UKWEUTF_44532bbc66_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKWEUTF": {
 					"os": "OS1.0.2.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2024-05-07",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.2.0.UKWEUTF_0bfdc68612_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.1.0.UKWEUTF": {
 					"os": "OS1.0.1.0.UKWEUTF",
 					"android": "14.0",
 					"release": "2024-03-26",
 					"recovery": "miui_AGATEEEATFGlobal_OS1.0.1.0.UKWEUTF_82009db941_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -907,6 +1001,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -923,28 +1018,32 @@
 					"android": "14.0",
 					"release": "2025-05-14",
 					"recovery": "miui_AGATEEEABYGlobal_OS1.0.9.0.UKWEUBY_7cd42a79b7_14.0.zip",
-					"fastboot": "agate_eea_by_global_images_OS1.0.9.0.UKWEUBY_20250422.0000.00_14.0_eea_by_f6690ac9d7.tgz"
+					"fastboot": "agate_eea_by_global_images_OS1.0.9.0.UKWEUBY_20250422.0000.00_14.0_eea_by_f6690ac9d7.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UKWEUBY": {
 					"os": "OS1.0.7.0.UKWEUBY",
 					"android": "14.0",
 					"release": "2025-04-07",
 					"recovery": "miui_AGATEEEABYGlobal_OS1.0.7.0.UKWEUBY_d5c9e64bd8_14.0.zip",
-					"fastboot": "agate_eea_by_global_images_OS1.0.7.0.UKWEUBY_20250207.0000.00_14.0_eea_by_4e84a6f0b5.tgz"
+					"fastboot": "agate_eea_by_global_images_OS1.0.7.0.UKWEUBY_20250207.0000.00_14.0_eea_by_4e84a6f0b5.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.6.0.UKWEUBY": {
 					"os": "OS1.0.6.0.UKWEUBY",
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_AGATEEEABYGlobal_OS1.0.6.0.UKWEUBY_9f3a3a7907_14.0.zip",
-					"fastboot": "agate_eea_by_global_images_OS1.0.6.0.UKWEUBY_20241010.0000.00_14.0_eea_by_5256945e67.tgz"
+					"fastboot": "agate_eea_by_global_images_OS1.0.6.0.UKWEUBY_20241010.0000.00_14.0_eea_by_5256945e67.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.1.0.UKWEUBY": {
 					"os": "OS1.0.1.0.UKWEUBY",
 					"android": "14.0",
 					"release": "2024-03-22",
 					"recovery": "miui_AGATEEEABYGlobal_OS1.0.1.0.UKWEUBY_2896c0c71e_14.0.zip",
-					"fastboot": "agate_eea_by_global_images_OS1.0.1.0.UKWEUBY_20240307.0000.00_14.0_eea_by_30c7317676.tgz"
+					"fastboot": "agate_eea_by_global_images_OS1.0.1.0.UKWEUBY_20240307.0000.00_14.0_eea_by_30c7317676.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -966,6 +1065,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -982,84 +1082,96 @@
 					"android": "14.0",
 					"release": "2025-08-08",
 					"recovery": "miui_AGATERUGlobal_OS1.0.15.0.UKWRUXM_60be5c3df3_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.15.0.UKWRUXM_20250725.0000.00_14.0_ru_2dd655c9ba.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.15.0.UKWRUXM_20250725.0000.00_14.0_ru_2dd655c9ba.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.14.0.UKWRUXM": {
 					"os": "OS1.0.14.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2025-07-11",
 					"recovery": "miui_AGATERUGlobal_OS1.0.14.0.UKWRUXM_b71f696436_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.14.0.UKWRUXM_20250701.0000.00_14.0_ru_0d043301b6.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.14.0.UKWRUXM_20250701.0000.00_14.0_ru_0d043301b6.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.12.0.UKWRUXM": {
 					"os": "OS1.0.12.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2025-05-20",
 					"recovery": "miui_AGATERUGlobal_OS1.0.12.0.UKWRUXM_c212d41908_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.12.0.UKWRUXM_20250423.0000.00_14.0_ru_d8c2ded0b3.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.12.0.UKWRUXM_20250423.0000.00_14.0_ru_d8c2ded0b3.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.11.0.UKWRUXM": {
 					"os": "OS1.0.11.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2025-04-06",
 					"recovery": "miui_AGATERUGlobal_OS1.0.11.0.UKWRUXM_bbc7b27b6d_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.11.0.UKWRUXM_20250320.0000.00_14.0_ru_7b8571295a.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.11.0.UKWRUXM_20250320.0000.00_14.0_ru_7b8571295a.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.10.0.UKWRUXM": {
 					"os": "OS1.0.10.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_AGATERUGlobal_OS1.0.10.0.UKWRUXM_e2613f6a97_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.10.0.UKWRUXM_20250221.0000.00_14.0_ru_e39d114a00.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.10.0.UKWRUXM_20250221.0000.00_14.0_ru_e39d114a00.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.UKWRUXM": {
 					"os": "OS1.0.9.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2025-01-26",
 					"recovery": "miui_AGATERUGlobal_OS1.0.9.0.UKWRUXM_1d4fdf7e09_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.9.0.UKWRUXM_20250115.0000.00_14.0_ru_545d85250a.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.9.0.UKWRUXM_20250115.0000.00_14.0_ru_545d85250a.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.UKWRUXM": {
 					"os": "OS1.0.8.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2025-01-03",
 					"recovery": "miui_AGATERUGlobal_OS1.0.8.0.UKWRUXM_bd28daf204_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.8.0.UKWRUXM_20241218.0000.00_14.0_ru_04d09058a4.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.8.0.UKWRUXM_20241218.0000.00_14.0_ru_04d09058a4.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.UKWRUXM": {
 					"os": "OS1.0.7.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2024-11-30",
 					"recovery": "miui_AGATERUGlobal_OS1.0.7.0.UKWRUXM_ab778f1530_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.7.0.UKWRUXM_20241118.0000.00_14.0_ru_953869b855.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.7.0.UKWRUXM_20241118.0000.00_14.0_ru_953869b855.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UKWRUXM": {
 					"os": "OS1.0.6.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2024-11-02",
 					"recovery": "miui_AGATERUGlobal_OS1.0.6.0.UKWRUXM_f0e1b27cc7_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.6.0.UKWRUXM_20241023.0000.00_14.0_ru_5e887934b8.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.6.0.UKWRUXM_20241023.0000.00_14.0_ru_5e887934b8.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UKWRUXM": {
 					"os": "OS1.0.5.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_AGATERUGlobal_OS1.0.5.0.UKWRUXM_f14703f398_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.5.0.UKWRUXM_20240910.0000.00_14.0_ru_6ca46b5f29.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.5.0.UKWRUXM_20240910.0000.00_14.0_ru_6ca46b5f29.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKWRUXM": {
 					"os": "OS1.0.3.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2024-05-07",
 					"recovery": "miui_AGATERUGlobal_OS1.0.3.0.UKWRUXM_a7369675b8_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.3.0.UKWRUXM_20240402.0000.00_14.0_ru_6dd8afbcda.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.3.0.UKWRUXM_20240402.0000.00_14.0_ru_6dd8afbcda.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.2.0.UKWRUXM": {
 					"os": "OS1.0.2.0.UKWRUXM",
 					"android": "14.0",
 					"release": "2024-02-02",
 					"recovery": "miui_AGATERUGlobal_OS1.0.2.0.UKWRUXM_cd75580137_14.0.zip",
-					"fastboot": "agate_ru_global_images_OS1.0.2.0.UKWRUXM_20240122.0000.00_14.0_ru_9a7f1ea9a6.tgz"
+					"fastboot": "agate_ru_global_images_OS1.0.2.0.UKWRUXM_20240122.0000.00_14.0_ru_9a7f1ea9a6.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1081,6 +1193,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1097,91 +1210,104 @@
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.14.0.UKWIDXM_66bc365e12_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.14.0.UKWIDXM_20250805.0000.00_14.0_id_27e35916b2.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.14.0.UKWIDXM_20250805.0000.00_14.0_id_27e35916b2.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.13.0.UKWIDXM": {
 					"os": "OS1.0.13.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2025-07-21",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.13.0.UKWIDXM_0f0ff99b6b_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.13.0.UKWIDXM_20250707.0000.00_14.0_id_8b43ad2eec.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.13.0.UKWIDXM_20250707.0000.00_14.0_id_8b43ad2eec.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.12.0.UKWIDXM": {
 					"os": "OS1.0.12.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2025-05-26",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.12.0.UKWIDXM_7712c3de9a_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.12.0.UKWIDXM_20250515.0000.00_14.0_id_50c6a921bc.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.12.0.UKWIDXM_20250515.0000.00_14.0_id_50c6a921bc.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.11.0.UKWIDXM": {
 					"os": "OS1.0.11.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2025-05-04",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.11.0.UKWIDXM_e97eaffbe1_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.11.0.UKWIDXM_20250422.0000.00_14.0_id_43986c291f.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.11.0.UKWIDXM_20250422.0000.00_14.0_id_43986c291f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.10.0.UKWIDXM": {
 					"os": "OS1.0.10.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2025-04-06",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.10.0.UKWIDXM_0dd390cf87_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.10.0.UKWIDXM_20250327.0000.00_14.0_id_ca5e568482.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.10.0.UKWIDXM_20250327.0000.00_14.0_id_ca5e568482.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.UKWIDXM": {
 					"os": "OS1.0.9.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.9.0.UKWIDXM_e0fdaeaa38_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.9.0.UKWIDXM_20250221.0000.00_14.0_id_9e52afdabb.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.9.0.UKWIDXM_20250221.0000.00_14.0_id_9e52afdabb.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.UKWIDXM": {
 					"os": "OS1.0.8.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2025-01-26",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.8.0.UKWIDXM_f39b48084f_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.8.0.UKWIDXM_20250115.0000.00_14.0_id_ced4cb73b3.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.8.0.UKWIDXM_20250115.0000.00_14.0_id_ced4cb73b3.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.UKWIDXM": {
 					"os": "OS1.0.7.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2025-01-10",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.7.0.UKWIDXM_32fcca8dea_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.7.0.UKWIDXM_20241218.0000.00_14.0_id_554685e42f.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.7.0.UKWIDXM_20241218.0000.00_14.0_id_554685e42f.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.6.0.UKWIDXM": {
 					"os": "OS1.0.6.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2024-11-30",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.6.0.UKWIDXM_661574eb90_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.6.0.UKWIDXM_20241118.0000.00_14.0_id_ec21074f36.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.6.0.UKWIDXM_20241118.0000.00_14.0_id_ec21074f36.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UKWIDXM": {
 					"os": "OS1.0.5.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.5.0.UKWIDXM_bf65d57c5c_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.5.0.UKWIDXM_20241023.0000.00_14.0_id_de7d7f3fb7.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.5.0.UKWIDXM_20241023.0000.00_14.0_id_de7d7f3fb7.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKWIDXM": {
 					"os": "OS1.0.4.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.4.0.UKWIDXM_313b4d4d4a_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.4.0.UKWIDXM_20240906.0000.00_14.0_id_0fd7450e4f.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.4.0.UKWIDXM_20240906.0000.00_14.0_id_0fd7450e4f.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKWIDXM": {
 					"os": "OS1.0.3.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2024-06-11",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.3.0.UKWIDXM_dafd41259d_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.3.0.UKWIDXM_20240515.0000.00_14.0_id_6b8dbfe7bb.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.3.0.UKWIDXM_20240515.0000.00_14.0_id_6b8dbfe7bb.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.UKWIDXM": {
 					"os": "OS1.0.2.0.UKWIDXM",
 					"android": "14.0",
 					"release": "2024-04-07",
 					"recovery": "miui_AGATEIDGlobal_OS1.0.2.0.UKWIDXM_717f0fa73d_14.0.zip",
-					"fastboot": "agate_id_global_images_OS1.0.2.0.UKWIDXM_20240308.0000.00_14.0_id_93438812b4.tgz"
+					"fastboot": "agate_id_global_images_OS1.0.2.0.UKWIDXM_20240308.0000.00_14.0_id_93438812b4.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -1203,6 +1329,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1219,98 +1346,112 @@
 					"android": "14.0",
 					"release": "2025-10-18",
 					"recovery": "miui_AGATETRGlobal_OS1.0.16.0.UKWTRXM_5e387ed863_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.16.0.UKWTRXM_20250930.0000.00_14.0_tr_d265424f74.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.16.0.UKWTRXM_20250930.0000.00_14.0_tr_d265424f74.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.15.0.UKWTRXM": {
 					"os": "OS1.0.15.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2025-09-19",
 					"recovery": "miui_AGATETRGlobal_OS1.0.15.0.UKWTRXM_dd9a06e9c9_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.15.0.UKWTRXM_20250905.0000.00_14.0_tr_42abfd75e2.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.15.0.UKWTRXM_20250905.0000.00_14.0_tr_42abfd75e2.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.14.0.UKWTRXM": {
 					"os": "OS1.0.14.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2025-08-23",
 					"recovery": "miui_AGATETRGlobal_OS1.0.14.0.UKWTRXM_4f27c84cda_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.14.0.UKWTRXM_20250805.0000.00_14.0_tr_f20cdb132f.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.14.0.UKWTRXM_20250805.0000.00_14.0_tr_f20cdb132f.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.13.0.UKWTRXM": {
 					"os": "OS1.0.13.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2025-07-11",
 					"recovery": "miui_AGATETRGlobal_OS1.0.13.0.UKWTRXM_0cbeea1c71_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.13.0.UKWTRXM_20250701.0000.00_14.0_tr_f8d832e448.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.13.0.UKWTRXM_20250701.0000.00_14.0_tr_f8d832e448.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.11.0.UKWTRXM": {
 					"os": "OS1.0.11.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2025-05-12",
 					"recovery": "miui_AGATETRGlobal_OS1.0.11.0.UKWTRXM_d88ded1669_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.11.0.UKWTRXM_20250424.0000.00_14.0_tr_1385751f31.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.11.0.UKWTRXM_20250424.0000.00_14.0_tr_1385751f31.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.10.0.UKWTRXM": {
 					"os": "OS1.0.10.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2025-04-11",
 					"recovery": "miui_AGATETRGlobal_OS1.0.10.0.UKWTRXM_7e041119bb_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.10.0.UKWTRXM_20250328.0000.00_14.0_tr_37117b4af8.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.10.0.UKWTRXM_20250328.0000.00_14.0_tr_37117b4af8.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.UKWTRXM": {
 					"os": "OS1.0.9.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_AGATETRGlobal_OS1.0.9.0.UKWTRXM_2b2f75d0fc_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.9.0.UKWTRXM_20250221.0000.00_14.0_tr_ad16146d7f.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.9.0.UKWTRXM_20250221.0000.00_14.0_tr_ad16146d7f.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.UKWTRXM": {
 					"os": "OS1.0.8.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2025-01-26",
 					"recovery": "miui_AGATETRGlobal_OS1.0.8.0.UKWTRXM_9900ee8e76_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.8.0.UKWTRXM_20250115.0000.00_14.0_tr_0a3c1db204.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.8.0.UKWTRXM_20250115.0000.00_14.0_tr_0a3c1db204.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.UKWTRXM": {
 					"os": "OS1.0.7.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2025-01-03",
 					"recovery": "miui_AGATETRGlobal_OS1.0.7.0.UKWTRXM_002a8c7444_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.7.0.UKWTRXM_20241219.0000.00_14.0_tr_efa45a6dbd.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.7.0.UKWTRXM_20241219.0000.00_14.0_tr_efa45a6dbd.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.6.0.UKWTRXM": {
 					"os": "OS1.0.6.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2024-11-30",
 					"recovery": "miui_AGATETRGlobal_OS1.0.6.0.UKWTRXM_1b26f68081_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.6.0.UKWTRXM_20241118.0000.00_14.0_tr_1f0dddbd6e.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.6.0.UKWTRXM_20241118.0000.00_14.0_tr_1f0dddbd6e.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UKWTRXM": {
 					"os": "OS1.0.5.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_AGATETRGlobal_OS1.0.5.0.UKWTRXM_2f2582f5ed_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.5.0.UKWTRXM_20241023.0000.00_14.0_tr_650bed36d9.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.5.0.UKWTRXM_20241023.0000.00_14.0_tr_650bed36d9.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKWTRXM": {
 					"os": "OS1.0.4.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_AGATETRGlobal_OS1.0.4.0.UKWTRXM_26f2237fac_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.4.0.UKWTRXM_20240906.0000.00_14.0_tr_bc1d6b90e8.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.4.0.UKWTRXM_20240906.0000.00_14.0_tr_bc1d6b90e8.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKWTRXM": {
 					"os": "OS1.0.3.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2024-06-11",
 					"recovery": "miui_AGATETRGlobal_OS1.0.3.0.UKWTRXM_e225cf34e4_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.3.0.UKWTRXM_20240515.0000.00_14.0_tr_c1d71c2dbd.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.3.0.UKWTRXM_20240515.0000.00_14.0_tr_c1d71c2dbd.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.UKWTRXM": {
 					"os": "OS1.0.2.0.UKWTRXM",
 					"android": "14.0",
 					"release": "2024-04-07",
 					"recovery": "miui_AGATETRGlobal_OS1.0.2.0.UKWTRXM_eac656e379_14.0.zip",
-					"fastboot": "agate_tr_global_images_OS1.0.2.0.UKWTRXM_20240308.0000.00_14.0_tr_7e2191b993.tgz"
+					"fastboot": "agate_tr_global_images_OS1.0.2.0.UKWTRXM_20240308.0000.00_14.0_tr_7e2191b993.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -1332,6 +1473,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1348,21 +1490,24 @@
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_AGATECLENGlobal_OS1.0.4.0.UKWCLEN_d70c11d0c9_14.0.zip",
-					"fastboot": "agate_cl_en_global_images_OS1.0.4.0.UKWCLEN_20240823.0000.00_14.0_cl_en_9365547876.tgz"
+					"fastboot": "agate_cl_en_global_images_OS1.0.4.0.UKWCLEN_20240823.0000.00_14.0_cl_en_9365547876.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UKWCLEN": {
 					"os": "OS1.0.3.0.UKWCLEN",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_AGATECLENGlobal_OS1.0.3.0.UKWCLEN_ccb38a85f3_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.2.0.UKWCLEN": {
 					"os": "OS1.0.2.0.UKWCLEN",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_AGATECLENGlobal_OS1.0.2.0.UKWCLEN_c03cbdeb1a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -1384,6 +1529,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1400,42 +1546,48 @@
 					"android": "14.0",
 					"release": "2025-09-26",
 					"recovery": "miui_AGATEMXATGlobal_OS1.0.13.0.UKWMXAT_b31bc2d210_14.0.zip",
-					"fastboot": "agate_mx_at_global_images_OS1.0.13.0.UKWMXAT_20250917.0000.00_14.0_mx_at_2c9cc25cfa.tgz"
+					"fastboot": "agate_mx_at_global_images_OS1.0.13.0.UKWMXAT_20250917.0000.00_14.0_mx_at_2c9cc25cfa.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS1.0.11.0.UKWMXAT": {
 					"os": "OS1.0.11.0.UKWMXAT",
 					"android": "14.0",
 					"release": "2025-07-24",
 					"recovery": "miui_AGATEMXATGlobal_OS1.0.11.0.UKWMXAT_50481e8e9d_14.0.zip",
-					"fastboot": "agate_mx_at_global_images_OS1.0.11.0.UKWMXAT_20250630.0000.00_14.0_mx_at_0f583461b2.tgz"
+					"fastboot": "agate_mx_at_global_images_OS1.0.11.0.UKWMXAT_20250630.0000.00_14.0_mx_at_0f583461b2.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.10.0.UKWMXAT": {
 					"os": "OS1.0.10.0.UKWMXAT",
 					"android": "14.0",
 					"release": "2025-05-06",
 					"recovery": "miui_AGATEMXATGlobal_OS1.0.10.0.UKWMXAT_f72a348901_14.0.zip",
-					"fastboot": "agate_mx_at_global_images_OS1.0.10.0.UKWMXAT_20250418.0000.00_14.0_mx_at_62e64198b6.tgz"
+					"fastboot": "agate_mx_at_global_images_OS1.0.10.0.UKWMXAT_20250418.0000.00_14.0_mx_at_62e64198b6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.8.0.UKWMXAT": {
 					"os": "OS1.0.8.0.UKWMXAT",
 					"android": "14.0",
 					"release": "2025-02-27",
 					"recovery": "miui_AGATEMXATGlobal_OS1.0.8.0.UKWMXAT_c9fe29ab1a_14.0.zip",
-					"fastboot": "agate_mx_at_global_images_OS1.0.8.0.UKWMXAT_20250218.0000.00_14.0_mx_at_a01165d854.tgz"
+					"fastboot": "agate_mx_at_global_images_OS1.0.8.0.UKWMXAT_20250218.0000.00_14.0_mx_at_a01165d854.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UKWMXAT": {
 					"os": "OS1.0.6.0.UKWMXAT",
 					"android": "14.0",
 					"release": "2024-12-12",
 					"recovery": "miui_AGATEMXATGlobal_OS1.0.6.0.UKWMXAT_657044d5f4_14.0.zip",
-					"fastboot": "agate_mx_at_global_images_OS1.0.6.0.UKWMXAT_20241203.0000.00_14.0_mx_at_16bf60f547.tgz"
+					"fastboot": "agate_mx_at_global_images_OS1.0.6.0.UKWMXAT_20241203.0000.00_14.0_mx_at_16bf60f547.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.5.0.UKWMXAT": {
 					"os": "OS1.0.5.0.UKWMXAT",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_AGATEMXATGlobal_OS1.0.5.0.UKWMXAT_7f0d31c897_14.0.zip",
-					"fastboot": "agate_mx_at_global_images_OS1.0.5.0.UKWMXAT_20241017.0000.00_14.0_mx_at_cb75c2f65c.tgz"
+					"fastboot": "agate_mx_at_global_images_OS1.0.5.0.UKWMXAT_20241017.0000.00_14.0_mx_at_cb75c2f65c.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKWMXAT": {
 					"os": "OS1.0.4.0.UKWMXAT",

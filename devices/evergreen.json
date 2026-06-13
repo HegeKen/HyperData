@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -49,7 +50,8 @@
 					"android": "13.0",
 					"release": "2024-03-22",
 					"recovery": "miui_EVERGREENTWGlobal_OS1.0.1.0.TGBTWXM_71148f3f61_13.0.zip",
-					"fastboot": "evergreen_tw_global_images_OS1.0.1.0.TGBTWXM_20240229.0000.00_13.0_tw_3321563586.tgz"
+					"fastboot": "evergreen_tw_global_images_OS1.0.1.0.TGBTWXM_20240229.0000.00_13.0_tw_3321563586.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -71,6 +73,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -87,7 +90,8 @@
 					"android": "13.0",
 					"release": "2024-04-01",
 					"recovery": "miui_EVERGREENGlobal_OS1.0.1.0.TGBMIXM_d22f981c91_13.0.zip",
-					"fastboot": "evergreen_global_images_OS1.0.1.0.TGBMIXM_20240226.0000.00_13.0_global_e1e9e4ff66.tgz"
+					"fastboot": "evergreen_global_images_OS1.0.1.0.TGBMIXM_20240226.0000.00_13.0_global_e1e9e4ff66.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -109,6 +113,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -125,14 +130,16 @@
 					"android": "13.0",
 					"release": "2024-09-06",
 					"recovery": "miui_EVERGREENEEAGlobal_OS1.0.2.0.TGBEUXM_9b74437e97_13.0.zip",
-					"fastboot": "evergreen_eea_global_images_OS1.0.2.0.TGBEUXM_20240826.0000.00_13.0_eea_f36f49d15d.tgz"
+					"fastboot": "evergreen_eea_global_images_OS1.0.2.0.TGBEUXM_20240826.0000.00_13.0_eea_f36f49d15d.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.TGBEUXM": {
 					"os": "OS1.0.1.0.TGBEUXM",
 					"android": "13.0",
 					"release": "2024-04-06",
 					"recovery": "miui_EVERGREENEEAGlobal_OS1.0.1.0.TGBEUXM_a85e24d7ff_13.0.zip",
-					"fastboot": "evergreen_eea_global_images_OS1.0.1.0.TGBEUXM_20240229.0000.00_13.0_eea_e5004001d2.tgz"
+					"fastboot": "evergreen_eea_global_images_OS1.0.1.0.TGBEUXM_20240229.0000.00_13.0_eea_e5004001d2.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -154,6 +161,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -170,7 +178,8 @@
 					"android": "13.0",
 					"release": "2024-04-10",
 					"recovery": "miui_EVERGREENRUGlobal_OS1.0.1.0.TGBRUXM_6c961203aa_13.0.zip",
-					"fastboot": "evergreen_ru_global_images_OS1.0.1.0.TGBRUXM_20240307.0000.00_13.0_ru_6b5885aaf9.tgz"
+					"fastboot": "evergreen_ru_global_images_OS1.0.1.0.TGBRUXM_20240307.0000.00_13.0_ru_6b5885aaf9.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -192,6 +201,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -208,7 +218,8 @@
 					"android": "13.0",
 					"release": "2024-04-10",
 					"recovery": "miui_EVERGREENTRGlobal_OS1.0.1.0.TGBTRXM_63803823e1_13.0.zip",
-					"fastboot": "evergreen_tr_global_images_OS1.0.1.0.TGBTRXM_20240307.0000.00_13.0_tr_c0debd7162.tgz"
+					"fastboot": "evergreen_tr_global_images_OS1.0.1.0.TGBTRXM_20240307.0000.00_13.0_tr_c0debd7162.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		}

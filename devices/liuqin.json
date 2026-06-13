@@ -36,6 +36,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -55,154 +56,176 @@
 					"android": "15.0",
 					"release": "2026-05-25",
 					"recovery": "liuqin-ota_full-OS3.0.7.0.VMYCNXM-user-15.0-7f569a5149.zip",
-					"fastboot": "liuqin_images_OS3.0.7.0.VMYCNXM_20260514.0000.00_15.0_cn_f57d372b08.tgz"
+					"fastboot": "liuqin_images_OS3.0.7.0.VMYCNXM_20260514.0000.00_15.0_cn_f57d372b08.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.5.0.VMYCNXM": {
 					"os": "OS3.0.5.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2026-01-23",
 					"recovery": "liuqin-ota_full-OS3.0.5.0.VMYCNXM-user-15.0-39685cb85f.zip",
-					"fastboot": "liuqin_images_OS3.0.5.0.VMYCNXM_20260113.0000.00_15.0_cn_d9aa9b2f09.tgz"
+					"fastboot": "liuqin_images_OS3.0.5.0.VMYCNXM_20260113.0000.00_15.0_cn_d9aa9b2f09.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.3.0.VMYCNXM": {
 					"os": "OS3.0.3.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "liuqin-ota_full-OS3.0.3.0.VMYCNXM-user-15.0-4403465d35.zip",
-					"fastboot": "liuqin_images_OS3.0.3.0.VMYCNXM_20251225.0000.00_15.0_cn_a04236f95a.tgz"
+					"fastboot": "liuqin_images_OS3.0.3.0.VMYCNXM_20251225.0000.00_15.0_cn_a04236f95a.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.213.0.VMYCNXM": {
 					"os": "OS2.0.213.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "liuqin-ota_full-OS2.0.213.0.VMYCNXM-user-15.0-c6421e2b8a.zip",
-					"fastboot": "liuqin_images_OS2.0.213.0.VMYCNXM_20251106.0000.00_15.0_cn_3c0a69fd89.tgz"
+					"fastboot": "liuqin_images_OS2.0.213.0.VMYCNXM_20251106.0000.00_15.0_cn_3c0a69fd89.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.212.0.VMYCNXM": {
 					"os": "OS2.0.212.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-10-23",
 					"recovery": "liuqin-ota_full-OS2.0.212.0.VMYCNXM-user-15.0-02935b0fa8.zip",
-					"fastboot": "liuqin_images_OS2.0.212.0.VMYCNXM_20251011.0000.00_15.0_cn_c921ac76a2.tgz"
+					"fastboot": "liuqin_images_OS2.0.212.0.VMYCNXM_20251011.0000.00_15.0_cn_c921ac76a2.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.211.0.VMYCNXM": {
 					"os": "OS2.0.211.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "liuqin-ota_full-OS2.0.211.0.VMYCNXM-user-15.0-83947b6aa4.zip",
-					"fastboot": "liuqin_images_OS2.0.211.0.VMYCNXM_20250915.0000.00_15.0_cn_5fd46f19bf.tgz"
+					"fastboot": "liuqin_images_OS2.0.211.0.VMYCNXM_20250915.0000.00_15.0_cn_5fd46f19bf.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.207.0.VMYCNXM": {
 					"os": "OS2.0.207.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-07-29",
 					"recovery": "liuqin-ota_full-OS2.0.207.0.VMYCNXM-user-15.0-9f8a119635.zip",
-					"fastboot": "liuqin_images_OS2.0.207.0.VMYCNXM_20250722.0000.00_15.0_cn_3817ecac3b.tgz"
+					"fastboot": "liuqin_images_OS2.0.207.0.VMYCNXM_20250722.0000.00_15.0_cn_3817ecac3b.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.203.0.VMYCNXM": {
 					"os": "OS2.0.203.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-06-12",
 					"recovery": "liuqin-ota_full-OS2.0.203.0.VMYCNXM-user-15.0-79c1639861.zip",
-					"fastboot": "liuqin_images_OS2.0.203.0.VMYCNXM_20250609.0000.00_15.0_cn_9b53e582ee.tgz"
+					"fastboot": "liuqin_images_OS2.0.203.0.VMYCNXM_20250609.0000.00_15.0_cn_9b53e582ee.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.9.0.VMYCNXM": {
 					"os": "OS2.0.9.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-05-21",
 					"recovery": "liuqin-ota_full-OS2.0.9.0.VMYCNXM-user-15.0-e7737f26b1.zip",
-					"fastboot": "liuqin_images_OS2.0.9.0.VMYCNXM_20250512.0000.00_15.0_cn_88a3b682cb.tgz"
+					"fastboot": "liuqin_images_OS2.0.9.0.VMYCNXM_20250512.0000.00_15.0_cn_88a3b682cb.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.8.0.VMYCNXM": {
 					"os": "OS2.0.8.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "liuqin-ota_full-OS2.0.8.0.VMYCNXM-user-15.0-ce74fb3ee8.zip",
-					"fastboot": "liuqin_images_OS2.0.8.0.VMYCNXM_20250421.0000.00_15.0_cn_14a9022ae8.tgz"
+					"fastboot": "liuqin_images_OS2.0.8.0.VMYCNXM_20250421.0000.00_15.0_cn_14a9022ae8.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.6.0.VMYCNXM": {
 					"os": "OS2.0.6.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-03-25",
 					"recovery": "liuqin-ota_full-OS2.0.6.0.VMYCNXM-user-15.0-ff2b5906a3.zip",
-					"fastboot": "liuqin_images_OS2.0.6.0.VMYCNXM_20250318.0000.00_15.0_cn_c29f6de5df.tgz"
+					"fastboot": "liuqin_images_OS2.0.6.0.VMYCNXM_20250318.0000.00_15.0_cn_c29f6de5df.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.5.0.VMYCNXM": {
 					"os": "OS2.0.5.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-03-06",
 					"recovery": "liuqin-ota_full-OS2.0.5.0.VMYCNXM-user-15.0-6edebce863.zip",
-					"fastboot": "liuqin_images_OS2.0.5.0.VMYCNXM_20250227.0000.00_15.0_cn_87ada288db.tgz"
+					"fastboot": "liuqin_images_OS2.0.5.0.VMYCNXM_20250227.0000.00_15.0_cn_87ada288db.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.4.0.VMYCNXM": {
 					"os": "OS2.0.4.0.VMYCNXM",
 					"android": "15.0",
 					"release": "2025-01-13",
 					"recovery": "liuqin-ota_full-OS2.0.4.0.VMYCNXM-user-15.0-80529e7ef5.zip",
-					"fastboot": "liuqin_images_OS2.0.4.0.VMYCNXM_20250109.0000.00_15.0_cn_96712ca87d.tgz"
+					"fastboot": "liuqin_images_OS2.0.4.0.VMYCNXM_20250109.0000.00_15.0_cn_96712ca87d.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.14.0.UMYCNXM": {
 					"os": "OS1.0.14.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_LIUQIN_OS1.0.14.0.UMYCNXM_fee88382c1_14.0.zip",
-					"fastboot": "liuqin_images_OS1.0.14.0.UMYCNXM_20241122.0000.00_14.0_cn_af3e0b8927.tgz"
+					"fastboot": "liuqin_images_OS1.0.14.0.UMYCNXM_20241122.0000.00_14.0_cn_af3e0b8927.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.12.0.UMYCNXM": {
 					"os": "OS1.0.12.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2024-10-22",
 					"recovery": "miui_LIUQIN_OS1.0.12.0.UMYCNXM_d1f94db059_14.0.zip",
-					"fastboot": "liuqin_images_OS1.0.12.0.UMYCNXM_20241014.0000.00_14.0_cn_0dc9ab698b.tgz"
+					"fastboot": "liuqin_images_OS1.0.12.0.UMYCNXM_20241014.0000.00_14.0_cn_0dc9ab698b.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.11.0.UMYCNXM": {
 					"os": "OS1.0.11.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2024-10-11",
 					"recovery": "miui_LIUQIN_OS1.0.11.0.UMYCNXM_841a0c6a81_14.0.zip",
-					"fastboot": "liuqin_images_OS1.0.11.0.UMYCNXM_20240920.0000.00_14.0_cn_d5c06831af.tgz"
+					"fastboot": "liuqin_images_OS1.0.11.0.UMYCNXM_20240920.0000.00_14.0_cn_d5c06831af.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.10.0.UMYCNXM": {
 					"os": "OS1.0.10.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2024-09-11",
 					"recovery": "miui_LIUQIN_OS1.0.10.0.UMYCNXM_09446615ba_14.0.zip",
-					"fastboot": "liuqin_images_OS1.0.10.0.UMYCNXM_20240907.0000.00_14.0_cn_7d6aafe549.tgz"
+					"fastboot": "liuqin_images_OS1.0.10.0.UMYCNXM_20240907.0000.00_14.0_cn_7d6aafe549.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.9.0.UMYCNXM": {
 					"os": "OS1.0.9.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2024-09-06",
 					"recovery": "miui_LIUQIN_OS1.0.9.0.UMYCNXM_cb72e06b59_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.7.0.UMYCNXM": {
 					"os": "OS1.0.7.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2024-07-13",
 					"recovery": "miui_LIUQIN_OS1.0.7.0.UMYCNXM_d618a5c980_14.0.zip",
-					"fastboot": "liuqin_images_OS1.0.7.0.UMYCNXM_20240705.0000.00_14.0_cn_8cbf5920be.tgz"
+					"fastboot": "liuqin_images_OS1.0.7.0.UMYCNXM_20240705.0000.00_14.0_cn_8cbf5920be.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.5.0.UMYCNXM": {
 					"os": "OS1.0.5.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2024-04-09",
 					"recovery": "miui_LIUQIN_OS1.0.5.0.UMYCNXM_119a1b6e81_14.0.zip",
-					"fastboot": "liuqin_images_OS1.0.5.0.UMYCNXM_20240315.0000.00_14.0_cn_db8c6300d9.tgz"
+					"fastboot": "liuqin_images_OS1.0.5.0.UMYCNXM_20240315.0000.00_14.0_cn_db8c6300d9.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.4.0.UMYCNXM": {
 					"os": "OS1.0.4.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2024-01-26",
 					"recovery": "miui_LIUQIN_OS1.0.4.0.UMYCNXM_6271a83b02_14.0.zip",
-					"fastboot": "liuqin_images_OS1.0.4.0.UMYCNXM_20240123.0000.00_14.0_cn_f2665bd61f.tgz"
+					"fastboot": "liuqin_images_OS1.0.4.0.UMYCNXM_20240123.0000.00_14.0_cn_f2665bd61f.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.2.0.UMYCNXM": {
 					"os": "OS1.0.2.0.UMYCNXM",
 					"android": "14.0",
 					"release": "2023-12-20",
 					"recovery": "miui_LIUQIN_OS1.0.2.0.UMYCNXM_f2c7b6c511_14.0.zip",
-					"fastboot": "liuqin_images_OS1.0.2.0.UMYCNXM_20231215.0000.00_14.0_cn_840b275aea.tgz"
+					"fastboot": "liuqin_images_OS1.0.2.0.UMYCNXM_20231215.0000.00_14.0_cn_840b275aea.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -224,6 +247,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -243,21 +267,24 @@
 					"android": "14.0",
 					"release": "2025-03-04",
 					"recovery": "miui_LIUQINEPSTDEE_OS1.0.25.2.20.EP.STDEE.M81_4063aa7721_14.0.zip",
-					"fastboot": "liuqin_ep_stdee_images_OS1.0.25.2.20.EP.STDEE.M81_20250220.0000.00_14.0_cn_4e2b15ba04.tgz"
+					"fastboot": "liuqin_ep_stdee_images_OS1.0.25.2.20.EP.STDEE.M81_20250220.0000.00_14.0_cn_4e2b15ba04.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.24.8.8.EP.STDEE.M81": {
 					"os": "OS1.0.24.8.8.EP.STDEE.M81",
 					"android": "14.0",
 					"release": "2024-09-02",
 					"recovery": "miui_LIUQINEPSTDEE_OS1.0.24.8.8.EP.STDEE.M81_b442c4fcfa_14.0.zip",
-					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.8.8.EP.STDEE.M81_20240808.0000.00_14.0_cn_8a9b6022fb.tgz"
+					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.8.8.EP.STDEE.M81_20240808.0000.00_14.0_cn_8a9b6022fb.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.3.25.EP.STDEE.M81": {
 					"os": "OS1.0.24.3.25.EP.STDEE.M81",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_LIUQINEPSTDEE_OS1.0.24.3.25.EP.STDEE.M81_ebbdaf9d83_14.0.zip",
-					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.3.25.EP.STDEE.M81_20240325.0000.00_14.0_cn_020bb98ddc.tgz"
+					"fastboot": "liuqin_ep_stdee_images_OS1.0.24.3.25.EP.STDEE.M81_20240325.0000.00_14.0_cn_020bb98ddc.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -279,6 +306,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -298,7 +326,8 @@
 					"android": "14.0",
 					"release": "2023-12-20",
 					"recovery": "miui_LIUQINDEMO_OS1.0.1.0.UMYCNDM_0c63f06b1a_14.0.zip",
-					"fastboot": "liuqin_demo_images_OS1.0.1.0.UMYCNDM_20231220.0000.00_14.0_cn_d58c981654.tgz"
+					"fastboot": "liuqin_demo_images_OS1.0.1.0.UMYCNDM_20231220.0000.00_14.0_cn_d58c981654.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		}

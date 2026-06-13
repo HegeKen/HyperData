@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -49,14 +50,16 @@
 					"android": "14.0",
 					"release": "2024-05-20",
 					"recovery": "miui_ROCKTWGlobal_OS1.0.4.0.ULUTWXM_118b3cff38_14.0.zip",
-					"fastboot": "rock_tw_global_images_OS1.0.4.0.ULUTWXM_20240429.0000.00_14.0_tw_d4e7d6579b.tgz"
+					"fastboot": "rock_tw_global_images_OS1.0.4.0.ULUTWXM_20240429.0000.00_14.0_tw_d4e7d6579b.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.ULUTWXM": {
 					"os": "OS1.0.1.0.ULUTWXM",
 					"android": "14.0",
 					"release": "2024-02-22",
 					"recovery": "miui_ROCKTWGlobal_OS1.0.1.0.ULUTWXM_28124dfc08_14.0.zip",
-					"fastboot": "rock_tw_global_images_OS1.0.1.0.ULUTWXM_20240126.0000.00_14.0_tw_bcc41fab5b.tgz"
+					"fastboot": "rock_tw_global_images_OS1.0.1.0.ULUTWXM_20240126.0000.00_14.0_tw_bcc41fab5b.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -78,6 +81,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -94,42 +98,48 @@
 					"android": "14.0",
 					"release": "2024-10-21",
 					"recovery": "miui_ROCKGlobal_OS1.0.12.0.ULUMIXM_0bb9c204ce_14.0.zip",
-					"fastboot": "rock_global_images_OS1.0.12.0.ULUMIXM_20241012.0000.00_14.0_global_b5a4c2b376.tgz"
+					"fastboot": "rock_global_images_OS1.0.12.0.ULUMIXM_20241012.0000.00_14.0_global_b5a4c2b376.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.10.0.ULUMIXM": {
 					"os": "OS1.0.10.0.ULUMIXM",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_ROCKGlobal_OS1.0.10.0.ULUMIXM_89c3ae9fdb_14.0.zip",
-					"fastboot": "rock_global_images_OS1.0.10.0.ULUMIXM_20240715.0000.00_14.0_global_3331f38682.tgz"
+					"fastboot": "rock_global_images_OS1.0.10.0.ULUMIXM_20240715.0000.00_14.0_global_3331f38682.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.9.0.ULUMIXM": {
 					"os": "OS1.0.9.0.ULUMIXM",
 					"android": "14.0",
 					"release": "2024-05-20",
 					"recovery": "miui_ROCKGlobal_OS1.0.9.0.ULUMIXM_3bdf63edd0_14.0.zip",
-					"fastboot": "rock_global_images_OS1.0.9.0.ULUMIXM_20240429.0000.00_14.0_global_658f83503a.tgz"
+					"fastboot": "rock_global_images_OS1.0.9.0.ULUMIXM_20240429.0000.00_14.0_global_658f83503a.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.7.0.ULUMIXM": {
 					"os": "OS1.0.7.0.ULUMIXM",
 					"android": "14.0",
 					"release": "2024-04-12",
 					"recovery": "miui_ROCKGlobal_OS1.0.7.0.ULUMIXM_e015c745b0_14.0.zip",
-					"fastboot": "rock_global_images_OS1.0.7.0.ULUMIXM_20240322.0000.00_14.0_global_245469e2e3.tgz"
+					"fastboot": "rock_global_images_OS1.0.7.0.ULUMIXM_20240322.0000.00_14.0_global_245469e2e3.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.3.0.ULUMIXM": {
 					"os": "OS1.0.3.0.ULUMIXM",
 					"android": "14.0",
 					"release": "2024-03-19",
 					"recovery": "miui_ROCKGlobal_OS1.0.3.0.ULUMIXM_08fdeb658b_14.0.zip",
-					"fastboot": "rock_global_images_OS1.0.3.0.ULUMIXM_20240227.0000.00_14.0_global_67d66750a3.tgz"
+					"fastboot": "rock_global_images_OS1.0.3.0.ULUMIXM_20240227.0000.00_14.0_global_67d66750a3.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.ULUMIXM": {
 					"os": "OS1.0.2.0.ULUMIXM",
 					"android": "14.0",
 					"release": "2024-01-15",
 					"recovery": "miui_ROCKGlobal_OS1.0.2.0.ULUMIXM_9efe5227fe_14.0.zip",
-					"fastboot": "rock_global_images_OS1.0.2.0.ULUMIXM_20240104.0000.00_14.0_global_c3bfb1eafa.tgz"
+					"fastboot": "rock_global_images_OS1.0.2.0.ULUMIXM_20240104.0000.00_14.0_global_c3bfb1eafa.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -151,6 +161,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -167,35 +178,40 @@
 					"android": "14.0",
 					"release": "2024-09-03",
 					"recovery": "miui_ROCKEEAGlobal_OS1.0.5.0.ULUEUXM_a356170af3_14.0.zip",
-					"fastboot": "rock_eea_global_images_OS1.0.5.0.ULUEUXM_20240827.0000.00_14.0_eea_bc4bab7912.tgz"
+					"fastboot": "rock_eea_global_images_OS1.0.5.0.ULUEUXM_20240827.0000.00_14.0_eea_bc4bab7912.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.ULUEUXM": {
 					"os": "OS1.0.4.0.ULUEUXM",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_ROCKEEAGlobal_OS1.0.4.0.ULUEUXM_cb87d48c3a_14.0.zip",
-					"fastboot": "rock_eea_global_images_OS1.0.4.0.ULUEUXM_20240715.0000.00_14.0_eea_40eed7364d.tgz"
+					"fastboot": "rock_eea_global_images_OS1.0.4.0.ULUEUXM_20240715.0000.00_14.0_eea_40eed7364d.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.ULUEUXM": {
 					"os": "OS1.0.3.0.ULUEUXM",
 					"android": "14.0",
 					"release": "2024-05-27",
 					"recovery": "miui_ROCKEEAGlobal_OS1.0.3.0.ULUEUXM_5d511370e9_14.0.zip",
-					"fastboot": "rock_eea_global_images_OS1.0.3.0.ULUEUXM_20240506.0000.00_14.0_eea_61e25308e3.tgz"
+					"fastboot": "rock_eea_global_images_OS1.0.3.0.ULUEUXM_20240506.0000.00_14.0_eea_61e25308e3.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.ULUEUXM": {
 					"os": "OS1.0.2.0.ULUEUXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_ROCKEEAGlobal_OS1.0.2.0.ULUEUXM_0e560ef2a3_14.0.zip",
-					"fastboot": "rock_eea_global_images_OS1.0.2.0.ULUEUXM_20240315.0000.00_14.0_eea_3796045c83.tgz"
+					"fastboot": "rock_eea_global_images_OS1.0.2.0.ULUEUXM_20240315.0000.00_14.0_eea_3796045c83.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.ULUEUXM": {
 					"os": "OS1.0.1.0.ULUEUXM",
 					"android": "14.0",
 					"release": "2024-01-25",
 					"recovery": "miui_ROCKEEAGlobal_OS1.0.1.0.ULUEUXM_319d8dd16f_14.0.zip",
-					"fastboot": "rock_eea_global_images_OS1.0.1.0.ULUEUXM_20240112.0000.00_14.0_eea_d7772cbdcc.tgz"
+					"fastboot": "rock_eea_global_images_OS1.0.1.0.ULUEUXM_20240112.0000.00_14.0_eea_d7772cbdcc.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -217,6 +233,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -233,35 +250,40 @@
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_ROCKRUGlobal_OS1.0.6.0.ULURUXM_419e8b1ff6_14.0.zip",
-					"fastboot": "rock_ru_global_images_OS1.0.6.0.ULURUXM_20241021.0000.00_14.0_ru_22697125e4.tgz"
+					"fastboot": "rock_ru_global_images_OS1.0.6.0.ULURUXM_20241021.0000.00_14.0_ru_22697125e4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.ULURUXM": {
 					"os": "OS1.0.5.0.ULURUXM",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_ROCKRUGlobal_OS1.0.5.0.ULURUXM_ae465c9be0_14.0.zip",
-					"fastboot": "rock_ru_global_images_OS1.0.5.0.ULURUXM_20240826.0000.00_14.0_ru_fb429c9529.tgz"
+					"fastboot": "rock_ru_global_images_OS1.0.5.0.ULURUXM_20240826.0000.00_14.0_ru_fb429c9529.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.ULURUXM": {
 					"os": "OS1.0.4.0.ULURUXM",
 					"android": "14.0",
 					"release": "2024-07-01",
 					"recovery": "miui_ROCKRUGlobal_OS1.0.4.0.ULURUXM_3a2a28958b_14.0.zip",
-					"fastboot": "rock_ru_global_images_OS1.0.4.0.ULURUXM_20240612.0000.00_14.0_ru_d009db6855.tgz"
+					"fastboot": "rock_ru_global_images_OS1.0.4.0.ULURUXM_20240612.0000.00_14.0_ru_d009db6855.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.ULURUXM": {
 					"os": "OS1.0.3.0.ULURUXM",
 					"android": "14.0",
 					"release": "2024-04-26",
 					"recovery": "miui_ROCKRUGlobal_OS1.0.3.0.ULURUXM_f88b9b06e2_14.0.zip",
-					"fastboot": "rock_ru_global_images_OS1.0.3.0.ULURUXM_20240409.0000.00_14.0_ru_54e3c3879b.tgz"
+					"fastboot": "rock_ru_global_images_OS1.0.3.0.ULURUXM_20240409.0000.00_14.0_ru_54e3c3879b.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.1.0.ULURUXM": {
 					"os": "OS1.0.1.0.ULURUXM",
 					"android": "14.0",
 					"release": "2024-02-22",
 					"recovery": "miui_ROCKRUGlobal_OS1.0.1.0.ULURUXM_14e0b33d91_14.0.zip",
-					"fastboot": "rock_ru_global_images_OS1.0.1.0.ULURUXM_20240131.0000.00_14.0_ru_be4f196709.tgz"
+					"fastboot": "rock_ru_global_images_OS1.0.1.0.ULURUXM_20240131.0000.00_14.0_ru_be4f196709.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -283,6 +305,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -299,35 +322,40 @@
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_ROCKINGlobal_OS1.0.8.0.ULUINXM_69a0e9e7c2_14.0.zip",
-					"fastboot": "rock_in_global_images_OS1.0.8.0.ULUINXM_20241021.0000.00_14.0_in_422349e337.tgz"
+					"fastboot": "rock_in_global_images_OS1.0.8.0.ULUINXM_20241021.0000.00_14.0_in_422349e337.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.7.0.ULUINXM": {
 					"os": "OS1.0.7.0.ULUINXM",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_ROCKINGlobal_OS1.0.7.0.ULUINXM_cd8fd65d60_14.0.zip",
-					"fastboot": "rock_in_global_images_OS1.0.7.0.ULUINXM_20240730.0000.00_14.0_in_bd3bf47620.tgz"
+					"fastboot": "rock_in_global_images_OS1.0.7.0.ULUINXM_20240730.0000.00_14.0_in_bd3bf47620.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.6.0.ULUINXM": {
 					"os": "OS1.0.6.0.ULUINXM",
 					"android": "14.0",
 					"release": "2024-05-23",
 					"recovery": "miui_ROCKINGlobal_OS1.0.6.0.ULUINXM_e34f9e84c1_14.0.zip",
-					"fastboot": "rock_in_global_images_OS1.0.6.0.ULUINXM_20240509.0000.00_14.0_in_334c9df238.tgz"
+					"fastboot": "rock_in_global_images_OS1.0.6.0.ULUINXM_20240509.0000.00_14.0_in_334c9df238.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.5.0.ULUINXM": {
 					"os": "OS1.0.5.0.ULUINXM",
 					"android": "14.0",
 					"release": "2024-04-15",
 					"recovery": "miui_ROCKINGlobal_OS1.0.5.0.ULUINXM_d5eef16344_14.0.zip",
-					"fastboot": "rock_in_global_images_OS1.0.5.0.ULUINXM_20240402.0000.00_14.0_in_dfd143b48d.tgz"
+					"fastboot": "rock_in_global_images_OS1.0.5.0.ULUINXM_20240402.0000.00_14.0_in_dfd143b48d.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.3.0.ULUINXM": {
 					"os": "OS1.0.3.0.ULUINXM",
 					"android": "14.0",
 					"release": "2024-02-02",
 					"recovery": "miui_ROCKINGlobal_OS1.0.3.0.ULUINXM_435f52bbbb_14.0.zip",
-					"fastboot": "rock_in_global_images_OS1.0.3.0.ULUINXM_20240125.0000.00_14.0_in_a8bddf498b.tgz"
+					"fastboot": "rock_in_global_images_OS1.0.3.0.ULUINXM_20240125.0000.00_14.0_in_a8bddf498b.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -349,6 +377,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -365,35 +394,40 @@
 					"android": "14.0",
 					"release": "2024-11-14",
 					"recovery": "miui_ROCKIDGlobal_OS1.0.7.0.ULUIDXM_71390f0723_14.0.zip",
-					"fastboot": "rock_id_global_images_OS1.0.7.0.ULUIDXM_20241021.0000.00_14.0_id_4e85ea3da7.tgz"
+					"fastboot": "rock_id_global_images_OS1.0.7.0.ULUIDXM_20241021.0000.00_14.0_id_4e85ea3da7.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.ULUIDXM": {
 					"os": "OS1.0.6.0.ULUIDXM",
 					"android": "14.0",
 					"release": "2024-09-18",
 					"recovery": "miui_ROCKIDGlobal_OS1.0.6.0.ULUIDXM_95bf0d7476_14.0.zip",
-					"fastboot": "rock_id_global_images_OS1.0.6.0.ULUIDXM_20240826.0000.00_14.0_id_4b5c6ce4f3.tgz"
+					"fastboot": "rock_id_global_images_OS1.0.6.0.ULUIDXM_20240826.0000.00_14.0_id_4b5c6ce4f3.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.ULUIDXM": {
 					"os": "OS1.0.5.0.ULUIDXM",
 					"android": "14.0",
 					"release": "2024-06-11",
 					"recovery": "miui_ROCKIDGlobal_OS1.0.5.0.ULUIDXM_3c9b536b25_14.0.zip",
-					"fastboot": "rock_id_global_images_OS1.0.5.0.ULUIDXM_20240528.0000.00_14.0_id_73ffa478f8.tgz"
+					"fastboot": "rock_id_global_images_OS1.0.5.0.ULUIDXM_20240528.0000.00_14.0_id_73ffa478f8.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.ULUIDXM": {
 					"os": "OS1.0.3.0.ULUIDXM",
 					"android": "14.0",
 					"release": "2024-04-21",
 					"recovery": "miui_ROCKIDGlobal_OS1.0.3.0.ULUIDXM_efc488dbd6_14.0.zip",
-					"fastboot": "rock_id_global_images_OS1.0.3.0.ULUIDXM_20240326.0000.00_14.0_id_1be002421c.tgz"
+					"fastboot": "rock_id_global_images_OS1.0.3.0.ULUIDXM_20240326.0000.00_14.0_id_1be002421c.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.ULUIDXM": {
 					"os": "OS1.0.1.0.ULUIDXM",
 					"android": "14.0",
 					"release": "2024-02-22",
 					"recovery": "miui_ROCKIDGlobal_OS1.0.1.0.ULUIDXM_15bdd91089_14.0.zip",
-					"fastboot": "rock_id_global_images_OS1.0.1.0.ULUIDXM_20240123.0000.00_14.0_id_9953828f1a.tgz"
+					"fastboot": "rock_id_global_images_OS1.0.1.0.ULUIDXM_20240123.0000.00_14.0_id_9953828f1a.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -415,6 +449,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -431,14 +466,16 @@
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_ROCKTRGlobal_OS1.0.2.0.ULUTRXM_53df2a2205_14.0.zip",
-					"fastboot": "rock_tr_global_images_OS1.0.2.0.ULUTRXM_20240624.0000.00_14.0_tr_8d21a3073d.tgz"
+					"fastboot": "rock_tr_global_images_OS1.0.2.0.ULUTRXM_20240624.0000.00_14.0_tr_8d21a3073d.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.ULUTRXM": {
 					"os": "OS1.0.1.0.ULUTRXM",
 					"android": "14.0",
 					"release": "2024-02-22",
 					"recovery": "miui_ROCKTRGlobal_OS1.0.1.0.ULUTRXM_c29a71a3de_14.0.zip",
-					"fastboot": "rock_tr_global_images_OS1.0.1.0.ULUTRXM_20240202.0000.00_14.0_tr_cb3a5c3d6f.tgz"
+					"fastboot": "rock_tr_global_images_OS1.0.1.0.ULUTRXM_20240202.0000.00_14.0_tr_cb3a5c3d6f.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		}

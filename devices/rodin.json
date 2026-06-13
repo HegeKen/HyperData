@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -56,7 +57,8 @@
 					"release": "2026-04-14",
 					"recovery": "rodin-ota_full-OS3.0.302.0.WOJCNXM-user-16.0-753523063d.zip",
 					"fastboot": "rodin_images_OS3.0.302.0.WOJCNXM_20260407.0000.00_16.0_cn_3a31b3707f.tgz",
-					"ctelecom": "rodin_images_OS3.0.302.0.WOJCNXM_20260407.0000.00_16.0_cn_chinatelecom_5268e57d43.tgz"
+					"ctelecom": "rodin_images_OS3.0.302.0.WOJCNXM_20260407.0000.00_16.0_cn_chinatelecom_5268e57d43.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WOJCNXM": {
 					"os": "OS3.0.4.0.WOJCNXM",
@@ -64,7 +66,8 @@
 					"release": "2026-01-27",
 					"recovery": "rodin-ota_full-OS3.0.4.0.WOJCNXM-user-16.0-5c06cb9174.zip",
 					"fastboot": "rodin_images_OS3.0.4.0.WOJCNXM_20260121.0000.00_16.0_cn_5f4bc2aafd.tgz",
-					"ctelecom": "rodin_images_OS3.0.4.0.WOJCNXM_20260121.0000.00_16.0_cn_chinatelecom_3d57f3484b.tgz"
+					"ctelecom": "rodin_images_OS3.0.4.0.WOJCNXM_20260121.0000.00_16.0_cn_chinatelecom_3d57f3484b.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.3.0.WOJCNXM": {
 					"os": "OS3.0.3.0.WOJCNXM",
@@ -72,7 +75,8 @@
 					"release": "2025-12-18",
 					"recovery": "rodin-ota_full-OS3.0.3.0.WOJCNXM-user-16.0-13fa2da1f5.zip",
 					"fastboot": "rodin_images_OS3.0.3.0.WOJCNXM_20251214.0000.00_16.0_cn_f3c62eceb8.tgz",
-					"ctelecom": "rodin_images_OS3.0.3.0.WOJCNXM_20251214.0000.00_16.0_cn_chinatelecom_6a4f00b7c2.tgz"
+					"ctelecom": "rodin_images_OS3.0.3.0.WOJCNXM_20251214.0000.00_16.0_cn_chinatelecom_6a4f00b7c2.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.2.0.WOJCNXM": {
 					"os": "OS3.0.2.0.WOJCNXM",
@@ -80,7 +84,8 @@
 					"release": "2025-10-28",
 					"recovery": "rodin-ota_full-OS3.0.2.0.WOJCNXM-user-16.0-710d36eea5.zip",
 					"fastboot": "rodin_images_OS3.0.2.0.WOJCNXM_20251017.0000.00_16.0_cn_d6a7750a72.tgz",
-					"ctelecom": "rodin_images_OS3.0.2.0.WOJCNXM_20251017.0000.00_16.0_cn_chinatelecom_8d452d1c9c.tgz"
+					"ctelecom": "rodin_images_OS3.0.2.0.WOJCNXM_20251017.0000.00_16.0_cn_chinatelecom_8d452d1c9c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.208.0.VOJCNXM": {
 					"os": "OS2.0.208.0.VOJCNXM",
@@ -88,7 +93,8 @@
 					"release": "2025-10-14",
 					"recovery": "rodin-ota_full-OS2.0.208.0.VOJCNXM-user-15.0-7342995578.zip",
 					"fastboot": "rodin_images_OS2.0.208.0.VOJCNXM_20251009.0000.00_15.0_cn_82d7d9682a.tgz",
-					"ctelecom": "rodin_images_OS2.0.208.0.VOJCNXM_20251009.0000.00_15.0_cn_chinatelecom_c518c2fcbb.tgz"
+					"ctelecom": "rodin_images_OS2.0.208.0.VOJCNXM_20251009.0000.00_15.0_cn_chinatelecom_c518c2fcbb.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.206.0.VOJCNXM": {
 					"os": "OS2.0.206.0.VOJCNXM",
@@ -96,7 +102,8 @@
 					"release": "2025-09-08",
 					"recovery": "rodin-ota_full-OS2.0.206.0.VOJCNXM-user-15.0-284d108a5c.zip",
 					"fastboot": "rodin_images_OS2.0.206.0.VOJCNXM_20250828.0000.00_15.0_cn_ae6de55335.tgz",
-					"ctelecom": "rodin_images_OS2.0.206.0.VOJCNXM_20250828.0000.00_15.0_cn_chinatelecom_85c10a494b.tgz"
+					"ctelecom": "rodin_images_OS2.0.206.0.VOJCNXM_20250828.0000.00_15.0_cn_chinatelecom_85c10a494b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.205.0.VOJCNXM": {
 					"os": "OS2.0.205.0.VOJCNXM",
@@ -104,7 +111,8 @@
 					"release": "2025-08-01",
 					"recovery": "rodin-ota_full-OS2.0.205.0.VOJCNXM-user-15.0-e4a3789b7a.zip",
 					"fastboot": "rodin_images_OS2.0.205.0.VOJCNXM_20250724.0000.00_15.0_cn_10faedec68.tgz",
-					"ctelecom": "rodin_images_OS2.0.205.0.VOJCNXM_20250724.0000.00_15.0_cn_chinatelecom_58cc1c6e4c.tgz"
+					"ctelecom": "rodin_images_OS2.0.205.0.VOJCNXM_20250724.0000.00_15.0_cn_chinatelecom_58cc1c6e4c.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.204.0.VOJCNXM": {
 					"os": "OS2.0.204.0.VOJCNXM",
@@ -112,7 +120,8 @@
 					"release": "2025-07-02",
 					"recovery": "rodin-ota_full-OS2.0.204.0.VOJCNXM-user-15.0-5bf2bb68bb.zip",
 					"fastboot": "rodin_images_OS2.0.204.0.VOJCNXM_20250623.0000.00_15.0_cn_f64693d715.tgz",
-					"ctelecom": "rodin_images_OS2.0.204.0.VOJCNXM_20250623.0000.00_15.0_cn_chinatelecom_01480740fd.tgz"
+					"ctelecom": "rodin_images_OS2.0.204.0.VOJCNXM_20250623.0000.00_15.0_cn_chinatelecom_01480740fd.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.203.0.VOJCNXM": {
 					"os": "OS2.0.203.0.VOJCNXM",
@@ -120,7 +129,8 @@
 					"release": "2025-06-04",
 					"recovery": "rodin-ota_full-OS2.0.203.0.VOJCNXM-user-15.0-c2eaa1cc00.zip",
 					"fastboot": "rodin_images_OS2.0.203.0.VOJCNXM_20250529.0000.00_15.0_cn_d0a14c29d8.tgz",
-					"ctelecom": "rodin_images_OS2.0.203.0.VOJCNXM_20250529.0000.00_15.0_cn_chinatelecom_694deb9674.tgz"
+					"ctelecom": "rodin_images_OS2.0.203.0.VOJCNXM_20250529.0000.00_15.0_cn_chinatelecom_694deb9674.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.110.0.VOJCNXM": {
 					"os": "OS2.0.110.0.VOJCNXM",
@@ -128,7 +138,8 @@
 					"release": "2025-04-30",
 					"recovery": "rodin-ota_full-OS2.0.110.0.VOJCNXM-user-15.0-1f74964ee3.zip",
 					"fastboot": "rodin_images_OS2.0.110.0.VOJCNXM_20250427.0000.00_15.0_cn_498913612a.tgz",
-					"ctelecom": "rodin_images_OS2.0.110.0.VOJCNXM_20250427.0000.00_15.0_cn_chinatelecom_35f8416ec8.tgz"
+					"ctelecom": "rodin_images_OS2.0.110.0.VOJCNXM_20250427.0000.00_15.0_cn_chinatelecom_35f8416ec8.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.109.0.VOJCNXM": {
 					"os": "OS2.0.109.0.VOJCNXM",
@@ -136,7 +147,8 @@
 					"release": "2025-04-09",
 					"recovery": "rodin-ota_full-OS2.0.109.0.VOJCNXM-user-15.0-9ed36383e6.zip",
 					"fastboot": "rodin_images_OS2.0.109.0.VOJCNXM_20250331.0000.00_15.0_cn_8828371262.tgz",
-					"ctelecom": "rodin_images_OS2.0.109.0.VOJCNXM_20250331.0000.00_15.0_cn_chinatelecom_26c0779259.tgz"
+					"ctelecom": "rodin_images_OS2.0.109.0.VOJCNXM_20250331.0000.00_15.0_cn_chinatelecom_26c0779259.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.108.0.VOJCNXM": {
 					"os": "OS2.0.108.0.VOJCNXM",
@@ -144,7 +156,8 @@
 					"release": "2025-03-26",
 					"recovery": "rodin-ota_full-OS2.0.108.0.VOJCNXM-user-15.0-998c5a40d7.zip",
 					"fastboot": "rodin_images_OS2.0.108.0.VOJCNXM_20250323.0000.00_15.0_cn_b5cd87632e.tgz",
-					"ctelecom": "rodin_images_OS2.0.108.0.VOJCNXM_20250323.0000.00_15.0_cn_chinatelecom_cfb6b7bd4c.tgz"
+					"ctelecom": "rodin_images_OS2.0.108.0.VOJCNXM_20250323.0000.00_15.0_cn_chinatelecom_cfb6b7bd4c.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.103.0.VOJCNXM": {
 					"os": "OS2.0.103.0.VOJCNXM",
@@ -152,7 +165,8 @@
 					"release": "2025-02-12",
 					"recovery": "rodin-ota_full-OS2.0.103.0.VOJCNXM-user-15.0-7e30f0941c.zip",
 					"fastboot": "rodin_images_OS2.0.103.0.VOJCNXM_20250210.0000.00_15.0_cn_4d6441af4e.tgz",
-					"ctelecom": "rodin_images_OS2.0.103.0.VOJCNXM_20250210.0000.00_15.0_cn_chinatelecom_f4fd3be00c.tgz"
+					"ctelecom": "rodin_images_OS2.0.103.0.VOJCNXM_20250210.0000.00_15.0_cn_chinatelecom_f4fd3be00c.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.101.0.VOJCNXM": {
 					"os": "OS2.0.101.0.VOJCNXM",
@@ -160,7 +174,8 @@
 					"release": "2025-01-24",
 					"recovery": "rodin-ota_full-OS2.0.101.0.VOJCNXM-user-15.0-e8226fb7ab.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.5.0.VOJCNXM": {
 					"os": "OS2.0.5.0.VOJCNXM",
@@ -168,7 +183,8 @@
 					"release": "2025-01-02",
 					"recovery": "rodin-ota_full-OS2.0.5.0.VOJCNXM-user-15.0-a8d6646bde.zip",
 					"fastboot": "rodin_images_OS2.0.5.0.VOJCNXM_20241226.0000.00_15.0_cn_d319549023.tgz",
-					"ctelecom": "rodin_images_OS2.0.5.0.VOJCNXM_20241226.0000.00_15.0_cn_chinatelecom_bd7c05fd7c.tgz"
+					"ctelecom": "rodin_images_OS2.0.5.0.VOJCNXM_20241226.0000.00_15.0_cn_chinatelecom_bd7c05fd7c.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.3.0.VOJCNXM": {
 					"os": "OS2.0.3.0.VOJCNXM",
@@ -206,6 +222,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -227,7 +244,8 @@
 					"release": "2025-06-18",
 					"recovery": "rodin_demo-ota_full-OS2.0.201.0.VOJCNDM-user-15.0-4e5ade197c.zip",
 					"fastboot": "rodin_demo_images_OS2.0.201.0.VOJCNDM_20250612.0000.00_15.0_cn_c849eff240.tgz",
-					"ctelecom": "rodin_demo_images_OS2.0.201.0.VOJCNDM_20250612.0000.00_15.0_cn_chinatelecom_82102a11fb.tgz"
+					"ctelecom": "rodin_demo_images_OS2.0.201.0.VOJCNDM_20250612.0000.00_15.0_cn_chinatelecom_82102a11fb.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.103.0.VOJCNDM": {
 					"os": "OS2.0.103.0.VOJCNDM",
@@ -235,7 +253,8 @@
 					"release": "2025-05-23",
 					"recovery": "rodin_demo-ota_full-OS2.0.103.0.VOJCNDM-user-15.0-363bac88e7.zip",
 					"fastboot": "rodin_demo_images_OS2.0.103.0.VOJCNDM_20250521.0000.00_15.0_cn_71611898af.tgz",
-					"ctelecom": "rodin_demo_images_OS2.0.103.0.VOJCNDM_20250521.0000.00_15.0_cn_chinatelecom_bff6687cf8.tgz"
+					"ctelecom": "rodin_demo_images_OS2.0.103.0.VOJCNDM_20250521.0000.00_15.0_cn_chinatelecom_bff6687cf8.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.VOJCNDM": {
 					"os": "OS2.0.2.0.VOJCNDM",
@@ -265,6 +284,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -281,91 +301,104 @@
 					"android": "16.0",
 					"release": "2026-05-12",
 					"recovery": "rodin_tw_global-ota_full-OS3.0.300.0.WOJTWXM-user-16.0-9a2c723cd6.zip",
-					"fastboot": "rodin_tw_global_images_OS3.0.300.0.WOJTWXM_20260506.0000.00_16.0_tw_5d0527cbb5.tgz"
+					"fastboot": "rodin_tw_global_images_OS3.0.300.0.WOJTWXM_20260506.0000.00_16.0_tw_5d0527cbb5.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.5.0.WOJTWXM": {
 					"os": "OS3.0.5.0.WOJTWXM",
 					"android": "16.0",
 					"release": "2026-01-26",
 					"recovery": "rodin_tw_global-ota_full-OS3.0.5.0.WOJTWXM-user-16.0-48f871e178.zip",
-					"fastboot": "rodin_tw_global_images_OS3.0.5.0.WOJTWXM_20260114.0000.00_16.0_tw_f245d260af.tgz"
+					"fastboot": "rodin_tw_global_images_OS3.0.5.0.WOJTWXM_20260114.0000.00_16.0_tw_f245d260af.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.4.0.WOJTWXM": {
 					"os": "OS3.0.4.0.WOJTWXM",
 					"android": "16.0",
 					"release": "2025-12-23",
 					"recovery": "rodin_tw_global-ota_full-OS3.0.4.0.WOJTWXM-user-16.0-d639bcc233.zip",
-					"fastboot": "rodin_tw_global_images_OS3.0.4.0.WOJTWXM_20251216.0000.00_16.0_tw_3355726e88.tgz"
+					"fastboot": "rodin_tw_global_images_OS3.0.4.0.WOJTWXM_20251216.0000.00_16.0_tw_3355726e88.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOJTWXM": {
 					"os": "OS2.0.204.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-11-20",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.204.0.VOJTWXM-user-15.0-7be0988cba.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.204.0.VOJTWXM_20251107.0000.00_15.0_tw_99dde8b93d.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.204.0.VOJTWXM_20251107.0000.00_15.0_tw_99dde8b93d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOJTWXM": {
 					"os": "OS2.0.203.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-10-24",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.203.0.VOJTWXM-user-15.0-9efb14e746.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.203.0.VOJTWXM_20251010.0000.00_15.0_tw_39d57eda5c.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.203.0.VOJTWXM_20251010.0000.00_15.0_tw_39d57eda5c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOJTWXM": {
 					"os": "OS2.0.202.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-09-25",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.202.0.VOJTWXM-user-15.0-f9603117ce.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.202.0.VOJTWXM_20250905.0000.00_15.0_tw_e4dbca53ab.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.202.0.VOJTWXM_20250905.0000.00_15.0_tw_e4dbca53ab.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOJTWXM": {
 					"os": "OS2.0.201.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.201.0.VOJTWXM-user-15.0-39ff208866.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.201.0.VOJTWXM_20250804.0000.00_15.0_tw_cc96b89751.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.201.0.VOJTWXM_20250804.0000.00_15.0_tw_cc96b89751.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.200.0.VOJTWXM": {
 					"os": "OS2.0.200.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.200.0.VOJTWXM-user-15.0-7d62795484.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.200.0.VOJTWXM_20250701.0000.00_15.0_tw_241d41115c.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.200.0.VOJTWXM_20250701.0000.00_15.0_tw_241d41115c.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VOJTWXM": {
 					"os": "OS2.0.103.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.103.0.VOJTWXM-user-15.0-0831c0028b.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.103.0.VOJTWXM_20250604.0000.00_15.0_tw_b2bf337308.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.103.0.VOJTWXM_20250604.0000.00_15.0_tw_b2bf337308.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.102.0.VOJTWXM": {
 					"os": "OS2.0.102.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.102.0.VOJTWXM-user-15.0-57dc69d9ce.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.102.0.VOJTWXM_20250507.0000.00_15.0_tw_aef72d540a.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.102.0.VOJTWXM_20250507.0000.00_15.0_tw_aef72d540a.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VOJTWXM": {
 					"os": "OS2.0.101.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.101.0.VOJTWXM-user-15.0-b0cc754410.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.101.0.VOJTWXM_20250414.0000.00_15.0_tw_7803fd14d4.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.101.0.VOJTWXM_20250414.0000.00_15.0_tw_7803fd14d4.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VOJTWXM": {
 					"os": "OS2.0.100.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-03-24",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.100.0.VOJTWXM-user-15.0-de13095578.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.100.0.VOJTWXM_20250310.0000.00_15.0_tw_f76fedfe43.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.100.0.VOJTWXM_20250310.0000.00_15.0_tw_f76fedfe43.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VOJTWXM": {
 					"os": "OS2.0.2.0.VOJTWXM",
 					"android": "15.0",
 					"release": "2025-02-11",
 					"recovery": "rodin_tw_global-ota_full-OS2.0.2.0.VOJTWXM-user-15.0-a4d14369b0.zip",
-					"fastboot": "rodin_tw_global_images_OS2.0.2.0.VOJTWXM_20250121.0000.00_15.0_tw_ad1c64a9f9.tgz"
+					"fastboot": "rodin_tw_global_images_OS2.0.2.0.VOJTWXM_20250121.0000.00_15.0_tw_ad1c64a9f9.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -387,6 +420,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -403,119 +437,136 @@
 					"android": "16.0",
 					"release": "2026-03-26",
 					"recovery": "rodin_global-ota_full-OS3.0.10.0.WOJMIXM-user-16.0-7ea48324a1.zip",
-					"fastboot": "rodin_global_images_OS3.0.10.0.WOJMIXM_20260317.0000.00_16.0_global_bdb1f7fd67.tgz"
+					"fastboot": "rodin_global_images_OS3.0.10.0.WOJMIXM_20260317.0000.00_16.0_global_bdb1f7fd67.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.9.0.WOJMIXM": {
 					"os": "OS3.0.9.0.WOJMIXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "rodin_global-ota_full-OS3.0.9.0.WOJMIXM-user-16.0-f5dfcf01a0.zip",
-					"fastboot": "rodin_global_images_OS3.0.9.0.WOJMIXM_20260121.0000.00_16.0_global_6c4a17b4ed.tgz"
+					"fastboot": "rodin_global_images_OS3.0.9.0.WOJMIXM_20260121.0000.00_16.0_global_6c4a17b4ed.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.8.0.WOJMIXM": {
 					"os": "OS3.0.8.0.WOJMIXM",
 					"android": "16.0",
 					"release": "2026-01-11",
 					"recovery": "rodin_global-ota_full-OS3.0.8.0.WOJMIXM-user-16.0-b2fc4bdfd7.zip",
-					"fastboot": "rodin_global_images_OS3.0.8.0.WOJMIXM_20251231.0000.00_16.0_global_48089eca1c.tgz"
+					"fastboot": "rodin_global_images_OS3.0.8.0.WOJMIXM_20251231.0000.00_16.0_global_48089eca1c.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.7.0.WOJMIXM": {
 					"os": "OS3.0.7.0.WOJMIXM",
 					"android": "16.0",
 					"release": "2025-12-23",
 					"recovery": "rodin_global-ota_full-OS3.0.7.0.WOJMIXM-user-16.0-cb1740aa51.zip",
-					"fastboot": "rodin_global_images_OS3.0.7.0.WOJMIXM_20251216.0000.00_16.0_global_ff3b0dd94e.tgz"
+					"fastboot": "rodin_global_images_OS3.0.7.0.WOJMIXM_20251216.0000.00_16.0_global_ff3b0dd94e.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.5.0.WOJMIXM": {
 					"os": "OS3.0.5.0.WOJMIXM",
 					"android": "16.0",
 					"release": "2025-12-05",
 					"recovery": "rodin_global-ota_full-OS3.0.5.0.WOJMIXM-user-16.0-13ddcba31c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VOJMIXM": {
 					"os": "OS2.0.206.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-11-12",
 					"recovery": "rodin_global-ota_full-OS2.0.206.0.VOJMIXM-user-15.0-8495cf74b4.zip",
-					"fastboot": "rodin_global_images_OS2.0.206.0.VOJMIXM_20251029.0000.00_15.0_global_4c994dc5ec.tgz"
+					"fastboot": "rodin_global_images_OS2.0.206.0.VOJMIXM_20251029.0000.00_15.0_global_4c994dc5ec.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOJMIXM": {
 					"os": "OS2.0.205.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-10-13",
 					"recovery": "rodin_global-ota_full-OS2.0.205.0.VOJMIXM-user-15.0-24541da7f5.zip",
-					"fastboot": "rodin_global_images_OS2.0.205.0.VOJMIXM_20250925.0000.00_15.0_global_714b3b6ad7.tgz"
+					"fastboot": "rodin_global_images_OS2.0.205.0.VOJMIXM_20250925.0000.00_15.0_global_714b3b6ad7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VOJMIXM": {
 					"os": "OS2.0.204.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-09-08",
 					"recovery": "rodin_global-ota_full-OS2.0.204.0.VOJMIXM-user-15.0-17ba2e1869.zip",
-					"fastboot": "rodin_global_images_OS2.0.204.0.VOJMIXM_20250825.0000.00_15.0_global_e9861df0bc.tgz"
+					"fastboot": "rodin_global_images_OS2.0.204.0.VOJMIXM_20250825.0000.00_15.0_global_e9861df0bc.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VOJMIXM": {
 					"os": "OS2.0.203.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "rodin_global-ota_full-OS2.0.203.0.VOJMIXM-user-15.0-56cb977ae0.zip",
-					"fastboot": "rodin_global_images_OS2.0.203.0.VOJMIXM_20250805.0000.00_15.0_global_24f233882c.tgz"
+					"fastboot": "rodin_global_images_OS2.0.203.0.VOJMIXM_20250805.0000.00_15.0_global_24f233882c.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.201.0.VOJMIXM": {
 					"os": "OS2.0.201.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-07-08",
 					"recovery": "rodin_global-ota_full-OS2.0.201.0.VOJMIXM-user-15.0-2deee8e849.zip",
-					"fastboot": "rodin_global_images_OS2.0.201.0.VOJMIXM_20250701.0000.00_15.0_global_cac4ea3b87.tgz"
+					"fastboot": "rodin_global_images_OS2.0.201.0.VOJMIXM_20250701.0000.00_15.0_global_cac4ea3b87.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VOJMIXM": {
 					"os": "OS2.0.104.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-06-09",
 					"recovery": "rodin_global-ota_full-OS2.0.104.0.VOJMIXM-user-15.0-681f6c5397.zip",
-					"fastboot": "rodin_global_images_OS2.0.104.0.VOJMIXM_20250527.0000.00_15.0_global_48aacc682c.tgz"
+					"fastboot": "rodin_global_images_OS2.0.104.0.VOJMIXM_20250527.0000.00_15.0_global_48aacc682c.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.103.0.VOJMIXM": {
 					"os": "OS2.0.103.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-05-18",
 					"recovery": "rodin_global-ota_full-OS2.0.103.0.VOJMIXM-user-15.0-21dd0b4bf0.zip",
-					"fastboot": "rodin_global_images_OS2.0.103.0.VOJMIXM_20250507.0000.00_15.0_global_e3ba78dd80.tgz"
+					"fastboot": "rodin_global_images_OS2.0.103.0.VOJMIXM_20250507.0000.00_15.0_global_e3ba78dd80.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VOJMIXM": {
 					"os": "OS2.0.101.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-03-28",
 					"recovery": "rodin_global-ota_full-OS2.0.101.0.VOJMIXM-user-15.0-3fa3c6e8d1.zip",
-					"fastboot": "rodin_global_images_OS2.0.101.0.VOJMIXM_20250319.0000.00_15.0_global_f6475c4413.tgz"
+					"fastboot": "rodin_global_images_OS2.0.101.0.VOJMIXM_20250319.0000.00_15.0_global_f6475c4413.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.10.0.VOJMIXM": {
 					"os": "OS2.0.10.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-02-25",
 					"recovery": "rodin_global-ota_full-OS2.0.10.0.VOJMIXM-user-15.0-eed6f9b94d.zip",
-					"fastboot": "rodin_global_images_OS2.0.10.0.VOJMIXM_20250214.0000.00_15.0_global_6fe858acbc.tgz"
+					"fastboot": "rodin_global_images_OS2.0.10.0.VOJMIXM_20250214.0000.00_15.0_global_6fe858acbc.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.9.0.VOJMIXM": {
 					"os": "OS2.0.9.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-02-08",
 					"recovery": "rodin_global-ota_full-OS2.0.9.0.VOJMIXM-user-15.0-d077b00098.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.8.0.VOJMIXM": {
 					"os": "OS2.0.8.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-01-09",
 					"recovery": "rodin_global-ota_full-OS2.0.8.0.VOJMIXM-user-15.0-f4d55ab50b.zip",
-					"fastboot": "rodin_global_images_OS2.0.8.0.VOJMIXM_20250109.0000.00_15.0_global_74333cc131.tgz"
+					"fastboot": "rodin_global_images_OS2.0.8.0.VOJMIXM_20250109.0000.00_15.0_global_74333cc131.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.7.0.VOJMIXM": {
 					"os": "OS2.0.7.0.VOJMIXM",
 					"android": "15.0",
 					"release": "2025-01-09",
 					"recovery": "rodin_global-ota_full-OS2.0.7.0.VOJMIXM-user-15.0-be1de14b2c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -537,6 +588,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -553,119 +605,136 @@
 					"android": "16.0",
 					"release": "2026-04-27",
 					"recovery": "rodin_eea_global-ota_full-OS3.0.300.0.WOJEUXM-user-16.0-49a3d67a90.zip",
-					"fastboot": "rodin_eea_global_images_OS3.0.300.0.WOJEUXM_20260413.0000.00_16.0_eea_f9271a786d.tgz"
+					"fastboot": "rodin_eea_global_images_OS3.0.300.0.WOJEUXM_20260413.0000.00_16.0_eea_f9271a786d.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.5.0.WOJEUXM": {
 					"os": "OS3.0.5.0.WOJEUXM",
 					"android": "16.0",
 					"release": "2026-01-26",
 					"recovery": "rodin_eea_global-ota_full-OS3.0.5.0.WOJEUXM-user-16.0-89c688a3fe.zip",
-					"fastboot": "rodin_eea_global_images_OS3.0.5.0.WOJEUXM_20260114.0000.00_16.0_eea_a85b4b4475.tgz"
+					"fastboot": "rodin_eea_global_images_OS3.0.5.0.WOJEUXM_20260114.0000.00_16.0_eea_a85b4b4475.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.4.0.WOJEUXM": {
 					"os": "OS3.0.4.0.WOJEUXM",
 					"android": "16.0",
 					"release": "2026-01-04",
 					"recovery": "rodin_eea_global-ota_full-OS3.0.4.0.WOJEUXM-user-16.0-c62b9a36ba.zip",
-					"fastboot": "rodin_eea_global_images_OS3.0.4.0.WOJEUXM_20251224.0000.00_16.0_eea_4e40e40534.tgz"
+					"fastboot": "rodin_eea_global_images_OS3.0.4.0.WOJEUXM_20251224.0000.00_16.0_eea_4e40e40534.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.3.0.WOJEUXM": {
 					"os": "OS3.0.3.0.WOJEUXM",
 					"android": "16.0",
 					"release": "2025-12-04",
 					"recovery": "rodin_eea_global-ota_full-OS3.0.3.0.WOJEUXM-user-16.0-fcc86f0093.zip",
-					"fastboot": "rodin_eea_global_images_OS3.0.3.0.WOJEUXM_20251126.0000.00_16.0_eea_158be81ce8.tgz"
+					"fastboot": "rodin_eea_global_images_OS3.0.3.0.WOJEUXM_20251126.0000.00_16.0_eea_158be81ce8.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WOJEUXM": {
 					"os": "OS3.0.2.0.WOJEUXM",
 					"android": "16.0",
 					"release": "2025-11-17",
 					"recovery": "rodin_eea_global-ota_full-OS3.0.2.0.WOJEUXM-user-16.0-7233fc1046.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VOJEUXM": {
 					"os": "OS2.0.206.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.206.0.VOJEUXM-user-15.0-b2f12b3924.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.206.0.VOJEUXM_20250929.0000.00_15.0_eea_ebddd7db3f.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.206.0.VOJEUXM_20250929.0000.00_15.0_eea_ebddd7db3f.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VOJEUXM": {
 					"os": "OS2.0.205.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-09-25",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.205.0.VOJEUXM-user-15.0-15591c29aa.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.205.0.VOJEUXM_20250905.0000.00_15.0_eea_a784a4d583.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.205.0.VOJEUXM_20250905.0000.00_15.0_eea_a784a4d583.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VOJEUXM": {
 					"os": "OS2.0.204.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.204.0.VOJEUXM-user-15.0-ba73caa314.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.204.0.VOJEUXM_20250804.0000.00_15.0_eea_812fdcf185.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.204.0.VOJEUXM_20250804.0000.00_15.0_eea_812fdcf185.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.203.0.VOJEUXM": {
 					"os": "OS2.0.203.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-07-22",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.203.0.VOJEUXM-user-15.0-8169a45876.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.203.0.VOJEUXM_20250714.0000.00_15.0_eea_afbe40d7cc.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.203.0.VOJEUXM_20250714.0000.00_15.0_eea_afbe40d7cc.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.201.0.VOJEUXM": {
 					"os": "OS2.0.201.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.201.0.VOJEUXM-user-15.0-b7e2b38a40.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.201.0.VOJEUXM_20250617.0000.00_15.0_eea_a6c849e6e7.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.201.0.VOJEUXM_20250617.0000.00_15.0_eea_a6c849e6e7.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.102.0.VOJEUXM": {
 					"os": "OS2.0.102.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.102.0.VOJEUXM-user-15.0-3fd6746344.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.102.0.VOJEUXM_20250507.0000.00_15.0_eea_f0fd0f3fa9.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.102.0.VOJEUXM_20250507.0000.00_15.0_eea_f0fd0f3fa9.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VOJEUXM": {
 					"os": "OS2.0.101.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-03-28",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.101.0.VOJEUXM-user-15.0-c3f10ad369.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.101.0.VOJEUXM_20250319.0000.00_15.0_eea_f048b02b44.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.101.0.VOJEUXM_20250319.0000.00_15.0_eea_f048b02b44.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.100.0.VOJEUXM": {
 					"os": "OS2.0.100.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-03-14",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.100.0.VOJEUXM-user-15.0-9fd56831db.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.100.0.VOJEUXM_20250303.0000.00_15.0_eea_85934db6a7.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.100.0.VOJEUXM_20250303.0000.00_15.0_eea_85934db6a7.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.13.0.VOJEUXM": {
 					"os": "OS2.0.13.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-02-26",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.13.0.VOJEUXM-user-15.0-ae03c09391.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.13.0.VOJEUXM_20250220.0000.00_15.0_eea_b7e6140510.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.13.0.VOJEUXM_20250220.0000.00_15.0_eea_b7e6140510.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.11.0.VOJEUXM": {
 					"os": "OS2.0.11.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-02-11",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.11.0.VOJEUXM-user-15.0-0155f4105f.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.11.0.VOJEUXM_20250121.0000.00_15.0_eea_61314f6988.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.11.0.VOJEUXM_20250121.0000.00_15.0_eea_61314f6988.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.10.0.VOJEUXM": {
 					"os": "OS2.0.10.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-01-09",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.10.0.VOJEUXM-user-15.0-f9989105e6.zip",
-					"fastboot": "rodin_eea_global_images_OS2.0.10.0.VOJEUXM_20250109.0000.00_15.0_eea_e75ab4b422.tgz"
+					"fastboot": "rodin_eea_global_images_OS2.0.10.0.VOJEUXM_20250109.0000.00_15.0_eea_e75ab4b422.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.9.0.VOJEUXM": {
 					"os": "OS2.0.9.0.VOJEUXM",
 					"android": "15.0",
 					"release": "2025-01-09",
 					"recovery": "rodin_eea_global-ota_full-OS2.0.9.0.VOJEUXM-user-15.0-3bd642913a.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -687,6 +756,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -703,91 +773,104 @@
 					"android": "16.0",
 					"release": "2026-04-30",
 					"recovery": "rodin_ru_global-ota_full-OS3.0.300.0.WOJRUXM-user-16.0-6c16838834.zip",
-					"fastboot": "rodin_ru_global_images_OS3.0.300.0.WOJRUXM_20260418.0000.00_16.0_ru_7e04bf55af.tgz"
+					"fastboot": "rodin_ru_global_images_OS3.0.300.0.WOJRUXM_20260418.0000.00_16.0_ru_7e04bf55af.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.5.0.WOJRUXM": {
 					"os": "OS3.0.5.0.WOJRUXM",
 					"android": "16.0",
 					"release": "2026-01-26",
 					"recovery": "rodin_ru_global-ota_full-OS3.0.5.0.WOJRUXM-user-16.0-f988dc6809.zip",
-					"fastboot": "rodin_ru_global_images_OS3.0.5.0.WOJRUXM_20260114.0000.00_16.0_ru_e7bf75303a.tgz"
+					"fastboot": "rodin_ru_global_images_OS3.0.5.0.WOJRUXM_20260114.0000.00_16.0_ru_e7bf75303a.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.4.0.WOJRUXM": {
 					"os": "OS3.0.4.0.WOJRUXM",
 					"android": "16.0",
 					"release": "2025-12-23",
 					"recovery": "rodin_ru_global-ota_full-OS3.0.4.0.WOJRUXM-user-16.0-b9a450162d.zip",
-					"fastboot": "rodin_ru_global_images_OS3.0.4.0.WOJRUXM_20251216.0000.00_16.0_ru_faee685afa.tgz"
+					"fastboot": "rodin_ru_global_images_OS3.0.4.0.WOJRUXM_20251216.0000.00_16.0_ru_faee685afa.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOJRUXM": {
 					"os": "OS2.0.204.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-11-20",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.204.0.VOJRUXM-user-15.0-1c103d32c1.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.204.0.VOJRUXM_20251107.0000.00_15.0_ru_8e08ce5d62.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.204.0.VOJRUXM_20251107.0000.00_15.0_ru_8e08ce5d62.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOJRUXM": {
 					"os": "OS2.0.203.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-10-23",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.203.0.VOJRUXM-user-15.0-6ea2403954.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.203.0.VOJRUXM_20251010.0000.00_15.0_ru_28c968527a.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.203.0.VOJRUXM_20251010.0000.00_15.0_ru_28c968527a.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOJRUXM": {
 					"os": "OS2.0.202.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-09-25",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.202.0.VOJRUXM-user-15.0-4af4eaa3b6.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.202.0.VOJRUXM_20250905.0000.00_15.0_ru_1179b3ec4a.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.202.0.VOJRUXM_20250905.0000.00_15.0_ru_1179b3ec4a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOJRUXM": {
 					"os": "OS2.0.201.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.201.0.VOJRUXM-user-15.0-b165b3ad52.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.201.0.VOJRUXM_20250804.0000.00_15.0_ru_d7c9bb14d8.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.201.0.VOJRUXM_20250804.0000.00_15.0_ru_d7c9bb14d8.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.200.0.VOJRUXM": {
 					"os": "OS2.0.200.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.200.0.VOJRUXM-user-15.0-d05e79ce79.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.200.0.VOJRUXM_20250701.0000.00_15.0_ru_402cfd8d9d.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.200.0.VOJRUXM_20250701.0000.00_15.0_ru_402cfd8d9d.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VOJRUXM": {
 					"os": "OS2.0.103.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.103.0.VOJRUXM-user-15.0-ac451c6c07.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.103.0.VOJRUXM_20250604.0000.00_15.0_ru_d2fd816698.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.103.0.VOJRUXM_20250604.0000.00_15.0_ru_d2fd816698.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.102.0.VOJRUXM": {
 					"os": "OS2.0.102.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.102.0.VOJRUXM-user-15.0-4f0591d4dd.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.102.0.VOJRUXM_20250507.0000.00_15.0_ru_5436d20aa9.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.102.0.VOJRUXM_20250507.0000.00_15.0_ru_5436d20aa9.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VOJRUXM": {
 					"os": "OS2.0.101.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.101.0.VOJRUXM-user-15.0-0d528accf6.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.101.0.VOJRUXM_20250414.0000.00_15.0_ru_5953dc8a66.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.101.0.VOJRUXM_20250414.0000.00_15.0_ru_5953dc8a66.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VOJRUXM": {
 					"os": "OS2.0.100.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-03-24",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.100.0.VOJRUXM-user-15.0-ced0733642.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.100.0.VOJRUXM_20250310.0000.00_15.0_ru_a8050a0778.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.100.0.VOJRUXM_20250310.0000.00_15.0_ru_a8050a0778.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.4.0.VOJRUXM": {
 					"os": "OS2.0.4.0.VOJRUXM",
 					"android": "15.0",
 					"release": "2025-02-11",
 					"recovery": "rodin_ru_global-ota_full-OS2.0.4.0.VOJRUXM-user-15.0-defdd3b6f3.zip",
-					"fastboot": "rodin_ru_global_images_OS2.0.4.0.VOJRUXM_20250121.0000.00_15.0_ru_5f37bcf2d3.tgz"
+					"fastboot": "rodin_ru_global_images_OS2.0.4.0.VOJRUXM_20250121.0000.00_15.0_ru_5f37bcf2d3.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -809,6 +892,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -825,98 +909,112 @@
 					"android": "16.0",
 					"release": "2026-03-26",
 					"recovery": "rodin_in_global-ota_full-OS3.0.5.0.WOJINXM-user-16.0-3b9fdcf40d.zip",
-					"fastboot": "rodin_in_global_images_OS3.0.5.0.WOJINXM_20260317.0000.00_16.0_in_27cedb0133.tgz"
+					"fastboot": "rodin_in_global_images_OS3.0.5.0.WOJINXM_20260317.0000.00_16.0_in_27cedb0133.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WOJINXM": {
 					"os": "OS3.0.4.0.WOJINXM",
 					"android": "16.0",
 					"release": "2026-01-27",
 					"recovery": "rodin_in_global-ota_full-OS3.0.4.0.WOJINXM-user-16.0-d6a8817041.zip",
-					"fastboot": "rodin_in_global_images_OS3.0.4.0.WOJINXM_20260113.0000.00_16.0_in_90be00d854.tgz"
+					"fastboot": "rodin_in_global_images_OS3.0.4.0.WOJINXM_20260113.0000.00_16.0_in_90be00d854.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOJINXM": {
 					"os": "OS3.0.2.0.WOJINXM",
 					"android": "16.0",
 					"release": "2025-12-26",
 					"recovery": "rodin_in_global-ota_full-OS3.0.2.0.WOJINXM-user-16.0-610a0e1769.zip",
-					"fastboot": "rodin_in_global_images_OS3.0.2.0.WOJINXM_20251217.0000.00_16.0_in_3fc26fe6d1.tgz"
+					"fastboot": "rodin_in_global_images_OS3.0.2.0.WOJINXM_20251217.0000.00_16.0_in_3fc26fe6d1.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOJINXM": {
 					"os": "OS2.0.204.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-11-20",
 					"recovery": "rodin_in_global-ota_full-OS2.0.204.0.VOJINXM-user-15.0-35e5b82208.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.204.0.VOJINXM_20251107.0000.00_15.0_in_416db639f3.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.204.0.VOJINXM_20251107.0000.00_15.0_in_416db639f3.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOJINXM": {
 					"os": "OS2.0.203.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "rodin_in_global-ota_full-OS2.0.203.0.VOJINXM-user-15.0-74f30aa119.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.203.0.VOJINXM_20251010.0000.00_15.0_in_8b2a9d23bc.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.203.0.VOJINXM_20251010.0000.00_15.0_in_8b2a9d23bc.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOJINXM": {
 					"os": "OS2.0.202.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-09-25",
 					"recovery": "rodin_in_global-ota_full-OS2.0.202.0.VOJINXM-user-15.0-3039e5ed86.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.202.0.VOJINXM_20250905.0000.00_15.0_in_d10604cc8c.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.202.0.VOJINXM_20250905.0000.00_15.0_in_d10604cc8c.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOJINXM": {
 					"os": "OS2.0.201.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "rodin_in_global-ota_full-OS2.0.201.0.VOJINXM-user-15.0-b61c836a19.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.201.0.VOJINXM_20250804.0000.00_15.0_in_3dbc778f2e.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.201.0.VOJINXM_20250804.0000.00_15.0_in_3dbc778f2e.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.200.0.VOJINXM": {
 					"os": "OS2.0.200.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "rodin_in_global-ota_full-OS2.0.200.0.VOJINXM-user-15.0-9175562ace.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.200.0.VOJINXM_20250701.0000.00_15.0_in_8ec9579ab0.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.200.0.VOJINXM_20250701.0000.00_15.0_in_8ec9579ab0.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VOJINXM": {
 					"os": "OS2.0.103.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "rodin_in_global-ota_full-OS2.0.103.0.VOJINXM-user-15.0-f1bd573554.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.103.0.VOJINXM_20250604.0000.00_15.0_in_bb1ef9e223.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.103.0.VOJINXM_20250604.0000.00_15.0_in_bb1ef9e223.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.102.0.VOJINXM": {
 					"os": "OS2.0.102.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "rodin_in_global-ota_full-OS2.0.102.0.VOJINXM-user-15.0-79fc7b7e0b.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.102.0.VOJINXM_20250507.0000.00_15.0_in_62779650da.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.102.0.VOJINXM_20250507.0000.00_15.0_in_62779650da.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VOJINXM": {
 					"os": "OS2.0.101.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-04-24",
 					"recovery": "rodin_in_global-ota_full-OS2.0.101.0.VOJINXM-user-15.0-cc9f86000b.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.101.0.VOJINXM_20250414.0000.00_15.0_in_91538b7c86.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.101.0.VOJINXM_20250414.0000.00_15.0_in_91538b7c86.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VOJINXM": {
 					"os": "OS2.0.100.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-03-24",
 					"recovery": "rodin_in_global-ota_full-OS2.0.100.0.VOJINXM-user-15.0-ff1420b959.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.100.0.VOJINXM_20250310.0000.00_15.0_in_9d296acc46.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.100.0.VOJINXM_20250310.0000.00_15.0_in_9d296acc46.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.3.0.VOJINXM": {
 					"os": "OS2.0.3.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-02-16",
 					"recovery": "rodin_in_global-ota_full-OS2.0.3.0.VOJINXM-user-15.0-e555119622.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.3.0.VOJINXM_20250210.0000.00_15.0_in_b7ede94eb1.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.3.0.VOJINXM_20250210.0000.00_15.0_in_b7ede94eb1.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VOJINXM": {
 					"os": "OS2.0.2.0.VOJINXM",
 					"android": "15.0",
 					"release": "2025-01-14",
 					"recovery": "rodin_in_global-ota_full-OS2.0.2.0.VOJINXM-user-15.0-60249425a2.zip",
-					"fastboot": "rodin_in_global_images_OS2.0.2.0.VOJINXM_20250106.0000.00_15.0_in_72e6198739.tgz"
+					"fastboot": "rodin_in_global_images_OS2.0.2.0.VOJINXM_20250106.0000.00_15.0_in_72e6198739.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -938,6 +1036,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -954,91 +1053,104 @@
 					"android": "16.0",
 					"release": "2026-05-12",
 					"recovery": "rodin_id_global-ota_full-OS3.0.300.0.WOJIDXM-user-16.0-d2153e8eaa.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WOJIDXM": {
 					"os": "OS3.0.3.0.WOJIDXM",
 					"android": "16.0",
 					"release": "2026-01-31",
 					"recovery": "rodin_id_global-ota_full-OS3.0.3.0.WOJIDXM-user-16.0-56b4900aa3.zip",
-					"fastboot": "rodin_id_global_images_OS3.0.3.0.WOJIDXM_20260121.0000.00_16.0_id_ca36af5ec0.tgz"
+					"fastboot": "rodin_id_global_images_OS3.0.3.0.WOJIDXM_20260121.0000.00_16.0_id_ca36af5ec0.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOJIDXM": {
 					"os": "OS3.0.2.0.WOJIDXM",
 					"android": "16.0",
 					"release": "2025-12-25",
 					"recovery": "rodin_id_global-ota_full-OS3.0.2.0.WOJIDXM-user-16.0-da3a7461b5.zip",
-					"fastboot": "rodin_id_global_images_OS3.0.2.0.WOJIDXM_20251216.0000.00_16.0_id_fd600d47b9.tgz"
+					"fastboot": "rodin_id_global_images_OS3.0.2.0.WOJIDXM_20251216.0000.00_16.0_id_fd600d47b9.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VOJIDXM": {
 					"os": "OS2.0.205.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-11-20",
 					"recovery": "rodin_id_global-ota_full-OS2.0.205.0.VOJIDXM-user-15.0-9687004ae0.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.205.0.VOJIDXM_20251107.0000.00_15.0_id_270f2da6ee.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.205.0.VOJIDXM_20251107.0000.00_15.0_id_270f2da6ee.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOJIDXM": {
 					"os": "OS2.0.204.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-10-23",
 					"recovery": "rodin_id_global-ota_full-OS2.0.204.0.VOJIDXM-user-15.0-6619af205d.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.204.0.VOJIDXM_20251010.0000.00_15.0_id_00fe6ebf9c.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.204.0.VOJIDXM_20251010.0000.00_15.0_id_00fe6ebf9c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VOJIDXM": {
 					"os": "OS2.0.203.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-09-25",
 					"recovery": "rodin_id_global-ota_full-OS2.0.203.0.VOJIDXM-user-15.0-b7aae88365.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.203.0.VOJIDXM_20250908.0000.00_15.0_id_47eb1ca16f.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.203.0.VOJIDXM_20250908.0000.00_15.0_id_47eb1ca16f.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VOJIDXM": {
 					"os": "OS2.0.202.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "rodin_id_global-ota_full-OS2.0.202.0.VOJIDXM-user-15.0-a52185b1f1.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.202.0.VOJIDXM_20250816.0000.00_15.0_id_98b08230ee.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.202.0.VOJIDXM_20250816.0000.00_15.0_id_98b08230ee.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VOJIDXM": {
 					"os": "OS2.0.200.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "rodin_id_global-ota_full-OS2.0.200.0.VOJIDXM-user-15.0-146082ee5a.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.200.0.VOJIDXM_20250701.0000.00_15.0_id_3ccc8595eb.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.200.0.VOJIDXM_20250701.0000.00_15.0_id_3ccc8595eb.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VOJIDXM": {
 					"os": "OS2.0.103.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "rodin_id_global-ota_full-OS2.0.103.0.VOJIDXM-user-15.0-c793a59992.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.103.0.VOJIDXM_20250604.0000.00_15.0_id_f95d8450c1.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.103.0.VOJIDXM_20250604.0000.00_15.0_id_f95d8450c1.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.102.0.VOJIDXM": {
 					"os": "OS2.0.102.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "rodin_id_global-ota_full-OS2.0.102.0.VOJIDXM-user-15.0-10bf5718df.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.102.0.VOJIDXM_20250507.0000.00_15.0_id_97c3c8d7a3.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.102.0.VOJIDXM_20250507.0000.00_15.0_id_97c3c8d7a3.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VOJIDXM": {
 					"os": "OS2.0.101.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "rodin_id_global-ota_full-OS2.0.101.0.VOJIDXM-user-15.0-89fccfc7ae.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.101.0.VOJIDXM_20250408.0000.00_15.0_id_d5c6df0fb8.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.101.0.VOJIDXM_20250408.0000.00_15.0_id_d5c6df0fb8.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VOJIDXM": {
 					"os": "OS2.0.100.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-03-24",
 					"recovery": "rodin_id_global-ota_full-OS2.0.100.0.VOJIDXM-user-15.0-0cfe251ecd.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.100.0.VOJIDXM_20250310.0000.00_15.0_id_97a693d459.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.100.0.VOJIDXM_20250310.0000.00_15.0_id_97a693d459.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.3.0.VOJIDXM": {
 					"os": "OS2.0.3.0.VOJIDXM",
 					"android": "15.0",
 					"release": "2025-02-28",
 					"recovery": "rodin_id_global-ota_full-OS2.0.3.0.VOJIDXM-user-15.0-d81662f28b.zip",
-					"fastboot": "rodin_id_global_images_OS2.0.3.0.VOJIDXM_20250207.0000.00_15.0_id_7ecc19dede.tgz"
+					"fastboot": "rodin_id_global_images_OS2.0.3.0.VOJIDXM_20250207.0000.00_15.0_id_7ecc19dede.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -1060,6 +1172,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1076,91 +1189,104 @@
 					"android": "16.0",
 					"release": "2026-04-30",
 					"recovery": "rodin_tr_global-ota_full-OS3.0.300.0.WOJTRXM-user-16.0-02789c078b.zip",
-					"fastboot": "rodin_tr_global_images_OS3.0.300.0.WOJTRXM_20260418.0000.00_16.0_tr_ee45d930c3.tgz"
+					"fastboot": "rodin_tr_global_images_OS3.0.300.0.WOJTRXM_20260418.0000.00_16.0_tr_ee45d930c3.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.5.0.WOJTRXM": {
 					"os": "OS3.0.5.0.WOJTRXM",
 					"android": "16.0",
 					"release": "2026-01-31",
 					"recovery": "rodin_tr_global-ota_full-OS3.0.5.0.WOJTRXM-user-16.0-c0ca69c718.zip",
-					"fastboot": "rodin_tr_global_images_OS3.0.5.0.WOJTRXM_20260121.0000.00_16.0_tr_cb9be192d4.tgz"
+					"fastboot": "rodin_tr_global_images_OS3.0.5.0.WOJTRXM_20260121.0000.00_16.0_tr_cb9be192d4.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.4.0.WOJTRXM": {
 					"os": "OS3.0.4.0.WOJTRXM",
 					"android": "16.0",
 					"release": "2025-12-23",
 					"recovery": "rodin_tr_global-ota_full-OS3.0.4.0.WOJTRXM-user-16.0-d4a9f9302f.zip",
-					"fastboot": "rodin_tr_global_images_OS3.0.4.0.WOJTRXM_20251216.0000.00_16.0_tr_a667dd4d6b.tgz"
+					"fastboot": "rodin_tr_global_images_OS3.0.4.0.WOJTRXM_20251216.0000.00_16.0_tr_a667dd4d6b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOJTRXM": {
 					"os": "OS2.0.204.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-11-20",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.204.0.VOJTRXM-user-15.0-c4b726a2da.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.204.0.VOJTRXM_20251107.0000.00_15.0_tr_fdcc144681.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.204.0.VOJTRXM_20251107.0000.00_15.0_tr_fdcc144681.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOJTRXM": {
 					"os": "OS2.0.203.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-10-23",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.203.0.VOJTRXM-user-15.0-c655a3f557.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.203.0.VOJTRXM_20251010.0000.00_15.0_tr_8a2b2ed51c.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.203.0.VOJTRXM_20251010.0000.00_15.0_tr_8a2b2ed51c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOJTRXM": {
 					"os": "OS2.0.202.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-09-25",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.202.0.VOJTRXM-user-15.0-09d098cea9.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.202.0.VOJTRXM_20250905.0000.00_15.0_tr_94a8cc2649.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.202.0.VOJTRXM_20250905.0000.00_15.0_tr_94a8cc2649.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOJTRXM": {
 					"os": "OS2.0.201.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.201.0.VOJTRXM-user-15.0-3343efede4.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.201.0.VOJTRXM_20250804.0000.00_15.0_tr_9e732b434a.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.201.0.VOJTRXM_20250804.0000.00_15.0_tr_9e732b434a.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.200.0.VOJTRXM": {
 					"os": "OS2.0.200.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.200.0.VOJTRXM-user-15.0-e5c750dbab.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.200.0.VOJTRXM_20250701.0000.00_15.0_tr_44179a71ea.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.200.0.VOJTRXM_20250701.0000.00_15.0_tr_44179a71ea.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VOJTRXM": {
 					"os": "OS2.0.103.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.103.0.VOJTRXM-user-15.0-f79e5490bf.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.103.0.VOJTRXM_20250604.0000.00_15.0_tr_1e2c34e6f4.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.103.0.VOJTRXM_20250604.0000.00_15.0_tr_1e2c34e6f4.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.102.0.VOJTRXM": {
 					"os": "OS2.0.102.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.102.0.VOJTRXM-user-15.0-44398fc7dc.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.102.0.VOJTRXM_20250507.0000.00_15.0_tr_0d125bac41.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.102.0.VOJTRXM_20250507.0000.00_15.0_tr_0d125bac41.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.101.0.VOJTRXM": {
 					"os": "OS2.0.101.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.101.0.VOJTRXM-user-15.0-7bbada0b68.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.101.0.VOJTRXM_20250414.0000.00_15.0_tr_e6287e1cbd.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.101.0.VOJTRXM_20250414.0000.00_15.0_tr_e6287e1cbd.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.100.0.VOJTRXM": {
 					"os": "OS2.0.100.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-03-20",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.100.0.VOJTRXM-user-15.0-83d928a13f.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.100.0.VOJTRXM_20250310.0000.00_15.0_tr_5b07c6e9d1.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.100.0.VOJTRXM_20250310.0000.00_15.0_tr_5b07c6e9d1.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VOJTRXM": {
 					"os": "OS2.0.2.0.VOJTRXM",
 					"android": "15.0",
 					"release": "2025-03-05",
 					"recovery": "rodin_tr_global-ota_full-OS2.0.2.0.VOJTRXM-user-15.0-462cbb667a.zip",
-					"fastboot": "rodin_tr_global_images_OS2.0.2.0.VOJTRXM_20250210.0000.00_15.0_tr_832d64cd49.tgz"
+					"fastboot": "rodin_tr_global_images_OS2.0.2.0.VOJTRXM_20250210.0000.00_15.0_tr_832d64cd49.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		}

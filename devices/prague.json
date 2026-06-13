@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -54,7 +55,8 @@
 					"release": "2026-05-25",
 					"recovery": "prague-ota_full-OS3.0.311.0.WAACNXM-user-16.0-768b50adb7.zip",
 					"fastboot": "prague_images_OS3.0.311.0.WAACNXM_20260519.0000.00_16.0_cn_4178f8ced8.tgz",
-					"ctelecom": "prague_images_OS3.0.311.0.WAACNXM_20260519.0000.00_16.0_cn_chinatelecom_7ed27dc5ba.tgz"
+					"ctelecom": "prague_images_OS3.0.311.0.WAACNXM_20260519.0000.00_16.0_cn_chinatelecom_7ed27dc5ba.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.310.0.WAACNXM": {
 					"os": "OS3.0.310.0.WAACNXM",
@@ -62,7 +64,8 @@
 					"release": "2026-05-07",
 					"recovery": "prague-ota_full-OS3.0.310.0.WAACNXM-user-16.0-7d0c9b89aa.zip",
 					"fastboot": "prague_images_OS3.0.310.0.WAACNXM_20260506.0000.00_16.0_cn_86eda8f5bb.tgz",
-					"ctelecom": "prague_images_OS3.0.310.0.WAACNXM_20260506.0000.00_16.0_cn_chinatelecom_6f4c4ca164.tgz"
+					"ctelecom": "prague_images_OS3.0.310.0.WAACNXM_20260506.0000.00_16.0_cn_chinatelecom_6f4c4ca164.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.308.0.WAACNXM": {
 					"os": "OS3.0.308.0.WAACNXM",
@@ -70,7 +73,8 @@
 					"release": "2026-04-23",
 					"recovery": "prague-ota_full-OS3.0.308.0.WAACNXM-user-16.0-2f5a830366.zip",
 					"fastboot": "prague_images_OS3.0.308.0.WAACNXM_20260422.0000.00_16.0_cn_ac260be858.tgz",
-					"ctelecom": "prague_images_OS3.0.308.0.WAACNXM_20260422.0000.00_16.0_cn_chinatelecom_0f749fb8bf.tgz"
+					"ctelecom": "prague_images_OS3.0.308.0.WAACNXM_20260422.0000.00_16.0_cn_chinatelecom_0f749fb8bf.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.304.0.WAACNXM": {
 					"os": "OS3.0.304.0.WAACNXM",
@@ -78,7 +82,8 @@
 					"release": "2026-04-21",
 					"recovery": "prague-ota_full-OS3.0.304.0.WAACNXM-user-16.0-a2f9190f86.zip",
 					"fastboot": "prague_images_OS3.0.304.0.WAACNXM_20260412.0000.00_16.0_cn_acc85a97a5.tgz",
-					"ctelecom": "prague_images_OS3.0.304.0.WAACNXM_20260412.0000.00_16.0_cn_chinatelecom_79922b2316.tgz"
+					"ctelecom": "prague_images_OS3.0.304.0.WAACNXM_20260412.0000.00_16.0_cn_chinatelecom_79922b2316.tgz",
+					"aspatch": "2026-04-01"
 				}
 			}
 		}

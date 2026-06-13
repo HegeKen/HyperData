@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom",
@@ -56,7 +57,8 @@
 					"recovery": "miui_UMI_OS1.0.7.0.TJBCNXM_2cc115c0ee_13.0.zip",
 					"fastboot": "umi_images_OS1.0.7.0.TJBCNXM_20251101.0000.00_13.0_cn_479616fdc7.tgz",
 					"ctelecom": "umi_images_OS1.0.7.0.TJBCNXM_20251101.0000.00_13.0_cn_chinatelecom_c1190749bd.tgz",
-					"cnmobile": "umi_images_OS1.0.7.0.TJBCNXM_20251101.0000.00_13.0_cn_chinamobile_c54955c638.tgz"
+					"cnmobile": "umi_images_OS1.0.7.0.TJBCNXM_20251101.0000.00_13.0_cn_chinamobile_c54955c638.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.5.0.TJBCNXM": {
 					"os": "OS1.0.5.0.TJBCNXM",
@@ -65,7 +67,8 @@
 					"recovery": "miui_UMI_OS1.0.5.0.TJBCNXM_d01651ed86_13.0.zip",
 					"fastboot": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_9917250319.tgz",
 					"ctelecom": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_chinatelecom_2b10a7f130.tgz",
-					"cnmobile": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_chinamobile_a5960233c7.tgz"
+					"cnmobile": "umi_images_OS1.0.5.0.TJBCNXM_20240605.0000.00_13.0_cn_chinamobile_a5960233c7.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.3.0.TJBCNXM": {
 					"os": "OS1.0.3.0.TJBCNXM",
@@ -74,7 +77,8 @@
 					"recovery": "miui_UMI_OS1.0.3.0.TJBCNXM_ea86eb9a62_13.0.zip",
 					"fastboot": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_b616f9f481.tgz",
 					"ctelecom": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_chinatelecom_0523e6f745.tgz",
-					"cnmobile": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_chinamobile_1b2aaef719.tgz"
+					"cnmobile": "umi_images_OS1.0.3.0.TJBCNXM_20240320.0000.00_13.0_cn_chinamobile_1b2aaef719.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -96,6 +100,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -112,14 +117,16 @@
 					"android": "13.0",
 					"release": "2026-01-09",
 					"recovery": "miui_UMIGlobal_OS1.0.4.0.TJBMIXM_aa90233eb7_13.0.zip",
-					"fastboot": "umi_global_images_OS1.0.4.0.TJBMIXM_20251228.0000.00_13.0_global_58579d06ce.tgz"
+					"fastboot": "umi_global_images_OS1.0.4.0.TJBMIXM_20251228.0000.00_13.0_global_58579d06ce.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.3.0.TJBMIXM": {
 					"os": "OS1.0.3.0.TJBMIXM",
 					"android": "13.0",
 					"release": "2024-05-11",
 					"recovery": "miui_UMIGlobal_OS1.0.3.0.TJBMIXM_737322e907_13.0.zip",
-					"fastboot": "umi_global_images_OS1.0.3.0.TJBMIXM_20240408.0000.00_13.0_global_f832efb181.tgz"
+					"fastboot": "umi_global_images_OS1.0.3.0.TJBMIXM_20240408.0000.00_13.0_global_f832efb181.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -141,6 +148,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -157,14 +165,16 @@
 					"android": "13.0",
 					"release": "2026-02-03",
 					"recovery": "miui_UMIEEAGlobal_OS1.0.5.0.TJBEUXM_45d6e7e461_13.0.zip",
-					"fastboot": "umi_eea_global_images_OS1.0.5.0.TJBEUXM_20260123.0000.00_13.0_eea_6aff836ef0.tgz"
+					"fastboot": "umi_eea_global_images_OS1.0.5.0.TJBEUXM_20260123.0000.00_13.0_eea_6aff836ef0.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.TJBEUXM": {
 					"os": "OS1.0.1.0.TJBEUXM",
 					"android": "13.0",
 					"release": "2024-04-26",
 					"recovery": "miui_UMIEEAGlobal_OS1.0.1.0.TJBEUXM_300a8b36de_13.0.zip",
-					"fastboot": "umi_eea_global_images_OS1.0.1.0.TJBEUXM_20240325.0000.00_13.0_eea_59dc98e3c2.tgz"
+					"fastboot": "umi_eea_global_images_OS1.0.1.0.TJBEUXM_20240325.0000.00_13.0_eea_59dc98e3c2.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -186,6 +196,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -202,14 +213,16 @@
 					"android": "13.0",
 					"release": "2026-02-03",
 					"recovery": "miui_UMIRUGlobal_OS1.0.5.0.TJBRUXM_30f96e0bcd_13.0.zip",
-					"fastboot": "umi_ru_global_images_OS1.0.5.0.TJBRUXM_20260120.0000.00_13.0_ru_a497c95738.tgz"
+					"fastboot": "umi_ru_global_images_OS1.0.5.0.TJBRUXM_20260120.0000.00_13.0_ru_a497c95738.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.TJBRUXM": {
 					"os": "OS1.0.1.0.TJBRUXM",
 					"android": "13.0",
 					"release": "2024-05-20",
 					"recovery": "miui_UMIRUGlobal_OS1.0.1.0.TJBRUXM_802205c2f1_13.0.zip",
-					"fastboot": "umi_ru_global_images_OS1.0.1.0.TJBRUXM_20240325.0000.00_13.0_ru_e258171a35.tgz"
+					"fastboot": "umi_ru_global_images_OS1.0.1.0.TJBRUXM_20240325.0000.00_13.0_ru_e258171a35.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -231,6 +244,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -247,14 +261,16 @@
 					"android": "13.0",
 					"release": "2026-02-06",
 					"recovery": "miui_UMIINGlobal_OS1.0.6.0.TJBINXM_31344a0478_13.0.zip",
-					"fastboot": "umi_in_global_images_OS1.0.6.0.TJBINXM_20260120.0000.00_13.0_in_234b2766c6.tgz"
+					"fastboot": "umi_in_global_images_OS1.0.6.0.TJBINXM_20260120.0000.00_13.0_in_234b2766c6.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.TJBINXM": {
 					"os": "OS1.0.2.0.TJBINXM",
 					"android": "13.0",
 					"release": "2024-05-20",
 					"recovery": "miui_UMIINGlobal_OS1.0.2.0.TJBINXM_4f5802bf34_13.0.zip",
-					"fastboot": "umi_in_global_images_OS1.0.2.0.TJBINXM_20240412.0000.00_13.0_in_5980b3f4b1.tgz"
+					"fastboot": "umi_in_global_images_OS1.0.2.0.TJBINXM_20240412.0000.00_13.0_in_5980b3f4b1.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -276,6 +292,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -292,14 +309,16 @@
 					"android": "13.0",
 					"release": "2026-02-06",
 					"recovery": "miui_UMIIDGlobal_OS1.0.5.0.TJBIDXM_37b28c231c_13.0.zip",
-					"fastboot": "umi_id_global_images_OS1.0.5.0.TJBIDXM_20260123.0000.00_13.0_id_2f18a99a3c.tgz"
+					"fastboot": "umi_id_global_images_OS1.0.5.0.TJBIDXM_20260123.0000.00_13.0_id_2f18a99a3c.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.TJBIDXM": {
 					"os": "OS1.0.1.0.TJBIDXM",
 					"android": "13.0",
 					"release": "2024-05-11",
 					"recovery": "miui_UMIIDGlobal_OS1.0.1.0.TJBIDXM_125e70a4c3_13.0.zip",
-					"fastboot": "umi_id_global_images_OS1.0.1.0.TJBIDXM_20240325.0000.00_13.0_id_aa58c45480.tgz"
+					"fastboot": "umi_id_global_images_OS1.0.1.0.TJBIDXM_20240325.0000.00_13.0_id_aa58c45480.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -321,6 +340,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -337,14 +357,16 @@
 					"android": "13.0",
 					"release": "2026-02-03",
 					"recovery": "miui_UMITRGlobal_OS1.0.5.0.TJBTRXM_47c787f123_13.0.zip",
-					"fastboot": "umi_tr_global_images_OS1.0.5.0.TJBTRXM_20260120.0000.00_13.0_tr_acea6fb63f.tgz"
+					"fastboot": "umi_tr_global_images_OS1.0.5.0.TJBTRXM_20260120.0000.00_13.0_tr_acea6fb63f.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.TJBTRXM": {
 					"os": "OS1.0.1.0.TJBTRXM",
 					"android": "13.0",
 					"release": "2024-05-20",
 					"recovery": "miui_UMITRGlobal_OS1.0.1.0.TJBTRXM_8d39da486a_13.0.zip",
-					"fastboot": "umi_tr_global_images_OS1.0.1.0.TJBTRXM_20240403.0000.00_13.0_tr_87bcf6969c.tgz"
+					"fastboot": "umi_tr_global_images_OS1.0.1.0.TJBTRXM_20240403.0000.00_13.0_tr_87bcf6969c.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		}

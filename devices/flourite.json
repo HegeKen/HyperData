@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom",
@@ -58,7 +59,8 @@
 					"recovery": "flourite-ota_full-OS3.0.313.0.WPRCNXM-user-16.0-7b3a7ecb5c.zip",
 					"fastboot": "",
 					"ctelecom": "",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.310.0.WPRCNXM": {
 					"os": "OS3.0.310.0.WPRCNXM",
@@ -67,7 +69,8 @@
 					"recovery": "flourite-ota_full-OS3.0.310.0.WPRCNXM-user-16.0-6f177e85fa.zip",
 					"fastboot": "",
 					"ctelecom": "",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.307.0.WPRCNXM": {
 					"os": "OS3.0.307.0.WPRCNXM",
@@ -76,7 +79,8 @@
 					"recovery": "flourite-ota_full-OS3.0.307.0.WPRCNXM-user-16.0-5a346c32e7.zip",
 					"fastboot": "flourite_images_OS3.0.307.0.WPRCNXM_20260423.0000.00_16.0_cn_dbe2522768.tgz",
 					"ctelecom": "flourite_images_OS3.0.307.0.WPRCNXM_20260423.0000.00_16.0_cn_chinatelecom_b598bd6f9d.tgz",
-					"cnmobile": "flourite_images_OS3.0.307.0.WPRCNXM_20260423.0000.00_16.0_cn_chinamobile_422203165a.tgz"
+					"cnmobile": "flourite_images_OS3.0.307.0.WPRCNXM_20260423.0000.00_16.0_cn_chinamobile_422203165a.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.304.0.WPRCNXM": {
 					"os": "OS3.0.304.0.WPRCNXM",
@@ -85,7 +89,8 @@
 					"recovery": "flourite-ota_full-OS3.0.304.0.WPRCNXM-user-16.0-2de6a6fe00.zip",
 					"fastboot": "flourite_images_OS3.0.304.0.WPRCNXM_20260406.0000.00_16.0_cn_8f2e6d49f9.tgz",
 					"ctelecom": "flourite_images_OS3.0.304.0.WPRCNXM_20260406.0000.00_16.0_cn_chinatelecom_211c14d50c.tgz",
-					"cnmobile": "flourite_images_OS3.0.304.0.WPRCNXM_20260406.0000.00_16.0_cn_chinamobile_231ee8334e.tgz"
+					"cnmobile": "flourite_images_OS3.0.304.0.WPRCNXM_20260406.0000.00_16.0_cn_chinamobile_231ee8334e.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.7.0.WPRCNXM": {
 					"os": "OS3.0.7.0.WPRCNXM",
@@ -94,7 +99,8 @@
 					"recovery": "flourite-ota_full-OS3.0.7.0.WPRCNXM-user-16.0-f6c1faba6e.zip",
 					"fastboot": "flourite_images_OS3.0.7.0.WPRCNXM_20260301.0000.00_16.0_cn_9bce7610b4.tgz",
 					"ctelecom": "flourite_images_OS3.0.7.0.WPRCNXM_20260301.0000.00_16.0_cn_chinatelecom_d979211d88.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.6.0.WPRCNXM": {
 					"os": "OS3.0.6.0.WPRCNXM",
@@ -103,7 +109,8 @@
 					"recovery": "flourite-ota_full-OS3.0.6.0.WPRCNXM-user-16.0-a185e1c48a.zip",
 					"fastboot": "flourite_images_OS3.0.6.0.WPRCNXM_20260122.0000.00_16.0_cn_a3c6bf4814.tgz",
 					"ctelecom": "flourite_images_OS3.0.6.0.WPRCNXM_20260122.0000.00_16.0_cn_chinatelecom_5f15603a61.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.2.0.WPRCNXM": {
 					"os": "OS3.0.2.0.WPRCNXM",
@@ -112,7 +119,8 @@
 					"recovery": "flourite-ota_full-OS3.0.2.0.WPRCNXM-user-16.0-9c6218762a.zip",
 					"fastboot": "flourite_images_OS3.0.2.0.WPRCNXM_20251129.0000.00_16.0_cn_542fb30ccd.tgz",
 					"ctelecom": "flourite_images_OS3.0.2.0.WPRCNXM_20251129.0000.00_16.0_cn_chinatelecom_6b83af3652.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.209.0.VPRCNXM": {
 					"os": "OS2.0.209.0.VPRCNXM",
@@ -121,7 +129,8 @@
 					"recovery": "flourite-ota_full-OS2.0.209.0.VPRCNXM-user-15.0-ed76995ddb.zip",
 					"fastboot": "flourite_images_OS2.0.209.0.VPRCNXM_20251015.0000.00_15.0_cn_f3cfc31ba4.tgz",
 					"ctelecom": "flourite_images_OS2.0.209.0.VPRCNXM_20251015.0000.00_15.0_cn_chinatelecom_4a7814ece5.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.206.0.VPRCNXM": {
 					"os": "OS2.0.206.0.VPRCNXM",
@@ -130,7 +139,8 @@
 					"recovery": "flourite-ota_full-OS2.0.206.0.VPRCNXM-user-15.0-356815d47a.zip",
 					"fastboot": "flourite_images_OS2.0.206.0.VPRCNXM_20250909.0000.00_15.0_cn_6d123e424f.tgz",
 					"ctelecom": "flourite_images_OS2.0.206.0.VPRCNXM_20250909.0000.00_15.0_cn_chinatelecom_63eeba6065.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.205.0.VPRCNXM": {
 					"os": "OS2.0.205.0.VPRCNXM",
@@ -139,7 +149,8 @@
 					"recovery": "flourite-ota_full-OS2.0.205.0.VPRCNXM-user-15.0-0e2d6b8c87.zip",
 					"fastboot": "flourite_images_OS2.0.205.0.VPRCNXM_20250901.0000.00_15.0_cn_e9dd353bc8.tgz",
 					"ctelecom": "flourite_images_OS2.0.205.0.VPRCNXM_20250901.0000.00_15.0_cn_chinatelecom_d39b55c5f0.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VPRCNXM": {
 					"os": "OS2.0.204.0.VPRCNXM",
@@ -148,7 +159,8 @@
 					"recovery": "flourite-ota_full-OS2.0.204.0.VPRCNXM-user-15.0-d9f804b3ea.zip",
 					"fastboot": "flourite_images_OS2.0.204.0.VPRCNXM_20250816.0000.00_15.0_cn_7f689ad6cf.tgz",
 					"ctelecom": "flourite_images_OS2.0.204.0.VPRCNXM_20250816.0000.00_15.0_cn_chinatelecom_c7a7854942.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VPRCNXM": {
 					"os": "OS2.0.202.0.VPRCNXM",
@@ -179,6 +191,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -200,7 +213,8 @@
 					"release": "2026-02-25",
 					"recovery": "flourite_demo-ota_full-OS3.0.3.0.WPRCNDM-user-16.0-a87d555c38.zip",
 					"fastboot": "flourite_demo_images_OS3.0.3.0.WPRCNDM_20260202.0000.00_16.0_cn_16e37b0284.tgz",
-					"ctelecom": "flourite_demo_images_OS3.0.3.0.WPRCNDM_20260202.0000.00_16.0_cn_chinatelecom_20912e618a.tgz"
+					"ctelecom": "flourite_demo_images_OS3.0.3.0.WPRCNDM_20260202.0000.00_16.0_cn_chinatelecom_20912e618a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VPRCNDM": {
 					"os": "OS2.0.203.0.VPRCNDM",
@@ -208,7 +222,8 @@
 					"release": "2025-08-21",
 					"recovery": "flourite_demo-ota_full-OS2.0.203.0.VPRCNDM-user-15.0-e10a04acbb.zip",
 					"fastboot": "flourite_demo_images_OS2.0.203.0.VPRCNDM_20250818.0000.00_15.0_cn_8fe05b36ad.tgz",
-					"ctelecom": "flourite_demo_images_OS2.0.203.0.VPRCNDM_20250818.0000.00_15.0_cn_chinatelecom_9389168c0a.tgz"
+					"ctelecom": "flourite_demo_images_OS2.0.203.0.VPRCNDM_20250818.0000.00_15.0_cn_chinatelecom_9389168c0a.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -230,6 +245,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -246,28 +262,32 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "flourite_tw_global-ota_full-OS3.0.1.0.WPRTWXM-user-16.0-dd12531f29.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.205.0.VPRTWXM": {
 					"os": "OS2.0.205.0.VPRTWXM",
 					"android": "15.0",
 					"release": "2026-03-31",
 					"recovery": "flourite_tw_global-ota_full-OS2.0.205.0.VPRTWXM-user-15.0-559ea9b866.zip",
-					"fastboot": "flourite_tw_global_images_OS2.0.205.0.VPRTWXM_20260320.0000.00_15.0_tw_c0ca69b602.tgz"
+					"fastboot": "flourite_tw_global_images_OS2.0.205.0.VPRTWXM_20260320.0000.00_15.0_tw_c0ca69b602.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.204.0.VPRTWXM": {
 					"os": "OS2.0.204.0.VPRTWXM",
 					"android": "15.0",
 					"release": "2026-01-16",
 					"recovery": "flourite_tw_global-ota_full-OS2.0.204.0.VPRTWXM-user-15.0-73867e5eff.zip",
-					"fastboot": "flourite_tw_global_images_OS2.0.204.0.VPRTWXM_20260105.0000.00_15.0_tw_f0b3518d7a.tgz"
+					"fastboot": "flourite_tw_global_images_OS2.0.204.0.VPRTWXM_20260105.0000.00_15.0_tw_f0b3518d7a.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.203.0.VPRTWXM": {
 					"os": "OS2.0.203.0.VPRTWXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "flourite_tw_global-ota_full-OS2.0.203.0.VPRTWXM-user-15.0-a2b7005f96.zip",
-					"fastboot": "flourite_tw_global_images_OS2.0.203.0.VPRTWXM_20251208.0000.00_15.0_tw_72623f829e.tgz"
+					"fastboot": "flourite_tw_global_images_OS2.0.203.0.VPRTWXM_20251208.0000.00_15.0_tw_72623f829e.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -289,6 +309,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -305,28 +326,32 @@
 					"android": "16.0",
 					"release": "2026-05-08",
 					"recovery": "flourite_global-ota_full-OS3.0.4.0.WPRMIXM-user-16.0-5f1684fcf3.zip",
-					"fastboot": "flourite_global_images_OS3.0.4.0.WPRMIXM_20260415.0000.00_16.0_global_ded40ec068.tgz"
+					"fastboot": "flourite_global_images_OS3.0.4.0.WPRMIXM_20260415.0000.00_16.0_global_ded40ec068.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.1.0.WPRMIXM": {
 					"os": "OS3.0.1.0.WPRMIXM",
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "flourite_global-ota_full-OS3.0.1.0.WPRMIXM-user-16.0-7f5aefe2f8.zip",
-					"fastboot": "flourite_global_images_OS3.0.1.0.WPRMIXM_20260308.0000.00_16.0_global_67139bee36.tgz"
+					"fastboot": "flourite_global_images_OS3.0.1.0.WPRMIXM_20260308.0000.00_16.0_global_67139bee36.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.208.0.VPRMIXM": {
 					"os": "OS2.0.208.0.VPRMIXM",
 					"android": "15.0",
 					"release": "2026-03-07",
 					"recovery": "flourite_global-ota_full-OS2.0.208.0.VPRMIXM-user-15.0-1634b38f15.zip",
-					"fastboot": "flourite_global_images_OS2.0.208.0.VPRMIXM_20260227.0000.00_15.0_global_38713a4b6e.tgz"
+					"fastboot": "flourite_global_images_OS2.0.208.0.VPRMIXM_20260227.0000.00_15.0_global_38713a4b6e.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VPRMIXM": {
 					"os": "OS2.0.206.0.VPRMIXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "flourite_global-ota_full-OS2.0.206.0.VPRMIXM-user-15.0-e437b2c623.zip",
-					"fastboot": "flourite_global_images_OS2.0.206.0.VPRMIXM_20251224.0000.00_15.0_global_bc32b6ad49.tgz"
+					"fastboot": "flourite_global_images_OS2.0.206.0.VPRMIXM_20251224.0000.00_15.0_global_bc32b6ad49.tgz",
+					"aspatch": "2025-12-01"
 				}
 			}
 		},
@@ -348,6 +373,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -364,28 +390,32 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "flourite_dc_global-ota_full-OS3.0.4.0.WPRMIDC-user-16.0-25de686aba.zip",
-					"fastboot": "flourite_dc_global_images_OS3.0.4.0.WPRMIDC_20260402.0000.00_16.0_global_dc_1b7db20712.tgz"
+					"fastboot": "flourite_dc_global_images_OS3.0.4.0.WPRMIDC_20260402.0000.00_16.0_global_dc_1b7db20712.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.2.0.WPRMIDC": {
 					"os": "OS3.0.2.0.WPRMIDC",
 					"android": "16.0",
 					"release": "2026-04-07",
 					"recovery": "flourite_dc_global-ota_full-OS3.0.2.0.WPRMIDC-user-16.0-f149ffa8cc.zip",
-					"fastboot": "flourite_dc_global_images_OS3.0.2.0.WPRMIDC_20260318.0000.00_16.0_global_dc_deb56b65ad.tgz"
+					"fastboot": "flourite_dc_global_images_OS3.0.2.0.WPRMIDC_20260318.0000.00_16.0_global_dc_deb56b65ad.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.206.0.VPRMIDC": {
 					"os": "OS2.0.206.0.VPRMIDC",
 					"android": "15.0",
 					"release": "2026-03-16",
 					"recovery": "flourite_dc_global-ota_full-OS2.0.206.0.VPRMIDC-user-15.0-0095e292bc.zip",
-					"fastboot": "flourite_dc_global_images_OS2.0.206.0.VPRMIDC_20260305.0000.00_15.0_global_dc_34298f1bb1.tgz"
+					"fastboot": "flourite_dc_global_images_OS2.0.206.0.VPRMIDC_20260305.0000.00_15.0_global_dc_34298f1bb1.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.204.0.VPRMIDC": {
 					"os": "OS2.0.204.0.VPRMIDC",
 					"android": "15.0",
 					"release": "2026-01-15",
 					"recovery": "flourite_dc_global-ota_full-OS2.0.204.0.VPRMIDC-user-15.0-e62eb8f8e1.zip",
-					"fastboot": "flourite_dc_global_images_OS2.0.204.0.VPRMIDC_20260105.0000.00_15.0_global_dc_6f3b40c118.tgz"
+					"fastboot": "flourite_dc_global_images_OS2.0.204.0.VPRMIDC_20260105.0000.00_15.0_global_dc_6f3b40c118.tgz",
+					"aspatch": "2025-12-01"
 				}
 			}
 		},
@@ -407,6 +437,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -423,28 +454,32 @@
 					"android": "16.0",
 					"release": "2026-04-30",
 					"recovery": "flourite_eea_global-ota_full-OS3.0.305.0.WPREUXM-user-16.0-5d02999ccc.zip",
-					"fastboot": "flourite_eea_global_images_OS3.0.305.0.WPREUXM_20260420.0000.00_16.0_eea_800f65341f.tgz"
+					"fastboot": "flourite_eea_global_images_OS3.0.305.0.WPREUXM_20260420.0000.00_16.0_eea_800f65341f.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WPREUXM": {
 					"os": "OS3.0.2.0.WPREUXM",
 					"android": "16.0",
 					"release": "2026-03-14",
 					"recovery": "flourite_eea_global-ota_full-OS3.0.2.0.WPREUXM-user-16.0-6cf839c1f6.zip",
-					"fastboot": "flourite_eea_global_images_OS3.0.2.0.WPREUXM_20260228.0000.00_16.0_eea_b3e2c1c920.tgz"
+					"fastboot": "flourite_eea_global_images_OS3.0.2.0.WPREUXM_20260228.0000.00_16.0_eea_b3e2c1c920.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.205.0.VPREUXM": {
 					"os": "OS2.0.205.0.VPREUXM",
 					"android": "15.0",
 					"release": "2026-01-09",
 					"recovery": "flourite_eea_global-ota_full-OS2.0.205.0.VPREUXM-user-15.0-09be4c5620.zip",
-					"fastboot": "flourite_eea_global_images_OS2.0.205.0.VPREUXM_20251229.0000.00_15.0_eea_599e19e93f.tgz"
+					"fastboot": "flourite_eea_global_images_OS2.0.205.0.VPREUXM_20251229.0000.00_15.0_eea_599e19e93f.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.204.0.VPREUXM": {
 					"os": "OS2.0.204.0.VPREUXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "flourite_eea_global-ota_full-OS2.0.204.0.VPREUXM-user-15.0-351899c812.zip",
-					"fastboot": "flourite_eea_global_images_OS2.0.204.0.VPREUXM_20251124.0000.00_15.0_eea_840234a581.tgz"
+					"fastboot": "flourite_eea_global_images_OS2.0.204.0.VPREUXM_20251124.0000.00_15.0_eea_840234a581.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -466,6 +501,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -482,21 +518,24 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "flourite_ru_global-ota_full-OS3.0.1.0.WPRRUXM-user-16.0-9526b62b45.zip",
-					"fastboot": "flourite_ru_global_images_OS3.0.1.0.WPRRUXM_20260317.0000.00_16.0_ru_4bf4029525.tgz"
+					"fastboot": "flourite_ru_global_images_OS3.0.1.0.WPRRUXM_20260317.0000.00_16.0_ru_4bf4029525.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.205.0.VPRRUXM": {
 					"os": "OS2.0.205.0.VPRRUXM",
 					"android": "15.0",
 					"release": "2026-03-23",
 					"recovery": "flourite_ru_global-ota_full-OS2.0.205.0.VPRRUXM-user-15.0-2edccc58ea.zip",
-					"fastboot": "flourite_ru_global_images_OS2.0.205.0.VPRRUXM_20260311.0000.00_15.0_ru_ca197b5952.tgz"
+					"fastboot": "flourite_ru_global_images_OS2.0.205.0.VPRRUXM_20260311.0000.00_15.0_ru_ca197b5952.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.204.0.VPRRUXM": {
 					"os": "OS2.0.204.0.VPRRUXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "flourite_ru_global-ota_full-OS2.0.204.0.VPRRUXM-user-15.0-b4c2611e23.zip",
-					"fastboot": "flourite_ru_global_images_OS2.0.204.0.VPRRUXM_20251229.0000.00_15.0_ru_2f66542160.tgz"
+					"fastboot": "flourite_ru_global_images_OS2.0.204.0.VPRRUXM_20251229.0000.00_15.0_ru_2f66542160.tgz",
+					"aspatch": "2025-12-01"
 				}
 			}
 		},
@@ -518,6 +557,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -534,28 +574,32 @@
 					"android": "16.0",
 					"release": "2026-05-08",
 					"recovery": "flourite_in_global-ota_full-OS3.0.3.0.WPRINXM-user-16.0-a83ac3b2ee.zip",
-					"fastboot": "flourite_in_global_images_OS3.0.3.0.WPRINXM_20260416.0000.00_16.0_in_3e009523d7.tgz"
+					"fastboot": "flourite_in_global_images_OS3.0.3.0.WPRINXM_20260416.0000.00_16.0_in_3e009523d7.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.1.0.WPRINXM": {
 					"os": "OS3.0.1.0.WPRINXM",
 					"android": "16.0",
 					"release": "2026-03-27",
 					"recovery": "flourite_in_global-ota_full-OS3.0.1.0.WPRINXM-user-16.0-731dd6b223.zip",
-					"fastboot": "flourite_in_global_images_OS3.0.1.0.WPRINXM_20260306.0000.00_16.0_in_174785b306.tgz"
+					"fastboot": "flourite_in_global_images_OS3.0.1.0.WPRINXM_20260306.0000.00_16.0_in_174785b306.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VPRINXM": {
 					"os": "OS2.0.206.0.VPRINXM",
 					"android": "15.0",
 					"release": "2026-03-01",
 					"recovery": "flourite_in_global-ota_full-OS2.0.206.0.VPRINXM-user-15.0-d5c975c4b0.zip",
-					"fastboot": "flourite_in_global_images_OS2.0.206.0.VPRINXM_20260202.0000.00_15.0_in_4bdb079a9a.tgz"
+					"fastboot": "flourite_in_global_images_OS2.0.206.0.VPRINXM_20260202.0000.00_15.0_in_4bdb079a9a.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.204.0.VPRINXM": {
 					"os": "OS2.0.204.0.VPRINXM",
 					"android": "15.0",
 					"release": "2026-02-03",
 					"recovery": "flourite_in_global-ota_full-OS2.0.204.0.VPRINXM-user-15.0-e95ed39779.zip",
-					"fastboot": "flourite_in_global_images_OS2.0.204.0.VPRINXM_20251106.0000.00_15.0_in_a0d2ae344e.tgz"
+					"fastboot": "flourite_in_global_images_OS2.0.204.0.VPRINXM_20251106.0000.00_15.0_in_a0d2ae344e.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -577,6 +621,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -593,28 +638,32 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "flourite_id_global-ota_full-OS3.0.1.0.WPRIDXM-user-16.0-6bbfb7a483.zip",
-					"fastboot": "flourite_id_global_images_OS3.0.1.0.WPRIDXM_20260317.0000.00_16.0_id_2f62c6a18f.tgz"
+					"fastboot": "flourite_id_global_images_OS3.0.1.0.WPRIDXM_20260317.0000.00_16.0_id_2f62c6a18f.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.208.0.VPRIDXM": {
 					"os": "OS2.0.208.0.VPRIDXM",
 					"android": "15.0",
 					"release": "2026-03-16",
 					"recovery": "flourite_id_global-ota_full-OS2.0.208.0.VPRIDXM-user-15.0-2f593c1385.zip",
-					"fastboot": "flourite_id_global_images_OS2.0.208.0.VPRIDXM_20260305.0000.00_15.0_id_f2bf0d7870.tgz"
+					"fastboot": "flourite_id_global_images_OS2.0.208.0.VPRIDXM_20260305.0000.00_15.0_id_f2bf0d7870.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VPRIDXM": {
 					"os": "OS2.0.203.0.VPRIDXM",
 					"android": "15.0",
 					"release": "2026-01-19",
 					"recovery": "flourite_id_global-ota_full-OS2.0.203.0.VPRIDXM-user-15.0-eeb0210812.zip",
-					"fastboot": "flourite_id_global_images_OS2.0.203.0.VPRIDXM_20251201.0000.00_15.0_id_5f1a11b66c.tgz"
+					"fastboot": "flourite_id_global_images_OS2.0.203.0.VPRIDXM_20251201.0000.00_15.0_id_5f1a11b66c.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VPRIDXM": {
 					"os": "OS2.0.202.0.VPRIDXM",
 					"android": "15.0",
 					"release": "2026-01-19",
 					"recovery": "flourite_id_global-ota_full-OS2.0.202.0.VPRIDXM-user-15.0-302e2f67ae.zip",
-					"fastboot": "flourite_id_global_images_OS2.0.202.0.VPRIDXM_20251107.0000.00_15.0_id_d3ee001680.tgz"
+					"fastboot": "flourite_id_global_images_OS2.0.202.0.VPRIDXM_20251107.0000.00_15.0_id_d3ee001680.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -636,6 +685,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -652,21 +702,24 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "flourite_tr_global-ota_full-OS3.0.1.0.WPRTRXM-user-16.0-a845d38dfb.zip",
-					"fastboot": "flourite_tr_global_images_OS3.0.1.0.WPRTRXM_20260317.0000.00_16.0_tr_ed66575f5a.tgz"
+					"fastboot": "flourite_tr_global_images_OS3.0.1.0.WPRTRXM_20260317.0000.00_16.0_tr_ed66575f5a.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.205.0.VPRTRXM": {
 					"os": "OS2.0.205.0.VPRTRXM",
 					"android": "15.0",
 					"release": "2026-03-23",
 					"recovery": "flourite_tr_global-ota_full-OS2.0.205.0.VPRTRXM-user-15.0-3cbe5b16e4.zip",
-					"fastboot": "flourite_tr_global_images_OS2.0.205.0.VPRTRXM_20260311.0000.00_15.0_tr_1e6095e62d.tgz"
+					"fastboot": "flourite_tr_global_images_OS2.0.205.0.VPRTRXM_20260311.0000.00_15.0_tr_1e6095e62d.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VPRTRXM": {
 					"os": "OS2.0.203.0.VPRTRXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "flourite_tr_global-ota_full-OS2.0.203.0.VPRTRXM-user-15.0-480b478cf2.zip",
-					"fastboot": "flourite_tr_global_images_OS2.0.203.0.VPRTRXM_20251208.0000.00_15.0_tr_b49e454212.tgz"
+					"fastboot": "flourite_tr_global_images_OS2.0.203.0.VPRTRXM_20251208.0000.00_15.0_tr_b49e454212.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -688,6 +741,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -704,28 +758,32 @@
 					"android": "15.0",
 					"release": "2026-03-25",
 					"recovery": "flourite_lm_cr_global-ota_full-OS2.0.205.0.VPRLMCR-user-15.0-9b4a6b5fe4.zip",
-					"fastboot": "flourite_lm_cr_global_images_OS2.0.205.0.VPRLMCR_20260316.0000.00_15.0_lm_cr_341878649b.tgz"
+					"fastboot": "flourite_lm_cr_global_images_OS2.0.205.0.VPRLMCR_20260316.0000.00_15.0_lm_cr_341878649b.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.204.0.VPRLMCR": {
 					"os": "OS2.0.204.0.VPRLMCR",
 					"android": "15.0",
 					"release": "2026-02-05",
 					"recovery": "flourite_lm_cr_global-ota_full-OS2.0.204.0.VPRLMCR-user-15.0-3e4a5f44e7.zip",
-					"fastboot": "flourite_lm_cr_global_images_OS2.0.204.0.VPRLMCR_20260108.0000.00_15.0_lm_cr_822bb23c03.tgz"
+					"fastboot": "flourite_lm_cr_global_images_OS2.0.204.0.VPRLMCR_20260108.0000.00_15.0_lm_cr_822bb23c03.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.203.0.VPRLMCR": {
 					"os": "OS2.0.203.0.VPRLMCR",
 					"android": "15.0",
 					"release": "2026-01-15",
 					"recovery": "flourite_lm_cr_global-ota_full-OS2.0.203.0.VPRLMCR-user-15.0-8ffa37d509.zip",
-					"fastboot": "flourite_lm_cr_global_images_OS2.0.203.0.VPRLMCR_20251211.0000.00_15.0_lm_cr_98a24f4916.tgz"
+					"fastboot": "flourite_lm_cr_global_images_OS2.0.203.0.VPRLMCR_20251211.0000.00_15.0_lm_cr_98a24f4916.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VPRLMCR": {
 					"os": "OS2.0.201.0.VPRLMCR",
 					"android": "15.0",
 					"release": "2026-01-15",
 					"recovery": "flourite_lm_cr_global-ota_full-OS2.0.201.0.VPRLMCR-user-15.0-e1c7c4d6e1.zip",
-					"fastboot": "flourite_lm_cr_global_images_OS2.0.201.0.VPRLMCR_20250927.0000.00_15.0_lm_cr_67b3e9a3b0.tgz"
+					"fastboot": "flourite_lm_cr_global_images_OS2.0.201.0.VPRLMCR_20250927.0000.00_15.0_lm_cr_67b3e9a3b0.tgz",
+					"aspatch": "2025-10-01"
 				}
 			}
 		}

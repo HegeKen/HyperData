@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -53,112 +54,128 @@
 					"android": "16.0",
 					"release": "2026-06-02",
 					"recovery": "moon_tw_global-ota_full-OS3.0.301.0.WNTTWXM-user-16.0-b3a81cdf4d.zip",
-					"fastboot": "moon_tw_global_images_OS3.0.301.0.WNTTWXM_20260521.0000.00_16.0_tw_f22960bb5d.tgz"
+					"fastboot": "moon_tw_global_images_OS3.0.301.0.WNTTWXM_20260521.0000.00_16.0_tw_f22960bb5d.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.WNTTWXM": {
 					"os": "OS3.0.4.0.WNTTWXM",
 					"android": "16.0",
 					"release": "2026-04-20",
 					"recovery": "moon_tw_global-ota_full-OS3.0.4.0.WNTTWXM-user-16.0-28098a7b74.zip",
-					"fastboot": "moon_tw_global_images_OS3.0.4.0.WNTTWXM_20260408.0000.00_16.0_tw_98008d78c4.tgz"
+					"fastboot": "moon_tw_global_images_OS3.0.4.0.WNTTWXM_20260408.0000.00_16.0_tw_98008d78c4.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WNTTWXM": {
 					"os": "OS3.0.3.0.WNTTWXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "moon_tw_global-ota_full-OS3.0.3.0.WNTTWXM-user-16.0-3afd2d61f6.zip",
-					"fastboot": "moon_tw_global_images_OS3.0.3.0.WNTTWXM_20260126.0000.00_16.0_tw_684a918018.tgz"
+					"fastboot": "moon_tw_global_images_OS3.0.3.0.WNTTWXM_20260126.0000.00_16.0_tw_684a918018.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WNTTWXM": {
 					"os": "OS3.0.2.0.WNTTWXM",
 					"android": "16.0",
 					"release": "2026-01-23",
 					"recovery": "moon_tw_global-ota_full-OS3.0.2.0.WNTTWXM-user-16.0-76e2b0e29d.zip",
-					"fastboot": "moon_tw_global_images_OS3.0.2.0.WNTTWXM_20260115.0000.00_16.0_tw_19e957cc24.tgz"
+					"fastboot": "moon_tw_global_images_OS3.0.2.0.WNTTWXM_20260115.0000.00_16.0_tw_19e957cc24.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.1.0.WNTTWXM": {
 					"os": "OS3.0.1.0.WNTTWXM",
 					"android": "16.0",
 					"release": "2026-01-12",
 					"recovery": "moon_tw_global-ota_full-OS3.0.1.0.WNTTWXM-user-16.0-6495e38c90.zip",
-					"fastboot": "moon_tw_global_images_OS3.0.1.0.WNTTWXM_20251229.0000.00_16.0_tw_2d6aa27542.tgz"
+					"fastboot": "moon_tw_global_images_OS3.0.1.0.WNTTWXM_20251229.0000.00_16.0_tw_2d6aa27542.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.203.0.VNTTWXM": {
 					"os": "OS2.0.203.0.VNTTWXM",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "moon_tw_global-ota_full-OS2.0.203.0.VNTTWXM-user-15.0-3c9182b216.zip",
-					"fastboot": "moon_tw_global_images_OS2.0.203.0.VNTTWXM_20251028.0000.00_15.0_tw_76f4950d75.tgz"
+					"fastboot": "moon_tw_global_images_OS2.0.203.0.VNTTWXM_20251028.0000.00_15.0_tw_76f4950d75.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VNTTWXM": {
 					"os": "OS2.0.202.0.VNTTWXM",
 					"android": "15.0",
 					"release": "2025-09-29",
 					"recovery": "moon_tw_global-ota_full-OS2.0.202.0.VNTTWXM-user-15.0-704aa273bb.zip",
-					"fastboot": "moon_tw_global_images_OS2.0.202.0.VNTTWXM_20250917.0000.00_15.0_tw_df249a09ea.tgz"
+					"fastboot": "moon_tw_global_images_OS2.0.202.0.VNTTWXM_20250917.0000.00_15.0_tw_df249a09ea.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VNTTWXM": {
 					"os": "OS2.0.201.0.VNTTWXM",
 					"android": "15.0",
 					"release": "2025-07-21",
 					"recovery": "moon_tw_global-ota_full-OS2.0.201.0.VNTTWXM-user-15.0-897c3c770f.zip",
-					"fastboot": "moon_tw_global_images_OS2.0.201.0.VNTTWXM_20250708.0000.00_15.0_tw_48ca98e9fc.tgz"
+					"fastboot": "moon_tw_global_images_OS2.0.201.0.VNTTWXM_20250708.0000.00_15.0_tw_48ca98e9fc.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.5.0.VNTTWXM": {
 					"os": "OS2.0.5.0.VNTTWXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "moon_tw_global-ota_full-OS2.0.5.0.VNTTWXM-user-15.0-5a7d63a180.zip",
-					"fastboot": "moon_tw_global_images_OS2.0.5.0.VNTTWXM_20250604.0000.00_15.0_tw_9fb925dc24.tgz"
+					"fastboot": "moon_tw_global_images_OS2.0.5.0.VNTTWXM_20250604.0000.00_15.0_tw_9fb925dc24.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.4.0.VNTTWXM": {
 					"os": "OS2.0.4.0.VNTTWXM",
 					"android": "15.0",
 					"release": "2025-04-28",
 					"recovery": "moon_tw_global-ota_full-OS2.0.4.0.VNTTWXM-user-15.0-33f9aa7728.zip",
-					"fastboot": "moon_tw_global_images_OS2.0.4.0.VNTTWXM_20250416.0000.00_15.0_tw_6c07545623.tgz"
+					"fastboot": "moon_tw_global_images_OS2.0.4.0.VNTTWXM_20250416.0000.00_15.0_tw_6c07545623.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.3.0.VNTTWXM": {
 					"os": "OS2.0.3.0.VNTTWXM",
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_tw_global-ota_full-OS2.0.3.0.VNTTWXM-user-15.0-5e2eadabad.zip",
-					"fastboot": "moon_tw_global_images_OS2.0.3.0.VNTTWXM_20250226.0000.00_15.0_tw_45bf662ea1.tgz"
+					"fastboot": "moon_tw_global_images_OS2.0.3.0.VNTTWXM_20250226.0000.00_15.0_tw_45bf662ea1.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UNTTWXM": {
 					"os": "OS1.0.6.0.UNTTWXM",
 					"android": "14.0",
 					"release": "2024-12-03",
 					"recovery": "miui_MOONTWGlobal_OS1.0.6.0.UNTTWXM_e095374500_14.0.zip",
-					"fastboot": "moon_tw_global_images_OS1.0.6.0.UNTTWXM_20241122.0000.00_14.0_tw_7284a11dbe.tgz"
+					"fastboot": "moon_tw_global_images_OS1.0.6.0.UNTTWXM_20241122.0000.00_14.0_tw_7284a11dbe.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UNTTWXM": {
 					"os": "OS1.0.5.0.UNTTWXM",
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_MOONTWGlobal_OS1.0.5.0.UNTTWXM_63db5ff00c_14.0.zip",
-					"fastboot": "moon_tw_global_images_OS1.0.5.0.UNTTWXM_20240919.0000.00_14.0_tw_b19dc58619.tgz"
+					"fastboot": "moon_tw_global_images_OS1.0.5.0.UNTTWXM_20240919.0000.00_14.0_tw_b19dc58619.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UNTTWXM": {
 					"os": "OS1.0.4.0.UNTTWXM",
 					"android": "14.0",
 					"release": "2024-07-10",
 					"recovery": "miui_MOONTWGlobal_OS1.0.4.0.UNTTWXM_275245548b_14.0.zip",
-					"fastboot": "moon_tw_global_images_OS1.0.4.0.UNTTWXM_20240705.0000.00_14.0_tw_d4970c5c76.tgz"
+					"fastboot": "moon_tw_global_images_OS1.0.4.0.UNTTWXM_20240705.0000.00_14.0_tw_d4970c5c76.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UNTTWXM": {
 					"os": "OS1.0.2.0.UNTTWXM",
 					"android": "14.0",
 					"release": "2024-06-20",
 					"recovery": "miui_MOONTWGlobal_OS1.0.2.0.UNTTWXM_7d48c1a274_14.0.zip",
-					"fastboot": "moon_tw_global_images_OS1.0.2.0.UNTTWXM_20240606.0000.00_14.0_tw_d5b5126cc0.tgz"
+					"fastboot": "moon_tw_global_images_OS1.0.2.0.UNTTWXM_20240606.0000.00_14.0_tw_d5b5126cc0.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.UNTTWXM": {
 					"os": "OS1.0.1.0.UNTTWXM",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_MOONTWGlobal_OS1.0.1.0.UNTTWXM_85ae8120d0_14.0.zip",
-					"fastboot": "moon_tw_global_images_OS1.0.1.0.UNTTWXM_20240514.0000.00_14.0_tw_4233868965.tgz"
+					"fastboot": "moon_tw_global_images_OS1.0.1.0.UNTTWXM_20240514.0000.00_14.0_tw_4233868965.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -180,6 +197,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -196,147 +214,168 @@
 					"android": "16.0",
 					"release": "2026-05-12",
 					"recovery": "moon_global-ota_full-OS3.0.301.0.WNTMIXM-user-16.0-260c3c8177.zip",
-					"fastboot": "moon_global_images_OS3.0.301.0.WNTMIXM_20260413.0000.00_16.0_global_9a68baa7b9.tgz"
+					"fastboot": "moon_global_images_OS3.0.301.0.WNTMIXM_20260413.0000.00_16.0_global_9a68baa7b9.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.7.0.WNTMIXM": {
 					"os": "OS3.0.7.0.WNTMIXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "moon_global-ota_full-OS3.0.7.0.WNTMIXM-user-16.0-06ec64a61e.zip",
-					"fastboot": "moon_global_images_OS3.0.7.0.WNTMIXM_20260330.0000.00_16.0_global_a0165ebe71.tgz"
+					"fastboot": "moon_global_images_OS3.0.7.0.WNTMIXM_20260330.0000.00_16.0_global_a0165ebe71.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.6.0.WNTMIXM": {
 					"os": "OS3.0.6.0.WNTMIXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "moon_global-ota_full-OS3.0.6.0.WNTMIXM-user-16.0-a7b0a60c98.zip",
-					"fastboot": "moon_global_images_OS3.0.6.0.WNTMIXM_20260121.0000.00_16.0_global_2a0065587b.tgz"
+					"fastboot": "moon_global_images_OS3.0.6.0.WNTMIXM_20260121.0000.00_16.0_global_2a0065587b.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.5.0.WNTMIXM": {
 					"os": "OS3.0.5.0.WNTMIXM",
 					"android": "16.0",
 					"release": "2025-12-28",
 					"recovery": "moon_global-ota_full-OS3.0.5.0.WNTMIXM-user-16.0-2da013bdb1.zip",
-					"fastboot": "moon_global_images_OS3.0.5.0.WNTMIXM_20251223.0000.00_16.0_global_1374f7675f.tgz"
+					"fastboot": "moon_global_images_OS3.0.5.0.WNTMIXM_20251223.0000.00_16.0_global_1374f7675f.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.4.0.WNTMIXM": {
 					"os": "OS3.0.4.0.WNTMIXM",
 					"android": "16.0",
 					"release": "2025-12-04",
 					"recovery": "moon_global-ota_full-OS3.0.4.0.WNTMIXM-user-16.0-2d34a0dcd4.zip",
-					"fastboot": "moon_global_images_OS3.0.4.0.WNTMIXM_20251126.0000.00_16.0_global_964f8a64db.tgz"
+					"fastboot": "moon_global_images_OS3.0.4.0.WNTMIXM_20251126.0000.00_16.0_global_964f8a64db.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VNTMIXM": {
 					"os": "OS2.0.203.0.VNTMIXM",
 					"android": "15.0",
 					"release": "2025-11-03",
 					"recovery": "moon_global-ota_full-OS2.0.203.0.VNTMIXM-user-15.0-a0402b0330.zip",
-					"fastboot": "moon_global_images_OS2.0.203.0.VNTMIXM_20251021.0000.00_15.0_global_2c319ccbc0.tgz"
+					"fastboot": "moon_global_images_OS2.0.203.0.VNTMIXM_20251021.0000.00_15.0_global_2c319ccbc0.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VNTMIXM": {
 					"os": "OS2.0.202.0.VNTMIXM",
 					"android": "15.0",
 					"release": "2025-10-09",
 					"recovery": "moon_global-ota_full-OS2.0.202.0.VNTMIXM-user-15.0-180af278f1.zip",
-					"fastboot": "moon_global_images_OS2.0.202.0.VNTMIXM_20250917.0000.00_15.0_global_4daff305ca.tgz"
+					"fastboot": "moon_global_images_OS2.0.202.0.VNTMIXM_20250917.0000.00_15.0_global_4daff305ca.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VNTMIXM": {
 					"os": "OS2.0.201.0.VNTMIXM",
 					"android": "15.0",
 					"release": "2025-07-10",
 					"recovery": "moon_global-ota_full-OS2.0.201.0.VNTMIXM-user-15.0-5fd2d4aa61.zip",
-					"fastboot": "moon_global_images_OS2.0.201.0.VNTMIXM_20250624.0000.00_15.0_global_cacc494c39.tgz"
+					"fastboot": "moon_global_images_OS2.0.201.0.VNTMIXM_20250624.0000.00_15.0_global_cacc494c39.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.6.0.VNTMIXM": {
 					"os": "OS2.0.6.0.VNTMIXM",
 					"android": "15.0",
 					"release": "2025-06-16",
 					"recovery": "moon_global-ota_full-OS2.0.6.0.VNTMIXM-user-15.0-f791dd7af6.zip",
-					"fastboot": "moon_global_images_OS2.0.6.0.VNTMIXM_20250603.0000.00_15.0_global_2eb1d98b08.tgz"
+					"fastboot": "moon_global_images_OS2.0.6.0.VNTMIXM_20250603.0000.00_15.0_global_2eb1d98b08.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.5.0.VNTMIXM": {
 					"os": "OS2.0.5.0.VNTMIXM",
 					"android": "15.0",
 					"release": "2025-04-18",
 					"recovery": "moon_global-ota_full-OS2.0.5.0.VNTMIXM-user-15.0-443f7b6c93.zip",
-					"fastboot": "moon_global_images_OS2.0.5.0.VNTMIXM_20250408.0000.00_15.0_global_c0b16d6262.tgz"
+					"fastboot": "moon_global_images_OS2.0.5.0.VNTMIXM_20250408.0000.00_15.0_global_c0b16d6262.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.4.0.VNTMIXM": {
 					"os": "OS2.0.4.0.VNTMIXM",
 					"android": "15.0",
 					"release": "2025-03-03",
 					"recovery": "moon_global-ota_full-OS2.0.4.0.VNTMIXM-user-15.0-618fd874fe.zip",
-					"fastboot": "moon_global_images_OS2.0.4.0.VNTMIXM_20250214.0000.00_15.0_global_144915cd4d.tgz"
+					"fastboot": "moon_global_images_OS2.0.4.0.VNTMIXM_20250214.0000.00_15.0_global_144915cd4d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VNTMIXM": {
 					"os": "OS2.0.3.0.VNTMIXM",
 					"android": "15.0",
 					"release": "2025-01-05",
 					"recovery": "moon_global-ota_full-OS2.0.3.0.VNTMIXM-user-15.0-e2f2771617.zip",
-					"fastboot": "moon_global_images_OS2.0.3.0.VNTMIXM_20241225.0000.00_15.0_global_7a8e801b2d.tgz"
+					"fastboot": "moon_global_images_OS2.0.3.0.VNTMIXM_20241225.0000.00_15.0_global_7a8e801b2d.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.2.0.VNTMIXM": {
 					"os": "OS2.0.2.0.VNTMIXM",
 					"android": "15.0",
 					"release": "2024-12-13",
 					"recovery": "moon_global-ota_full-OS2.0.2.0.VNTMIXM-user-15.0-f7ece4195a.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UNTMIXM": {
 					"os": "OS1.0.10.0.UNTMIXM",
 					"android": "14.0",
 					"release": "2025-04-25",
 					"recovery": "miui_MOONGlobal_OS1.0.10.0.UNTMIXM_642e268a4b_14.0.zip",
-					"fastboot": "moon_global_images_OS1.0.10.0.UNTMIXM_20250415.0000.00_14.0_global_3f715252a4.tgz"
+					"fastboot": "moon_global_images_OS1.0.10.0.UNTMIXM_20250415.0000.00_14.0_global_3f715252a4.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.9.0.UNTMIXM": {
 					"os": "OS1.0.9.0.UNTMIXM",
 					"android": "14.0",
 					"release": "2025-03-10",
 					"recovery": "miui_MOONGlobal_OS1.0.9.0.UNTMIXM_876bc0534c_14.0.zip",
-					"fastboot": "moon_global_images_OS1.0.9.0.UNTMIXM_20250225.0000.00_14.0_global_fe00d84b86.tgz"
+					"fastboot": "moon_global_images_OS1.0.9.0.UNTMIXM_20250225.0000.00_14.0_global_fe00d84b86.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.8.0.UNTMIXM": {
 					"os": "OS1.0.8.0.UNTMIXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_MOONGlobal_OS1.0.8.0.UNTMIXM_33874dce35_14.0.zip",
-					"fastboot": "moon_global_images_OS1.0.8.0.UNTMIXM_20241105.0000.00_14.0_global_f69bca9d41.tgz"
+					"fastboot": "moon_global_images_OS1.0.8.0.UNTMIXM_20241105.0000.00_14.0_global_f69bca9d41.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UNTMIXM": {
 					"os": "OS1.0.7.0.UNTMIXM",
 					"android": "14.0",
 					"release": "2024-09-30",
 					"recovery": "miui_MOONGlobal_OS1.0.7.0.UNTMIXM_ef1313045c_14.0.zip",
-					"fastboot": "moon_global_images_OS1.0.7.0.UNTMIXM_20240919.0000.00_14.0_global_089a23e9b0.tgz"
+					"fastboot": "moon_global_images_OS1.0.7.0.UNTMIXM_20240919.0000.00_14.0_global_089a23e9b0.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UNTMIXM": {
 					"os": "OS1.0.6.0.UNTMIXM",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_MOONGlobal_OS1.0.6.0.UNTMIXM_db029c4fc2_14.0.zip",
-					"fastboot": "moon_global_images_OS1.0.6.0.UNTMIXM_20240716.0000.00_14.0_global_709bbda509.tgz"
+					"fastboot": "moon_global_images_OS1.0.6.0.UNTMIXM_20240716.0000.00_14.0_global_709bbda509.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.4.0.UNTMIXM": {
 					"os": "OS1.0.4.0.UNTMIXM",
 					"android": "14.0",
 					"release": "2024-06-06",
 					"recovery": "miui_MOONGlobal_OS1.0.4.0.UNTMIXM_9fcb952d2b_14.0.zip",
-					"fastboot": "moon_global_images_OS1.0.4.0.UNTMIXM_20240517.0000.00_14.0_global_faf28c7dd8.tgz"
+					"fastboot": "moon_global_images_OS1.0.4.0.UNTMIXM_20240517.0000.00_14.0_global_faf28c7dd8.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.3.0.UNTMIXM": {
 					"os": "OS1.0.3.0.UNTMIXM",
 					"android": "14.0",
 					"release": "2024-06-06",
 					"recovery": "miui_MOONGlobal_OS1.0.3.0.UNTMIXM_49d359997e_14.0.zip",
-					"fastboot": "moon_global_images_OS1.0.3.0.UNTMIXM_20240430.0000.00_14.0_global_684eac076e.tgz"
+					"fastboot": "moon_global_images_OS1.0.3.0.UNTMIXM_20240430.0000.00_14.0_global_684eac076e.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.1.0.UNTMIXM": {
 					"os": "OS1.0.1.0.UNTMIXM",
 					"android": "14.0",
 					"release": "2024-06-06",
 					"recovery": "miui_MOONGlobal_OS1.0.1.0.UNTMIXM_cf37c262c0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -358,6 +397,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -374,91 +414,104 @@
 					"android": "16.0",
 					"release": "2026-06-02",
 					"recovery": "moon_dc_global-ota_full-OS3.0.301.0.WNTMIDC-user-16.0-e4a72f8419.zip",
-					"fastboot": "moon_dc_global_images_OS3.0.301.0.WNTMIDC_20260522.0000.00_16.0_global_dc_2699cee369.tgz"
+					"fastboot": "moon_dc_global_images_OS3.0.301.0.WNTMIDC_20260522.0000.00_16.0_global_dc_2699cee369.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WNTMIDC": {
 					"os": "OS3.0.3.0.WNTMIDC",
 					"android": "16.0",
 					"release": "2026-04-20",
 					"recovery": "moon_dc_global-ota_full-OS3.0.3.0.WNTMIDC-user-16.0-d52fe8dd16.zip",
-					"fastboot": "moon_dc_global_images_OS3.0.3.0.WNTMIDC_20260408.0000.00_16.0_global_dc_221f44f676.tgz"
+					"fastboot": "moon_dc_global_images_OS3.0.3.0.WNTMIDC_20260408.0000.00_16.0_global_dc_221f44f676.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WNTMIDC": {
 					"os": "OS3.0.2.0.WNTMIDC",
 					"android": "16.0",
 					"release": "2026-01-27",
 					"recovery": "moon_dc_global-ota_full-OS3.0.2.0.WNTMIDC-user-16.0-b41466cead.zip",
-					"fastboot": "moon_dc_global_images_OS3.0.2.0.WNTMIDC_20260121.0000.00_16.0_global_dc_c47d77a62c.tgz"
+					"fastboot": "moon_dc_global_images_OS3.0.2.0.WNTMIDC_20260121.0000.00_16.0_global_dc_c47d77a62c.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WNTMIDC": {
 					"os": "OS3.0.1.0.WNTMIDC",
 					"android": "16.0",
 					"release": "2025-12-30",
 					"recovery": "moon_dc_global-ota_full-OS3.0.1.0.WNTMIDC-user-16.0-e940e4fc7c.zip",
-					"fastboot": "moon_dc_global_images_OS3.0.1.0.WNTMIDC_20251220.0000.00_16.0_global_dc_ae4bfda33f.tgz"
+					"fastboot": "moon_dc_global_images_OS3.0.1.0.WNTMIDC_20251220.0000.00_16.0_global_dc_ae4bfda33f.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.202.0.VNTMIDC": {
 					"os": "OS2.0.202.0.VNTMIDC",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "moon_dc_global-ota_full-OS2.0.202.0.VNTMIDC-user-15.0-20d952372f.zip",
-					"fastboot": "moon_dc_global_images_OS2.0.202.0.VNTMIDC_20251030.0000.00_15.0_global_dc_dfc390c5a7.tgz"
+					"fastboot": "moon_dc_global_images_OS2.0.202.0.VNTMIDC_20251030.0000.00_15.0_global_dc_dfc390c5a7.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VNTMIDC": {
 					"os": "OS2.0.201.0.VNTMIDC",
 					"android": "15.0",
 					"release": "2025-09-29",
 					"recovery": "moon_dc_global-ota_full-OS2.0.201.0.VNTMIDC-user-15.0-1b2c721929.zip",
-					"fastboot": "moon_dc_global_images_OS2.0.201.0.VNTMIDC_20250919.0000.00_15.0_global_dc_114e89ede5.tgz"
+					"fastboot": "moon_dc_global_images_OS2.0.201.0.VNTMIDC_20250919.0000.00_15.0_global_dc_114e89ede5.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.8.0.VNTMIDC": {
 					"os": "OS2.0.8.0.VNTMIDC",
 					"android": "15.0",
 					"release": "2025-08-29",
 					"recovery": "moon_dc_global-ota_full-OS2.0.8.0.VNTMIDC-user-15.0-8f57fbc2c0.zip",
-					"fastboot": "moon_dc_global_images_OS2.0.8.0.VNTMIDC_20250811.0000.00_15.0_global_dc_07c0532f2a.tgz"
+					"fastboot": "moon_dc_global_images_OS2.0.8.0.VNTMIDC_20250811.0000.00_15.0_global_dc_07c0532f2a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.6.0.VNTMIDC": {
 					"os": "OS2.0.6.0.VNTMIDC",
 					"android": "15.0",
 					"release": "2025-07-24",
 					"recovery": "moon_dc_global-ota_full-OS2.0.6.0.VNTMIDC-user-15.0-fe184e7013.zip",
-					"fastboot": "moon_dc_global_images_OS2.0.6.0.VNTMIDC_20250618.0000.00_15.0_global_dc_15c7e976e5.tgz"
+					"fastboot": "moon_dc_global_images_OS2.0.6.0.VNTMIDC_20250618.0000.00_15.0_global_dc_15c7e976e5.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.5.0.VNTMIDC": {
 					"os": "OS2.0.5.0.VNTMIDC",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "moon_dc_global-ota_full-OS2.0.5.0.VNTMIDC-user-15.0-6442346bdf.zip",
-					"fastboot": "moon_dc_global_images_OS2.0.5.0.VNTMIDC_20250416.0000.00_15.0_global_dc_6dcefbcc0c.tgz"
+					"fastboot": "moon_dc_global_images_OS2.0.5.0.VNTMIDC_20250416.0000.00_15.0_global_dc_6dcefbcc0c.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.4.0.VNTMIDC": {
 					"os": "OS2.0.4.0.VNTMIDC",
 					"android": "15.0",
 					"release": "2025-03-14",
 					"recovery": "moon_dc_global-ota_full-OS2.0.4.0.VNTMIDC-user-15.0-d87ad276b8.zip",
-					"fastboot": "moon_dc_global_images_OS2.0.4.0.VNTMIDC_20250305.0000.00_15.0_global_dc_16d8162966.tgz"
+					"fastboot": "moon_dc_global_images_OS2.0.4.0.VNTMIDC_20250305.0000.00_15.0_global_dc_16d8162966.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VNTMIDC": {
 					"os": "OS2.0.3.0.VNTMIDC",
 					"android": "15.0",
 					"release": "2025-02-05",
 					"recovery": "moon_dc_global-ota_full-OS2.0.3.0.VNTMIDC-user-15.0-07223ecc49.zip",
-					"fastboot": "moon_dc_global_images_OS2.0.3.0.VNTMIDC_20250115.0000.00_15.0_global_dc_e53f9eff7a.tgz"
+					"fastboot": "moon_dc_global_images_OS2.0.3.0.VNTMIDC_20250115.0000.00_15.0_global_dc_e53f9eff7a.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.UNTMIDC": {
 					"os": "OS1.0.7.0.UNTMIDC",
 					"android": "14.0",
 					"release": "2024-12-03",
 					"recovery": "miui_MOONDCGlobal_OS1.0.7.0.UNTMIDC_555ed802a8_14.0.zip",
-					"fastboot": "moon_dc_global_images_OS1.0.7.0.UNTMIDC_20241122.0000.00_14.0_global_dc_f27bec8932.tgz"
+					"fastboot": "moon_dc_global_images_OS1.0.7.0.UNTMIDC_20241122.0000.00_14.0_global_dc_f27bec8932.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UNTMIDC": {
 					"os": "OS1.0.6.0.UNTMIDC",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_MOONDCGlobal_OS1.0.6.0.UNTMIDC_cc62d667f0_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-01"
 				}
 			}
 		},
@@ -480,6 +533,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -496,140 +550,160 @@
 					"android": "16.0",
 					"release": "2026-05-22",
 					"recovery": "moon_eea_global-ota_full-OS3.0.301.0.WNTEUXM-user-16.0-77ab63bd64.zip",
-					"fastboot": "moon_eea_global_images_OS3.0.301.0.WNTEUXM_20260514.0000.00_16.0_eea_469bc29d83.tgz"
+					"fastboot": "moon_eea_global_images_OS3.0.301.0.WNTEUXM_20260514.0000.00_16.0_eea_469bc29d83.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.WNTEUXM": {
 					"os": "OS3.0.4.0.WNTEUXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "moon_eea_global-ota_full-OS3.0.4.0.WNTEUXM-user-16.0-8f3ecb2d65.zip",
-					"fastboot": "moon_eea_global_images_OS3.0.4.0.WNTEUXM_20260330.0000.00_16.0_eea_1403143ded.tgz"
+					"fastboot": "moon_eea_global_images_OS3.0.4.0.WNTEUXM_20260330.0000.00_16.0_eea_1403143ded.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WNTEUXM": {
 					"os": "OS3.0.3.0.WNTEUXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "moon_eea_global-ota_full-OS3.0.3.0.WNTEUXM-user-16.0-4118c69806.zip",
-					"fastboot": "moon_eea_global_images_OS3.0.3.0.WNTEUXM_20260121.0000.00_16.0_eea_cc70a37154.tgz"
+					"fastboot": "moon_eea_global_images_OS3.0.3.0.WNTEUXM_20260121.0000.00_16.0_eea_cc70a37154.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WNTEUXM": {
 					"os": "OS3.0.2.0.WNTEUXM",
 					"android": "16.0",
 					"release": "2026-01-05",
 					"recovery": "moon_eea_global-ota_full-OS3.0.2.0.WNTEUXM-user-16.0-326cbc1733.zip",
-					"fastboot": "moon_eea_global_images_OS3.0.2.0.WNTEUXM_20251226.0000.00_16.0_eea_122d4e535e.tgz"
+					"fastboot": "moon_eea_global_images_OS3.0.2.0.WNTEUXM_20251226.0000.00_16.0_eea_122d4e535e.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.1.0.WNTEUXM": {
 					"os": "OS3.0.1.0.WNTEUXM",
 					"android": "16.0",
 					"release": "2025-12-25",
 					"recovery": "moon_eea_global-ota_full-OS3.0.1.0.WNTEUXM-user-16.0-cc20a457de.zip",
-					"fastboot": "moon_eea_global_images_OS3.0.1.0.WNTEUXM_20251212.0000.00_16.0_eea_4cffb28ba2.tgz"
+					"fastboot": "moon_eea_global_images_OS3.0.1.0.WNTEUXM_20251212.0000.00_16.0_eea_4cffb28ba2.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VNTEUXM": {
 					"os": "OS2.0.205.0.VNTEUXM",
 					"android": "15.0",
 					"release": "2025-11-10",
 					"recovery": "moon_eea_global-ota_full-OS2.0.205.0.VNTEUXM-user-15.0-19f5399fdc.zip",
-					"fastboot": "moon_eea_global_images_OS2.0.205.0.VNTEUXM_20251029.0000.00_15.0_eea_cdb5c649b9.tgz"
+					"fastboot": "moon_eea_global_images_OS2.0.205.0.VNTEUXM_20251029.0000.00_15.0_eea_cdb5c649b9.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VNTEUXM": {
 					"os": "OS2.0.204.0.VNTEUXM",
 					"android": "15.0",
 					"release": "2025-10-13",
 					"recovery": "moon_eea_global-ota_full-OS2.0.204.0.VNTEUXM-user-15.0-e59ad9f80f.zip",
-					"fastboot": "moon_eea_global_images_OS2.0.204.0.VNTEUXM_20250928.0000.00_15.0_eea_ecdad4dc26.tgz"
+					"fastboot": "moon_eea_global_images_OS2.0.204.0.VNTEUXM_20250928.0000.00_15.0_eea_ecdad4dc26.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.203.0.VNTEUXM": {
 					"os": "OS2.0.203.0.VNTEUXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "moon_eea_global-ota_full-OS2.0.203.0.VNTEUXM-user-15.0-a19b19cb18.zip",
-					"fastboot": "moon_eea_global_images_OS2.0.203.0.VNTEUXM_20250910.0000.00_15.0_eea_66e5087503.tgz"
+					"fastboot": "moon_eea_global_images_OS2.0.203.0.VNTEUXM_20250910.0000.00_15.0_eea_66e5087503.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VNTEUXM": {
 					"os": "OS2.0.202.0.VNTEUXM",
 					"android": "15.0",
 					"release": "2025-09-10",
 					"recovery": "moon_eea_global-ota_full-OS2.0.202.0.VNTEUXM-user-15.0-b319a51b72.zip",
-					"fastboot": "moon_eea_global_images_OS2.0.202.0.VNTEUXM_20250828.0000.00_15.0_eea_57c11521ee.tgz"
+					"fastboot": "moon_eea_global_images_OS2.0.202.0.VNTEUXM_20250828.0000.00_15.0_eea_57c11521ee.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VNTEUXM": {
 					"os": "OS2.0.201.0.VNTEUXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "moon_eea_global-ota_full-OS2.0.201.0.VNTEUXM-user-15.0-5e31983d6e.zip",
-					"fastboot": "moon_eea_global_images_OS2.0.201.0.VNTEUXM_20250612.0000.00_15.0_eea_1b2e843b97.tgz"
+					"fastboot": "moon_eea_global_images_OS2.0.201.0.VNTEUXM_20250612.0000.00_15.0_eea_1b2e843b97.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.5.0.VNTEUXM": {
 					"os": "OS2.0.5.0.VNTEUXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "moon_eea_global-ota_full-OS2.0.5.0.VNTEUXM-user-15.0-34d6085c9b.zip",
-					"fastboot": "moon_eea_global_images_OS2.0.5.0.VNTEUXM_20250415.0000.00_15.0_eea_8a4c4304c6.tgz"
+					"fastboot": "moon_eea_global_images_OS2.0.5.0.VNTEUXM_20250415.0000.00_15.0_eea_8a4c4304c6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.4.0.VNTEUXM": {
 					"os": "OS2.0.4.0.VNTEUXM",
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_eea_global-ota_full-OS2.0.4.0.VNTEUXM-user-15.0-855231ac4e.zip",
-					"fastboot": "moon_eea_global_images_OS2.0.4.0.VNTEUXM_20250226.0000.00_15.0_eea_46fd033cb4.tgz"
+					"fastboot": "moon_eea_global_images_OS2.0.4.0.VNTEUXM_20250226.0000.00_15.0_eea_46fd033cb4.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VNTEUXM": {
 					"os": "OS2.0.3.0.VNTEUXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "moon_eea_global-ota_full-OS2.0.3.0.VNTEUXM-user-15.0-8fc5e51dbd.zip",
-					"fastboot": "moon_eea_global_images_OS2.0.3.0.VNTEUXM_20250110.0000.00_15.0_eea_00c26fff89.tgz"
+					"fastboot": "moon_eea_global_images_OS2.0.3.0.VNTEUXM_20250110.0000.00_15.0_eea_00c26fff89.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.UNTEUXM": {
 					"os": "OS1.0.8.0.UNTEUXM",
 					"android": "14.0",
 					"release": "2025-05-17",
 					"recovery": "miui_MOONEEAGlobal_OS1.0.8.0.UNTEUXM_3575f1b232_14.0.zip",
-					"fastboot": "moon_eea_global_images_OS1.0.8.0.UNTEUXM_20250429.0000.00_14.0_eea_71b76ddfab.tgz"
+					"fastboot": "moon_eea_global_images_OS1.0.8.0.UNTEUXM_20250429.0000.00_14.0_eea_71b76ddfab.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UNTEUXM": {
 					"os": "OS1.0.7.0.UNTEUXM",
 					"android": "14.0",
 					"release": "2024-12-06",
 					"recovery": "miui_MOONEEAGlobal_OS1.0.7.0.UNTEUXM_3953f1bdff_14.0.zip",
-					"fastboot": "moon_eea_global_images_OS1.0.7.0.UNTEUXM_20241122.0000.00_14.0_eea_56ddc5ca49.tgz"
+					"fastboot": "moon_eea_global_images_OS1.0.7.0.UNTEUXM_20241122.0000.00_14.0_eea_56ddc5ca49.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UNTEUXM": {
 					"os": "OS1.0.6.0.UNTEUXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_MOONEEAGlobal_OS1.0.6.0.UNTEUXM_60ac0e6eb5_14.0.zip",
-					"fastboot": "moon_eea_global_images_OS1.0.6.0.UNTEUXM_20240919.0000.00_14.0_eea_5eb50af34c.tgz"
+					"fastboot": "moon_eea_global_images_OS1.0.6.0.UNTEUXM_20240919.0000.00_14.0_eea_5eb50af34c.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UNTEUXM": {
 					"os": "OS1.0.5.0.UNTEUXM",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_MOONEEAGlobal_OS1.0.5.0.UNTEUXM_72f00ab2cc_14.0.zip",
-					"fastboot": "moon_eea_global_images_OS1.0.5.0.UNTEUXM_20240716.0000.00_14.0_eea_a9788ffdc5.tgz"
+					"fastboot": "moon_eea_global_images_OS1.0.5.0.UNTEUXM_20240716.0000.00_14.0_eea_a9788ffdc5.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UNTEUXM": {
 					"os": "OS1.0.3.0.UNTEUXM",
 					"android": "14.0",
 					"release": "2024-06-20",
 					"recovery": "miui_MOONEEAGlobal_OS1.0.3.0.UNTEUXM_b44caa7893_14.0.zip",
-					"fastboot": "moon_eea_global_images_OS1.0.3.0.UNTEUXM_20240606.0000.00_14.0_eea_c19711dba4.tgz"
+					"fastboot": "moon_eea_global_images_OS1.0.3.0.UNTEUXM_20240606.0000.00_14.0_eea_c19711dba4.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UNTEUXM": {
 					"os": "OS1.0.2.0.UNTEUXM",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_MOONEEAGlobal_OS1.0.2.0.UNTEUXM_9d21153028_14.0.zip",
-					"fastboot": "moon_eea_global_images_OS1.0.2.0.UNTEUXM_20240507.0000.00_14.0_eea_6bbb38d160.tgz"
+					"fastboot": "moon_eea_global_images_OS1.0.2.0.UNTEUXM_20240507.0000.00_14.0_eea_6bbb38d160.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UNTEUXM": {
 					"os": "OS1.0.1.0.UNTEUXM",
 					"android": "14.0",
 					"release": "2024-06-12",
 					"recovery": "miui_MOONEEAGlobal_OS1.0.1.0.UNTEUXM_da6a18f056_14.0.zip",
-					"fastboot": "moon_eea_global_images_OS1.0.1.0.UNTEUXM_20240419.0000.00_14.0_eea_a66d6acbda.tgz"
+					"fastboot": "moon_eea_global_images_OS1.0.1.0.UNTEUXM_20240419.0000.00_14.0_eea_a66d6acbda.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -651,6 +725,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -689,6 +764,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -705,126 +781,144 @@
 					"android": "16.0",
 					"release": "2026-05-27",
 					"recovery": "moon_ru_global-ota_full-OS3.0.301.0.WNTRUXM-user-16.0-c373e1b262.zip",
-					"fastboot": "moon_ru_global_images_OS3.0.301.0.WNTRUXM_20260514.0000.00_16.0_ru_0c109bd3dc.tgz"
+					"fastboot": "moon_ru_global_images_OS3.0.301.0.WNTRUXM_20260514.0000.00_16.0_ru_0c109bd3dc.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.WNTRUXM": {
 					"os": "OS3.0.4.0.WNTRUXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "moon_ru_global-ota_full-OS3.0.4.0.WNTRUXM-user-16.0-8a6710b478.zip",
-					"fastboot": "moon_ru_global_images_OS3.0.4.0.WNTRUXM_20260330.0000.00_16.0_ru_e19b9ee688.tgz"
+					"fastboot": "moon_ru_global_images_OS3.0.4.0.WNTRUXM_20260330.0000.00_16.0_ru_e19b9ee688.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WNTRUXM": {
 					"os": "OS3.0.3.0.WNTRUXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "moon_ru_global-ota_full-OS3.0.3.0.WNTRUXM-user-16.0-3ce7da11e7.zip",
-					"fastboot": "moon_ru_global_images_OS3.0.3.0.WNTRUXM_20260126.0000.00_16.0_ru_c12bc8e12b.tgz"
+					"fastboot": "moon_ru_global_images_OS3.0.3.0.WNTRUXM_20260126.0000.00_16.0_ru_c12bc8e12b.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WNTRUXM": {
 					"os": "OS3.0.2.0.WNTRUXM",
 					"android": "16.0",
 					"release": "2026-01-23",
 					"recovery": "moon_ru_global-ota_full-OS3.0.2.0.WNTRUXM-user-16.0-7fbbbaa062.zip",
-					"fastboot": "moon_ru_global_images_OS3.0.2.0.WNTRUXM_20260115.0000.00_16.0_ru_82c1028ad1.tgz"
+					"fastboot": "moon_ru_global_images_OS3.0.2.0.WNTRUXM_20260115.0000.00_16.0_ru_82c1028ad1.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.1.0.WNTRUXM": {
 					"os": "OS3.0.1.0.WNTRUXM",
 					"android": "16.0",
 					"release": "2026-01-07",
 					"recovery": "moon_ru_global-ota_full-OS3.0.1.0.WNTRUXM-user-16.0-4ee3359ac0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.203.0.VNTRUXM": {
 					"os": "OS2.0.203.0.VNTRUXM",
 					"android": "15.0",
 					"release": "2025-11-10",
 					"recovery": "moon_ru_global-ota_full-OS2.0.203.0.VNTRUXM-user-15.0-86cfb5b50e.zip",
-					"fastboot": "moon_ru_global_images_OS2.0.203.0.VNTRUXM_20251029.0000.00_15.0_ru_c89d553125.tgz"
+					"fastboot": "moon_ru_global_images_OS2.0.203.0.VNTRUXM_20251029.0000.00_15.0_ru_c89d553125.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VNTRUXM": {
 					"os": "OS2.0.202.0.VNTRUXM",
 					"android": "15.0",
 					"release": "2025-10-09",
 					"recovery": "moon_ru_global-ota_full-OS2.0.202.0.VNTRUXM-user-15.0-17b7404706.zip",
-					"fastboot": "moon_ru_global_images_OS2.0.202.0.VNTRUXM_20250917.0000.00_15.0_ru_aa8f499cc8.tgz"
+					"fastboot": "moon_ru_global_images_OS2.0.202.0.VNTRUXM_20250917.0000.00_15.0_ru_aa8f499cc8.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VNTRUXM": {
 					"os": "OS2.0.201.0.VNTRUXM",
 					"android": "15.0",
 					"release": "2025-07-17",
 					"recovery": "moon_ru_global-ota_full-OS2.0.201.0.VNTRUXM-user-15.0-fd5cbc5484.zip",
-					"fastboot": "moon_ru_global_images_OS2.0.201.0.VNTRUXM_20250701.0000.00_15.0_ru_9007e96882.tgz"
+					"fastboot": "moon_ru_global_images_OS2.0.201.0.VNTRUXM_20250701.0000.00_15.0_ru_9007e96882.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.6.0.VNTRUXM": {
 					"os": "OS2.0.6.0.VNTRUXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "moon_ru_global-ota_full-OS2.0.6.0.VNTRUXM-user-15.0-44307678d5.zip",
-					"fastboot": "moon_ru_global_images_OS2.0.6.0.VNTRUXM_20250604.0000.00_15.0_ru_81a00952c9.tgz"
+					"fastboot": "moon_ru_global_images_OS2.0.6.0.VNTRUXM_20250604.0000.00_15.0_ru_81a00952c9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.5.0.VNTRUXM": {
 					"os": "OS2.0.5.0.VNTRUXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "moon_ru_global-ota_full-OS2.0.5.0.VNTRUXM-user-15.0-94b11bdfc4.zip",
-					"fastboot": "moon_ru_global_images_OS2.0.5.0.VNTRUXM_20250416.0000.00_15.0_ru_a0317fe7c2.tgz"
+					"fastboot": "moon_ru_global_images_OS2.0.5.0.VNTRUXM_20250416.0000.00_15.0_ru_a0317fe7c2.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.4.0.VNTRUXM": {
 					"os": "OS2.0.4.0.VNTRUXM",
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_ru_global-ota_full-OS2.0.4.0.VNTRUXM-user-15.0-a6cf89bcd2.zip",
-					"fastboot": "moon_ru_global_images_OS2.0.4.0.VNTRUXM_20250226.0000.00_15.0_ru_f38f9a4beb.tgz"
+					"fastboot": "moon_ru_global_images_OS2.0.4.0.VNTRUXM_20250226.0000.00_15.0_ru_f38f9a4beb.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VNTRUXM": {
 					"os": "OS2.0.3.0.VNTRUXM",
 					"android": "15.0",
 					"release": "2025-02-05",
 					"recovery": "moon_ru_global-ota_full-OS2.0.3.0.VNTRUXM-user-15.0-ffd2100175.zip",
-					"fastboot": "moon_ru_global_images_OS2.0.3.0.VNTRUXM_20250110.0000.00_15.0_ru_7973967863.tgz"
+					"fastboot": "moon_ru_global_images_OS2.0.3.0.VNTRUXM_20250110.0000.00_15.0_ru_7973967863.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.11.0.UNTRUXM": {
 					"os": "OS1.0.11.0.UNTRUXM",
 					"android": "14.0",
 					"release": "2025-05-20",
 					"recovery": "miui_MOONRUGlobal_OS1.0.11.0.UNTRUXM_7f1938ab5b_14.0.zip",
-					"fastboot": "moon_ru_global_images_OS1.0.11.0.UNTRUXM_20250429.0000.00_14.0_ru_c884b68731.tgz"
+					"fastboot": "moon_ru_global_images_OS1.0.11.0.UNTRUXM_20250429.0000.00_14.0_ru_c884b68731.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UNTRUXM": {
 					"os": "OS1.0.7.0.UNTRUXM",
 					"android": "14.0",
 					"release": "2024-12-06",
 					"recovery": "miui_MOONRUGlobal_OS1.0.7.0.UNTRUXM_70172e0e64_14.0.zip",
-					"fastboot": "moon_ru_global_images_OS1.0.7.0.UNTRUXM_20241122.0000.00_14.0_ru_c19e2d181b.tgz"
+					"fastboot": "moon_ru_global_images_OS1.0.7.0.UNTRUXM_20241122.0000.00_14.0_ru_c19e2d181b.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UNTRUXM": {
 					"os": "OS1.0.6.0.UNTRUXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_MOONRUGlobal_OS1.0.6.0.UNTRUXM_277b4a2c2c_14.0.zip",
-					"fastboot": "moon_ru_global_images_OS1.0.6.0.UNTRUXM_20240903.0000.00_14.0_ru_ad44074c77.tgz"
+					"fastboot": "moon_ru_global_images_OS1.0.6.0.UNTRUXM_20240903.0000.00_14.0_ru_ad44074c77.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UNTRUXM": {
 					"os": "OS1.0.5.0.UNTRUXM",
 					"android": "14.0",
 					"release": "2024-07-09",
 					"recovery": "miui_MOONRUGlobal_OS1.0.5.0.UNTRUXM_e66838e314_14.0.zip",
-					"fastboot": "moon_ru_global_images_OS1.0.5.0.UNTRUXM_20240705.0000.00_14.0_ru_24c9f1683c.tgz"
+					"fastboot": "moon_ru_global_images_OS1.0.5.0.UNTRUXM_20240705.0000.00_14.0_ru_24c9f1683c.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UNTRUXM": {
 					"os": "OS1.0.3.0.UNTRUXM",
 					"android": "14.0",
 					"release": "2024-06-12",
 					"recovery": "miui_MOONRUGlobal_OS1.0.3.0.UNTRUXM_ca43592647_14.0.zip",
-					"fastboot": "moon_ru_global_images_OS1.0.3.0.UNTRUXM_20240517.0000.00_14.0_ru_89e9406d15.tgz"
+					"fastboot": "moon_ru_global_images_OS1.0.3.0.UNTRUXM_20240517.0000.00_14.0_ru_89e9406d15.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UNTRUXM": {
 					"os": "OS1.0.1.0.UNTRUXM",
 					"android": "14.0",
 					"release": "2024-06-12",
 					"recovery": "miui_MOONRUGlobal_OS1.0.1.0.UNTRUXM_fc088bae0d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -846,6 +940,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -862,133 +957,152 @@
 					"android": "16.0",
 					"release": "2026-06-02",
 					"recovery": "moon_id_global-ota_full-OS3.0.301.0.WNTIDXM-user-16.0-28688303bc.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.WNTIDXM": {
 					"os": "OS3.0.4.0.WNTIDXM",
 					"android": "16.0",
 					"release": "2026-04-20",
 					"recovery": "moon_id_global-ota_full-OS3.0.4.0.WNTIDXM-user-16.0-4c659f6ffc.zip",
-					"fastboot": "moon_id_global_images_OS3.0.4.0.WNTIDXM_20260408.0000.00_16.0_id_555d4786d8.tgz"
+					"fastboot": "moon_id_global_images_OS3.0.4.0.WNTIDXM_20260408.0000.00_16.0_id_555d4786d8.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WNTIDXM": {
 					"os": "OS3.0.3.0.WNTIDXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "moon_id_global-ota_full-OS3.0.3.0.WNTIDXM-user-16.0-5e234954f3.zip",
-					"fastboot": "moon_id_global_images_OS3.0.3.0.WNTIDXM_20260126.0000.00_16.0_id_3ce3da466a.tgz"
+					"fastboot": "moon_id_global_images_OS3.0.3.0.WNTIDXM_20260126.0000.00_16.0_id_3ce3da466a.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WNTIDXM": {
 					"os": "OS3.0.2.0.WNTIDXM",
 					"android": "16.0",
 					"release": "2026-01-20",
 					"recovery": "moon_id_global-ota_full-OS3.0.2.0.WNTIDXM-user-16.0-27714990ae.zip",
-					"fastboot": "moon_id_global_images_OS3.0.2.0.WNTIDXM_20260115.0000.00_16.0_id_e5c0367019.tgz"
+					"fastboot": "moon_id_global_images_OS3.0.2.0.WNTIDXM_20260115.0000.00_16.0_id_e5c0367019.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.1.0.WNTIDXM": {
 					"os": "OS3.0.1.0.WNTIDXM",
 					"android": "16.0",
 					"release": "2026-01-07",
 					"recovery": "moon_id_global-ota_full-OS3.0.1.0.WNTIDXM-user-16.0-703c3ce7a6.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.203.0.VNTIDXM": {
 					"os": "OS2.0.203.0.VNTIDXM",
 					"android": "15.0",
 					"release": "2025-11-10",
 					"recovery": "moon_id_global-ota_full-OS2.0.203.0.VNTIDXM-user-15.0-ee5608ad39.zip",
-					"fastboot": "moon_id_global_images_OS2.0.203.0.VNTIDXM_20251029.0000.00_15.0_id_4893e3de4b.tgz"
+					"fastboot": "moon_id_global_images_OS2.0.203.0.VNTIDXM_20251029.0000.00_15.0_id_4893e3de4b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VNTIDXM": {
 					"os": "OS2.0.202.0.VNTIDXM",
 					"android": "15.0",
 					"release": "2025-10-09",
 					"recovery": "moon_id_global-ota_full-OS2.0.202.0.VNTIDXM-user-15.0-a7d1969c63.zip",
-					"fastboot": "moon_id_global_images_OS2.0.202.0.VNTIDXM_20250917.0000.00_15.0_id_d3a59a624b.tgz"
+					"fastboot": "moon_id_global_images_OS2.0.202.0.VNTIDXM_20250917.0000.00_15.0_id_d3a59a624b.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VNTIDXM": {
 					"os": "OS2.0.201.0.VNTIDXM",
 					"android": "15.0",
 					"release": "2025-07-17",
 					"recovery": "moon_id_global-ota_full-OS2.0.201.0.VNTIDXM-user-15.0-c7f6a97d8d.zip",
-					"fastboot": "moon_id_global_images_OS2.0.201.0.VNTIDXM_20250701.0000.00_15.0_id_513ddbd3d6.tgz"
+					"fastboot": "moon_id_global_images_OS2.0.201.0.VNTIDXM_20250701.0000.00_15.0_id_513ddbd3d6.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.5.0.VNTIDXM": {
 					"os": "OS2.0.5.0.VNTIDXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "moon_id_global-ota_full-OS2.0.5.0.VNTIDXM-user-15.0-c8408ea1b4.zip",
-					"fastboot": "moon_id_global_images_OS2.0.5.0.VNTIDXM_20250604.0000.00_15.0_id_9f235f303b.tgz"
+					"fastboot": "moon_id_global_images_OS2.0.5.0.VNTIDXM_20250604.0000.00_15.0_id_9f235f303b.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.4.0.VNTIDXM": {
 					"os": "OS2.0.4.0.VNTIDXM",
 					"android": "15.0",
 					"release": "2025-05-08",
 					"recovery": "moon_id_global-ota_full-OS2.0.4.0.VNTIDXM-user-15.0-d4b6d69960.zip",
-					"fastboot": "moon_id_global_images_OS2.0.4.0.VNTIDXM_20250415.0000.00_15.0_id_dae373ede6.tgz"
+					"fastboot": "moon_id_global_images_OS2.0.4.0.VNTIDXM_20250415.0000.00_15.0_id_dae373ede6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.3.0.VNTIDXM": {
 					"os": "OS2.0.3.0.VNTIDXM",
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_id_global-ota_full-OS2.0.3.0.VNTIDXM-user-15.0-d5ff38284c.zip",
-					"fastboot": "moon_id_global_images_OS2.0.3.0.VNTIDXM_20250226.0000.00_15.0_id_4e2d27b8e7.tgz"
+					"fastboot": "moon_id_global_images_OS2.0.3.0.VNTIDXM_20250226.0000.00_15.0_id_4e2d27b8e7.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.VNTIDXM": {
 					"os": "OS2.0.2.0.VNTIDXM",
 					"android": "15.0",
 					"release": "2025-02-13",
 					"recovery": "moon_id_global-ota_full-OS2.0.2.0.VNTIDXM-user-15.0-849da6b6fa.zip",
-					"fastboot": "moon_id_global_images_OS2.0.2.0.VNTIDXM_20250205.0000.00_15.0_id_4ab4b36196.tgz"
+					"fastboot": "moon_id_global_images_OS2.0.2.0.VNTIDXM_20250205.0000.00_15.0_id_4ab4b36196.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.9.0.UNTIDXM": {
 					"os": "OS1.0.9.0.UNTIDXM",
 					"android": "14.0",
 					"release": "2025-05-20",
 					"recovery": "miui_MOONIDGlobal_OS1.0.9.0.UNTIDXM_581f00d49c_14.0.zip",
-					"fastboot": "moon_id_global_images_OS1.0.9.0.UNTIDXM_20250429.0000.00_14.0_id_bb23672e36.tgz"
+					"fastboot": "moon_id_global_images_OS1.0.9.0.UNTIDXM_20250429.0000.00_14.0_id_bb23672e36.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UNTIDXM": {
 					"os": "OS1.0.7.0.UNTIDXM",
 					"android": "14.0",
 					"release": "2025-04-28",
 					"recovery": "miui_MOONIDGlobal_OS1.0.7.0.UNTIDXM_9a3189b075_14.0.zip",
-					"fastboot": "moon_id_global_images_OS1.0.7.0.UNTIDXM_20250317.0000.00_14.0_id_5028863a68.tgz"
+					"fastboot": "moon_id_global_images_OS1.0.7.0.UNTIDXM_20250317.0000.00_14.0_id_5028863a68.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UNTIDXM": {
 					"os": "OS1.0.6.0.UNTIDXM",
 					"android": "14.0",
 					"release": "2024-12-06",
 					"recovery": "miui_MOONIDGlobal_OS1.0.6.0.UNTIDXM_9ef899d26d_14.0.zip",
-					"fastboot": "moon_id_global_images_OS1.0.6.0.UNTIDXM_20241122.0000.00_14.0_id_e8dd5d3502.tgz"
+					"fastboot": "moon_id_global_images_OS1.0.6.0.UNTIDXM_20241122.0000.00_14.0_id_e8dd5d3502.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UNTIDXM": {
 					"os": "OS1.0.5.0.UNTIDXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_MOONIDGlobal_OS1.0.5.0.UNTIDXM_edd2d9f2ea_14.0.zip",
-					"fastboot": "moon_id_global_images_OS1.0.5.0.UNTIDXM_20240903.0000.00_14.0_id_65470d50f2.tgz"
+					"fastboot": "moon_id_global_images_OS1.0.5.0.UNTIDXM_20240903.0000.00_14.0_id_65470d50f2.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UNTIDXM": {
 					"os": "OS1.0.4.0.UNTIDXM",
 					"android": "14.0",
 					"release": "2024-07-12",
 					"recovery": "miui_MOONIDGlobal_OS1.0.4.0.UNTIDXM_a2d2829e09_14.0.zip",
-					"fastboot": "moon_id_global_images_OS1.0.4.0.UNTIDXM_20240705.0000.00_14.0_id_cdcefcc43f.tgz"
+					"fastboot": "moon_id_global_images_OS1.0.4.0.UNTIDXM_20240705.0000.00_14.0_id_cdcefcc43f.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UNTIDXM": {
 					"os": "OS1.0.2.0.UNTIDXM",
 					"android": "14.0",
 					"release": "2024-06-13",
 					"recovery": "miui_MOONIDGlobal_OS1.0.2.0.UNTIDXM_910cced16e_14.0.zip",
-					"fastboot": "moon_id_global_images_OS1.0.2.0.UNTIDXM_20240529.0000.00_14.0_id_60cbd3dfc1.tgz"
+					"fastboot": "moon_id_global_images_OS1.0.2.0.UNTIDXM_20240529.0000.00_14.0_id_60cbd3dfc1.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UNTIDXM": {
 					"os": "OS1.0.1.0.UNTIDXM",
 					"android": "14.0",
 					"release": "2024-06-12",
 					"recovery": "miui_MOONIDGlobal_OS1.0.1.0.UNTIDXM_6d70191c72_14.0.zip",
-					"fastboot": "moon_id_global_images_OS1.0.1.0.UNTIDXM_20240419.0000.00_14.0_id_23ebd856a6.tgz"
+					"fastboot": "moon_id_global_images_OS1.0.1.0.UNTIDXM_20240419.0000.00_14.0_id_23ebd856a6.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -1010,6 +1124,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1026,7 +1141,8 @@
 					"android": "14.0",
 					"release": "2025-03-08",
 					"recovery": "miui_MOONIDGlobal_OS1.0.4.0.UNTIDDM_acfdbc4b8f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				}
 			}
 		},
@@ -1048,6 +1164,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1064,126 +1181,144 @@
 					"android": "16.0",
 					"release": "2026-06-08",
 					"recovery": "moon_tr_global-ota_full-OS3.0.301.0.WNTTRXM-user-16.0-7e944e74bc.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.4.0.WNTTRXM": {
 					"os": "OS3.0.4.0.WNTTRXM",
 					"android": "16.0",
 					"release": "2026-04-20",
 					"recovery": "moon_tr_global-ota_full-OS3.0.4.0.WNTTRXM-user-16.0-3c1b7d92b8.zip",
-					"fastboot": "moon_tr_global_images_OS3.0.4.0.WNTTRXM_20260408.0000.00_16.0_tr_8207e80c0c.tgz"
+					"fastboot": "moon_tr_global_images_OS3.0.4.0.WNTTRXM_20260408.0000.00_16.0_tr_8207e80c0c.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WNTTRXM": {
 					"os": "OS3.0.3.0.WNTTRXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "moon_tr_global-ota_full-OS3.0.3.0.WNTTRXM-user-16.0-d633279b84.zip",
-					"fastboot": "moon_tr_global_images_OS3.0.3.0.WNTTRXM_20260126.0000.00_16.0_tr_40b557c087.tgz"
+					"fastboot": "moon_tr_global_images_OS3.0.3.0.WNTTRXM_20260126.0000.00_16.0_tr_40b557c087.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WNTTRXM": {
 					"os": "OS3.0.2.0.WNTTRXM",
 					"android": "16.0",
 					"release": "2026-01-23",
 					"recovery": "moon_tr_global-ota_full-OS3.0.2.0.WNTTRXM-user-16.0-da6e4bb969.zip",
-					"fastboot": "moon_tr_global_images_OS3.0.2.0.WNTTRXM_20260115.0000.00_16.0_tr_2be01b7108.tgz"
+					"fastboot": "moon_tr_global_images_OS3.0.2.0.WNTTRXM_20260115.0000.00_16.0_tr_2be01b7108.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.1.0.WNTTRXM": {
 					"os": "OS3.0.1.0.WNTTRXM",
 					"android": "16.0",
 					"release": "2026-01-12",
 					"recovery": "moon_tr_global-ota_full-OS3.0.1.0.WNTTRXM-user-16.0-f0c6b3a18f.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.203.0.VNTTRXM": {
 					"os": "OS2.0.203.0.VNTTRXM",
 					"android": "15.0",
 					"release": "2025-11-10",
 					"recovery": "moon_tr_global-ota_full-OS2.0.203.0.VNTTRXM-user-15.0-56211776d0.zip",
-					"fastboot": "moon_tr_global_images_OS2.0.203.0.VNTTRXM_20251029.0000.00_15.0_tr_944c73400b.tgz"
+					"fastboot": "moon_tr_global_images_OS2.0.203.0.VNTTRXM_20251029.0000.00_15.0_tr_944c73400b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VNTTRXM": {
 					"os": "OS2.0.202.0.VNTTRXM",
 					"android": "15.0",
 					"release": "2025-10-09",
 					"recovery": "moon_tr_global-ota_full-OS2.0.202.0.VNTTRXM-user-15.0-2857676777.zip",
-					"fastboot": "moon_tr_global_images_OS2.0.202.0.VNTTRXM_20250917.0000.00_15.0_tr_d864001f7b.tgz"
+					"fastboot": "moon_tr_global_images_OS2.0.202.0.VNTTRXM_20250917.0000.00_15.0_tr_d864001f7b.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VNTTRXM": {
 					"os": "OS2.0.201.0.VNTTRXM",
 					"android": "15.0",
 					"release": "2025-07-21",
 					"recovery": "moon_tr_global-ota_full-OS2.0.201.0.VNTTRXM-user-15.0-c70c4b03c4.zip",
-					"fastboot": "moon_tr_global_images_OS2.0.201.0.VNTTRXM_20250708.0000.00_15.0_tr_c246c99bcf.tgz"
+					"fastboot": "moon_tr_global_images_OS2.0.201.0.VNTTRXM_20250708.0000.00_15.0_tr_c246c99bcf.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.5.0.VNTTRXM": {
 					"os": "OS2.0.5.0.VNTTRXM",
 					"android": "15.0",
 					"release": "2025-06-25",
 					"recovery": "moon_tr_global-ota_full-OS2.0.5.0.VNTTRXM-user-15.0-eee6ac4639.zip",
-					"fastboot": "moon_tr_global_images_OS2.0.5.0.VNTTRXM_20250604.0000.00_15.0_tr_a932e6824c.tgz"
+					"fastboot": "moon_tr_global_images_OS2.0.5.0.VNTTRXM_20250604.0000.00_15.0_tr_a932e6824c.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.4.0.VNTTRXM": {
 					"os": "OS2.0.4.0.VNTTRXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "moon_tr_global-ota_full-OS2.0.4.0.VNTTRXM-user-15.0-d0793499e9.zip",
-					"fastboot": "moon_tr_global_images_OS2.0.4.0.VNTTRXM_20250416.0000.00_15.0_tr_49f9015138.tgz"
+					"fastboot": "moon_tr_global_images_OS2.0.4.0.VNTTRXM_20250416.0000.00_15.0_tr_49f9015138.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.3.0.VNTTRXM": {
 					"os": "OS2.0.3.0.VNTTRXM",
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "moon_tr_global-ota_full-OS2.0.3.0.VNTTRXM-user-15.0-5d5e8d7241.zip",
-					"fastboot": "moon_tr_global_images_OS2.0.3.0.VNTTRXM_20250226.0000.00_15.0_tr_c037ea1e9b.tgz"
+					"fastboot": "moon_tr_global_images_OS2.0.3.0.VNTTRXM_20250226.0000.00_15.0_tr_c037ea1e9b.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.VNTTRXM": {
 					"os": "OS2.0.2.0.VNTTRXM",
 					"android": "15.0",
 					"release": "2025-02-13",
 					"recovery": "moon_tr_global-ota_full-OS2.0.2.0.VNTTRXM-user-15.0-8919954938.zip",
-					"fastboot": "moon_tr_global_images_OS2.0.2.0.VNTTRXM_20250205.0000.00_15.0_tr_bcb1cff648.tgz"
+					"fastboot": "moon_tr_global_images_OS2.0.2.0.VNTTRXM_20250205.0000.00_15.0_tr_bcb1cff648.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.UNTTRXM": {
 					"os": "OS1.0.8.0.UNTTRXM",
 					"android": "14.0",
 					"release": "2025-05-17",
 					"recovery": "miui_MOONTRGlobal_OS1.0.8.0.UNTTRXM_9a48d16357_14.0.zip",
-					"fastboot": "moon_tr_global_images_OS1.0.8.0.UNTTRXM_20250429.0000.00_14.0_tr_425f84fdd5.tgz"
+					"fastboot": "moon_tr_global_images_OS1.0.8.0.UNTTRXM_20250429.0000.00_14.0_tr_425f84fdd5.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UNTTRXM": {
 					"os": "OS1.0.7.0.UNTTRXM",
 					"android": "14.0",
 					"release": "2024-12-06",
 					"recovery": "miui_MOONTRGlobal_OS1.0.7.0.UNTTRXM_7f377e53a8_14.0.zip",
-					"fastboot": "moon_tr_global_images_OS1.0.7.0.UNTTRXM_20241122.0000.00_14.0_tr_e1c03051f4.tgz"
+					"fastboot": "moon_tr_global_images_OS1.0.7.0.UNTTRXM_20241122.0000.00_14.0_tr_e1c03051f4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UNTTRXM": {
 					"os": "OS1.0.6.0.UNTTRXM",
 					"android": "14.0",
 					"release": "2024-10-25",
 					"recovery": "miui_MOONTRGlobal_OS1.0.6.0.UNTTRXM_ece4f6e7bd_14.0.zip",
-					"fastboot": "moon_tr_global_images_OS1.0.6.0.UNTTRXM_20241016.0000.00_14.0_tr_b0678586d4.tgz"
+					"fastboot": "moon_tr_global_images_OS1.0.6.0.UNTTRXM_20241016.0000.00_14.0_tr_b0678586d4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UNTTRXM": {
 					"os": "OS1.0.5.0.UNTTRXM",
 					"android": "14.0",
 					"release": "2024-09-10",
 					"recovery": "miui_MOONTRGlobal_OS1.0.5.0.UNTTRXM_882a391211_14.0.zip",
-					"fastboot": "moon_tr_global_images_OS1.0.5.0.UNTTRXM_20240903.0000.00_14.0_tr_5a0f7edd2f.tgz"
+					"fastboot": "moon_tr_global_images_OS1.0.5.0.UNTTRXM_20240903.0000.00_14.0_tr_5a0f7edd2f.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UNTTRXM": {
 					"os": "OS1.0.4.0.UNTTRXM",
 					"android": "14.0",
 					"release": "2024-07-24",
 					"recovery": "miui_MOONTRGlobal_OS1.0.4.0.UNTTRXM_870af76b27_14.0.zip",
-					"fastboot": "moon_tr_global_images_OS1.0.4.0.UNTTRXM_20240716.0000.00_14.0_tr_4a6cdc016f.tgz"
+					"fastboot": "moon_tr_global_images_OS1.0.4.0.UNTTRXM_20240716.0000.00_14.0_tr_4a6cdc016f.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UNTTRXM": {
 					"os": "OS1.0.2.0.UNTTRXM",
 					"android": "14.0",
 					"release": "2024-07-17",
 					"recovery": "miui_MOONTRGlobal_OS1.0.2.0.UNTTRXM_c24a0422fb_14.0.zip",
-					"fastboot": "moon_tr_global_images_OS1.0.2.0.UNTTRXM_20240529.0000.00_14.0_tr_15e1d6c5b8.tgz"
+					"fastboot": "moon_tr_global_images_OS1.0.2.0.UNTTRXM_20240529.0000.00_14.0_tr_15e1d6c5b8.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -1205,6 +1340,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1221,35 +1357,40 @@
 					"android": "16.0",
 					"release": "2026-06-11",
 					"recovery": "moon_gt_tg_global-ota_full-OS3.0.1.0.WNTGTTG-user-16.0-bb6b2594eb.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.2.0.VNTGTTG": {
 					"os": "OS2.0.2.0.VNTGTTG",
 					"android": "15.0",
 					"release": "2025-09-05",
 					"recovery": "moon_gt_tg_global-ota_full-OS2.0.2.0.VNTGTTG-user-15.0-23c1cff70a.zip",
-					"fastboot": "moon_gt_tg_global_images_OS2.0.2.0.VNTGTTG_20250326.0000.00_15.0_gt_tg_8299e46215.tgz"
+					"fastboot": "moon_gt_tg_global_images_OS2.0.2.0.VNTGTTG_20250326.0000.00_15.0_gt_tg_8299e46215.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.4.0.UNTGTTG": {
 					"os": "OS1.0.4.0.UNTGTTG",
 					"android": "14.0",
 					"release": "2025-02-18",
 					"recovery": "miui_MOONGTTGGlobal_OS1.0.4.0.UNTGTTG_db6511475f_14.0.zip",
-					"fastboot": "moon_gt_tg_global_images_OS1.0.4.0.UNTGTTG_20241210.0000.00_14.0_gt_tg_b506ad8a4b.tgz"
+					"fastboot": "moon_gt_tg_global_images_OS1.0.4.0.UNTGTTG_20241210.0000.00_14.0_gt_tg_b506ad8a4b.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.3.0.UNTGTTG": {
 					"os": "OS1.0.3.0.UNTGTTG",
 					"android": "14.0",
 					"release": "2024-11-21",
 					"recovery": "miui_MOONGTTGGlobal_OS1.0.3.0.UNTGTTG_023c40b690_14.0.zip",
-					"fastboot": "moon_gt_tg_global_images_OS1.0.3.0.UNTGTTG_20240918.0000.00_14.0_gt_tg_45dfa147b9.tgz"
+					"fastboot": "moon_gt_tg_global_images_OS1.0.3.0.UNTGTTG_20240918.0000.00_14.0_gt_tg_45dfa147b9.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UNTGTTG": {
 					"os": "OS1.0.2.0.UNTGTTG",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_MOONGTTGGlobal_OS1.0.2.0.UNTGTTG_567aeb947e_14.0.zip",
-					"fastboot": "moon_gt_tg_global_images_OS1.0.2.0.UNTGTTG_20240607.0000.00_14.0_gt_tg_b2f777f957.tgz"
+					"fastboot": "moon_gt_tg_global_images_OS1.0.2.0.UNTGTTG_20240607.0000.00_14.0_gt_tg_b2f777f957.tgz",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -1271,6 +1412,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1287,70 +1429,80 @@
 					"android": "16.0",
 					"release": "2026-05-08",
 					"recovery": "moon_mx_at_global-ota_full-OS3.0.2.0.WNTMXAT-user-16.0-b926ed95d1.zip",
-					"fastboot": "moon_mx_at_global_images_OS3.0.2.0.WNTMXAT_20260416.0000.00_16.0_mx_at_317575c620.tgz"
+					"fastboot": "moon_mx_at_global_images_OS3.0.2.0.WNTMXAT_20260416.0000.00_16.0_mx_at_317575c620.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.1.0.WNTMXAT": {
 					"os": "OS3.0.1.0.WNTMXAT",
 					"android": "16.0",
 					"release": "2026-03-01",
 					"recovery": "moon_mx_at_global-ota_full-OS3.0.1.0.WNTMXAT-user-16.0-e54177301e.zip",
-					"fastboot": "moon_mx_at_global_images_OS3.0.1.0.WNTMXAT_20260126.0000.00_16.0_mx_at_c18664af48.tgz"
+					"fastboot": "moon_mx_at_global_images_OS3.0.1.0.WNTMXAT_20260126.0000.00_16.0_mx_at_c18664af48.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.202.0.VNTMXAT": {
 					"os": "OS2.0.202.0.VNTMXAT",
 					"android": "15.0",
 					"release": "2025-11-27",
 					"recovery": "moon_mx_at_global-ota_full-OS2.0.202.0.VNTMXAT-user-15.0-c7b58e37bc.zip",
-					"fastboot": "moon_mx_at_global_images_OS2.0.202.0.VNTMXAT_20251103.0000.00_15.0_mx_at_69d79a20e3.tgz"
+					"fastboot": "moon_mx_at_global_images_OS2.0.202.0.VNTMXAT_20251103.0000.00_15.0_mx_at_69d79a20e3.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VNTMXAT": {
 					"os": "OS2.0.201.0.VNTMXAT",
 					"android": "15.0",
 					"release": "2025-10-21",
 					"recovery": "moon_mx_at_global-ota_full-OS2.0.201.0.VNTMXAT-user-15.0-09d1c6fb1d.zip",
-					"fastboot": "moon_mx_at_global_images_OS2.0.201.0.VNTMXAT_20250918.0000.00_15.0_mx_at_0f2e17d8b1.tgz"
+					"fastboot": "moon_mx_at_global_images_OS2.0.201.0.VNTMXAT_20250918.0000.00_15.0_mx_at_0f2e17d8b1.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.3.0.VNTMXAT": {
 					"os": "OS2.0.3.0.VNTMXAT",
 					"android": "15.0",
 					"release": "2025-06-19",
 					"recovery": "moon_mx_at_global-ota_full-OS2.0.3.0.VNTMXAT-user-15.0-828fac7822.zip",
-					"fastboot": "moon_mx_at_global_images_OS2.0.3.0.VNTMXAT_20250610.0000.00_15.0_mx_at_f8e1374fa8.tgz"
+					"fastboot": "moon_mx_at_global_images_OS2.0.3.0.VNTMXAT_20250610.0000.00_15.0_mx_at_f8e1374fa8.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.2.0.VNTMXAT": {
 					"os": "OS2.0.2.0.VNTMXAT",
 					"android": "15.0",
 					"release": "2025-05-31",
 					"recovery": "moon_mx_at_global-ota_full-OS2.0.2.0.VNTMXAT-user-15.0-4160c86051.zip",
-					"fastboot": "moon_mx_at_global_images_OS2.0.2.0.VNTMXAT_20250410.0000.00_15.0_mx_at_9dcaa4005a.tgz"
+					"fastboot": "moon_mx_at_global_images_OS2.0.2.0.VNTMXAT_20250410.0000.00_15.0_mx_at_9dcaa4005a.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UNTMXAT": {
 					"os": "OS1.0.7.0.UNTMXAT",
 					"android": "14.0",
 					"release": "2025-03-18",
 					"recovery": "miui_MOONMXATGlobal_OS1.0.7.0.UNTMXAT_9dc4eefadc_14.0.zip",
-					"fastboot": "moon_mx_at_global_images_OS1.0.7.0.UNTMXAT_20250304.0000.00_14.0_mx_at_9e3d47bc0f.tgz"
+					"fastboot": "moon_mx_at_global_images_OS1.0.7.0.UNTMXAT_20250304.0000.00_14.0_mx_at_9e3d47bc0f.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.UNTMXAT": {
 					"os": "OS1.0.5.0.UNTMXAT",
 					"android": "14.0",
 					"release": "2025-01-18",
 					"recovery": "miui_MOONMXATGlobal_OS1.0.5.0.UNTMXAT_b673205537_14.0.zip",
-					"fastboot": "moon_mx_at_global_images_OS1.0.5.0.UNTMXAT_20241212.0000.00_14.0_mx_at_c441685888.tgz"
+					"fastboot": "moon_mx_at_global_images_OS1.0.5.0.UNTMXAT_20241212.0000.00_14.0_mx_at_c441685888.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.4.0.UNTMXAT": {
 					"os": "OS1.0.4.0.UNTMXAT",
 					"android": "14.0",
 					"release": "2024-12-12",
 					"recovery": "miui_MOONMXATGlobal_OS1.0.4.0.UNTMXAT_849b907b2f_14.0.zip",
-					"fastboot": "moon_mx_at_global_images_OS1.0.4.0.UNTMXAT_20241016.0000.00_14.0_mx_at_d577ab144d.tgz"
+					"fastboot": "moon_mx_at_global_images_OS1.0.4.0.UNTMXAT_20241016.0000.00_14.0_mx_at_d577ab144d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.3.0.UNTMXAT": {
 					"os": "OS1.0.3.0.UNTMXAT",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_MOONMXATGlobal_OS1.0.3.0.UNTMXAT_13bd873c62_14.0.zip",
-					"fastboot": "moon_mx_at_global_images_OS1.0.3.0.UNTMXAT_20240802.0000.00_14.0_mx_at_24578af6fd.tgz"
+					"fastboot": "moon_mx_at_global_images_OS1.0.3.0.UNTMXAT_20240802.0000.00_14.0_mx_at_24578af6fd.tgz",
+					"aspatch": "2024-08-01"
 				}
 			}
 		},
@@ -1372,6 +1524,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1388,98 +1541,112 @@
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "moon_lm_cr_global-ota_full-OS3.0.2.0.WNTLMCR-user-16.0-4f1e8b81a7.zip",
-					"fastboot": "moon_lm_cr_global_images_OS3.0.2.0.WNTLMCR_20260402.0000.00_16.0_lm_cr_4ee0e117e9.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS3.0.2.0.WNTLMCR_20260402.0000.00_16.0_lm_cr_4ee0e117e9.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.1.0.WNTLMCR": {
 					"os": "OS3.0.1.0.WNTLMCR",
 					"android": "16.0",
 					"release": "2026-03-05",
 					"recovery": "moon_lm_cr_global-ota_full-OS3.0.1.0.WNTLMCR-user-16.0-a45867a721.zip",
-					"fastboot": "moon_lm_cr_global_images_OS3.0.1.0.WNTLMCR_20260202.0000.00_16.0_lm_cr_db63b0137b.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS3.0.1.0.WNTLMCR_20260202.0000.00_16.0_lm_cr_db63b0137b.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.201.0.VNTLMCR": {
 					"os": "OS2.0.201.0.VNTLMCR",
 					"android": "15.0",
 					"release": "2026-01-03",
 					"recovery": "moon_lm_cr_global-ota_full-OS2.0.201.0.VNTLMCR-user-15.0-5c55ea310e.zip",
-					"fastboot": "moon_lm_cr_global_images_OS2.0.201.0.VNTLMCR_20251208.0000.00_15.0_lm_cr_9f094dfb3b.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS2.0.201.0.VNTLMCR_20251208.0000.00_15.0_lm_cr_9f094dfb3b.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.4.0.VNTLMCR": {
 					"os": "OS2.0.4.0.VNTLMCR",
 					"android": "15.0",
 					"release": "2025-10-21",
 					"recovery": "moon_lm_cr_global-ota_full-OS2.0.4.0.VNTLMCR-user-15.0-d430ac6780.zip",
-					"fastboot": "moon_lm_cr_global_images_OS2.0.4.0.VNTLMCR_20250930.0000.00_15.0_lm_cr_a774a97fcf.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS2.0.4.0.VNTLMCR_20250930.0000.00_15.0_lm_cr_a774a97fcf.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.3.0.VNTLMCR": {
 					"os": "OS2.0.3.0.VNTLMCR",
 					"android": "15.0",
 					"release": "2025-08-12",
 					"recovery": "moon_lm_cr_global-ota_full-OS2.0.3.0.VNTLMCR-user-15.0-642638353e.zip",
-					"fastboot": "moon_lm_cr_global_images_OS2.0.3.0.VNTLMCR_20250724.0000.00_15.0_lm_cr_5d02ac3150.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS2.0.3.0.VNTLMCR_20250724.0000.00_15.0_lm_cr_5d02ac3150.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.2.0.VNTLMCR": {
 					"os": "OS2.0.2.0.VNTLMCR",
 					"android": "15.0",
 					"release": "2025-06-12",
 					"recovery": "moon_lm_cr_global-ota_full-OS2.0.2.0.VNTLMCR-user-15.0-70d0e2dd30.zip",
-					"fastboot": "moon_lm_cr_global_images_OS2.0.2.0.VNTLMCR_20250526.0000.00_15.0_lm_cr_11d70bae97.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS2.0.2.0.VNTLMCR_20250526.0000.00_15.0_lm_cr_11d70bae97.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.1.0.VNTLMCR": {
 					"os": "OS2.0.1.0.VNTLMCR",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "moon_lm_cr_global-ota_full-OS2.0.1.0.VNTLMCR-user-15.0-366ff2e196.zip",
-					"fastboot": "moon_lm_cr_global_images_OS2.0.1.0.VNTLMCR_20250424.0000.00_15.0_lm_cr_18d9ea0407.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS2.0.1.0.VNTLMCR_20250424.0000.00_15.0_lm_cr_18d9ea0407.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.8.0.UNTLMCR": {
 					"os": "OS1.0.8.0.UNTLMCR",
 					"android": "14.0",
 					"release": "2025-03-18",
 					"recovery": "miui_MOONLMCRGlobal_OS1.0.8.0.UNTLMCR_dd2018df46_14.0.zip",
-					"fastboot": "moon_lm_cr_global_images_OS1.0.8.0.UNTLMCR_20250306.0000.00_14.0_lm_cr_1bf8d5e8c8.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS1.0.8.0.UNTLMCR_20250306.0000.00_14.0_lm_cr_1bf8d5e8c8.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.7.0.UNTLMCR": {
 					"os": "OS1.0.7.0.UNTLMCR",
 					"android": "14.0",
 					"release": "2025-01-15",
 					"recovery": "miui_MOONLMCRGlobal_OS1.0.7.0.UNTLMCR_10fa5a3dba_14.0.zip",
-					"fastboot": "moon_lm_cr_global_images_OS1.0.7.0.UNTLMCR_20241226.0000.00_14.0_lm_cr_212cac8ba9.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS1.0.7.0.UNTLMCR_20241226.0000.00_14.0_lm_cr_212cac8ba9.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.6.0.UNTLMCR": {
 					"os": "OS1.0.6.0.UNTLMCR",
 					"android": "14.0",
 					"release": "2024-11-27",
 					"recovery": "miui_MOONLMCRGlobal_OS1.0.6.0.UNTLMCR_0bee329029_14.0.zip",
-					"fastboot": "moon_lm_cr_global_images_OS1.0.6.0.UNTLMCR_20241104.0000.00_14.0_lm_cr_527ab5f908.tgz"
+					"fastboot": "moon_lm_cr_global_images_OS1.0.6.0.UNTLMCR_20241104.0000.00_14.0_lm_cr_527ab5f908.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UNTLMCR": {
 					"os": "OS1.0.5.0.UNTLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_MOONLMCRGlobal_OS1.0.5.0.UNTLMCR_ef0aec6b60_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UNTLMCR": {
 					"os": "OS1.0.4.0.UNTLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_MOONLMCRGlobal_OS1.0.4.0.UNTLMCR_559e10e1e7_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UNTLMCR": {
 					"os": "OS1.0.3.0.UNTLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_MOONLMCRGlobal_OS1.0.3.0.UNTLMCR_ca7d35776a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UNTLMCR": {
 					"os": "OS1.0.2.0.UNTLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_MOONLMCRGlobal_OS1.0.2.0.UNTLMCR_6f66e66ae7_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				}
 			}
 		}

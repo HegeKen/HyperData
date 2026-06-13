@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -58,7 +59,8 @@
 					"release": "2026-04-22",
 					"recovery": "amethyst-ota_full-OS3.0.303.0.WOPCNXM-user-16.0-30873d826f.zip",
 					"fastboot": "amethyst_images_OS3.0.303.0.WOPCNXM_20260416.0000.00_16.0_cn_af0b79d621.tgz",
-					"ctelecom": "amethyst_images_OS3.0.303.0.WOPCNXM_20260416.0000.00_16.0_cn_chinatelecom_fdaa144b65.tgz"
+					"ctelecom": "amethyst_images_OS3.0.303.0.WOPCNXM_20260416.0000.00_16.0_cn_chinatelecom_fdaa144b65.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WOPCNXM": {
 					"os": "OS3.0.4.0.WOPCNXM",
@@ -66,7 +68,8 @@
 					"release": "2026-02-04",
 					"recovery": "amethyst-ota_full-OS3.0.4.0.WOPCNXM-user-16.0-4abe570868.zip",
 					"fastboot": "amethyst_images_OS3.0.4.0.WOPCNXM_20260122.0000.00_16.0_cn_ea6d475979.tgz",
-					"ctelecom": "amethyst_images_OS3.0.4.0.WOPCNXM_20260122.0000.00_16.0_cn_chinatelecom_6f806c6d5a.tgz"
+					"ctelecom": "amethyst_images_OS3.0.4.0.WOPCNXM_20260122.0000.00_16.0_cn_chinatelecom_6f806c6d5a.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WOPCNXM": {
 					"os": "OS3.0.3.0.WOPCNXM",
@@ -74,7 +77,8 @@
 					"release": "2025-12-19",
 					"recovery": "amethyst-ota_full-OS3.0.3.0.WOPCNXM-user-16.0-ff6100a607.zip",
 					"fastboot": "amethyst_images_OS3.0.3.0.WOPCNXM_20251213.0000.00_16.0_cn_4e9efbc4b4.tgz",
-					"ctelecom": "amethyst_images_OS3.0.3.0.WOPCNXM_20251213.0000.00_16.0_cn_chinatelecom_d40d2ad75d.tgz"
+					"ctelecom": "amethyst_images_OS3.0.3.0.WOPCNXM_20251213.0000.00_16.0_cn_chinatelecom_d40d2ad75d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WOPCNXM": {
 					"os": "OS3.0.2.0.WOPCNXM",
@@ -82,7 +86,8 @@
 					"release": "2025-12-10",
 					"recovery": "amethyst-ota_full-OS3.0.2.0.WOPCNXM-user-16.0-f28ef3653e.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.211.0.VOPCNXM": {
 					"os": "OS2.0.211.0.VOPCNXM",
@@ -90,7 +95,8 @@
 					"release": "2025-11-22",
 					"recovery": "amethyst-ota_full-OS2.0.211.0.VOPCNXM-user-15.0-28eed370ba.zip",
 					"fastboot": "amethyst_images_OS2.0.211.0.VOPCNXM_20251105.0000.00_15.0_cn_da5845776c.tgz",
-					"ctelecom": "amethyst_images_OS2.0.211.0.VOPCNXM_20251105.0000.00_15.0_cn_chinatelecom_d171d8ad32.tgz"
+					"ctelecom": "amethyst_images_OS2.0.211.0.VOPCNXM_20251105.0000.00_15.0_cn_chinatelecom_d171d8ad32.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.210.0.VOPCNXM": {
 					"os": "OS2.0.210.0.VOPCNXM",
@@ -98,7 +104,8 @@
 					"release": "2025-10-15",
 					"recovery": "amethyst-ota_full-OS2.0.210.0.VOPCNXM-user-15.0-19d532127d.zip",
 					"fastboot": "amethyst_images_OS2.0.210.0.VOPCNXM_20250917.0000.00_15.0_cn_b46255ecfb.tgz",
-					"ctelecom": "amethyst_images_OS2.0.210.0.VOPCNXM_20250917.0000.00_15.0_cn_chinatelecom_bc66cc99e0.tgz"
+					"ctelecom": "amethyst_images_OS2.0.210.0.VOPCNXM_20250917.0000.00_15.0_cn_chinatelecom_bc66cc99e0.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.209.0.VOPCNXM": {
 					"os": "OS2.0.209.0.VOPCNXM",
@@ -106,7 +113,8 @@
 					"release": "2025-08-19",
 					"recovery": "amethyst-ota_full-OS2.0.209.0.VOPCNXM-user-15.0-ab49a7767d.zip",
 					"fastboot": "amethyst_images_OS2.0.209.0.VOPCNXM_20250812.0000.00_15.0_cn_046a5fa767.tgz",
-					"ctelecom": "amethyst_images_OS2.0.209.0.VOPCNXM_20250812.0000.00_15.0_cn_chinatelecom_61cd126321.tgz"
+					"ctelecom": "amethyst_images_OS2.0.209.0.VOPCNXM_20250812.0000.00_15.0_cn_chinatelecom_61cd126321.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VOPCNXM": {
 					"os": "OS2.0.204.0.VOPCNXM",
@@ -114,7 +122,8 @@
 					"release": "2025-06-27",
 					"recovery": "amethyst-ota_full-OS2.0.204.0.VOPCNXM-user-15.0-4e8bc01819.zip",
 					"fastboot": "amethyst_images_OS2.0.204.0.VOPCNXM_20250623.0000.00_15.0_cn_66e93b8bb2.tgz",
-					"ctelecom": "amethyst_images_OS2.0.204.0.VOPCNXM_20250623.0000.00_15.0_cn_chinatelecom_ea11f3e0bd.tgz"
+					"ctelecom": "amethyst_images_OS2.0.204.0.VOPCNXM_20250623.0000.00_15.0_cn_chinatelecom_ea11f3e0bd.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.203.0.VOPCNXM": {
 					"os": "OS2.0.203.0.VOPCNXM",
@@ -122,7 +131,8 @@
 					"release": "2025-06-04",
 					"recovery": "amethyst-ota_full-OS2.0.203.0.VOPCNXM-user-15.0-3afb150a3b.zip",
 					"fastboot": "amethyst_images_OS2.0.203.0.VOPCNXM_20250529.0000.00_15.0_cn_0560d94eaa.tgz",
-					"ctelecom": "amethyst_images_OS2.0.203.0.VOPCNXM_20250529.0000.00_15.0_cn_chinatelecom_bc4f4b2eee.tgz"
+					"ctelecom": "amethyst_images_OS2.0.203.0.VOPCNXM_20250529.0000.00_15.0_cn_chinatelecom_bc4f4b2eee.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.11.0.VOPCNXM": {
 					"os": "OS2.0.11.0.VOPCNXM",
@@ -130,7 +140,8 @@
 					"release": "2025-05-13",
 					"recovery": "amethyst-ota_full-OS2.0.11.0.VOPCNXM-user-15.0-76ac62dacf.zip",
 					"fastboot": "amethyst_images_OS2.0.11.0.VOPCNXM_20250430.0000.00_15.0_cn_09cbca0749.tgz",
-					"ctelecom": "amethyst_images_OS2.0.11.0.VOPCNXM_20250430.0000.00_15.0_cn_chinatelecom_99a39297ac.tgz"
+					"ctelecom": "amethyst_images_OS2.0.11.0.VOPCNXM_20250430.0000.00_15.0_cn_chinatelecom_99a39297ac.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.10.0.VOPCNXM": {
 					"os": "OS2.0.10.0.VOPCNXM",
@@ -138,7 +149,8 @@
 					"release": "2025-04-22",
 					"recovery": "amethyst-ota_full-OS2.0.10.0.VOPCNXM-user-15.0-12182e8372.zip",
 					"fastboot": "amethyst_images_OS2.0.10.0.VOPCNXM_20250416.0000.00_15.0_cn_bc9c93781e.tgz",
-					"ctelecom": "amethyst_images_OS2.0.10.0.VOPCNXM_20250416.0000.00_15.0_cn_chinatelecom_47c5f09061.tgz"
+					"ctelecom": "amethyst_images_OS2.0.10.0.VOPCNXM_20250416.0000.00_15.0_cn_chinatelecom_47c5f09061.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.8.0.VOPCNXM": {
 					"os": "OS2.0.8.0.VOPCNXM",
@@ -146,7 +158,8 @@
 					"release": "2025-03-07",
 					"recovery": "amethyst-ota_full-OS2.0.8.0.VOPCNXM-user-15.0-73c5967bea.zip",
 					"fastboot": "amethyst_images_OS2.0.8.0.VOPCNXM_20250303.0000.00_15.0_cn_dddd3e33bf.tgz",
-					"ctelecom": "amethyst_images_OS2.0.8.0.VOPCNXM_20250303.0000.00_15.0_cn_chinatelecom_d4018de6ae.tgz"
+					"ctelecom": "amethyst_images_OS2.0.8.0.VOPCNXM_20250303.0000.00_15.0_cn_chinatelecom_d4018de6ae.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.7.0.VOPCNXM": {
 					"os": "OS2.0.7.0.VOPCNXM",
@@ -154,7 +167,8 @@
 					"release": "2025-02-05",
 					"recovery": "amethyst-ota_full-OS2.0.7.0.VOPCNXM-user-15.0-8d972646d2.zip",
 					"fastboot": "amethyst_images_OS2.0.7.0.VOPCNXM_20250131.0000.00_15.0_cn_3fa0d0d66e.tgz",
-					"ctelecom": "amethyst_images_OS2.0.7.0.VOPCNXM_20250131.0000.00_15.0_cn_chinatelecom_39b028b1f6.tgz"
+					"ctelecom": "amethyst_images_OS2.0.7.0.VOPCNXM_20250131.0000.00_15.0_cn_chinatelecom_39b028b1f6.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.6.0.VOPCNXM": {
 					"os": "OS2.0.6.0.VOPCNXM",
@@ -162,7 +176,8 @@
 					"release": "2025-01-27",
 					"recovery": "amethyst-ota_full-OS2.0.6.0.VOPCNXM-user-15.0-ab3506b666.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.4.0.VOPCNXM": {
 					"os": "OS2.0.4.0.VOPCNXM",
@@ -170,7 +185,8 @@
 					"release": "2025-01-11",
 					"recovery": "amethyst-ota_full-OS2.0.4.0.VOPCNXM-user-15.0-8cc2b85afd.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.26.0.UOPCNXM": {
 					"os": "OS1.0.26.0.UOPCNXM",
@@ -178,7 +194,8 @@
 					"release": "2025-04-03",
 					"recovery": "miui_AMETHYST_OS1.0.26.0.UOPCNXM_b0e91a9dd1_14.0.zip",
 					"fastboot": "amethyst_images_OS1.0.26.0.UOPCNXM_20250329.0000.00_14.0_cn_0d4a85cf86.tgz",
-					"ctelecom": "amethyst_images_OS1.0.26.0.UOPCNXM_20250329.0000.00_14.0_cn_chinatelecom_caec5cb7d0.tgz"
+					"ctelecom": "amethyst_images_OS1.0.26.0.UOPCNXM_20250329.0000.00_14.0_cn_chinatelecom_caec5cb7d0.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.23.0.UOPCNXM": {
 					"os": "OS1.0.23.0.UOPCNXM",
@@ -186,7 +203,8 @@
 					"release": "2024-12-12",
 					"recovery": "miui_AMETHYST_OS1.0.23.0.UOPCNXM_c27907cd54_14.0.zip",
 					"fastboot": "amethyst_images_OS1.0.23.0.UOPCNXM_20241210.0000.00_14.0_cn_db791d653e.tgz",
-					"ctelecom": "amethyst_images_OS1.0.23.0.UOPCNXM_20241210.0000.00_14.0_cn_chinatelecom_f720de3e8c.tgz"
+					"ctelecom": "amethyst_images_OS1.0.23.0.UOPCNXM_20241210.0000.00_14.0_cn_chinatelecom_f720de3e8c.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.21.0.UOPCNXM": {
 					"os": "OS1.0.21.0.UOPCNXM",
@@ -194,7 +212,8 @@
 					"release": "2024-12-07",
 					"recovery": "miui_AMETHYST_OS1.0.21.0.UOPCNXM_1fc2b5ee3b_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.20.0.UOPCNXM": {
 					"os": "OS1.0.20.0.UOPCNXM",
@@ -202,7 +221,8 @@
 					"release": "2024-11-19",
 					"recovery": "miui_AMETHYST_OS1.0.20.0.UOPCNXM_3477b1c2f9_14.0.zip",
 					"fastboot": "amethyst_images_OS1.0.20.0.UOPCNXM_20241114.0000.00_14.0_cn_f3f0c185f8.tgz",
-					"ctelecom": "amethyst_images_OS1.0.20.0.UOPCNXM_20241114.0000.00_14.0_cn_chinatelecom_fe6383badf.tgz"
+					"ctelecom": "amethyst_images_OS1.0.20.0.UOPCNXM_20241114.0000.00_14.0_cn_chinatelecom_fe6383badf.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.19.0.UOPCNXM": {
 					"os": "OS1.0.19.0.UOPCNXM",
@@ -210,7 +230,8 @@
 					"release": "2024-10-29",
 					"recovery": "miui_AMETHYST_OS1.0.19.0.UOPCNXM_b683fb157e_14.0.zip",
 					"fastboot": "amethyst_images_OS1.0.19.0.UOPCNXM_20241024.0000.00_14.0_cn_f5877c200e.tgz",
-					"ctelecom": "amethyst_images_OS1.0.19.0.UOPCNXM_20241024.0000.00_14.0_cn_chinatelecom_c92566d0e7.tgz"
+					"ctelecom": "amethyst_images_OS1.0.19.0.UOPCNXM_20241024.0000.00_14.0_cn_chinatelecom_c92566d0e7.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.15.0.UOPCNXM": {
 					"os": "OS1.0.15.0.UOPCNXM",
@@ -218,7 +239,8 @@
 					"release": "2024-10-05",
 					"recovery": "miui_AMETHYST_OS1.0.15.0.UOPCNXM_25d98c8903_14.0.zip",
 					"fastboot": "amethyst_images_OS1.0.15.0.UOPCNXM_20241002.0000.00_14.0_cn_ff44f5144e.tgz",
-					"ctelecom": "amethyst_images_OS1.0.15.0.UOPCNXM_20241002.0000.00_14.0_cn_chinatelecom_ffb61091d7.tgz"
+					"ctelecom": "amethyst_images_OS1.0.15.0.UOPCNXM_20241002.0000.00_14.0_cn_chinatelecom_ffb61091d7.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.13.0.UOPCNXM": {
 					"os": "OS1.0.13.0.UOPCNXM",
@@ -226,7 +248,8 @@
 					"release": "2024-09-26",
 					"recovery": "miui_AMETHYST_OS1.0.13.0.UOPCNXM_d7a19fc3d0_14.0.zip",
 					"fastboot": "amethyst_images_OS1.0.13.0.UOPCNXM_20240923.0000.00_14.0_cn_d1de562333.tgz",
-					"ctelecom": "amethyst_images_OS1.0.13.0.UOPCNXM_20240923.0000.00_14.0_cn_chinatelecom_e34232e400.tgz"
+					"ctelecom": "amethyst_images_OS1.0.13.0.UOPCNXM_20240923.0000.00_14.0_cn_chinatelecom_e34232e400.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.12.0.UOPCNXM": {
 					"os": "OS1.0.12.0.UOPCNXM",
@@ -234,7 +257,8 @@
 					"release": "2024-09-26",
 					"recovery": "miui_AMETHYST_OS1.0.12.0.UOPCNXM_a8d48d7e5d_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.9.0.UOPCNXM": {
 					"os": "OS1.0.9.0.UOPCNXM",
@@ -242,7 +266,8 @@
 					"release": "2024-09-26",
 					"recovery": "miui_AMETHYST_OS1.0.9.0.UOPCNXM_71d44d71b6_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UOPCNXM": {
 					"os": "OS1.0.3.0.UOPCNXM",
@@ -250,7 +275,8 @@
 					"release": "2024-09-26",
 					"recovery": "miui_AMETHYST_OS1.0.3.0.UOPCNXM_663741157a_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-08-01"
 				}
 			}
 		},
@@ -272,6 +298,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -293,7 +320,8 @@
 					"release": "2025-07-04",
 					"recovery": "amethyst_demo-ota_full-OS2.0.200.0.VOPCNDM-user-15.0-30ad46a0c3.zip",
 					"fastboot": "amethyst_demo_images_OS2.0.200.0.VOPCNDM_20250625.0000.00_15.0_cn_19c8f9e403.tgz",
-					"ctelecom": "amethyst_demo_images_OS2.0.200.0.VOPCNDM_20250625.0000.00_15.0_cn_chinatelecom_8b0b229650.tgz"
+					"ctelecom": "amethyst_demo_images_OS2.0.200.0.VOPCNDM_20250625.0000.00_15.0_cn_chinatelecom_8b0b229650.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOPCNDM": {
 					"os": "OS2.0.1.0.VOPCNDM",
@@ -301,7 +329,8 @@
 					"release": "2025-03-13",
 					"recovery": "amethyst_demo-ota_full-OS2.0.1.0.VOPCNDM-user-15.0-ec9bb172bb.zip",
 					"fastboot": "amethyst_demo_images_OS2.0.1.0.VOPCNDM_20250224.0000.00_15.0_cn_66364ec38a.tgz",
-					"ctelecom": "amethyst_demo_images_OS2.0.1.0.VOPCNDM_20250224.0000.00_15.0_cn_chinatelecom_73395cb613.tgz"
+					"ctelecom": "amethyst_demo_images_OS2.0.1.0.VOPCNDM_20250224.0000.00_15.0_cn_chinatelecom_73395cb613.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.3.0.UOPCNDM": {
 					"os": "OS1.0.3.0.UOPCNDM",
@@ -309,7 +338,8 @@
 					"release": "2024-09-27",
 					"recovery": "miui_AMETHYSTDEMO_OS1.0.3.0.UOPCNDM_7694283eb3_14.0.zip",
 					"fastboot": "amethyst_demo_images_OS1.0.3.0.UOPCNDM_20240925.0000.00_14.0_cn_6ca5a81ba8.tgz",
-					"ctelecom": "amethyst_demo_images_OS1.0.3.0.UOPCNDM_20240925.0000.00_14.0_cn_chinatelecom_2f169923ed.tgz"
+					"ctelecom": "amethyst_demo_images_OS1.0.3.0.UOPCNDM_20240925.0000.00_14.0_cn_chinatelecom_2f169923ed.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UOPCNDM": {
 					"os": "OS1.0.2.0.UOPCNDM",
@@ -339,6 +369,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -355,70 +386,80 @@
 					"android": "16.0",
 					"release": "2026-03-27",
 					"recovery": "amethyst_tw_global-ota_full-OS3.0.2.0.WOPTWXM-user-16.0-afc3a9d2f9.zip",
-					"fastboot": "amethyst_tw_global_images_OS3.0.2.0.WOPTWXM_20260309.0000.00_16.0_tw_2aa6415582.tgz"
+					"fastboot": "amethyst_tw_global_images_OS3.0.2.0.WOPTWXM_20260309.0000.00_16.0_tw_2aa6415582.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOPTWXM": {
 					"os": "OS3.0.1.0.WOPTWXM",
 					"android": "16.0",
 					"release": "2026-01-26",
 					"recovery": "amethyst_tw_global-ota_full-OS3.0.1.0.WOPTWXM-user-16.0-fff8a2f386.zip",
-					"fastboot": "amethyst_tw_global_images_OS3.0.1.0.WOPTWXM_20260113.0000.00_16.0_tw_782eb24aa4.tgz"
+					"fastboot": "amethyst_tw_global_images_OS3.0.1.0.WOPTWXM_20260113.0000.00_16.0_tw_782eb24aa4.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.204.0.VOPTWXM": {
 					"os": "OS2.0.204.0.VOPTWXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "amethyst_tw_global-ota_full-OS2.0.204.0.VOPTWXM-user-15.0-e4b3239736.zip",
-					"fastboot": "amethyst_tw_global_images_OS2.0.204.0.VOPTWXM_20251216.0000.00_15.0_tw_3e9e501550.tgz"
+					"fastboot": "amethyst_tw_global_images_OS2.0.204.0.VOPTWXM_20251216.0000.00_15.0_tw_3e9e501550.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VOPTWXM": {
 					"os": "OS2.0.202.0.VOPTWXM",
 					"android": "15.0",
 					"release": "2025-10-26",
 					"recovery": "amethyst_tw_global-ota_full-OS2.0.202.0.VOPTWXM-user-15.0-c7bc94ddbe.zip",
-					"fastboot": "amethyst_tw_global_images_OS2.0.202.0.VOPTWXM_20251016.0000.00_15.0_tw_61b6f5ceeb.tgz"
+					"fastboot": "amethyst_tw_global_images_OS2.0.202.0.VOPTWXM_20251016.0000.00_15.0_tw_61b6f5ceeb.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VOPTWXM": {
 					"os": "OS2.0.201.0.VOPTWXM",
 					"android": "15.0",
 					"release": "2025-09-08",
 					"recovery": "amethyst_tw_global-ota_full-OS2.0.201.0.VOPTWXM-user-15.0-912c4221ea.zip",
-					"fastboot": "amethyst_tw_global_images_OS2.0.201.0.VOPTWXM_20250826.0000.00_15.0_tw_2263516cbd.tgz"
+					"fastboot": "amethyst_tw_global_images_OS2.0.201.0.VOPTWXM_20250826.0000.00_15.0_tw_2263516cbd.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.3.0.VOPTWXM": {
 					"os": "OS2.0.3.0.VOPTWXM",
 					"android": "15.0",
 					"release": "2025-06-03",
 					"recovery": "amethyst_tw_global-ota_full-OS2.0.3.0.VOPTWXM-user-15.0-4f3e3f45d9.zip",
-					"fastboot": "amethyst_tw_global_images_OS2.0.3.0.VOPTWXM_20250515.0000.00_15.0_tw_7baff9fc98.tgz"
+					"fastboot": "amethyst_tw_global_images_OS2.0.3.0.VOPTWXM_20250515.0000.00_15.0_tw_7baff9fc98.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOPTWXM": {
 					"os": "OS2.0.2.0.VOPTWXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "amethyst_tw_global-ota_full-OS2.0.2.0.VOPTWXM-user-15.0-6191589f27.zip",
-					"fastboot": "amethyst_tw_global_images_OS2.0.2.0.VOPTWXM_20250414.0000.00_15.0_tw_b4762f7fda.tgz"
+					"fastboot": "amethyst_tw_global_images_OS2.0.2.0.VOPTWXM_20250414.0000.00_15.0_tw_b4762f7fda.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.5.0.UOPTWXM": {
 					"os": "OS1.0.5.0.UOPTWXM",
 					"android": "14.0",
 					"release": "2025-03-31",
 					"recovery": "miui_AMETHYSTTWGlobal_OS1.0.5.0.UOPTWXM_03434972ad_14.0.zip",
-					"fastboot": "amethyst_tw_global_images_OS1.0.5.0.UOPTWXM_20250314.0000.00_14.0_tw_b23bfd9071.tgz"
+					"fastboot": "amethyst_tw_global_images_OS1.0.5.0.UOPTWXM_20250314.0000.00_14.0_tw_b23bfd9071.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.4.0.UOPTWXM": {
 					"os": "OS1.0.4.0.UOPTWXM",
 					"android": "14.0",
 					"release": "2025-01-24",
 					"recovery": "miui_AMETHYSTTWGlobal_OS1.0.4.0.UOPTWXM_6474d8d4b5_14.0.zip",
-					"fastboot": "amethyst_tw_global_images_OS1.0.4.0.UOPTWXM_20241230.0000.00_14.0_tw_a8defd61f1.tgz"
+					"fastboot": "amethyst_tw_global_images_OS1.0.4.0.UOPTWXM_20241230.0000.00_14.0_tw_a8defd61f1.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.3.0.UOPTWXM": {
 					"os": "OS1.0.3.0.UOPTWXM",
 					"android": "14.0",
 					"release": "2024-12-24",
 					"recovery": "miui_AMETHYSTTWGlobal_OS1.0.3.0.UOPTWXM_7b507e5d27_14.0.zip",
-					"fastboot": "amethyst_tw_global_images_OS1.0.3.0.UOPTWXM_20241206.0000.00_14.0_tw_7a3d1571a8.tgz"
+					"fastboot": "amethyst_tw_global_images_OS1.0.3.0.UOPTWXM_20241206.0000.00_14.0_tw_7a3d1571a8.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -440,6 +481,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -456,98 +498,112 @@
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "amethyst_global-ota_full-OS3.0.5.0.WOPMIXM-user-16.0-ad20d4e5ce.zip",
-					"fastboot": "amethyst_global_images_OS3.0.5.0.WOPMIXM_20260409.0000.00_16.0_global_7ba39a5631.tgz"
+					"fastboot": "amethyst_global_images_OS3.0.5.0.WOPMIXM_20260409.0000.00_16.0_global_7ba39a5631.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WOPMIXM": {
 					"os": "OS3.0.4.0.WOPMIXM",
 					"android": "16.0",
 					"release": "2026-02-09",
 					"recovery": "amethyst_global-ota_full-OS3.0.4.0.WOPMIXM-user-16.0-2bdd4bdf8f.zip",
-					"fastboot": "amethyst_global_images_OS3.0.4.0.WOPMIXM_20260121.0000.00_16.0_global_b73684119f.tgz"
+					"fastboot": "amethyst_global_images_OS3.0.4.0.WOPMIXM_20260121.0000.00_16.0_global_b73684119f.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WOPMIXM": {
 					"os": "OS3.0.3.0.WOPMIXM",
 					"android": "16.0",
 					"release": "2025-12-28",
 					"recovery": "amethyst_global-ota_full-OS3.0.3.0.WOPMIXM-user-16.0-8244495eb1.zip",
-					"fastboot": "amethyst_global_images_OS3.0.3.0.WOPMIXM_20251215.0000.00_16.0_global_ee1b5b32a3.tgz"
+					"fastboot": "amethyst_global_images_OS3.0.3.0.WOPMIXM_20251215.0000.00_16.0_global_ee1b5b32a3.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WOPMIXM": {
 					"os": "OS3.0.2.0.WOPMIXM",
 					"android": "16.0",
 					"release": "2025-11-16",
 					"recovery": "amethyst_global-ota_full-OS3.0.2.0.WOPMIXM-user-16.0-f3a5bbcb00.zip",
-					"fastboot": "amethyst_global_images_OS3.0.2.0.WOPMIXM_20251106.0000.00_16.0_global_0bf617e0aa.tgz"
+					"fastboot": "amethyst_global_images_OS3.0.2.0.WOPMIXM_20251106.0000.00_16.0_global_0bf617e0aa.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.208.0.VOPMIXM": {
 					"os": "OS2.0.208.0.VOPMIXM",
 					"android": "15.0",
 					"release": "2025-10-20",
 					"recovery": "amethyst_global-ota_full-OS2.0.208.0.VOPMIXM-user-15.0-403cd4dd4a.zip",
-					"fastboot": "amethyst_global_images_OS2.0.208.0.VOPMIXM_20251015.0000.00_15.0_global_e0246eeda6.tgz"
+					"fastboot": "amethyst_global_images_OS2.0.208.0.VOPMIXM_20251015.0000.00_15.0_global_e0246eeda6.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VOPMIXM": {
 					"os": "OS2.0.205.0.VOPMIXM",
 					"android": "15.0",
 					"release": "2025-08-29",
 					"recovery": "amethyst_global-ota_full-OS2.0.205.0.VOPMIXM-user-15.0-4d6400cfe6.zip",
-					"fastboot": "amethyst_global_images_OS2.0.205.0.VOPMIXM_20250820.0000.00_15.0_global_d0b97aa181.tgz"
+					"fastboot": "amethyst_global_images_OS2.0.205.0.VOPMIXM_20250820.0000.00_15.0_global_d0b97aa181.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VOPMIXM": {
 					"os": "OS2.0.203.0.VOPMIXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "amethyst_global-ota_full-OS2.0.203.0.VOPMIXM-user-15.0-0158a96fd9.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.201.0.VOPMIXM": {
 					"os": "OS2.0.201.0.VOPMIXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "amethyst_global-ota_full-OS2.0.201.0.VOPMIXM-user-15.0-d29ede00f4.zip",
-					"fastboot": "amethyst_global_images_OS2.0.201.0.VOPMIXM_20250616.0000.00_15.0_global_68b8a3b237.tgz"
+					"fastboot": "amethyst_global_images_OS2.0.201.0.VOPMIXM_20250616.0000.00_15.0_global_68b8a3b237.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.3.0.VOPMIXM": {
 					"os": "OS2.0.3.0.VOPMIXM",
 					"android": "15.0",
 					"release": "2025-05-24",
 					"recovery": "amethyst_global-ota_full-OS2.0.3.0.VOPMIXM-user-15.0-858f61ae39.zip",
-					"fastboot": "amethyst_global_images_OS2.0.3.0.VOPMIXM_20250508.0000.00_15.0_global_2a5b0dccb3.tgz"
+					"fastboot": "amethyst_global_images_OS2.0.3.0.VOPMIXM_20250508.0000.00_15.0_global_2a5b0dccb3.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOPMIXM": {
 					"os": "OS2.0.2.0.VOPMIXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "amethyst_global-ota_full-OS2.0.2.0.VOPMIXM-user-15.0-e6651455e1.zip",
-					"fastboot": "amethyst_global_images_OS2.0.2.0.VOPMIXM_20250313.0000.00_15.0_global_3406594bbf.tgz"
+					"fastboot": "amethyst_global_images_OS2.0.2.0.VOPMIXM_20250313.0000.00_15.0_global_3406594bbf.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.7.0.UOPMIXM": {
 					"os": "OS1.0.7.0.UOPMIXM",
 					"android": "14.0",
 					"release": "2025-03-21",
 					"recovery": "miui_AMETHYSTGlobal_OS1.0.7.0.UOPMIXM_5761c7063c_14.0.zip",
-					"fastboot": "amethyst_global_images_OS1.0.7.0.UOPMIXM_20250225.0000.00_14.0_global_8f001dfe0a.tgz"
+					"fastboot": "amethyst_global_images_OS1.0.7.0.UOPMIXM_20250225.0000.00_14.0_global_8f001dfe0a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UOPMIXM": {
 					"os": "OS1.0.6.0.UOPMIXM",
 					"android": "14.0",
 					"release": "2025-01-24",
 					"recovery": "miui_AMETHYSTGlobal_OS1.0.6.0.UOPMIXM_b72e6ecc42_14.0.zip",
-					"fastboot": "amethyst_global_images_OS1.0.6.0.UOPMIXM_20241212.0000.00_14.0_global_bbdca7908e.tgz"
+					"fastboot": "amethyst_global_images_OS1.0.6.0.UOPMIXM_20241212.0000.00_14.0_global_bbdca7908e.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.5.0.UOPMIXM": {
 					"os": "OS1.0.5.0.UOPMIXM",
 					"android": "14.0",
 					"release": "2024-12-25",
 					"recovery": "miui_AMETHYSTGlobal_OS1.0.5.0.UOPMIXM_74ee10dc55_14.0.zip",
-					"fastboot": "amethyst_global_images_OS1.0.5.0.UOPMIXM_20241205.0000.00_14.0_global_9ee4a4b79f.tgz"
+					"fastboot": "amethyst_global_images_OS1.0.5.0.UOPMIXM_20241205.0000.00_14.0_global_9ee4a4b79f.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.2.0.UOPMIXM": {
 					"os": "OS1.0.2.0.UOPMIXM",
 					"android": "14.0",
 					"release": "2024-12-25",
 					"recovery": "miui_AMETHYSTGlobal_OS1.0.2.0.UOPMIXM_fa1f686294_14.0.zip",
-					"fastboot": "amethyst_global_images_OS1.0.2.0.UOPMIXM_20241106.0000.00_14.0_global_6e3480179a.tgz"
+					"fastboot": "amethyst_global_images_OS1.0.2.0.UOPMIXM_20241106.0000.00_14.0_global_6e3480179a.tgz",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -569,6 +625,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -585,70 +642,80 @@
 					"android": "16.0",
 					"release": "2026-03-09",
 					"recovery": "amethyst_dc_global-ota_full-OS3.0.2.0.WOPMIDC-user-16.0-f209f5d304.zip",
-					"fastboot": "amethyst_dc_global_images_OS3.0.2.0.WOPMIDC_20260302.0000.00_16.0_global_dc_af80b5fda6.tgz"
+					"fastboot": "amethyst_dc_global_images_OS3.0.2.0.WOPMIDC_20260302.0000.00_16.0_global_dc_af80b5fda6.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOPMIDC": {
 					"os": "OS3.0.1.0.WOPMIDC",
 					"android": "16.0",
 					"release": "2026-01-23",
 					"recovery": "amethyst_dc_global-ota_full-OS3.0.1.0.WOPMIDC-user-16.0-73b8c8add3.zip",
-					"fastboot": "amethyst_dc_global_images_OS3.0.1.0.WOPMIDC_20260113.0000.00_16.0_global_dc_f1d2e93484.tgz"
+					"fastboot": "amethyst_dc_global_images_OS3.0.1.0.WOPMIDC_20260113.0000.00_16.0_global_dc_f1d2e93484.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VOPMIDC": {
 					"os": "OS2.0.205.0.VOPMIDC",
 					"android": "15.0",
 					"release": "2025-12-24",
 					"recovery": "amethyst_dc_global-ota_full-OS2.0.205.0.VOPMIDC-user-15.0-7adff85896.zip",
-					"fastboot": "amethyst_dc_global_images_OS2.0.205.0.VOPMIDC_20251216.0000.00_15.0_global_dc_7202a261fe.tgz"
+					"fastboot": "amethyst_dc_global_images_OS2.0.205.0.VOPMIDC_20251216.0000.00_15.0_global_dc_7202a261fe.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOPMIDC": {
 					"os": "OS2.0.203.0.VOPMIDC",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "amethyst_dc_global-ota_full-OS2.0.203.0.VOPMIDC-user-15.0-c6c30184d4.zip",
-					"fastboot": "amethyst_dc_global_images_OS2.0.203.0.VOPMIDC_20251016.0000.00_15.0_global_dc_022ec646ce.tgz"
+					"fastboot": "amethyst_dc_global_images_OS2.0.203.0.VOPMIDC_20251016.0000.00_15.0_global_dc_022ec646ce.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOPMIDC": {
 					"os": "OS2.0.202.0.VOPMIDC",
 					"android": "15.0",
 					"release": "2025-09-18",
 					"recovery": "amethyst_dc_global-ota_full-OS2.0.202.0.VOPMIDC-user-15.0-dac817b271.zip",
-					"fastboot": "amethyst_dc_global_images_OS2.0.202.0.VOPMIDC_20250826.0000.00_15.0_global_dc_ec06480463.tgz"
+					"fastboot": "amethyst_dc_global_images_OS2.0.202.0.VOPMIDC_20250826.0000.00_15.0_global_dc_ec06480463.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.2.0.VOPMIDC": {
 					"os": "OS2.0.2.0.VOPMIDC",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "amethyst_dc_global-ota_full-OS2.0.2.0.VOPMIDC-user-15.0-95e6a9b2af.zip",
-					"fastboot": "amethyst_dc_global_images_OS2.0.2.0.VOPMIDC_20250618.0000.00_15.0_global_dc_d487efec07.tgz"
+					"fastboot": "amethyst_dc_global_images_OS2.0.2.0.VOPMIDC_20250618.0000.00_15.0_global_dc_d487efec07.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.1.0.VOPMIDC": {
 					"os": "OS2.0.1.0.VOPMIDC",
 					"android": "15.0",
 					"release": "2025-06-06",
 					"recovery": "amethyst_dc_global-ota_full-OS2.0.1.0.VOPMIDC-user-15.0-6736787086.zip",
-					"fastboot": "amethyst_dc_global_images_OS2.0.1.0.VOPMIDC_20250511.0000.00_15.0_global_dc_2e11b1a699.tgz"
+					"fastboot": "amethyst_dc_global_images_OS2.0.1.0.VOPMIDC_20250511.0000.00_15.0_global_dc_2e11b1a699.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.4.0.UOPMIDC": {
 					"os": "OS1.0.4.0.UOPMIDC",
 					"android": "14.0",
 					"release": "2025-05-07",
 					"recovery": "miui_AMETHYSTDCGlobal_OS1.0.4.0.UOPMIDC_30147a40a2_14.0.zip",
-					"fastboot": "amethyst_dc_global_images_OS1.0.4.0.UOPMIDC_20250419.0000.00_14.0_global_dc_10a1831e6c.tgz"
+					"fastboot": "amethyst_dc_global_images_OS1.0.4.0.UOPMIDC_20250419.0000.00_14.0_global_dc_10a1831e6c.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.3.0.UOPMIDC": {
 					"os": "OS1.0.3.0.UOPMIDC",
 					"android": "14.0",
 					"release": "2025-02-18",
 					"recovery": "miui_AMETHYSTDCGlobal_OS1.0.3.0.UOPMIDC_631fe5093e_14.0.zip",
-					"fastboot": "amethyst_dc_global_images_OS1.0.3.0.UOPMIDC_20250107.0000.00_14.0_global_dc_8867c7bdc6.tgz"
+					"fastboot": "amethyst_dc_global_images_OS1.0.3.0.UOPMIDC_20250107.0000.00_14.0_global_dc_8867c7bdc6.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.2.0.UOPMIDC": {
 					"os": "OS1.0.2.0.UOPMIDC",
 					"android": "14.0",
 					"release": "2024-12-25",
 					"recovery": "miui_AMETHYSTDCGlobal_OS1.0.2.0.UOPMIDC_84befb5c66_14.0.zip",
-					"fastboot": "amethyst_dc_global_images_OS1.0.2.0.UOPMIDC_20241106.0000.00_14.0_global_dc_fb681356fe.tgz"
+					"fastboot": "amethyst_dc_global_images_OS1.0.2.0.UOPMIDC_20241106.0000.00_14.0_global_dc_fb681356fe.tgz",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -670,6 +737,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -686,126 +754,144 @@
 					"android": "16.0",
 					"release": "2026-04-14",
 					"recovery": "amethyst_eea_global-ota_full-OS3.0.4.0.WOPEUXM-user-16.0-91b51c82e7.zip",
-					"fastboot": "amethyst_eea_global_images_OS3.0.4.0.WOPEUXM_20260401.0000.00_16.0_eea_13245f489a.tgz"
+					"fastboot": "amethyst_eea_global_images_OS3.0.4.0.WOPEUXM_20260401.0000.00_16.0_eea_13245f489a.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOPEUXM": {
 					"os": "OS3.0.3.0.WOPEUXM",
 					"android": "16.0",
 					"release": "2026-02-09",
 					"recovery": "amethyst_eea_global-ota_full-OS3.0.3.0.WOPEUXM-user-16.0-7f8be5c511.zip",
-					"fastboot": "amethyst_eea_global_images_OS3.0.3.0.WOPEUXM_20260126.0000.00_16.0_eea_f62c01fd63.tgz"
+					"fastboot": "amethyst_eea_global_images_OS3.0.3.0.WOPEUXM_20260126.0000.00_16.0_eea_f62c01fd63.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.2.0.WOPEUXM": {
 					"os": "OS3.0.2.0.WOPEUXM",
 					"android": "16.0",
 					"release": "2026-01-12",
 					"recovery": "amethyst_eea_global-ota_full-OS3.0.2.0.WOPEUXM-user-16.0-4d9adf53b2.zip",
-					"fastboot": "amethyst_eea_global_images_OS3.0.2.0.WOPEUXM_20251222.0000.00_16.0_eea_2620d97b88.tgz"
+					"fastboot": "amethyst_eea_global_images_OS3.0.2.0.WOPEUXM_20251222.0000.00_16.0_eea_2620d97b88.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.213.0.VOPEUXM": {
 					"os": "OS2.0.213.0.VOPEUXM",
 					"android": "15.0",
 					"release": "2025-12-09",
 					"recovery": "amethyst_eea_global-ota_full-OS2.0.213.0.VOPEUXM-user-15.0-7192561a1d.zip",
-					"fastboot": "amethyst_eea_global_images_OS2.0.213.0.VOPEUXM_20251112.0000.00_15.0_eea_626f33bcce.tgz"
+					"fastboot": "amethyst_eea_global_images_OS2.0.213.0.VOPEUXM_20251112.0000.00_15.0_eea_626f33bcce.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.211.0.VOPEUXM": {
 					"os": "OS2.0.211.0.VOPEUXM",
 					"android": "15.0",
 					"release": "2025-10-20",
 					"recovery": "amethyst_eea_global-ota_full-OS2.0.211.0.VOPEUXM-user-15.0-ff5d18ce23.zip",
-					"fastboot": "amethyst_eea_global_images_OS2.0.211.0.VOPEUXM_20251015.0000.00_15.0_eea_2fb87df921.tgz"
+					"fastboot": "amethyst_eea_global_images_OS2.0.211.0.VOPEUXM_20251015.0000.00_15.0_eea_2fb87df921.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.207.0.VOPEUXM": {
 					"os": "OS2.0.207.0.VOPEUXM",
 					"android": "15.0",
 					"release": "2025-09-02",
 					"recovery": "amethyst_eea_global-ota_full-OS2.0.207.0.VOPEUXM-user-15.0-128c49b09f.zip",
-					"fastboot": "amethyst_eea_global_images_OS2.0.207.0.VOPEUXM_20250820.0000.00_15.0_eea_dd8d55a0fd.tgz"
+					"fastboot": "amethyst_eea_global_images_OS2.0.207.0.VOPEUXM_20250820.0000.00_15.0_eea_dd8d55a0fd.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.206.0.VOPEUXM": {
 					"os": "OS2.0.206.0.VOPEUXM",
 					"android": "15.0",
 					"release": "2025-08-26",
 					"recovery": "amethyst_eea_global-ota_full-OS2.0.206.0.VOPEUXM-user-15.0-b614e873a1.zip",
-					"fastboot": "amethyst_eea_global_images_OS2.0.206.0.VOPEUXM_20250813.0000.00_15.0_eea_c9fb3a7a21.tgz"
+					"fastboot": "amethyst_eea_global_images_OS2.0.206.0.VOPEUXM_20250813.0000.00_15.0_eea_c9fb3a7a21.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VOPEUXM": {
 					"os": "OS2.0.203.0.VOPEUXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "amethyst_eea_global-ota_full-OS2.0.203.0.VOPEUXM-user-15.0-f0dae74727.zip",
-					"fastboot": "amethyst_eea_global_images_OS2.0.203.0.VOPEUXM_20250625.0000.00_15.0_eea_710b8e0dbb.tgz"
+					"fastboot": "amethyst_eea_global_images_OS2.0.203.0.VOPEUXM_20250625.0000.00_15.0_eea_710b8e0dbb.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.202.0.VOPEUXM": {
 					"os": "OS2.0.202.0.VOPEUXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "amethyst_eea_global-ota_full-OS2.0.202.0.VOPEUXM-user-15.0-631125fa71.zip",
-					"fastboot": "amethyst_eea_global_images_OS2.0.202.0.VOPEUXM_20250619.0000.00_15.0_eea_95ef537514.tgz"
+					"fastboot": "amethyst_eea_global_images_OS2.0.202.0.VOPEUXM_20250619.0000.00_15.0_eea_95ef537514.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.4.0.VOPEUXM": {
 					"os": "OS2.0.4.0.VOPEUXM",
 					"android": "15.0",
 					"release": "2025-05-24",
 					"recovery": "amethyst_eea_global-ota_full-OS2.0.4.0.VOPEUXM-user-15.0-1c8f9686ce.zip",
-					"fastboot": "amethyst_eea_global_images_OS2.0.4.0.VOPEUXM_20250508.0000.00_15.0_eea_ef2848c712.tgz"
+					"fastboot": "amethyst_eea_global_images_OS2.0.4.0.VOPEUXM_20250508.0000.00_15.0_eea_ef2848c712.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VOPEUXM": {
 					"os": "OS2.0.1.0.VOPEUXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "amethyst_eea_global-ota_full-OS2.0.1.0.VOPEUXM-user-15.0-1beb17d54f.zip",
-					"fastboot": "amethyst_eea_global_images_OS2.0.1.0.VOPEUXM_20250326.0000.00_15.0_eea_99e7f2274c.tgz"
+					"fastboot": "amethyst_eea_global_images_OS2.0.1.0.VOPEUXM_20250326.0000.00_15.0_eea_99e7f2274c.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.11.0.UOPEUXM": {
 					"os": "OS1.0.11.0.UOPEUXM",
 					"android": "14.0",
 					"release": "2025-05-13",
 					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.11.0.UOPEUXM_80188fa04e_14.0.zip",
-					"fastboot": "amethyst_eea_global_images_OS1.0.11.0.UOPEUXM_20250422.0000.00_14.0_eea_6bcefea413.tgz"
+					"fastboot": "amethyst_eea_global_images_OS1.0.11.0.UOPEUXM_20250422.0000.00_14.0_eea_6bcefea413.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.10.0.UOPEUXM": {
 					"os": "OS1.0.10.0.UOPEUXM",
 					"android": "14.0",
 					"release": "2025-04-17",
 					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.10.0.UOPEUXM_b06f91b032_14.0.zip",
-					"fastboot": "amethyst_eea_global_images_OS1.0.10.0.UOPEUXM_20250404.0000.00_14.0_eea_5e70472445.tgz"
+					"fastboot": "amethyst_eea_global_images_OS1.0.10.0.UOPEUXM_20250404.0000.00_14.0_eea_5e70472445.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.UOPEUXM": {
 					"os": "OS1.0.9.0.UOPEUXM",
 					"android": "14.0",
 					"release": "2025-03-21",
 					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.9.0.UOPEUXM_e481dcf2ad_14.0.zip",
-					"fastboot": "amethyst_eea_global_images_OS1.0.9.0.UOPEUXM_20250310.0000.00_14.0_eea_5003bc27b2.tgz"
+					"fastboot": "amethyst_eea_global_images_OS1.0.9.0.UOPEUXM_20250310.0000.00_14.0_eea_5003bc27b2.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.7.0.UOPEUXM": {
 					"os": "OS1.0.7.0.UOPEUXM",
 					"android": "14.0",
 					"release": "2025-03-11",
 					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.7.0.UOPEUXM_319edae753_14.0.zip",
-					"fastboot": "amethyst_eea_global_images_OS1.0.7.0.UOPEUXM_20250225.0000.00_14.0_eea_85661428f6.tgz"
+					"fastboot": "amethyst_eea_global_images_OS1.0.7.0.UOPEUXM_20250225.0000.00_14.0_eea_85661428f6.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UOPEUXM": {
 					"os": "OS1.0.6.0.UOPEUXM",
 					"android": "14.0",
 					"release": "2025-01-14",
 					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.6.0.UOPEUXM_7067f47ebb_14.0.zip",
-					"fastboot": "amethyst_eea_global_images_OS1.0.6.0.UOPEUXM_20241219.0000.00_14.0_eea_70bb26abf9.tgz"
+					"fastboot": "amethyst_eea_global_images_OS1.0.6.0.UOPEUXM_20241219.0000.00_14.0_eea_70bb26abf9.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.3.0.UOPEUXM": {
 					"os": "OS1.0.3.0.UOPEUXM",
 					"android": "14.0",
 					"release": "2024-12-24",
 					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.3.0.UOPEUXM_e6a0167c95_14.0.zip",
-					"fastboot": "amethyst_eea_global_images_OS1.0.3.0.UOPEUXM_20241112.0000.00_14.0_eea_f7cb627eab.tgz"
+					"fastboot": "amethyst_eea_global_images_OS1.0.3.0.UOPEUXM_20241112.0000.00_14.0_eea_f7cb627eab.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.1.0.UOPEUXM": {
 					"os": "OS1.0.1.0.UOPEUXM",
 					"android": "14.0",
 					"release": "2024-12-24",
 					"recovery": "miui_AMETHYSTEEAGlobal_OS1.0.1.0.UOPEUXM_102f6aa8a7_14.0.zip",
-					"fastboot": "amethyst_eea_global_images_OS1.0.1.0.UOPEUXM_20241107.0000.00_14.0_eea_d0a57e733e.tgz"
+					"fastboot": "amethyst_eea_global_images_OS1.0.1.0.UOPEUXM_20241107.0000.00_14.0_eea_d0a57e733e.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -827,6 +913,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -843,70 +930,80 @@
 					"android": "16.0",
 					"release": "2026-03-27",
 					"recovery": "amethyst_ru_global-ota_full-OS3.0.2.0.WOPRUXM-user-16.0-20f0feb8fd.zip",
-					"fastboot": "amethyst_ru_global_images_OS3.0.2.0.WOPRUXM_20260310.0000.00_16.0_ru_84e4283471.tgz"
+					"fastboot": "amethyst_ru_global_images_OS3.0.2.0.WOPRUXM_20260310.0000.00_16.0_ru_84e4283471.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOPRUXM": {
 					"os": "OS3.0.1.0.WOPRUXM",
 					"android": "16.0",
 					"release": "2026-01-27",
 					"recovery": "amethyst_ru_global-ota_full-OS3.0.1.0.WOPRUXM-user-16.0-3d4883c0f0.zip",
-					"fastboot": "amethyst_ru_global_images_OS3.0.1.0.WOPRUXM_20260113.0000.00_16.0_ru_52ef044e54.tgz"
+					"fastboot": "amethyst_ru_global_images_OS3.0.1.0.WOPRUXM_20260113.0000.00_16.0_ru_52ef044e54.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VOPRUXM": {
 					"os": "OS2.0.205.0.VOPRUXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "amethyst_ru_global-ota_full-OS2.0.205.0.VOPRUXM-user-15.0-a59323cfe0.zip",
-					"fastboot": "amethyst_ru_global_images_OS2.0.205.0.VOPRUXM_20251216.0000.00_15.0_ru_6246c05da6.tgz"
+					"fastboot": "amethyst_ru_global_images_OS2.0.205.0.VOPRUXM_20251216.0000.00_15.0_ru_6246c05da6.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOPRUXM": {
 					"os": "OS2.0.203.0.VOPRUXM",
 					"android": "15.0",
 					"release": "2025-10-29",
 					"recovery": "amethyst_ru_global-ota_full-OS2.0.203.0.VOPRUXM-user-15.0-a96267997a.zip",
-					"fastboot": "amethyst_ru_global_images_OS2.0.203.0.VOPRUXM_20251017.0000.00_15.0_ru_b4f28f0c43.tgz"
+					"fastboot": "amethyst_ru_global_images_OS2.0.203.0.VOPRUXM_20251017.0000.00_15.0_ru_b4f28f0c43.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOPRUXM": {
 					"os": "OS2.0.202.0.VOPRUXM",
 					"android": "15.0",
 					"release": "2025-09-08",
 					"recovery": "amethyst_ru_global-ota_full-OS2.0.202.0.VOPRUXM-user-15.0-c62176f993.zip",
-					"fastboot": "amethyst_ru_global_images_OS2.0.202.0.VOPRUXM_20250826.0000.00_15.0_ru_414ee1370b.tgz"
+					"fastboot": "amethyst_ru_global_images_OS2.0.202.0.VOPRUXM_20250826.0000.00_15.0_ru_414ee1370b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.4.0.VOPRUXM": {
 					"os": "OS2.0.4.0.VOPRUXM",
 					"android": "15.0",
 					"release": "2025-05-27",
 					"recovery": "amethyst_ru_global-ota_full-OS2.0.4.0.VOPRUXM-user-15.0-69fc21b7d2.zip",
-					"fastboot": "amethyst_ru_global_images_OS2.0.4.0.VOPRUXM_20250515.0000.00_15.0_ru_fc408884c8.tgz"
+					"fastboot": "amethyst_ru_global_images_OS2.0.4.0.VOPRUXM_20250515.0000.00_15.0_ru_fc408884c8.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VOPRUXM": {
 					"os": "OS2.0.3.0.VOPRUXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "amethyst_ru_global-ota_full-OS2.0.3.0.VOPRUXM-user-15.0-e55f666bd2.zip",
-					"fastboot": "amethyst_ru_global_images_OS2.0.3.0.VOPRUXM_20250410.0000.00_15.0_ru_bf9a17dc90.tgz"
+					"fastboot": "amethyst_ru_global_images_OS2.0.3.0.VOPRUXM_20250410.0000.00_15.0_ru_bf9a17dc90.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.4.0.UOPRUXM": {
 					"os": "OS1.0.4.0.UOPRUXM",
 					"android": "14.0",
 					"release": "2025-03-31",
 					"recovery": "miui_AMETHYSTRUGlobal_OS1.0.4.0.UOPRUXM_5cddcbff05_14.0.zip",
-					"fastboot": "amethyst_ru_global_images_OS1.0.4.0.UOPRUXM_20250314.0000.00_14.0_ru_ad4703e59a.tgz"
+					"fastboot": "amethyst_ru_global_images_OS1.0.4.0.UOPRUXM_20250314.0000.00_14.0_ru_ad4703e59a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.3.0.UOPRUXM": {
 					"os": "OS1.0.3.0.UOPRUXM",
 					"android": "14.0",
 					"release": "2025-02-18",
 					"recovery": "miui_AMETHYSTRUGlobal_OS1.0.3.0.UOPRUXM_382735bebb_14.0.zip",
-					"fastboot": "amethyst_ru_global_images_OS1.0.3.0.UOPRUXM_20241223.0000.00_14.0_ru_7cf1109463.tgz"
+					"fastboot": "amethyst_ru_global_images_OS1.0.3.0.UOPRUXM_20241223.0000.00_14.0_ru_7cf1109463.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.2.0.UOPRUXM": {
 					"os": "OS1.0.2.0.UOPRUXM",
 					"android": "14.0",
 					"release": "2024-12-24",
 					"recovery": "miui_AMETHYSTRUGlobal_OS1.0.2.0.UOPRUXM_d88885f1c4_14.0.zip",
-					"fastboot": "amethyst_ru_global_images_OS1.0.2.0.UOPRUXM_20241106.0000.00_14.0_ru_b1693400da.tgz"
+					"fastboot": "amethyst_ru_global_images_OS1.0.2.0.UOPRUXM_20241106.0000.00_14.0_ru_b1693400da.tgz",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -928,6 +1025,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -944,84 +1042,96 @@
 					"android": "16.0",
 					"release": "2026-04-29",
 					"recovery": "amethyst_in_global-ota_full-OS3.0.5.0.WOPINXM-user-16.0-af38fed56b.zip",
-					"fastboot": "amethyst_in_global_images_OS3.0.5.0.WOPINXM_20260416.0000.00_16.0_in_ac6d33fa64.tgz"
+					"fastboot": "amethyst_in_global_images_OS3.0.5.0.WOPINXM_20260416.0000.00_16.0_in_ac6d33fa64.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOPINXM": {
 					"os": "OS3.0.3.0.WOPINXM",
 					"android": "16.0",
 					"release": "2026-03-18",
 					"recovery": "amethyst_in_global-ota_full-OS3.0.3.0.WOPINXM-user-16.0-6f9a367404.zip",
-					"fastboot": "amethyst_in_global_images_OS3.0.3.0.WOPINXM_20260310.0000.00_16.0_in_804a12ccd2.tgz"
+					"fastboot": "amethyst_in_global_images_OS3.0.3.0.WOPINXM_20260310.0000.00_16.0_in_804a12ccd2.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOPINXM": {
 					"os": "OS3.0.2.0.WOPINXM",
 					"android": "16.0",
 					"release": "2026-02-07",
 					"recovery": "amethyst_in_global-ota_full-OS3.0.2.0.WOPINXM-user-16.0-9c7bb60944.zip",
-					"fastboot": "amethyst_in_global_images_OS3.0.2.0.WOPINXM_20260113.0000.00_16.0_in_899055bd60.tgz"
+					"fastboot": "amethyst_in_global_images_OS3.0.2.0.WOPINXM_20260113.0000.00_16.0_in_899055bd60.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VOPINXM": {
 					"os": "OS2.0.205.0.VOPINXM",
 					"android": "15.0",
 					"release": "2025-12-15",
 					"recovery": "amethyst_in_global-ota_full-OS2.0.205.0.VOPINXM-user-15.0-b22a5f1bfc.zip",
-					"fastboot": "amethyst_in_global_images_OS2.0.205.0.VOPINXM_20251201.0000.00_15.0_in_c34c7b3c39.tgz"
+					"fastboot": "amethyst_in_global_images_OS2.0.205.0.VOPINXM_20251201.0000.00_15.0_in_c34c7b3c39.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOPINXM": {
 					"os": "OS2.0.204.0.VOPINXM",
 					"android": "15.0",
 					"release": "2025-10-29",
 					"recovery": "amethyst_in_global-ota_full-OS2.0.204.0.VOPINXM-user-15.0-5a0e826c5c.zip",
-					"fastboot": "amethyst_in_global_images_OS2.0.204.0.VOPINXM_20251017.0000.00_15.0_in_06f0e45bf1.tgz"
+					"fastboot": "amethyst_in_global_images_OS2.0.204.0.VOPINXM_20251017.0000.00_15.0_in_06f0e45bf1.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VOPINXM": {
 					"os": "OS2.0.203.0.VOPINXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "amethyst_in_global-ota_full-OS2.0.203.0.VOPINXM-user-15.0-ec9e0a8f5f.zip",
-					"fastboot": "amethyst_in_global_images_OS2.0.203.0.VOPINXM_20250814.0000.00_15.0_in_bcaea15c3b.tgz"
+					"fastboot": "amethyst_in_global_images_OS2.0.203.0.VOPINXM_20250814.0000.00_15.0_in_bcaea15c3b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOPINXM": {
 					"os": "OS2.0.201.0.VOPINXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "amethyst_in_global-ota_full-OS2.0.201.0.VOPINXM-user-15.0-0943020699.zip",
-					"fastboot": "amethyst_in_global_images_OS2.0.201.0.VOPINXM_20250616.0000.00_15.0_in_bc67113042.tgz"
+					"fastboot": "amethyst_in_global_images_OS2.0.201.0.VOPINXM_20250616.0000.00_15.0_in_bc67113042.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.5.0.VOPINXM": {
 					"os": "OS2.0.5.0.VOPINXM",
 					"android": "15.0",
 					"release": "2025-05-24",
 					"recovery": "amethyst_in_global-ota_full-OS2.0.5.0.VOPINXM-user-15.0-b1be262a0d.zip",
-					"fastboot": "amethyst_in_global_images_OS2.0.5.0.VOPINXM_20250508.0000.00_15.0_in_9585047f45.tgz"
+					"fastboot": "amethyst_in_global_images_OS2.0.5.0.VOPINXM_20250508.0000.00_15.0_in_9585047f45.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.4.0.VOPINXM": {
 					"os": "OS2.0.4.0.VOPINXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "amethyst_in_global-ota_full-OS2.0.4.0.VOPINXM-user-15.0-f1925f7389.zip",
-					"fastboot": "amethyst_in_global_images_OS2.0.4.0.VOPINXM_20250324.0000.00_15.0_in_e880654f41.tgz"
+					"fastboot": "amethyst_in_global_images_OS2.0.4.0.VOPINXM_20250324.0000.00_15.0_in_e880654f41.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.8.0.UOPINXM": {
 					"os": "OS1.0.8.0.UOPINXM",
 					"android": "14.0",
 					"release": "2025-03-12",
 					"recovery": "miui_AMETHYSTINGlobal_OS1.0.8.0.UOPINXM_1a2fd5d521_14.0.zip",
-					"fastboot": "amethyst_in_global_images_OS1.0.8.0.UOPINXM_20250304.0000.00_14.0_in_74f6c7b31e.tgz"
+					"fastboot": "amethyst_in_global_images_OS1.0.8.0.UOPINXM_20250304.0000.00_14.0_in_74f6c7b31e.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.4.0.UOPINXM": {
 					"os": "OS1.0.4.0.UOPINXM",
 					"android": "14.0",
 					"release": "2024-12-21",
 					"recovery": "miui_AMETHYSTINGlobal_OS1.0.4.0.UOPINXM_7fd60fc77f_14.0.zip",
-					"fastboot": "amethyst_in_global_images_OS1.0.4.0.UOPINXM_20241212.0000.00_14.0_in_0f4d37d8aa.tgz"
+					"fastboot": "amethyst_in_global_images_OS1.0.4.0.UOPINXM_20241212.0000.00_14.0_in_0f4d37d8aa.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.2.0.UOPINXM": {
 					"os": "OS1.0.2.0.UOPINXM",
 					"android": "14.0",
 					"release": "2024-12-21",
 					"recovery": "miui_AMETHYSTINGlobal_OS1.0.2.0.UOPINXM_fda0b4b09f_14.0.zip",
-					"fastboot": "amethyst_in_global_images_OS1.0.2.0.UOPINXM_20241105.0000.00_14.0_in_96b8670515.tgz"
+					"fastboot": "amethyst_in_global_images_OS1.0.2.0.UOPINXM_20241105.0000.00_14.0_in_96b8670515.tgz",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -1043,6 +1153,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1059,70 +1170,80 @@
 					"android": "16.0",
 					"release": "2026-03-27",
 					"recovery": "amethyst_id_global-ota_full-OS3.0.3.0.WOPIDXM-user-16.0-6008255e85.zip",
-					"fastboot": "amethyst_id_global_images_OS3.0.3.0.WOPIDXM_20260309.0000.00_16.0_id_8c7faa0cdb.tgz"
+					"fastboot": "amethyst_id_global_images_OS3.0.3.0.WOPIDXM_20260309.0000.00_16.0_id_8c7faa0cdb.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOPIDXM": {
 					"os": "OS3.0.2.0.WOPIDXM",
 					"android": "16.0",
 					"release": "2026-01-20",
 					"recovery": "amethyst_id_global-ota_full-OS3.0.2.0.WOPIDXM-user-16.0-92f34f9254.zip",
-					"fastboot": "amethyst_id_global_images_OS3.0.2.0.WOPIDXM_20260105.0000.00_16.0_id_7a59ac65e5.tgz"
+					"fastboot": "amethyst_id_global_images_OS3.0.2.0.WOPIDXM_20260105.0000.00_16.0_id_7a59ac65e5.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.203.0.VOPIDXM": {
 					"os": "OS2.0.203.0.VOPIDXM",
 					"android": "15.0",
 					"release": "2025-12-22",
 					"recovery": "amethyst_id_global-ota_full-OS2.0.203.0.VOPIDXM-user-15.0-3f0b833a9b.zip",
-					"fastboot": "amethyst_id_global_images_OS2.0.203.0.VOPIDXM_20251208.0000.00_15.0_id_74e8abaf64.tgz"
+					"fastboot": "amethyst_id_global_images_OS2.0.203.0.VOPIDXM_20251208.0000.00_15.0_id_74e8abaf64.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VOPIDXM": {
 					"os": "OS2.0.202.0.VOPIDXM",
 					"android": "15.0",
 					"release": "2025-10-26",
 					"recovery": "amethyst_id_global-ota_full-OS2.0.202.0.VOPIDXM-user-15.0-0f80b97208.zip",
-					"fastboot": "amethyst_id_global_images_OS2.0.202.0.VOPIDXM_20251016.0000.00_15.0_id_343e1341c4.tgz"
+					"fastboot": "amethyst_id_global_images_OS2.0.202.0.VOPIDXM_20251016.0000.00_15.0_id_343e1341c4.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VOPIDXM": {
 					"os": "OS2.0.201.0.VOPIDXM",
 					"android": "15.0",
 					"release": "2025-09-08",
 					"recovery": "amethyst_id_global-ota_full-OS2.0.201.0.VOPIDXM-user-15.0-0c27fffdcc.zip",
-					"fastboot": "amethyst_id_global_images_OS2.0.201.0.VOPIDXM_20250826.0000.00_15.0_id_1c58a2f605.tgz"
+					"fastboot": "amethyst_id_global_images_OS2.0.201.0.VOPIDXM_20250826.0000.00_15.0_id_1c58a2f605.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.3.0.VOPIDXM": {
 					"os": "OS2.0.3.0.VOPIDXM",
 					"android": "15.0",
 					"release": "2025-06-01",
 					"recovery": "amethyst_id_global-ota_full-OS2.0.3.0.VOPIDXM-user-15.0-b5be9fbec6.zip",
-					"fastboot": "amethyst_id_global_images_OS2.0.3.0.VOPIDXM_20250515.0000.00_15.0_id_07e5f5f9d7.tgz"
+					"fastboot": "amethyst_id_global_images_OS2.0.3.0.VOPIDXM_20250515.0000.00_15.0_id_07e5f5f9d7.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOPIDXM": {
 					"os": "OS2.0.2.0.VOPIDXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "amethyst_id_global-ota_full-OS2.0.2.0.VOPIDXM-user-15.0-73833ae481.zip",
-					"fastboot": "amethyst_id_global_images_OS2.0.2.0.VOPIDXM_20250414.0000.00_15.0_id_b46774269e.tgz"
+					"fastboot": "amethyst_id_global_images_OS2.0.2.0.VOPIDXM_20250414.0000.00_15.0_id_b46774269e.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.6.0.UOPIDXM": {
 					"os": "OS1.0.6.0.UOPIDXM",
 					"android": "14.0",
 					"release": "2025-03-31",
 					"recovery": "miui_AMETHYSTIDGlobal_OS1.0.6.0.UOPIDXM_a854353125_14.0.zip",
-					"fastboot": "amethyst_id_global_images_OS1.0.6.0.UOPIDXM_20250314.0000.00_14.0_id_870b2d4fb1.tgz"
+					"fastboot": "amethyst_id_global_images_OS1.0.6.0.UOPIDXM_20250314.0000.00_14.0_id_870b2d4fb1.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.UOPIDXM": {
 					"os": "OS1.0.5.0.UOPIDXM",
 					"android": "14.0",
 					"release": "2025-02-21",
 					"recovery": "miui_AMETHYSTIDGlobal_OS1.0.5.0.UOPIDXM_fd4b766d87_14.0.zip",
-					"fastboot": "amethyst_id_global_images_OS1.0.5.0.UOPIDXM_20250121.0000.00_14.0_id_6b481ec1a8.tgz"
+					"fastboot": "amethyst_id_global_images_OS1.0.5.0.UOPIDXM_20250121.0000.00_14.0_id_6b481ec1a8.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.4.0.UOPIDXM": {
 					"os": "OS1.0.4.0.UOPIDXM",
 					"android": "14.0",
 					"release": "2024-12-24",
 					"recovery": "miui_AMETHYSTIDGlobal_OS1.0.4.0.UOPIDXM_37f6d4ab06_14.0.zip",
-					"fastboot": "amethyst_id_global_images_OS1.0.4.0.UOPIDXM_20241206.0000.00_14.0_id_60b5335f48.tgz"
+					"fastboot": "amethyst_id_global_images_OS1.0.4.0.UOPIDXM_20241206.0000.00_14.0_id_60b5335f48.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -1144,6 +1265,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1160,56 +1282,64 @@
 					"android": "16.0",
 					"release": "2026-03-27",
 					"recovery": "amethyst_tr_global-ota_full-OS3.0.2.0.WOPTRXM-user-16.0-1ca2d03d32.zip",
-					"fastboot": "amethyst_tr_global_images_OS3.0.2.0.WOPTRXM_20260309.0000.00_16.0_tr_45ad591c20.tgz"
+					"fastboot": "amethyst_tr_global_images_OS3.0.2.0.WOPTRXM_20260309.0000.00_16.0_tr_45ad591c20.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOPTRXM": {
 					"os": "OS3.0.1.0.WOPTRXM",
 					"android": "16.0",
 					"release": "2026-01-27",
 					"recovery": "amethyst_tr_global-ota_full-OS3.0.1.0.WOPTRXM-user-16.0-b915f3ebce.zip",
-					"fastboot": "amethyst_tr_global_images_OS3.0.1.0.WOPTRXM_20260113.0000.00_16.0_tr_2e23ac5c97.tgz"
+					"fastboot": "amethyst_tr_global_images_OS3.0.1.0.WOPTRXM_20260113.0000.00_16.0_tr_2e23ac5c97.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.204.0.VOPTRXM": {
 					"os": "OS2.0.204.0.VOPTRXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "amethyst_tr_global-ota_full-OS2.0.204.0.VOPTRXM-user-15.0-a7fe142f92.zip",
-					"fastboot": "amethyst_tr_global_images_OS2.0.204.0.VOPTRXM_20251216.0000.00_15.0_tr_df5ef21bc1.tgz"
+					"fastboot": "amethyst_tr_global_images_OS2.0.204.0.VOPTRXM_20251216.0000.00_15.0_tr_df5ef21bc1.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VOPTRXM": {
 					"os": "OS2.0.202.0.VOPTRXM",
 					"android": "15.0",
 					"release": "2025-10-29",
 					"recovery": "amethyst_tr_global-ota_full-OS2.0.202.0.VOPTRXM-user-15.0-e124c5a577.zip",
-					"fastboot": "amethyst_tr_global_images_OS2.0.202.0.VOPTRXM_20251016.0000.00_15.0_tr_ca9413967f.tgz"
+					"fastboot": "amethyst_tr_global_images_OS2.0.202.0.VOPTRXM_20251016.0000.00_15.0_tr_ca9413967f.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VOPTRXM": {
 					"os": "OS2.0.201.0.VOPTRXM",
 					"android": "15.0",
 					"release": "2025-09-08",
 					"recovery": "amethyst_tr_global-ota_full-OS2.0.201.0.VOPTRXM-user-15.0-e2ec315e03.zip",
-					"fastboot": "amethyst_tr_global_images_OS2.0.201.0.VOPTRXM_20250826.0000.00_15.0_tr_a3dd8fa96d.tgz"
+					"fastboot": "amethyst_tr_global_images_OS2.0.201.0.VOPTRXM_20250826.0000.00_15.0_tr_a3dd8fa96d.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.3.0.VOPTRXM": {
 					"os": "OS2.0.3.0.VOPTRXM",
 					"android": "15.0",
 					"release": "2025-06-03",
 					"recovery": "amethyst_tr_global-ota_full-OS2.0.3.0.VOPTRXM-user-15.0-3aeb1b21d1.zip",
-					"fastboot": "amethyst_tr_global_images_OS2.0.3.0.VOPTRXM_20250515.0000.00_15.0_tr_0e0229fa70.tgz"
+					"fastboot": "amethyst_tr_global_images_OS2.0.3.0.VOPTRXM_20250515.0000.00_15.0_tr_0e0229fa70.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VOPTRXM": {
 					"os": "OS2.0.2.0.VOPTRXM",
 					"android": "15.0",
 					"release": "2025-04-22",
 					"recovery": "amethyst_tr_global-ota_full-OS2.0.2.0.VOPTRXM-user-15.0-a0a11adc1a.zip",
-					"fastboot": "amethyst_tr_global_images_OS2.0.2.0.VOPTRXM_20250414.0000.00_15.0_tr_661bb2ba51.tgz"
+					"fastboot": "amethyst_tr_global_images_OS2.0.2.0.VOPTRXM_20250414.0000.00_15.0_tr_661bb2ba51.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.3.0.UOPTRXM": {
 					"os": "OS1.0.3.0.UOPTRXM",
 					"android": "14.0",
 					"release": "2025-03-12",
 					"recovery": "miui_AMETHYSTTRGlobal_OS1.0.3.0.UOPTRXM_244dec48e2_14.0.zip",
-					"fastboot": "amethyst_tr_global_images_OS1.0.3.0.UOPTRXM_20241209.0000.00_14.0_tr_e95bb4eca9.tgz"
+					"fastboot": "amethyst_tr_global_images_OS1.0.3.0.UOPTRXM_20241209.0000.00_14.0_tr_e95bb4eca9.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -1231,6 +1361,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1247,7 +1378,8 @@
 					"android": "14.0",
 					"release": "2025-02-18",
 					"recovery": "miui_AMETHYSTMXATGlobal_OS1.0.1.0.UOPMXAT_d9041b95ea_14.0.zip",
-					"fastboot": "amethyst_mx_at_global_images_OS1.0.1.0.UOPMXAT_20241113.0000.00_14.0_mx_at_3b7457baf4.tgz"
+					"fastboot": "amethyst_mx_at_global_images_OS1.0.1.0.UOPMXAT_20241113.0000.00_14.0_mx_at_3b7457baf4.tgz",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -1269,6 +1401,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1285,70 +1418,80 @@
 					"android": "16.0",
 					"release": "2026-05-26",
 					"recovery": "amethyst_lm_cr_global-ota_full-OS3.0.2.0.WOPLMCR-user-16.0-f762687558.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS3.0.2.0.WOPLMCR_20260514.0000.00_16.0_lm_cr_5fce8d20cd.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS3.0.2.0.WOPLMCR_20260514.0000.00_16.0_lm_cr_5fce8d20cd.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.202.0.VOPLMCR": {
 					"os": "OS2.0.202.0.VOPLMCR",
 					"android": "15.0",
 					"release": "2026-01-14",
 					"recovery": "amethyst_lm_cr_global-ota_full-OS2.0.202.0.VOPLMCR-user-15.0-d86ded225b.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS2.0.202.0.VOPLMCR_20260104.0000.00_15.0_lm_cr_dd5264a60f.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS2.0.202.0.VOPLMCR_20260104.0000.00_15.0_lm_cr_dd5264a60f.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.201.0.VOPLMCR": {
 					"os": "OS2.0.201.0.VOPLMCR",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "amethyst_lm_cr_global-ota_full-OS2.0.201.0.VOPLMCR-user-15.0-50f632dd36.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS2.0.201.0.VOPLMCR_20251027.0000.00_15.0_lm_cr_11f35cf064.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS2.0.201.0.VOPLMCR_20251027.0000.00_15.0_lm_cr_11f35cf064.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.3.0.VOPLMCR": {
 					"os": "OS2.0.3.0.VOPLMCR",
 					"android": "15.0",
 					"release": "2025-09-18",
 					"recovery": "amethyst_lm_cr_global-ota_full-OS2.0.3.0.VOPLMCR-user-15.0-005df7d11b.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS2.0.3.0.VOPLMCR_20250909.0000.00_15.0_lm_cr_2839236694.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS2.0.3.0.VOPLMCR_20250909.0000.00_15.0_lm_cr_2839236694.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.2.0.VOPLMCR": {
 					"os": "OS2.0.2.0.VOPLMCR",
 					"android": "15.0",
 					"release": "2025-07-11",
 					"recovery": "amethyst_lm_cr_global-ota_full-OS2.0.2.0.VOPLMCR-user-15.0-e061ef2bfd.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS2.0.2.0.VOPLMCR_20250625.0000.00_15.0_lm_cr_f7a89d7207.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS2.0.2.0.VOPLMCR_20250625.0000.00_15.0_lm_cr_f7a89d7207.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.1.0.VOPLMCR": {
 					"os": "OS2.0.1.0.VOPLMCR",
 					"android": "15.0",
 					"release": "2025-06-10",
 					"recovery": "amethyst_lm_cr_global-ota_full-OS2.0.1.0.VOPLMCR-user-15.0-770b6b166d.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS2.0.1.0.VOPLMCR_20250515.0000.00_15.0_lm_cr_f24efe5268.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS2.0.1.0.VOPLMCR_20250515.0000.00_15.0_lm_cr_f24efe5268.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.4.0.UOPLMCR": {
 					"os": "OS1.0.4.0.UOPLMCR",
 					"android": "14.0",
 					"release": "2025-04-16",
 					"recovery": "miui_AMETHYSTLMCRGlobal_OS1.0.4.0.UOPLMCR_a8b33d8a42_14.0.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS1.0.4.0.UOPLMCR_20250408.0000.00_14.0_lm_cr_ac7d4d76d0.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS1.0.4.0.UOPLMCR_20250408.0000.00_14.0_lm_cr_ac7d4d76d0.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.3.0.UOPLMCR": {
 					"os": "OS1.0.3.0.UOPLMCR",
 					"android": "14.0",
 					"release": "2025-03-12",
 					"recovery": "miui_AMETHYSTLMCRGlobal_OS1.0.3.0.UOPLMCR_9febc39f50_14.0.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS1.0.3.0.UOPLMCR_20250224.0000.00_14.0_lm_cr_7a083d1fe4.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS1.0.3.0.UOPLMCR_20250224.0000.00_14.0_lm_cr_7a083d1fe4.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.2.0.UOPLMCR": {
 					"os": "OS1.0.2.0.UOPLMCR",
 					"android": "14.0",
 					"release": "2025-01-16",
 					"recovery": "miui_AMETHYSTLMCRGlobal_OS1.0.2.0.UOPLMCR_9ba26ba390_14.0.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS1.0.2.0.UOPLMCR_20241212.0000.00_14.0_lm_cr_b35119aca9.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS1.0.2.0.UOPLMCR_20241212.0000.00_14.0_lm_cr_b35119aca9.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.1.0.UOPLMCR": {
 					"os": "OS1.0.1.0.UOPLMCR",
 					"android": "14.0",
 					"release": "2025-01-16",
 					"recovery": "miui_AMETHYSTLMCRGlobal_OS1.0.1.0.UOPLMCR_90de466158_14.0.zip",
-					"fastboot": "amethyst_lm_cr_global_images_OS1.0.1.0.UOPLMCR_20241127.0000.00_14.0_lm_cr_0069eb81ad.tgz"
+					"fastboot": "amethyst_lm_cr_global_images_OS1.0.1.0.UOPLMCR_20241127.0000.00_14.0_lm_cr_0069eb81ad.tgz",
+					"aspatch": "2024-11-01"
 				}
 			}
 		}

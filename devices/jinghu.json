@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -54,35 +55,40 @@
 					"android": "16.0",
 					"release": "2026-03-06",
 					"recovery": "jinghu-ota_full-OS3.0.300.3.WOXCNXM-user-16.0-11c06a97d3.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.2.WOXCNXM": {
 					"os": "OS3.0.300.2.WOXCNXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "jinghu-ota_full-OS3.0.300.2.WOXCNXM-user-16.0-142e34275c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.1.4.WOXCNXM": {
 					"os": "OS3.0.1.4.WOXCNXM",
 					"android": "16.0",
 					"release": "2025-10-14",
 					"recovery": "jinghu-ota_full-OS3.0.1.4.WOXCNXM-user-16.0-b2abf64bfd.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.8.WOXCNXM": {
 					"os": "OS3.0.0.8.WOXCNXM",
 					"android": "16.0",
 					"release": "2025-09-25",
 					"recovery": "jinghu-ota_full-OS3.0.0.8.WOXCNXM-user-16.0-4c16befc3e.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS3.0.0.5.WOXCNXM": {
 					"os": "OS3.0.0.5.WOXCNXM",
 					"android": "16.0",
 					"release": "2025-09-15",
 					"recovery": "jinghu-ota_full-OS3.0.0.5.WOXCNXM-user-16.0-c54fdb7836.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-05"
 				}
 			}
 		},
@@ -104,6 +110,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -126,91 +133,104 @@
 					"android": "16.0",
 					"release": "2026-03-26",
 					"recovery": "jinghu-ota_full-OS3.0.301.0.WOXCNXM-user-16.0-0bb4bdec09.zip",
-					"fastboot": "jinghu-images-OS3.0.301.0.WOXCNXM-user-20260319.0000.00-16.0-cn-7735f2f7e0.tgz"
+					"fastboot": "jinghu-images-OS3.0.301.0.WOXCNXM-user-20260319.0000.00-16.0-cn-7735f2f7e0.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.7.0.WOXCNXM": {
 					"os": "OS3.0.7.0.WOXCNXM",
 					"android": "16.0",
 					"release": "2025-12-26",
 					"recovery": "jinghu-ota_full-OS3.0.7.0.WOXCNXM-user-16.0-1c0633f855.zip",
-					"fastboot": "jinghu-images-OS3.0.7.0.WOXCNXM-user-20251224.0000.00-16.0-cn-3d206d8231.tgz"
+					"fastboot": "jinghu-images-OS3.0.7.0.WOXCNXM-user-20251224.0000.00-16.0-cn-3d206d8231.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.5.0.WOXCNXM": {
 					"os": "OS3.0.5.0.WOXCNXM",
 					"android": "16.0",
 					"release": "2025-11-07",
 					"recovery": "jinghu-ota_full-OS3.0.5.0.WOXCNXM-user-16.0-1df6d3fec2.zip",
-					"fastboot": "jinghu-images-OS3.0.5.0.WOXCNXM-user-20251105.0000.00-16.0-cn-2af0e939d7.tgz"
+					"fastboot": "jinghu-images-OS3.0.5.0.WOXCNXM-user-20251105.0000.00-16.0-cn-2af0e939d7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.4.0.WOXCNXM": {
 					"os": "OS3.0.4.0.WOXCNXM",
 					"android": "16.0",
 					"release": "2025-10-28",
 					"recovery": "jinghu-ota_full-OS3.0.4.0.WOXCNXM-user-16.0-b8dd5aa8e4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.207.0.VOXCNXM": {
 					"os": "OS2.0.207.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-10-11",
 					"recovery": "jinghu-ota_full-OS2.0.207.0.VOXCNXM-user-15.0-e175184523.zip",
-					"fastboot": "jinghu-images-OS2.0.207.0.VOXCNXM-user-20250924.0000.00-15.0-cn-4c76c60898.tgz"
+					"fastboot": "jinghu-images-OS2.0.207.0.VOXCNXM-user-20250924.0000.00-15.0-cn-4c76c60898.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.206.0.VOXCNXM": {
 					"os": "OS2.0.206.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "jinghu-ota_full-OS2.0.206.0.VOXCNXM-user-15.0-edfb73601b.zip",
-					"fastboot": "jinghu-images-OS2.0.206.0.VOXCNXM-user-20250729.0000.00-15.0-cn-3e7e7b9f0b.tgz"
+					"fastboot": "jinghu-images-OS2.0.206.0.VOXCNXM-user-20250729.0000.00-15.0-cn-3e7e7b9f0b.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.205.0.VOXCNXM": {
 					"os": "OS2.0.205.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-07-10",
 					"recovery": "jinghu-ota_full-OS2.0.205.0.VOXCNXM-user-15.0-5490c74269.zip",
-					"fastboot": "jinghu-images-OS2.0.205.0.VOXCNXM-user-20250707.0000.00-15.0-cn-f3e6ebd62e.tgz"
+					"fastboot": "jinghu-images-OS2.0.205.0.VOXCNXM-user-20250707.0000.00-15.0-cn-f3e6ebd62e.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.203.0.VOXCNXM": {
 					"os": "OS2.0.203.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "jinghu-ota_full-OS2.0.203.0.VOXCNXM-user-15.0-6262fab975.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.111.0.VOXCNXM": {
 					"os": "OS2.0.111.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-06-09",
 					"recovery": "jinghu-ota_full-OS2.0.111.0.VOXCNXM-user-15.0-d886d02628.zip",
-					"fastboot": "jinghu-images-OS2.0.111.0.VOXCNXM-user-20250604.0000.00-15.0-cn-e832a92c4a.tgz"
+					"fastboot": "jinghu-images-OS2.0.111.0.VOXCNXM-user-20250604.0000.00-15.0-cn-e832a92c4a.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.110.0.VOXCNXM": {
 					"os": "OS2.0.110.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-05-31",
 					"recovery": "jinghu-ota_full-OS2.0.110.0.VOXCNXM-user-15.0-b31d1e2501.zip",
-					"fastboot": "jinghu-images-OS2.0.110.0.VOXCNXM-user-20250528.0000.00-15.0-cn-e2fa3a6d78.tgz"
+					"fastboot": "jinghu-images-OS2.0.110.0.VOXCNXM-user-20250528.0000.00-15.0-cn-e2fa3a6d78.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.108.0.VOXCNXM": {
 					"os": "OS2.0.108.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-05-23",
 					"recovery": "jinghu-ota_full-OS2.0.108.0.VOXCNXM-user-15.0-6d09fd73ec.zip",
-					"fastboot": "jinghu-images-OS2.0.108.0.VOXCNXM-user-20250520.0000.00-15.0-cn-9516005dce.tgz"
+					"fastboot": "jinghu-images-OS2.0.108.0.VOXCNXM-user-20250520.0000.00-15.0-cn-9516005dce.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.104.0.VOXCNXM": {
 					"os": "OS2.0.104.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "jinghu-ota_full-OS2.0.104.0.VOXCNXM-user-15.0-52a8adc79d.zip",
-					"fastboot": "jinghu-images-OS2.0.104.0.VOXCNXM-userroot-20250414.0000.00-15.0-cn-4f543f76a2.tgz"
+					"fastboot": "jinghu-images-OS2.0.104.0.VOXCNXM-userroot-20250414.0000.00-15.0-cn-4f543f76a2.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.103.0.VOXCNXM": {
 					"os": "OS2.0.103.0.VOXCNXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "jinghu-ota_full-OS2.0.103.0.VOXCNXM-user-15.0-cc0dc09b17.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -232,6 +252,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -251,28 +272,32 @@
 					"android": "16.0",
 					"release": "2026-02-06",
 					"recovery": "jinghu_demo-ota_full-OS3.0.1.0.WOXCNDM-user-16.0-85ac86e8bd.zip",
-					"fastboot": "jinghu_demo-images-OS3.0.1.0.WOXCNDM-user-20260116.0000.00-16.0-cn-65c9780acf.tgz"
+					"fastboot": "jinghu_demo-images-OS3.0.1.0.WOXCNDM-user-20260116.0000.00-16.0-cn-65c9780acf.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.203.0.VOXCNDM": {
 					"os": "OS2.0.203.0.VOXCNDM",
 					"android": "15.0",
 					"release": "2025-07-26",
 					"recovery": "jinghu_demo-ota_full-OS2.0.203.0.VOXCNDM-user-15.0-1e6b8cc2c6.zip",
-					"fastboot": "jinghu_demo-images-OS2.0.203.0.VOXCNDM-user-20250722.0000.00-15.0-cn-9151469c27.tgz"
+					"fastboot": "jinghu_demo-images-OS2.0.203.0.VOXCNDM-user-20250722.0000.00-15.0-cn-9151469c27.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.105.0.VOXCNDM": {
 					"os": "OS2.0.105.0.VOXCNDM",
 					"android": "15.0",
 					"release": "2025-05-29",
 					"recovery": "jinghu_demo-ota_full-OS2.0.105.0.VOXCNDM-user-15.0-7788e1242d.zip",
-					"fastboot": "jinghu_demo-images-OS2.0.105.0.VOXCNDM-user-20250523.0000.00-15.0-cn-63aaabbda2.tgz"
+					"fastboot": "jinghu_demo-images-OS2.0.105.0.VOXCNDM-user-20250523.0000.00-15.0-cn-63aaabbda2.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.104.0.VOXCNDM": {
 					"os": "OS2.0.104.0.VOXCNDM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "jinghu_demo-ota_full-OS2.0.104.0.VOXCNDM-user-15.0-e07ac2b871.zip",
-					"fastboot": "jinghu_demo-images-OS2.0.104.0.VOXCNDM-userroot-20250519.0000.00-15.0-cn-a6ec343bf7.tgz"
+					"fastboot": "jinghu_demo-images-OS2.0.104.0.VOXCNDM-userroot-20250519.0000.00-15.0-cn-a6ec343bf7.tgz",
+					"aspatch": "2025-05-01"
 				}
 			}
 		}

@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom",
@@ -56,7 +57,8 @@
 					"recovery": "miui_ZIJIN_OS1.0.12.0.ULPCNXM_cac67dee4a_14.0.zip",
 					"fastboot": "zijin_images_OS1.0.12.0.ULPCNXM_20250212.0000.00_14.0_cn_9001687e75.tgz",
 					"ctelecom": "zijin_images_OS1.0.12.0.ULPCNXM_20250212.0000.00_14.0_cn_chinatelecom_62b07e77a9.tgz",
-					"cnmobile": "zijin_images_OS1.0.12.0.ULPCNXM_20250212.0000.00_14.0_cn_chinamobile_a95e48bf29.tgz"
+					"cnmobile": "zijin_images_OS1.0.12.0.ULPCNXM_20250212.0000.00_14.0_cn_chinamobile_a95e48bf29.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.11.0.ULPCNXM": {
 					"os": "OS1.0.11.0.ULPCNXM",
@@ -65,7 +67,8 @@
 					"recovery": "miui_ZIJIN_OS1.0.11.0.ULPCNXM_f1e8568223_14.0.zip",
 					"fastboot": "zijin_images_OS1.0.11.0.ULPCNXM_20250107.0000.00_14.0_cn_ea52e86464.tgz",
 					"ctelecom": "zijin_images_OS1.0.11.0.ULPCNXM_20250107.0000.00_14.0_cn_chinatelecom_3dcc9ca7de.tgz",
-					"cnmobile": "zijin_images_OS1.0.11.0.ULPCNXM_20250107.0000.00_14.0_cn_chinamobile_45b6837301.tgz"
+					"cnmobile": "zijin_images_OS1.0.11.0.ULPCNXM_20250107.0000.00_14.0_cn_chinamobile_45b6837301.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.ULPCNXM": {
 					"os": "OS1.0.10.0.ULPCNXM",
@@ -74,7 +77,8 @@
 					"recovery": "miui_ZIJIN_OS1.0.10.0.ULPCNXM_049ccec9c1_14.0.zip",
 					"fastboot": "zijin_images_OS1.0.10.0.ULPCNXM_20241128.0000.00_14.0_cn_c3329443ce.tgz",
 					"ctelecom": "zijin_images_OS1.0.10.0.ULPCNXM_20241128.0000.00_14.0_cn_chinatelecom_d508123a3d.tgz",
-					"cnmobile": "zijin_images_OS1.0.10.0.ULPCNXM_20241128.0000.00_14.0_cn_chinamobile_c292bb3800.tgz"
+					"cnmobile": "zijin_images_OS1.0.10.0.ULPCNXM_20241128.0000.00_14.0_cn_chinamobile_c292bb3800.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.ULPCNXM": {
 					"os": "OS1.0.7.0.ULPCNXM",
@@ -83,7 +87,8 @@
 					"recovery": "miui_ZIJIN_OS1.0.7.0.ULPCNXM_94c824d454_14.0.zip",
 					"fastboot": "zijin_images_OS1.0.7.0.ULPCNXM_20241023.0000.00_14.0_cn_ef4f58bcaa.tgz",
 					"ctelecom": "zijin_images_OS1.0.7.0.ULPCNXM_20241023.0000.00_14.0_cn_chinatelecom_294240eb26.tgz",
-					"cnmobile": "zijin_images_OS1.0.7.0.ULPCNXM_20241023.0000.00_14.0_cn_chinamobile_7d12884edb.tgz"
+					"cnmobile": "zijin_images_OS1.0.7.0.ULPCNXM_20241023.0000.00_14.0_cn_chinamobile_7d12884edb.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.ULPCNXM": {
 					"os": "OS1.0.6.0.ULPCNXM",
@@ -92,7 +97,8 @@
 					"recovery": "miui_ZIJIN_OS1.0.6.0.ULPCNXM_66a9185636_14.0.zip",
 					"fastboot": "zijin_images_OS1.0.6.0.ULPCNXM_20240926.0000.00_14.0_cn_f2b3f08516.tgz",
 					"ctelecom": "zijin_images_OS1.0.6.0.ULPCNXM_20240926.0000.00_14.0_cn_chinatelecom_d2022a08e1.tgz",
-					"cnmobile": "zijin_images_OS1.0.6.0.ULPCNXM_20240926.0000.00_14.0_cn_chinamobile_36e1b023ed.tgz"
+					"cnmobile": "zijin_images_OS1.0.6.0.ULPCNXM_20240926.0000.00_14.0_cn_chinamobile_36e1b023ed.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.3.0.ULPCNXM": {
 					"os": "OS1.0.3.0.ULPCNXM",
@@ -101,7 +107,8 @@
 					"recovery": "miui_ZIJIN_OS1.0.3.0.ULPCNXM_81778a72eb_14.0.zip",
 					"fastboot": "zijin_images_OS1.0.3.0.ULPCNXM_20240725.0000.00_14.0_cn_6abf099f11.tgz",
 					"ctelecom": "zijin_images_OS1.0.3.0.ULPCNXM_20240725.0000.00_14.0_cn_chinatelecom_b21a62fd3b.tgz",
-					"cnmobile": "zijin_images_OS1.0.3.0.ULPCNXM_20240725.0000.00_14.0_cn_chinamobile_7ad3855c38.tgz"
+					"cnmobile": "zijin_images_OS1.0.3.0.ULPCNXM_20240725.0000.00_14.0_cn_chinamobile_7ad3855c38.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.ULPCNXM": {
 					"os": "OS1.0.2.0.ULPCNXM",
@@ -110,7 +117,8 @@
 					"recovery": "miui_ZIJIN_OS1.0.2.0.ULPCNXM_92b79e0991_14.0.zip",
 					"fastboot": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_336d9f614d.tgz",
 					"ctelecom": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_chinatelecom_a4506ab029.tgz",
-					"cnmobile": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_chinamobile_74b1e24ad1.tgz"
+					"cnmobile": "zijin_images_OS1.0.2.0.ULPCNXM_20240425.0000.00_14.0_cn_chinamobile_74b1e24ad1.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.1.0.ULPCNXM": {
 					"os": "OS1.0.1.0.ULPCNXM",
@@ -119,7 +127,8 @@
 					"recovery": "miui_ZIJIN_OS1.0.1.0.ULPCNXM_356a223b5b_14.0.zip",
 					"fastboot": "",
 					"ctelecom": "",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2024-02-01"
 				}
 			}
 		}

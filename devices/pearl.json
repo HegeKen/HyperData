@@ -36,6 +36,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -57,7 +58,8 @@
 					"release": "2026-04-15",
 					"recovery": "pearl-ota_full-OS3.0.3.0.VLHCNXM-user-15.0-b919fdadf8.zip",
 					"fastboot": "pearl_images_OS3.0.3.0.VLHCNXM_20260403.0000.00_15.0_cn_f1efbaeeee.tgz",
-					"ctelecom": "pearl_images_OS3.0.3.0.VLHCNXM_20260403.0000.00_15.0_cn_chinatelecom_8b7bfa7e1c.tgz"
+					"ctelecom": "pearl_images_OS3.0.3.0.VLHCNXM_20260403.0000.00_15.0_cn_chinatelecom_8b7bfa7e1c.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.1.0.VLHCNXM": {
 					"os": "OS3.0.1.0.VLHCNXM",
@@ -65,7 +67,8 @@
 					"release": "2026-01-20",
 					"recovery": "pearl-ota_full-OS3.0.1.0.VLHCNXM-user-15.0-463b1f3467.zip",
 					"fastboot": "pearl_images_OS3.0.1.0.VLHCNXM_20260107.0000.00_15.0_cn_487f8589cd.tgz",
-					"ctelecom": "pearl_images_OS3.0.1.0.VLHCNXM_20260107.0000.00_15.0_cn_chinatelecom_20899bc4e6.tgz"
+					"ctelecom": "pearl_images_OS3.0.1.0.VLHCNXM_20260107.0000.00_15.0_cn_chinatelecom_20899bc4e6.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.215.0.VLHCNXM": {
 					"os": "OS2.0.215.0.VLHCNXM",
@@ -73,7 +76,8 @@
 					"release": "2025-12-11",
 					"recovery": "pearl-ota_full-OS2.0.215.0.VLHCNXM-user-15.0-8246bfc336.zip",
 					"fastboot": "pearl_images_OS2.0.215.0.VLHCNXM_20251126.0000.00_15.0_cn_ee49ed2469.tgz",
-					"ctelecom": "pearl_images_OS2.0.215.0.VLHCNXM_20251126.0000.00_15.0_cn_chinatelecom_c75adf5a21.tgz"
+					"ctelecom": "pearl_images_OS2.0.215.0.VLHCNXM_20251126.0000.00_15.0_cn_chinatelecom_c75adf5a21.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.214.0.VLHCNXM": {
 					"os": "OS2.0.214.0.VLHCNXM",
@@ -81,7 +85,8 @@
 					"release": "2025-11-07",
 					"recovery": "pearl-ota_full-OS2.0.214.0.VLHCNXM-user-15.0-4da6a8bb39.zip",
 					"fastboot": "pearl_images_OS2.0.214.0.VLHCNXM_20251030.0000.00_15.0_cn_4f3a11d261.tgz",
-					"ctelecom": "pearl_images_OS2.0.214.0.VLHCNXM_20251030.0000.00_15.0_cn_chinatelecom_bedc6fa846.tgz"
+					"ctelecom": "pearl_images_OS2.0.214.0.VLHCNXM_20251030.0000.00_15.0_cn_chinatelecom_bedc6fa846.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.213.0.VLHCNXM": {
 					"os": "OS2.0.213.0.VLHCNXM",
@@ -89,7 +94,8 @@
 					"release": "2025-11-06",
 					"recovery": "pearl-ota_full-OS2.0.213.0.VLHCNXM-user-15.0-2da4aa7c95.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.212.0.VLHCNXM": {
 					"os": "OS2.0.212.0.VLHCNXM",
@@ -97,7 +103,8 @@
 					"release": "2025-09-25",
 					"recovery": "pearl-ota_full-OS2.0.212.0.VLHCNXM-user-15.0-04d7821b0f.zip",
 					"fastboot": "pearl_images_OS2.0.212.0.VLHCNXM_20250923.0000.00_15.0_cn_fe312c476a.tgz",
-					"ctelecom": "pearl_images_OS2.0.212.0.VLHCNXM_20250923.0000.00_15.0_cn_chinatelecom_08a36b04e6.tgz"
+					"ctelecom": "pearl_images_OS2.0.212.0.VLHCNXM_20250923.0000.00_15.0_cn_chinatelecom_08a36b04e6.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.210.0.VLHCNXM": {
 					"os": "OS2.0.210.0.VLHCNXM",
@@ -105,7 +112,8 @@
 					"release": "2025-09-16",
 					"recovery": "pearl-ota_full-OS2.0.210.0.VLHCNXM-user-15.0-97de372545.zip",
 					"fastboot": "pearl_images_OS2.0.210.0.VLHCNXM_20250905.0000.00_15.0_cn_12e1c21a6b.tgz",
-					"ctelecom": "pearl_images_OS2.0.210.0.VLHCNXM_20250905.0000.00_15.0_cn_chinatelecom_82341be1ad.tgz"
+					"ctelecom": "pearl_images_OS2.0.210.0.VLHCNXM_20250905.0000.00_15.0_cn_chinatelecom_82341be1ad.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.207.0.VLHCNXM": {
 					"os": "OS2.0.207.0.VLHCNXM",
@@ -113,7 +121,8 @@
 					"release": "2025-08-19",
 					"recovery": "pearl-ota_full-OS2.0.207.0.VLHCNXM-user-15.0-6dc8011b22.zip",
 					"fastboot": "pearl_images_OS2.0.207.0.VLHCNXM_20250811.0000.00_15.0_cn_2059361120.tgz",
-					"ctelecom": "pearl_images_OS2.0.207.0.VLHCNXM_20250811.0000.00_15.0_cn_chinatelecom_c92f95d02c.tgz"
+					"ctelecom": "pearl_images_OS2.0.207.0.VLHCNXM_20250811.0000.00_15.0_cn_chinatelecom_c92f95d02c.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.205.0.VLHCNXM": {
 					"os": "OS2.0.205.0.VLHCNXM",
@@ -121,7 +130,8 @@
 					"release": "2025-07-11",
 					"recovery": "pearl-ota_full-OS2.0.205.0.VLHCNXM-user-15.0-764327793f.zip",
 					"fastboot": "pearl_images_OS2.0.205.0.VLHCNXM_20250703.0000.00_15.0_cn_0b1e96d981.tgz",
-					"ctelecom": "pearl_images_OS2.0.205.0.VLHCNXM_20250703.0000.00_15.0_cn_chinatelecom_567b0a00f3.tgz"
+					"ctelecom": "pearl_images_OS2.0.205.0.VLHCNXM_20250703.0000.00_15.0_cn_chinatelecom_567b0a00f3.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.8.0.VLHCNXM": {
 					"os": "OS2.0.8.0.VLHCNXM",
@@ -129,7 +139,8 @@
 					"release": "2025-06-04",
 					"recovery": "pearl-ota_full-OS2.0.8.0.VLHCNXM-user-15.0-8971f36f12.zip",
 					"fastboot": "pearl_images_OS2.0.8.0.VLHCNXM_20250519.0000.00_15.0_cn_57c5b3c536.tgz",
-					"ctelecom": "pearl_images_OS2.0.8.0.VLHCNXM_20250519.0000.00_15.0_cn_chinatelecom_7fde6a17de.tgz"
+					"ctelecom": "pearl_images_OS2.0.8.0.VLHCNXM_20250519.0000.00_15.0_cn_chinatelecom_7fde6a17de.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.7.0.VLHCNXM": {
 					"os": "OS2.0.7.0.VLHCNXM",
@@ -137,7 +148,8 @@
 					"release": "2025-04-25",
 					"recovery": "pearl-ota_full-OS2.0.7.0.VLHCNXM-user-15.0-4c3814976c.zip",
 					"fastboot": "pearl_images_OS2.0.7.0.VLHCNXM_20250415.0000.00_15.0_cn_ec8470f7b6.tgz",
-					"ctelecom": "pearl_images_OS2.0.7.0.VLHCNXM_20250415.0000.00_15.0_cn_chinatelecom_bc6b7df07e.tgz"
+					"ctelecom": "pearl_images_OS2.0.7.0.VLHCNXM_20250415.0000.00_15.0_cn_chinatelecom_bc6b7df07e.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.4.0.VLHCNXM": {
 					"os": "OS2.0.4.0.VLHCNXM",
@@ -145,7 +157,8 @@
 					"release": "2025-03-28",
 					"recovery": "pearl-ota_full-OS2.0.4.0.VLHCNXM-user-15.0-dd6f0867f5.zip",
 					"fastboot": "pearl_images_OS2.0.4.0.VLHCNXM_20250324.0000.00_15.0_cn_40960491d4.tgz",
-					"ctelecom": "pearl_images_OS2.0.4.0.VLHCNXM_20250324.0000.00_15.0_cn_chinatelecom_5996039cb9.tgz"
+					"ctelecom": "pearl_images_OS2.0.4.0.VLHCNXM_20250324.0000.00_15.0_cn_chinatelecom_5996039cb9.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.1.0.VLHCNXM": {
 					"os": "OS2.0.1.0.VLHCNXM",
@@ -153,7 +166,8 @@
 					"release": "2025-02-19",
 					"recovery": "pearl-ota_full-OS2.0.1.0.VLHCNXM-user-15.0-de8d1cdd43.zip",
 					"fastboot": "pearl_images_OS2.0.1.0.VLHCNXM_20250124.0000.00_15.0_cn_f0a62df92d.tgz",
-					"ctelecom": "pearl_images_OS2.0.1.0.VLHCNXM_20250124.0000.00_15.0_cn_chinatelecom_4402a085c7.tgz"
+					"ctelecom": "pearl_images_OS2.0.1.0.VLHCNXM_20250124.0000.00_15.0_cn_chinatelecom_4402a085c7.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.11.0.ULHCNXM": {
 					"os": "OS1.0.11.0.ULHCNXM",
@@ -161,7 +175,8 @@
 					"release": "2025-02-10",
 					"recovery": "miui_PEARL_OS1.0.11.0.ULHCNXM_3feb554a55_14.0.zip",
 					"fastboot": "pearl_images_OS1.0.11.0.ULHCNXM_20250120.0000.00_14.0_cn_60facd677e.tgz",
-					"ctelecom": "pearl_images_OS1.0.11.0.ULHCNXM_20250120.0000.00_14.0_cn_chinatelecom_a3152ac0fc.tgz"
+					"ctelecom": "pearl_images_OS1.0.11.0.ULHCNXM_20250120.0000.00_14.0_cn_chinatelecom_a3152ac0fc.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.ULHCNXM": {
 					"os": "OS1.0.10.0.ULHCNXM",
@@ -169,7 +184,8 @@
 					"release": "2025-01-14",
 					"recovery": "miui_PEARL_OS1.0.10.0.ULHCNXM_04be0ee411_14.0.zip",
 					"fastboot": "pearl_images_OS1.0.10.0.ULHCNXM_20250107.0000.00_14.0_cn_29b453a276.tgz",
-					"ctelecom": "pearl_images_OS1.0.10.0.ULHCNXM_20250107.0000.00_14.0_cn_chinatelecom_a4e7b33693.tgz"
+					"ctelecom": "pearl_images_OS1.0.10.0.ULHCNXM_20250107.0000.00_14.0_cn_chinatelecom_a4e7b33693.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.ULHCNXM": {
 					"os": "OS1.0.8.0.ULHCNXM",
@@ -177,7 +193,8 @@
 					"release": "2024-12-06",
 					"recovery": "miui_PEARL_OS1.0.8.0.ULHCNXM_4f6532b7e8_14.0.zip",
 					"fastboot": "pearl_images_OS1.0.8.0.ULHCNXM_20241127.0000.00_14.0_cn_16683375af.tgz",
-					"ctelecom": "pearl_images_OS1.0.8.0.ULHCNXM_20241127.0000.00_14.0_cn_chinatelecom_d5f651ab2a.tgz"
+					"ctelecom": "pearl_images_OS1.0.8.0.ULHCNXM_20241127.0000.00_14.0_cn_chinatelecom_d5f651ab2a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.ULHCNXM": {
 					"os": "OS1.0.6.0.ULHCNXM",
@@ -185,7 +202,8 @@
 					"release": "2024-10-28",
 					"recovery": "miui_PEARL_OS1.0.6.0.ULHCNXM_21fa036d40_14.0.zip",
 					"fastboot": "pearl_images_OS1.0.6.0.ULHCNXM_20241021.0000.00_14.0_cn_c1f8c2f380.tgz",
-					"ctelecom": "pearl_images_OS1.0.6.0.ULHCNXM_20241021.0000.00_14.0_cn_chinatelecom_1cbc1101e3.tgz"
+					"ctelecom": "pearl_images_OS1.0.6.0.ULHCNXM_20241021.0000.00_14.0_cn_chinatelecom_1cbc1101e3.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.ULHCNXM": {
 					"os": "OS1.0.5.0.ULHCNXM",
@@ -193,7 +211,8 @@
 					"release": "2024-10-09",
 					"recovery": "miui_PEARL_OS1.0.5.0.ULHCNXM_43b5bc657b_14.0.zip",
 					"fastboot": "pearl_images_OS1.0.5.0.ULHCNXM_20240926.0000.00_14.0_cn_98922aba99.tgz",
-					"ctelecom": "pearl_images_OS1.0.5.0.ULHCNXM_20240926.0000.00_14.0_cn_chinatelecom_fdb241bc48.tgz"
+					"ctelecom": "pearl_images_OS1.0.5.0.ULHCNXM_20240926.0000.00_14.0_cn_chinatelecom_fdb241bc48.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.ULHCNXM": {
 					"os": "OS1.0.4.0.ULHCNXM",
@@ -201,7 +220,8 @@
 					"release": "2024-09-06",
 					"recovery": "miui_PEARL_OS1.0.4.0.ULHCNXM_7516430224_14.0.zip",
 					"fastboot": "pearl_images_OS1.0.4.0.ULHCNXM_20240826.0000.00_14.0_cn_5c557aa0bd.tgz",
-					"ctelecom": "pearl_images_OS1.0.4.0.ULHCNXM_20240826.0000.00_14.0_cn_chinatelecom_69a3ae484d.tgz"
+					"ctelecom": "pearl_images_OS1.0.4.0.ULHCNXM_20240826.0000.00_14.0_cn_chinatelecom_69a3ae484d.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.ULHCNXM": {
 					"os": "OS1.0.3.0.ULHCNXM",
@@ -209,7 +229,8 @@
 					"release": "2024-07-26",
 					"recovery": "miui_PEARL_OS1.0.3.0.ULHCNXM_cf6066ca4c_14.0.zip",
 					"fastboot": "pearl_images_OS1.0.3.0.ULHCNXM_20240718.0000.00_14.0_cn_36cb0e37fd.tgz",
-					"ctelecom": "pearl_images_OS1.0.3.0.ULHCNXM_20240718.0000.00_14.0_cn_chinatelecom_e782e8c321.tgz"
+					"ctelecom": "pearl_images_OS1.0.3.0.ULHCNXM_20240718.0000.00_14.0_cn_chinatelecom_e782e8c321.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.ULHCNXM": {
 					"os": "OS1.0.2.0.ULHCNXM",
@@ -217,7 +238,8 @@
 					"release": "2024-05-13",
 					"recovery": "miui_PEARL_OS1.0.2.0.ULHCNXM_9d364d8f8f_14.0.zip",
 					"fastboot": "pearl_images_OS1.0.2.0.ULHCNXM_20240508.0000.00_14.0_cn_bb464be158.tgz",
-					"ctelecom": "pearl_images_OS1.0.2.0.ULHCNXM_20240508.0000.00_14.0_cn_chinatelecom_72485e1a76.tgz"
+					"ctelecom": "pearl_images_OS1.0.2.0.ULHCNXM_20240508.0000.00_14.0_cn_chinatelecom_72485e1a76.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.1.0.ULHCNXM": {
 					"os": "OS1.0.1.0.ULHCNXM",
@@ -225,7 +247,8 @@
 					"release": "2024-04-09",
 					"recovery": "miui_PEARL_OS1.0.1.0.ULHCNXM_bbacc31521_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-03-01"
 				}
 			}
 		}

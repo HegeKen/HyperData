@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -56,7 +57,8 @@
 					"release": "2026-06-05",
 					"recovery": "air-ota_full-OS2.0.209.0.VGQCNXM-user-15.0-fc3ec2da64.zip",
 					"fastboot": "air_images_OS2.0.209.0.VGQCNXM_20260526.0000.00_15.0_cn_c8f87acc05.tgz",
-					"ctelecom": "air_images_OS2.0.209.0.VGQCNXM_20260526.0000.00_15.0_cn_chinatelecom_3936ddefda.tgz"
+					"ctelecom": "air_images_OS2.0.209.0.VGQCNXM_20260526.0000.00_15.0_cn_chinatelecom_3936ddefda.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.208.0.VGQCNXM": {
 					"os": "OS2.0.208.0.VGQCNXM",
@@ -64,7 +66,8 @@
 					"release": "2026-03-23",
 					"recovery": "air-ota_full-OS2.0.208.0.VGQCNXM-user-15.0-bc40b6836d.zip",
 					"fastboot": "air_images_OS2.0.208.0.VGQCNXM_20260313.0000.00_15.0_cn_b70ef7088e.tgz",
-					"ctelecom": "air_images_OS2.0.208.0.VGQCNXM_20260313.0000.00_15.0_cn_chinatelecom_14cba9d4c4.tgz"
+					"ctelecom": "air_images_OS2.0.208.0.VGQCNXM_20260313.0000.00_15.0_cn_chinatelecom_14cba9d4c4.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.207.0.VGQCNXM": {
 					"os": "OS2.0.207.0.VGQCNXM",
@@ -72,7 +75,8 @@
 					"release": "2026-01-23",
 					"recovery": "air-ota_full-OS2.0.207.0.VGQCNXM-user-15.0-4b3ac4159f.zip",
 					"fastboot": "air_images_OS2.0.207.0.VGQCNXM_20260115.0000.00_15.0_cn_7e2f0d75a5.tgz",
-					"ctelecom": "air_images_OS2.0.207.0.VGQCNXM_20260115.0000.00_15.0_cn_chinatelecom_50e05b3f0b.tgz"
+					"ctelecom": "air_images_OS2.0.207.0.VGQCNXM_20260115.0000.00_15.0_cn_chinatelecom_50e05b3f0b.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.205.0.VGQCNXM": {
 					"os": "OS2.0.205.0.VGQCNXM",
@@ -80,7 +84,8 @@
 					"release": "2025-11-27",
 					"recovery": "air-ota_full-OS2.0.205.0.VGQCNXM-user-15.0-a127e559c4.zip",
 					"fastboot": "air_images_OS2.0.205.0.VGQCNXM_20251119.0000.00_15.0_cn_f693b30b20.tgz",
-					"ctelecom": "air_images_OS2.0.205.0.VGQCNXM_20251119.0000.00_15.0_cn_chinatelecom_a7f4de519d.tgz"
+					"ctelecom": "air_images_OS2.0.205.0.VGQCNXM_20251119.0000.00_15.0_cn_chinatelecom_a7f4de519d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VGQCNXM": {
 					"os": "OS2.0.204.0.VGQCNXM",
@@ -88,7 +93,8 @@
 					"release": "2025-09-25",
 					"recovery": "air-ota_full-OS2.0.204.0.VGQCNXM-user-15.0-3224634f34.zip",
 					"fastboot": "air_images_OS2.0.204.0.VGQCNXM_20250917.0000.00_15.0_cn_8cc6b20415.tgz",
-					"ctelecom": "air_images_OS2.0.204.0.VGQCNXM_20250917.0000.00_15.0_cn_chinatelecom_5136438081.tgz"
+					"ctelecom": "air_images_OS2.0.204.0.VGQCNXM_20250917.0000.00_15.0_cn_chinatelecom_5136438081.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.201.0.VGQCNXM": {
 					"os": "OS2.0.201.0.VGQCNXM",
@@ -96,7 +102,8 @@
 					"release": "2025-07-14",
 					"recovery": "air-ota_full-OS2.0.201.0.VGQCNXM-user-15.0-b8e12e6082.zip",
 					"fastboot": "air_images_OS2.0.201.0.VGQCNXM_20250704.0000.00_15.0_cn_e274df67e6.tgz",
-					"ctelecom": "air_images_OS2.0.201.0.VGQCNXM_20250704.0000.00_15.0_cn_chinatelecom_bb9221dd78.tgz"
+					"ctelecom": "air_images_OS2.0.201.0.VGQCNXM_20250704.0000.00_15.0_cn_chinatelecom_bb9221dd78.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.2.0.VGQCNXM": {
 					"os": "OS2.0.2.0.VGQCNXM",
@@ -104,7 +111,8 @@
 					"release": "2025-04-23",
 					"recovery": "air-ota_full-OS2.0.2.0.VGQCNXM-user-15.0-93d776ddda.zip",
 					"fastboot": "air_images_OS2.0.2.0.VGQCNXM_20250415.0000.00_15.0_cn_94f2b7a4ce.tgz",
-					"ctelecom": "air_images_OS2.0.2.0.VGQCNXM_20250415.0000.00_15.0_cn_chinatelecom_25338078d5.tgz"
+					"ctelecom": "air_images_OS2.0.2.0.VGQCNXM_20250415.0000.00_15.0_cn_chinatelecom_25338078d5.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.VGQCNXM": {
 					"os": "OS2.0.1.0.VGQCNXM",
@@ -112,7 +120,8 @@
 					"release": "2025-01-14",
 					"recovery": "air-ota_full-OS2.0.1.0.VGQCNXM-user-15.0-66f3fdc1e0.zip",
 					"fastboot": "air_images_OS2.0.1.0.VGQCNXM_20241226.0000.00_15.0_cn_15ff7003f0.tgz",
-					"ctelecom": "air_images_OS2.0.1.0.VGQCNXM_20241226.0000.00_15.0_cn_chinatelecom_9f57f337af.tgz"
+					"ctelecom": "air_images_OS2.0.1.0.VGQCNXM_20241226.0000.00_15.0_cn_chinatelecom_9f57f337af.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.2.0.UGQCNXM": {
 					"os": "OS1.0.2.0.UGQCNXM",
@@ -120,7 +129,8 @@
 					"release": "2024-09-06",
 					"recovery": "miui_AIR_OS1.0.2.0.UGQCNXM_8dd01b5895_14.0.zip",
 					"fastboot": "air_images_OS1.0.2.0.UGQCNXM_20240830.0000.00_14.0_cn_a0f94ddc6e.tgz",
-					"ctelecom": "air_images_OS1.0.2.0.UGQCNXM_20240830.0000.00_14.0_cn_chinatelecom_ba70997283.tgz"
+					"ctelecom": "air_images_OS1.0.2.0.UGQCNXM_20240830.0000.00_14.0_cn_chinatelecom_ba70997283.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.1.0.UGQCNXM": {
 					"os": "OS1.0.1.0.UGQCNXM",
@@ -128,7 +138,8 @@
 					"release": "2024-05-17",
 					"recovery": "miui_AIR_OS1.0.1.0.UGQCNXM_6771b8fffc_14.0.zip",
 					"fastboot": "air_images_OS1.0.1.0.UGQCNXM_20240510.0000.00_14.0_cn_71a2eed736.tgz",
-					"ctelecom": "air_images_OS1.0.1.0.UGQCNXM_20240510.0000.00_14.0_cn_chinatelecom_7167095577.tgz"
+					"ctelecom": "air_images_OS1.0.1.0.UGQCNXM_20240510.0000.00_14.0_cn_chinatelecom_7167095577.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -150,6 +161,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -171,7 +183,8 @@
 					"release": "2024-10-28",
 					"recovery": "miui_AIREPSTDEE_OS1.0.24.9.27.EP.STDEE.C3V_194db54f27_14.0.zip",
 					"fastboot": "air_ep_stdee_images_OS1.0.24.9.27.EP.STDEE.C3V_20240927.0000.00_14.0_cn_10578d7395.tgz",
-					"ctelecom": "air_ep_stdee_images_OS1.0.24.9.27.EP.STDEE.C3V_20240927.0000.00_14.0_cn_chinatelecom_dfc1760ff5.tgz"
+					"ctelecom": "air_ep_stdee_images_OS1.0.24.9.27.EP.STDEE.C3V_20240927.0000.00_14.0_cn_chinatelecom_dfc1760ff5.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.24.7.25.EP.STDEE.C3V": {
 					"os": "OS1.0.24.7.25.EP.STDEE.C3V",
@@ -179,7 +192,8 @@
 					"release": "2024-07-30",
 					"recovery": "miui_AIREPSTDEE_OS1.0.24.7.25.EP.STDEE.C3V_b1f91fd59a_14.0.zip",
 					"fastboot": "air_ep_stdee_images_OS1.0.24.7.25.EP.STDEE.C3V_20240725.0000.00_14.0_cn_c354a2002a.tgz",
-					"ctelecom": "air_ep_stdee_images_OS1.0.24.7.25.EP.STDEE.C3V_20240725.0000.00_14.0_cn_chinatelecom_7b8ed68ae1.tgz"
+					"ctelecom": "air_ep_stdee_images_OS1.0.24.7.25.EP.STDEE.C3V_20240725.0000.00_14.0_cn_chinatelecom_7b8ed68ae1.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.6.11.EP.STDEE.C3V": {
 					"os": "OS1.0.24.6.11.EP.STDEE.C3V",
@@ -187,7 +201,8 @@
 					"release": "2024-06-18",
 					"recovery": "miui_AIREPSTDEE_OS1.0.24.6.11.EP.STDEE.C3V_b6ad49d527_14.0.zip",
 					"fastboot": "air_ep_stdee_images_OS1.0.24.6.11.EP.STDEE.C3V_20240611.0000.00_14.0_cn_43a95fe8f3.tgz",
-					"ctelecom": "air_ep_stdee_images_OS1.0.24.6.11.EP.STDEE.C3V_20240611.0000.00_14.0_cn_chinatelecom_e21278d0d8.tgz"
+					"ctelecom": "air_ep_stdee_images_OS1.0.24.6.11.EP.STDEE.C3V_20240611.0000.00_14.0_cn_chinatelecom_e21278d0d8.tgz",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -209,6 +224,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -225,42 +241,48 @@
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "air_tw_global-ota_full-OS2.0.203.0.VGQTWXM-user-15.0-915fe255dc.zip",
-					"fastboot": "air_tw_global_images_OS2.0.203.0.VGQTWXM_20260128.0000.00_15.0_tw_ad4b07fcfe.tgz"
+					"fastboot": "air_tw_global_images_OS2.0.203.0.VGQTWXM_20260128.0000.00_15.0_tw_ad4b07fcfe.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.202.0.VGQTWXM": {
 					"os": "OS2.0.202.0.VGQTWXM",
 					"android": "15.0",
 					"release": "2025-11-13",
 					"recovery": "air_tw_global-ota_full-OS2.0.202.0.VGQTWXM-user-15.0-ce53b80469.zip",
-					"fastboot": "air_tw_global_images_OS2.0.202.0.VGQTWXM_20251027.0000.00_15.0_tw_696e86c3e6.tgz"
+					"fastboot": "air_tw_global_images_OS2.0.202.0.VGQTWXM_20251027.0000.00_15.0_tw_696e86c3e6.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VGQTWXM": {
 					"os": "OS2.0.201.0.VGQTWXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "air_tw_global-ota_full-OS2.0.201.0.VGQTWXM-user-15.0-92ce88a1ed.zip",
-					"fastboot": "air_tw_global_images_OS2.0.201.0.VGQTWXM_20250822.0000.00_15.0_tw_a1e4d8086e.tgz"
+					"fastboot": "air_tw_global_images_OS2.0.201.0.VGQTWXM_20250822.0000.00_15.0_tw_a1e4d8086e.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.2.0.VGQTWXM": {
 					"os": "OS2.0.2.0.VGQTWXM",
 					"android": "15.0",
 					"release": "2025-06-13",
 					"recovery": "air_tw_global-ota_full-OS2.0.2.0.VGQTWXM-user-15.0-eaf08568df.zip",
-					"fastboot": "air_tw_global_images_OS2.0.2.0.VGQTWXM_20250528.0000.00_15.0_tw_1cd22a4623.tgz"
+					"fastboot": "air_tw_global_images_OS2.0.2.0.VGQTWXM_20250528.0000.00_15.0_tw_1cd22a4623.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VGQTWXM": {
 					"os": "OS2.0.1.0.VGQTWXM",
 					"android": "15.0",
 					"release": "2025-03-18",
 					"recovery": "air_tw_global-ota_full-OS2.0.1.0.VGQTWXM-user-15.0-71f34d67ad.zip",
-					"fastboot": "air_tw_global_images_OS2.0.1.0.VGQTWXM_20250227.0000.00_15.0_tw_b22fa9ea0a.tgz"
+					"fastboot": "air_tw_global_images_OS2.0.1.0.VGQTWXM_20250227.0000.00_15.0_tw_b22fa9ea0a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.2.0.UGQTWXM": {
 					"os": "OS1.0.2.0.UGQTWXM",
 					"android": "14.0",
 					"release": "2024-08-16",
 					"recovery": "miui_AIRTWGlobal_OS1.0.2.0.UGQTWXM_c89f345ac6_14.0.zip",
-					"fastboot": "air_tw_global_images_OS1.0.2.0.UGQTWXM_20240808.0000.00_14.0_tw_2c2a2f84ce.tgz"
+					"fastboot": "air_tw_global_images_OS1.0.2.0.UGQTWXM_20240808.0000.00_14.0_tw_2c2a2f84ce.tgz",
+					"aspatch": "2024-08-01"
 				}
 			}
 		},
@@ -282,6 +304,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -298,91 +321,104 @@
 					"android": "15.0",
 					"release": "2026-05-29",
 					"recovery": "air_global-ota_full-OS2.0.207.0.VGQMIXM-user-15.0-9b31d6a8aa.zip",
-					"fastboot": "air_global_images_OS2.0.207.0.VGQMIXM_20260520.0000.00_15.0_global_5b3340d7d4.tgz"
+					"fastboot": "air_global_images_OS2.0.207.0.VGQMIXM_20260520.0000.00_15.0_global_5b3340d7d4.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.206.0.VGQMIXM": {
 					"os": "OS2.0.206.0.VGQMIXM",
 					"android": "15.0",
 					"release": "2026-04-07",
 					"recovery": "air_global-ota_full-OS2.0.206.0.VGQMIXM-user-15.0-681c731b34.zip",
-					"fastboot": "air_global_images_OS2.0.206.0.VGQMIXM_20260315.0000.00_15.0_global_54558141c1.tgz"
+					"fastboot": "air_global_images_OS2.0.206.0.VGQMIXM_20260315.0000.00_15.0_global_54558141c1.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.205.0.VGQMIXM": {
 					"os": "OS2.0.205.0.VGQMIXM",
 					"android": "15.0",
 					"release": "2026-01-23",
 					"recovery": "air_global-ota_full-OS2.0.205.0.VGQMIXM-user-15.0-d9afa95575.zip",
-					"fastboot": "air_global_images_OS2.0.205.0.VGQMIXM_20260112.0000.00_15.0_global_25e8c7fb1b.tgz"
+					"fastboot": "air_global_images_OS2.0.205.0.VGQMIXM_20260112.0000.00_15.0_global_25e8c7fb1b.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.203.0.VGQMIXM": {
 					"os": "OS2.0.203.0.VGQMIXM",
 					"android": "15.0",
 					"release": "2025-11-10",
 					"recovery": "air_global-ota_full-OS2.0.203.0.VGQMIXM-user-15.0-5aef06643b.zip",
-					"fastboot": "air_global_images_OS2.0.203.0.VGQMIXM_20251027.0000.00_15.0_global_536bbbe12b.tgz"
+					"fastboot": "air_global_images_OS2.0.203.0.VGQMIXM_20251027.0000.00_15.0_global_536bbbe12b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VGQMIXM": {
 					"os": "OS2.0.202.0.VGQMIXM",
 					"android": "15.0",
 					"release": "2025-09-18",
 					"recovery": "air_global-ota_full-OS2.0.202.0.VGQMIXM-user-15.0-146d53e026.zip",
-					"fastboot": "air_global_images_OS2.0.202.0.VGQMIXM_20250829.0000.00_15.0_global_fe8233de34.tgz"
+					"fastboot": "air_global_images_OS2.0.202.0.VGQMIXM_20250829.0000.00_15.0_global_fe8233de34.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VGQMIXM": {
 					"os": "OS2.0.201.0.VGQMIXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "air_global-ota_full-OS2.0.201.0.VGQMIXM-user-15.0-ba2baa3c87.zip",
-					"fastboot": "air_global_images_OS2.0.201.0.VGQMIXM_20250715.0000.00_15.0_global_b2a4037b80.tgz"
+					"fastboot": "air_global_images_OS2.0.201.0.VGQMIXM_20250715.0000.00_15.0_global_b2a4037b80.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.3.0.VGQMIXM": {
 					"os": "OS2.0.3.0.VGQMIXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "air_global-ota_full-OS2.0.3.0.VGQMIXM-user-15.0-b463d0c546.zip",
-					"fastboot": "air_global_images_OS2.0.3.0.VGQMIXM_20250618.0000.00_15.0_global_c4193e7565.tgz"
+					"fastboot": "air_global_images_OS2.0.3.0.VGQMIXM_20250618.0000.00_15.0_global_c4193e7565.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.2.0.VGQMIXM": {
 					"os": "OS2.0.2.0.VGQMIXM",
 					"android": "15.0",
 					"release": "2025-05-04",
 					"recovery": "air_global-ota_full-OS2.0.2.0.VGQMIXM-user-15.0-3b2261ebb1.zip",
-					"fastboot": "air_global_images_OS2.0.2.0.VGQMIXM_20250425.0000.00_15.0_global_0d314b8a97.tgz"
+					"fastboot": "air_global_images_OS2.0.2.0.VGQMIXM_20250425.0000.00_15.0_global_0d314b8a97.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VGQMIXM": {
 					"os": "OS2.0.1.0.VGQMIXM",
 					"android": "15.0",
 					"release": "2025-02-10",
 					"recovery": "air_global-ota_full-OS2.0.1.0.VGQMIXM-user-15.0-33214877f3.zip",
-					"fastboot": "air_global_images_OS2.0.1.0.VGQMIXM_20250122.0000.00_15.0_global_0718eb3803.tgz"
+					"fastboot": "air_global_images_OS2.0.1.0.VGQMIXM_20250122.0000.00_15.0_global_0718eb3803.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.5.0.UGQMIXM": {
 					"os": "OS1.0.5.0.UGQMIXM",
 					"android": "14.0",
 					"release": "2025-03-22",
 					"recovery": "miui_AIRGlobal_OS1.0.5.0.UGQMIXM_550a3e1d14_14.0.zip",
-					"fastboot": "air_global_images_OS1.0.5.0.UGQMIXM_20250306.0000.00_14.0_global_3c3a49f24f.tgz"
+					"fastboot": "air_global_images_OS1.0.5.0.UGQMIXM_20250306.0000.00_14.0_global_3c3a49f24f.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.4.0.UGQMIXM": {
 					"os": "OS1.0.4.0.UGQMIXM",
 					"android": "14.0",
 					"release": "2024-12-14",
 					"recovery": "miui_AIRGlobal_OS1.0.4.0.UGQMIXM_1883599413_14.0.zip",
-					"fastboot": "air_global_images_OS1.0.4.0.UGQMIXM_20241127.0000.00_14.0_global_b15e796a69.tgz"
+					"fastboot": "air_global_images_OS1.0.4.0.UGQMIXM_20241127.0000.00_14.0_global_b15e796a69.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UGQMIXM": {
 					"os": "OS1.0.3.0.UGQMIXM",
 					"android": "14.0",
 					"release": "2024-09-16",
 					"recovery": "miui_AIRGlobal_OS1.0.3.0.UGQMIXM_d69b759c5c_14.0.zip",
-					"fastboot": "air_global_images_OS1.0.3.0.UGQMIXM_20240905.0000.00_14.0_global_39cb7f27fd.tgz"
+					"fastboot": "air_global_images_OS1.0.3.0.UGQMIXM_20240905.0000.00_14.0_global_39cb7f27fd.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UGQMIXM": {
 					"os": "OS1.0.2.0.UGQMIXM",
 					"android": "14.0",
 					"release": "2024-06-21",
 					"recovery": "miui_AIRGlobal_OS1.0.2.0.UGQMIXM_3a209a95cf_14.0.zip",
-					"fastboot": "air_global_images_OS1.0.2.0.UGQMIXM_20240618.0000.00_14.0_global_7442a593c4.tgz"
+					"fastboot": "air_global_images_OS1.0.2.0.UGQMIXM_20240618.0000.00_14.0_global_7442a593c4.tgz",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -404,6 +440,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -420,77 +457,88 @@
 					"android": "15.0",
 					"release": "2026-05-22",
 					"recovery": "air_dc_global-ota_full-OS2.0.206.0.VGQMIDC-user-15.0-e4340dbe45.zip",
-					"fastboot": "air_dc_global_images_OS2.0.206.0.VGQMIDC_20260515.0000.00_15.0_global_dc_106e700437.tgz"
+					"fastboot": "air_dc_global_images_OS2.0.206.0.VGQMIDC_20260515.0000.00_15.0_global_dc_106e700437.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.205.0.VGQMIDC": {
 					"os": "OS2.0.205.0.VGQMIDC",
 					"android": "15.0",
 					"release": "2026-03-31",
 					"recovery": "air_dc_global-ota_full-OS2.0.205.0.VGQMIDC-user-15.0-a63737819c.zip",
-					"fastboot": "air_dc_global_images_OS2.0.205.0.VGQMIDC_20260315.0000.00_15.0_global_dc_2247a9de93.tgz"
+					"fastboot": "air_dc_global_images_OS2.0.205.0.VGQMIDC_20260315.0000.00_15.0_global_dc_2247a9de93.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.204.0.VGQMIDC": {
 					"os": "OS2.0.204.0.VGQMIDC",
 					"android": "15.0",
 					"release": "2026-01-19",
 					"recovery": "air_dc_global-ota_full-OS2.0.204.0.VGQMIDC-user-15.0-39f530c556.zip",
-					"fastboot": "air_dc_global_images_OS2.0.204.0.VGQMIDC_20260112.0000.00_15.0_global_dc_4c24c1bbe8.tgz"
+					"fastboot": "air_dc_global_images_OS2.0.204.0.VGQMIDC_20260112.0000.00_15.0_global_dc_4c24c1bbe8.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.202.0.VGQMIDC": {
 					"os": "OS2.0.202.0.VGQMIDC",
 					"android": "15.0",
 					"release": "2025-11-11",
 					"recovery": "air_dc_global-ota_full-OS2.0.202.0.VGQMIDC-user-15.0-fc2985494d.zip",
-					"fastboot": "air_dc_global_images_OS2.0.202.0.VGQMIDC_20251027.0000.00_15.0_global_dc_22dbcd98a8.tgz"
+					"fastboot": "air_dc_global_images_OS2.0.202.0.VGQMIDC_20251027.0000.00_15.0_global_dc_22dbcd98a8.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VGQMIDC": {
 					"os": "OS2.0.201.0.VGQMIDC",
 					"android": "15.0",
 					"release": "2025-08-29",
 					"recovery": "air_dc_global-ota_full-OS2.0.201.0.VGQMIDC-user-15.0-1a7b7b0a4f.zip",
-					"fastboot": "air_dc_global_images_OS2.0.201.0.VGQMIDC_20250822.0000.00_15.0_global_dc_6c3dcb154a.tgz"
+					"fastboot": "air_dc_global_images_OS2.0.201.0.VGQMIDC_20250822.0000.00_15.0_global_dc_6c3dcb154a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.2.0.VGQMIDC": {
 					"os": "OS2.0.2.0.VGQMIDC",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "air_dc_global-ota_full-OS2.0.2.0.VGQMIDC-user-15.0-c6cf2594b1.zip",
-					"fastboot": "air_dc_global_images_OS2.0.2.0.VGQMIDC_20250508.0000.00_15.0_global_dc_5197cdd2b1.tgz"
+					"fastboot": "air_dc_global_images_OS2.0.2.0.VGQMIDC_20250508.0000.00_15.0_global_dc_5197cdd2b1.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VGQMIDC": {
 					"os": "OS2.0.1.0.VGQMIDC",
 					"android": "15.0",
 					"release": "2025-04-16",
 					"recovery": "air_dc_global-ota_full-OS2.0.1.0.VGQMIDC-user-15.0-692db1cf09.zip",
-					"fastboot": "air_dc_global_images_OS2.0.1.0.VGQMIDC_20250318.0000.00_15.0_global_dc_05d9070f0c.tgz"
+					"fastboot": "air_dc_global_images_OS2.0.1.0.VGQMIDC_20250318.0000.00_15.0_global_dc_05d9070f0c.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.4.0.UGQMIDC": {
 					"os": "OS1.0.4.0.UGQMIDC",
 					"android": "14.0",
 					"release": "2025-03-20",
 					"recovery": "miui_AIRDCGlobal_OS1.0.4.0.UGQMIDC_af387f1dd9_14.0.zip",
-					"fastboot": "air_dc_global_images_OS1.0.4.0.UGQMIDC_20250226.0000.00_14.0_global_dc_f92a233cc5.tgz"
+					"fastboot": "air_dc_global_images_OS1.0.4.0.UGQMIDC_20250226.0000.00_14.0_global_dc_f92a233cc5.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.3.0.UGQMIDC": {
 					"os": "OS1.0.3.0.UGQMIDC",
 					"android": "14.0",
 					"release": "2025-02-10",
 					"recovery": "miui_AIRDCGlobal_OS1.0.3.0.UGQMIDC_aeb1d0a75a_14.0.zip",
-					"fastboot": "air_dc_global_images_OS1.0.3.0.UGQMIDC_20241211.0000.00_14.0_global_dc_f848ca2801.tgz"
+					"fastboot": "air_dc_global_images_OS1.0.3.0.UGQMIDC_20241211.0000.00_14.0_global_dc_f848ca2801.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.2.0.UGQMIDC": {
 					"os": "OS1.0.2.0.UGQMIDC",
 					"android": "14.0",
 					"release": "2024-12-25",
 					"recovery": "miui_AIRDCGlobal_OS1.0.2.0.UGQMIDC_623eb984c4_14.0.zip",
-					"fastboot": "air_dc_global_images_OS1.0.2.0.UGQMIDC_20241021.0000.00_14.0_global_dc_b74eeddbd3.tgz"
+					"fastboot": "air_dc_global_images_OS1.0.2.0.UGQMIDC_20241021.0000.00_14.0_global_dc_b74eeddbd3.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.1.0.UGQMIDC": {
 					"os": "OS1.0.1.0.UGQMIDC",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_AIRDCGlobal_OS1.0.1.0.UGQMIDC_89bac66f37_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-08-01"
 				}
 			}
 		},
@@ -512,6 +560,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -528,126 +577,144 @@
 					"android": "15.0",
 					"release": "2026-04-27",
 					"recovery": "air_eea_global-ota_full-OS2.0.210.0.VGQEUXM-user-15.0-8e50ec0a18.zip",
-					"fastboot": "air_eea_global_images_OS2.0.210.0.VGQEUXM_20260417.0000.00_15.0_eea_1ff9686387.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.210.0.VGQEUXM_20260417.0000.00_15.0_eea_1ff9686387.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.209.0.VGQEUXM": {
 					"os": "OS2.0.209.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "air_eea_global-ota_full-OS2.0.209.0.VGQEUXM-user-15.0-ec756a7a03.zip",
-					"fastboot": "air_eea_global_images_OS2.0.209.0.VGQEUXM_20260128.0000.00_15.0_eea_30aff3bef9.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.209.0.VGQEUXM_20260128.0000.00_15.0_eea_30aff3bef9.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.208.0.VGQEUXM": {
 					"os": "OS2.0.208.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "air_eea_global-ota_full-OS2.0.208.0.VGQEUXM-user-15.0-98af9af6b6.zip",
-					"fastboot": "air_eea_global_images_OS2.0.208.0.VGQEUXM_20251230.0000.00_15.0_eea_0fcf6581c6.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.208.0.VGQEUXM_20251230.0000.00_15.0_eea_0fcf6581c6.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.207.0.VGQEUXM": {
 					"os": "OS2.0.207.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2026-01-03",
 					"recovery": "air_eea_global-ota_full-OS2.0.207.0.VGQEUXM-user-15.0-d19383db38.zip",
-					"fastboot": "air_eea_global_images_OS2.0.207.0.VGQEUXM_20251226.0000.00_15.0_eea_0b28128d24.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.207.0.VGQEUXM_20251226.0000.00_15.0_eea_0b28128d24.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.206.0.VGQEUXM": {
 					"os": "OS2.0.206.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2025-11-16",
 					"recovery": "air_eea_global-ota_full-OS2.0.206.0.VGQEUXM-user-15.0-b7c68d9d1c.zip",
-					"fastboot": "air_eea_global_images_OS2.0.206.0.VGQEUXM_20251106.0000.00_15.0_eea_17444ead31.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.206.0.VGQEUXM_20251106.0000.00_15.0_eea_17444ead31.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VGQEUXM": {
 					"os": "OS2.0.205.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "air_eea_global-ota_full-OS2.0.205.0.VGQEUXM-user-15.0-19ba823095.zip",
-					"fastboot": "air_eea_global_images_OS2.0.205.0.VGQEUXM_20250922.0000.00_15.0_eea_62f8635705.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.205.0.VGQEUXM_20250922.0000.00_15.0_eea_62f8635705.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.204.0.VGQEUXM": {
 					"os": "OS2.0.204.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2025-08-23",
 					"recovery": "air_eea_global-ota_full-OS2.0.204.0.VGQEUXM-user-15.0-e419553267.zip",
-					"fastboot": "air_eea_global_images_OS2.0.204.0.VGQEUXM_20250815.0000.00_15.0_eea_c502f2cab2.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.204.0.VGQEUXM_20250815.0000.00_15.0_eea_c502f2cab2.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VGQEUXM": {
 					"os": "OS2.0.201.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "air_eea_global-ota_full-OS2.0.201.0.VGQEUXM-user-15.0-484c5991e3.zip",
-					"fastboot": "air_eea_global_images_OS2.0.201.0.VGQEUXM_20250606.0000.00_15.0_eea_6599c275ae.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.201.0.VGQEUXM_20250606.0000.00_15.0_eea_6599c275ae.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.5.0.VGQEUXM": {
 					"os": "OS2.0.5.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "air_eea_global-ota_full-OS2.0.5.0.VGQEUXM-user-15.0-a0087c1011.zip",
-					"fastboot": "air_eea_global_images_OS2.0.5.0.VGQEUXM_20250425.0000.00_15.0_eea_3739f7cba8.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.5.0.VGQEUXM_20250425.0000.00_15.0_eea_3739f7cba8.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VGQEUXM": {
 					"os": "OS2.0.3.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2025-04-02",
 					"recovery": "air_eea_global-ota_full-OS2.0.3.0.VGQEUXM-user-15.0-17521f5363.zip",
-					"fastboot": "air_eea_global_images_OS2.0.3.0.VGQEUXM_20250328.0000.00_15.0_eea_9bdae2db5d.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.3.0.VGQEUXM_20250328.0000.00_15.0_eea_9bdae2db5d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.VGQEUXM": {
 					"os": "OS2.0.2.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "air_eea_global-ota_full-OS2.0.2.0.VGQEUXM-user-15.0-389e815895.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.1.0.VGQEUXM": {
 					"os": "OS2.0.1.0.VGQEUXM",
 					"android": "15.0",
 					"release": "2025-03-03",
 					"recovery": "air_eea_global-ota_full-OS2.0.1.0.VGQEUXM-user-15.0-c3ddf54557.zip",
-					"fastboot": "air_eea_global_images_OS2.0.1.0.VGQEUXM_20250219.0000.00_15.0_eea_997093ced6.tgz"
+					"fastboot": "air_eea_global_images_OS2.0.1.0.VGQEUXM_20250219.0000.00_15.0_eea_997093ced6.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UGQEUXM": {
 					"os": "OS1.0.6.0.UGQEUXM",
 					"android": "14.0",
 					"release": "2025-03-13",
 					"recovery": "miui_AIREEAGlobal_OS1.0.6.0.UGQEUXM_ad3c2fcf17_14.0.zip",
-					"fastboot": "air_eea_global_images_OS1.0.6.0.UGQEUXM_20250223.0000.00_14.0_eea_fc651e33c4.tgz"
+					"fastboot": "air_eea_global_images_OS1.0.6.0.UGQEUXM_20250223.0000.00_14.0_eea_fc651e33c4.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.UGQEUXM": {
 					"os": "OS1.0.5.0.UGQEUXM",
 					"android": "14.0",
 					"release": "2024-12-25",
 					"recovery": "miui_AIREEAGlobal_OS1.0.5.0.UGQEUXM_8b15b3bd6d_14.0.zip",
-					"fastboot": "air_eea_global_images_OS1.0.5.0.UGQEUXM_20241211.0000.00_14.0_eea_57581ecdab.tgz"
+					"fastboot": "air_eea_global_images_OS1.0.5.0.UGQEUXM_20241211.0000.00_14.0_eea_57581ecdab.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.4.0.UGQEUXM": {
 					"os": "OS1.0.4.0.UGQEUXM",
 					"android": "14.0",
 					"release": "2024-10-25",
 					"recovery": "miui_AIREEAGlobal_OS1.0.4.0.UGQEUXM_45d6085bdb_14.0.zip",
-					"fastboot": "air_eea_global_images_OS1.0.4.0.UGQEUXM_20241014.0000.00_14.0_eea_b7f94525cc.tgz"
+					"fastboot": "air_eea_global_images_OS1.0.4.0.UGQEUXM_20241014.0000.00_14.0_eea_b7f94525cc.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.3.0.UGQEUXM": {
 					"os": "OS1.0.3.0.UGQEUXM",
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_AIREEAGlobal_OS1.0.3.0.UGQEUXM_6c030a0628_14.0.zip",
-					"fastboot": "air_eea_global_images_OS1.0.3.0.UGQEUXM_20240911.0000.00_14.0_eea_2562317cf3.tgz"
+					"fastboot": "air_eea_global_images_OS1.0.3.0.UGQEUXM_20240911.0000.00_14.0_eea_2562317cf3.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UGQEUXM": {
 					"os": "OS1.0.2.0.UGQEUXM",
 					"android": "14.0",
 					"release": "2024-08-28",
 					"recovery": "miui_AIREEAGlobal_OS1.0.2.0.UGQEUXM_486f7a4a37_14.0.zip",
-					"fastboot": "air_eea_global_images_OS1.0.2.0.UGQEUXM_20240730.0000.00_14.0_eea_caee4724f3.tgz"
+					"fastboot": "air_eea_global_images_OS1.0.2.0.UGQEUXM_20240730.0000.00_14.0_eea_caee4724f3.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.UGQEUXM": {
 					"os": "OS1.0.1.0.UGQEUXM",
 					"android": "14.0",
 					"release": "2024-07-19",
 					"recovery": "miui_AIREEAGlobal_OS1.0.1.0.UGQEUXM_d704cd62c8_14.0.zip",
-					"fastboot": "air_eea_global_images_OS1.0.1.0.UGQEUXM_20240703.0000.00_14.0_eea_70c4128712.tgz"
+					"fastboot": "air_eea_global_images_OS1.0.1.0.UGQEUXM_20240703.0000.00_14.0_eea_70c4128712.tgz",
+					"aspatch": "2024-07-01"
 				}
 			}
 		},
@@ -669,6 +736,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -685,84 +753,96 @@
 					"android": "15.0",
 					"release": "2026-06-03",
 					"recovery": "air_in_global-ota_full-OS2.0.207.0.VGQINXM-user-15.0-eba6e3654a.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.206.0.VGQINXM": {
 					"os": "OS2.0.206.0.VGQINXM",
 					"android": "15.0",
 					"release": "2026-04-07",
 					"recovery": "air_in_global-ota_full-OS2.0.206.0.VGQINXM-user-15.0-557ff95c1d.zip",
-					"fastboot": "air_in_global_images_OS2.0.206.0.VGQINXM_20260315.0000.00_15.0_in_c1a72225c8.tgz"
+					"fastboot": "air_in_global_images_OS2.0.206.0.VGQINXM_20260315.0000.00_15.0_in_c1a72225c8.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.205.0.VGQINXM": {
 					"os": "OS2.0.205.0.VGQINXM",
 					"android": "15.0",
 					"release": "2026-01-26",
 					"recovery": "air_in_global-ota_full-OS2.0.205.0.VGQINXM-user-15.0-efff3354b8.zip",
-					"fastboot": "air_in_global_images_OS2.0.205.0.VGQINXM_20260112.0000.00_15.0_in_6ee3b99d58.tgz"
+					"fastboot": "air_in_global_images_OS2.0.205.0.VGQINXM_20260112.0000.00_15.0_in_6ee3b99d58.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.204.0.VGQINXM": {
 					"os": "OS2.0.204.0.VGQINXM",
 					"android": "15.0",
 					"release": "2025-11-13",
 					"recovery": "air_in_global-ota_full-OS2.0.204.0.VGQINXM-user-15.0-3632a992ea.zip",
-					"fastboot": "air_in_global_images_OS2.0.204.0.VGQINXM_20251027.0000.00_15.0_in_29c4f67125.tgz"
+					"fastboot": "air_in_global_images_OS2.0.204.0.VGQINXM_20251027.0000.00_15.0_in_29c4f67125.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VGQINXM": {
 					"os": "OS2.0.203.0.VGQINXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "air_in_global-ota_full-OS2.0.203.0.VGQINXM-user-15.0-ea36ef7512.zip",
-					"fastboot": "air_in_global_images_OS2.0.203.0.VGQINXM_20250815.0000.00_15.0_in_9d7d900957.tgz"
+					"fastboot": "air_in_global_images_OS2.0.203.0.VGQINXM_20250815.0000.00_15.0_in_9d7d900957.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.2.0.VGQINXM": {
 					"os": "OS2.0.2.0.VGQINXM",
 					"android": "15.0",
 					"release": "2025-06-09",
 					"recovery": "air_in_global-ota_full-OS2.0.2.0.VGQINXM-user-15.0-b378663f4c.zip",
-					"fastboot": "air_in_global_images_OS2.0.2.0.VGQINXM_20250522.0000.00_15.0_in_07eb0e5585.tgz"
+					"fastboot": "air_in_global_images_OS2.0.2.0.VGQINXM_20250522.0000.00_15.0_in_07eb0e5585.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VGQINXM": {
 					"os": "OS2.0.1.0.VGQINXM",
 					"android": "15.0",
 					"release": "2025-03-24",
 					"recovery": "air_in_global-ota_full-OS2.0.1.0.VGQINXM-user-15.0-96f99c55c6.zip",
-					"fastboot": "air_in_global_images_OS2.0.1.0.VGQINXM_20250311.0000.00_15.0_in_3e4440ffa4.tgz"
+					"fastboot": "air_in_global_images_OS2.0.1.0.VGQINXM_20250311.0000.00_15.0_in_3e4440ffa4.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.7.0.UGQINXM": {
 					"os": "OS1.0.7.0.UGQINXM",
 					"android": "14.0",
 					"release": "2025-03-07",
 					"recovery": "miui_AIRINGlobal_OS1.0.7.0.UGQINXM_7e17eea0da_14.0.zip",
-					"fastboot": "air_in_global_images_OS1.0.7.0.UGQINXM_20250220.0000.00_14.0_in_6000c494b0.tgz"
+					"fastboot": "air_in_global_images_OS1.0.7.0.UGQINXM_20250220.0000.00_14.0_in_6000c494b0.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.UGQINXM": {
 					"os": "OS1.0.5.0.UGQINXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_AIRINGlobal_OS1.0.5.0.UGQINXM_d1081078a4_14.0.zip",
-					"fastboot": "air_in_global_images_OS1.0.5.0.UGQINXM_20241211.0000.00_14.0_in_3774740b3b.tgz"
+					"fastboot": "air_in_global_images_OS1.0.5.0.UGQINXM_20241211.0000.00_14.0_in_3774740b3b.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.4.0.UGQINXM": {
 					"os": "OS1.0.4.0.UGQINXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_AIRINGlobal_OS1.0.4.0.UGQINXM_89428f4ae4_14.0.zip",
-					"fastboot": "air_in_global_images_OS1.0.4.0.UGQINXM_20241014.0000.00_14.0_in_f90ed48252.tgz"
+					"fastboot": "air_in_global_images_OS1.0.4.0.UGQINXM_20241014.0000.00_14.0_in_f90ed48252.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.3.0.UGQINXM": {
 					"os": "OS1.0.3.0.UGQINXM",
 					"android": "14.0",
 					"release": "2024-10-11",
 					"recovery": "miui_AIRINGlobal_OS1.0.3.0.UGQINXM_e5cfc24908_14.0.zip",
-					"fastboot": "air_in_global_images_OS1.0.3.0.UGQINXM_20240913.0000.00_14.0_in_d319102ff4.tgz"
+					"fastboot": "air_in_global_images_OS1.0.3.0.UGQINXM_20240913.0000.00_14.0_in_d319102ff4.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UGQINXM": {
 					"os": "OS1.0.2.0.UGQINXM",
 					"android": "14.0",
 					"release": "2024-07-29",
 					"recovery": "miui_AIRINGlobal_OS1.0.2.0.UGQINXM_e13cc5fbeb_14.0.zip",
-					"fastboot": "air_in_global_images_OS1.0.2.0.UGQINXM_20240715.0000.00_14.0_in_721162c7e8.tgz"
+					"fastboot": "air_in_global_images_OS1.0.2.0.UGQINXM_20240715.0000.00_14.0_in_721162c7e8.tgz",
+					"aspatch": "2024-07-01"
 				}
 			}
 		},
@@ -784,6 +864,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -800,63 +881,72 @@
 					"android": "15.0",
 					"release": "2026-04-20",
 					"recovery": "air_lm_cr_global-ota_full-OS2.0.202.0.VGQLMCR-user-15.0-eca5171497.zip",
-					"fastboot": "air_lm_cr_global_images_OS2.0.202.0.VGQLMCR_20260305.0000.00_15.0_lm_cr_d3ed252f60.tgz"
+					"fastboot": "air_lm_cr_global_images_OS2.0.202.0.VGQLMCR_20260305.0000.00_15.0_lm_cr_d3ed252f60.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.201.0.VGQLMCR": {
 					"os": "OS2.0.201.0.VGQLMCR",
 					"android": "15.0",
 					"release": "2026-02-03",
 					"recovery": "air_lm_cr_global-ota_full-OS2.0.201.0.VGQLMCR-user-15.0-f9338862f5.zip",
-					"fastboot": "air_lm_cr_global_images_OS2.0.201.0.VGQLMCR_20260104.0000.00_15.0_lm_cr_8c8b14157a.tgz"
+					"fastboot": "air_lm_cr_global_images_OS2.0.201.0.VGQLMCR_20260104.0000.00_15.0_lm_cr_8c8b14157a.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.4.0.VGQLMCR": {
 					"os": "OS2.0.4.0.VGQLMCR",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "air_lm_cr_global-ota_full-OS2.0.4.0.VGQLMCR-user-15.0-d6088a6be3.zip",
-					"fastboot": "air_lm_cr_global_images_OS2.0.4.0.VGQLMCR_20251022.0000.00_15.0_lm_cr_2789d6a920.tgz"
+					"fastboot": "air_lm_cr_global_images_OS2.0.4.0.VGQLMCR_20251022.0000.00_15.0_lm_cr_2789d6a920.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.3.0.VGQLMCR": {
 					"os": "OS2.0.3.0.VGQLMCR",
 					"android": "15.0",
 					"release": "2025-10-22",
 					"recovery": "air_lm_cr_global-ota_full-OS2.0.3.0.VGQLMCR-user-15.0-1aa9810590.zip",
-					"fastboot": "air_lm_cr_global_images_OS2.0.3.0.VGQLMCR_20250915.0000.00_15.0_lm_cr_ab0e8d3f09.tgz"
+					"fastboot": "air_lm_cr_global_images_OS2.0.3.0.VGQLMCR_20250915.0000.00_15.0_lm_cr_ab0e8d3f09.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.2.0.VGQLMCR": {
 					"os": "OS2.0.2.0.VGQLMCR",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "air_lm_cr_global-ota_full-OS2.0.2.0.VGQLMCR-user-15.0-042ae6a119.zip",
-					"fastboot": "air_lm_cr_global_images_OS2.0.2.0.VGQLMCR_20250701.0000.00_15.0_lm_cr_610ebc53a7.tgz"
+					"fastboot": "air_lm_cr_global_images_OS2.0.2.0.VGQLMCR_20250701.0000.00_15.0_lm_cr_610ebc53a7.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.1.0.VGQLMCR": {
 					"os": "OS2.0.1.0.VGQLMCR",
 					"android": "15.0",
 					"release": "2025-06-14",
 					"recovery": "air_lm_cr_global-ota_full-OS2.0.1.0.VGQLMCR-user-15.0-771e44a887.zip",
-					"fastboot": "air_lm_cr_global_images_OS2.0.1.0.VGQLMCR_20250513.0000.00_15.0_lm_cr_35e3ac7df8.tgz"
+					"fastboot": "air_lm_cr_global_images_OS2.0.1.0.VGQLMCR_20250513.0000.00_15.0_lm_cr_35e3ac7df8.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.4.0.UGQLMCR": {
 					"os": "OS1.0.4.0.UGQLMCR",
 					"android": "14.0",
 					"release": "2025-04-21",
 					"recovery": "miui_AIRLMCRGlobal_OS1.0.4.0.UGQLMCR_97131a9f0d_14.0.zip",
-					"fastboot": "air_lm_cr_global_images_OS1.0.4.0.UGQLMCR_20250303.0000.00_14.0_lm_cr_cf96c4add2.tgz"
+					"fastboot": "air_lm_cr_global_images_OS1.0.4.0.UGQLMCR_20250303.0000.00_14.0_lm_cr_cf96c4add2.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.3.0.UGQLMCR": {
 					"os": "OS1.0.3.0.UGQLMCR",
 					"android": "14.0",
 					"release": "2025-02-17",
 					"recovery": "miui_AIRLMCRGlobal_OS1.0.3.0.UGQLMCR_d6843f3fb0_14.0.zip",
-					"fastboot": "air_lm_cr_global_images_OS1.0.3.0.UGQLMCR_20241230.0000.00_14.0_lm_cr_d2c035f088.tgz"
+					"fastboot": "air_lm_cr_global_images_OS1.0.3.0.UGQLMCR_20241230.0000.00_14.0_lm_cr_d2c035f088.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.1.0.UGQLMCR": {
 					"os": "OS1.0.1.0.UGQLMCR",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_AIRLMCRGlobal_OS1.0.1.0.UGQLMCR_1c983fa6ee_14.0.zip",
-					"fastboot": "air_lm_cr_global_images_OS1.0.1.0.UGQLMCR_20240926.0000.00_14.0_lm_cr_18207b4e78.tgz"
+					"fastboot": "air_lm_cr_global_images_OS1.0.1.0.UGQLMCR_20240926.0000.00_14.0_lm_cr_18207b4e78.tgz",
+					"aspatch": "2024-09-01"
 				}
 			}
 		}

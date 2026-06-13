@@ -34,6 +34,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -55,7 +56,8 @@
 					"release": "2025-10-18",
 					"recovery": "xaga-ota_full-OS2.0.12.0.ULOCNXM-user-14.0-5c4e2efff9.zip",
 					"fastboot": "xaga_images_OS2.0.12.0.ULOCNXM_20251014.0000.00_14.0_cn_d8e1bf7f30.tgz",
-					"ctelecom": "xaga_images_OS2.0.12.0.ULOCNXM_20251014.0000.00_14.0_cn_chinatelecom_055827669e.tgz"
+					"ctelecom": "xaga_images_OS2.0.12.0.ULOCNXM_20251014.0000.00_14.0_cn_chinatelecom_055827669e.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.7.0.ULOCNXM": {
 					"os": "OS2.0.7.0.ULOCNXM",
@@ -63,7 +65,8 @@
 					"release": "2025-06-28",
 					"recovery": "xaga-ota_full-OS2.0.7.0.ULOCNXM-user-14.0-0a3527e071.zip",
 					"fastboot": "xaga_images_OS2.0.7.0.ULOCNXM_20250613.0000.00_14.0_cn_36985deb11.tgz",
-					"ctelecom": "xaga_images_OS2.0.7.0.ULOCNXM_20250613.0000.00_14.0_cn_chinatelecom_83b797c80d.tgz"
+					"ctelecom": "xaga_images_OS2.0.7.0.ULOCNXM_20250613.0000.00_14.0_cn_chinatelecom_83b797c80d.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.6.0.ULOCNXM": {
 					"os": "OS2.0.6.0.ULOCNXM",
@@ -71,7 +74,8 @@
 					"release": "2025-06-05",
 					"recovery": "xaga-ota_full-OS2.0.6.0.ULOCNXM-user-14.0-b3772f6a3f.zip",
 					"fastboot": "xaga_images_OS2.0.6.0.ULOCNXM_20250527.0000.00_14.0_cn_09ebf971ea.tgz",
-					"ctelecom": "xaga_images_OS2.0.6.0.ULOCNXM_20250527.0000.00_14.0_cn_chinatelecom_c60108b4df.tgz"
+					"ctelecom": "xaga_images_OS2.0.6.0.ULOCNXM_20250527.0000.00_14.0_cn_chinatelecom_c60108b4df.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.5.0.ULOCNXM": {
 					"os": "OS2.0.5.0.ULOCNXM",
@@ -79,7 +83,8 @@
 					"release": "2025-05-09",
 					"recovery": "xaga-ota_full-OS2.0.5.0.ULOCNXM-user-14.0-615ce04f91.zip",
 					"fastboot": "xaga_images_OS2.0.5.0.ULOCNXM_20250429.0000.00_14.0_cn_3742863933.tgz",
-					"ctelecom": "xaga_images_OS2.0.5.0.ULOCNXM_20250429.0000.00_14.0_cn_chinatelecom_2cb32be148.tgz"
+					"ctelecom": "xaga_images_OS2.0.5.0.ULOCNXM_20250429.0000.00_14.0_cn_chinatelecom_2cb32be148.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.3.0.ULOCNXM": {
 					"os": "OS2.0.3.0.ULOCNXM",
@@ -87,7 +92,8 @@
 					"release": "2025-03-28",
 					"recovery": "xaga-ota_full-OS2.0.3.0.ULOCNXM-user-14.0-bce49e44e5.zip",
 					"fastboot": "xaga_images_OS2.0.3.0.ULOCNXM_20250325.0000.00_14.0_cn_96b1292a84.tgz",
-					"ctelecom": "xaga_images_OS2.0.3.0.ULOCNXM_20250325.0000.00_14.0_cn_chinatelecom_552c3b592f.tgz"
+					"ctelecom": "xaga_images_OS2.0.3.0.ULOCNXM_20250325.0000.00_14.0_cn_chinatelecom_552c3b592f.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.ULOCNXM": {
 					"os": "OS2.0.2.0.ULOCNXM",
@@ -95,7 +101,8 @@
 					"release": "2025-03-20",
 					"recovery": "xaga-ota_full-OS2.0.2.0.ULOCNXM-user-14.0-2678b6acc0.zip",
 					"fastboot": "xaga_images_OS2.0.2.0.ULOCNXM_20250313.0000.00_14.0_cn_9fc184328f.tgz",
-					"ctelecom": "xaga_images_OS2.0.2.0.ULOCNXM_20250313.0000.00_14.0_cn_chinatelecom_14c2d387c5.tgz"
+					"ctelecom": "xaga_images_OS2.0.2.0.ULOCNXM_20250313.0000.00_14.0_cn_chinatelecom_14c2d387c5.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.11.0.ULOCNXM": {
 					"os": "OS1.0.11.0.ULOCNXM",
@@ -103,7 +110,8 @@
 					"release": "2025-02-11",
 					"recovery": "miui_XAGA_OS1.0.11.0.ULOCNXM_71da161ffb_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.11.0.ULOCNXM_20250117.0000.00_14.0_cn_a110f2f525.tgz",
-					"ctelecom": "xaga_images_OS1.0.11.0.ULOCNXM_20250117.0000.00_14.0_cn_chinatelecom_fe887f91b2.tgz"
+					"ctelecom": "xaga_images_OS1.0.11.0.ULOCNXM_20250117.0000.00_14.0_cn_chinatelecom_fe887f91b2.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.ULOCNXM": {
 					"os": "OS1.0.10.0.ULOCNXM",
@@ -111,7 +119,8 @@
 					"release": "2025-01-09",
 					"recovery": "miui_XAGA_OS1.0.10.0.ULOCNXM_8b256c3667_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.10.0.ULOCNXM_20241231.0000.00_14.0_cn_e94055ea2e.tgz",
-					"ctelecom": "xaga_images_OS1.0.10.0.ULOCNXM_20241231.0000.00_14.0_cn_chinatelecom_0bc7be134c.tgz"
+					"ctelecom": "xaga_images_OS1.0.10.0.ULOCNXM_20241231.0000.00_14.0_cn_chinatelecom_0bc7be134c.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.ULOCNXM": {
 					"os": "OS1.0.8.0.ULOCNXM",
@@ -119,7 +128,8 @@
 					"release": "2024-12-06",
 					"recovery": "miui_XAGA_OS1.0.8.0.ULOCNXM_a8cc94e747_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.8.0.ULOCNXM_20241120.0000.00_14.0_cn_86a69a45d5.tgz",
-					"ctelecom": "xaga_images_OS1.0.8.0.ULOCNXM_20241120.0000.00_14.0_cn_chinatelecom_41dd7fe51c.tgz"
+					"ctelecom": "xaga_images_OS1.0.8.0.ULOCNXM_20241120.0000.00_14.0_cn_chinatelecom_41dd7fe51c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.ULOCNXM": {
 					"os": "OS1.0.7.0.ULOCNXM",
@@ -127,7 +137,8 @@
 					"release": "2024-11-12",
 					"recovery": "miui_XAGA_OS1.0.7.0.ULOCNXM_2b16db3ae4_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.ULOCNXM": {
 					"os": "OS1.0.6.0.ULOCNXM",
@@ -135,7 +146,8 @@
 					"release": "2024-11-12",
 					"recovery": "miui_XAGA_OS1.0.6.0.ULOCNXM_90e266280d_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.6.0.ULOCNXM_20241025.0000.00_14.0_cn_a85bebce14.tgz",
-					"ctelecom": "xaga_images_OS1.0.6.0.ULOCNXM_20241025.0000.00_14.0_cn_chinatelecom_0dd7db995b.tgz"
+					"ctelecom": "xaga_images_OS1.0.6.0.ULOCNXM_20241025.0000.00_14.0_cn_chinatelecom_0dd7db995b.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.ULOCNXM": {
 					"os": "OS1.0.5.0.ULOCNXM",
@@ -143,7 +155,8 @@
 					"release": "2024-09-28",
 					"recovery": "miui_XAGA_OS1.0.5.0.ULOCNXM_7c181e4a9c_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.5.0.ULOCNXM_20240911.0000.00_14.0_cn_14e7db10ed.tgz",
-					"ctelecom": "xaga_images_OS1.0.5.0.ULOCNXM_20240911.0000.00_14.0_cn_chinatelecom_d0cfb70f26.tgz"
+					"ctelecom": "xaga_images_OS1.0.5.0.ULOCNXM_20240911.0000.00_14.0_cn_chinatelecom_d0cfb70f26.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.ULOCNXM": {
 					"os": "OS1.0.4.0.ULOCNXM",
@@ -151,7 +164,8 @@
 					"release": "2024-08-27",
 					"recovery": "miui_XAGA_OS1.0.4.0.ULOCNXM_4bdde56761_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.4.0.ULOCNXM_20240814.0000.00_14.0_cn_b04ec9ba09.tgz",
-					"ctelecom": "xaga_images_OS1.0.4.0.ULOCNXM_20240814.0000.00_14.0_cn_chinatelecom_3315828a14.tgz"
+					"ctelecom": "xaga_images_OS1.0.4.0.ULOCNXM_20240814.0000.00_14.0_cn_chinatelecom_3315828a14.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.ULOCNXM": {
 					"os": "OS1.0.3.0.ULOCNXM",
@@ -159,7 +173,8 @@
 					"release": "2024-07-30",
 					"recovery": "miui_XAGA_OS1.0.3.0.ULOCNXM_ddae354606_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.3.0.ULOCNXM_20240718.0000.00_14.0_cn_ef7e6e0479.tgz",
-					"ctelecom": "xaga_images_OS1.0.3.0.ULOCNXM_20240718.0000.00_14.0_cn_chinatelecom_f99792ba35.tgz"
+					"ctelecom": "xaga_images_OS1.0.3.0.ULOCNXM_20240718.0000.00_14.0_cn_chinatelecom_f99792ba35.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.ULOCNXM": {
 					"os": "OS1.0.2.0.ULOCNXM",
@@ -167,7 +182,8 @@
 					"release": "2024-05-21",
 					"recovery": "miui_XAGA_OS1.0.2.0.ULOCNXM_9608f85b60_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.2.0.ULOCNXM_20240515.0000.00_14.0_cn_dd1c96b26b.tgz",
-					"ctelecom": "xaga_images_OS1.0.2.0.ULOCNXM_20240515.0000.00_14.0_cn_chinatelecom_d994c198c9.tgz"
+					"ctelecom": "xaga_images_OS1.0.2.0.ULOCNXM_20240515.0000.00_14.0_cn_chinatelecom_d994c198c9.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.ULOCNXM": {
 					"os": "OS1.0.1.0.ULOCNXM",
@@ -175,7 +191,8 @@
 					"release": "2024-04-10",
 					"recovery": "miui_XAGA_OS1.0.1.0.ULOCNXM_445b22a793_14.0.zip",
 					"fastboot": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_b092ef90cf.tgz",
-					"ctelecom": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_chinatelecom_d86a299617.tgz"
+					"ctelecom": "xaga_images_OS1.0.1.0.ULOCNXM_20240329.0000.00_14.0_cn_chinatelecom_d86a299617.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -197,6 +214,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -213,77 +231,88 @@
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "xaga_tw_global-ota_full-OS2.0.2.0.ULOTWXM-user-14.0-9685df8b6f.zip",
-					"fastboot": "xaga_tw_global_images_OS2.0.2.0.ULOTWXM_20250521.0000.00_14.0_tw_99b4f0c7bc.tgz"
+					"fastboot": "xaga_tw_global_images_OS2.0.2.0.ULOTWXM_20250521.0000.00_14.0_tw_99b4f0c7bc.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.ULOTWXM": {
 					"os": "OS2.0.1.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2025-05-12",
 					"recovery": "xaga_tw_global-ota_full-OS2.0.1.0.ULOTWXM-user-14.0-57046372a5.zip",
-					"fastboot": "xaga_tw_global_images_OS2.0.1.0.ULOTWXM_20250417.0000.00_14.0_tw_dc639b669e.tgz"
+					"fastboot": "xaga_tw_global_images_OS2.0.1.0.ULOTWXM_20250417.0000.00_14.0_tw_dc639b669e.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.ULOTWXM": {
 					"os": "OS1.0.9.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2025-04-14",
 					"recovery": "miui_XAGATWGlobal_OS1.0.9.0.ULOTWXM_12e4abd29e_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.9.0.ULOTWXM_20250326.0000.00_14.0_tw_49afc80c12.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.9.0.ULOTWXM_20250326.0000.00_14.0_tw_49afc80c12.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.8.0.ULOTWXM": {
 					"os": "OS1.0.8.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2025-02-25",
 					"recovery": "miui_XAGATWGlobal_OS1.0.8.0.ULOTWXM_4b2349a9ab_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.8.0.ULOTWXM_20250210.0000.00_14.0_tw_3c372df64c.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.8.0.ULOTWXM_20250210.0000.00_14.0_tw_3c372df64c.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.ULOTWXM": {
 					"os": "OS1.0.7.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_XAGATWGlobal_OS1.0.7.0.ULOTWXM_25dcb32f76_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.7.0.ULOTWXM_20250107.0000.00_14.0_tw_6d6e8178c9.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.7.0.ULOTWXM_20250107.0000.00_14.0_tw_6d6e8178c9.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.6.0.ULOTWXM": {
 					"os": "OS1.0.6.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_XAGATWGlobal_OS1.0.6.0.ULOTWXM_65cff4ed3b_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.6.0.ULOTWXM_20241125.0000.00_14.0_tw_6c85e85986.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.6.0.ULOTWXM_20241125.0000.00_14.0_tw_6c85e85986.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.ULOTWXM": {
 					"os": "OS1.0.5.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_XAGATWGlobal_OS1.0.5.0.ULOTWXM_e0c41b500a_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.5.0.ULOTWXM_20241025.0000.00_14.0_tw_3cd6ef395f.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.5.0.ULOTWXM_20241025.0000.00_14.0_tw_3cd6ef395f.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.ULOTWXM": {
 					"os": "OS1.0.4.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_XAGATWGlobal_OS1.0.4.0.ULOTWXM_5e5ed525cc_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.4.0.ULOTWXM_20240923.0000.00_14.0_tw_24f7c843e0.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.4.0.ULOTWXM_20240923.0000.00_14.0_tw_24f7c843e0.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.ULOTWXM": {
 					"os": "OS1.0.3.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_XAGATWGlobal_OS1.0.3.0.ULOTWXM_6b9d465ec0_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.3.0.ULOTWXM_20240828.0000.00_14.0_tw_d6fa611e18.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.3.0.ULOTWXM_20240828.0000.00_14.0_tw_d6fa611e18.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.ULOTWXM": {
 					"os": "OS1.0.2.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2024-08-07",
 					"recovery": "miui_XAGATWGlobal_OS1.0.2.0.ULOTWXM_debeedb8e4_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.2.0.ULOTWXM_20240719.0000.00_14.0_tw_adf156dded.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.2.0.ULOTWXM_20240719.0000.00_14.0_tw_adf156dded.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.ULOTWXM": {
 					"os": "OS1.0.1.0.ULOTWXM",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_XAGATWGlobal_OS1.0.1.0.ULOTWXM_f60b6c6061_14.0.zip",
-					"fastboot": "xaga_tw_global_images_OS1.0.1.0.ULOTWXM_20240523.0000.00_14.0_tw_ebf67b660f.tgz"
+					"fastboot": "xaga_tw_global_images_OS1.0.1.0.ULOTWXM_20240523.0000.00_14.0_tw_ebf67b660f.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -305,6 +334,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -321,91 +351,104 @@
 					"android": "14.0",
 					"release": "2025-06-26",
 					"recovery": "xaga_global-ota_full-OS2.0.3.0.ULOMIXM-user-14.0-70c3a91ba3.zip",
-					"fastboot": "xaga_global_images_OS2.0.3.0.ULOMIXM_20250618.0000.00_14.0_global_8140a7f767.tgz"
+					"fastboot": "xaga_global_images_OS2.0.3.0.ULOMIXM_20250618.0000.00_14.0_global_8140a7f767.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.2.0.ULOMIXM": {
 					"os": "OS2.0.2.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2025-05-23",
 					"recovery": "xaga_global-ota_full-OS2.0.2.0.ULOMIXM-user-14.0-210a53d8de.zip",
-					"fastboot": "xaga_global_images_OS2.0.2.0.ULOMIXM_20250427.0000.00_14.0_global_61413a379f.tgz"
+					"fastboot": "xaga_global_images_OS2.0.2.0.ULOMIXM_20250427.0000.00_14.0_global_61413a379f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.ULOMIXM": {
 					"os": "OS2.0.1.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2025-04-21",
 					"recovery": "xaga_global-ota_full-OS2.0.1.0.ULOMIXM-user-14.0-cf9bf379b3.zip",
-					"fastboot": "xaga_global_images_OS2.0.1.0.ULOMIXM_20250409.0000.00_14.0_global_9e40155e89.tgz"
+					"fastboot": "xaga_global_images_OS2.0.1.0.ULOMIXM_20250409.0000.00_14.0_global_9e40155e89.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.11.0.ULOMIXM": {
 					"os": "OS1.0.11.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2025-04-01",
 					"recovery": "miui_XAGAGlobal_OS1.0.11.0.ULOMIXM_f6409c1b5c_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.11.0.ULOMIXM_20250321.0000.00_14.0_global_3e1b160376.tgz"
+					"fastboot": "xaga_global_images_OS1.0.11.0.ULOMIXM_20250321.0000.00_14.0_global_3e1b160376.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.10.0.ULOMIXM": {
 					"os": "OS1.0.10.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2025-02-25",
 					"recovery": "miui_XAGAGlobal_OS1.0.10.0.ULOMIXM_ca795bbd95_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.10.0.ULOMIXM_20250212.0000.00_14.0_global_a5eefbbf63.tgz"
+					"fastboot": "xaga_global_images_OS1.0.10.0.ULOMIXM_20250212.0000.00_14.0_global_a5eefbbf63.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.ULOMIXM": {
 					"os": "OS1.0.8.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_XAGAGlobal_OS1.0.8.0.ULOMIXM_bed6dff641_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.8.0.ULOMIXM_20250106.0000.00_14.0_global_30f6f7b855.tgz"
+					"fastboot": "xaga_global_images_OS1.0.8.0.ULOMIXM_20250106.0000.00_14.0_global_30f6f7b855.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.ULOMIXM": {
 					"os": "OS1.0.7.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_XAGAGlobal_OS1.0.7.0.ULOMIXM_bb583c2203_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.7.0.ULOMIXM_20241120.0000.00_14.0_global_59a4b3966b.tgz"
+					"fastboot": "xaga_global_images_OS1.0.7.0.ULOMIXM_20241120.0000.00_14.0_global_59a4b3966b.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.ULOMIXM": {
 					"os": "OS1.0.6.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_XAGAGlobal_OS1.0.6.0.ULOMIXM_833feef043_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.6.0.ULOMIXM_20241018.0000.00_14.0_global_f709e44394.tgz"
+					"fastboot": "xaga_global_images_OS1.0.6.0.ULOMIXM_20241018.0000.00_14.0_global_f709e44394.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.ULOMIXM": {
 					"os": "OS1.0.5.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_XAGAGlobal_OS1.0.5.0.ULOMIXM_c3f9568b08_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.5.0.ULOMIXM_20240923.0000.00_14.0_global_c6cbb44a1c.tgz"
+					"fastboot": "xaga_global_images_OS1.0.5.0.ULOMIXM_20240923.0000.00_14.0_global_c6cbb44a1c.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.ULOMIXM": {
 					"os": "OS1.0.4.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2024-08-29",
 					"recovery": "miui_XAGAGlobal_OS1.0.4.0.ULOMIXM_9500e3fb4f_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.4.0.ULOMIXM_20240814.0000.00_14.0_global_8e9356c5bf.tgz"
+					"fastboot": "xaga_global_images_OS1.0.4.0.ULOMIXM_20240814.0000.00_14.0_global_8e9356c5bf.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.ULOMIXM": {
 					"os": "OS1.0.3.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_XAGAGlobal_OS1.0.3.0.ULOMIXM_2039059443_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.3.0.ULOMIXM_20240724.0000.00_14.0_global_fd38331aea.tgz"
+					"fastboot": "xaga_global_images_OS1.0.3.0.ULOMIXM_20240724.0000.00_14.0_global_fd38331aea.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.ULOMIXM": {
 					"os": "OS1.0.2.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2024-07-02",
 					"recovery": "miui_XAGAGlobal_OS1.0.2.0.ULOMIXM_e525011abe_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.2.0.ULOMIXM_20240618.0000.00_14.0_global_9e9e252786.tgz"
+					"fastboot": "xaga_global_images_OS1.0.2.0.ULOMIXM_20240618.0000.00_14.0_global_9e9e252786.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.ULOMIXM": {
 					"os": "OS1.0.1.0.ULOMIXM",
 					"android": "14.0",
 					"release": "2024-05-17",
 					"recovery": "miui_XAGAGlobal_OS1.0.1.0.ULOMIXM_26ddf1e698_14.0.zip",
-					"fastboot": "xaga_global_images_OS1.0.1.0.ULOMIXM_20240506.0000.00_14.0_global_c3678112a9.tgz"
+					"fastboot": "xaga_global_images_OS1.0.1.0.ULOMIXM_20240506.0000.00_14.0_global_c3678112a9.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -427,6 +470,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -443,84 +487,96 @@
 					"android": "14.0",
 					"release": "2025-05-23",
 					"recovery": "xaga_eea_global-ota_full-OS2.0.3.0.ULOEUXM-user-14.0-dff00e7f0f.zip",
-					"fastboot": "xaga_eea_global_images_OS2.0.3.0.ULOEUXM_20250427.0000.00_14.0_eea_34223f337b.tgz"
+					"fastboot": "xaga_eea_global_images_OS2.0.3.0.ULOEUXM_20250427.0000.00_14.0_eea_34223f337b.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.ULOEUXM": {
 					"os": "OS2.0.2.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2025-04-21",
 					"recovery": "xaga_eea_global-ota_full-OS2.0.2.0.ULOEUXM-user-14.0-f8cae95767.zip",
-					"fastboot": "xaga_eea_global_images_OS2.0.2.0.ULOEUXM_20250409.0000.00_14.0_eea_5276318014.tgz"
+					"fastboot": "xaga_eea_global_images_OS2.0.2.0.ULOEUXM_20250409.0000.00_14.0_eea_5276318014.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.12.0.ULOEUXM": {
 					"os": "OS1.0.12.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2025-03-28",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.12.0.ULOEUXM_8c424796f9_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.12.0.ULOEUXM_20250314.0000.00_14.0_eea_ac4a8f8d65.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.12.0.ULOEUXM_20250314.0000.00_14.0_eea_ac4a8f8d65.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.11.0.ULOEUXM": {
 					"os": "OS1.0.11.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2025-03-03",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.11.0.ULOEUXM_cb870c7291_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.11.0.ULOEUXM_20250217.0000.00_14.0_eea_a970b7f3f9.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.11.0.ULOEUXM_20250217.0000.00_14.0_eea_a970b7f3f9.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.9.0.ULOEUXM": {
 					"os": "OS1.0.9.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.9.0.ULOEUXM_5bc5704f46_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.9.0.ULOEUXM_20241225.0000.00_14.0_eea_f9031b8195.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.9.0.ULOEUXM_20241225.0000.00_14.0_eea_f9031b8195.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.ULOEUXM": {
 					"os": "OS1.0.8.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.8.0.ULOEUXM_b30e21bbd0_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.8.0.ULOEUXM_20241125.0000.00_14.0_eea_61ceb6a9f7.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.8.0.ULOEUXM_20241125.0000.00_14.0_eea_61ceb6a9f7.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.ULOEUXM": {
 					"os": "OS1.0.7.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2024-11-11",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.7.0.ULOEUXM_eb815b8d2f_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.7.0.ULOEUXM_20241021.0000.00_14.0_eea_7e68def86d.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.7.0.ULOEUXM_20241021.0000.00_14.0_eea_7e68def86d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.ULOEUXM": {
 					"os": "OS1.0.6.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.6.0.ULOEUXM_0f7dbb57ec_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.6.0.ULOEUXM_20240923.0000.00_14.0_eea_05fe4e8370.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.6.0.ULOEUXM_20240923.0000.00_14.0_eea_05fe4e8370.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.ULOEUXM": {
 					"os": "OS1.0.5.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2024-08-29",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.5.0.ULOEUXM_6c8031c6aa_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.5.0.ULOEUXM_20240814.0000.00_14.0_eea_d55b8b77c6.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.5.0.ULOEUXM_20240814.0000.00_14.0_eea_d55b8b77c6.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.ULOEUXM": {
 					"os": "OS1.0.4.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.4.0.ULOEUXM_9f69dac446_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.4.0.ULOEUXM_20240724.0000.00_14.0_eea_2a4f1324ed.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.4.0.ULOEUXM_20240724.0000.00_14.0_eea_2a4f1324ed.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.ULOEUXM": {
 					"os": "OS1.0.3.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.3.0.ULOEUXM_9305ffe43f_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.3.0.ULOEUXM_20240618.0000.00_14.0_eea_2820de05dc.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.3.0.ULOEUXM_20240618.0000.00_14.0_eea_2820de05dc.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.ULOEUXM": {
 					"os": "OS1.0.2.0.ULOEUXM",
 					"android": "14.0",
 					"release": "2024-05-21",
 					"recovery": "miui_XAGAEEAGlobal_OS1.0.2.0.ULOEUXM_626938a0a7_14.0.zip",
-					"fastboot": "xaga_eea_global_images_OS1.0.2.0.ULOEUXM_20240507.0000.00_14.0_eea_309127bfed.tgz"
+					"fastboot": "xaga_eea_global_images_OS1.0.2.0.ULOEUXM_20240507.0000.00_14.0_eea_309127bfed.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -542,6 +598,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -558,77 +615,88 @@
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "xaga_ru_global-ota_full-OS2.0.2.0.ULORUXM-user-14.0-44f2a795bb.zip",
-					"fastboot": "xaga_ru_global_images_OS2.0.2.0.ULORUXM_20250521.0000.00_14.0_ru_34dace5664.tgz"
+					"fastboot": "xaga_ru_global_images_OS2.0.2.0.ULORUXM_20250521.0000.00_14.0_ru_34dace5664.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.ULORUXM": {
 					"os": "OS2.0.1.0.ULORUXM",
 					"android": "14.0",
 					"release": "2025-05-12",
 					"recovery": "xaga_ru_global-ota_full-OS2.0.1.0.ULORUXM-user-14.0-31f2470ebb.zip",
-					"fastboot": "xaga_ru_global_images_OS2.0.1.0.ULORUXM_20250417.0000.00_14.0_ru_0069c23d2b.tgz"
+					"fastboot": "xaga_ru_global_images_OS2.0.1.0.ULORUXM_20250417.0000.00_14.0_ru_0069c23d2b.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.10.0.ULORUXM": {
 					"os": "OS1.0.10.0.ULORUXM",
 					"android": "14.0",
 					"release": "2025-04-14",
 					"recovery": "miui_XAGARUGlobal_OS1.0.10.0.ULORUXM_722d0d752c_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.10.0.ULORUXM_20250326.0000.00_14.0_ru_944106a8cb.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.10.0.ULORUXM_20250326.0000.00_14.0_ru_944106a8cb.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.ULORUXM": {
 					"os": "OS1.0.9.0.ULORUXM",
 					"android": "14.0",
 					"release": "2025-02-25",
 					"recovery": "miui_XAGARUGlobal_OS1.0.9.0.ULORUXM_d66aa2d911_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.9.0.ULORUXM_20250210.0000.00_14.0_ru_4356b8b788.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.9.0.ULORUXM_20250210.0000.00_14.0_ru_4356b8b788.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.ULORUXM": {
 					"os": "OS1.0.8.0.ULORUXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_XAGARUGlobal_OS1.0.8.0.ULORUXM_bd5326df83_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.8.0.ULORUXM_20250106.0000.00_14.0_ru_c16b9d2432.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.8.0.ULORUXM_20250106.0000.00_14.0_ru_c16b9d2432.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.ULORUXM": {
 					"os": "OS1.0.7.0.ULORUXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_XAGARUGlobal_OS1.0.7.0.ULORUXM_49f6a8669a_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.7.0.ULORUXM_20241125.0000.00_14.0_ru_82e4ce1016.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.7.0.ULORUXM_20241125.0000.00_14.0_ru_82e4ce1016.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.ULORUXM": {
 					"os": "OS1.0.6.0.ULORUXM",
 					"android": "14.0",
 					"release": "2024-11-11",
 					"recovery": "miui_XAGARUGlobal_OS1.0.6.0.ULORUXM_f92eec4a53_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.6.0.ULORUXM_20241021.0000.00_14.0_ru_a969a74120.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.6.0.ULORUXM_20241021.0000.00_14.0_ru_a969a74120.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.ULORUXM": {
 					"os": "OS1.0.5.0.ULORUXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_XAGARUGlobal_OS1.0.5.0.ULORUXM_480ea76d02_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.5.0.ULORUXM_20240923.0000.00_14.0_ru_79a40ee8c7.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.5.0.ULORUXM_20240923.0000.00_14.0_ru_79a40ee8c7.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.ULORUXM": {
 					"os": "OS1.0.4.0.ULORUXM",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_XAGARUGlobal_OS1.0.4.0.ULORUXM_5b5fc96d69_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.4.0.ULORUXM_20240814.0000.00_14.0_ru_7e61951795.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.4.0.ULORUXM_20240814.0000.00_14.0_ru_7e61951795.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.ULORUXM": {
 					"os": "OS1.0.3.0.ULORUXM",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_XAGARUGlobal_OS1.0.3.0.ULORUXM_86225e509e_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.3.0.ULORUXM_20240724.0000.00_14.0_ru_205694f181.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.3.0.ULORUXM_20240724.0000.00_14.0_ru_205694f181.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.ULORUXM": {
 					"os": "OS1.0.2.0.ULORUXM",
 					"android": "14.0",
 					"release": "2024-07-02",
 					"recovery": "miui_XAGARUGlobal_OS1.0.2.0.ULORUXM_72c6fe980c_14.0.zip",
-					"fastboot": "xaga_ru_global_images_OS1.0.2.0.ULORUXM_20240611.0000.00_14.0_ru_100b43dcd2.tgz"
+					"fastboot": "xaga_ru_global_images_OS1.0.2.0.ULORUXM_20240611.0000.00_14.0_ru_100b43dcd2.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -650,6 +718,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -666,77 +735,88 @@
 					"android": "14.0",
 					"release": "2025-06-26",
 					"recovery": "xaga_in_global-ota_full-OS2.0.3.0.ULOINXM-user-14.0-7a33ff9654.zip",
-					"fastboot": "xaga_in_global_images_OS2.0.3.0.ULOINXM_20250618.0000.00_14.0_in_d8e1206d08.tgz"
+					"fastboot": "xaga_in_global_images_OS2.0.3.0.ULOINXM_20250618.0000.00_14.0_in_d8e1206d08.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.2.0.ULOINXM": {
 					"os": "OS2.0.2.0.ULOINXM",
 					"android": "14.0",
 					"release": "2025-05-22",
 					"recovery": "xaga_in_global-ota_full-OS2.0.2.0.ULOINXM-user-14.0-864f3ec2cb.zip",
-					"fastboot": "xaga_in_global_images_OS2.0.2.0.ULOINXM_20250509.0000.00_14.0_in_b54af670b7.tgz"
+					"fastboot": "xaga_in_global_images_OS2.0.2.0.ULOINXM_20250509.0000.00_14.0_in_b54af670b7.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.9.0.ULOINXM": {
 					"os": "OS1.0.9.0.ULOINXM",
 					"android": "14.0",
 					"release": "2025-04-01",
 					"recovery": "miui_XAGAINGlobal_OS1.0.9.0.ULOINXM_3ab92e3694_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.9.0.ULOINXM_20250321.0000.00_14.0_in_2487b02bae.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.9.0.ULOINXM_20250321.0000.00_14.0_in_2487b02bae.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.8.0.ULOINXM": {
 					"os": "OS1.0.8.0.ULOINXM",
 					"android": "14.0",
 					"release": "2025-02-25",
 					"recovery": "miui_XAGAINGlobal_OS1.0.8.0.ULOINXM_5aca9c91af_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.8.0.ULOINXM_20250210.0000.00_14.0_in_ea6a983f19.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.8.0.ULOINXM_20250210.0000.00_14.0_in_ea6a983f19.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.ULOINXM": {
 					"os": "OS1.0.7.0.ULOINXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_XAGAINGlobal_OS1.0.7.0.ULOINXM_9872e05446_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.7.0.ULOINXM_20250106.0000.00_14.0_in_28551b8903.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.7.0.ULOINXM_20250106.0000.00_14.0_in_28551b8903.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.6.0.ULOINXM": {
 					"os": "OS1.0.6.0.ULOINXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_XAGAINGlobal_OS1.0.6.0.ULOINXM_3160382bd0_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.6.0.ULOINXM_20241125.0000.00_14.0_in_26938b58fa.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.6.0.ULOINXM_20241125.0000.00_14.0_in_26938b58fa.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.ULOINXM": {
 					"os": "OS1.0.5.0.ULOINXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_XAGAINGlobal_OS1.0.5.0.ULOINXM_d144513b38_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.5.0.ULOINXM_20241025.0000.00_14.0_in_82e4441cd4.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.5.0.ULOINXM_20241025.0000.00_14.0_in_82e4441cd4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.ULOINXM": {
 					"os": "OS1.0.4.0.ULOINXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_XAGAINGlobal_OS1.0.4.0.ULOINXM_b1015ce10f_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.4.0.ULOINXM_20240913.0000.00_14.0_in_df830ae659.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.4.0.ULOINXM_20240913.0000.00_14.0_in_df830ae659.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.ULOINXM": {
 					"os": "OS1.0.3.0.ULOINXM",
 					"android": "14.0",
 					"release": "2024-08-29",
 					"recovery": "miui_XAGAINGlobal_OS1.0.3.0.ULOINXM_91cb390d92_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.3.0.ULOINXM_20240805.0000.00_14.0_in_c1b96d717f.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.3.0.ULOINXM_20240805.0000.00_14.0_in_c1b96d717f.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.ULOINXM": {
 					"os": "OS1.0.2.0.ULOINXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_XAGAINGlobal_OS1.0.2.0.ULOINXM_08577945e0_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.2.0.ULOINXM_20240627.0000.00_14.0_in_5ed38b54f9.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.2.0.ULOINXM_20240627.0000.00_14.0_in_5ed38b54f9.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.ULOINXM": {
 					"os": "OS1.0.1.0.ULOINXM",
 					"android": "14.0",
 					"release": "2024-05-27",
 					"recovery": "miui_XAGAINGlobal_OS1.0.1.0.ULOINXM_fb3b9fb999_14.0.zip",
-					"fastboot": "xaga_in_global_images_OS1.0.1.0.ULOINXM_20240506.0000.00_14.0_in_6e8dc6f199.tgz"
+					"fastboot": "xaga_in_global_images_OS1.0.1.0.ULOINXM_20240506.0000.00_14.0_in_6e8dc6f199.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -758,6 +838,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -774,77 +855,88 @@
 					"android": "14.0",
 					"release": "2025-06-09",
 					"recovery": "xaga_tr_global-ota_full-OS2.0.2.0.ULOTRXM-user-14.0-3d73ad72fa.zip",
-					"fastboot": "xaga_tr_global_images_OS2.0.2.0.ULOTRXM_20250521.0000.00_14.0_tr_5f79f8c143.tgz"
+					"fastboot": "xaga_tr_global_images_OS2.0.2.0.ULOTRXM_20250521.0000.00_14.0_tr_5f79f8c143.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.ULOTRXM": {
 					"os": "OS2.0.1.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2025-05-12",
 					"recovery": "xaga_tr_global-ota_full-OS2.0.1.0.ULOTRXM-user-14.0-4c5d99713d.zip",
-					"fastboot": "xaga_tr_global_images_OS2.0.1.0.ULOTRXM_20250417.0000.00_14.0_tr_8b44fb2745.tgz"
+					"fastboot": "xaga_tr_global_images_OS2.0.1.0.ULOTRXM_20250417.0000.00_14.0_tr_8b44fb2745.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.ULOTRXM": {
 					"os": "OS1.0.9.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2025-04-14",
 					"recovery": "miui_XAGATRGlobal_OS1.0.9.0.ULOTRXM_005df7a240_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.9.0.ULOTRXM_20250326.0000.00_14.0_tr_b6291da7fc.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.9.0.ULOTRXM_20250326.0000.00_14.0_tr_b6291da7fc.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.8.0.ULOTRXM": {
 					"os": "OS1.0.8.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2025-02-25",
 					"recovery": "miui_XAGATRGlobal_OS1.0.8.0.ULOTRXM_93e627006b_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.8.0.ULOTRXM_20250211.0000.00_14.0_tr_5261c5087d.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.8.0.ULOTRXM_20250211.0000.00_14.0_tr_5261c5087d.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.7.0.ULOTRXM": {
 					"os": "OS1.0.7.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2025-01-17",
 					"recovery": "miui_XAGATRGlobal_OS1.0.7.0.ULOTRXM_ed99d27d3c_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.7.0.ULOTRXM_20250106.0000.00_14.0_tr_8607fe0604.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.7.0.ULOTRXM_20250106.0000.00_14.0_tr_8607fe0604.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.6.0.ULOTRXM": {
 					"os": "OS1.0.6.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_XAGATRGlobal_OS1.0.6.0.ULOTRXM_87e658c11a_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.6.0.ULOTRXM_20241125.0000.00_14.0_tr_b5343ee106.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.6.0.ULOTRXM_20241125.0000.00_14.0_tr_b5343ee106.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.ULOTRXM": {
 					"os": "OS1.0.5.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_XAGATRGlobal_OS1.0.5.0.ULOTRXM_04eacb97cc_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.5.0.ULOTRXM_20241025.0000.00_14.0_tr_9277b417a3.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.5.0.ULOTRXM_20241025.0000.00_14.0_tr_9277b417a3.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.ULOTRXM": {
 					"os": "OS1.0.4.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_XAGATRGlobal_OS1.0.4.0.ULOTRXM_29c103aed3_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.4.0.ULOTRXM_20240923.0000.00_14.0_tr_ac2ab31551.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.4.0.ULOTRXM_20240923.0000.00_14.0_tr_ac2ab31551.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.ULOTRXM": {
 					"os": "OS1.0.3.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_XAGATRGlobal_OS1.0.3.0.ULOTRXM_9f3c6093a5_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.3.0.ULOTRXM_20240814.0000.00_14.0_tr_23c8b690ac.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.3.0.ULOTRXM_20240814.0000.00_14.0_tr_23c8b690ac.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.ULOTRXM": {
 					"os": "OS1.0.2.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2024-08-07",
 					"recovery": "miui_XAGATRGlobal_OS1.0.2.0.ULOTRXM_36ee4fcec5_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.2.0.ULOTRXM_20240719.0000.00_14.0_tr_8ba63fceb6.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.2.0.ULOTRXM_20240719.0000.00_14.0_tr_8ba63fceb6.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.ULOTRXM": {
 					"os": "OS1.0.1.0.ULOTRXM",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_XAGATRGlobal_OS1.0.1.0.ULOTRXM_3f57a36c9d_14.0.zip",
-					"fastboot": "xaga_tr_global_images_OS1.0.1.0.ULOTRXM_20240523.0000.00_14.0_tr_0ec99866cb.tgz"
+					"fastboot": "xaga_tr_global_images_OS1.0.1.0.ULOTRXM_20240523.0000.00_14.0_tr_0ec99866cb.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		}

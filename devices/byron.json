@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -54,7 +55,8 @@
 					"release": "2026-05-26",
 					"recovery": "byron-ota_full-OS3.0.304.0.WAFCNXM-user-16.0-b3a2165acf.zip",
 					"fastboot": "byron_images_OS3.0.304.0.WAFCNXM_20260520.0000.00_16.0_cn_1fa5c5a68a.tgz",
-					"ctelecom": "byron_images_OS3.0.304.0.WAFCNXM_20260520.0000.00_16.0_cn_chinatelecom_c272ffdd5c.tgz"
+					"ctelecom": "byron_images_OS3.0.304.0.WAFCNXM_20260520.0000.00_16.0_cn_chinatelecom_c272ffdd5c.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.301.0.WAFCNXM": {
 					"os": "OS3.0.301.0.WAFCNXM",
@@ -62,7 +64,8 @@
 					"release": "2026-05-21",
 					"recovery": "byron-ota_full-OS3.0.301.0.WAFCNXM-user-16.0-3b8f263428.zip",
 					"fastboot": "byron_images_OS3.0.301.0.WAFCNXM_20260515.0000.00_16.0_cn_0c7999f2a2.tgz",
-					"ctelecom": "byron_images_OS3.0.301.0.WAFCNXM_20260515.0000.00_16.0_cn_chinatelecom_e510d29fcb.tgz"
+					"ctelecom": "byron_images_OS3.0.301.0.WAFCNXM_20260515.0000.00_16.0_cn_chinatelecom_e510d29fcb.tgz",
+					"aspatch": "2026-05-01"
 				}
 			}
 		},
@@ -84,6 +87,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -105,7 +109,8 @@
 					"release": "2026-05-21",
 					"recovery": "byron_demo-ota_full-OS3.0.302.0.WAFCNDM-user-16.0-a1e363956d.zip",
 					"fastboot": "byron_demo_images_OS3.0.302.0.WAFCNDM_20260515.0000.00_16.0_cn_784bf32fac.tgz",
-					"ctelecom": "byron_demo_images_OS3.0.302.0.WAFCNDM_20260515.0000.00_16.0_cn_chinatelecom_4931a254a4.tgz"
+					"ctelecom": "byron_demo_images_OS3.0.302.0.WAFCNDM_20260515.0000.00_16.0_cn_chinatelecom_4931a254a4.tgz",
+					"aspatch": "2026-05-01"
 				}
 			}
 		}

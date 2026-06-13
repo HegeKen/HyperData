@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom",
@@ -58,7 +59,8 @@
 					"recovery": "tornado-ota_full-OS3.0.302.0.WPOCNXM-user-16.0-fafc57434b.zip",
 					"fastboot": "tornado_images_OS3.0.302.0.WPOCNXM_20260420.0000.00_16.0_cn_3c6d5cacfd.tgz",
 					"ctelecom": "tornado_images_OS3.0.302.0.WPOCNXM_20260420.0000.00_16.0_cn_chinatelecom_73cf3bef6a.tgz",
-					"cnmobile": "tornado_images_OS3.0.302.0.WPOCNXM_20260420.0000.00_16.0_cn_chinamobile_86be7d5acc.tgz"
+					"cnmobile": "tornado_images_OS3.0.302.0.WPOCNXM_20260420.0000.00_16.0_cn_chinamobile_86be7d5acc.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.1.0.WPOCNXM": {
 					"os": "OS3.0.1.0.WPOCNXM",
@@ -67,7 +69,8 @@
 					"recovery": "tornado-ota_full-OS3.0.1.0.WPOCNXM-user-16.0-ab891cbcfa.zip",
 					"fastboot": "tornado_images_OS3.0.1.0.WPOCNXM_20260121.0000.00_16.0_cn_d4c8ac3aa1.tgz",
 					"ctelecom": "tornado_images_OS3.0.1.0.WPOCNXM_20260121.0000.00_16.0_cn_chinatelecom_9ce98f8e75.tgz",
-					"cnmobile": "tornado_images_OS3.0.1.0.WPOCNXM_20260121.0000.00_16.0_cn_chinamobile_983cc23b67.tgz"
+					"cnmobile": "tornado_images_OS3.0.1.0.WPOCNXM_20260121.0000.00_16.0_cn_chinamobile_983cc23b67.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VPOCNXM": {
 					"os": "OS2.0.206.0.VPOCNXM",
@@ -76,7 +79,8 @@
 					"recovery": "tornado-ota_full-OS2.0.206.0.VPOCNXM-user-15.0-914deb6a5d.zip",
 					"fastboot": "tornado_images_OS2.0.206.0.VPOCNXM_20260104.0000.00_15.0_cn_2ff0687d40.tgz",
 					"ctelecom": "tornado_images_OS2.0.206.0.VPOCNXM_20260104.0000.00_15.0_cn_chinatelecom_4db41b4f83.tgz",
-					"cnmobile": "tornado_images_OS2.0.206.0.VPOCNXM_20260104.0000.00_15.0_cn_chinamobile_995c68d44b.tgz"
+					"cnmobile": "tornado_images_OS2.0.206.0.VPOCNXM_20260104.0000.00_15.0_cn_chinamobile_995c68d44b.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.205.0.VPOCNXM": {
 					"os": "OS2.0.205.0.VPOCNXM",
@@ -94,7 +98,8 @@
 					"recovery": "tornado-ota_full-OS2.0.203.0.VPOCNXM-user-15.0-c475aea23c.zip",
 					"fastboot": "tornado_images_OS2.0.203.0.VPOCNXM_20251016.0000.00_15.0_cn_05d86b5969.tgz",
 					"ctelecom": "tornado_images_OS2.0.203.0.VPOCNXM_20251016.0000.00_15.0_cn_chinatelecom_44ef509545.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VPOCNXM": {
 					"os": "OS2.0.202.0.VPOCNXM",
@@ -103,7 +108,8 @@
 					"recovery": "tornado-ota_full-OS2.0.202.0.VPOCNXM-user-15.0-d9730a074c.zip",
 					"fastboot": "tornado_images_OS2.0.202.0.VPOCNXM_20250906.0000.00_15.0_cn_664e50be77.tgz",
 					"ctelecom": "tornado_images_OS2.0.202.0.VPOCNXM_20250906.0000.00_15.0_cn_chinatelecom_e1bc01ff2f.tgz",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-09-01"
 				}
 			}
 		},
@@ -125,6 +131,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -146,7 +153,8 @@
 					"release": "2025-09-23",
 					"recovery": "tornado_demo-ota_full-OS2.0.201.0.VPOCNDM-user-15.0-3b0abe84aa.zip",
 					"fastboot": "tornado_demo_images_OS2.0.201.0.VPOCNDM_20250812.0000.00_15.0_cn_46f5999efe.tgz",
-					"ctelecom": "tornado_demo_images_OS2.0.201.0.VPOCNDM_20250812.0000.00_15.0_cn_chinatelecom_ff02486397.tgz"
+					"ctelecom": "tornado_demo_images_OS2.0.201.0.VPOCNDM_20250812.0000.00_15.0_cn_chinatelecom_ff02486397.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -168,6 +176,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -184,56 +193,64 @@
 					"android": "16.0",
 					"release": "2026-05-22",
 					"recovery": "tornado_global-ota_full-OS3.0.301.0.WPOMIXM-user-16.0-d5e616db1f.zip",
-					"fastboot": "tornado_global_images_OS3.0.301.0.WPOMIXM_20260513.0000.00_16.0_global_c94e8f7506.tgz"
+					"fastboot": "tornado_global_images_OS3.0.301.0.WPOMIXM_20260513.0000.00_16.0_global_c94e8f7506.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WPOMIXM": {
 					"os": "OS3.0.3.0.WPOMIXM",
 					"android": "16.0",
 					"release": "2026-04-23",
 					"recovery": "tornado_global-ota_full-OS3.0.3.0.WPOMIXM-user-16.0-95ede93430.zip",
-					"fastboot": "tornado_global_images_OS3.0.3.0.WPOMIXM_20260417.0000.00_16.0_global_564ef87923.tgz"
+					"fastboot": "tornado_global_images_OS3.0.3.0.WPOMIXM_20260417.0000.00_16.0_global_564ef87923.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.1.0.WPOMIXM": {
 					"os": "OS3.0.1.0.WPOMIXM",
 					"android": "16.0",
 					"release": "2026-03-12",
 					"recovery": "tornado_global-ota_full-OS3.0.1.0.WPOMIXM-user-16.0-d1a4d43395.zip",
-					"fastboot": "tornado_global_images_OS3.0.1.0.WPOMIXM_20260206.0000.00_16.0_global_086d2a53ae.tgz"
+					"fastboot": "tornado_global_images_OS3.0.1.0.WPOMIXM_20260206.0000.00_16.0_global_086d2a53ae.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.207.0.VPOMIXM": {
 					"os": "OS2.0.207.0.VPOMIXM",
 					"android": "15.0",
 					"release": "2026-05-13",
 					"recovery": "tornado_global-ota_full-OS2.0.207.0.VPOMIXM-user-15.0-e1de95af7f.zip",
-					"fastboot": "tornado_global_images_OS2.0.207.0.VPOMIXM_20260424.0000.00_15.0_global_4aa383f0c8.tgz"
+					"fastboot": "tornado_global_images_OS2.0.207.0.VPOMIXM_20260424.0000.00_15.0_global_4aa383f0c8.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.206.0.VPOMIXM": {
 					"os": "OS2.0.206.0.VPOMIXM",
 					"android": "15.0",
 					"release": "2025-12-25",
 					"recovery": "tornado_global-ota_full-OS2.0.206.0.VPOMIXM-user-15.0-682128b635.zip",
-					"fastboot": "tornado_global_images_OS2.0.206.0.VPOMIXM_20251216.0000.00_15.0_global_707a896979.tgz"
+					"fastboot": "tornado_global_images_OS2.0.206.0.VPOMIXM_20251216.0000.00_15.0_global_707a896979.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VPOMIXM": {
 					"os": "OS2.0.205.0.VPOMIXM",
 					"android": "15.0",
 					"release": "2025-11-27",
 					"recovery": "tornado_global-ota_full-OS2.0.205.0.VPOMIXM-user-15.0-f54a1af708.zip",
-					"fastboot": "tornado_global_images_OS2.0.205.0.VPOMIXM_20251118.0000.00_15.0_global_1ca2ecf906.tgz"
+					"fastboot": "tornado_global_images_OS2.0.205.0.VPOMIXM_20251118.0000.00_15.0_global_1ca2ecf906.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VPOMIXM": {
 					"os": "OS2.0.203.0.VPOMIXM",
 					"android": "15.0",
 					"release": "2025-10-12",
 					"recovery": "tornado_global-ota_full-OS2.0.203.0.VPOMIXM-user-15.0-ae994d5ee2.zip",
-					"fastboot": "tornado_global_images_OS2.0.203.0.VPOMIXM_20250923.0000.00_15.0_global_4b3b40dfd0.tgz"
+					"fastboot": "tornado_global_images_OS2.0.203.0.VPOMIXM_20250923.0000.00_15.0_global_4b3b40dfd0.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VPOMIXM": {
 					"os": "OS2.0.202.0.VPOMIXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "tornado_global-ota_full-OS2.0.202.0.VPOMIXM-user-15.0-9ca795b8a9.zip",
-					"fastboot": "tornado_global_images_OS2.0.202.0.VPOMIXM_20250819.0000.00_15.0_global_911cb0e3b8.tgz"
+					"fastboot": "tornado_global_images_OS2.0.202.0.VPOMIXM_20250819.0000.00_15.0_global_911cb0e3b8.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -255,6 +272,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -271,35 +289,40 @@
 					"android": "16.0",
 					"release": "2026-03-23",
 					"recovery": "tornado_dc_global-ota_full-OS3.0.1.0.WPOMIDC-user-16.0-8f543603bb.zip",
-					"fastboot": "tornado_dc_global_images_OS3.0.1.0.WPOMIDC_20260310.0000.00_16.0_global_dc_8356482fc6.tgz"
+					"fastboot": "tornado_dc_global_images_OS3.0.1.0.WPOMIDC_20260310.0000.00_16.0_global_dc_8356482fc6.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.206.0.VPOMIDC": {
 					"os": "OS2.0.206.0.VPOMIDC",
 					"android": "15.0",
 					"release": "2026-02-04",
 					"recovery": "tornado_dc_global-ota_full-OS2.0.206.0.VPOMIDC-user-15.0-a87d889dfc.zip",
-					"fastboot": "tornado_dc_global_images_OS2.0.206.0.VPOMIDC_20260126.0000.00_15.0_global_dc_581a8aaa71.tgz"
+					"fastboot": "tornado_dc_global_images_OS2.0.206.0.VPOMIDC_20260126.0000.00_15.0_global_dc_581a8aaa71.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.205.0.VPOMIDC": {
 					"os": "OS2.0.205.0.VPOMIDC",
 					"android": "15.0",
 					"release": "2025-11-27",
 					"recovery": "tornado_dc_global-ota_full-OS2.0.205.0.VPOMIDC-user-15.0-d3831cc919.zip",
-					"fastboot": "tornado_dc_global_images_OS2.0.205.0.VPOMIDC_20251117.0000.00_15.0_global_dc_43d78c5d49.tgz"
+					"fastboot": "tornado_dc_global_images_OS2.0.205.0.VPOMIDC_20251117.0000.00_15.0_global_dc_43d78c5d49.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VPOMIDC": {
 					"os": "OS2.0.204.0.VPOMIDC",
 					"android": "15.0",
 					"release": "2025-10-12",
 					"recovery": "tornado_dc_global-ota_full-OS2.0.204.0.VPOMIDC-user-15.0-d69d9f0bfa.zip",
-					"fastboot": "tornado_dc_global_images_OS2.0.204.0.VPOMIDC_20250924.0000.00_15.0_global_dc_31ef599dec.tgz"
+					"fastboot": "tornado_dc_global_images_OS2.0.204.0.VPOMIDC_20250924.0000.00_15.0_global_dc_31ef599dec.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VPOMIDC": {
 					"os": "OS2.0.202.0.VPOMIDC",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "tornado_dc_global-ota_full-OS2.0.202.0.VPOMIDC-user-15.0-cca52d469e.zip",
-					"fastboot": "tornado_dc_global_images_OS2.0.202.0.VPOMIDC_20250826.0000.00_15.0_global_dc_043f44ae99.tgz"
+					"fastboot": "tornado_dc_global_images_OS2.0.202.0.VPOMIDC_20250826.0000.00_15.0_global_dc_043f44ae99.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -321,6 +344,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -337,42 +361,48 @@
 					"android": "15.0",
 					"release": "2026-06-01",
 					"recovery": "tornado_eea_global-ota_full-OS2.0.209.0.VPOEUXM-user-15.0-bbc6918c8e.zip",
-					"fastboot": "tornado_eea_global_images_OS2.0.209.0.VPOEUXM_20260525.0000.00_15.0_eea_dee88fd20f.tgz"
+					"fastboot": "tornado_eea_global_images_OS2.0.209.0.VPOEUXM_20260525.0000.00_15.0_eea_dee88fd20f.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.208.0.VPOEUXM": {
 					"os": "OS2.0.208.0.VPOEUXM",
 					"android": "15.0",
 					"release": "2026-04-23",
 					"recovery": "tornado_eea_global-ota_full-OS2.0.208.0.VPOEUXM-user-15.0-f5194ab232.zip",
-					"fastboot": "tornado_eea_global_images_OS2.0.208.0.VPOEUXM_20260417.0000.00_15.0_eea_8deb0bc34d.tgz"
+					"fastboot": "tornado_eea_global_images_OS2.0.208.0.VPOEUXM_20260417.0000.00_15.0_eea_8deb0bc34d.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.207.0.VPOEUXM": {
 					"os": "OS2.0.207.0.VPOEUXM",
 					"android": "15.0",
 					"release": "2026-03-16",
 					"recovery": "tornado_eea_global-ota_full-OS2.0.207.0.VPOEUXM-user-15.0-06698b623c.zip",
-					"fastboot": "tornado_eea_global_images_OS2.0.207.0.VPOEUXM_20260310.0000.00_15.0_eea_480ce21eeb.tgz"
+					"fastboot": "tornado_eea_global_images_OS2.0.207.0.VPOEUXM_20260310.0000.00_15.0_eea_480ce21eeb.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.205.0.VPOEUXM": {
 					"os": "OS2.0.205.0.VPOEUXM",
 					"android": "15.0",
 					"release": "2026-01-04",
 					"recovery": "tornado_eea_global-ota_full-OS2.0.205.0.VPOEUXM-user-15.0-6e10316750.zip",
-					"fastboot": "tornado_eea_global_images_OS2.0.205.0.VPOEUXM_20251227.0000.00_15.0_eea_53bbaf212b.tgz"
+					"fastboot": "tornado_eea_global_images_OS2.0.205.0.VPOEUXM_20251227.0000.00_15.0_eea_53bbaf212b.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.204.0.VPOEUXM": {
 					"os": "OS2.0.204.0.VPOEUXM",
 					"android": "15.0",
 					"release": "2025-11-16",
 					"recovery": "tornado_eea_global-ota_full-OS2.0.204.0.VPOEUXM-user-15.0-987bf0b62b.zip",
-					"fastboot": "tornado_eea_global_images_OS2.0.204.0.VPOEUXM_20251104.0000.00_15.0_eea_ef0c701a42.tgz"
+					"fastboot": "tornado_eea_global_images_OS2.0.204.0.VPOEUXM_20251104.0000.00_15.0_eea_ef0c701a42.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VPOEUXM": {
 					"os": "OS2.0.203.0.VPOEUXM",
 					"android": "15.0",
 					"release": "2025-10-15",
 					"recovery": "tornado_eea_global-ota_full-OS2.0.203.0.VPOEUXM-user-15.0-43388b1b49.zip",
-					"fastboot": "tornado_eea_global_images_OS2.0.203.0.VPOEUXM_20250918.0000.00_15.0_eea_111b548a9f.tgz"
+					"fastboot": "tornado_eea_global_images_OS2.0.203.0.VPOEUXM_20250918.0000.00_15.0_eea_111b548a9f.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VPOEUXM": {
 					"os": "OS2.0.202.0.VPOEUXM",
@@ -408,6 +438,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -424,49 +455,56 @@
 					"android": "16.0",
 					"release": "2026-06-08",
 					"recovery": "tornado_in_global-ota_full-OS3.0.303.0.WPOINXM-user-16.0-96190d6b4e.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.301.0.WPOINXM": {
 					"os": "OS3.0.301.0.WPOINXM",
 					"android": "16.0",
 					"release": "2026-04-24",
 					"recovery": "tornado_in_global-ota_full-OS3.0.301.0.WPOINXM-user-16.0-599ff966b9.zip",
-					"fastboot": "tornado_in_global_images_OS3.0.301.0.WPOINXM_20260417.0000.00_16.0_in_b50402f75b.tgz"
+					"fastboot": "tornado_in_global_images_OS3.0.301.0.WPOINXM_20260417.0000.00_16.0_in_b50402f75b.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.2.0.WPOINXM": {
 					"os": "OS3.0.2.0.WPOINXM",
 					"android": "16.0",
 					"release": "2026-04-07",
 					"recovery": "tornado_in_global-ota_full-OS3.0.2.0.WPOINXM-user-16.0-6a26a8fd42.zip",
-					"fastboot": "tornado_in_global_images_OS3.0.2.0.WPOINXM_20260401.0000.00_16.0_in_0f912e1513.tgz"
+					"fastboot": "tornado_in_global_images_OS3.0.2.0.WPOINXM_20260401.0000.00_16.0_in_0f912e1513.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.1.0.WPOINXM": {
 					"os": "OS3.0.1.0.WPOINXM",
 					"android": "16.0",
 					"release": "2026-03-16",
 					"recovery": "tornado_in_global-ota_full-OS3.0.1.0.WPOINXM-user-16.0-204b2046fb.zip",
-					"fastboot": "tornado_in_global_images_OS3.0.1.0.WPOINXM_20260225.0000.00_16.0_in_c37f70a13b.tgz"
+					"fastboot": "tornado_in_global_images_OS3.0.1.0.WPOINXM_20260225.0000.00_16.0_in_c37f70a13b.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.204.0.VPOINXM": {
 					"os": "OS2.0.204.0.VPOINXM",
 					"android": "15.0",
 					"release": "2026-02-10",
 					"recovery": "tornado_in_global-ota_full-OS2.0.204.0.VPOINXM-user-15.0-9fb9ab7702.zip",
-					"fastboot": "tornado_in_global_images_OS2.0.204.0.VPOINXM_20260119.0000.00_15.0_in_2b54c64da2.tgz"
+					"fastboot": "tornado_in_global_images_OS2.0.204.0.VPOINXM_20260119.0000.00_15.0_in_2b54c64da2.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.203.0.VPOINXM": {
 					"os": "OS2.0.203.0.VPOINXM",
 					"android": "15.0",
 					"release": "2025-12-22",
 					"recovery": "tornado_in_global-ota_full-OS2.0.203.0.VPOINXM-user-15.0-6375d83ace.zip",
-					"fastboot": "tornado_in_global_images_OS2.0.203.0.VPOINXM_20251201.0000.00_15.0_in_90fc8e0949.tgz"
+					"fastboot": "tornado_in_global_images_OS2.0.203.0.VPOINXM_20251201.0000.00_15.0_in_90fc8e0949.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VPOINXM": {
 					"os": "OS2.0.202.0.VPOINXM",
 					"android": "15.0",
 					"release": "2025-11-12",
 					"recovery": "tornado_in_global-ota_full-OS2.0.202.0.VPOINXM-user-15.0-955fd223a5.zip",
-					"fastboot": "tornado_in_global_images_OS2.0.202.0.VPOINXM_20251024.0000.00_15.0_in_98accb585d.tgz"
+					"fastboot": "tornado_in_global_images_OS2.0.202.0.VPOINXM_20251024.0000.00_15.0_in_98accb585d.tgz",
+					"aspatch": "2025-10-01"
 				}
 			}
 		},
@@ -488,6 +526,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -504,35 +543,40 @@
 					"android": "16.0",
 					"release": "2026-05-22",
 					"recovery": "tornado_tr_global-ota_full-OS3.0.301.0.WPOTRXM-user-16.0-b0c19b2592.zip",
-					"fastboot": "tornado_tr_global_images_OS3.0.301.0.WPOTRXM_20260513.0000.00_16.0_tr_4a85ae08ff.tgz"
+					"fastboot": "tornado_tr_global_images_OS3.0.301.0.WPOTRXM_20260513.0000.00_16.0_tr_4a85ae08ff.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.204.0.VPOTRXM": {
 					"os": "OS2.0.204.0.VPOTRXM",
 					"android": "15.0",
 					"release": "2026-02-04",
 					"recovery": "tornado_tr_global-ota_full-OS2.0.204.0.VPOTRXM-user-15.0-a53a084f72.zip",
-					"fastboot": "tornado_tr_global_images_OS2.0.204.0.VPOTRXM_20260126.0000.00_15.0_tr_4860049193.tgz"
+					"fastboot": "tornado_tr_global_images_OS2.0.204.0.VPOTRXM_20260126.0000.00_15.0_tr_4860049193.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.203.0.VPOTRXM": {
 					"os": "OS2.0.203.0.VPOTRXM",
 					"android": "15.0",
 					"release": "2025-12-13",
 					"recovery": "tornado_tr_global-ota_full-OS2.0.203.0.VPOTRXM-user-15.0-7de5a28ed3.zip",
-					"fastboot": "tornado_tr_global_images_OS2.0.203.0.VPOTRXM_20251201.0000.00_15.0_tr_27d6ef0148.tgz"
+					"fastboot": "tornado_tr_global_images_OS2.0.203.0.VPOTRXM_20251201.0000.00_15.0_tr_27d6ef0148.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VPOTRXM": {
 					"os": "OS2.0.202.0.VPOTRXM",
 					"android": "15.0",
 					"release": "2025-10-31",
 					"recovery": "tornado_tr_global-ota_full-OS2.0.202.0.VPOTRXM-user-15.0-f772c469fc.zip",
-					"fastboot": "tornado_tr_global_images_OS2.0.202.0.VPOTRXM_20251010.0000.00_15.0_tr_66ab4df081.tgz"
+					"fastboot": "tornado_tr_global_images_OS2.0.202.0.VPOTRXM_20251010.0000.00_15.0_tr_66ab4df081.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VPOTRXM": {
 					"os": "OS2.0.201.0.VPOTRXM",
 					"android": "15.0",
 					"release": "2025-09-29",
 					"recovery": "tornado_tr_global-ota_full-OS2.0.201.0.VPOTRXM-user-15.0-ceca12b443.zip",
-					"fastboot": "tornado_tr_global_images_OS2.0.201.0.VPOTRXM_20250906.0000.00_15.0_tr_cd8c9cb2d1.tgz"
+					"fastboot": "tornado_tr_global_images_OS2.0.201.0.VPOTRXM_20250906.0000.00_15.0_tr_cd8c9cb2d1.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -554,6 +598,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -570,35 +615,40 @@
 					"android": "15.0",
 					"release": "2026-05-19",
 					"recovery": "tornado_lm_cr_global-ota_full-OS2.0.205.0.VPOLMCR-user-15.0-f082b2058a.zip",
-					"fastboot": "tornado_lm_cr_global_images_OS2.0.205.0.VPOLMCR_20260424.0000.00_15.0_lm_cr_080170d44b.tgz"
+					"fastboot": "tornado_lm_cr_global_images_OS2.0.205.0.VPOLMCR_20260424.0000.00_15.0_lm_cr_080170d44b.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.204.0.VPOLMCR": {
 					"os": "OS2.0.204.0.VPOLMCR",
 					"android": "15.0",
 					"release": "2026-02-24",
 					"recovery": "tornado_lm_cr_global-ota_full-OS2.0.204.0.VPOLMCR-user-15.0-aa964b06dc.zip",
-					"fastboot": "tornado_lm_cr_global_images_OS2.0.204.0.VPOLMCR_20260205.0000.00_15.0_lm_cr_5482beb3f8.tgz"
+					"fastboot": "tornado_lm_cr_global_images_OS2.0.204.0.VPOLMCR_20260205.0000.00_15.0_lm_cr_5482beb3f8.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VPOLMCR": {
 					"os": "OS2.0.203.0.VPOLMCR",
 					"android": "15.0",
 					"release": "2025-12-31",
 					"recovery": "tornado_lm_cr_global-ota_full-OS2.0.203.0.VPOLMCR-user-15.0-5672d140ce.zip",
-					"fastboot": "tornado_lm_cr_global_images_OS2.0.203.0.VPOLMCR_20251218.0000.00_15.0_lm_cr_db054d1330.tgz"
+					"fastboot": "tornado_lm_cr_global_images_OS2.0.203.0.VPOLMCR_20251218.0000.00_15.0_lm_cr_db054d1330.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.202.0.VPOLMCR": {
 					"os": "OS2.0.202.0.VPOLMCR",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "tornado_lm_cr_global-ota_full-OS2.0.202.0.VPOLMCR-user-15.0-3f00e19fca.zip",
-					"fastboot": "tornado_lm_cr_global_images_OS2.0.202.0.VPOLMCR_20250929.0000.00_15.0_lm_cr_d7062c0c6f.tgz"
+					"fastboot": "tornado_lm_cr_global_images_OS2.0.202.0.VPOLMCR_20250929.0000.00_15.0_lm_cr_d7062c0c6f.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VPOLMCR": {
 					"os": "OS2.0.201.0.VPOLMCR",
 					"android": "15.0",
 					"release": "2025-09-30",
 					"recovery": "tornado_lm_cr_global-ota_full-OS2.0.201.0.VPOLMCR-user-15.0-d84b6fe593.zip",
-					"fastboot": "tornado_lm_cr_global_images_OS2.0.201.0.VPOLMCR_20250825.0000.00_15.0_lm_cr_4702f84864.tgz"
+					"fastboot": "tornado_lm_cr_global_images_OS2.0.201.0.VPOLMCR_20250825.0000.00_15.0_lm_cr_4702f84864.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		}

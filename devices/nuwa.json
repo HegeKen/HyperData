@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -56,21 +57,24 @@
 					"android": "15.0",
 					"release": "2025-05-27",
 					"recovery": "nuwa-ota_full-OS2.0.200.10.VMBCNXM-user-15.0-6165f9a21b.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.7.VMBCNXM": {
 					"os": "OS2.0.200.7.VMBCNXM",
 					"android": "15.0",
 					"release": "2025-05-15",
 					"recovery": "nuwa-ota_full-OS2.0.200.7.VMBCNXM-user-15.0-36a4b9b024.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.0.21.VMBCNXM": {
 					"os": "OS2.0.0.21.VMBCNXM",
 					"android": "15.0",
 					"release": "2024-12-06",
 					"recovery": "nuwa-ota_full-OS2.0.0.21.VMBCNXM-user-15.0-bfd12c9288.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -85,6 +89,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -111,252 +116,288 @@
 					"android": "14.0",
 					"release": "2024-08-02",
 					"recovery": "miui_NUWA_OS1.0.24.7.28.DEV_0f2227743d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.27.DEV": {
 					"os": "OS1.0.24.7.27.DEV",
 					"android": "14.0",
 					"release": "2024-07-27",
 					"recovery": "miui_NUWA_OS1.0.24.7.27.DEV_2e72116fef_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.26.DEV": {
 					"os": "OS1.0.24.7.26.DEV",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_NUWA_OS1.0.24.7.26.DEV_c91c331f25_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.24.DEV": {
 					"os": "OS1.0.24.7.24.DEV",
 					"android": "14.0",
 					"release": "2024-07-24",
 					"recovery": "miui_NUWA_OS1.0.24.7.24.DEV_d3388b024f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.15.DEV": {
 					"os": "OS1.0.24.7.15.DEV",
 					"android": "14.0",
 					"release": "2024-07-19",
 					"recovery": "miui_NUWA_OS1.0.24.7.15.DEV_a38f2cd25d_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.8.DEV": {
 					"os": "OS1.0.24.7.8.DEV",
 					"android": "14.0",
 					"release": "2024-07-12",
 					"recovery": "miui_NUWA_OS1.0.24.7.8.DEV_56a2d27935_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.7.1.DEV": {
 					"os": "OS1.0.24.7.1.DEV",
 					"android": "14.0",
 					"release": "2024-07-05",
 					"recovery": "miui_NUWA_OS1.0.24.7.1.DEV_deb4199bf1_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.24.6.24.DEV": {
 					"os": "OS1.0.24.6.24.DEV",
 					"android": "14.0",
 					"release": "2024-06-28",
 					"recovery": "miui_NUWA_OS1.0.24.6.24.DEV_1a064f13c9_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.6.17.DEV": {
 					"os": "OS1.0.24.6.17.DEV",
 					"android": "14.0",
 					"release": "2024-06-21",
 					"recovery": "miui_NUWA_OS1.0.24.6.17.DEV_bb5e1a602f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.6.10.DEV": {
 					"os": "OS1.0.24.6.10.DEV",
 					"android": "14.0",
 					"release": "2024-06-14",
 					"recovery": "miui_NUWA_OS1.0.24.6.10.DEV_6570e2e3ce_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.6.3.DEV": {
 					"os": "OS1.0.24.6.3.DEV",
 					"android": "14.0",
 					"release": "2024-06-07",
 					"recovery": "miui_NUWA_OS1.0.24.6.3.DEV_95c3656af2_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.24.5.27.DEV": {
 					"os": "OS1.0.24.5.27.DEV",
 					"android": "14.0",
 					"release": "2024-05-31",
 					"recovery": "miui_NUWA_OS1.0.24.5.27.DEV_9bca3140a7_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.24.5.20.DEV": {
 					"os": "OS1.0.24.5.20.DEV",
 					"android": "14.0",
 					"release": "2024-05-24",
 					"recovery": "miui_NUWA_OS1.0.24.5.20.DEV_5ca42647a2_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.24.5.13.DEV": {
 					"os": "OS1.0.24.5.13.DEV",
 					"android": "14.0",
 					"release": "2024-05-17",
 					"recovery": "miui_NUWA_OS1.0.24.5.13.DEV_4a48f965f5_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.24.5.6.DEV": {
 					"os": "OS1.0.24.5.6.DEV",
 					"android": "14.0",
 					"release": "2024-05-10",
 					"recovery": "miui_NUWA_OS1.0.24.5.6.DEV_0faf900afa_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.24.4.22.DEV": {
 					"os": "OS1.0.24.4.22.DEV",
 					"android": "14.0",
 					"release": "2024-04-26",
 					"recovery": "miui_NUWA_OS1.0.24.4.22.DEV_b893afdaeb_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.24.4.15.DEV": {
 					"os": "OS1.0.24.4.15.DEV",
 					"android": "14.0",
 					"release": "2024-04-19",
 					"recovery": "miui_NUWA_OS1.0.24.4.15.DEV_52c02ecfbb_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.24.4.8.DEV": {
 					"os": "OS1.0.24.4.8.DEV",
 					"android": "14.0",
 					"release": "2024-04-12",
 					"recovery": "miui_NUWA_OS1.0.24.4.8.DEV_141a0cbffc_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.24.3.25.DEV": {
 					"os": "OS1.0.24.3.25.DEV",
 					"android": "14.0",
 					"release": "2024-03-29",
 					"recovery": "miui_NUWA_OS1.0.24.3.25.DEV_8754c6b161_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.24.3.18.DEV": {
 					"os": "OS1.0.24.3.18.DEV",
 					"android": "14.0",
 					"release": "2024-03-22",
 					"recovery": "miui_NUWA_OS1.0.24.3.18.DEV_78849e685c_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.24.3.11.DEV": {
 					"os": "OS1.0.24.3.11.DEV",
 					"android": "14.0",
 					"release": "2024-03-15",
 					"recovery": "miui_NUWA_OS1.0.24.3.11.DEV_3d14e7e860_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.24.3.4.DEV": {
 					"os": "OS1.0.24.3.4.DEV",
 					"android": "14.0",
 					"release": "2024-03-08",
 					"recovery": "miui_NUWA_OS1.0.24.3.4.DEV_1e3e900c9a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.24.2.26.DEV": {
 					"os": "OS1.0.24.2.26.DEV",
 					"android": "14.0",
 					"release": "2024-03-01",
 					"recovery": "miui_NUWA_OS1.0.24.2.26.DEV_1c47805b39_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.24.2.20.DEV": {
 					"os": "OS1.0.24.2.20.DEV",
 					"android": "14.0",
 					"release": "2024-02-23",
 					"recovery": "miui_NUWA_OS1.0.24.2.20.DEV_3537c0589a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.24.1.29.DEV": {
 					"os": "OS1.0.24.1.29.DEV",
 					"android": "14.0",
 					"release": "2024-02-02",
 					"recovery": "miui_NUWA_OS1.0.24.1.29.DEV_f169a3e347_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.24.1.22.DEV": {
 					"os": "OS1.0.24.1.22.DEV",
 					"android": "14.0",
 					"release": "2024-01-26",
 					"recovery": "miui_NUWA_OS1.0.24.1.22.DEV_63f0b1133e_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.24.1.15.DEV": {
 					"os": "OS1.0.24.1.15.DEV",
 					"android": "14.0",
 					"release": "2024-01-19",
 					"recovery": "miui_NUWA_OS1.0.24.1.15.DEV_6f92fbaafe_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.24.1.8.DEV": {
 					"os": "OS1.0.24.1.8.DEV",
 					"android": "14.0",
 					"release": "2024-01-12",
 					"recovery": "miui_NUWA_OS1.0.24.1.8.DEV_91fb329107_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.24.1.1.DEV": {
 					"os": "OS1.0.24.1.1.DEV",
 					"android": "14.0",
 					"release": "2024-01-05",
 					"recovery": "miui_NUWA_OS1.0.24.1.1.DEV_d3b980e283_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.23.12.28.DEV": {
 					"os": "OS1.0.23.12.28.DEV",
 					"android": "14.0",
 					"release": "2023-12-29",
 					"recovery": "miui_NUWA_OS1.0.23.12.28.DEV_0400296b76_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.23.12.18.DEV": {
 					"os": "OS1.0.23.12.18.DEV",
 					"android": "14.0",
 					"release": "2023-12-22",
 					"recovery": "miui_NUWA_OS1.0.23.12.18.DEV_032d3dd705_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.23.12.11.DEV": {
 					"os": "OS1.0.23.12.11.DEV",
 					"android": "14.0",
 					"release": "2023-12-15",
 					"recovery": "miui_NUWA_OS1.0.23.12.11.DEV_dae9cb0c6e_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.23.12.4.DEV": {
 					"os": "OS1.0.23.12.4.DEV",
 					"android": "14.0",
 					"release": "2023-12-08",
 					"recovery": "miui_NUWA_OS1.0.23.12.4.DEV_f41c7d1212_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.23.11.27.DEV": {
 					"os": "OS1.0.23.11.27.DEV",
 					"android": "14.0",
 					"release": "2023-12-01",
 					"recovery": "miui_NUWA_OS1.0.23.11.27.DEV_4684fad253_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.19.DEV": {
 					"os": "OS1.0.23.11.19.DEV",
 					"android": "14.0",
 					"release": "2023-11-21",
 					"recovery": "miui_NUWA_OS1.0.23.11.19.DEV_6b6144d20a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.23.11.8.DEV": {
 					"os": "OS1.0.23.11.8.DEV",
 					"android": "14.0",
 					"release": "2023-11-08",
 					"recovery": "miui_NUWA_OS1.0.23.11.8.DEV_bee30be1cd_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -378,6 +419,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -399,7 +441,8 @@
 					"release": "2026-05-07",
 					"recovery": "nuwa-ota_full-OS3.0.309.0.WMBCNXM-user-16.0-1b8bab56f1.zip",
 					"fastboot": "nuwa_images_OS3.0.309.0.WMBCNXM_20260428.0000.00_16.0_cn_8221434e90.tgz",
-					"ctelecom": "nuwa_images_OS3.0.309.0.WMBCNXM_20260428.0000.00_16.0_cn_chinatelecom_fe6569b172.tgz"
+					"ctelecom": "nuwa_images_OS3.0.309.0.WMBCNXM_20260428.0000.00_16.0_cn_chinatelecom_fe6569b172.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.305.0.WMBCNXM": {
 					"os": "OS3.0.305.0.WMBCNXM",
@@ -407,7 +450,8 @@
 					"release": "2026-04-22",
 					"recovery": "nuwa-ota_full-OS3.0.305.0.WMBCNXM-user-16.0-4ce123c147.zip",
 					"fastboot": "nuwa_images_OS3.0.305.0.WMBCNXM_20260417.0000.00_16.0_cn_d9b034d96b.tgz",
-					"ctelecom": "nuwa_images_OS3.0.305.0.WMBCNXM_20260417.0000.00_16.0_cn_chinatelecom_f7b217336d.tgz"
+					"ctelecom": "nuwa_images_OS3.0.305.0.WMBCNXM_20260417.0000.00_16.0_cn_chinatelecom_f7b217336d.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.4.0.WMBCNXM": {
 					"os": "OS3.0.4.0.WMBCNXM",
@@ -415,7 +459,8 @@
 					"release": "2026-02-03",
 					"recovery": "nuwa-ota_full-OS3.0.4.0.WMBCNXM-user-16.0-1677be1a1d.zip",
 					"fastboot": "nuwa_images_OS3.0.4.0.WMBCNXM_20260127.0000.00_16.0_cn_980c69040d.tgz",
-					"ctelecom": "nuwa_images_OS3.0.4.0.WMBCNXM_20260127.0000.00_16.0_cn_chinatelecom_2abb1a5524.tgz"
+					"ctelecom": "nuwa_images_OS3.0.4.0.WMBCNXM_20260127.0000.00_16.0_cn_chinatelecom_2abb1a5524.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WMBCNXM": {
 					"os": "OS3.0.3.0.WMBCNXM",
@@ -423,7 +468,8 @@
 					"release": "2025-12-10",
 					"recovery": "nuwa-ota_full-OS3.0.3.0.WMBCNXM-user-16.0-625b531b0d.zip",
 					"fastboot": "nuwa_images_OS3.0.3.0.WMBCNXM_20251128.0000.00_16.0_cn_64c8e5ed1d.tgz",
-					"ctelecom": "nuwa_images_OS3.0.3.0.WMBCNXM_20251128.0000.00_16.0_cn_chinatelecom_8db41e8b64.tgz"
+					"ctelecom": "nuwa_images_OS3.0.3.0.WMBCNXM_20251128.0000.00_16.0_cn_chinatelecom_8db41e8b64.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.219.0.VMBCNXM": {
 					"os": "OS2.0.219.0.VMBCNXM",
@@ -431,7 +477,8 @@
 					"release": "2025-11-19",
 					"recovery": "nuwa-ota_full-OS2.0.219.0.VMBCNXM-user-15.0-194f4d3369.zip",
 					"fastboot": "nuwa_images_OS2.0.219.0.VMBCNXM_20251115.0000.00_15.0_cn_3a69359468.tgz",
-					"ctelecom": "nuwa_images_OS2.0.219.0.VMBCNXM_20251115.0000.00_15.0_cn_chinatelecom_06e265cc9b.tgz"
+					"ctelecom": "nuwa_images_OS2.0.219.0.VMBCNXM_20251115.0000.00_15.0_cn_chinatelecom_06e265cc9b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.216.0.VMBCNXM": {
 					"os": "OS2.0.216.0.VMBCNXM",
@@ -439,7 +486,8 @@
 					"release": "2025-10-15",
 					"recovery": "nuwa-ota_full-OS2.0.216.0.VMBCNXM-user-15.0-7836f58d45.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.215.0.VMBCNXM": {
 					"os": "OS2.0.215.0.VMBCNXM",
@@ -447,7 +495,8 @@
 					"release": "2025-09-25",
 					"recovery": "nuwa-ota_full-OS2.0.215.0.VMBCNXM-user-15.0-03badd90e8.zip",
 					"fastboot": "nuwa_images_OS2.0.215.0.VMBCNXM_20250917.0000.00_15.0_cn_6cacc858c8.tgz",
-					"ctelecom": "nuwa_images_OS2.0.215.0.VMBCNXM_20250917.0000.00_15.0_cn_chinatelecom_9c10526d74.tgz"
+					"ctelecom": "nuwa_images_OS2.0.215.0.VMBCNXM_20250917.0000.00_15.0_cn_chinatelecom_9c10526d74.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.212.0.VMBCNXM": {
 					"os": "OS2.0.212.0.VMBCNXM",
@@ -455,7 +504,8 @@
 					"release": "2025-08-28",
 					"recovery": "nuwa-ota_full-OS2.0.212.0.VMBCNXM-user-15.0-539dd64054.zip",
 					"fastboot": "nuwa_images_OS2.0.212.0.VMBCNXM_20250826.0000.00_15.0_cn_7f70272c7c.tgz",
-					"ctelecom": "nuwa_images_OS2.0.212.0.VMBCNXM_20250826.0000.00_15.0_cn_chinatelecom_6c496cd83d.tgz"
+					"ctelecom": "nuwa_images_OS2.0.212.0.VMBCNXM_20250826.0000.00_15.0_cn_chinatelecom_6c496cd83d.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.211.0.VMBCNXM": {
 					"os": "OS2.0.211.0.VMBCNXM",
@@ -463,7 +513,8 @@
 					"release": "2025-08-21",
 					"recovery": "nuwa-ota_full-OS2.0.211.0.VMBCNXM-user-15.0-d7cf65d649.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.206.0.VMBCNXM": {
 					"os": "OS2.0.206.0.VMBCNXM",
@@ -471,7 +522,8 @@
 					"release": "2025-08-11",
 					"recovery": "nuwa-ota_full-OS2.0.206.0.VMBCNXM-user-15.0-7b6a3c058f.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.203.0.VMBCNXM": {
 					"os": "OS2.0.203.0.VMBCNXM",
@@ -479,7 +531,8 @@
 					"release": "2025-06-14",
 					"recovery": "nuwa-ota_full-OS2.0.203.0.VMBCNXM-user-15.0-452801a3d4.zip",
 					"fastboot": "nuwa_images_OS2.0.203.0.VMBCNXM_20250610.0000.00_15.0_cn_e776258dee.tgz",
-					"ctelecom": "nuwa_images_OS2.0.203.0.VMBCNXM_20250610.0000.00_15.0_cn_chinatelecom_1bed194fa4.tgz"
+					"ctelecom": "nuwa_images_OS2.0.203.0.VMBCNXM_20250610.0000.00_15.0_cn_chinatelecom_1bed194fa4.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.107.0.VMBCNXM": {
 					"os": "OS2.0.107.0.VMBCNXM",
@@ -487,7 +540,8 @@
 					"release": "2025-04-24",
 					"recovery": "nuwa-ota_full-OS2.0.107.0.VMBCNXM-user-15.0-ae21c2ef9d.zip",
 					"fastboot": "nuwa_images_OS2.0.107.0.VMBCNXM_20250410.0000.00_15.0_cn_dc8f081212.tgz",
-					"ctelecom": "nuwa_images_OS2.0.107.0.VMBCNXM_20250410.0000.00_15.0_cn_chinatelecom_483586fe95.tgz"
+					"ctelecom": "nuwa_images_OS2.0.107.0.VMBCNXM_20250410.0000.00_15.0_cn_chinatelecom_483586fe95.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.106.0.VMBCNXM": {
 					"os": "OS2.0.106.0.VMBCNXM",
@@ -495,7 +549,8 @@
 					"release": "2025-03-28",
 					"recovery": "nuwa-ota_full-OS2.0.106.0.VMBCNXM-user-15.0-d44e52d292.zip",
 					"fastboot": "nuwa_images_OS2.0.106.0.VMBCNXM_20250323.0000.00_15.0_cn_cbdd0b0e4d.tgz",
-					"ctelecom": "nuwa_images_OS2.0.106.0.VMBCNXM_20250323.0000.00_15.0_cn_chinatelecom_1cb7151d83.tgz"
+					"ctelecom": "nuwa_images_OS2.0.106.0.VMBCNXM_20250323.0000.00_15.0_cn_chinatelecom_1cb7151d83.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.103.0.VMBCNXM": {
 					"os": "OS2.0.103.0.VMBCNXM",
@@ -503,7 +558,8 @@
 					"release": "2025-02-21",
 					"recovery": "nuwa-ota_full-OS2.0.103.0.VMBCNXM-user-15.0-e6b2b498cd.zip",
 					"fastboot": "nuwa_images_OS2.0.103.0.VMBCNXM_20250218.0000.00_15.0_cn_099649e9c8.tgz",
-					"ctelecom": "nuwa_images_OS2.0.103.0.VMBCNXM_20250218.0000.00_15.0_cn_chinatelecom_a51b512b19.tgz"
+					"ctelecom": "nuwa_images_OS2.0.103.0.VMBCNXM_20250218.0000.00_15.0_cn_chinatelecom_a51b512b19.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.102.0.VMBCNXM": {
 					"os": "OS2.0.102.0.VMBCNXM",
@@ -511,7 +567,8 @@
 					"release": "2025-02-14",
 					"recovery": "nuwa-ota_full-OS2.0.102.0.VMBCNXM-user-15.0-2c44f9d0b5.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.100.0.VMBCNXM": {
 					"os": "OS2.0.100.0.VMBCNXM",
@@ -519,7 +576,8 @@
 					"release": "2025-01-17",
 					"recovery": "nuwa-ota_full-OS2.0.100.0.VMBCNXM-user-15.0-632fc8251d.zip",
 					"fastboot": "nuwa_images_OS2.0.100.0.VMBCNXM_20250109.0000.00_15.0_cn_9760ea788a.tgz",
-					"ctelecom": "nuwa_images_OS2.0.100.0.VMBCNXM_20250109.0000.00_15.0_cn_chinatelecom_86b78dd1dc.tgz"
+					"ctelecom": "nuwa_images_OS2.0.100.0.VMBCNXM_20250109.0000.00_15.0_cn_chinatelecom_86b78dd1dc.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.3.0.VMBCNXM": {
 					"os": "OS2.0.3.0.VMBCNXM",
@@ -527,7 +585,8 @@
 					"release": "2024-12-22",
 					"recovery": "nuwa-ota_full-OS2.0.3.0.VMBCNXM-user-15.0-515298c113.zip",
 					"fastboot": "nuwa_images_OS2.0.3.0.VMBCNXM_20241219.0000.00_15.0_cn_056ae435a6.tgz",
-					"ctelecom": "nuwa_images_OS2.0.3.0.VMBCNXM_20241219.0000.00_15.0_cn_chinatelecom_fcb88eb4a6.tgz"
+					"ctelecom": "nuwa_images_OS2.0.3.0.VMBCNXM_20241219.0000.00_15.0_cn_chinatelecom_fcb88eb4a6.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.16.0.UMBCNXM": {
 					"os": "OS1.0.16.0.UMBCNXM",
@@ -535,7 +594,8 @@
 					"release": "2024-11-25",
 					"recovery": "miui_NUWA_OS1.0.16.0.UMBCNXM_70accbaa41_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.16.0.UMBCNXM_20241114.0000.00_14.0_cn_c0a11967c6.tgz",
-					"ctelecom": "nuwa_images_OS1.0.16.0.UMBCNXM_20241114.0000.00_14.0_cn_chinatelecom_b22e269d13.tgz"
+					"ctelecom": "nuwa_images_OS1.0.16.0.UMBCNXM_20241114.0000.00_14.0_cn_chinatelecom_b22e269d13.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.15.0.UMBCNXM": {
 					"os": "OS1.0.15.0.UMBCNXM",
@@ -543,7 +603,8 @@
 					"release": "2024-10-28",
 					"recovery": "miui_NUWA_OS1.0.15.0.UMBCNXM_650d1d27e1_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.15.0.UMBCNXM_20241016.0000.00_14.0_cn_dbc9b27183.tgz",
-					"ctelecom": "nuwa_images_OS1.0.15.0.UMBCNXM_20241016.0000.00_14.0_cn_chinatelecom_aa860f02bd.tgz"
+					"ctelecom": "nuwa_images_OS1.0.15.0.UMBCNXM_20241016.0000.00_14.0_cn_chinatelecom_aa860f02bd.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.12.0.UMBCNXM": {
 					"os": "OS1.0.12.0.UMBCNXM",
@@ -551,7 +612,8 @@
 					"release": "2024-09-20",
 					"recovery": "miui_NUWA_OS1.0.12.0.UMBCNXM_230e1e553b_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.12.0.UMBCNXM_20240911.0000.00_14.0_cn_57763155e4.tgz",
-					"ctelecom": "nuwa_images_OS1.0.12.0.UMBCNXM_20240911.0000.00_14.0_cn_chinatelecom_77685aa648.tgz"
+					"ctelecom": "nuwa_images_OS1.0.12.0.UMBCNXM_20240911.0000.00_14.0_cn_chinatelecom_77685aa648.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.11.0.UMBCNXM": {
 					"os": "OS1.0.11.0.UMBCNXM",
@@ -559,7 +621,8 @@
 					"release": "2024-08-19",
 					"recovery": "miui_NUWA_OS1.0.11.0.UMBCNXM_5ff31cc786_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.11.0.UMBCNXM_20240808.0000.00_14.0_cn_5a0e064058.tgz",
-					"ctelecom": "nuwa_images_OS1.0.11.0.UMBCNXM_20240808.0000.00_14.0_cn_chinatelecom_56670b2ffe.tgz"
+					"ctelecom": "nuwa_images_OS1.0.11.0.UMBCNXM_20240808.0000.00_14.0_cn_chinatelecom_56670b2ffe.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.8.0.UMBCNXM": {
 					"os": "OS1.0.8.0.UMBCNXM",
@@ -567,7 +630,8 @@
 					"release": "2024-07-20",
 					"recovery": "miui_NUWA_OS1.0.8.0.UMBCNXM_db7987aadb_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.8.0.UMBCNXM_20240712.0000.00_14.0_cn_9bfd8b7ce1.tgz",
-					"ctelecom": "nuwa_images_OS1.0.8.0.UMBCNXM_20240712.0000.00_14.0_cn_chinatelecom_5d312fa7b6.tgz"
+					"ctelecom": "nuwa_images_OS1.0.8.0.UMBCNXM_20240712.0000.00_14.0_cn_chinatelecom_5d312fa7b6.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.7.0.UMBCNXM": {
 					"os": "OS1.0.7.0.UMBCNXM",
@@ -575,7 +639,8 @@
 					"release": "2024-06-15",
 					"recovery": "miui_NUWA_OS1.0.7.0.UMBCNXM_7ceb1a5a00_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.7.0.UMBCNXM_20240604.0000.00_14.0_cn_23c299ba65.tgz",
-					"ctelecom": "nuwa_images_OS1.0.7.0.UMBCNXM_20240604.0000.00_14.0_cn_chinatelecom_83f66b1396.tgz"
+					"ctelecom": "nuwa_images_OS1.0.7.0.UMBCNXM_20240604.0000.00_14.0_cn_chinatelecom_83f66b1396.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.6.0.UMBCNXM": {
 					"os": "OS1.0.6.0.UMBCNXM",
@@ -583,7 +648,8 @@
 					"release": "2024-03-22",
 					"recovery": "miui_NUWA_OS1.0.6.0.UMBCNXM_6c3873b190_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.6.0.UMBCNXM_20240312.0000.00_14.0_cn_7929938c7b.tgz",
-					"ctelecom": "nuwa_images_OS1.0.6.0.UMBCNXM_20240312.0000.00_14.0_cn_chinatelecom_7820d7eed0.tgz"
+					"ctelecom": "nuwa_images_OS1.0.6.0.UMBCNXM_20240312.0000.00_14.0_cn_chinatelecom_7820d7eed0.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.5.2.UMBCNXM": {
 					"os": "OS1.0.5.2.UMBCNXM",
@@ -591,7 +657,8 @@
 					"release": "2024-03-05",
 					"recovery": "miui_NUWA_OS1.0.5.2.UMBCNXM_0c308e5d05_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.5.0.UMBCNXM": {
 					"os": "OS1.0.5.0.UMBCNXM",
@@ -599,7 +666,8 @@
 					"release": "2024-01-31",
 					"recovery": "miui_NUWA_OS1.0.5.0.UMBCNXM_9748b91e96_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.5.0.UMBCNXM_20240123.0000.00_14.0_cn_c1baadeb97.tgz",
-					"ctelecom": "nuwa_images_OS1.0.5.0.UMBCNXM_20240123.0000.00_14.0_cn_chinatelecom_3bb7361f18.tgz"
+					"ctelecom": "nuwa_images_OS1.0.5.0.UMBCNXM_20240123.0000.00_14.0_cn_chinatelecom_3bb7361f18.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.4.2.UMBCNXM": {
 					"os": "OS1.0.4.2.UMBCNXM",
@@ -607,7 +675,8 @@
 					"release": "2024-01-11",
 					"recovery": "miui_NUWA_OS1.0.4.2.UMBCNXM_82ce46b6eb_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.4.0.UMBCNXM": {
 					"os": "OS1.0.4.0.UMBCNXM",
@@ -615,7 +684,8 @@
 					"release": "2023-12-24",
 					"recovery": "miui_NUWA_OS1.0.4.0.UMBCNXM_903b6aa354_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.4.0.UMBCNXM_20231222.0000.00_14.0_cn_cbf95dbee0.tgz",
-					"ctelecom": "nuwa_images_OS1.0.4.0.UMBCNXM_20231222.0000.00_14.0_cn_chinatelecom_ce2a4091e1.tgz"
+					"ctelecom": "nuwa_images_OS1.0.4.0.UMBCNXM_20231222.0000.00_14.0_cn_chinatelecom_ce2a4091e1.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.2.0.UMBCNXM": {
 					"os": "OS1.0.2.0.UMBCNXM",
@@ -623,7 +693,8 @@
 					"release": "2023-12-07",
 					"recovery": "miui_NUWA_OS1.0.2.0.UMBCNXM_65b5cbc206_14.0.zip",
 					"fastboot": "nuwa_images_OS1.0.2.0.UMBCNXM_20231126.0000.00_14.0_cn_e876df02d2.tgz",
-					"ctelecom": "nuwa_images_OS1.0.2.0.UMBCNXM_20231126.0000.00_14.0_cn_chinatelecom_931ec6a538.tgz"
+					"ctelecom": "nuwa_images_OS1.0.2.0.UMBCNXM_20231126.0000.00_14.0_cn_chinatelecom_931ec6a538.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -645,6 +716,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -661,126 +733,144 @@
 					"android": "16.0",
 					"release": "2026-06-08",
 					"recovery": "nuwa_tw_global-ota_full-OS3.0.301.0.WMBTWXM-user-16.0-02de6ffd58.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WMBTWXM": {
 					"os": "OS3.0.3.0.WMBTWXM",
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "nuwa_tw_global-ota_full-OS3.0.3.0.WMBTWXM-user-16.0-3748fa27f3.zip",
-					"fastboot": "nuwa_tw_global_images_OS3.0.3.0.WMBTWXM_20260414.0000.00_16.0_tw_9f313c2c7b.tgz"
+					"fastboot": "nuwa_tw_global_images_OS3.0.3.0.WMBTWXM_20260414.0000.00_16.0_tw_9f313c2c7b.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WMBTWXM": {
 					"os": "OS3.0.2.0.WMBTWXM",
 					"android": "16.0",
 					"release": "2026-03-22",
 					"recovery": "nuwa_tw_global-ota_full-OS3.0.2.0.WMBTWXM-user-16.0-fa57343482.zip",
-					"fastboot": "nuwa_tw_global_images_OS3.0.2.0.WMBTWXM_20260305.0000.00_16.0_tw_d722f724ad.tgz"
+					"fastboot": "nuwa_tw_global_images_OS3.0.2.0.WMBTWXM_20260305.0000.00_16.0_tw_d722f724ad.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VMBTWXM": {
 					"os": "OS2.0.203.0.VMBTWXM",
 					"android": "15.0",
 					"release": "2025-12-19",
 					"recovery": "nuwa_tw_global-ota_full-OS2.0.203.0.VMBTWXM-user-15.0-e506411aae.zip",
-					"fastboot": "nuwa_tw_global_images_OS2.0.203.0.VMBTWXM_20251203.0000.00_15.0_tw_3964b73c7a.tgz"
+					"fastboot": "nuwa_tw_global_images_OS2.0.203.0.VMBTWXM_20251203.0000.00_15.0_tw_3964b73c7a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VMBTWXM": {
 					"os": "OS2.0.202.0.VMBTWXM",
 					"android": "15.0",
 					"release": "2025-11-30",
 					"recovery": "nuwa_tw_global-ota_full-OS2.0.202.0.VMBTWXM-user-15.0-c8506d6596.zip",
-					"fastboot": "nuwa_tw_global_images_OS2.0.202.0.VMBTWXM_20251118.0000.00_15.0_tw_f87211ed7b.tgz"
+					"fastboot": "nuwa_tw_global_images_OS2.0.202.0.VMBTWXM_20251118.0000.00_15.0_tw_f87211ed7b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VMBTWXM": {
 					"os": "OS2.0.201.0.VMBTWXM",
 					"android": "15.0",
 					"release": "2025-10-27",
 					"recovery": "nuwa_tw_global-ota_full-OS2.0.201.0.VMBTWXM-user-15.0-3c329c9d5d.zip",
-					"fastboot": "nuwa_tw_global_images_OS2.0.201.0.VMBTWXM_20250917.0000.00_15.0_tw_77847831b0.tgz"
+					"fastboot": "nuwa_tw_global_images_OS2.0.201.0.VMBTWXM_20250917.0000.00_15.0_tw_77847831b0.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.104.0.VMBTWXM": {
 					"os": "OS2.0.104.0.VMBTWXM",
 					"android": "15.0",
 					"release": "2025-08-11",
 					"recovery": "nuwa_tw_global-ota_full-OS2.0.104.0.VMBTWXM-user-15.0-083115280d.zip",
-					"fastboot": "nuwa_tw_global_images_OS2.0.104.0.VMBTWXM_20250722.0000.00_15.0_tw_508d3851e7.tgz"
+					"fastboot": "nuwa_tw_global_images_OS2.0.104.0.VMBTWXM_20250722.0000.00_15.0_tw_508d3851e7.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VMBTWXM": {
 					"os": "OS2.0.103.0.VMBTWXM",
 					"android": "15.0",
 					"release": "2025-06-03",
 					"recovery": "nuwa_tw_global-ota_full-OS2.0.103.0.VMBTWXM-user-15.0-501252f9ac.zip",
-					"fastboot": "nuwa_tw_global_images_OS2.0.103.0.VMBTWXM_20250418.0000.00_15.0_tw_a1cba515a3.tgz"
+					"fastboot": "nuwa_tw_global_images_OS2.0.103.0.VMBTWXM_20250418.0000.00_15.0_tw_a1cba515a3.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VMBTWXM": {
 					"os": "OS2.0.102.0.VMBTWXM",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "nuwa_tw_global-ota_full-OS2.0.102.0.VMBTWXM-user-15.0-eb406183e6.zip",
-					"fastboot": "nuwa_tw_global_images_OS2.0.102.0.VMBTWXM_20250401.0000.00_15.0_tw_6ab363498b.tgz"
+					"fastboot": "nuwa_tw_global_images_OS2.0.102.0.VMBTWXM_20250401.0000.00_15.0_tw_6ab363498b.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.100.0.VMBTWXM": {
 					"os": "OS2.0.100.0.VMBTWXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "nuwa_tw_global-ota_full-OS2.0.100.0.VMBTWXM-user-15.0-7efb1de893.zip",
-					"fastboot": "nuwa_tw_global_images_OS2.0.100.0.VMBTWXM_20250222.0000.00_15.0_tw_98aec85e66.tgz"
+					"fastboot": "nuwa_tw_global_images_OS2.0.100.0.VMBTWXM_20250222.0000.00_15.0_tw_98aec85e66.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VMBTWXM": {
 					"os": "OS2.0.2.0.VMBTWXM",
 					"android": "15.0",
 					"release": "2025-02-05",
 					"recovery": "nuwa_tw_global-ota_full-OS2.0.2.0.VMBTWXM-user-15.0-c2f1e86828.zip",
-					"fastboot": "nuwa_tw_global_images_OS2.0.2.0.VMBTWXM_20250114.0000.00_15.0_tw_b85de25f92.tgz"
+					"fastboot": "nuwa_tw_global_images_OS2.0.2.0.VMBTWXM_20250114.0000.00_15.0_tw_b85de25f92.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.10.0.UMBTWXM": {
 					"os": "OS1.0.10.0.UMBTWXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_NUWATWGlobal_OS1.0.10.0.UMBTWXM_3f70537871_14.0.zip",
-					"fastboot": "nuwa_tw_global_images_OS1.0.10.0.UMBTWXM_20241121.0000.00_14.0_tw_a3c8495541.tgz"
+					"fastboot": "nuwa_tw_global_images_OS1.0.10.0.UMBTWXM_20241121.0000.00_14.0_tw_a3c8495541.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UMBTWXM": {
 					"os": "OS1.0.9.0.UMBTWXM",
 					"android": "14.0",
 					"release": "2024-11-03",
 					"recovery": "miui_NUWATWGlobal_OS1.0.9.0.UMBTWXM_5b14b27496_14.0.zip",
-					"fastboot": "nuwa_tw_global_images_OS1.0.9.0.UMBTWXM_20241017.0000.00_14.0_tw_74f5c84023.tgz"
+					"fastboot": "nuwa_tw_global_images_OS1.0.9.0.UMBTWXM_20241017.0000.00_14.0_tw_74f5c84023.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.UMBTWXM": {
 					"os": "OS1.0.8.0.UMBTWXM",
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_NUWATWGlobal_OS1.0.8.0.UMBTWXM_6131d34e36_14.0.zip",
-					"fastboot": "nuwa_tw_global_images_OS1.0.8.0.UMBTWXM_20240914.0000.00_14.0_tw_afcdaf47a8.tgz"
+					"fastboot": "nuwa_tw_global_images_OS1.0.8.0.UMBTWXM_20240914.0000.00_14.0_tw_afcdaf47a8.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UMBTWXM": {
 					"os": "OS1.0.6.0.UMBTWXM",
 					"android": "14.0",
 					"release": "2024-08-21",
 					"recovery": "miui_NUWATWGlobal_OS1.0.6.0.UMBTWXM_a78eadf185_14.0.zip",
-					"fastboot": "nuwa_tw_global_images_OS1.0.6.0.UMBTWXM_20240727.0000.00_14.0_tw_bae13a8c14.tgz"
+					"fastboot": "nuwa_tw_global_images_OS1.0.6.0.UMBTWXM_20240727.0000.00_14.0_tw_bae13a8c14.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.5.0.UMBTWXM": {
 					"os": "OS1.0.5.0.UMBTWXM",
 					"android": "14.0",
 					"release": "2024-07-02",
 					"recovery": "miui_NUWATWGlobal_OS1.0.5.0.UMBTWXM_bb90765e58_14.0.zip",
-					"fastboot": "nuwa_tw_global_images_OS1.0.5.0.UMBTWXM_20240614.0000.00_14.0_tw_e4a435b369.tgz"
+					"fastboot": "nuwa_tw_global_images_OS1.0.5.0.UMBTWXM_20240614.0000.00_14.0_tw_e4a435b369.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.4.0.UMBTWXM": {
 					"os": "OS1.0.4.0.UMBTWXM",
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_NUWATWGlobal_OS1.0.4.0.UMBTWXM_712921e60a_14.0.zip",
-					"fastboot": "nuwa_tw_global_images_OS1.0.4.0.UMBTWXM_20240416.0000.00_14.0_tw_3ce1315a10.tgz"
+					"fastboot": "nuwa_tw_global_images_OS1.0.4.0.UMBTWXM_20240416.0000.00_14.0_tw_3ce1315a10.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.2.0.UMBTWXM": {
 					"os": "OS1.0.2.0.UMBTWXM",
 					"android": "14.0",
 					"release": "2024-01-20",
 					"recovery": "miui_NUWATWGlobal_OS1.0.2.0.UMBTWXM_ab8eaae032_14.0.zip",
-					"fastboot": "nuwa_tw_global_images_OS1.0.2.0.UMBTWXM_20240109.0000.00_14.0_tw_6a91d5fd68.tgz"
+					"fastboot": "nuwa_tw_global_images_OS1.0.2.0.UMBTWXM_20240109.0000.00_14.0_tw_6a91d5fd68.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -802,6 +892,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -818,161 +909,184 @@
 					"android": "16.0",
 					"release": "2026-05-28",
 					"recovery": "nuwa_global-ota_full-OS3.0.301.0.WMBMIXM-user-16.0-e4d7063cf8.zip",
-					"fastboot": "nuwa_global_images_OS3.0.301.0.WMBMIXM_20260520.0000.00_16.0_global_e9dd21ac05.tgz"
+					"fastboot": "nuwa_global_images_OS3.0.301.0.WMBMIXM_20260520.0000.00_16.0_global_e9dd21ac05.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WMBMIXM": {
 					"os": "OS3.0.3.0.WMBMIXM",
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "nuwa_global-ota_full-OS3.0.3.0.WMBMIXM-user-16.0-fcd28bfee6.zip",
-					"fastboot": "nuwa_global_images_OS3.0.3.0.WMBMIXM_20260414.0000.00_16.0_global_c8b5e5d49f.tgz"
+					"fastboot": "nuwa_global_images_OS3.0.3.0.WMBMIXM_20260414.0000.00_16.0_global_c8b5e5d49f.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WMBMIXM": {
 					"os": "OS3.0.2.0.WMBMIXM",
 					"android": "16.0",
 					"release": "2026-03-09",
 					"recovery": "nuwa_global-ota_full-OS3.0.2.0.WMBMIXM-user-16.0-c5efa97ddf.zip",
-					"fastboot": "nuwa_global_images_OS3.0.2.0.WMBMIXM_20260214.0000.00_16.0_global_c2dfed0fb7.tgz"
+					"fastboot": "nuwa_global_images_OS3.0.2.0.WMBMIXM_20260214.0000.00_16.0_global_c2dfed0fb7.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.207.0.VMBMIXM": {
 					"os": "OS2.0.207.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "nuwa_global-ota_full-OS2.0.207.0.VMBMIXM-user-15.0-d1e365f257.zip",
-					"fastboot": "nuwa_global_images_OS2.0.207.0.VMBMIXM_20251219.0000.00_15.0_global_5beaef3e12.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.207.0.VMBMIXM_20251219.0000.00_15.0_global_5beaef3e12.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VMBMIXM": {
 					"os": "OS2.0.205.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-12-16",
 					"recovery": "nuwa_global-ota_full-OS2.0.205.0.VMBMIXM-user-15.0-e5af334b56.zip",
-					"fastboot": "nuwa_global_images_OS2.0.205.0.VMBMIXM_20251125.0000.00_15.0_global_009b82b023.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.205.0.VMBMIXM_20251125.0000.00_15.0_global_009b82b023.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VMBMIXM": {
 					"os": "OS2.0.204.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-11-30",
 					"recovery": "nuwa_global-ota_full-OS2.0.204.0.VMBMIXM-user-15.0-130aa4eac5.zip",
-					"fastboot": "nuwa_global_images_OS2.0.204.0.VMBMIXM_20251114.0000.00_15.0_global_4ec7920518.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.204.0.VMBMIXM_20251114.0000.00_15.0_global_4ec7920518.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VMBMIXM": {
 					"os": "OS2.0.203.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-10-29",
 					"recovery": "nuwa_global-ota_full-OS2.0.203.0.VMBMIXM-user-15.0-62d8547e5c.zip",
-					"fastboot": "nuwa_global_images_OS2.0.203.0.VMBMIXM_20251015.0000.00_15.0_global_da27ef5274.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.203.0.VMBMIXM_20251015.0000.00_15.0_global_da27ef5274.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VMBMIXM": {
 					"os": "OS2.0.201.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "nuwa_global-ota_full-OS2.0.201.0.VMBMIXM-user-15.0-fad01de483.zip",
-					"fastboot": "nuwa_global_images_OS2.0.201.0.VMBMIXM_20250917.0000.00_15.0_global_3850e33e78.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.201.0.VMBMIXM_20250917.0000.00_15.0_global_3850e33e78.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.105.0.VMBMIXM": {
 					"os": "OS2.0.105.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-08-02",
 					"recovery": "nuwa_global-ota_full-OS2.0.105.0.VMBMIXM-user-15.0-62265ad716.zip",
-					"fastboot": "nuwa_global_images_OS2.0.105.0.VMBMIXM_20250721.0000.00_15.0_global_a4a0466fb6.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.105.0.VMBMIXM_20250721.0000.00_15.0_global_a4a0466fb6.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VMBMIXM": {
 					"os": "OS2.0.104.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-06-03",
 					"recovery": "nuwa_global-ota_full-OS2.0.104.0.VMBMIXM-user-15.0-d6039362e9.zip",
-					"fastboot": "nuwa_global_images_OS2.0.104.0.VMBMIXM_20250427.0000.00_15.0_global_853663faae.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.104.0.VMBMIXM_20250427.0000.00_15.0_global_853663faae.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.103.0.VMBMIXM": {
 					"os": "OS2.0.103.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "nuwa_global-ota_full-OS2.0.103.0.VMBMIXM-user-15.0-30977f318f.zip",
-					"fastboot": "nuwa_global_images_OS2.0.103.0.VMBMIXM_20250417.0000.00_15.0_global_ccd06e9200.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.103.0.VMBMIXM_20250417.0000.00_15.0_global_ccd06e9200.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VMBMIXM": {
 					"os": "OS2.0.102.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "nuwa_global-ota_full-OS2.0.102.0.VMBMIXM-user-15.0-88884f3a7d.zip",
-					"fastboot": "nuwa_global_images_OS2.0.102.0.VMBMIXM_20250328.0000.00_15.0_global_2bdecc56fc.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.102.0.VMBMIXM_20250328.0000.00_15.0_global_2bdecc56fc.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.100.0.VMBMIXM": {
 					"os": "OS2.0.100.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-03-11",
 					"recovery": "nuwa_global-ota_full-OS2.0.100.0.VMBMIXM-user-15.0-9c4a8812d6.zip",
-					"fastboot": "nuwa_global_images_OS2.0.100.0.VMBMIXM_20250221.0000.00_15.0_global_9e6239aabc.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.100.0.VMBMIXM_20250221.0000.00_15.0_global_9e6239aabc.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VMBMIXM": {
 					"os": "OS2.0.2.0.VMBMIXM",
 					"android": "15.0",
 					"release": "2025-01-16",
 					"recovery": "nuwa_global-ota_full-OS2.0.2.0.VMBMIXM-user-15.0-56494d533e.zip",
-					"fastboot": "nuwa_global_images_OS2.0.2.0.VMBMIXM_20250102.0000.00_15.0_global_9611dfe8d5.tgz"
+					"fastboot": "nuwa_global_images_OS2.0.2.0.VMBMIXM_20250102.0000.00_15.0_global_9611dfe8d5.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.13.0.UMBMIXM": {
 					"os": "OS1.0.13.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2025-01-06",
 					"recovery": "miui_NUWAGlobal_OS1.0.13.0.UMBMIXM_0e507b50b1_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.13.0.UMBMIXM_20241220.0000.00_14.0_global_0c46a06aba.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.13.0.UMBMIXM_20241220.0000.00_14.0_global_0c46a06aba.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.12.0.UMBMIXM": {
 					"os": "OS1.0.12.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_NUWAGlobal_OS1.0.12.0.UMBMIXM_97687e9227_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.12.0.UMBMIXM_20241121.0000.00_14.0_global_e3bfe67ca6.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.12.0.UMBMIXM_20241121.0000.00_14.0_global_e3bfe67ca6.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.UMBMIXM": {
 					"os": "OS1.0.11.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2024-11-03",
 					"recovery": "miui_NUWAGlobal_OS1.0.11.0.UMBMIXM_4adec2bf9a_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.11.0.UMBMIXM_20241018.0000.00_14.0_global_a5dd87a2c6.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.11.0.UMBMIXM_20241018.0000.00_14.0_global_a5dd87a2c6.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.10.0.UMBMIXM": {
 					"os": "OS1.0.10.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2024-09-29",
 					"recovery": "miui_NUWAGlobal_OS1.0.10.0.UMBMIXM_2693afc2d5_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.10.0.UMBMIXM_20240911.0000.00_14.0_global_395492b5de.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.10.0.UMBMIXM_20240911.0000.00_14.0_global_395492b5de.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.8.0.UMBMIXM": {
 					"os": "OS1.0.8.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2024-08-21",
 					"recovery": "miui_NUWAGlobal_OS1.0.8.0.UMBMIXM_7cddecfe7c_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.8.0.UMBMIXM_20240703.0000.00_14.0_global_202f2518b1.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.8.0.UMBMIXM_20240703.0000.00_14.0_global_202f2518b1.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.7.0.UMBMIXM": {
 					"os": "OS1.0.7.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2024-06-25",
 					"recovery": "miui_NUWAGlobal_OS1.0.7.0.UMBMIXM_5dc3074d31_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.7.0.UMBMIXM_20240604.0000.00_14.0_global_e0461d9dcd.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.7.0.UMBMIXM_20240604.0000.00_14.0_global_e0461d9dcd.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.6.0.UMBMIXM": {
 					"os": "OS1.0.6.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2024-05-16",
 					"recovery": "miui_NUWAGlobal_OS1.0.6.0.UMBMIXM_18db8f0da4_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.6.0.UMBMIXM_20240408.0000.00_14.0_global_8bcdefc7ea.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.6.0.UMBMIXM_20240408.0000.00_14.0_global_8bcdefc7ea.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.4.0.UMBMIXM": {
 					"os": "OS1.0.4.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2024-02-18",
 					"recovery": "miui_NUWAGlobal_OS1.0.4.0.UMBMIXM_cc8d40c018_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.4.0.UMBMIXM_20240119.0000.00_14.0_global_47a4aa5986.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.4.0.UMBMIXM_20240119.0000.00_14.0_global_47a4aa5986.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.1.0.UMBMIXM": {
 					"os": "OS1.0.1.0.UMBMIXM",
 					"android": "14.0",
 					"release": "2023-12-27",
 					"recovery": "miui_NUWAGlobal_OS1.0.1.0.UMBMIXM_ce099f9f78_14.0.zip",
-					"fastboot": "nuwa_global_images_OS1.0.1.0.UMBMIXM_20231207.0000.00_14.0_global_116cd6433f.tgz"
+					"fastboot": "nuwa_global_images_OS1.0.1.0.UMBMIXM_20231207.0000.00_14.0_global_116cd6433f.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -994,6 +1108,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1010,175 +1125,200 @@
 					"android": "16.0",
 					"release": "2026-05-18",
 					"recovery": "nuwa_eea_global-ota_full-OS3.0.301.0.WMBEUXM-user-16.0-d0433f1b0b.zip",
-					"fastboot": "nuwa_eea_global_images_OS3.0.301.0.WMBEUXM_20260429.0000.00_16.0_eea_c74572b031.tgz"
+					"fastboot": "nuwa_eea_global_images_OS3.0.301.0.WMBEUXM_20260429.0000.00_16.0_eea_c74572b031.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WMBEUXM": {
 					"os": "OS3.0.3.0.WMBEUXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "nuwa_eea_global-ota_full-OS3.0.3.0.WMBEUXM-user-16.0-01976e32d5.zip",
-					"fastboot": "nuwa_eea_global_images_OS3.0.3.0.WMBEUXM_20260401.0000.00_16.0_eea_777cdb6830.tgz"
+					"fastboot": "nuwa_eea_global_images_OS3.0.3.0.WMBEUXM_20260401.0000.00_16.0_eea_777cdb6830.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WMBEUXM": {
 					"os": "OS3.0.2.0.WMBEUXM",
 					"android": "16.0",
 					"release": "2026-01-29",
 					"recovery": "nuwa_eea_global-ota_full-OS3.0.2.0.WMBEUXM-user-16.0-fcc619ac13.zip",
-					"fastboot": "nuwa_eea_global_images_OS3.0.2.0.WMBEUXM_20260119.0000.00_16.0_eea_d0794402e3.tgz"
+					"fastboot": "nuwa_eea_global_images_OS3.0.2.0.WMBEUXM_20260119.0000.00_16.0_eea_d0794402e3.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.210.0.VMBEUXM": {
 					"os": "OS2.0.210.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2026-01-07",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.210.0.VMBEUXM-user-15.0-66406c53cd.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.210.0.VMBEUXM_20251226.0000.00_15.0_eea_2abd1eaea9.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.210.0.VMBEUXM_20251226.0000.00_15.0_eea_2abd1eaea9.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.208.0.VMBEUXM": {
 					"os": "OS2.0.208.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-12-15",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.208.0.VMBEUXM-user-15.0-8108aaf96a.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.208.0.VMBEUXM_20251205.0000.00_15.0_eea_61609e12d1.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.208.0.VMBEUXM_20251205.0000.00_15.0_eea_61609e12d1.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VMBEUXM": {
 					"os": "OS2.0.206.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.206.0.VMBEUXM-user-15.0-cacdf3646e.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.206.0.VMBEUXM_20251103.0000.00_15.0_eea_cc16b1675d.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.206.0.VMBEUXM_20251103.0000.00_15.0_eea_cc16b1675d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VMBEUXM": {
 					"os": "OS2.0.205.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-10-29",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.205.0.VMBEUXM-user-15.0-4946e5c675.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.205.0.VMBEUXM_20251015.0000.00_15.0_eea_55087e343c.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.205.0.VMBEUXM_20251015.0000.00_15.0_eea_55087e343c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VMBEUXM": {
 					"os": "OS2.0.203.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-09-27",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.203.0.VMBEUXM-user-15.0-e1a70923d7.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.203.0.VMBEUXM_20250910.0000.00_15.0_eea_1aab9aa3ea.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.203.0.VMBEUXM_20250910.0000.00_15.0_eea_1aab9aa3ea.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.110.0.VMBEUXM": {
 					"os": "OS2.0.110.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-07-10",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.110.0.VMBEUXM-user-15.0-21f80056b3.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.110.0.VMBEUXM_20250626.0000.00_15.0_eea_58478e1cc8.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.110.0.VMBEUXM_20250626.0000.00_15.0_eea_58478e1cc8.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.109.0.VMBEUXM": {
 					"os": "OS2.0.109.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.109.0.VMBEUXM-user-15.0-f28e3e8163.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.109.0.VMBEUXM_20250610.0000.00_15.0_eea_b4bdb1d7a4.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.109.0.VMBEUXM_20250610.0000.00_15.0_eea_b4bdb1d7a4.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.107.0.VMBEUXM": {
 					"os": "OS2.0.107.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-06-03",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.107.0.VMBEUXM-user-15.0-0855381b16.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.107.0.VMBEUXM_20250424.0000.00_15.0_eea_755ad5727b.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.107.0.VMBEUXM_20250424.0000.00_15.0_eea_755ad5727b.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.106.0.VMBEUXM": {
 					"os": "OS2.0.106.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.106.0.VMBEUXM-user-15.0-f955ada4e9.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.106.0.VMBEUXM_20250417.0000.00_15.0_eea_a9016ff325.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.106.0.VMBEUXM_20250417.0000.00_15.0_eea_a9016ff325.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.105.0.VMBEUXM": {
 					"os": "OS2.0.105.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.105.0.VMBEUXM-user-15.0-df05f6c38e.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.105.0.VMBEUXM_20250328.0000.00_15.0_eea_b949ac8bbf.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.105.0.VMBEUXM_20250328.0000.00_15.0_eea_b949ac8bbf.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.101.0.VMBEUXM": {
 					"os": "OS2.0.101.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-02-25",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.101.0.VMBEUXM-user-15.0-8beacea802.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.101.0.VMBEUXM_20250214.0000.00_15.0_eea_d4c23eae8a.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.101.0.VMBEUXM_20250214.0000.00_15.0_eea_d4c23eae8a.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VMBEUXM": {
 					"os": "OS2.0.2.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-02-05",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.2.0.VMBEUXM-user-15.0-11fea07fbb.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.2.0.VMBEUXM_20250113.0000.00_15.0_eea_023acf5408.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.2.0.VMBEUXM_20250113.0000.00_15.0_eea_023acf5408.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.0.VMBEUXM": {
 					"os": "OS2.0.1.0.VMBEUXM",
 					"android": "15.0",
 					"release": "2025-01-06",
 					"recovery": "nuwa_eea_global-ota_full-OS2.0.1.0.VMBEUXM-user-15.0-bd9b0a2984.zip",
-					"fastboot": "nuwa_eea_global_images_OS2.0.1.0.VMBEUXM_20241223.0000.00_15.0_eea_21b759ec25.tgz"
+					"fastboot": "nuwa_eea_global_images_OS2.0.1.0.VMBEUXM_20241223.0000.00_15.0_eea_21b759ec25.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.12.0.UMBEUXM": {
 					"os": "OS1.0.12.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2024-12-30",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.12.0.UMBEUXM_91838dcc1a_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.12.0.UMBEUXM_20241217.0000.00_14.0_eea_fef79953c2.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.12.0.UMBEUXM_20241217.0000.00_14.0_eea_fef79953c2.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.UMBEUXM": {
 					"os": "OS1.0.11.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.11.0.UMBEUXM_86a7e7b3d8_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.11.0.UMBEUXM_20241121.0000.00_14.0_eea_c887cebf46.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.11.0.UMBEUXM_20241121.0000.00_14.0_eea_c887cebf46.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UMBEUXM": {
 					"os": "OS1.0.10.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2024-11-03",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.10.0.UMBEUXM_463d9f5a48_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.10.0.UMBEUXM_20241018.0000.00_14.0_eea_b6db1afef1.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.10.0.UMBEUXM_20241018.0000.00_14.0_eea_b6db1afef1.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UMBEUXM": {
 					"os": "OS1.0.9.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2024-09-19",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.9.0.UMBEUXM_06d18c0c3a_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.9.0.UMBEUXM_20240903.0000.00_14.0_eea_0fffac265b.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.9.0.UMBEUXM_20240903.0000.00_14.0_eea_0fffac265b.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.7.0.UMBEUXM": {
 					"os": "OS1.0.7.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.7.0.UMBEUXM_ab1eab36df_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.7.0.UMBEUXM_20240712.0000.00_14.0_eea_d50b1a80f0.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.7.0.UMBEUXM_20240712.0000.00_14.0_eea_d50b1a80f0.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.6.0.UMBEUXM": {
 					"os": "OS1.0.6.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2024-06-21",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.6.0.UMBEUXM_ea36570589_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.6.0.UMBEUXM_20240508.0000.00_14.0_eea_26eedfb9e5.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.6.0.UMBEUXM_20240508.0000.00_14.0_eea_26eedfb9e5.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.5.0.UMBEUXM": {
 					"os": "OS1.0.5.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2024-04-16",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.5.0.UMBEUXM_f32da7f334_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.5.0.UMBEUXM_20240305.0000.00_14.0_eea_3dda699843.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.5.0.UMBEUXM_20240305.0000.00_14.0_eea_3dda699843.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.4.0.UMBEUXM": {
 					"os": "OS1.0.4.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2024-02-18",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.4.0.UMBEUXM_95bf88a6fa_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.4.0.UMBEUXM_20240117.0000.00_14.0_eea_ee8ca0a59e.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.4.0.UMBEUXM_20240117.0000.00_14.0_eea_ee8ca0a59e.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.1.0.UMBEUXM": {
 					"os": "OS1.0.1.0.UMBEUXM",
 					"android": "14.0",
 					"release": "2023-12-27",
 					"recovery": "miui_NUWAEEAGlobal_OS1.0.1.0.UMBEUXM_42a3c8c25a_14.0.zip",
-					"fastboot": "nuwa_eea_global_images_OS1.0.1.0.UMBEUXM_20231207.0000.00_14.0_eea_25be9586e8.tgz"
+					"fastboot": "nuwa_eea_global_images_OS1.0.1.0.UMBEUXM_20231207.0000.00_14.0_eea_25be9586e8.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -1200,6 +1340,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1216,140 +1357,160 @@
 					"android": "16.0",
 					"release": "2026-06-08",
 					"recovery": "nuwa_ru_global-ota_full-OS3.0.301.0.WMBRUXM-user-16.0-233d11b90a.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WMBRUXM": {
 					"os": "OS3.0.3.0.WMBRUXM",
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "nuwa_ru_global-ota_full-OS3.0.3.0.WMBRUXM-user-16.0-38ee20a3f3.zip",
-					"fastboot": "nuwa_ru_global_images_OS3.0.3.0.WMBRUXM_20260414.0000.00_16.0_ru_e97709ada8.tgz"
+					"fastboot": "nuwa_ru_global_images_OS3.0.3.0.WMBRUXM_20260414.0000.00_16.0_ru_e97709ada8.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WMBRUXM": {
 					"os": "OS3.0.2.0.WMBRUXM",
 					"android": "16.0",
 					"release": "2026-03-22",
 					"recovery": "nuwa_ru_global-ota_full-OS3.0.2.0.WMBRUXM-user-16.0-55986c6507.zip",
-					"fastboot": "nuwa_ru_global_images_OS3.0.2.0.WMBRUXM_20260305.0000.00_16.0_ru_9abb2b10cf.tgz"
+					"fastboot": "nuwa_ru_global_images_OS3.0.2.0.WMBRUXM_20260305.0000.00_16.0_ru_9abb2b10cf.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VMBRUXM": {
 					"os": "OS2.0.203.0.VMBRUXM",
 					"android": "15.0",
 					"release": "2025-12-19",
 					"recovery": "nuwa_ru_global-ota_full-OS2.0.203.0.VMBRUXM-user-15.0-7e8310d926.zip",
-					"fastboot": "nuwa_ru_global_images_OS2.0.203.0.VMBRUXM_20251203.0000.00_15.0_ru_535039f416.tgz"
+					"fastboot": "nuwa_ru_global_images_OS2.0.203.0.VMBRUXM_20251203.0000.00_15.0_ru_535039f416.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VMBRUXM": {
 					"os": "OS2.0.202.0.VMBRUXM",
 					"android": "15.0",
 					"release": "2025-11-30",
 					"recovery": "nuwa_ru_global-ota_full-OS2.0.202.0.VMBRUXM-user-15.0-18c78e76a7.zip",
-					"fastboot": "nuwa_ru_global_images_OS2.0.202.0.VMBRUXM_20251117.0000.00_15.0_ru_6626153a53.tgz"
+					"fastboot": "nuwa_ru_global_images_OS2.0.202.0.VMBRUXM_20251117.0000.00_15.0_ru_6626153a53.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VMBRUXM": {
 					"os": "OS2.0.201.0.VMBRUXM",
 					"android": "15.0",
 					"release": "2025-10-21",
 					"recovery": "nuwa_ru_global-ota_full-OS2.0.201.0.VMBRUXM-user-15.0-4af703451e.zip",
-					"fastboot": "nuwa_ru_global_images_OS2.0.201.0.VMBRUXM_20250917.0000.00_15.0_ru_67fef36e76.tgz"
+					"fastboot": "nuwa_ru_global_images_OS2.0.201.0.VMBRUXM_20250917.0000.00_15.0_ru_67fef36e76.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.104.0.VMBRUXM": {
 					"os": "OS2.0.104.0.VMBRUXM",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "nuwa_ru_global-ota_full-OS2.0.104.0.VMBRUXM-user-15.0-294991acbb.zip",
-					"fastboot": "nuwa_ru_global_images_OS2.0.104.0.VMBRUXM_20250722.0000.00_15.0_ru_2fccd38568.tgz"
+					"fastboot": "nuwa_ru_global_images_OS2.0.104.0.VMBRUXM_20250722.0000.00_15.0_ru_2fccd38568.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.103.0.VMBRUXM": {
 					"os": "OS2.0.103.0.VMBRUXM",
 					"android": "15.0",
 					"release": "2025-06-03",
 					"recovery": "nuwa_ru_global-ota_full-OS2.0.103.0.VMBRUXM-user-15.0-9b4142b11e.zip",
-					"fastboot": "nuwa_ru_global_images_OS2.0.103.0.VMBRUXM_20250418.0000.00_15.0_ru_8c0de87ad6.tgz"
+					"fastboot": "nuwa_ru_global_images_OS2.0.103.0.VMBRUXM_20250418.0000.00_15.0_ru_8c0de87ad6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VMBRUXM": {
 					"os": "OS2.0.102.0.VMBRUXM",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "nuwa_ru_global-ota_full-OS2.0.102.0.VMBRUXM-user-15.0-86e63e9d3c.zip",
-					"fastboot": "nuwa_ru_global_images_OS2.0.102.0.VMBRUXM_20250401.0000.00_15.0_ru_b09c17b913.tgz"
+					"fastboot": "nuwa_ru_global_images_OS2.0.102.0.VMBRUXM_20250401.0000.00_15.0_ru_b09c17b913.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.100.0.VMBRUXM": {
 					"os": "OS2.0.100.0.VMBRUXM",
 					"android": "15.0",
 					"release": "2025-04-10",
 					"recovery": "nuwa_ru_global-ota_full-OS2.0.100.0.VMBRUXM-user-15.0-28383d16f8.zip",
-					"fastboot": "nuwa_ru_global_images_OS2.0.100.0.VMBRUXM_20250222.0000.00_15.0_ru_01c4a1e0e5.tgz"
+					"fastboot": "nuwa_ru_global_images_OS2.0.100.0.VMBRUXM_20250222.0000.00_15.0_ru_01c4a1e0e5.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VMBRUXM": {
 					"os": "OS2.0.2.0.VMBRUXM",
 					"android": "15.0",
 					"release": "2025-02-05",
 					"recovery": "nuwa_ru_global-ota_full-OS2.0.2.0.VMBRUXM-user-15.0-98d738d218.zip",
-					"fastboot": "nuwa_ru_global_images_OS2.0.2.0.VMBRUXM_20250114.0000.00_15.0_ru_57de9fc82c.tgz"
+					"fastboot": "nuwa_ru_global_images_OS2.0.2.0.VMBRUXM_20250114.0000.00_15.0_ru_57de9fc82c.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.11.0.UMBRUXM": {
 					"os": "OS1.0.11.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2025-01-06",
 					"recovery": "miui_NUWARUGlobal_OS1.0.11.0.UMBRUXM_e6b63ced11_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.11.0.UMBRUXM_20241220.0000.00_14.0_ru_279b4a460a.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.11.0.UMBRUXM_20241220.0000.00_14.0_ru_279b4a460a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UMBRUXM": {
 					"os": "OS1.0.10.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_NUWARUGlobal_OS1.0.10.0.UMBRUXM_fd315fd2c0_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.10.0.UMBRUXM_20241121.0000.00_14.0_ru_8e8840d6f1.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.10.0.UMBRUXM_20241121.0000.00_14.0_ru_8e8840d6f1.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UMBRUXM": {
 					"os": "OS1.0.9.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2024-11-03",
 					"recovery": "miui_NUWARUGlobal_OS1.0.9.0.UMBRUXM_95a9840a80_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.9.0.UMBRUXM_20241018.0000.00_14.0_ru_25de5a977e.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.9.0.UMBRUXM_20241018.0000.00_14.0_ru_25de5a977e.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.UMBRUXM": {
 					"os": "OS1.0.8.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2024-09-27",
 					"recovery": "miui_NUWARUGlobal_OS1.0.8.0.UMBRUXM_15d56267f1_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.8.0.UMBRUXM_20240914.0000.00_14.0_ru_4b2c9a2c86.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.8.0.UMBRUXM_20240914.0000.00_14.0_ru_4b2c9a2c86.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UMBRUXM": {
 					"os": "OS1.0.6.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2024-08-21",
 					"recovery": "miui_NUWARUGlobal_OS1.0.6.0.UMBRUXM_6d1a92cceb_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.6.0.UMBRUXM_20240726.0000.00_14.0_ru_ddd490116b.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.6.0.UMBRUXM_20240726.0000.00_14.0_ru_ddd490116b.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.5.0.UMBRUXM": {
 					"os": "OS1.0.5.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2024-07-02",
 					"recovery": "miui_NUWARUGlobal_OS1.0.5.0.UMBRUXM_3d03e80648_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.5.0.UMBRUXM_20240613.0000.00_14.0_ru_170b615e5b.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.5.0.UMBRUXM_20240613.0000.00_14.0_ru_170b615e5b.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.4.0.UMBRUXM": {
 					"os": "OS1.0.4.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2024-05-07",
 					"recovery": "miui_NUWARUGlobal_OS1.0.4.0.UMBRUXM_0d44254ff4_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.4.0.UMBRUXM_20240416.0000.00_14.0_ru_2c97d578cc.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.4.0.UMBRUXM_20240416.0000.00_14.0_ru_2c97d578cc.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.3.0.UMBRUXM": {
 					"os": "OS1.0.3.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2024-03-25",
 					"recovery": "miui_NUWARUGlobal_OS1.0.3.0.UMBRUXM_6bb8b00881_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.3.0.UMBRUXM_20240219.0000.00_14.0_ru_8ffb041204.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.3.0.UMBRUXM_20240219.0000.00_14.0_ru_8ffb041204.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.2.0.UMBRUXM": {
 					"os": "OS1.0.2.0.UMBRUXM",
 					"android": "14.0",
 					"release": "2024-01-19",
 					"recovery": "miui_NUWARUGlobal_OS1.0.2.0.UMBRUXM_ed031b590d_14.0.zip",
-					"fastboot": "nuwa_ru_global_images_OS1.0.2.0.UMBRUXM_20240109.0000.00_14.0_ru_a01d343893.tgz"
+					"fastboot": "nuwa_ru_global_images_OS1.0.2.0.UMBRUXM_20240109.0000.00_14.0_ru_a01d343893.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1371,6 +1532,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1387,154 +1549,176 @@
 					"android": "16.0",
 					"release": "2026-05-28",
 					"recovery": "nuwa_in_global-ota_full-OS3.0.301.0.WMBINXM-user-16.0-538be5a585.zip",
-					"fastboot": "nuwa_in_global_images_OS3.0.301.0.WMBINXM_20260520.0000.00_16.0_in_74675ed19d.tgz"
+					"fastboot": "nuwa_in_global_images_OS3.0.301.0.WMBINXM_20260520.0000.00_16.0_in_74675ed19d.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WMBINXM": {
 					"os": "OS3.0.3.0.WMBINXM",
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "nuwa_in_global-ota_full-OS3.0.3.0.WMBINXM-user-16.0-887bf6b03d.zip",
-					"fastboot": "nuwa_in_global_images_OS3.0.3.0.WMBINXM_20260414.0000.00_16.0_in_904e99ca8d.tgz"
+					"fastboot": "nuwa_in_global_images_OS3.0.3.0.WMBINXM_20260414.0000.00_16.0_in_904e99ca8d.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WMBINXM": {
 					"os": "OS3.0.2.0.WMBINXM",
 					"android": "16.0",
 					"release": "2026-03-09",
 					"recovery": "nuwa_in_global-ota_full-OS3.0.2.0.WMBINXM-user-16.0-5bb583fcb2.zip",
-					"fastboot": "nuwa_in_global_images_OS3.0.2.0.WMBINXM_20260224.0000.00_16.0_in_c6373fe334.tgz"
+					"fastboot": "nuwa_in_global_images_OS3.0.2.0.WMBINXM_20260224.0000.00_16.0_in_c6373fe334.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.204.0.VMBINXM": {
 					"os": "OS2.0.204.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-12-19",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.204.0.VMBINXM-user-15.0-6575049d61.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.204.0.VMBINXM_20251203.0000.00_15.0_in_448f9b2bdf.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.204.0.VMBINXM_20251203.0000.00_15.0_in_448f9b2bdf.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VMBINXM": {
 					"os": "OS2.0.203.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-11-30",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.203.0.VMBINXM-user-15.0-fb69edd9d7.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.203.0.VMBINXM_20251117.0000.00_15.0_in_07af1c991a.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.203.0.VMBINXM_20251117.0000.00_15.0_in_07af1c991a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VMBINXM": {
 					"os": "OS2.0.202.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-10-30",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.202.0.VMBINXM-user-15.0-992f4120bf.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.202.0.VMBINXM_20251018.0000.00_15.0_in_fc874fb1b1.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.202.0.VMBINXM_20251018.0000.00_15.0_in_fc874fb1b1.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VMBINXM": {
 					"os": "OS2.0.201.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.201.0.VMBINXM-user-15.0-a77b7b5d1a.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.201.0.VMBINXM_20250917.0000.00_15.0_in_ea0b985d38.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.201.0.VMBINXM_20250917.0000.00_15.0_in_ea0b985d38.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.105.0.VMBINXM": {
 					"os": "OS2.0.105.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.105.0.VMBINXM-user-15.0-3455e0f4d7.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.105.0.VMBINXM_20250721.0000.00_15.0_in_41bf1e5e38.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.105.0.VMBINXM_20250721.0000.00_15.0_in_41bf1e5e38.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VMBINXM": {
 					"os": "OS2.0.104.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-06-03",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.104.0.VMBINXM-user-15.0-3f88130dc9.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.104.0.VMBINXM_20250427.0000.00_15.0_in_bca3d6be5a.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.104.0.VMBINXM_20250427.0000.00_15.0_in_bca3d6be5a.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.103.0.VMBINXM": {
 					"os": "OS2.0.103.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.103.0.VMBINXM-user-15.0-da50ec6608.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.103.0.VMBINXM_20250417.0000.00_15.0_in_e76349e1b0.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.103.0.VMBINXM_20250417.0000.00_15.0_in_e76349e1b0.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.102.0.VMBINXM": {
 					"os": "OS2.0.102.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.102.0.VMBINXM-user-15.0-6a69e5b27c.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.102.0.VMBINXM_20250328.0000.00_15.0_in_1dde5a3044.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.102.0.VMBINXM_20250328.0000.00_15.0_in_1dde5a3044.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.100.0.VMBINXM": {
 					"os": "OS2.0.100.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-03-07",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.100.0.VMBINXM-user-15.0-d7eb74cdfe.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.100.0.VMBINXM_20250222.0000.00_15.0_in_83ab1f8dda.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.100.0.VMBINXM_20250222.0000.00_15.0_in_83ab1f8dda.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VMBINXM": {
 					"os": "OS2.0.2.0.VMBINXM",
 					"android": "15.0",
 					"release": "2025-01-17",
 					"recovery": "nuwa_in_global-ota_full-OS2.0.2.0.VMBINXM-user-15.0-dbb4f1b6ba.zip",
-					"fastboot": "nuwa_in_global_images_OS2.0.2.0.VMBINXM_20250102.0000.00_15.0_in_56584eb55d.tgz"
+					"fastboot": "nuwa_in_global_images_OS2.0.2.0.VMBINXM_20250102.0000.00_15.0_in_56584eb55d.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.12.0.UMBINXM": {
 					"os": "OS1.0.12.0.UMBINXM",
 					"android": "14.0",
 					"release": "2025-01-06",
 					"recovery": "miui_NUWAINGlobal_OS1.0.12.0.UMBINXM_db225d852a_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.12.0.UMBINXM_20241220.0000.00_14.0_in_454758610a.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.12.0.UMBINXM_20241220.0000.00_14.0_in_454758610a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.UMBINXM": {
 					"os": "OS1.0.11.0.UMBINXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_NUWAINGlobal_OS1.0.11.0.UMBINXM_4032b06c21_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.11.0.UMBINXM_20241121.0000.00_14.0_in_f539624274.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.11.0.UMBINXM_20241121.0000.00_14.0_in_f539624274.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UMBINXM": {
 					"os": "OS1.0.10.0.UMBINXM",
 					"android": "14.0",
 					"release": "2024-11-03",
 					"recovery": "miui_NUWAINGlobal_OS1.0.10.0.UMBINXM_b1d5a68759_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.10.0.UMBINXM_20241017.0000.00_14.0_in_9d062dc3ff.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.10.0.UMBINXM_20241017.0000.00_14.0_in_9d062dc3ff.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UMBINXM": {
 					"os": "OS1.0.9.0.UMBINXM",
 					"android": "14.0",
 					"release": "2024-09-24",
 					"recovery": "miui_NUWAINGlobal_OS1.0.9.0.UMBINXM_98a292ad06_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.9.0.UMBINXM_20240911.0000.00_14.0_in_f4063cff07.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.9.0.UMBINXM_20240911.0000.00_14.0_in_f4063cff07.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.7.0.UMBINXM": {
 					"os": "OS1.0.7.0.UMBINXM",
 					"android": "14.0",
 					"release": "2024-08-23",
 					"recovery": "miui_NUWAINGlobal_OS1.0.7.0.UMBINXM_c5ff558276_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.7.0.UMBINXM_20240726.0000.00_14.0_in_5f0737e407.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.7.0.UMBINXM_20240726.0000.00_14.0_in_5f0737e407.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.6.0.UMBINXM": {
 					"os": "OS1.0.6.0.UMBINXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_NUWAINGlobal_OS1.0.6.0.UMBINXM_38ef10cf1e_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.6.0.UMBINXM_20240625.0000.00_14.0_in_20b549f1bb.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.6.0.UMBINXM_20240625.0000.00_14.0_in_20b549f1bb.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.4.0.UMBINXM": {
 					"os": "OS1.0.4.0.UMBINXM",
 					"android": "14.0",
 					"release": "2024-05-27",
 					"recovery": "miui_NUWAINGlobal_OS1.0.4.0.UMBINXM_f305370c9b_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.4.0.UMBINXM_20240408.0000.00_14.0_in_38e316f40d.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.4.0.UMBINXM_20240408.0000.00_14.0_in_38e316f40d.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.2.0.UMBINXM": {
 					"os": "OS1.0.2.0.UMBINXM",
 					"android": "14.0",
 					"release": "2024-02-26",
 					"recovery": "miui_NUWAINGlobal_OS1.0.2.0.UMBINXM_5c46af18a0_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.2.0.UMBINXM_20240205.0000.00_14.0_in_cb2b19080c.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.2.0.UMBINXM_20240205.0000.00_14.0_in_cb2b19080c.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.1.0.UMBINXM": {
 					"os": "OS1.0.1.0.UMBINXM",
 					"android": "14.0",
 					"release": "2024-01-02",
 					"recovery": "miui_NUWAINGlobal_OS1.0.1.0.UMBINXM_59d6d72371_14.0.zip",
-					"fastboot": "nuwa_in_global_images_OS1.0.1.0.UMBINXM_20231223.0000.00_14.0_in_5fd3bac540.tgz"
+					"fastboot": "nuwa_in_global_images_OS1.0.1.0.UMBINXM_20231223.0000.00_14.0_in_5fd3bac540.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		}

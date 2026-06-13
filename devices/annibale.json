@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -52,35 +53,40 @@
 					"android": "16.0",
 					"release": "2026-06-12",
 					"recovery": "annibale-ota_full-OS3.0.305.3.WPKCNXM-user-16.0-132048d7f5.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.304.7.WPKCNXM": {
 					"os": "OS3.0.304.7.WPKCNXM",
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "annibale-ota_full-OS3.0.304.7.WPKCNXM-user-16.0-1e49c86a3b.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.300.9.WPKCNXM": {
 					"os": "OS3.0.300.9.WPKCNXM",
 					"android": "16.0",
 					"release": "2026-02-27",
 					"recovery": "annibale-ota_full-OS3.0.300.9.WPKCNXM-user-16.0-ba25ab6ae4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.8.WPKCNXM": {
 					"os": "OS3.0.300.8.WPKCNXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "annibale-ota_full-OS3.0.300.8.WPKCNXM-user-16.0-9d5956ce3b.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.300.4.WPKCNXM": {
 					"os": "OS3.0.300.4.WPKCNXM",
 					"android": "16.0",
 					"release": "2026-01-22",
 					"recovery": "annibale-ota_full-OS3.0.300.4.WPKCNXM-user-16.0-b3e21001a5.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				}
 			}
 		},
@@ -102,6 +108,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -123,7 +130,8 @@
 					"release": "2026-06-05",
 					"recovery": "annibale-ota_full-OS3.0.305.0.WPKCNXM-user-16.0-e88370d5bc.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.304.0.WPKCNXM": {
 					"os": "OS3.0.304.0.WPKCNXM",
@@ -131,7 +139,8 @@
 					"release": "2026-05-16",
 					"recovery": "annibale-ota_full-OS3.0.304.0.WPKCNXM-user-16.0-a582a51eb5.zip",
 					"fastboot": "annibale_images_OS3.0.304.0.WPKCNXM_20260407.0000.00_16.0_cn_c85246f458.tgz",
-					"ctelecom": "annibale_images_OS3.0.304.0.WPKCNXM_20260407.0000.00_16.0_cn_chinatelecom_81952a8980.tgz"
+					"ctelecom": "annibale_images_OS3.0.304.0.WPKCNXM_20260407.0000.00_16.0_cn_chinatelecom_81952a8980.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.303.0.WPKCNXM": {
 					"os": "OS3.0.303.0.WPKCNXM",
@@ -139,7 +148,8 @@
 					"release": "2026-03-11",
 					"recovery": "annibale-ota_full-OS3.0.303.0.WPKCNXM-user-16.0-33073f2249.zip",
 					"fastboot": "annibale_images_OS3.0.303.0.WPKCNXM_20260307.0000.00_16.0_cn_880f25682d.tgz",
-					"ctelecom": "annibale_images_OS3.0.303.0.WPKCNXM_20260307.0000.00_16.0_cn_chinatelecom_c7bb2321af.tgz"
+					"ctelecom": "annibale_images_OS3.0.303.0.WPKCNXM_20260307.0000.00_16.0_cn_chinatelecom_c7bb2321af.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.24.0.WPKCNXM": {
 					"os": "OS3.0.24.0.WPKCNXM",
@@ -147,7 +157,8 @@
 					"release": "2026-02-01",
 					"recovery": "annibale-ota_full-OS3.0.24.0.WPKCNXM-user-16.0-f967acd36f.zip",
 					"fastboot": "annibale_images_OS3.0.24.0.WPKCNXM_20260127.0000.00_16.0_cn_c7b8e4d236.tgz",
-					"ctelecom": "annibale_images_OS3.0.24.0.WPKCNXM_20260127.0000.00_16.0_cn_chinatelecom_db997867c8.tgz"
+					"ctelecom": "annibale_images_OS3.0.24.0.WPKCNXM_20260127.0000.00_16.0_cn_chinatelecom_db997867c8.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.20.0.WPKCNXM": {
 					"os": "OS3.0.20.0.WPKCNXM",
@@ -155,7 +166,8 @@
 					"release": "2025-12-28",
 					"recovery": "annibale-ota_full-OS3.0.20.0.WPKCNXM-user-16.0-42b109f0f1.zip",
 					"fastboot": "annibale_images_OS3.0.20.0.WPKCNXM_20251224.0000.00_16.0_cn_94861d4723.tgz",
-					"ctelecom": "annibale_images_OS3.0.20.0.WPKCNXM_20251224.0000.00_16.0_cn_chinatelecom_7c795e231f.tgz"
+					"ctelecom": "annibale_images_OS3.0.20.0.WPKCNXM_20251224.0000.00_16.0_cn_chinatelecom_7c795e231f.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.18.0.WPKCNXM": {
 					"os": "OS3.0.18.0.WPKCNXM",
@@ -163,7 +175,8 @@
 					"release": "2025-12-16",
 					"recovery": "annibale-ota_full-OS3.0.18.0.WPKCNXM-user-16.0-d8932cf81a.zip",
 					"fastboot": "annibale_images_OS3.0.18.0.WPKCNXM_20251211.0000.00_16.0_cn_4bb6b3f441.tgz",
-					"ctelecom": "annibale_images_OS3.0.18.0.WPKCNXM_20251211.0000.00_16.0_cn_chinatelecom_c7d5e864fe.tgz"
+					"ctelecom": "annibale_images_OS3.0.18.0.WPKCNXM_20251211.0000.00_16.0_cn_chinatelecom_c7d5e864fe.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.16.0.WPKCNXM": {
 					"os": "OS3.0.16.0.WPKCNXM",
@@ -171,7 +184,8 @@
 					"release": "2025-12-03",
 					"recovery": "annibale-ota_full-OS3.0.16.0.WPKCNXM-user-16.0-d3d99b7bb2.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.13.0.WPKCNXM": {
 					"os": "OS3.0.13.0.WPKCNXM",
@@ -179,7 +193,8 @@
 					"release": "2025-11-10",
 					"recovery": "annibale-ota_full-OS3.0.13.0.WPKCNXM-user-16.0-f28d23c6a2.zip",
 					"fastboot": "annibale_images_OS3.0.13.0.WPKCNXM_20251107.0000.00_16.0_cn_2594d1c4ae.tgz",
-					"ctelecom": "annibale_images_OS3.0.13.0.WPKCNXM_20251107.0000.00_16.0_cn_chinatelecom_0866b90dd5.tgz"
+					"ctelecom": "annibale_images_OS3.0.13.0.WPKCNXM_20251107.0000.00_16.0_cn_chinatelecom_0866b90dd5.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.11.0.WPKCNXM": {
 					"os": "OS3.0.11.0.WPKCNXM",
@@ -187,7 +202,8 @@
 					"release": "2025-11-06",
 					"recovery": "annibale-ota_full-OS3.0.11.0.WPKCNXM-user-16.0-2eac20c51a.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.9.0.WPKCNXM": {
 					"os": "OS3.0.9.0.WPKCNXM",
@@ -195,7 +211,8 @@
 					"release": "2025-10-23",
 					"recovery": "annibale-ota_full-OS3.0.9.0.WPKCNXM-user-16.0-e06570ff2d.zip",
 					"fastboot": "annibale_images_OS3.0.9.0.WPKCNXM_20251021.0000.00_16.0_cn_e8edaa9e67.tgz",
-					"ctelecom": "annibale_images_OS3.0.9.0.WPKCNXM_20251021.0000.00_16.0_cn_chinatelecom_dd84c174e2.tgz"
+					"ctelecom": "annibale_images_OS3.0.9.0.WPKCNXM_20251021.0000.00_16.0_cn_chinatelecom_dd84c174e2.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS3.0.4.0.WPKCNXM": {
 					"os": "OS3.0.4.0.WPKCNXM",
@@ -203,7 +220,8 @@
 					"release": "2025-10-23",
 					"recovery": "annibale-ota_full-OS3.0.4.0.WPKCNXM-user-16.0-eff83315c8.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-09-01"
 				}
 			}
 		},
@@ -225,6 +243,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -246,7 +265,8 @@
 					"release": "2026-01-04",
 					"recovery": "annibale_demo-ota_full-OS3.0.3.0.WPKCNDM-user-16.0-f807d5721e.zip",
 					"fastboot": "annibale_demo_images_OS3.0.3.0.WPKCNDM_20251225.0000.00_16.0_cn_a9dcbd6a5f.tgz",
-					"ctelecom": "annibale_demo_images_OS3.0.3.0.WPKCNDM_20251225.0000.00_16.0_cn_chinatelecom_c69e0a9298.tgz"
+					"ctelecom": "annibale_demo_images_OS3.0.3.0.WPKCNDM_20251225.0000.00_16.0_cn_chinatelecom_c69e0a9298.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WPKCNDM": {
 					"os": "OS3.0.2.0.WPKCNDM",
@@ -254,7 +274,8 @@
 					"release": "2025-10-23",
 					"recovery": "annibale_demo-ota_full-OS3.0.2.0.WPKCNDM-user-16.0-3cebd638f6.zip",
 					"fastboot": "annibale_demo_images_OS3.0.2.0.WPKCNDM_20251020.0000.00_16.0_cn_f9f5e9da22.tgz",
-					"ctelecom": "annibale_demo_images_OS3.0.2.0.WPKCNDM_20251020.0000.00_16.0_cn_chinatelecom_065bd2cab4.tgz"
+					"ctelecom": "annibale_demo_images_OS3.0.2.0.WPKCNDM_20251020.0000.00_16.0_cn_chinatelecom_065bd2cab4.tgz",
+					"aspatch": "2025-09-01"
 				}
 			}
 		},
@@ -276,6 +297,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -292,28 +314,32 @@
 					"android": "16.0",
 					"release": "2026-01-13",
 					"recovery": "annibale_tw_global-ota_full-OS3.0.4.0.WPKTWXM-user-16.0-5ea3dbdb66.zip",
-					"fastboot": "annibale_tw_global_images_OS3.0.4.0.WPKTWXM_20260104.0000.00_16.0_tw_3ca12f2d18.tgz"
+					"fastboot": "annibale_tw_global_images_OS3.0.4.0.WPKTWXM_20260104.0000.00_16.0_tw_3ca12f2d18.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.3.0.WPKTWXM": {
 					"os": "OS3.0.3.0.WPKTWXM",
 					"android": "16.0",
 					"release": "2025-12-11",
 					"recovery": "annibale_tw_global-ota_full-OS3.0.3.0.WPKTWXM-user-16.0-2da746a43b.zip",
-					"fastboot": "annibale_tw_global_images_OS3.0.3.0.WPKTWXM_20251205.0000.00_16.0_tw_f348b8fced.tgz"
+					"fastboot": "annibale_tw_global_images_OS3.0.3.0.WPKTWXM_20251205.0000.00_16.0_tw_f348b8fced.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WPKTWXM": {
 					"os": "OS3.0.2.0.WPKTWXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "annibale_tw_global-ota_full-OS3.0.2.0.WPKTWXM-user-16.0-a30c439f63.zip",
-					"fastboot": "annibale_tw_global_images_OS3.0.2.0.WPKTWXM_20251120.0000.00_16.0_tw_be057cf685.tgz"
+					"fastboot": "annibale_tw_global_images_OS3.0.2.0.WPKTWXM_20251120.0000.00_16.0_tw_be057cf685.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.1.0.WPKTWXM": {
 					"os": "OS3.0.1.0.WPKTWXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "annibale_tw_global-ota_full-OS3.0.1.0.WPKTWXM-user-16.0-5290ac03de.zip",
-					"fastboot": "annibale_tw_global_images_OS3.0.1.0.WPKTWXM_20251103.0000.00_16.0_tw_8395de0fcc.tgz"
+					"fastboot": "annibale_tw_global_images_OS3.0.1.0.WPKTWXM_20251103.0000.00_16.0_tw_8395de0fcc.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -335,6 +361,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -351,28 +378,32 @@
 					"android": "16.0",
 					"release": "2026-01-04",
 					"recovery": "annibale_global-ota_full-OS3.0.8.0.WPKMIXM-user-16.0-1f0f4833a2.zip",
-					"fastboot": "annibale_global_images_OS3.0.8.0.WPKMIXM_20251224.0000.00_16.0_global_7a16d2eedf.tgz"
+					"fastboot": "annibale_global_images_OS3.0.8.0.WPKMIXM_20251224.0000.00_16.0_global_7a16d2eedf.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.7.0.WPKMIXM": {
 					"os": "OS3.0.7.0.WPKMIXM",
 					"android": "16.0",
 					"release": "2025-12-15",
 					"recovery": "annibale_global-ota_full-OS3.0.7.0.WPKMIXM-user-16.0-7a8b99780b.zip",
-					"fastboot": "annibale_global_images_OS3.0.7.0.WPKMIXM_20251205.0000.00_16.0_global_2b3ea1f804.tgz"
+					"fastboot": "annibale_global_images_OS3.0.7.0.WPKMIXM_20251205.0000.00_16.0_global_2b3ea1f804.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.6.0.WPKMIXM": {
 					"os": "OS3.0.6.0.WPKMIXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "annibale_global-ota_full-OS3.0.6.0.WPKMIXM-user-16.0-78b7a83a6a.zip",
-					"fastboot": "annibale_global_images_OS3.0.6.0.WPKMIXM_20251123.0000.00_16.0_global_d85b902c56.tgz"
+					"fastboot": "annibale_global_images_OS3.0.6.0.WPKMIXM_20251123.0000.00_16.0_global_d85b902c56.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.4.0.WPKMIXM": {
 					"os": "OS3.0.4.0.WPKMIXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "annibale_global-ota_full-OS3.0.4.0.WPKMIXM-user-16.0-7a437517f0.zip",
-					"fastboot": "annibale_global_images_OS3.0.4.0.WPKMIXM_20251115.0000.00_16.0_global_f549328954.tgz"
+					"fastboot": "annibale_global_images_OS3.0.4.0.WPKMIXM_20251115.0000.00_16.0_global_f549328954.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -394,6 +425,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -410,28 +442,32 @@
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "annibale_eea_global-ota_full-OS3.0.8.0.WPKEUXM-user-16.0-34baa886b5.zip",
-					"fastboot": "annibale_eea_global_images_OS3.0.8.0.WPKEUXM_20260129.0000.00_16.0_eea_525057a602.tgz"
+					"fastboot": "annibale_eea_global_images_OS3.0.8.0.WPKEUXM_20260129.0000.00_16.0_eea_525057a602.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.6.0.WPKEUXM": {
 					"os": "OS3.0.6.0.WPKEUXM",
 					"android": "16.0",
 					"release": "2025-12-21",
 					"recovery": "annibale_eea_global-ota_full-OS3.0.6.0.WPKEUXM-user-16.0-d122b45ca1.zip",
-					"fastboot": "annibale_eea_global_images_OS3.0.6.0.WPKEUXM_20251215.0000.00_16.0_eea_386fed029e.tgz"
+					"fastboot": "annibale_eea_global_images_OS3.0.6.0.WPKEUXM_20251215.0000.00_16.0_eea_386fed029e.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.5.0.WPKEUXM": {
 					"os": "OS3.0.5.0.WPKEUXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "annibale_eea_global-ota_full-OS3.0.5.0.WPKEUXM-user-16.0-9bc85c19ae.zip",
-					"fastboot": "annibale_eea_global_images_OS3.0.5.0.WPKEUXM_20251123.0000.00_16.0_eea_197cdd8bbb.tgz"
+					"fastboot": "annibale_eea_global_images_OS3.0.5.0.WPKEUXM_20251123.0000.00_16.0_eea_197cdd8bbb.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WPKEUXM": {
 					"os": "OS3.0.2.0.WPKEUXM",
 					"android": "16.0",
 					"release": "2025-10-29",
 					"recovery": "annibale_eea_global-ota_full-OS3.0.2.0.WPKEUXM-user-16.0-d24205834d.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				}
 			}
 		},
@@ -453,6 +489,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -469,21 +506,24 @@
 					"android": "16.0",
 					"release": "2026-02-26",
 					"recovery": "annibale_ru_global-ota_full-OS3.0.6.0.WPKRUXM-user-16.0-02d0916bfc.zip",
-					"fastboot": "annibale_ru_global_images_OS3.0.6.0.WPKRUXM_20260129.0000.00_16.0_ru_423ac8815e.tgz"
+					"fastboot": "annibale_ru_global_images_OS3.0.6.0.WPKRUXM_20260129.0000.00_16.0_ru_423ac8815e.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.3.0.WPKRUXM": {
 					"os": "OS3.0.3.0.WPKRUXM",
 					"android": "16.0",
 					"release": "2025-12-11",
 					"recovery": "annibale_ru_global-ota_full-OS3.0.3.0.WPKRUXM-user-16.0-1b842816f2.zip",
-					"fastboot": "annibale_ru_global_images_OS3.0.3.0.WPKRUXM_20251201.0000.00_16.0_ru_91ed2104ed.tgz"
+					"fastboot": "annibale_ru_global_images_OS3.0.3.0.WPKRUXM_20251201.0000.00_16.0_ru_91ed2104ed.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WPKRUXM": {
 					"os": "OS3.0.2.0.WPKRUXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "annibale_ru_global-ota_full-OS3.0.2.0.WPKRUXM-user-16.0-df16de5bef.zip",
-					"fastboot": "annibale_ru_global_images_OS3.0.2.0.WPKRUXM_20251031.0000.00_16.0_ru_5ac66a3b10.tgz"
+					"fastboot": "annibale_ru_global_images_OS3.0.2.0.WPKRUXM_20251031.0000.00_16.0_ru_5ac66a3b10.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -505,6 +545,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -521,21 +562,24 @@
 					"android": "16.0",
 					"release": "2026-03-03",
 					"recovery": "annibale_id_global-ota_full-OS3.0.5.0.WPKIDXM-user-16.0-bdb4c2424d.zip",
-					"fastboot": "annibale_id_global_images_OS3.0.5.0.WPKIDXM_20260129.0000.00_16.0_id_bd8e384590.tgz"
+					"fastboot": "annibale_id_global_images_OS3.0.5.0.WPKIDXM_20260129.0000.00_16.0_id_bd8e384590.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.2.0.WPKIDXM": {
 					"os": "OS3.0.2.0.WPKIDXM",
 					"android": "16.0",
 					"release": "2025-12-11",
 					"recovery": "annibale_id_global-ota_full-OS3.0.2.0.WPKIDXM-user-16.0-589e6fed7a.zip",
-					"fastboot": "annibale_id_global_images_OS3.0.2.0.WPKIDXM_20251128.0000.00_16.0_id_97a585f521.tgz"
+					"fastboot": "annibale_id_global_images_OS3.0.2.0.WPKIDXM_20251128.0000.00_16.0_id_97a585f521.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.1.0.WPKIDXM": {
 					"os": "OS3.0.1.0.WPKIDXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "annibale_id_global-ota_full-OS3.0.1.0.WPKIDXM-user-16.0-bca36db9c2.zip",
-					"fastboot": "annibale_id_global_images_OS3.0.1.0.WPKIDXM_20251103.0000.00_16.0_id_87518ebaba.tgz"
+					"fastboot": "annibale_id_global_images_OS3.0.1.0.WPKIDXM_20251103.0000.00_16.0_id_87518ebaba.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -557,6 +601,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -573,14 +618,16 @@
 					"android": "16.0",
 					"release": "2026-01-13",
 					"recovery": "annibale_tr_global-ota_full-OS3.0.3.0.WPKTRXM-user-16.0-71694e841a.zip",
-					"fastboot": "annibale_tr_global_images_OS3.0.3.0.WPKTRXM_20260104.0000.00_16.0_tr_dac16d1753.tgz"
+					"fastboot": "annibale_tr_global_images_OS3.0.3.0.WPKTRXM_20260104.0000.00_16.0_tr_dac16d1753.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.2.0.WPKTRXM": {
 					"os": "OS3.0.2.0.WPKTRXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "annibale_tr_global-ota_full-OS3.0.2.0.WPKTRXM-user-16.0-55725944b7.zip",
-					"fastboot": "annibale_tr_global_images_OS3.0.2.0.WPKTRXM_20251120.0000.00_16.0_tr_ac453e80d8.tgz"
+					"fastboot": "annibale_tr_global_images_OS3.0.2.0.WPKTRXM_20251120.0000.00_16.0_tr_ac453e80d8.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		}

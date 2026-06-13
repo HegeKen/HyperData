@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -56,77 +57,88 @@
 					"android": "16.0",
 					"release": "2025-10-23",
 					"recovery": "goku-ota_full-OS3.0.0.18.WNVCNXM-user-16.0-df15964668.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.10.WNVCNXM": {
 					"os": "OS3.0.0.10.WNVCNXM",
 					"android": "16.0",
 					"release": "2025-09-30",
 					"recovery": "goku-ota_full-OS3.0.0.10.WNVCNXM-user-16.0-177a40bee6.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS3.0.0.6.WNVCNXM": {
 					"os": "OS3.0.0.6.WNVCNXM",
 					"android": "16.0",
 					"release": "2025-09-26",
 					"recovery": "goku-ota_full-OS3.0.0.6.WNVCNXM-user-16.0-d19b99f933.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.200.16.VNVCNXM": {
 					"os": "OS2.0.200.16.VNVCNXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "goku-ota_full-OS2.0.200.16.VNVCNXM-user-15.0-2ad29af39a.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.13.VNVCNXM": {
 					"os": "OS2.0.200.13.VNVCNXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "goku-ota_full-OS2.0.200.13.VNVCNXM-user-15.0-bff9a278c8.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.11.VNVCNXM": {
 					"os": "OS2.0.200.11.VNVCNXM",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "goku-ota_full-OS2.0.200.11.VNVCNXM-user-15.0-f6f13ddd46.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.200.7.VNVCNXM": {
 					"os": "OS2.0.200.7.VNVCNXM",
 					"android": "15.0",
 					"release": "2025-04-10",
 					"recovery": "goku-ota_full-OS2.0.200.7.VNVCNXM-user-15.0-bdf8008214.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.200.2.VNVCNXM": {
 					"os": "OS2.0.200.2.VNVCNXM",
 					"android": "15.0",
 					"release": "2025-03-27",
 					"recovery": "goku-ota_full-OS2.0.200.2.VNVCNXM-user-15.0-5422bda118.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.8.4.VNVCNXM": {
 					"os": "OS2.0.8.4.VNVCNXM",
 					"android": "15.0",
 					"release": "2025-01-06",
 					"recovery": "goku-ota_full-OS2.0.8.4.VNVCNXM-user-15.0-3f08e0bd1e.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.3.VNVCNXM": {
 					"os": "OS2.0.1.3.VNVCNXM",
 					"android": "15.0",
 					"release": "2024-11-27",
 					"recovery": "goku-ota_full-OS2.0.1.3.VNVCNXM-user-15.0-772dccac89.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.0.25.VNVCNXM": {
 					"os": "OS2.0.0.25.VNVCNXM",
 					"android": "15.0",
 					"release": "2024-11-19",
 					"recovery": "goku-ota_full-OS2.0.0.25.VNVCNXM-user-15.0-b0795d65bd.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -148,6 +160,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -169,7 +182,8 @@
 					"release": "2026-05-27",
 					"recovery": "goku-ota_full-OS3.0.306.0.WNVCNXM-user-16.0-4248a7a1f3.zip",
 					"fastboot": "goku_images_OS3.0.306.0.WNVCNXM_20260520.0000.00_16.0_cn_8d1dced99c.tgz",
-					"ctelecom": "goku_images_OS3.0.306.0.WNVCNXM_20260520.0000.00_16.0_cn_chinatelecom_99047a6c09.tgz"
+					"ctelecom": "goku_images_OS3.0.306.0.WNVCNXM_20260520.0000.00_16.0_cn_chinatelecom_99047a6c09.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.305.0.WNVCNXM": {
 					"os": "OS3.0.305.0.WNVCNXM",
@@ -177,7 +191,8 @@
 					"release": "2026-04-30",
 					"recovery": "goku-ota_full-OS3.0.305.0.WNVCNXM-user-16.0-b5a4679667.zip",
 					"fastboot": "goku_images_OS3.0.305.0.WNVCNXM_20260424.0000.00_16.0_cn_e7b2d8134b.tgz",
-					"ctelecom": "goku_images_OS3.0.305.0.WNVCNXM_20260424.0000.00_16.0_cn_chinatelecom_70565394d0.tgz"
+					"ctelecom": "goku_images_OS3.0.305.0.WNVCNXM_20260424.0000.00_16.0_cn_chinatelecom_70565394d0.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.304.0.WNVCNXM": {
 					"os": "OS3.0.304.0.WNVCNXM",
@@ -185,7 +200,8 @@
 					"release": "2026-04-10",
 					"recovery": "goku-ota_full-OS3.0.304.0.WNVCNXM-user-16.0-ea46b1295d.zip",
 					"fastboot": "goku_images_OS3.0.304.0.WNVCNXM_20260403.0000.00_16.0_cn_260365efc9.tgz",
-					"ctelecom": "goku_images_OS3.0.304.0.WNVCNXM_20260403.0000.00_16.0_cn_chinatelecom_9431c69169.tgz"
+					"ctelecom": "goku_images_OS3.0.304.0.WNVCNXM_20260403.0000.00_16.0_cn_chinatelecom_9431c69169.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.8.0.WNVCNXM": {
 					"os": "OS3.0.8.0.WNVCNXM",
@@ -193,7 +209,8 @@
 					"release": "2026-02-13",
 					"recovery": "goku-ota_full-OS3.0.8.0.WNVCNXM-user-16.0-8cb8ac4752.zip",
 					"fastboot": "goku_images_OS3.0.8.0.WNVCNXM_20260213.0000.00_16.0_cn_ad6741df14.tgz",
-					"ctelecom": "goku_images_OS3.0.8.0.WNVCNXM_20260213.0000.00_16.0_cn_chinatelecom_2147ce48d4.tgz"
+					"ctelecom": "goku_images_OS3.0.8.0.WNVCNXM_20260213.0000.00_16.0_cn_chinatelecom_2147ce48d4.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.7.0.WNVCNXM": {
 					"os": "OS3.0.7.0.WNVCNXM",
@@ -201,7 +218,8 @@
 					"release": "2026-01-29",
 					"recovery": "goku-ota_full-OS3.0.7.0.WNVCNXM-user-16.0-636b8ce59f.zip",
 					"fastboot": "goku_images_OS3.0.7.0.WNVCNXM_20260123.0000.00_16.0_cn_8dc7bb9f00.tgz",
-					"ctelecom": "goku_images_OS3.0.7.0.WNVCNXM_20260123.0000.00_16.0_cn_chinatelecom_44c6a6d519.tgz"
+					"ctelecom": "goku_images_OS3.0.7.0.WNVCNXM_20260123.0000.00_16.0_cn_chinatelecom_44c6a6d519.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.5.0.WNVCNXM": {
 					"os": "OS3.0.5.0.WNVCNXM",
@@ -209,7 +227,8 @@
 					"release": "2025-12-23",
 					"recovery": "goku-ota_full-OS3.0.5.0.WNVCNXM-user-16.0-2b74ff4506.zip",
 					"fastboot": "goku_images_OS3.0.5.0.WNVCNXM_20251220.0000.00_16.0_cn_125161a817.tgz",
-					"ctelecom": "goku_images_OS3.0.5.0.WNVCNXM_20251220.0000.00_16.0_cn_chinatelecom_c923fcc2cd.tgz"
+					"ctelecom": "goku_images_OS3.0.5.0.WNVCNXM_20251220.0000.00_16.0_cn_chinatelecom_c923fcc2cd.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.3.0.WNVCNXM": {
 					"os": "OS3.0.3.0.WNVCNXM",
@@ -217,7 +236,8 @@
 					"release": "2025-11-13",
 					"recovery": "goku-ota_full-OS3.0.3.0.WNVCNXM-user-16.0-ed4dc58b7d.zip",
 					"fastboot": "goku_images_OS3.0.3.0.WNVCNXM_20251106.0000.00_16.0_cn_3b88804d63.tgz",
-					"ctelecom": "goku_images_OS3.0.3.0.WNVCNXM_20251106.0000.00_16.0_cn_chinatelecom_77a33820ba.tgz"
+					"ctelecom": "goku_images_OS3.0.3.0.WNVCNXM_20251106.0000.00_16.0_cn_chinatelecom_77a33820ba.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.211.0.VNVCNXM": {
 					"os": "OS2.0.211.0.VNVCNXM",
@@ -225,7 +245,8 @@
 					"release": "2025-10-16",
 					"recovery": "goku-ota_full-OS2.0.211.0.VNVCNXM-user-15.0-468c166fa1.zip",
 					"fastboot": "goku_images_OS2.0.211.0.VNVCNXM_20250928.0000.00_15.0_cn_00dfc76cca.tgz",
-					"ctelecom": "goku_images_OS2.0.211.0.VNVCNXM_20250928.0000.00_15.0_cn_chinatelecom_463f9b59e1.tgz"
+					"ctelecom": "goku_images_OS2.0.211.0.VNVCNXM_20250928.0000.00_15.0_cn_chinatelecom_463f9b59e1.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.210.0.VNVCNXM": {
 					"os": "OS2.0.210.0.VNVCNXM",
@@ -233,7 +254,8 @@
 					"release": "2025-09-19",
 					"recovery": "goku-ota_full-OS2.0.210.0.VNVCNXM-user-15.0-d7916f0237.zip",
 					"fastboot": "goku_images_OS2.0.210.0.VNVCNXM_20250912.0000.00_15.0_cn_10149d7543.tgz",
-					"ctelecom": "goku_images_OS2.0.210.0.VNVCNXM_20250912.0000.00_15.0_cn_chinatelecom_d2d7815526.tgz"
+					"ctelecom": "goku_images_OS2.0.210.0.VNVCNXM_20250912.0000.00_15.0_cn_chinatelecom_d2d7815526.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.207.0.VNVCNXM": {
 					"os": "OS2.0.207.0.VNVCNXM",
@@ -241,7 +263,8 @@
 					"release": "2025-08-21",
 					"recovery": "goku-ota_full-OS2.0.207.0.VNVCNXM-user-15.0-e33878f250.zip",
 					"fastboot": "goku_images_OS2.0.207.0.VNVCNXM_20250807.0000.00_15.0_cn_845c39fc46.tgz",
-					"ctelecom": "goku_images_OS2.0.207.0.VNVCNXM_20250807.0000.00_15.0_cn_chinatelecom_f520038f33.tgz"
+					"ctelecom": "goku_images_OS2.0.207.0.VNVCNXM_20250807.0000.00_15.0_cn_chinatelecom_f520038f33.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.206.0.VNVCNXM": {
 					"os": "OS2.0.206.0.VNVCNXM",
@@ -249,7 +272,8 @@
 					"release": "2025-07-11",
 					"recovery": "goku-ota_full-OS2.0.206.0.VNVCNXM-user-15.0-26031e675b.zip",
 					"fastboot": "goku_images_OS2.0.206.0.VNVCNXM_20250703.0000.00_15.0_cn_36570e9e49.tgz",
-					"ctelecom": "goku_images_OS2.0.206.0.VNVCNXM_20250703.0000.00_15.0_cn_chinatelecom_4b69952c7c.tgz"
+					"ctelecom": "goku_images_OS2.0.206.0.VNVCNXM_20250703.0000.00_15.0_cn_chinatelecom_4b69952c7c.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.205.0.VNVCNXM": {
 					"os": "OS2.0.205.0.VNVCNXM",
@@ -257,7 +281,8 @@
 					"release": "2025-06-18",
 					"recovery": "goku-ota_full-OS2.0.205.0.VNVCNXM-user-15.0-88547c9cf5.zip",
 					"fastboot": "goku_images_OS2.0.205.0.VNVCNXM_20250610.0000.00_15.0_cn_d1ac3f485a.tgz",
-					"ctelecom": "goku_images_OS2.0.205.0.VNVCNXM_20250610.0000.00_15.0_cn_chinatelecom_ef4dfca6a9.tgz"
+					"ctelecom": "goku_images_OS2.0.205.0.VNVCNXM_20250610.0000.00_15.0_cn_chinatelecom_ef4dfca6a9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.204.0.VNVCNXM": {
 					"os": "OS2.0.204.0.VNVCNXM",
@@ -265,7 +290,8 @@
 					"release": "2025-06-03",
 					"recovery": "goku-ota_full-OS2.0.204.0.VNVCNXM-user-15.0-436aa6d19e.zip",
 					"fastboot": "goku_images_OS2.0.204.0.VNVCNXM_20250530.0000.00_15.0_cn_7f066bfcd6.tgz",
-					"ctelecom": "goku_images_OS2.0.204.0.VNVCNXM_20250530.0000.00_15.0_cn_chinatelecom_633224dd40.tgz"
+					"ctelecom": "goku_images_OS2.0.204.0.VNVCNXM_20250530.0000.00_15.0_cn_chinatelecom_633224dd40.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.203.0.VNVCNXM": {
 					"os": "OS2.0.203.0.VNVCNXM",
@@ -273,7 +299,8 @@
 					"release": "2025-05-29",
 					"recovery": "goku-ota_full-OS2.0.203.0.VNVCNXM-user-15.0-17d061ace0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.108.0.VNVCNXM": {
 					"os": "OS2.0.108.0.VNVCNXM",
@@ -281,7 +308,8 @@
 					"release": "2025-05-14",
 					"recovery": "goku-ota_full-OS2.0.108.0.VNVCNXM-user-15.0-4fb806ef0f.zip",
 					"fastboot": "goku_images_OS2.0.108.0.VNVCNXM_20250422.0000.00_15.0_cn_479402fbfb.tgz",
-					"ctelecom": "goku_images_OS2.0.108.0.VNVCNXM_20250422.0000.00_15.0_cn_chinatelecom_ac7c3ea4a3.tgz"
+					"ctelecom": "goku_images_OS2.0.108.0.VNVCNXM_20250422.0000.00_15.0_cn_chinatelecom_ac7c3ea4a3.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.106.0.VNVCNXM": {
 					"os": "OS2.0.106.0.VNVCNXM",
@@ -289,7 +317,8 @@
 					"release": "2025-04-11",
 					"recovery": "goku-ota_full-OS2.0.106.0.VNVCNXM-user-15.0-64d2a743ab.zip",
 					"fastboot": "goku_images_OS2.0.106.0.VNVCNXM_20250331.0000.00_15.0_cn_8ab1ee3bda.tgz",
-					"ctelecom": "goku_images_OS2.0.106.0.VNVCNXM_20250331.0000.00_15.0_cn_chinatelecom_d429d19bad.tgz"
+					"ctelecom": "goku_images_OS2.0.106.0.VNVCNXM_20250331.0000.00_15.0_cn_chinatelecom_d429d19bad.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.104.0.VNVCNXM": {
 					"os": "OS2.0.104.0.VNVCNXM",
@@ -297,7 +326,8 @@
 					"release": "2025-03-07",
 					"recovery": "goku-ota_full-OS2.0.104.0.VNVCNXM-user-15.0-2e76c8b5f1.zip",
 					"fastboot": "goku_images_OS2.0.104.0.VNVCNXM_20250218.0000.00_15.0_cn_27ac6bf2b4.tgz",
-					"ctelecom": "goku_images_OS2.0.104.0.VNVCNXM_20250218.0000.00_15.0_cn_chinatelecom_d6aa218779.tgz"
+					"ctelecom": "goku_images_OS2.0.104.0.VNVCNXM_20250218.0000.00_15.0_cn_chinatelecom_d6aa218779.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.102.0.VNVCNXM": {
 					"os": "OS2.0.102.0.VNVCNXM",
@@ -305,7 +335,8 @@
 					"release": "2025-01-15",
 					"recovery": "goku-ota_full-OS2.0.102.0.VNVCNXM-user-15.0-2c00a2c2b7.zip",
 					"fastboot": "goku_images_OS2.0.102.0.VNVCNXM_20250111.0000.00_15.0_cn_e68c695a6f.tgz",
-					"ctelecom": "goku_images_OS2.0.102.0.VNVCNXM_20250111.0000.00_15.0_cn_chinatelecom_f7c245e308.tgz"
+					"ctelecom": "goku_images_OS2.0.102.0.VNVCNXM_20250111.0000.00_15.0_cn_chinatelecom_f7c245e308.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.8.0.VNVCNXM": {
 					"os": "OS2.0.8.0.VNVCNXM",
@@ -313,7 +344,8 @@
 					"release": "2024-12-30",
 					"recovery": "goku-ota_full-OS2.0.8.0.VNVCNXM-user-15.0-7cf54a236b.zip",
 					"fastboot": "goku_images_OS2.0.8.0.VNVCNXM_20241223.0000.00_15.0_cn_72f63e5150.tgz",
-					"ctelecom": "goku_images_OS2.0.8.0.VNVCNXM_20241223.0000.00_15.0_cn_chinatelecom_e2f2b5ffd4.tgz"
+					"ctelecom": "goku_images_OS2.0.8.0.VNVCNXM_20241223.0000.00_15.0_cn_chinatelecom_e2f2b5ffd4.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.5.0.VNVCNXM": {
 					"os": "OS2.0.5.0.VNVCNXM",
@@ -321,7 +353,8 @@
 					"release": "2024-11-30",
 					"recovery": "goku-ota_full-OS2.0.5.0.VNVCNXM-user-15.0-51d6fb7f5f.zip",
 					"fastboot": "goku_images_OS2.0.5.0.VNVCNXM_20241128.0000.00_15.0_cn_6166d913c3.tgz",
-					"ctelecom": "goku_images_OS2.0.5.0.VNVCNXM_20241128.0000.00_15.0_cn_chinatelecom_f75664c706.tgz"
+					"ctelecom": "goku_images_OS2.0.5.0.VNVCNXM_20241128.0000.00_15.0_cn_chinatelecom_f75664c706.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.15.0.UNVCNXM": {
 					"os": "OS1.0.15.0.UNVCNXM",
@@ -329,7 +362,8 @@
 					"release": "2024-11-05",
 					"recovery": "miui_GOKU_OS1.0.15.0.UNVCNXM_7c07300a92_14.0.zip",
 					"fastboot": "goku_images_OS1.0.15.0.UNVCNXM_20241023.0000.00_14.0_cn_0814c2232c.tgz",
-					"ctelecom": "goku_images_OS1.0.15.0.UNVCNXM_20241023.0000.00_14.0_cn_chinatelecom_95c3bf3fc6.tgz"
+					"ctelecom": "goku_images_OS1.0.15.0.UNVCNXM_20241023.0000.00_14.0_cn_chinatelecom_95c3bf3fc6.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.13.0.UNVCNXM": {
 					"os": "OS1.0.13.0.UNVCNXM",
@@ -337,7 +371,8 @@
 					"release": "2024-10-10",
 					"recovery": "miui_GOKU_OS1.0.13.0.UNVCNXM_fb1ecb5403_14.0.zip",
 					"fastboot": "goku_images_OS1.0.13.0.UNVCNXM_20240929.0000.00_14.0_cn_036d62f4fa.tgz",
-					"ctelecom": "goku_images_OS1.0.13.0.UNVCNXM_20240929.0000.00_14.0_cn_chinatelecom_ae0a5c35fc.tgz"
+					"ctelecom": "goku_images_OS1.0.13.0.UNVCNXM_20240929.0000.00_14.0_cn_chinatelecom_ae0a5c35fc.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.11.0.UNVCNXM": {
 					"os": "OS1.0.11.0.UNVCNXM",
@@ -345,7 +380,8 @@
 					"release": "2024-09-06",
 					"recovery": "miui_GOKU_OS1.0.11.0.UNVCNXM_d6db9703d1_14.0.zip",
 					"fastboot": "goku_images_OS1.0.11.0.UNVCNXM_20240829.0000.00_14.0_cn_8815210682.tgz",
-					"ctelecom": "goku_images_OS1.0.11.0.UNVCNXM_20240829.0000.00_14.0_cn_chinatelecom_4bdcceb6f0.tgz"
+					"ctelecom": "goku_images_OS1.0.11.0.UNVCNXM_20240829.0000.00_14.0_cn_chinatelecom_4bdcceb6f0.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.9.0.UNVCNXM": {
 					"os": "OS1.0.9.0.UNVCNXM",
@@ -353,7 +389,8 @@
 					"release": "2024-08-01",
 					"recovery": "miui_GOKU_OS1.0.9.0.UNVCNXM_3b46da1b28_14.0.zip",
 					"fastboot": "goku_images_OS1.0.9.0.UNVCNXM_20240731.0000.00_14.0_cn_a915400c02.tgz",
-					"ctelecom": "goku_images_OS1.0.9.0.UNVCNXM_20240731.0000.00_14.0_cn_chinatelecom_0cb8598738.tgz"
+					"ctelecom": "goku_images_OS1.0.9.0.UNVCNXM_20240731.0000.00_14.0_cn_chinatelecom_0cb8598738.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.8.0.UNVCNXM": {
 					"os": "OS1.0.8.0.UNVCNXM",
@@ -361,7 +398,8 @@
 					"release": "2024-07-22",
 					"recovery": "miui_GOKU_OS1.0.8.0.UNVCNXM_17508372ba_14.0.zip",
 					"fastboot": "goku_images_OS1.0.8.0.UNVCNXM_20240717.0000.00_14.0_cn_c4afed92e5.tgz",
-					"ctelecom": "goku_images_OS1.0.8.0.UNVCNXM_20240717.0000.00_14.0_cn_chinatelecom_ae6e7fab03.tgz"
+					"ctelecom": "goku_images_OS1.0.8.0.UNVCNXM_20240717.0000.00_14.0_cn_chinatelecom_ae6e7fab03.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.7.0.UNVCNXM": {
 					"os": "OS1.0.7.0.UNVCNXM",
@@ -369,7 +407,8 @@
 					"release": "2024-07-19",
 					"recovery": "miui_GOKU_OS1.0.7.0.UNVCNXM_72a459b259_14.0.zip",
 					"fastboot": "goku_images_OS1.0.7.0.UNVCNXM_20240713.0000.00_14.0_cn_f34c3429c8.tgz",
-					"ctelecom": "goku_images_OS1.0.7.0.UNVCNXM_20240713.0000.00_14.0_cn_chinatelecom_a39041acfd.tgz"
+					"ctelecom": "goku_images_OS1.0.7.0.UNVCNXM_20240713.0000.00_14.0_cn_chinatelecom_a39041acfd.tgz",
+					"aspatch": "2024-07-01"
 				}
 			}
 		},
@@ -391,6 +430,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -412,7 +452,8 @@
 					"release": "2024-08-30",
 					"recovery": "miui_GOKUEPSTDEE_OS1.0.24.8.20.EP.STDEE.N18_968fcf7934_14.0.zip",
 					"fastboot": "goku_ep_stdee_images_OS1.0.24.8.20.EP.STDEE.N18_20240820.0000.00_14.0_cn_d55421ab70.tgz",
-					"ctelecom": "goku_ep_stdee_images_OS1.0.24.8.20.EP.STDEE.N18_20240820.0000.00_14.0_cn_chinatelecom_b9e3f6b86c.tgz"
+					"ctelecom": "goku_ep_stdee_images_OS1.0.24.8.20.EP.STDEE.N18_20240820.0000.00_14.0_cn_chinatelecom_b9e3f6b86c.tgz",
+					"aspatch": "2024-08-01"
 				}
 			}
 		},
@@ -434,6 +475,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -455,7 +497,8 @@
 					"release": "2025-12-26",
 					"recovery": "goku_demo-ota_full-OS3.0.1.0.WNVCNDM-user-16.0-266414f264.zip",
 					"fastboot": "goku_demo_images_OS3.0.1.0.WNVCNDM_20251218.0000.00_16.0_cn_9f643219e5.tgz",
-					"ctelecom": "goku_demo_images_OS3.0.1.0.WNVCNDM_20251218.0000.00_16.0_cn_chinatelecom_fc86a4de5d.tgz"
+					"ctelecom": "goku_demo_images_OS3.0.1.0.WNVCNDM_20251218.0000.00_16.0_cn_chinatelecom_fc86a4de5d.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VNVCNDM": {
 					"os": "OS2.0.201.0.VNVCNDM",
@@ -463,7 +506,8 @@
 					"release": "2025-07-16",
 					"recovery": "goku_demo-ota_full-OS2.0.201.0.VNVCNDM-user-15.0-d47afb0f9f.zip",
 					"fastboot": "goku_demo_images_OS2.0.201.0.VNVCNDM_20250703.0000.00_15.0_cn_5ed61cf3a2.tgz",
-					"ctelecom": "goku_demo_images_OS2.0.201.0.VNVCNDM_20250703.0000.00_15.0_cn_chinatelecom_3e5135504d.tgz"
+					"ctelecom": "goku_demo_images_OS2.0.201.0.VNVCNDM_20250703.0000.00_15.0_cn_chinatelecom_3e5135504d.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.1.0.VNVCNDM": {
 					"os": "OS2.0.1.0.VNVCNDM",
@@ -471,7 +515,8 @@
 					"release": "2025-01-22",
 					"recovery": "goku_demo-ota_full-OS2.0.1.0.VNVCNDM-user-15.0-4298d0bccf.zip",
 					"fastboot": "goku_demo_images_OS2.0.1.0.VNVCNDM_20241225.0000.00_15.0_cn_dde43d2e0b.tgz",
-					"ctelecom": "goku_demo_images_OS2.0.1.0.VNVCNDM_20241225.0000.00_15.0_cn_chinatelecom_e458643af2.tgz"
+					"ctelecom": "goku_demo_images_OS2.0.1.0.VNVCNDM_20241225.0000.00_15.0_cn_chinatelecom_e458643af2.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.UNVCNDM": {
 					"os": "OS1.0.9.0.UNVCNDM",
@@ -479,7 +524,8 @@
 					"release": "2024-07-20",
 					"recovery": "miui_GOKUDEMO_OS1.0.9.0.UNVCNDM_6a9013858f_14.0.zip",
 					"fastboot": "goku_demo_images_OS1.0.9.0.UNVCNDM_20240718.0000.00_14.0_cn_802dd5e4db.tgz",
-					"ctelecom": "goku_demo_images_OS1.0.9.0.UNVCNDM_20240718.0000.00_14.0_cn_chinatelecom_78c6b9388d.tgz"
+					"ctelecom": "goku_demo_images_OS1.0.9.0.UNVCNDM_20240718.0000.00_14.0_cn_chinatelecom_78c6b9388d.tgz",
+					"aspatch": "2024-07-01"
 				}
 			}
 		}

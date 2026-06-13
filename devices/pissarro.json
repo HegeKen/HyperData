@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -54,7 +55,8 @@
 					"release": "2026-03-18",
 					"recovery": "miui_PISSARRO_OS1.0.24.0.TKTCNXM_77f85b2180_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.24.0.TKTCNXM_20260313.0000.00_13.0_cn_f92004a27b.tgz",
-					"ctelecom": "pissarro_images_OS1.0.24.0.TKTCNXM_20260313.0000.00_13.0_cn_chinatelecom_8526159b4d.tgz"
+					"ctelecom": "pissarro_images_OS1.0.24.0.TKTCNXM_20260313.0000.00_13.0_cn_chinatelecom_8526159b4d.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.22.0.TKTCNXM": {
 					"os": "OS1.0.22.0.TKTCNXM",
@@ -62,7 +64,8 @@
 					"release": "2026-02-02",
 					"recovery": "miui_PISSARRO_OS1.0.22.0.TKTCNXM_dcc820f683_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.22.0.TKTCNXM_20260124.0000.00_13.0_cn_25a5c80af3.tgz",
-					"ctelecom": "pissarro_images_OS1.0.22.0.TKTCNXM_20260124.0000.00_13.0_cn_chinatelecom_6bfbafe17f.tgz"
+					"ctelecom": "pissarro_images_OS1.0.22.0.TKTCNXM_20260124.0000.00_13.0_cn_chinatelecom_6bfbafe17f.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS1.0.18.0.TKTCNXM": {
 					"os": "OS1.0.18.0.TKTCNXM",
@@ -70,7 +73,8 @@
 					"release": "2025-05-29",
 					"recovery": "miui_PISSARRO_OS1.0.18.0.TKTCNXM_c048f24538_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.18.0.TKTCNXM_20250522.0000.00_13.0_cn_3bee0dc5c7.tgz",
-					"ctelecom": "pissarro_images_OS1.0.18.0.TKTCNXM_20250522.0000.00_13.0_cn_chinatelecom_e2eef22dd4.tgz"
+					"ctelecom": "pissarro_images_OS1.0.18.0.TKTCNXM_20250522.0000.00_13.0_cn_chinatelecom_e2eef22dd4.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.16.0.TKTCNXM": {
 					"os": "OS1.0.16.0.TKTCNXM",
@@ -78,7 +82,8 @@
 					"release": "2025-05-12",
 					"recovery": "miui_PISSARRO_OS1.0.16.0.TKTCNXM_47482b5e50_13.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.13.0.TKTCNXM": {
 					"os": "OS1.0.13.0.TKTCNXM",
@@ -86,7 +91,8 @@
 					"release": "2025-01-13",
 					"recovery": "miui_PISSARRO_OS1.0.13.0.TKTCNXM_bcf80b625b_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.13.0.TKTCNXM_20241220.0000.00_13.0_cn_9ca56611ce.tgz",
-					"ctelecom": "pissarro_images_OS1.0.13.0.TKTCNXM_20241220.0000.00_13.0_cn_chinatelecom_d7e41fd2c6.tgz"
+					"ctelecom": "pissarro_images_OS1.0.13.0.TKTCNXM_20241220.0000.00_13.0_cn_chinatelecom_d7e41fd2c6.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.11.0.TKTCNXM": {
 					"os": "OS1.0.11.0.TKTCNXM",
@@ -94,7 +100,8 @@
 					"release": "2024-12-05",
 					"recovery": "miui_PISSARRO_OS1.0.11.0.TKTCNXM_287018de73_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.11.0.TKTCNXM_20241125.0000.00_13.0_cn_d5ea4328e8.tgz",
-					"ctelecom": "pissarro_images_OS1.0.11.0.TKTCNXM_20241125.0000.00_13.0_cn_chinatelecom_9b559e957a.tgz"
+					"ctelecom": "pissarro_images_OS1.0.11.0.TKTCNXM_20241125.0000.00_13.0_cn_chinatelecom_9b559e957a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.TKTCNXM": {
 					"os": "OS1.0.9.0.TKTCNXM",
@@ -102,7 +109,8 @@
 					"release": "2024-11-12",
 					"recovery": "miui_PISSARRO_OS1.0.9.0.TKTCNXM_102898f7e9_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.9.0.TKTCNXM_20241105.0000.00_13.0_cn_bcce08039d.tgz",
-					"ctelecom": "pissarro_images_OS1.0.9.0.TKTCNXM_20241105.0000.00_13.0_cn_chinatelecom_1118e2f2bc.tgz"
+					"ctelecom": "pissarro_images_OS1.0.9.0.TKTCNXM_20241105.0000.00_13.0_cn_chinatelecom_1118e2f2bc.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.TKTCNXM": {
 					"os": "OS1.0.6.0.TKTCNXM",
@@ -110,7 +118,8 @@
 					"release": "2024-10-12",
 					"recovery": "miui_PISSARRO_OS1.0.6.0.TKTCNXM_acb2780ad1_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.6.0.TKTCNXM_20240927.0000.00_13.0_cn_7e10e224f8.tgz",
-					"ctelecom": "pissarro_images_OS1.0.6.0.TKTCNXM_20240927.0000.00_13.0_cn_chinatelecom_a7fdb25a7a.tgz"
+					"ctelecom": "pissarro_images_OS1.0.6.0.TKTCNXM_20240927.0000.00_13.0_cn_chinatelecom_a7fdb25a7a.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.TKTCNXM": {
 					"os": "OS1.0.5.0.TKTCNXM",
@@ -118,7 +127,8 @@
 					"release": "2024-09-11",
 					"recovery": "miui_PISSARRO_OS1.0.5.0.TKTCNXM_a1d94328ca_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.5.0.TKTCNXM_20240828.0000.00_13.0_cn_99b47746a1.tgz",
-					"ctelecom": "pissarro_images_OS1.0.5.0.TKTCNXM_20240828.0000.00_13.0_cn_chinatelecom_d60a07bcb7.tgz"
+					"ctelecom": "pissarro_images_OS1.0.5.0.TKTCNXM_20240828.0000.00_13.0_cn_chinatelecom_d60a07bcb7.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.TKTCNXM": {
 					"os": "OS1.0.4.0.TKTCNXM",
@@ -126,7 +136,8 @@
 					"release": "2024-08-20",
 					"recovery": "miui_PISSARRO_OS1.0.4.0.TKTCNXM_c03c7faae1_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.4.0.TKTCNXM_20240724.0000.00_13.0_cn_ccd9d8f859.tgz",
-					"ctelecom": "pissarro_images_OS1.0.4.0.TKTCNXM_20240724.0000.00_13.0_cn_chinatelecom_ab21988391.tgz"
+					"ctelecom": "pissarro_images_OS1.0.4.0.TKTCNXM_20240724.0000.00_13.0_cn_chinatelecom_ab21988391.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.TKTCNXM": {
 					"os": "OS1.0.3.0.TKTCNXM",
@@ -134,7 +145,8 @@
 					"release": "2024-05-29",
 					"recovery": "miui_PISSARRO_OS1.0.3.0.TKTCNXM_dbd078ff4c_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.3.0.TKTCNXM_20240514.0000.00_13.0_cn_0f83a84adb.tgz",
-					"ctelecom": "pissarro_images_OS1.0.3.0.TKTCNXM_20240514.0000.00_13.0_cn_chinatelecom_c4d7096a07.tgz"
+					"ctelecom": "pissarro_images_OS1.0.3.0.TKTCNXM_20240514.0000.00_13.0_cn_chinatelecom_c4d7096a07.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.TKTCNXM": {
 					"os": "OS1.0.2.0.TKTCNXM",
@@ -142,7 +154,8 @@
 					"release": "2024-02-19",
 					"recovery": "miui_PISSARRO_OS1.0.2.0.TKTCNXM_13f7d12d41_13.0.zip",
 					"fastboot": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_000a30c6b6.tgz",
-					"ctelecom": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_chinatelecom_52a18ab3f9.tgz"
+					"ctelecom": "pissarro_images_OS1.0.2.0.TKTCNXM_20240201.0000.00_13.0_cn_chinatelecom_52a18ab3f9.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -164,6 +177,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -180,63 +194,72 @@
 					"android": "13.0",
 					"release": "2025-05-12",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.12.0.TKTTWXM_dfb647cd37_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.12.0.TKTTWXM_20250417.0000.00_13.0_tw_345f3fa767.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.12.0.TKTTWXM_20250417.0000.00_13.0_tw_345f3fa767.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.10.0.TKTTWXM": {
 					"os": "OS1.0.10.0.TKTTWXM",
 					"android": "13.0",
 					"release": "2025-02-25",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.10.0.TKTTWXM_3987557ccb_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.10.0.TKTTWXM_20250206.0000.00_13.0_tw_38e4db3126.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.10.0.TKTTWXM_20250206.0000.00_13.0_tw_38e4db3126.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.9.0.TKTTWXM": {
 					"os": "OS1.0.9.0.TKTTWXM",
 					"android": "13.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.9.0.TKTTWXM_2a1c58d0db_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.9.0.TKTTWXM_20241231.0000.00_13.0_tw_ea6c898292.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.9.0.TKTTWXM_20241231.0000.00_13.0_tw_ea6c898292.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.TKTTWXM": {
 					"os": "OS1.0.8.0.TKTTWXM",
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.8.0.TKTTWXM_c2e2a3c2bf_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.8.0.TKTTWXM_20241122.0000.00_13.0_tw_af1250e5fa.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.8.0.TKTTWXM_20241122.0000.00_13.0_tw_af1250e5fa.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.TKTTWXM": {
 					"os": "OS1.0.7.0.TKTTWXM",
 					"android": "13.0",
 					"release": "2024-11-11",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.7.0.TKTTWXM_61492ea3ce_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.7.0.TKTTWXM_20241023.0000.00_13.0_tw_bde5b64310.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.7.0.TKTTWXM_20241023.0000.00_13.0_tw_bde5b64310.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.TKTTWXM": {
 					"os": "OS1.0.6.0.TKTTWXM",
 					"android": "13.0",
 					"release": "2024-10-15",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.6.0.TKTTWXM_288c3f1173_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.6.0.TKTTWXM_20240927.0000.00_13.0_tw_8798b7d92d.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.6.0.TKTTWXM_20240927.0000.00_13.0_tw_8798b7d92d.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.TKTTWXM": {
 					"os": "OS1.0.4.0.TKTTWXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.4.0.TKTTWXM_a1e3490e5d_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.4.0.TKTTWXM_20240821.0000.00_13.0_tw_0312a62007.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.4.0.TKTTWXM_20240821.0000.00_13.0_tw_0312a62007.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.TKTTWXM": {
 					"os": "OS1.0.3.0.TKTTWXM",
 					"android": "13.0",
 					"release": "2024-08-05",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.3.0.TKTTWXM_6375093a8a_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.3.0.TKTTWXM_20240718.0000.00_13.0_tw_fb38f8dbdd.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.3.0.TKTTWXM_20240718.0000.00_13.0_tw_fb38f8dbdd.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.TKTTWXM": {
 					"os": "OS1.0.2.0.TKTTWXM",
 					"android": "13.0",
 					"release": "2024-04-20",
 					"recovery": "miui_PISSARROTWGlobal_OS1.0.2.0.TKTTWXM_56cbe1dd4b_13.0.zip",
-					"fastboot": "pissarro_tw_global_images_OS1.0.2.0.TKTTWXM_20240408.0000.00_13.0_tw_d117227e6f.tgz"
+					"fastboot": "pissarro_tw_global_images_OS1.0.2.0.TKTTWXM_20240408.0000.00_13.0_tw_d117227e6f.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -258,6 +281,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -274,77 +298,88 @@
 					"android": "13.0",
 					"release": "2026-04-16",
 					"recovery": "miui_PISSARROGlobal_OS1.0.18.0.TKTMIXM_7bca7bceca_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.18.0.TKTMIXM_20260409.0000.00_13.0_global_15179eb125.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.18.0.TKTMIXM_20260409.0000.00_13.0_global_15179eb125.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.17.0.TKTMIXM": {
 					"os": "OS1.0.17.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2025-04-14",
 					"recovery": "miui_PISSARROGlobal_OS1.0.17.0.TKTMIXM_cd9728e31f_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.17.0.TKTMIXM_20250401.0000.00_13.0_global_fbf41cd5ff.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.17.0.TKTMIXM_20250401.0000.00_13.0_global_fbf41cd5ff.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.15.0.TKTMIXM": {
 					"os": "OS1.0.15.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2025-02-17",
 					"recovery": "miui_PISSARROGlobal_OS1.0.15.0.TKTMIXM_6bff1800c6_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.15.0.TKTMIXM_20250124.0000.00_13.0_global_4a7302b9ba.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.15.0.TKTMIXM_20250124.0000.00_13.0_global_4a7302b9ba.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.13.0.TKTMIXM": {
 					"os": "OS1.0.13.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PISSARROGlobal_OS1.0.13.0.TKTMIXM_856fe8c481_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.13.0.TKTMIXM_20241220.0000.00_13.0_global_a9b7330d08.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.13.0.TKTMIXM_20241220.0000.00_13.0_global_a9b7330d08.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.12.0.TKTMIXM": {
 					"os": "OS1.0.12.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PISSARROGlobal_OS1.0.12.0.TKTMIXM_5ad7cd3cf9_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.12.0.TKTMIXM_20241125.0000.00_13.0_global_81c27112e5.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.12.0.TKTMIXM_20241125.0000.00_13.0_global_81c27112e5.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.TKTMIXM": {
 					"os": "OS1.0.10.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2024-10-30",
 					"recovery": "miui_PISSARROGlobal_OS1.0.10.0.TKTMIXM_22f7d6c33f_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.10.0.TKTMIXM_20241015.0000.00_13.0_global_21b8c39cfa.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.10.0.TKTMIXM_20241015.0000.00_13.0_global_21b8c39cfa.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.TKTMIXM": {
 					"os": "OS1.0.8.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2024-10-09",
 					"recovery": "miui_PISSARROGlobal_OS1.0.8.0.TKTMIXM_f98e65f36a_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.8.0.TKTMIXM_20240924.0000.00_13.0_global_eeed8efc54.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.8.0.TKTMIXM_20240924.0000.00_13.0_global_eeed8efc54.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.TKTMIXM": {
 					"os": "OS1.0.5.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_PISSARROGlobal_OS1.0.5.0.TKTMIXM_af2aba1405_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.5.0.TKTMIXM_20240820.0000.00_13.0_global_0be2784f10.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.5.0.TKTMIXM_20240820.0000.00_13.0_global_0be2784f10.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.TKTMIXM": {
 					"os": "OS1.0.4.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2024-08-01",
 					"recovery": "miui_PISSARROGlobal_OS1.0.4.0.TKTMIXM_26e900be9b_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.4.0.TKTMIXM_20240715.0000.00_13.0_global_04d9d93ad3.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.4.0.TKTMIXM_20240715.0000.00_13.0_global_04d9d93ad3.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.TKTMIXM": {
 					"os": "OS1.0.3.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2024-06-18",
 					"recovery": "miui_PISSARROGlobal_OS1.0.3.0.TKTMIXM_8487a2e85b_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.3.0.TKTMIXM_20240603.0000.00_13.0_global_c98af92c95.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.3.0.TKTMIXM_20240603.0000.00_13.0_global_c98af92c95.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.TKTMIXM": {
 					"os": "OS1.0.2.0.TKTMIXM",
 					"android": "13.0",
 					"release": "2024-03-26",
 					"recovery": "miui_PISSARROGlobal_OS1.0.2.0.TKTMIXM_5d0ada11d6_13.0.zip",
-					"fastboot": "pissarro_global_images_OS1.0.2.0.TKTMIXM_20240312.0000.00_13.0_global_a12a97d9a1.tgz"
+					"fastboot": "pissarro_global_images_OS1.0.2.0.TKTMIXM_20240312.0000.00_13.0_global_a12a97d9a1.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -366,6 +401,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -382,77 +418,88 @@
 					"android": "13.0",
 					"release": "2026-05-13",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.15.0.TKTEUXM_bc3f084f98_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.15.0.TKTEUXM_20260416.0000.00_13.0_eea_7b13c4333f.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.15.0.TKTEUXM_20260416.0000.00_13.0_eea_7b13c4333f.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.14.0.TKTEUXM": {
 					"os": "OS1.0.14.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2025-04-22",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.14.0.TKTEUXM_38ab0b5fa0_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.14.0.TKTEUXM_20250401.0000.00_13.0_eea_cad8884233.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.14.0.TKTEUXM_20250401.0000.00_13.0_eea_cad8884233.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.13.0.TKTEUXM": {
 					"os": "OS1.0.13.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2025-02-17",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.13.0.TKTEUXM_3eb8242fc4_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.13.0.TKTEUXM_20250121.0000.00_13.0_eea_57d97506c6.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.13.0.TKTEUXM_20250121.0000.00_13.0_eea_57d97506c6.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.11.0.TKTEUXM": {
 					"os": "OS1.0.11.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.11.0.TKTEUXM_86e1343b18_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.11.0.TKTEUXM_20241231.0000.00_13.0_eea_912dfccb22.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.11.0.TKTEUXM_20241231.0000.00_13.0_eea_912dfccb22.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.10.0.TKTEUXM": {
 					"os": "OS1.0.10.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.10.0.TKTEUXM_f8ab2157c5_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.10.0.TKTEUXM_20241125.0000.00_13.0_eea_c24e6a4e22.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.10.0.TKTEUXM_20241125.0000.00_13.0_eea_c24e6a4e22.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.TKTEUXM": {
 					"os": "OS1.0.8.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2024-11-11",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.8.0.TKTEUXM_915b012ef6_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.8.0.TKTEUXM_20241021.0000.00_13.0_eea_cad609a654.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.8.0.TKTEUXM_20241021.0000.00_13.0_eea_cad609a654.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.7.0.TKTEUXM": {
 					"os": "OS1.0.7.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2024-10-09",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.7.0.TKTEUXM_7e4d8b0524_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.7.0.TKTEUXM_20240924.0000.00_13.0_eea_a83ccfa60e.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.7.0.TKTEUXM_20240924.0000.00_13.0_eea_a83ccfa60e.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.TKTEUXM": {
 					"os": "OS1.0.5.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2024-08-26",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.5.0.TKTEUXM_de8a30c1ff_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.5.0.TKTEUXM_20240807.0000.00_13.0_eea_c4ea46865f.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.5.0.TKTEUXM_20240807.0000.00_13.0_eea_c4ea46865f.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.TKTEUXM": {
 					"os": "OS1.0.4.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2024-08-12",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.4.0.TKTEUXM_fa82b665c5_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.4.0.TKTEUXM_20240725.0000.00_13.0_eea_2515a560b6.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.4.0.TKTEUXM_20240725.0000.00_13.0_eea_2515a560b6.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.TKTEUXM": {
 					"os": "OS1.0.3.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2024-07-08",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.3.0.TKTEUXM_73c66a7832_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.3.0.TKTEUXM_20240606.0000.00_13.0_eea_26290779b2.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.3.0.TKTEUXM_20240606.0000.00_13.0_eea_26290779b2.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.TKTEUXM": {
 					"os": "OS1.0.2.0.TKTEUXM",
 					"android": "13.0",
 					"release": "2024-04-01",
 					"recovery": "miui_PISSARROEEAGlobal_OS1.0.2.0.TKTEUXM_d172ed0f80_13.0.zip",
-					"fastboot": "pissarro_eea_global_images_OS1.0.2.0.TKTEUXM_20240229.0000.00_13.0_eea_404c17f424.tgz"
+					"fastboot": "pissarro_eea_global_images_OS1.0.2.0.TKTEUXM_20240229.0000.00_13.0_eea_404c17f424.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -474,6 +521,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -490,70 +538,80 @@
 					"android": "13.0",
 					"release": "2026-05-13",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.12.0.TKTRUXM_8f74618cfc_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.12.0.TKTRUXM_20260416.0000.00_13.0_ru_87a54f9027.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.12.0.TKTRUXM_20260416.0000.00_13.0_ru_87a54f9027.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.11.0.TKTRUXM": {
 					"os": "OS1.0.11.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2025-04-14",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.11.0.TKTRUXM_7bd32f446d_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.11.0.TKTRUXM_20250326.0000.00_13.0_ru_1fe4b2f584.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.11.0.TKTRUXM_20250326.0000.00_13.0_ru_1fe4b2f584.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.10.0.TKTRUXM": {
 					"os": "OS1.0.10.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2025-02-25",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.10.0.TKTRUXM_06a1f7a432_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.10.0.TKTRUXM_20250206.0000.00_13.0_ru_1e650bb5c0.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.10.0.TKTRUXM_20250206.0000.00_13.0_ru_1e650bb5c0.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.9.0.TKTRUXM": {
 					"os": "OS1.0.9.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.9.0.TKTRUXM_f3fe597284_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.9.0.TKTRUXM_20241231.0000.00_13.0_ru_1fe53389e0.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.9.0.TKTRUXM_20241231.0000.00_13.0_ru_1fe53389e0.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.TKTRUXM": {
 					"os": "OS1.0.8.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.8.0.TKTRUXM_40d38f7eac_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.8.0.TKTRUXM_20241122.0000.00_13.0_ru_a13def9d6c.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.8.0.TKTRUXM_20241122.0000.00_13.0_ru_a13def9d6c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.TKTRUXM": {
 					"os": "OS1.0.7.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2024-11-11",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.7.0.TKTRUXM_453707f319_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.7.0.TKTRUXM_20241023.0000.00_13.0_ru_5172653257.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.7.0.TKTRUXM_20241023.0000.00_13.0_ru_5172653257.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.TKTRUXM": {
 					"os": "OS1.0.6.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2024-10-15",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.6.0.TKTRUXM_49772fc9ed_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.6.0.TKTRUXM_20240927.0000.00_13.0_ru_e1c67a812d.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.6.0.TKTRUXM_20240927.0000.00_13.0_ru_e1c67a812d.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.TKTRUXM": {
 					"os": "OS1.0.4.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.4.0.TKTRUXM_2d48559181_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.4.0.TKTRUXM_20240821.0000.00_13.0_ru_b44de3e91e.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.4.0.TKTRUXM_20240821.0000.00_13.0_ru_b44de3e91e.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.TKTRUXM": {
 					"os": "OS1.0.3.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2024-08-05",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.3.0.TKTRUXM_2076ff2c22_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.3.0.TKTRUXM_20240718.0000.00_13.0_ru_5118ac3ab9.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.3.0.TKTRUXM_20240718.0000.00_13.0_ru_5118ac3ab9.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.TKTRUXM": {
 					"os": "OS1.0.2.0.TKTRUXM",
 					"android": "13.0",
 					"release": "2024-04-22",
 					"recovery": "miui_PISSARRORUGlobal_OS1.0.2.0.TKTRUXM_686a211dcf_13.0.zip",
-					"fastboot": "pissarro_ru_global_images_OS1.0.2.0.TKTRUXM_20240408.0000.00_13.0_ru_33c1536c14.tgz"
+					"fastboot": "pissarro_ru_global_images_OS1.0.2.0.TKTRUXM_20240408.0000.00_13.0_ru_33c1536c14.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -575,6 +633,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -591,56 +650,64 @@
 					"android": "13.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.10.0.TKTINXM_8695574f0b_13.0.zip",
-					"fastboot": "pissarro_in_global_images_OS1.0.10.0.TKTINXM_20241231.0000.00_13.0_in_0eb2904056.tgz"
+					"fastboot": "pissarro_in_global_images_OS1.0.10.0.TKTINXM_20241231.0000.00_13.0_in_0eb2904056.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.9.0.TKTINXM": {
 					"os": "OS1.0.9.0.TKTINXM",
 					"android": "13.0",
 					"release": "2024-12-10",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.9.0.TKTINXM_b4b4344b5c_13.0.zip",
-					"fastboot": "pissarro_in_global_images_OS1.0.9.0.TKTINXM_20241125.0000.00_13.0_in_b2e899bfc4.tgz"
+					"fastboot": "pissarro_in_global_images_OS1.0.9.0.TKTINXM_20241125.0000.00_13.0_in_b2e899bfc4.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.TKTINXM": {
 					"os": "OS1.0.8.0.TKTINXM",
 					"android": "13.0",
 					"release": "2024-11-11",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.8.0.TKTINXM_9a106e53ce_13.0.zip",
-					"fastboot": "pissarro_in_global_images_OS1.0.8.0.TKTINXM_20241023.0000.00_13.0_in_63eaab309d.tgz"
+					"fastboot": "pissarro_in_global_images_OS1.0.8.0.TKTINXM_20241023.0000.00_13.0_in_63eaab309d.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.7.0.TKTINXM": {
 					"os": "OS1.0.7.0.TKTINXM",
 					"android": "13.0",
 					"release": "2024-10-12",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.7.0.TKTINXM_0ab0f514a1_13.0.zip",
-					"fastboot": "pissarro_in_global_images_OS1.0.7.0.TKTINXM_20240925.0000.00_13.0_in_a41bbbf4de.tgz"
+					"fastboot": "pissarro_in_global_images_OS1.0.7.0.TKTINXM_20240925.0000.00_13.0_in_a41bbbf4de.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.TKTINXM": {
 					"os": "OS1.0.5.0.TKTINXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.5.0.TKTINXM_cce142ab28_13.0.zip",
-					"fastboot": "pissarro_in_global_images_OS1.0.5.0.TKTINXM_20240820.0000.00_13.0_in_6911bc9c14.tgz"
+					"fastboot": "pissarro_in_global_images_OS1.0.5.0.TKTINXM_20240820.0000.00_13.0_in_6911bc9c14.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.TKTINXM": {
 					"os": "OS1.0.4.0.TKTINXM",
 					"android": "13.0",
 					"release": "2024-08-16",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.4.0.TKTINXM_bd75e8bbb9_13.0.zip",
-					"fastboot": "pissarro_in_global_images_OS1.0.4.0.TKTINXM_20240725.0000.00_13.0_in_3cf7a1f4b9.tgz"
+					"fastboot": "pissarro_in_global_images_OS1.0.4.0.TKTINXM_20240725.0000.00_13.0_in_3cf7a1f4b9.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.TKTINXM": {
 					"os": "OS1.0.3.0.TKTINXM",
 					"android": "13.0",
 					"release": "2024-06-26",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.3.0.TKTINXM_4f7813c882_13.0.zip",
-					"fastboot": "pissarro_in_global_images_OS1.0.3.0.TKTINXM_20240613.0000.00_13.0_in_da93b469e9.tgz"
+					"fastboot": "pissarro_in_global_images_OS1.0.3.0.TKTINXM_20240613.0000.00_13.0_in_da93b469e9.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.TKTINXM": {
 					"os": "OS1.0.2.0.TKTINXM",
 					"android": "13.0",
 					"release": "2024-04-08",
 					"recovery": "miui_PISSARROINGlobal_OS1.0.2.0.TKTINXM_171c178675_13.0.zip",
-					"fastboot": "pissarro_in_global_images_OS1.0.2.0.TKTINXM_20240325.0000.00_13.0_in_df1ebfd4e4.tgz"
+					"fastboot": "pissarro_in_global_images_OS1.0.2.0.TKTINXM_20240325.0000.00_13.0_in_df1ebfd4e4.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -662,6 +729,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -678,63 +746,72 @@
 					"android": "13.0",
 					"release": "2025-04-03",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.10.0.TKTTRXM_356c582069_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.10.0.TKTTRXM_20250320.0000.00_13.0_tr_53e039900f.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.10.0.TKTTRXM_20250320.0000.00_13.0_tr_53e039900f.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.9.0.TKTTRXM": {
 					"os": "OS1.0.9.0.TKTTRXM",
 					"android": "13.0",
 					"release": "2025-02-17",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.9.0.TKTTRXM_fc3ed6f2d7_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.9.0.TKTTRXM_20250124.0000.00_13.0_tr_19b0f5b725.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.9.0.TKTTRXM_20250124.0000.00_13.0_tr_19b0f5b725.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.TKTTRXM": {
 					"os": "OS1.0.8.0.TKTTRXM",
 					"android": "13.0",
 					"release": "2025-01-17",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.8.0.TKTTRXM_b5e6e7c78c_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.8.0.TKTTRXM_20241231.0000.00_13.0_tr_4761905119.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.8.0.TKTTRXM_20241231.0000.00_13.0_tr_4761905119.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.TKTTRXM": {
 					"os": "OS1.0.7.0.TKTTRXM",
 					"android": "13.0",
 					"release": "2024-12-16",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.7.0.TKTTRXM_830aa8f11f_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.7.0.TKTTRXM_20241122.0000.00_13.0_tr_dbf75f7a94.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.7.0.TKTTRXM_20241122.0000.00_13.0_tr_dbf75f7a94.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.TKTTRXM": {
 					"os": "OS1.0.6.0.TKTTRXM",
 					"android": "13.0",
 					"release": "2024-11-11",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.6.0.TKTTRXM_8244d03545_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.6.0.TKTTRXM_20241023.0000.00_13.0_tr_0bb38f11f3.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.6.0.TKTTRXM_20241023.0000.00_13.0_tr_0bb38f11f3.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.TKTTRXM": {
 					"os": "OS1.0.5.0.TKTTRXM",
 					"android": "13.0",
 					"release": "2024-10-15",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.5.0.TKTTRXM_0f8964376e_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.5.0.TKTTRXM_20240927.0000.00_13.0_tr_2cad47d4ec.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.5.0.TKTTRXM_20240927.0000.00_13.0_tr_2cad47d4ec.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.TKTTRXM": {
 					"os": "OS1.0.3.0.TKTTRXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.3.0.TKTTRXM_2c03af99b5_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.3.0.TKTTRXM_20240821.0000.00_13.0_tr_3f8f9bc79d.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.3.0.TKTTRXM_20240821.0000.00_13.0_tr_3f8f9bc79d.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.TKTTRXM": {
 					"os": "OS1.0.2.0.TKTTRXM",
 					"android": "13.0",
 					"release": "2024-08-05",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.2.0.TKTTRXM_a0ce3bbe9b_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.2.0.TKTTRXM_20240718.0000.00_13.0_tr_899a3cb745.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.2.0.TKTTRXM_20240718.0000.00_13.0_tr_899a3cb745.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.TKTTRXM": {
 					"os": "OS1.0.1.0.TKTTRXM",
 					"android": "13.0",
 					"release": "2024-04-26",
 					"recovery": "miui_PISSARROTRGlobal_OS1.0.1.0.TKTTRXM_c4cef84568_13.0.zip",
-					"fastboot": "pissarro_tr_global_images_OS1.0.1.0.TKTTRXM_20240409.0000.00_13.0_tr_c9b6b8013a.tgz"
+					"fastboot": "pissarro_tr_global_images_OS1.0.1.0.TKTTRXM_20240409.0000.00_13.0_tr_c9b6b8013a.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		}

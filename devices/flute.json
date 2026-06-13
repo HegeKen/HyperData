@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -54,28 +55,32 @@
 					"android": "16.0",
 					"release": "2026-06-02",
 					"recovery": "flute-ota_full-OS3.0.305.0.WPWCNXM-user-16.0-d49e716941.zip",
-					"fastboot": "flute_images_OS3.0.305.0.WPWCNXM_20260527.0000.00_16.0_cn_685844c895.tgz"
+					"fastboot": "flute_images_OS3.0.305.0.WPWCNXM_20260527.0000.00_16.0_cn_685844c895.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.301.0.WPWCNXM": {
 					"os": "OS3.0.301.0.WPWCNXM",
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "flute-ota_full-OS3.0.301.0.WPWCNXM-user-16.0-e36bdf7b22.zip",
-					"fastboot": "flute_images_OS3.0.301.0.WPWCNXM_20260319.0000.00_16.0_cn_eabb31743d.tgz"
+					"fastboot": "flute_images_OS3.0.301.0.WPWCNXM_20260319.0000.00_16.0_cn_eabb31743d.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.3.0.WPWCNXM": {
 					"os": "OS3.0.3.0.WPWCNXM",
 					"android": "16.0",
 					"release": "2026-02-04",
 					"recovery": "flute-ota_full-OS3.0.3.0.WPWCNXM-user-16.0-cdf45762f4.zip",
-					"fastboot": "flute_images_OS3.0.3.0.WPWCNXM_20260127.0000.00_16.0_cn_d99314f154.tgz"
+					"fastboot": "flute_images_OS3.0.3.0.WPWCNXM_20260127.0000.00_16.0_cn_d99314f154.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.2.0.WPWCNXM": {
 					"os": "OS3.0.2.0.WPWCNXM",
 					"android": "16.0",
 					"release": "2026-01-29",
 					"recovery": "flute-ota_full-OS3.0.2.0.WPWCNXM-user-16.0-a2c2f636f8.zip",
-					"fastboot": "flute_images_OS3.0.2.0.WPWCNXM_20251228.0000.00_16.0_cn_247e8162ad.tgz"
+					"fastboot": "flute_images_OS3.0.2.0.WPWCNXM_20251228.0000.00_16.0_cn_247e8162ad.tgz",
+					"aspatch": "2025-12-01"
 				}
 			}
 		},
@@ -97,6 +102,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -116,14 +122,16 @@
 					"android": "16.0",
 					"release": "2026-02-12",
 					"recovery": "flute_demo-ota_full-OS3.0.4.0.WPWCNDM-user-16.0-9de47b9055.zip",
-					"fastboot": "flute_demo_images_OS3.0.4.0.WPWCNDM_20260210.0000.00_16.0_cn_9592ad576c.tgz"
+					"fastboot": "flute_demo_images_OS3.0.4.0.WPWCNDM_20260210.0000.00_16.0_cn_9592ad576c.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.2.0.WPWCNDM": {
 					"os": "OS3.0.2.0.WPWCNDM",
 					"android": "16.0",
 					"release": "2026-01-29",
 					"recovery": "flute_demo-ota_full-OS3.0.2.0.WPWCNDM-user-16.0-1f68b7b08a.zip",
-					"fastboot": "flute_demo_images_OS3.0.2.0.WPWCNDM_20251223.0000.00_16.0_cn_bc8703824d.tgz"
+					"fastboot": "flute_demo_images_OS3.0.2.0.WPWCNDM_20251223.0000.00_16.0_cn_bc8703824d.tgz",
+					"aspatch": "2025-12-01"
 				}
 			}
 		},
@@ -145,6 +153,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -161,42 +170,48 @@
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "flute_tw_global-ota_full-OS3.0.1.0.WPWTWXM-user-16.0-2ce6d6889a.zip",
-					"fastboot": "flute_tw_global_images_OS3.0.1.0.WPWTWXM_20260316.0000.00_16.0_tw_2213bd2ea2.tgz"
+					"fastboot": "flute_tw_global_images_OS3.0.1.0.WPWTWXM_20260316.0000.00_16.0_tw_2213bd2ea2.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.209.0.VPWTWXM": {
 					"os": "OS2.0.209.0.VPWTWXM",
 					"android": "15.0",
 					"release": "2026-03-04",
 					"recovery": "flute_tw_global-ota_full-OS2.0.209.0.VPWTWXM-user-15.0-3882d3cccf.zip",
-					"fastboot": "flute_tw_global_images_OS2.0.209.0.VPWTWXM_20260121.0000.00_15.0_tw_37d30325bb.tgz"
+					"fastboot": "flute_tw_global_images_OS2.0.209.0.VPWTWXM_20260121.0000.00_15.0_tw_37d30325bb.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.208.0.VPWTWXM": {
 					"os": "OS2.0.208.0.VPWTWXM",
 					"android": "15.0",
 					"release": "2026-01-09",
 					"recovery": "flute_tw_global-ota_full-OS2.0.208.0.VPWTWXM-user-15.0-2475c31535.zip",
-					"fastboot": "flute_tw_global_images_OS2.0.208.0.VPWTWXM_20251219.0000.00_15.0_tw_2734ce4d35.tgz"
+					"fastboot": "flute_tw_global_images_OS2.0.208.0.VPWTWXM_20251219.0000.00_15.0_tw_2734ce4d35.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.207.0.VPWTWXM": {
 					"os": "OS2.0.207.0.VPWTWXM",
 					"android": "15.0",
 					"release": "2025-12-02",
 					"recovery": "flute_tw_global-ota_full-OS2.0.207.0.VPWTWXM-user-15.0-704b729573.zip",
-					"fastboot": "flute_tw_global_images_OS2.0.207.0.VPWTWXM_20251119.0000.00_15.0_tw_7de6e3cad7.tgz"
+					"fastboot": "flute_tw_global_images_OS2.0.207.0.VPWTWXM_20251119.0000.00_15.0_tw_7de6e3cad7.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VPWTWXM": {
 					"os": "OS2.0.204.0.VPWTWXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "flute_tw_global-ota_full-OS2.0.204.0.VPWTWXM-user-15.0-8f0f8e9154.zip",
-					"fastboot": "flute_tw_global_images_OS2.0.204.0.VPWTWXM_20251017.0000.00_15.0_tw_4e95c94024.tgz"
+					"fastboot": "flute_tw_global_images_OS2.0.204.0.VPWTWXM_20251017.0000.00_15.0_tw_4e95c94024.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VPWTWXM": {
 					"os": "OS2.0.203.0.VPWTWXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "flute_tw_global-ota_full-OS2.0.203.0.VPWTWXM-user-15.0-68f0ec4a69.zip",
-					"fastboot": "flute_tw_global_images_OS2.0.203.0.VPWTWXM_20250912.0000.00_15.0_tw_73f75bbcb2.tgz"
+					"fastboot": "flute_tw_global_images_OS2.0.203.0.VPWTWXM_20250912.0000.00_15.0_tw_73f75bbcb2.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -218,6 +233,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -234,56 +250,64 @@
 					"android": "16.0",
 					"release": "2026-06-08",
 					"recovery": "flute_global-ota_full-OS3.0.4.0.WPWMIXM-user-16.0-7e82331271.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WPWMIXM": {
 					"os": "OS3.0.3.0.WPWMIXM",
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "flute_global-ota_full-OS3.0.3.0.WPWMIXM-user-16.0-230782daf4.zip",
-					"fastboot": "flute_global_images_OS3.0.3.0.WPWMIXM_20260331.0000.00_16.0_global_dc01f97ca8.tgz"
+					"fastboot": "flute_global_images_OS3.0.3.0.WPWMIXM_20260331.0000.00_16.0_global_dc01f97ca8.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.2.0.WPWMIXM": {
 					"os": "OS3.0.2.0.WPWMIXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "flute_global-ota_full-OS3.0.2.0.WPWMIXM-user-16.0-73a33b0a92.zip",
-					"fastboot": "flute_global_images_OS3.0.2.0.WPWMIXM_20260130.0000.00_16.0_global_4a156e752c.tgz"
+					"fastboot": "flute_global_images_OS3.0.2.0.WPWMIXM_20260130.0000.00_16.0_global_4a156e752c.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.208.0.VPWMIXM": {
 					"os": "OS2.0.208.0.VPWMIXM",
 					"android": "15.0",
 					"release": "2026-01-29",
 					"recovery": "flute_global-ota_full-OS2.0.208.0.VPWMIXM-user-15.0-ec7760e82c.zip",
-					"fastboot": "flute_global_images_OS2.0.208.0.VPWMIXM_20260119.0000.00_15.0_global_fed83c37f4.tgz"
+					"fastboot": "flute_global_images_OS2.0.208.0.VPWMIXM_20260119.0000.00_15.0_global_fed83c37f4.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.207.0.VPWMIXM": {
 					"os": "OS2.0.207.0.VPWMIXM",
 					"android": "15.0",
 					"release": "2026-01-12",
 					"recovery": "flute_global-ota_full-OS2.0.207.0.VPWMIXM-user-15.0-4edc2099ad.zip",
-					"fastboot": "flute_global_images_OS2.0.207.0.VPWMIXM_20251219.0000.00_15.0_global_4bdc03a61b.tgz"
+					"fastboot": "flute_global_images_OS2.0.207.0.VPWMIXM_20251219.0000.00_15.0_global_4bdc03a61b.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.206.0.VPWMIXM": {
 					"os": "OS2.0.206.0.VPWMIXM",
 					"android": "15.0",
 					"release": "2025-11-28",
 					"recovery": "flute_global-ota_full-OS2.0.206.0.VPWMIXM-user-15.0-db2a62f716.zip",
-					"fastboot": "flute_global_images_OS2.0.206.0.VPWMIXM_20251119.0000.00_15.0_global_f6dff4b83d.tgz"
+					"fastboot": "flute_global_images_OS2.0.206.0.VPWMIXM_20251119.0000.00_15.0_global_f6dff4b83d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VPWMIXM": {
 					"os": "OS2.0.204.0.VPWMIXM",
 					"android": "15.0",
 					"release": "2025-11-02",
 					"recovery": "flute_global-ota_full-OS2.0.204.0.VPWMIXM-user-15.0-a594e7ead8.zip",
-					"fastboot": "flute_global_images_OS2.0.204.0.VPWMIXM_20251017.0000.00_15.0_global_f0f07710f2.tgz"
+					"fastboot": "flute_global_images_OS2.0.204.0.VPWMIXM_20251017.0000.00_15.0_global_f0f07710f2.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VPWMIXM": {
 					"os": "OS2.0.203.0.VPWMIXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "flute_global-ota_full-OS2.0.203.0.VPWMIXM-user-15.0-6b755e5413.zip",
-					"fastboot": "flute_global_images_OS2.0.203.0.VPWMIXM_20250912.0000.00_15.0_global_bc72a9cf24.tgz"
+					"fastboot": "flute_global_images_OS2.0.203.0.VPWMIXM_20250912.0000.00_15.0_global_bc72a9cf24.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -305,6 +329,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -321,70 +346,80 @@
 					"android": "16.0",
 					"release": "2026-05-15",
 					"recovery": "flute_eea_global-ota_full-OS3.0.301.0.WPWEUXM-user-16.0-f79aef7182.zip",
-					"fastboot": "flute_eea_global_images_OS3.0.301.0.WPWEUXM_20260509.0000.00_16.0_eea_42f9aa1d26.tgz"
+					"fastboot": "flute_eea_global_images_OS3.0.301.0.WPWEUXM_20260509.0000.00_16.0_eea_42f9aa1d26.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.5.0.WPWEUXM": {
 					"os": "OS3.0.5.0.WPWEUXM",
 					"android": "16.0",
 					"release": "2026-03-21",
 					"recovery": "flute_eea_global-ota_full-OS3.0.5.0.WPWEUXM-user-16.0-60815844bc.zip",
-					"fastboot": "flute_eea_global_images_OS3.0.5.0.WPWEUXM_20260311.0000.00_16.0_eea_bbca95a0ac.tgz"
+					"fastboot": "flute_eea_global_images_OS3.0.5.0.WPWEUXM_20260311.0000.00_16.0_eea_bbca95a0ac.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.4.0.WPWEUXM": {
 					"os": "OS3.0.4.0.WPWEUXM",
 					"android": "16.0",
 					"release": "2026-03-02",
 					"recovery": "flute_eea_global-ota_full-OS3.0.4.0.WPWEUXM-user-16.0-c46a634510.zip",
-					"fastboot": "flute_eea_global_images_OS3.0.4.0.WPWEUXM_20260130.0000.00_16.0_eea_e219f381be.tgz"
+					"fastboot": "flute_eea_global_images_OS3.0.4.0.WPWEUXM_20260130.0000.00_16.0_eea_e219f381be.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WPWEUXM": {
 					"os": "OS3.0.3.0.WPWEUXM",
 					"android": "16.0",
 					"release": "2026-01-04",
 					"recovery": "flute_eea_global-ota_full-OS3.0.3.0.WPWEUXM-user-16.0-75d90aec65.zip",
-					"fastboot": "flute_eea_global_images_OS3.0.3.0.WPWEUXM_20251225.0000.00_16.0_eea_4ebc875d17.tgz"
+					"fastboot": "flute_eea_global_images_OS3.0.3.0.WPWEUXM_20251225.0000.00_16.0_eea_4ebc875d17.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.213.0.VPWEUXM": {
 					"os": "OS2.0.213.0.VPWEUXM",
 					"android": "15.0",
 					"release": "2026-02-09",
 					"recovery": "flute_eea_global-ota_full-OS2.0.213.0.VPWEUXM-user-15.0-7a8b92186d.zip",
-					"fastboot": "flute_eea_global_images_OS2.0.213.0.VPWEUXM_20260119.0000.00_15.0_eea_d6c3fd9117.tgz"
+					"fastboot": "flute_eea_global_images_OS2.0.213.0.VPWEUXM_20260119.0000.00_15.0_eea_d6c3fd9117.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.211.0.VPWEUXM": {
 					"os": "OS2.0.211.0.VPWEUXM",
 					"android": "15.0",
 					"release": "2025-11-28",
 					"recovery": "flute_eea_global-ota_full-OS2.0.211.0.VPWEUXM-user-15.0-a8987ca1f1.zip",
-					"fastboot": "flute_eea_global_images_OS2.0.211.0.VPWEUXM_20251119.0000.00_15.0_eea_93178e2691.tgz"
+					"fastboot": "flute_eea_global_images_OS2.0.211.0.VPWEUXM_20251119.0000.00_15.0_eea_93178e2691.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.209.0.VPWEUXM": {
 					"os": "OS2.0.209.0.VPWEUXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "flute_eea_global-ota_full-OS2.0.209.0.VPWEUXM-user-15.0-fc3baee340.zip",
-					"fastboot": "flute_eea_global_images_OS2.0.209.0.VPWEUXM_20251013.0000.00_15.0_eea_8e7da9bee0.tgz"
+					"fastboot": "flute_eea_global_images_OS2.0.209.0.VPWEUXM_20251013.0000.00_15.0_eea_8e7da9bee0.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.207.0.VPWEUXM": {
 					"os": "OS2.0.207.0.VPWEUXM",
 					"android": "15.0",
 					"release": "2025-09-24",
 					"recovery": "flute_eea_global-ota_full-OS2.0.207.0.VPWEUXM-user-15.0-8f5f743f75.zip",
-					"fastboot": "flute_eea_global_images_OS2.0.207.0.VPWEUXM_20250909.0000.00_15.0_eea_7cbbcd406e.tgz"
+					"fastboot": "flute_eea_global_images_OS2.0.207.0.VPWEUXM_20250909.0000.00_15.0_eea_7cbbcd406e.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.206.0.VPWEUXM": {
 					"os": "OS2.0.206.0.VPWEUXM",
 					"android": "15.0",
 					"release": "2025-09-24",
 					"recovery": "flute_eea_global-ota_full-OS2.0.206.0.VPWEUXM-user-15.0-86694701e7.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.205.0.VPWEUXM": {
 					"os": "OS2.0.205.0.VPWEUXM",
 					"android": "15.0",
 					"release": "2025-09-24",
 					"recovery": "flute_eea_global-ota_full-OS2.0.205.0.VPWEUXM-user-15.0-0581e67728.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VPWEUXM": {
 					"os": "OS2.0.204.0.VPWEUXM",
@@ -413,6 +448,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -429,7 +465,8 @@
 					"android": "15.0",
 					"release": "2025-09-25",
 					"recovery": "flute_eea_global-ota_full-OS2.0.208.0.VPWEUDM-user-15.0-bcd770f771.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -451,6 +488,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -467,56 +505,64 @@
 					"android": "16.0",
 					"release": "2026-04-13",
 					"recovery": "flute_ru_global-ota_full-OS3.0.4.0.WPWRUXM-user-16.0-e0120d5eaa.zip",
-					"fastboot": "flute_ru_global_images_OS3.0.4.0.WPWRUXM_20260331.0000.00_16.0_ru_7f9230e1e9.tgz"
+					"fastboot": "flute_ru_global_images_OS3.0.4.0.WPWRUXM_20260331.0000.00_16.0_ru_7f9230e1e9.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.3.0.WPWRUXM": {
 					"os": "OS3.0.3.0.WPWRUXM",
 					"android": "16.0",
 					"release": "2026-03-02",
 					"recovery": "flute_ru_global-ota_full-OS3.0.3.0.WPWRUXM-user-16.0-8742b3dec0.zip",
-					"fastboot": "flute_ru_global_images_OS3.0.3.0.WPWRUXM_20260203.0000.00_16.0_ru_a811c848c3.tgz"
+					"fastboot": "flute_ru_global_images_OS3.0.3.0.WPWRUXM_20260203.0000.00_16.0_ru_a811c848c3.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.207.0.VPWRUXM": {
 					"os": "OS2.0.207.0.VPWRUXM",
 					"android": "15.0",
 					"release": "2026-02-07",
 					"recovery": "flute_ru_global-ota_full-OS2.0.207.0.VPWRUXM-user-15.0-d1b89b0dc4.zip",
-					"fastboot": "flute_ru_global_images_OS2.0.207.0.VPWRUXM_20260121.0000.00_15.0_ru_08a25e2d68.tgz"
+					"fastboot": "flute_ru_global_images_OS2.0.207.0.VPWRUXM_20260121.0000.00_15.0_ru_08a25e2d68.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.206.0.VPWRUXM": {
 					"os": "OS2.0.206.0.VPWRUXM",
 					"android": "15.0",
 					"release": "2026-01-23",
 					"recovery": "flute_ru_global-ota_full-OS2.0.206.0.VPWRUXM-user-15.0-5dc8c61b38.zip",
-					"fastboot": "flute_ru_global_images_OS2.0.206.0.VPWRUXM_20260109.0000.00_15.0_ru_d1bc0d53aa.tgz"
+					"fastboot": "flute_ru_global_images_OS2.0.206.0.VPWRUXM_20260109.0000.00_15.0_ru_d1bc0d53aa.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.205.0.VPWRUXM": {
 					"os": "OS2.0.205.0.VPWRUXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "flute_ru_global-ota_full-OS2.0.205.0.VPWRUXM-user-15.0-1600aed2a7.zip",
-					"fastboot": "flute_ru_global_images_OS2.0.205.0.VPWRUXM_20251124.0000.00_15.0_ru_8dacccea93.tgz"
+					"fastboot": "flute_ru_global_images_OS2.0.205.0.VPWRUXM_20251124.0000.00_15.0_ru_8dacccea93.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VPWRUXM": {
 					"os": "OS2.0.204.0.VPWRUXM",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "flute_ru_global-ota_full-OS2.0.204.0.VPWRUXM-user-15.0-3b698fc33f.zip",
-					"fastboot": "flute_ru_global_images_OS2.0.204.0.VPWRUXM_20251027.0000.00_15.0_ru_bf89d2b01a.tgz"
+					"fastboot": "flute_ru_global_images_OS2.0.204.0.VPWRUXM_20251027.0000.00_15.0_ru_bf89d2b01a.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VPWRUXM": {
 					"os": "OS2.0.203.0.VPWRUXM",
 					"android": "15.0",
 					"release": "2025-09-27",
 					"recovery": "flute_ru_global-ota_full-OS2.0.203.0.VPWRUXM-user-15.0-9ada061dc9.zip",
-					"fastboot": "flute_ru_global_images_OS2.0.203.0.VPWRUXM_20250915.0000.00_15.0_ru_2d7f0ff85e.tgz"
+					"fastboot": "flute_ru_global_images_OS2.0.203.0.VPWRUXM_20250915.0000.00_15.0_ru_2d7f0ff85e.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.202.0.VPWRUXM": {
 					"os": "OS2.0.202.0.VPWRUXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "flute_ru_global-ota_full-OS2.0.202.0.VPWRUXM-user-15.0-60a0e5939c.zip",
-					"fastboot": "flute_ru_global_images_OS2.0.202.0.VPWRUXM_20250902.0000.00_15.0_ru_2bcb1a6520.tgz"
+					"fastboot": "flute_ru_global_images_OS2.0.202.0.VPWRUXM_20250902.0000.00_15.0_ru_2bcb1a6520.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -538,6 +584,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -554,14 +601,16 @@
 					"android": "16.0",
 					"release": "2026-03-02",
 					"recovery": "flute_in_global-ota_full-OS3.0.2.0.WPWINXM-user-16.0-f5cdf19e1a.zip",
-					"fastboot": "flute_in_global_images_OS3.0.2.0.WPWINXM_20260209.0000.00_16.0_in_257e521813.tgz"
+					"fastboot": "flute_in_global_images_OS3.0.2.0.WPWINXM_20260209.0000.00_16.0_in_257e521813.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.202.0.VPWINXM": {
 					"os": "OS2.0.202.0.VPWINXM",
 					"android": "15.0",
 					"release": "2025-11-26",
 					"recovery": "flute_in_global-ota_full-OS2.0.202.0.VPWINXM-user-15.0-8650999d5d.zip",
-					"fastboot": "flute_in_global_images_OS2.0.202.0.VPWINXM_20251119.0000.00_15.0_in_05bfeeebaa.tgz"
+					"fastboot": "flute_in_global_images_OS2.0.202.0.VPWINXM_20251119.0000.00_15.0_in_05bfeeebaa.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -583,6 +632,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -599,35 +649,40 @@
 					"android": "16.0",
 					"release": "2026-03-02",
 					"recovery": "flute_id_global-ota_full-OS3.0.2.0.WPWIDXM-user-16.0-0837e1a00a.zip",
-					"fastboot": "flute_id_global_images_OS3.0.2.0.WPWIDXM_20260209.0000.00_16.0_id_8e7dc3fdc3.tgz"
+					"fastboot": "flute_id_global_images_OS3.0.2.0.WPWIDXM_20260209.0000.00_16.0_id_8e7dc3fdc3.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.210.0.VPWIDXM": {
 					"os": "OS2.0.210.0.VPWIDXM",
 					"android": "15.0",
 					"release": "2026-01-31",
 					"recovery": "flute_id_global-ota_full-OS2.0.210.0.VPWIDXM-user-15.0-8399649b75.zip",
-					"fastboot": "flute_id_global_images_OS2.0.210.0.VPWIDXM_20260119.0000.00_15.0_id_4f61f12ff2.tgz"
+					"fastboot": "flute_id_global_images_OS2.0.210.0.VPWIDXM_20260119.0000.00_15.0_id_4f61f12ff2.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.208.0.VPWIDXM": {
 					"os": "OS2.0.208.0.VPWIDXM",
 					"android": "15.0",
 					"release": "2025-12-04",
 					"recovery": "flute_id_global-ota_full-OS2.0.208.0.VPWIDXM-user-15.0-6a1857b8a0.zip",
-					"fastboot": "flute_id_global_images_OS2.0.208.0.VPWIDXM_20251124.0000.00_15.0_id_c53296c8b1.tgz"
+					"fastboot": "flute_id_global_images_OS2.0.208.0.VPWIDXM_20251124.0000.00_15.0_id_c53296c8b1.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VPWIDXM": {
 					"os": "OS2.0.203.0.VPWIDXM",
 					"android": "15.0",
 					"release": "2025-11-12",
 					"recovery": "flute_id_global-ota_full-OS2.0.203.0.VPWIDXM-user-15.0-ef80df37f4.zip",
-					"fastboot": "flute_id_global_images_OS2.0.203.0.VPWIDXM_20251027.0000.00_15.0_id_6591d1555d.tgz"
+					"fastboot": "flute_id_global_images_OS2.0.203.0.VPWIDXM_20251027.0000.00_15.0_id_6591d1555d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VPWIDXM": {
 					"os": "OS2.0.201.0.VPWIDXM",
 					"android": "15.0",
 					"release": "2025-10-09",
 					"recovery": "flute_id_global-ota_full-OS2.0.201.0.VPWIDXM-user-15.0-0d5371bd17.zip",
-					"fastboot": "flute_id_global_images_OS2.0.201.0.VPWIDXM_20250910.0000.00_15.0_id_801b9c2c23.tgz"
+					"fastboot": "flute_id_global_images_OS2.0.201.0.VPWIDXM_20250910.0000.00_15.0_id_801b9c2c23.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		},
@@ -649,6 +704,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -665,7 +721,8 @@
 					"android": "15.0",
 					"release": "2025-11-19",
 					"recovery": "flute_id_global-ota_full-OS2.0.206.0.VPWIDDM-user-15.0-c0ec09f81d.zip",
-					"fastboot": "flute_id_global_images_OS2.0.206.0.VPWIDDM_20251113.0000.00_15.0_id_9ef08decad.tgz"
+					"fastboot": "flute_id_global_images_OS2.0.206.0.VPWIDDM_20251113.0000.00_15.0_id_9ef08decad.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -687,6 +744,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -703,49 +761,56 @@
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "flute_tr_global-ota_full-OS3.0.3.0.WPWTRXM-user-16.0-18b7c4e309.zip",
-					"fastboot": "flute_tr_global_images_OS3.0.3.0.WPWTRXM_20260317.0000.00_16.0_tr_d386ed83c2.tgz"
+					"fastboot": "flute_tr_global_images_OS3.0.3.0.WPWTRXM_20260317.0000.00_16.0_tr_d386ed83c2.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.208.0.VPWTRXM": {
 					"os": "OS2.0.208.0.VPWTRXM",
 					"android": "15.0",
 					"release": "2026-01-28",
 					"recovery": "flute_tr_global-ota_full-OS2.0.208.0.VPWTRXM-user-15.0-ce3623db4c.zip",
-					"fastboot": "flute_tr_global_images_OS2.0.208.0.VPWTRXM_20260119.0000.00_15.0_tr_70bc6b00b9.tgz"
+					"fastboot": "flute_tr_global_images_OS2.0.208.0.VPWTRXM_20260119.0000.00_15.0_tr_70bc6b00b9.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.207.0.VPWTRXM": {
 					"os": "OS2.0.207.0.VPWTRXM",
 					"android": "15.0",
 					"release": "2026-01-19",
 					"recovery": "flute_tr_global-ota_full-OS2.0.207.0.VPWTRXM-user-15.0-fb23f9448a.zip",
-					"fastboot": "flute_tr_global_images_OS2.0.207.0.VPWTRXM_20260109.0000.00_15.0_tr_9c389297ce.tgz"
+					"fastboot": "flute_tr_global_images_OS2.0.207.0.VPWTRXM_20260109.0000.00_15.0_tr_9c389297ce.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.206.0.VPWTRXM": {
 					"os": "OS2.0.206.0.VPWTRXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "flute_tr_global-ota_full-OS2.0.206.0.VPWTRXM-user-15.0-aba93e840e.zip",
-					"fastboot": "flute_tr_global_images_OS2.0.206.0.VPWTRXM_20251124.0000.00_15.0_tr_755895b45e.tgz"
+					"fastboot": "flute_tr_global_images_OS2.0.206.0.VPWTRXM_20251124.0000.00_15.0_tr_755895b45e.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.205.0.VPWTRXM": {
 					"os": "OS2.0.205.0.VPWTRXM",
 					"android": "15.0",
 					"release": "2025-11-12",
 					"recovery": "flute_tr_global-ota_full-OS2.0.205.0.VPWTRXM-user-15.0-fa4a31dfc6.zip",
-					"fastboot": "flute_tr_global_images_OS2.0.205.0.VPWTRXM_20251027.0000.00_15.0_tr_333a48aab7.tgz"
+					"fastboot": "flute_tr_global_images_OS2.0.205.0.VPWTRXM_20251027.0000.00_15.0_tr_333a48aab7.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VPWTRXM": {
 					"os": "OS2.0.204.0.VPWTRXM",
 					"android": "15.0",
 					"release": "2025-10-09",
 					"recovery": "flute_tr_global-ota_full-OS2.0.204.0.VPWTRXM-user-15.0-f616999a37.zip",
-					"fastboot": "flute_tr_global_images_OS2.0.204.0.VPWTRXM_20250915.0000.00_15.0_tr_17139dd9d1.tgz"
+					"fastboot": "flute_tr_global_images_OS2.0.204.0.VPWTRXM_20250915.0000.00_15.0_tr_17139dd9d1.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VPWTRXM": {
 					"os": "OS2.0.203.0.VPWTRXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "flute_tr_global-ota_full-OS2.0.203.0.VPWTRXM-user-15.0-6f1cd33808.zip",
-					"fastboot": "flute_tr_global_images_OS2.0.203.0.VPWTRXM_20250905.0000.00_15.0_tr_2ca66623ae.tgz"
+					"fastboot": "flute_tr_global_images_OS2.0.203.0.VPWTRXM_20250905.0000.00_15.0_tr_2ca66623ae.tgz",
+					"aspatch": "2025-08-01"
 				}
 			}
 		}

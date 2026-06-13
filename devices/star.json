@@ -34,6 +34,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom",
@@ -57,7 +58,8 @@
 					"recovery": "star-ota_full-OS2.0.7.0.UKACNXM-user-14.0-ac1c7f7203.zip",
 					"fastboot": "star_images_OS2.0.7.0.UKACNXM_20251114.0000.00_14.0_cn_748a3f8b46.tgz",
 					"ctelecom": "star_images_OS2.0.7.0.UKACNXM_20251114.0000.00_14.0_cn_chinatelecom_940e22fe30.tgz",
-					"cnmobile": "star_images_OS2.0.7.0.UKACNXM_20251114.0000.00_14.0_cn_chinamobile_18cdb44973.tgz"
+					"cnmobile": "star_images_OS2.0.7.0.UKACNXM_20251114.0000.00_14.0_cn_chinamobile_18cdb44973.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.UKACNXM": {
 					"os": "OS2.0.1.0.UKACNXM",
@@ -66,7 +68,8 @@
 					"recovery": "star-ota_full-OS2.0.1.0.UKACNXM-user-14.0-57d9b8fc09.zip",
 					"fastboot": "star_images_OS2.0.1.0.UKACNXM_20250303.0000.00_14.0_cn_1545168a46.tgz",
 					"ctelecom": "star_images_OS2.0.1.0.UKACNXM_20250303.0000.00_14.0_cn_chinatelecom_5ad3d011a4.tgz",
-					"cnmobile": "star_images_OS2.0.1.0.UKACNXM_20250303.0000.00_14.0_cn_chinamobile_82fcef7cc3.tgz"
+					"cnmobile": "star_images_OS2.0.1.0.UKACNXM_20250303.0000.00_14.0_cn_chinamobile_82fcef7cc3.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.13.0.UKACNXM": {
 					"os": "OS1.0.13.0.UKACNXM",
@@ -75,7 +78,8 @@
 					"recovery": "miui_STAR_OS1.0.13.0.UKACNXM_b7ceb79cd7_14.0.zip",
 					"fastboot": "star_images_OS1.0.13.0.UKACNXM_20250211.0000.00_14.0_cn_b646954895.tgz",
 					"ctelecom": "star_images_OS1.0.13.0.UKACNXM_20250211.0000.00_14.0_cn_chinatelecom_dcd14e7444.tgz",
-					"cnmobile": "star_images_OS1.0.13.0.UKACNXM_20250211.0000.00_14.0_cn_chinamobile_c0986c5da3.tgz"
+					"cnmobile": "star_images_OS1.0.13.0.UKACNXM_20250211.0000.00_14.0_cn_chinamobile_c0986c5da3.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.UKACNXM": {
 					"os": "OS1.0.9.0.UKACNXM",
@@ -84,7 +88,8 @@
 					"recovery": "miui_STAR_OS1.0.9.0.UKACNXM_2d6cd56f90_14.0.zip",
 					"fastboot": "",
 					"ctelecom": "",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.UKACNXM": {
 					"os": "OS1.0.8.0.UKACNXM",
@@ -93,7 +98,8 @@
 					"recovery": "miui_STAR_OS1.0.8.0.UKACNXM_e0ee8bc158_14.0.zip",
 					"fastboot": "star_images_OS1.0.8.0.UKACNXM_20241101.0000.00_14.0_cn_24a179868b.tgz",
 					"ctelecom": "star_images_OS1.0.8.0.UKACNXM_20241101.0000.00_14.0_cn_chinatelecom_05d07f7124.tgz",
-					"cnmobile": "star_images_OS1.0.8.0.UKACNXM_20241101.0000.00_14.0_cn_chinamobile_4287cef86c.tgz"
+					"cnmobile": "star_images_OS1.0.8.0.UKACNXM_20241101.0000.00_14.0_cn_chinamobile_4287cef86c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UKACNXM": {
 					"os": "OS1.0.6.0.UKACNXM",
@@ -102,7 +108,8 @@
 					"recovery": "miui_STAR_OS1.0.6.0.UKACNXM_a9c4d97169_14.0.zip",
 					"fastboot": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_74b82bf92e.tgz",
 					"ctelecom": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_chinatelecom_c02365fb1d.tgz",
-					"cnmobile": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_chinamobile_8e015ad891.tgz"
+					"cnmobile": "star_images_OS1.0.6.0.UKACNXM_20240929.0000.00_14.0_cn_chinamobile_8e015ad891.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UKACNXM": {
 					"os": "OS1.0.5.0.UKACNXM",
@@ -111,7 +118,8 @@
 					"recovery": "miui_STAR_OS1.0.5.0.UKACNXM_a5f14856be_14.0.zip",
 					"fastboot": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_9538aed41f.tgz",
 					"ctelecom": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_chinatelecom_ae1a6897be.tgz",
-					"cnmobile": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_chinamobile_3d58cb21a3.tgz"
+					"cnmobile": "star_images_OS1.0.5.0.UKACNXM_20240827.0000.00_14.0_cn_chinamobile_3d58cb21a3.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UKACNXM": {
 					"os": "OS1.0.4.0.UKACNXM",
@@ -120,7 +128,8 @@
 					"recovery": "miui_STAR_OS1.0.4.0.UKACNXM_4a8df9c3ad_14.0.zip",
 					"fastboot": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_54c2067232.tgz",
 					"ctelecom": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_chinatelecom_7fe7408740.tgz",
-					"cnmobile": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_chinamobile_ded3b40824.tgz"
+					"cnmobile": "star_images_OS1.0.4.0.UKACNXM_20240723.0000.00_14.0_cn_chinamobile_ded3b40824.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UKACNXM": {
 					"os": "OS1.0.3.0.UKACNXM",
@@ -129,7 +138,8 @@
 					"recovery": "miui_STAR_OS1.0.3.0.UKACNXM_654946af55_14.0.zip",
 					"fastboot": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_a213433232.tgz",
 					"ctelecom": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_chinatelecom_2fd5424daa.tgz",
-					"cnmobile": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_chinamobile_b9ff310a53.tgz"
+					"cnmobile": "star_images_OS1.0.3.0.UKACNXM_20240607.0000.00_14.0_cn_chinamobile_b9ff310a53.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKACNXM": {
 					"os": "OS1.0.2.0.UKACNXM",
@@ -138,7 +148,8 @@
 					"recovery": "miui_STAR_OS1.0.2.0.UKACNXM_783d84531a_14.0.zip",
 					"fastboot": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_5104ca64ac.tgz",
 					"ctelecom": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_chinatelecom_ef7c7c609a.tgz",
-					"cnmobile": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_chinamobile_ff57f74d79.tgz"
+					"cnmobile": "star_images_OS1.0.2.0.UKACNXM_20240410.0000.00_14.0_cn_chinamobile_ff57f74d79.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -160,6 +171,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -176,77 +188,88 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "star_global-ota_full-OS2.0.7.0.UKAMIXM-user-14.0-32d5cd92ee.zip",
-					"fastboot": "star_global_images_OS2.0.7.0.UKAMIXM_20251126.0000.00_14.0_global_da3f7f5a9e.tgz"
+					"fastboot": "star_global_images_OS2.0.7.0.UKAMIXM_20251126.0000.00_14.0_global_da3f7f5a9e.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.6.0.UKAMIXM": {
 					"os": "OS2.0.6.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2025-07-01",
 					"recovery": "star_global-ota_full-OS2.0.6.0.UKAMIXM-user-14.0-cbe1b0deae.zip",
-					"fastboot": "star_global_images_OS2.0.6.0.UKAMIXM_20250430.0000.00_14.0_global_ec1c03c4a3.tgz"
+					"fastboot": "star_global_images_OS2.0.6.0.UKAMIXM_20250430.0000.00_14.0_global_ec1c03c4a3.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.5.0.UKAMIXM": {
 					"os": "OS2.0.5.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2025-05-27",
 					"recovery": "star_global-ota_full-OS2.0.5.0.UKAMIXM-user-14.0-bcb2b162b6.zip",
-					"fastboot": "star_global_images_OS2.0.5.0.UKAMIXM_20250429.0000.00_14.0_global_13b5f55da8.tgz"
+					"fastboot": "star_global_images_OS2.0.5.0.UKAMIXM_20250429.0000.00_14.0_global_13b5f55da8.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.11.0.UKAMIXM": {
 					"os": "OS1.0.11.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2025-02-25",
 					"recovery": "miui_STARGlobal_OS1.0.11.0.UKAMIXM_218759d5fd_14.0.zip",
-					"fastboot": "star_global_images_OS1.0.11.0.UKAMIXM_20250208.0000.00_14.0_global_7bc04c7223.tgz"
+					"fastboot": "star_global_images_OS1.0.11.0.UKAMIXM_20250208.0000.00_14.0_global_7bc04c7223.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.UKAMIXM": {
 					"os": "OS1.0.9.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_STARGlobal_OS1.0.9.0.UKAMIXM_85edfd8297_14.0.zip",
-					"fastboot": "star_global_images_OS1.0.9.0.UKAMIXM_20241107.0000.00_14.0_global_391b8bbb76.tgz"
+					"fastboot": "star_global_images_OS1.0.9.0.UKAMIXM_20241107.0000.00_14.0_global_391b8bbb76.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKAMIXM": {
 					"os": "OS1.0.7.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_STARGlobal_OS1.0.7.0.UKAMIXM_ee83557691_14.0.zip",
-					"fastboot": "star_global_images_OS1.0.7.0.UKAMIXM_20241016.0000.00_14.0_global_99d4fc8b50.tgz"
+					"fastboot": "star_global_images_OS1.0.7.0.UKAMIXM_20241016.0000.00_14.0_global_99d4fc8b50.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UKAMIXM": {
 					"os": "OS1.0.6.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_STARGlobal_OS1.0.6.0.UKAMIXM_4ccfe1f640_14.0.zip",
-					"fastboot": "star_global_images_OS1.0.6.0.UKAMIXM_20240909.0000.00_14.0_global_17a0990098.tgz"
+					"fastboot": "star_global_images_OS1.0.6.0.UKAMIXM_20240909.0000.00_14.0_global_17a0990098.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UKAMIXM": {
 					"os": "OS1.0.5.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_STARGlobal_OS1.0.5.0.UKAMIXM_a141b890e4_14.0.zip",
-					"fastboot": "star_global_images_OS1.0.5.0.UKAMIXM_20240827.0000.00_14.0_global_d70d200d2f.tgz"
+					"fastboot": "star_global_images_OS1.0.5.0.UKAMIXM_20240827.0000.00_14.0_global_d70d200d2f.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UKAMIXM": {
 					"os": "OS1.0.4.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_STARGlobal_OS1.0.4.0.UKAMIXM_ef09773d7e_14.0.zip",
-					"fastboot": "star_global_images_OS1.0.4.0.UKAMIXM_20240725.0000.00_14.0_global_f82cca6230.tgz"
+					"fastboot": "star_global_images_OS1.0.4.0.UKAMIXM_20240725.0000.00_14.0_global_f82cca6230.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UKAMIXM": {
 					"os": "OS1.0.3.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_STARGlobal_OS1.0.3.0.UKAMIXM_868ace962e_14.0.zip",
-					"fastboot": "star_global_images_OS1.0.3.0.UKAMIXM_20240618.0000.00_14.0_global_fd7ab11277.tgz"
+					"fastboot": "star_global_images_OS1.0.3.0.UKAMIXM_20240618.0000.00_14.0_global_fd7ab11277.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKAMIXM": {
 					"os": "OS1.0.2.0.UKAMIXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_STARGlobal_OS1.0.2.0.UKAMIXM_c5850393fb_14.0.zip",
-					"fastboot": "star_global_images_OS1.0.2.0.UKAMIXM_20240516.0000.00_14.0_global_6bfa430258.tgz"
+					"fastboot": "star_global_images_OS1.0.2.0.UKAMIXM_20240516.0000.00_14.0_global_6bfa430258.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -268,6 +291,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -284,84 +308,96 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "star_eea_global-ota_full-OS2.0.4.0.UKAEUXM-user-14.0-62c812f3cf.zip",
-					"fastboot": "star_eea_global_images_OS2.0.4.0.UKAEUXM_20251129.0000.00_14.0_eea_6db6a11dea.tgz"
+					"fastboot": "star_eea_global_images_OS2.0.4.0.UKAEUXM_20251129.0000.00_14.0_eea_6db6a11dea.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.3.0.UKAEUXM": {
 					"os": "OS2.0.3.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2025-07-01",
 					"recovery": "star_eea_global-ota_full-OS2.0.3.0.UKAEUXM-user-14.0-65c8cf2ed1.zip",
-					"fastboot": "star_eea_global_images_OS2.0.3.0.UKAEUXM_20250430.0000.00_14.0_eea_eb04542688.tgz"
+					"fastboot": "star_eea_global_images_OS2.0.3.0.UKAEUXM_20250430.0000.00_14.0_eea_eb04542688.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.UKAEUXM": {
 					"os": "OS2.0.2.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2025-06-03",
 					"recovery": "star_eea_global-ota_full-OS2.0.2.0.UKAEUXM-user-14.0-28c6460ab7.zip",
-					"fastboot": "star_eea_global_images_OS2.0.2.0.UKAEUXM_20250429.0000.00_14.0_eea_e29901b4d8.tgz"
+					"fastboot": "star_eea_global_images_OS2.0.2.0.UKAEUXM_20250429.0000.00_14.0_eea_e29901b4d8.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.10.0.UKAEUXM": {
 					"os": "OS1.0.10.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_STAREEAGlobal_OS1.0.10.0.UKAEUXM_e0a25a1183_14.0.zip",
-					"fastboot": "star_eea_global_images_OS1.0.10.0.UKAEUXM_20250211.0000.00_14.0_eea_919075d0c8.tgz"
+					"fastboot": "star_eea_global_images_OS1.0.10.0.UKAEUXM_20250211.0000.00_14.0_eea_919075d0c8.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.UKAEUXM": {
 					"os": "OS1.0.9.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2025-01-20",
 					"recovery": "miui_STAREEAGlobal_OS1.0.9.0.UKAEUXM_3c25c41617_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.UKAEUXM": {
 					"os": "OS1.0.8.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_STAREEAGlobal_OS1.0.8.0.UKAEUXM_7773da0b35_14.0.zip",
-					"fastboot": "star_eea_global_images_OS1.0.8.0.UKAEUXM_20241107.0000.00_14.0_eea_9f33ac65cd.tgz"
+					"fastboot": "star_eea_global_images_OS1.0.8.0.UKAEUXM_20241107.0000.00_14.0_eea_9f33ac65cd.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKAEUXM": {
 					"os": "OS1.0.7.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_STAREEAGlobal_OS1.0.7.0.UKAEUXM_0a37468109_14.0.zip",
-					"fastboot": "star_eea_global_images_OS1.0.7.0.UKAEUXM_20241022.0000.00_14.0_eea_7355fd8f7c.tgz"
+					"fastboot": "star_eea_global_images_OS1.0.7.0.UKAEUXM_20241022.0000.00_14.0_eea_7355fd8f7c.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UKAEUXM": {
 					"os": "OS1.0.6.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_STAREEAGlobal_OS1.0.6.0.UKAEUXM_36b94878e9_14.0.zip",
-					"fastboot": "star_eea_global_images_OS1.0.6.0.UKAEUXM_20240911.0000.00_14.0_eea_f5b1367e1b.tgz"
+					"fastboot": "star_eea_global_images_OS1.0.6.0.UKAEUXM_20240911.0000.00_14.0_eea_f5b1367e1b.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UKAEUXM": {
 					"os": "OS1.0.5.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_STAREEAGlobal_OS1.0.5.0.UKAEUXM_c83b47d8ff_14.0.zip",
-					"fastboot": "star_eea_global_images_OS1.0.5.0.UKAEUXM_20240827.0000.00_14.0_eea_00284ceb33.tgz"
+					"fastboot": "star_eea_global_images_OS1.0.5.0.UKAEUXM_20240827.0000.00_14.0_eea_00284ceb33.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UKAEUXM": {
 					"os": "OS1.0.4.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_STAREEAGlobal_OS1.0.4.0.UKAEUXM_a013e99530_14.0.zip",
-					"fastboot": "star_eea_global_images_OS1.0.4.0.UKAEUXM_20240722.0000.00_14.0_eea_18c3d1a748.tgz"
+					"fastboot": "star_eea_global_images_OS1.0.4.0.UKAEUXM_20240722.0000.00_14.0_eea_18c3d1a748.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UKAEUXM": {
 					"os": "OS1.0.2.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2024-07-12",
 					"recovery": "miui_STAREEAGlobal_OS1.0.2.0.UKAEUXM_c240ad2ac3_14.0.zip",
-					"fastboot": "star_eea_global_images_OS1.0.2.0.UKAEUXM_20240614.0000.00_14.0_eea_7b6995fd9f.tgz"
+					"fastboot": "star_eea_global_images_OS1.0.2.0.UKAEUXM_20240614.0000.00_14.0_eea_7b6995fd9f.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.UKAEUXM": {
 					"os": "OS1.0.1.0.UKAEUXM",
 					"android": "14.0",
 					"release": "2024-05-24",
 					"recovery": "miui_STAREEAGlobal_OS1.0.1.0.UKAEUXM_edb36244a2_14.0.zip",
-					"fastboot": "star_eea_global_images_OS1.0.1.0.UKAEUXM_20240430.0000.00_14.0_eea_6632ceccca.tgz"
+					"fastboot": "star_eea_global_images_OS1.0.1.0.UKAEUXM_20240430.0000.00_14.0_eea_6632ceccca.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -383,6 +419,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -399,49 +436,56 @@
 					"android": "14.0",
 					"release": "2025-05-22",
 					"recovery": "miui_STAREEAORGlobal_OS1.0.8.0.UKAEUOR_3ee6bc3afb_14.0.zip",
-					"fastboot": "star_eea_or_global_images_OS1.0.8.0.UKAEUOR_20250415.0000.00_14.0_eea_orange_e0b57437dd.tgz"
+					"fastboot": "star_eea_or_global_images_OS1.0.8.0.UKAEUOR_20250415.0000.00_14.0_eea_orange_e0b57437dd.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UKAEUOR": {
 					"os": "OS1.0.7.0.UKAEUOR",
 					"android": "14.0",
 					"release": "2025-03-19",
 					"recovery": "miui_STAREEAORGlobal_OS1.0.7.0.UKAEUOR_5e9d73a553_14.0.zip",
-					"fastboot": "star_eea_or_global_images_OS1.0.7.0.UKAEUOR_20250221.0000.00_14.0_eea_orange_93c27fe7f5.tgz"
+					"fastboot": "star_eea_or_global_images_OS1.0.7.0.UKAEUOR_20250221.0000.00_14.0_eea_orange_93c27fe7f5.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UKAEUOR": {
 					"os": "OS1.0.6.0.UKAEUOR",
 					"android": "14.0",
 					"release": "2025-01-14",
 					"recovery": "miui_STAREEAORGlobal_OS1.0.6.0.UKAEUOR_82b836db23_14.0.zip",
-					"fastboot": "star_eea_or_global_images_OS1.0.6.0.UKAEUOR_20241218.0000.00_14.0_eea_orange_4bda704a39.tgz"
+					"fastboot": "star_eea_or_global_images_OS1.0.6.0.UKAEUOR_20241218.0000.00_14.0_eea_orange_4bda704a39.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.5.0.UKAEUOR": {
 					"os": "OS1.0.5.0.UKAEUOR",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_STAREEAORGlobal_OS1.0.5.0.UKAEUOR_520892ad10_14.0.zip",
-					"fastboot": "star_eea_or_global_images_OS1.0.5.0.UKAEUOR_20241010.0000.00_14.0_eea_orange_426ad08c8a.tgz"
+					"fastboot": "star_eea_or_global_images_OS1.0.5.0.UKAEUOR_20241010.0000.00_14.0_eea_orange_426ad08c8a.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKAEUOR": {
 					"os": "OS1.0.4.0.UKAEUOR",
 					"android": "14.0",
 					"release": "2024-08-23",
 					"recovery": "miui_STAREEAORGlobal_OS1.0.4.0.UKAEUOR_47634fc26c_14.0.zip",
-					"fastboot": "star_eea_or_global_images_OS1.0.4.0.UKAEUOR_20240813.0000.00_14.0_eea_orange_956adf3aba.tgz"
+					"fastboot": "star_eea_or_global_images_OS1.0.4.0.UKAEUOR_20240813.0000.00_14.0_eea_orange_956adf3aba.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.UKAEUOR": {
 					"os": "OS1.0.3.0.UKAEUOR",
 					"android": "14.0",
 					"release": "2024-08-06",
 					"recovery": "miui_STAREEAORGlobal_OS1.0.3.0.UKAEUOR_5879fb268e_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UKAEUOR": {
 					"os": "OS1.0.2.0.UKAEUOR",
 					"android": "14.0",
 					"release": "2024-07-01",
 					"recovery": "miui_STAREEAORGlobal_OS1.0.2.0.UKAEUOR_fc9aaf5764_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -463,6 +507,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -479,42 +524,48 @@
 					"android": "14.0",
 					"release": "2025-05-13",
 					"recovery": "miui_STAREEAVFGlobal_OS1.0.11.0.UKAEUVF_2657149e27_14.0.zip",
-					"fastboot": "star_eea_vf_global_images_OS1.0.11.0.UKAEUVF_20250414.0000.00_14.0_eea_vodafone_c2e2b120d6.tgz"
+					"fastboot": "star_eea_vf_global_images_OS1.0.11.0.UKAEUVF_20250414.0000.00_14.0_eea_vodafone_c2e2b120d6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.9.0.UKAEUVF": {
 					"os": "OS1.0.9.0.UKAEUVF",
 					"android": "14.0",
 					"release": "2025-03-07",
 					"recovery": "miui_STAREEAVFGlobal_OS1.0.9.0.UKAEUVF_34b83f7e2c_14.0.zip",
-					"fastboot": "star_eea_vf_global_images_OS1.0.9.0.UKAEUVF_20250218.0000.00_14.0_eea_vodafone_45caf1321b.tgz"
+					"fastboot": "star_eea_vf_global_images_OS1.0.9.0.UKAEUVF_20250218.0000.00_14.0_eea_vodafone_45caf1321b.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.7.0.UKAEUVF": {
 					"os": "OS1.0.7.0.UKAEUVF",
 					"android": "14.0",
 					"release": "2024-12-27",
 					"recovery": "miui_STAREEAVFGlobal_OS1.0.7.0.UKAEUVF_20f16faa55_14.0.zip",
-					"fastboot": "star_eea_vf_global_images_OS1.0.7.0.UKAEUVF_20241216.0000.00_14.0_eea_vodafone_a8c45f71b7.tgz"
+					"fastboot": "star_eea_vf_global_images_OS1.0.7.0.UKAEUVF_20241216.0000.00_14.0_eea_vodafone_a8c45f71b7.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.4.0.UKAEUVF": {
 					"os": "OS1.0.4.0.UKAEUVF",
 					"android": "14.0",
 					"release": "2024-10-30",
 					"recovery": "miui_STAREEAVFGlobal_OS1.0.4.0.UKAEUVF_5816a5e9f3_14.0.zip",
-					"fastboot": "star_eea_vf_global_images_OS1.0.4.0.UKAEUVF_20241012.0000.00_14.0_eea_vodafone_34b9b3dafe.tgz"
+					"fastboot": "star_eea_vf_global_images_OS1.0.4.0.UKAEUVF_20241012.0000.00_14.0_eea_vodafone_34b9b3dafe.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.2.0.UKAEUVF": {
 					"os": "OS1.0.2.0.UKAEUVF",
 					"android": "14.0",
 					"release": "2024-08-28",
 					"recovery": "miui_STAREEAVFGlobal_OS1.0.2.0.UKAEUVF_80ab7e3ca3_14.0.zip",
-					"fastboot": "star_eea_vf_global_images_OS1.0.2.0.UKAEUVF_20240809.0000.00_14.0_eea_vodafone_e243901286.tgz"
+					"fastboot": "star_eea_vf_global_images_OS1.0.2.0.UKAEUVF_20240809.0000.00_14.0_eea_vodafone_e243901286.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.UKAEUVF": {
 					"os": "OS1.0.1.0.UKAEUVF",
 					"android": "14.0",
 					"release": "2024-07-01",
 					"recovery": "miui_STAREEAVFGlobal_OS1.0.1.0.UKAEUVF_8cd9a51b31_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -536,6 +587,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -552,77 +604,88 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "star_in_global-ota_full-OS2.0.3.0.UKAINXM-user-14.0-264d15959b.zip",
-					"fastboot": "star_in_global_images_OS2.0.3.0.UKAINXM_20251130.0000.00_14.0_in_83de299973.tgz"
+					"fastboot": "star_in_global_images_OS2.0.3.0.UKAINXM_20251130.0000.00_14.0_in_83de299973.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.UKAINXM": {
 					"os": "OS2.0.2.0.UKAINXM",
 					"android": "14.0",
 					"release": "2025-06-03",
 					"recovery": "star_in_global-ota_full-OS2.0.2.0.UKAINXM-user-14.0-7a5e3f1fb7.zip",
-					"fastboot": "star_in_global_images_OS2.0.2.0.UKAINXM_20250430.0000.00_14.0_in_c2bcac1afd.tgz"
+					"fastboot": "star_in_global_images_OS2.0.2.0.UKAINXM_20250430.0000.00_14.0_in_c2bcac1afd.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.10.0.UKAINXM": {
 					"os": "OS1.0.10.0.UKAINXM",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_STARINGlobal_OS1.0.10.0.UKAINXM_a45a20112b_14.0.zip",
-					"fastboot": "star_in_global_images_OS1.0.10.0.UKAINXM_20250211.0000.00_14.0_in_539a287365.tgz"
+					"fastboot": "star_in_global_images_OS1.0.10.0.UKAINXM_20250211.0000.00_14.0_in_539a287365.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.UKAINXM": {
 					"os": "OS1.0.9.0.UKAINXM",
 					"android": "14.0",
 					"release": "2025-01-20",
 					"recovery": "miui_STARINGlobal_OS1.0.9.0.UKAINXM_da5d041ce5_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.UKAINXM": {
 					"os": "OS1.0.8.0.UKAINXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_STARINGlobal_OS1.0.8.0.UKAINXM_bcab1e7d0f_14.0.zip",
-					"fastboot": "star_in_global_images_OS1.0.8.0.UKAINXM_20241107.0000.00_14.0_in_c285167e66.tgz"
+					"fastboot": "star_in_global_images_OS1.0.8.0.UKAINXM_20241107.0000.00_14.0_in_c285167e66.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKAINXM": {
 					"os": "OS1.0.7.0.UKAINXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_STARINGlobal_OS1.0.7.0.UKAINXM_1daea15f1f_14.0.zip",
-					"fastboot": "star_in_global_images_OS1.0.7.0.UKAINXM_20241022.0000.00_14.0_in_a85d306bcb.tgz"
+					"fastboot": "star_in_global_images_OS1.0.7.0.UKAINXM_20241022.0000.00_14.0_in_a85d306bcb.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UKAINXM": {
 					"os": "OS1.0.6.0.UKAINXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_STARINGlobal_OS1.0.6.0.UKAINXM_4b1a5c7ad7_14.0.zip",
-					"fastboot": "star_in_global_images_OS1.0.6.0.UKAINXM_20240911.0000.00_14.0_in_d99e0aa5e8.tgz"
+					"fastboot": "star_in_global_images_OS1.0.6.0.UKAINXM_20240911.0000.00_14.0_in_d99e0aa5e8.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UKAINXM": {
 					"os": "OS1.0.5.0.UKAINXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_STARINGlobal_OS1.0.5.0.UKAINXM_a0c1936ed0_14.0.zip",
-					"fastboot": "star_in_global_images_OS1.0.5.0.UKAINXM_20240819.0000.00_14.0_in_d8667ae744.tgz"
+					"fastboot": "star_in_global_images_OS1.0.5.0.UKAINXM_20240819.0000.00_14.0_in_d8667ae744.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UKAINXM": {
 					"os": "OS1.0.4.0.UKAINXM",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_STARINGlobal_OS1.0.4.0.UKAINXM_a2551baa90_14.0.zip",
-					"fastboot": "star_in_global_images_OS1.0.4.0.UKAINXM_20240719.0000.00_14.0_in_1e67baaa37.tgz"
+					"fastboot": "star_in_global_images_OS1.0.4.0.UKAINXM_20240719.0000.00_14.0_in_1e67baaa37.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UKAINXM": {
 					"os": "OS1.0.3.0.UKAINXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_STARINGlobal_OS1.0.3.0.UKAINXM_bf75dfbce6_14.0.zip",
-					"fastboot": "star_in_global_images_OS1.0.3.0.UKAINXM_20240618.0000.00_14.0_in_d8199bc078.tgz"
+					"fastboot": "star_in_global_images_OS1.0.3.0.UKAINXM_20240618.0000.00_14.0_in_d8199bc078.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKAINXM": {
 					"os": "OS1.0.2.0.UKAINXM",
 					"android": "14.0",
 					"release": "2024-05-20",
 					"recovery": "miui_STARINGlobal_OS1.0.2.0.UKAINXM_2c501448a3_14.0.zip",
-					"fastboot": "star_in_global_images_OS1.0.2.0.UKAINXM_20240430.0000.00_14.0_in_9fed91efc6.tgz"
+					"fastboot": "star_in_global_images_OS1.0.2.0.UKAINXM_20240430.0000.00_14.0_in_9fed91efc6.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -644,6 +707,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -660,77 +724,88 @@
 					"android": "14.0",
 					"release": "2026-01-27",
 					"recovery": "star_id_global-ota_full-OS2.0.3.0.UKAIDXM-user-14.0-6ad29f6cbe.zip",
-					"fastboot": "star_id_global_images_OS2.0.3.0.UKAIDXM_20251129.0000.00_14.0_id_2d0ac4d958.tgz"
+					"fastboot": "star_id_global_images_OS2.0.3.0.UKAIDXM_20251129.0000.00_14.0_id_2d0ac4d958.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.UKAIDXM": {
 					"os": "OS2.0.2.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2025-06-03",
 					"recovery": "star_id_global-ota_full-OS2.0.2.0.UKAIDXM-user-14.0-b62710540d.zip",
-					"fastboot": "star_id_global_images_OS2.0.2.0.UKAIDXM_20250429.0000.00_14.0_id_3c3155a62b.tgz"
+					"fastboot": "star_id_global_images_OS2.0.2.0.UKAIDXM_20250429.0000.00_14.0_id_3c3155a62b.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.10.0.UKAIDXM": {
 					"os": "OS1.0.10.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_STARIDGlobal_OS1.0.10.0.UKAIDXM_e11f9c852e_14.0.zip",
-					"fastboot": "star_id_global_images_OS1.0.10.0.UKAIDXM_20250211.0000.00_14.0_id_f7ec86288d.tgz"
+					"fastboot": "star_id_global_images_OS1.0.10.0.UKAIDXM_20250211.0000.00_14.0_id_f7ec86288d.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.9.0.UKAIDXM": {
 					"os": "OS1.0.9.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2025-01-20",
 					"recovery": "miui_STARIDGlobal_OS1.0.9.0.UKAIDXM_a13de7aaa3_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.UKAIDXM": {
 					"os": "OS1.0.8.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_STARIDGlobal_OS1.0.8.0.UKAIDXM_0c4ddee7b0_14.0.zip",
-					"fastboot": "star_id_global_images_OS1.0.8.0.UKAIDXM_20241107.0000.00_14.0_id_b7a13be606.tgz"
+					"fastboot": "star_id_global_images_OS1.0.8.0.UKAIDXM_20241107.0000.00_14.0_id_b7a13be606.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKAIDXM": {
 					"os": "OS1.0.7.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2024-11-08",
 					"recovery": "miui_STARIDGlobal_OS1.0.7.0.UKAIDXM_4e22ded907_14.0.zip",
-					"fastboot": "star_id_global_images_OS1.0.7.0.UKAIDXM_20241022.0000.00_14.0_id_0c48344aeb.tgz"
+					"fastboot": "star_id_global_images_OS1.0.7.0.UKAIDXM_20241022.0000.00_14.0_id_0c48344aeb.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UKAIDXM": {
 					"os": "OS1.0.6.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_STARIDGlobal_OS1.0.6.0.UKAIDXM_329c56af02_14.0.zip",
-					"fastboot": "star_id_global_images_OS1.0.6.0.UKAIDXM_20240910.0000.00_14.0_id_c33f0cad12.tgz"
+					"fastboot": "star_id_global_images_OS1.0.6.0.UKAIDXM_20240910.0000.00_14.0_id_c33f0cad12.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UKAIDXM": {
 					"os": "OS1.0.5.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2024-09-09",
 					"recovery": "miui_STARIDGlobal_OS1.0.5.0.UKAIDXM_3fe5eed5e3_14.0.zip",
-					"fastboot": "star_id_global_images_OS1.0.5.0.UKAIDXM_20240827.0000.00_14.0_id_3c80f605d8.tgz"
+					"fastboot": "star_id_global_images_OS1.0.5.0.UKAIDXM_20240827.0000.00_14.0_id_3c80f605d8.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.UKAIDXM": {
 					"os": "OS1.0.4.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_STARIDGlobal_OS1.0.4.0.UKAIDXM_483b509317_14.0.zip",
-					"fastboot": "star_id_global_images_OS1.0.4.0.UKAIDXM_20240719.0000.00_14.0_id_49d48cbc72.tgz"
+					"fastboot": "star_id_global_images_OS1.0.4.0.UKAIDXM_20240719.0000.00_14.0_id_49d48cbc72.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UKAIDXM": {
 					"os": "OS1.0.3.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2024-07-15",
 					"recovery": "miui_STARIDGlobal_OS1.0.3.0.UKAIDXM_6079fa178e_14.0.zip",
-					"fastboot": "star_id_global_images_OS1.0.3.0.UKAIDXM_20240624.0000.00_14.0_id_72ef068f92.tgz"
+					"fastboot": "star_id_global_images_OS1.0.3.0.UKAIDXM_20240624.0000.00_14.0_id_72ef068f92.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKAIDXM": {
 					"os": "OS1.0.2.0.UKAIDXM",
 					"android": "14.0",
 					"release": "2024-06-03",
 					"recovery": "miui_STARIDGlobal_OS1.0.2.0.UKAIDXM_d8e0ceb782_14.0.zip",
-					"fastboot": "star_id_global_images_OS1.0.2.0.UKAIDXM_20240517.0000.00_14.0_id_8db6e0da33.tgz"
+					"fastboot": "star_id_global_images_OS1.0.2.0.UKAIDXM_20240517.0000.00_14.0_id_8db6e0da33.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		}

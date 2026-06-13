@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -53,35 +54,40 @@
 					"android": "16.0",
 					"release": "2026-04-23",
 					"recovery": "flare_tw_global-ota_full-OS3.0.1.0.WHXTWXM-user-16.0-dc34d02572.zip",
-					"fastboot": "flare_tw_global_images_OS3.0.1.0.WHXTWXM_20260408.0000.00_16.0_tw_bcf5f0d884.tgz"
+					"fastboot": "flare_tw_global_images_OS3.0.1.0.WHXTWXM_20260408.0000.00_16.0_tw_bcf5f0d884.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.1.0.VHXTWXM": {
 					"os": "OS2.0.1.0.VHXTWXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "flare_tw_global-ota_full-OS2.0.1.0.VHXTWXM-user-15.0-55dbd96f20.zip",
-					"fastboot": "flare_tw_global_images_OS2.0.1.0.VHXTWXM_20250318.0000.00_15.0_tw_25f2134582.tgz"
+					"fastboot": "flare_tw_global_images_OS2.0.1.0.VHXTWXM_20250318.0000.00_15.0_tw_25f2134582.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.4.0.UHXTWXM": {
 					"os": "OS1.0.4.0.UHXTWXM",
 					"android": "14.0",
 					"release": "2024-12-09",
 					"recovery": "miui_FLARETWGlobal_OS1.0.4.0.UHXTWXM_381e7d09fc_14.0.zip",
-					"fastboot": "flare_tw_global_images_OS1.0.4.0.UHXTWXM_20241127.0000.00_14.0_tw_0debd6ada3.tgz"
+					"fastboot": "flare_tw_global_images_OS1.0.4.0.UHXTWXM_20241127.0000.00_14.0_tw_0debd6ada3.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UHXTWXM": {
 					"os": "OS1.0.3.0.UHXTWXM",
 					"android": "14.0",
 					"release": "2024-10-22",
 					"recovery": "miui_FLARETWGlobal_OS1.0.3.0.UHXTWXM_bde6acdeb9_14.0.zip",
-					"fastboot": "flare_tw_global_images_OS1.0.3.0.UHXTWXM_20241008.0000.00_14.0_tw_0c39bbfc84.tgz"
+					"fastboot": "flare_tw_global_images_OS1.0.3.0.UHXTWXM_20241008.0000.00_14.0_tw_0c39bbfc84.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UHXTWXM": {
 					"os": "OS1.0.2.0.UHXTWXM",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_FLARETWGlobal_OS1.0.2.0.UHXTWXM_591ba1d358_14.0.zip",
-					"fastboot": "flare_tw_global_images_OS1.0.2.0.UHXTWXM_20240713.0000.00_14.0_tw_fcb82a6450.tgz"
+					"fastboot": "flare_tw_global_images_OS1.0.2.0.UHXTWXM_20240713.0000.00_14.0_tw_fcb82a6450.tgz",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -103,6 +109,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -119,105 +126,120 @@
 					"android": "16.0",
 					"release": "2026-05-25",
 					"recovery": "flare_global-ota_full-OS3.0.301.0.WHXMIXM-user-16.0-0ba2422b69.zip",
-					"fastboot": "flare_global_images_OS3.0.301.0.WHXMIXM_20260514.0000.00_16.0_global_4f095a610e.tgz"
+					"fastboot": "flare_global_images_OS3.0.301.0.WHXMIXM_20260514.0000.00_16.0_global_4f095a610e.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WHXMIXM": {
 					"os": "OS3.0.3.0.WHXMIXM",
 					"android": "16.0",
 					"release": "2026-04-27",
 					"recovery": "flare_global-ota_full-OS3.0.3.0.WHXMIXM-user-16.0-9ac1d3d73c.zip",
-					"fastboot": "flare_global_images_OS3.0.3.0.WHXMIXM_20260420.0000.00_16.0_global_07fbe1de0f.tgz"
+					"fastboot": "flare_global_images_OS3.0.3.0.WHXMIXM_20260420.0000.00_16.0_global_07fbe1de0f.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WHXMIXM": {
 					"os": "OS3.0.2.0.WHXMIXM",
 					"android": "16.0",
 					"release": "2026-03-11",
 					"recovery": "flare_global-ota_full-OS3.0.2.0.WHXMIXM-user-16.0-324cfe5a17.zip",
-					"fastboot": "flare_global_images_OS3.0.2.0.WHXMIXM_20260227.0000.00_16.0_global_c631203d62.tgz"
+					"fastboot": "flare_global_images_OS3.0.2.0.WHXMIXM_20260227.0000.00_16.0_global_c631203d62.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WHXMIXM": {
 					"os": "OS3.0.1.0.WHXMIXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "flare_global-ota_full-OS3.0.1.0.WHXMIXM-user-16.0-5fde3b920a.zip",
-					"fastboot": "flare_global_images_OS3.0.1.0.WHXMIXM_20251231.0000.00_16.0_global_2a91704560.tgz"
+					"fastboot": "flare_global_images_OS3.0.1.0.WHXMIXM_20251231.0000.00_16.0_global_2a91704560.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VHXMIXM": {
 					"os": "OS2.0.205.0.VHXMIXM",
 					"android": "15.0",
 					"release": "2025-12-13",
 					"recovery": "flare_global-ota_full-OS2.0.205.0.VHXMIXM-user-15.0-0e48239528.zip",
-					"fastboot": "flare_global_images_OS2.0.205.0.VHXMIXM_20251127.0000.00_15.0_global_7d99a290d8.tgz"
+					"fastboot": "flare_global_images_OS2.0.205.0.VHXMIXM_20251127.0000.00_15.0_global_7d99a290d8.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VHXMIXM": {
 					"os": "OS2.0.203.0.VHXMIXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "flare_global-ota_full-OS2.0.203.0.VHXMIXM-user-15.0-6aa1e28de2.zip",
-					"fastboot": "flare_global_images_OS2.0.203.0.VHXMIXM_20250922.0000.00_15.0_global_2fd7a82e8f.tgz"
+					"fastboot": "flare_global_images_OS2.0.203.0.VHXMIXM_20250922.0000.00_15.0_global_2fd7a82e8f.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VHXMIXM": {
 					"os": "OS2.0.202.0.VHXMIXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "flare_global-ota_full-OS2.0.202.0.VHXMIXM-user-15.0-df567cfb1d.zip",
-					"fastboot": "flare_global_images_OS2.0.202.0.VHXMIXM_20250805.0000.00_15.0_global_2b1e92cf68.tgz"
+					"fastboot": "flare_global_images_OS2.0.202.0.VHXMIXM_20250805.0000.00_15.0_global_2b1e92cf68.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.5.0.VHXMIXM": {
 					"os": "OS2.0.5.0.VHXMIXM",
 					"android": "15.0",
 					"release": "2025-06-09",
 					"recovery": "flare_global-ota_full-OS2.0.5.0.VHXMIXM-user-15.0-0116ce0fd3.zip",
-					"fastboot": "flare_global_images_OS2.0.5.0.VHXMIXM_20250515.0000.00_15.0_global_ef239df40d.tgz"
+					"fastboot": "flare_global_images_OS2.0.5.0.VHXMIXM_20250515.0000.00_15.0_global_ef239df40d.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VHXMIXM": {
 					"os": "OS2.0.3.0.VHXMIXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "flare_global-ota_full-OS2.0.3.0.VHXMIXM-user-15.0-f43e5c2a05.zip",
-					"fastboot": "flare_global_images_OS2.0.3.0.VHXMIXM_20250415.0000.00_15.0_global_0af0b29d4a.tgz"
+					"fastboot": "flare_global_images_OS2.0.3.0.VHXMIXM_20250415.0000.00_15.0_global_0af0b29d4a.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.1.0.VHXMIXM": {
 					"os": "OS2.0.1.0.VHXMIXM",
 					"android": "15.0",
 					"release": "2025-01-20",
 					"recovery": "flare_global-ota_full-OS2.0.1.0.VHXMIXM-user-15.0-f4b05c0782.zip",
-					"fastboot": "flare_global_images_OS2.0.1.0.VHXMIXM_20250108.0000.00_15.0_global_878c69899a.tgz"
+					"fastboot": "flare_global_images_OS2.0.1.0.VHXMIXM_20250108.0000.00_15.0_global_878c69899a.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.8.0.UHXMIXM": {
 					"os": "OS1.0.8.0.UHXMIXM",
 					"android": "14.0",
 					"release": "2025-01-06",
 					"recovery": "miui_FLAREGlobal_OS1.0.8.0.UHXMIXM_c68d943d51_14.0.zip",
-					"fastboot": "flare_global_images_OS1.0.8.0.UHXMIXM_20241212.0000.00_14.0_global_739e05b3e1.tgz"
+					"fastboot": "flare_global_images_OS1.0.8.0.UHXMIXM_20241212.0000.00_14.0_global_739e05b3e1.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UHXMIXM": {
 					"os": "OS1.0.7.0.UHXMIXM",
 					"android": "14.0",
 					"release": "2024-12-02",
 					"recovery": "miui_FLAREGlobal_OS1.0.7.0.UHXMIXM_fca118761f_14.0.zip",
-					"fastboot": "flare_global_images_OS1.0.7.0.UHXMIXM_20241121.0000.00_14.0_global_746f892f98.tgz"
+					"fastboot": "flare_global_images_OS1.0.7.0.UHXMIXM_20241121.0000.00_14.0_global_746f892f98.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.UHXMIXM": {
 					"os": "OS1.0.6.0.UHXMIXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_FLAREGlobal_OS1.0.6.0.UHXMIXM_9304f289d8_14.0.zip",
-					"fastboot": "flare_global_images_OS1.0.6.0.UHXMIXM_20240912.0000.00_14.0_global_9de233433b.tgz"
+					"fastboot": "flare_global_images_OS1.0.6.0.UHXMIXM_20240912.0000.00_14.0_global_9de233433b.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.UHXMIXM": {
 					"os": "OS1.0.5.0.UHXMIXM",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_FLAREGlobal_OS1.0.5.0.UHXMIXM_28120a5745_14.0.zip",
-					"fastboot": "flare_global_images_OS1.0.5.0.UHXMIXM_20240722.0000.00_14.0_global_b0254a2354.tgz"
+					"fastboot": "flare_global_images_OS1.0.5.0.UHXMIXM_20240722.0000.00_14.0_global_b0254a2354.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.UHXMIXM": {
 					"os": "OS1.0.3.0.UHXMIXM",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_FLAREGlobal_OS1.0.3.0.UHXMIXM_39f90da70a_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -239,6 +261,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -255,98 +278,112 @@
 					"android": "16.0",
 					"release": "2026-05-19",
 					"recovery": "flare_eea_global-ota_full-OS3.0.3.0.WHXEUXM-user-16.0-2006ff8572.zip",
-					"fastboot": "flare_eea_global_images_OS3.0.3.0.WHXEUXM_20260509.0000.00_16.0_eea_45f1a8e8fa.tgz"
+					"fastboot": "flare_eea_global_images_OS3.0.3.0.WHXEUXM_20260509.0000.00_16.0_eea_45f1a8e8fa.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.2.0.WHXEUXM": {
 					"os": "OS3.0.2.0.WHXEUXM",
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "flare_eea_global-ota_full-OS3.0.2.0.WHXEUXM-user-16.0-18e57ee211.zip",
-					"fastboot": "flare_eea_global_images_OS3.0.2.0.WHXEUXM_20260320.0000.00_16.0_eea_36c242b2c3.tgz"
+					"fastboot": "flare_eea_global_images_OS3.0.2.0.WHXEUXM_20260320.0000.00_16.0_eea_36c242b2c3.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.1.0.WHXEUXM": {
 					"os": "OS3.0.1.0.WHXEUXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "flare_eea_global-ota_full-OS3.0.1.0.WHXEUXM-user-16.0-36e85af783.zip",
-					"fastboot": "flare_eea_global_images_OS3.0.1.0.WHXEUXM_20260106.0000.00_16.0_eea_ec1c40239a.tgz"
+					"fastboot": "flare_eea_global_images_OS3.0.1.0.WHXEUXM_20260106.0000.00_16.0_eea_ec1c40239a.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.207.0.VHXEUXM": {
 					"os": "OS2.0.207.0.VHXEUXM",
 					"android": "15.0",
 					"release": "2025-12-28",
 					"recovery": "flare_eea_global-ota_full-OS2.0.207.0.VHXEUXM-user-15.0-cb47ea1b6d.zip",
-					"fastboot": "flare_eea_global_images_OS2.0.207.0.VHXEUXM_20251219.0000.00_15.0_eea_45621fb6b3.tgz"
+					"fastboot": "flare_eea_global_images_OS2.0.207.0.VHXEUXM_20251219.0000.00_15.0_eea_45621fb6b3.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VHXEUXM": {
 					"os": "OS2.0.205.0.VHXEUXM",
 					"android": "15.0",
 					"release": "2025-11-07",
 					"recovery": "flare_eea_global-ota_full-OS2.0.205.0.VHXEUXM-user-15.0-cba72919c1.zip",
-					"fastboot": "flare_eea_global_images_OS2.0.205.0.VHXEUXM_20251024.0000.00_15.0_eea_ad1750acd3.tgz"
+					"fastboot": "flare_eea_global_images_OS2.0.205.0.VHXEUXM_20251024.0000.00_15.0_eea_ad1750acd3.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.203.0.VHXEUXM": {
 					"os": "OS2.0.203.0.VHXEUXM",
 					"android": "15.0",
 					"release": "2025-08-25",
 					"recovery": "flare_eea_global-ota_full-OS2.0.203.0.VHXEUXM-user-15.0-e09c9eec2c.zip",
-					"fastboot": "flare_eea_global_images_OS2.0.203.0.VHXEUXM_20250812.0000.00_15.0_eea_512c915afd.tgz"
+					"fastboot": "flare_eea_global_images_OS2.0.203.0.VHXEUXM_20250812.0000.00_15.0_eea_512c915afd.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VHXEUXM": {
 					"os": "OS2.0.201.0.VHXEUXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "flare_eea_global-ota_full-OS2.0.201.0.VHXEUXM-user-15.0-97d5251635.zip",
-					"fastboot": "flare_eea_global_images_OS2.0.201.0.VHXEUXM_20250618.0000.00_15.0_eea_dd124c4f3b.tgz"
+					"fastboot": "flare_eea_global_images_OS2.0.201.0.VHXEUXM_20250618.0000.00_15.0_eea_dd124c4f3b.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VHXEUXM": {
 					"os": "OS2.0.3.0.VHXEUXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "flare_eea_global-ota_full-OS2.0.3.0.VHXEUXM-user-15.0-1f0dac307a.zip",
-					"fastboot": "flare_eea_global_images_OS2.0.3.0.VHXEUXM_20250422.0000.00_15.0_eea_7128371299.tgz"
+					"fastboot": "flare_eea_global_images_OS2.0.3.0.VHXEUXM_20250422.0000.00_15.0_eea_7128371299.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.2.0.VHXEUXM": {
 					"os": "OS2.0.2.0.VHXEUXM",
 					"android": "15.0",
 					"release": "2025-03-04",
 					"recovery": "flare_eea_global-ota_full-OS2.0.2.0.VHXEUXM-user-15.0-0e735aa55d.zip",
-					"fastboot": "flare_eea_global_images_OS2.0.2.0.VHXEUXM_20250219.0000.00_15.0_eea_54d66b1b11.tgz"
+					"fastboot": "flare_eea_global_images_OS2.0.2.0.VHXEUXM_20250219.0000.00_15.0_eea_54d66b1b11.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UHXEUXM": {
 					"os": "OS1.0.6.0.UHXEUXM",
 					"android": "14.0",
 					"release": "2025-01-06",
 					"recovery": "miui_FLAREEEAGlobal_OS1.0.6.0.UHXEUXM_42b4380546_14.0.zip",
-					"fastboot": "flare_eea_global_images_OS1.0.6.0.UHXEUXM_20241212.0000.00_14.0_eea_563ed8ddb8.tgz"
+					"fastboot": "flare_eea_global_images_OS1.0.6.0.UHXEUXM_20241212.0000.00_14.0_eea_563ed8ddb8.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UHXEUXM": {
 					"os": "OS1.0.5.0.UHXEUXM",
 					"android": "14.0",
 					"release": "2024-11-27",
 					"recovery": "miui_FLAREEEAGlobal_OS1.0.5.0.UHXEUXM_d3998ab7c6_14.0.zip",
-					"fastboot": "flare_eea_global_images_OS1.0.5.0.UHXEUXM_20241111.0000.00_14.0_eea_c7c4d83517.tgz"
+					"fastboot": "flare_eea_global_images_OS1.0.5.0.UHXEUXM_20241111.0000.00_14.0_eea_c7c4d83517.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.4.0.UHXEUXM": {
 					"os": "OS1.0.4.0.UHXEUXM",
 					"android": "14.0",
 					"release": "2024-09-19",
 					"recovery": "miui_FLAREEEAGlobal_OS1.0.4.0.UHXEUXM_8f997cd9d0_14.0.zip",
-					"fastboot": "flare_eea_global_images_OS1.0.4.0.UHXEUXM_20240909.0000.00_14.0_eea_ecd179cbbc.tgz"
+					"fastboot": "flare_eea_global_images_OS1.0.4.0.UHXEUXM_20240909.0000.00_14.0_eea_ecd179cbbc.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UHXEUXM": {
 					"os": "OS1.0.3.0.UHXEUXM",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_FLAREEEAGlobal_OS1.0.3.0.UHXEUXM_497ec4a320_14.0.zip",
-					"fastboot": "flare_eea_global_images_OS1.0.3.0.UHXEUXM_20240802.0000.00_14.0_eea_4c54770676.tgz"
+					"fastboot": "flare_eea_global_images_OS1.0.3.0.UHXEUXM_20240802.0000.00_14.0_eea_4c54770676.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UHXEUXM": {
 					"os": "OS1.0.1.0.UHXEUXM",
 					"android": "14.0",
 					"release": "2024-08-27",
 					"recovery": "miui_FLAREEEAGlobal_OS1.0.1.0.UHXEUXM_bb1972afcb_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -368,6 +405,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -384,28 +422,32 @@
 					"android": "16.0",
 					"release": "2026-03-14",
 					"recovery": "flare_ru_global-ota_full-OS3.0.1.0.WHXRUXM-user-16.0-0ebc6ce400.zip",
-					"fastboot": "flare_ru_global_images_OS3.0.1.0.WHXRUXM_20260227.0000.00_16.0_ru_327ab9eadf.tgz"
+					"fastboot": "flare_ru_global_images_OS3.0.1.0.WHXRUXM_20260227.0000.00_16.0_ru_327ab9eadf.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.2.0.VHXRUXM": {
 					"os": "OS2.0.2.0.VHXRUXM",
 					"android": "15.0",
 					"release": "2025-03-18",
 					"recovery": "flare_ru_global-ota_full-OS2.0.2.0.VHXRUXM-user-15.0-808785eb15.zip",
-					"fastboot": "flare_ru_global_images_OS2.0.2.0.VHXRUXM_20250311.0000.00_15.0_ru_c480df7212.tgz"
+					"fastboot": "flare_ru_global_images_OS2.0.2.0.VHXRUXM_20250311.0000.00_15.0_ru_c480df7212.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.4.0.UHXRUXM": {
 					"os": "OS1.0.4.0.UHXRUXM",
 					"android": "14.0",
 					"release": "2024-11-22",
 					"recovery": "miui_FLARERUGlobal_OS1.0.4.0.UHXRUXM_a7473fc799_14.0.zip",
-					"fastboot": "flare_ru_global_images_OS1.0.4.0.UHXRUXM_20241115.0000.00_14.0_ru_7176b7a24e.tgz"
+					"fastboot": "flare_ru_global_images_OS1.0.4.0.UHXRUXM_20241115.0000.00_14.0_ru_7176b7a24e.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UHXRUXM": {
 					"os": "OS1.0.3.0.UHXRUXM",
 					"android": "14.0",
 					"release": "2024-10-08",
 					"recovery": "miui_FLARERUGlobal_OS1.0.3.0.UHXRUXM_a201617904_14.0.zip",
-					"fastboot": "flare_ru_global_images_OS1.0.3.0.UHXRUXM_20240918.0000.00_14.0_ru_48450bc74f.tgz"
+					"fastboot": "flare_ru_global_images_OS1.0.3.0.UHXRUXM_20240918.0000.00_14.0_ru_48450bc74f.tgz",
+					"aspatch": "2024-09-01"
 				}
 			}
 		},
@@ -427,6 +469,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -443,35 +486,40 @@
 					"android": "16.0",
 					"release": "2026-04-23",
 					"recovery": "flare_id_global-ota_full-OS3.0.1.0.WHXIDXM-user-16.0-402a0a953a.zip",
-					"fastboot": "flare_id_global_images_OS3.0.1.0.WHXIDXM_20260408.0000.00_16.0_id_4df0d6ba71.tgz"
+					"fastboot": "flare_id_global_images_OS3.0.1.0.WHXIDXM_20260408.0000.00_16.0_id_4df0d6ba71.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.203.0.VHXIDXM": {
 					"os": "OS2.0.203.0.VHXIDXM",
 					"android": "15.0",
 					"release": "2026-01-27",
 					"recovery": "flare_id_global-ota_full-OS2.0.203.0.VHXIDXM-user-15.0-a80691c3cd.zip",
-					"fastboot": "flare_id_global_images_OS2.0.203.0.VHXIDXM_20260115.0000.00_15.0_id_e26f6aa088.tgz"
+					"fastboot": "flare_id_global_images_OS2.0.203.0.VHXIDXM_20260115.0000.00_15.0_id_e26f6aa088.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.202.0.VHXIDXM": {
 					"os": "OS2.0.202.0.VHXIDXM",
 					"android": "15.0",
 					"release": "2025-11-21",
 					"recovery": "flare_id_global-ota_full-OS2.0.202.0.VHXIDXM-user-15.0-a2f81fa335.zip",
-					"fastboot": "flare_id_global_images_OS2.0.202.0.VHXIDXM_20251030.0000.00_15.0_id_0f4b319cda.tgz"
+					"fastboot": "flare_id_global_images_OS2.0.202.0.VHXIDXM_20251030.0000.00_15.0_id_0f4b319cda.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VHXIDXM": {
 					"os": "OS2.0.201.0.VHXIDXM",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "flare_id_global-ota_full-OS2.0.201.0.VHXIDXM-user-15.0-965915084d.zip",
-					"fastboot": "flare_id_global_images_OS2.0.201.0.VHXIDXM_20250828.0000.00_15.0_id_d635d684ac.tgz"
+					"fastboot": "flare_id_global_images_OS2.0.201.0.VHXIDXM_20250828.0000.00_15.0_id_d635d684ac.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS1.0.3.0.UHXIDXM": {
 					"os": "OS1.0.3.0.UHXIDXM",
 					"android": "14.0",
 					"release": "2025-04-30",
 					"recovery": "miui_FLAREIDGlobal_OS1.0.3.0.UHXIDXM_2ebca9629d_14.0.zip",
-					"fastboot": "flare_id_global_images_OS1.0.3.0.UHXIDXM_20250422.0000.00_14.0_id_7810157805.tgz"
+					"fastboot": "flare_id_global_images_OS1.0.3.0.UHXIDXM_20250422.0000.00_14.0_id_7810157805.tgz",
+					"aspatch": "2025-04-01"
 				}
 			}
 		},
@@ -493,6 +541,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -509,49 +558,56 @@
 					"android": "16.0",
 					"release": "2026-04-23",
 					"recovery": "flare_tr_global-ota_full-OS3.0.1.0.WHXTRXM-user-16.0-b53604a568.zip",
-					"fastboot": "flare_tr_global_images_OS3.0.1.0.WHXTRXM_20260408.0000.00_16.0_tr_8cfeea0e02.tgz"
+					"fastboot": "flare_tr_global_images_OS3.0.1.0.WHXTRXM_20260408.0000.00_16.0_tr_8cfeea0e02.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.203.0.VHXTRXM": {
 					"os": "OS2.0.203.0.VHXTRXM",
 					"android": "15.0",
 					"release": "2026-01-29",
 					"recovery": "flare_tr_global-ota_full-OS2.0.203.0.VHXTRXM-user-15.0-a4bfccd119.zip",
-					"fastboot": "flare_tr_global_images_OS2.0.203.0.VHXTRXM_20260115.0000.00_15.0_tr_c8618fc7e1.tgz"
+					"fastboot": "flare_tr_global_images_OS2.0.203.0.VHXTRXM_20260115.0000.00_15.0_tr_c8618fc7e1.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.202.0.VHXTRXM": {
 					"os": "OS2.0.202.0.VHXTRXM",
 					"android": "15.0",
 					"release": "2025-09-25",
 					"recovery": "flare_tr_global-ota_full-OS2.0.202.0.VHXTRXM-user-15.0-2d15e11899.zip",
-					"fastboot": "flare_tr_global_images_OS2.0.202.0.VHXTRXM_20250917.0000.00_15.0_tr_6258f65cdc.tgz"
+					"fastboot": "flare_tr_global_images_OS2.0.202.0.VHXTRXM_20250917.0000.00_15.0_tr_6258f65cdc.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.1.0.VHXTRXM": {
 					"os": "OS2.0.1.0.VHXTRXM",
 					"android": "15.0",
 					"release": "2025-04-15",
 					"recovery": "flare_tr_global-ota_full-OS2.0.1.0.VHXTRXM-user-15.0-58645e2102.zip",
-					"fastboot": "flare_tr_global_images_OS2.0.1.0.VHXTRXM_20250403.0000.00_15.0_tr_34942bf021.tgz"
+					"fastboot": "flare_tr_global_images_OS2.0.1.0.VHXTRXM_20250403.0000.00_15.0_tr_34942bf021.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.5.0.UHXTRXM": {
 					"os": "OS1.0.5.0.UHXTRXM",
 					"android": "14.0",
 					"release": "2024-12-31",
 					"recovery": "miui_FLARETRGlobal_OS1.0.5.0.UHXTRXM_50aa29a6dc_14.0.zip",
-					"fastboot": "flare_tr_global_images_OS1.0.5.0.UHXTRXM_20241219.0000.00_14.0_tr_90fba9b718.tgz"
+					"fastboot": "flare_tr_global_images_OS1.0.5.0.UHXTRXM_20241219.0000.00_14.0_tr_90fba9b718.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.4.0.UHXTRXM": {
 					"os": "OS1.0.4.0.UHXTRXM",
 					"android": "14.0",
 					"release": "2024-11-29",
 					"recovery": "miui_FLARETRGlobal_OS1.0.4.0.UHXTRXM_97534a70d7_14.0.zip",
-					"fastboot": "flare_tr_global_images_OS1.0.4.0.UHXTRXM_20241121.0000.00_14.0_tr_0b73df7e84.tgz"
+					"fastboot": "flare_tr_global_images_OS1.0.4.0.UHXTRXM_20241121.0000.00_14.0_tr_0b73df7e84.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UHXTRXM": {
 					"os": "OS1.0.3.0.UHXTRXM",
 					"android": "14.0",
 					"release": "2024-10-15",
 					"recovery": "miui_FLARETRGlobal_OS1.0.3.0.UHXTRXM_4316d35d54_14.0.zip",
-					"fastboot": "flare_tr_global_images_OS1.0.3.0.UHXTRXM_20240926.0000.00_14.0_tr_766f73f343.tgz"
+					"fastboot": "flare_tr_global_images_OS1.0.3.0.UHXTRXM_20240926.0000.00_14.0_tr_766f73f343.tgz",
+					"aspatch": "2024-09-01"
 				}
 			}
 		}

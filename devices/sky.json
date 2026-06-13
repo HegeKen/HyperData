@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -56,7 +57,8 @@
 					"release": "2025-09-18",
 					"recovery": "sky-ota_full-OS2.0.205.0.VMWCNXM-user-15.0-ba20d7e1c3.zip",
 					"fastboot": "sky_images_OS2.0.205.0.VMWCNXM_20250905.0000.00_15.0_cn_57b1368739.tgz",
-					"ctelecom": "sky_images_OS2.0.205.0.VMWCNXM_20250905.0000.00_15.0_cn_chinatelecom_efbcdbf3ef.tgz"
+					"ctelecom": "sky_images_OS2.0.205.0.VMWCNXM_20250905.0000.00_15.0_cn_chinatelecom_efbcdbf3ef.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VMWCNXM": {
 					"os": "OS2.0.204.0.VMWCNXM",
@@ -64,7 +66,8 @@
 					"release": "2025-07-22",
 					"recovery": "sky-ota_full-OS2.0.204.0.VMWCNXM-user-15.0-5b8f723fe7.zip",
 					"fastboot": "sky_images_OS2.0.204.0.VMWCNXM_20250716.0000.00_15.0_cn_ec8f9b3674.tgz",
-					"ctelecom": "sky_images_OS2.0.204.0.VMWCNXM_20250716.0000.00_15.0_cn_chinatelecom_f603e4c755.tgz"
+					"ctelecom": "sky_images_OS2.0.204.0.VMWCNXM_20250716.0000.00_15.0_cn_chinatelecom_f603e4c755.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.4.0.VMWCNXM": {
 					"os": "OS2.0.4.0.VMWCNXM",
@@ -72,7 +75,8 @@
 					"release": "2025-05-30",
 					"recovery": "sky-ota_full-OS2.0.4.0.VMWCNXM-user-15.0-eb4c395223.zip",
 					"fastboot": "sky_images_OS2.0.4.0.VMWCNXM_20250514.0000.00_15.0_cn_336b9f9091.tgz",
-					"ctelecom": "sky_images_OS2.0.4.0.VMWCNXM_20250514.0000.00_15.0_cn_chinatelecom_2f2a300429.tgz"
+					"ctelecom": "sky_images_OS2.0.4.0.VMWCNXM_20250514.0000.00_15.0_cn_chinatelecom_2f2a300429.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.2.0.VMWCNXM": {
 					"os": "OS2.0.2.0.VMWCNXM",
@@ -80,7 +84,8 @@
 					"release": "2025-02-15",
 					"recovery": "sky-ota_full-OS2.0.2.0.VMWCNXM-user-15.0-eeb8a4da80.zip",
 					"fastboot": "sky_images_OS2.0.2.0.VMWCNXM_20250212.0000.00_15.0_cn_83d88e548d.tgz",
-					"ctelecom": "sky_images_OS2.0.2.0.VMWCNXM_20250212.0000.00_15.0_cn_chinatelecom_c0fe07b1dc.tgz"
+					"ctelecom": "sky_images_OS2.0.2.0.VMWCNXM_20250212.0000.00_15.0_cn_chinatelecom_c0fe07b1dc.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.UMWCNXM": {
 					"os": "OS1.0.10.0.UMWCNXM",
@@ -88,7 +93,8 @@
 					"release": "2024-10-30",
 					"recovery": "miui_SKY_OS1.0.10.0.UMWCNXM_4931ef9f78_14.0.zip",
 					"fastboot": "sky_images_OS1.0.10.0.UMWCNXM_20241017.0000.00_14.0_cn_df19540382.tgz",
-					"ctelecom": "sky_images_OS1.0.10.0.UMWCNXM_20241017.0000.00_14.0_cn_chinatelecom_749f22d3ec.tgz"
+					"ctelecom": "sky_images_OS1.0.10.0.UMWCNXM_20241017.0000.00_14.0_cn_chinatelecom_749f22d3ec.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UMWCNXM": {
 					"os": "OS1.0.9.0.UMWCNXM",
@@ -96,7 +102,8 @@
 					"release": "2024-07-31",
 					"recovery": "miui_SKY_OS1.0.9.0.UMWCNXM_bc66cf0589_14.0.zip",
 					"fastboot": "sky_images_OS1.0.9.0.UMWCNXM_20240726.0000.00_14.0_cn_fb3c017f81.tgz",
-					"ctelecom": "sky_images_OS1.0.9.0.UMWCNXM_20240726.0000.00_14.0_cn_chinatelecom_e702e38d38.tgz"
+					"ctelecom": "sky_images_OS1.0.9.0.UMWCNXM_20240726.0000.00_14.0_cn_chinatelecom_e702e38d38.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.6.0.UMWCNXM": {
 					"os": "OS1.0.6.0.UMWCNXM",
@@ -104,7 +111,8 @@
 					"release": "2024-06-26",
 					"recovery": "miui_SKY_OS1.0.6.0.UMWCNXM_e78444c735_14.0.zip",
 					"fastboot": "sky_images_OS1.0.6.0.UMWCNXM_20240612.0000.00_14.0_cn_837ef52116.tgz",
-					"ctelecom": "sky_images_OS1.0.6.0.UMWCNXM_20240612.0000.00_14.0_cn_chinatelecom_02cccbcd03.tgz"
+					"ctelecom": "sky_images_OS1.0.6.0.UMWCNXM_20240612.0000.00_14.0_cn_chinatelecom_02cccbcd03.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.5.0.UMWCNXM": {
 					"os": "OS1.0.5.0.UMWCNXM",
@@ -112,7 +120,8 @@
 					"release": "2024-01-03",
 					"recovery": "miui_SKY_OS1.0.5.0.UMWCNXM_eeb6f6c209_14.0.zip",
 					"fastboot": "sky_images_OS1.0.5.0.UMWCNXM_20231225.0000.00_14.0_cn_a459120762.tgz",
-					"ctelecom": "sky_images_OS1.0.5.0.UMWCNXM_20231225.0000.00_14.0_cn_chinatelecom_7c7a75b462.tgz"
+					"ctelecom": "sky_images_OS1.0.5.0.UMWCNXM_20231225.0000.00_14.0_cn_chinatelecom_7c7a75b462.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -134,6 +143,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -155,7 +165,8 @@
 					"release": "2024-03-18",
 					"recovery": "miui_SKYEPSTDEE_OS1.0.24.2.20.EP.STDEE.M19_b88b9a0dd3_14.0.zip",
 					"fastboot": "sky_ep_stdee_images_OS1.0.24.2.20.EP.STDEE.M19_20240220.0000.00_14.0_cn_188749d2cf.tgz",
-					"ctelecom": "sky_ep_stdee_images_OS1.0.24.2.20.EP.STDEE.M19_20240220.0000.00_14.0_cn_chinatelecom_756907675b.tgz"
+					"ctelecom": "sky_ep_stdee_images_OS1.0.24.2.20.EP.STDEE.M19_20240220.0000.00_14.0_cn_chinatelecom_756907675b.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -177,6 +188,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -193,49 +205,56 @@
 					"android": "15.0",
 					"release": "2026-06-02",
 					"recovery": "sky_tw_global-ota_full-OS2.0.207.0.VMWTWXM-user-15.0-582412c845.zip",
-					"fastboot": "sky_tw_global_images_OS2.0.207.0.VMWTWXM_20260508.0000.00_15.0_tw_edd749a621.tgz"
+					"fastboot": "sky_tw_global_images_OS2.0.207.0.VMWTWXM_20260508.0000.00_15.0_tw_edd749a621.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.206.0.VMWTWXM": {
 					"os": "OS2.0.206.0.VMWTWXM",
 					"android": "15.0",
 					"release": "2025-11-04",
 					"recovery": "sky_tw_global-ota_full-OS2.0.206.0.VMWTWXM-user-15.0-58c4c36ed7.zip",
-					"fastboot": "sky_tw_global_images_OS2.0.206.0.VMWTWXM_20251016.0000.00_15.0_tw_816a127aba.tgz"
+					"fastboot": "sky_tw_global_images_OS2.0.206.0.VMWTWXM_20251016.0000.00_15.0_tw_816a127aba.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.3.0.VMWTWXM": {
 					"os": "OS2.0.3.0.VMWTWXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "sky_tw_global-ota_full-OS2.0.3.0.VMWTWXM-user-15.0-69cc3ccbf5.zip",
-					"fastboot": "sky_tw_global_images_OS2.0.3.0.VMWTWXM_20250312.0000.00_15.0_tw_62ca9c280f.tgz"
+					"fastboot": "sky_tw_global_images_OS2.0.3.0.VMWTWXM_20250312.0000.00_15.0_tw_62ca9c280f.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VMWTWXM": {
 					"os": "OS2.0.2.0.VMWTWXM",
 					"android": "15.0",
 					"release": "2025-01-10",
 					"recovery": "sky_tw_global-ota_full-OS2.0.2.0.VMWTWXM-user-15.0-193a3683e7.zip",
-					"fastboot": "sky_tw_global_images_OS2.0.2.0.VMWTWXM_20241220.0000.00_15.0_tw_ec9f4828cb.tgz"
+					"fastboot": "sky_tw_global_images_OS2.0.2.0.VMWTWXM_20241220.0000.00_15.0_tw_ec9f4828cb.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.5.0.UMWTWXM": {
 					"os": "OS1.0.5.0.UMWTWXM",
 					"android": "14.0",
 					"release": "2024-11-18",
 					"recovery": "miui_SKYTWGlobal_OS1.0.5.0.UMWTWXM_40b6870ddd_14.0.zip",
-					"fastboot": "sky_tw_global_images_OS1.0.5.0.UMWTWXM_20241024.0000.00_14.0_tw_438c5fbef4.tgz"
+					"fastboot": "sky_tw_global_images_OS1.0.5.0.UMWTWXM_20241024.0000.00_14.0_tw_438c5fbef4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UMWTWXM": {
 					"os": "OS1.0.4.0.UMWTWXM",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_SKYTWGlobal_OS1.0.4.0.UMWTWXM_ae48b419c6_14.0.zip",
-					"fastboot": "sky_tw_global_images_OS1.0.4.0.UMWTWXM_20240612.0000.00_14.0_tw_5f7008418e.tgz"
+					"fastboot": "sky_tw_global_images_OS1.0.4.0.UMWTWXM_20240612.0000.00_14.0_tw_5f7008418e.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.UMWTWXM": {
 					"os": "OS1.0.3.0.UMWTWXM",
 					"android": "14.0",
 					"release": "2024-03-05",
 					"recovery": "miui_SKYTWGlobal_OS1.0.3.0.UMWTWXM_4d6e2380dd_14.0.zip",
-					"fastboot": "sky_tw_global_images_OS1.0.3.0.UMWTWXM_20240227.0000.00_14.0_tw_e0bac9b3b6.tgz"
+					"fastboot": "sky_tw_global_images_OS1.0.3.0.UMWTWXM_20240227.0000.00_14.0_tw_e0bac9b3b6.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -257,6 +276,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -273,105 +293,120 @@
 					"android": "15.0",
 					"release": "2026-05-06",
 					"recovery": "sky_global-ota_full-OS2.0.208.0.VMWMIXM-user-15.0-34d74acb5e.zip",
-					"fastboot": "sky_global_images_OS2.0.208.0.VMWMIXM_20260423.0000.00_15.0_global_7c416aaefd.tgz"
+					"fastboot": "sky_global_images_OS2.0.208.0.VMWMIXM_20260423.0000.00_15.0_global_7c416aaefd.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.207.0.VMWMIXM": {
 					"os": "OS2.0.207.0.VMWMIXM",
 					"android": "15.0",
 					"release": "2026-03-09",
 					"recovery": "sky_global-ota_full-OS2.0.207.0.VMWMIXM-user-15.0-17027c0dcf.zip",
-					"fastboot": "sky_global_images_OS2.0.207.0.VMWMIXM_20260209.0000.00_15.0_global_4a23671bf9.tgz"
+					"fastboot": "sky_global_images_OS2.0.207.0.VMWMIXM_20260209.0000.00_15.0_global_4a23671bf9.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VMWMIXM": {
 					"os": "OS2.0.206.0.VMWMIXM",
 					"android": "15.0",
 					"release": "2025-12-31",
 					"recovery": "sky_global-ota_full-OS2.0.206.0.VMWMIXM-user-15.0-21c8a345cf.zip",
-					"fastboot": "sky_global_images_OS2.0.206.0.VMWMIXM_20251223.0000.00_15.0_global_7f60c20643.tgz"
+					"fastboot": "sky_global_images_OS2.0.206.0.VMWMIXM_20251223.0000.00_15.0_global_7f60c20643.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VMWMIXM": {
 					"os": "OS2.0.205.0.VMWMIXM",
 					"android": "15.0",
 					"release": "2025-11-04",
 					"recovery": "sky_global-ota_full-OS2.0.205.0.VMWMIXM-user-15.0-1ca2e27277.zip",
-					"fastboot": "sky_global_images_OS2.0.205.0.VMWMIXM_20251024.0000.00_15.0_global_7ada7e8676.tgz"
+					"fastboot": "sky_global_images_OS2.0.205.0.VMWMIXM_20251024.0000.00_15.0_global_7ada7e8676.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.204.0.VMWMIXM": {
 					"os": "OS2.0.204.0.VMWMIXM",
 					"android": "15.0",
 					"release": "2025-09-03",
 					"recovery": "sky_global-ota_full-OS2.0.204.0.VMWMIXM-user-15.0-cbe4ca7c4c.zip",
-					"fastboot": "sky_global_images_OS2.0.204.0.VMWMIXM_20250819.0000.00_15.0_global_c783634d46.tgz"
+					"fastboot": "sky_global_images_OS2.0.204.0.VMWMIXM_20250819.0000.00_15.0_global_c783634d46.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.9.0.VMWMIXM": {
 					"os": "OS2.0.9.0.VMWMIXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "sky_global-ota_full-OS2.0.9.0.VMWMIXM-user-15.0-60b0ee9770.zip",
-					"fastboot": "sky_global_images_OS2.0.9.0.VMWMIXM_20250530.0000.00_15.0_global_3334591f85.tgz"
+					"fastboot": "sky_global_images_OS2.0.9.0.VMWMIXM_20250530.0000.00_15.0_global_3334591f85.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.8.0.VMWMIXM": {
 					"os": "OS2.0.8.0.VMWMIXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "sky_global-ota_full-OS2.0.8.0.VMWMIXM-user-15.0-a3874bf09e.zip",
-					"fastboot": "sky_global_images_OS2.0.8.0.VMWMIXM_20250418.0000.00_15.0_global_af8ee4cfb9.tgz"
+					"fastboot": "sky_global_images_OS2.0.8.0.VMWMIXM_20250418.0000.00_15.0_global_af8ee4cfb9.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.4.0.VMWMIXM": {
 					"os": "OS2.0.4.0.VMWMIXM",
 					"android": "15.0",
 					"release": "2025-03-07",
 					"recovery": "sky_global-ota_full-OS2.0.4.0.VMWMIXM-user-15.0-ea8721c043.zip",
-					"fastboot": "sky_global_images_OS2.0.4.0.VMWMIXM_20250224.0000.00_15.0_global_73e076270e.tgz"
+					"fastboot": "sky_global_images_OS2.0.4.0.VMWMIXM_20250224.0000.00_15.0_global_73e076270e.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VMWMIXM": {
 					"os": "OS2.0.3.0.VMWMIXM",
 					"android": "15.0",
 					"release": "2024-12-30",
 					"recovery": "sky_global-ota_full-OS2.0.3.0.VMWMIXM-user-15.0-41bf410c94.zip",
-					"fastboot": "sky_global_images_OS2.0.3.0.VMWMIXM_20241220.0000.00_15.0_global_99f270095a.tgz"
+					"fastboot": "sky_global_images_OS2.0.3.0.VMWMIXM_20241220.0000.00_15.0_global_99f270095a.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.11.0.UMWMIXM": {
 					"os": "OS1.0.11.0.UMWMIXM",
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_SKYGlobal_OS1.0.11.0.UMWMIXM_e72055f099_14.0.zip",
-					"fastboot": "sky_global_images_OS1.0.11.0.UMWMIXM_20241011.0000.00_14.0_global_949b5e89f4.tgz"
+					"fastboot": "sky_global_images_OS1.0.11.0.UMWMIXM_20241011.0000.00_14.0_global_949b5e89f4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UMWMIXM": {
 					"os": "OS1.0.9.0.UMWMIXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_SKYGlobal_OS1.0.9.0.UMWMIXM_9b55322953_14.0.zip",
-					"fastboot": "sky_global_images_OS1.0.9.0.UMWMIXM_20240910.0000.00_14.0_global_bc827a0d30.tgz"
+					"fastboot": "sky_global_images_OS1.0.9.0.UMWMIXM_20240910.0000.00_14.0_global_bc827a0d30.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UMWMIXM": {
 					"os": "OS1.0.6.0.UMWMIXM",
 					"android": "14.0",
 					"release": "2024-08-09",
 					"recovery": "miui_SKYGlobal_OS1.0.6.0.UMWMIXM_bd1a6d34b1_14.0.zip",
-					"fastboot": "sky_global_images_OS1.0.6.0.UMWMIXM_20240711.0000.00_14.0_global_82a03bd5f1.tgz"
+					"fastboot": "sky_global_images_OS1.0.6.0.UMWMIXM_20240711.0000.00_14.0_global_82a03bd5f1.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.5.0.UMWMIXM": {
 					"os": "OS1.0.5.0.UMWMIXM",
 					"android": "14.0",
 					"release": "2024-06-11",
 					"recovery": "miui_SKYGlobal_OS1.0.5.0.UMWMIXM_82e7589f64_14.0.zip",
-					"fastboot": "sky_global_images_OS1.0.5.0.UMWMIXM_20240522.0000.00_14.0_global_04c6d3e39d.tgz"
+					"fastboot": "sky_global_images_OS1.0.5.0.UMWMIXM_20240522.0000.00_14.0_global_04c6d3e39d.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.4.0.UMWMIXM": {
 					"os": "OS1.0.4.0.UMWMIXM",
 					"android": "14.0",
 					"release": "2024-03-26",
 					"recovery": "miui_SKYGlobal_OS1.0.4.0.UMWMIXM_60e134c5d5_14.0.zip",
-					"fastboot": "sky_global_images_OS1.0.4.0.UMWMIXM_20240312.0000.00_14.0_global_b6d56c3b5e.tgz"
+					"fastboot": "sky_global_images_OS1.0.4.0.UMWMIXM_20240312.0000.00_14.0_global_b6d56c3b5e.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.3.0.UMWMIXM": {
 					"os": "OS1.0.3.0.UMWMIXM",
 					"android": "14.0",
 					"release": "2024-01-27",
 					"recovery": "miui_SKYGlobal_OS1.0.3.0.UMWMIXM_1e2037e27c_14.0.zip",
-					"fastboot": "sky_global_images_OS1.0.3.0.UMWMIXM_20240123.0000.00_14.0_global_75a1e60485.tgz"
+					"fastboot": "sky_global_images_OS1.0.3.0.UMWMIXM_20240123.0000.00_14.0_global_75a1e60485.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -393,6 +428,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -409,63 +445,72 @@
 					"android": "15.0",
 					"release": "2026-05-07",
 					"recovery": "sky_dc_global-ota_full-OS2.0.207.0.VMWMIDC-user-15.0-5fd8a50833.zip",
-					"fastboot": "sky_dc_global_images_OS2.0.207.0.VMWMIDC_20260427.0000.00_15.0_global_dc_68ff45e83f.tgz"
+					"fastboot": "sky_dc_global_images_OS2.0.207.0.VMWMIDC_20260427.0000.00_15.0_global_dc_68ff45e83f.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.205.0.VMWMIDC": {
 					"os": "OS2.0.205.0.VMWMIDC",
 					"android": "15.0",
 					"release": "2026-03-23",
 					"recovery": "sky_dc_global-ota_full-OS2.0.205.0.VMWMIDC-user-15.0-1037060c8c.zip",
-					"fastboot": "sky_dc_global_images_OS2.0.205.0.VMWMIDC_20260205.0000.00_15.0_global_dc_29ddcc8426.tgz"
+					"fastboot": "sky_dc_global_images_OS2.0.205.0.VMWMIDC_20260205.0000.00_15.0_global_dc_29ddcc8426.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.204.0.VMWMIDC": {
 					"os": "OS2.0.204.0.VMWMIDC",
 					"android": "15.0",
 					"release": "2026-01-28",
 					"recovery": "sky_dc_global-ota_full-OS2.0.204.0.VMWMIDC-user-15.0-f70e2ba0bd.zip",
-					"fastboot": "sky_dc_global_images_OS2.0.204.0.VMWMIDC_20260104.0000.00_15.0_global_dc_8ab6592b72.tgz"
+					"fastboot": "sky_dc_global_images_OS2.0.204.0.VMWMIDC_20260104.0000.00_15.0_global_dc_8ab6592b72.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.203.0.VMWMIDC": {
 					"os": "OS2.0.203.0.VMWMIDC",
 					"android": "15.0",
 					"release": "2025-10-29",
 					"recovery": "sky_dc_global-ota_full-OS2.0.203.0.VMWMIDC-user-15.0-ec8c8e698d.zip",
-					"fastboot": "sky_dc_global_images_OS2.0.203.0.VMWMIDC_20251017.0000.00_15.0_global_dc_03d0d53af1.tgz"
+					"fastboot": "sky_dc_global_images_OS2.0.203.0.VMWMIDC_20251017.0000.00_15.0_global_dc_03d0d53af1.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VMWMIDC": {
 					"os": "OS2.0.202.0.VMWMIDC",
 					"android": "15.0",
 					"release": "2025-09-05",
 					"recovery": "sky_dc_global-ota_full-OS2.0.202.0.VMWMIDC-user-15.0-38a1fba371.zip",
-					"fastboot": "sky_dc_global_images_OS2.0.202.0.VMWMIDC_20250827.0000.00_15.0_global_dc_e1c73ce317.tgz"
+					"fastboot": "sky_dc_global_images_OS2.0.202.0.VMWMIDC_20250827.0000.00_15.0_global_dc_e1c73ce317.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.5.0.VMWMIDC": {
 					"os": "OS2.0.5.0.VMWMIDC",
 					"android": "15.0",
 					"release": "2025-05-31",
 					"recovery": "sky_dc_global-ota_full-OS2.0.5.0.VMWMIDC-user-15.0-5d0c63e1cb.zip",
-					"fastboot": "sky_dc_global_images_OS2.0.5.0.VMWMIDC_20250522.0000.00_15.0_global_dc_f0da6d2a54.tgz"
+					"fastboot": "sky_dc_global_images_OS2.0.5.0.VMWMIDC_20250522.0000.00_15.0_global_dc_f0da6d2a54.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.3.0.VMWMIDC": {
 					"os": "OS2.0.3.0.VMWMIDC",
 					"android": "15.0",
 					"release": "2025-04-09",
 					"recovery": "sky_dc_global-ota_full-OS2.0.3.0.VMWMIDC-user-15.0-c0b87cae5d.zip",
-					"fastboot": "sky_dc_global_images_OS2.0.3.0.VMWMIDC_20250306.0000.00_15.0_global_dc_7aff351016.tgz"
+					"fastboot": "sky_dc_global_images_OS2.0.3.0.VMWMIDC_20250306.0000.00_15.0_global_dc_7aff351016.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VMWMIDC": {
 					"os": "OS2.0.2.0.VMWMIDC",
 					"android": "15.0",
 					"release": "2025-02-12",
 					"recovery": "sky_dc_global-ota_full-OS2.0.2.0.VMWMIDC-user-15.0-7bb36cf5a9.zip",
-					"fastboot": "sky_dc_global_images_OS2.0.2.0.VMWMIDC_20250124.0000.00_15.0_global_dc_2d0414887d.tgz"
+					"fastboot": "sky_dc_global_images_OS2.0.2.0.VMWMIDC_20250124.0000.00_15.0_global_dc_2d0414887d.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.3.0.UMWMIDC": {
 					"os": "OS1.0.3.0.UMWMIDC",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_SKYDCGlobal_OS1.0.3.0.UMWMIDC_10e39b6142_14.0.zip",
-					"fastboot": "sky_dc_global_images_OS1.0.3.0.UMWMIDC_20241024.0000.00_14.0_global_dc_748e89e8bf.tgz"
+					"fastboot": "sky_dc_global_images_OS1.0.3.0.UMWMIDC_20241024.0000.00_14.0_global_dc_748e89e8bf.tgz",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -487,6 +532,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -503,133 +549,152 @@
 					"android": "15.0",
 					"release": "2026-05-07",
 					"recovery": "sky_eea_global-ota_full-OS2.0.215.0.VMWEUXM-user-15.0-7df14b9940.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.215.0.VMWEUXM_20260427.0000.00_15.0_eea_db9036b8bb.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.215.0.VMWEUXM_20260427.0000.00_15.0_eea_db9036b8bb.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.213.0.VMWEUXM": {
 					"os": "OS2.0.213.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2026-03-23",
 					"recovery": "sky_eea_global-ota_full-OS2.0.213.0.VMWEUXM-user-15.0-c830f24a23.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.213.0.VMWEUXM_20260226.0000.00_15.0_eea_2f8bb9370d.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.213.0.VMWEUXM_20260226.0000.00_15.0_eea_2f8bb9370d.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.212.0.VMWEUXM": {
 					"os": "OS2.0.212.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2026-03-09",
 					"recovery": "sky_eea_global-ota_full-OS2.0.212.0.VMWEUXM-user-15.0-2fc09df1d6.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.212.0.VMWEUXM_20260206.0000.00_15.0_eea_1902fae063.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.212.0.VMWEUXM_20260206.0000.00_15.0_eea_1902fae063.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.211.0.VMWEUXM": {
 					"os": "OS2.0.211.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "sky_eea_global-ota_full-OS2.0.211.0.VMWEUXM-user-15.0-c181aae870.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.211.0.VMWEUXM_20251229.0000.00_15.0_eea_a2f4f67b49.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.211.0.VMWEUXM_20251229.0000.00_15.0_eea_a2f4f67b49.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.208.0.VMWEUXM": {
 					"os": "OS2.0.208.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2025-10-15",
 					"recovery": "sky_eea_global-ota_full-OS2.0.208.0.VMWEUXM-user-15.0-bd72d68310.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.208.0.VMWEUXM_20250928.0000.00_15.0_eea_ad012da3ba.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.208.0.VMWEUXM_20250928.0000.00_15.0_eea_ad012da3ba.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.207.0.VMWEUXM": {
 					"os": "OS2.0.207.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2025-09-08",
 					"recovery": "sky_eea_global-ota_full-OS2.0.207.0.VMWEUXM-user-15.0-671b9ee66f.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.207.0.VMWEUXM_20250826.0000.00_15.0_eea_35c5170d1c.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.207.0.VMWEUXM_20250826.0000.00_15.0_eea_35c5170d1c.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.206.0.VMWEUXM": {
 					"os": "OS2.0.206.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2025-07-26",
 					"recovery": "sky_eea_global-ota_full-OS2.0.206.0.VMWEUXM-user-15.0-231b8422df.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.206.0.VMWEUXM_20250717.0000.00_15.0_eea_e3547c7721.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.206.0.VMWEUXM_20250717.0000.00_15.0_eea_e3547c7721.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.9.0.VMWEUXM": {
 					"os": "OS2.0.9.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "sky_eea_global-ota_full-OS2.0.9.0.VMWEUXM-user-15.0-89ce298b4d.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.9.0.VMWEUXM_20250530.0000.00_15.0_eea_d11a5bb71d.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.9.0.VMWEUXM_20250530.0000.00_15.0_eea_d11a5bb71d.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.8.0.VMWEUXM": {
 					"os": "OS2.0.8.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "sky_eea_global-ota_full-OS2.0.8.0.VMWEUXM-user-15.0-8b95fdd89a.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.8.0.VMWEUXM_20250428.0000.00_15.0_eea_c3303bba57.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.8.0.VMWEUXM_20250428.0000.00_15.0_eea_c3303bba57.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.5.0.VMWEUXM": {
 					"os": "OS2.0.5.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2025-03-07",
 					"recovery": "sky_eea_global-ota_full-OS2.0.5.0.VMWEUXM-user-15.0-0c811cb5a7.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.5.0.VMWEUXM_20250224.0000.00_15.0_eea_20961e287f.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.5.0.VMWEUXM_20250224.0000.00_15.0_eea_20961e287f.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VMWEUXM": {
 					"os": "OS2.0.3.0.VMWEUXM",
 					"android": "15.0",
 					"release": "2025-01-13",
 					"recovery": "sky_eea_global-ota_full-OS2.0.3.0.VMWEUXM-user-15.0-c1694df2b3.zip",
-					"fastboot": "sky_eea_global_images_OS2.0.3.0.VMWEUXM_20241221.0000.00_15.0_eea_b7f3aebc2f.tgz"
+					"fastboot": "sky_eea_global_images_OS2.0.3.0.VMWEUXM_20241221.0000.00_15.0_eea_b7f3aebc2f.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.12.0.UMWEUXM": {
 					"os": "OS1.0.12.0.UMWEUXM",
 					"android": "14.0",
 					"release": "2024-12-30",
 					"recovery": "miui_SKYEEAGlobal_OS1.0.12.0.UMWEUXM_e168b99772_14.0.zip",
-					"fastboot": "sky_eea_global_images_OS1.0.12.0.UMWEUXM_20241216.0000.00_14.0_eea_1fd53ac02a.tgz"
+					"fastboot": "sky_eea_global_images_OS1.0.12.0.UMWEUXM_20241216.0000.00_14.0_eea_1fd53ac02a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UMWEUXM": {
 					"os": "OS1.0.10.0.UMWEUXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_SKYEEAGlobal_OS1.0.10.0.UMWEUXM_e192953101_14.0.zip",
-					"fastboot": "sky_eea_global_images_OS1.0.10.0.UMWEUXM_20241017.0000.00_14.0_eea_cbe0dc3c20.tgz"
+					"fastboot": "sky_eea_global_images_OS1.0.10.0.UMWEUXM_20241017.0000.00_14.0_eea_cbe0dc3c20.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UMWEUXM": {
 					"os": "OS1.0.9.0.UMWEUXM",
 					"android": "14.0",
 					"release": "2024-09-02",
 					"recovery": "miui_SKYEEAGlobal_OS1.0.9.0.UMWEUXM_e17800cf59_14.0.zip",
-					"fastboot": "sky_eea_global_images_OS1.0.9.0.UMWEUXM_20240816.0000.00_14.0_eea_774131c82d.tgz"
+					"fastboot": "sky_eea_global_images_OS1.0.9.0.UMWEUXM_20240816.0000.00_14.0_eea_774131c82d.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.7.0.UMWEUXM": {
 					"os": "OS1.0.7.0.UMWEUXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_SKYEEAGlobal_OS1.0.7.0.UMWEUXM_8363f98e38_14.0.zip",
-					"fastboot": "sky_eea_global_images_OS1.0.7.0.UMWEUXM_20240730.0000.00_14.0_eea_a5252bc907.tgz"
+					"fastboot": "sky_eea_global_images_OS1.0.7.0.UMWEUXM_20240730.0000.00_14.0_eea_a5252bc907.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.6.0.UMWEUXM": {
 					"os": "OS1.0.6.0.UMWEUXM",
 					"android": "14.0",
 					"release": "2024-06-24",
 					"recovery": "miui_SKYEEAGlobal_OS1.0.6.0.UMWEUXM_c9d338c1ec_14.0.zip",
-					"fastboot": "sky_eea_global_images_OS1.0.6.0.UMWEUXM_20240603.0000.00_14.0_eea_3338e45b34.tgz"
+					"fastboot": "sky_eea_global_images_OS1.0.6.0.UMWEUXM_20240603.0000.00_14.0_eea_3338e45b34.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.5.0.UMWEUXM": {
 					"os": "OS1.0.5.0.UMWEUXM",
 					"android": "14.0",
 					"release": "2024-04-28",
 					"recovery": "miui_SKYEEAGlobal_OS1.0.5.0.UMWEUXM_5a684b4f60_14.0.zip",
-					"fastboot": "sky_eea_global_images_OS1.0.5.0.UMWEUXM_20240419.0000.00_14.0_eea_cc6964ec27.tgz"
+					"fastboot": "sky_eea_global_images_OS1.0.5.0.UMWEUXM_20240419.0000.00_14.0_eea_cc6964ec27.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.2.0.UMWEUXM": {
 					"os": "OS1.0.2.0.UMWEUXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_SKYEEAGlobal_OS1.0.2.0.UMWEUXM_f9d9f4fcc0_14.0.zip",
-					"fastboot": "sky_eea_global_images_OS1.0.2.0.UMWEUXM_20240201.0000.00_14.0_eea_1af97f2690.tgz"
+					"fastboot": "sky_eea_global_images_OS1.0.2.0.UMWEUXM_20240201.0000.00_14.0_eea_1af97f2690.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.1.0.UMWEUXM": {
 					"os": "OS1.0.1.0.UMWEUXM",
 					"android": "14.0",
 					"release": "2024-02-01",
 					"recovery": "miui_SKYEEAGlobal_OS1.0.1.0.UMWEUXM_8980955ac9_14.0.zip",
-					"fastboot": "sky_eea_global_images_OS1.0.1.0.UMWEUXM_20240124.0000.00_14.0_eea_5c2d1bd80b.tgz"
+					"fastboot": "sky_eea_global_images_OS1.0.1.0.UMWEUXM_20240124.0000.00_14.0_eea_5c2d1bd80b.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -651,6 +716,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -667,84 +733,96 @@
 					"android": "15.0",
 					"release": "2026-04-22",
 					"recovery": "sky_in_global-ota_full-OS2.0.202.0.VMWINXM-user-15.0-e58549ed93.zip",
-					"fastboot": "sky_in_global_images_OS2.0.202.0.VMWINXM_20260414.0000.00_15.0_in_ea95143bac.tgz"
+					"fastboot": "sky_in_global_images_OS2.0.202.0.VMWINXM_20260414.0000.00_15.0_in_ea95143bac.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.201.0.VMWINXM": {
 					"os": "OS2.0.201.0.VMWINXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "sky_in_global-ota_full-OS2.0.201.0.VMWINXM-user-15.0-213480bc39.zip",
-					"fastboot": "sky_in_global_images_OS2.0.201.0.VMWINXM_20250905.0000.00_15.0_in_13817edc15.tgz"
+					"fastboot": "sky_in_global_images_OS2.0.201.0.VMWINXM_20250905.0000.00_15.0_in_13817edc15.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.9.0.VMWINXM": {
 					"os": "OS2.0.9.0.VMWINXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "sky_in_global-ota_full-OS2.0.9.0.VMWINXM-user-15.0-8ead68c725.zip",
-					"fastboot": "sky_in_global_images_OS2.0.9.0.VMWINXM_20250530.0000.00_15.0_in_361dac278a.tgz"
+					"fastboot": "sky_in_global_images_OS2.0.9.0.VMWINXM_20250530.0000.00_15.0_in_361dac278a.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.8.0.VMWINXM": {
 					"os": "OS2.0.8.0.VMWINXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "sky_in_global-ota_full-OS2.0.8.0.VMWINXM-user-15.0-e500d1bd68.zip",
-					"fastboot": "sky_in_global_images_OS2.0.8.0.VMWINXM_20250428.0000.00_15.0_in_53ad342083.tgz"
+					"fastboot": "sky_in_global_images_OS2.0.8.0.VMWINXM_20250428.0000.00_15.0_in_53ad342083.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.4.0.VMWINXM": {
 					"os": "OS2.0.4.0.VMWINXM",
 					"android": "15.0",
 					"release": "2025-02-22",
 					"recovery": "sky_in_global-ota_full-OS2.0.4.0.VMWINXM-user-15.0-047678448e.zip",
-					"fastboot": "sky_in_global_images_OS2.0.4.0.VMWINXM_20250212.0000.00_15.0_in_f7c82fd4a6.tgz"
+					"fastboot": "sky_in_global_images_OS2.0.4.0.VMWINXM_20250212.0000.00_15.0_in_f7c82fd4a6.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.3.0.VMWINXM": {
 					"os": "OS2.0.3.0.VMWINXM",
 					"android": "15.0",
 					"release": "2024-12-12",
 					"recovery": "sky_in_global-ota_full-OS2.0.3.0.VMWINXM-user-15.0-20f9b232cf.zip",
-					"fastboot": "sky_in_global_images_OS2.0.3.0.VMWINXM_20241129.0000.00_15.0_in_0e7be466be.tgz"
+					"fastboot": "sky_in_global_images_OS2.0.3.0.VMWINXM_20241129.0000.00_15.0_in_0e7be466be.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UMWINXM": {
 					"os": "OS1.0.7.0.UMWINXM",
 					"android": "14.0",
 					"release": "2024-11-04",
 					"recovery": "miui_SKYINGlobal_OS1.0.7.0.UMWINXM_de31e9540e_14.0.zip",
-					"fastboot": "sky_in_global_images_OS1.0.7.0.UMWINXM_20241017.0000.00_14.0_in_e15204ffdb.tgz"
+					"fastboot": "sky_in_global_images_OS1.0.7.0.UMWINXM_20241017.0000.00_14.0_in_e15204ffdb.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UMWINXM": {
 					"os": "OS1.0.6.0.UMWINXM",
 					"android": "14.0",
 					"release": "2024-08-26",
 					"recovery": "miui_SKYINGlobal_OS1.0.6.0.UMWINXM_a2bb8d048f_14.0.zip",
-					"fastboot": "sky_in_global_images_OS1.0.6.0.UMWINXM_20240813.0000.00_14.0_in_5b2e60c803.tgz"
+					"fastboot": "sky_in_global_images_OS1.0.6.0.UMWINXM_20240813.0000.00_14.0_in_5b2e60c803.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UMWINXM": {
 					"os": "OS1.0.5.0.UMWINXM",
 					"android": "14.0",
 					"release": "2024-06-24",
 					"recovery": "miui_SKYINGlobal_OS1.0.5.0.UMWINXM_bc3213035d_14.0.zip",
-					"fastboot": "sky_in_global_images_OS1.0.5.0.UMWINXM_20240603.0000.00_14.0_in_109c6bb56f.tgz"
+					"fastboot": "sky_in_global_images_OS1.0.5.0.UMWINXM_20240603.0000.00_14.0_in_109c6bb56f.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.4.0.UMWINXM": {
 					"os": "OS1.0.4.0.UMWINXM",
 					"android": "14.0",
 					"release": "2024-05-13",
 					"recovery": "miui_SKYINGlobal_OS1.0.4.0.UMWINXM_917110d0c5_14.0.zip",
-					"fastboot": "sky_in_global_images_OS1.0.4.0.UMWINXM_20240426.0000.00_14.0_in_61a492131a.tgz"
+					"fastboot": "sky_in_global_images_OS1.0.4.0.UMWINXM_20240426.0000.00_14.0_in_61a492131a.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.2.0.UMWINXM": {
 					"os": "OS1.0.2.0.UMWINXM",
 					"android": "14.0",
 					"release": "2024-03-20",
 					"recovery": "miui_SKYINGlobal_OS1.0.2.0.UMWINXM_797f38efb0_14.0.zip",
-					"fastboot": "sky_in_global_images_OS1.0.2.0.UMWINXM_20240308.0000.00_14.0_in_d3872bac8c.tgz"
+					"fastboot": "sky_in_global_images_OS1.0.2.0.UMWINXM_20240308.0000.00_14.0_in_d3872bac8c.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.1.0.UMWINXM": {
 					"os": "OS1.0.1.0.UMWINXM",
 					"android": "14.0",
 					"release": "2024-02-06",
 					"recovery": "miui_SKYINGlobal_OS1.0.1.0.UMWINXM_f5443ea0c8_14.0.zip",
-					"fastboot": "sky_in_global_images_OS1.0.1.0.UMWINXM_20240125.0000.00_14.0_in_eae517be48.tgz"
+					"fastboot": "sky_in_global_images_OS1.0.1.0.UMWINXM_20240125.0000.00_14.0_in_eae517be48.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -766,6 +844,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -782,56 +861,64 @@
 					"android": "15.0",
 					"release": "2026-05-26",
 					"recovery": "sky_jp_global-ota_full-OS2.0.202.0.VMWJPXM-user-15.0-420dab90b6.zip",
-					"fastboot": "sky_jp_global_images_OS2.0.202.0.VMWJPXM_20260508.0000.00_15.0_jp_83d144edb6.tgz"
+					"fastboot": "sky_jp_global_images_OS2.0.202.0.VMWJPXM_20260508.0000.00_15.0_jp_83d144edb6.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.201.0.VMWJPXM": {
 					"os": "OS2.0.201.0.VMWJPXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "sky_jp_global-ota_full-OS2.0.201.0.VMWJPXM-user-15.0-5bbfe85f79.zip",
-					"fastboot": "sky_jp_global_images_OS2.0.201.0.VMWJPXM_20250904.0000.00_15.0_jp_a94056c7df.tgz"
+					"fastboot": "sky_jp_global_images_OS2.0.201.0.VMWJPXM_20250904.0000.00_15.0_jp_a94056c7df.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.2.0.VMWJPXM": {
 					"os": "OS2.0.2.0.VMWJPXM",
 					"android": "15.0",
 					"release": "2025-06-09",
 					"recovery": "sky_jp_global-ota_full-OS2.0.2.0.VMWJPXM-user-15.0-ec098a961c.zip",
-					"fastboot": "sky_jp_global_images_OS2.0.2.0.VMWJPXM_20250512.0000.00_15.0_jp_2e4d2988b8.tgz"
+					"fastboot": "sky_jp_global_images_OS2.0.2.0.VMWJPXM_20250512.0000.00_15.0_jp_2e4d2988b8.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VMWJPXM": {
 					"os": "OS2.0.1.0.VMWJPXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "sky_jp_global-ota_full-OS2.0.1.0.VMWJPXM-user-15.0-7ec6bbf49a.zip",
-					"fastboot": "sky_jp_global_images_OS2.0.1.0.VMWJPXM_20250221.0000.00_15.0_jp_783a654b44.tgz"
+					"fastboot": "sky_jp_global_images_OS2.0.1.0.VMWJPXM_20250221.0000.00_15.0_jp_783a654b44.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.13.0.UMWJPXM": {
 					"os": "OS1.0.13.0.UMWJPXM",
 					"android": "14.0",
 					"release": "2024-11-18",
 					"recovery": "miui_SKYJPGlobal_OS1.0.13.0.UMWJPXM_c6cbef8708_14.0.zip",
-					"fastboot": "sky_jp_global_images_OS1.0.13.0.UMWJPXM_20241024.0000.00_14.0_jp_09a80a0615.tgz"
+					"fastboot": "sky_jp_global_images_OS1.0.13.0.UMWJPXM_20241024.0000.00_14.0_jp_09a80a0615.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.12.0.UMWJPXM": {
 					"os": "OS1.0.12.0.UMWJPXM",
 					"android": "14.0",
 					"release": "2024-09-25",
 					"recovery": "miui_SKYJPGlobal_OS1.0.12.0.UMWJPXM_0226097305_14.0.zip",
-					"fastboot": "sky_jp_global_images_OS1.0.12.0.UMWJPXM_20240920.0000.00_14.0_jp_3a4d5c724d.tgz"
+					"fastboot": "sky_jp_global_images_OS1.0.12.0.UMWJPXM_20240920.0000.00_14.0_jp_3a4d5c724d.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.10.0.UMWJPXM": {
 					"os": "OS1.0.10.0.UMWJPXM",
 					"android": "14.0",
 					"release": "2024-07-08",
 					"recovery": "miui_SKYJPGlobal_OS1.0.10.0.UMWJPXM_a5fcbe8b53_14.0.zip",
-					"fastboot": "sky_jp_global_images_OS1.0.10.0.UMWJPXM_20240621.0000.00_14.0_jp_feccd86fe3.tgz"
+					"fastboot": "sky_jp_global_images_OS1.0.10.0.UMWJPXM_20240621.0000.00_14.0_jp_feccd86fe3.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.8.0.UMWJPXM": {
 					"os": "OS1.0.8.0.UMWJPXM",
 					"android": "14.0",
 					"release": "2024-03-09",
 					"recovery": "miui_SKYJPGlobal_OS1.0.8.0.UMWJPXM_a401eb6022_14.0.zip",
-					"fastboot": "sky_jp_global_images_OS1.0.8.0.UMWJPXM_20240304.0000.00_14.0_jp_bb44246166.tgz"
+					"fastboot": "sky_jp_global_images_OS1.0.8.0.UMWJPXM_20240304.0000.00_14.0_jp_bb44246166.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -853,6 +940,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -869,14 +957,16 @@
 					"android": "15.0",
 					"release": "2025-07-02",
 					"recovery": "sky_cl_en_global-ota_full-OS2.0.2.0.VMWCLEN-user-15.0-3e5724e7a4.zip",
-					"fastboot": "sky_cl_en_global_images_OS2.0.2.0.VMWCLEN_20250619.0000.00_15.0_cl_en_e29d2b43a4.tgz"
+					"fastboot": "sky_cl_en_global_images_OS2.0.2.0.VMWCLEN_20250619.0000.00_15.0_cl_en_e29d2b43a4.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.4.0.UMWCLEN": {
 					"os": "OS1.0.4.0.UMWCLEN",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_SKYCLENGlobal_OS1.0.4.0.UMWCLEN_5cd8f8af6c_14.0.zip",
-					"fastboot": "sky_cl_en_global_images_OS1.0.4.0.UMWCLEN_20240619.0000.00_14.0_cl_en_5dece16889.tgz"
+					"fastboot": "sky_cl_en_global_images_OS1.0.4.0.UMWCLEN_20240619.0000.00_14.0_cl_en_5dece16889.tgz",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -898,6 +988,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -914,56 +1005,64 @@
 					"android": "15.0",
 					"release": "2025-06-12",
 					"recovery": "sky_lm_cr_global-ota_full-OS2.0.4.0.VMWLMCR-user-15.0-8a0f682583.zip",
-					"fastboot": "sky_lm_cr_global_images_OS2.0.4.0.VMWLMCR_20250526.0000.00_15.0_lm_cr_a646050538.tgz"
+					"fastboot": "sky_lm_cr_global_images_OS2.0.4.0.VMWLMCR_20250526.0000.00_15.0_lm_cr_a646050538.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.3.0.VMWLMCR": {
 					"os": "OS2.0.3.0.VMWLMCR",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "sky_lm_cr_global-ota_full-OS2.0.3.0.VMWLMCR-user-15.0-7a75004483.zip",
-					"fastboot": "sky_lm_cr_global_images_OS2.0.3.0.VMWLMCR_20250331.0000.00_15.0_lm_cr_d4c7d1bcf6.tgz"
+					"fastboot": "sky_lm_cr_global_images_OS2.0.3.0.VMWLMCR_20250331.0000.00_15.0_lm_cr_d4c7d1bcf6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.VMWLMCR": {
 					"os": "OS2.0.1.0.VMWLMCR",
 					"android": "15.0",
 					"release": "2025-04-18",
 					"recovery": "sky_lm_cr_global-ota_full-OS2.0.1.0.VMWLMCR-user-15.0-0d804b46fb.zip",
-					"fastboot": "sky_lm_cr_global_images_OS2.0.1.0.VMWLMCR_20250227.0000.00_15.0_lm_cr_33fbf5fd3a.tgz"
+					"fastboot": "sky_lm_cr_global_images_OS2.0.1.0.VMWLMCR_20250227.0000.00_15.0_lm_cr_33fbf5fd3a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UMWLMCR": {
 					"os": "OS1.0.6.0.UMWLMCR",
 					"android": "14.0",
 					"release": "2025-02-25",
 					"recovery": "miui_SKYLMCRGlobal_OS1.0.6.0.UMWLMCR_527646621b_14.0.zip",
-					"fastboot": "sky_lm_cr_global_images_OS1.0.6.0.UMWLMCR_20241230.0000.00_14.0_lm_cr_8d50978a1b.tgz"
+					"fastboot": "sky_lm_cr_global_images_OS1.0.6.0.UMWLMCR_20241230.0000.00_14.0_lm_cr_8d50978a1b.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.5.0.UMWLMCR": {
 					"os": "OS1.0.5.0.UMWLMCR",
 					"android": "14.0",
 					"release": "2024-12-16",
 					"recovery": "miui_SKYLMCRGlobal_OS1.0.5.0.UMWLMCR_cae87ccf60_14.0.zip",
-					"fastboot": "sky_lm_cr_global_images_OS1.0.5.0.UMWLMCR_20241028.0000.00_14.0_lm_cr_9fe1ecb2d7.tgz"
+					"fastboot": "sky_lm_cr_global_images_OS1.0.5.0.UMWLMCR_20241028.0000.00_14.0_lm_cr_9fe1ecb2d7.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.4.0.UMWLMCR": {
 					"os": "OS1.0.4.0.UMWLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_SKYLMCRGlobal_OS1.0.4.0.UMWLMCR_8b9a4b6819_14.0.zip",
-					"fastboot": "sky_lm_cr_global_images_OS1.0.4.0.UMWLMCR_20240828.0000.00_14.0_lm_cr_3d8f3a97df.tgz"
+					"fastboot": "sky_lm_cr_global_images_OS1.0.4.0.UMWLMCR_20240828.0000.00_14.0_lm_cr_3d8f3a97df.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UMWLMCR": {
 					"os": "OS1.0.3.0.UMWLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_SKYLMCRGlobal_OS1.0.3.0.UMWLMCR_e289a70bb7_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UMWLMCR": {
 					"os": "OS1.0.2.0.UMWLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_SKYLMCRGlobal_OS1.0.2.0.UMWLMCR_74e18212aa_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		}

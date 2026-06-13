@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom",
@@ -56,7 +57,8 @@
 					"recovery": "miui_HAYDN_OS1.0.15.0.UKKCNXM_4b3e599ff6_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.15.0.UKKCNXM_20251022.0000.00_14.0_cn_595c0269a0.tgz",
 					"ctelecom": "haydn_images_OS1.0.15.0.UKKCNXM_20251022.0000.00_14.0_cn_chinatelecom_ba9dbc5d6a.tgz",
-					"cnmobile": "haydn_images_OS1.0.15.0.UKKCNXM_20251022.0000.00_14.0_cn_chinamobile_b1878d6605.tgz"
+					"cnmobile": "haydn_images_OS1.0.15.0.UKKCNXM_20251022.0000.00_14.0_cn_chinamobile_b1878d6605.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.13.0.UKKCNXM": {
 					"os": "OS1.0.13.0.UKKCNXM",
@@ -65,7 +67,8 @@
 					"recovery": "miui_HAYDN_OS1.0.13.0.UKKCNXM_e540db568a_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.13.0.UKKCNXM_20250321.0000.00_14.0_cn_faf19c5099.tgz",
 					"ctelecom": "haydn_images_OS1.0.13.0.UKKCNXM_20250321.0000.00_14.0_cn_chinatelecom_85454eb462.tgz",
-					"cnmobile": "haydn_images_OS1.0.13.0.UKKCNXM_20250321.0000.00_14.0_cn_chinamobile_6ecbd4160f.tgz"
+					"cnmobile": "haydn_images_OS1.0.13.0.UKKCNXM_20250321.0000.00_14.0_cn_chinamobile_6ecbd4160f.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.12.0.UKKCNXM": {
 					"os": "OS1.0.12.0.UKKCNXM",
@@ -74,7 +77,8 @@
 					"recovery": "miui_HAYDN_OS1.0.12.0.UKKCNXM_a117e20c19_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.12.0.UKKCNXM_20250205.0000.00_14.0_cn_24c88c18f7.tgz",
 					"ctelecom": "haydn_images_OS1.0.12.0.UKKCNXM_20250205.0000.00_14.0_cn_chinatelecom_abf2bf4006.tgz",
-					"cnmobile": "haydn_images_OS1.0.12.0.UKKCNXM_20250205.0000.00_14.0_cn_chinamobile_ddf682bef5.tgz"
+					"cnmobile": "haydn_images_OS1.0.12.0.UKKCNXM_20250205.0000.00_14.0_cn_chinamobile_ddf682bef5.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.11.0.UKKCNXM": {
 					"os": "OS1.0.11.0.UKKCNXM",
@@ -83,7 +87,8 @@
 					"recovery": "miui_HAYDN_OS1.0.11.0.UKKCNXM_6e320ee7f4_14.0.zip",
 					"fastboot": "",
 					"ctelecom": "",
-					"cnmobile": ""
+					"cnmobile": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.UKKCNXM": {
 					"os": "OS1.0.10.0.UKKCNXM",
@@ -92,7 +97,8 @@
 					"recovery": "miui_HAYDN_OS1.0.10.0.UKKCNXM_7cc624af85_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.10.0.UKKCNXM_20241218.0000.00_14.0_cn_838e1445fe.tgz",
 					"ctelecom": "haydn_images_OS1.0.10.0.UKKCNXM_20241218.0000.00_14.0_cn_chinatelecom_e3d1707def.tgz",
-					"cnmobile": "haydn_images_OS1.0.10.0.UKKCNXM_20241218.0000.00_14.0_cn_chinamobile_c3709f182e.tgz"
+					"cnmobile": "haydn_images_OS1.0.10.0.UKKCNXM_20241218.0000.00_14.0_cn_chinamobile_c3709f182e.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UKKCNXM": {
 					"os": "OS1.0.8.0.UKKCNXM",
@@ -101,7 +107,8 @@
 					"recovery": "miui_HAYDN_OS1.0.8.0.UKKCNXM_1ec17c8a90_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.8.0.UKKCNXM_20241119.0000.00_14.0_cn_ce2777890b.tgz",
 					"ctelecom": "haydn_images_OS1.0.8.0.UKKCNXM_20241119.0000.00_14.0_cn_chinatelecom_3a4871367c.tgz",
-					"cnmobile": "haydn_images_OS1.0.8.0.UKKCNXM_20241119.0000.00_14.0_cn_chinamobile_83ec74b800.tgz"
+					"cnmobile": "haydn_images_OS1.0.8.0.UKKCNXM_20241119.0000.00_14.0_cn_chinamobile_83ec74b800.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UKKCNXM": {
 					"os": "OS1.0.5.0.UKKCNXM",
@@ -110,7 +117,8 @@
 					"recovery": "miui_HAYDN_OS1.0.5.0.UKKCNXM_d5ef64abd1_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.5.0.UKKCNXM_20241014.0000.00_14.0_cn_7b1aa224fc.tgz",
 					"ctelecom": "haydn_images_OS1.0.5.0.UKKCNXM_20241014.0000.00_14.0_cn_chinatelecom_0463ffc410.tgz",
-					"cnmobile": "haydn_images_OS1.0.5.0.UKKCNXM_20241014.0000.00_14.0_cn_chinamobile_2f526e9139.tgz"
+					"cnmobile": "haydn_images_OS1.0.5.0.UKKCNXM_20241014.0000.00_14.0_cn_chinamobile_2f526e9139.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.UKKCNXM": {
 					"os": "OS1.0.4.0.UKKCNXM",
@@ -119,7 +127,8 @@
 					"recovery": "miui_HAYDN_OS1.0.4.0.UKKCNXM_d3243a6f06_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_5e47249679.tgz",
 					"ctelecom": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_chinatelecom_3bbb177929.tgz",
-					"cnmobile": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_chinamobile_40a60a89a0.tgz"
+					"cnmobile": "haydn_images_OS1.0.4.0.UKKCNXM_20240912.0000.00_14.0_cn_chinamobile_40a60a89a0.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKKCNXM": {
 					"os": "OS1.0.3.0.UKKCNXM",
@@ -128,7 +137,8 @@
 					"recovery": "miui_HAYDN_OS1.0.3.0.UKKCNXM_401744cc2e_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_d286b3d548.tgz",
 					"ctelecom": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_chinatelecom_58c16c9594.tgz",
-					"cnmobile": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_chinamobile_2e41d4bee9.tgz"
+					"cnmobile": "haydn_images_OS1.0.3.0.UKKCNXM_20240816.0000.00_14.0_cn_chinamobile_2e41d4bee9.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UKKCNXM": {
 					"os": "OS1.0.2.0.UKKCNXM",
@@ -137,7 +147,8 @@
 					"recovery": "miui_HAYDN_OS1.0.2.0.UKKCNXM_2fa8bde61d_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_3b108c30c9.tgz",
 					"ctelecom": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_chinatelecom_eeea187887.tgz",
-					"cnmobile": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_chinamobile_09bd602c7e.tgz"
+					"cnmobile": "haydn_images_OS1.0.2.0.UKKCNXM_20240613.0000.00_14.0_cn_chinamobile_09bd602c7e.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.UKKCNXM": {
 					"os": "OS1.0.1.0.UKKCNXM",
@@ -146,7 +157,8 @@
 					"recovery": "miui_HAYDN_OS1.0.1.0.UKKCNXM_366ee9022b_14.0.zip",
 					"fastboot": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_c05bf325c9.tgz",
 					"ctelecom": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinatelecom_20f3055c54.tgz",
-					"cnmobile": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinamobile_4c951d9211.tgz"
+					"cnmobile": "haydn_images_OS1.0.1.0.UKKCNXM_20240329.0000.00_14.0_cn_chinamobile_4c951d9211.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -168,6 +180,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -184,84 +197,96 @@
 					"android": "14.0",
 					"release": "2025-12-18",
 					"recovery": "miui_HAYDNGlobal_OS1.0.19.0.UKKMIXM_e9bb8d7509_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.19.0.UKKMIXM_20251124.0000.00_14.0_global_6ac441e984.tgz"
+					"fastboot": "haydn_global_images_OS1.0.19.0.UKKMIXM_20251124.0000.00_14.0_global_6ac441e984.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.18.0.UKKMIXM": {
 					"os": "OS1.0.18.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2025-04-10",
 					"recovery": "miui_HAYDNGlobal_OS1.0.18.0.UKKMIXM_8c94291f65_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.18.0.UKKMIXM_20250321.0000.00_14.0_global_9262ac7ff3.tgz"
+					"fastboot": "haydn_global_images_OS1.0.18.0.UKKMIXM_20250321.0000.00_14.0_global_9262ac7ff3.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.17.0.UKKMIXM": {
 					"os": "OS1.0.17.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2025-03-04",
 					"recovery": "miui_HAYDNGlobal_OS1.0.17.0.UKKMIXM_95114f984b_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.17.0.UKKMIXM_20250212.0000.00_14.0_global_d163a387b9.tgz"
+					"fastboot": "haydn_global_images_OS1.0.17.0.UKKMIXM_20250212.0000.00_14.0_global_d163a387b9.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.14.0.UKKMIXM": {
 					"os": "OS1.0.14.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2025-01-24",
 					"recovery": "miui_HAYDNGlobal_OS1.0.14.0.UKKMIXM_81a852e9d9_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.13.0.UKKMIXM": {
 					"os": "OS1.0.13.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2024-12-31",
 					"recovery": "miui_HAYDNGlobal_OS1.0.13.0.UKKMIXM_fee25caebe_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.13.0.UKKMIXM_20241223.0000.00_14.0_global_b59313d62f.tgz"
+					"fastboot": "haydn_global_images_OS1.0.13.0.UKKMIXM_20241223.0000.00_14.0_global_b59313d62f.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.UKKMIXM": {
 					"os": "OS1.0.11.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2024-11-29",
 					"recovery": "miui_HAYDNGlobal_OS1.0.11.0.UKKMIXM_ea9bdc619b_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.11.0.UKKMIXM_20241113.0000.00_14.0_global_3686e971ba.tgz"
+					"fastboot": "haydn_global_images_OS1.0.11.0.UKKMIXM_20241113.0000.00_14.0_global_3686e971ba.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UKKMIXM": {
 					"os": "OS1.0.10.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2024-11-06",
 					"recovery": "miui_HAYDNGlobal_OS1.0.10.0.UKKMIXM_8bb8e9e36c_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.10.0.UKKMIXM_20241017.0000.00_14.0_global_61a4c3ffa2.tgz"
+					"fastboot": "haydn_global_images_OS1.0.10.0.UKKMIXM_20241017.0000.00_14.0_global_61a4c3ffa2.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UKKMIXM": {
 					"os": "OS1.0.9.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_HAYDNGlobal_OS1.0.9.0.UKKMIXM_44019cd963_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.9.0.UKKMIXM_20240927.0000.00_14.0_global_fa9a840131.tgz"
+					"fastboot": "haydn_global_images_OS1.0.9.0.UKKMIXM_20240927.0000.00_14.0_global_fa9a840131.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UKKMIXM": {
 					"os": "OS1.0.6.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2024-08-30",
 					"recovery": "miui_HAYDNGlobal_OS1.0.6.0.UKKMIXM_837b3a3cab_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.6.0.UKKMIXM_20240816.0000.00_14.0_global_203c518717.tgz"
+					"fastboot": "haydn_global_images_OS1.0.6.0.UKKMIXM_20240816.0000.00_14.0_global_203c518717.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UKKMIXM": {
 					"os": "OS1.0.5.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_HAYDNGlobal_OS1.0.5.0.UKKMIXM_34609f95fe_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.5.0.UKKMIXM_20240731.0000.00_14.0_global_39d89dd7b6.tgz"
+					"fastboot": "haydn_global_images_OS1.0.5.0.UKKMIXM_20240731.0000.00_14.0_global_39d89dd7b6.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UKKMIXM": {
 					"os": "OS1.0.3.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2024-07-01",
 					"recovery": "miui_HAYDNGlobal_OS1.0.3.0.UKKMIXM_2792063203_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.3.0.UKKMIXM_20240620.0000.00_14.0_global_438079ec42.tgz"
+					"fastboot": "haydn_global_images_OS1.0.3.0.UKKMIXM_20240620.0000.00_14.0_global_438079ec42.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKKMIXM": {
 					"os": "OS1.0.2.0.UKKMIXM",
 					"android": "14.0",
 					"release": "2024-05-14",
 					"recovery": "miui_HAYDNGlobal_OS1.0.2.0.UKKMIXM_295ad2b20e_14.0.zip",
-					"fastboot": "haydn_global_images_OS1.0.2.0.UKKMIXM_20240424.0000.00_14.0_global_bb824f06bc.tgz"
+					"fastboot": "haydn_global_images_OS1.0.2.0.UKKMIXM_20240424.0000.00_14.0_global_bb824f06bc.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -283,6 +308,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -299,84 +325,96 @@
 					"android": "14.0",
 					"release": "2025-12-27",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.19.0.UKKEUXM_8285a85d82_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.19.0.UKKEUXM_20251126.0000.00_14.0_eea_b96478a940.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.19.0.UKKEUXM_20251126.0000.00_14.0_eea_b96478a940.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.18.0.UKKEUXM": {
 					"os": "OS1.0.18.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2025-04-10",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.18.0.UKKEUXM_b4d53dfc08_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.18.0.UKKEUXM_20250326.0000.00_14.0_eea_5f76055c50.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.18.0.UKKEUXM_20250326.0000.00_14.0_eea_5f76055c50.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.17.0.UKKEUXM": {
 					"os": "OS1.0.17.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2025-03-04",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.17.0.UKKEUXM_ab6efc20d6_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.17.0.UKKEUXM_20250212.0000.00_14.0_eea_efd5f2f736.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.17.0.UKKEUXM_20250212.0000.00_14.0_eea_efd5f2f736.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.14.0.UKKEUXM": {
 					"os": "OS1.0.14.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2025-01-23",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.14.0.UKKEUXM_91b3fac3c5_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.13.0.UKKEUXM": {
 					"os": "OS1.0.13.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2024-12-31",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.13.0.UKKEUXM_cdd34c0640_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.13.0.UKKEUXM_20241223.0000.00_14.0_eea_485289cc34.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.13.0.UKKEUXM_20241223.0000.00_14.0_eea_485289cc34.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.11.0.UKKEUXM": {
 					"os": "OS1.0.11.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2024-11-29",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.11.0.UKKEUXM_eaef4c69b2_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.11.0.UKKEUXM_20241119.0000.00_14.0_eea_a7fbc9a260.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.11.0.UKKEUXM_20241119.0000.00_14.0_eea_a7fbc9a260.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.10.0.UKKEUXM": {
 					"os": "OS1.0.10.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2024-11-06",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.10.0.UKKEUXM_d7f0ac13f7_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.10.0.UKKEUXM_20241018.0000.00_14.0_eea_ff66d1a4da.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.10.0.UKKEUXM_20241018.0000.00_14.0_eea_ff66d1a4da.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UKKEUXM": {
 					"os": "OS1.0.9.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.9.0.UKKEUXM_50c5850e20_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.9.0.UKKEUXM_20240927.0000.00_14.0_eea_aacf2f0d8b.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.9.0.UKKEUXM_20240927.0000.00_14.0_eea_aacf2f0d8b.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UKKEUXM": {
 					"os": "OS1.0.6.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2024-08-30",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.6.0.UKKEUXM_204f944bde_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.6.0.UKKEUXM_20240816.0000.00_14.0_eea_a5bbb283a3.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.6.0.UKKEUXM_20240816.0000.00_14.0_eea_a5bbb283a3.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.5.0.UKKEUXM": {
 					"os": "OS1.0.5.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2024-08-13",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.5.0.UKKEUXM_4cd278bf05_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.5.0.UKKEUXM_20240726.0000.00_14.0_eea_ecdd64fde5.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.5.0.UKKEUXM_20240726.0000.00_14.0_eea_ecdd64fde5.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UKKEUXM": {
 					"os": "OS1.0.3.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2024-07-01",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.3.0.UKKEUXM_9e995fe62c_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.3.0.UKKEUXM_20240620.0000.00_14.0_eea_60c096bc4e.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.3.0.UKKEUXM_20240620.0000.00_14.0_eea_60c096bc4e.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.UKKEUXM": {
 					"os": "OS1.0.2.0.UKKEUXM",
 					"android": "14.0",
 					"release": "2024-05-05",
 					"recovery": "miui_HAYDNEEAGlobal_OS1.0.2.0.UKKEUXM_7dc6743676_14.0.zip",
-					"fastboot": "haydn_eea_global_images_OS1.0.2.0.UKKEUXM_20240422.0000.00_14.0_eea_afa11092d6.tgz"
+					"fastboot": "haydn_eea_global_images_OS1.0.2.0.UKKEUXM_20240422.0000.00_14.0_eea_afa11092d6.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		},
@@ -398,6 +436,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -414,49 +453,56 @@
 					"android": "14.0",
 					"release": "2025-05-22",
 					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.9.0.UKKEUOR_3e4bc26327_14.0.zip",
-					"fastboot": "haydn_eea_or_global_images_OS1.0.9.0.UKKEUOR_20250415.0000.00_14.0_eea_orange_1976d24772.tgz"
+					"fastboot": "haydn_eea_or_global_images_OS1.0.9.0.UKKEUOR_20250415.0000.00_14.0_eea_orange_1976d24772.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.8.0.UKKEUOR": {
 					"os": "OS1.0.8.0.UKKEUOR",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.8.0.UKKEUOR_359d100f49_14.0.zip",
-					"fastboot": "haydn_eea_or_global_images_OS1.0.8.0.UKKEUOR_20250221.0000.00_14.0_eea_orange_d28064027b.tgz"
+					"fastboot": "haydn_eea_or_global_images_OS1.0.8.0.UKKEUOR_20250221.0000.00_14.0_eea_orange_d28064027b.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UKKEUOR": {
 					"os": "OS1.0.6.0.UKKEUOR",
 					"android": "14.0",
 					"release": "2025-01-14",
 					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.6.0.UKKEUOR_4dc5a50e1a_14.0.zip",
-					"fastboot": "haydn_eea_or_global_images_OS1.0.6.0.UKKEUOR_20241224.0000.00_14.0_eea_orange_6cb3d8f566.tgz"
+					"fastboot": "haydn_eea_or_global_images_OS1.0.6.0.UKKEUOR_20241224.0000.00_14.0_eea_orange_6cb3d8f566.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.4.0.UKKEUOR": {
 					"os": "OS1.0.4.0.UKKEUOR",
 					"android": "14.0",
 					"release": "2024-10-29",
 					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.4.0.UKKEUOR_b1ffd85171_14.0.zip",
-					"fastboot": "haydn_eea_or_global_images_OS1.0.4.0.UKKEUOR_20241010.0000.00_14.0_eea_orange_e4cc606423.tgz"
+					"fastboot": "haydn_eea_or_global_images_OS1.0.4.0.UKKEUOR_20241010.0000.00_14.0_eea_orange_e4cc606423.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.3.0.UKKEUOR": {
 					"os": "OS1.0.3.0.UKKEUOR",
 					"android": "14.0",
 					"release": "2024-08-23",
 					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.3.0.UKKEUOR_8da8cfea08_14.0.zip",
-					"fastboot": "haydn_eea_or_global_images_OS1.0.3.0.UKKEUOR_20240813.0000.00_14.0_eea_orange_ec4aa0c1c5.tgz"
+					"fastboot": "haydn_eea_or_global_images_OS1.0.3.0.UKKEUOR_20240813.0000.00_14.0_eea_orange_ec4aa0c1c5.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UKKEUOR": {
 					"os": "OS1.0.2.0.UKKEUOR",
 					"android": "14.0",
 					"release": "2024-07-30",
 					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.2.0.UKKEUOR_cafcb48a75_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKKEUOR": {
 					"os": "OS1.0.1.0.UKKEUOR",
 					"android": "14.0",
 					"release": "2024-06-18",
 					"recovery": "miui_HAYDNEEAORGlobal_OS1.0.1.0.UKKEUOR_90f3b09b23_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -478,6 +524,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -494,42 +541,48 @@
 					"android": "14.0",
 					"release": "2025-06-06",
 					"recovery": "miui_HAYDNEEATFGlobal_OS1.0.10.0.UKKEUTF_3ef11cdce5_14.0.zip",
-					"fastboot": "haydn_eea_tf_global_images_OS1.0.10.0.UKKEUTF_20250417.0000.00_14.0_eea_tf_46105649b0.tgz"
+					"fastboot": "haydn_eea_tf_global_images_OS1.0.10.0.UKKEUTF_20250417.0000.00_14.0_eea_tf_46105649b0.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.9.0.UKKEUTF": {
 					"os": "OS1.0.9.0.UKKEUTF",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_HAYDNEEATFGlobal_OS1.0.9.0.UKKEUTF_4e5020592a_14.0.zip",
-					"fastboot": "haydn_eea_tf_global_images_OS1.0.9.0.UKKEUTF_20250224.0000.00_14.0_eea_tf_f7b2deb959.tgz"
+					"fastboot": "haydn_eea_tf_global_images_OS1.0.9.0.UKKEUTF_20250224.0000.00_14.0_eea_tf_f7b2deb959.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.UKKEUTF": {
 					"os": "OS1.0.5.0.UKKEUTF",
 					"android": "14.0",
 					"release": "2024-12-05",
 					"recovery": "miui_HAYDNEEATFGlobal_OS1.0.5.0.UKKEUTF_5e2cc854da_14.0.zip",
-					"fastboot": "haydn_eea_tf_global_images_OS1.0.5.0.UKKEUTF_20241123.0000.00_14.0_eea_tf_7374fbf24b.tgz"
+					"fastboot": "haydn_eea_tf_global_images_OS1.0.5.0.UKKEUTF_20241123.0000.00_14.0_eea_tf_7374fbf24b.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.4.0.UKKEUTF": {
 					"os": "OS1.0.4.0.UKKEUTF",
 					"android": "14.0",
 					"release": "2024-09-26",
 					"recovery": "miui_HAYDNEEATFGlobal_OS1.0.4.0.UKKEUTF_85f4c60e7b_14.0.zip",
-					"fastboot": "haydn_eea_tf_global_images_OS1.0.4.0.UKKEUTF_20240906.0000.00_14.0_eea_tf_24ee8387da.tgz"
+					"fastboot": "haydn_eea_tf_global_images_OS1.0.4.0.UKKEUTF_20240906.0000.00_14.0_eea_tf_24ee8387da.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UKKEUTF": {
 					"os": "OS1.0.2.0.UKKEUTF",
 					"android": "14.0",
 					"release": "2024-08-01",
 					"recovery": "miui_HAYDNEEATFGlobal_OS1.0.2.0.UKKEUTF_d3e16fff9f_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKKEUTF": {
 					"os": "OS1.0.1.0.UKKEUTF",
 					"android": "14.0",
 					"release": "2024-06-18",
 					"recovery": "miui_HAYDNEEATFGlobal_OS1.0.1.0.UKKEUTF_4984194894_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -551,6 +604,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -567,28 +621,32 @@
 					"android": "14.0",
 					"release": "2024-11-30",
 					"recovery": "miui_HAYDNEEAHGGlobal_OS1.0.4.0.UKKEUHG_8e63e9e292_14.0.zip",
-					"fastboot": "haydn_eea_hg_global_images_OS1.0.4.0.UKKEUHG_20241104.0000.00_14.0_eea_h3g_e93531ff10.tgz"
+					"fastboot": "haydn_eea_hg_global_images_OS1.0.4.0.UKKEUHG_20241104.0000.00_14.0_eea_h3g_e93531ff10.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UKKEUHG": {
 					"os": "OS1.0.3.0.UKKEUHG",
 					"android": "14.0",
 					"release": "2024-09-14",
 					"recovery": "miui_HAYDNEEAHGGlobal_OS1.0.3.0.UKKEUHG_543456b257_14.0.zip",
-					"fastboot": "haydn_eea_hg_global_images_OS1.0.3.0.UKKEUHG_20240903.0000.00_14.0_eea_h3g_06da8c430f.tgz"
+					"fastboot": "haydn_eea_hg_global_images_OS1.0.3.0.UKKEUHG_20240903.0000.00_14.0_eea_h3g_06da8c430f.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UKKEUHG": {
 					"os": "OS1.0.2.0.UKKEUHG",
 					"android": "14.0",
 					"release": "2024-07-19",
 					"recovery": "miui_HAYDNEEAHGGlobal_OS1.0.2.0.UKKEUHG_a15716cb22_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UKKEUHG": {
 					"os": "OS1.0.1.0.UKKEUHG",
 					"android": "14.0",
 					"release": "2024-06-26",
 					"recovery": "miui_HAYDNEEAHGGlobal_OS1.0.1.0.UKKEUHG_421a57bb88_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -610,6 +668,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -626,42 +685,48 @@
 					"android": "14.0",
 					"release": "2025-05-13",
 					"recovery": "miui_HAYDNEEAVFGlobal_OS1.0.8.0.UKKEUVF_c21bfeb1b3_14.0.zip",
-					"fastboot": "haydn_eea_vf_global_images_OS1.0.8.0.UKKEUVF_20250417.0000.00_14.0_eea_vodafone_51b937bc5d.tgz"
+					"fastboot": "haydn_eea_vf_global_images_OS1.0.8.0.UKKEUVF_20250417.0000.00_14.0_eea_vodafone_51b937bc5d.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.UKKEUVF": {
 					"os": "OS1.0.7.0.UKKEUVF",
 					"android": "14.0",
 					"release": "2025-03-06",
 					"recovery": "miui_HAYDNEEAVFGlobal_OS1.0.7.0.UKKEUVF_ae0189e183_14.0.zip",
-					"fastboot": "haydn_eea_vf_global_images_OS1.0.7.0.UKKEUVF_20250216.0000.00_14.0_eea_vodafone_4ba52b4155.tgz"
+					"fastboot": "haydn_eea_vf_global_images_OS1.0.7.0.UKKEUVF_20250216.0000.00_14.0_eea_vodafone_4ba52b4155.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.6.0.UKKEUVF": {
 					"os": "OS1.0.6.0.UKKEUVF",
 					"android": "14.0",
 					"release": "2025-01-24",
 					"recovery": "miui_HAYDNEEAVFGlobal_OS1.0.6.0.UKKEUVF_c57a74062e_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.4.0.UKKEUVF": {
 					"os": "OS1.0.4.0.UKKEUVF",
 					"android": "14.0",
 					"release": "2024-12-03",
 					"recovery": "miui_HAYDNEEAVFGlobal_OS1.0.4.0.UKKEUVF_f0c0f82e7b_14.0.zip",
-					"fastboot": "haydn_eea_vf_global_images_OS1.0.4.0.UKKEUVF_20241114.0000.00_14.0_eea_vodafone_735b855c5d.tgz"
+					"fastboot": "haydn_eea_vf_global_images_OS1.0.4.0.UKKEUVF_20241114.0000.00_14.0_eea_vodafone_735b855c5d.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UKKEUVF": {
 					"os": "OS1.0.3.0.UKKEUVF",
 					"android": "14.0",
 					"release": "2024-09-20",
 					"recovery": "miui_HAYDNEEAVFGlobal_OS1.0.3.0.UKKEUVF_7b279f8e40_14.0.zip",
-					"fastboot": "haydn_eea_vf_global_images_OS1.0.3.0.UKKEUVF_20240906.0000.00_14.0_eea_vodafone_96f21ac8ed.tgz"
+					"fastboot": "haydn_eea_vf_global_images_OS1.0.3.0.UKKEUVF_20240906.0000.00_14.0_eea_vodafone_96f21ac8ed.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UKKEUVF": {
 					"os": "OS1.0.2.0.UKKEUVF",
 					"android": "14.0",
 					"release": "2024-08-12",
 					"recovery": "miui_HAYDNEEAVFGlobal_OS1.0.2.0.UKKEUVF_9776975824_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				}
 			}
 		},
@@ -683,6 +748,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -699,28 +765,32 @@
 					"android": "14.0",
 					"release": "2025-05-13",
 					"recovery": "miui_HAYDNEEABYGlobal_OS1.0.5.0.UKKEUBY_5b40dfdbb8_14.0.zip",
-					"fastboot": "haydn_eea_by_global_images_OS1.0.5.0.UKKEUBY_20250407.0000.00_14.0_eea_by_7254c5f886.tgz"
+					"fastboot": "haydn_eea_by_global_images_OS1.0.5.0.UKKEUBY_20250407.0000.00_14.0_eea_by_7254c5f886.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.4.0.UKKEUBY": {
 					"os": "OS1.0.4.0.UKKEUBY",
 					"android": "14.0",
 					"release": "2024-10-28",
 					"recovery": "miui_HAYDNEEABYGlobal_OS1.0.4.0.UKKEUBY_568ead76d0_14.0.zip",
-					"fastboot": "haydn_eea_by_global_images_OS1.0.4.0.UKKEUBY_20241011.0000.00_14.0_eea_by_3a11b44b8e.tgz"
+					"fastboot": "haydn_eea_by_global_images_OS1.0.4.0.UKKEUBY_20241011.0000.00_14.0_eea_by_3a11b44b8e.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.3.0.UKKEUBY": {
 					"os": "OS1.0.3.0.UKKEUBY",
 					"android": "14.0",
 					"release": "2024-10-12",
 					"recovery": "miui_HAYDNEEABYGlobal_OS1.0.3.0.UKKEUBY_7138c6b73c_14.0.zip",
-					"fastboot": "haydn_eea_by_global_images_OS1.0.3.0.UKKEUBY_20240902.0000.00_14.0_eea_by_3347310ddc.tgz"
+					"fastboot": "haydn_eea_by_global_images_OS1.0.3.0.UKKEUBY_20240902.0000.00_14.0_eea_by_3347310ddc.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.UKKEUBY": {
 					"os": "OS1.0.2.0.UKKEUBY",
 					"android": "14.0",
 					"release": "2024-07-16",
 					"recovery": "miui_HAYDNEEABYGlobal_OS1.0.2.0.UKKEUBY_8763e85e69_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -742,6 +812,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -758,7 +829,8 @@
 					"android": "14.0",
 					"release": "2024-06-19",
 					"recovery": "miui_HAYDNEEATIGlobal_OS1.0.1.0.UKKEUTI_6516fc7d8d_14.0.zip",
-					"fastboot": "haydn_eea_ti_global_images_OS1.0.1.0.UKKEUTI_20240513.0000.00_14.0_eea_tim_55abcf090a.tgz"
+					"fastboot": "haydn_eea_ti_global_images_OS1.0.1.0.UKKEUTI_20240513.0000.00_14.0_eea_tim_55abcf090a.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -780,6 +852,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -796,21 +869,24 @@
 					"android": "14.0",
 					"release": "2025-02-08",
 					"recovery": "miui_HAYDNEEASFGlobal_OS1.0.3.0.UKKEUSF_68567af78b_14.0.zip",
-					"fastboot": "haydn_eea_sf_global_images_OS1.0.3.0.UKKEUSF_20241125.0000.00_14.0_eea_sfr_c73a8d7542.tgz"
+					"fastboot": "haydn_eea_sf_global_images_OS1.0.3.0.UKKEUSF_20241125.0000.00_14.0_eea_sfr_c73a8d7542.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.2.0.UKKEUSF": {
 					"os": "OS1.0.2.0.UKKEUSF",
 					"android": "14.0",
 					"release": "2024-09-13",
 					"recovery": "miui_HAYDNEEASFGlobal_OS1.0.2.0.UKKEUSF_a898eeaf1f_14.0.zip",
-					"fastboot": "haydn_eea_sf_global_images_OS1.0.2.0.UKKEUSF_20240823.0000.00_14.0_eea_sfr_085a5e1ed4.tgz"
+					"fastboot": "haydn_eea_sf_global_images_OS1.0.2.0.UKKEUSF_20240823.0000.00_14.0_eea_sfr_085a5e1ed4.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.UKKEUSF": {
 					"os": "OS1.0.1.0.UKKEUSF",
 					"android": "14.0",
 					"release": "2024-07-04",
 					"recovery": "miui_HAYDNEEASFGlobal_OS1.0.1.0.UKKEUSF_3f8cad0db1_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -832,6 +908,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -848,70 +925,80 @@
 					"android": "14.0",
 					"release": "2025-12-27",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.16.0.UKKINXM_dd4d339208_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.16.0.UKKINXM_20251126.0000.00_14.0_in_8757c3eece.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.16.0.UKKINXM_20251126.0000.00_14.0_in_8757c3eece.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.15.0.UKKINXM": {
 					"os": "OS1.0.15.0.UKKINXM",
 					"android": "14.0",
 					"release": "2025-04-10",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.15.0.UKKINXM_cc3e64a8e0_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.15.0.UKKINXM_20250326.0000.00_14.0_in_a7b5695557.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.15.0.UKKINXM_20250326.0000.00_14.0_in_a7b5695557.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.14.0.UKKINXM": {
 					"os": "OS1.0.14.0.UKKINXM",
 					"android": "14.0",
 					"release": "2025-03-04",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.14.0.UKKINXM_d8788948cc_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.14.0.UKKINXM_20250212.0000.00_14.0_in_cab08ea0be.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.14.0.UKKINXM_20250212.0000.00_14.0_in_cab08ea0be.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.11.0.UKKINXM": {
 					"os": "OS1.0.11.0.UKKINXM",
 					"android": "14.0",
 					"release": "2025-01-23",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.11.0.UKKINXM_8dda2ae170_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.10.0.UKKINXM": {
 					"os": "OS1.0.10.0.UKKINXM",
 					"android": "14.0",
 					"release": "2024-12-31",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.10.0.UKKINXM_d04511486b_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.10.0.UKKINXM_20241223.0000.00_14.0_in_dfecff4e05.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.10.0.UKKINXM_20241223.0000.00_14.0_in_dfecff4e05.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UKKINXM": {
 					"os": "OS1.0.8.0.UKKINXM",
 					"android": "14.0",
 					"release": "2024-11-29",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.8.0.UKKINXM_b91d185737_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.8.0.UKKINXM_20241119.0000.00_14.0_in_8191b910a9.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.8.0.UKKINXM_20241119.0000.00_14.0_in_8191b910a9.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UKKINXM": {
 					"os": "OS1.0.7.0.UKKINXM",
 					"android": "14.0",
 					"release": "2024-11-06",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.7.0.UKKINXM_7e7aee84f6_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.7.0.UKKINXM_20241018.0000.00_14.0_in_002bf59ea4.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.7.0.UKKINXM_20241018.0000.00_14.0_in_002bf59ea4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.UKKINXM": {
 					"os": "OS1.0.5.0.UKKINXM",
 					"android": "14.0",
 					"release": "2024-10-14",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.5.0.UKKINXM_27a767fd9f_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.5.0.UKKINXM_20240926.0000.00_14.0_in_006dd84299.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.5.0.UKKINXM_20240926.0000.00_14.0_in_006dd84299.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UKKINXM": {
 					"os": "OS1.0.3.0.UKKINXM",
 					"android": "14.0",
 					"release": "2024-08-30",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.3.0.UKKINXM_801d635a3b_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.3.0.UKKINXM_20240813.0000.00_14.0_in_b2838647dd.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.3.0.UKKINXM_20240813.0000.00_14.0_in_b2838647dd.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.UKKINXM": {
 					"os": "OS1.0.1.0.UKKINXM",
 					"android": "14.0",
 					"release": "2024-05-14",
 					"recovery": "miui_HAYDNINGlobal_OS1.0.1.0.UKKINXM_91c17a8c24_14.0.zip",
-					"fastboot": "haydn_in_global_images_OS1.0.1.0.UKKINXM_20240424.0000.00_14.0_in_5c580e0da1.tgz"
+					"fastboot": "haydn_in_global_images_OS1.0.1.0.UKKINXM_20240424.0000.00_14.0_in_5c580e0da1.tgz",
+					"aspatch": "2024-04-01"
 				}
 			}
 		}

@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -56,49 +57,56 @@
 					"android": "16.0",
 					"release": "2025-10-28",
 					"recovery": "manet-ota_full-OS3.0.0.10.WNMCNXM-user-16.0-9258c4c5ca.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.8.WNMCNXM": {
 					"os": "OS3.0.0.8.WNMCNXM",
 					"android": "16.0",
 					"release": "2025-10-16",
 					"recovery": "manet-ota_full-OS3.0.0.8.WNMCNXM-user-16.0-ab1316ca19.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.0.3.WNMCNXM": {
 					"os": "OS3.0.0.3.WNMCNXM",
 					"android": "16.0",
 					"release": "2025-09-26",
 					"recovery": "manet-ota_full-OS3.0.0.3.WNMCNXM-user-16.0-625f34e7f2.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.200.7.VNMCNXM": {
 					"os": "OS2.0.200.7.VNMCNXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "manet-ota_full-OS2.0.200.7.VNMCNXM-user-15.0-f7b214a675.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.6.VNMCNXM": {
 					"os": "OS2.0.200.6.VNMCNXM",
 					"android": "15.0",
 					"release": "2025-05-15",
 					"recovery": "manet-ota_full-OS2.0.200.6.VNMCNXM-user-15.0-03458f2df1.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.200.5.VNMCNXM": {
 					"os": "OS2.0.200.5.VNMCNXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "manet-ota_full-OS2.0.200.5.VNMCNXM-user-15.0-7f906543a0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.2.VNMCNXM": {
 					"os": "OS2.0.1.2.VNMCNXM",
 					"android": "15.0",
 					"release": "2024-11-15",
 					"recovery": "manet-ota_full-OS2.0.1.2.VNMCNXM-user-15.0-965cc6efff.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				}
 			}
 		},
@@ -120,6 +128,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -141,7 +150,8 @@
 					"release": "2026-04-14",
 					"recovery": "manet-ota_full-OS3.0.302.0.WNMCNXM-user-16.0-0e6bd97f8c.zip",
 					"fastboot": "manet_images_OS3.0.302.0.WNMCNXM_20260403.0000.00_16.0_cn_925e5a137c.tgz",
-					"ctelecom": "manet_images_OS3.0.302.0.WNMCNXM_20260403.0000.00_16.0_cn_chinatelecom_75f8eb6026.tgz"
+					"ctelecom": "manet_images_OS3.0.302.0.WNMCNXM_20260403.0000.00_16.0_cn_chinatelecom_75f8eb6026.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.9.0.WNMCNXM": {
 					"os": "OS3.0.9.0.WNMCNXM",
@@ -149,7 +159,8 @@
 					"release": "2026-01-23",
 					"recovery": "manet-ota_full-OS3.0.9.0.WNMCNXM-user-16.0-b0adef7e0c.zip",
 					"fastboot": "manet_images_OS3.0.9.0.WNMCNXM_20260113.0000.00_16.0_cn_1aed6d19db.tgz",
-					"ctelecom": "manet_images_OS3.0.9.0.WNMCNXM_20260113.0000.00_16.0_cn_chinatelecom_c2565c99f9.tgz"
+					"ctelecom": "manet_images_OS3.0.9.0.WNMCNXM_20260113.0000.00_16.0_cn_chinatelecom_c2565c99f9.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.7.0.WNMCNXM": {
 					"os": "OS3.0.7.0.WNMCNXM",
@@ -157,7 +168,8 @@
 					"release": "2025-12-21",
 					"recovery": "manet-ota_full-OS3.0.7.0.WNMCNXM-user-16.0-c0b78b5946.zip",
 					"fastboot": "manet_images_OS3.0.7.0.WNMCNXM_20251215.0000.00_16.0_cn_560973c8bc.tgz",
-					"ctelecom": "manet_images_OS3.0.7.0.WNMCNXM_20251215.0000.00_16.0_cn_chinatelecom_9e23a85aee.tgz"
+					"ctelecom": "manet_images_OS3.0.7.0.WNMCNXM_20251215.0000.00_16.0_cn_chinatelecom_9e23a85aee.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.6.0.WNMCNXM": {
 					"os": "OS3.0.6.0.WNMCNXM",
@@ -165,7 +177,8 @@
 					"release": "2025-12-04",
 					"recovery": "manet-ota_full-OS3.0.6.0.WNMCNXM-user-16.0-ae22325e52.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.4.0.WNMCNXM": {
 					"os": "OS3.0.4.0.WNMCNXM",
@@ -173,7 +186,8 @@
 					"release": "2025-11-13",
 					"recovery": "manet-ota_full-OS3.0.4.0.WNMCNXM-user-16.0-4e18999115.zip",
 					"fastboot": "manet_images_OS3.0.4.0.WNMCNXM_20251109.0000.00_16.0_cn_585b509e34.tgz",
-					"ctelecom": "manet_images_OS3.0.4.0.WNMCNXM_20251109.0000.00_16.0_cn_chinatelecom_9de2607420.tgz"
+					"ctelecom": "manet_images_OS3.0.4.0.WNMCNXM_20251109.0000.00_16.0_cn_chinatelecom_9de2607420.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.208.0.VNMCNXM": {
 					"os": "OS2.0.208.0.VNMCNXM",
@@ -181,7 +195,8 @@
 					"release": "2025-09-25",
 					"recovery": "manet-ota_full-OS2.0.208.0.VNMCNXM-user-15.0-a72c0b6da6.zip",
 					"fastboot": "manet_images_OS2.0.208.0.VNMCNXM_20250918.0000.00_15.0_cn_1306f9617f.tgz",
-					"ctelecom": "manet_images_OS2.0.208.0.VNMCNXM_20250918.0000.00_15.0_cn_chinatelecom_532ee8d538.tgz"
+					"ctelecom": "manet_images_OS2.0.208.0.VNMCNXM_20250918.0000.00_15.0_cn_chinatelecom_532ee8d538.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.206.0.VNMCNXM": {
 					"os": "OS2.0.206.0.VNMCNXM",
@@ -189,7 +204,8 @@
 					"release": "2025-08-20",
 					"recovery": "manet-ota_full-OS2.0.206.0.VNMCNXM-user-15.0-058cb55afc.zip",
 					"fastboot": "manet_images_OS2.0.206.0.VNMCNXM_20250813.0000.00_15.0_cn_f2bae36c0d.tgz",
-					"ctelecom": "manet_images_OS2.0.206.0.VNMCNXM_20250813.0000.00_15.0_cn_chinatelecom_f620b213bc.tgz"
+					"ctelecom": "manet_images_OS2.0.206.0.VNMCNXM_20250813.0000.00_15.0_cn_chinatelecom_f620b213bc.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.205.0.VNMCNXM": {
 					"os": "OS2.0.205.0.VNMCNXM",
@@ -197,7 +213,8 @@
 					"release": "2025-08-06",
 					"recovery": "manet-ota_full-OS2.0.205.0.VNMCNXM-user-15.0-43c839b01e.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VNMCNXM": {
 					"os": "OS2.0.204.0.VNMCNXM",
@@ -205,7 +222,8 @@
 					"release": "2025-07-25",
 					"recovery": "manet-ota_full-OS2.0.204.0.VNMCNXM-user-15.0-3c8ee66cf6.zip",
 					"fastboot": "manet_images_OS2.0.204.0.VNMCNXM_20250711.0000.00_15.0_cn_c5f9bd0be6.tgz",
-					"ctelecom": "manet_images_OS2.0.204.0.VNMCNXM_20250711.0000.00_15.0_cn_chinatelecom_ea2e0a40fc.tgz"
+					"ctelecom": "manet_images_OS2.0.204.0.VNMCNXM_20250711.0000.00_15.0_cn_chinatelecom_ea2e0a40fc.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.203.0.VNMCNXM": {
 					"os": "OS2.0.203.0.VNMCNXM",
@@ -213,7 +231,8 @@
 					"release": "2025-06-06",
 					"recovery": "manet-ota_full-OS2.0.203.0.VNMCNXM-user-15.0-4c6c5d2bac.zip",
 					"fastboot": "manet_images_OS2.0.203.0.VNMCNXM_20250605.0000.00_15.0_cn_046782ffad.tgz",
-					"ctelecom": "manet_images_OS2.0.203.0.VNMCNXM_20250605.0000.00_15.0_cn_chinatelecom_bc627adbf4.tgz"
+					"ctelecom": "manet_images_OS2.0.203.0.VNMCNXM_20250605.0000.00_15.0_cn_chinatelecom_bc627adbf4.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.201.0.VNMCNXM": {
 					"os": "OS2.0.201.0.VNMCNXM",
@@ -221,7 +240,8 @@
 					"release": "2025-05-28",
 					"recovery": "manet-ota_full-OS2.0.201.0.VNMCNXM-user-15.0-e1a39d5fee.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.110.0.VNMCNXM": {
 					"os": "OS2.0.110.0.VNMCNXM",
@@ -229,7 +249,8 @@
 					"release": "2025-04-24",
 					"recovery": "manet-ota_full-OS2.0.110.0.VNMCNXM-user-15.0-3f988ec299.zip",
 					"fastboot": "manet_images_OS2.0.110.0.VNMCNXM_20250414.0000.00_15.0_cn_a08b378823.tgz",
-					"ctelecom": "manet_images_OS2.0.110.0.VNMCNXM_20250414.0000.00_15.0_cn_chinatelecom_387fe3bd35.tgz"
+					"ctelecom": "manet_images_OS2.0.110.0.VNMCNXM_20250414.0000.00_15.0_cn_chinatelecom_387fe3bd35.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.109.0.VNMCNXM": {
 					"os": "OS2.0.109.0.VNMCNXM",
@@ -237,7 +258,8 @@
 					"release": "2025-03-28",
 					"recovery": "manet-ota_full-OS2.0.109.0.VNMCNXM-user-15.0-60ebe128fc.zip",
 					"fastboot": "manet_images_OS2.0.109.0.VNMCNXM_20250322.0000.00_15.0_cn_071db9c4bb.tgz",
-					"ctelecom": "manet_images_OS2.0.109.0.VNMCNXM_20250322.0000.00_15.0_cn_chinatelecom_85239a6496.tgz"
+					"ctelecom": "manet_images_OS2.0.109.0.VNMCNXM_20250322.0000.00_15.0_cn_chinatelecom_85239a6496.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.104.0.VNMCNXM": {
 					"os": "OS2.0.104.0.VNMCNXM",
@@ -245,7 +267,8 @@
 					"release": "2025-02-21",
 					"recovery": "manet-ota_full-OS2.0.104.0.VNMCNXM-user-15.0-5e303c2242.zip",
 					"fastboot": "manet_images_OS2.0.104.0.VNMCNXM_20250218.0000.00_15.0_cn_53439ebf94.tgz",
-					"ctelecom": "manet_images_OS2.0.104.0.VNMCNXM_20250218.0000.00_15.0_cn_chinatelecom_c234cb9057.tgz"
+					"ctelecom": "manet_images_OS2.0.104.0.VNMCNXM_20250218.0000.00_15.0_cn_chinatelecom_c234cb9057.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.101.0.VNMCNXM": {
 					"os": "OS2.0.101.0.VNMCNXM",
@@ -253,7 +276,8 @@
 					"release": "2025-01-14",
 					"recovery": "manet-ota_full-OS2.0.101.0.VNMCNXM-user-15.0-bedfaaa689.zip",
 					"fastboot": "manet_images_OS2.0.101.0.VNMCNXM_20250108.0000.00_15.0_cn_8354004e94.tgz",
-					"ctelecom": "manet_images_OS2.0.101.0.VNMCNXM_20250108.0000.00_15.0_cn_chinatelecom_a3ffa7d5b7.tgz"
+					"ctelecom": "manet_images_OS2.0.101.0.VNMCNXM_20250108.0000.00_15.0_cn_chinatelecom_a3ffa7d5b7.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.7.0.VNMCNXM": {
 					"os": "OS2.0.7.0.VNMCNXM",
@@ -261,7 +285,8 @@
 					"release": "2024-12-26",
 					"recovery": "manet-ota_full-OS2.0.7.0.VNMCNXM-user-15.0-68ad993489.zip",
 					"fastboot": "manet_images_OS2.0.7.0.VNMCNXM_20241219.0000.00_15.0_cn_3fa31bea09.tgz",
-					"ctelecom": "manet_images_OS2.0.7.0.VNMCNXM_20241219.0000.00_15.0_cn_chinatelecom_bcdba8d36c.tgz"
+					"ctelecom": "manet_images_OS2.0.7.0.VNMCNXM_20241219.0000.00_15.0_cn_chinatelecom_bcdba8d36c.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.5.0.VNMCNXM": {
 					"os": "OS2.0.5.0.VNMCNXM",
@@ -269,7 +294,8 @@
 					"release": "2024-12-02",
 					"recovery": "manet-ota_full-OS2.0.5.0.VNMCNXM-user-15.0-9b6a3a0ef3.zip",
 					"fastboot": "manet_images_OS2.0.5.0.VNMCNXM_20241128.0000.00_15.0_cn_c7e8dd9014.tgz",
-					"ctelecom": "manet_images_OS2.0.5.0.VNMCNXM_20241128.0000.00_15.0_cn_chinatelecom_055d0da035.tgz"
+					"ctelecom": "manet_images_OS2.0.5.0.VNMCNXM_20241128.0000.00_15.0_cn_chinatelecom_055d0da035.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.4.0.VNMCNXM": {
 					"os": "OS2.0.4.0.VNMCNXM",
@@ -277,7 +303,8 @@
 					"release": "2024-11-21",
 					"recovery": "manet-ota_full-OS2.0.4.0.VNMCNXM-user-15.0-fc1122e3e7.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.22.0.UNMCNXM": {
 					"os": "OS1.0.22.0.UNMCNXM",
@@ -285,7 +312,8 @@
 					"release": "2024-10-26",
 					"recovery": "miui_MANET_OS1.0.22.0.UNMCNXM_fabcc29173_14.0.zip",
 					"fastboot": "manet_images_OS1.0.22.0.UNMCNXM_20241017.0000.00_14.0_cn_bba27a3481.tgz",
-					"ctelecom": "manet_images_OS1.0.22.0.UNMCNXM_20241017.0000.00_14.0_cn_chinatelecom_8bd694d1a0.tgz"
+					"ctelecom": "manet_images_OS1.0.22.0.UNMCNXM_20241017.0000.00_14.0_cn_chinatelecom_8bd694d1a0.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.21.0.UNMCNXM": {
 					"os": "OS1.0.21.0.UNMCNXM",
@@ -293,7 +321,8 @@
 					"release": "2024-09-24",
 					"recovery": "miui_MANET_OS1.0.21.0.UNMCNXM_6e249564a8_14.0.zip",
 					"fastboot": "manet_images_OS1.0.21.0.UNMCNXM_20240917.0000.00_14.0_cn_15ad64b5df.tgz",
-					"ctelecom": "manet_images_OS1.0.21.0.UNMCNXM_20240917.0000.00_14.0_cn_chinatelecom_e8c5e1232b.tgz"
+					"ctelecom": "manet_images_OS1.0.21.0.UNMCNXM_20240917.0000.00_14.0_cn_chinatelecom_e8c5e1232b.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.20.0.UNMCNXM": {
 					"os": "OS1.0.20.0.UNMCNXM",
@@ -301,7 +330,8 @@
 					"release": "2024-08-14",
 					"recovery": "miui_MANET_OS1.0.20.0.UNMCNXM_d187022026_14.0.zip",
 					"fastboot": "manet_images_OS1.0.20.0.UNMCNXM_20240801.0000.00_14.0_cn_f546cafb54.tgz",
-					"ctelecom": "manet_images_OS1.0.20.0.UNMCNXM_20240801.0000.00_14.0_cn_chinatelecom_716dc14311.tgz"
+					"ctelecom": "manet_images_OS1.0.20.0.UNMCNXM_20240801.0000.00_14.0_cn_chinatelecom_716dc14311.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.18.0.UNMCNXM": {
 					"os": "OS1.0.18.0.UNMCNXM",
@@ -309,7 +339,8 @@
 					"release": "2024-07-06",
 					"recovery": "miui_MANET_OS1.0.18.0.UNMCNXM_b1678fb3d7_14.0.zip",
 					"fastboot": "manet_images_OS1.0.18.0.UNMCNXM_20240703.0000.00_14.0_cn_f9076a8569.tgz",
-					"ctelecom": "manet_images_OS1.0.18.0.UNMCNXM_20240703.0000.00_14.0_cn_chinatelecom_daf9e93cd5.tgz"
+					"ctelecom": "manet_images_OS1.0.18.0.UNMCNXM_20240703.0000.00_14.0_cn_chinatelecom_daf9e93cd5.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.17.0.UNMCNXM": {
 					"os": "OS1.0.17.0.UNMCNXM",
@@ -317,7 +348,8 @@
 					"release": "2024-06-29",
 					"recovery": "miui_MANET_OS1.0.17.0.UNMCNXM_a3a4a19743_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.15.0.UNMCNXM": {
 					"os": "OS1.0.15.0.UNMCNXM",
@@ -325,7 +357,8 @@
 					"release": "2024-06-03",
 					"recovery": "miui_MANET_OS1.0.15.0.UNMCNXM_9348bd98ff_14.0.zip",
 					"fastboot": "manet_images_OS1.0.15.0.UNMCNXM_20240528.0000.00_14.0_cn_90d54add9e.tgz",
-					"ctelecom": "manet_images_OS1.0.15.0.UNMCNXM_20240528.0000.00_14.0_cn_chinatelecom_e72cf6f388.tgz"
+					"ctelecom": "manet_images_OS1.0.15.0.UNMCNXM_20240528.0000.00_14.0_cn_chinatelecom_e72cf6f388.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.13.0.UNMCNXM": {
 					"os": "OS1.0.13.0.UNMCNXM",
@@ -333,7 +366,8 @@
 					"release": "2024-03-15",
 					"recovery": "miui_MANET_OS1.0.13.0.UNMCNXM_3eaea62808_14.0.zip",
 					"fastboot": "manet_images_OS1.0.13.0.UNMCNXM_20240227.0000.00_14.0_cn_0e88431fee.tgz",
-					"ctelecom": "manet_images_OS1.0.13.0.UNMCNXM_20240227.0000.00_14.0_cn_chinatelecom_05c219f6aa.tgz"
+					"ctelecom": "manet_images_OS1.0.13.0.UNMCNXM_20240227.0000.00_14.0_cn_chinatelecom_05c219f6aa.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.12.0.UNMCNXM": {
 					"os": "OS1.0.12.0.UNMCNXM",
@@ -341,7 +375,8 @@
 					"release": "2024-01-19",
 					"recovery": "miui_MANET_OS1.0.12.0.UNMCNXM_da52f2413a_14.0.zip",
 					"fastboot": "manet_images_OS1.0.12.0.UNMCNXM_20240114.0000.00_14.0_cn_75645f1054.tgz",
-					"ctelecom": "manet_images_OS1.0.12.0.UNMCNXM_20240114.0000.00_14.0_cn_chinatelecom_d5fd071ea8.tgz"
+					"ctelecom": "manet_images_OS1.0.12.0.UNMCNXM_20240114.0000.00_14.0_cn_chinatelecom_d5fd071ea8.tgz",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.9.0.UNMCNXM": {
 					"os": "OS1.0.9.0.UNMCNXM",
@@ -349,7 +384,8 @@
 					"release": "2023-12-25",
 					"recovery": "miui_MANET_OS1.0.9.0.UNMCNXM_4a4df85ffb_14.0.zip",
 					"fastboot": "manet_images_OS1.0.9.0.UNMCNXM_20231219.0000.00_14.0_cn_aca3b038b7.tgz",
-					"ctelecom": "manet_images_OS1.0.9.0.UNMCNXM_20231219.0000.00_14.0_cn_chinatelecom_6a2469057d.tgz"
+					"ctelecom": "manet_images_OS1.0.9.0.UNMCNXM_20231219.0000.00_14.0_cn_chinatelecom_6a2469057d.tgz",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.8.0.UNMCNXM": {
 					"os": "OS1.0.8.0.UNMCNXM",
@@ -357,7 +393,8 @@
 					"release": "2023-12-17",
 					"recovery": "miui_MANET_OS1.0.8.0.UNMCNXM_6b6b949c3a_14.0.zip",
 					"fastboot": "manet_images_OS1.0.8.0.UNMCNXM_20231212.0000.00_14.0_cn_c6760f43b7.tgz",
-					"ctelecom": "manet_images_OS1.0.8.0.UNMCNXM_20231212.0000.00_14.0_cn_chinatelecom_750b5d3aab.tgz"
+					"ctelecom": "manet_images_OS1.0.8.0.UNMCNXM_20231212.0000.00_14.0_cn_chinatelecom_750b5d3aab.tgz",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.7.0.UNMCNXM": {
 					"os": "OS1.0.7.0.UNMCNXM",
@@ -365,7 +402,8 @@
 					"release": "2023-12-15",
 					"recovery": "miui_MANET_OS1.0.7.0.UNMCNXM_8dba150437_14.0.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.6.0.UNMCNXM": {
 					"os": "OS1.0.6.0.UNMCNXM",
@@ -373,7 +411,8 @@
 					"release": "2023-12-05",
 					"recovery": "miui_MANET_OS1.0.6.0.UNMCNXM_c89eece155_14.0.zip",
 					"fastboot": "manet_images_OS1.0.6.0.UNMCNXM_20231202.0000.00_14.0_cn_03b7236fc9.tgz",
-					"ctelecom": "manet_images_OS1.0.6.0.UNMCNXM_20231202.0000.00_14.0_cn_chinatelecom_41499ceae4.tgz"
+					"ctelecom": "manet_images_OS1.0.6.0.UNMCNXM_20231202.0000.00_14.0_cn_chinatelecom_41499ceae4.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.4.0.UNMCNXM": {
 					"os": "OS1.0.4.0.UNMCNXM",
@@ -381,7 +420,8 @@
 					"release": "2023-11-29",
 					"recovery": "miui_MANET_OS1.0.4.0.UNMCNXM_013c13dda0_14.0.zip",
 					"fastboot": "manet_images_OS1.0.4.0.UNMCNXM_20231124.0000.00_14.0_cn_5fbc0eb96e.tgz",
-					"ctelecom": "manet_images_OS1.0.4.0.UNMCNXM_20231124.0000.00_14.0_cn_chinatelecom_9222a698f8.tgz"
+					"ctelecom": "manet_images_OS1.0.4.0.UNMCNXM_20231124.0000.00_14.0_cn_chinatelecom_9222a698f8.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.1.0.UNMCNXM": {
 					"os": "OS1.0.1.0.UNMCNXM",
@@ -389,7 +429,8 @@
 					"release": "2023-11-29",
 					"recovery": "miui_MANET_OS1.0.1.0.UNMCNXM_188b587020_14.0.zip",
 					"fastboot": "manet_images_OS1.0.1.0.UNMCNXM_20231110.0000.00_14.0_cn_710ca6907d.tgz",
-					"ctelecom": "manet_images_OS1.0.1.0.UNMCNXM_20231110.0000.00_14.0_cn_chinatelecom_a67c231ef4.tgz"
+					"ctelecom": "manet_images_OS1.0.1.0.UNMCNXM_20231110.0000.00_14.0_cn_chinatelecom_a67c231ef4.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -411,6 +452,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -432,7 +474,8 @@
 					"release": "2024-09-13",
 					"recovery": "miui_MANETDEMO_OS1.0.7.0.UNMCNDM_049e15a837_14.0.zip",
 					"fastboot": "manet_demo_images_OS1.0.7.0.UNMCNDM_20240909.0000.00_14.0_cn_859c609aeb.tgz",
-					"ctelecom": "manet_demo_images_OS1.0.7.0.UNMCNDM_20240909.0000.00_14.0_cn_chinatelecom_5de567cfeb.tgz"
+					"ctelecom": "manet_demo_images_OS1.0.7.0.UNMCNDM_20240909.0000.00_14.0_cn_chinatelecom_5de567cfeb.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.6.0.UNMCNDM": {
 					"os": "OS1.0.6.0.UNMCNDM",
@@ -440,7 +483,8 @@
 					"release": "2024-01-18",
 					"recovery": "miui_MANETDEMO_OS1.0.6.0.UNMCNDM_6c5977f058_14.0.zip",
 					"fastboot": "manet_demo_images_OS1.0.6.0.UNMCNDM_20240118.0000.00_14.0_cn_fee6523c46.tgz",
-					"ctelecom": "manet_demo_images_OS1.0.6.0.UNMCNDM_20240118.0000.00_14.0_cn_chinatelecom_d5e2716203.tgz"
+					"ctelecom": "manet_demo_images_OS1.0.6.0.UNMCNDM_20240118.0000.00_14.0_cn_chinatelecom_d5e2716203.tgz",
+					"aspatch": "2023-12-01"
 				},
 				"OS1.0.4.0.UNMCNDM": {
 					"os": "OS1.0.4.0.UNMCNDM",
@@ -448,7 +492,8 @@
 					"release": "2023-12-02",
 					"recovery": "miui_MANETDEMO_OS1.0.4.0.UNMCNDM_aaa713de28_14.0.zip",
 					"fastboot": "manet_demo_images_OS1.0.4.0.UNMCNDM_20231202.0000.00_14.0_cn_ebb38145b7.tgz",
-					"ctelecom": "manet_demo_images_OS1.0.4.0.UNMCNDM_20231202.0000.00_14.0_cn_chinatelecom_45c1b2e2fc.tgz"
+					"ctelecom": "manet_demo_images_OS1.0.4.0.UNMCNDM_20231202.0000.00_14.0_cn_chinatelecom_45c1b2e2fc.tgz",
+					"aspatch": "2023-11-01"
 				},
 				"OS1.0.2.0.UNMCNDM": {
 					"os": "OS1.0.2.0.UNMCNDM",
@@ -456,7 +501,8 @@
 					"release": "2023-11-27",
 					"recovery": "miui_MANETDEMO_OS1.0.2.0.UNMCNDM_aac6a2ea20_14.0.zip",
 					"fastboot": "manet_demo_images_OS1.0.2.0.UNMCNDM_20231127.0000.00_14.0_cn_d08f9ff8ee.tgz",
-					"ctelecom": "manet_demo_images_OS1.0.2.0.UNMCNDM_20231127.0000.00_14.0_cn_chinatelecom_f0ff22dbc5.tgz"
+					"ctelecom": "manet_demo_images_OS1.0.2.0.UNMCNDM_20231127.0000.00_14.0_cn_chinatelecom_f0ff22dbc5.tgz",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -478,6 +524,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -499,7 +546,8 @@
 					"release": "2024-10-09",
 					"recovery": "miui_MANETEPSTDEE_OS1.0.24.9.25.1.EP.STDEE.N11U_1f2105af8d_14.0.zip",
 					"fastboot": "manet_ep_stdee_images_OS1.0.24.9.25.1.EP.STDEE.N11U_20240925.0000.00_14.0_cn_df5d3b5667.tgz",
-					"ctelecom": "manet_ep_stdee_images_OS1.0.24.9.25.1.EP.STDEE.N11U_20240925.0000.00_14.0_cn_chinatelecom_9260504eaf.tgz"
+					"ctelecom": "manet_ep_stdee_images_OS1.0.24.9.25.1.EP.STDEE.N11U_20240925.0000.00_14.0_cn_chinatelecom_9260504eaf.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.24.2.5.EP.STDEE.N11U": {
 					"os": "OS1.0.24.2.5.EP.STDEE.N11U",
@@ -507,7 +555,8 @@
 					"release": "2024-04-01",
 					"recovery": "miui_MANETEPSTDEE_OS1.0.24.2.5.EP.STDEE.N11U_9fad394b4b_14.0.zip",
 					"fastboot": "manet_ep_stdee_images_OS1.0.24.2.5.EP.STDEE.N11U_20240205.0000.00_14.0_cn_86f797da1d.tgz",
-					"ctelecom": "manet_ep_stdee_images_OS1.0.24.2.5.EP.STDEE.N11U_20240205.0000.00_14.0_cn_chinatelecom_c9029792f1.tgz"
+					"ctelecom": "manet_ep_stdee_images_OS1.0.24.2.5.EP.STDEE.N11U_20240205.0000.00_14.0_cn_chinatelecom_c9029792f1.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		}

@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -52,49 +53,56 @@
 					"android": "16.0",
 					"release": "2026-06-12",
 					"recovery": "myron-ota_full-OS3.0.306.4.WPMCNXM-user-16.0-c316fcd501.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.305.10.WPMCNXM": {
 					"os": "OS3.0.305.10.WPMCNXM",
 					"android": "16.0",
 					"release": "2026-04-22",
 					"recovery": "myron-ota_full-OS3.0.305.10.WPMCNXM-user-16.0-7a28ccbc52.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.305.4.WPMCNXM": {
 					"os": "OS3.0.305.4.WPMCNXM",
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "myron-ota_full-OS3.0.305.4.WPMCNXM-user-16.0-e0aa63b298.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.304.2.WPMCNXM": {
 					"os": "OS3.0.304.2.WPMCNXM",
 					"android": "16.0",
 					"release": "2026-03-13",
 					"recovery": "myron-ota_full-OS3.0.304.2.WPMCNXM-user-16.0-512ec19dde.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.7.WPMCNXM": {
 					"os": "OS3.0.300.7.WPMCNXM",
 					"android": "16.0",
 					"release": "2026-02-27",
 					"recovery": "myron-ota_full-OS3.0.300.7.WPMCNXM-user-16.0-c3a475dea2.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.4.WPMCNXM": {
 					"os": "OS3.0.300.4.WPMCNXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "myron-ota_full-OS3.0.300.4.WPMCNXM-user-16.0-b93a509cc0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.2.WPMCNXM": {
 					"os": "OS3.0.300.2.WPMCNXM",
 					"android": "16.0",
 					"release": "2026-01-22",
 					"recovery": "myron-ota_full-OS3.0.300.2.WPMCNXM-user-16.0-03a0133825.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				}
 			}
 		},
@@ -116,6 +124,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -137,7 +146,8 @@
 					"release": "2026-05-29",
 					"recovery": "myron-ota_full-OS3.0.306.0.WPMCNXM-user-16.0-0b34ee6a73.zip",
 					"fastboot": "myron_images_OS3.0.306.0.WPMCNXM_20260519.0000.00_16.0_cn_142ab138fb.tgz",
-					"ctelecom": "myron_images_OS3.0.306.0.WPMCNXM_20260519.0000.00_16.0_cn_chinatelecom_bad77d0829.tgz"
+					"ctelecom": "myron_images_OS3.0.306.0.WPMCNXM_20260519.0000.00_16.0_cn_chinatelecom_bad77d0829.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.305.0.WPMCNXM": {
 					"os": "OS3.0.305.0.WPMCNXM",
@@ -145,7 +155,8 @@
 					"release": "2026-04-03",
 					"recovery": "myron-ota_full-OS3.0.305.0.WPMCNXM-user-16.0-c0a380ec02.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.303.0.WPMCNXM": {
 					"os": "OS3.0.303.0.WPMCNXM",
@@ -153,7 +164,8 @@
 					"release": "2026-03-11",
 					"recovery": "myron-ota_full-OS3.0.303.0.WPMCNXM-user-16.0-08eeab684e.zip",
 					"fastboot": "myron_images_OS3.0.303.0.WPMCNXM_20260308.0000.00_16.0_cn_ca2cfb5ada.tgz",
-					"ctelecom": "myron_images_OS3.0.303.0.WPMCNXM_20260308.0000.00_16.0_cn_chinatelecom_e326375ebb.tgz"
+					"ctelecom": "myron_images_OS3.0.303.0.WPMCNXM_20260308.0000.00_16.0_cn_chinatelecom_e326375ebb.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.301.0.WPMCNXM": {
 					"os": "OS3.0.301.0.WPMCNXM",
@@ -161,7 +173,8 @@
 					"release": "2026-03-04",
 					"recovery": "myron-ota_full-OS3.0.301.0.WPMCNXM-user-16.0-6c1640a863.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.23.0.WPMCNXM": {
 					"os": "OS3.0.23.0.WPMCNXM",
@@ -169,7 +182,8 @@
 					"release": "2026-01-31",
 					"recovery": "myron-ota_full-OS3.0.23.0.WPMCNXM-user-16.0-a7aa1b5066.zip",
 					"fastboot": "myron_images_OS3.0.23.0.WPMCNXM_20260127.0000.00_16.0_cn_211a9d8ea0.tgz",
-					"ctelecom": "myron_images_OS3.0.23.0.WPMCNXM_20260127.0000.00_16.0_cn_chinatelecom_505365b497.tgz"
+					"ctelecom": "myron_images_OS3.0.23.0.WPMCNXM_20260127.0000.00_16.0_cn_chinatelecom_505365b497.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.20.0.WPMCNXM": {
 					"os": "OS3.0.20.0.WPMCNXM",
@@ -177,7 +191,8 @@
 					"release": "2025-12-19",
 					"recovery": "myron-ota_full-OS3.0.20.0.WPMCNXM-user-16.0-3d9ad349ac.zip",
 					"fastboot": "myron_images_OS3.0.20.0.WPMCNXM_20251216.0000.00_16.0_cn_78035a32a8.tgz",
-					"ctelecom": "myron_images_OS3.0.20.0.WPMCNXM_20251216.0000.00_16.0_cn_chinatelecom_00663ae5ed.tgz"
+					"ctelecom": "myron_images_OS3.0.20.0.WPMCNXM_20251216.0000.00_16.0_cn_chinatelecom_00663ae5ed.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.18.0.WPMCNXM": {
 					"os": "OS3.0.18.0.WPMCNXM",
@@ -185,7 +200,8 @@
 					"release": "2025-12-11",
 					"recovery": "myron-ota_full-OS3.0.18.0.WPMCNXM-user-16.0-5c45fb3742.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.16.0.WPMCNXM": {
 					"os": "OS3.0.16.0.WPMCNXM",
@@ -193,7 +209,8 @@
 					"release": "2025-11-17",
 					"recovery": "myron-ota_full-OS3.0.16.0.WPMCNXM-user-16.0-8526128cc2.zip",
 					"fastboot": "myron_images_OS3.0.16.0.WPMCNXM_20251107.0000.00_16.0_cn_5f8b53ed57.tgz",
-					"ctelecom": "myron_images_OS3.0.16.0.WPMCNXM_20251107.0000.00_16.0_cn_chinatelecom_de71351c62.tgz"
+					"ctelecom": "myron_images_OS3.0.16.0.WPMCNXM_20251107.0000.00_16.0_cn_chinatelecom_de71351c62.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.14.0.WPMCNXM": {
 					"os": "OS3.0.14.0.WPMCNXM",
@@ -201,7 +218,8 @@
 					"release": "2025-11-03",
 					"recovery": "myron-ota_full-OS3.0.14.0.WPMCNXM-user-16.0-e7b2bab2c8.zip",
 					"fastboot": "myron_images_OS3.0.14.0.WPMCNXM_20251028.0000.00_16.0_cn_319e1e51d0.tgz",
-					"ctelecom": "myron_images_OS3.0.14.0.WPMCNXM_20251028.0000.00_16.0_cn_chinatelecom_aeff9710b3.tgz"
+					"ctelecom": "myron_images_OS3.0.14.0.WPMCNXM_20251028.0000.00_16.0_cn_chinatelecom_aeff9710b3.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.13.0.WPMCNXM": {
 					"os": "OS3.0.13.0.WPMCNXM",
@@ -209,7 +227,8 @@
 					"release": "2025-10-27",
 					"recovery": "myron-ota_full-OS3.0.13.0.WPMCNXM-user-16.0-18cc0bfb5e.zip",
 					"fastboot": "myron_images_OS3.0.13.0.WPMCNXM_20251027.0000.00_16.0_cn_a73efcfff3.tgz",
-					"ctelecom": "myron_images_OS3.0.13.0.WPMCNXM_20251027.0000.00_16.0_cn_chinatelecom_952f88b87f.tgz"
+					"ctelecom": "myron_images_OS3.0.13.0.WPMCNXM_20251027.0000.00_16.0_cn_chinatelecom_952f88b87f.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.11.0.WPMCNXM": {
 					"os": "OS3.0.11.0.WPMCNXM",
@@ -217,7 +236,8 @@
 					"release": "2025-10-23",
 					"recovery": "myron-ota_full-OS3.0.11.0.WPMCNXM-user-16.0-b08afa05e5.zip",
 					"fastboot": "myron_images_OS3.0.11.0.WPMCNXM_20251020.0000.00_16.0_cn_f7d3aefaf8.tgz",
-					"ctelecom": "myron_images_OS3.0.11.0.WPMCNXM_20251020.0000.00_16.0_cn_chinatelecom_4fdc492982.tgz"
+					"ctelecom": "myron_images_OS3.0.11.0.WPMCNXM_20251020.0000.00_16.0_cn_chinatelecom_4fdc492982.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.10.0.WPMCNXM": {
 					"os": "OS3.0.10.0.WPMCNXM",
@@ -225,7 +245,8 @@
 					"release": "2025-10-23",
 					"recovery": "myron-ota_full-OS3.0.10.0.WPMCNXM-user-16.0-e293ae88c6.zip",
 					"fastboot": "myron_images_OS3.0.10.0.WPMCNXM_20251018.0000.00_16.0_cn_55f8918ee1.tgz",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.7.0.WPMCNXM": {
 					"os": "OS3.0.7.0.WPMCNXM",
@@ -233,7 +254,8 @@
 					"release": "2025-10-23",
 					"recovery": "myron-ota_full-OS3.0.7.0.WPMCNXM-user-16.0-a09675910b.zip",
 					"fastboot": "myron_images_OS3.0.7.0.WPMCNXM_20251012.0000.00_16.0_cn_8424a5cb6f.tgz",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.6.0.WPMCNXM": {
 					"os": "OS3.0.6.0.WPMCNXM",
@@ -241,7 +263,8 @@
 					"release": "2025-10-23",
 					"recovery": "myron-ota_full-OS3.0.6.0.WPMCNXM-user-16.0-dcc36023f5.zip",
 					"fastboot": "myron_images_OS3.0.6.0.WPMCNXM_20251010.0000.00_16.0_cn_4be68a5488.tgz",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				},
 				"OS3.0.4.0.WPMCNXM": {
 					"os": "OS3.0.4.0.WPMCNXM",
@@ -249,7 +272,8 @@
 					"release": "2025-10-23",
 					"recovery": "myron-ota_full-OS3.0.4.0.WPMCNXM-user-16.0-52ed874222.zip",
 					"fastboot": "myron_images_OS3.0.4.0.WPMCNXM_20251001.0000.00_16.0_cn_1572ed52b6.tgz",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-10-01"
 				}
 			}
 		},
@@ -271,6 +295,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -292,7 +317,8 @@
 					"release": "2026-01-05",
 					"recovery": "myron_demo-ota_full-OS3.0.3.0.WPMCNDM-user-16.0-4e3d81110d.zip",
 					"fastboot": "myron_demo_images_OS3.0.3.0.WPMCNDM_20251222.0000.00_16.0_cn_a2ac6e2e75.tgz",
-					"ctelecom": "myron_demo_images_OS3.0.3.0.WPMCNDM_20251222.0000.00_16.0_cn_chinatelecom_57391a38e7.tgz"
+					"ctelecom": "myron_demo_images_OS3.0.3.0.WPMCNDM_20251222.0000.00_16.0_cn_chinatelecom_57391a38e7.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WPMCNDM": {
 					"os": "OS3.0.2.0.WPMCNDM",
@@ -300,7 +326,8 @@
 					"release": "2025-10-23",
 					"recovery": "myron_demo-ota_full-OS3.0.2.0.WPMCNDM-user-16.0-000778853a.zip",
 					"fastboot": "myron_demo_images_OS3.0.2.0.WPMCNDM_20251017.0000.00_16.0_cn_1023790135.tgz",
-					"ctelecom": "myron_demo_images_OS3.0.2.0.WPMCNDM_20251017.0000.00_16.0_cn_chinatelecom_ee91514580.tgz"
+					"ctelecom": "myron_demo_images_OS3.0.2.0.WPMCNDM_20251017.0000.00_16.0_cn_chinatelecom_ee91514580.tgz",
+					"aspatch": "2025-10-01"
 				}
 			}
 		},
@@ -322,6 +349,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -338,28 +366,32 @@
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "myron_tw_global-ota_full-OS3.0.6.0.WPMTWXM-user-16.0-60e137f374.zip",
-					"fastboot": "myron_tw_global_images_OS3.0.6.0.WPMTWXM_20260318.0000.00_16.0_tw_b56fc09a06.tgz"
+					"fastboot": "myron_tw_global_images_OS3.0.6.0.WPMTWXM_20260318.0000.00_16.0_tw_b56fc09a06.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.5.0.WPMTWXM": {
 					"os": "OS3.0.5.0.WPMTWXM",
 					"android": "16.0",
 					"release": "2026-01-21",
 					"recovery": "myron_tw_global-ota_full-OS3.0.5.0.WPMTWXM-user-16.0-fde9c41166.zip",
-					"fastboot": "myron_tw_global_images_OS3.0.5.0.WPMTWXM_20260112.0000.00_16.0_tw_4e7f28a20a.tgz"
+					"fastboot": "myron_tw_global_images_OS3.0.5.0.WPMTWXM_20260112.0000.00_16.0_tw_4e7f28a20a.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.2.0.WPMTWXM": {
 					"os": "OS3.0.2.0.WPMTWXM",
 					"android": "16.0",
 					"release": "2025-12-15",
 					"recovery": "myron_tw_global-ota_full-OS3.0.2.0.WPMTWXM-user-16.0-67fba857a3.zip",
-					"fastboot": "myron_tw_global_images_OS3.0.2.0.WPMTWXM_20251205.0000.00_16.0_tw_87d35e95db.tgz"
+					"fastboot": "myron_tw_global_images_OS3.0.2.0.WPMTWXM_20251205.0000.00_16.0_tw_87d35e95db.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.1.0.WPMTWXM": {
 					"os": "OS3.0.1.0.WPMTWXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "myron_tw_global-ota_full-OS3.0.1.0.WPMTWXM-user-16.0-a855bdf01d.zip",
-					"fastboot": "myron_tw_global_images_OS3.0.1.0.WPMTWXM_20251105.0000.00_16.0_tw_bb58596f1f.tgz"
+					"fastboot": "myron_tw_global_images_OS3.0.1.0.WPMTWXM_20251105.0000.00_16.0_tw_bb58596f1f.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -381,6 +413,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -397,35 +430,40 @@
 					"android": "16.0",
 					"release": "2026-03-30",
 					"recovery": "myron_global-ota_full-OS3.0.13.0.WPMMIXM-user-16.0-8a1bb56c94.zip",
-					"fastboot": "myron_global_images_OS3.0.13.0.WPMMIXM_20260318.0000.00_16.0_global_f893fbd5bd.tgz"
+					"fastboot": "myron_global_images_OS3.0.13.0.WPMMIXM_20260318.0000.00_16.0_global_f893fbd5bd.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.12.0.WPMMIXM": {
 					"os": "OS3.0.12.0.WPMMIXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "myron_global-ota_full-OS3.0.12.0.WPMMIXM-user-16.0-28c6570898.zip",
-					"fastboot": "myron_global_images_OS3.0.12.0.WPMMIXM_20260113.0000.00_16.0_global_328e291027.tgz"
+					"fastboot": "myron_global_images_OS3.0.12.0.WPMMIXM_20260113.0000.00_16.0_global_328e291027.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.11.0.WPMMIXM": {
 					"os": "OS3.0.11.0.WPMMIXM",
 					"android": "16.0",
 					"release": "2026-01-04",
 					"recovery": "myron_global-ota_full-OS3.0.11.0.WPMMIXM-user-16.0-5a7c7ae9d1.zip",
-					"fastboot": "myron_global_images_OS3.0.11.0.WPMMIXM_20251219.0000.00_16.0_global_fdcd28c5ec.tgz"
+					"fastboot": "myron_global_images_OS3.0.11.0.WPMMIXM_20251219.0000.00_16.0_global_fdcd28c5ec.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.9.0.WPMMIXM": {
 					"os": "OS3.0.9.0.WPMMIXM",
 					"android": "16.0",
 					"release": "2025-12-15",
 					"recovery": "myron_global-ota_full-OS3.0.9.0.WPMMIXM-user-16.0-7830dbd924.zip",
-					"fastboot": "myron_global_images_OS3.0.9.0.WPMMIXM_20251205.0000.00_16.0_global_f0bd847727.tgz"
+					"fastboot": "myron_global_images_OS3.0.9.0.WPMMIXM_20251205.0000.00_16.0_global_f0bd847727.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.8.0.WPMMIXM": {
 					"os": "OS3.0.8.0.WPMMIXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "myron_global-ota_full-OS3.0.8.0.WPMMIXM-user-16.0-7ab77c059d.zip",
-					"fastboot": "myron_global_images_OS3.0.8.0.WPMMIXM_20251124.0000.00_16.0_global_4446dbb6de.tgz"
+					"fastboot": "myron_global_images_OS3.0.8.0.WPMMIXM_20251124.0000.00_16.0_global_4446dbb6de.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -447,6 +485,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -463,28 +502,32 @@
 					"android": "16.0",
 					"release": "2026-05-29",
 					"recovery": "myron_eea_global-ota_full-OS3.0.301.0.WPMEUXM-user-16.0-aa3aa56260.zip",
-					"fastboot": "myron_eea_global_images_OS3.0.301.0.WPMEUXM_20260413.0000.00_16.0_eea_33f7e56edb.tgz"
+					"fastboot": "myron_eea_global_images_OS3.0.301.0.WPMEUXM_20260413.0000.00_16.0_eea_33f7e56edb.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.8.0.WPMEUXM": {
 					"os": "OS3.0.8.0.WPMEUXM",
 					"android": "16.0",
 					"release": "2026-03-27",
 					"recovery": "myron_eea_global-ota_full-OS3.0.8.0.WPMEUXM-user-16.0-fd48863eb8.zip",
-					"fastboot": "myron_eea_global_images_OS3.0.8.0.WPMEUXM_20260311.0000.00_16.0_eea_712a237491.tgz"
+					"fastboot": "myron_eea_global_images_OS3.0.8.0.WPMEUXM_20260311.0000.00_16.0_eea_712a237491.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.7.0.WPMEUXM": {
 					"os": "OS3.0.7.0.WPMEUXM",
 					"android": "16.0",
 					"release": "2026-01-21",
 					"recovery": "myron_eea_global-ota_full-OS3.0.7.0.WPMEUXM-user-16.0-c18845911d.zip",
-					"fastboot": "myron_eea_global_images_OS3.0.7.0.WPMEUXM_20260112.0000.00_16.0_eea_cee0eaf4a6.tgz"
+					"fastboot": "myron_eea_global_images_OS3.0.7.0.WPMEUXM_20260112.0000.00_16.0_eea_cee0eaf4a6.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.4.0.WPMEUXM": {
 					"os": "OS3.0.4.0.WPMEUXM",
 					"android": "16.0",
 					"release": "2025-11-26",
 					"recovery": "myron_eea_global-ota_full-OS3.0.4.0.WPMEUXM-user-16.0-0d22480797.zip",
-					"fastboot": "myron_eea_global_images_OS3.0.4.0.WPMEUXM_20251123.0000.00_16.0_eea_8e508ae648.tgz"
+					"fastboot": "myron_eea_global_images_OS3.0.4.0.WPMEUXM_20251123.0000.00_16.0_eea_8e508ae648.tgz",
+					"aspatch": "2025-11-01"
 				}
 			}
 		},
@@ -506,6 +549,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -522,14 +566,16 @@
 					"android": "16.0",
 					"release": "2026-03-26",
 					"recovery": "myron_id_global-ota_full-OS3.0.4.0.WPMIDXM-user-16.0-1f9073b153.zip",
-					"fastboot": "myron_id_global_images_OS3.0.4.0.WPMIDXM_20260318.0000.00_16.0_id_11e1c08c33.tgz"
+					"fastboot": "myron_id_global_images_OS3.0.4.0.WPMIDXM_20260318.0000.00_16.0_id_11e1c08c33.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.3.0.WPMIDXM": {
 					"os": "OS3.0.3.0.WPMIDXM",
 					"android": "16.0",
 					"release": "2026-02-04",
 					"recovery": "myron_id_global-ota_full-OS3.0.3.0.WPMIDXM-user-16.0-fc244d75e6.zip",
-					"fastboot": "myron_id_global_images_OS3.0.3.0.WPMIDXM_20260113.0000.00_16.0_id_01f595a30f.tgz"
+					"fastboot": "myron_id_global_images_OS3.0.3.0.WPMIDXM_20260113.0000.00_16.0_id_01f595a30f.tgz",
+					"aspatch": "2026-01-01"
 				}
 			}
 		}

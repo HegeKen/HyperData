@@ -35,6 +35,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -54,231 +55,264 @@
 					"android": "16.0",
 					"release": "2026-04-28",
 					"recovery": "dada-ota_full-OS3.0.302.3.WOCCNXM-user-16.0-7fdbc8874b.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.300.12.WOCCNXM": {
 					"os": "OS3.0.300.12.WOCCNXM",
 					"android": "16.0",
 					"release": "2026-03-06",
 					"recovery": "dada-ota_full-OS3.0.300.12.WOCCNXM-user-16.0-346be11cce.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.300.7.WOCCNXM": {
 					"os": "OS3.0.300.7.WOCCNXM",
 					"android": "16.0",
 					"release": "2026-02-05",
 					"recovery": "dada-ota_full-OS3.0.300.7.WOCCNXM-user-16.0-565b30e583.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.300.5.WOCCNXM": {
 					"os": "OS3.0.300.5.WOCCNXM",
 					"android": "16.0",
 					"release": "2026-01-30",
 					"recovery": "dada-ota_full-OS3.0.300.5.WOCCNXM-user-16.0-326b317d33.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.6.2.WOCCNXM": {
 					"os": "OS3.0.6.2.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-12-31",
 					"recovery": "dada-ota_full-OS3.0.6.2.WOCCNXM-user-16.0-00010f19a1.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.1.1.WOCCNXM": {
 					"os": "OS3.0.1.1.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-10-10",
 					"recovery": "dada-ota_full-OS3.0.1.1.WOCCNXM-user-16.0-3296d1afb7.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"OS3.0.0.25.WOCCNXM": {
 					"os": "OS3.0.0.25.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-09-25",
 					"recovery": "dada-ota_full-OS3.0.0.25.WOCCNXM-user-16.0-58d6066dcd.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS3.0.0.22.WOCCNXM": {
 					"os": "OS3.0.0.22.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-09-12",
 					"recovery": "dada-ota_full-OS3.0.0.22.WOCCNXM-user-16.0-c3a0e2917a.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS3.0.0.21.WOCCNXM": {
 					"os": "OS3.0.0.21.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-09-10",
 					"recovery": "dada-ota_full-OS3.0.0.21.WOCCNXM-user-16.0-bf7e40b92e.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS3.0.0.20.WOCCNXM": {
 					"os": "OS3.0.0.20.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-09-04",
 					"recovery": "dada-ota_full-OS3.0.0.20.WOCCNXM-user-16.0-6858269d32.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS3.0.0.14.WOCCNXM": {
 					"os": "OS3.0.0.14.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-08-29",
 					"recovery": "dada-ota_full-OS3.0.0.14.WOCCNXM-user-16.0-63fd236d4e.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.230.18.WOCCNXM": {
 					"os": "OS2.0.230.18.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-08-04",
 					"recovery": "dada-ota_full-OS2.0.230.18.WOCCNXM-user-16.0-d064693402.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.230.12.WOCCNXM": {
 					"os": "OS2.0.230.12.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-07-23",
 					"recovery": "dada-ota_full-OS2.0.230.12.WOCCNXM-user-16.0-9aad225c37.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.230.6.WOCCNXM": {
 					"os": "OS2.0.230.6.WOCCNXM",
 					"android": "16.0",
 					"release": "2025-07-03",
 					"recovery": "dada-ota_full-OS2.0.230.6.WOCCNXM-user-16.0-0b35308ee5.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-05"
 				},
 				"OS2.0.214.3.VOCCNXM": {
 					"os": "OS2.0.214.3.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-08-12",
 					"recovery": "dada-ota_full-OS2.0.214.3.VOCCNXM-user-15.0-b13ca22332.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.213.2.VOCCNXM": {
 					"os": "OS2.0.213.2.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-07-10",
 					"recovery": "dada-ota_full-OS2.0.213.2.VOCCNXM-user-15.0-6444752e59.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.201.6.VOCCNXM": {
 					"os": "OS2.0.201.6.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "dada-ota_full-OS2.0.201.6.VOCCNXM-user-15.0-553355716c.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.201.2.VOCCNXM": {
 					"os": "OS2.0.201.2.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-05-16",
 					"recovery": "dada-ota_full-OS2.0.201.2.VOCCNXM-user-15.0-09d8f049ae.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.200.16.VOCCNXM": {
 					"os": "OS2.0.200.16.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-05-08",
 					"recovery": "dada-ota_full-OS2.0.200.16.VOCCNXM-user-15.0-e85f18f75a.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.200.14.VOCCNXM": {
 					"os": "OS2.0.200.14.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-04-27",
 					"recovery": "dada-ota_full-OS2.0.200.14.VOCCNXM-user-15.0-55bcf7c79e.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.200.12.VOCCNXM": {
 					"os": "OS2.0.200.12.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-04-16",
 					"recovery": "dada-ota_full-OS2.0.200.12.VOCCNXM-user-15.0-869a35eeef.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.200.10.VOCCNXM": {
 					"os": "OS2.0.200.10.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-04-08",
 					"recovery": "dada-ota_full-OS2.0.200.10.VOCCNXM-user-15.0-19a7a65266.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.200.9.VOCCNXM": {
 					"os": "OS2.0.200.9.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-04-03",
 					"recovery": "dada-ota_full-OS2.0.200.9.VOCCNXM-user-15.0-1221c28f88.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.200.7.VOCCNXM": {
 					"os": "OS2.0.200.7.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-03-20",
 					"recovery": "dada-ota_full-OS2.0.200.7.VOCCNXM-user-15.0-8761d97b52.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.108.4.VOCCNXM": {
 					"os": "OS2.0.108.4.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-03-08",
 					"recovery": "dada-ota_full-OS2.0.108.4.VOCCNXM-user-15.0-10eb709b88.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.108.3.VOCCNXM": {
 					"os": "OS2.0.108.3.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-03-07",
 					"recovery": "dada-ota_full-OS2.0.108.3.VOCCNXM-user-15.0-165e48faa4.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.107.3.VOCCNXM": {
 					"os": "OS2.0.107.3.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-02-22",
 					"recovery": "dada-ota_full-OS2.0.107.3.VOCCNXM-user-15.0-e08de87139.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.106.2.VOCCNXM": {
 					"os": "OS2.0.106.2.VOCCNXM",
 					"android": "15.0",
 					"release": "2025-02-20",
 					"recovery": "dada-ota_full-OS2.0.106.2.VOCCNXM-user-15.0-2ac94dec62.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.26.11.VOCCNXM": {
 					"os": "OS2.0.26.11.VOCCNXM",
 					"android": "15.0",
 					"release": "2024-12-20",
 					"recovery": "dada-ota_full-OS2.0.26.11.VOCCNXM-user-15.0-4735de17ea.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.26.7.VOCCNXM": {
 					"os": "OS2.0.26.7.VOCCNXM",
 					"android": "15.0",
 					"release": "2024-12-11",
 					"recovery": "dada-ota_full-OS2.0.26.7.VOCCNXM-user-15.0-88f0ce9fcd.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.24.2.VOCCNXM": {
 					"os": "OS2.0.24.2.VOCCNXM",
 					"android": "15.0",
 					"release": "2024-11-28",
 					"recovery": "dada-ota_full-OS2.0.24.2.VOCCNXM-user-15.0-0c69fc5cf6.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.23.2.VOCCNXM": {
 					"os": "OS2.0.23.2.VOCCNXM",
 					"android": "15.0",
 					"release": "2024-11-21",
 					"recovery": "dada-ota_full-OS2.0.23.2.VOCCNXM-user-15.0-d0ffc88a32.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.17.2.VOCCNXM": {
 					"os": "OS2.0.17.2.VOCCNXM",
 					"android": "15.0",
 					"release": "2024-11-09",
 					"recovery": "dada-ota_full-OS2.0.17.2.VOCCNXM-user-15.0-11b6194ff8.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -300,6 +334,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -325,7 +360,8 @@
 					"release": "2026-06-10",
 					"recovery": "dada-ota_full-OS3.0.303.0.WOCCNXM-user-16.0-527efd3838.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2026-06-01"
 				},
 				"OS3.0.302.0.WOCCNXM": {
 					"os": "OS3.0.302.0.WOCCNXM",
@@ -333,7 +369,8 @@
 					"release": "2026-04-23",
 					"recovery": "dada-ota_full-OS3.0.302.0.WOCCNXM-user-16.0-5cf9a95e78.zip",
 					"fastboot": "dada_images_OS3.0.302.0.WOCCNXM_20260407.0000.00_16.0_cn_03b5f57e46.tgz",
-					"ctelecom": "dada_images_OS3.0.302.0.WOCCNXM_20260407.0000.00_16.0_cn_chinatelecom_62c0351f92.tgz"
+					"ctelecom": "dada_images_OS3.0.302.0.WOCCNXM_20260407.0000.00_16.0_cn_chinatelecom_62c0351f92.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.301.0.WOCCNXM": {
 					"os": "OS3.0.301.0.WOCCNXM",
@@ -341,7 +378,8 @@
 					"release": "2026-03-18",
 					"recovery": "dada-ota_full-OS3.0.301.0.WOCCNXM-user-16.0-8e2d57b7dc.zip",
 					"fastboot": "dada_images_OS3.0.301.0.WOCCNXM_20260310.0000.00_16.0_cn_ea56b24ddd.tgz",
-					"ctelecom": "dada_images_OS3.0.301.0.WOCCNXM_20260310.0000.00_16.0_cn_chinatelecom_26d6d0838a.tgz"
+					"ctelecom": "dada_images_OS3.0.301.0.WOCCNXM_20260310.0000.00_16.0_cn_chinatelecom_26d6d0838a.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.7.0.WOCCNXM": {
 					"os": "OS3.0.7.0.WOCCNXM",
@@ -349,7 +387,8 @@
 					"release": "2026-01-20",
 					"recovery": "dada-ota_full-OS3.0.7.0.WOCCNXM-user-16.0-232acd7942.zip",
 					"fastboot": "dada_images_OS3.0.7.0.WOCCNXM_20260113.0000.00_16.0_cn_c2f80ad0f9.tgz",
-					"ctelecom": "dada_images_OS3.0.7.0.WOCCNXM_20260113.0000.00_16.0_cn_chinatelecom_4958295f92.tgz"
+					"ctelecom": "dada_images_OS3.0.7.0.WOCCNXM_20260113.0000.00_16.0_cn_chinatelecom_4958295f92.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.6.0.WOCCNXM": {
 					"os": "OS3.0.6.0.WOCCNXM",
@@ -357,7 +396,8 @@
 					"release": "2025-12-25",
 					"recovery": "dada-ota_full-OS3.0.6.0.WOCCNXM-user-16.0-77e51468a9.zip",
 					"fastboot": "dada_images_OS3.0.6.0.WOCCNXM_20251218.0000.00_16.0_cn_009132c09f.tgz",
-					"ctelecom": "dada_images_OS3.0.6.0.WOCCNXM_20251218.0000.00_16.0_cn_chinatelecom_b9fed22053.tgz"
+					"ctelecom": "dada_images_OS3.0.6.0.WOCCNXM_20251218.0000.00_16.0_cn_chinatelecom_b9fed22053.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.5.0.WOCCNXM": {
 					"os": "OS3.0.5.0.WOCCNXM",
@@ -365,7 +405,8 @@
 					"release": "2025-11-05",
 					"recovery": "dada-ota_full-OS3.0.5.0.WOCCNXM-user-16.0-7d3a2e9c2a.zip",
 					"fastboot": "dada_images_OS3.0.5.0.WOCCNXM_20251029.0000.00_16.0_cn_f85dc266e9.tgz",
-					"ctelecom": "dada_images_OS3.0.5.0.WOCCNXM_20251029.0000.00_16.0_cn_chinatelecom_59b4a4a53d.tgz"
+					"ctelecom": "dada_images_OS3.0.5.0.WOCCNXM_20251029.0000.00_16.0_cn_chinatelecom_59b4a4a53d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.2.0.WOCCNXM": {
 					"os": "OS3.0.2.0.WOCCNXM",
@@ -373,7 +414,8 @@
 					"release": "2025-10-14",
 					"recovery": "dada-ota_full-OS3.0.2.0.WOCCNXM-user-16.0-eedf69a07b.zip",
 					"fastboot": "dada_images_OS3.0.2.0.WOCCNXM_20251011.0000.00_16.0_cn_522e6dd53d.tgz",
-					"ctelecom": "dada_images_OS3.0.2.0.WOCCNXM_20251011.0000.00_16.0_cn_chinatelecom_b1f899a565.tgz"
+					"ctelecom": "dada_images_OS3.0.2.0.WOCCNXM_20251011.0000.00_16.0_cn_chinatelecom_b1f899a565.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.216.0.VOCCNXM": {
 					"os": "OS2.0.216.0.VOCCNXM",
@@ -381,7 +423,8 @@
 					"release": "2025-09-23",
 					"recovery": "dada-ota_full-OS2.0.216.0.VOCCNXM-user-15.0-6703365c83.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.215.0.VOCCNXM": {
 					"os": "OS2.0.215.0.VOCCNXM",
@@ -389,7 +432,8 @@
 					"release": "2025-08-21",
 					"recovery": "dada-ota_full-OS2.0.215.0.VOCCNXM-user-15.0-7ba1fac0a4.zip",
 					"fastboot": "dada_images_OS2.0.215.0.VOCCNXM_20250813.0000.00_15.0_cn_1182206996.tgz",
-					"ctelecom": "dada_images_OS2.0.215.0.VOCCNXM_20250813.0000.00_15.0_cn_chinatelecom_329f85baeb.tgz"
+					"ctelecom": "dada_images_OS2.0.215.0.VOCCNXM_20250813.0000.00_15.0_cn_chinatelecom_329f85baeb.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.214.0.VOCCNXM": {
 					"os": "OS2.0.214.0.VOCCNXM",
@@ -397,7 +441,8 @@
 					"release": "2025-07-18",
 					"recovery": "dada-ota_full-OS2.0.214.0.VOCCNXM-user-15.0-561fb4465a.zip",
 					"fastboot": "dada_images_OS2.0.214.0.VOCCNXM_20250716.0000.00_15.0_cn_9d6f5d3d45.tgz",
-					"ctelecom": "dada_images_OS2.0.214.0.VOCCNXM_20250716.0000.00_15.0_cn_chinatelecom_813a81f9f9.tgz"
+					"ctelecom": "dada_images_OS2.0.214.0.VOCCNXM_20250716.0000.00_15.0_cn_chinatelecom_813a81f9f9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.213.0.VOCCNXM": {
 					"os": "OS2.0.213.0.VOCCNXM",
@@ -405,7 +450,8 @@
 					"release": "2025-07-11",
 					"recovery": "dada-ota_full-OS2.0.213.0.VOCCNXM-user-15.0-71bc682fff.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.212.0.VOCCNXM": {
 					"os": "OS2.0.212.0.VOCCNXM",
@@ -413,7 +459,8 @@
 					"release": "2025-07-04",
 					"recovery": "dada-ota_full-OS2.0.212.0.VOCCNXM-user-15.0-9bc2d9499e.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.206.0.VOCCNXM": {
 					"os": "OS2.0.206.0.VOCCNXM",
@@ -421,7 +468,8 @@
 					"release": "2025-06-08",
 					"recovery": "dada-ota_full-OS2.0.206.0.VOCCNXM-user-15.0-f78adb6a9a.zip",
 					"fastboot": "dada_images_OS2.0.206.0.VOCCNXM_20250603.0000.00_15.0_cn_0f55ec3718.tgz",
-					"ctelecom": "dada_images_OS2.0.206.0.VOCCNXM_20250603.0000.00_15.0_cn_chinatelecom_9407d64754.tgz"
+					"ctelecom": "dada_images_OS2.0.206.0.VOCCNXM_20250603.0000.00_15.0_cn_chinatelecom_9407d64754.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.205.0.VOCCNXM": {
 					"os": "OS2.0.205.0.VOCCNXM",
@@ -429,7 +477,8 @@
 					"release": "2025-05-30",
 					"recovery": "dada-ota_full-OS2.0.205.0.VOCCNXM-user-15.0-461f171f85.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.203.0.VOCCNXM": {
 					"os": "OS2.0.203.0.VOCCNXM",
@@ -437,7 +486,8 @@
 					"release": "2025-05-28",
 					"recovery": "dada-ota_full-OS2.0.203.0.VOCCNXM-user-15.0-205fb28d79.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.118.0.VOCCNXM": {
 					"os": "OS2.0.118.0.VOCCNXM",
@@ -445,7 +495,8 @@
 					"release": "2025-05-26",
 					"recovery": "dada-ota_full-OS2.0.118.0.VOCCNXM-user-15.0-575225eeed.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.116.0.VOCCNXM": {
 					"os": "OS2.0.116.0.VOCCNXM",
@@ -453,7 +504,8 @@
 					"release": "2025-04-17",
 					"recovery": "dada-ota_full-OS2.0.116.0.VOCCNXM-user-15.0-5315ce10b7.zip",
 					"fastboot": "dada_images_OS2.0.116.0.VOCCNXM_20250416.0000.00_15.0_cn_803eb9f8cd.tgz",
-					"ctelecom": "dada_images_OS2.0.116.0.VOCCNXM_20250416.0000.00_15.0_cn_chinatelecom_5700bac5ca.tgz"
+					"ctelecom": "dada_images_OS2.0.116.0.VOCCNXM_20250416.0000.00_15.0_cn_chinatelecom_5700bac5ca.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.115.0.VOCCNXM": {
 					"os": "OS2.0.115.0.VOCCNXM",
@@ -461,7 +513,8 @@
 					"release": "2025-04-15",
 					"recovery": "dada-ota_full-OS2.0.115.0.VOCCNXM-user-15.0-8c52302a31.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.110.0.VOCCNXM": {
 					"os": "OS2.0.110.0.VOCCNXM",
@@ -469,7 +522,8 @@
 					"release": "2025-04-01",
 					"recovery": "dada-ota_full-OS2.0.110.0.VOCCNXM-user-15.0-d75ea71360.zip",
 					"fastboot": "dada_images_OS2.0.110.0.VOCCNXM_20250325.0000.00_15.0_cn_b95d354a39.tgz",
-					"ctelecom": "dada_images_OS2.0.110.0.VOCCNXM_20250325.0000.00_15.0_cn_chinatelecom_1a3fda7305.tgz"
+					"ctelecom": "dada_images_OS2.0.110.0.VOCCNXM_20250325.0000.00_15.0_cn_chinatelecom_1a3fda7305.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.108.0.VOCCNXM": {
 					"os": "OS2.0.108.0.VOCCNXM",
@@ -477,7 +531,8 @@
 					"release": "2025-03-05",
 					"recovery": "dada-ota_full-OS2.0.108.0.VOCCNXM-user-15.0-2530dcf5dc.zip",
 					"fastboot": "dada_images_OS2.0.108.0.VOCCNXM_20250304.0000.00_15.0_cn_f894b6d328.tgz",
-					"ctelecom": "dada_images_OS2.0.108.0.VOCCNXM_20250304.0000.00_15.0_cn_chinatelecom_d406b781d0.tgz"
+					"ctelecom": "dada_images_OS2.0.108.0.VOCCNXM_20250304.0000.00_15.0_cn_chinatelecom_d406b781d0.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.107.0.VOCCNXM": {
 					"os": "OS2.0.107.0.VOCCNXM",
@@ -485,7 +540,8 @@
 					"release": "2025-02-20",
 					"recovery": "dada-ota_full-OS2.0.107.0.VOCCNXM-user-15.0-08b1b74ae1.zip",
 					"fastboot": "dada_images_OS2.0.107.0.VOCCNXM_20250218.0000.00_15.0_cn_3738324358.tgz",
-					"ctelecom": "dada_images_OS2.0.107.0.VOCCNXM_20250218.0000.00_15.0_cn_chinatelecom_9cc73e0ceb.tgz"
+					"ctelecom": "dada_images_OS2.0.107.0.VOCCNXM_20250218.0000.00_15.0_cn_chinatelecom_9cc73e0ceb.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.105.0.VOCCNXM": {
 					"os": "OS2.0.105.0.VOCCNXM",
@@ -493,7 +549,8 @@
 					"release": "2025-02-07",
 					"recovery": "dada-ota_full-OS2.0.105.0.VOCCNXM-user-15.0-b4393cfae9.zip",
 					"fastboot": "dada_images_OS2.0.105.0.VOCCNXM_20250124.0000.00_15.0_cn_01b58f7ea6.tgz",
-					"ctelecom": "dada_images_OS2.0.105.0.VOCCNXM_20250124.0000.00_15.0_cn_chinatelecom_dc2e171d8b.tgz"
+					"ctelecom": "dada_images_OS2.0.105.0.VOCCNXM_20250124.0000.00_15.0_cn_chinatelecom_dc2e171d8b.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.104.0.VOCCNXM": {
 					"os": "OS2.0.104.0.VOCCNXM",
@@ -501,7 +558,8 @@
 					"release": "2025-01-21",
 					"recovery": "dada-ota_full-OS2.0.104.0.VOCCNXM-user-15.0-564f874acc.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.103.0.VOCCNXM": {
 					"os": "OS2.0.103.0.VOCCNXM",
@@ -509,7 +567,8 @@
 					"release": "2025-01-17",
 					"recovery": "dada-ota_full-OS2.0.103.0.VOCCNXM-user-15.0-00cfd8c374.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.101.0.VOCCNXM": {
 					"os": "OS2.0.101.0.VOCCNXM",
@@ -517,7 +576,8 @@
 					"release": "2024-12-27",
 					"recovery": "dada-ota_full-OS2.0.101.0.VOCCNXM-user-15.0-8cd21e2a29.zip",
 					"fastboot": "dada_images_OS2.0.101.0.VOCCNXM_20241224.0000.00_15.0_cn_57637e6090.tgz",
-					"ctelecom": "dada_images_OS2.0.101.0.VOCCNXM_20241224.0000.00_15.0_cn_chinatelecom_d4b02866e1.tgz"
+					"ctelecom": "dada_images_OS2.0.101.0.VOCCNXM_20241224.0000.00_15.0_cn_chinatelecom_d4b02866e1.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.28.0.VOCCNXM": {
 					"os": "OS2.0.28.0.VOCCNXM",
@@ -525,7 +585,8 @@
 					"release": "2024-12-18",
 					"recovery": "dada-ota_full-OS2.0.28.0.VOCCNXM-user-15.0-90ae2f7f5f.zip",
 					"fastboot": "dada_images_OS2.0.28.0.VOCCNXM_20241212.0000.00_15.0_cn_81da0b9269.tgz",
-					"ctelecom": "dada_images_OS2.0.28.0.VOCCNXM_20241212.0000.00_15.0_cn_chinatelecom_f13300cb4d.tgz"
+					"ctelecom": "dada_images_OS2.0.28.0.VOCCNXM_20241212.0000.00_15.0_cn_chinatelecom_f13300cb4d.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.26.0.VOCCNXM": {
 					"os": "OS2.0.26.0.VOCCNXM",
@@ -533,7 +594,8 @@
 					"release": "2024-12-10",
 					"recovery": "dada-ota_full-OS2.0.26.0.VOCCNXM-user-15.0-dcfe511191.zip",
 					"fastboot": "dada_images_OS2.0.26.0.VOCCNXM_20241203.0000.00_15.0_cn_7828f39fea.tgz",
-					"ctelecom": "dada_images_OS2.0.26.0.VOCCNXM_20241203.0000.00_15.0_cn_chinatelecom_a984495268.tgz"
+					"ctelecom": "dada_images_OS2.0.26.0.VOCCNXM_20241203.0000.00_15.0_cn_chinatelecom_a984495268.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.25.0.VOCCNXM": {
 					"os": "OS2.0.25.0.VOCCNXM",
@@ -541,7 +603,8 @@
 					"release": "2024-11-29",
 					"recovery": "dada-ota_full-OS2.0.25.0.VOCCNXM-user-15.0-b1b572d127.zip",
 					"fastboot": "dada_images_OS2.0.25.0.VOCCNXM_20241127.0000.00_15.0_cn_09bbb6e0f2.tgz",
-					"ctelecom": "dada_images_OS2.0.25.0.VOCCNXM_20241127.0000.00_15.0_cn_chinatelecom_a8f5f6aa0a.tgz"
+					"ctelecom": "dada_images_OS2.0.25.0.VOCCNXM_20241127.0000.00_15.0_cn_chinatelecom_a8f5f6aa0a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.23.0.VOCCNXM": {
 					"os": "OS2.0.23.0.VOCCNXM",
@@ -549,7 +612,8 @@
 					"release": "2024-11-21",
 					"recovery": "dada-ota_full-OS2.0.23.0.VOCCNXM-user-15.0-91d547dfe9.zip",
 					"fastboot": "dada_images_OS2.0.23.0.VOCCNXM_20241120.0000.00_15.0_cn_0938527bd0.tgz",
-					"ctelecom": "dada_images_OS2.0.23.0.VOCCNXM_20241120.0000.00_15.0_cn_chinatelecom_f1ad02c49e.tgz"
+					"ctelecom": "dada_images_OS2.0.23.0.VOCCNXM_20241120.0000.00_15.0_cn_chinatelecom_f1ad02c49e.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.22.0.VOCCNXM": {
 					"os": "OS2.0.22.0.VOCCNXM",
@@ -557,7 +621,8 @@
 					"release": "2024-11-18",
 					"recovery": "dada-ota_full-OS2.0.22.0.VOCCNXM-user-15.0-242ba6bc7a.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.20.0.VOCCNXM": {
 					"os": "OS2.0.20.0.VOCCNXM",
@@ -565,7 +630,8 @@
 					"release": "2024-11-13",
 					"recovery": "dada-ota_full-OS2.0.20.0.VOCCNXM-user-15.0-76d4a1a4cb.zip",
 					"fastboot": "dada_images_OS2.0.20.0.VOCCNXM_20241112.0000.00_15.0_cn_64a2e5fdad.tgz",
-					"ctelecom": "dada_images_OS2.0.20.0.VOCCNXM_20241112.0000.00_15.0_cn_chinatelecom_dd24d7532c.tgz"
+					"ctelecom": "dada_images_OS2.0.20.0.VOCCNXM_20241112.0000.00_15.0_cn_chinatelecom_dd24d7532c.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS2.0.17.0.VOCCNXM": {
 					"os": "OS2.0.17.0.VOCCNXM",
@@ -573,7 +639,8 @@
 					"release": "2024-11-08",
 					"recovery": "dada-ota_full-OS2.0.17.0.VOCCNXM-user-15.0-297a18c30a.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-10-01"
 				},
 				"OS2.0.16.0.VOCCNXM": {
 					"os": "OS2.0.16.0.VOCCNXM",
@@ -581,7 +648,8 @@
 					"release": "2024-11-03",
 					"recovery": "dada-ota_full-OS2.0.16.0.VOCCNXM-user-15.0-016777baa5.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-10-01"
 				},
 				"OS2.0.12.0.VOCCNXM": {
 					"os": "OS2.0.12.0.VOCCNXM",
@@ -589,7 +657,8 @@
 					"release": "2024-10-30",
 					"recovery": "dada-ota_full-OS2.0.12.0.VOCCNXM-user-15.0-5b863df2e2.zip",
 					"fastboot": "dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_d9a76abb78.tgz",
-					"ctelecom": "dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_chinatelecom_22c5434a1b.tgz"
+					"ctelecom": "dada_images_OS2.0.12.0.VOCCNXM_20241026.0000.00_15.0_cn_chinatelecom_22c5434a1b.tgz",
+					"aspatch": "2024-09-05"
 				},
 				"OS2.0.8.0.VOCCNXM": {
 					"os": "OS2.0.8.0.VOCCNXM",
@@ -597,7 +666,8 @@
 					"release": "2024-10-30",
 					"recovery": "dada-ota_full-OS2.0.8.0.VOCCNXM-user-15.0-335025b29c.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-09-05"
 				},
 				"OS2.0.7.0.VOCCNXM": {
 					"os": "OS2.0.7.0.VOCCNXM",
@@ -605,7 +675,8 @@
 					"release": "2024-10-30",
 					"recovery": "dada-ota_full-OS2.0.7.0.VOCCNXM-user-15.0-3df38753d8.zip",
 					"fastboot": "",
-					"ctelecom": ""
+					"ctelecom": "",
+					"aspatch": "2024-09-05"
 				}
 			}
 		},
@@ -628,6 +699,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -647,14 +719,16 @@
 					"android": "16.0",
 					"release": "2025-04-27",
 					"recovery": "dada_pre_dpp-ota_full-OS2.0.250427.1.WOCCNXM.PRE-DPP-user-16.0-1e43857eae.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-05"
 				},
 				"OS2.0.250327.1.WOCCNXM.PRE-DPP": {
 					"os": "OS2.0.250327.1.WOCCNXM.PRE-DPP",
 					"android": "16.0",
 					"release": "2025-04-07",
 					"recovery": "dada_pre_dpp-ota_full-OS2.0.250327.1.WOCCNXM.PRE-DPP-user-16.0-93b1d4aa88.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-05"
 				}
 			}
 		},
@@ -676,6 +750,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -697,7 +772,8 @@
 					"release": "2025-12-25",
 					"recovery": "dada_ep_stdee-ota_full-OS3.0.25.12.23.EP.STDEE.O3-user-16.0-1c82c1d88f.zip",
 					"fastboot": "dada_ep_stdee_images_OS3.0.25.12.23.EP.STDEE.O3_20251223.0000.00_16.0_cn_85918f13b6.tgz",
-					"ctelecom": "dada_ep_stdee_images_OS3.0.25.12.23.EP.STDEE.O3_20251223.0000.00_16.0_cn_chinatelecom_4979a13790.tgz"
+					"ctelecom": "dada_ep_stdee_images_OS3.0.25.12.23.EP.STDEE.O3_20251223.0000.00_16.0_cn_chinatelecom_4979a13790.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.25.11.13.EP.STDEE.O3": {
 					"os": "OS3.0.25.11.13.EP.STDEE.O3",
@@ -705,7 +781,8 @@
 					"release": "2025-12-16",
 					"recovery": "dada_ep_stdee-ota_full-OS3.0.25.11.13.EP.STDEE.O3-user-16.0-77e95dd193.zip",
 					"fastboot": "dada_ep_stdee_images_OS3.0.25.11.13.EP.STDEE.O3_20251113.0000.00_16.0_cn_ca3b4e5c4f.tgz",
-					"ctelecom": "dada_ep_stdee_images_OS3.0.25.11.13.EP.STDEE.O3_20251113.0000.00_16.0_cn_chinatelecom_8650030e5c.tgz"
+					"ctelecom": "dada_ep_stdee_images_OS3.0.25.11.13.EP.STDEE.O3_20251113.0000.00_16.0_cn_chinatelecom_8650030e5c.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.7.241219.VOCCNXM.EP.STDEE": {
 					"os": "OS2.0.7.241219.VOCCNXM.EP.STDEE",
@@ -713,7 +790,8 @@
 					"release": "2025-01-07",
 					"recovery": "dada_ep_stdee-ota_full-OS2.0.7.241219.VOCCNXM.EP.STDEE-user-15.0-97caa9f7c1.zip",
 					"fastboot": "dada_ep_stdee_images_OS2.0.7.241219.VOCCNXM.EP.STDEE_20241219.0000.00_15.0_cn_659b694bbb.tgz",
-					"ctelecom": "dada_ep_stdee_images_OS2.0.7.241219.VOCCNXM.EP.STDEE_20241219.0000.00_15.0_cn_chinatelecom_5ce54079d6.tgz"
+					"ctelecom": "dada_ep_stdee_images_OS2.0.7.241219.VOCCNXM.EP.STDEE_20241219.0000.00_15.0_cn_chinatelecom_5ce54079d6.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.7.241101.VOCCNXM.EP.STDEE": {
 					"os": "OS2.0.7.241101.VOCCNXM.EP.STDEE",
@@ -721,7 +799,8 @@
 					"release": "2024-11-25",
 					"recovery": "dada_ep_stdee-ota_full-OS2.0.7.241101.VOCCNXM.EP.STDEE-user-15.0-c477531821.zip",
 					"fastboot": "dada_ep_stdee_images_OS2.0.7.241101.VOCCNXM.EP.STDEE_20241101.0000.00_15.0_cn_78da9841a4.tgz",
-					"ctelecom": "dada_ep_stdee_images_OS2.0.7.241101.VOCCNXM.EP.STDEE_20241101.0000.00_15.0_cn_chinatelecom_69b97eaa25.tgz"
+					"ctelecom": "dada_ep_stdee_images_OS2.0.7.241101.VOCCNXM.EP.STDEE_20241101.0000.00_15.0_cn_chinatelecom_69b97eaa25.tgz",
+					"aspatch": "2024-11-05"
 				}
 			}
 		},
@@ -743,6 +822,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -764,7 +844,8 @@
 					"release": "2025-07-09",
 					"recovery": "dada_demo-ota_full-OS2.0.201.0.VOCCNDM-user-15.0-c139dcd65a.zip",
 					"fastboot": "dada_demo_images_OS2.0.201.0.VOCCNDM_20250704.0000.00_15.0_cn_9b1cc513c1.tgz",
-					"ctelecom": "dada_demo_images_OS2.0.201.0.VOCCNDM_20250704.0000.00_15.0_cn_chinatelecom_30259ff2cd.tgz"
+					"ctelecom": "dada_demo_images_OS2.0.201.0.VOCCNDM_20250704.0000.00_15.0_cn_chinatelecom_30259ff2cd.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.102.0.VOCCNDM": {
 					"os": "OS2.0.102.0.VOCCNDM",
@@ -772,7 +853,8 @@
 					"release": "2025-02-27",
 					"recovery": "dada_demo-ota_full-OS2.0.102.0.VOCCNDM-user-15.0-f168a2f2ee.zip",
 					"fastboot": "dada_demo_images_OS2.0.102.0.VOCCNDM_20250221.0000.00_15.0_cn_3fd41a0027.tgz",
-					"ctelecom": "dada_demo_images_OS2.0.102.0.VOCCNDM_20250221.0000.00_15.0_cn_chinatelecom_d5523dad1d.tgz"
+					"ctelecom": "dada_demo_images_OS2.0.102.0.VOCCNDM_20250221.0000.00_15.0_cn_chinatelecom_d5523dad1d.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.101.0.VOCCNDM": {
 					"os": "OS2.0.101.0.VOCCNDM",
@@ -780,7 +862,8 @@
 					"release": "2025-01-16",
 					"recovery": "dada_demo-ota_full-OS2.0.101.0.VOCCNDM-user-15.0-6767ff79cf.zip",
 					"fastboot": "dada_demo_images_OS2.0.101.0.VOCCNDM_20250113.0000.00_15.0_cn_00d4a8fd04.tgz",
-					"ctelecom": "dada_demo_images_OS2.0.101.0.VOCCNDM_20250113.0000.00_15.0_cn_chinatelecom_7183487352.tgz"
+					"ctelecom": "dada_demo_images_OS2.0.101.0.VOCCNDM_20250113.0000.00_15.0_cn_chinatelecom_7183487352.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS2.0.7.0.VOCCNDM": {
 					"os": "OS2.0.7.0.VOCCNDM",
@@ -788,7 +871,8 @@
 					"release": "2024-12-05",
 					"recovery": "dada_demo-ota_full-OS2.0.7.0.VOCCNDM-user-15.0-ca4dfb597b.zip",
 					"fastboot": "dada_demo_images_OS2.0.7.0.VOCCNDM_20241121.0000.00_15.0_cn_f509587fa5.tgz",
-					"ctelecom": "dada_demo_images_OS2.0.7.0.VOCCNDM_20241121.0000.00_15.0_cn_chinatelecom_3827aa075a.tgz"
+					"ctelecom": "dada_demo_images_OS2.0.7.0.VOCCNDM_20241121.0000.00_15.0_cn_chinatelecom_3827aa075a.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS2.0.6.0.VOCCNDM": {
 					"os": "OS2.0.6.0.VOCCNDM",
@@ -796,7 +880,8 @@
 					"release": "2024-11-04",
 					"recovery": "dada_demo-ota_full-OS2.0.6.0.VOCCNDM-user-15.0-6a0aa042b8.zip",
 					"fastboot": "dada_demo_images_OS2.0.6.0.VOCCNDM_20241102.0000.00_15.0_cn_c9d66a07fd.tgz",
-					"ctelecom": "dada_demo_images_OS2.0.6.0.VOCCNDM_20241102.0000.00_15.0_cn_chinatelecom_16c74838c4.tgz"
+					"ctelecom": "dada_demo_images_OS2.0.6.0.VOCCNDM_20241102.0000.00_15.0_cn_chinatelecom_16c74838c4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS2.0.5.0.VOCCNDM": {
 					"os": "OS2.0.5.0.VOCCNDM",
@@ -804,7 +889,8 @@
 					"release": "2024-11-01",
 					"recovery": "dada_demo-ota_full-OS2.0.5.0.VOCCNDM-user-15.0-e4f6c934c8.zip",
 					"fastboot": "dada_demo_images_OS2.0.5.0.VOCCNDM_20241031.0000.00_15.0_cn_3a62765cfd.tgz",
-					"ctelecom": "dada_demo_images_OS2.0.5.0.VOCCNDM_20241031.0000.00_15.0_cn_chinatelecom_a61151a46a.tgz"
+					"ctelecom": "dada_demo_images_OS2.0.5.0.VOCCNDM_20241031.0000.00_15.0_cn_chinatelecom_a61151a46a.tgz",
+					"aspatch": "2024-09-05"
 				},
 				"OS2.0.4.0.VOCCNDM": {
 					"os": "OS2.0.4.0.VOCCNDM",
@@ -812,7 +898,8 @@
 					"release": "2024-10-29",
 					"recovery": "dada_demo-ota_full-OS2.0.4.0.VOCCNDM-user-15.0-858a0e0d42.zip",
 					"fastboot": "dada_demo_images_OS2.0.4.0.VOCCNDM_20241026.0000.00_15.0_cn_eaabc061fb.tgz",
-					"ctelecom": "dada_demo_images_OS2.0.4.0.VOCCNDM_20241026.0000.00_15.0_cn_chinatelecom_4da10ef36d.tgz"
+					"ctelecom": "dada_demo_images_OS2.0.4.0.VOCCNDM_20241026.0000.00_15.0_cn_chinatelecom_4da10ef36d.tgz",
+					"aspatch": "2024-09-05"
 				}
 			}
 		},
@@ -834,6 +921,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -850,77 +938,88 @@
 					"android": "16.0",
 					"release": "2026-05-08",
 					"recovery": "dada_tw_global-ota_full-OS3.0.301.0.WOCTWXM-user-16.0-64b573b9d1.zip",
-					"fastboot": "dada_tw_global_images_OS3.0.301.0.WOCTWXM_20260428.0000.00_16.0_tw_d29f0fe65e.tgz"
+					"fastboot": "dada_tw_global_images_OS3.0.301.0.WOCTWXM_20260428.0000.00_16.0_tw_d29f0fe65e.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOCTWXM": {
 					"os": "OS3.0.3.0.WOCTWXM",
 					"android": "16.0",
 					"release": "2026-02-09",
 					"recovery": "dada_tw_global-ota_full-OS3.0.3.0.WOCTWXM-user-16.0-2b45d62466.zip",
-					"fastboot": "dada_tw_global_images_OS3.0.3.0.WOCTWXM_20260121.0000.00_16.0_tw_56ceb0ae00.tgz"
+					"fastboot": "dada_tw_global_images_OS3.0.3.0.WOCTWXM_20260121.0000.00_16.0_tw_56ceb0ae00.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOCTWXM": {
 					"os": "OS3.0.1.0.WOCTWXM",
 					"android": "16.0",
 					"release": "2025-12-27",
 					"recovery": "dada_tw_global-ota_full-OS3.0.1.0.WOCTWXM-user-16.0-631d9da140.zip",
-					"fastboot": "dada_tw_global_images_OS3.0.1.0.WOCTWXM_20251211.0000.00_16.0_tw_4625461b9f.tgz"
+					"fastboot": "dada_tw_global_images_OS3.0.1.0.WOCTWXM_20251211.0000.00_16.0_tw_4625461b9f.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOCTWXM": {
 					"os": "OS2.0.203.0.VOCTWXM",
 					"android": "15.0",
 					"release": "2025-12-01",
 					"recovery": "dada_tw_global-ota_full-OS2.0.203.0.VOCTWXM-user-15.0-c7dd401998.zip",
-					"fastboot": "dada_tw_global_images_OS2.0.203.0.VOCTWXM_20251109.0000.00_15.0_tw_028dac9be9.tgz"
+					"fastboot": "dada_tw_global_images_OS2.0.203.0.VOCTWXM_20251109.0000.00_15.0_tw_028dac9be9.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VOCTWXM": {
 					"os": "OS2.0.202.0.VOCTWXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "dada_tw_global-ota_full-OS2.0.202.0.VOCTWXM-user-15.0-fa5a546bec.zip",
-					"fastboot": "dada_tw_global_images_OS2.0.202.0.VOCTWXM_20251021.0000.00_15.0_tw_0844210068.tgz"
+					"fastboot": "dada_tw_global_images_OS2.0.202.0.VOCTWXM_20251021.0000.00_15.0_tw_0844210068.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VOCTWXM": {
 					"os": "OS2.0.201.0.VOCTWXM",
 					"android": "15.0",
 					"release": "2025-09-15",
 					"recovery": "dada_tw_global-ota_full-OS2.0.201.0.VOCTWXM-user-15.0-5d331eefca.zip",
-					"fastboot": "dada_tw_global_images_OS2.0.201.0.VOCTWXM_20250826.0000.00_15.0_tw_402b9d8bf5.tgz"
+					"fastboot": "dada_tw_global_images_OS2.0.201.0.VOCTWXM_20250826.0000.00_15.0_tw_402b9d8bf5.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VOCTWXM": {
 					"os": "OS2.0.200.0.VOCTWXM",
 					"android": "15.0",
 					"release": "2025-08-09",
 					"recovery": "dada_tw_global-ota_full-OS2.0.200.0.VOCTWXM-user-15.0-13bbdc4898.zip",
-					"fastboot": "dada_tw_global_images_OS2.0.200.0.VOCTWXM_20250730.0000.00_15.0_tw_1ec24dc702.tgz"
+					"fastboot": "dada_tw_global_images_OS2.0.200.0.VOCTWXM_20250730.0000.00_15.0_tw_1ec24dc702.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.107.0.VOCTWXM": {
 					"os": "OS2.0.107.0.VOCTWXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "dada_tw_global-ota_full-OS2.0.107.0.VOCTWXM-user-15.0-151d1a8fa3.zip",
-					"fastboot": "dada_tw_global_images_OS2.0.107.0.VOCTWXM_20250624.0000.00_15.0_tw_822890a9e7.tgz"
+					"fastboot": "dada_tw_global_images_OS2.0.107.0.VOCTWXM_20250624.0000.00_15.0_tw_822890a9e7.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VOCTWXM": {
 					"os": "OS2.0.104.0.VOCTWXM",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "dada_tw_global-ota_full-OS2.0.104.0.VOCTWXM-user-15.0-bc6c5b54fb.zip",
-					"fastboot": "dada_tw_global_images_OS2.0.104.0.VOCTWXM_20250508.0000.00_15.0_tw_83df23a9ef.tgz"
+					"fastboot": "dada_tw_global_images_OS2.0.104.0.VOCTWXM_20250508.0000.00_15.0_tw_83df23a9ef.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.103.0.VOCTWXM": {
 					"os": "OS2.0.103.0.VOCTWXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "dada_tw_global-ota_full-OS2.0.103.0.VOCTWXM-user-15.0-29bf0720f5.zip",
-					"fastboot": "dada_tw_global_images_OS2.0.103.0.VOCTWXM_20250326.0000.00_15.0_tw_389bea66c9.tgz"
+					"fastboot": "dada_tw_global_images_OS2.0.103.0.VOCTWXM_20250326.0000.00_15.0_tw_389bea66c9.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.102.0.VOCTWXM": {
 					"os": "OS2.0.102.0.VOCTWXM",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "dada_tw_global-ota_full-OS2.0.102.0.VOCTWXM-user-15.0-f83821dc7b.zip",
-					"fastboot": "dada_tw_global_images_OS2.0.102.0.VOCTWXM_20250211.0000.00_15.0_tw_cb6ee6cf3a.tgz"
+					"fastboot": "dada_tw_global_images_OS2.0.102.0.VOCTWXM_20250211.0000.00_15.0_tw_cb6ee6cf3a.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -942,6 +1041,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -958,98 +1058,112 @@
 					"android": "16.0",
 					"release": "2026-04-27",
 					"recovery": "dada_global-ota_full-OS3.0.301.0.WOCMIXM-user-16.0-40765ad097.zip",
-					"fastboot": "dada_global_images_OS3.0.301.0.WOCMIXM_20260417.0000.00_16.0_global_e54ad8c031.tgz"
+					"fastboot": "dada_global_images_OS3.0.301.0.WOCMIXM_20260417.0000.00_16.0_global_e54ad8c031.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.6.0.WOCMIXM": {
 					"os": "OS3.0.6.0.WOCMIXM",
 					"android": "16.0",
 					"release": "2026-02-02",
 					"recovery": "dada_global-ota_full-OS3.0.6.0.WOCMIXM-user-16.0-567c8cf2bf.zip",
-					"fastboot": "dada_global_images_OS3.0.6.0.WOCMIXM_20260121.0000.00_16.0_global_7459776499.tgz"
+					"fastboot": "dada_global_images_OS3.0.6.0.WOCMIXM_20260121.0000.00_16.0_global_7459776499.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.5.0.WOCMIXM": {
 					"os": "OS3.0.5.0.WOCMIXM",
 					"android": "16.0",
 					"release": "2025-12-31",
 					"recovery": "dada_global-ota_full-OS3.0.5.0.WOCMIXM-user-16.0-930f800055.zip",
-					"fastboot": "dada_global_images_OS3.0.5.0.WOCMIXM_20251223.0000.00_16.0_global_a491470fa6.tgz"
+					"fastboot": "dada_global_images_OS3.0.5.0.WOCMIXM_20251223.0000.00_16.0_global_a491470fa6.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.3.0.WOCMIXM": {
 					"os": "OS3.0.3.0.WOCMIXM",
 					"android": "16.0",
 					"release": "2025-12-17",
 					"recovery": "dada_global-ota_full-OS3.0.3.0.WOCMIXM-user-16.0-c8028de0c9.zip",
-					"fastboot": "dada_global_images_OS3.0.3.0.WOCMIXM_20251204.0000.00_16.0_global_83b232327f.tgz"
+					"fastboot": "dada_global_images_OS3.0.3.0.WOCMIXM_20251204.0000.00_16.0_global_83b232327f.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.227.0.WOCMIXM": {
 					"os": "OS2.0.227.0.WOCMIXM",
 					"android": "16.0",
 					"release": "2025-10-29",
 					"recovery": "dada_global-ota_full-OS2.0.227.0.WOCMIXM-user-16.0-59ba403b8a.zip",
-					"fastboot": "dada_global_images_OS2.0.227.0.WOCMIXM_20251021.0000.00_16.0_global_dec45dd30b.tgz"
+					"fastboot": "dada_global_images_OS2.0.227.0.WOCMIXM_20251021.0000.00_16.0_global_dec45dd30b.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.225.0.WOCMIXM": {
 					"os": "OS2.0.225.0.WOCMIXM",
 					"android": "16.0",
 					"release": "2025-10-16",
 					"recovery": "dada_global-ota_full-OS2.0.225.0.WOCMIXM-user-16.0-3f0eec3fa3.zip",
-					"fastboot": "dada_global_images_OS2.0.225.0.WOCMIXM_20250926.0000.00_16.0_global_6add515c1a.tgz"
+					"fastboot": "dada_global_images_OS2.0.225.0.WOCMIXM_20250926.0000.00_16.0_global_6add515c1a.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.222.0.WOCMIXM": {
 					"os": "OS2.0.222.0.WOCMIXM",
 					"android": "16.0",
 					"release": "2025-08-31",
 					"recovery": "dada_global-ota_full-OS2.0.222.0.WOCMIXM-user-16.0-a6771059c1.zip",
-					"fastboot": "dada_global_images_OS2.0.222.0.WOCMIXM_20250820.0000.00_16.0_global_abf990e9a3.tgz"
+					"fastboot": "dada_global_images_OS2.0.222.0.WOCMIXM_20250820.0000.00_16.0_global_abf990e9a3.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.218.0.WOCMIXM": {
 					"os": "OS2.0.218.0.WOCMIXM",
 					"android": "16.0",
 					"release": "2025-07-18",
 					"recovery": "dada_global-ota_full-OS2.0.218.0.WOCMIXM-user-16.0-ebb1fa23a5.zip",
-					"fastboot": "dada_global_images_OS2.0.218.0.WOCMIXM_20250709.0000.00_16.0_global_e52778e206.tgz"
+					"fastboot": "dada_global_images_OS2.0.218.0.WOCMIXM_20250709.0000.00_16.0_global_e52778e206.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.217.0.WOCMIXM": {
 					"os": "OS2.0.217.0.WOCMIXM",
 					"android": "16.0",
 					"release": "2025-07-04",
 					"recovery": "dada_global-ota_full-OS2.0.217.0.WOCMIXM-user-16.0-0be7332545.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-05"
 				},
 				"OS2.0.114.0.VOCMIXM": {
 					"os": "OS2.0.114.0.VOCMIXM",
 					"android": "15.0",
 					"release": "2025-06-09",
 					"recovery": "dada_global-ota_full-OS2.0.114.0.VOCMIXM-user-15.0-bb85271e8f.zip",
-					"fastboot": "dada_global_images_OS2.0.114.0.VOCMIXM_20250528.0000.00_15.0_global_13194f55f7.tgz"
+					"fastboot": "dada_global_images_OS2.0.114.0.VOCMIXM_20250528.0000.00_15.0_global_13194f55f7.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.112.0.VOCMIXM": {
 					"os": "OS2.0.112.0.VOCMIXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "dada_global-ota_full-OS2.0.112.0.VOCMIXM-user-15.0-231c4fdb51.zip",
-					"fastboot": "dada_global_images_OS2.0.112.0.VOCMIXM_20250423.0000.00_15.0_global_b5fc16513f.tgz"
+					"fastboot": "dada_global_images_OS2.0.112.0.VOCMIXM_20250423.0000.00_15.0_global_b5fc16513f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.109.0.VOCMIXM": {
 					"os": "OS2.0.109.0.VOCMIXM",
 					"android": "15.0",
 					"release": "2025-03-31",
 					"recovery": "dada_global-ota_full-OS2.0.109.0.VOCMIXM-user-15.0-2627d9842e.zip",
-					"fastboot": "dada_global_images_OS2.0.109.0.VOCMIXM_20250322.0000.00_15.0_global_9e8e09926a.tgz"
+					"fastboot": "dada_global_images_OS2.0.109.0.VOCMIXM_20250322.0000.00_15.0_global_9e8e09926a.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.107.0.VOCMIXM": {
 					"os": "OS2.0.107.0.VOCMIXM",
 					"android": "15.0",
 					"release": "2025-03-17",
 					"recovery": "dada_global-ota_full-OS2.0.107.0.VOCMIXM-user-15.0-323e54d0d4.zip",
-					"fastboot": "dada_global_images_OS2.0.107.0.VOCMIXM_20250308.0000.00_15.0_global_1f5370d80f.tgz"
+					"fastboot": "dada_global_images_OS2.0.107.0.VOCMIXM_20250308.0000.00_15.0_global_1f5370d80f.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.106.0.VOCMIXM": {
 					"os": "OS2.0.106.0.VOCMIXM",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "dada_global-ota_full-OS2.0.106.0.VOCMIXM-user-15.0-f42026da68.zip",
-					"fastboot": "dada_global_images_OS2.0.106.0.VOCMIXM_20250221.0000.00_15.0_global_e76bcf7c81.tgz"
+					"fastboot": "dada_global_images_OS2.0.106.0.VOCMIXM_20250221.0000.00_15.0_global_e76bcf7c81.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -1071,6 +1185,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1087,70 +1202,80 @@
 					"android": "16.0",
 					"release": "2026-03-25",
 					"recovery": "dada_dc_global-ota_full-OS3.0.5.0.WOCMIDC-user-16.0-125805a11c.zip",
-					"fastboot": "dada_dc_global_images_OS3.0.5.0.WOCMIDC_20260312.0000.00_16.0_global_dc_9aa6842725.tgz"
+					"fastboot": "dada_dc_global_images_OS3.0.5.0.WOCMIDC_20260312.0000.00_16.0_global_dc_9aa6842725.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WOCMIDC": {
 					"os": "OS3.0.4.0.WOCMIDC",
 					"android": "16.0",
 					"release": "2026-01-23",
 					"recovery": "dada_dc_global-ota_full-OS3.0.4.0.WOCMIDC-user-16.0-ed5388cbea.zip",
-					"fastboot": "dada_dc_global_images_OS3.0.4.0.WOCMIDC_20260115.0000.00_16.0_global_dc_085bcc801d.tgz"
+					"fastboot": "dada_dc_global_images_OS3.0.4.0.WOCMIDC_20260115.0000.00_16.0_global_dc_085bcc801d.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WOCMIDC": {
 					"os": "OS3.0.3.0.WOCMIDC",
 					"android": "16.0",
 					"release": "2025-12-11",
 					"recovery": "dada_dc_global-ota_full-OS3.0.3.0.WOCMIDC-user-16.0-d75c9e3692.zip",
-					"fastboot": "dada_dc_global_images_OS3.0.3.0.WOCMIDC_20251204.0000.00_16.0_global_dc_5cf78091d3.tgz"
+					"fastboot": "dada_dc_global_images_OS3.0.3.0.WOCMIDC_20251204.0000.00_16.0_global_dc_5cf78091d3.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.201.0.VOCMIDC": {
 					"os": "OS2.0.201.0.VOCMIDC",
 					"android": "15.0",
 					"release": "2025-10-31",
 					"recovery": "dada_dc_global-ota_full-OS2.0.201.0.VOCMIDC-user-15.0-d1a0548a6a.zip",
-					"fastboot": "dada_dc_global_images_OS2.0.201.0.VOCMIDC_20251023.0000.00_15.0_global_dc_14931645d6.tgz"
+					"fastboot": "dada_dc_global_images_OS2.0.201.0.VOCMIDC_20251023.0000.00_15.0_global_dc_14931645d6.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.108.0.VOCMIDC": {
 					"os": "OS2.0.108.0.VOCMIDC",
 					"android": "15.0",
 					"release": "2025-08-26",
 					"recovery": "dada_dc_global-ota_full-OS2.0.108.0.VOCMIDC-user-15.0-c0125c8a48.zip",
-					"fastboot": "dada_dc_global_images_OS2.0.108.0.VOCMIDC_20250813.0000.00_15.0_global_dc_1f9c9cca7a.tgz"
+					"fastboot": "dada_dc_global_images_OS2.0.108.0.VOCMIDC_20250813.0000.00_15.0_global_dc_1f9c9cca7a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.106.0.VOCMIDC": {
 					"os": "OS2.0.106.0.VOCMIDC",
 					"android": "15.0",
 					"release": "2025-06-26",
 					"recovery": "dada_dc_global-ota_full-OS2.0.106.0.VOCMIDC-user-15.0-0bacda665f.zip",
-					"fastboot": "dada_dc_global_images_OS2.0.106.0.VOCMIDC_20250624.0000.00_15.0_global_dc_3d392bc4d8.tgz"
+					"fastboot": "dada_dc_global_images_OS2.0.106.0.VOCMIDC_20250624.0000.00_15.0_global_dc_3d392bc4d8.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VOCMIDC": {
 					"os": "OS2.0.104.0.VOCMIDC",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "dada_dc_global-ota_full-OS2.0.104.0.VOCMIDC-user-15.0-b40c267fdb.zip",
-					"fastboot": "dada_dc_global_images_OS2.0.104.0.VOCMIDC_20250418.0000.00_15.0_global_dc_a5f7449417.tgz"
+					"fastboot": "dada_dc_global_images_OS2.0.104.0.VOCMIDC_20250418.0000.00_15.0_global_dc_a5f7449417.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.103.0.VOCMIDC": {
 					"os": "OS2.0.103.0.VOCMIDC",
 					"android": "15.0",
 					"release": "2025-04-08",
 					"recovery": "dada_dc_global-ota_full-OS2.0.103.0.VOCMIDC-user-15.0-3d5466ff80.zip",
-					"fastboot": "dada_dc_global_images_OS2.0.103.0.VOCMIDC_20250325.0000.00_15.0_global_dc_e9bb86a5bd.tgz"
+					"fastboot": "dada_dc_global_images_OS2.0.103.0.VOCMIDC_20250325.0000.00_15.0_global_dc_e9bb86a5bd.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.102.0.VOCMIDC": {
 					"os": "OS2.0.102.0.VOCMIDC",
 					"android": "15.0",
 					"release": "2025-03-24",
 					"recovery": "dada_dc_global-ota_full-OS2.0.102.0.VOCMIDC-user-15.0-fb009b2bf9.zip",
-					"fastboot": "dada_dc_global_images_OS2.0.102.0.VOCMIDC_20250227.0000.00_15.0_global_dc_2439ea5335.tgz"
+					"fastboot": "dada_dc_global_images_OS2.0.102.0.VOCMIDC_20250227.0000.00_15.0_global_dc_2439ea5335.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS2.0.2.0.VOCMIDC": {
 					"os": "OS2.0.2.0.VOCMIDC",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "dada_dc_global-ota_full-OS2.0.2.0.VOCMIDC-user-15.0-7567192c71.zip",
-					"fastboot": "dada_dc_global_images_OS2.0.2.0.VOCMIDC_20241218.0000.00_15.0_global_dc_0f3cf52cfb.tgz"
+					"fastboot": "dada_dc_global_images_OS2.0.2.0.VOCMIDC_20241218.0000.00_15.0_global_dc_0f3cf52cfb.tgz",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -1173,6 +1298,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1189,7 +1315,8 @@
 					"android": "16.0",
 					"release": "2025-04-07",
 					"recovery": "dada_pre_dpp_global-ota_full-OS2.0.250327.1.WOCMIXM.PRE-DPP-user-16.0-c901782c30.zip",
-					"fastboot": "dada_pre_dpp_global_images_OS2.0.250327.1.WOCMIXM.PRE-DPP_20250327.0000.00_16.0_global_6224691541.tgz"
+					"fastboot": "dada_pre_dpp_global_images_OS2.0.250327.1.WOCMIXM.PRE-DPP_20250327.0000.00_16.0_global_6224691541.tgz",
+					"aspatch": "2025-03-05"
 				}
 			}
 		},
@@ -1211,6 +1338,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1227,112 +1355,128 @@
 					"android": "16.0",
 					"release": "2026-05-29",
 					"recovery": "dada_eea_global-ota_full-OS3.0.302.0.WOCEUXM-user-16.0-19bcc52da6.zip",
-					"fastboot": "dada_eea_global_images_OS3.0.302.0.WOCEUXM_20260519.0000.00_16.0_eea_bd4ff69647.tgz"
+					"fastboot": "dada_eea_global_images_OS3.0.302.0.WOCEUXM_20260519.0000.00_16.0_eea_bd4ff69647.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.301.0.WOCEUXM": {
 					"os": "OS3.0.301.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2026-04-20",
 					"recovery": "dada_eea_global-ota_full-OS3.0.301.0.WOCEUXM-user-16.0-5d04760489.zip",
-					"fastboot": "dada_eea_global_images_OS3.0.301.0.WOCEUXM_20260407.0000.00_16.0_eea_21318f383b.tgz"
+					"fastboot": "dada_eea_global_images_OS3.0.301.0.WOCEUXM_20260407.0000.00_16.0_eea_21318f383b.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.9.0.WOCEUXM": {
 					"os": "OS3.0.9.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2026-02-24",
 					"recovery": "dada_eea_global-ota_full-OS3.0.9.0.WOCEUXM-user-16.0-99c331f69d.zip",
-					"fastboot": "dada_eea_global_images_OS3.0.9.0.WOCEUXM_20260129.0000.00_16.0_eea_4096ce0431.tgz"
+					"fastboot": "dada_eea_global_images_OS3.0.9.0.WOCEUXM_20260129.0000.00_16.0_eea_4096ce0431.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.8.0.WOCEUXM": {
 					"os": "OS3.0.8.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2026-02-04",
 					"recovery": "dada_eea_global-ota_full-OS3.0.8.0.WOCEUXM-user-16.0-0285ce4b2e.zip",
-					"fastboot": "dada_eea_global_images_OS3.0.8.0.WOCEUXM_20260122.0000.00_16.0_eea_d9495e91ad.tgz"
+					"fastboot": "dada_eea_global_images_OS3.0.8.0.WOCEUXM_20260122.0000.00_16.0_eea_d9495e91ad.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.7.0.WOCEUXM": {
 					"os": "OS3.0.7.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2026-01-04",
 					"recovery": "dada_eea_global-ota_full-OS3.0.7.0.WOCEUXM-user-16.0-6632b95aec.zip",
-					"fastboot": "dada_eea_global_images_OS3.0.7.0.WOCEUXM_20251222.0000.00_16.0_eea_0553fc36d2.tgz"
+					"fastboot": "dada_eea_global_images_OS3.0.7.0.WOCEUXM_20251222.0000.00_16.0_eea_0553fc36d2.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS3.0.6.0.WOCEUXM": {
 					"os": "OS3.0.6.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2025-11-25",
 					"recovery": "dada_eea_global-ota_full-OS3.0.6.0.WOCEUXM-user-16.0-9f544a178f.zip",
-					"fastboot": "dada_eea_global_images_OS3.0.6.0.WOCEUXM_20251113.0000.00_16.0_eea_f95f5d7f58.tgz"
+					"fastboot": "dada_eea_global_images_OS3.0.6.0.WOCEUXM_20251113.0000.00_16.0_eea_f95f5d7f58.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS3.0.4.0.WOCEUXM": {
 					"os": "OS3.0.4.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2025-11-03",
 					"recovery": "dada_eea_global-ota_full-OS3.0.4.0.WOCEUXM-user-16.0-9186bc5ba4.zip",
-					"fastboot": "dada_eea_global_images_OS3.0.4.0.WOCEUXM_20251024.0000.00_16.0_eea_a30a73dd99.tgz"
+					"fastboot": "dada_eea_global_images_OS3.0.4.0.WOCEUXM_20251024.0000.00_16.0_eea_a30a73dd99.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.225.0.WOCEUXM": {
 					"os": "OS2.0.225.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2025-10-13",
 					"recovery": "dada_eea_global-ota_full-OS2.0.225.0.WOCEUXM-user-16.0-e1940401ad.zip",
-					"fastboot": "dada_eea_global_images_OS2.0.225.0.WOCEUXM_20250926.0000.00_16.0_eea_952177f2d2.tgz"
+					"fastboot": "dada_eea_global_images_OS2.0.225.0.WOCEUXM_20250926.0000.00_16.0_eea_952177f2d2.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.222.0.WOCEUXM": {
 					"os": "OS2.0.222.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2025-08-31",
 					"recovery": "dada_eea_global-ota_full-OS2.0.222.0.WOCEUXM-user-16.0-15842dc653.zip",
-					"fastboot": "dada_eea_global_images_OS2.0.222.0.WOCEUXM_20250820.0000.00_16.0_eea_7cede1d3af.tgz"
+					"fastboot": "dada_eea_global_images_OS2.0.222.0.WOCEUXM_20250820.0000.00_16.0_eea_7cede1d3af.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.218.0.WOCEUXM": {
 					"os": "OS2.0.218.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2025-07-18",
 					"recovery": "dada_eea_global-ota_full-OS2.0.218.0.WOCEUXM-user-16.0-087ff107e4.zip",
-					"fastboot": "dada_eea_global_images_OS2.0.218.0.WOCEUXM_20250709.0000.00_16.0_eea_122a85fde8.tgz"
+					"fastboot": "dada_eea_global_images_OS2.0.218.0.WOCEUXM_20250709.0000.00_16.0_eea_122a85fde8.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.217.0.WOCEUXM": {
 					"os": "OS2.0.217.0.WOCEUXM",
 					"android": "16.0",
 					"release": "2025-07-04",
 					"recovery": "dada_eea_global-ota_full-OS2.0.217.0.WOCEUXM-user-16.0-5e73e57c79.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-05"
 				},
 				"OS2.0.201.0.VOCEUXM": {
 					"os": "OS2.0.201.0.VOCEUXM",
 					"android": "15.0",
 					"release": "2025-06-23",
 					"recovery": "dada_eea_global-ota_full-OS2.0.201.0.VOCEUXM-user-15.0-9229e6cb79.zip",
-					"fastboot": "dada_eea_global_images_OS2.0.201.0.VOCEUXM_20250615.0000.00_15.0_eea_9f94aed7b9.tgz"
+					"fastboot": "dada_eea_global_images_OS2.0.201.0.VOCEUXM_20250615.0000.00_15.0_eea_9f94aed7b9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.109.0.VOCEUXM": {
 					"os": "OS2.0.109.0.VOCEUXM",
 					"android": "15.0",
 					"release": "2025-06-02",
 					"recovery": "dada_eea_global-ota_full-OS2.0.109.0.VOCEUXM-user-15.0-348b04aeb5.zip",
-					"fastboot": "dada_eea_global_images_OS2.0.109.0.VOCEUXM_20250522.0000.00_15.0_eea_bda4d5c436.tgz"
+					"fastboot": "dada_eea_global_images_OS2.0.109.0.VOCEUXM_20250522.0000.00_15.0_eea_bda4d5c436.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.107.0.VOCEUXM": {
 					"os": "OS2.0.107.0.VOCEUXM",
 					"android": "15.0",
 					"release": "2025-05-06",
 					"recovery": "dada_eea_global-ota_full-OS2.0.107.0.VOCEUXM-user-15.0-1baa2aed96.zip",
-					"fastboot": "dada_eea_global_images_OS2.0.107.0.VOCEUXM_20250418.0000.00_15.0_eea_5a052dfce3.tgz"
+					"fastboot": "dada_eea_global_images_OS2.0.107.0.VOCEUXM_20250418.0000.00_15.0_eea_5a052dfce3.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.106.0.VOCEUXM": {
 					"os": "OS2.0.106.0.VOCEUXM",
 					"android": "15.0",
 					"release": "2025-03-24",
 					"recovery": "dada_eea_global-ota_full-OS2.0.106.0.VOCEUXM-user-15.0-6feaa136cd.zip",
-					"fastboot": "dada_eea_global_images_OS2.0.106.0.VOCEUXM_20250314.0000.00_15.0_eea_69b2e400e3.tgz"
+					"fastboot": "dada_eea_global_images_OS2.0.106.0.VOCEUXM_20250314.0000.00_15.0_eea_69b2e400e3.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.102.0.VOCEUXM": {
 					"os": "OS2.0.102.0.VOCEUXM",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "dada_eea_global-ota_full-OS2.0.102.0.VOCEUXM-user-15.0-c33e0578b2.zip",
-					"fastboot": "dada_eea_global_images_OS2.0.102.0.VOCEUXM_20250220.0000.00_15.0_eea_3c60a2f873.tgz"
+					"fastboot": "dada_eea_global_images_OS2.0.102.0.VOCEUXM_20250220.0000.00_15.0_eea_3c60a2f873.tgz",
+					"aspatch": "2025-02-01"
 				}
 			}
 		},
@@ -1354,6 +1498,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1370,77 +1515,88 @@
 					"android": "16.0",
 					"release": "2026-04-30",
 					"recovery": "dada_ru_global-ota_full-OS3.0.301.0.WOCRUXM-user-16.0-02b288b2b8.zip",
-					"fastboot": "dada_ru_global_images_OS3.0.301.0.WOCRUXM_20260423.0000.00_16.0_ru_67508608b9.tgz"
+					"fastboot": "dada_ru_global_images_OS3.0.301.0.WOCRUXM_20260423.0000.00_16.0_ru_67508608b9.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.2.0.WOCRUXM": {
 					"os": "OS3.0.2.0.WOCRUXM",
 					"android": "16.0",
 					"release": "2026-02-27",
 					"recovery": "dada_ru_global-ota_full-OS3.0.2.0.WOCRUXM-user-16.0-f9a208664a.zip",
-					"fastboot": "dada_ru_global_images_OS3.0.2.0.WOCRUXM_20260128.0000.00_16.0_ru_0a62c76495.tgz"
+					"fastboot": "dada_ru_global_images_OS3.0.2.0.WOCRUXM_20260128.0000.00_16.0_ru_0a62c76495.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.1.0.WOCRUXM": {
 					"os": "OS3.0.1.0.WOCRUXM",
 					"android": "16.0",
 					"release": "2025-12-25",
 					"recovery": "dada_ru_global-ota_full-OS3.0.1.0.WOCRUXM-user-16.0-3bee410a49.zip",
-					"fastboot": "dada_ru_global_images_OS3.0.1.0.WOCRUXM_20251209.0000.00_16.0_ru_0d70ea412d.tgz"
+					"fastboot": "dada_ru_global_images_OS3.0.1.0.WOCRUXM_20251209.0000.00_16.0_ru_0d70ea412d.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOCRUXM": {
 					"os": "OS2.0.204.0.VOCRUXM",
 					"android": "15.0",
 					"release": "2025-11-29",
 					"recovery": "dada_ru_global-ota_full-OS2.0.204.0.VOCRUXM-user-15.0-6b8e70f4d7.zip",
-					"fastboot": "dada_ru_global_images_OS2.0.204.0.VOCRUXM_20251109.0000.00_15.0_ru_7be5721bb0.tgz"
+					"fastboot": "dada_ru_global_images_OS2.0.204.0.VOCRUXM_20251109.0000.00_15.0_ru_7be5721bb0.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOCRUXM": {
 					"os": "OS2.0.203.0.VOCRUXM",
 					"android": "15.0",
 					"release": "2025-11-03",
 					"recovery": "dada_ru_global-ota_full-OS2.0.203.0.VOCRUXM-user-15.0-fa7bd6d9d0.zip",
-					"fastboot": "dada_ru_global_images_OS2.0.203.0.VOCRUXM_20251021.0000.00_15.0_ru_423b78d7e2.tgz"
+					"fastboot": "dada_ru_global_images_OS2.0.203.0.VOCRUXM_20251021.0000.00_15.0_ru_423b78d7e2.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VOCRUXM": {
 					"os": "OS2.0.202.0.VOCRUXM",
 					"android": "15.0",
 					"release": "2025-09-15",
 					"recovery": "dada_ru_global-ota_full-OS2.0.202.0.VOCRUXM-user-15.0-a2ec50af24.zip",
-					"fastboot": "dada_ru_global_images_OS2.0.202.0.VOCRUXM_20250826.0000.00_15.0_ru_fdefad3c28.tgz"
+					"fastboot": "dada_ru_global_images_OS2.0.202.0.VOCRUXM_20250826.0000.00_15.0_ru_fdefad3c28.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOCRUXM": {
 					"os": "OS2.0.201.0.VOCRUXM",
 					"android": "15.0",
 					"release": "2025-08-08",
 					"recovery": "dada_ru_global-ota_full-OS2.0.201.0.VOCRUXM-user-15.0-660e6e5726.zip",
-					"fastboot": "dada_ru_global_images_OS2.0.201.0.VOCRUXM_20250729.0000.00_15.0_ru_8881bca6fa.tgz"
+					"fastboot": "dada_ru_global_images_OS2.0.201.0.VOCRUXM_20250729.0000.00_15.0_ru_8881bca6fa.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.105.0.VOCRUXM": {
 					"os": "OS2.0.105.0.VOCRUXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "dada_ru_global-ota_full-OS2.0.105.0.VOCRUXM-user-15.0-5976ceb0e7.zip",
-					"fastboot": "dada_ru_global_images_OS2.0.105.0.VOCRUXM_20250606.0000.00_15.0_ru_fc59926578.tgz"
+					"fastboot": "dada_ru_global_images_OS2.0.105.0.VOCRUXM_20250606.0000.00_15.0_ru_fc59926578.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VOCRUXM": {
 					"os": "OS2.0.104.0.VOCRUXM",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "dada_ru_global-ota_full-OS2.0.104.0.VOCRUXM-user-15.0-9bd7d8586e.zip",
-					"fastboot": "dada_ru_global_images_OS2.0.104.0.VOCRUXM_20250508.0000.00_15.0_ru_90b023db7f.tgz"
+					"fastboot": "dada_ru_global_images_OS2.0.104.0.VOCRUXM_20250508.0000.00_15.0_ru_90b023db7f.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.103.0.VOCRUXM": {
 					"os": "OS2.0.103.0.VOCRUXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "dada_ru_global-ota_full-OS2.0.103.0.VOCRUXM-user-15.0-6d2d09aae0.zip",
-					"fastboot": "dada_ru_global_images_OS2.0.103.0.VOCRUXM_20250325.0000.00_15.0_ru_60e9135305.tgz"
+					"fastboot": "dada_ru_global_images_OS2.0.103.0.VOCRUXM_20250325.0000.00_15.0_ru_60e9135305.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.102.0.VOCRUXM": {
 					"os": "OS2.0.102.0.VOCRUXM",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "dada_ru_global-ota_full-OS2.0.102.0.VOCRUXM-user-15.0-bba702d536.zip",
-					"fastboot": "dada_ru_global_images_OS2.0.102.0.VOCRUXM_20250211.0000.00_15.0_ru_eeac30d2d5.tgz"
+					"fastboot": "dada_ru_global_images_OS2.0.102.0.VOCRUXM_20250211.0000.00_15.0_ru_eeac30d2d5.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -1462,6 +1618,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1478,77 +1635,88 @@
 					"android": "16.0",
 					"release": "2026-03-29",
 					"recovery": "dada_in_global-ota_full-OS3.0.5.0.WOCINXM-user-16.0-59ea74b8d3.zip",
-					"fastboot": "dada_in_global_images_OS3.0.5.0.WOCINXM_20260312.0000.00_16.0_in_62de472568.tgz"
+					"fastboot": "dada_in_global_images_OS3.0.5.0.WOCINXM_20260312.0000.00_16.0_in_62de472568.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.4.0.WOCINXM": {
 					"os": "OS3.0.4.0.WOCINXM",
 					"android": "16.0",
 					"release": "2026-01-29",
 					"recovery": "dada_in_global-ota_full-OS3.0.4.0.WOCINXM-user-16.0-d8ef9d61de.zip",
-					"fastboot": "dada_in_global_images_OS3.0.4.0.WOCINXM_20260105.0000.00_16.0_in_60ec8857f8.tgz"
+					"fastboot": "dada_in_global_images_OS3.0.4.0.WOCINXM_20260105.0000.00_16.0_in_60ec8857f8.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.3.0.WOCINXM": {
 					"os": "OS3.0.3.0.WOCINXM",
 					"android": "16.0",
 					"release": "2025-12-04",
 					"recovery": "dada_in_global-ota_full-OS3.0.3.0.WOCINXM-user-16.0-d9ace569d3.zip",
-					"fastboot": "dada_in_global_images_OS3.0.3.0.WOCINXM_20251127.0000.00_16.0_in_72ebeacfd2.tgz"
+					"fastboot": "dada_in_global_images_OS3.0.3.0.WOCINXM_20251127.0000.00_16.0_in_72ebeacfd2.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VOCINXM": {
 					"os": "OS2.0.204.0.VOCINXM",
 					"android": "15.0",
 					"release": "2025-10-26",
 					"recovery": "dada_in_global-ota_full-OS2.0.204.0.VOCINXM-user-15.0-51d5728f95.zip",
-					"fastboot": "dada_in_global_images_OS2.0.204.0.VOCINXM_20251014.0000.00_15.0_in_6d65c8fa01.tgz"
+					"fastboot": "dada_in_global_images_OS2.0.204.0.VOCINXM_20251014.0000.00_15.0_in_6d65c8fa01.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.202.0.VOCINXM": {
 					"os": "OS2.0.202.0.VOCINXM",
 					"android": "15.0",
 					"release": "2025-09-01",
 					"recovery": "dada_in_global-ota_full-OS2.0.202.0.VOCINXM-user-15.0-9445d6abb9.zip",
-					"fastboot": "dada_in_global_images_OS2.0.202.0.VOCINXM_20250819.0000.00_15.0_in_bef8ecff09.tgz"
+					"fastboot": "dada_in_global_images_OS2.0.202.0.VOCINXM_20250819.0000.00_15.0_in_bef8ecff09.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.201.0.VOCINXM": {
 					"os": "OS2.0.201.0.VOCINXM",
 					"android": "15.0",
 					"release": "2025-08-01",
 					"recovery": "dada_in_global-ota_full-OS2.0.201.0.VOCINXM-user-15.0-b84b27c206.zip",
-					"fastboot": "dada_in_global_images_OS2.0.201.0.VOCINXM_20250729.0000.00_15.0_in_80685bb613.tgz"
+					"fastboot": "dada_in_global_images_OS2.0.201.0.VOCINXM_20250729.0000.00_15.0_in_80685bb613.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.200.0.VOCINXM": {
 					"os": "OS2.0.200.0.VOCINXM",
 					"android": "15.0",
 					"release": "2025-07-29",
 					"recovery": "dada_in_global-ota_full-OS2.0.200.0.VOCINXM-user-15.0-0de9c4f3ad.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.109.0.VOCINXM": {
 					"os": "OS2.0.109.0.VOCINXM",
 					"android": "15.0",
 					"release": "2025-06-21",
 					"recovery": "dada_in_global-ota_full-OS2.0.109.0.VOCINXM-user-15.0-82b9b9effb.zip",
-					"fastboot": "dada_in_global_images_OS2.0.109.0.VOCINXM_20250606.0000.00_15.0_in_582b60204c.tgz"
+					"fastboot": "dada_in_global_images_OS2.0.109.0.VOCINXM_20250606.0000.00_15.0_in_582b60204c.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.108.0.VOCINXM": {
 					"os": "OS2.0.108.0.VOCINXM",
 					"android": "15.0",
 					"release": "2025-05-22",
 					"recovery": "dada_in_global-ota_full-OS2.0.108.0.VOCINXM-user-15.0-1b328f15e4.zip",
-					"fastboot": "dada_in_global_images_OS2.0.108.0.VOCINXM_20250508.0000.00_15.0_in_4b1d3109ec.tgz"
+					"fastboot": "dada_in_global_images_OS2.0.108.0.VOCINXM_20250508.0000.00_15.0_in_4b1d3109ec.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.107.0.VOCINXM": {
 					"os": "OS2.0.107.0.VOCINXM",
 					"android": "15.0",
 					"release": "2025-04-03",
 					"recovery": "dada_in_global-ota_full-OS2.0.107.0.VOCINXM-user-15.0-a13ef7c2c6.zip",
-					"fastboot": "dada_in_global_images_OS2.0.107.0.VOCINXM_20250327.0000.00_15.0_in_f8fab7ad35.tgz"
+					"fastboot": "dada_in_global_images_OS2.0.107.0.VOCINXM_20250327.0000.00_15.0_in_f8fab7ad35.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.103.0.VOCINXM": {
 					"os": "OS2.0.103.0.VOCINXM",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "dada_in_global-ota_full-OS2.0.103.0.VOCINXM-user-15.0-53771cdc67.zip",
-					"fastboot": "dada_in_global_images_OS2.0.103.0.VOCINXM_20250224.0000.00_15.0_in_6d21032efd.tgz"
+					"fastboot": "dada_in_global_images_OS2.0.103.0.VOCINXM_20250224.0000.00_15.0_in_6d21032efd.tgz",
+					"aspatch": "2025-02-01"
 				}
 			}
 		},
@@ -1570,6 +1738,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1586,77 +1755,88 @@
 					"android": "16.0",
 					"release": "2026-04-30",
 					"recovery": "dada_id_global-ota_full-OS3.0.301.0.WOCIDXM-user-16.0-305db674ab.zip",
-					"fastboot": "dada_id_global_images_OS3.0.301.0.WOCIDXM_20260420.0000.00_16.0_id_6d9c11f652.tgz"
+					"fastboot": "dada_id_global_images_OS3.0.301.0.WOCIDXM_20260420.0000.00_16.0_id_6d9c11f652.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS3.0.3.0.WOCIDXM": {
 					"os": "OS3.0.3.0.WOCIDXM",
 					"android": "16.0",
 					"release": "2026-02-27",
 					"recovery": "dada_id_global-ota_full-OS3.0.3.0.WOCIDXM-user-16.0-e209abf1af.zip",
-					"fastboot": "dada_id_global_images_OS3.0.3.0.WOCIDXM_20260128.0000.00_16.0_id_2f2497b394.tgz"
+					"fastboot": "dada_id_global_images_OS3.0.3.0.WOCIDXM_20260128.0000.00_16.0_id_2f2497b394.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS3.0.2.0.WOCIDXM": {
 					"os": "OS3.0.2.0.WOCIDXM",
 					"android": "16.0",
 					"release": "2025-12-22",
 					"recovery": "dada_id_global-ota_full-OS3.0.2.0.WOCIDXM-user-16.0-374c4118b6.zip",
-					"fastboot": "dada_id_global_images_OS3.0.2.0.WOCIDXM_20251209.0000.00_16.0_id_7fe9fbe491.tgz"
+					"fastboot": "dada_id_global_images_OS3.0.2.0.WOCIDXM_20251209.0000.00_16.0_id_7fe9fbe491.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.203.0.VOCIDXM": {
 					"os": "OS2.0.203.0.VOCIDXM",
 					"android": "15.0",
 					"release": "2025-12-01",
 					"recovery": "dada_id_global-ota_full-OS2.0.203.0.VOCIDXM-user-15.0-bced671805.zip",
-					"fastboot": "dada_id_global_images_OS2.0.203.0.VOCIDXM_20251109.0000.00_15.0_id_775be5829e.tgz"
+					"fastboot": "dada_id_global_images_OS2.0.203.0.VOCIDXM_20251109.0000.00_15.0_id_775be5829e.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.202.0.VOCIDXM": {
 					"os": "OS2.0.202.0.VOCIDXM",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "dada_id_global-ota_full-OS2.0.202.0.VOCIDXM-user-15.0-b599d4180b.zip",
-					"fastboot": "dada_id_global_images_OS2.0.202.0.VOCIDXM_20251021.0000.00_15.0_id_5aac8396d7.tgz"
+					"fastboot": "dada_id_global_images_OS2.0.202.0.VOCIDXM_20251021.0000.00_15.0_id_5aac8396d7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VOCIDXM": {
 					"os": "OS2.0.201.0.VOCIDXM",
 					"android": "15.0",
 					"release": "2025-09-15",
 					"recovery": "dada_id_global-ota_full-OS2.0.201.0.VOCIDXM-user-15.0-d130aecf54.zip",
-					"fastboot": "dada_id_global_images_OS2.0.201.0.VOCIDXM_20250826.0000.00_15.0_id_4253842a93.tgz"
+					"fastboot": "dada_id_global_images_OS2.0.201.0.VOCIDXM_20250826.0000.00_15.0_id_4253842a93.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.200.0.VOCIDXM": {
 					"os": "OS2.0.200.0.VOCIDXM",
 					"android": "15.0",
 					"release": "2025-08-11",
 					"recovery": "dada_id_global-ota_full-OS2.0.200.0.VOCIDXM-user-15.0-2417ce98a7.zip",
-					"fastboot": "dada_id_global_images_OS2.0.200.0.VOCIDXM_20250729.0000.00_15.0_id_8e58f359af.tgz"
+					"fastboot": "dada_id_global_images_OS2.0.200.0.VOCIDXM_20250729.0000.00_15.0_id_8e58f359af.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.107.0.VOCIDXM": {
 					"os": "OS2.0.107.0.VOCIDXM",
 					"android": "15.0",
 					"release": "2025-07-04",
 					"recovery": "dada_id_global-ota_full-OS2.0.107.0.VOCIDXM-user-15.0-7970f6378d.zip",
-					"fastboot": "dada_id_global_images_OS2.0.107.0.VOCIDXM_20250624.0000.00_15.0_id_080992d5d9.tgz"
+					"fastboot": "dada_id_global_images_OS2.0.107.0.VOCIDXM_20250624.0000.00_15.0_id_080992d5d9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VOCIDXM": {
 					"os": "OS2.0.104.0.VOCIDXM",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "dada_id_global-ota_full-OS2.0.104.0.VOCIDXM-user-15.0-6020a29c0f.zip",
-					"fastboot": "dada_id_global_images_OS2.0.104.0.VOCIDXM_20250507.0000.00_15.0_id_60647653e6.tgz"
+					"fastboot": "dada_id_global_images_OS2.0.104.0.VOCIDXM_20250507.0000.00_15.0_id_60647653e6.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.103.0.VOCIDXM": {
 					"os": "OS2.0.103.0.VOCIDXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "dada_id_global-ota_full-OS2.0.103.0.VOCIDXM-user-15.0-a7460abb15.zip",
-					"fastboot": "dada_id_global_images_OS2.0.103.0.VOCIDXM_20250325.0000.00_15.0_id_de9c5f61ac.tgz"
+					"fastboot": "dada_id_global_images_OS2.0.103.0.VOCIDXM_20250325.0000.00_15.0_id_de9c5f61ac.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.102.0.VOCIDXM": {
 					"os": "OS2.0.102.0.VOCIDXM",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "dada_id_global-ota_full-OS2.0.102.0.VOCIDXM-user-15.0-65646fccb7.zip",
-					"fastboot": "dada_id_global_images_OS2.0.102.0.VOCIDXM_20250211.0000.00_15.0_id_300123c37c.tgz"
+					"fastboot": "dada_id_global_images_OS2.0.102.0.VOCIDXM_20250211.0000.00_15.0_id_300123c37c.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -1678,6 +1858,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1694,7 +1875,8 @@
 					"android": "15.0",
 					"release": "2025-03-06",
 					"recovery": "dada_id_global-ota_full-OS2.0.1.0.VOCIDDM-user-15.0-bfe8e7a522.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-12-01"
 				}
 			}
 		},
@@ -1716,6 +1898,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1732,63 +1915,72 @@
 					"android": "16.0",
 					"release": "2026-05-28",
 					"recovery": "dada_lm_cr_global-ota_full-OS3.0.4.0.WOCLMCR-user-16.0-9075dd12d5.zip",
-					"fastboot": "dada_lm_cr_global_images_OS3.0.4.0.WOCLMCR_20260427.0000.00_16.0_lm_cr_e3de099c60.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS3.0.4.0.WOCLMCR_20260427.0000.00_16.0_lm_cr_e3de099c60.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS3.0.3.0.WOCLMCR": {
 					"os": "OS3.0.3.0.WOCLMCR",
 					"android": "16.0",
 					"release": "2026-03-16",
 					"recovery": "dada_lm_cr_global-ota_full-OS3.0.3.0.WOCLMCR-user-16.0-6d41df905e.zip",
-					"fastboot": "dada_lm_cr_global_images_OS3.0.3.0.WOCLMCR_20260309.0000.00_16.0_lm_cr_9f738d5064.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS3.0.3.0.WOCLMCR_20260309.0000.00_16.0_lm_cr_9f738d5064.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS3.0.2.0.WOCLMCR": {
 					"os": "OS3.0.2.0.WOCLMCR",
 					"android": "16.0",
 					"release": "2026-01-21",
 					"recovery": "dada_lm_cr_global-ota_full-OS3.0.2.0.WOCLMCR-user-16.0-c0450d8511.zip",
-					"fastboot": "dada_lm_cr_global_images_OS3.0.2.0.WOCLMCR_20260113.0000.00_16.0_lm_cr_b96dfb4e08.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS3.0.2.0.WOCLMCR_20260113.0000.00_16.0_lm_cr_b96dfb4e08.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS3.0.1.0.WOCLMCR": {
 					"os": "OS3.0.1.0.WOCLMCR",
 					"android": "16.0",
 					"release": "2026-01-05",
 					"recovery": "dada_lm_cr_global-ota_full-OS3.0.1.0.WOCLMCR-user-16.0-2f1444fdd4.zip",
-					"fastboot": "dada_lm_cr_global_images_OS3.0.1.0.WOCLMCR_20251219.0000.00_16.0_lm_cr_b314af93b0.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS3.0.1.0.WOCLMCR_20251219.0000.00_16.0_lm_cr_b314af93b0.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.200.0.VOCLMCR": {
 					"os": "OS2.0.200.0.VOCLMCR",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "dada_lm_cr_global-ota_full-OS2.0.200.0.VOCLMCR-user-15.0-8613a551d2.zip",
-					"fastboot": "dada_lm_cr_global_images_OS2.0.200.0.VOCLMCR_20251023.0000.00_15.0_lm_cr_60a69b879c.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS2.0.200.0.VOCLMCR_20251023.0000.00_15.0_lm_cr_60a69b879c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.104.0.VOCLMCR": {
 					"os": "OS2.0.104.0.VOCLMCR",
 					"android": "15.0",
 					"release": "2025-08-14",
 					"recovery": "dada_lm_cr_global-ota_full-OS2.0.104.0.VOCLMCR-user-15.0-bcc5826770.zip",
-					"fastboot": "dada_lm_cr_global_images_OS2.0.104.0.VOCLMCR_20250728.0000.00_15.0_lm_cr_783dd6ed6a.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS2.0.104.0.VOCLMCR_20250728.0000.00_15.0_lm_cr_783dd6ed6a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.102.0.VOCLMCR": {
 					"os": "OS2.0.102.0.VOCLMCR",
 					"android": "15.0",
 					"release": "2025-06-05",
 					"recovery": "dada_lm_cr_global-ota_full-OS2.0.102.0.VOCLMCR-user-15.0-7139a6e3b5.zip",
-					"fastboot": "dada_lm_cr_global_images_OS2.0.102.0.VOCLMCR_20250528.0000.00_15.0_lm_cr_c55db58a70.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS2.0.102.0.VOCLMCR_20250528.0000.00_15.0_lm_cr_c55db58a70.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.101.0.VOCLMCR": {
 					"os": "OS2.0.101.0.VOCLMCR",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "dada_lm_cr_global-ota_full-OS2.0.101.0.VOCLMCR-user-15.0-4f7ad6b1bf.zip",
-					"fastboot": "dada_lm_cr_global_images_OS2.0.101.0.VOCLMCR_20250416.0000.00_15.0_lm_cr_fab434322e.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS2.0.101.0.VOCLMCR_20250416.0000.00_15.0_lm_cr_fab434322e.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.100.0.VOCLMCR": {
 					"os": "OS2.0.100.0.VOCLMCR",
 					"android": "15.0",
 					"release": "2025-03-02",
 					"recovery": "dada_lm_cr_global-ota_full-OS2.0.100.0.VOCLMCR-user-15.0-15f577d44b.zip",
-					"fastboot": "dada_lm_cr_global_images_OS2.0.100.0.VOCLMCR_20250214.0000.00_15.0_lm_cr_a7bb304903.tgz"
+					"fastboot": "dada_lm_cr_global_images_OS2.0.100.0.VOCLMCR_20250214.0000.00_15.0_lm_cr_a7bb304903.tgz",
+					"aspatch": "2025-01-01"
 				}
 			}
 		}

@@ -37,6 +37,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -53,133 +54,152 @@
 					"android": "15.0",
 					"release": "2026-03-23",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.210.0.VMFTWXM-user-15.0-ee0a8209d9.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.210.0.VMFTWXM_20260309.0000.00_15.0_tw_e6d419e8ef.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.210.0.VMFTWXM_20260309.0000.00_15.0_tw_e6d419e8ef.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.208.0.VMFTWXM": {
 					"os": "OS2.0.208.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2026-01-04",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.208.0.VMFTWXM-user-15.0-af71b91def.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.208.0.VMFTWXM_20251216.0000.00_15.0_tw_85f6b12830.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.208.0.VMFTWXM_20251216.0000.00_15.0_tw_85f6b12830.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.207.0.VMFTWXM": {
 					"os": "OS2.0.207.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.207.0.VMFTWXM-user-15.0-a0068bf5e4.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.207.0.VMFTWXM_20251117.0000.00_15.0_tw_e4351ed8f5.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.207.0.VMFTWXM_20251117.0000.00_15.0_tw_e4351ed8f5.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VMFTWXM": {
 					"os": "OS2.0.206.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.206.0.VMFTWXM-user-15.0-98f4854584.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.206.0.VMFTWXM_20251104.0000.00_15.0_tw_08422ea932.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.206.0.VMFTWXM_20251104.0000.00_15.0_tw_08422ea932.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VMFTWXM": {
 					"os": "OS2.0.205.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-10-17",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.205.0.VMFTWXM-user-15.0-965c1b3d37.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.205.0.VMFTWXM_20250924.0000.00_15.0_tw_b207c6fdd4.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.205.0.VMFTWXM_20250924.0000.00_15.0_tw_b207c6fdd4.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VMFTWXM": {
 					"os": "OS2.0.204.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-09-05",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.204.0.VMFTWXM-user-15.0-4c189d085b.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.204.0.VMFTWXM_20250822.0000.00_15.0_tw_10b989637b.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.204.0.VMFTWXM_20250822.0000.00_15.0_tw_10b989637b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VMFTWXM": {
 					"os": "OS2.0.203.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.203.0.VMFTWXM-user-15.0-33ff9b73a5.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.203.0.VMFTWXM_20250717.0000.00_15.0_tw_d5cf8ef1d4.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.203.0.VMFTWXM_20250717.0000.00_15.0_tw_d5cf8ef1d4.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.202.0.VMFTWXM": {
 					"os": "OS2.0.202.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.202.0.VMFTWXM-user-15.0-8d6b55529b.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.202.0.VMFTWXM_20250617.0000.00_15.0_tw_d90672342b.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.202.0.VMFTWXM_20250617.0000.00_15.0_tw_d90672342b.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.102.0.VMFTWXM": {
 					"os": "OS2.0.102.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-05-23",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.102.0.VMFTWXM-user-15.0-f83e65595b.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.102.0.VMFTWXM_20250508.0000.00_15.0_tw_eee8f14662.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.102.0.VMFTWXM_20250508.0000.00_15.0_tw_eee8f14662.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.101.0.VMFTWXM": {
 					"os": "OS2.0.101.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.101.0.VMFTWXM-user-15.0-5598f9f81f.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.101.0.VMFTWXM_20250409.0000.00_15.0_tw_7046f469af.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.101.0.VMFTWXM_20250409.0000.00_15.0_tw_7046f469af.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VMFTWXM": {
 					"os": "OS2.0.2.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-02-28",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.2.0.VMFTWXM-user-15.0-1d76bbd0fb.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.2.0.VMFTWXM_20250210.0000.00_15.0_tw_06bc0ff0c9.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.2.0.VMFTWXM_20250210.0000.00_15.0_tw_06bc0ff0c9.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.0.VMFTWXM": {
 					"os": "OS2.0.1.0.VMFTWXM",
 					"android": "15.0",
 					"release": "2025-02-05",
 					"recovery": "aristotle_tw_global-ota_full-OS2.0.1.0.VMFTWXM-user-15.0-e828ec2e57.zip",
-					"fastboot": "aristotle_tw_global_images_OS2.0.1.0.VMFTWXM_20250114.0000.00_15.0_tw_6bde4675b4.tgz"
+					"fastboot": "aristotle_tw_global_images_OS2.0.1.0.VMFTWXM_20250114.0000.00_15.0_tw_6bde4675b4.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.9.0.UMFTWXM": {
 					"os": "OS1.0.9.0.UMFTWXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_ARISTOTLETWGlobal_OS1.0.9.0.UMFTWXM_f3a52bf465_14.0.zip",
-					"fastboot": "aristotle_tw_global_images_OS1.0.9.0.UMFTWXM_20241225.0000.00_14.0_tw_0928662150.tgz"
+					"fastboot": "aristotle_tw_global_images_OS1.0.9.0.UMFTWXM_20241225.0000.00_14.0_tw_0928662150.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UMFTWXM": {
 					"os": "OS1.0.8.0.UMFTWXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_ARISTOTLETWGlobal_OS1.0.8.0.UMFTWXM_dc50b8dbef_14.0.zip",
-					"fastboot": "aristotle_tw_global_images_OS1.0.8.0.UMFTWXM_20241121.0000.00_14.0_tw_a04fb9628c.tgz"
+					"fastboot": "aristotle_tw_global_images_OS1.0.8.0.UMFTWXM_20241121.0000.00_14.0_tw_a04fb9628c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UMFTWXM": {
 					"os": "OS1.0.7.0.UMFTWXM",
 					"android": "14.0",
 					"release": "2024-11-02",
 					"recovery": "miui_ARISTOTLETWGlobal_OS1.0.7.0.UMFTWXM_bc239372dd_14.0.zip",
-					"fastboot": "aristotle_tw_global_images_OS1.0.7.0.UMFTWXM_20241016.0000.00_14.0_tw_b22d029bf6.tgz"
+					"fastboot": "aristotle_tw_global_images_OS1.0.7.0.UMFTWXM_20241016.0000.00_14.0_tw_b22d029bf6.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UMFTWXM": {
 					"os": "OS1.0.6.0.UMFTWXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_ARISTOTLETWGlobal_OS1.0.6.0.UMFTWXM_5f50c28de9_14.0.zip",
-					"fastboot": "aristotle_tw_global_images_OS1.0.6.0.UMFTWXM_20240909.0000.00_14.0_tw_9a3b972e6a.tgz"
+					"fastboot": "aristotle_tw_global_images_OS1.0.6.0.UMFTWXM_20240909.0000.00_14.0_tw_9a3b972e6a.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UMFTWXM": {
 					"os": "OS1.0.3.0.UMFTWXM",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_ARISTOTLETWGlobal_OS1.0.3.0.UMFTWXM_ca62118db8_14.0.zip",
-					"fastboot": "aristotle_tw_global_images_OS1.0.3.0.UMFTWXM_20240711.0000.00_14.0_tw_13a5a103d6.tgz"
+					"fastboot": "aristotle_tw_global_images_OS1.0.3.0.UMFTWXM_20240711.0000.00_14.0_tw_13a5a103d6.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UMFTWXM": {
 					"os": "OS1.0.2.0.UMFTWXM",
 					"android": "14.0",
 					"release": "2024-05-27",
 					"recovery": "miui_ARISTOTLETWGlobal_OS1.0.2.0.UMFTWXM_373cec8781_14.0.zip",
-					"fastboot": "aristotle_tw_global_images_OS1.0.2.0.UMFTWXM_20240514.0000.00_14.0_tw_305429e8b1.tgz"
+					"fastboot": "aristotle_tw_global_images_OS1.0.2.0.UMFTWXM_20240514.0000.00_14.0_tw_305429e8b1.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UMFTWXM": {
 					"os": "OS1.0.1.0.UMFTWXM",
 					"android": "14.0",
 					"release": "2024-01-29",
 					"recovery": "miui_ARISTOTLETWGlobal_OS1.0.1.0.UMFTWXM_308306b80f_14.0.zip",
-					"fastboot": "aristotle_tw_global_images_OS1.0.1.0.UMFTWXM_20240116.0000.00_14.0_tw_a3b136410a.tgz"
+					"fastboot": "aristotle_tw_global_images_OS1.0.1.0.UMFTWXM_20240116.0000.00_14.0_tw_a3b136410a.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -201,6 +221,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -217,140 +238,160 @@
 					"android": "15.0",
 					"release": "2026-02-11",
 					"recovery": "aristotle_global-ota_full-OS2.0.214.0.VMFMIXM-user-15.0-82b52f532f.zip",
-					"fastboot": "aristotle_global_images_OS2.0.214.0.VMFMIXM_20260202.0000.00_15.0_global_c5b5fe03af.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.214.0.VMFMIXM_20260202.0000.00_15.0_global_c5b5fe03af.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.213.0.VMFMIXM": {
 					"os": "OS2.0.213.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2026-01-26",
 					"recovery": "aristotle_global-ota_full-OS2.0.213.0.VMFMIXM-user-15.0-99db7a065c.zip",
-					"fastboot": "aristotle_global_images_OS2.0.213.0.VMFMIXM_20260109.0000.00_15.0_global_e4e6571264.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.213.0.VMFMIXM_20260109.0000.00_15.0_global_e4e6571264.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.212.0.VMFMIXM": {
 					"os": "OS2.0.212.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "aristotle_global-ota_full-OS2.0.212.0.VMFMIXM-user-15.0-c0a55fca7d.zip",
-					"fastboot": "aristotle_global_images_OS2.0.212.0.VMFMIXM_20251216.0000.00_15.0_global_3acff75ba3.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.212.0.VMFMIXM_20251216.0000.00_15.0_global_3acff75ba3.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.211.0.VMFMIXM": {
 					"os": "OS2.0.211.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "aristotle_global-ota_full-OS2.0.211.0.VMFMIXM-user-15.0-cd7fb8cd86.zip",
-					"fastboot": "aristotle_global_images_OS2.0.211.0.VMFMIXM_20251118.0000.00_15.0_global_b796ec3628.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.211.0.VMFMIXM_20251118.0000.00_15.0_global_b796ec3628.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.210.0.VMFMIXM": {
 					"os": "OS2.0.210.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-11-03",
 					"recovery": "aristotle_global-ota_full-OS2.0.210.0.VMFMIXM-user-15.0-cc5831dde8.zip",
-					"fastboot": "aristotle_global_images_OS2.0.210.0.VMFMIXM_20251016.0000.00_15.0_global_5b0377359c.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.210.0.VMFMIXM_20251016.0000.00_15.0_global_5b0377359c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.209.0.VMFMIXM": {
 					"os": "OS2.0.209.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "aristotle_global-ota_full-OS2.0.209.0.VMFMIXM-user-15.0-fd9dcf9c7f.zip",
-					"fastboot": "aristotle_global_images_OS2.0.209.0.VMFMIXM_20250909.0000.00_15.0_global_aacb72349a.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.209.0.VMFMIXM_20250909.0000.00_15.0_global_aacb72349a.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.208.0.VMFMIXM": {
 					"os": "OS2.0.208.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "aristotle_global-ota_full-OS2.0.208.0.VMFMIXM-user-15.0-7c8fda1b7d.zip",
-					"fastboot": "aristotle_global_images_OS2.0.208.0.VMFMIXM_20250814.0000.00_15.0_global_2697831f2b.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.208.0.VMFMIXM_20250814.0000.00_15.0_global_2697831f2b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.205.0.VMFMIXM": {
 					"os": "OS2.0.205.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-07-28",
 					"recovery": "aristotle_global-ota_full-OS2.0.205.0.VMFMIXM-user-15.0-41a47b3bad.zip",
-					"fastboot": "aristotle_global_images_OS2.0.205.0.VMFMIXM_20250716.0000.00_15.0_global_aff66a7a67.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.205.0.VMFMIXM_20250716.0000.00_15.0_global_aff66a7a67.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.203.0.VMFMIXM": {
 					"os": "OS2.0.203.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "aristotle_global-ota_full-OS2.0.203.0.VMFMIXM-user-15.0-58db77488e.zip",
-					"fastboot": "aristotle_global_images_OS2.0.203.0.VMFMIXM_20250618.0000.00_15.0_global_c44b81bcd4.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.203.0.VMFMIXM_20250618.0000.00_15.0_global_c44b81bcd4.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VMFMIXM": {
 					"os": "OS2.0.104.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "aristotle_global-ota_full-OS2.0.104.0.VMFMIXM-user-15.0-a8ddeac0e7.zip",
-					"fastboot": "aristotle_global_images_OS2.0.104.0.VMFMIXM_20250508.0000.00_15.0_global_92b17ca5ad.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.104.0.VMFMIXM_20250508.0000.00_15.0_global_92b17ca5ad.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.103.0.VMFMIXM": {
 					"os": "OS2.0.103.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "aristotle_global-ota_full-OS2.0.103.0.VMFMIXM-user-15.0-f1209d58ac.zip",
-					"fastboot": "aristotle_global_images_OS2.0.103.0.VMFMIXM_20250409.0000.00_15.0_global_25fa480ae1.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.103.0.VMFMIXM_20250409.0000.00_15.0_global_25fa480ae1.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.3.0.VMFMIXM": {
 					"os": "OS2.0.3.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2025-02-25",
 					"recovery": "aristotle_global-ota_full-OS2.0.3.0.VMFMIXM-user-15.0-6a0c5ce211.zip",
-					"fastboot": "aristotle_global_images_OS2.0.3.0.VMFMIXM_20250210.0000.00_15.0_global_d9aa088630.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.3.0.VMFMIXM_20250210.0000.00_15.0_global_d9aa088630.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VMFMIXM": {
 					"os": "OS2.0.2.0.VMFMIXM",
 					"android": "15.0",
 					"release": "2024-12-26",
 					"recovery": "aristotle_global-ota_full-OS2.0.2.0.VMFMIXM-user-15.0-1a14ff369b.zip",
-					"fastboot": "aristotle_global_images_OS2.0.2.0.VMFMIXM_20241202.0000.00_15.0_global_1cedda66bf.tgz"
+					"fastboot": "aristotle_global_images_OS2.0.2.0.VMFMIXM_20241202.0000.00_15.0_global_1cedda66bf.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.10.0.UMFMIXM": {
 					"os": "OS1.0.10.0.UMFMIXM",
 					"android": "14.0",
 					"release": "2024-11-02",
 					"recovery": "miui_ARISTOTLEGlobal_OS1.0.10.0.UMFMIXM_bc7ecc81f4_14.0.zip",
-					"fastboot": "aristotle_global_images_OS1.0.10.0.UMFMIXM_20241015.0000.00_14.0_global_4933717e79.tgz"
+					"fastboot": "aristotle_global_images_OS1.0.10.0.UMFMIXM_20241015.0000.00_14.0_global_4933717e79.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.9.0.UMFMIXM": {
 					"os": "OS1.0.9.0.UMFMIXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_ARISTOTLEGlobal_OS1.0.9.0.UMFMIXM_41cdc07060_14.0.zip",
-					"fastboot": "aristotle_global_images_OS1.0.9.0.UMFMIXM_20240909.0000.00_14.0_global_8fd2d41202.tgz"
+					"fastboot": "aristotle_global_images_OS1.0.9.0.UMFMIXM_20240909.0000.00_14.0_global_8fd2d41202.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.6.0.UMFMIXM": {
 					"os": "OS1.0.6.0.UMFMIXM",
 					"android": "14.0",
 					"release": "2024-08-05",
 					"recovery": "miui_ARISTOTLEGlobal_OS1.0.6.0.UMFMIXM_39d2f83f73_14.0.zip",
-					"fastboot": "aristotle_global_images_OS1.0.6.0.UMFMIXM_20240722.0000.00_14.0_global_837d78fc94.tgz"
+					"fastboot": "aristotle_global_images_OS1.0.6.0.UMFMIXM_20240722.0000.00_14.0_global_837d78fc94.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.5.0.UMFMIXM": {
 					"os": "OS1.0.5.0.UMFMIXM",
 					"android": "14.0",
 					"release": "2024-07-01",
 					"recovery": "miui_ARISTOTLEGlobal_OS1.0.5.0.UMFMIXM_7d2a32407c_14.0.zip",
-					"fastboot": "aristotle_global_images_OS1.0.5.0.UMFMIXM_20240618.0000.00_14.0_global_89830db023.tgz"
+					"fastboot": "aristotle_global_images_OS1.0.5.0.UMFMIXM_20240618.0000.00_14.0_global_89830db023.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.4.0.UMFMIXM": {
 					"os": "OS1.0.4.0.UMFMIXM",
 					"android": "14.0",
 					"release": "2024-04-23",
 					"recovery": "miui_ARISTOTLEGlobal_OS1.0.4.0.UMFMIXM_4b921ddffb_14.0.zip",
-					"fastboot": "aristotle_global_images_OS1.0.4.0.UMFMIXM_20240412.0000.00_14.0_global_9d691b7e05.tgz"
+					"fastboot": "aristotle_global_images_OS1.0.4.0.UMFMIXM_20240412.0000.00_14.0_global_9d691b7e05.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.3.0.UMFMIXM": {
 					"os": "OS1.0.3.0.UMFMIXM",
 					"android": "14.0",
 					"release": "2024-03-22",
 					"recovery": "miui_ARISTOTLEGlobal_OS1.0.3.0.UMFMIXM_ae37ba38c1_14.0.zip",
-					"fastboot": "aristotle_global_images_OS1.0.3.0.UMFMIXM_20240226.0000.00_14.0_global_af0e0361ee.tgz"
+					"fastboot": "aristotle_global_images_OS1.0.3.0.UMFMIXM_20240226.0000.00_14.0_global_af0e0361ee.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.2.0.UMFMIXM": {
 					"os": "OS1.0.2.0.UMFMIXM",
 					"android": "14.0",
 					"release": "2024-02-23",
 					"recovery": "miui_ARISTOTLEGlobal_OS1.0.2.0.UMFMIXM_d529eb94a4_14.0.zip",
-					"fastboot": "aristotle_global_images_OS1.0.2.0.UMFMIXM_20240112.0000.00_14.0_global_4df664fd04.tgz"
+					"fastboot": "aristotle_global_images_OS1.0.2.0.UMFMIXM_20240112.0000.00_14.0_global_4df664fd04.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.1.0.UMFMIXM": {
 					"os": "OS1.0.1.0.UMFMIXM",
@@ -379,6 +420,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -395,84 +437,96 @@
 					"android": "15.0",
 					"release": "2026-05-25",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.209.0.VMFMIDC-user-15.0-8228dc8be0.zip",
-					"fastboot": "aristotle_dc_global_images_OS2.0.209.0.VMFMIDC_20260519.0000.00_15.0_global_dc_40bab20296.tgz"
+					"fastboot": "aristotle_dc_global_images_OS2.0.209.0.VMFMIDC_20260519.0000.00_15.0_global_dc_40bab20296.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.208.0.VMFMIDC": {
 					"os": "OS2.0.208.0.VMFMIDC",
 					"android": "15.0",
 					"release": "2026-03-06",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.208.0.VMFMIDC-user-15.0-46f3ee2e21.zip",
-					"fastboot": "aristotle_dc_global_images_OS2.0.208.0.VMFMIDC_20260303.0000.00_15.0_global_dc_d8b29c2036.tgz"
+					"fastboot": "aristotle_dc_global_images_OS2.0.208.0.VMFMIDC_20260303.0000.00_15.0_global_dc_d8b29c2036.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.206.0.VMFMIDC": {
 					"os": "OS2.0.206.0.VMFMIDC",
 					"android": "15.0",
 					"release": "2025-12-24",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.206.0.VMFMIDC-user-15.0-85cb117d84.zip",
-					"fastboot": "aristotle_dc_global_images_OS2.0.206.0.VMFMIDC_20251216.0000.00_15.0_global_dc_b8133e340e.tgz"
+					"fastboot": "aristotle_dc_global_images_OS2.0.206.0.VMFMIDC_20251216.0000.00_15.0_global_dc_b8133e340e.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.205.0.VMFMIDC": {
 					"os": "OS2.0.205.0.VMFMIDC",
 					"android": "15.0",
 					"release": "2025-11-13",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.205.0.VMFMIDC-user-15.0-15b4cdf835.zip",
-					"fastboot": "aristotle_dc_global_images_OS2.0.205.0.VMFMIDC_20251105.0000.00_15.0_global_dc_9939f26115.tgz"
+					"fastboot": "aristotle_dc_global_images_OS2.0.205.0.VMFMIDC_20251105.0000.00_15.0_global_dc_9939f26115.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.204.0.VMFMIDC": {
 					"os": "OS2.0.204.0.VMFMIDC",
 					"android": "15.0",
 					"release": "2025-10-24",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.204.0.VMFMIDC-user-15.0-fc9a04f8a6.zip",
-					"fastboot": "aristotle_dc_global_images_OS2.0.204.0.VMFMIDC_20251017.0000.00_15.0_global_dc_75073154d0.tgz"
+					"fastboot": "aristotle_dc_global_images_OS2.0.204.0.VMFMIDC_20251017.0000.00_15.0_global_dc_75073154d0.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.202.0.VMFMIDC": {
 					"os": "OS2.0.202.0.VMFMIDC",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.202.0.VMFMIDC-user-15.0-f32308e517.zip",
-					"fastboot": "aristotle_dc_global_images_OS2.0.202.0.VMFMIDC_20250825.0000.00_15.0_global_dc_2ba9e64cbd.tgz"
+					"fastboot": "aristotle_dc_global_images_OS2.0.202.0.VMFMIDC_20250825.0000.00_15.0_global_dc_2ba9e64cbd.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.101.0.VMFMIDC": {
 					"os": "OS2.0.101.0.VMFMIDC",
 					"android": "15.0",
 					"release": "2025-05-14",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.101.0.VMFMIDC-user-15.0-ce47787bc2.zip",
-					"fastboot": "aristotle_dc_global_images_OS2.0.101.0.VMFMIDC_20250409.0000.00_15.0_global_dc_fd4ffd43ea.tgz"
+					"fastboot": "aristotle_dc_global_images_OS2.0.101.0.VMFMIDC_20250409.0000.00_15.0_global_dc_fd4ffd43ea.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS2.0.1.0.VMFMIDC": {
 					"os": "OS2.0.1.0.VMFMIDC",
 					"android": "15.0",
 					"release": "2025-03-20",
 					"recovery": "aristotle_dc_global-ota_full-OS2.0.1.0.VMFMIDC-user-15.0-501cde12c3.zip",
-					"fastboot": "aristotle_dc_global_images_OS2.0.1.0.VMFMIDC_20250117.0000.00_15.0_global_dc_943bfe6bf0.tgz"
+					"fastboot": "aristotle_dc_global_images_OS2.0.1.0.VMFMIDC_20250117.0000.00_15.0_global_dc_943bfe6bf0.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.6.0.UMFMIDC": {
 					"os": "OS1.0.6.0.UMFMIDC",
 					"android": "14.0",
 					"release": "2025-02-10",
 					"recovery": "miui_ARISTOTLEDCGlobal_OS1.0.6.0.UMFMIDC_cfbc837202_14.0.zip",
-					"fastboot": "aristotle_dc_global_images_OS1.0.6.0.UMFMIDC_20241227.0000.00_14.0_global_dc_c6b74a3a87.tgz"
+					"fastboot": "aristotle_dc_global_images_OS1.0.6.0.UMFMIDC_20241227.0000.00_14.0_global_dc_c6b74a3a87.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.UMFMIDC": {
 					"os": "OS1.0.5.0.UMFMIDC",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_ARISTOTLEDCGlobal_OS1.0.5.0.UMFMIDC_0c9edb9c2d_14.0.zip",
-					"fastboot": "aristotle_dc_global_images_OS1.0.5.0.UMFMIDC_20240929.0000.00_14.0_global_dc_6eacb57901.tgz"
+					"fastboot": "aristotle_dc_global_images_OS1.0.5.0.UMFMIDC_20240929.0000.00_14.0_global_dc_6eacb57901.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.2.0.UMFMIDC": {
 					"os": "OS1.0.2.0.UMFMIDC",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_ARISTOTLEDCGlobal_OS1.0.2.0.UMFMIDC_3aa95635bb_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UMFMIDC": {
 					"os": "OS1.0.1.0.UMFMIDC",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_ARISTOTLEDCGlobal_OS1.0.1.0.UMFMIDC_3231cc6e8e_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -494,6 +548,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -510,168 +565,192 @@
 					"android": "15.0",
 					"release": "2026-03-09",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.216.0.VMFEUXM-user-15.0-f1d6faf75d.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.216.0.VMFEUXM_20260302.0000.00_15.0_eea_e27623b5c9.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.216.0.VMFEUXM_20260302.0000.00_15.0_eea_e27623b5c9.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.213.0.VMFEUXM": {
 					"os": "OS2.0.213.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2026-01-01",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.213.0.VMFEUXM-user-15.0-c5d5df6c9d.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.213.0.VMFEUXM_20251224.0000.00_15.0_eea_faf49d892d.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.213.0.VMFEUXM_20251224.0000.00_15.0_eea_faf49d892d.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.212.0.VMFEUXM": {
 					"os": "OS2.0.212.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.212.0.VMFEUXM-user-15.0-549a2e2ffb.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.212.0.VMFEUXM_20251119.0000.00_15.0_eea_0313d1bf24.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.212.0.VMFEUXM_20251119.0000.00_15.0_eea_0313d1bf24.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.211.0.VMFEUXM": {
 					"os": "OS2.0.211.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-10-31",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.211.0.VMFEUXM-user-15.0-dcad5ae43a.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.211.0.VMFEUXM_20251027.0000.00_15.0_eea_9e35523780.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.211.0.VMFEUXM_20251027.0000.00_15.0_eea_9e35523780.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.208.0.VMFEUXM": {
 					"os": "OS2.0.208.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-10-16",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.208.0.VMFEUXM-user-15.0-5cfa9f0063.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.208.0.VMFEUXM_20250922.0000.00_15.0_eea_4d5a12d83e.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.208.0.VMFEUXM_20250922.0000.00_15.0_eea_4d5a12d83e.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.205.0.VMFEUXM": {
 					"os": "OS2.0.205.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.205.0.VMFEUXM-user-15.0-f18e218900.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.205.0.VMFEUXM_20250814.0000.00_15.0_eea_192ab4328f.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.205.0.VMFEUXM_20250814.0000.00_15.0_eea_192ab4328f.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VMFEUXM": {
 					"os": "OS2.0.203.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.203.0.VMFEUXM-user-15.0-e3bddc17f1.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.203.0.VMFEUXM_20250717.0000.00_15.0_eea_6c361f5291.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.203.0.VMFEUXM_20250717.0000.00_15.0_eea_6c361f5291.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.202.0.VMFEUXM": {
 					"os": "OS2.0.202.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-06-26",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.202.0.VMFEUXM-user-15.0-99d02e6834.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.202.0.VMFEUXM_20250616.0000.00_15.0_eea_2a5d58bee9.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.202.0.VMFEUXM_20250616.0000.00_15.0_eea_2a5d58bee9.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.104.0.VMFEUXM": {
 					"os": "OS2.0.104.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.104.0.VMFEUXM-user-15.0-0ad2872c78.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.104.0.VMFEUXM_20250506.0000.00_15.0_eea_560a33fce4.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.104.0.VMFEUXM_20250506.0000.00_15.0_eea_560a33fce4.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.103.0.VMFEUXM": {
 					"os": "OS2.0.103.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-04-07",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.103.0.VMFEUXM-user-15.0-c33a70a1ec.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.103.0.VMFEUXM_20250324.0000.00_15.0_eea_0b4a51009d.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.103.0.VMFEUXM_20250324.0000.00_15.0_eea_0b4a51009d.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.3.0.VMFEUXM": {
 					"os": "OS2.0.3.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-02-17",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.3.0.VMFEUXM-user-15.0-6803633936.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.3.0.VMFEUXM_20250116.0000.00_15.0_eea_eed7041817.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.3.0.VMFEUXM_20250116.0000.00_15.0_eea_eed7041817.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.2.0.VMFEUXM": {
 					"os": "OS2.0.2.0.VMFEUXM",
 					"android": "15.0",
 					"release": "2025-01-06",
 					"recovery": "aristotle_eea_global-ota_full-OS2.0.2.0.VMFEUXM-user-15.0-c59e651003.zip",
-					"fastboot": "aristotle_eea_global_images_OS2.0.2.0.VMFEUXM_20241225.0000.00_15.0_eea_b8bed39534.tgz"
+					"fastboot": "aristotle_eea_global_images_OS2.0.2.0.VMFEUXM_20241225.0000.00_15.0_eea_b8bed39534.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.17.0.UMFEUXM": {
 					"os": "OS1.0.17.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-12-12",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.17.0.UMFEUXM_38be2f2355_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.17.0.UMFEUXM_20241121.0000.00_14.0_eea_8d699d0f0c.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.17.0.UMFEUXM_20241121.0000.00_14.0_eea_8d699d0f0c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.16.0.UMFEUXM": {
 					"os": "OS1.0.16.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-11-02",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.16.0.UMFEUXM_ead34ca388_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.16.0.UMFEUXM_20241015.0000.00_14.0_eea_492fdcee89.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.16.0.UMFEUXM_20241015.0000.00_14.0_eea_492fdcee89.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.15.0.UMFEUXM": {
 					"os": "OS1.0.15.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-09-22",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.15.0.UMFEUXM_233e68e5e0_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.15.0.UMFEUXM_20240906.0000.00_14.0_eea_afb4f33178.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.15.0.UMFEUXM_20240906.0000.00_14.0_eea_afb4f33178.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.14.0.UMFEUXM": {
 					"os": "OS1.0.14.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-09-20",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.14.0.UMFEUXM_0a59b0552e_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.14.0.UMFEUXM_20240828.0000.00_14.0_eea_78f0d7b3c3.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.14.0.UMFEUXM_20240828.0000.00_14.0_eea_78f0d7b3c3.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.11.0.UMFEUXM": {
 					"os": "OS1.0.11.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-08-05",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.11.0.UMFEUXM_76f7916e03_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.11.0.UMFEUXM_20240722.0000.00_14.0_eea_8708abfffe.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.11.0.UMFEUXM_20240722.0000.00_14.0_eea_8708abfffe.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.10.0.UMFEUXM": {
 					"os": "OS1.0.10.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-07-04",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.10.0.UMFEUXM_9fd522d995_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.10.0.UMFEUXM_20240618.0000.00_14.0_eea_0aea7ce4d9.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.10.0.UMFEUXM_20240618.0000.00_14.0_eea_0aea7ce4d9.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.9.0.UMFEUXM": {
 					"os": "OS1.0.9.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-06-25",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.9.0.UMFEUXM_81bfd4666c_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.9.0.UMFEUXM_20240617.0000.00_14.0_eea_7b4a9a3e0a.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.9.0.UMFEUXM_20240617.0000.00_14.0_eea_7b4a9a3e0a.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.7.0.UMFEUXM": {
 					"os": "OS1.0.7.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-05-18",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.7.0.UMFEUXM_ed8c49dcbc_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.7.0.UMFEUXM_20240429.0000.00_14.0_eea_b5ca4e4d7c.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.7.0.UMFEUXM_20240429.0000.00_14.0_eea_b5ca4e4d7c.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.6.0.UMFEUXM": {
 					"os": "OS1.0.6.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-05-06",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.6.0.UMFEUXM_3cfffbb320_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.6.0.UMFEUXM_20240415.0000.00_14.0_eea_aa37a3eb0e.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.6.0.UMFEUXM_20240415.0000.00_14.0_eea_aa37a3eb0e.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.5.0.UMFEUXM": {
 					"os": "OS1.0.5.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.5.0.UMFEUXM_0b4c8fdf0a_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.5.0.UMFEUXM_20240207.0000.00_14.0_eea_079878510c.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.5.0.UMFEUXM_20240207.0000.00_14.0_eea_079878510c.tgz",
+					"aspatch": "2024-02-01"
 				},
 				"OS1.0.3.0.UMFEUXM": {
 					"os": "OS1.0.3.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2024-02-26",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.3.0.UMFEUXM_e8e60fffbf_14.0.zip",
-					"fastboot": "aristotle_eea_global_images_OS1.0.3.0.UMFEUXM_20240112.0000.00_14.0_eea_7e935a03a9.tgz"
+					"fastboot": "aristotle_eea_global_images_OS1.0.3.0.UMFEUXM_20240112.0000.00_14.0_eea_7e935a03a9.tgz",
+					"aspatch": "2024-01-01"
 				},
 				"OS1.0.2.0.UMFEUXM": {
 					"os": "OS1.0.2.0.UMFEUXM",
 					"android": "14.0",
 					"release": "2023-12-26",
 					"recovery": "miui_ARISTOTLEEEAGlobal_OS1.0.2.0.UMFEUXM_ca0b73db89_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2023-11-01"
 				}
 			}
 		},
@@ -693,6 +772,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -709,126 +789,144 @@
 					"android": "15.0",
 					"release": "2026-03-23",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.209.0.VMFRUXM-user-15.0-8ebce986dd.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.209.0.VMFRUXM_20260309.0000.00_15.0_ru_eadee18d7c.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.209.0.VMFRUXM_20260309.0000.00_15.0_ru_eadee18d7c.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.207.0.VMFRUXM": {
 					"os": "OS2.0.207.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.207.0.VMFRUXM-user-15.0-f5fb219374.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.207.0.VMFRUXM_20251122.0000.00_15.0_ru_902d818401.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.207.0.VMFRUXM_20251122.0000.00_15.0_ru_902d818401.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VMFRUXM": {
 					"os": "OS2.0.206.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.206.0.VMFRUXM-user-15.0-f9352dc00d.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.206.0.VMFRUXM_20251104.0000.00_15.0_ru_5ef2ee4553.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.206.0.VMFRUXM_20251104.0000.00_15.0_ru_5ef2ee4553.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VMFRUXM": {
 					"os": "OS2.0.205.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-10-17",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.205.0.VMFRUXM-user-15.0-fa6d1b6251.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.205.0.VMFRUXM_20250924.0000.00_15.0_ru_c6a0931c01.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.205.0.VMFRUXM_20250924.0000.00_15.0_ru_c6a0931c01.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VMFRUXM": {
 					"os": "OS2.0.204.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-09-05",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.204.0.VMFRUXM-user-15.0-a13a356e02.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.204.0.VMFRUXM_20250822.0000.00_15.0_ru_8114002753.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.204.0.VMFRUXM_20250822.0000.00_15.0_ru_8114002753.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VMFRUXM": {
 					"os": "OS2.0.203.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.203.0.VMFRUXM-user-15.0-a67b896811.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.203.0.VMFRUXM_20250717.0000.00_15.0_ru_45f0254a81.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.203.0.VMFRUXM_20250717.0000.00_15.0_ru_45f0254a81.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.202.0.VMFRUXM": {
 					"os": "OS2.0.202.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.202.0.VMFRUXM-user-15.0-32ef93a681.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.202.0.VMFRUXM_20250617.0000.00_15.0_ru_ed58f2dd10.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.202.0.VMFRUXM_20250617.0000.00_15.0_ru_ed58f2dd10.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.102.0.VMFRUXM": {
 					"os": "OS2.0.102.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.102.0.VMFRUXM-user-15.0-a665b3abb3.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.102.0.VMFRUXM_20250508.0000.00_15.0_ru_3959e79a0f.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.102.0.VMFRUXM_20250508.0000.00_15.0_ru_3959e79a0f.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.101.0.VMFRUXM": {
 					"os": "OS2.0.101.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.101.0.VMFRUXM-user-15.0-f415e461a4.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.101.0.VMFRUXM_20250409.0000.00_15.0_ru_fe7ebd68a0.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.101.0.VMFRUXM_20250409.0000.00_15.0_ru_fe7ebd68a0.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VMFRUXM": {
 					"os": "OS2.0.2.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-03-03",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.2.0.VMFRUXM-user-15.0-b971b1f1a4.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.2.0.VMFRUXM_20250210.0000.00_15.0_ru_9cb4bdb714.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.2.0.VMFRUXM_20250210.0000.00_15.0_ru_9cb4bdb714.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.0.VMFRUXM": {
 					"os": "OS2.0.1.0.VMFRUXM",
 					"android": "15.0",
 					"release": "2025-02-07",
 					"recovery": "aristotle_ru_global-ota_full-OS2.0.1.0.VMFRUXM-user-15.0-9031f8e681.zip",
-					"fastboot": "aristotle_ru_global_images_OS2.0.1.0.VMFRUXM_20250117.0000.00_15.0_ru_c51bec2a39.tgz"
+					"fastboot": "aristotle_ru_global_images_OS2.0.1.0.VMFRUXM_20250117.0000.00_15.0_ru_c51bec2a39.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.9.0.UMFRUXM": {
 					"os": "OS1.0.9.0.UMFRUXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_ARISTOTLERUGlobal_OS1.0.9.0.UMFRUXM_0095f2c95e_14.0.zip",
-					"fastboot": "aristotle_ru_global_images_OS1.0.9.0.UMFRUXM_20241225.0000.00_14.0_ru_650491739c.tgz"
+					"fastboot": "aristotle_ru_global_images_OS1.0.9.0.UMFRUXM_20241225.0000.00_14.0_ru_650491739c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UMFRUXM": {
 					"os": "OS1.0.8.0.UMFRUXM",
 					"android": "14.0",
 					"release": "2024-12-14",
 					"recovery": "miui_ARISTOTLERUGlobal_OS1.0.8.0.UMFRUXM_15bb3e7407_14.0.zip",
-					"fastboot": "aristotle_ru_global_images_OS1.0.8.0.UMFRUXM_20241121.0000.00_14.0_ru_94e0f6f8b0.tgz"
+					"fastboot": "aristotle_ru_global_images_OS1.0.8.0.UMFRUXM_20241121.0000.00_14.0_ru_94e0f6f8b0.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UMFRUXM": {
 					"os": "OS1.0.7.0.UMFRUXM",
 					"android": "14.0",
 					"release": "2024-11-02",
 					"recovery": "miui_ARISTOTLERUGlobal_OS1.0.7.0.UMFRUXM_162286d24a_14.0.zip",
-					"fastboot": "aristotle_ru_global_images_OS1.0.7.0.UMFRUXM_20241016.0000.00_14.0_ru_367a76cb3f.tgz"
+					"fastboot": "aristotle_ru_global_images_OS1.0.7.0.UMFRUXM_20241016.0000.00_14.0_ru_367a76cb3f.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UMFRUXM": {
 					"os": "OS1.0.6.0.UMFRUXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_ARISTOTLERUGlobal_OS1.0.6.0.UMFRUXM_7557b559dc_14.0.zip",
-					"fastboot": "aristotle_ru_global_images_OS1.0.6.0.UMFRUXM_20240909.0000.00_14.0_ru_7871757b0c.tgz"
+					"fastboot": "aristotle_ru_global_images_OS1.0.6.0.UMFRUXM_20240909.0000.00_14.0_ru_7871757b0c.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UMFRUXM": {
 					"os": "OS1.0.3.0.UMFRUXM",
 					"android": "14.0",
 					"release": "2024-07-22",
 					"recovery": "miui_ARISTOTLERUGlobal_OS1.0.3.0.UMFRUXM_3aaf8ceb3f_14.0.zip",
-					"fastboot": "aristotle_ru_global_images_OS1.0.3.0.UMFRUXM_20240708.0000.00_14.0_ru_af5eecc0a0.tgz"
+					"fastboot": "aristotle_ru_global_images_OS1.0.3.0.UMFRUXM_20240708.0000.00_14.0_ru_af5eecc0a0.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UMFRUXM": {
 					"os": "OS1.0.2.0.UMFRUXM",
 					"android": "14.0",
 					"release": "2024-05-20",
 					"recovery": "miui_ARISTOTLERUGlobal_OS1.0.2.0.UMFRUXM_92c9ff2d92_14.0.zip",
-					"fastboot": "aristotle_ru_global_images_OS1.0.2.0.UMFRUXM_20240429.0000.00_14.0_ru_3b4e7271b8.tgz"
+					"fastboot": "aristotle_ru_global_images_OS1.0.2.0.UMFRUXM_20240429.0000.00_14.0_ru_3b4e7271b8.tgz",
+					"aspatch": "2024-04-01"
 				},
 				"OS1.0.1.0.UMFRUXM": {
 					"os": "OS1.0.1.0.UMFRUXM",
 					"android": "14.0",
 					"release": "2024-02-18",
 					"recovery": "miui_ARISTOTLERUGlobal_OS1.0.1.0.UMFRUXM_863685c368_14.0.zip",
-					"fastboot": "aristotle_ru_global_images_OS1.0.1.0.UMFRUXM_20240123.0000.00_14.0_ru_dca97f839a.tgz"
+					"fastboot": "aristotle_ru_global_images_OS1.0.1.0.UMFRUXM_20240123.0000.00_14.0_ru_dca97f839a.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -850,6 +948,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -866,126 +965,144 @@
 					"android": "16.0",
 					"release": "2026-05-28",
 					"recovery": "aristotle_id_global-ota_full-OS3.0.1.0.WMFIDXM-user-16.0-c06fa9f8a0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.209.0.VMFIDXM": {
 					"os": "OS2.0.209.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2026-03-23",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.209.0.VMFIDXM-user-15.0-70987d23c7.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.209.0.VMFIDXM_20260309.0000.00_15.0_id_81621f7009.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.209.0.VMFIDXM_20260309.0000.00_15.0_id_81621f7009.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.207.0.VMFIDXM": {
 					"os": "OS2.0.207.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.207.0.VMFIDXM-user-15.0-6dcc12d976.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.207.0.VMFIDXM_20251122.0000.00_15.0_id_5900a5b4c6.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.207.0.VMFIDXM_20251122.0000.00_15.0_id_5900a5b4c6.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VMFIDXM": {
 					"os": "OS2.0.206.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-11-03",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.206.0.VMFIDXM-user-15.0-f73657006c.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.206.0.VMFIDXM_20251017.0000.00_15.0_id_10fa076899.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.206.0.VMFIDXM_20251017.0000.00_15.0_id_10fa076899.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VMFIDXM": {
 					"os": "OS2.0.205.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-10-17",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.205.0.VMFIDXM-user-15.0-c502fe7a5e.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.205.0.VMFIDXM_20250924.0000.00_15.0_id_2693b5d6dc.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.205.0.VMFIDXM_20250924.0000.00_15.0_id_2693b5d6dc.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VMFIDXM": {
 					"os": "OS2.0.204.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-09-05",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.204.0.VMFIDXM-user-15.0-58ef5815be.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.204.0.VMFIDXM_20250822.0000.00_15.0_id_686ee38c39.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.204.0.VMFIDXM_20250822.0000.00_15.0_id_686ee38c39.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VMFIDXM": {
 					"os": "OS2.0.203.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.203.0.VMFIDXM-user-15.0-e0fd7aef83.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.203.0.VMFIDXM_20250717.0000.00_15.0_id_4296b88858.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.203.0.VMFIDXM_20250717.0000.00_15.0_id_4296b88858.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.202.0.VMFIDXM": {
 					"os": "OS2.0.202.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.202.0.VMFIDXM-user-15.0-704eabb642.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.202.0.VMFIDXM_20250617.0000.00_15.0_id_7aee10a4c0.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.202.0.VMFIDXM_20250617.0000.00_15.0_id_7aee10a4c0.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.102.0.VMFIDXM": {
 					"os": "OS2.0.102.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-05-23",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.102.0.VMFIDXM-user-15.0-3a30da5356.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.102.0.VMFIDXM_20250508.0000.00_15.0_id_dacd5b5ed8.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.102.0.VMFIDXM_20250508.0000.00_15.0_id_dacd5b5ed8.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.101.0.VMFIDXM": {
 					"os": "OS2.0.101.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-04-21",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.101.0.VMFIDXM-user-15.0-82db13da8c.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.101.0.VMFIDXM_20250409.0000.00_15.0_id_6cf00f2f04.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.101.0.VMFIDXM_20250409.0000.00_15.0_id_6cf00f2f04.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.4.0.VMFIDXM": {
 					"os": "OS2.0.4.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-02-25",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.4.0.VMFIDXM-user-15.0-384a5d13f5.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.4.0.VMFIDXM_20250210.0000.00_15.0_id_18c05f504f.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.4.0.VMFIDXM_20250210.0000.00_15.0_id_18c05f504f.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.3.0.VMFIDXM": {
 					"os": "OS2.0.3.0.VMFIDXM",
 					"android": "15.0",
 					"release": "2025-01-13",
 					"recovery": "aristotle_id_global-ota_full-OS2.0.3.0.VMFIDXM-user-15.0-0a800424c8.zip",
-					"fastboot": "aristotle_id_global_images_OS2.0.3.0.VMFIDXM_20250103.0000.00_15.0_id_d87a5e375e.tgz"
+					"fastboot": "aristotle_id_global_images_OS2.0.3.0.VMFIDXM_20250103.0000.00_15.0_id_d87a5e375e.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.9.0.UMFIDXM": {
 					"os": "OS1.0.9.0.UMFIDXM",
 					"android": "14.0",
 					"release": "2024-12-14",
 					"recovery": "miui_ARISTOTLEIDGlobal_OS1.0.9.0.UMFIDXM_b66711be28_14.0.zip",
-					"fastboot": "aristotle_id_global_images_OS1.0.9.0.UMFIDXM_20241121.0000.00_14.0_id_afc00cce01.tgz"
+					"fastboot": "aristotle_id_global_images_OS1.0.9.0.UMFIDXM_20241121.0000.00_14.0_id_afc00cce01.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UMFIDXM": {
 					"os": "OS1.0.8.0.UMFIDXM",
 					"android": "14.0",
 					"release": "2024-11-02",
 					"recovery": "miui_ARISTOTLEIDGlobal_OS1.0.8.0.UMFIDXM_1112daeb97_14.0.zip",
-					"fastboot": "aristotle_id_global_images_OS1.0.8.0.UMFIDXM_20241016.0000.00_14.0_id_5e03e08bba.tgz"
+					"fastboot": "aristotle_id_global_images_OS1.0.8.0.UMFIDXM_20241016.0000.00_14.0_id_5e03e08bba.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.7.0.UMFIDXM": {
 					"os": "OS1.0.7.0.UMFIDXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_ARISTOTLEIDGlobal_OS1.0.7.0.UMFIDXM_ebd1e1e31d_14.0.zip",
-					"fastboot": "aristotle_id_global_images_OS1.0.7.0.UMFIDXM_20240909.0000.00_14.0_id_2410a99dad.tgz"
+					"fastboot": "aristotle_id_global_images_OS1.0.7.0.UMFIDXM_20240909.0000.00_14.0_id_2410a99dad.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.UMFIDXM": {
 					"os": "OS1.0.4.0.UMFIDXM",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_ARISTOTLEIDGlobal_OS1.0.4.0.UMFIDXM_c68774cb43_14.0.zip",
-					"fastboot": "aristotle_id_global_images_OS1.0.4.0.UMFIDXM_20240711.0000.00_14.0_id_a432269f97.tgz"
+					"fastboot": "aristotle_id_global_images_OS1.0.4.0.UMFIDXM_20240711.0000.00_14.0_id_a432269f97.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.UMFIDXM": {
 					"os": "OS1.0.3.0.UMFIDXM",
 					"android": "14.0",
 					"release": "2024-05-24",
 					"recovery": "miui_ARISTOTLEIDGlobal_OS1.0.3.0.UMFIDXM_c07bdad93a_14.0.zip",
-					"fastboot": "aristotle_id_global_images_OS1.0.3.0.UMFIDXM_20240509.0000.00_14.0_id_616182a4fd.tgz"
+					"fastboot": "aristotle_id_global_images_OS1.0.3.0.UMFIDXM_20240509.0000.00_14.0_id_616182a4fd.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.2.0.UMFIDXM": {
 					"os": "OS1.0.2.0.UMFIDXM",
 					"android": "14.0",
 					"release": "2024-01-26",
 					"recovery": "miui_ARISTOTLEIDGlobal_OS1.0.2.0.UMFIDXM_b9ccc74619_14.0.zip",
-					"fastboot": "aristotle_id_global_images_OS1.0.2.0.UMFIDXM_20240115.0000.00_14.0_id_b931188d28.tgz"
+					"fastboot": "aristotle_id_global_images_OS1.0.2.0.UMFIDXM_20240115.0000.00_14.0_id_b931188d28.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1007,6 +1124,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1023,126 +1141,144 @@
 					"android": "15.0",
 					"release": "2026-03-23",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.209.0.VMFTRXM-user-15.0-a24caa00e2.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.209.0.VMFTRXM_20260309.0000.00_15.0_tr_5cf7ce2d76.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.209.0.VMFTRXM_20260309.0000.00_15.0_tr_5cf7ce2d76.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.207.0.VMFTRXM": {
 					"os": "OS2.0.207.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-12-08",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.207.0.VMFTRXM-user-15.0-16cbb8f8ab.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.207.0.VMFTRXM_20251119.0000.00_15.0_tr_d7568b246b.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.207.0.VMFTRXM_20251119.0000.00_15.0_tr_d7568b246b.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.206.0.VMFTRXM": {
 					"os": "OS2.0.206.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-11-17",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.206.0.VMFTRXM-user-15.0-c9ec0d6ad2.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.206.0.VMFTRXM_20251104.0000.00_15.0_tr_1f06fc49bb.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.206.0.VMFTRXM_20251104.0000.00_15.0_tr_1f06fc49bb.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.205.0.VMFTRXM": {
 					"os": "OS2.0.205.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-10-17",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.205.0.VMFTRXM-user-15.0-11813e3d00.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.205.0.VMFTRXM_20250924.0000.00_15.0_tr_3b7b882a7b.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.205.0.VMFTRXM_20250924.0000.00_15.0_tr_3b7b882a7b.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.204.0.VMFTRXM": {
 					"os": "OS2.0.204.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-09-05",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.204.0.VMFTRXM-user-15.0-f75e371249.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.204.0.VMFTRXM_20250822.0000.00_15.0_tr_283ddbf2cb.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.204.0.VMFTRXM_20250822.0000.00_15.0_tr_283ddbf2cb.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.203.0.VMFTRXM": {
 					"os": "OS2.0.203.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.203.0.VMFTRXM-user-15.0-fd4cd25de6.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.203.0.VMFTRXM_20250717.0000.00_15.0_tr_f9b3931f54.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.203.0.VMFTRXM_20250717.0000.00_15.0_tr_f9b3931f54.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.202.0.VMFTRXM": {
 					"os": "OS2.0.202.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.202.0.VMFTRXM-user-15.0-e6eac1d94f.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.202.0.VMFTRXM_20250617.0000.00_15.0_tr_2b6e66b322.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.202.0.VMFTRXM_20250617.0000.00_15.0_tr_2b6e66b322.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS2.0.102.0.VMFTRXM": {
 					"os": "OS2.0.102.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-05-23",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.102.0.VMFTRXM-user-15.0-8b438305df.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.102.0.VMFTRXM_20250508.0000.00_15.0_tr_b9493c21e2.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.102.0.VMFTRXM_20250508.0000.00_15.0_tr_b9493c21e2.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.101.0.VMFTRXM": {
 					"os": "OS2.0.101.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-04-29",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.101.0.VMFTRXM-user-15.0-46cf62842b.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.101.0.VMFTRXM_20250409.0000.00_15.0_tr_a507d5f707.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.101.0.VMFTRXM_20250409.0000.00_15.0_tr_a507d5f707.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS2.0.2.0.VMFTRXM": {
 					"os": "OS2.0.2.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-02-25",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.2.0.VMFTRXM-user-15.0-ba4414f65c.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.2.0.VMFTRXM_20250210.0000.00_15.0_tr_8f1db68c18.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.2.0.VMFTRXM_20250210.0000.00_15.0_tr_8f1db68c18.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS2.0.1.0.VMFTRXM": {
 					"os": "OS2.0.1.0.VMFTRXM",
 					"android": "15.0",
 					"release": "2025-02-05",
 					"recovery": "aristotle_tr_global-ota_full-OS2.0.1.0.VMFTRXM-user-15.0-ed86c567f5.zip",
-					"fastboot": "aristotle_tr_global_images_OS2.0.1.0.VMFTRXM_20250114.0000.00_15.0_tr_4011538f7c.tgz"
+					"fastboot": "aristotle_tr_global_images_OS2.0.1.0.VMFTRXM_20250114.0000.00_15.0_tr_4011538f7c.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.9.0.UMFTRXM": {
 					"os": "OS1.0.9.0.UMFTRXM",
 					"android": "14.0",
 					"release": "2025-01-13",
 					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.9.0.UMFTRXM_d310a44b88_14.0.zip",
-					"fastboot": "aristotle_tr_global_images_OS1.0.9.0.UMFTRXM_20241225.0000.00_14.0_tr_1127e2943d.tgz"
+					"fastboot": "aristotle_tr_global_images_OS1.0.9.0.UMFTRXM_20241225.0000.00_14.0_tr_1127e2943d.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.UMFTRXM": {
 					"os": "OS1.0.8.0.UMFTRXM",
 					"android": "14.0",
 					"release": "2024-12-10",
 					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.8.0.UMFTRXM_2100e5fea1_14.0.zip",
-					"fastboot": "aristotle_tr_global_images_OS1.0.8.0.UMFTRXM_20241121.0000.00_14.0_tr_0cb46601e0.tgz"
+					"fastboot": "aristotle_tr_global_images_OS1.0.8.0.UMFTRXM_20241121.0000.00_14.0_tr_0cb46601e0.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.UMFTRXM": {
 					"os": "OS1.0.7.0.UMFTRXM",
 					"android": "14.0",
 					"release": "2024-11-02",
 					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.7.0.UMFTRXM_69c74c5400_14.0.zip",
-					"fastboot": "aristotle_tr_global_images_OS1.0.7.0.UMFTRXM_20241016.0000.00_14.0_tr_8a795d0e09.tgz"
+					"fastboot": "aristotle_tr_global_images_OS1.0.7.0.UMFTRXM_20241016.0000.00_14.0_tr_8a795d0e09.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.UMFTRXM": {
 					"os": "OS1.0.6.0.UMFTRXM",
 					"android": "14.0",
 					"release": "2024-09-23",
 					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.6.0.UMFTRXM_df98044a15_14.0.zip",
-					"fastboot": "aristotle_tr_global_images_OS1.0.6.0.UMFTRXM_20240909.0000.00_14.0_tr_fb8401006b.tgz"
+					"fastboot": "aristotle_tr_global_images_OS1.0.6.0.UMFTRXM_20240909.0000.00_14.0_tr_fb8401006b.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.UMFTRXM": {
 					"os": "OS1.0.3.0.UMFTRXM",
 					"android": "14.0",
 					"release": "2024-07-26",
 					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.3.0.UMFTRXM_ba2bbe43ac_14.0.zip",
-					"fastboot": "aristotle_tr_global_images_OS1.0.3.0.UMFTRXM_20240711.0000.00_14.0_tr_46b89eea10.tgz"
+					"fastboot": "aristotle_tr_global_images_OS1.0.3.0.UMFTRXM_20240711.0000.00_14.0_tr_46b89eea10.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.UMFTRXM": {
 					"os": "OS1.0.2.0.UMFTRXM",
 					"android": "14.0",
 					"release": "2024-05-27",
 					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.2.0.UMFTRXM_e3f2c1a816_14.0.zip",
-					"fastboot": "aristotle_tr_global_images_OS1.0.2.0.UMFTRXM_20240514.0000.00_14.0_tr_82bc282ac9.tgz"
+					"fastboot": "aristotle_tr_global_images_OS1.0.2.0.UMFTRXM_20240514.0000.00_14.0_tr_82bc282ac9.tgz",
+					"aspatch": "2024-05-01"
 				},
 				"OS1.0.1.0.UMFTRXM": {
 					"os": "OS1.0.1.0.UMFTRXM",
 					"android": "14.0",
 					"release": "2024-02-18",
 					"recovery": "miui_ARISTOTLETRGlobal_OS1.0.1.0.UMFTRXM_14deef6595_14.0.zip",
-					"fastboot": "aristotle_tr_global_images_OS1.0.1.0.UMFTRXM_20240123.0000.00_14.0_tr_3b0ee66582.tgz"
+					"fastboot": "aristotle_tr_global_images_OS1.0.1.0.UMFTRXM_20240123.0000.00_14.0_tr_3b0ee66582.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -1164,6 +1300,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1180,21 +1317,24 @@
 					"android": "15.0",
 					"release": "2025-08-19",
 					"recovery": "aristotle_cl_en_global-ota_full-OS2.0.201.0.VMFCLEN-user-15.0-3865ebc420.zip",
-					"fastboot": "aristotle_cl_en_global_images_OS2.0.201.0.VMFCLEN_20250707.0000.00_15.0_cl_en_49b6d5dfba.tgz"
+					"fastboot": "aristotle_cl_en_global_images_OS2.0.201.0.VMFCLEN_20250707.0000.00_15.0_cl_en_49b6d5dfba.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.2.0.UMFCLEN": {
 					"os": "OS1.0.2.0.UMFCLEN",
 					"android": "14.0",
 					"release": "2025-02-13",
 					"recovery": "miui_ARISTOTLECLENGlobal_OS1.0.2.0.UMFCLEN_3c1bd17cb9_14.0.zip",
-					"fastboot": "aristotle_cl_en_global_images_OS1.0.2.0.UMFCLEN_20241031.0000.00_14.0_cl_en_e30ef9d272.tgz"
+					"fastboot": "aristotle_cl_en_global_images_OS1.0.2.0.UMFCLEN_20241031.0000.00_14.0_cl_en_e30ef9d272.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.1.0.UMFCLEN": {
 					"os": "OS1.0.1.0.UMFCLEN",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_ARISTOTLECLENGlobal_OS1.0.1.0.UMFCLEN_160f3b58ea_14.0.zip",
-					"fastboot": "aristotle_cl_en_global_images_OS1.0.1.0.UMFCLEN_20240430.0000.00_14.0_cl_en_9d65d7b6be.tgz"
+					"fastboot": "aristotle_cl_en_global_images_OS1.0.1.0.UMFCLEN_20240430.0000.00_14.0_cl_en_9d65d7b6be.tgz",
+					"aspatch": "2024-05-01"
 				}
 			}
 		},
@@ -1216,6 +1356,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1232,70 +1373,80 @@
 					"android": "15.0",
 					"release": "2026-05-09",
 					"recovery": "aristotle_mx_at_global-ota_full-OS2.0.206.0.VMFMXAT-user-15.0-48a79d2622.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS2.0.206.0.VMFMXAT_20260415.0000.00_15.0_mx_at_35ece62c47.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS2.0.206.0.VMFMXAT_20260415.0000.00_15.0_mx_at_35ece62c47.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"OS2.0.205.0.VMFMXAT": {
 					"os": "OS2.0.205.0.VMFMXAT",
 					"android": "15.0",
 					"release": "2026-04-01",
 					"recovery": "aristotle_mx_at_global-ota_full-OS2.0.205.0.VMFMXAT-user-15.0-19cf5256fe.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS2.0.205.0.VMFMXAT_20260302.0000.00_15.0_mx_at_2ffc1c8a3e.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS2.0.205.0.VMFMXAT_20260302.0000.00_15.0_mx_at_2ffc1c8a3e.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"OS2.0.203.0.VMFMXAT": {
 					"os": "OS2.0.203.0.VMFMXAT",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "aristotle_mx_at_global-ota_full-OS2.0.203.0.VMFMXAT-user-15.0-1334ebe176.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS2.0.203.0.VMFMXAT_20251218.0000.00_15.0_mx_at_c24a35b5cc.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS2.0.203.0.VMFMXAT_20251218.0000.00_15.0_mx_at_c24a35b5cc.tgz",
+					"aspatch": "2025-12-01"
 				},
 				"OS2.0.202.0.VMFMXAT": {
 					"os": "OS2.0.202.0.VMFMXAT",
 					"android": "15.0",
 					"release": "2025-11-26",
 					"recovery": "aristotle_mx_at_global-ota_full-OS2.0.202.0.VMFMXAT-user-15.0-65df5e2723.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS2.0.202.0.VMFMXAT_20251017.0000.00_15.0_mx_at_fc7c9a400c.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS2.0.202.0.VMFMXAT_20251017.0000.00_15.0_mx_at_fc7c9a400c.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"OS2.0.201.0.VMFMXAT": {
 					"os": "OS2.0.201.0.VMFMXAT",
 					"android": "15.0",
 					"release": "2025-09-12",
 					"recovery": "aristotle_mx_at_global-ota_full-OS2.0.201.0.VMFMXAT-user-15.0-68d7912870.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS2.0.201.0.VMFMXAT_20250821.0000.00_15.0_mx_at_dde2213470.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS2.0.201.0.VMFMXAT_20250821.0000.00_15.0_mx_at_dde2213470.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"OS2.0.1.0.VMFMXAT": {
 					"os": "OS2.0.1.0.VMFMXAT",
 					"android": "15.0",
 					"release": "2025-08-08",
 					"recovery": "aristotle_mx_at_global-ota_full-OS2.0.1.0.VMFMXAT-user-15.0-e4a8891879.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS2.0.1.0.VMFMXAT_20250509.0000.00_15.0_mx_at_8a427daa2b.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS2.0.1.0.VMFMXAT_20250509.0000.00_15.0_mx_at_8a427daa2b.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS1.0.8.0.UMFMXAT": {
 					"os": "OS1.0.8.0.UMFMXAT",
 					"android": "14.0",
 					"release": "2025-03-31",
 					"recovery": "miui_ARISTOTLEMXATGlobal_OS1.0.8.0.UMFMXAT_e222cfd377_14.0.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS1.0.8.0.UMFMXAT_20250321.0000.00_14.0_mx_at_8983acf2dc.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS1.0.8.0.UMFMXAT_20250321.0000.00_14.0_mx_at_8983acf2dc.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.7.0.UMFMXAT": {
 					"os": "OS1.0.7.0.UMFMXAT",
 					"android": "14.0",
 					"release": "2025-03-10",
 					"recovery": "miui_ARISTOTLEMXATGlobal_OS1.0.7.0.UMFMXAT_caed1e4042_14.0.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS1.0.7.0.UMFMXAT_20250218.0000.00_14.0_mx_at_d399f08d09.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS1.0.7.0.UMFMXAT_20250218.0000.00_14.0_mx_at_d399f08d09.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.4.0.UMFMXAT": {
 					"os": "OS1.0.4.0.UMFMXAT",
 					"android": "14.0",
 					"release": "2024-11-30",
 					"recovery": "miui_ARISTOTLEMXATGlobal_OS1.0.4.0.UMFMXAT_09ec0e4b3a_14.0.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS1.0.4.0.UMFMXAT_20241107.0000.00_14.0_mx_at_dcc5bb27f8.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS1.0.4.0.UMFMXAT_20241107.0000.00_14.0_mx_at_dcc5bb27f8.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UMFMXAT": {
 					"os": "OS1.0.3.0.UMFMXAT",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_ARISTOTLEMXATGlobal_OS1.0.3.0.UMFMXAT_6311a1a99a_14.0.zip",
-					"fastboot": "aristotle_mx_at_global_images_OS1.0.3.0.UMFMXAT_20240910.0000.00_14.0_mx_at_e43dd9fe90.tgz"
+					"fastboot": "aristotle_mx_at_global_images_OS1.0.3.0.UMFMXAT_20240910.0000.00_14.0_mx_at_e43dd9fe90.tgz",
+					"aspatch": "2024-09-01"
 				}
 			}
 		},
@@ -1317,6 +1468,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1333,91 +1485,104 @@
 					"android": "15.0",
 					"release": "2026-05-28",
 					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.203.0.VMFLMCR-user-15.0-ce6038367d.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS2.0.203.0.VMFLMCR_20260520.0000.00_15.0_lm_cr_4a6c8cda87.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS2.0.203.0.VMFLMCR_20260520.0000.00_15.0_lm_cr_4a6c8cda87.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"OS2.0.202.0.VMFLMCR": {
 					"os": "OS2.0.202.0.VMFLMCR",
 					"android": "15.0",
 					"release": "2026-03-18",
 					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.202.0.VMFLMCR-user-15.0-d95d3c031a.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS2.0.202.0.VMFLMCR_20260311.0000.00_15.0_lm_cr_67b9dd3e7e.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS2.0.202.0.VMFLMCR_20260311.0000.00_15.0_lm_cr_67b9dd3e7e.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"OS2.0.201.0.VMFLMCR": {
 					"os": "OS2.0.201.0.VMFLMCR",
 					"android": "15.0",
 					"release": "2026-01-21",
 					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.201.0.VMFLMCR-user-15.0-abed71c9ea.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS2.0.201.0.VMFLMCR_20260105.0000.00_15.0_lm_cr_112642793b.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS2.0.201.0.VMFLMCR_20260105.0000.00_15.0_lm_cr_112642793b.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"OS2.0.5.0.VMFLMCR": {
 					"os": "OS2.0.5.0.VMFLMCR",
 					"android": "15.0",
 					"release": "2025-11-20",
 					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.5.0.VMFLMCR-user-15.0-afe1e1e56e.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS2.0.5.0.VMFLMCR_20251030.0000.00_15.0_lm_cr_bd53e914b8.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS2.0.5.0.VMFLMCR_20251030.0000.00_15.0_lm_cr_bd53e914b8.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"OS2.0.4.0.VMFLMCR": {
 					"os": "OS2.0.4.0.VMFLMCR",
 					"android": "15.0",
 					"release": "2025-09-18",
 					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.4.0.VMFLMCR-user-15.0-2dfc30cd49.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS2.0.4.0.VMFLMCR_20250909.0000.00_15.0_lm_cr_0418b2825b.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS2.0.4.0.VMFLMCR_20250909.0000.00_15.0_lm_cr_0418b2825b.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"OS2.0.3.0.VMFLMCR": {
 					"os": "OS2.0.3.0.VMFLMCR",
 					"android": "15.0",
 					"release": "2025-07-24",
 					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.3.0.VMFLMCR-user-15.0-999b869fc0.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS2.0.3.0.VMFLMCR_20250709.0000.00_15.0_lm_cr_6ba59d45f8.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS2.0.3.0.VMFLMCR_20250709.0000.00_15.0_lm_cr_6ba59d45f8.tgz",
+					"aspatch": "2025-07-01"
 				},
 				"OS2.0.2.0.VMFLMCR": {
 					"os": "OS2.0.2.0.VMFLMCR",
 					"android": "15.0",
 					"release": "2025-05-07",
 					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.2.0.VMFLMCR-user-15.0-36e02c326a.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS2.0.2.0.VMFLMCR_20250422.0000.00_15.0_lm_cr_4d6119096e.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS2.0.2.0.VMFLMCR_20250422.0000.00_15.0_lm_cr_4d6119096e.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"OS2.0.1.0.VMFLMCR": {
 					"os": "OS2.0.1.0.VMFLMCR",
 					"android": "15.0",
 					"release": "2025-04-23",
 					"recovery": "aristotle_lm_cr_global-ota_full-OS2.0.1.0.VMFLMCR-user-15.0-9a6c8423e2.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS2.0.1.0.VMFLMCR_20250409.0000.00_15.0_lm_cr_40aeabf5fc.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS2.0.1.0.VMFLMCR_20250409.0000.00_15.0_lm_cr_40aeabf5fc.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.5.0.UMFLMCR": {
 					"os": "OS1.0.5.0.UMFLMCR",
 					"android": "14.0",
 					"release": "2025-02-12",
 					"recovery": "miui_ARISTOTLELMCRGlobal_OS1.0.5.0.UMFLMCR_6e47118188_14.0.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS1.0.5.0.UMFLMCR_20250109.0000.00_14.0_lm_cr_01eca8ef66.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS1.0.5.0.UMFLMCR_20250109.0000.00_14.0_lm_cr_01eca8ef66.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.4.0.UMFLMCR": {
 					"os": "OS1.0.4.0.UMFLMCR",
 					"android": "14.0",
 					"release": "2024-11-25",
 					"recovery": "miui_ARISTOTLELMCRGlobal_OS1.0.4.0.UMFLMCR_8520935ef7_14.0.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS1.0.4.0.UMFLMCR_20241024.0000.00_14.0_lm_cr_cff0dbea64.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS1.0.4.0.UMFLMCR_20241024.0000.00_14.0_lm_cr_cff0dbea64.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.UMFLMCR": {
 					"os": "OS1.0.3.0.UMFLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_ARISTOTLELMCRGlobal_OS1.0.3.0.UMFLMCR_b2c19a097c_14.0.zip",
-					"fastboot": "aristotle_lm_cr_global_images_OS1.0.3.0.UMFLMCR_20240827.0000.00_14.0_lm_cr_b8bbdaac59.tgz"
+					"fastboot": "aristotle_lm_cr_global_images_OS1.0.3.0.UMFLMCR_20240827.0000.00_14.0_lm_cr_b8bbdaac59.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.UMFLMCR": {
 					"os": "OS1.0.2.0.UMFLMCR",
 					"android": "14.0",
 					"release": "2024-11-20",
 					"recovery": "miui_ARISTOTLELMCRGlobal_OS1.0.2.0.UMFLMCR_9d688dd6de_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.UMFLMCR": {
 					"os": "OS1.0.1.0.UMFLMCR",
 					"android": "14.0",
 					"release": "2024-11-15",
 					"recovery": "miui_ARISTOTLELMCRGlobal_OS1.0.1.0.UMFLMCR_5772ee5cff_14.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-05-01"
 				}
 			}
 		}

@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -54,7 +55,8 @@
 					"release": "2024-05-29",
 					"recovery": "miui_NABU_OS1.0.3.0.TKXCNXM_b4170b92e5_13.0.zip",
 					"fastboot": "nabu_images_OS1.0.3.0.TKXCNXM_20240516.0000.00_13.0_cn_ff15a7adfc.tgz",
-					"ctelecom": "nabu_images_OS1.0.3.0.TKXCNXM_20240516.0000.00_13.0_cn_chinatelecom_17dfdbec3a.tgz"
+					"ctelecom": "nabu_images_OS1.0.3.0.TKXCNXM_20240516.0000.00_13.0_cn_chinatelecom_17dfdbec3a.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.TKXCNXM": {
 					"os": "OS1.0.2.0.TKXCNXM",
@@ -62,7 +64,8 @@
 					"release": "2024-02-29",
 					"recovery": "miui_NABU_OS1.0.2.0.TKXCNXM_b0648de1cc_13.0.zip",
 					"fastboot": "nabu_images_OS1.0.2.0.TKXCNXM_20240221.0000.00_13.0_cn_6584283481.tgz",
-					"ctelecom": "nabu_images_OS1.0.2.0.TKXCNXM_20240221.0000.00_13.0_cn_chinatelecom_59f05d7c30.tgz"
+					"ctelecom": "nabu_images_OS1.0.2.0.TKXCNXM_20240221.0000.00_13.0_cn_chinatelecom_59f05d7c30.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -84,6 +87,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -100,28 +104,32 @@
 					"android": "13.0",
 					"release": "2024-10-08",
 					"recovery": "miui_NABUTWGlobal_OS1.0.6.0.TKXTWXM_23eaa511ec_13.0.zip",
-					"fastboot": "nabu_tw_global_images_OS1.0.6.0.TKXTWXM_20240914.0000.00_13.0_tw_17785c64d3.tgz"
+					"fastboot": "nabu_tw_global_images_OS1.0.6.0.TKXTWXM_20240914.0000.00_13.0_tw_17785c64d3.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.TKXTWXM": {
 					"os": "OS1.0.5.0.TKXTWXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_NABUTWGlobal_OS1.0.5.0.TKXTWXM_e979e9fabe_13.0.zip",
-					"fastboot": "nabu_tw_global_images_OS1.0.5.0.TKXTWXM_20240827.0000.00_13.0_tw_6c4352a267.tgz"
+					"fastboot": "nabu_tw_global_images_OS1.0.5.0.TKXTWXM_20240827.0000.00_13.0_tw_6c4352a267.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.TKXTWXM": {
 					"os": "OS1.0.4.0.TKXTWXM",
 					"android": "13.0",
 					"release": "2024-08-20",
 					"recovery": "miui_NABUTWGlobal_OS1.0.4.0.TKXTWXM_fe61507381_13.0.zip",
-					"fastboot": "nabu_tw_global_images_OS1.0.4.0.TKXTWXM_20240725.0000.00_13.0_tw_a62527cce8.tgz"
+					"fastboot": "nabu_tw_global_images_OS1.0.4.0.TKXTWXM_20240725.0000.00_13.0_tw_a62527cce8.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.TKXTWXM": {
 					"os": "OS1.0.2.0.TKXTWXM",
 					"android": "13.0",
 					"release": "2024-04-14",
 					"recovery": "miui_NABUTWGlobal_OS1.0.2.0.TKXTWXM_65ec6d59ce_13.0.zip",
-					"fastboot": "nabu_tw_global_images_OS1.0.2.0.TKXTWXM_20240315.0000.00_13.0_tw_e8a0a821bf.tgz"
+					"fastboot": "nabu_tw_global_images_OS1.0.2.0.TKXTWXM_20240315.0000.00_13.0_tw_e8a0a821bf.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -143,6 +151,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -159,28 +168,32 @@
 					"android": "13.0",
 					"release": "2024-10-08",
 					"recovery": "miui_NABUGlobal_OS1.0.6.0.TKXMIXM_4af37553d5_13.0.zip",
-					"fastboot": "nabu_global_images_OS1.0.6.0.TKXMIXM_20240914.0000.00_13.0_global_3693ddb728.tgz"
+					"fastboot": "nabu_global_images_OS1.0.6.0.TKXMIXM_20240914.0000.00_13.0_global_3693ddb728.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.TKXMIXM": {
 					"os": "OS1.0.5.0.TKXMIXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_NABUGlobal_OS1.0.5.0.TKXMIXM_6b336bee50_13.0.zip",
-					"fastboot": "nabu_global_images_OS1.0.5.0.TKXMIXM_20240826.0000.00_13.0_global_e32cdbaf9f.tgz"
+					"fastboot": "nabu_global_images_OS1.0.5.0.TKXMIXM_20240826.0000.00_13.0_global_e32cdbaf9f.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.TKXMIXM": {
 					"os": "OS1.0.4.0.TKXMIXM",
 					"android": "13.0",
 					"release": "2024-08-20",
 					"recovery": "miui_NABUGlobal_OS1.0.4.0.TKXMIXM_6231ab2e38_13.0.zip",
-					"fastboot": "nabu_global_images_OS1.0.4.0.TKXMIXM_20240724.0000.00_13.0_global_bf040011f1.tgz"
+					"fastboot": "nabu_global_images_OS1.0.4.0.TKXMIXM_20240724.0000.00_13.0_global_bf040011f1.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.TKXMIXM": {
 					"os": "OS1.0.1.0.TKXMIXM",
 					"android": "13.0",
 					"release": "2024-03-26",
 					"recovery": "miui_NABUGlobal_OS1.0.1.0.TKXMIXM_0e700dc645_13.0.zip",
-					"fastboot": "nabu_global_images_OS1.0.1.0.TKXMIXM_20240305.0000.00_13.0_global_f1ef94a3c2.tgz"
+					"fastboot": "nabu_global_images_OS1.0.1.0.TKXMIXM_20240305.0000.00_13.0_global_f1ef94a3c2.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -202,6 +215,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -218,28 +232,32 @@
 					"android": "13.0",
 					"release": "2024-10-08",
 					"recovery": "miui_NABUEEAGlobal_OS1.0.6.0.TKXEUXM_d2d151c706_13.0.zip",
-					"fastboot": "nabu_eea_global_images_OS1.0.6.0.TKXEUXM_20240914.0000.00_13.0_eea_dd27c36677.tgz"
+					"fastboot": "nabu_eea_global_images_OS1.0.6.0.TKXEUXM_20240914.0000.00_13.0_eea_dd27c36677.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.TKXEUXM": {
 					"os": "OS1.0.5.0.TKXEUXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_NABUEEAGlobal_OS1.0.5.0.TKXEUXM_82e3ee44ba_13.0.zip",
-					"fastboot": "nabu_eea_global_images_OS1.0.5.0.TKXEUXM_20240827.0000.00_13.0_eea_985fdcfd4e.tgz"
+					"fastboot": "nabu_eea_global_images_OS1.0.5.0.TKXEUXM_20240827.0000.00_13.0_eea_985fdcfd4e.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.2.0.TKXEUXM": {
 					"os": "OS1.0.2.0.TKXEUXM",
 					"android": "13.0",
 					"release": "2024-08-20",
 					"recovery": "miui_NABUEEAGlobal_OS1.0.2.0.TKXEUXM_2aced4b834_13.0.zip",
-					"fastboot": "nabu_eea_global_images_OS1.0.2.0.TKXEUXM_20240722.0000.00_13.0_eea_da3da0f549.tgz"
+					"fastboot": "nabu_eea_global_images_OS1.0.2.0.TKXEUXM_20240722.0000.00_13.0_eea_da3da0f549.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.TKXEUXM": {
 					"os": "OS1.0.1.0.TKXEUXM",
 					"android": "13.0",
 					"release": "2024-04-10",
 					"recovery": "miui_NABUEEAGlobal_OS1.0.1.0.TKXEUXM_3c8ef12514_13.0.zip",
-					"fastboot": "nabu_eea_global_images_OS1.0.1.0.TKXEUXM_20240307.0000.00_13.0_eea_70bbfd8755.tgz"
+					"fastboot": "nabu_eea_global_images_OS1.0.1.0.TKXEUXM_20240307.0000.00_13.0_eea_70bbfd8755.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -261,6 +279,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -277,28 +296,32 @@
 					"android": "13.0",
 					"release": "2024-10-08",
 					"recovery": "miui_NABURUGlobal_OS1.0.5.0.TKXRUXM_8ff8a80846_13.0.zip",
-					"fastboot": "nabu_ru_global_images_OS1.0.5.0.TKXRUXM_20240918.0000.00_13.0_ru_78607a4d6e.tgz"
+					"fastboot": "nabu_ru_global_images_OS1.0.5.0.TKXRUXM_20240918.0000.00_13.0_ru_78607a4d6e.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.TKXRUXM": {
 					"os": "OS1.0.4.0.TKXRUXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_NABURUGlobal_OS1.0.4.0.TKXRUXM_4aad4f1ab9_13.0.zip",
-					"fastboot": "nabu_ru_global_images_OS1.0.4.0.TKXRUXM_20240827.0000.00_13.0_ru_fb2a570376.tgz"
+					"fastboot": "nabu_ru_global_images_OS1.0.4.0.TKXRUXM_20240827.0000.00_13.0_ru_fb2a570376.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.TKXRUXM": {
 					"os": "OS1.0.3.0.TKXRUXM",
 					"android": "13.0",
 					"release": "2024-08-20",
 					"recovery": "miui_NABURUGlobal_OS1.0.3.0.TKXRUXM_d0b8641672_13.0.zip",
-					"fastboot": "nabu_ru_global_images_OS1.0.3.0.TKXRUXM_20240725.0000.00_13.0_ru_66d4072d21.tgz"
+					"fastboot": "nabu_ru_global_images_OS1.0.3.0.TKXRUXM_20240725.0000.00_13.0_ru_66d4072d21.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.TKXRUXM": {
 					"os": "OS1.0.1.0.TKXRUXM",
 					"android": "13.0",
 					"release": "2024-04-14",
 					"recovery": "miui_NABURUGlobal_OS1.0.1.0.TKXRUXM_f78b2ca5f6_13.0.zip",
-					"fastboot": "nabu_ru_global_images_OS1.0.1.0.TKXRUXM_20240315.0000.00_13.0_ru_f15334ca2a.tgz"
+					"fastboot": "nabu_ru_global_images_OS1.0.1.0.TKXRUXM_20240315.0000.00_13.0_ru_f15334ca2a.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -320,6 +343,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -336,70 +360,80 @@
 					"android": "13.0",
 					"release": "2025-04-07",
 					"recovery": "miui_NABUINGlobal_OS1.0.18.0.TKXINXM_964de8bd79_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.18.0.TKXINXM_20250318.0000.00_13.0_in_4fa10c8703.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.18.0.TKXINXM_20250318.0000.00_13.0_in_4fa10c8703.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.17.0.TKXINXM": {
 					"os": "OS1.0.17.0.TKXINXM",
 					"android": "13.0",
 					"release": "2025-03-10",
 					"recovery": "miui_NABUINGlobal_OS1.0.17.0.TKXINXM_e2a8888f1c_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.17.0.TKXINXM_20250225.0000.00_13.0_in_3ea6bd51e5.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.17.0.TKXINXM_20250225.0000.00_13.0_in_3ea6bd51e5.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.16.0.TKXINXM": {
 					"os": "OS1.0.16.0.TKXINXM",
 					"android": "13.0",
 					"release": "2025-02-13",
 					"recovery": "miui_NABUINGlobal_OS1.0.16.0.TKXINXM_d8c0e181af_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.16.0.TKXINXM_20250121.0000.00_13.0_in_6c48f7d376.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.16.0.TKXINXM_20250121.0000.00_13.0_in_6c48f7d376.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.14.0.TKXINXM": {
 					"os": "OS1.0.14.0.TKXINXM",
 					"android": "13.0",
 					"release": "2025-01-13",
 					"recovery": "miui_NABUINGlobal_OS1.0.14.0.TKXINXM_2cac1730c6_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.14.0.TKXINXM_20250102.0000.00_13.0_in_637fbeab25.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.14.0.TKXINXM_20250102.0000.00_13.0_in_637fbeab25.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.13.0.TKXINXM": {
 					"os": "OS1.0.13.0.TKXINXM",
 					"android": "13.0",
 					"release": "2024-12-06",
 					"recovery": "miui_NABUINGlobal_OS1.0.13.0.TKXINXM_54ecb38004_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.13.0.TKXINXM_20241126.0000.00_13.0_in_2597563c87.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.13.0.TKXINXM_20241126.0000.00_13.0_in_2597563c87.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.12.0.TKXINXM": {
 					"os": "OS1.0.12.0.TKXINXM",
 					"android": "13.0",
 					"release": "2024-11-11",
 					"recovery": "miui_NABUINGlobal_OS1.0.12.0.TKXINXM_6e142d1e30_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.12.0.TKXINXM_20241101.0000.00_13.0_in_cea32b4ff8.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.12.0.TKXINXM_20241101.0000.00_13.0_in_cea32b4ff8.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.9.0.TKXINXM": {
 					"os": "OS1.0.9.0.TKXINXM",
 					"android": "13.0",
 					"release": "2024-10-08",
 					"recovery": "miui_NABUINGlobal_OS1.0.9.0.TKXINXM_63e9c57127_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.9.0.TKXINXM_20240914.0000.00_13.0_in_6851e32a0e.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.9.0.TKXINXM_20240914.0000.00_13.0_in_6851e32a0e.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.8.0.TKXINXM": {
 					"os": "OS1.0.8.0.TKXINXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_NABUINGlobal_OS1.0.8.0.TKXINXM_5d9ccf2277_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.8.0.TKXINXM_20240827.0000.00_13.0_in_2f36abbeb3.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.8.0.TKXINXM_20240827.0000.00_13.0_in_2f36abbeb3.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.7.0.TKXINXM": {
 					"os": "OS1.0.7.0.TKXINXM",
 					"android": "13.0",
 					"release": "2024-08-20",
 					"recovery": "miui_NABUINGlobal_OS1.0.7.0.TKXINXM_e41a9feb40_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.7.0.TKXINXM_20240731.0000.00_13.0_in_08f1f3e445.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.7.0.TKXINXM_20240731.0000.00_13.0_in_08f1f3e445.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.TKXINXM": {
 					"os": "OS1.0.4.0.TKXINXM",
 					"android": "13.0",
 					"release": "2024-04-10",
 					"recovery": "miui_NABUINGlobal_OS1.0.4.0.TKXINXM_1ebb6aa52d_13.0.zip",
-					"fastboot": "nabu_in_global_images_OS1.0.4.0.TKXINXM_20240318.0000.00_13.0_in_d9f5d6eda7.tgz"
+					"fastboot": "nabu_in_global_images_OS1.0.4.0.TKXINXM_20240318.0000.00_13.0_in_d9f5d6eda7.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -421,6 +455,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -437,28 +472,32 @@
 					"android": "13.0",
 					"release": "2024-10-08",
 					"recovery": "miui_NABUTRGlobal_OS1.0.6.0.TKXTRXM_dba0e3b5e7_13.0.zip",
-					"fastboot": "nabu_tr_global_images_OS1.0.6.0.TKXTRXM_20240914.0000.00_13.0_tr_77140b54fd.tgz"
+					"fastboot": "nabu_tr_global_images_OS1.0.6.0.TKXTRXM_20240914.0000.00_13.0_tr_77140b54fd.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.TKXTRXM": {
 					"os": "OS1.0.5.0.TKXTRXM",
 					"android": "13.0",
 					"release": "2024-09-09",
 					"recovery": "miui_NABUTRGlobal_OS1.0.5.0.TKXTRXM_a8de7e33a4_13.0.zip",
-					"fastboot": "nabu_tr_global_images_OS1.0.5.0.TKXTRXM_20240827.0000.00_13.0_tr_0896b70d95.tgz"
+					"fastboot": "nabu_tr_global_images_OS1.0.5.0.TKXTRXM_20240827.0000.00_13.0_tr_0896b70d95.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.4.0.TKXTRXM": {
 					"os": "OS1.0.4.0.TKXTRXM",
 					"android": "13.0",
 					"release": "2024-08-20",
 					"recovery": "miui_NABUTRGlobal_OS1.0.4.0.TKXTRXM_2298440a64_13.0.zip",
-					"fastboot": "nabu_tr_global_images_OS1.0.4.0.TKXTRXM_20240725.0000.00_13.0_tr_4850e91e3e.tgz"
+					"fastboot": "nabu_tr_global_images_OS1.0.4.0.TKXTRXM_20240725.0000.00_13.0_tr_4850e91e3e.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.TKXTRXM": {
 					"os": "OS1.0.2.0.TKXTRXM",
 					"android": "13.0",
 					"release": "2024-04-14",
 					"recovery": "miui_NABUTRGlobal_OS1.0.2.0.TKXTRXM_2b2554c67e_13.0.zip",
-					"fastboot": "nabu_tr_global_images_OS1.0.2.0.TKXTRXM_20240315.0000.00_13.0_tr_a23aeef623.tgz"
+					"fastboot": "nabu_tr_global_images_OS1.0.2.0.TKXTRXM_20240315.0000.00_13.0_tr_a23aeef623.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		}

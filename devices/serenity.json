@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -53,98 +54,112 @@
 					"android": "15.0",
 					"release": "2026-05-08",
 					"recovery": "miui_SERENITYGlobal_A15.0.26.0.VGWMIXM_924546036c_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.26.0.VGWMIXM-user-20260427.0000.00-15.0-global-26c6dc7975.tgz"
+					"fastboot": "serenity_global-images-A15.0.26.0.VGWMIXM-user-20260427.0000.00-15.0-global-26c6dc7975.tgz",
+					"aspatch": "2026-04-01"
 				},
 				"A15.0.22.0.VGWMIXM": {
 					"os": "A15.0.22.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2026-04-01",
 					"recovery": "miui_SERENITYGlobal_A15.0.22.0.VGWMIXM_8e43b363a7_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.22.0.VGWMIXM-user-20260303.0000.00-15.0-global-01be6e1eb5.tgz"
+					"fastboot": "serenity_global-images-A15.0.22.0.VGWMIXM-user-20260303.0000.00-15.0-global-01be6e1eb5.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"A15.0.20.0.VGWMIXM": {
 					"os": "A15.0.20.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2026-02-28",
 					"recovery": "miui_SERENITYGlobal_A15.0.20.0.VGWMIXM_f4b27dfe7a_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.20.0.VGWMIXM-user-20260128.0000.00-15.0-global-ede1c41d93.tgz"
+					"fastboot": "serenity_global-images-A15.0.20.0.VGWMIXM-user-20260128.0000.00-15.0-global-ede1c41d93.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"A15.0.17.0.VGWMIXM": {
 					"os": "A15.0.17.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2026-01-13",
 					"recovery": "miui_SERENITYGlobal_A15.0.17.0.VGWMIXM_707d2cea50_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.17.0.VGWMIXM-user-20260104.0000.00-15.0-global-b0d7d51269.tgz"
+					"fastboot": "serenity_global-images-A15.0.17.0.VGWMIXM-user-20260104.0000.00-15.0-global-b0d7d51269.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.16.0.VGWMIXM": {
 					"os": "A15.0.16.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-12-23",
 					"recovery": "miui_SERENITYGlobal_A15.0.16.0.VGWMIXM_1144b9423e_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.16.0.VGWMIXM-user-20251217.0000.00-15.0-global-1f8512ef2c.tgz"
+					"fastboot": "serenity_global-images-A15.0.16.0.VGWMIXM-user-20251217.0000.00-15.0-global-1f8512ef2c.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.15.0.VGWMIXM": {
 					"os": "A15.0.15.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-12-03",
 					"recovery": "miui_SERENITYGlobal_A15.0.15.0.VGWMIXM_e8a4e72a9d_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.15.0.VGWMIXM-user-20251124.0000.00-15.0-global-8df2ca53b7.tgz"
+					"fastboot": "serenity_global-images-A15.0.15.0.VGWMIXM-user-20251124.0000.00-15.0-global-8df2ca53b7.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.14.0.VGWMIXM": {
 					"os": "A15.0.14.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-11-14",
 					"recovery": "miui_SERENITYGlobal_A15.0.14.0.VGWMIXM_26e10ada3f_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.14.0.VGWMIXM-user-20251108.0000.00-15.0-global-630ac1f5b7.tgz"
+					"fastboot": "serenity_global-images-A15.0.14.0.VGWMIXM-user-20251108.0000.00-15.0-global-630ac1f5b7.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.13.0.VGWMIXM": {
 					"os": "A15.0.13.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-09-26",
 					"recovery": "miui_SERENITYGlobal_A15.0.13.0.VGWMIXM_1478ff1e33_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.13.0.VGWMIXM-user-20250916.0000.00-15.0-global-aa7dab98c8.tgz"
+					"fastboot": "serenity_global-images-A15.0.13.0.VGWMIXM-user-20250916.0000.00-15.0-global-aa7dab98c8.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"A15.0.12.0.VGWMIXM": {
 					"os": "A15.0.12.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-08-20",
 					"recovery": "miui_SERENITYGlobal_A15.0.12.0.VGWMIXM_cf3b8949da_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.12.0.VGWMIXM-user-20250811.0000.00-15.0-global-df1e067211.tgz"
+					"fastboot": "serenity_global-images-A15.0.12.0.VGWMIXM-user-20250811.0000.00-15.0-global-df1e067211.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"A15.0.11.0.VGWMIXM": {
 					"os": "A15.0.11.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-06-27",
 					"recovery": "miui_SERENITYGlobal_A15.0.11.0.VGWMIXM_892c70fdfa_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.11.0.VGWMIXM-user-20250621.0000.00-15.0-global-5ab56d99cb.tgz"
+					"fastboot": "serenity_global-images-A15.0.11.0.VGWMIXM-user-20250621.0000.00-15.0-global-5ab56d99cb.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"A15.0.7.0.VGWMIXM": {
 					"os": "A15.0.7.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-05-30",
 					"recovery": "miui_SERENITYGlobal_A15.0.7.0.VGWMIXM_2142a9ce99_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.7.0.VGWMIXM-user-20250522.0000.00-15.0-global-3bd1c571c9.tgz"
+					"fastboot": "serenity_global-images-A15.0.7.0.VGWMIXM-user-20250522.0000.00-15.0-global-3bd1c571c9.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"A15.0.5.0.VGWMIXM": {
 					"os": "A15.0.5.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-05-12",
 					"recovery": "miui_SERENITYGlobal_A15.0.5.0.VGWMIXM_d3aff63bf4_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.5.0.VGWMIXM-user-20250429.0000.00-15.0-global-4eeff96fa2.tgz"
+					"fastboot": "serenity_global-images-A15.0.5.0.VGWMIXM-user-20250429.0000.00-15.0-global-4eeff96fa2.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"A15.0.3.0.VGWMIXM": {
 					"os": "A15.0.3.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-04-02",
 					"recovery": "miui_SERENITYGlobal_A15.0.3.0.VGWMIXM_fe7cb82ae9_15.0.zip",
-					"fastboot": "serenity_global-images-A15.0.3.0.VGWMIXM-user-20250328.0000.00-15.0-global-d967f78146.tgz"
+					"fastboot": "serenity_global-images-A15.0.3.0.VGWMIXM-user-20250328.0000.00-15.0-global-d967f78146.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"A15.0.1.0.VGWMIXM": {
 					"os": "A15.0.1.0.VGWMIXM",
 					"android": "15.0",
 					"release": "2025-04-02",
 					"recovery": "miui_SERENITYGlobal_A15.0.1.0.VGWMIXM_e55967b692_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-01-01"
 				}
 			}
 		},
@@ -166,6 +181,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -182,56 +198,64 @@
 					"android": "15.0",
 					"release": "2026-05-19",
 					"recovery": "miui_SERENITYDCGlobal_A15.0.13.0.VGWMIDC_5307b5669d_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"A15.0.12.0.VGWMIDC": {
 					"os": "A15.0.12.0.VGWMIDC",
 					"android": "15.0",
 					"release": "2026-04-22",
 					"recovery": "miui_SERENITYDCGlobal_A15.0.12.0.VGWMIDC_3a0c050557_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"A15.0.11.0.VGWMIDC": {
 					"os": "A15.0.11.0.VGWMIDC",
 					"android": "15.0",
 					"release": "2026-02-03",
 					"recovery": "miui_SERENITYDCGlobal_A15.0.11.0.VGWMIDC_7db3ca1be8_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.10.0.VGWMIDC": {
 					"os": "A15.0.10.0.VGWMIDC",
 					"android": "15.0",
 					"release": "2025-12-31",
 					"recovery": "miui_SERENITYDCGlobal_A15.0.10.0.VGWMIDC_75d8d15a60_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.9.0.VGWMIDC": {
 					"os": "A15.0.9.0.VGWMIDC",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "miui_SERENITYDCGlobal_A15.0.9.0.VGWMIDC_eca6dfd823_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"A15.0.8.0.VGWMIDC": {
 					"os": "A15.0.8.0.VGWMIDC",
 					"android": "15.0",
 					"release": "2025-08-26",
 					"recovery": "miui_SERENITYDCGlobal_A15.0.8.0.VGWMIDC_9879743416_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"A15.0.7.0.VGWMIDC": {
 					"os": "A15.0.7.0.VGWMIDC",
 					"android": "15.0",
 					"release": "2025-07-30",
 					"recovery": "miui_SERENITYDCGlobal_A15.0.7.0.VGWMIDC_9fe66edcf8_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-01"
 				},
 				"A15.0.6.0.VGWMIDC": {
 					"os": "A15.0.6.0.VGWMIDC",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "miui_SERENITYDCGlobal_A15.0.6.0.VGWMIDC_01c432c181_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				}
 			}
 		},
@@ -256,6 +280,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -272,63 +297,72 @@
 					"android": "15.0",
 					"release": "2026-05-15",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.14.0.VGWEUXM_2e841ed9e5_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.14.0.VGWEUXM-user-20260429.0000.00-15.0-eea-251bd49774.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.14.0.VGWEUXM-user-20260429.0000.00-15.0-eea-251bd49774.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"A15.0.13.0.VGWEUXM": {
 					"os": "A15.0.13.0.VGWEUXM",
 					"android": "15.0",
 					"release": "2026-03-31",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.13.0.VGWEUXM_cab9c3bb29_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.13.0.VGWEUXM-user-20260318.0000.00-15.0-eea-f39e3b493d.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.13.0.VGWEUXM-user-20260318.0000.00-15.0-eea-f39e3b493d.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"A15.0.12.0.VGWEUXM": {
 					"os": "A15.0.12.0.VGWEUXM",
 					"android": "15.0",
 					"release": "2026-01-16",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.12.0.VGWEUXM_d20905f396_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.12.0.VGWEUXM-user-20260104.0000.00-15.0-eea-2e7a64fa57.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.12.0.VGWEUXM-user-20260104.0000.00-15.0-eea-2e7a64fa57.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.11.0.VGWEUXM": {
 					"os": "A15.0.11.0.VGWEUXM",
 					"android": "15.0",
 					"release": "2026-01-04",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.11.0.VGWEUXM_170cf51cb1_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.11.0.VGWEUXM-user-20251226.0000.00-15.0-eea-402e62cabf.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.11.0.VGWEUXM-user-20251226.0000.00-15.0-eea-402e62cabf.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.10.0.VGWEUXM": {
 					"os": "A15.0.10.0.VGWEUXM",
 					"android": "15.0",
 					"release": "2025-11-18",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.10.0.VGWEUXM_695ca72419_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.10.0.VGWEUXM-user-20251108.0000.00-15.0-eea-997be950c3.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.10.0.VGWEUXM-user-20251108.0000.00-15.0-eea-997be950c3.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.9.0.VGWEUXM": {
 					"os": "A15.0.9.0.VGWEUXM",
 					"android": "15.0",
 					"release": "2025-09-22",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.9.0.VGWEUXM_3f76a4a1b7_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.9.0.VGWEUXM-user-20250910.0000.00-15.0-eea-f03be4ad13.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.9.0.VGWEUXM-user-20250910.0000.00-15.0-eea-f03be4ad13.tgz",
+					"aspatch": "2025-09-01"
 				},
 				"A15.0.7.0.VGWEUXM": {
 					"os": "A15.0.7.0.VGWEUXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.7.0.VGWEUXM_731f4b2544_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.7.0.VGWEUXM-user-20250613.0000.00-15.0-eea-6f8e1caf7e.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.7.0.VGWEUXM-user-20250613.0000.00-15.0-eea-6f8e1caf7e.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"A15.0.6.0.VGWEUXM": {
 					"os": "A15.0.6.0.VGWEUXM",
 					"android": "15.0",
 					"release": "2025-05-30",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.6.0.VGWEUXM_80ef649767_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.6.0.VGWEUXM-user-20250522.0000.00-15.0-eea-4f7c8c5bf4.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.6.0.VGWEUXM-user-20250522.0000.00-15.0-eea-4f7c8c5bf4.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"A15.0.5.0.VGWEUXM": {
 					"os": "A15.0.5.0.VGWEUXM",
 					"android": "15.0",
 					"release": "2025-05-09",
 					"recovery": "miui_SERENITYEEAGlobal_A15.0.5.0.VGWEUXM_1e0e0e7fb7_15.0.zip",
-					"fastboot": "serenity_eea_global-images-A15.0.5.0.VGWEUXM-user-20250327.0000.00-15.0-eea-773097ace9.tgz"
+					"fastboot": "serenity_eea_global-images-A15.0.5.0.VGWEUXM-user-20250327.0000.00-15.0-eea-773097ace9.tgz",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -350,6 +384,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -366,49 +401,56 @@
 					"android": "15.0",
 					"release": "2026-06-01",
 					"recovery": "miui_SERENITYEEAORGlobal_A15.0.14.0.VGWEUOR_4b9847b7fa_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-05-01"
 				},
 				"A15.0.13.0.VGWEUOR": {
 					"os": "A15.0.13.0.VGWEUOR",
 					"android": "15.0",
 					"release": "2026-04-21",
 					"recovery": "miui_SERENITYEEAORGlobal_A15.0.13.0.VGWEUOR_1ab1928b05_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-03-01"
 				},
 				"A15.0.12.0.VGWEUOR": {
 					"os": "A15.0.12.0.VGWEUOR",
 					"android": "15.0",
 					"release": "2026-02-02",
 					"recovery": "miui_SERENITYEEAORGlobal_A15.0.12.0.VGWEUOR_cfae067f53_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.10.0.VGWEUOR": {
 					"os": "A15.0.10.0.VGWEUOR",
 					"android": "15.0",
 					"release": "2025-11-25",
 					"recovery": "miui_SERENITYEEAORGlobal_A15.0.10.0.VGWEUOR_e97b805658_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.9.0.VGWEUOR": {
 					"os": "A15.0.9.0.VGWEUOR",
 					"android": "15.0",
 					"release": "2025-09-24",
 					"recovery": "miui_SERENITYEEAORGlobal_A15.0.9.0.VGWEUOR_e72f84c85c_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"A15.0.8.0.VGWEUOR": {
 					"os": "A15.0.8.0.VGWEUOR",
 					"android": "15.0",
 					"release": "2025-07-10",
 					"recovery": "miui_SERENITYEEAORGlobal_A15.0.8.0.VGWEUOR_aba02575b0_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"A15.0.3.0.VGWEUOR": {
 					"os": "A15.0.3.0.VGWEUOR",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "miui_SERENITYEEAORGlobal_A15.0.3.0.VGWEUOR_3f4197f8c6_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -430,6 +472,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -446,49 +489,56 @@
 					"android": "15.0",
 					"release": "2026-04-14",
 					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.12.0.VGWEUVF_461a4d5e39_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-03-01"
 				},
 				"A15.0.11.0.VGWEUVF": {
 					"os": "A15.0.11.0.VGWEUVF",
 					"android": "15.0",
 					"release": "2026-02-11",
 					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.11.0.VGWEUVF_b7bd600843_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.9.0.VGWEUVF": {
 					"os": "A15.0.9.0.VGWEUVF",
 					"android": "15.0",
 					"release": "2025-12-01",
 					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.9.0.VGWEUVF_6f423da778_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.8.0.VGWEUVF": {
 					"os": "A15.0.8.0.VGWEUVF",
 					"android": "15.0",
 					"release": "2025-09-28",
 					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.8.0.VGWEUVF_0703507006_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"A15.0.7.0.VGWEUVF": {
 					"os": "A15.0.7.0.VGWEUVF",
 					"android": "15.0",
 					"release": "2025-08-11",
 					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.7.0.VGWEUVF_4019c00218_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"A15.0.6.0.VGWEUVF": {
 					"os": "A15.0.6.0.VGWEUVF",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.6.0.VGWEUVF_be3213e63c_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"A15.0.4.0.VGWEUVF": {
 					"os": "A15.0.4.0.VGWEUVF",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "miui_SERENITYEEAVFGlobal_A15.0.4.0.VGWEUVF_e271ef78bf_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				}
 			}
 		},
@@ -510,6 +560,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -526,42 +577,48 @@
 					"android": "15.0",
 					"release": "2026-04-07",
 					"recovery": "miui_SERENITYEEABYGlobal_A15.0.11.0.VGWEUBY_7dd39c1e84_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-03-01"
 				},
 				"A15.0.10.0.VGWEUBY": {
 					"os": "A15.0.10.0.VGWEUBY",
 					"android": "15.0",
 					"release": "2026-02-25",
 					"recovery": "miui_SERENITYEEABYGlobal_A15.0.10.0.VGWEUBY_73077dbc3b_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.8.0.VGWEUBY": {
 					"os": "A15.0.8.0.VGWEUBY",
 					"android": "15.0",
 					"release": "2025-11-18",
 					"recovery": "miui_SERENITYEEABYGlobal_A15.0.8.0.VGWEUBY_1253bedd59_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.7.0.VGWEUBY": {
 					"os": "A15.0.7.0.VGWEUBY",
 					"android": "15.0",
 					"release": "2025-09-19",
 					"recovery": "miui_SERENITYEEABYGlobal_A15.0.7.0.VGWEUBY_a51034c270_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"A15.0.5.0.VGWEUBY": {
 					"os": "A15.0.5.0.VGWEUBY",
 					"android": "15.0",
 					"release": "2025-07-14",
 					"recovery": "miui_SERENITYEEABYGlobal_A15.0.5.0.VGWEUBY_97bb8b5cda_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"A15.0.3.0.VGWEUBY": {
 					"os": "A15.0.3.0.VGWEUBY",
 					"android": "15.0",
 					"release": "2025-05-20",
 					"recovery": "miui_SERENITYEEABYGlobal_A15.0.3.0.VGWEUBY_8ef20bdb6b_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				}
 			}
 		},
@@ -583,6 +640,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -599,35 +657,40 @@
 					"android": "15.0",
 					"release": "2026-05-27",
 					"recovery": "miui_SERENITYEEATFGlobal_A15.0.11.0.VGWEUTF_ce13f1c87a_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"A15.0.10.0.VGWEUTF": {
 					"os": "A15.0.10.0.VGWEUTF",
 					"android": "15.0",
 					"release": "2026-05-07",
 					"recovery": "miui_SERENITYEEATFGlobal_A15.0.10.0.VGWEUTF_83c8f6ce2e_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"A15.0.7.0.VGWEUTF": {
 					"os": "A15.0.7.0.VGWEUTF",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "miui_SERENITYEEATFGlobal_A15.0.7.0.VGWEUTF_5ea06c2f6e_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"A15.0.5.0.VGWEUTF": {
 					"os": "A15.0.5.0.VGWEUTF",
 					"android": "15.0",
 					"release": "2025-08-04",
 					"recovery": "miui_SERENITYEEATFGlobal_A15.0.5.0.VGWEUTF_9a4ba23d6a_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"A15.0.2.0.VGWEUTF": {
 					"os": "A15.0.2.0.VGWEUTF",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "miui_SERENITYEEATFGlobal_A15.0.2.0.VGWEUTF_d4aabafc99_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				}
 			}
 		},
@@ -649,6 +712,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -665,35 +729,40 @@
 					"android": "15.0",
 					"release": "2026-05-07",
 					"recovery": "miui_SERENITYEEASFGlobal_A15.0.11.0.VGWEUSF_8ccc6ff1cf_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-03-01"
 				},
 				"A15.0.10.0.VGWEUSF": {
 					"os": "A15.0.10.0.VGWEUSF",
 					"android": "15.0",
 					"release": "2026-01-27",
 					"recovery": "miui_SERENITYEEASFGlobal_A15.0.10.0.VGWEUSF_3310bfd907_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.7.0.VGWEUSF": {
 					"os": "A15.0.7.0.VGWEUSF",
 					"android": "15.0",
 					"release": "2025-11-24",
 					"recovery": "miui_SERENITYEEASFGlobal_A15.0.7.0.VGWEUSF_dea7f2b9d7_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.6.0.VGWEUSF": {
 					"os": "A15.0.6.0.VGWEUSF",
 					"android": "15.0",
 					"release": "2025-09-09",
 					"recovery": "miui_SERENITYEEASFGlobal_A15.0.6.0.VGWEUSF_2baac5e14b_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"A15.0.5.0.VGWEUSF": {
 					"os": "A15.0.5.0.VGWEUSF",
 					"android": "15.0",
 					"release": "2025-07-17",
 					"recovery": "miui_SERENITYEEASFGlobal_A15.0.5.0.VGWEUSF_5abe1b9d66_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				}
 			}
 		},
@@ -715,6 +784,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -734,70 +804,80 @@
 					"android": "15.0",
 					"release": "2026-05-15",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.13.0.VGWRUXM_acb702c5e2_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.13.0.VGWRUXM-user-20260508.0000.00-15.0-ru-6ab5dbd033.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.13.0.VGWRUXM-user-20260508.0000.00-15.0-ru-6ab5dbd033.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"A15.0.12.0.VGWRUXM": {
 					"os": "A15.0.12.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2026-04-14",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.12.0.VGWRUXM_6a84dbd86c_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.12.0.VGWRUXM-user-20260211.0000.00-15.0-ru-4c61a26499.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.12.0.VGWRUXM-user-20260211.0000.00-15.0-ru-4c61a26499.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"A15.0.10.0.VGWRUXM": {
 					"os": "A15.0.10.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2026-01-21",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.10.0.VGWRUXM_44e8576e74_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.10.0.VGWRUXM-user-20260104.0000.00-15.0-ru-67a5d96edc.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.10.0.VGWRUXM-user-20260104.0000.00-15.0-ru-67a5d96edc.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.9.0.VGWRUXM": {
 					"os": "A15.0.9.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2025-12-27",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.9.0.VGWRUXM_7418006d7d_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.9.0.VGWRUXM-user-20251201.0000.00-15.0-ru-2dc797cd62.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.9.0.VGWRUXM-user-20251201.0000.00-15.0-ru-2dc797cd62.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.8.0.VGWRUXM": {
 					"os": "A15.0.8.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2025-11-06",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.8.0.VGWRUXM_5cdbfee6cf_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.8.0.VGWRUXM-user-20251010.0000.00-15.0-ru-316f1a0ff7.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.8.0.VGWRUXM-user-20251010.0000.00-15.0-ru-316f1a0ff7.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"A15.0.7.0.VGWRUXM": {
 					"os": "A15.0.7.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2025-08-20",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.7.0.VGWRUXM_62ae80a94f_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.7.0.VGWRUXM-user-20250812.0000.00-15.0-ru-97624fac99.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.7.0.VGWRUXM-user-20250812.0000.00-15.0-ru-97624fac99.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"A15.0.6.0.VGWRUXM": {
 					"os": "A15.0.6.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.6.0.VGWRUXM_8803289f42_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.6.0.VGWRUXM-user-20250613.0000.00-15.0-ru-b3ee4ff653.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.6.0.VGWRUXM-user-20250613.0000.00-15.0-ru-b3ee4ff653.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"A15.0.5.0.VGWRUXM": {
 					"os": "A15.0.5.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2025-06-05",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.5.0.VGWRUXM_2896a2486a_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.5.0.VGWRUXM-user-20250527.0000.00-15.0-ru-e0ac3d0df3.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.5.0.VGWRUXM-user-20250527.0000.00-15.0-ru-e0ac3d0df3.tgz",
+					"aspatch": "2025-05-01"
 				},
 				"A15.0.4.0.VGWRUXM": {
 					"os": "A15.0.4.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2025-05-09",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.4.0.VGWRUXM_ed9a44cd84_15.0.zip",
-					"fastboot": "serenity_ru_global-images-A15.0.4.0.VGWRUXM-user-20250429.0000.00-15.0-ru-7e9f75e717.tgz"
+					"fastboot": "serenity_ru_global-images-A15.0.4.0.VGWRUXM-user-20250429.0000.00-15.0-ru-7e9f75e717.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"A15.0.2.0.VGWRUXM": {
 					"os": "A15.0.2.0.VGWRUXM",
 					"android": "15.0",
 					"release": "2025-04-22",
 					"recovery": "miui_SERENITYRUGlobal_A15.0.2.0.VGWRUXM_61b97f99ee_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				}
 			}
 		},
@@ -822,6 +902,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -838,70 +919,80 @@
 					"android": "15.0",
 					"release": "2026-05-15",
 					"recovery": "miui_SERENITYINGlobal_A15.0.16.0.VGWINXM_69ecb32a40_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.16.0.VGWINXM-user-20260508.0000.00-15.0-in-56df7bd8aa.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.16.0.VGWINXM-user-20260508.0000.00-15.0-in-56df7bd8aa.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"A15.0.15.0.VGWINXM": {
 					"os": "A15.0.15.0.VGWINXM",
 					"android": "15.0",
 					"release": "2026-04-14",
 					"recovery": "miui_SERENITYINGlobal_A15.0.15.0.VGWINXM_448b9d3951_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.15.0.VGWINXM-user-20260227.0000.00-15.0-in-f26a18c4b2.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.15.0.VGWINXM-user-20260227.0000.00-15.0-in-f26a18c4b2.tgz",
+					"aspatch": "2026-02-01"
 				},
 				"A15.0.14.0.VGWINXM": {
 					"os": "A15.0.14.0.VGWINXM",
 					"android": "15.0",
 					"release": "2026-01-30",
 					"recovery": "miui_SERENITYINGlobal_A15.0.14.0.VGWINXM_af3c488f76_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.14.0.VGWINXM-user-20260104.0000.00-15.0-in-dedd144a25.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.14.0.VGWINXM-user-20260104.0000.00-15.0-in-dedd144a25.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.13.0.VGWINXM": {
 					"os": "A15.0.13.0.VGWINXM",
 					"android": "15.0",
 					"release": "2026-01-04",
 					"recovery": "miui_SERENITYINGlobal_A15.0.13.0.VGWINXM_82edb9517b_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.13.0.VGWINXM-user-20251201.0000.00-15.0-in-7ce6beaa17.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.13.0.VGWINXM-user-20251201.0000.00-15.0-in-7ce6beaa17.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.12.0.VGWINXM": {
 					"os": "A15.0.12.0.VGWINXM",
 					"android": "15.0",
 					"release": "2025-10-17",
 					"recovery": "miui_SERENITYINGlobal_A15.0.12.0.VGWINXM_9702a21ccf_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.12.0.VGWINXM-user-20251010.0000.00-15.0-in-0b7c21eab6.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.12.0.VGWINXM-user-20251010.0000.00-15.0-in-0b7c21eab6.tgz",
+					"aspatch": "2025-10-01"
 				},
 				"A15.0.8.0.VGWINXM": {
 					"os": "A15.0.8.0.VGWINXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "miui_SERENITYINGlobal_A15.0.8.0.VGWINXM_d78328e4f2_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.8.0.VGWINXM-user-20250815.0000.00-15.0-in-3918276942.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.8.0.VGWINXM-user-20250815.0000.00-15.0-in-3918276942.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"A15.0.7.0.VGWINXM": {
 					"os": "A15.0.7.0.VGWINXM",
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "miui_SERENITYINGlobal_A15.0.7.0.VGWINXM_f7a10435fc_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.7.0.VGWINXM-user-20250614.0000.00-15.0-in-0238edbac3.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.7.0.VGWINXM-user-20250614.0000.00-15.0-in-0238edbac3.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"A15.0.5.0.VGWINXM": {
 					"os": "A15.0.5.0.VGWINXM",
 					"android": "15.0",
 					"release": "2025-05-16",
 					"recovery": "miui_SERENITYINGlobal_A15.0.5.0.VGWINXM_7b5c0be105_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.5.0.VGWINXM-user-20250514.0000.00-15.0-in-cb206cdf03.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.5.0.VGWINXM-user-20250514.0000.00-15.0-in-cb206cdf03.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"A15.0.4.0.VGWINXM": {
 					"os": "A15.0.4.0.VGWINXM",
 					"android": "15.0",
 					"release": "2025-05-08",
 					"recovery": "miui_SERENITYINGlobal_A15.0.4.0.VGWINXM_79de64206d_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"A15.0.2.0.VGWINXM": {
 					"os": "A15.0.2.0.VGWINXM",
 					"android": "15.0",
 					"release": "2025-04-09",
 					"recovery": "miui_SERENITYINGlobal_A15.0.2.0.VGWINXM_755e02a318_15.0.zip",
-					"fastboot": "serenity_in_global-images-A15.0.2.0.VGWINXM-user-20250303.0000.00-15.0-in-f21ea03fa2.tgz"
+					"fastboot": "serenity_in_global-images-A15.0.2.0.VGWINXM-user-20250303.0000.00-15.0-in-f21ea03fa2.tgz",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -923,6 +1014,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -939,49 +1031,56 @@
 					"android": "15.0",
 					"release": "2026-05-28",
 					"recovery": "miui_SERENITYIDGlobal_A15.0.10.0.VGWIDXM_82cceaaced_15.0.zip",
-					"fastboot": "serenity_id_global-images-A15.0.10.0.VGWIDXM-user-20260520.0000.00-15.0-id-501474327a.tgz"
+					"fastboot": "serenity_id_global-images-A15.0.10.0.VGWIDXM-user-20260520.0000.00-15.0-id-501474327a.tgz",
+					"aspatch": "2026-05-01"
 				},
 				"A15.0.9.0.VGWIDXM": {
 					"os": "A15.0.9.0.VGWIDXM",
 					"android": "15.0",
 					"release": "2026-03-31",
 					"recovery": "miui_SERENITYIDGlobal_A15.0.9.0.VGWIDXM_41df46e8ab_15.0.zip",
-					"fastboot": "serenity_id_global-images-A15.0.9.0.VGWIDXM-user-20260319.0000.00-15.0-id-1db40829fd.tgz"
+					"fastboot": "serenity_id_global-images-A15.0.9.0.VGWIDXM-user-20260319.0000.00-15.0-id-1db40829fd.tgz",
+					"aspatch": "2026-03-01"
 				},
 				"A15.0.8.0.VGWIDXM": {
 					"os": "A15.0.8.0.VGWIDXM",
 					"android": "15.0",
 					"release": "2026-01-20",
 					"recovery": "miui_SERENITYIDGlobal_A15.0.8.0.VGWIDXM_a34a39551f_15.0.zip",
-					"fastboot": "serenity_id_global-images-A15.0.8.0.VGWIDXM-user-20260104.0000.00-15.0-id-75208abae0.tgz"
+					"fastboot": "serenity_id_global-images-A15.0.8.0.VGWIDXM-user-20260104.0000.00-15.0-id-75208abae0.tgz",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.7.0.VGWIDXM": {
 					"os": "A15.0.7.0.VGWIDXM",
 					"android": "15.0",
 					"release": "2025-11-11",
 					"recovery": "miui_SERENITYIDGlobal_A15.0.7.0.VGWIDXM_03053ab81e_15.0.zip",
-					"fastboot": "serenity_id_global-images-A15.0.7.0.VGWIDXM-user-20251028.0000.00-15.0-id-d3a948e0a8.tgz"
+					"fastboot": "serenity_id_global-images-A15.0.7.0.VGWIDXM-user-20251028.0000.00-15.0-id-d3a948e0a8.tgz",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.6.0.VGWIDXM": {
 					"os": "A15.0.6.0.VGWIDXM",
 					"android": "15.0",
 					"release": "2025-08-22",
 					"recovery": "miui_SERENITYIDGlobal_A15.0.6.0.VGWIDXM_97419e1645_15.0.zip",
-					"fastboot": "serenity_id_global-images-A15.0.6.0.VGWIDXM-user-20250815.0000.00-15.0-id-2a355594da.tgz"
+					"fastboot": "serenity_id_global-images-A15.0.6.0.VGWIDXM-user-20250815.0000.00-15.0-id-2a355594da.tgz",
+					"aspatch": "2025-08-01"
 				},
 				"A15.0.5.0.VGWIDXM": {
 					"os": "A15.0.5.0.VGWIDXM",
 					"android": "15.0",
 					"release": "2025-06-20",
 					"recovery": "miui_SERENITYIDGlobal_A15.0.5.0.VGWIDXM_86a79e97f9_15.0.zip",
-					"fastboot": "serenity_id_global-images-A15.0.5.0.VGWIDXM-user-20250613.0000.00-15.0-id-a35fe8cf5c.tgz"
+					"fastboot": "serenity_id_global-images-A15.0.5.0.VGWIDXM-user-20250613.0000.00-15.0-id-a35fe8cf5c.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"A15.0.4.0.VGWIDXM": {
 					"os": "A15.0.4.0.VGWIDXM",
 					"android": "15.0",
 					"release": "2025-06-05",
 					"recovery": "miui_SERENITYIDGlobal_A15.0.4.0.VGWIDXM_d6770f0822_15.0.zip",
-					"fastboot": "serenity_id_global-images-A15.0.4.0.VGWIDXM-user-20250527.0000.00-15.0-id-3446e0a2b3.tgz"
+					"fastboot": "serenity_id_global-images-A15.0.4.0.VGWIDXM-user-20250527.0000.00-15.0-id-3446e0a2b3.tgz",
+					"aspatch": "2025-05-01"
 				}
 			}
 		},
@@ -1003,6 +1102,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1019,14 +1119,16 @@
 					"android": "15.0",
 					"release": "2025-07-01",
 					"recovery": "miui_SERENITYZAMTGlobal_A15.0.3.0.VGWZAMT_7364a6cc2a_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"A15.0.1.0.VGWZAMT": {
 					"os": "A15.0.1.0.VGWZAMT",
 					"android": "15.0",
 					"release": "2025-04-26",
 					"recovery": "miui_SERENITYZAMTGlobal_A15.0.1.0.VGWZAMT_0d7b2fd8a7_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -1048,6 +1150,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1064,42 +1167,48 @@
 					"android": "15.0",
 					"release": "2026-03-13",
 					"recovery": "miui_SERENITYGTTGGlobal_A15.0.10.0.VGWGTTG_bf94df1ad4_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"A15.0.9.0.VGWGTTG": {
 					"os": "A15.0.9.0.VGWGTTG",
 					"android": "15.0",
 					"release": "2026-02-25",
 					"recovery": "miui_SERENITYGTTGGlobal_A15.0.9.0.VGWGTTG_7f289fd446_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-12-01"
 				},
 				"A15.0.7.0.VGWGTTG": {
 					"os": "A15.0.7.0.VGWGTTG",
 					"android": "15.0",
 					"release": "2025-10-28",
 					"recovery": "miui_SERENITYGTTGGlobal_A15.0.7.0.VGWGTTG_1252749dd6_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"A15.0.6.0.VGWGTTG": {
 					"os": "A15.0.6.0.VGWGTTG",
 					"android": "15.0",
 					"release": "2025-08-19",
 					"recovery": "miui_SERENITYGTTGGlobal_A15.0.6.0.VGWGTTG_0d761419cb_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-01"
 				},
 				"A15.0.5.0.VGWGTTG": {
 					"os": "A15.0.5.0.VGWGTTG",
 					"android": "15.0",
 					"release": "2025-05-23",
 					"recovery": "miui_SERENITYGTTGGlobal_A15.0.5.0.VGWGTTG_123cfdc0e6_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"A15.0.4.0.VGWGTTG": {
 					"os": "A15.0.4.0.VGWGTTG",
 					"android": "15.0",
 					"release": "2025-04-09",
 					"recovery": "miui_SERENITYGTTGGlobal_A15.0.4.0.VGWGTTG_f8ffdef982_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -1121,6 +1230,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1137,14 +1247,16 @@
 					"android": "15.0",
 					"release": "2026-04-20",
 					"recovery": "miui_SERENITYCLENGlobal_A15.0.7.0.VGWCLEN_4a129d0618_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-12-01"
 				},
 				"A15.0.3.0.VGWCLEN": {
 					"os": "A15.0.3.0.VGWCLEN",
 					"android": "15.0",
 					"release": "2025-10-22",
 					"recovery": "miui_SERENITYCLENGlobal_A15.0.3.0.VGWCLEN_a0b1690249_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -1166,6 +1278,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1182,35 +1295,40 @@
 					"android": "15.0",
 					"release": "2026-05-18",
 					"recovery": "miui_SERENITYMXATGlobal_A15.0.9.0.VGWMXAT_b427491445_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"A15.0.7.0.VGWMXAT": {
 					"os": "A15.0.7.0.VGWMXAT",
 					"android": "15.0",
 					"release": "2026-01-08",
 					"recovery": "miui_SERENITYMXATGlobal_A15.0.7.0.VGWMXAT_945805e359_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-12-01"
 				},
 				"A15.0.5.0.VGWMXAT": {
 					"os": "A15.0.5.0.VGWMXAT",
 					"android": "15.0",
 					"release": "2025-10-19",
 					"recovery": "miui_SERENITYMXATGlobal_A15.0.5.0.VGWMXAT_ecbfc9a19d_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"A15.0.4.0.VGWMXAT": {
 					"os": "A15.0.4.0.VGWMXAT",
 					"android": "15.0",
 					"release": "2025-07-29",
 					"recovery": "miui_SERENITYMXATGlobal_A15.0.4.0.VGWMXAT_c8bc050cab_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"A15.0.3.0.VGWMXAT": {
 					"os": "A15.0.3.0.VGWMXAT",
 					"android": "15.0",
 					"release": "2025-04-10",
 					"recovery": "miui_SERENITYMXATGlobal_A15.0.3.0.VGWMXAT_16c51c6ef9_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-03-01"
 				}
 			}
 		},
@@ -1232,6 +1350,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1248,49 +1367,56 @@
 					"android": "15.0",
 					"release": "2026-03-24",
 					"recovery": "miui_SERENITYLMCRGlobal_A15.0.7.0.VGWLMCR_888eea7cd1_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-02-01"
 				},
 				"A15.0.6.0.VGWLMCR": {
 					"os": "A15.0.6.0.VGWLMCR",
 					"android": "15.0",
 					"release": "2026-01-16",
 					"recovery": "miui_SERENITYLMCRGlobal_A15.0.6.0.VGWLMCR_f939f58e1f_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-01-01"
 				},
 				"A15.0.5.0.VGWLMCR": {
 					"os": "A15.0.5.0.VGWLMCR",
 					"android": "15.0",
 					"release": "2025-12-02",
 					"recovery": "miui_SERENITYLMCRGlobal_A15.0.5.0.VGWLMCR_ca2344efdf_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-11-01"
 				},
 				"A15.0.4.0.VGWLMCR": {
 					"os": "A15.0.4.0.VGWLMCR",
 					"android": "15.0",
 					"release": "2025-09-30",
 					"recovery": "miui_SERENITYLMCRGlobal_A15.0.4.0.VGWLMCR_659af5e33b_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-09-01"
 				},
 				"A15.0.3.0.VGWLMCR": {
 					"os": "A15.0.3.0.VGWLMCR",
 					"android": "15.0",
 					"release": "2025-07-09",
 					"recovery": "miui_SERENITYLMCRGlobal_A15.0.3.0.VGWLMCR_1e5a9f8816_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-07-01"
 				},
 				"A15.0.2.0.VGWLMCR": {
 					"os": "A15.0.2.0.VGWLMCR",
 					"android": "15.0",
 					"release": "2025-05-26",
 					"recovery": "miui_SERENITYLMCRGlobal_A15.0.2.0.VGWLMCR_f2e88f74d0_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"A15.0.1.0.VGWLMCR": {
 					"os": "A15.0.1.0.VGWLMCR",
 					"android": "15.0",
 					"release": "2025-05-07",
 					"recovery": "miui_SERENITYLMCRGlobal_A15.0.1.0.VGWLMCR_ce84d3e9fd_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-02-01"
 				}
 			}
 		},
@@ -1312,6 +1438,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -1328,49 +1455,56 @@
 					"android": "15.0",
 					"release": "2026-05-29",
 					"recovery": "miui_SERENITYLMMSGlobal_A15.0.12.0.VGWLMMS_eecc52788d_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2026-04-01"
 				},
 				"A15.0.8.0.VGWLMMS": {
 					"os": "A15.0.8.0.VGWLMMS",
 					"android": "15.0",
 					"release": "2025-12-05",
 					"recovery": "miui_SERENITYLMMSGlobal_A15.0.8.0.VGWLMMS_a765d07d3f_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-10-01"
 				},
 				"A15.0.7.0.VGWLMMS": {
 					"os": "A15.0.7.0.VGWLMMS",
 					"android": "15.0",
 					"release": "2025-09-12",
 					"recovery": "miui_SERENITYLMMSGlobal_A15.0.7.0.VGWLMMS_2a9fabbfcd_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-08-01"
 				},
 				"A15.0.6.0.VGWLMMS": {
 					"os": "A15.0.6.0.VGWLMMS",
 					"android": "15.0",
 					"release": "2025-08-13",
 					"recovery": "miui_SERENITYLMMSGlobal_A15.0.6.0.VGWLMMS_ab6343fdc9_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-06-01"
 				},
 				"A15.0.5.0.VGWLMMS": {
 					"os": "A15.0.5.0.VGWLMMS",
 					"android": "15.0",
 					"release": "2025-07-09",
 					"recovery": "miui_SERENITYLMMSGlobal_A15.0.5.0.VGWLMMS_20774eb338_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-05-01"
 				},
 				"A15.0.4.0.VGWLMMS": {
 					"os": "A15.0.4.0.VGWLMMS",
 					"android": "15.0",
 					"release": "2025-04-25",
 					"recovery": "miui_SERENITYLMMSGlobal_A15.0.4.0.VGWLMMS_7bb436d86d_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-04-01"
 				},
 				"A15.0.2.0.VGWLMMS": {
 					"os": "A15.0.2.0.VGWLMMS",
 					"android": "15.0",
 					"release": "2025-04-10",
 					"recovery": "miui_SERENITYLMMSGlobal_A15.0.2.0.VGWLMMS_a9d3a5448b_15.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2025-02-01"
 				}
 			}
 		}

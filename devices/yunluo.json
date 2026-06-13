@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot",
 				"ctelecom"
@@ -54,7 +55,8 @@
 					"release": "2024-11-18",
 					"recovery": "miui_YUNLUO_OS1.0.8.0.ULYCNXM_0f98c0db8c_14.0.zip",
 					"fastboot": "yunluo_images_OS1.0.8.0.ULYCNXM_20241028.0000.00_14.0_cn_2bf951f965.tgz",
-					"ctelecom": "yunluo_images_OS1.0.8.0.ULYCNXM_20241028.0000.00_14.0_cn_chinatelecom_738f3889f5.tgz"
+					"ctelecom": "yunluo_images_OS1.0.8.0.ULYCNXM_20241028.0000.00_14.0_cn_chinatelecom_738f3889f5.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.ULYCNXM": {
 					"os": "OS1.0.7.0.ULYCNXM",
@@ -62,7 +64,8 @@
 					"release": "2024-09-12",
 					"recovery": "miui_YUNLUO_OS1.0.7.0.ULYCNXM_35565fc06b_14.0.zip",
 					"fastboot": "yunluo_images_OS1.0.7.0.ULYCNXM_20240828.0000.00_14.0_cn_fd75006a3f.tgz",
-					"ctelecom": "yunluo_images_OS1.0.7.0.ULYCNXM_20240828.0000.00_14.0_cn_chinatelecom_06b9dbdf9d.tgz"
+					"ctelecom": "yunluo_images_OS1.0.7.0.ULYCNXM_20240828.0000.00_14.0_cn_chinatelecom_06b9dbdf9d.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.6.0.ULYCNXM": {
 					"os": "OS1.0.6.0.ULYCNXM",
@@ -70,7 +73,8 @@
 					"release": "2024-06-11",
 					"recovery": "miui_YUNLUO_OS1.0.6.0.ULYCNXM_91c5ccbb4b_14.0.zip",
 					"fastboot": "yunluo_images_OS1.0.6.0.ULYCNXM_20240530.0000.00_14.0_cn_d384215a91.tgz",
-					"ctelecom": "yunluo_images_OS1.0.6.0.ULYCNXM_20240530.0000.00_14.0_cn_chinatelecom_d965dea0e2.tgz"
+					"ctelecom": "yunluo_images_OS1.0.6.0.ULYCNXM_20240530.0000.00_14.0_cn_chinatelecom_d965dea0e2.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.5.0.ULYCNXM": {
 					"os": "OS1.0.5.0.ULYCNXM",
@@ -78,7 +82,8 @@
 					"release": "2024-04-08",
 					"recovery": "miui_YUNLUO_OS1.0.5.0.ULYCNXM_bc1d8b3821_14.0.zip",
 					"fastboot": "yunluo_images_OS1.0.5.0.ULYCNXM_20240322.0000.00_14.0_cn_4a7c9d44b3.tgz",
-					"ctelecom": "yunluo_images_OS1.0.5.0.ULYCNXM_20240322.0000.00_14.0_cn_chinatelecom_ab1503380e.tgz"
+					"ctelecom": "yunluo_images_OS1.0.5.0.ULYCNXM_20240322.0000.00_14.0_cn_chinatelecom_ab1503380e.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.ULYCNXM": {
 					"os": "OS1.0.2.0.ULYCNXM",
@@ -86,7 +91,8 @@
 					"release": "2024-01-08",
 					"recovery": "miui_YUNLUO_OS1.0.2.0.ULYCNXM_b72482c1f6_14.0.zip",
 					"fastboot": "yunluo_images_OS1.0.2.0.ULYCNXM_20240102.0000.00_14.0_cn_30ddda460a.tgz",
-					"ctelecom": "yunluo_images_OS1.0.2.0.ULYCNXM_20240102.0000.00_14.0_cn_chinatelecom_8754c2e427.tgz"
+					"ctelecom": "yunluo_images_OS1.0.2.0.ULYCNXM_20240102.0000.00_14.0_cn_chinatelecom_8754c2e427.tgz",
+					"aspatch": "2023-12-01"
 				}
 			}
 		},
@@ -108,6 +114,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -124,35 +131,40 @@
 					"android": "14.0",
 					"release": "2025-08-18",
 					"recovery": "miui_YUNLUOTWGlobal_OS1.0.10.0.ULYTWXM_18791eff50_14.0.zip",
-					"fastboot": "yunluo_tw_global_images_OS1.0.10.0.ULYTWXM_20250730.0000.00_14.0_tw_fb8fc8a5a5.tgz"
+					"fastboot": "yunluo_tw_global_images_OS1.0.10.0.ULYTWXM_20250730.0000.00_14.0_tw_fb8fc8a5a5.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.6.0.ULYTWXM": {
 					"os": "OS1.0.6.0.ULYTWXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_YUNLUOTWGlobal_OS1.0.6.0.ULYTWXM_ea6a54e91d_14.0.zip",
-					"fastboot": "yunluo_tw_global_images_OS1.0.6.0.ULYTWXM_20241203.0000.00_14.0_tw_93faf09f7d.tgz"
+					"fastboot": "yunluo_tw_global_images_OS1.0.6.0.ULYTWXM_20241203.0000.00_14.0_tw_93faf09f7d.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.ULYTWXM": {
 					"os": "OS1.0.5.0.ULYTWXM",
 					"android": "14.0",
 					"release": "2024-10-21",
 					"recovery": "miui_YUNLUOTWGlobal_OS1.0.5.0.ULYTWXM_148beb6794_14.0.zip",
-					"fastboot": "yunluo_tw_global_images_OS1.0.5.0.ULYTWXM_20240930.0000.00_14.0_tw_3039d94c8a.tgz"
+					"fastboot": "yunluo_tw_global_images_OS1.0.5.0.ULYTWXM_20240930.0000.00_14.0_tw_3039d94c8a.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.2.0.ULYTWXM": {
 					"os": "OS1.0.2.0.ULYTWXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_YUNLUOTWGlobal_OS1.0.2.0.ULYTWXM_f0ba7c374b_14.0.zip",
-					"fastboot": "yunluo_tw_global_images_OS1.0.2.0.ULYTWXM_20240805.0000.00_14.0_tw_db3beeda6c.tgz"
+					"fastboot": "yunluo_tw_global_images_OS1.0.2.0.ULYTWXM_20240805.0000.00_14.0_tw_db3beeda6c.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.ULYTWXM": {
 					"os": "OS1.0.1.0.ULYTWXM",
 					"android": "14.0",
 					"release": "2024-03-25",
 					"recovery": "miui_YUNLUOTWGlobal_OS1.0.1.0.ULYTWXM_c5ea235f17_14.0.zip",
-					"fastboot": "yunluo_tw_global_images_OS1.0.1.0.ULYTWXM_20240220.0000.00_14.0_tw_40080b3fcd.tgz"
+					"fastboot": "yunluo_tw_global_images_OS1.0.1.0.ULYTWXM_20240220.0000.00_14.0_tw_40080b3fcd.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -174,6 +186,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -190,49 +203,56 @@
 					"android": "14.0",
 					"release": "2025-05-12",
 					"recovery": "miui_YUNLUOGlobal_OS1.0.9.0.ULYMIXM_f523fe7fc3_14.0.zip",
-					"fastboot": "yunluo_global_images_OS1.0.9.0.ULYMIXM_20250416.0000.00_14.0_global_f8dbb84a10.tgz"
+					"fastboot": "yunluo_global_images_OS1.0.9.0.ULYMIXM_20250416.0000.00_14.0_global_f8dbb84a10.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.7.0.ULYMIXM": {
 					"os": "OS1.0.7.0.ULYMIXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_YUNLUOGlobal_OS1.0.7.0.ULYMIXM_a2b3f779df_14.0.zip",
-					"fastboot": "yunluo_global_images_OS1.0.7.0.ULYMIXM_20241203.0000.00_14.0_global_553aaa5687.tgz"
+					"fastboot": "yunluo_global_images_OS1.0.7.0.ULYMIXM_20241203.0000.00_14.0_global_553aaa5687.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.ULYMIXM": {
 					"os": "OS1.0.6.0.ULYMIXM",
 					"android": "14.0",
 					"release": "2024-10-21",
 					"recovery": "miui_YUNLUOGlobal_OS1.0.6.0.ULYMIXM_c0b6289872_14.0.zip",
-					"fastboot": "yunluo_global_images_OS1.0.6.0.ULYMIXM_20240930.0000.00_14.0_global_e916fbbe5a.tgz"
+					"fastboot": "yunluo_global_images_OS1.0.6.0.ULYMIXM_20240930.0000.00_14.0_global_e916fbbe5a.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.ULYMIXM": {
 					"os": "OS1.0.4.0.ULYMIXM",
 					"android": "14.0",
 					"release": "2024-08-06",
 					"recovery": "miui_YUNLUOGlobal_OS1.0.4.0.ULYMIXM_a7474dc3be_14.0.zip",
-					"fastboot": "yunluo_global_images_OS1.0.4.0.ULYMIXM_20240726.0000.00_14.0_global_71dc41b8f6.tgz"
+					"fastboot": "yunluo_global_images_OS1.0.4.0.ULYMIXM_20240726.0000.00_14.0_global_71dc41b8f6.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.3.0.ULYMIXM": {
 					"os": "OS1.0.3.0.ULYMIXM",
 					"android": "14.0",
 					"release": "2024-06-18",
 					"recovery": "miui_YUNLUOGlobal_OS1.0.3.0.ULYMIXM_6c6a7d9f81_14.0.zip",
-					"fastboot": "yunluo_global_images_OS1.0.3.0.ULYMIXM_20240607.0000.00_14.0_global_95f4ed9630.tgz"
+					"fastboot": "yunluo_global_images_OS1.0.3.0.ULYMIXM_20240607.0000.00_14.0_global_95f4ed9630.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.ULYMIXM": {
 					"os": "OS1.0.2.0.ULYMIXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_YUNLUOGlobal_OS1.0.2.0.ULYMIXM_5f7f0c202a_14.0.zip",
-					"fastboot": "yunluo_global_images_OS1.0.2.0.ULYMIXM_20240313.0000.00_14.0_global_f8fbc2d535.tgz"
+					"fastboot": "yunluo_global_images_OS1.0.2.0.ULYMIXM_20240313.0000.00_14.0_global_f8fbc2d535.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.ULYMIXM": {
 					"os": "OS1.0.1.0.ULYMIXM",
 					"android": "14.0",
 					"release": "2024-01-26",
 					"recovery": "miui_YUNLUOGlobal_OS1.0.1.0.ULYMIXM_0c6045c79e_14.0.zip",
-					"fastboot": "yunluo_global_images_OS1.0.1.0.ULYMIXM_20240112.0000.00_14.0_global_9407565d45.tgz"
+					"fastboot": "yunluo_global_images_OS1.0.1.0.ULYMIXM_20240112.0000.00_14.0_global_9407565d45.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -254,6 +274,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -270,49 +291,56 @@
 					"android": "14.0",
 					"release": "2025-05-12",
 					"recovery": "miui_YUNLUOEEAGlobal_OS1.0.11.0.ULYEUXM_9ce0ffabdb_14.0.zip",
-					"fastboot": "yunluo_eea_global_images_OS1.0.11.0.ULYEUXM_20250416.0000.00_14.0_eea_a3a567835a.tgz"
+					"fastboot": "yunluo_eea_global_images_OS1.0.11.0.ULYEUXM_20250416.0000.00_14.0_eea_a3a567835a.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.9.0.ULYEUXM": {
 					"os": "OS1.0.9.0.ULYEUXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_YUNLUOEEAGlobal_OS1.0.9.0.ULYEUXM_d93d18db52_14.0.zip",
-					"fastboot": "yunluo_eea_global_images_OS1.0.9.0.ULYEUXM_20241203.0000.00_14.0_eea_602e867fbb.tgz"
+					"fastboot": "yunluo_eea_global_images_OS1.0.9.0.ULYEUXM_20241203.0000.00_14.0_eea_602e867fbb.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.ULYEUXM": {
 					"os": "OS1.0.8.0.ULYEUXM",
 					"android": "14.0",
 					"release": "2024-10-21",
 					"recovery": "miui_YUNLUOEEAGlobal_OS1.0.8.0.ULYEUXM_cd79b792b9_14.0.zip",
-					"fastboot": "yunluo_eea_global_images_OS1.0.8.0.ULYEUXM_20240930.0000.00_14.0_eea_e519450639.tgz"
+					"fastboot": "yunluo_eea_global_images_OS1.0.8.0.ULYEUXM_20240930.0000.00_14.0_eea_e519450639.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.5.0.ULYEUXM": {
 					"os": "OS1.0.5.0.ULYEUXM",
 					"android": "14.0",
 					"release": "2024-08-24",
 					"recovery": "miui_YUNLUOEEAGlobal_OS1.0.5.0.ULYEUXM_60f26021e6_14.0.zip",
-					"fastboot": "yunluo_eea_global_images_OS1.0.5.0.ULYEUXM_20240805.0000.00_14.0_eea_0031e86615.tgz"
+					"fastboot": "yunluo_eea_global_images_OS1.0.5.0.ULYEUXM_20240805.0000.00_14.0_eea_0031e86615.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.ULYEUXM": {
 					"os": "OS1.0.4.0.ULYEUXM",
 					"android": "14.0",
 					"release": "2024-06-17",
 					"recovery": "miui_YUNLUOEEAGlobal_OS1.0.4.0.ULYEUXM_ff7bae07bf_14.0.zip",
-					"fastboot": "yunluo_eea_global_images_OS1.0.4.0.ULYEUXM_20240530.0000.00_14.0_eea_bfd7d92a88.tgz"
+					"fastboot": "yunluo_eea_global_images_OS1.0.4.0.ULYEUXM_20240530.0000.00_14.0_eea_bfd7d92a88.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.3.0.ULYEUXM": {
 					"os": "OS1.0.3.0.ULYEUXM",
 					"android": "14.0",
 					"release": "2024-04-11",
 					"recovery": "miui_YUNLUOEEAGlobal_OS1.0.3.0.ULYEUXM_bfec1af5c3_14.0.zip",
-					"fastboot": "yunluo_eea_global_images_OS1.0.3.0.ULYEUXM_20240320.0000.00_14.0_eea_77680042a7.tgz"
+					"fastboot": "yunluo_eea_global_images_OS1.0.3.0.ULYEUXM_20240320.0000.00_14.0_eea_77680042a7.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.2.0.ULYEUXM": {
 					"os": "OS1.0.2.0.ULYEUXM",
 					"android": "14.0",
 					"release": "2024-02-23",
 					"recovery": "miui_YUNLUOEEAGlobal_OS1.0.2.0.ULYEUXM_9c591ec906_14.0.zip",
-					"fastboot": "yunluo_eea_global_images_OS1.0.2.0.ULYEUXM_20240130.0000.00_14.0_eea_945e3a2a34.tgz"
+					"fastboot": "yunluo_eea_global_images_OS1.0.2.0.ULYEUXM_20240130.0000.00_14.0_eea_945e3a2a34.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -334,6 +362,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -350,42 +379,48 @@
 					"android": "14.0",
 					"release": "2025-05-12",
 					"recovery": "miui_YUNLUORUGlobal_OS1.0.7.0.ULYRUXM_7e07c5a86f_14.0.zip",
-					"fastboot": "yunluo_ru_global_images_OS1.0.7.0.ULYRUXM_20250416.0000.00_14.0_ru_96947a01ee.tgz"
+					"fastboot": "yunluo_ru_global_images_OS1.0.7.0.ULYRUXM_20250416.0000.00_14.0_ru_96947a01ee.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.6.0.ULYRUXM": {
 					"os": "OS1.0.6.0.ULYRUXM",
 					"android": "14.0",
 					"release": "2025-02-10",
 					"recovery": "miui_YUNLUORUGlobal_OS1.0.6.0.ULYRUXM_da4fbf8416_14.0.zip",
-					"fastboot": "yunluo_ru_global_images_OS1.0.6.0.ULYRUXM_20250113.0000.00_14.0_ru_5591878dd7.tgz"
+					"fastboot": "yunluo_ru_global_images_OS1.0.6.0.ULYRUXM_20250113.0000.00_14.0_ru_5591878dd7.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.5.0.ULYRUXM": {
 					"os": "OS1.0.5.0.ULYRUXM",
 					"android": "14.0",
 					"release": "2024-11-18",
 					"recovery": "miui_YUNLUORUGlobal_OS1.0.5.0.ULYRUXM_8ac18f58dc_14.0.zip",
-					"fastboot": "yunluo_ru_global_images_OS1.0.5.0.ULYRUXM_20241030.0000.00_14.0_ru_cdbd36702e.tgz"
+					"fastboot": "yunluo_ru_global_images_OS1.0.5.0.ULYRUXM_20241030.0000.00_14.0_ru_cdbd36702e.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.3.0.ULYRUXM": {
 					"os": "OS1.0.3.0.ULYRUXM",
 					"android": "14.0",
 					"release": "2024-09-16",
 					"recovery": "miui_YUNLUORUGlobal_OS1.0.3.0.ULYRUXM_3914204311_14.0.zip",
-					"fastboot": "yunluo_ru_global_images_OS1.0.3.0.ULYRUXM_20240830.0000.00_14.0_ru_38e9d80dba.tgz"
+					"fastboot": "yunluo_ru_global_images_OS1.0.3.0.ULYRUXM_20240830.0000.00_14.0_ru_38e9d80dba.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.2.0.ULYRUXM": {
 					"os": "OS1.0.2.0.ULYRUXM",
 					"android": "14.0",
 					"release": "2024-06-24",
 					"recovery": "miui_YUNLUORUGlobal_OS1.0.2.0.ULYRUXM_f49b89ac49_14.0.zip",
-					"fastboot": "yunluo_ru_global_images_OS1.0.2.0.ULYRUXM_20240607.0000.00_14.0_ru_4545df794b.tgz"
+					"fastboot": "yunluo_ru_global_images_OS1.0.2.0.ULYRUXM_20240607.0000.00_14.0_ru_4545df794b.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.ULYRUXM": {
 					"os": "OS1.0.1.0.ULYRUXM",
 					"android": "14.0",
 					"release": "2024-03-22",
 					"recovery": "miui_YUNLUORUGlobal_OS1.0.1.0.ULYRUXM_3fcb6d158f_14.0.zip",
-					"fastboot": "yunluo_ru_global_images_OS1.0.1.0.ULYRUXM_20240301.0000.00_14.0_ru_91decad00a.tgz"
+					"fastboot": "yunluo_ru_global_images_OS1.0.1.0.ULYRUXM_20240301.0000.00_14.0_ru_91decad00a.tgz",
+					"aspatch": "2024-03-01"
 				}
 			}
 		},
@@ -407,6 +442,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -423,49 +459,56 @@
 					"android": "14.0",
 					"release": "2025-08-18",
 					"recovery": "miui_YUNLUOINGlobal_OS1.0.10.0.ULYINXM_be00bf864d_14.0.zip",
-					"fastboot": "yunluo_in_global_images_OS1.0.10.0.ULYINXM_20250730.0000.00_14.0_in_804aa80bc7.tgz"
+					"fastboot": "yunluo_in_global_images_OS1.0.10.0.ULYINXM_20250730.0000.00_14.0_in_804aa80bc7.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.7.0.ULYINXM": {
 					"os": "OS1.0.7.0.ULYINXM",
 					"android": "14.0",
 					"release": "2025-02-10",
 					"recovery": "miui_YUNLUOINGlobal_OS1.0.7.0.ULYINXM_3fa1cd003e_14.0.zip",
-					"fastboot": "yunluo_in_global_images_OS1.0.7.0.ULYINXM_20250113.0000.00_14.0_in_7a16c72fe8.tgz"
+					"fastboot": "yunluo_in_global_images_OS1.0.7.0.ULYINXM_20250113.0000.00_14.0_in_7a16c72fe8.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.6.0.ULYINXM": {
 					"os": "OS1.0.6.0.ULYINXM",
 					"android": "14.0",
 					"release": "2024-11-18",
 					"recovery": "miui_YUNLUOINGlobal_OS1.0.6.0.ULYINXM_246dc40a88_14.0.zip",
-					"fastboot": "yunluo_in_global_images_OS1.0.6.0.ULYINXM_20241030.0000.00_14.0_in_8925d23cf9.tgz"
+					"fastboot": "yunluo_in_global_images_OS1.0.6.0.ULYINXM_20241030.0000.00_14.0_in_8925d23cf9.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.ULYINXM": {
 					"os": "OS1.0.5.0.ULYINXM",
 					"android": "14.0",
 					"release": "2024-09-16",
 					"recovery": "miui_YUNLUOINGlobal_OS1.0.5.0.ULYINXM_a490c12722_14.0.zip",
-					"fastboot": "yunluo_in_global_images_OS1.0.5.0.ULYINXM_20240830.0000.00_14.0_in_c2c26b41cd.tgz"
+					"fastboot": "yunluo_in_global_images_OS1.0.5.0.ULYINXM_20240830.0000.00_14.0_in_c2c26b41cd.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.4.0.ULYINXM": {
 					"os": "OS1.0.4.0.ULYINXM",
 					"android": "14.0",
 					"release": "2024-06-18",
 					"recovery": "miui_YUNLUOINGlobal_OS1.0.4.0.ULYINXM_b6bc85a376_14.0.zip",
-					"fastboot": "yunluo_in_global_images_OS1.0.4.0.ULYINXM_20240607.0000.00_14.0_in_cd443bca85.tgz"
+					"fastboot": "yunluo_in_global_images_OS1.0.4.0.ULYINXM_20240607.0000.00_14.0_in_cd443bca85.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.2.0.ULYINXM": {
 					"os": "OS1.0.2.0.ULYINXM",
 					"android": "14.0",
 					"release": "2024-04-11",
 					"recovery": "miui_YUNLUOINGlobal_OS1.0.2.0.ULYINXM_afbf5632e0_14.0.zip",
-					"fastboot": "yunluo_in_global_images_OS1.0.2.0.ULYINXM_20240320.0000.00_14.0_in_f85fbb1b59.tgz"
+					"fastboot": "yunluo_in_global_images_OS1.0.2.0.ULYINXM_20240320.0000.00_14.0_in_f85fbb1b59.tgz",
+					"aspatch": "2024-03-01"
 				},
 				"OS1.0.1.0.ULYINXM": {
 					"os": "OS1.0.1.0.ULYINXM",
 					"android": "14.0",
 					"release": "2024-02-23",
 					"recovery": "miui_YUNLUOINGlobal_OS1.0.1.0.ULYINXM_cf81adb252_14.0.zip",
-					"fastboot": "yunluo_in_global_images_OS1.0.1.0.ULYINXM_20240126.0000.00_14.0_in_f1e475ee4c.tgz"
+					"fastboot": "yunluo_in_global_images_OS1.0.1.0.ULYINXM_20240126.0000.00_14.0_in_f1e475ee4c.tgz",
+					"aspatch": "2024-01-01"
 				}
 			}
 		},
@@ -487,6 +530,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -503,35 +547,40 @@
 					"android": "14.0",
 					"release": "2025-08-18",
 					"recovery": "miui_YUNLUOIDGlobal_OS1.0.8.0.ULYIDXM_920ef51c8b_14.0.zip",
-					"fastboot": "yunluo_id_global_images_OS1.0.8.0.ULYIDXM_20250730.0000.00_14.0_id_2a3cd70ceb.tgz"
+					"fastboot": "yunluo_id_global_images_OS1.0.8.0.ULYIDXM_20250730.0000.00_14.0_id_2a3cd70ceb.tgz",
+					"aspatch": "2025-06-01"
 				},
 				"OS1.0.4.0.ULYIDXM": {
 					"os": "OS1.0.4.0.ULYIDXM",
 					"android": "14.0",
 					"release": "2025-02-10",
 					"recovery": "miui_YUNLUOIDGlobal_OS1.0.4.0.ULYIDXM_08ba0b5cd3_14.0.zip",
-					"fastboot": "yunluo_id_global_images_OS1.0.4.0.ULYIDXM_20250113.0000.00_14.0_id_aad9161d1b.tgz"
+					"fastboot": "yunluo_id_global_images_OS1.0.4.0.ULYIDXM_20250113.0000.00_14.0_id_aad9161d1b.tgz",
+					"aspatch": "2025-01-01"
 				},
 				"OS1.0.3.0.ULYIDXM": {
 					"os": "OS1.0.3.0.ULYIDXM",
 					"android": "14.0",
 					"release": "2024-11-18",
 					"recovery": "miui_YUNLUOIDGlobal_OS1.0.3.0.ULYIDXM_9b4916c4e3_14.0.zip",
-					"fastboot": "yunluo_id_global_images_OS1.0.3.0.ULYIDXM_20241030.0000.00_14.0_id_6dd74928eb.tgz"
+					"fastboot": "yunluo_id_global_images_OS1.0.3.0.ULYIDXM_20241030.0000.00_14.0_id_6dd74928eb.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.2.0.ULYIDXM": {
 					"os": "OS1.0.2.0.ULYIDXM",
 					"android": "14.0",
 					"release": "2024-09-16",
 					"recovery": "miui_YUNLUOIDGlobal_OS1.0.2.0.ULYIDXM_aa4711e39c_14.0.zip",
-					"fastboot": "yunluo_id_global_images_OS1.0.2.0.ULYIDXM_20240830.0000.00_14.0_id_a38775b18d.tgz"
+					"fastboot": "yunluo_id_global_images_OS1.0.2.0.ULYIDXM_20240830.0000.00_14.0_id_a38775b18d.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.ULYIDXM": {
 					"os": "OS1.0.1.0.ULYIDXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_YUNLUOIDGlobal_OS1.0.1.0.ULYIDXM_cc72bebcf0_14.0.zip",
-					"fastboot": "yunluo_id_global_images_OS1.0.1.0.ULYIDXM_20240220.0000.00_14.0_id_edf4cd95cc.tgz"
+					"fastboot": "yunluo_id_global_images_OS1.0.1.0.ULYIDXM_20240220.0000.00_14.0_id_edf4cd95cc.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -553,6 +602,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -569,35 +619,40 @@
 					"android": "14.0",
 					"release": "2025-03-29",
 					"recovery": "miui_YUNLUOTRGlobal_OS1.0.8.0.ULYTRXM_182ff49c73_14.0.zip",
-					"fastboot": "yunluo_tr_global_images_OS1.0.8.0.ULYTRXM_20250314.0000.00_14.0_tr_a87a54c7ba.tgz"
+					"fastboot": "yunluo_tr_global_images_OS1.0.8.0.ULYTRXM_20250314.0000.00_14.0_tr_a87a54c7ba.tgz",
+					"aspatch": "2025-03-01"
 				},
 				"OS1.0.6.0.ULYTRXM": {
 					"os": "OS1.0.6.0.ULYTRXM",
 					"android": "14.0",
 					"release": "2024-12-23",
 					"recovery": "miui_YUNLUOTRGlobal_OS1.0.6.0.ULYTRXM_40942c1304_14.0.zip",
-					"fastboot": "yunluo_tr_global_images_OS1.0.6.0.ULYTRXM_20241203.0000.00_14.0_tr_f21a0564c3.tgz"
+					"fastboot": "yunluo_tr_global_images_OS1.0.6.0.ULYTRXM_20241203.0000.00_14.0_tr_f21a0564c3.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.ULYTRXM": {
 					"os": "OS1.0.5.0.ULYTRXM",
 					"android": "14.0",
 					"release": "2024-10-21",
 					"recovery": "miui_YUNLUOTRGlobal_OS1.0.5.0.ULYTRXM_3ee4547cc9_14.0.zip",
-					"fastboot": "yunluo_tr_global_images_OS1.0.5.0.ULYTRXM_20240930.0000.00_14.0_tr_df39355fd4.tgz"
+					"fastboot": "yunluo_tr_global_images_OS1.0.5.0.ULYTRXM_20240930.0000.00_14.0_tr_df39355fd4.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.2.0.ULYTRXM": {
 					"os": "OS1.0.2.0.ULYTRXM",
 					"android": "14.0",
 					"release": "2024-08-19",
 					"recovery": "miui_YUNLUOTRGlobal_OS1.0.2.0.ULYTRXM_9db41eab92_14.0.zip",
-					"fastboot": "yunluo_tr_global_images_OS1.0.2.0.ULYTRXM_20240805.0000.00_14.0_tr_321ac4eda4.tgz"
+					"fastboot": "yunluo_tr_global_images_OS1.0.2.0.ULYTRXM_20240805.0000.00_14.0_tr_321ac4eda4.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.ULYTRXM": {
 					"os": "OS1.0.1.0.ULYTRXM",
 					"android": "14.0",
 					"release": "2024-04-01",
 					"recovery": "miui_YUNLUOTRGlobal_OS1.0.1.0.ULYTRXM_6462e2617e_14.0.zip",
-					"fastboot": "yunluo_tr_global_images_OS1.0.1.0.ULYTRXM_20240226.0000.00_14.0_tr_77abe55fda.tgz"
+					"fastboot": "yunluo_tr_global_images_OS1.0.1.0.ULYTRXM_20240226.0000.00_14.0_tr_77abe55fda.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		}

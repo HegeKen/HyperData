@@ -33,6 +33,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -49,42 +50,48 @@
 					"android": "13.0",
 					"release": "2025-01-02",
 					"recovery": "miui_FLEURTWGlobal_OS1.0.8.0.TKETWXM_76a0cc7db0_13.0.zip",
-					"fastboot": "fleur_tw_global_images_OS1.0.8.0.TKETWXM_20241212.0000.00_13.0_tw_b82c414fc9.tgz"
+					"fastboot": "fleur_tw_global_images_OS1.0.8.0.TKETWXM_20241212.0000.00_13.0_tw_b82c414fc9.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.TKETWXM": {
 					"os": "OS1.0.7.0.TKETWXM",
 					"android": "13.0",
 					"release": "2024-12-10",
 					"recovery": "miui_FLEURTWGlobal_OS1.0.7.0.TKETWXM_935b9b4279_13.0.zip",
-					"fastboot": "fleur_tw_global_images_OS1.0.7.0.TKETWXM_20241126.0000.00_13.0_tw_7285124875.tgz"
+					"fastboot": "fleur_tw_global_images_OS1.0.7.0.TKETWXM_20241126.0000.00_13.0_tw_7285124875.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.TKETWXM": {
 					"os": "OS1.0.5.0.TKETWXM",
 					"android": "13.0",
 					"release": "2024-10-28",
 					"recovery": "miui_FLEURTWGlobal_OS1.0.5.0.TKETWXM_1b6ccc0906_13.0.zip",
-					"fastboot": "fleur_tw_global_images_OS1.0.5.0.TKETWXM_20241014.0000.00_13.0_tw_ea725ab6d8.tgz"
+					"fastboot": "fleur_tw_global_images_OS1.0.5.0.TKETWXM_20241014.0000.00_13.0_tw_ea725ab6d8.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.TKETWXM": {
 					"os": "OS1.0.4.0.TKETWXM",
 					"android": "13.0",
 					"release": "2024-09-24",
 					"recovery": "miui_FLEURTWGlobal_OS1.0.4.0.TKETWXM_9bf9e848ce_13.0.zip",
-					"fastboot": "fleur_tw_global_images_OS1.0.4.0.TKETWXM_20240905.0000.00_13.0_tw_9d2037ebf5.tgz"
+					"fastboot": "fleur_tw_global_images_OS1.0.4.0.TKETWXM_20240905.0000.00_13.0_tw_9d2037ebf5.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.TKETWXM": {
 					"os": "OS1.0.3.0.TKETWXM",
 					"android": "13.0",
 					"release": "2024-08-30",
 					"recovery": "miui_FLEURTWGlobal_OS1.0.3.0.TKETWXM_c744d7f6ae_13.0.zip",
-					"fastboot": "fleur_tw_global_images_OS1.0.3.0.TKETWXM_20240815.0000.00_13.0_tw_38b7686a30.tgz"
+					"fastboot": "fleur_tw_global_images_OS1.0.3.0.TKETWXM_20240815.0000.00_13.0_tw_38b7686a30.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.TKETWXM": {
 					"os": "OS1.0.1.0.TKETWXM",
 					"android": "13.0",
 					"release": "2024-04-25",
 					"recovery": "miui_FLEURTWGlobal_OS1.0.1.0.TKETWXM_06a1840d2d_13.0.zip",
-					"fastboot": "fleur_tw_global_images_OS1.0.1.0.TKETWXM_20240322.0000.00_13.0_tw_4710db110a.tgz"
+					"fastboot": "fleur_tw_global_images_OS1.0.1.0.TKETWXM_20240322.0000.00_13.0_tw_4710db110a.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -106,6 +113,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -122,56 +130,64 @@
 					"android": "13.0",
 					"release": "2024-12-19",
 					"recovery": "miui_FLEURGlobal_OS1.0.9.0.TKEMIXM_a89e6e55df_13.0.zip",
-					"fastboot": "fleur_global_images_OS1.0.9.0.TKEMIXM_20241206.0000.00_13.0_global_3030fec09a.tgz"
+					"fastboot": "fleur_global_images_OS1.0.9.0.TKEMIXM_20241206.0000.00_13.0_global_3030fec09a.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.8.0.TKEMIXM": {
 					"os": "OS1.0.8.0.TKEMIXM",
 					"android": "13.0",
 					"release": "2024-12-02",
 					"recovery": "miui_FLEURGlobal_OS1.0.8.0.TKEMIXM_24c4d478e0_13.0.zip",
-					"fastboot": "fleur_global_images_OS1.0.8.0.TKEMIXM_20241122.0000.00_13.0_global_3c2dfbeac5.tgz"
+					"fastboot": "fleur_global_images_OS1.0.8.0.TKEMIXM_20241122.0000.00_13.0_global_3c2dfbeac5.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.6.0.TKEMIXM": {
 					"os": "OS1.0.6.0.TKEMIXM",
 					"android": "13.0",
 					"release": "2024-11-18",
 					"recovery": "miui_FLEURGlobal_OS1.0.6.0.TKEMIXM_61c9e012b7_13.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.TKEMIXM": {
 					"os": "OS1.0.5.0.TKEMIXM",
 					"android": "13.0",
 					"release": "2024-10-21",
 					"recovery": "miui_FLEURGlobal_OS1.0.5.0.TKEMIXM_254e9cebb7_13.0.zip",
-					"fastboot": "fleur_global_images_OS1.0.5.0.TKEMIXM_20241008.0000.00_13.0_global_77444031ee.tgz"
+					"fastboot": "fleur_global_images_OS1.0.5.0.TKEMIXM_20241008.0000.00_13.0_global_77444031ee.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.TKEMIXM": {
 					"os": "OS1.0.4.0.TKEMIXM",
 					"android": "13.0",
 					"release": "2024-09-29",
 					"recovery": "miui_FLEURGlobal_OS1.0.4.0.TKEMIXM_9be67b3d5a_13.0.zip",
-					"fastboot": "fleur_global_images_OS1.0.4.0.TKEMIXM_20240904.0000.00_13.0_global_84ad364ac4.tgz"
+					"fastboot": "fleur_global_images_OS1.0.4.0.TKEMIXM_20240904.0000.00_13.0_global_84ad364ac4.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.TKEMIXM": {
 					"os": "OS1.0.3.0.TKEMIXM",
 					"android": "13.0",
 					"release": "2024-08-31",
 					"recovery": "miui_FLEURGlobal_OS1.0.3.0.TKEMIXM_e4752579c3_13.0.zip",
-					"fastboot": "fleur_global_images_OS1.0.3.0.TKEMIXM_20240821.0000.00_13.0_global_2d19d9de47.tgz"
+					"fastboot": "fleur_global_images_OS1.0.3.0.TKEMIXM_20240821.0000.00_13.0_global_2d19d9de47.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.TKEMIXM": {
 					"os": "OS1.0.2.0.TKEMIXM",
 					"android": "13.0",
 					"release": "2024-07-08",
 					"recovery": "miui_FLEURGlobal_OS1.0.2.0.TKEMIXM_7f019090a0_13.0.zip",
-					"fastboot": "fleur_global_images_OS1.0.2.0.TKEMIXM_20240606.0000.00_13.0_global_75dc533ac1.tgz"
+					"fastboot": "fleur_global_images_OS1.0.2.0.TKEMIXM_20240606.0000.00_13.0_global_75dc533ac1.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.TKEMIXM": {
 					"os": "OS1.0.1.0.TKEMIXM",
 					"android": "13.0",
 					"release": "2024-02-22",
 					"recovery": "miui_FLEURGlobal_OS1.0.1.0.TKEMIXM_c5fa5ce2d9_13.0.zip",
-					"fastboot": "fleur_global_images_OS1.0.1.0.TKEMIXM_20240220.0000.00_13.0_global_b7004d72a7.tgz"
+					"fastboot": "fleur_global_images_OS1.0.1.0.TKEMIXM_20240220.0000.00_13.0_global_b7004d72a7.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -193,6 +209,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -209,63 +226,72 @@
 					"android": "13.0",
 					"release": "2024-12-21",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.11.0.TKEEUXM_e853850afb_13.0.zip",
-					"fastboot": "fleur_eea_global_images_OS1.0.11.0.TKEEUXM_20241206.0000.00_13.0_eea_de47177368.tgz"
+					"fastboot": "fleur_eea_global_images_OS1.0.11.0.TKEEUXM_20241206.0000.00_13.0_eea_de47177368.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.10.0.TKEEUXM": {
 					"os": "OS1.0.10.0.TKEEUXM",
 					"android": "13.0",
 					"release": "2024-12-02",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.10.0.TKEEUXM_33d88913ae_13.0.zip",
-					"fastboot": "fleur_eea_global_images_OS1.0.10.0.TKEEUXM_20241122.0000.00_13.0_eea_bc62ef8ca2.tgz"
+					"fastboot": "fleur_eea_global_images_OS1.0.10.0.TKEEUXM_20241122.0000.00_13.0_eea_bc62ef8ca2.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.8.0.TKEEUXM": {
 					"os": "OS1.0.8.0.TKEEUXM",
 					"android": "13.0",
 					"release": "2024-11-18",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.8.0.TKEEUXM_16dcb96b00_13.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.TKEEUXM": {
 					"os": "OS1.0.7.0.TKEEUXM",
 					"android": "13.0",
 					"release": "2024-10-15",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.7.0.TKEEUXM_ab77aebfdc_13.0.zip",
-					"fastboot": "fleur_eea_global_images_OS1.0.7.0.TKEEUXM_20241008.0000.00_13.0_eea_d126a5da48.tgz"
+					"fastboot": "fleur_eea_global_images_OS1.0.7.0.TKEEUXM_20241008.0000.00_13.0_eea_d126a5da48.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.TKEEUXM": {
 					"os": "OS1.0.6.0.TKEEUXM",
 					"android": "13.0",
 					"release": "2024-09-10",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.6.0.TKEEUXM_73f8e4da37_13.0.zip",
-					"fastboot": "fleur_eea_global_images_OS1.0.6.0.TKEEUXM_20240901.0000.00_13.0_eea_c22e1101fd.tgz"
+					"fastboot": "fleur_eea_global_images_OS1.0.6.0.TKEEUXM_20240901.0000.00_13.0_eea_c22e1101fd.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.TKEEUXM": {
 					"os": "OS1.0.5.0.TKEEUXM",
 					"android": "13.0",
 					"release": "2024-08-25",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.5.0.TKEEUXM_a2eac29e3b_13.0.zip",
-					"fastboot": "fleur_eea_global_images_OS1.0.5.0.TKEEUXM_20240813.0000.00_13.0_eea_9c0da03655.tgz"
+					"fastboot": "fleur_eea_global_images_OS1.0.5.0.TKEEUXM_20240813.0000.00_13.0_eea_9c0da03655.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.3.0.TKEEUXM": {
 					"os": "OS1.0.3.0.TKEEUXM",
 					"android": "13.0",
 					"release": "2024-08-13",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.3.0.TKEEUXM_ecec006b43_13.0.zip",
-					"fastboot": "fleur_eea_global_images_OS1.0.3.0.TKEEUXM_20240801.0000.00_13.0_eea_c9341196e8.tgz"
+					"fastboot": "fleur_eea_global_images_OS1.0.3.0.TKEEUXM_20240801.0000.00_13.0_eea_c9341196e8.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.TKEEUXM": {
 					"os": "OS1.0.2.0.TKEEUXM",
 					"android": "13.0",
 					"release": "2024-07-19",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.2.0.TKEEUXM_7e516cdea6_13.0.zip",
-					"fastboot": "fleur_eea_global_images_OS1.0.2.0.TKEEUXM_20240624.0000.00_13.0_eea_47faf958e3.tgz"
+					"fastboot": "fleur_eea_global_images_OS1.0.2.0.TKEEUXM_20240624.0000.00_13.0_eea_47faf958e3.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.TKEEUXM": {
 					"os": "OS1.0.1.0.TKEEUXM",
 					"android": "13.0",
 					"release": "2024-03-25",
 					"recovery": "miui_FLEUREEAGlobal_OS1.0.1.0.TKEEUXM_836659370c_13.0.zip",
-					"fastboot": "fleur_eea_global_images_OS1.0.1.0.TKEEUXM_20240228.0000.00_13.0_eea_d86b34e3e3.tgz"
+					"fastboot": "fleur_eea_global_images_OS1.0.1.0.TKEEUXM_20240228.0000.00_13.0_eea_d86b34e3e3.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -287,6 +313,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -303,35 +330,40 @@
 					"android": "13.0",
 					"release": "2025-06-09",
 					"recovery": "miui_FLEUREEAORGlobal_OS1.0.6.0.TKEEUOR_ade8c18c0c_13.0.zip",
-					"fastboot": "fleur_eea_or_global_images_OS1.0.6.0.TKEEUOR_20250506.0000.00_13.0_eea_orange_17f3bd84c7.tgz"
+					"fastboot": "fleur_eea_or_global_images_OS1.0.6.0.TKEEUOR_20250506.0000.00_13.0_eea_orange_17f3bd84c7.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.5.0.TKEEUOR": {
 					"os": "OS1.0.5.0.TKEEUOR",
 					"android": "13.0",
 					"release": "2025-03-28",
 					"recovery": "miui_FLEUREEAORGlobal_OS1.0.5.0.TKEEUOR_86a5dda1c6_13.0.zip",
-					"fastboot": "fleur_eea_or_global_images_OS1.0.5.0.TKEEUOR_20250223.0000.00_13.0_eea_orange_a67b0b38c7.tgz"
+					"fastboot": "fleur_eea_or_global_images_OS1.0.5.0.TKEEUOR_20250223.0000.00_13.0_eea_orange_a67b0b38c7.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.4.0.TKEEUOR": {
 					"os": "OS1.0.4.0.TKEEUOR",
 					"android": "13.0",
 					"release": "2024-12-24",
 					"recovery": "miui_FLEUREEAORGlobal_OS1.0.4.0.TKEEUOR_1a4f33f0ff_13.0.zip",
-					"fastboot": "fleur_eea_or_global_images_OS1.0.4.0.TKEEUOR_20241213.0000.00_13.0_eea_orange_3500887694.tgz"
+					"fastboot": "fleur_eea_or_global_images_OS1.0.4.0.TKEEUOR_20241213.0000.00_13.0_eea_orange_3500887694.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.2.0.TKEEUOR": {
 					"os": "OS1.0.2.0.TKEEUOR",
 					"android": "13.0",
 					"release": "2024-10-29",
 					"recovery": "miui_FLEUREEAORGlobal_OS1.0.2.0.TKEEUOR_6d18bf797e_13.0.zip",
-					"fastboot": "fleur_eea_or_global_images_OS1.0.2.0.TKEEUOR_20241010.0000.00_13.0_eea_orange_d61fd297b3.tgz"
+					"fastboot": "fleur_eea_or_global_images_OS1.0.2.0.TKEEUOR_20241010.0000.00_13.0_eea_orange_d61fd297b3.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.1.0.TKEEUOR": {
 					"os": "OS1.0.1.0.TKEEUOR",
 					"android": "13.0",
 					"release": "2024-08-23",
 					"recovery": "miui_FLEUREEAORGlobal_OS1.0.1.0.TKEEUOR_21217574d4_13.0.zip",
-					"fastboot": "fleur_eea_or_global_images_OS1.0.1.0.TKEEUOR_20240809.0000.00_13.0_eea_orange_1ee8965a1d.tgz"
+					"fastboot": "fleur_eea_or_global_images_OS1.0.1.0.TKEEUOR_20240809.0000.00_13.0_eea_orange_1ee8965a1d.tgz",
+					"aspatch": "2024-08-01"
 				}
 			}
 		},
@@ -353,6 +385,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -369,21 +402,24 @@
 					"android": "13.0",
 					"release": "2025-05-13",
 					"recovery": "miui_FLEUREEABYGlobal_OS1.0.6.0.TKEEUBY_4594459542_13.0.zip",
-					"fastboot": "fleur_eea_by_global_images_OS1.0.6.0.TKEEUBY_20250407.0000.00_13.0_eea_by_138cb77e09.tgz"
+					"fastboot": "fleur_eea_by_global_images_OS1.0.6.0.TKEEUBY_20250407.0000.00_13.0_eea_by_138cb77e09.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.5.0.TKEEUBY": {
 					"os": "OS1.0.5.0.TKEEUBY",
 					"android": "13.0",
 					"release": "2024-12-04",
 					"recovery": "miui_FLEUREEABYGlobal_OS1.0.5.0.TKEEUBY_55b664cb08_13.0.zip",
-					"fastboot": "fleur_eea_by_global_images_OS1.0.5.0.TKEEUBY_20241125.0000.00_13.0_eea_by_e532a95ab1.tgz"
+					"fastboot": "fleur_eea_by_global_images_OS1.0.5.0.TKEEUBY_20241125.0000.00_13.0_eea_by_e532a95ab1.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.2.0.TKEEUBY": {
 					"os": "OS1.0.2.0.TKEEUBY",
 					"android": "13.0",
 					"release": "2024-10-29",
 					"recovery": "miui_FLEUREEABYGlobal_OS1.0.2.0.TKEEUBY_10876c872c_13.0.zip",
-					"fastboot": "fleur_eea_by_global_images_OS1.0.2.0.TKEEUBY_20240911.0000.00_13.0_eea_by_b778df5e33.tgz"
+					"fastboot": "fleur_eea_by_global_images_OS1.0.2.0.TKEEUBY_20240911.0000.00_13.0_eea_by_b778df5e33.tgz",
+					"aspatch": "2024-09-01"
 				}
 			}
 		},
@@ -405,6 +441,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -421,7 +458,8 @@
 					"android": "13.0",
 					"release": "2025-01-21",
 					"recovery": "miui_FLEUREEASFGlobal_OS1.0.1.0.TKEEUSF_3d54164862_13.0.zip",
-					"fastboot": "fleur_eea_sf_global_images_OS1.0.1.0.TKEEUSF_20241012.0000.00_13.0_eea_sfr_e547b7f9eb.tgz"
+					"fastboot": "fleur_eea_sf_global_images_OS1.0.1.0.TKEEUSF_20241012.0000.00_13.0_eea_sfr_e547b7f9eb.tgz",
+					"aspatch": "2024-10-01"
 				}
 			}
 		},
@@ -443,6 +481,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -459,49 +498,56 @@
 					"android": "13.0",
 					"release": "2025-01-02",
 					"recovery": "miui_FLEURRUGlobal_OS1.0.8.0.TKERUXM_1d1d6a164e_13.0.zip",
-					"fastboot": "fleur_ru_global_images_OS1.0.8.0.TKERUXM_20241212.0000.00_13.0_ru_4abc01fcb6.tgz"
+					"fastboot": "fleur_ru_global_images_OS1.0.8.0.TKERUXM_20241212.0000.00_13.0_ru_4abc01fcb6.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.TKERUXM": {
 					"os": "OS1.0.7.0.TKERUXM",
 					"android": "13.0",
 					"release": "2024-12-09",
 					"recovery": "miui_FLEURRUGlobal_OS1.0.7.0.TKERUXM_f3bbb4b389_13.0.zip",
-					"fastboot": "fleur_ru_global_images_OS1.0.7.0.TKERUXM_20241126.0000.00_13.0_ru_4781c7f96e.tgz"
+					"fastboot": "fleur_ru_global_images_OS1.0.7.0.TKERUXM_20241126.0000.00_13.0_ru_4781c7f96e.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.TKERUXM": {
 					"os": "OS1.0.5.0.TKERUXM",
 					"android": "13.0",
 					"release": "2024-10-28",
 					"recovery": "miui_FLEURRUGlobal_OS1.0.5.0.TKERUXM_4b15413dc5_13.0.zip",
-					"fastboot": "fleur_ru_global_images_OS1.0.5.0.TKERUXM_20241014.0000.00_13.0_ru_dec83257c1.tgz"
+					"fastboot": "fleur_ru_global_images_OS1.0.5.0.TKERUXM_20241014.0000.00_13.0_ru_dec83257c1.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.TKERUXM": {
 					"os": "OS1.0.4.0.TKERUXM",
 					"android": "13.0",
 					"release": "2024-09-22",
 					"recovery": "miui_FLEURRUGlobal_OS1.0.4.0.TKERUXM_4f911cf5f6_13.0.zip",
-					"fastboot": "fleur_ru_global_images_OS1.0.4.0.TKERUXM_20240905.0000.00_13.0_ru_81e252f231.tgz"
+					"fastboot": "fleur_ru_global_images_OS1.0.4.0.TKERUXM_20240905.0000.00_13.0_ru_81e252f231.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.TKERUXM": {
 					"os": "OS1.0.3.0.TKERUXM",
 					"android": "13.0",
 					"release": "2024-08-18",
 					"recovery": "miui_FLEURRUGlobal_OS1.0.3.0.TKERUXM_cec0c43e85_13.0.zip",
-					"fastboot": "fleur_ru_global_images_OS1.0.3.0.TKERUXM_20240808.0000.00_13.0_ru_8503a0f3a0.tgz"
+					"fastboot": "fleur_ru_global_images_OS1.0.3.0.TKERUXM_20240808.0000.00_13.0_ru_8503a0f3a0.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.TKERUXM": {
 					"os": "OS1.0.2.0.TKERUXM",
 					"android": "13.0",
 					"release": "2024-07-29",
 					"recovery": "miui_FLEURRUGlobal_OS1.0.2.0.TKERUXM_648d688576_13.0.zip",
-					"fastboot": "fleur_ru_global_images_OS1.0.2.0.TKERUXM_20240714.0000.00_13.0_ru_7e26749634.tgz"
+					"fastboot": "fleur_ru_global_images_OS1.0.2.0.TKERUXM_20240714.0000.00_13.0_ru_7e26749634.tgz",
+					"aspatch": "2024-06-01"
 				},
 				"OS1.0.1.0.TKERUXM": {
 					"os": "OS1.0.1.0.TKERUXM",
 					"android": "13.0",
 					"release": "2024-04-11",
 					"recovery": "miui_FLEURRUGlobal_OS1.0.1.0.TKERUXM_8972de4c8f_13.0.zip",
-					"fastboot": "fleur_ru_global_images_OS1.0.1.0.TKERUXM_20240319.0000.00_13.0_ru_0c97e018f4.tgz"
+					"fastboot": "fleur_ru_global_images_OS1.0.1.0.TKERUXM_20240319.0000.00_13.0_ru_0c97e018f4.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -523,6 +569,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -539,49 +586,56 @@
 					"android": "13.0",
 					"release": "2024-12-27",
 					"recovery": "miui_FLEURINGlobal_OS1.0.10.0.TKEINXM_8680e64fbe_13.0.zip",
-					"fastboot": "fleur_in_global_images_OS1.0.10.0.TKEINXM_20241210.0000.00_13.0_in_5f45222a3c.tgz"
+					"fastboot": "fleur_in_global_images_OS1.0.10.0.TKEINXM_20241210.0000.00_13.0_in_5f45222a3c.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.9.0.TKEINXM": {
 					"os": "OS1.0.9.0.TKEINXM",
 					"android": "13.0",
 					"release": "2024-12-09",
 					"recovery": "miui_FLEURINGlobal_OS1.0.9.0.TKEINXM_7a6ca3f463_13.0.zip",
-					"fastboot": "fleur_in_global_images_OS1.0.9.0.TKEINXM_20241125.0000.00_13.0_in_4fca9f7a67.tgz"
+					"fastboot": "fleur_in_global_images_OS1.0.9.0.TKEINXM_20241125.0000.00_13.0_in_4fca9f7a67.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.7.0.TKEINXM": {
 					"os": "OS1.0.7.0.TKEINXM",
 					"android": "13.0",
 					"release": "2024-10-21",
 					"recovery": "miui_FLEURINGlobal_OS1.0.7.0.TKEINXM_a9cffe7eb6_13.0.zip",
-					"fastboot": "fleur_in_global_images_OS1.0.7.0.TKEINXM_20241009.0000.00_13.0_in_e38ae2794c.tgz"
+					"fastboot": "fleur_in_global_images_OS1.0.7.0.TKEINXM_20241009.0000.00_13.0_in_e38ae2794c.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.6.0.TKEINXM": {
 					"os": "OS1.0.6.0.TKEINXM",
 					"android": "13.0",
 					"release": "2024-09-14",
 					"recovery": "miui_FLEURINGlobal_OS1.0.6.0.TKEINXM_db8a7cd2ff_13.0.zip",
-					"fastboot": "fleur_in_global_images_OS1.0.6.0.TKEINXM_20240904.0000.00_13.0_in_354e46b876.tgz"
+					"fastboot": "fleur_in_global_images_OS1.0.6.0.TKEINXM_20240904.0000.00_13.0_in_354e46b876.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.5.0.TKEINXM": {
 					"os": "OS1.0.5.0.TKEINXM",
 					"android": "13.0",
 					"release": "2024-09-05",
 					"recovery": "miui_FLEURINGlobal_OS1.0.5.0.TKEINXM_01903caa6d_13.0.zip",
-					"fastboot": "fleur_in_global_images_OS1.0.5.0.TKEINXM_20240827.0000.00_13.0_in_3cbeee88b4.tgz"
+					"fastboot": "fleur_in_global_images_OS1.0.5.0.TKEINXM_20240827.0000.00_13.0_in_3cbeee88b4.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.4.0.TKEINXM": {
 					"os": "OS1.0.4.0.TKEINXM",
 					"android": "13.0",
 					"release": "2024-08-08",
 					"recovery": "miui_FLEURINGlobal_OS1.0.4.0.TKEINXM_2fdfef46a4_13.0.zip",
-					"fastboot": "fleur_in_global_images_OS1.0.4.0.TKEINXM_20240730.0000.00_13.0_in_8214b5db66.tgz"
+					"fastboot": "fleur_in_global_images_OS1.0.4.0.TKEINXM_20240730.0000.00_13.0_in_8214b5db66.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.2.0.TKEINXM": {
 					"os": "OS1.0.2.0.TKEINXM",
 					"android": "13.0",
 					"release": "2024-04-02",
 					"recovery": "miui_FLEURINGlobal_OS1.0.2.0.TKEINXM_f8f80a48fb_13.0.zip",
-					"fastboot": "fleur_in_global_images_OS1.0.2.0.TKEINXM_20240311.0000.00_13.0_in_ebfd9b19ba.tgz"
+					"fastboot": "fleur_in_global_images_OS1.0.2.0.TKEINXM_20240311.0000.00_13.0_in_ebfd9b19ba.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -603,6 +657,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -619,42 +674,48 @@
 					"android": "13.0",
 					"release": "2024-12-27",
 					"recovery": "miui_FLEURIDGlobal_OS1.0.8.0.TKEIDXM_7afce78083_13.0.zip",
-					"fastboot": "fleur_id_global_images_OS1.0.8.0.TKEIDXM_20241210.0000.00_13.0_id_99581a553d.tgz"
+					"fastboot": "fleur_id_global_images_OS1.0.8.0.TKEIDXM_20241210.0000.00_13.0_id_99581a553d.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.TKEIDXM": {
 					"os": "OS1.0.7.0.TKEIDXM",
 					"android": "13.0",
 					"release": "2024-12-13",
 					"recovery": "miui_FLEURIDGlobal_OS1.0.7.0.TKEIDXM_2c8a3281cc_13.0.zip",
-					"fastboot": "fleur_id_global_images_OS1.0.7.0.TKEIDXM_20241125.0000.00_13.0_id_b334428d0c.tgz"
+					"fastboot": "fleur_id_global_images_OS1.0.7.0.TKEIDXM_20241125.0000.00_13.0_id_b334428d0c.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.TKEIDXM": {
 					"os": "OS1.0.5.0.TKEIDXM",
 					"android": "13.0",
 					"release": "2024-10-28",
 					"recovery": "miui_FLEURIDGlobal_OS1.0.5.0.TKEIDXM_34b7bb6306_13.0.zip",
-					"fastboot": "fleur_id_global_images_OS1.0.5.0.TKEIDXM_20241009.0000.00_13.0_id_7d74c966df.tgz"
+					"fastboot": "fleur_id_global_images_OS1.0.5.0.TKEIDXM_20241009.0000.00_13.0_id_7d74c966df.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.TKEIDXM": {
 					"os": "OS1.0.4.0.TKEIDXM",
 					"android": "13.0",
 					"release": "2024-09-23",
 					"recovery": "miui_FLEURIDGlobal_OS1.0.4.0.TKEIDXM_a2fafc2c64_13.0.zip",
-					"fastboot": "fleur_id_global_images_OS1.0.4.0.TKEIDXM_20240905.0000.00_13.0_id_14c877103b.tgz"
+					"fastboot": "fleur_id_global_images_OS1.0.4.0.TKEIDXM_20240905.0000.00_13.0_id_14c877103b.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.TKEIDXM": {
 					"os": "OS1.0.3.0.TKEIDXM",
 					"android": "13.0",
 					"release": "2024-08-19",
 					"recovery": "miui_FLEURIDGlobal_OS1.0.3.0.TKEIDXM_354997c7b4_13.0.zip",
-					"fastboot": "fleur_id_global_images_OS1.0.3.0.TKEIDXM_20240801.0000.00_13.0_id_6478bb4e29.tgz"
+					"fastboot": "fleur_id_global_images_OS1.0.3.0.TKEIDXM_20240801.0000.00_13.0_id_6478bb4e29.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.TKEIDXM": {
 					"os": "OS1.0.1.0.TKEIDXM",
 					"android": "13.0",
 					"release": "2024-04-19",
 					"recovery": "miui_FLEURIDGlobal_OS1.0.1.0.TKEIDXM_d8f63b1ceb_13.0.zip",
-					"fastboot": "fleur_id_global_images_OS1.0.1.0.TKEIDXM_20240314.0000.00_13.0_id_97e4228d74.tgz"
+					"fastboot": "fleur_id_global_images_OS1.0.1.0.TKEIDXM_20240314.0000.00_13.0_id_97e4228d74.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -676,6 +737,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -692,42 +754,48 @@
 					"android": "13.0",
 					"release": "2025-01-02",
 					"recovery": "miui_FLEURTRGlobal_OS1.0.8.0.TKETRXM_2957bc3e4e_13.0.zip",
-					"fastboot": "fleur_tr_global_images_OS1.0.8.0.TKETRXM_20241212.0000.00_13.0_tr_f3f4886526.tgz"
+					"fastboot": "fleur_tr_global_images_OS1.0.8.0.TKETRXM_20241212.0000.00_13.0_tr_f3f4886526.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.7.0.TKETRXM": {
 					"os": "OS1.0.7.0.TKETRXM",
 					"android": "13.0",
 					"release": "2024-12-13",
 					"recovery": "miui_FLEURTRGlobal_OS1.0.7.0.TKETRXM_03e6319a7a_13.0.zip",
-					"fastboot": "fleur_tr_global_images_OS1.0.7.0.TKETRXM_20241126.0000.00_13.0_tr_ee00eb06cb.tgz"
+					"fastboot": "fleur_tr_global_images_OS1.0.7.0.TKETRXM_20241126.0000.00_13.0_tr_ee00eb06cb.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.5.0.TKETRXM": {
 					"os": "OS1.0.5.0.TKETRXM",
 					"android": "13.0",
 					"release": "2024-10-28",
 					"recovery": "miui_FLEURTRGlobal_OS1.0.5.0.TKETRXM_244307bc50_13.0.zip",
-					"fastboot": "fleur_tr_global_images_OS1.0.5.0.TKETRXM_20241014.0000.00_13.0_tr_ae6cad6516.tgz"
+					"fastboot": "fleur_tr_global_images_OS1.0.5.0.TKETRXM_20241014.0000.00_13.0_tr_ae6cad6516.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.4.0.TKETRXM": {
 					"os": "OS1.0.4.0.TKETRXM",
 					"android": "13.0",
 					"release": "2024-09-24",
 					"recovery": "miui_FLEURTRGlobal_OS1.0.4.0.TKETRXM_093280dddf_13.0.zip",
-					"fastboot": "fleur_tr_global_images_OS1.0.4.0.TKETRXM_20240905.0000.00_13.0_tr_396e7194cd.tgz"
+					"fastboot": "fleur_tr_global_images_OS1.0.4.0.TKETRXM_20240905.0000.00_13.0_tr_396e7194cd.tgz",
+					"aspatch": "2024-09-01"
 				},
 				"OS1.0.3.0.TKETRXM": {
 					"os": "OS1.0.3.0.TKETRXM",
 					"android": "13.0",
 					"release": "2024-08-19",
 					"recovery": "miui_FLEURTRGlobal_OS1.0.3.0.TKETRXM_bf691f85da_13.0.zip",
-					"fastboot": "fleur_tr_global_images_OS1.0.3.0.TKETRXM_20240808.0000.00_13.0_tr_5cee21a6b8.tgz"
+					"fastboot": "fleur_tr_global_images_OS1.0.3.0.TKETRXM_20240808.0000.00_13.0_tr_5cee21a6b8.tgz",
+					"aspatch": "2024-07-01"
 				},
 				"OS1.0.1.0.TKETRXM": {
 					"os": "OS1.0.1.0.TKETRXM",
 					"android": "13.0",
 					"release": "2024-04-11",
 					"recovery": "miui_FLEURTRGlobal_OS1.0.1.0.TKETRXM_6027cb7d41_13.0.zip",
-					"fastboot": "fleur_tr_global_images_OS1.0.1.0.TKETRXM_20240319.0000.00_13.0_tr_d34f1c94cc.tgz"
+					"fastboot": "fleur_tr_global_images_OS1.0.1.0.TKETRXM_20240319.0000.00_13.0_tr_d34f1c94cc.tgz",
+					"aspatch": "2024-02-01"
 				}
 			}
 		},
@@ -749,6 +817,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -765,7 +834,8 @@
 					"android": "13.0",
 					"release": "2024-10-29",
 					"recovery": "miui_FLEURCLENGlobal_OS1.0.1.0.TKECLEN_c630d76838_13.0.zip",
-					"fastboot": "fleur_cl_en_global_images_OS1.0.1.0.TKECLEN_20240711.0000.00_13.0_cl_en_0f1200f9f7.tgz"
+					"fastboot": "fleur_cl_en_global_images_OS1.0.1.0.TKECLEN_20240711.0000.00_13.0_cl_en_0f1200f9f7.tgz",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -787,6 +857,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -803,35 +874,40 @@
 					"android": "13.0",
 					"release": "2025-03-10",
 					"recovery": "miui_FLEURMXATGlobal_OS1.0.6.0.TKEMXAT_38bc7c39d8_13.0.zip",
-					"fastboot": "fleur_mx_at_global_images_OS1.0.6.0.TKEMXAT_20250216.0000.00_13.0_mx_at_bac9a65ac2.tgz"
+					"fastboot": "fleur_mx_at_global_images_OS1.0.6.0.TKEMXAT_20250216.0000.00_13.0_mx_at_bac9a65ac2.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.5.0.TKEMXAT": {
 					"os": "OS1.0.5.0.TKEMXAT",
 					"android": "13.0",
 					"release": "2024-12-27",
 					"recovery": "miui_FLEURMXATGlobal_OS1.0.5.0.TKEMXAT_302fb657fa_13.0.zip",
-					"fastboot": "fleur_mx_at_global_images_OS1.0.5.0.TKEMXAT_20241209.0000.00_13.0_mx_at_e0cea5f0cc.tgz"
+					"fastboot": "fleur_mx_at_global_images_OS1.0.5.0.TKEMXAT_20241209.0000.00_13.0_mx_at_e0cea5f0cc.tgz",
+					"aspatch": "2024-12-01"
 				},
 				"OS1.0.3.0.TKEMXAT": {
 					"os": "OS1.0.3.0.TKEMXAT",
 					"android": "13.0",
 					"release": "2024-11-22",
 					"recovery": "miui_FLEURMXATGlobal_OS1.0.3.0.TKEMXAT_4e9df94a8d_13.0.zip",
-					"fastboot": "fleur_mx_at_global_images_OS1.0.3.0.TKEMXAT_20241016.0000.00_13.0_mx_at_994ca1d941.tgz"
+					"fastboot": "fleur_mx_at_global_images_OS1.0.3.0.TKEMXAT_20241016.0000.00_13.0_mx_at_994ca1d941.tgz",
+					"aspatch": "2024-10-01"
 				},
 				"OS1.0.2.0.TKEMXAT": {
 					"os": "OS1.0.2.0.TKEMXAT",
 					"android": "13.0",
 					"release": "2024-09-26",
 					"recovery": "miui_FLEURMXATGlobal_OS1.0.2.0.TKEMXAT_828a99f1fb_13.0.zip",
-					"fastboot": "fleur_mx_at_global_images_OS1.0.2.0.TKEMXAT_20240813.0000.00_13.0_mx_at_c941def7b8.tgz"
+					"fastboot": "fleur_mx_at_global_images_OS1.0.2.0.TKEMXAT_20240813.0000.00_13.0_mx_at_c941def7b8.tgz",
+					"aspatch": "2024-08-01"
 				},
 				"OS1.0.1.0.TKEMXAT": {
 					"os": "OS1.0.1.0.TKEMXAT",
 					"android": "13.0",
 					"release": "2024-07-23",
 					"recovery": "miui_FLEURMXATGlobal_OS1.0.1.0.TKEMXAT_2ea39b1251_13.0.zip",
-					"fastboot": ""
+					"fastboot": "",
+					"aspatch": "2024-06-01"
 				}
 			}
 		},
@@ -853,6 +929,7 @@
 				"os",
 				"android",
 				"release",
+				"aspatch",
 				"recovery",
 				"fastboot"
 			],
@@ -869,28 +946,32 @@
 					"android": "13.0",
 					"release": "2025-05-09",
 					"recovery": "miui_FLEURLMMSGlobal_OS1.0.4.0.TKELMMS_72073ab860_13.0.zip",
-					"fastboot": "fleur_lm_ms_global_images_OS1.0.4.0.TKELMMS_20250421.0000.00_13.0_lm_movistar_8c630da3dd.tgz"
+					"fastboot": "fleur_lm_ms_global_images_OS1.0.4.0.TKELMMS_20250421.0000.00_13.0_lm_movistar_8c630da3dd.tgz",
+					"aspatch": "2025-04-01"
 				},
 				"OS1.0.3.0.TKELMMS": {
 					"os": "OS1.0.3.0.TKELMMS",
 					"android": "13.0",
 					"release": "2025-03-14",
 					"recovery": "miui_FLEURLMMSGlobal_OS1.0.3.0.TKELMMS_e0dd545455_13.0.zip",
-					"fastboot": "fleur_lm_ms_global_images_OS1.0.3.0.TKELMMS_20250226.0000.00_13.0_lm_movistar_2d49f4d93a.tgz"
+					"fastboot": "fleur_lm_ms_global_images_OS1.0.3.0.TKELMMS_20250226.0000.00_13.0_lm_movistar_2d49f4d93a.tgz",
+					"aspatch": "2025-02-01"
 				},
 				"OS1.0.2.0.TKELMMS": {
 					"os": "OS1.0.2.0.TKELMMS",
 					"android": "13.0",
 					"release": "2024-12-26",
 					"recovery": "miui_FLEURLMMSGlobal_OS1.0.2.0.TKELMMS_dc847e1cb9_13.0.zip",
-					"fastboot": "fleur_lm_ms_global_images_OS1.0.2.0.TKELMMS_20241126.0000.00_13.0_lm_movistar_ef740aaa6f.tgz"
+					"fastboot": "fleur_lm_ms_global_images_OS1.0.2.0.TKELMMS_20241126.0000.00_13.0_lm_movistar_ef740aaa6f.tgz",
+					"aspatch": "2024-11-01"
 				},
 				"OS1.0.1.0.TKELMMS": {
 					"os": "OS1.0.1.0.TKELMMS",
 					"android": "13.0",
 					"release": "2024-11-04",
 					"recovery": "miui_FLEURLMMSGlobal_OS1.0.1.0.TKELMMS_08922e553c_13.0.zip",
-					"fastboot": "fleur_lm_ms_global_images_OS1.0.1.0.TKELMMS_20240809.0000.00_13.0_lm_movistar_1b689eec48.tgz"
+					"fastboot": "fleur_lm_ms_global_images_OS1.0.1.0.TKELMMS_20240809.0000.00_13.0_lm_movistar_1b689eec48.tgz",
+					"aspatch": "2024-08-01"
 				}
 			}
 		}

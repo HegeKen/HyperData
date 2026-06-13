@@ -3050,10 +3050,28 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 			elif data[1] == None or data[1] == "":
 				if filetype == "recovery":
 					beta_date = stringify(get_time(form_url(filename,version)))
-					upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s WHERE id = %s" % (stringify(filename),beta_date, stringify(data[0]))
+					# 尝试获取安全补丁日期
+					aspatch = stringify(None)
+					try:
+						url = form_url(filename, version)
+						asp = get_security_patch_from_ota_url(url, 'recovery', timeout=30)
+						if asp:
+							aspatch = stringify(asp)
+					except:
+						pass
+					upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s, aspatch = %s WHERE id = %s" % (stringify(filename),beta_date, aspatch, stringify(data[0]))
 				else:
 					public_date = stringify(get_time(form_url(filename,version)))
-					upd_sql = f"UPDATE roms SET {d_check} = %s, public_date = %s WHERE id = %s" % (stringify(filename),public_date, stringify(data[0]))
+					# 尝试获取安全补丁日期
+					aspatch = stringify(None)
+					try:
+						url = form_url(filename, version)
+						asp = get_security_patch_from_ota_url(url, 'recovery', timeout=30)
+						if asp:
+							aspatch = stringify(asp)
+					except:
+						pass
+					upd_sql = f"UPDATE roms SET {d_check} = %s, public_date = %s, aspatch = %s WHERE id = %s" % (stringify(filename),public_date, aspatch, stringify(data[0]))
 				db_job_latest(upd_sql)
 			else:
 				if data[2] == None or data[2] == "":
@@ -3075,11 +3093,29 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 		release_date = stringify(date.today().strftime("%Y-%m-%d"))
 		if filetype == "fastboot":
 			public_date = stringify(get_time(form_url(filename,version)))
-			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,insdate, public_date) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (stringify(zone), stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, insdate, public_date)
+			# 尝试获取安全补丁日期
+			aspatch = stringify(None)
+			try:
+				url = form_url(filename, version)
+				asp = get_security_patch_from_ota_url(url, 'recovery', timeout=30)
+				if asp:
+					aspatch = stringify(asp)
+			except:
+				pass
+			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,insdate, public_date, aspatch) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (stringify(zone), stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, insdate, public_date, aspatch)
 		else:
 			beta_date = stringify(get_time(form_url(filename,version)))
 			public_date = stringify(None)
-			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,beta_date,insdate) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (stringify(zone), stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, beta_date, insdate)
+			# 尝试获取安全补丁日期
+			aspatch = stringify(None)
+			try:
+				url = form_url(filename, version)
+				asp = get_security_patch_from_ota_url(url, 'recovery', timeout=30)
+				if asp:
+					aspatch = stringify(asp)
+			except:
+				pass
+			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,beta_date,insdate, aspatch) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (stringify(zone), stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, beta_date, insdate, aspatch)
 		db_job_latest(ins_sql)
 
 
@@ -3223,6 +3259,16 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 		if filetype == "recovery" and rom_data.get("recovery") != filename:
 			rom_data["recovery"] = filename
 			updated = True
+			# 同时更新安全补丁日期
+			table_fields = target_branch.get("table", [])
+			if "aspatch" in table_fields:
+				try:
+					url = form_url(filename, version)
+					aspatch = get_security_patch_from_ota_url(url, 'recovery', timeout=30)
+					if aspatch:
+						rom_data["aspatch"] = aspatch
+				except Exception as e:
+					print(f"更新安全补丁日期失败: {e}")
 		elif filetype == "fastboot":
 			# 检查是否为运营商定制版
 			if "chinatelecom" in filename:
@@ -3265,6 +3311,15 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 	# 根据文件类型和运商标识设置相应字段
 	if filetype == "recovery":
 		new_rom["recovery"] = filename
+		# 尝试获取安卓安全补丁日期
+		if "aspatch" in table_fields:
+			try:
+				url = form_url(filename, version)
+				aspatch = get_security_patch_from_ota_url(url, 'recovery', timeout=30)
+				if aspatch:
+					new_rom["aspatch"] = aspatch
+			except Exception as e:
+				print(f"获取安全补丁日期失败: {e}")
 	elif filetype == "fastboot":
 		# 检查是否为运营商定制版
 		if "chinatelecom" in filename:
@@ -3965,9 +4020,20 @@ def read_long_le(data, offset):
     return struct.unpack('<Q', data[offset:offset+8])[0]
 
 
-def locate_central_directory(bytes_data, file_length):
-    """定位 ZIP 中央目录的位置和大小"""
-    search_start_pos = len(bytes_data) - ENDHDR
+def locate_central_directory(bytes_data, file_length, eocd_pos_in_buffer=None):
+    """定位 ZIP 中央目录的位置和大小
+    
+    Args:
+        bytes_data: 从文件末尾读取的字节数据
+        file_length: 完整文件长度
+        eocd_pos_in_buffer: EOCD 在 buffer 中的位置，如果为 None 则自动搜索
+    """
+    # 如果没有指定 EOCD 位置，自动搜索
+    if eocd_pos_in_buffer is None:
+        search_start_pos = len(bytes_data) - ENDHDR
+    else:
+        search_start_pos = eocd_pos_in_buffer
+    
     cen_size = -1
     cen_offset = -1
 
@@ -4227,9 +4293,10 @@ def extract_ota_metadata(url,filetype, timeout=20):
 							return None
 
 					# 2. 使用阶梯策略读取文件末尾字节查找中央目录
-					# 从小到大逐步增加读取大小，直到找到 EOCD 签名
-					step_sizes = [4*1024, 16*1024, 64*1024, 256*1024, 512*1024]  # 4KB, 16KB, 64KB, 256KB, 512KB
-					end_bytes = None
+					# 从小到大逐步增加读取大小，直到找到 EOCD 签名并成功定位中央目录
+					step_sizes = [4*1024, 16*1024, 64*1024, 256*1024, 512*1024, 1*1024*1024, 5*1024*1024]  # 4KB, 16KB, 64KB, 256KB, 512KB, 1MB, 5MB
+					cen_offset = -1
+					cen_size = -1
 					actual_end_size = 0
 					
 					for step_size in step_sizes:
@@ -4244,26 +4311,30 @@ def extract_ota_metadata(url,filetype, timeout=20):
 							# 检查是否包含 EOCD 签名
 							ENDSIG = 0x06054b50  # "PK\005\006"
 							pos = len(end_bytes) - ENDHDR
+							eocd_pos_in_buffer = -1
 							while pos >= 0:
 									if pos + 4 <= len(end_bytes):
 											sig = int.from_bytes(end_bytes[pos:pos+4], 'little')
 											if sig == ENDSIG:
-													# 找到 EOCD 签名，缩短 end_bytes 到当前位置
-													end_bytes = end_bytes[pos:]
+													eocd_pos_in_buffer = pos
 													print(f"读取 ZIP 末尾 {actual_end_size} 字节成功找到 EOCD")
 													break
 									pos -= 1
-							else:
-									# 未找到签名，继续尝试更大的读取大小
+							
+							if eocd_pos_in_buffer < 0:
+									# 未找到 EOCD 签名，继续尝试更大的读取大小
 									continue
-							break  # 找到签名，退出循环
+							
+							# 3. 定位中央目录（使用完整 buffer，不截断，以便 ZIP64 定位器在 EOCD 之前）
+							cen_offset, cen_size = locate_central_directory(end_bytes, file_length, eocd_pos_in_buffer)
+							if cen_offset >= 0 and cen_size > 0 and cen_offset + cen_size <= file_length:
+									# 成功定位中央目录，退出循环
+									break
+							else:
+									# 找到 EOCD 但无法定位中央目录，继续尝试更大的读取大小
+									print(f"找到 EOCD 但无法定位中央目录，尝试读取更多字节")
+									continue
 					
-					if end_bytes is None or len(end_bytes) == 0:
-							print("无法读取文件末尾字节")
-							return None
-
-					# 3. 定位中央目录
-					cen_offset, cen_size = locate_central_directory(end_bytes, file_length)
 					if cen_offset < 0 or cen_size <= 0 or cen_offset + cen_size > file_length:
 							print("无法定位中央目录")
 							return None
