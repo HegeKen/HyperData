@@ -3875,35 +3875,35 @@ def entryChecker(data,device):
 									print(device, bname, os_version, "卡刷包的信息不对")
 									check.append(1)
 							# 确定线刷包字段的起始索引
-					# 如果 table 包含 aspatch，则 recovery 在索引 4，线刷包从索引 5 开始
-					# 如果 table 不包含 aspatch，则 recovery 在索引 3，线刷包从索引 4 开始
-					fastboot_start_index = 4
-					if "aspatch" in menu_items:
-						fastboot_start_index = 5
-					
-					for i in range(fastboot_start_index, len(menu_items)):
-						if rom_info[menu_items[i]] != "" and rom_info[menu_items[i]].endswith(".tgz") and os_version in rom_info[menu_items[i]]:
-							i = 0
-						elif rom_info[menu_items[i]] == "":
-							i = 0
-						else:
-							if "Developer" in branch['name']['en']:
-								i = 0
-							else:
-								print(device, bname, os_version, "线刷包的信息不对")
-								check.append(1)
-							if os_version != rom_info['os']:
-								print(device, bname, os_version, "版本号不匹配")
-								check.append(1)
-							else:
-								if branch['ep'] == "1" or branch['branchtag'] == 'X':
-									i = 0
+							# 如果 table 包含 aspatch，则 recovery 在索引 4，线刷包从索引 5 开始
+							# 如果 table 不包含 aspatch，则 recovery 在索引 3，线刷包从索引 4 开始
+							fastboot_start_index = 4
+							if "aspatch" in menu_items:
+								fastboot_start_index = 5
+							
+							for j in range(fastboot_start_index, len(menu_items)):
+								if rom_info[menu_items[j]] != "" and rom_info[menu_items[j]].endswith(".tgz") and os_version in rom_info[menu_items[j]]:
+									j = 0
+								elif rom_info[menu_items[j]] == "":
+									j = 0
 								else:
-									if code+branch['tag'] in os_version:
-										i = 0
+									if "Developer" in branch['name']['en']:
+										j = 0
 									else:
+										print(device, bname, os_version, "线刷包的信息不对")
+										check.append(1)
+									if os_version != rom_info['os']:
 										print(device, bname, os_version, "版本号不匹配")
 										check.append(1)
+									else:
+										if branch['ep'] == "1" or branch['branchtag'] == 'X':
+											j = 0
+										else:
+											if code+branch['tag'] in os_version:
+												j = 0
+											else:
+												print(device, bname, os_version, "版本号不匹配")
+												check.append(1)
 			else:
 				print(device, "机型与分支不配，请核实", branch['branchCode'])
 				check.append(1)
@@ -4144,7 +4144,6 @@ def read_range(url, start, size, timeout=20):
         response = session.get(url, headers=headers, timeout=timeout)
         
         if response.status_code not in (200, 206):
-            print(f"HTTP 请求失败，状态码: {response.status_code}")
             return None
         
         content = response.content
@@ -4185,7 +4184,6 @@ def get_file_length(url, timeout=20):
         
         # 检查是否返回错误状态码
         if response.status_code >= 400:
-            print(f"HEAD 请求失败，状态码: {response.status_code}")
             return None
         
         if 'Content-Range' in response.headers:
@@ -4319,7 +4317,6 @@ def extract_ota_metadata(url,filetype, timeout=20):
 											sig = int.from_bytes(end_bytes[pos:pos+4], 'little')
 											if sig == ENDSIG:
 													eocd_pos_in_buffer = pos
-													print(f"读取 ZIP 末尾 {actual_end_size} 字节成功找到 EOCD")
 													break
 									pos -= 1
 							
