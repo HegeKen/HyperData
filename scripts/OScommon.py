@@ -3062,16 +3062,7 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 					upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s, aspatch = %s WHERE id = %s" % (stringify(filename),beta_date, aspatch, stringify(data[0]))
 				else:
 					public_date = stringify(get_time(form_url(filename,version)))
-					# 尝试获取安全补丁日期
-					aspatch = stringify(None)
-					try:
-						url = form_url(filename, version)
-						asp = get_security_patch_from_ota_url(url, 'recovery', timeout=30)
-						if asp:
-							aspatch = stringify(asp)
-					except:
-						pass
-					upd_sql = f"UPDATE roms SET {d_check} = %s, public_date = %s, aspatch = %s WHERE id = %s" % (stringify(filename),public_date, aspatch, stringify(data[0]))
+					upd_sql = f"UPDATE roms SET {d_check} = %s, public_date = %s WHERE id = %s" % (stringify(filename),public_date, stringify(data[0]))
 				db_job_latest(upd_sql)
 			else:
 				if data[2] == None or data[2] == "":
