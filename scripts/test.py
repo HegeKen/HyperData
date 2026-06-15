@@ -9,7 +9,7 @@ def fill_security_patches():
   import time
 
   # 1. 获取所有需要处理的记录
-  sql = "SELECT id, device, code, version, recovery FROM roms WHERE recovery IS NOT NULL AND type='MIUI' AND recovery != '' AND aspatch IS NULL ORDER BY id DESC"
+  sql = "SELECT id, device, code, version, recovery FROM roms WHERE recovery IS NOT NULL AND recovery != '' AND aspatch IS NULL ORDER BY id DESC"
   rows = OScommon.db_job(sql)
   if not rows:
     print("没有需要处理的记录")
