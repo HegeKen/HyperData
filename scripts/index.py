@@ -1,10 +1,13 @@
 import OScommon
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import json
 import os
 import config
 import time
 from sys import platform
+
+# 获取东八区时区
+tz = timezone(timedelta(hours=8))
 
 weekday_number = datetime.now().date().weekday()
 weeks = []
@@ -12,14 +15,27 @@ weeks = []
 for i in range(0 - weekday_number , 7):
 	day = datetime.now().date() + timedelta(days=i)
 	weeks.append(day.strftime("%Y-%m-%d"))
+
+# 获取当前东八区时间
+current_time = datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
+
 updates = {
 	"recent":{
-		"time": "",
+		"time": current_time,
 		"developing": "no",
 		"roms": {}
 	}
 }
-updates["recent"]['time'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# 更新 index.json 的 time 字段
+index_json_path = 'public/data/index.json'
+if os.path.exists(index_json_path):
+	with open(index_json_path, 'r', encoding='utf-8') as f:
+		index_data = json.load(f)
+	index_data["recent"]["time"] = current_time
+	with open(index_json_path, 'w', encoding='utf-8') as f:
+		json.dump(index_data, f, ensure_ascii=False, indent=2)
+	print(f"✓ 已更新 index.json 的 time 字段: {current_time}")
 
 errors = []
 for device in OScommon.currentStable:
