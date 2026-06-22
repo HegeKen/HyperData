@@ -3491,7 +3491,6 @@ def checkExist(filename):
 					
 					with open(device_file, 'w', encoding='utf-8', newline='\n') as f:
 						json.dump(devdata, f, ensure_ascii=False, indent=indent, sort_keys=False)
-						f.write('\n')
 					
 				except Exception as e:
 					print(f"✗ 处理 JSON 文件时出错: {e}")
