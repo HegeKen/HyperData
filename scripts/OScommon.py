@@ -3355,7 +3355,89 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 	
 	# 直接替换 roms，保持有序字典的特性
 	devdata["branches"][target_branch_idx]["roms"] = dict(ordered_roms)
+	
+	# 更新 index.json
+	update_index_json(device, devdata, version)
+	
 	return devdata
+
+
+def update_index_json(device, devdata, version):
+	"""更新 index.json 文件，添加新ROM信息"""
+	index_path = get_platform_path("public/data/index.json")
+	
+	# 获取当前东八区日期
+	tz = timezone(timedelta(hours=8))
+	current_date = datetime.now(tz).strftime("%Y-%m-%d")
+	
+	# 检查分支是否是需要显示的稳定版
+	branchtag = None
+	branch_name_en = ""
+	for branch in devdata.get("branches", []):
+		if "roms" in branch and version in branch["roms"]:
+			branchtag = branch.get("branchtag", "")
+			branch_name_en = branch.get("name", {}).get("en", "")
+			break
+	
+	# 跳过开发版、每日构建版、政企版和演示机版
+	if branchtag == 'X' or branchtag == 'D' or "Enterprise" in branch_name_en or "EP" in branch_name_en or "Demo" in branch_name_en:
+		return
+	
+	try:
+		# 读取现有的 index.json
+		if os.path.exists(index_path):
+			with open(index_path, 'r', encoding='utf-8') as f:
+				updates = json.load(f)
+		else:
+			updates = {
+				"recent": {
+					"time": "",
+					"developing": "no",
+					"roms": {}
+				}
+			}
+		
+		# 更新时间（东八区）
+		updates["recent"]['time'] = datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
+		
+		# 获取设备信息
+		device_code = devdata.get('device', device)
+		name = {
+			"zh": devdata.get('name', {}).get('zh', device),
+			"en": devdata.get('name', {}).get('en', device)
+		}
+		
+		# 如果设备已存在，添加新版本
+		if device_code in updates["recent"]['roms']:
+			existing_versions = updates["recent"]['roms'][device_code].get("versions", [])
+			# 检查版本是否已存在
+			version_exists = any(v.get("version") == version for v in existing_versions)
+			if not version_exists:
+				existing_versions.append({
+					"insert_date": current_date,
+					"version": version
+				})
+		else:
+			# 创建新设备条目
+			updates["recent"]['roms'][device_code] = {
+				"name": name,
+				"versions": [{
+					"insert_date": current_date,
+					"version": version
+				}]
+			}
+		
+		# 写入更新后的 index.json
+		with open(index_path, 'w', encoding='utf-8') as f:
+			json.dump(updates, f, ensure_ascii=False, indent=2)
+		
+		print(f"✓ 已更新 index.json: {device_code} - {version} (insert_date: {current_date})")
+		
+	except Exception as e:
+		print(f"更新 index.json 失败: {e}")
+		import traceback
+		traceback.print_exc()
+
 
 def checkExist(filename):
 	newroms_file = get_platform_path("public/data/scripts/NewROMs.txt")

@@ -21,36 +21,6 @@ updates = {
 }
 updates["recent"]['time'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-for device in OScommon.order:
-	devdata = OScommon.localData(device)
-	code = devdata['device']
-	name = {
-		"zh": devdata['name']['zh'],
-		"en": devdata['name']['en']
-	}
-	device_roms = []
-	for num in range(len(devdata['branches'])):
-		tag = devdata['branches'][num]['idtag']
-		branch = devdata["branches"][num]["branchtag"]
-		if branch == 'X' or branch == 'D' or "Enterprise" in devdata["branches"][num]["name"]["en"] or "EP" in devdata["branches"][num]["name"]["en"] or "Demo" in devdata["branches"][num]["name"]["en"]:
-			i = 0
-		else:
-			for rom_version, rom_data in devdata['branches'][num]['roms'].items():
-				if rom_data['release'] in weeks:
-					device_roms.append({
-						"release_date": rom_data['release'],
-						"version": rom_data['os']
-					})
-	
-	if device_roms:
-		updates["recent"]['roms'][code] = {
-			"name": name,
-			"versions": device_roms
-		}
-
-with open('public/data/index.json', 'w', encoding='utf-8') as f:
-	json.dump(updates, f, ensure_ascii=False, indent=2)
-f.close()
 errors = []
 for device in OScommon.currentStable:
 	if device in OScommon.unreleased:
