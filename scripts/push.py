@@ -1,10 +1,14 @@
 import OScommon
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import json
 import os
 import config
 import time
 from sys import platform
+
+# 获取当前东八区日期
+tz = timezone(timedelta(hours=8))
+current_date = datetime.now(tz).strftime("%Y-%m-%d")
 
 weekday_number = datetime.now().date().weekday()
 weeks = []
@@ -19,7 +23,7 @@ updates = {
 		"roms": []
 	}
 }
-updates["recent"]['time'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+updates["recent"]['time'] = datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
 
 for device in OScommon.order:
 	devdata = OScommon.localData(device)
@@ -36,7 +40,7 @@ for device in OScommon.order:
 			i = 0
 		else:
 			for rom in devdata['branches'][num]['roms']:
-				if devdata['branches'][num]['roms'][rom]['release'] in weeks:
+				if current_date in weeks:
 					if devdata['branches'][num]['roms'][rom]['os'] in roms:
 						i = 0
 					else:
