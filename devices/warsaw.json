@@ -1,0 +1,62 @@
+{
+  "device": "warsaw",
+  "name": {
+    "zh": "REDMI K90 至尊版",
+    "en": "REDMI K90 Ultra"
+  },
+  "code": "",
+  "suppports": [
+    "OS3.0"
+  ],
+  "android": [
+    "16.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "warsaw",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI K90 至尊版",
+        "en": "REDMI K90 Ultra"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "": {
+          "os": "",
+          "android": "15.0",
+          "release": "",
+          "recovery": "",
+          "fastboot": "",
+          "ctelecom": ""
+        }
+      }
+    }
+  ]
+}
