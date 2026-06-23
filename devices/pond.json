@@ -1,0 +1,53 @@
+{
+  "device": "pond",
+  "name": {
+    "zh": "REDMI 17C",
+    "en": "REDMI 17C"
+  },
+  "code": "",
+  "suppports": [
+    "OS3.0"
+  ],
+  "android": [
+    "16.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "pond",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI 17C",
+        "en": "REDMI 17C"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {}
+    }
+  ]
+}

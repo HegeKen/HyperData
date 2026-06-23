@@ -172,8 +172,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['warsaw', 'suiren', 'zephyr', 'coral']
-currentStable = ['chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew', 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
+unreleased = ['pond', 'warsaw', 'suiren', 'zephyr', 'coral']
+currentStable = ['pond', 'warsaw', 'chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew', 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou',  'spring', 'lapis', 'kunzite',
 								 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
@@ -752,6 +752,7 @@ flags = {
 	"moon_tr_global":"moon",
 	"rodin_id_global":"rodin",
 	"goku_ep_stdee":"goku",
+	"pond":"pond",
 	"pond_global":"pond",
 	"flame":"flame",
 	"FLAME":"flame",
@@ -771,6 +772,7 @@ flags = {
 	"uke_tw_global":"uke",
 	"uke_eea_global":"uke",
 	"uke_global":"uke",
+	"arctic_tr_global": "arctic",
 	"xuanyuan_tw_global":"xuanyuan",
 	"xuanyuan_global":"xuanyuan",
 	"xuanyuan_dc_global":"xuanyuan",

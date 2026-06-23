@@ -345,6 +345,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "arctic_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI A7 Pro",
+				"en": "REDMI A7 Pro"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.2.0.WBVTRXM": {
+					"os": "OS3.0.2.0.WBVTRXM",
+					"android": "16.0",
+					"release": "2026-06-23",
+					"aspatch": "2026-05-01",
+					"recovery": "arctic_tr_global-ota_full-OS3.0.2.0.WBVTRXM-user-16.0-6668d2997b.zip",
+					"fastboot": "arctic_tr_global-images-OS3.0.2.0.WBVTRXM-user-20260518.0000.00-16.0-tr-7bb3762cd4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
 				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
 			},
