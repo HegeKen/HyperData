@@ -3429,6 +3429,20 @@ def update_index_json(device, devdata, version):
 				}]
 			}
 		
+		# 自动清理：剔除超过7天未更新的条目
+		keep_days = 7
+		cutoff_date = (datetime.now(tz) - timedelta(days=keep_days)).strftime("%Y-%m-%d")
+		devices_to_remove = []
+		for dev_code, dev_info in updates["recent"]['roms'].items():
+			versions = dev_info.get("versions", [])
+			filtered = [v for v in versions if v.get("insert_date", "") >= cutoff_date]
+			if filtered:
+				updates["recent"]['roms'][dev_code]["versions"] = filtered
+			else:
+				devices_to_remove.append(dev_code)
+		for dev_code in devices_to_remove:
+			del updates["recent"]['roms'][dev_code]
+		
 		# 写入更新后的 index.json
 		with open(index_path, 'w', encoding='utf-8') as f:
 			json.dump(updates, f, ensure_ascii=False, indent=2)
