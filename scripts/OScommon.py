@@ -3443,6 +3443,18 @@ def update_index_json(device, devdata, version):
 		for dev_code in devices_to_remove:
 			del updates["recent"]['roms'][dev_code]
 		
+		# 按 insert_date 降序排列版本（更新日期越近的越靠前）
+		for dev_info in updates["recent"]['roms'].values():
+			dev_info["versions"].sort(key=lambda v: v.get("insert_date", ""), reverse=True)
+		
+		# 按设备最新版本日期降序排列机型（更新日期越近的机型越靠前）
+		sorted_devices = sorted(
+			updates["recent"]['roms'].items(),
+			key=lambda item: max(v.get("insert_date", "") for v in item[1].get("versions", [])),
+			reverse=True
+		)
+		updates["recent"]['roms'] = dict(sorted_devices)
+		
 		# 写入更新后的 index.json
 		with open(index_path, 'w', encoding='utf-8') as f:
 			json.dump(updates, f, ensure_ascii=False, indent=2)
