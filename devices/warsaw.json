@@ -1,62 +1,73 @@
 {
-  "device": "warsaw",
-  "name": {
-    "zh": "REDMI K90 至尊版",
-    "en": "REDMI K90 Ultra"
-  },
-  "code": "",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "warsaw",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI K90 至尊版",
-        "en": "REDMI K90 Ultra"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    }
-  ]
+	"device": "warsaw",
+	"name": {
+		"zh": "REDMI K90 至尊版",
+		"en": "REDMI K90 Ultra"
+	},
+	"code": "HP",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "warsaw",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K90 至尊版",
+				"en": "REDMI K90 Ultra"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.306.0.WHPCNXM": {
+					"os": "OS3.0.306.0.WHPCNXM",
+					"android": "16.0",
+					"release": "2026-06-30",
+					"aspatch": "2026-06-01",
+					"recovery": "warsaw-ota_full-OS3.0.306.0.WHPCNXM-user-16.0-8d5c1b6155.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS3.0.302.0.WHPCNXM": {
+					"os": "OS3.0.302.0.WHPCNXM",
+					"android": "16.0",
+					"release": "2026-06-30",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": "warsaw_images_OS3.0.302.0.WHPCNXM_20260611.0000.00_16.0_cn_chinatelecom_27676bd566.tgz"
+				}
+			}
+		}
+	]
 }

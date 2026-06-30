@@ -809,6 +809,8 @@ flags = {
 	"beryl_ep_stdee":"beryl",
 	"BERYLEPSTDEE":"beryl",
 	"dada":"dada",
+	"warsaw": "warsaw",
+	"warsaw_demo": "warsaw",
 	"haotian":"haotian",
 	"rothko_jp_global":"rothko",
 	"ROTHKOJPGlobal":"rothko",
