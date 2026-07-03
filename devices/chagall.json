@@ -55,8 +55,8 @@
 					"release": "2026-06-24",
 					"aspatch": "2026-06-01",
 					"recovery": "chagall-ota_full-OS3.0.307.0.WPTCNXM-user-16.0-3622d1f007.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "chagall_images_OS3.0.307.0.WPTCNXM_20260616.0000.00_16.0_cn_b85cf8edd4.tgz",
+					"ctelecom": "chagall_images_OS3.0.307.0.WPTCNXM_20260616.0000.00_16.0_cn_chinatelecom_fc89ec5a48.tgz"
 				},
 				"OS3.0.304.0.WPTCNXM": {
 					"os": "OS3.0.304.0.WPTCNXM",
@@ -297,6 +297,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.313.0.WPTEUXM": {
+					"os": "OS3.0.313.0.WPTEUXM",
+					"android": "16.0",
+					"release": "2026-06-30",
+					"aspatch": "2026-06-01",
+					"recovery": "chagall_eea_global-ota_full-OS3.0.313.0.WPTEUXM-user-16.0-ae6f63b2b2.zip",
+					"fastboot": ""
+				},
 				"OS3.0.312.0.WPTEUXM": {
 					"os": "OS3.0.312.0.WPTEUXM",
 					"android": "16.0",
