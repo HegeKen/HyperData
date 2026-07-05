@@ -1,8 +1,20 @@
 {
   "recent": {
-    "time": "2026-07-04 18:54:37",
+    "time": "2026-07-05 20:30:23",
     "developing": "no",
     "roms": {
+      "klee": {
+        "name": {
+          "zh": "REDMI Turbo 5 / POCO X8 Pro",
+          "en": "REDMI Turbo 5 / POCO X8 Pro"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-05",
+            "version": "OS3.0.304.0.WPJCNXM"
+          }
+        ]
+      },
       "peridot": {
         "name": {
           "zh": "Redmi Turbo 3 / POCO F6",
@@ -220,18 +232,6 @@
           {
             "insert_date": "2026-07-01",
             "version": "OS3.0.304.0.WPSJPXM"
-          },
-          {
-            "insert_date": "2026-06-27",
-            "version": "OS3.0.304.0.WPSTWXM"
-          },
-          {
-            "insert_date": "2026-06-27",
-            "version": "OS3.0.309.0.WPSEUXM"
-          },
-          {
-            "insert_date": "2026-06-27",
-            "version": "OS3.0.308.0.WPSCNXM"
           }
         ]
       },
@@ -608,18 +608,6 @@
           {
             "insert_date": "2026-06-29",
             "version": "OS3.0.315.0.WAACNXM"
-          }
-        ]
-      },
-      "zircon": {
-        "name": {
-          "zh": "Redmi Note 13 Pro+ 5G",
-          "en": "Redmi Note 13 Pro+ 5G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-06-27",
-            "version": "OS3.0.302.0.WNOMIDC"
           }
         ]
       }
