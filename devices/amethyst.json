@@ -509,7 +509,7 @@
 					"release": "2026-06-22",
 					"aspatch": "2026-06-01",
 					"recovery": "amethyst_global-ota_full-OS3.0.304.0.WOPMIXM-user-16.0-fcc1718184.zip",
-					"fastboot": ""
+					"fastboot": "amethyst_global_images_OS3.0.304.0.WOPMIXM_20260609.0000.00_16.0_global_693431a001.tgz"
 				},
 				"OS3.0.5.0.WOPMIXM": {
 					"os": "OS3.0.5.0.WOPMIXM",
@@ -767,6 +767,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WOPEUXM": {
+					"os": "OS3.0.304.0.WOPEUXM",
+					"android": "16.0",
+					"release": "2026-07-01",
+					"aspatch": "2026-06-01",
+					"recovery": "amethyst_eea_global-ota_full-OS3.0.304.0.WOPEUXM-user-16.0-375ff9a0ea.zip",
+					"fastboot": ""
+				},
 				"OS3.0.4.0.WOPEUXM": {
 					"os": "OS3.0.4.0.WOPEUXM",
 					"android": "16.0",

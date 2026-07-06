@@ -3422,8 +3422,8 @@ def update_index_json(device, devdata, version):
 				}]
 			}
 		
-		# 自动清理：剔除超过7天未更新的条目
-		keep_days = 7
+		# 自动清理：剔除超过6天未更新的条目
+		keep_days = 6
 		cutoff_date = (datetime.now(tz) - timedelta(days=keep_days)).strftime("%Y-%m-%d")
 		devices_to_remove = []
 		for dev_code, dev_info in updates["recent"]['roms'].items():
