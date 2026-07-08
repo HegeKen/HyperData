@@ -1,8 +1,36 @@
 {
   "recent": {
-    "time": "2026-07-07 21:22:00",
+    "time": "2026-07-08 20:03:08",
     "developing": "no",
     "roms": {
+      "dizi": {
+        "name": {
+          "zh": "Redmi Pad Pro / 哈利·波特版 / POCO Pad",
+          "en": "Redmi Pad Pro / Special Edition featuring Harry Potter / POCO Pad"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-08",
+            "version": "OS3.0.305.0.WNSCNXM"
+          }
+        ]
+      },
+      "breeze": {
+        "name": {
+          "zh": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G",
+          "en": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-08",
+            "version": "OS3.0.301.0.WNUINXM"
+          },
+          {
+            "insert_date": "2026-07-07",
+            "version": "OS3.0.302.0.WNUINXM"
+          }
+        ]
+      },
       "sweet_k6a": {
         "name": {
           "zh": "Redmi Note 12 Pro 4G",
@@ -44,10 +72,6 @@
           {
             "insert_date": "2026-07-07",
             "version": "OS3.0.301.0.WPMTWXM"
-          },
-          {
-            "insert_date": "2026-07-01",
-            "version": "OS3.0.301.0.WPMIDXM"
           }
         ]
       },
@@ -211,15 +235,31 @@
           }
         ]
       },
-      "breeze": {
+      "charoite": {
         "name": {
-          "zh": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G",
-          "en": "Redmi Note 13R 5G / Redmi 13 5G / POCO M6 Plus 5G"
+          "zh": "REDMI Note 15 Pro 4G",
+          "en": "REDMI Note 15 Pro 4G"
         },
         "versions": [
           {
             "insert_date": "2026-07-07",
-            "version": "OS3.0.302.0.WNUINXM"
+            "version": "OS3.0.1.0.WPFLMCR"
+          },
+          {
+            "insert_date": "2026-07-06",
+            "version": "OS3.0.301.0.WPFRUXM"
+          }
+        ]
+      },
+      "zircon": {
+        "name": {
+          "zh": "Redmi Note 13 Pro+ 5G",
+          "en": "Redmi Note 13 Pro+ 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-07",
+            "version": "OS3.0.302.0.WNOEUXM"
           }
         ]
       },
@@ -240,18 +280,6 @@
           {
             "insert_date": "2026-07-06",
             "version": "OS3.0.301.0.WPWTRXM"
-          }
-        ]
-      },
-      "charoite": {
-        "name": {
-          "zh": "REDMI Note 15 Pro 4G",
-          "en": "REDMI Note 15 Pro 4G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-07-06",
-            "version": "OS3.0.301.0.WPFRUXM"
           }
         ]
       },
@@ -508,14 +536,6 @@
           {
             "insert_date": "2026-07-02",
             "version": "OS3.0.307.0.WPSMIXM"
-          },
-          {
-            "insert_date": "2026-07-01",
-            "version": "OS3.0.305.0.WPSMIDC"
-          },
-          {
-            "insert_date": "2026-07-01",
-            "version": "OS3.0.304.0.WPSJPXM"
           }
         ]
       },
@@ -540,46 +560,6 @@
           {
             "insert_date": "2026-07-02",
             "version": "OS3.0.302.0.WOGTWXM"
-          }
-        ]
-      },
-      "warsaw": {
-        "name": {
-          "zh": "REDMI K90 至尊版",
-          "en": "REDMI K90 Ultra"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-07-01",
-            "version": "OS3.0.303.0.WHPCNXM"
-          },
-          {
-            "insert_date": "2026-07-01",
-            "version": "OS3.0.305.0.WHPCNXM"
-          }
-        ]
-      },
-      "obsidian": {
-        "name": {
-          "zh": "Redmi Note 14 Pro 4G",
-          "en": "Redmi Note 14 Pro 4G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-07-01",
-            "version": "OS3.0.301.0.WOFLMCR"
-          }
-        ]
-      },
-      "emerald": {
-        "name": {
-          "zh": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G",
-          "en": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-07-01",
-            "version": "OS3.0.301.0.WNFMXAT"
           }
         ]
       }
