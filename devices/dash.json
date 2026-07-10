@@ -49,6 +49,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.305.0.WPLCNXM": {
+					"os": "OS3.0.305.0.WPLCNXM",
+					"android": "16.0",
+					"release": "2026-07-09",
+					"aspatch": "2026-06-01",
+					"recovery": "dash-ota_full-OS3.0.305.0.WPLCNXM-user-16.0-b64527fea3.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS3.0.304.0.WPLCNXM": {
 					"os": "OS3.0.304.0.WPLCNXM",
 					"android": "16.0",
@@ -479,7 +488,7 @@
 					"release": "2026-06-26",
 					"aspatch": "2026-06-01",
 					"recovery": "dash_in_global-ota_full-OS3.0.302.0.WPLINXM-user-16.0-01ba058f20.zip",
-					"fastboot": ""
+					"fastboot": "dash_in_global_images_OS3.0.302.0.WPLINXM_20260616.0000.00_16.0_in_3e2f71cad7.tgz"
 				},
 				"OS3.0.301.0.WPLINXM": {
 					"os": "OS3.0.301.0.WPLINXM",
@@ -543,7 +552,7 @@
 					"release": "2026-06-26",
 					"aspatch": "2026-06-01",
 					"recovery": "dash_id_global-ota_full-OS3.0.302.0.WPLIDXM-user-16.0-1ae687f139.zip",
-					"fastboot": ""
+					"fastboot": "dash_id_global_images_OS3.0.302.0.WPLIDXM_20260616.0000.00_16.0_id_6c78b87f31.tgz"
 				},
 				"OS3.0.301.0.WPLIDXM": {
 					"os": "OS3.0.301.0.WPLIDXM",
