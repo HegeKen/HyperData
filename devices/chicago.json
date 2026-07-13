@@ -1,0 +1,53 @@
+{
+  "device": "chicago",
+  "name": {
+    "zh": "REDMI Note 17 Pro Max",
+    "en": "REDMI Note 17 Pro Max"
+  },
+  "code": "",
+  "suppports": [
+    "OS3.0"
+  ],
+  "android": [
+    "16.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "chicago",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 17 Pro Max",
+        "en": "REDMI Note 17 Pro Max"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {}
+    }
+  ]
+}

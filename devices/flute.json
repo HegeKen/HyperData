@@ -251,7 +251,7 @@
 					"release": "2026-06-30",
 					"aspatch": "2026-06-01",
 					"recovery": "flute_global-ota_full-OS3.0.301.0.WPWMIXM-user-16.0-83a84c28aa.zip",
-					"fastboot": ""
+					"fastboot": "flute_global_images_OS3.0.301.0.WPWMIXM_20260616.0000.00_16.0_global_45c3165dcd.tgz"
 				},
 				"OS3.0.4.0.WPWMIXM": {
 					"os": "OS3.0.4.0.WPWMIXM",
@@ -349,6 +349,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.302.0.WPWEUXM": {
+					"os": "OS3.0.302.0.WPWEUXM",
+					"android": "16.0",
+					"release": "2026-07-09",
+					"aspatch": "2026-07-01",
+					"recovery": "flute_eea_global-ota_full-OS3.0.302.0.WPWEUXM-user-16.0-a0aa1956d3.zip",
+					"fastboot": ""
+				},
 				"OS3.0.301.0.WPWEUXM": {
 					"os": "OS3.0.301.0.WPWEUXM",
 					"android": "16.0",
