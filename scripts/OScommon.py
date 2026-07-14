@@ -465,6 +465,7 @@ flags = {
 	"mist": "mist",
 	"mist_demo": "mist",
 	"iolite": "iolite",
+	"iolite_demo": "iolite",
 	"HOUJI": "houji",
 	"HOUJIDEMO": "houji",
 	"houji": "houji",
