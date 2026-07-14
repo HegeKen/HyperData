@@ -1,111 +1,111 @@
 {
-  "device": "mist",
-  "name": {
-    "zh": "REDMI Note 17 5G",
-    "en": "REDMI Note 17 5G"
-  },
-  "code": "PU",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "mist",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 17 5G",
-        "en": "REDMI Note 17 5G"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "aspatch",
-        "recovery",
-        "fastboot",
-        "ctelecom",
-        "cnmobile"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.307.0.WPUCNXM": {
-          "os": "OS3.0.307.0.WPUCNXM",
-          "android": "16.0",
-          "release": "2026-07-14",
-          "aspatch": "2026-06-01",
-          "recovery": "mist-ota_full-OS3.0.307.0.WPUCNXM-user-16.0-b9de94fb03.zip",
-          "fastboot": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_dacec824d0.tgz",
-          "ctelecom": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_chinatelecom_03c307384d.tgz",
-          "cnmobile": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_chinamobile_87f70a35d5.tgz"
-        }
-      }
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "mist_demo",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 17 5G",
-        "en": "REDMI Note 17 5G"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "aspatch",
-        "recovery",
-        "fastboot",
-        "cnmobile"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WPUCNDM": {
-          "os": "OS3.0.302.0.WPUCNDM",
-          "android": "16.0",
-          "release": "2026-07-14",
-          "aspatch": "",
-          "recovery": "",
-          "fastboot": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_03c8db4704.tgz",
-          "cnmobile": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_chinamobile_1989d3b863.tgz"
-        }
-      }
-    }
-  ]
+	"device": "mist",
+	"name": {
+		"zh": "REDMI Note 17 5G",
+		"en": "REDMI Note 17 5G"
+	},
+	"code": "PU",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "mist",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 5G",
+				"en": "REDMI Note 17 5G"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.307.0.WPUCNXM": {
+					"os": "OS3.0.307.0.WPUCNXM",
+					"android": "16.0",
+					"release": "2026-07-14",
+					"aspatch": "2026-06-01",
+					"recovery": "mist-ota_full-OS3.0.307.0.WPUCNXM-user-16.0-b9de94fb03.zip",
+					"fastboot": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_dacec824d0.tgz",
+					"ctelecom": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_chinatelecom_03c307384d.tgz",
+					"cnmobile": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_chinamobile_87f70a35d5.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "mist_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 5G",
+				"en": "REDMI Note 17 5G"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"cnmobile"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPUCNDM": {
+					"os": "OS3.0.302.0.WPUCNDM",
+					"android": "16.0",
+					"release": "2026-07-14",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_03c8db4704.tgz",
+					"cnmobile": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_chinamobile_1989d3b863.tgz"
+				}
+			}
+		}
+	]
 }
