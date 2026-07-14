@@ -1,0 +1,62 @@
+{
+  "device": "iolite",
+  "name": {
+    "zh": "REDMI Note 17 Pro 5G",
+    "en": "REDMI Note 17 Pro 5G"
+  },
+  "code": "DQ",
+  "suppports": [
+    "OS3.0"
+  ],
+  "android": [
+    "16.0"
+  ],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "iolite",
+      "brand": "REDMI",
+      "device": {
+        "zh": "REDMI Note 17 Pro 5G",
+        "en": "REDMI Note 17 Pro 5G"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.305.0.WDQCNXM": {
+          "os": "OS3.0.305.0.WDQCNXM",
+          "android": "16.0",
+          "release": "2026-07-14",
+          "recovery": "iolite-ota_full-OS3.0.305.0.WDQCNXM-user-16.0-5ac4133062.zip",
+          "fastboot": "iolite_images_OS3.0.305.0.WDQCNXM_20260712.0000.00_16.0_cn_a4e1436151.tgz",
+          "ctelecom": "iolite_images_OS3.0.305.0.WDQCNXM_20260712.0000.00_16.0_cn_chinatelecom_d962fb367c.tgz"
+        }
+      }
+    }
+  ]
+}
