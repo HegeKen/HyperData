@@ -59,6 +59,16 @@
 					"fastboot": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_dacec824d0.tgz",
 					"ctelecom": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_chinatelecom_03c307384d.tgz",
 					"cnmobile": "mist_images_OS3.0.307.0.WPUCNXM_20260709.0000.00_16.0_cn_chinamobile_87f70a35d5.tgz"
+				},
+				"OS3.0.305.0.WPUCNXM": {
+					"os": "OS3.0.305.0.WPUCNXM",
+					"android": "16.0",
+					"release": "2026-07-14",
+					"aspatch": "2026-05-01",
+					"recovery": "mist-ota_full-OS3.0.305.0.WPUCNXM-user-16.0-b87d7eafe9.zip",
+					"fastboot": "",
+					"ctelecom": "",
+					"cnmobile": ""
 				}
 			}
 		},
@@ -83,6 +93,7 @@
 				"aspatch",
 				"recovery",
 				"fastboot",
+				"ctelecom",
 				"cnmobile"
 			],
 			"show": "0",
@@ -103,6 +114,7 @@
 					"aspatch": "2026-05-01",
 					"recovery": "mist_demo-ota_full-OS3.0.302.0.WPUCNDM-user-16.0-69c8cf6ac6.zip",
 					"fastboot": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_03c8db4704.tgz",
+					"ctelecom": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_chinatelecom_9da209b496.tgz",
 					"cnmobile": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_chinamobile_1989d3b863.tgz"
 				}
 			}
