@@ -817,7 +817,7 @@
 					"release": "2026-07-10",
 					"aspatch": "2026-07-01",
 					"recovery": "malachite_dc_global-ota_full-OS3.0.302.0.WOOMIDC-user-16.0-d9ad683cc6.zip",
-					"fastboot": ""
+					"fastboot": "malachite_dc_global_images_OS3.0.302.0.WOOMIDC_20260701.0000.00_16.0_global_dc_4c701bec93.tgz"
 				},
 				"OS3.0.301.0.WOOMIDC": {
 					"os": "OS3.0.301.0.WOOMIDC",
@@ -2219,6 +2219,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.2.0.WOOGTTG": {
+					"os": "OS3.0.2.0.WOOGTTG",
+					"android": "16.0",
+					"release": "2026-07-17",
+					"aspatch": "2026-05-01",
+					"recovery": "malachite_gt_tg_global-ota_full-OS3.0.2.0.WOOGTTG-user-16.0-80bcdd31be.zip",
+					"fastboot": ""
+				},
 				"OS2.0.1.0.VOOGTTG": {
 					"os": "OS2.0.1.0.VOOGTTG",
 					"android": "15.0",
