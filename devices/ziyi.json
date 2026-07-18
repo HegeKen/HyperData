@@ -58,8 +58,8 @@
 					"release": "2026-07-09",
 					"aspatch": "2026-07-01",
 					"recovery": "ziyi-ota_full-OS3.0.5.0.VLLCNXM-user-15.0-c8ca577bd7.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "ziyi_images_OS3.0.5.0.VLLCNXM_20260703.0000.00_15.0_cn_4d2604ed21.tgz",
+					"ctelecom": "ziyi_images_OS3.0.5.0.VLLCNXM_20260703.0000.00_15.0_cn_chinatelecom_8f7e66db83.tgz"
 				},
 				"OS3.0.4.0.VLLCNXM": {
 					"os": "OS3.0.4.0.VLLCNXM",
@@ -525,6 +525,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.VLLMIXM": {
+					"os": "OS3.0.4.0.VLLMIXM",
+					"android": "15.0",
+					"release": "2026-07-14",
+					"aspatch": "2026-07-01",
+					"recovery": "ziyi_global-ota_full-OS3.0.4.0.VLLMIXM-user-15.0-2a096bb51e.zip",
+					"fastboot": ""
+				},
 				"OS3.0.3.0.VLLMIXM": {
 					"os": "OS3.0.3.0.VLLMIXM",
 					"android": "15.0",
@@ -973,6 +981,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.VLLRUXM": {
+					"os": "OS3.0.4.0.VLLRUXM",
+					"android": "15.0",
+					"release": "2026-07-14",
+					"aspatch": "2026-07-01",
+					"recovery": "ziyi_ru_global-ota_full-OS3.0.4.0.VLLRUXM-user-15.0-d4127b8dd2.zip",
+					"fastboot": ""
+				},
 				"OS3.0.3.0.VLLRUXM": {
 					"os": "OS3.0.3.0.VLLRUXM",
 					"android": "15.0",
