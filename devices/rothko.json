@@ -215,8 +215,8 @@
 					"release": "2026-06-17",
 					"aspatch": "2026-05-01",
 					"recovery": "rothko-ota_full-OS3.0.303.0.WNNCNXM-user-16.0-65ddf353d7.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "rothko_images_OS3.0.303.0.WNNCNXM_20260602.0000.00_16.0_cn_743c4b617e.tgz",
+					"ctelecom": "rothko_images_OS3.0.303.0.WNNCNXM_20260602.0000.00_16.0_cn_chinatelecom_46d9452704.tgz"
 				},
 				"OS3.0.302.0.WNNCNXM": {
 					"os": "OS3.0.302.0.WNNCNXM",
@@ -2300,6 +2300,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.4.0.WNNLMCR": {
+					"os": "OS3.0.4.0.WNNLMCR",
+					"android": "16.0",
+					"release": "2026-07-20",
+					"aspatch": "2026-06-01",
+					"recovery": "rothko_lm_cr_global-ota_full-OS3.0.4.0.WNNLMCR-user-16.0-36a373342f.zip",
+					"fastboot": ""
+				},
 				"OS3.0.2.0.WNNLMCR": {
 					"os": "OS3.0.2.0.WNNLMCR",
 					"android": "16.0",
