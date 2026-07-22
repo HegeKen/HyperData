@@ -469,6 +469,8 @@ flags = {
 	"HOUJI": "houji",
 	"HOUJIDEMO": "houji",
 	"houji": "houji",
+	"SERENITYZAVCGlobal": "serenity",
+	"serenity_za_vc_global": "serenity",
 	"flourite_demo": "flourite",
 	"flourite": "flourite",
 	"houji_demo": "houji",

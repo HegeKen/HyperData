@@ -17,6 +17,49 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "warhol",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "Xiaomi 17T Pro",
+				"en": "Xiaomi 17T Pro"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.308.2.WPSCNXM": {
+					"os": "OS3.0.308.2.WPSCNXM",
+					"android": "16.0",
+					"release": "2026-06-30",
+					"aspatch": "2026-05-01",
+					"recovery": "warhol-ota_full-OS3.0.308.2.WPSCNXM-user-16.0-39d6b1bc06.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 正式版",
 				"en": "Xiaomi HyperOS Stable"
 			},
