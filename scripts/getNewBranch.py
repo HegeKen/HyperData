@@ -1,8 +1,9 @@
 import OScommon
 from datetime import datetime
-import os
+import subprocess
+from sys import platform
 
-os.system(f"clear")
+subprocess.run(["cls"] if platform == "win32" else ["clear"])
 increment = ["1","100","200"]
 one_devices = ['warm']
 base_url = "https://update.intl.miui.com/updates/miota-fullrom.php?d="

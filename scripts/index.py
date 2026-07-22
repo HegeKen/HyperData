@@ -4,6 +4,7 @@ import json
 import os
 import config
 import time
+import subprocess
 from sys import platform
 
 # 获取东八区时区
@@ -104,12 +105,33 @@ else:
 	
 	print(f"✓ 完成！共更新了 {updated_count} 个设备的 supports 和 android 字段")
 	print()
-	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
+	commit_msg = updates['recent']['time'].replace(" ", "-")
+	subprocess.run(f"cd public/data && git add . && git commit -m {commit_msg} && git push origin main", shell=True)
 	time.sleep(8)
-	os.system(f"curl -X POST \"{config.deploy_url}\"")
-	if platform == "win32":
-		os.system(f"cls")
-	else:
-		os.system(f"clear")
+	try:
+		result = subprocess.run(
+			["curl", "-s", "-X", "POST", config.deploy_url],
+			capture_output=True,
+			text=True,
+			timeout=30
+		)
+		if result.returncode == 0 and result.stdout:
+			response = json.loads(result.stdout)
+			if response.get("success"):
+				deploy_id = response.get("result", {}).get("id", "未知")
+				print(f"✓ 部署请求成功，ID: {deploy_id}")
+			else:
+				errors = response.get("errors", [])
+				print(f"✗ 部署请求失败: {errors}")
+		else:
+			print(f"✗ curl 执行失败: {result.stderr}")
+	except subprocess.TimeoutExpired:
+		print("✗ 部署请求超时")
+	except json.JSONDecodeError:
+		print(f"✗ 无法解析返回的 JSON: {result.stdout}")
+	except Exception as e:
+		print(f"✗ 部署请求异常: {str(e)}")
+
+	subprocess.run(["cls"] if platform == "win32" else ["clear"])
 	print("数据提交成功")
 	print("网站已更新")

@@ -1,4 +1,6 @@
 import os
+import subprocess
+from sys import platform
 import chardet
 from bs4 import BeautifulSoup
 import OScommon
@@ -74,7 +76,7 @@ def process_directory(directory: str) -> None:
 
 
 def main() -> None:
-	os.system('clear' if os.name != 'nt' else 'cls')
+	subprocess.run(["cls"] if platform == "win32" else ["clear"])
 	
 	process_directory(TARGET_DIRECTORY)
 

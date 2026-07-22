@@ -4,6 +4,7 @@ import json
 import os
 import config
 import time
+import subprocess
 from sys import platform
 
 # 获取当前东八区日期
@@ -81,4 +82,5 @@ for device in OScommon.currentStable:
 if 1 in list(set(errors)):
 	print("数据有误，请核实后提交git")
 else:
-	os.system(f"cd public/data && git add . && git commit -m {updates['recent']['time'].replace(" " , "-")} && git push origin main")
+	commit_msg = updates['recent']['time'].replace(" ", "-")
+	subprocess.run(f"cd public/data && git add . && git commit -m {commit_msg} && git push origin main", shell=True)
