@@ -3622,8 +3622,8 @@ def getFromApi(encrypted_data):
 				# print(package)
 				checkExist(package)
 				return 1
-			if "CrossRom" in data:
-				package = data["CrossRom"]["filename"].split("?")[0]
+			if "CurrentRom" in data:
+				package = data["CurrentRom"]["filename"].split("?")[0]
 				# print(package)
 				checkExist(package)
 				return 1
