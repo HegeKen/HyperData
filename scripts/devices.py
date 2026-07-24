@@ -12,11 +12,11 @@ def load_devices_data():
 def get_brand_display_name(brand_key, brand_data):
     """获取品牌的显示名称（返回包含中英文的对象）"""
     if brand_key == 'mi':
-        return {'zh': '小米手机', 'en': 'Xiaomi Phones'}
+        return {'zh': '小米手机', 'en': 'Xiaomi Devices'}
     elif brand_key == 'redmi':
-        return {'zh': 'Redmi 手机', 'en': 'Redmi Phones'}
+        return {'zh': 'Redmi 手机', 'en': 'Redmi Devices'}
     elif brand_key == 'poco':
-        return {'zh': 'POCO 手机', 'en': 'POCO Phones'}
+        return {'zh': 'POCO 手机', 'en': 'POCO Devices'}
     return {'zh': brand_data.get('zh', brand_key), 'en': brand_data.get('en', brand_key)}
 
 

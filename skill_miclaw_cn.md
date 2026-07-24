@@ -2,7 +2,7 @@
 name: 小米设备📱ROM版本查询
 description: 查询小米/Redmi/POCO设备的HyperOS和MIUI ROM版本信息，支持设备搜索、版本筛选、固件下载链接获取
 tags: [小米, ROM, HyperOS, MIUI, 固件, 刷机, 设备查询, 版本查询, 系统更新]
-version: 1.0.6
+version: 1.1.0
 skill_id: xiaomi_rom_query
 update_time: 1781689767
 add_time: 1781689767
@@ -41,12 +41,340 @@ metadata:
 | HyperOS | 130+ | OS1.0-OS3.0 | 13.0-16.0 | 手机/平板 |
 | MIUI | 200+ | V1-V14.0 | 2.3.5-14.0 | 手机/平板 |
 
-## 数据结构说明
-**设备字段**：`device`/`codename`(代号)、`name`/`zh-cn`(中文名)、`android`(Android版本)、`branches`(分支列表)等
+## HyperOS设备详情 API 数据结构说明
 
-**分支字段**：`idtag`(分支标识)、`region`(地区)、`tag`(版本标签)、`branchtag`(类型)、`carrier`(运营商)、`show`(显示)、`ep`(政企版)等
+> **数据源**：`GET https://data.hyperos.fans/devices/{code}.json`
+> 
+> 以下为 HyperOS 设备详情 API 的完整响应结构说明。
 
-**ROM版本字段**：`os`/`miui`(版本号)、`android`、`release`(发布日期)、`aspatch`(安全补丁)、`recovery`(卡刷包)、`fastboot`(线刷包)等
+### 顶层设备字段
+
+| 字段 | 类型 | 说明 | 示例值 |
+|------|------|------|--------|
+| `device` | string | 设备代号（唯一标识） | `"houji"` |
+| `name.zh` | string | 中文名称 | `"小米 14"` |
+| `name.en` | string | 英文名称 | `"Xiaomi 14"` |
+| `code` | string | 设备区域代码 | `"NC"` |
+| `suppports` | string[] | 支持的 HyperOS 版本数组 | `["OS1.0", "OS2.0", "OS3.0"]` |
+| `android` | string[] | 支持的 Android 版本数组 | `["14.0", "15.0", "16.0"]` |
+| `type` | string | 设备类型 | `"phone"` / `"tablet"` |
+| `miui` | string | 是否有 MIUI 数据源 | `"yes"` / `"no"` |
+| `merged` | string | 是否为马甲机合并数据 | `"yes"` / `"no"` |
+| `branches` | array | ROM 分支数组，详见下方 | 见分支字段 |
+
+### branches[] 分支字段
+
+每个分支对象包含以下字段：
+
+| 字段 | 类型 | 说明 | 示例值 |
+|------|------|------|--------|
+| `name.zh` | string | 分支中文名称 | `"小米澎湃 OS 正式版"` |
+| `name.en` | string | 分支英文名称 | `"Xiaomi HyperOS Stable"` |
+| `branchCode` | string | 分支代码（通常与device相同） | `"houji"` |
+| `brand` | string | 品牌 | `"Xiaomi"` / `"REDMI"` / `"POCO"` |
+| `device.zh` | string | 分支对应的中文设备名 | `"小米 14"` |
+| `device.en` | string | 分支对应的英文设备名 | `"Xiaomi 14"` |
+| `idtag` | string | 分支唯一标识符 | `"CnOO"` / `"GBOO"` / `"Dev"` |
+| `tag` | string | 版本区域标签 | `"CNXM"` / `"MIXM"` |
+| `url` | string | 相关链接（可选，开发者预览版等） | `"https://..."` |
+| `branchtag` | string | 分支类型标识 | `"F"`=正式版, `"X"`=测试/开发版 |
+| `table` | string[] | roms 对象中包含的字段列表 | `["os","android","release","aspatch","recovery","fastboot"]` |
+| `show` | string | 是否对外展示 | `"1"`=展示, `"0"`=隐藏 |
+| `carrier` | string[] | 支持的运营商列表 | `["", "chinatelecom", "chinamobile", "chinaunicom"]` |
+| `region` | string | 地区代码 | `"cn"` / `"global"` / `"eea"` / `"tw"` / `"in"` / `"ru"` / `"id"` / `"tr"` |
+| `zone` | string | 区域分组 | `"1"`=中国大陆时区, `"2"`=国际时区 |
+| `ep` | string | 是否政企版 | `"1"`=政企版, `"0"`=普通版 |
+| `roms` | object | ROM 版本集合（key为版本号） | 详见 ROM 字段 |
+
+### branches[].roms{} ROM 版本字段
+
+每个 ROM 版本对象以版本号为 key，包含以下字段：
+
+| 字段 | 类型 | 说明 | 示例值 |
+|------|------|------|--------|
+| `os` | string | HyperOS 版本号 | `"OS3.0.303.0.WNCCNXM"` |
+| `android` | string | Android 版本 | `"16.0"` |
+| `release` | string | 发布日期 (YYYY-MM-DD) | `"2026-06-10"` |
+| `aspatch` | string | 安全补丁日期 (YYYY-MM-DD) | `"2026-05-01"` |
+| `recovery` | string | Recovery 卡刷包文件名 | `"houji-ota_full-OS3.0.303.0.WNCCNXM-user-16.0-c5d245a441.zip"` |
+| `fastboot` | string | Fastboot 线刷包文件名 | `"houji_images_OS3.0.303.0.WNCCNXM_20260529.0000.00_16.0_cn_05084cd0ea.tgz"` |
+| `ctelecom` | string | 中国电信定制线刷包文件名（可选） | `"houji_images_OS3.0.303.0.WNCCNXM_20260529.0000.00_16.0_cn_chinatelecom_...tgz"` |
+| `chinamobile` | string | 中国移动定制线刷包文件名（可选） | 同上 |
+| `chinaunicom` | string | 中国联通定制线刷包文件名（可选） | 同上 |
+| `originrec` | string | 原始卡刷包 URL（开发者预览版） | `"https://cdn.cnbj1.fds.api.mi-img.com/..."` |
+| `originfb` | string | 原始线刷包 URL（开发者预览版） | `"https://cdn.cnbj1.fds.api.mi-img.com/..."` |
+
+### 完整 JSON 响应示例
+
+```json
+{
+  "device": "houji",
+  "name": {
+    "zh": "小米 14",
+    "en": "Xiaomi 14"
+  },
+  "code": "NC",
+  "suppports": ["OS1.0", "OS1.1", "OS2.0", "OS3.0"],
+  "android": ["14.0", "15.0", "16.0"],
+  "type": "phone",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "houji",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 14",
+        "en": "Xiaomi 14"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": ["os", "android", "release", "aspatch", "recovery", "fastboot", "ctelecom"],
+      "show": "1",
+      "carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {
+        "OS3.0.303.0.WNCCNXM": {
+          "os": "OS3.0.303.0.WNCCNXM",
+          "android": "16.0",
+          "release": "2026-06-10",
+          "aspatch": "2026-05-01",
+          "recovery": "houji-ota_full-OS3.0.303.0.WNCCNXM-user-16.0-c5d245a441.zip",
+          "fastboot": "houji_images_OS3.0.303.0.WNCCNXM_20260529.0000.00_16.0_cn_05084cd0ea.tgz",
+          "ctelecom": "houji_images_OS3.0.303.0.WNCCNXM_20260529.0000.00_16.0_cn_chinatelecom_c7f477e555.tgz"
+        }
+      }
+    }
+  ]
+}
+```
+
+### 字段枚举值说明
+
+**branchtag 分支类型**
+| 值 | 说明 |
+|----|------|
+| `"F"` | 正式版/稳定版 |
+| `"X"` | 测试版/开发版/预览版 |
+| `"D"` | 每日构建版（隐藏） |
+
+**type 设备类型**
+| 值 | 说明 |
+|----|------|
+| `"phone"` | 手机 |
+| `"tablet"` | 平板 |
+
+**zone 区域分组**
+| 值 | 说明 |
+|----|------|
+| `"1"` | 中国大陆时区 |
+| `"2"` | 国际时区 |
+
+**ep 政企版标识**
+| 值 | 说明 |
+|----|------|
+| `"0"` | 普通消费版 |
+| `"1"` | 企业/政府定制版 |
+
+**show 显示控制**
+| 值 | 说明 |
+|----|------|
+| `"1"` | 对外展示（正常分支） |
+| `"0"` | 隐藏（演示机等特殊分支） |
+
+**miui 是否有 MIUI 数据源**
+| 值 | 说明 |
+|----|------|
+| `"yes"` | 该设备同时在 MIUI 数据源中存在 |
+| `"no"` | 仅 HyperOS 设备 |
+
+**merged 是否为马甲机合并**
+| 值 | 说明 |
+|----|------|
+| `"yes"` | 多品牌/马甲机数据已合并 |
+| `"no"` | 单一品牌数据 |
+
+## MIUI设备详情 API 数据结构说明
+
+> **数据源**：`GET https://data.miuier.com/data/devices/{code}.json`
+> 
+> 以下为 MIUI 设备详情 API 的完整响应结构说明。注意：MIUI 数据结构与 HyperOS 有显著差异。
+
+### 顶层设备字段
+
+| 字段 | 类型 | 说明 | 示例值 |
+|------|------|------|--------|
+| `codename` | string | 设备代号（唯一标识） | `"alioth"` |
+| `zh-cn` | string | 中文名称 | `"Redmi K40/小米 11X/POCO F3"` |
+| `en-us` | string | 英文名称 | `"Redmi K40/Mi 11X/POCO F3"` |
+| `attentions` | array | 注意事项数组（含zh-cn/en-us） | `[{"zh-cn":"","en-us":""}]` |
+| `cdid` | string | 客户端设备ID | `"37339049"` |
+| `ismiui` | string | 是否为 MIUI 数据源设备 | `"0"`=是, `"1"`=否 |
+| `ccshow` | string | 是否显示 CC 入口 | `"1"`=显示, `"0"`=不显示 |
+| `cbshow` | string | 是否显示 CB 入口 | `"1"`=显示, `"0"`=不显示 |
+| `csid` | string[] | CS ID 列表 | `["323"]` |
+| `cbid` | string[] | CB ID 列表 | `["322"]` |
+| `gdid` | string | GID（组ID） | `"10389"` |
+| `pcid` | string | PCID（产品ID） | `"11369"` |
+| `code` | string | 设备区域代码 | `"KH"` |
+| `android` | string[] | 支持的 Android 版本数组 | `["11.0", "12.0", "13.0"]` |
+| `miui` | string[] | 支持的 MIUI 版本数组 | `["V12.0", "V12.5", "V13.0", "V14.0"]` |
+| `branches` | array | ROM 分支数组，详见下方 | 见分支字段 |
+
+### branches[] 分支字段
+
+每个分支对象包含以下字段：
+
+| 字段 | 类型 | 说明 | 示例值 |
+|------|------|------|--------|
+| `code` | string | 分支代码（通常与codename相同） | `"alioth"` |
+| `btag` | string | 分支类型标识 | `"F"`=正式版, `"X"`=开发/测试版 |
+| `branch` | string | 分支名称标识 | `"Dev"`=开发版, `"Stable"`=稳定版 |
+| `zh-cn` | string | 分支中文名称 | `"开发版"` |
+| `en-us` | string | 分支英文名称 | `"China Beta"` |
+| `region` | string | 地区代码 | `"cn"` / `"global"` / `"eea"` / `"in"` / `"ru"` / `"id"` / `"tr"` / `"tw"` |
+| `tag` | string | 版本区域标签 | `""` / `"CNXM"` / `"MIXM"` |
+| `zone` | string | 区域分组 | `"1"`=中国大陆时区, `"2"`=国际时区 |
+| `pn` | string | 产品编号（部分设备有） | `"cepheus"` |
+| `show` | string | 是否对外展示 | `"1"`=展示, `"0"`=隐藏 |
+| `ep` | string | 是否政企版 | `"1"`=政企版, `"0"`=普通版 |
+| `carrier` | string[] | 支持的运营商列表 | `["", "chinatelecom", "chinamobile", "chinaunicom"]` |
+| `links` | array | ROM 版本列表（数组形式） | 详见 links 字段 |
+
+### branches[].links[] ROM 版本字段
+
+每个 ROM 版本对象包含以下字段：
+
+| 字段 | 类型 | 说明 | 示例值 |
+|------|------|------|--------|
+| `miui` | string | MIUI 版本号 | `"V14.0.23.4.17.DEV"` |
+| `android` | string | Android 版本 | `"13.0"` |
+| `recovery` | string | Recovery 卡刷包文件名 | `"miui_ALIOTH_V14.0.23.4.17.DEV_8d19a97090_13.0.zip"` |
+| `fastboot` | string | Fastboot 线刷包文件名（空字符串表示无） | `"alioth_images_V14.0.23.1.30.DEV_20230131.0000.00_13.0_cn_3d9a22fe03.tgz"` |
+| `release` | string | 发布日期 (YYYY-MM-DD) | `"2023-04-21"` |
+
+### 完整 JSON 响应示例
+
+```json
+{
+  "codename": "alioth",
+  "zh-cn": "Redmi K40/小米 11X/POCO F3",
+  "en-us": "Redmi K40/Mi 11X/POCO F3",
+  "attentions": [
+    {
+      "zh-cn": "",
+      "en-us": ""
+    }
+  ],
+  "cdid": "37339049",
+  "ismiui": "0",
+  "ccshow": "1",
+  "cbshow": "1",
+  "csid": ["323"],
+  "cbid": ["322"],
+  "gdid": "10389",
+  "pcid": "11369",
+  "code": "KH",
+  "android": ["11.0", "12.0", "13.0"],
+  "miui": ["V12.0", "V12.5", "V13.0", "V14.0"],
+  "branches": [
+    {
+      "code": "alioth",
+      "btag": "X",
+      "region": "cn",
+      "carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+      "branch": "Dev",
+      "tag": "",
+      "zone": "1",
+      "show": "1",
+      "ep": "0",
+      "zh-cn": "开发版",
+      "en-us": "China Beta",
+      "links": [
+        {
+          "miui": "V14.0.23.4.17.DEV",
+          "android": "13.0",
+          "recovery": "miui_ALIOTH_V14.0.23.4.17.DEV_8d19a97090_13.0.zip",
+          "fastboot": "",
+          "release": "2023-04-21"
+        },
+        {
+          "miui": "V14.0.23.1.30.DEV",
+          "android": "13.0",
+          "recovery": "miui_ALIOTH_V14.0.23.1.30.DEV_87d9b90cff_13.0.zip",
+          "fastboot": "alioth_images_V14.0.23.1.30.DEV_20230131.0000.00_13.0_cn_3d9a22fe03.tgz",
+          "release": "2023-02-03"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### 字段枚举值说明
+
+**btag 分支类型**
+| 值 | 说明 |
+|----|------|
+| `"F"` | 正式版/稳定版 |
+| `"X"` | 开发版/测试版 |
+
+**branch 分支名称**
+| 值 | 说明 |
+|----|------|
+| `"Dev"` | 开发版（每周更新） |
+| `"Stable"` | 稳定版 |
+
+**ismiui 是否为 MIUI 设备**
+| 值 | 说明 |
+|----|------|
+| `"0"` | 是 MIUI 设备 |
+| `"1"` | 非 MIUI 设备 |
+| `""` | 未标注（如 cepheus） |
+
+**zone 区域分组**
+| 值 | 说明 |
+|----|------|
+| `"1"` | 中国大陆时区 |
+| `"2"` | 国际时区 |
+
+**ep 政企版标识**
+| 值 | 说明 |
+|----|------|
+| `"0"` | 普通消费版 |
+| `"1"` | 企业/政府定制版 |
+
+**show 显示控制**
+| 值 | 说明 |
+|----|------|
+| `"1"` | 对外展示（正常分支） |
+| `"0"` | 隐藏（演示机等特殊分支） |
+
+**ccshow / cbshow 显示开关**
+| 值 | 说明 |
+|----|------|
+| `"1"` | 显示对应入口 |
+| `"0"` / `""` | 隐藏对应入口 |
+
+### MIUI 与 HyperOS 数据结构对比
+
+| 对比项 | HyperOS | MIUI |
+|--------|---------|------|
+| 根标识字段 | `device` | `codename` |
+| 名称字段 | `name.zh` / `name.en` | `zh-cn` / `en-us` |
+| ROM版本字段 | `os` | `miui` |
+| ROM存储结构 | `roms{}` 对象（key为版本号） | `links[]` 数组 |
+| 分支标识 | `idtag` | `branch` |
+| 分支类型 | `branchtag` | `btag` |
+| 特有字段 | `suppports`, `type`, `merged`, `table` | `attentions`, `cdid`, `ismiui`, `ccshow`, `cbshow`, `csid`, `cbid`, `gdid`, `pcid`, `pn` |
+| 版本号格式 | `OSx.x.x.x.XXXXXX` | `Vx.x.x.x.XXXXXX` / `xx.x.x` |
 
 ## 支持的地区分支
 | 地区 | 代码 | 标识 | 主要分支 |
@@ -143,9 +471,9 @@ metadata:
 ### 地区版本对比
 | 地区 | 最新版本 | Android | 发布日期 | 下载 |
 |------|----------|---------|----------|------|
-| 中国大陆 | {版本} | {Android} | {日期} | [📦]({链接}) [⚡]({链接}) |
-| 国际版 | {版本} | {Android} | {日期} | [📦]({链接}) [⚡]({链接}) |
-| 欧洲EEA | {版本} | {Android} | {日期} | [📦]({链接}) [⚡]({链接}) |
+| 中国大陆 | {版本} | {Android} | {日期} | [📦卡刷]({链接}) [⚡线刷]({链接}) |
+| 国际版 | {版本} | {Android} | {日期} | [📦卡刷]({链接}) [⚡线刷]({链接}) |
+| 欧洲EEA | {版本} | {Android} | {日期} | [📦卡刷]({链接}) [⚡线刷]({链接}) |
 
 ## 下载链接拼接规则
 **标准链接格式**：
