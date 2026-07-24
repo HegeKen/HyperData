@@ -3913,7 +3913,7 @@ def entryChecker(data,device):
 									else:
 										print(device, bname, os_version, f"版本号标识不匹配: 期望 {expected_tag}, 实际 {actual_idtag}")
 										# 注意：这里暂时注释掉检查，因为在实际数据中可能存在合理的差异
-										# check.append(1)
+										check.append(1)
 							
 							# 如果不是CNXM版本且expected_tag未设置，则跳过idtag检查
 							else:
@@ -3922,7 +3922,7 @@ def entryChecker(data,device):
 								if actual_idtag is not None and expected_tag is not None and actual_idtag != expected_tag:
 									print(device, bname, os_version, f"版本号标识不匹配: 期望 {expected_tag}, 实际 {actual_idtag}")
 									# 注意：这里暂时注释掉检查，因为在实际数据中可能存在合理的差异
-									# check.append(1)
+									check.append(1)
 							if os_version[:5] not in data['suppports']:
 								if "Developer" in branch['name']['en']:
 									i = 0
