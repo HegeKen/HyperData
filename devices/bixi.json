@@ -126,6 +126,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WOHCNXM": {
+					"os": "OS3.0.304.0.WOHCNXM",
+					"android": "16.0",
+					"release": "2026-07-15",
+					"aspatch": "2026-07-01",
+					"recovery": "bixi-ota_full-OS3.0.304.0.WOHCNXM-user-16.0-3f0cd38056.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS3.0.303.0.WOHCNXM": {
 					"os": "OS3.0.303.0.WOHCNXM",
 					"android": "16.0",
@@ -133,7 +142,7 @@
 					"aspatch": "2026-06-01",
 					"recovery": "bixi-ota_full-OS3.0.303.0.WOHCNXM-user-16.0-2bb0f37eec.zip",
 					"fastboot": "bixi_images_OS3.0.303.0.WOHCNXM_20260531.0000.00_16.0_cn_b6b73f1bf4.tgz",
-					"ctelecom": ""
+					"ctelecom": "bixi_images_OS3.0.303.0.WOHCNXM_20260531.0000.00_16.0_cn_chinatelecom_22068ca9b0.tgz"
 				},
 				"OS3.0.301.0.WOHCNXM": {
 					"os": "OS3.0.301.0.WOHCNXM",

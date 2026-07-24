@@ -1,6 +1,7 @@
 import OScommon
 import json
 
+start = 46000
 def fill_security_patches():
   """
   遍历数据库 roms 表中 recovery 不为 NULL 的记录，
@@ -9,7 +10,7 @@ def fill_security_patches():
   import time
 
   # 1. 获取所有需要处理的记录
-  sql = "SELECT id, device, code, version, recovery FROM roms WHERE recovery IS NOT NULL AND recovery != '' AND aspatch IS NULL ORDER BY id DESC"
+  sql = f"SELECT id, device, code, version, recovery FROM roms WHERE id >= {start} AND recovery IS NOT NULL AND recovery != '' AND aspatch IS NULL ORDER BY id DESC"
   rows = OScommon.db_job(sql)
   if not rows:
     print("没有需要处理的记录")
