@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2026-07-27 13:51:54",
+    "time": "2026-07-27 15:54:12",
     "developing": "no",
     "roms": {
       "yudi": {
@@ -351,6 +351,22 @@
           }
         ]
       },
+      "degas": {
+        "name": {
+          "zh": "小米 14T",
+          "en": "Xiaomi 14T"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-27",
+            "version": "OS3.0.301.0.WNELMCR"
+          },
+          {
+            "insert_date": "2026-07-24",
+            "version": "OS3.0.304.0.WNEIDXM"
+          }
+        ]
+      },
       "flame": {
         "name": {
           "zh": "Redmi 14R 5G / POCO M7 5G",
@@ -358,12 +374,100 @@
         },
         "versions": [
           {
+            "insert_date": "2026-07-27",
+            "version": "OS3.0.302.0.WGUINXM"
+          },
+          {
             "insert_date": "2026-07-24",
             "version": "OS2.0.205.0.VGUCNXM"
           },
           {
             "insert_date": "2026-07-23",
             "version": "OS3.0.302.0.WGUCNXM"
+          }
+        ]
+      },
+      "lake": {
+        "name": {
+          "zh": "Redmi 14C",
+          "en": "Redmi 14C"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-27",
+            "version": "OS3.0.301.0.WGTIDXM"
+          },
+          {
+            "insert_date": "2026-07-24",
+            "version": "OS3.0.301.0.WGTTRXM"
+          },
+          {
+            "insert_date": "2026-07-23",
+            "version": "OS3.0.306.0.WGTMIXM"
+          }
+        ]
+      },
+      "iolite": {
+        "name": {
+          "zh": "REDMI Note 17 Pro 5G",
+          "en": "REDMI Note 17 Pro 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-27",
+            "version": "OS3.0.307.0.WDQCNXM"
+          }
+        ]
+      },
+      "arctic": {
+        "name": {
+          "zh": "REDMI A7 Pro / POCO C81",
+          "en": "REDMI A7 Pro / POCO C81"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-27",
+            "version": "OS3.0.11.0.WBVMIXM"
+          },
+          {
+            "insert_date": "2026-07-21",
+            "version": "OS3.0.4.0.WBVINXM"
+          }
+        ]
+      },
+      "dew": {
+        "name": {
+          "zh": "REDMI 15C / POCO C85",
+          "en": "REDMI 15C / POCO C85"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-27",
+            "version": "OS3.0.301.0.WBNIDXM"
+          }
+        ]
+      },
+      "annibale": {
+        "name": {
+          "zh": "REDMI K90 / POCO F8 Pro",
+          "en": "REDMI K90 / POCO F8 Pro"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-27",
+            "version": "OS3.0.301.0.WPKMIXM"
+          }
+        ]
+      },
+      "tornado": {
+        "name": {
+          "zh": "REDMI 15C 5G / REDMI 15R 5G",
+          "en": "REDMI 15C 5G / REDMI 15R 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-07-27",
+            "version": "OS3.0.303.0.WPOMIXM"
           }
         ]
       },
@@ -400,22 +504,6 @@
           {
             "insert_date": "2026-07-24",
             "version": "OS3.0.304.0.WOHCNXM"
-          }
-        ]
-      },
-      "lake": {
-        "name": {
-          "zh": "Redmi 14C",
-          "en": "Redmi 14C"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-07-24",
-            "version": "OS3.0.301.0.WGTTRXM"
-          },
-          {
-            "insert_date": "2026-07-23",
-            "version": "OS3.0.306.0.WGTMIXM"
           }
         ]
       },
@@ -488,18 +576,6 @@
           {
             "insert_date": "2026-07-23",
             "version": "OS3.0.316.0.WPRCNXM"
-          }
-        ]
-      },
-      "degas": {
-        "name": {
-          "zh": "小米 14T",
-          "en": "Xiaomi 14T"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-07-24",
-            "version": "OS3.0.304.0.WNEIDXM"
           }
         ]
       },
@@ -804,18 +880,6 @@
           {
             "insert_date": "2026-07-21",
             "version": "OS3.0.304.0.WMKCNXM"
-          }
-        ]
-      },
-      "arctic": {
-        "name": {
-          "zh": "REDMI A7 Pro / POCO C81",
-          "en": "REDMI A7 Pro / POCO C81"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-07-21",
-            "version": "OS3.0.4.0.WBVINXM"
           }
         ]
       }
