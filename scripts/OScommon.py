@@ -1,6 +1,7 @@
 import json
 from sys import platform
 import base64
+import binascii
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 import requests
@@ -3616,7 +3617,11 @@ def getFromApi(encrypted_data):
 		if "code" in response.text:
 			i = 0
 		else:
-			data = miui_decrypt(response.text.split("q=")[0])
+			try:
+				data = miui_decrypt(response.text.split("q=")[0])
+			except binascii.Error as e:
+				print(f"  [解码失败] {e}")
+				return 0
 			if "LatestRom" in data:
 				package = data["LatestRom"]["filename"].split("?")[0]
 				# print(package)
