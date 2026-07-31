@@ -1,5 +1,6 @@
 import OScommon
 import json
+from datetime import date
 
 def os_replace(ver):
   if 'OS1' in ver:
@@ -49,7 +50,10 @@ for id in ids_zh:
       continue
     else:
       # print(log)
-      uplog = OScommon.db_job(f"UPDATE roms SET logs_zh = '{log}' WHERE id = %s" % (id))
+      if current[2] == 'cn':
+        uplog = OScommon.db_job(f"UPDATE roms SET logs_zh = '{log}', release_date = '{date.today().strftime('%Y-%m-%d')}' WHERE id = %s" % (id))
+      else:
+        uplog = OScommon.db_job(f"UPDATE roms SET logs_zh = '{log}' WHERE id = %s" % (id))
 
 pre_en = "SELECT id FROM roms WHERE logs_en IS NULL AND branch !='X'"
 result = OScommon.db_job(pre_en)
@@ -86,4 +90,7 @@ for id in ids_en:
       continue
     else:
       # print(log)
-      uplog = OScommon.db_job(f"UPDATE roms SET logs_en = '{log}' WHERE id = %s" % (id))
+      if current[2] == 'cn':
+        uplog = OScommon.db_job(f"UPDATE roms SET logs_en = '{log}', release_date = '{date.today().strftime('%Y-%m-%d')}' WHERE id = %s" % (id))
+      else:
+        uplog = OScommon.db_job(f"UPDATE roms SET logs_en = '{log}' WHERE id = %s" % (id))
