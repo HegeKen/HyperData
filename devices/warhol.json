@@ -595,7 +595,16 @@
 			"region": "id",
 			"zone": "2",
 			"ep": "0",
-			"roms": {}
+			"roms": {
+				"OS3.0.304.0.WPSIDXM": {
+					"os": "OS3.0.304.0.WPSIDXM",
+					"android": "16.0",
+					"release": "2026-08-03",
+					"aspatch": "2026-07-01",
+					"recovery": "warhol_id_global-ota_full-OS3.0.304.0.WPSIDXM-user-16.0-1e4ab36af0.zip",
+					"fastboot": "warhol_id_global_images_OS3.0.304.0.WPSIDXM_20260716.0000.00_16.0_id_3e11854a7a.tgz"
+				}
+			}
 		},
 		{
 			"name": {
@@ -681,7 +690,7 @@
 					"release": "2026-07-24",
 					"aspatch": "2026-07-01",
 					"recovery": "warhol_tr_global-ota_full-OS3.0.304.0.WPSTRXM-user-16.0-8cbf29cde8.zip",
-					"fastboot": ""
+					"fastboot": "warhol_tr_global_images_OS3.0.304.0.WPSTRXM_20260716.0000.00_16.0_tr_bf9cdeff55.tgz"
 				},
 				"OS3.0.302.0.WPSTRXM": {
 					"os": "OS3.0.302.0.WPSTRXM",
