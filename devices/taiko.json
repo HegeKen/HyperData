@@ -57,8 +57,8 @@
 					"release": "2026-08-03",
 					"aspatch": "2026-07-01",
 					"recovery": "taiko-ota_full-OS3.0.306.0.WOVCNXM-user-16.0-c86d6d5d81.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "taiko_images_OS3.0.306.0.WOVCNXM_20260724.0000.00_16.0_cn_192c5a233e.tgz",
+					"ctelecom": "taiko_images_OS3.0.306.0.WOVCNXM_20260724.0000.00_16.0_cn_chinatelecom_3a9c0a7d0d.tgz"
 				},
 				"OS3.0.304.0.WOVCNXM": {
 					"os": "OS3.0.304.0.WOVCNXM",
@@ -348,6 +348,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WOVMIXM": {
+					"os": "OS3.0.304.0.WOVMIXM",
+					"android": "16.0",
+					"release": "2026-08-04",
+					"aspatch": "2026-08-01",
+					"recovery": "taiko_global-ota_full-OS3.0.304.0.WOVMIXM-user-16.0-cbf4baf51c.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WOVMIXM": {
 					"os": "OS3.0.302.0.WOVMIXM",
 					"android": "16.0",
