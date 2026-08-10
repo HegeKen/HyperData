@@ -1,0 +1,59 @@
+{
+	"device": "steppe",
+	"name": {
+		"zh": "REDMI M100",
+		"en": "REDMI M100"
+	},
+	"code": "AV",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "steppe_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI M100",
+				"en": "REDMI M100"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.307.0.WAVMIXM": {
+					"os": "OS3.0.307.0.WAVMIXM",
+					"android": "16.0",
+					"release": "2026-08-10",
+					"aspatch": "2026-07-01",
+					"recovery": "steppe_global-ota_full-OS3.0.307.0.WAVMIXM-user-16.0-0cddb60965.zip",
+					"fastboot": "steppe_global_images_OS3.0.307.0.WAVMIXM_20260801.0000.00_16.0_global_d83230f39a.tgz"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,102 @@
+{
+	"device": "songyuan",
+	"name": {
+		"zh": "REDMI K100 Pro Max",
+		"en": "REDMI K100 Pro Max"
+	},
+	"code": "GN",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "songyuan",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K100 Pro Max",
+				"en": "REDMI K100 Pro Max"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "songyuan_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K100 Pro Max",
+				"en": "REDMI K100 Pro Max"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile",
+				"cnunicom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WGNCNDM": {
+					"os": "OS3.0.302.0.WGNCNDM",
+					"android": "16.0",
+					"release": "2026-08-10",
+					"aspatch": "",
+					"recovery": "songyuan_demo-ota_full-OS3.0.302.0.WGNCNDM-user-16.0-c809bd292d.zip",
+					"fastboot": "songyuan_demo_images_OS3.0.302.0.WGNCNDM_20260803.0000.00_16.0_cn_56e4dab52d.tgz",
+					"ctelecom": "songyuan_demo_images_OS3.0.302.0.WGNCNDM_20260803.0000.00_16.0_cn_chinatelecom_6b97ff4276.tgz",
+					"cnmobile": "songyuan_demo_images_OS3.0.302.0.WGNCNDM_20260803.0000.00_16.0_cn_chinamobile_ffdc4a77d3.tgz",
+					"cnunicom": "songyuan_demo_images_OS3.0.302.0.WGNCNDM_20260803.0000.00_16.0_cn_chinaunicom_f430a7b5ee.tgz"
+				}
+			}
+		}
+	]
+}

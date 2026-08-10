@@ -174,7 +174,9 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 unreleased = ['mist', 'iolite', 'moscow', 'brussels', 'chicago', 'pond', 'warsaw', 'suiren', 'zephyr', 'coral']
-currentStable = ['mist', 'iolite', 'moscow', 'brussels', 'chicago', 'pond', 'warsaw', 'chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew', 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
+currentStable = ['athens', 'songyuan', 'steppe', 'leeds', 'mist', 'iolite', 'moscow', 'brussels', 'chicago', 'pond',
+								 'warsaw', 'chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew',
+								 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou',  'spring', 'lapis', 'kunzite',
 								 'flourite', 'creek', 'taiko', 'bixi', 'dali', 'turner', 'violin', 'koto', 'dijun', 'jinghu', 'luming', 
 								 'onyx', 'serenity', 'emerald_r', 'miro', 'zorn', 'xuanyuan', 'tanzanite', 'obsidian', 'rodin', 'warm', 'dada', 'haotian', 'uke', 'muyu', 
@@ -760,6 +762,11 @@ flags = {
 	"rodin_id_global":"rodin",
 	"goku_ep_stdee":"goku",
 	"pond":"pond",
+	"athens": "athens",
+	"athens_demo": "athens",
+	"songyuan": "songyuan",
+	"songyuan_demo": "songyuan",
+	"steppe_global": "steppe",
 	"pond_global":"pond",
 	"flame":"flame",
 	"FLAME":"flame",
