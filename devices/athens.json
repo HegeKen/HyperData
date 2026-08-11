@@ -35,7 +35,9 @@
 				"release",
 				"recovery",
 				"fastboot",
-				"ctelecom"
+				"ctelecom",
+				"cnmobile",
+				"cnunicom"
 			],
 			"show": "1",
 			"carrier": [
@@ -47,7 +49,28 @@
 			"region": "cn",
 			"zone": "1",
 			"ep": "0",
-			"roms": {}
+			"roms": {
+				"OS3.0.306.0.WPICNXM": {
+					"os": "OS3.0.306.0.WPICNXM",
+					"android": "16.0",
+					"release": "2026-08-11",
+					"recovery": "athens-ota_full-OS3.0.306.0.WPICNXM-user-16.0-9fc053e689.zip",
+					"fastboot": "athens_images_OS3.0.306.0.WPICNXM_20260805.0000.00_16.0_cn_b01c49b17d.tgz",
+					"ctelecom": "",
+					"cnmobile": "",
+					"cnunicom": ""
+				},
+				"OS3.0.302.0.WPICNXM": {
+					"os": "OS3.0.302.0.WPICNXM",
+					"android": "16.0",
+					"release": "2026-08-11",
+					"recovery": "",
+					"fastboot": "",
+					"ctelecom": "athens_images_OS3.0.302.0.WPICNXM_20260710.0000.00_16.0_cn_chinatelecom_2d4e19dfda.tgz",
+					"cnmobile": "athens_images_OS3.0.302.0.WPICNXM_20260710.0000.00_16.0_cn_chinamobile_f05b50620b.tgz",
+					"cnunicom": "athens_images_OS3.0.302.0.WPICNXM_20260710.0000.00_16.0_cn_chinaunicom_c30bc66ac5.tgz"
+				}
+			}
 		},
 		{
 			"name": {
