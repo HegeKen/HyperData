@@ -1,0 +1,75 @@
+{
+	"device": "leedsa",
+	"name": {
+		"zh": "REDMI 17 / POCO C95 Pro",
+		"en": "REDMI 17 / POCO C95 Pro"
+	},
+	"code": "DT",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "leedsa_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI 17 / POCO C95 Pro",
+				"en": "REDMI 17 / POCO C95 Pro"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WDTMIXM": {
+					"os": "OS3.0.305.0.WDTMIXM",
+					"android": "16.0",
+					"release": "2026-08-10",
+					"aspatch": "2026-07-01",
+					"recovery": "leedsa_global-ota_full-OS3.0.305.0.WDTMIXM-user-16.0-f0f9eb71ed.zip",
+					"fastboot": "leedsa_global_images_OS3.0.305.0.WDTMIXM_20260724.0000.00_16.0_global_8654c9b118.tgz"
+				},
+				"OS3.0.303.0.WDTMIXM": {
+					"os": "OS3.0.303.0.WDTMIXM",
+					"android": "16.0",
+					"release": "2026-08-10",
+					"aspatch": "2026-05-01",
+					"recovery": "leedsa_global-ota_full-OS3.0.303.0.WDTMIXM-user-16.0-96272a063a.zip",
+					"fastboot": "leedsa_global_images_OS3.0.303.0.WDTMIXM_20260623.0000.00_16.0_global_bb9c9e8c31.tgz"
+				},
+				"OS3.0.301.0.WDTMIXM": {
+					"os": "OS3.0.301.0.WDTMIXM",
+					"android": "16.0",
+					"release": "2026-08-10",
+					"aspatch": "2026-05-01",
+					"recovery": "leedsa_global-ota_full-OS3.0.301.0.WDTMIXM-user-16.0-ead7a36f52.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}

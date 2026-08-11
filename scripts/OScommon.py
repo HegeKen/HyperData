@@ -174,7 +174,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 unreleased = ['mist', 'iolite', 'moscow', 'brussels', 'chicago', 'pond', 'warsaw', 'suiren', 'zephyr', 'coral']
-currentStable = ['athens', 'songyuan', 'steppe', 'leeds', 'mist', 'iolite', 'moscow', 'brussels', 'chicago', 'pond',
+currentStable = ['athens', 'songyuan', 'steppe', 'leedsa', 'mist', 'iolite', 'moscow', 'brussels', 'chicago', 'pond',
 								 'warsaw', 'chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew',
 								 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou',  'spring', 'lapis', 'kunzite',
@@ -767,6 +767,7 @@ flags = {
 	"songyuan": "songyuan",
 	"songyuan_demo": "songyuan",
 	"steppe_global": "steppe",
+	"leedsa_global": "leedsa",
 	"pond_global":"pond",
 	"flame":"flame",
 	"FLAME":"flame",
@@ -3068,16 +3069,16 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 			elif data[1] == None or data[1] == "":
 				if filetype == "recovery":
 					beta_date = stringify(get_time(form_url(filename,version)))
-					# 尝试获取安全补丁日期
-					aspatch = stringify(None)
+					# 尝试获取安全补丁日期，失败时不更新 aspatch 字段，保留现有信息
 					try:
 						url = form_url(filename, version)
 						asp = get_security_patch_from_ota_url(url, 'recovery', timeout=30)
-						if asp:
-							aspatch = stringify(asp)
 					except:
-						pass
-					upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s, aspatch = %s WHERE id = %s" % (stringify(filename),beta_date, aspatch, stringify(data[0]))
+						asp = None
+					if asp:
+						upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s, aspatch = %s WHERE id = %s" % (stringify(filename),beta_date, stringify(asp), stringify(data[0]))
+					else:
+						upd_sql = f"UPDATE roms SET {checkpoint} = %s, beta_date = %s WHERE id = %s" % (stringify(filename),beta_date, stringify(data[0]))
 				else:
 					public_date = stringify(get_time(form_url(filename,version)))
 					upd_sql = f"UPDATE roms SET {d_check} = %s, public_date = %s WHERE id = %s" % (stringify(filename),public_date, stringify(data[0]))
@@ -3106,8 +3107,8 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 		else:
 			beta_date = stringify(get_time(form_url(filename,version)))
 			public_date = stringify(None)
-			# 尝试获取安全补丁日期
-			aspatch = stringify(None)
+			# 尝试获取安全补丁日期，失败时插入 NULL
+			aspatch = "NULL"
 			try:
 				url = form_url(filename, version)
 				asp = get_security_patch_from_ota_url(url, 'recovery', timeout=30)

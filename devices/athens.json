@@ -1,102 +1,102 @@
 {
-  "device": "athens",
-  "name": {
-    "zh": "REDMI K100 Pro",
-    "en": "REDMI K100 Pro"
-  },
-  "code": "PI",
-  "suppports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "athens",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI K100 Pro",
-        "en": "REDMI K100 Pro"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {}
-    },
-    {
-      "name": {
-        "zh": "小米澎湃 OS 演示机系统",
-        "en": "Xiaomi HyperOS China MiStore Demo"
-      },
-      "branchCode": "athens_demo",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI K100 Pro",
-        "en": "REDMI K100 Pro"
-      },
-      "idtag": "CnOD",
-      "tag": "CNDM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "aspatch",
-        "recovery",
-        "fastboot",
-        "ctelecom",
-        "cnmobile",
-        "cnunicom"
-      ],
-      "show": "0",
-      "region": "cn",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "OS3.0.302.0.WPICNDM": {
-          "os": "OS3.0.302.0.WPICNDM",
-          "android": "16.0",
-          "release": "2026-08-10",
-          "aspatch": "",
-          "recovery": "athens_demo-ota_full-OS3.0.302.0.WPICNDM-user-16.0-d1326d2955.zip",
-          "fastboot": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_6ceb35c549.tgz",
-          "ctelecom": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_chinatelecom_58c06d1d6a.tgz",
-          "cnmobile": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_chinamobile_023e58fd21.tgz",
-          "cnunicom": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_chinaunicom_d5a1dcffe2.tgz"
-        }
-      }
-    }
-  ]
+	"device": "athens",
+	"name": {
+		"zh": "REDMI K100 Pro",
+		"en": "REDMI K100 Pro"
+	},
+	"code": "PI",
+	"suppports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "athens",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K100 Pro",
+				"en": "REDMI K100 Pro"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "athens_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K100 Pro",
+				"en": "REDMI K100 Pro"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile",
+				"cnunicom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPICNDM": {
+					"os": "OS3.0.302.0.WPICNDM",
+					"android": "16.0",
+					"release": "2026-08-10",
+					"aspatch": "",
+					"recovery": "athens_demo-ota_full-OS3.0.302.0.WPICNDM-user-16.0-d1326d2955.zip",
+					"fastboot": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_6ceb35c549.tgz",
+					"ctelecom": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_chinatelecom_58c06d1d6a.tgz",
+					"cnmobile": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_chinamobile_023e58fd21.tgz",
+					"cnunicom": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_chinaunicom_d5a1dcffe2.tgz"
+				}
+			}
+		}
+	]
 }
