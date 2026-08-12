@@ -70,6 +70,46 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "steppe_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI M100",
+				"en": "REDMI M100"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WAVEUXM": {
+					"os": "OS3.0.305.0.WAVEUXM",
+					"android": "16.0",
+					"release": "2026-08-12",
+					"aspatch": "2026-07-01",
+					"recovery": "steppe_eea_global-ota_full-OS3.0.305.0.WAVEUXM-user-16.0-18a6d29607.zip",
+					"fastboot": "steppe_eea_global_images_OS3.0.305.0.WAVEUXM_20260724.0000.00_16.0_eea_bdc5343b8a.tgz"
+				}
+			}
 		}
 	]
 }

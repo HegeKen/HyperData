@@ -551,6 +551,7 @@ flags = {
 	"spinel_id_global": "spinel",
 	"spinel_tr_global": "spinel",
 	"lapis_global": "lapis",
+	"steppe_eea_global": "steppe",
 	"lapis_id_global": "lapis",
 	"lapis_tw_global": "lapis",
 	"lapis_eea_global": "lapis",
