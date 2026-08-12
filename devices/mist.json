@@ -128,6 +128,46 @@
 					"cnmobile": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_chinamobile_1989d3b863.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "mist_in_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 5G",
+				"en": "REDMI Note 17 5G"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WPUINXM": {
+					"os": "OS3.0.304.0.WPUINXM",
+					"android": "16.0",
+					"release": "2026-08-12",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "mist_in_global_images_OS3.0.304.0.WPUINXM_20260722.0000.00_16.0_in_909667115e.tgz"
+				}
+			}
 		}
 	]
 }

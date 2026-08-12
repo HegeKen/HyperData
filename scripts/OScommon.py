@@ -543,6 +543,7 @@ flags = {
 	"spinel_tw_global": "spinel",
 	"spinel_global": "spinel",
 	"spinel_dc_global": "spinel",
+	"mist_in_global": "mist",
 	"spinel_eea_global": "spinel",
 	"lapis_lm_cr_global": "lapis",
 	"spinel_lm_cr_global": "spinel",
