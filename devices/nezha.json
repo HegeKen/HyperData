@@ -6,7 +6,8 @@
 	},
 	"code": "PA",
 	"suppports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
 		"16.0",
@@ -49,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.10.XPACNXM": {
+					"os": "OS4.0.0.10.XPACNXM",
+					"android": "17.0",
+					"release": "2026-08-14",
+					"aspatch": "2026-08-01",
+					"recovery": "nezha-ota_full-OS4.0.0.10.XPACNXM-user-17.0-e4a8b9c9fe.zip",
+					"fastboot": ""
+				},
 				"OS3.0.330.10.XPACNXM": {
 					"os": "OS3.0.330.10.XPACNXM",
 					"android": "17.0",

@@ -6,7 +6,8 @@
 	},
 	"code": "PC",
 	"suppports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
 		"16.0",
@@ -49,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.9.XPCCNXM": {
+					"os": "OS4.0.0.9.XPCCNXM",
+					"android": "17.0",
+					"release": "2026-08-14",
+					"aspatch": "2026-08-01",
+					"recovery": "pudding-ota_full-OS4.0.0.9.XPCCNXM-user-17.0-440253644c.zip",
+					"fastboot": ""
+				},
 				"OS3.0.330.14.XPCCNXM": {
 					"os": "OS3.0.330.14.XPCCNXM",
 					"android": "17.0",
