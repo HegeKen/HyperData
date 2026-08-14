@@ -70,6 +70,86 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "leedsa_eea_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI 17 / POCO C95 Pro",
+				"en": "REDMI 17 / POCO C95 Pro"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WDTEUXM": {
+					"os": "OS3.0.301.0.WDTEUXM",
+					"android": "16.0",
+					"release": "2026-08-14",
+					"aspatch": "2026-05-01",
+					"recovery": "leedsa_eea_global-ota_full-OS3.0.301.0.WDTEUXM-user-16.0-2a6c3ef860.zip",
+					"fastboot": "leedsa_eea_global_images_OS3.0.301.0.WDTEUXM_20260610.0000.00_16.0_eea_188dc354be.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "leedsa_ru_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI 17 / POCO C95 Pro",
+				"en": "REDMI 17 / POCO C95 Pro"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WDTRUXM": {
+					"os": "OS3.0.302.0.WDTRUXM",
+					"android": "16.0",
+					"release": "2026-08-14",
+					"aspatch": "2026-06-01",
+					"recovery": "leedsa_ru_global-ota_full-OS3.0.302.0.WDTRUXM-user-16.0-14cc09f73a.zip",
+					"fastboot": "leedsa_ru_global_images_OS3.0.302.0.WDTRUXM_20260630.0000.00_16.0_ru_2ba7c4e6b6.tgz"
+				}
+			}
 		}
 	]
 }

@@ -1605,6 +1605,8 @@ flags = {
 	"rothko":"rothko",
 	"tides":"tides",
 	"moon":"moon",
+	"leedsa_eea_global": "leedsa",
+	"leedsa_ru_global": "leedsa",
 	"SHENGGlobal":"sheng",
 	"sheng_global":"sheng",
 	"SHENGRUGlobal":"sheng",
