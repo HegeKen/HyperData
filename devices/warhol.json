@@ -98,8 +98,8 @@
 					"release": "2026-08-04",
 					"aspatch": "2026-08-01",
 					"recovery": "warhol-ota_full-OS3.0.309.0.WPSCNXM-user-16.0-262bf93f8a.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "warhol_images_OS3.0.309.0.WPSCNXM_20260727.0000.00_16.0_cn_d1cf8d5176.tgz",
+					"ctelecom": "warhol_images_OS3.0.309.0.WPSCNXM_20260727.0000.00_16.0_cn_chinatelecom_d1f785be0f.tgz"
 				},
 				"OS3.0.308.0.WPSCNXM": {
 					"os": "OS3.0.308.0.WPSCNXM",
@@ -269,6 +269,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.310.0.WPSMIXM": {
+					"os": "OS3.0.310.0.WPSMIXM",
+					"android": "16.0",
+					"release": "2026-08-10",
+					"aspatch": "2026-08-01",
+					"recovery": "warhol_global-ota_full-OS3.0.310.0.WPSMIXM-user-16.0-576f64e91d.zip",
+					"fastboot": ""
+				},
 				"OS3.0.309.0.WPSMIXM": {
 					"os": "OS3.0.309.0.WPSMIXM",
 					"android": "16.0",
