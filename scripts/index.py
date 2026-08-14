@@ -89,7 +89,7 @@ else:
 			try:
 				with open(device_file_path, 'r', encoding='utf-8') as f:
 					device_data = json.load(f)
-				supports = device_data.get('suppports', [])
+				supports = device_data.get('supports', [])
 				android = device_data.get('android', [])
 				
 				if supports or android:

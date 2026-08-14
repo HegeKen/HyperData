@@ -14,7 +14,7 @@ for device in devices:
 	device = devdata['device']
 	code = devdata['code']
 	andvs = devdata['android']
-	oss = devdata['suppports']
+	oss = devdata['supports']
 	for branch in OScommon.branches:
 		for os in oss:
 			for andv in andvs:

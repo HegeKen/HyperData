@@ -5,11 +5,13 @@
 		"en": "Xiaomi Pad 8 Pro"
 	},
 	"code": "PY",
-	"suppports": [
-		"OS3.0"
+	"supports": [
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -48,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.24.XPYCNXM": {
+					"os": "OS4.0.0.24.XPYCNXM",
+					"android": "17.0",
+					"release": "2026-08-14",
+					"aspatch": "2026-08-01",
+					"recovery": "piano-ota_full-OS4.0.0.24.XPYCNXM-user-17.0-dda1778b07.zip",
+					"fastboot": ""
+				},
 				"OS3.0.306.3.WPYCNXM": {
 					"os": "OS3.0.306.3.WPYCNXM",
 					"android": "16.0",

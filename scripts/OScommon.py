@@ -3294,7 +3294,7 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 		
 		if not updated:
 			print(f"ROM 数据已完整: {version}")
-		check_devices_supports(device, android, version)
+		check_devices_supports(device, android, version, devdata)
 		return devdata
 	
 	# 获取table字段列表
@@ -3372,21 +3372,15 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 	# 更新 index.json
 	update_index_json(device, devdata, version)
 	
-	# 核查设备的 supports 和 android 字段
-	check_devices_supports(device, android, version)
+	# 核查设备的 supports 和 android 字段（修改 devdata，由调用方写回文件）
+	check_devices_supports(device, android, version, devdata)
 	
 	return devdata
 
 
-def check_devices_supports(device, android, version):
-	"""核查 devices.json 中该设备的 supports 与 android 字段，缺失则补充"""
-	devices_path = get_platform_path("public/data/devices.json")
-	try:
-		with open(devices_path, 'r', encoding='utf-8') as f:
-			devices_data = json.load(f)
-	except Exception as e:
-		print(f"读取 devices.json 错误: {e}")
-		return False
+def check_devices_supports(device, android, version, devdata=None):
+	"""核查设备的 supports 与 android 字段，缺失则补充
+	传入 devdata 时修改内存数据，由调用方统一写回文件；否则直接读写文件"""
 	
 	# 提取 OS 大版本，如 OS3.0.302.0.WPQCNXM -> OS3.0
 	os_major = None
@@ -3406,42 +3400,40 @@ def check_devices_supports(device, android, version):
 	if not os_major and not android_ver:
 		return False
 	
-	# 在 devices.json 中定位设备条目
-	target = None
-	for brand_key, brand_data in devices_data.items():
-		if isinstance(brand_data, dict) and "devices" in brand_data:
-			for dev in brand_data["devices"]:
-				if dev.get("code") == device:
-					target = dev
-					break
-		if target:
-			break
-	
-	if target is None:
-		print(f"devices.json 中未找到设备: {device}")
-		return False
+	from_file = False
+	if devdata is None:
+		device_path = get_platform_path(f"public/data/devices/{device}.json")
+		try:
+			with open(device_path, 'r', encoding='utf-8') as f:
+				devdata = json.load(f)
+		except Exception as e:
+			print(f"读取设备文件错误: {e}")
+			return False
+		from_file = True
 	
 	changed = False
 	if os_major:
-		supports = target.setdefault("supports", [])
+		supports = devdata.setdefault("supports", [])
 		if os_major not in supports:
 			supports.append(os_major)
 			changed = True
 	
 	if android_ver:
-		androids = target.setdefault("android", [])
+		androids = devdata.setdefault("android", [])
 		if android_ver not in androids:
 			androids.append(android_ver)
 			changed = True
 	
-	if changed:
+	if changed and from_file:
 		try:
-			with open(devices_path, 'w', encoding='utf-8') as f:
-				json.dump(devices_data, f, ensure_ascii=False, indent='\t', sort_keys=False)
-			print(f"devices.json 已更新: {device} supports={os_major} android={android_ver}")
+			with open(device_path, 'w', encoding='utf-8') as f:
+				json.dump(devdata, f, ensure_ascii=False, indent='\t', sort_keys=False)
 		except Exception as e:
-			print(f"写入 devices.json 错误: {e}")
+			print(f"写入设备文件错误: {e}")
 			return False
+	
+	if changed:
+		print(f"{device} 已更新: supports={os_major} android={android_ver}")
 	
 	return changed
 
@@ -4010,7 +4002,7 @@ def entryChecker(data,device):
 									print(device, bname, os_version, f"版本号标识不匹配: 期望 {expected_tag}, 实际 {actual_idtag}")
 									# 注意：这里暂时注释掉检查，因为在实际数据中可能存在合理的差异
 									check.append(1)
-							if os_version[:5] not in data['suppports']:
+							if os_version[:5] not in data['supports']:
 								if "Developer" in branch['name']['en']:
 									i = 0
 								else:

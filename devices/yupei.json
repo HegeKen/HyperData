@@ -5,11 +5,13 @@
 		"en": "Xiaomi Pad 8"
 	},
 	"code": "",
-	"suppports": [
-		"OS3.0"
+	"supports": [
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -48,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.23.XPZCNXM": {
+					"os": "OS4.0.0.23.XPZCNXM",
+					"android": "17.0",
+					"release": "2026-08-14",
+					"aspatch": "2026-08-01",
+					"recovery": "yupei-ota_full-OS4.0.0.23.XPZCNXM-user-17.0-51bd4477ef.zip",
+					"fastboot": ""
+				},
 				"OS3.0.306.3.WPZCNXM": {
 					"os": "OS3.0.306.3.WPZCNXM",
 					"android": "16.0",

@@ -5,11 +5,13 @@
 		"en": "REDMI K90 / POCO F8 Pro"
 	},
 	"code": "PK",
-	"suppports": [
-		"OS3.0"
+	"supports": [
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -48,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.18.XPKCNXM": {
+					"os": "OS4.0.0.18.XPKCNXM",
+					"android": "17.0",
+					"release": "2026-08-14",
+					"aspatch": "2026-08-01",
+					"recovery": "annibale-ota_full-OS4.0.0.18.XPKCNXM-user-17.0-600712d62b.zip",
+					"fastboot": ""
+				},
 				"OS3.0.305.3.WPKCNXM": {
 					"os": "OS3.0.305.3.WPKCNXM",
 					"android": "16.0",

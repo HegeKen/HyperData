@@ -55,7 +55,7 @@ metadata:
 | `name.zh` | string | 中文名称 | `"小米 14"` |
 | `name.en` | string | 英文名称 | `"Xiaomi 14"` |
 | `code` | string | 设备区域代码 | `"NC"` |
-| `suppports` | string[] | 支持的 HyperOS 版本数组 | `["OS1.0", "OS2.0", "OS3.0"]` |
+| `supports` | string[] | 支持的 HyperOS 版本数组 | `["OS1.0", "OS2.0", "OS3.0"]` |
 | `android` | string[] | 支持的 Android 版本数组 | `["14.0", "15.0", "16.0"]` |
 | `type` | string | 设备类型 | `"phone"` / `"tablet"` |
 | `miui` | string | 是否有 MIUI 数据源 | `"yes"` / `"no"` |
@@ -114,7 +114,7 @@ metadata:
     "en": "Xiaomi 14"
   },
   "code": "NC",
-  "suppports": ["OS1.0", "OS1.1", "OS2.0", "OS3.0"],
+  "supports": ["OS1.0", "OS1.1", "OS2.0", "OS3.0"],
   "android": ["14.0", "15.0", "16.0"],
   "type": "phone",
   "miui": "no",
@@ -373,7 +373,7 @@ metadata:
 | ROM存储结构 | `roms{}` 对象（key为版本号） | `links[]` 数组 |
 | 分支标识 | `idtag` | `branch` |
 | 分支类型 | `branchtag` | `btag` |
-| 特有字段 | `suppports`, `type`, `merged`, `table` | `attentions`, `cdid`, `ismiui`, `ccshow`, `cbshow`, `csid`, `cbid`, `gdid`, `pcid`, `pn` |
+| 特有字段 | `supports`, `type`, `merged`, `table` | `attentions`, `cdid`, `ismiui`, `ccshow`, `cbshow`, `csid`, `cbid`, `gdid`, `pcid`, `pn` |
 | 版本号格式 | `OSx.x.x.x.XXXXXX` | `Vx.x.x.x.XXXXXX` / `xx.x.x` |
 
 ## 支持的地区分支
