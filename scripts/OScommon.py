@@ -2579,27 +2579,27 @@ def localData(codename):
 		return {}
 
 def db_job(sql):
-    """执行SQL查询并返回所有结果"""
-    cnx = None
-    try:
-        cnx = Connection(
-            user=config.user,
-            password=config.password,
-            host=config.host,
-            port=config.port,
-            database=config.database,
-            autocommit=True
-        )
-        cursor = cnx.cursor()
-        cursor.execute(sql)
-        result = cursor.fetchall()
-        return result if result is not None else []  # 确保返回列表
-    except Exception as e:
-        print(sql, e)
-        return []  # 异常时返回空列表而不是None
-    finally:
-        if cnx:
-            cnx.close()
+	"""执行SQL查询并返回所有结果"""
+	cnx = None
+	try:
+		cnx = Connection(
+			user=config.user,
+			password=config.password,
+			host=config.host,
+			port=config.port,
+			database=config.database,
+			autocommit=True
+		)
+		cursor = cnx.cursor()
+		cursor.execute(sql)
+		result = cursor.fetchall()
+		return result if result is not None else []  # 确保返回列表
+	except Exception as e:
+		print(sql, e)
+		return []  # 异常时返回空列表而不是None
+	finally:
+		if cnx:
+			cnx.close()
 
 
 def stringify(s):
@@ -3402,9 +3402,11 @@ def check_devices_supports(device, android, version, devdata=None):
 	if not os_major and not android_ver:
 		return False
 	
+	# 在函数开始处定义 device_path
+	device_path = get_platform_path(f"public/data/devices/{device}.json")
+	
 	from_file = False
 	if devdata is None:
-		device_path = get_platform_path(f"public/data/devices/{device}.json")
 		try:
 			with open(device_path, 'r', encoding='utf-8') as f:
 				devdata = json.load(f)
@@ -3782,44 +3784,44 @@ def getChangelog(encrypted_data, device):
 	response.close()
 
 def getChangelog2DB(encrypted_data, device, version):
-    headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
-                 "Connection": "Keep-Alive",
-                 "Content-Type": "application/x-www-form-urlencoded",
-                 "Cache-Control": "no-cache",
-                 "Host": "update.miui.com",
-                 "Accept-Encoding": "gzip",
-                 "Content-Length": "795",
-                 "Cookie": "serviceToken=;"
-                 }
-    data = "q=" + encrypted_data + "&s=1&t="
-    response = requests.post(check_url, headers=headers, data=data, timeout=(5, 10))
-    if "'code'" in response.text:
-        print(json.loads(response.text)["desc"])
-        return False  # 添加返回值
-    
-    # 初始化 log 变量
-    log = None
-    
-    data = miui_decrypt(response.text.split("q=")[0])
-    if "CurrentRom" in data:
-        if "changelog" in data['CurrentRom'] and data['CurrentRom']['version'] == version:
-            log = data["CurrentRom"]["changelog"]
-        elif "changelog" in data['LatestRom'] and data['LatestRom']['version'] == version:
-            log = data["LatestRom"]["changelog"]
-        else:
-            return False
-    elif "LatestRom" in data:
-        log = data["LatestRom"]["changelog"]
-    else:
-        return False
-    
-    response.close()
-    
-    # 检查 log 是否为 None
-    if log is None:
-        return False
-    
-    return json.dumps(strip_log(remove_spaces(log)), ensure_ascii=False)
+	headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
+				 "Connection": "Keep-Alive",
+				 "Content-Type": "application/x-www-form-urlencoded",
+				 "Cache-Control": "no-cache",
+				 "Host": "update.miui.com",
+				 "Accept-Encoding": "gzip",
+				 "Content-Length": "795",
+				 "Cookie": "serviceToken=;"
+				 }
+	data = "q=" + encrypted_data + "&s=1&t="
+	response = requests.post(check_url, headers=headers, data=data, timeout=(5, 10))
+	if "'code'" in response.text:
+		print(json.loads(response.text)["desc"])
+		return False  # 添加返回值
+	
+	# 初始化 log 变量
+	log = None
+	
+	data = miui_decrypt(response.text.split("q=")[0])
+	if "CurrentRom" in data:
+		if "changelog" in data['CurrentRom'] and data['CurrentRom']['version'] == version:
+			log = data["CurrentRom"]["changelog"]
+		elif "changelog" in data['LatestRom'] and data['LatestRom']['version'] == version:
+			log = data["LatestRom"]["changelog"]
+		else:
+			return False
+	elif "LatestRom" in data:
+		log = data["LatestRom"]["changelog"]
+	else:
+		return False
+	
+	response.close()
+	
+	# 检查 log 是否为 None
+	if log is None:
+		return False
+	
+	return json.dumps(strip_log(remove_spaces(log)), ensure_ascii=False)
 
 
 def remove_spaces(d):
@@ -4170,297 +4172,297 @@ TIMEOUT_MS = 20000
 CENSIG = 0x02014b50  # "PK\001\002" - Central directory file header signature
 LOCSIG = 0x04034b50  # "PK\003\004" - Local file header signature
 ENDSIG = 0x06054b50  # "PK\005\006" - End of central directory record signature
-ENDHDR = 22          # Minimum size of end of central directory record
+ENDHDR = 22		  # Minimum size of end of central directory record
 ZIP64_ENDSIG = 0x06064b50  # "PK\006\006" - Zip64 end of central directory record signature
 ZIP64_LOCSIG = 0x07064b50  # "PK\006\007" - Zip64 end of central directory locator signature
-ZIP64_LOCHDR = 20    # Size of Zip64 end of central directory locator
+ZIP64_LOCHDR = 20	# Size of Zip64 end of central directory locator
 ZIP64_MAGICVAL = 0xFFFFFFFF  # Marker for Zip64 fields
 
 
 class CdEntry:
-    """ZIP 中央目录条目"""
-    def __init__(self, file_name, local_header_offset, compressed_size, uncompressed_size, method):
-        self.file_name = file_name
-        self.local_header_offset = local_header_offset
-        self.compressed_size = compressed_size
-        self.uncompressed_size = uncompressed_size
-        self.method = method  # 0 = 未压缩, 8 = DEFLATE
+	"""ZIP 中央目录条目"""
+	def __init__(self, file_name, local_header_offset, compressed_size, uncompressed_size, method):
+		self.file_name = file_name
+		self.local_header_offset = local_header_offset
+		self.compressed_size = compressed_size
+		self.uncompressed_size = uncompressed_size
+		self.method = method  # 0 = 未压缩, 8 = DEFLATE
 
 
 def read_int_le(data, offset):
-    """从字节数组中读取小端序整数"""
-    return struct.unpack('<I', data[offset:offset+4])[0]
+	"""从字节数组中读取小端序整数"""
+	return struct.unpack('<I', data[offset:offset+4])[0]
 
 
 def read_short_le(data, offset):
-    """从字节数组中读取小端序短整数"""
-    return struct.unpack('<H', data[offset:offset+2])[0]
+	"""从字节数组中读取小端序短整数"""
+	return struct.unpack('<H', data[offset:offset+2])[0]
 
 
 def read_long_le(data, offset):
-    """从字节数组中读取小端序长整数"""
-    return struct.unpack('<Q', data[offset:offset+8])[0]
+	"""从字节数组中读取小端序长整数"""
+	return struct.unpack('<Q', data[offset:offset+8])[0]
 
 
 def locate_central_directory(bytes_data, file_length, eocd_pos_in_buffer=None):
-    """定位 ZIP 中央目录的位置和大小
-    
-    Args:
-        bytes_data: 从文件末尾读取的字节数据
-        file_length: 完整文件长度
-        eocd_pos_in_buffer: EOCD 在 buffer 中的位置，如果为 None 则自动搜索
-    """
-    # 如果没有指定 EOCD 位置，自动搜索
-    if eocd_pos_in_buffer is None:
-        search_start_pos = len(bytes_data) - ENDHDR
-    else:
-        search_start_pos = eocd_pos_in_buffer
-    
-    cen_size = -1
-    cen_offset = -1
+	"""定位 ZIP 中央目录的位置和大小
+	
+	Args:
+		bytes_data: 从文件末尾读取的字节数据
+		file_length: 完整文件长度
+		eocd_pos_in_buffer: EOCD 在 buffer 中的位置，如果为 None 则自动搜索
+	"""
+	# 如果没有指定 EOCD 位置，自动搜索
+	if eocd_pos_in_buffer is None:
+		search_start_pos = len(bytes_data) - ENDHDR
+	else:
+		search_start_pos = eocd_pos_in_buffer
+	
+	cen_size = -1
+	cen_offset = -1
 
-    for current_scan_pos in range(search_start_pos, -1, -1):
-        if current_scan_pos + 4 > len(bytes_data):
-            continue
-        
-        signature = read_int_le(bytes_data, current_scan_pos)
-        if signature == ENDSIG:
-            cen_dir_offset_field_pos = current_scan_pos + 16
-            cen_dir_size_field_pos = current_scan_pos + 12
+	for current_scan_pos in range(search_start_pos, -1, -1):
+		if current_scan_pos + 4 > len(bytes_data):
+			continue
+		
+		signature = read_int_le(bytes_data, current_scan_pos)
+		if signature == ENDSIG:
+			cen_dir_offset_field_pos = current_scan_pos + 16
+			cen_dir_size_field_pos = current_scan_pos + 12
 
-            offset_of_central_dir = read_int_le(bytes_data, cen_dir_offset_field_pos) & 0xFFFFFFFF
-            size_of_central_dir = read_int_le(bytes_data, cen_dir_size_field_pos) & 0xFFFFFFFF
+			offset_of_central_dir = read_int_le(bytes_data, cen_dir_offset_field_pos) & 0xFFFFFFFF
+			size_of_central_dir = read_int_le(bytes_data, cen_dir_size_field_pos) & 0xFFFFFFFF
 
-            if offset_of_central_dir == ZIP64_MAGICVAL or size_of_central_dir == ZIP64_MAGICVAL:
-                # 需要处理 ZIP64 格式
-                zip64_locator_pos = current_scan_pos - ZIP64_LOCHDR
-                if zip64_locator_pos >= 0 and zip64_locator_pos + 4 <= len(bytes_data):
-                    if read_int_le(bytes_data, zip64_locator_pos) == ZIP64_LOCSIG:
-                        zip64_eocd_record_offset_in_file = read_long_le(bytes_data, zip64_locator_pos + 8)
-                        zip64_eocd_record_offset_in_buffer = len(bytes_data) - int(file_length - zip64_eocd_record_offset_in_file)
-                        
-                        if (zip64_eocd_record_offset_in_buffer >= 0 and
-                            zip64_eocd_record_offset_in_buffer + 56 <= len(bytes_data) and
-                            read_int_le(bytes_data, zip64_eocd_record_offset_in_buffer) == ZIP64_ENDSIG):
-                            
-                            cen_size = read_long_le(bytes_data, zip64_eocd_record_offset_in_buffer + 40)
-                            cen_offset = read_long_le(bytes_data, zip64_eocd_record_offset_in_buffer + 48)
-                            break
-            else:
-                cen_size = size_of_central_dir
-                cen_offset = offset_of_central_dir
-                break
+			if offset_of_central_dir == ZIP64_MAGICVAL or size_of_central_dir == ZIP64_MAGICVAL:
+				# 需要处理 ZIP64 格式
+				zip64_locator_pos = current_scan_pos - ZIP64_LOCHDR
+				if zip64_locator_pos >= 0 and zip64_locator_pos + 4 <= len(bytes_data):
+					if read_int_le(bytes_data, zip64_locator_pos) == ZIP64_LOCSIG:
+						zip64_eocd_record_offset_in_file = read_long_le(bytes_data, zip64_locator_pos + 8)
+						zip64_eocd_record_offset_in_buffer = len(bytes_data) - int(file_length - zip64_eocd_record_offset_in_file)
+						
+						if (zip64_eocd_record_offset_in_buffer >= 0 and
+							zip64_eocd_record_offset_in_buffer + 56 <= len(bytes_data) and
+							read_int_le(bytes_data, zip64_eocd_record_offset_in_buffer) == ZIP64_ENDSIG):
+							
+							cen_size = read_long_le(bytes_data, zip64_eocd_record_offset_in_buffer + 40)
+							cen_offset = read_long_le(bytes_data, zip64_eocd_record_offset_in_buffer + 48)
+							break
+			else:
+				cen_size = size_of_central_dir
+				cen_offset = offset_of_central_dir
+				break
 
-    return cen_offset, cen_size
+	return cen_offset, cen_size
 
 
 def locate_entries(central_directory_bytes, file_names):
-    """在中央目录中查找指定的文件条目"""
-    results = {}
-    pos = 0
-    bytes_data = central_directory_bytes
-    
-    while pos + 46 <= len(bytes_data):
-        signature = read_int_le(bytes_data, pos)
-        if signature != CENSIG:
-            break
+	"""在中央目录中查找指定的文件条目"""
+	results = {}
+	pos = 0
+	bytes_data = central_directory_bytes
+	
+	while pos + 46 <= len(bytes_data):
+		signature = read_int_le(bytes_data, pos)
+		if signature != CENSIG:
+			break
 
-        method = read_short_le(bytes_data, pos + 10) & 0xFFFF
-        compressed_size = read_int_le(bytes_data, pos + 20) & 0xFFFFFFFF
-        uncompressed_size = read_int_le(bytes_data, pos + 24) & 0xFFFFFFFF
-        file_name_length = read_short_le(bytes_data, pos + 28) & 0xFFFF
-        extra_field_length = read_short_le(bytes_data, pos + 30) & 0xFFFF
-        file_comment_length = read_short_le(bytes_data, pos + 32) & 0xFFFF
-        local_header_offset = read_int_le(bytes_data, pos + 42) & 0xFFFFFFFF
+		method = read_short_le(bytes_data, pos + 10) & 0xFFFF
+		compressed_size = read_int_le(bytes_data, pos + 20) & 0xFFFFFFFF
+		uncompressed_size = read_int_le(bytes_data, pos + 24) & 0xFFFFFFFF
+		file_name_length = read_short_le(bytes_data, pos + 28) & 0xFFFF
+		extra_field_length = read_short_le(bytes_data, pos + 30) & 0xFFFF
+		file_comment_length = read_short_le(bytes_data, pos + 32) & 0xFFFF
+		local_header_offset = read_int_le(bytes_data, pos + 42) & 0xFFFFFFFF
 
-        file_name_start_pos = pos + 46
-        if file_name_start_pos + file_name_length > len(bytes_data):
-            break
+		file_name_start_pos = pos + 46
+		if file_name_start_pos + file_name_length > len(bytes_data):
+			break
 
-        current_file_name = bytes_data[file_name_start_pos:file_name_start_pos+file_name_length].decode('utf-8', errors='ignore')
-        
-        if current_file_name in file_names:
-            results[current_file_name] = CdEntry(
-                file_name=current_file_name,
-                local_header_offset=local_header_offset,
-                compressed_size=compressed_size,
-                uncompressed_size=uncompressed_size,
-                method=method
-            )
-            if len(results) == len(file_names):
-                break
+		current_file_name = bytes_data[file_name_start_pos:file_name_start_pos+file_name_length].decode('utf-8', errors='ignore')
+		
+		if current_file_name in file_names:
+			results[current_file_name] = CdEntry(
+				file_name=current_file_name,
+				local_header_offset=local_header_offset,
+				compressed_size=compressed_size,
+				uncompressed_size=uncompressed_size,
+				method=method
+			)
+			if len(results) == len(file_names):
+				break
 
-        pos = file_name_start_pos + file_name_length + extra_field_length + file_comment_length
+		pos = file_name_start_pos + file_name_length + extra_field_length + file_comment_length
 
-    return results
+	return results
 
 
 def locate_local_file_offset(local_header_bytes):
-    """定位本地文件头中的实际数据偏移"""
-    if len(local_header_bytes) < 4:
-        return -1
-    
-    signature = read_int_le(local_header_bytes, 0)
-    if signature == LOCSIG:
-        file_name_length = read_short_le(local_header_bytes, 26) & 0xFFFF
-        extra_field_length = read_short_le(local_header_bytes, 28) & 0xFFFF
-        return 30 + file_name_length + extra_field_length
-    return -1
+	"""定位本地文件头中的实际数据偏移"""
+	if len(local_header_bytes) < 4:
+		return -1
+	
+	signature = read_int_le(local_header_bytes, 0)
+	if signature == LOCSIG:
+		file_name_length = read_short_le(local_header_bytes, 26) & 0xFFFF
+		extra_field_length = read_short_le(local_header_bytes, 28) & 0xFFFF
+		return 30 + file_name_length + extra_field_length
+	return -1
 
 
 def read_range(url, start, size, timeout=20):
-    """通过 HTTP Range 请求读取文件的指定字节范围"""
-    if size <= 0 or start < 0:
-        return None
+	"""通过 HTTP Range 请求读取文件的指定字节范围"""
+	if size <= 0 or start < 0:
+		return None
 
-    try:
-        session = requests.Session()
-        retry = Retry(connect=3, backoff_factor=1)
-        adapter = HTTPAdapter(max_retries=retry)
-        session.mount('http://', adapter)
-        session.mount('https://', adapter)
+	try:
+		session = requests.Session()
+		retry = Retry(connect=3, backoff_factor=1)
+		adapter = HTTPAdapter(max_retries=retry)
+		session.mount('http://', adapter)
+		session.mount('https://', adapter)
 
-        headers = {'Range': f'bytes={start}-{start + size - 1}'}
-        response = session.get(url, headers=headers, timeout=timeout)
-        
-        if response.status_code not in (200, 206):
-            return None
-        
-        content = response.content
-        
-        # 检查返回内容是否为 XML 错误文档（服务器返回的错误信息）
-        if content.startswith(b'<?xml') or content.startswith(b'<Error'):
-            print("服务器返回 XML 错误文档，资源可能已被删除")
-            return None
-        
-        # 检查内容类型是否为已知的错误类型
-        content_type = response.headers.get('Content-Type', '').lower()
-        if content_type in ('application/xml', 'text/xml') and b'<Error>' in content:
-            print("服务器返回 XML 错误响应，资源不存在或已被删除")
-            return None
-        
-        if len(content) < size:
-            print(f"读取字节数不足，期望 {size} 字节，实际 {len(content)} 字节")
-            return None
-        
-        return content[:size] if len(content) > size else content
-        
-    except Exception as e:
-        print(f"读取范围失败: {e}")
-        return None
+		headers = {'Range': f'bytes={start}-{start + size - 1}'}
+		response = session.get(url, headers=headers, timeout=timeout)
+		
+		if response.status_code not in (200, 206):
+			return None
+		
+		content = response.content
+		
+		# 检查返回内容是否为 XML 错误文档（服务器返回的错误信息）
+		if content.startswith(b'<?xml') or content.startswith(b'<Error'):
+			print("服务器返回 XML 错误文档，资源可能已被删除")
+			return None
+		
+		# 检查内容类型是否为已知的错误类型
+		content_type = response.headers.get('Content-Type', '').lower()
+		if content_type in ('application/xml', 'text/xml') and b'<Error>' in content:
+			print("服务器返回 XML 错误响应，资源不存在或已被删除")
+			return None
+		
+		if len(content) < size:
+			print(f"读取字节数不足，期望 {size} 字节，实际 {len(content)} 字节")
+			return None
+		
+		return content[:size] if len(content) > size else content
+		
+	except Exception as e:
+		print(f"读取范围失败: {e}")
+		return None
 
 
 def get_file_length(url, timeout=20):
-    """获取远程文件的大小"""
-    try:
-        session = requests.Session()
-        retry = Retry(connect=3, backoff_factor=1)
-        adapter = HTTPAdapter(max_retries=retry)
-        session.mount('http://', adapter)
-        session.mount('https://', adapter)
+	"""获取远程文件的大小"""
+	try:
+		session = requests.Session()
+		retry = Retry(connect=3, backoff_factor=1)
+		adapter = HTTPAdapter(max_retries=retry)
+		session.mount('http://', adapter)
+		session.mount('https://', adapter)
 
-        # 先尝试 HEAD 请求
-        response = session.head(url, headers={'Range': 'bytes=0-0'}, timeout=timeout)
-        
-        # 检查是否返回错误状态码
-        if response.status_code >= 400:
-            return None
-        
-        if 'Content-Range' in response.headers:
-            content_range = response.headers['Content-Range']
-            parts = content_range.split('/')
-            if len(parts) > 1:
-                file_len = int(parts[1])
-                if file_len > 0:
-                    return file_len
-        
-        if 'Content-Length' in response.headers:
-            file_len = int(response.headers['Content-Length'])
-            if file_len > 0:
-                return file_len
+		# 先尝试 HEAD 请求
+		response = session.head(url, headers={'Range': 'bytes=0-0'}, timeout=timeout)
+		
+		# 检查是否返回错误状态码
+		if response.status_code >= 400:
+			return None
+		
+		if 'Content-Range' in response.headers:
+			content_range = response.headers['Content-Range']
+			parts = content_range.split('/')
+			if len(parts) > 1:
+				file_len = int(parts[1])
+				if file_len > 0:
+					return file_len
+		
+		if 'Content-Length' in response.headers:
+			file_len = int(response.headers['Content-Length'])
+			if file_len > 0:
+				return file_len
 
-        return None
-    except Exception as e:
-        print(f"获取文件长度失败: {e}")
-        return None
+		return None
+	except Exception as e:
+		print(f"获取文件长度失败: {e}")
+		return None
 
 
 def read_entry_bytes(url, entry, file_length, timeout=20):
-    """读取指定条目的数据内容"""
-    header_offset = entry.local_header_offset
-    
-    if header_offset < 0 or header_offset >= file_length:
-        return None
+	"""读取指定条目的数据内容"""
+	header_offset = entry.local_header_offset
+	
+	if header_offset < 0 or header_offset >= file_length:
+		return None
 
-    max_local_header_read = min(file_length - header_offset, LOCAL_HEADER_SIZE)
-    if max_local_header_read < 30:
-        return None
+	max_local_header_read = min(file_length - header_offset, LOCAL_HEADER_SIZE)
+	if max_local_header_read < 30:
+		return None
 
-    local_header_bytes = read_range(url, header_offset, int(max_local_header_read), timeout)
-    if local_header_bytes is None:
-        return None
+	local_header_bytes = read_range(url, header_offset, int(max_local_header_read), timeout)
+	if local_header_bytes is None:
+		return None
 
-    internal_offset = locate_local_file_offset(local_header_bytes)
-    if internal_offset < 0 or internal_offset > max_local_header_read:
-        return None
+	internal_offset = locate_local_file_offset(local_header_bytes)
+	if internal_offset < 0 or internal_offset > max_local_header_read:
+		return None
 
-    data_offset = header_offset + internal_offset
-    size = entry.uncompressed_size
-    
-    if size < 0 or size > file_length or data_offset + size > file_length:
-        return None
+	data_offset = header_offset + internal_offset
+	size = entry.uncompressed_size
+	
+	if size < 0 or size > file_length or data_offset + size > file_length:
+		return None
 
-    return read_range(url, data_offset, int(size), timeout)
+	return read_range(url, data_offset, int(size), timeout)
 
 
 def parse_text_metadata(text):
-    """解析文本格式的 metadata"""
-    result = {
-        'ota_type': 0,
-        'pre': {},
-        'post': {}
-    }
-    meta_map = {}
-    
-    for line in text.split('\n'):
-        trimmed = line.strip()
-        if not trimmed or trimmed.startswith('#'):
-            continue
-        idx = trimmed.find('=')
-        if idx > 0:
-            meta_map[trimmed[:idx]] = trimmed[idx+1:]
+	"""解析文本格式的 metadata"""
+	result = {
+		'ota_type': 0,
+		'pre': {},
+		'post': {}
+	}
+	meta_map = {}
+	
+	for line in text.split('\n'):
+		trimmed = line.strip()
+		if not trimmed or trimmed.startswith('#'):
+			continue
+		idx = trimmed.find('=')
+		if idx > 0:
+			meta_map[trimmed[:idx]] = trimmed[idx+1:]
 
-    # 解析 OTA 类型
-    ota_type = meta_map.get('ota-type', '').upper()
-    if ota_type == 'AB':
-        result['ota_type'] = 1
-    elif ota_type == 'BLOCK':
-        result['ota_type'] = 2
-    elif ota_type == 'BRICK':
-        result['ota_type'] = 3
-    else:
-        result['ota_type'] = 0
+	# 解析 OTA 类型
+	ota_type = meta_map.get('ota-type', '').upper()
+	if ota_type == 'AB':
+		result['ota_type'] = 1
+	elif ota_type == 'BLOCK':
+		result['ota_type'] = 2
+	elif ota_type == 'BRICK':
+		result['ota_type'] = 3
+	else:
+		result['ota_type'] = 0
 
-    # 解析 pre 条件
-    has_pre = any(k.startswith('pre-') for k in meta_map.keys())
-    if has_pre:
-        result['pre'] = {
-            'device': meta_map.get('pre-device', '').split(','),
-            'build': meta_map.get('pre-build', '').split(','),
-            'build_incremental': meta_map.get('pre-build-incremental', '')
-        }
+	# 解析 pre 条件
+	has_pre = any(k.startswith('pre-') for k in meta_map.keys())
+	if has_pre:
+		result['pre'] = {
+			'device': meta_map.get('pre-device', '').split(','),
+			'build': meta_map.get('pre-build', '').split(','),
+			'build_incremental': meta_map.get('pre-build-incremental', '')
+		}
 
-    # 解析 post 条件（安全补丁信息）
-    result['post'] = {
-        'device': meta_map.get('post-device', '').split(','),
-        'build': meta_map.get('post-build', '').split(','),
-        'build_incremental': meta_map.get('post-build-incremental', ''),
-        'timestamp': int(meta_map.get('post-timestamp', '0')),
-        'sdk_level': meta_map.get('post-sdk-level', ''),
-        'security_patch_level': meta_map.get('post-security-patch-level', '')
-    }
+	# 解析 post 条件（安全补丁信息）
+	result['post'] = {
+		'device': meta_map.get('post-device', '').split(','),
+		'build': meta_map.get('post-build', '').split(','),
+		'build_incremental': meta_map.get('post-build-incremental', ''),
+		'timestamp': int(meta_map.get('post-timestamp', '0')),
+		'sdk_level': meta_map.get('post-sdk-level', ''),
+		'security_patch_level': meta_map.get('post-security-patch-level', '')
+	}
 
-    return result
+	return result
 
 
 def extract_ota_metadata(url,filetype, timeout=20):
