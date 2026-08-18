@@ -379,7 +379,7 @@
 					"release": "2026-07-31",
 					"aspatch": "2026-08-01",
 					"recovery": "tornado_eea_global-ota_full-OS3.0.303.0.WPOEUXM-user-16.0-424aa548cf.zip",
-					"fastboot": ""
+					"fastboot": "tornado_eea_global_images_OS3.0.303.0.WPOEUXM_20260727.0000.00_16.0_eea_b880c7ef27.tgz"
 				},
 				"OS2.0.209.0.VPOEUXM": {
 					"os": "OS2.0.209.0.VPOEUXM",
@@ -645,6 +645,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WPOLMCR": {
+					"os": "OS3.0.303.0.WPOLMCR",
+					"android": "16.0",
+					"release": "2026-08-17",
+					"aspatch": "2026-08-01",
+					"recovery": "tornado_lm_cr_global-ota_full-OS3.0.303.0.WPOLMCR-user-16.0-0ec770dad0.zip",
+					"fastboot": ""
+				},
 				"OS3.0.301.0.WPOLMCR": {
 					"os": "OS3.0.301.0.WPOLMCR",
 					"android": "16.0",

@@ -677,6 +677,7 @@ flags = {
 	"yupei_demo": "yupei",
 	"turner_demo":"turner",
 	"turner": "turner",
+	"steppe": "steppe",
 	"onyx_tw_global": "onyx",
 	"onyx_ru_global": "onyx",
 	"onyx_id_global": "onyx",
