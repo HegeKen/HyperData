@@ -1,8 +1,36 @@
 {
   "recent": {
-    "time": "2026-08-19 16:56:17",
+    "time": "2026-08-20 01:19:46",
     "developing": "no",
     "roms": {
+      "myron": {
+        "name": {
+          "zh": "REDMI K90 Pro Max / POCO F8 Ultra",
+          "en": "REDMI K90 Pro Max / POCO F8 Ultra"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-08-20",
+            "version": "OS3.0.309.0.WPMCNXM"
+          },
+          {
+            "insert_date": "2026-08-17",
+            "version": "OS3.0.302.0.WPMTWXM"
+          },
+          {
+            "insert_date": "2026-08-17",
+            "version": "OS3.0.302.0.WPMMIXM"
+          },
+          {
+            "insert_date": "2026-08-17",
+            "version": "OS3.0.302.0.WPMIDXM"
+          },
+          {
+            "insert_date": "2026-08-14",
+            "version": "OS4.0.0.15.XPMCNXM"
+          }
+        ]
+      },
       "zircon": {
         "name": {
           "zh": "Redmi Note 13 Pro+ 5G",
@@ -68,10 +96,6 @@
           {
             "insert_date": "2026-08-14",
             "version": "OS3.0.336.0.XOSRUXM"
-          },
-          {
-            "insert_date": "2026-08-13",
-            "version": "OS3.0.336.0.XOSEUXM"
           }
         ]
       },
@@ -92,6 +116,38 @@
           {
             "insert_date": "2026-08-16",
             "version": "OS3.0.304.0.WAOMIXM"
+          }
+        ]
+      },
+      "aristotle": {
+        "name": {
+          "zh": "小米 13T",
+          "en": "Xiaomi 13T"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-08-19",
+            "version": "OS3.0.5.0.WMFMIXM"
+          },
+          {
+            "insert_date": "2026-08-19",
+            "version": "OS3.0.3.0.WMFEUXM"
+          },
+          {
+            "insert_date": "2026-08-14",
+            "version": "OS2.0.204.0.VMFLMCR"
+          }
+        ]
+      },
+      "aurora": {
+        "name": {
+          "zh": "小米 14 Ultra / Ultra Ti",
+          "en": "Xiaomi 14 Ultra"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-08-19",
+            "version": "OS3.0.306.0.WNACNXM"
           }
         ]
       },
@@ -432,10 +488,6 @@
           {
             "insert_date": "2026-08-17",
             "version": "OS3.0.302.0.WPWINXM"
-          },
-          {
-            "insert_date": "2026-08-13",
-            "version": "OS3.0.308.0.WPWCNXM"
           }
         ]
       },
@@ -484,10 +536,6 @@
           {
             "insert_date": "2026-08-14",
             "version": "OS3.0.303.0.WOVEUXM"
-          },
-          {
-            "insert_date": "2026-08-13",
-            "version": "OS3.0.307.0.WOVCNXM"
           }
         ]
       },
@@ -572,30 +620,6 @@
           {
             "insert_date": "2026-08-17",
             "version": "OS2.0.206.0.VMUINXM"
-          }
-        ]
-      },
-      "myron": {
-        "name": {
-          "zh": "REDMI K90 Pro Max / POCO F8 Ultra",
-          "en": "REDMI K90 Pro Max / POCO F8 Ultra"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-08-17",
-            "version": "OS3.0.302.0.WPMTWXM"
-          },
-          {
-            "insert_date": "2026-08-17",
-            "version": "OS3.0.302.0.WPMMIXM"
-          },
-          {
-            "insert_date": "2026-08-17",
-            "version": "OS3.0.302.0.WPMIDXM"
-          },
-          {
-            "insert_date": "2026-08-14",
-            "version": "OS4.0.0.15.XPMCNXM"
           }
         ]
       },
@@ -803,18 +827,6 @@
           }
         ]
       },
-      "aristotle": {
-        "name": {
-          "zh": "小米 13T",
-          "en": "Xiaomi 13T"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-08-14",
-            "version": "OS2.0.204.0.VMFLMCR"
-          }
-        ]
-      },
       "leedsa": {
         "name": {
           "zh": "REDMI 17 / POCO C95 Pro",
@@ -828,18 +840,6 @@
           {
             "insert_date": "2026-08-14",
             "version": "OS3.0.302.0.WDTRUXM"
-          }
-        ]
-      },
-      "duchamp": {
-        "name": {
-          "zh": "Redmi K70E / POCO X6 Pro 5G",
-          "en": "Redmi K70E / POCO X6 Pro 5G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-08-13",
-            "version": "OS3.0.9.0.WNLMIXM"
           }
         ]
       }
