@@ -97,6 +97,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WMLCNXM": {
+					"os": "OS3.0.304.0.WMLCNXM",
+					"android": "16.0",
+					"release": "2026-08-21",
+					"aspatch": "2026-08-01",
+					"recovery": "corot-ota_full-OS3.0.304.0.WMLCNXM-user-16.0-f17b8a57c8.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS3.0.303.0.WMLCNXM": {
 					"os": "OS3.0.303.0.WMLCNXM",
 					"android": "16.0",
@@ -660,7 +669,7 @@
 					"release": "2026-08-13",
 					"aspatch": "2026-07-01",
 					"recovery": "corot_tw_global-ota_full-OS3.0.301.0.WMLTWXM-user-16.0-c667412b7e.zip",
-					"fastboot": ""
+					"fastboot": "corot_tw_global_images_OS3.0.301.0.WMLTWXM_20260723.0000.00_16.0_tw_cd5bb0609f.tgz"
 				},
 				"OS3.0.3.0.WMLTWXM": {
 					"os": "OS3.0.3.0.WMLTWXM",
@@ -1268,7 +1277,7 @@
 					"release": "2026-08-13",
 					"aspatch": "2026-07-01",
 					"recovery": "corot_ru_global-ota_full-OS3.0.301.0.WMLRUXM-user-16.0-2e815c9b85.zip",
-					"fastboot": ""
+					"fastboot": "corot_ru_global_images_OS3.0.301.0.WMLRUXM_20260722.0000.00_16.0_ru_5176eab891.tgz"
 				},
 				"OS3.0.3.0.WMLRUXM": {
 					"os": "OS3.0.3.0.WMLRUXM",
@@ -1444,7 +1453,7 @@
 					"release": "2026-08-13",
 					"aspatch": "2026-07-01",
 					"recovery": "corot_tr_global-ota_full-OS3.0.301.0.WMLTRXM-user-16.0-144de8dfa0.zip",
-					"fastboot": ""
+					"fastboot": "corot_tr_global_images_OS3.0.301.0.WMLTRXM_20260723.0000.00_16.0_tr_f92797242b.tgz"
 				},
 				"OS3.0.3.0.WMLTRXM": {
 					"os": "OS3.0.3.0.WMLTRXM",
