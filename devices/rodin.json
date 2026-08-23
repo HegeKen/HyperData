@@ -289,6 +289,51 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "rodin_ep_stdee",
+			"brand": "Redmi",
+			"device": {
+				"zh": "REDMI Turbo 4",
+				"en": "REDMI Turbo 4"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS2.0.5.250207.VOJCNXM.EP.STDEE": {
+					"os": "OS2.0.5.250207.VOJCNXM.EP.STDEE",
+					"android": "15.0",
+					"release": "2025-02-21",
+					"aspatch": "2025-07-01",
+					"recovery": "rodin_ep_stdee-ota_full-OS2.0.5.250207.VOJCNXM.EP.STDEE-user-15.0-50f881b671.zip",
+					"fastboot": "rodin_ep_stdee_images_OS2.0.5.250207.VOJCNXM.EP.STDEE_20250207.0000.00_15.0_cn_598ea6cad2.tgz",
+					"ctelecom": "rodin_ep_stdee_images_OS2.0.5.250207.VOJCNXM.EP.STDEE_20250207.0000.00_15.0_cn_chinatelecom_a3196103d4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},

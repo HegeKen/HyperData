@@ -7,7 +7,8 @@
 	"code": "PO",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS2.2"
 	],
 	"android": [
 		"15.0",
@@ -156,6 +157,50 @@
 					"recovery": "tornado_demo-ota_full-OS2.0.201.0.VPOCNDM-user-15.0-3b0abe84aa.zip",
 					"fastboot": "tornado_demo_images_OS2.0.201.0.VPOCNDM_20250812.0000.00_15.0_cn_46f5999efe.tgz",
 					"ctelecom": "tornado_demo_images_OS2.0.201.0.VPOCNDM_20250812.0000.00_15.0_cn_chinatelecom_ff02486397.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "tornado_ep_stdee",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15R 5G",
+				"en": "REDMI 15R 5G"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS2.2.25.11.3.EP.STDEE.P15X": {
+					"os": "OS2.2.25.11.3.EP.STDEE.P15X",
+					"android": "15.0",
+					"release": "2025-12-25",
+					"aspatch": "2026-03-01",
+					"recovery": "tornado_ep_stdee-ota_full-OS2.2.25.11.3.EP.STDEE.P15X-user-15.0-4475c04a35.zip",
+					"fastboot": "tornado_ep_stdee_images_OS2.2.25.11.3.EP.STDEE.P15X_20251103.0000.00_15.0_cn_b21e16fe89.tgz",
+					"ctelecom": "tornado_ep_stdee_images_OS2.2.25.11.3.EP.STDEE.P15X_20251103.0000.00_15.0_cn_chinatelecom_0447aa20c5.tgz"
 				}
 			}
 		},
@@ -651,7 +696,7 @@
 					"release": "2026-08-17",
 					"aspatch": "2026-08-01",
 					"recovery": "tornado_lm_cr_global-ota_full-OS3.0.303.0.WPOLMCR-user-16.0-0ec770dad0.zip",
-					"fastboot": ""
+					"fastboot": "tornado_lm_cr_global_images_OS3.0.303.0.WPOLMCR_20260807.0000.00_16.0_lm_cr_8cbd962b5b.tgz"
 				},
 				"OS3.0.301.0.WPOLMCR": {
 					"os": "OS3.0.301.0.WPOLMCR",

@@ -183,6 +183,51 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "somalia_ep_stdee",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI R70 / REDMI R70m / REDMI 17 5G",
+				"en": "REDMI R70 / REDMI R70m / REDMI 17 5G"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS3.0.26.6.18.EP.STDEE.SOMALIA": {
+					"os": "OS3.0.26.6.18.EP.STDEE.SOMALIA",
+					"android": "16.0",
+					"release": "2026-06-29",
+					"aspatch": "2026-06-01",
+					"recovery": "somalia_ep_stdee-ota_full-OS3.0.26.6.18.EP.STDEE.SOMALIA-user-16.0-2ed3ea89f6.zip",
+					"fastboot": "somalia_ep_stdee-images-OS3.0.26.6.18.EP.STDEE.SOMALIA-user-20260618.0000.00-16.0-cn-4db35c5e94.tgz",
+					"ctelecom": "somalia_ep_stdee-images-OS3.0.26.6.18.EP.STDEE.SOMALIA-user-20260618.0000.00-16.0-cn_chinatelecom-a69b7c0063.tgz",
+					"cnmobile": "somalia_ep_stdee-images-OS3.0.26.6.18.EP.STDEE.SOMALIA-user-20260618.0000.00-16.0-cn_chinamobile-d90cc59a73.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},

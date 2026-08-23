@@ -569,6 +569,51 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "xuanyuan_ep_stdee",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Ultra",
+				"en": "Xiaomi 15 Ultra"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS2.0.103.250324.VOACNXM.EP.STDEE": {
+					"os": "OS2.0.103.250324.VOACNXM.EP.STDEE",
+					"android": "15.0",
+					"release": "2025-05-27",
+					"aspatch": "2025-01-01",
+					"recovery": "xuanyuan_ep_stdee-ota_full-OS2.0.103.250324.VOACNXM.EP.STDEE-user-15.0-f718077d60.zip",
+					"fastboot": "xuanyuan_ep_stdee_images_OS2.0.103.250324.VOACNXM.EP.STDEE_20250324.0000.00_15.0_cn_be4212df7e.tgz",
+					"ctelecom": "xuanyuan_ep_stdee_images_OS2.0.103.250324.VOACNXM.EP.STDEE_20250324.0000.00_15.0_cn_chinatelecom_6402b6b9ca.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},

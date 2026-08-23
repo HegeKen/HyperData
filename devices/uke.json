@@ -332,6 +332,49 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "uke_ep_stdee",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 7",
+				"en": "Xiaomi Pad 7"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS2.0.7.241126.VOZCNXM.EP.STDEE": {
+					"os": "OS2.0.7.241126.VOZCNXM.EP.STDEE",
+					"android": "15.0",
+					"release": "2024-12-12",
+					"aspatch": "2025-04-05",
+					"recovery": "uke_ep_stdee-ota_full-OS2.0.7.241126.VOZCNXM.EP.STDEE-user-15.0-06a3014057.zip",
+					"fastboot": "uke_ep_stdee_images_OS2.0.7.241126.VOZCNXM.EP.STDEE_20241126.0000.00_15.0_cn_869d6158fc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},

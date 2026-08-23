@@ -689,6 +689,15 @@ flags = {
 	"annibale_ep_stdee":"annibale",
 	"flourite_ep_stdee":"flourite",
 	"haotian_ep_stdee": "haotian",
+	"somalia_ep_stdee": "somalia",
+	"tornado_ep_stdee": "tornado",
+	"spring_ep_stdee": "spring",
+	"taiko_ep_stdee": "taiko",
+	"zorn_ep_stdee": "zorn",
+	"xuanyuan_ep_stdee": "xuanyuan",
+	"rodin_ep_stdee": "rodin",
+	"uke_ep_stdee": "uke",
+	"muyu_ep_stdee": "muyu",
 	"onyx_tw_global": "onyx",
 	"onyx_ru_global": "onyx",
 	"onyx_id_global": "onyx",
@@ -3155,6 +3164,7 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 	
 	target_branch_idx = None
 	target_branch = None
+	target_idtag = None
 	match_method = None
 	
 	if "CNXM" in version:
@@ -3162,7 +3172,15 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 			version_parts = version.split(".")
 			
 			# 优先检查特殊版本标识
-			if 'STABLE-DPP' in filename:
+			if '.EP.STDEE' in version or 'EPSTDE' in version:
+				# 政企版：通过 idtag 或 ep 字段匹配
+				for idx, branch_info in enumerate(devdata.get("branches", [])):
+					if branch_info.get("idtag") in ("EPSTD", "STDEE") or branch_info.get("ep") == "1":
+						target_branch_idx = idx
+						target_branch = branch_info
+						match_method = f"idtag:{branch_info.get('idtag')} (EP.STDEE)"
+						break
+			elif 'STABLE-DPP' in filename:
 				if "global" in filename:
 					target_idtag = "ADPG"
 				else:

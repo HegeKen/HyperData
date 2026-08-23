@@ -7,7 +7,8 @@
 	"code": "OU",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS2.2"
 	],
 	"android": [
 		"15.0",
@@ -91,6 +92,50 @@
 					"fastboot": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_e2e97a1c34.tgz",
 					"ctelecom": "spring_images_OS2.0.203.0.VOUCNXM_20250828.0000.00_15.0_cn_chinatelecom_f4b946645e.tgz",
 					"cnmobile": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "spring_ep_stdee",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15R 5G",
+				"en": "REDMI Note 15R 5G"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS2.2.25.10.30.EP.STDEE.O19": {
+					"os": "OS2.2.25.10.30.EP.STDEE.O19",
+					"android": "15.0",
+					"release": "2025-12-25",
+					"aspatch": "2025-08-01",
+					"recovery": "spring_ep_stdee-ota_full-OS2.2.25.10.30.EP.STDEE.O19-user-15.0-6d190dc9f6.zip",
+					"fastboot": "spring_ep_stdee_images_OS2.2.25.10.30.EP.STDEE.O19_20251030.0000.00_15.0_cn_3264a98253.tgz",
+					"ctelecom": "spring_ep_stdee_images_OS2.2.25.10.30.EP.STDEE.O19_20251030.0000.00_15.0_cn_chinatelecom_db98e9f53f.tgz"
 				}
 			}
 		},
