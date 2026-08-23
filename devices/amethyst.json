@@ -8,7 +8,8 @@
 	"supports": [
 		"OS1.0",
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS2.2"
 	],
 	"android": [
 		"14.0",
@@ -367,6 +368,51 @@
 					"recovery": "miui_AMETHYSTDEMO_OS1.0.2.0.UOPCNDM_e619f5ea0b_14.0.zip",
 					"fastboot": "amethyst_demo_images_OS1.0.2.0.UOPCNDM_20240920.0000.00_14.0_cn_7b8476ca47.tgz",
 					"ctelecom": "amethyst_demo_images_OS1.0.2.0.UOPCNDM_20240920.0000.00_14.0_cn_chinatelecom_d07aa6485e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "amethyst_ep_stdee",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 14 Pro+",
+				"en": "Redmi Note 14 Pro+"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS2.2.25.11.10.EP.STDEE.O16U": {
+					"os": "OS2.2.25.11.10.EP.STDEE.O16U",
+					"android": "15.0",
+					"release": "2025-11-13",
+					"aspatch": "2026-06-01",
+					"recovery": "amethyst_ep_stdee-ota_full-OS2.2.25.11.10.EP.STDEE.O16U-user-15.0-6990e086ed.zip",
+					"fastboot": "amethyst_ep_stdee_images_OS2.2.25.11.10.EP.STDEE.O16U_20251110.0000.00_15.0_cn_01cdbb691f.tgz",
+					"ctelecom": "amethyst_ep_stdee_images_OS2.2.25.11.10.EP.STDEE.O16U_20251110.0000.00_15.0_cn_chinatelecom_125b2fa36f.tgz"
 				}
 			}
 		},

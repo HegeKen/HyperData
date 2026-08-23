@@ -7,7 +7,8 @@
 	"code": "PR",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS3.1"
 	],
 	"android": [
 		"15.0",
@@ -235,6 +236,53 @@
 					"recovery": "flourite_demo-ota_full-OS2.0.203.0.VPRCNDM-user-15.0-e10a04acbb.zip",
 					"fastboot": "flourite_demo_images_OS2.0.203.0.VPRCNDM_20250818.0000.00_15.0_cn_8fe05b36ad.tgz",
 					"ctelecom": "flourite_demo_images_OS2.0.203.0.VPRCNDM_20250818.0000.00_15.0_cn_chinatelecom_9389168c0a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "flourite_ep_stdee",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro+ 5G",
+				"en": "REDMI Note 15 Pro+ 5G"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom",
+				"cnmobile"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS3.1.26.7.15.EP.STDEE.P16U": {
+					"os": "OS3.1.26.7.15.EP.STDEE.P16U",
+					"android": "16.0",
+					"release": "2026-07-17",
+					"aspatch": "2026-12-01",
+					"recovery": "flourite_ep_stdee-ota_full-OS3.1.26.7.15.EP.STDEE.P16U-user-16.0-ebcf2f19ff.zip",
+					"fastboot": "flourite_ep_stdee_images_OS3.1.26.7.15.EP.STDEE.P16U_20260715.0000.00_16.0_cn_4a8c6a7a76.tgz",
+					"ctelecom": "flourite_ep_stdee_images_OS3.1.26.7.15.EP.STDEE.P16U_20260715.0000.00_16.0_cn_chinatelecom_f4103c001b.tgz",
+					"cnmobile": "flourite_ep_stdee_images_OS3.1.26.7.15.EP.STDEE.P16U_20260715.0000.00_16.0_cn_chinamobile_334a21c956.tgz"
 				}
 			}
 		},

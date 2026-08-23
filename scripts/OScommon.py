@@ -428,6 +428,13 @@ branches = [
 		"zone": "2"
 	},
 	{
+		"code": "_ep_stdee",
+		"tag": "STDEE",
+		"region": "cn",
+		"carrier": [""],
+		"zone": "1"
+	},
+	{
 		"code": "_cl_en_global",
 		"tag": "LMCR",
 		"region": "lm",
@@ -678,6 +685,10 @@ flags = {
 	"turner_demo":"turner",
 	"turner": "turner",
 	"steppe": "steppe",
+	"amethyst_ep_stdee":"amethyst",
+	"annibale_ep_stdee":"annibale",
+	"flourite_ep_stdee":"flourite",
+	"haotian_ep_stdee": "haotian",
 	"onyx_tw_global": "onyx",
 	"onyx_ru_global": "onyx",
 	"onyx_id_global": "onyx",
@@ -1614,6 +1625,8 @@ flags = {
 	"sheng_ru_global":"sheng",
 	"GOLDINGlobal":"gold",
 	"gold_in_global":"gold",
+	"gold_th_as_global":"gold",
+	"GOLDTHASGlobal":"gold",
 	"fleur_tw_global":"fleur",
 	"FLEURTWGlobal":"fleur",
 	"BREEZE":"breeze",
@@ -2861,7 +2874,9 @@ def getData(filename):
 								build_num = int(parts[3]) if len(parts) > 3 else 0
 								revision_num = int(parts[2]) if len(parts) > 2 else 0
 								
-								if 'STABLE-DPP' in ver:
+								if '.EP.STDEE' in ver or 'EPSTDE' in ver:
+										tag = 'EPSTD'  # 政企版
+								elif 'STABLE-DPP' in ver:
 										tag = 'ADPC'  # 稳定版
 								# build为0且revision<300是正式版(CnOO)，否则是测试版(CnOB)
 								elif build_num == 0:
@@ -3805,6 +3820,11 @@ def getChangelog2DB(encrypted_data, device, version):
 	
 	data = miui_decrypt(response.text.split("q=")[0])
 	if "CurrentRom" in data:
+		# 顺便检测卡刷包
+		recovery_filename = data["CurrentRom"].get("filename", "")
+		if recovery_filename:
+			recovery_filename = recovery_filename.split("?")[0]
+			checkExist(recovery_filename)
 		if "changelog" in data['CurrentRom'] and data['CurrentRom']['version'] == version:
 			log = data["CurrentRom"]["changelog"]
 		elif "changelog" in data['LatestRom'] and data['LatestRom']['version'] == version:
@@ -3812,6 +3832,11 @@ def getChangelog2DB(encrypted_data, device, version):
 		else:
 			return False
 	elif "LatestRom" in data:
+		# 顺便检测卡刷包
+		recovery_filename = data["LatestRom"].get("filename", "")
+		if recovery_filename:
+			recovery_filename = recovery_filename.split("?")[0]
+			checkExist(recovery_filename)
 		log = data["LatestRom"]["changelog"]
 	else:
 		return False
@@ -3954,22 +3979,25 @@ def entryChecker(data,device):
 								
 								elif "OS2." in os_version:
 									# 对于OS2版本，按照原始逻辑处理
-									try:
-										version_parts = os_version.split(".")
-										if len(version_parts) >= 4:
-											build_number = int(version_parts[3])
-											
-											# 严格按照build_number判断正式版还是Beta版
-											# 只有当build_number == 0时才归类为正式版（CnOO），其余所有情况均属于Beta版（CnOB）
-											if build_number == 0:
-												expected_tag = "CnOO"  # 正式版
-											else:
-												expected_tag = "CnOB"  # Beta版
-									
-									except (ValueError, IndexError):
-										# 版本号格式不正确，无法解析
-										print(device, bname, os_version, "版本号格式不正确，无法解析")
-										check.append(1)
+									if ".EP." in os_version or "EPSTDE" in os_version:
+										expected_tag = "EPSTD"  # 政企版
+									else:
+										try:
+											version_parts = os_version.split(".")
+											if len(version_parts) >= 4:
+												build_number = int(version_parts[3])
+												
+												# 严格按照build_number判断正式版还是Beta版
+												# 只有当build_number == 0时才归类为正式版（CnOO），其余所有情况均属于Beta版（CnOB）
+												if build_number == 0:
+													expected_tag = "CnOO"  # 正式版
+												else:
+													expected_tag = "CnOB"  # Beta版
+										
+										except (ValueError, IndexError):
+											# 版本号格式不正确，无法解析
+											print(device, bname, os_version, "版本号格式不正确，无法解析")
+											check.append(1)
 								
 								else:
 									# 其他情况，尝试通用处理
@@ -3992,7 +4020,7 @@ def entryChecker(data,device):
 								# 检查分支的idtag是否与预期相符（仅当expected_tag已设置时）
 								actual_idtag = branch.get('idtag')
 								if actual_idtag is not None and expected_tag is not None and actual_idtag != expected_tag:
-									if actual_idtag == "ADPC" or actual_idtag == "ADPG" or actual_idtag == "STDEE":
+									if actual_idtag in ("ADPC", "ADPG", "STDEE", "EPSTD"):
 										i = 0
 									else:
 										print(device, bname, os_version, f"版本号标识不匹配: 期望 {expected_tag}, 实际 {actual_idtag}")

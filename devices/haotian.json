@@ -788,6 +788,51 @@
 					"ctelecom": "haotian_demo_images_OS2.0.4.0.VOBCNDM_20241026.0000.00_15.0_cn_chinatelecom_42080a7ea0.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "haotian_ep_stdee",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15 Pro",
+				"en": "Xiaomi 15 Pro"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS2.0.7.241219.VOBCNXM.EP.STDEE": {
+					"os": "OS2.0.7.241219.VOBCNXM.EP.STDEE",
+					"android": "15.0",
+					"release": "2025-03-24",
+					"aspatch": "2025-06-05",
+					"recovery": "haotian_ep_stdee-ota_full-OS2.0.7.241219.VOBCNXM.EP.STDEE-user-15.0-88d3ff5495.zip",
+					"fastboot": "haotian_ep_stdee_images_OS2.0.7.241219.VOBCNXM.EP.STDEE_20241219.0000.00_15.0_cn_bfde95f1d4.tgz",
+					"ctelecom": "haotian_ep_stdee_images_OS2.0.7.241219.VOBCNXM.EP.STDEE_20241219.0000.00_15.0_cn_chinatelecom_7bb42e46f6.tgz"
+				}
+			}
 		}
 	]
 }

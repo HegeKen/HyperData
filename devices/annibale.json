@@ -308,6 +308,51 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "annibale_ep_stdee",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K90",
+				"en": "REDMI K90"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS3.0.25.12.24.EP.STDEE.P11": {
+					"os": "OS3.0.25.12.24.EP.STDEE.P11",
+					"android": "16.0",
+					"release": "2026-05-26",
+					"aspatch": "2026-04-01",
+					"recovery": "annibale_ep_stdee-ota_full-OS3.0.25.12.24.EP.STDEE.P11-user-16.0-fdbe8ba553.zip",
+					"fastboot": "annibale_ep_stdee_images_OS3.0.25.12.24.EP.STDEE.P11_20251224.0000.00_16.0_cn_a288524ec5.tgz",
+					"ctelecom": "annibale_ep_stdee_images_OS3.0.25.12.24.EP.STDEE.P11_20251224.0000.00_16.0_cn_chinatelecom_5b430f832a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 中国台湾省正式版",
 				"en": "Xiaomi HyperOS China Taiwan Province Stable"
 			},
