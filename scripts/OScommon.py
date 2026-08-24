@@ -3950,8 +3950,23 @@ def entryChecker(data,device):
 				if len(branch['roms']) == 0:
 					i = 0
 				elif len(branch['table']) != len(branch['roms'][next(iter(branch['roms']))]) :
-					print(device, bname,next(iter(roms)), "菜单项与ROM实际不符")
-					check.append(1)
+					# 自动修复：收集所有 ROM 条目的字段并集，补全 table 缺失项
+					all_rom_keys = []
+					for rom_info in branch['roms'].values():
+						for key in rom_info.keys():
+							if key not in all_rom_keys:
+								all_rom_keys.append(key)
+					missing = [k for k in all_rom_keys if k not in branch['table']]
+					if missing:
+						branch['table'].extend(missing)
+						menu_items = branch['table']
+						device_file = get_platform_path(f"public/data/devices/{device}.json")
+						with open(device_file, 'w', encoding='utf-8') as f:
+							json.dump(data, f, ensure_ascii=False, indent='\t')
+						print(f"✓ 已修复 {device} {bname} 的 table: 补充了 {missing}")
+					else:
+						print(device, bname, next(iter(roms)), "菜单项与ROM实际不符（无法自动修复）")
+						check.append(1)
 				else:
 					if len(menu_items) != len(set(menu_items)):
 						print(device, bname, "菜单项重复")

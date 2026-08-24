@@ -951,7 +951,7 @@
 					"release": "2026-08-14",
 					"aspatch": "2026-08-01",
 					"recovery": "pudding_ru_global-ota_full-OS3.0.303.0.WPCRUXM-user-16.0-1f3fac29d6.zip",
-					"fastboot": ""
+					"fastboot": "pudding_ru_global_images_OS3.0.303.0.WPCRUXM_20260731.0000.00_16.0_ru_7f58c980f8.tgz"
 				},
 				"OS3.0.302.0.WPCRUXM": {
 					"os": "OS3.0.302.0.WPCRUXM",
@@ -1119,7 +1119,7 @@
 					"release": "2026-08-14",
 					"aspatch": "2026-08-01",
 					"recovery": "pudding_id_global-ota_full-OS3.0.303.0.WPCIDXM-user-16.0-3299262bd9.zip",
-					"fastboot": ""
+					"fastboot": "pudding_id_global_images_OS3.0.303.0.WPCIDXM_20260731.0000.00_16.0_id_480d1330dd.tgz"
 				},
 				"OS3.0.302.0.WPCIDXM": {
 					"os": "OS3.0.302.0.WPCIDXM",
@@ -1185,6 +1185,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WPCTRXM": {
+					"os": "OS3.0.303.0.WPCTRXM",
+					"android": "16.0",
+					"release": "2026-08-19",
+					"aspatch": "2026-08-01",
+					"recovery": "pudding_tr_global-ota_full-OS3.0.303.0.WPCTRXM-user-16.0-7a0ef166da.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WPCTRXM": {
 					"os": "OS3.0.302.0.WPCTRXM",
 					"android": "16.0",
@@ -1255,7 +1263,7 @@
 					"release": "2026-08-17",
 					"aspatch": "2026-08-01",
 					"recovery": "pudding_lm_cr_global-ota_full-OS3.0.303.0.WPCLMCR-user-16.0-266cf94397.zip",
-					"fastboot": ""
+					"fastboot": "pudding_lm_cr_global_images_OS3.0.303.0.WPCLMCR_20260804.0000.00_16.0_lm_cr_95ed8f2fa2.tgz"
 				},
 				"OS3.0.302.0.WPCLMCR": {
 					"os": "OS3.0.302.0.WPCLMCR",
