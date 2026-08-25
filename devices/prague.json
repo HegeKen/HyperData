@@ -104,6 +104,51 @@
 					"ctelecom": "prague_images_OS3.0.304.0.WAACNXM_20260412.0000.00_16.0_cn_chinatelecom_79922b2316.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "prague_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K90 Max",
+				"en": "REDMI K90 Max"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS3.0.306.0.WAACNDM": {
+					"os": "OS3.0.306.0.WAACNDM",
+					"android": "16.0",
+					"release": "2026-04-21",
+					"aspatch": "2026-04-01",
+					"recovery": "prague_demo-ota_full-OS3.0.306.0.WAACNDM-user-16.0-41313e0d15.zip",
+					"fastboot": "prague_demo_images_OS3.0.306.0.WAACNDM_20260418.0000.00_16.0_cn_0767b2bd90.tgz",
+					"ctelecom": "prague_demo_images_OS3.0.306.0.WAACNDM_20260418.0000.00_16.0_cn_chinatelecom_0d0468ad30.tgz"
+				}
+			}
 		}
 	]
 }
