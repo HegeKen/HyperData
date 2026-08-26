@@ -173,8 +173,8 @@ miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
-unreleased = ['mist', 'iolite', 'moscow', 'brussels', 'chicago', 'pond', 'warsaw', 'suiren', 'zephyr', 'coral']
-currentStable = ['athens', 'songyuan', 'steppe', 'leedsa', 'mist', 'iolite', 'moscow', 'brussels', 'chicago', 'pond',
+unreleased = ['lhasa', 'moscow', 'brussels', 'chicago', 'pond', 'suiren', 'zephyr', 'coral']
+currentStable = ['brussels', 'chicago','lhasa', 'athens', 'songyuan', 'steppe', 'leedsa', 'mist', 'iolite', 'moscow',  'pond',
 								 'warsaw', 'chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew',
 								 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou',  'spring', 'lapis', 'kunzite',
@@ -211,7 +211,7 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'dew', 'tornado', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
 				 'sweet_k6a', 'sea', 'gold', 'breeze', 'garnet', 'emerald', 'zircon', 'tanzanite', 'obsidian', 'beryl', 'malachite', 'amethyst', 'sapphire', 'sapphiren', 'emerald_r', 'spinel',
-				 'kunzite', 'lapis', 'coral', 'flourite', 'mist', 'iolite', 'peridot', 'rodin', 'onyx', 'klee', 'dash', 'alioth',
+				 'kunzite', 'lapis', 'coral', 'flourite', 'mist', 'iolite', 'brussels', 'peridot', 'rodin', 'onyx', 'klee', 'dash', 'alioth',
 				 'charoite', 'haydn', 'ares', 'munch', 'rubens', 'matisse', 'ingres', 'diting', 'rembrandt', 'mondrian', 'socrates', 'corot', 'duchamp',
 				 'vermeer', 'manet', 'rothko', 'zorn', 'miro', 'dali', 'annibale', 'prague', 'warsaw', 'myron',
 				 'yunluo', 'xun', 'erhu', 'guitar', 'flare', 'spark', 'koto', 'taiko', 'flute', 'organ', 'dizi', 'ruan', 'turner', 'yili', 'warm', 'serenity', 'arctic', 'somalia', 'evergreen', 'rock', 'moonstone']
@@ -488,6 +488,7 @@ flags = {
 	"HOUJIGlobal": "houji",
 	"myron": "myron",
 	"koto_id_global": "koto",
+	"mist_eea_global": "mist",
 	"arctic_in_global": "arctic",
 	"somalia": "somalia",
 	"spring_tr_global": "spring",
@@ -2128,6 +2129,7 @@ flags = {
 	"ROCKTRGlobal": "rock",
 	"SWEETK6AEEAGlobal": "sweet_k6a",
 	"fire_ru_global": "fire",
+	"brussels_eea_global": "brussels",
 	"earth_eea_global": "earth",
 	"FIRERUGlobal": "fire",
 	"fire_id_global": "fire",

@@ -21,10 +21,10 @@
     function switchLanguage(lang) {
       // 保存语言偏好到 localStorage
       localStorage.setItem('preferred-language', lang);
-      
+
       // 更新 HTML lang 属性
       document.documentElement.lang = lang;
-      
+
       // 更新所有带有 lang-text 类的元素
       const elements = document.querySelectorAll('.lang-text');
       elements.forEach(el => {
@@ -33,7 +33,7 @@
           el.textContent = ' ' + text + ' ';
         }
       });
-      
+
       // 更新设备芯片中的文本
       const chips = document.querySelectorAll('.mdui-chip');
       chips.forEach(chip => {
@@ -45,25 +45,25 @@
           }
         }
       });
-      
+
       // 更新页面标题
       const title = lang === 'zh' ? 'HyperOS ROMS 数据' : 'HyperOS ROMS Data';
       document.title = title;
       document.querySelector('.mdui-typo-title').textContent = title;
-      
+
       // 更新语言切换按钮文本
       const langBtn = document.getElementById('lang-switch-btn');
       if (langBtn) {
         langBtn.innerHTML = '<i class="mdui-icon material-icons">language</i> ' + (lang === 'zh' ? 'English' : '中文');
       }
-      
+
       // 更新底部链接文本
       updateFooterLinks(lang);
-      
+
       // 更新免责声明 - 动态获取当前年份
       updateDisclaimer(lang);
     }
-    
+
     function updateFooterLinks(lang) {
       const links = {
         'weibo': lang === 'zh' ? '微博' : 'Weibo',
@@ -71,7 +71,7 @@
         'bilibili': lang === 'zh' ? '哔哩哔哩' : 'Bilibili',
         'backtotop': lang === 'zh' ? '返回顶部' : 'Back to Top'
       };
-      
+
       document.querySelectorAll('.mdui-bottom-nav a label').forEach(label => {
         const parent = label.parentElement;
         if (parent.href.includes('weibo')) label.textContent = links.weibo;
@@ -80,22 +80,22 @@
         else if (parent.href.includes('#top')) label.textContent = links.backtotop;
       });
     }
-    
+
     function updateDisclaimer(lang) {
       // 获取当前年份
       const currentYear = new Date().getFullYear();
-      const disclaimer = lang === 'zh' 
+      const disclaimer = lang === 'zh'
         ? '2023 - ' + currentYear + ' -- 非小米集团旗下网站 . 我们与小米以及Hyper<span class="HyperBlue"> OS</span>开发团队没有任何联系'
         : '2023 - ' + currentYear + ' -- This is NOT an official website of Xiaomi Group. We have no affiliation with Xiaomi or the HyperOS development team.';
-      
+
       const fsElement = document.querySelector('.mdui-bottom-nav.fs .mdui-text-center');
       if (fsElement) {
         fsElement.innerHTML = disclaimer;
       }
     }
-    
+
     // 页面加载时应用保存的语言偏好
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const savedLang = localStorage.getItem('preferred-language') || 'zh';
       if (savedLang !== 'zh') {
         switchLanguage(savedLang);
@@ -291,6 +291,7 @@
                 <div class="mdui-chip" data-name-zh="REDMI Note 15 Pro 4G(charoite)" data-name-en="REDMI Note 15 Pro 4G(charoite)"><a href="devices/charoite.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 15 Pro 4G(charoite)" data-lang-en="REDMI Note 15 Pro 4G(charoite)"> REDMI Note 15 Pro 4G(charoite) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI Note 17 5G(mist)" data-name-en="REDMI Note 17 5G(mist)"><a href="devices/mist.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 17 5G(mist)" data-lang-en="REDMI Note 17 5G(mist)"> REDMI Note 17 5G(mist) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI Note 17 Pro 5G(iolite)" data-name-en="REDMI Note 17 Pro 5G(iolite)"><a href="devices/iolite.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 17 Pro 5G(iolite)" data-lang-en="REDMI Note 17 Pro 5G(iolite)"> REDMI Note 17 Pro 5G(iolite) </span></a></div>
+                <div class="mdui-chip" data-name-zh="REDMI Note 17 Pro(brussels)" data-name-en="REDMI Note 17 Pro Max(brussels)"><a href="devices/brussels.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Note 17 Pro Max(brussels)" data-lang-en="REDMI Note 17 Pro Max(brussels)"> REDMI Note 17 Pro Max(brussels) </span></a></div>
                 <div class="series HyperBlue lang-text" data-lang-zh="Redmi Turbo系列：" data-lang-en="Redmi Turbo Series: "> Redmi Turbo系列：</div>
                 <div class="mdui-chip" data-name-zh="Redmi Turbo 3(peridot)" data-name-en="Redmi Turbo 3(peridot)"><a href="devices/peridot.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi Turbo 3(peridot)" data-lang-en="Redmi Turbo 3(peridot)"> Redmi Turbo 3(peridot) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI Turbo 4(rodin)" data-name-en="REDMI Turbo 4(rodin)"><a href="devices/rodin.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI Turbo 4(rodin)" data-lang-en="REDMI Turbo 4(rodin)"> REDMI Turbo 4(rodin) </span></a></div>
@@ -331,6 +332,8 @@
                 <div class="mdui-chip" data-name-zh="REDMI K90 Max(prague)" data-name-en="REDMI K90 Max(prague)"><a href="devices/prague.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI K90 Max(prague)" data-lang-en="REDMI K90 Max(prague)"> REDMI K90 Max(prague) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI K90 至尊版(warsaw)" data-name-en="REDMI K90 Ultra(warsaw)"><a href="devices/warsaw.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI K90 至尊版(warsaw)" data-lang-en="REDMI K90 Ultra(warsaw)"> REDMI K90 至尊版(warsaw) </span></a></div>
                 <div class="mdui-chip" data-name-zh="REDMI K90 Pro Max(myron)" data-name-en="REDMI K90 Pro Max(myron)"><a href="devices/myron.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI K90 Pro Max(myron)" data-lang-en="REDMI K90 Pro Max(myron)"> REDMI K90 Pro Max(myron) </span></a></div>
+                <div class="mdui-chip" data-name-zh="REDMI K100 Pro(athens)" data-name-en="REDMI K100 Pro(athens)"><a href="devices/athens.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI K100 Pro(athens)" data-lang-en="REDMI K100 Pro(athens)"> REDMI K100 Pro(athens) </span></a></div>
+                <div class="mdui-chip" data-name-zh="REDMI K100 Pro Max(songyuan)" data-name-en="REDMI K100 Pro Max(songyuan)"><a href="devices/songyuan.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="REDMI K100 Pro Max(songyuan)" data-lang-en="REDMI K100 Pro Max(songyuan)"> REDMI K100 Pro Max(songyuan) </span></a></div>
                 <div class="series HyperBlue lang-text" data-lang-zh="REDMI 平板系列：" data-lang-en="REDMI Pad Series: "> REDMI 平板系列：</div>
                 <div class="mdui-chip" data-name-zh="Redmi 平板(yunluo)" data-name-en="Redmi Pad(yunluo)"><a href="devices/yunluo.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 平板(yunluo)" data-lang-en="Redmi Pad(yunluo)"> Redmi 平板(yunluo) </span></a></div>
                 <div class="mdui-chip" data-name-zh="Redmi 平板 SE(xun)" data-name-en="Redmi Pad SE(xun)"><a href="devices/xun.json"><span class="mdui-chip-title HyperBlue lang-text" data-lang-zh="Redmi 平板 SE(xun)" data-lang-en="Redmi Pad SE(xun)"> Redmi 平板 SE(xun) </span></a></div>
@@ -419,11 +422,11 @@
         <!-- 此处结束自动化替换 -->
         <div><br> <br> <br>
           <div class="mdui-bottom-nav footer mdui-color-grey-100">
-            <a href="https://github.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-GitHub fic"></i><label>GitHub</label></a> 
-            <a href="https://gitlab.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-gitlab fic"></i><label>GitLab</label></a> 
-            <a href="https://weibo.com/Heliljan" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-weibo fic"></i><label>微博</label></a> 
-            <a href="https://web.vip.miui.com/page/info/mio/mio/homePage?uid=311975809" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-MiBBS fic"></i><label>小米社区</label></a> 
-            <a href="https://space.bilibili.com/19940729" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-bilibili fic"></i><label>哔哩哔哩</label></a> 
+            <a href="https://github.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-GitHub fic"></i><label>GitHub</label></a>
+            <a href="https://gitlab.com/HegeKen" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-gitlab fic"></i><label>GitLab</label></a>
+            <a href="https://weibo.com/Heliljan" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-weibo fic"></i><label>微博</label></a>
+            <a href="https://web.vip.miui.com/page/info/mio/mio/homePage?uid=311975809" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-MiBBS fic"></i><label>小米社区</label></a>
+            <a href="https://space.bilibili.com/19940729" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon icon-bilibili fic"></i><label>哔哩哔哩</label></a>
             <a href="#top" class="mdui-ripple mdui-bottom-nav-active"><i class="mdui-icon material-icons">arrow_upward</i><label>返回顶部</label></a>
           </div>
           <div class="mdui-bottom-nav footer mdui-color-grey-100 fs">

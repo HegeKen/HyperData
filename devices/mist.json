@@ -56,9 +56,9 @@
 					"release": "2026-08-20",
 					"aspatch": "2026-08-01",
 					"recovery": "mist-ota_full-OS3.0.311.0.WPUCNXM-user-16.0-d19f9040d8.zip",
-					"fastboot": "",
-					"ctelecom": "",
-					"cnmobile": ""
+					"fastboot": "mist_images_OS3.0.311.0.WPUCNXM_20260815.0000.00_16.0_cn_e548d30d2c.tgz",
+					"ctelecom": "mist_images_OS3.0.311.0.WPUCNXM_20260815.0000.00_16.0_cn_chinatelecom_98dba73c9e.tgz",
+					"cnmobile": "mist_images_OS3.0.311.0.WPUCNXM_20260815.0000.00_16.0_cn_chinamobile_44811063d9.tgz"
 				},
 				"OS3.0.310.0.WPUCNXM": {
 					"os": "OS3.0.310.0.WPUCNXM",
@@ -136,6 +136,46 @@
 					"fastboot": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_03c8db4704.tgz",
 					"ctelecom": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_chinatelecom_9da209b496.tgz",
 					"cnmobile": "mist_demo_images_OS3.0.302.0.WPUCNDM_20260603.0000.00_16.0_cn_chinamobile_1989d3b863.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "mist_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 5G",
+				"en": "REDMI Note 17 5G"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WPUEUXM": {
+					"os": "OS3.0.303.0.WPUEUXM",
+					"android": "16.0",
+					"release": "2026-07-31",
+					"aspatch": "2026-06-01",
+					"recovery": "mist_eea_global-ota_full-OS3.0.303.0.WPUEUXM-user-16.0-9df43f6521.zip",
+					"fastboot": ""
 				}
 			}
 		},

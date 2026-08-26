@@ -1,53 +1,59 @@
 {
-  "device": "brussels",
-  "name": {
-    "zh": "REDMI Note 17 Pro",
-    "en": "REDMI Note 17 Pro"
-  },
-  "code": "",
-  "supports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "brussels",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 17 Pro",
-        "en": "REDMI Note 17 Pro"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {}
-    }
-  ]
+	"device": "brussels",
+	"name": {
+		"zh": "REDMI Note 17 Pro Max",
+		"en": "REDMI Note 17 Pro Max"
+	},
+	"code": "DR",
+	"supports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "brussels_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WDREUXM": {
+					"os": "OS3.0.304.0.WDREUXM",
+					"android": "16.0",
+					"release": "2026-08-26",
+					"aspatch": "2026-07-01",
+					"recovery": "brussels_eea_global-ota_full-OS3.0.304.0.WDREUXM-user-16.0-3847991535.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
 }
