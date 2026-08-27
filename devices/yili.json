@@ -6,15 +6,60 @@
 	},
 	"code": "AK",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "tablet",
 	"miui": "no",
 	"merged": "no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "yili",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K Pad 2",
+				"en": "REDMI K Pad 2"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.0.6.XAKCNXM": {
+					"os": "OS4.0.0.6.XAKCNXM",
+					"android": "17.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-08-01",
+					"recovery": "yili-ota_full-OS4.0.0.6.XAKCNXM-user-17.0-b8e42fc0ec.zip",
+					"fastboot": ""
+				}
+			}
+		},
 		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",

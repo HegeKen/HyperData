@@ -6,10 +6,12 @@
 	},
 	"code": "PT",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -48,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.10.XPTCNXM": {
+					"os": "OS4.0.0.10.XPTCNXM",
+					"android": "17.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-08-01",
+					"recovery": "chagall-ota_full-OS4.0.0.10.XPTCNXM-user-17.0-97cfcf9df5.zip",
+					"fastboot": ""
+				},
 				"OS3.0.307.5.WPTCNXM": {
 					"os": "OS3.0.307.5.WPTCNXM",
 					"android": "16.0",

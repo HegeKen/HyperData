@@ -17,6 +17,126 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "brussels_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WDRTWXM": {
+					"os": "OS3.0.303.0.WDRTWXM",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-07-01",
+					"recovery": "brussels_tw_global-ota_full-OS3.0.303.0.WDRTWXM-user-16.0-c20b81b34a.zip",
+					"fastboot": "brussels_tw_global_images_OS3.0.303.0.WDRTWXM_20260819.0000.00_16.0_tw_50941f0d6a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "brussels_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WDRMIXM": {
+					"os": "OS3.0.303.0.WDRMIXM",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-07-01",
+					"recovery": "brussels_global-ota_full-OS3.0.303.0.WDRMIXM-user-16.0-c691013cdd.zip",
+					"fastboot": "brussels_global_images_OS3.0.303.0.WDRMIXM_20260819.0000.00_16.0_global_4c0ac0240f.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "brussels_dc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WDRMIDC": {
+					"os": "OS3.0.302.0.WDRMIDC",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-07-01",
+					"recovery": "brussels_dc_global-ota_full-OS3.0.302.0.WDRMIDC-user-16.0-11b5d4d89c.zip",
+					"fastboot": "brussels_dc_global_images_OS3.0.302.0.WDRMIDC_20260821.0000.00_16.0_global_dc_74ab40f025.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -51,7 +171,47 @@
 					"release": "2026-08-26",
 					"aspatch": "2026-07-01",
 					"recovery": "brussels_eea_global-ota_full-OS3.0.304.0.WDREUXM-user-16.0-3847991535.zip",
-					"fastboot": ""
+					"fastboot": "brussels_eea_global_images_OS3.0.304.0.WDREUXM_20260725.0000.00_16.0_eea_e1c5134923.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "brussels_jp_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "JAPS",
+			"tag": "JPXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WDRJPXM": {
+					"os": "OS3.0.303.0.WDRJPXM",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-07-01",
+					"recovery": "brussels_jp_global-ota_full-OS3.0.303.0.WDRJPXM-user-16.0-d492b7455d.zip",
+					"fastboot": "brussels_jp_global_images_OS3.0.303.0.WDRJPXM_20260821.0000.00_16.0_jp_a0cfa9b1e3.tgz"
 				}
 			}
 		}

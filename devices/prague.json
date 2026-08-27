@@ -6,15 +6,60 @@
 	},
 	"code": "AA",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
 	"merged": "no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "prague",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K90 Max",
+				"en": "REDMI K90 Max"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.0.3.XAACNXM": {
+					"os": "OS4.0.0.3.XAACNXM",
+					"android": "17.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-08-01",
+					"recovery": "prague-ota_full-OS4.0.0.3.XAACNXM-user-17.0-ac2d605793.zip",
+					"fastboot": ""
+				}
+			}
+		},
 		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",

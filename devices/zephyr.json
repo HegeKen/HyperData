@@ -1,15 +1,15 @@
 {
   "device": "zephyr",
   "name": {
-    "zh": "REDMI R70 5G",
-    "en": "REDMI R70 5G"
+    "zh": "REDMI Note 17",
+    "en": "REDMI Note 17"
   },
-  "code": "",
+  "code": "BU",
   "supports": [
-    "OS2.0"
+    "OS3.0"
   ],
   "android": [
-    "15.0"
+    "16.0"
   ],
   "type": "phone",
   "miui": "no",
@@ -17,46 +17,34 @@
   "branches": [
     {
       "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
+        "zh": "小米澎湃 OS 国际正式版",
+        "en": "Xiaomi HyperOS Global Stable"
       },
-      "branchCode": "zephyr",
+      "branchCode": "zephyr_global",
       "brand": "REDMI",
       "device": {
-        "zh": "REDMI R70 5G",
-        "en": "REDMI R70 5G"
+        "zh": "REDMI Note 17",
+        "en": "REDMI Note 17"
       },
-      "idtag": "CnOO",
-      "tag": "CNXM",
+      "idtag": "GBOO",
+      "tag": "MIXM",
       "branchtag": "F",
       "table": [
         "os",
         "android",
         "release",
+        "aspatch",
         "recovery",
-        "fastboot",
-        "ctelecom"
+        "fastboot"
       ],
       "show": "1",
       "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
+        ""
       ],
-      "region": "cn",
-      "zone": "1",
+      "region": "global",
+      "zone": "2",
       "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
+      "roms": {}
     }
   ]
 }
