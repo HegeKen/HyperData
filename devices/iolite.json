@@ -140,6 +140,46 @@
 					"ctelecom": "iolite_demo_images_OS3.0.301.0.WDQCNDM_20260701.0000.00_16.0_cn_chinatelecom_59a7b27a30.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "iolite_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro 5G",
+				"en": "REDMI Note 17 Pro 5G"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WDQMIXM": {
+					"os": "OS3.0.303.0.WDQMIXM",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-07-01",
+					"recovery": "iolite_global-ota_full-OS3.0.303.0.WDQMIXM-user-16.0-d0482044ea.zip",
+					"fastboot": "iolite_global_images_OS3.0.303.0.WDQMIXM_20260729.0000.00_16.0_global_8a008a5668.tgz"
+				}
+			}
 		}
 	]
 }
