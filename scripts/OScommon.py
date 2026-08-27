@@ -486,6 +486,8 @@ flags = {
 	"houji_demo": "houji",
 	"houji_global": "houji",
 	"HOUJIGlobal": "houji",
+	"zephyr_tw_global": "zephyr",
+	"zephyr_eea_global": "zephyr",
 	"myron": "myron",
 	"koto_id_global": "koto",
 	"mist_eea_global": "mist",

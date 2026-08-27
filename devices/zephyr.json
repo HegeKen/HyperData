@@ -1,50 +1,130 @@
 {
-  "device": "zephyr",
-  "name": {
-    "zh": "REDMI Note 17",
-    "en": "REDMI Note 17"
-  },
-  "code": "BU",
-  "supports": [
-    "OS3.0"
-  ],
-  "android": [
-    "16.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 国际正式版",
-        "en": "Xiaomi HyperOS Global Stable"
-      },
-      "branchCode": "zephyr_global",
-      "brand": "REDMI",
-      "device": {
-        "zh": "REDMI Note 17",
-        "en": "REDMI Note 17"
-      },
-      "idtag": "GBOO",
-      "tag": "MIXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "aspatch",
-        "recovery",
-        "fastboot"
-      ],
-      "show": "1",
-      "carrier": [
-        ""
-      ],
-      "region": "global",
-      "zone": "2",
-      "ep": "0",
-      "roms": {}
-    }
-  ]
+	"device": "zephyr",
+	"name": {
+		"zh": "REDMI Note 17",
+		"en": "REDMI Note 17"
+	},
+	"code": "BU",
+	"supports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "zephyr_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17",
+				"en": "REDMI Note 17"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WBUTWXM": {
+					"os": "OS3.0.304.0.WBUTWXM",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-08-01",
+					"recovery": "zephyr_tw_global-ota_full-OS3.0.304.0.WBUTWXM-user-16.0-9a67f563af.zip",
+					"fastboot": "zephyr_tw_global_images_OS3.0.304.0.WBUTWXM_20260820.0000.00_16.0_tw_f1b7158539.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "zephyr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17",
+				"en": "REDMI Note 17"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "zephyr_eea_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17",
+				"en": "REDMI Note 17"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WBUEUDM": {
+					"os": "OS3.0.305.0.WBUEUDM",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-08-01",
+					"recovery": "zephyr_eea_global-ota_full-OS3.0.305.0.WBUEUDM-user-16.0-5a0912999a.zip",
+					"fastboot": "zephyr_eea_global_images_OS3.0.305.0.WBUEUDM_20260803.0000.00_16.0_eea_c28c5c5bed.tgz"
+				}
+			}
+		}
+	]
 }
