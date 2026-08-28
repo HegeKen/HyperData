@@ -572,6 +572,7 @@ flags = {
 	"spinel_tr_global": "spinel",
 	"mist_global": "mist",
 	"steppe_tw_global": "steppe",
+	"leedsa_jp_global": "leedsa",
 	"lapis_global": "lapis",
 	"steppe_eea_global": "steppe",
 	"lapis_id_global": "lapis",
