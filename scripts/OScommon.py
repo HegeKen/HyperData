@@ -570,6 +570,8 @@ flags = {
 	"spinel_ru_global": "spinel",
 	"spinel_id_global": "spinel",
 	"spinel_tr_global": "spinel",
+	"mist_global": "mist",
+	"steppe_tw_global": "steppe",
 	"lapis_global": "lapis",
 	"steppe_eea_global": "steppe",
 	"lapis_id_global": "lapis",

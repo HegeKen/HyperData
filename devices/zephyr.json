@@ -1,8 +1,8 @@
 {
 	"device": "zephyr",
 	"name": {
-		"zh": "REDMI Note 17",
-		"en": "REDMI Note 17"
+		"zh": "REDMI Note 17 4G",
+		"en": "REDMI Note 17 4G"
 	},
 	"code": "BU",
 	"supports": [
@@ -23,8 +23,8 @@
 			"branchCode": "zephyr_tw_global",
 			"brand": "REDMI",
 			"device": {
-				"zh": "REDMI Note 17",
-				"en": "REDMI Note 17"
+				"zh": "REDMI Note 17 4G",
+				"en": "REDMI Note 17 4G"
 			},
 			"idtag": "CNTP",
 			"tag": "TWXM",
@@ -63,8 +63,8 @@
 			"branchCode": "zephyr_global",
 			"brand": "REDMI",
 			"device": {
-				"zh": "REDMI Note 17",
-				"en": "REDMI Note 17"
+				"zh": "REDMI Note 17 4G",
+				"en": "REDMI Note 17 4G"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
@@ -84,7 +84,24 @@
 			"region": "global",
 			"zone": "2",
 			"ep": "0",
-			"roms": {}
+			"roms": {
+				"OS3.0.308.0.WBUMIXM": {
+					"os": "OS3.0.308.0.WBUMIXM",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-08-01",
+					"recovery": "zephyr_global-ota_full-OS3.0.308.0.WBUMIXM-user-16.0-d5f2cea0fa.zip",
+					"fastboot": "zephyr_global_images_OS3.0.308.0.WBUMIXM_20260826.0000.00_16.0_global_5936be1a30.tgz"
+				},
+				"OS3.0.307.0.WBUMIXM": {
+					"os": "OS3.0.307.0.WBUMIXM",
+					"android": "16.0",
+					"release": "2026-08-27",
+					"aspatch": "2026-08-01",
+					"recovery": "zephyr_global-ota_full-OS3.0.307.0.WBUMIXM-user-16.0-1d2f41019f.zip",
+					"fastboot": ""
+				}
+			}
 		},
 		{
 			"name": {
@@ -94,8 +111,8 @@
 			"branchCode": "zephyr_eea_global",
 			"brand": "REDMI",
 			"device": {
-				"zh": "REDMI Note 17",
-				"en": "REDMI Note 17"
+				"zh": "REDMI Note 17 4G",
+				"en": "REDMI Note 17 4G"
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",

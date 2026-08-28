@@ -53,7 +53,7 @@
 					"release": "2026-08-17",
 					"aspatch": "2026-07-01",
 					"recovery": "topaz_global-ota_full-OS2.0.206.0.VMGMIXM-user-15.0-02e10bb26a.zip",
-					"fastboot": ""
+					"fastboot": "topaz_global_images_OS2.0.206.0.VMGMIXM_20260801.0000.00_15.0_global_9b2c2545c1.tgz"
 				},
 				"OS2.0.205.0.VMGMIXM": {
 					"os": "OS2.0.205.0.VMGMIXM",
@@ -407,6 +407,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.205.0.VMGRUXM": {
+					"os": "OS2.0.205.0.VMGRUXM",
+					"android": "15.0",
+					"release": "2026-08-25",
+					"aspatch": "2026-08-01",
+					"recovery": "topaz_ru_global-ota_full-OS2.0.205.0.VMGRUXM-user-15.0-9d4ff05aa9.zip",
+					"fastboot": ""
+				},
 				"OS2.0.204.0.VMGRUXM": {
 					"os": "OS2.0.204.0.VMGRUXM",
 					"android": "15.0",
@@ -543,6 +551,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS2.0.205.0.VMGIDXM": {
+					"os": "OS2.0.205.0.VMGIDXM",
+					"android": "15.0",
+					"release": "2026-08-25",
+					"aspatch": "2026-08-01",
+					"recovery": "topaz_id_global-ota_full-OS2.0.205.0.VMGIDXM-user-15.0-31557d2b87.zip",
+					"fastboot": ""
+				},
 				"OS2.0.204.0.VMGIDXM": {
 					"os": "OS2.0.204.0.VMGIDXM",
 					"android": "15.0",

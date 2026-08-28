@@ -74,6 +74,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "steppe_tw_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI M100",
+				"en": "REDMI M100"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WAVTWXM": {
+					"os": "OS3.0.302.0.WAVTWXM",
+					"android": "16.0",
+					"release": "2026-08-28",
+					"aspatch": "2026-06-01",
+					"recovery": "steppe_tw_global-ota_full-OS3.0.302.0.WAVTWXM-user-16.0-4c79b124c6.zip",
+					"fastboot": "steppe_tw_global_images_OS3.0.302.0.WAVTWXM_20260716.0000.00_16.0_tw_10f5a46245.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
