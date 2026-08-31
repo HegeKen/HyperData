@@ -17,6 +17,46 @@
 	"branches": [
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "leedsa_tw_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI 17 / POCO C95 Pro",
+				"en": "REDMI 17 / POCO C95 Pro"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WDTTWXM": {
+					"os": "OS3.0.301.0.WDTTWXM",
+					"android": "16.0",
+					"release": "2026-08-31",
+					"aspatch": "2026-06-01",
+					"recovery": "leedsa_tw_global-ota_full-OS3.0.301.0.WDTTWXM-user-16.0-2ea7feafb6.zip",
+					"fastboot": "leedsa_tw_global_images_OS3.0.301.0.WDTTWXM_20260630.0000.00_16.0_tw_174e744a9d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
