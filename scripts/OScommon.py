@@ -567,6 +567,7 @@ flags = {
 	"lapis_lm_cr_global": "lapis",
 	"spinel_lm_cr_global": "spinel",
 	"charoite_lm_cr_global": "charoite",
+	"leedsa_id_global": "leedsa",
 	"spinel_ru_global": "spinel",
 	"spinel_id_global": "spinel",
 	"spinel_tr_global": "spinel",
