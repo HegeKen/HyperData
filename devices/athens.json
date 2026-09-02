@@ -123,6 +123,270 @@
 					"cnunicom": "athens_demo_images_OS3.0.302.0.WPICNDM_20260803.0000.00_16.0_cn_chinaunicom_d5a1dcffe2.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "athens_tw_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Pro",
+				"en": "POCO F9 Pro"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPITWXM": {
+					"os": "OS3.0.301.0.WPITWXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "athens_tw_global-ota_full-OS3.0.301.0.WPITWXM-user-16.0-25d19426f3.zip",
+					"fastboot": "athens_tw_global_images_OS3.0.301.0.WPITWXM_20260805.0000.00_16.0_tw_19cd1b766d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "athens_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Pro",
+				"en": "POCO F9 Pro"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WPIMIXM": {
+					"os": "OS3.0.304.0.WPIMIXM",
+					"android": "16.0",
+					"release": "2026-08-26",
+					"aspatch": "2026-08-01",
+					"recovery": "athens_global-ota_full-OS3.0.304.0.WPIMIXM-user-16.0-021e74e5b0.zip",
+					"fastboot": "athens_global_images_OS3.0.304.0.WPIMIXM_20260825.0000.00_16.0_global_f0231e02f8.tgz"
+				},
+				"OS3.0.301.0.WPIMIXM": {
+					"os": "OS3.0.301.0.WPIMIXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "athens_global-ota_full-OS3.0.301.0.WPIMIXM-user-16.0-de718381bd.zip",
+					"fastboot": "athens_global_images_OS3.0.301.0.WPIMIXM_20260729.0000.00_16.0_global_370284d148.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "athens_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Pro",
+				"en": "POCO F9 Pro"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.306.0.WPIEUXM": {
+					"os": "OS3.0.306.0.WPIEUXM",
+					"android": "16.0",
+					"release": "2026-09-02",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "athens_eea_global_images_OS3.0.306.0.WPIEUXM_20260821.0000.00_16.0_eea_8f96594044.tgz"
+				},
+				"OS3.0.304.0.WPIEUXM": {
+					"os": "OS3.0.304.0.WPIEUXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "athens_eea_global-ota_full-OS3.0.304.0.WPIEUXM-user-16.0-b4889711e9.zip",
+					"fastboot": "athens_eea_global_images_OS3.0.304.0.WPIEUXM_20260729.0000.00_16.0_eea_4b866141fd.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "athens_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Pro",
+				"en": "POCO F9 Pro"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WPIRUXM": {
+					"os": "OS3.0.303.0.WPIRUXM",
+					"android": "16.0",
+					"release": "2026-09-02",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "athens_ru_global_images_OS3.0.303.0.WPIRUXM_20260824.0000.00_16.0_ru_36856fd4d5.tgz"
+				},
+				"OS3.0.301.0.WPIRUXM": {
+					"os": "OS3.0.301.0.WPIRUXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "athens_ru_global-ota_full-OS3.0.301.0.WPIRUXM-user-16.0-36bfbacf88.zip",
+					"fastboot": "athens_ru_global_images_OS3.0.301.0.WPIRUXM_20260731.0000.00_16.0_ru_e188b315de.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "athens_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Pro",
+				"en": "POCO F9 Pro"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPIIDXM": {
+					"os": "OS3.0.301.0.WPIIDXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "athens_id_global-ota_full-OS3.0.301.0.WPIIDXM-user-16.0-2b1522ee18.zip",
+					"fastboot": "athens_id_global_images_OS3.0.301.0.WPIIDXM_20260801.0000.00_16.0_id_e2dddb6af9.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "athens_tr_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Pro",
+				"en": "POCO F9 Pro"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WPITRXM": {
+					"os": "OS3.0.301.0.WPITRXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "athens_tr_global-ota_full-OS3.0.301.0.WPITRXM-user-16.0-c038de35f5.zip",
+					"fastboot": "athens_tr_global_images_OS3.0.301.0.WPITRXM_20260806.0000.00_16.0_tr_207d0d6866.tgz"
+				}
+			}
 		}
 	]
 }

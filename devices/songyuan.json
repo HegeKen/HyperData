@@ -134,6 +134,222 @@
 					"cnunicom": "songyuan_demo_images_OS3.0.302.0.WGNCNDM_20260803.0000.00_16.0_cn_chinaunicom_f430a7b5ee.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "songyuan_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Ultra",
+				"en": "POCO F9 Ultra"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WGNMIXM": {
+					"os": "OS3.0.304.0.WGNMIXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_global-ota_full-OS3.0.304.0.WGNMIXM-user-16.0-c935eece8d.zip",
+					"fastboot": "songyuan_global_images_OS3.0.304.0.WGNMIXM_20260815.0000.00_16.0_global_b285583774.tgz"
+				},
+				"OS3.0.301.0.WGNMIXM": {
+					"os": "OS3.0.301.0.WGNMIXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_global-ota_full-OS3.0.301.0.WGNMIXM-user-16.0-df64063e26.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "songyuan_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Ultra",
+				"en": "POCO F9 Ultra"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WGNEUXM": {
+					"os": "OS3.0.305.0.WGNEUXM",
+					"android": "16.0",
+					"release": "2026-08-26",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_eea_global-ota_full-OS3.0.305.0.WGNEUXM-user-16.0-95333a5447.zip",
+					"fastboot": "songyuan_eea_global_images_OS3.0.305.0.WGNEUXM_20260821.0000.00_16.0_eea_cd35218690.tgz"
+				},
+				"OS3.0.303.0.WGNEUXM": {
+					"os": "OS3.0.303.0.WGNEUXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_eea_global-ota_full-OS3.0.303.0.WGNEUXM-user-16.0-b20d5eb397.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "songyuan_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Ultra",
+				"en": "POCO F9 Ultra"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WGNRUXM": {
+					"os": "OS3.0.302.0.WGNRUXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_ru_global-ota_full-OS3.0.302.0.WGNRUXM-user-16.0-189aa67c63.zip",
+					"fastboot": "songyuan_ru_global_images_OS3.0.302.0.WGNRUXM_20260731.0000.00_16.0_ru_421b1aaa89.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "songyuan_tr_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Ultra",
+				"en": "POCO F9 Ultra"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WGNTRXM": {
+					"os": "OS3.0.301.0.WGNTRXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_tr_global-ota_full-OS3.0.301.0.WGNTRXM-user-16.0-d3905b087c.zip",
+					"fastboot": "songyuan_tr_global_images_OS3.0.301.0.WGNTRXM_20260822.0000.00_16.0_tr_3c37379b80.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "songyuan_jp_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Ultra",
+				"en": "POCO F9 Ultra"
+			},
+			"idtag": "JAPS",
+			"tag": "JPXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WGNJPXM": {
+					"os": "OS3.0.302.0.WGNJPXM",
+					"android": "16.0",
+					"release": "2026-09-01",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_jp_global-ota_full-OS3.0.302.0.WGNJPXM-user-16.0-b93c9d62b0.zip",
+					"fastboot": "songyuan_jp_global_images_OS3.0.302.0.WGNJPXM_20260815.0000.00_16.0_jp_8452f5c44d.tgz"
+				}
+			}
 		}
 	]
 }
