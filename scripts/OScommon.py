@@ -583,6 +583,7 @@ flags = {
 	"athens_id_global": "athens",
 	"athens_ru_global": "athens",
 	"athens_eea_global": "athens",
+	"mist_tw_global": "mist",
 	"mist_global": "mist",
 	"steppe_tw_global": "steppe",
 	"leedsa_jp_global": "leedsa",

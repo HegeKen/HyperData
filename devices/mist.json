@@ -1,8 +1,8 @@
 {
 	"device": "mist",
 	"name": {
-		"zh": "REDMI Note 17 5G",
-		"en": "REDMI Note 17 5G"
+		"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+		"en": "REDMI Note 17 5G / POCO M8 Power 5G"
 	},
 	"code": "PU",
 	"supports": [
@@ -141,14 +141,54 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "mist_tw_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+				"en": "REDMI Note 17 5G / POCO M8 Power 5G"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPUTWXM": {
+					"os": "OS3.0.302.0.WPUTWXM",
+					"android": "16.0",
+					"release": "2026-09-03",
+					"aspatch": "2026-06-01",
+					"recovery": "mist_tw_global-ota_full-OS3.0.302.0.WPUTWXM-user-16.0-051052c856.zip",
+					"fastboot": "mist_tw_global_images_OS3.0.302.0.WPUTWXM_20260713.0000.00_16.0_tw_2dac72ff44.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 国际正式版",
 				"en": "Xiaomi HyperOS Global Stable"
 			},
 			"branchCode": "mist_global",
-			"brand": "REDMI",
+			"brand": "REDMI, POCO",
 			"device": {
-				"zh": "REDMI Note 17 5G",
-				"en": "REDMI Note 17 5G"
+				"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+				"en": "REDMI Note 17 5G / POCO M8 Power 5G"
 			},
 			"idtag": "GBOO",
 			"tag": "MIXM",
@@ -193,10 +233,10 @@
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
 			"branchCode": "mist_eea_global",
-			"brand": "REDMI",
+			"brand": "REDMI, POCO",
 			"device": {
-				"zh": "REDMI Note 17 5G",
-				"en": "REDMI Note 17 5G"
+				"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+				"en": "REDMI Note 17 5G / POCO M8 Power 5G"
 			},
 			"idtag": "EEAO",
 			"tag": "EUXM",
@@ -233,10 +273,10 @@
 				"en": "Xiaomi HyperOS India Stable"
 			},
 			"branchCode": "mist_in_global",
-			"brand": "REDMI",
+			"brand": "REDMI, POCO",
 			"device": {
-				"zh": "REDMI Note 17 5G",
-				"en": "REDMI Note 17 5G"
+				"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+				"en": "REDMI Note 17 5G / POCO M8 Power 5G"
 			},
 			"idtag": "INSO",
 			"tag": "INXM",
