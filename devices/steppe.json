@@ -231,6 +231,126 @@
 					"fastboot": "steppe_eea_global_images_OS3.0.305.0.WAVEUXM_20260724.0000.00_16.0_eea_bdc5343b8a.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度正式版",
+				"en": "Xiaomi HyperOS India Stable"
+			},
+			"branchCode": "steppe_in_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI M100",
+				"en": "REDMI M100"
+			},
+			"idtag": "INSO",
+			"tag": "INXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "in",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WAVINXM": {
+					"os": "OS3.0.302.0.WAVINXM",
+					"android": "16.0",
+					"release": "2026-09-03",
+					"aspatch": "2026-06-01",
+					"recovery": "steppe_in_global-ota_full-OS3.0.302.0.WAVINXM-user-16.0-07bc0a7758.zip",
+					"fastboot": "steppe_in_global_images_OS3.0.302.0.WAVINXM_20260722.0000.00_16.0_in_cf7a78c781.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "steppe_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI M100",
+				"en": "REDMI M100"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WAVIDXM": {
+					"os": "OS3.0.301.0.WAVIDXM",
+					"android": "16.0",
+					"release": "2026-09-03",
+					"aspatch": "2026-06-01",
+					"recovery": "steppe_id_global-ota_full-OS3.0.301.0.WAVIDXM-user-16.0-ec8913ee89.zip",
+					"fastboot": "steppe_id_global_images_OS3.0.301.0.WAVIDXM_20260716.0000.00_16.0_id_4177758744.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "steppe_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI M100",
+				"en": "REDMI M100"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WAVTRXM": {
+					"os": "OS3.0.301.0.WAVTRXM",
+					"android": "16.0",
+					"release": "2026-09-03",
+					"aspatch": "2026-06-01",
+					"recovery": "steppe_tr_global-ota_full-OS3.0.301.0.WAVTRXM-user-16.0-4096d6ab35.zip",
+					"fastboot": "steppe_tr_global_images_OS3.0.301.0.WAVTRXM_20260722.0000.00_16.0_tr_7d8aeec959.tgz"
+				}
+			}
 		}
 	]
 }
