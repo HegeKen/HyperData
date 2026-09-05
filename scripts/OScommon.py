@@ -577,6 +577,7 @@ flags = {
 	"songyuan_ru_global": "songyuan",
 	"songyuan_tr_global": "songyuan",
 	"songyuan_jp_global": "songyuan",
+	"leedsa_dc_global": "leedsa",
 	"athens_tw_global": "athens",
 	"athens_tr_global": "athens",
 	"athens_global": "athens",
