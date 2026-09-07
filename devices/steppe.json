@@ -108,7 +108,7 @@
 					"release": "2026-09-03",
 					"aspatch": "2026-08-01",
 					"recovery": "steppe_tw_global-ota_full-OS3.0.303.0.WAVTWXM-user-16.0-7e921c0800.zip",
-					"fastboot": ""
+					"fastboot": "steppe_tw_global_images_OS3.0.303.0.WAVTWXM_20260826.0000.00_16.0_tw_a34d244f02.tgz"
 				},
 				"OS3.0.302.0.WAVTWXM": {
 					"os": "OS3.0.302.0.WAVTWXM",
@@ -222,13 +222,29 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.308.0.WAVEUXM": {
+					"os": "OS3.0.308.0.WAVEUXM",
+					"android": "16.0",
+					"release": "2026-09-04",
+					"aspatch": "2026-08-01",
+					"recovery": "steppe_eea_global-ota_full-OS3.0.308.0.WAVEUXM-user-16.0-eec63d23da.zip",
+					"fastboot": ""
+				},
+				"OS3.0.307.0.WAVEUXM": {
+					"os": "OS3.0.307.0.WAVEUXM",
+					"android": "16.0",
+					"release": "2026-09-03",
+					"aspatch": "2026-08-01",
+					"recovery": "steppe_eea_global-ota_full-OS3.0.307.0.WAVEUXM-user-16.0-6cd8ff847b.zip",
+					"fastboot": "steppe_eea_global_images_OS3.0.307.0.WAVEUXM_20260819.0000.00_16.0_eea_d482d4b8de.tgz"
+				},
 				"OS3.0.306.0.WAVEUXM": {
 					"os": "OS3.0.306.0.WAVEUXM",
 					"android": "16.0",
 					"release": "2026-08-24",
 					"aspatch": "2026-08-01",
 					"recovery": "steppe_eea_global-ota_full-OS3.0.306.0.WAVEUXM-user-16.0-bcb1fc24ab.zip",
-					"fastboot": ""
+					"fastboot": "steppe_eea_global_images_OS3.0.306.0.WAVEUXM_20260812.0000.00_16.0_eea_e4bce22e03.tgz"
 				},
 				"OS3.0.305.0.WAVEUXM": {
 					"os": "OS3.0.305.0.WAVEUXM",

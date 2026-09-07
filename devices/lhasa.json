@@ -1,62 +1,105 @@
 {
-  "device": "lhasa",
-  "name": {
-    "zh": "Xiaomi 18 Fold",
-    "en": "Xiaomi 18 Fold"
-  },
-  "code": "",
-  "supports": [
-    "OS4.0"
-  ],
-  "android": [
-    "17.0"
-  ],
-  "type": "phone",
-  "miui": "no",
-  "merged": "no",
-  "branches": [
-    {
-      "name": {
-        "zh": "小米澎湃 OS 正式版",
-        "en": "Xiaomi HyperOS Stable"
-      },
-      "branchCode": "lhasa",
-      "brand": "Xiaomi",
-      "device": {
-        "zh": "Xiaomi 18 Fold",
-        "en": "Xiaomi 18 Fold"
-      },
-      "idtag": "CnOO",
-      "tag": "CNXM",
-      "branchtag": "F",
-      "table": [
-        "os",
-        "android",
-        "release",
-        "recovery",
-        "fastboot",
-        "ctelecom"
-      ],
-      "show": "1",
-      "carrier": [
-        "",
-        "chinatelecom",
-        "chinamobile",
-        "chinaunicom"
-      ],
-      "region": "cn",
-      "zone": "1",
-      "ep": "0",
-      "roms": {
-        "": {
-          "os": "",
-          "android": "15.0",
-          "release": "",
-          "recovery": "",
-          "fastboot": "",
-          "ctelecom": ""
-        }
-      }
-    }
-  ]
+	"device": "lhasa",
+	"name": {
+		"zh": "小米 18 Fold",
+		"en": "Xiaomi 18 Fold"
+	},
+	"code": "PN",
+	"supports": [
+		"OS4.0"
+	],
+	"android": [
+		"17.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "lhasa",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Fold",
+				"en": "Xiaomi 18 Fold"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.6.0.XPNCNXM": {
+					"os": "OS4.0.6.0.XPNCNXM",
+					"android": "17.0",
+					"release": "2026-09-07",
+					"recovery": "lhasa-ota_full-OS4.0.6.0.XPNCNXM-user-17.0-cd2cf6d748.zip",
+					"fastboot": "lhasa-images-OS4.0.6.0.XPNCNXM-user-20260818.0000.00-17.0-cn-0713b2db15.tgz",
+					"ctelecom": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "lhasa_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Fold",
+				"en": "Xiaomi 18 Fold"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.3.0.XPNCNDM": {
+					"os": "OS4.0.3.0.XPNCNDM",
+					"android": "17.0",
+					"release": "2026-09-07",
+					"aspatch": "2026-08-01",
+					"recovery": "lhasa_demo-ota_full-OS4.0.3.0.XPNCNDM-user-17.0-cc8c1836a2.zip",
+					"fastboot": "lhasa_demo-images-OS4.0.3.0.XPNCNDM-user-20260903.0000.00-17.0-cn-90304778f1.tgz"
+				}
+			}
+		}
+	]
 }
