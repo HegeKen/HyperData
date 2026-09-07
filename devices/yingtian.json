@@ -1,0 +1,105 @@
+{
+	"device": "yingtian",
+	"name": {
+		"zh": "小米平板 9 Pro Max",
+		"en": "Xiaomi Pad 9 Pro Max"
+	},
+	"code": "",
+	"supports": [
+		"OS3.0",
+		"OS4.0"
+	],
+	"android": [
+		"16.0",
+		"17.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "yingtian",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 9 Pro Max",
+				"en": "Xiaomi Pad 9 Pro Max"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.10.0.XBMCNXM": {
+					"os": "OS4.0.10.0.XBMCNXM",
+					"android": "17.0",
+					"release": "2026-09-07",
+					"recovery": "yingtian-ota_full-OS4.0.10.0.XBMCNXM-user-17.0-b8fd7d392d.zip",
+					"fastboot": "yingtian-images-OS4.0.10.0.XBMCNXM-user-20260905.0000.00-17.0-cn-6e79a1ed86.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "yingtian_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米平板 9 Pro Max",
+				"en": "Xiaomi Pad 9 Pro Max"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.3.0.XBMCNDM": {
+					"os": "OS4.0.3.0.XBMCNDM",
+					"android": "17.0",
+					"release": "2026-09-07",
+					"aspatch": "2026-08-01",
+					"recovery": "yingtian_demo-ota_full-OS4.0.3.0.XBMCNDM-user-17.0-55d52529f0.zip",
+					"fastboot": "yingtian_demo-images-OS4.0.3.0.XBMCNDM-user-20260905.0000.00-17.0-cn-ec22b4f68c.tgz"
+				}
+			}
+		}
+	]
+}

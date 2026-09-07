@@ -174,7 +174,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 unreleased = ['lhasa', 'moscow', 'brussels', 'chicago', 'pond', 'suiren', 'zephyr', 'coral']
-currentStable = ['lhasa', 'brussels', 'chicago', 'athens', 'songyuan', 'steppe', 'leedsa', 'mist', 'iolite', 'moscow',  'pond',
+currentStable = ['lhasa', 'yingtian', 'brussels', 'chicago', 'athens', 'songyuan', 'steppe', 'leedsa', 'mist', 'iolite', 'moscow',  'pond',
 								 'warsaw', 'chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew',
 								 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou',  'spring', 'lapis', 'kunzite',
@@ -841,6 +841,8 @@ flags = {
 	"muyu_global":"muyu",
 	"lhasa": "lhasa",
 	"lhasa_demo": "lhasa",
+	"yingtian": "yingtian",
+	"yingtian_demo": "yingtian",
 	"uke_id_global":"uke",
 	"uke_ru_global":"uke",
 	"uke_tw_global":"uke",
