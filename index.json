@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2026-09-08 15:04:39",
+    "time": "2026-09-08 21:24:15",
     "developing": "no",
     "roms": {
       "nuwa": {
@@ -31,6 +31,74 @@
           }
         ]
       },
+      "pudding": {
+        "name": {
+          "zh": "小米 17",
+          "en": "Xiaomi 17"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-08",
+            "version": "OS3.0.335.0.XPCMIXM"
+          },
+          {
+            "insert_date": "2026-09-06",
+            "version": "OS4.0.0.26.XPCCNXM"
+          },
+          {
+            "insert_date": "2026-09-05",
+            "version": "OS3.0.319.0.WPCCNXM"
+          },
+          {
+            "insert_date": "2026-09-05",
+            "version": "OS4.0.0.25.XPCCNXM"
+          },
+          {
+            "insert_date": "2026-09-03",
+            "version": "OS4.0.0.24.XPCCNXM"
+          },
+          {
+            "insert_date": "2026-09-03",
+            "version": "OS3.0.334.0.XPCEUXM"
+          }
+        ]
+      },
+      "nezha": {
+        "name": {
+          "zh": "小米 17 Ultra",
+          "en": "Xiaomi 17 Ultra"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-08",
+            "version": "OS3.0.334.0.XPAINXM"
+          },
+          {
+            "insert_date": "2026-09-06",
+            "version": "OS4.0.0.22.XPACNXM"
+          },
+          {
+            "insert_date": "2026-09-03",
+            "version": "OS4.0.0.21.XPACNXM"
+          }
+        ]
+      },
+      "somalia": {
+        "name": {
+          "zh": "REDMI R70 / REDMI R70m / REDMI 17 5G / POCO C85x 5G",
+          "en": "REDMI R70 / REDMI R70m / REDMI 17 5G / POCO C85x 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-08",
+            "version": "OS3.0.14.0.WBWCNXM"
+          },
+          {
+            "insert_date": "2026-09-08",
+            "version": "OS3.0.13.0.WBWINXM"
+          }
+        ]
+      },
       "byron": {
         "name": {
           "zh": "Xiaomi 17 Max",
@@ -38,12 +106,56 @@
         },
         "versions": [
           {
+            "insert_date": "2026-09-08",
+            "version": "OS4.0.0.13.XAFCNXM"
+          },
+          {
             "insert_date": "2026-09-07",
             "version": "OS3.0.309.0.WAFCNXM"
           },
           {
             "insert_date": "2026-09-05",
             "version": "OS4.0.0.12.XAFCNXM"
+          }
+        ]
+      },
+      "steppe": {
+        "name": {
+          "zh": "REDMI M100",
+          "en": "REDMI M100"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-08",
+            "version": "OS3.0.301.0.WAVMIDC"
+          },
+          {
+            "insert_date": "2026-09-07",
+            "version": "OS3.0.307.0.WAVEUXM"
+          },
+          {
+            "insert_date": "2026-09-07",
+            "version": "OS3.0.308.0.WAVEUXM"
+          },
+          {
+            "insert_date": "2026-09-05",
+            "version": "OS3.0.306.0.WAVEUXM"
+          },
+          {
+            "insert_date": "2026-09-04",
+            "version": "OS3.0.302.0.WAVINXM"
+          },
+          {
+            "insert_date": "2026-09-04",
+            "version": "OS3.0.301.0.WAVIDXM"
+          },
+          {
+            "insert_date": "2026-09-04",
+            "version": "OS3.0.301.0.WAVTRXM"
+          },
+          {
+            "insert_date": "2026-09-03",
+            "version": "OS3.0.303.0.WAVTWXM"
           }
         ]
       },
@@ -351,42 +463,6 @@
           }
         ]
       },
-      "steppe": {
-        "name": {
-          "zh": "REDMI M100",
-          "en": "REDMI M100"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-07",
-            "version": "OS3.0.307.0.WAVEUXM"
-          },
-          {
-            "insert_date": "2026-09-07",
-            "version": "OS3.0.308.0.WAVEUXM"
-          },
-          {
-            "insert_date": "2026-09-05",
-            "version": "OS3.0.306.0.WAVEUXM"
-          },
-          {
-            "insert_date": "2026-09-04",
-            "version": "OS3.0.302.0.WAVINXM"
-          },
-          {
-            "insert_date": "2026-09-04",
-            "version": "OS3.0.301.0.WAVIDXM"
-          },
-          {
-            "insert_date": "2026-09-04",
-            "version": "OS3.0.301.0.WAVTRXM"
-          },
-          {
-            "insert_date": "2026-09-03",
-            "version": "OS3.0.303.0.WAVTWXM"
-          }
-        ]
-      },
       "creek": {
         "name": {
           "zh": "REDMI 15 4G",
@@ -507,34 +583,6 @@
           }
         ]
       },
-      "pudding": {
-        "name": {
-          "zh": "小米 17",
-          "en": "Xiaomi 17"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-06",
-            "version": "OS4.0.0.26.XPCCNXM"
-          },
-          {
-            "insert_date": "2026-09-05",
-            "version": "OS3.0.319.0.WPCCNXM"
-          },
-          {
-            "insert_date": "2026-09-05",
-            "version": "OS4.0.0.25.XPCCNXM"
-          },
-          {
-            "insert_date": "2026-09-03",
-            "version": "OS4.0.0.24.XPCCNXM"
-          },
-          {
-            "insert_date": "2026-09-03",
-            "version": "OS3.0.334.0.XPCEUXM"
-          }
-        ]
-      },
       "myron": {
         "name": {
           "zh": "REDMI K90 Pro Max / POCO F8 Ultra",
@@ -548,22 +596,6 @@
           {
             "insert_date": "2026-09-03",
             "version": "OS4.0.0.24.XPMCNXM"
-          }
-        ]
-      },
-      "nezha": {
-        "name": {
-          "zh": "小米 17 Ultra",
-          "en": "Xiaomi 17 Ultra"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-06",
-            "version": "OS4.0.0.22.XPACNXM"
-          },
-          {
-            "insert_date": "2026-09-03",
-            "version": "OS4.0.0.21.XPACNXM"
           }
         ]
       },

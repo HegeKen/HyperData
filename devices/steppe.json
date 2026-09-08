@@ -194,6 +194,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "steppe_dc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI M100",
+				"en": "REDMI M100"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WAVMIDC": {
+					"os": "OS3.0.301.0.WAVMIDC",
+					"android": "16.0",
+					"release": "2026-09-08",
+					"aspatch": "2026-07-01",
+					"recovery": "steppe_dc_global-ota_full-OS3.0.301.0.WAVMIDC-user-16.0-ce4d02c949.zip",
+					"fastboot": "steppe_dc_global_images_OS3.0.301.0.WAVMIDC_20260729.0000.00_16.0_global_dc_ee58991d9c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},

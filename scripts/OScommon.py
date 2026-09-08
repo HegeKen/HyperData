@@ -843,6 +843,7 @@ flags = {
 	"lhasa_demo": "lhasa",
 	"yingtian": "yingtian",
 	"yingtian_demo": "yingtian",
+	"steppe_dc_global": "steppe",
 	"uke_id_global":"uke",
 	"uke_ru_global":"uke",
 	"uke_tw_global":"uke",
