@@ -1,8 +1,68 @@
 {
   "recent": {
-    "time": "2026-09-08 21:24:15",
+    "time": "2026-09-09 18:07:05",
     "developing": "no",
     "roms": {
+      "nezha": {
+        "name": {
+          "zh": "小米 17 Ultra",
+          "en": "Xiaomi 17 Ultra"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-09",
+            "version": "OS3.0.335.0.XPAMIXM"
+          },
+          {
+            "insert_date": "2026-09-08",
+            "version": "OS3.0.334.0.XPAINXM"
+          },
+          {
+            "insert_date": "2026-09-06",
+            "version": "OS4.0.0.22.XPACNXM"
+          },
+          {
+            "insert_date": "2026-09-03",
+            "version": "OS4.0.0.21.XPACNXM"
+          }
+        ]
+      },
+      "dada": {
+        "name": {
+          "zh": "小米 15",
+          "en": "Xiaomi 15"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-09",
+            "version": "OS3.0.303.0.WOCMIDC"
+          },
+          {
+            "insert_date": "2026-09-05",
+            "version": "OS4.0.0.8.XOCCNXM"
+          },
+          {
+            "insert_date": "2026-09-05",
+            "version": "OS3.0.304.0.WOCEUXM"
+          },
+          {
+            "insert_date": "2026-09-03",
+            "version": "OS3.0.307.0.WOCCNXM"
+          }
+        ]
+      },
+      "degas": {
+        "name": {
+          "zh": "小米 14T",
+          "en": "Xiaomi 14T"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-09",
+            "version": "OS3.0.305.0.WNEEUXM"
+          }
+        ]
+      },
       "nuwa": {
         "name": {
           "zh": "小米 13 Pro",
@@ -60,26 +120,6 @@
           {
             "insert_date": "2026-09-03",
             "version": "OS3.0.334.0.XPCEUXM"
-          }
-        ]
-      },
-      "nezha": {
-        "name": {
-          "zh": "小米 17 Ultra",
-          "en": "Xiaomi 17 Ultra"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-08",
-            "version": "OS3.0.334.0.XPAINXM"
-          },
-          {
-            "insert_date": "2026-09-06",
-            "version": "OS4.0.0.22.XPACNXM"
-          },
-          {
-            "insert_date": "2026-09-03",
-            "version": "OS4.0.0.21.XPACNXM"
           }
         ]
       },
@@ -244,10 +284,6 @@
           {
             "insert_date": "2026-09-07",
             "version": "OS3.0.304.0.WPPINXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.308.0.WPPMIXM"
           }
         ]
       },
@@ -400,10 +436,6 @@
           {
             "insert_date": "2026-09-06",
             "version": "OS3.0.304.0.WDRTWXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.306.0.WDRMIXM"
           }
         ]
       },
@@ -687,26 +719,6 @@
           }
         ]
       },
-      "dada": {
-        "name": {
-          "zh": "小米 15",
-          "en": "Xiaomi 15"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-05",
-            "version": "OS4.0.0.8.XOCCNXM"
-          },
-          {
-            "insert_date": "2026-09-05",
-            "version": "OS3.0.304.0.WOCEUXM"
-          },
-          {
-            "insert_date": "2026-09-03",
-            "version": "OS3.0.307.0.WOCCNXM"
-          }
-        ]
-      },
       "prague": {
         "name": {
           "zh": "REDMI K90 Max",
@@ -728,10 +740,6 @@
           {
             "insert_date": "2026-09-05",
             "version": "OS4.0.0.7.XOBCNXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.309.0.WOBCNXM"
           }
         ]
       },
@@ -832,46 +840,6 @@
           {
             "insert_date": "2026-09-04",
             "version": "OS3.0.301.0.WGNTWXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.306.0.WGNMIXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.301.0.WGNTRXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.303.0.WGNRUXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.303.0.WGNJPXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.304.0.WGNMIXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.303.0.WGNEUXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.302.0.WGNJPXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.305.0.WGNEUXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.302.0.WGNRUXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.301.0.WGNMIXM"
           }
         ]
       },
@@ -944,50 +912,6 @@
           {
             "insert_date": "2026-09-03",
             "version": "OS3.0.304.0.WNOCNXM"
-          }
-        ]
-      },
-      "athens": {
-        "name": {
-          "zh": "REDMI K100 Pro",
-          "en": "REDMI K100 Pro"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.301.0.WPITWXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.301.0.WPITRXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.301.0.WPIMIXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.301.0.WPIIDXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.304.0.WPIMIXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.301.0.WPIRUXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.304.0.WPIEUXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.306.0.WPIEUXM"
-          },
-          {
-            "insert_date": "2026-09-02",
-            "version": "OS3.0.303.0.WPIRUXM"
           }
         ]
       }
