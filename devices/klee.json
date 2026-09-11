@@ -49,6 +49,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.307.0.WPJCNXM": {
+					"os": "OS3.0.307.0.WPJCNXM",
+					"android": "16.0",
+					"release": "2026-09-11",
+					"aspatch": "2026-08-01",
+					"recovery": "klee-ota_full-OS3.0.307.0.WPJCNXM-user-16.0-f20ff285e4.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS3.0.306.0.WPJCNXM": {
 					"os": "OS3.0.306.0.WPJCNXM",
 					"android": "16.0",
@@ -519,7 +528,7 @@
 					"release": "2026-09-03",
 					"aspatch": "2026-08-01",
 					"recovery": "klee_in_global-ota_full-OS3.0.304.0.WPJINXM-user-16.0-9a8cbe3193.zip",
-					"fastboot": ""
+					"fastboot": "klee_in_global_images_OS3.0.304.0.WPJINXM_20260825.0000.00_16.0_in_760dfef153.tgz"
 				},
 				"OS3.0.303.0.WPJINXM": {
 					"os": "OS3.0.303.0.WPJINXM",
