@@ -19,7 +19,7 @@ SCRIPTS = [
 	"OTAFull.py",
 	"XFUFull.py",
 	"getCurrentFastboot.py",
-	"test.py",
+	"sync_roms_from_db.py",
 	"test2.py",
 ]
 
