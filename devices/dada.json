@@ -1448,7 +1448,7 @@
 					"release": "2026-09-02",
 					"aspatch": "2026-08-01",
 					"recovery": "dada_eea_global-ota_full-OS3.0.304.0.WOCEUXM-user-16.0-33ffa3173b.zip",
-					"fastboot": ""
+					"fastboot": "dada_eea_global_images_OS3.0.304.0.WOCEUXM_20260826.0000.00_16.0_eea_4d50e8cdbb.tgz"
 				},
 				"OS3.0.303.0.WOCEUXM": {
 					"os": "OS3.0.303.0.WOCEUXM",
@@ -1618,6 +1618,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WOCRUXM": {
+					"os": "OS3.0.303.0.WOCRUXM",
+					"android": "16.0",
+					"release": "2026-09-09",
+					"aspatch": "2026-08-01",
+					"recovery": "dada_ru_global-ota_full-OS3.0.303.0.WOCRUXM-user-16.0-4967e4ae85.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WOCRUXM": {
 					"os": "OS3.0.302.0.WOCRUXM",
 					"android": "16.0",
