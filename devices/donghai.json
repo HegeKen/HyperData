@@ -1,0 +1,53 @@
+{
+  "device": "donghai",
+  "name": {
+    "zh": "小米 Pad 9",
+    "en": "Xiaomi Pad 9"
+  },
+  "code": "",
+  "supports": [
+    "OS4.0"
+  ],
+  "android": [
+    "17.0"
+  ],
+  "type": "tablet",
+  "miui": "no",
+  "merged": "no",
+  "branches": [
+    {
+      "name": {
+        "zh": "小米澎湃 OS 正式版",
+        "en": "Xiaomi HyperOS Stable"
+      },
+      "branchCode": "donghai",
+      "brand": "Xiaomi",
+      "device": {
+        "zh": "小米 Pad 9",
+        "en": "Xiaomi Pad 9"
+      },
+      "idtag": "CnOO",
+      "tag": "CNXM",
+      "branchtag": "F",
+      "table": [
+        "os",
+        "android",
+        "release",
+        "recovery",
+        "fastboot",
+        "ctelecom"
+      ],
+      "show": "1",
+      "carrier": [
+        "",
+        "chinatelecom",
+        "chinamobile",
+        "chinaunicom"
+      ],
+      "region": "cn",
+      "zone": "1",
+      "ep": "0",
+      "roms": {}
+    }
+  ]
+}
