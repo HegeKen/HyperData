@@ -50,6 +50,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.30.XPCCNXM": {
+					"os": "OS4.0.0.30.XPCCNXM",
+					"android": "17.0",
+					"release": "2026-09-15",
+					"aspatch": "2026-09-01",
+					"recovery": "pudding-ota_full-OS4.0.0.30.XPCCNXM-user-17.0-061d0e1dc7.zip",
+					"fastboot": ""
+				},
 				"OS4.0.0.26.XPCCNXM": {
 					"os": "OS4.0.0.26.XPCCNXM",
 					"android": "17.0",
@@ -220,7 +228,7 @@
 					"release": "2026-09-04",
 					"aspatch": "2026-08-01",
 					"recovery": "pudding-ota_full-OS3.0.319.0.WPCCNXM-user-16.0-95932c9372.zip",
-					"fastboot": "",
+					"fastboot": "pudding_images_OS3.0.319.0.WPCCNXM_20260824.0000.00_16.0_cn_eab1c744cf.tgz",
 					"ctelecom": ""
 				},
 				"OS3.0.318.0.WPCCNXM": {

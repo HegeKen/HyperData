@@ -385,6 +385,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "leedsa_tr_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI 17 / POCO C95 Pro",
+				"en": "REDMI 17 / POCO C95 Pro"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WDTTRXM": {
+					"os": "OS3.0.303.0.WDTTRXM",
+					"android": "16.0",
+					"release": "2026-09-15",
+					"aspatch": "2026-08-01",
+					"recovery": "leedsa_tr_global-ota_full-OS3.0.303.0.WDTTRXM-user-16.0-26e5d41145.zip",
+					"fastboot": "leedsa_tr_global_images_OS3.0.303.0.WDTTRXM_20260817.0000.00_16.0_tr_c36891fb2b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 日本正式版",
 				"en": "Xiaomi HyperOS Japan Stable"
 			},

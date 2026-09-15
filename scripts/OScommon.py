@@ -674,6 +674,7 @@ flags = {
 	"goya_lm_cr_global": "goya",
 	"flute_tw_global": "flute",
 	"flute_ru_global": "flute",
+	"leedsa_tr_global": "leedsa",
 	"flute_tr_global": "flute",
 	"klimt_dc_global": "klimt",
 	"goya_mx_at_global": "goya",
