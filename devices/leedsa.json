@@ -337,6 +337,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚 Demo",
+				"en": "Xiaomi HyperOS Indonesia MiStore Demo"
+			},
+			"branchCode": "leedsa_id_global",
+			"brand": "Xiaomi, REDMI, POCO",
+			"device": {
+				"zh": "",
+				"en": ""
+			},
+			"idtag": "IDDM",
+			"tag": "IDDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WDTIDDM": {
+					"os": "OS3.0.302.0.WDTIDDM",
+					"android": "16.0",
+					"release": "2026-09-14",
+					"aspatch": "2026-08-01",
+					"recovery": "leedsa_id_global-ota_full-OS3.0.302.0.WDTIDDM-user-16.0-2524607d64.zip",
+					"fastboot": "leedsa_id_global_images_OS3.0.302.0.WDTIDDM_20260904.0000.00_16.0_id_d5387ba28b.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 日本正式版",
 				"en": "Xiaomi HyperOS Japan Stable"
 			},
