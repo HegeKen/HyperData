@@ -50,6 +50,16 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.306.0.WAVCNXM": {
+					"os": "OS3.0.306.0.WAVCNXM",
+					"android": "16.0",
+					"release": "2026-09-15",
+					"aspatch": "2026-08-01",
+					"recovery": "steppe-ota_full-OS3.0.306.0.WAVCNXM-user-16.0-00f67b6bb2.zip",
+					"fastboot": "steppe_images_OS3.0.306.0.WAVCNXM_20260905.0000.00_16.0_cn_17ab15b5fe.tgz",
+					"ctelecom": "steppe_images_OS3.0.306.0.WAVCNXM_20260905.0000.00_16.0_cn_chinatelecom_d5727ec256.tgz",
+					"cnmobile": "steppe_images_OS3.0.306.0.WAVCNXM_20260905.0000.00_16.0_cn_chinamobile_216a005d01.tgz"
+				},
 				"OS3.0.304.0.WAVCNXM": {
 					"os": "OS3.0.304.0.WAVCNXM",
 					"android": "16.0",
@@ -102,6 +112,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WAVTWXM": {
+					"os": "OS3.0.304.0.WAVTWXM",
+					"android": "16.0",
+					"release": "2026-09-15",
+					"aspatch": "2026-08-01",
+					"recovery": "steppe_tw_global-ota_full-OS3.0.304.0.WAVTWXM-user-16.0-28a78e5e06.zip",
+					"fastboot": ""
+				},
 				"OS3.0.303.0.WAVTWXM": {
 					"os": "OS3.0.303.0.WAVTWXM",
 					"android": "16.0",
