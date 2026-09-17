@@ -6,15 +6,60 @@
 	},
 	"code": "PI",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
 	"merged": "no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "athens",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K100 Pro",
+				"en": "REDMI K100 Pro"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.0.8.XPICNXM": {
+					"os": "OS4.0.0.8.XPICNXM",
+					"android": "17.0",
+					"release": "2026-09-17",
+					"aspatch": "2026-09-01",
+					"recovery": "athens-ota_full-OS4.0.0.8.XPICNXM-user-17.0-c38a5ffcf3.zip",
+					"fastboot": ""
+				}
+			}
+		},
 		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
@@ -51,6 +96,17 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.307.0.WPICNXM": {
+					"os": "OS3.0.307.0.WPICNXM",
+					"android": "16.0",
+					"release": "2026-09-17",
+					"aspatch": "2026-08-01",
+					"recovery": "athens-ota_full-OS3.0.307.0.WPICNXM-user-16.0-59a1b9c40e.zip",
+					"fastboot": "",
+					"ctelecom": "",
+					"cnmobile": "",
+					"cnunicom": ""
+				},
 				"OS3.0.306.0.WPICNXM": {
 					"os": "OS3.0.306.0.WPICNXM",
 					"android": "16.0",
@@ -118,9 +174,9 @@
 					"aspatch": "2026-08-01",
 					"recovery": "athens_demo-ota_full-OS3.0.303.0.WPICNDM-user-16.0-870c32fb79.zip",
 					"fastboot": "athens_demo_images_OS3.0.303.0.WPICNDM_20260904.0000.00_16.0_cn_6cabe0e1c4.tgz",
-					"ctelecom": "",
-					"cnmobile": "",
-					"cnunicom": ""
+					"ctelecom": "athens_demo_images_OS3.0.303.0.WPICNDM_20260904.0000.00_16.0_cn_chinatelecom_bcb13a7798.tgz",
+					"cnmobile": "athens_demo_images_OS3.0.303.0.WPICNDM_20260904.0000.00_16.0_cn_chinamobile_bbd62a0451.tgz",
+					"cnunicom": "athens_demo_images_OS3.0.303.0.WPICNDM_20260904.0000.00_16.0_cn_chinaunicom_506727fff7.tgz"
 				},
 				"OS3.0.302.0.WPICNDM": {
 					"os": "OS3.0.302.0.WPICNDM",

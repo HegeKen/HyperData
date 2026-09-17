@@ -6,15 +6,60 @@
 	},
 	"code": "GN",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
 	"merged": "no",
 	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS Beta",
+				"en": "Xiaomi HyperOS Beta"
+			},
+			"branchCode": "songyuan",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K100 Pro Max",
+				"en": "REDMI K100 Pro Max"
+			},
+			"idtag": "CnOB",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.0.8.XGNCNXM": {
+					"os": "OS4.0.0.8.XGNCNXM",
+					"android": "17.0",
+					"release": "2026-09-17",
+					"aspatch": "2026-09-01",
+					"recovery": "songyuan-ota_full-OS4.0.0.8.XGNCNXM-user-17.0-9f77d48e81.zip",
+					"fastboot": ""
+				}
+			}
+		},
 		{
 			"name": {
 				"zh": "小米澎湃 OS 正式版",
@@ -126,12 +171,12 @@
 					"os": "OS3.0.304.0.WGNCNDM",
 					"android": "16.0",
 					"release": "2026-09-16",
-					"aspatch": "",
-					"recovery": "",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_demo-ota_full-OS3.0.304.0.WGNCNDM-user-16.0-1dd55fb809.zip",
 					"fastboot": "songyuan_demo_images_OS3.0.304.0.WGNCNDM_20260904.0000.00_16.0_cn_f77a322785.tgz",
-					"ctelecom": "",
-					"cnmobile": "",
-					"cnunicom": ""
+					"ctelecom": "songyuan_demo_images_OS3.0.304.0.WGNCNDM_20260904.0000.00_16.0_cn_chinatelecom_756b4da27f.tgz",
+					"cnmobile": "songyuan_demo_images_OS3.0.304.0.WGNCNDM_20260904.0000.00_16.0_cn_chinamobile_80478706bc.tgz",
+					"cnunicom": "songyuan_demo_images_OS3.0.304.0.WGNCNDM_20260904.0000.00_16.0_cn_chinaunicom_e2b6a521f1.tgz"
 				},
 				"OS3.0.303.0.WGNCNDM": {
 					"os": "OS3.0.303.0.WGNCNDM",

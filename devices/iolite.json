@@ -307,7 +307,7 @@
 					"release": "2026-09-11",
 					"aspatch": "2026-08-01",
 					"recovery": "iolite_dc_global-ota_full-OS3.0.304.0.WDQMIDC-user-16.0-edcf84a66a.zip",
-					"fastboot": ""
+					"fastboot": "iolite_dc_global_images_OS3.0.304.0.WDQMIDC_20260904.0000.00_16.0_global_dc_15364ef5a4.tgz"
 				},
 				"OS3.0.302.0.WDQMIDC": {
 					"os": "OS3.0.302.0.WDQMIDC",
@@ -349,6 +349,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.307.0.WDQEUXM": {
+					"os": "OS3.0.307.0.WDQEUXM",
+					"android": "16.0",
+					"release": "2026-09-17",
+					"aspatch": "2026-08-01",
+					"recovery": "iolite_eea_global-ota_full-OS3.0.307.0.WDQEUXM-user-16.0-4abcf55078.zip",
+					"fastboot": "iolite_eea_global_images_OS3.0.307.0.WDQEUXM_20260910.0000.00_16.0_eea_abcd689931.tgz"
+				},
 				"OS3.0.306.0.WDQEUXM": {
 					"os": "OS3.0.306.0.WDQEUXM",
 					"android": "16.0",

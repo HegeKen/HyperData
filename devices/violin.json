@@ -7,11 +7,13 @@
 	"code": "OT",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
 		"15.0",
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -50,6 +52,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.11.XOTCNXM": {
+					"os": "OS4.0.0.11.XOTCNXM",
+					"android": "17.0",
+					"release": "2026-09-17",
+					"aspatch": "2026-09-01",
+					"recovery": "violin-ota_full-OS4.0.0.11.XOTCNXM-user-17.0-99132e56e1.zip",
+					"fastboot": ""
+				},
 				"OS3.0.0.18.WOTCNXM": {
 					"os": "OS3.0.0.18.WOTCNXM",
 					"android": "16.0",
