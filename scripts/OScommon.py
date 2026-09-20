@@ -676,6 +676,7 @@ flags = {
 	"flute_ru_global": "flute",
 	"leedsa_tr_global": "leedsa",
 	"iolite_in_global": "iolite",
+	"pudding_ep_stdee": "pudding",
 	"flute_tr_global": "flute",
 	"klimt_dc_global": "klimt",
 	"goya_mx_at_global": "goya",

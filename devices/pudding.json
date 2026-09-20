@@ -7,7 +7,8 @@
 	"code": "PC",
 	"supports": [
 		"OS3.0",
-		"OS4.0"
+		"OS4.0",
+		"OS3.1"
 	],
 	"android": [
 		"16.0",
@@ -544,6 +545,51 @@
 					"recovery": "pudding_demo-ota_full-OS3.0.3.0.WPCCNDM-user-16.0-1c53e0f566.zip",
 					"fastboot": "pudding_demo_images_OS3.0.3.0.WPCCNDM_20250925.0000.00_16.0_cn_9809a02d1e.tgz",
 					"ctelecom": "pudding_demo_images_OS3.0.3.0.WPCCNDM_20250925.0000.00_16.0_cn_chinatelecom_35dca3f7e4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国大陆政企标准版",
+				"en": "Xiaomi HyperOS Enterprise Standard"
+			},
+			"branchCode": "pudding_ep_stdee",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 17",
+				"en": "Xiaomi 17"
+			},
+			"idtag": "EPSTD",
+			"tag": "",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "1",
+			"roms": {
+				"OS3.1.26.7.28.EP.STDEE.P3": {
+					"os": "OS3.1.26.7.28.EP.STDEE.P3",
+					"android": "16.0",
+					"release": "2026-09-20",
+					"aspatch": "",
+					"recovery": "pudding_ep_stdee-ota_full-OS3.1.26.7.28.EP.STDEE.P3-user-16.0-a6d0488977.zip",
+					"fastboot": "pudding_ep_stdee_images_OS3.1.26.7.28.EP.STDEE.P3_20260728.0000.00_16.0_cn_ef336ffd60.tgz",
+					"ctelecom": "pudding_ep_stdee_images_OS3.1.26.7.28.EP.STDEE.P3_20260728.0000.00_16.0_cn_chinatelecom_a3b7dd028e.tgz"
 				}
 			}
 		},
