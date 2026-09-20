@@ -1,8 +1,80 @@
 {
   "recent": {
-    "time": "2026-09-19 20:30:57",
+    "time": "2026-09-20 14:50:13",
     "developing": "no",
     "roms": {
+      "fuxi": {
+        "name": {
+          "zh": "小米 13",
+          "en": "Xiaomi 13"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-20",
+            "version": "OS3.0.306.0.WMCMIXM"
+          },
+          {
+            "insert_date": "2026-09-18",
+            "version": "OS3.0.303.0.WMCRUXM"
+          },
+          {
+            "insert_date": "2026-09-18",
+            "version": "OS3.0.303.0.WMCTWXM"
+          },
+          {
+            "insert_date": "2026-09-15",
+            "version": "OS3.0.309.0.WMCCNXM"
+          }
+        ]
+      },
+      "dash": {
+        "name": {
+          "zh": "REDMI Turbo 5 MAX / POCO X8 Pro MAX",
+          "en": "REDMI Turbo 5 MAX / POCO X8 Pro MAX"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-20",
+            "version": "OS3.0.306.0.WPLCNXM"
+          }
+        ]
+      },
+      "miro": {
+        "name": {
+          "zh": "REDMI K80 Pro / POCO F7 Ultra",
+          "en": "REDMI K80 Pro / POCO F7 Ultra"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-20",
+            "version": "OS4.0.0.9.XOMCNXM"
+          },
+          {
+            "insert_date": "2026-09-17",
+            "version": "OS4.0.0.8.XOMCNXM"
+          }
+        ]
+      },
+      "zorn": {
+        "name": {
+          "zh": "REDMI K80 / POCO F7 Pro",
+          "en": "REDMI K80 / POCO F7 Pro"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-20",
+            "version": "OS4.0.0.9.XOKCNXM"
+          },
+          {
+            "insert_date": "2026-09-17",
+            "version": "OS4.0.0.8.XOKCNXM"
+          },
+          {
+            "insert_date": "2026-09-15",
+            "version": "OS3.0.308.0.WOKCNXM"
+          }
+        ]
+      },
       "mist": {
         "name": {
           "zh": "REDMI Note 17 5G / POCO M8 Power 5G",
@@ -72,26 +144,6 @@
           {
             "insert_date": "2026-09-18",
             "version": "OS3.0.303.0.WNATRXM"
-          }
-        ]
-      },
-      "fuxi": {
-        "name": {
-          "zh": "小米 13",
-          "en": "Xiaomi 13"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-18",
-            "version": "OS3.0.303.0.WMCRUXM"
-          },
-          {
-            "insert_date": "2026-09-18",
-            "version": "OS3.0.303.0.WMCTWXM"
-          },
-          {
-            "insert_date": "2026-09-15",
-            "version": "OS3.0.309.0.WMCCNXM"
           }
         ]
       },
@@ -459,22 +511,6 @@
           }
         ]
       },
-      "zorn": {
-        "name": {
-          "zh": "REDMI K80 / POCO F7 Pro",
-          "en": "REDMI K80 / POCO F7 Pro"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-17",
-            "version": "OS4.0.0.8.XOKCNXM"
-          },
-          {
-            "insert_date": "2026-09-15",
-            "version": "OS3.0.308.0.WOKCNXM"
-          }
-        ]
-      },
       "dada": {
         "name": {
           "zh": "小米 15",
@@ -504,18 +540,6 @@
           {
             "insert_date": "2026-09-14",
             "version": "OS3.0.308.0.WHPCNXM"
-          }
-        ]
-      },
-      "miro": {
-        "name": {
-          "zh": "REDMI K80 Pro / POCO F7 Ultra",
-          "en": "REDMI K80 Pro / POCO F7 Ultra"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-17",
-            "version": "OS4.0.0.8.XOMCNXM"
           }
         ]
       },
@@ -808,18 +832,6 @@
           {
             "insert_date": "2026-09-14",
             "version": "OS3.0.305.0.WNPCNXM"
-          }
-        ]
-      },
-      "goku": {
-        "name": {
-          "zh": "小米 MIX Fold 4",
-          "en": "Xiaomi MIX Fold 4"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-13",
-            "version": "OS3.0.309.0.WNVCNXM"
           }
         ]
       }
