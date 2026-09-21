@@ -963,13 +963,21 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WNNMIXM": {
+					"os": "OS3.0.303.0.WNNMIXM",
+					"android": "16.0",
+					"release": "2026-09-20",
+					"aspatch": "2026-08-01",
+					"recovery": "rothko_global-ota_full-OS3.0.303.0.WNNMIXM-user-16.0-0ebffb3a79.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WNNMIXM": {
 					"os": "OS3.0.302.0.WNNMIXM",
 					"android": "16.0",
 					"release": "2026-08-26",
 					"aspatch": "2026-08-01",
 					"recovery": "rothko_global-ota_full-OS3.0.302.0.WNNMIXM-user-16.0-7582da00f0.zip",
-					"fastboot": ""
+					"fastboot": "rothko_global_images_OS3.0.302.0.WNNMIXM_20260813.0000.00_16.0_global_f461ffc2f4.tgz"
 				},
 				"OS3.0.301.0.WNNMIXM": {
 					"os": "OS3.0.301.0.WNNMIXM",
@@ -1388,6 +1396,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.305.0.WNNEUXM": {
+					"os": "OS3.0.305.0.WNNEUXM",
+					"android": "16.0",
+					"release": "2026-09-20",
+					"aspatch": "2026-08-01",
+					"recovery": "rothko_eea_global-ota_full-OS3.0.305.0.WNNEUXM-user-16.0-d3e0faad6a.zip",
+					"fastboot": ""
+				},
 				"OS3.0.304.0.WNNEUXM": {
 					"os": "OS3.0.304.0.WNNEUXM",
 					"android": "16.0",

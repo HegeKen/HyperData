@@ -2174,6 +2174,7 @@ flags = {
 	"earth_eea_global": "earth",
 	"FIRERUGlobal": "fire",
 	"fire_id_global": "fire",
+	"songyuan_id_global": "songyuan",
 	"FIREIDGlobal": "fire",
 	"EARTHEEAGlobal": "earth",
 	"diting_tw_global": "diting",

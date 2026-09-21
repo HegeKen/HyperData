@@ -420,6 +420,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "songyuan_id_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO F9 Ultra",
+				"en": "POCO F9 Ultra"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WGNIDXM": {
+					"os": "OS3.0.305.0.WGNIDXM",
+					"android": "16.0",
+					"release": "2026-09-21",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_id_global-ota_full-OS3.0.305.0.WGNIDXM-user-16.0-038cfe064d.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 土耳其正式版",
 				"en": "Xiaomi HyperOS Turkey Stable"
 			},
@@ -448,6 +488,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.302.0.WGNTRXM": {
+					"os": "OS3.0.302.0.WGNTRXM",
+					"android": "16.0",
+					"release": "2026-09-21",
+					"aspatch": "2026-08-01",
+					"recovery": "songyuan_tr_global-ota_full-OS3.0.302.0.WGNTRXM-user-16.0-734109f864.zip",
+					"fastboot": ""
+				},
 				"OS3.0.301.0.WGNTRXM": {
 					"os": "OS3.0.301.0.WGNTRXM",
 					"android": "16.0",
