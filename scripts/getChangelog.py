@@ -17,6 +17,7 @@ device = 'rothko'
 OScommon.HyperOSForm['d'] = device + ''
 OScommon.HyperOSForm['R'] = 'CN'
 OScommon.HyperOSForm['b'] = 'F'
+OScommon.HyperOSForm['l'] = 'ug_CN'
 OScommon.HyperOSForm['pn'] = OScommon.HyperOSForm['d'].split('_global')[0]
 OScommon.HyperOSForm['c'] = '14'
 OScommon.HyperOSForm['sdk'] = OScommon.sdk[OScommon.HyperOSForm['c']]
