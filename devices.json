@@ -994,6 +994,42 @@
 				]
 			},
 			{
+				"code": "hongkong",
+				"image": "hongkong.png",
+				"name": {
+					"zh": "小米 18 Pro",
+					"en": "Xiaomi 18 Pro"
+				},
+				"series": {
+					"zh": "小米系列",
+					"en": "Xiaomi Series"
+				},
+				"supports": [
+					"OS4.0"
+				],
+				"android": [
+					"17.0"
+				]
+			},
+			{
+				"code": "madrid",
+				"image": "madrid.png",
+				"name": {
+					"zh": "小米 18 Pro Max",
+					"en": "Xiaomi 18 Pro Max"
+				},
+				"series": {
+					"zh": "小米系列",
+					"en": "Xiaomi Series"
+				},
+				"supports": [
+					"OS4.0"
+				],
+				"android": [
+					"17.0"
+				]
+			},
+			{
 				"code": "lhasa",
 				"image": "lhasa.png",
 				"name": {
@@ -1289,6 +1325,44 @@
 				],
 				"android": [
 					"16.0",
+					"17.0"
+				]
+			},
+			{
+				"code": "yupei",
+				"image": "yupei_d.png",
+				"name": {
+					"zh": "小米平板 9",
+					"en": "Xiaomi Pad 9"
+				},
+				"series": {
+					"zh": "小米平板系列",
+					"en": "Xiaomi Pad Series"
+				},
+				"supports": [
+					"OS3.0",
+					"OS4.0"
+				],
+				"android": [
+					"16.0",
+					"17.0"
+				]
+			},
+			{
+				"code": "shuntian",
+				"image": "shuntian.png",
+				"name": {
+					"zh": "小米平板 9 Pro",
+					"en": "Xiaomi Pad 9 Pro"
+				},
+				"series": {
+					"zh": "小米平板系列",
+					"en": "Xiaomi Pad Series"
+				},
+				"supports": [
+					"OS4.0"
+				],
+				"android": [
 					"17.0"
 				]
 			},

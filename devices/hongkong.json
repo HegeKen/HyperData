@@ -1,0 +1,116 @@
+{
+	"device": "hongkong",
+	"name": {
+		"zh": "小米 18 Pro",
+		"en": "Xiaomi 18 Pro"
+	},
+	"code": "FP",
+	"supports": [
+		"OS4.0"
+	],
+	"android": [
+		"17.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 正式版",
+				"en": "Xiaomi HyperOS Stable"
+			},
+			"branchCode": "hongkong",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "CnOO",
+			"tag": "CNXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "1",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.6.0.XFRCNXM": {
+					"os": "OS4.0.6.0.XFRCNXM",
+					"android": "17.0",
+					"release": "2026-09-23",
+					"recovery": "hongkong-ota_full-OS4.0.6.0.XFRCNXM-user-17.0-aa32578536.zip",
+					"fastboot": "hongkong_images_OS4.0.6.0.XFRCNXM_20260917.0000.00_17.0_cn_1bb94dcf3b.tgz",
+					"ctelecom": "hongkong_images_OS4.0.6.0.XFRCNXM_20260917.0000.00_17.0_cn_chinatelecom_b1b6aa9950.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "hongkong_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot",
+				"ctelecom"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.5.0.XFRCNDM": {
+					"os": "OS4.0.5.0.XFRCNDM",
+					"android": "17.0",
+					"release": "2026-09-23",
+					"aspatch": "2026-09-01",
+					"recovery": "hongkong_demo-ota_full-OS4.0.5.0.XFRCNDM-user-17.0-e0f825d5e5.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
+				"OS4.0.4.0.XFRCNDM": {
+					"os": "OS4.0.4.0.XFRCNDM",
+					"android": "17.0",
+					"release": "2026-09-23",
+					"aspatch": "2026-09-01",
+					"recovery": "hongkong_demo-ota_full-OS4.0.4.0.XFRCNDM-user-17.0-d893b01642.zip",
+					"fastboot": "hongkong_demo_images_OS4.0.4.0.XFRCNDM_20260921.0000.00_17.0_cn_045ed3e966.tgz",
+					"ctelecom": "hongkong_demo_images_OS4.0.4.0.XFRCNDM_20260921.0000.00_17.0_cn_chinatelecom_2f1dadd15a.tgz"
+				}
+			}
+		}
+	]
+}

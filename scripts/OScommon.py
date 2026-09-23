@@ -174,7 +174,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 unreleased = ['moscow', 'brussels', 'chicago', 'pond', 'suiren', 'zephyr', 'coral']
-currentStable = ['yupei_d', 'donghai', 'shuntian', 'lhasa', 'yingtian', 'brussels', 'chicago', 'athens', 'songyuan', 'steppe', 'leedsa', 'mist', 'iolite', 'moscow',  'pond',
+currentStable = ['hongkong', 'madrid', 'yupei_d', 'donghai', 'shuntian', 'lhasa', 'yingtian', 'brussels', 'chicago', 'athens', 'songyuan', 'steppe', 'leedsa', 'mist', 'iolite', 'moscow',  'pond',
 								 'warsaw', 'chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew',
 								 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
 								 'pandora', 'popsicle', 'tornado','goya', 'klimt', 'konghou',  'spring', 'lapis', 'kunzite',
@@ -2179,6 +2179,13 @@ flags = {
 	"brussels_ru_global": "brussels",
 	"brussels_tr_global": "brussels",
 	"FIREIDGlobal": "fire",
+	"brussels_in_global": "brussels",
+	"shuntian": "shuntian",
+	"hongkong": "hongkong",
+	"madrid": "madrid",
+	"shuntian_demo": "shuntian",
+	"hongkong_demo": "hongkong",
+	"madrid_demo": "madrid",
 	"EARTHEEAGlobal": "earth",
 	"diting_tw_global": "diting",
 	"DITINGGlobal": "diting",
@@ -3558,6 +3565,21 @@ def update_index_json(device, devdata, version):
 				}
 			}
 		
+		# 校验 index.json 结构：顶层与 recent 必须为 dict，roms 必须为以设备 code 为键的 dict
+		if not isinstance(updates, dict):
+			print(f"更新 index.json 失败: 顶层结构应为 dict，实际为 {type(updates).__name__}，请检查 {index_path}")
+			return
+		recent = updates.get("recent")
+		if not isinstance(recent, dict):
+			print(f"更新 index.json 失败: recent 字段应为 dict，实际为 {type(recent).__name__}，请检查 {index_path}")
+			return
+		roms = recent.get("roms")
+		if not isinstance(roms, dict):
+			print(f"更新 index.json 失败: recent.roms 应为以设备 code 为键的 dict，实际为 {type(roms).__name__}"
+				  f"（可能是旧版 list 结构，元素形如 {{\"code\", \"name\", \"rom\"}}），"
+				  f"本次跳过更新，请先迁移或修正 {index_path}，对应 rom 为 {version}")
+			return
+
 		# 更新时间（东八区）
 		updates["recent"]['time'] = datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
 		
