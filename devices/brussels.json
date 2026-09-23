@@ -217,6 +217,126 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "brussels_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WDRRUXM": {
+					"os": "OS3.0.305.0.WDRRUXM",
+					"android": "16.0",
+					"release": "2026-09-22",
+					"aspatch": "2026-08-01",
+					"recovery": "brussels_ru_global-ota_full-OS3.0.305.0.WDRRUXM-user-16.0-448f0c4f5e.zip",
+					"fastboot": "brussels_ru_global_images_OS3.0.305.0.WDRRUXM_20260915.0000.00_16.0_ru_2fc336dac7.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "brussels_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WDRIDXM": {
+					"os": "OS3.0.302.0.WDRIDXM",
+					"android": "16.0",
+					"release": "2026-09-22",
+					"aspatch": "2026-08-01",
+					"recovery": "brussels_id_global-ota_full-OS3.0.302.0.WDRIDXM-user-16.0-7e8c62c8e9.zip",
+					"fastboot": "brussels_id_global_images_OS3.0.302.0.WDRIDXM_20260910.0000.00_16.0_id_9ede54c8d6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "brussels_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WDRTRXM": {
+					"os": "OS3.0.305.0.WDRTRXM",
+					"android": "16.0",
+					"release": "2026-09-22",
+					"aspatch": "2026-08-01",
+					"recovery": "brussels_tr_global-ota_full-OS3.0.305.0.WDRTRXM-user-16.0-9b6d519128.zip",
+					"fastboot": "brussels_tr_global_images_OS3.0.305.0.WDRTRXM_20260915.0000.00_16.0_tr_66d04da245.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 日本正式版",
 				"en": "Xiaomi HyperOS Japan Stable"
 			},
