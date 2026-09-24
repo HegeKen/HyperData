@@ -8,18 +8,20 @@
 import os
 import json
 import sys
+import OScommon
 
 # 添加脚本目录到路径
 sys.path.append('/Users/hegeken/Desktop/Codes/HyperOS.fans/public/data/scripts')
 
 # 导入 OScommon 模块
-from OScommon import order, db_job, writeData
+from OScommon import order, db_job, writeData , currentStable
 
 # 数据目录
 DATA_DIR = '/Users/hegeken/Desktop/Codes/HyperOS.fans/public/data/devices'
 
 # 输出文件 - 使用绝对路径确保写入到项目根目录
 OUTPUT_FILE = '/Users/hegeken/Desktop/Codes/HyperOS.fans/public/data/scripts/NewROMs.txt'
+
 
 def rom_exists_in_db(filename, rom_type):
     """在数据库中精确查询指定文件名的 ROM 是否存在"""
@@ -102,4 +104,9 @@ def main():
     print(f"结果已保存到: {OUTPUT_FILE}")
 
 if __name__ == '__main__':
-    main()
+    for device in currentStable:
+        if device not in order:
+            print(f"警告: {device} 不在 order 中，可能是未发布的设备。")
+        else:
+            main()
+    

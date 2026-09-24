@@ -1,8 +1,9 @@
 import OScommon
 import json
 import os
+import sys
 
-def sync_aspatch_from_db():
+def sync_aspatch_from_db(only_devices=None):
     """
     按照 OScommon.order 的顺序遍历本地 JSON 数据，
     从数据库获取 aspatch 并添加到对应的 ROM 数据中。
@@ -10,6 +11,8 @@ def sync_aspatch_from_db():
     """
     # 1. 获取 order 列表中的设备
     devices_order = OScommon.order
+    if only_devices:
+        devices_order = [d for d in devices_order if d in only_devices]
     updated_count = 0
     skipped_count = 0
     total_checked = 0
@@ -66,14 +69,16 @@ def sync_aspatch_from_db():
                     else:
                         aspatch_value = ""
 
-                    # 重建 rom_data，将 aspatch 插入到 release 和 recovery 之间
-                    new_rom_data = {}
-                    for key, value in rom_data.items():
-                        new_rom_data[key] = value
-                        # 在 release 之后插入 aspatch
-                        if key == 'release':
-                            new_rom_data['aspatch'] = aspatch_value
-                    roms[version] = new_rom_data
+                    # 如果 aspatch 已存在则原地更新，否则在 release 之后插入
+                    if 'aspatch' in rom_data:
+                        rom_data['aspatch'] = aspatch_value
+                    else:
+                        new_rom_data = {}
+                        for key, value in rom_data.items():
+                            new_rom_data[key] = value
+                            if key == 'release':
+                                new_rom_data['aspatch'] = aspatch_value
+                        roms[version] = new_rom_data
 
                     device_updated += 1
                     print(f"✓ [{device}] {device_name} - {version} → {aspatch_value if aspatch_value else '(空)'}")
@@ -97,5 +102,85 @@ def sync_aspatch_from_db():
     print(f"更新 aspatch: {updated_count}")
     print(f"跳过设备: {skipped_count}")
 
+def check_aspatch_key(only_devices=None):
+    """
+    检查所有设备 JSON 分支是否设置了 aspatch 键。
+    缺失时提示并自动修复：在 table 的 release 之后插入 aspatch，
+    并为每个 ROM 条目补充 aspatch 空值。
+    """
+    fixed_count = 0
+    checked_count = 0
+
+    print("开始检查 aspatch 键...")
+    print("-" * 80)
+
+    devices_order = OScommon.order
+    if only_devices:
+        devices_order = [d for d in devices_order if d in only_devices]
+
+    for device in devices_order:
+        device_file = OScommon.get_platform_path(f"public/data/devices/{device}.json")
+
+        if not os.path.exists(device_file):
+            continue
+
+        with open(device_file, 'r', encoding='utf-8') as f:
+            devdata = json.load(f)
+
+        branches = devdata.get('branches', [])
+        device_fixed = False
+
+        for branch in branches:
+            table_fields = branch.get('table', [])
+            checked_count += 1
+
+            if 'aspatch' in table_fields:
+                continue
+
+            # 缺失 aspatch，提示
+            code = branch.get('branchCode', '')
+            tag = branch.get('tag', '')
+            idtag = branch.get('idtag', '')
+            print(f"⚠ [{device}] 分支缺 aspatch 键: tag={tag} idtag={idtag} code={code}")
+
+            # 自动修复：在 table 的 release 之后插入 aspatch
+            if 'release' in table_fields:
+                idx = table_fields.index('release')
+                table_fields.insert(idx + 1, 'aspatch')
+            else:
+                table_fields.append('aspatch')
+            branch['table'] = table_fields
+
+            # 为每个 ROM 条目补充 aspatch 空值
+            roms = branch.get('roms', {})
+            for version, rom_data in roms.items():
+                if 'aspatch' not in rom_data:
+                    new_rom_data = {}
+                    for key, value in rom_data.items():
+                        new_rom_data[key] = value
+                        if key == 'release':
+                            new_rom_data['aspatch'] = ""
+                    if 'aspatch' not in new_rom_data:
+                        new_rom_data['aspatch'] = ""
+                    roms[version] = new_rom_data
+
+            device_fixed = True
+            fixed_count += 1
+            print(f"  → 已自动修复: 补充 aspatch 键到 table 和 ROM 条目")
+
+        if device_fixed:
+            with open(device_file, 'w', encoding='utf-8') as f:
+                json.dump(devdata, f, ensure_ascii=False, indent='\t')
+            print(f"  [{device}] 已保存修复")
+
+    print("-" * 80)
+    print(f"检查分支: {checked_count}")
+    print(f"修复分支: {fixed_count}")
+
+
 if __name__ == "__main__":
-    sync_aspatch_from_db()
+    args = sys.argv[1:]
+    only = [a for a in args if not a.startswith('--')]
+    check_aspatch_key(only_devices=only or None)
+    sync_aspatch_from_db(only_devices=only or None)
+    

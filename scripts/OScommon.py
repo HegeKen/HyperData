@@ -204,9 +204,11 @@ both_regions = ['aurora', 'corot', 'cupid', 'diting', 'duchamp', 'earth', 'fuxi'
 
 order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', 'agate', 'vili', 'cupid', 'zeus', 'psyche',
 				 'daumier', 'taoyao', 'mayfly', 'unicorn', 'thor', 'plato', 'fuxi', 'nuwa', 'ishtar', 'aristotle',
-				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian', 'xuanyuan', 'dijun', 'goya', 'klimt', 'pudding', 'pandora', 'byron', 'popsicle', 'nezha', 'chagall','warhol',
+				 'houji', 'shennong', 'shennong_t', 'aurora', 'degas', 'dada', 'haotian', 'xuanyuan', 'dijun', 'goya', 'klimt', 'pudding', 'pandora',
+				 'byron', 'popsicle', 'nezha', 'chagall','warhol', 'hongkong', 'madrid', 'lhasa',
 				 'nabu', 'enuma', 'elish', 'dagu', 'pipa',
-				 'liuqin', 'yudi', 'sheng', 'uke', 'muyu', 'jinghu', 'violin', 'piano', 'yupei', 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
+				 'liuqin', 'yudi', 'sheng', 'uke', 'muyu', 'jinghu', 'violin', 'piano', 'yupei',  'shuntian', 'yingtian',
+				 'odin', 'cetus', 'zizhan', 'babylon', 'goku', 'ruyi', 'bixi', 'mona',
 				 'zijin', 'ziyi', 'yuechu', 'chenfeng', 'luming', 'konghou',
 				 'fire', 'earth', 'sky', 'gale', 'moon', 'air', 'lake', 'flame', 'creek', 'dew', 'tornado', 'spring', 'evergo', 'light', 'lightcm', 'veux', 'xaga', 'pissarro',
 				 'spes', 'spesn', 'viva', 'vida', 'fleur', 'opal', 'sunstone', 'ruby', 'redwood', 'pearl', 'marble', 'tapas', 'topaz',
