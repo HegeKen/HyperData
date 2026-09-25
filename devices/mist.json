@@ -245,6 +245,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "mist_dc_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+				"en": "REDMI Note 17 5G / POCO M8 Power 5G"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WPUMIDC": {
+					"os": "OS3.0.303.0.WPUMIDC",
+					"android": "16.0",
+					"release": "2026-09-24",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "mist_dc_global_images_OS3.0.303.0.WPUMIDC_20260917.0000.00_16.0_global_dc_9114ac8ce5.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},

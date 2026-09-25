@@ -378,6 +378,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "iolite_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro 5G",
+				"en": "REDMI Note 17 Pro 5G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WDQRUXM": {
+					"os": "OS3.0.303.0.WDQRUXM",
+					"android": "16.0",
+					"release": "2026-09-24",
+					"aspatch": "2026-08-01",
+					"recovery": "iolite_ru_global-ota_full-OS3.0.303.0.WDQRUXM-user-16.0-4d48e1aa60.zip",
+					"fastboot": "iolite_ru_global_images_OS3.0.303.0.WDQRUXM_20260909.0000.00_16.0_ru_4990080a0d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 印度正式版",
 				"en": "Xiaomi HyperOS India Stable"
 			},
@@ -421,6 +461,94 @@
 					"aspatch": "2026-07-01",
 					"recovery": "iolite_in_global-ota_full-OS3.0.301.0.WDQINXM-user-16.0-95df7a74b6.zip",
 					"fastboot": "iolite_in_global_images_OS3.0.301.0.WDQINXM_20260807.0000.00_16.0_in_700f9cc7b4.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "iolite_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro 5G",
+				"en": "REDMI Note 17 Pro 5G"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WDQIDXM": {
+					"os": "OS3.0.302.0.WDQIDXM",
+					"android": "16.0",
+					"release": "2026-09-24",
+					"aspatch": "2026-08-01",
+					"recovery": "iolite_id_global-ota_full-OS3.0.302.0.WDQIDXM-user-16.0-c72a057506.zip",
+					"fastboot": "iolite_id_global_images_OS3.0.302.0.WDQIDXM_20260917.0000.00_16.0_id_4fa13e97e0.tgz"
+				},
+				"OS3.0.301.0.WDQIDXM": {
+					"os": "OS3.0.301.0.WDQIDXM",
+					"android": "16.0",
+					"release": "2026-09-24",
+					"aspatch": "2026-07-01",
+					"recovery": "iolite_id_global-ota_full-OS3.0.301.0.WDQIDXM-user-16.0-31ca588b17.zip",
+					"fastboot": "iolite_id_global_images_OS3.0.301.0.WDQIDXM_20260804.0000.00_16.0_id_558497116d.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "iolite_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro 5G",
+				"en": "REDMI Note 17 Pro 5G"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WDQTRXM": {
+					"os": "OS3.0.303.0.WDQTRXM",
+					"android": "16.0",
+					"release": "2026-09-24",
+					"aspatch": "2026-08-01",
+					"recovery": "iolite_tr_global-ota_full-OS3.0.303.0.WDQTRXM-user-16.0-d8f1a87dde.zip",
+					"fastboot": "iolite_tr_global_images_OS3.0.303.0.WDQTRXM_20260909.0000.00_16.0_tr_c0039813f4.tgz"
 				}
 			}
 		}

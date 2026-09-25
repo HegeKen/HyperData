@@ -56,7 +56,7 @@
 					"aspatch": "2026-09-01",
 					"recovery": "madrid-ota_full-OS4.0.9.0.XEOCNXM-user-17.0-d1df2bda26.zip",
 					"fastboot": "madrid_images_OS4.0.9.0.XEOCNXM_20260921.0000.00_17.0_cn_141958367b.tgz",
-					"ctelecom": ""
+					"ctelecom": "madrid_images_OS4.0.9.0.XEOCNXM_20260921.0000.00_17.0_cn_chinatelecom_d04a1db62b.tgz"
 				},
 				"OS4.0.6.0.XEOCNXM": {
 					"os": "OS4.0.6.0.XEOCNXM",
@@ -98,7 +98,8 @@
 				"release",
 				"aspatch",
 				"recovery",
-				"fastboot"
+				"fastboot",
+				"ctelecom"
 			],
 			"show": "0",
 			"region": "cn",
@@ -117,7 +118,8 @@
 					"release": "2026-09-23",
 					"aspatch": "2026-09-01",
 					"recovery": "madrid_demo-ota_full-OS4.0.5.0.XEOCNDM-user-17.0-38007cd602.zip",
-					"fastboot": ""
+					"fastboot": "madrid_demo_images_OS4.0.5.0.XEOCNDM_20260922.0000.00_17.0_cn_fcbc5e7d58.tgz",
+					"ctelecom": "madrid_demo_images_OS4.0.5.0.XEOCNDM_20260922.0000.00_17.0_cn_chinatelecom_8f7b80598f.tgz"
 				},
 				"OS4.0.4.0.XEOCNDM": {
 					"os": "OS4.0.4.0.XEOCNDM",

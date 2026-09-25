@@ -121,6 +121,46 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "zephyr_dc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 4G",
+				"en": "REDMI Note 17 4G"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WBUMIDC": {
+					"os": "OS3.0.303.0.WBUMIDC",
+					"android": "16.0",
+					"release": "2026-09-25",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "zephyr_dc_global_images_OS3.0.303.0.WBUMIDC_20260803.0000.00_16.0_global_dc_c5693f00c1.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 欧洲EEA正式版",
 				"en": "Xiaomi HyperOS Europe EEA Stable"
 			},
@@ -156,6 +196,86 @@
 					"aspatch": "2026-08-01",
 					"recovery": "zephyr_eea_global-ota_full-OS3.0.305.0.WBUEUDM-user-16.0-5a0912999a.zip",
 					"fastboot": "zephyr_eea_global_images_OS3.0.305.0.WBUEUDM_20260803.0000.00_16.0_eea_c28c5c5bed.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "zephyr_ru_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 4G",
+				"en": "REDMI Note 17 4G"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.306.0.WBURUXM": {
+					"os": "OS3.0.306.0.WBURUXM",
+					"android": "16.0",
+					"release": "2026-09-24",
+					"aspatch": "2026-08-01",
+					"recovery": "zephyr_ru_global-ota_full-OS3.0.306.0.WBURUXM-user-16.0-58834b393f.zip",
+					"fastboot": "zephyr_ru_global_images_OS3.0.306.0.WBURUXM_20260820.0000.00_16.0_ru_d614024109.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "zephyr_id_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 4G",
+				"en": "REDMI Note 17 4G"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WBUIDXM": {
+					"os": "OS3.0.305.0.WBUIDXM",
+					"android": "16.0",
+					"release": "2026-09-25",
+					"aspatch": "2026-08-01",
+					"recovery": "zephyr_id_global-ota_full-OS3.0.305.0.WBUIDXM-user-16.0-1b7713328e.zip",
+					"fastboot": "zephyr_id_global_images_OS3.0.305.0.WBUIDXM_20260820.0000.00_16.0_id_45fe241ee7.tgz"
 				}
 			}
 		}
