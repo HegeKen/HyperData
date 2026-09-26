@@ -180,68 +180,6 @@
 		},
 		{
 			"name": {
-				"zh": "小米澎湃 OS 欧洲EEA正式版",
-				"en": "Xiaomi HyperOS Europe EEA Stable"
-			},
-			"branchCode": "erhu_eea_global",
-			"brand": "REDMI",
-			"device": {
-				"zh": "REDMI Pad 2 SE 4G",
-				"en": "REDMI Pad 2 SE 4G"
-			},
-			"idtag": "EEAO",
-			"tag": "EUXM",
-			"branchtag": "F",
-			"table": [
-				"os",
-				"android",
-				"release",
-				"aspatch",
-				"recovery",
-				"fastboot"
-			],
-			"show": "1",
-			"carrier": [
-				""
-			],
-			"region": "eea",
-			"zone": "2",
-			"ep": "0",
-			"roms": {}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 欧洲EEA Demo",
-				"en": "Xiaomi HyperOS Europe EEA Demo"
-			},
-			"branchCode": "erhu_eea_global",
-			"brand": "REDMI",
-			"device": {
-				"zh": "REDMI Pad 2 SE 4G",
-				"en": "REDMI Pad 2 SE 4G"
-			},
-			"idtag": "EEAD",
-			"tag": "EUDM",
-			"branchtag": "F",
-			"table": [
-				"os",
-				"android",
-				"release",
-				"aspatch",
-				"recovery",
-				"fastboot"
-			],
-			"show": "1",
-			"carrier": [
-				""
-			],
-			"region": "eea",
-			"zone": "2",
-			"ep": "0",
-			"roms": {}
-		},
-		{
-			"name": {
 				"zh": "小米澎湃 OS 俄罗斯正式版",
 				"en": "Xiaomi HyperOS Russia Stable"
 			},
@@ -324,7 +262,7 @@
 					"release": "2026-09-16",
 					"aspatch": "2026-08-01",
 					"recovery": "erhu_id_global-ota_full-OS3.0.302.0.WDOIDXM-user-16.0-dc025baed8.zip",
-					"fastboot": ""
+					"fastboot": "erhu_id_global_images_OS3.0.302.0.WDOIDXM_20260820.0000.00_16.0_id_d760e770bc.tgz"
 				},
 				"OS3.0.301.0.WDOIDXM": {
 					"os": "OS3.0.301.0.WDOIDXM",
@@ -335,37 +273,6 @@
 					"fastboot": "erhu_id_global_images_OS3.0.301.0.WDOIDXM_20260417.0000.00_16.0_id_785ca36753.tgz"
 				}
 			}
-		},
-		{
-			"name": {
-				"zh": "小米澎湃 OS 土耳其正式版",
-				"en": "Xiaomi HyperOS Turkey Stable"
-			},
-			"branchCode": "erhu_tr_global",
-			"brand": "REDMI",
-			"device": {
-				"zh": "REDMI Pad 2 SE 4G",
-				"en": "REDMI Pad 2 SE 4G"
-			},
-			"idtag": "TRSO",
-			"tag": "TRXM",
-			"branchtag": "F",
-			"table": [
-				"os",
-				"android",
-				"release",
-				"aspatch",
-				"recovery",
-				"fastboot"
-			],
-			"show": "1",
-			"carrier": [
-				""
-			],
-			"region": "tr",
-			"zone": "2",
-			"ep": "0",
-			"roms": {}
 		}
 	]
 }

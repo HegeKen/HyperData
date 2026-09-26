@@ -2688,6 +2688,155 @@ def db_job(sql):
 			cnx.close()
 
 
+def db_job_params(sql, params):
+	"""参数化执行SQL（防注入），返回所有结果"""
+	cnx = None
+	try:
+		cnx = Connection(
+			user=config.user,
+			password=config.password,
+			host=config.host,
+			port=config.port,
+			database=config.database,
+			autocommit=True
+		)
+		cursor = cnx.cursor()
+		cursor.execute(sql, params)
+		result = cursor.fetchall()
+		return result if result is not None else []
+	except Exception as e:
+		print(sql, e)
+		return []
+	finally:
+		if cnx:
+			cnx.close()
+
+
+# ==================== 更新日志字典化存储（logs 表） ====================
+# roms.logs_* 列不再存原文 JSON（{"模块": ["条目", ...]}），改存 ID 引用结构：
+#   [[模块ID, [条目ID, ...]], ...]   如 [[3, [6, 8]], [32, [45, 48]]]
+# 模块/条目原文按 (type, md5(content)) 去重存于 logs 表，与 hub.miuier.com 的
+# data/scripts/miroms/logs_store.py 保持同一套结构与约定。
+
+import hashlib
+
+LOGS_CREATE_SQL = """
+CREATE TABLE IF NOT EXISTS `logs` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '自增主键',
+  `type` varchar(8) COLLATE utf8mb4_bin NOT NULL COMMENT '日志类型：module=模块名 / log=日志条目',
+  `content` text COLLATE utf8mb4_bin NOT NULL COMMENT '原文内容',
+  `content_hash` char(32) COLLATE utf8mb4_bin NOT NULL COMMENT 'content 的 MD5（hex），用于去重查找',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uq_type_hash` (`type`, `content_hash`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin
+"""
+
+_logs_table_ready = False
+_logs_id_cache = {}      # (type, content) -> id
+_logs_map_cache = None   # id -> content
+
+
+def logs_ensure_table():
+	global _logs_table_ready
+	if _logs_table_ready:
+		return
+	db_job(LOGS_CREATE_SQL)
+	_logs_table_ready = True
+
+
+def _is_encoded_log(parsed):
+	"""判断解析后的值是否为 ID 引用结构 [[mid, [lids...]], ...]"""
+	if not isinstance(parsed, list):
+		return False
+	for item in parsed:
+		if not (isinstance(item, list) and len(item) == 2
+				and isinstance(item[0], int) and isinstance(item[1], list)):
+			return False
+	return True
+
+
+def logs_get_or_create(log_type, content):
+	"""按 (type, content) 获取 ID，不存在则插入。进程内缓存避免重复查询。"""
+	key = (log_type, content)
+	if key in _logs_id_cache:
+		return _logs_id_cache[key]
+	logs_ensure_table()
+	content_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
+	db_job_params(
+		"INSERT IGNORE INTO `logs` (`type`, `content`, `content_hash`) VALUES (%s, %s, %s)",
+		(log_type, content, content_hash))
+	rows = db_job_params(
+		"SELECT `id` FROM `logs` WHERE `type` = %s AND `content_hash` = %s",
+		(log_type, content_hash))
+	if not rows:
+		raise RuntimeError(f"logs 表写入后未查到记录: type={log_type} content={content[:50]!r}")
+	log_id = int(rows[0][0])
+	_logs_id_cache[key] = log_id
+	if _logs_map_cache is not None:
+		_logs_map_cache[log_id] = content
+	return log_id
+
+
+def changelog_encode(log_obj):
+	"""原文日志对象 {"模块": ["条目", ...]} -> ID 结构 JSON 字符串"""
+	pairs = []
+	for module, lines in log_obj.items():
+		if not isinstance(module, str) or not module:
+			continue
+		if not isinstance(lines, list):
+			lines = [lines]
+		line_ids = [logs_get_or_create('log', str(line)) for line in lines]
+		pairs.append([logs_get_or_create('module', module), line_ids])
+	return json.dumps(pairs, ensure_ascii=False)
+
+
+def changelog_encode_value(value):
+	"""待写入列的值：原文 JSON -> ID 结构 JSON；已是 ID 结构则原样返回（幂等）"""
+	if not value:
+		return value
+	try:
+		parsed = json.loads(value)
+	except (json.JSONDecodeError, TypeError):
+		return value
+	if _is_encoded_log(parsed):
+		return value
+	if isinstance(parsed, dict):
+		return changelog_encode(parsed)
+	return value
+
+
+def _logs_content_map():
+	global _logs_map_cache
+	if _logs_map_cache is None:
+		logs_ensure_table()
+		rows = db_job("SELECT `id`, `content` FROM `logs`")
+		_logs_map_cache = {int(r[0]): r[1] for r in rows}
+	return _logs_map_cache
+
+
+def changelog_decode(value):
+	"""库中列值 -> 原文日志对象：ID 结构解码还原，旧格式（dict）原样返回"""
+	if not value:
+		return value
+	try:
+		parsed = json.loads(value)
+	except (json.JSONDecodeError, TypeError):
+		return value
+	if not _is_encoded_log(parsed):
+		return parsed
+	id_map = _logs_content_map()
+	result = {}
+	for item in parsed:
+		if not (isinstance(item, list) and len(item) == 2):
+			continue
+		module = id_map.get(int(item[0]))
+		if module is None:
+			continue
+		result[module] = [id_map[int(lid)] for lid in item[1]
+						  if isinstance(lid, int) and int(lid) in id_map]
+	return result
+
+
 def stringify(s):
 		return f"'{s}'"
 def get_time(url):
@@ -3942,8 +4091,9 @@ def getChangelog2DB(encrypted_data, device, version):
 	# 检查 log 是否为 None
 	if log is None:
 		return False
-	
-	return json.dumps(strip_log(remove_spaces(log)), ensure_ascii=False)
+
+	# 原文 -> logs 表 ID 引用结构（调用方直接写入 roms.logs_* 列即可）
+	return changelog_encode(strip_log(remove_spaces(log)))
 
 
 def remove_spaces(d):
