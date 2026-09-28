@@ -2229,6 +2229,7 @@ flags = {
 	"redwood_global": "redwood",
 	"REDWOODGlobal": "redwood",
 	"ruby_eea_global": "ruby",
+	"zephyr_tr_global": "zephyr",
 	"RUBYEEAGlobal": "ruby",
 	"ruby_kr_global": "ruby",
 	"RUBYKRGlobal": "ruby",

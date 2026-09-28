@@ -310,6 +310,46 @@
 					"fastboot": "zephyr_id_global_images_OS3.0.305.0.WBUIDXM_20260820.0000.00_16.0_id_45fe241ee7.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "zephyr_tr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 4G",
+				"en": "REDMI Note 17 4G"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WBUTRXM": {
+					"os": "OS3.0.302.0.WBUTRXM",
+					"android": "16.0",
+					"release": "2026-09-28",
+					"aspatch": "2026-06-01",
+					"recovery": "zephyr_tr_global-ota_full-OS3.0.302.0.WBUTRXM-user-16.0-3fc563904a.zip",
+					"fastboot": "zephyr_tr_global_images_OS3.0.302.0.WBUTRXM_20260709.0000.00_16.0_tr_0fc0889d36.tgz"
+				}
+			}
 		}
 	]
 }
