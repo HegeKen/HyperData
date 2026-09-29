@@ -1,8 +1,148 @@
 {
   "recent": {
-    "time": "2026-09-28 21:24:50",
+    "time": "2026-09-29 18:26:54",
     "developing": "no",
     "roms": {
+      "ruby": {
+        "name": {
+          "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
+          "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS2.0.16.0.UMOMIXM"
+          },
+          {
+            "insert_date": "2026-09-25",
+            "version": "OS2.0.6.0.UMOKRXM"
+          }
+        ]
+      },
+      "brussels": {
+        "name": {
+          "zh": "REDMI Note 17 Pro Max",
+          "en": "REDMI Note 17 Pro Max"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS3.0.310.0.WDRMIXM"
+          }
+        ]
+      },
+      "songyuan": {
+        "name": {
+          "zh": "REDMI K100 Pro Max",
+          "en": "REDMI K100 Pro Max"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS3.0.310.0.WGNCNXM"
+          },
+          {
+            "insert_date": "2026-09-28",
+            "version": "OS3.0.309.0.WGNMIXM"
+          },
+          {
+            "insert_date": "2026-09-27",
+            "version": "OS3.0.303.0.WGNTWXM"
+          },
+          {
+            "insert_date": "2026-09-25",
+            "version": "OS3.0.308.0.WGNJPXM"
+          },
+          {
+            "insert_date": "2026-09-23",
+            "version": "OS4.0.0.10.XGNCNXM"
+          }
+        ]
+      },
+      "iolite": {
+        "name": {
+          "zh": "REDMI Note 17 Pro 5G",
+          "en": "REDMI Note 17 Pro 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS3.0.308.0.WDQMIXM"
+          },
+          {
+            "insert_date": "2026-09-25",
+            "version": "OS3.0.303.0.WDQRUXM"
+          },
+          {
+            "insert_date": "2026-09-25",
+            "version": "OS3.0.301.0.WDQIDXM"
+          },
+          {
+            "insert_date": "2026-09-25",
+            "version": "OS3.0.302.0.WDQIDXM"
+          },
+          {
+            "insert_date": "2026-09-25",
+            "version": "OS3.0.303.0.WDQTRXM"
+          }
+        ]
+      },
+      "chagall": {
+        "name": {
+          "zh": "Xiaomi 17T",
+          "en": "Xiaomi 17T"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS3.0.305.0.WPTLMCR"
+          },
+          {
+            "insert_date": "2026-09-28",
+            "version": "OS3.0.311.0.WPTCNXM"
+          },
+          {
+            "insert_date": "2026-09-25",
+            "version": "OS4.0.0.21.XPTCNXM"
+          }
+        ]
+      },
+      "fire": {
+        "name": {
+          "zh": "Redmi 12 国际",
+          "en": "Redmi 12"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS2.0.209.0.VMXINXM"
+          },
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS2.0.205.0.VMXIDXM"
+          },
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS2.0.205.0.VMXTRXM"
+          },
+          {
+            "insert_date": "2026-09-26",
+            "version": "OS2.0.210.0.VMXMIXM"
+          }
+        ]
+      },
+      "pudding": {
+        "name": {
+          "zh": "小米 17",
+          "en": "Xiaomi 17"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-09-29",
+            "version": "OS3.0.337.0.XPCMIXM"
+          }
+        ]
+      },
       "somalia": {
         "name": {
           "zh": "REDMI R70 / REDMI R70m / REDMI 17 5G / POCO C85x 5G",
@@ -28,22 +168,6 @@
           {
             "insert_date": "2026-09-25",
             "version": "OS3.0.303.0.WPUMIDC"
-          }
-        ]
-      },
-      "chagall": {
-        "name": {
-          "zh": "Xiaomi 17T",
-          "en": "Xiaomi 17T"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-28",
-            "version": "OS3.0.311.0.WPTCNXM"
-          },
-          {
-            "insert_date": "2026-09-25",
-            "version": "OS4.0.0.21.XPTCNXM"
           }
         ]
       },
@@ -243,30 +367,6 @@
           }
         ]
       },
-      "songyuan": {
-        "name": {
-          "zh": "REDMI K100 Pro Max",
-          "en": "REDMI K100 Pro Max"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-28",
-            "version": "OS3.0.309.0.WGNMIXM"
-          },
-          {
-            "insert_date": "2026-09-27",
-            "version": "OS3.0.303.0.WGNTWXM"
-          },
-          {
-            "insert_date": "2026-09-25",
-            "version": "OS3.0.308.0.WGNJPXM"
-          },
-          {
-            "insert_date": "2026-09-23",
-            "version": "OS4.0.0.10.XGNCNXM"
-          }
-        ]
-      },
       "houji": {
         "name": {
           "zh": "小米 14",
@@ -463,18 +563,6 @@
           }
         ]
       },
-      "fire": {
-        "name": {
-          "zh": "Redmi 12 国际",
-          "en": "Redmi 12"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-26",
-            "version": "OS2.0.210.0.VMXMIXM"
-          }
-        ]
-      },
       "steppe": {
         "name": {
           "zh": "REDMI M100",
@@ -591,18 +679,6 @@
           }
         ]
       },
-      "ruby": {
-        "name": {
-          "zh": "Redmi Note 12 Pro / Pro+ / 探索版",
-          "en": "Redmi Note 12 Pro / Pro+ / Discovery 5G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-25",
-            "version": "OS2.0.6.0.UMOKRXM"
-          }
-        ]
-      },
       "jinghu": {
         "name": {
           "zh": "小米平板 7 Ultra",
@@ -688,30 +764,6 @@
           {
             "insert_date": "2026-09-25",
             "version": "OS3.0.309.0.WHPCNXM"
-          }
-        ]
-      },
-      "iolite": {
-        "name": {
-          "zh": "REDMI Note 17 Pro 5G",
-          "en": "REDMI Note 17 Pro 5G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-25",
-            "version": "OS3.0.303.0.WDQRUXM"
-          },
-          {
-            "insert_date": "2026-09-25",
-            "version": "OS3.0.301.0.WDQIDXM"
-          },
-          {
-            "insert_date": "2026-09-25",
-            "version": "OS3.0.302.0.WDQIDXM"
-          },
-          {
-            "insert_date": "2026-09-25",
-            "version": "OS3.0.303.0.WDQTRXM"
           }
         ]
       },
@@ -860,26 +912,6 @@
           {
             "insert_date": "2026-09-23",
             "version": "OS3.0.303.0.WOLIDXM"
-          }
-        ]
-      },
-      "brussels": {
-        "name": {
-          "zh": "REDMI Note 17 Pro Max",
-          "en": "REDMI Note 17 Pro Max"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-09-22",
-            "version": "OS3.0.305.0.WDRRUXM"
-          },
-          {
-            "insert_date": "2026-09-22",
-            "version": "OS3.0.302.0.WDRIDXM"
-          },
-          {
-            "insert_date": "2026-09-22",
-            "version": "OS3.0.305.0.WDRTRXM"
           }
         ]
       }
