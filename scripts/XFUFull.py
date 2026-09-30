@@ -81,4 +81,5 @@ def main() -> None:
 	process_directory(TARGET_DIRECTORY)
 
 if __name__ == '__main__':
+	subprocess.run(["git", "pull"], cwd="/Users/hegeken/Desktop/Codes/Sources/xmfirmwareupdater.github.io")
 	main()
