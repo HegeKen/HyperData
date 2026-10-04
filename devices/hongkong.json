@@ -49,13 +49,22 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.18.0.XFRCNXM": {
+					"os": "OS4.0.18.0.XFRCNXM",
+					"android": "17.0",
+					"release": "2026-10-04",
+					"aspatch": "2026-09-01",
+					"recovery": "hongkong-ota_full-OS4.0.18.0.XFRCNXM-user-17.0-684db3db12.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS4.0.17.0.XFRCNXM": {
 					"os": "OS4.0.17.0.XFRCNXM",
 					"android": "17.0",
 					"release": "2026-10-01",
 					"aspatch": "2026-09-01",
 					"recovery": "hongkong-ota_full-OS4.0.17.0.XFRCNXM-user-17.0-9cf2afb0fc.zip",
-					"fastboot": "",
+					"fastboot": "hongkong_images_OS4.0.17.0.XFRCNXM_20261001.0000.00_17.0_cn_9a5d1921d7.tgz",
 					"ctelecom": ""
 				},
 				"OS4.0.15.0.XFRCNXM": {
@@ -139,6 +148,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.8.0.XFRCNDM": {
+					"os": "OS4.0.8.0.XFRCNDM",
+					"android": "17.0",
+					"release": "2026-10-02",
+					"aspatch": "2026-09-01",
+					"recovery": "hongkong_demo-ota_full-OS4.0.8.0.XFRCNDM-user-17.0-2135c7815d.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS4.0.7.0.XFRCNDM": {
 					"os": "OS4.0.7.0.XFRCNDM",
 					"android": "17.0",
