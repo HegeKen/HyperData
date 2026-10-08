@@ -273,13 +273,21 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WPQMIXM": {
+					"os": "OS3.0.304.0.WPQMIXM",
+					"android": "16.0",
+					"release": "2026-10-04",
+					"aspatch": "2026-09-01",
+					"recovery": "kunzite_global-ota_full-OS3.0.304.0.WPQMIXM-user-16.0-d4997b08a5.zip",
+					"fastboot": ""
+				},
 				"OS3.0.303.0.WPQMIXM": {
 					"os": "OS3.0.303.0.WPQMIXM",
 					"android": "16.0",
 					"release": "2026-09-15",
 					"aspatch": "2026-07-01",
 					"recovery": "kunzite_global-ota_full-OS3.0.303.0.WPQMIXM-user-16.0-710fead382.zip",
-					"fastboot": ""
+					"fastboot": "kunzite_global_images_OS3.0.303.0.WPQMIXM_20260827.0000.00_16.0_global_71175a32d3.tgz"
 				},
 				"OS3.0.302.0.WPQMIXM": {
 					"os": "OS3.0.302.0.WPQMIXM",
