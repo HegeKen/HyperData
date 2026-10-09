@@ -77,6 +77,49 @@
 					"ctelecom": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "shuntian_demo",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 Pad 9 Pro",
+				"en": "Xiaomi Pad 9 Pro"
+			},
+			"idtag": "CnOD",
+			"tag": "CNDM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"region": "cn",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.3.0.XFPCNDM": {
+					"os": "OS4.0.3.0.XFPCNDM",
+					"android": "17.0",
+					"release": "2026-10-08",
+					"aspatch": "2026-08-01",
+					"recovery": "shuntian_demo-ota_full-OS4.0.3.0.XFPCNDM-user-17.0-e8eaf0bceb.zip",
+					"fastboot": "shuntian_demo_images_OS4.0.3.0.XFPCNDM_20260924.0000.00_17.0_cn_236638d471.tgz"
+				}
+			}
 		}
 	]
 }
