@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2026-10-09 20:46:30",
+    "time": "2026-10-09 23:30:47",
     "developing": "no",
     "roms": {
       "malachite": {
@@ -55,12 +55,32 @@
           }
         ]
       },
+      "hongkong": {
+        "name": {
+          "zh": "小米 18 Pro",
+          "en": "Xiaomi 18 Pro"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-09",
+            "version": "OS4.0.24.0.XFRCNXM"
+          },
+          {
+            "insert_date": "2026-10-04",
+            "version": "OS4.0.18.0.XFRCNXM"
+          }
+        ]
+      },
       "madrid": {
         "name": {
           "zh": "小米 18 Pro Max",
           "en": "Xiaomi 18 Pro Max"
         },
         "versions": [
+          {
+            "insert_date": "2026-10-09",
+            "version": "OS4.0.24.0.XEOCNXM"
+          },
           {
             "insert_date": "2026-10-08",
             "version": "OS4.0.22.0.XEOCNXM"
@@ -424,18 +444,6 @@
           {
             "insert_date": "2026-10-04",
             "version": "OS3.0.312.0.WMBCNXM"
-          }
-        ]
-      },
-      "hongkong": {
-        "name": {
-          "zh": "小米 18 Pro",
-          "en": "Xiaomi 18 Pro"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-04",
-            "version": "OS4.0.18.0.XFRCNXM"
           }
         ]
       }

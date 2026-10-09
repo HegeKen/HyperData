@@ -49,6 +49,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.24.0.XEOCNXM": {
+					"os": "OS4.0.24.0.XEOCNXM",
+					"android": "17.0",
+					"release": "2026-10-09",
+					"aspatch": "2026-09-01",
+					"recovery": "madrid-ota_full-OS4.0.24.0.XEOCNXM-user-17.0-81ece9ec12.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS4.0.23.0.XEOCNXM": {
 					"os": "OS4.0.23.0.XEOCNXM",
 					"android": "17.0",
@@ -73,8 +82,8 @@
 					"release": "2026-10-05",
 					"aspatch": "2026-09-01",
 					"recovery": "madrid-ota_full-OS4.0.20.0.XEOCNXM-user-17.0-5c03929ea4.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "madrid_images_OS4.0.20.0.XEOCNXM_20261004.0000.00_17.0_cn_a16b63703b.tgz",
+					"ctelecom": "madrid_images_OS4.0.20.0.XEOCNXM_20261004.0000.00_17.0_cn_chinatelecom_6d4b5d46ed.tgz"
 				},
 				"OS4.0.19.0.XEOCNXM": {
 					"os": "OS4.0.19.0.XEOCNXM",
@@ -175,6 +184,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.9.0.XEOCNDM": {
+					"os": "OS4.0.9.0.XEOCNDM",
+					"android": "17.0",
+					"release": "2026-10-09",
+					"aspatch": "2026-09-01",
+					"recovery": "madrid_demo-ota_full-OS4.0.9.0.XEOCNDM-user-17.0-d81b4bcac8.zip",
+					"fastboot": "madrid_demo_images_OS4.0.9.0.XEOCNDM_20261005.0000.00_17.0_cn_d6281ae967.tgz",
+					"ctelecom": "madrid_demo_images_OS4.0.9.0.XEOCNDM_20261005.0000.00_17.0_cn_chinatelecom_11f58b1a5e.tgz"
+				},
 				"OS4.0.8.0.XEOCNDM": {
 					"os": "OS4.0.8.0.XEOCNDM",
 					"android": "17.0",
