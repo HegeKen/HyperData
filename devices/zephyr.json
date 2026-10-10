@@ -358,6 +358,46 @@
 					"fastboot": "zephyr_tr_global_images_OS3.0.302.0.WBUTRXM_20260709.0000.00_16.0_tr_0fc0889d36.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "zephyr_lm_cr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 4G",
+				"en": "REDMI Note 17 4G"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WBULMCR": {
+					"os": "OS3.0.303.0.WBULMCR",
+					"android": "16.0",
+					"release": "2026-10-08",
+					"aspatch": "2026-07-01",
+					"recovery": "zephyr_lm_cr_global-ota_full-OS3.0.303.0.WBULMCR-user-16.0-cef83d2765.zip",
+					"fastboot": "zephyr_lm_cr_global_images_OS3.0.303.0.WBULMCR_20260810.0000.00_16.0_lm_cr_55e0fa95c8.tgz"
+				}
+			}
 		}
 	]
 }
