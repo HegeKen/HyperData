@@ -2195,6 +2195,7 @@ flags = {
 	"shuntian_demo": "shuntian",
 	"hongkong_demo": "hongkong",
 	"zephyr_lm_cr_global": "zephyr",
+	"mist_lm_cr_global": "mist",
 	"madrid_demo": "madrid",
 	"EARTHEEAGlobal": "earth",
 	"diting_tw_global": "diting",

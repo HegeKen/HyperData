@@ -402,6 +402,54 @@
 					"fastboot": "mist_in_global_images_OS3.0.304.0.WPUINXM_20260722.0000.00_16.0_in_909667115e.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "mist_lm_cr_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+				"en": "REDMI Note 17 5G / POCO M8 Power 5G"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WPULMCR": {
+					"os": "OS3.0.303.0.WPULMCR",
+					"android": "16.0",
+					"release": "2026-09-30",
+					"aspatch": "2026-09-01",
+					"recovery": "mist_lm_cr_global-ota_full-OS3.0.303.0.WPULMCR-user-16.0-234eab7583.zip",
+					"fastboot": ""
+				},
+				"OS3.0.302.0.WPULMCR": {
+					"os": "OS3.0.302.0.WPULMCR",
+					"android": "16.0",
+					"release": "2026-10-13",
+					"aspatch": "2026-07-01",
+					"recovery": "mist_lm_cr_global-ota_full-OS3.0.302.0.WPULMCR-user-16.0-cc283c0f4e.zip",
+					"fastboot": "mist_lm_cr_global_images_OS3.0.302.0.WPULMCR_20260727.0000.00_16.0_lm_cr_6da394bc36.tgz"
+				}
+			}
 		}
 	]
 }
