@@ -454,6 +454,46 @@
 					"fastboot": "brussels_jp_global_images_OS3.0.303.0.WDRJPXM_20260821.0000.00_16.0_jp_a0cfa9b1e3.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "brussels_lm_cr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 17 Pro Max",
+				"en": "REDMI Note 17 Pro Max"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WDRLMCR": {
+					"os": "OS3.0.302.0.WDRLMCR",
+					"android": "16.0",
+					"release": "2026-10-13",
+					"aspatch": "2026-07-01",
+					"recovery": "brussels_lm_cr_global-ota_full-OS3.0.302.0.WDRLMCR-user-16.0-71073a0def.zip",
+					"fastboot": "brussels_lm_cr_global_images_OS3.0.302.0.WDRLMCR_20260819.0000.00_16.0_lm_cr_4fd9ce2c48.tgz"
+				}
+			}
 		}
 	]
 }

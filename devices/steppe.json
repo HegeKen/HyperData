@@ -489,6 +489,46 @@
 					"fastboot": "steppe_tr_global_images_OS3.0.301.0.WAVTRXM_20260722.0000.00_16.0_tr_7d8aeec959.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "steppe_lm_cr_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI M100",
+				"en": "REDMI M100"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WAVLMCR": {
+					"os": "OS3.0.301.0.WAVLMCR",
+					"android": "16.0",
+					"release": "2026-10-14",
+					"aspatch": "",
+					"recovery": "steppe_lm_cr_global-ota_full-OS3.0.301.0.WAVLMCR-user-16.0-9e4526673d.zip",
+					"fastboot": "steppe_lm_cr_global_images_OS3.0.301.0.WAVLMCR_20260805.0000.00_16.0_lm_cr_c4f09b0ab0.tgz"
+				}
+			}
 		}
 	]
 }
