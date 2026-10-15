@@ -2196,6 +2196,7 @@ flags = {
 	"hongkong_demo": "hongkong",
 	"zephyr_lm_cr_global": "zephyr",
 	"mist_lm_cr_global": "mist",
+	"iolite_lm_cr_global": "iolite",
 	"brussels_lm_cr_global": "brussels",
 	"steppe_lm_cr_global": "steppe",
 	"leedsa_lm_cr_global": "leedsa",
