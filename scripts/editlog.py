@@ -1,21 +1,33 @@
-import OScommon
 import json
-langs = ['zh_CN', 'en_US']
-logs_zh = []
-logs_en = []
-pre_zh = "SELECT id,logs_zh FROM roms WHERE logs_zh IS NOT NULL"
-pre_en = "SELECT id,logs_en FROM roms WHERE logs_en IS NOT NULL"
-results = OScommon.db_job(pre_zh)
-for result in results:
-  # 库中已是 ID 引用结构，先解码为原文对象再按原逻辑清洗，最后重新编码回 ID 结构
-  log = OScommon.strip_log(OScommon.changelog_decode(result[1]))
-  id = result[0]
-  encoded = OScommon.changelog_encode(OScommon.remove_spaces(log))
-  uplog = OScommon.db_job(f"UPDATE roms SET logs_zh = '{encoded}' WHERE id = %s" % (id))
 
-results = OScommon.db_job(pre_en)
-for result in results:
-  log = OScommon.strip_log(OScommon.changelog_decode(result[1]))
-  id = result[0]
-  encoded = OScommon.changelog_encode(OScommon.remove_spaces(log))
-  uplog = OScommon.db_job(f"UPDATE roms SET logs_en = '{encoded}' WHERE id = %s" % (id))
+import OScommon
+
+
+def clean_logs(localized):
+	"""对已解码的各语言日志重新清洗，返回 {语言列: 清洗后原文对象}"""
+	cleaned = {}
+	for column, log in localized.items():
+		cleaned[column] = OScommon.strip_log(OScommon.remove_spaces(log))
+	return cleaned
+
+
+rows = OScommon.DatabaseManager.execute(
+	"SELECT id, logs FROM roms WHERE logs IS NOT NULL AND logs != ''",
+	fetch_one=False, raise_on_error=True,
+)
+
+for row in rows or []:
+	rom_id, value = row[0], row[1]
+	try:
+		localized = OScommon.LogStore.build_localized(json.loads(value))
+	except (json.JSONDecodeError, TypeError):
+		continue
+	if not localized:
+		continue
+	encoded = OScommon.LogStore.write_logs(clean_logs(localized))
+	OScommon.DatabaseManager.execute(
+		"UPDATE roms SET logs = %s WHERE id = %s",
+		params=(encoded, rom_id), raise_on_error=True,
+	)
+
+print(f"已重新清洗 {len(rows or [])} 条记录的各语言日志")

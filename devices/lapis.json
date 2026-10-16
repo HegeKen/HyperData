@@ -357,7 +357,7 @@
 					"release": "2026-09-30",
 					"aspatch": "2026-09-01",
 					"recovery": "lapis_global-ota_full-OS3.0.309.0.WPPMIXM-user-16.0-0745344e5b.zip",
-					"fastboot": ""
+					"fastboot": "lapis_global_images_OS3.0.309.0.WPPMIXM_20260920.0000.00_16.0_global_83c277d4a3.tgz"
 				},
 				"OS3.0.308.0.WPPMIXM": {
 					"os": "OS3.0.308.0.WPPMIXM",
@@ -823,6 +823,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WPPIDXM": {
+					"os": "OS3.0.303.0.WPPIDXM",
+					"android": "16.0",
+					"release": "2026-10-12",
+					"aspatch": "2026-09-01",
+					"recovery": "lapis_id_global-ota_full-OS3.0.303.0.WPPIDXM-user-16.0-4f482653b5.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WPPIDXM": {
 					"os": "OS3.0.302.0.WPPIDXM",
 					"android": "16.0",

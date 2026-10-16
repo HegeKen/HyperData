@@ -2719,129 +2719,775 @@ def db_job_params(sql, params):
 			cnx.close()
 
 
-# ==================== 更新日志字典化存储（logs 表） ====================
-# roms.logs_* 列不再存原文 JSON（{"模块": ["条目", ...]}），改存 ID 引用结构：
-#   [[模块ID, [条目ID, ...]], ...]   如 [[3, [6, 8]], [32, [45, 48]]]
-# 模块/条目原文按 (type, md5(content)) 去重存于 logs 表，与 hub.miuier.com 的
-# data/scripts/miroms/logs_store.py 保持同一套结构与约定。
+# ==================== 更新日志多语言分组存储（logs 表） ====================
+# 同一句日志的各语言版本共存于 logs 表的一行（logs_zh / logs_zh_tw / logs_en ...），
+# content 为主内容（中文优先 → 英文 → 最早原文），content_hash 为其 MD5。
+# roms.logs 单列存 ID 引用结构：
+#   [[模块ID, [条目ID, ...], 语言掩码], ...]   如 [[3, [6, 8], 5], [32, [45, 48], 8]]
+# 语言掩码是 21 位整数，第 i 位对应 CHANGELOG_LOCALES 第 i 项，只追加、不插队。
+# 结构与约定与 hub.miuier.com 的 data/scripts/miroms/logs_store.py 一致。
 
 import hashlib
+import logging
+from typing import Any, Dict, List, Optional, Sequence, Tuple
 
-LOGS_CREATE_SQL = """
-CREATE TABLE IF NOT EXISTS `logs` (
-  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '自增主键',
-  `type` varchar(8) COLLATE utf8mb4_bin NOT NULL COMMENT '日志类型：module=模块名 / log=日志条目',
-  `content` text COLLATE utf8mb4_bin NOT NULL COMMENT '原文内容',
-  `content_hash` char(32) COLLATE utf8mb4_bin NOT NULL COMMENT 'content 的 MD5（hex），用于去重查找',
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `uq_type_hash` (`type`, `content_hash`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin
-"""
+_logger = logging.getLogger(__name__)
 
-_logs_table_ready = False
-_logs_id_cache = {}      # (type, content) -> id
-_logs_map_cache = None   # id -> content
+# 语种登记表：column=logs 表列名（同时是前端读取的键名）、api=请求接口的 l 参数
+# （无译文的语种会回落英文）、site=站点 i18n locale、zh=中文说明、name=语言自称、
+# region=覆盖区域（仅日志输出用）。只追加、不插队：语言掩码按本表顺序取位。
+CHANGELOG_LOCALES = [
+	{"column": "logs_zh",    "zh": "简体中文", "api": "zh_CN", "site": "zh-Hans", "name": "简体中文",       "region": "cn"},
+	{"column": "logs_zh_tw", "zh": "繁体中文", "api": "zh_TW", "site": "zh-Hant", "name": "繁體中文",       "region": "tw/hk/mo"},
+	{"column": "logs_en",    "zh": "英文",     "api": "en_US", "site": "en",      "name": "English",        "region": "global"},
+	{"column": "logs_ja",    "zh": "日文",     "api": "ja_JP", "site": "ja",      "name": "日本語",          "region": "jp"},
+	{"column": "logs_ko",    "zh": "韩文",     "api": "ko_KR", "site": "ko",      "name": "한국어",          "region": "kr"},
+	{"column": "logs_ru",    "zh": "俄文",     "api": "ru_RU", "site": "ru",      "name": "Русский",        "region": "ru"},
+	{"column": "logs_uk",    "zh": "乌克兰文", "api": "uk_UA", "site": "uk",      "name": "Українська",     "region": "eea"},
+	{"column": "logs_pl",    "zh": "波兰文",   "api": "pl_PL", "site": "pl",      "name": "Polski",         "region": "eea"},
+	{"column": "logs_de",    "zh": "德文",     "api": "de_DE", "site": "de",      "name": "Deutsch",        "region": "eea"},
+	{"column": "logs_fr",    "zh": "法文",     "api": "fr_FR", "site": "fr",      "name": "Français",       "region": "eea"},
+	{"column": "logs_it",    "zh": "意大利文", "api": "it_IT", "site": "it",      "name": "Italiano",       "region": "eea"},
+	{"column": "logs_es",    "zh": "西班牙文", "api": "es_ES", "site": "es",      "name": "Español",        "region": "mx/lm/cl/gt"},
+	{"column": "logs_pt",    "zh": "葡萄牙文", "api": "pt_BR", "site": "pt",      "name": "Português",      "region": "pt/br"},
+	{"column": "logs_tr",    "zh": "土耳其文", "api": "tr_TR", "site": "tr",      "name": "Türkçe",         "region": "tr"},
+	{"column": "logs_id",    "zh": "印尼文",   "api": "id_ID", "site": "id",      "name": "Bahasa Indonesia", "region": "id"},
+	{"column": "logs_vi",    "zh": "越南文",   "api": "vi_VN", "site": "vi",      "name": "Tiếng Việt",     "region": "vn"},
+	{"column": "logs_th",    "zh": "泰文",     "api": "th_TH", "site": "th",      "name": "ไทย",            "region": "th"},
+	{"column": "logs_ar",    "zh": "阿拉伯文", "api": "ar_EG", "site": "ar",      "name": "العربية",        "region": "eg/sa/ma"},
+	{"column": "logs_in",    "zh": "印地文",   "api": "hi_IN", "site": "hi",      "name": "हिन्दी",          "region": "in"},
+	{"column": "logs_ug",    "zh": "维吾尔文", "api": "ug_CN", "site": "ug",      "name": "ئۇيغۇرچە",        "region": "cn"},
+	{"column": "logs_bo",    "zh": "藏文",     "api": "bo_CN", "site": "bo",      "name": "བོད་ཡིག",          "region": "cn"},
+]
+
+# 全部语言列名（顺序即 roms.logs 语言掩码的位序）
+CHANGELOG_COLUMNS = [item["column"] for item in CHANGELOG_LOCALES]
+
+# 除简体中文与英文外的其他语言列（保留给按语种批处理的脚本使用）
+CHANGELOG_EXTRA_COLUMNS = [c for c in CHANGELOG_COLUMNS if c not in ("logs_zh", "logs_en")]
+
+# 判断「接口没有该语种译文」的基准列：与英文完全相同即视为回落
+CHANGELOG_BASE_COLUMN = "logs_en"
 
 
-def logs_ensure_table():
-	global _logs_table_ready
-	if _logs_table_ready:
-		return
-	db_job(LOGS_CREATE_SQL)
-	_logs_table_ready = True
+def find_changelog_locale(value):
+	"""按列名 / api locale / 站点 locale / 语言名查找语种配置（大小写不敏感）"""
+	key = str(value or "").strip().lower()
+	for item in CHANGELOG_LOCALES:
+		if key in (item["column"].lower(), item["api"].lower(), str(item["site"]).lower(), item["name"].lower()):
+			return item
+	return {}
 
 
-def _is_encoded_log(parsed):
-	"""判断解析后的值是否为 ID 引用结构 [[mid, [lids...]], ...]"""
-	if not isinstance(parsed, list):
-		return False
-	for item in parsed:
-		if not (isinstance(item, list) and len(item) == 2
-				and isinstance(item[0], int) and isinstance(item[1], list)):
+class DatabaseManager:
+	"""数据库操作：参数化 SQL + 共享连接复用
+
+	写入类调用传 raise_on_error=True，避免写失败被静默忽略
+	（db_job / db_job_params 仍保持历史行为，返回 [] / None）。
+	"""
+
+	_shared_connection = None
+
+	@classmethod
+	def _get_connection(cls):
+		"""获取数据库连接（复用共享连接，掉线自动重连）"""
+		if cls._shared_connection is not None:
+			try:
+				cls._shared_connection.ping(reconnect=True)
+				return cls._shared_connection
+			except Exception:
+				cls._shared_connection = None
+		cls._shared_connection = Connection(
+			user=config.user,
+			password=config.password,
+			host=config.host,
+			port=config.port,
+			database=config.database,
+			autocommit=True,
+			connect_timeout=10,
+			read_timeout=30,
+			write_timeout=30
+		)
+		return cls._shared_connection
+
+	@classmethod
+	def _close_shared(cls):
+		"""关闭共享连接"""
+		if cls._shared_connection is not None:
+			try:
+				cls._shared_connection.close()
+			except Exception:
+				pass
+			cls._shared_connection = None
+
+	@classmethod
+	def execute(cls, sql, params=None, fetch_one=False, raise_on_error=False):
+		"""执行参数化 SQL；出错时按 raise_on_error 决定抛出或返回 None"""
+		cursor = None
+		try:
+			cursor = cls._get_connection().cursor()
+			cursor.execute(sql, params or ())
+			return cursor.fetchone() if fetch_one else cursor.fetchall()
+		except Exception as e:
+			_logger.error(f"SQL执行错误: {sql[:100]}..., 错误: {type(e).__name__}: {e}")
+			if raise_on_error:
+				raise
+			return None
+		finally:
+			if cursor:
+				cursor.close()
+
+	@classmethod
+	def query_one(cls, sql, params=None):
+		"""查询单条记录（参数化安全版）"""
+		return cls.execute(sql, params=params, fetch_one=True)
+
+	@classmethod
+	def query_all(cls, sql, params=None):
+		"""查询所有记录（参数化安全版）"""
+		result = cls.execute(sql, params=params, fetch_one=False)
+		return result if result else []
+
+
+class _RowIndex:
+	"""内存中的 logs 行池：按语言文本做兼容性去重，冲突则拆成新行
+
+	- `buckets[(type, 语言列, 文本hash)]` -> 行下标列表，用于快速找到「已有该语言文本」的行；
+	- 只有在**所有语言都不冲突**（该行对应语言为空或文本相同）时才复用同一行。
+	"""
+
+	__slots__ = ('rows', 'buckets', 'by_content', 'splits', 'conflicts')
+
+	def __init__(self):
+		self.rows = []
+		self.buckets = {}
+		self.by_content = {}
+		self.splits = 0
+		self.conflicts = []
+
+	def seed(self, rows):
+		"""把数据库中已有的行灌进行池（保留 id），使写入侧与导出侧共用同一套匹配逻辑"""
+		for row in rows:
+			self.rows.append({
+				'id': int(row['id']),
+				'type': row['type'],
+				'content': row['content'],
+				'texts': dict(row['texts']),
+				'dirty': False,
+			})
+			self._register(len(self.rows) - 1)
+
+	def flush(self):
+		"""把行池的变更落库：新行 INSERT，补齐语言的行 UPDATE（COALESCE）
+
+		落库前会校验行池里已有的 id 是否仍然存在：长时间运行的进程（如定时抓取）可能持有
+		已被其它进程合并 / 删除的行，若不校验就会往 roms.logs 写死引用。失效的行会针对
+		最新数据重新解析（复用幸存的分组，或改为新插入一行）。
+		"""
+		existing_ids = [int(row['id']) for row in self.rows if row.get('id') is not None]
+		stale = LogStore._missing_ids(existing_ids)
+		if stale:
+			fresh = LogStore.load_index(force=True)
+			for row in self.rows:
+				if row.get('id') is None or int(row['id']) not in stale:
+					continue
+				found = fresh.resolve(row['type'], row['texts'])
+				if found is not None and fresh.rows[found].get('id') is not None:
+					row['id'] = int(fresh.rows[found]['id'])
+				else:
+					row['id'] = None   # 没有可复用的分组，按新行插入
+				row['dirty'] = False
+			_logger.warning(f"行池中有 {len(stale)} 个分组已被其它进程删除，已重新解析")
+
+		fills = []
+		for row in self.rows:
+			if row.get('id') is None:
+				row['id'] = LogStore._insert_row(row)
+				row['dirty'] = False
+			elif row.get('dirty'):
+				fills.append((int(row['id']), row['texts']))
+				row['dirty'] = False
+		for group_id, texts in fills:
+			LogStore._fill_row(group_id, texts)
+		if fills or any(r.get('id') for r in self.rows):
+			LogStore._groups = None
+
+	def _register(self, index):
+		row = self.rows[index]
+		for column, value in row['texts'].items():
+			key = (row['type'], column, LogStore._hash(value))
+			bucket = self.buckets.setdefault(key, [])
+			if index not in bucket:
+				bucket.append(index)
+		key = (row['type'], LogStore._hash(row['content']))
+		bucket = self.by_content.setdefault(key, [])
+		if index not in bucket:
+			bucket.append(index)
+
+	def lookup(self, log_type, texts):
+		"""只读查找：返回**已包含**这些语言文本的行下标（不复用、不新建）
+
+		用于「行池已建好后」的第二遍遍历（如批量迁移回写 roms.logs），
+		保证写出的 id 一定落在已入库的行上。
+		"""
+		texts = {column: LogStore.normalize(value) for column, value in (texts or {}).items()
+				 if column in LogStore.LANG_COLUMNS and LogStore.normalize(value)}
+		if not texts:
+			return None
+		primary = LogStore._primary(texts)
+		candidates = []
+		seen = set()
+		for index in self.by_content.get((log_type, LogStore._hash(primary)), ()):
+			seen.add(index)
+			candidates.append(index)
+		for column, value in texts.items():
+			for index in self.buckets.get((log_type, column, LogStore._hash(value)), ()):
+				if index not in seen:
+					seen.add(index)
+					candidates.append(index)
+		for index in candidates:
+			row = self.rows[index]
+			if all(row['texts'].get(column) == value for column, value in texts.items()):
+				return index
+		return None
+
+	def resolve(self, log_type, texts):
+		texts = {column: LogStore.normalize(value) for column, value in (texts or {}).items()
+				 if column in LogStore.LANG_COLUMNS and LogStore.normalize(value)}
+		if not texts:
+			return None
+		primary = LogStore._primary(texts)
+
+		candidates = []
+		seen = set()
+		for index in self.by_content.get((log_type, LogStore._hash(primary)), ()):
+			seen.add(index)
+			candidates.append(index)
+		for column, value in texts.items():
+			for index in self.buckets.get((log_type, column, LogStore._hash(value)), ()):
+				if index not in seen:
+					seen.add(index)
+					candidates.append(index)
+
+		for index in candidates:
+			row = self.rows[index]
+			if all(row['texts'].get(column) in (None, value) for column, value in texts.items()):
+				for column, value in texts.items():
+					if not row['texts'].get(column):
+						row['texts'][column] = value
+						row['dirty'] = True
+				# 补上中文后主内容以中文为准（保证 content 始终是中文优先）
+				zh_text = row['texts'].get(LogStore.ZH_COLUMN)
+				if zh_text and row['content'] != zh_text:
+					row['content'] = zh_text
+					row['dirty'] = True
+				self._register(index)
+				return index
+
+		if candidates:
+			# 主内容相同但译文冲突：另起一行（保证两个 ROM 的日志都能原样还原）
+			self.splits += 1
+		row = {'id': None, 'type': log_type, 'content': primary, 'texts': dict(texts), 'dirty': False}
+		self.rows.append(row)
+		index = len(self.rows) - 1
+		self._register(index)
+		return index
+
+
+class LogStore:
+	"""更新日志的分组存储：写入 logs 表 / 导出各语言原文
+
+	写入：LogStore.write_logs({'logs_zh': zh_obj, 'logs_en': en_obj})  # -> roms.logs 的值
+	导出：LogStore.build_localized(parsed)                             # -> {'logs_zh': {...}, ...}
+	"""
+
+	TYPE_MODULE = 'module'
+	TYPE_LOG = 'log'
+
+	# 语言列（logs_zh 在最前，其余顺序与 CHANGELOG_LOCALES 一致）
+	LANG_COLUMNS = tuple(item['column'] for item in CHANGELOG_LOCALES)
+	LANG_INDEX = {column: i for i, column in enumerate(LANG_COLUMNS)}
+	ZH_COLUMN = 'logs_zh'
+	EN_COLUMN = 'logs_en'
+
+	_LANG_COMMENTS = {
+		item['column']: f"{item['zh']}（{item['api']}）" for item in CHANGELOG_LOCALES
+	}
+
+	_table_ensured = False
+	# 整表行池：写入侧用它做「语言不冲突即可复用」的匹配
+	_index = None
+	# id -> {'type', 'texts'}，导出侧缓存
+	_groups = None
+	# 最近一次写入的冲突拆行统计
+	last_conflicts = []
+
+	# ==================== 基础 ====================
+
+	@classmethod
+	def create_sql(cls, table='logs'):
+		"""生成 logs 建表语句（列随 CHANGELOG_LOCALES 自动增减）"""
+		langs = "\n".join(
+			f"  `{column}` longtext COLLATE utf8mb4_bin COMMENT '{cls._LANG_COMMENTS[column]}',"
+			for column in cls.LANG_COLUMNS
+		)
+		return (
+			f"CREATE TABLE IF NOT EXISTS `{table}` (\n"
+			f"  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '自增主键（同一日志的各语言版本共用一行）',\n"
+			f"  `type` varchar(8) COLLATE utf8mb4_bin NOT NULL COMMENT '日志类型：module=模块名 / log=日志条目',\n"
+			f"  `content` text COLLATE utf8mb4_bin NOT NULL COMMENT '主内容（简体中文；无中文时取英文，再取最早出现的原文）',\n"
+			f"  `content_hash` char(32) COLLATE utf8mb4_bin NOT NULL COMMENT 'content 的 MD5（hex），查专用索引（同内容可因译文冲突存在多行）',\n"
+			f"{langs}\n"
+			f"  PRIMARY KEY (`id`),\n"
+			f"  KEY `idx_type_hash` (`type`, `content_hash`)\n"
+			f") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin"
+		)
+
+	@classmethod
+	def ensure_table(cls):
+		if cls._table_ensured:
+			return
+		DatabaseManager.execute(cls.create_sql(), raise_on_error=True)
+		cls._table_ensured = True
+
+	@staticmethod
+	def normalize(content):
+		"""主内容归一化：去掉首尾空白（接口原文常带前导空格与尾随空格，归一化后才能正确去重）"""
+		return str(content if content is not None else '').strip()
+
+	@staticmethod
+	def _hash(content):
+		return hashlib.md5(content.encode('utf-8')).hexdigest()
+
+	@classmethod
+	def signature(cls, log_type, content, texts):
+		"""一行日志的完整签名（类型 + 主内容 + 各语言文本），用于精确匹配已有行"""
+		parts = [log_type, content]
+		for column in cls.LANG_COLUMNS:
+			value = texts.get(column) or ''
+			if value:
+				parts.append(f'{column}={value}')
+		return hashlib.md5('\x1f'.join(parts).encode('utf-8')).hexdigest()
+
+	@staticmethod
+	def is_encoded(parsed):
+		"""判断解析后的值是否为 ID 引用结构 [[mid, [lids...], mask?], ...]"""
+		if not isinstance(parsed, list):
 			return False
-	return True
+		for item in parsed:
+			if not (isinstance(item, list) and len(item) in (2, 3)
+					and isinstance(item[0], int) and isinstance(item[1], list)):
+				return False
+			if len(item) == 3 and not isinstance(item[2], int):
+				return False
+		return True
 
+	@staticmethod
+	def mask_of(columns):
+		"""语言列集合 -> 语言掩码"""
+		mask = 0
+		for column in columns:
+			mask |= 1 << LogStore.LANG_INDEX[column]
+		return mask
 
-def logs_get_or_create(log_type, content):
-	"""按 (type, content) 获取 ID，不存在则插入。进程内缓存避免重复查询。"""
-	key = (log_type, content)
-	if key in _logs_id_cache:
-		return _logs_id_cache[key]
-	logs_ensure_table()
-	content_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
-	db_job_params(
-		"INSERT IGNORE INTO `logs` (`type`, `content`, `content_hash`) VALUES (%s, %s, %s)",
-		(log_type, content, content_hash))
-	rows = db_job_params(
-		"SELECT `id` FROM `logs` WHERE `type` = %s AND `content_hash` = %s",
-		(log_type, content_hash))
-	if not rows:
-		raise RuntimeError(f"logs 表写入后未查到记录: type={log_type} content={content[:50]!r}")
-	log_id = int(rows[0][0])
-	_logs_id_cache[key] = log_id
-	if _logs_map_cache is not None:
-		_logs_map_cache[log_id] = content
-	return log_id
+	@classmethod
+	def columns_of(cls, mask):
+		"""语言掩码 -> 语言列列表（按 LANG_COLUMNS 顺序）"""
+		return [column for i, column in enumerate(cls.LANG_COLUMNS) if (mask >> i) & 1]
 
+	# ==================== 写入侧 ====================
 
-def changelog_encode(log_obj):
-	"""原文日志对象 {"模块": ["条目", ...]} -> ID 结构 JSON 字符串"""
-	pairs = []
-	for module, lines in log_obj.items():
-		if not isinstance(module, str) or not module:
-			continue
-		if not isinstance(lines, list):
-			lines = [lines]
-		line_ids = [logs_get_or_create('log', str(line)) for line in lines]
-		pairs.append([logs_get_or_create('module', module), line_ids])
-	return json.dumps(pairs, ensure_ascii=False)
+	@staticmethod
+	def _primary(texts):
+		"""一个分组的「主内容」：优先简体中文，其次英文，最后任一语言"""
+		for column in (LogStore.ZH_COLUMN, LogStore.EN_COLUMN):
+			value = LogStore.normalize(texts.get(column))
+			if value:
+				return value
+		for value in texts.values():
+			value = LogStore.normalize(value)
+			if value:
+				return value
+		return ''
 
+	@classmethod
+	def _items(cls, obj):
+		"""把一个语言结构规整为 [(模块, [条目, ...]), ...]（去掉空模块）"""
+		items = []
+		for module, lines in (obj or {}).items():
+			if not str(module or '').strip():
+				continue
+			if not isinstance(lines, list):
+				lines = [lines]
+			items.append((str(module).strip(), [str(x) for x in lines]))
+		return items
 
-def changelog_encode_value(value):
-	"""待写入列的值：原文 JSON -> ID 结构 JSON；已是 ID 结构则原样返回（幂等）"""
-	if not value:
+	@classmethod
+	def shape(cls, obj):
+		"""结构指纹：(模块数, 各模块条目数...)，用于判断两门语言能否按序号对齐"""
+		items = cls._items(obj)
+		return tuple([len(items)] + [len(lines) for _, lines in items])
+
+	@classmethod
+	def cluster_languages(cls, langs):
+		"""把各语言按结构指纹聚类；只有指纹完全相同的语言才允许按序号对齐
+
+		返回的簇按「含简体中文 → 含英文 → 语言数降序」排序，
+		保证总日志以中文结构为主、其余结构作为附加模块追加在后。
+		"""
+		groups = {}
+		for column in cls.LANG_COLUMNS:
+			obj = (langs or {}).get(column)
+			if not obj:
+				continue
+			groups.setdefault(cls.shape(obj), []).append(column)
+
+		def rank(item):
+			_, cols = item
+			if cls.ZH_COLUMN in cols:
+				priority = 0
+			elif cls.EN_COLUMN in cols:
+				priority = 1
+			else:
+				priority = 2
+			return (priority, -len(cols))
+
+		clusters = [cols for _, cols in sorted(groups.items(), key=rank)]
+		for cols in clusters:
+			cols.sort(key=lambda c: cls.LANG_INDEX[c])
+		return clusters
+
+	@classmethod
+	def compose(cls, langs):
+		"""把多语言结构按「结构指纹聚类 → 簇内按序号对齐」组合成一组分组位置
+
+		返回 [{'texts': {列名: 模块文本}, 'entries': [{'texts': {列名: 条目文本}}, ...],
+		       'mask': 语言掩码}, ...]
+		"""
+		positions = []
+		for columns in cls.cluster_languages(langs or {}):
+			items = {column: cls._items(langs[column]) for column in columns}
+			canonical = columns[0]
+			mask = cls.mask_of(columns)
+			for index, (_, lines) in enumerate(items[canonical]):
+				texts = {}
+				for column in columns:
+					module = items[column][index][0].strip()
+					if module:
+						texts[column] = module
+				entries = []
+				for j in range(len(lines)):
+					item = {}
+					for column in columns:
+						line = items[column][index][1][j]
+						if str(line).strip():
+							item[column] = str(line).strip()
+					entries.append({'texts': item})
+				positions.append({'texts': texts, 'entries': entries, 'mask': mask})
+		return positions
+
+	@classmethod
+	def new_index(cls):
+		"""新建一个可跨多次调用共享的内存行池（批量迁移用）"""
+		return _RowIndex()
+
+	@classmethod
+	def build_rows(cls, positions, index=None, mutate=True):
+		"""把分组位置解析成行池与引用关系
+
+		传入 index 可在多次调用间共享行池（如批量迁移时跨 ROM 去重）。
+		mutate=False 时只做只读查找（不再补全 / 新建行），用于行池建好后的第二遍遍历。
+		返回 (rows, refs)：rows 为待写入行列表；refs 为
+		[(模块行下标, [条目行下标, ...], 语言掩码), ...]。
+		"""
+		index = index if index is not None else _RowIndex()
+		resolver = index.resolve if mutate else index.lookup
+		refs = []
+		for position in positions:
+			module_index = resolver(cls.TYPE_MODULE, position['texts'])
+			if module_index is None:
+				if mutate:
+					continue
+				raise RuntimeError(f"行池中找不到模块分组: {position['texts']}")
+			entry_indices = []
+			for entry in position['entries']:
+				entry_index = resolver(cls.TYPE_LOG, entry['texts'])
+				if entry_index is not None:
+					entry_indices.append(entry_index)
+			refs.append([module_index, entry_indices, int(position.get('mask', 0))])
+		cls.last_conflicts = index.conflicts
+		return index.rows, refs
+
+	@classmethod
+	def _missing_ids(cls, ids):
+		"""返回给定 id 中已不存在的部分（批量查库）"""
+		wanted = {int(i) for i in ids}
+		if not wanted:
+			return set()
+		found = set()
+		chunk_list = list(wanted)
+		for i in range(0, len(chunk_list), 500):
+			chunk = chunk_list[i:i + 500]
+			rows = DatabaseManager.query_all(
+				f"SELECT `id` FROM `logs` WHERE `id` IN ({','.join(['%s'] * len(chunk))})",
+				params=tuple(chunk))
+			found.update(int(row[0]) for row in rows or [])
+		return wanted - found
+
+	@classmethod
+	def _fetch_all_rows(cls):
+		"""整表载入（id / type / content / texts），作为写入侧的行池来源"""
+		columns = ', '.join(f'`{c}`' for c in cls.LANG_COLUMNS)
+		rows = DatabaseManager.query_all(
+			f"SELECT `id`, `type`, `content`, {columns} FROM `logs`")
+		found = []
+		for row in rows or []:
+			texts = {column: row[3 + i] for i, column in enumerate(cls.LANG_COLUMNS) if row[3 + i]}
+			found.append({'id': int(row[0]), 'type': row[1], 'content': row[2], 'texts': texts})
+		return found
+
+	@classmethod
+	def load_index(cls, force=False):
+		"""载入（并缓存）整表行池，供写入侧做「语言不冲突即可复用」的匹配
+
+		只按 content_hash 找候选会让「同一日志、不同主内容」的行永远匹配不上
+		（例如 #25 content=相册 与 #27 content=Gallery 其实是同一模块），
+		因此写入侧改为在整表行池里按语言文本做兼容匹配，与迁移/导出逻辑完全一致。
+		"""
+		if cls._index is None or force:
+			cls.ensure_table()
+			index = _RowIndex()
+			index.seed(cls._fetch_all_rows())
+			cls._index = index
+			_logger.info(f"logs 行池已载入: {len(index.rows)} 条")
+		return cls._index
+
+	@classmethod
+	def _insert_row(cls, row):
+		"""插入一行并返回自增 id"""
+		columns = ['`type`', '`content`', '`content_hash`'] + [f'`{c}`' for c in cls.LANG_COLUMNS]
+		params = [row['type'], row['content'], cls._hash(row['content'])]
+		params.extend([row['texts'].get(c) or None for c in cls.LANG_COLUMNS])
+		DatabaseManager.execute(
+			f"INSERT INTO `logs` ({', '.join(columns)}) VALUES ({', '.join(['%s'] * len(columns))})",
+			params=tuple(params), raise_on_error=True,
+		)
+		found = DatabaseManager.query_one(
+			"SELECT `id` FROM `logs` WHERE `type` = %s AND `content_hash` = %s "
+			"AND `content` = %s ORDER BY `id` DESC LIMIT 1",
+			params=(row['type'], cls._hash(row['content']), row['content']),
+		)
+		if not found:
+			raise RuntimeError(f"logs 表写入后未查到记录: type={row['type']} content={row['content'][:40]!r}")
+		return int(found[0])
+
+	@classmethod
+	def _fill_row(cls, group_id, texts):
+		"""给已有行补齐缺失的语言列（COALESCE，不覆盖已有译文）"""
+		sets = [c for c in cls.LANG_COLUMNS if texts.get(c)]
+		if not sets:
+			return
+		DatabaseManager.execute(
+			"UPDATE `logs` SET " + ', '.join(f'`{c}` = COALESCE(`{c}`, %s)' for c in sets)
+			+ " WHERE `id` = %s",
+			params=tuple([texts[c] for c in sets] + [group_id]), raise_on_error=True,
+		)
+
+	@classmethod
+	def ensure_ids(cls, rows):
+		"""把一批内存行落库并返回与 rows 等长的 id 列表
+
+		匹配规则与 load_index 一致：类型相同且各语言不冲突即视为同一行。
+		"""
+		if not rows:
+			return []
+		index = cls.load_index()
+		result = []
+		for row in rows:
+			row['sig'] = cls.signature(row['type'], row['content'], row['texts'])
+			found = index.resolve(row['type'], row['texts'])
+			if found is None:
+				raise RuntimeError(f"logs 行解析失败: {row['content'][:40]!r}")
+			index.rows[found]['content'] = row['content']
+			result.append(found)
+		index.flush()
+		return [int(index.rows[i]['id']) for i in result]
+
+	@classmethod
+	def encode_refs(cls, refs, ids):
+		"""refs（行下标引用）+ id 列表 -> roms.logs 的值：[[模块ID,[条目ID,...],掩码],...]"""
+		pairs = []
+		for module_index, entry_indices, mask in refs:
+			pairs.append([ids[module_index], [ids[i] for i in entry_indices], int(mask)])
+		return json.dumps(pairs, ensure_ascii=False)
+
+	@classmethod
+	def write_logs(cls, langs, dry_run=False, expand_mask=False):
+		"""写入一个 ROM 的多语言日志，返回 ID 引用结构 JSON 字符串
+
+		langs = {语言列: 该语言结构}，结构指纹一致的语言会自动合并为一组；
+		写入前会把整张 logs 表载入内存行池，按「类型相同 + 各语言不冲突」匹配已有分组
+		（同一日志即便主内容不同也能认出来），只补齐缺失语言，不覆盖已有译文。
+
+		expand_mask=True 时语言掩码取「模块分组与全部条目的公共语言」，
+		这样复用了库里已有多语言分组时，能顺带拿到中英文之外的其他译文。
+		"""
+		positions = cls.compose(langs or {})
+		index = cls.load_index()
+		_, refs = cls.build_rows(positions, index)
+		if dry_run:
+			ids = [r['id'] if r.get('id') is not None else i + 1 for i, r in enumerate(index.rows)]
+			return cls._encode_refs(refs, ids, expand_mask, index.rows)
+
+		index.flush()
+		ids = [int(r['id']) for r in index.rows]
+		return cls._encode_refs(refs, ids, expand_mask, index.rows)
+
+	@classmethod
+	def _encode_refs(cls, refs, ids, expand_mask, rows):
+		if not expand_mask:
+			return cls.encode_refs(refs, ids)
+		pairs = []
+		for module_index, entry_indices, mask in refs:
+			common = set(rows[module_index]['texts'])
+			for entry_index in entry_indices:
+				common &= set(rows[entry_index]['texts'])
+			new_mask = cls.mask_of([c for c in cls.LANG_COLUMNS if c in common])
+			pairs.append([ids[module_index], [ids[i] for i in entry_indices], new_mask or mask])
+		return json.dumps(pairs, ensure_ascii=False)
+
+	@classmethod
+	def encode_value(cls, value, canonical_column=ZH_COLUMN):
+		"""待写入列的值：原文 JSON -> ID 结构 JSON；已是 ID 结构则原样返回（幂等）
+
+		canonical_column 指定原文 JSON 属于哪门语言（默认简体中文）。
+		"""
+		if not value:
+			return value
+		try:
+			parsed = json.loads(value) if isinstance(value, str) else value
+		except (json.JSONDecodeError, TypeError):
+			return value
+		if cls.is_encoded(parsed):
+			return value
+		if isinstance(parsed, dict):
+			return cls.write_logs({canonical_column: parsed})
 		return value
-	try:
-		parsed = json.loads(value)
-	except (json.JSONDecodeError, TypeError):
-		return value
-	if _is_encoded_log(parsed):
-		return value
-	if isinstance(parsed, dict):
-		return changelog_encode(parsed)
-	return value
 
+	# ==================== 导出侧 ====================
 
-def _logs_content_map():
-	global _logs_map_cache
-	if _logs_map_cache is None:
-		logs_ensure_table()
-		rows = db_job("SELECT `id`, `content` FROM `logs`")
-		_logs_map_cache = {int(r[0]): r[1] for r in rows}
-	return _logs_map_cache
+	@classmethod
+	def load_groups(cls, force=False):
+		"""全量载入 logs 表（id -> {'type', 'texts'}），导出时纯内存映射"""
+		if cls._groups is not None and not force:
+			return cls._groups
+		cls.ensure_table()
+		columns = ', '.join(f'`{c}`' for c in cls.LANG_COLUMNS)
+		rows = DatabaseManager.query_all(f"SELECT `id`, `type`, `content`, {columns} FROM `logs`")
+		groups = {}
+		for row in rows or []:
+			texts = {column: row[3 + i] for i, column in enumerate(cls.LANG_COLUMNS) if row[3 + i]}
+			if not texts.get(cls.ZH_COLUMN) and row[2]:
+				texts[cls.ZH_COLUMN] = row[2]
+			groups[int(row[0])] = {'type': row[1], 'texts': texts}
+		cls._groups = groups
+		_logger.info(f"logs 表已载入内存: {len(groups)} 条")
+		return groups
 
+	@classmethod
+	def decode_structure(cls, pairs):
+		"""ID 引用结构 -> [(模块分组, [条目分组, ...], 语言掩码), ...]（缺失 id 跳过）"""
+		if not isinstance(pairs, list):
+			return []
+		groups = cls.load_groups()
+		result = []
+		for item in pairs:
+			if not (isinstance(item, list) and len(item) in (2, 3)):
+				continue
+			module = groups.get(int(item[0]))
+			if module is None:
+				continue
+			entries = [groups[int(lid)] for lid in item[1]
+					   if isinstance(lid, int) and int(lid) in groups]
+			if len(item) == 3 and isinstance(item[2], int):
+				mask = int(item[2])
+			else:
+				mask = cls.mask_of([c for c in cls.LANG_COLUMNS if module['texts'].get(c)])
+			result.append((module, entries, mask))
+		return result
 
-def changelog_decode(value):
-	"""库中列值 -> 原文日志对象：ID 结构解码还原，旧格式（dict）原样返回"""
-	if not value:
-		return value
-	try:
-		parsed = json.loads(value)
-	except (json.JSONDecodeError, TypeError):
-		return value
-	if not _is_encoded_log(parsed):
+	@classmethod
+	def _entry_text(cls, group, column):
+		"""条目文本：该语言缺失时回落英文、再回落中文；简体中文自身不回落"""
+		text = group['texts'].get(column)
+		if text:
+			return text
+		if column == cls.ZH_COLUMN:
+			return None
+		return group['texts'].get(cls.EN_COLUMN) or group['texts'].get(cls.ZH_COLUMN) or None
+
+	@classmethod
+	def build_localized(cls, pairs):
+		"""ID 引用结构 -> {语言列: {模块: [条目, ...]}}（导出格式）
+
+		只输出语言掩码里包含的语言，避免跨 ROM 复用分组时把别的语言带出来。
+		"""
+		result = {}
+		for module, entries, mask in cls.decode_structure(pairs):
+			for index, column in enumerate(cls.LANG_COLUMNS):
+				if not (mask >> index) & 1:
+					continue
+				module_text = module['texts'].get(column)
+				if not module_text:
+					continue
+				lines = []
+				for entry in entries:
+					text = cls._entry_text(entry, column)
+					if text:
+						lines.append(text)
+				# 空条目的模块也保留（上游日志里确实存在 {"基础体验": []} 这类空模块）
+				result.setdefault(column, {}).setdefault(module_text, []).extend(lines)
+		# 语言键按 LANG_COLUMNS 顺序输出，保证导出文件稳定、diff 友好
+		return {column: result[column] for column in cls.LANG_COLUMNS if column in result}
+
+	@classmethod
+	def localized_value(cls, pairs, column):
+		"""只要某一门语言的日志（缺失返回 None）"""
+		return cls.build_localized(pairs).get(column)
+
+	@classmethod
+	def decode(cls, pairs):
+		"""ID 引用结构 -> 简体中文原文对象（兼容旧接口）"""
+		return cls.build_localized(pairs).get(cls.ZH_COLUMN) or {}
+
+	@classmethod
+	def decode_value(cls, parsed):
+		"""解析后的列值：ID 结构 -> 多语言对象；其余（旧格式/异常值）原样返回"""
+		if cls.is_encoded(parsed):
+			return cls.build_localized(parsed)
 		return parsed
-	id_map = _logs_content_map()
-	result = {}
-	for item in parsed:
-		if not (isinstance(item, list) and len(item) == 2):
-			continue
-		module = id_map.get(int(item[0]))
-		if module is None:
-			continue
-		result[module] = [id_map[int(lid)] for lid in item[1]
-						  if isinstance(lid, int) and int(lid) in id_map]
-	return result
+
+	@classmethod
+	def normalize_json(cls, value):
+		"""比较用归一化：ID 结构解码为多语言对象，其余原样返回解析结果"""
+		if not value or not isinstance(value, str):
+			return value
+		try:
+			parsed = json.loads(value)
+		except (json.JSONDecodeError, TypeError):
+			return value
+		return cls.decode_value(parsed)
+
+	@classmethod
+	def refresh_cache(cls):
+		"""全量刷新缓存（导出侧行池 + 写入侧行池）"""
+		cls._groups = None
+		cls._index = None
+
+	@classmethod
+	def count(cls):
+		row = DatabaseManager.query_one("SELECT COUNT(*) FROM `logs`")
+		return int(row[0]) if row else 0
 
 
 def stringify(s):
@@ -4052,6 +4698,14 @@ def getChangelog(encrypted_data, device):
 	response.close()
 
 def getChangelog2DB(encrypted_data, device, version):
+	"""请求更新日志并清洗，返回 {"changelog": <清洗后原文 JSON 字符串 或 None>, "recovery": <卡刷包文件名 或 ''>}
+
+	与参考实现 ChangelogManager.fetch_for_db 对齐：
+	- 优先取 CurrentRom，其次 LatestRom（版本号完全匹配时）；recovery 兜底取 LatestRom 的 filename；
+	- 剥离原有的 checkExist 副作用（卡刷包检测与日志入库解耦）；
+	- 请求失败 / 接口报错 / 解密失败时返回 None。
+	调用方拿到 changelog（原文 JSON 字符串）后交给 LogStore.write_logs 分组写入。
+	"""
 	headers = {"user-agent": "Dalvik/2.1.0 (Linux; U; Android 13; MI 9 Build/TKQ1.220829.002)",
 				 "Connection": "Keep-Alive",
 				 "Content-Type": "application/x-www-form-urlencoded",
@@ -4065,42 +4719,37 @@ def getChangelog2DB(encrypted_data, device, version):
 	response = requests.post(check_url, headers=headers, data=data, timeout=(5, 10))
 	if "'code'" in response.text:
 		print(json.loads(response.text)["desc"])
-		return False  # 添加返回值
-	
-	# 初始化 log 变量
-	log = None
-	
-	data = miui_decrypt(response.text.split("q=")[0])
-	if "CurrentRom" in data:
-		# 顺便检测卡刷包
-		recovery_filename = data["CurrentRom"].get("filename", "")
-		if recovery_filename:
-			recovery_filename = recovery_filename.split("?")[0]
-			checkExist(recovery_filename)
-		if "changelog" in data['CurrentRom'] and data['CurrentRom']['version'] == version:
-			log = data["CurrentRom"]["changelog"]
-		elif "changelog" in data['LatestRom'] and data['LatestRom']['version'] == version:
-			log = data["LatestRom"]["changelog"]
-		else:
-			return False
-	elif "LatestRom" in data:
-		# 顺便检测卡刷包
-		recovery_filename = data["LatestRom"].get("filename", "")
-		if recovery_filename:
-			recovery_filename = recovery_filename.split("?")[0]
-			checkExist(recovery_filename)
-		log = data["LatestRom"]["changelog"]
-	else:
-		return False
-	
-	response.close()
-	
-	# 检查 log 是否为 None
-	if log is None:
-		return False
+		response.close()
+		return None
 
-	# 原文 -> logs 表 ID 引用结构（调用方直接写入 roms.logs_* 列即可）
-	return changelog_encode(strip_log(remove_spaces(log)))
+	result = miui_decrypt(response.text.split("q=")[0])
+	response.close()
+	if not isinstance(result, dict):
+		return None
+
+	log = None
+	recovery = ""
+	# 优先匹配 CurrentRom，其次 LatestRom
+	for key in ("CurrentRom", "LatestRom"):
+		rom = result.get(key)
+		if isinstance(rom, dict) and rom.get("version") == version:
+			log = rom.get("changelog")
+			filename = rom.get("filename", "")
+			if filename:
+				recovery = filename.split("?")[0]
+			break
+
+	# 兜底：取 LatestRom 的 recovery（即使版本不完全匹配）
+	if not recovery:
+		latest = result.get("LatestRom")
+		if isinstance(latest, dict) and latest.get("filename"):
+			recovery = latest["filename"].split("?")[0]
+
+	cleaned_log = None
+	if log:
+		cleaned_log = json.dumps(strip_log(remove_spaces(log)), ensure_ascii=False)
+
+	return {"changelog": cleaned_log, "recovery": recovery or ""}
 
 
 def remove_spaces(d):
