@@ -1,8 +1,140 @@
 {
   "recent": {
-    "time": "2026-10-16 23:28:30",
+    "time": "2026-10-17 15:00:52",
     "developing": "no",
     "roms": {
+      "pudding": {
+        "name": {
+          "zh": "小米 17",
+          "en": "Xiaomi 17"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS4.0.4.0.XPCCNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS4.0.2.0.XPCCNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS3.0.335.0.XPCEUXM"
+          }
+        ]
+      },
+      "nezha": {
+        "name": {
+          "zh": "小米 17 Ultra",
+          "en": "Xiaomi 17 Ultra"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS4.0.4.0.XPACNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS4.0.2.0.XPACNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS3.0.337.0.XPAEUXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS3.0.335.0.XPAINXM"
+          }
+        ]
+      },
+      "myron": {
+        "name": {
+          "zh": "REDMI K90 Pro Max / POCO F8 Ultra",
+          "en": "REDMI K90 Pro Max / POCO F8 Ultra"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS4.0.4.0.XPMCNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS4.0.2.0.XPMCNXM"
+          }
+        ]
+      },
+      "athens": {
+        "name": {
+          "zh": "REDMI K100 Pro",
+          "en": "REDMI K100 Pro"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS4.0.4.0.XPICNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS4.0.2.0.XPICNXM"
+          }
+        ]
+      },
+      "gold": {
+        "name": {
+          "zh": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G",
+          "en": "Redmi Note 13 5G / 13R Pro / POCO X6 Neo 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS3.0.11.0.VNQCNXM"
+          }
+        ]
+      },
+      "pandora": {
+        "name": {
+          "zh": "小米 17 Pro",
+          "en": "Xiaomi 17 Pro"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS4.0.4.0.XBLCNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS4.0.2.0.XBLCNXM"
+          }
+        ]
+      },
+      "songyuan": {
+        "name": {
+          "zh": "REDMI K100 Pro Max",
+          "en": "REDMI K100 Pro Max"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS4.0.4.0.XGNCNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS4.0.2.0.XGNCNXM"
+          }
+        ]
+      },
+      "annibale": {
+        "name": {
+          "zh": "REDMI K90 / POCO F8 Pro",
+          "en": "REDMI K90 / POCO F8 Pro"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS4.0.4.0.XPKCNXM"
+          }
+        ]
+      },
       "lapis": {
         "name": {
           "zh": "REDMI Note 15 Pro 5G",
@@ -211,30 +343,6 @@
           }
         ]
       },
-      "athens": {
-        "name": {
-          "zh": "REDMI K100 Pro",
-          "en": "REDMI K100 Pro"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS4.0.2.0.XPICNXM"
-          }
-        ]
-      },
-      "songyuan": {
-        "name": {
-          "zh": "REDMI K100 Pro Max",
-          "en": "REDMI K100 Pro Max"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS4.0.2.0.XGNCNXM"
-          }
-        ]
-      },
       "popsicle": {
         "name": {
           "zh": "小米 17 Pro Max",
@@ -247,18 +355,6 @@
           }
         ]
       },
-      "myron": {
-        "name": {
-          "zh": "REDMI K90 Pro Max / POCO F8 Ultra",
-          "en": "REDMI K90 Pro Max / POCO F8 Ultra"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS4.0.2.0.XPMCNXM"
-          }
-        ]
-      },
       "piano": {
         "name": {
           "zh": "小米平板 8 Pro",
@@ -268,54 +364,6 @@
           {
             "insert_date": "2026-10-15",
             "version": "OS4.0.2.0.XPYCNXM"
-          }
-        ]
-      },
-      "pudding": {
-        "name": {
-          "zh": "小米 17",
-          "en": "Xiaomi 17"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS4.0.2.0.XPCCNXM"
-          },
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS3.0.335.0.XPCEUXM"
-          }
-        ]
-      },
-      "nezha": {
-        "name": {
-          "zh": "小米 17 Ultra",
-          "en": "Xiaomi 17 Ultra"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS4.0.2.0.XPACNXM"
-          },
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS3.0.337.0.XPAEUXM"
-          },
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS3.0.335.0.XPAINXM"
-          }
-        ]
-      },
-      "pandora": {
-        "name": {
-          "zh": "小米 17 Pro",
-          "en": "Xiaomi 17 Pro"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS4.0.2.0.XBLCNXM"
           }
         ]
       },
@@ -556,10 +604,6 @@
           {
             "insert_date": "2026-10-11",
             "version": "OS3.0.302.0.WBULMCR"
-          },
-          {
-            "insert_date": "2026-10-10",
-            "version": "OS3.0.303.0.WBULMCR"
           }
         ]
       },
@@ -584,10 +628,6 @@
           {
             "insert_date": "2026-10-14",
             "version": "OS2.0.210.0.VMXLMCR"
-          },
-          {
-            "insert_date": "2026-10-10",
-            "version": "OS2.0.207.0.VMXMXAT"
           }
         ]
       },
