@@ -1,8 +1,32 @@
 {
   "recent": {
-    "time": "2026-10-19 21:48:37",
+    "time": "2026-10-20 00:42:54",
     "developing": "no",
     "roms": {
+      "pudding": {
+        "name": {
+          "zh": "小米 17",
+          "en": "Xiaomi 17"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-20",
+            "version": "OS3.0.334.0.XPCINXM"
+          },
+          {
+            "insert_date": "2026-10-17",
+            "version": "OS4.0.4.0.XPCCNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS4.0.2.0.XPCCNXM"
+          },
+          {
+            "insert_date": "2026-10-15",
+            "version": "OS3.0.335.0.XPCEUXM"
+          }
+        ]
+      },
       "plato": {
         "name": {
           "zh": "小米 12T",
@@ -227,23 +251,31 @@
           }
         ]
       },
-      "pudding": {
+      "madrid": {
         "name": {
-          "zh": "小米 17",
-          "en": "Xiaomi 17"
+          "zh": "小米 18 Pro Max",
+          "en": "Xiaomi 18 Pro Max"
         },
         "versions": [
           {
-            "insert_date": "2026-10-17",
-            "version": "OS4.0.4.0.XPCCNXM"
+            "insert_date": "2026-10-19",
+            "version": "OS4.0.27.0.XEOCNXM"
+          }
+        ]
+      },
+      "kunzite": {
+        "name": {
+          "zh": "REDMI Note 15 5G",
+          "en": "REDMI Note 15 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-10-19",
+            "version": "OS3.0.303.0.WPQEUXM"
           },
           {
-            "insert_date": "2026-10-15",
-            "version": "OS4.0.2.0.XPCCNXM"
-          },
-          {
-            "insert_date": "2026-10-15",
-            "version": "OS3.0.335.0.XPCEUXM"
+            "insert_date": "2026-10-16",
+            "version": "OS3.0.304.0.WPQINXM"
           }
         ]
       },
@@ -435,18 +467,6 @@
           }
         ]
       },
-      "kunzite": {
-        "name": {
-          "zh": "REDMI Note 15 5G",
-          "en": "REDMI Note 15 5G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-16",
-            "version": "OS3.0.304.0.WPQINXM"
-          }
-        ]
-      },
       "peridot": {
         "name": {
           "zh": "Redmi Turbo 3 / POCO F6",
@@ -500,18 +520,6 @@
           {
             "insert_date": "2026-10-16",
             "version": "OS3.0.307.0.WOPMIXM"
-          },
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.303.0.WOPIDXM"
-          },
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.303.0.WOPRUXM"
-          },
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.303.0.WOPTRXM"
           }
         ]
       },
@@ -796,58 +804,6 @@
           {
             "insert_date": "2026-10-14",
             "version": "OS3.0.302.0.WPOLMCR"
-          }
-        ]
-      },
-      "aristotle": {
-        "name": {
-          "zh": "小米 13T",
-          "en": "Xiaomi 13T"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.6.0.WMFMIXM"
-          },
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.4.0.WMFEUXM"
-          },
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.3.0.WMFIDXM"
-          }
-        ]
-      },
-      "madrid": {
-        "name": {
-          "zh": "小米 18 Pro Max",
-          "en": "Xiaomi 18 Pro Max"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS4.0.25.0.XEOCNXM"
-          }
-        ]
-      },
-      "lake": {
-        "name": {
-          "zh": "Redmi 14C",
-          "en": "Redmi 14C"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.302.0.WGTIDXM"
-          },
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.303.0.WGTEUXM"
-          },
-          {
-            "insert_date": "2026-10-13",
-            "version": "OS3.0.307.0.WGTMIXM"
           }
         ]
       }
