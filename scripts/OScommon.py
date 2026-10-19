@@ -1789,6 +1789,8 @@ flags = {
 	"AGATEIDGlobal":"agate",
 	"pearl":"pearl",
 	"PEARL":"pearl",
+	"mist_tr_global": "mist",
+	"mist_id_global": "mist",
 	"peridot_demo":"peridot",
 	"PERIDOTDEMO":"peridot",
 	"evergreen_tr_global":"evergreen",

@@ -405,6 +405,86 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "mist_id_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+				"en": "REDMI Note 17 5G / POCO M8 Power 5G"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPUIDXM": {
+					"os": "OS3.0.302.0.WPUIDXM",
+					"android": "16.0",
+					"release": "2026-10-19",
+					"aspatch": "2026-08-01",
+					"recovery": "mist_id_global-ota_full-OS3.0.302.0.WPUIDXM-user-16.0-bb9d5d0a4d.zip",
+					"fastboot": "mist_id_global_images_OS3.0.302.0.WPUIDXM_20260914.0000.00_16.0_id_f2846b2bcb.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "mist_tr_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI Note 17 5G / POCO M8 Power 5G",
+				"en": "REDMI Note 17 5G / POCO M8 Power 5G"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WPUTRXM": {
+					"os": "OS3.0.302.0.WPUTRXM",
+					"android": "16.0",
+					"release": "2026-10-19",
+					"aspatch": "2026-08-01",
+					"recovery": "mist_tr_global-ota_full-OS3.0.302.0.WPUTRXM-user-16.0-1e0d388c7d.zip",
+					"fastboot": "mist_tr_global_images_OS3.0.302.0.WPUTRXM_20260914.0000.00_16.0_tr_ddebfbc3aa.tgz"
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
 				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
 			},
@@ -439,7 +519,7 @@
 					"release": "2026-09-30",
 					"aspatch": "2026-09-01",
 					"recovery": "mist_lm_cr_global-ota_full-OS3.0.303.0.WPULMCR-user-16.0-234eab7583.zip",
-					"fastboot": ""
+					"fastboot": "mist_lm_cr_global_images_OS3.0.303.0.WPULMCR_20260920.0000.00_16.0_lm_cr_df5f014164.tgz"
 				},
 				"OS3.0.302.0.WPULMCR": {
 					"os": "OS3.0.302.0.WPULMCR",
