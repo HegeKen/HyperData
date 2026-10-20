@@ -834,7 +834,7 @@
 					"release": "2026-10-10",
 					"aspatch": "2026-09-01",
 					"recovery": "lake_ru_global-ota_full-OS3.0.303.0.WGTRUXM-user-16.0-91322b9c3e.zip",
-					"fastboot": ""
+					"fastboot": "lake_ru_global_images_OS3.0.303.0.WGTRUXM_20260928.0000.00_16.0_ru_4d48696a85.tgz"
 				},
 				"OS3.0.302.0.WGTRUXM": {
 					"os": "OS3.0.302.0.WGTRUXM",
@@ -1130,7 +1130,7 @@
 					"release": "2026-10-10",
 					"aspatch": "2026-09-01",
 					"recovery": "lake_tr_global-ota_full-OS3.0.302.0.WGTTRXM-user-16.0-d89064a14b.zip",
-					"fastboot": ""
+					"fastboot": "lake_tr_global_images_OS3.0.302.0.WGTTRXM_20260928.0000.00_16.0_tr_6a39f4fe10.tgz"
 				},
 				"OS3.0.301.0.WGTTRXM": {
 					"os": "OS3.0.301.0.WGTTRXM",
@@ -1332,6 +1332,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.301.0.WGTMXAT": {
+					"os": "OS3.0.301.0.WGTMXAT",
+					"android": "16.0",
+					"release": "2026-10-19",
+					"aspatch": "2026-10-01",
+					"recovery": "lake_mx_at_global-ota_full-OS3.0.301.0.WGTMXAT-user-16.0-c27c47e70a.zip",
+					"fastboot": ""
+				},
 				"OS3.0.2.0.WGTMXAT": {
 					"os": "OS3.0.2.0.WGTMXAT",
 					"android": "16.0",

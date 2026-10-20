@@ -59,8 +59,8 @@
 					"release": "2026-10-08",
 					"aspatch": "2026-08-01",
 					"recovery": "malachite-ota_full-OS3.0.309.0.WOOCNXM-user-16.0-45d08e712e.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "malachite_images_OS3.0.309.0.WOOCNXM_20260923.0000.00_16.0_cn_b06028b76c.tgz",
+					"ctelecom": "malachite_images_OS3.0.309.0.WOOCNXM_20260923.0000.00_16.0_cn_chinatelecom_6a410404bd.tgz"
 				},
 				"OS3.0.308.0.WOOCNXM": {
 					"os": "OS3.0.308.0.WOOCNXM",
@@ -1421,6 +1421,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WOOINXM": {
+					"os": "OS3.0.304.0.WOOINXM",
+					"android": "16.0",
+					"release": "2026-10-16",
+					"aspatch": "2026-10-01",
+					"recovery": "malachite_in_global-ota_full-OS3.0.304.0.WOOINXM-user-16.0-9e833b71a0.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WOOINXM": {
 					"os": "OS3.0.302.0.WOOINXM",
 					"android": "16.0",
@@ -2125,6 +2133,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.302.0.WOOMXAT": {
+					"os": "OS3.0.302.0.WOOMXAT",
+					"android": "16.0",
+					"release": "2026-10-19",
+					"aspatch": "2026-10-01",
+					"recovery": "malachite_mx_at_global-ota_full-OS3.0.302.0.WOOMXAT-user-16.0-68f81d518f.zip",
+					"fastboot": ""
+				},
 				"OS3.0.301.0.WOOMXAT": {
 					"os": "OS3.0.301.0.WOOMXAT",
 					"android": "16.0",
