@@ -52,6 +52,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.0.18.XOACNXM": {
+					"os": "OS4.0.0.18.XOACNXM",
+					"android": "17.0",
+					"release": "2026-10-20",
+					"aspatch": "2026-09-01",
+					"recovery": "xuanyuan-ota_full-OS4.0.0.18.XOACNXM-user-17.0-bfc6faa7f2.zip",
+					"fastboot": ""
+				},
 				"OS4.0.0.16.XOACNXM": {
 					"os": "OS4.0.0.16.XOACNXM",
 					"android": "17.0",
@@ -262,8 +270,8 @@
 					"release": "2026-09-24",
 					"aspatch": "2026-08-01",
 					"recovery": "xuanyuan-ota_full-OS3.0.314.0.WOACNXM-user-16.0-9f74d1725b.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "xuanyuan_images_OS3.0.314.0.WOACNXM_20260911.0000.00_16.0_cn_de93edd1bb.tgz",
+					"ctelecom": "xuanyuan_images_OS3.0.314.0.WOACNXM_20260911.0000.00_16.0_cn_chinatelecom_d4cb41d998.tgz"
 				},
 				"OS3.0.312.0.WOACNXM": {
 					"os": "OS3.0.312.0.WOACNXM",
