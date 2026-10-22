@@ -5,6 +5,7 @@ import os
 import config
 import time
 import subprocess
+import sys
 from sys import platform
 
 # 获取东八区时区
@@ -132,6 +133,8 @@ else:
 	except Exception as e:
 		print(f"✗ 部署请求异常: {str(e)}")
 
-	subprocess.run(["cls"] if platform == "win32" else ["clear"])
+	# 只在真实终端里清屏：输出被重定向到日志时 clear 会把 ANSI 转义序列写进文件
+	if sys.stdout.isatty():
+		subprocess.run(["cls"] if platform == "win32" else ["clear"])
 	print("数据提交成功")
 	print("网站已更新")

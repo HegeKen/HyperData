@@ -2732,7 +2732,7 @@ def db_job_params(sql, params):
 
 import hashlib
 import logging
-from typing import Any, Dict, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Optional, Sequence, Tuple, cast
 
 _logger = logging.getLogger(__name__)
 
@@ -2841,9 +2841,12 @@ class DatabaseManager:
 				cursor.close()
 
 	@classmethod
-	def query_one(cls, sql, params=None):
-		"""查询单条记录（参数化安全版）"""
-		return cls.execute(sql, params=params, fetch_one=True)
+	def query_one(cls, sql, params=None) -> Optional[Tuple[Any, ...]]:
+		"""查询单条记录（参数化安全版）：返回单行元组，无结果时返回 None"""
+		row = cls.execute(sql, params=params, fetch_one=True)
+		# execute 的返回类型同时覆盖 fetchone/fetchall 两种形态，
+		# 这里 fetch_one=True 已确定为单行，显式收窄以便调用方按元组取值
+		return None if row is None else cast(Tuple[Any, ...], row)
 
 	@classmethod
 	def query_all(cls, sql, params=None):

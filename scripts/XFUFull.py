@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 from sys import platform
 import chardet
 from bs4 import BeautifulSoup
@@ -76,7 +77,9 @@ def process_directory(directory: str) -> None:
 
 
 def main() -> None:
-	subprocess.run(["cls"] if platform == "win32" else ["clear"])
+	# 只在真实终端里清屏：输出被重定向到日志时 clear 会把 ANSI 转义序列写进文件
+	if sys.stdout.isatty():
+		subprocess.run(["cls"] if platform == "win32" else ["clear"])
 	
 	process_directory(TARGET_DIRECTORY)
 

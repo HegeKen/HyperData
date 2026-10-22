@@ -3,6 +3,7 @@ import OScommon
 from selenium.webdriver.common.by import By
 from datetime import datetime
 import subprocess
+import sys
 from sys import platform
 
 urls = []
@@ -23,7 +24,9 @@ for element in elements:
     i = 0
 driver.quit()
 
-subprocess.run(["cls"] if platform == "win32" else ["clear"])
+# 只在真实终端里清屏：输出被重定向到日志时 clear 会把 ANSI 转义序列写进文件
+if sys.stdout.isatty():
+  subprocess.run(["cls"] if platform == "win32" else ["clear"])
 for url in urls:
   print('\r',datetime.now().strftime("%Y-%m-%d %H:%M:%S"),'\t'+url + '              ',end='')
   OScommon.MiFirm2(url)
