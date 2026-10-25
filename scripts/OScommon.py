@@ -174,7 +174,7 @@ check_url = "https://update.miui.com/updates/miotaV3.php"
 
 
 unreleased = ['yanan', 'warsaw_y', 'moscow', 'brussels', 'chicago', 'pond', 'suiren', 'zephyr', 'coral']
-currentStable = ['yanan', 'warsaw_y', 'hongkong', 'madrid', 'yupei_d', 'donghai', 'shuntian',
+currentStable = ['darwin', 'yanan', 'warsaw_y', 'hongkong', 'madrid', 'yupei_d', 'donghai', 'shuntian',
                  'lhasa', 'yingtian', 'brussels', 'chicago', 'athens', 'songyuan', 'steppe', 'leedsa', 'mist', 'iolite', 'moscow',  'pond',
 								 'warsaw', 'chagall','warhol', 'erhu', 'byron', 'guitar', 'yili', 'prague', 'somalia', 'zephyr', 'suiren', 'coral', 'arctic', 'dew',
 								 'klee', 'dash', 'piano', 'yupei', 'pudding', 'nezha', 'flute', 'organ', 'spinel','charoite','annibale', 'myron',
@@ -1789,6 +1789,7 @@ flags = {
 	"AGATEIDGlobal":"agate",
 	"pearl":"pearl",
 	"PEARL":"pearl",
+	"darwin_global": "darwin",
 	"mist_tr_global": "mist",
 	"mist_id_global": "mist",
 	"peridot_demo":"peridot",

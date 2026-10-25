@@ -1,0 +1,75 @@
+{
+	"device": "darwin",
+	"name": {
+		"zh": "POCO X8s",
+		"en": "POCO X8s"
+	},
+	"code": "",
+	"supports": [
+		"OS3.0"
+	],
+	"android": [
+		"16.0"
+	],
+	"type": "phone",
+	"miui": "no",
+	"merged": "no",
+	"branches": [
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "darwin_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8s",
+				"en": "POCO X8s"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WETMIXM": {
+					"os": "OS3.0.305.0.WETMIXM",
+					"android": "16.0",
+					"release": "2026-10-24",
+					"aspatch": "2026-09-01",
+					"recovery": "darwin_global-ota_full-OS3.0.305.0.WETMIXM-user-16.0-13179059fa.zip",
+					"fastboot": "darwin_global_images_OS3.0.305.0.WETMIXM_20261019.0000.00_16.0_global_010bf56b13.tgz"
+				},
+				"OS3.0.304.0.WETMIXM": {
+					"os": "OS3.0.304.0.WETMIXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-09-01",
+					"recovery": "darwin_global-ota_full-OS3.0.304.0.WETMIXM-user-16.0-17f25ffbcf.zip",
+					"fastboot": "darwin_global_images_OS3.0.304.0.WETMIXM_20261010.0000.00_16.0_global_46a5bb4662.tgz"
+				},
+				"OS3.0.302.0.WETMIXM": {
+					"os": "OS3.0.302.0.WETMIXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-09-01",
+					"recovery": "darwin_global-ota_full-OS3.0.302.0.WETMIXM-user-16.0-ed8f94e6d2.zip",
+					"fastboot": ""
+				}
+			}
+		}
+	]
+}
