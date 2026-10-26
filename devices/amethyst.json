@@ -1603,6 +1603,62 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "amethyst_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 14 Pro+",
+				"en": "Redmi Note 14 Pro+"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WOPMXTC": {
+					"os": "OS3.0.4.0.WOPMXTC",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-10-01",
+					"recovery": "amethyst_mx_tc_global-ota_full-OS3.0.4.0.WOPMXTC-user-16.0-bb7e6079ce.zip",
+					"fastboot": ""
+				},
+				"OS2.0.206.0.VOPMXTC": {
+					"os": "OS2.0.206.0.VOPMXTC",
+					"android": "15.0",
+					"release": "2026-02-06",
+					"aspatch": "2026-02-01",
+					"recovery": "amethyst_mx_tc_global-ota_full-OS2.0.206.0.VOPMXTC-user-15.0-6d3013485a.zip",
+					"fastboot": ""
+				},
+				"OS1.0.4.0.UOPMXTC": {
+					"os": "OS1.0.4.0.UOPMXTC",
+					"android": "14.0",
+					"release": "2025-03-26",
+					"aspatch": "2025-03-01",
+					"recovery": "miui_AMETHYSTMXTCGlobal_OS1.0.4.0.UOPMXTC_c26711044a_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
 				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
 			},

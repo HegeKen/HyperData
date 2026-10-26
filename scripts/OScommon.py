@@ -304,6 +304,13 @@ branches = [
 		"carrier": [""],
 		"zone": "2"
 	},
+		{
+		"code": "_jp_kd_global",
+		"tag": "JPXM",
+		"region": "jp",
+		"carrier": ["kd"],
+		"zone": "2"
+	},
 	{
 		"code": "_in_global",
 		"tag": "INXM",
@@ -2156,6 +2163,12 @@ flags = {
 	"EARTHIDGlobal": "earth",
 	"rock_id_global": "rock",
 	"ROCKIDGlobal": "rock",
+	"amethyst_mx_tc_global": "amethyst",
+	"AMETHYSTMXTCGlobal": "amethyst",
+	"ARISTOTLEJPKDGlobal": "aristotle",
+	"aristotle_jp_kd_global": "aristotle",
+	"ARISTOTLEMXTCGlobal": "aristotle",
+	"aristotle_mx_tc_global": "aristotle",
 	"moonstone_ru_global": "moonstone",
 	"MOONSTONERUGlobal": "moonstone",
 	"zeus_global": "zeus",

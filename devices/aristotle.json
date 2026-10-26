@@ -1373,6 +1373,54 @@
 		},
 		{
 			"name": {
+				"zh": "小米澎湃 OS 日本KDDI电信运营商定制版",
+				"en": "Xiaomi HyperOS Japan KDDI Carrier Edition"
+			},
+			"branchCode": "aristotle_jp_kd_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 13T",
+				"en": "Xiaomi 13T"
+			},
+			"idtag": "JAPS",
+			"tag": "JPXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"kd"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.16.0.VMFJPKD": {
+					"os": "OS2.0.16.0.VMFJPKD",
+					"android": "15.0",
+					"release": "2026-09-16",
+					"aspatch": "2026-08-01",
+					"recovery": "aristotle_jp_kd_global-ota_full-OS2.0.16.0.VMFJPKD-user-15.0-1f468814ea.zip",
+					"fastboot": ""
+				},
+				"OS1.0.12.0.UMFJPKD": {
+					"os": "OS1.0.12.0.UMFJPKD",
+					"android": "14.0",
+					"release": "2026-10-26",
+					"aspatch": "",
+					"recovery": "miui_ARISTOTLEJPKDGlobal_OS1.0.12.0.UMFJPKD_3c85b6def0_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
 				"zh": "小米澎湃 OS 智利Entel运营商定制版",
 				"en": "Xiaomi HyperOS Chile Entel Carrier Edtion"
 			},
@@ -1552,6 +1600,54 @@
 					"aspatch": "2024-09-01",
 					"recovery": "miui_ARISTOTLEMXATGlobal_OS1.0.3.0.UMFMXAT_6311a1a99a_14.0.zip",
 					"fastboot": "aristotle_mx_at_global_images_OS1.0.3.0.UMFMXAT_20240910.0000.00_14.0_mx_at_e43dd9fe90.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "aristotle_mx_tc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 13T",
+				"en": "Xiaomi 13T"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.209.0.VMFMXTC": {
+					"os": "OS2.0.209.0.VMFMXTC",
+					"android": "15.0",
+					"release": "2026-10-22",
+					"aspatch": "2026-10-01",
+					"recovery": "aristotle_mx_tc_global-ota_full-OS2.0.209.0.VMFMXTC-user-15.0-bbbaee49e1.zip",
+					"fastboot": ""
+				},
+				"OS1.0.7.0.UMFMXTC": {
+					"os": "OS1.0.7.0.UMFMXTC",
+					"android": "14.0",
+					"release": "2025-01-20",
+					"aspatch": "2025-01-01",
+					"recovery": "miui_ARISTOTLEMXTCGlobal_OS1.0.7.0.UMFMXTC_c0b59f43f4_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		},
