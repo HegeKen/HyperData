@@ -127,6 +127,15 @@
 					"fastboot": "",
 					"ctelecom": ""
 				},
+				"OS4.0.3.0.XHPCNXM": {
+					"os": "OS4.0.3.0.XHPCNXM",
+					"android": "17.0",
+					"release": "2026-10-29",
+					"aspatch": "2026-09-01",
+					"recovery": "warsaw-ota_full-OS4.0.3.0.XHPCNXM-user-17.0-5e9493a230.zip",
+					"fastboot": "warsaw_images_OS4.0.3.0.XHPCNXM_20261015.0000.00_17.0_cn_ce40c03c7e.tgz",
+					"ctelecom": "warsaw_images_OS4.0.3.0.XHPCNXM_20261015.0000.00_17.0_cn_chinatelecom_5c36fe254a.tgz"
+				},
 				"OS3.0.309.0.WHPCNXM": {
 					"os": "OS3.0.309.0.WHPCNXM",
 					"android": "16.0",
@@ -212,7 +221,8 @@
 				"release",
 				"aspatch",
 				"recovery",
-				"fastboot"
+				"fastboot",
+				"ctelecom"
 			],
 			"show": "0",
 			"carrier": [
@@ -231,7 +241,8 @@
 					"release": "2026-10-27",
 					"aspatch": "2026-09-01",
 					"recovery": "warsaw_demo-ota_full-OS4.0.1.0.XHPCNDM-user-17.0-29910f69dc.zip",
-					"fastboot": "warsaw_demo_images_OS4.0.1.0.XHPCNDM_20261014.0000.00_17.0_cn_068e797859.tgz"
+					"fastboot": "warsaw_demo_images_OS4.0.1.0.XHPCNDM_20261014.0000.00_17.0_cn_068e797859.tgz",
+					"ctelecom": "warsaw_demo_images_OS4.0.1.0.XHPCNDM_20261014.0000.00_17.0_cn_chinatelecom_bdeb572b8b.tgz"
 				}
 			}
 		}
