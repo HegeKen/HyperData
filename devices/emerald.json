@@ -1399,7 +1399,7 @@
 					"release": "2026-10-21",
 					"aspatch": "2026-10-01",
 					"recovery": "emerald_mx_at_global-ota_full-OS3.0.303.0.WNFMXAT-user-16.0-31f495e853.zip",
-					"fastboot": ""
+					"fastboot": "emerald_mx_at_global_images_OS3.0.303.0.WNFMXAT_20261014.0000.00_16.0_mx_at_ef6bb668d9.tgz"
 				},
 				"OS3.0.302.0.WNFMXAT": {
 					"os": "OS3.0.302.0.WNFMXAT",
@@ -1513,6 +1513,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WNFLMCR": {
+					"os": "OS3.0.303.0.WNFLMCR",
+					"android": "16.0",
+					"release": "2026-10-26",
+					"aspatch": "2026-10-01",
+					"recovery": "emerald_lm_cr_global-ota_full-OS3.0.303.0.WNFLMCR-user-16.0-9e3fd67fa4.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WNFLMCR": {
 					"os": "OS3.0.302.0.WNFLMCR",
 					"android": "16.0",
@@ -1623,6 +1631,46 @@
 					"release": "2024-11-15",
 					"aspatch": "2024-04-01",
 					"recovery": "miui_EMERALDLMCRGlobal_OS1.0.1.0.UNFLMCR_6854eb4533_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "emerald_mx_tc_global",
+			"brand": "Redmi, POCO",
+			"device": {
+				"zh": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G",
+				"en": "Redmi Note 13 Pro 4G / POCO M6 Pro 4G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WNFMXTC": {
+					"os": "OS3.0.302.0.WNFMXTC",
+					"android": "16.0",
+					"release": "2026-10-15",
+					"aspatch": "2026-10-01",
+					"recovery": "emerald_mx_tc_global-ota_full-OS3.0.302.0.WNFMXTC-user-16.0-05cb0debe5.zip",
 					"fastboot": ""
 				}
 			}

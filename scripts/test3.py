@@ -18,7 +18,7 @@ for line in lines:
     else:
       device, code, android, version, rom_type, bigver, region,tag,zone, branch, filetype = [item for item in result]
       OScommon.checkDatabase(device, code, android, version, rom_type, bigver, region,tag,zone, branch, filetype, line)
-      updated_devdata = OScommon.add_rom_to_json(device, code, android, version, filetype, line, OScommon.localData(device))
+      updated_devdata = OScommon.add_rom_to_json(device, code, android, version, filetype, line, OScommon.localData(device), region=region, tag=tag, zone=zone, branch=branch)
       if updated_devdata:
         device_file = OScommon.get_platform_path(f"public/data/devices/{device}.json")
         with open(device_file, 'w', encoding='utf-8') as f:

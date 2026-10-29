@@ -1955,6 +1955,62 @@ flags = {
 	"LISAEEAHGGlobal":"lisa",
 	"veux_global":"veux",
 	"VEUXGlobal":"veux",
+	"charoite_mx_tc_global": "charoite",
+	"COROTJPSBGlobal": "corot",
+	"corot_jp_sb_global": "corot",
+	"creek_mx_tc_global": "creek",
+	"CUPIDMXTCGlobal": "cupid",
+	"dada_mx_tc_global": "dada",
+	"DEGASJPKDGlobal": "degas",
+	"degas_jp_kd_global": "degas",
+	"DEGASMXTCGlobal": "degas",
+	"degas_mx_tc_global": "degas",
+	"dew_mx_tc_global": "dew",
+	"DITINGJPSBGlobal": "diting",
+	"DITINGMXTCGlobal": "diting",
+	"EARTHMXTCGlobal": "eatrh",
+	"EMERALDMXTCGlobal": "emerald",
+	"emerald_mx_tc_global": "emerald",
+	"FIREMXTCGlobal": "fire",
+	"fire_mx_tc_global": "fire",
+	"GALEMXTCGlobal": "gale",
+	"gale_mx_tc_global": "gale",
+	"GARNETJPKDGlobal": "garnet",
+	"garnet_jp_kd_global": "garnet",
+	"GARNETMXTCGlobal": "garnet",
+	"garnet_mx_tc_global": "garnet",
+	"goya_mx_tc_global": "goya",
+	"klimt_mx_tc_global": "klimt",
+	"LAKEMXTCGlobal": "lake",
+	"lake_mx_tc_global": "lake",
+	"lapis_mx_tc_global": "lapis",
+	"MALACHITEMXTCGlobal": "malachite",
+	"malachite_mx_tc_global": "malachite",
+	"MOONMXTCGlobal": "moon",
+	"moon_mx_tc_global": "moon",
+	"nezha_mx_tc_global": "nezha",
+	"obsidian_mx_tc_global": "obsidian",
+	"emerald_mx_tc_global" : "emerald",
+	"OPALMXTCGlobal" : "opal",
+	"pudding_mx_tc_global" : "pudding",
+	"ROTHKOJPSBGlobal" : "rothko",
+	"ROTHKOMXTCGlobal" : "rothko",
+	"rothko_mx_tc_global" : "rothko",
+	"SAPPHIREMXTCGlobal" : "sapphire",
+	"sapphire_mx_tc_global" : "sapphire",
+	"SEAMXTCGlobal" : "sea",
+	"sea_mx_tc_global" : "sea",
+	"SERENITYMXTCGlobal" : "serenity",
+	"SKYJPKDGlobal" : "sky",
+	"sky_jp_kd_global" : "sky",
+	"SKYJPSBGlobal" : "sky",
+	"sky_jp_sb_global" : "sky",
+	"spinel_mx_tc_global" : "spinel",
+	"spring_jp_sb_global" : "spring",
+	"TANZANITEMXTCGlobal" : "tanzanite",
+	"tanzanite_mx_tc_global" : "tanzanite",
+	"TAPASMXTCGlobal" : "tapas",
+	"tapas_mx_tc_global" : "tapas",
 	"zircon_ru_global":"zircon",
 	"ZIRCONRUGlobal":"zircon",
 	"viva_id_global":"viva",
@@ -3802,6 +3858,32 @@ def getData(filename):
 						zone = 1 if region == 'cn' else 2
 						return region, tag, zone
 				
+				# 最终回退：从 code 推导 region，从版本号推导 tag
+				# code 格式: {device}_{region}[_{carrier}]_global
+				known_carriers = {'dc', 'at', 'tc', 'cr', 'kd', 'sb', 'cmcc', 'cucc', 'ctcc'}
+				segments = code.split('_')
+				rest = segments[1:]  # 去掉 device
+				if rest and rest[-1] == 'global':
+						rest = rest[:-1]
+				region = None
+				if len(rest) >= 2:
+						region = rest[0]
+				elif len(rest) == 1:
+						if rest[0] in known_carriers:
+								region = 'global'
+						else:
+								region = rest[0]
+				
+				# 从版本号提取 tag（最后4位），例如 VBNMXTC -> MXTC
+				tag = None
+				ver_parts = ver.split('.')
+				if len(ver_parts) >= 5 and len(ver_parts[4]) >= 4:
+						tag = ver_parts[4][-4:]
+				
+				if region and tag:
+						zone = 1 if region == 'cn' else 2
+						return region, tag, zone
+				
 				return None, None, None
 		
 		def handle_miui_branchcode(branchcode, version):
@@ -3858,7 +3940,7 @@ def getData(filename):
 				return {'code': full_code, 'device': device}
 		
 		def get_device_by_code(code):
-				"""通过 code 查询设备名，优先 roms 表，其次 devices 表"""
+				"""通过 code 查询设备名，优先 roms 表，其次 devices 表；都失败时从 code 推导"""
 				# 优先从 roms 表查询
 				rom_sql = "SELECT device FROM roms WHERE code = %s" % stringify(code)
 				result = db_job_latest(rom_sql)
@@ -3870,6 +3952,14 @@ def getData(filename):
 				device_sql = "SELECT device FROM devices WHERE code = %s" % stringify(code)
 				result = db_job_latest(device_sql)
 				
+				if result:
+						return result[0]
+				
+				# 回退：从 code 推导设备名（取第一段），并在 devices 表中验证该设备存在
+				# 例如 dew_mx_tc_global -> dew，若 devices 表中存在 device='dew' 的记录则返回 dew
+				guessed_device = code.split('_')[0]
+				verify_sql = "SELECT device FROM devices WHERE device = %s LIMIT 1" % stringify(guessed_device)
+				result = db_job_latest(verify_sql)
 				if result:
 						return result[0]
 				
@@ -4035,8 +4125,9 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 
 
 
-def add_rom_to_json(device, code, android, version, filetype, filename, devdata=None):
-	"""添加 ROM 到 JSON 文件,修复版 - 优化 Git diff - 基于table表新建ROM模板"""
+def add_rom_to_json(device, code, android, version, filetype, filename, devdata=None, region=None, tag=None, zone=None, branch='F'):
+	"""添加 ROM 到 JSON 文件,修复版 - 优化 Git diff - 基于table表新建ROM模板
+	当 JSON 中不存在匹配分支时，自动创建对应分支并写入 ROM 信息。"""
 	
 	if devdata is None:
 		device_file = get_platform_path(f"public/data/devices/{device}.json")
@@ -4160,15 +4251,116 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 					match_method = f"tag:{version_tag} + code:{code}"
 					break
 	
-	# 如果仍未找到，返回错误
+	# 如果仍未找到匹配分支，自动创建新分支
 	if target_branch is None:
-		print(f"错误: 未找到匹配分支，ROM: {filename}")
-		print(f"  尝试匹配的 code: {code}")
-		print(f"  尝试匹配的版本: {version}")
-		# 输出所有可用分支供调试
-		print(f"  可用分支: {[branch.get('idtag', 'N/A') + ':' + branch.get('tag', 'N/A') + ':' + branch.get('branchCode', 'N/A') for branch in devdata.get('branches', [])]}")
-		return None
-	
+		# 从版本号中提取 tag（例如 OS3.0.302.0.WNFMXTC -> MXTC）
+		version_parts_for_tag = version.split(".")
+		version_tag = None
+		if len(version_parts_for_tag) >= 5:
+			full_tag = version_parts_for_tag[4]
+			if len(full_tag) >= 4:
+				version_tag = full_tag[-4:]
+
+		# 优先使用传入的 tag，其次从版本号提取
+		branch_tag = tag if tag else version_tag
+		# 优先使用传入的 region / zone
+		branch_region = region if region else "global"
+		branch_zone = zone if zone is not None else (1 if branch_region == "cn" else 2)
+
+		# 从 devdata 获取设备名称与品牌
+		device_name_zh = devdata.get("name", {}).get("zh", device)
+		device_name_en = devdata.get("name", {}).get("en", device)
+		brand = ""
+		for existing_branch in devdata.get("branches", []):
+			if existing_branch.get("brand"):
+				brand = existing_branch["brand"]
+				break
+
+		# 从 branchCode 中提取 carrier
+		# 格式: {device}_{region?}_{carrier?}_global
+		carrier = ""
+		rest = code
+		if rest.startswith(device + "_"):
+			rest = rest[len(device) + 1:]
+		if rest.endswith("_global"):
+			rest = rest[:-len("_global")]
+		rest_parts = rest.split("_") if rest else []
+		if len(rest_parts) >= 2:
+			carrier = rest_parts[1]
+		elif len(rest_parts) == 1 and rest_parts[0] and rest_parts[0] != branch_region:
+			carrier = rest_parts[0]
+
+		# 区域名称映射（zh / en）
+		region_names = {
+			"global": ("国际", "Global"),
+			"eea": ("欧洲EEA", "Europe EEA"),
+			"ru": ("俄罗斯", "Russia"),
+			"id": ("印度尼西亚", "Indonesia"),
+			"tr": ("土耳其", "Turkey"),
+			"mx": ("墨西哥", "Mexico"),
+			"lm": ("拉丁美洲", "Latin America"),
+			"jp": ("日本", "Japan"),
+		}
+		region_zh, region_en = region_names.get(branch_region, (branch_region.upper(), branch_region.capitalize()))
+
+		# 运营商名称映射（zh / en）
+		carrier_names = {
+			"at": ("AT&T", "AT&T"),
+			"tc": ("Telcel", "Telcel"),
+			"cr": ("Claro", "Claro"),
+			"dc": ("DC", "DC"),
+			"kd": ("KDDI", "KDDI"),
+			"sb": ("SoftBank", "SoftBank"),
+		}
+		carrier_zh, carrier_en = carrier_names.get(carrier, (carrier.upper(), carrier.upper()))
+
+		# 生成分支名称
+		if carrier == "dc":
+			name_zh = f"小米澎湃 OS {region_zh} DC 正式版"
+			name_en = f"Xiaomi HyperOS {region_en} DC Stable"
+		elif carrier:
+			name_zh = f"小米澎湃 OS {region_zh}{carrier_zh}运营商定制版"
+			name_en = f"Xiaomi HyperOS {region_en} {carrier_en} Carrier Edition"
+		else:
+			name_zh = f"小米澎湃 OS {region_zh}正式版"
+			name_en = f"Xiaomi HyperOS {region_en} Stable"
+
+		new_branch = {
+			"name": {
+				"zh": name_zh,
+				"en": name_en
+			},
+			"branchCode": code,
+			"brand": brand,
+			"device": {
+				"zh": device_name_zh,
+				"en": device_name_en
+			},
+			"idtag": branch_tag,
+			"tag": branch_tag,
+			"branchtag": branch,
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [carrier] if carrier else [""],
+			"region": branch_region,
+			"zone": str(branch_zone),
+			"ep": "0",
+			"roms": {}
+		}
+
+		devdata.setdefault("branches", []).append(new_branch)
+		target_branch_idx = len(devdata["branches"]) - 1
+		target_branch = new_branch
+		match_method = f"auto-created branch: {code}"
+		print(f"自动创建新分支: {code} (tag={branch_tag}, region={branch_region}, carrier={carrier})")
+
 	# 处理 ROM 数据
 	if "roms" not in target_branch:
 		target_branch["roms"] = {}
@@ -4520,7 +4712,7 @@ def checkExist(filename):
 				try:
 					with open(device_file, 'r', encoding='utf-8') as f:
 						dev_data = json.load(f)
-					devdata = add_rom_to_json(device, code, android, version, filetype, filename, dev_data)
+					devdata = add_rom_to_json(device, code, android, version, filetype, filename, dev_data, region=region, tag=tag, zone=zone, branch=branch)
 					
 					if devdata is None:
 						print(f"错误: add_rom_to_json 返回 None")

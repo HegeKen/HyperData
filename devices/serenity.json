@@ -1234,6 +1234,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"A15.0.13.0.VGWIDXM": {
+					"os": "A15.0.13.0.VGWIDXM",
+					"android": "15.0",
+					"release": "2026-10-28",
+					"aspatch": "2026-10-01",
+					"recovery": "miui_SERENITYIDGlobal_A15.0.13.0.VGWIDXM_c0d2f084b3_15.0.zip",
+					"fastboot": ""
+				},
 				"A15.0.12.0.VGWIDXM": {
 					"os": "A15.0.12.0.VGWIDXM",
 					"android": "15.0",
@@ -1832,6 +1840,46 @@
 					"release": "2025-04-10",
 					"aspatch": "2025-02-01",
 					"recovery": "miui_SERENITYLMMSGlobal_A15.0.2.0.VGWLMMS_a9d3a5448b_15.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "serenity_mx_tc_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI A5 / POCO C71",
+				"en": "REDMI A5 / POCO C71"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"A15.0.19.0.VGWMXTC": {
+					"os": "A15.0.19.0.VGWMXTC",
+					"android": "15.0",
+					"release": "2026-10-21",
+					"aspatch": "2026-10-01",
+					"recovery": "miui_SERENITYMXTCGlobal_A15.0.19.0.VGWMXTC_49f7d95ab1_15.0.zip",
 					"fastboot": ""
 				}
 			}

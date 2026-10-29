@@ -593,6 +593,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.5.0.WMFEUXM": {
+					"os": "OS3.0.5.0.WMFEUXM",
+					"android": "16.0",
+					"release": "2026-10-21",
+					"aspatch": "2026-10-01",
+					"recovery": "aristotle_eea_global-ota_full-OS3.0.5.0.WMFEUXM-user-16.0-96845cc20f.zip",
+					"fastboot": ""
+				},
 				"OS3.0.4.0.WMFEUXM": {
 					"os": "OS3.0.4.0.WMFEUXM",
 					"android": "16.0",
@@ -1373,7 +1381,7 @@
 		},
 		{
 			"name": {
-				"zh": "小米澎湃 OS 日本KDDI电信运营商定制版",
+				"zh": "小米澎湃 OS 日本KDDI运营商定制版",
 				"en": "Xiaomi HyperOS Japan KDDI Carrier Edition"
 			},
 			"branchCode": "aristotle_jp_kd_global",
@@ -1383,7 +1391,7 @@
 				"en": "Xiaomi 13T"
 			},
 			"idtag": "JAPS",
-			"tag": "JPXM",
+			"tag": "JPKD",
 			"branchtag": "F",
 			"table": [
 				"os",

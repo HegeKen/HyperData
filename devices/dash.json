@@ -6,10 +6,12 @@
 	},
 	"code": "PL",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -49,6 +51,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.3.0.XPLCNXM": {
+					"os": "OS4.0.3.0.XPLCNXM",
+					"android": "17.0",
+					"release": "2026-10-26",
+					"aspatch": "2026-10-01",
+					"recovery": "dash-ota_full-OS4.0.3.0.XPLCNXM-user-17.0-672cb1447f.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS3.0.306.0.WPLCNXM": {
 					"os": "OS3.0.306.0.WPLCNXM",
 					"android": "16.0",
@@ -555,6 +566,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WPLINXM": {
+					"os": "OS3.0.304.0.WPLINXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-09-01",
+					"recovery": "dash_in_global-ota_full-OS3.0.304.0.WPLINXM-user-16.0-8b71a0184d.zip",
+					"fastboot": ""
+				},
 				"OS3.0.303.0.WPLINXM": {
 					"os": "OS3.0.303.0.WPLINXM",
 					"android": "16.0",

@@ -735,6 +735,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.305.0.WPPINXM": {
+					"os": "OS3.0.305.0.WPPINXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-10-01",
+					"recovery": "lapis_in_global-ota_full-OS3.0.305.0.WPPINXM-user-16.0-615c68277a.zip",
+					"fastboot": ""
+				},
 				"OS3.0.304.0.WPPINXM": {
 					"os": "OS3.0.304.0.WPPINXM",
 					"android": "16.0",
@@ -1055,6 +1063,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WPPLMCR": {
+					"os": "OS3.0.304.0.WPPLMCR",
+					"android": "16.0",
+					"release": "2026-10-28",
+					"aspatch": "2026-10-01",
+					"recovery": "lapis_lm_cr_global-ota_full-OS3.0.304.0.WPPLMCR-user-16.0-eaae61ddaa.zip",
+					"fastboot": ""
+				},
 				"OS3.0.303.0.WPPLMCR": {
 					"os": "OS3.0.303.0.WPPLMCR",
 					"android": "16.0",
@@ -1102,6 +1118,46 @@
 					"aspatch": "2025-11-01",
 					"recovery": "lapis_lm_cr_global-ota_full-OS2.0.202.0.VPPLMCR-user-15.0-acb55454bf.zip",
 					"fastboot": "lapis_lm_cr_global_images_OS2.0.202.0.VPPLMCR_20251101.0000.00_15.0_lm_cr_4588118c9c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "lapis_mx_tc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 5G",
+				"en": "REDMI Note 15 Pro 5G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.206.0.VPPMXTC": {
+					"os": "OS2.0.206.0.VPPMXTC",
+					"android": "15.0",
+					"release": "2026-05-13",
+					"aspatch": "2026-05-01",
+					"recovery": "lapis_mx_tc_global-ota_full-OS2.0.206.0.VPPMXTC-user-15.0-d776cd3be2.zip",
+					"fastboot": ""
 				}
 			}
 		}

@@ -766,6 +766,46 @@
 					"fastboot": "opal_mx_at_global_images_OS1.0.2.0.TGLMXAT_20240606.0000.00_13.0_mx_at_1f3e1f355b.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "opal_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 11S 5G",
+				"en": "Redmi Note 11S 5G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.5.0.TGLMXTC": {
+					"os": "OS1.0.5.0.TGLMXTC",
+					"android": "13.0",
+					"release": "2024-11-14",
+					"aspatch": "2024-10-01",
+					"recovery": "miui_OPALMXTCGlobal_OS1.0.5.0.TGLMXTC_a40ac9a0fa_13.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

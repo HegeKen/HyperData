@@ -228,8 +228,8 @@
 					"release": "2026-10-23",
 					"aspatch": "2026-10-01",
 					"recovery": "nezha-ota_full-OS4.0.5.0.XPACNXM-user-17.0-4c1141a3c8.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "nezha_images_OS4.0.5.0.XPACNXM_20261021.0000.00_17.0_cn_49149f7176.tgz",
+					"ctelecom": "nezha_images_OS4.0.5.0.XPACNXM_20261021.0000.00_17.0_cn_chinatelecom_213f6938fd.tgz"
 				},
 				"OS4.0.4.0.XPACNXM": {
 					"os": "OS4.0.4.0.XPACNXM",
@@ -837,7 +837,7 @@
 					"release": "2026-10-12",
 					"aspatch": "2026-09-01",
 					"recovery": "nezha_eea_global-ota_full-OS3.0.337.0.XPAEUXM-user-17.0-5b3e2e0327.zip",
-					"fastboot": ""
+					"fastboot": "nezha_eea_global_images_OS3.0.337.0.XPAEUXM_20260929.0000.00_17.0_eea_01267df999.tgz"
 				},
 				"OS3.0.336.0.XPAEUXM": {
 					"os": "OS3.0.336.0.XPAEUXM",
@@ -999,6 +999,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.308.0.WPARUXM": {
+					"os": "OS3.0.308.0.WPARUXM",
+					"android": "16.0",
+					"release": "2026-10-19",
+					"aspatch": "2026-10-01",
+					"recovery": "nezha_ru_global-ota_full-OS3.0.308.0.WPARUXM-user-16.0-529d6556b0.zip",
+					"fastboot": ""
+				},
 				"OS3.0.305.0.WPARUXM": {
 					"os": "OS3.0.305.0.WPARUXM",
 					"android": "16.0",
@@ -1294,6 +1302,46 @@
 					"aspatch": "2026-02-01",
 					"recovery": "nezha_lm_cr_global-ota_full-OS3.0.2.0.WPALMCR-user-16.0-71ad20377e.zip",
 					"fastboot": "nezha_lm_cr_global_images_OS3.0.2.0.WPALMCR_20260120.0000.00_16.0_lm_cr_44b5cc6009.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "nezha_mx_tc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 17 Ultra",
+				"en": "Xiaomi 17 Ultra"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.304.0.WPAMXTC": {
+					"os": "OS3.0.304.0.WPAMXTC",
+					"android": "16.0",
+					"release": "2026-10-27",
+					"aspatch": "2026-10-01",
+					"recovery": "nezha_mx_tc_global-ota_full-OS3.0.304.0.WPAMXTC-user-16.0-379473e095.zip",
+					"fastboot": ""
 				}
 			}
 		}

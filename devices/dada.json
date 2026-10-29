@@ -2187,6 +2187,54 @@
 					"fastboot": "dada_lm_cr_global_images_OS2.0.100.0.VOCLMCR_20250214.0000.00_15.0_lm_cr_a7bb304903.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "dada_mx_tc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 15",
+				"en": "Xiaomi 15"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WOCMXTC": {
+					"os": "OS3.0.301.0.WOCMXTC",
+					"android": "16.0",
+					"release": "2026-10-14",
+					"aspatch": "2026-09-01",
+					"recovery": "dada_mx_tc_global-ota_full-OS3.0.301.0.WOCMXTC-user-16.0-b641b52a97.zip",
+					"fastboot": ""
+				},
+				"OS2.0.200.0.VOCMXTC": {
+					"os": "OS2.0.200.0.VOCMXTC",
+					"android": "15.0",
+					"release": "2025-10-17",
+					"aspatch": "2025-09-01",
+					"recovery": "dada_mx_tc_global-ota_full-OS2.0.200.0.VOCMXTC-user-15.0-026206aea2.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

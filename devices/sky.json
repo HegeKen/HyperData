@@ -1177,6 +1177,102 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本KDDI运营商定制版",
+				"en": "Xiaomi HyperOS Japan KDDI Carrier Edition"
+			},
+			"branchCode": "sky_jp_kd_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G",
+				"en": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G"
+			},
+			"idtag": "JPKD",
+			"tag": "JPKD",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"kd"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.11.0.VMWJPKD": {
+					"os": "OS2.0.11.0.VMWJPKD",
+					"android": "15.0",
+					"release": "2026-08-18",
+					"aspatch": "2026-07-01",
+					"recovery": "sky_jp_kd_global-ota_full-OS2.0.11.0.VMWJPKD-user-15.0-06e978d9d4.zip",
+					"fastboot": ""
+				},
+				"OS1.0.11.0.UMWJPKD": {
+					"os": "OS1.0.11.0.UMWJPKD",
+					"android": "14.0",
+					"release": "2026-10-29",
+					"aspatch": "",
+					"recovery": "miui_SKYJPKDGlobal_OS1.0.11.0.UMWJPKD_682ff288d6_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本SoftBank运营商定制版",
+				"en": "Xiaomi HyperOS Japan SoftBank Carrier Edition"
+			},
+			"branchCode": "sky_jp_sb_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G",
+				"en": "Redmi 12 / 12R 5G / Redmi Note 12R / POCO M6 Pro 5G"
+			},
+			"idtag": "JPSB",
+			"tag": "JPSB",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"sb"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.14.0.VMWJPSB": {
+					"os": "OS2.0.14.0.VMWJPSB",
+					"android": "15.0",
+					"release": "2026-06-02",
+					"aspatch": "2026-05-01",
+					"recovery": "sky_jp_sb_global-ota_full-OS2.0.14.0.VMWJPSB-user-15.0-a808b210f5.zip",
+					"fastboot": ""
+				},
+				"OS1.0.11.0.UMWJPSB": {
+					"os": "OS1.0.11.0.UMWJPSB",
+					"android": "14.0",
+					"release": "2026-10-29",
+					"aspatch": "",
+					"recovery": "miui_SKYJPSBGlobal_OS1.0.11.0.UMWJPSB_65f395e3ee_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

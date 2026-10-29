@@ -976,6 +976,46 @@
 					"fastboot": "dew_mx_at_global_images_OS2.0.205.0.VBNMXAT_20250919.0000.00_15.0_mx_at_c88d339fb7.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "dew_mx_tc_global",
+			"brand": "REDMI, POCO",
+			"device": {
+				"zh": "REDMI 15C / POCO C85",
+				"en": "REDMI 15C / POCO C85"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.207.0.VBNMXTC": {
+					"os": "OS2.0.207.0.VBNMXTC",
+					"android": "15.0",
+					"release": "2026-08-12",
+					"aspatch": "2026-08-01",
+					"recovery": "dew_mx_tc_global-ota_full-OS2.0.207.0.VBNMXTC-user-15.0-7b3f7d0c31.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

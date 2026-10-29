@@ -53,6 +53,16 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WOUCNXM": {
+					"os": "OS3.0.304.0.WOUCNXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-10-01",
+					"recovery": "spring-ota_full-OS3.0.304.0.WOUCNXM-user-16.0-05d743fe18.zip",
+					"fastboot": "",
+					"ctelecom": "",
+					"cnmobile": ""
+				},
 				"OS3.0.302.0.WOUCNXM": {
 					"os": "OS3.0.302.0.WOUCNXM",
 					"android": "16.0",
@@ -865,6 +875,46 @@
 					"aspatch": "2025-08-01",
 					"recovery": "spring_gt_tg_global-ota_full-OS2.0.204.0.VOUGTTG-user-15.0-4d28e51464.zip",
 					"fastboot": "spring_gt_tg_global_images_OS2.0.204.0.VOUGTTG_20250826.0000.00_15.0_gt_tg_a9bdc5adea.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本SoftBank运营商定制版",
+				"en": "Xiaomi HyperOS Japan SoftBank Carrier Edition"
+			},
+			"branchCode": "spring_jp_sb_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 5G / REDMI Note 15R 5G",
+				"en": "REDMI 15 5G / REDMI Note 15R 5G"
+			},
+			"idtag": "JPSB",
+			"tag": "JPSB",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"sb"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WOUJPSB": {
+					"os": "OS3.0.3.0.WOUJPSB",
+					"android": "16.0",
+					"release": "2026-07-06",
+					"aspatch": "2026-05-01",
+					"recovery": "spring_jp_sb_global-ota_full-OS3.0.3.0.WOUJPSB-user-16.0-fe4eeaad42.zip",
+					"fastboot": ""
 				}
 			}
 		}

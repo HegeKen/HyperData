@@ -664,6 +664,54 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "sapphire_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 13 4G",
+				"en": "Redmi Note 13 4G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.206.0.VNGMXTC": {
+					"os": "OS2.0.206.0.VNGMXTC",
+					"android": "15.0",
+					"release": "2026-10-12",
+					"aspatch": "2026-10-01",
+					"recovery": "sapphire_mx_tc_global-ota_full-OS2.0.206.0.VNGMXTC-user-15.0-75c2d2b6c9.zip",
+					"fastboot": ""
+				},
+				"OS1.0.6.0.UNGMXTC": {
+					"os": "OS1.0.6.0.UNGMXTC",
+					"android": "14.0",
+					"release": "2025-01-08",
+					"aspatch": "2025-01-01",
+					"recovery": "miui_SAPPHIREMXTCGlobal_OS1.0.6.0.UNGMXTC_ce3788ad6d_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

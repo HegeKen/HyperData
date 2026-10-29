@@ -816,6 +816,54 @@
 					"fastboot": "spinel_lm_cr_global_images_OS2.0.201.0.VPGLMCR_20251120.0000.00_15.0_lm_cr_de039dc07f.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "spinel_mx_tc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 4G",
+				"en": "REDMI Note 15 4G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.3.0.WPGMXTC": {
+					"os": "OS3.0.3.0.WPGMXTC",
+					"android": "16.0",
+					"release": "2026-09-17",
+					"aspatch": "2026-09-01",
+					"recovery": "spinel_mx_tc_global-ota_full-OS3.0.3.0.WPGMXTC-user-16.0-ceca57df7a.zip",
+					"fastboot": ""
+				},
+				"OS2.0.206.0.VPGMXTC": {
+					"os": "OS2.0.206.0.VPGMXTC",
+					"android": "15.0",
+					"release": "2026-04-17",
+					"aspatch": "2026-04-01",
+					"recovery": "spinel_mx_tc_global-ota_full-OS2.0.206.0.VPGMXTC-user-15.0-8ec5d86d83.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

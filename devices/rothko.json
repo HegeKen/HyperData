@@ -1709,6 +1709,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WNNRUXM": {
+					"os": "OS3.0.303.0.WNNRUXM",
+					"android": "16.0",
+					"release": "2026-10-22",
+					"aspatch": "2026-10-01",
+					"recovery": "rothko_ru_global-ota_full-OS3.0.303.0.WNNRUXM-user-16.0-e6d8dd149d.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WNNRUXM": {
 					"os": "OS3.0.302.0.WNNRUXM",
 					"android": "16.0",
@@ -2069,6 +2077,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.302.0.WNNTRXM": {
+					"os": "OS3.0.302.0.WNNTRXM",
+					"android": "16.0",
+					"release": "2026-10-22",
+					"aspatch": "2026-10-01",
+					"recovery": "rothko_tr_global-ota_full-OS3.0.302.0.WNNTRXM-user-16.0-9f63e65e88.zip",
+					"fastboot": ""
+				},
 				"OS3.0.301.0.WNNTRXM": {
 					"os": "OS3.0.301.0.WNNTRXM",
 					"android": "16.0",
@@ -2381,6 +2397,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.302.0.WNNLMCR": {
+					"os": "OS3.0.302.0.WNNLMCR",
+					"android": "16.0",
+					"release": "2026-10-27",
+					"aspatch": "2026-10-01",
+					"recovery": "rothko_lm_cr_global-ota_full-OS3.0.302.0.WNNLMCR-user-16.0-b057457210.zip",
+					"fastboot": ""
+				},
 				"OS3.0.301.0.WNNLMCR": {
 					"os": "OS3.0.301.0.WNNLMCR",
 					"android": "16.0",
@@ -2476,6 +2500,118 @@
 					"aspatch": "2024-09-01",
 					"recovery": "miui_ROTHKOLMCRGlobal_OS1.0.2.0.UNNLMCR_8bc8e2e4bb_14.0.zip",
 					"fastboot": "rothko_lm_cr_global_images_OS1.0.2.0.UNNLMCR_20240914.0000.00_14.0_lm_cr_6e390d2575.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本SoftBank运营商定制版",
+				"en": "Xiaomi HyperOS Japan SoftBank Carrier Edition"
+			},
+			"branchCode": "rothko_jp_sb_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi K70 至尊版 / 小米 14T Pro",
+				"en": "Redmi K70 Ultra / Xiaomi 14T Pro"
+			},
+			"idtag": "JPSB",
+			"tag": "JPSB",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"sb"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WNNJPSB": {
+					"os": "OS3.0.4.0.WNNJPSB",
+					"android": "16.0",
+					"release": "2026-09-08",
+					"aspatch": "2026-08-01",
+					"recovery": "rothko_jp_sb_global-ota_full-OS3.0.4.0.WNNJPSB-user-16.0-4bcbfdb6ac.zip",
+					"fastboot": ""
+				},
+				"OS2.0.7.0.VNNJPSB": {
+					"os": "OS2.0.7.0.VNNJPSB",
+					"android": "15.0",
+					"release": "2026-02-25",
+					"aspatch": "2026-01-01",
+					"recovery": "rothko_jp_sb_global-ota_full-OS2.0.7.0.VNNJPSB-user-15.0-b160ee70a6.zip",
+					"fastboot": ""
+				},
+				"OS1.0.6.0.UNNJPSB": {
+					"os": "OS1.0.6.0.UNNJPSB",
+					"android": "14.0",
+					"release": "2026-10-29",
+					"aspatch": "",
+					"recovery": "miui_ROTHKOJPSBGlobal_OS1.0.6.0.UNNJPSB_bc357fd565_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "rothko_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi K70 至尊版 / 小米 14T Pro",
+				"en": "Redmi K70 Ultra / Xiaomi 14T Pro"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WNNMXTC": {
+					"os": "OS3.0.4.0.WNNMXTC",
+					"android": "16.0",
+					"release": "2026-08-18",
+					"aspatch": "2026-08-01",
+					"recovery": "rothko_mx_tc_global-ota_full-OS3.0.4.0.WNNMXTC-user-16.0-ba4c7a998c.zip",
+					"fastboot": ""
+				},
+				"OS2.0.204.0.VNNMXTC": {
+					"os": "OS2.0.204.0.VNNMXTC",
+					"android": "15.0",
+					"release": "2026-03-24",
+					"aspatch": "2026-03-01",
+					"recovery": "rothko_mx_tc_global-ota_full-OS2.0.204.0.VNNMXTC-user-15.0-584bae2205.zip",
+					"fastboot": ""
+				},
+				"OS1.0.4.0.UNNMXTC": {
+					"os": "OS1.0.4.0.UNNMXTC",
+					"android": "14.0",
+					"release": "2025-01-15",
+					"aspatch": "2025-01-01",
+					"recovery": "miui_ROTHKOMXTCGlobal_OS1.0.4.0.UNNMXTC_0d7767ee22_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

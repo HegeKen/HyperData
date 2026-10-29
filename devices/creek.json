@@ -295,6 +295,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WBOMIDC": {
+					"os": "OS3.0.303.0.WBOMIDC",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-10-01",
+					"recovery": "creek_dc_global-ota_full-OS3.0.303.0.WBOMIDC-user-16.0-4ada8b14f4.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WBOMIDC": {
 					"os": "OS3.0.302.0.WBOMIDC",
 					"android": "16.0",
@@ -631,6 +639,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WBOIDXM": {
+					"os": "OS3.0.303.0.WBOIDXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-10-01",
+					"recovery": "creek_id_global-ota_full-OS3.0.303.0.WBOIDXM-user-16.0-284f364119.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WBOIDXM": {
 					"os": "OS3.0.302.0.WBOIDXM",
 					"android": "16.0",
@@ -735,6 +751,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WBOTRXM": {
+					"os": "OS3.0.303.0.WBOTRXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-10-01",
+					"recovery": "creek_tr_global-ota_full-OS3.0.303.0.WBOTRXM-user-16.0-baf865afdd.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WBOTRXM": {
 					"os": "OS3.0.302.0.WBOTRXM",
 					"android": "16.0",
@@ -815,6 +839,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.305.0.WBOMXAT": {
+					"os": "OS3.0.305.0.WBOMXAT",
+					"android": "16.0",
+					"release": "2026-10-27",
+					"aspatch": "2026-10-01",
+					"recovery": "creek_mx_at_global-ota_full-OS3.0.305.0.WBOMXAT-user-16.0-dcf1c64b3b.zip",
+					"fastboot": ""
+				},
 				"OS3.0.304.0.WBOMXAT": {
 					"os": "OS3.0.304.0.WBOMXAT",
 					"android": "16.0",
@@ -950,6 +982,46 @@
 					"aspatch": "2025-06-01",
 					"recovery": "creek_lm_cr_global-ota_full-OS2.0.201.0.VBOLMCR-user-15.0-49fac36053.zip",
 					"fastboot": "creek_lm_cr_global_images_OS2.0.201.0.VBOLMCR_20250715.0000.00_15.0_lm_cr_1bbac8fed3.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "creek_mx_tc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI 15 4G",
+				"en": "REDMI 15 4G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.206.0.VBOMXTC": {
+					"os": "OS2.0.206.0.VBOMXTC",
+					"android": "15.0",
+					"release": "2026-06-24",
+					"aspatch": "2026-06-01",
+					"recovery": "creek_mx_tc_global-ota_full-OS2.0.206.0.VBOMXTC-user-15.0-2f47ea32e4.zip",
+					"fastboot": ""
 				}
 			}
 		}

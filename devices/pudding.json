@@ -245,8 +245,8 @@
 					"release": "2026-10-23",
 					"aspatch": "2026-10-01",
 					"recovery": "pudding-ota_full-OS4.0.5.0.XPCCNXM-user-17.0-2bdf4c81b9.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "pudding_images_OS4.0.5.0.XPCCNXM_20261021.0000.00_17.0_cn_2f11bf9464.tgz",
+					"ctelecom": "pudding_images_OS4.0.5.0.XPCCNXM_20261021.0000.00_17.0_cn_chinatelecom_7dc45d5578.tgz"
 				},
 				"OS4.0.4.0.XPCCNXM": {
 					"os": "OS4.0.4.0.XPCCNXM",
@@ -1017,7 +1017,7 @@
 					"release": "2026-10-12",
 					"aspatch": "2026-09-01",
 					"recovery": "pudding_eea_global-ota_full-OS3.0.335.0.XPCEUXM-user-17.0-df3529eb55.zip",
-					"fastboot": ""
+					"fastboot": "pudding_eea_global_images_OS3.0.335.0.XPCEUXM_20260929.0000.00_17.0_eea_af0aef5577.tgz"
 				},
 				"OS3.0.334.0.XPCEUXM": {
 					"os": "OS3.0.334.0.XPCEUXM",
@@ -1209,7 +1209,7 @@
 					"release": "2026-10-16",
 					"aspatch": "2026-09-01",
 					"recovery": "pudding_in_global-ota_full-OS3.0.334.0.XPCINXM-user-17.0-961214e5f6.zip",
-					"fastboot": ""
+					"fastboot": "pudding_in_global_images_OS3.0.334.0.XPCINXM_20260929.0000.00_17.0_in_0c8454cea5.tgz"
 				},
 				"OS3.0.333.0.XPCINXM": {
 					"os": "OS3.0.333.0.XPCINXM",
@@ -1474,6 +1474,46 @@
 					"aspatch": "2025-12-01",
 					"recovery": "pudding_lm_cr_global-ota_full-OS3.0.1.0.WPCLMCR-user-16.0-9ea2ac3579.zip",
 					"fastboot": "pudding_lm_cr_global_images_OS3.0.1.0.WPCLMCR_20251216.0000.00_16.0_lm_cr_9d38c7015f.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "pudding_mx_tc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 17",
+				"en": "Xiaomi 17"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WPCMXTC": {
+					"os": "OS3.0.303.0.WPCMXTC",
+					"android": "16.0",
+					"release": "2026-08-14",
+					"aspatch": "2026-08-01",
+					"recovery": "pudding_mx_tc_global-ota_full-OS3.0.303.0.WPCMXTC-user-16.0-5a129d70de.zip",
+					"fastboot": ""
 				}
 			}
 		}

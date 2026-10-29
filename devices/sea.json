@@ -1704,6 +1704,54 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "sea_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 12S",
+				"en": "Redmi Note 12S"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.208.0.VHZMXTC": {
+					"os": "OS2.0.208.0.VHZMXTC",
+					"android": "15.0",
+					"release": "2026-09-07",
+					"aspatch": "2026-08-01",
+					"recovery": "sea_mx_tc_global-ota_full-OS2.0.208.0.VHZMXTC-user-15.0-82cbe365d1.zip",
+					"fastboot": ""
+				},
+				"OS1.0.8.0.UHZMXTC": {
+					"os": "OS1.0.8.0.UHZMXTC",
+					"android": "14.0",
+					"release": "2025-03-13",
+					"aspatch": "2025-03-01",
+					"recovery": "miui_SEAMXTCGlobal_OS1.0.8.0.UHZMXTC_a6e81817c6_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

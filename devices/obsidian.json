@@ -377,6 +377,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WOFEUXM": {
+					"os": "OS3.0.304.0.WOFEUXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-10-01",
+					"recovery": "obsidian_eea_global-ota_full-OS3.0.304.0.WOFEUXM-user-16.0-09f668a0e1.zip",
+					"fastboot": ""
+				},
 				"OS3.0.303.0.WOFEUXM": {
 					"os": "OS3.0.303.0.WOFEUXM",
 					"android": "16.0",
@@ -855,7 +863,7 @@
 					"release": "2026-10-22",
 					"aspatch": "2026-10-01",
 					"recovery": "obsidian_mx_at_global-ota_full-OS3.0.303.0.WOFMXAT-user-16.0-4acf4d4ca8.zip",
-					"fastboot": ""
+					"fastboot": "obsidian_mx_at_global_images_OS3.0.303.0.WOFMXAT_20261014.0000.00_16.0_mx_at_7741d62ef7.tgz"
 				},
 				"OS3.0.302.0.WOFMXAT": {
 					"os": "OS3.0.302.0.WOFMXAT",
@@ -953,6 +961,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WOFLMCR": {
+					"os": "OS3.0.303.0.WOFLMCR",
+					"android": "16.0",
+					"release": "2026-10-27",
+					"aspatch": "2026-10-01",
+					"recovery": "obsidian_lm_cr_global-ota_full-OS3.0.303.0.WOFLMCR-user-16.0-48256abeee.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WOFLMCR": {
 					"os": "OS3.0.302.0.WOFLMCR",
 					"android": "16.0",
@@ -1048,6 +1064,46 @@
 					"aspatch": "2024-11-01",
 					"recovery": "miui_OBSIDIANLMCRGlobal_OS1.0.1.0.UOFLMCR_e11a799b00_14.0.zip",
 					"fastboot": "obsidian_lm_cr_global_images_OS1.0.1.0.UOFLMCR_20241114.0000.00_14.0_lm_cr_e8fc55697c.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "obsidian_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 14 Pro 4G",
+				"en": "Redmi Note 14 Pro 4G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WOFMXTC": {
+					"os": "OS3.0.302.0.WOFMXTC",
+					"android": "16.0",
+					"release": "2026-10-16",
+					"aspatch": "2026-10-01",
+					"recovery": "obsidian_mx_tc_global-ota_full-OS3.0.302.0.WOFMXTC-user-16.0-5ff8ae0823.zip",
+					"fastboot": ""
 				}
 			}
 		}

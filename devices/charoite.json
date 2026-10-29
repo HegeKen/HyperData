@@ -600,6 +600,54 @@
 					"fastboot": "charoite_lm_cr_global_images_OS2.0.201.0.VPFLMCR_20260206.0000.00_15.0_lm_cr_0b13f8015d.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edition"
+			},
+			"branchCode": "charoite_mx_tc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI Note 15 Pro 4G",
+				"en": "REDMI Note 15 Pro 4G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WPFMXTC": {
+					"os": "OS3.0.4.0.WPFMXTC",
+					"android": "16.0",
+					"release": "2026-09-16",
+					"aspatch": "2026-09-01",
+					"recovery": "charoite_mx_tc_global-ota_full-OS3.0.4.0.WPFMXTC-user-16.0-5a2587a3f3.zip",
+					"fastboot": ""
+				},
+				"OS2.0.204.0.VPFMXTC": {
+					"os": "OS2.0.204.0.VPFMXTC",
+					"android": "15.0",
+					"release": "2026-04-20",
+					"aspatch": "2026-04-01",
+					"recovery": "charoite_mx_tc_global-ota_full-OS2.0.204.0.VPFMXTC-user-15.0-8272432d02.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

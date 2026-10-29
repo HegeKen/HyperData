@@ -672,6 +672,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.304.0.WNRMIXM": {
+					"os": "OS3.0.304.0.WNRMIXM",
+					"android": "16.0",
+					"release": "2026-10-23",
+					"aspatch": "2026-10-01",
+					"recovery": "garnet_global-ota_full-OS3.0.304.0.WNRMIXM-user-16.0-95e753c09d.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WNRMIXM": {
 					"os": "OS3.0.302.0.WNRMIXM",
 					"android": "16.0",
@@ -2078,7 +2086,7 @@
 					"release": "2026-10-23",
 					"aspatch": "2026-10-01",
 					"recovery": "garnet_lm_cr_global-ota_full-OS3.0.6.0.WNRLMCR-user-16.0-f028be6427.zip",
-					"fastboot": ""
+					"fastboot": "garnet_lm_cr_global_images_OS3.0.6.0.WNRLMCR_20261010.0000.00_16.0_lm_cr_62b9e88314.tgz"
 				},
 				"OS3.0.5.0.WNRLMCR": {
 					"os": "OS3.0.5.0.WNRLMCR",
@@ -2199,6 +2207,46 @@
 					"aspatch": "2024-04-01",
 					"recovery": "miui_GARNETLMCRGlobal_OS1.0.1.0.UNRLMCR_811c128c71_14.0.zip",
 					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本KDDI运营商定制版",
+				"en": "Xiaomi HyperOS Japan KDDI Carrier Edition"
+			},
+			"branchCode": "garnet_jp_kd_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
+				"en": "Redmi Note 13 Pro 5G / POCO X6 5G"
+			},
+			"idtag": "JPKD",
+			"tag": "JPKD",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"kd"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.2.0.UNRJPKD": {
+					"os": "OS1.0.2.0.UNRJPKD",
+					"android": "14.0",
+					"release": "2024-06-18",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "garnet_jp_kd_global_images_OS1.0.2.0.UNRJPKD_20240413.0000.00_14.0_jp_kd_e47e887934.tgz"
 				}
 			}
 		}
