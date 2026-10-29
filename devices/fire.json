@@ -1512,6 +1512,54 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "fire_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 12 国际",
+				"en": "Redmi 12"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.206.0.VMXMXTC": {
+					"os": "OS2.0.206.0.VMXMXTC",
+					"android": "15.0",
+					"release": "2026-08-12",
+					"aspatch": "2026-08-01",
+					"recovery": "fire_mx_tc_global-ota_full-OS2.0.206.0.VMXMXTC-user-15.0-4be52a11aa.zip",
+					"fastboot": ""
+				},
+				"OS1.0.8.0.UMXMXTC": {
+					"os": "OS1.0.8.0.UMXMXTC",
+					"android": "14.0",
+					"release": "2025-01-08",
+					"aspatch": "2025-01-01",
+					"recovery": "miui_FIREMXTCGlobal_OS1.0.8.0.UMXMXTC_710c4cfc37_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

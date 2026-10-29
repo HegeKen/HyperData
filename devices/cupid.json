@@ -1997,6 +1997,46 @@
 					"fastboot": "cupid_mx_at_global_images_OS1.0.4.0.ULCMXAT_20240910.0000.00_14.0_mx_at_968561b54e.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "cupid_mx_tc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 12",
+				"en": "Xiaomi 12"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULCMXTC": {
+					"os": "OS1.0.3.0.ULCMXTC",
+					"android": "14.0",
+					"release": "2024-07-11",
+					"aspatch": "2024-07-01",
+					"recovery": "miui_CUPIDMXTCGlobal_OS1.0.3.0.ULCMXTC_bfc2f0c1f2_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

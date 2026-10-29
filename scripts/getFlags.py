@@ -18,7 +18,7 @@ for device in OScommon.currentStable:
         if devdata['branches'][j]['branchCode'] == current['recovery'].split('-')[0]:
           flag = devdata['branches'][j]['branchCode']
         else:
-          flag = current['recovery'].split('_')[1]
+          flag = OScommon.extract_flag_from_filename(current['recovery'])
         if flag in OScommon.flags:
           i = 0
         else:
@@ -26,7 +26,7 @@ for device in OScommon.currentStable:
       if current['fastboot'] == '':
         i = 0
       else:
-        flag = current['fastboot'].split('_images')[0]
+        flag = OScommon.extract_flag_from_filename(current['fastboot'])
         if flag in OScommon.flags:
             i = 0
         else:

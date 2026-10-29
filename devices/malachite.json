@@ -2374,6 +2374,54 @@
 					"fastboot": "malachite_gt_tg_global_images_OS2.0.1.0.VOOGTTG_20250422.0000.00_15.0_gt_tg_7fb9f32903.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "malachite_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 14 Pro / POCO X7",
+				"en": "Redmi Note 14 Pro / POCO X7"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WOOMXTC": {
+					"os": "OS3.0.302.0.WOOMXTC",
+					"android": "16.0",
+					"release": "2026-10-16",
+					"aspatch": "2026-10-01",
+					"recovery": "malachite_mx_tc_global-ota_full-OS3.0.302.0.WOOMXTC-user-16.0-5234c1dff4.zip",
+					"fastboot": ""
+				},
+				"OS1.0.3.0.UOOMXTC": {
+					"os": "OS1.0.3.0.UOOMXTC",
+					"android": "14.0",
+					"release": "2025-03-04",
+					"aspatch": "2025-02-01",
+					"recovery": "miui_MALACHITEMXTCGlobal_OS1.0.3.0.UOOMXTC_7fcfc3c2bd_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

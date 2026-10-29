@@ -2192,6 +2192,86 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本SoftBank运营商定制版",
+				"en": "Xiaomi HyperOS Japan SoftBank Carrier Edition"
+			},
+			"branchCode": "diting_jp_sb_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi K50 至尊版 / 小米 12T Pro",
+				"en": "Redmi K50 Ultra / Xiaomi 12T Pro"
+			},
+			"idtag": "JPSB",
+			"tag": "JPSB",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"sb"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.10.0.ULFJPSB": {
+					"os": "OS1.0.10.0.ULFJPSB",
+					"android": "14.0",
+					"release": "2026-10-27",
+					"aspatch": "",
+					"recovery": "miui_DITINGJPSBGlobal_OS1.0.10.0.ULFJPSB_6e436f7ec6_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "diting_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi K50 至尊版 / 小米 12T Pro",
+				"en": "Redmi K50 Ultra / Xiaomi 12T Pro"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.9.0.ULFMXTC": {
+					"os": "OS1.0.9.0.ULFMXTC",
+					"android": "14.0",
+					"release": "2025-04-03",
+					"aspatch": "2025-03-01",
+					"recovery": "miui_DITINGMXTCGlobal_OS1.0.9.0.ULFMXTC_95d84f718c_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

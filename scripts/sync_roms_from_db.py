@@ -4,6 +4,7 @@
 从数据库 roms 表比对 HyperOS 数据是否已收录到设备 JSON 文件：
 - 版本在 JSON 任意分支都不存在时，按对应分支的 table 结构补建条目并插入到正确的版本位置
   （os/android/release/aspatch/文件名等数据全部来自数据库，不发起网络请求）
+- 找不到对应分支时，复用 OScommon.create_branch 自动补建分支（名称/区域/运营商取自 device-template.json）
 - 版本已在目标分支但缺少 recovery/fastboot/运营商定制机文件字段时，用数据库数据补全
 - 版本实际已在其他分支（数据库 tag 标注漂移）时跳过，避免重复收录
 - 补建条目后，同步核查设备的 supports / android 字段（仅内存修改，随设备文件一起写回）
@@ -216,7 +217,8 @@ def sync_hyperos_to_json(dry_run=False, only_devices=None):
 		'filled': 0,       # 补全的文件字段（条目数）
 		'exists': 0,       # 版本已存在且数据完整
 		'in_other': 0,     # 版本已在其他分支，跳过
-		'no_branch': 0,    # 找不到对应分支
+		'created': 0,      # 自动补建的分支
+		'no_branch': 0,    # 数据库 code 为空、无法创建分支
 		'no_file': 0,      # 数据库记录没有任何文件名
 	}
 
@@ -248,9 +250,19 @@ def sync_hyperos_to_json(dry_run=False, only_devices=None):
 
 		branch = resolve_branch(devdata, code, db_tag, version)
 		if branch is None:
-			print(f"✗ id=  {rom_id} {device} {version}：找不到对应分支(code={code}, tag={db_tag})，跳过")
-			stats['no_branch'] += 1
-			continue
+			if not code:
+				print(f"✗ id=  {rom_id} {device} {version}：数据库 code 为空，无法创建分支，跳过")
+				stats['no_branch'] += 1
+				continue
+			# 复用 OScommon.create_branch 直接补建分支（名称/区域/运营商取自 device-template.json）
+			branch_tag = db_tag
+			if not branch_tag:
+				parts = version.split('.')
+				if len(parts) >= 5 and len(parts[4]) >= 4:
+					branch_tag = parts[4][-4:]
+			branch = OScommon.create_branch(devdata, device, code, tag=branch_tag)
+			dirty.add(device)
+			stats['created'] += 1
 
 		roms = branch.setdefault('roms', {})
 
@@ -295,6 +307,7 @@ def sync_hyperos_to_json(dry_run=False, only_devices=None):
 
 	print('-' * 80)
 	print(f"补建版本条目: {stats['added']}")
+	print(f"自动补建分支: {stats['created']}")
 	print(f"补全文件字段的条目: {stats['filled']}")
 	print(f"已存在且完整: {stats['exists']}")
 	print(f"已在其他分支跳过: {stats['in_other']}")

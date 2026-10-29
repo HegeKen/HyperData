@@ -1456,6 +1456,54 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "gale_mx_tc_global",
+			"brand": "Redmi, POCO",
+			"device": {
+				"zh": "Redmi 13C 国际 / POCO C65",
+				"en": "Redmi 13C / POCO C65"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.208.0.VGPMXTC": {
+					"os": "OS2.0.208.0.VGPMXTC",
+					"android": "15.0",
+					"release": "2026-09-20",
+					"aspatch": "2026-09-01",
+					"recovery": "gale_mx_tc_global-ota_full-OS2.0.208.0.VGPMXTC-user-15.0-e26a924fc6.zip",
+					"fastboot": ""
+				},
+				"OS1.0.4.0.UGPMXTC": {
+					"os": "OS1.0.4.0.UGPMXTC",
+					"android": "14.0",
+					"release": "2024-12-24",
+					"aspatch": "2024-12-01",
+					"recovery": "miui_GALEMXTCGlobal_OS1.0.4.0.UGPMXTC_5bf7707315_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

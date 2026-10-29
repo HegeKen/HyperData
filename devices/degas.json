@@ -1626,6 +1626,118 @@
 					"fastboot": "degas_lm_cr_global_images_OS1.0.2.0.UNELMCR_20240910.0000.00_14.0_lm_cr_80506c665c.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本KDDI运营商定制版",
+				"en": "Xiaomi HyperOS Japan KDDI Carrier Edition"
+			},
+			"branchCode": "degas_jp_kd_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "JPKD",
+			"tag": "JPKD",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"kd"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.9.0.WNEJPKD": {
+					"os": "OS3.0.9.0.WNEJPKD",
+					"android": "16.0",
+					"release": "2026-09-29",
+					"aspatch": "2026-09-01",
+					"recovery": "degas_jp_kd_global-ota_full-OS3.0.9.0.WNEJPKD-user-16.0-9cda54a21d.zip",
+					"fastboot": ""
+				},
+				"OS2.0.8.0.VNEJPKD": {
+					"os": "OS2.0.8.0.VNEJPKD",
+					"android": "15.0",
+					"release": "2025-10-28",
+					"aspatch": "2025-10-01",
+					"recovery": "degas_jp_kd_global-ota_full-OS2.0.8.0.VNEJPKD-user-15.0-e704b9920a.zip",
+					"fastboot": ""
+				},
+				"OS1.0.6.0.UNEJPKD": {
+					"os": "OS1.0.6.0.UNEJPKD",
+					"android": "14.0",
+					"release": "2026-10-27",
+					"aspatch": "",
+					"recovery": "miui_DEGASJPKDGlobal_OS1.0.6.0.UNEJPKD_e09adddccc_14.0.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "degas_mx_tc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 14T",
+				"en": "Xiaomi 14T"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.303.0.WNEMXTC": {
+					"os": "OS3.0.303.0.WNEMXTC",
+					"android": "16.0",
+					"release": "2026-10-13",
+					"aspatch": "2026-10-01",
+					"recovery": "degas_mx_tc_global-ota_full-OS3.0.303.0.WNEMXTC-user-16.0-0e7bd4f65a.zip",
+					"fastboot": ""
+				},
+				"OS2.0.203.0.VNEMXTC": {
+					"os": "OS2.0.203.0.VNEMXTC",
+					"android": "15.0",
+					"release": "2026-02-06",
+					"aspatch": "2026-02-01",
+					"recovery": "degas_mx_tc_global-ota_full-OS2.0.203.0.VNEMXTC-user-15.0-6e47bcca5f.zip",
+					"fastboot": ""
+				},
+				"OS1.0.10.0.UNEMXTC": {
+					"os": "OS1.0.10.0.UNEMXTC",
+					"android": "14.0",
+					"release": "2025-03-08",
+					"aspatch": "2025-02-01",
+					"recovery": "miui_DEGASMXTCGlobal_OS1.0.10.0.UNEMXTC_545a402a99_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

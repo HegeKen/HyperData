@@ -1793,6 +1793,54 @@
 					"fastboot": "corot_jp_global_images_OS1.0.9.0.UMLJPXM_20240702.0000.00_14.0_jp_b59f854102.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本SoftBank运营商定制版",
+				"en": "Xiaomi HyperOS Japan SoftBank Carrier Edition"
+			},
+			"branchCode": "corot_jp_sb_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi K60 至尊版 / 小米 13T Pro",
+				"en": "Redmi K60 Ultra / Xiaomi 13T Pro"
+			},
+			"idtag": "JPSB",
+			"tag": "JPSB",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"sb"
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS2.0.19.0.VMLJPSB": {
+					"os": "OS2.0.19.0.VMLJPSB",
+					"android": "15.0",
+					"release": "2026-06-16",
+					"aspatch": "2026-05-01",
+					"recovery": "corot_jp_sb_global-ota_full-OS2.0.19.0.VMLJPSB-user-15.0-633f1189a3.zip",
+					"fastboot": ""
+				},
+				"OS1.0.9.0.UMLJPSB": {
+					"os": "OS1.0.9.0.UMLJPSB",
+					"android": "14.0",
+					"release": "2026-10-27",
+					"aspatch": "",
+					"recovery": "miui_COROTJPSBGlobal_OS1.0.9.0.UMLJPSB_ca313ad838_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

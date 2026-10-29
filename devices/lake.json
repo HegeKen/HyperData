@@ -1557,6 +1557,62 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "lake_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 14C",
+				"en": "Redmi 14C"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.6.0.WGTMXTC": {
+					"os": "OS3.0.6.0.WGTMXTC",
+					"android": "16.0",
+					"release": "2026-09-21",
+					"aspatch": "2026-09-01",
+					"recovery": "lake_mx_tc_global-ota_full-OS3.0.6.0.WGTMXTC-user-16.0-8404bd85e7.zip",
+					"fastboot": ""
+				},
+				"OS2.0.204.0.VGTMXTC": {
+					"os": "OS2.0.204.0.VGTMXTC",
+					"android": "15.0",
+					"release": "2026-01-16",
+					"aspatch": "2026-01-01",
+					"recovery": "lake_mx_tc_global-ota_full-OS2.0.204.0.VGTMXTC-user-15.0-faf4a4bb2f.zip",
+					"fastboot": ""
+				},
+				"OS1.0.6.0.UGTMXTC": {
+					"os": "OS1.0.6.0.UGTMXTC",
+					"android": "14.0",
+					"release": "2025-05-08",
+					"aspatch": "2025-04-01",
+					"recovery": "miui_LAKEMXTCGlobal_OS1.0.6.0.UGTMXTC_ff09852392_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

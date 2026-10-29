@@ -306,7 +306,7 @@ branches = [
 	},
 		{
 		"code": "_jp_kd_global",
-		"tag": "JPXM",
+		"tag": "JPKD",
 		"region": "jp",
 		"carrier": ["kd"],
 		"zone": "2"
@@ -3593,10 +3593,18 @@ def writeData(filename):
 
 
 def writeFlag(flag, device):
+	"""写入 flag 到 device 的映射草稿，写入前做归一化与合法性校验"""
+	flag = (flag or "").strip().strip('_')
+	device = (device or "").strip().strip('_')
+	# flag 必须是分支代码，完整的包文件名（含 .zip/.tgz/-images）不是合法 flag
+	if not flag or any(mark in flag for mark in (".zip", ".tgz", "-images", "_images")):
+		return
 	flags_file = get_platform_path("public/data/scripts/Flags.json")
-	file = open(flags_file, "a", encoding='utf-8')
-	file.write(f"\"{flag}\":\"{device}\",\n")
-	file.close()
+	with open(flags_file, "r+", encoding='utf-8') as file:
+		content = file.read()
+		if content and not content.endswith("\n"):
+			file.write("\n")
+		file.write(f"\"{flag}\":\"{device}\",\n")
 
 
 def getDeviceCode(filename):
@@ -4125,9 +4133,161 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 
 
 
-def add_rom_to_json(device, code, android, version, filetype, filename, devdata=None, region=None, tag=None, zone=None, branch='F'):
+REGION_NAMES = {
+	"global": ("国际", "Global"),
+	"eea": ("欧洲EEA", "Europe EEA"),
+	"ru": ("俄罗斯", "Russia"),
+	"id": ("印度尼西亚", "Indonesia"),
+	"tr": ("土耳其", "Turkey"),
+	"mx": ("墨西哥", "Mexico"),
+	"lm": ("拉丁美洲", "Latin America"),
+	"jp": ("日本", "Japan"),
+	"in": ("印度", "India"),
+	"kr": ("韩国", "South Korea"),
+	"th": ("泰国", "Thailand"),
+	"za": ("南非", "South Africa"),
+	"pe": ("秘鲁", "Peru"),
+	"cl": ("智利", "Chile"),
+	"gt": ("危地马拉", "Guatemala"),
+	"tw": ("中国台湾省", "China Taiwan Province"),
+	"cn": ("中国大陆", "China Mainland"),
+}
+
+CARRIER_NAMES = {
+	"at": ("AT&T", "AT&T"),
+	"tc": ("Telcel", "Telcel"),
+	"cr": ("Claro", "Claro"),
+	"dc": ("DC", "DC"),
+	"kd": ("KDDI", "KDDI"),
+	"sb": ("SoftBank", "SoftBank"),
+	"hg": ("ThreeHK", "ThreeHK"),
+	"vc": ("Vodacom", "Vodacom"),
+	"mt": ("MTN", "MTN"),
+	"tg": ("Tigo", "Tigo"),
+	"en": ("Entel", "Entel"),
+	"as": ("AIS", "AIS"),
+}
+
+_branch_templates = None
+
+
+def load_branch_templates():
+	"""读取 device-template.json 的分支模板（用于补建分支时复用正确的名称/区域/运营商）"""
+	global _branch_templates
+	if _branch_templates is None:
+		path = get_platform_path("public/data/device-template.json")
+		try:
+			with open(path, "r", encoding="utf-8") as f:
+				_branch_templates = json.load(f).get("branches", [])
+		except (OSError, ValueError):
+			_branch_templates = []
+	return _branch_templates
+
+
+def create_branch(devdata, device, code, tag=None, region=None, zone=None, branch='F'):
+	"""按 branchCode（可选 tag）自动创建分支，追加到 devdata['branches'] 并返回该分支。"""
+	# 从 branchCode 解析区域与运营商，格式: {device}_{region?}_{carrier?}_global
+	rest = code
+	if device and rest.startswith(device + "_"):
+		rest = rest[len(device) + 1:]
+	if rest.endswith("_global"):
+		rest = rest[:-len("_global")]
+	parts = rest.split("_") if rest else []
+	carrier = ""
+	code_region = None
+	if len(parts) >= 2:
+		code_region, carrier = parts[0], parts[1]
+	elif len(parts) == 1:
+		if parts[0] in REGION_NAMES:
+			code_region = parts[0]
+		else:
+			carrier = parts[0]
+
+	# 优先按 tag（数据库/版本号标识）匹配模板，其次按 region + carrier
+	tpl = None
+	templates = load_branch_templates()
+	if tag:
+		for t in templates:
+			if t.get("idtag") == tag:
+				tpl = t
+				break
+	if tpl is None and code_region:
+		for t in templates:
+			if t.get("region") == code_region and t.get("carrier") == ([carrier] if carrier else [""]):
+				tpl = t
+				break
+
+	branch_region = region or (tpl.get("region") if tpl else None) or code_region or "global"
+	if zone is not None:
+		branch_zone = zone
+	elif tpl and tpl.get("zone"):
+		branch_zone = tpl["zone"]
+	else:
+		branch_zone = "1" if branch_region == "cn" else "2"
+	branch_tag = tag or (tpl.get("tag") if tpl else "")
+
+	device_name_zh = devdata.get("name", {}).get("zh", device)
+	device_name_en = devdata.get("name", {}).get("en", device)
+	brand = ""
+	for existing_branch in devdata.get("branches", []):
+		if existing_branch.get("brand"):
+			brand = existing_branch["brand"]
+			break
+
+	if tpl:
+		name_zh, name_en = tpl["name"]["zh"], tpl["name"]["en"]
+		carrier_list = list(tpl.get("carrier", [""]))
+		table = list(tpl.get("table", ["os", "android", "release", "aspatch", "recovery", "fastboot"]))
+		show, ep = tpl.get("show", "1"), tpl.get("ep", "0")
+	else:
+		region_zh, region_en = REGION_NAMES.get(branch_region, (branch_region.upper(), branch_region.capitalize()))
+		carrier_zh, carrier_en = CARRIER_NAMES.get(carrier, (carrier.upper(), carrier.upper()))
+		if carrier == "dc":
+			name_zh = f"小米澎湃 OS {region_zh} DC 正式版"
+			name_en = f"Xiaomi HyperOS {region_en} DC Stable"
+		elif carrier:
+			name_zh = f"小米澎湃 OS {region_zh}{carrier_zh}运营商定制版"
+			name_en = f"Xiaomi HyperOS {region_en} {carrier_en} Carrier Edition"
+		else:
+			name_zh = f"小米澎湃 OS {region_zh}正式版"
+			name_en = f"Xiaomi HyperOS {region_en} Stable"
+		carrier_list = [carrier] if carrier else [""]
+		table = ["os", "android", "release", "aspatch", "recovery", "fastboot"]
+		show, ep = "1", "0"
+
+	new_branch = {
+		"name": {
+			"zh": name_zh,
+			"en": name_en
+		},
+		"branchCode": code,
+		"brand": brand,
+		"device": {
+			"zh": device_name_zh,
+			"en": device_name_en
+		},
+		"idtag": branch_tag,
+		"tag": branch_tag,
+		"branchtag": branch,
+		"table": table,
+		"show": show,
+		"carrier": carrier_list,
+		"region": branch_region,
+		"zone": str(branch_zone),
+		"ep": ep,
+		"roms": {}
+	}
+
+	devdata.setdefault("branches", []).append(new_branch)
+	print(f"自动创建新分支: {code} (tag={branch_tag}, region={branch_region}, carrier={carrier})")
+	return new_branch
+
+
+def add_rom_to_json(device, code, android, version, filetype, filename, devdata=None, region=None, tag=None, zone=None, branch: str | None = 'F'):
 	"""添加 ROM 到 JSON 文件,修复版 - 优化 Git diff - 基于table表新建ROM模板
 	当 JSON 中不存在匹配分支时，自动创建对应分支并写入 ROM 信息。"""
+	
+	branch = branch or 'F'
 	
 	if devdata is None:
 		device_file = get_platform_path(f"public/data/devices/{device}.json")
@@ -4253,113 +4413,16 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 	
 	# 如果仍未找到匹配分支，自动创建新分支
 	if target_branch is None:
-		# 从版本号中提取 tag（例如 OS3.0.302.0.WNFMXTC -> MXTC）
-		version_parts_for_tag = version.split(".")
-		version_tag = None
-		if len(version_parts_for_tag) >= 5:
-			full_tag = version_parts_for_tag[4]
-			if len(full_tag) >= 4:
-				version_tag = full_tag[-4:]
-
-		# 优先使用传入的 tag，其次从版本号提取
-		branch_tag = tag if tag else version_tag
-		# 优先使用传入的 region / zone
-		branch_region = region if region else "global"
-		branch_zone = zone if zone is not None else (1 if branch_region == "cn" else 2)
-
-		# 从 devdata 获取设备名称与品牌
-		device_name_zh = devdata.get("name", {}).get("zh", device)
-		device_name_en = devdata.get("name", {}).get("en", device)
-		brand = ""
-		for existing_branch in devdata.get("branches", []):
-			if existing_branch.get("brand"):
-				brand = existing_branch["brand"]
-				break
-
-		# 从 branchCode 中提取 carrier
-		# 格式: {device}_{region?}_{carrier?}_global
-		carrier = ""
-		rest = code
-		if rest.startswith(device + "_"):
-			rest = rest[len(device) + 1:]
-		if rest.endswith("_global"):
-			rest = rest[:-len("_global")]
-		rest_parts = rest.split("_") if rest else []
-		if len(rest_parts) >= 2:
-			carrier = rest_parts[1]
-		elif len(rest_parts) == 1 and rest_parts[0] and rest_parts[0] != branch_region:
-			carrier = rest_parts[0]
-
-		# 区域名称映射（zh / en）
-		region_names = {
-			"global": ("国际", "Global"),
-			"eea": ("欧洲EEA", "Europe EEA"),
-			"ru": ("俄罗斯", "Russia"),
-			"id": ("印度尼西亚", "Indonesia"),
-			"tr": ("土耳其", "Turkey"),
-			"mx": ("墨西哥", "Mexico"),
-			"lm": ("拉丁美洲", "Latin America"),
-			"jp": ("日本", "Japan"),
-		}
-		region_zh, region_en = region_names.get(branch_region, (branch_region.upper(), branch_region.capitalize()))
-
-		# 运营商名称映射（zh / en）
-		carrier_names = {
-			"at": ("AT&T", "AT&T"),
-			"tc": ("Telcel", "Telcel"),
-			"cr": ("Claro", "Claro"),
-			"dc": ("DC", "DC"),
-			"kd": ("KDDI", "KDDI"),
-			"sb": ("SoftBank", "SoftBank"),
-		}
-		carrier_zh, carrier_en = carrier_names.get(carrier, (carrier.upper(), carrier.upper()))
-
-		# 生成分支名称
-		if carrier == "dc":
-			name_zh = f"小米澎湃 OS {region_zh} DC 正式版"
-			name_en = f"Xiaomi HyperOS {region_en} DC Stable"
-		elif carrier:
-			name_zh = f"小米澎湃 OS {region_zh}{carrier_zh}运营商定制版"
-			name_en = f"Xiaomi HyperOS {region_en} {carrier_en} Carrier Edition"
-		else:
-			name_zh = f"小米澎湃 OS {region_zh}正式版"
-			name_en = f"Xiaomi HyperOS {region_en} Stable"
-
-		new_branch = {
-			"name": {
-				"zh": name_zh,
-				"en": name_en
-			},
-			"branchCode": code,
-			"brand": brand,
-			"device": {
-				"zh": device_name_zh,
-				"en": device_name_en
-			},
-			"idtag": branch_tag,
-			"tag": branch_tag,
-			"branchtag": branch,
-			"table": [
-				"os",
-				"android",
-				"release",
-				"aspatch",
-				"recovery",
-				"fastboot"
-			],
-			"show": "1",
-			"carrier": [carrier] if carrier else [""],
-			"region": branch_region,
-			"zone": str(branch_zone),
-			"ep": "0",
-			"roms": {}
-		}
-
-		devdata.setdefault("branches", []).append(new_branch)
+		# 优先使用传入的 tag，其次从版本号提取（例如 OS3.0.302.0.WNFMXTC -> MXTC）
+		branch_tag = tag
+		if not branch_tag:
+			version_parts_for_tag = version.split(".")
+			if len(version_parts_for_tag) >= 5 and len(version_parts_for_tag[4]) >= 4:
+				branch_tag = version_parts_for_tag[4][-4:]
+		target_branch = create_branch(devdata, device, code, tag=branch_tag,
+									  region=region, zone=zone, branch=branch)
 		target_branch_idx = len(devdata["branches"]) - 1
-		target_branch = new_branch
 		match_method = f"auto-created branch: {code}"
-		print(f"自动创建新分支: {code} (tag={branch_tag}, region={branch_region}, carrier={carrier})")
 
 	# 处理 ROM 数据
 	if "roms" not in target_branch:
@@ -4712,7 +4775,7 @@ def checkExist(filename):
 				try:
 					with open(device_file, 'r', encoding='utf-8') as f:
 						dev_data = json.load(f)
-					devdata = add_rom_to_json(device, code, android, version, filetype, filename, dev_data, region=region, tag=tag, zone=zone, branch=branch)
+					devdata = add_rom_to_json(device, code, android, version, filetype, filename, dev_data, region=region, tag=tag, zone=zone, branch=branch or 'F')
 					
 					if devdata is None:
 						print(f"错误: add_rom_to_json 返回 None")

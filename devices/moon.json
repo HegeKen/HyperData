@@ -1778,6 +1778,62 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "moon_mx_tc_global",
+			"brand": "Redmi, POCO",
+			"device": {
+				"zh": "Redmi 13 国际 / POCO M6 4G",
+				"en": "Redmi 13 / POCO M6 4G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.305.0.WNTMXTC": {
+					"os": "OS3.0.305.0.WNTMXTC",
+					"android": "16.0",
+					"release": "2026-10-16",
+					"aspatch": "2026-10-01",
+					"recovery": "moon_mx_tc_global-ota_full-OS3.0.305.0.WNTMXTC-user-16.0-15ff586f1a.zip",
+					"fastboot": ""
+				},
+				"OS2.0.7.0.VNTMXTC": {
+					"os": "OS2.0.7.0.VNTMXTC",
+					"android": "15.0",
+					"release": "2025-11-07",
+					"aspatch": "2025-11-01",
+					"recovery": "moon_mx_tc_global-ota_full-OS2.0.7.0.VNTMXTC-user-15.0-12b9ff9e31.zip",
+					"fastboot": ""
+				},
+				"OS1.0.7.0.UNTMXTC": {
+					"os": "OS1.0.7.0.UNTMXTC",
+					"android": "14.0",
+					"release": "2025-02-20",
+					"aspatch": "2025-01-01",
+					"recovery": "miui_MOONMXTCGlobal_OS1.0.7.0.UNTMXTC_d2ab00a2af_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

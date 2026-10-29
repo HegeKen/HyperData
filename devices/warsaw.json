@@ -191,6 +191,49 @@
 					"ctelecom": "warsaw_images_OS3.0.302.0.WHPCNXM_20260611.0000.00_16.0_cn_chinatelecom_27676bd566.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 演示机系统",
+				"en": "Xiaomi HyperOS China MiStore Demo"
+			},
+			"branchCode": "warsaw_demo",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI K90 至尊版",
+				"en": "REDMI K90 Ultra"
+			},
+			"idtag": "CnOD",
+			"tag": "CnOD",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"",
+				"chinatelecom",
+				"chinamobile",
+				"chinaunicom"
+			],
+			"region": "cn",
+			"zone": "1",
+			"ep": "0",
+			"roms": {
+				"OS4.0.1.0.XHPCNDM": {
+					"os": "OS4.0.1.0.XHPCNDM",
+					"android": "17.0",
+					"release": "2026-10-27",
+					"aspatch": "2026-09-01",
+					"recovery": "warsaw_demo-ota_full-OS4.0.1.0.XHPCNDM-user-17.0-29910f69dc.zip",
+					"fastboot": "warsaw_demo_images_OS4.0.1.0.XHPCNDM_20261014.0000.00_17.0_cn_068e797859.tgz"
+				}
+			}
 		}
 	]
 }

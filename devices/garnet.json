@@ -2240,13 +2240,93 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.6.0.WNRJPKD": {
+					"os": "OS3.0.6.0.WNRJPKD",
+					"android": "16.0",
+					"release": "2026-08-18",
+					"aspatch": "2026-07-01",
+					"recovery": "garnet_jp_kd_global-ota_full-OS3.0.6.0.WNRJPKD-user-16.0-b52a971b93.zip",
+					"fastboot": ""
+				},
+				"OS2.0.8.0.VNRJPKD": {
+					"os": "OS2.0.8.0.VNRJPKD",
+					"android": "15.0",
+					"release": "2025-12-02",
+					"aspatch": "2025-10-01",
+					"recovery": "garnet_jp_kd_global-ota_full-OS2.0.8.0.VNRJPKD-user-15.0-aa4e4c45d3.zip",
+					"fastboot": ""
+				},
+				"OS1.0.7.0.UNRJPKD": {
+					"os": "OS1.0.7.0.UNRJPKD",
+					"android": "14.0",
+					"release": "2026-10-27",
+					"aspatch": "",
+					"recovery": "miui_GARNETJPKDGlobal_OS1.0.7.0.UNRJPKD_440a9a98d5_14.0.zip",
+					"fastboot": ""
+				},
 				"OS1.0.2.0.UNRJPKD": {
 					"os": "OS1.0.2.0.UNRJPKD",
 					"android": "14.0",
 					"release": "2024-06-18",
 					"aspatch": "",
-					"recovery": "",
+					"recovery": "miui_GARNETJPKDGlobal_OS1.0.2.0.UNRJPKD_26a38e89d0_14.0.zip",
 					"fastboot": "garnet_jp_kd_global_images_OS1.0.2.0.UNRJPKD_20240413.0000.00_14.0_jp_kd_e47e887934.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "garnet_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi Note 13 Pro 5G / POCO X6 5G",
+				"en": "Redmi Note 13 Pro 5G / POCO X6 5G"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.4.0.WNRMXTC": {
+					"os": "OS3.0.4.0.WNRMXTC",
+					"android": "16.0",
+					"release": "2026-09-18",
+					"aspatch": "2026-09-01",
+					"recovery": "garnet_mx_tc_global-ota_full-OS3.0.4.0.WNRMXTC-user-16.0-9c3091e8d4.zip",
+					"fastboot": ""
+				},
+				"OS2.0.202.0.VNRMXTC": {
+					"os": "OS2.0.202.0.VNRMXTC",
+					"android": "15.0",
+					"release": "2026-02-09",
+					"aspatch": "2026-02-01",
+					"recovery": "garnet_mx_tc_global-ota_full-OS2.0.202.0.VNRMXTC-user-15.0-570d9377e2.zip",
+					"fastboot": ""
+				},
+				"OS1.0.5.0.UNRMXTC": {
+					"os": "OS1.0.5.0.UNRMXTC",
+					"android": "14.0",
+					"release": "2024-12-12",
+					"aspatch": "2024-11-01",
+					"recovery": "miui_GARNETMXTCGlobal_OS1.0.5.0.UNRMXTC_7121a457fa_14.0.zip",
+					"fastboot": ""
 				}
 			}
 		}

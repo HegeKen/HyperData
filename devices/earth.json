@@ -2309,6 +2309,46 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "earth_mx_tc_global",
+			"brand": "Redmi",
+			"device": {
+				"zh": "Redmi 12C / POCO C55",
+				"en": "Redmi 12C / POCO C55"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.8.0.UCVMXTC": {
+					"os": "OS1.0.8.0.UCVMXTC",
+					"android": "14.0",
+					"release": "2025-04-23",
+					"aspatch": "2025-04-01",
+					"recovery": "miui_EARTHMXTCGlobal_OS1.0.8.0.UCVMXTC_2fe8eadf50_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
