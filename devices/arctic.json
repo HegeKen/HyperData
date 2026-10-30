@@ -574,6 +574,46 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "arctic_mx_tc_global",
+			"brand": "REDMI",
+			"device": {
+				"zh": "REDMI A7 Pro / POCO C81",
+				"en": "REDMI A7 Pro / POCO C81"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.6.0.WBVMXTC": {
+					"os": "OS3.0.6.0.WBVMXTC",
+					"android": "16.0",
+					"release": "2026-10-16",
+					"aspatch": "2026-10-01",
+					"recovery": "arctic_mx_tc_global-ota_full-OS3.0.6.0.WBVMXTC-user-16.0-4bdab966a6.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }

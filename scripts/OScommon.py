@@ -2495,6 +2495,8 @@ flags = {
 	"FIREGlobal": "fire",
 	"SKY": "sky",
 	"LIGHT": "light",
+	"ZEUSMXTCGlobal": "zeus",
+	"arctic_mx_tc_global": "arctic",
 	"SEAEEAGlobal": "sea",
 	"sea_eea_global": "sea",
 	"LIGHTCM": "lightcm",
@@ -3924,14 +3926,30 @@ def getData(filename):
 				
 				tag, code_suffix, region = branch_info
 				
-				# 查询设备名
-				device_sql = "SELECT device FROM devices WHERE devtag = %s" % stringify(devtag)
-				device_result = db_job_latest(device_sql)
+				# 查询设备名（devtag 可能不唯一，如 taurus 与 zeus 同为 'LB'）
+				device_sql = "SELECT DISTINCT device FROM devices WHERE devtag = %s" % stringify(devtag)
+				device_rows = db_job(device_sql)
 				
-				if not device_result:
+				if not device_rows:
 						return None
 				
-				device = device_result[0]
+				candidates = [r[0] for r in device_rows]
+				device = None
+				
+				# 优先用 branchcode 前缀匹配：branchcode 形如 {DEVICE_UPPER}{SUFFIX}
+				# 如 ZEUSMXTCGlobal -> zeus，取最长匹配以避免 cancro/cancro_lte 前缀冲突
+				bc_upper = branchcode.upper()
+				best_len = 0
+				for cand in candidates:
+						cu = cand.upper()
+						if bc_upper.startswith(cu) and len(cu) > best_len:
+								device = cand
+								best_len = len(cu)
+				
+				# 无前缀匹配时回退到第一个候选（保持原有行为）
+				if device is None:
+						device = candidates[0]
+				
 				full_code = device if code_suffix is None else device + code_suffix
 				
 				# 插入新设备记录

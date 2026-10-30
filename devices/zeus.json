@@ -2030,6 +2030,46 @@
 					"fastboot": "zeus_tr_global_images_OS1.0.2.0.ULBTRXM_20240226.0000.00_14.0_tr_840cfc115e.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 墨西哥Telcel运营商定制版",
+				"en": "Xiaomi HyperOS Mexico Telcel Carrier Edtion"
+			},
+			"branchCode": "zeus_mx_tc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 12 Pro",
+				"en": "Xiaomi 12 Pro"
+			},
+			"idtag": "MXTC",
+			"tag": "MXTC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"tc"
+			],
+			"region": "mx",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS1.0.3.0.ULBMXTC": {
+					"os": "OS1.0.3.0.ULBMXTC",
+					"android": "14.0",
+					"release": "2024-07-11",
+					"aspatch": "2024-07-01",
+					"recovery": "miui_ZEUSMXTCGlobal_OS1.0.3.0.ULBMXTC_b2f9693663_14.0.zip",
+					"fastboot": ""
+				}
+			}
 		}
 	]
 }
