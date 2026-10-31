@@ -21,7 +21,7 @@ updates = {
 	"recent":{
 		"time": "",
 		"developing": "no",
-		"roms": []
+		"roms": {}
 	}
 }
 updates["recent"]['time'] = datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
@@ -33,7 +33,7 @@ for device in OScommon.order:
 		"zh": devdata['name']['zh'],
 		"en": devdata['name']['en']
 	}
-	roms = ""
+	roms = []
 	for num in range(len(devdata['branches'])):
 		tag = devdata['branches'][num]['idtag']
 		branch = devdata["branches"][num]["branchtag"]
@@ -42,17 +42,16 @@ for device in OScommon.order:
 		else:
 			for rom in devdata['branches'][num]['roms']:
 				if current_date in weeks:
-					if devdata['branches'][num]['roms'][rom]['os'] in roms:
-						i = 0
-					else:
-						roms = roms + "; " + devdata['branches'][num]['roms'][rom]['os']
-	if roms[2:] == "":
-		i = 0
-	elif roms[2:] in updates.__str__():
+					os_version = devdata['branches'][num]['roms'][rom]['os']
+					if os_version not in roms:
+						roms.append(os_version)
+	if not roms:
 		i = 0
 	else:
-		json_str = '{"code": "'+code+'",''"name": '+json.dumps(name)+',"rom": "'+roms[2:]+'"}'
-		updates["recent"]['roms'].append(json.loads(json_str))
+		updates["recent"]['roms'][code] = {
+			"name": name,
+			"versions": [{"insert_date": current_date, "version": rom} for rom in roms]
+		}
 
 with open('public/data/index.json', 'w', encoding='utf-8') as f:
 	json.dump(updates, f, ensure_ascii=False, indent=2)

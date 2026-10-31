@@ -70,6 +70,126 @@
 					"fastboot": ""
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "darwin_eea_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8s",
+				"en": "POCO X8s"
+			},
+			"idtag": "EUXM",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.306.0.WETEUXM": {
+					"os": "OS3.0.306.0.WETEUXM",
+					"android": "16.0",
+					"release": "2026-10-30",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "darwin_eea_global_images_OS3.0.306.0.WETEUXM_20261022.0000.00_16.0_eea_84948a0e61.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "darwin_ru_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8s",
+				"en": "POCO X8s"
+			},
+			"idtag": "RUXM",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.302.0.WETRUXM": {
+					"os": "OS3.0.302.0.WETRUXM",
+					"android": "16.0",
+					"release": "2026-10-30",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "darwin_ru_global_images_OS3.0.302.0.WETRUXM_20261019.0000.00_16.0_ru_b17d956af8.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "darwin_tr_global",
+			"brand": "POCO",
+			"device": {
+				"zh": "POCO X8s",
+				"en": "POCO X8s"
+			},
+			"idtag": "TRXM",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS3.0.301.0.WETTRXM": {
+					"os": "OS3.0.301.0.WETTRXM",
+					"android": "16.0",
+					"release": "2026-10-30",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "darwin_tr_global_images_OS3.0.301.0.WETTRXM_20261019.0000.00_16.0_tr_715f6a932b.tgz"
+				}
+			}
 		}
 	]
 }
