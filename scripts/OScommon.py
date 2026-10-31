@@ -222,20 +222,255 @@ order = ['umi', 'cmi', 'cas', 'thyme', 'venus', 'star', 'lisa', 'pissarro_in', '
 branches = [
 	{
 		"code": "",
+		"idtag": "CnOO",
 		"tag": "CNXM",
 		"region": "cn",
 		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 		"zone": "1"
 	},
 	{
+		"code": "",
+		"idtag": "CnOB",
+		"tag": "CNXM",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "",
+		"idtag": "Beta",
+		"tag": "CNXM",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "",
+		"idtag": "Dev",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_alpha",
+		"idtag": "CNAL",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "",
+		"idtag": "CNST",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "",
+		"idtag": "CNTT",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "",
+		"idtag": "CNUT",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "",
+		"idtag": "CNLT",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "",
+		"idtag": "GOST",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "2"
+	},
+	{
 		"code": "_demo",
+		"idtag": "CnOD",
 		"tag": "CNDM",
 		"region": "cn",
 		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
 		"zone": "1"
 	},
 	{
+		"code": "_ep_stdee",
+		"idtag": "EPSTD",
+		"tag": "",
+		"region": "cn",
+		"carrier": [""],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_stdce",
+		"idtag": "EPSCE",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_yunke",
+		"idtag": "EPYKE",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_xy",
+		"idtag": "EPXYE",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_yy",
+		"idtag": "EPYYE",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_sdlybjcg",
+		"idtag": "EPSDL",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_tbkj",
+		"idtag": "EPTBK",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_tl",
+		"idtag": "EPTLE",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_tly",
+		"idtag": "EPTLY",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_xdja",
+		"idtag": "EPXDJ",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_yx",
+		"idtag": "EPYXE",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_kywl",
+		"idtag": "EPKYW",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_cqrcb",
+		"idtag": "EPCQR",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_ec",
+		"idtag": "EPECE",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_sxht",
+		"idtag": "EPSXH",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_yfan",
+		"idtag": "EPYFA",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_tkgwdl",
+		"idtag": "EPTKG",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_ep_cjcc",
+		"idtag": "EPCJC",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_pre_dpp",
+		"idtag": "ADPC",
+		"tag": "",
+		"region": "cn",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "1"
+	},
+	{
+		"code": "_hk_global",
+		"idtag": "CNHK",
+		"tag": "",
+		"region": "hk",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
 		"code": "_tw_global",
+		"idtag": "CNTP",
 		"tag": "TWXM",
 		"region": "tw",
 		"carrier": [""],
@@ -243,97 +478,71 @@ branches = [
 	},
 	{
 		"code": "_global",
+		"idtag": "GDev",
+		"tag": "",
+		"region": "global",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_global",
+		"idtag": "GBOO",
 		"tag": "MIXM",
 		"region": "global",
 		"carrier": [""],
 		"zone": "2"
 	},
 	{
+		"code": "_global",
+		"idtag": "GBOO",
+		"tag": "MIDM",
+		"region": "global",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
 		"code": "_dc_global",
+		"idtag": "GBDC",
 		"tag": "MIDC",
 		"region": "global",
 		"carrier": ["dc"],
 		"zone": "2"
 	},
 	{
+		"code": "_h3g_global",
+		"idtag": "GBHG",
+		"tag": "MIHG",
+		"region": "global",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_pre_dpp_global",
+		"idtag": "ADPG",
+		"tag": "",
+		"region": "global",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
 		"code": "_eea_global",
+		"idtag": "EEAO",
 		"tag": "EUXM",
 		"region": "eea",
 		"carrier": [""],
 		"zone": "2"
 	},
-		{
+	{
 		"code": "_eea_global",
+		"idtag": "EEAD",
 		"tag": "EUDM",
 		"region": "eea",
 		"carrier": [""],
 		"zone": "2"
 	},
 	{
-		"code": "_ru_global",
-		"tag": "RUXM",
-		"region": "ru",
-		"carrier": [""],
-		"zone": "2"
-	},
-	{
-		"code": "_id_global",
-		"tag": "IDXM",
-		"region": "id",
-		"carrier": [""],
-		"zone": "2"
-	},
-		{
-		"code": "_id_global",
-		"tag": "IDDM",
-		"region": "id",
-		"carrier": [""],
-		"zone": "2"
-	},
-	{
-		"code": "_tr_global",
-		"tag": "TRXM",
-		"region": "tr",
-		"carrier": [""],
-		"zone": "2"
-	},
-	{
-		"code": "_jp_global",
-		"tag": "JPXM",
-		"region": "jp",
-		"carrier": [""],
-		"zone": "2"
-	},
-		{
-		"code": "_jp_kd_global",
-		"tag": "JPKD",
-		"region": "jp",
-		"carrier": ["kd"],
-		"zone": "2"
-	},
-	{
-		"code": "_in_global",
-		"tag": "INXM",
-		"region": "in",
-		"carrier": [""],
-		"zone": "2"
-	},
-		{
-		"code": "in_in_global",
-		"tag": "INXM",
-		"region": "in",
-		"carrier": [""],
-		"zone": "2"
-	},
-	{
-		"code": "_eea_hg_global",
-		"tag": "EUHG",
-		"region": "eea",
-		"carrier": ["h3g"],
-		"zone": "2"
-	},
-	{
 		"code": "_eea_or_global",
+		"idtag": "EUOR",
 		"tag": "EUOR",
 		"region": "eea",
 		"carrier": ["orange"],
@@ -341,41 +550,207 @@ branches = [
 	},
 	{
 		"code": "_eea_vf_global",
+		"idtag": "EUVF",
 		"tag": "EUVF",
 		"region": "eea",
 		"carrier": ["vodafone"],
 		"zone": "2"
 	},
 	{
-		"code": "_eea_ti_global",
-		"tag": "EUTI",
+		"code": "_eea_hg_global",
+		"idtag": "EUHG",
+		"tag": "EUHG",
 		"region": "eea",
-		"carrier": ["tim"],
-		"zone": "2"
-	},
-	{
-		"code": "_eea_sf_global",
-		"tag": "EUSF",
-		"region": "eea",
-		"carrier": ["sfr"],
+		"carrier": ["h3g"],
 		"zone": "2"
 	},
 	{
 		"code": "_eea_tf_global",
+		"idtag": "EUTF",
 		"tag": "EUTF",
 		"region": "eea",
 		"carrier": ["tf"],
 		"zone": "2"
 	},
 	{
+		"code": "_eea_sf_global",
+		"idtag": "EUSF",
+		"tag": "EUSF",
+		"region": "eea",
+		"carrier": ["sfr"],
+		"zone": "2"
+	},
+	{
+		"code": "_eea_ti_global",
+		"idtag": "EUTI",
+		"tag": "EUTI",
+		"region": "eea",
+		"carrier": ["tim"],
+		"zone": "2"
+	},
+	{
 		"code": "_eea_by_global",
+		"idtag": "EUBY",
 		"tag": "EUBY",
 		"region": "eea",
 		"carrier": ["by"],
 		"zone": "2"
 	},
 	{
+		"code": "_ru_global",
+		"idtag": "RUSO",
+		"tag": "RUXM",
+		"region": "ru",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_in_global",
+		"idtag": "INSO",
+		"tag": "INXM",
+		"region": "in",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_in_rf_global",
+		"idtag": "INRF",
+		"tag": "INRF",
+		"region": "in",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_in_fk_global",
+		"idtag": "INSO",
+		"tag": "INFK",
+		"region": "in",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_id_global",
+		"idtag": "IDSO",
+		"tag": "IDXM",
+		"region": "id",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "",
+		"idtag": "MYGS",
+		"tag": "",
+		"region": "my",
+		"carrier": ["", "chinatelecom", "chinamobile", "chinaunicom"],
+		"zone": "2"
+	},
+	{
+		"code": "_sg_global",
+		"idtag": "SGGS",
+		"tag": "",
+		"region": "sg",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_sg_global",
+		"idtag": "SGGD",
+		"tag": "",
+		"region": "sg",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_th_as_global",
+		"idtag": "THAS",
+		"tag": "THAS",
+		"region": "th",
+		"carrier": ["as"],
+		"zone": "2"
+	},
+	{
+		"code": "_tr_global",
+		"idtag": "TRSO",
+		"tag": "TRXM",
+		"region": "tr",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_jp_kd_global",
+		"idtag": "JPKD",
+		"tag": "JPKD",
+		"region": "jp",
+		"carrier": ["kd"],
+		"zone": "2"
+	},
+	{
+		"code": "_jp_global",
+		"idtag": "JAPS",
+		"tag": "JPXM",
+		"region": "jp",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_jp_sb_global",
+		"idtag": "JPSB",
+		"tag": "JPSB",
+		"region": "jp",
+		"carrier": ["sb"],
+		"zone": "2"
+	},
+	{
+		"code": "_kr_global",
+		"idtag": "SKSO",
+		"tag": "KRXM",
+		"region": "kr",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_kr_gu_global",
+		"idtag": "SKLG",
+		"tag": "KRGU",
+		"region": "kr",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_kr_kt_global",
+		"idtag": "SKKT",
+		"tag": "KRKT",
+		"region": "kr",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_kr_sk_global",
+		"idtag": "SKSK",
+		"tag": "KRSK",
+		"region": "kr",
+		"carrier": [""],
+		"zone": "2"
+	},
+	{
+		"code": "_lm_cr_global",
+		"idtag": "LMCR",
+		"tag": "LMCR",
+		"region": "lm",
+		"carrier": ["cr"],
+		"zone": "2"
+	},
+	{
+		"code": "_mx_tc_global",
+		"idtag": "MXTC",
+		"tag": "MXTC",
+		"region": "mx",
+		"carrier": ["tc"],
+		"zone": "2"
+	},
+	{
 		"code": "_cl_en_global",
+		"idtag": "CLEN",
 		"tag": "CLEN",
 		"region": "cl",
 		"carrier": ["en"],
@@ -383,100 +758,50 @@ branches = [
 	},
 	{
 		"code": "_mx_at_global",
+		"idtag": "MXAT",
 		"tag": "MXAT",
 		"region": "mx",
 		"carrier": ["at"],
 		"zone": "2"
 	},
 	{
-		"code": "_lm_cr_global",
-		"tag": "LMCR",
-		"region": "lm",
-		"carrier": ["cr"],
-		"zone": "2"
-	},
-	{
-		"code": "_za_vc_global",
-		"tag": "ZAVC",
-		"region": "za",
-		"carrier": ["vc"],
-		"zone": "2"
-	},
-	{
 		"code": "_za_mt_global",
+		"idtag": "ZAMT",
 		"tag": "ZAMT",
 		"region": "za",
 		"carrier": ["mt"],
 		"zone": "2"
 	},
 	{
-		"code": "_gt_tg_global",
-		"tag": "GTTG",
-		"region": "gt",
-		"carrier": ["tg"],
+		"code": "_za_vc_global",
+		"idtag": "ZAVC",
+		"tag": "ZAVC",
+		"region": "za",
+		"carrier": ["vc"],
 		"zone": "2"
 	},
 	{
 		"code": "_lm_ms_global",
+		"idtag": "LMMS",
 		"tag": "LMMS",
 		"region": "lm",
 		"carrier": ["movistar"],
 		"zone": "2"
 	},
 	{
-		"code": "_eea_vf_global",
-		"tag": "EUTF",
-		"region": "eea",
-		"carrier": ["tf"],
+		"code": "_gt_tg_global",
+		"idtag": "GTTG",
+		"tag": "GTTG",
+		"region": "gt",
+		"carrier": ["tg"],
 		"zone": "2"
 	},
 	{
-		"code": "_th_as_global",
-		"tag": "THAS",
-		"region": "th",
-		"carrier": ["as"],
-		"zone": "2"
-	},
-	{
-		"code": "_ep_stdee",
-		"tag": "STDEE",
-		"region": "cn",
+		"code": "_id_global",
+		"idtag": "IDDM",
+		"tag": "IDDM",
+		"region": "id",
 		"carrier": [""],
-		"zone": "1"
-	},
-	{
-		"code": "_cl_en_global",
-		"tag": "LMCR",
-		"region": "lm",
-		"carrier": ["cr"],
-		"zone": "2"
-	},
-	{
-		"code": "_in_fk_global",
-		"tag": "INFK",
-		"region": "in",
-		"carrier": [""],
-		"zone": "2"
-	},
-	{
-		"code": "_kr_global",
-		"tag": "KRXM",
-		"region": "global",
-		"carrier": [""],
-		"zone": "2"
-	},
-		{
-		"code": "_kr_global",
-		"tag": "KRXM",
-		"region": "kr",
-		"carrier": [""],
-		"zone": "2"
-	},
-	{
-		"code": "_eea_global",
-		"tag": "EUHG",
-		"region": "eea",
-		"carrier": ["h3g"],
 		"zone": "2"
 	}
 ]
@@ -3675,15 +4000,25 @@ def db_job_latest(sql):
 		if cnx:
 			cnx.close()
 
+def query_device_by_code_or_branchcode(value):
+	"""在 devices 表中按 code 或 branchcode 查找（忽略大小写，任一列命中即可）
+
+	devices 表同时存有语义化 code（如 rothko_jp_sb_global）和 MIUI 风格
+	branchcode（如 ROTHKOJPSBGlobal），不同调用方传入的格式可能不同，
+	因此两列都尝试匹配。
+	"""
+	if not value:
+		return None
+	sql = ("SELECT code, device, tag, region, carrier, branchcode FROM devices "
+			"WHERE LOWER(code) = LOWER(%s) OR LOWER(branchcode) = LOWER(%s)") % (stringify(value), stringify(value))
+	return db_job_latest(sql)
+
 def getBranchcode(filename):
 	if filename.endswith(".zip"):
 		if filename.startswith("miui"):
 			branchCode = filename.split("_")[1]
-			get_sql = "SELECT code FROM devices WHERE branchcode = %s" % (stringify(branchCode))
-			if len(db_job(get_sql)) > 0:
-				return db_job(get_sql)[0][0]
-			else:
-				return 0
+			record = query_device_by_code_or_branchcode(branchCode)
+			return record[0] if record else 0
 		else:
 			return filename.split("-")[0]
 	elif filename.endswith(".tgz"):
@@ -3861,12 +4196,11 @@ def getData(filename):
 								return data[0], 'ADPG', data[2]
 						return data[0], data[1], data[2]
 				
-				# 回退到 devices 表查询
-				device_sql = "SELECT region, tag FROM devices WHERE code = %s" % stringify(code)
-				data = db_job_latest(device_sql)
+				# 回退到 devices 表查询（code 或 branchcode 任一命中）
+				device_row = query_device_by_code_or_branchcode(code)
 				
-				if data and len(data) == 2:
-						region, tag = data
+				if device_row:
+						region, tag = device_row[3], device_row[2]
 						if 'STABLE-DPP' in ver:
 								tag = 'ADPG'
 						zone = 1 if region == 'cn' else 2
@@ -3902,11 +4236,10 @@ def getData(filename):
 		
 		def handle_miui_branchcode(branchcode, version):
 				"""处理 MIUI branchcode，查询现有记录或创建设备记录"""
-				# 查询现有设备
-				query_sql = "SELECT code, device FROM devices WHERE branchcode = %s" % stringify(branchcode)
-				result = db_job_latest(query_sql)
+				# 查询现有设备：code 或 branchcode 任一命中即可
+				result = query_device_by_code_or_branchcode(branchcode)
 				
-				if result and len(result) == 2:
+				if result:
 						return {'code': result[0], 'device': result[1]}
 				
 				# 未找到，需要创建新记录
@@ -3978,12 +4311,10 @@ def getData(filename):
 				if result:
 						return result[0]
 				
-				# 从 devices 表查询
-				device_sql = "SELECT device FROM devices WHERE code = %s" % stringify(code)
-				result = db_job_latest(device_sql)
-				
-				if result:
-						return result[0]
+				# 从 devices 表查询（code 或 branchcode 任一命中）
+				device_row = query_device_by_code_or_branchcode(code)
+				if device_row:
+						return device_row[1]
 				
 				# 回退：从 code 推导设备名（取第一段），并在 devices 表中验证该设备存在
 				# 例如 dew_mx_tc_global -> dew，若 devices 表中存在 device='dew' 的记录则返回 dew
@@ -4206,6 +4537,35 @@ def load_branch_templates():
 	return _branch_templates
 
 
+def find_branch_spec(code, tag=None, region=None):
+	"""在 OScommon.branches（对应数据库 branches 表）中查找分支规格
+
+	数据库 tag -> idtag，数据库 vercode -> tag。
+	"""
+	code = code or ""
+	candidates = [b for b in branches if b.get("code") == code]
+	if tag:
+		for b in candidates:
+			if b.get("idtag") == tag:
+				return b
+		for b in candidates:
+			if b.get("tag") == tag:
+				return b
+		for b in branches:
+			if b.get("idtag") == tag:
+				return b
+		for b in branches:
+			if b.get("tag") == tag:
+				return b
+	if region:
+		matched = [b for b in candidates if b.get("region") == region]
+		if len(matched) == 1:
+			return matched[0]
+	if len(candidates) == 1:
+		return candidates[0]
+	return None
+
+
 def create_branch(devdata, device, code, tag=None, region=None, zone=None, branch='F'):
 	"""按 branchCode（可选 tag）自动创建分支，追加到 devdata['branches'] 并返回该分支。"""
 	# 从 branchCode 解析区域与运营商，格式: {device}_{region?}_{carrier?}_global
@@ -4225,12 +4585,17 @@ def create_branch(devdata, device, code, tag=None, region=None, zone=None, branc
 		else:
 			carrier = parts[0]
 
-	# 优先按 tag（数据库/版本号标识）匹配模板，其次按 region + carrier
+	# 按 OScommon.branches（数据库 branches 表）解析 idtag 与 tag
+	# 数据库 tag -> idtag，数据库 vercode -> tag
+	spec = find_branch_spec(code, tag, region)
+	branch_idtag = spec.get("idtag") if spec else (tag or "")
+
+	# 优先按 idtag 匹配模板，其次按 region + carrier
 	tpl = None
 	templates = load_branch_templates()
-	if tag:
+	if branch_idtag:
 		for t in templates:
-			if t.get("idtag") == tag:
+			if t.get("idtag") == branch_idtag:
 				tpl = t
 				break
 	if tpl is None and code_region:
@@ -4239,14 +4604,17 @@ def create_branch(devdata, device, code, tag=None, region=None, zone=None, branc
 				tpl = t
 				break
 
-	branch_region = region or (tpl.get("region") if tpl else None) or code_region or "global"
+	branch_tag = spec.get("tag") if spec else (tpl.get("tag") if tpl else "")
+
+	branch_region = region or (spec.get("region") if spec else None) or (tpl.get("region") if tpl else None) or code_region or "global"
 	if zone is not None:
 		branch_zone = zone
+	elif spec and spec.get("zone"):
+		branch_zone = spec["zone"]
 	elif tpl and tpl.get("zone"):
 		branch_zone = tpl["zone"]
 	else:
 		branch_zone = "1" if branch_region == "cn" else "2"
-	branch_tag = tag or (tpl.get("tag") if tpl else "")
 
 	device_name_zh = devdata.get("name", {}).get("zh", device)
 	device_name_en = devdata.get("name", {}).get("en", device)
@@ -4288,7 +4656,7 @@ def create_branch(devdata, device, code, tag=None, region=None, zone=None, branc
 			"zh": device_name_zh,
 			"en": device_name_en
 		},
-		"idtag": branch_tag,
+		"idtag": branch_idtag,
 		"tag": branch_tag,
 		"branchtag": branch,
 		"table": table,
@@ -4301,7 +4669,7 @@ def create_branch(devdata, device, code, tag=None, region=None, zone=None, branc
 	}
 
 	devdata.setdefault("branches", []).append(new_branch)
-	print(f"自动创建新分支: {code} (tag={branch_tag}, region={branch_region}, carrier={carrier})")
+	print(f"自动创建新分支: {code} (idtag={branch_idtag}, tag={branch_tag}, region={branch_region}, carrier={carrier})")
 	return new_branch
 
 

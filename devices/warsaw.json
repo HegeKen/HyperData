@@ -118,6 +118,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.6.0.XHPCNXM": {
+					"os": "OS4.0.6.0.XHPCNXM",
+					"android": "17.0",
+					"release": "2026-10-31",
+					"aspatch": "2026-09-01",
+					"recovery": "warsaw-ota_full-OS4.0.6.0.XHPCNXM-user-17.0-220d1ce4e3.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS4.0.4.0.XHPCNXM": {
 					"os": "OS4.0.4.0.XHPCNXM",
 					"android": "17.0",
@@ -213,7 +222,7 @@
 				"en": "REDMI K90 Ultra"
 			},
 			"idtag": "CnOD",
-			"tag": "CnOD",
+			"tag": "CNDM",
 			"branchtag": "F",
 			"table": [
 				"os",
