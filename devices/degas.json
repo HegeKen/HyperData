@@ -1519,7 +1519,7 @@
 					"release": "2026-10-26",
 					"aspatch": "2026-10-01",
 					"recovery": "degas_lm_cr_global-ota_full-OS3.0.303.0.WNELMCR-user-16.0-534674a64f.zip",
-					"fastboot": ""
+					"fastboot": "degas_lm_cr_global_images_OS3.0.303.0.WNELMCR_20261010.0000.00_16.0_lm_cr_7661d44124.tgz"
 				},
 				"OS3.0.302.0.WNELMCR": {
 					"os": "OS3.0.302.0.WNELMCR",
@@ -1735,6 +1735,14 @@
 					"release": "2025-03-08",
 					"aspatch": "2025-02-01",
 					"recovery": "miui_DEGASMXTCGlobal_OS1.0.10.0.UNEMXTC_545a402a99_14.0.zip",
+					"fastboot": ""
+				},
+				"OS1.0.6.0.UNEMXTC": {
+					"os": "OS1.0.6.0.UNEMXTC",
+					"android": "14.0",
+					"release": "2024-12-16",
+					"aspatch": "2024-12-01",
+					"recovery": "miui_DEGASMXTCGlobal_OS1.0.6.0.UNEMXTC_6afa989ef7_14.0.zip",
 					"fastboot": ""
 				}
 			}

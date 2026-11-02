@@ -2495,6 +2495,7 @@ flags = {
 	"viva_global": "viva",
 	"viva_global": "viva",
 	"light_in_global": "light",
+	"OBSIDIANMXTCGlobal": "obsidian",
 	"LIGHTINGlobal": "light",
 	"light_tw_global": "light",
 	"LIGHTTWGlobal": "light",
@@ -4461,6 +4462,8 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 					others.append(filename)
 					update_sql = f"UPDATE roms SET others = '{json.dumps(others)}' WHERE id = %s" % (stringify(data[0]))
 					db_job_latest(update_sql)
+			# 写入后主动检查完整度并补录（只补空字段，失败不影响主流程）
+			supplement_rom_info(data[0])
 		else:
 			print(filename)
 	else:
@@ -4483,6 +4486,168 @@ def checkDatabase(device, code, android, version, rom_type, bigver, region,tag,z
 				pass
 			ins_sql = f"INSERT INTO roms (zone,device,code,android,version,type,bigver,region,tag,branch,{checkpoint},release_date,beta_date,insdate, aspatch) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" % (stringify(zone), stringify(device), stringify(code), stringify(android), stringify(version), stringify(rom_type), stringify(bigver), stringify(region), stringify(tag), stringify(branch), stringify(filename), release_date, beta_date, insdate, aspatch)
 		db_job_latest(ins_sql)
+		new_row = db_job_latest(
+			f"SELECT id FROM roms WHERE code = %s AND version = %s ORDER BY id DESC LIMIT 1"
+			% (stringify(code), stringify(version)))
+		if new_row:
+			supplement_rom_info(new_row[0])
+
+
+# ==================== 写入后完整性检查与补录 ====================
+
+# Fastboot 全量包查询接口（与 getCurrentFastboot.py 一致）
+FASTBOOT_API = "https://update.intl.miui.com/updates/miota-fullrom.php?d="
+
+
+def _blank(value):
+	"""空值判断：None / 空串 / 空 JSON 数组 / 字面量 null"""
+	if value is None:
+		return True
+	text = str(value).strip()
+	return text in ("", "[]") or text.lower() == "null"
+
+
+def _head_date(url, timeout=10):
+	"""HEAD 请求取文件最后修改日期（+8 小时），失败返回空串
+
+	不能用 get_time()：它在失败时会回落成今天，补录时会把错误的日期写进库。
+	"""
+	try:
+		response = requests.head(url, allow_redirects=True, timeout=timeout)
+		last_modified = response.headers.get('Last-Modified')
+		if not last_modified:
+			return ""
+		return (datetime.strptime(last_modified, "%a, %d %b %Y %H:%M:%S %Z")
+				+ timedelta(hours=8)).strftime("%Y-%m-%d")
+	except (requests.RequestException, ValueError):
+		return ""
+
+
+def _supplement_changelog_form(device, code, region, branch, zone, android, version):
+	"""构造补录用的 OTA 表单（参数与更新日志脚本一致，按区域只取一个语种）"""
+	form = json.loads(OTAFormer(device, code, region, branch, zone, android, version))
+	form['p'] = device or code
+	form['l'] = 'zh_CN' if region == 'cn' else 'en_US'
+	form['ov'] = form.get('v', version)
+	form['options'] = dict(form.get('options') or {})
+	form['options']['cv'] = form.get('v', version)
+	return form
+
+
+def _supplement_fastboot(code, branch, region, version):
+	"""请求 Fastboot 全量包接口，返回与当前 version 匹配的包名（无匹配返回空串）"""
+	url = (FASTBOOT_API + str(code or '') + "&b=" + str(branch or 'F')
+		   + "&r=" + str(region or 'cn') + "&n=")
+	headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+			   'Connection': 'close'}
+	try:
+		response = requests.post(url, headers=headers, timeout=(5, 10))
+		if response.status_code != 200:
+			return ""
+		data = json.loads(response.content.decode('utf8') or '{}')
+	except (requests.RequestException, ValueError):
+		return ""
+	roms = data.get('LatestFullRom')
+	if isinstance(roms, dict):
+		roms = [roms]
+	if not isinstance(roms, list):
+		return ""
+	for rom in roms:
+		filename = (rom or {}).get('filename') or ''
+		if filename and version and version in filename:
+			return filename
+	return ""
+
+
+def supplement_rom_info(rom_id):
+	"""写入后完整性检查：补录 exporter 会导出的缺失信息
+
+	只补空字段，不覆盖已有值；任一步失败都只打印，不影响主写入流程。
+	补录项：logs / recovery / fastboot / aspatch / beta_date / public_date /
+	release_date / insdate，有改动时同步 update_date。
+	"""
+	if not rom_id:
+		return
+	try:
+		row = DatabaseManager.query_one(
+			"SELECT device, code, region, branch, android, version, zone, "
+			"recovery, fastboot, beta_date, release_date, public_date, insdate, logs, aspatch "
+			"FROM roms WHERE id = %s", params=(rom_id,))
+	except Exception as exc:
+		print(f"[补录] 读取 id={rom_id} 失败：{type(exc).__name__}: {exc}")
+		return
+	if not row:
+		return
+
+	(device, code, region, branch, android, version, zone, recovery, fastboot,
+	 beta_date, release_date, public_date, insdate, logs, aspatch) = row
+	updates = {}
+
+	# 1. 更新日志 + 卡刷包：接口一次返回，能补则一起补
+	need_recovery = _blank(recovery)
+	need_logs = _blank(logs)
+	if need_recovery or need_logs:
+		changelog = ""
+		try:
+			form = _supplement_changelog_form(device, code, region, branch, zone, android, version)
+			result = getChangelog2DB(miui_encrypt(json.dumps(form)), device, version) or {}
+			changelog = result.get('changelog') or ""
+			latest_recovery = (result.get('recovery') or '').split('?')[0]
+			if need_recovery and latest_recovery and version and version in latest_recovery:
+				recovery = latest_recovery
+				updates['recovery'] = recovery
+		except Exception as exc:
+			print(f"[补录] id={rom_id} 更新日志请求失败：{type(exc).__name__}: {exc}")
+		if need_logs and changelog:
+			try:
+				column = 'logs_zh' if region == 'cn' else 'logs_en'
+				updates['logs'] = LogStore.write_logs({column: json.loads(changelog)})
+			except Exception as exc:
+				print(f"[补录] id={rom_id} 日志入库失败：{type(exc).__name__}: {exc}")
+
+	# 2. 线刷包
+	if _blank(fastboot):
+		filename = _supplement_fastboot(code, branch, region, version)
+		if filename:
+			fastboot = filename
+			updates['fastboot'] = filename
+
+	# 3. 安全补丁
+	if _blank(aspatch) and not _blank(recovery):
+		try:
+			asp = get_security_patch_from_ota_url(
+				form_url(recovery, version), 'recovery', timeout=30)
+			if asp:
+				updates['aspatch'] = asp
+		except Exception as exc:
+			print(f"[补录] id={rom_id} 安全补丁获取失败：{type(exc).__name__}: {exc}")
+
+	# 4. 各类日期（只补空值）
+	if _blank(beta_date) and not _blank(recovery):
+		value = _head_date(form_url(recovery, version))
+		if value:
+			updates['beta_date'] = value
+	if _blank(public_date) and not _blank(fastboot):
+		value = _head_date(form_url(fastboot, version))
+		if value:
+			updates['public_date'] = value
+	today = date.today().strftime("%Y-%m-%d")
+	if _blank(insdate):
+		updates['insdate'] = today
+	if _blank(release_date):
+		updates['release_date'] = today
+
+	if not updates:
+		return
+	updates['update_date'] = int(datetime.now().timestamp())
+	assignments = ', '.join(f"{column} = %s" for column in updates)
+	try:
+		DatabaseManager.execute(
+			f"UPDATE roms SET {assignments} WHERE id = %s",
+			params=tuple(updates.values()) + (rom_id,), raise_on_error=True)
+		print(f"[补录] id={rom_id} 已补充：{', '.join(updates)}")
+	except Exception as exc:
+		print(f"[补录] id={rom_id} 写库失败：{type(exc).__name__}: {exc}")
 
 
 
