@@ -1,8 +1,76 @@
 {
   "recent": {
-    "time": "2026-11-03 20:42:13",
+    "time": "2026-11-04 06:56:22",
     "developing": "no",
     "roms": {
+      "dew": {
+        "name": {
+          "zh": "REDMI 15C / POCO C85",
+          "en": "REDMI 15C / POCO C85"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-04",
+            "version": "OS3.0.302.0.WBNLMCR"
+          },
+          {
+            "insert_date": "2026-10-29",
+            "version": "OS2.0.207.0.VBNMXTC"
+          }
+        ]
+      },
+      "goya": {
+        "name": {
+          "zh": "小米 15T",
+          "en": "Xiaomi 15T"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-04",
+            "version": "OS3.0.303.0.WOERUXM"
+          },
+          {
+            "insert_date": "2026-11-04",
+            "version": "OS3.0.303.0.WOEIDXM"
+          },
+          {
+            "insert_date": "2026-11-02",
+            "version": "OS3.0.305.0.WOEMXAT"
+          },
+          {
+            "insert_date": "2026-11-01",
+            "version": "OS2.0.200.0.VOEMIDM"
+          },
+          {
+            "insert_date": "2026-10-29",
+            "version": "OS2.0.203.0.VOEMXTC"
+          },
+          {
+            "insert_date": "2026-10-29",
+            "version": "OS3.0.302.0.WOEMXTC"
+          }
+        ]
+      },
+      "kunzite": {
+        "name": {
+          "zh": "REDMI Note 15 5G",
+          "en": "REDMI Note 15 5G"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-04",
+            "version": "OS3.0.302.0.WPQLMCR"
+          },
+          {
+            "insert_date": "2026-11-02",
+            "version": "OS3.0.302.0.WPQTWXM"
+          },
+          {
+            "insert_date": "2026-11-02",
+            "version": "OS3.0.305.0.WPQINXM"
+          }
+        ]
+      },
       "brussels": {
         "name": {
           "zh": "REDMI Note 17 Pro Max",
@@ -203,6 +271,18 @@
           }
         ]
       },
+      "madrid": {
+        "name": {
+          "zh": "小米 18 Pro Max",
+          "en": "Xiaomi 18 Pro Max"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-03",
+            "version": "OS4.0.29.0.XEOCNXM"
+          }
+        ]
+      },
       "rodin": {
         "name": {
           "zh": "REDMI Turbo 4 / POCO X7 Pro",
@@ -279,30 +359,6 @@
           }
         ]
       },
-      "goya": {
-        "name": {
-          "zh": "小米 15T",
-          "en": "Xiaomi 15T"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-11-02",
-            "version": "OS3.0.305.0.WOEMXAT"
-          },
-          {
-            "insert_date": "2026-11-01",
-            "version": "OS2.0.200.0.VOEMIDM"
-          },
-          {
-            "insert_date": "2026-10-29",
-            "version": "OS2.0.203.0.VOEMXTC"
-          },
-          {
-            "insert_date": "2026-10-29",
-            "version": "OS3.0.302.0.WOEMXTC"
-          }
-        ]
-      },
       "klimt": {
         "name": {
           "zh": "小米 15T Pro",
@@ -319,22 +375,6 @@
           }
         ]
       },
-      "kunzite": {
-        "name": {
-          "zh": "REDMI Note 15 5G",
-          "en": "REDMI Note 15 5G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-11-02",
-            "version": "OS3.0.302.0.WPQTWXM"
-          },
-          {
-            "insert_date": "2026-11-02",
-            "version": "OS3.0.305.0.WPQINXM"
-          }
-        ]
-      },
       "taiko": {
         "name": {
           "zh": "REDMI 平板 2",
@@ -348,10 +388,6 @@
           {
             "insert_date": "2026-11-02",
             "version": "OS3.0.303.0.WOVTRXM"
-          },
-          {
-            "insert_date": "2026-10-28",
-            "version": "OS3.0.308.0.WOVCNXM"
           }
         ]
       },
@@ -776,10 +812,6 @@
           {
             "insert_date": "2026-10-29",
             "version": "OS3.0.4.0.WNNMXTC"
-          },
-          {
-            "insert_date": "2026-10-28",
-            "version": "OS3.0.302.0.WNNLMCR"
           }
         ]
       },
@@ -847,18 +879,6 @@
           }
         ]
       },
-      "dew": {
-        "name": {
-          "zh": "REDMI 15C / POCO C85",
-          "en": "REDMI 15C / POCO C85"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-29",
-            "version": "OS2.0.207.0.VBNMXTC"
-          }
-        ]
-      },
       "spinel": {
         "name": {
           "zh": "REDMI Note 15 4G",
@@ -884,18 +904,6 @@
           {
             "insert_date": "2026-10-29",
             "version": "OS3.0.3.0.WOUJPSB"
-          }
-        ]
-      },
-      "air": {
-        "name": {
-          "zh": "Redmi 13C/R 5G / POCO M6 5G",
-          "en": "Redmi 13C/R 5G / POCO M6 5G"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-10-28",
-            "version": "OS2.0.205.0.VGQLMCR"
           }
         ]
       }
