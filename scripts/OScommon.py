@@ -1,5 +1,6 @@
 import json
 from sys import platform
+import time
 import base64
 import binascii
 from Crypto.Cipher import AES
@@ -171,6 +172,9 @@ def android(ver):
 miui_key = b"miuiotavalided11"
 miui_iv = b"0102030405060708"
 check_url = "https://update.miui.com/updates/miotaV3.php"
+# 更新日志接口的请求重试次数与超时（连接, 读取）
+CHANGELOG_RETRY = 3
+CHANGELOG_TIMEOUT = (10, 30)
 
 
 unreleased = ['yanan', 'warsaw_y', 'moscow', 'brussels', 'chicago', 'pond', 'suiren', 'zephyr', 'coral']
@@ -5546,7 +5550,22 @@ def getChangelog2DB(encrypted_data, device, version):
 				 "Cookie": "serviceToken=;"
 				 }
 	data = "q=" + encrypted_data + "&s=1&t="
-	response = requests.post(check_url, headers=headers, data=data, timeout=(5, 10))
+	# 网络抖动时接口会读超时，重试几次；仍失败则返回 None，由调用方计入 failed 继续下一条，
+	# 避免单次超时中断整个批量任务
+	response: requests.Response | None = None
+	for attempt in range(CHANGELOG_RETRY):
+		try:
+			response = requests.post(check_url, headers=headers, data=data, timeout=CHANGELOG_TIMEOUT)
+			break
+		except requests.exceptions.RequestException as exc:
+			if attempt == CHANGELOG_RETRY - 1:
+				print(f"\n请求更新日志失败（{device} {version}）：{type(exc).__name__}: {exc}")
+				return None
+			time.sleep(1.5 * (attempt + 1))
+
+	if response is None:
+		return None
+
 	if "'code'" in response.text:
 		print(json.loads(response.text)["desc"])
 		response.close()
