@@ -7,11 +7,13 @@
 	"code": "AO",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
 		"15.0",
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -109,6 +111,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.3.0.XAOCNXM": {
+					"os": "OS4.0.3.0.XAOCNXM",
+					"android": "17.0",
+					"release": "2026-11-11",
+					"aspatch": "2026-10-01",
+					"recovery": "turner-ota_full-OS4.0.3.0.XAOCNXM-user-17.0-fef22c703e.zip",
+					"fastboot": ""
+				},
 				"OS3.0.310.0.WAOCNXM": {
 					"os": "OS3.0.310.0.WAOCNXM",
 					"android": "16.0",

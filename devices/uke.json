@@ -7,11 +7,13 @@
 	"code": "OZ",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
 		"15.0",
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -125,6 +127,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.4.0.XOZCNXM": {
+					"os": "OS4.0.4.0.XOZCNXM",
+					"android": "17.0",
+					"release": "2026-11-11",
+					"aspatch": "2026-10-01",
+					"recovery": "uke-ota_full-OS4.0.4.0.XOZCNXM-user-17.0-0f9e60cb21.zip",
+					"fastboot": ""
+				},
 				"OS3.0.306.0.WOZCNXM": {
 					"os": "OS3.0.306.0.WOZCNXM",
 					"android": "16.0",

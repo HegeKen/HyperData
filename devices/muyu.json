@@ -7,11 +7,13 @@
 	"code": "OY",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
 		"15.0",
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "tablet",
 	"miui": "no",
@@ -141,6 +143,14 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.3.0.XOYCNXM": {
+					"os": "OS4.0.3.0.XOYCNXM",
+					"android": "17.0",
+					"release": "2026-11-11",
+					"aspatch": "2026-10-01",
+					"recovery": "muyu-ota_full-OS4.0.3.0.XOYCNXM-user-17.0-dc91ad6cc2.zip",
+					"fastboot": ""
+				},
 				"OS3.0.307.0.WOYCNXM": {
 					"os": "OS3.0.307.0.WOYCNXM",
 					"android": "16.0",
