@@ -9,7 +9,8 @@
 		"A15.0"
 	],
 	"android": [
-		"15.0"
+		"15.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -49,6 +50,14 @@
 				"serenity_global-images-A15.0.13.0.VGWMIXM-userroot-20250916.0000.00-15.0-global-1aaacf437d.tgz"
 			],
 			"roms": {
+				"A17.0.4.0.XGWMIXM": {
+					"os": "A17.0.4.0.XGWMIXM",
+					"android": "17.0",
+					"release": "2026-11-16",
+					"aspatch": "",
+					"recovery": "",
+					"fastboot": "serenity_global-images-A17.0.4.0.XGWMIXM-user-20261107.0000.00-17.0-global-d87e02eb1d.tgz"
+				},
 				"A15.0.33.0.VGWMIXM": {
 					"os": "A15.0.33.0.VGWMIXM",
 					"android": "15.0",
