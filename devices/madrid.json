@@ -444,6 +444,46 @@
 					"fastboot": "madrid_jp_global_images_OS4.0.3.0.XEOJPXM_20261103.0000.00_17.0_jp_32e5b93efd.tgz"
 				}
 			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际正式版",
+				"en": "Xiaomi HyperOS Global Stable"
+			},
+			"branchCode": "madrid_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro Max",
+				"en": "Xiaomi 18 Pro Max"
+			},
+			"idtag": "GBOO",
+			"tag": "MIXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.5.0.XEOMIXM": {
+					"os": "OS4.0.5.0.XEOMIXM",
+					"android": "17.0",
+					"release": "2026-11-18",
+					"aspatch": "2026-10-01",
+					"recovery": "madrid_global-ota_full-OS4.0.5.0.XEOMIXM-user-17.0-06a71dcf35.zip",
+					"fastboot": "madrid_global_images_OS4.0.5.0.XEOMIXM_20261113.0000.00_17.0_global_c6a61879f4.tgz"
+				}
+			}
 		}
 	]
 }

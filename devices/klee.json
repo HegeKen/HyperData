@@ -57,8 +57,8 @@
 					"release": "2026-11-10",
 					"aspatch": "2026-10-01",
 					"recovery": "klee-ota_full-OS4.0.5.0.XPJCNXM-user-17.0-5103ad11af.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "klee_images_OS4.0.5.0.XPJCNXM_20261106.0000.00_17.0_cn_ff1748e9e3.tgz",
+					"ctelecom": "klee_images_OS4.0.5.0.XPJCNXM_20261106.0000.00_17.0_cn_chinatelecom_ae367d4c08.tgz"
 				},
 				"OS4.0.3.0.XPJCNXM": {
 					"os": "OS4.0.3.0.XPJCNXM",
@@ -430,6 +430,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.7.0.XPJEUXM": {
+					"os": "OS4.0.7.0.XPJEUXM",
+					"android": "17.0",
+					"release": "2026-11-15",
+					"aspatch": "2026-10-01",
+					"recovery": "klee_eea_global-ota_full-OS4.0.7.0.XPJEUXM-user-17.0-ba76c0cfd8.zip",
+					"fastboot": ""
+				},
 				"OS3.0.304.0.WPJEUXM": {
 					"os": "OS3.0.304.0.WPJEUXM",
 					"android": "16.0",

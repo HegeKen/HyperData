@@ -3047,6 +3047,8 @@ flags = {
 	"madrid_eea_global": "madrid",
 	"madrid_id_global": "madrid",
 	"madrid_jp_global": "madrid",
+	"madrid_global": "madrid",
+	"hongkong_global": "hongkong",
 }
 
 
@@ -4264,6 +4266,10 @@ def getData(filename):
 								region = 'global'
 						else:
 								region = rest[0]
+				elif len(rest) == 0:
+						# 纯全局版 code（如 madrid_global / hongkong_global）：
+						# 去掉 device 与尾部 global 后已无剩余段，region 即为 global
+						region = 'global'
 				
 				# 从版本号提取 tag（最后4位），例如 VBNMXTC -> MXTC
 				tag = None
