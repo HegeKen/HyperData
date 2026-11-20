@@ -3037,7 +3037,16 @@ flags = {
 	"EMERALDRRUGlobal":"emerald_r",
 	"serenity_id_global":"serenity",
 	"SERENITYIDGlobal":"serenity",
-	"emerald_r_ru_global":"emerald_r"
+	"emerald_r_ru_global":"emerald_r",
+	"hongkong_tw_global": "hongkong",
+	"hongkong_eea_global": "hongkong",
+	"hongkong_ru_global": "hongkong",
+	"hongkong_id_global": "hongkong",
+	"hongkong_jp_global": "hongkong",
+	"madrid_tw_global": "madrid",
+	"madrid_eea_global": "madrid",
+	"madrid_id_global": "madrid",
+	"madrid_jp_global": "madrid",
 }
 
 
