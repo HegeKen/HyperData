@@ -49,6 +49,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.31.0.XFRCNXM": {
+					"os": "OS4.0.31.0.XFRCNXM",
+					"android": "17.0",
+					"release": "2026-11-18",
+					"aspatch": "2026-09-01",
+					"recovery": "hongkong-ota_full-OS4.0.31.0.XFRCNXM-user-17.0-08364e8b64.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS4.0.30.0.XFRCNXM": {
 					"os": "OS4.0.30.0.XFRCNXM",
 					"android": "17.0",
@@ -246,6 +255,214 @@
 					"recovery": "hongkong_demo-ota_full-OS4.0.4.0.XFRCNDM-user-17.0-d893b01642.zip",
 					"fastboot": "hongkong_demo_images_OS4.0.4.0.XFRCNDM_20260921.0000.00_17.0_cn_045ed3e966.tgz",
 					"ctelecom": "hongkong_demo_images_OS4.0.4.0.XFRCNDM_20260921.0000.00_17.0_cn_chinatelecom_2f1dadd15a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "hongkong_tw_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.1.0.XFRTWXM": {
+					"os": "OS4.0.1.0.XFRTWXM",
+					"android": "17.0",
+					"release": "2026-11-18",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_tw_global-ota_full-OS4.0.1.0.XFRTWXM-user-17.0-1e2302053d.zip",
+					"fastboot": "hongkong_tw_global_images_OS4.0.1.0.XFRTWXM_20261029.0000.00_17.0_tw_0df29c4d1a.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "hongkong_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.7.0.XFREUXM": {
+					"os": "OS4.0.7.0.XFREUXM",
+					"android": "17.0",
+					"release": "2026-11-17",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_eea_global-ota_full-OS4.0.7.0.XFREUXM-user-17.0-7c4f691bd4.zip",
+					"fastboot": "hongkong_eea_global_images_OS4.0.7.0.XFREUXM_20261113.0000.00_17.0_eea_c01ca31d5d.tgz"
+				},
+				"OS4.0.3.0.XFREUXM": {
+					"os": "OS4.0.3.0.XFREUXM",
+					"android": "17.0",
+					"release": "2026-10-19",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_eea_global-ota_full-OS4.0.3.0.XFREUXM-user-17.0-0df5e87ac1.zip",
+					"fastboot": ""
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 俄罗斯正式版",
+				"en": "Xiaomi HyperOS Russia Stable"
+			},
+			"branchCode": "hongkong_ru_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "RUSO",
+			"tag": "RUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "ru",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.1.0.XFRRUXM": {
+					"os": "OS4.0.1.0.XFRRUXM",
+					"android": "17.0",
+					"release": "2026-11-17",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_ru_global-ota_full-OS4.0.1.0.XFRRUXM-user-17.0-36f3665492.zip",
+					"fastboot": "hongkong_ru_global_images_OS4.0.1.0.XFRRUXM_20261027.0000.00_17.0_ru_bc5b8c59a6.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "hongkong_id_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.2.0.XFRIDXM": {
+					"os": "OS4.0.2.0.XFRIDXM",
+					"android": "17.0",
+					"release": "2026-11-17",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_id_global-ota_full-OS4.0.2.0.XFRIDXM-user-17.0-a8a0e02619.zip",
+					"fastboot": "hongkong_id_global_images_OS4.0.2.0.XFRIDXM_20261109.0000.00_17.0_id_88dce46701.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "hongkong_jp_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "JAPS",
+			"tag": "JPXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.3.0.XFRJPXM": {
+					"os": "OS4.0.3.0.XFRJPXM",
+					"android": "17.0",
+					"release": "2026-11-10",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_jp_global-ota_full-OS4.0.3.0.XFRJPXM-user-17.0-74f36146c7.zip",
+					"fastboot": "hongkong_jp_global_images_OS4.0.3.0.XFRJPXM_20261104.0000.00_17.0_jp_45743d145f.tgz"
 				}
 			}
 		}

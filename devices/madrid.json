@@ -49,6 +49,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.31.0.XEOCNXM": {
+					"os": "OS4.0.31.0.XEOCNXM",
+					"android": "17.0",
+					"release": "2026-11-18",
+					"aspatch": "2026-09-01",
+					"recovery": "madrid-ota_full-OS4.0.31.0.XEOCNXM-user-17.0-f68143ee30.zip",
+					"fastboot": "",
+					"ctelecom": ""
+				},
 				"OS4.0.30.0.XEOCNXM": {
 					"os": "OS4.0.30.0.XEOCNXM",
 					"android": "17.0",
@@ -273,6 +282,166 @@
 					"recovery": "madrid_demo-ota_full-OS4.0.4.0.XEOCNDM-user-17.0-85e427ee0b.zip",
 					"fastboot": "madrid_demo_images_OS4.0.4.0.XEOCNDM_20260921.0000.00_17.0_cn_8505879000.tgz",
 					"ctelecom": "madrid_demo_images_OS4.0.4.0.XEOCNDM_20260921.0000.00_17.0_cn_chinatelecom_3473887397.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 中国台湾省正式版",
+				"en": "Xiaomi HyperOS China Taiwan Province Stable"
+			},
+			"branchCode": "madrid_tw_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro Max",
+				"en": "Xiaomi 18 Pro Max"
+			},
+			"idtag": "CNTP",
+			"tag": "TWXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tw",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.1.0.XEOTWXM": {
+					"os": "OS4.0.1.0.XEOTWXM",
+					"android": "17.0",
+					"release": "2026-11-18",
+					"aspatch": "2026-10-01",
+					"recovery": "madrid_tw_global-ota_full-OS4.0.1.0.XEOTWXM-user-17.0-0ace638a57.zip",
+					"fastboot": "madrid_tw_global_images_OS4.0.1.0.XEOTWXM_20261029.0000.00_17.0_tw_f1733c66a0.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 欧洲EEA正式版",
+				"en": "Xiaomi HyperOS Europe EEA Stable"
+			},
+			"branchCode": "madrid_eea_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro Max",
+				"en": "Xiaomi 18 Pro Max"
+			},
+			"idtag": "EEAO",
+			"tag": "EUXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "eea",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.7.0.XEOEUXM": {
+					"os": "OS4.0.7.0.XEOEUXM",
+					"android": "17.0",
+					"release": "2026-11-17",
+					"aspatch": "2026-10-01",
+					"recovery": "madrid_eea_global-ota_full-OS4.0.7.0.XEOEUXM-user-17.0-8331dcdb80.zip",
+					"fastboot": "madrid_eea_global_images_OS4.0.7.0.XEOEUXM_20261113.0000.00_17.0_eea_7e308ad110.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 印度尼西亚正式版",
+				"en": "Xiaomi HyperOS Indonesia Stable"
+			},
+			"branchCode": "madrid_id_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro Max",
+				"en": "Xiaomi 18 Pro Max"
+			},
+			"idtag": "IDSO",
+			"tag": "IDXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "id",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.2.0.XEOIDXM": {
+					"os": "OS4.0.2.0.XEOIDXM",
+					"android": "17.0",
+					"release": "2026-11-18",
+					"aspatch": "2026-10-01",
+					"recovery": "madrid_id_global-ota_full-OS4.0.2.0.XEOIDXM-user-17.0-e1653a8035.zip",
+					"fastboot": "madrid_id_global_images_OS4.0.2.0.XEOIDXM_20261109.0000.00_17.0_id_010c2d3a1e.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 日本正式版",
+				"en": "Xiaomi HyperOS Japan Stable"
+			},
+			"branchCode": "madrid_jp_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro Max",
+				"en": "Xiaomi 18 Pro Max"
+			},
+			"idtag": "JAPS",
+			"tag": "JPXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "jp",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.3.0.XEOJPXM": {
+					"os": "OS4.0.3.0.XEOJPXM",
+					"android": "17.0",
+					"release": "2026-11-10",
+					"aspatch": "2026-10-01",
+					"recovery": "madrid_jp_global-ota_full-OS4.0.3.0.XEOJPXM-user-17.0-f2d1ff9895.zip",
+					"fastboot": "madrid_jp_global_images_OS4.0.3.0.XEOJPXM_20261103.0000.00_17.0_jp_32e5b93efd.tgz"
 				}
 			}
 		}

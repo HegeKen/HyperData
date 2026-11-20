@@ -4018,6 +4018,35 @@ def query_device_by_code_or_branchcode(value):
 			"WHERE LOWER(code) = LOWER(%s) OR LOWER(branchcode) = LOWER(%s)") % (stringify(value), stringify(value))
 	return db_job_latest(sql)
 
+def sync_device_branch_record(device, code, tag, region, carrier, version=None):
+	"""新分支写入 JSON 后，同步插入 devices 表的机型分支记录（已存在则跳过）
+
+	devices 表的 tag 存 idtag（如 CNTP），devcode 存版本号后 6 位（如 FRTWXM），
+	carrier 存运营商列表，branchcode 与语义化 code 保持一致。
+	"""
+	if not device or not code:
+		return
+	exists_sql = ("SELECT id FROM devices WHERE LOWER(device) = LOWER(%s) AND LOWER(code) = LOWER(%s) LIMIT 1"
+				  % (stringify(device), stringify(code)))
+	if db_job_latest(exists_sql):
+		return
+	devtag_row = db_job_latest("SELECT devtag FROM devices WHERE device = %s ORDER BY id ASC LIMIT 1"
+							   % stringify(device))
+	devtag = devtag_row[0] if devtag_row else None
+	devcode = version[-6:] if version and len(version) >= 6 else None
+	# str(list) 含单引号，需按 SQL 规则转义，否则空运营商会丢引号
+	carrier_value = str(carrier).replace("'", "''") if carrier else None
+
+	def _val(value):
+		return "NULL" if value is None or value == "" else stringify(value)
+
+	ins_sql = ("INSERT INTO devices (device, devtag, code, tag, region, devcode, carrier, branchcode) "
+			   "VALUES (%s,%s,%s,%s,%s,%s,%s,%s)" % (
+				   _val(device), _val(devtag), _val(code), _val(tag), _val(region),
+				   _val(devcode), _val(carrier_value), _val(code)))
+	db_job_latest(ins_sql)
+	print(f"已同步 devices 表: {device} - {code}")
+
 def getBranchcode(filename):
 	if filename.endswith(".zip"):
 		if filename.startswith("miui"):
@@ -4982,6 +5011,9 @@ def add_rom_to_json(device, code, android, version, filetype, filename, devdata=
 									  region=region, zone=zone, branch=branch)
 		target_branch_idx = len(devdata["branches"]) - 1
 		match_method = f"auto-created branch: {code}"
+		# 自动创建分支后同步写入 devices 表，避免机型分支信息缺失
+		sync_device_branch_record(device, code, target_branch.get("idtag"),
+								  target_branch.get("region"), target_branch.get("carrier"), version)
 
 	# 处理 ROM 数据
 	if "roms" not in target_branch:
