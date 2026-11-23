@@ -7,11 +7,13 @@
 	"code": "PP",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
 		"15.0",
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -351,6 +353,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.11.0.XPPMIXM": {
+					"os": "OS4.0.11.0.XPPMIXM",
+					"android": "17.0",
+					"release": "2026-11-20",
+					"aspatch": "2026-10-01",
+					"recovery": "lapis_global-ota_full-OS4.0.11.0.XPPMIXM-user-17.0-0559620a38.zip",
+					"fastboot": ""
+				},
 				"OS3.0.309.0.WPPMIXM": {
 					"os": "OS3.0.309.0.WPPMIXM",
 					"android": "16.0",

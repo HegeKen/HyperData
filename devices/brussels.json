@@ -6,10 +6,12 @@
 	},
 	"code": "DR",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -109,6 +111,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.8.0.XDRMIXM": {
+					"os": "OS4.0.8.0.XDRMIXM",
+					"android": "17.0",
+					"release": "2026-11-20",
+					"aspatch": "2026-11-01",
+					"recovery": "brussels_global-ota_full-OS4.0.8.0.XDRMIXM-user-17.0-6e9180ab0e.zip",
+					"fastboot": ""
+				},
 				"OS3.0.311.0.WDRMIXM": {
 					"os": "OS3.0.311.0.WDRMIXM",
 					"android": "16.0",

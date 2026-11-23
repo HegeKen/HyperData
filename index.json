@@ -1,6 +1,6 @@
 {
   "recent": {
-    "time": "2026-11-23 13:01:32",
+    "time": "2026-11-23 15:56:14",
     "developing": "no",
     "roms": {
       "iolite": {
@@ -54,6 +54,10 @@
             "version": "OS3.0.303.0.WBNIDXM"
           },
           {
+            "insert_date": "2026-11-23",
+            "version": "OS4.0.8.0.XBNMIXM"
+          },
+          {
             "insert_date": "2026-11-20",
             "version": "OS3.0.302.0.WBNTRXM"
           }
@@ -84,6 +88,10 @@
           {
             "insert_date": "2026-11-23",
             "version": "OS3.0.305.0.WPPEUXM"
+          },
+          {
+            "insert_date": "2026-11-23",
+            "version": "OS4.0.11.0.XPPMIXM"
           },
           {
             "insert_date": "2026-11-20",
@@ -170,6 +178,10 @@
             "version": "OS3.0.305.0.WPOCNXM"
           },
           {
+            "insert_date": "2026-11-23",
+            "version": "OS4.0.8.0.XPOMIXM"
+          },
+          {
             "insert_date": "2026-11-21",
             "version": "OS3.0.307.0.WPOEUXM"
           }
@@ -250,8 +262,96 @@
             "version": "OS4.0.6.0.XAVMIXM"
           },
           {
+            "insert_date": "2026-11-23",
+            "version": "OS3.0.303.0.WAVLMCR"
+          },
+          {
             "insert_date": "2026-11-20",
             "version": "OS3.0.305.0.WAVINXM"
+          }
+        ]
+      },
+      "manet": {
+        "name": {
+          "zh": "Redmi K70 Pro",
+          "en": "Redmi K70 Pro"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-23",
+            "version": "OS3.0.307.0.WNMCNXM"
+          },
+          {
+            "insert_date": "2026-11-21",
+            "version": "OS2.0.209.0.VNMCNXM"
+          }
+        ]
+      },
+      "brussels": {
+        "name": {
+          "zh": "REDMI Note 17 Pro Max",
+          "en": "REDMI Note 17 Pro Max"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-23",
+            "version": "OS4.0.8.0.XDRMIXM"
+          },
+          {
+            "insert_date": "2026-11-20",
+            "version": "OS3.0.305.0.WDRMIDC"
+          }
+        ]
+      },
+      "pudding": {
+        "name": {
+          "zh": "小米 17",
+          "en": "Xiaomi 17"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-23",
+            "version": "OS3.0.304.0.WPCLMCR"
+          },
+          {
+            "insert_date": "2026-11-23",
+            "version": "OS3.0.304.0.WPCMXTC"
+          },
+          {
+            "insert_date": "2026-11-20",
+            "version": "OS4.0.3.0.XPCMIXM"
+          },
+          {
+            "insert_date": "2026-11-20",
+            "version": "OS4.0.3.0.XPCEUXM"
+          }
+        ]
+      },
+      "xuanyuan": {
+        "name": {
+          "zh": "小米 15 Ultra",
+          "en": "Xiaomi 15 Ultra"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-23",
+            "version": "OS4.0.8.0.XOAEUXM"
+          },
+          {
+            "insert_date": "2026-11-20",
+            "version": "OS3.0.305.0.WOAMIDC"
+          }
+        ]
+      },
+      "uke": {
+        "name": {
+          "zh": "小米平板 7",
+          "en": "Xiaomi Pad 7"
+        },
+        "versions": [
+          {
+            "insert_date": "2026-11-23",
+            "version": "OS3.0.305.0.WOZMIXM"
           }
         ]
       },
@@ -280,18 +380,6 @@
           {
             "insert_date": "2026-11-22",
             "version": "OS4.0.8.0.XPQMIXM"
-          }
-        ]
-      },
-      "manet": {
-        "name": {
-          "zh": "Redmi K70 Pro",
-          "en": "Redmi K70 Pro"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-11-21",
-            "version": "OS2.0.209.0.VNMCNXM"
           }
         ]
       },
@@ -400,22 +488,6 @@
           {
             "insert_date": "2026-11-20",
             "version": "OS3.0.303.0.WOQEUXM"
-          }
-        ]
-      },
-      "pudding": {
-        "name": {
-          "zh": "小米 17",
-          "en": "Xiaomi 17"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-11-20",
-            "version": "OS4.0.3.0.XPCMIXM"
-          },
-          {
-            "insert_date": "2026-11-20",
-            "version": "OS4.0.3.0.XPCEUXM"
           }
         ]
       },
@@ -571,18 +643,6 @@
           }
         ]
       },
-      "brussels": {
-        "name": {
-          "zh": "REDMI Note 17 Pro Max",
-          "en": "REDMI Note 17 Pro Max"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-11-20",
-            "version": "OS3.0.305.0.WDRMIDC"
-          }
-        ]
-      },
       "serenity": {
         "name": {
           "zh": "REDMI A5 / POCO C71",
@@ -596,18 +656,6 @@
           {
             "insert_date": "2026-11-20",
             "version": "A15.0.12.0.VGWMXAT"
-          }
-        ]
-      },
-      "xuanyuan": {
-        "name": {
-          "zh": "小米 15 Ultra",
-          "en": "Xiaomi 15 Ultra"
-        },
-        "versions": [
-          {
-            "insert_date": "2026-11-20",
-            "version": "OS3.0.305.0.WOAMIDC"
           }
         ]
       },

@@ -7,11 +7,13 @@
 	"code": "BN",
 	"supports": [
 		"OS2.0",
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
 		"15.0",
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -143,6 +145,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.8.0.XBNMIXM": {
+					"os": "OS4.0.8.0.XBNMIXM",
+					"android": "17.0",
+					"release": "2026-11-20",
+					"aspatch": "2026-11-01",
+					"recovery": "dew_global-ota_full-OS4.0.8.0.XBNMIXM-user-17.0-bff6fad64d.zip",
+					"fastboot": ""
+				},
 				"OS3.0.307.0.WBNMIXM": {
 					"os": "OS3.0.307.0.WBNMIXM",
 					"android": "16.0",
