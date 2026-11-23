@@ -124,8 +124,8 @@
 					"release": "2026-11-10",
 					"aspatch": "2026-10-01",
 					"recovery": "warhol-ota_full-OS4.0.5.0.XPSCNXM-user-17.0-721cc93a09.zip",
-					"fastboot": "",
-					"ctelecom": ""
+					"fastboot": "warhol_images_OS4.0.5.0.XPSCNXM_20261029.0000.00_17.0_cn_995f663b67.tgz",
+					"ctelecom": "warhol_images_OS4.0.5.0.XPSCNXM_20261029.0000.00_17.0_cn_chinatelecom_e09a4da607.tgz"
 				},
 				"OS4.0.3.0.XPSCNXM": {
 					"os": "OS4.0.3.0.XPSCNXM",
@@ -346,6 +346,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.6.0.XPSMIXM": {
+					"os": "OS4.0.6.0.XPSMIXM",
+					"android": "17.0",
+					"release": "2026-11-20",
+					"aspatch": "2026-11-01",
+					"recovery": "warhol_global-ota_full-OS4.0.6.0.XPSMIXM-user-17.0-e67e85745b.zip",
+					"fastboot": ""
+				},
 				"OS3.0.311.0.WPSMIXM": {
 					"os": "OS3.0.311.0.WPSMIXM",
 					"android": "16.0",
