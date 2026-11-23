@@ -6,10 +6,12 @@
 	},
 	"code": "BU",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -93,6 +95,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.4.0.XBUMIXM": {
+					"os": "OS4.0.4.0.XBUMIXM",
+					"android": "17.0",
+					"release": "2026-11-23",
+					"aspatch": "2026-10-01",
+					"recovery": "zephyr_global-ota_full-OS4.0.4.0.XBUMIXM-user-17.0-786e0fdc10.zip",
+					"fastboot": ""
+				},
 				"OS3.0.311.0.WBUMIXM": {
 					"os": "OS3.0.311.0.WBUMIXM",
 					"android": "16.0",
