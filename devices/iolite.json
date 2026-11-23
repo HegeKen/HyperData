@@ -6,10 +6,12 @@
 	},
 	"code": "DQ",
 	"supports": [
-		"OS3.0"
+		"OS3.0",
+		"OS4.0"
 	],
 	"android": [
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -280,6 +282,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.7.0.XDQMIXM": {
+					"os": "OS4.0.7.0.XDQMIXM",
+					"android": "17.0",
+					"release": "2026-11-20",
+					"aspatch": "2026-10-01",
+					"recovery": "iolite_global-ota_full-OS4.0.7.0.XDQMIXM-user-17.0-aeb4eb45fb.zip",
+					"fastboot": ""
+				},
 				"OS3.0.309.0.WDQMIXM": {
 					"os": "OS3.0.309.0.WDQMIXM",
 					"android": "16.0",
@@ -568,6 +578,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.303.0.WDQIDXM": {
+					"os": "OS3.0.303.0.WDQIDXM",
+					"android": "16.0",
+					"release": "2026-11-19",
+					"aspatch": "2026-10-01",
+					"recovery": "iolite_id_global-ota_full-OS3.0.303.0.WDQIDXM-user-16.0-e55d40f687.zip",
+					"fastboot": ""
+				},
 				"OS3.0.302.0.WDQIDXM": {
 					"os": "OS3.0.302.0.WDQIDXM",
 					"android": "16.0",
