@@ -8,11 +8,13 @@
 	"supports": [
 		"OS2.0",
 		"OS3.0",
-		"OS3.1"
+		"OS3.1",
+		"OS4.0"
 	],
 	"android": [
 		"15.0",
-		"16.0"
+		"16.0",
+		"17.0"
 	],
 	"type": "phone",
 	"miui": "no",
@@ -584,6 +586,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.9.0.XPREUXM": {
+					"os": "OS4.0.9.0.XPREUXM",
+					"android": "17.0",
+					"release": "2026-11-20",
+					"aspatch": "2026-10-01",
+					"recovery": "flourite_eea_global-ota_full-OS4.0.9.0.XPREUXM-user-17.0-353ed87d14.zip",
+					"fastboot": ""
+				},
 				"OS3.0.307.0.WPREUXM": {
 					"os": "OS3.0.307.0.WPREUXM",
 					"android": "16.0",

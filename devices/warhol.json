@@ -217,6 +217,15 @@
 			"zone": "1",
 			"ep": "0",
 			"roms": {
+				"OS4.0.1.0.XPSCNDM": {
+					"os": "OS4.0.1.0.XPSCNDM",
+					"android": "17.0",
+					"release": "2026-11-24",
+					"aspatch": "2026-10-01",
+					"recovery": "warhol_demo-ota_full-OS4.0.1.0.XPSCNDM-user-17.0-4a5485bc2b.zip",
+					"fastboot": "warhol_demo_images_OS4.0.1.0.XPSCNDM_20261112.0000.00_17.0_cn_3f0b438e41.tgz",
+					"ctelecom": "warhol_demo_images_OS4.0.1.0.XPSCNDM_20261112.0000.00_17.0_cn_chinatelecom_cd24f49d16.tgz"
+				},
 				"OS3.0.302.0.WPSCNDM": {
 					"os": "OS3.0.302.0.WPSCNDM",
 					"android": "16.0",
@@ -352,6 +361,14 @@
 					"release": "2026-11-20",
 					"aspatch": "2026-11-01",
 					"recovery": "warhol_global-ota_full-OS4.0.6.0.XPSMIXM-user-17.0-e67e85745b.zip",
+					"fastboot": ""
+				},
+				"OS4.0.5.0.XPSMIXM": {
+					"os": "OS4.0.5.0.XPSMIXM",
+					"android": "17.0",
+					"release": "2026-11-15",
+					"aspatch": "2026-11-01",
+					"recovery": "warhol_global-ota_full-OS4.0.5.0.XPSMIXM-user-17.0-8eb951256b.zip",
 					"fastboot": ""
 				},
 				"OS3.0.311.0.WPSMIXM": {
@@ -994,6 +1011,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS3.0.306.0.WPSLMCR": {
+					"os": "OS3.0.306.0.WPSLMCR",
+					"android": "16.0",
+					"release": "2026-11-24",
+					"aspatch": "2026-11-01",
+					"recovery": "warhol_lm_cr_global-ota_full-OS3.0.306.0.WPSLMCR-user-16.0-4cba387b51.zip",
+					"fastboot": ""
+				},
 				"OS3.0.305.0.WPSLMCR": {
 					"os": "OS3.0.305.0.WPSLMCR",
 					"android": "16.0",
