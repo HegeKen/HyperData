@@ -297,6 +297,14 @@
 			"zone": "2",
 			"ep": "0",
 			"roms": {
+				"OS4.0.2.0.XFRTWXM": {
+					"os": "OS4.0.2.0.XFRTWXM",
+					"android": "17.0",
+					"release": "2026-11-25",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_tw_global-ota_full-OS4.0.2.0.XFRTWXM-user-17.0-d3547df5d7.zip",
+					"fastboot": "hongkong_tw_global_images_OS4.0.2.0.XFRTWXM_20261120.0000.00_17.0_tw_8cc240d6e6.tgz"
+				},
 				"OS4.0.1.0.XFRTWXM": {
 					"os": "OS4.0.1.0.XFRTWXM",
 					"android": "17.0",
@@ -520,6 +528,86 @@
 					"aspatch": "2026-10-01",
 					"recovery": "hongkong_global-ota_full-OS4.0.4.0.XFRMIXM-user-17.0-a4e8b383ac.zip",
 					"fastboot": "hongkong_global_images_OS4.0.4.0.XFRMIXM_20261109.0000.00_17.0_global_8a705f33cc.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 国际 DC 正式版",
+				"en": "Xiaomi HyperOS Global DC Stable"
+			},
+			"branchCode": "hongkong_dc_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "GBDC",
+			"tag": "MIDC",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "0",
+			"carrier": [
+				"dc"
+			],
+			"region": "global",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.2.0.XFRMIDC": {
+					"os": "OS4.0.2.0.XFRMIDC",
+					"android": "17.0",
+					"release": "2026-11-25",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_dc_global-ota_full-OS4.0.2.0.XFRMIDC-user-17.0-62308fba7c.zip",
+					"fastboot": "hongkong_dc_global_images_OS4.0.2.0.XFRMIDC_20261109.0000.00_17.0_global_dc_c17a08faad.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 拉丁美洲Claro运营商定制版",
+				"en": "Xiaomi HyperOS Latin America Claro Carrier Edition"
+			},
+			"branchCode": "hongkong_lm_cr_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "LMCR",
+			"tag": "LMCR",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				"cr"
+			],
+			"region": "lm",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.3.0.XFRLMCR": {
+					"os": "OS4.0.3.0.XFRLMCR",
+					"android": "17.0",
+					"release": "2026-11-25",
+					"aspatch": "2026-11-01",
+					"recovery": "hongkong_lm_cr_global-ota_full-OS4.0.3.0.XFRLMCR-user-17.0-93cb841458.zip",
+					"fastboot": "hongkong_lm_cr_global_images_OS4.0.3.0.XFRLMCR_20261113.0000.00_17.0_lm_cr_a54d8a5df3.tgz"
 				}
 			}
 		}

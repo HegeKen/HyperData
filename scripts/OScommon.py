@@ -1157,6 +1157,8 @@ flags = {
 	"EMERALDRGlobal":"emerald_r",
 	"EMERALDRTRGlobal":"emerald_r",
 	"emerald_r_tr_global":"emerald_r",
+	"hongkong_dc_global": "hongkong",
+	"hongkong_lm_cr_global": "hongkong",
 	"EMERALDRGlobal":"emerald_r",
 	"emerald_r_global":"emerald_r",
 	"EMERALDRGlobal":"emerald_r",
