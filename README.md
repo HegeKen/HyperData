@@ -10,7 +10,7 @@ HyperOS.fans data / HyperOS.fans 数据仓库。
 
 ## Migration guide / 迁移指南
 
-新的线上 API 根地址为 **https://api.miuier.com/api**。旧文件路径不能原样拼接到新域名后：HyperOS.fans 对应的数据位于 `api/v2/`，机型图片则统一放在仓库根的 `images/`。
+新的线上 API 根地址为 **https://api.miuier.com/api** 。旧文件路径不能原样拼接到新域名后：HyperOS.fans 对应的数据位于 `api/v2/`，机型图片则统一放在仓库根的 `images/`。
 
 | HyperData 原路径 | miroms 新路径 |
 | --- | --- |
