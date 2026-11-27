@@ -399,7 +399,7 @@
 					"release": "2026-11-26",
 					"aspatch": "2026-10-01",
 					"recovery": "hongkong_ru_global-ota_full-OS4.0.2.0.XFRRUXM-user-17.0-72d88fe46d.zip",
-					"fastboot": ""
+					"fastboot": "hongkong_ru_global_images_OS4.0.2.0.XFRRUXM_20261122.0000.00_17.0_ru_37479a4e38.tgz"
 				},
 				"OS4.0.1.0.XFRRUXM": {
 					"os": "OS4.0.1.0.XFRRUXM",
@@ -632,6 +632,46 @@
 					"aspatch": "2026-11-01",
 					"recovery": "hongkong_lm_cr_global-ota_full-OS4.0.3.0.XFRLMCR-user-17.0-93cb841458.zip",
 					"fastboot": "hongkong_lm_cr_global_images_OS4.0.3.0.XFRLMCR_20261113.0000.00_17.0_lm_cr_a54d8a5df3.tgz"
+				}
+			}
+		},
+		{
+			"name": {
+				"zh": "小米澎湃 OS 土耳其正式版",
+				"en": "Xiaomi HyperOS Turkey Stable"
+			},
+			"branchCode": "hongkong_tr_global",
+			"brand": "Xiaomi",
+			"device": {
+				"zh": "小米 18 Pro",
+				"en": "Xiaomi 18 Pro"
+			},
+			"idtag": "TRSO",
+			"tag": "TRXM",
+			"branchtag": "F",
+			"table": [
+				"os",
+				"android",
+				"release",
+				"aspatch",
+				"recovery",
+				"fastboot"
+			],
+			"show": "1",
+			"carrier": [
+				""
+			],
+			"region": "tr",
+			"zone": "2",
+			"ep": "0",
+			"roms": {
+				"OS4.0.2.0.XFRTRXM": {
+					"os": "OS4.0.2.0.XFRTRXM",
+					"android": "17.0",
+					"release": "2026-11-26",
+					"aspatch": "2026-10-01",
+					"recovery": "hongkong_tr_global-ota_full-OS4.0.2.0.XFRTRXM-user-17.0-5acf5def17.zip",
+					"fastboot": ""
 				}
 			}
 		}
