@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-从数据库 roms 表比对 HyperOS 数据是否已收录到设备 JSON 文件：
+从数据库 roms 表比对 HyperOS/STAN 数据是否已收录到设备 JSON 文件：
 - 版本在 JSON 任意分支都不存在时，按对应分支的 table 结构补建条目并插入到正确的版本位置
   （os/android/release/aspatch/文件名等数据全部来自数据库，不发起网络请求）
 - 找不到对应分支时，复用 OScommon.create_branch 自动补建分支（名称/区域/运营商取自 device-template.json）
@@ -42,7 +42,7 @@ SELECT id, device, code, tag, version, android,
        recovery, fastboot, ctelecom, cmobile, cunicom,
        aspatch, beta_date, public_date, release_date
 FROM roms
-WHERE type = 'HyperOS'
+WHERE type IN ('HyperOS', 'STAN')
 ORDER BY id
 """
 
@@ -205,7 +205,7 @@ def insert_rom_sorted(branch, version, entry):
 
 def sync_hyperos_to_json(dry_run=False, only_devices=None):
 	rows = OScommon.db_job(SELECT_SQL)
-	print(f"数据库 HyperOS 记录共 {len(rows)} 条" + ("（dry-run，不写入文件）" if dry_run else ''))
+	print(f"数据库 HyperOS/STAN 记录共 {len(rows)} 条" + ("（dry-run，不写入文件）" if dry_run else ''))
 	if only_devices:
 		print(f"仅处理设备: {', '.join(only_devices)}")
 	print('-' * 80)
